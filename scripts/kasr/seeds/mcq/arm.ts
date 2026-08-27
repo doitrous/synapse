@@ -118,7 +118,7 @@ export const LEAF: McqLeafSeed = {
       label: 'The brachial artery runs the whole arm superficially, from teres major to the neck of the radius',
       definition: 'The brachial artery begins at the lower border of teres major as the continuation of the axillary artery, descends on the medial side of the shaft of the humerus and then passes to the front of the arm midway between the epicondyles into the cubital fossa, ending one centimetre below the elbow joint at the level of the neck of the radius by dividing into the radial and ulnar arteries. It is superficial throughout, covered only by skin and fascia, and is accompanied by two venae comitantes. Its branches are the profunda brachii, the superior ulnar collateral, the inferior ulnar collateral, the nutrient artery to the humerus, muscular branches to biceps, brachialis and coracobrachialis, and the two terminal arteries.',
       objective: 'Give the beginning, the ending and the six groups of branches of the brachial artery.',
-      pitfall: 'Ending it at the elbow joint. The book puts the division one centimetre below the joint, at the neck of the radius, which is why the artery is still one vessel where it is palpated in the cubital fossa.',
+      pitfall: 'Ending it at the elbow joint. The division is one centimetre below the joint, at the neck of the radius, which is why the artery is still one vessel where it is palpated in the cubital fossa.',
       subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-CVS-T01-S01'],
       modulePath: '101 ISK > Anatomy > Upper Limb > Arm',
       type: 'structural_description',
@@ -138,7 +138,7 @@ export const LEAF: McqLeafSeed = {
       label: 'The musculocutaneous nerve leaves the lateral cord, pierces coracobrachialis, and ends as a skin nerve',
       definition: 'The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus, root value C5, C6, C7. It descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery, pierces coracobrachialis, and runs obliquely between biceps and brachialis. Its branches are muscular, to coracobrachialis, biceps and brachialis; about one inch above the elbow it pierces the deep fascia at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm, which divides into anterior and posterior branches supplying the skin of the lateral forearm and the upper part of the ball of the thumb.',
       objective: 'State the origin and root value of the musculocutaneous nerve and list its muscular and cutaneous branches.',
-      pitfall: 'Giving the root value as C5, C6. The book carries C7 as well, and dropping it changes which root lesions are predicted to weaken elbow flexion.',
+      pitfall: 'Giving the root value as C5, C6. C7 belongs too, and dropping it changes which root lesions are predicted to weaken elbow flexion.',
       subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
       modulePath: '101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries',
       type: 'structural_description',
@@ -195,7 +195,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Brachialis arises from both intermuscular septa, so B is true; the other three each belong to the medial septum or to no septum at all. The DEP BOOK printing of this same question carries a margin letter A, which is the medial septum\'s answer, and is overridden there for the same reason.',
       explanations: {
         A: 'The single commonest error on this leaf, and it is the medial septum\'s property. The ulnar nerve leaves the anterior compartment by piercing the medial septum; what pierces the lateral septum is the radial nerve with the radial collateral artery.',
-        B: 'Correct. Brachialis takes origin from the lower half of the front of the humerus and from both intermuscular septa, so the lateral septum does give it origin — along with brachioradialis and extensor carpi radialis longus.',
+        B: 'Brachialis takes origin from the lower half of the front of the humerus and from both intermuscular septa, so the lateral septum does give it origin — along with brachioradialis and extensor carpi radialis longus.',
         C: 'Tempting because the lateral head is the head on the same side as this septum. It is the medial head of triceps that arises from the septa; the lateral head arises from bone, above the spiral groove.',
         D: 'Supinator lies below the elbow, arising from the lateral epicondyle and the ulna. It never reaches the arm, and no intermuscular septum gives it anything.',
       },
@@ -208,7 +208,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The ulnar nerve and the superior ulnar collateral artery pierce the medial septum, which makes A the only true statement here; B, C and D are each the lateral septum\'s property or nobody\'s.',
       explanations: {
-        A: 'Correct. The ulnar nerve pierces the medial intermuscular septum about halfway down the arm, with the superior ulnar collateral artery, and passes behind the medial epicondyle into the forearm.',
+        A: 'The ulnar nerve pierces the medial intermuscular septum about halfway down the arm, with the superior ulnar collateral artery, and passes behind the medial epicondyle into the forearm.',
         B: 'The lateral septum\'s answer. The profunda brachii ends by piercing the lateral septum as the radial collateral artery, with the radial nerve, on the other side of the arm entirely.',
         C: 'Anconeus lies behind the elbow, arising from the back of the lateral epicondyle. Nothing in the arm gives it attachment, and it is on the wrong side for a medial septum.',
         D: 'Half right, which is what makes it dangerous. The septa do give attachment to triceps behind — but to the medial head, not the lateral head, which arises from bone above the spiral groove.',
@@ -224,7 +224,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'One letter of anatomy away from the truth. Biceps inserts into the radial — bicipital — tuberosity; the ulnar tuberosity takes brachialis, and swapping them swaps the two elbow flexors.',
         B: 'The nerve does run with biceps, between it and brachialis, but the muscle it pierces is coracobrachialis. Nothing pierces biceps.',
-        C: 'Correct. Biceps is the powerful supinator of the flexed forearm — supinator alone is the weaker muscle, which is why a screw is driven with the elbow bent.',
+        C: 'Biceps is the powerful supinator of the flexed forearm — supinator alone is the weaker muscle, which is why a screw is driven with the elbow bent.',
         D: 'Backwards. Biceps flexes the elbow; the muscle that extends the flexed elbow is triceps, on the other side of the arm.',
       },
     },
@@ -236,7 +236,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Pectoralis minor is inserted into the medial border and upper surface of the coracoid process. The DEP BOOK printing `the-coracoid-process-of-the-scapula-gives-attachment-to-dep-1994b4da` keys A, which agrees.',
       explanations: {
-        A: 'Correct. Pectoralis minor is inserted into the coracoid process, along with the short head of biceps and coracobrachialis from its tip and three ligaments — coraco-acromial, coraco-clavicular and coraco-humeral.',
+        A: 'Pectoralis minor is inserted into the coracoid process, along with the short head of biceps and coracobrachialis from its tip and three ligaments — coraco-acromial, coraco-clavicular and coraco-humeral.',
         B: 'The capsule of the shoulder joint is attached round the glenoid margin above and the anatomical neck below. It passes beneath the coracoid without touching it; what bridges the two is the coraco-humeral ligament.',
         C: 'The trap the whole question is built on. It is the *short* head of biceps that arises from the coracoid; the long head arises from the supraglenoid tubercle inside the joint.',
         D: 'Wrong tubercle and wrong muscle. The long head of triceps arises from the infraglenoid tubercle, below the glenoid cavity, on the opposite aspect of the scapula from the coracoid.',
@@ -250,7 +250,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. All three bands of the triangular ulnar collateral ligament converge on the medial epicondyle, so A is the attachment that describes the ligament as a whole; the DEP BOOK printing `the-ulnar-collateral-ligament-choose-the-correct-answer-dep-3303080a` keys A, and the third printing `the-ulnar-collateral-ligament-ceb5359a` offers A against three plainly false options.',
       explanations: {
-        A: 'Correct. The ligament is triangular and its apex is on the medial epicondyle; from there an anterior band runs to the coronoid process, a posterior band to the olecranon and an oblique band between the two.',
+        A: 'The ligament is triangular and its apex is on the medial epicondyle; from there an anterior band runs to the coronoid process, a posterior band to the olecranon and an oblique band between the two.',
         B: 'True of one band and not of the ligament. The posterior band does reach the medial margin of the olecranon, which is why this tempts — but the question asks for the ligament\'s attachment, and only the medial epicondyle is shared by all three bands.',
         C: 'Confuses a ligament with a muscle origin. Flexor carpi ulnaris arises by two heads from the medial epicondyle and the olecranon and covers the ligament; triceps and extensor carpi ulnaris are behind and below it.',
         D: 'The relation the wrong way round. The ulnar nerve lies on the ligament as it passes behind the medial epicondyle — superficial to it, between it and flexor carpi ulnaris — which is why the nerve is palpable there and vulnerable to a blow.',
@@ -266,7 +266,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'One vessel too proximal. The axillary artery ends at the lower border of teres major and the profunda brachii arises just below that, from the brachial; the branches of the third part of the axillary are the subscapular and the two circumflex humeral arteries.',
         B: 'The right groove and the wrong nerve. The spiral groove carries the radial nerve; the ulnar nerve is on the medial side of the arm and pierces the medial septum with the superior ulnar collateral artery.',
-        C: 'Correct. It passes backwards between the long and medial heads of triceps with the radial nerve, then winds round the humerus in the spiral groove.',
+        C: 'It passes backwards between the long and medial heads of triceps with the radial nerve, then winds round the humerus in the spiral groove.',
         D: 'Biceps lies in the anterior compartment and is supplied by muscular branches of the brachial artery. The profunda brachii is a posterior-compartment vessel and never reaches it.',
       },
     },
@@ -279,7 +279,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Extensor carpi ulnaris is supplied by the posterior interosseous nerve, well distal to the groove, so it is paralysed and B is true. The DEP BOOK printing `regarding-injury-of-radial-nerve-in-the-spiral-groove-choose-20fddd6d` carries a margin letter A, which is overridden there because triceps is not completely paralysed.',
       explanations: {
         A: 'The classic overstatement. The branches to the long and medial heads of triceps leave the radial nerve in the axilla, above the groove, so a lesion in the groove spares most of the muscle; elbow extension is weakened against resistance, not lost.',
-        B: 'Correct. Extensor carpi ulnaris is a posterior interosseous muscle, and everything the radial nerve supplies below the groove goes — which is exactly what produces the wrist drop.',
+        B: 'Extensor carpi ulnaris is a posterior interosseous muscle, and everything the radial nerve supplies below the groove goes — which is exactly what produces the wrist drop.',
         C: 'The ape hand belongs to the median nerve, from wasting of the thenar eminence and loss of opposition of the thumb. The radial deformity is wrist drop.',
         D: 'The wrong side of the hand. The radial nerve covers the lateral two thirds of the dorsum; the medial third is ulnar territory, and it is untouched by a lesion in the groove.',
       },
@@ -292,7 +292,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Supination is produced by supinator and biceps together, and it is biceps — a far bulkier muscle than either pronator — that makes it the stronger movement, so A is the only complete answer.',
       explanations: {
-        A: 'Correct. Supinator turns the forearm on its own in the extended position, but biceps is added once the elbow is flexed, and the two together outweigh pronator teres and pronator quadratus.',
+        A: 'Supinator turns the forearm on its own in the extended position, but biceps is added once the elbow is flexed, and the two together outweigh pronator teres and pronator quadratus.',
         B: 'True as far as it goes and therefore the commonest wrong choice. Supinator alone is roughly a match for the two pronators; the extra power comes from biceps.',
         C: 'Brachioradialis is a flexor of the elbow that returns the forearm to the mid-prone position from either extreme. It neither supinates nor pronates beyond that neutral point.',
         D: 'Brachialis flexes the elbow and does nothing else. It is inserted into the ulna, which does not rotate, so it cannot contribute to supination at all.',
@@ -306,7 +306,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The deltoid tuberosity lies on the lateral surface at the middle of the shaft, which makes A true; coracobrachialis is inserted on the medial border, the spiral groove is posterior and the bicipital groove is in the upper third. The printing `middle-third-of-humerus-choose-the-correct-answer-f032c445` carries a pencilled A beside its options, and the DEP BOOK copy\'s key of B is overridden there for the same reason.',
       explanations: {
-        A: 'Correct. The deltoid tuberosity is the rough V on the lateral surface at the middle of the shaft, receiving deltoid and separating the two heads of brachialis below it.',
+        A: 'The deltoid tuberosity is the rough V on the lateral surface at the middle of the shaft, receiving deltoid and separating the two heads of brachialis below it.',
         B: 'The right level and the wrong side. Coracobrachialis is inserted into the middle of the medial border of the shaft, opposite the deltoid tuberosity — the two mark the same third from opposite sides.',
         C: 'The one that costs the radial nerve. The spiral groove crosses the posterior surface, which is why a fracture of the middle third injures the radial nerve and not the median.',
         D: 'Right groove, wrong third and wrong surface. The intertubercular (bicipital) groove is anterior and belongs to the upper third, between the two tuberosities.',
@@ -320,7 +320,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The wrong epicondyle. It is the ulnar nerve that is in contact with the medial epicondyle, grooving its back; the radial nerve reaches the front of the lateral epicondyle.',
         B: 'Both muscles are real neighbours of the nerve lower down, which is what makes this plausible, but at this level the nerve lies against brachialis, with brachioradialis and extensor carpi radialis longus lateral to it.',
-        C: 'Correct. Having wound round the humerus, the radial nerve pierces the lateral intermuscular septum and descends in the groove between brachialis medially and brachioradialis laterally.',
+        C: 'Having wound round the humerus, the radial nerve pierces the lateral intermuscular septum and descends in the groove between brachialis medially and brachioradialis laterally.',
         D: 'That plane belongs to the posterior interosseous nerve after it has pierced supinator, or to the superficial branch under brachioradialis — both are below the elbow, not around it.',
       },
     },
@@ -332,7 +332,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'D',
       answerOverrideReason: 'The printed key is A, and A is wrong: the medial head of triceps is supplied by the radial nerve in the axilla and again in the arm. Biceps is musculocutaneous, and is the only muscle listed that the radial nerve does not supply. The unkeyed printing of the same question, `all-of-the-following-muscles-are-supplied-by-the-radial-nerv-c798f4a7`, is overridden to D on the same reasoning.',
       explanations: {
-        A: 'The key the book prints, and it is wrong. The medial head of triceps has two radial branches — one from the axilla, one running with the ulnar nerve down the arm — which is exactly why the head is spared by a lesion in the spiral groove.',
+        A: 'The printed key, and it is wrong. The medial head of triceps has two radial branches — one from the axilla, one running with the ulnar nerve down the arm — which is exactly why the head is spared by a lesion in the spiral groove.',
         B: 'True, so not the exception. Anconeus is supplied by the branch to the medial head of triceps continuing past the elbow.',
         C: 'True, so not the exception. The lateral head is supplied by the radial nerve as it lies in the spiral groove.',
         D: 'The exception, and the answer. Biceps is supplied by the musculocutaneous nerve from the lateral cord — the one anterior-compartment muscle on a list otherwise made of extensors.',
@@ -362,7 +362,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Biceps inserts into the radial (bicipital) tuberosity. The ulnar tuberosity belongs to brachialis, and the swap turns one elbow flexor into the other.',
         B: 'The musculocutaneous nerve pierces coracobrachialis, then runs between biceps and brachialis without piercing either.',
-        C: 'Correct. Biceps is the powerful supinator of the flexed forearm; supinator alone is the weaker of the two.',
+        C: 'Biceps is the powerful supinator of the flexed forearm; supinator alone is the weaker of the two.',
         D: 'Biceps flexes the elbow. Extending the flexed elbow is the work of triceps and anconeus.',
       },
     },
@@ -374,7 +374,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial tuberosity, not the ulnar. The ulnar tuberosity takes brachialis, and the two flexors are told apart by which bone they pull on.',
         B: 'The nerve that runs with biceps pierces coracobrachialis, not biceps. Nothing pierces biceps.',
-        C: 'Correct. Biceps is the powerful supinator, and adding it to supinator is what makes supination stronger than pronation.',
+        C: 'Biceps is the powerful supinator, and adding it to supinator is what makes supination stronger than pronation.',
         D: 'Reversed. Biceps flexes the elbow; the flexed elbow is extended by triceps.',
       },
     },
@@ -390,7 +390,7 @@ export const LEAF: McqLeafSeed = {
         B: 'The right plexus and the wrong cord. Biceps is supplied by the musculocutaneous nerve, which comes from the lateral cord; the medial cord gives the ulnar nerve and the medial pectoral and cutaneous nerves.',
         C: 'The axillary nerve supplies deltoid and teres minor and stops there. It never reaches the front of the arm.',
         D: 'Exactly backwards, and the most instructive distractor here: biceps is the powerful supinator, and the pronators are pronator teres and pronator quadratus in the forearm.',
-        E: 'Correct. Both the short head of biceps and coracobrachialis arise from the tip of the coracoid, and the biceps tendon is the lateral of the two.',
+        E: 'Both the short head of biceps and coracobrachialis arise from the tip of the coracoid, and the biceps tendon is the lateral of the two.',
       },
     },
     {
@@ -401,10 +401,10 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'E',
       answerOverrideReason: 'The printed key is A, and A is wrong: the long head of biceps arises from the supraglenoid tubercle, and the infraglenoid tubercle gives the long head of triceps. E is true and is keyed as the answer on nothing here, but the two other printings of this question carry the same option E and no rival true statement.',
       explanations: {
-        A: 'The key the book prints, and it is a swap of one syllable: supra- for infra-. The infraglenoid tubercle gives the long head of triceps; the long head of biceps comes from the supraglenoid tubercle.',
+        A: 'The printed key, and it is a swap of one syllable: supra- for infra-. The infraglenoid tubercle gives the long head of triceps; the long head of biceps comes from the supraglenoid tubercle.',
         B: 'The lateral cord, not the medial. The musculocutaneous nerve that supplies biceps is the lateral cord\'s own branch.',
         C: 'The axillary nerve supplies deltoid and teres minor only, and does not enter the anterior compartment of the arm.',
-        E: 'Correct. The short head arises from the lateral part of the tip of the coracoid process, immediately lateral to coracobrachialis, which takes the medial part of the same tip.',
+        E: 'The short head arises from the lateral part of the tip of the coracoid process, immediately lateral to coracobrachialis, which takes the medial part of the same tip.',
       },
     },
     {
@@ -419,7 +419,7 @@ export const LEAF: McqLeafSeed = {
         B: 'The musculocutaneous nerve is a branch of the lateral cord, not the medial.',
         C: 'The axillary nerve reaches deltoid and teres minor and no further; the two bellies of biceps are musculocutaneous.',
         D: 'The opposite of the truth. Biceps is the powerful supinator; pronation is pronator teres and pronator quadratus.',
-        E: 'Correct. Short head and coracobrachialis share the tip of the coracoid, with the biceps tendon lateral.',
+        E: 'Short head and coracobrachialis share the tip of the coracoid, with the biceps tendon lateral.',
       },
     },
     {
@@ -444,9 +444,9 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is C, and C is wrong: supination is the stronger movement, because biceps is added to supinator while the pronators have no comparable muscle. A is left by elimination and is true — the axis of pronation-supination runs from the head of the radius to the head of the ulna, oblique to the long axis of the forearm.',
       explanations: {
-        A: 'Correct. The axis runs from the centre of the head of the radius above to the head of the ulna below, and that line crosses the long axis of the forearm obliquely rather than lying along it.',
+        A: 'The axis runs from the centre of the head of the radius above to the head of the ulna below, and that line crosses the long axis of the forearm obliquely rather than lying along it.',
         B: 'The two positions swapped. The bones are parallel in supination and crossed in pronation, the radius having rotated over the ulna.',
-        C: 'The key the book prints, and the reverse of the truth. Supination is the stronger movement because biceps joins supinator; there is no pronator of comparable bulk.',
+        C: 'The printed key, and the reverse of the truth. Supination is the stronger movement because biceps joins supinator; there is no pronator of comparable bulk.',
         D: 'True only of the flexed elbow. With the elbow extended biceps pulls almost along the axis of the radius and cannot rotate it, so supination is then the work of supinator alone.',
       },
     },
@@ -467,8 +467,8 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is B, and B is wrong: coracobrachialis is inserted into the middle of the *medial* border of the shaft, not laterally. The deltoid tuberosity is the lateral marking of the middle third, so A is true. The unkeyed printing `middle-third-of-humerus-choose-the-correct-answer-f032c445` carries a pencilled A beside its third option, which agrees.',
       explanations: {
-        A: 'Correct. The deltoid tuberosity is on the lateral surface at the middle of the shaft; it is what makes the middle third recognisable from the outside.',
-        B: 'The key the book prints, and it is the same landmark from the wrong side. Coracobrachialis is inserted on the medial border at this level, facing the deltoid tuberosity across the bone.',
+        A: 'The deltoid tuberosity is on the lateral surface at the middle of the shaft; it is what makes the middle third recognisable from the outside.',
+        B: 'The printed key, and it is the same landmark from the wrong side. Coracobrachialis is inserted on the medial border at this level, facing the deltoid tuberosity across the bone.',
         C: 'The spiral groove is posterior. Putting it in front would mean the radial nerve lay against brachialis for the whole arm, and a shaft fracture would drop nothing.',
         D: 'The intertubercular groove is anterior and belongs to the upper third, between the greater and lesser tuberosities.',
       },
@@ -481,7 +481,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key in the answer list; the page carries a pencilled A beside the options, and A is anatomically right — the deltoid tuberosity is the lateral marking of the middle third of the shaft.',
       explanations: {
-        A: 'Correct. The deltoid tuberosity lies on the lateral surface at the middle of the shaft and receives the insertion of deltoid.',
+        A: 'The deltoid tuberosity lies on the lateral surface at the middle of the shaft and receives the insertion of deltoid.',
         B: 'Coracobrachialis is inserted into the medial border of the shaft at the same level, not the lateral.',
         C: 'The spiral groove crosses the posterior surface, carrying the radial nerve and the profunda brachii vessels.',
         D: 'The bicipital groove is anterior and lies in the upper third of the shaft.',
@@ -504,7 +504,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The basilic vein lies on the medial side of the arm after piercing the deep fascia, so the artery is lateral to it and A is true; each of the other four misplaces the artery relative to a named structure.',
       explanations: {
-        A: 'Correct. The basilic vein pierces the deep fascia at the middle of the arm and ascends medial to the brachial artery before joining the venae comitantes to form the axillary vein.',
+        A: 'The basilic vein pierces the deep fascia at the middle of the arm and ascends medial to the brachial artery before joining the venae comitantes to form the axillary vein.',
         B: 'The cephalic vein runs in the groove lateral to biceps and then in the deltopectoral groove — lateral and superficial to the artery, not behind it. "Anterior to" would put the deep artery in front of a superficial vein.',
         C: 'The right crossing described from the wrong side, and the word "all" gives it away. The median nerve crosses in front of the artery in most people and behind it in a minority; no relation of the two is constant.',
         D: 'The profunda brachii leaves the brachial artery and goes backwards into the spiral groove. The two run in different compartments, not in parallel.',
@@ -522,7 +522,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Biceps is musculocutaneous. It is an anterior-compartment muscle, and the radial nerve supplies no muscle in front of the arm except the lateral part of brachialis.',
         B: 'Coracobrachialis is musculocutaneous too — indeed the nerve pierces it, which is the strongest possible evidence of who supplies it.',
         C: 'Teres minor is one of the two muscles of the axillary nerve, along with deltoid. It is close to the radial nerve\'s territory on the back of the shoulder, which is what makes it tempting.',
-        D: 'Correct. Anconeus is supplied by the radial nerve, and it is the only extensor on the list.',
+        D: 'Anconeus is supplied by the radial nerve, and it is the only extensor on the list.',
       },
     },
     {
@@ -535,8 +535,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Biceps brachii is musculocutaneous.',
         B: 'Coracobrachialis is musculocutaneous, and is pierced by that nerve.',
-        C: 'The key the book prints, and it is the neighbouring nerve. Teres minor and deltoid are the axillary nerve\'s two muscles; the axillary and radial nerves are both branches of the posterior cord, which is what makes the swap easy.',
-        D: 'Correct. Anconeus takes the continuation of the radial branch to the medial head of triceps.',
+        C: 'The printed key, and it is the neighbouring nerve. Teres minor and deltoid are the axillary nerve\'s two muscles; the axillary and radial nerves are both branches of the posterior cord, which is what makes the swap easy.',
+        D: 'Anconeus takes the continuation of the radial branch to the medial head of triceps.',
       },
     },
     {
@@ -547,7 +547,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Biceps flexes the elbow strongly when the forearm is supinated, but in pronation its tendon is wound round the radius and it pulls at a disadvantage; it also tends to supinate rather than simply flex.',
         B: 'Coracobrachialis crosses the shoulder, not the elbow. It flexes and adducts the arm at the shoulder joint and has no action below it.',
-        C: 'Correct. Brachialis is inserted into the ulna, which does not rotate, so its pull is unaffected by pronation — it is the flexor of the pronated forearm and the main flexor of the elbow in any position.',
+        C: 'Brachialis is inserted into the ulna, which does not rotate, so its pull is unaffected by pronation — it is the flexor of the pronated forearm and the main flexor of the elbow in any position.',
         D: 'Deltoid acts at the shoulder alone. It is on the list because it flexes the arm, which is a different joint from the elbow.',
       },
     },
@@ -561,7 +561,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Biceps is the powerful flexor of the supinated forearm; pronation winds its tendon round the radius and robs it of leverage.',
         B: 'Coracobrachialis acts on the shoulder joint, flexing and adducting the arm, and does not cross the elbow.',
-        C: 'Correct. Brachialis is inserted into the coronoid process and tuberosity of the ulna, a bone that does not rotate, so it flexes the elbow equally in pronation and supination.',
+        C: 'Brachialis is inserted into the coronoid process and tuberosity of the ulna, a bone that does not rotate, so it flexes the elbow equally in pronation and supination.',
         D: 'Deltoid is a shoulder muscle and takes no part in elbow movement.',
       },
     },
@@ -582,7 +582,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The axillary artery ends at the lower border of teres major, and the profunda brachii arises below that from the brachial artery. The third part of the axillary gives the subscapular and circumflex humeral arteries.',
         B: 'The wrong nerve for that groove. The spiral groove carries the radial nerve; the ulnar nerve stays medial and pierces the medial intermuscular septum with the superior ulnar collateral artery.',
-        C: 'Correct. It runs backwards between the long and medial heads of triceps, alongside the radial nerve, before entering the spiral groove.',
+        C: 'It runs backwards between the long and medial heads of triceps, alongside the radial nerve, before entering the spiral groove.',
         D: 'Biceps lies in front and is supplied by muscular branches direct from the brachial artery; the profunda brachii serves the posterior compartment.',
       },
     },
@@ -594,8 +594,8 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'B',
       answerOverrideReason: 'The printed key is A, and A is wrong: the branches to the long and medial heads of triceps leave the radial nerve in the axilla, above the groove, so the paralysis of triceps is partial and never complete. B is true — extensor carpi ulnaris is a posterior interosseous muscle and is lost.',
       explanations: {
-        A: 'The key the book prints, and the word that makes it false is "complete". Triceps keeps its axillary branches to the long and medial heads; the patient is weak in resisted extension of the elbow, not unable to extend it.',
-        B: 'Correct. Everything the radial nerve supplies distal to the groove is paralysed, extensor carpi ulnaris among them, and that loss is what produces wrist drop.',
+        A: 'The printed key, and the word that makes it false is "complete". Triceps keeps its axillary branches to the long and medial heads; the patient is weak in resisted extension of the elbow, not unable to extend it.',
+        B: 'Everything the radial nerve supplies distal to the groove is paralysed, extensor carpi ulnaris among them, and that loss is what produces wrist drop.',
         C: 'The ape hand is a median-nerve deformity from a wasted thenar eminence. The radial deformity is wrist drop.',
         D: 'The medial third of the dorsum is ulnar territory. The radial nerve supplies the lateral two thirds.',
       },
@@ -638,9 +638,9 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'C',
       answerOverrideReason: 'The printed key is A, and A is wrong: brachialis is supplied by the musculocutaneous nerve, with a twig from the radial, and never by the median. C is true — brachialis is the main flexor of the elbow joint. This is the department book\'s revised printing of a question whose earlier versions had no true option at all, and the revision is exactly the addition of C.',
       explanations: {
-        A: 'The key the book prints, and the wrong nerve. The median nerve descends the arm alongside brachialis, resting on it, and gives it nothing; brachialis is musculocutaneous, with a small radial twig to its lateral part.',
+        A: 'The printed key, and the wrong nerve. The median nerve descends the arm alongside brachialis, resting on it, and gives it nothing; brachialis is musculocutaneous, with a small radial twig to its lateral part.',
         B: 'The wrong end of the bone. Brachialis arises from the lower half of the front of the shaft, embracing the deltoid insertion; the upper third of the humerus carries the bicipital groove and its three muscles.',
-        C: 'Correct. Brachialis is the main flexor of the elbow: it acts in every position of the forearm, and biceps only reinforces it when the forearm is supinated.',
+        C: 'Brachialis is the main flexor of the elbow: it acts in every position of the forearm, and biceps only reinforces it when the forearm is supinated.',
         D: 'A tuberosity that does not exist under that name. Brachialis is inserted into the coronoid process and the tuberosity of the *ulna*; "pronator tuberosity" blends the pronator teres impression on the radius with the ulnar tuberosity.',
       },
     },
@@ -673,7 +673,7 @@ export const LEAF: McqLeafSeed = {
         B: 'True, and half the answer. The cubital fossa is bounded medially by pronator teres and laterally by brachioradialis, with the line between the epicondyles as its base.',
         C: 'True, and the other half. The roof is skin and superficial fascia carrying parts of the cephalic and basilic veins and the median cubital vein between them, plus deep fascia reinforced by the bicipital aponeurosis.',
         D: 'False, and the reason the fossa is described from medial to lateral. The median nerve lies medial to the brachial artery here, having crossed it higher in the arm; only the biceps tendon and the radial nerve are lateral to the artery.',
-        E: 'Correct. Both B and C are true statements about the fossa, so the compound option is the only complete answer.',
+        E: 'Both B and C are true statements about the fossa, so the compound option is the only complete answer.',
       },
     },
     {
@@ -682,7 +682,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Classify the elbow joint and name the bony parts that form it.',
       explanations: {
-        A: 'Correct. The lower end of the humerus — trochlea and capitulum — meets the trochlear notch of the ulna and the head of the radius, so all three bones share the joint.',
+        A: 'The lower end of the humerus — trochlea and capitulum — meets the trochlear notch of the ulna and the head of the radius, so all three bones share the joint.',
         B: 'Coracobrachialis crosses the shoulder joint and never reaches the elbow. Elbow flexion is brachialis and biceps, with brachioradialis assisting.',
         C: 'The capsule deliberately avoids the head of the radius: it is attached to the neck and to the anular ligament, leaving the head free to spin inside the ring during pronation and supination.',
         D: 'The pivot joint at this level is the superior radio-ulnar joint, which shares the capsule. The elbow itself is a hinge, and its single axis is why it only flexes and extends.',
@@ -697,7 +697,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The reverse. Biceps is the powerful supinator; the pronators are pronator teres and pronator quadratus, both in the forearm.',
         B: 'A near miss that catches students who remember two nerves. Brachialis does take two — but the musculocutaneous and the *radial*, not the median; the median nerve merely lies on it.',
         C: 'Biceps inserts into the radial tuberosity. The ulnar tuberosity is brachialis\'s insertion, and this option is that swap.',
-        D: 'Correct. Brachialis is the primary flexor of the elbow, acting in every position of the forearm, with biceps reinforcing it only in supination.',
+        D: 'Brachialis is the primary flexor of the elbow, acting in every position of the forearm, with biceps reinforcing it only in supination.',
       },
     },
     {
@@ -710,8 +710,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Biceps is the powerful supinator, not a pronator.',
         B: 'Brachialis is supplied by the musculocutaneous nerve with a radial twig; the median nerve lies against it but supplies it nothing.',
-        C: 'The key the book prints, and it is the standard swap between the two flexors. Biceps goes to the radial tuberosity; the ulnar tuberosity takes brachialis.',
-        D: 'Correct. Brachialis is the primary flexor of the elbow joint in every position of the forearm.',
+        C: 'The printed key, and it is the standard swap between the two flexors. Biceps goes to the radial tuberosity; the ulnar tuberosity takes brachialis.',
+        D: 'Brachialis is the primary flexor of the elbow joint in every position of the forearm.',
       },
     },
     {
@@ -722,10 +722,10 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is D, and D is wrong: the posterior interosseous nerve is the deep terminal branch, given off in front of the lateral epicondyle, not in the spiral groove — the nerve is still undivided there. A is true: the radial nerve and the profunda brachii vessels share the radial (spiral) groove.',
       explanations: {
-        A: 'Correct. The nerve and the profunda brachii artery wind round the back of the humerus together, which is why one fracture can injure both.',
+        A: 'The nerve and the profunda brachii artery wind round the back of the humerus together, which is why one fracture can injure both.',
         B: 'The root value is C5 to T1. Dropping T1 makes the radial nerve look like a purely upper-trunk nerve and changes which root lesions are predicted to weaken it.',
         C: 'The radial nerve gives two cutaneous branches in the arm — the posterior cutaneous nerve of the arm in the axilla and the lower lateral cutaneous nerve of the arm in the groove — plus the posterior cutaneous nerve of the forearm.',
-        D: 'The key the book prints, and it is one level too high. The radial nerve divides into superficial and deep branches in front of the lateral epicondyle; the deep branch becomes the posterior interosseous nerve after piercing supinator.',
+        D: 'The printed key, and it is one level too high. The radial nerve divides into superficial and deep branches in front of the lateral epicondyle; the deep branch becomes the posterior interosseous nerve after piercing supinator.',
       },
     },
     {
@@ -739,7 +739,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Biceps has the short head. Triceps has a long, a lateral and a medial head, and the word "short" here is borrowed from the muscle on the other side of the arm.',
         B: 'Supra- for infra-, and it swaps the two muscles again. The supraglenoid tubercle gives the long head of biceps; the long head of triceps comes from the infraglenoid tubercle.',
         C: 'The ulnar nerve passes down the medial side of the arm beside the medial head of triceps without supplying it. Every head of triceps is radial.',
-        D: 'Correct. The three heads join in a common tendon inserted into the upper surface of the olecranon process of the ulna.',
+        D: 'The three heads join in a common tendon inserted into the upper surface of the olecranon process of the ulna.',
       },
     },
     {
@@ -752,7 +752,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The two relations swapped. The nerve runs *behind* biceps and *in front of* brachialis — it lies in the plane between them, so it is deep to biceps, not anterior to it.',
         b: 'The lateral cord, not the medial. The medial cord gives the ulnar nerve, the medial pectoral nerve and the two medial cutaneous nerves; the musculocutaneous is the lateral cord\'s muscular branch.',
-        c: 'Correct. It emerges at the lateral border of the biceps tendon, pierces the deep fascia and becomes the lateral cutaneous nerve of the forearm, supplying the skin of the lateral side of the forearm.',
+        c: 'It emerges at the lateral border of the biceps tendon, pierces the deep fascia and becomes the lateral cutaneous nerve of the forearm, supplying the skin of the lateral side of the forearm.',
         d: 'Brachioradialis is supplied by the radial nerve. The musculocutaneous supplies exactly three muscles — coracobrachialis, biceps and brachialis — all in the arm.',
       },
     },
@@ -783,8 +783,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is C, and C is the exact opposite of the truth: biceps is the powerful supinator, and it cannot pronate. B is the answer — flexion and supination of the forearm.',
       explanations: {
         a: 'Extension of the forearm is triceps, in the posterior compartment. Biceps is a flexor.',
-        b: 'Correct. Biceps flexes the elbow and supinates the forearm, and it is the supination that makes it the powerful muscle of that movement.',
-        c: 'The key the book prints, and it is reversed. Pronation is pronator teres and pronator quadratus; biceps opposes them.',
+        b: 'Biceps flexes the elbow and supinates the forearm, and it is the supination that makes it the powerful muscle of that movement.',
+        c: 'The printed key, and it is reversed. Pronation is pronator teres and pronator quadratus; biceps opposes them.',
         d: 'Biceps stops at the radial tuberosity and the bicipital aponeurosis, well above the wrist. Wrist flexion is the forearm flexor group.',
       },
     },
@@ -796,10 +796,10 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'D',
       answerOverrideReason: 'The printed key is A, and A is wrong by one word: the brachial artery commences at the *lower* border of teres major, which is where the axillary artery ends. D is true — the artery ends about a centimetre below the elbow joint, at the level of the neck of the radius.',
       explanations: {
-        A: 'The key the book prints, and the border is wrong. The axillary artery runs from the outer border of the first rib to the lower border of teres major, and the brachial artery takes over there; the upper border of teres major is still axillary.',
+        A: 'The printed key, and the border is wrong. The axillary artery runs from the outer border of the first rib to the lower border of teres major, and the brachial artery takes over there; the upper border of teres major is still axillary.',
         B: 'The artery lies on the medial head of triceps and then on brachialis and never touches bone. That is why it is compressed against the humerus *through* brachialis when a blood pressure cuff is used.',
         C: 'The wrong side of the tendon. In the cubital fossa the biceps tendon is lateral to the artery, and the median nerve medial to it.',
-        D: 'Correct. It divides into the radial and ulnar arteries about one centimetre below the elbow joint, opposite the neck of the radius.',
+        D: 'It divides into the radial and ulnar arteries about one centimetre below the elbow joint, opposite the neck of the radius.',
         E: 'The artery is accompanied by two venae comitantes, not by the basilic vein. The basilic vein is superficial for the lower half of the arm and joins the venae comitantes only at the axilla.',
       },
     },
@@ -809,7 +809,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Place the brachial artery relative to the biceps tendon and the median nerve, and give the level at which it divides.',
       explanations: {
-        A: 'Correct. In the cubital fossa the order from medial to lateral is median nerve, brachial artery, biceps tendon — so the artery lies medial to the tendon, and that is how it is found for a pulse.',
+        A: 'In the cubital fossa the order from medial to lateral is median nerve, brachial artery, biceps tendon — so the artery lies medial to the tendon, and that is how it is found for a pulse.',
         B: 'The wrong bone. The artery divides opposite the neck of the *radius*; the neck of the humerus is at the shoulder, where the vessel is still the axillary artery.',
         C: 'The opposite of its defining feature. The brachial artery is superficial throughout, covered only by skin and fascia, which is why it can be compressed to arrest bleeding in the forearm.',
         D: 'The crossing is real but the direction is reversed. The median nerve begins lateral to the artery and crosses in front of it to the medial side, not medial to lateral.',
@@ -823,7 +823,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The termination of the brachial artery is one of the four contents of the fossa; the musculocutaneous and ulnar nerves both lie outside it, and brachialis forms its floor rather than sending a tendon through it.',
       explanations: {
-        A: 'Correct. The contents from medial to lateral are the median nerve, the brachial artery with the beginnings of the radial and ulnar arteries, the biceps tendon, and the radial nerve.',
+        A: 'The contents from medial to lateral are the median nerve, the brachial artery with the beginnings of the radial and ulnar arteries, the biceps tendon, and the radial nerve.',
         B: 'It comes close but does not enter. The musculocutaneous nerve has already pierced the deep fascia at the lateral border of the biceps tendon, so it is subcutaneous by this level, not in the fossa.',
         C: 'The wrong side of the elbow entirely. The ulnar nerve passes behind the medial epicondyle, and that is why an injury there spares the contents of the fossa.',
         D: 'Brachialis is the floor of the fossa, not a content of it, and its insertion is into the ulna just beyond. The tendon lying in the fossa is the biceps tendon.',
@@ -835,7 +835,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Name what attaches to the coracoid process and separate it from what attaches to the supraglenoid and infraglenoid tubercles.',
       explanations: {
-        A: 'Correct. Pectoralis minor is inserted into the medial border and upper surface of the coracoid process; the short head of biceps and coracobrachialis take its tip.',
+        A: 'Pectoralis minor is inserted into the medial border and upper surface of the coracoid process; the short head of biceps and coracobrachialis take its tip.',
         B: 'The capsule of the shoulder joint runs from the glenoid margin to the anatomical neck and does not reach the coracoid. It is the coraco-humeral ligament that bridges the gap.',
         C: 'The head this question is built to catch. The short head of biceps takes the coracoid; the long head arises from the supraglenoid tubercle.',
         D: 'The long head of triceps arises from the infraglenoid tubercle, on the other side of the glenoid cavity.',
@@ -851,8 +851,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Coracobrachialis is inserted into the medial border of the humerus, halfway down the arm. It does not cross the elbow at all.',
         B: 'The commonest wrong answer, and it is one bone out. Biceps is inserted into the radial tuberosity, which faces the coronoid process across the joint.',
-        C: 'The key the book prints, and it is the wrong end of the ulna. Triceps takes the olecranon behind; the coronoid process is in front.',
-        D: 'Correct. Brachialis descends from the lower half of the humerus to the coronoid process and the tuberosity of the ulna.',
+        C: 'The printed key, and it is the wrong end of the ulna. Triceps takes the olecranon behind; the coronoid process is in front.',
+        D: 'Brachialis descends from the lower half of the humerus to the coronoid process and the tuberosity of the ulna.',
       },
     },
     {
@@ -865,7 +865,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Both heads of biceps are musculocutaneous; splitting the muscle into heads does not change its nerve.',
         B: 'The short head is musculocutaneous like the long head. The two heads of biceps share one nerve.',
-        C: 'Correct. Brachialis is the exception among the flexors: its lateral part receives a branch from the radial nerve, which is why it appears on a list of radial-supplied muscles at all.',
+        C: 'Brachialis is the exception among the flexors: its lateral part receives a branch from the radial nerve, which is why it appears on a list of radial-supplied muscles at all.',
         D: 'Coracobrachialis is musculocutaneous, and is pierced by that nerve — which makes it the least likely of the four to be radial.',
       },
     },
@@ -877,8 +877,8 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'B',
       answerOverrideReason: 'The printed key is A, and A belongs to the other septum: the ulnar nerve pierces the medial intermuscular septum, and the lateral septum is pierced by the radial nerve. B is true — brachialis arises from both septa. The unkeyed printing of this question, asked five times, is overridden to B on the same reasoning.',
       explanations: {
-        A: 'The key the book prints, and it is the medial septum\'s answer. On this page the medial-septum question sits directly below, and A is its answer, not this one\'s. The lateral septum is pierced by the radial nerve with the radial collateral artery.',
-        B: 'Correct. Brachialis arises from the lower half of the front of the humerus and from both intermuscular septa; the lateral septum also gives origin to brachioradialis and extensor carpi radialis longus.',
+        A: 'The printed key, and it is the medial septum\'s answer. On this page the medial-septum question sits directly below, and A is its answer, not this one\'s. The lateral septum is pierced by the radial nerve with the radial collateral artery.',
+        B: 'Brachialis arises from the lower half of the front of the humerus and from both intermuscular septa; the lateral septum also gives origin to brachioradialis and extensor carpi radialis longus.',
         C: 'It is the medial head of triceps that the septa give attachment to behind. The lateral head arises from bone above the spiral groove and touches no septum.',
         D: 'Supinator is a forearm muscle, arising from the lateral epicondyle and the ulna. No septum of the arm reaches it.',
       },
@@ -891,7 +891,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The musculocutaneous nerve pierces coracobrachialis; it runs between biceps and brachialis without piercing either. The printing `the-musculocutaneous-nerve-pierces-which-muscle-2022-em-em-e-ce2ed1fe` keys A, which agrees.',
       explanations: {
-        A: 'Correct. The nerve leaves the lateral cord, pierces coracobrachialis obliquely, and emerges to descend between biceps and brachialis.',
+        A: 'The nerve leaves the lateral cord, pierces coracobrachialis obliquely, and emerges to descend between biceps and brachialis.',
         B: 'The nerve lies behind the short head, in the plane between biceps and brachialis, but passes through neither.',
         C: 'Brachialis lies behind the nerve, not around it. The nerve supplies brachialis and rests on it, which is what makes this the commonest wrong answer.',
         D: 'The medial head of triceps is in the posterior compartment. The musculocutaneous nerve never crosses the intermuscular septa.',
@@ -906,9 +906,9 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is C, and C is wrong: the nerve supplies brachialis and lies on it, but the muscle it pierces is coracobrachialis. The same question at `the-musculocutaneous-nerve-pierces-which-muscle-2022-em-em-e-ce2ed1fe` keys A.',
       explanations: {
-        A: 'Correct. The musculocutaneous nerve pierces coracobrachialis, which is why that muscle is sometimes called perforatus.',
+        A: 'The musculocutaneous nerve pierces coracobrachialis, which is why that muscle is sometimes called perforatus.',
         B: 'The nerve runs deep to the short head of biceps without entering it.',
-        C: 'The key the book prints, and the confusion is between supplying and piercing. Brachialis is supplied by the nerve and lies immediately behind it, but the nerve passes in front of it, not through it.',
+        C: 'The printed key, and the confusion is between supplying and piercing. Brachialis is supplied by the nerve and lies immediately behind it, but the nerve passes in front of it, not through it.',
         D: 'A cutaneous nerve, not a muscle. The medial cutaneous nerve of the arm comes from the medial cord and has nothing to do with this course.',
         E: 'The long head of biceps is tendinous where the nerve is piercing coracobrachialis, high in the arm.',
       },
@@ -919,7 +919,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the muscle the musculocutaneous nerve pierces.',
       explanations: {
-        A: 'Correct. Coracobrachialis is the muscle the nerve pierces on its way from the axilla into the arm.',
+        A: 'Coracobrachialis is the muscle the nerve pierces on its way from the axilla into the arm.',
         B: 'The short head of biceps lies in front of the nerve, not around it.',
         C: 'Brachialis is supplied by the nerve and lies behind it — a relation, not a piercing.',
         D: 'The long head of biceps is a tendon in the intertubercular groove at the level where the nerve pierces coracobrachialis.',
@@ -935,7 +935,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The wrong epicondyle. The ulnar nerve grooves the back of the medial epicondyle; the radial nerve is on the lateral side of the elbow.',
         B: 'Biceps is a superficial muscle whose tendon lies in the middle of the fossa; the radial nerve lies deeper and further laterally, on brachialis, with brachioradialis over it.',
-        C: 'Correct. It pierces the lateral intermuscular septum about halfway down the arm and comes to lie in the groove between brachialis medially and brachioradialis and extensor carpi radialis longus laterally.',
+        C: 'It pierces the lateral intermuscular septum about halfway down the arm and comes to lie in the groove between brachialis medially and brachioradialis and extensor carpi radialis longus laterally.',
         D: 'That plane belongs to the superficial and deep branches after the nerve has divided in front of the lateral epicondyle, below the level this question asks about.',
       },
     },
@@ -956,7 +956,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The apex of the triangular ulnar collateral ligament is on the medial epicondyle, from which all three of its bands radiate; B, C and D each name an attachment or a relation the ligament does not have.',
       explanations: {
-        A: 'Correct. All three bands — anterior, posterior and oblique — spring from the medial epicondyle, which is what makes the ligament triangular.',
+        A: 'All three bands — anterior, posterior and oblique — spring from the medial epicondyle, which is what makes the ligament triangular.',
         B: 'The right process from the wrong side. The anterior band reaches the *medial* margin of the coronoid process; a lateral attachment would cross the joint to the radial side.',
         C: 'Flexor carpi ulnaris covers the ligament and arises from the medial epicondyle and the olecranon. Flexor carpi radialis is on the other side of the forearm, and triceps is behind.',
         D: 'The relation reversed. The ulnar nerve passes *behind* the medial epicondyle, resting on the posterior band of the ligament, which is why a blow there is felt in the little finger.',
@@ -968,7 +968,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Give the attachments of the ulnar collateral ligament and the relation of the ulnar nerve to it.',
       explanations: {
-        A: 'Correct. The medial epicondyle is the attachment shared by all three bands of the ligament, and it is the answer the question wants.',
+        A: 'The medial epicondyle is the attachment shared by all three bands of the ligament, and it is the answer the question wants.',
         B: 'True of the posterior band alone. It does reach the medial margin of the olecranon — which is why this tempts — but it is not the attachment of the ligament as a whole.',
         C: 'Confuses ligament with muscle. Flexor carpi ulnaris arises across the ligament from the medial epicondyle and the olecranon; extensor carpi ulnaris is a posterior-compartment muscle.',
         D: 'The wrong side of the ligament. The ulnar nerve lies superficial to it as it passes behind the medial epicondyle.',
@@ -982,7 +982,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The tendon of the long head of biceps arises from the supraglenoid tubercle inside the capsule, but the synovial membrane is reflected round it as a sheath, so it lies inside the capsule and outside the synovial cavity.',
       explanations: {
-        A: 'Correct. Arising from the supraglenoid tubercle, the tendon crosses the joint inside the capsule, invested by a sleeve of synovial membrane that keeps it out of the cavity, and leaves through the intertubercular groove.',
+        A: 'Arising from the supraglenoid tubercle, the tendon crosses the joint inside the capsule, invested by a sleeve of synovial membrane that keeps it out of the cavity, and leaves through the intertubercular groove.',
         B: 'The short head arises outside the joint altogether, from the tip of the coracoid process, and never enters the capsule.',
         C: 'The long head of triceps arises from the infraglenoid tubercle, which lies outside the capsular attachment; it is close to the joint but not in it.',
         D: 'Teres minor is a rotator cuff muscle whose tendon blends with the outside of the capsule. Blending with the capsule is not the same as running inside it.',
@@ -997,7 +997,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. This is the four-option printing of the same question; the tendon of the long head of biceps is the only structure that runs within the capsule of the shoulder joint while remaining outside the synovial cavity.',
       explanations: {
-        A: 'Correct. The tendon runs from the supraglenoid tubercle across the head of the humerus inside the capsule, wrapped in a synovial sheath that keeps it extrasynovial.',
+        A: 'The tendon runs from the supraglenoid tubercle across the head of the humerus inside the capsule, wrapped in a synovial sheath that keeps it extrasynovial.',
         B: 'The short head arises from the coracoid process, outside the joint entirely.',
         C: 'The long head of triceps arises from the infraglenoid tubercle, below and outside the capsular attachment.',
         D: 'Teres minor blends with the outer surface of the capsule as part of the rotator cuff; it does not pass through it.',

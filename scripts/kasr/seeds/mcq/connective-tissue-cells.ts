@@ -92,7 +92,7 @@ export const LEAF: McqLeafSeed = {
       key: 'mast-cell-granule-contents-and-the-anaphylactic-reaction',
       label: 'The mast cell stores heparin and histamine and releases them when allergen binds its IgE — which is what an anaphylactic reaction is',
       definition:
-        'The mast cell\'s granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and — in the books\' account — serotonin; it also releases eosinophil chemotactic factor and leukotrienes. Its surface carries receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once. That discharge is the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child. The mast cell does not make histaminase; that is the eosinophil\'s enzyme, and it is what ends the reaction the mast cell began.',
+        'The mast cell\'s granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes. Its surface carries receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once. That discharge is the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child. The mast cell does not make histaminase; that is the eosinophil\'s enzyme, and it is what ends the reaction the mast cell began.',
       objective:
         'List what the mast cell releases, explain how IgE triggers the release, and connect each mediator to a sign of the allergic reaction.',
       pitfall:
@@ -181,7 +181,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'Basophils are 0–1% of the white cell count, 10–12 µm, with an S-shaped nucleus obscured by coarse granules that stain metachromatically purple with toluidine blue because of their heparin. The specific granules are large, rounded and electron dense, holding histamine, heparin, eosinophil chemotactic factor and leukotrienes, and the cell membrane carries receptors for IgE. Heparin prevents clotting and promotes allergy; histamine causes vasodilatation with a sudden drop in blood pressure — anaphylaxis; leukotrienes cause bronchospasm and bronchial asthma. Basophilia is above 2%.',
       objective: 'List what the basophil granule contains, and connect each substance to the clinical event it produces.',
-      pitfall: 'Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors — the book compares them directly — but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.',
+      pitfall: 'Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors, but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.',
       subject: 'haem',
       primary: 'DIS-HIS-T02',
       secondary: ['SYS-HEM-T01-S01-M02'],
@@ -376,7 +376,7 @@ export const LEAF: McqLeafSeed = {
       key: 'connective-tissue-fibre-stains-by-fibre-type',
       label: 'Each connective tissue fibre has its own colour in each of the fibre stains, and the stain table is what tells the three apart',
       definition:
-        'The department book prints the three fibres against the stains that show them. Collagen is pink with eosin, blue with Mallory\'s trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.',
+        'The three fibres are distinguished by the stains that show them. Collagen is pink with eosin, blue with Mallory\'s trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.',
       objective:
         'Give the colour each of the three connective tissue fibres takes with H&E, Mallory, van Gieson, orcein, silver and PAS, and choose the right stain when asked to demonstrate one fibre.',
       pitfall:
@@ -405,7 +405,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the commonest cell of connective tissue.',
       explanations: {
-        A: 'Correct. The fibroblast is the commonest cell of connective tissue proper — it is the cell that built the tissue.',
+        A: 'The fibroblast is the commonest cell of connective tissue proper — it is the cell that built the tissue.',
         B: 'Plasma cells are free cells, numerous only in lymphoid tissue and at sites of chronic inflammation.',
         C: 'Mast cells are scattered, chiefly around blood vessels and under the epithelium of gut and lung.',
         D: 'Macrophages are numerous where there is something to eat, but they are immigrants from the blood rather than the resident population.',
@@ -420,7 +420,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The exception, and the answer. Fibroblasts are the commonest cell of connective tissue proper, not rare ones.',
         B: 'True, so not the exception. Producing collagen is the fibroblast\'s chief work.',
         C: 'True, so not the exception. In dense connective tissue there is little but collagen and fibroblasts.',
-        D: 'True as the books mean it, so not the exception. The fibroblast is a differentiated cell and does not divide in ordinary circumstances; new fibroblasts come from undifferentiated mesenchymal cells and pericytes, and mitoses appear only when a wound demands them.',
+        D: 'True, so not the exception. The fibroblast is a differentiated cell and does not divide in ordinary circumstances; new fibroblasts come from undifferentiated mesenchymal cells and pericytes, and mitoses appear only when a wound demands them.',
       },
     },
     {
@@ -431,7 +431,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mast cells store and release heparin and histamine. They build nothing.',
         B: 'Macrophages digest — including old collagen. They are the demolition half of the pair, not the construction half.',
-        C: 'Correct. Fibroblasts synthesise collagen, and in connective tissue proper they are the main source of it.',
+        C: 'Fibroblasts synthesise collagen, and in connective tissue proper they are the main source of it.',
         D: 'Plasma cells are protein-synthesising cells, but the protein is antibody, which is exported into the plasma rather than laid down as fibre.',
       },
     },
@@ -441,7 +441,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the collagen-producing connective tissue cell.',
       explanations: {
-        A: 'Correct. The fibroblast.',
+        A: 'The fibroblast.',
         B: 'The connective tissue macrophage phagocytoses; it makes no fibre.',
         C: 'Histiocyte is simply the other name for the connective tissue macrophage, so B and C are the same cell offered twice — which is a clue that neither is the answer.',
         D: 'The plasma cell makes antibody.',
@@ -455,7 +455,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mast cells release heparin into the tissue, which is a glycosaminoglycan — but releasing a stored mediator is not synthesising the matrix.',
         B: 'Macrophages break the matrix down during remodelling; they do not lay it down.',
-        C: 'Correct. The fibroblast makes both the fibres and the ground substance they lie in.',
+        C: 'The fibroblast makes both the fibres and the ground substance they lie in.',
         D: 'The plasma cell exports antibody and nothing structural.',
       },
     },
@@ -465,7 +465,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Attribute the elastic fibre to the same cell that makes collagen.',
       explanations: {
-        A: 'Correct. The fibroblast secretes elastin and fibrillin as well as collagen — one cell makes all three fibre types.',
+        A: 'The fibroblast secretes elastin and fibrillin as well as collagen — one cell makes all three fibre types.',
         B: 'Macrophages are phagocytes. This is the option chosen by students who assume a different fibre must mean a different cell.',
         C: 'Fat cells store lipid and secrete leptin.',
         D: 'Mast cells secrete heparin and histamine.',
@@ -504,7 +504,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'Neither printing of this case carries a key. Wound healing is the laying down of new collagen and ground substance, which is the fibroblast\'s work — the department book gives repair of injuries among its functions and says the fibrocyte becomes active again for wound healing.',
       explanations: {
-        A: 'Correct. The fibrocyte reverts to an active fibroblast and lays down the collagen that closes the wound.',
+        A: 'The fibrocyte reverts to an active fibroblast and lays down the collagen that closes the wound.',
         B: 'Fat cells fill the space beneath the skin and store lipid. They contribute bulk, not repair — and in the obese, an excess of them actually delays healing.',
         C: 'Mast cells release histamine in the first minutes of injury and open the vessels; that is the inflammatory phase, not the healing one.',
         D: 'Plasma cells make antibody and appear in chronic inflammation. They fight infection rather than close a wound.',
@@ -519,7 +519,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The fat cell stores lipid and the macrophage digests; neither has the rough endoplasmic reticulum of an exporter.',
         B: 'Half right — the fibroblast is one of the two — but the fat cell is not a protein-secreting cell, whatever its leptin output.',
         C: 'Half right the other way: the plasma cell is one of the two, and the macrophage is not.',
-        D: 'Correct. The fibroblast, exporting collagen, and the plasma cell, exporting antibody, are the two protein-secreting cells of connective tissue, and both are deeply basophilic for the same reason.',
+        D: 'The fibroblast, exporting collagen, and the plasma cell, exporting antibody, are the two protein-secreting cells of connective tissue, and both are deeply basophilic for the same reason.',
       },
     },
     {
@@ -530,7 +530,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The fibrocyte is the resting fibroblast, with little rough endoplasmic reticulum — the active form would be a better answer than this one.',
         B: 'The monocyte is a blood cell with pale non-granular cytoplasm and lysosomes; its work is digestion, not export.',
-        C: 'Correct. The plasma cell is packed with rough endoplasmic reticulum, which is why its cytoplasm is the most deeply basophilic in connective tissue.',
+        C: 'The plasma cell is packed with rough endoplasmic reticulum, which is why its cytoplasm is the most deeply basophilic in connective tissue.',
         D: 'The adipocyte is almost entirely one lipid droplet, with the cytoplasm squeezed into a rim.',
       },
     },
@@ -555,7 +555,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True but incomplete. The liver cell uses smooth ER for lipid synthesis and for detoxification.',
         B: 'The plasma cell is the opposite — rough ER throughout, for antibody export.',
         C: 'True but incomplete. A steroid-secreting endocrine cell is built on smooth ER.',
-        D: 'Correct. Liver cells and steroid-forming endocrine cells, the two classic sites.',
+        D: 'Liver cells and steroid-forming endocrine cells, the two classic sites.',
       },
     },
     {
@@ -564,8 +564,8 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the cell with abundant smooth endoplasmic reticulum.',
       explanations: {
-        A: 'Correct. The liver cell — for lipid and steroid synthesis and for the detoxification of drugs.',
-        B: 'The muscle cell has a specialised form of it, the sarcoplasmic reticulum, which stores calcium; but the cell the books name for smooth ER is the hepatocyte.',
+        A: 'The liver cell — for lipid and steroid synthesis and for the detoxification of drugs.',
+        B: 'The muscle cell has a specialised form of it, the sarcoplasmic reticulum, which stores calcium; but the cell associated with smooth ER is the hepatocyte.',
         C: 'The plasma cell is rough ER from end to end.',
         D: 'The fat cell stores its lipid as a droplet in the cytosol, not in a membrane system.',
       },
@@ -577,7 +577,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the antibody-producing cell.',
       explanations: {
         A: 'The fibroblast exports protein, but structural protein — collagen and elastin.',
-        B: 'Correct. The plasma cell synthesises and secretes antibody.',
+        B: 'The plasma cell synthesises and secretes antibody.',
         C: 'The mast cell releases mediators it has stored, not proteins it has made to order.',
         D: 'The macrophage presents the antigen that starts the response and then leaves the antibody to the plasma cell.',
       },
@@ -590,7 +590,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Heparin is a mast cell granule constituent.',
         B: 'Histamine likewise.',
-        C: 'Correct. Antibodies — immunoglobulin — are what the plasma cell exists to make.',
+        C: 'Antibodies — immunoglobulin — are what the plasma cell exists to make.',
         D: '"Both a & b" is the answer to the mast cell version of this question, printed on the same page with the same options.',
       },
     },
@@ -601,7 +601,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute the cart-wheel nucleus to the plasma cell.',
       explanations: {
         A: 'The fibroblast has a large pale oval nucleus with a prominent nucleolus — an active nucleus, but not patterned.',
-        B: 'Correct. The plasma cell\'s eccentric nucleus alternates dark heterochromatin with pale euchromatin in radiating blocks: the cart-wheel, or clock face.',
+        B: 'The plasma cell\'s eccentric nucleus alternates dark heterochromatin with pale euchromatin in radiating blocks: the cart-wheel, or clock face.',
         C: 'The mast cell\'s nucleus is central, spherical and pale, and is usually hidden by the granules over it.',
         D: 'The macrophage\'s nucleus is kidney-shaped, which is the other named nuclear shape in this chapter.',
       },
@@ -615,7 +615,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The mast cell nucleus is pale, round and central.',
         B: 'The macrophage nucleus is kidney-shaped and eccentric.',
         C: 'The fibroblast nucleus is a large pale oval with a nucleolus.',
-        D: 'Correct. Clock face and cart wheel are two names for the same radiating chromatin pattern of the plasma cell nucleus.',
+        D: 'Clock face and cart wheel are two names for the same radiating chromatin pattern of the plasma cell nucleus.',
       },
     },
     {
@@ -625,7 +625,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute Russell bodies to the plasma cell and explain what they are.',
       explanations: {
         A: 'A fat cell contains one droplet of lipid, not spherical protein inclusions.',
-        B: 'Correct. Russell bodies are accumulations of immunoglobulin distending the rough endoplasmic reticulum of a plasma cell that is making antibody faster than it can export it.',
+        B: 'Russell bodies are accumulations of immunoglobulin distending the rough endoplasmic reticulum of a plasma cell that is making antibody faster than it can export it.',
         C: 'A phagocytic cell contains phagosomes and residual bodies — inclusions, but of ingested material rather than of its own product.',
         D: 'An endothelial cell is a thin lining cell with no notable inclusions.',
       },
@@ -638,8 +638,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The mast cell\'s cytoplasm is crowded with granules; a pale unstained patch would not stand out and is not what the cell is known for.',
         B: 'The macrophage\'s cytoplasm is pale throughout, so there is no dark background for a pale area to show against.',
-        C: 'The active fibroblast is basophilic and does have a Golgi, but it is the plasma cell that the books name — its basophilia is the deepest of any connective tissue cell.',
-        D: 'Correct. The plasma cell\'s deeply basophilic cytoplasm makes the unstained Golgi region show as a clear pale area beside the nucleus.',
+        C: 'The active fibroblast is basophilic and does have a Golgi, but it is the plasma cell whose basophilia is the deepest of any connective tissue cell.',
+        D: 'The plasma cell\'s deeply basophilic cytoplasm makes the unstained Golgi region show as a clear pale area beside the nucleus.',
       },
     },
     {
@@ -649,7 +649,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Trace the plasma cell to the B lymphocyte.',
       explanations: {
         A: 'The mast cell comes from the undifferentiated mesenchymal cell, in connective tissue.',
-        B: 'Correct. The B lymphocyte, on meeting its antigen and being helped by a T cell, becomes a plasmablast and then a plasma cell.',
+        B: 'The B lymphocyte, on meeting its antigen and being helped by a T cell, becomes a plasmablast and then a plasma cell.',
         C: 'The fibroblast comes from the undifferentiated mesenchymal cell and the pericyte.',
         D: 'The macrophage comes from the blood monocyte — which is the other lineage question on this page and has a different answer.',
       },
@@ -663,7 +663,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The fibroblast is mesenchymal in origin and has nothing to do with the immune lineages.',
         B: 'The mast cell is also mesenchymal, despite behaving like a basophil.',
         C: 'The histiocyte is the connective tissue macrophage and comes from the monocyte.',
-        D: 'Correct. The plasma cell.',
+        D: 'The plasma cell.',
       },
     },
     {
@@ -673,7 +673,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Say what a B lymphocyte does when it meets its antigen.',
       explanations: {
         A: 'Ingesting organisms is the neutrophil\'s and macrophage\'s work. The lymphocyte has no phagocytic apparatus.',
-        B: 'Correct. On activation it becomes a plasmablast and then a plasma cell, which secretes antibody.',
+        B: 'On activation it becomes a plasmablast and then a plasma cell, which secretes antibody.',
         C: 'The macrophage comes from the monocyte, not from any lymphocyte — this is the standard confusion between the two responses.',
         D: 'Histamine is secreted by the mast cell and the basophil.',
       },
@@ -686,7 +686,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The fibroblast\'s basophilia is diffuse, from its ribosomes, and it has no granules.',
         B: 'The plasma cell is the most basophilic cell of all, but again diffusely — a fact worth holding, because the word in the stem is "granules".',
-        C: 'Correct. The mast cell is packed with coarse basophilic granules, which toluidine blue also stains metachromatically.',
+        C: 'The mast cell is packed with coarse basophilic granules, which toluidine blue also stains metachromatically.',
         D: 'The macrophage\'s cytoplasm is pale and its lysosomes are too fine to read as granules by light microscopy.',
       },
     },
@@ -696,7 +696,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Attribute IgE receptors to the mast cell.',
       explanations: {
-        A: 'Correct. The mast cell carries IgE receptors on its surface, which is how an allergen triggers it.',
+        A: 'The mast cell carries IgE receptors on its surface, which is how an allergen triggers it.',
         B: 'The macrophage has receptors for the Fc of IgG and for complement, which help it phagocytose opsonised material — related receptors for a different immunoglobulin and a different purpose.',
         C: 'The fibroblast carries no immunoglobulin receptors at all.',
         D: 'The plasma cell makes immunoglobulin rather than binding it; a receptor for its own product would be self-defeating.',
@@ -711,19 +711,19 @@ export const LEAF: McqLeafSeed = {
         A: 'True but incomplete. Heparin is the anticoagulant of the granule and is what makes it metachromatic.',
         B: 'True but incomplete. Histamine is the vasodilator.',
         C: 'Antibodies come from the plasma cell. The mast cell binds antibody made by someone else.',
-        D: 'Correct. Heparin and histamine together, and a student who takes the first true option has half the granule.',
+        D: 'Heparin and histamine together, and a student who takes the first true option has half the granule.',
       },
     },
     {
       key: 'mast-cells-synthesize-and-secrete-47d982aa',
       conceptKey: 'mast-cell-granule-contents-and-the-anaphylactic-reaction',
       difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'List the mast cell granule contents as the books give them.',
+      learningObjective: 'List the mast cell granule contents.',
       explanations: {
         A: 'True but incomplete.',
         B: 'True but incomplete.',
-        C: 'True but incomplete as the books have it: serotonin is listed among the mast cell\'s secretions alongside heparin and histamine.',
-        D: 'Correct. All three.',
+        C: 'True but incomplete: serotonin is listed among the mast cell\'s secretions alongside heparin and histamine.',
+        D: 'All three.',
       },
     },
     {
@@ -734,7 +734,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, so not the exception.',
         B: 'True, so not the exception.',
-        C: 'True, so not the exception, as the books list it.',
+        C: 'True, so not the exception.',
         D: 'The exception, and the answer. Histaminase destroys histamine and is secreted by the eosinophil, which arrives to end the reaction the mast cell started. One syllable separates the mediator from its antidote.',
       },
     },
@@ -745,7 +745,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the source of histamine and heparin in connective tissue.',
       explanations: {
         A: 'The fibroblast makes fibres and ground substance.',
-        B: 'Correct. The mast cell stores both in its granules and releases them together.',
+        B: 'The mast cell stores both in its granules and releases them together.',
         C: 'The plasma cell makes antibody.',
         D: 'The macrophage digests, and secretes cytokines rather than amines.',
       },
@@ -758,7 +758,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The fibroblast makes structural protein.',
         B: 'The fibrocyte is the same cell resting, and makes even less.',
-        C: 'Correct. The mast cell.',
+        C: 'The mast cell.',
         D: 'The plasma cell makes antibody — and it is antibody of the IgE class, bound to the mast cell, that triggers the histamine release. The two cells work in sequence, which is why they are so often offered together.',
       },
     },
@@ -771,7 +771,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Fibroblast growth factors drive repair over days. An allergic reaction takes minutes.',
         B: 'Adipocyte lipid is storage, not signalling.',
         C: 'Plasma cell antibody is what sensitised the patient in the first place, but the reaction itself is the release triggered when the allergen meets that antibody on a mast cell.',
-        D: 'Correct. Histamine from mast cell granules produces the vasodilatation, oedema and fall in blood pressure of the allergic reaction.',
+        D: 'Histamine from mast cell granules produces the vasodilatation, oedema and fall in blood pressure of the allergic reaction.',
       },
     },
     {
@@ -785,7 +785,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The eosinophil arrives later and secretes histaminase and sulphatase to end the reaction. It is a raised eosinophil count that marks allergy, not the eosinophil that causes it.',
         B: 'Macrophages phagocytose and present antigen; they release no vasoactive amine.',
-        C: 'Correct. Allergen cross-links IgE on the mast cell surface, the granules discharge, and histamine dilates vessels and opens their junctions — flushing, swollen lips and eyelids, and a blood pressure of 90/40.',
+        C: 'Allergen cross-links IgE on the mast cell surface, the granules discharge, and histamine dilates vessels and opens their junctions — flushing, swollen lips and eyelids, and a blood pressure of 90/40.',
         D: 'The plasma cell made the IgE that sensitised the child, days or weeks earlier. It is upstream of the reaction, not the cause of the permeability.',
       },
     },
@@ -801,7 +801,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The plasma cell made the IgE that sensitised her, but the shock itself is the discharge of granules from the cell that IgE is bound to.',
         B: 'The fibroblast has no part in an immediate reaction.',
         C: 'The eosinophil is drawn in to terminate the reaction — it destroys histamine with histaminase — so it is the brake rather than the accelerator.',
-        D: 'Correct. The basophil, the blood counterpart of the mast cell, carries IgE receptors and releases histamine; the vasodilatation and sudden fall in blood pressure that follow are what anaphylaxis is.',
+        D: 'The basophil, the blood counterpart of the mast cell, carries IgE receptors and releases histamine; the vasodilatation and sudden fall in blood pressure that follow are what anaphylaxis is.',
       },
     },
     {
@@ -810,7 +810,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Attribute metachromatic granules to the mast cell.',
       explanations: {
-        A: 'Correct. The heparin of the mast cell granule turns toluidine blue purple — metachromasia.',
+        A: 'The heparin of the mast cell granule turns toluidine blue purple — metachromasia.',
         B: 'The plasma cell is basophilic but not metachromatic; its blue is the dye\'s own colour.',
         C: 'The fat cell has a lipid droplet and no granules.',
         D: 'The pigment cell holds melanin, which is brown on its own account and needs no dye at all.',
@@ -822,7 +822,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the cell toluidine blue stains metachromatically.',
       explanations: {
-        A: 'Correct. The mast cell.',
+        A: 'The mast cell.',
         B: 'The macrophage is shown by trypan blue in the living animal, or by acid phosphatase histochemistry.',
         C: 'The fibroblast takes haematoxylin diffusely and metachromatically nothing.',
         D: 'The plasma cell is the other deeply basophilic cell, and the one this question exists to exclude.',
@@ -835,7 +835,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name both cells with metachromatic granules.',
       explanations: {
         A: 'The lymphocyte has a thin agranular rim of cytoplasm and no granules to be metachromatic.',
-        B: 'Correct. The mast cell and the blood basophil, which share their heparin-rich granules, their IgE receptors and this staining reaction.',
+        B: 'The mast cell and the blood basophil, which share their heparin-rich granules, their IgE receptors and this staining reaction.',
         C: 'The plasma cell is basophilic without being metachromatic — the distinction this whole group of questions is built on.',
         D: '"Mast cells" alone is true but incomplete, and incomplete is wrong when the fuller option is on the list.',
       },
@@ -849,7 +849,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The chondroblast makes cartilage matrix and is a fixed cell of a different tissue.',
         B: 'The plasma cell is the other end of the immune system — it comes from the B lymphocyte and makes antibody.',
         C: 'The mast cell is mesenchymal in origin and is not a phagocyte.',
-        D: 'Correct. The blood monocyte enters the tissue and becomes the macrophage.',
+        D: 'The blood monocyte enters the tissue and becomes the macrophage.',
       },
     },
     {
@@ -860,7 +860,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mast cells arise in the connective tissue itself, from undifferentiated mesenchymal cells.',
         B: 'Plasma cells come from B lymphocytes.',
-        C: 'Correct. In connective tissue the monocyte becomes the macrophage — and in liver the Kupffer cell, in lung the dust cell, in bone the osteoclast, in the brain the microglia.',
+        C: 'In connective tissue the monocyte becomes the macrophage — and in liver the Kupffer cell, in lung the dust cell, in bone the osteoclast, in the brain the microglia.',
         D: 'Lymphocytes arise from lymphoid precursors and are a separate line from the monocyte altogether.',
       },
     },
@@ -871,7 +871,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the connective tissue cell of monocyte origin.',
       explanations: {
         A: 'The mast cell is mesenchymal. It resembles the basophil, which does come from the marrow, but it is not that cell grown up.',
-        B: 'Correct. The macrophage.',
+        B: 'The macrophage.',
         C: 'The fibroblast is mesenchymal.',
         D: 'The plasma cell comes from the B lymphocyte.',
       },
@@ -884,7 +884,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Antibody secretion is the plasma cell\'s.',
         B: 'Histamine secretion is the mast cell\'s.',
-        C: 'Correct. Phagocytosis — the cell is named for it, macro-phage, the big eater.',
+        C: 'Phagocytosis — the cell is named for it, macro-phage, the big eater.',
         D: 'Exocytosis is a mechanism every secretory cell uses, not a function that identifies a cell.',
       },
     },
@@ -895,7 +895,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the macrophage\'s name in connective tissue among its names in other tissues.',
       explanations: {
         A: 'The Kupffer cell is the macrophage of the liver sinusoid.',
-        B: 'Correct. Histiocyte is the connective tissue macrophage\'s own name.',
+        B: 'Histiocyte is the connective tissue macrophage\'s own name.',
         C: 'The dust cell is the macrophage of the lung alveolus.',
         D: 'The Langerhans cell is the antigen-presenting cell of the epidermis. All four are the same lineage under four names, and only one of them belongs to connective tissue.',
       },
@@ -907,7 +907,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the antigen-presenting cell of connective tissue.',
       explanations: {
         A: 'The mast cell binds antigen through IgE and reacts to it; it does not present it to a T cell.',
-        B: 'Correct. The macrophage engulfs the antigen and presents it to the helper T lymphocyte, which is how both immune responses begin.',
+        B: 'The macrophage engulfs the antigen and presents it to the helper T lymphocyte, which is how both immune responses begin.',
         C: 'The fibroblast has no immunological role.',
         D: 'The plasma cell is the product of antigen presentation, not the agent of it.',
       },
@@ -918,7 +918,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Name the second antigen-presenting cell beside the macrophage.',
       explanations: {
-        A: 'Correct. Macrophages and reticular cells: the reticular cell of lymphoid tissue is phagocytic and presents antigen, which is why the books pair the two.',
+        A: 'Macrophages and reticular cells: the reticular cell of lymphoid tissue is phagocytic and presents antigen, which is why the two are paired.',
         B: 'The plasma cell is the end of the response, not its beginning.',
         C: 'The mast cell reacts to antigen through bound IgE; it presents nothing.',
         D: 'The fibroblast plays no immunological part at all.',
@@ -933,7 +933,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The fibroblast\'s nucleus is a large pale oval with a prominent nucleolus.',
         B: 'The plasma cell\'s nucleus is eccentric with a cart-wheel pattern.',
         C: 'The mast cell\'s nucleus is central, spherical and pale.',
-        D: 'Correct. The macrophage keeps the eccentric kidney-shaped nucleus of the monocyte it came from.',
+        D: 'The macrophage keeps the eccentric kidney-shaped nucleus of the monocyte it came from.',
       },
     },
     {
@@ -944,7 +944,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The reticular cell is itself a modified fibroblast and produces reticular fibres; it is a sibling rather than a parent.',
         B: 'The fibroblast is one of the things a pericyte can become, so this reverses the direction.',
-        C: 'Correct. The pericyte arises from the undifferentiated mesenchymal cell — which is why it keeps the power to become something else.',
+        C: 'The pericyte arises from the undifferentiated mesenchymal cell — which is why it keeps the power to become something else.',
         D: 'The macrophage comes from the monocyte and gives rise to nothing.',
       },
     },
@@ -956,7 +956,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mast cells lie *near* blood vessels, which is what makes this the strongest distractor — but they lie beside them, not wrapped around the endothelium inside its basement membrane.',
         B: 'Macrophages wander through the tissue and are not fixed to vessels.',
-        C: 'Correct. The pericyte lies along the capillary, sharing its basement membrane and embracing the endothelium with long processes.',
+        C: 'The pericyte lies along the capillary, sharing its basement membrane and embracing the endothelium with long processes.',
         D: 'Plasma cells are free cells of the tissue at large.',
       },
     },
@@ -969,7 +969,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True but incomplete. After injury it can replace lost endothelium.',
         B: 'True but incomplete. It is one of the two sources of new fibroblasts.',
         C: 'True but incomplete. It can become smooth muscle, which is what it already half is.',
-        D: 'Correct. All three, which is the point of calling it undifferentiated.',
+        D: 'All three, which is the point of calling it undifferentiated.',
       },
     },
     {
@@ -980,7 +980,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The macrophage is a terminal cell — it comes from the monocyte and becomes nothing further.',
         B: 'The plasma cell is likewise terminal and short-lived.',
-        C: 'Correct. The pericyte lies against the endothelium and can become endothelium after injury.',
+        C: 'The pericyte lies against the endothelium and can become endothelium after injury.',
         D: 'The mast cell is terminal too.',
         E: 'The fibroblast is differentiated; it is one of the things a pericyte becomes, not a cell that becomes something else.',
       },
@@ -992,7 +992,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the two cells repair calls on.',
       explanations: {
         A: 'The mast cell opens the vessels in the first minutes of injury but lays down nothing.',
-        B: 'Correct. Pericytes divide and differentiate to supply new cells, and fibroblasts lay down the collagen; the pair is what repair needs.',
+        B: 'Pericytes divide and differentiate to supply new cells, and fibroblasts lay down the collagen; the pair is what repair needs.',
         C: 'Reticular cells and histiocytes belong to organ stroma and to phagocytosis respectively.',
         D: 'Plasma cells appear in chronic inflammation and make antibody, not matrix.',
       },
@@ -1007,8 +1007,8 @@ export const LEAF: McqLeafSeed = {
         'The books print no key. The pericyte gives rise to fibroblasts, smooth muscle and endothelium, and of the four options only the fibroblast is on that list — the parallel question `under-certain-conditions-pericytes-of-the-connective-tissue-a9606c24` names all three and is keyed to "all of the above".',
       explanations: {
         A: 'The chondrocyte comes from the chondroblast, in cartilage, and no connective tissue pericyte becomes one.',
-        B: 'The histiocyte is the connective tissue macrophage and comes from the blood monocyte. The books ask this the other way round too — "can pericytes become macrophages?" — and the answer is no both times.',
-        C: 'Correct. The fibroblast is one of the three the pericyte gives rise to, and the one repair needs most.',
+        B: 'The histiocyte is the connective tissue macrophage and comes from the blood monocyte. It is also asked the other way round — "can pericytes become macrophages?" — and the answer is no both times.',
+        C: 'The fibroblast is one of the three the pericyte gives rise to, and the one repair needs most.',
         D: 'Lymphocytes come from lymphoid precursors in the marrow and thymus.',
       },
     },
@@ -1059,7 +1059,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The macrophage digests collagen during remodelling; it makes none.',
         B: 'The histiocyte is the macrophage under its connective tissue name, so options A and B are one cell offered twice — which is itself the signal that neither can be the answer.',
-        C: 'Correct. The chondroblast lays down the type II collagen of cartilage matrix.',
+        C: 'The chondroblast lays down the type II collagen of cartilage matrix.',
         D: 'The adipocyte stores lipid and secretes leptin.',
       },
     },
@@ -1071,7 +1071,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The macrophage phagocytoses.',
         B: 'The histiocyte is the same cell under another name.',
-        C: 'Correct. The chondroblast makes the collagen of cartilage.',
+        C: 'The chondroblast makes the collagen of cartilage.',
         D: 'The adipocyte stores fat.',
       },
     },
@@ -1082,7 +1082,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the two cells that make type III collagen.',
       explanations: {
         A: 'The macrophage makes no collagen of any type.',
-        B: 'Correct. Type III collagen is the reticular fibre, made by fibroblasts and by the reticular cells of organ stroma, which are themselves modified fibroblasts.',
+        B: 'Type III collagen is the reticular fibre, made by fibroblasts and by the reticular cells of organ stroma, which are themselves modified fibroblasts.',
         C: 'The mast cell secretes mediators.',
         D: 'The plasma cell secretes antibody.',
       },
@@ -1094,7 +1094,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the two kinds of fat cell.',
       explanations: {
         A: 'Free and fixed is the classification of connective tissue cells in general, not of fat cells — and the fat cell is fixed under it.',
-        B: 'Correct. Unilocular, with one droplet, and multilocular, with many.',
+        B: 'Unilocular, with one droplet, and multilocular, with many.',
         C: 'Primary and secondary describes lysosomes and chorionic villi elsewhere in this course, not adipocytes.',
         D: '"None of the above" fails once B is true.',
       },
@@ -1106,7 +1106,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match white fat to its cell type.',
       explanations: {
         A: 'Multilocular cells make brown fat, whose many droplets and many mitochondria are what let it burn fat for heat.',
-        B: 'Correct. White adipose tissue is made of unilocular cells, each holding one large droplet.',
+        B: 'White adipose tissue is made of unilocular cells, each holding one large droplet.',
         C: '"All of the above" cannot hold when A and B are alternatives.',
         D: '"None of the above" fails once B is true.',
       },
@@ -1120,7 +1120,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Storage is white fat\'s job. Brown fat spends what it holds.',
         B: 'True but incomplete. Heat production is its function.',
         C: 'True but incomplete. Multilocular fat cells are what it is made of.',
-        D: 'Correct. Multilocular cells producing heat, and the two facts explain each other — many small droplets give a large surface for the mitochondria to work on.',
+        D: 'Multilocular cells producing heat, and the two facts explain each other — many small droplets give a large surface for the mitochondria to work on.',
       },
     },
     {
@@ -1131,7 +1131,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Plasma cells make antibody.',
         B: 'White adipocytes insulate against heat loss, which is not the same as generating heat — the commonest confusion in this pair.',
-        C: 'Correct. The brown, multilocular adipocyte burns fat through the thermogenin of its many mitochondria.',
+        C: 'The brown, multilocular adipocyte burns fat through the thermogenin of its many mitochondria.',
         D: 'Mast cells release mediators.',
       },
     },
@@ -1144,7 +1144,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'Neither printing of this case carries a key. Obesity is an increase in white, unilocular fat, and it is that tissue — poorly vascularised and holding few fibroblasts — that heals slowly. Brown fat is negligible in an adult, and an increase in fibroblasts would speed healing rather than delay it.',
       explanations: {
-        A: 'Correct. Adipose tissue is poorly vascularised and cell-poor, so a wound through a thick layer of it has a worse blood supply and fewer fibroblasts to work with.',
+        A: 'Adipose tissue is poorly vascularised and cell-poor, so a wound through a thick layer of it has a worse blood supply and fewer fibroblasts to work with.',
         B: 'Multilocular brown fat is a tissue of fetal life and infancy, largely replaced by white fat during childhood; an adult has too little for it to matter.',
         C: 'More fibroblasts would mean more collagen and faster healing. The option has the direction reversed.',
         D: 'A fall in fibroblast number would indeed delay healing, but obesity does not cause one — what it causes is more fat between the fibroblasts that are there.',
@@ -1162,7 +1162,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The fibroblast secretes fibres and ground substance, and growth factors locally; it is not an endocrine cell.',
         B: 'The histiocyte is the connective tissue macrophage and secretes cytokines that act nearby.',
         C: 'The plasma cell secretes antibody into the plasma, which is a secretion but not a hormone.',
-        D: 'Correct. The adipocyte secretes leptin, which inhibits food intake and raises the metabolic rate — fat reporting on its own quantity.',
+        D: 'The adipocyte secretes leptin, which inhibits food intake and raises the metabolic rate — fat reporting on its own quantity.',
       },
     },
     {
@@ -1171,7 +1171,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the stain that colours fat orange.',
       explanations: {
-        A: 'Correct. Sudan III stains fat orange, and the section must be a frozen one.',
+        A: 'Sudan III stains fat orange, and the section must be a frozen one.',
         B: 'PAS gives magenta red on carbohydrate.',
         C: 'Silver blackens reticular fibres and browns the Golgi.',
         D: 'H&E dissolves the fat away and leaves a signet ring.',
@@ -1189,7 +1189,7 @@ export const LEAF: McqLeafSeed = {
         A: 'PAS shows carbohydrate: glycogen, mucus, basement membrane.',
         B: 'Silver shows reticular fibres, nerve tissue and the Golgi.',
         C: 'Acid phosphatase histochemistry identifies lysosomes and so phagocytes.',
-        D: 'Correct. Sudan III.',
+        D: 'Sudan III.',
       },
     },
     {
@@ -1252,7 +1252,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Abundant matrix is loose areolar tissue, and mucoid tissue most of all. Dense tissue is packed with fibre and has little ground substance.',
         B: 'Dense fibrous tissue is poorly vascularised, which is why tendons and ligaments heal so slowly.',
         C: 'It is dominated by collagen. Tissue containing all three fibre types in quantity is loose areolar tissue, the general-purpose one.',
-        D: 'Correct. Its cells are fibroblasts, in their resting fibrocyte form, lying in rows between the bundles they made.',
+        D: 'Its cells are fibroblasts, in their resting fibrocyte form, lying in rows between the bundles they made.',
       },
     },
     {
@@ -1271,10 +1271,10 @@ export const LEAF: McqLeafSeed = {
       key: 'the-largest-cell-in-bone-marrow-is-1a337a60',
       conceptKey: 'red-bone-marrow-stroma-and-free-cells',
       difficulty: 'Hard', questionType: 'Normal values',
-      learningObjective: 'Name the largest cell in marrow as the department book has it.',
+      learningObjective: 'Name the largest cell in marrow.',
       explanations: {
-        A: 'Correct as the book has it: it names the fat cells as the largest cells of the marrow stroma.',
-        B: 'The megakaryocyte is the largest of the *haemopoietic* cells and is what most students answer — at 100 µm it is enormous, but the book\'s statement is about the fat cell, and a distended unilocular adipocyte is larger still.',
+        A: 'The fat cells are the largest cells of the marrow stroma.',
+        B: 'The megakaryocyte is the largest of the *haemopoietic* cells and is what most students answer — at 100 µm it is enormous, but the largest-cell claim is about the fat cell, and a distended unilocular adipocyte is larger still.',
         C: 'The reticular cell is a modest stellate cell of the framework.',
         D: 'The fibroblast is likewise ordinary in size.',
       },
@@ -1287,7 +1287,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Platelets are a circulating product, not a structural element.',
         B: 'Lymphocytes are free cells developing in the marrow, not part of its framework.',
-        C: 'Correct. Reticular cells, fat cells and fibroblasts — the fixed cells of the stroma, with the reticular fibres and the sinusoids.',
+        C: 'Reticular cells, fat cells and fibroblasts — the fixed cells of the stroma, with the reticular fibres and the sinusoids.',
         D: 'Developing blood cells are the free population the stroma supports; this option mixes one stromal cell with them.',
       },
     },
@@ -1314,9 +1314,9 @@ export const LEAF: McqLeafSeed = {
         'The books key this to B. All three of the first options are true of red bone marrow — the stroma holds fat cells, fibroblasts, endothelial cells, macrophages and reticular cells, and the free population is the developing blood cells — so with "all of the above" on the list, no single one of them can be the answer.',
       explanations: {
         A: 'True but incomplete. Fat cells, fibroblasts and the sinusoidal endothelium are all stromal elements.',
-        B: 'True but incomplete, and the option the books key this question to. Macrophages and reticular cells are there too.',
+        B: 'True but incomplete, and the keyed option. Macrophages and reticular cells are there too.',
         C: 'True but incomplete. The developing blood cells are the free population, and the reason the tissue exists.',
-        D: 'Correct. All three groups are present, and naming only one of them describes a third of the marrow.',
+        D: 'All three groups are present, and naming only one of them describes a third of the marrow.',
       },
     },
     {
@@ -1478,7 +1478,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it says the macrophage is demonstrated by vital stains such as trypan blue or India ink, which it phagocytoses. The other three options are the stains the same chapters give to other cells and fibres.',
       explanations: {
-        a: 'Correct. Trypan blue is a vital stain — injected into the living animal — and the macrophage identifies itself by eating it, so the dye granules inside the cell are the demonstration.',
+        a: 'Trypan blue is a vital stain — injected into the living animal — and the macrophage identifies itself by eating it, so the dye granules inside the cell are the demonstration.',
         b: 'Toluidine blue stains the mast cell and the blood basophil metachromatically, turning their heparin granules purple. It is the neighbouring cell in the same chapter and the commonest wrong answer here.',
         c: 'Silver stains reticular fibres brown, and the Golgi apparatus. It shows a fibre network, not a phagocyte.',
         d: 'Orcein browns elastic fibres. Both silver and orcein give a brown result, which is why naming the colour is never enough to name the stain.',
@@ -1495,7 +1495,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Indian ink is a vital stain the macrophage phagocytoses. It marks a cell by being eaten, not by changing colour, so it cannot be metachromatic at all.',
         b: 'Sudan III stains fat orange, on a frozen section, and identifies the adipocyte. Nothing about it involves a colour change.',
-        c: 'Correct. Toluidine blue is blue, and on the sulphated heparin of the mast cell granule it turns violet or magenta red — a colour different from the dye\'s own, which is what metachromasia means.',
+        c: 'Toluidine blue is blue, and on the sulphated heparin of the mast cell granule it turns violet or magenta red — a colour different from the dye\'s own, which is what metachromasia means.',
         d: 'Trypan blue is the other vital stain of the macrophage. Two of the four options here are macrophage stains, so a student who has not separated the mast cell from the macrophage has a one-in-two chance of the wrong cell.',
       },
     },
@@ -1508,10 +1508,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The 2021 paper carried no key and no highlight was recovered for it, so the answer is worked from the department book\'s fibre-and-stain table: collagen fibres are pink with eosin, blue with Mallory\'s trichrome and red with van Gieson. Mallory is listed against no other fibre.',
       explanations: {
-        a: 'Correct. Mallory\'s trichrome stains collagen fibres blue, and it is one of the three stains the book tabulates against collagen.',
+        a: 'Mallory\'s trichrome stains collagen fibres blue, and it is one of the three stains tabulated against collagen.',
         b: 'Reticular fibres are invisible in H&E and are shown by silver, which browns them, or by PAS, which reddens them because of their sugar content. Mallory does not reach them.',
         c: 'A macrophage is a cell, not a fibre, and it is demonstrated by a vital stain it eats. Putting a cell in a fibre-stain question tests whether the student knows what the stain is for.',
-        d: 'Actin microfilaments are cytoskeletal and intracellular, and the book says all three cytoskeletal systems are hard to see by light microscopy except by immunofluorescence. No trichrome shows them.',
+        d: 'Actin microfilaments are cytoskeletal and intracellular, and all three cytoskeletal systems are hard to see by light microscopy except by immunofluorescence. No trichrome shows them.',
       },
     },
     {
@@ -1525,7 +1525,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The plasma cell is deeply basophilic, which makes it the closest wrong answer — but its basophilia is diffuse cytoplasmic staining from rough endoplasmic reticulum, and it takes the dye\'s own colour. Basophilic is not the same as metachromatic.',
         b: 'The macrophage is demonstrated by a vital stain it phagocytoses, trypan blue or India ink, and its cytoplasm is only palely basophilic.',
-        c: 'Correct. The mast cell\'s granules are sulphated and rich in heparin, and heparin is what turns blue toluidine violet-magenta.',
+        c: 'The mast cell\'s granules are sulphated and rich in heparin, and heparin is what turns blue toluidine violet-magenta.',
         d: 'The pericyte is a small undifferentiated cell around a capillary, with few organelles and no granules at all. There is nothing in it for a metachromatic dye to react with.',
       },
     },
@@ -1538,10 +1538,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'No key was printed on the 2022 paper and none was recovered, so the answer is taken from the department book: the fibroblast arises from undifferentiated mesenchymal cells and from pericytes, and the pericyte in injury divides and differentiates into endothelium, fibroblasts and smooth muscle cells. The undifferentiated mesenchymal cell is not among the four options, which leaves the pericyte as the only stem cell on the list.',
       explanations: {
-        a: 'Correct. The pericyte is the adult mesenchymal stem cell of connective tissue, lying against the capillary wall, and on injury it divides into endothelium, smooth muscle and fibroblasts.',
+        a: 'The pericyte is the adult mesenchymal stem cell of connective tissue, lying against the capillary wall, and on injury it divides into endothelium, smooth muscle and fibroblasts.',
         b: 'The mast cell arises from the undifferentiated mesenchymal cell itself and gives rise to nothing. It is a differentiated secretory cell, not a reserve.',
         c: 'The fat cell also arises from the undifferentiated mesenchymal cell and is an end point. A cell full of stored lipid is the least likely thing on the list to divide into something else.',
-        d: 'The reticular cell is the tempting one, because it can turn phagocytic when stimulated by antigen — but changing behaviour is not differentiating into another cell type, and the book has it arising from the undifferentiated mesenchymal cell rather than giving rise to fibroblasts.',
+        d: 'The reticular cell is the tempting one, because it can turn phagocytic when stimulated by antigen — but changing behaviour is not differentiating into another cell type, and it arises from the undifferentiated mesenchymal cell rather than giving rise to fibroblasts.',
       },
     },
     {
@@ -1553,7 +1553,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The 2022 paper carried no key and no highlight was recovered for that row, so the answer comes from the department book, which describes mucoid connective tissue as containing mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. The extractor has mangled two words of option a — "€xCess" and "Substance" — but the option is legible.',
       explanations: {
-        a: 'Correct. The excess of soft jelly-like ground substance is what mucoid tissue is: Wharton\'s jelly of the umbilical cord, the vitreous humour and the dental pulp.',
+        a: 'The excess of soft jelly-like ground substance is what mucoid tissue is: Wharton\'s jelly of the umbilical cord, the vitreous humour and the dental pulp.',
         b: 'Fat cells predominating is adipose connective tissue. Both are loose types, and grouping them is the mistake this option exists to catch.',
         c: 'High vascularity belongs to loose areolar tissue and to brown adipose tissue. Wharton\'s jelly is a packing around the umbilical vessels, not a vascular tissue itself.',
         d: 'Predominating collagen fibres is white fibrous connective tissue, a dense type. Mucoid tissue has only fine collagen and reticular fibres, which is why it is a jelly rather than a cord.',

@@ -79,7 +79,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'List what the basophil granule contains, and connect each substance to the clinical event it produces.',
       pitfall:
-        'Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors — the book compares them directly — but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.',
+        'Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors, but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.',
       subject: 'haem',
       primary: 'DIS-HIS-T02',
       secondary: ['SYS-HEM-T01-S01-M02'],
@@ -94,11 +94,11 @@ export const LEAF: McqLeafSeed = {
       key: 'lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates',
       label: 'The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either',
       definition:
-        'By function there are three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.',
+        'By function there are three lymphocytes, and they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.',
       objective:
         'Name the three functional lymphocytes, give the immunity each mediates and where each matures, and give the four functional types of T cell with their CD markers.',
       pitfall:
-        'Trying to tell them apart down a microscope. The book says outright that all three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.',
+        'Trying to tell them apart down a microscope. All three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.',
       subject: 'haem',
       primary: 'DIS-HIS-T02',
       secondary: ['SYS-HEM-T01-S01-M02'],
@@ -116,9 +116,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Name the immunoglobulin the basophil membrane has receptors for.',
       explanations: {
-        A: 'IgA is the immunoglobulin of secretions — tears, saliva, gut and respiratory mucus. Nothing in the book puts a receptor for it on the basophil.',
+        A: 'IgA is the immunoglobulin of secretions — tears, saliva, gut and respiratory mucus. Nothing puts a receptor for it on the basophil.',
         B: 'IgG is the commonest circulating immunoglobulin and the one that crosses the placenta. Chosen by students who reason from abundance, but abundance is not what the receptor is for.',
-        C: 'Correct. The book states the basophil membrane shows receptors for IgE, which is what makes the cell degranulate on a second exposure to an allergen.',
+        C: 'The basophil membrane shows receptors for IgE, which is what makes the cell degranulate on a second exposure to an allergen.',
         D: 'IgM is the first antibody made in a primary response and the largest. It is not what the basophil binds.',
       },
     },
@@ -129,7 +129,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Recall of a stated figure',
       learningObjective: 'Give the neutrophil’s share of the differential white cell count.',
       explanations: {
-        A: 'Correct. 60–70%, which makes the neutrophil the commonest leukocyte. The book also gives the thresholds either side: neutrophilia above 75%, neutropenia below 60%.',
+        A: '60–70%, which makes the neutrophil the commonest leukocyte. The thresholds either side are: neutrophilia above 75%, neutropenia below 60%.',
         B: '1–4% is the eosinophil’s share. Picked when the four options are read as a set and the wrong cell’s figure is chosen.',
         C: '0–1% is the basophil’s share — the rarest of the granulocytes.',
         D: '15–20% is closer to the lymphocyte, which is the second commonest cell rather than the first.',
@@ -143,7 +143,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify a granulocyte from the contents of its granules.',
       explanations: {
         A: 'The neutrophil’s granules hold myeloperoxidase in the azurophil population and collagenase, phagocytin, lysozyme and lactoferrin in the specific one. None of the three named here.',
-        B: 'Correct. Histaminase and sulphatase are what the eosinophil uses to destroy histamine and heparin and so terminate an allergic reaction; the granule’s basic protein is the cytotoxic agent against parasites.',
+        B: 'Histaminase and sulphatase are what the eosinophil uses to destroy histamine and heparin and so terminate an allergic reaction; the granule’s basic protein is the cytotoxic agent against parasites.',
         C: 'The basophil is the cell that *holds* histamine and heparin. This option is the trap: the two cells are opposite ends of the same reaction, and the answer turns on histaminase versus histamine.',
         D: 'The lymphocyte is agranular. It is not a granular leukocyte at all, so it cannot be the answer to a question about granule contents.',
       },
@@ -157,7 +157,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The neutrophil holds no vasoactive amine. Its granules are for killing and digesting bacteria.',
         B: 'The eosinophil holds histamin*ase*, the enzyme that destroys histamine — the opposite role. This is the same pair of options as the previous question with the answer reversed, and the faculty asks it both ways.',
-        C: 'Correct. Histamine and heparin are the basophil’s, and it is the heparin that makes the granules stain metachromatically with toluidine blue.',
+        C: 'Histamine and heparin are the basophil’s, and it is the heparin that makes the granules stain metachromatically with toluidine blue.',
         D: 'The plasma cell is a connective-tissue cell that secretes antibody. It is not a leukocyte of the granular series.',
       },
     },
@@ -169,7 +169,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the cell that releases histaminase.',
       explanations: {
         A: 'Neutrophils release lactoferrin, phagocytin, lysozyme and collagenase — antibacterial, not anti-allergic.',
-        B: 'Correct. The eosinophil secretes histaminase and sulphatase to destroy histamine and heparin, which is how it terminates an allergic reaction.',
+        B: 'The eosinophil secretes histaminase and sulphatase to destroy histamine and heparin, which is how it terminates an allergic reaction.',
         C: 'Plasma cells secrete antibody. They are not granular leukocytes.',
         D: 'The basophil releases histamine. Choosing it here is reading the stem as "which cell is involved with histamine" rather than which one destroys it.',
       },
@@ -184,7 +184,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Neutrophils release no histamine; their granules are antibacterial.',
         B: 'The eosinophil releases histamin*ase*, which destroys histamine. The faculty sets this option and its mirror image in adjacent questions on purpose.',
         C: 'Plasma cells secrete antibody, not vasoactive amines.',
-        D: 'Correct. The basophil releases histamine, causing vasodilatation and the sudden drop in blood pressure the book names as anaphylaxis. The mast cell does the same, but the option set here is of leukocytes.',
+        D: 'The basophil releases histamine, causing the vasodilatation and sudden drop in blood pressure that define anaphylaxis. The mast cell does the same, but the option set here is of leukocytes.',
       },
     },
     {
@@ -195,8 +195,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Say what raises the basophil count.',
       explanations: {
         A: 'Bacterial infection raises the neutrophil count — neutrophilia above 75% — because the neutrophil is the first line of non-specific defence.',
-        B: 'Parasitic infection raises the eosinophil count. In Egypt, bilharziasis is the cause the department names.',
-        C: 'Correct. Basophilia, above 2%, goes with allergy: the basophil carries IgE receptors and degranulates when an allergen cross-links them.',
+        B: 'Parasitic infection raises the eosinophil count. In Egypt, bilharziasis is the leading cause.',
+        C: 'Basophilia, above 2%, goes with allergy: the basophil carries IgE receptors and degranulates when an allergen cross-links them.',
         D: '"Both b and c" folds in parasitic infection, which is the eosinophil’s. Picked by students who know allergy is right and are unwilling to rule the other out.',
       },
     },
@@ -209,7 +209,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True of the neutrophil: a single segmented nucleus of two to five lobes joined by thin chromatin threads. Not the exception.',
         B: 'True: on electron microscopy the neutrophil shows pseudopodia, few organelles, and more glycogen for energy. Not the exception.',
-        C: 'Correct — this is the exception being asked for. Coarse basophilic granules containing heparin belong to the basophil, not the neutrophil, whose specific granules are fine and pale.',
+        C: 'This is the exception being asked for. Coarse basophilic granules containing heparin belong to the basophil, not the neutrophil, whose specific granules are fine and pale.',
         D: 'True: the azurophil (primary) granules are considered primary lysosomes and contain myeloperoxidase. Not the exception.',
       },
     },
@@ -223,7 +223,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Collagenase is in the neutrophil’s *specific* granule, with phagocytin, lysozyme and lactoferrin. This option is the whole point of the question: the two granule populations hold different things.',
         B: 'Histaminase is the eosinophil’s, not the neutrophil’s.',
         C: 'Sulphatase is also the eosinophil’s, secreted with histaminase to destroy heparin.',
-        D: 'Correct. The azurophil granule is a primary lysosome, so its contents are hydrolytic enzymes — myeloperoxidase among them, for defence against bacteria and viruses.',
+        D: 'The azurophil granule is a primary lysosome, so its contents are hydrolytic enzymes — myeloperoxidase among them, for defence against bacteria and viruses.',
       },
     },
     {
@@ -231,10 +231,10 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'neutrophil-granules-and-first-line-defence',
       difficulty: 'Moderate',
       questionType: 'Recall of a stated term',
-      learningObjective: 'Name the substance the department book credits the neutrophil with for wound healing.',
+      learningObjective: 'Name the substance credited with helping the neutrophil promote wound healing.',
       explanations: {
         A: 'Clathrin coats vesicles during receptor-mediated endocytosis. It is a cytology term that appears in this module’s cell chapter, which is why it is a plausible distractor here.',
-        B: 'Correct, as the department book has it: the neutrophil secretes trephone, which it credits with helping wounds heal.',
+        B: 'The neutrophil secretes trephone, which is credited with helping wounds heal.',
         C: 'Tubulin is the protein of microtubules — cytoskeleton, not secretion.',
         D: 'Actin is the protein of microfilaments and of the microvillus core. Also cytoskeletal.',
       },
@@ -249,7 +249,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Basophilia, above 2%, goes with allergy rather than with a bacterial fever.',
         B: 'Polycythaemia is a raised red cell count and belongs to a different chapter entirely.',
-        C: 'Correct. The department names typhoid as the commonest cause of neutropenia — below 60% — and it is the exception worth holding, because almost every other bacterial infection raises the neutrophil count instead.',
+        C: 'Typhoid is the commonest cause of neutropenia — below 60% — and it is the exception worth holding, because almost every other bacterial infection raises the neutrophil count instead.',
         D: 'Eosinophilia, above 5%, goes with parasitic infection and allergy. Picked by students who know the patient has an infection and reach for the parasite answer because the presentation is abdominal.',
       },
     },
@@ -284,10 +284,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer is worked from the department book. Three of the four options contradict its own numbers and descriptions — basophils are 0–1% of the count, they rise in allergy rather than in pyogenic infection, and their nucleus is irregular and S-shaped — while the fourth restates its sentence that their coarse granules stain metachromatically purple with toluidine blue because of their heparin.',
       explanations: {
-        a: 'Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell in the book, and basophilia begins above 2%.',
+        a: 'Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell, and basophilia begins above 2%.',
         b: 'Acute pyogenic infection raises the neutrophils, the first line of non-specific defence. The basophil rises in allergy, and its own products — histamine, heparin, leukotrienes — are what an allergic reaction is made of.',
         c: 'A kidney-shaped nucleus is the monocyte\'s. The basophil\'s is irregular, segmented and S-shaped, and it is usually hidden altogether by the granules lying over it.',
-        d: 'Correct. The basophil\'s coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.',
+        d: 'The basophil\'s coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.',
       },
     },
     {
@@ -300,7 +300,7 @@ export const LEAF: McqLeafSeed = {
         'No key was printed on the 2021 paper and none was recovered for that sitting, so the answer comes from the department book, which says in as many words that T lymphocytes mediate cell-mediated immunity and B lymphocytes mediate humoral immunity.',
       explanations: {
         a: 'The B lymphocyte mediates humoral immunity: activated by antigen and by a helper T cell it becomes a plasma cell and secretes antibody. Antibody is a molecule in the plasma, which is what "humoral" means, and it is the opposite arm from the one asked for.',
-        b: 'Correct. T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.',
+        b: 'T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.',
         c: 'Basophils belong to the allergic response, not to either immune arm. They secrete histamine, heparin and leukotrienes and have only limited phagocytic power.',
         d: 'The monocyte becomes the macrophage, which presents antigen and so starts both responses — but presenting is not mediating, and the cell that carries the cell-mediated response out is the T lymphocyte.',
       },

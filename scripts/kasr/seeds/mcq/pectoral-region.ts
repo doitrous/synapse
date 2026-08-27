@@ -197,7 +197,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Brown fat is largely replaced by white fat during childhood, and the interscapular region is the classical site where a remnant persists in the adult; the other three sites hold white fat.',
       explanations: {
-        A: 'Correct. The interscapular region between the shoulder blades is where brown adipose tissue is most abundant in the newborn and where a remnant survives into adult life, along with the root of the neck and around the great vessels.',
+        A: 'The interscapular region between the shoulder blades is where brown adipose tissue is most abundant in the newborn and where a remnant survives into adult life, along with the root of the neck and around the great vessels.',
         B: 'The fat of the mammary gland is white, unilocular and stores energy. The option is tempting only because the question sits among breast material in these books.',
         C: 'The fat of the abdominal wall is white subcutaneous fat — the type that is affected by diet and that increases with age, which is the opposite of the brown fat this question asks about.',
         D: 'The mesentery holds white fat around the vessels of the gut. Nothing about a fat depot deep in the abdomen makes it thermogenic.',
@@ -211,7 +211,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pectoralis major is a powerful adductor and medial rotator, and it lies in front of the joint. It cannot lift the arm away from the trunk.',
         B: 'Teres major adducts and medially rotates the arm with latissimus dorsi. Students choose it because it arises from the scapula and looks as if it should raise the humerus, but its line of pull is downwards.',
-        C: 'Correct, and the key. Supraspinatus runs from the supraspinous fossa over the top of the joint to the greater tuberosity, so it initiates abduction — the first fifteen degrees, before deltoid can act efficiently.',
+        C: 'The key. Supraspinatus runs from the supraspinous fossa over the top of the joint to the greater tuberosity, so it initiates abduction — the first fifteen degrees, before deltoid can act efficiently.',
         D: 'Latissimus dorsi is the strongest adductor of all; it is the muscle that pulls the raised arm back down against the trunk.',
       },
     },
@@ -223,7 +223,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Serratus anterior holds the medial border of the scapula flat against the ribs, so it is the only one of the four whose paralysis lets the border lift away.',
       explanations: {
-        A: 'Correct. Serratus anterior arises from the ribs and inserts along the costal surface of the medial border, pressing it against the chest wall; when the long thoracic nerve is lost the border stands off like a wing on pushing.',
+        A: 'Serratus anterior arises from the ribs and inserts along the costal surface of the medial border, pressing it against the chest wall; when the long thoracic nerve is lost the border stands off like a wing on pushing.',
         B: 'Pectoralis major is on the front of the chest and has no attachment to the scapula at all. Its loss changes the anterior axillary fold, not the position of the scapula.',
         C: 'Deltoid runs from the girdle to the humerus and moves the arm on the scapula, not the scapula on the chest. Its paralysis flattens the shoulder.',
         D: 'Teres major runs from the scapula to the humerus, so it pulls the arm towards the scapula and never the scapula towards the ribs.',
@@ -237,7 +237,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The stem gives the diagnostic wording of dense irregular white fibrous connective tissue — collagen bundles in different directions with few cells between — and describes the interlobular stroma of the breast, which surrounds each lobule from all sides.',
       explanations: {
-        A: 'Correct. Bundles running in different directions with few cells between them is the definition of dense irregular white fibrous connective tissue, and it is what surrounds and separates the lobules of the mammary gland.',
+        A: 'Bundles running in different directions with few cells between them is the definition of dense irregular white fibrous connective tissue, and it is what surrounds and separates the lobules of the mammary gland.',
         B: 'The half the stem rules out explicitly. Dense regular tissue also has densely packed collagen and few cells, but its bundles are parallel because they resist pull along one line — a tendon, a ligament or an aponeurosis, none of which surrounds a gland.',
         C: 'Yellow elastic tissue is dominated by branching elastic fibres, not collagen, and it stains and behaves quite differently. The stem names collagen.',
         D: 'Loose areolar tissue has abundant ground substance, many cells of every type and sparse fibres — the opposite of the description given. It does occur in the breast, in the retromammary space, but not as the tissue described here.',
@@ -250,7 +250,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the nerve at risk on the medial wall of the axilla during breast surgery, from the deformity it leaves behind.',
       explanations: {
         A: 'The nerve to latissimus dorsi — the thoracodorsal — runs on the posterior wall of the axilla and is also at risk in this operation. Its injury costs extension and adduction of the arm and leaves the scapula lying flat, so it does not explain the sign.',
-        B: 'Correct, and the key. The long thoracic nerve runs on the surface of serratus anterior on the medial wall of the axilla, unprotected, and axillary clearance is the classic way it is divided.',
+        B: 'The key. The long thoracic nerve runs on the surface of serratus anterior on the medial wall of the axilla, unprotected, and axillary clearance is the classic way it is divided.',
         C: 'The pectoral nerves lie on the anterior wall. Losing them weakens adduction of the arm and wastes the anterior axillary fold, with no effect on the scapula.',
         D: 'Same wall, same absence of any scapular sign. Pectoralis minor pulls the scapula forwards and downwards, so its paralysis does not lift the medial border away from the chest.',
       },
@@ -264,7 +264,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The anterior fold of the axilla is the lower border of pectoralis major and of nothing else; the other three muscles offered all end well above the level of the fold.',
       explanations: {
         A: 'Deltoid caps the shoulder above and lateral to the fold and inserts into the humerus halfway down the arm. It is on the wrong side of the armpit altogether.',
-        B: 'Correct. The free lower border of pectoralis major, running to the lateral lip of the bicipital groove, is exactly what a hand grips at the front of the armpit.',
+        B: 'The free lower border of pectoralis major, running to the lateral lip of the bicipital groove, is exactly what a hand grips at the front of the armpit.',
         C: 'Pectoralis minor is the commonest wrong answer here. It is part of the anterior wall, but it ends on the coracoid process well above the fold, so it is never palpable as one.',
         D: 'Subclavius lies under the clavicle at the very top of the anterior wall, further still from the fold.',
       },
@@ -279,7 +279,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Half the supply. The lateral pectoral nerve, from the lateral cord, reaches the clavicular head — but the sternocostal head has its own nerve.',
         b: 'The other half. The medial pectoral nerve, from the medial cord, pierces pectoralis minor and supplies the sternocostal head, and it also supplies pectoralis minor on its way.',
-        c: 'Correct. Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.',
+        c: 'Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.',
         d: 'There is no nerve of that name. It is invented by analogy with the nerve to serratus anterior and the nerve to subclavius, and the invented name is the giveaway.',
       },
     },
@@ -294,7 +294,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Pectoralis major is one of the strong medial rotators, along with latissimus dorsi and subscapularis.',
         B: 'The answer the extractor read off this page, and the reason for the override. Deltoid does rotate — but its anterior fibres rotate medially, and only its posterior fibres rotate laterally, so the option names the wrong half of the muscle.',
         C: 'Teres major sits directly beside teres minor and rotates the arm the other way. It is not a rotator cuff muscle, it takes the lower subscapular nerve, and it is a medial rotator with latissimus dorsi.',
-        D: 'Correct as the options stand. Teres minor is a rotator cuff muscle running to the lowest facet of the greater tuberosity and rotates the arm laterally. Strictly the principal lateral rotator is infraspinatus, which this item does not offer — so teres minor is the answer here by being the only lateral rotator on the list.',
+        D: 'As the options stand, teres minor is a rotator cuff muscle running to the lowest facet of the greater tuberosity and rotates the arm laterally. Strictly the principal lateral rotator is infraspinatus, which this item does not offer — so teres minor is the answer here by being the only lateral rotator on the list.',
       },
     },
     {
@@ -303,7 +303,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the insertion, nerve supply, wall of the axilla and action of pectoralis major, and reject the three false versions of each.',
       explanations: {
-        A: 'Correct, and the key. The tendon of pectoralis major is inserted into the lateral lip of the bicipital groove, in front of the tendon of latissimus dorsi, which takes the floor.',
+        A: 'The key. The tendon of pectoralis major is inserted into the lateral lip of the bicipital groove, in front of the tendon of latissimus dorsi, which takes the floor.',
         B: 'The wrong cord. The pectoral nerves come from the lateral and medial cords; the posterior cord supplies the extensors on the back of the limb and never reaches the front of the chest.',
         C: 'The wrong wall. Pectoralis major forms the anterior wall of the axilla; the medial wall is the ribs and intercostals covered by serratus anterior.',
         D: 'The wrong direction of rotation. Pectoralis major is a medial rotator — it lies in front of the joint and pulls the humerus across the chest — and lateral rotation belongs to infraspinatus and teres minor.',
@@ -315,7 +315,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the insertion, nerve supply, wall of the axilla and action of pectoralis major, and reject the three false versions of each.',
       explanations: {
-        A: 'Correct, and the key. Pectoralis major inserts into the lateral lip of the bicipital groove; latissimus dorsi takes the floor and teres major the medial lip.',
+        A: 'The key. Pectoralis major inserts into the lateral lip of the bicipital groove; latissimus dorsi takes the floor and teres major the medial lip.',
         B: 'The pectoral nerves arise from the lateral and medial cords, not the posterior. The posterior cord\'s branches all go behind the limb.',
         C: 'Pectoralis major is the anterior wall of the axilla. The medial wall is serratus anterior over the upper ribs.',
         D: 'Pectoralis major medially rotates the arm. Lateral rotation is infraspinatus and teres minor, and no muscle in front of the joint can do it.',
@@ -331,7 +331,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Off at both ends. The breast extends from the second to the sixth rib, not the third to the eighth — an error of one rib above and two below, and the sort of near-miss that is only caught by having learnt the actual numbers.',
         B: 'Stops short laterally. The breast reaches the mid-axillary line, not the mid-clavicular line, and its axillary tail goes further still, piercing the deep fascia to enter the axilla. Medially the boundary is the lateral border of the sternum, which is the half of this option that is right.',
-        C: 'Correct. Pectoralis major forms the bed over the medial two thirds and serratus anterior, with the external oblique aponeurosis, forms it laterally and below.',
+        C: 'Pectoralis major forms the bed over the medial two thirds and serratus anterior, with the external oblique aponeurosis, forms it laterally and below.',
         D: 'Two spaces too low, and the mistake follows from the extent: because the gland reaches the sixth rib students place the nipple near there. The nipple lies at the fourth intercostal space.',
       },
     },
@@ -346,7 +346,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The word "only" is what makes it false. The medial pectoral nerve does supply the sternocostal head, but the lateral pectoral nerve supplies the clavicular head, and it is the double supply that these books ask about.',
         B: 'The wrong lip, and the classic error at this insertion. Pectoralis major takes the lateral lip, latissimus dorsi the floor and teres major the medial lip of the intertubercular groove.',
         C: 'The right idea inverted. With the arms fixed above the head pectoralis major pulls the ribs up towards the humerus and so acts as an accessory muscle of forced inspiration, not expiration — which is why a breathless patient leans on their hands.',
-        D: 'Correct. Both muscles reach the intertubercular groove from opposite sides and both pull the arm hard against the trunk, which is why they are the pair named whenever adduction is asked.',
+        D: 'Both muscles reach the intertubercular groove from opposite sides and both pull the arm hard against the trunk, which is why they are the pair named whenever adduction is asked.',
       },
     },
     {
@@ -358,7 +358,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries C, but subclavius lies beneath the clavicle and pectoralis minor ends on the coracoid process, so neither reaches the fold. The anterior fold of the axilla is the lower border of pectoralis major alone.',
       explanations: {
         A: 'Pectoralis minor is part of the anterior wall but ends on the coracoid process, far above the free border that forms the fold.',
-        B: 'Correct. The lower free border of pectoralis major, running laterally towards the bicipital groove, is the anterior fold — the ridge that can be pinched at the front of the armpit.',
+        B: 'The lower free border of pectoralis major, running laterally towards the bicipital groove, is the anterior fold — the ridge that can be pinched at the front of the armpit.',
         C: 'The answer the extractor took from this page, and the reason for the override. Both named muscles belong to the anterior wall, which is why the option is plausible, but both lie at the top of that wall and neither reaches down to make a fold.',
         E: 'The distinction the whole item rests on: the wall is made by both pectoral muscles, the fold by pectoralis major alone. Choosing this means reading "fold" as "wall".',
       },
@@ -428,7 +428,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The salivary glands are compound, but their secretory units are tubulo-alveolar rather than purely alveolar — flask-shaped, part tube and part acinus. The duct half of the answer is right and the shape half is not.',
         B: 'A sweat gland is simple coiled tubular: one unbranched duct and a coiled tube for a secretory unit, and nothing alveolar about it.',
         C: 'The kidney is not an exocrine gland in this classification at all. Its tubules are nephrons, not secretory acini fed by a branching duct system.',
-        D: 'Correct, and the key. The mammary gland has a branching duct system opening at the nipple, each branch ending in rounded alveoli — a compound alveolar gland, and the one every student has a specimen of.',
+        D: 'The key. The mammary gland has a branching duct system opening at the nipple, each branch ending in rounded alveoli — a compound alveolar gland, and the one every student has a specimen of.',
       },
     },
     {
@@ -437,7 +437,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Nerve supply',
       learningObjective: 'Name the pectoral muscle supplied by two nerves rather than one.',
       explanations: {
-        A: 'Correct, and the key. The lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve the sternocostal head, so the muscle takes a branch from each cord that gives one.',
+        A: 'The key. The lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve the sternocostal head, so the muscle takes a branch from each cord that gives one.',
         B: 'Pectoralis minor takes the medial pectoral nerve only — the same nerve that goes on through it to reach the sternocostal head of pectoralis major, which is what makes this the closest wrong answer.',
         C: 'Subclavius has its own single named branch, the nerve to subclavius, from the upper trunk.',
         D: 'Deltoid takes the axillary nerve alone, and it is the loss of that single supply that flattens the shoulder.',
@@ -452,7 +452,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries C, but supraspinatus lies above the spine of the scapula, on the back of it and outside the axilla altogether. The posterior wall is subscapularis, teres major and latissimus dorsi, so B is the only one of the four that belongs to it.',
       explanations: {
         A: 'Pectoralis minor is in the anterior wall, deep to pectoralis major and directly across the axilla from the wall being asked about.',
-        B: 'Correct. Teres major forms the lower part of the posterior wall, with subscapularis above it and latissimus dorsi curling round its lower border.',
+        B: 'Teres major forms the lower part of the posterior wall, with subscapularis above it and latissimus dorsi curling round its lower border.',
         C: 'The answer the extractor took from this page, and the reason for the override. Supraspinatus is on the dorsum of the scapula above the spine, roofed by the coraco-acromial arch; it never lines the axilla.',
         D: 'Serratus anterior forms the medial wall, over the upper ribs. It is the wall carrying the long thoracic nerve, which is why it is well remembered and often reached for.',
       },
@@ -489,7 +489,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Name the one gland in the body formed of a single cell.',
       explanations: {
-        A: 'Correct, and the key. The goblet cell is a single flask-shaped mucous-secreting cell within a surface epithelium, and it is the only unicellular gland taught.',
+        A: 'The key. The goblet cell is a single flask-shaped mucous-secreting cell within a surface epithelium, and it is the only unicellular gland taught.',
         B: 'A salivary gland is multicellular and compound, with a branching duct system and thousands of secretory units.',
         C: 'A sebaceous gland is multicellular and simple branched alveolar, discharging by the holocrine mode into a hair follicle.',
         D: 'A lactating mammary gland is multicellular and compound alveolar. It is chosen here because the question sits among breast material, and because a gland made of one kind of cell is easily read as a gland made of one cell.',
@@ -502,7 +502,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that winging follows paralysis of serratus anterior rather than its contraction.',
       explanations: {
         A: 'The reverse. A contracting serratus anterior presses the medial border of the scapula firmly against the ribs — the sign appears only when it cannot.',
-        B: 'Correct, and the key. With serratus anterior paralysed, pushing forward against a wall lets the medial border lift away from the chest wall.',
+        B: 'The key. With serratus anterior paralysed, pushing forward against a wall lets the medial border lift away from the chest wall.',
         C: 'Pectoralis major does not attach to the scapula, so nothing it does — contracting or not — moves the medial border.',
         D: 'Same absence of an attachment. Paralysing pectoralis major wastes the anterior axillary fold and weakens adduction; it leaves the scapula sitting flat.',
       },
@@ -515,7 +515,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Origin and insertion reversed. Pectoralis major arises from the clavicle, sternum and costal cartilages and inserts into the humerus — the humerus is the bone it moves, not the bone it comes from.',
         B: 'Also reversed, and impossible besides: the muscle arises from costal cartilages, not from the bony ribs, and it ends on the humerus.',
-        C: 'Correct, and the key. Pectoralis major adducts the arm — with latissimus dorsi it is one of the two powerful adductors — and medially rotates it.',
+        C: 'The key. Pectoralis major adducts the arm — with latissimus dorsi it is one of the two powerful adductors — and medially rotates it.',
         D: 'The wrong nerve entirely. The median nerve is a nerve of the forearm and hand formed from both cords; pectoralis major takes the lateral and medial pectoral nerves.',
       },
     },

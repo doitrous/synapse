@@ -68,7 +68,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the vessels that empty into the right atrium.',
       explanations: {
-        A: 'Correct. The right atrium receives deoxygenated blood from all parts of the body through the superior and inferior venae cavae.',
+        A: 'The right atrium receives deoxygenated blood from all parts of the body through the superior and inferior venae cavae.',
         B: 'The pulmonary artery leaves the right ventricle for the lungs. Naming it here would reverse the direction of flow through the right heart.',
         C: 'The aorta leaves the left ventricle. It is the outflow of the other side of the heart entirely.',
         D: 'The four pulmonary veins are the trap, and a good one: they carry blood back to the heart, so a student thinking only "veins return blood" takes them. They return it to the *left* atrium, and the blood in them is oxygenated.',
@@ -92,7 +92,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Backwards through the right heart. Blood passes from the right atrium to the right ventricle, and in any case that is the start of the pulmonary circuit, not the systemic one.',
         B: 'Half right, which is why it is printed. The veins do collect blood into the right atrium, but what they collect is deoxygenated blood — the oxygen was given up in the tissues, which is the point of the circuit.',
         C: 'The right vessel with the wrong blood. The aorta does carry blood to all the tissues, but it leaves the left ventricle and the blood in it is oxygenated.',
-        D: 'Correct. Oxygenated blood leaves the left ventricle through the aorta and its branches and reaches all the tissues of the body — the definition of the systemic circulation.',
+        D: 'Oxygenated blood leaves the left ventricle through the aorta and its branches and reaches all the tissues of the body — the definition of the systemic circulation.',
       },
     },
     {
@@ -114,7 +114,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Backwards. Blood passes from the right atrium to the right ventricle and out through the pulmonary valve; a ventricle never fills the atrium above it.',
         B: 'A description of the systemic circulation with the wrong blood in it. Veins do collect into the right atrium, but the blood they bring is deoxygenated.',
-        C: 'Correct, and the override. After gas exchange in the lungs the oxygenated blood returns to the left atrium through the four pulmonary veins — the only vessels named "vein" in the body that carry arterial blood.',
+        C: 'This is the overridden answer. After gas exchange in the lungs the oxygenated blood returns to the left atrium through the four pulmonary veins — the only vessels named "vein" in the body that carry arterial blood.',
         D: 'The aorta carries oxygenated blood, and it belongs to the systemic circulation. This option and B are the same swap made in opposite directions.',
       },
     },
@@ -135,7 +135,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'This copy printed no key. Its twin `regarding-the-portal-circulation-which-of-the-following-stat-02876c54` is keyed A, and A is what the department chapter states: venous blood from the stomach, spleen, pancreas and intestine is collected into the portal vein, which enters the liver through the porta hepatis. This is the only copy in which options A and C are printed in full, so it is the only one in which that key can be acted on.',
       explanations: {
-        A: 'Correct. The portal vein collects venous blood from the digestive organs and the spleen and delivers it to the liver, where it is metabolised and detoxified before rejoining the general circulation.',
+        A: 'The portal vein collects venous blood from the digestive organs and the spleen and delivers it to the liver, where it is metabolised and detoxified before rejoining the general circulation.',
         B: 'The right vein, the wrong direction, and the commonest error in the leaf. The portal vein brings blood in; the hepatic veins take it out to the inferior vena cava.',
         C: 'The two names swapped. The hepatic vein is the exit, not the entrance, and this option differs from the answer by one word.',
         D: 'The inferior vena cava is where portal blood ends up *after* the liver, by way of the hepatic veins. Nothing enters the liver from it.',

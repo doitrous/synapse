@@ -95,7 +95,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attach desmin to muscle and say what it holds together there.',
       explanations: {
         A: 'Hair is keratin. Picked because both are tough structural proteins, but keratin is the epithelial filament and desmin is not found in hair at all.',
-        B: 'Correct. Desmin is the intermediate filament of muscle, and it ties neighbouring myofibrils to each other at the Z line so the whole cell shortens as one.',
+        B: 'Desmin is the intermediate filament of muscle, and it ties neighbouring myofibrils to each other at the Z line so the whole cell shortens as one.',
         C: 'Neurons carry neurofilaments. The four options here are the four tissue-specific filaments, and each question in this set moves the same list on by one.',
         D: 'Glial cells carry glial fibrillary acidic protein, which is the filament a pathologist stains to prove a brain tumour is glial.',
       },
@@ -109,7 +109,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Peripheral nerves grow from cells of the neural crest and from motor cells whose axons leave the cord; the tube itself does not become them. Picked because nerve and cord look continuous in a dissection.',
         B: 'All three ganglia are neural crest derivatives, which is the single most examined fact in this pair. The crest separates from the folds as they fuse and migrates away; the tube stays behind.',
         C: 'The suprarenal medulla is also neural crest — its chromaffin cells are modified postganglionic sympathetic neurons, which is why it secretes adrenaline on sympathetic command.',
-        D: 'Correct. The neural tube becomes the brain and the spinal cord, and therefore the central nervous system entire.',
+        D: 'The neural tube becomes the brain and the spinal cord, and therefore the central nervous system entire.',
       },
     },
     {
@@ -121,7 +121,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Only the urogenital system is mesodermal — it comes from the intermediate mesoderm. The intestinal lining is endodermal, the central nervous system ectodermal, and the connecting stalk extra-embryonic rather than intra-embryonic mesoderm.',
       explanations: {
         A: 'The lining epithelium of the intestine is endoderm. Its muscle and connective tissue coats are splanchnopleuric mesoderm, and the question asks about the lining, which is the distinction being tested.',
-        B: 'Correct. The intermediate mesoderm, the middle of the three divisions, forms the urogenital system — kidney, ureter and gonad.',
+        B: 'The intermediate mesoderm, the middle of the three divisions, forms the urogenital system — kidney, ureter and gonad.',
         C: 'The central nervous system is ectoderm, by way of the neural tube. Chosen because the notochord that induces it is mesodermal, but the induced tissue keeps its own layer.',
         D: 'The connecting stalk is extra-embryonic mesoderm, outside the embryo proper and destined for the umbilical cord. The stem says intra-embryonic, and that word is the whole question.',
       },
@@ -132,7 +132,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Attach cytokeratin to epithelium and to the keratinised structures epithelium makes.',
       explanations: {
-        A: 'Correct. Cytokeratin is the intermediate filament of epithelial cells, and hair and nail are the keratinised products of epidermal epithelium.',
+        A: 'Cytokeratin is the intermediate filament of epithelial cells, and hair and nail are the keratinised products of epidermal epithelium.',
         B: 'Connective tissue carries vimentin. The two are the pair a pathologist uses to tell a carcinoma from a sarcoma, so swapping them reverses the diagnosis.',
         C: 'Neurons carry neurofilaments, not keratin.',
         D: 'Glial cells carry glial fibrillary acidic protein, not keratin.',
@@ -148,7 +148,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Epidermis and hair carry cytokeratin. Chosen when the four options of this recurring set are answered in the wrong order.',
         B: 'Connective tissue carries vimentin.',
-        C: 'Correct. Neurofilaments are the intermediate filament of the neuron, running the length of the axon and supporting it.',
+        C: 'Neurofilaments are the intermediate filament of the neuron, running the length of the axon and supporting it.',
         D: 'The nearest miss, and the one worth knowing: glial tissue has its own intermediate filament, glial fibrillary acidic protein, distinct from the neurofilaments of the neuron it supports. That distinctness is what makes the stain diagnostic.',
       },
     },
@@ -160,7 +160,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The book prints C, surface ectoderm, which is what forms the epidermis and is the key belonging to the neighbouring question on that page. All three ganglia are neural crest derivatives, and the book\'s own list of ectodermal derivatives puts them under "derivatives of the neural crest".',
       explanations: {
-        A: 'Correct. Cells at the crest of the fusing neural folds separate and migrate to form the sensory, sympathetic and parasympathetic ganglia, along with the Schwann cells, the melanocytes and the suprarenal medulla.',
+        A: 'Cells at the crest of the fusing neural folds separate and migrate to form the sensory, sympathetic and parasympathetic ganglia, along with the Schwann cells, the melanocytes and the suprarenal medulla.',
         B: 'The neural tube gives the central nervous system only. Picked because the ganglia lie so close to the cord and because tube and crest arise in one movement.',
         C: 'Surface ectoderm forms the epidermis, and the printed key names it here — evidently carried over from the "epidermis of skin is derived from" question that follows it in these books.',
         D: 'Intra-embryonic mesoderm forms bone, muscle and the urogenital system, no nervous tissue at all. Nervous tissue is ectodermal throughout.',
@@ -175,7 +175,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Ten thoracic segments, when there are twelve. Picked by students who half-remember the count and correct the wrong number: it is the cervical eight that is the odd one, not the thoracic twelve.',
         B: 'Ten cervical segments, when there are eight. Chosen by rounding the odd number to a tidier one.',
         C: 'One sacral segment, when there are five. The sacral segments matter: the parasympathetic nuclei of the lateral horn sit in the second, third and fourth of them.',
-        D: 'Correct. Eight cervical, twelve thoracic, five lumbar, five sacral and one coccygeal — thirty-one segments and therefore thirty-one pairs of spinal nerves.',
+        D: 'Eight cervical, twelve thoracic, five lumbar, five sacral and one coccygeal — thirty-one segments and therefore thirty-one pairs of spinal nerves.',
       },
     },
     {
@@ -187,7 +187,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Vimentin is the intermediate filament of connective tissue and of muscle, which is exactly what B states; the other three options name the tissues of keratin, neurofilaments and glial fibrillary acidic protein.',
       explanations: {
         A: 'Hair is keratin, the epithelial filament.',
-        B: 'Correct. Vimentin is the intermediate filament of mesenchymal tissue — connective tissue and muscle — which is why a vimentin-positive tumour is a sarcoma rather than a carcinoma.',
+        B: 'Vimentin is the intermediate filament of mesenchymal tissue — connective tissue and muscle — which is why a vimentin-positive tumour is a sarcoma rather than a carcinoma.',
         C: 'Neurons carry neurofilaments.',
         D: 'Glial tissue carries glial fibrillary acidic protein. Muscle appears in both the vimentin and the desmin answers of this set, and that is not an error: muscle carries vimentin as a mesenchymal tissue and desmin as its own specialised filament.',
       },

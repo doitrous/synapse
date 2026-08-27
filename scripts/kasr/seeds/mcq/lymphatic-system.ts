@@ -73,7 +73,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The whole body below the diaphragm drains to the thoracic duct, both sides of it. This is the option that catches a student who has divided the body into a right half and a left half.',
         B: 'The right lower limb is below the diaphragm and therefore thoracic duct territory. Its being on the right side is exactly the resemblance that makes this wrong.',
-        C: 'Correct. The right lymphatic duct drains the right upper limb, with the right side of the head and neck and the right half of the thorax.',
+        C: 'The right lymphatic duct drains the right upper limb, with the right side of the head and neck and the right half of the thorax.',
         D: 'The right half of the abdomen is below the diaphragm, so it too goes to the thoracic duct. Three of the four options are on the right side of the body, which is what makes the question a test of the diaphragm rather than of the midline.',
       },
     },
@@ -88,7 +88,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Reversed. Afferent vessels carry lymph *to* the node, opening into its periphery at the convex border; it is the efferent vessels, leaving the hilum, that carry it away. The prefixes are the whole distinction and they are easy to swap under time pressure.',
         B: 'The right bronchomediastinal trunk is not described in this chapter, which stops at the two great ducts in the root of the neck. An option naming a structure the course does not teach cannot be the answer a first-year examiner intends, and the detail it adds about the left lobe of the liver is there to look authoritative.',
         C: 'Half of this is the chapter\'s own wording — lymph vessels do end blindly in the tissue spaces and do have wide pores — and the last four words reverse it. They have many valves, which is what makes lymph flow in one direction. A statement that is three-quarters true is the hardest kind of distractor.',
-        D: 'Correct, and the override. The four sites are brain and spinal cord, bone marrow, and the avascular structures — cartilage, cornea, hair. The pattern behind the list is worth keeping: a tissue with no blood vessels has no lymphatics either.',
+        D: 'This is the overridden answer. The four sites are brain and spinal cord, bone marrow, and the avascular structures — cartilage, cornea, hair. The pattern behind the list is worth keeping: a tissue with no blood vessels has no lymphatics either.',
       },
     },
     {

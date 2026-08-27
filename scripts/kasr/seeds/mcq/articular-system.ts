@@ -84,7 +84,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Name the bones that form the elbow, classify it, and say what the capsule is and is not attached to.',
       explanations: {
-        A: 'Correct. Three bones meet here — the lower end of the humerus above, the upper ends of the ulna and radius below — which is what makes the elbow the department book\'s type example of a compound joint.',
+        A: 'Three bones meet here — the lower end of the humerus above, the upper ends of the ulna and radius below — which is what makes the elbow a textbook example of a compound joint.',
         B: 'Coracobrachialis crosses the shoulder, not the elbow: it runs from the coracoid process to the middle of the humeral shaft and so cannot flex the elbow. Picked because its name contains "brachii" territory and it is learnt beside biceps, which does flex the elbow.',
         C: 'The capsule is attached to the neck of the radius through the anular ligament, deliberately not to the head. Anything anchored to the head would stop it spinning and abolish pronation and supination.',
         D: 'The classic swap. The pivot in this region is the superior radio-ulnar joint, which shares the elbow\'s capsule but is a separate joint; the elbow itself is a uniaxial hinge, held to flexion and extension by strong collateral ligaments.',
@@ -98,10 +98,10 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The book prints C, the sacroiliac joint, which is wrong: the sacroiliac is a synovial plane joint anteriorly with a posterior syndesmosis, and carries no fibrocartilaginous disc. The intervertebral joint is the department book\'s own named example of a secondary cartilaginous joint, and the option-list bleed in the stem shows the list itself began "a- Intervertebral".',
       explanations: {
-        A: 'Correct. Two vertebral bodies, each capped by thin hyaline cartilage, are united by a white fibrocartilaginous disc in the midline, permanently and with slight movement — every criterion of a secondary cartilaginous joint.',
+        A: 'Two vertebral bodies, each capped by thin hyaline cartilage, are united by a white fibrocartilaginous disc in the midline, permanently and with slight movement — every criterion of a secondary cartilaginous joint.',
         B: 'A skull suture is fibrous, not cartilaginous: the bones are held by a thin sutural ligament, and it is immobile. Picked by students who remember only that sutures are not synovial.',
         C: 'The sacroiliac joint tempts because it is axial and barely mobile, so it feels like a symphysis. It is a synovial plane joint, and the pubic symphysis — not the sacroiliac — is the pelvic secondary cartilaginous joint.',
-        D: 'The distal (inferior) tibio-fibular joint is the department book\'s example of a syndesmosis, a fibrous joint held by an interosseous ligament. Chosen when "held by tissue rather than a cavity" is read as cartilaginous.',
+        D: 'The distal (inferior) tibio-fibular joint is a syndesmosis, a fibrous joint held by an interosseous ligament. Chosen when "held by tissue rather than a cavity" is read as cartilaginous.',
       },
     },
     {
@@ -112,7 +112,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The book prints C, syndesmosis. The stem gives the definition of a gomphosis word for word — a tooth root held in its socket by the periodontal ligament — and syndesmosis is the interosseous-ligament type at the inferior tibio-fibular joint. The same question elsewhere in this leaf is keyed A.',
       explanations: {
-        A: 'Correct. A gomphosis is a peg-in-socket fibrous joint, and the peg is a tooth root: the periodontal ligament holding it in the alveolus of the maxilla or mandible is what names it.',
+        A: 'A gomphosis is a peg-in-socket fibrous joint, and the peg is a tooth root: the periodontal ligament holding it in the alveolus of the maxilla or mandible is what names it.',
         B: 'A suture also uses a fibrous ligament, the sutural ligament, but it unites two flat skull bones edge to edge, not a peg in a hole. Picked by students who group all three fibrous joints under "skull".',
         C: 'Syndesmosis is the third fibrous type and is held by an interosseous ligament, as between the lower ends of tibia and fibula. It is the printed key here and it is wrong: no tooth is involved.',
         D: 'Not a separate class — a serrate suture is one shape of suture, and adding the shape does not make it a tooth joint. Chosen when the longer, more technical-sounding option is assumed to be the more precise one.',
@@ -128,7 +128,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Temporary belongs to the primary cartilaginous joint, which ossifies with growth — the epiphyseal plate is gone by adulthood. A symphysis is permanent, and this is the single most common swap in the pair.',
         B: 'Immobile is again the primary joint. The secondary joint\'s fibrocartilaginous disc is elastic, and that elasticity is exactly what gives it its limited movement.',
-        C: 'Correct. Secondary cartilaginous joints lie in the median plane — the intervertebral discs, the pubic symphysis, the manubriosternal joint — and position is what the department book gives as their defining character.',
+        C: 'Secondary cartilaginous joints lie in the median plane — the intervertebral discs, the pubic symphysis, the manubriosternal joint — and position is their defining character.',
         D: 'The printed key, and the trap: a potential cavity is a synovial joint character. A cartilaginous joint has cartilage between the bones and therefore no cavity, potential or otherwise.',
       },
     },
@@ -152,7 +152,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Name the joint between a tooth root and its socket.',
       explanations: {
-        A: 'Correct. Gomphosis is the fibrous peg-in-socket joint, and the tooth in its alveolus held by the periodontal ligament is its only example in the body.',
+        A: 'Gomphosis is the fibrous peg-in-socket joint, and the tooth in its alveolus held by the periodontal ligament is its only example in the body.',
         B: 'A suture is fibrous too, and the maxilla the tooth sits in is a skull bone — which is what makes this tempting. A suture unites two bones edge to edge; a tooth is not a bone of the vault.',
         C: 'The sacroiliac joint is synovial and pelvic, and appears here only as filler. Chosen when a student recognises none of the terms and picks the joint they can name.',
         D: 'Synovial is the freely mobile class with a capsule and a cavity. A tooth that moved freely in its socket would be a tooth about to be lost, which is the point of the periodontal ligament being fibrous.',
@@ -166,7 +166,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Of the four, only the knee is synovial, and a joint cavity — even a potential one — exists in no other class of joint.',
       explanations: {
-        A: 'Correct. The knee is a synovial joint, and a synovial joint is the only class with a cavity: potential in health, becoming a real space when effusion, blood or pus collects.',
+        A: 'The knee is a synovial joint, and a synovial joint is the only class with a cavity: potential in health, becoming a real space when effusion, blood or pus collects.',
         B: 'The intervertebral joint is a secondary cartilaginous joint, whose fibrocartilaginous disc fills the space entirely. Picked by students who imagine the nucleus pulposus as fluid in a cavity — it is a gel within cartilage, with no synovial lining.',
         C: 'A suture is fibrous and the bones are held edge to edge by a sutural ligament, with no gap at all. In old age it does not open; it ossifies shut.',
         D: 'The inferior tibio-fibular joint is a syndesmosis, held by an interosseous ligament. Chosen because a ligament between two bones suggests a gap, but the ligament fills it.',
@@ -180,7 +180,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'This copy printed no key. The near-identical row `which-of-the-following-is-true-in-respect-to-the-elbow-joint-b4b873c4` is keyed A, and A is the only true statement of the four: the radial and ulnar collateral ligaments are the elbow\'s named ligaments.',
       explanations: {
-        A: 'Correct. The radial collateral runs from the lateral epicondyle to the anular ligament and the ulnar collateral from the medial epicondyle in three bands to the coronoid process and olecranon; between them they confine the elbow to flexion and extension.',
+        A: 'The radial collateral runs from the lateral epicondyle to the anular ligament and the ulnar collateral from the medial epicondyle in three bands to the coronoid process and olecranon; between them they confine the elbow to flexion and extension.',
         B: 'A plane joint has flat surfaces and gliding movement without an axis — the intercarpal and superior tibio-fibular joints. The elbow has a trochlea articulating with a trochlear notch, which is the definition of a hinge.',
         C: 'The cephalic and basilic are veins, not arteries, and they are superficial veins of the limb that supply nothing. The elbow is supplied by the anastomosis around it, from the brachial, profunda brachii, radial and ulnar arteries.',
         D: 'The axillary nerve serves the shoulder, not the elbow; the elbow is supplied by branches of the musculocutaneous, radial, median and ulnar nerves — the nerves of the muscles that move it, which is Hilton\'s law. Picked by pairing the one elbow-crossing nerve in the list with a familiar name.',

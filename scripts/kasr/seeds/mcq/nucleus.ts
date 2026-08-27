@@ -98,13 +98,13 @@ export const LEAF: McqLeafSeed = {
       type: 'structure_function_relationship',
       aliases: ['Vesicular nucleus', 'Condensed nucleus', 'Peripheral chromatin', 'Chromatin islands'],
       uncertainty:
-        'One book asks which granulocyte shows most euchromatin and which most heterochromatin, keying the eosinophil and basophil for the first and the neutrophil for the second. All three granulocyte nuclei are substantially condensed, and no statement in the department book ranks them. The pair is authored to the book\'s own keys and this note records that the ranking is the book\'s, not the chapter\'s.',
+        'One book asks which granulocyte shows most euchromatin and which most heterochromatin, keying the eosinophil and basophil for the first and the neutrophil for the second. All three granulocyte nuclei are substantially condensed, and no statement in the course material ranks them. The pair is authored to the book\'s own keys and this note records that the ranking is the book\'s, not the chapter\'s.',
     },
     {
       key: 'nucleolus-parts-and-ribosome-formation',
       label: 'The nucleolus is an unbounded basophilic mass whose three dark parts are the rRNA gene, the new rRNA and the mature rRNA',
       definition:
-        'The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane. By electron microscopy it is spongy, with dark areas and light areas. The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA. Pars fibrosa and pars granulosa together are called the nucleolonema. The light areas are nucleolar sap. The nucleolus forms ribosomal RNA and assembles the ribosomal subunits, which then pass out through the nuclear pores to the cytoplasm; a large nucleolus therefore means a cell making a great deal of protein, and the department book notes that large nucleoli are found in rapidly growing malignant cells.',
+        'The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane. By electron microscopy it is spongy, with dark areas and light areas. The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA. Pars fibrosa and pars granulosa together are called the nucleolonema. The light areas are nucleolar sap. The nucleolus forms ribosomal RNA and assembles the ribosomal subunits, which then pass out through the nuclear pores to the cytoplasm; a large nucleolus therefore means a cell making a great deal of protein, and large nucleoli are found in rapidly growing malignant cells.',
       objective:
         'Name the three dark parts of the nucleolus and say what each represents, and explain what the nucleolus produces.',
       pitfall:
@@ -120,7 +120,7 @@ export const LEAF: McqLeafSeed = {
       key: 'nucleus-parts-and-functions-including-nuclear-sap',
       label: 'The nucleus is envelope, chromatin, nucleolus and nuclear sap, and it is the largest component of every true cell',
       definition:
-        'The nucleus is the largest component of the cell, and the department book states that the red blood corpuscle and the platelet, which lack one, are not true cells. It is made of four things: the nuclear membrane or envelope, the chromatin material, the nucleolus, and the nuclear sap — a colloidal solution filling the space between the chromatin and the nucleolus, formed of nucleoproteins, enzymes, sugars and calcium, potassium and phosphorus ions, which provides the medium through which RNA is carried to the nuclear pores. The nucleus carries all the genetic information and hereditary factors, controls every cell function including protein synthesis, is responsible for the formation of RNA, and directs cell division.',
+        'The nucleus is the largest component of the cell, and the red blood corpuscle and the platelet, which lack one, are not true cells. It is made of four things: the nuclear membrane or envelope, the chromatin material, the nucleolus, and the nuclear sap — a colloidal solution filling the space between the chromatin and the nucleolus, formed of nucleoproteins, enzymes, sugars and calcium, potassium and phosphorus ions, which provides the medium through which RNA is carried to the nuclear pores. The nucleus carries all the genetic information and hereditary factors, controls every cell function including protein synthesis, is responsible for the formation of RNA, and directs cell division.',
       objective:
         'Name the four structural parts of the nucleus, say what the nuclear sap is and does, and list the functions of the nucleus.',
       pitfall:
@@ -136,11 +136,11 @@ export const LEAF: McqLeafSeed = {
       key: 'nucleus-shape-position-and-number-identify-the-cell',
       label: 'A cell is named from the number, position, shape and staining of its nucleus',
       definition:
-        'Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many. The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline. The books use a fixed set of examples: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet. Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.',
+        'Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many. The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline. The standard examples are: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet. Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.',
       objective:
         'Name a cell from the number, position and shape of its nucleus, and use nuclear level to tell pseudostratified from stratified epithelium.',
       pitfall:
-        'Reading "segmented" and "lobed" as interchangeable across the granulocytes. Two to five joined segments is the neutrophil, two lobes in a horse-shoe is the eosinophil, and an irregular S obscured by granules is the basophil — the books ask all three from the same option list.',
+        'Reading "segmented" and "lobed" as interchangeable across the granulocytes. Two to five joined segments is the neutrophil, two lobes in a horse-shoe is the eosinophil, and an irregular S obscured by granules is the basophil — all three appear together in the same option list.',
       subject: 'fnd',
       primary: 'DIS-HIS-T01',
       secondary: [],
@@ -155,7 +155,7 @@ export const LEAF: McqLeafSeed = {
       key: 'chromosomal-abnormalities-and-the-syndromes-they-cause',
       label: 'Named syndromes follow from a specific extra chromosome, missing sex chromosome or deleted arm',
       definition:
-        'The department book teaches that chromosomal alterations are associated with tumours and with genetic diseases, and its question books examine four by name. Down syndrome is trisomy 21 — an extra chromosome 21. Turner syndrome affects females and has an XO sex chromosome constitution, so the somatic cells hold 45 chromosomes and the genital system is underdeveloped. Klinefelter syndrome affects males and is XXY, so the somatic cells hold 47 chromosomes. Cri-du-chat syndrome is a partial deletion of the short arm of chromosome 5.',
+        'Chromosomal alterations are associated with tumours and with genetic diseases, and the question books examine four by name. Down syndrome is trisomy 21 — an extra chromosome 21. Turner syndrome affects females and has an XO sex chromosome constitution, so the somatic cells hold 45 chromosomes and the genital system is underdeveloped. Klinefelter syndrome affects males and is XXY, so the somatic cells hold 47 chromosomes. Cri-du-chat syndrome is a partial deletion of the short arm of chromosome 5.',
       objective:
         'Give the chromosomal fault behind Down, Turner, Klinefelter and cri-du-chat syndromes, and say which sex each affects.',
       pitfall:
@@ -199,7 +199,7 @@ export const LEAF: McqLeafSeed = {
       type: 'structure_function_relationship',
       aliases: ['Sex chromatin', 'Barr body', 'Drumstick'],
       gaps: [
-        'The department book names the Barr body once, in the granular leukocyte chapter, only to say that one can be seen in 3-6% of female neutrophils. It nowhere states that the Barr body is an inactivated X chromosome, and it gives no sex-chromosome constitution for Turner or Klinefelter beyond XO and XXY in the nucleus chapter\'s clinical note. The 2020 end-of-module paper set the question anyway, so the concept is minted from a sat paper and this note records that the inactivation rule itself is not in the faculty\'s text.',
+        'The Barr body is named once, in the granular leukocyte chapter, only to say that one can be seen in 3-6% of female neutrophils. Nowhere is it stated that the Barr body is an inactivated X chromosome, and no sex-chromosome constitution is given for Turner or Klinefelter beyond XO and XXY in the nucleus chapter\'s clinical note. The 2020 end-of-module paper set the question anyway, so the concept is minted from a sat paper and this note records that the inactivation rule itself is not in the course text.',
       ],
     },
     {
@@ -250,7 +250,7 @@ export const LEAF: McqLeafSeed = {
       type: 'structure_function_relationship',
       aliases: ['Kinetochore', 'Centromere', 'Telomere'],
       gaps: [
-        'The department book names none of these structures: kinetochore, centromere and telomere appear nowhere in its text, and its nucleus chapter stops at chromatin, nucleolus and nuclear sap. The 2020 end-of-module paper set a four-option kinetochore question whose distractors are the telomere twice over, so the concept is minted from a sat paper and this note records that the answer rests on the standard definitions rather than on the faculty\'s own text.',
+        'None of these structures are named in the course material: kinetochore, centromere and telomere appear nowhere in its text, and its nucleus chapter stops at chromatin, nucleolus and nuclear sap. The 2020 end-of-module paper set a four-option kinetochore question whose distractors are the telomere twice over, so the concept is minted from a sat paper and this note records that the answer rests on the standard definitions rather than on the course text.',
       ],
     },
   ],
@@ -265,19 +265,19 @@ export const LEAF: McqLeafSeed = {
         A: 'Coiled chromatin is heterochromatin. Euchromatin is the extended, uncoiled form — the whole distinction is in the coiling.',
         B: 'Condensed masses are heterochromatin: peripheral chromatin, chromatin islands and the ring around the nucleolus. Euchromatin is too dispersed to appear as a mass.',
         C: 'Half right and therefore dangerous. Euchromatin does direct protein synthesis, but by carrying *active* genes; inactive genes direct nothing, and the word "inactive" is what makes this option false.',
-        D: 'Correct. Fine, dispersed euchromatin takes up little stain, so the nucleus reads pale and open — vesicular — with a clear nucleolus, and that appearance is the sign of an active cell.',
+        D: 'Fine, dispersed euchromatin takes up little stain, so the nucleus reads pale and open — vesicular — with a clear nucleolus, and that appearance is the sign of an active cell.',
       },
     },
     {
       key: 'only-one-statement-is-correct-about-small-lymphocytes-d50594e3',
       conceptKey: 'euchromatin-versus-heterochromatin',
       difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Recognise the small lymphocyte as the department book\'s type example of an inactive, heterochromatic cell.',
+      learningObjective: 'Recognise the small lymphocyte as the type example of an inactive, heterochromatic cell.',
       explanations: {
         A: 'The small lymphocyte has a thin rim of cytoplasm, barely more than a blue line around the nucleus. Abundant cytoplasm belongs to the monocyte.',
-        B: 'An indented nucleus with a visible nucleolus is the *large* lymphocyte. The small one has a round, dark, condensed nucleus and no nucleolus you can see — it is the book\'s own example of a heterochromatic nucleus.',
+        B: 'An indented nucleus with a visible nucleolus is the *large* lymphocyte. The small one has a round, dark, condensed nucleus and no nucleolus you can see — it is the standard example of a heterochromatic nucleus.',
         C: 'Organelles are scanty in the small lymphocyte, which follows from the same fact: a cell whose chromatin is coiled and silent is not synthesising much and does not need the machinery.',
-        D: 'Correct. Most lymphocytes in circulating blood are small lymphocytes, and it is the only statement in the set that is true of them.',
+        D: 'Most lymphocytes in circulating blood are small lymphocytes, and it is the only statement in the set that is true of them.',
       },
     },
     {
@@ -286,7 +286,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Place pars fibrosa at the new-transcript stage of the nucleolar sequence.',
       explanations: {
-        A: 'Correct. Pars fibrosa is strands of newly synthesised rRNA — fibres because a new transcript is still a thread rather than a packed particle.',
+        A: 'Pars fibrosa is strands of newly synthesised rRNA — fibres because a new transcript is still a thread rather than a packed particle.',
         B: 'Mature rRNA is pars granulosa, granules. The names carry the difference: a fibre is being made, a granule is finished.',
         C: 'The DNA encoding rRNA is pars amorpha, the nucleolar organiser. It is the template, one step earlier than the fibres.',
         D: 'Light areas are nucleolar sap and are not one of the three dark parts at all. The option also says "nuclear sap" rather than nucleolar, which is a second reason it cannot be right.',
@@ -299,7 +299,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place pars granulosa at the finished-product stage of the nucleolar sequence.',
       explanations: {
         A: 'Newly formed rRNA is pars fibrosa. This is the option immediately before the answer in the sequence, which is where the mark is usually lost.',
-        B: 'Correct. Pars granulosa is granules of mature rRNA, the last of the three dark parts and the material that leaves through the nuclear pores as ribosomal subunits.',
+        B: 'Pars granulosa is granules of mature rRNA, the last of the three dark parts and the material that leaves through the nuclear pores as ribosomal subunits.',
         C: 'The chromosomes encoding rRNA are pars amorpha, the nucleolar organiser.',
         D: 'Light areas of nucleolar sap are not part of the dark areas and represent no stage of rRNA at all.',
       },
@@ -312,7 +312,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Turner syndrome occurs in females. It is Klinefelter syndrome that occurs only in males, and this book asks the two questions with the same four options.',
         B: '47 chromosomes means one too many, which is Down syndrome or Klinefelter. Turner is one short, at 45.',
-        C: 'Correct. A single X and no second sex chromosome — XO — which is why the count is 45.',
+        C: 'A single X and no second sex chromosome — XO — which is why the count is 45.',
         D: 'The genital system is underdeveloped in Turner syndrome; a normal genital system would leave nothing to diagnose.',
       },
     },
@@ -346,7 +346,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Stains and techniques',
       learningObjective: 'Explain why chromatin stains with the basic dye.',
       explanations: {
-        A: 'Correct. The phosphate groups of the nucleic acid are acidic, so they bind the basic dye — that is what basophilia means, and it is why the whole nucleus is blue in H&E.',
+        A: 'The phosphate groups of the nucleic acid are acidic, so they bind the basic dye — that is what basophilia means, and it is why the whole nucleus is blue in H&E.',
         B: 'Acidophilia would mean binding the acid dye, eosin. DNA is the reason chromatin is basophilic, so this option gets both halves the wrong way round.',
         C: 'Protein is present in chromatin, as histone and non-histone protein, but protein is not what makes it basophilic. The nucleic acid is.',
         D: 'Wrong on the staining and wrong on the reason, and in the set to catch a student who is guessing on the second half of the sentence.',
@@ -369,11 +369,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the chromatin attached to the inner nuclear membrane.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The source printed no key. Peripheral chromatin is one of the three sites of heterochromatin the department book names, so C is the only option the description fits.',
+        'The source printed no key. Peripheral chromatin is one of the three named sites of heterochromatin, so C is the only option the description fits.',
       explanations: {
         A: 'The nuclear pore complex is protein — nucleoporin — not nucleoprotein clumps, and it fills the pores rather than lying against the membrane between them.',
         B: 'The nucleolus is a single rounded mass, usually one or two per nucleus, and it sits within the nucleus rather than around its rim.',
-        C: 'Correct. Peripheral chromatin — heterochromatin attached to the inner surface of the nuclear membrane — is the first of the three sites of heterochromatin.',
+        C: 'Peripheral chromatin — heterochromatin attached to the inner surface of the nuclear membrane — is the first of the three sites of heterochromatin.',
         D: 'Euchromatin is dispersed and pale and forms no clumps anywhere. It is chosen by students who remember that something is attached at the periphery but not which form.',
       },
     },
@@ -397,7 +397,7 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, "present in the form of coiled filaments", which is the definition of heterochromatin and cannot be the exception. C, "present in the form of extended filaments", describes euchromatin and is the only false statement in the set. B and C are the same sentence with the coiling reversed, which is the shape a one-letter key slip takes.',
       explanations: {
         A: 'True, so not the exception. Heterochromatin is the inactive form of chromatin.',
-        B: 'True, so not the exception. Coiled is precisely what heterochromatin is, and it is the reason it is dense and silent. This is the option the book keys, and taking it would mean calling heterochromatin\'s own definition false.',
+        B: 'True, so not the exception. Coiled is precisely what heterochromatin is, and it is the reason it is dense and silent. This is the keyed answer, and taking it would mean calling heterochromatin\'s own definition false.',
         C: 'The exception, and the answer. Extended, uncoiled filaments are euchromatin. B and C are the two halves of one contrast and only one of them can be true of this form.',
         D: 'True, so not the exception. Coiled chromatin scatters electrons, so it is electron dense.',
       },
@@ -411,7 +411,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. B, C and D are all features of the unilocular cell; the cytochrome pigment of the many mitochondria is what makes brown fat brown, and it is the only option that belongs to the multilocular cell. The paired question `concerning-unilocular-adipocytes-they-have-all-of-the-follow-88d2b6b6` keys the same option A as the exception for the unilocular cell, which confirms the reading.',
       explanations: {
-        A: 'Correct. The multilocular — brown — fat cell is crowded with mitochondria, and their cytochrome pigment is what gives brown fat its colour and its heat-generating power.',
+        A: 'The multilocular — brown — fat cell is crowded with mitochondria, and their cytochrome pigment is what gives brown fat its colour and its heat-generating power.',
         B: 'The signet ring appearance is the unilocular cell: one huge droplet with the nucleus and a thin rim of cytoplasm squeezed to one edge, like the stone of a ring.',
         C: 'A single large droplet is again the unilocular cell. The multilocular cell holds many small ones, which is what "multilocular" means.',
         D: 'A flat peripheral nucleus is what a single large droplet does to a nucleus. The multilocular cell\'s nucleus stays central and rounded because no one droplet is big enough to displace it.',
@@ -438,7 +438,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Reticular cells are stellate and branched — their processes are what form the reticular network the fibres run along. A rounded cell with no processes could not build a mesh.',
         B: 'The histiocyte is the macrophage of connective tissue, a different cell. Both live in reticular tissue, which is what makes the option tempting.',
-        C: 'Correct. The cytoplasm is palely basophilic and the nucleus is pale and euchromatic, which together say this is an active, protein-forming cell rather than a resting one.',
+        C: 'The cytoplasm is palely basophilic and the nucleus is pale and euchromatic, which together say this is an active, protein-forming cell rather than a resting one.',
         D: 'A dark heterochromatic nucleus would mean an inactive cell. It is the opposite of what a reticular cell shows, and this option is the direct contradiction of C — one of the two has to go.',
       },
     },
@@ -449,12 +449,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Describe the nuclear pore and the direction each cargo travels.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The source printed no key. The pores are circular, not triangular; the two membranes do fuse at them; and RNA is exported from the nucleus rather than imported into it. Only D — the nucleoporins form an octagonal ring — is as the department book has it.',
+        'The source printed no key. The pores are circular, not triangular; the two membranes do fuse at them; and RNA is exported from the nucleus rather than imported into it. Only D — the nucleoporins form an octagonal ring — is correct.',
       explanations: {
         A: 'The openings are circular. "Triangular" is invented, and it is the option a student takes who remembers only that the pore has a defined geometry.',
         B: 'The inner and outer membranes do become continuous with one another at the pore; that fusion is what makes a hole rather than two separate holes.',
         C: 'The direction is wrong. RNA and ribosomal subunits are exported out of the nucleus; what is imported is protein made in the cytoplasm.',
-        D: 'Correct. About thirty nucleoporin proteins are arranged as an octagonal ring around the pore, with filaments trailing into the cytoplasm and into the nucleus.',
+        D: 'About thirty nucleoporin proteins are arranged as an octagonal ring around the pore, with filaments trailing into the cytoplasm and into the nucleus.',
       },
     },
     {
@@ -475,7 +475,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Give the chromosome and the arm deleted in cri-du-chat syndrome.',
       explanations: {
-        A: 'Correct. Partial deletion of the short arm of chromosome 5.',
+        A: 'Partial deletion of the short arm of chromosome 5.',
         B: 'The long arm of chromosome 5 is the same chromosome with the wrong arm. The option set varies chromosome and arm independently, so both have to be remembered.',
         C: 'Chromosome 15 is the wrong chromosome, with the right arm — the mirror of B.',
         D: 'Wrong on both counts, and in the set to complete the two-by-two.',
@@ -500,7 +500,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Pars amorpha is one of the three dark parts.',
         B: 'True, but not the whole answer. Pars fibrosa is the second.',
         C: 'True, but not the whole answer. Pars granulosa is the third.',
-        D: 'Correct. All three are dark; what is light in the nucleolus is the nucleolar sap, and the question is testing whether the dark/light split is held separately from the three-part split.',
+        D: 'All three are dark; what is light in the nucleolus is the nucleolar sap, and the question is testing whether the dark/light split is held separately from the three-part split.',
       },
     },
     {
@@ -513,9 +513,9 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, a deletion on chromosome 15, which is not any recognised cause of Down syndrome and does not correspond to any of the four syndromes these books teach. Down syndrome is trisomy 21 — option D — and the key is a straightforward misprint.',
       explanations: {
         A: 'An extra chromosome 13 is Patau syndrome, not Down. It is the right kind of fault — a trisomy — on the wrong chromosome.',
-        B: 'A deletion on chromosome 15 belongs to neither Down nor cri-du-chat, which is chromosome 5. This is the option the book keys, and it names a fault the syllabus does not teach at all.',
+        B: 'A deletion on chromosome 15 belongs to neither Down nor cri-du-chat, which is chromosome 5. This is the keyed answer, and it names a fault the syllabus does not teach at all.',
         C: 'Partial deletion of the short arm of chromosome 5 is cri-du-chat syndrome. The books ask that question separately with the same options, so mixing the two up costs both marks.',
-        D: 'Correct. Down syndrome is trisomy 21 — an extra copy of chromosome 21, giving 47 chromosomes.',
+        D: 'Down syndrome is trisomy 21 — an extra copy of chromosome 21, giving 47 chromosomes.',
       },
     },
     {
@@ -526,7 +526,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason:
-        'Two of the four options are false, so the question has no single best answer. The book keys D, and the eosinophil is indeed not the largest leucocyte — that is the monocyte. But C, "specific granules contain histamine", is false as well by this faculty\'s own book: the eosinophil carries histamin*ase*, which destroys histamine, and histamine belongs to the basophil and the mast cell. The department book\'s granular leucocyte chapter states the contrast explicitly. A student who picks C has reasoned correctly and would be marked wrong. Excluded until a faculty reviewer decides which option the examiner meant.',
+        'Two of the four options are false, so the question has no single best answer. The book keys D, and the eosinophil is indeed not the largest leucocyte — that is the monocyte. But C, "specific granules contain histamine", is also false: the eosinophil carries histamin*ase*, which destroys histamine, and histamine belongs to the basophil and the mast cell. The granular leucocyte chapter states the contrast explicitly. A student who picks C has reasoned correctly and would be marked wrong. Excluded until a faculty reviewer decides which option the examiner meant.',
     },
     {
       key: 'euchromatin-466c9b50',
@@ -546,7 +546,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, so not the exception. Extended and uncoiled is what euchromatin is.',
         B: 'True, so not the exception. Its genes are the active ones.',
-        C: 'The exception, and the answer. Coarse, darkly basophilic clumps are heterochromatin. Every item in this option set is one half of the department book\'s comparative table, and this is the row that has been taken from the wrong column.',
+        C: 'The exception, and the answer. Coarse, darkly basophilic clumps are heterochromatin. Every item in this option set is one half of a comparative table, and this is the row that has been taken from the wrong column.',
         D: 'True, so not the exception. Electron lucent by EM, with a clear nucleolus — both follow from the chromatin being dispersed.',
       },
     },
@@ -557,12 +557,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Pick the one true statement about euchromatin from four heterochromatin descriptions.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The book keys D, but nucleolus-associated chromatin is one of the three sites of heterochromatin the department book names, so D is false. Only C — directing protein synthesis — is true of euchromatin, which is the form carrying the active genes. This is the rare five-option row in the bank, and the extra option appears to have shifted the key by one letter.',
+        'The book keys D, but nucleolus-associated chromatin is one of the three named sites of heterochromatin, so D is false. Only C — directing protein synthesis — is true of euchromatin, which is the form carrying the active genes. This is the rare five-option row in the bank, and the extra option appears to have shifted the key by one letter.',
       explanations: {
         A: 'Highly coiled is heterochromatin. Euchromatin is the extended form.',
         B: 'Chromatin is DNA with histone and non-histone protein, not RNA with protein. RNA and protein together describe the ribosome.',
-        C: 'Correct. Euchromatin carries the active genes, and it is through them that the nucleus directs and controls protein synthesis.',
-        D: 'Chromatin condensed around the nucleolus is nucleolus-associated *hetero*chromatin — one of the three sites the book lists. This is the option the book keys, and it names the wrong form of chromatin.',
+        C: 'Euchromatin carries the active genes, and it is through them that the nucleus directs and controls protein synthesis.',
+        D: 'Chromatin condensed around the nucleolus is nucleolus-associated *hetero*chromatin — one of the three named sites. This is the keyed answer, and it names the wrong form of chromatin.',
         E: 'Chromatin attached to the inner nuclear membrane is peripheral chromatin, also heterochromatin. D and E are two of the three heterochromatin sites offered side by side, which is what makes this the hardest row in the leaf.',
       },
     },
@@ -573,11 +573,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name what lies against the fibrillar inner nuclear membrane.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The source printed no key. The department book describes the inner nuclear membrane as fibrillar, with peripheral chromatin attached to it and the nuclear lamina lying against it — which is heterochromatin plus nuclear lamina, option C. A names euchromatin, which is not attached to the envelope; B and D name the lamina and the lamins it is made of and leave the chromatin out, D saying the same thing twice. C is the reading the book supports, and the row is flagged here because no key was printed and the wording of the options is loose.',
+        'The source printed no key. The inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina lying against it — which is heterochromatin plus nuclear lamina, option C. A names euchromatin, which is not attached to the envelope; B and D name the lamina and the lamins it is made of and leave the chromatin out, D saying the same thing twice. C is the supported reading, and the row is flagged here because no key was printed and the wording of the options is loose.',
       explanations: {
         A: 'Euchromatin is the dispersed form and is not attached to the nuclear envelope. What is attached there is the coiled, peripheral kind.',
         B: 'Lamins alone are incomplete. They are the protein the nuclear lamina is built from, and the chromatin attached to the same surface is left out.',
-        C: 'Correct. The inner membrane is fibrillar because the nuclear lamina lies against it and peripheral heterochromatin is attached to it — those two together are what the fibrillar picture is made of.',
+        C: 'The inner membrane is fibrillar because the nuclear lamina lies against it and peripheral heterochromatin is attached to it — those two together are what the fibrillar picture is made of.',
         D: 'Lamins and nuclear lamina are the same material named twice, since the lamina is made mainly of lamins. An option that repeats itself cannot add the second component the question is asking for.',
       },
     },
@@ -598,7 +598,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise that the nuclear envelope is an electron-microscopic structure.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The source printed no key. A, B and D are all stated by the department book. C says the envelope is not resolved by electron microscopy, which is exactly backwards — electron microscopy is the only way it is resolved.',
+        'The source printed no key. A, B and D are all correct statements. C says the envelope is not resolved by electron microscopy, which is exactly backwards — electron microscopy is the only way it is resolved.',
       explanations: {
         A: 'True, so not the exception. Two parallel unit membranes.',
         B: 'True, so not the exception. Perforated at intervals by nuclear pores.',
@@ -613,7 +613,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recall the goblet cell\'s product and the nuclear position that follows from it.',
       explanations: {
         A: 'A cell exporting a large glycoprotein needs abundant rough endoplasmic reticulum, not a little. Few rER would make secretion impossible.',
-        B: 'Correct. The goblet cell is a unicellular gland that synthesises and secretes mucus.',
+        B: 'The goblet cell is a unicellular gland that synthesises and secretes mucus.',
         C: 'The nucleus is basal, not central: the mucous droplets fill the apex and push it down, which is what gives the cell its goblet shape.',
         D: 'The cytoplasm is basophilic from its rER, and its mucous cap is pale. Deep acidophilia would say the cell was making something else entirely.',
       },
@@ -626,8 +626,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, so not the exception. Coiled and inactive is the definition.',
         B: 'True, so not the exception. Inactive genes, and electron dense because the coiling is what scatters electrons.',
-        C: 'True, so not the exception. The small lymphocyte is the department book\'s own example of a heterochromatic cell.',
-        D: 'The exception, and the answer. A protein-forming cell is where euchromatin predominates, because protein synthesis needs genes that are readable. This is the row of the book\'s comparative table taken from the wrong column.',
+        C: 'True, so not the exception. The small lymphocyte is the standard example of a heterochromatic cell.',
+        D: 'The exception, and the answer. A protein-forming cell is where euchromatin predominates, because protein synthesis needs genes that are readable. This is the row of the comparative table taken from the wrong column.',
       },
     },
     {
@@ -639,7 +639,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Highly coiled is the structural half.',
         B: 'True, but not the whole answer. Electron dense is what that coiling looks like under the beam.',
         C: 'Directing protein synthesis is euchromatin\'s work. Heterochromatin\'s genes are inactive, which is the point of it being coiled away.',
-        D: 'Correct. A and B are the same fact seen twice — the coiling and its electron-microscopic consequence — and both belong to heterochromatin.',
+        D: 'A and B are the same fact seen twice — the coiling and its electron-microscopic consequence — and both belong to heterochromatin.',
       },
     },
     {
@@ -648,7 +648,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Describe the cells of the intermediate layer of transitional epithelium.',
       explanations: {
-        A: 'Correct. The intermediate layer of transitional epithelium is polyhedral or pear-shaped cells with a central rounded nucleus, between the basal cubical layer and the superficial dome cells.',
+        A: 'The intermediate layer of transitional epithelium is polyhedral or pear-shaped cells with a central rounded nucleus, between the basal cubical layer and the superficial dome cells.',
         B: 'A full bladder stretches the epithelium and makes it thinner, not thicker. The relationship runs the other way, and it is the fact this epithelium is named for.',
         C: 'Cuboidal cells with a central rounded nucleus are the basal layer. The nucleus is described identically, which is what makes this the closest distractor — the cell shape is the only thing separating the two options.',
         D: 'Flat cells with flat nuclei are the superficial layer of a stretched bladder, or a simple squamous epithelium elsewhere.',
@@ -661,7 +661,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the largest cell component and the one the red cell lacks.',
       explanations: {
         A: 'The nucleolus is inside the nucleus, so it is smaller by definition — and a red cell has lost it only because it lost the nucleus around it.',
-        B: 'Correct. The nucleus is the largest component of the cell, and the department book states that the red blood corpuscle and the platelet, having none, are not true cells.',
+        B: 'The nucleus is the largest component of the cell, and the red blood corpuscle and the platelet, having none, are not true cells.',
         C: 'A red cell is almost entirely cytoplasm — that is where its haemoglobin is. It cannot be what the cell is missing.',
         D: 'Chromatin is the material inside the nucleus. It is lost with the nucleus, but the question asks for the largest component, and chromatin is a part of it rather than the whole.',
       },
@@ -674,7 +674,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'RNA is in the dark areas — newly made in pars fibrosa and mature in pars granulosa. RNA is what makes them dark.',
         B: 'DNA is in the dark areas too, in the pars amorpha that encodes the rRNA.',
-        C: 'Correct. The light areas are nucleolar sap, the fluid between the dark parts.',
+        C: 'The light areas are nucleolar sap, the fluid between the dark parts.',
         D: 'There is a correct option in the set, so "none of the above" cannot stand.',
       },
     },
@@ -682,21 +682,21 @@ export const LEAF: McqLeafSeed = {
       key: 'more-euchromatin-is-prominent-in-6552c559',
       conceptKey: 'euchromatin-versus-heterochromatin',
       difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Rank the granulocytes by how condensed their nuclei are, as the books ask it.',
+      learningObjective: 'Rank the granulocytes by how condensed their nuclei are.',
       explanations: {
         A: 'The neutrophil nucleus is the darkest and most condensed of the three, which is why the paired question keys the neutrophil for heterochromatin.',
         B: 'True, but not the whole answer. The eosinophil\'s bilobed nucleus is paler than the neutrophil\'s.',
         C: 'True, but not the whole answer. The basophil\'s nucleus is pale as well, and its granules obscure it further.',
-        D: 'Correct as the books have it: the eosinophil and the basophil both show more euchromatin than the neutrophil. This question and `more-heterochromatin-is-prominent-in` are a matched pair from one book and only make sense read together.',
+        D: 'The eosinophil and the basophil both show more euchromatin than the neutrophil. This question and `more-heterochromatin-is-prominent-in` are a matched pair from one book and only make sense read together.',
       },
     },
     {
       key: 'more-heterochromatin-is-prominent-in-dccd3534',
       conceptKey: 'euchromatin-versus-heterochromatin',
       difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Rank the granulocytes by how condensed their nuclei are, as the books ask it.',
+      learningObjective: 'Rank the granulocytes by how condensed their nuclei are.',
       explanations: {
-        A: 'Correct. The neutrophil\'s segmented nucleus is the darkest of the granulocytes, its lobes joined by threads of condensed chromatin.',
+        A: 'The neutrophil\'s segmented nucleus is the darkest of the granulocytes, its lobes joined by threads of condensed chromatin.',
         B: 'The eosinophil is the paler of the pair the companion question keys for euchromatin.',
         C: 'The basophil likewise. It is dark on a film, but that is the granules, not the nucleus — and the granules are what make the S-shaped nucleus hard to see at all.',
         D: 'Both b and c is the answer to the companion question, `more-euchromatin-is-prominent-in`, not to this one. The two rows share an option set and have opposite answers, which is the whole trap.',
@@ -711,7 +711,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Circular openings at intervals along the envelope.',
         B: 'True, but not the whole answer. About thirty nucleoporin proteins build it.',
         C: 'True, but not the whole answer. Those proteins are arranged as an octagonal annulus.',
-        D: 'Correct. Shape, protein and arrangement are three parts of one description, and the question is asking whether all three are held together.',
+        D: 'Shape, protein and arrangement are three parts of one description, and the question is asking whether all three are held together.',
       },
     },
     {
@@ -724,7 +724,7 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. The complex is the nucleoporin assembly occupying the pore, not the pore itself and not its rim, so B is the only option that names it.',
       explanations: {
         A: 'The nuclear pores are the openings. The complex is what sits in them — the two words are used loosely in conversation and precisely in this question.',
-        B: 'Correct. A non-membranous cylindrical protein structure fitting the pore, built of nucleoporins in an octagonal ring with a central transporter.',
+        B: 'A non-membranous cylindrical protein structure fitting the pore, built of nucleoporins in an octagonal ring with a central transporter.',
         C: 'The rim of the pore is where the inner and outer membranes fuse. It is membrane, and the complex is protein.',
         D: 'There is a correct option in the set, so "none of the above" cannot stand.',
       },
@@ -736,12 +736,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give what a nuclear pore is and what it does.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The source printed no key. A, B and C are each stated by the department book — the pores perforate the envelope, the two membranes are continuous at them, and they regulate exchange between nucleus and cytoplasm — so only D covers the whole.',
+        'The source printed no key. A, B and C are each correct — the pores perforate the envelope, the two membranes are continuous at them, and they regulate exchange between nucleus and cytoplasm — so only D covers the whole.',
       explanations: {
         A: 'True, but not the whole answer. The pores are where the envelope is perforated.',
         B: 'True, but not the whole answer. Inner and outer membranes fuse and become continuous at the rim of each pore.',
         C: 'True, but not the whole answer. Protein enters and RNA and ribosomal subunits leave through them, under control.',
-        D: 'Correct. Site, structure and function together — a student stopping at the first true option has answered a third of it.',
+        D: 'Site, structure and function together — a student stopping at the first true option has answered a third of it.',
       },
     },
     {
@@ -751,10 +751,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Define nucleolus-associated chromatin as one of the three sites of heterochromatin.',
       answerOverride: 'B',
       answerOverrideReason:
-        'The source printed no key. Nucleolus-associated chromatin is the third of the three heterochromatin sites the department book names — heterochromatin condensed around the nucleolus — which is option B.',
+        'The source printed no key. Nucleolus-associated chromatin is the third of the three named heterochromatin sites — heterochromatin condensed around the nucleolus — which is option B.',
       explanations: {
-        A: 'The nucleolus has no membrane of its own; the book is explicit that it is not limited by one. Chromatin around it is not a membrane and does not act as one.',
-        B: 'Correct. It is heterochromatin condensed around the nucleolus, the third site alongside peripheral chromatin and chromatin islands.',
+        A: 'The nucleolus has no membrane of its own; it is explicitly not limited by one. Chromatin around it is not a membrane and does not act as one.',
+        B: 'It is heterochromatin condensed around the nucleolus, the third site alongside peripheral chromatin and chromatin islands.',
         C: 'The nucleolar organiser is the pars amorpha *inside* the nucleolus — the DNA encoding rRNA. It is chromosomal too, which is what makes this the closest distractor, but it is in the nucleolus rather than around it.',
         D: 'There is a correct option in the set, so "none of the above" cannot stand.',
       },
@@ -766,12 +766,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the three regions of the nucleolus.',
       answerOverride: 'A',
       answerOverrideReason:
-        'The source printed no key. The department book gives the nucleolus\'s dark areas as pars amorpha (the nucleolar organiser), pars fibrosa and pars granulosa — option A, with the organiser named in place of pars amorpha.',
+        'The source printed no key. The nucleolus\'s dark areas are pars amorpha (the nucleolar organiser), pars fibrosa and pars granulosa — option A, with the organiser named in place of pars amorpha.',
       explanations: {
-        A: 'Correct. Pars granulosa, pars fibrosa and the nucleolar organiser region — the nucleolar organiser being pars amorpha under its other name.',
+        A: 'Pars granulosa, pars fibrosa and the nucleolar organiser region — the nucleolar organiser being pars amorpha under its other name.',
         B: 'Peripheral chromatin, nucleolus-associated chromatin and chromatin islands are the three sites of *heterochromatin*, not the three regions of the nucleolus. Two lists of three, and this is the other one.',
         C: 'rRNA, ribosomal protein and DNA are the materials the nucleolus works with, not its named regions.',
-        D: 'Heterochromatin and euchromatin are forms of chromatin in the nucleus at large, and "nucleolar matrix" is not a term the book uses.',
+        D: 'Heterochromatin and euchromatin are forms of chromatin in the nucleus at large, and "nucleolar matrix" is not the correct term.',
       },
     },
     {
@@ -783,7 +783,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Deeply basophilic, from the nucleic acid it is packed with.',
         B: 'True, but not the whole answer. Rich in nucleic acid is the reason for the basophilia.',
         C: 'True, but not the whole answer. Nucleolus-associated chromatin condenses around it.',
-        D: 'Correct. All three, and they are one description rather than three: it is basophilic *because* it is rich in nucleic acid, and it is ringed by chromatin.',
+        D: 'All three, and they are one description rather than three: it is basophilic *because* it is rich in nucleic acid, and it is ringed by chromatin.',
       },
     },
     {
@@ -816,7 +816,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Multilobed and segmented is the neutrophil. The three granulocyte questions in this book share one option list, so each answer is a distractor in the other two.',
         B: 'Bilobed and horse-shoe shaped is the eosinophil, its two lobes joined by a thick chromatin thread.',
-        C: 'Correct. The basophil nucleus is irregular and S-shaped, and it is largely hidden by the coarse granules lying over it.',
+        C: 'The basophil nucleus is irregular and S-shaped, and it is largely hidden by the coarse granules lying over it.',
         D: 'Large and kidney-shaped is the monocyte, which is not a granulocyte at all.',
       },
     },
@@ -829,7 +829,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Multilobed and segmented is the neutrophil.',
         B: 'Bilobed and horse-shoe shaped is the eosinophil.',
         C: 'S-shaped is the basophil.',
-        D: 'Correct. The monocyte has a large kidney-shaped or indented nucleus, and it is the largest leucocyte.',
+        D: 'The monocyte has a large kidney-shaped or indented nucleus, and it is the largest leucocyte.',
       },
     },
     {
@@ -838,7 +838,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Give the shape of the neutrophil nucleus.',
       explanations: {
-        A: 'Correct. Two to five lobes joined by thin threads of chromatin — the segmented nucleus that gives the cell its other name, polymorphonuclear leucocyte.',
+        A: 'Two to five lobes joined by thin threads of chromatin — the segmented nucleus that gives the cell its other name, polymorphonuclear leucocyte.',
         B: 'Bilobed and horse-shoe shaped is the eosinophil.',
         C: 'S-shaped is the basophil.',
         D: 'Large and kidney-shaped is the monocyte.',
@@ -850,8 +850,8 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Read the nerve cell nucleus as the type example of an active nucleus.',
       explanations: {
-        A: 'A condensed nucleus means an inactive cell. The nerve cell is one of the two the department book names as active, alongside the liver cell.',
-        B: 'Correct. The nerve cell nucleus is euchromatic — pale, vesicular, with a prominent nucleolus — because it is synthesising protein continuously.',
+        A: 'A condensed nucleus means an inactive cell. The nerve cell is one of the two named as active, alongside the liver cell.',
+        B: 'The nerve cell nucleus is euchromatic — pale, vesicular, with a prominent nucleolus — because it is synthesising protein continuously.',
         C: 'The nucleolus is not merely visible in a nerve cell but conspicuous; it is one of the features used to recognise the cell on a slide.',
         D: 'Inactive is the opposite of what the appearance says. A and D are the same answer twice, which usually means neither is the one.',
       },
@@ -865,7 +865,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Squamous cells are flat with flat nuclei, in one layer at one level.',
         B: 'Cubical cells are as tall as they are wide, with central rounded nuclei at a single level.',
         C: 'Simple columnar epithelium is a single layer of tall cells, but its nuclei sit at one level. The word the stem adds — crowded, at more than one level — is exactly what separates the two.',
-        D: 'Correct. Pseudostratified epithelium is one layer of crowded cells of differing heights, so their nuclei lie at several levels and it looks stratified without being so. Every cell still reaches the basement membrane.',
+        D: 'Pseudostratified epithelium is one layer of crowded cells of differing heights, so their nuclei lie at several levels and it looks stratified without being so. Every cell still reaches the basement membrane.',
       },
     },
     {
@@ -876,7 +876,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Newly formed strands of rRNA are pars fibrosa, one step downstream.',
         B: 'Granules of mature rRNA are pars granulosa, two steps downstream.',
-        C: 'Correct. Pars amorpha is the nucleolar organiser: the parts of chromosomes carrying the genes that encode rRNA. It is DNA, and it is the only one of the three that is.',
+        C: 'Pars amorpha is the nucleolar organiser: the parts of chromosomes carrying the genes that encode rRNA. It is DNA, and it is the only one of the three that is.',
         D: 'The light areas are nucleolar sap, and the option also says nuclear rather than nucleolar sap.',
       },
     },
@@ -890,8 +890,8 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, mature rRNA, which is pars granulosa. Pars amorpha is the DNA encoding rRNA — option C — and the same book keys the identical question printed as `pars-amorpha-of-the-nucleolus-dce300f0` correctly as C. Two rows on this page, this one and `pars-fibrosa-of-the-nucleus-5f1e3d3e`, are both keyed B, and B cannot be right for both: a column of the answer key has shifted.',
       explanations: {
         A: 'Newly synthesised rRNA is pars fibrosa.',
-        B: 'Mature rRNA is pars granulosa. This is the option the book keys, and it names the last stage of the sequence for the part that is the first.',
-        C: 'Correct. Pars amorpha, the nucleolar organiser, is the DNA of the chromosomes encoding rRNA.',
+        B: 'Mature rRNA is pars granulosa. This is the keyed answer, and it names the last stage of the sequence for the part that is the first.',
+        C: 'Pars amorpha, the nucleolar organiser, is the DNA of the chromosomes encoding rRNA.',
         D: 'The light areas are nucleolar sap, and are not one of the three dark parts.',
       },
     },
@@ -904,8 +904,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys B, mature rRNA, which is pars granulosa. Pars fibrosa is newly synthesised rRNA — option A — and the same book keys the identical question printed as `pars-fibrosa-of-the-nucleolus-fd5fcfbb` correctly as A. This row and `pars-amorpha-of-the-nucleus-b92731c1` are both keyed B on the same page, which is the signature of a shifted answer column rather than two independent judgements.',
       explanations: {
-        A: 'Correct. Pars fibrosa is newly synthesised rRNA, still in strands rather than packed into granules.',
-        B: 'Mature rRNA is pars granulosa. This is the option the book keys, and it is one step further along the sequence than the question asks.',
+        A: 'Pars fibrosa is newly synthesised rRNA, still in strands rather than packed into granules.',
+        B: 'Mature rRNA is pars granulosa. This is the keyed answer, and it is one step further along the sequence than the question asks.',
         C: 'The DNA encoding rRNA is pars amorpha, one step earlier.',
         D: 'The light areas are nucleolar sap and represent no stage of rRNA.',
       },
@@ -916,7 +916,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Identify the nucleolar organiser as chromosomal DNA.',
       explanations: {
-        A: 'Correct. Pars amorpha is the nucleolar organiser — the chromosomal region carrying the rRNA genes.',
+        A: 'Pars amorpha is the nucleolar organiser — the chromosomal region carrying the rRNA genes.',
         B: 'Pars fibrosa is the RNA transcribed from those genes, not the genes themselves.',
         C: 'Pars granulosa is the finished rRNA, further downstream still.',
         D: 'Only one of the three is chromosomal DNA, so "all the above" cannot stand. Two of the three are RNA at different stages.',
@@ -931,7 +931,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The cartwheel nucleus is the alternating chromatin seen end-on, and the pale negative Golgi image sits beside it.',
         B: 'True, but not the whole answer. The spokes of the cartwheel *are* alternating euchromatin and heterochromatin — this option and A are the same fact described two ways.',
         C: 'True, but not the whole answer. Deep basophilia follows from the rough endoplasmic reticulum an antibody-exporting cell is packed with.',
-        D: 'Correct. Nucleus, Golgi and cytoplasm are one coherent picture of a cell built to export protein, and the question rewards seeing them as one rather than three.',
+        D: 'Nucleus, Golgi and cytoplasm are one coherent picture of a cell built to export protein, and the question rewards seeing them as one rather than three.',
       },
     },
     {
@@ -951,7 +951,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the chromosome count in Klinefelter syndrome.',
       explanations: {
         A: 'Klinefelter syndrome occurs in males. It is Turner syndrome that affects females, and this book asks both with the same four options.',
-        B: 'Correct. XXY gives 47 chromosomes — one more than normal, because a sex chromosome has been gained rather than lost.',
+        B: 'XXY gives 47 chromosomes — one more than normal, because a sex chromosome has been gained rather than lost.',
         C: 'XO is Turner syndrome, and it gives 45. The two syndromes sit either side of the normal count, which is the distinction the paired questions are built on.',
         D: 'The genital system is abnormal in Klinefelter syndrome; a normal one would leave nothing to recognise.',
       },
@@ -973,12 +973,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the ovum\'s size, chromosome content, timing and coverings.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The book keys C, that the ovum starts development at puberty, but the department book states that in the female gametogenesis starts in intrauterine life, is arrested, and only then continues from puberty — so C is false as this faculty teaches it. The same book states in its own words that the corona radiata is the outer cover of the ovum, which is option D. Overridden to D, and recorded because the override contradicts a printed key on the strength of the department book against it.',
+        'The book keys C, that the ovum starts development at puberty, but in the female gametogenesis starts in intrauterine life, is arrested, and only then continues from puberty — so C is false as taught. The same book states in its own words that the corona radiata is the outer cover of the ovum, which is option D. Overridden to D, and recorded because the override contradicts a printed key on the strength of the course material against it.',
       explanations: {
         A: 'The mature ovum is about 120 µm across — one of the largest cells in the body, and the reason it is visible to the naked eye. Twelve microns is a tenth of that and closer to a lymphocyte.',
         B: 'The oocyte nucleus carries 22 autosomes and an X chromosome only. "Either X or Y" is true of the sperm, and the same option appears in the sperm question where it is the answer — which is the trap this pair of questions is built on.',
-        C: 'Oogenesis begins in intrauterine life and is then arrested; what happens at puberty is that it resumes. This is the option the book keys, and it describes spermatogenesis, which really does start at puberty.',
-        D: 'Correct. The three coverings from within outwards are cell membrane, zona pellucida and corona radiata, so the corona radiata — follicular cells held together by hyaluronic acid — is the outer one.',
+        C: 'Oogenesis begins in intrauterine life and is then arrested; what happens at puberty is that it resumes. This is the keyed answer, and it describes spermatogenesis, which really does start at puberty.',
+        D: 'The three coverings from within outwards are cell membrane, zona pellucida and corona radiata, so the corona radiata — follicular cells held together by hyaluronic acid — is the outer one.',
       },
     },
     {
@@ -988,10 +988,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the sperm\'s length, nuclear content, timing and acrosome position.',
       answerOverride: 'B',
       answerOverrideReason:
-        'The source printed no key. The department book gives the sperm as 55 µm long, its formation as beginning at puberty, and the acrosomal cap as covering most of the nucleus in the head — so A, C and D are all false and B is the only statement that stands.',
+        'The source printed no key. The sperm is 55 µm long, its formation begins at puberty, and the acrosomal cap covers most of the nucleus in the head — so A, C and D are all false and B is the only statement that stands.',
       explanations: {
         A: 'The whole sperm is about 55 µm long: head 4, middle piece 6 and tail 45. Six microns is the middle piece alone, which is where the figure in this option comes from.',
-        B: 'Correct. The sperm nucleus carries 22 autosomes and either an X or a Y chromosome — which is why the father determines the sex of the child.',
+        B: 'The sperm nucleus carries 22 autosomes and either an X or a Y chromosome — which is why the father determines the sex of the child.',
         C: 'Spermatogenesis starts at puberty and continues into old age. Formation beginning before birth is the female pattern, and the two are being swapped here.',
         D: 'The acrosomal cap covers most of the *nucleus*, in the head. The middle piece carries the mitochondrial sheath instead, and putting the cap there confuses the two ends of the cell.',
       },
@@ -1025,7 +1025,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Peripheral chromatin, attached to the inner nuclear membrane.',
         B: 'True, but not the whole answer. Chromatin islands, scattered in the nuclear sap.',
         C: 'True, but not the whole answer. Nucleolus-associated chromatin, condensed around the nucleolus.',
-        D: 'Correct. Three sites, and the department book lists them as three; each is a separate option in other questions in these books, so knowing only one of them is not enough.',
+        D: 'Three sites are listed; each is a separate option in other questions in these books, so knowing only one of them is not enough.',
       },
     },
     {
@@ -1039,7 +1039,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Inactive genes are heterochromatin\'s. Euchromatin is the form whose genes are being read.',
         B: 'Electron dense is heterochromatin. Euchromatin is electron lucent, because it is dispersed.',
-        C: 'Correct. Euchromatin predominates in metabolically active, protein-forming cells — the nerve cell and the liver cell are the book\'s examples.',
+        C: 'Euchromatin predominates in metabolically active, protein-forming cells — the nerve cell and the liver cell are standard examples.',
         D: 'Peripheral chromatin and chromatin islands are two of the three heterochromatin sites. Naming them for euchromatin puts it in the one place it never is.',
       },
     },
@@ -1051,7 +1051,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A membrane-bound granule filling the cytoplasm is not what a fat droplet is — lipid inclusions have no membrane, which is part of what makes them inclusions rather than organelles.',
         B: 'A flattened peripheral nucleus is the unilocular cell, pushed aside by its single droplet. The multilocular cell keeps a central rounded nucleus.',
-        C: 'Correct. Brown fat generates heat, which is why it is packed with mitochondria and why their cytochrome pigment colours it.',
+        C: 'Brown fat generates heat, which is why it is packed with mitochondria and why their cytochrome pigment colours it.',
         D: 'White adipose tissue is unilocular. Multilocular cells make up brown adipose tissue, which is the smaller depot and most prominent in the newborn.',
       },
     },
@@ -1061,7 +1061,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Identify the megakaryocyte from its nucleus.',
       explanations: {
-        A: 'Correct. One very large multilobed dark nucleus in a giant marrow cell — the appearance that makes a megakaryocyte unmistakable on a marrow smear.',
+        A: 'One very large multilobed dark nucleus in a giant marrow cell — the appearance that makes a megakaryocyte unmistakable on a marrow smear.',
         B: 'Acidophilic cytoplasm rich in lysosomes describes the osteoclast. The megakaryocyte cytoplasm is where the platelet granules are being packaged.',
         C: 'Sitting on a bony surface in Howship\'s lacunae is the osteoclast again — another giant multinucleated cell, and the reason this option is here.',
         D: 'Metamyelocytes come from the granulocyte line. What the megakaryocyte gives origin to is platelets, shed from its cytoplasm along demarcation channels.',
@@ -1074,7 +1074,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Distinguish the large lymphocyte nucleus from the small one and from the monocyte.',
       explanations: {
         A: 'Kidney-shaped is the monocyte. The two are the largest cells on a film and the option is here because they are confused on sight.',
-        B: 'Correct. Large and indented, with a visible nucleolus — the appearance of a lymphocyte that is growing rather than resting.',
+        B: 'Large and indented, with a visible nucleolus — the appearance of a lymphocyte that is growing rather than resting.',
         C: 'No obvious nucleolus is the *small* lymphocyte, whose condensed chromatin hides it.',
         D: 'Heterochromatic is again the small lymphocyte. The large one is paler because it is the active form.',
       },
@@ -1098,7 +1098,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Distinguish the outer nuclear membrane from the inner one.',
       explanations: {
         A: 'Smooth is what the inner membrane would be called if the terms were reversed. The outer one carries ribosomes and so is granular — it is continuous with the rough endoplasmic reticulum, and that continuity is the reason.',
-        B: 'Correct. The outer membrane is granular, studded with polyribosomes, and continuous with the cisternae of the rough endoplasmic reticulum.',
+        B: 'The outer membrane is granular, studded with polyribosomes, and continuous with the cisternae of the rough endoplasmic reticulum.',
         C: 'Cristae are folds of the inner mitochondrial membrane. Nothing in the nuclear envelope is folded that way.',
         D: 'Fibrillar is the *inner* membrane, with the nuclear lamina against it and peripheral chromatin attached. Granular outside, fibrillar inside, and this question and its options exist to test which is which.',
       },
@@ -1122,7 +1122,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The nucleus is flattened and pushed eccentrically to the edge.',
         B: 'True, but not the whole answer. A single large droplet is what does the pushing.',
         C: 'True, but not the whole answer. What is left of the cytoplasm is a thin rim around that droplet.',
-        D: 'Correct. All three together are the signet ring: one huge droplet, a rim of cytoplasm and a flattened nucleus at one edge — three descriptions of a single consequence.',
+        D: 'All three together are the signet ring: one huge droplet, a rim of cytoplasm and a flattened nucleus at one edge — three descriptions of a single consequence.',
       },
     },
     {
@@ -1132,11 +1132,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match each dark part of the nucleolus to the stage of ribosomal RNA it holds.',
       answerOverride: 'c',
       answerOverrideReason:
-        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it gives the pars amorpha as the nucleolar organiser of DNA filaments carrying the rRNA genes, the pars fibrosa as strands of newly formed rRNA, and the pars granulosa as granules of mature rRNA. Only option c matches a part to the right stage.',
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is not from a key: the pars amorpha is the nucleolar organiser of DNA filaments carrying the rRNA genes, the pars fibrosa is strands of newly formed rRNA, and the pars granulosa is granules of mature rRNA. Only option c matches a part to the right stage.',
       explanations: {
         a: 'The pars amorpha holds no rRNA of any maturity — it is DNA, the nucleolar organiser carrying the genes from which rRNA is transcribed. Naming it as the mature form skips the whole sequence.',
         b: 'Immature rRNA is the pars fibrosa, not the pars amorpha. This is the near-miss of option a and catches a student who has learnt that amorpha comes first without learning that what comes first is the gene.',
-        c: 'Correct. The pars granulosa is granules of mature ribosomal RNA, the last of the three stages: gene in the amorpha, new transcript in the fibrosa, finished product in the granulosa.',
+        c: 'The pars granulosa is granules of mature ribosomal RNA, the last of the three stages: gene in the amorpha, new transcript in the fibrosa, finished product in the granulosa.',
         d: 'The pars granulosa is the mature form. Swapping "immature" in here inverts the one fact that separates the granulosa from the fibrosa, and the four options are the two parts crossed with the two maturities precisely so that only one crossing is right.',
       },
     },
@@ -1147,11 +1147,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Decide which sex-chromosome constitution shows a Barr body, and say which X it is.',
       answerOverride: 'c',
       answerOverrideReason:
-        'No key was printed on the 2020 paper and none was recovered. The department book does not settle this one either: it names the Barr body only in the granular leukocyte chapter, to say that one is visible in 3-6% of female neutrophils, and never states that it is an inactivated X. The answer therefore rests on the inactivation rule — one X stays active, the rest condense — applied to the two constitutions the book does give, Turner XO and Klinefelter XXY. The concept carries a `gaps` note saying that the rule is not in the faculty\'s own text.',
+        'No key was printed on the 2020 paper and none was recovered. The course material does not settle this one either: it names the Barr body only in the granular leukocyte chapter, to say that one is visible in 3-6% of female neutrophils, and never states that it is an inactivated X. The answer therefore rests on the inactivation rule — one X stays active, the rest condense — applied to the two constitutions the book does give, Turner XO and Klinefelter XXY. The concept carries a `gaps` note saying that the rule is not in the course text.',
       explanations: {
         a: 'Turner syndrome is XO: a single X and nothing else. With only one X there is nothing to switch off, so a Turner nucleus shows no Barr body at all — this is the option most students take, because Turner is the sex-chromosome disorder they meet first.',
         b: 'Doubly wrong. Turner has no spare X to inactivate, and the Barr body is by definition the inactive one — the active X is never what is seen.',
-        c: 'Correct. Klinefelter syndrome is XXY, so there is one X more than the cell needs; that extra X is inactivated and condensed into the Barr body, exactly as the second X is in a normal female.',
+        c: 'Klinefelter syndrome is XXY, so there is one X more than the cell needs; that extra X is inactivated and condensed into the Barr body, exactly as the second X is in a normal female.',
         d: 'The right syndrome with the wrong X. Klinefelter does have an extra X, but the one that condenses into sex chromatin is the inactivated one; the active X stays extended and invisible.',
       },
     },
@@ -1162,10 +1162,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Say where and when the two ribosomal subunits come together.',
       answerOverride: 'b',
       answerOverrideReason:
-        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book: the two subunits are assembled in the nucleolus, return separately to the cytoplasm, and join one another only during protein synthesis. Both halves of option b come straight from that sentence.',
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the two subunits are assembled in the nucleolus, return separately to the cytoplasm, and join one another only during protein synthesis. Both halves of option b come straight from that sentence.',
       explanations: {
         a: 'The place is right and the occasion is wrong. The subunits do meet in the cytoplasm, but they meet to translate a message, not to divide — and a cell in mitosis has largely stopped synthesising protein.',
-        b: 'Correct. The subunits leave the nucleus separately and come together on a strand of mRNA in the cytoplasm only while a protein is actually being made; when translation ends they separate again.',
+        b: 'The subunits leave the nucleus separately and come together on a strand of mRNA in the cytoplasm only while a protein is actually being made; when translation ends they separate again.',
         c: 'The nucleolus is where the two subunits are assembled out of rRNA and protein, so the nucleus is a tempting answer — but they are assembled there as two separate subunits and exported as two, never as a joined ribosome.',
         d: 'Protein synthesis does not happen in the nucleus. Combining the right occasion with the wrong compartment, this is the mirror of option a and catches the same half-knowledge from the other side.',
       },
@@ -1177,11 +1177,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute peroxisomal enzymes to free ribosomes rather than to the reticulum the vesicle buds from.',
       answerOverride: 'c',
       answerOverrideReason:
-        'The 2021 paper printed no key and none was recovered for it, so the answer comes from the department book, which says peroxisomes are membranous vesicles budding off the rough endoplasmic reticulum with enzymes made on free ribosomes. The vesicle and the enzymes have different origins, and the stem asks about the enzymes.',
+        'The 2021 paper printed no key and none was recovered for it, so the answer given here is: peroxisomes are membranous vesicles budding off the rough endoplasmic reticulum with enzymes made on free ribosomes. The vesicle and the enzymes have different origins, and the stem asks about the enzymes.',
       explanations: {
         a: 'Smooth endoplasmic reticulum makes phospholipid and steroid and detoxifies drugs. It has no ribosomes at all, so it cannot synthesise any protein, let alone an enzyme.',
         b: 'This is the trap, and it is a good one: the peroxisome itself does bud off the rough endoplasmic reticulum. But the membrane vesicle and the enzymes inside it come from different places, and the rER makes protein for export and for other membranous organelles, not for this one.',
-        c: 'Correct. Peroxisomal oxidases and catalase are made on free ribosomes — polysomes lying loose in the cytosol — which is the general rule for protein a cell keeps for its own use.',
+        c: 'Peroxisomal oxidases and catalase are made on free ribosomes — polysomes lying loose in the cytosol — which is the general rule for protein a cell keeps for its own use.',
         d: 'The nucleus makes RNA, not protein. No enzyme is synthesised inside it; its ribosomal subunits are exported before any translation happens.',
       },
     },
@@ -1192,11 +1192,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place peripheral chromatin among the three sites of heterochromatin and say what all chromatin is made of.',
       answerOverride: 'b',
       answerOverrideReason:
-        'No key was printed on the 2021 paper and none was recovered, so the answer is worked from the department book. It defines chromatin as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and it gives the three sites of heterochromatin as peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.',
+        'No key was printed on the 2021 paper and none was recovered, so the answer given here is: chromatin is defined as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and the three sites of heterochromatin are peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.',
       explanations: {
         a: 'Peripheral chromatin is one of the three sites of heterochromatin, not of euchromatin. It is attached to the inner surface of the nuclear membrane precisely because it is coiled and condensed enough to be seen there.',
-        b: 'Correct, though it looks too general to be the answer. All chromatin is nucleoprotein — double-stranded DNA plus histone and non-histone protein — and peripheral chromatin is chromatin, so the statement holds. The other three options each attach it to the wrong place.',
-        c: 'Condensed around the nucleolus is nucleolus-associated chromatin, the third site. The three sites are set out as a list in the book and the question simply asks which one the name "peripheral" belongs to.',
+        b: 'This option looks too general to be the answer, but it is the true one. All chromatin is nucleoprotein — double-stranded DNA plus histone and non-histone protein — and peripheral chromatin is chromatin, so the statement holds. The other three options each attach it to the wrong place.',
+        c: 'Condensed around the nucleolus is nucleolus-associated chromatin, the third site. The three sites are set out as a list and the question simply asks which one the name "peripheral" belongs to.',
         d: 'Scattered in the nuclear sap describes chromatin islands, the second site. Peripheral chromatin is by definition not scattered — it is against the membrane.',
       },
     },
@@ -1207,10 +1207,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the part of the nucleolus that holds newly transcribed ribosomal RNA.',
       answerOverride: 'b',
       answerOverrideReason:
-        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives the pars fibrosa as strands of newly formed rRNA and reserves the pars granulosa for the mature granules.',
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the pars fibrosa is strands of newly formed rRNA, and the pars granulosa is reserved for the mature granules.',
       explanations: {
         a: 'The pars amorpha is the nucleolar organiser — the DNA carrying the rRNA genes. It is the source of the transcript, not the transcript, and the two are one step apart in the sequence.',
-        b: 'Correct. The pars fibrosa is strands of newly synthesised rRNA, the fibrillar half of the nucleolonema.',
+        b: 'The pars fibrosa is strands of newly synthesised rRNA, the fibrillar half of the nucleolonema.',
         c: 'Nucleolar organiser is another name for the pars amorpha, so this option is option a wearing a different label — offering both names in one option set is how the item checks that a student knows they are the same thing.',
         d: 'The pars granulosa holds mature rRNA granules, the finished product. It is the last stage, and "newly formed" is what rules it out.',
       },
@@ -1222,11 +1222,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify active genes as the defining property of euchromatin.',
       answerOverride: 'c',
       answerOverrideReason:
-        'No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book, whose definition of euchromatin is extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.',
+        'No key was printed on the 2021 paper and none was recovered, so the answer given here is: euchromatin is defined as extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.',
       explanations: {
         a: 'Coiled chromatin is heterochromatin. Coiling is the physical fact behind the whole distinction, and it runs the other way for euchromatin, which is extended.',
         b: 'A dark basophilic nucleus by light microscopy is the condensed nucleus of a heterochromatic, inactive cell. Euchromatin gives a pale, vesicular nucleus with a clear nucleolus.',
-        c: 'Correct. Euchromatin is the extended form carrying active genes, which is why it predominates in protein-forming cells such as the nerve cell and the liver cell.',
+        c: 'Euchromatin is the extended form carrying active genes, which is why it predominates in protein-forming cells such as the nerve cell and the liver cell.',
         d: 'Chromatin islands are one of the three sites of heterochromatin, scattered in the nuclear sap. Euchromatin is too dispersed to form a visible clump of any kind.',
       },
     },
@@ -1237,7 +1237,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'The option set cannot be repaired. The candidate\'s pen crossed the option letters on this 2022 script, so the tail of one option has been read into the stem — which now ends "Euchromatin is: ly acidophilic", the remains of a "Deeply acidophilic" option — and two further options have been merged into one string, "Inactive chromatin. ee nuclei of small lymphocytes", which is plainly the false option "Inactive chromatin" run together with a second option about the small lymphocyte. That leaves two entries where the paper had four, one of them holding two questions\' worth of text. The department book makes "Electron lucent by EM" the true statement about euchromatin, but a row whose options cannot be told apart cannot be sat. Recoverable by rescanning page 2 of the 2022 paper.',
+      excludeReason: 'The option set cannot be repaired. The candidate\'s pen crossed the option letters on this 2022 script, so the tail of one option has been read into the stem — which now ends "Euchromatin is: ly acidophilic", the remains of a "Deeply acidophilic" option — and two further options have been merged into one string, "Inactive chromatin. ee nuclei of small lymphocytes", which is plainly the false option "Inactive chromatin" run together with a second option about the small lymphocyte. That leaves two entries where the paper had four, one of them holding two questions\' worth of text. "Electron lucent by EM" is the true statement about euchromatin, but a row whose options cannot be told apart cannot be sat. Recoverable by rescanning page 2 of the 2022 paper.',
     },
     {
       key: 'the-nucleus-of-active-protein-forming-cell-appears-a-condens-aa1cff9b',
@@ -1246,7 +1246,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'The bank row has no options at all. This is one of the 2024 rows off a ringed script: every option letter was crossed by the pen, so the four options were read into the stem, where they are still legible as Condensed, Vesicular, heterochromatic and Electron dense by E.M. The department book answers it plainly — a pale-stained vesicular nucleus indicates an active cell, and euchromatin predominates in protein-forming cells — but options cannot be added to the bank by hand and a question with an empty option map cannot be emitted. Recoverable by rescanning page 1 of the 2024 paper.',
+      excludeReason: 'The bank row has no options at all. This is one of the 2024 rows off a ringed script: every option letter was crossed by the pen, so the four options were read into the stem, where they are still legible as Condensed, Vesicular, heterochromatic and Electron dense by E.M. The answer is plain — a pale-stained vesicular nucleus indicates an active cell, and euchromatin predominates in protein-forming cells — but options cannot be added to the bank by hand and a question with an empty option map cannot be emitted. Recoverable by rescanning page 1 of the 2024 paper.',
     },
     {
       key: 'mast-cell-show-deep-acidophilic-cytoplasm-b-clock-face-nucle-3526a54c',
@@ -1255,7 +1255,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'No options, and two questions in one stem. The pen crossed the option letters of question 25 on the mast cell, so its options ran into the stem, and the following question — which cell synthesises connective tissue fibres and ground substance, with its own four options — followed them into the same field, along with enough optical noise ("Clock f4 m. y", "Non granular cytoplas nce", "ciproblast") that even the surviving words are unreliable. Both answers are in the department book, the surface receptor for IgE for the mast cell and the fibroblast for the second, but neither question can be emitted from this row. Recoverable by rescanning page 3 of the 2024 paper, which would split it into two.',
+      excludeReason: 'No options, and two questions in one stem. The pen crossed the option letters of question 25 on the mast cell, so its options ran into the stem, and the following question — which cell synthesises connective tissue fibres and ground substance, with its own four options — followed them into the same field, along with enough optical noise ("Clock f4 m. y", "Non granular cytoplas nce", "ciproblast") that even the surviving words are unreliable. Both answers are known: the surface receptor for IgE for the mast cell and the fibroblast for the second, but neither question can be emitted from this row. Recoverable by rescanning page 3 of the 2024 paper, which would split it into two.',
     },
     {
       key: 'nuclear-lamins-are-63b70235',
@@ -1264,12 +1264,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place the nuclear lamina against the inner nuclear membrane and keep it apart from the nucleolar parts.',
       answerOverride: 'd',
       answerOverrideReason:
-        'One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter\'s envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.',
+        'One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter\'s envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.',
       explanations: {
         a: 'Mature rRNA is the pars granulosa of the nucleolus. Lamins are protein — intermediate filament protein — and have nothing to do with ribosomal RNA at any stage.',
         b: 'Newly formed rRNA is the pars fibrosa. The word "fibrosa" is doing the damage here: lamins are fibrillar too, and a student matching on the word rather than the substance lands on the wrong structure.',
         c: 'The outer nuclear membrane is the one continuous with the rough endoplasmic reticulum and studded with polyribosomes. Nothing is attached to it on the nuclear side, because it does not face the nucleus.',
-        d: 'Correct. The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.',
+        d: 'The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.',
       },
     },
     {
@@ -1279,11 +1279,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Define the kinetochore by what attaches to it, and separate it from the telomere.',
       answerOverride: 'c',
       answerOverrideReason:
-        'One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the department book does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no source this faculty would accept supports it.',
+        'One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the course material does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no accepted source supports it.',
       explanations: {
         a: 'Repeated sequence at the ends of chromosomes is the telomere. The item offers the telomere twice, described two different ways, which is how it separates students who know both terms from students who know only that both are parts of a chromosome.',
         b: 'Every part of a chromosome is a segment of DNA, so this says nothing that distinguishes a kinetochore from anything else. A statement true of the whole cannot identify a part.',
-        c: 'Correct. The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.',
+        c: 'The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.',
         d: 'Protecting the chromosome end from destruction is the telomere\'s function — the same structure as option a, given by its job rather than its sequence.',
       },
     },

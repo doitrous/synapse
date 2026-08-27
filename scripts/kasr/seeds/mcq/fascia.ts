@@ -40,7 +40,7 @@ export const LEAF: McqLeafSeed = {
       key: 'superficial-fascia-features',
       label: 'Superficial fascia insulates, smooths, mobilises, conducts, and carries muscles and glands',
       definition: 'Superficial fascia is a layer of loose connective tissue just deep to the skin, allowing the skin to move more or less freely over the underlying structures. It contains a variable quantity of fat, more in females — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum. Its functions are to prevent heat loss as a thermal insulator; to soften and smooth the body surface; to facilitate movement of the skin over underlying structures; to act as the medium conducting nerves, vessels and lymphatics to the skin; to contain skin muscles, as the muscles of expression in the face; and to contain special glands such as the mammary glands.',
-      objective: 'List the six functions of the superficial fascia the department book gives.',
+      objective: 'List the six functions of the superficial fascia.',
       pitfall: 'Giving fat storage as the function. The fat is the material; the functions are what the layer does with it — insulation, contour, mobility, conduction, and housing muscles and glands.',
       subject: 'msk', primary: 'DIS-ANA-T01', secondary: [],
       modulePath: '101 ISK > Anatomy > Basis of Anatomy > Fascia',
@@ -66,7 +66,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Separate a function of superficial fascia from three that belong to deep fascia.',
       explanations: {
-        A: 'Correct. Superficial fascia contains the skin muscles — the muscles of facial expression are the book\'s example, and they are there precisely because the face has no deep fascia to hold them.',
+        A: 'Superficial fascia contains the skin muscles — the muscles of facial expression are the standard example, and they are there precisely because the face has no deep fascia to hold them.',
         B: 'An aponeurosis — palmar, plantar — is deep fascia. Tempting because both layers are connective tissue sheets, but only the deep layer is dense enough to make one.',
         C: 'Broad sheets around muscle groups are the first of the five forms deep fascia takes. Superficial fascia surrounds nothing; it lies flat under the skin.',
         D: 'Interosseous membranes are deep fascia, spanning between two bones to separate muscle groups. Superficial fascia never reaches bone.',
@@ -98,7 +98,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The 2018 source printed no key. The department book states that superficial fascia contains a variable quantity of fat, and attributes retinacula, intermuscular septa and vessel sheaths to deep fascia, so A is the only option the chapter supports.',
       explanations: {
-        A: 'Correct. Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.',
+        A: 'Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.',
         B: 'Retinacula are localised transverse thickenings of *deep* fascia at the wrist and ankle. Picked by students who remember that a retinaculum is superficially placed, which is a statement about depth rather than about which layer it is made of.',
         C: 'Intermuscular septa are deep fascia dipping between muscle groups. Superficial fascia has no septa; it does not descend between muscles at all.',
         D: 'Sheaths around great vessels, such as the carotid sheath, are deep fascia. The superficial layer conducts vessels *to the skin* rather than wrapping the big ones, and that near-miss is what makes this the strongest distractor.',
@@ -112,8 +112,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Facilitating the movement of the skin over the structures beneath is a function of superficial fascia. Deep fascia is inelastic and anchors things rather than freeing them.',
         B: 'Preventing heat loss is superficial fascia acting as a thermal insulator, and it does it with its fat. Deep fascia has no fat.',
-        C: 'The glands — the mammary gland is the book\'s example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer\'s name.',
-        D: 'Correct. Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.',
+        C: 'The glands — the mammary gland is the standard example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer\'s name.',
+        D: 'Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.',
       },
     },
     {
@@ -150,7 +150,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match the intermuscular septa and interosseous membranes to their job among the four forms of deep fascia.',
       explanations: {
         A: 'Surrounding the muscles of the limbs is what the broad sheets of deep fascia do — the first of its five forms, and the one the septa arise from. The septa are what dips inward from those sheets, not the sheets themselves.',
-        B: 'Correct. Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.',
+        B: 'Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.',
         C: 'That is the retinaculum, printed here as a distractor because this leaf\'s four stems share one option block and each stem\'s answer is another stem\'s distractor.',
         D: 'Tough sheaths around big vessels are the carotid sheath and its like — the fifth form of deep fascia, not the septa.',
       },
@@ -172,7 +172,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The broad sheets of deep fascia surround the limb muscles. A retinaculum is a band across a joint, not a sleeve around a muscle group.',
         B: 'Separating muscle groups of different action is the work of the intermuscular septa, which is the answer to the neighbouring stem sharing this option block.',
-        C: 'Correct. Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.',
+        C: 'Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.',
         D: 'Fibrous sheaths around great vessels — the carotid sheath — are a different form of deep fascia. Both are "wrappings", which is what makes this option worth printing.',
       },
     },

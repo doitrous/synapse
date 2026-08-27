@@ -208,7 +208,7 @@ export const LEAF: McqLeafSeed = {
       label: 'The musculocutaneous nerve leaves the lateral cord, pierces coracobrachialis, and ends as a skin nerve',
       definition: 'The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus, root value C5, C6, C7. It descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery, pierces coracobrachialis, and runs obliquely between biceps and brachialis. Its branches are muscular, to coracobrachialis, biceps and brachialis; about one inch above the elbow it pierces the deep fascia at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm, which divides into anterior and posterior branches supplying the skin of the lateral forearm and the upper part of the ball of the thumb.',
       objective: 'State the origin and root value of the musculocutaneous nerve and list its muscular and cutaneous branches.',
-      pitfall: 'Giving the root value as C5, C6. The book carries C7 as well, and dropping it changes which root lesions are predicted to weaken elbow flexion.',
+      pitfall: 'Giving the root value as C5, C6. C7 belongs too, and dropping it changes which root lesions are predicted to weaken elbow flexion.',
       subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
       modulePath: '101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries',
       type: 'structural_description',
@@ -424,7 +424,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The ulnar nerve gives a partial claw hand, not a wrist drop. It supplies no extensor at all, so the wrist cannot fall when it is cut; what falls is the fourth and fifth fingers into clawing.',
         B: 'Picked by students who reason that the wrist "drops" into flexion and therefore blame the flexor nerve. The wrist drops because the extensors are dead, not because the flexors are strong, and the median nerve supplies flexors.',
-        C: 'Correct. Every extensor of the wrist and fingers is radial, so a radial lesion above the elbow leaves nothing to hold the wrist up and the hand hangs.',
+        C: 'Every extensor of the wrist and fingers is radial, so a radial lesion above the elbow leaves nothing to hold the wrist up and the hand hangs.',
         D: 'The axillary nerve stops at deltoid and teres minor. It never reaches the forearm, so no lesion of it can affect the wrist.',
       },
     },
@@ -438,7 +438,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The trap is the medial cutaneous nerve of the forearm, which is genuinely a nerve of this region — but the option also names the radial nerve, and the radial nerve supplies the back of the hand only. One wrong name spoils the list.',
         B: 'True as far as it goes, and it is the answer a student gives who has learnt the two-thirds and one-third rule and stopped there. It is incomplete: the upper part of the ball of the thumb is supplied by the lateral cutaneous nerve of the forearm, which the option omits.',
-        C: 'Correct. Median for the lateral two-thirds, ulnar for the medial third, and the lateral cutaneous nerve of the forearm — the terminal part of the musculocutaneous — for the upper part of the thenar area.',
+        C: 'Median for the lateral two-thirds, ulnar for the medial third, and the lateral cutaneous nerve of the forearm — the terminal part of the musculocutaneous — for the upper part of the thenar area.',
         D: 'This gets the palm exactly backwards. The radial nerve supplies no palmar skin, and the median nerve, which supplies most of it, is missing from the option altogether.',
       },
     },
@@ -448,7 +448,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Trace spreading and closing the fingers to the interossei and thence to the ulnar nerve.',
       explanations: {
-        A: 'Correct. All four dorsal interossei, which abduct, and all three palmar interossei, which adduct, take the deep branch of the ulnar nerve.',
+        A: 'All four dorsal interossei, which abduct, and all three palmar interossei, which adduct, take the deep branch of the ulnar nerve.',
         B: 'The median nerve supplies only the lateral two lumbricals in the hand, and lumbricals do not abduct or adduct — they flex the knuckles and extend the fingers.',
         C: 'The radial nerve supplies no intrinsic muscle of the hand whatever. It stops at the wrist and finger extensors, which move the fingers as a set rather than spreading them.',
         D: 'The axillary nerve ends in deltoid and teres minor at the shoulder and has no representation in the hand.',
@@ -463,7 +463,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The median nerve passes in front of the elbow, in the cubital fossa, medial to the brachial artery. It is the nerve most often confused with the ulnar here because both are medial — but one is in front of the joint and one behind the bone.',
         B: 'The interosseous recurrent artery does ascend behind the elbow, but to the back of the lateral epicondyle, where it joins the anastomosis with the middle collateral artery.',
         C: 'The musculocutaneous nerve has already left the arm laterally, piercing the deep fascia at the lateral border of the biceps tendon to become the lateral cutaneous nerve of the forearm.',
-        D: 'Correct. The ulnar nerve grooves the back of the medial epicondyle, where it lies against bare bone and can be rolled under a finger — and where a fracture of that epicondyle catches it.',
+        D: 'The ulnar nerve grooves the back of the medial epicondyle, where it lies against bare bone and can be rolled under a finger — and where a fracture of that epicondyle catches it.',
       },
     },
     {
@@ -475,7 +475,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. B is the only true option: the superficial branch of the ulnar nerve supplies palmaris brevis and then becomes purely cutaneous, so palmaris brevis is its only muscle. A gives the muscle a bony origin it does not have, and C and D both name a median branch where the nerve is ulnar.',
       explanations: {
         A: 'Trapezium and capitate are carpal bones that give origin to the thenar and adductor muscles. Palmaris brevis is a small subcutaneous sheet arising from the flexor retinaculum and the medial edge of the palmar aponeurosis, and it reaches no bone at all — it inserts into skin.',
-        B: 'Correct. The deep branch of the ulnar nerve supplies every other ulnar muscle in the hand; the superficial branch supplies palmaris brevis alone and then continues as the palmar digital nerves.',
+        B: 'The deep branch of the ulnar nerve supplies every other ulnar muscle in the hand; the superficial branch supplies palmaris brevis alone and then continues as the palmar digital nerves.',
         C: 'The structure palmaris brevis covers is the ulnar artery and the superficial branch of the ulnar nerve, in the hypothenar region. Substituting "median" for "ulnar" is the whole error, and it is easy to miss on a fast reading.',
         D: 'The palmar cutaneous branch of the median nerve crosses the lateral part of the wrist, superficial to the flexor retinaculum. Palmaris brevis is a hypothenar muscle on the opposite side of the palm.',
       },
@@ -489,7 +489,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The long thoracic nerve comes off the roots themselves — C5, C6 and C7 — before any trunk is formed. That is why it lies on serratus anterior on the medial wall rather than travelling with the cords.',
         B: 'The nerve to subclavius is a branch of the upper trunk, alongside the suprascapular nerve, and is given off above the clavicle.',
         C: 'The suprascapular nerve is the other branch of the upper trunk. It is the most-offered distractor in this leaf precisely because it is a named nerve that sounds as though it should belong to the posterior cord.',
-        D: 'Correct. The thoracodorsal (nerve to latissimus dorsi) is a branch of the posterior cord, along with the radial, axillary and the two subscapular nerves.',
+        D: 'The thoracodorsal (nerve to latissimus dorsi) is a branch of the posterior cord, along with the radial, axillary and the two subscapular nerves.',
       },
     },
     {
@@ -501,7 +501,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The musculocutaneous nerve ends in the arm: coracobrachialis, biceps and brachialis, and then skin. It supplies no forearm muscle, although biceps is a supinator and therefore the pronators’ antagonist.',
         B: 'The radial nerve supplies the extensor compartment, which contains supinator — the pronators’ opposite number. Choosing it means reasoning that the nerve of supination must also serve pronation, when the two movements belong to two compartments.',
         C: 'The ulnar nerve has only two muscles in the forearm, flexor carpi ulnaris and the medial half of flexor digitorum profundus, and neither pronates.',
-        D: 'Correct. Pronator teres and pronator quadratus are both anterior compartment muscles and both median, the latter through the anterior interosseous branch.',
+        D: 'Pronator teres and pronator quadratus are both anterior compartment muscles and both median, the latter through the anterior interosseous branch.',
       },
     },
     {
@@ -521,7 +521,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The nerve injured by a fracture of the shaft of the humerus is the radial, in the spiral groove. The median nerve is endangered by a supracondylar fracture at the lower end, which is a different fracture in a different place.',
         B: 'Claw hand is ulnar. It is offered here because both nerves are flexor nerves of the front of the forearm, but the median deformity is the ape hand — the thenar eminence flattened — and clawing needs the interossei and lumbricals of the fourth and fifth fingers, which are ulnar.',
-        C: 'Correct. Opposition is produced by opponens pollicis, one of the three thenar muscles supplied by the recurrent branch of the median nerve, and it is the first thing tested after a median injury.',
+        C: 'Opposition is produced by opponens pollicis, one of the three thenar muscles supplied by the recurrent branch of the median nerve, and it is the first thing tested after a median injury.',
         D: 'The lateral two-thirds of the dorsum of the hand is superficial radial territory. Median sensation on the back of the hand is confined to the terminal phalanges of the lateral three and a half fingers.',
       },
     },
@@ -533,7 +533,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy. The quadrangular space transmits the axillary nerve with the posterior circumflex humeral vessels; the sibling copy `structures-passing-through-the-quadrangular-space-of-the-axi-b0c542eb` also prints none, and the two rows keyed on the closely worded "injury to quadrangular intermuscular space" question agree on the same pair.',
       explanations: {
-        A: 'Correct. The axillary nerve and the posterior circumflex humeral vessels wind together round the surgical neck of the humerus through this space, which is why one injury takes both.',
+        A: 'The axillary nerve and the posterior circumflex humeral vessels wind together round the surgical neck of the humerus through this space, which is why one injury takes both.',
         B: 'The anterior circumflex humeral artery is the smaller of the pair and runs in front of the surgical neck, outside any of the three spaces. Choosing it means remembering the artery’s name and not which side of the bone it passes.',
         C: 'The circumflex scapular artery passes through the upper triangular space, on the other side of the long head of triceps. It is the neighbour, and the long head is the wall between them.',
         D: 'The musculocutaneous nerve leaves the axilla forwards, piercing coracobrachialis. It never approaches the back of the surgical neck.',
@@ -548,7 +548,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the three copies of this question in the bank carry three different letters between them — A on `the-following-structure-is-a-content-of-the-cubital-fossa-de-17e185eb` and D on `the-followfng-structure-is-a-content-of-the-cubital-fossa-96e524e5`. The contents of the fossa are the median nerve, the brachial artery with the origins of the radial and ulnar arteries, the biceps tendon and the radial nerve; brachioradialis is the lateral boundary and the ulnar nerve is behind the medial epicondyle, so B is the only option that is a content.',
       explanations: {
         A: 'Brachioradialis forms the lateral boundary of the triangle. It is the commonest wrong answer here, and it comes from confusing what makes the walls of a space with what lies inside it.',
-        B: 'Correct. The median nerve is the most medial content, lying medial to the brachial artery on the floor formed by brachialis.',
+        B: 'The median nerve is the most medial content, lying medial to the brachial artery on the floor formed by brachialis.',
         C: 'The musculocutaneous nerve has left the fossa before it begins: it pierces the deep fascia above the elbow at the lateral border of the biceps tendon and is then a cutaneous nerve in the superficial fascia of the roof.',
         D: 'The ulnar nerve passes behind the medial epicondyle, outside the fossa altogether. That is exactly why an anterior wound of the elbow can spare it.',
       },
@@ -562,7 +562,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The ulnar nerve crosses superficial to the retinaculum, lateral to the pisiform, in the canal of Guyon. It is the single commonest error in this leaf, and it matters because it is why carpal tunnel syndrome never numbs the little finger.',
         B: 'The ulnar vessels accompany the ulnar nerve over the front of the retinaculum, not under it.',
         C: 'Palmaris longus is inserted partly into the retinaculum and its tendon lies superficial to it — which is what makes it a surface landmark for the median nerve beneath.',
-        D: 'Correct. The median nerve passes deep to the retinaculum with the long flexor tendons, and compression there is carpal tunnel syndrome.',
+        D: 'The median nerve passes deep to the retinaculum with the long flexor tendons, and compression there is carpal tunnel syndrome.',
       },
     },
     {
@@ -573,7 +573,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The axillary nerve is caught by a fracture of the surgical neck, at the upper end of the bone, not by a fracture of the shaft.',
         B: 'The ulnar nerve is against the humerus only at the medial epicondyle, at the lower end.',
-        C: 'Correct. The radial nerve lies in the spiral groove directly on the back of the shaft, with the profunda brachii vessels, and a mid-shaft fracture is the classic cause of wrist drop.',
+        C: 'The radial nerve lies in the spiral groove directly on the back of the shaft, with the profunda brachii vessels, and a mid-shaft fracture is the classic cause of wrist drop.',
         D: 'The median nerve runs in the soft tissue of the medial side of the arm and touches the bone nowhere along the shaft; it is endangered by a supracondylar fracture instead.',
       },
     },
@@ -586,7 +586,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy; the sibling `the-serratus-anterior-muscle-dep-book-em-em-ac011a37` is keyed B and B is correct. The muscle arises from the upper eight ribs, not the lower eight; it is supplied by the long thoracic nerve, not the thoracodorsal; and it protracts and rotates the scapula rather than extending the shoulder.',
       explanations: {
         A: 'The digitations are eight, which is the half of the statement that is true, but they come from the upper eight ribs. Reading "eight digitations" and stopping is what makes this option work.',
-        B: 'Correct. Serratus anterior is inserted along the whole costal aspect of the medial border of the scapula, which is precisely why its paralysis lets that border wing away from the chest wall.',
+        B: 'Serratus anterior is inserted along the whole costal aspect of the medial border of the scapula, which is precisely why its paralysis lets that border wing away from the chest wall.',
         C: 'The thoracodorsal nerve supplies latissimus dorsi. Both nerves come off in the axilla and both run down the chest wall, but the long thoracic nerve lies on serratus anterior itself.',
         D: 'Serratus anterior draws the scapula forward and rotates it upward; the powerful extensor and adductor of the shoulder is latissimus dorsi, which is the muscle the thoracodorsal option belongs to.',
       },
@@ -599,7 +599,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve supplies no abductor of the shoulder. It is offered because it is the other posterior cord branch, and because students who remember "posterior cord" without remembering which branch reach for the larger nerve.',
         B: 'The ulnar nerve has no branch above the elbow at all, let alone one to the shoulder.',
-        C: 'Correct. The middle fibres of deltoid carry abduction from fifteen to ninety degrees, and deltoid is supplied by the axillary (circumflex) nerve.',
+        C: 'The middle fibres of deltoid carry abduction from fifteen to ninety degrees, and deltoid is supplied by the axillary (circumflex) nerve.',
         D: 'The suprascapular nerve supplies supraspinatus, which starts abduction and hands over at fifteen degrees. Choosing it means taking the muscle that begins the movement rather than the one that performs the stated range.',
       },
     },
@@ -610,7 +610,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attach the ape hand to the median nerve.',
       explanations: {
         A: 'The axillary nerve gives a flat shoulder, from wasting of deltoid. Its territory ends far above the hand.',
-        B: 'Correct. The thenar eminence wastes when the median nerve is cut, the thumb falls back into the plane of the palm, and the flattened hand is called the ape or monkey hand.',
+        B: 'The thenar eminence wastes when the median nerve is cut, the thumb falls back into the plane of the palm, and the flattened hand is called the ape or monkey hand.',
         C: 'The ulnar nerve gives clawing of the fourth and fifth fingers and hollowing between the metacarpals — a wasted hand too, but wasted on the medial side and clawed rather than flattened.',
         D: 'The radial nerve gives wrist drop. Nothing about the thumb’s resting position changes, because the thenar muscles are median.',
       },
@@ -626,7 +626,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Abductor digiti minimi is supplied at the very beginning of the deep branch’s course, as it passes between the hypothenar muscles. It is where the nerve starts, not where it ends.',
         B: 'Flexor digiti minimi is supplied in the same first group. The option is true of what the nerve supplies and false about when.',
         C: 'Opponens digiti minimi completes the hypothenar trio and is also supplied at the outset.',
-        D: 'Correct. The deep branch crosses the palm deep to the long flexor tendons and terminates in adductor pollicis, which is why a deep branch lesion abolishes thumb adduction and produces Froment’s sign.',
+        D: 'The deep branch crosses the palm deep to the long flexor tendons and terminates in adductor pollicis, which is why a deep branch lesion abolishes thumb adduction and produces Froment’s sign.',
       },
     },
     {
@@ -639,7 +639,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve is related directly to the humerus, but in the spiral groove on the back of the shaft, a hand’s breadth lower. Choosing it means remembering that a nerve touches this bone and not which part.',
         B: 'The ulnar nerve touches the humerus only at the back of the medial epicondyle, at the far end of the bone.',
-        C: 'Correct. The axillary nerve passes backwards through the quadrangular space and then circles the surgical neck against bone, which is why a fracture there or a dislocation tests deltoid.',
+        C: 'The axillary nerve passes backwards through the quadrangular space and then circles the surgical neck against bone, which is why a fracture there or a dislocation tests deltoid.',
         D: 'The musculocutaneous nerve leaves the axilla by piercing coracobrachialis and never lies against the humerus.',
       },
     },
@@ -654,7 +654,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve is the other branch of the posterior cord and supplies no muscle that abducts the shoulder.',
         B: 'The long thoracic nerve, through serratus anterior, rotates the scapula and so governs abduction above ninety degrees. Choosing it means taking the next range up.',
         C: 'The musculocutaneous nerve flexes the elbow. Coracobrachialis, its only shoulder muscle, flexes and adducts the arm rather than abducting it.',
-        D: 'Correct. Deltoid’s middle fibres carry the arm from fifteen to ninety degrees and deltoid is axillary.',
+        D: 'Deltoid’s middle fibres carry the arm from fifteen to ninety degrees and deltoid is axillary.',
       },
     },
     {
@@ -666,7 +666,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve supplies triceps and the extensors of the forearm; nothing it supplies abducts the shoulder.',
         B: 'Serratus anterior, through the long thoracic nerve, rotates the scapula for abduction beyond ninety degrees. Its loss wings the scapula and stops the arm going above the shoulder, not the middle range.',
         C: 'The musculocutaneous nerve is the nerve of elbow flexion.',
-        D: 'Correct. Deltoid, supplied by the axillary nerve, is the muscle of the fifteen-to-ninety range, and the first fifteen degrees are supraspinatus.',
+        D: 'Deltoid, supplied by the axillary nerve, is the muscle of the fifteen-to-ninety range, and the first fifteen degrees are supraspinatus.',
       },
     },
     {
@@ -679,7 +679,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Teres minor bounds the quadrangular space above, not this one. The two spaces share a name and a neighbourhood, and swapping teres minor for teres major is the swap this option is built on.',
         B: 'The medial boundary is the long head of triceps; the lateral head lies laterally, along with the shaft of the humerus.',
-        C: 'Correct. The radial nerve and the profunda brachii vessels leave the axilla through this space to reach the spiral groove — which is why a wound here and a mid-shaft fracture produce the same wrist drop.',
+        C: 'The radial nerve and the profunda brachii vessels leave the axilla through this space to reach the spiral groove — which is why a wound here and a mid-shaft fracture produce the same wrist drop.',
         D: 'The median nerve descends in front, on the medial side of the arm, and the radial recurrent artery is a branch of the radial artery at the elbow, a long way distal.',
       },
     },
@@ -693,7 +693,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Teres minor is the upper boundary of the quadrangular space; teres major is what bounds this one above.',
         B: 'The long head of triceps is the medial boundary here. Reaching for the lateral head is what a student does who remembers a head of triceps was involved without remembering which.',
-        C: 'Correct. The lower triangular space, or triangular interval, transmits the radial nerve and the profunda brachii vessels to the back of the arm.',
+        C: 'The lower triangular space, or triangular interval, transmits the radial nerve and the profunda brachii vessels to the back of the arm.',
         D: 'Neither structure is in the space: the median nerve never enters the posterior compartment, and the radial recurrent artery arises at the elbow.',
       },
     },
@@ -705,7 +705,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy. The clean keyed copy `the-nerve-commonly-injured-after-fracture-of-the-surgical-ne-358df674` gives A, and the anatomy agrees: the axillary nerve is the one structure wound round the surgical neck.',
       explanations: {
-        A: 'Correct. The axillary nerve circles the surgical neck in the quadrangular space, so a fracture there is tested by asking the patient to abduct and by testing the skin over the lower deltoid.',
+        A: 'The axillary nerve circles the surgical neck in the quadrangular space, so a fracture there is tested by asking the patient to abduct and by testing the skin over the lower deltoid.',
         B: 'The ulnar nerve is at the opposite end of the bone, behind the medial epicondyle.',
         C: 'The radial nerve belongs to the shaft, in the spiral groove. Choosing it means answering the commoner question — which nerve does a humeral fracture injure — without noticing that this stem names the neck.',
         D: 'The median nerve is not applied to the humerus at any level, and the fracture that endangers it is the supracondylar one.',
@@ -718,7 +718,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attach opposition of the thumb to the median nerve.',
       explanations: {
         A: 'The axillary nerve ends at the shoulder and has nothing to do with the thumb.',
-        B: 'Correct. Opponens pollicis is one of the three thenar muscles taking the recurrent branch of the median nerve, and opposition is the movement lost first in carpal tunnel syndrome.',
+        B: 'Opponens pollicis is one of the three thenar muscles taking the recurrent branch of the median nerve, and opposition is the movement lost first in carpal tunnel syndrome.',
         C: 'The radial nerve extends and abducts the thumb through extensor pollicis longus and brevis and abductor pollicis longus, but it cannot rotate the thumb across the palm.',
         D: 'The ulnar nerve supplies adductor pollicis, which pulls the thumb towards the palm in one plane. Adduction is not opposition, and the two are confused because both bring the thumb inwards.',
       },
@@ -731,7 +731,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The axillary nerve produces a flat shoulder; it reaches nothing distal to the arm.',
         B: 'The median nerve gives the ape hand. Together with the ulnar it gives a complete claw, which is what makes this option tempting — but on its own it spares the interossei that clawing depends on.',
-        C: 'Correct. An ulnar lesion paralyses the interossei and the medial two lumbricals, so the fourth and fifth fingers claw while the second and third, whose lumbricals are median, are largely spared. That sparing is what makes the claw partial.',
+        C: 'An ulnar lesion paralyses the interossei and the medial two lumbricals, so the fourth and fifth fingers claw while the second and third, whose lumbricals are median, are largely spared. That sparing is what makes the claw partial.',
         D: 'The radial nerve gives wrist drop. It supplies no intrinsic muscle of the hand and cannot claw it.',
       },
     },
@@ -745,7 +745,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The suprascapular nerve is a branch of the upper trunk. It is the standing distractor for this question because supraspinatus and infraspinatus lie on the back of the scapula and feel as though they should be posterior cord territory.',
         B: 'The long thoracic nerve comes off the roots, C5, C6 and C7, before the trunks form.',
-        C: 'Correct. The axillary nerve is a terminal branch of the posterior cord, the other being the radial.',
+        C: 'The axillary nerve is a terminal branch of the posterior cord, the other being the radial.',
         D: 'The median nerve is formed from the lateral and medial cords by two roots and has no posterior cord contribution.',
       },
     },
@@ -760,7 +760,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Wrist drop is radial. The median nerve supplies flexors, and cutting it cannot let the wrist fall.',
         B: 'Ape hand is median, from wasting of the thenar eminence. The ulnar deformity is the partial claw.',
         C: 'The carpal tunnel carries the median nerve; the ulnar nerve passes superficial to the retinaculum and is untouched by it. This is the option that catches the most students, because both nerves reach the hand at the wrist.',
-        D: 'Correct — with the qualification the examiner intends: the axillary nerve supplies deltoid, so its injury loses abduction through the fifteen-to-ninety degree range.',
+        D: 'With the qualification the examiner intends: the axillary nerve supplies deltoid, so its injury loses abduction through the fifteen-to-ninety degree range.',
       },
     },
     {
@@ -772,7 +772,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Wrist drop belongs to the radial nerve, whose extensors hold the wrist up.',
         B: 'Ape hand belongs to the median nerve. Swapping the two flexor nerves’ deformities is the single commonest confusion in this leaf.',
         C: 'The nerve compressed in the carpal tunnel is the median. The ulnar nerve crosses over the flexor retinaculum, not under it.',
-        D: 'Correct. Deltoid is axillary, so an axillary lesion abolishes abduction of the shoulder through the range deltoid provides.',
+        D: 'Deltoid is axillary, so an axillary lesion abolishes abduction of the shoulder through the range deltoid provides.',
       },
     },
     {
@@ -781,7 +781,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard', questionType: 'Clinical application',
       learningObjective: 'Separate a lesion of the radial nerve trunk from a lesion of either terminal branch.',
       explanations: {
-        A: 'Correct. The nerve lies in the spiral groove against the back of the shaft, and a fracture there is the classic cause of wrist drop.',
+        A: 'The nerve lies in the spiral groove against the back of the shaft, and a fracture there is the classic cause of wrist drop.',
         B: 'A posterior interosseous lesion gives finger drop without wrist drop, because extensor carpi radialis longus is supplied above the division and still extends the wrist. Choosing this option means treating the deep branch as though it were the whole nerve.',
         C: 'The superficial branch is purely sensory. Cutting it numbs the back of the hand and drops nothing.',
         D: 'The posterior interosseous nerve is purely motor, so its injury is accompanied by no sensory loss at all. This copy has cut the option short at "loss of"; the intact copy `regarding-radial-nerve-injury-choose-the-correct-answer-dep-349327b2` reads "loss of sensations", which is what makes it false.',
@@ -795,7 +795,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The little finger is opposed by opponens digiti minimi, a hypothenar muscle supplied by the deep branch of the ulnar nerve. It is the thumb whose opposition the median nerve governs.',
         B: 'Supination survives entirely: it is performed by supinator, from the radial nerve, and by biceps, from the musculocutaneous. What the median lesion abolishes is pronation, the opposite movement.',
-        C: 'Correct. The palmar cutaneous branch and the palmar digital branches of the median nerve together cover the lateral two-thirds of the palm.',
+        C: 'The palmar cutaneous branch and the palmar digital branches of the median nerve together cover the lateral two-thirds of the palm.',
         D: 'The deviation is towards the ulnar side, not the radial. The only wrist flexor left after a median lesion is flexor carpi ulnaris, and the hand goes the way the surviving muscle pulls.',
       },
     },
@@ -808,7 +808,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve crosses the elbow to the extensors and gives it articular twigs, so it does innervate the joint.',
         B: 'The ulnar nerve passes behind the medial epicondyle, in contact with the capsule, and supplies the joint.',
         C: 'The median nerve crosses the front of the joint in the cubital fossa on its way to the forearm flexors and supplies it.',
-        D: 'Correct, and the exception. The axillary nerve ends in deltoid and teres minor and never reaches below the shoulder; by Hilton’s law a joint takes the nerves of the muscles that move it, and no muscle the axillary nerve supplies moves the elbow.',
+        D: 'The exception. The axillary nerve ends in deltoid and teres minor and never reaches below the shoulder; by Hilton’s law a joint takes the nerves of the muscles that move it, and no muscle the axillary nerve supplies moves the elbow.',
       },
     },
     {
@@ -821,7 +821,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The suprascapular nerve leaves the upper trunk above the clavicle, and it is the option most often chosen because it supplies two muscles on the back of the scapula.',
         B: 'The long thoracic nerve arises from the roots C5, C6 and C7 and descends on serratus anterior.',
-        C: 'Correct. The posterior cord ends in the radial and axillary nerves and gives the two subscapular nerves and the thoracodorsal on the way.',
+        C: 'The posterior cord ends in the radial and axillary nerves and gives the two subscapular nerves and the thoracodorsal on the way.',
         D: 'The median nerve is formed by a lateral root and a medial root in front of the axillary artery; no fibre of it comes from the posterior cord.',
       },
     },
@@ -835,7 +835,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'C6, C7 and C8 drops C5 at one end and T1 at the other. It is the option most students take, because the radial nerve is thought of as a mid-plexus nerve.',
         B: 'The same root value as A, printed a second time with "root" in the singular. Two identical options cannot both be right, and neither is.',
-        C: 'Correct. The radial nerve is the largest branch of the posterior cord and carries C5, C6, C7, C8 and T1. The "8c" in this copy is the OCR of "8 and".',
+        C: 'The radial nerve is the largest branch of the posterior cord and carries C5, C6, C7, C8 and T1. The "8c" in this copy is the OCR of "8 and".',
         D: 'C5 to C8 is the near miss: it has the top of the plexus right and stops one root short. Dropping T1 changes which lesions are predicted to affect the nerve, which is exactly why the examiner offers it.',
       },
     },
@@ -846,7 +846,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as printed.',
       explanations: {},
       exclude: true,
-      excludeReason: 'A reviewer problem, not a scan problem: two options are true. The shoulder joint takes articular twigs from the axillary nerve (option B), the suprascapular nerve (option C) and the lateral pectoral nerve, which is what the department\u2019s own concept states, and the item offers the first two side by side while asking for one. The other two options are sound distractors \u2014 the medial pectoral nerve is the wrong pectoral nerve and the musculocutaneous nerve stops at the elbow. No rescan helps; one of B or C has to be replaced. Excluded together with `the-shoulder-joint-is-innervated-by-twigs-from-dep-book-bac3f074`.',
+      excludeReason: 'A reviewer problem, not a scan problem: two options are true. The shoulder joint takes articular twigs from the axillary nerve (option B), the suprascapular nerve (option C) and the lateral pectoral nerve \u2014 all three together \u2014 and the item offers the first two side by side while asking for one. The other two options are sound distractors \u2014 the medial pectoral nerve is the wrong pectoral nerve and the musculocutaneous nerve stops at the elbow. No rescan helps; one of B or C has to be replaced. Excluded together with `the-shoulder-joint-is-innervated-by-twigs-from-dep-book-bac3f074`.',
     },
     {
       key: 'which-one-is-a-branch-of-the-lateral-cord-of-the-brachial-pl-8006f2a7',
@@ -858,7 +858,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The upper subscapular nerve is a posterior cord branch, to subscapularis.',
         B: 'The long thoracic nerve comes off the roots.',
-        C: 'Correct. The musculocutaneous nerve is the lateral cord’s own terminal branch, and it is the nerve of the anterior compartment of the arm.',
+        C: 'The musculocutaneous nerve is the lateral cord’s own terminal branch, and it is the nerve of the anterior compartment of the arm.',
         D: 'The suprascapular nerve is from the upper trunk. It is offered on almost every plexus question in this leaf and is right on none of them.',
       },
     },
@@ -870,7 +870,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Upper subscapular is posterior cord, and it belongs to the group that supplies the extensor side and the muscles on the back of the scapula.',
         B: 'The long thoracic nerve is a root branch and travels alone down the medial wall of the axilla.',
-        C: 'Correct. Musculocutaneous, the lateral root of the median and the lateral pectoral nerve are the three branches of the lateral cord.',
+        C: 'Musculocutaneous, the lateral root of the median and the lateral pectoral nerve are the three branches of the lateral cord.',
         D: 'The suprascapular nerve leaves the upper trunk before any cord is formed.',
       },
     },
@@ -883,7 +883,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Winging brought out by pushing against a wall is the classic test of serratus anterior, whose nerve — the long thoracic — lies exposed on the muscle on the lateral chest wall, exactly where the stab is described.',
       explanations: {
         a: 'An axillary nerve lesion flattens the shoulder and weakens abduction to ninety degrees; it does not wing the scapula, because deltoid does not hold the scapula to the chest.',
-        b: 'Correct. The long thoracic nerve runs superficially on serratus anterior on the lateral chest wall, which is what makes it vulnerable to a stab there and to axillary surgery.',
+        b: 'The long thoracic nerve runs superficially on serratus anterior on the lateral chest wall, which is what makes it vulnerable to a stab there and to axillary surgery.',
         c: 'The dorsal scapular nerve supplies the rhomboids and levator scapulae. Rhomboid palsy gives a much subtler winging and it is not brought out by pushing forwards.',
         d: 'The thoracodorsal nerve supplies latissimus dorsi, whose paralysis weakens adduction and extension of the arm and wings nothing.',
       },
@@ -898,7 +898,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The ulnar nerve is only against bone at the medial epicondyle.',
         b: 'The median nerve is endangered by a supracondylar fracture at the lower end of the humerus, not by a mid-shaft one. It runs in front of the medial side of the arm with the brachial artery and never touches the shaft.',
-        c: 'Correct. The spiral groove runs across the back of the mid-shaft and carries the radial nerve with the profunda brachii vessels.',
+        c: 'The spiral groove runs across the back of the mid-shaft and carries the radial nerve with the profunda brachii vessels.',
         d: 'The axillary nerve belongs to the surgical neck, at the top of the bone. It is the printed key here and it is wrong — a student who learns it will localise every humeral fracture to the wrong end.',
       },
     },
@@ -912,7 +912,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve extends the fingers as a set. It supplies no muscle that moves one finger towards another.',
         B: 'The median nerve’s only intrinsic muscles are the three thenar muscles and the lateral two lumbricals, none of which adducts a finger.',
-        C: 'Correct. The palmar interossei adduct the fingers towards the middle finger, and they are ulnar — the same test as Froment’s sign one digit over.',
+        C: 'The palmar interossei adduct the fingers towards the middle finger, and they are ulnar — the same test as Froment’s sign one digit over.',
         D: 'The musculocutaneous nerve ends in the arm and the skin of the lateral forearm.',
       },
     },
@@ -925,7 +925,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Thumb adduction is adductor pollicis, the muscle in which the deep branch of the ulnar nerve terminates; a wound at the wrist that spares sensation and takes only this movement is a deep branch lesion.',
       explanations: {
         A: 'The superficial branch supplies palmaris brevis and then the skin of the medial one and a half fingers. Cutting it would numb rather than weaken.',
-        B: 'Correct. The deep branch is the motor branch, and adductor pollicis is the last muscle it supplies.',
+        B: 'The deep branch is the motor branch, and adductor pollicis is the last muscle it supplies.',
         C: 'The median nerve abducts and opposes the thumb; adduction is the one thumb movement it does not control, and this is the swap the option is built on.',
         D: 'The radial nerve extends the thumb. It supplies no intrinsic muscle of the hand.',
       },
@@ -938,8 +938,8 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'B',
       answerOverrideReason: 'The source printed no key on this copy, and the two keyed copies both give A, the median nerve, which is wrong: A is the answer for the lateral two-thirds of the palm, not the dorsum. The back of the hand is radial laterally and ulnar medially, and the median nerve reaches the dorsum only over the terminal phalanges.',
       explanations: {
-        A: 'The median nerve covers the lateral two-thirds of the palm — the same fraction on the other surface. Reading "2/3" and answering before reading "dorsum" is the entire trap, and it is the answer the books themselves print.',
-        B: 'Correct. The superficial terminal branch of the radial nerve supplies the lateral two-thirds of the back of the hand and the backs of the lateral three and a half fingers to the level of the nail beds.',
+        A: 'The median nerve covers the lateral two-thirds of the palm — the same fraction on the other surface. Reading "2/3" and answering before reading "dorsum" is the entire trap, and it is the printed answer.',
+        B: 'The superficial terminal branch of the radial nerve supplies the lateral two-thirds of the back of the hand and the backs of the lateral three and a half fingers to the level of the nail beds.',
         C: 'The ulnar nerve, through its dorsal branch, takes the medial third of the dorsum — the other fraction.',
         D: 'The musculocutaneous nerve, as the lateral cutaneous nerve of the forearm, stops at the wrist.',
       },
@@ -953,7 +953,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the median nerve, and it is wrong. The median nerve supplies the lateral two-thirds of the palm; the corresponding area on the dorsum is superficial radial. The error repeats on all three copies of this question, which is what makes it worth correcting rather than absorbing.',
       explanations: {
         A: 'The palm, not the dorsum. This is the printed key and it is the mistake the question is designed to catch — the same fraction on the wrong surface.',
-        B: 'Correct. The superficial branch of the radial nerve winds round the lateral side of the wrist to supply the lateral two-thirds of the back of the hand.',
+        B: 'The superficial branch of the radial nerve winds round the lateral side of the wrist to supply the lateral two-thirds of the back of the hand.',
         C: 'The ulnar nerve supplies the medial third of the dorsum through its dorsal cutaneous branch.',
         D: 'The musculocutaneous nerve, through the lateral cutaneous nerve of the forearm, ends at the wrist and reaches only the upper part of the ball of the thumb.',
       },
@@ -967,7 +967,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the median nerve, and it is wrong for the same reason as on the two sibling copies: the median nerve owns the lateral two-thirds of the palm, and the lateral two-thirds of the dorsum is superficial radial territory.',
       explanations: {
         A: 'The lateral two-thirds of the palm is median. Choosing it here means matching the fraction and ignoring the surface, which is exactly what the item tests.',
-        B: 'Correct. The superficial radial nerve is purely sensory and supplies the lateral two-thirds of the dorsum of the hand.',
+        B: 'The superficial radial nerve is purely sensory and supplies the lateral two-thirds of the dorsum of the hand.',
         C: 'The ulnar nerve takes the medial third of the dorsum.',
         D: 'The musculocutaneous nerve does not reach the hand.',
       },
@@ -983,7 +983,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The palmar branches are cutaneous. Cutting them numbs the palm and moves nothing.',
         B: 'The ulnar nerve alone gives a partial claw — the fourth and fifth fingers only — because the lumbricals of the index and middle fingers are median and still hold their knuckles flexed. The stem says all the fingers, which is what rules this out.',
         C: 'The median nerve alone gives the ape hand and weakness of the index and middle fingers, not a claw: the interossei, which are what claw the hand, are ulnar.',
-        D: 'Correct. A wrist laceration deep enough to take both nerves paralyses all four lumbricals and all seven interossei, and the unopposed long extensors and long flexors produce the complete claw.',
+        D: 'A wrist laceration deep enough to take both nerves paralyses all four lumbricals and all seven interossei, and the unopposed long extensors and long flexors produce the complete claw.',
       },
     },
     {
@@ -994,7 +994,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A lesion above the elbow but below the axilla would spare the branches to triceps given in the axilla, but the classic site for a chair-back compression is higher, where the nerve lies in the axilla against the humerus. The stem gives no weakness of elbow extension either way, so the localising sign is the mechanism.',
         B: 'This names a branch rather than a site of injury, and triceps paralysis would abolish elbow extension — which the stem does not describe.',
-        C: 'Correct. The arm hung over the back of a chair compresses the radial nerve in the axilla, the classical Saturday night palsy: the wrist and fingers cannot be extended while elbow flexion, which is musculocutaneous, is unaffected.',
+        C: 'The arm hung over the back of a chair compresses the radial nerve in the axilla, the classical Saturday night palsy: the wrist and fingers cannot be extended while elbow flexion, which is musculocutaneous, is unaffected.',
         D: 'A posterior cord lesion would take the axillary nerve as well and so abolish abduction of the shoulder. The stem describes an intact shoulder, which is what excludes it.',
       },
     },
@@ -1008,7 +1008,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'A site below the axilla is possible on the anatomy but is not the named syndrome. The pressure of a chair back falls in the armpit.',
         b: 'Triceps is a muscle, not a site, and the stem describes no loss of elbow extension.',
-        c: 'Correct. Compression of the radial nerve in the axilla by the back of a chair is Saturday night palsy, and the picture is inability to extend the hand with elbow flexion preserved.',
+        c: 'Compression of the radial nerve in the axilla by the back of a chair is Saturday night palsy, and the picture is inability to extend the hand with elbow flexion preserved.',
         d: 'A posterior cord lesion would add loss of shoulder abduction through the axillary nerve, which the stem does not describe.',
       },
     },
@@ -1035,7 +1035,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy; the sibling `ape-s-like-hand-deformity-results-from-following-injury-of-w-88625876`, asked twice, is keyed B. The ape hand is wasting of the thenar eminence with the thumb adducted and laterally rotated, and every thenar muscle is median.',
       explanations: {
         A: 'The axillary nerve deformity is the flat shoulder.',
-        B: 'Correct. Wasting of the three thenar muscles flattens the ball of the thumb and lets it fall back into the plane of the palm.',
+        B: 'Wasting of the three thenar muscles flattens the ball of the thumb and lets it fall back into the plane of the palm.',
         C: 'The ulnar nerve gives the partial claw hand and hollowing between the metacarpals.',
         D: 'The radial nerve gives wrist drop, which is a posture of the wrist rather than of the thumb.',
       },
@@ -1048,7 +1048,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. A complete claw needs every lumbrical and every interosseous paralysed; the lateral two lumbricals are median and the remainder ulnar, so both nerves must be cut. The ulnar nerve alone gives a partial claw.',
       explanations: {
-        A: 'Correct. Median and ulnar together account for all four lumbricals and all seven interossei, and only then do all four fingers hyperextend at the knuckles and flex at the interphalangeal joints.',
+        A: 'Median and ulnar together account for all four lumbricals and all seven interossei, and only then do all four fingers hyperextend at the knuckles and flex at the interphalangeal joints.',
         B: 'The radial nerve supplies no intrinsic muscle of the hand and contributes nothing to clawing; adding it to the ulnar changes nothing.',
         C: 'The ulnar nerve alone claws the fourth and fifth fingers — the partial claw. Choosing it is the commonest answer here, because the ulnar nerve is the nerve of clawing; the word "complete" is what rules it out.',
         D: 'The median nerve alone gives the ape hand. It supplies too few of the small muscles to claw anything.',
@@ -1074,7 +1074,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Abductor digiti minimi is supplied where the deep branch begins, between the hypothenar muscles. This option is echoed into the stem of this copy by the extraction, which makes it look authoritative and is not.',
         B: 'Flexor digiti minimi belongs to the same first group of three.',
         C: 'Opponens digiti minimi likewise.',
-        D: 'Correct. The deep branch crosses the whole palm and terminates in adductor pollicis, whose loss gives Froment’s sign.',
+        D: 'The deep branch crosses the whole palm and terminates in adductor pollicis, whose loss gives Froment’s sign.',
       },
     },
     {
@@ -1086,7 +1086,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the superficial branch, and it is wrong. The superficial branch of the ulnar nerve supplies one muscle only — palmaris brevis — and is otherwise cutaneous; every interosseous muscle takes the deep branch. The same wrong key is printed on the sibling copy.',
       explanations: {
         A: 'The superficial branch supplies palmaris brevis and the skin of the medial one and a half fingers. It is the printed key on both copies of this question and it is wrong; a student who takes it will expect numbness rather than weakness from an interosseous palsy.',
-        B: 'Correct. The deep branch is the motor branch of the ulnar nerve in the hand and supplies all four dorsal and all three palmar interossei.',
+        B: 'The deep branch is the motor branch of the ulnar nerve in the hand and supplies all four dorsal and all three palmar interossei.',
         C: 'The lateral terminal division of the median nerve supplies the thumb and the lateral lumbricals; it reaches no interosseous muscle.',
         D: 'The medial terminal division of the median nerve is cutaneous to the middle and ring fingers.',
       },
@@ -1100,7 +1100,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the superficial branch, and it is wrong for the same reason as on the sibling copy: the superficial branch supplies only palmaris brevis, and the interossei are supplied by the deep branch.',
       explanations: {
         A: 'The superficial branch is almost entirely cutaneous. It is the printed key and it is wrong.',
-        B: 'Correct. All seven interossei are supplied by the deep branch of the ulnar nerve, which is what makes finger abduction and adduction the bedside test of that nerve.',
+        B: 'All seven interossei are supplied by the deep branch of the ulnar nerve, which is what makes finger abduction and adduction the bedside test of that nerve.',
         C: 'The median nerve’s lateral terminal division serves the thumb and the first two lumbricals.',
         D: 'The medial terminal division of the median nerve is a sensory division to the adjoining sides of the middle and ring fingers.',
       },
@@ -1114,7 +1114,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is C, the palmar digital branches, which is wrong: those branches supply the fingers, and the stem says the numbness is on the palm. The palmar cutaneous branch of the median nerve arises in the forearm and crosses superficial to the flexor retinaculum to supply the skin of the lateral palm, so cutting it numbs exactly the described area and leaves every muscle working, because it carries no motor fibres.',
       explanations: {
         A: 'The lateral cutaneous nerve of the forearm reaches only the upper part of the ball of the thumb, well proximal to the area described, and it is a forearm nerve rather than a wrist one.',
-        B: 'Correct. The palmar cutaneous branch of the median nerve is purely sensory to the lateral palm and lies superficial to the retinaculum, so a transverse laceration at the wrist can take it alone.',
+        B: 'The palmar cutaneous branch of the median nerve is purely sensory to the lateral palm and lies superficial to the retinaculum, so a transverse laceration at the wrist can take it alone.',
         C: 'The palmar digital branches supply the fingers, not the palm. They also arise beyond the carpal tunnel from a nerve that carries the motor branch to the thenar muscles, so a lesion severe enough to reach them would usually cost hand function — which the stem excludes.',
         D: 'The radial nerve supplies no palmar skin at all.',
       },
@@ -1128,7 +1128,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives C, which is wrong for the reason set out there. Numbness confined to the lateral palm with no motor loss is a lesion of the palmar cutaneous branch of the median nerve.',
       explanations: {
         A: 'The lateral cutaneous nerve of the forearm ends over the thenar area proximally and is a branch of the musculocutaneous, injured in the forearm rather than at the wrist.',
-        B: 'Correct. A purely sensory branch, superficial to the retinaculum, supplying the skin of the lateral palm — which is precisely the deficit described.',
+        B: 'A purely sensory branch, superficial to the retinaculum, supplying the skin of the lateral palm — which is precisely the deficit described.',
         C: 'The palmar digital branches are the nerves of the fingers. The stem locates the numbness on the palm.',
         D: 'The radial nerve has no palmar territory.',
       },
@@ -1152,7 +1152,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The median nerve passes in front of the elbow and is endangered by a supracondylar fracture rather than by an isolated epicondylar one. The stem of this copy has an echo of this option leaking into it, which is an artefact and not a key.',
         B: 'The radial nerve is at the lateral side, having pierced the lateral intermuscular septum, and lies nowhere near the medial epicondyle.',
-        C: 'Correct. The ulnar nerve is in direct contact with the back of the medial epicondyle and is torn or stretched when that epicondyle is avulsed.',
+        C: 'The ulnar nerve is in direct contact with the back of the medial epicondyle and is torn or stretched when that epicondyle is avulsed.',
         D: 'The posterior interosseous nerve arises at the level of the lateral epicondyle and pierces supinator on the lateral side.',
       },
     },
@@ -1167,7 +1167,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Claw hand is the lower trunk, C8 and T1 — Klumpke’s paralysis, the opposite end of the plexus. It is the printed key here and it is wrong; learning it would invert the two plexus injuries a student is most often asked to tell apart.',
         B: 'Ape hand is a median nerve deformity, from wasting of the thenar eminence, and has nothing to do with a trunk lesion.',
         C: 'Wrist drop is radial, and the radial nerve carries C5 to T1 — so a C5 and C6 lesion cannot drop the wrist.',
-        D: 'Correct. The shoulder adducted and medially rotated, the elbow extended and the forearm pronated makes the hand face backwards behind the hip, the position in which a policeman or porter takes a tip.',
+        D: 'The shoulder adducted and medially rotated, the elbow extended and the forearm pronated makes the hand face backwards behind the hip, the position in which a policeman or porter takes a tip.',
       },
     },
     {
@@ -1179,7 +1179,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives C, the dorsal scapular nerve, which is wrong: the dorsal scapular nerve comes off the C5 root, above the trunk. The upper trunk has two branches, the suprascapular nerve and the nerve to subclavius, and only the suprascapular is offered.',
       explanations: {
         A: 'The lateral pectoral nerve is a branch of the lateral cord, distal to the trunks.',
-        B: 'Correct. The suprascapular nerve leaves the upper trunk and supplies supraspinatus and infraspinatus, which is why an Erb’s lesion costs both the initiation of abduction and lateral rotation.',
+        B: 'The suprascapular nerve leaves the upper trunk and supplies supraspinatus and infraspinatus, which is why an Erb’s lesion costs both the initiation of abduction and lateral rotation.',
         C: 'The dorsal scapular nerve arises from the C5 root itself, before the upper trunk is formed, and so may survive a trunk lesion. It is the printed key on the sibling copy and it is wrong.',
         D: 'The long thoracic nerve also arises from the roots, C5, C6 and C7, and is likewise not a trunk branch.',
       },
@@ -1193,7 +1193,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is C, the dorsal scapular nerve, and it is wrong: that nerve arises from the C5 root, not from the trunk. The only branches of the upper trunk are the suprascapular nerve and the nerve to subclavius.',
       explanations: {
         A: 'The lateral pectoral nerve is a lateral cord branch.',
-        B: 'Correct. The suprascapular nerve is the upper trunk’s named branch and the reason supraspinatus and infraspinatus fail in Erb’s palsy.',
+        B: 'The suprascapular nerve is the upper trunk’s named branch and the reason supraspinatus and infraspinatus fail in Erb’s palsy.',
         C: 'A root branch, not a trunk branch. It is the printed key and it is wrong — and the distinction between root, trunk and cord branches is exactly what this item exists to test.',
         D: 'The long thoracic nerve is also a root branch, from C5, C6 and C7.',
       },
@@ -1209,7 +1209,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve is the other posterior cord branch and supplies triceps and the extensors of the forearm. It is the printed key here and it is wrong; a student who takes it will test elbow extension for a shoulder problem.',
         B: 'Serratus anterior rotates the scapula and governs abduction above ninety degrees, not below it.',
         C: 'The musculocutaneous nerve flexes the elbow.',
-        D: 'Correct. Deltoid’s middle fibres carry the arm from fifteen to ninety degrees, and deltoid is axillary.',
+        D: 'Deltoid’s middle fibres carry the arm from fifteen to ninety degrees, and deltoid is axillary.',
       },
     },
     {
@@ -1223,7 +1223,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve abducts nothing at the shoulder. Its echo in the stem of this copy is the extractor picking up a line from the page, not the examiner’s key.',
         B: 'The long thoracic nerve governs the range above ninety degrees, through scapular rotation.',
         C: 'The musculocutaneous nerve is the nerve of the anterior compartment of the arm.',
-        D: 'Correct. Loss of the fifteen-to-ninety range with a flattened shoulder contour is the axillary nerve.',
+        D: 'Loss of the fifteen-to-ninety range with a flattened shoulder contour is the axillary nerve.',
       },
     },
     {
@@ -1235,7 +1235,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives A, which pairs the right artery with the wrong nerve. The quadrangular space transmits the posterior circumflex humeral vessels and the axillary nerve; the radial nerve and the profunda brachii vessels go through the lower triangular space.',
       explanations: {
         A: 'The artery is right and the nerve is wrong. This pairing is the printed key on the sibling copy, and it is the trap the item is built around — the two spaces lie side by side and each carries an artery and a nerve.',
-        B: 'Correct. The axillary nerve and the posterior circumflex humeral vessels pass together through the quadrangular space to reach the deep surface of deltoid.',
+        B: 'The axillary nerve and the posterior circumflex humeral vessels pass together through the quadrangular space to reach the deep surface of deltoid.',
         C: 'The radial nerve and the profunda brachii artery are the contents of the lower triangular space, on the other side of the long head of triceps.',
         D: 'This pairs the artery of one space with the nerve of the other, and neither belongs to the quadrangular space as a pair.',
       },
@@ -1249,7 +1249,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, which names the posterior circumflex humeral artery with the radial nerve. The artery is correct and the nerve is not: the nerve in the quadrangular space is the axillary. The radial nerve leaves the axilla through the lower triangular space with the profunda brachii vessels.',
       explanations: {
         A: 'Right artery, wrong nerve. It is the printed key and it is wrong, and it is wrong in the way that matters clinically — the test for this space is deltoid and the badge patch of skin, not the wrist extensors.',
-        B: 'Correct. Axillary nerve and posterior circumflex humeral vessels together.',
+        B: 'Axillary nerve and posterior circumflex humeral vessels together.',
         C: 'That pair belongs to the lower triangular space.',
         D: 'Neither structure named is a quadrangular space content as a pair; the profunda brachii belongs to the triangular interval.',
       },
@@ -1262,7 +1262,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Pronator teres forms the medial boundary of the cubital fossa and the median nerve passes between its humeral and ulnar heads; a wound that transects the muscle’s origin at that border must cross the nerve.',
       explanations: {
-        A: 'Correct. The median nerve leaves the fossa by passing between the two heads of pronator teres, so the muscle and the nerve cannot be separated at this site.',
+        A: 'The median nerve leaves the fossa by passing between the two heads of pronator teres, so the muscle and the nerve cannot be separated at this site.',
         B: 'The musculocutaneous nerve has already become cutaneous at the lateral border of the biceps tendon, on the opposite side of the fossa.',
         C: 'Supination is supinator and biceps, neither of which is touched. Pronator teres is a pronator, so the movement at risk is pronation — the option names the opposite movement, which is what makes it plausible at speed.',
         D: 'The radial nerve lies at the lateral border of the fossa, as far from pronator teres as anything in the region.',
@@ -1279,7 +1279,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Winging of the scapula is serratus anterior, from the long thoracic nerve. It is the printed key here and it is wrong; both nerves affect abduction, which is what makes the swap easy, but they affect different ranges and different contours.',
         B: 'Wrist drop is radial.',
         C: 'Claw hand is ulnar, or median and ulnar together.',
-        D: 'Correct. Deltoid wastes, the rounded contour of the shoulder is lost, and the acromion stands out under the skin — the flat shoulder.',
+        D: 'Deltoid wastes, the rounded contour of the shoulder is lost, and the acromion stands out under the skin — the flat shoulder.',
       },
     },
     {
@@ -1290,7 +1290,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy; the copy asked four times, `loss-of-finger-s-abduction-and-adduction-results-from-lesion-d11780b8`, is keyed A. Abduction and adduction of the fingers are the dorsal and palmar interossei, all supplied by the deep branch of the ulnar nerve.',
       explanations: {
-        A: 'Correct. Every interosseous muscle is ulnar, which is why spreading the fingers is the bedside test of that nerve.',
+        A: 'Every interosseous muscle is ulnar, which is why spreading the fingers is the bedside test of that nerve.',
         B: 'The median nerve’s intrinsic muscles are the thenar three and the lateral two lumbricals, none of which spreads a finger.',
         C: 'The radial nerve supplies no intrinsic hand muscle.',
         D: 'The axillary nerve ends at the shoulder.',
@@ -1304,7 +1304,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is D, the axillary nerve, which cannot be right: the axillary nerve ends in deltoid and teres minor and has no representation below the shoulder. Abduction and adduction of the fingers are interosseous movements, and the interossei are ulnar.',
       explanations: {
-        A: 'Correct. The deep branch of the ulnar nerve supplies all four dorsal and all three palmar interossei.',
+        A: 'The deep branch of the ulnar nerve supplies all four dorsal and all three palmar interossei.',
         B: 'The median nerve does not move one finger relative to another.',
         C: 'The radial nerve extends the fingers together and abducts none of them.',
         D: 'The axillary nerve stops at the shoulder. It is the printed key here and it is impossible, which is a useful sign of how the keys on these garbled copies were produced.',
@@ -1318,7 +1318,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy. The interossei abduct and adduct the fingers and are supplied by the deep branch of the ulnar nerve, which is the answer keyed on the most-asked copy of this question.',
       explanations: {
-        A: 'Correct. Finger abduction and adduction are the interossei, and every interosseous is ulnar.',
+        A: 'Finger abduction and adduction are the interossei, and every interosseous is ulnar.',
         B: 'The median nerve’s hand muscles are the thenar three and the lateral two lumbricals.',
         C: 'The radial nerve supplies no small muscle of the hand.',
         D: 'The axillary nerve does not reach beyond the shoulder.',
@@ -1341,7 +1341,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is C, the radial nerve, which supplies no intrinsic muscle of the hand and cannot adduct a finger. Adduction of the fingers is the three palmar interossei, all supplied by the deep branch of the ulnar nerve.',
       explanations: {
-        A: 'Correct. The palmar interossei draw the fingers towards the middle finger and are ulnar, which is why a sheet of paper held between two fingers is an ulnar nerve test.',
+        A: 'The palmar interossei draw the fingers towards the middle finger and are ulnar, which is why a sheet of paper held between two fingers is an ulnar nerve test.',
         B: 'The median nerve supplies the thenar muscles and the lateral two lumbricals; the lumbricals flex the knuckles rather than closing the fingers.',
         C: 'The radial nerve extends the fingers, spreading them slightly as a by-product, but it supplies no muscle inside the hand. It is the printed key and it is wrong.',
         D: 'The musculocutaneous nerve ends in the arm and the skin of the lateral forearm.',
@@ -1356,7 +1356,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the radial nerve, and it is wrong. The radial nerve supplies the back of the hand and the proximal part of the backs of the lateral fingers; the tip of the index finger — pulp and nail bed — is median through its palmar digital branch. That is precisely why carpal tunnel syndrome disables fine manipulation.',
       explanations: {
         A: 'The superficial radial nerve stops short of the finger tips: on the dorsum its territory ends at about the level of the proximal interphalangeal joints, and the distal phalanges are median. It is the printed key and it is wrong.',
-        B: 'Correct. The palmar digital branch of the median nerve supplies the pulp of the index finger and wraps round to its nail bed, which is the surface that does the feeling in a pinch grip.',
+        B: 'The palmar digital branch of the median nerve supplies the pulp of the index finger and wraps round to its nail bed, which is the surface that does the feeling in a pinch grip.',
         C: 'The ulnar nerve supplies the little finger and the medial half of the ring finger, not the index.',
         D: 'The musculocutaneous nerve does not reach the hand.',
       },
@@ -1372,7 +1372,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve extends and abducts the thumb but cannot roll it across the palm; the thenar muscles are not its.',
         B: 'The ulnar nerve supplies adductor pollicis, which brings the thumb towards the palm in one plane. Adduction is not opposition.',
         C: 'The musculocutaneous nerve ends in the arm.',
-        D: 'Correct. Opponens pollicis is median, and losing opposition is the deficit that costs the hand its grip in carpal tunnel syndrome.',
+        D: 'Opponens pollicis is median, and losing opposition is the deficit that costs the hand its grip in carpal tunnel syndrome.',
       },
     },
     {
@@ -1395,7 +1395,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The word "cutaneous nerve of the forearm" is what makes this work: the medial cutaneous nerve of the forearm is a medial cord branch, and the lateral one is not. It is the printed key and it is wrong.',
         B: 'The musculocutaneous nerve is the lateral cord’s own terminal branch.',
         C: 'The lateral pectoral nerve is likewise lateral cord; the medial pectoral nerve is the medial cord’s.',
-        D: 'Correct. The ulnar nerve is the largest branch of the medial cord, C8 and T1.',
+        D: 'The ulnar nerve is the largest branch of the medial cord, C8 and T1.',
       },
     },
     {
@@ -1408,7 +1408,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The medial epicondyle is the larger and more prominent of the two epicondyles, which is why it is palpable and why it is the one that gets avulsed in children.',
         B: 'The musculocutaneous nerve crosses in front of the elbow well laterally, at the border of the biceps tendon, and is nowhere near the medial epicondyle.',
-        C: 'Correct. The ulnar nerve lies in a groove on the back of the medial epicondyle, against bone, which is what makes it palpable and vulnerable there.',
+        C: 'The ulnar nerve lies in a groove on the back of the medial epicondyle, against bone, which is what makes it palpable and vulnerable there.',
         D: 'The medial epicondyle gives the common flexor origin; it is the lateral epicondyle that gives the common extensor origin. Swapping the two is the standard error of this question.',
       },
     },
@@ -1422,7 +1422,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The medial epicondyle is the larger of the two.',
         B: 'The musculocutaneous nerve becomes cutaneous at the lateral side of the biceps tendon; nothing takes it medially.',
-        C: 'Correct. The ulnar nerve grooves the back of the medial epicondyle.',
+        C: 'The ulnar nerve grooves the back of the medial epicondyle.',
         D: 'Common flexor origin, not common extensor. The extensor origin is on the lateral epicondyle, which is the mirror-image fact the option trades on.',
       },
     },
@@ -1434,7 +1434,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The medial intermuscular septum is pierced by the ulnar nerve and the superior ulnar collateral artery; the radial nerve and the profunda brachii pierce the lateral septum, so option E cannot be right either.',
       explanations: {
-        A: 'Correct. The ulnar nerve pierces the medial septum about the middle of the arm to pass from the flexor compartment to the extensor one, and it is accompanied by the superior ulnar collateral artery.',
+        A: 'The ulnar nerve pierces the medial septum about the middle of the arm to pass from the flexor compartment to the extensor one, and it is accompanied by the superior ulnar collateral artery.',
         B: 'The radial nerve pierces the lateral intermuscular septum, going the other way — from the extensor compartment to the flexor side of the elbow. This is the swap the item exists to catch.',
         C: 'The median nerve stays in the anterior compartment throughout and pierces neither septum.',
         D: 'The profunda brachii accompanies the radial nerve, so it is a lateral septum structure — and it does not itself pierce the septum; its radial collateral branch does.',
@@ -1449,7 +1449,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. This copy has lost option B, but four options survive and the correct one is among them: the ulnar nerve pierces the medial intermuscular septum, accompanied by the superior ulnar collateral artery.',
       explanations: {
-        A: 'Correct. The ulnar nerve leaves the front of the arm through the medial septum to reach the back of the medial epicondyle.',
+        A: 'The ulnar nerve leaves the front of the arm through the medial septum to reach the back of the medial epicondyle.',
         C: 'The median nerve descends the whole arm in the anterior compartment and pierces nothing.',
         D: 'The profunda brachii belongs to the posterior compartment with the radial nerve, on the lateral side.',
         E: '"All of the above" cannot stand while the median nerve is in the list.',
@@ -1488,7 +1488,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Assign the hypothenar muscles to the ulnar nerve.',
       explanations: {
         A: 'The median nerve supplies the thenar eminence — the other side of the palm. Mirroring the two eminences onto the same nerve is exactly the mistake this option catches.',
-        B: 'Correct. Abductor, flexor and opponens digiti minimi are all supplied by the deep branch of the ulnar nerve.',
+        B: 'Abductor, flexor and opponens digiti minimi are all supplied by the deep branch of the ulnar nerve.',
         C: 'The radial nerve supplies no intrinsic muscle of the hand.',
         D: 'The hypothenar group has one nerve, not two. It is the thumb side of the hand that is shared, where the deep head of flexor pollicis brevis and adductor pollicis are ulnar.',
       },
@@ -1508,7 +1508,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Say which nerve fine manipulation depends on and why.',
       explanations: {
-        A: 'Correct. The median nerve carries opposition of the thumb and sensation from the pulps of the lateral three and a half fingers, and fine manipulation needs both — which is why it is sometimes called the labourer’s eye.',
+        A: 'The median nerve carries opposition of the thumb and sensation from the pulps of the lateral three and a half fingers, and fine manipulation needs both — which is why it is sometimes called the labourer’s eye.',
         B: 'The radial nerve positions the hand by extending the wrist. It is a nerve of posture rather than of precision, and it supplies nothing inside the hand.',
         C: 'The ulnar nerve supplies most of the intrinsic muscles and governs power grip and the spread of the fingers, but a pinch between thumb and index — the fine movement — is median.',
         D: 'The posterior interosseous nerve is purely motor to the deep extensors and carries no sensation at all.',
@@ -1522,7 +1522,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on either copy. The palm is divided between the median nerve laterally over two-thirds and the ulnar nerve medially over one-third, so numbness of the medial palm is an ulnar lesion.',
       explanations: {
-        A: 'Correct. The palmar cutaneous branch and the palmar digital branches of the ulnar nerve cover the medial third of the palm and the medial one and a half fingers.',
+        A: 'The palmar cutaneous branch and the palmar digital branches of the ulnar nerve cover the medial third of the palm and the medial one and a half fingers.',
         B: 'The radial nerve supplies no palmar skin whatever.',
         C: 'The median nerve supplies the lateral two-thirds — the other side of the same palm.',
         D: 'The superficial radial nerve is a nerve of the dorsum, and of its lateral part at that.',
@@ -1536,7 +1536,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The medial third of the palm is ulnar territory, which is the same conclusion reached on the sibling copy of this question.',
       explanations: {
-        A: 'Correct. The medial third of the palm is supplied by the ulnar nerve.',
+        A: 'The medial third of the palm is supplied by the ulnar nerve.',
         B: 'The radial nerve does not reach the palm.',
         C: 'The median nerve takes the lateral two-thirds.',
         D: 'The superficial radial nerve serves the lateral two-thirds of the dorsum, not the palm.',
@@ -1553,7 +1553,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The ulnar nerve is outside the fossa altogether, behind the medial epicondyle. It is the printed key and it is wrong.',
         B: 'The radial nerve lies at the lateral border of the fossa, beyond the lateral edge of the aponeurosis.',
         C: 'The median cubital vein lies superficial to the aponeurosis, which is the whole clinical point: the sheet is what keeps a needle in the vein out of the artery beneath.',
-        D: 'Correct. The median nerve and the brachial artery run deep to the bicipital aponeurosis, protected by it.',
+        D: 'The median nerve and the brachial artery run deep to the bicipital aponeurosis, protected by it.',
       },
     },
     {
@@ -1567,7 +1567,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The median nerve is in front, in the cubital fossa.',
         B: 'The interosseous recurrent artery ascends behind the lateral epicondyle, on the other side.',
         C: 'The musculocutaneous nerve has become cutaneous laterally, above the elbow.',
-        D: 'Correct. The ulnar nerve grooves the back of the medial epicondyle against bone.',
+        D: 'The ulnar nerve grooves the back of the medial epicondyle against bone.',
       },
     },
     {
@@ -1579,7 +1579,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is C, the ulnar nerve, which passes superficial to the retinaculum in the canal of Guyon — the books themselves say so on their own "structures passing superficial to the flexor retinaculum" items. What passes deep to it here is the tendon of flexor pollicis longus, in its own synovial sheath within the carpal tunnel.',
       explanations: {
         A: 'Palmaris longus is partly inserted into the retinaculum and its tendon crosses superficial to it. That is what makes it a landmark for the median nerve rather than a companion of it.',
-        B: 'Correct. Flexor pollicis longus passes through the carpal tunnel deep to the retinaculum, in a synovial sheath of its own separate from the common sheath of the other eight flexor tendons.',
+        B: 'Flexor pollicis longus passes through the carpal tunnel deep to the retinaculum, in a synovial sheath of its own separate from the common sheath of the other eight flexor tendons.',
         C: 'The ulnar nerve crosses over the retinaculum lateral to the pisiform. It is the printed key here and it contradicts the same books’ answer on their other flexor retinaculum questions.',
         D: 'The superficial radial nerve is on the back of the wrist entirely.',
       },
@@ -1593,7 +1593,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives the ulnar nerve, which the same books elsewhere place superficial to the retinaculum. The tendon of flexor pollicis longus is the one option that genuinely passes through the carpal tunnel.',
       explanations: {
         A: 'Palmaris longus lies superficial to the retinaculum and is attached to it.',
-        B: 'Correct. Flexor pollicis longus runs in the carpal tunnel in its own synovial sheath.',
+        B: 'Flexor pollicis longus runs in the carpal tunnel in its own synovial sheath.',
         C: 'The ulnar nerve passes over the retinaculum with the ulnar vessels.',
         D: 'The superficial radial nerve is dorsal.',
       },
@@ -1604,7 +1604,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Separate the roof of the cubital fossa from its contents.',
       explanations: {
-        A: 'Correct. The roof is skin and superficial fascia carrying the cephalic and basilic veins with the median cubital vein between them, plus deep fascia reinforced by the bicipital aponeurosis.',
+        A: 'The roof is skin and superficial fascia carrying the cephalic and basilic veins with the median cubital vein between them, plus deep fascia reinforced by the bicipital aponeurosis.',
         B: 'The radial nerve is a content, at the lateral border of the fossa, deep to the roof.',
         C: 'The lumbricals are in the palm. The option is nowhere near the region and is the kind of distractor that is easy to eliminate and worth eliminating deliberately.',
         D: 'The median nerve is a content, the most medial one, lying under the bicipital aponeurosis rather than in it.',
@@ -1619,7 +1619,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the axillary nerve, which ends in deltoid and teres minor at the shoulder and has no representation in the hand. The clean copy of this question is keyed B: opposition is opponens pollicis, a thenar muscle on the median nerve.',
       explanations: {
         A: 'The axillary nerve stops at the shoulder. It is the printed key here and it is impossible.',
-        B: 'Correct. Opponens pollicis takes the recurrent branch of the median nerve.',
+        B: 'Opponens pollicis takes the recurrent branch of the median nerve.',
         C: 'The radial nerve extends and abducts the thumb but cannot oppose it.',
         D: 'The ulnar nerve adducts the thumb through adductor pollicis; adduction and opposition are different movements.',
       },
@@ -1632,7 +1632,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is D, wrist drop, which belongs to the radial nerve and is impossible from a deltoid palsy. Deltoid gives the shoulder its rounded contour, so its paralysis flattens the shoulder — and the stem of this copy carries an echo of option a, "Flat shoulder", which is the answer the page actually printed.',
       explanations: {
-        A: 'Correct. With deltoid wasted the acromion becomes prominent and the rounded curve of the shoulder is lost.',
+        A: 'With deltoid wasted the acromion becomes prominent and the rounded curve of the shoulder is lost.',
         B: 'Winging of the scapula follows paralysis of serratus anterior, from the long thoracic nerve.',
         C: 'Claw hand is ulnar, or median and ulnar together.',
         D: 'Wrist drop is radial. It is the printed key here and it is wrong; deltoid has no action below the shoulder.',
@@ -1646,7 +1646,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy; the sibling `paralysis-of-the-serratus-anterior-muscle-causes-ipka-ac-ad-8337abb4` is keyed A. Serratus anterior holds the medial border of the scapula against the chest wall, so its paralysis lets that border stand off.',
       explanations: {
-        A: 'Correct. The medial border of the scapula lifts away from the chest wall, most obviously when the patient pushes forwards against a wall.',
+        A: 'The medial border of the scapula lifts away from the chest wall, most obviously when the patient pushes forwards against a wall.',
         B: 'Claw hand is a hand deformity from loss of the intrinsic muscles.',
         C: 'Ape hand is median, from wasting of the thenar eminence.',
         D: 'Wrist drop is radial.',
@@ -1659,7 +1659,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Name the deformity that follows paralysis of serratus anterior.',
       explanations: {
-        A: 'Correct. Serratus anterior holds the scapula to the chest wall and rotates it upwards; without it the medial border wings.',
+        A: 'Serratus anterior holds the scapula to the chest wall and rotates it upwards; without it the medial border wings.',
         B: 'Claw hand belongs to the small muscles of the hand.',
         C: 'Ape hand is median.',
         E: 'The policeman’s tip position belongs to Erb’s palsy, which is a lesion of the upper trunk rather than of the long thoracic nerve alone.',
@@ -1684,7 +1684,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The axillary nerve gives a flat shoulder.',
         B: 'The median nerve gives the ape hand; with the ulnar it gives a complete claw, but alone it claws nothing.',
-        C: 'Correct. The interossei and the medial two lumbricals are ulnar, so the medial two fingers claw while the lateral two are held by their median lumbricals.',
+        C: 'The interossei and the medial two lumbricals are ulnar, so the medial two fingers claw while the lateral two are held by their median lumbricals.',
         D: 'The radial nerve gives wrist drop.',
       },
     },
@@ -1744,7 +1744,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Wrist drop is radial. It is the printed key here and it is wrong; a student who learns it will look for a flexor lesion in a patient whose extensors are dead.',
         B: 'Ape hand is median. The ulnar deformity is the partial claw.',
         C: 'The carpal tunnel carries the median nerve; the ulnar nerve passes over the retinaculum.',
-        D: 'Correct. Deltoid is axillary, so an axillary lesion abolishes abduction through deltoid’s range.',
+        D: 'Deltoid is axillary, so an axillary lesion abolishes abduction through deltoid’s range.',
       },
     },
     {
@@ -1755,7 +1755,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy — only a stray echo of option a in the stem, which is an extraction artefact. The keyed sibling `regarding-radial-nerve-injury-choose-the-correct-answer-117bd810` gives A, and A is correct: the nerve lies in the spiral groove against the shaft of the humerus.',
       explanations: {
-        A: 'Correct. A fracture of the shaft of the humerus is the classic cause of a radial nerve lesion, because the nerve is applied directly to the bone in the spiral groove.',
+        A: 'A fracture of the shaft of the humerus is the classic cause of a radial nerve lesion, because the nerve is applied directly to the bone in the spiral groove.',
         B: 'A posterior interosseous lesion gives finger drop without wrist drop: extensor carpi radialis longus is supplied above the division and keeps the wrist up.',
         C: 'The superficial branch is purely sensory and drops nothing.',
         D: 'The posterior interosseous nerve carries no sensory fibres, so its injury is accompanied by no sensory loss.',
@@ -1770,7 +1770,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of flexor carpi ulnaris, then descends on flexor digitorum profundus deep to that muscle. It passes behind the medial, not the lateral, epicondyle, and it never lies between the superficialis and profundus — that plane belongs to the median nerve.',
       explanations: {
         A: 'Behind the lateral epicondyle is the wrong side of the elbow entirely; that is where the interosseous recurrent artery ascends.',
-        B: 'Correct. The two heads of flexor carpi ulnaris, from the medial epicondyle and the olecranon, form the arch the nerve enters the forearm through.',
+        B: 'The two heads of flexor carpi ulnaris, from the medial epicondyle and the olecranon, form the arch the nerve enters the forearm through.',
         C: 'Palmaris longus is a superficial muscle in the middle of the front of the forearm; the ulnar nerve lies deep and medial to it, on the profundus.',
         D: 'The plane between flexor digitorum superficialis and profundus carries the median nerve, and confusing the two nerves’ planes is the point of this option.',
       },
@@ -1783,7 +1783,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The medial cutaneous nerve of the forearm is a branch of the medial cord, not the posterior cord. The posterior cord supplies the back of the arm and forearm through the radial nerve. This copy has cut the option short at "of", but the error is in the cord it names.',
         B: 'The skin of the lateral side of the arm is supplied by the axillary and radial nerves, both posterior cord branches, and above them by the supraclavicular nerves from the cervical plexus. The lateral cord supplies skin only through the musculocutaneous nerve, and that is over the forearm.',
-        C: 'Correct. The dorsum of the hand is divided between the superficial branch of the radial nerve laterally and the dorsal branch of the ulnar nerve medially.',
+        C: 'The dorsum of the hand is divided between the superficial branch of the radial nerve laterally and the dorsal branch of the ulnar nerve medially.',
         D: 'The medial one and a half fingers are ulnar. It is the lateral three and a half that are median, and swapping the two fractions is the standard error of this leaf.',
       },
     },
@@ -1797,7 +1797,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Opposition of the little finger belongs to opponens digiti minimi, a hypothenar muscle supplied by the ulnar nerve.',
         B: 'Supination is supinator, from the radial nerve, and biceps, from the musculocutaneous. The median nerve is the nerve of pronation.',
-        C: 'Correct. The palmar cutaneous branch and the palmar digital branches of the median nerve cover the lateral two-thirds of the palm.',
+        C: 'The palmar cutaneous branch and the palmar digital branches of the median nerve cover the lateral two-thirds of the palm.',
         D: 'The wrist deviates towards the ulnar side, because flexor carpi ulnaris is the only wrist flexor left.',
       },
     },
@@ -1811,7 +1811,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The little finger is opposed by a hypothenar muscle, which is ulnar.',
         B: 'Supination survives a median lesion entirely.',
-        C: 'Correct. Sensation over the lateral two-thirds of the palm is median.',
+        C: 'Sensation over the lateral two-thirds of the palm is median.',
         D: 'The deviation is ulnar, not radial: flexor carpi ulnaris is what is left to pull.',
       },
     },
@@ -1834,7 +1834,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A fracture of the shaft of the humerus injures the radial nerve. The median nerve is endangered at the elbow, by a supracondylar fracture.',
         B: 'Claw hand is ulnar; the median deformity is the ape hand.',
-        C: 'Correct. Opponens pollicis is median, and losing opposition is what disables the pinch grip.',
+        C: 'Opponens pollicis is median, and losing opposition is what disables the pinch grip.',
         D: 'The lateral two-thirds of the dorsum of the hand is superficial radial territory. Median sensation on the back of the hand covers only the terminal phalanges of the lateral fingers.',
       },
     },
@@ -1849,7 +1849,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Gripping a piece of paper between thumb and index is exactly what an ulnar lesion prevents, because adductor pollicis is dead — the failure to do it, with the thumb flexing instead, is Froment’s sign.',
         B: 'The lateral third of the hand is median. The ulnar nerve takes the medial third.',
         C: 'The lateral three and a half fingers are median territory. The ulnar nerve takes the medial one and a half.',
-        D: 'Correct, and counter-intuitive, which is why it is called the ulnar paradox: a higher lesion also kills the medial half of flexor digitorum profundus, and without that muscle pulling there is less force to flex the interphalangeal joints into a claw.',
+        D: 'Counter-intuitive, which is why it is called the ulnar paradox: a higher lesion also kills the medial half of flexor digitorum profundus, and without that muscle pulling there is less force to flex the interphalangeal joints into a claw.',
       },
     },
     {
@@ -1872,7 +1872,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Give the commonest site of ulnar injury and the deficits that follow it.',
       explanations: {
-        A: 'Correct. Behind the medial epicondyle the nerve lies against bare bone in a groove, held only by skin and fascia, which is why fracture, dislocation and simple pressure all reach it there.',
+        A: 'Behind the medial epicondyle the nerve lies against bare bone in a groove, held only by skin and fascia, which is why fracture, dislocation and simple pressure all reach it there.',
         B: 'The numbness of an ulnar lesion is on the medial part of the palm and the medial one and a half fingers. The lateral part of the palm is median.',
         C: 'The waiter’s or porter’s tip hand belongs to Erb’s palsy, an upper trunk lesion. The ulnar deformity is the partial claw.',
         D: 'Abduction of the shoulder is deltoid, from the axillary nerve. It is abduction of the fingers, not of the arm, that an ulnar lesion impairs — and the option trades on that single word.',
@@ -1887,7 +1887,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the median nerve, which is the one structure that certainly passes deep to the retinaculum — the whole basis of carpal tunnel syndrome. What crosses superficial to it is the ulnar nerve, with the ulnar vessels, in the canal of Guyon.',
       explanations: {
         A: 'The median nerve passes deep to the retinaculum, inside the carpal tunnel. It is the printed key here and it is the exact opposite of the truth.',
-        B: 'Correct. The ulnar nerve and vessels cross over the retinaculum lateral to the pisiform, which is why an ulnar lesion at the wrist is not carpal tunnel syndrome and is not relieved by dividing the retinaculum.',
+        B: 'The ulnar nerve and vessels cross over the retinaculum lateral to the pisiform, which is why an ulnar lesion at the wrist is not carpal tunnel syndrome and is not relieved by dividing the retinaculum.',
         C: 'The tendons of flexor digitorum superficialis run in the carpal tunnel in the common synovial sheath.',
         D: 'Flexor pollicis longus also runs in the tunnel, in a sheath of its own.',
       },
@@ -1901,7 +1901,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives the median nerve, which passes deep to the retinaculum rather than over it. The ulnar nerve is the structure that crosses superficial to it.',
       explanations: {
         A: 'The median nerve is inside the carpal tunnel, deep to the retinaculum.',
-        B: 'Correct. The ulnar nerve crosses over the retinaculum with the ulnar artery.',
+        B: 'The ulnar nerve crosses over the retinaculum with the ulnar artery.',
         C: 'The superficialis tendons are in the tunnel.',
         D: 'Flexor pollicis longus is in the tunnel in its own sheath.',
       },
@@ -1914,7 +1914,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy or on its sibling. The quadrangular space transmits the axillary nerve with the posterior circumflex humeral vessels, which is also what the keyed copies of the closely worded "injury to quadrangular intermuscular space" item establish.',
       explanations: {
-        A: 'Correct. Nerve and artery wind round the surgical neck together through this space.',
+        A: 'Nerve and artery wind round the surgical neck together through this space.',
         B: 'The anterior circumflex humeral artery passes in front of the surgical neck, outside the space.',
         C: 'The circumflex scapular artery goes through the upper triangular space, on the medial side of the long head of triceps.',
         D: 'The musculocutaneous nerve leaves the axilla forwards through coracobrachialis.',
@@ -1927,7 +1927,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the structure in contact with the back of the medial epicondyle.',
       explanations: {
         A: 'The radial nerve is on the lateral side, having pierced the lateral intermuscular septum above the elbow.',
-        B: 'Correct. The ulnar nerve lies in a groove on the back of the medial epicondyle, which is where it can be rolled under a finger and where a blow gives the pins and needles of the "funny bone".',
+        B: 'The ulnar nerve lies in a groove on the back of the medial epicondyle, which is where it can be rolled under a finger and where a blow gives the pins and needles of the "funny bone".',
         C: 'The median nerve is in front of the joint, in the cubital fossa.',
         D: 'The axillary nerve ends at the shoulder.',
       },
@@ -1941,7 +1941,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is D, the ulnar nerve, which passes behind the medial epicondyle and is outside the fossa altogether. The contents are the median nerve, the brachial artery with the origins of the radial and ulnar arteries, the biceps tendon and the radial nerve; of the four options only the median nerve is one of them.',
       explanations: {
         A: 'Brachioradialis is the lateral boundary of the triangle rather than a content. This copy spells it "Bracioradialis", which is an OCR slip and not a different word.',
-        B: 'Correct. The median nerve is the most medial content of the fossa.',
+        B: 'The median nerve is the most medial content of the fossa.',
         C: 'The musculocutaneous nerve has already pierced the deep fascia above the elbow and lies in the roof as a cutaneous nerve.',
         D: 'The ulnar nerve is behind the medial epicondyle, outside the fossa. It is the printed key here and it is wrong.',
       },
@@ -1971,7 +1971,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve supplies the elbow joint. It is the printed key here and it is wrong; a student taking it would conclude that the nerve of the extensor compartment skips the joint the extensors cross.',
         B: 'The ulnar nerve is in contact with the capsule behind the medial epicondyle and supplies the joint.',
         C: 'The median nerve crosses the front of the joint and supplies it.',
-        D: 'Correct. The axillary nerve ends in deltoid and teres minor; by Hilton’s law it can supply the shoulder and nothing below it.',
+        D: 'The axillary nerve ends in deltoid and teres minor; by Hilton’s law it can supply the shoulder and nothing below it.',
       },
     },
     {
@@ -1984,7 +1984,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve is against the shaft, in the spiral groove.',
         B: 'The ulnar nerve touches the humerus only at the medial epicondyle.',
-        C: 'Correct. The axillary nerve circles the surgical neck with the posterior circumflex humeral vessels.',
+        C: 'The axillary nerve circles the surgical neck with the posterior circumflex humeral vessels.',
         D: 'The musculocutaneous nerve pierces coracobrachialis and lies nowhere against the bone.',
       },
     },
@@ -1996,7 +1996,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Of the four options only the radial nerve lies against the humerus, in the spiral groove on the back of the shaft; the other three run in soft tissue throughout.',
       explanations: {
-        A: 'Correct. The spiral groove is a shallow trough on the back of the shaft, and the radial nerve lies in it with the profunda brachii vessels — which is why a mid-shaft fracture is the classic cause of wrist drop.',
+        A: 'The spiral groove is a shallow trough on the back of the shaft, and the radial nerve lies in it with the profunda brachii vessels — which is why a mid-shaft fracture is the classic cause of wrist drop.',
         B: 'The musculocutaneous nerve pierces coracobrachialis and runs between biceps and brachialis, in muscle rather than on bone.',
         C: 'The median nerve descends the medial side of the arm in the neurovascular bundle, separated from the bone by brachialis.',
         D: 'The anterior interosseous nerve runs on the interosseous membrane of the forearm, and the question is about the humerus.',
@@ -2010,7 +2010,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve is related to the shaft, not the neck. It is the commonest wrong answer because it is the nerve most students associate with the humerus.',
         B: 'The ulnar nerve is at the medial epicondyle, the other end of the bone.',
-        C: 'Correct. The axillary nerve winds round the surgical neck, which is why deltoid must be tested after a fracture there.',
+        C: 'The axillary nerve winds round the surgical neck, which is why deltoid must be tested after a fracture there.',
         D: 'The musculocutaneous nerve does not touch the humerus.',
       },
     },
@@ -2024,7 +2024,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve belongs to the spiral groove on the shaft.',
         B: 'The ulnar nerve is related to the medial epicondyle.',
-        C: 'Correct. The axillary nerve passes through the quadrangular space and round the surgical neck.',
+        C: 'The axillary nerve passes through the quadrangular space and round the surgical neck.',
         D: 'The musculocutaneous nerve has no bony relation in the arm.',
       },
     },
@@ -2037,7 +2037,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, brachioradialis, which is the lateral boundary of the fossa rather than a content. The contents are the median nerve, the brachial artery with the origins of its two terminal branches, the biceps tendon and the radial nerve; the median nerve is the only one of the four options among them. The three copies of this question in the bank carry three different keys between them, which is itself a reason to settle it from the anatomy.',
       explanations: {
         A: 'Brachioradialis makes the lateral wall of the triangle. It is the printed key here and it is a boundary, not a content — and the distinction between what encloses a space and what lies in it is exactly what the question tests.',
-        B: 'Correct. The median nerve lies medially in the fossa, on the brachialis part of its floor.',
+        B: 'The median nerve lies medially in the fossa, on the brachialis part of its floor.',
         C: 'The musculocutaneous nerve pierces the deep fascia above the elbow and lies in the roof.',
         D: 'The ulnar nerve is behind the medial epicondyle, outside the fossa.',
       },
@@ -2051,7 +2051,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy. Option B has been lost in extraction but four options survive, and the median nerve is among them — it is the only structure in the list that passes deep to the retinaculum.',
       explanations: {
         A: 'The ulnar nerve crosses superficial to the retinaculum in the canal of Guyon.',
-        C: 'Correct. The median nerve is the one nerve inside the carpal tunnel, and compressing it there is carpal tunnel syndrome.',
+        C: 'The median nerve is the one nerve inside the carpal tunnel, and compressing it there is carpal tunnel syndrome.',
         D: 'The palmar cutaneous branch of the median nerve arises in the forearm and crosses over the retinaculum, which is why it is spared in carpal tunnel syndrome and the palm is not numb.',
         E: 'Palmaris longus is inserted into the retinaculum and its tendon lies superficial to it.',
       },
@@ -2088,7 +2088,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy — only a stray echo of option a in the stem. The deep branch of the ulnar nerve supplies all seven interossei; the superficial branch supplies palmaris brevis alone.',
       explanations: {
-        A: 'Correct. All four dorsal and all three palmar interossei take the deep branch of the ulnar nerve.',
+        A: 'All four dorsal and all three palmar interossei take the deep branch of the ulnar nerve.',
         B: 'The superficial branch supplies one muscle, palmaris brevis, and is otherwise cutaneous. Choosing it means knowing the nerve and not the branch.',
         C: 'The median nerve’s intrinsic muscles are the thenar three and the lateral two lumbricals.',
         D: 'The posterior interosseous nerve is in the forearm and shares only a name with the interossei of the hand — which is precisely why it is offered here.',
@@ -2102,7 +2102,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is B, the superficial branch, and it is wrong: the superficial branch of the ulnar nerve supplies palmaris brevis and skin. Every interosseous muscle takes the deep branch.',
       explanations: {
-        A: 'Correct. The deep branch is the motor branch of the ulnar nerve in the hand.',
+        A: 'The deep branch is the motor branch of the ulnar nerve in the hand.',
         B: 'The superficial branch is almost entirely cutaneous. It is the printed key here and it is wrong.',
         C: 'The median nerve supplies no interosseous muscle.',
         D: 'The posterior interosseous nerve is a forearm nerve to the deep extensors; the name is the only connection.',
@@ -2116,7 +2116,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy, and the one keyed copy of the question gives the superficial branch, which is wrong. The interossei are supplied by the deep branch of the ulnar nerve.',
       explanations: {
-        A: 'Correct. The deep branch supplies all seven interossei on its way across the palm.',
+        A: 'The deep branch supplies all seven interossei on its way across the palm.',
         B: 'The superficial branch supplies palmaris brevis alone.',
         C: 'The median nerve has no interosseous muscle.',
         D: 'The posterior interosseous nerve supplies the deep extensors of the forearm.',
@@ -2132,7 +2132,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve gives the posterior cutaneous nerve of the forearm, and the lower lateral cutaneous nerve of the arm. It is the nerve of the back of the limb, not of the lateral forearm.',
         B: 'The axillary nerve gives the upper lateral cutaneous nerve of the arm and stops at the shoulder. The similarity of the names is the trap.',
-        C: 'Correct. The lateral cutaneous nerve of the forearm is the terminal, purely sensory continuation of the musculocutaneous nerve.',
+        C: 'The lateral cutaneous nerve of the forearm is the terminal, purely sensory continuation of the musculocutaneous nerve.',
         D: 'The median nerve gives a palmar cutaneous branch at the wrist and digital branches in the hand; it supplies no skin on the forearm.',
       },
     },
@@ -2142,7 +2142,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Pair the surgical neck of the humerus with the axillary nerve.',
       explanations: {
-        A: 'Correct. The axillary nerve is wrapped round the surgical neck and is torn or stretched when it breaks.',
+        A: 'The axillary nerve is wrapped round the surgical neck and is torn or stretched when it breaks.',
         B: 'The ulnar nerve is at the medial epicondyle.',
         C: 'The radial nerve is at the shaft. It is the answer to the commoner version of this question and the wrong answer to this one.',
         D: 'The median nerve is endangered at the elbow, by a supracondylar fracture.',
@@ -2156,7 +2156,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The axillary nerve is at the surgical neck, at the upper end.',
         B: 'The ulnar nerve is at the medial epicondyle, at the lower end.',
-        C: 'Correct. The spiral groove crosses the back of the middle of the shaft and carries the radial nerve against the bone.',
+        C: 'The spiral groove crosses the back of the middle of the shaft and carries the radial nerve against the bone.',
         D: 'The median nerve is not applied to the shaft at any point.',
       },
     },
@@ -2169,7 +2169,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The dorsum of the hand is divided between the superficial branch of the radial nerve over the lateral two-thirds and the dorsal branch of the ulnar nerve over the medial third.',
       explanations: {
         A: 'The median nerve reaches the dorsum only over the terminal phalanges of the lateral three and a half fingers.',
-        B: 'Correct. The dorsal cutaneous branch of the ulnar nerve leaves the nerve above the wrist, passes behind the ulna and supplies the medial third of the back of the hand and the backs of the medial one and a half fingers.',
+        B: 'The dorsal cutaneous branch of the ulnar nerve leaves the nerve above the wrist, passes behind the ulna and supplies the medial third of the back of the hand and the backs of the medial one and a half fingers.',
         C: 'The radial nerve takes the lateral two-thirds — the larger share, and the other one.',
         D: 'The musculocutaneous nerve stops at the wrist.',
       },
@@ -2182,7 +2182,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy; the keyed sibling gives the anterior interosseous nerve, which lies deep on the interosseous membrane and is not palpable or visible at the wrist. The median nerve lies immediately deep and slightly lateral to the palmaris longus tendon at the wrist, which is what makes that tendon the landmark for it.',
       explanations: {
-        A: 'Correct. The median nerve is directly under the palmaris longus tendon at the wrist, which is why the tendon is used to site a median nerve block and why a wrist laceration in that line cuts the nerve.',
+        A: 'The median nerve is directly under the palmaris longus tendon at the wrist, which is why the tendon is used to site a median nerve block and why a wrist laceration in that line cuts the nerve.',
         B: 'The anterior interosseous nerve is deep in the forearm on the interosseous membrane and does not reach the wrist superficially.',
         C: 'The posterior interosseous nerve is on the back of the forearm.',
         D: 'The ulnar nerve is guided by the flexor carpi ulnaris tendon and the pisiform, on the other side of the wrist. Confusing the two tendon landmarks is the point of this option.',
@@ -2196,7 +2196,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is B, the anterior interosseous nerve, and it is wrong: that nerve runs deep on the interosseous membrane with the anterior interosseous artery and is nowhere near a superficial tendon. The nerve palmaris longus points to is the median.',
       explanations: {
-        A: 'Correct. The median nerve lies deep to the palmaris longus tendon at the wrist.',
+        A: 'The median nerve lies deep to the palmaris longus tendon at the wrist.',
         B: 'The anterior interosseous nerve is a deep branch of the median nerve in the forearm and has no surface landmark. It is the printed key here and it is wrong.',
         C: 'The posterior interosseous nerve is in the extensor compartment.',
         D: 'The ulnar nerve is found beside the flexor carpi ulnaris tendon, medially.',
@@ -2212,7 +2212,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The anterior interosseous nerve runs deep on the interosseous membrane.',
         B: 'The posterior interosseous nerve is in the back of the forearm.',
-        C: 'Correct. The median nerve is immediately deep to the palmaris longus tendon, which is why that tendon is the landmark for it.',
+        C: 'The median nerve is immediately deep to the palmaris longus tendon, which is why that tendon is the landmark for it.',
         D: 'The ulnar nerve is guided by the flexor carpi ulnaris tendon and the pisiform.',
         E: 'The radial nerve at the wrist is represented only by its superficial branch, on the back of the wrist in the floor of the anatomical snuff box.',
       },
@@ -2236,7 +2236,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'C6 to C8 is neither end of the nerve. It is the printed key and it is wrong.',
         B: 'The same root value as A with "root" in the singular — two printings of one distractor.',
-        C: 'Correct. The radial nerve carries C5, C6, C7, C8 and T1.',
+        C: 'The radial nerve carries C5, C6, C7, C8 and T1.',
         D: 'C5 to C8 stops one root short. Dropping T1 is the near miss the examiner is testing for, because it changes which lesions are predicted to affect the nerve.',
       },
     },
@@ -2251,7 +2251,7 @@ export const LEAF: McqLeafSeed = {
         A: 'C5 alone is the root value of the dorsal scapular nerve, which is the neighbouring root branch.',
         B: 'C6 alone belongs to no named nerve of the plexus.',
         C: 'C7 alone is the whole of the middle trunk, not of this nerve.',
-        D: 'Correct. C5, C6 and C7 — three roots, which is why the nerve is called long and why it comes off before the trunks form.',
+        D: 'C5, C6 and C7 — three roots, which is why the nerve is called long and why it comes off before the trunks form.',
         E: 'C5 to C8 overshoots by a root; the lower trunk contributes nothing to serratus anterior.',
       },
     },
@@ -2275,7 +2275,7 @@ export const LEAF: McqLeafSeed = {
         A: 'C5 alone belongs to the dorsal scapular nerve.',
         B: 'C6 alone is not the root value of any named branch.',
         C: 'C7 alone is the middle trunk.',
-        D: 'Correct. C5, C6 and C7, taken from the roots before the trunks are formed.',
+        D: 'C5, C6 and C7, taken from the roots before the trunks are formed.',
         E: 'C5 to C8 adds a root the nerve does not carry.',
       },
     },
@@ -2286,7 +2286,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the attachment and the nerve of serratus anterior, and say what it actually does.',
       explanations: {
         A: 'The digitations are eight but they arise from the upper eight ribs. Getting the number right and the level wrong is what makes this the most-chosen distractor.',
-        B: 'Correct. The insertion runs along the whole costal aspect of the medial border of the scapula, which is why the border wings when the muscle fails.',
+        B: 'The insertion runs along the whole costal aspect of the medial border of the scapula, which is why the border wings when the muscle fails.',
         C: 'The thoracodorsal nerve is for latissimus dorsi. Serratus anterior takes the long thoracic nerve, which lies on its own outer surface.',
         D: 'Serratus anterior protracts and upwardly rotates the scapula; the powerful extensor of the shoulder is latissimus dorsi.',
       },
@@ -2298,7 +2298,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as printed.',
       explanations: {},
       exclude: true,
-      excludeReason: 'A reviewer problem, not a scan problem: two options are true. The shoulder joint is supplied by the axillary nerve (option B, the printed key), by the suprascapular nerve (option C) and by the lateral pectoral nerve, which is what the department’s own concept states. A question asking for one of them while offering two cannot be sat. The medial pectoral and musculocutaneous options are genuine distractors — the first is the wrong pectoral nerve, the second stops at the elbow — so the item works once either B or C is replaced. Excluded together with `the-shoulder-joint-is-innervated-by-twigs-from-9a42e82d`.',
+      excludeReason: 'A reviewer problem, not a scan problem: two options are true. The shoulder joint is supplied by the axillary nerve (option B, the printed key), by the suprascapular nerve (option C) and by the lateral pectoral nerve — all three documented together. A question asking for one of them while offering two cannot be sat. The medial pectoral and musculocutaneous options are genuine distractors — the first is the wrong pectoral nerve, the second stops at the elbow — so the item works once either B or C is replaced. Excluded together with `the-shoulder-joint-is-innervated-by-twigs-from-9a42e82d`.',
     },
     {
       key: 'the-trapezius-muscle-is-supplied-by-the-b568888c',
@@ -2309,7 +2309,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Trapezius is the one muscle acting on the shoulder girdle that is not supplied from the brachial plexus: its motor supply is the spinal root of the accessory nerve, with C3 and C4 carrying sensation.',
       explanations: {
         A: 'The cranial root of the accessory nerve joins the vagus and is distributed to the muscles of the palate, pharynx and larynx. Naming the right nerve and the wrong root is the whole of this distractor, and the two roots are offered side by side for that reason.',
-        B: 'Correct. The spinal root of the accessory nerve descends into the neck and supplies sternocleidomastoid and then trapezius, which is why a lymph node biopsy in the posterior triangle can drop the shoulder.',
+        B: 'The spinal root of the accessory nerve descends into the neck and supplies sternocleidomastoid and then trapezius, which is why a lymph node biopsy in the posterior triangle can drop the shoulder.',
         C: 'The long thoracic nerve supplies serratus anterior.',
         D: 'The dorsal scapular nerve supplies the rhomboids and levator scapulae, which lie deep to trapezius and are the muscles most easily confused with it.',
         E: 'The thoracodorsal nerve supplies latissimus dorsi.',
@@ -2324,7 +2324,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is C, that the posterior compartment contains the musculocutaneous nerve, which is false: the musculocutaneous nerve pierces coracobrachialis and runs between biceps and brachialis, entirely within the anterior compartment. The posterior compartment contains triceps and anconeus with the radial nerve, and its motor supply is radial.',
       explanations: {
         A: 'The median nerve supplies no muscle in the arm at all, in either compartment.',
-        B: 'Correct. Every head of triceps and anconeus is supplied by the radial nerve, which is the general rule that the posterior cord and its branches serve the extensor side.',
+        B: 'Every head of triceps and anconeus is supplied by the radial nerve, which is the general rule that the posterior cord and its branches serve the extensor side.',
         C: 'The musculocutaneous nerve is in the anterior compartment throughout. It is the printed key here and it is wrong — the nerve that traverses the posterior compartment is the radial.',
         D: 'Coracobrachialis is an anterior compartment muscle, supplied by the musculocutaneous nerve which pierces it.',
       },
@@ -2339,7 +2339,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Abduction has two muscles from two nerves — abductor pollicis longus from the radial nerve and abductor pollicis brevis from the median — so a radial lesion weakens it without abolishing it. It is the printed key and it is the near miss the word "totally" exists to exclude.',
         B: 'Adduction is adductor pollicis, supplied by the deep branch of the ulnar nerve, and survives a radial lesion untouched.',
-        C: 'Correct. Extensor pollicis longus and brevis are the only extensors of the thumb and both are radial, so extension is lost completely — the thumb cannot be lifted out of the palm.',
+        C: 'Extensor pollicis longus and brevis are the only extensors of the thumb and both are radial, so extension is lost completely — the thumb cannot be lifted out of the palm.',
         D: 'Opposition is opponens pollicis, a median muscle, and is unaffected.',
       },
     },
@@ -2352,7 +2352,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the ulnar nerve, which the same books place superficial to the retinaculum on their own "structures passing superficial to the flexor retinaculum" items — a nerve cannot both cross over the band and pierce it. The structure that runs within the retinaculum is the tendon of flexor carpi radialis, which occupies a compartment formed by a split in its lateral attachment.',
       explanations: {
         A: 'The ulnar nerve crosses superficial to the retinaculum in the canal of Guyon. It is the printed key here, and it contradicts the answer these same books key on their other flexor retinaculum questions.',
-        B: 'Correct. The lateral attachment of the retinaculum splits into two layers to enclose the flexor carpi radialis tendon in its own compartment as it runs to the base of the second metacarpal.',
+        B: 'The lateral attachment of the retinaculum splits into two layers to enclose the flexor carpi radialis tendon in its own compartment as it runs to the base of the second metacarpal.',
         C: 'The palmar cutaneous branch of the median nerve passes superficial to the retinaculum, which is why the skin of the palm keeps its sensation in carpal tunnel syndrome.',
         D: 'Flexor pollicis longus passes deep to the retinaculum in the carpal tunnel, in its own synovial sheath.',
       },
@@ -2366,7 +2366,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives the ulnar nerve, which passes over the retinaculum rather than through it. The tendon of flexor carpi radialis is the structure that runs in a compartment within the retinaculum’s lateral attachment.',
       explanations: {
         A: 'The ulnar nerve is superficial to the retinaculum.',
-        B: 'Correct. A split in the lateral attachment of the retinaculum makes a tunnel for the flexor carpi radialis tendon alone.',
+        B: 'A split in the lateral attachment of the retinaculum makes a tunnel for the flexor carpi radialis tendon alone.',
         C: 'The palmar cutaneous branch of the median nerve crosses superficial to it.',
         D: 'Flexor pollicis longus is inside the carpal tunnel, deep to the retinaculum.',
       },
@@ -2382,7 +2382,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The long thoracic nerve arises from the roots C5, C6 and C7.',
         B: 'The nerve to subclavius is an upper trunk branch.',
         C: 'The suprascapular nerve is the other upper trunk branch.',
-        D: 'Correct. The thoracodorsal (nerve to latissimus dorsi) comes off the posterior cord.',
+        D: 'The thoracodorsal (nerve to latissimus dorsi) comes off the posterior cord.',
       },
     },
     {
@@ -2396,7 +2396,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The dorsal scapular nerve comes off the C5 root.',
         B: 'The long thoracic nerve is a root branch, which is why it lies on the chest wall rather than travelling with the vessels. It is the printed key here and it is wrong.',
         C: 'The suprascapular nerve is an upper trunk branch.',
-        D: 'Correct. The thoracodorsal nerve arises from the posterior cord and runs down the posterior wall of the axilla to latissimus dorsi.',
+        D: 'The thoracodorsal nerve arises from the posterior cord and runs down the posterior wall of the axilla to latissimus dorsi.',
       },
     },
     {
@@ -2409,7 +2409,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Flexor pollicis longus is a deep flexor of the forearm, supplied by the anterior interosseous branch of the median nerve.',
         B: 'Abductor pollicis brevis is one of the three thenar muscles, all median.',
-        C: 'Correct. Adductor pollicis lies in the adductor compartment deep in the palm and is the muscle in which the deep branch of the ulnar nerve terminates. Its loss gives Froment’s sign.',
+        C: 'Adductor pollicis lies in the adductor compartment deep in the palm and is the muscle in which the deep branch of the ulnar nerve terminates. Its loss gives Froment’s sign.',
         D: 'Opponens pollicis is thenar and median. The similarity of "adductor" and "abductor" and of the thenar muscles to each other is what this item is testing.',
       },
     },
@@ -2423,7 +2423,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Flexor pollicis longus is median, through the anterior interosseous nerve.',
         B: 'Abductor pollicis brevis is thenar and median.',
-        C: 'Correct. Adductor pollicis takes the deep branch of the ulnar nerve.',
+        C: 'Adductor pollicis takes the deep branch of the ulnar nerve.',
         D: 'Opponens pollicis is thenar and median.',
       },
     },
@@ -2437,7 +2437,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The musculocutaneous nerve supplies three muscles in the arm, so the pair fails on its first member even though the median is right.',
         B: 'The radial nerve supplies triceps in the arm, so this pair fails on its first member.',
-        C: 'Correct. Median and ulnar are the two through-travellers: both are destined for the forearm and hand and neither gives a branch above the elbow.',
+        C: 'Median and ulnar are the two through-travellers: both are destined for the forearm and hand and neither gives a branch above the elbow.',
         D: 'The radial nerve supplies triceps, so this pair fails.',
       },
     },
@@ -2451,7 +2451,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The upper subscapular nerve comes from the posterior cord. It is the printed key here and it is wrong, and it inverts the plexus rule that the posterior cord serves the extensor side and the lateral cord the flexor side.',
         B: 'The long thoracic nerve is a root branch.',
-        C: 'Correct. The musculocutaneous nerve is the lateral cord’s terminal branch and the nerve of the flexor compartment of the arm.',
+        C: 'The musculocutaneous nerve is the lateral cord’s terminal branch and the nerve of the flexor compartment of the arm.',
         D: 'The suprascapular nerve is an upper trunk branch.',
       },
     },
@@ -2465,7 +2465,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The radial nerve supplies triceps and the forearm extensors and abducts nothing. It is the printed key here and it is wrong.',
         B: 'The ulnar nerve gives no branch above the elbow.',
-        C: 'Correct. Deltoid carries abduction from fifteen to ninety degrees and is supplied by the axillary nerve.',
+        C: 'Deltoid carries abduction from fifteen to ninety degrees and is supplied by the axillary nerve.',
         D: 'The suprascapular nerve supplies supraspinatus, which covers the first fifteen degrees — the range immediately below the one the stem names.',
       },
     },
@@ -2479,7 +2479,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The ulnar nerve passes over the retinaculum, not under it. It is the printed key here and it is wrong — and it is the error that would make a student expect carpal tunnel syndrome to numb the little finger.',
         b: 'The radial artery crosses the floor of the anatomical snuff box, on the back of the wrist.',
-        c: 'Correct. The carpal tunnel contains the median nerve and the tendons of flexor digitorum superficialis, flexor digitorum profundus and flexor pollicis longus.',
+        c: 'The carpal tunnel contains the median nerve and the tendons of flexor digitorum superficialis, flexor digitorum profundus and flexor pollicis longus.',
         d: 'The brachial artery ends in the cubital fossa, at the elbow.',
       },
     },
@@ -2493,7 +2493,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The ulnar nerve gives the partial claw hand. It is the printed key here and it is wrong; the ulnar nerve cannot drop a wrist because it holds none of it up.',
         B: 'The median nerve is a flexor nerve; cutting it weakens wrist flexion, not extension.',
-        C: 'Correct. Extensor carpi radialis longus and brevis and extensor carpi ulnaris are all radial, so a radial lesion above the elbow leaves the wrist hanging.',
+        C: 'Extensor carpi radialis longus and brevis and extensor carpi ulnaris are all radial, so a radial lesion above the elbow leaves the wrist hanging.',
         D: 'The axillary nerve ends at the shoulder.',
         E: 'The musculocutaneous nerve flexes the elbow and supplies nothing below it but skin.',
       },
@@ -2504,12 +2504,12 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the origins, the nerve and the action of biceps brachii, and separate each from the muscle it is most often confused with.',
       answerOverride: 'd',
-      answerOverrideReason: 'The 2021 paper printed no key, and the recovered answer sheet has no entry for this source at all, so the answer is taken from the department book rather than from a key. The book puts the long head on the supraglenoid tubercle and the infraglenoid on the long head of triceps, supplies biceps from the musculocutaneous nerve of the lateral cord, and calls it the powerful supinator — so a, b and c are each false on the book\u2019s own words. It also puts the short head on the lateral part of the tip of the coracoid process, lateral to coracobrachialis, which is d exactly.',
+      answerOverrideReason: 'The 2021 paper printed no key, and the recovered answer sheet has no entry for this source at all, so the answer given here is worked from the source text rather than from a key. The long head arises from the supraglenoid tubercle, the infraglenoid tubercle gives rise to the long head of triceps, biceps is supplied by the musculocutaneous nerve of the lateral cord, and it is the powerful supinator — so a, b and c are each false on this evidence. The short head arises from the lateral part of the tip of the coracoid process, lateral to coracobrachialis, which is d exactly.',
       explanations: {
         a: 'The infraglenoid tubercle belongs to the long head of triceps. Both tubercles sit on the scapula at the rim of the glenoid, one above and one below, and a student who has learnt that a long head arises from a glenoid tubercle without learning which one gets this wrong half the time; the biceps head is supra-, above the glenoid, where its tendon can drop into the joint.',
         b: 'The medial cord gives the ulnar nerve and the two medial cutaneous nerves, and nothing that reaches the front of the arm. Biceps is musculocutaneous, from the lateral cord. The option is tempting to a student who has memorised that biceps is a flexor and that the medial cord is on the flexor side of the plexus, which is true and still gives the wrong cord.',
         c: 'Exactly backwards, and the commonest error on this muscle. Biceps inserts on the posterior rough part of the radial tuberosity, so contracting it unwinds the radius \u2014 it is the powerful supinator of the flexed forearm, the movement of driving a right-handed screw. Students choose pronation because the tendon plainly crosses the forearm and must turn it somehow.',
-        d: 'Correct. The short head and coracobrachialis share the tip of the coracoid process, biceps taking the lateral part of it and coracobrachialis the medial \u2014 which is why the two are described together and why the conjoined origin is a landmark rather than one muscle\u2019s.',
+        d: 'The short head and coracobrachialis share the tip of the coracoid process, biceps taking the lateral part of it and coracobrachialis the medial \u2014 which is why the two are described together and why the conjoined origin is a landmark rather than one muscle\u2019s.',
       },
     },
     {
@@ -2518,11 +2518,11 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the origin, insertion, nerve and action of brachialis, and say why it and not biceps is the main flexor of the elbow.',
       answerOverride: 'c',
-      answerOverrideReason: 'The 2022 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, not from a key. The book states brachialis arises from the lower half of the anterior humeral shaft, inserts into the coronoid process and ulnar tuberosity, takes the musculocutaneous nerve with a radial twig, and is the primary flexor of the elbow \u2014 which makes a, b and d false and c its own wording. OCR has mangled the stem and the option text without touching their sense.',
+      answerOverrideReason: 'The 2022 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is worked from the source text, not from a key. Brachialis arises from the lower half of the anterior humeral shaft, inserts into the coronoid process and ulnar tuberosity, takes the musculocutaneous nerve with a radial twig, and is the primary flexor of the elbow \u2014 which makes a, b and d false and c its own wording. OCR has mangled the stem and the option text without touching their sense.',
       explanations: {
         a: 'The nerve of brachialis is the musculocutaneous, with a small twig from the radial to its lateral part. The median nerve is the one that lies on brachialis through the whole length of the arm, with the brachial artery, and that intimacy is what makes the swap so easy to make and so easy to examine.',
         b: 'The upper third of the shaft carries the insertion of deltoid, which brachialis embraces from below; brachialis itself arises from the lower half of the front of the shaft. A student who remembers only that brachialis is on the humerus will guess an end and has an even chance of the wrong one.',
-        c: 'Correct. Brachialis crosses only the elbow and pulls on the ulna, which cannot rotate, so it flexes whatever position the forearm is in \u2014 including pronation, where biceps is at a mechanical disadvantage. That is what makes it the main flexor rather than biceps.',
+        c: 'Brachialis crosses only the elbow and pulls on the ulna, which cannot rotate, so it flexes whatever position the forearm is in \u2014 including pronation, where biceps is at a mechanical disadvantage. That is what makes it the main flexor rather than biceps.',
         d: 'There is no pronator tuberosity on the radius for brachialis to reach; the radial tuberosity takes biceps and the middle of the lateral surface takes pronator teres. Brachialis inserts on the ulna, at the coronoid process and the ulnar tuberosity, and reaching for a named tuberosity on the radius is the reflex this distractor is built on.',
       },
     },

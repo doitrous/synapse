@@ -72,7 +72,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The basilic vein is not at the wrist at all — it begins at the medial end of the dorsal venous arch and is already in the forearm by the time the retinaculum is reached. Superficial veins never dive beneath a retinaculum; they lie in the superficial fascia.',
         B: 'A cutaneous nerve, and cutaneous nerves cross superficial to a retinaculum by definition — they are on their way to the skin, and the retinaculum lies deep to the skin. The dorsal cutaneous branch of the ulnar nerve crosses over it to reach the back of the medial fingers.',
-        C: 'Correct. Extensor indicis runs with the extensor digitorum tendons in the fourth compartment, deep to the retinaculum. Everything the retinaculum holds down is a tendon; everything that crosses it is a vein or a cutaneous nerve.',
+        C: 'Extensor indicis runs with the extensor digitorum tendons in the fourth compartment, deep to the retinaculum. Everything the retinaculum holds down is a tendon; everything that crosses it is a vein or a cutaneous nerve.',
         D: 'The beginning of the cephalic vein lies in the anatomical snuff box, in the superficial fascia over the retinaculum, which is exactly why it can be cannulated there. Students pick it because the snuff box and the retinaculum are neighbours, but neighbouring is not the same as deep to.',
       },
     },
@@ -84,7 +84,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The two veins swapped. Lateral belongs to the cephalic; the basilic starts at the medial end of the dorsal venous arch and stays medial the whole way up.',
         B: 'The same swap in the other direction, and the commonest single error in this leaf. Cephalic is the lateral vein, from its origin at the lateral end of the arch to the deltopectoral groove.',
-        C: 'Correct. The median cubital vein runs upwards and medially across the front of the cubital fossa from the cephalic to the basilic, which is why a needle in it drains into both.',
+        C: 'The median cubital vein runs upwards and medially across the front of the cubital fossa from the cephalic to the basilic, which is why a needle in it drains into both.',
         D: 'Tempting because the brachial artery does have two venae comitantes and the axillary is its continuation upwards. It is not: the venae comitantes end by joining the basilic vein to form a single axillary vein, and from there up there is one vein, not two.',
       },
     },
@@ -98,7 +98,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The basilic vein is a superficial vein of the medial forearm and arm and never passes under a retinaculum.',
         B: 'A cutaneous nerve on its way to skin, so it crosses superficial to the retinaculum rather than under it.',
-        C: 'Correct. Extensor indicis occupies the fourth compartment beneath the retinaculum with the extensor digitorum tendons. The OCR of this copy prints it as "Extensor indices" with a fragment of page furniture attached; the option is legible and is the tendon.',
+        C: 'Extensor indicis occupies the fourth compartment beneath the retinaculum with the extensor digitorum tendons. The OCR of this copy prints it as "Extensor indices" with a fragment of page furniture attached; the option is legible and is the tendon.',
         D: 'The answer the extractor read off this page, and the reason for the override. The cephalic vein does begin at the wrist, in the snuff box — but in the superficial fascia above the retinaculum, which is what makes it accessible to a cannula there.',
       },
     },
@@ -112,7 +112,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The answer the extractor took from this page, and the reason for the override. Lateral is the cephalic vein\'s end of the arch; the basilic starts medially.',
         B: 'The same swap read the other way round. The cephalic vein is the lateral one throughout its course.',
-        C: 'Correct. The median cubital vein crosses the cubital fossa obliquely and connects the cephalic vein to the basilic.',
+        C: 'The median cubital vein crosses the cubital fossa obliquely and connects the cephalic vein to the basilic.',
         D: 'The brachial artery has two venae comitantes; the axillary artery does not. Those venae comitantes join the basilic vein at the lower border of teres major and the result is one axillary vein.',
       },
     },
@@ -125,7 +125,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. B is the only statement of the four that is true: the cephalic vein does start at the lateral end of the dorsal venous arch. A names the wrong vein under the bicipital aponeurosis, C names the wrong vein piercing the clavipectoral fascia, and D gives the axillary artery venae comitantes it does not have.',
       explanations: {
         A: 'The right relationship attached to the wrong vein. It is the median cubital vein, not the cephalic, that lies on the bicipital aponeurosis and is separated by it from the brachial artery — which is the whole reason the cubital fossa is a safe place for a needle.',
-        B: 'Correct. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and remains the lateral vein of the limb.',
+        B: 'The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and remains the lateral vein of the limb.',
         C: 'The two superficial veins swapped at the point where each leaves the superficial fascia. The cephalic vein pierces the clavipectoral fascia to reach the axillary vein; the basilic pierces the deep fascia far lower, about the middle of the arm.',
         D: 'A reasonable extrapolation from the brachial artery, which does have two venae comitantes. They end by joining the basilic vein to form a single axillary vein, so above the lower border of teres major there is one vein and not a pair.',
       },
@@ -136,7 +136,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the vein the cephalic vein drains into and where it does so.',
       explanations: {
-        A: 'Correct. The cephalic vein leaves the deltopectoral groove, pierces the clavipectoral fascia and ends in the axillary vein.',
+        A: 'The cephalic vein leaves the deltopectoral groove, pierces the clavipectoral fascia and ends in the axillary vein.',
         B: 'Backwards. The median cubital vein arises from the cephalic vein at the elbow and carries blood away from it into the basilic; it is a tributary relationship, not a termination.',
         C: 'One vein too far. The axillary vein becomes the subclavian only at the outer border of the first rib, by which point the cephalic vein has already joined it.',
         D: 'Chosen by students who remember the two veins being connected and settle on the connection they know. They are connected — by the median cubital vein at the elbow — but the cephalic vein\'s own ending is higher and is into the axillary vein.',
@@ -150,7 +150,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'a',
       answerOverrideReason: 'The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.',
       explanations: {
-        a: 'Correct. Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.',
+        a: 'Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.',
         b: 'The basilic vein\'s side, and the answer given by every student who has the two names the wrong way round.',
         c: 'The vein does cross to the front of the arm as it ascends, which makes this feel half right. The question asks which aspect of the limb it belongs to, and the answer that distinguishes it from the basilic is lateral.',
         d: 'The cephalic vein begins on the back of the hand at the dorsal venous arch, which is what makes posterior tempting. It is anterior and lateral for almost its whole course above the wrist.',
@@ -165,7 +165,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A, read off this copy\'s margin, and A is wrong: the median cubital vein connects the cephalic to the basilic, not the axillary to the cephalic. C is unambiguously true and is the clinically relevant statement the item is built around. Option B was lost in extraction, so if a rescan recovers a fifth option that is also defensible, this override should be revisited before the item is sat.',
       explanations: {
         A: 'The answer the extractor took from this page, and the reason for the override. The median cubital vein connects the cephalic vein to the basilic at the elbow. The axillary vein is at the top of the limb and has no connection with it.',
-        C: 'Correct. It is large, superficial and fixed in place, and the bicipital aponeurosis lies between it and the brachial artery — which is why it is the standard vein for venepuncture and intravenous injection.',
+        C: 'It is large, superficial and fixed in place, and the bicipital aponeurosis lies between it and the brachial artery — which is why it is the standard vein for venepuncture and intravenous injection.',
         D: 'The reason a student picks this is the needle: the vein a drip goes into feels as though it must be an important, deep one. It lies in the superficial fascia, and every vein that can be seen through the skin at the elbow is superficial by definition.',
         E: 'Valves are a general property of the superficial veins of the limb rather than a feature that identifies this one, so the statement singles out nothing and does not discriminate. If a faculty reviewer reads it as true as printed, the item has two defensible answers and needs rewording rather than rescanning.',
       },

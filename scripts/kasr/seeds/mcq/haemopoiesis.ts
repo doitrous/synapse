@@ -110,7 +110,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Reticular cells and their fibres are the marrow\'s scaffolding. They support haemopoiesis but make no blood cell, so transplanting them would rebuild the shelving and leave it empty.',
         B: 'Blood sinusoids are the route out of the marrow, not the source. They are vessels of the recipient\'s own bone and are not transferred.',
         C: 'Fat cells are what fills marrow as it becomes inactive — the opposite of what a leukaemic patient needs restored.',
-        D: 'Correct. The haemopoietic stem cell is the free cell every blood cell line descends from, so it is the only component that can repopulate the whole marrow.',
+        D: 'The haemopoietic stem cell is the free cell every blood cell line descends from, so it is the only component that can repopulate the whole marrow.',
       },
     },
     {
@@ -128,7 +128,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Recognise the fibroblast as the standard example of an actively synthesising cell rather than a free or a stem cell.',
       explanations: {
-        A: 'Correct. The active fibroblast is the department\'s type example of a protein-synthesising cell: deeply basophilic cytoplasm, abundant rough endoplasmic reticulum and Golgi, and a pale euchromatic nucleus with a prominent nucleolus.',
+        A: 'The active fibroblast is a textbook example of a protein-synthesising cell: deeply basophilic cytoplasm, abundant rough endoplasmic reticulum and Golgi, and a pale euchromatic nucleus with a prominent nucleolus.',
         B: 'The fibroblast is a resident — fixed — connective tissue cell, long-lived and staying where it is. The free, transient cells of connective tissue are the plasma cells and the leukocytes that arrive from the blood.',
         C: 'A steroid-secreting cell is recognised by abundant smooth endoplasmic reticulum, tubular mitochondria and lipid droplets. The fibroblast secretes protein — collagen and ground substance — and has rough ER instead.',
         D: 'Tempting because the fibroblast comes from an undifferentiated mesenchymal cell, but it is the differentiated product, not the stem cell. The undifferentiated stem cells of connective tissue are the mesenchymal cells and the pericytes.',
@@ -158,7 +158,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Predict what replaces haemopoietic tissue in the marrow as its activity falls.',
       explanations: {
-        A: 'Correct. Falling haemopoietic activity is exactly what turns red marrow into yellow: fat cells expand to fill the space the haemopoietic cords gave up, which is why the shafts of adult long bones are fatty.',
+        A: 'Falling haemopoietic activity is exactly what turns red marrow into yellow: fat cells expand to fill the space the haemopoietic cords gave up, which is why the shafts of adult long bones are fatty.',
         B: 'Erythrocytes are a product of haemopoiesis, so they fall with it, not rise. They are also finished cells that leave the marrow through the sinusoids rather than accumulating in it.',
         C: 'The haemopoietic cords are the haemopoietic tissue itself. Saying they increase as haemopoiesis decreases contradicts the stem — a trap for a student reading only the words "bone marrow component".',
         D: 'Stem cells are the source of haemopoiesis. Their numbers do not swell to fill an inactive marrow; the space is taken by fat.',
@@ -176,7 +176,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Continuous replacement from stem cells is a renewing population — blood, epidermis, the lining of the gut. The word the stem turns on is "potentially": these cells are not being replaced continuously, they are held in reserve.',
         b: 'End cells are a static population: neurons and cardiac muscle, which have left the cycle for good and are never replaced. That is the opposite of potentially renewable, and it is the option for a student reading "potentially" as "not actually".',
         c: 'The right idea with the wrong phase. A cell that leaves the cycle transiently leaves it in the resting phase after mitosis, not in G2 — G2 is the gap between DNA replication and mitosis, and a cell that has already copied its DNA is committed to dividing rather than resting.',
-        d: 'Correct. A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.',
+        d: 'A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.',
       },
     },
   ],

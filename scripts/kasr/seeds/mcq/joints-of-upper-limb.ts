@@ -98,7 +98,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The radial collateral ligament runs from the lateral epicondyle to the anular ligament, and it is the only one of the four statements that is true; A and C are the classic misreadings of that attachment and D swaps it with the ulnar collateral.',
       explanations: {
         A: 'Picked by students who assume a collateral ligament must reach the bone below it. It deliberately does not: an attachment to the neck of the radius would tether the radial head and abolish pronation and supination.',
-        B: 'Correct. The radial collateral ligament passes from the lateral epicondyle to blend with the anular ligament, so it stabilises the elbow without ever gripping the radius.',
+        B: 'The radial collateral ligament passes from the lateral epicondyle to blend with the anular ligament, so it stabilises the elbow without ever gripping the radius.',
         C: 'Tempting because the superior radio-ulnar joint does share the elbow capsule, so the two seem continuous. The ligament is described as ending in the anular ligament, and that is the attachment the question wants.',
         D: 'The wrong side of the joint. It is the ulnar collateral ligament, on the medial side, that resists abduction — a valgus force; the radial collateral resists adduction.',
       },
@@ -112,7 +112,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A from a margin mark rather than a key, and A is wrong: the radial collateral ligament is attached to the anular ligament and to no part of the radius. The identical row `the-radial-collateral-ligament-choose-the-correct-answer-39257210`, asked four times, printed no key at all.',
       explanations: {
         A: 'The margin of this copy of the page marks A, which is how the wrong answer reached the bank. Attaching the ligament to the neck of the radius would tether the radial head and abolish pronation and supination.',
-        B: 'Correct. From the lateral epicondyle the ligament ends in the anular ligament, stabilising the elbow while leaving the radial head free to spin.',
+        B: 'From the lateral epicondyle the ligament ends in the anular ligament, stabilising the elbow while leaving the radial head free to spin.',
         C: 'Tempting because the superior radio-ulnar joint shares the elbow capsule. The described attachment is nevertheless to the anular ligament.',
         D: 'The wrong side. Abduction — valgus — is resisted by the ulnar collateral ligament on the medial side.',
       },
@@ -128,7 +128,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Half right, which is what makes it dangerous. The ligament does form most of an osseofibrous ring, but that ring encircles the head of the radius, not the neck, and the ligament makes up about four fifths of it, the radial notch of the ulna the rest.',
         B: 'Picked by students who remember an attachment near the upper radius and reach for the tuberosity. The attachments are to the anterior and posterior margins of the radial notch of the ulna.',
         C: 'The attachment the ligament cannot have. It surrounds the head of the radius without being fixed to it, and that freedom is exactly what allows the head to rotate during pronation and supination.',
-        D: 'Correct. The upper border blends with the capsule and the ligaments of the elbow joint, including the radial collateral; only the lower border is free.',
+        D: 'The upper border blends with the capsule and the ligaments of the elbow joint, including the radial collateral; only the lower border is free.',
       },
     },
     {
@@ -142,7 +142,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The answer the extractor read off this page, and the reason this row is overridden. The ring is around the head of the radius; a ring around the neck would slip off under traction, which is the mechanism of a pulled elbow in a child.',
         B: 'A reach for the nearest named landmark on the upper radius. The ligament is attached to the margins of the radial notch of the ulna instead.',
         C: 'The attachment the ligament must not have, since the radial head has to spin freely inside it during pronation and supination.',
-        D: 'Correct. The upper border blends with the capsule and ligaments of the elbow; the lower border is free around the neck.',
+        D: 'The upper border blends with the capsule and ligaments of the elbow; the lower border is free around the neck.',
       },
     },
     {
@@ -179,7 +179,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The bank carries C, which is impossible: the elbow is a uniaxial hinge and cannot abduct or adduct. The identical row `regarding-movements-of-joints-39f1039b`, asked three times, is keyed A, and A is the option this override restores.',
       explanations: {
-        A: 'Correct, and the key of the three-times-asked copy of this question. Circumduction of the lateral end of the clavicle is the sum of the shoulder girdle’s elevation, depression, protraction and retraction.',
+        A: 'This is the key of the three-times-asked copy of this question. Circumduction of the lateral end of the clavicle is the sum of the shoulder girdle’s elevation, depression, protraction and retraction.',
         B: 'Pronation belongs to the two radio-ulnar joints, not the wrist. The hand follows the radius, which is what makes the movement seem to be at the wrist.',
         C: 'The answer the extractor took from this page, and the reason for the override. A hinge has one axis; abduction and adduction at the elbow are anatomically impossible.',
         D: 'True as printed, since the metacarpophalangeal joints are condyloid and flex and extend. It does not discriminate, and the examiner’s key rests on A.',
@@ -203,7 +203,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries C, but a pivot joint has a single axis and permits rotation only. The wrist is the sole biaxial joint among the four offered, so B is the only possible answer.',
       explanations: {
         A: 'A uniaxial hinge. Flexion and extension are all the elbow has; any apparent side-to-side movement comes from the shoulder.',
-        B: 'Correct. The wrist is ellipsoid and biaxial, so beyond flexion and extension it abducts and adducts — the movements clinically called radial and ulnar deviation.',
+        B: 'The wrist is ellipsoid and biaxial, so beyond flexion and extension it abducts and adducts — the movements clinically called radial and ulnar deviation.',
         C: 'The answer the extractor took from the page, and the reason for the override. The superior radio-ulnar joint is a pivot: the radial head spins within the anular ligament on one axis, producing pronation and supination and nothing else.',
         D: 'The inferior radio-ulnar joint is the other pivot of the same pair, moving with the superior one in pronation and supination only.',
       },
@@ -218,7 +218,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The wrong flexor. The lumbricals arise from the tendons of flexor digitorum profundus, the deep tendons that pass on through to the distal phalanges; superficialis splits and never reaches them.',
         B: 'True of the lateral two only. The medial two lumbricals are supplied by the deep branch of the ulnar nerve, which is why an ulnar lesion, not a median one, produces the clawed ring and little fingers.',
-        C: 'Correct. Passing in front of the axis of the metacarpophalangeal joint, the lumbrical flexes it; the same muscle then extends the interphalangeal joints through the extensor expansion.',
+        C: 'Passing in front of the axis of the metacarpophalangeal joint, the lumbrical flexes it; the same muscle then extends the interphalangeal joints through the extensor expansion.',
         D: 'The exact reverse of what the extensor expansion insertion produces. Lumbricals extend the interphalangeal joints; losing that action is what lets the profundus claw the fingers.',
       },
     },
@@ -228,7 +228,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Classify the elbow joint by the shape of its articular surfaces.',
       explanations: {
-        A: 'Correct. The trochlea of the humerus and the trochlear notch of the ulna interlock as a pulley in a groove, which is a hinge and permits flexion and extension alone.',
+        A: 'The trochlea of the humerus and the trochlear notch of the ulna interlock as a pulley in a groove, which is a hinge and permits flexion and extension alone.',
         B: 'Ellipsoid is the wrist. Students swap the two because both joints bend in the same direction, but the wrist adds a second axis the elbow has not.',
         C: 'Bicondylar is the knee and the temporomandibular joint. The elbow has a capitulum as well as a trochlea, which makes it look like two condyles until you notice the radius, not the ulna, meets the capitulum.',
         D: 'Ball and socket is the shoulder, and the shoulder is the joint most students name first when they are thinking about the upper limb rather than the elbow.',
@@ -242,7 +242,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The bank carries D — ball and socket — which is the shoulder, not the elbow. The identical row `the-elbow-joint-is-b2ab4933` is keyed A, and the elbow is a hinge on every account this module teaches.',
       explanations: {
-        A: 'Correct. Trochlea in trochlear notch is a hinge, and it moves on one axis only.',
+        A: 'Trochlea in trochlear notch is a hinge, and it moves on one axis only.',
         B: 'Ellipsoid is the wrist. The two are swapped because both bend the same way; only the wrist has a second axis.',
         C: 'Bicondylar belongs to the knee. The elbow’s capitulum makes it look like a second condyle until you notice it takes the radius rather than the ulna.',
         D: 'The answer printed on this page, and the reason for the override. Ball and socket is the shoulder — the joint students name when they are thinking of the upper limb in general rather than of the elbow.',
@@ -255,7 +255,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Classify the wrist joint by the shape of its articular surfaces.',
       explanations: {
         A: 'Hinge is the elbow. It is the wrist’s second axis — the abduction and adduction of radial and ulnar deviation — that rules a hinge out.',
-        B: 'Correct. The oval lower end of the radius with the articular disc receives an oval carpal surface, which is an ellipsoid, or condyloid, joint: biaxial.',
+        B: 'The oval lower end of the radius with the articular disc receives an oval carpal surface, which is an ellipsoid, or condyloid, joint: biaxial.',
         C: 'Bicondylar belongs to the knee, where two separate condyles articulate side by side. The wrist has one continuous oval surface.',
         D: 'Ball and socket is the shoulder. It would give the wrist rotation, and the wrist has none of its own — what looks like rotation there is pronation and supination of the forearm.',
       },
@@ -267,7 +267,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Classify the wrist joint by the shape of its articular surfaces.',
       explanations: {
         A: 'Hinge is the elbow. The wrist has a second axis the elbow lacks.',
-        B: 'Correct. An oval radial surface in an oval carpal one is an ellipsoid joint, biaxial and therefore capable of circumduction.',
+        B: 'An oval radial surface in an oval carpal one is an ellipsoid joint, biaxial and therefore capable of circumduction.',
         C: 'Bicondylar belongs to the knee, which has two separate condyles rather than one continuous oval.',
         D: 'Ball and socket is the shoulder, and would wrongly give the wrist a rotation of its own; the rotation felt there comes from the radio-ulnar joints.',
       },
@@ -281,7 +281,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A, but the elbow is a uniaxial hinge and cannot be a biaxial ellipsoid. The wrist is the module’s worked example of an ellipsoid joint, so B is the answer; the elbow rows in this same leaf are keyed to hinge, which makes A self-contradictory.',
       explanations: {
         A: 'The answer this page carries, and the reason for the override. The elbow is a uniaxial synovial hinge; the same question book keys it as a hinge elsewhere in this leaf.',
-        B: 'Correct. The wrist is the ellipsoid joint of the upper limb: two axes, giving flexion and extension with abduction and adduction, and so circumduction.',
+        B: 'The wrist is the ellipsoid joint of the upper limb: two axes, giving flexion and extension with abduction and adduction, and so circumduction.',
         C: 'The acromioclavicular joint is a plane joint, where two flat surfaces glide. It is small and easy to leave unclassified, which is what makes it a usable distractor.',
         D: 'The carpometacarpal joint of the thumb is a saddle joint, and it is biaxial — which is exactly why it is offered here. Saddle and ellipsoid share the axis count but not the surface shape.',
       },
@@ -294,7 +294,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Only A classifies its joint correctly: the elbow is a synovial hinge. The other three each name a real joint and give it the wrong type.',
       explanations: {
-        A: 'Correct. Trochlea in trochlear notch, one axis, flexion and extension: a synovial hinge.',
+        A: 'Trochlea in trochlear notch, one axis, flexion and extension: a synovial hinge.',
         B: 'The right joint and the wrong type. The carpometacarpal joint of the thumb is a saddle, and it is that saddle shape that gives the thumb its opposition; a pivot would give it rotation about a single axis instead.',
         C: 'The radio-ulnar joints are pivots. Ball and socket is offered because both permit rotation, but a pivot rotates about one axis and a ball and socket about three.',
         D: 'The right joint and the wrong type again. The wrist is ellipsoid; the saddle in the upper limb is the thumb’s carpometacarpal joint, one option above.',
@@ -308,7 +308,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The elbow is a synovial hinge, and it is the only one of the four statements whose type matches its joint.',
       explanations: {
-        A: 'Correct. The elbow is a synovial hinge, uniaxial, flexing and extending only.',
+        A: 'The elbow is a synovial hinge, uniaxial, flexing and extending only.',
         B: 'The thumb’s carpometacarpal joint is a saddle, not a pivot. The saddle is what allows opposition, which no pivot could produce.',
         C: 'The radio-ulnar joints are pivots. Both a pivot and a ball and socket rotate, which is the resemblance the option trades on, but a pivot has one axis and a ball and socket three.',
         D: 'The wrist is ellipsoid. Saddle belongs to the thumb, one option above, and swapping the two is the trap this question is built around.',
@@ -332,7 +332,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The superior radio-ulnar joint is a pivot. Ball and socket is offered because the radial head is round, but it spins on one axis inside the anular ligament rather than moving on three.',
         B: 'The acromioclavicular joint is a plane joint of two flat gliding surfaces. The saddle of the upper limb is the thumb’s carpometacarpal joint.',
         C: 'The elbow is a hinge. Pivot is the type of the two radio-ulnar joints, and the superior one shares the elbow capsule — which is precisely why students hand the elbow its type.',
-        D: 'Correct. The wrist is a synovial ellipsoid joint, biaxial, flexing, extending, abducting and adducting.',
+        D: 'The wrist is a synovial ellipsoid joint, biaxial, flexing, extending, abducting and adducting.',
       },
     },
     {
@@ -346,7 +346,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The superior radio-ulnar joint is a pivot. The round radial head suggests a ball, but it turns on one axis inside the anular ligament.',
         B: 'The acromioclavicular joint is a plane joint. The saddle joint of the upper limb is the thumb’s carpometacarpal.',
         C: 'The elbow is a hinge. Pivot is borrowed from the superior radio-ulnar joint, which shares the elbow’s capsule and so is easily read as part of it.',
-        D: 'Correct. The wrist is ellipsoid — biaxial, so it flexes, extends, abducts and adducts.',
+        D: 'The wrist is ellipsoid — biaxial, so it flexes, extends, abducts and adducts.',
       },
     },
     {
@@ -360,7 +360,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The superior radio-ulnar joint is a pivot: one axis, giving pronation and supination.',
         B: 'The acromioclavicular joint is plane. Saddle is the thumb’s carpometacarpal joint.',
         C: 'The elbow is a hinge. The pivot in that neighbourhood is the superior radio-ulnar joint, which shares the capsule.',
-        D: 'Correct. The wrist is a biaxial ellipsoid joint.',
+        D: 'The wrist is a biaxial ellipsoid joint.',
       },
     },
     {
@@ -372,7 +372,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A, but the sternoclavicular joint is a saddle joint, not a hinge. Its complete fibrocartilaginous articular disc is the feature this module teaches about it, and B is the only true statement of the four.',
       explanations: {
         A: 'The answer printed on this page, and the reason for the override. The sternoclavicular joint is a synovial saddle joint; calling it a hinge would confine the clavicle to one axis when in fact it elevates, depresses, protracts, retracts and circumducts.',
-        B: 'Correct. A complete fibrocartilaginous disc divides the cavity into two compartments, and it is the chief structure preventing the clavicle being driven medially onto the sternum.',
+        B: 'A complete fibrocartilaginous disc divides the cavity into two compartments, and it is the chief structure preventing the clavicle being driven medially onto the sternum.',
         C: 'Off by one level. The angle of Lewis — the sternal angle — is where the second costal cartilage meets the sternum, below this joint; the sternoclavicular joint is on the manubrium with the first costal cartilage.',
         D: 'The other end of the clavicle. The coracoclavicular ligament supports the acromioclavicular joint; the ligament that anchors the clavicle down here is the costoclavicular, and the two names differ by a syllable.',
       },
@@ -394,7 +394,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'a',
       answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book, which gives flexion of the shoulder to the clavicular head of pectoralis major, the anterior fibres of deltoid and coracobrachialis, assisted by the long head of biceps. Pectoralis major is the only one of the four options on that list: latissimus dorsi extends, subscapularis rotates medially and infraspinatus rotates laterally.',
       explanations: {
-        a: 'Correct. The clavicular head of pectoralis major flexes the arm at the glenohumeral joint. The muscle as a whole also adducts and medially rotates, and its sternocostal head extends the flexed arm \u2014 so the same muscle appears as the answer to several opposite questions, which is why the department examines it so often.',
+        a: 'The clavicular head of pectoralis major flexes the arm at the glenohumeral joint. The muscle as a whole also adducts and medially rotates, and its sternocostal head extends the flexed arm \u2014 so the same muscle appears as the answer to several opposite questions, which is why it is examined so often.',
         b: 'Latissimus dorsi is the principal extensor of the shoulder, the exact opposite of what the stem asks. It is picked by students who remember it as a powerful mover of the arm without remembering the direction.',
         c: 'Subscapularis is a rotator cuff muscle on the front of the scapula, and its action at the joint is medial rotation. Lying in front of the joint makes it look like a flexor, which is the trap.',
         d: 'Infraspinatus is the cuff muscle behind the scapula and rotates the arm laterally. Like subscapularis it steadies the humeral head in the glenoid cavity, and that stabilising role is not a movement.',

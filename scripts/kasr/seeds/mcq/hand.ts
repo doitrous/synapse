@@ -184,7 +184,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Half of this is ulnar. Adduction of the thumb is adductor pollicis, deep branch of the ulnar nerve, and it is preserved in carpal tunnel syndrome; only abduction, by abductor pollicis brevis, is lost — so the option is wrong as a pair.',
         B: 'The writing position — metacarpophalangeal joints flexed with the interphalangeal joints extended — is the work of all four lumbricals and the interossei. The lateral two lumbricals do go, but the medial two and every interosseous are ulnar, so the position is not lost.',
-        C: 'Correct. Opposition is opponens pollicis with abductor and flexor pollicis brevis, all three median through the recurrent branch, and losing it costs the hand its grip and its pinch — which is why the answer is the "most acceptable" one the stem asks for.',
+        C: 'Opposition is opponens pollicis with abductor and flexor pollicis brevis, all three median through the recurrent branch, and losing it costs the hand its grip and its pinch — which is why the answer is the "most acceptable" one the stem asks for.',
         D: 'Abduction and adduction of the fingers is the interossei, every one of which is supplied by the deep branch of the ulnar nerve and none of which passes through the carpal tunnel with the median.',
       },
     },
@@ -197,7 +197,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Extensor carpi radialis longus is an extensor of the forearm, and every extensor is radial. The word "radialis" invites the guess that it belongs to the radial side rather than the radial nerve — here they happen to agree, and the nerve is radial.',
         B: 'All seven interossei, dorsal and palmar, take the deep branch of the ulnar nerve.',
         C: 'The hypothenar muscles are also ulnar, through the deep branch.',
-        D: 'Correct, and the key. The lateral two lumbricals are the median nerve\'s only muscles in the hand besides the three of the thenar eminence; the medial two are ulnar.',
+        D: 'This is the key. The lateral two lumbricals are the median nerve\'s only muscles in the hand besides the three of the thenar eminence; the medial two are ulnar.',
       },
     },
     {
@@ -208,7 +208,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key, and the one keyed copy marks the second dorsal metacarpal artery, which comes off the dorsal carpal arch rather than the radial artery itself. Arteria princeps pollicis is given after the artery reaches the palm and is a radial branch in the hand, so A is the answer — and the books\' own "except" version of this question lists princeps pollicis, radialis indicis and the first dorsal metacarpal as its hand branches.',
       explanations: {
-        A: 'Correct. Once the radial artery has passed between the heads of adductor pollicis into the palm it gives the arteria princeps pollicis to the two sides of the thumb, then the radialis indicis, and ends as the deep palmar arch.',
+        A: 'Once the radial artery has passed between the heads of adductor pollicis into the palm it gives the arteria princeps pollicis to the two sides of the thumb, then the radialis indicis, and ends as the deep palmar arch.',
         B: 'Given at the wrist, not in the hand. The superficial palmar branch leaves the radial artery before it turns back into the snuff box, and runs on to help complete the superficial arch.',
         C: 'The second dorsal metacarpal artery comes from the dorsal carpal arch. Only the first dorsal metacarpal artery is a direct branch of the radial, given on the back of the hand before it dives into the palm.',
         D: 'The posterior carpal artery is a wrist branch, and it is one of the vessels that forms the dorsal carpal arch from which option C then arises.',
@@ -222,7 +222,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The median nerve carries sensation from the palmar surface of the lateral three and a half fingers, so paraesthesia over the index finger is the presenting symptom; the other three options all name ulnar territory or ulnar muscles.',
       explanations: {
-        A: 'Correct. The index finger lies squarely within the median nerve\'s palmar territory — the lateral three and a half fingers — and tingling there at night is the classic first complaint.',
+        A: 'The index finger lies squarely within the median nerve\'s palmar territory — the lateral three and a half fingers — and tingling there at night is the classic first complaint.',
         B: 'The little finger is ulnar, and its sparing is what distinguishes carpal tunnel syndrome from an ulnar lesion at the bedside.',
         C: 'Adduction of the thumb is adductor pollicis, which takes the deep branch of the ulnar nerve and lies outside the carpal tunnel altogether.',
         D: 'Opposition of the little finger is opponens digiti minimi, a hypothenar muscle and therefore ulnar.',
@@ -239,7 +239,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The thenar space\'s content, not this one\'s. The intermediate septum runs back to the third metacarpal and keeps flexor pollicis longus on the lateral side of it.',
         B: 'The flexor retinaculum is proximal to the space, at the wrist; what lies in front of the midpalmar space is the palmar aponeurosis with the flexor tendons and the superficial arch. The retinaculum matters here because the space passes under it into the forearm, which is how sepsis travels.',
         C: 'The deep palmar arch lies on the interossei and the metacarpal bases, behind the fascia that forms the posterior wall of this space — a centimetre away and on the wrong side of a boundary.',
-        D: 'Correct. The long flexor tendons of the medial three fingers, with the medial two lumbricals, occupy the midpalmar space, and it is those tendon sheaths that carry infection into it.',
+        D: 'The long flexor tendons of the medial three fingers, with the medial two lumbricals, occupy the midpalmar space, and it is those tendon sheaths that carry infection into it.',
       },
     },
     {
@@ -252,8 +252,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The wrong carpal bone. Opponens pollicis arises from the flexor retinaculum and the tubercle of the trapezium — the bone at the base of the thumb — not the capitate, which sits in the middle of the distal row.',
         B: 'Inverted. Abductor pollicis brevis is the superficial muscle of the eminence and opponens pollicis lies deep to it, which is why the opponens has to be uncovered to be seen.',
-        C: 'The option the books key, and the reason for this override. The three thenar muscles are median, through the recurrent branch; an ulnar supply to opponens pollicis occurs as an anatomical variant but is not what the muscle is taught to have.',
-        D: 'Correct. Unlike the other short muscles of the thumb, opponens pollicis inserts into bone along the whole lateral border and anterior surface of the first metacarpal rather than into a phalanx, which is exactly what lets it roll the metacarpal into opposition.',
+        C: 'The keyed option, and the reason for this override. The three thenar muscles are median, through the recurrent branch; an ulnar supply to opponens pollicis occurs as an anatomical variant but is not what the muscle is taught to have.',
+        D: 'Unlike the other short muscles of the thumb, opponens pollicis inserts into bone along the whole lateral border and anterior surface of the first metacarpal rather than into a phalanx, which is exactly what lets it roll the metacarpal into opposition.',
       },
     },
     {
@@ -266,7 +266,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'One thenar muscle and one impostor, and the impostor is the point of the item. Adductor pollicis lies deep in the adductor compartment and takes the deep branch of the ulnar nerve; abductor and adductor differ by two letters and by a whole nerve.',
         B: 'Flexor pollicis longus is a forearm muscle whose tendon merely passes through the hand to the distal phalanx of the thumb. Nothing that arises in the forearm forms an eminence in the palm.',
-        C: 'Correct. Abductor pollicis brevis superficially, opponens pollicis deep to it and flexor pollicis brevis medially — three short muscles, all median through the recurrent branch.',
+        C: 'Abductor pollicis brevis superficially, opponens pollicis deep to it and flexor pollicis brevis medially — three short muscles, all median through the recurrent branch.',
         D: 'Both are long muscles of the forearm. Abductor pollicis longus does not even reach the palm; its tendon forms the anterior boundary of the anatomical snuff box on the back of the wrist.',
       },
     },
@@ -276,7 +276,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Nerve supply',
       learningObjective: 'Pick the one true statement about upper limb muscles from three that misassign a nerve or an action.',
       explanations: {
-        A: 'Correct, and the key. Deltoid takes the axillary (circumflex) nerve from the posterior cord, which is why a dislocated shoulder can leave the muscle wasted and the shoulder flat.',
+        A: 'This is the key. Deltoid takes the axillary (circumflex) nerve from the posterior cord, which is why a dislocated shoulder can leave the muscle wasted and the shoulder flat.',
         B: 'Every interosseous muscle is supplied by the deep branch of the ulnar nerve. The median\'s only intrinsic muscles are the three thenar and the lateral two lumbricals.',
         C: 'Inverted. Dorsal interossei abduct the fingers and palmar interossei adduct them — DAB and PAD — and reversing them is the commonest error in the hand.',
         D: 'The wrong joint. Flexor digitorum superficialis inserts into the sides of the middle phalanx and flexes the proximal interphalangeal joint; the terminal joint belongs to flexor digitorum profundus, which passes through the split in the superficialis tendon to reach it.',
@@ -289,7 +289,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the boundaries and contents of the thenar space and separate them from the midpalmar space.',
       explanations: {
         A: 'The wrong septum on the wrong side. The thenar space is bounded laterally by the lateral septum, which runs back to the first metacarpal; the intermediate septum, to the third, is its medial boundary.',
-        B: 'Correct, and the key. Adductor pollicis lies behind the thenar space, and the fascia over it forms the space\'s posterior wall — which is why an abscess there points forwards into the palm rather than backwards.',
+        B: 'This is the key. Adductor pollicis lies behind the thenar space, and the fascia over it forms the space\'s posterior wall — which is why an abscess there points forwards into the palm rather than backwards.',
         C: 'The flexor digitorum profundus tendons of the medial three fingers lie in the midpalmar space, on the other side of the intermediate septum. Only the index tendons reach the thenar space.',
         D: 'The medial three lumbricals lie in the midpalmar space. The thenar space holds the first lumbrical alone.',
       },
@@ -302,7 +302,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key, and the one keyed copy marks the radialis indicis, which is a radial artery branch. The ulnar artery does give a deep palmar branch that completes the deep arch, so A is true; it ends as the superficial arch, not the deep one.',
       explanations: {
-        A: 'Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which passes between the muscles of the hypothenar eminence to join the radial artery and complete the deep palmar arch.',
+        A: 'Beside the pisiform the ulnar artery gives a deep palmar branch, which passes between the muscles of the hypothenar eminence to join the radial artery and complete the deep palmar arch.',
         B: 'The radialis indicis is a radial artery branch, given in the palm alongside the arteria princeps pollicis.',
         C: 'The anterior carpal arch is formed by the anterior carpal branches of the radial and ulnar arteries meeting across the front of the carpus. The ulnar artery contributes to it but does not continue as it.',
         D: 'The two arches swapped, which is the standard error in this leaf. The ulnar artery continues as the superficial arch; the radial artery ends as the deep one.',
@@ -317,7 +317,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key; the copy at `the-lumbrical-muscles-choose-the-correct-answer-dep-book-eb649e8d` is keyed B, and B is the only true statement here. The lumbricals arise from profundus not superficialis, are median and ulnar not ulnar and radial, and flex rather than extend the metacarpophalangeal joints.',
       explanations: {
         A: 'The wrong long flexor. The lumbricals arise from the tendons of flexor digitorum profundus, the deeper of the two, which is what lets them act on a moving origin.',
-        B: 'Correct. Each lumbrical passes to the radial side of the extensor expansion of its finger, which is what puts it in front of the axis of the metacarpophalangeal joint and behind that of the interphalangeal joints.',
+        B: 'Each lumbrical passes to the radial side of the extensor expansion of its finger, which is what puts it in front of the axis of the metacarpophalangeal joint and behind that of the interphalangeal joints.',
         C: 'The wrong pair of nerves. It is the median and the ulnar that share the lumbricals — lateral two median, medial two ulnar; the radial nerve supplies no muscle in the hand at all.',
         D: 'The wrong direction at that joint. Lumbricals and interossei flex the metacarpophalangeal joints while extending the interphalangeal joints, which together give the writing position.',
       },
@@ -332,7 +332,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The answer the extractor read off this page, and the reason for the override. The deep branch of the ulnar nerve supplies all the interossei and adductor pollicis, so a patient with that branch cut cannot hold paper between the fingers — and this patient can.',
         B: 'The median nerve as a whole would fit the loss of opposition but not the intact sensation: the trunk carries sensation from the palmar surface of the lateral three and a half fingers, and the stem says there is none lost.',
-        C: 'Correct. The recurrent branch of the median nerve is purely motor and supplies only the three thenar muscles, so cutting it in the palm loses opposition and nothing else — no sensory loss, no interosseous weakness.',
+        C: 'The recurrent branch of the median nerve is purely motor and supplies only the three thenar muscles, so cutting it in the palm loses opposition and nothing else — no sensory loss, no interosseous weakness.',
         D: 'The deep branch of the radial nerve is the posterior interosseous nerve, in the forearm, and it supplies no muscle in the hand. A wound of the palm cannot reach it.',
       },
     },
@@ -344,7 +344,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The palmar interossei adduct the fingers and, with the lumbricals, flex the metacarpophalangeal joints while extending the interphalangeal joints — the opposite of the movement lost here.',
         B: 'Flexor digitorum profundus flexes the distal interphalangeal joint, since its tendon runs past the middle phalanx to the base of the terminal one. It will flex the proximal joint too as it passes, so its loss alone would not abolish the movement.',
-        C: 'Correct, and the key. Flexor digitorum superficialis inserts into the sides of the middle phalanx, so the proximal interphalangeal joint is the joint it acts on and the joint that fails when it is paralysed.',
+        C: 'This is the key. Flexor digitorum superficialis inserts into the sides of the middle phalanx, so the proximal interphalangeal joint is the joint it acts on and the joint that fails when it is paralysed.',
         D: 'The lumbricals extend the interphalangeal joints rather than flexing them.',
       },
     },
@@ -358,7 +358,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The palmar interossei adduct the fingers and extend the interphalangeal joints.',
         B: 'Flexor digitorum profundus reaches the distal phalanx and flexes the terminal joint.',
-        C: 'Correct. Superficialis to the middle phalanx, profundus to the distal — the insertion is what assigns each tendon its joint.',
+        C: 'Superficialis to the middle phalanx, profundus to the distal — the insertion is what assigns each tendon its joint.',
         D: 'The lumbricals extend the interphalangeal joints as part of the writing position.',
       },
     },
@@ -370,7 +370,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The index finger lies in the median nerve\'s palmar territory, and the other three options all name structures supplied by the ulnar nerve, which is unaffected by compression in the carpal tunnel.',
       explanations: {
-        A: 'Correct. Paraesthesia over the lateral three and a half fingers, of which the index is one, is the presenting complaint.',
+        A: 'Paraesthesia over the lateral three and a half fingers, of which the index is one, is the presenting complaint.',
         B: 'The little finger is ulnar and is spared, which is the sign that separates this diagnosis from an ulnar lesion.',
         C: 'Adduction of the thumb is adductor pollicis, deep branch of the ulnar nerve, outside the tunnel.',
         D: 'Opposition of the little finger is opponens digiti minimi, a hypothenar and therefore ulnar muscle.',
@@ -427,7 +427,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Adductor pollicis is supplied by the deep branch of the ulnar nerve, so adduction of the thumb is what is lost; wasting of the thenar eminence, loss of abduction and sensation over the thumb are all median.',
       explanations: {
         A: 'The wrong eminence. An ulnar lesion flattens the hypothenar eminence and hollows the spaces between the metacarpals; a wasted thenar eminence is the ape hand of a median lesion.',
-        B: 'Correct. Adductor pollicis is the deep branch of the ulnar nerve\'s largest muscle, and its loss is what produces Froment\'s sign — the thumb flexing at the interphalangeal joint to hold a sheet of paper.',
+        B: 'Adductor pollicis is the deep branch of the ulnar nerve\'s largest muscle, and its loss is what produces Froment\'s sign — the thumb flexing at the interphalangeal joint to hold a sheet of paper.',
         C: 'Abduction of the thumb is abductor pollicis brevis, a thenar muscle and therefore median.',
         D: 'Sensation over the thumb is median and radial. The ulnar nerve\'s sensory territory is the medial one and a half fingers.',
       },
@@ -439,7 +439,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the branches of the superficial palmar arch and separate them from the deep arch and the dorsal carpal arch.',
       explanations: {
         A: 'The descending anastomotic branch belongs to the arteries around the elbow, not to a palmar arch.',
-        B: 'Correct, and the key. The superficial palmar arch gives the common palmar digital arteries, each of which divides into two proper digital arteries for the adjacent sides of two fingers.',
+        B: 'This is the key. The superficial palmar arch gives the common palmar digital arteries, each of which divides into two proper digital arteries for the adjacent sides of two fingers.',
         C: 'The second dorsal metacarpal artery arises from the dorsal carpal arch, on the back of the hand.',
         D: 'Radialis indicis is a branch of the radial artery in the palm, and therefore belongs with the deep arch\'s territory rather than the superficial.',
       },
@@ -453,7 +453,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key; the keyed copy `one-of-the-following-is-a-branch-of-super-cial-palmar-arch-i-25404826` marks B. The superficial arch gives four palmar digital arteries, of which the common palmar digitals are three.',
       explanations: {
         A: 'A branch of the arteries around the elbow, not of any arch in the hand.',
-        B: 'Correct. The common palmar digital arteries run distally from the convexity of the superficial arch and each divides for two adjacent finger sides.',
+        B: 'The common palmar digital arteries run distally from the convexity of the superficial arch and each divides for two adjacent finger sides.',
         C: 'The dorsal carpal arch gives the second, third and fourth dorsal metacarpal arteries.',
         D: 'Radialis indicis comes directly from the radial artery in the palm.',
       },
@@ -482,7 +482,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The wrong cord. The medial cutaneous nerve of the forearm comes from the medial cord — its name says which — and the posterior cord\'s cutaneous branches are all on the back of the limb.',
         B: 'The wrong cord again. The lateral side of the arm is supplied by the upper and lower lateral cutaneous nerves of the arm, from the axillary and radial nerves, both posterior cord branches.',
-        C: 'Correct. The radial nerve covers the lateral two thirds of the back of the hand and the ulnar nerve the medial third, meeting along a line through the ring finger.',
+        C: 'The radial nerve covers the lateral two thirds of the back of the hand and the ulnar nerve the medial third, meeting along a line through the ring finger.',
         D: 'The wrong nerve for that territory. The medial one and a half fingers are ulnar; the median takes the lateral three and a half.',
       },
     },
@@ -508,7 +508,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The deep branch of the ulnar nerve accompanies the deep palmar arch and lies within its concavity, which is true as printed; the level in B belongs to the superficial arch, the hypothenar muscles in C are supplied by the deep branch not the superficial, and flexor digitorum superficialis inserts into the middle phalanx, not the distal.',
       explanations: {
-        A: 'Correct. The deep branch of the ulnar nerve runs laterally across the palm with the deep arch, lying within its concavity — which is why a deep palmar wound tends to take the artery and the nerve together.',
+        A: 'The deep branch of the ulnar nerve runs laterally across the palm with the deep arch, lying within its concavity — which is why a deep palmar wound tends to take the artery and the nerve together.',
         B: 'The level of the wrong arch. The superficial arch lies at the level of the distal border of the fully extended thumb; the deep arch is a finger\'s breadth proximal to it.',
         C: 'The wrong branch. The superficial branch of the ulnar nerve supplies palmaris brevis and the skin of the medial one and a half fingers; the hypothenar muscles belong to the deep branch.',
         D: 'The wrong phalanx. Superficialis inserts into the sides of the middle phalanx after splitting to let profundus through to the distal one.',
@@ -536,7 +536,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The lateral two lumbricals lie on the other side of the intermediate septum, in the thenar space. The midpalmar space holds the medial two.',
         B: 'The septum on the wrong side. The intermediate septum runs to the third metacarpal and forms the lateral boundary of this space; the medial boundary is the medial septum, to the fifth metacarpal.',
-        C: 'Correct, and the key. The superficial palmar arch lies in front of the flexor tendons that form the anterior wall of the space, and the department describes it among the space\'s anterior contents.',
+        C: 'This is the key. The superficial palmar arch lies in front of the flexor tendons that form the anterior wall of the space, so it is one of the space\'s anterior contents.',
         D: 'The superficial branch of the ulnar nerve runs forwards over the hypothenar muscles under the palmar aponeurosis, medial to the space rather than in it.',
       },
     },
@@ -550,7 +550,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The lateral two lumbricals belong to the thenar space, across the intermediate septum.',
         B: 'The intermediate septum bounds this space laterally, not medially.',
-        C: 'Correct. The superficial palmar arch lies among the structures in front of the space, deep to the palmar aponeurosis and in front of the flexor tendons.',
+        C: 'The superficial palmar arch lies among the structures in front of the space, deep to the palmar aponeurosis and in front of the flexor tendons.',
         D: 'The superficial branch of the ulnar nerve runs over the hypothenar muscles medial to the space.',
       },
     },
@@ -564,7 +564,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The lateral two lumbricals are in the thenar space; this one holds the medial two.',
         B: 'The intermediate septum is the lateral boundary of the midpalmar space, not the medial.',
-        C: 'Correct. The superficial arch lies in front of the flexor tendons that roof the space.',
+        C: 'The superficial arch lies in front of the flexor tendons that roof the space.',
         D: 'The superficial branch of the ulnar nerve is medial to the space, over the hypothenar muscles.',
       },
     },
@@ -576,7 +576,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The lateral two lumbricals lie in the thenar space, on the far side of the intermediate septum.',
         B: 'The intermediate septum forms this space\'s lateral boundary; the medial boundary is the medial septum, to the fifth metacarpal.',
-        C: 'Correct, and the key. The superficial palmar arch is described among the structures lying in front of the midpalmar space.',
+        C: 'This is the key. The superficial palmar arch is described among the structures lying in front of the midpalmar space.',
         D: 'The superficial branch of the ulnar nerve lies medial to the space, on the hypothenar muscles.',
       },
     },
@@ -589,7 +589,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A, but the medial septum of the palmar aponeurosis runs to the fifth metacarpal and lies at the far side of the palm from the thenar space — the thenar space is bounded laterally by the lateral septum. B is true: the fascia over adductor pollicis forms its posterior wall.',
       explanations: {
         A: 'The answer the extractor took from this page, and the reason for the override. The thenar space\'s lateral boundary is the lateral septum, to the first metacarpal; the medial septum is two spaces away, at the ulnar edge of the palm.',
-        B: 'Correct. Adductor pollicis lies behind the thenar space and the fascia over it is the space\'s floor.',
+        B: 'Adductor pollicis lies behind the thenar space and the fascia over it is the space\'s floor.',
         C: 'The profundus tendons of the medial three fingers are in the midpalmar space.',
         D: 'The three medial lumbricals are in the midpalmar space; the thenar space holds the first.',
       },
@@ -603,7 +603,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key — option A has been echoed into the stem by the scan, which is page furniture rather than an answer. The keyed copy `regarding-the-thenar-space-of-the-hand-choose-the-correct-an-5c798469`, asked twice, marks B, and the fascia over adductor pollicis is the space\'s posterior boundary.',
       explanations: {
         A: 'The option the scan has echoed into the stem, and it is false: the lateral boundary of the thenar space is the lateral septum, not the medial one.',
-        B: 'Correct. The posterior wall of the thenar space is the fascia covering adductor pollicis.',
+        B: 'The posterior wall of the thenar space is the fascia covering adductor pollicis.',
         C: 'The flexor digitorum profundus tendons of the medial three fingers lie in the midpalmar space.',
         D: 'The medial three lumbricals are midpalmar; the thenar space contains only the first.',
       },
@@ -619,7 +619,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The reverse of Froment\'s sign. Adductor pollicis is paralysed in an ulnar lesion, so the patient cannot grip paper between thumb and index by adduction and compensates by flexing the thumb\'s interphalangeal joint.',
         B: 'The wrong third of the hand. Ulnar sensory loss covers the medial third of the palm and dorsum; the lateral part is median and radial.',
         C: 'The wrong fingers. The lateral three and a half fingers are median; the ulnar takes the medial one and a half.',
-        D: 'Correct. Clawing needs the long flexors intact to bend the fingers; a high lesion takes the medial half of flexor digitorum profundus as well, so the deformity is less obvious even though the injury is worse.',
+        D: 'Clawing needs the long flexors intact to bend the fingers; a high lesion takes the medial half of flexor digitorum profundus as well, so the deformity is less obvious even though the injury is worse.',
       },
     },
     {
@@ -630,7 +630,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The ulnar artery gives a deep palmar branch that completes the deep arch and then continues as the superficial arch, so A is true and D reverses it; radialis indicis is radial and the anterior carpal arch is a contribution rather than a continuation.',
       explanations: {
-        A: 'Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which sinks between the hypothenar muscles to join the radial artery and complete the deep arch.',
+        A: 'Beside the pisiform the ulnar artery gives a deep palmar branch, which sinks between the hypothenar muscles to join the radial artery and complete the deep arch.',
         B: 'Radialis indicis is a radial artery branch in the palm.',
         C: 'The ulnar artery contributes an anterior carpal branch to the anterior carpal arch but does not continue as it.',
         D: 'The two arches swapped — the standard error in this leaf. Ulnar ends as superficial, radial ends as deep.',
@@ -644,7 +644,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The bank carries B, but radialis indicis is a branch of the radial artery in the palm, not of the ulnar. The ulnar artery does give a deep palmar branch to complete the deep arch, so A is the correct statement.',
       explanations: {
-        A: 'Correct. The deep palmar branch of the ulnar artery completes the deep arch by joining the radial artery.',
+        A: 'The deep palmar branch of the ulnar artery completes the deep arch by joining the radial artery.',
         B: 'The answer the extractor read off this page, and the reason for the override. Radialis indicis leaves the radial artery in the palm alongside princeps pollicis; the "radialis" in the name is the giveaway.',
         C: 'The ulnar artery gives an anterior carpal branch to the anterior carpal arch, but its own continuation is the superficial palmar arch.',
         D: 'The arches reversed. The radial artery ends as the deep arch; the ulnar ends as the superficial.',
@@ -658,7 +658,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key; the copy at `saddle-shaped-biaxial-carpometacarpal-is-the-joint-of-which-e8c6a60f` is keyed A. Only the thumb has a saddle carpometacarpal joint, between the trapezium and the first metacarpal; the other four are plane joints.',
       explanations: {
-        A: 'Correct. The carpometacarpal joint of the thumb, between the trapezium and the base of the first metacarpal, is a saddle joint and biaxial — which is exactly what allows the thumb to be opposed and the other four fingers not.',
+        A: 'The carpometacarpal joint of the thumb, between the trapezium and the base of the first metacarpal, is a saddle joint and biaxial — which is exactly what allows the thumb to be opposed and the other four fingers not.',
         B: 'The carpometacarpal joints of the medial four fingers are plane joints with very little movement, which is what makes the palm a stable platform.',
         C: 'The third carpometacarpal joint is the least mobile of all, since the capitate and the third metacarpal form the fixed axis of the hand.',
         D: 'The fourth and fifth carpometacarpal joints allow a little flexion for cupping the palm, but they are plane joints and uniaxial at best.',
@@ -670,7 +670,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Identify the one carpometacarpal joint in the hand that is a saddle joint.',
       explanations: {
-        A: 'Correct, and the key. Trapezium against the base of the first metacarpal, saddle-shaped and biaxial — the joint that makes the human thumb opposable.',
+        A: 'This is the key. Trapezium against the base of the first metacarpal, saddle-shaped and biaxial — the joint that makes the human thumb opposable.',
         B: 'A plane joint, like the carpometacarpal joints of all the medial four fingers.',
         C: 'The most fixed of the carpometacarpal joints; the capitate and third metacarpal form the axis the hand is built around.',
         D: 'A plane joint with a little mobility for cupping the palm, but not a saddle and not biaxial.',
@@ -711,7 +711,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the origin, insertion, nerve supply and action of the lumbricals.',
       explanations: {
         A: 'The lumbricals arise from the tendons of flexor digitorum profundus, the deeper flexor, not superficialis.',
-        B: 'Correct, and the key. Each lumbrical reaches the radial side of the extensor expansion of its own finger.',
+        B: 'This is the key. Each lumbrical reaches the radial side of the extensor expansion of its own finger.',
         C: 'The radial nerve supplies no muscle in the hand. The lumbricals are shared between the median and the ulnar.',
         D: 'The wrong direction at the metacarpophalangeal joints, which the lumbricals and interossei flex while extending the interphalangeal joints.',
       },
@@ -726,7 +726,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Extensor carpi ulnaris is an extensor of the forearm and therefore radial, twice over: every extensor is radial and this one lies in the sixth compartment under the extensor retinaculum.',
         B: 'The hypothenar muscles take the deep branch of the ulnar nerve.',
-        C: 'Correct. The first and second lumbricals are supplied by the median nerve, travelling with its digital branches.',
+        C: 'The first and second lumbricals are supplied by the median nerve, travelling with its digital branches.',
         D: 'Adductor pollicis is the deep branch of the ulnar nerve\'s largest muscle, despite acting on the thumb.',
       },
     },
@@ -738,7 +738,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'An extensor of the forearm, and every extensor is radial.',
         B: 'The hypothenar muscles are ulnar, through the deep branch.',
-        C: 'Correct, and the key. Lumbricals one and two are median; three and four are ulnar.',
+        C: 'This is the key. Lumbricals one and two are median; three and four are ulnar.',
         D: 'Adductor pollicis is ulnar, which is the fact behind Froment\'s sign.',
       },
     },
@@ -753,7 +753,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The answer the extractor read off this page, and the reason for the override. Abductor pollicis brevis is one of the three thenar muscles and is median; abductor and adductor pollicis differ by a nerve as well as by a syllable.',
         B: 'Flexor pollicis brevis is also thenar and median — although its deep head is sometimes supplied by the ulnar nerve, which is the variant that makes this the most defensible of the wrong options.',
         C: 'The lateral two lumbricals are median; the medial two are the ulnar ones.',
-        D: 'Correct. Every dorsal and palmar interosseous muscle is supplied by the deep branch of the ulnar nerve, without exception.',
+        D: 'Every dorsal and palmar interosseous muscle is supplied by the deep branch of the ulnar nerve, without exception.',
       },
     },
     {
@@ -767,7 +767,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Abductor pollicis brevis is thenar and median.',
         B: 'Flexor pollicis brevis is thenar and median, its deep head occasionally ulnar as a variant.',
         C: 'The lateral two lumbricals are median; three and four are ulnar.',
-        D: 'Correct. All the interossei, dorsal and palmar, are deep branch of the ulnar.',
+        D: 'All the interossei, dorsal and palmar, are deep branch of the ulnar.',
       },
     },
     {
@@ -781,7 +781,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The wrong carpal bone: the origin is the flexor retinaculum and the tubercle of the trapezium, not the capitate.',
         B: 'Inverted. Opponens pollicis lies deep to abductor pollicis brevis and has to be uncovered to be seen.',
         C: 'The answer the extractor took from this page, and the reason for the override. Opponens pollicis is a median muscle; an ulnar supply to it is a recorded variant, not the description a student is being examined on.',
-        D: 'Correct. It inserts into the lateral border and anterior surface of the first metacarpal along its whole length — a muscle that moves a metacarpal rather than a phalanx, which is what opposition requires.',
+        D: 'It inserts into the lateral border and anterior surface of the first metacarpal along its whole length — a muscle that moves a metacarpal rather than a phalanx, which is what opposition requires.',
       },
     },
     {
@@ -792,7 +792,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key; the keyed copy `the-palmar-thenar-space-contains-mark-the-correct-answer-dep-6872c651` marks A. The thenar space lies lateral to the intermediate septum and holds the tendon of flexor pollicis longus with the index tendons and the first lumbrical.',
       explanations: {
-        A: 'Correct. The flexor pollicis longus tendon runs to the thumb on the lateral side of the intermediate septum and so lies within the thenar space.',
+        A: 'The flexor pollicis longus tendon runs to the thumb on the lateral side of the intermediate septum and so lies within the thenar space.',
         B: 'The flexor tendons of the middle three fingers are on the other side of the intermediate septum, in the midpalmar space.',
         C: 'The second lumbrical is midpalmar. The thenar space holds the first alone.',
         D: 'The deep palmar arch lies behind the posterior wall of both spaces, on the interossei and the bases of the metacarpals.',
@@ -804,7 +804,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Name the tendons and muscles contained in the thenar space.',
       explanations: {
-        A: 'Correct, and the key. Flexor pollicis longus passes to the thumb within the thenar space.',
+        A: 'This is the key. Flexor pollicis longus passes to the thumb within the thenar space.',
         B: 'Those tendons lie in the midpalmar space, medial to the intermediate septum.',
         C: 'The second lumbrical goes with them into the midpalmar space; the thenar space holds the first.',
         D: 'The deep palmar arch is behind both spaces, against the metacarpal bases.',
@@ -818,7 +818,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'D',
       answerOverrideReason: 'The bank carries A, but flexor pollicis longus is a content of the thenar space, as the keyed "mark the correct answer" version of this item states. The wrong statement is D: flexor carpi radialis runs in its own compartment in the groove on the trapezium, separate from the carpal tunnel and from the palmar spaces, and ends on the base of the second metacarpal.',
       explanations: {
-        A: 'The answer the extractor read off this page, and the reason for the override. Flexor pollicis longus is a genuine content of the thenar space; the department\'s own other version of this question keys it as the correct answer.',
+        A: 'The answer the extractor read off this page, and the reason for the override. Flexor pollicis longus is a genuine content of the thenar space; another version of this question keys it as the correct answer.',
         B: 'A content, so not the wrong statement. The index flexor tendons lie in the thenar space, lateral to the intermediate septum.',
         C: 'A content, so not the wrong statement. The first lumbrical accompanies the index tendon into the thenar space.',
         D: 'The wrong statement, and the answer. Flexor carpi radialis never enters the palmar spaces at all: it runs through a separate tunnel in the lateral attachment of the flexor retinaculum, grooving the trapezium, and inserts into the base of the second metacarpal.',
@@ -832,7 +832,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The bank carries C, the second dorsal metacarpal artery, which arises from the dorsal carpal arch rather than from the radial artery itself; only the first dorsal metacarpal is a direct radial branch. Arteria princeps pollicis is a radial branch given in the palm, and the books\' own "except" version of this question confirms it as one, so the answer is A.',
       explanations: {
-        A: 'Correct. Princeps pollicis leaves the radial artery as it enters the palm between the heads of adductor pollicis and divides for the two sides of the thumb.',
+        A: 'Princeps pollicis leaves the radial artery as it enters the palm between the heads of adductor pollicis and divides for the two sides of the thumb.',
         B: 'Given at the wrist, before the artery turns into the snuff box.',
         C: 'The answer the extractor took from this page, and the reason for the override. The second, third and fourth dorsal metacarpal arteries all come from the dorsal carpal arch; only the first is the radial artery\'s own.',
         D: 'The posterior carpal artery is a wrist branch and one of the vessels that forms that arch.',
@@ -846,7 +846,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The space of Parona lies in the lower forearm between the long flexor tendons in front and pronator quadratus behind, so A is true; distally it communicates with the midpalmar space, not the thenar space or the pulp space.',
       explanations: {
-        A: 'Correct. Pronator quadratus, covering the lower ends of radius and ulna, forms the posterior wall of the space; the long flexor tendons lie in front of it.',
+        A: 'Pronator quadratus, covering the lower ends of radius and ulna, forms the posterior wall of the space; the long flexor tendons lie in front of it.',
         B: 'The wrong palmar space. Parona\'s space runs under the flexor retinaculum into the midpalmar space, which is why a midpalmar abscess can track up into the forearm.',
         C: 'The pulp space is a closed compartment in the fingertip, separated from everything proximal by the fibrous septa that anchor the skin to the distal phalanx.',
         D: 'The direction of spread is the other way. Sepsis reaches Parona\'s space from the hand through the carpal tunnel; the space is where it collects, not what sends it.',
@@ -860,7 +860,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Pronator quadratus forms the posterior boundary of the space of Parona, which is true as printed; the space communicates distally with the midpalmar space rather than the thenar, contains no part of the fibrous flexor sheaths, and receives sepsis from the hand rather than sending it there.',
       explanations: {
-        A: 'Correct. The space lies between the long flexor tendons in front and pronator quadratus behind, in the lower quarter of the forearm.',
+        A: 'The space lies between the long flexor tendons in front and pronator quadratus behind, in the lower quarter of the forearm.',
         B: 'The midpalmar space, not the thenar. The communication is through the carpal tunnel under the flexor retinaculum.',
         C: 'The fibrous flexor sheaths belong to the fingers, holding the long tendons against the phalanges. Nothing of them reaches the forearm.',
         D: 'Sepsis travels into this space from the hand rather than out of it, which is why a neglected midpalmar infection is felt above the wrist.',
@@ -876,7 +876,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The answer the extractor read off this page, and the reason for the override. One of the two is thenar and one is not, and the one that is not is the ulnar-supplied adductor pollicis.',
         B: 'A forearm muscle whose tendon only passes through the hand.',
-        C: 'Correct. Abductor pollicis brevis, opponens pollicis and flexor pollicis brevis, all supplied by the recurrent branch of the median nerve.',
+        C: 'Abductor pollicis brevis, opponens pollicis and flexor pollicis brevis, all supplied by the recurrent branch of the median nerve.',
         D: 'Both are long muscles of the forearm; abductor pollicis longus does not even reach the palm.',
       },
     },
@@ -890,7 +890,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Adductor pollicis is not part of the eminence — it is deep, in the adductor compartment, and supplied by the ulnar nerve.',
         B: 'Flexor pollicis longus arises in the forearm and only sends a tendon through the hand.',
-        C: 'Correct. Three short muscles, all median through the recurrent branch.',
+        C: 'Three short muscles, all median through the recurrent branch.',
         D: 'Both are forearm muscles, and abductor pollicis longus reaches only as far as the base of the first metacarpal on the back of the wrist.',
       },
     },
@@ -905,7 +905,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The answer the extractor read off this page, and the reason for the override. All-ulnar is true of the interossei, not the lumbricals, and it is that neighbouring rule that makes the error easy.',
         B: 'The radial nerve supplies no muscle in the hand at all; it stops at the wrist with the extensors.',
         C: 'All-median is true of the thenar eminence, not of the lumbricals.',
-        D: 'Correct. Lumbricals one and two are median, travelling with the digital branches to the index and middle fingers; three and four are ulnar.',
+        D: 'Lumbricals one and two are median, travelling with the digital branches to the index and middle fingers; three and four are ulnar.',
       },
     },
     {
@@ -919,7 +919,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True of the interossei, not the lumbricals. It is also the key printed on the other copy of this question, which is why the item needs a faculty eye as well as an override.',
         B: 'The answer the extractor read off this page, and the reason for the override. The radial nerve ends at the wrist and its terminal branches are cutaneous; it supplies no intrinsic muscle of the hand.',
         C: 'All-median describes the thenar eminence.',
-        D: 'Correct. Two median, two ulnar — the group is split, and that split is why an ulnar lesion claws only the ring and little fingers.',
+        D: 'Two median, two ulnar — the group is split, and that split is why an ulnar lesion claws only the ring and little fingers.',
       },
     },
     {
@@ -933,7 +933,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Abductor pollicis brevis is thenar and median; a deep branch lesion leaves it working, which is why the thumb can still be lifted from the palm.',
         b: 'Ape hand belongs to a median lesion — a wasted thenar eminence with the thumb adducted. A deep branch lesion produces the opposite kind of hand.',
-        c: 'Correct. Adductor pollicis is the largest muscle the deep branch supplies, and its loss is what produces Froment\'s sign when the patient tries to pinch a sheet of paper.',
+        c: 'Adductor pollicis is the largest muscle the deep branch supplies, and its loss is what produces Froment\'s sign when the patient tries to pinch a sheet of paper.',
         d: 'The deep branch is purely motor. Sensation over the little finger travels in the superficial branch, which is why a deep lesion can be complete and painless.',
       },
     },
@@ -959,7 +959,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The first lumbrical is median. It is the one lumbrical a student is most likely to place on the ulnar nerve, because the other three fingers\' lumbricals are split two-and-two.',
         B: 'Extensor digiti minimi is radial, in the fifth compartment under the extensor retinaculum — on the back of the limb, where the medial epicondyle cannot reach it.',
-        C: 'Correct. Adductor pollicis is supplied by the deep branch of the ulnar nerve, and the ulnar nerve lies against the back of the medial epicondyle where the fracture is.',
+        C: 'Adductor pollicis is supplied by the deep branch of the ulnar nerve, and the ulnar nerve lies against the back of the medial epicondyle where the fracture is.',
         D: 'Flexor carpi radialis is median. Its name puts it on the radial side, but its nerve is the median, and neither is threatened at the medial epicondyle.',
       },
     },
@@ -1063,7 +1063,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The ulnar artery is on the opposite side of the wrist, entering the palm superficial to the flexor retinaculum lateral to the pisiform. A fall on the outstretched hand that breaks the scaphoid is nowhere near it.',
         b: 'The deep palmar arch is in the palm, immediately distal to the bases of the metacarpals \u2014 well beyond the carpus and separated from the scaphoid by the whole proximal row plus the trapezium. It is tempting because the arch is mainly radial in origin, so a student reasoning "scaphoid, therefore radial, therefore the radial arch" reaches it.',
-        c: 'Correct. The radial artery winds backwards round the lateral side of the wrist and crosses the anatomical snuffbox, whose floor is formed by the scaphoid; it lies directly on the bone, which is why a scaphoid fracture may tear it.',
+        c: 'The radial artery winds backwards round the lateral side of the wrist and crosses the anatomical snuffbox, whose floor is formed by the scaphoid; it lies directly on the bone, which is why a scaphoid fracture may tear it.',
         d: 'The princeps pollicis arises only after the radial artery has left the snuffbox and passed between the two heads of the first dorsal interosseous into the palm. It supplies the thumb, distal to the injury.',
       },
     },
@@ -1077,7 +1077,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The ulnar artery reaches the palm on the medial side of the wrist, superficial to the flexor retinaculum and lateral to the pisiform. It is the whole width of the carpus away from the scaphoid.',
         b: 'The deep palmar arch lies across the bases of the metacarpals, distal to the carpus. Its main feed is the radial artery, which is why a student who has correctly reasoned "radial" can still pick the wrong radial structure.',
-        c: 'Correct, and the same answer as the 2021 printing of this question. The radial artery lies on the scaphoid in the floor of the snuffbox, where its pulsation is felt.',
+        c: 'This is the same answer as the 2021 printing of this question. The radial artery lies on the scaphoid in the floor of the snuffbox, where its pulsation is felt.',
         d: 'The princeps pollicis is a branch given after the artery has entered the palm between the heads of the first dorsal interosseous, and it runs to the thumb.',
       },
     },

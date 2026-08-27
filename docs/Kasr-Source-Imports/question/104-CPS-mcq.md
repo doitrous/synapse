@@ -109,7 +109,7 @@ Goblet cells belong to the respiratory mucosa. The olfactory epithelium has none
 Pigmented mucosa
 
 ## explanation_c
-Correct. The yellow-brown lipofuscin pigment of the sustentacular cells gives olfactory mucosa its colour, and it is the feature the naked eye and the low-power slide can both use.
+The yellow-brown lipofuscin pigment of the sustentacular cells gives olfactory mucosa its colour, and it is the feature the naked eye and the low-power slide can both use.
 
 ## answer_d
 Thinner lining epithelium
@@ -183,6 +183,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q1 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p30 q1 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Respiratory].pdf p1 q1 (manifest src_d0d3d52a9b3b79169a9c).
 
@@ -227,7 +230,7 @@ Tracheal glands are sero-mucous and open onto a ciliated respiratory epithelium;
 Olfactory mucosa
 
 ## explanation_c
-Correct. Bowman's serous glands are unique to the olfactory lamina propria, and their watery secretion is the solvent in which an odorant must dissolve before it can reach the receptor.
+Bowman's serous glands are unique to the olfactory lamina propria, and their watery secretion is the solvent in which an odorant must dissolve before it can reach the receptor.
 
 ## answer_d
 Nasal cavity
@@ -300,6 +303,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q19 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p31 q19 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Respiratory].pdf p2 q19 (manifest src_d0d3d52a9b3b79169a9c).
@@ -419,6 +425,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q28 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -537,6 +546,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q22 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -575,7 +587,7 @@ The basal cell is small, pyramidal and basophilic, sitting on the basement membr
 Sustentacular cell
 
 ## explanation_b
-Correct. The tall columnar supporting cell holds the apical yellow lipofuscin granules, and it is that pigment that makes the whole olfactory mucosa look yellow-brown.
+The tall columnar supporting cell holds the apical yellow lipofuscin granules, and it is that pigment that makes the whole olfactory mucosa look yellow-brown.
 
 ## answer_c
 Olfactory cell
@@ -655,6 +667,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q26 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -687,7 +702,7 @@ Pulmonary surfactant:
 Is produced by type II pneumocytes
 
 ## explanation_a
-Correct. The type II (great alveolar) cell stores surfactant in its lamellar bodies and releases it onto the alveolar lining fluid.
+The type II (great alveolar) cell stores surfactant in its lamellar bodies and releases it onto the alveolar lining fluid.
 
 ## answer_b
 Is produced by alveolar macrophages
@@ -773,6 +788,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q18 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -811,7 +829,7 @@ Goblet cells belong to the conducting airways and to mucus clearance. Their loss
 Pulmonary surfactant
 
 ## explanation_b
-Correct. Without surfactant the alveolar surface tension is unopposed, compliance falls and alveoli collapse at the end of each expiration — which is the neonatal respiratory distress syndrome of the preterm infant.
+Without surfactant the alveolar surface tension is unopposed, compliance falls and alveoli collapse at the end of each expiration — which is the neonatal respiratory distress syndrome of the preterm infant.
 
 ## answer_c
 Elastic fibers
@@ -891,6 +909,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q16 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p30 q16 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -941,7 +962,7 @@ The squamous alveolar cell is the type I pneumocyte, which forms the thin part o
 Great alveolar cells
 
 ## explanation_d
-Correct. The great alveolar cell is the type II pneumocyte, and surfactant matures only in the last weeks of gestation — so the preterm infant is short of the cell's product, not of the cell.
+The great alveolar cell is the type II pneumocyte, and surfactant matures only in the last weeks of gestation — so the preterm infant is short of the cell's product, not of the cell.
 
 ## correct_answer
 D
@@ -1009,6 +1030,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q23 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p31 q23 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Respiratory].pdf p3 q23 (manifest src_d0d3d52a9b3b79169a9c).
 
@@ -1053,7 +1077,7 @@ Epidermis is continuously renewing from its basal stem cells — the fastest-tur
 Nerve cell
 
 ## explanation_c
-Correct. The neurone leaves the cycle permanently, and cardiac muscle is the other classical example. Loss is repaired by scar, not by replacement.
+The neurone leaves the cycle permanently, and cardiac muscle is the other classical example. Loss is repaired by scar, not by replacement.
 
 ## answer_d
 Cartilage cell
@@ -1127,6 +1151,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q4 (manifest src_79af3b3857ba47239529); Histo MCQ by Dr.Kandeel [104].pdf p40 q4 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cytogenetics].pdf p1 q4 (manifest src_be181ad1f0be0dab13c9).
 
@@ -1159,7 +1186,7 @@ One of the following is a potentially renewable cell:
 Liver cell
 
 ## explanation_a
-Correct. The hepatocyte rests in G0 and re-enters the cycle on demand — after partial hepatectomy it divides until the mass is restored, then stops.
+The hepatocyte rests in G0 and re-enters the cycle on demand — after partial hepatectomy it divides until the mass is restored, then stops.
 
 ## answer_b
 Skin epidermal cell
@@ -1245,6 +1272,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q3 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -1277,7 +1307,7 @@ One of the following has a pluripotential stem cell:
 Blood cells
 
 ## explanation_a
-Correct. One haemopoietic stem cell gives rise to every blood cell line, which is what 'pluripotential' means — many outcomes from one ancestor.
+One haemopoietic stem cell gives rise to every blood cell line, which is what 'pluripotential' means — many outcomes from one ancestor.
 
 ## answer_b
 Hepatocytes
@@ -1363,6 +1393,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q5 (manifest src_79af3b3857ba47239529); Histo MCQ by Dr.Kandeel [104].pdf p40 q5 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cytogenetics].pdf p1 q5 (manifest src_be181ad1f0be0dab13c9).
 
@@ -1407,7 +1440,7 @@ A potentially renewable cell divides itself when called upon, like the hepatocyt
 Continuously renewing cells
 
 ## explanation_c
-Correct. The mature erythrocyte and granulocyte cannot divide, yet the population turns over constantly because the stem cell behind them does. Epidermis and gut lining work the same way.
+The mature erythrocyte and granulocyte cannot divide, yet the population turns over constantly because the stem cell behind them does. Epidermis and gut lining work the same way.
 
 ## answer_d
 None of the above
@@ -1481,6 +1514,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q11 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -1519,7 +1555,7 @@ Non-renewing means a permanent exit from the cycle — nerve and cardiac muscle.
 Potentially renewable cells
 
 ## explanation_b
-Correct. The hepatocyte waits in G0 and re-enters the cycle when the organ loses mass, then leaves it again.
+The hepatocyte waits in G0 and re-enters the cycle when the organ loses mass, then leaves it again.
 
 ## answer_c
 Continuously renewing cells
@@ -1599,6 +1635,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q12 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -1649,7 +1688,7 @@ The exception, and the answer. Re-entering the cycle on demand is the defining b
 Heart and nerve cells are examples of that type
 
 ## explanation_d
-True, so not the exception. These two are the standard examples in the department book.
+True, so not the exception. These two are the standard examples.
 
 ## correct_answer
 C
@@ -1717,6 +1756,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q10 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -1767,7 +1809,7 @@ Down's is trisomy 21, an autosomal trisomy. The sex chromosomes are normal.
 Multiple X syndrome
 
 ## explanation_d
-Correct. 47,XXX is the female with an extra X; two Barr bodies are present, one for each inactivated X beyond the first.
+47,XXX is the female with an extra X; two Barr bodies are present, one for each inactivated X beyond the first.
 
 ## correct_answer
 D
@@ -1834,6 +1876,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q16 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cytogenetics].pdf p2 q16 (manifest src_be181ad1f0be0dab13c9).
@@ -1953,6 +1998,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q53 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -1991,7 +2039,7 @@ Numerical, but autosomal: trisomy 21. The question asks for the sex chromosomes.
 Turner's syndrome
 
 ## explanation_b
-Correct. 45,XO is a numerical aberration of the sex chromosomes — one X is missing, and no Barr body is found.
+45,XO is a numerical aberration of the sex chromosomes — one X is missing, and no Barr body is found.
 
 ## answer_c
 Isochromosome
@@ -2070,6 +2118,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q12 (manifest src_9cf32ada2b25fa54f0e9).
@@ -2189,6 +2240,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q64 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -2306,6 +2360,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q63 (manifest src_9cf32ada2b25fa54f0e9).
@@ -2425,6 +2482,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q52 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -2463,7 +2523,7 @@ Half right and therefore the strongest distractor: the Barr body is coiled, but 
 The inactive coiled X chromosome in the female
 
 ## explanation_b
-Correct. Every X beyond the first is condensed and inactivated, so the number of Barr bodies is one less than the number of X chromosomes — which is what makes it a counting test.
+Every X beyond the first is condensed and inactivated, so the number of Barr bodies is one less than the number of X chromosomes — which is what makes it a counting test.
 
 ## answer_c
 3-5% in buccal cell nuclei
@@ -2542,6 +2602,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q47 (manifest src_9cf32ada2b25fa54f0e9).
@@ -2661,6 +2724,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q21 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -2711,7 +2777,7 @@ This is the palatine arrangement, and it is why the palatine crypts fill with de
 Ducts of their mucous glands open at the base of the crypts
 
 ## explanation_d
-Correct. Secretion entering at the bottom of the crypt washes it out continuously, so debris and organisms do not accumulate the way they do in a palatine crypt.
+Secretion entering at the bottom of the crypt washes it out continuously, so debris and organisms do not accumulate the way they do in a palatine crypt.
 
 ## correct_answer
 D
@@ -2779,6 +2845,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q18 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -2829,7 +2898,7 @@ This is the lingual tonsil's arrangement, and it is exactly why the lingual tons
 Lymphatic tissue is formed of lymphatic nodules and diffuse lymphatic tissue
 
 ## explanation_d
-Correct. Like the other tonsils it is a partly encapsulated aggregation of nodules set in diffuse lymphatic tissue, not an organized organ with cortex and medulla.
+Like the other tonsils it is a partly encapsulated aggregation of nodules set in diffuse lymphatic tissue, not an organized organ with cortex and medulla.
 
 ## correct_answer
 D
@@ -2897,6 +2966,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p8 q12 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -2935,7 +3007,7 @@ The pharyngeal tonsil has folds, not crypts. Deep branching crypts are the palat
 Covering epithelium is pseudo-stratified columnar with goblet cells
 
 ## explanation_b
-Correct. It sits in the nasopharynx, so it keeps respiratory epithelium — which is the single feature that separates it from every other tonsil.
+It sits in the nasopharynx, so it keeps respiratory epithelium — which is the single feature that separates it from every other tonsil.
 
 ## answer_c
 Present in the lateral wall of the oropharynx
@@ -3015,6 +3087,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q24 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -3059,7 +3134,7 @@ The follicular zone is the darkly staining rim around the germinal centre and is
 Peri-arteriolar lymphatic sheath
 
 ## explanation_c
-Correct. The PALS is the sleeve of mainly T lymphocytes wrapped directly around the central arteriole, and it is the splenic counterpart of the paracortex of a lymph node.
+The PALS is the sleeve of mainly T lymphocytes wrapped directly around the central arteriole, and it is the splenic counterpart of the paracortex of a lymph node.
 
 ## answer_d
 Germinal center
@@ -3133,6 +3208,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q4 (manifest src_9cf32ada2b25fa54f0e9); EOM 196 104 2023 No answers  (1).pdf p13 q103 (manifest src_5465875dc14a998b7b21); EOM 196 104 - 2023 (1).pdf p13 q103 (manifest src_f1905b4b83def7d5642b).
 
@@ -3165,7 +3243,7 @@ The thymus dependent zone of the spleen is present at:
 Around the central arteriole of the white pulp
 
 ## explanation_a
-Correct. The PALS is defined by what it surrounds: the central arteriole, which is eccentric in the follicle and is the landmark that identifies splenic white pulp on a slide.
+The PALS is defined by what it surrounds: the central arteriole, which is eccentric in the follicle and is the landmark that identifies splenic white pulp on a slide.
 
 ## answer_b
 Germinal center of the white pulp
@@ -3251,6 +3329,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p8 q15 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -3301,7 +3382,7 @@ Medullary cords are branched masses of B lymphocytes and plasma cells; splenic s
 Paracortex and periarteriolar lymphatic sheath
 
 ## explanation_d
-Correct. Both organs put their T cells in a deep zone between the follicles and the medulla or red pulp — the paracortex in the node, the PALS in the spleen.
+Both organs put their T cells in a deep zone between the follicles and the medulla or red pulp — the paracortex in the node, the PALS in the spleen.
 
 ## correct_answer
 D
@@ -3369,6 +3450,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q16 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -3419,7 +3503,7 @@ Mainly T lymphocytes; it is the thymus-dependent zone.
 Marginal zone
 
 ## explanation_d
-Correct. The marginal zone is the periphery of the white pulp, where blood first meets lymphoid tissue, and it holds B and T lymphocytes together with plasma cells, macrophages and antigen-presenting cells.
+The marginal zone is the periphery of the white pulp, where blood first meets lymphoid tissue, and it holds B and T lymphocytes together with plasma cells, macrophages and antigen-presenting cells.
 
 ## correct_answer
 D
@@ -3487,6 +3571,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q15 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -3519,7 +3606,7 @@ Which type of capillary has a continuous endothelium and a continuous basal lami
 Continuous
 
 ## explanation_a
-Correct. The continuous (somatic) capillary is a sealed tube: unbroken endothelium, tight junctions between the cells, and an unbroken basal lamina. It is the type found in muscle, nervous tissue, skin and lung.
+The continuous (somatic) capillary is a sealed tube: unbroken endothelium, tight junctions between the cells, and an unbroken basal lamina. It is the type found in muscle, nervous tissue, skin and lung.
 
 ## answer_b
 Fenestrated
@@ -3605,6 +3692,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q41 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -3643,7 +3733,7 @@ The continuous capillary carries the other name — somatic capillary — becaus
 Fenestrated
 
 ## explanation_b
-Correct. Fenestrated capillaries are called visceral because they serve organs that must exchange in bulk: gut mucosa, endocrine glands and the renal glomerulus.
+Fenestrated capillaries are called visceral because they serve organs that must exchange in bulk: gut mucosa, endocrine glands and the renal glomerulus.
 
 ## answer_c
 Sinusoidal
@@ -3723,6 +3813,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q44 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -3767,7 +3860,7 @@ Fenestrated capillaries serve the intestine, endocrine glands and kidney. Their 
 Sinusoidal
 
 ## explanation_c
-Correct. Liver, spleen and bone marrow need whole cells to cross the wall, so the sinusoid is wide, has large intercellular gaps and a discontinuous basal lamina, with macrophages in its wall.
+Liver, spleen and bone marrow need whole cells to cross the wall, so the sinusoid is wide, has large intercellular gaps and a discontinuous basal lamina, with macrophages in its wall.
 
 ## answer_d
 Lymphatic
@@ -3841,6 +3934,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q46 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -3879,7 +3975,7 @@ Pores are the fenestrated capillary's. The somatic capillary's endothelium is un
 The most common type
 
 ## explanation_b
-Correct. The somatic — continuous — capillary is the default capillary of the body, found in muscle, nervous tissue, skin, lung and connective tissue.
+The somatic — continuous — capillary is the default capillary of the body, found in muscle, nervous tissue, skin, lung and connective tissue.
 
 ## answer_c
 Has discontinuous basement membrane
@@ -3959,6 +4055,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p18 q22 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cardiovascular].pdf p3 q22 (manifest src_b1c03ac55330bb88dc62).
 
@@ -3997,7 +4096,7 @@ Kupffer cells belong to the hepatic sinusoid. The spleen has its own macrophages
 Are lined with elongated endothelial cells with large intercellular spaces
 
 ## explanation_b
-Correct. The stave cells lie parallel to the long axis like the staves of a barrel, with wide gaps between them — which is how a red cell is forced to deform to leave the cord, and how the spleen tests its flexibility.
+The stave cells lie parallel to the long axis like the staves of a barrel, with wide gaps between them — which is how a red cell is forced to deform to leave the cord, and how the spleen tests its flexibility.
 
 ## answer_c
 Stave cells are phagocytic cells that surround their walls
@@ -4077,6 +4176,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q10 (manifest src_2b531af1f3f6eace5974); Histo MCQ by Dr.Kandeel [104].pdf p8 q11 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -4115,7 +4217,7 @@ That is the endothelium's job. The pericyte lies outside it, wrapped in its own 
 Regulate the blood flow through capillaries
 
 ## explanation_b
-Correct. The pericyte is contractile and shares the endothelial basal lamina; it is the capillary's substitute for a tunica media.
+The pericyte is contractile and shares the endothelial basal lamina; it is the capillary's substitute for a tunica media.
 
 ## answer_c
 Can differentiate into elastic fibers
@@ -4195,6 +4297,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p3 q25 (manifest src_437b45e5de1d97a26dc6); Histo MCQ by Dr.Kandeel [104].pdf p19 q25 (manifest src_9cf32ada2b25fa54f0e9).
 
@@ -4245,7 +4350,7 @@ Fibroblasts make the connective tissue around the vessel; they are not part of i
 Pericytes
 
 ## explanation_d
-Correct. The pericyte is the contractile cell of the capillary wall, sharing the endothelial basal lamina, and it stands in for the tunica media the capillary does not have.
+The pericyte is the contractile cell of the capillary wall, sharing the endothelial basal lamina, and it stands in for the tunica media the capillary does not have.
 
 ## correct_answer
 D
@@ -4312,6 +4417,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p15 q114 (manifest src_5465875dc14a998b7b21); EOM 196 104 - 2023 (1).pdf p15 q114 (manifest src_f1905b4b83def7d5642b).
@@ -4418,6 +4526,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p15, matching table (manifest src_df6b7a7de75411dbb92b).
@@ -4526,6 +4637,9 @@ yes
 ## owner
 Claude
 
+## resource_ids
+src_18d3a953df4ca83c4e74
+
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p5, Table III (manifest src_b1c03ac55330bb88dc62).
 
@@ -4631,6 +4745,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p3, Table 1 (manifest src_79af3b3857ba47239529).
@@ -4738,6 +4855,9 @@ yes
 
 ## owner
 Claude
+
+## resource_ids
+src_18d3a953df4ca83c4e74
 
 ## source_citation
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p4, Table 2 (manifest src_12ecc23fe206a928203d); DPT HISTO MCQ [Respiratory].pdf p4, matching table (manifest src_d0d3d52a9b3b79169a9c).

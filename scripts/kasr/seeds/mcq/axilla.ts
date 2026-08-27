@@ -208,7 +208,7 @@ export const LEAF: McqLeafSeed = {
       label: 'The shoulder joint\'s four ligaments are weak, which is why the joint dislocates',
       definition: 'The shoulder joint is a synovial polyaxial ball-and-socket joint between the head of the humerus and the glenoid cavity, deepened by the labrum glenoidale. Its ligaments are three weak gleno-humeral ligaments strengthening the anterior capsule, from the anterior margin of the glenoid cavity to the lesser tuberosity and the anatomical neck; the stronger coraco-humeral ligament strengthening the upper capsule, from the coracoid process to the upper border of the greater tuberosity; the transverse humeral ligament, a broad band from lesser to greater tuberosity converting the intertubercular groove into a canal and acting as a retinaculum for the long head of biceps; and the coraco-acromial ligament, which with the coracoid and acromion forms the coraco-acromial arch, a secondary socket above the joint. The joint is weak, unstable and easily dislocated because a very large humeral head sits against a small shallow glenoid, because the capsule and ligaments are weak and lax, and because no muscle supports the capsule directly from below.',
       objective: 'List the ligaments of the shoulder joint with their attachments, and relate their weakness to the instability of the joint.',
-      pitfall: 'Reading the gleno-humeral ligaments as the joint\'s support. The book calls all three weak; what actually holds the shoulder is the rotator cuff, and the coraco-acromial arch above.',
+      pitfall: 'Reading the gleno-humeral ligaments as the joint\'s support. All three are weak; what actually holds the shoulder is the rotator cuff, and the coraco-acromial arch above.',
       subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
       modulePath: '101 ISK > Anatomy > Upper Limb > Joints of Upper Limb',
       type: 'structural_description',
@@ -226,7 +226,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'One word wrong, and the word matters. The axillary artery begins at the outer border of the first rib — that crossing is the line at which the subclavian artery changes its name, and an inner border would put the change inside the thorax.',
         B: 'The wrong teres. The artery ends at the lower border of teres major and becomes the brachial; teres minor is a rotator cuff muscle high on the posterior wall and nothing ends at it.',
-        C: 'Correct. Pectoralis minor crosses the artery and divides it into a first part above the muscle, a second behind it and a third below it, and the branches are counted by those parts.',
+        C: 'Pectoralis minor crosses the artery and divides it into a first part above the muscle, a second behind it and a third below it, and the branches are counted by those parts.',
         D: 'The wrong nerve on the right side. Medial to the third part lies the ulnar nerve; the median nerve lies in front of it, formed there by its two roots.',
       },
     },
@@ -240,7 +240,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Two sheets of fascia in the same region, doing different jobs. The clavipectoral fascia is local to the pectoral region and forms the deep layer of the anterior wall; the sheath descends from the neck as prevertebral fascia and lies inside the axilla.',
         B: 'The word "only" is what makes it false. The sheath encloses the artery as well as the nerves, and it is the artery inside it that makes the axillary approach to a plexus block reliable.',
-        C: 'Correct. The axillary artery lies within the sheath with the cords of the brachial plexus around it, which is why anaesthetic injected there reaches all of them.',
+        C: 'The axillary artery lies within the sheath with the cords of the brachial plexus around it, which is why anaesthetic injected there reaches all of them.',
         D: 'The lymph nodes lie in the axillary fat outside the sheath, which is what lets them be dissected out without opening the sheath and injuring the plexus.',
       },
     },
@@ -250,7 +250,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Nerve supply',
       learningObjective: 'Name the two branches of the upper trunk and separate them from root and cord branches.',
       explanations: {
-        A: 'Correct, and the key. The upper trunk gives only two branches — the nerve to subclavius and the suprascapular nerve — and the suprascapular is the one that matters, running through the suprascapular notch to supraspinatus and infraspinatus.',
+        A: 'This is the key. The upper trunk gives only two branches — the nerve to subclavius and the suprascapular nerve — and the suprascapular is the one that matters, running through the suprascapular notch to supraspinatus and infraspinatus.',
         B: 'The long thoracic nerve comes off the roots, from C5, C6 and C7, before any trunk is formed. Students place it on a trunk because it is a long named nerve like the suprascapular.',
         C: 'The upper subscapular nerve comes from the posterior cord, two stages further along, with the lower subscapular and the thoracodorsal.',
         D: 'The axillary nerve is a terminal branch of the posterior cord, not a trunk branch — although its fibres are C5 and C6, the same as the upper trunk, which is exactly why it is a tempting option.',
@@ -263,7 +263,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Separate the branches of the axillary artery from those of the brachial artery.',
       explanations: {
         A: 'Correct as a distractor because it is the other large branch in the region. The profunda brachii comes off the brachial artery just below teres major and runs with the radial nerve in the spiral groove.',
-        B: 'Correct, and the key. The subscapular artery is the largest branch of the axillary artery, from its third part, and it gives the circumflex scapular before continuing as the thoracodorsal.',
+        B: 'This is the key. The subscapular artery is the largest branch of the axillary artery, from its third part, and it gives the circumflex scapular before continuing as the thoracodorsal.',
         C: 'The superior ulnar collateral is a branch of the brachial artery in the arm, running with the ulnar nerve behind the medial epicondyle.',
         D: 'The inferior ulnar collateral is also a brachial artery branch, arising just above the elbow to join the anastomosis around the joint.',
       },
@@ -276,7 +276,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key; the copy at `regarding-lesion-of-the-lower-root-of-the-brachial-plexus-th-729c03b6` is keyed A and A is the only true statement. C8 and T1 supply the small muscles of the hand through the ulnar nerve, so their loss paralyses the intrinsics.',
       explanations: {
-        A: 'Correct. C8 and T1 fibres reach the lumbricals and interossei mainly through the ulnar nerve, so a lower trunk lesion paralyses the intrinsic muscles and claws the hand.',
+        A: 'C8 and T1 fibres reach the lumbricals and interossei mainly through the ulnar nerve, so a lower trunk lesion paralyses the intrinsic muscles and claws the hand.',
         B: 'The wrong deformity, from the wrong lesion. Ape hand — a flat thenar eminence with the thumb pulled back into the plane of the palm — follows a median nerve injury; a lower trunk lesion gives a claw hand.',
         C: 'The wrong mechanism. Fracture of the clavicle sits over the middle of the plexus and classically threatens the upper trunk or the cords; the lower trunk is torn by traction with the arm forced upwards, as in a fall while clutching at something.',
         D: 'The wrong side of the limb. C8 and T1 carry sensation from the medial side of the arm, forearm and hand; the lateral side of the arm is C5 and C6 and belongs to Erb\'s palsy.',
@@ -293,7 +293,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The smallest branch offered as the largest. The superior thoracic is a twig to the first two intercostal spaces; the largest branch of the axillary artery is the subscapular, from the third part.',
         B: 'The right crossing given to the wrong root. The median nerve is formed in front of the third part of the artery, and it is the medial root that has to cross the artery to reach the lateral root — the lateral root is already on that side.',
         C: 'Pectoralis minor covers only the second part. It crosses the artery rather than covering it, which is exactly why it can be used to divide the vessel into three.',
-        D: 'Correct. The axillary vein lies on the medial side of the artery throughout, which is why it is the vein that is reached first from the medial side and the vein that a medial-wall injury opens.',
+        D: 'The axillary vein lies on the medial side of the artery throughout, which is why it is the vein that is reached first from the medial side and the vein that a medial-wall injury opens.',
       },
     },
     {
@@ -305,7 +305,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The upper border of the scapula is the posterior boundary of the canal, so B is true; A gives the inner instead of the outer border of the first rib, C sends the roots through when the roots stay in the neck, and D names the subclavian vessels when the vessels change their name at the canal itself.',
       explanations: {
         A: 'The wrong border of the right bone. The medial boundary is the outer border of the first rib — the same line at which the subclavian artery becomes the axillary — and the inner border faces into the thorax.',
-        B: 'Correct. The canal is bounded in front by the clavicle with subclavius, behind by the upper border of the scapula, and medially by the outer border of the first rib.',
+        B: 'The canal is bounded in front by the clavicle with subclavius, behind by the upper border of the scapula, and medially by the outer border of the first rib.',
         C: 'The commonest error about this canal. The roots of the plexus lie in the neck between scalenus anterior and scalenus medius; by the time the canal is reached they have joined into trunks and divided into divisions.',
         D: 'True only up to the moment of passage. The subclavian artery becomes the axillary artery as it crosses the outer border of the first rib, which is the medial edge of the canal — so what the canal transmits is the axillary vessels.',
       },
@@ -320,7 +320,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The posterior cord gives the radial, axillary, upper and lower subscapular and thoracodorsal nerves. The rhomboids are on the back like the posterior cord\'s muscles, which is what makes this the strongest wrong answer.',
         B: 'The upper trunk gives the nerve to subclavius and the suprascapular nerve, and both go forwards or laterally rather than to the vertebral border of the scapula.',
-        C: 'Correct. The dorsal scapular nerve comes straight off the C5 root and pierces scalenus medius, which is why it can be injured by a lesion too proximal to touch any trunk.',
+        C: 'The dorsal scapular nerve comes straight off the C5 root and pierces scalenus medius, which is why it can be injured by a lesion too proximal to touch any trunk.',
         D: 'The medial cord supplies the flexor side of the forearm and hand and reaches nothing on the back of the scapula.',
       },
     },
@@ -333,7 +333,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The dorsal scapular nerve arises from the C5 root; the medial pectoral, axillary and thoracodorsal nerves all arise from cords.',
       explanations: {
         A: 'The medial pectoral nerve comes from the medial cord, alongside the ulnar and the medial cutaneous nerves.',
-        B: 'Correct. The dorsal scapular nerve leaves the C5 root before the trunks form, with the long thoracic nerve — the plexus\'s only two root branches.',
+        B: 'The dorsal scapular nerve leaves the C5 root before the trunks form, with the long thoracic nerve — the plexus\'s only two root branches.',
         C: 'The axillary nerve is a terminal branch of the posterior cord, at the far end of the plexus.',
         D: 'The thoracodorsal nerve also comes from the posterior cord. It is picked here because its muscle, latissimus dorsi, is on the back like the rhomboids of the true answer.',
       },
@@ -347,7 +347,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries D, but a lesion of terminal branches could not do this: the two deficits belong to two different nerves that separate before any cord. Winging is the long thoracic nerve, from the C5, C6 and C7 roots; hemidiaphragmatic paralysis is the phrenic nerve, from C3, C4 and C5. Only at the root stage do the two run close enough for one injury to take both.',
       explanations: {
         A: 'The cords lie below and beyond both nerves. The long thoracic nerve has already left the roots by then and the phrenic nerve is not part of the brachial plexus at all, so no single cord lesion explains the pair.',
-        B: 'Correct. The long thoracic nerve leaves C5, C6 and C7 and the phrenic nerve leaves C3, C4 and C5, so a lesion at the roots — where the two are neighbours in the neck — takes them both.',
+        B: 'The long thoracic nerve leaves C5, C6 and C7 and the phrenic nerve leaves C3, C4 and C5, so a lesion at the roots — where the two are neighbours in the neck — takes them both.',
         C: 'The trunks lie distal to where the long thoracic nerve leaves the plexus, and the phrenic nerve never joins the plexus, so a trunk injury cannot produce either deficit in this combination.',
         D: 'The answer the extractor read off this page, and the reason for the override. A terminal branch is one named nerve; two deficits in two territories that separate at the roots cannot come from a single terminal branch.',
         E: 'The musculocutaneous nerve supplies the flexors of the arm and the skin of the lateral forearm. It has nothing to do with either the scapula or the diaphragm.',
@@ -390,7 +390,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A, the obturator nerve, which is a nerve of the lower limb and does not enter the upper limb at all. Every extensor of the wrist and fingers is supplied by the radial nerve, so B is the answer.',
       explanations: {
         A: 'The answer the extractor read off this page, and the reason for the override. The obturator nerve arises from the lumbar plexus and supplies the adductors of the thigh; nothing it does could affect a wrist.',
-        B: 'Correct. The radial nerve supplies every extensor of the wrist and fingers, so its injury — classically in the spiral groove after a fracture of the humeral shaft — lets the hand hang at the wrist.',
+        B: 'The radial nerve supplies every extensor of the wrist and fingers, so its injury — classically in the spiral groove after a fracture of the humeral shaft — lets the hand hang at the wrist.',
         C: 'The axillary nerve supplies deltoid and teres minor and reaches no further than the shoulder. Its injury flattens the shoulder and loses abduction, not extension of the wrist.',
         D: 'The phrenic nerve goes to the diaphragm. It is offered here because it is a familiar named nerve, not because it has any relation to the limb.',
       },
@@ -402,7 +402,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the nerve whose injury wings the scapula.',
       explanations: {
         A: 'The dorsal scapular nerve supplies the rhomboids and levator scapulae. Losing it weakens retraction, and any winging it produces is slight and not the classical sign.',
-        B: 'Correct, and the key. The long thoracic nerve supplies serratus anterior, the muscle that holds the medial border of the scapula against the chest wall.',
+        B: 'This is the key. The long thoracic nerve supplies serratus anterior, the muscle that holds the medial border of the scapula against the chest wall.',
         C: 'The thoracodorsal nerve supplies latissimus dorsi. It runs on the posterior wall of the axilla and is at risk in the same operation, but its loss costs extension and adduction of the arm.',
         D: 'The axillary nerve supplies deltoid and teres minor; its injury flattens the shoulder and loses abduction between fifteen and ninety degrees.',
       },
@@ -418,7 +418,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The lateral cutaneous nerve of the forearm is the continuation of the musculocutaneous nerve, and so belongs to the lateral cord. The word "lateral" in the name is the tell.',
         B: 'The musculocutaneous nerve is the lateral cord\'s own terminal branch, to the flexors of the arm.',
         C: 'The lateral pectoral nerve is a lateral cord branch, going to the clavicular head of pectoralis major. Its medial counterpart is the one that belongs to the medial cord.',
-        D: 'Correct. The ulnar nerve is the medial cord\'s largest branch, carrying C8 and T1 down the medial side of the limb.',
+        D: 'The ulnar nerve is the medial cord\'s largest branch, carrying C8 and T1 down the medial side of the limb.',
       },
     },
     {
@@ -428,7 +428,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Separate the branches of the axillary artery from those of the brachial artery.',
       explanations: {
         A: 'The profunda brachii is the brachial artery\'s first and largest branch, arising just below the lower border of teres major — a centimetre or two past the point at which the axillary artery has already ended.',
-        B: 'Correct, and the key. The subscapular artery is the largest branch of the axillary, from the third part.',
+        B: 'This is the key. The subscapular artery is the largest branch of the axillary, from the third part.',
         C: 'The superior ulnar collateral arises from the brachial artery and accompanies the ulnar nerve behind the medial epicondyle.',
         D: 'The inferior ulnar collateral also comes from the brachial artery, near the elbow, and feeds the anastomosis around the joint.',
       },
@@ -439,7 +439,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Assign each named branch of the axillary artery to its part.',
       explanations: {
-        A: 'Correct, and the key. The lateral thoracic artery comes off the second part and runs along the lower border of pectoralis minor to the chest wall and the breast.',
+        A: 'This is the key. The lateral thoracic artery comes off the second part and runs along the lower border of pectoralis minor to the chest wall and the breast.',
         C: 'The posterior circumflex humeral comes from the third part, passing back through the quadrangular space with the axillary nerve.',
         D: 'The superior thoracic is the single branch of the first part, above pectoralis minor.',
         E: 'The subscapular artery is the largest branch, and it comes from the third part with the two circumflex humerals.',
@@ -453,7 +453,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key; the keyed copy `one-of-the-following-is-a-branch-of-the-second-part-of-the-a-3304412e` marks A. The second part gives the thoraco-acromial and the lateral thoracic arteries, and of the five options only the lateral thoracic is one of them.',
       explanations: {
-        A: 'Correct. The lateral thoracic artery is the second part\'s branch to the chest wall and the breast, running along the lower border of pectoralis minor.',
+        A: 'The lateral thoracic artery is the second part\'s branch to the chest wall and the breast, running along the lower border of pectoralis minor.',
         B: 'The anterior circumflex humeral comes from the third part, running laterally in front of the surgical neck of the humerus.',
         C: 'The posterior circumflex humeral is its partner, also from the third part, going backwards through the quadrangular space.',
         D: 'The superior thoracic is the first part\'s only branch and lies above pectoralis minor, not behind it.',
@@ -468,7 +468,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The first part of the axillary artery lies deep to the fascia rather than passing through it; it is the artery\'s branch, the thoraco-acromial, that pierces it.',
         B: 'The axillary vein also lies deep to the fascia. The vein that pierces it is the cephalic, coming the other way — from the deltopectoral groove inwards to join the axillary vein.',
-        C: 'Correct, and the key. The lateral pectoral nerve pierces the fascia to reach the deep surface of pectoralis major, one of the four structures that go through it.',
+        C: 'This is the key. The lateral pectoral nerve pierces the fascia to reach the deep surface of pectoralis major, one of the four structures that go through it.',
         D: 'The medial pectoral nerve pierces pectoralis minor rather than the fascia, and supplies both that muscle and the sternocostal head of pectoralis major. One syllable separates it from the answer.',
       },
     },
@@ -494,7 +494,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key; the keyed copy `regarding-lesion-of-the-lower-root-of-the-brachial-plexus-th-729c03b6` marks A, and A is the only true statement of the four.',
       explanations: {
-        A: 'Correct. C8 and T1 supply the small muscles of the hand through the ulnar nerve, so the intrinsics are what a lower trunk lesion costs.',
+        A: 'C8 and T1 supply the small muscles of the hand through the ulnar nerve, so the intrinsics are what a lower trunk lesion costs.',
         B: 'Ape hand belongs to the median nerve, not to the lower trunk. The lower trunk gives a claw hand — the two are opposite in which joints are flexed.',
         C: 'Fracture of the clavicle threatens the trunks and cords passing behind it, and the classical mechanism for the lower trunk is traction with the arm forced upwards instead.',
         D: 'The wrong side of the limb: C8 and T1 carry the medial strip of skin, and the lateral side of the arm is C5 and C6.',
@@ -506,7 +506,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Give the muscles, the deformity and the sensory territory of a C8–T1 lesion.',
       explanations: {
-        A: 'Correct, and the key. The lumbricals and interossei take their fibres from C8 and T1 through the ulnar nerve, so a lower trunk lesion paralyses them and the hand claws.',
+        A: 'This is the key. The lumbricals and interossei take their fibres from C8 and T1 through the ulnar nerve, so a lower trunk lesion paralyses them and the hand claws.',
         B: 'Ape hand — the thumb pulled back into the plane of the palm with a wasted thenar eminence — is a median nerve sign.',
         C: 'A clavicular fracture lies over the trunks and cords rather than the lower trunk specifically; the lower trunk is torn by upward traction on the abducted arm.',
         D: 'C8 and T1 carry the medial strip of the arm, forearm and hand. The lateral strip is C5 and C6, and losing it is Erb\'s palsy.',
@@ -520,7 +520,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key; two keyed copies of this question in the Pectoral Region leaf both mark A. Pectoralis major inserts into the lateral lip of the bicipital groove, and each of the other three statements reverses a fact.',
       explanations: {
-        A: 'Correct. The lateral lip of the bicipital groove takes pectoralis major, the floor takes latissimus dorsi and the medial lip takes teres major.',
+        A: 'The lateral lip of the bicipital groove takes pectoralis major, the floor takes latissimus dorsi and the medial lip takes teres major.',
         B: 'The wrong cord. The pectoral nerves come from the lateral and medial cords; the posterior cord supplies the extensor side of the limb.',
         C: 'The wrong wall. Pectoralis major is the anterior wall of the axilla; the medial wall is serratus anterior over the upper ribs.',
         D: 'The wrong direction. Pectoralis major lies in front of the shoulder joint and rotates the arm medially.',
@@ -534,7 +534,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key; the keyed copies in the Pectoral Region leaf mark A, and the lateral lip of the bicipital groove is the muscle\'s insertion.',
       explanations: {
-        A: 'Correct. Lateral lip for pectoralis major, floor for latissimus dorsi, medial lip for teres major — three tendons in one groove.',
+        A: 'Lateral lip for pectoralis major, floor for latissimus dorsi, medial lip for teres major — three tendons in one groove.',
         B: 'The pectoral nerves are lateral and medial cord branches, never posterior cord.',
         C: 'Pectoralis major forms the anterior wall of the axilla, not the medial.',
         D: 'Pectoralis major is a medial rotator; the lateral rotators are infraspinatus and teres minor, behind the joint.',
@@ -550,7 +550,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Incomplete rather than wrong, and incompleteness is what the word "only" makes fatal. The posterior wall is subscapularis with teres major and latissimus dorsi below it.',
         B: 'The answer the extractor read off this page, and the reason for the override. The roots of the plexus lie in the neck; the axilla holds the cords, which is why they are named for their positions round the second part of the axillary artery.',
-        C: 'Correct. The apex of the axilla is the cervico-axillary canal, between the clavicle in front, the upper border of the scapula behind and the outer border of the first rib medially.',
+        C: 'The apex of the axilla is the cervico-axillary canal, between the clavicle in front, the upper border of the scapula behind and the outer border of the first rib medially.',
         D: 'The wrong pair of muscles for that wall. The pectoral muscles form the anterior wall; the medial wall is the upper ribs and intercostals covered by serratus anterior.',
       },
     },
@@ -564,7 +564,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The outer border of the first rib, not the inner. That crossing is the line at which the subclavian artery becomes the axillary.',
         B: 'Teres major, not teres minor. The lower border of teres major is where the axillary artery becomes the brachial.',
-        C: 'Correct. The third part has the ulnar nerve and the medial cutaneous nerve of the forearm on its medial side, the median nerve in front and the radial and axillary nerves behind.',
+        C: 'The third part has the ulnar nerve and the medial cutaneous nerve of the forearm on its medial side, the median nerve in front and the radial and axillary nerves behind.',
         D: 'The answer the extractor took from this page, and the reason for the override. Behind the second part lies the posterior cord itself; the axillary nerve is one of that cord\'s two terminal branches and lies behind the third part instead. The option names a branch where the parent belongs.',
       },
     },
@@ -578,7 +578,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The answer the extractor read off this page, and the reason for the override. Outer border, not inner — and the difference is not pedantic, since the outer border of the first rib is exactly where the subclavian artery changes its name.',
         B: 'Teres major ends the artery, not teres minor. The two names differ by one word and lie centimetres apart on the posterior wall.',
-        C: 'Correct. Pectoralis minor crosses the artery and makes its first, second and third parts, and the branches are learnt by those parts.',
+        C: 'Pectoralis minor crosses the artery and makes its first, second and third parts, and the branches are learnt by those parts.',
         D: 'Medial to the third part lies the ulnar nerve; the median nerve is in front of it, formed there by the union of its two roots.',
       },
     },
@@ -592,7 +592,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Outer border of the first rib, not inner.',
         B: 'Lower border of teres major, not teres minor.',
-        C: 'Correct. The three parts of the axillary artery are defined by pectoralis minor crossing it: above, behind and below the muscle.',
+        C: 'The three parts of the axillary artery are defined by pectoralis minor crossing it: above, behind and below the muscle.',
         D: 'The ulnar nerve lies medial to the third part; the median nerve lies in front.',
       },
     },
@@ -607,7 +607,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The smallest branch called the largest. The subscapular artery, from the third part, is the largest branch of the axillary; the superior thoracic is a twig from the first part.',
         B: 'The answer the extractor read off this page, and the reason for the override. The median nerve is formed in front of the third part by two roots, and only the medial root has to cross the artery to reach its partner.',
         C: 'Pectoralis minor crosses the artery over its second part alone. Calling it a cover for most of the vessel makes nonsense of the three-part division that same muscle produces.',
-        D: 'Correct. The axillary vein lies medial to the artery along its whole course, formed at the lower border of teres major and continuing as the subclavian at the outer border of the first rib.',
+        D: 'The axillary vein lies medial to the artery along its whole course, formed at the lower border of teres major and continuing as the subclavian at the outer border of the first rib.',
       },
     },
     {
@@ -620,7 +620,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The wrong cord, and the wrong side of the limb. The ulnar nerve is the largest branch of the medial cord, carrying C8 and T1 down the medial side.',
         B: 'Inverted. The ulnar nerve gives no branches in the arm and several in the forearm — flexor carpi ulnaris, the medial half of flexor digitorum profundus, and the palmar and dorsal cutaneous branches. A student who has learnt "no branches in the arm" and misremembers which segment picks this.',
-        C: 'Correct. The nerve passes behind the medial epicondyle in a groove on the bone, where it can be rolled under a finger and where a blow gives the sensation in the little finger.',
+        C: 'The nerve passes behind the medial epicondyle in a groove on the bone, where it can be rolled under a finger and where a blow gives the sensation in the little finger.',
         D: 'The name is the trap. Extensor carpi ulnaris lies on the ulnar side of the forearm but is an extensor, and every extensor of the forearm is supplied by the radial nerve.',
       },
     },
@@ -631,7 +631,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute the clavipectoral fascia to the cephalic vein and the bicipital aponeurosis to the median cubital vein.',
       explanations: {
         A: 'Correct relationship, wrong vein. The bicipital aponeurosis separates the median cubital vein from the brachial artery, which is what makes venepuncture at the elbow safe.',
-        B: 'Correct, and the key. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and stays lateral all the way up.',
+        B: 'This is the key. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and stays lateral all the way up.',
         C: 'The two veins swapped. It is the cephalic that pierces the clavipectoral fascia; the basilic pierces the deep fascia about the middle of the arm.',
         D: 'The brachial artery has two venae comitantes; the axillary artery has a single axillary vein, formed where those venae comitantes join the basilic.',
       },
@@ -645,7 +645,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key; the keyed copy `regarding-veins-of-upper-limb-one-is-correct-answer-6fe460c6` marks B, and B is the only true statement — the cephalic vein does begin at the lateral end of the dorsal venous arch.',
       explanations: {
         A: 'The bicipital aponeurosis lies under the median cubital vein, not the cephalic, and that is what protects the brachial artery from a needle.',
-        B: 'Correct. Lateral end of the dorsal venous arch for the cephalic vein; the basilic takes the medial end.',
+        B: 'Lateral end of the dorsal venous arch for the cephalic vein; the basilic takes the medial end.',
         C: 'The cephalic vein pierces the clavipectoral fascia, and the basilic pierces the deep fascia of the arm. Both pierce something, which is what makes the pair easy to swap.',
         D: 'Venae comitantes accompany the brachial artery and end by helping to form the single axillary vein.',
       },
@@ -660,7 +660,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The answer the extractor took from this page, and the reason for the override. The upper part of the axillary vein is where the apical group sits, behind the clavicle; the lateral group runs along the vein lower down. Neither is the pectoral group.',
         B: 'The lower part of the axillary vein is the territory of the lateral or humeral group, which drains the upper limb.',
-        C: 'Correct. The anterior (pectoral) group lies on the medial wall along the lower border of pectoralis minor with the lateral thoracic vessels, and receives about three quarters of the lymph of the breast.',
+        C: 'The anterior (pectoral) group lies on the medial wall along the lower border of pectoralis minor with the lateral thoracic vessels, and receives about three quarters of the lymph of the breast.',
         D: 'The subscapular vessels carry the posterior (subscapular) group, on the posterior wall.',
       },
     },
@@ -674,7 +674,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The upper part of the axillary vein belongs to the apical group, behind the clavicle and subclavius.',
         B: 'The lower part of the axillary vein belongs to the lateral or humeral group, which drains the limb.',
-        C: 'Correct. Anterior wall, pectoral group, lateral thoracic vessels — the group that takes the greater part of the lymph of the breast.',
+        C: 'Anterior wall, pectoral group, lateral thoracic vessels — the group that takes the greater part of the lymph of the breast.',
         D: 'The subscapular vessels carry the posterior group on the posterior wall of the axilla.',
       },
     },
@@ -731,7 +731,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The bank carries B, but a fracture of the mid-shaft of the humerus injures the radial nerve in the spiral groove. The axillary nerve winds round the surgical neck, so A is the fracture that endangers it.',
       explanations: {
-        A: 'Correct. The axillary nerve passes backwards through the quadrangular space and winds round the surgical neck of the humerus against the bone, so a fracture there — or a dislocation of the shoulder — is what takes it.',
+        A: 'The axillary nerve passes backwards through the quadrangular space and winds round the surgical neck of the humerus against the bone, so a fracture there — or a dislocation of the shoulder — is what takes it.',
         B: 'The answer the extractor read off this page, and the reason for the override. The mid-shaft is the radial nerve\'s level, in the spiral groove, and the deformity there is wrist drop rather than a flat shoulder.',
         C: 'The medial epicondyle is the ulnar nerve\'s level, and a fracture there gives a claw hand and numbness of the little finger.',
         D: 'A fracture of the trochlea is at the elbow and threatens the median nerve in front and the ulnar behind. Nothing at the elbow can reach a nerve that ends at the shoulder.',
@@ -746,7 +746,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries C, but the long head of triceps arises from the infraglenoid tubercle of the scapula and runs down the back of the arm, nowhere near the groove. The intertubercular groove lodges the tendon of the long head of biceps, held there by the transverse humeral ligament.',
       explanations: {
         A: 'The axillary artery runs down the axilla medial to the humerus and ends at the lower border of teres major; it never lies in a bony groove of the humerus.',
-        B: 'Correct. The tendon of the long head of biceps arises from the supraglenoid tubercle, crosses inside the shoulder joint and descends in the intertubercular groove, roofed by the transverse humeral ligament.',
+        B: 'The tendon of the long head of biceps arises from the supraglenoid tubercle, crosses inside the shoulder joint and descends in the intertubercular groove, roofed by the transverse humeral ligament.',
         C: 'The answer the extractor read off this page, and the reason for the override. Long head of triceps, not biceps: it arises from the infraglenoid tubercle and passes down the back of the arm between teres major and teres minor.',
         D: 'Coracobrachialis runs from the coracoid process to the middle of the medial side of the humeral shaft, well below and medial to the groove — a lateral wall structure of the axilla, but not a groove tenant.',
       },
@@ -761,7 +761,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Five roots, not eight — C5, C6, C7, C8 and T1. Eight is the number of cervical nerves altogether, which is where the figure comes from.',
         B: 'Three trunks: upper from C5 and C6, middle from C7 alone, lower from C8 and T1.',
-        C: 'Correct. Three trunks each divide into an anterior and a posterior division behind the clavicle, giving six divisions — and it is that split which separates flexor supply from extensor supply for the rest of the limb.',
+        C: 'Three trunks each divide into an anterior and a posterior division behind the clavicle, giving six divisions — and it is that split which separates flexor supply from extensor supply for the rest of the limb.',
         D: 'Three cords, not four: lateral, medial and posterior, named for their relation to the second part of the axillary artery.',
         E: 'Chosen when a student has none of the four figures secure. One of them is right, and it is the divisions.',
       },
@@ -775,7 +775,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The upper border of the scapula forms the posterior boundary of the canal; A names the wrong border of the first rib, C sends the roots through when they remain in the neck, and D names the vessels by the name they lose at that very point.',
       explanations: {
         A: 'Outer border of the first rib, not inner. The outer border is where the subclavian vessels change their names to axillary.',
-        B: 'Correct. Clavicle and subclavius in front, upper border of the scapula behind, outer border of the first rib medially.',
+        B: 'Clavicle and subclavius in front, upper border of the scapula behind, outer border of the first rib medially.',
         C: 'The roots stay in the neck between scalenus anterior and scalenus medius. Trunks and divisions are what traverse the canal.',
         D: 'What passes through is the axillary artery and vein. The subclavian vessels become axillary at the medial edge of the canal, so naming them subclavian describes them a moment too early.',
       },
@@ -789,7 +789,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key — option A has been echoed into the stem by the scan, which is page furniture and not a key. The upper border of the scapula is the canal\'s posterior boundary, so B is the answer, as it is on the other two copies of this question.',
       explanations: {
         A: 'The option the scan has echoed into the stem, and it is false: the medial boundary is the outer border of the first rib.',
-        B: 'Correct. The posterior boundary of the cervico-axillary canal is the upper border of the scapula.',
+        B: 'The posterior boundary of the cervico-axillary canal is the upper border of the scapula.',
         C: 'The roots of the plexus are in the neck; the canal transmits trunks and divisions.',
         D: 'The vessels are already becoming axillary as they cross the outer border of the first rib, which is the canal\'s own medial edge.',
       },
@@ -804,7 +804,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The posterior cord supplies the extensor side of the limb through the radial and axillary nerves and the three subscapular-group branches. The rhomboids being on the back makes this the tempting answer.',
         B: 'The upper trunk gives the suprascapular nerve and the nerve to subclavius only.',
-        C: 'Correct. The nerve leaves C5 before any trunk forms, which is what makes it a root branch.',
+        C: 'The nerve leaves C5 before any trunk forms, which is what makes it a root branch.',
         D: 'The medial cord\'s branches all run down the medial and flexor side of the limb.',
       },
     },
@@ -816,7 +816,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The medial pectoral nerve supplies pectoralis minor and the sternocostal head of pectoralis major, on the opposite wall of the axilla.',
         B: 'The lateral pectoral nerve supplies the clavicular head of pectoralis major, also on the anterior wall.',
-        C: 'Correct, and the key. The long thoracic nerve, C5 to C7, runs down on the outer surface of serratus anterior on the medial wall of the axilla — exposed, and so easily injured at axillary clearance.',
+        C: 'This is the key. The long thoracic nerve, C5 to C7, runs down on the outer surface of serratus anterior on the medial wall of the axilla — exposed, and so easily injured at axillary clearance.',
         D: 'The axillary nerve supplies deltoid and teres minor and does not reach the chest wall. It is offered because the question is about a muscle in the axilla.',
       },
     },
@@ -831,7 +831,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The lateral cutaneous nerve of the forearm is the terminal continuation of the musculocutaneous nerve, and so a lateral cord derivative.',
         B: 'The musculocutaneous nerve is the lateral cord\'s own terminal branch.',
         C: 'The lateral pectoral nerve belongs to the lateral cord; the medial cord\'s counterpart is the medial pectoral nerve.',
-        D: 'Correct. The ulnar nerve leaves the medial cord carrying C8 and T1 and runs down the medial side of the arm.',
+        D: 'The ulnar nerve leaves the medial cord carrying C8 and T1 and runs down the medial side of the arm.',
       },
     },
     {
@@ -840,7 +840,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Nerve supply',
       learningObjective: 'Name the muscle the radial nerve supplies while still in the axilla, before it enters the spiral groove.',
       explanations: {
-        A: 'Correct, and the key. In the axilla the radial nerve gives branches to the long and medial heads of triceps; the long head is the one it reaches first, before entering the spiral groove.',
+        A: 'This is the key. In the axilla the radial nerve gives branches to the long and medial heads of triceps; the long head is the one it reaches first, before entering the spiral groove.',
         B: 'The lateral head of triceps is supplied in the arm, after the nerve has left the axilla and entered the spiral groove. The muscle is right and the level is wrong, which is exactly what the stem is testing.',
         C: 'The long head of biceps is supplied by the musculocutaneous nerve, from the lateral cord. Its tendon runs in the intertubercular groove, which is why it comes to mind in any axillary question.',
         D: 'Anconeus is supplied by the radial nerve too, but at the far end of the arm, near the elbow.',
@@ -856,8 +856,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The wrong part. The subscapular artery arises from the third part of the axillary artery, below pectoralis minor, along with the two circumflex humeral arteries.',
         B: 'The posterior circumflex humeral is a separate branch of the third part in its own right, not a branch of the subscapular. The two arise within a centimetre of each other, which is what makes this plausible.',
-        C: 'The anastomosis around the surgical neck of the humerus is made by the anterior and posterior circumflex humeral arteries; the subscapular artery\'s own contribution is to the scapular anastomosis, through its circumflex scapular branch. The books key this option as correct, and it is defensible only on that looser reading.',
-        D: 'Correct. The subscapular artery gives off the circumflex scapular artery, which passes back through the triangular space to the infraspinous fossa, and then continues as the thoracodorsal artery to latissimus dorsi.',
+        C: 'The anastomosis around the surgical neck of the humerus is made by the anterior and posterior circumflex humeral arteries; the subscapular artery\'s own contribution is to the scapular anastomosis, through its circumflex scapular branch. This option is keyed correct, and it is defensible only on that looser reading.',
+        D: 'The subscapular artery gives off the circumflex scapular artery, which passes back through the triangular space to the infraspinous fossa, and then continues as the thoracodorsal artery to latissimus dorsi.',
       },
     },
     {
@@ -871,7 +871,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Third part, not second. The second part gives the thoraco-acromial and lateral thoracic arteries.',
         B: 'The posterior circumflex humeral arises directly from the third part alongside the subscapular, not from it.',
         C: 'The answer the extractor took from this page, and the reason for the override. It is the two circumflex humeral arteries that ring the surgical neck; the subscapular reaches the scapula, not the humeral neck, and belongs to the scapular anastomosis.',
-        D: 'Correct. The circumflex scapular is the subscapular artery\'s branch, and the subscapular then continues as the thoracodorsal.',
+        D: 'The circumflex scapular is the subscapular artery\'s branch, and the subscapular then continues as the thoracodorsal.',
       },
     },
     {
@@ -883,7 +883,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key; the keyed copy `the-suprascapular-nerve-is-a-branch-from-the-ipka-2022-2021-54f34e95` marks D, the posterior cord, which is wrong. The suprascapular nerve is one of the two branches of the upper trunk, with the nerve to subclavius.',
       explanations: {
         A: 'The root branches of the plexus are the dorsal scapular and the long thoracic nerves, and nothing else.',
-        B: 'Correct. The upper trunk gives the nerve to subclavius and the suprascapular nerve, which passes through the suprascapular notch to supraspinatus and infraspinatus.',
+        B: 'The upper trunk gives the nerve to subclavius and the suprascapular nerve, which passes through the suprascapular notch to supraspinatus and infraspinatus.',
         C: 'The middle trunk is C7 alone and gives no branches at all before it divides.',
         D: 'The muscles the suprascapular nerve supplies lie on the back of the scapula, which is why the posterior cord feels like the right home for it. The posterior cord\'s branches are the radial, axillary, two subscapular and thoracodorsal nerves.',
         E: 'The lateral cord supplies the flexor side of the arm and forearm through the musculocutaneous nerve and the lateral root of the median.',
@@ -898,7 +898,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries D, the posterior cord, and it cannot stand: the suprascapular nerve is a branch of the upper trunk, given off in the posterior triangle of the neck before the divisions are formed. This is a question the books record as asked in three separate sittings, so the error is worth correcting rather than passing on.',
       explanations: {
         A: 'Only the dorsal scapular and long thoracic nerves come from the roots.',
-        B: 'Correct. The upper trunk, C5 and C6, gives the nerve to subclavius and the suprascapular nerve.',
+        B: 'The upper trunk, C5 and C6, gives the nerve to subclavius and the suprascapular nerve.',
         C: 'The middle trunk gives no branches; C7 passes straight through to its two divisions.',
         D: 'The answer the extractor read off this page, and the reason for the override. Supraspinatus and infraspinatus are on the back of the scapula, which makes the posterior cord an attractive guess — but the posterior cord is formed behind the clavicle, long after the suprascapular nerve has left.',
         E: 'The lateral cord\'s branches go to the flexors of the arm and to the median nerve, on the front of the limb.',
@@ -914,7 +914,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The subclavian artery gives the vertebral, internal thoracic, thyro-cervical and costo-cervical trunks and the dorsal scapular. It has already become the axillary by the time this branch arises.',
         B: 'The first part gives one branch only, the superior thoracic.',
-        C: 'Correct. The second part gives the thoraco-acromial and the lateral thoracic arteries, and the thoraco-acromial turns forwards through the clavipectoral fascia.',
+        C: 'The second part gives the thoraco-acromial and the lateral thoracic arteries, and the thoraco-acromial turns forwards through the clavipectoral fascia.',
         D: 'The third part gives the subscapular and the two circumflex humeral arteries.',
         E: 'The brachial artery begins below teres major and gives the profunda brachii and the two ulnar collaterals.',
       },
@@ -929,7 +929,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The option the scan has echoed into the stem, and it is false: the subclavian artery has become the axillary before this branch is given.',
         B: 'The first part gives only the superior thoracic artery.',
-        C: 'Correct. The second part, behind pectoralis minor, gives the thoraco-acromial and the lateral thoracic.',
+        C: 'The second part, behind pectoralis minor, gives the thoraco-acromial and the lateral thoracic.',
         D: 'The third part gives the subscapular and the anterior and posterior circumflex humeral arteries.',
         E: 'The brachial artery lies beyond the axilla altogether.',
       },
@@ -943,7 +943,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The ulnar nerve grooves the back of the medial epicondyle, which is true and is the fact every clinical use of the nerve rests on; A gives it the wrong cord, C the wrong head of triceps, and D a muscle that belongs to the radial nerve.',
       explanations: {
         A: 'The wrong cord. The ulnar nerve is the largest branch of the medial cord; the lateral cord gives the musculocutaneous nerve and the lateral root of the median.',
-        B: 'Correct. The nerve passes behind the medial epicondyle in a bony groove, where it lies against the bone and can be rolled, struck or compressed.',
+        B: 'The nerve passes behind the medial epicondyle in a bony groove, where it lies against the bone and can be rolled, struck or compressed.',
         C: 'The wrong head. In the arm the ulnar nerve pierces the medial intermuscular septum and descends on the front of the medial head of triceps; the long head lies further back and laterally.',
         D: 'Triceps is supplied by the radial nerve throughout. The ulnar nerve gives no muscular branch at all in the arm.',
       },
@@ -954,7 +954,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Nerve supply',
       learningObjective: 'Name the two branches of the upper trunk and separate them from root and cord branches.',
       explanations: {
-        A: 'Correct, and the key. The suprascapular nerve and the nerve to subclavius are the upper trunk\'s only two branches.',
+        A: 'This is the key. The suprascapular nerve and the nerve to subclavius are the upper trunk\'s only two branches.',
         B: 'The long thoracic nerve is a root branch, from C5, C6 and C7.',
         C: 'The upper subscapular nerve comes from the posterior cord.',
         D: 'The axillary nerve is a terminal branch of the posterior cord, although its fibres are the upper trunk\'s own C5 and C6 — which is exactly the resemblance the option trades on.',
@@ -970,8 +970,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'One branch would be the middle trunk\'s count, not a cord\'s. Every cord of the plexus gives several.',
         B: 'Two is the upper trunk\'s number of branches — the suprascapular nerve and the nerve to subclavius — not the medial cord\'s.',
-        C: 'The answer the books print, and the reason for the override. Three is the number a student reaches by counting only the named nerves they use clinically — ulnar, medial pectoral, medial root of median — and dropping the two medial cutaneous nerves, which are easy to forget precisely because they are purely sensory.',
-        E: 'Correct. Ulnar, medial root of the median, medial pectoral, medial cutaneous nerve of the arm and medial cutaneous nerve of the forearm — five.',
+        C: 'The printed answer, and the reason for the override. Three is the number a student reaches by counting only the named nerves they use clinically — ulnar, medial pectoral, medial root of median — and dropping the two medial cutaneous nerves, which are easy to forget precisely because they are purely sensory.',
+        E: 'Ulnar, medial root of the median, medial pectoral, medial cutaneous nerve of the arm and medial cutaneous nerve of the forearm — five.',
       },
     },
     {
@@ -984,9 +984,9 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'No cord of the plexus gives a single branch.',
         B: 'Two is the upper trunk\'s count.',
-        C: 'The count a student reaches by naming only the three motor-bearing nerves and forgetting the two purely sensory medial cutaneous nerves. It is also what the books print as the key, which is why the answer here is set explicitly rather than left to the extraction.',
+        C: 'The count a student reaches by naming only the three motor-bearing nerves and forgetting the two purely sensory medial cutaneous nerves. It is also the printed key, which is why the answer here is set explicitly rather than left to the extraction.',
         D: 'Four comes from remembering the two medial cutaneous nerves as one — "the medial cutaneous nerves" is often written as a single item in a list, and it stands for two nerves.',
-        E: 'Correct. Five: ulnar, medial root of the median, medial pectoral, medial cutaneous of the arm, medial cutaneous of the forearm.',
+        E: 'Five: ulnar, medial root of the median, medial pectoral, medial cutaneous of the arm, medial cutaneous of the forearm.',
       },
     },
     {
@@ -997,7 +997,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The medial pectoral nerve is a branch of the medial cord; the lateral pectoral belongs to the lateral cord, the dorsal scapular to the C5 root and the axillary to the posterior cord.',
       explanations: {
-        A: 'Correct. The medial pectoral nerve leaves the medial cord, pierces pectoralis minor and supplies it and the sternocostal head of pectoralis major.',
+        A: 'The medial pectoral nerve leaves the medial cord, pierces pectoralis minor and supplies it and the sternocostal head of pectoralis major.',
         B: 'The lateral pectoral nerve is its counterpart from the lateral cord. The two nerves are named for their cords, which makes this pair the whole point of the item.',
         C: 'The dorsal scapular nerve arises from the C5 root, before the trunks form.',
         D: 'The axillary nerve is a terminal branch of the posterior cord.',
@@ -1014,7 +1014,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A root branch, from C5, C6 and C7, and the option the scan has echoed into the stem. The long thoracic nerve leaves the plexus before any trunk forms.',
         B: 'A branch of the upper trunk, running down in front of the subclavian vessels to subclavius.',
         C: 'Also a branch of the upper trunk, passing laterally to the suprascapular notch.',
-        D: 'Correct. The thoracodorsal nerve — the nerve to latissimus dorsi — arises from the posterior cord between the upper and lower subscapular nerves.',
+        D: 'The thoracodorsal nerve — the nerve to latissimus dorsi — arises from the posterior cord between the upper and lower subscapular nerves.',
       },
     },
     {
@@ -1023,7 +1023,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Reason from the range of abduction lost to the nerve that supplies the muscle covering that range.',
       explanations: {
-        A: 'Correct, and the key. Supraspinatus initiates abduction through the first fifteen degrees; carrying it further is deltoid, and deltoid is the axillary nerve\'s muscle. A patient who starts the movement and then cannot continue it has lost the axillary nerve.',
+        A: 'This is the key. Supraspinatus initiates abduction through the first fifteen degrees; carrying it further is deltoid, and deltoid is the axillary nerve\'s muscle. A patient who starts the movement and then cannot continue it has lost the axillary nerve.',
         B: 'The radial nerve supplies triceps and all the extensors of the forearm; its injury drops the wrist and leaves abduction of the shoulder intact.',
         C: 'The musculocutaneous nerve supplies the flexors of the arm — biceps, brachialis and coracobrachialis — so its loss costs flexion of the elbow, not abduction of the shoulder.',
         D: 'The median nerve supplies most of the flexors of the forearm and the thenar muscles, and does not reach the shoulder at all.',

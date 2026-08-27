@@ -92,7 +92,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'Cytoplasm is cytosol, organelles and inclusions. Organelles are living, permanent, essential and active, and have vital functions; inclusions are non-living, temporary, usually not essential and inert, and result from the cell\'s activity. Organelles are classified by whether they have a limiting membrane. The membranous ones are the plasma membrane, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes and peroxisomes; the non-membranous ones are the ribosomes and the cytoskeleton, with the centrioles, cilia and flagella that the microtubules build. The inclusions are stored food — glycogen, which dissolves out of an H&E section leaving vacuoles and is shown by Best\'s carmine or PAS, and fat, vacuolated in H&E and orange with Sudan III — and pigments, endogenous (haemoglobin, melanin, lipofuscin) or exogenous (carbon and dust, carotene, tattoo dyes).',
       objective:
-        'Separate organelles from inclusions by the five properties the book contrasts, sort the organelles into membranous and non-membranous, and name the inclusions and the stains that show them.',
+        'Separate organelles from inclusions by the five contrasting properties, sort the organelles into membranous and non-membranous, and name the inclusions and the stains that show them.',
       pitfall:
         'Calling a coated vesicle or a centriole an organelle of the wrong class. A coated vesicle is a piece of membrane and is membranous; a centriole is built of microtubules and has no membrane at all.',
       subject: 'fnd',
@@ -106,7 +106,7 @@ export const LEAF: McqLeafSeed = {
       key: 'organelle-content-identifies-what-a-cell-does',
       label: 'What a cell is doing can be read from which organelle is prominent in it',
       definition:
-        'A cell\'s organelle profile follows from its work, and the books examine the inference in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.',
+        'A cell\'s organelle profile follows from its work, and the inference runs in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.',
       objective:
         'Predict which organelle will be prominent in a named cell, and name the cell from a described organelle profile.',
       pitfall:
@@ -144,7 +144,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Say where in the mitochondrion each stage of energy production happens, and explain what changes in a mitochondrion that makes heat instead of ATP.',
       pitfall:
-        'Placing the Krebs cycle on the inner membrane. The cycle is a set of soluble enzymes in the matrix; only the respiratory chain and ATP synthase are on the membrane, and the books ask both in the same option list.',
+        'Placing the Krebs cycle on the inner membrane. The cycle is a set of soluble enzymes in the matrix; only the respiratory chain and ATP synthase are on the membrane.',
       subject: 'fnd',
       primary: 'DIS-HIS-T01',
       secondary: [],
@@ -204,7 +204,7 @@ export const LEAF: McqLeafSeed = {
       key: 'golgi-apparatus-em-structure-products-and-functions',
       label: 'The Golgi is a stack of flat saccules with an entry and an exit face, and everything it buds off leaves from the exit face',
       definition:
-        'On electron microscopy the Golgi apparatus is a stack of three to ten interconnected, parallel, flat curved saccules lying above one another, with vesicles at both ends. The entry or cis face receives the transfer vesicles that the rough endoplasmic reticulum sends; the exit or trans face buds off the products — secretory vesicles, lysosomes and coated vesicles. A transfer vesicle is therefore not a Golgi product but a Golgi input, which is the distinction the books ask most often. The Golgi packs, concentrates and stores protein, modifies it chemically by adding carbohydrate to make glycoprotein, forms secretory vesicles and primary lysosomes, and renews and maintains the cell membrane by sending membrane to it.',
+        'On electron microscopy the Golgi apparatus is a stack of three to ten interconnected, parallel, flat curved saccules lying above one another, with vesicles at both ends. The entry or cis face receives the transfer vesicles that the rough endoplasmic reticulum sends; the exit or trans face buds off the products — secretory vesicles, lysosomes and coated vesicles. A transfer vesicle is therefore not a Golgi product but a Golgi input, which is the most often tested distinction. The Golgi packs, concentrates and stores protein, modifies it chemically by adding carbohydrate to make glycoprotein, forms secretory vesicles and primary lysosomes, and renews and maintains the cell membrane by sending membrane to it.',
       objective:
         'Describe the Golgi stack and its two faces, say what arrives at each and what leaves, and list its functions.',
       pitfall:
@@ -317,9 +317,9 @@ export const LEAF: McqLeafSeed = {
       definition:
         'The cytoskeleton is a complex network of microtubules, microfilaments and intermediate filaments, joined by linking proteins into a microtrabecular lattice that fills the cytosol. All three are non-membranous, and all three are beyond the resolution of the light microscope except by immunofluorescence. The centrioles, cilia and flagella are built by the microtubules and the microvilli and stereocilia by the microfilaments, so they are products of the cytoskeleton rather than a fourth element of it, and the thick filaments of muscle are a contractile apparatus rather than part of it.',
       objective:
-        'Name the three elements of the cytoskeleton and recognise what the books offer beside them that is not one.',
+        'Name the three elements of the cytoskeleton and recognise what is offered beside them that is not one.',
       pitfall:
-        'Admitting thick filaments to the cytoskeleton because thin filaments are in it. Thin filaments are the microfilaments; thick filaments are myosin of the muscle contractile apparatus, and the books use the pair as an "except" every time.',
+        'Admitting thick filaments to the cytoskeleton because thin filaments are in it. Thin filaments are the microfilaments; thick filaments are myosin of the muscle contractile apparatus, and the pair is a recurring "except" option.',
       subject: 'fnd',
       primary: 'DIS-HIS-T01',
       secondary: [],
@@ -351,7 +351,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Give the diameter and the protein of a microfilament, and list the movements and shape changes it performs.',
       pitfall:
-        'Handing the mitotic spindle to the microfilament. The microfilament cleaves the cell at the end of division; the spindle that separates the chromosomes is microtubule, and the books put the two in the same "except" list.',
+        'Handing the mitotic spindle to the microfilament. The microfilament cleaves the cell at the end of division; the spindle that separates the chromosomes is microtubule, and the two are a recurring "except" pair.',
       subject: 'fnd',
       primary: 'DIS-HIS-T01',
       secondary: [],
@@ -480,7 +480,7 @@ export const LEAF: McqLeafSeed = {
       key: 'red-corpuscle-adaptation-to-gas-transport',
       label: 'Everything a red corpuscle lacks and everything it is shaped like exists to carry more gas',
       definition:
-        'The department book prints the red corpuscle\'s adaptations as three rows: plasmalemma, shape and content. The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in. The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels. The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days. It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.',
+        'The red corpuscle\'s adaptations fall into three rows: plasmalemma, shape and content. The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in. The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels. The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days. It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.',
       objective:
         'Give the three adaptations of the red corpuscle to gas transport and say what each one buys and what it costs.',
       pitfall:
@@ -518,7 +518,7 @@ export const LEAF: McqLeafSeed = {
       key: 'pas-and-best-carmine-demonstrate-carbohydrate',
       label: 'PAS and Best\'s carmine both show carbohydrate, which is why one pair of stains reddens glycogen, mucus, the basement membrane and the cell coat alike',
       definition:
-        'Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best\'s carmine is the older stain for the same target and reddens glycogen specifically. The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.',
+        'Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best\'s carmine is the older stain for the same target and reddens glycogen specifically. The consequence is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.',
       objective: 'Name the two stains that demonstrate carbohydrate and list the structures they redden.',
       pitfall:
         'Expecting one stain to mean one structure. PAS reddens glycogen, mucus, reticular fibres, basement membrane and cell coat, because it reacts with sugar wherever sugar is; the discriminating question is always what a structure is made of.',
@@ -557,7 +557,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Acidophilic cytoplasm is the steroid- or lipid-forming cell, where abundant smooth endoplasmic reticulum takes the acid dye. A protein-forming cell is basophilic.',
         B: 'Many lysosomes mark a phagocyte — the macrophage, the neutrophil — a cell that digests rather than one that builds.',
-        C: 'Correct. Abundant rough endoplasmic reticulum is the defining feature, because the ribosomes on it are what make protein for export. Asked three times across the books.',
+        C: 'Abundant rough endoplasmic reticulum is the defining feature, because the ribosomes on it are what make protein for export. Asked three times across the books.',
         D: 'A condensed nucleus means coiled, inactive chromatin. A cell making protein needs its genes readable, so its nucleus is pale and euchromatic.',
       },
     },
@@ -568,7 +568,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Sort an organelle into the membranous or non-membranous class.',
       explanations: {
         A: 'A mitochondrion has two membranes, which makes it the most membranous organelle of the list.',
-        B: 'Correct. Ribosomes are one of only two non-membranous entries the book gives — the other is the cytoskeleton with everything it builds.',
+        B: 'Ribosomes are one of only two non-membranous entries here — the other is the cytoskeleton with everything it builds.',
         C: 'The Golgi apparatus is a stack of membranous saccules.',
         D: 'Rough endoplasmic reticulum is a membranous network; the ribosomes on its surface are non-membranous, but the reticulum itself is not.',
       },
@@ -581,7 +581,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mitochondria make ATP. They carry ribosomes of their own, but what those make stays inside the mitochondrion.',
         B: 'Lysosomes destroy protein; they do not synthesise it.',
-        C: 'Correct. Ribosomes attached to the rough endoplasmic reticulum make the proteins the cell exports — the free ones make what it keeps.',
+        C: 'Ribosomes attached to the rough endoplasmic reticulum make the proteins the cell exports — the free ones make what it keeps.',
         D: 'Smooth endoplasmic reticulum has no ribosomes at all, so it cannot make protein of any kind.',
       },
     },
@@ -595,7 +595,7 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. Yellowing of skin and sclera is jaundice, from bilirubin the liver has not yet processed, and the smooth endoplasmic reticulum of the liver cell is the organelle that does that work — underdeveloped in the newborn. Only B names both the organelle and the organ.',
       explanations: {
         A: 'Defective ribosomes would cripple protein synthesis throughout the body, not produce a yellow pigment in the skin.',
-        B: 'Correct. The liver cell\'s smooth endoplasmic reticulum is what handles bilirubin, as it handles drugs and alcohol, and it is not yet fully developed in a newborn.',
+        B: 'The liver cell\'s smooth endoplasmic reticulum is what handles bilirubin, as it handles drugs and alcohol, and it is not yet fully developed in a newborn.',
         C: 'Smooth endoplasmic reticulum in the skin would be a steroid- and lipid-handling organelle in the wrong organ. The skin is where the colour is seen; the liver is where the fault is.',
         D: 'Rough endoplasmic reticulum makes exported protein. The albumin it makes carries bilirubin, which is why this option is tempting, but the processing itself is the smooth reticulum\'s.',
       },
@@ -608,7 +608,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Catalase is a peroxisomal enzyme. Lacking it is a peroxisomal disease, and the option is here because the two single-membrane digestive organelles are constantly swapped.',
         B: 'Hydrogen peroxide accumulates when peroxisomal catalase fails. A lysosome neither makes nor destroys it.',
-        C: 'Correct. The department book gives sulfatase deficiency as its example: sulfated compounds accumulate inside cells and interfere with the normal function of nerve cells.',
+        C: 'Sulfatase deficiency is a leading example: sulfated compounds accumulate inside cells and interfere with the normal function of nerve cells.',
         D: 'Oxidoreductases belong to the mitochondrion and the peroxisome. The lysosome\'s enzymes are hydrolases.',
       },
     },
@@ -618,7 +618,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the ribosome\'s composition, origin and subunit sizes.',
       explanations: {
-        A: 'Correct. rRNA is made in the nucleolus, the proteins in the cytoplasm, and the two unite in the nucleolus into the subunits, which then leave through the nuclear pores.',
+        A: 'rRNA is made in the nucleolus, the proteins in the cytoplasm, and the two unite in the nucleolus into the subunits, which then leave through the nuclear pores.',
         B: 'A ribosome is rRNA with protein, not DNA with protein. DNA with histone is chromatin, and that is what this option describes.',
         C: 'Ribosomes cause basophilia, not acidophilia — their RNA is acidic and so binds the basic dye. Acidophilia comes from abundant smooth endoplasmic reticulum.',
         D: 'The two subunits are of unequal size, a large one and a small one, and the polypeptide chain is carried on the large one. "Equal" is what makes this option false.',
@@ -633,7 +633,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Rough endoplasmic reticulum causes basophilia, localised or diffuse, because of its ribosomes. Acidophilia is what the smooth kind causes.',
         B: 'Drug detoxification is smooth endoplasmic reticulum. The two halves of the endoplasmic reticulum are constantly offered for each other\'s functions.',
         C: 'Lysosomes are separate organelles budded from the Golgi. The rough reticulum makes their enzymes but does not carry lysosomes on its membranes.',
-        D: 'Correct. Segregation — moving the newly made protein into the lumen, away from the cytosol — is one of its named functions, and it is what protects the cytoplasm from the hydrolytic enzymes it makes.',
+        D: 'Segregation — moving the newly made protein into the lumen, away from the cytosol — is one of its named functions, and it is what protects the cytoplasm from the hydrolytic enzymes it makes.',
       },
     },
     {
@@ -645,7 +645,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Mitochondria are acidophilic. They are stained by iron haematoxylin or Janus green, not by the basic dye of a routine section.',
         B: 'DNA is basophilic, but it is in the nucleus. This question is about the cytoplasm, and the option is here to catch a student who answers on staining alone.',
         C: 'The Golgi apparatus takes no dye at all in H&E, which is why it shows as a pale negative image rather than a basophilic patch.',
-        D: 'Correct. A localised patch of basophilia is a mass of rough endoplasmic reticulum, its ribosomes concentrated in one region — the Nissl granule of the nerve cell is the type example.',
+        D: 'A localised patch of basophilia is a mass of rough endoplasmic reticulum, its ribosomes concentrated in one region — the Nissl granule of the nerve cell is the type example.',
       },
     },
     {
@@ -655,7 +655,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the subunit of a microtubule and separate its fixed diameter from its variable length.',
       explanations: {
         A: 'The length is not fixed — a microtubule grows and shrinks by adding and losing tubulin, and that instability is what lets the mitotic spindle work.',
-        B: 'Correct. Dimers of alpha and beta tubulin build the protofilaments. Gamma tubulin is a third form, and it is in the organising centre rather than in the tube.',
+        B: 'Dimers of alpha and beta tubulin build the protofilaments. Gamma tubulin is a third form, and it is in the organising centre rather than in the tube.',
         C: 'Thirteen protofilaments, not ten. The number is fixed and is what fixes the diameter.',
         D: 'The diameter is the one thing that never varies: thirteen protofilaments always give the same circumference, so 24 nm every time. This option swaps the fixed property for the variable one.',
       },
@@ -666,9 +666,9 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the microtubule protein.',
       explanations: {
-        A: 'Actin is the microfilament protein — the other cytoskeletal element, and the one the books put opposite this every time.',
+        A: 'Actin is the microfilament protein — the other cytoskeletal element, and it is set opposite this every time.',
         B: 'Myosin works with actin in contraction. It is a motor, not a structural subunit of a tube.',
-        C: 'Correct. Tubulin, as dimers of an alpha and a beta form.',
+        C: 'Tubulin, as dimers of an alpha and a beta form.',
         D: 'Clathrin coats the pit of receptor-mediated endocytosis. It builds a cage on a membrane, not a cytoskeletal tube.',
       },
     },
@@ -679,7 +679,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the clinical consequence of failing mitochondria.',
       explanations: {
         A: 'A mutation in mitochondrial RNA is a cause rather than a feature. The question asks what the patient shows, not what the genome did.',
-        B: 'Correct. No ATP means no energy for vital activity, and in muscle that presents as muscular weakness — the department book\'s own applied note.',
+        B: 'No ATP means no energy for vital activity, and in muscle that presents as muscular weakness.',
         C: 'Failure to break down bilirubin is the smooth endoplasmic reticulum of the liver, which is why an underdeveloped one jaundices a newborn.',
         D: 'Lack of sulfatases is a lysosomal disease, the one that interferes with nerve cell function.',
       },
@@ -693,7 +693,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. Ribosomes are the only basophilic structure in the list — their RNA phosphate groups bind the basic dye. Smooth endoplasmic reticulum gives acidophilia, and neither the Golgi nor the lysosome is demonstrated in a routine section at all.',
       explanations: {
-        A: 'Correct. The acidity of the phosphate groups in ribosomal RNA is what binds the basic dye, and it is the whole reason cytoplasm is ever blue.',
+        A: 'The acidity of the phosphate groups in ribosomal RNA is what binds the basic dye, and it is the whole reason cytoplasm is ever blue.',
         B: 'Smooth endoplasmic reticulum, when abundant, makes the cytoplasm acidophilic — the opposite reaction.',
         C: 'The Golgi apparatus takes neither dye and appears as an unstained negative image.',
         D: 'Lysosomes cannot be seen in a routine section at all; they need the acid phosphatase reaction.',
@@ -711,7 +711,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Peroxisomes bud off the rough endoplasmic reticulum. Budding off the Golgi is the lysosome, and the two organelles are separated by exactly this fact.',
         B: 'Smooth endoplasmic reticulum synthesises lipid and steroid, not enzymes for another organelle.',
         C: 'Attached polysomes make protein for export and for the secretory pathway. The peroxisome\'s enzymes take the other route, on free ribosomes — the substitution is a single word and it is the point of the question.',
-        D: 'Correct. Made free in the cytosol, the enzymes are then imported — internalised — into the peroxisome, which is why the organelle needs no ribosomes of its own and no secretory pathway.',
+        D: 'Made free in the cytosol, the enzymes are then imported — internalised — into the peroxisome, which is why the organelle needs no ribosomes of its own and no secretory pathway.',
       },
     },
     {
@@ -723,7 +723,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Rough endoplasmic reticulum carries ribosomes, which are RNA, but it holds no DNA of its own.',
         B: 'Smooth endoplasmic reticulum has neither, having no ribosomes at all.',
         C: 'A lysosome contains hydrolytic enzymes — including a nuclease, which acts on nucleic acid rather than containing it.',
-        D: 'Correct. The mitochondrial matrix holds mitochondrial DNA together with mRNA, tRNA and rRNA, which is why the organelle can divide independently of the cell.',
+        D: 'The mitochondrial matrix holds mitochondrial DNA together with mRNA, tRNA and rRNA, which is why the organelle can divide independently of the cell.',
       },
     },
     {
@@ -732,7 +732,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Predict the organelle profile of a cell that is about to become a macrophage.',
       explanations: {
-        A: 'Correct. The monocyte is the blood form of the macrophage, so it is built to digest: many lysosomes, and a prominent Golgi apparatus making them.',
+        A: 'The monocyte is the blood form of the macrophage, so it is built to digest: many lysosomes, and a prominent Golgi apparatus making them.',
         B: 'Glycogen granules are an inclusion of liver and muscle, not the defining content of a phagocyte.',
         C: 'Mitochondria are present in every cell. Being present everywhere makes them useless for identifying one.',
         D: 'Smooth endoplasmic reticulum marks a lipid- or steroid-forming cell, which is the opposite kind of work.',
@@ -745,7 +745,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Count the microtubules in a centriole wall.',
       explanations: {
         A: '9 is the number of bundles, and it is the number of microtubules in a rootlet. Stopping at nine is the single commonest error in this leaf.',
-        B: 'Correct. Nine bundles of three — 27 microtubules.',
+        B: 'Nine bundles of three — 27 microtubules.',
         C: '72 is 9 × 8 and corresponds to nothing. It is in the set as a digit-reversal of 27.',
         D: '18 is the nine doublets of the ciliary shaft counted without its central pair.',
       },
@@ -757,7 +757,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute steroid synthesis to smooth endoplasmic reticulum.',
       explanations: {
         A: 'Rough endoplasmic reticulum makes protein for export. A steroid is not a protein, so it needs no ribosomes at any point.',
-        B: 'Correct. Smooth endoplasmic reticulum synthesises the steroid hormones — cortisone and testosterone are the book\'s examples — and is abundant in the cells that make them.',
+        B: 'Smooth endoplasmic reticulum synthesises the steroid hormones — cortisone and testosterone are standard examples — and is abundant in the cells that make them.',
         C: 'Lysosomes digest. They have no synthetic role.',
         D: 'Peroxisomes oxidise long-chain fatty acids and destroy hydrogen peroxide. They handle lipid but they do not build a hormone from it.',
       },
@@ -770,7 +770,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The Golgi apparatus takes no dye in H&E; it appears as a pale gap in the basophilia rather than as a source of it.',
         B: 'Euchromatin is basophilic but it is nuclear. The stem says cytoplasmic, and this is the option that catches a student answering on staining alone.',
-        C: 'Correct. Ribosomes, free or on the rough endoplasmic reticulum, are what make cytoplasm basophilic — the phosphate groups of their RNA are acidic and bind the basic dye.',
+        C: 'Ribosomes, free or on the rough endoplasmic reticulum, are what make cytoplasm basophilic — the phosphate groups of their RNA are acidic and bind the basic dye.',
         D: 'Heterochromatin is more basophilic still, and equally nuclear. B and D are the same wrong answer offered twice, which is usually a sign that neither is it.',
       },
     },
@@ -782,7 +782,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Transfer RNA brings the amino acids in. It passes through the assembled ribosome but it is not what assembles it.',
         B: 'Ribosomal RNA is what the subunits are built from. It is inside each subunit rather than between them.',
-        C: 'Correct. The two subunits come together only during protein synthesis, threaded onto the messenger RNA — which is also why a string of them on one mRNA is a polyribosome.',
+        C: 'The two subunits come together only during protein synthesis, threaded onto the messenger RNA — which is also why a string of them on one mRNA is a polyribosome.',
         D: 'There is a correct option in the set, so "none of the above" cannot stand.',
       },
     },
@@ -797,7 +797,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Microfilaments cleave the cell in two at the end of division, so blocking them would leave a binucleate cell rather than stopping division. They are not what the drug is aimed at.',
         B: 'Intermediate filaments are the other tumour answer in these books — the one a pathologist stains to find where the tumour came from. Staining and blocking are two different questions with the same setting, and this option is the other one\'s answer.',
-        C: 'Correct. The mitotic spindle is built of microtubules, so a drug that prevents tubulin polymerising stops the cell dividing — the department book gives exactly this as its applied note.',
+        C: 'The mitotic spindle is built of microtubules, so a drug that prevents tubulin polymerising stops the cell dividing.',
         D: 'The proteasome degrades abnormal proteins. Blocking it would not stop a cell dividing.',
       },
     },
@@ -812,7 +812,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Primary lysosomes are separate vesicles and need the acid phosphatase reaction, which gives discrete deposits rather than a network.',
         B: 'Secondary lysosomes are likewise discrete bodies, larger and more varied than the primary ones — still not a network.',
-        C: 'Correct. Silver impregnation shows the Golgi apparatus as a network of brown granules and fibrils beside the nucleus. It is the positive counterpart of the negative Golgi image seen in H&E.',
+        C: 'Silver impregnation shows the Golgi apparatus as a network of brown granules and fibrils beside the nucleus. It is the positive counterpart of the negative Golgi image seen in H&E.',
         D: 'Ribosomes are far too small to resolve individually by light microscopy; what they produce is a diffuse blue tint, not a brown mesh.',
       },
     },
@@ -836,9 +836,9 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. The department book\'s applied note states that a defect in mitochondrial enzymes causes failure to produce the ATP needed for all vital activities and that in muscle this causes muscular weakness. Only B names that organelle.',
       explanations: {
         A: 'A Golgi abnormality would show as a failure of secretion — a gland that could not export its product — rather than as weakness of a muscle.',
-        B: 'Correct. No ATP means no energy for contraction, and the department book gives muscular weakness as the presentation of defective mitochondrial enzymes.',
+        B: 'No ATP means no energy for contraction, and muscular weakness is the presentation of defective mitochondrial enzymes.',
         C: 'A membrane receptor defect is the mechanism behind the growth-hormone dwarfism the same book describes: a normal hormone level with no cell able to hear it. It produces failure of growth, not local weakness.',
-        D: 'Lysosomal enzyme deficiency lets undigested material accumulate, and the book\'s example of it is interference with nerve cell function.',
+        D: 'Lysosomal enzyme deficiency lets undigested material accumulate, and a standard example is interference with nerve cell function.',
       },
     },
     {
@@ -861,8 +861,8 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. Beta-oxidation of long-chain fatty acids is peroxisomal, and the peroxisome is abundant in liver and kidney — the two organs named in the stem. The department book states that lack of peroxisomal enzymes affects the function of organs such as the liver. C names the organelle and the fault together.',
       explanations: {
         A: 'A mitochondrial fault presents as failure of ATP production — weakness in muscle — rather than as fat accumulating in the liver.',
-        B: 'Lysosomal enzyme deficiency leaves undigested material accumulating, and the department book\'s example of it is interference with nerve cell function.',
-        C: 'Correct. Peroxisomes carry out beta-oxidation of long-chain fatty acids and are most abundant in liver and kidney, which is exactly the pair of organs the stem names.',
+        B: 'Lysosomal enzyme deficiency leaves undigested material accumulating, and a leading example is interference with nerve cell function.',
+        C: 'Peroxisomes carry out beta-oxidation of long-chain fatty acids and are most abundant in liver and kidney, which is exactly the pair of organs the stem names.',
         D: 'Defective fat metabolism is the consequence, not the cause. The question asks what examination of the organs showed, and every other option names an organelle.',
       },
     },
@@ -872,7 +872,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Predict the organelle profile of a steroid-secreting tumour.',
       explanations: {
-        A: 'Correct. Steroid hormones are synthesised on smooth endoplasmic reticulum, so a cell making them in excess is packed with it — and the adrenal cortex is the type example of such a cell.',
+        A: 'Steroid hormones are synthesised on smooth endoplasmic reticulum, so a cell making them in excess is packed with it — and the adrenal cortex is the type example of such a cell.',
         B: 'Peroxisomes oxidise fatty acids and destroy hydrogen peroxide. They handle lipid, which makes them tempting, but they build no hormone.',
         C: 'The Golgi apparatus packs and modifies protein for export. A steroid is small and lipid-soluble and leaves the cell by diffusion, needing no packaging at all.',
         D: 'Rough endoplasmic reticulum makes exported protein. A student who answers "hormone, therefore export, therefore rER" has reasoned well but forgotten that a steroid is not a protein.',
@@ -888,7 +888,7 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. Abnormal and short-lived cytosolic proteins are tagged with ubiquitin and destroyed by the proteasome; the lysosome digests engulfed material and worn-out organelles. Only B is the proteasome.',
       explanations: {
         A: 'The lysosome digests what has been taken into the cell and whole organelles that are worn out. It is a membrane-bound compartment, and a soluble cytosolic protein never enters it.',
-        B: 'Correct. The proteasome is a non-membranous complex in the cytosol that destroys abnormal, misfolded and short-lived proteins after they have been ubiquitin-tagged.',
+        B: 'The proteasome is a non-membranous complex in the cytosol that destroys abnormal, misfolded and short-lived proteins after they have been ubiquitin-tagged.',
         C: 'Peroxisomes hold oxidases and catalase and act on fatty acids and hydrogen peroxide, not on protein.',
         D: 'An endosome is a vesicle of material taken in from outside, on its way to a lysosome. Again the wrong side of a membrane.',
       },
@@ -899,7 +899,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Infer what a cell is making from its attached ribosomes.',
       explanations: {
-        A: 'Correct. Attached ribosomes feed their product into the lumen of the rough endoplasmic reticulum, which segregates it and sends it to the Golgi for export.',
+        A: 'Attached ribosomes feed their product into the lumen of the rough endoplasmic reticulum, which segregates it and sends it to the Golgi for export.',
         B: 'Protein for the cell\'s own use is made on free ribosomes, which release it straight into the cytosol. This is the paired question\'s answer, and the two rows appear together with identical options.',
         C: 'Excessive phagocytosis would show as many lysosomes, not many ribosomes.',
         D: 'Attached and free ribosomes do opposite jobs, so "all of the above" would have the same cell exporting and retaining the same protein.',
@@ -912,7 +912,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Infer what a cell is making from its free ribosomes.',
       explanations: {
         A: 'Protein for export needs the rough endoplasmic reticulum to segregate and package it, so it is made on attached ribosomes. This is the companion question\'s answer.',
-        B: 'Correct. A free ribosome releases its product into the cytosol, so what it makes is what the cell keeps — its glycolytic enzymes, the proteins of its own growth, and the enzymes of its peroxisomes.',
+        B: 'A free ribosome releases its product into the cytosol, so what it makes is what the cell keeps — its glycolytic enzymes, the proteins of its own growth, and the enzymes of its peroxisomes.',
         C: 'Phagocytosis is read from lysosome content, not from ribosomes.',
         D: 'The two ribosome populations make different destinations of protein, so no cell shows both meanings at once.',
       },
@@ -1037,7 +1037,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. The cell membrane, rough endoplasmic reticulum and lysosome are all on the department book\'s membranous list; the centriole is built of microtubules and has no membrane, so C is the exception.',
       explanations: {
-        A: 'True, so not the exception. The plasma membrane heads the book\'s own list of membranous organelles.',
+        A: 'True, so not the exception. The plasma membrane heads the list of membranous organelles.',
         B: 'True, so not the exception. Rough endoplasmic reticulum is a membranous network.',
         C: 'The exception, and the answer. A centriole is nine triplets of microtubules and nothing else — no membrane anywhere, which puts it with the ribosomes and the cytoskeleton.',
         D: 'True, so not the exception. A lysosome is bounded by a single membrane, and that membrane is what keeps its hydrolases off the cytoplasm.',
@@ -1074,7 +1074,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the three secondary lysosomes and reject a nuclear structure.',
       explanations: {
         A: 'True, so not the exception. A multivesicular body is a primary lysosome fused with a pinocytic vesicle.',
-        B: 'True as the books use it here — the residual body is the end state of a secondary lysosome and is listed with them. It is the option a careful student hesitates over, since strictly it is a fate rather than a fourth type.',
+        B: 'The residual body is the end state of a secondary lysosome and is listed with them. It is the option a careful student hesitates over, since strictly it is a fate rather than a fourth type.',
         C: 'True, so not the exception. A heterolysosome is a primary lysosome fused with a phagosome.',
         D: 'The exception, and the answer. A Barr body is the inactivated X chromosome, seen as a drumstick on the neutrophil nucleus. It is nuclear and has nothing to do with digestion; the word "body" is the only thing it shares with the rest of the list.',
       },
@@ -1087,7 +1087,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, so not the exception. Microtubules are one of the three elements.',
         B: 'True, so not the exception. Microfilaments are another.',
-        C: 'True as the books use it — centrioles are built of microtubules and are counted with the cytoskeleton in the department book\'s own table of non-membranous organelles.',
+        C: 'True: centrioles are built of microtubules and are counted with the cytoskeleton among the non-membranous organelles.',
         D: 'The exception, and the answer. A mitochondrion is a membranous organelle that makes energy; it is moved *by* the cytoskeleton rather than being part of it.',
       },
     },
@@ -1122,9 +1122,9 @@ export const LEAF: McqLeafSeed = {
       key: 'all-the-following-statements-are-true-about-mitochondria-exc-7d66fca9',
       conceptKey: 'mitochondrion-ultrastructure-and-staining',
       difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'Recognise that protein synthesis is not what the department book gives mitochondria.',
+      learningObjective: 'Recognise that protein synthesis is not a function of mitochondria.',
       explanations: {
-        A: 'The exception, and the answer. The site of protein synthesis is the ribosome, free or on the rough endoplasmic reticulum. The mitochondrion holds RNA of its own, which is why this option catches students who reason from the presence of RNA, but the book gives it no synthetic role.',
+        A: 'The exception, and the answer. The site of protein synthesis is the ribosome, free or on the rough endoplasmic reticulum. The mitochondrion holds RNA of its own, which is why this option catches students who reason from the presence of RNA, but it has no synthetic role.',
         B: 'True, so not the exception. Oxidative phosphorylation happens on the inner membrane.',
         C: 'True, so not the exception. Number and shape both vary with the cell and its activity.',
         D: 'True, so not the exception. Mitochondrial DNA is in the matrix, and it is why the organelle can divide on its own.',
@@ -1142,7 +1142,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The exception, and the answer. Hydrolytic enzymes belong to the lysosome. The peroxisome holds oxidases and catalase, and this single substitution is what almost every peroxisome question in these books turns on.',
         B: 'True, so not the exception. Peroxisomes are spherical vesicles bounded by a single membrane.',
         C: 'True, so not the exception. The oxidases generate hydrogen peroxide as a by-product of beta-oxidation.',
-        D: 'True, so not the exception. Catalase breaks that hydrogen peroxide into water and oxygen — the organelle makes its own poison and then destroys it. This is the option the book keys, and it is one of the two things a peroxisome is for.',
+        D: 'True, so not the exception. Catalase breaks that hydrogen peroxide into water and oxygen — the organelle makes its own poison and then destroys it. This is the keyed answer, and it is one of the two things a peroxisome is for.',
       },
     },
     {
@@ -1155,7 +1155,7 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, but detoxification of toxins and drugs is the smooth reticulum\'s best-known function and cannot be the exception. C is the false statement: the endoplasmic reticulum, rough or smooth, is bounded by a single membrane — two membranes is the mitochondrion and the nuclear envelope.',
       explanations: {
         A: 'True, so not the exception. Smooth endoplasmic reticulum is abundant in lipid-synthesising cells such as the liver cell.',
-        B: 'True, so not the exception. Detoxification of drugs, alcohol and hormones is one of its named functions. This is the option the book keys, and taking it would mean denying the function the organelle is most famous for.',
+        B: 'True, so not the exception. Detoxification of drugs, alcohol and hormones is one of its named functions. This is the keyed answer, and taking it would mean denying the function the organelle is most famous for.',
         C: 'The exception, and the answer. The endoplasmic reticulum has one membrane. Two-membrane organelles are the mitochondrion and the nucleus, and importing that number here is the mistake being tested.',
         D: 'True, so not the exception. In muscle the smooth reticulum is the sarcoplasmic reticulum, and its calcium release is what triggers contraction.',
       },
@@ -1170,7 +1170,7 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. The mitochondrial matrix holds DNA along with mRNA, tRNA and rRNA; none of the other three organelles holds any. The identically-worded rows `the-cytoplasmic-organelle-which-contains-dna-rna-is-a57d4354` and `-0-5c91f4fc` are keyed to mitochondria in the same books.',
       explanations: {
         A: 'Rough endoplasmic reticulum carries ribosomes and therefore RNA, but no DNA of its own.',
-        B: 'Correct. The mitochondrion is the only cytoplasmic organelle with a genome, which is what lets it divide independently of the cell.',
+        B: 'The mitochondrion is the only cytoplasmic organelle with a genome, which is what lets it divide independently of the cell.',
         C: 'A lysosome contains a nuclease, which digests nucleic acid rather than storing it — the closest of the wrong answers, and worth being able to argue against.',
         D: 'The Golgi apparatus packs and modifies protein and holds no nucleic acid at all.',
       },
@@ -1191,8 +1191,8 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the Golgi\'s position in the nerve cell and reject the smooth reticulum\'s functions.',
       explanations: {
-        A: 'Correct. In the nerve cell the Golgi is perinuclear — around the nucleus — because the cell has no single secretory surface to face.',
-        B: 'Apical position belongs to a secretory cell discharging at a free surface. "Always" is what makes this option false: the nerve cell is the counter-example the books use.',
+        A: 'In the nerve cell the Golgi is perinuclear — around the nucleus — because the cell has no single secretory surface to face.',
+        B: 'Apical position belongs to a secretory cell discharging at a free surface. "Always" is what makes this option false: the nerve cell is the counter-example.',
         C: 'The Golgi\'s saccules are flat and curved and stacked above one another, not parallel flat cisternae — that description belongs to the rough endoplasmic reticulum.',
         D: 'Detoxification of drugs and alcohol is smooth endoplasmic reticulum. It is the function most often lent to the wrong organelle in this leaf.',
       },
@@ -1206,9 +1206,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys C, the pinocytic vesicle, which forms the multivesicular body. "Auto-" means the cell\'s own material: an autolysosome is a primary lysosome fused with an old organelle, option A. The same books key `autolysosome-is-formed-of-primary-lysosome-bb187ec0` correctly as the destroyed organelle, which is what makes this key visibly wrong.',
       explanations: {
-        A: 'Correct. Auto- means self: the substrate is the cell\'s own worn-out organelle, wrapped in an autophagic vesicle.',
+        A: 'Auto- means self: the substrate is the cell\'s own worn-out organelle, wrapped in an autophagic vesicle.',
         B: 'A phagosome — material engulfed from outside — gives the heterolysosome. Hetero- is the opposite prefix, and the two words carry the whole distinction.',
-        C: 'A pinocytic vesicle gives the multivesicular body. This is the option the book keys, and it names the wrong one of the three fusions.',
+        C: 'A pinocytic vesicle gives the multivesicular body. This is the keyed answer, and it names the wrong one of the three fusions.',
         D: 'A residual body is what is left at the end of digestion, not what starts it.',
       },
     },
@@ -1219,7 +1219,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match the autolysosome to the substrate it fused with.',
       explanations: {
         A: 'Two primary lysosomes fusing would give a larger primary lysosome and no digestion at all — nothing has been brought in to digest.',
-        B: 'Correct. A destroyed or worn-out organelle, taken up in an autophagic vesicle, is what the primary lysosome fuses with to make an autolysosome.',
+        B: 'A destroyed or worn-out organelle, taken up in an autophagic vesicle, is what the primary lysosome fuses with to make an autolysosome.',
         C: 'A pinocytic vesicle gives the multivesicular body — fluid rather than an organelle.',
         D: 'A residual body is the end state after digestion, so it cannot be the starting substrate.',
       },
@@ -1243,7 +1243,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. An autolysosome is a primary lysosome fused with the cell\'s own old organelle, which is option A; the phagosome gives a heterolysosome and the pinocytic vesicle a multivesicular body.',
       explanations: {
-        A: 'Correct. The cell\'s own worn-out organelle — auto- means self, and that prefix is the whole answer.',
+        A: 'The cell\'s own worn-out organelle — auto- means self, and that prefix is the whole answer.',
         B: 'A phagosome holds material taken in from outside and gives the heterolysosome.',
         C: 'A pinocytic vesicle holds fluid and gives the multivesicular body, whose many small vesicles inside are what name it.',
         D: 'A residual body is undigested residue at the end of the process, not a substrate at its start.',
@@ -1259,8 +1259,8 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, 18, which counts the nine peripheral doublets and forgets the central pair. The axoneme is 9 doublets plus 2 central singlets — 20 microtubules — and the same books key `the-axoneme-of-the-cilia-has-2ff05c64` correctly as 20.',
       explanations: {
         A: '9 is the number of rootlet microtubules, and the number of bundles in a centriole. It is what is left if the doublets are counted as units.',
-        B: '18 is nine doublets counted without the central pair. This is the option the book keys, and the two missing microtubules in the middle are exactly what the "9+2" formula exists to stop you forgetting.',
-        C: 'Correct. Nine peripheral doublets — 18 — plus two central singlets makes 20.',
+        B: '18 is nine doublets counted without the central pair. This is the keyed answer, and the two missing microtubules in the middle are exactly what the "9+2" formula exists to stop you forgetting.',
+        C: 'Nine peripheral doublets — 18 — plus two central singlets makes 20.',
         D: '27 is the basal body and the centriole, nine triplets. That is the structure the shaft grows out of, not the shaft.',
       },
     },
@@ -1274,9 +1274,9 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, 18. The basal body has exactly the structure of a centriole — nine triplets, 27 microtubules — and the same books key `concerning-basal-body-it-is-formed-of-f8373bc5` and `the-basal-body-of-the-cilia-has-d824d86d` correctly as 27.',
       explanations: {
         A: '9 is the rootlet, formed from the C microtubule of each of the nine triplets.',
-        B: '18 is the doublets of the shaft counted without their central pair, and it belongs to neither structure as a final answer. This is the option the book keys.',
+        B: '18 is the doublets of the shaft counted without their central pair, and it belongs to neither structure as a final answer. This is the keyed answer.',
         C: '20 is the shaft — the axoneme — with its central pair. The shaft grows from the basal body but does not have its structure.',
-        D: 'Correct. 27, in nine triplets: the basal body is a centriole that has migrated to the apical surface, and it keeps a centriole\'s arrangement exactly.',
+        D: '27, in nine triplets: the basal body is a centriole that has migrated to the apical surface, and it keeps a centriole\'s arrangement exactly.',
       },
     },
     {
@@ -1285,7 +1285,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Stains and techniques',
       learningObjective: 'Attribute cytoplasmic basophilia to ribosomes wherever they sit.',
       explanations: {
-        A: 'Correct. Both populations count: free ribosomes and the ribosomes studding the rough endoplasmic reticulum, because the basophilia comes from the RNA and not from the membrane it sits on.',
+        A: 'Both populations count: free ribosomes and the ribosomes studding the rough endoplasmic reticulum, because the basophilia comes from the RNA and not from the membrane it sits on.',
         B: 'Smooth endoplasmic reticulum has no ribosomes and gives acidophilia — the opposite reaction, from the opposite half of the same organelle.',
         C: 'The Golgi apparatus takes neither dye and shows as an unstained gap.',
         D: 'Lysosomes are invisible without histochemistry and are far too few to colour a whole cytoplasm.',
@@ -1300,10 +1300,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys B, the inner mitochondrial membrane, which is wrong twice over: the department book attributes beta-oxidation of long-chain fatty acids to the peroxisomal oxidases, producing heat rather than ATP, and even the mitochondrial share of beta-oxidation is a matrix process rather than a membrane one. Overridden to D on the faculty\'s own text.',
       explanations: {
-        A: 'The matrix holds the citric acid cycle. If beta-oxidation were being asked as a mitochondrial process this would be the option, not the inner membrane — but the department book gives the process to the peroxisome.',
-        B: 'The inner membrane carries the respiratory chain and ATP synthase. Nothing is oxidised there in the sense this question means. This is the option the book keys.',
+        A: 'The matrix holds the citric acid cycle. If beta-oxidation were being asked as a mitochondrial process this would be the option, not the inner membrane — but beta-oxidation of long-chain fatty acids belongs to the peroxisome.',
+        B: 'The inner membrane carries the respiratory chain and ATP synthase. Nothing is oxidised there in the sense this question means. This is the keyed answer.',
         C: 'Lysosomes hydrolyse; they do not oxidise.',
-        D: 'Correct as the department book teaches it. Peroxisomal oxidases carry out beta-oxidation of long-chain fatty acids, producing heat and hydrogen peroxide — which is why the organelle needs catalase.',
+        D: 'Peroxisomal oxidases carry out beta-oxidation of long-chain fatty acids, producing heat and hydrogen peroxide — which is why the organelle needs catalase.',
       },
     },
     {
@@ -1317,7 +1317,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mitochondria hold the oxidative enzymes of the citric acid cycle and the respiratory chain, but not catalase — and it is catalase that pins this answer down.',
         B: 'Microtubules are cytoskeletal cylinders of tubulin and hold no enzymes at all. The option is here because the word begins the same way as the answer.',
-        C: 'Correct. Microbody is the peroxisome, and oxidase plus catalase is exactly its enzyme content: the oxidase makes hydrogen peroxide and the catalase destroys it.',
+        C: 'Microbody is the peroxisome, and oxidase plus catalase is exactly its enzyme content: the oxidase makes hydrogen peroxide and the catalase destroys it.',
         D: 'Microfilaments are actin, and likewise hold no enzymes. Three of the four options begin with "micro-", which is what the question is really testing.',
       },
     },
@@ -1330,7 +1330,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Actin is half of a contractile network.',
         B: 'True, but not the whole answer. Myosin is the motor that pulls on the actin, and neither does anything without the other.',
         C: 'Microtubules would give a transport and shape system, not a contractile one. The pericyte wraps a capillary and squeezes it, which needs actin and myosin.',
-        D: 'Correct. Both, because contraction is what a pericyte does, and contraction is always actin against myosin.',
+        D: 'Both, because contraction is what a pericyte does, and contraction is always actin against myosin.',
       },
     },
     {
@@ -1355,7 +1355,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The nuclear envelope is two parallel unit membranes with a perinuclear space between them.',
         B: 'True, but not the whole answer. The mitochondrion has a smooth outer membrane and a folded inner one.',
         C: 'Microtubules have no membrane at all — they are protein cylinders, and they belong with the ribosomes among the non-membranous organelles.',
-        D: 'Correct. Two membranes is the feature that picks out exactly these two structures in the whole cell, which is why the books keep asking it.',
+        D: 'Two membranes is the feature that picks out exactly these two structures in the whole cell, which is why the books keep asking it.',
       },
     },
     {
@@ -1370,7 +1370,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Rough endoplasmic reticulum is where the protein is made and segregated.',
         B: 'True, but not the whole answer. The Golgi complex packs, concentrates and modifies it afterwards.',
         C: 'True, but not the whole answer. The ribosomes on that reticulum are what actually assemble the polypeptide.',
-        D: 'Correct. The three are one pathway rather than three independent facts, and a cell that has one of them in quantity has all three.',
+        D: 'The three are one pathway rather than three independent facts, and a cell that has one of them in quantity has all three.',
       },
     },
     {
@@ -1380,7 +1380,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the process that moves material out of the cell.',
       explanations: {
         A: 'Endocytosis is the umbrella term for taking material *in*. It is the opposite direction, and the prefix is the whole distinction.',
-        B: 'Correct. Exocytosis: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside, without breaking the membrane\'s continuity.',
+        B: 'Exocytosis: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside, without breaking the membrane\'s continuity.',
         C: 'Phagocytosis is a kind of endocytosis, and takes solids in.',
         D: 'Pinocytosis is a kind of endocytosis too, and takes fluid in. Three of the four options move material inwards.',
       },
@@ -1392,7 +1392,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Predict the organelle profile of a phagocyte.',
       explanations: {
         A: 'Rough endoplasmic reticulum marks a cell exporting protein — the plasma cell, the fibroblast. A phagocyte builds little and digests much.',
-        B: 'Correct. Lysosomes are what a phagocyte needs, because engulfing a particle achieves nothing until the hydrolytic enzymes reach it.',
+        B: 'Lysosomes are what a phagocyte needs, because engulfing a particle achieves nothing until the hydrolytic enzymes reach it.',
         C: 'Smooth endoplasmic reticulum marks a lipid- or steroid-forming cell.',
         D: 'Ribosomes are in every cell and are prominent where protein is being made. They mark synthesis, and this cell\'s work is destruction.',
       },
@@ -1408,8 +1408,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: '9 is the rootlet, and the number of bundles in a centriole rather than the number of microtubules.',
         B: '18 is nine doublets — the ciliary shaft without its central pair.',
-        C: '20 is the ciliary shaft complete, nine doublets plus two central singlets. This is the option the book keys, and it belongs to the structure the centriole gives rise to rather than to the centriole.',
-        D: 'Correct. Nine triplets, 27 microtubules, and no central pair at all.',
+        C: '20 is the ciliary shaft complete, nine doublets plus two central singlets. This is the keyed answer, and it belongs to the structure the centriole gives rise to rather than to the centriole.',
+        D: 'Nine triplets, 27 microtubules, and no central pair at all.',
       },
     },
     {
@@ -1418,10 +1418,10 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'List the properties that separate an organelle from an inclusion.',
       explanations: {
-        A: 'True, but not the whole answer. Living and permanent are the first two of the book\'s five.',
+        A: 'True, but not the whole answer. Living and permanent are the first two of the five.',
         B: 'True, but not the whole answer. Essential and active are the next two.',
         C: 'True, but not the whole answer. Having a vital function is the fifth.',
-        D: 'Correct. All five are one contrast against the inclusion, which is non-living, temporary, usually not essential, inert and a result of the cell\'s activity rather than a doer of it.',
+        D: 'All five are one contrast against the inclusion, which is non-living, temporary, usually not essential, inert and a result of the cell\'s activity rather than a doer of it.',
       },
     },
     {
@@ -1433,7 +1433,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A ribosome is a single particle of rRNA and protein, not a network.',
         B: 'A proteasome is a protein-degrading complex, also a discrete particle.',
         C: 'A lysosome is a membrane-bound vesicle of enzymes.',
-        D: 'Correct. Microtubules, microfilaments and intermediate filaments with their linking proteins are the cytoskeleton — the microtrabecular lattice that fills the cytosol.',
+        D: 'Microtubules, microfilaments and intermediate filaments with their linking proteins are the cytoskeleton — the microtrabecular lattice that fills the cytosol.',
       },
     },
     {
@@ -1457,7 +1457,7 @@ export const LEAF: McqLeafSeed = {
         A: '9 is the rootlet, built from the C microtubule of each triplet.',
         B: '18 is the doublets of the shaft counted without the central pair.',
         C: '20 is the shaft complete. The shaft grows out of the basal body but does not copy its arrangement.',
-        D: 'Correct. 27, in nine triplets — the basal body is a centriole that has migrated to the apical surface.',
+        D: '27, in nine triplets — the basal body is a centriole that has migrated to the apical surface.',
       },
     },
     {
@@ -1481,7 +1481,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Nine triplets is the arrangement.',
         B: 'False, and the trap. Two central singlets belong to the ciliary shaft, which is 9+2. A centriole has nothing in its centre, and importing the central pair is the commonest error on this structure.',
         C: 'True, but not the whole answer. 27 microtubules is the same fact as A, counted rather than described.',
-        D: 'Correct. A and C are one arrangement stated two ways, so both are true and both are needed.',
+        D: 'A and C are one arrangement stated two ways, so both are true and both are needed.',
       },
     },
     {
@@ -1505,10 +1505,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. The department book states the fibroblast is the commonest cell of connective tissue proper and describes the active form as having deeply basophilic cytoplasm and well-developed organelles, so A, B and C are all false and D stands.',
       explanations: {
-        A: 'The active fibroblast has well-developed rough endoplasmic reticulum, Golgi and mitochondria — it is the department book\'s type example of a protein-synthesising cell. Few organelles describes its resting form, the fibrocyte.',
+        A: 'The active fibroblast has well-developed rough endoplasmic reticulum, Golgi and mitochondria — it is a textbook example of a protein-synthesising cell. Few organelles describes its resting form, the fibrocyte.',
         B: 'Its ribosomes are mostly attached, on the rough endoplasmic reticulum, because collagen is exported. Many *free* ribosomes would mean protein kept inside the cell.',
         C: 'The cytoplasm is deeply basophilic, not pale. Pale basophilic cytoplasm is the reticular cell, and the phrase is borrowed from that description.',
-        D: 'Correct. The fibroblast is the commonest cell of connective tissue proper — which is also why the books ask about it from four different leaves.',
+        D: 'The fibroblast is the commonest cell of connective tissue proper — which is also why the books ask about it from four different leaves.',
       },
     },
     {
@@ -1547,7 +1547,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Normal values',
       learningObjective: 'Count the microtubules in a ciliary rootlet.',
       explanations: {
-        A: 'Correct. 9 — one from each of the nine triplets of the basal body, the C microtubule, growing down into the cytoplasm to anchor the cilium.',
+        A: '9 — one from each of the nine triplets of the basal body, the C microtubule, growing down into the cytoplasm to anchor the cilium.',
         B: '18 is the shaft\'s doublets without the central pair.',
         C: '20 is the shaft complete.',
         D: '27 is the basal body and the centriole. The four numbers 9, 18, 20 and 27 are the whole of what these books ask about cilia, and each belongs to exactly one part.',
@@ -1562,7 +1562,7 @@ export const LEAF: McqLeafSeed = {
         A: 'It has no ribosomes; that absence is what makes it smooth.',
         B: 'When abundant it makes the cytoplasm acidophilic, not basophilic. Basophilia is the rough reticulum\'s signature.',
         C: 'Protein-forming cells are full of the rough kind. The smooth kind marks lipid and steroid formation.',
-        D: 'Correct. In muscle the smooth reticulum is the sarcoplasmic reticulum, and the calcium it releases is what makes the muscle contract.',
+        D: 'In muscle the smooth reticulum is the sarcoplasmic reticulum, and the calcium it releases is what makes the muscle contract.',
       },
     },
     {
@@ -1573,7 +1573,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: '9 is the rootlet.',
         B: '18 is the shaft\'s nine doublets with the central pair forgotten — the near miss this question is built around.',
-        C: 'Correct. 20: nine peripheral doublets and two central singlets, the 9+2 axoneme.',
+        C: '20: nine peripheral doublets and two central singlets, the 9+2 axoneme.',
         D: '27 is the basal body, nine triplets.',
       },
     },
@@ -1593,7 +1593,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Normal values',
       learningObjective: 'Give the number of protofilaments in a microtubule wall.',
       explanations: {
-        A: 'Correct. Thirteen protofilaments make the wall, and that number is why the diameter never varies.',
+        A: 'Thirteen protofilaments make the wall, and that number is why the diameter never varies.',
         B: 'Ten protofilaments would give a narrower tube. The figure is close enough to thirteen to be worth offering and wrong enough to be worth marking.',
         C: 'The same claim about a different subunit, and equally wrong on the number in the other direction — it repeats the thirteen but attaches it to the option the question has already used.',
         D: 'The four statements contradict each other on the count, so they cannot all be true.',
@@ -1605,7 +1605,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Identify the multilocular fat cell by the number of its lipid inclusions.',
       explanations: {
-        A: 'Correct. Multi-locular means many compartments: the stored fat is in many small droplets rather than one, and the nucleus stays central and rounded because none of them is big enough to displace it.',
+        A: 'Multi-locular means many compartments: the stored fat is in many small droplets rather than one, and the nucleus stays central and rounded because none of them is big enough to displace it.',
         B: 'Multilocular cells make brown adipose tissue. White adipose tissue is unilocular, and the colour follows the mitochondria rather than the droplets.',
         C: 'A single large droplet is the unilocular cell — the direct opposite, and the answer to the companion question with the same four options.',
         D: 'A prominent Golgi and rough endoplasmic reticulum describe a protein-exporting cell. A fat cell stores an inclusion; it exports nothing.',
@@ -1619,7 +1619,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Two membranes is a mitochondrion or a nuclear envelope, and ribosomes on an inner surface would face the lumen, where there is no messenger RNA.',
         B: 'Two membranes again. The count is what makes this false, even though the face is right.',
-        C: 'Correct. One membrane, studded on its outer — cytoplasmic — surface, because that is the side the messenger RNA is on and the side the ribophorins face.',
+        C: 'One membrane, studded on its outer — cytoplasmic — surface, because that is the side the messenger RNA is on and the side the ribophorins face.',
         D: 'One membrane is right but the inner surface is wrong: a ribosome inside the cisterna would be sealed away from the cytosol it draws its materials from. The four options are the two-by-two of membrane count against surface, and only one cell of it is true.',
       },
     },
@@ -1631,7 +1631,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Many droplets is the multilocular cell — the companion question with the same options, and its answer.',
         B: 'Unilocular cells make white adipose tissue. Brown is multilocular, coloured by the cytochrome of its many mitochondria.',
-        C: 'Correct. Uni-locular: one large droplet filling the cell, flattening the nucleus against the periphery and leaving a thin rim of cytoplasm — the signet ring.',
+        C: 'Uni-locular: one large droplet filling the cell, flattening the nucleus against the periphery and leaving a thin rim of cytoplasm — the signet ring.',
         D: 'A prominent Golgi and rough endoplasmic reticulum belong to a cell exporting protein, which a fat cell is not.',
       },
     },
@@ -1654,7 +1654,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Microtubules are the largest of the three at 24 nm.',
         B: 'True, but not the whole answer. Thin filaments are the microfilaments, 5–7 nm, and the smallest.',
         C: 'True, but not the whole answer. Intermediate filaments are 8–10 nm — named for being between the other two.',
-        D: 'Correct. Three elements, and their diameters run in the order the names suggest once you notice that "intermediate" is a size and not a function.',
+        D: 'Three elements, and their diameters run in the order the names suggest once you notice that "intermediate" is a size and not a function.',
       },
     },
     {
@@ -1676,8 +1676,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys A, microfilaments. Desmin is on the department book\'s own list of intermediate filament proteins, with cytokeratin, vimentin, neurofilaments, GFAP and the lamins. The same books key the identically-shaped rows for vimentin and keratin as intermediate filaments, which is what makes this key visibly wrong.',
       explanations: {
-        A: 'Microfilaments are actin, and only actin. This is the option the book keys, and taking it would make desmin a contractile protein rather than a supporting one.',
-        B: 'Correct. Desmin is the intermediate filament of muscular tissue — one of the six tissue-specific proteins the department book names.',
+        A: 'Microfilaments are actin, and only actin. This is the keyed answer, and taking it would make desmin a contractile protein rather than a supporting one.',
+        B: 'Desmin is the intermediate filament of muscular tissue — one of six tissue-specific intermediate filament proteins.',
         C: 'Thick filaments are myosin of the muscle contractile apparatus, and are not cytoskeletal at all. The muscle setting makes this the most tempting wrong answer.',
         D: 'Microtubules are tubulin. Nothing named "-in" of this family is tubulin.',
       },
@@ -1689,7 +1689,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Explain why intermediate filaments are what a pathologist stains in a tumour.',
       explanations: {
         A: 'Microtubules are what a chemotherapy drug blocks — the other tumour question in these books, with the same setting and a different verb. Detection is not what is done to them.',
-        B: 'Correct. Each tissue has its own intermediate filament protein, so identifying it by immunocytochemistry reveals the cell the tumour arose from, and that decides how it is treated.',
+        B: 'Each tissue has its own intermediate filament protein, so identifying it by immunocytochemistry reveals the cell the tumour arose from, and that decides how it is treated.',
         C: 'Microfilaments are actin in every cell alike, so finding actin says nothing about where a tumour came from. Being universal is exactly what makes a marker useless.',
         D: 'The proteasome is likewise present everywhere and is not tissue-specific.',
       },
@@ -1703,9 +1703,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys C, the Golgi apparatus, which has no detoxifying role of any kind. Detoxification of drugs, alcohol and hormones is a named function of smooth endoplasmic reticulum in the department book, and four other rows in these same books key it to sER. The key here is simply wrong and is overridden to A.',
       explanations: {
-        A: 'Correct. Smooth endoplasmic reticulum detoxifies drugs, alcohol and hormones — which is also why the liver cell, where it is most abundant, is the organ that handles them.',
+        A: 'Smooth endoplasmic reticulum detoxifies drugs, alcohol and hormones — which is also why the liver cell, where it is most abundant, is the organ that handles them.',
         B: 'Rough endoplasmic reticulum makes and segregates exported protein. It is the other half of the same organelle and takes none of its functions.',
-        C: 'The Golgi apparatus packs and modifies protein. This is the option the book keys, and no statement anywhere in the department text supports it.',
+        C: 'The Golgi apparatus packs and modifies protein. This is the keyed answer, and no statement anywhere in the source text supports it.',
         D: 'Mitochondria oxidise substrates to make ATP. Oxidation is involved in detoxification, which is what makes this the most defensible of the three wrong options, but the enzymes that do it sit on smooth reticulum.',
       },
     },
@@ -1718,7 +1718,7 @@ export const LEAF: McqLeafSeed = {
         A: '5–10 nm spans the microfilament and the intermediate filament together, so it identifies neither. It is the near miss the option set is built on.',
         B: '4–8 nm is invented and belongs to nothing in the cytoskeleton.',
         C: '3–6 nm is too small for any of the three.',
-        D: 'Correct. 5–7 nm, printed here as "5.7". The three diameters run 5–7 for microfilaments, 8–10 for intermediate filaments and 24 for microtubules.',
+        D: '5–7 nm, printed here as "5.7". The three diameters run 5–7 for microfilaments, 8–10 for intermediate filaments and 24 for microtubules.',
       },
     },
     {
@@ -1729,8 +1729,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: '6 nm is a microfilament.',
         B: '10 nm is the top of the intermediate filament range.',
-        C: 'Correct. 24 nm, fixed by the thirteen protofilaments of the wall.',
-        D: '40 nm is larger than any cytoskeletal element and corresponds to nothing the book gives.',
+        C: '24 nm, fixed by the thirteen protofilaments of the wall.',
+        D: '40 nm is larger than any cytoskeletal element and corresponds to nothing named here.',
       },
     },
     {
@@ -1752,7 +1752,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The rough endoplasmic reticulum carries ribosomes on its outer surface, not elementary particles. The two are both "granules on a membrane", which is why the option is offered.',
         B: 'The rough reticulum has one membrane, so it has no inner one to speak of.',
         C: 'The outer mitochondrial membrane is smooth and carries porins. It is where small molecules get in, not where ATP is made.',
-        D: 'Correct. The elementary particles are the globular structures attached by stalks to the cristae of the inner membrane, and they carry the ATP synthase.',
+        D: 'The elementary particles are the globular structures attached by stalks to the cristae of the inner membrane, and they carry the ATP synthase.',
       },
     },
     {
@@ -1761,7 +1761,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Describe the smooth reticulum as it appears on electron microscopy.',
       explanations: {
-        A: 'Correct. A network of branching and anastomosing tubules of variable shape, continuous with the rough reticulum but carrying no ribosomes.',
+        A: 'A network of branching and anastomosing tubules of variable shape, continuous with the rough reticulum but carrying no ribosomes.',
         B: 'Ribosomes are exactly what it does not have — their absence is the definition of "smooth".',
         C: 'Parallel flattened cisternae are the rough reticulum. The two halves of the organelle differ in shape as well as in ribosomes, and this option gives the smooth one the rough one\'s shape.',
         D: 'The tubules are of variable shape and size, not uniform. Regularity would be a poor description of a network that branches.',
@@ -1787,7 +1787,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A lysosome is also a single membrane around enzymes, which is why half the description fits — but its enzymes are hydrolases, not oxidases.',
         B: 'The Golgi is a stack of many saccules, not a single vesicle, and it holds no digestive enzyme of its own.',
-        C: 'Correct. Single membrane plus oxidase is the peroxisome; catalase is the other half of its enzyme content.',
+        C: 'Single membrane plus oxidase is the peroxisome; catalase is the other half of its enzyme content.',
         D: 'A proteasome has no membrane at all and degrades protein by a different route entirely.',
       },
     },
@@ -1798,7 +1798,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Describe the endoplasmic reticulum as an interconnected system of cisternae.',
       explanations: {
         A: 'Flat curved saccules stacked above one another is the Golgi apparatus. The two organelles are both stacks of membrane, and this is the description that separates them.',
-        B: 'Correct. A network of continuous, intercommunicating channels and sacs — cisternae — running from the nuclear envelope out to the cell membrane.',
+        B: 'A network of continuous, intercommunicating channels and sacs — cisternae — running from the nuclear envelope out to the cell membrane.',
         C: 'Vesicles with two membranes describes nothing in the cell; two membranes are the mitochondrion and the nucleus, and neither is a vesicle.',
         D: 'Granules with two subunits are ribosomes. They sit on the reticulum but are not what it is made of.',
       },
@@ -1812,7 +1812,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. Detoxification of drugs, alcohol and hormones is a named function of smooth endoplasmic reticulum in the department book, and none of the other three organelles is given any detoxifying role.',
       explanations: {
-        A: 'Correct. The detoxifying enzymes sit on smooth endoplasmic reticulum, which is why the liver cell — where it is most abundant — is the organ that handles drugs and alcohol.',
+        A: 'The detoxifying enzymes sit on smooth endoplasmic reticulum, which is why the liver cell — where it is most abundant — is the organ that handles drugs and alcohol.',
         B: 'Rough endoplasmic reticulum makes exported protein. Its only share in this is that it is continuous with the smooth kind.',
         C: 'The Golgi apparatus packs and modifies protein and detoxifies nothing, though one row in these books mistakenly keys it so.',
         D: 'Mitochondria oxidise substrates to make ATP. Oxidation is part of detoxification, which makes this the most defensible wrong answer, but the enzymes are not theirs.',
@@ -1825,7 +1825,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place oxidative phosphorylation on the inner mitochondrial membrane.',
       explanations: {
         A: 'The outer membrane is smooth and carries porins; its job is to let small molecules through, not to make ATP.',
-        B: 'Correct. The inner membrane, and specifically the elementary particles on its cristae, where ATP synthase does the work.',
+        B: 'The inner membrane, and specifically the elementary particles on its cristae, where ATP synthase does the work.',
         C: 'The matrix holds the citric acid cycle enzymes — one step earlier in the same pathway, and the option this question exists to separate from the answer.',
         D: 'Not all three: the outer membrane has no part in it at all.',
       },
@@ -1836,7 +1836,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the organelle that produces the cell\'s ATP.',
       explanations: {
-        A: 'Correct. The mitochondrion is the power house, and oxidative phosphorylation on its cristae is how the ATP is made.',
+        A: 'The mitochondrion is the power house, and oxidative phosphorylation on its cristae is how the ATP is made.',
         B: 'Secondary lysosomes digest. Digestion releases energy-yielding molecules but does not phosphorylate ADP.',
         C: 'Primary lysosomes have not yet digested anything at all.',
         D: 'Rough endoplasmic reticulum makes protein. It uses ATP rather than making it.',
@@ -1849,7 +1849,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute peroxisomal enzymes to free ribosomes.',
       explanations: {
         A: 'Rough endoplasmic reticulum makes proteins destined for export or for a membrane-bound compartment. The peroxisome buds from it, which is exactly why this option is tempting, but its enzymes take the other route.',
-        B: 'Correct. The peroxisome\'s enzymes are made on free ribosomes and imported into the organelle afterwards — the department book states it explicitly.',
+        B: 'The peroxisome\'s enzymes are made on free ribosomes and imported into the organelle afterwards, which is well established.',
         C: 'Attached ribosomes are the rough reticulum\'s, and make exported protein.',
         D: 'Both would mean the cell used two routes for one set of enzymes. It uses one.',
       },
@@ -1863,7 +1863,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. The department book states that peroxisomal enzymes are synthesised on free ribosomes, which is option A. The same question keyed elsewhere in the bank, `enzymes-of-peroxisomes-are-formed-in-fbc4e1e8`, gives free ribosomes too.',
       explanations: {
-        A: 'Correct. Free ribosomes, releasing the enzymes into the cytosol, from which the peroxisome imports them.',
+        A: 'Free ribosomes, releasing the enzymes into the cytosol, from which the peroxisome imports them.',
         B: 'Attached ribosomes make protein for export or for the secretory pathway — a different destination entirely.',
         C: 'The rough endoplasmic reticulum is where the peroxisome\'s membrane buds from, so half the organelle does come from it. Its enzymes do not, and separating the membrane\'s origin from the contents\' origin is what this question is for.',
         D: 'The Golgi apparatus packs and ships protein; it synthesises none.',
@@ -1876,7 +1876,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Read the fibrocyte as the resting state of the fibroblast.',
       explanations: {
         A: 'Deep basophilia means abundant rough endoplasmic reticulum, which is the active fibroblast. The fibrocyte\'s cytoplasm is pale because it has little.',
-        B: 'Correct. A smaller spindle-shaped cell with few processes — the resting form, which becomes an active fibroblast again for wound healing.',
+        B: 'A smaller spindle-shaped cell with few processes — the resting form, which becomes an active fibroblast again for wound healing.',
         C: 'A well-developed Golgi goes with active export. The fibrocyte is exporting almost nothing.',
         D: 'Active is the fibroblast. The suffix carries the whole distinction: -blast is building, -cyte is resting.',
       },
@@ -1899,7 +1899,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A microtubule is a hollow cylinder of tubulin, not a coiled pair of actin chains.',
         B: 'Intermediate filaments are polymers of tetrameric subunits that differ from tissue to tissue — never actin.',
-        C: 'Correct. Two chains of globular G actin coiled into filamentous F actin: the microfilament, 5–7 nm across.',
+        C: 'Two chains of globular G actin coiled into filamentous F actin: the microfilament, 5–7 nm across.',
         D: 'A proteasome is an enzyme complex, not a filament at all.',
       },
     },
@@ -1909,7 +1909,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Identify the microtubule from its wall structure.',
       explanations: {
-        A: 'Correct. Thirteen parallel protofilaments make the wall, and because the number never changes the 24 nm diameter never changes either.',
+        A: 'Thirteen parallel protofilaments make the wall, and because the number never changes the 24 nm diameter never changes either.',
         B: 'Intermediate filaments have no protofilaments and no fixed diameter of that kind; they are 8–10 nm and built from tetramers.',
         C: 'Microfilaments are two coiled chains of actin, 5–7 nm, with no wall and no lumen.',
         D: 'There is a correct option, so "none of the above" cannot stand.',
@@ -1927,7 +1927,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Microtubules are the largest of the three.',
         B: 'True, but not the whole answer. Microfilaments are the smallest.',
         C: 'True, but not the whole answer. Intermediate filaments lie between them in size and are the supportive element.',
-        D: 'Correct. All three, joined by linking proteins into the microtrabecular lattice.',
+        D: 'All three, joined by linking proteins into the microtrabecular lattice.',
       },
     },
     {
@@ -1938,7 +1938,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Ribosomes assemble protein and hold no enzymes of their own.',
         B: 'Lysosomes hydrolyse. They neither make nor destroy hydrogen peroxide, and swapping them for peroxisomes is the standing trap in this leaf.',
-        C: 'Correct. The oxidases generate hydrogen peroxide as a by-product and the catalase splits it into water and oxygen — the organelle is named for the compound it handles at both ends.',
+        C: 'The oxidases generate hydrogen peroxide as a by-product and the catalase splits it into water and oxygen — the organelle is named for the compound it handles at both ends.',
         D: 'Proteasomes degrade protein and have nothing to do with peroxide.',
       },
     },
@@ -1949,7 +1949,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the destination of protein made on free ribosomes.',
       explanations: {
         A: 'Lipids are made on smooth endoplasmic reticulum. No ribosome makes a lipid.',
-        B: 'Correct. Free ribosomes make the protein the cell keeps — the enzymes of its own metabolism and the protein of its own growth.',
+        B: 'Free ribosomes make the protein the cell keeps — the enzymes of its own metabolism and the protein of its own growth.',
         C: 'Carbohydrate is added to protein in the rough reticulum and the Golgi; ribosomes assemble amino acids only.',
         D: 'Protein secreted outside the cell is made on attached ribosomes. This is the exact opposite answer, and the two questions are asked side by side with the same options.',
       },
@@ -1972,7 +1972,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A heterolysosome comes from a phagosome — material from outside. Hetero- means other, and it is the opposite prefix to the one in the stem.',
         B: 'A multivesicular body comes from a pinocytic vesicle, and the many small vesicles it keeps inside are what name it.',
-        C: 'Correct. Autophagic vesicle plus primary lysosome gives the autolysosome — the cell digesting its own worn-out organelles.',
+        C: 'Autophagic vesicle plus primary lysosome gives the autolysosome — the cell digesting its own worn-out organelles.',
         D: 'A residual body is what is left when digestion is finished, whichever of the three routes was taken.',
       },
     },
@@ -1982,7 +1982,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the secondary lysosome formed with a phagosome.',
       explanations: {
-        A: 'Correct. Phagocytosed material — a phagosome — plus a primary lysosome gives the heterolysosome, which digests solid particles taken from outside.',
+        A: 'Phagocytosed material — a phagosome — plus a primary lysosome gives the heterolysosome, which digests solid particles taken from outside.',
         B: 'A multivesicular body is the pinocytic route, and digests fluid.',
         C: 'An autolysosome digests the cell\'s own organelles.',
         D: 'A residual body is the end state of any of the three.',
@@ -1995,7 +1995,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the secondary lysosome formed with a pinocytic vesicle.',
       explanations: {
         A: 'A heterolysosome is the phagosome route — solids rather than fluid.',
-        B: 'Correct. Pinocytic vesicle plus primary lysosome gives the multivesicular body, digesting the fluid and dissolved material the cell drank.',
+        B: 'Pinocytic vesicle plus primary lysosome gives the multivesicular body, digesting the fluid and dissolved material the cell drank.',
         C: 'An autolysosome is the cell\'s own organelles.',
         D: 'A residual body is the residue left at the end, not a fusion product in its own right.',
       },
@@ -2010,9 +2010,9 @@ export const LEAF: McqLeafSeed = {
         'The book keys D, microtubules. Glial fibrillary acidic protein is on the department book\'s own list of the six intermediate filament proteins, alongside cytokeratin, vimentin, desmin, neurofilaments and the lamins. The same books key the vimentin row correctly as intermediate filaments, which makes this key a slip.',
       explanations: {
         A: 'Microfilaments are actin in every cell alike and have no tissue-specific forms.',
-        B: 'Correct. GFAP is the intermediate filament of glial cells, and its tissue specificity is what makes it useful in identifying a glial tumour.',
+        B: 'GFAP is the intermediate filament of glial cells, and its tissue specificity is what makes it useful in identifying a glial tumour.',
         C: 'Thick filaments are myosin of muscle and are not cytoskeletal.',
-        D: 'Microtubules are tubulin. This is the option the book keys, and it would make a tissue-specific protein out of one that is the same everywhere.',
+        D: 'Microtubules are tubulin. This is the keyed answer, and it would make a tissue-specific protein out of one that is the same everywhere.',
       },
     },
     {
@@ -2037,7 +2037,7 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, packing of proteins, which is the Golgi\'s defining function and cannot be the exception. Synthesis of polypeptide chains — option A — is done on ribosomes, and it is the only false statement in the set.',
       explanations: {
         A: 'The exception, and the answer. Polypeptide chains are assembled on ribosomes. The Golgi receives protein already made and never builds a peptide bond.',
-        B: 'True, so not the exception. Packing is the first word in every account of what the Golgi does. This is the option the book keys, and taking it would deny the organelle its own definition.',
+        B: 'True, so not the exception. Packing is the first word in every account of what the Golgi does. This is the keyed answer, and taking it would deny the organelle its own definition.',
         C: 'True, so not the exception. The secretory product is concentrated as it passes through the stack.',
         D: 'True, so not the exception. Chemical modification — adding carbohydrate to make glycoprotein — happens there.',
       },
@@ -2050,7 +2050,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Brown is what silver gives, not H&E. The two stains give opposite pictures of the same organelle, and this option has the right colour with the wrong technique.',
         B: 'Red would mean the Golgi took eosin. It takes neither dye, which is the whole point.',
-        C: 'Correct. A pale unstained area beside the nucleus, interrupting the plasma cell\'s deep basophilia — the negative Golgi image.',
+        C: 'A pale unstained area beside the nucleus, interrupting the plasma cell\'s deep basophilia — the negative Golgi image.',
         D: 'No histological stain in this syllabus gives green except Janus green, which is a vital stain for mitochondria.',
       },
     },
@@ -2065,8 +2065,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The liver cell secretes bile in one direction and plasma proteins in another, and its Golgi is not described as apical.',
         B: 'A steroid-secreting cell releases its product by diffusion through the whole surface, so it has no apical face to point a Golgi at — and it needs little Golgi at all.',
-        C: 'Correct. A secretory cell discharging into a lumen keeps its Golgi above the nucleus, on the route between the rough reticulum below and the surface above.',
-        D: 'The nerve cell is the book\'s counter-example: its Golgi is perinuclear, surrounding the nucleus rather than sitting above it.',
+        C: 'A secretory cell discharging into a lumen keeps its Golgi above the nucleus, on the route between the rough reticulum below and the surface above.',
+        D: 'The nerve cell is the standard counter-example: its Golgi is perinuclear, surrounding the nucleus rather than sitting above it.',
       },
     },
     {
@@ -2076,7 +2076,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match the heterolysosome to the substrate it fused with.',
       explanations: {
         A: 'A pinocytic vesicle gives the multivesicular body.',
-        B: 'Correct. Hetero- means other: material from outside the cell, engulfed as a phagosome.',
+        B: 'Hetero- means other: material from outside the cell, engulfed as a phagosome.',
         C: 'An autophagic vesicle gives the autolysosome — the cell\'s own material, the opposite prefix.',
         D: 'A residual body is the end of digestion rather than its beginning.',
       },
@@ -2092,7 +2092,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Deep basophilia means abundant rough endoplasmic reticulum, which is the plasma cell. A macrophage is faintly basophilic at most.',
         B: 'The macrophage nucleus is indented and relatively dark, not the pale vesicular nucleus of a protein-exporting cell.',
-        C: 'Correct. Pseudopodia — an irregular surface throwing out processes — are how the cell engulfs, and they are what identify it on electron microscopy.',
+        C: 'Pseudopodia — an irregular surface throwing out processes — are how the cell engulfs, and they are what identify it on electron microscopy.',
         D: 'Few lysosomes is the opposite of the truth. The macrophage has more than almost any other cell.',
       },
     },
@@ -2104,7 +2104,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Deeply basophilic cytoplasm is the plasma cell, packed with rough endoplasmic reticulum.',
         B: 'A euchromatic, pale nucleus goes with heavy protein synthesis. The macrophage\'s nucleus is indented and darker.',
-        C: 'Correct. Pseudopodia, the processes it engulfs with — the feature that identifies it and the one it could not do its work without.',
+        C: 'Pseudopodia, the processes it engulfs with — the feature that identifies it and the one it could not do its work without.',
         D: 'Few lysosomes contradicts what a phagocyte is for.',
       },
     },
@@ -2114,7 +2114,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Identify a primary lysosome by its uniform density.',
       explanations: {
-        A: 'Correct. Homogeneous and uniformly electron dense, bounded by a membrane, is a primary lysosome: it has not yet fused with anything, so there is nothing in it but enzyme.',
+        A: 'Homogeneous and uniformly electron dense, bounded by a membrane, is a primary lysosome: it has not yet fused with anything, so there is nothing in it but enzyme.',
         B: 'A secondary lysosome is heterogeneous, because it holds whatever it fused with at various stages of digestion. Homogeneous against heterogeneous is the whole distinction.',
         C: 'Free ribosomes are electron dense but far smaller and are not membrane-limited.',
         D: 'Attached ribosomes are likewise not membrane-limited — they sit on a membrane rather than inside one.',
@@ -2128,7 +2128,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mitochondria hold oxidative enzymes for energy production, not hydrolases.',
         B: 'Peroxisomes hold oxidases and catalase. They are the other single-membrane enzyme bag and the standing distractor here.',
-        C: 'Correct. Hydrolytic enzymes for intracytoplasmic digestion are what a lysosome is.',
+        C: 'Hydrolytic enzymes for intracytoplasmic digestion are what a lysosome is.',
         D: 'Smooth endoplasmic reticulum carries the detoxifying and lipid-synthesising enzymes.',
       },
     },
@@ -2140,7 +2140,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Endocytosis brings material in. A gland cell secreting is doing the opposite.',
         B: 'Rupture of the whole cell is holocrine secretion — the sebaceous gland. Naming the three modes of secretion by what survives the process is the point of the question.',
-        C: 'Correct. Merocrine secretion is exocytosis: the vesicle fuses with the membrane and discharges, and the cell loses neither cytoplasm nor its life.',
+        C: 'Merocrine secretion is exocytosis: the vesicle fuses with the membrane and discharges, and the cell loses neither cytoplasm nor its life.',
         D: 'Pinocytosis takes fluid in, again the wrong direction.',
       },
     },
@@ -2151,9 +2151,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the Golgi\'s position in the nerve cell.',
       explanations: {
         A: 'Apical is the secretory cell, which has a free surface to discharge at. A nerve cell has none.',
-        B: 'Correct. Perinuclear — around the nucleus — because the neuron distributes its product along processes running in every direction.',
+        B: 'Perinuclear — around the nucleus — because the neuron distributes its product along processes running in every direction.',
         C: 'Basal would put the Golgi below the nucleus, on the wrong side of the secretory route in any cell.',
-        D: 'Central is not a term the book uses for Golgi position; the two positions it gives are apical and perinuclear.',
+        D: 'Central is not a term used for Golgi position; the two positions are apical and perinuclear.',
       },
     },
     {
@@ -2162,10 +2162,10 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Give the Golgi\'s position in a secretory cell.',
       explanations: {
-        A: 'Correct. Apical, above the nucleus, on the route between the rough reticulum in the base of the cell and the free surface it discharges at.',
+        A: 'Apical, above the nucleus, on the route between the rough reticulum in the base of the cell and the free surface it discharges at.',
         B: 'Perinuclear is the nerve cell — the paired question, with the same four options and the other answer.',
         C: 'Basal is where the rough endoplasmic reticulum and the nucleus are, not the Golgi.',
-        D: 'Central is not one of the positions the book gives.',
+        D: 'Central is not one of the two positions.',
       },
     },
     {
@@ -2197,7 +2197,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the primary lysosome from its origin and its uniformity.',
       explanations: {
         A: 'A ribosome is not enzyme-filled, has no membrane and does not come from the Golgi.',
-        B: 'Correct. Newly budded from the Golgi, homogeneous, and holding hydrolases that have not yet acted — a primary lysosome.',
+        B: 'Newly budded from the Golgi, homogeneous, and holding hydrolases that have not yet acted — a primary lysosome.',
         C: 'A secondary lysosome has already fused with a substrate, so it is heterogeneous and its enzymes are working.',
         D: 'An autolysosome is one kind of secondary lysosome and is likewise no longer inactive.',
       },
@@ -2210,7 +2210,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Melanin protects the skin from ultraviolet light, but a cell survives perfectly well without it.',
         B: 'Lipofuscin is waste — undigested residue accumulating with age. It is the least essential thing in the cell.',
-        C: 'The exception, and the answer. Haemoglobin is an inclusion by the book\'s classification, but it is the entire purpose of the red cell, which has discarded everything else to carry more of it. "Usually not essential" is how the book words the rule, and this is the exception the wording leaves room for.',
+        C: 'The exception, and the answer. Haemoglobin is an inclusion by this classification, but it is the entire purpose of the red cell, which has discarded everything else to carry more of it. "Usually not essential" is how the rule is worded, and this is the exception the wording leaves room for.',
         D: 'Carotene is an exogenous pigment taken in with food, and nothing depends on it.',
       },
     },
@@ -2223,7 +2223,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Smooth endoplasmic reticulum handles lipid and steroid and detoxification, not sugar on protein.',
         B: 'Lysosomes break glycoprotein down; they add nothing.',
         C: 'The Golgi does glycosylate — but it does the later, further modification. The word "initial" is what points at the earlier organelle, and this is the option that catches a student who reads past it.',
-        D: 'Correct. The rough endoplasmic reticulum performs the initial glycosylation, as part of what it does to a protein before the transfer vesicle leaves.',
+        D: 'The rough endoplasmic reticulum performs the initial glycosylation, as part of what it does to a protein before the transfer vesicle leaves.',
       },
     },
     {
@@ -2235,7 +2235,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The elementary particles are attached to it by stalks.',
         B: 'True, but not the whole answer. It is thrown into the folds called cristae.',
         C: 'True, but not the whole answer. Those folds are what give it its high surface area.',
-        D: 'Correct. The three are one fact seen three ways: the membrane folds, folding gives area, and the area carries the particles that make the ATP.',
+        D: 'The three are one fact seen three ways: the membrane folds, folding gives area, and the area carries the particles that make the ATP.',
       },
     },
     {
@@ -2244,7 +2244,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Explain the plasma cell\'s basophilia from its organelle content.',
       explanations: {
-        A: 'Correct. The plasma cell exports antibody, so it is filled with rough endoplasmic reticulum and ribosomes, and the RNA of those ribosomes is what binds the basic dye.',
+        A: 'The plasma cell exports antibody, so it is filled with rough endoplasmic reticulum and ribosomes, and the RNA of those ribosomes is what binds the basic dye.',
         B: 'Few mitochondria would explain nothing about staining, and mitochondria are acidophilic in any case.',
         C: 'Secretory granules would show as discrete bodies. The plasma cell\'s basophilia is diffuse through the whole cytoplasm.',
         D: 'Centrioles are two tiny structures beside the nucleus, far too small to colour a cell.',
@@ -2256,7 +2256,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Mechanism',
       learningObjective: 'Distinguish the endocytic route that needs no accessory protein.',
       explanations: {
-        A: 'Correct. Pinocytosis is a plain invagination of the membrane closing round extracellular fluid — no clathrin, no receptor, no pseudopodium.',
+        A: 'Pinocytosis is a plain invagination of the membrane closing round extracellular fluid — no clathrin, no receptor, no pseudopodium.',
         B: 'Exocytosis moves material out, and this stem describes an invagination inwards.',
         C: 'Phagocytosis works by pseudopodia extending outwards around the particle, not by the membrane sinking inwards.',
         D: 'Receptor-mediated endocytosis is the one route that certainly does need other proteins — the receptors and the clathrin coat. It is the option the phrase "without need of other proteins" is written to exclude.',
@@ -2271,7 +2271,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Numerous mitochondria arranged vertically between the infoldings supply the ATP that active transport costs.',
         B: 'Lateral interdigitations increase contact between neighbouring cells rather than with the basal surface where transport happens.',
         C: 'True, but not the whole answer. Basal infoldings are the invaginations that provide the surface area itself.',
-        D: 'Correct. Surface and power together: infoldings to move the ions across and mitochondria packed between them to pay for it, which is why the two are always seen in the same cell.',
+        D: 'Surface and power together: infoldings to move the ions across and mitochondria packed between them to pay for it, which is why the two are always seen in the same cell.',
       },
     },
     {
@@ -2293,8 +2293,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys B, the inner membrane, which carries the respiratory chain and ATP synthase. The department book puts the oxidative enzymes of the citric acid cycle in the matrix, and the same books key `the-mitochondrial-matrix-contains-all-the-following-except-304ffff7` with Krebs cycle enzymes as a true matrix content. Overridden to A.',
       explanations: {
-        A: 'Correct. The Krebs cycle enzymes are soluble, in the matrix — the department book lists them among the matrix contents alongside the mitochondrial DNA and the calcium granules.',
-        B: 'The inner membrane carries oxidative phosphorylation, the *next* stage. This is the option the book keys, and the two stages are the two halves of the same question set in almost every mitochondrial row in this leaf.',
+        A: 'The Krebs cycle enzymes are soluble, in the matrix, alongside the mitochondrial DNA and the calcium granules.',
+        B: 'The inner membrane carries oxidative phosphorylation, the *next* stage. This is the keyed answer, and the two stages are the two halves of the same question set in almost every mitochondrial row in this leaf.',
         C: 'Lysosomes hydrolyse and have no part in respiration.',
         D: 'Peroxisomes oxidise fatty acids and destroy hydrogen peroxide, which is a different oxidation entirely and produces heat rather than ATP.',
       },
@@ -2309,9 +2309,9 @@ export const LEAF: McqLeafSeed = {
         'The book keys D, none of the above, but B is exactly how the department book describes lipofuscin: undigested material retained in the secondary lysosome — the residual body — accumulating over years in long-lived cells such as cardiac muscle and nerve cells. The same books key the parallel row `residual-bodies-c4d7b4d2` as B on the same wording, which is what makes D untenable here.',
       explanations: {
         A: 'Digested material is absorbed and used. What stays behind and colours the cell is precisely what could not be digested.',
-        B: 'Correct. Undigested residue held in the secondary lysosome — the residual body — which in cells that never divide accumulates year on year and becomes the age pigment.',
+        B: 'Undigested residue held in the secondary lysosome — the residual body — which in cells that never divide accumulates year on year and becomes the age pigment.',
         C: 'The multivesicular body is one route in; the residue ends up in a residual body whichever route it came by, so naming one of the three is too narrow.',
-        D: 'This is the option the book keys, and B is true, so it cannot stand.',
+        D: 'This is the keyed answer, and B is true, so it cannot stand.',
       },
     },
     {
@@ -2323,7 +2323,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The macrophage is the type example.',
         B: 'True, but not the whole answer. The neutrophil\'s azurophil granules are primary lysosomes.',
         C: 'True, but not the whole answer, and it is the category the other two belong to.',
-        D: 'Correct. All of them, because all three are phagocytes — and A and B are simply two named members of the class C describes.',
+        D: 'All of them, because all three are phagocytes — and A and B are simply two named members of the class C describes.',
       },
     },
     {
@@ -2337,7 +2337,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'They cannot be seen in a routine preparation. Being invisible without histochemistry is one of the facts the books ask about them most.',
         B: 'H&E shows neither the organelle nor its contents; the enzymes are colourless and the vesicles too small.',
-        C: 'Correct. The acid phosphatase reaction — a histochemical demonstration of the marker enzyme, which is what confirms a dense body is a lysosome at all.',
+        C: 'The acid phosphatase reaction — a histochemical demonstration of the marker enzyme, which is what confirms a dense body is a lysosome at all.',
         D: 'Best\'s carmine stains glycogen red. It is a stain for an inclusion, not for an organelle.',
       },
     },
@@ -2347,7 +2347,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Recall what the mature red cell has given up.',
       explanations: {
-        A: 'Correct. The mature erythrocyte has no nucleus — the department book goes further and says it is not a true cell — because everything that is not haemoglobin has been discarded to carry more of it.',
+        A: 'The mature erythrocyte has no nucleus and is not even a true cell, because everything that is not haemoglobin has been discarded to carry more of it.',
         B: 'It has no mitochondria either. Having none is why it cannot use the oxygen it carries.',
         C: 'Ribosomes are lost at the same stage; the reticulocyte still has a few, and its name comes from the network they form with supravital stain, but the mature cell has none.',
         D: 'The diameter is about 7.5 µm, not under 6. The option prints "pm" where the page must have read µm, which is worth noting for whoever rescans it, though it does not affect the answer.',
@@ -2360,7 +2360,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the endoplasmic reticulum from its extent.',
       explanations: {
         A: 'The cell membrane is the boundary the network runs to, not the network.',
-        B: 'Correct. The endoplasmic reticulum is the department book\'s own definition: a membranous network extending from the nucleus to the cell membrane, enclosing intercommunicating channels and sacs.',
+        B: 'The endoplasmic reticulum is a membranous network extending from the nucleus to the cell membrane, enclosing intercommunicating channels and sacs.',
         C: 'The Golgi is a localised stack beside the nucleus, not a network spanning the cell.',
         D: 'A lysosome is a single small vesicle.',
       },
@@ -2374,7 +2374,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. The department book names the peroxisome "microbody" in its own heading, so A is the answer and the other three organelles have separate names of their own.',
       explanations: {
-        A: 'Correct. Microbody is the peroxisome\'s other name, and the department book uses the two interchangeably.',
+        A: 'Microbody is the peroxisome\'s other name, and the two are used interchangeably.',
         B: 'Lysosomes are the other single-membrane enzyme vesicle and the standing confusion in this leaf, but they have never been called microbodies.',
         C: 'Ribosomes are non-membranous particles of rRNA and protein.',
         D: 'A centrosome is the pair of centrioles with its tubulin matrix — the microtubule organising centre, and nothing to do with either enzyme bag.',
@@ -2387,8 +2387,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise the microfilament as a dynamic structure.',
       explanations: {
         A: 'A stable filament could not change the shape of a cell during endocytosis or pinch it in two at division. Stability is the wrong property for the element whose whole role is movement.',
-        B: 'Correct. Microfilaments assemble and disassemble continually — dynamic — which is what lets actin build a cleavage furrow and then take it apart again.',
-        C: 'Both would require the filament to be two contradictory things at once. Microtubules are the element the books describe as being of both kinds.',
+        B: 'Microfilaments assemble and disassemble continually — dynamic — which is what lets actin build a cleavage furrow and then take it apart again.',
+        C: 'Both would require the filament to be two contradictory things at once. Microtubules are the element described as being of both kinds.',
         D: 'There is a correct option, so "none of the above" cannot stand.',
       },
     },
@@ -2404,7 +2404,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The exception, and the answer. The microtubule organising centre is rich in gamma tubulin and holds the centrioles; it directs microtubules. The word in its own name says which element it belongs to.',
         B: 'True, so not the exception. Microfilaments move cytoplasmic components about.',
         C: 'True, so not the exception. Actin beneath the plasmalemma determines and changes cell shape.',
-        D: 'True, so not the exception. The cleavage furrow is a contractile ring of actin. This is the option the book keys, and taking it would deny microfilaments their part in cell division.',
+        D: 'True, so not the exception. The cleavage furrow is a contractile ring of actin. This is the keyed answer, and taking it would deny microfilaments their part in cell division.',
       },
     },
     {
@@ -2419,7 +2419,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. It is where microtubules begin and by which their assembly is directed.',
         B: 'True, but not the whole answer. Gamma tubulin is the third form, found here rather than in the tube itself.',
         C: 'True, but not the whole answer. Two centrioles at right angles sit at its heart, in a tubulin matrix.',
-        D: 'Correct. Origin, protein and content are three parts of one description of the centrosome.',
+        D: 'Origin, protein and content are three parts of one description of the centrosome.',
       },
     },
     {
@@ -2430,7 +2430,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, but not the whole answer. The microtubules of a ciliary axoneme or a centriole are stable and stay assembled.',
         B: 'True, but not the whole answer. The microtubules of the cytoplasm and of the mitotic spindle grow and shrink continually.',
-        C: 'Correct. Both, and the difference is what the microtubule is for: a permanent scaffold in a cilium, a temporary one in a dividing cell.',
+        C: 'Both, and the difference is what the microtubule is for: a permanent scaffold in a cilium, a temporary one in a dividing cell.',
         D: 'There is a correct option, so "none of the above" cannot stand.',
       },
     },
@@ -2441,7 +2441,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the microtubule protein.',
       explanations: {
         A: 'Ubiquitin is the tag that marks a protein for the proteasome. It is a label, not a building block.',
-        B: 'Correct. Tubulin, as alpha and beta dimers polymerised into protofilaments.',
+        B: 'Tubulin, as alpha and beta dimers polymerised into protofilaments.',
         C: 'Actin builds the microfilaments — the other cytoskeletal element and the standing alternative.',
         D: 'Globulin is a plasma protein class, including the immunoglobulins. It has nothing to do with the cytoskeleton, and the resemblance to "globular actin" is what makes it worth offering.',
       },
@@ -2457,8 +2457,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, but not the whole answer. Alpha tubulin is half of each dimer.',
         B: 'True, but not the whole answer. Beta tubulin is the other half.',
-        C: 'Gamma tubulin is in the microtubule organising centre, where it nucleates new microtubules. It directs their growth without becoming part of the tube. This is the option the book keys.',
-        D: 'Correct. Alpha and beta together — the dimer that repeats along each of the thirteen protofilaments.',
+        C: 'Gamma tubulin is in the microtubule organising centre, where it nucleates new microtubules. It directs their growth without becoming part of the tube. This is the keyed answer.',
+        D: 'Alpha and beta together — the dimer that repeats along each of the thirteen protofilaments.',
         E: 'Alpha and gamma is the wrong pair: it takes one of the two wall proteins and one of the organising centre\'s, which is exactly the confusion the option set is built to expose.',
       },
     },
@@ -2481,7 +2481,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Microtubules are the core of a cilium, not of a microvillus. It is the single substitution every question about these two structures is built on.',
         B: 'True, but not the whole answer. The core is a bundle of actin filaments inserted into the terminal web.',
         C: 'True, but not the whole answer. Small intestine and kidney tubule — the two great absorbing surfaces.',
-        D: 'Correct. Actin core and absorptive site are one fact rather than two: the microvillus exists to increase surface area, and the actin is what holds it out.',
+        D: 'Actin core and absorptive site are one fact rather than two: the microvillus exists to increase surface area, and the actin is what holds it out.',
       },
     },
     {
@@ -2493,7 +2493,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Mitochondria move to where the cell needs energy and increase in number by simple division.',
         B: 'True, but not the whole answer. The elementary particles on the cristae carry the ATP synthase.',
         C: 'True, but not the whole answer. In brown fat the energy leaves as heat instead of ATP.',
-        D: 'Correct. Movement, division, ATP and heat are all within one organelle\'s repertoire, and a student who stops at ATP has taken a quarter of it.',
+        D: 'Movement, division, ATP and heat are all within one organelle\'s repertoire, and a student who stops at ATP has taken a quarter of it.',
       },
     },
     {
@@ -2513,7 +2513,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match each mitochondrial stain to the colour it gives.',
       explanations: {
         A: 'The two stains are the right pair but in the wrong order. Janus green gives green — the name carries the colour — so it cannot be the dark blue one.',
-        B: 'Correct. Iron haematoxylin gives dark blue, Janus green gives green. Haematoxylin is blue in every preparation it is used in, which is the way to hold the pair the right way round.',
+        B: 'Iron haematoxylin gives dark blue, Janus green gives green. Haematoxylin is blue in every preparation it is used in, which is the way to hold the pair the right way round.',
         C: 'Silver gives brown or black and is the Golgi stain, not a mitochondrial one.',
         D: 'Silver and PAS are the Golgi and the carbohydrate stains respectively; neither shows mitochondria.',
       },
@@ -2527,7 +2527,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The oxidative enzymes of the citric acid cycle are in the matrix.',
         B: 'True, but not the whole answer. Mitochondrial DNA and the dense calcium-rich granules are there too.',
         C: 'True, but not the whole answer. Messenger, transfer and ribosomal RNA are all present, which is what lets the organelle make some of its own protein.',
-        D: 'Correct. Enzymes, genetic material and ions together, and between them they are why a mitochondrion can divide without the nucleus.',
+        D: 'Enzymes, genetic material and ions together, and between them they are why a mitochondrion can divide without the nucleus.',
       },
     },
     {
@@ -2539,7 +2539,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Thermogenin uncouples oxidation from ATP production, so the energy leaves as heat.',
         B: 'True, but not the whole answer. Cytochrome pigment is what makes brown fat brown.',
         C: 'True, but not the whole answer. Their activity is under hormonal control, which is how the body turns the heating on.',
-        D: 'Correct. All three, and they are one story: a mitochondrion adapted to burn fuel for warmth rather than for work.',
+        D: 'All three, and they are one story: a mitochondrion adapted to burn fuel for warmth rather than for work.',
       },
     },
     {
@@ -2553,7 +2553,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Sodium is handled by the sodium–potassium pump in the plasma membrane — an integral protein, not a mitochondrial function.',
         B: 'Sulphur metabolism belongs to the sulfatases, which are lysosomal and peroxisomal enzymes.',
-        C: 'Correct. The matrix granules are calcium-rich, and the mitochondrion stores and releases calcium as well as making ATP.',
+        C: 'The matrix granules are calcium-rich, and the mitochondrion stores and releases calcium as well as making ATP.',
         D: 'Only one of the three is a mitochondrial role, so "all of the above" cannot stand.',
       },
     },
@@ -2578,7 +2578,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The signet ring is the unilocular white cell, with one droplet flattening the nucleus to the edge.',
         B: 'Heat insulation is white fat, which works by lying between the body and the cold. Brown fat is a heat *generator*, which is the opposite relationship to temperature.',
         C: 'Affected by starvation is again white fat, the body\'s energy store; brown fat is not mobilised the same way.',
-        D: 'Correct. Abundant mitochondria are the defining feature, and everything else about brown fat follows from them — the colour, the heat, the vascularity.',
+        D: 'Abundant mitochondria are the defining feature, and everything else about brown fat follows from them — the colour, the heat, the vascularity.',
       },
     },
     {
@@ -2590,8 +2590,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys A, the phagosome, which gives the heterolysosome. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, and the same books key `fusion-of-1ry-lysosome-with-pinocytic-vesicle-334eaa05` as the multivesicular body. Overridden to B.',
       explanations: {
-        A: 'A phagosome gives the heterolysosome — solid material from outside. This is the option the book keys, and it names the wrong one of the three fusions.',
-        B: 'Correct. A pinocytic vesicle, holding fluid. Many such small vesicles inside one lysosome is what "multivesicular" describes.',
+        A: 'A phagosome gives the heterolysosome — solid material from outside. This is the keyed answer, and it names the wrong one of the three fusions.',
+        B: 'A pinocytic vesicle, holding fluid. Many such small vesicles inside one lysosome is what "multivesicular" describes.',
         C: 'Old organelles give the autolysosome, the cell digesting itself.',
         D: 'The three fusions give three different bodies, so "all of the above" would make the three names interchangeable.',
       },
@@ -2616,8 +2616,8 @@ export const LEAF: McqLeafSeed = {
         'The book keys C, thick filaments, which are the myosin of muscle and are not cytoskeletal at all. Neurofilaments are on the department book\'s own list of intermediate filament proteins, so the answer is B.',
       explanations: {
         A: 'Microfilaments are actin, the same in every cell, and have no neuronal form.',
-        B: 'Correct. Neurofilaments are the intermediate filament of the neuron — one of the six tissue-specific proteins the department book names.',
-        C: 'Thick filaments are myosin of the muscle contractile apparatus. This is the option the book keys, and it puts a nerve protein into muscle.',
+        B: 'Neurofilaments are the intermediate filament of the neuron — one of six tissue-specific intermediate filament proteins.',
+        C: 'Thick filaments are myosin of the muscle contractile apparatus. This is the keyed answer, and it puts a nerve protein into muscle.',
         D: 'Microtubules are tubulin and are abundant in axons, which is what makes this option tempting; but the axon has both, and only one of them is called a neurofilament.',
       },
     },
@@ -2637,7 +2637,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Identify the ribosome from its composition.',
       explanations: {
-        A: 'Correct. rRNA and protein, non-membranous, electron dense — the department book\'s own definition of a ribosome.',
+        A: 'rRNA and protein, non-membranous, electron dense — the definition of a ribosome.',
         B: 'A proteasome is protein alone and holds no RNA.',
         C: 'A lysosome is membrane-bound and full of enzyme, which makes it the opposite of every word in the stem.',
         D: 'The cytoskeleton is non-membranous too, which is the half-match, but it is a network of filaments rather than a dense particle and contains no RNA.',
@@ -2652,8 +2652,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys B, the rootlets, which are nine single microtubules. The basal body is nine triplets — exactly a centriole, which is what it is derived from — and the same books key `the-basal-body-of-cilia-is-similar-to-87e21812` as the centriole. Overridden to A.',
       explanations: {
-        A: 'Correct. The basal body is a centriole that has migrated to the apical surface: nine triplets, 27 microtubules, the same arrangement exactly.',
-        B: 'The rootlets are nine single microtubules growing down into the cytoplasm from the basal body — a ninth of a centriole, not a copy of one. This is the option the book keys.',
+        A: 'The basal body is a centriole that has migrated to the apical surface: nine triplets, 27 microtubules, the same arrangement exactly.',
+        B: 'The rootlets are nine single microtubules growing down into the cytoplasm from the basal body — a ninth of a centriole, not a copy of one. This is the keyed answer.',
         C: 'The shaft is the 9+2 axoneme, twenty microtubules with a central pair a centriole never has.',
         D: 'One of the three parts does match a centriole, so "none of the above" cannot stand.',
       },
@@ -2666,7 +2666,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, so related. Two membranes make it the most membranous organelle there is.',
         B: 'True, so related. Janus green is the vital stain for mitochondria.',
-        C: 'True, so related. Power house of the cell is the book\'s own phrase for it.',
+        C: 'True, so related. "Power house of the cell" is the standard phrase for it.',
         D: 'Not related, and the answer. The cristae are folds of the *inner* membrane; the outer one is smooth and carries porins. Putting the folds outside is the single commonest mitochondrial error.',
       },
     },
@@ -2692,7 +2692,7 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. Steroid hormone synthesis is a named function of smooth endoplasmic reticulum in the department book, and the identical row `which-organelle-is-prominent-in-cells-that-synthesize-steroi-1a88c75b` is keyed B in the same books.',
       explanations: {
         A: 'Rough endoplasmic reticulum makes protein for export. A hormone that is not a protein needs none of its machinery.',
-        B: 'Correct. Smooth endoplasmic reticulum synthesises the steroid hormones, and a cell making them is packed with it.',
+        B: 'Smooth endoplasmic reticulum synthesises the steroid hormones, and a cell making them is packed with it.',
         C: 'Lysosomes digest and synthesise nothing.',
         D: 'Peroxisomes oxidise fatty acids. They handle lipid without building a hormone from it.',
       },
@@ -2716,7 +2716,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Smooth — no cristae, which are the inner membrane\'s.',
         B: 'True, but not the whole answer. Porins are the channels that make it leaky.',
         C: 'True, but not the whole answer. Permeability to small molecules is what the porins achieve.',
-        D: 'Correct. The three are one description: it is smooth because it does not need area, and permeable because the selectivity is the inner membrane\'s job.',
+        D: 'The three are one description: it is smooth because it does not need area, and permeable because the selectivity is the inner membrane\'s job.',
       },
     },
     {
@@ -2726,7 +2726,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute oxidases to the peroxisome among the organelles offered.',
       explanations: {
         A: 'The Golgi packs and modifies protein and holds no enzyme of this kind.',
-        B: 'Correct. Oxidase is one of the peroxisome\'s two enzyme groups — the one that carries out beta-oxidation and makes hydrogen peroxide.',
+        B: 'Oxidase is one of the peroxisome\'s two enzyme groups — the one that carries out beta-oxidation and makes hydrogen peroxide.',
         C: 'Lysosomes hold hydrolases. The oxidase/hydrolase substitution is the standing trap in every question about either organelle.',
         D: 'Smooth endoplasmic reticulum carries the detoxifying and lipid-synthesising enzymes rather than oxidases.',
       },
@@ -2737,7 +2737,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Attribute peroxisomal enzymes to free ribosomes.',
       explanations: {
-        A: 'Correct. Free polysomes — free ribosomes strung on one messenger RNA — make the peroxisome\'s enzymes and release them into the cytosol for import.',
+        A: 'Free polysomes — free ribosomes strung on one messenger RNA — make the peroxisome\'s enzymes and release them into the cytosol for import.',
         B: 'Attached ribosomes make protein for export or for the secretory pathway. The peroxisome takes the other route, even though its membrane buds from the rough reticulum.',
         C: 'The lysosome degrades protein; it makes none.',
         D: 'The cytosol is where the free ribosomes are, but it is a compartment rather than a structure, and the question asks what does the synthesising.',
@@ -2752,8 +2752,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys B, solid particles, which is phagocytosis. Pinocytosis is cell drinking — fluid droplets — and the same books key `pinocytosis-is-the-process-by-which-the-cell-membrane-can-en-352b7949` as fluid droplets. This row and the receptor-mediated row on the same page are both keyed one line off.',
       explanations: {
-        A: 'Correct. Fluid droplets: small invaginations of the membrane closing round extracellular fluid and whatever is dissolved in it.',
-        B: 'Solid particles are phagocytosis, taken by pseudopodia. This is the option the book keys, and cell eating and cell drinking are the two halves of the same distinction.',
+        A: 'Fluid droplets: small invaginations of the membrane closing round extracellular fluid and whatever is dissolved in it.',
+        B: 'Solid particles are phagocytosis, taken by pseudopodia. This is the keyed answer, and cell eating and cell drinking are the two halves of the same distinction.',
         C: 'Hormones are taken by receptor-mediated endocytosis, which needs a receptor because a hormone is present in too small a quantity to catch by drinking.',
         D: 'Foreign bodies are solid, so again phagocytosis.',
       },
@@ -2777,7 +2777,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the intermediate filament from its subunit.',
       explanations: {
         A: 'A microtubule is built from dimers of alpha and beta tubulin, not tetramers.',
-        B: 'Correct. Intermediate filaments polymerise from tetrameric subunits whose chemistry differs from tissue to tissue — which is why there are six of them and why they are diagnostic.',
+        B: 'Intermediate filaments polymerise from tetrameric subunits whose chemistry differs from tissue to tissue — which is why there are six of them and why they are diagnostic.',
         C: 'A microfilament is two coiled chains of globular actin.',
         D: 'A proteasome is an enzyme complex and does not polymerise into a filament at all.',
       },
@@ -2789,7 +2789,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place the growing polypeptide on the large ribosomal subunit.',
       explanations: {
         A: 'The small subunit binds the messenger RNA and reads it. It carries no polypeptide.',
-        B: 'Correct. The large subunit is where the chain is assembled and where it emerges — and it is also the subunit that binds the ribophorins of the rough reticulum, which is no coincidence: the chain has to be delivered into the cisterna.',
+        B: 'The large subunit is where the chain is assembled and where it emerges — and it is also the subunit that binds the ribophorins of the rough reticulum, which is no coincidence: the chain has to be delivered into the cisterna.',
         C: 'Only one subunit carries it, so "a, b" cannot stand.',
         D: 'There is a correct option, so "none of the above" cannot stand.',
       },
@@ -2803,7 +2803,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. A polysome is a group of ribosomes linked by one strand of messenger RNA, which is option A; lysosomes, peroxisomes and secretory vesicles are separate membrane-bound bodies and never link into a chain.',
       explanations: {
-        A: 'Correct. A group of ribosomes linked along one strand of messenger RNA, seen as bead-like rosettes or spiral chains — many ribosomes reading the same message at once.',
+        A: 'A group of ribosomes linked along one strand of messenger RNA, seen as bead-like rosettes or spiral chains — many ribosomes reading the same message at once.',
         B: 'Lysosomes are separate membrane-bound vesicles and never string together.',
         C: 'Peroxisomes likewise are individual vesicles.',
         D: 'Secretory vesicles bud singly from the Golgi and travel singly to the surface. The three wrong options all substitute a membranous body for the particle, which is the shape of the guess this question catches.',
@@ -2817,7 +2817,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Rough endoplasmic reticulum makes protein, and spends energy doing it.',
         B: 'The cell membrane spends energy too, on active transport.',
-        C: 'Correct. The mitochondrion — the department book\'s own phrase, and the organelle every other one draws its ATP from.',
+        C: 'The mitochondrion — the organelle every other one draws its ATP from.',
         D: 'The Golgi packs and ships. It is a warehouse, not a power station.',
       },
     },
@@ -2830,7 +2830,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Enteroendocrine cells secrete into the blood at their base, so their Golgi is not perinuclear.',
         B: 'The epididymis is lined by cells with stereocilia secreting at a free surface — an apical arrangement.',
         C: 'A secretory cell keeps its Golgi apical, above the nucleus and below the surface it discharges at.',
-        D: 'Correct. The nerve cell, which distributes its product along processes running in all directions and so has no single face to point the Golgi at.',
+        D: 'The nerve cell, which distributes its product along processes running in all directions and so has no single face to point the Golgi at.',
       },
     },
     {
@@ -2841,7 +2841,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Rough endoplasmic reticulum is what makes the *rest* of the cytoplasm deeply basophilic. It is the stained background against which the pale area shows.',
         B: 'Ribosomes are the reason for that basophilia, so again they are what is stained rather than what is not.',
-        C: 'Correct. The unstained area above the nucleus is the Golgi apparatus — the negative Golgi image, pale because the organelle takes neither dye.',
+        C: 'The unstained area above the nucleus is the Golgi apparatus — the negative Golgi image, pale because the organelle takes neither dye.',
         D: 'Secretory vesicles often stain, and where they do they are conspicuous rather than invisible.',
       },
     },
@@ -2854,7 +2854,7 @@ export const LEAF: McqLeafSeed = {
         A: 'There is no "B actin" in this scheme. The two forms are G — globular — and F — filamentous — and the letter here is invented by analogy with the tubulins.',
         B: 'Alpha tubulin builds microtubules.',
         C: 'Gamma tubulin is in the microtubule organising centre.',
-        D: 'Correct. Globular G actin is the subunit; two chains of it coil into filamentous F actin, which is the filament itself.',
+        D: 'Globular G actin is the subunit; two chains of it coil into filamentous F actin, which is the filament itself.',
       },
     },
     {
@@ -2866,7 +2866,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Alpha tubulin is one half of the dimer.',
         B: 'True, but not the whole answer. Beta tubulin is the other half.',
         C: 'Gamma tubulin is in the microtubule organising centre and nucleates microtubules without joining the wall. It is the one tubulin that is not a subunit of the tube.',
-        D: 'Correct. Alpha and beta together, repeating along each protofilament.',
+        D: 'Alpha and beta together, repeating along each protofilament.',
       },
     },
     {
@@ -2877,7 +2877,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pinocytosis is an invagination inwards, not a projection outwards. The direction of the membrane movement is the whole distinction.',
         B: 'Exocytosis discharges material outwards but forms no pseudopodium.',
-        C: 'Correct. Pseudopodia extending to surround a solid particle is phagocytosis — the department book\'s example is a white blood cell engulfing a bacterium.',
+        C: 'Pseudopodia extending to surround a solid particle is phagocytosis — the classic example is a white blood cell engulfing a bacterium.',
         D: 'Receptor-mediated endocytosis works by a flat patch of membrane sinking in as a coated pit, again inwards rather than outwards.',
       },
     },
@@ -2891,8 +2891,8 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, solid particles, which is phagocytosis. Receptor-mediated endocytosis takes up specific molecules bound by their receptors, and the department book\'s own example is the uptake of growth hormone — option C. This row sits beside `pinocytosis-is-the-process-by-which-the-cell-can-engulf-60be5e4b` on the same page and both keys are one line off.',
       explanations: {
         A: 'Fluid droplets are pinocytosis, which needs no receptor at all.',
-        B: 'Solid particles are phagocytosis, taken by pseudopodia. This is the option the book keys.',
-        C: 'Correct. Hormones — a molecule present in tiny quantity, which the cell can only capture by binding it to a specific receptor and then invaginating the patch it has gathered on.',
+        B: 'Solid particles are phagocytosis, taken by pseudopodia. This is the keyed answer.',
+        C: 'Hormones — a molecule present in tiny quantity, which the cell can only capture by binding it to a specific receptor and then invaginating the patch it has gathered on.',
         D: 'A foreign body is solid, so phagocytosis again. Three of the four options describe the other two routes.',
       },
     },
@@ -2903,7 +2903,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place the actin of the platelet in its peripheral zone.',
       explanations: {
         A: 'Lysosomes are the platelet\'s lambda granules, and all its granules lie in the central granulomere.',
-        B: 'Correct. The peripheral zone is the hyalomere, and it holds the marginal microtubule bundle and the actin microfilaments — the machinery that changes the platelet\'s shape and throws out its pseudopodia.',
+        B: 'The peripheral zone is the hyalomere, and it holds the marginal microtubule bundle and the actin microfilaments — the machinery that changes the platelet\'s shape and throws out its pseudopodia.',
         C: 'Glycogen is an inclusion and lies centrally with the granules.',
         D: 'Serotonin is in the delta granules of the granulomere. The whole question is a peripheral-versus-central sort, and everything except the cytoskeleton is central.',
       },
@@ -2915,7 +2915,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Pick the true statement about a primary lysosome.',
       explanations: {
         A: 'Lysosomes increase in phagocytic cells, not in protein-forming ones. A plasma cell exports; a macrophage digests.',
-        B: 'Correct. The acid phosphatase histochemical reaction is the only way a lysosome is demonstrated by light microscopy.',
+        B: 'The acid phosphatase histochemical reaction is the only way a lysosome is demonstrated by light microscopy.',
         C: 'Heterogeneous by electron microscopy is the *secondary* lysosome. The primary one is homogeneous because it has not yet fused with anything.',
         D: 'Respiratory enzymes are mitochondrial. The lysosome holds hydrolases.',
       },
@@ -2940,7 +2940,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Pick the true statement about the cilium from three microvillus-flavoured distractors.',
       explanations: {
         A: 'An actin-rich core is the microvillus and the stereocilium. A cilium\'s core is microtubule, and that is what lets it beat.',
-        B: 'Correct. The axoneme is 9 peripheral doublets plus 2 central singlets — 20 microtubules.',
+        B: 'The axoneme is 9 peripheral doublets plus 2 central singlets — 20 microtubules.',
         C: 'Increasing surface area is what a microvillus is for. A cilium moves material along a surface rather than enlarging it.',
         D: 'The basal body is nine *triplets*, like the centriole it came from. The doublets are the shaft. Three of the four options give the cilium a microvillus\'s property or the wrong part\'s structure.',
       },
@@ -2952,7 +2952,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise exocytosis from the fact that the membrane survives it.',
       explanations: {
         A: 'Pinocytosis moves fluid in and consumes membrane doing it.',
-        B: 'Correct. The vesicle fuses with the plasma membrane and discharges outside; membrane is added rather than lost, and its continuity is never broken.',
+        B: 'The vesicle fuses with the plasma membrane and discharges outside; membrane is added rather than lost, and its continuity is never broken.',
         C: 'Phagocytosis takes material in and removes membrane from the surface as the phagosome closes.',
         D: 'Receptor-mediated endocytosis likewise takes a patch of membrane inwards as a coated vesicle.',
       },
@@ -2968,7 +2968,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Smooth endoplasmic reticulum synthesises the phospholipid, so it supplies the raw material — the closest of the wrong answers, and the one worth being able to argue against.',
         B: 'Rough endoplasmic reticulum makes protein for export; its product goes on to the Golgi rather than to the surface.',
-        C: 'Correct. The Golgi\'s vesicles carry membrane to the cell surface and become part of it when they fuse — renewal is a by-product of every act of exocytosis.',
+        C: 'The Golgi\'s vesicles carry membrane to the cell surface and become part of it when they fuse — renewal is a by-product of every act of exocytosis.',
         D: 'Lysosomes digest membrane that has been taken back in. They are the other half of the turnover, not the renewing half.',
       },
     },
@@ -2979,7 +2979,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Define the residual body.',
       explanations: {
         A: 'Digested material is absorbed into the cytosol and used. What is left behind is by definition what could not be broken down.',
-        B: 'Correct. Undigested material retained in the secondary lysosome, either discharged by exocytosis or kept as lipofuscin in long-lived cells.',
+        B: 'Undigested material retained in the secondary lysosome, either discharged by exocytosis or kept as lipofuscin in long-lived cells.',
         C: 'The multivesicular body is one of the three routes into digestion. A residual body is the end of all three, so naming one is too narrow.',
         D: 'There is a correct option, so "none of the above" cannot stand.',
       },
@@ -2992,7 +2992,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Lipid is made on smooth endoplasmic reticulum; a lipid-forming cell has few ribosomes and acidophilic cytoplasm.',
         B: 'Carbohydrate is added to protein in the reticulum and the Golgi, and stored as glycogen. No ribosome builds it.',
-        C: 'Correct. A ribosome assembles amino acids into protein, so ribosome-rich cells are protein-rich cells.',
+        C: 'A ribosome assembles amino acids into protein, so ribosome-rich cells are protein-rich cells.',
         D: 'Only one of the three is what a ribosome makes, so "all the above" cannot stand.',
       },
     },
@@ -3005,10 +3005,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys A, but A, B and C are all true — intensely basophilic, free or attached to rough reticulum, and the site of amino acid assembly. When three options are true the answer has to be "all of the above", and a key naming just the first of them is a slip.',
       explanations: {
-        A: 'True, but not the whole answer. The RNA phosphate makes them intensely basophilic. This is the option the book keys, and it is only a third of what the question offers.',
+        A: 'True, but not the whole answer. The RNA phosphate makes them intensely basophilic. This is the keyed answer, and it is only a third of what the question offers.',
         B: 'True, but not the whole answer. Free in the cytosol or bound to the rough reticulum by their large subunit.',
         C: 'True, but not the whole answer. Assembling amino acids into a polypeptide is what they do.',
-        D: 'Correct. Staining, location and function are three true statements about one particle, and the question rewards holding them together.',
+        D: 'Staining, location and function are three true statements about one particle, and the question rewards holding them together.',
       },
     },
     {
@@ -3017,7 +3017,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the two components of a ribosome.',
       explanations: {
-        A: 'Correct. Ribosomal RNA and protein — which is why "r" in rRNA stands for ribosomal in the first place.',
+        A: 'Ribosomal RNA and protein — which is why "r" in rRNA stands for ribosomal in the first place.',
         B: 'DNA with protein is chromatin, in the nucleus.',
         C: 'Messenger RNA threads through the assembled ribosome but is not part of its structure — it is what is being read.',
         D: 'Transfer RNA brings the amino acids in and leaves again. It is a visitor, not a component.',
@@ -3032,9 +3032,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys A, "presence of basophilic protein", which explains nothing — it restates the observation and calls the protein basophilic without saying why. The department book gives the reason as the acidity of the phosphate group in RNA, so the answer is C.',
       explanations: {
-        A: 'Circular: calling the protein basophilic is the observation restated, not a cause. And the protein is not what binds the dye. This is the option the book keys.',
+        A: 'Circular: calling the protein basophilic is the observation restated, not a cause. And the protein is not what binds the dye. This is the keyed answer.',
         B: 'The amino acids passing through are transient and far too few to colour anything.',
-        C: 'Correct. RNA carries acidic phosphate groups, and an acidic group binds a basic dye — that is what basophilia means.',
+        C: 'RNA carries acidic phosphate groups, and an acidic group binds a basic dye — that is what basophilia means.',
         D: 'Free ribosomes are just as basophilic as attached ones, so the attachment cannot be the reason. The cause has to be something the two have in common, and that is their RNA.',
       },
     },
@@ -3047,9 +3047,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys A, proteasomes, which degrade protein and assemble nothing. The department book states that rRNA is formed in the nucleolus and unites there with protein into the subunits, so the answer is C — and the same books key `where-are-ribosomal-subunits-constructed-e6cc8588` as the nucleolus.',
       explanations: {
-        A: 'A proteasome destroys protein. It is the opposite kind of machine, and this is the option the book keys.',
+        A: 'A proteasome destroys protein. It is the opposite kind of machine, and This is the keyed answer.',
         B: 'Lysosomes likewise digest rather than build.',
-        C: 'Correct. The nucleolus: rRNA is transcribed there, the protein arrives from the cytoplasm, and the two unite into the large and small subunits before leaving through the nuclear pores.',
+        C: 'The nucleolus: rRNA is transcribed there, the protein arrives from the cytoplasm, and the two unite into the large and small subunits before leaving through the nuclear pores.',
         D: 'Peroxisomes oxidise fatty acids and have their own enzymes made elsewhere. Nothing is assembled in them.',
       },
     },
@@ -3081,7 +3081,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The cell membrane is where secretion finally happens, but it does no packing or sorting of its own.',
         B: 'The lysosome is a product of the secretory system rather than the system itself.',
-        C: 'Correct. The Golgi apparatus — the department book defines it as the membranous organelle concerned with secretion.',
+        C: 'The Golgi apparatus — the membranous organelle concerned with secretion.',
         D: 'The proteasome degrades protein inside the cell and exports nothing.',
       },
     },
@@ -3101,7 +3101,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Identify the ciliary part built like a centriole.',
       explanations: {
-        A: 'Correct. The basal body is a single centriole — 27 microtubules in nine triplets — that has migrated to the apical surface and grown a shaft.',
+        A: 'The basal body is a single centriole — 27 microtubules in nine triplets — that has migrated to the apical surface and grown a shaft.',
         B: 'The shaft is 20 microtubules in nine doublets plus a central pair, which is a different arrangement entirely.',
         C: 'A rootlet is nine single microtubules, one from each triplet of the basal body.',
         D: 'A flagellum is a very long cilium and has a shaft\'s structure, not a basal body\'s.',
@@ -3113,7 +3113,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Separate the platelet\'s granule contents from its cytoskeleton.',
       explanations: {
-        A: 'Correct. The specific — alpha — granules hold clotting factors and fibrinogen along with platelet-derived growth factor. "Clothing" here is the page\'s OCR of "clotting".',
+        A: 'The specific — alpha — granules hold clotting factors and fibrinogen along with platelet-derived growth factor. "Clothing" here is the page\'s OCR of "clotting".',
         B: 'ADP, ATP, calcium and serotonin are the delta, or dense, granules. Alpha against delta is the distinction this question turns on.',
         C: 'Lysosomal enzymes are the lambda granules, the platelet\'s third population.',
         D: 'Microtubules and actin are the platelet\'s cytoskeleton, and they are in the peripheral hyalomere rather than in any granule at all — the option is here to test whether granule content and cytoskeleton are being kept apart.',
@@ -3128,7 +3128,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Stereocilia are long, not short, and they do not move. The name promises motility that the structure does not have.',
         B: 'Long is right but motile is wrong. This is the closest distractor, and it is wrong on the half of the description that matters.',
         C: 'Microtubules are the core of a true cilium. A stereocilium has none, which is exactly why it cannot beat.',
-        D: 'Correct. Actin filaments, like a microvillus — because a stereocilium is a long microvillus, whatever its name says.',
+        D: 'Actin filaments, like a microvillus — because a stereocilium is a long microvillus, whatever its name says.',
       },
     },
     {
@@ -3140,8 +3140,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys A, free ribosomes, which make the protein the cell keeps. Protein for extracellular use is made on attached ribosomes so that the rough reticulum can segregate and package it. This row and `synthesis-of-proteins-for-intracellular-use-is-the-function-8bde0a03` sit together on the same page and both keys are wrong, which points to a shifted answer column.',
       explanations: {
-        A: 'Free ribosomes release their product into the cytosol, where there is no route to the outside. This is the option the book keys.',
-        B: 'Correct. Attached ribosomes deliver the growing chain into the cisterna of the rough reticulum, which segregates it, glycosylates it and sends it to the Golgi for export.',
+        A: 'Free ribosomes release their product into the cytosol, where there is no route to the outside. This is the keyed answer.',
+        B: 'Attached ribosomes deliver the growing chain into the cisterna of the rough reticulum, which segregates it, glycosylates it and sends it to the Golgi for export.',
         C: 'Mitochondria make ATP. Their own ribosomes make protein that stays inside the mitochondrion.',
         D: 'Lysosomes destroy protein rather than making it.',
       },
@@ -3155,9 +3155,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys C, mitochondria, which make ATP rather than the cell\'s general protein. Protein for the cell\'s own use is made on free ribosomes. This is the companion of `synthesis-of-proteins-for-extracellular-use-is-the-function-11c3147a` and the two keys are both displaced.',
       explanations: {
-        A: 'Correct. Free ribosomes release their product straight into the cytosol, which is where the cell\'s own enzymes and structural proteins are needed.',
+        A: 'Free ribosomes release their product straight into the cytosol, which is where the cell\'s own enzymes and structural proteins are needed.',
         B: 'Attached ribosomes make protein for export, through the rough reticulum and the Golgi.',
-        C: 'Mitochondria are the power house. This is the option the book keys, and it confuses making energy with making protein.',
+        C: 'Mitochondria are the power house. This is the keyed answer, and it confuses making energy with making protein.',
         D: 'Lysosomes digest protein.',
       },
     },
@@ -3180,7 +3180,7 @@ export const LEAF: McqLeafSeed = {
         A: '27 is the basal body, nine triplets.',
         B: '2 is the central pair alone, without the nine doublets around it.',
         C: '18 is the nine doublets without the central pair — the near miss, and the answer one other row in these books wrongly keys.',
-        D: 'Correct. 20: 9 doublets, which is 18, plus 2 central singlets.',
+        D: '20: 9 doublets, which is 18, plus 2 central singlets.',
       },
     },
     {
@@ -3189,7 +3189,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Recognise the basal body as a centriole.',
       explanations: {
-        A: 'Correct. The basal body has a centriole\'s exact structure, because it is one: centrioles duplicate thousands of times over and migrate to the apical surface to become them.',
+        A: 'The basal body has a centriole\'s exact structure, because it is one: centrioles duplicate thousands of times over and migrate to the apical surface to become them.',
         B: 'A centrosome is the pair of centrioles with its surrounding tubulin matrix — the whole organising centre rather than one cylinder.',
         C: 'A centromere is the constriction of a chromosome. It has nothing to do with microtubules except that the spindle attaches to it, and the word is here purely for its shape.',
         D: 'A ribosome is a particle of rRNA and protein.',
@@ -3201,7 +3201,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Normal values',
       learningObjective: 'Count the microtubules in the basal body.',
       explanations: {
-        A: 'Correct. 27, in nine triplets — a centriole\'s arrangement exactly.',
+        A: '27, in nine triplets — a centriole\'s arrangement exactly.',
         B: '20 is the shaft, nine doublets plus the central pair.',
         C: '18 is the shaft\'s doublets counted without the central pair.',
         D: '9 is the rootlet. The four numbers of the cilium are 9, 18, 20 and 27, and these books ask them in every possible combination.',
@@ -3226,10 +3226,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. Alzheimer\'s disease is a disease of abnormal protein accumulating inside and around cells, and abnormal, misfolded and short-lived cytosolic proteins are the proteasome\'s business. The same books key `abnormal-short-lived-proteins-are-degraded-by-5ffd9c0f` to the proteasome.',
       explanations: {
-        A: 'Defective mitochondria present as failure of energy production — muscular weakness in the book\'s own example — rather than as protein accumulating.',
-        B: 'Defective lysosomes leave engulfed and worn-out material undigested inside vesicles. That is the storage-disease pattern, and the book attaches it to sulfatase deficiency and nerve cell dysfunction; it is the most defensible of the wrong answers here.',
+        A: 'Defective mitochondria present as failure of energy production — muscular weakness, classically — rather than as protein accumulating.',
+        B: 'Defective lysosomes leave engulfed and worn-out material undigested inside vesicles. That is the storage-disease pattern, attached here to sulfatase deficiency and nerve cell dysfunction; it is the most defensible of the wrong answers here.',
         C: 'Defective rough endoplasmic reticulum would impair the making of exported protein, not the destruction of faulty protein.',
-        D: 'Correct. When proteasomal degradation fails, abnormal protein that should have been destroyed accumulates in the cytosol — the mechanism these question books attach to Alzheimer\'s disease.',
+        D: 'When proteasomal degradation fails, abnormal protein that should have been destroyed accumulates in the cytosol — the mechanism these question books attach to Alzheimer\'s disease.',
       },
     },
     {
@@ -3241,10 +3241,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys A, membranous organelles, but the centriole has no membrane at all — the department book lists it among the non-membranous organelles. The one true statement is D: the centrosome duplicates in S phase, so centrioles are self-replicating.',
       explanations: {
-        A: 'Centrioles are non-membranous — nine triplets of microtubules and nothing else. This is the option the book keys, and it puts the centriole in the wrong half of the book\'s own classification.',
+        A: 'Centrioles are non-membranous — nine triplets of microtubules and nothing else. This is the keyed answer, and it puts the centriole in the wrong half of the classification.',
         B: 'They resemble the *basal body*, not the shaft. The shaft is 9+2 with a central pair; the centriole is nine triplets with an empty centre.',
         C: 'H&E does not demonstrate them; they need iron haematoxylin, and even then they are at the limit of resolution.',
-        D: 'Correct. The centrosome duplicates in the S phase of the cell cycle and the two pairs move to opposite poles — self-replication, and it is also how the thousands of basal bodies of a ciliated cell are produced.',
+        D: 'The centrosome duplicates in the S phase of the cell cycle and the two pairs move to opposite poles — self-replication, and it is also how the thousands of basal bodies of a ciliated cell are produced.',
         E: 'Centrioles do not disappear during division; that is precisely when they are most conspicuous, organising the spindle from the poles.',
       },
     },
@@ -3257,9 +3257,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys C, lysosomes, which digest membrane taken back into the cell rather than renewing the surface. The Golgi\'s vesicles carry new membrane to the surface and become part of it on fusing, and the same books key `the-organelle-responsible-for-renewal-and-maintenance-of-cel-8af73310` as the Golgi apparatus.',
       explanations: {
-        A: 'Correct. Every Golgi vesicle that fuses with the plasma membrane adds its own membrane to it, so renewal is a by-product of secretion.',
+        A: 'Every Golgi vesicle that fuses with the plasma membrane adds its own membrane to it, so renewal is a by-product of secretion.',
         B: 'Mitochondria supply the energy but contribute no membrane to the surface.',
-        C: 'Lysosomes break down the membrane that endocytosis brings back in. That is the removal half of turnover, not the renewal half. This is the option the book keys.',
+        C: 'Lysosomes break down the membrane that endocytosis brings back in. That is the removal half of turnover, not the renewal half. This is the keyed answer.',
         D: 'Smooth endoplasmic reticulum synthesises the phospholipid, so it supplies material — the most defensible of the wrong answers, but the delivery is the Golgi\'s.',
       },
     },
@@ -3275,7 +3275,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Rough endoplasmic reticulum carries ribosomes, and so RNA, but holds no DNA.',
         B: 'Smooth endoplasmic reticulum has neither, having no ribosomes at all.',
         C: 'A lysosome contains a nuclease, which digests nucleic acid rather than storing it.',
-        D: 'Correct. The mitochondrion is the only cytoplasmic organelle with its own genome, which is what allows it to divide independently.',
+        D: 'The mitochondrion is the only cytoplasmic organelle with its own genome, which is what allows it to divide independently.',
       },
     },
     {
@@ -3287,7 +3287,7 @@ export const LEAF: McqLeafSeed = {
         A: '15 nm sits between the intermediate filament and the microtubule and belongs to neither.',
         B: '6 nm is a microfilament.',
         C: '8–10 nm is the intermediate filament, printed here as "8.10".',
-        D: 'Correct. 24 nm, fixed by the thirteen protofilaments of the wall. The three cytoskeletal diameters — 5–7, 8–10 and 24 — are all in this one option set.',
+        D: '24 nm, fixed by the thirteen protofilaments of the wall. The three cytoskeletal diameters — 5–7, 8–10 and 24 — are all in this one option set.',
       },
     },
     {
@@ -3329,7 +3329,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name what the elementary particles carry.',
       explanations: {
         A: 'The citric acid cycle enzymes are soluble, in the matrix, not attached to the membrane by stalks.',
-        B: 'Correct. The globular structures on stalks are the elementary particles, and they carry ATP synthase — the last step of oxidative phosphorylation.',
+        B: 'The globular structures on stalks are the elementary particles, and they carry ATP synthase — the last step of oxidative phosphorylation.',
         C: 'Reductase is a category rather than a mitochondrial answer, and none of the respiratory chain is described that way in this syllabus.',
         D: 'Oxidoreductases are in the peroxisome and elsewhere; naming a whole enzyme class rather than the specific one is what makes this option too loose to be right.',
       },
@@ -3351,8 +3351,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the form the rough reticulum\'s membranes take.',
       explanations: {
         A: 'Vesicles are what bud off it, not what it is.',
-        B: 'Saccules are the Golgi\'s word — flat curved sacs stacked above one another. The two organelles are distinguished partly by which word the book uses for each.',
-        C: 'Correct. Cisternae — parallel flattened sacs, intercommunicating and continuous with the nuclear envelope.',
+        B: 'Saccules are the Golgi\'s word — flat curved sacs stacked above one another. The two organelles are distinguished partly by the term used for each.',
+        C: 'Cisternae — parallel flattened sacs, intercommunicating and continuous with the nuclear envelope.',
         D: 'A microtubule is a cytoskeletal cylinder with no membrane at all.',
       },
     },
@@ -3365,10 +3365,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys B, 10–15 nm, but the department book gives the microtubule diameter as 24 nm — 10 nm is the intermediate filament. The true statement is D: microtubules are polar, with a plus and a minus end, which is what makes them grow and shrink from one end.',
       explanations: {
-        A: 'Microtubules are non-membranous, on the book\'s own list with the ribosomes.',
-        B: '10–15 nm is the intermediate filament\'s range, not the microtubule\'s 24 nm. This is the option the book keys.',
+        A: 'Microtubules are non-membranous, alongside the ribosomes.',
+        B: '10–15 nm is the intermediate filament\'s range, not the microtubule\'s 24 nm. This is the keyed answer.',
         C: 'The core of a microvillus is actin. Giving it to microtubules is the single commonest substitution in this leaf.',
-        D: 'Correct. A microtubule has a plus and a minus end, and that polarity is what lets it add tubulin at one end and lose it at the other.',
+        D: 'A microtubule has a plus and a minus end, and that polarity is what lets it add tubulin at one end and lose it at the other.',
       },
     },
     {
@@ -3390,7 +3390,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute lipid synthesis to smooth endoplasmic reticulum.',
       explanations: {
         A: 'The Golgi packs and ships protein. A lipid needs no packaging of that kind.',
-        B: 'Correct. Smooth endoplasmic reticulum synthesises phospholipid and steroid, and a lipid-forming cell is full of it — which is also why such a cell is acidophilic.',
+        B: 'Smooth endoplasmic reticulum synthesises phospholipid and steroid, and a lipid-forming cell is full of it — which is also why such a cell is acidophilic.',
         C: 'Lysosomes break lipid down rather than build it.',
         D: 'Rough endoplasmic reticulum makes protein. The two halves of one organelle are the two halves of every question in this leaf.',
       },
@@ -3403,7 +3403,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'An endosome holds material taken in from outside, on its way to a lysosome.',
         B: 'A phagosome holds a solid particle engulfed from outside — again the wrong side of the membrane. "Phago-" and "auto-" are the two prefixes the whole question turns on.',
-        C: 'Correct. An autophagosome, or autophagic vesicle: the cell\'s own old organelle wrapped in membrane, ready to fuse with a primary lysosome and become an autolysosome.',
+        C: 'An autophagosome, or autophagic vesicle: the cell\'s own old organelle wrapped in membrane, ready to fuse with a primary lysosome and become an autolysosome.',
         D: 'A lysosome brings the enzymes. It is what the autophagosome fuses with, not what the organelle is wrapped in.',
       },
     },
@@ -3413,7 +3413,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the organelle that assembles protein.',
       explanations: {
-        A: 'Correct. The ribosome is where amino acids are joined into a polypeptide, whether it is free or attached to the rough reticulum.',
+        A: 'The ribosome is where amino acids are joined into a polypeptide, whether it is free or attached to the rough reticulum.',
         B: 'Smooth endoplasmic reticulum has no ribosomes and makes lipid.',
         C: 'Centrioles organise microtubules and take no part in synthesis.',
         D: 'Lysosomes take protein apart.',
@@ -3426,8 +3426,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute lipid metabolism to smooth endoplasmic reticulum.',
       explanations: {
         A: 'Rough endoplasmic reticulum handles protein.',
-        B: 'Correct. Smooth endoplasmic reticulum synthesises phospholipid and steroid and breaks glycogen down to glucose — the lipid and carbohydrate side of the cell\'s metabolism.',
-        C: 'Lysosomes hydrolyse lipid among other things, which is a share in lipid handling; but the organelle the book names for lipid metabolism is the smooth reticulum.',
+        B: 'Smooth endoplasmic reticulum synthesises phospholipid and steroid and breaks glycogen down to glucose — the lipid and carbohydrate side of the cell\'s metabolism.',
+        C: 'Lysosomes hydrolyse lipid among other things, which is a share in lipid handling; but the organelle responsible for lipid metabolism is the smooth reticulum.',
         D: 'The Golgi modifies and packs, mostly protein.',
       },
     },
@@ -3437,7 +3437,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Attribute membrane renewal to the Golgi apparatus.',
       explanations: {
-        A: 'Correct. The Golgi sends membrane to the cell surface in every vesicle it buds, and each fusion adds that membrane to the plasmalemma.',
+        A: 'The Golgi sends membrane to the cell surface in every vesicle it buds, and each fusion adds that membrane to the plasmalemma.',
         B: 'Lysosomes digest membrane brought back in — the other half of turnover.',
         C: 'Mitochondria supply the energy and no membrane.',
         D: 'Smooth endoplasmic reticulum makes the phospholipid, so it supplies the raw material. Supplying and delivering are different, and the question asks for the organelle responsible.',
@@ -3452,7 +3452,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Rough endoplasmic reticulum makes the protein and packs it only into transfer vesicles for onward carriage — a step, not the packaging the question means.',
         B: 'Smooth endoplasmic reticulum handles lipid.',
         C: 'Lysosomes digest protein.',
-        D: 'Correct. Packing, concentration and storage are the Golgi\'s named functions, and the secretory vesicle is the package.',
+        D: 'Packing, concentration and storage are the Golgi\'s named functions, and the secretory vesicle is the package.',
       },
     },
     {
@@ -3461,7 +3461,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the organelle ribosomes attach to.',
       explanations: {
-        A: 'Correct. Rough endoplasmic reticulum — the ribosomes on its outer surface are what make it rough and what give the cell its basophilia.',
+        A: 'Rough endoplasmic reticulum — the ribosomes on its outer surface are what make it rough and what give the cell its basophilia.',
         B: 'Smooth endoplasmic reticulum is defined by having none.',
         C: 'The Golgi receives protein already made and carries no ribosomes.',
         D: 'Mitochondria have ribosomes of their own inside the matrix, not attached to their surface — a distinction worth holding, because it is what makes this the most defensible wrong answer.',
@@ -3478,7 +3478,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The cristae are folds of the inner membrane. The outer one stays smooth because it needs no extra area.',
         B: 'Elementary particles sit on the cristae, so they are inner-membrane structures too.',
-        C: 'Correct. Smooth, with porins, and therefore permeable to small molecules — the selectivity is left to the inner membrane.',
+        C: 'Smooth, with porins, and therefore permeable to small molecules — the selectivity is left to the inner membrane.',
         D: 'Attached ribosomes belong to the rough endoplasmic reticulum and the outer nuclear membrane. Mitochondrial ribosomes are inside the matrix.',
       },
     },
@@ -3489,7 +3489,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recall what the outer nuclear membrane is continuous with.',
       explanations: {
         A: 'The Golgi is a separate stack, connected to the rest of the system only by vesicles.',
-        B: 'Correct. The outer nuclear membrane is continuous with the cisternae of the rough endoplasmic reticulum — which is why it too carries polyribosomes.',
+        B: 'The outer nuclear membrane is continuous with the cisternae of the rough endoplasmic reticulum — which is why it too carries polyribosomes.',
         C: 'Smooth endoplasmic reticulum is continuous with the rough kind, so it is connected at one remove; the direct continuity the question asks for is with the rough.',
         D: 'Lysosomes are discrete vesicles budded from the Golgi.',
       },
@@ -3502,7 +3502,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Peripheral chromatin is attached to the *inner* membrane, on the nuclear side. Inside and outside is the whole question.',
         B: 'Chromatin islands float in the nuclear sap, on the inner side again.',
-        C: 'Correct. Polyribosomes stud the outer membrane, because it is continuous with the rough endoplasmic reticulum and is part of the same protein-making surface.',
+        C: 'Polyribosomes stud the outer membrane, because it is continuous with the rough endoplasmic reticulum and is part of the same protein-making surface.',
         D: 'Two of the three are on the inner side, so "all of the above" cannot stand.',
       },
     },
@@ -3515,7 +3515,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Rough endoplasmic reticulum makes protein and spends ATP doing it.',
         B: 'Smooth endoplasmic reticulum makes lipid and detoxifies.',
         C: 'Lysosomes digest.',
-        D: 'Correct. The mitochondrion, the department book\'s own phrase — everything else in the cell runs on what it produces.',
+        D: 'The mitochondrion — everything else in the cell runs on what it produces.',
       },
     },
     {
@@ -3526,7 +3526,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The nucleus shrinks, condenses and is finally extruded. Enlargement is the opposite of what happens.',
         B: 'Organelles are lost, not gained — mitochondria and ribosomes both go, which is why the mature cell can neither respire nor repair itself.',
-        C: 'Correct. Haemoglobin content rises steadily through erythropoiesis, and the cell discards everything that is not haemoglobin to make room for it.',
+        C: 'Haemoglobin content rises steadily through erythropoiesis, and the cell discards everything that is not haemoglobin to make room for it.',
         D: 'The cell gets smaller as it matures, not larger. Three of the four options describe the process running backwards.',
       },
     },
@@ -3538,7 +3538,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Endocytosis is the umbrella term covering all three routes in, so it is too broad to be the nickname of one.',
         B: 'Exocytosis moves material out.',
-        C: 'Correct. Pinocytosis — from the Greek for drinking — taking in extracellular fluid through small invaginations.',
+        C: 'Pinocytosis — from the Greek for drinking — taking in extracellular fluid through small invaginations.',
         D: 'Phagocytosis is cell *eating*, and takes solids. The two nicknames are the pair this question exists to separate.',
       },
     },
@@ -3549,7 +3549,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place the ribophorins on the rough endoplasmic reticulum.',
       explanations: {
         A: 'Smooth endoplasmic reticulum has no ribosomes, so it needs no receptor to bind them — that absence is what makes it smooth.',
-        B: 'Correct. Ribophorins are the membrane receptors of the rough reticulum that the large ribosomal subunit binds to.',
+        B: 'Ribophorins are the membrane receptors of the rough reticulum that the large ribosomal subunit binds to.',
         C: 'The Golgi receives protein in vesicles rather than from ribosomes directly.',
         D: 'Mitochondria carry their ribosomes free in the matrix, not docked on a membrane.',
       },
@@ -3563,7 +3563,7 @@ export const LEAF: McqLeafSeed = {
         A: '27 is the basal body.',
         B: '20 is the shaft.',
         C: '18 is the shaft without its central pair.',
-        D: 'Correct. 9 — one microtubule from each of the basal body\'s nine triplets, the C microtubule, growing into the cytoplasm to anchor the whole structure.',
+        D: '9 — one microtubule from each of the basal body\'s nine triplets, the C microtubule, growing into the cytoplasm to anchor the whole structure.',
       },
     },
     {
@@ -3575,7 +3575,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The source printed no key. The department book states that the rough reticulum is studded with ribosomes bound to ribophorins; centrioles, endosomes and lysosomes are separate structures and none of them attaches to it.',
       explanations: {
-        A: 'Correct. Ribosomes on its cytoplasmic surface, and their presence is the entire difference between the rough reticulum and the smooth.',
+        A: 'Ribosomes on its cytoplasmic surface, and their presence is the entire difference between the rough reticulum and the smooth.',
         B: 'Centrioles are two cylinders beside the nucleus and attach to nothing.',
         C: 'Endosomes are vesicles of material taken in from outside, travelling to lysosomes.',
         D: 'Lysosomes bud from the Golgi and move about freely; they never stud a membrane.',
@@ -3593,7 +3593,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The rough reticulum produces transfer vesicles, which carry protein *to* the Golgi. It is one station earlier.',
         B: 'The cis face is the entry face and receives those transfer vesicles. Cis and trans are the two ends of the stack and the two halves of this question.',
         C: 'Smooth reticulum tubules handle lipid and produce no secretory vesicle.',
-        D: 'Correct. The trans, or exit, face — where secretory vesicles, lysosomes and coated vesicles all bud off.',
+        D: 'The trans, or exit, face — where secretory vesicles, lysosomes and coated vesicles all bud off.',
       },
     },
     {
@@ -3606,8 +3606,8 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, tubules of the rough reticulum, which produce transfer vesicles. Secretory vesicles bud from the Golgi\'s exit face; the same books key `the-organelle-that-packages-proteins-within-the-cell-is-41e916bd` and `all-of-the-following-are-products-of-golgi-apparatus-except-6aaae4bb` consistently with the Golgi as the source.',
       explanations: {
         a: 'Smooth reticulum tubules handle lipid and detoxification and bud no secretory vesicle.',
-        b: 'The rough reticulum buds transfer vesicles, which go to the Golgi. Transfer and secretory are the two vesicles this leaf keeps asking you to tell apart, and this is the option the book keys.',
-        c: 'Correct. The Golgi apparatus, from its trans face, after packing and concentrating the protein the reticulum sent it.',
+        b: 'The rough reticulum buds transfer vesicles, which go to the Golgi. Transfer and secretory are the two vesicles this leaf keeps asking you to tell apart, and This is the keyed answer.',
+        c: 'The Golgi apparatus, from its trans face, after packing and concentrating the protein the reticulum sent it.',
         d: 'Mitochondria make ATP and export nothing.',
       },
     },
@@ -3627,7 +3627,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Normal values',
       learningObjective: 'Count the microtubules in a centriole wall.',
       explanations: {
-        A: 'Correct. 27 — nine bundles of three.',
+        A: '27 — nine bundles of three.',
         B: '20 is the ciliary shaft.',
         C: '18 is the shaft without its central pair.',
         D: '9 is the number of bundles, and the number of rootlet microtubules. Stopping at the bundle count is the error this option exists for.',
@@ -3641,7 +3641,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mitochondria are the target of thyroid hormone rather than its activator — thyroid hormone raises metabolic rate by acting on them, which is what makes this option tempting.',
         B: 'The Golgi packs and modifies protein on the way out; the thyroid hormone question is about breaking a bond on the way back in.',
-        C: 'Correct. The follicular cell takes colloid back in and its lysosomal enzymes break the bond between the hormone and its protein, releasing the active hormone — the department book lists this among lysosomal functions.',
+        C: 'The follicular cell takes colloid back in and its lysosomal enzymes break the bond between the hormone and its protein, releasing the active hormone — which is a recognised lysosomal function.',
         D: 'Peroxisomes oxidise fatty acids and handle hydrogen peroxide.',
       },
     },
@@ -3652,7 +3652,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the origin of a transfer vesicle.',
       explanations: {
         A: 'The Golgi receives transfer vesicles; it does not make them. Direction is the whole question, and this is the option that gets it backwards.',
-        B: 'Correct. The rough endoplasmic reticulum packs its newly made protein into transfer vesicles and sends them to the Golgi\'s cis face.',
+        B: 'The rough endoplasmic reticulum packs its newly made protein into transfer vesicles and sends them to the Golgi\'s cis face.',
         C: 'Smooth reticulum handles lipid and detoxification and buds no such vesicle.',
         D: 'Mitochondria are a closed compartment and send nothing out in vesicles.',
       },
@@ -3674,8 +3674,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute clathrin to receptor-mediated endocytosis.',
       explanations: {
         A: 'Phagocytosis uses pseudopodia driven by actin, with no clathrin coat.',
-        B: 'Pinocytosis is a plain invagination and needs no accessory protein at all — the books make that its distinguishing feature.',
-        C: 'Correct. Clathrin coats the cytoplasmic side of the aggregated receptors, forming the coated pit that pinches off as a coated vesicle.',
+        B: 'Pinocytosis is a plain invagination and needs no accessory protein at all — that is its distinguishing feature.',
+        C: 'Clathrin coats the cytoplasmic side of the aggregated receptors, forming the coated pit that pinches off as a coated vesicle.',
         D: 'Simple diffusion involves no protein and no vesicle.',
       },
     },
@@ -3691,7 +3691,7 @@ export const LEAF: McqLeafSeed = {
         A: 'It is a small stellate cell with fine processes, not a large oval one. Size is one of the ways it is told from the fibroblast it may become.',
         B: 'A well-developed Golgi belongs to a cell already exporting something. This one has not yet decided what to be.',
         C: 'The nucleus is pale and euchromatic, which is what a cell with its options still open looks like. A central dark nucleus would say the opposite.',
-        D: 'Correct. Free ribosomes in quantity — protein made for the cell\'s own growth rather than for export, which is exactly the profile of a cell that is building itself rather than serving a tissue.',
+        D: 'Free ribosomes in quantity — protein made for the cell\'s own growth rather than for export, which is exactly the profile of a cell that is building itself rather than serving a tissue.',
       },
     },
     {
@@ -3703,7 +3703,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A heterolysosome is actively digesting material from outside.',
         B: 'A multivesicular body is actively digesting fluid.',
         C: 'An autolysosome is actively digesting the cell\'s own organelles.',
-        D: 'Correct. A residual body: what is left when the digestion of any of the three is over and something could not be broken down.',
+        D: 'A residual body: what is left when the digestion of any of the three is over and something could not be broken down.',
       },
     },
     {
@@ -3713,7 +3713,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the lysosome from its membrane and its function.',
       explanations: {
         A: 'A peroxisome is also a single-membrane vesicle, which is half the description — but it oxidises rather than digests, and its enzymes are oxidases and catalase.',
-        B: 'Correct. Single membrane plus intracytoplasmic digestion is the department book\'s own definition of the lysosome.',
+        B: 'Single membrane plus intracytoplasmic digestion is the definition of the lysosome.',
         C: 'The Golgi is a stack of many saccules, and it makes lysosomes rather than being one.',
         D: 'A ribosome has no membrane at all and builds rather than breaks down.',
       },
@@ -3725,7 +3725,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Classify vimentin among the cytoskeletal elements.',
       explanations: {
         A: 'Microfilaments are actin, the same in every cell, and have no tissue-specific forms.',
-        B: 'Correct. Vimentin is the intermediate filament of connective tissue and muscle — one of the six the department book names.',
+        B: 'Vimentin is the intermediate filament of connective tissue and muscle — one of six tissue-specific intermediate filament proteins.',
         C: 'Thick filaments are myosin of muscle and are not cytoskeletal.',
         D: 'Microtubules are tubulin. The six "-in" proteins of this family are all intermediate filaments, which is the quickest way to answer the whole set of these questions.',
       },
@@ -3737,7 +3737,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Count the microtubules in a centriole wall.',
       explanations: {
         A: '37 is neither the count nor any part of it. Options A and D print the same number, which is a page defect worth noting for whoever rescans it, though the answer is unaffected.',
-        B: 'Correct. 27 microtubules, in nine triplets.',
+        B: '27 microtubules, in nine triplets.',
         C: '17 corresponds to nothing in the cell.',
         D: 'A repeat of option A. Two identical options cannot both be a distinct choice, but neither is the answer, so the row is still sittable.',
       },
@@ -3748,7 +3748,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Mechanism',
       learningObjective: 'Recognise endocytosis as the general term rather than one of its kinds.',
       explanations: {
-        A: 'Correct. Endocytosis is the umbrella term for bringing material in by forming vesicles, and phagocytosis, pinocytosis and receptor-mediated uptake are its three kinds.',
+        A: 'Endocytosis is the umbrella term for bringing material in by forming vesicles, and phagocytosis, pinocytosis and receptor-mediated uptake are its three kinds.',
         B: 'Exocytosis is the opposite direction.',
         C: 'Receptor-mediated endocytosis is one of the three kinds — a member of the class, not the class. The word "general" in the stem is what excludes it.',
         D: 'Phagocytosis is another of the three, and likewise too narrow.',
@@ -3761,7 +3761,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the general term for moving material out of the cell.',
       explanations: {
         A: 'Endocytosis brings material in — the paired question\'s answer, with the same option set.',
-        B: 'Correct. Exocytosis, in which a vesicle fuses with the plasma membrane and discharges without breaking its continuity.',
+        B: 'Exocytosis, in which a vesicle fuses with the plasma membrane and discharges without breaking its continuity.',
         C: 'Pinocytosis is a kind of endocytosis, so it is both the wrong direction and too narrow.',
         D: 'Phagocytosis is likewise inward.',
       },
@@ -3778,7 +3778,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Pinocytosis is cell *drinking* — the companion nickname, and the one this question is set against.',
         B: 'Active transport moves individual molecules across the membrane through carrier proteins, engulfing nothing.',
         C: 'Endocytosis is the general term covering all three routes in, so it is too broad to be one nickname.',
-        D: 'Correct. Phagocytosis, cell eating: pseudopodia extend to surround a solid particle.',
+        D: 'Phagocytosis, cell eating: pseudopodia extend to surround a solid particle.',
       },
     },
     {
@@ -3792,7 +3792,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Ribosomes are non-membranous, which they share with the cytoskeleton, but they assemble protein rather than support the cell.',
         B: 'A peroxisome is a membranous vesicle of enzymes.',
-        C: 'Correct. Microfilaments — actin — are one of the three elements, with microtubules and intermediate filaments.',
+        C: 'Microfilaments — actin — are one of the three elements, with microtubules and intermediate filaments.',
         D: 'Centrioles are built by microtubules and are counted among the structures the cytoskeleton forms rather than among the three elements themselves. It is the most defensible of the wrong options and worth being able to argue against.',
       },
     },
@@ -3805,7 +3805,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The cytoplasm is where the ribosomal proteins are made and where the finished subunits work. Assembly happens elsewhere, and separating where the parts are made from where they are put together is what the question is for.',
         B: 'Pars amorpha is the DNA encoding rRNA, inside the nucleolus — a part of the answer rather than the answer, and the closest distractor in the set.',
         C: 'The rough endoplasmic reticulum is where attached ribosomes work, not where they are built.',
-        D: 'Correct. The nucleolus: rRNA is transcribed there and unites there with protein imported from the cytoplasm to form the large and small subunits.',
+        D: 'The nucleolus: rRNA is transcribed there and unites there with protein imported from the cytoplasm to form the large and small subunits.',
       },
     },
     {
@@ -3820,7 +3820,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The outer membrane is smooth with porins and holds no enzymes of the cycle.',
         B: 'The inner membrane carries oxidative phosphorylation — the stage after the cycle, and the standing confusion in this leaf.',
         C: 'The matrix granules are the dense calcium-rich bodies. They are in the matrix but they are not the enzymes, and this option is the near miss the answer has to be separated from.',
-        D: 'Correct. The Krebs cycle enzymes are soluble in the matrix, which is why the matrix is where the substrates are oxidised before the chain takes over.',
+        D: 'The Krebs cycle enzymes are soluble in the matrix, which is why the matrix is where the substrates are oxidised before the chain takes over.',
       },
     },
     {
@@ -3829,7 +3829,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Distinguish the light-microscopic appearance of cilia from that of microvilli.',
       explanations: {
-        A: 'Correct. Cilia are long enough to be resolved individually and appear as fine hair-like striations at the free surface.',
+        A: 'Cilia are long enough to be resolved individually and appear as fine hair-like striations at the free surface.',
         B: 'Microvilli are shorter and closer together, so they blur into a single striated or brush border rather than separate hairs. Both appearances are striated, and the difference is whether the individual projections can be told apart.',
         C: 'Microtubules are far below light-microscopic resolution and are inside the cell.',
         D: 'Microfilaments are smaller still and equally invisible without immunofluorescence.',
@@ -3846,8 +3846,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, but not the whole answer. Centrioles are demonstrated by iron haematoxylin.',
         B: 'True, but not the whole answer. Mitochondria stain dark blue with it.',
-        C: 'The Golgi apparatus is the silver stain\'s subject, appearing as a brown network. This is the option the book keys, and it swaps the two great organelle stains.',
-        D: 'Correct. Both centrioles and mitochondria, and the shared answer is why the two organelles are so often seen in the same preparation.',
+        C: 'The Golgi apparatus is the silver stain\'s subject, appearing as a brown network. This is the keyed answer, and it swaps the two great organelle stains.',
+        D: 'Both centrioles and mitochondria, and the shared answer is why the two organelles are so often seen in the same preparation.',
       },
     },
     {
@@ -3859,7 +3859,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The centrosome duplicates in S phase, and centrioles duplicate thousands of times over to make basal bodies.',
         B: 'The Golgi is rebuilt from membrane the cell supplies; it does not replicate itself as a unit.',
         C: 'True, but not the whole answer. Mitochondria increase in number by simple division, which their own DNA is what makes possible.',
-        D: 'Correct. Centrioles and mitochondria both, and for related reasons — each carries what it needs to make a copy of itself.',
+        D: 'Centrioles and mitochondria both, and for related reasons — each carries what it needs to make a copy of itself.',
       },
     },
     {
@@ -3879,7 +3879,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise filaments as non-membranous.',
       explanations: {
         A: 'Lysosomes have a single limiting membrane.',
-        B: 'Correct. Filaments — micro and intermediate — are cytoskeletal protein and have no membrane, which puts them with the ribosomes.',
+        B: 'Filaments — micro and intermediate — are cytoskeletal protein and have no membrane, which puts them with the ribosomes.',
         C: 'Peroxisomes are single-membrane vesicles.',
         D: 'Mitochondria have two membranes.',
       },
@@ -3891,7 +3891,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute cytoplasmic basophilia to ribosomes.',
       explanations: {
         A: 'Smooth endoplasmic reticulum causes acidophilia — the opposite reaction, from the other half of the same organelle.',
-        B: 'Correct. The acidic phosphate of ribosomal RNA binds the basic dye, and every basophilic cytoplasm in histology comes back to that.',
+        B: 'The acidic phosphate of ribosomal RNA binds the basic dye, and every basophilic cytoplasm in histology comes back to that.',
         C: 'The Golgi takes neither dye and shows as a pale negative image.',
         D: 'Mitochondria are acidophilic and need iron haematoxylin or Janus green.',
       },
@@ -3925,7 +3925,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The Golgi sends membrane out in its vesicles.',
         B: 'Lysosomes digest membrane brought back in. That is turnover in the other direction, and this option is the one that catches a student who reads "renewal" as "recycling".',
         C: 'True, but not the whole answer. Coated vesicles are Golgi products and carry membrane to the surface.',
-        D: 'Correct. The Golgi and its coated vesicles together — the organelle and the vehicle it uses, which is one mechanism rather than two.',
+        D: 'The Golgi and its coated vesicles together — the organelle and the vehicle it uses, which is one mechanism rather than two.',
       },
     },
     {
@@ -3939,7 +3939,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The figure is right and the unit is not — 7.5–10 is nanometres. The "pm" here is OCR of the micron sign, and either reading makes the statement false.',
         B: 'The figure 24 is right for a microtubule but the unit is printed as millimetres. A 24 mm microtubule would be visible across a room.',
-        C: 'Correct. Microfilaments are 5–7 nm in diameter — figure and unit both as the department book gives them.',
+        C: 'Microfilaments are 5–7 nm in diameter.',
         D: '5–10 nm is offered as a *length*, and no cytoskeletal filament has a fixed length. Diameter and length are what this option confuses.',
       },
     },
@@ -3953,9 +3953,9 @@ export const LEAF: McqLeafSeed = {
         'The book keys D, all of the above, but secretory vesicles and lysosomes do originate from the Golgi — the department book says so explicitly. Only the transfer vesicle does not: it comes from the rough endoplasmic reticulum and arrives at the cis face. The answer is B.',
       explanations: {
         A: 'Secretory vesicles bud from the Golgi\'s trans face, so they do originate from it.',
-        B: 'Correct. Transfer vesicles come from the rough endoplasmic reticulum and travel *to* the Golgi. Every other vesicle in this leaf leaves the Golgi; this one arrives.',
+        B: 'Transfer vesicles come from the rough endoplasmic reticulum and travel *to* the Golgi. Every other vesicle in this leaf leaves the Golgi; this one arrives.',
         C: 'Lysosomes bud from the trans face too.',
-        D: 'This is the option the book keys, and it would mean the Golgi produced nothing at all — which contradicts three other rows in the same books.',
+        D: 'This is the keyed answer, and it would mean the Golgi produced nothing at all — which contradicts three other rows in the same books.',
       },
     },
     {
@@ -3965,7 +3965,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise catalase as a detoxifying enzyme when the smooth reticulum is not on offer.',
       explanations: {
         A: 'Ribosomes assemble protein and hold no enzymes of their own.',
-        B: 'Correct as the option set stands. Catalase destroys the hydrogen peroxide the peroxisome\'s own oxidases generate, which is detoxification in the literal sense — and smooth endoplasmic reticulum, the organelle these books usually key for drug detoxification, is not among the four options here.',
+        B: 'Catalase destroys the hydrogen peroxide the peroxisome\'s own oxidases generate, which is detoxification in the literal sense — and smooth endoplasmic reticulum, the organelle these books usually key for drug detoxification, is not among the four options here.',
         C: 'Microfilaments are actin and hold no enzymes.',
         D: 'Centrioles organise microtubules and hold no enzymes either. Three of the four options are structures rather than enzyme compartments, which narrows the question to one.',
       },
@@ -3976,7 +3976,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Separate the protein half of the endoplasmic reticulum from the lipid half.',
       explanations: {
-        A: 'Correct. Rough endoplasmic reticulum makes and segregates protein. It is the one organelle in the list with no share in lipid at all.',
+        A: 'Rough endoplasmic reticulum makes and segregates protein. It is the one organelle in the list with no share in lipid at all.',
         B: 'Smooth endoplasmic reticulum synthesises phospholipid and steroid — the central lipid organelle.',
         C: 'Peroxisomes carry out beta-oxidation of long-chain fatty acids.',
         D: 'The Golgi adds carbohydrate to lipid as well as to protein, making the glycolipids of the cell coat.',
@@ -3991,7 +3991,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Mitochondria replace themselves by dividing, but they do not replace anything else.',
         B: 'Centrioles duplicate themselves and organise microtubules.',
         C: 'Peroxisomes oxidise fatty acids and handle hydrogen peroxide.',
-        D: 'Correct. Removing excess and non-functional organelles by autophagy is a named lysosomal function, and replacement begins with removal.',
+        D: 'Removing excess and non-functional organelles by autophagy is a named lysosomal function, and replacement begins with removal.',
       },
     },
     {
@@ -4016,7 +4016,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Rough endoplasmic reticulum makes and segregates the protein and sends it on. Making is not packing.',
         B: 'Smooth endoplasmic reticulum handles lipid.',
         C: 'A lysosome is one of the Golgi\'s products and holds enzymes rather than storing secretory protein.',
-        D: 'Correct. Storage, concentration and packing are the Golgi\'s three named functions, in the book\'s own order.',
+        D: 'Storage, concentration and packing are the Golgi\'s three named functions, in that order.',
       },
     },
     {
@@ -4030,7 +4030,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A flagellum has the axoneme of a cilium — microtubules, not actin.',
         B: 'A cilium likewise. The actin-cored surface projections are the microvillus and the stereocilium, and telling those two families apart is what these questions are for.',
-        C: 'Correct. Microfilaments are two coiled chains of globular G actin.',
+        C: 'Microfilaments are two coiled chains of globular G actin.',
         D: 'Microtubules are alpha and beta tubulin.',
       },
     },
@@ -4041,7 +4041,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Say what happens at the cis face of the Golgi stack.',
       explanations: {
         A: 'Vesicles bud off the *trans* face. Cis and trans are the entry and the exit, and this option gives the entry the exit\'s work.',
-        B: 'Correct. The cis, or entry, face receives the transfer vesicles that the rough endoplasmic reticulum sends with its newly made protein.',
+        B: 'The cis, or entry, face receives the transfer vesicles that the rough endoplasmic reticulum sends with its newly made protein.',
         C: 'Nothing connects the saccules to one another in that sense; they are stacked and interconnected, but there is no face whose job is to join them.',
         D: 'Fusing with the cell membrane is what a secretory vesicle does at the end of its journey, long after it has left the trans face.',
       },
@@ -4055,9 +4055,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys C, "transfer tRNA", which is a play on the word transfer and not a function of any vesicle — transfer RNA is a soluble molecule of the cytosol and travels in nothing. Option A is the department book\'s own account: transfer vesicles carry the segregated protein from the rough endoplasmic reticulum to the Golgi apparatus.',
       explanations: {
-        A: 'Correct. The rough reticulum segregates its newly made protein into its lumen and buds it off in transfer vesicles bound for the Golgi\'s cis face.',
+        A: 'The rough reticulum segregates its newly made protein into its lumen and buds it off in transfer vesicles bound for the Golgi\'s cis face.',
         B: 'Carrying protein to the cell membrane is the secretory vesicle\'s job, from the trans face. Transfer and secretory vesicles are the two halves of the Golgi\'s traffic and this option swaps them.',
-        C: 'Transfer RNA is a small soluble molecule that brings amino acids to the ribosome; it is never packaged into a vesicle. This is the option the book keys, and the two senses of "transfer" are the whole trap.',
+        C: 'Transfer RNA is a small soluble molecule that brings amino acids to the ribosome; it is never packaged into a vesicle. This is the keyed answer, and the two senses of "transfer" are the whole trap.',
         D: 'There is a correct option, so "none of the above" cannot stand.',
       },
     },
@@ -4078,7 +4078,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the part of the cilium that projects from the surface.',
       explanations: {
         A: 'The basal body sits inside the apical cytoplasm, below the surface. It anchors the projection rather than being one.',
-        B: 'Correct. The shaft is the part that projects above the cell, covered by plasmalemma, with the axoneme inside it.',
+        B: 'The shaft is the part that projects above the cell, covered by plasmalemma, with the axoneme inside it.',
         C: 'The rootlets run down into the cytoplasm from the basal body — the opposite direction.',
         D: 'A flagellum is a projection covered by cell membrane too, and is the closest of the wrong answers; but a flagellum is a whole structure rather than the part of a cilium the option set is asking for, and the three other options are all ciliary parts.',
       },
@@ -4092,8 +4092,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys B, and B is wrong. Clathrin assembles as a basket on the cytoplasmic surface of the membrane, pulling the pit inwards; it cannot be on the outer surface, because the outer surface is where the ligand binds and a coat there would block the very receptors the process depends on. A and B are the same sentence with the side swapped, which is the signature of a one-letter key slip. Recorded rather than silently followed.',
       explanations: {
-        A: 'Correct. Clathrin coats the cytoplasmic surface of the membrane over the aggregated receptors, and the basket it forms is what invaginates the patch into a coated pit and then pinches it off as a coated vesicle.',
-        B: 'The outer surface is where the ligand and the cell coat are. A protein cage there would sit between the receptor and the molecule it has to bind. This is the option the book keys, and it is the side-swap the question is really testing.',
+        A: 'Clathrin coats the cytoplasmic surface of the membrane over the aggregated receptors, and the basket it forms is what invaginates the patch into a coated pit and then pinches it off as a coated vesicle.',
+        B: 'The outer surface is where the ligand and the cell coat are. A protein cage there would sit between the receptor and the molecule it has to bind. This is the keyed answer, and it is the side-swap the question is really testing.',
         C: 'Clathrin is structural, not a receptor. The receptors are separate transmembrane molecules that clathrin gathers up from the inside.',
         D: 'The enzymes that digest the endosome\'s contents come from lysosomes. Clathrin never enters that part of the story — it is shed from the vesicle soon after it forms.',
       },
@@ -4104,9 +4104,9 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'State where a coated vesicle comes from and which side its coat is on.',
       explanations: {
-        A: 'Correct. A coated vesicle is a piece of the cell membrane that has invaginated as a coated pit and pinched off, so it is derived from the cell membrane itself.',
+        A: 'A coated vesicle is a piece of the cell membrane that has invaginated as a coated pit and pinched off, so it is derived from the cell membrane itself.',
         B: 'The clathrin coat is on the cytoplasmic side, not the outside. Swapping the side is the commonest error on this structure, and it is why "all of the above" cannot be taken.',
-        C: 'Receptor-mediated endocytosis really does take up hormones — the book gives growth hormone as its example — but a vesicle described by its cargo is not defined by it, and the option that says what a coated vesicle *is* is A.',
+        C: 'Receptor-mediated endocytosis really does take up hormones — growth hormone is the standard example — but a vesicle described by its cargo is not defined by it, and the option that says what a coated vesicle *is* is A.',
         D: 'Not all of the above, because B has the coat on the wrong surface. This is the option chosen by students who recognise that C is defensible and assume the set is cumulative.',
       },
     },
@@ -4116,9 +4116,9 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Mechanism',
       learningObjective: 'Say what pinocytosis takes in.',
       explanations: {
-        A: 'Correct. Pinocytosis is cell drinking: small invaginations of the membrane surround extracellular fluid and whatever is dissolved in it.',
+        A: 'Pinocytosis is cell drinking: small invaginations of the membrane surround extracellular fluid and whatever is dissolved in it.',
         B: 'Solid particles are taken by phagocytosis, using pseudopodia. The two words differ only in the Greek for eating and drinking, and that is the whole distinction being tested.',
-        C: 'A bacterium is a solid particle and is the department book\'s own example of phagocytosis by a white blood cell.',
+        C: 'A bacterium is a solid particle and is the classic example of phagocytosis by a white blood cell.',
         D: 'A foreign body is again solid, and again phagocytosis. Three of the four options are the same wrong answer stated three ways, which tells you where the examiner expects the mistake.',
       },
     },
@@ -4130,7 +4130,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Microcytosis is not a process of the cell membrane. The word is invented from "micro-" by analogy and is in the set to catch a guess made on word shape.',
         B: 'Exocytosis moves material out of the cell, not in.',
-        C: 'Correct. Phagocytosis, cell eating: pseudopodia surround the solid particle and enclose it in a phagosome.',
+        C: 'Phagocytosis, cell eating: pseudopodia surround the solid particle and enclose it in a phagosome.',
         D: 'Pinocytosis takes in fluid. It is the paired term and the intended trap; the two differ only in what is engulfed.',
       },
     },
@@ -4142,7 +4142,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Phagocytosis takes in solid particles. It is the paired term and the intended trap.',
         B: 'Exocytosis discharges material from the cell; it is the opposite direction.',
-        C: 'Correct. Pinocytosis, cell drinking — small invaginations of the membrane surrounding extracellular fluid.',
+        C: 'Pinocytosis, cell drinking — small invaginations of the membrane surrounding extracellular fluid.',
         D: 'Autophagy is the digestion of the cell\'s own worn organelles by a lysosome. It is internal and involves no uptake from outside at all.',
       },
     },
@@ -4158,7 +4158,7 @@ export const LEAF: McqLeafSeed = {
         a: 'The core of a cilium is the axoneme — nine peripheral doublets and two central singlets, all of them microtubules. A cilium contains no actin at all.',
         b: 'A flagellum has exactly the axonemal structure of a cilium and is simply far longer, so it too is microtubular. Picking this means treating "core of a projection" as one category instead of asking which filament builds it.',
         c: 'The mitotic spindle is microtubular and is organised by the centrioles. Microfilaments do act in cell division, but at the cleavage furrow that pinches the two daughters apart, not in the spindle.',
-        d: 'Correct. The microvillus is a finger-like projection with a core of actin microfilaments anchored in the terminal web, and it is the department book\'s type example of a microfilament-built structure.',
+        d: 'The microvillus is a finger-like projection with a core of actin microfilaments anchored in the terminal web, and it is a textbook example of a microfilament-built structure.',
       },
     },
     {
@@ -4172,7 +4172,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'A primary lysosome is the newly budded vesicle whose enzymes have not yet met anything. The multivesicular body has already fused with a pinocytic vesicle, which is what makes it secondary — the word "primary" is about timing, not size.',
         b: 'The residual body is the end state left after any secondary lysosome has finished digesting, so it comes after the multivesicular body rather than being another name for it. Confusing the two is the commonest way to lose this item.',
-        c: 'Correct. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, so it is a secondary lysosome whose substrate is fluid — the fluid counterpart of the heterolysosome.',
+        c: 'A multivesicular body is a primary lysosome fused with a pinocytic vesicle, so it is a secondary lysosome whose substrate is fluid — the fluid counterpart of the heterolysosome.',
         d: 'Restricted residence in cardiac muscle and nerve cells belongs to lipofuscin, the age pigment that accumulates in long-lived non-dividing cells. Multivesicular bodies form wherever pinocytosis happens, which is nearly everywhere.',
       },
     },
@@ -4187,7 +4187,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The Golgi half is right and the smooth endoplasmic reticulum half is wrong. Abundant smooth ER marks a steroid- or lipid-forming cell, such as the adrenal cortical cell or the hepatocyte, not a phagocyte.',
         b: 'Lysosomes are right, free ribosomes are not. Free ribosomes make protein the cell keeps in its own cytosol; the macrophage\'s hydrolytic enzymes are made on attached ribosomes and routed through the Golgi, so the rough ER and the Golgi are what its lysosomes depend on.',
-        c: 'Correct. The macrophage digests what it engulfs, so it is rich in lysosomes, and rich in the Golgi apparatus that makes them.',
+        c: 'The macrophage digests what it engulfs, so it is rich in lysosomes, and rich in the Golgi apparatus that makes them.',
         d: 'Mitochondria and smooth ER together describe a steroid-secreting cell. Every cell has mitochondria, so naming them says nothing about what this one does — which is what the question is asking.',
       },
     },
@@ -4201,9 +4201,9 @@ export const LEAF: McqLeafSeed = {
         'No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book: it lists transport of organelles and macromolecules among the functions of microtubules and gives no transport function to any other cytoskeletal element in the neuron.',
       explanations: {
         a: 'Nissl bodies are the neuron\'s rough endoplasmic reticulum and free ribosomes, seen by light microscopy as basophilic clumps. They are where the neuron makes protein, not how it moves it — this option trades on both being about neurotransmitters somewhere in the chain.',
-        b: 'Neurofilaments are the neuron\'s intermediate filaments. The department book gives intermediate filaments one function, support, and it is the only one of the three cytoskeletal systems with no transport role at all.',
+        b: 'Neurofilaments are the neuron\'s intermediate filaments. Intermediate filaments have one function, support, and theirs is the only one of the three cytoskeletal systems with no transport role at all.',
         c: 'Centrioles are microtubular, which makes this the closest wrong answer, but their work is organising the mitotic spindle. The mature neuron does not divide, and centrioles do not run transport down an axon.',
-        d: 'Correct. Microtubules transport organelles and macromolecules through the cytoplasm, and in the neuron they are the tracks along which vesicles of neurotransmitter travel to the terminal.',
+        d: 'Microtubules transport organelles and macromolecules through the cytoplasm, and in the neuron they are the tracks along which vesicles of neurotransmitter travel to the terminal.',
       },
     },
     {
@@ -4217,7 +4217,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Being either physiological or pathological is apoptosis. Necrosis is always pathological — it is the response to injury, never a planned part of development or turnover.',
         b: 'Breaking into membrane-bound vesicles is apoptosis, whose fragments are the apoptotic bodies that neighbouring cells then phagocytose. Necrosis leaves no tidy packages; the contents spill.',
-        c: 'Correct. In necrosis the injured cell and its organelles take up water, swell and rupture, releasing their contents into the surrounding tissue and provoking inflammation.',
+        c: 'In necrosis the injured cell and its organelles take up water, swell and rupture, releasing their contents into the surrounding tissue and provoking inflammation.',
         d: 'An active, energy-requiring, genetically programmed process is the definition of apoptosis. Necrosis is passive — a cell that has lost control of its own water, not one carrying out a programme.',
       },
     },
@@ -4232,7 +4232,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Free ribosomes synthesise protein — and protein the cell keeps for itself, such as its glycolytic enzymes. They neither store nor modify what they make.',
         b: 'Attached ribosomes are the tempting near-miss: they do make the protein a cell exports. But synthesis is where the pathway starts, and the stem asks about the three things that happen to the protein afterwards, all of which are the Golgi\'s.',
-        c: 'Correct. The Golgi receives transfer vesicles at its cis face and packs, concentrates, stores and glycosylates their protein before budding it off the trans face.',
+        c: 'The Golgi receives transfer vesicles at its cis face and packs, concentrates, stores and glycosylates their protein before budding it off the trans face.',
         d: 'The cytoskeleton is non-membranous and structural — microtubules, microfilaments and intermediate filaments. It can transport a vesicle but it cannot store or chemically modify what is inside one.',
       },
     },
@@ -4248,7 +4248,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Microtubules are built from alpha and beta tubulin only. Naming three different proteins is already evidence the answer is not a single-subunit system.',
         b: 'Microfilaments are built from G actin coiled into F actin, again a single protein. Their diameter, 5 to 7 nm, is the smallest of the three.',
         c: 'A protofilament is not a class of filament but a part of one: thirteen of them lie side by side to make the wall of a single microtubule. The word is in the option set to catch a student answering on the sound of it.',
-        d: 'Correct. Intermediate filaments are the one system defined by chemically differing subunits, which is why the class has six named proteins — one per tissue — and why identifying them names a tumour\'s cell of origin.',
+        d: 'Intermediate filaments are the one system defined by chemically differing subunits, which is why the class has six named proteins — one per tissue — and why identifying them names a tumour\'s cell of origin.',
       },
     },
     {
@@ -4261,7 +4261,7 @@ export const LEAF: McqLeafSeed = {
         'The 2021 paper carried no key and no highlight was recovered for it, so the answer is worked from the department book: ribosomes cause cytoplasmic basophilia because of the acidity of the phosphate group in their RNA, and the book puts basophilia in the light-microscopy row of the rough endoplasmic reticulum and acidophilia in the same row for the smooth.',
       explanations: {
         a: 'Mitochondria are acidophilic in a routine section and are demonstrated by iron haematoxylin or Janus green rather than by basophilic dye. They carry a little RNA, but far too little to colour the cytoplasm.',
-        b: 'Correct. Basophilia is the ribosomal RNA taking up the basic dye, and rough endoplasmic reticulum is ribosomes on a membrane — which is why the book gives basophilia as the light-microscopic feature of rER.',
+        b: 'Basophilia is the ribosomal RNA taking up the basic dye, and rough endoplasmic reticulum is ribosomes on a membrane — which is why basophilia is the light-microscopic feature of rER.',
         c: 'Smooth endoplasmic reticulum is the exact opposite: it has no ribosomes at all, so where it is abundant the cytoplasm is acidophilic. Answering "sER" here inverts the one fact the item tests.',
         d: 'The Golgi apparatus is invisible in H&E except as a pale negative Golgi image beside the nucleus — an unstained area, which is the opposite of a basophilic one.',
       },
@@ -4275,8 +4275,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book. The book is careful with its two descriptions: rough endoplasmic reticulum is "parallel flattened cisternae" and the Golgi is "interconnected parallel flat curved saccules" with an entry (cis) and exit (trans) face. Only one option names something that is true of the Golgi and of nothing else, and that is b. Option a is worth flagging: read outside the book\'s vocabulary it is not plainly false, since the Golgi\'s saccules are flat and parallel too, and the item is only single-best-answer because the book reserves "cisternae" for the endoplasmic reticulum. It is authored as Hard for that reason.',
       explanations: {
-        a: 'This is the department book\'s wording for the rough endoplasmic reticulum, not for the Golgi, whose stacks it calls flat curved saccules. It is the intended trap and it is a fair one only if you have the book\'s two descriptions side by side — outside that vocabulary the sentence is nearly true of the Golgi as well.',
-        b: 'Correct, and correct uniquely: an entry cis face receiving transfer vesicles from the rough endoplasmic reticulum and an exit trans face budding secretory vesicles and lysosomes is a polarity no other organelle has.',
+        a: 'This wording describes the rough endoplasmic reticulum, not the Golgi, whose stacks are called flat curved saccules. It is the intended trap and it is a fair one only if you hold the two descriptions side by side — outside that distinction the sentence is nearly true of the Golgi as well.',
+        b: 'Uniquely, an entry cis face receiving transfer vesicles from the rough endoplasmic reticulum and an exit trans face budding secretory vesicles and lysosomes is a polarity no other organelle has.',
         c: 'Breaking glycogen down to glucose is a function of smooth endoplasmic reticulum, which is also why glycogen granules gather in cytoplasm rich in sER. The Golgi adds carbohydrate to protein; it does not dismantle stored carbohydrate.',
         d: 'Cell respiration is the mitochondrion, the power-house. Nothing in the Golgi generates ATP.',
       },
@@ -4291,7 +4291,7 @@ export const LEAF: McqLeafSeed = {
         'The 2021 paper printed no key and none was recovered for that sitting, so the answer is taken from the department book: a heterolysosome is a primary lysosome fused with a phagosome and digests solid particles, and the book\'s own example of phagocytosis is a white blood cell engulfing bacteria. A bacterium is the only solid engulfed particle in the option set.',
       explanations: {
         a: 'Old organelles are taken up in an autophagic vesicle, and the primary lysosome that fuses with it makes an autolysosome. Each of the three distractors here is a different lysosome type, so a student who has learnt them as a list rather than by substrate has nothing to choose on.',
-        b: 'Correct. Bacteria are solid particles taken in by phagocytosis into a phagosome, and phagosome plus primary lysosome is the heterolysosome.',
+        b: 'Bacteria are solid particles taken in by phagocytosis into a phagosome, and phagosome plus primary lysosome is the heterolysosome.',
         c: 'Fluid droplets enter by pinocytosis, and pinocytic vesicle plus primary lysosome is the multivesicular body — the fluid counterpart of this question\'s answer.',
         d: 'Undigested material is what is left at the end of digestion, in a residual body. It is the outcome of the process rather than an input to it.',
       },
@@ -4308,7 +4308,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Abundant smooth endoplasmic reticulum belongs to cells making lipid or steroid — the hepatocyte, the adrenal cortical cell. The fibroblast makes collagen, which is protein.',
         b: 'Free ribosomes make protein the cell keeps for its own use. Collagen and the ground substance are exported into the matrix, so they are made on ribosomes attached to the rough endoplasmic reticulum instead.',
         c: 'Many lysosomes mark a phagocyte such as the macrophage. The fibroblast builds the matrix rather than digesting anything in it.',
-        d: 'Correct. The fibroblast is the department book\'s type example of a protein-secreting cell: deeply basophilic cytoplasm because it is packed with rough endoplasmic reticulum, plus a well developed Golgi and a pale euchromatic nucleus.',
+        d: 'The fibroblast is a textbook example of a protein-secreting cell: deeply basophilic cytoplasm because it is packed with rough endoplasmic reticulum, plus a well developed Golgi and a pale euchromatic nucleus.',
       },
     },
     {
@@ -4320,7 +4320,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: under the red corpuscle\'s adaptation to function it lists the contained enzymes as haemoglobin reductase, to combine with oxygen, and carbonic anhydrase, to carry carbon dioxide. The same book\'s statement that the mature cell has no nucleus and no organelles disposes of option b.',
       explanations: {
-        a: 'Correct. Carbonic anhydrase is one of the two enzymes the red corpuscle keeps when it discards everything else, and it is what lets the cell carry carbon dioxide as bicarbonate.',
+        a: 'Carbonic anhydrase is one of the two enzymes the red corpuscle keeps when it discards everything else, and it is what lets the cell carry carbon dioxide as bicarbonate.',
         b: 'The mature red corpuscle has no organelles at all — no nucleus, no mitochondria, no ribosomes — and that is precisely the adaptation: the space they would occupy is given to haemoglobin. Being rich in mitochondria is the opposite of the answer.',
         c: 'The red corpuscle is a biconcave disc, so its centre is the thinnest part and looks pale, not granular. A granular central part is the platelet\'s granulomere, and this option is borrowed from the neighbouring leaf.',
         d: 'Calcium and serotonin are the contents of the platelet\'s delta granules. Repeating the same borrowing, this option tests whether a student can keep the two small blood elements apart.',
@@ -4335,7 +4335,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'No key was printed on the 2021 paper and none was recovered, so the answer is taken from the department book, whose blood platelet chapter states that lambda granules are lysosomes used for clot removal after healing of the vessel. The other three options are the contents the same chapter assigns to the alpha and delta granules.',
       explanations: {
-        a: 'Correct. The lambda granule is the platelet\'s lysosome, carrying hydrolytic enzymes that remove the clot once the vessel wall has healed.',
+        a: 'The lambda granule is the platelet\'s lysosome, carrying hydrolytic enzymes that remove the clot once the vessel wall has healed.',
         b: 'ATP and ADP are in the delta, or dense, granules, together with calcium and serotonin. Delta is the granule of the substances that recruit more platelets, not of the enzymes that clear up afterwards.',
         c: 'Growth factors — platelet-derived growth factor in particular — are in the alpha granules, whose job is repair of the vessel wall.',
         d: 'Clotting factors and fibrinogen are also alpha granule contents. Alpha is the largest and commonest granule, which is why it is the most attractive wrong answer here.',
@@ -4352,7 +4352,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Inactive chromatin is heterochromatin and belongs in the nucleus. Placing a ribosomal term among two chromatin options is the item\'s whole design: it separates students who know what a ribophorin is from students guessing on the shape of the word.',
         b: 'Active chromatin is euchromatin, again nuclear. Nothing about the ribophorin is chromatin of either kind.',
-        c: 'Correct. Ribophorins are the integral membrane receptors on the rough endoplasmic reticulum to which ribosomes attach by their large subunit.',
+        c: 'Ribophorins are the integral membrane receptors on the rough endoplasmic reticulum to which ribosomes attach by their large subunit.',
         d: 'Polyribosomes linked by mRNA are free ribosomes reading one message together, in rosettes or spiral chains. They are unattached by definition, so they are what a ribophorin is not holding.',
       },
     },
@@ -4393,7 +4393,7 @@ export const LEAF: McqLeafSeed = {
         'The 2022 paper carried no key and none was recovered for this row, so the answer is taken from the department book: it describes the plasma cell as having deeply basophilic cytoplasm and an eccentric spherical nucleus whose alternating heterochromatin and euchromatin give the cart-wheel or clock-face appearance. The same description rules out options c and d directly.',
       explanations: {
         a: 'Surface IgE receptors belong to the mast cell and the basophil, which is how an allergen triggers them to degranulate. The plasma cell makes antibody and releases it; it does not sit with antibody bound to its surface.',
-        b: 'Correct. The eccentric nucleus with dark heterochromatin alternating with lighter euchromatin is the clock-face or cart-wheel appearance, and it is the single feature that names a plasma cell down a microscope.',
+        b: 'The eccentric nucleus with dark heterochromatin alternating with lighter euchromatin is the clock-face or cart-wheel appearance, and it is the single feature that names a plasma cell down a microscope.',
         c: 'The plasma cell\'s cytoplasm is deeply basophilic, not acidophilic, because it is filled with rough endoplasmic reticulum. Deep acidophilia would mean smooth endoplasmic reticulum and a steroid-forming cell.',
         d: 'Rich in rough endoplasmic reticulum and Golgi, not in smooth endoplasmic reticulum and lysosomes. This option swaps the plasma cell\'s organelles for a phagocyte\'s, and it is the answer a student gives who knows the cell is busy without knowing what it makes.',
       },
@@ -4472,7 +4472,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Lamins are intermediate filaments of the nuclear envelope, present in the nucleus of every cell. A protein every cell has cannot name a tumour\'s tissue of origin.',
         b: 'Tubulin is the subunit of microtubules, not an intermediate filament at all, and again it is universal. The option is here to catch a student answering on "filament protein" rather than on which class.',
-        c: 'Correct. Cytokeratin is the intermediate filament of epithelium, so a tumour full of it is a carcinoma — of epithelial origin.',
+        c: 'Cytokeratin is the intermediate filament of epithelium, so a tumour full of it is a carcinoma — of epithelial origin.',
         d: 'Desmin is the intermediate filament of muscle. A desmin-rich tumour is a muscle tumour, which is the whole point of the technique: each of these four proteins names a different tissue.',
       },
     },

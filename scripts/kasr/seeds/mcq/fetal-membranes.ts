@@ -113,11 +113,11 @@ export const LEAF: McqLeafSeed = {
       key: 'placental-functions-and-hormones',
       label: 'The placenta exchanges, excretes, passes maternal antibodies and secretes four hormones — and it stops bacteria and most but not all viruses',
       definition:
-        'The placenta exchanges metabolic products and the respiratory gases between mother and fetus, excretes fetal urea and creatinine, transmits maternal antibodies to the fetal blood so that the newborn has passive immunity, protects the fetus, and acts as an endocrine gland. Its hormones are progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum and is the hormone a pregnancy test detects; and somatomammotropin, which gives the fetus priority on maternal blood glucose and promotes breast development. The barrier keeps bacteria and most viruses out, but only most: the department book records named exceptions, so no statement that the placenta stops all viruses is true.',
+        'The placenta exchanges metabolic products and the respiratory gases between mother and fetus, excretes fetal urea and creatinine, transmits maternal antibodies to the fetal blood so that the newborn has passive immunity, protects the fetus, and acts as an endocrine gland. Its hormones are progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum and is the hormone a pregnancy test detects; and somatomammotropin, which gives the fetus priority on maternal blood glucose and promotes breast development. The barrier keeps bacteria and most viruses out, but only most: named exceptions are recorded, so no statement that the placenta stops all viruses is true.',
       objective:
         'List the functions of the placenta, name its four hormones and what each does, and state the limits of its protective role.',
       pitfall:
-        'Reading the protective function as absolute. The word the book uses is "most" — some viruses cross, which is why rubella and similar infections in pregnancy matter, and a question offering "prevents the passage of all viruses" is offering an overstatement rather than a fact.',
+        'Reading the protective function as absolute. The correct word is "most" — some viruses cross, which is why rubella and similar infections in pregnancy matter, and a question offering "prevents the passage of all viruses" is offering an overstatement rather than a fact.',
       subject: 'dev',
       primary: 'DIS-EMB-T02',
       secondary: [],
@@ -237,11 +237,11 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'placenta-anomalies',
-      label: 'The placenta goes wrong in six ways, and the department groups them by what is abnormal',
+      label: 'The placenta goes wrong in six ways, grouped by what is abnormal',
       definition:
         'The congenital anomalies of the placenta are grouped by what is abnormal about it: position, as in placenta previa; shape, bilobed or trilobed; number, twin or accessory placenta; attachment of the umbilical cord, velamentous where the cord is attached through the amniotic membrane and battledore where it is attached to the margin; diameter, as in placenta membranacea, which is thinner and wider; and infiltration, as accreta, increta and percreta.',
-      objective: 'Enumerate the congenital anomalies of the placenta under the six headings the department book uses.',
-      pitfall: 'Listing names without the grouping. The book groups them by position, shape, number, cord attachment, diameter and infiltration, and the grouping is what makes six unrelated names recallable.',
+      objective: 'Enumerate the congenital anomalies of the placenta under its six headings.',
+      pitfall: 'Listing names without the grouping. They are grouped by position, shape, number, cord attachment, diameter and infiltration, and the grouping is what makes six unrelated names recallable.',
       subject: 'dev',
       primary: 'DIS-EMB-T02',
       secondary: [],
@@ -255,7 +255,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'The congenital anomalies of the umbilical cord are: a short cord, which limits fetal movement and can separate the placenta prematurely during delivery; a long cord, which may encircle the fetal neck or form a true knot; congenital umbilical hernia (omphalocele), where the proximal cord contains intestinal loops because the intestine failed to return to the abdominal cavity; presence of only one umbilical artery from degeneration of the other; and abnormal attachment to the placenta — battledore, at the margin, or velamentous, through the amniotic membrane.',
       objective: 'Enumerate the congenital anomalies of the umbilical cord and give the consequence of each.',
-      pitfall: 'Calling a false knot an anomaly. A false knot is a wider curve of an umbilical artery and the book says it causes no fetal stress; it is the true knot, in a long cord, that matters.',
+      pitfall: 'Calling a false knot an anomaly. A false knot is a wider curve of an umbilical artery and it causes no fetal stress; it is the true knot, in a long cord, that matters.',
       subject: 'dev',
       primary: 'DIS-EMB-T02',
       secondary: [],
@@ -269,7 +269,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'Amniotic fluid is a clear watery fluid of water, electrolytes, protein, carbohydrate, lipid, phospholipid and urea, produced first by the amnioblast cells, then derived from maternal blood by osmosis, with fetal urine added from the fifth month. In early pregnancy it is a shock absorber protecting the fetus from external trauma, a thermal insulator keeping the fetal temperature constant, and the thing that prevents adhesion of the fetus to the uterine wall and of fetal parts to each other. In late pregnancy it provides space for the fetal movements that develop the fetal muscles, space for fetal urine, and a medium the fetus swallows to learn to suckle. During delivery it protects the fetus against uterine contractions, its fore bag helps the cervical canal dilate gradually, its rupture signals the start of labour, and being sterile it washes the vagina just before the fetus passes.',
       objective: 'Enumerate the functions of amniotic fluid in early pregnancy, in late pregnancy and during delivery.',
-      pitfall: 'Giving cushioning alone. The book groups the functions by stage, and the delivery group — gradual cervical dilatation, the sign of labour, washing the birth canal — is a third of the answer.',
+      pitfall: 'Giving cushioning alone. The functions are grouped by stage, and the delivery group — gradual cervical dilatation, the sign of labour, washing the birth canal — is a third of the answer.',
       subject: 'dev',
       primary: 'DIS-EMB-T02',
       secondary: [],
@@ -308,9 +308,9 @@ export const LEAF: McqLeafSeed = {
       key: 'second-week-day-by-day-timetable',
       label: 'The second week runs to a timetable: day 7 implantation and two trophoblasts, day 8 the amniotic cavity, day 9 the primary yolk sac and lacunae, day 11–12 extra-embryonic mesoderm, day 13 the chorionic cavity',
       definition:
-        'The department book gives the second week day by day. On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole. On the eighth day the blastocyst is partly embedded, the hypoblast forms, and the amniotic cavity appears within the rest of the inner cell mass, separating amnioblast from epiblast and completing the bilaminar disc. On the ninth and tenth the blastocyst is completely embedded, the breach is plugged by a fibrin clot, Heuser\'s membrane forms from the hypoblast and turns the blastocele into the primary yolk sac, and lacunar spaces appear in the syncytiotrophoblast. On the eleventh and twelfth the endometrial epithelium covers the clot and completes implantation, the lacunae fill with maternal blood as the utero-placental circulation, and extra-embryonic mesoderm appears from the yolk sac wall. On the thirteenth the spaces in that mesoderm run together into one chorionic cavity, the mesoderm divides into somatic and splanchnic, the secondary yolk sac replaces the primary, the allantois buds from it into the connecting stalk, and the primary chorionic villi begin.',
+        'The second week runs day by day. On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole. On the eighth day the blastocyst is partly embedded, the hypoblast forms, and the amniotic cavity appears within the rest of the inner cell mass, separating amnioblast from epiblast and completing the bilaminar disc. On the ninth and tenth the blastocyst is completely embedded, the breach is plugged by a fibrin clot, Heuser\'s membrane forms from the hypoblast and turns the blastocele into the primary yolk sac, and lacunar spaces appear in the syncytiotrophoblast. On the eleventh and twelfth the endometrial epithelium covers the clot and completes implantation, the lacunae fill with maternal blood as the utero-placental circulation, and extra-embryonic mesoderm appears from the yolk sac wall. On the thirteenth the spaces in that mesoderm run together into one chorionic cavity, the mesoderm divides into somatic and splanchnic, the secondary yolk sac replaces the primary, the allantois buds from it into the connecting stalk, and the primary chorionic villi begin.',
       objective:
-        'Place each event of the second week on the day the book gives it, and say what the week does not yet produce.',
+        'Place each event of the second week on the day it occurs, and say what the week does not yet produce.',
       pitfall:
         'Letting a third-week event into the second. The disc is bilaminar at the end of this week and does not become trilaminar until gastrulation, and the somites do not begin until the twentieth day — both are offered as second-week events in these books, and both are a week early.',
       subject: 'dev',
@@ -346,7 +346,7 @@ export const LEAF: McqLeafSeed = {
         'This printing carries no key, and the "(DEP BOOK)" printing of the same question is keyed to the decidua basalis, which is the *decidual* plate. The department book states that the placenta is formed by union of a maternal part, the decidual plate or decidua basalis, and a fetal part, the chorionic plate or chorion frondosum. Set to B, which is also what the third printing of this question is keyed to.',
       explanations: {
         A: 'Chorion laeve is the smooth part of the chorion, whose villi degenerate; it forms no part of the placenta and is covered by the decidua capsularis.',
-        B: 'Correct. The chorionic plate is chorion frondosum, the part carrying well-developed tertiary villi, and it is the fetal part of the placenta.',
+        B: 'The chorionic plate is chorion frondosum, the part carrying well-developed tertiary villi, and it is the fetal part of the placenta.',
         C: 'Decidua basalis is the *decidual* plate — the maternal half. The two plates face each other across the intervillous spaces, and one printing of this question is keyed to this option in error.',
         D: 'Decidua capsularis covers the conceptus on the side away from the placenta and is stretched away as the sac grows. It contributes to no plate.',
       },
@@ -358,7 +358,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Say where the placental septa come from and what they do not contain.',
       explanations: {
         A: 'Chorion frondosum is the fetal plate. The septa grow from the opposite side, and their core is maternal decidua.',
-        B: 'Correct. Placental (decidual) septa are incomplete extensions from the decidual plate into the intervillous spaces.',
+        B: 'Placental (decidual) septa are incomplete extensions from the decidual plate into the intervillous spaces.',
         C: 'They are incomplete and do not reach the chorionic plate — if they did, the intervillous spaces would be sealed off from one another instead of intercommunicating.',
         D: 'The maternal vessels are in the decidua basalis of the plate itself, not in the septa. A septum with vessels in it would bleed into the intervillous space at every groove.',
       },
@@ -374,8 +374,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The fetal and maternal surfaces are the two faces of the whole organ, centimetres apart. A barrier is a membrane of a few micrometres.',
         B: 'The chorionic and decidual plates are again the two sides of the organ. Between them lie the intervillous spaces, which is where the barrier actually works — at the villus wall, not at the plates.',
-        C: 'The cytotrophoblastic shell lies against the decidual plate and anchors the villi. It borders the intervillous spaces but separates no two circulations, and it is the option the books key this question to.',
-        D: 'Correct. The barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi.',
+        C: 'The cytotrophoblastic shell lies against the decidual plate and anchors the villi. It borders the intervillous spaces but separates no two circulations, and it is the keyed option.',
+        D: 'The barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi.',
       },
     },
     {
@@ -387,10 +387,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The books key this to D, that the placenta prevents the passage of all viruses. The department book says it prevents bacteria and *most* viruses, with named exceptions, so D is an overstatement. A is the book\'s own statement: transmission of maternal antibodies to fetal blood, giving the fetus immunity. Set to A.',
       explanations: {
-        A: 'Correct. Maternal antibodies cross the placenta, which is why a newborn has passive immunity for its first months.',
+        A: 'Maternal antibodies cross the placenta, which is why a newborn has passive immunity for its first months.',
         B: 'Gas exchange is one of the placenta\'s principal functions — it is the fetal lung. Preventing the passage of gases would be fatal within minutes.',
         C: 'The placenta does produce progesterone, which maintains the endometrium of pregnancy, along with oestrogen, HCG and somatomammotropin.',
-        D: 'The word is "most", not "all". Some viruses cross, which is the whole clinical point of rubella in pregnancy — and this is the option the books key the question to.',
+        D: 'The word is "most", not "all". Some viruses cross, which is the whole clinical point of rubella in pregnancy — and this is the keyed option.',
       },
     },
     {
@@ -403,9 +403,9 @@ export const LEAF: McqLeafSeed = {
         'The books key this to placenta accreta, which is one of the department book\'s own six groups — the infiltration group, with increta and percreta. The one option that is not a placental anomaly at all is polyhydramnios, an excess of amniotic fluid. Set to D.',
       explanations: {
         A: 'An anomaly, so not the answer. Velamentous placenta is the cord-attachment group: the cord attached through the amniotic membrane.',
-        B: 'An anomaly, so not the answer, and the option the books key this question to. Placenta accreta is the infiltration group, in which the villi invade the myometrium.',
+        B: 'An anomaly, so not the answer, and the keyed option. Placenta accreta is the infiltration group, in which the villi invade the myometrium.',
         C: 'An anomaly, so not the answer. A bipartite placenta is the shape group, with the bilobed and trilobed forms.',
-        D: 'Correct — not a placental anomaly. Polyhydramnios is an excess of amniotic fluid at full term, from maternal diabetes, oesophageal atresia or a central nervous system malformation. The placenta may be entirely normal.',
+        D: 'Not a placental anomaly. Polyhydramnios is an excess of amniotic fluid at full term, from maternal diabetes, oesophageal atresia or a central nervous system malformation. The placenta may be entirely normal.',
       },
     },
     {
@@ -417,7 +417,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'This printing carries no key. The department book groups placenta membranacea under anomalies of diameter, describing it as thinner and wider, which is the stem word for word; the third printing of this question is keyed to the same option.',
       explanations: {
-        A: 'Correct. Placenta membranacea is the diameter anomaly — a placenta spread thin and wide over the membranes.',
+        A: 'Placenta membranacea is the diameter anomaly — a placenta spread thin and wide over the membranes.',
         B: 'Placenta increta is an infiltration anomaly: villi growing into the myometrium. Thickness of invasion, not of the disc.',
         C: 'Velamentous placenta is a cord-attachment anomaly, the cord inserting through the amniotic membrane.',
         D: 'An accessory placenta is a number anomaly — a second, smaller lobe beside the main one, each of normal thickness.',
@@ -429,7 +429,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Name the marginal cord attachment and separate it from the membranous one.',
       explanations: {
-        A: 'Correct. Battledore placenta is the cord attached at the margin of the disc — named for the bat of the old game, a handle at the edge of a paddle.',
+        A: 'Battledore placenta is the cord attached at the margin of the disc — named for the bat of the old game, a handle at the edge of a paddle.',
         B: 'Velamentous placenta is the other cord-attachment anomaly, and the one it is confused with: there the cord inserts into the membranes and the vessels run through them, which is dangerous because they are unprotected. One printing of this question is keyed to it.',
         C: 'Placenta previa is a position anomaly — implantation in the lower uterine segment. Nothing to do with the cord.',
         D: 'Placenta accreta is an infiltration anomaly, the villi invading the myometrium. Also nothing to do with the cord.',
@@ -444,9 +444,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'Neither printing of this question carries a key. The department book gives the long cord two consequences — encircling the fetal neck, and a true knot — and gives premature separation of the placenta to the *short* cord. Encircling the neck is strangulation during delivery, option C.',
       explanations: {
-        A: 'A false knot is a wider curve of an umbilical artery, and the book states that it causes the fetus no stress. It is a feature of the cord\'s tortuosity, not of its length, and it is the option students pick because "knot" appears in the long-cord description — the knot that matters there is a true one.',
+        A: 'A false knot is a wider curve of an umbilical artery, and it causes the fetus no stress. It is a feature of the cord\'s tortuosity, not of its length, and it is the option students pick because "knot" appears in the long-cord description — the knot that matters there is a true one.',
         B: 'Early separation of the placenta belongs to the short cord, which is pulled taut as the fetus descends. This is the paired question with the answers exchanged.',
-        C: 'Correct. A long cord may encircle the fetal neck and strangle the baby during delivery.',
+        C: 'A long cord may encircle the fetal neck and strangle the baby during delivery.',
         D: 'Adhesion of the fetus to the uterine wall is prevented by amniotic fluid, and its failure is a fluid problem — oligohydramnios — not a cord problem.',
       },
     },
@@ -458,7 +458,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'An intestinal loop in the abdominal cavity is where it belongs and is not a hernia at all — that is the state before the herniation and again after the loop returns.',
         B: 'The primitive umbilical ring is the defect in the ventral abdominal wall that the loops pass through. It is the doorway, not the room, and it forms in the fourth week before the intestine grows out.',
-        C: 'Correct. The herniated intestinal loops lie in the primitive umbilical cord, along with the secondary yolk sac, the vitelline duct and the connecting stalk.',
+        C: 'The herniated intestinal loops lie in the primitive umbilical cord, along with the secondary yolk sac, the vitelline duct and the connecting stalk.',
         D: 'The definitive cord is what remains after the intestine has gone back into the abdomen and the yolk sac, vitelline duct and allantois have degenerated. An intestinal loop there is an omphalocele — a real anomaly, and one printing of this question is keyed to it.',
       },
     },
@@ -470,7 +470,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The amniochorionic membrane forms later, when the expanding amniotic cavity presses the amnion against the chorion. The ring is surrounded by the ventral body wall.',
         B: 'The definitive yolk sac lies in the primitive umbilical *cord*, once the amnion has sheathed the structures passing through the ring — one step further on. It is the strongest distractor here, and one printing of this question is keyed to it.',
-        C: 'Correct. The vitelline duct with its vessels passes through the ring, along with the allantois and the umbilical vessels inside the connecting stalk.',
+        C: 'The vitelline duct with its vessels passes through the ring, along with the allantois and the umbilical vessels inside the connecting stalk.',
         D: 'The intestinal loops herniate later still, into the primitive cord. In the fourth week, when the ring forms, the midgut is still inside the abdomen.',
       },
     },
@@ -481,7 +481,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the duct that joins yolk sac to midgut.',
       explanations: {
         A: 'The connecting stalk joins the caudal end of the disc to the chorion and carries the allantois and the umbilical vessels. It reaches the placenta, not the gut.',
-        B: 'Correct. Folding compresses the secondary yolk sac into the vitelline, or vitello-intestinal, duct, which connects it to the midgut.',
+        B: 'Folding compresses the secondary yolk sac into the vitelline, or vitello-intestinal, duct, which connects it to the midgut.',
         C: 'The allantois is a diverticulum from the caudal wall of the yolk sac into the connecting stalk, and its proximal part becomes the apex of the bladder. It runs the other way. One printing of this question is keyed to it.',
         D: 'The hindgut is a division of the gut itself, formed in the tail fold. A duct cannot connect the yolk sac to the midgut by way of a different part of the gut.',
       },
@@ -492,7 +492,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Give the origin of the allantois.',
       explanations: {
-        A: 'Correct. The allantois is a diverticulum from the caudal wall of the secondary yolk sac, extending into the connecting stalk.',
+        A: 'The allantois is a diverticulum from the caudal wall of the secondary yolk sac, extending into the connecting stalk.',
         B: 'The amniotic cavity is on the other side of the embryonic disc and gives off no diverticulum at all.',
         C: 'The chorionic cavity is the extra-embryonic coelom, a space rather than a lined sac that could bud.',
         D: 'The primary yolk sac has already been replaced by the secondary one by the time the allantois appears, on the thirteenth day. One stage too early.',
@@ -508,7 +508,7 @@ export const LEAF: McqLeafSeed = {
         'Two of the four printings of this question carry no key and the third has its stem damaged; that third is keyed to B. The department book states that the primary yolk sac forms when flat hypoblast-derived cells form Heuser\'s membrane lining the blastocele, so B is right.',
       explanations: {
         A: 'Definitive is another word for secondary, and the secondary sac is lined by a second wave of hypoblast cells laid down over Heuser\'s membrane. Offered first in every printing, and one stage too late.',
-        B: 'Correct. Heuser\'s membrane lines the blastocele on the ninth day and so converts it into the primary yolk sac.',
+        B: 'Heuser\'s membrane lines the blastocele on the ninth day and so converts it into the primary yolk sac.',
         C: 'The secondary yolk sac is the same structure as the definitive one under its other name — which is why the two appear as separate options and neither can be right.',
         D: 'The vitelline duct is what is left of the sac after folding compresses it. It is a remnant, formed weeks later, and is not lined by Heuser\'s membrane.',
       },
@@ -522,10 +522,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The books print no key. The department book lists among the functions of the yolk sac that the proximal part of the allantois forms the apex of the urinary bladder, so the allantois is the structure the question wants.',
       explanations: {
-        A: 'Correct. The proximal part of the allantois forms the apex of the urinary bladder; what remains of it in the adult is the urachus, or median umbilical ligament.',
+        A: 'The proximal part of the allantois forms the apex of the urinary bladder; what remains of it in the adult is the urachus, or median umbilical ligament.',
         B: 'The yolk sac is the allantois\'s parent and shares in forming the gut, but the bladder comes specifically from the diverticulum it sends into the connecting stalk. The question is asking for the more precise structure.',
         C: 'Amniotic fluid accumulates fetal urine once the bladder works. It is downstream of the organ, not its origin.',
-        D: 'The primitive gut gives the hindgut and cloaca, which the bladder is partitioned from — but the apex itself is allantoic, and that is the fact the book states.',
+        D: 'The primitive gut gives the hindgut and cloaca, which the bladder is partitioned from — but the apex itself is allantoic.',
       },
     },
     {
@@ -536,7 +536,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The secondary yolk sac is formed by hypoblast cells re-lining the primary sac and by pinching off, on the thirteenth day. The amnion is not involved.',
         B: 'The connecting stalk is the surviving bridge of extra-embryonic mesoderm across the chorionic cavity. Expansion of the amnion narrows that cavity rather than creating the stalk.',
-        C: 'Correct. Expansion brings the amnion into contact with the chorion, and the two together are the amniochorionic membrane — the membrane that ruptures at the start of labour.',
+        C: 'Expansion brings the amnion into contact with the chorion, and the two together are the amniochorionic membrane — the membrane that ruptures at the start of labour.',
         D: 'The neural tube forms from ectoderm induced by the notochord, inside the embryo. Expansion of the surrounding cavity has nothing to do with it.',
       },
     },
@@ -550,7 +550,7 @@ export const LEAF: McqLeafSeed = {
         'The books print no key. The department book states that decidua basalis, the decidual plate, persists to form the maternal part of the placenta; the fusing, the covering and the final degeneration belong to capsularis and parietalis. Set to B.',
       explanations: {
         A: 'Fusing and obliterating the uterine cavity is what capsularis and parietalis do to each other at about the fourth month. Basalis is on the other side of the conceptus altogether.',
-        B: 'Correct. Decidua basalis lies between the conceptus and the myometrium and becomes the maternal part of the placenta.',
+        B: 'Decidua basalis lies between the conceptus and the myometrium and becomes the maternal part of the placenta.',
         C: 'Covering the embryo and separating it from the uterine cavity is decidua capsularis — the classic swap, since basalis is beneath and capsularis above.',
         D: 'Degenerating at last is the fate of capsularis and parietalis. Basalis is the one part of the decidua that persists as an organ.',
       },
@@ -564,7 +564,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Lying between the implanted embryo and the myometrium is decidua basalis, which becomes the placenta. Parietalis is the lining of the rest of the cavity.',
         B: 'Covering the embryo is decidua capsularis. Parietalis is what capsularis eventually fuses with, not the covering itself.',
         C: 'Persisting as the maternal part of the placenta is again basalis. This question and the decidua basalis question are printed with the same four statements and differ only in which part is named.',
-        D: 'Correct. Decidua parietalis fuses with the capsularis, obliterating the uterine cavity, and is shed at delivery — it degenerates at last.',
+        D: 'Decidua parietalis fuses with the capsularis, obliterating the uterine cavity, and is shed at delivery — it degenerates at last.',
       },
     },
     {
@@ -574,7 +574,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the two cavities the neurenteric canal joins.',
       explanations: {
         A: 'The chorionic cavity is outside the embryonic disc entirely; the neurenteric canal is a passage through the disc, which is why it joins the two cavities on either side of it.',
-        B: 'Correct. Degeneration of the floor of the notochordal canal and the endoderm fused to it opens a temporary communication between the amniotic cavity above and the yolk sac below.',
+        B: 'Degeneration of the floor of the notochordal canal and the endoderm fused to it opens a temporary communication between the amniotic cavity above and the yolk sac below.',
         C: 'The uterine cavity is maternal and separated from everything embryonic by the decidua. No canal within the embryo could reach it.',
         D: 'The yolk sac is one of the two correct cavities and the chorionic cavity is not the other. Half right, which makes it the best of the three wrong answers.',
       },
@@ -585,7 +585,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard', questionType: 'Developmental timing',
       learningObjective: 'Assign four second-week events to their days and pick the eighth.',
       explanations: {
-        A: 'Correct. The hypoblast forms on the eighth day, when the embryoblast cells facing the blastocele become cuboidal — the same day the amniotic cavity opens.',
+        A: 'The hypoblast forms on the eighth day, when the embryoblast cells facing the blastocele become cuboidal — the same day the amniotic cavity opens.',
         B: 'The primary yolk sac forms on the ninth day, when Heuser\'s membrane lines the blastocele. One day late, and it is the answer to the companion question on the same page.',
         C: 'The extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it needs the yolk sac of option B to exist first.',
         D: 'The primary chorionic villi begin after the thirteenth day, at the very end of the second week.',
@@ -603,7 +603,7 @@ export const LEAF: McqLeafSeed = {
         A: 'On the tenth day the blastocyst has only just been completely embedded; there is no extra-embryonic mesoderm yet and so no cavity to enclose.',
         B: 'The eleventh and twelfth days bring the extra-embryonic mesoderm and the first scattered spaces in it. Closer, but the spaces are still separate.',
         C: 'The eighth day is the amniotic cavity and the bilaminar disc — five days too early, and the earliest option offered.',
-        D: 'Correct. On the thirteenth day the spaces fuse into a single chorionic cavity and the wall around it — somatic mesoderm, cytotrophoblast, syncytiotrophoblast — is the chorion.',
+        D: 'On the thirteenth day the spaces fuse into a single chorionic cavity and the wall around it — somatic mesoderm, cytotrophoblast, syncytiotrophoblast — is the chorion.',
       },
     },
     {
@@ -616,7 +616,7 @@ export const LEAF: McqLeafSeed = {
         'This printing carries no key; the other printing of the same question, which lost an option, is keyed to B. Monozygotic twins come from one fertilised ovum and therefore share one genotype, so they must be of the same sex — the only true statement of the four.',
       explanations: {
         A: 'Dizygotic twinning is the commoner kind by a wide margin. Identical twins are the more memorable, which is why this option is offered first.',
-        B: 'Correct. One zygote means one set of chromosomes, so the two are necessarily of the same sex.',
+        B: 'One zygote means one set of chromosomes, so the two are necessarily of the same sex.',
         C: 'Monozygotic twins are identical — that is what the word means. Non-identical describes the dizygotic pair.',
         D: 'Development from two ova is the definition of dizygotic twinning, and it is the direct contradiction of "monozygotic" in the stem.',
       },
@@ -630,7 +630,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The books print no key. Dizygotic twins arise from two ova fertilised by two sperms, so they are genetically ordinary siblings — non-identical, of either sex, and each with its own amnion and chorion. Only A is true.',
       explanations: {
-        A: 'Correct. Two zygotes means two genotypes, so the twins are no more alike than any brother and sister.',
+        A: 'Two zygotes means two genotypes, so the twins are no more alike than any brother and sister.',
         B: 'Always of the same sex is the monozygotic rule. Dizygotic twins may be a boy and a girl, which is in fact the only certain way to tell the two kinds apart at birth.',
         C: 'Each dizygotic twin implants separately and has its own amnion. A shared amnion happens only in a monozygotic pair that split late.',
         D: 'A common chorion likewise requires one conceptus. Two separate implantations give two chorions, and usually two placentae.',
@@ -655,7 +655,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the three sites of mucoid tissue and reject the one that only sounds like a fourth.',
       explanations: {
         A: 'The exception, and the answer. A mucous membrane is an epithelium with its underlying lamina propria — loose areolar tissue, not mucoid tissue. The two share a syllable and nothing else, which is exactly why the option works.',
-        B: 'True, so not the exception. The pulp of the teeth is one of the book\'s three sites.',
+        B: 'True, so not the exception. The pulp of the teeth is one of the three sites.',
         C: 'True, so not the exception. In the umbilical cord it is called Wharton\'s jelly.',
         D: 'True, so not the exception. The vitreous humour of the eye is the third site.',
       },
@@ -666,7 +666,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Classification',
       learningObjective: 'Place type I collagen in the dense tissues.',
       explanations: {
-        A: 'Correct. The capsule of an organ is dense irregular connective tissue, and its strength is type I collagen.',
+        A: 'The capsule of an organ is dense irregular connective tissue, and its strength is type I collagen.',
         B: 'Fetal connective tissue is mesenchyme, cellular and with very fine fibres. It has not yet laid down the dense bundles type I forms.',
         C: 'Vascular — mucoid — connective tissue holds only fine collagen and reticular fibres in a jelly matrix; its whole character is the absence of dense collagen.',
         D: 'The placenta\'s connective tissue is the loose mesodermal core of the villi and Wharton\'s jelly in the cord, neither of which is dense.',
@@ -679,7 +679,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify type III collagen as the reticular fibre.',
       explanations: {
         A: 'White fibrous connective tissue — tendon, ligament, aponeurosis — is type I. It is the option a student picks who has learnt "collagen means strong" without the numbering.',
-        B: 'Correct. Type III collagen is the reticular fibre, and reticular fibres form the supporting stroma of parenchymatous organs such as liver, spleen and lymph node.',
+        B: 'Type III collagen is the reticular fibre, and reticular fibres form the supporting stroma of parenchymatous organs such as liver, spleen and lymph node.',
         C: 'The basement membrane is type IV collagen, a network rather than a fibre.',
         D: 'Placental connective tissue is the loose core of the villus, and is not defined by a collagen type at all.',
       },
@@ -693,7 +693,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The capsule of an organ is dense irregular tissue of type I collagen. The reticular tissue is inside the capsule, holding the parenchyma.',
         B: 'Ligamentum nuchae is yellow elastic connective tissue — it has to stretch and recoil as the head nods.',
         C: 'The umbilical cord is mucoid connective tissue, Wharton\'s jelly.',
-        D: 'Correct. Reticular tissue forms the stroma of the parenchymatous organs — liver, spleen, lymph node and bone marrow — where a fine branching network can support cells without stiffening the organ.',
+        D: 'Reticular tissue forms the stroma of the parenchymatous organs — liver, spleen, lymph node and bone marrow — where a fine branching network can support cells without stiffening the organ.',
       },
     },
     {
@@ -703,7 +703,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the site of yellow elastic connective tissue.',
       explanations: {
         A: 'The capsule of an organ resists stretch rather than performing it; it is dense collagen.',
-        B: 'Correct. Ligamentum nuchae is the type example of yellow elastic connective tissue, along with the ligamenta flava and the vocal ligaments.',
+        B: 'Ligamentum nuchae is the type example of yellow elastic connective tissue, along with the ligamenta flava and the vocal ligaments.',
         C: 'The umbilical cord is mucoid tissue. This question and the reticular-tissue question are printed with the same four options, so the four sites have to be held apart as a set.',
         D: 'The stroma of organs is reticular tissue, type III collagen.',
       },
@@ -1126,8 +1126,8 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'a',
       answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book rather than from a key. The book lists among the congenital anomalies of the cord "short cord limiting fetal movement and causing premature separation of placenta during delivery", which is option a in the paper\u2019s own words.',
       explanations: {
-        a: 'Correct. A cord too short to pay out as the fetus descends is put under traction during delivery, and the pull is transmitted to the placenta and strips it off the decidua basalis before the baby is delivered.',
-        b: 'The long cord is the dangerous one a student remembers, because the book calls neck encirclement and a true knot life-threatening \u2014 but both of those strangle the fetal circulation through the cord itself. A long cord has slack to spare and pulls on nothing.',
+        a: 'A cord too short to pay out as the fetus descends is put under traction during delivery, and the pull is transmitted to the placenta and strips it off the decidua basalis before the baby is delivered.',
+        b: 'The long cord is the dangerous one a student remembers, because neck encirclement and a true knot are life-threatening \u2014 but both of those strangle the fetal circulation through the cord itself. A long cord has slack to spare and pulls on nothing.',
         c: 'An accessory placenta is an anomaly of number, a separate lobe joined to the main disc by vessels. It matters because the extra lobe may be retained after delivery, which is the opposite problem: placenta left behind rather than placenta detached early.',
         d: 'Placenta accreta is abnormal infiltration of the placenta into the uterine wall, and it too is the opposite of this question \u2014 an accreta will not separate when it should, and is a cause of retained placenta and post-partum haemorrhage.',
       },
@@ -1150,10 +1150,10 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'b',
       answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives the definitive cord two umbilical arteries and one umbilical vein, a length of 50\u201360 cm, attachment near the centre of the fetal surface of the placenta, and a short cord as a cause of premature separation \u2014 so a, c and d are its own words and b is the one statement it contradicts.',
       explanations: {
-        a: 'True, and the book\u2019s figure exactly: 50\u201360 cm long and about 2 cm across. The length matters because it is what the two length anomalies are measured against.',
-        b: 'Correct \u2014 this is the incorrect statement, and the answer. The cord carries two arteries and one vein, not two veins and one artery. The count is inverted so often because the fetal circulation is inverted: the paired vessels are the arteries carrying deoxygenated blood away from the fetus, and the single vessel is the vein bringing oxygenated blood back. A student who reasons from the adult body, where veins outnumber arteries, gets it backwards.',
+        a: 'True, and the figure is exactly 50\u201360 cm long and about 2 cm across. The length matters because it is what the two length anomalies are measured against.',
+        b: 'This is the incorrect statement, and the answer. The cord carries two arteries and one vein, not two veins and one artery. The count is inverted so often because the fetal circulation is inverted: the paired vessels are the arteries carrying deoxygenated blood away from the fetus, and the single vessel is the vein bringing oxygenated blood back. A student who reasons from the adult body, where veins outnumber arteries, gets it backwards.',
         c: 'True. The cord is attached near the centre of the smooth, amnion-covered fetal surface; attachment at the margin is battledore placenta and attachment through the amniotic membrane is velamentous, and both are named as anomalies precisely because the normal site is the fetal surface.',
-        d: 'True, and it is the book\u2019s first named cord anomaly: a short cord limits fetal movement and is put under traction at delivery, stripping the placenta prematurely.',
+        d: 'True, and it is the first named cord anomaly: a short cord limits fetal movement and is put under traction at delivery, stripping the placenta prematurely.',
       },
     },
     {
@@ -1165,7 +1165,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book states the placenta is formed by union of a maternal part \u2014 the decidual plate, which is decidua basalis \u2014 and a fetal part, the chorionic plate, which is chorion frondosum. Option b names decidua capsularis, which the book gives no part in the placenta at all.',
       explanations: {
         a: 'True. The fetal part is the chorionic plate, and the chorionic plate is chorion frondosum \u2014 the pole of the chorion facing decidua basalis, where the villi are kept and grow.',
-        b: 'Correct \u2014 this is the incorrect statement, and the answer. The maternal part is decidua basalis. Decidua capsularis is the thin layer that covers the conceptus on the side facing the uterine cavity; it degenerates as the sac expands, which is what lets the amniochorionic membrane meet decidua parietalis. Students pick it because all three deciduae are learnt as one list and only one of them makes placenta.',
+        b: 'This is the incorrect statement, and the answer. The maternal part is decidua basalis. Decidua capsularis is the thin layer that covers the conceptus on the side facing the uterine cavity; it degenerates as the sac expands, which is what lets the amniochorionic membrane meet decidua parietalis. Students pick it because all three deciduae are learnt as one list and only one of them makes placenta.',
         c: 'True. The placental barrier separates maternal blood in the intervillous spaces from fetal blood in the tertiary villi, and it is the whole reason the two circulations never mix.',
         d: 'True. The placenta is an endocrine gland as well as an exchange organ, secreting progesterone, oestrogen, human chorionic gonadotropin and somatomammotropin.',
       },
@@ -1178,10 +1178,10 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'b',
       answerOverrideReason: 'The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book: the definitive cord holds two umbilical arteries and one umbilical vein. This is the previous year\u2019s question reset with the false option changed from "2 veins and one artery" to "2 veins and 2 arteries"; the other three options are word for word the same and are all true.',
       explanations: {
-        a: 'True, and the book\u2019s figure: the cord is 50\u201360 cm long and about 2 cm in diameter.',
-        b: 'Correct \u2014 this is the incorrect statement, and the answer. The count is two arteries and one vein, three vessels in all, not four. This year\u2019s version is harder than the previous year\u2019s "2 veins and one artery", because it gets the total wrong as well as the distribution, and a student who has learnt only "three vessels" can still catch it.',
+        a: 'True, and the cord is 50\u201360 cm long and about 2 cm in diameter.',
+        b: 'This is the incorrect statement, and the answer. The count is two arteries and one vein, three vessels in all, not four. This year\u2019s version is harder than the previous year\u2019s "2 veins and one artery", because it gets the total wrong as well as the distribution, and a student who has learnt only "three vessels" can still catch it.',
         c: 'True. The cord is attached near the centre of the fetal surface of the placenta \u2014 the smooth surface covered by amnion, over which the umbilical vessels run to reach the villi.',
-        d: 'True, and the book\u2019s own account of the short cord: it limits fetal movement and separates the placenta prematurely during delivery.',
+        d: 'True, and the short cord\u2019s known effect: it limits fetal movement and separates the placenta prematurely during delivery.',
       },
     },
     {

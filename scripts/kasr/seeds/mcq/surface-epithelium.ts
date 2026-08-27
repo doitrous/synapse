@@ -67,7 +67,7 @@ export const LEAF: McqLeafSeed = {
       type: 'classification',
       aliases: ['Covering epithelium', 'Classes of epithelium', 'General characters of epithelium'],
       gaps: [
-        'The question books extend neuro-epithelium to the organ of Corti. The department book names only the taste bud, so the organ of Corti is taught here because a keyed question uses it and not because this faculty\'s text supports it.',
+        'The question books extend neuro-epithelium to the organ of Corti. Only the taste bud is named in the course material, so the organ of Corti is taught here because a keyed question uses it and not because the course text supports it.',
       ],
     },
     {
@@ -122,7 +122,7 @@ export const LEAF: McqLeafSeed = {
       key: 'pseudostratified-columnar-epithelium-is-simple-and-has-three-forms',
       label: 'Pseudostratified columnar epithelium is simple — every cell reaches the basement membrane — and comes in three forms distinguished by what is on the apex',
       definition:
-        'Pseudostratified columnar epithelium looks stratified and is not. All its cells rest on the basement membrane, but some do not reach the surface, and crowding puts the nuclei at more than one level, giving a false appearance of layering; the book classifies it among the simple epithelia. It has three forms. Non-ciliated lines the vas deferens and the membranous urethra. Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland. Ciliated with non-motile cilia — stereocilia, which are long microvilli and not true cilia — lines the epididymis.',
+        'Pseudostratified columnar epithelium looks stratified and is not. All its cells rest on the basement membrane, but some do not reach the surface, and crowding puts the nuclei at more than one level, giving a false appearance of layering, and it is classified among the simple epithelia. It has three forms. Non-ciliated lines the vas deferens and the membranous urethra. Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland. Ciliated with non-motile cilia — stereocilia, which are long microvilli and not true cilia — lines the epididymis.',
       objective:
         'Explain why pseudostratified epithelium counts as simple, and name the site of each of its three forms.',
       pitfall:
@@ -224,7 +224,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Myo-epithelium is modified to contract, around the acini of the salivary, mammary and sweat glands. A taste bud contracts nothing.',
         B: 'Surface epithelium covers and lines. The bud is embedded in a surface epithelium, which is what makes this tempting, but it is not itself doing the covering.',
         C: 'Secretory — glandular — epithelium makes a product. The serous glands of the tongue empty into the trough around the bud, and they are the secretory part; the bud is not.',
-        D: 'Correct. Neuro-epithelium is epithelium whose cells are modified to act as receptors, and the taste bud is the book\'s example of it.',
+        D: 'Neuro-epithelium is epithelium whose cells are modified to act as receptors, and the taste bud is the standard example of it.',
       },
     },
     {
@@ -236,7 +236,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, but not the whole answer. The simple columnar cells of the stomach secrete.',
         B: 'True, but not the whole answer. The simple columnar cells of the intestine absorb, which is what their microvilli are for.',
-        C: 'Correct. The same epithelium does both along the digestive tract, and a question offering the two separately is testing whether the student stops at the first true option.',
+        C: 'The same epithelium does both along the digestive tract, and a question offering the two separately is testing whether the student stops at the first true option.',
         D: 'Protection is the function of stratified epithelium. One layer of tall cells protects nothing.',
       },
     },
@@ -250,7 +250,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Modified to contract is myo-epithelium. Each of the four classes has one modification and they cannot be swapped.',
         B: 'Keratinisation belongs to stratified squamous surface epithelium of the skin. A receptor cell has no use for a dead protective layer over it.',
         C: 'Covering skin and forming glands describes surface and glandular epithelium — two of the other three classes in one option.',
-        D: 'Correct as keyed. The organ of Corti is a sensory receptor, so its epithelium is neuro-epithelium. Note that the department book names only the taste bud; the organ of Corti comes from the question books.',
+        D: 'The organ of Corti is a sensory receptor, so its epithelium is neuro-epithelium. Only the taste bud is named in the course material; the organ of Corti comes from the question books.',
       },
     },
     {
@@ -261,7 +261,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recall the sites and the avascularity of simple squamous epithelium.',
       explanations: {
         A: 'The convoluted tubules are simple cubical. Their job is reabsorption, which needs cytoplasm; the thin cell is used where filtration happens, in Bowman\'s capsule.',
-        B: 'Correct. Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart.',
+        B: 'Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart.',
         C: 'Many layers would make it stratified. Simple means one layer, all of it on the basement membrane.',
         D: 'No epithelium is penetrated by blood vessels. Avascularity is a general character of the tissue, and it is why nutrition arrives by diffusion.',
       },
@@ -276,7 +276,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Keratinisation is confined to stratified squamous epithelium in the skin. A columnar surface cell is a living secretory or protective cell, not a dead keratinised plate.',
         B: 'Flat superficial cells would make it stratified squamous. The whole point of the separate name is that the surface cells are not flat.',
         C: 'The basal cells are not what any stratified epithelium is classified on, and describing them as flat is doubly wrong — basal cells are columnar or cuboidal.',
-        D: 'Correct. Stratified epithelium is named for the shape of its superficial cells, and in this one they are columnar.',
+        D: 'Stratified epithelium is named for the shape of its superficial cells, and in this one they are columnar.',
       },
     },
     {
@@ -286,7 +286,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name a site of simple squamous epithelium.',
       explanations: {
-        A: 'Correct. The lung alveolus needs a barrier thin enough for oxygen and carbon dioxide to cross, and its lining cells — the pneumocytes — are simple squamous.',
+        A: 'The lung alveolus needs a barrier thin enough for oxygen and carbon dioxide to cross, and its lining cells — the pneumocytes — are simple squamous.',
         B: 'The small intestine is simple columnar, because absorption needs tall cells with microvilli.',
         C: 'The trachea is pseudostratified columnar ciliated with goblet cells.',
         D: 'The gall bladder is simple columnar, absorbing water from the bile it stores.',
@@ -301,7 +301,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Cube-like cells are simple cubical, and their nuclei are rounded and central. The option pairs a cubical cell with a squamous nucleus, which does not occur.',
         B: 'A rounded nucleus does not fit inside a flat cell. The nucleus follows the shape of the cell it is in, which is the principle the question is testing.',
-        C: 'Correct. One layer of flat cells with flat nuclei.',
+        C: 'One layer of flat cells with flat nuclei.',
         D: 'Two layers would make it stratified, and no epithelium is called simple with two layers.',
       },
     },
@@ -312,7 +312,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Connect the desmosome to the epithelium that takes friction.',
       explanations: {
-        A: 'Correct. The intermediate polyhedral cells are joined by desmosomes, the strongest junction, which is exactly what an epithelium exposed to abrasion needs.',
+        A: 'The intermediate polyhedral cells are joined by desmosomes, the strongest junction, which is exactly what an epithelium exposed to abrasion needs.',
         B: 'It is keratinised only in the epidermis of the skin. Every other site on the list — oesophagus, oral cavity, cornea, vagina — is non-keratinised.',
         C: 'The trachea is pseudostratified columnar ciliated. Stratified squamous appears there only after metaplasia in a heavy smoker.',
         D: 'All cells resting on the basement membrane is the definition of a simple epithelium, and it is what pseudostratified epithelium exploits. A stratified epithelium has cells that never touch it.',
@@ -325,7 +325,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Define mesothelium by its epithelium and its site.',
       explanations: {
-        A: 'Correct. Mesothelium is simple squamous epithelium lining the serous cavities — pleura, pericardium and peritoneum — and it is smooth so the organs inside them can move against one another.',
+        A: 'Mesothelium is simple squamous epithelium lining the serous cavities — pleura, pericardium and peritoneum — and it is smooth so the organs inside them can move against one another.',
         B: 'The option describing a vessel lumen names endothelium, which is the same epithelium under the other regional name. Distinguishing the two is what the question exists for.',
         C: 'The kidney tubules are simple cubical, and neither name applies to them.',
         D: 'A hedge that cannot be right, since options B and C are wrong on their own terms.',
@@ -338,9 +338,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Recognise stratified cubical epithelium as the rare one.',
       explanations: {
-        A: 'Correct. The book calls stratified cubical epithelium rare, and gives it essentially one site — the ducts of the sweat glands, usually two layers.',
+        A: 'Stratified cubical epithelium is rare, and gives it essentially one site — the ducts of the sweat glands, usually two layers.',
         B: 'Simple columnar epithelium lines most of the gastrointestinal tract, which is as widely distributed as an epithelium gets.',
-        C: 'Transitional epithelium is confined to the urinary tract, so it is restricted — but to a whole system, and the book does not call it rare.',
+        C: 'Transitional epithelium is confined to the urinary tract, so it is restricted — but to a whole system, and it is not rare.',
         D: 'Simple squamous epithelium is everywhere: every blood vessel, every serous sac, every alveolus.',
       },
     },
@@ -378,7 +378,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium is one layer of flat cells and has no appearance of layering at all.',
         B: 'Simple cuboidal epithelium is a single row of cubes with nuclei at one level — again no illusion of layers.',
         C: 'Simple columnar epithelium has its nuclei at one level near the base. Crowd it and it becomes the pseudostratified form, which is what the stem describes.',
-        D: 'Correct. Pseudostratified columnar epithelium: nuclei at several levels because the cells are of different heights, but every cell on the basement membrane.',
+        D: 'Pseudostratified columnar epithelium: nuclei at several levels because the cells are of different heights, but every cell on the basement membrane.',
       },
     },
     {
@@ -399,7 +399,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Match the name urothelium to transitional epithelium.',
       explanations: {
-        A: 'Correct. Urothelium is the other name for transitional epithelium, and it lines the whole urinary tract.',
+        A: 'Urothelium is the other name for transitional epithelium, and it lines the whole urinary tract.',
         B: 'Stratified squamous epithelium appears in the bladder only after bilharzial metaplasia, and then it is a disease finding rather than the normal lining.',
         C: 'Stratified cubical epithelium lines sweat gland ducts.',
         D: 'Stratified columnar epithelium is found at the recto-anal junction, in large gland ducts and in the penile urethra — the penile urethra being the one part of the urinary tract that is not urothelium.',
@@ -425,7 +425,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Attribute the dome-shaped superficial cell to transitional epithelium.',
       explanations: {
-        A: 'Correct. The dome cell with its convex luminal surface and rigid plaques is the identifying feature of transitional epithelium.',
+        A: 'The dome cell with its convex luminal surface and rigid plaques is the identifying feature of transitional epithelium.',
         B: 'Stratified squamous epithelium has flat superficial cells — the opposite shape, and the name says so.',
         C: 'Stratified cubical epithelium has cube-shaped surface cells, flat-topped rather than domed.',
         D: 'Stratified columnar epithelium has tall surface cells with flat tops.',
@@ -439,7 +439,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the epithelium of the sweat gland duct.',
       explanations: {
         A: 'Simple squamous epithelium is for exchange and smooth movement, neither of which a duct through the dermis needs.',
-        B: 'Correct. The sweat gland duct is the book\'s single example of stratified cubical epithelium, usually two layers thick.',
+        B: 'The sweat gland duct is the standard example of stratified cubical epithelium, usually two layers thick.',
         C: 'Simple columnar epithelium lines the gut, not a sweat duct.',
         D: 'Simple cubical epithelium lines the secretory part of many glands, which makes this a near miss — but the duct is two layers, and two layers make it stratified.',
       },
@@ -475,7 +475,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Pair the name endothelium with the right epithelium and the right site.',
       explanations: {
-        A: 'Correct. Endothelium is simple squamous epithelium lining the blood vessels and the heart.',
+        A: 'Endothelium is simple squamous epithelium lining the blood vessels and the heart.',
         B: 'Right epithelium, wrong site — the serous membranes are lined by the same epithelium under the name mesothelium.',
         C: 'Wrong epithelium, right site. A cuboidal lining would make the vessel wall thicker than exchange allows.',
         D: 'Wrong on both counts, and it is chosen when the two names and the two cell shapes are being guessed at independently.',
@@ -491,7 +491,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous cells are already flat and cannot become anything else.',
         B: 'Simple cuboidal cells keep their shape; nothing distends a thyroid follicle or a kidney tubule enough to change them.',
         C: 'Pseudostratified columnar epithelium looks as if it changes level, but its cells do not change shape.',
-        D: 'Correct. Changing shape with the degree of filling is the defining property of transitional epithelium, and it is where the name comes from.',
+        D: 'Changing shape with the degree of filling is the defining property of transitional epithelium, and it is where the name comes from.',
       },
     },
     {
@@ -515,7 +515,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium is one layer thin enough for exchange. A bolus passing over it would strip it off.',
         B: 'Stratified cuboidal epithelium is the sweat gland duct, two layers, and offers nothing against abrasion.',
         C: 'The trap. The oesophagus is stratified squamous, but non-keratinised: keratin belongs to the dry surface of the skin, and the oesophagus is moist.',
-        D: 'Correct. Stratified squamous — non-keratinised, though this option does not say so — because a passing bolus abrades the surface and protection is what many layers of cells joined by desmosomes provide.',
+        D: 'Stratified squamous — non-keratinised, though this option does not say so — because a passing bolus abrades the surface and protection is what many layers of cells joined by desmosomes provide.',
       },
     },
     {
@@ -525,7 +525,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Match the motile-ciliated form of pseudostratified epithelium to its site.',
       explanations: {
-        A: 'Correct. The upper respiratory passages — nose, trachea and bronchi — are lined by pseudostratified columnar ciliated epithelium with goblet cells, and the cilia sweep mucus upwards.',
+        A: 'The upper respiratory passages — nose, trachea and bronchi — are lined by pseudostratified columnar ciliated epithelium with goblet cells, and the cilia sweep mucus upwards.',
         B: 'The lower respiratory tract narrows to bronchioles lined by simple columnar ciliated epithelium, and finally alveoli lined by simple squamous. Pseudostratification is lost as the airway gets smaller.',
         C: 'The vas deferens carries the non-ciliated form of the same epithelium.',
         D: 'The epididymis carries the form with stereocilia, which are long microvilli rather than true cilia and do not move.',
@@ -541,7 +541,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The upper respiratory tract has motile cilia; sweeping mucus is exactly what it is for.',
         B: 'The lower respiratory tract is not pseudostratified at all.',
         C: 'The vas deferens has the non-ciliated form — no processes of either kind.',
-        D: 'Correct. The epididymis carries stereocilia, which the book classes under "ciliated with non-motile cilia" while stating plainly that they are long microvilli and not true cilia.',
+        D: 'The epididymis carries stereocilia, classed under "ciliated with non-motile cilia" while stating plainly that they are long microvilli and not true cilia.',
       },
     },
     {
@@ -553,7 +553,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The upper respiratory tract is the ciliated form with goblet cells.',
         B: 'The lower respiratory tract is simple columnar ciliated and then simple squamous.',
-        C: 'Correct. The vas deferens, with the membranous urethra, carries pseudostratified columnar epithelium with no apical specialisation at all.',
+        C: 'The vas deferens, with the membranous urethra, carries pseudostratified columnar epithelium with no apical specialisation at all.',
         D: 'The epididymis carries stereocilia, which is the third form; the epididymis and the vas deferens are neighbours in the same duct system and are the pair this question exists to separate.',
       },
     },
@@ -567,7 +567,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The stomach lining secretes.',
         B: 'Protection is stratified epithelium. A single layer of cells protects nothing.',
         C: 'True, but not the whole answer. The intestinal lining absorbs, through its microvillous brush border.',
-        D: 'Correct. Secretion in the stomach and absorption in the intestine are both simple columnar epithelium doing what a tall cell with plenty of cytoplasm can do.',
+        D: 'Secretion in the stomach and absorption in the intestine are both simple columnar epithelium doing what a tall cell with plenty of cytoplasm can do.',
       },
     },
     {
@@ -579,7 +579,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Absorption needs a thin single layer with a large surface, which is the opposite of many layers of flattened cells.',
         B: 'Reabsorption is simple cubical epithelium in the kidney tubule.',
-        C: 'Correct. Protection — against abrasion in the oesophagus and mouth, against abrasion and drying in the skin. Layers of cells bound by desmosomes are what protection looks like histologically.',
+        C: 'Protection — against abrasion in the oesophagus and mouth, against abrasion and drying in the skin. Layers of cells bound by desmosomes are what protection looks like histologically.',
         D: 'Gas exchange needs the thinnest barrier possible, which is simple squamous epithelium. Adding layers is exactly what would prevent it.',
       },
     },
@@ -602,7 +602,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State precisely what a pseudostratified epithelium has that a stratified one does not.',
       explanations: {
         A: 'The reverse of the truth, and the reason the epithelium looks stratified in the first place: its nuclei sit at several levels because its cells are of several heights.',
-        B: 'Correct as keyed, though it needs care. Every cell of a pseudostratified epithelium reaches the basement membrane, which is the property that makes it simple; not every cell reaches the apex, which is what creates the illusion. The keyed wording states the reaching, and the reaching is what separates it from a truly stratified epithelium, whose upper cells reach neither.',
+        B: 'This needs care. Every cell of a pseudostratified epithelium reaches the basement membrane, which is the property that makes it simple; not every cell reaches the apex, which is what creates the illusion. The keyed wording states the reaching, and the reaching is what separates it from a truly stratified epithelium, whose upper cells reach neither.',
         C: 'Multiple cell layers is what a truly stratified epithelium has and a pseudostratified one only appears to have.',
         D: 'This option is cut short and is in any case a restatement of B rather than a competing answer.',
       },
@@ -616,8 +616,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Stratified columnar epithelium is a rare epithelium of gland ducts and the recto-anal junction. Metaplasia goes towards the tough general-purpose epithelium, not towards a rarity.',
         B: 'Stratified cubical epithelium is two layers in a sweat duct and gives little protection.',
-        C: 'Correct. Squamous metaplasia produces stratified squamous epithelium: better against the irritant, and with no cilia at all, so the airway can no longer clear itself.',
-        D: 'The change is well described and this is the option of a student who does not believe an epithelium can change type. It can, and the book calls it metaplasia.',
+        C: 'Squamous metaplasia produces stratified squamous epithelium: better against the irritant, and with no cilia at all, so the airway can no longer clear itself.',
+        D: 'The change is well described and this is the option of a student who does not believe an epithelium can change type. It can, and this is called metaplasia.',
       },
     },
     {
@@ -633,7 +633,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple columnar epithelium would be a change of shape without a gain in protection, and metaplasia here is driven by the need for protection.',
         B: 'Keeping the cilia would keep the clearance, and the clinical point of this metaplasia is precisely that clearance is lost.',
         C: 'Simple cubical epithelium is thinner and weaker than what it would be replacing.',
-        D: 'Correct. Stratified squamous epithelium replaces it — protective, and cilialess, which is why these patients get repeated chest infections.',
+        D: 'Stratified squamous epithelium replaces it — protective, and cilialess, which is why these patients get repeated chest infections.',
       },
     },
     {
@@ -646,7 +646,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple columnar epithelium is a single layer and offers no more protection than what was there.',
         B: 'Retaining cilia would defeat the point: the whole clinical consequence of this metaplasia is that the cilia are gone.',
         C: 'Stratified columnar non-ciliated epithelium is a rare epithelium found at the recto-anal junction and in large gland ducts; metaplasia does not produce it here.',
-        D: 'Correct. Stratified squamous epithelium — the epithelium of protection — replaces the ciliated lining, and the mucociliary escalator stops.',
+        D: 'Stratified squamous epithelium — the epithelium of protection — replaces the ciliated lining, and the mucociliary escalator stops.',
       },
     },
     {
@@ -668,7 +668,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place respiratory epithelium in the airway.',
       explanations: {
         A: 'The surface of the skin is stratified squamous keratinised epithelium — the opposite kind of surface, dry and protective.',
-        B: 'Correct. Nasal cavity and trachea: ciliated cells to move the mucus and goblet cells to make it, which is the whole design of the respiratory lining.',
+        B: 'Nasal cavity and trachea: ciliated cells to move the mucus and goblet cells to make it, which is the whole design of the respiratory lining.',
         C: 'Serous membranes are mesothelium, simple squamous.',
         D: 'The small intestine is simple columnar with goblet cells but no cilia — goblet cells alone are not enough to make an epithelium respiratory, which is what this distractor tests.',
       },
@@ -680,7 +680,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Match distensibility to transitional epithelium.',
       explanations: {
-        A: 'Correct. Transitional epithelium thins from 6–8 layers to 3–4 as the organ fills, and its cells change shape rather than tearing.',
+        A: 'Transitional epithelium thins from 6–8 layers to 3–4 as the organ fills, and its cells change shape rather than tearing.',
         B: 'Stratified squamous epithelium protects against friction. It stretches a little but has no mechanism for changing its layer count.',
         C: 'Stratified cubical epithelium is two layers in a sweat duct, which distends not at all.',
         D: 'Stratified columnar epithelium is a rare protective lining and is not built to stretch.',
@@ -693,7 +693,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Connect thinness and smoothness to simple squamous epithelium.',
       explanations: {
-        A: 'Correct. Flat cells give both properties at once — thin enough for gases to cross in the alveolus, smooth enough for organs to slide over one another on a serous membrane.',
+        A: 'Flat cells give both properties at once — thin enough for gases to cross in the alveolus, smooth enough for organs to slide over one another on a serous membrane.',
         B: 'Cubical cells are for secretion and reabsorption. Their extra cytoplasm is exactly what a gas barrier must not have.',
         C: 'Columnar cells are taller still, for secretion and absorption.',
         D: 'Pseudostratified columnar epithelium is thick and ciliated, built for moving mucus rather than for exchange.',
@@ -708,7 +708,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Squamous cells are for exchange and smooth movement.',
         B: 'The near miss, and the pair this question is set against: cubical epithelium secretes and *re*absorbs, in the kidney tubule and the gland acinus.',
-        C: 'Correct. Columnar epithelium secretes and absorbs, along the digestive tract — absorption of what has been eaten, not reabsorption of what the body has already filtered.',
+        C: 'Columnar epithelium secretes and absorbs, along the digestive tract — absorption of what has been eaten, not reabsorption of what the body has already filtered.',
         D: 'Pseudostratified epithelium transports mucus across a surface.',
       },
     },
@@ -720,7 +720,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match secretion and reabsorption to simple cubical epithelium.',
       explanations: {
         A: 'Squamous is exchange and easy movement.',
-        B: 'Correct. Simple cubical epithelium secretes in the gland acinus and the thyroid follicle, and reabsorbs in the convoluted tubules of the kidney.',
+        B: 'Simple cubical epithelium secretes in the gland acinus and the thyroid follicle, and reabsorbs in the convoluted tubules of the kidney.',
         C: 'The mirror of this question: columnar epithelium secretes and absorbs in the gut. Reabsorption is the word that points at the kidney.',
         D: 'Pseudostratified epithelium moves material along the surface rather than through the cell.',
       },
@@ -734,7 +734,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Simple squamous epithelium lets things across it, not along it.',
         B: 'Simple cubical epithelium moves material through the cell, not over its surface.',
-        C: 'Correct. Simple columnar ciliated epithelium sweeps fluid or particles in one direction — up the bronchioles, and along the uterus and fallopian tube to carry the ovum.',
+        C: 'Simple columnar ciliated epithelium sweeps fluid or particles in one direction — up the bronchioles, and along the uterus and fallopian tube to carry the ovum.',
         D: 'Pseudostratified columnar ciliated epithelium does the same thing, which makes this the closest wrong answer; the option set here lists simple cell shapes, and columnar is the one that carries the cilia.',
       },
     },
@@ -746,7 +746,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Pair the name mesothelium with the right epithelium and the right site.',
       explanations: {
         A: 'Right epithelium, wrong site — that is endothelium, and the two names are the only thing separating these options.',
-        B: 'Correct. Mesothelium is simple squamous epithelium on the serous membranes: pleura, pericardium and peritoneum.',
+        B: 'Mesothelium is simple squamous epithelium on the serous membranes: pleura, pericardium and peritoneum.',
         C: 'Wrong epithelium and wrong site.',
         D: 'Wrong epithelium, right site. A cuboidal serous lining would make organs stick rather than slide.',
       },
@@ -772,7 +772,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the nuclear shape and position of a columnar cell.',
       explanations: {
         A: 'Central rounded nuclei belong to cubical cells, whose height and width are the same so the nucleus sits in the middle.',
-        B: 'Correct. A tall cell has an oval nucleus pushed towards the base, which leaves the apex free for secretory granules or a brush border.',
+        B: 'A tall cell has an oval nucleus pushed towards the base, which leaves the apex free for secretory granules or a brush border.',
         C: 'Flat nuclei belong to squamous cells, which have no room for anything else.',
         D: 'Binucleated cells occur in the superficial layer of transitional epithelium, not here.',
       },
@@ -784,7 +784,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Give the nuclear shape and position of a cuboidal cell.',
       explanations: {
-        A: 'Correct. A cube-shaped cell holds a round nucleus in the centre.',
+        A: 'A cube-shaped cell holds a round nucleus in the centre.',
         B: 'Basal and oval is the columnar cell — taller, so the nucleus is displaced downwards and elongated with the cell.',
         C: 'Flat is the squamous cell.',
         D: 'Binucleation is a feature of the superficial dome cells of transitional epithelium.',
@@ -800,7 +800,7 @@ export const LEAF: McqLeafSeed = {
         A: '5–30 layers is stratified squamous epithelium — a fixed range for an epithelium that does not change with filling.',
         B: '6–8 layers is transitional epithelium in the *empty* bladder. This is the trap: both numbers belong to this epithelium, and the question specifies which state.',
         C: 'Two layers is stratified cubical epithelium, in the sweat gland duct.',
-        D: 'Correct. 3–4 layers when the bladder is full: the intermediate cells are pushed laterally and the epithelium thins.',
+        D: '3–4 layers when the bladder is full: the intermediate cells are pushed laterally and the epithelium thins.',
       },
     },
     {
@@ -810,7 +810,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Normal values',
       learningObjective: 'Give the layer count of stratified squamous epithelium.',
       explanations: {
-        A: 'Correct. 5–30 layers — a wide range, because the same epithelium covers everything from the thin lining of the cheek to the sole of the foot.',
+        A: '5–30 layers — a wide range, because the same epithelium covers everything from the thin lining of the cheek to the sole of the foot.',
         B: '6–8 layers is transitional epithelium in the empty bladder.',
         C: 'Two layers is stratified cubical epithelium.',
         D: '3–4 layers is transitional epithelium in the full bladder.',
@@ -824,7 +824,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise that transitional epithelium is confined to the urinary tract.',
       explanations: {
         A: 'The uterus is simple columnar partially ciliated epithelium.',
-        B: 'Correct. The urinary bladder, with the ureter, renal pelvis and prostatic urethra, is the territory of transitional epithelium.',
+        B: 'The urinary bladder, with the ureter, renal pelvis and prostatic urethra, is the territory of transitional epithelium.',
         C: 'The vas deferens is pseudostratified columnar non-ciliated epithelium — a genital duct, not a urinary one.',
         D: 'The gall bladder is simple columnar, absorbing water from stored bile. It is chosen because both are hollow distensible sacs called bladders, which is a name rather than a histology.',
       },
@@ -839,7 +839,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Transitional epithelium is urinary, not respiratory. The respiratory lining is pseudostratified columnar ciliated.',
         B: 'The option describing it as a stage between two other epithelia reads the word "transitional" as if it meant intermediate. It does not: the transition is in the epithelium\'s own shape as the organ fills.',
         C: 'The single most useful discriminator against the oesophagus, and it is false here. The oesophagus has a clear, thick, wavy basement membrane; the bladder\'s is non-clear and not wavy.',
-        D: 'Correct. The uppermost dome-shaped cells are large and some of them are binucleated — a feature of this epithelium and of no other in the list.',
+        D: 'The uppermost dome-shaped cells are large and some of them are binucleated — a feature of this epithelium and of no other in the list.',
       },
     },
     {
@@ -862,7 +862,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Place squamous and polygonal cells at the right depth in a stratified squamous epithelium.',
       explanations: {
-        A: 'Correct. Farthest from the basement membrane means the surface, and the surface cells are squamous — which is what the epithelium is named for.',
+        A: 'Farthest from the basement membrane means the surface, and the surface cells are squamous — which is what the epithelium is named for.',
         B: 'Polygonal cells are the intermediate layers, between the columnar base and the flat surface.',
         C: 'Closest to the basement membrane is the basal layer, which is columnar, not squamous. A cell flattens as it is pushed up, so the youngest cell is the tallest.',
         D: 'Polygonal cells are above the basal layer, not in it. The gradient runs columnar, polygonal, flat from base to surface, and this option is one step out.',
@@ -877,7 +877,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Transitional epithelium is genuinely stratified and confined to the urinary tract.',
         B: 'Stratified columnar epithelium really does have cells that do not reach the basement membrane, and it is what a pseudostratified epithelium is being mistaken for.',
-        C: 'Correct. Every cell rests on the basement membrane, so the book classifies it among the simple epithelia despite its appearance.',
+        C: 'Every cell rests on the basement membrane, so it is classified among the simple epithelia despite its appearance.',
         D: 'It is epithelium, not connective tissue. The "false appearance" is of stratification, not of being epithelium at all.',
       },
     },
@@ -889,7 +889,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name a site of pseudostratified columnar epithelium.',
       explanations: {
         A: 'The ureter is transitional epithelium.',
-        B: 'Correct. The vas deferens carries the non-ciliated form of pseudostratified columnar epithelium.',
+        B: 'The vas deferens carries the non-ciliated form of pseudostratified columnar epithelium.',
         C: 'The small intestine is simple columnar with a brush border.',
         D: 'The oesophagus is stratified squamous non-keratinised.',
       },
@@ -904,7 +904,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Skin is stratified squamous keratinised.',
         B: 'The trachea is the same epithelium *with* cilia and goblet cells, which is the distinction the word "non-ciliated" is there to force.',
         C: 'The ureter is transitional.',
-        D: 'Correct. The vas deferens, with the membranous urethra, is the non-ciliated form.',
+        D: 'The vas deferens, with the membranous urethra, is the non-ciliated form.',
       },
     },
     {
@@ -915,7 +915,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name a site of simple cubical epithelium.',
       explanations: {
         A: 'The ureter is transitional epithelium.',
-        B: 'Correct. The thyroid follicle is lined by a single layer of cubical cells that secrete into the colloid and reabsorb from it.',
+        B: 'The thyroid follicle is lined by a single layer of cubical cells that secrete into the colloid and reabsorb from it.',
         C: 'The trachea is pseudostratified columnar ciliated with goblet cells.',
         D: 'The endothelium of a blood vessel is simple squamous — the same "simple", a different shape.',
       },
@@ -930,7 +930,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Smoothness lets fluid pass and organs move against one another.',
         B: 'True, but not the whole answer. Thinness lets it form filtration membranes, as in Bowman\'s capsule.',
         C: 'Absorptive surfaces are lined by simple columnar epithelium with microvilli. A flat cell has neither the cytoplasm nor the surface area for it.',
-        D: 'Correct. The smoothness and the thinness are two consequences of the same shape, and the epithelium is used for both.',
+        D: 'The smoothness and the thinness are two consequences of the same shape, and the epithelium is used for both.',
       },
     },
     {
@@ -942,7 +942,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Secretion needs cytoplasm for the synthetic machinery, so it belongs to cubical and columnar cells.',
         B: 'Reabsorption is simple cubical, in the kidney tubule.',
-        C: 'Correct. Gas exchange needs the shortest possible diffusion distance, and one layer of flattened cells is the shortest an epithelium gets.',
+        C: 'Gas exchange needs the shortest possible diffusion distance, and one layer of flattened cells is the shortest an epithelium gets.',
         D: 'Protection is stratified epithelium — the opposite design.',
       },
     },
@@ -953,7 +953,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Give the defining feature of the keratinised form.',
       explanations: {
-        A: 'Correct. A superficial layer of keratin is exactly what distinguishes the keratinised form from the non-keratinised one.',
+        A: 'A superficial layer of keratin is exactly what distinguishes the keratinised form from the non-keratinised one.',
         B: 'Moist surfaces — mouth, pharynx, oesophagus — carry the non-keratinised form. Keratin is for a dry surface.',
         C: 'The digestive tract is stratified squamous only at its two ends, and non-keratinised there; most of it is simple columnar.',
         D: 'The uterus is simple columnar partially ciliated.',
@@ -979,7 +979,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name a site of stratified squamous non-keratinised epithelium.',
       explanations: {
-        A: 'Correct. The oral cavity is a moist surface exposed to abrasion — many layers, no keratin.',
+        A: 'The oral cavity is a moist surface exposed to abrasion — many layers, no keratin.',
         B: 'The trachea is pseudostratified columnar ciliated.',
         C: 'The skin is the keratinised form of the same epithelium, which is the one-word difference this question turns on.',
         D: 'The uterus is simple columnar partially ciliated.',
@@ -992,7 +992,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the epithelium of the lung alveolus.',
       explanations: {
-        A: 'Correct. Simple squamous epithelium — the alveolar cells are called pneumocytes — because gas exchange needs the thinnest possible barrier.',
+        A: 'Simple squamous epithelium — the alveolar cells are called pneumocytes — because gas exchange needs the thinnest possible barrier.',
         B: 'Simple cuboidal epithelium would double or triple the diffusion distance.',
         C: 'Simple columnar epithelium is thicker still, and belongs to absorbing and secreting surfaces.',
         D: 'Pseudostratified epithelium lines the conducting airways above the alveolus; the change from conducting to exchanging is precisely a change from thick and ciliated to thin and bare.',
@@ -1018,7 +1018,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: '"Simple squamous non-keratinised" is a contradiction in the making: one layer of flat cells would be no protection at all on a dry surface.',
         B: 'The right epithelium without the keratin, which is the lining of the oesophagus and the mouth. Naming the epithelium and omitting the keratin is the commonest half-answer here.',
-        C: 'Correct. Stratified squamous keratinised epithelium — layers for abrasion, keratin for the dry air.',
+        C: 'Stratified squamous keratinised epithelium — layers for abrasion, keratin for the dry air.',
         D: 'Simple columnar ciliated epithelium belongs to the uterus and the bronchiole.',
       },
     },
@@ -1031,7 +1031,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Transitional epithelium is the urinary tract.',
         B: 'Simple columnar epithelium is the gut. A serous membrane needs a surface that slides, not one that absorbs.',
-        C: 'Correct. Mesothelium — simple squamous epithelium of the pleura, pericardium and peritoneum.',
+        C: 'Mesothelium — simple squamous epithelium of the pleura, pericardium and peritoneum.',
         D: 'Endothelium is the same epithelium lining blood vessels and the heart. The two names are the whole question.',
       },
     },
@@ -1045,7 +1045,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium is one layer thin enough for exchange, which is the last thing a bladder wants — its lining must be impermeable to urine.',
         B: 'Stratified squamous epithelium appears in the bladder only after bilharzial metaplasia, and the change costs the organ its distensibility.',
         C: 'Glandular epithelium secretes. The bladder stores; it does not make urine.',
-        D: 'Correct. Transitional epithelium, or urothelium: distensible, and impermeable through the plaques of its dome cells.',
+        D: 'Transitional epithelium, or urothelium: distensible, and impermeable through the plaques of its dome cells.',
       },
     },
     {
@@ -1058,7 +1058,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Transitional epithelium is urinary.',
         B: 'Simple columnar epithelium is the gut.',
         C: 'Mesothelium is the serous membranes — the same simple squamous epithelium under the other regional name.',
-        D: 'Correct. Endothelium, and its smoothness is what keeps blood flowing without clotting on the wall.',
+        D: 'Endothelium, and its smoothness is what keeps blood flowing without clotting on the wall.',
       },
     },
     {
@@ -1069,7 +1069,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the epithelium lining blood vessels.',
       explanations: {
         A: 'Mesothelium is the serous membranes. The pair endothelium/mesothelium is asked repeatedly across these books, in both directions.',
-        B: 'Correct. Endothelium lines the blood vessels and the heart.',
+        B: 'Endothelium lines the blood vessels and the heart.',
         C: 'Transitional epithelium is the urinary tract.',
         D: 'Pseudostratified epithelium is the airway and the male genital ducts.',
       },
@@ -1083,7 +1083,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Simple squamous epithelium is one layer thick and is destroyed by abrasion.',
         B: 'Pseudostratified columnar epithelium is a conducting lining, protected from friction rather than resisting it.',
-        C: 'Correct. Many layers of cells bound by desmosomes, the surface layer constantly shed and replaced from below — that is what friction resistance looks like.',
+        C: 'Many layers of cells bound by desmosomes, the surface layer constantly shed and replaced from below — that is what friction resistance looks like.',
         D: 'Transitional epithelium resists urine and stretch. Those are chemical and mechanical demands of a different kind.',
       },
     },
@@ -1097,7 +1097,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium has one layer and cannot have fewer.',
         B: 'Stratified cubical epithelium keeps its two layers.',
         C: 'Simple columnar epithelium is one layer throughout.',
-        D: 'Correct. Transitional epithelium goes from 6–8 layers to 3–4 as the viscus fills, because the intermediate cells slide laterally past one another.',
+        D: 'Transitional epithelium goes from 6–8 layers to 3–4 as the viscus fills, because the intermediate cells slide laterally past one another.',
       },
     },
     {
@@ -1120,7 +1120,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'In stratified squamous epithelium only the basal cells touch the basement membrane.',
         B: 'Stratified cuboidal epithelium is likewise genuinely layered.',
-        C: 'Correct. Pseudostratified epithelium: every cell on the basement membrane, not every cell reaching the lumen, and the nuclei at several levels as a result.',
+        C: 'Pseudostratified epithelium: every cell on the basement membrane, not every cell reaching the lumen, and the nuclei at several levels as a result.',
         D: 'Transitional epithelium is genuinely stratified, and its intermediate and superficial cells do not reach the base.',
       },
     },
@@ -1132,7 +1132,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the name for an epithelium of more than one layer.',
       explanations: {
         A: 'Simple means one layer, with every cell on the basement membrane.',
-        B: 'Correct. Stratified means more than one layer, and it is then subdivided by the shape of the superficial cells.',
+        B: 'Stratified means more than one layer, and it is then subdivided by the shape of the superficial cells.',
         C: 'Pseudostratified epithelium only appears to have more than one layer, which is exactly why the word "pseudo" is in its name.',
         D: 'The three are alternatives and only one of them answers the stem.',
       },
@@ -1145,7 +1145,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the oesophageal epithelium precisely, keratinisation included.',
       explanations: {
         A: 'One layer of flat cells would be stripped off by the first bolus. "Simple squamous non-keratinised" also confuses a term used only of stratified epithelium.',
-        B: 'Correct. Stratified squamous non-keratinised — layers for the abrasion of the bolus, no keratin because the surface is wet.',
+        B: 'Stratified squamous non-keratinised — layers for the abrasion of the bolus, no keratin because the surface is wet.',
         C: 'The keratinised form is the epidermis of the skin. Adding keratin to the oesophagus is the single commonest error on this question.',
         D: 'Simple columnar ciliated epithelium is the uterus and the bronchiole. The oesophagus becomes simple columnar only past the cardia, in the stomach.',
       },
@@ -1161,7 +1161,7 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. Only B is true: mesothelium is simple squamous epithelium on the serous membranes. A contradicts the word "simple", and the intestinal mucosa and thyroid follicles are simple columnar and simple cubical respectively.',
       explanations: {
         A: 'Many layers would make it stratified. Simple means exactly one.',
-        B: 'Correct. The serous membranes — pleura, pericardium, peritoneum — are covered by simple squamous epithelium under the name mesothelium.',
+        B: 'The serous membranes — pleura, pericardium, peritoneum — are covered by simple squamous epithelium under the name mesothelium.',
         C: 'The intestinal mucosa is simple columnar, because it absorbs and needs microvilli.',
         D: 'Thyroid follicles are simple cubical, because they secrete and reabsorb.',
       },
@@ -1174,7 +1174,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recall a true site of stratified squamous epithelium and reject three false descriptions.',
       explanations: {
         A: '"Always keratinised" is false. Only the epidermis is; every moist site is not.',
-        B: 'Correct. The oesophagus is lined by stratified squamous epithelium, in its non-keratinised form.',
+        B: 'The oesophagus is lined by stratified squamous epithelium, in its non-keratinised form.',
         C: 'The most superficial cells are squamous — flat — which is what the epithelium is named for. Cuboidal surface cells would make it stratified cuboidal.',
         D: 'A mucoid-like substance in wide intercellular spaces is offered by some books as the reason transitional epithelium stretches. It is not a feature of stratified squamous epithelium, whose cells are held close by desmosomes.',
       },
@@ -1192,7 +1192,7 @@ export const LEAF: McqLeafSeed = {
         A: 'False, and it is the oesophagus\'s answer. The oesophageal basement membrane is clear, thick and wavy; the bladder\'s is non-clear and flat.',
         B: 'The superficial cells are dome-shaped, not columnar. Columnar surface cells would make it stratified columnar epithelium.',
         C: 'One layer would make it simple. Transitional epithelium is 6–8 layers empty and 3–4 full — the point being that neither figure is one.',
-        D: 'Correct. Dome-shaped superficial cells with a convex upper surface, carrying the rigid plaques that keep urine out.',
+        D: 'Dome-shaped superficial cells with a convex upper surface, carrying the rigid plaques that keep urine out.',
       },
     },
     {
@@ -1203,7 +1203,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise mesothelium as simple squamous epithelium.',
       explanations: {
         A: 'Many layers contradicts "simple", which means one.',
-        B: 'Correct. Mesothelium of the serous membranes is simple squamous epithelium.',
+        B: 'Mesothelium of the serous membranes is simple squamous epithelium.',
         C: 'The intestinal mucosa is simple columnar with a brush border.',
         D: 'Thyroid follicles are simple cubical.',
       },
@@ -1216,9 +1216,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give both functions of transitional epithelium.',
       explanations: {
         A: 'True, but not the whole answer. Stretchability is what the changing layer count provides.',
-        B: 'True, but not the whole answer, and the same property named in the book\'s own word.',
+        B: 'True, but not the whole answer, and the same property named by the standard term.',
         C: 'True, but not the whole answer, and the one students forget: the plaques on the dome cells protect against the cytotoxic effect of urine.',
-        D: 'Correct. Distension and chemical protection are two demands of the same organ, and the epithelium meets both.',
+        D: 'Distension and chemical protection are two demands of the same organ, and the epithelium meets both.',
       },
     },
     {
@@ -1226,10 +1226,10 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'stratified-squamous-epithelium-keratinised-and-non-keratinised',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: 'Recognise the book\'s list of non-keratinised sites as one epithelium.',
+      learningObjective: 'Recognise the non-keratinised sites as one epithelium.',
       explanations: {
         A: 'Columnar epithelium lines the gut and the uterus, not these three.',
-        B: 'Correct. Vagina, tip of the urethra and oesophagus are three of the book\'s named sites of stratified squamous non-keratinised epithelium, along with the oral cavity, cornea and anal canal.',
+        B: 'Vagina, tip of the urethra and oesophagus are three of the named sites of stratified squamous non-keratinised epithelium, along with the oral cavity, cornea and anal canal.',
         C: '"Squamous epithelium" without "stratified" would mean the simple form, one layer thick, which none of these moist abraded surfaces could survive with.',
         D: 'Ciliated epithelium is the airway and the female genital tract above the vagina. It is worth noticing that the fallopian tube and uterus are ciliated while the vagina is not.',
       },
@@ -1242,7 +1242,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the epithelium of the kidney tubules.',
       explanations: {
         A: 'Simple squamous epithelium is in the same nephron, lining Bowman\'s capsule, where the job is filtration. The tubule\'s job is reabsorption and needs more cell than that.',
-        B: 'Correct. The convoluted tubules are simple cubical, with the cytoplasm and mitochondria that active reabsorption requires.',
+        B: 'The convoluted tubules are simple cubical, with the cytoplasm and mitochondria that active reabsorption requires.',
         C: 'Simple columnar epithelium is the gut.',
         D: 'Transitional epithelium begins further down, in the renal pelvis, and continues to the bladder.',
       },
@@ -1254,7 +1254,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the epithelium of a serous membrane.',
       explanations: {
-        A: 'Correct. The pleura is a serous membrane, lined by simple squamous epithelium under the name mesothelium, so the lung can slide against the chest wall.',
+        A: 'The pleura is a serous membrane, lined by simple squamous epithelium under the name mesothelium, so the lung can slide against the chest wall.',
         B: 'Stratified cubical epithelium is a sweat gland duct.',
         C: 'Stratified squamous epithelium would be a rough, thick surface — the opposite of what two moving surfaces need.',
         D: 'Transitional epithelium is confined to the urinary tract.',
@@ -1270,7 +1270,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium would let urine through, which is exactly what the urinary tract must not do.',
         B: 'Simple cubical epithelium lines the kidney tubules above, where reabsorption is still happening. Once the urine is final, the lining changes.',
         C: 'Simple columnar ciliated epithelium is the uterus and the bronchiole; nothing in the ureter needs sweeping.',
-        D: 'Correct. Transitional epithelium runs from the renal pelvis through the ureter and bladder to the prostatic urethra.',
+        D: 'Transitional epithelium runs from the renal pelvis through the ureter and bladder to the prostatic urethra.',
       },
     },
     {
@@ -1282,7 +1282,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Simple squamous epithelium is for exchange; the uterus has to move an ovum along.',
         B: 'Simple cubical epithelium secretes and reabsorbs but cannot transport anything along its surface.',
-        C: 'Correct. Simple columnar ciliated epithelium, whose cilia beat in one direction to move the ovum along the tube and the uterus.',
+        C: 'Simple columnar ciliated epithelium, whose cilia beat in one direction to move the ovum along the tube and the uterus.',
         D: 'Transitional epithelium is urinary. The uterus is distensible too, which is what makes this option tempting, but distension there is achieved by the muscle wall and not by the lining.',
       },
     },
@@ -1293,8 +1293,8 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the epithelium of the thyroid follicle.',
       explanations: {
-        A: 'Simple squamous epithelium appears in a very underactive follicle, but the epithelium the book names is cubical.',
-        B: 'Correct. Simple cubical epithelium, secreting into the colloid and reabsorbing from it.',
+        A: 'Simple squamous epithelium appears in a very underactive follicle, but the epithelium here is cubical.',
+        B: 'Simple cubical epithelium, secreting into the colloid and reabsorbing from it.',
         C: 'Cilia would have nothing to move inside a closed follicle.',
         D: 'Transitional epithelium is urinary and stratified; a follicle lining is one layer.',
       },
@@ -1308,7 +1308,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Endothelium is the lining of blood vessels.',
         B: 'Urothelium is transitional epithelium of the urinary tract.',
-        C: 'Correct. Pseudostratified columnar ciliated epithelium with goblet cells — the goblet cells make the mucus and the cilia move it.',
+        C: 'Pseudostratified columnar ciliated epithelium with goblet cells — the goblet cells make the mucus and the cilia move it.',
         D: 'Mesothelium is the serous membranes. All three wrong options are regional names for other epithelia, which is what the question is really testing.',
       },
     },
@@ -1330,7 +1330,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name a site of simple cubical epithelium.',
       explanations: {
-        A: 'Correct. The thyroid follicle is lined by a single layer of cubical cells.',
+        A: 'The thyroid follicle is lined by a single layer of cubical cells.',
         B: 'The small intestine is simple columnar — taller cells, with a brush border for absorption.',
         C: 'The vagina is stratified squamous non-keratinised.',
         D: 'The epidermis is stratified squamous keratinised.',
@@ -1343,7 +1343,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Place simple squamous epithelium in Bowman\'s capsule and not elsewhere in the kidney.',
       explanations: {
-        A: 'Correct. Bowman\'s capsule is where the blood is filtered, and filtration needs the thinnest barrier the kidney can build.',
+        A: 'Bowman\'s capsule is where the blood is filtered, and filtration needs the thinnest barrier the kidney can build.',
         B: 'The gall bladder is simple columnar, absorbing water from the bile.',
         C: 'Thyroid follicles are simple cubical.',
         D: 'The urinary bladder is transitional. Two of the four options are in the urinary system, and they take different epithelia — filtration at the top, storage at the bottom.',
@@ -1358,7 +1358,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Simple cubical epithelium lines gland acini and kidney tubules, not the stomach surface.',
         B: 'The respiratory epithelium is the airway. It is offered here because both are mucus-covered surfaces, but the stomach\'s mucus comes from its own surface cells rather than from goblet cells, and it has no cilia.',
-        C: 'Correct. Simple columnar epithelium, secreting mucus over the whole surface and continuing down into the gastric pits.',
+        C: 'Simple columnar epithelium, secreting mucus over the whole surface and continuing down into the gastric pits.',
         D: 'Stratified columnar epithelium is rare and belongs to gland ducts and the recto-anal junction.',
       },
     },
@@ -1370,7 +1370,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the site of keratinised stratified squamous epithelium.',
       explanations: {
         A: 'The large intestine is simple columnar with many goblet cells.',
-        B: 'Correct. The epidermis of the skin is the only keratinised epithelium in the body, because it is the only surface permanently exposed to dry air.',
+        B: 'The epidermis of the skin is the only keratinised epithelium in the body, because it is the only surface permanently exposed to dry air.',
         C: 'The urinary bladder is transitional.',
         D: 'Thyroid follicles are simple cubical.',
       },
@@ -1385,7 +1385,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Thyroid follicles are simple cubical.',
         B: 'The small intestine is simple columnar.',
         C: 'The vagina is stratified squamous — but non-keratinised, being a moist surface. It is the closest wrong answer, and the one word that separates it is the whole question.',
-        D: 'Correct. The epidermis of the skin.',
+        D: 'The epidermis of the skin.',
       },
     },
     {
@@ -1395,7 +1395,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name a site of non-keratinised stratified squamous epithelium.',
       explanations: {
-        A: 'Correct. The oesophagus: many layers against the abrasion of a bolus, no keratin because it is wet.',
+        A: 'The oesophagus: many layers against the abrasion of a bolus, no keratin because it is wet.',
         B: 'The gall bladder is simple columnar.',
         C: 'The ureter is transitional.',
         D: 'The small intestine is simple columnar with a brush border.',
@@ -1409,7 +1409,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the epithelium of the epidermis.',
       explanations: {
         A: 'Simple columnar epithelium is the gut lining, one cell thick.',
-        B: 'Correct. The epidermis is stratified squamous epithelium — keratinised, though this option does not say so.',
+        B: 'The epidermis is stratified squamous epithelium — keratinised, though this option does not say so.',
         C: 'Dense fibrous tissue is the dermis beneath, and it is connective tissue rather than epithelium. The question asks about the superficial layer.',
         D: 'Stratified columnar epithelium is rare and is found in gland ducts and at the recto-anal junction.',
       },
@@ -1424,7 +1424,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Modified to secrete is glandular epithelium.',
         B: 'Modified to contract is myo-epithelium.',
         C: 'Modified to receive sensation is neuro-epithelium.',
-        D: 'Correct. Surface epithelium covers surfaces or lines cavities, which is the one of the four modifications that is not really a modification at all — it is what epithelium does before it is specialised.',
+        D: 'Surface epithelium covers surfaces or lines cavities, which is the one of the four modifications that is not really a modification at all — it is what epithelium does before it is specialised.',
       },
     },
     {
@@ -1459,7 +1459,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium is in the alveolus at the far end of the same airway, where the requirement changes from conducting to exchanging.',
         B: 'Non-keratinised stratified squamous epithelium appears in the airway only after metaplasia in a heavy smoker.',
         C: 'Keratinised stratified squamous epithelium belongs to the skin and appears nowhere in the airway.',
-        D: 'Correct. Pseudostratified columnar ciliated epithelium with goblet cells: mucus made by the goblet cells and swept upwards by the cilia.',
+        D: 'Pseudostratified columnar ciliated epithelium with goblet cells: mucus made by the goblet cells and swept upwards by the cilia.',
       },
     },
     {
@@ -1481,7 +1481,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name a site of transitional epithelium.',
       explanations: {
         A: 'The thyroid gland is simple cubical epithelium lining its follicles.',
-        B: 'Correct. The urinary bladder, the organ this epithelium exists for.',
+        B: 'The urinary bladder, the organ this epithelium exists for.',
         C: 'The gall bladder is simple columnar. It is chosen because it stores a fluid and distends, but its distension is accommodated by folds in the wall rather than by the epithelium changing shape.',
         D: 'The trachea is pseudostratified columnar ciliated with goblet cells.',
       },
@@ -1494,7 +1494,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the structural reason transitional epithelium can stretch.',
       explanations: {
         A: 'The bladder\'s basement membrane is thin and non-clear, not thick — and a thick basement membrane would resist stretch rather than permit it.',
-        B: 'Correct as keyed. The wide intercellular substance lets the cells slide past one another as the organ fills, which is how 6–8 layers become 3–4. Note the wording: the substance is *inter*cellular, between the cells, and some books print "intracellular" here in error.',
+        B: 'The wide intercellular substance lets the cells slide past one another as the organ fills, which is how 6–8 layers become 3–4. Note the wording: the substance is *inter*cellular, between the cells, and some books print "intracellular" here in error.',
         C: 'Keratin is a rigid dead layer for a dry surface. It would crack rather than stretch, and it is confined to the epidermis.',
         D: 'The option describing flat cells in the top layer and columnar cells in the top layer contradicts itself, and in any case the superficial cells are dome-shaped and the basal ones cuboidal.',
       },
@@ -1509,7 +1509,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, so not the false one. The urinary bladder is its principal site.',
         B: 'The false statement, and the answer. Goblet cells are unicellular mucous glands scattered in the respiratory and intestinal linings; mucus over the urothelium would serve no purpose, and the barrier here is the plaque instead.',
         C: 'True, so not the false one. It is more than one layer, so it is stratified — named, like every stratified epithelium, for the shape of its superficial cells.',
-        D: 'True, so not the false one. The non-clear basement membrane is the book\'s own point of comparison against the oesophagus.',
+        D: 'True, so not the false one. The non-clear basement membrane is the point of comparison against the oesophagus.',
       },
     },
     {
@@ -1519,7 +1519,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the epithelium of Bowman\'s capsule.',
       explanations: {
-        A: 'Correct. Filtration needs the thinnest barrier available, and the parietal layer of Bowman\'s capsule is simple squamous.',
+        A: 'Filtration needs the thinnest barrier available, and the parietal layer of Bowman\'s capsule is simple squamous.',
         B: 'Simple cubical epithelium is the convoluted tubule further along the same nephron, where reabsorption happens.',
         C: 'Simple columnar ciliated epithelium is the uterus and bronchiole.',
         D: 'Pseudostratified columnar ciliated epithelium with goblet cells is the airway.',
@@ -1533,8 +1533,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Distinguish the bronchiole\'s epithelium from the trachea\'s.',
       explanations: {
         A: 'Simple squamous epithelium is further down still, in the alveolus.',
-        B: 'Simple cubical epithelium appears in the smallest terminal bronchioles, which makes this a near miss; the epithelium the book names for the bronchiole is columnar and ciliated.',
-        C: 'Correct. Simple columnar ciliated epithelium, whose cilia beat upwards to carry secretions towards the trachea.',
+        B: 'Simple cubical epithelium appears in the smallest terminal bronchioles, which makes this a near miss; the epithelium for the bronchiole is columnar and ciliated.',
+        C: 'Simple columnar ciliated epithelium, whose cilia beat upwards to carry secretions towards the trachea.',
         D: 'Pseudostratified columnar ciliated with goblet cells is the trachea and bronchi. The airway loses its pseudostratification and its goblet cells as it narrows, and this question is exactly about that transition.',
       },
     },
@@ -1546,7 +1546,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the epithelium of the convoluted tubules.',
       explanations: {
         A: 'Simple squamous epithelium is Bowman\'s capsule, at the start of the same nephron.',
-        B: 'Correct. Simple cubical epithelium, whose cytoplasm and basal infoldings carry out active reabsorption.',
+        B: 'Simple cubical epithelium, whose cytoplasm and basal infoldings carry out active reabsorption.',
         C: 'Nothing in the kidney tubule is ciliated in the sense meant here; urine is moved by pressure, not by beating.',
         D: 'Pseudostratified columnar ciliated epithelium with goblet cells is the airway.',
       },
@@ -1559,7 +1559,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Explain why the cornea is non-keratinised.',
       explanations: {
         A: 'Keratin would make the cornea opaque, which would defeat the whole organ. This is the option that turns a memorised list into a reason.',
-        B: 'Correct. Non-keratinised stratified squamous epithelium: protective and transparent, kept moist by tears.',
+        B: 'Non-keratinised stratified squamous epithelium: protective and transparent, kept moist by tears.',
         C: 'Stratified cuboidal epithelium is the sweat gland duct.',
         D: 'Transitional epithelium is the urinary tract.',
       },
@@ -1573,7 +1573,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Keratinised stratified squamous epithelium is the epidermis the duct passes through, not the duct itself.',
         B: 'Non-keratinised stratified squamous epithelium is the moist linings — mouth, oesophagus, cornea, vagina.',
-        C: 'Correct. Stratified cubical epithelium, usually two layers, and the sweat gland duct is essentially its only site.',
+        C: 'Stratified cubical epithelium, usually two layers, and the sweat gland duct is essentially its only site.',
         D: 'Transitional epithelium is the urinary tract.',
       },
     },
@@ -1584,7 +1584,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the epithelium of the skin, keratinisation included.',
       explanations: {
-        A: 'Correct. Keratinised stratified squamous epithelium — the only keratinised epithelium in the body.',
+        A: 'Keratinised stratified squamous epithelium — the only keratinised epithelium in the body.',
         B: 'The non-keratinised form lines the moist surfaces. Giving it to the skin is the standard half-answer.',
         C: 'Stratified cuboidal epithelium is the sweat gland duct, which is in the skin but is not the skin.',
         D: 'Transitional epithelium is the urinary tract.',
@@ -1598,7 +1598,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the epithelium of the thyroid follicle.',
       explanations: {
         A: 'Simple squamous epithelium is for exchange, and a follicle secretes.',
-        B: 'Correct. Simple cubical epithelium, the standard lining of a secretory unit.',
+        B: 'Simple cubical epithelium, the standard lining of a secretory unit.',
         C: 'Cilia have nothing to move in a closed follicle.',
         D: 'Pseudostratified columnar ciliated epithelium with goblet cells belongs to the airway.',
       },
@@ -1613,7 +1613,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium is the alveolus.',
         B: 'Simple cubical epithelium is the terminal bronchiole and the gland acinus.',
         C: 'Simple columnar ciliated epithelium is the bronchiole — the same cilia, one layer, no goblet cells.',
-        D: 'Correct. Pseudostratified columnar ciliated epithelium with goblet cells, which is what "respiratory epithelium" names.',
+        D: 'Pseudostratified columnar ciliated epithelium with goblet cells, which is what "respiratory epithelium" names.',
       },
     },
     {
@@ -1626,7 +1626,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Keratinised stratified squamous epithelium is the skin.',
         B: 'Non-keratinised stratified squamous epithelium is the oesophagus and the other moist abraded linings.',
         C: 'Stratified cuboidal epithelium is the sweat gland duct.',
-        D: 'Correct. Transitional epithelium, the same lining as the bladder, because the ureter also distends and carries urine.',
+        D: 'Transitional epithelium, the same lining as the bladder, because the ureter also distends and carries urine.',
       },
     },
     {
@@ -1639,7 +1639,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Keratinised stratified squamous epithelium is the skin.',
         B: 'Non-keratinised stratified squamous epithelium appears in the bladder only after bilharzial metaplasia.',
         C: 'Stratified cuboidal epithelium is the sweat gland duct.',
-        D: 'Correct. Transitional epithelium — distensible, and impermeable to urine through the plaques of its dome cells.',
+        D: 'Transitional epithelium — distensible, and impermeable to urine through the plaques of its dome cells.',
       },
     },
     {
@@ -1663,7 +1663,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Pseudostratified columnar epithelium is the airway and the male genital ducts.',
         B: 'Stratified columnar epithelium is rare — gland ducts, recto-anal junction, penile urethra.',
         C: 'Stratified squamous epithelium is the bilharzial metaplasia answer, not the normal lining.',
-        D: 'Correct. Transitional epithelium.',
+        D: 'Transitional epithelium.',
       },
     },
     {
@@ -1679,7 +1679,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Pseudostratified columnar epithelium is the airway and the vas deferens.',
         B: 'Stratified columnar epithelium is confined to gland ducts, the recto-anal junction and the penile urethra.',
         C: 'Stratified squamous epithelium appears in the bladder only in bilharziasis, as metaplasia.',
-        D: 'Correct. Transitional epithelium, or urothelium.',
+        D: 'Transitional epithelium, or urothelium.',
       },
     },
     {
@@ -1703,7 +1703,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Stratified squamous epithelium has many layers and only the basal one touches the basement membrane.',
         B: 'Transitional epithelium is genuinely stratified as well.',
         C: 'Stratified cuboidal epithelium has two layers, of which only one is basal.',
-        D: 'Correct. Pseudostratified epithelium is one cell layer thick by this test — every cell reaches the basement membrane — even though the nuclei sit at several levels.',
+        D: 'Pseudostratified epithelium is one cell layer thick by this test — every cell reaches the basement membrane — even though the nuclei sit at several levels.',
       },
     },
     {
@@ -1715,7 +1715,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Simple squamous epithelium is for exchange and would be destroyed by gut contents.',
         B: 'Simple cubical epithelium lines the gut\'s glands, not its surface.',
-        C: 'Correct. Simple columnar epithelium from the stomach to the rectum, secreting and absorbing. The two ends of the tube — mouth and anal canal — are stratified squamous instead.',
+        C: 'Simple columnar epithelium from the stomach to the rectum, secreting and absorbing. The two ends of the tube — mouth and anal canal — are stratified squamous instead.',
         D: 'Cilia belong to the airway and the female genital tract; nothing in the gut is moved by ciliary beat.',
       },
     },
@@ -1726,9 +1726,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Connect abundant desmosomes to the epithelium that takes friction.',
       explanations: {
-        A: 'Stratified columnar epithelium has junctions like any epithelium, but the book singles out neither it nor its junctions.',
+        A: 'Stratified columnar epithelium has junctions like any epithelium, but neither it nor its junctions are singled out here.',
         B: 'Stratified cubical epithelium is two layers in a sweat duct and is under no particular mechanical load.',
-        C: 'Correct. The book states that desmosomes are abundant between the cells of stratified squamous epithelium, because that is the surface subjected to friction and the desmosome is the strongest junction.',
+        C: 'Desmosomes are abundant between the cells of stratified squamous epithelium, because that is the surface subjected to friction and the desmosome is the strongest junction.',
         D: 'A hedge that loses the point: every epithelium has some desmosomes, and the question is which one is defined by having many.',
       },
     },
@@ -1742,7 +1742,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium has its own regional names — endothelium and mesothelium — and neither of them is urothelium.',
         B: 'Stratified squamous epithelium is what urothelium becomes in bilharziasis, which is the one situation in which the two words meet.',
         C: 'Simple columnar epithelium is the gut.',
-        D: 'Correct. Urothelium is transitional epithelium.',
+        D: 'Urothelium is transitional epithelium.',
       },
     },
     {
@@ -1754,7 +1754,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A squamous cell has no room for a border of microvilli and no reason for one — it is not absorbing.',
         B: 'A stratified squamous surface is shedding cells constantly; a specialised absorptive border there would be pointless.',
-        C: 'Correct. The striated or brush border is a carpet of microvilli on the apex of the absorptive simple columnar cell of the intestine.',
+        C: 'The striated or brush border is a carpet of microvilli on the apex of the absorptive simple columnar cell of the intestine.',
         D: 'The luminal surface of transitional epithelium carries rigid plaques, which is a barrier rather than an absorptive border.',
       },
     },
@@ -1766,7 +1766,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise that only stratified squamous epithelium keratinises.',
       explanations: {
         A: 'Simple squamous epithelium is one layer for exchange; keratinising it would destroy the function and the cell.',
-        B: 'Correct. Keratinisation is the surface layer of dead flattened cells filled with keratin, and only stratified squamous epithelium produces it — the "may" is doing real work, since most stratified squamous epithelium is not keratinised.',
+        B: 'Keratinisation is the surface layer of dead flattened cells filled with keratin, and only stratified squamous epithelium produces it — the "may" is doing real work, since most stratified squamous epithelium is not keratinised.',
         C: 'Simple columnar epithelium secretes and absorbs and stays alive at its surface.',
         D: 'Transitional epithelium is bathed in urine and never keratinises.',
       },
@@ -1781,7 +1781,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The oral cavity is stratified squamous and moist, so non-keratinised.',
         B: 'The oesophagus is the same — stratified squamous non-keratinised.',
         C: 'The trachea is pseudostratified columnar ciliated and is not stratified squamous at all.',
-        D: 'Correct. The skin, the only place in the body where the surface is dry and the epithelium keratinises.',
+        D: 'The skin, the only place in the body where the surface is dry and the epithelium keratinises.',
       },
     },
     {
@@ -1793,7 +1793,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pseudostratified columnar epithelium conducts air and cleans it; it is far too thick for gas to cross.',
         B: 'Simple cuboidal epithelium is thicker than squamous and belongs to secretory and reabsorptive sites.',
-        C: 'Correct. Simple squamous epithelium — the alveolar pneumocytes — gives the shortest diffusion path in the body.',
+        C: 'Simple squamous epithelium — the alveolar pneumocytes — gives the shortest diffusion path in the body.',
         D: 'Transitional epithelium is built to be impermeable, which is the opposite requirement.',
       },
     },
@@ -1804,7 +1804,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Connect filtration to the thinnest epithelium.',
       explanations: {
-        A: 'Correct. Filtration in Bowman\'s capsule needs the thinnest possible barrier, and one layer of flat cells provides it.',
+        A: 'Filtration in Bowman\'s capsule needs the thinnest possible barrier, and one layer of flat cells provides it.',
         B: 'Stratified squamous epithelium is many layers of protection — designed to stop things crossing.',
         C: 'Pseudostratified epithelium is thick and mucus-covered.',
         D: 'Stratified cuboidal epithelium is two layers in a duct and filters nothing.',
@@ -1823,7 +1823,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Simple squamous epithelium is the alveolus, at the end of the respiratory tract rather than lining its conducting part.',
         B: 'Stratified columnar epithelium is rare and belongs to gland ducts and the recto-anal junction.',
         C: 'The source\'s printed answer, and incomplete. Pseudostratified columnar epithelium comes in three forms, and the non-ciliated one lines the vas deferens — so this name alone does not identify the respiratory lining.',
-        D: 'Correct. Pseudostratified ciliated columnar epithelium: the cilia are what make it respiratory, and with goblet cells beside them they are the mucociliary escalator.',
+        D: 'Pseudostratified ciliated columnar epithelium: the cilia are what make it respiratory, and with goblet cells beside them they are the mucociliary escalator.',
       },
     },
     {
@@ -1833,7 +1833,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Name the epithelium of organs responsible for gaseous exchange.',
       explanations: {
-        A: 'Correct. Simple squamous epithelium in the lung alveoli, thin enough for oxygen and carbon dioxide to diffuse across.',
+        A: 'Simple squamous epithelium in the lung alveoli, thin enough for oxygen and carbon dioxide to diffuse across.',
         B: 'Simple cuboidal epithelium is secretory and reabsorptive.',
         C: 'Pseudostratified columnar epithelium conducts and cleans the air on its way in.',
         D: 'Stratified squamous epithelium is a barrier, which is precisely what an exchange surface must not be.',
@@ -1848,7 +1848,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Simple squamous epithelium is one layer for exchange.',
         B: 'Stratified cuboidal epithelium is the sweat gland duct within the skin, not the skin surface.',
-        C: 'Correct. Stratified squamous keratinised epithelium.',
+        C: 'Stratified squamous keratinised epithelium.',
         D: 'The same epithelium named without its keratin, which is the option this question exists to separate from the right one. Given both, the more exact name is the answer.',
       },
     },
@@ -1860,7 +1860,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the epidermal epithelium with its keratinisation.',
       explanations: {
         A: 'Without keratinisation this is the lining of the oesophagus, mouth and vagina — moist surfaces, not skin.',
-        B: 'Correct. Stratified squamous epithelium with keratinisation.',
+        B: 'Stratified squamous epithelium with keratinisation.',
         C: 'Secretory epithelium is glandular. The skin contains glands, but the epidermis itself covers.',
         D: 'Absorptive epithelium is simple columnar with microvilli, and the skin is built to keep things out rather than take them in.',
       },
@@ -1872,7 +1872,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Attribute the dome cell to transitional epithelium.',
       explanations: {
-        A: 'Correct. The dome-shaped superficial cell with its convex luminal surface belongs to transitional epithelium alone.',
+        A: 'The dome-shaped superficial cell with its convex luminal surface belongs to transitional epithelium alone.',
         B: 'Stratified cubical epithelium has cube-shaped surface cells with flat tops.',
         C: 'Stratified columnar epithelium has tall surface cells.',
         D: 'Stratified squamous epithelium has flat surface cells — the shape at the opposite extreme, and the reason a distended bladder is so often misread as stratified squamous.',
@@ -1885,9 +1885,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute a thin membrane and a smooth surface to simple squamous epithelium.',
       answerOverride: 'a',
       answerOverrideReason:
-        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it gives simple squamous epithelium as one layer of flat cells providing a smooth surface for easy passage of fluids and easy movement of organs, and a thin membrane for gas exchange. Both halves of the stem are quoted from that sentence.',
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: simple squamous epithelium is one layer of flat cells providing a smooth surface for easy passage of fluids and easy movement of organs, and a thin membrane for gas exchange. Both halves of the stem are quoted from that sentence.',
       explanations: {
-        a: 'Correct. One layer of flat cells is the thinnest epithelium there is, which is why it lines the alveolus for gas exchange and the pleura and peritoneum for organs to slide against.',
+        a: 'One layer of flat cells is the thinnest epithelium there is, which is why it lines the alveolus for gas exchange and the pleura and peritoneum for organs to slide against.',
         b: 'Simple cubical epithelium is one layer of cube-shaped cells and its functions are secretion and reabsorption — thyroid follicles, kidney convoluted tubules. A cube is thicker than a flat cell, and nothing diffuses across it.',
         c: 'Simple columnar epithelium is taller still and works in secretion and absorption along the digestive tract. Height is what this option gets wrong.',
         d: 'Stratified squamous epithelium has flat cells only at its surface and many layers beneath. Its function is protection, which is the opposite requirement — thickness rather than thinness.',
@@ -1900,11 +1900,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the functional class of epithelium that contracts.',
       answerOverride: 'c',
       answerOverrideReason:
-        'No key was printed on the 2020 paper and none was recovered, so the answer is taken from the department book, whose four-way functional classification names myo-epithelium as the class of epithelial cells with a contractile function.',
+        'No key was printed on the 2020 paper and none was recovered, so the answer given here is: in the four-way functional classification, myo-epithelium is the class of epithelial cells with a contractile function.',
       explanations: {
         a: 'Surface epithelium covers surfaces and lines cavities. It is the first of the four classes and the one that does not do a specialised job at all.',
         b: 'Neuro-epithelium is epithelium modified as a receptor — taste, smell, hearing. It responds to a stimulus rather than producing movement.',
-        c: 'Correct. Myo-epithelial cells are epithelial cells given a contractile function, and they squeeze secretion out of the acini of glands such as the salivary and mammary glands.',
+        c: 'Myo-epithelial cells are epithelial cells given a contractile function, and they squeeze secretion out of the acini of glands such as the salivary and mammary glands.',
         d: 'Urothelium is another name for transitional epithelium, which is a kind of surface epithelium and is distensible rather than contractile. Stretching passively and contracting actively are opposite properties, and this option trades on both being about a changing shape.',
       },
     },
@@ -1915,12 +1915,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the full name of the epithelium called respiratory epithelium.',
       answerOverride: 'd',
       answerOverrideReason:
-        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, and the book names it the respiratory epithelium of the nose, trachea and bronchi.',
+        'The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, known as the respiratory epithelium of the nose, trachea and bronchi.',
       explanations: {
         a: 'Simple cubical epithelium lines thyroid follicles and kidney tubules. It has neither cilia nor goblet cells, so it can move nothing along a surface.',
         b: 'Stratified cubical epithelium is a rare two-layered type found in sweat gland ducts. Nothing in the respiratory tract is lined by it.',
         c: 'Every word is right except two. The lower respiratory tract — the bronchioles — is lined by simple columnar *ciliated* epithelium, and the named respiratory epithelium of the upper tract is pseudostratified. Dropping the cilia leaves an epithelium that cannot clear secretions at all.',
-        d: 'Correct. Pseudostratified columnar ciliated epithelium with goblet cells is the respiratory epithelium: the goblet cells make the mucus and the cilia sweep it upwards.',
+        d: 'Pseudostratified columnar ciliated epithelium with goblet cells is the respiratory epithelium: the goblet cells make the mucus and the cilia sweep it upwards.',
       },
     },
     {
@@ -1930,7 +1930,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'The options have been merged in pairs and cannot be separated into a set a student could choose from. The candidate\'s pen crossed the letters of options b and d on this 2022 script, so the bank holds two entries where the paper had four: "Simple columnar ciliated. \'b. Simple squamous." and "Simple cubical. \'d. Simple columnar non-ciliated." The department book answers the question — thyroid follicles are one of its two named sites of simple cubical epithelium — but the correct wording sits at the front of a compound option that also carries a rival answer, so choosing it would be choosing two things at once. Recoverable by rescanning page 3 of the 2022 paper.',
+      excludeReason: 'The options have been merged in pairs and cannot be separated into a set a student could choose from. The candidate\'s pen crossed the letters of options b and d on this 2022 script, so the bank holds two entries where the paper had four: "Simple columnar ciliated. \'b. Simple squamous." and "Simple cubical. \'d. Simple columnar non-ciliated." The answer is known — thyroid follicles are one of the two named sites of simple cubical epithelium — but the correct wording sits at the front of a compound option that also carries a rival answer, so choosing it would be choosing two things at once. Recoverable by rescanning page 3 of the 2022 paper.',
     },
     {
       key: 'simple-cubical-epithelium-is-found-in-the-following-site-bui-8edff262',
@@ -1939,7 +1939,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'Two questions have crossed over each other. The pen crossed the option letters of question 28 on this 2024 script, so its four options went into the stem — Bowman\'s capsule of kidney, convoluted tubules of kidney, endothelium of blood vessels, epidermis of the skin — and the stem then ran on into question 29, "Lung bronchioles are lined with". The two entries left in the option map, "Simple squamous epithelium" and "Simple columnar epithelium", belong to question 29 and not to this stem at all, so the row would present one question\'s stem against another question\'s options. The department book answers both — convoluted tubules for the first, simple columnar ciliated for the second — but neither can be emitted from this row. Recoverable by rescanning page 3 of the 2024 paper.',
+      excludeReason: 'Two questions have crossed over each other. The pen crossed the option letters of question 28 on this 2024 script, so its four options went into the stem — Bowman\'s capsule of kidney, convoluted tubules of kidney, endothelium of blood vessels, epidermis of the skin — and the stem then ran on into question 29, "Lung bronchioles are lined with". The two entries left in the option map, "Simple squamous epithelium" and "Simple columnar epithelium", belong to question 29 and not to this stem at all, so the row would present one question\'s stem against another question\'s options. Both answers are known — convoluted tubules for the first, simple columnar ciliated for the second — but neither can be emitted from this row. Recoverable by rescanning page 3 of the 2024 paper.',
     },
     {
       key: 'lung-alveoli-are-lined-by-a-simple-squamous-epithelium-b-str-139f1357',
@@ -1948,7 +1948,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'The bank row has no options. All four option letters were crossed by the candidate\'s pen on this 2024 script and the options were read into the stem, where they are still legible as Simple squamous epithelium, Stratified columnar epithelium, Respiratory epithelium and Transitional epithelium. The department book answers it plainly — simple squamous epithelium lining the lung alveoli is called pneumocytes — but a question with an empty option map cannot be emitted. Recoverable by rescanning page 3 of the 2024 paper.',
+      excludeReason: 'The bank row has no options. All four option letters were crossed by the candidate\'s pen on this 2024 script and the options were read into the stem, where they are still legible as Simple squamous epithelium, Stratified columnar epithelium, Respiratory epithelium and Transitional epithelium. The answer is plain — simple squamous epithelium lining the lung alveoli is called pneumocytes — but a question with an empty option map cannot be emitted. Recoverable by rescanning page 3 of the 2024 paper.',
     },
   ],
 }

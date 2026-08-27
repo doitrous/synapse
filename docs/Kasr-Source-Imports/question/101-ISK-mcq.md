@@ -84,7 +84,7 @@ The single commonest error on this leaf, and it is the medial septum's property.
 ## answer_b
 Gives origin to brachialis muscle
 ## explanation_b
-Correct. Brachialis takes origin from the lower half of the front of the humerus and from both intermuscular septa, so the lateral septum does give it origin — along with brachioradialis and extensor carpi radialis longus.
+Brachialis takes origin from the lower half of the front of the humerus and from both intermuscular septa, so the lateral septum does give it origin — along with brachioradialis and extensor carpi radialis longus.
 ## answer_c
 Gives attachment to the lateral head of triceps
 ## explanation_c
@@ -169,7 +169,7 @@ The medial intermuscular septum; mark the correct answer:
 ## answer_a
 Pierced by the ulnar nerve
 ## explanation_a
-Correct. The ulnar nerve pierces the medial intermuscular septum about halfway down the arm, with the superior ulnar collateral artery, and passes behind the medial epicondyle into the forearm.
+The ulnar nerve pierces the medial intermuscular septum about halfway down the arm, with the superior ulnar collateral artery, and passes behind the medial epicondyle into the forearm.
 ## answer_b
 Pierced by the profunda brachii arteries
 ## explanation_b
@@ -266,7 +266,7 @@ The nerve does run with biceps, between it and brachialis, but the muscle it pie
 ## answer_c
 Is a powerful muscle in inducing supination
 ## explanation_c
-Correct. Biceps is the powerful supinator of the flexed forearm — supinator alone is the weaker muscle, which is why a screw is driven with the elbow bent.
+Biceps is the powerful supinator of the flexed forearm — supinator alone is the weaker muscle, which is why a screw is driven with the elbow bent.
 ## answer_d
 Helps in extending the flexed elbow
 ## explanation_d
@@ -347,7 +347,7 @@ The coracoid process of the scapula gives attachment to: •
 ## answer_a
 Pectoralis minor
 ## explanation_a
-Correct. Pectoralis minor is inserted into the coracoid process, along with the short head of biceps and coracobrachialis from its tip and three ligaments — coraco-acromial, coraco-clavicular and coraco-humeral.
+Pectoralis minor is inserted into the coracoid process, along with the short head of biceps and coracobrachialis from its tip and three ligaments — coraco-acromial, coraco-clavicular and coraco-humeral.
 ## answer_b
 Capsule of shoulder joint
 ## explanation_b
@@ -436,7 +436,7 @@ The ulnar collateral ligament, choose the correct answer:
 ## answer_a
 Attached to the medial epicondyle of the humerus
 ## explanation_a
-Correct. The ligament is triangular and its apex is on the medial epicondyle; from there an anterior band runs to the coronoid process, a posterior band to the olecranon and an oblique band between the two.
+The ligament is triangular and its apex is on the medial epicondyle; from there an anterior band runs to the coronoid process, a posterior band to the olecranon and an oblique band between the two.
 ## answer_b
 Attached to the medial border of olecranon process of ulna
 ## explanation_b
@@ -533,7 +533,7 @@ The right groove and the wrong nerve. The spiral groove carries the radial nerve
 ## answer_c
 Descends between medial and long heads of triceps
 ## explanation_c
-Correct. It passes backwards between the long and medial heads of triceps with the radial nerve, then winds round the humerus in the spiral groove.
+It passes backwards between the long and medial heads of triceps with the radial nerve, then winds round the humerus in the spiral groove.
 ## answer_d
 It supplies biceps brachii muscle
 ## explanation_d
@@ -618,7 +618,7 @@ The classic overstatement. The branches to the long and medial heads of triceps 
 ## answer_b
 It produces paralysis of the extensor carpi ulnaris
 ## explanation_b
-Correct. Extensor carpi ulnaris is a posterior interosseous muscle, and everything the radial nerve supplies below the groove goes — which is exactly what produces the wrist drop.
+Extensor carpi ulnaris is a posterior interosseous muscle, and everything the radial nerve supplies below the groove goes — which is exactly what produces the wrist drop.
 ## answer_c
 It results in Ape-like hand deformity
 ## explanation_c
@@ -703,7 +703,7 @@ Supination is more powerful than pronation due to; mark the most suitable answer
 ## answer_a
 The action of biceps brachii muscle and supinator
 ## explanation_a
-Correct. Supinator turns the forearm on its own in the extended position, but biceps is added once the elbow is flexed, and the two together outweigh pronator teres and pronator quadratus.
+Supinator turns the forearm on its own in the extended position, but biceps is added once the elbow is flexed, and the two together outweigh pronator teres and pronator quadratus.
 ## answer_b
 The action of supinator muscle only
 ## explanation_b
@@ -792,7 +792,7 @@ The middle third of the humerus shows the following features, choose the correct
 ## answer_a
 Deltoid tuberosity, laterally
 ## explanation_a
-Correct. The deltoid tuberosity is the rough V on the lateral surface at the middle of the shaft, receiving deltoid and separating the two heads of brachialis below it.
+The deltoid tuberosity is the rough V on the lateral surface at the middle of the shaft, receiving deltoid and separating the two heads of brachialis below it.
 ## answer_b
 Coracobrachialis insertion laterally
 ## explanation_b
@@ -889,7 +889,7 @@ Both muscles are real neighbours of the nerve lower down, which is what makes th
 ## answer_c
 Pierces the lateral intermuscular septum and passes between brachialis and
 ## explanation_c
-Correct. Having wound round the humerus, the radial nerve pierces the lateral intermuscular septum and descends in the groove between brachialis medially and brachioradialis laterally.
+Having wound round the humerus, the radial nerve pierces the lateral intermuscular septum and descends in the groove between brachialis medially and brachioradialis laterally.
 ## answer_d
 Passes between extensor capri radialis longus and brevis
 ## explanation_d
@@ -970,7 +970,7 @@ All of the following muscles are supplied by the radial nerve except: (IPKA – 
 ## answer_a
 Medial head of triceps
 ## explanation_a
-The key the book prints, and it is wrong. The medial head of triceps has two radial branches — one from the axilla, one running with the ulnar nerve down the arm — which is exactly why the head is spared by a lesion in the spiral groove.
+The printed key, and it is wrong. The medial head of triceps has two radial branches — one from the axilla, one running with the ulnar nerve down the arm — which is exactly why the head is spared by a lesion in the spiral groove.
 ## answer_b
 Anconeus
 ## explanation_b
@@ -1156,7 +1156,7 @@ The musculocutaneous nerve pierces coracobrachialis, then runs between biceps an
 ## answer_c
 Isa powerful muscle in inducing supination
 ## explanation_c
-Correct. Biceps is the powerful supinator of the flexed forearm; supinator alone is the weaker of the two.
+Biceps is the powerful supinator of the flexed forearm; supinator alone is the weaker of the two.
 ## answer_d
 Helps in extending the flexed elbow
 ## explanation_d
@@ -1245,7 +1245,7 @@ The nerve that runs with biceps pierces coracobrachialis, not biceps. Nothing pi
 ## answer_c
 Is a powerful muscle in inducing supination
 ## explanation_c
-Correct. Biceps is the powerful supinator, and adding it to supinator is what makes supination stronger than pronation.
+Biceps is the powerful supinator, and adding it to supinator is what makes supination stronger than pronation.
 ## answer_d
 Helps in extending the ﬂexed elbow
 ## explanation_d
@@ -1342,7 +1342,7 @@ Exactly backwards, and the most instructive distractor here: biceps is the power
 ## answer_e
 short head arises from coracoid process, lateral to coracobrachialis
 ## explanation_e
-Correct. Both the short head of biceps and coracobrachialis arise from the tip of the coracoid, and the biceps tendon is the lateral of the two.
+Both the short head of biceps and coracobrachialis arise from the tip of the coracoid, and the biceps tendon is the lateral of the two.
 ## correct_answer
 E
 ## main_concept
@@ -1419,7 +1419,7 @@ Biceps, choose the correct statement: (IPKA - 2021) Vi
 ## answer_a
 Long head arises from infraglenoid tubercle. y ad
 ## explanation_a
-The key the book prints, and it is a swap of one syllable: supra- for infra-. The infraglenoid tubercle gives the long head of triceps; the long head of biceps comes from the supraglenoid tubercle.
+The printed key, and it is a swap of one syllable: supra- for infra-. The infraglenoid tubercle gives the long head of triceps; the long head of biceps comes from the supraglenoid tubercle.
 ## answer_b
 Is supplied by a branch of the medial cord of the brachial plexus
 ## explanation_b
@@ -1431,7 +1431,7 @@ The axillary nerve supplies deltoid and teres minor only, and does not enter the
 ## answer_e
 short head arises from coracoid process, lateral to coracobrachialis Vi P
 ## explanation_e
-Correct. The short head arises from the lateral part of the tip of the coracoid process, immediately lateral to coracobrachialis, which takes the medial part of the same tip.
+The short head arises from the lateral part of the tip of the coracoid process, immediately lateral to coracobrachialis, which takes the medial part of the same tip.
 ## correct_answer
 E
 ## main_concept
@@ -1524,7 +1524,7 @@ The opposite of the truth. Biceps is the powerful supinator; pronation is pronat
 ## answer_e
 short head arises from coracoid process, lateral to coracobrachialis
 ## explanation_e
-Correct. Short head and coracobrachialis share the tip of the coracoid, with the biceps tendon lateral.
+Short head and coracobrachialis share the tip of the coracoid, with the biceps tendon lateral.
 ## correct_answer
 E
 ## main_concept
@@ -1690,7 +1690,7 @@ Considering the movement of the radio-ulnar joint: (2024)
 ## answer_a
 In supination, the axis of supination-pronation is oblique to the axis of the forearm
 ## explanation_a
-Correct. The axis runs from the centre of the head of the radius above to the head of the ulna below, and that line crosses the long axis of the forearm obliquely rather than lying along it.
+The axis runs from the centre of the head of the radius above to the head of the ulna below, and that line crosses the long axis of the forearm obliquely rather than lying along it.
 ## answer_b
 In pronation, the bones of the forearm are parallel.
 ## explanation_b
@@ -1698,7 +1698,7 @@ The two positions swapped. The bones are parallel in supination and crossed in p
 ## answer_c
 Pronation is the stronger movement.
 ## explanation_c
-The key the book prints, and the reverse of the truth. Supination is the stronger movement because biceps joins supinator; there is no pronator of comparable bulk.
+The printed key, and the reverse of the truth. Supination is the stronger movement because biceps joins supinator; there is no pronator of comparable bulk.
 ## answer_d
 Supination with the elbow in extension is done by biceps.
 ## explanation_d
@@ -1779,11 +1779,11 @@ Middle third of humerus, choose the correct answer: (DEP BOOK)
 ## answer_a
 Deltoid tuberosity, laterally.
 ## explanation_a
-Correct. The deltoid tuberosity is on the lateral surface at the middle of the shaft; it is what makes the middle third recognisable from the outside.
+The deltoid tuberosity is on the lateral surface at the middle of the shaft; it is what makes the middle third recognisable from the outside.
 ## answer_b
 Coracobrachialis Insertion laterally.
 ## explanation_b
-The key the book prints, and it is the same landmark from the wrong side. Coracobrachialis is inserted on the medial border at this level, facing the deltoid tuberosity across the bone.
+The printed key, and it is the same landmark from the wrong side. Coracobrachialis is inserted on the medial border at this level, facing the deltoid tuberosity across the bone.
 ## answer_c
 Spiral groove anteriorly.
 ## explanation_c
@@ -1868,7 +1868,7 @@ Middle third of humerus, choose the correct answer:
 ## answer_a
 Deltoid tuberosity, laterally.
 ## explanation_a
-Correct. The deltoid tuberosity lies on the lateral surface at the middle of the shaft and receives the insertion of deltoid.
+The deltoid tuberosity lies on the lateral surface at the middle of the shaft and receives the insertion of deltoid.
 ## answer_b
 Coracobrachialis insertion laterally.
 ## explanation_b
@@ -1957,7 +1957,7 @@ One of the following is correct regarding the brachial artery:
 ## answer_a
 lies lateral to the basilic vein
 ## explanation_a
-Correct. The basilic vein pierces the deep fascia at the middle of the arm and ascends medial to the brachial artery before joining the venae comitantes to form the axillary vein.
+The basilic vein pierces the deep fascia at the middle of the arm and ascends medial to the brachial artery before joining the venae comitantes to form the axillary vein.
 ## answer_b
 lies anterior to the cephalic vein
 ## explanation_b
@@ -2062,7 +2062,7 @@ Teres minor is one of the two muscles of the axillary nerve, along with deltoid.
 ## answer_d
 Anconeus.
 ## explanation_d
-Correct. Anconeus is supplied by the radial nerve, and it is the only extensor on the list.
+Anconeus is supplied by the radial nerve, and it is the only extensor on the list.
 ## correct_answer
 D
 ## main_concept
@@ -2147,11 +2147,11 @@ Coracobrachialis is musculocutaneous, and is pierced by that nerve.
 ## answer_c
 Teres minor
 ## explanation_c
-The key the book prints, and it is the neighbouring nerve. Teres minor and deltoid are the axillary nerve's two muscles; the axillary and radial nerves are both branches of the posterior cord, which is what makes the swap easy.
+The printed key, and it is the neighbouring nerve. Teres minor and deltoid are the axillary nerve's two muscles; the axillary and radial nerves are both branches of the posterior cord, which is what makes the swap easy.
 ## answer_d
 Anconeus
 ## explanation_d
-Correct. Anconeus takes the continuation of the radial branch to the medial head of triceps.
+Anconeus takes the continuation of the radial branch to the medial head of triceps.
 ## correct_answer
 D
 ## main_concept
@@ -2236,7 +2236,7 @@ Coracobrachialis crosses the shoulder, not the elbow. It flexes and adducts the 
 ## answer_c
 Brachialis
 ## explanation_c
-Correct. Brachialis is inserted into the ulna, which does not rotate, so its pull is unaffected by pronation — it is the flexor of the pronated forearm and the main flexor of the elbow in any position.
+Brachialis is inserted into the ulna, which does not rotate, so its pull is unaffected by pronation — it is the flexor of the pronated forearm and the main flexor of the elbow in any position.
 ## answer_d
 Deltoid
 ## explanation_d
@@ -2325,7 +2325,7 @@ Coracobrachialis acts on the shoulder joint, flexing and adducting the arm, and 
 ## answer_c
 Brachialis
 ## explanation_c
-Correct. Brachialis is inserted into the coronoid process and tuberosity of the ulna, a bone that does not rotate, so it flexes the elbow equally in pronation and supination.
+Brachialis is inserted into the coronoid process and tuberosity of the ulna, a bone that does not rotate, so it flexes the elbow equally in pronation and supination.
 ## answer_d
 Deltoid
 ## explanation_d
@@ -2414,7 +2414,7 @@ The wrong nerve for that groove. The spiral groove carries the radial nerve; the
 ## answer_c
 Descends between medial and long heads of triceps
 ## explanation_c
-Correct. It runs backwards between the long and medial heads of triceps, alongside the radial nerve, before entering the spiral groove.
+It runs backwards between the long and medial heads of triceps, alongside the radial nerve, before entering the spiral groove.
 ## answer_d
 It supplies biceps brachii muscle. Ac ad
 ## explanation_d
@@ -2495,11 +2495,11 @@ Regarding Injury of radial nerve in the spiral groove, choose the correct answer
 ## answer_a
 It results in complete paralysis of triceps muscle
 ## explanation_a
-The key the book prints, and the word that makes it false is "complete". Triceps keeps its axillary branches to the long and medial heads; the patient is weak in resisted extension of the elbow, not unable to extend it.
+The printed key, and the word that makes it false is "complete". Triceps keeps its axillary branches to the long and medial heads; the patient is weak in resisted extension of the elbow, not unable to extend it.
 ## answer_b
 It produces paralysis of the extensor carpi ulnaris
 ## explanation_b
-Correct. Everything the radial nerve supplies distal to the groove is paralysed, extensor carpi ulnaris among them, and that loss is what produces wrist drop.
+Everything the radial nerve supplies distal to the groove is paralysed, extensor carpi ulnaris among them, and that loss is what produces wrist drop.
 ## answer_c
 It results in Ape-like hand deformity. P
 ## explanation_c
@@ -2673,7 +2673,7 @@ Regarding the brachialis muscle, select the correct statement: (2022 - 2021) y
 ## answer_a
 It is innervated by the median nerve
 ## explanation_a
-The key the book prints, and the wrong nerve. The median nerve descends the arm alongside brachialis, resting on it, and gives it nothing; brachialis is musculocutaneous, with a small radial twig to its lateral part.
+The printed key, and the wrong nerve. The median nerve descends the arm alongside brachialis, resting on it, and gives it nothing; brachialis is musculocutaneous, with a small radial twig to its lateral part.
 ## answer_b
 Arises from the upper third of the shaft of humerus
 ## explanation_b
@@ -2681,7 +2681,7 @@ The wrong end of the bone. Brachialis arises from the lower half of the front of
 ## answer_c
 The main ﬂexor of the elbow joint
 ## explanation_c
-Correct. Brachialis is the main flexor of the elbow: it acts in every position of the forearm, and biceps only reinforces it when the forearm is supinated.
+Brachialis is the main flexor of the elbow: it acts in every position of the forearm, and biceps only reinforces it when the forearm is supinated.
 ## answer_d
 Attaches to the pronator tuberosity of the radius
 ## explanation_d
@@ -2774,7 +2774,7 @@ False, and the reason the fossa is described from medial to lateral. The median 
 ## answer_e
 b and c. P
 ## explanation_e
-Correct. Both B and C are true statements about the fossa, so the compound option is the only complete answer.
+Both B and C are true statements about the fossa, so the compound option is the only complete answer.
 ## correct_answer
 E
 ## main_concept
@@ -2851,7 +2851,7 @@ Regarding the elbow joint, choose the correct answer: (DEP BOOK) Ac ad Ac ad ad 
 ## answer_a
 It is formed by articulation of the lower end of humerus and the upper ends of radius and ulna.
 ## explanation_a
-Correct. The lower end of the humerus — trochlea and capitulum — meets the trochlear notch of the ulna and the head of the radius, so all three bones share the joint.
+The lower end of the humerus — trochlea and capitulum — meets the trochlear notch of the ulna and the head of the radius, so all three bones share the joint.
 ## answer_b
 Its ﬂexion is produced by coracobrachialis.
 ## explanation_b
@@ -2952,7 +2952,7 @@ Biceps inserts into the radial tuberosity. The ulnar tuberosity is brachialis's 
 ## answer_d
 The brachia lis is the primary flexor of the elbow joint
 ## explanation_d
-Correct. Brachialis is the primary flexor of the elbow, acting in every position of the forearm, with biceps reinforcing it only in supination.
+Brachialis is the primary flexor of the elbow, acting in every position of the forearm, with biceps reinforcing it only in supination.
 ## correct_answer
 D
 ## main_concept
@@ -3037,11 +3037,11 @@ Brachialis is supplied by the musculocutaneous nerve with a radial twig; the med
 ## answer_c
 The biceps is inserted into the ulnar tuberosity.
 ## explanation_c
-The key the book prints, and it is the standard swap between the two flexors. Biceps goes to the radial tuberosity; the ulnar tuberosity takes brachialis.
+The printed key, and it is the standard swap between the two flexors. Biceps goes to the radial tuberosity; the ulnar tuberosity takes brachialis.
 ## answer_d
 The brachialis is the primary ﬂexor of the elbow joint.
 ## explanation_d
-Correct. Brachialis is the primary flexor of the elbow joint in every position of the forearm.
+Brachialis is the primary flexor of the elbow joint in every position of the forearm.
 ## correct_answer
 D
 ## main_concept
@@ -3118,7 +3118,7 @@ Regarding the radial nerve, choose the correct answer: (2021) em em em em em
 ## answer_a
 It runs with profunda brachii artery in the radial groove
 ## explanation_a
-Correct. The nerve and the profunda brachii artery wind round the back of the humerus together, which is why one fracture can injure both.
+The nerve and the profunda brachii artery wind round the back of the humerus together, which is why one fracture can injure both.
 ## answer_b
 It contains ﬁbers from C 5,6, 7,8 only
 ## explanation_b
@@ -3130,7 +3130,7 @@ The radial nerve gives two cutaneous branches in the arm — the posterior cutan
 ## answer_d
 Gives off the posterior interosseus nerve in the spiral groove. Ac ad
 ## explanation_d
-The key the book prints, and it is one level too high. The radial nerve divides into superficial and deep branches in front of the lateral epicondyle; the deep branch becomes the posterior interosseous nerve after piercing supinator.
+The printed key, and it is one level too high. The radial nerve divides into superficial and deep branches in front of the lateral epicondyle; the deep branch becomes the posterior interosseous nerve after piercing supinator.
 ## correct_answer
 A
 ## main_concept
@@ -3219,7 +3219,7 @@ The ulnar nerve passes down the medial side of the arm beside the medial head of
 ## answer_d
 It is inserted into the olecranon process.
 ## explanation_d
-Correct. The three heads join in a common tendon inserted into the upper surface of the olecranon process of the ulna.
+The three heads join in a common tendon inserted into the upper surface of the olecranon process of the ulna.
 ## correct_answer
 D
 ## main_concept
@@ -3304,7 +3304,7 @@ The lateral cord, not the medial. The medial cord gives the ulnar nerve, the med
 ## answer_c
 becomes the lateral cutaneous nerve of the forearm lateral to the biceps tendon.
 ## explanation_c
-Correct. It emerges at the lateral border of the biceps tendon, pierces the deep fascia and becomes the lateral cutaneous nerve of the forearm, supplying the skin of the lateral side of the forearm.
+It emerges at the lateral border of the biceps tendon, pierces the deep fascia and becomes the lateral cutaneous nerve of the forearm, supplying the skin of the lateral side of the forearm.
 ## answer_d
 supplies the brachioradialis muscle.
 ## explanation_d
@@ -3389,11 +3389,11 @@ Extension of the forearm is triceps, in the posterior compartment. Biceps is a f
 ## answer_b
 flexion and supination of the forearm
 ## explanation_b
-Correct. Biceps flexes the elbow and supinates the forearm, and it is the supination that makes it the powerful muscle of that movement.
+Biceps flexes the elbow and supinates the forearm, and it is the supination that makes it the powerful muscle of that movement.
 ## answer_c
 pronation of the forearm
 ## explanation_c
-The key the book prints, and it is reversed. Pronation is pronator teres and pronator quadratus; biceps opposes them.
+The printed key, and it is reversed. Pronation is pronator teres and pronator quadratus; biceps opposes them.
 ## answer_d
 flexion of the wrist
 ## explanation_d
@@ -3474,7 +3474,7 @@ The brachial artery, choose the correct answer: (IPKA) Vi ad
 ## answer_a
 Commences at the upper border of teres major.
 ## explanation_a
-The key the book prints, and the border is wrong. The axillary artery runs from the outer border of the first rib to the lower border of teres major, and the brachial artery takes over there; the upper border of teres major is still axillary.
+The printed key, and the border is wrong. The axillary artery runs from the outer border of the first rib to the lower border of teres major, and the brachial artery takes over there; the upper border of teres major is still axillary.
 ## answer_b
 It is in direct contact with the humerus.
 ## explanation_b
@@ -3486,7 +3486,7 @@ The wrong side of the tendon. In the cubital fossa the biceps tendon is lateral 
 ## answer_d
 It ends opposite neck of radius.
 ## explanation_d
-Correct. It divides into the radial and ulnar arteries about one centimetre below the elbow joint, opposite the neck of the radius.
+It divides into the radial and ulnar arteries about one centimetre below the elbow joint, opposite the neck of the radius.
 ## answer_e
 Is accompanied throughout its course by the basilic vein.
 ## explanation_e
@@ -3567,7 +3567,7 @@ The brachial artery, select the true answer: (2022) Ac em
 ## answer_a
 In the cubital fossa, it lies medial to the biceps tendon.
 ## explanation_a
-Correct. In the cubital fossa the order from medial to lateral is median nerve, brachial artery, biceps tendon — so the artery lies medial to the tendon, and that is how it is found for a pulse.
+In the cubital fossa the order from medial to lateral is median nerve, brachial artery, biceps tendon — so the artery lies medial to the tendon, and that is how it is found for a pulse.
 ## answer_b
 Bifurcates opposite the neck of the humerus.
 ## explanation_b
@@ -3656,7 +3656,7 @@ The contents of cubital fossa include (2024)
 ## answer_a
 Brachial artery
 ## explanation_a
-Correct. The contents from medial to lateral are the median nerve, the brachial artery with the beginnings of the radial and ulnar arteries, the biceps tendon, and the radial nerve.
+The contents from medial to lateral are the median nerve, the brachial artery with the beginnings of the radial and ulnar arteries, the biceps tendon, and the radial nerve.
 ## answer_b
 Musculocutaneous nerve
 ## explanation_b
@@ -3745,7 +3745,7 @@ The coracoid process of the scapula gives attachment to: (DEP BOOK) em em em em 
 ## answer_a
 Pectoralis minor
 ## explanation_a
-Correct. Pectoralis minor is inserted into the medial border and upper surface of the coracoid process; the short head of biceps and coracobrachialis take its tip.
+Pectoralis minor is inserted into the medial border and upper surface of the coracoid process; the short head of biceps and coracobrachialis take its tip.
 ## answer_b
 Capsule of shoulder joint
 ## explanation_b
@@ -3842,11 +3842,11 @@ The commonest wrong answer, and it is one bone out. Biceps is inserted into the 
 ## answer_c
 Triceps brachii.
 ## explanation_c
-The key the book prints, and it is the wrong end of the ulna. Triceps takes the olecranon behind; the coronoid process is in front.
+The printed key, and it is the wrong end of the ulna. Triceps takes the olecranon behind; the coronoid process is in front.
 ## answer_d
 Brachialis. Acad 28 | a g e iP iP
 ## explanation_d
-Correct. Brachialis descends from the lower half of the humerus to the coronoid process and the tuberosity of the ulna.
+Brachialis descends from the lower half of the humerus to the coronoid process and the tuberosity of the ulna.
 ## correct_answer
 D
 ## main_concept
@@ -3931,7 +3931,7 @@ The short head is musculocutaneous like the long head. The two heads of biceps s
 ## answer_c
 Brachialis.
 ## explanation_c
-Correct. Brachialis is the exception among the flexors: its lateral part receives a branch from the radial nerve, which is why it appears on a list of radial-supplied muscles at all.
+Brachialis is the exception among the flexors: its lateral part receives a branch from the radial nerve, which is why it appears on a list of radial-supplied muscles at all.
 ## answer_d
 Coracobrachialis.
 ## explanation_d
@@ -4012,11 +4012,11 @@ The lateral intermuscular septum, choose the correct answer: (DEP BOOK) Ac em
 ## answer_a
 Pierced by the ulnar nerve
 ## explanation_a
-The key the book prints, and it is the medial septum's answer. On this page the medial-septum question sits directly below, and A is its answer, not this one's. The lateral septum is pierced by the radial nerve with the radial collateral artery.
+The printed key, and it is the medial septum's answer. On this page the medial-septum question sits directly below, and A is its answer, not this one's. The lateral septum is pierced by the radial nerve with the radial collateral artery.
 ## answer_b
 Gives origin to brachialis muscle
 ## explanation_b
-Correct. Brachialis arises from the lower half of the front of the humerus and from both intermuscular septa; the lateral septum also gives origin to brachioradialis and extensor carpi radialis longus.
+Brachialis arises from the lower half of the front of the humerus and from both intermuscular septa; the lateral septum also gives origin to brachioradialis and extensor carpi radialis longus.
 ## answer_c
 Gives attachment to the lateral head of triceps
 ## explanation_c
@@ -4101,7 +4101,7 @@ The musculocutaneous nerve passes through which muscle?
 ## answer_a
 coracobrachialis
 ## explanation_a
-Correct. The nerve leaves the lateral cord, pierces coracobrachialis obliquely, and emerges to descend between biceps and brachialis.
+The nerve leaves the lateral cord, pierces coracobrachialis obliquely, and emerges to descend between biceps and brachialis.
 ## answer_b
 short head of biceps
 ## explanation_b
@@ -4194,7 +4194,7 @@ The musculocutaneous nerve passes through which muscle? (IPKA - 2021)
 ## answer_a
 Coracobrachialis P
 ## explanation_a
-Correct. The musculocutaneous nerve pierces coracobrachialis, which is why that muscle is sometimes called perforatus.
+The musculocutaneous nerve pierces coracobrachialis, which is why that muscle is sometimes called perforatus.
 ## answer_b
 Short head of biceps
 ## explanation_b
@@ -4202,7 +4202,7 @@ The nerve runs deep to the short head of biceps without entering it.
 ## answer_c
 Brachialis
 ## explanation_c
-The key the book prints, and the confusion is between supplying and piercing. Brachialis is supplied by the nerve and lies immediately behind it, but the nerve passes in front of it, not through it.
+The printed key, and the confusion is between supplying and piercing. Brachialis is supplied by the nerve and lies immediately behind it, but the nerve passes in front of it, not through it.
 ## answer_d
 Medial cutaneous nerve of arm
 ## explanation_d
@@ -4287,7 +4287,7 @@ The musculocutaneous nerve pierces which muscle? (2022) em em em em em
 ## answer_a
 Coracobrachialis
 ## explanation_a
-Correct. Coracobrachialis is the muscle the nerve pierces on its way from the axilla into the arm.
+Coracobrachialis is the muscle the nerve pierces on its way from the axilla into the arm.
 ## answer_b
 Short head of biceps
 ## explanation_b
@@ -4384,7 +4384,7 @@ Biceps is a superficial muscle whose tendon lies in the middle of the fossa; the
 ## answer_c
 Pierces the lateral intermuscular septum and passes between brachialis and both brachioradialis
 ## explanation_c
-Correct. It pierces the lateral intermuscular septum about halfway down the arm and comes to lie in the groove between brachialis medially and brachioradialis and extensor carpi radialis longus laterally.
+It pierces the lateral intermuscular septum about halfway down the arm and comes to lie in the groove between brachialis medially and brachioradialis and extensor carpi radialis longus laterally.
 ## answer_d
 Passes between extensor capri radialis longus and brevis
 ## explanation_d
@@ -4465,7 +4465,7 @@ The ulnar collateral ligament:
 ## answer_a
 Attached to the medial epicondyle of the humerus
 ## explanation_a
-Correct. All three bands — anterior, posterior and oblique — spring from the medial epicondyle, which is what makes the ligament triangular.
+All three bands — anterior, posterior and oblique — spring from the medial epicondyle, which is what makes the ligament triangular.
 ## answer_b
 Attached to the lateral border of coronoid process of ulna
 ## explanation_b
@@ -4554,7 +4554,7 @@ The ulnar collateral ligament, choose the correct answer: (DEP BOOK)
 ## answer_a
 Attached to the medial epicondyle of the humerus
 ## explanation_a
-Correct. The medial epicondyle is the attachment shared by all three bands of the ligament, and it is the answer the question wants.
+The medial epicondyle is the attachment shared by all three bands of the ligament, and it is the answer the question wants.
 ## answer_b
 Attached to the medial border of olecranon process of ulna
 ## explanation_b
@@ -4643,7 +4643,7 @@ Which tendon is intracapsular extrasynovial of the shoulder joint, mark the corr
 ## answer_a
 Long head of biceps brachii
 ## explanation_a
-Correct. Arising from the supraglenoid tubercle, the tendon crosses the joint inside the capsule, invested by a sleeve of synovial membrane that keeps it out of the cavity, and leaves through the intertubercular groove.
+Arising from the supraglenoid tubercle, the tendon crosses the joint inside the capsule, invested by a sleeve of synovial membrane that keeps it out of the cavity, and leaves through the intertubercular groove.
 ## answer_b
 Short head of biceps brachii
 ## explanation_b
@@ -4736,7 +4736,7 @@ Which tendon is intracapsular extrasynovial of the shoulder 1 joint, mark the co
 ## answer_a
 Long head of biceps brachii
 ## explanation_a
-Correct. The tendon runs from the supraglenoid tubercle across the head of the humerus inside the capsule, wrapped in a synovial sheath that keeps it extrasynovial.
+The tendon runs from the supraglenoid tubercle across the head of the humerus inside the capsule, wrapped in a synovial sheath that keeps it extrasynovial.
 ## answer_b
 Short head of biceps brachii
 ## explanation_b
@@ -4825,7 +4825,7 @@ Regarding the elbow joint, choose the correct answer:
 ## answer_a
 It is formed by articulation of the lower end of humerus and the upper ends
 ## explanation_a
-Correct. Three bones meet here — the lower end of the humerus above, the upper ends of the ulna and radius below — which is what makes the elbow the department book's type example of a compound joint.
+Three bones meet here — the lower end of the humerus above, the upper ends of the ulna and radius below — which is what makes the elbow a textbook example of a compound joint.
 ## answer_b
 Its flexion is produced by corobrachialis
 ## explanation_b
@@ -4914,7 +4914,7 @@ An example of a secondary cartilaginous joint (DEP BOOK – 2016). Ac P Vi a- In
 ## answer_a
 Intervertebral.
 ## explanation_a
-Correct. Two vertebral bodies, each capped by thin hyaline cartilage, are united by a white fibrocartilaginous disc in the midline, permanently and with slight movement — every criterion of a secondary cartilaginous joint.
+Two vertebral bodies, each capped by thin hyaline cartilage, are united by a white fibrocartilaginous disc in the midline, permanently and with slight movement — every criterion of a secondary cartilaginous joint.
 ## answer_b
 Skull sutures.
 ## explanation_b
@@ -4926,7 +4926,7 @@ The sacroiliac joint tempts because it is axial and barely mobile, so it feels l
 ## answer_d
 Distal tibioﬁbular.
 ## explanation_d
-The distal (inferior) tibio-fibular joint is the department book's example of a syndesmosis, a fibrous joint held by an interosseous ligament. Chosen when "held by tissue rather than a cavity" is read as cartilaginous.
+The distal (inferior) tibio-fibular joint is a syndesmosis, a fibrous joint held by an interosseous ligament. Chosen when "held by tissue rather than a cavity" is read as cartilaginous.
 ## correct_answer
 A
 ## main_concept
@@ -5003,7 +5003,7 @@ In what joint is the root of the tooth attached to a periodontal ligament and he
 ## answer_a
 Gomphosis.
 ## explanation_a
-Correct. A gomphosis is a peg-in-socket fibrous joint, and the peg is a tooth root: the periodontal ligament holding it in the alveolus of the maxilla or mandible is what names it.
+A gomphosis is a peg-in-socket fibrous joint, and the peg is a tooth root: the periodontal ligament holding it in the alveolus of the maxilla or mandible is what names it.
 ## answer_b
 Suture.
 ## explanation_b
@@ -5100,7 +5100,7 @@ Immobile is again the primary joint. The secondary joint's fibrocartilaginous di
 ## answer_c
 It is present in the midline.
 ## explanation_c
-Correct. Secondary cartilaginous joints lie in the median plane — the intervertebral discs, the pubic symphysis, the manubriosternal joint — and position is what the department book gives as their defining character.
+Secondary cartilaginous joints lie in the median plane — the intervertebral discs, the pubic symphysis, the manubriosternal joint — and position is their defining character.
 ## answer_d
 It has a potential cavity.
 ## explanation_d
@@ -5270,7 +5270,7 @@ What is the type of joint that connects the roots of the teeth to their sockets?
 ## answer_a
 Gomphosis
 ## explanation_a
-Correct. Gomphosis is the fibrous peg-in-socket joint, and the tooth in its alveolus held by the periodontal ligament is its only example in the body.
+Gomphosis is the fibrous peg-in-socket joint, and the tooth in its alveolus held by the periodontal ligament is its only example in the body.
 ## answer_b
 Sutures. y
 ## explanation_b
@@ -5359,7 +5359,7 @@ Which of the following contains a joint cavity? (2021)
 ## answer_a
 Knee joint.
 ## explanation_a
-Correct. The knee is a synovial joint, and a synovial joint is the only class with a cavity: potential in health, becoming a real space when effusion, blood or pus collects.
+The knee is a synovial joint, and a synovial joint is the only class with a cavity: potential in health, becoming a real space when effusion, blood or pus collects.
 ## answer_b
 intervertebral disc.
 ## explanation_b
@@ -5448,7 +5448,7 @@ Which of the following is true in respect to the elbow joint? (2022)
 ## answer_a
 It is strengthened by the radial and ulnar collateral ligaments
 ## explanation_a
-Correct. The radial collateral runs from the lateral epicondyle to the anular ligament and the ulnar collateral from the medial epicondyle in three bands to the coronoid process and olecranon; between them they confine the elbow to flexion and extension.
+The radial collateral runs from the lateral epicondyle to the anular ligament and the ulnar collateral from the medial epicondyle in three bands to the coronoid process and olecranon; between them they confine the elbow to flexion and extension.
 ## answer_b
 It is a plane type of synovial joint
 ## explanation_b
@@ -5545,7 +5545,7 @@ The wrong teres. The artery ends at the lower border of teres major and becomes 
 ## answer_c
 It is divided into three parts by the pectoralis minor muscle
 ## explanation_c
-Correct. Pectoralis minor crosses the artery and divides it into a first part above the muscle, a second behind it and a third below it, and the branches are counted by those parts.
+Pectoralis minor crosses the artery and divides it into a first part above the muscle, a second behind it and a third below it, and the branches are counted by those parts.
 ## answer_d
 Its third part is related medially to the median nerve
 ## explanation_d
@@ -5634,7 +5634,7 @@ The word "only" is what makes it false. The sheath encloses the artery as well a
 ## answer_c
 Encloses the axillary artery
 ## explanation_c
-Correct. The axillary artery lies within the sheath with the cords of the brachial plexus around it, which is why anaesthetic injected there reaches all of them.
+The axillary artery lies within the sheath with the cords of the brachial plexus around it, which is why anaesthetic injected there reaches all of them.
 ## answer_d
 It encloses the axillary lymph nodes
 ## explanation_d
@@ -5715,7 +5715,7 @@ The upper trunk of brachial plexus gives origin to; select the correct answers:
 ## answer_a
 Suprascapular nerve
 ## explanation_a
-Correct, and the key. The upper trunk gives only two branches — the nerve to subclavius and the suprascapular nerve — and the suprascapular is the one that matters, running through the suprascapular notch to supraspinatus and infraspinatus.
+This is the key. The upper trunk gives only two branches — the nerve to subclavius and the suprascapular nerve — and the suprascapular is the one that matters, running through the suprascapular notch to supraspinatus and infraspinatus.
 ## answer_b
 Long thoracic nerve
 ## explanation_b
@@ -5808,7 +5808,7 @@ Correct as a distractor because it is the other large branch in the region. The 
 ## answer_b
 Subscapular artery
 ## explanation_b
-Correct, and the key. The subscapular artery is the largest branch of the axillary artery, from its third part, and it gives the circumflex scapular before continuing as the thoracodorsal.
+This is the key. The subscapular artery is the largest branch of the axillary artery, from its third part, and it gives the circumflex scapular before continuing as the thoracodorsal.
 ## answer_c
 Superior ulnar collateral
 ## explanation_c
@@ -5893,7 +5893,7 @@ Regarding lesion of the lower root of the brachial plexus, choose the correct an
 ## answer_a
 There is paralysis of the intrinsic muscles of the hand
 ## explanation_a
-Correct. C8 and T1 fibres reach the lumbricals and interossei mainly through the ulnar nerve, so a lower trunk lesion paralyses the intrinsic muscles and claws the hand.
+C8 and T1 fibres reach the lumbricals and interossei mainly through the ulnar nerve, so a lower trunk lesion paralyses the intrinsic muscles and claws the hand.
 ## answer_b
 It results in ape hand deformity
 ## explanation_b
@@ -5994,7 +5994,7 @@ Pectoralis minor covers only the second part. It crosses the artery rather than 
 ## answer_d
 The axillary vein lies medial to the artery
 ## explanation_d
-Correct. The axillary vein lies on the medial side of the artery throughout, which is why it is the vein that is reached first from the medial side and the vein that a medial-wall injury opens.
+The axillary vein lies on the medial side of the artery throughout, which is why it is the vein that is reached first from the medial side and the vein that a medial-wall injury opens.
 ## correct_answer
 D
 ## main_concept
@@ -6075,7 +6075,7 @@ The wrong border of the right bone. The medial boundary is the outer border of t
 ## answer_b
 Bounded posteriorly by upper border of scapula
 ## explanation_b
-Correct. The canal is bounded in front by the clavicle with subclavius, behind by the upper border of the scapula, and medially by the outer border of the first rib.
+The canal is bounded in front by the clavicle with subclavius, behind by the upper border of the scapula, and medially by the outer border of the first rib.
 ## answer_c
 The roots of brachial plexus pass through it
 ## explanation_c
@@ -6168,7 +6168,7 @@ The upper trunk gives the nerve to subclavius and the suprascapular nerve, and b
 ## answer_c
 Roots of brachial plexus
 ## explanation_c
-Correct. The dorsal scapular nerve comes straight off the C5 root and pierces scalenus medius, which is why it can be injured by a lesion too proximal to touch any trunk.
+The dorsal scapular nerve comes straight off the C5 root and pierces scalenus medius, which is why it can be injured by a lesion too proximal to touch any trunk.
 ## answer_d
 Medial cord of brachial plexus
 ## explanation_d
@@ -6253,7 +6253,7 @@ The medial pectoral nerve comes from the medial cord, alongside the ulnar and th
 ## answer_b
 Dorsal scapular nerve
 ## explanation_b
-Correct. The dorsal scapular nerve leaves the C5 root before the trunks form, with the long thoracic nerve — the plexus's only two root branches.
+The dorsal scapular nerve leaves the C5 root before the trunks form, with the long thoracic nerve — the plexus's only two root branches.
 ## answer_c
 Axillary nerve
 ## explanation_c
@@ -6342,7 +6342,7 @@ The cords lie below and beyond both nerves. The long thoracic nerve has already 
 ## answer_b
 Roots.
 ## explanation_b
-Correct. The long thoracic nerve leaves C5, C6 and C7 and the phrenic nerve leaves C3, C4 and C5, so a lesion at the roots — where the two are neighbours in the neck — takes them both.
+The long thoracic nerve leaves C5, C6 and C7 and the phrenic nerve leaves C3, C4 and C5, so a lesion at the roots — where the two are neighbours in the neck — takes them both.
 ## answer_c
 Trunks.
 ## explanation_c
@@ -6613,7 +6613,7 @@ The answer the extractor read off this page, and the reason for the override. Th
 ## answer_b
 Radial
 ## explanation_b
-Correct. The radial nerve supplies every extensor of the wrist and fingers, so its injury — classically in the spiral groove after a fracture of the humeral shaft — lets the hand hang at the wrist.
+The radial nerve supplies every extensor of the wrist and fingers, so its injury — classically in the spiral groove after a fracture of the humeral shaft — lets the hand hang at the wrist.
 ## answer_c
 Axillary
 ## explanation_c
@@ -6702,7 +6702,7 @@ The dorsal scapular nerve supplies the rhomboids and levator scapulae. Losing it
 ## answer_b
 Long thoracic.
 ## explanation_b
-Correct, and the key. The long thoracic nerve supplies serratus anterior, the muscle that holds the medial border of the scapula against the chest wall.
+This is the key. The long thoracic nerve supplies serratus anterior, the muscle that holds the medial border of the scapula against the chest wall.
 ## answer_c
 Thoracodorsal.
 ## explanation_c
@@ -6799,7 +6799,7 @@ The lateral pectoral nerve is a lateral cord branch, going to the clavicular hea
 ## answer_d
 Ulnar nerve. ١
 ## explanation_d
-Correct. The ulnar nerve is the medial cord's largest branch, carrying C8 and T1 down the medial side of the limb.
+The ulnar nerve is the medial cord's largest branch, carrying C8 and T1 down the medial side of the limb.
 ## correct_answer
 D
 ## main_concept
@@ -6880,7 +6880,7 @@ The profunda brachii is the brachial artery's first and largest branch, arising 
 ## answer_b
 Subscapular artery.
 ## explanation_b
-Correct, and the key. The subscapular artery is the largest branch of the axillary, from the third part.
+This is the key. The subscapular artery is the largest branch of the axillary, from the third part.
 ## answer_c
 Superior ulnar collateral.
 ## explanation_c
@@ -6965,7 +6965,7 @@ One of the following is a branch of the second part of the axillary artery: (201
 ## answer_a
 Lateral thoracic artery
 ## explanation_a
-Correct, and the key. The lateral thoracic artery comes off the second part and runs along the lower border of pectoralis minor to the chest wall and the breast.
+This is the key. The lateral thoracic artery comes off the second part and runs along the lower border of pectoralis minor to the chest wall and the breast.
 ## answer_c
 Posterior circumﬂex humeral artery
 ## explanation_c
@@ -7054,7 +7054,7 @@ One of the following is a branch of the second part of the axillary artery:
 ## answer_a
 Lateral thoracic artery
 ## explanation_a
-Correct. The lateral thoracic artery is the second part's branch to the chest wall and the breast, running along the lower border of pectoralis minor.
+The lateral thoracic artery is the second part's branch to the chest wall and the breast, running along the lower border of pectoralis minor.
 ## answer_b
 Anterior circumflex humeral artery
 ## explanation_b
@@ -7155,7 +7155,7 @@ The axillary vein also lies deep to the fascia. The vein that pierces it is the 
 ## answer_c
 Lateral pectoral nerve
 ## explanation_c
-Correct, and the key. The lateral pectoral nerve pierces the fascia to reach the deep surface of pectoralis major, one of the four structures that go through it.
+This is the key. The lateral pectoral nerve pierces the fascia to reach the deep surface of pectoralis major, one of the four structures that go through it.
 ## answer_d
 Medial pectoral nerve
 ## explanation_d
@@ -7325,7 +7325,7 @@ Regarding lesion of the lower root of the brachial plexus, choose the correct an
 ## answer_a
 There Is paralysis of the Intrinsic muscles of the hand
 ## explanation_a
-Correct. C8 and T1 supply the small muscles of the hand through the ulnar nerve, so the intrinsics are what a lower trunk lesion costs.
+C8 and T1 supply the small muscles of the hand through the ulnar nerve, so the intrinsics are what a lower trunk lesion costs.
 ## answer_b
 It results in ape hand deformity
 ## explanation_b
@@ -7414,7 +7414,7 @@ Regarding lesion of the lower root of the brachial plexus, the correct answer:
 ## answer_a
 There is paralysis of the intrinsic muscles of the hand
 ## explanation_a
-Correct, and the key. The lumbricals and interossei take their fibres from C8 and T1 through the ulnar nerve, so a lower trunk lesion paralyses them and the hand claws.
+This is the key. The lumbricals and interossei take their fibres from C8 and T1 through the ulnar nerve, so a lower trunk lesion paralyses them and the hand claws.
 ## answer_b
 It results in ape hand deformity
 ## explanation_b
@@ -7503,7 +7503,7 @@ Regarding pectoralis major, mark one correct statement:
 ## answer_a
 Inserted into the lateral lip of the bicipital groove
 ## explanation_a
-Correct. The lateral lip of the bicipital groove takes pectoralis major, the floor takes latissimus dorsi and the medial lip takes teres major.
+The lateral lip of the bicipital groove takes pectoralis major, the floor takes latissimus dorsi and the medial lip takes teres major.
 ## answer_b
 Receives nerve supply from posterior cord of brachial plexus
 ## explanation_b
@@ -7592,7 +7592,7 @@ Regarding pectoralis major muscle, mark one correct statement:
 ## answer_a
 Inserted into the lateral lip of the bicipital groove
 ## explanation_a
-Correct. Lateral lip for pectoralis major, floor for latissimus dorsi, medial lip for teres major — three tendons in one groove.
+Lateral lip for pectoralis major, floor for latissimus dorsi, medial lip for teres major — three tendons in one groove.
 ## answer_b
 Receives nerve supply from posterior cord of brachial plexus
 ## explanation_b
@@ -7689,7 +7689,7 @@ The answer the extractor read off this page, and the reason for the override. Th
 ## answer_c
 It is connected with the neck through the cervicoaxillary canal
 ## explanation_c
-Correct. The apex of the axilla is the cervico-axillary canal, between the clavicle in front, the upper border of the scapula behind and the outer border of the first rib medially.
+The apex of the axilla is the cervico-axillary canal, between the clavicle in front, the upper border of the scapula behind and the outer border of the first rib medially.
 ## answer_d
 The pectoralis major and minor muscles share in the formation of its medial wall
 ## explanation_d
@@ -7778,7 +7778,7 @@ Teres major, not teres minor. The lower border of teres major is where the axill
 ## answer_c
 Its third part is related medially to the ulnar nerve
 ## explanation_c
-Correct. The third part has the ulnar nerve and the medial cutaneous nerve of the forearm on its medial side, the median nerve in front and the radial and axillary nerves behind.
+The third part has the ulnar nerve and the medial cutaneous nerve of the forearm on its medial side, the median nerve in front and the radial and axillary nerves behind.
 ## answer_d
 Its second part is related posteriorly to the axillary nerve. Ac ad
 ## explanation_d
@@ -7867,7 +7867,7 @@ Teres major ends the artery, not teres minor. The two names differ by one word a
 ## answer_c
 It is divided into three parts by the pectoralis minor muscle
 ## explanation_c
-Correct. Pectoralis minor crosses the artery and makes its first, second and third parts, and the branches are learnt by those parts.
+Pectoralis minor crosses the artery and makes its first, second and third parts, and the branches are learnt by those parts.
 ## answer_d
 Its third part is related medially to the median nerve
 ## explanation_d
@@ -7956,7 +7956,7 @@ Lower border of teres major, not teres minor.
 ## answer_c
 It is divided into three parts by the pectoralis minor muscle
 ## explanation_c
-Correct. The three parts of the axillary artery are defined by pectoralis minor crossing it: above, behind and below the muscle.
+The three parts of the axillary artery are defined by pectoralis minor crossing it: above, behind and below the muscle.
 ## answer_d
 Its third part is related medially to the median nerve
 ## explanation_d
@@ -8049,7 +8049,7 @@ Pectoralis minor crosses the artery over its second part alone. Calling it a cov
 ## answer_d
 The axillary vein lies medial to the artery.
 ## explanation_d
-Correct. The axillary vein lies medial to the artery along its whole course, formed at the lower border of teres major and continuing as the subclavian at the outer border of the first rib.
+The axillary vein lies medial to the artery along its whole course, formed at the lower border of teres major and continuing as the subclavian at the outer border of the first rib.
 ## correct_answer
 D
 ## main_concept
@@ -8134,7 +8134,7 @@ Inverted. The ulnar nerve gives no branches in the arm and several in the forear
 ## answer_c
 It passes behind medial epicondyle of humerus.
 ## explanation_c
-Correct. The nerve passes behind the medial epicondyle in a groove on the bone, where it can be rolled under a finger and where a blow gives the sensation in the little finger.
+The nerve passes behind the medial epicondyle in a groove on the bone, where it can be rolled under a finger and where a blow gives the sensation in the little finger.
 ## answer_d
 It supplies extensor carpi ulnaris.
 ## explanation_d
@@ -8219,7 +8219,7 @@ Correct relationship, wrong vein. The bicipital aponeurosis separates the median
 ## answer_b
 The cephalic vein starts at lateral end of dorsal venous arch of the hand
 ## explanation_b
-Correct, and the key. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and stays lateral all the way up.
+This is the key. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and stays lateral all the way up.
 ## answer_c
 The basilic vein pierces the clavipectoral fascia
 ## explanation_c
@@ -8308,7 +8308,7 @@ The bicipital aponeurosis lies under the median cubital vein, not the cephalic, 
 ## answer_b
 The cephalic vein starts at lateral end of dorsal venous arch of the hand
 ## explanation_b
-Correct. Lateral end of the dorsal venous arch for the cephalic vein; the basilic takes the medial end.
+Lateral end of the dorsal venous arch for the cephalic vein; the basilic takes the medial end.
 ## answer_c
 The basilic vein pierces the clavipectoral fascia
 ## explanation_c
@@ -8401,7 +8401,7 @@ The lower part of the axillary vein is the territory of the lateral or humeral g
 ## answer_c
 Lateral thoracic artery.
 ## explanation_c
-Correct. The anterior (pectoral) group lies on the medial wall along the lower border of pectoralis minor with the lateral thoracic vessels, and receives about three quarters of the lymph of the breast.
+The anterior (pectoral) group lies on the medial wall along the lower border of pectoralis minor with the lateral thoracic vessels, and receives about three quarters of the lymph of the breast.
 ## answer_d
 Subscapular artery.
 ## explanation_d
@@ -8490,7 +8490,7 @@ The lower part of the axillary vein belongs to the lateral or humeral group, whi
 ## answer_c
 Lateral thoracic artery
 ## explanation_c
-Correct. Anterior wall, pectoral group, lateral thoracic vessels — the group that takes the greater part of the lymph of the breast.
+Anterior wall, pectoral group, lateral thoracic vessels — the group that takes the greater part of the lymph of the breast.
 ## answer_d
 Subscapular artery
 ## explanation_d
@@ -8850,7 +8850,7 @@ The axillary nerve may be injured due to: (2019) Ac ad Ac ad ad ad
 ## answer_a
 Surgical neck of the humerus fracture.
 ## explanation_a
-Correct. The axillary nerve passes backwards through the quadrangular space and winds round the surgical neck of the humerus against the bone, so a fracture there — or a dislocation of the shoulder — is what takes it.
+The axillary nerve passes backwards through the quadrangular space and winds round the surgical neck of the humerus against the bone, so a fracture there — or a dislocation of the shoulder — is what takes it.
 ## answer_b
 Fracture of the mid shaft of the humerus.
 ## explanation_b
@@ -8943,7 +8943,7 @@ The axillary artery runs down the axilla medial to the humerus and ends at the l
 ## answer_b
 Long head of the biceps.
 ## explanation_b
-Correct. The tendon of the long head of biceps arises from the supraglenoid tubercle, crosses inside the shoulder joint and descends in the intertubercular groove, roofed by the transverse humeral ligament.
+The tendon of the long head of biceps arises from the supraglenoid tubercle, crosses inside the shoulder joint and descends in the intertubercular groove, roofed by the transverse humeral ligament.
 ## answer_c
 Long head of the triceps.
 ## explanation_c
@@ -9036,7 +9036,7 @@ Three trunks: upper from C5 and C6, middle from C7 alone, lower from C8 and T1.
 ## answer_c
 6 divisions
 ## explanation_c
-Correct. Three trunks each divide into an anterior and a posterior division behind the clavicle, giving six divisions — and it is that split which separates flexor supply from extensor supply for the rest of the limb.
+Three trunks each divide into an anterior and a posterior division behind the clavicle, giving six divisions — and it is that split which separates flexor supply from extensor supply for the rest of the limb.
 ## answer_d
 4 cords
 ## explanation_d
@@ -9125,7 +9125,7 @@ Outer border of the first rib, not inner. The outer border is where the subclavi
 ## answer_b
 Bounded posteriorly by upper border of scapula
 ## explanation_b
-Correct. Clavicle and subclavius in front, upper border of the scapula behind, outer border of the first rib medially.
+Clavicle and subclavius in front, upper border of the scapula behind, outer border of the first rib medially.
 ## answer_c
 The roots of brachia! plexus pass through It
 ## explanation_c
@@ -9214,7 +9214,7 @@ The option the scan has echoed into the stem, and it is false: the medial bounda
 ## answer_b
 Bounded posteriorly by upper border of scapula.
 ## explanation_b
-Correct. The posterior boundary of the cervico-axillary canal is the upper border of the scapula.
+The posterior boundary of the cervico-axillary canal is the upper border of the scapula.
 ## answer_c
 The roots of brachial plexus pass through It.
 ## explanation_c
@@ -9307,7 +9307,7 @@ The upper trunk gives the suprascapular nerve and the nerve to subclavius only.
 ## answer_c
 Roots of brachial plexus.
 ## explanation_c
-Correct. The nerve leaves C5 before any trunk forms, which is what makes it a root branch.
+The nerve leaves C5 before any trunk forms, which is what makes it a root branch.
 ## answer_d
 Medial cord of brachial plexus.
 ## explanation_d
@@ -9396,7 +9396,7 @@ The lateral pectoral nerve supplies the clavicular head of pectoralis major, als
 ## answer_c
 Long thoracic nerve
 ## explanation_c
-Correct, and the key. The long thoracic nerve, C5 to C7, runs down on the outer surface of serratus anterior on the medial wall of the axilla — exposed, and so easily injured at axillary clearance.
+This is the key. The long thoracic nerve, C5 to C7, runs down on the outer surface of serratus anterior on the medial wall of the axilla — exposed, and so easily injured at axillary clearance.
 ## answer_d
 Axilla nerve
 ## explanation_d
@@ -9489,7 +9489,7 @@ The lateral pectoral nerve belongs to the lateral cord; the medial cord's counte
 ## answer_d
 Ulnar nerve
 ## explanation_d
-Correct. The ulnar nerve leaves the medial cord carrying C8 and T1 and runs down the medial side of the arm.
+The ulnar nerve leaves the medial cord carrying C8 and T1 and runs down the medial side of the arm.
 ## correct_answer
 D
 ## main_concept
@@ -9566,7 +9566,7 @@ The radial nerve supplies the following muscle in the axilla: (2019)
 ## answer_a
 Long head of triceps.
 ## explanation_a
-Correct, and the key. In the axilla the radial nerve gives branches to the long and medial heads of triceps; the long head is the one it reaches first, before entering the spiral groove.
+This is the key. In the axilla the radial nerve gives branches to the long and medial heads of triceps; the long head is the one it reaches first, before entering the spiral groove.
 ## answer_b
 Lateral head of triceps.
 ## explanation_b
@@ -9663,11 +9663,11 @@ The posterior circumflex humeral is a separate branch of the third part in its o
 ## answer_c
 Shares in anastomoses around surgical neck of humerus
 ## explanation_c
-The anastomosis around the surgical neck of the humerus is made by the anterior and posterior circumflex humeral arteries; the subscapular artery's own contribution is to the scapular anastomosis, through its circumflex scapular branch. The books key this option as correct, and it is defensible only on that looser reading.
+The anastomosis around the surgical neck of the humerus is made by the anterior and posterior circumflex humeral arteries; the subscapular artery's own contribution is to the scapular anastomosis, through its circumflex scapular branch. This option is keyed correct, and it is defensible only on that looser reading.
 ## answer_d
 Gives circumflex scapular artery
 ## explanation_d
-Correct. The subscapular artery gives off the circumflex scapular artery, which passes back through the triangular space to the infraspinous fossa, and then continues as the thoracodorsal artery to latissimus dorsi.
+The subscapular artery gives off the circumflex scapular artery, which passes back through the triangular space to the infraspinous fossa, and then continues as the thoracodorsal artery to latissimus dorsi.
 ## correct_answer
 D
 ## main_concept
@@ -9756,7 +9756,7 @@ The answer the extractor took from this page, and the reason for the override. I
 ## answer_d
 Gives circumﬂex scapular artery
 ## explanation_d
-Correct. The circumflex scapular is the subscapular artery's branch, and the subscapular then continues as the thoracodorsal.
+The circumflex scapular is the subscapular artery's branch, and the subscapular then continues as the thoracodorsal.
 ## correct_answer
 D
 ## main_concept
@@ -9837,7 +9837,7 @@ The root branches of the plexus are the dorsal scapular and the long thoracic ne
 ## answer_b
 Upper trunk
 ## explanation_b
-Correct. The upper trunk gives the nerve to subclavius and the suprascapular nerve, which passes through the suprascapular notch to supraspinatus and infraspinatus.
+The upper trunk gives the nerve to subclavius and the suprascapular nerve, which passes through the suprascapular notch to supraspinatus and infraspinatus.
 ## answer_c
 Middle trunk
 ## explanation_c
@@ -9930,7 +9930,7 @@ Only the dorsal scapular and long thoracic nerves come from the roots.
 ## answer_b
 Upper trunk
 ## explanation_b
-Correct. The upper trunk, C5 and C6, gives the nerve to subclavius and the suprascapular nerve.
+The upper trunk, C5 and C6, gives the nerve to subclavius and the suprascapular nerve.
 ## answer_c
 Middle trunk
 ## explanation_c
@@ -10027,7 +10027,7 @@ The first part gives one branch only, the superior thoracic.
 ## answer_c
 Second part of the axillary artery
 ## explanation_c
-Correct. The second part gives the thoraco-acromial and the lateral thoracic arteries, and the thoraco-acromial turns forwards through the clavipectoral fascia.
+The second part gives the thoraco-acromial and the lateral thoracic arteries, and the thoraco-acromial turns forwards through the clavipectoral fascia.
 ## answer_d
 Third part of the axillary artery
 ## explanation_d
@@ -10120,7 +10120,7 @@ The first part gives only the superior thoracic artery.
 ## answer_c
 Second part of the axillary artery.
 ## explanation_c
-Correct. The second part, behind pectoralis minor, gives the thoraco-acromial and the lateral thoracic.
+The second part, behind pectoralis minor, gives the thoraco-acromial and the lateral thoracic.
 ## answer_d
 Third part of the axillary artery.
 ## explanation_d
@@ -10209,7 +10209,7 @@ The wrong cord. The ulnar nerve is the largest branch of the medial cord; the la
 ## answer_b
 It lies behind the medial epicondyle of the humerus
 ## explanation_b
-Correct. The nerve passes behind the medial epicondyle in a bony groove, where it lies against the bone and can be rolled, struck or compressed.
+The nerve passes behind the medial epicondyle in a bony groove, where it lies against the bone and can be rolled, struck or compressed.
 ## answer_c
 It descends with the long head of the triceps
 ## explanation_c
@@ -10294,7 +10294,7 @@ The upper trunk of brachial plexus gives origin to; select the correct answers: 
 ## answer_a
 Suprascapular nerve.
 ## explanation_a
-Correct, and the key. The suprascapular nerve and the nerve to subclavius are the upper trunk's only two branches.
+This is the key. The suprascapular nerve and the nerve to subclavius are the upper trunk's only two branches.
 ## answer_b
 Long thoracic nerve.
 ## explanation_b
@@ -10391,11 +10391,11 @@ Two is the upper trunk's number of branches — the suprascapular nerve and the 
 ## answer_c
 3
 ## explanation_c
-The answer the books print, and the reason for the override. Three is the number a student reaches by counting only the named nerves they use clinically — ulnar, medial pectoral, medial root of median — and dropping the two medial cutaneous nerves, which are easy to forget precisely because they are purely sensory.
+The printed answer, and the reason for the override. Three is the number a student reaches by counting only the named nerves they use clinically — ulnar, medial pectoral, medial root of median — and dropping the two medial cutaneous nerves, which are easy to forget precisely because they are purely sensory.
 ## answer_e
 5
 ## explanation_e
-Correct. Ulnar, medial root of the median, medial pectoral, medial cutaneous nerve of the arm and medial cutaneous nerve of the forearm — five.
+Ulnar, medial root of the median, medial pectoral, medial cutaneous nerve of the arm and medial cutaneous nerve of the forearm — five.
 ## correct_answer
 E
 ## main_concept
@@ -10480,7 +10480,7 @@ Two is the upper trunk's count.
 ## answer_c
 3
 ## explanation_c
-The count a student reaches by naming only the three motor-bearing nerves and forgetting the two purely sensory medial cutaneous nerves. It is also what the books print as the key, which is why the answer here is set explicitly rather than left to the extraction.
+The count a student reaches by naming only the three motor-bearing nerves and forgetting the two purely sensory medial cutaneous nerves. It is also the printed key, which is why the answer here is set explicitly rather than left to the extraction.
 ## answer_d
 4
 ## explanation_d
@@ -10488,7 +10488,7 @@ Four comes from remembering the two medial cutaneous nerves as one — "the medi
 ## answer_e
 5
 ## explanation_e
-Correct. Five: ulnar, medial root of the median, medial pectoral, medial cutaneous of the arm, medial cutaneous of the forearm.
+Five: ulnar, medial root of the median, medial pectoral, medial cutaneous of the arm, medial cutaneous of the forearm.
 ## correct_answer
 E
 ## main_concept
@@ -10565,7 +10565,7 @@ Which is a branch of medial cord of brachial plexus: (2021)
 ## answer_a
 Medial pectoral nerve.
 ## explanation_a
-Correct. The medial pectoral nerve leaves the medial cord, pierces pectoralis minor and supplies it and the sternocostal head of pectoralis major.
+The medial pectoral nerve leaves the medial cord, pierces pectoralis minor and supplies it and the sternocostal head of pectoralis major.
 ## answer_b
 Lateral pectoral nerve.
 ## explanation_b
@@ -10666,7 +10666,7 @@ Also a branch of the upper trunk, passing laterally to the suprascapular notch.
 ## answer_d
 Thoracodorsal nerve.
 ## explanation_d
-Correct. The thoracodorsal nerve — the nerve to latissimus dorsi — arises from the posterior cord between the upper and lower subscapular nerves.
+The thoracodorsal nerve — the nerve to latissimus dorsi — arises from the posterior cord between the upper and lower subscapular nerves.
 ## correct_answer
 D
 ## main_concept
@@ -10743,7 +10743,7 @@ Which nerve is probably damaged if a patient cannot abduct arm beyond 15°:(DEP 
 ## answer_a
 Axillary
 ## explanation_a
-Correct, and the key. Supraspinatus initiates abduction through the first fifteen degrees; carrying it further is deltoid, and deltoid is the axillary nerve's muscle. A patient who starts the movement and then cannot continue it has lost the axillary nerve.
+This is the key. Supraspinatus initiates abduction through the first fifteen degrees; carrying it further is deltoid, and deltoid is the axillary nerve's muscle. A patient who starts the movement and then cannot continue it has lost the axillary nerve.
 ## answer_b
 Radial. P
 ## explanation_b
@@ -11099,7 +11099,7 @@ Demarcation channels is important in ....... Formation
 ## answer_a
 Platelets
 ## explanation_a
-Correct. The channels cut the megakaryocyte cytoplasm into platelet ribbons, which fragment into platelets.
+The channels cut the megakaryocyte cytoplasm into platelet ribbons, which fragment into platelets.
 ## answer_b
 Reticulocytes
 ## explanation_b
@@ -11200,7 +11200,7 @@ The granulomere is named for its granules. Its microtubule content is not what d
 ## answer_d
 Hyalomere of microtubules in peripheral zone
 ## explanation_d
-Correct. The marginal bundle of microtubules runs around the periphery within the hyalomere, and it is what holds the resting platelet in its discoid shape.
+The marginal bundle of microtubules runs around the periphery within the hyalomere, and it is what holds the resting platelet in its discoid shape.
 ## correct_answer
 D
 ## main_concept
@@ -11289,7 +11289,7 @@ An erythrocyte is a biconcave disc filled with haemoglobin and has no granules a
 ## answer_d
 Platelets
 ## explanation_d
-Correct. Hyalomere and granulomere are the platelet's two zones, and the terms are used of nothing else.
+Hyalomere and granulomere are the platelet's two zones, and the terms are used of nothing else.
 ## correct_answer
 D
 ## main_concept
@@ -11374,7 +11374,7 @@ Serotonin is in the delta granules, not the alpha. Alpha granules hold clotting 
 ## answer_c
 Delta granules that contain ATP
 ## explanation_c
-Correct. Delta, or dense, granules hold ADP, ATP, calcium and serotonin, and they lie in the granulomere.
+Delta, or dense, granules hold ADP, ATP, calcium and serotonin, and they lie in the granulomere.
 ## answer_d
 Lambda granules that contain clotting factor
 ## explanation_d
@@ -11467,7 +11467,7 @@ A mast cell is filled with coarse metachromatic granules throughout, with no cle
 ## answer_d
 platelets
 ## explanation_d
-Correct. Hyalomere and granulomere are the platelet's two zones.
+Hyalomere and granulomere are the platelet's two zones.
 ## correct_answer
 D
 ## main_concept
@@ -11556,7 +11556,7 @@ True, but not the whole answer. The open (surface-connected) canalicular system 
 ## answer_d
 All the above
 ## explanation_d
-Correct. All three are hyalomere contents, and between them they perform every mechanical step the platelet takes.
+All three are hyalomere contents, and between them they perform every mechanical step the platelet takes.
 ## correct_answer
 D
 ## main_concept
@@ -11726,7 +11726,7 @@ number of platelets are ……………
 ## answer_b
 200,000 – 400,000
 ## explanation_b
-Correct. The normal platelet count is roughly 150,000–400,000 per mm³.
+The normal platelet count is roughly 150,000–400,000 per mm³.
 ## answer_c
 4000 – 11,000
 ## explanation_c
@@ -11815,7 +11815,7 @@ Mesenchymal cells give rise to connective tissue, not to blood platelets.
 ## answer_b
 Megakaryocytes
 ## explanation_b
-Correct. Platelets are fragments shed from megakaryocytes in the bone marrow.
+Platelets are fragments shed from megakaryocytes in the bone marrow.
 ## answer_c
 Pericytes
 ## explanation_c
@@ -11908,7 +11908,7 @@ Undifferentiated mesenchymal cells give rise to connective tissue, not to platel
 ## answer_c
 megakaryocyte
 ## explanation_c
-Correct. Platelets are shed from megakaryocytes in the bone marrow.
+Platelets are shed from megakaryocytes in the bone marrow.
 ## answer_d
 fibroblast
 ## explanation_d
@@ -11993,7 +11993,7 @@ A monocyte is a mature circulating cell and does not fragment.
 ## answer_b
 Megakaryocyte
 ## explanation_b
-Correct. Demarcation channels divide megakaryocyte cytoplasm into ribbons, which then break into individual platelets.
+Demarcation channels divide megakaryocyte cytoplasm into ribbons, which then break into individual platelets.
 ## answer_c
 Reticulocyte
 ## explanation_c
@@ -12090,7 +12090,7 @@ True, but not the whole answer. A prolonged bleeding time and excessive bleeding
 ## answer_d
 All the above
 ## explanation_d
-Correct. The count, its cause and its consequence are all part of the picture, and a student who stops at the first true option has answered only a third of it.
+The count, its cause and its consequence are all part of the picture, and a student who stops at the first true option has answered only a third of it.
 ## correct_answer
 D
 ## main_concept
@@ -12167,7 +12167,7 @@ The following originate from megakaryocyte:
 ## answer_a
 Platelets
 ## explanation_a
-Correct. Platelets are shed from megakaryocyte cytoplasm.
+Platelets are shed from megakaryocyte cytoplasm.
 ## answer_b
 Erythrocytes
 ## explanation_b
@@ -12256,7 +12256,7 @@ The right atrium receives blood from:
 ## answer_a
 Superior and inferior vena cava
 ## explanation_a
-Correct. The right atrium receives deoxygenated blood from all parts of the body through the superior and inferior venae cavae.
+The right atrium receives deoxygenated blood from all parts of the body through the superior and inferior venae cavae.
 ## answer_b
 Pulmonary artery
 ## explanation_b
@@ -12357,7 +12357,7 @@ The right vessel with the wrong blood. The aorta does carry blood to all the tis
 ## answer_d
 Oxygenated blood passes through the aorta to all tissues of the body
 ## explanation_d
-Correct. Oxygenated blood leaves the left ventricle through the aorta and its branches and reaches all the tissues of the body — the definition of the systemic circulation.
+Oxygenated blood leaves the left ventricle through the aorta and its branches and reaches all the tissues of the body — the definition of the systemic circulation.
 ## correct_answer
 D
 ## main_concept
@@ -12442,7 +12442,7 @@ A description of the systemic circulation with the wrong blood in it. Veins do c
 ## answer_c
 Oxygenated blood returns from the lung to the left atrium.
 ## explanation_c
-Correct, and the override. After gas exchange in the lungs the oxygenated blood returns to the left atrium through the four pulmonary veins — the only vessels named "vein" in the body that carry arterial blood.
+This is the overridden answer. After gas exchange in the lungs the oxygenated blood returns to the left atrium through the four pulmonary veins — the only vessels named "vein" in the body that carry arterial blood.
 ## answer_d
 Deoxygenated blood passes through the aorta to all tissues of the body.
 ## explanation_d
@@ -12523,7 +12523,7 @@ Regarding the portal circulation, which of the following statements is true? (DE
 ## answer_a
 The venous blood from the digestive system enters the liver through the portal vein
 ## explanation_a
-Correct. The portal vein collects venous blood from the digestive organs and the spleen and delivers it to the liver, where it is metabolised and detoxified before rejoining the general circulation.
+The portal vein collects venous blood from the digestive organs and the spleen and delivers it to the liver, where it is metabolised and detoxified before rejoining the general circulation.
 ## answer_b
 The venous blood leaves the liver through the portal vein. ad
 ## explanation_b
@@ -12612,7 +12612,7 @@ Most common cell in Connective tissue is :
 ## answer_a
 Fibroblast
 ## explanation_a
-Correct. The fibroblast is the commonest cell of connective tissue proper — it is the cell that built the tissue.
+The fibroblast is the commonest cell of connective tissue proper — it is the cell that built the tissue.
 ## answer_b
 Plasma cells
 ## explanation_b
@@ -12713,7 +12713,7 @@ True, so not the exception. In dense connective tissue there is little but colla
 ## answer_d
 Cannot undergo cell division
 ## explanation_d
-True as the books mean it, so not the exception. The fibroblast is a differentiated cell and does not divide in ordinary circumstances; new fibroblasts come from undifferentiated mesenchymal cells and pericytes, and mitoses appear only when a wound demands them.
+True, so not the exception. The fibroblast is a differentiated cell and does not divide in ordinary circumstances; new fibroblasts come from undifferentiated mesenchymal cells and pericytes, and mitoses appear only when a wound demands them.
 ## correct_answer
 A
 ## main_concept
@@ -12798,7 +12798,7 @@ Macrophages digest — including old collagen. They are the demolition half of t
 ## answer_c
 Fibroblasts
 ## explanation_c
-Correct. Fibroblasts synthesise collagen, and in connective tissue proper they are the main source of it.
+Fibroblasts synthesise collagen, and in connective tissue proper they are the main source of it.
 ## answer_d
 plasma cells
 ## explanation_d
@@ -12879,7 +12879,7 @@ Which connective tissue cell type produces collagen?
 ## answer_a
 Fibroblast
 ## explanation_a
-Correct. The fibroblast.
+The fibroblast.
 ## answer_b
 Connective tissue macrophage
 ## explanation_b
@@ -12976,7 +12976,7 @@ Macrophages break the matrix down during remodelling; they do not lay it down.
 ## answer_c
 Fibroblasts
 ## explanation_c
-Correct. The fibroblast makes both the fibres and the ground substance they lie in.
+The fibroblast makes both the fibres and the ground substance they lie in.
 ## answer_d
 plasma cells
 ## explanation_d
@@ -13057,7 +13057,7 @@ Elastic fibers are formed by:
 ## answer_a
 fibroblasts
 ## explanation_a
-Correct. The fibroblast secretes elastin and fibrillin as well as collagen — one cell makes all three fibre types.
+The fibroblast secretes elastin and fibrillin as well as collagen — one cell makes all three fibre types.
 ## answer_b
 macrophages
 ## explanation_b
@@ -13324,7 +13324,7 @@ A Female was exposed to car accident while driving, resulting in many wounds In 
 ## answer_a
 Fibroblasts
 ## explanation_a
-Correct. The fibrocyte reverts to an active fibroblast and lays down the collagen that closes the wound.
+The fibrocyte reverts to an active fibroblast and lays down the collagen that closes the wound.
 ## answer_b
 Fat cells
 ## explanation_b
@@ -13425,7 +13425,7 @@ Half right the other way: the plasma cell is one of the two, and the macrophage 
 ## answer_d
 Fibroblast and plasma cells
 ## explanation_d
-Correct. The fibroblast, exporting collagen, and the plasma cell, exporting antibody, are the two protein-secreting cells of connective tissue, and both are deeply basophilic for the same reason.
+The fibroblast, exporting collagen, and the plasma cell, exporting antibody, are the two protein-secreting cells of connective tissue, and both are deeply basophilic for the same reason.
 ## correct_answer
 D
 ## main_concept
@@ -13510,7 +13510,7 @@ The monocyte is a blood cell with pale non-granular cytoplasm and lysosomes; its
 ## answer_c
 Plasma cells
 ## explanation_c
-Correct. The plasma cell is packed with rough endoplasmic reticulum, which is why its cytoplasm is the most deeply basophilic in connective tissue.
+The plasma cell is packed with rough endoplasmic reticulum, which is why its cytoplasm is the most deeply basophilic in connective tissue.
 ## answer_d
 Adipocytes
 ## explanation_d
@@ -13692,7 +13692,7 @@ True but incomplete. A steroid-secreting endocrine cell is built on smooth ER.
 ## answer_d
 a,c
 ## explanation_d
-Correct. Liver cells and steroid-forming endocrine cells, the two classic sites.
+Liver cells and steroid-forming endocrine cells, the two classic sites.
 ## correct_answer
 D
 ## main_concept
@@ -13769,11 +13769,11 @@ smooth endoplasmic reticulum is seen in:
 ## answer_a
 liver cells
 ## explanation_a
-Correct. The liver cell — for lipid and steroid synthesis and for the detoxification of drugs.
+The liver cell — for lipid and steroid synthesis and for the detoxification of drugs.
 ## answer_b
 muscle cells
 ## explanation_b
-The muscle cell has a specialised form of it, the sarcoplasmic reticulum, which stores calcium; but the cell the books name for smooth ER is the hepatocyte.
+The muscle cell has a specialised form of it, the sarcoplasmic reticulum, which stores calcium; but the cell associated with smooth ER is the hepatocyte.
 ## answer_c
 plasma cells
 ## explanation_c
@@ -13862,7 +13862,7 @@ The fibroblast exports protein, but structural protein — collagen and elastin.
 ## answer_b
 Plasma cells
 ## explanation_b
-Correct. The plasma cell synthesises and secretes antibody.
+The plasma cell synthesises and secretes antibody.
 ## answer_c
 Mast cells
 ## explanation_c
@@ -13955,7 +13955,7 @@ Histamine likewise.
 ## answer_c
 Antibodies
 ## explanation_c
-Correct. Antibodies — immunoglobulin — are what the plasma cell exists to make.
+Antibodies — immunoglobulin — are what the plasma cell exists to make.
 ## answer_d
 both a & b are correct
 ## explanation_d
@@ -14040,7 +14040,7 @@ The fibroblast has a large pale oval nucleus with a prominent nucleolus — an a
 ## answer_b
 Plasma cells
 ## explanation_b
-Correct. The plasma cell's eccentric nucleus alternates dark heterochromatin with pale euchromatin in radiating blocks: the cart-wheel, or clock face.
+The plasma cell's eccentric nucleus alternates dark heterochromatin with pale euchromatin in radiating blocks: the cart-wheel, or clock face.
 ## answer_c
 Mast cells
 ## explanation_c
@@ -14137,7 +14137,7 @@ The fibroblast nucleus is a large pale oval with a nucleolus.
 ## answer_d
 plasma cells
 ## explanation_d
-Correct. Clock face and cart wheel are two names for the same radiating chromatin pattern of the plasma cell nucleus.
+Clock face and cart wheel are two names for the same radiating chromatin pattern of the plasma cell nucleus.
 ## correct_answer
 D
 ## main_concept
@@ -14218,7 +14218,7 @@ A fat cell contains one droplet of lipid, not spherical protein inclusions.
 ## answer_b
 Plasma cells
 ## explanation_b
-Correct. Russell bodies are accumulations of immunoglobulin distending the rough endoplasmic reticulum of a plasma cell that is making antibody faster than it can export it.
+Russell bodies are accumulations of immunoglobulin distending the rough endoplasmic reticulum of a plasma cell that is making antibody faster than it can export it.
 ## answer_c
 Phagocytic cells
 ## explanation_c
@@ -14311,11 +14311,11 @@ The macrophage's cytoplasm is pale throughout, so there is no dark background fo
 ## answer_c
 Fibroblasts
 ## explanation_c
-The active fibroblast is basophilic and does have a Golgi, but it is the plasma cell that the books name — its basophilia is the deepest of any connective tissue cell.
+The active fibroblast is basophilic and does have a Golgi, but it is the plasma cell whose basophilia is the deepest of any connective tissue cell.
 ## answer_d
 plasma cells
 ## explanation_d
-Correct. The plasma cell's deeply basophilic cytoplasm makes the unstained Golgi region show as a clear pale area beside the nucleus.
+The plasma cell's deeply basophilic cytoplasm makes the unstained Golgi region show as a clear pale area beside the nucleus.
 ## correct_answer
 D
 ## main_concept
@@ -14396,7 +14396,7 @@ The mast cell comes from the undifferentiated mesenchymal cell, in connective ti
 ## answer_b
 Plasma cell
 ## explanation_b
-Correct. The B lymphocyte, on meeting its antigen and being helped by a T cell, becomes a plasmablast and then a plasma cell.
+The B lymphocyte, on meeting its antigen and being helped by a T cell, becomes a plasmablast and then a plasma cell.
 ## answer_c
 Fibroblast
 ## explanation_c
@@ -14493,7 +14493,7 @@ The histiocyte is the connective tissue macrophage and comes from the monocyte.
 ## answer_d
 Plasma cell
 ## explanation_d
-Correct. The plasma cell.
+The plasma cell.
 ## correct_answer
 D
 ## main_concept
@@ -14574,7 +14574,7 @@ Ingesting organisms is the neutrophil's and macrophage's work. The lymphocyte ha
 ## answer_b
 Differentiate into plasma cells during immune responses
 ## explanation_b
-Correct. On activation it becomes a plasmablast and then a plasma cell, which secretes antibody.
+On activation it becomes a plasmablast and then a plasma cell, which secretes antibody.
 ## answer_c
 Differentiate into macrophage as a result of tissue damage
 ## explanation_c
@@ -14667,7 +14667,7 @@ The plasma cell is the most basophilic cell of all, but again diffusely — a fa
 ## answer_c
 Mast cells
 ## explanation_c
-Correct. The mast cell is packed with coarse basophilic granules, which toluidine blue also stains metachromatically.
+The mast cell is packed with coarse basophilic granules, which toluidine blue also stains metachromatically.
 ## answer_d
 Macrophages
 ## explanation_d
@@ -14748,7 +14748,7 @@ Which one of the following C.T cells has receptors for immunoglobulin E ( IgE ):
 ## answer_a
 Mast cells
 ## explanation_a
-Correct. The mast cell carries IgE receptors on its surface, which is how an allergen triggers it.
+The mast cell carries IgE receptors on its surface, which is how an allergen triggers it.
 ## answer_b
 Macrophages
 ## explanation_b
@@ -14849,7 +14849,7 @@ Antibodies come from the plasma cell. The mast cell binds antibody made by someo
 ## answer_d
 both a & b are correct
 ## explanation_d
-Correct. Heparin and histamine together, and a student who takes the first true option has half the granule.
+Heparin and histamine together, and a student who takes the first true option has half the granule.
 ## correct_answer
 D
 ## main_concept
@@ -14934,11 +14934,11 @@ True but incomplete.
 ## answer_c
 Serotonin
 ## explanation_c
-True but incomplete as the books have it: serotonin is listed among the mast cell's secretions alongside heparin and histamine.
+True but incomplete: serotonin is listed among the mast cell's secretions alongside heparin and histamine.
 ## answer_d
 All of the above
 ## explanation_d
-Correct. All three.
+All three.
 ## correct_answer
 D
 ## main_concept
@@ -14964,7 +14964,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-List the mast cell granule contents as the books give them.
+List the mast cell granule contents.
 ## setting
 Academic
 ## academic_relevance
@@ -15023,7 +15023,7 @@ True, so not the exception.
 ## answer_c
 Serotonin
 ## explanation_c
-True, so not the exception, as the books list it.
+True, so not the exception.
 ## answer_d
 histaminase
 ## explanation_d
@@ -15108,7 +15108,7 @@ The fibroblast makes fibres and ground substance.
 ## answer_b
 Mast cells
 ## explanation_b
-Correct. The mast cell stores both in its granules and releases them together.
+The mast cell stores both in its granules and releases them together.
 ## answer_c
 Plasma cells
 ## explanation_c
@@ -15201,7 +15201,7 @@ The fibrocyte is the same cell resting, and makes even less.
 ## answer_c
 Mast cell
 ## explanation_c
-Correct. The mast cell.
+The mast cell.
 ## answer_d
 Plasma cell
 ## explanation_d
@@ -15294,7 +15294,7 @@ Plasma cell antibody is what sensitised the patient in the first place, but the 
 ## answer_d
 Histamine by mast cells
 ## explanation_d
-Correct. Histamine from mast cell granules produces the vasodilatation, oedema and fall in blood pressure of the allergic reaction.
+Histamine from mast cell granules produces the vasodilatation, oedema and fall in blood pressure of the allergic reaction.
 ## correct_answer
 D
 ## main_concept
@@ -15379,7 +15379,7 @@ Macrophages phagocytose and present antigen; they release no vasoactive amine.
 ## answer_c
 Mast cells
 ## explanation_c
-Correct. Allergen cross-links IgE on the mast cell surface, the granules discharge, and histamine dilates vessels and opens their junctions — flushing, swollen lips and eyelids, and a blood pressure of 90/40.
+Allergen cross-links IgE on the mast cell surface, the granules discharge, and histamine dilates vessels and opens their junctions — flushing, swollen lips and eyelids, and a blood pressure of 90/40.
 ## answer_d
 Plasma cells
 ## explanation_d
@@ -15472,7 +15472,7 @@ The eosinophil is drawn in to terminate the reaction — it destroys histamine w
 ## answer_d
 Basoptill
 ## explanation_d
-Correct. The basophil, the blood counterpart of the mast cell, carries IgE receptors and releases histamine; the vasodilatation and sudden fall in blood pressure that follow are what anaphylaxis is.
+The basophil, the blood counterpart of the mast cell, carries IgE receptors and releases histamine; the vasodilatation and sudden fall in blood pressure that follow are what anaphylaxis is.
 ## correct_answer
 D
 ## main_concept
@@ -15549,7 +15549,7 @@ Metachromatic granules are present in:
 ## answer_a
 mast cells
 ## explanation_a
-Correct. The heparin of the mast cell granule turns toluidine blue purple — metachromasia.
+The heparin of the mast cell granule turns toluidine blue purple — metachromasia.
 ## answer_b
 plasma cells
 ## explanation_b
@@ -15638,7 +15638,7 @@ Which one of the following can be stained metachromatically by toludine blue:
 ## answer_a
 Mast cells
 ## explanation_a
-Correct. The mast cell.
+The mast cell.
 ## answer_b
 Macrophages
 ## explanation_b
@@ -15731,7 +15731,7 @@ The lymphocyte has a thin agranular rim of cytoplasm and no granules to be metac
 ## answer_b
 Mast cells & basophilis
 ## explanation_b
-Correct. The mast cell and the blood basophil, which share their heparin-rich granules, their IgE receptors and this staining reaction.
+The mast cell and the blood basophil, which share their heparin-rich granules, their IgE receptors and this staining reaction.
 ## answer_c
 Mast cells & Plasma cells
 ## explanation_c
@@ -15828,7 +15828,7 @@ The mast cell is mesenchymal in origin and is not a phagocyte.
 ## answer_d
 Blood monocytes
 ## explanation_d
-Correct. The blood monocyte enters the tissue and becomes the macrophage.
+The blood monocyte enters the tissue and becomes the macrophage.
 ## correct_answer
 D
 ## main_concept
@@ -15913,7 +15913,7 @@ Plasma cells come from B lymphocytes.
 ## answer_c
 macrophage
 ## explanation_c
-Correct. In connective tissue the monocyte becomes the macrophage — and in liver the Kupffer cell, in lung the dust cell, in bone the osteoclast, in the brain the microglia.
+In connective tissue the monocyte becomes the macrophage — and in liver the Kupffer cell, in lung the dust cell, in bone the osteoclast, in the brain the microglia.
 ## answer_d
 lymphocytes
 ## explanation_d
@@ -15998,7 +15998,7 @@ The mast cell is mesenchymal. It resembles the basophil, which does come from th
 ## answer_b
 Macrophages
 ## explanation_b
-Correct. The macrophage.
+The macrophage.
 ## answer_c
 Fibroblasts
 ## explanation_c
@@ -16091,7 +16091,7 @@ Histamine secretion is the mast cell's.
 ## answer_c
 phagocytosis
 ## explanation_c
-Correct. Phagocytosis — the cell is named for it, macro-phage, the big eater.
+Phagocytosis — the cell is named for it, macro-phage, the big eater.
 ## answer_d
 exocytosis
 ## explanation_d
@@ -16176,7 +16176,7 @@ The Kupffer cell is the macrophage of the liver sinusoid.
 ## answer_b
 Histiocyte
 ## explanation_b
-Correct. Histiocyte is the connective tissue macrophage's own name.
+Histiocyte is the connective tissue macrophage's own name.
 ## answer_c
 Dust cell
 ## explanation_c
@@ -16265,7 +16265,7 @@ The mast cell binds antigen through IgE and reacts to it; it does not present it
 ## answer_b
 Macrophages
 ## explanation_b
-Correct. The macrophage engulfs the antigen and presents it to the helper T lymphocyte, which is how both immune responses begin.
+The macrophage engulfs the antigen and presents it to the helper T lymphocyte, which is how both immune responses begin.
 ## answer_c
 Fibroblasts
 ## explanation_c
@@ -16350,7 +16350,7 @@ Antigen presenting cells are:
 ## answer_a
 Macrophages + reticular cells
 ## explanation_a
-Correct. Macrophages and reticular cells: the reticular cell of lymphoid tissue is phagocytic and presents antigen, which is why the books pair the two.
+Macrophages and reticular cells: the reticular cell of lymphoid tissue is phagocytic and presents antigen, which is why the two are paired.
 ## answer_b
 Macrophages + plasma cells
 ## explanation_b
@@ -16451,7 +16451,7 @@ The mast cell's nucleus is central, spherical and pale.
 ## answer_d
 Macrophages
 ## explanation_d
-Correct. The macrophage keeps the eccentric kidney-shaped nucleus of the monocyte it came from.
+The macrophage keeps the eccentric kidney-shaped nucleus of the monocyte it came from.
 ## correct_answer
 D
 ## main_concept
@@ -16536,7 +16536,7 @@ The fibroblast is one of the things a pericyte can become, so this reverses the 
 ## answer_c
 undifferentiated mesenchymal cells
 ## explanation_c
-Correct. The pericyte arises from the undifferentiated mesenchymal cell — which is why it keeps the power to become something else.
+The pericyte arises from the undifferentiated mesenchymal cell — which is why it keeps the power to become something else.
 ## answer_d
 macrophages
 ## explanation_d
@@ -16625,7 +16625,7 @@ Macrophages wander through the tissue and are not fixed to vessels.
 ## answer_c
 pericytes
 ## explanation_c
-Correct. The pericyte lies along the capillary, sharing its basement membrane and embracing the endothelium with long processes.
+The pericyte lies along the capillary, sharing its basement membrane and embracing the endothelium with long processes.
 ## answer_d
 plasma cells
 ## explanation_d
@@ -16718,7 +16718,7 @@ True but incomplete. It can become smooth muscle, which is what it already half 
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three, which is the point of calling it undifferentiated.
+All three, which is the point of calling it undifferentiated.
 ## correct_answer
 D
 ## main_concept
@@ -16803,7 +16803,7 @@ The plasma cell is likewise terminal and short-lived.
 ## answer_c
 Pericyte
 ## explanation_c
-Correct. The pericyte lies against the endothelium and can become endothelium after injury.
+The pericyte lies against the endothelium and can become endothelium after injury.
 ## answer_d
 Mast cell
 ## explanation_d
@@ -16892,7 +16892,7 @@ The mast cell opens the vessels in the first minutes of injury but lays down not
 ## answer_b
 Pericytes & Fibroblasts
 ## explanation_b
-Correct. Pericytes divide and differentiate to supply new cells, and fibroblasts lay down the collagen; the pair is what repair needs.
+Pericytes divide and differentiate to supply new cells, and fibroblasts lay down the collagen; the pair is what repair needs.
 ## answer_c
 Reticular cells & Histiocytes
 ## explanation_c
@@ -16981,11 +16981,11 @@ The chondrocyte comes from the chondroblast, in cartilage, and no connective tis
 ## answer_b
 Histiocyte
 ## explanation_b
-The histiocyte is the connective tissue macrophage and comes from the blood monocyte. The books ask this the other way round too — "can pericytes become macrophages?" — and the answer is no both times.
+The histiocyte is the connective tissue macrophage and comes from the blood monocyte. It is also asked the other way round — "can pericytes become macrophages?" — and the answer is no both times.
 ## answer_c
 Fibroblast
 ## explanation_c
-Correct. The fibroblast is one of the three the pericyte gives rise to, and the one repair needs most.
+The fibroblast is one of the three the pericyte gives rise to, and the one repair needs most.
 ## answer_d
 Lymphocyte. ‏ا‎
 ## explanation_d
@@ -17341,7 +17341,7 @@ The histiocyte is the macrophage under its connective tissue name, so options A 
 ## answer_c
 Chondroblasts
 ## explanation_c
-Correct. The chondroblast lays down the type II collagen of cartilage matrix.
+The chondroblast lays down the type II collagen of cartilage matrix.
 ## answer_d
 Adipocyte
 ## explanation_d
@@ -17430,7 +17430,7 @@ The histiocyte is the same cell under another name.
 ## answer_c
 chondroblats
 ## explanation_c
-Correct. The chondroblast makes the collagen of cartilage.
+The chondroblast makes the collagen of cartilage.
 ## answer_d
 adipocytes
 ## explanation_d
@@ -17515,7 +17515,7 @@ The macrophage makes no collagen of any type.
 ## answer_b
 Fibroblasts & reticular cells
 ## explanation_b
-Correct. Type III collagen is the reticular fibre, made by fibroblasts and by the reticular cells of organ stroma, which are themselves modified fibroblasts.
+Type III collagen is the reticular fibre, made by fibroblasts and by the reticular cells of organ stroma, which are themselves modified fibroblasts.
 ## answer_c
 Fibroblasts & mast cells
 ## explanation_c
@@ -17604,7 +17604,7 @@ Free and fixed is the classification of connective tissue cells in general, not 
 ## answer_b
 Unilocular and multilocular
 ## explanation_b
-Correct. Unilocular, with one droplet, and multilocular, with many.
+Unilocular, with one droplet, and multilocular, with many.
 ## answer_c
 Primary and secondary
 ## explanation_c
@@ -17693,7 +17693,7 @@ Multilocular cells make brown fat, whose many droplets and many mitochondria are
 ## answer_b
 Formed mainly of unilocular adipocytes
 ## explanation_b
-Correct. White adipose tissue is made of unilocular cells, each holding one large droplet.
+White adipose tissue is made of unilocular cells, each holding one large droplet.
 ## answer_c
 All of the above
 ## explanation_c
@@ -17790,7 +17790,7 @@ True but incomplete. Multilocular fat cells are what it is made of.
 ## answer_d
 both b & c are correct
 ## explanation_d
-Correct. Multilocular cells producing heat, and the two facts explain each other — many small droplets give a large surface for the mitochondria to work on.
+Multilocular cells producing heat, and the two facts explain each other — many small droplets give a large surface for the mitochondria to work on.
 ## correct_answer
 D
 ## main_concept
@@ -17875,7 +17875,7 @@ White adipocytes insulate against heat loss, which is not the same as generating
 ## answer_c
 Brown adipocytes
 ## explanation_c
-Correct. The brown, multilocular adipocyte burns fat through the thermogenin of its many mitochondria.
+The brown, multilocular adipocyte burns fat through the thermogenin of its many mitochondria.
 ## answer_d
 Mast cells
 ## explanation_d
@@ -17956,7 +17956,7 @@ An obese 40-year-old female suffered from delayed healing of abdominal surgical 
 ## answer_a
 Increased unilocular fat cells.
 ## explanation_a
-Correct. Adipose tissue is poorly vascularised and cell-poor, so a wound through a thick layer of it has a worse blood supply and fewer fibroblasts to work with.
+Adipose tissue is poorly vascularised and cell-poor, so a wound through a thick layer of it has a worse blood supply and fewer fibroblasts to work with.
 ## answer_b
 Increased multilocular fat cells.
 ## explanation_b
@@ -18057,7 +18057,7 @@ The plasma cell secretes antibody into the plasma, which is a secretion but not 
 ## answer_d
 Adipocyte
 ## explanation_d
-Correct. The adipocyte secretes leptin, which inhibits food intake and raises the metabolic rate — fat reporting on its own quantity.
+The adipocyte secretes leptin, which inhibits food intake and raises the metabolic rate — fat reporting on its own quantity.
 ## correct_answer
 D
 ## main_concept
@@ -18134,7 +18134,7 @@ give orange color with fat cell:
 ## answer_a
 sudan III
 ## explanation_a
-Correct. Sudan III stains fat orange, and the section must be a frozen one.
+Sudan III stains fat orange, and the section must be a frozen one.
 ## answer_b
 PAS
 ## explanation_b
@@ -18235,7 +18235,7 @@ Acid phosphatase histochemistry identifies lysosomes and so phagocytes.
 ## answer_d
 Sudan Ill
 ## explanation_d
-Correct. Sudan III.
+Sudan III.
 ## correct_answer
 D
 ## main_concept
@@ -18680,7 +18680,7 @@ It is dominated by collagen. Tissue containing all three fibre types in quantity
 ## answer_d
 Its cells are fibroblasts.
 ## explanation_d
-Correct. Its cells are fibroblasts, in their resting fibrocyte form, lying in rows between the bundles they made.
+Its cells are fibroblasts, in their resting fibrocyte form, lying in rows between the bundles they made.
 ## correct_answer
 D
 ## main_concept
@@ -18846,11 +18846,11 @@ The largest cell in bone marrow is:
 ## answer_a
 Fat cell
 ## explanation_a
-Correct as the book has it: it names the fat cells as the largest cells of the marrow stroma.
+The fat cells are the largest cells of the marrow stroma.
 ## answer_b
 Megakaryocyte
 ## explanation_b
-The megakaryocyte is the largest of the *haemopoietic* cells and is what most students answer — at 100 µm it is enormous, but the book's statement is about the fat cell, and a distended unilocular adipocyte is larger still.
+The megakaryocyte is the largest of the *haemopoietic* cells and is what most students answer — at 100 µm it is enormous, but the largest-cell claim is about the fat cell, and a distended unilocular adipocyte is larger still.
 ## answer_c
 Reticular cell
 ## explanation_c
@@ -18884,7 +18884,7 @@ Hard
 ## question_type
 Normal values
 ## learning_objective
-Name the largest cell in marrow as the department book has it.
+Name the largest cell in marrow.
 ## setting
 Academic
 ## academic_relevance
@@ -18943,7 +18943,7 @@ Lymphocytes are free cells developing in the marrow, not part of its framework.
 ## answer_c
 Reticular cells, fat cells and fibroblasts
 ## explanation_c
-Correct. Reticular cells, fat cells and fibroblasts — the fixed cells of the stroma, with the reticular fibres and the sinusoids.
+Reticular cells, fat cells and fibroblasts — the fixed cells of the stroma, with the reticular fibres and the sinusoids.
 ## answer_d
 Fibroblasts and developing blood cells
 ## explanation_d
@@ -19121,7 +19121,7 @@ True but incomplete. Fat cells, fibroblasts and the sinusoidal endothelium are a
 ## answer_b
 Macrophages and reticular ells
 ## explanation_b
-True but incomplete, and the option the books key this question to. Macrophages and reticular cells are there too.
+True but incomplete, and the keyed option. Macrophages and reticular cells are there too.
 ## answer_c
 Blood forming cells
 ## explanation_c
@@ -19129,7 +19129,7 @@ True but incomplete. The developing blood cells are the free population, and the
 ## answer_d
 All of the above
 ## explanation_d
-Correct. All three groups are present, and naming only one of them describes a third of the marrow.
+All three groups are present, and naming only one of them describes a third of the marrow.
 ## correct_answer
 D
 ## main_concept
@@ -19206,7 +19206,7 @@ Macrophages can be stained with:
 ## answer_a
 Trypan blue.
 ## explanation_a
-Correct. Trypan blue is a vital stain — injected into the living animal — and the macrophage identifies itself by eating it, so the dye granules inside the cell are the demonstration.
+Trypan blue is a vital stain — injected into the living animal — and the macrophage identifies itself by eating it, so the dye granules inside the cell are the demonstration.
 ## answer_b
 Toluidine blue.
 ## explanation_b
@@ -19303,7 +19303,7 @@ Sudan III stains fat orange, on a frozen section, and identifies the adipocyte. 
 ## answer_c
 Toluidine blue.
 ## explanation_c
-Correct. Toluidine blue is blue, and on the sulphated heparin of the mast cell granule it turns violet or magenta red — a colour different from the dye's own, which is what metachromasia means.
+Toluidine blue is blue, and on the sulphated heparin of the mast cell granule it turns violet or magenta red — a colour different from the dye's own, which is what metachromasia means.
 ## answer_d
 Trypan blue.
 ## explanation_d
@@ -19384,7 +19384,7 @@ Mallory trichrome stain can be used for demonstration of:
 ## answer_a
 Collagen fibers.
 ## explanation_a
-Correct. Mallory's trichrome stains collagen fibres blue, and it is one of the three stains the book tabulates against collagen.
+Mallory's trichrome stains collagen fibres blue, and it is one of the three stains tabulated against collagen.
 ## answer_b
 Reticular fibers.
 ## explanation_b
@@ -19396,7 +19396,7 @@ A macrophage is a cell, not a fibre, and it is demonstrated by a vital stain it 
 ## answer_d
 actin microfibers.
 ## explanation_d
-Actin microfilaments are cytoskeletal and intracellular, and the book says all three cytoskeletal systems are hard to see by light microscopy except by immunofluorescence. No trichrome shows them.
+Actin microfilaments are cytoskeletal and intracellular, and all three cytoskeletal systems are hard to see by light microscopy except by immunofluorescence. No trichrome shows them.
 ## correct_answer
 a
 ## main_concept
@@ -19481,7 +19481,7 @@ The macrophage is demonstrated by a vital stain it phagocytoses, trypan blue or 
 ## answer_c
 Mast cell.
 ## explanation_c
-Correct. The mast cell's granules are sulphated and rich in heparin, and heparin is what turns blue toluidine violet-magenta.
+The mast cell's granules are sulphated and rich in heparin, and heparin is what turns blue toluidine violet-magenta.
 ## answer_d
 Pericyte.
 ## explanation_d
@@ -19562,7 +19562,7 @@ The C.T. cell that gives rise to fibroblast is:
 ## answer_a
 Pericyte.
 ## explanation_a
-Correct. The pericyte is the adult mesenchymal stem cell of connective tissue, lying against the capillary wall, and on injury it divides into endothelium, smooth muscle and fibroblasts.
+The pericyte is the adult mesenchymal stem cell of connective tissue, lying against the capillary wall, and on injury it divides into endothelium, smooth muscle and fibroblasts.
 ## answer_b
 Mast cell.
 ## explanation_b
@@ -19574,7 +19574,7 @@ The fat cell also arises from the undifferentiated mesenchymal cell and is an en
 ## answer_d
 Reticular cell.
 ## explanation_d
-The reticular cell is the tempting one, because it can turn phagocytic when stimulated by antigen — but changing behaviour is not differentiating into another cell type, and the book has it arising from the undifferentiated mesenchymal cell rather than giving rise to fibroblasts.
+The reticular cell is the tempting one, because it can turn phagocytic when stimulated by antigen — but changing behaviour is not differentiating into another cell type, and it arises from the undifferentiated mesenchymal cell rather than giving rise to fibroblasts.
 ## correct_answer
 a
 ## main_concept
@@ -19651,7 +19651,7 @@ The mucoid C.T. is Characterized by:
 ## answer_a
 Jelly-like €xCess ground Substance.
 ## explanation_a
-Correct. The excess of soft jelly-like ground substance is what mucoid tissue is: Wharton's jelly of the umbilical cord, the vitreous humour and the dental pulp.
+The excess of soft jelly-like ground substance is what mucoid tissue is: Wharton's jelly of the umbilical cord, the vitreous humour and the dental pulp.
 ## answer_b
 Fat cells predominate.
 ## explanation_b
@@ -19752,7 +19752,7 @@ One of the three. Reticular fibres are the branching network of an organ's strom
 ## answer_d
 Purkinje fiber
 ## explanation_d
-Correct — and not a connective tissue fibre at all. Purkinje fibres are modified cardiac muscle cells conducting the impulse through the ventricle; the word "fibre" in histology names a thread of protein in some places and a whole cell in others, and this option is built on that ambiguity.
+Not a connective tissue fibre at all. Purkinje fibres are modified cardiac muscle cells conducting the impulse through the ventricle; the word "fibre" in histology names a thread of protein in some places and a whole cell in others, and this option is built on that ambiguity.
 ## correct_answer
 D
 ## main_concept
@@ -19829,7 +19829,7 @@ Which is the most abundant fiber in connective tissue?
 ## answer_a
 Collagen fiber
 ## explanation_a
-Correct. Collagen is the most abundant fibre in connective tissue and the most abundant protein in the body — tendon, dermis, bone matrix and organ capsules are all collagen.
+Collagen is the most abundant fibre in connective tissue and the most abundant protein in the body — tendon, dermis, bone matrix and organ capsules are all collagen.
 ## answer_b
 Elastic fiber
 ## explanation_b
@@ -19922,7 +19922,7 @@ Type I collagen is flexible but inelastic — it bends freely and resists being 
 ## answer_b
 Elastic fibers
 ## explanation_b
-Correct. Elastin lets the fibre stretch and spring back, which is why it is concentrated in the aorta, the lung and the skin.
+Elastin lets the fibre stretch and spring back, which is why it is concentrated in the aorta, the lung and the skin.
 ## answer_c
 Reticular fibers
 ## explanation_c
@@ -20007,7 +20007,7 @@ The following CT fibers can branch EXCEPT:
 ## answer_a
 Collagen fibers type I
 ## explanation_a
-Correct, and the exception. The department book's wording is exact: collagen forms "wavy branching bundles formed of non-branching fibres". The bundle divides; the individual type I fibre inside it does not.
+This is the exception. The wording is exact: collagen forms "wavy branching bundles formed of non-branching fibres". The bundle divides; the individual type I fibre inside it does not.
 ## answer_b
 Elastic fibers
 ## explanation_b
@@ -20096,7 +20096,7 @@ The type of tissue that makes up the bulk of the dermis is:
 ## answer_a
 Collagen
 ## explanation_a
-Correct. The dermis is dense irregular connective tissue, and its bulk is collagen bundles interweaving in every plane so that skin resists pull from any direction.
+The dermis is dense irregular connective tissue, and its bulk is collagen bundles interweaving in every plane so that skin resists pull from any direction.
 ## answer_b
 Melanin
 ## explanation_b
@@ -20185,11 +20185,11 @@ Regarding the staining, the following are true EXCEPT:
 ## answer_a
 Elastic fiber stain brown with orcien
 ## explanation_a
-True. Orcein browns elastic fibres, and that is the department book's stain for them.
+True. Orcein browns elastic fibres, and that is the standard stain for them.
 ## answer_b
 Reticular fibers stain pink with H&E
 ## explanation_b
-Correct, and the exception. Reticular fibres are not visible in H&E; that invisibility is the whole reason silver impregnation exists for them, and PAS reddens them because of their sugar.
+This is the exception. Reticular fibres are not visible in H&E; that invisibility is the whole reason silver impregnation exists for them, and PAS reddens them because of their sugar.
 ## answer_c
 Collagen fibers stain pink with H&E
 ## explanation_c
@@ -20274,7 +20274,7 @@ H&E could be used to stain:
 ## answer_a
 collagen fibers + elastic fibers
 ## explanation_a
-Correct, and keyed. Collagen and elastic fibres are both acidophilic and both take eosin pink — which is why H&E cannot tell them apart by colour and the student must use bundling and outline instead.
+This is the keyed answer. Collagen and elastic fibres are both acidophilic and both take eosin pink — which is why H&E cannot tell them apart by colour and the student must use bundling and outline instead.
 ## answer_b
 elastic fibers + reticular fibers
 ## explanation_b
@@ -20375,7 +20375,7 @@ True on its own. PAS reddens them, because of the high sugar content that distin
 ## answer_d
 all of the above
 ## explanation_d
-Correct, and keyed. All three statements hold together, and the reason they do is one fact: a sugar-rich type III collagen takes both a silver and a carbohydrate stain.
+This is the keyed answer. All three statements hold together, and the reason they do is one fact: a sugar-rich type III collagen takes both a silver and a carbohydrate stain.
 ## correct_answer
 D
 ## main_concept
@@ -20460,7 +20460,7 @@ The opposite of the fibre on both counts. Reticular fibres are thin and they bra
 ## answer_c
 Formed of collagen type III
 ## explanation_c
-Correct. Reticular fibres are type III collagen, and their sugar content is what makes them argyrophilic and PAS-positive.
+Reticular fibres are type III collagen, and their sugar content is what makes them argyrophilic and PAS-positive.
 ## answer_d
 Lacking axial periodicity
 ## explanation_d
@@ -20545,11 +20545,11 @@ Bundles belong to type I collagen. The reticular fibre is a network, and the wor
 ## answer_b
 They are formed by chondroblasts & smooth muscle cells
 ## explanation_b
-Chondroblasts make type II collagen, in cartilage. Reticular fibres come from fibroblasts, reticular cells and smooth muscle cells — the chondroblast is borrowed from the row above in the book's own table.
+Chondroblasts make type II collagen, in cartilage. Reticular fibres come from fibroblasts, reticular cells and smooth muscle cells — the chondroblast is borrowed from the row above in the same table.
 ## answer_c
 They are formed mainly of type III collagen fibers
 ## explanation_c
-Correct. Reticular fibres are type III collagen; that identity is what explains both their staining and their fineness.
+Reticular fibres are type III collagen; that identity is what explains both their staining and their fineness.
 ## answer_d
 They are visible by H&E
 ## explanation_d
@@ -20638,7 +20638,7 @@ Elastic fibres are found in organ stroma only where recoil is needed, as in lung
 ## answer_c
 reticular fibers
 ## explanation_c
-Correct. Reticular fibres branch and anastomose into a loose flexible network — the stroma — and the reticular cell that secretes them lives in it.
+Reticular fibres branch and anastomose into a loose flexible network — the stroma — and the reticular cell that secretes them lives in it.
 ## answer_d
 muscle fibers
 ## explanation_d
@@ -20723,7 +20723,7 @@ Type II is cartilage collagen, laid down by chondroblasts as fine fibres in the 
 ## answer_b
 III
 ## explanation_b
-Correct. Reticular fibres are type III collagen, and their high sugar content is what separates them from type I in staining.
+Reticular fibres are type III collagen, and their high sugar content is what separates them from type I in staining.
 ## answer_c
 IV
 ## explanation_c
@@ -20812,11 +20812,11 @@ Type I is the bundled collagen of tendon, bone and dermis — the one a student 
 ## answer_b
 Type III
 ## explanation_b
-Correct. Type III is the reticular fibre.
+Type III is the reticular fibre.
 ## answer_c
 Type V
 ## explanation_c
-Type V is outside the five types the department book tabulates.
+Type V is outside the five types tabulated here.
 ## answer_d
 Type IV
 ## explanation_d
@@ -20897,7 +20897,7 @@ The most common type of collagen in the body is:
 ## answer_a
 Type I
 ## explanation_a
-Correct. Type I is the collagen of connective tissue proper, tendon, bone and organ capsules, and those tissues are most of the body's bulk.
+Type I is the collagen of connective tissue proper, tendon, bone and organ capsules, and those tissues are most of the body's bulk.
 ## answer_b
 Type II
 ## explanation_b
@@ -20986,7 +20986,7 @@ The most common type of collagen is:
 ## answer_a
 Type I
 ## explanation_a
-Correct. Type I, arranged in bundles, is the commonest collagen in the body.
+Type I, arranged in bundles, is the commonest collagen in the body.
 ## answer_b
 Type III
 ## explanation_b
@@ -21075,7 +21075,7 @@ The strongest type of collagen is:
 ## answer_a
 type I
 ## explanation_a
-Correct, and keyed. Type I is the strongest, and it is strongest because it is bundled — many parallel fibres sharing one line of pull, which is what a tendon is.
+This is the keyed answer. Type I is the strongest, and it is strongest because it is bundled — many parallel fibres sharing one line of pull, which is what a tendon is.
 ## answer_b
 type II
 ## explanation_b
@@ -21168,7 +21168,7 @@ Reticular connective tissue is named for its type III fibres; that is what makes
 ## answer_b
 dense collagenous connective tissue
 ## explanation_b
-Correct. Dense collagenous connective tissue — tendon, ligament, dermis, capsule — is bundled type I collagen and little else.
+Dense collagenous connective tissue — tendon, ligament, dermis, capsule — is bundled type I collagen and little else.
 ## answer_c
 mucoid connective tissue
 ## explanation_c
@@ -21253,7 +21253,7 @@ Type IV collagen is in the form of:
 ## answer_a
 granules
 ## explanation_a
-Correct, and keyed. The department book's table gives type IV as granular — a sheet of granules in the basal lamina, not a thread.
+This is the keyed answer. Type IV is granular — a sheet of granules in the basal lamina, not a thread.
 ## answer_b
 fibrils
 ## explanation_b
@@ -21346,7 +21346,7 @@ True. The reticular cell secretes reticular fibres, and those are type III colla
 ## answer_b
 Produce collagen type II
 ## explanation_b
-Correct, and the exception. Type II collagen is cartilage collagen and comes from the chondroblast; the reticular cell never makes it.
+This is the exception. Type II collagen is cartilage collagen and comes from the chondroblast; the reticular cell never makes it.
 ## answer_c
 Present in stroma of organs
 ## explanation_c
@@ -21435,7 +21435,7 @@ Type I is the bundled collagen of tendon and dermis. It lies in the connective t
 ## answer_b
 Type IV collagen protein is abundant
 ## explanation_b
-Correct. The basal lamina is an electron-dense sheet of type IV collagen and glycoproteins, and the epithelium itself makes it.
+The basal lamina is an electron-dense sheet of type IV collagen and glycoproteins, and the epithelium itself makes it.
 ## answer_c
 Type II collagen protein is abundant
 ## explanation_c
@@ -21532,7 +21532,7 @@ Type III makes the reticular lamina, which is the other half of the basement mem
 ## answer_d
 Type IV collagen
 ## explanation_d
-Correct, and keyed. Type IV collagen is the main constituent of the basal lamina.
+This is the keyed answer. Type IV collagen is the main constituent of the basal lamina.
 ## correct_answer
 D
 ## main_concept
@@ -21613,7 +21613,7 @@ Type II is the fine fibre of cartilage matrix, made by chondroblasts.
 ## answer_b
 Type IV.
 ## explanation_b
-Correct. Type IV is the granular collagen of the basal lamina, made by the epithelial cells that sit on it.
+Type IV is the granular collagen of the basal lamina, made by the epithelial cells that sit on it.
 ## answer_c
 Type V.
 ## explanation_c
@@ -21710,7 +21710,7 @@ The right type in the wrong form, and the option that catches most students. Typ
 ## answer_d
 Type IV granules
 ## explanation_d
-Correct, and keyed. Type IV, in granular form — the department book's table gives exactly this pairing.
+This is the keyed answer. Type IV, in granular form — exactly this pairing.
 ## correct_answer
 D
 ## main_concept
@@ -21795,7 +21795,7 @@ epithelial component
 ## answer_c
 reticular lamina
 ## explanation_c
-Correct. The reticular lamina is the connective-tissue component: type III collagen, which is reticular fibre, together with ground substance.
+The reticular lamina is the connective-tissue component: type III collagen, which is reticular fibre, together with ground substance.
 ## answer_d
 a, b
 ## explanation_d
@@ -21888,7 +21888,7 @@ The reticular lamina is the connective-tissue component and is type III collagen
 ## answer_d
 a, b
 ## explanation_d
-Correct. A and B name one layer under two names, so both are right and the combined option is the answer.
+A and B name one layer under two names, so both are right and the combined option is the answer.
 ## correct_answer
 D
 ## main_concept
@@ -21977,7 +21977,7 @@ Reticular fibres — type III — make the reticular lamina, which is a layer of
 ## answer_d
 Type VII collagen
 ## explanation_d
-Correct. Type VII collagen forms the anchoring fibrils.
+Type VII collagen forms the anchoring fibrils.
 ## correct_answer
 D
 ## main_concept
@@ -22070,7 +22070,7 @@ True on its own: the anchoring fibril is the structure. C and D are the same thi
 ## answer_e
 c, d
 ## explanation_e
-Correct. C and D together — type VII collagen in the form of anchoring fibrils is what attaches the basement membrane to the connective tissue.
+C and D together — type VII collagen in the form of anchoring fibrils is what attaches the basement membrane to the connective tissue.
 ## correct_answer
 E
 ## main_concept
@@ -22151,7 +22151,7 @@ False on the central fact of the layer. The basal lamina is largely type IV coll
 ## answer_b
 Reticular lamina is formed of reticular fibers and ground substance
 ## explanation_b
-Correct, and keyed. The reticular lamina is the connective-tissue component — reticular fibres, which are type III collagen, plus ground substance.
+This is the keyed answer. The reticular lamina is the connective-tissue component — reticular fibres, which are type III collagen, plus ground substance.
 ## answer_c
 It is best seen by Janus green
 ## explanation_c
@@ -22236,7 +22236,7 @@ Dense regular collagenous connective tissue is present in:
 ## answer_a
 Tendon
 ## explanation_a
-Correct. A tendon transmits pull along one line, so its collagen bundles all run that way — the definition of regular.
+A tendon transmits pull along one line, so its collagen bundles all run that way — the definition of regular.
 ## answer_b
 Umbilical cord
 ## explanation_b
@@ -22337,7 +22337,7 @@ The aorta is yellow elastic connective tissue.
 ## answer_d
 Capsule of organs
 ## explanation_d
-Correct. An organ capsule is stressed from all directions, so its collagen bundles interweave in different planes — dense irregular.
+An organ capsule is stressed from all directions, so its collagen bundles interweave in different planes — dense irregular.
 ## correct_answer
 D
 ## main_concept
@@ -22422,7 +22422,7 @@ Dense means few cells. Cellularity is a feature of loose areolar tissue, which h
 ## answer_c
 Its main fiber type is collagen
 ## explanation_c
-Correct, and keyed. Collagen is the main fibre of dense white fibrous connective tissue in both its regular and irregular forms.
+This is the keyed answer. Collagen is the main fibre of dense white fibrous connective tissue in both its regular and irregular forms.
 ## answer_d
 It has a large amount of ground substance
 ## explanation_d
@@ -22503,7 +22503,7 @@ Dense regular C.T is of two types:
 ## answer_a
 Collagen and elastic
 ## explanation_a
-Correct. Dense regular tissue comes in a white fibrous form, whose parallel bundles are collagen and which makes tendons and ligaments, and a yellow elastic form, whose parallel fibres are elastin and which makes the ligamenta flava and the vocal ligament.
+Dense regular tissue comes in a white fibrous form, whose parallel bundles are collagen and which makes tendons and ligaments, and a yellow elastic form, whose parallel fibres are elastin and which makes the ligamenta flava and the vocal ligament.
 ## answer_b
 Collagen and reticular
 ## explanation_b
@@ -22515,7 +22515,7 @@ Pairs elastic with reticular and so drops collagen, which is the commoner of the
 ## answer_d
 None of the above
 ## explanation_d
-"None of the above" is only defensible if A is wrong, and A is the department book's own division.
+"None of the above" is only defensible if A is wrong, and A is the standard division.
 ## correct_answer
 A
 ## main_concept
@@ -22596,7 +22596,7 @@ That is the pericyte. The perivascular stem cell around a capillary divides into
 ## answer_b
 Secrete collagen and elastic fibers
 ## explanation_b
-Correct, and keyed. The fibroblast synthesises the connective tissue fibres — collagen, elastic and reticular — and the ground substance they lie in.
+This is the keyed answer. The fibroblast synthesises the connective tissue fibres — collagen, elastic and reticular — and the ground substance they lie in.
 ## answer_c
 large cubical cells
 ## explanation_c
@@ -22685,7 +22685,7 @@ Collagen is laid down by the fibroblast. The mesenchymal cell's contribution is 
 ## answer_b
 Formation of blood cells
 ## explanation_b
-Correct. In bone marrow the undifferentiated mesenchymal cell is the life-long source of the blood cells — the book's own example of why the cell stays undifferentiated into adult life.
+In bone marrow the undifferentiated mesenchymal cell is the life-long source of the blood cells — an example of why the cell stays undifferentiated into adult life.
 ## answer_c
 Secretion of the intercellular matrix
 ## explanation_c
@@ -22778,7 +22778,7 @@ Collagen is a fibre, not a secretion of this kind; it is here because the extrac
 ## answer_c
 heparin
 ## explanation_c
-Correct. Heparin is the anticoagulant of the mast cell granule, and it is also what makes the granule metachromatic with toluidine blue.
+Heparin is the anticoagulant of the mast cell granule, and it is also what makes the granule metachromatic with toluidine blue.
 ## answer_d
 sulfate
 ## explanation_d
@@ -22863,7 +22863,7 @@ The extracellular matrix is the whole ground substance and fibre together. The d
 ## answer_b
 Collagen fibers
 ## explanation_b
-Correct, and keyed. Vitamin C deficiency blocks collagen synthesis, and the wound that will not close and the gum that bleeds are collagen failing.
+This is the keyed answer. Vitamin C deficiency blocks collagen synthesis, and the wound that will not close and the gum that bleeds are collagen failing.
 ## answer_c
 Reticular fibers
 ## explanation_c
@@ -22948,7 +22948,7 @@ A 46-year-old woman was suffering from repeated bleeding gums, Joss of teeth and
 ## answer_a
 Collagen molecules
 ## explanation_a
-Correct. Scurvy is defective collagen synthesis, and this stem hands the student the diagnosis and asks only for the molecule.
+Scurvy is defective collagen synthesis, and this stem hands the student the diagnosis and asks only for the molecule.
 ## answer_b
 Elastin molecules
 ## explanation_b
@@ -23041,7 +23041,7 @@ Collagen resists stretching but does not recoil, and in a degenerating aortic wa
 ## answer_b
 Elastic fibers
 ## explanation_b
-Correct. The aorta's wall is packed with elastic laminae; when they are destroyed the vessel dilates and cannot spring back, which is what a CT scan shows as an aneurysm.
+The aorta's wall is packed with elastic laminae; when they are destroyed the vessel dilates and cannot spring back, which is what a CT scan shows as an aneurysm.
 ## answer_c
 Reticular fibers
 ## explanation_c
@@ -23126,7 +23126,7 @@ In basement membrane, a major component of basal lamina is:
 ## answer_a
 Collagen type IV.
 ## explanation_a
-Correct. Type IV collagen is granular rather than fibrillar, is secreted by the epithelial cells themselves, and is the collagen of the basal lamina — the epithelial half of the basement membrane.
+Type IV collagen is granular rather than fibrillar, is secreted by the epithelial cells themselves, and is the collagen of the basal lamina — the epithelial half of the basement membrane.
 ## answer_b
 Collagen type Ill.
 ## explanation_b
@@ -23219,7 +23219,7 @@ Reticular fibres are also stained brown — but by silver, not orcein, and the t
 ## answer_b
 Elastic.
 ## explanation_b
-Correct. Orcein is the elastic fibre stain and turns them brown; the book pairs it with van Gieson, which turns the same fibres yellow.
+Orcein is the elastic fibre stain and turns them brown; it is paired with van Gieson, which turns the same fibres yellow.
 ## answer_c
 Collagen.
 ## explanation_c
@@ -23308,11 +23308,11 @@ Toluidine blue is the metachromatic stain of the mast cell and the blood basophi
 ## answer_b
 silver.
 ## explanation_b
-Correct. Reticular fibres are argyrophilic — silver-loving — and silver blackens them, which is the only way to see the stroma of a lymph node, spleen or liver as a network.
+Reticular fibres are argyrophilic — silver-loving — and silver blackens them, which is the only way to see the stroma of a lymph node, spleen or liver as a network.
 ## answer_c
 H&E.
 ## explanation_c
-H&E is the option that makes the question worth asking: the department book says outright that reticular fibres are not visible in it, which is why a special stain is needed at all.
+H&E is the option that makes the question worth asking: reticular fibres are not visible in it, which is why a special stain is needed at all.
 ## answer_d
 Sudan Ill.
 ## explanation_d
@@ -23401,7 +23401,7 @@ Many lysosomes mark a phagocyte — the macrophage, the neutrophil — a cell th
 ## answer_c
 Abundant rER
 ## explanation_c
-Correct. Abundant rough endoplasmic reticulum is the defining feature, because the ribosomes on it are what make protein for export. Asked three times across the books.
+Abundant rough endoplasmic reticulum is the defining feature, because the ribosomes on it are what make protein for export. Asked three times across the books.
 ## answer_d
 Condensed nucleus
 ## explanation_d
@@ -23486,7 +23486,7 @@ A mitochondrion has two membranes, which makes it the most membranous organelle 
 ## answer_b
 Ribosomes
 ## explanation_b
-Correct. Ribosomes are one of only two non-membranous entries the book gives — the other is the cytoskeleton with everything it builds.
+Ribosomes are one of only two non-membranous entries here — the other is the cytoskeleton with everything it builds.
 ## answer_c
 Golgi apparatus
 ## explanation_c
@@ -23579,7 +23579,7 @@ Lysosomes destroy protein; they do not synthesise it.
 ## answer_c
 Attached ribosomes
 ## explanation_c
-Correct. Ribosomes attached to the rough endoplasmic reticulum make the proteins the cell exports — the free ones make what it keeps.
+Ribosomes attached to the rough endoplasmic reticulum make the proteins the cell exports — the free ones make what it keeps.
 ## answer_d
 Smooth endoplasmic reticulum
 ## explanation_d
@@ -23664,7 +23664,7 @@ Defective ribosomes would cripple protein synthesis throughout the body, not pro
 ## answer_b
 Underdeveloped sER in liver
 ## explanation_b
-Correct. The liver cell's smooth endoplasmic reticulum is what handles bilirubin, as it handles drugs and alcohol, and it is not yet fully developed in a newborn.
+The liver cell's smooth endoplasmic reticulum is what handles bilirubin, as it handles drugs and alcohol, and it is not yet fully developed in a newborn.
 ## answer_c
 Underdeveloped sER in skin
 ## explanation_c
@@ -23757,7 +23757,7 @@ Hydrogen peroxide accumulates when peroxisomal catalase fails. A lysosome neithe
 ## answer_c
 Interference with nerve cell function
 ## explanation_c
-Correct. The department book gives sulfatase deficiency as its example: sulfated compounds accumulate inside cells and interfere with the normal function of nerve cells.
+Sulfatase deficiency is a leading example: sulfated compounds accumulate inside cells and interfere with the normal function of nerve cells.
 ## answer_d
 Defective oxidoreductases
 ## explanation_d
@@ -23838,7 +23838,7 @@ As regards ribosomes:
 ## answer_a
 Their subunits are formed in the nucleolus
 ## explanation_a
-Correct. rRNA is made in the nucleolus, the proteins in the cytoplasm, and the two unite in the nucleolus into the subunits, which then leave through the nuclear pores.
+rRNA is made in the nucleolus, the proteins in the cytoplasm, and the two unite in the nucleolus into the subunits, which then leave through the nuclear pores.
 ## answer_b
 Are formed of DNA associated with proteins
 ## explanation_b
@@ -23939,7 +23939,7 @@ Lysosomes are separate organelles budded from the Golgi. The rough reticulum mak
 ## answer_d
 Responsible for protein segregation
 ## explanation_d
-Correct. Segregation — moving the newly made protein into the lumen, away from the cytosol — is one of its named functions, and it is what protects the cytoplasm from the hydrolytic enzymes it makes.
+Segregation — moving the newly made protein into the lumen, away from the cytosol — is one of its named functions, and it is what protects the cytoplasm from the hydrolytic enzymes it makes.
 ## correct_answer
 D
 ## main_concept
@@ -24028,7 +24028,7 @@ The Golgi apparatus takes no dye at all in H&E, which is why it shows as a pale 
 ## answer_d
 rER
 ## explanation_d
-Correct. A localised patch of basophilia is a mass of rough endoplasmic reticulum, its ribosomes concentrated in one region — the Nissl granule of the nerve cell is the type example.
+A localised patch of basophilia is a mass of rough endoplasmic reticulum, its ribosomes concentrated in one region — the Nissl granule of the nerve cell is the type example.
 ## correct_answer
 D
 ## main_concept
@@ -24109,7 +24109,7 @@ The length is not fixed — a microtubule grows and shrinks by adding and losing
 ## answer_b
 Being formed of alpha and beta tubulin
 ## explanation_b
-Correct. Dimers of alpha and beta tubulin build the protofilaments. Gamma tubulin is a third form, and it is in the organising centre rather than in the tube.
+Dimers of alpha and beta tubulin build the protofilaments. Gamma tubulin is a third form, and it is in the organising centre rather than in the tube.
 ## answer_c
 Being arranged into 10 protofilaments
 ## explanation_c
@@ -24194,7 +24194,7 @@ Microtubules are formed of a protein called:
 ## answer_a
 Actin
 ## explanation_a
-Actin is the microfilament protein — the other cytoskeletal element, and the one the books put opposite this every time.
+Actin is the microfilament protein — the other cytoskeletal element, and it is set opposite this every time.
 ## answer_b
 Myosin
 ## explanation_b
@@ -24202,7 +24202,7 @@ Myosin works with actin in contraction. It is a motor, not a structural subunit 
 ## answer_c
 Tubulin
 ## explanation_c
-Correct. Tubulin, as dimers of an alpha and a beta form.
+Tubulin, as dimers of an alpha and a beta form.
 ## answer_d
 Clathrin
 ## explanation_d
@@ -24287,7 +24287,7 @@ A mutation in mitochondrial RNA is a cause rather than a feature. The question a
 ## answer_b
 Muscle weakness
 ## explanation_b
-Correct. No ATP means no energy for vital activity, and in muscle that presents as muscular weakness — the department book's own applied note.
+No ATP means no energy for vital activity, and in muscle that presents as muscular weakness.
 ## answer_c
 Failure of breakdown of bilirubin
 ## explanation_c
@@ -24372,7 +24372,7 @@ One of the following structures is basophilic in staining: :
 ## answer_a
 Ribosomes
 ## explanation_a
-Correct. The acidity of the phosphate groups in ribosomal RNA is what binds the basic dye, and it is the whole reason cytoplasm is ever blue.
+The acidity of the phosphate groups in ribosomal RNA is what binds the basic dye, and it is the whole reason cytoplasm is ever blue.
 ## answer_b
 sER
 ## explanation_b
@@ -24473,7 +24473,7 @@ Attached polysomes make protein for export and for the secretory pathway. The pe
 ## answer_d
 Its enzymes become internalized.
 ## explanation_d
-Correct. Made free in the cytosol, the enzymes are then imported — internalised — into the peroxisome, which is why the organelle needs no ribosomes of its own and no secretory pathway.
+Made free in the cytosol, the enzymes are then imported — internalised — into the peroxisome, which is why the organelle needs no ribosomes of its own and no secretory pathway.
 ## correct_answer
 D
 ## main_concept
@@ -24562,7 +24562,7 @@ A lysosome contains hydrolytic enzymes — including a nuclease, which acts on n
 ## answer_d
 Mitochondria
 ## explanation_d
-Correct. The mitochondrial matrix holds mitochondrial DNA together with mRNA, tRNA and rRNA, which is why the organelle can divide independently of the cell.
+The mitochondrial matrix holds mitochondrial DNA together with mRNA, tRNA and rRNA, which is why the organelle can divide independently of the cell.
 ## correct_answer
 D
 ## main_concept
@@ -24639,7 +24639,7 @@ The most prominent cytoplasmic organelles in monocytes are:
 ## answer_a
 Golgi apparatus and lysosomes
 ## explanation_a
-Correct. The monocyte is the blood form of the macrophage, so it is built to digest: many lysosomes, and a prominent Golgi apparatus making them.
+The monocyte is the blood form of the macrophage, so it is built to digest: many lysosomes, and a prominent Golgi apparatus making them.
 ## answer_b
 Glycogen granules
 ## explanation_b
@@ -24732,7 +24732,7 @@ the wall of centrioles is composed of:
 ## answer_b
 27 microtubules
 ## explanation_b
-Correct. Nine bundles of three — 27 microtubules.
+Nine bundles of three — 27 microtubules.
 ## answer_c
 72 microtubules
 ## explanation_c
@@ -24821,7 +24821,7 @@ Rough endoplasmic reticulum makes protein for export. A steroid is not a protein
 ## answer_b
 sER
 ## explanation_b
-Correct. Smooth endoplasmic reticulum synthesises the steroid hormones — cortisone and testosterone are the book's examples — and is abundant in the cells that make them.
+Smooth endoplasmic reticulum synthesises the steroid hormones — cortisone and testosterone are standard examples — and is abundant in the cells that make them.
 ## answer_c
 Lysosome
 ## explanation_c
@@ -24914,7 +24914,7 @@ Euchromatin is basophilic but it is nuclear. The stem says cytoplasmic, and this
 ## answer_c
 Ribosomes
 ## explanation_c
-Correct. Ribosomes, free or on the rough endoplasmic reticulum, are what make cytoplasm basophilic — the phosphate groups of their RNA are acidic and bind the basic dye.
+Ribosomes, free or on the rough endoplasmic reticulum, are what make cytoplasm basophilic — the phosphate groups of their RNA are acidic and bind the basic dye.
 ## answer_d
 Heterochromatin
 ## explanation_d
@@ -25003,7 +25003,7 @@ Ribosomal RNA is what the subunits are built from. It is inside each subunit rat
 ## answer_c
 mRNA
 ## explanation_c
-Correct. The two subunits come together only during protein synthesis, threaded onto the messenger RNA — which is also why a string of them on one mRNA is a polyribosome.
+The two subunits come together only during protein synthesis, threaded onto the messenger RNA — which is also why a string of them on one mRNA is a polyribosome.
 ## answer_d
 none the above
 ## explanation_d
@@ -25092,7 +25092,7 @@ Intermediate filaments are the other tumour answer in these books — the one a 
 ## answer_c
 Microtubules
 ## explanation_c
-Correct. The mitotic spindle is built of microtubules, so a drug that prevents tubulin polymerising stops the cell dividing — the department book gives exactly this as its applied note.
+The mitotic spindle is built of microtubules, so a drug that prevents tubulin polymerising stops the cell dividing.
 ## answer_d
 Proteasome
 ## explanation_d
@@ -25181,7 +25181,7 @@ Secondary lysosomes are likewise discrete bodies, larger and more varied than th
 ## answer_c
 Golgi apparatus.
 ## explanation_c
-Correct. Silver impregnation shows the Golgi apparatus as a network of brown granules and fibrils beside the nucleus. It is the positive counterpart of the negative Golgi image seen in H&E.
+Silver impregnation shows the Golgi apparatus as a network of brown granules and fibrils beside the nucleus. It is the positive counterpart of the negative Golgi image seen in H&E.
 ## answer_d
 Ribosomes.
 ## explanation_d
@@ -25266,7 +25266,7 @@ A Golgi abnormality would show as a failure of secretion — a gland that could 
 ## answer_b
 Mitochondrial damage
 ## explanation_b
-Correct. No ATP means no energy for contraction, and the department book gives muscular weakness as the presentation of defective mitochondrial enzymes.
+No ATP means no energy for contraction, and muscular weakness is the presentation of defective mitochondrial enzymes.
 ## answer_c
 Membrane receptors defect
 ## explanation_c
@@ -25274,7 +25274,7 @@ A membrane receptor defect is the mechanism behind the growth-hormone dwarfism t
 ## answer_d
 Lysosomal enzyme deficiency
 ## explanation_d
-Lysosomal enzyme deficiency lets undigested material accumulate, and the book's example of it is interference with nerve cell function.
+Lysosomal enzyme deficiency lets undigested material accumulate, and a standard example is interference with nerve cell function.
 ## correct_answer
 B
 ## main_concept
@@ -25355,11 +25355,11 @@ A mitochondrial fault presents as failure of ATP production — weakness in musc
 ## answer_b
 Lysosomal enzyme deficiency
 ## explanation_b
-Lysosomal enzyme deficiency leaves undigested material accumulating, and the department book's example of it is interference with nerve cell function.
+Lysosomal enzyme deficiency leaves undigested material accumulating, and a leading example is interference with nerve cell function.
 ## answer_c
 Peroxisomal enzyme deficiency
 ## explanation_c
-Correct. Peroxisomes carry out beta-oxidation of long-chain fatty acids and are most abundant in liver and kidney, which is exactly the pair of organs the stem names.
+Peroxisomes carry out beta-oxidation of long-chain fatty acids and are most abundant in liver and kidney, which is exactly the pair of organs the stem names.
 ## answer_d
 Defective fat metabolism
 ## explanation_d
@@ -25440,7 +25440,7 @@ a small tumor was exercised from the adrenal gland of an adult male. after exami
 ## answer_a
 sER
 ## explanation_a
-Correct. Steroid hormones are synthesised on smooth endoplasmic reticulum, so a cell making them in excess is packed with it — and the adrenal cortex is the type example of such a cell.
+Steroid hormones are synthesised on smooth endoplasmic reticulum, so a cell making them in excess is packed with it — and the adrenal cortex is the type example of such a cell.
 ## answer_b
 peroxisomes
 ## explanation_b
@@ -25533,7 +25533,7 @@ The lysosome digests what has been taken into the cell and whole organelles that
 ## answer_b
 Proteosomes
 ## explanation_b
-Correct. The proteasome is a non-membranous complex in the cytosol that destroys abnormal, misfolded and short-lived proteins after they have been ubiquitin-tagged.
+The proteasome is a non-membranous complex in the cytosol that destroys abnormal, misfolded and short-lived proteins after they have been ubiquitin-tagged.
 ## answer_c
 Peroxisomes
 ## explanation_c
@@ -25618,7 +25618,7 @@ Abundance of attached ribosomes in the cytoplasm is indicative of:
 ## answer_a
 protein synthesis for export
 ## explanation_a
-Correct. Attached ribosomes feed their product into the lumen of the rough endoplasmic reticulum, which segregates it and sends it to the Golgi for export.
+Attached ribosomes feed their product into the lumen of the rough endoplasmic reticulum, which segregates it and sends it to the Golgi for export.
 ## answer_b
 protein synthesis for intracellular use
 ## explanation_b
@@ -25711,7 +25711,7 @@ Protein for export needs the rough endoplasmic reticulum to segregate and packag
 ## answer_b
 protein synthesis for intracellular use
 ## explanation_b
-Correct. A free ribosome releases its product into the cytosol, so what it makes is what the cell keeps — its glycolytic enzymes, the proteins of its own growth, and the enzymes of its peroxisomes.
+A free ribosome releases its product into the cytosol, so what it makes is what the cell keeps — its glycolytic enzymes, the proteins of its own growth, and the enzymes of its peroxisomes.
 ## answer_c
 Excessive phagocytosis
 ## explanation_c
@@ -26597,7 +26597,7 @@ All of the following are membranous organelles except:
 ## answer_a
 Cell membrane
 ## explanation_a
-True, so not the exception. The plasma membrane heads the book's own list of membranous organelles.
+True, so not the exception. The plasma membrane heads the list of membranous organelles.
 ## answer_b
 rough endoplasmic reticulum
 ## explanation_b
@@ -26868,7 +26868,7 @@ True, so not the exception. A multivesicular body is a primary lysosome fused wi
 ## answer_b
 Residual body
 ## explanation_b
-True as the books use it here — the residual body is the end state of a secondary lysosome and is listed with them. It is the option a careful student hesitates over, since strictly it is a fate rather than a fourth type.
+The residual body is the end state of a secondary lysosome and is listed with them. It is the option a careful student hesitates over, since strictly it is a fate rather than a fourth type.
 ## answer_c
 Heterolysosomes
 ## explanation_c
@@ -26961,7 +26961,7 @@ True, so not the exception. Microfilaments are another.
 ## answer_c
 centrioles
 ## explanation_c
-True as the books use it — centrioles are built of microtubules and are counted with the cytoskeleton in the department book's own table of non-membranous organelles.
+True: centrioles are built of microtubules and are counted with the cytoskeleton among the non-membranous organelles.
 ## answer_d
 mitochondria
 ## explanation_d
@@ -27220,7 +27220,7 @@ all the following statements are true about mitochondria except:
 ## answer_a
 are sites of protein synthesis
 ## explanation_a
-The exception, and the answer. The site of protein synthesis is the ribosome, free or on the rough endoplasmic reticulum. The mitochondrion holds RNA of its own, which is why this option catches students who reason from the presence of RNA, but the book gives it no synthetic role.
+The exception, and the answer. The site of protein synthesis is the ribosome, free or on the rough endoplasmic reticulum. The mitochondrion holds RNA of its own, which is why this option catches students who reason from the presence of RNA, but it has no synthetic role.
 ## answer_b
 are sites of oxidative phosphorylation
 ## explanation_b
@@ -27258,7 +27258,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Recognise that protein synthesis is not what the department book gives mitochondria.
+Recognise that protein synthesis is not a function of mitochondria.
 ## setting
 Academic
 ## academic_relevance
@@ -27321,7 +27321,7 @@ True, so not the exception. The oxidases generate hydrogen peroxide as a by-prod
 ## answer_d
 Contain enzymes involved in breakdown of excess H2O2
 ## explanation_d
-True, so not the exception. Catalase breaks that hydrogen peroxide into water and oxygen — the organelle makes its own poison and then destroys it. This is the option the book keys, and it is one of the two things a peroxisome is for.
+True, so not the exception. Catalase breaks that hydrogen peroxide into water and oxygen — the organelle makes its own poison and then destroys it. This is the keyed answer, and it is one of the two things a peroxisome is for.
 ## correct_answer
 A
 ## main_concept
@@ -27402,7 +27402,7 @@ True, so not the exception. Smooth endoplasmic reticulum is abundant in lipid-sy
 ## answer_b
 Responsible for detoxification of toxins and drugs
 ## explanation_b
-True, so not the exception. Detoxification of drugs, alcohol and hormones is one of its named functions. This is the option the book keys, and taking it would mean denying the function the organelle is most famous for.
+True, so not the exception. Detoxification of drugs, alcohol and hormones is one of its named functions. This is the keyed answer, and taking it would mean denying the function the organelle is most famous for.
 ## answer_c
 It is double membrane organelle
 ## explanation_c
@@ -27491,7 +27491,7 @@ Rough endoplasmic reticulum carries ribosomes and therefore RNA, but no DNA of i
 ## answer_b
 Mitochondria
 ## explanation_b
-Correct. The mitochondrion is the only cytoplasmic organelle with a genome, which is what lets it divide independently of the cell.
+The mitochondrion is the only cytoplasmic organelle with a genome, which is what lets it divide independently of the cell.
 ## answer_c
 Lysosomes
 ## explanation_c
@@ -27576,11 +27576,11 @@ As regards Golgi apparatus:
 ## answer_a
 Present around nucleus in nerve cell
 ## explanation_a
-Correct. In the nerve cell the Golgi is perinuclear — around the nucleus — because the cell has no single secretory surface to face.
+In the nerve cell the Golgi is perinuclear — around the nucleus — because the cell has no single secretory surface to face.
 ## answer_b
 Always apical in all the cells
 ## explanation_b
-Apical position belongs to a secretory cell discharging at a free surface. "Always" is what makes this option false: the nerve cell is the counter-example the books use.
+Apical position belongs to a secretory cell discharging at a free surface. "Always" is what makes this option false: the nerve cell is the counter-example.
 ## answer_c
 Formed of parallel cisternae
 ## explanation_c
@@ -27665,7 +27665,7 @@ Autolysodomes are formed when a 1ry lysosome fuses with:
 ## answer_a
 An old organelle
 ## explanation_a
-Correct. Auto- means self: the substrate is the cell's own worn-out organelle, wrapped in an autophagic vesicle.
+Auto- means self: the substrate is the cell's own worn-out organelle, wrapped in an autophagic vesicle.
 ## answer_b
 A phagosome
 ## explanation_b
@@ -27673,7 +27673,7 @@ A phagosome — material engulfed from outside — gives the heterolysosome. Het
 ## answer_c
 A pinocytotic vesicle
 ## explanation_c
-A pinocytic vesicle gives the multivesicular body. This is the option the book keys, and it names the wrong one of the three fusions.
+A pinocytic vesicle gives the multivesicular body. This is the keyed answer, and it names the wrong one of the three fusions.
 ## answer_d
 A residual body
 ## explanation_d
@@ -27758,7 +27758,7 @@ Two primary lysosomes fusing would give a larger primary lysosome and no digesti
 ## answer_b
 Destroyed organelle
 ## explanation_b
-Correct. A destroyed or worn-out organelle, taken up in an autophagic vesicle, is what the primary lysosome fuses with to make an autolysosome.
+A destroyed or worn-out organelle, taken up in an autophagic vesicle, is what the primary lysosome fuses with to make an autolysosome.
 ## answer_c
 pinocytic vesicle
 ## explanation_c
@@ -27843,7 +27843,7 @@ Autolysosomes are formed when a iry lysosome fuses with:
 ## answer_a
 An old organelle
 ## explanation_a
-Correct. The cell's own worn-out organelle — auto- means self, and that prefix is the whole answer.
+The cell's own worn-out organelle — auto- means self, and that prefix is the whole answer.
 ## answer_b
 A phagosome
 ## explanation_b
@@ -27936,11 +27936,11 @@ Axoneme of cilia consists of:
 ## answer_b
 18 microtubules
 ## explanation_b
-18 is nine doublets counted without the central pair. This is the option the book keys, and the two missing microtubules in the middle are exactly what the "9+2" formula exists to stop you forgetting.
+18 is nine doublets counted without the central pair. This is the keyed answer, and the two missing microtubules in the middle are exactly what the "9+2" formula exists to stop you forgetting.
 ## answer_c
 20 microtubules
 ## explanation_c
-Correct. Nine peripheral doublets — 18 — plus two central singlets makes 20.
+Nine peripheral doublets — 18 — plus two central singlets makes 20.
 ## answer_d
 27 microtubules
 ## explanation_d
@@ -28025,7 +28025,7 @@ basal body of cilia consists of:
 ## answer_b
 18 microtubules
 ## explanation_b
-18 is the doublets of the shaft counted without their central pair, and it belongs to neither structure as a final answer. This is the option the book keys.
+18 is the doublets of the shaft counted without their central pair, and it belongs to neither structure as a final answer. This is the keyed answer.
 ## answer_c
 20 microtubules
 ## explanation_c
@@ -28033,7 +28033,7 @@ basal body of cilia consists of:
 ## answer_d
 27 microtubules
 ## explanation_d
-Correct. 27, in nine triplets: the basal body is a centriole that has migrated to the apical surface, and it keeps a centriole's arrangement exactly.
+27, in nine triplets: the basal body is a centriole that has migrated to the apical surface, and it keeps a centriole's arrangement exactly.
 ## correct_answer
 D
 ## main_concept
@@ -28110,7 +28110,7 @@ basophilia of the cytoplasm is due to
 ## answer_a
 Ribosomes and rER
 ## explanation_a
-Correct. Both populations count: free ribosomes and the ribosomes studding the rough endoplasmic reticulum, because the basophilia comes from the RNA and not from the membrane it sits on.
+Both populations count: free ribosomes and the ribosomes studding the rough endoplasmic reticulum, because the basophilia comes from the RNA and not from the membrane it sits on.
 ## answer_b
 smooth endoplasmic reticulum
 ## explanation_b
@@ -28199,11 +28199,11 @@ Beta oxidation occurs in:
 ## answer_a
 Mitochondrial matrix
 ## explanation_a
-The matrix holds the citric acid cycle. If beta-oxidation were being asked as a mitochondrial process this would be the option, not the inner membrane — but the department book gives the process to the peroxisome.
+The matrix holds the citric acid cycle. If beta-oxidation were being asked as a mitochondrial process this would be the option, not the inner membrane — but beta-oxidation of long-chain fatty acids belongs to the peroxisome.
 ## answer_b
 Mitochondrial inner membrane
 ## explanation_b
-The inner membrane carries the respiratory chain and ATP synthase. Nothing is oxidised there in the sense this question means. This is the option the book keys.
+The inner membrane carries the respiratory chain and ATP synthase. Nothing is oxidised there in the sense this question means. This is the keyed answer.
 ## answer_c
 Lysosomes
 ## explanation_c
@@ -28211,7 +28211,7 @@ Lysosomes hydrolyse; they do not oxidise.
 ## answer_d
 Peroxisomes
 ## explanation_d
-Correct as the department book teaches it. Peroxisomal oxidases carry out beta-oxidation of long-chain fatty acids, producing heat and hydrogen peroxide — which is why the organelle needs catalase.
+Peroxisomal oxidases carry out beta-oxidation of long-chain fatty acids, producing heat and hydrogen peroxide — which is why the organelle needs catalase.
 ## correct_answer
 D
 ## main_concept
@@ -28296,7 +28296,7 @@ Microtubules are cytoskeletal cylinders of tubulin and hold no enzymes at all. T
 ## answer_c
 Microbodies
 ## explanation_c
-Correct. Microbody is the peroxisome, and oxidase plus catalase is exactly its enzyme content: the oxidase makes hydrogen peroxide and the catalase destroys it.
+Microbody is the peroxisome, and oxidase plus catalase is exactly its enzyme content: the oxidase makes hydrogen peroxide and the catalase destroys it.
 ## answer_d
 Microfilaments
 ## explanation_d
@@ -28389,7 +28389,7 @@ Microtubules would give a transport and shape system, not a contractile one. The
 ## answer_d
 Both a & b
 ## explanation_d
-Correct. Both, because contraction is what a pericyte does, and contraction is always actin against myosin.
+Both, because contraction is what a pericyte does, and contraction is always actin against myosin.
 ## correct_answer
 D
 ## main_concept
@@ -28478,7 +28478,7 @@ Microtubules have no membrane at all — they are protein cylinders, and they be
 ## answer_d
 Both a&b
 ## explanation_d
-Correct. Two membranes is the feature that picks out exactly these two structures in the whole cell, which is why the books keep asking it.
+Two membranes is the feature that picks out exactly these two structures in the whole cell, which is why the books keep asking it.
 ## correct_answer
 D
 ## main_concept
@@ -28567,7 +28567,7 @@ True, but not the whole answer. The ribosomes on that reticulum are what actuall
 ## answer_d
 all of the above
 ## explanation_d
-Correct. The three are one pathway rather than three independent facts, and a cell that has one of them in quantity has all three.
+The three are one pathway rather than three independent facts, and a cell that has one of them in quantity has all three.
 ## correct_answer
 D
 ## main_concept
@@ -28648,7 +28648,7 @@ Endocytosis is the umbrella term for taking material *in*. It is the opposite di
 ## answer_b
 exocytosis
 ## explanation_b
-Correct. Exocytosis: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside, without breaking the membrane's continuity.
+Exocytosis: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside, without breaking the membrane's continuity.
 ## answer_c
 phagocytosis
 ## explanation_c
@@ -28737,7 +28737,7 @@ Rough endoplasmic reticulum marks a cell exporting protein — the plasma cell, 
 ## answer_b
 lysosomes
 ## explanation_b
-Correct. Lysosomes are what a phagocyte needs, because engulfing a particle achieves nothing until the hydrolytic enzymes reach it.
+Lysosomes are what a phagocyte needs, because engulfing a particle achieves nothing until the hydrolytic enzymes reach it.
 ## answer_c
 SER
 ## explanation_c
@@ -28830,11 +28830,11 @@ Centriole consists of:
 ## answer_c
 20 microtubules
 ## explanation_c
-20 is the ciliary shaft complete, nine doublets plus two central singlets. This is the option the book keys, and it belongs to the structure the centriole gives rise to rather than to the centriole.
+20 is the ciliary shaft complete, nine doublets plus two central singlets. This is the keyed answer, and it belongs to the structure the centriole gives rise to rather than to the centriole.
 ## answer_d
 27 microtubules
 ## explanation_d
-Correct. Nine triplets, 27 microtubules, and no central pair at all.
+Nine triplets, 27 microtubules, and no central pair at all.
 ## correct_answer
 D
 ## main_concept
@@ -28911,7 +28911,7 @@ Characters of organelles:
 ## answer_a
 living, permanent
 ## explanation_a
-True, but not the whole answer. Living and permanent are the first two of the book's five.
+True, but not the whole answer. Living and permanent are the first two of the five.
 ## answer_b
 essential, active
 ## explanation_b
@@ -28923,7 +28923,7 @@ True, but not the whole answer. Having a vital function is the fifth.
 ## answer_d
 all the above
 ## explanation_d
-Correct. All five are one contrast against the inclusion, which is non-living, temporary, usually not essential, inert and a result of the cell's activity rather than a doer of it.
+All five are one contrast against the inclusion, which is non-living, temporary, usually not essential, inert and a result of the cell's activity rather than a doer of it.
 ## correct_answer
 D
 ## main_concept
@@ -29012,7 +29012,7 @@ A lysosome is a membrane-bound vesicle of enzymes.
 ## answer_d
 cytoskeleton
 ## explanation_d
-Correct. Microtubules, microfilaments and intermediate filaments with their linking proteins are the cytoskeleton — the microtrabecular lattice that fills the cytosol.
+Microtubules, microfilaments and intermediate filaments with their linking proteins are the cytoskeleton — the microtrabecular lattice that fills the cytosol.
 ## correct_answer
 D
 ## main_concept
@@ -29190,7 +29190,7 @@ concerning basal body , it is formed of:
 ## answer_d
 27 Microtubules
 ## explanation_d
-Correct. 27, in nine triplets — the basal body is a centriole that has migrated to the apical surface.
+27, in nine triplets — the basal body is a centriole that has migrated to the apical surface.
 ## correct_answer
 D
 ## main_concept
@@ -29368,7 +29368,7 @@ True, but not the whole answer. 27 microtubules is the same fact as A, counted r
 ## answer_d
 both a & c are correct
 ## explanation_d
-Correct. A and C are one arrangement stated two ways, so both are true and both are needed.
+A and C are one arrangement stated two ways, so both are true and both are needed.
 ## correct_answer
 D
 ## main_concept
@@ -29534,7 +29534,7 @@ Concerning fibroblasts: ;
 ## answer_a
 They have few organelles
 ## explanation_a
-The active fibroblast has well-developed rough endoplasmic reticulum, Golgi and mitochondria — it is the department book's type example of a protein-synthesising cell. Few organelles describes its resting form, the fibrocyte.
+The active fibroblast has well-developed rough endoplasmic reticulum, Golgi and mitochondria — it is a textbook example of a protein-synthesising cell. Few organelles describes its resting form, the fibrocyte.
 ## answer_b
 They have many free ribosomes. i
 ## explanation_b
@@ -29546,7 +29546,7 @@ The cytoplasm is deeply basophilic, not pale. Pale basophilic cytoplasm is the r
 ## answer_d
 They are the most common type in the connective tissue proper. |
 ## explanation_d
-Correct. The fibroblast is the commonest cell of connective tissue proper — which is also why the books ask about it from four different leaves.
+The fibroblast is the commonest cell of connective tissue proper — which is also why the books ask about it from four different leaves.
 ## correct_answer
 D
 ## main_concept
@@ -29801,7 +29801,7 @@ concerning rootlets , it is formed of:
 ## answer_a
 9 Microtubules
 ## explanation_a
-Correct. 9 — one from each of the nine triplets of the basal body, the C microtubule, growing down into the cytoplasm to anchor the cilium.
+9 — one from each of the nine triplets of the basal body, the C microtubule, growing down into the cytoplasm to anchor the cilium.
 ## answer_b
 18 Microtubules
 ## explanation_b
@@ -29902,7 +29902,7 @@ Protein-forming cells are full of the rough kind. The smooth kind marks lipid an
 ## answer_d
 Plays an important role in muscle contraction
 ## explanation_d
-Correct. In muscle the smooth reticulum is the sarcoplasmic reticulum, and the calcium it releases is what makes the muscle contract.
+In muscle the smooth reticulum is the sarcoplasmic reticulum, and the calcium it releases is what makes the muscle contract.
 ## correct_answer
 D
 ## main_concept
@@ -29987,7 +29987,7 @@ concerning Shaft , it is formed of:
 ## answer_c
 20 Microtubules
 ## explanation_c
-Correct. 20: nine peripheral doublets and two central singlets, the 9+2 axoneme.
+20: nine peripheral doublets and two central singlets, the 9+2 axoneme.
 ## answer_d
 27 Microtubules
 ## explanation_d
@@ -30068,7 +30068,7 @@ Concerning the microtubules, one statement istrue:
 ## answer_a
 Subunit A is formed of 13 protofilaments
 ## explanation_a
-Correct. Thirteen protofilaments make the wall, and that number is why the diameter never varies.
+Thirteen protofilaments make the wall, and that number is why the diameter never varies.
 ## answer_b
 Subunit A is formed of 10 protofilaments
 ## explanation_b
@@ -30157,7 +30157,7 @@ Concerning the multilocular adipocyte:
 ## answer_a
 Contain large number of lipid droplets
 ## explanation_a
-Correct. Multi-locular means many compartments: the stored fat is in many small droplets rather than one, and the nucleus stays central and rounded because none of them is big enough to displace it.
+Multi-locular means many compartments: the stored fat is in many small droplets rather than one, and the nucleus stays central and rounded because none of them is big enough to displace it.
 ## answer_b
 They form white connective tissue
 ## explanation_b
@@ -30254,7 +30254,7 @@ Two membranes again. The count is what makes this false, even though the face is
 ## answer_c
 Formed of one membrane, the outer surface is studded by ribosomes
 ## explanation_c
-Correct. One membrane, studded on its outer — cytoplasmic — surface, because that is the side the messenger RNA is on and the side the ribophorins face.
+One membrane, studded on its outer — cytoplasmic — surface, because that is the side the messenger RNA is on and the side the ribophorins face.
 ## answer_d
 Formed of one membranes, the inner surface is studded by ribosomes
 ## explanation_d
@@ -30343,7 +30343,7 @@ Unilocular cells make white adipose tissue. Brown is multilocular, coloured by t
 ## answer_c
 Are cells with single large lipid droplet
 ## explanation_c
-Correct. Uni-locular: one large droplet filling the cell, flattening the nucleus against the periphery and leaving a thin rim of cytoplasm — the signet ring.
+Uni-locular: one large droplet filling the cell, flattening the nucleus against the periphery and leaving a thin rim of cytoplasm — the signet ring.
 ## answer_d
 Are cells with prominent Golgi complex and RER
 ## explanation_d
@@ -30436,7 +30436,7 @@ True, but not the whole answer. Intermediate filaments are 8–10 nm — named f
 ## answer_d
 All of theabove
 ## explanation_d
-Correct. Three elements, and their diameters run in the order the names suggest once you notice that "intermediate" is a size and not a function.
+Three elements, and their diameters run in the order the names suggest once you notice that "intermediate" is a size and not a function.
 ## correct_answer
 D
 ## main_concept
@@ -30513,11 +30513,11 @@ Desmin filaments are:
 ## answer_a
 Microfilaments
 ## explanation_a
-Microfilaments are actin, and only actin. This is the option the book keys, and taking it would make desmin a contractile protein rather than a supporting one.
+Microfilaments are actin, and only actin. This is the keyed answer, and taking it would make desmin a contractile protein rather than a supporting one.
 ## answer_b
 Intermediate filaments
 ## explanation_b
-Correct. Desmin is the intermediate filament of muscular tissue — one of the six tissue-specific proteins the department book names.
+Desmin is the intermediate filament of muscular tissue — one of six tissue-specific intermediate filament proteins.
 ## answer_c
 Thick filaments
 ## explanation_c
@@ -30606,7 +30606,7 @@ Microtubules are what a chemotherapy drug blocks — the other tumour question i
 ## answer_b
 intermediate filaments
 ## explanation_b
-Correct. Each tissue has its own intermediate filament protein, so identifying it by immunocytochemistry reveals the cell the tumour arose from, and that decides how it is treated.
+Each tissue has its own intermediate filament protein, so identifying it by immunocytochemistry reveals the cell the tumour arose from, and that decides how it is treated.
 ## answer_c
 microfilaments
 ## explanation_c
@@ -30691,7 +30691,7 @@ Detoxification of drugs is the function of:
 ## answer_a
 sER
 ## explanation_a
-Correct. Smooth endoplasmic reticulum detoxifies drugs, alcohol and hormones — which is also why the liver cell, where it is most abundant, is the organ that handles them.
+Smooth endoplasmic reticulum detoxifies drugs, alcohol and hormones — which is also why the liver cell, where it is most abundant, is the organ that handles them.
 ## answer_b
 rER
 ## explanation_b
@@ -30699,7 +30699,7 @@ Rough endoplasmic reticulum makes and segregates exported protein. It is the oth
 ## answer_c
 Golgi
 ## explanation_c
-The Golgi apparatus packs and modifies protein. This is the option the book keys, and no statement anywhere in the department text supports it.
+The Golgi apparatus packs and modifies protein. This is the keyed answer, and no statement anywhere in the source text supports it.
 ## answer_d
 Mitochondria
 ## explanation_d
@@ -30792,7 +30792,7 @@ diameter of microfilament ……. nm
 ## answer_d
 5.7
 ## explanation_d
-Correct. 5–7 nm, printed here as "5.7". The three diameters run 5–7 for microfilaments, 8–10 for intermediate filaments and 24 for microtubules.
+5–7 nm, printed here as "5.7". The three diameters run 5–7 for microfilaments, 8–10 for intermediate filaments and 24 for microtubules.
 ## correct_answer
 D
 ## main_concept
@@ -30877,11 +30877,11 @@ diameter of microtubule is:
 ## answer_c
 24nm
 ## explanation_c
-Correct. 24 nm, fixed by the thirteen protofilaments of the wall.
+24 nm, fixed by the thirteen protofilaments of the wall.
 ## answer_d
 40 nm
 ## explanation_d
-40 nm is larger than any cytoskeletal element and corresponds to nothing the book gives.
+40 nm is larger than any cytoskeletal element and corresponds to nothing named here.
 ## correct_answer
 C
 ## main_concept
@@ -30970,7 +30970,7 @@ The outer mitochondrial membrane is smooth and carries porins. It is where small
 ## answer_d
 Inner mitochondrial membrane
 ## explanation_d
-Correct. The elementary particles are the globular structures attached by stalks to the cristae of the inner membrane, and they carry the ATP synthase.
+The elementary particles are the globular structures attached by stalks to the cristae of the inner membrane, and they carry the ATP synthase.
 ## correct_answer
 D
 ## main_concept
@@ -31047,7 +31047,7 @@ EM of sER is:
 ## answer_a
 anastomosing tubule
 ## explanation_a
-Correct. A network of branching and anastomosing tubules of variable shape, continuous with the rough reticulum but carrying no ribosomes.
+A network of branching and anastomosing tubules of variable shape, continuous with the rough reticulum but carrying no ribosomes.
 ## answer_b
 has ribosome
 ## explanation_b
@@ -31233,7 +31233,7 @@ The Golgi is a stack of many saccules, not a single vesicle, and it holds no dig
 ## answer_c
 peroxisome
 ## explanation_c
-Correct. Single membrane plus oxidase is the peroxisome; catalase is the other half of its enzyme content.
+Single membrane plus oxidase is the peroxisome; catalase is the other half of its enzyme content.
 ## answer_d
 proteasome
 ## explanation_d
@@ -31318,7 +31318,7 @@ Flat curved saccules stacked above one another is the Golgi apparatus. The two o
 ## answer_b
 continuous interconnected cisternae
 ## explanation_b
-Correct. A network of continuous, intercommunicating channels and sacs — cisternae — running from the nuclear envelope out to the cell membrane.
+A network of continuous, intercommunicating channels and sacs — cisternae — running from the nuclear envelope out to the cell membrane.
 ## answer_c
 vesicles with two membranes
 ## explanation_c
@@ -31403,7 +31403,7 @@ Enzymes associated with drug detoxification are associated with:
 ## answer_a
 SER
 ## explanation_a
-Correct. The detoxifying enzymes sit on smooth endoplasmic reticulum, which is why the liver cell — where it is most abundant — is the organ that handles drugs and alcohol.
+The detoxifying enzymes sit on smooth endoplasmic reticulum, which is why the liver cell — where it is most abundant — is the organ that handles drugs and alcohol.
 ## answer_b
 rER
 ## explanation_b
@@ -31496,7 +31496,7 @@ The outer membrane is smooth and carries porins; its job is to let small molecul
 ## answer_b
 inner mitochondrial membrane
 ## explanation_b
-Correct. The inner membrane, and specifically the elementary particles on its cristae, where ATP synthase does the work.
+The inner membrane, and specifically the elementary particles on its cristae, where ATP synthase does the work.
 ## answer_c
 mitochondrial matrix
 ## explanation_c
@@ -31581,7 +31581,7 @@ enzymes of oxidative phosphorylation for ATP production present in the:
 ## answer_a
 mitochondria
 ## explanation_a
-Correct. The mitochondrion is the power house, and oxidative phosphorylation on its cristae is how the ATP is made.
+The mitochondrion is the power house, and oxidative phosphorylation on its cristae is how the ATP is made.
 ## answer_b
 secondary lysosomes
 ## explanation_b
@@ -31674,7 +31674,7 @@ Rough endoplasmic reticulum makes proteins destined for export or for a membrane
 ## answer_b
 Free ribosomes
 ## explanation_b
-Correct. The peroxisome's enzymes are made on free ribosomes and imported into the organelle afterwards — the department book states it explicitly.
+The peroxisome's enzymes are made on free ribosomes and imported into the organelle afterwards, which is well established.
 ## answer_c
 Attached ribosomes
 ## explanation_c
@@ -31759,7 +31759,7 @@ Enzymes of peroxisomes are synthesized by:
 ## answer_a
 Free ribosomes
 ## explanation_a
-Correct. Free ribosomes, releasing the enzymes into the cytosol, from which the peroxisome imports them.
+Free ribosomes, releasing the enzymes into the cytosol, from which the peroxisome imports them.
 ## answer_b
 Attached ribosomes
 ## explanation_b
@@ -31852,7 +31852,7 @@ Deep basophilia means abundant rough endoplasmic reticulum, which is the active 
 ## answer_b
 being spindle shaped with few processes
 ## explanation_b
-Correct. A smaller spindle-shaped cell with few processes — the resting form, which becomes an active fibroblast again for wound healing.
+A smaller spindle-shaped cell with few processes — the resting form, which becomes an active fibroblast again for wound healing.
 ## answer_c
 having well developed golgi apparatus
 ## explanation_c
@@ -31945,7 +31945,7 @@ Intermediate filaments are polymers of tetrameric subunits that differ from tiss
 ## answer_c
 microfilaments
 ## explanation_c
-Correct. Two chains of globular G actin coiled into filamentous F actin: the microfilament, 5–7 nm across.
+Two chains of globular G actin coiled into filamentous F actin: the microfilament, 5–7 nm across.
 ## answer_d
 proteasome
 ## explanation_d
@@ -32026,7 +32026,7 @@ fixed diameter with 13 protofilaments
 ## answer_a
 microtubule
 ## explanation_a
-Correct. Thirteen parallel protofilaments make the wall, and because the number never changes the 24 nm diameter never changes either.
+Thirteen parallel protofilaments make the wall, and because the number never changes the 24 nm diameter never changes either.
 ## answer_b
 intermediate filaments
 ## explanation_b
@@ -32127,7 +32127,7 @@ True, but not the whole answer. Intermediate filaments lie between them in size 
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three, joined by linking proteins into the microtrabecular lattice.
+All three, joined by linking proteins into the microtrabecular lattice.
 ## correct_answer
 D
 ## main_concept
@@ -32212,7 +32212,7 @@ Lysosomes hydrolyse. They neither make nor destroy hydrogen peroxide, and swappi
 ## answer_c
 Peroxisomes
 ## explanation_c
-Correct. The oxidases generate hydrogen peroxide as a by-product and the catalase splits it into water and oxygen — the organelle is named for the compound it handles at both ends.
+The oxidases generate hydrogen peroxide as a by-product and the catalase splits it into water and oxygen — the organelle is named for the compound it handles at both ends.
 ## answer_d
 Ptoteasomes
 ## explanation_d
@@ -32297,7 +32297,7 @@ Lipids are made on smooth endoplasmic reticulum. No ribosome makes a lipid.
 ## answer_b
 proteins used in cell growth
 ## explanation_b
-Correct. Free ribosomes make the protein the cell keeps — the enzymes of its own metabolism and the protein of its own growth.
+Free ribosomes make the protein the cell keeps — the enzymes of its own metabolism and the protein of its own growth.
 ## answer_c
 carbohydrates
 ## explanation_c
@@ -32390,7 +32390,7 @@ A multivesicular body comes from a pinocytic vesicle, and the many small vesicle
 ## answer_c
 autolysosome
 ## explanation_c
-Correct. Autophagic vesicle plus primary lysosome gives the autolysosome — the cell digesting its own worn-out organelles.
+Autophagic vesicle plus primary lysosome gives the autolysosome — the cell digesting its own worn-out organelles.
 ## answer_d
 residual bodies
 ## explanation_d
@@ -32471,7 +32471,7 @@ fusion of 1ry lysosome with phagocytic cell:
 ## answer_a
 heterolysosome
 ## explanation_a
-Correct. Phagocytosed material — a phagosome — plus a primary lysosome gives the heterolysosome, which digests solid particles taken from outside.
+Phagocytosed material — a phagosome — plus a primary lysosome gives the heterolysosome, which digests solid particles taken from outside.
 ## answer_b
 multivesicle bodies
 ## explanation_b
@@ -32564,7 +32564,7 @@ A heterolysosome is the phagosome route — solids rather than fluid.
 ## answer_b
 multivesicle bodies
 ## explanation_b
-Correct. Pinocytic vesicle plus primary lysosome gives the multivesicular body, digesting the fluid and dissolved material the cell drank.
+Pinocytic vesicle plus primary lysosome gives the multivesicular body, digesting the fluid and dissolved material the cell drank.
 ## answer_c
 autolysosome
 ## explanation_c
@@ -32653,7 +32653,7 @@ Microfilaments are actin in every cell alike and have no tissue-specific forms.
 ## answer_b
 Intermediate filaments
 ## explanation_b
-Correct. GFAP is the intermediate filament of glial cells, and its tissue specificity is what makes it useful in identifying a glial tumour.
+GFAP is the intermediate filament of glial cells, and its tissue specificity is what makes it useful in identifying a glial tumour.
 ## answer_c
 Thick filaments
 ## explanation_c
@@ -32661,7 +32661,7 @@ Thick filaments are myosin of muscle and are not cytoskeletal.
 ## answer_d
 Microtubules
 ## explanation_d
-Microtubules are tubulin. This is the option the book keys, and it would make a tissue-specific protein out of one that is the same everywhere.
+Microtubules are tubulin. This is the keyed answer, and it would make a tissue-specific protein out of one that is the same everywhere.
 ## correct_answer
 B
 ## main_concept
@@ -32831,7 +32831,7 @@ The exception, and the answer. Polypeptide chains are assembled on ribosomes. Th
 ## answer_b
 Packing of proteins
 ## explanation_b
-True, so not the exception. Packing is the first word in every account of what the Golgi does. This is the option the book keys, and taking it would deny the organelle its own definition.
+True, so not the exception. Packing is the first word in every account of what the Golgi does. This is the keyed answer, and taking it would deny the organelle its own definition.
 ## answer_c
 Condensation of proteins
 ## explanation_c
@@ -32924,7 +32924,7 @@ Red would mean the Golgi took eosin. It takes neither dye, which is the whole po
 ## answer_c
 negative golgi image
 ## explanation_c
-Correct. A pale unstained area beside the nucleus, interrupting the plasma cell's deep basophilia — the negative Golgi image.
+A pale unstained area beside the nucleus, interrupting the plasma cell's deep basophilia — the negative Golgi image.
 ## answer_d
 green color
 ## explanation_d
@@ -33013,11 +33013,11 @@ A steroid-secreting cell releases its product by diffusion through the whole sur
 ## answer_c
 secretory cells
 ## explanation_c
-Correct. A secretory cell discharging into a lumen keeps its Golgi above the nucleus, on the route between the rough reticulum below and the surface above.
+A secretory cell discharging into a lumen keeps its Golgi above the nucleus, on the route between the rough reticulum below and the surface above.
 ## answer_d
 nerve cells
 ## explanation_d
-The nerve cell is the book's counter-example: its Golgi is perinuclear, surrounding the nucleus rather than sitting above it.
+The nerve cell is the standard counter-example: its Golgi is perinuclear, surrounding the nucleus rather than sitting above it.
 ## correct_answer
 C
 ## main_concept
@@ -33098,7 +33098,7 @@ A pinocytic vesicle gives the multivesicular body.
 ## answer_b
 Primary lysosome + phagosome
 ## explanation_b
-Correct. Hetero- means other: material from outside the cell, engulfed as a phagosome.
+Hetero- means other: material from outside the cell, engulfed as a phagosome.
 ## answer_c
 Primary lysosome + autophagic vesicle
 ## explanation_c
@@ -33191,7 +33191,7 @@ The macrophage nucleus is indented and relatively dark, not the pale vesicular n
 ## answer_c
 Pseudopodia
 ## explanation_c
-Correct. Pseudopodia — an irregular surface throwing out processes — are how the cell engulfs, and they are what identify it on electron microscopy.
+Pseudopodia — an irregular surface throwing out processes — are how the cell engulfs, and they are what identify it on electron microscopy.
 ## answer_d
 Few lysosomes
 ## explanation_d
@@ -33280,7 +33280,7 @@ A euchromatic, pale nucleus goes with heavy protein synthesis. The macrophage's 
 ## answer_c
 pseudopodia
 ## explanation_c
-Correct. Pseudopodia, the processes it engulfs with — the feature that identifies it and the one it could not do its work without.
+Pseudopodia, the processes it engulfs with — the feature that identifies it and the one it could not do its work without.
 ## answer_d
 few lysosomes
 ## explanation_d
@@ -33361,7 +33361,7 @@ Homogenous electron dense membrane limited granules are:
 ## answer_a
 primary lysosomes
 ## explanation_a
-Correct. Homogeneous and uniformly electron dense, bounded by a membrane, is a primary lysosome: it has not yet fused with anything, so there is nothing in it but enzyme.
+Homogeneous and uniformly electron dense, bounded by a membrane, is a primary lysosome: it has not yet fused with anything, so there is nothing in it but enzyme.
 ## answer_b
 secondary lysosomes
 ## explanation_b
@@ -33458,7 +33458,7 @@ Peroxisomes hold oxidases and catalase. They are the other single-membrane enzym
 ## answer_c
 Lysosomes
 ## explanation_c
-Correct. Hydrolytic enzymes for intracytoplasmic digestion are what a lysosome is.
+Hydrolytic enzymes for intracytoplasmic digestion are what a lysosome is.
 ## answer_d
 sER
 ## explanation_d
@@ -33547,7 +33547,7 @@ Rupture of the whole cell is holocrine secretion — the sebaceous gland. Naming
 ## answer_c
 exocytosis
 ## explanation_c
-Correct. Merocrine secretion is exocytosis: the vesicle fuses with the membrane and discharges, and the cell loses neither cytoplasm nor its life.
+Merocrine secretion is exocytosis: the vesicle fuses with the membrane and discharges, and the cell loses neither cytoplasm nor its life.
 ## answer_d
 pinocytosis
 ## explanation_d
@@ -33632,7 +33632,7 @@ Apical is the secretory cell, which has a free surface to discharge at. A nerve 
 ## answer_b
 perinuclear
 ## explanation_b
-Correct. Perinuclear — around the nucleus — because the neuron distributes its product along processes running in every direction.
+Perinuclear — around the nucleus — because the neuron distributes its product along processes running in every direction.
 ## answer_c
 basal
 ## explanation_c
@@ -33640,7 +33640,7 @@ Basal would put the Golgi below the nucleus, on the wrong side of the secretory 
 ## answer_d
 central
 ## explanation_d
-Central is not a term the book uses for Golgi position; the two positions it gives are apical and perinuclear.
+Central is not a term used for Golgi position; the two positions are apical and perinuclear.
 ## correct_answer
 B
 ## main_concept
@@ -33717,7 +33717,7 @@ in secretory cell, golgi is present:
 ## answer_a
 Apical
 ## explanation_a
-Correct. Apical, above the nucleus, on the route between the rough reticulum in the base of the cell and the free surface it discharges at.
+Apical, above the nucleus, on the route between the rough reticulum in the base of the cell and the free surface it discharges at.
 ## answer_b
 perinuclear
 ## explanation_b
@@ -33729,7 +33729,7 @@ Basal is where the rough endoplasmic reticulum and the nucleus are, not the Golg
 ## answer_d
 central
 ## explanation_d
-Central is not one of the positions the book gives.
+Central is not one of the two positions.
 ## correct_answer
 A
 ## main_concept
@@ -33899,7 +33899,7 @@ A ribosome is not enzyme-filled, has no membrane and does not come from the Golg
 ## answer_b
 primary lysosome
 ## explanation_b
-Correct. Newly budded from the Golgi, homogeneous, and holding hydrolases that have not yet acted — a primary lysosome.
+Newly budded from the Golgi, homogeneous, and holding hydrolases that have not yet acted — a primary lysosome.
 ## answer_c
 secondary lysosome
 ## explanation_c
@@ -33992,7 +33992,7 @@ Lipofuscin is waste — undigested residue accumulating with age. It is the leas
 ## answer_c
 Hb
 ## explanation_c
-The exception, and the answer. Haemoglobin is an inclusion by the book's classification, but it is the entire purpose of the red cell, which has discarded everything else to carry more of it. "Usually not essential" is how the book words the rule, and this is the exception the wording leaves room for.
+The exception, and the answer. Haemoglobin is an inclusion by this classification, but it is the entire purpose of the red cell, which has discarded everything else to carry more of it. "Usually not essential" is how the rule is worded, and this is the exception the wording leaves room for.
 ## answer_d
 carotene
 ## explanation_d
@@ -34085,7 +34085,7 @@ The Golgi does glycosylate — but it does the later, further modification. The 
 ## answer_d
 rER
 ## explanation_d
-Correct. The rough endoplasmic reticulum performs the initial glycosylation, as part of what it does to a protein before the transfer vesicle leaves.
+The rough endoplasmic reticulum performs the initial glycosylation, as part of what it does to a protein before the transfer vesicle leaves.
 ## correct_answer
 D
 ## main_concept
@@ -34174,7 +34174,7 @@ True, but not the whole answer. Those folds are what give it its high surface ar
 ## answer_d
 all the above
 ## explanation_d
-Correct. The three are one fact seen three ways: the membrane folds, folding gives area, and the area carries the particles that make the ATP.
+The three are one fact seen three ways: the membrane folds, folding gives area, and the area carries the particles that make the ATP.
 ## correct_answer
 D
 ## main_concept
@@ -34251,7 +34251,7 @@ Intense basophilic cytoplasm in the plasma cell is referred to:
 ## answer_a
 Well developed RER and abundance ribosomes
 ## explanation_a
-Correct. The plasma cell exports antibody, so it is filled with rough endoplasmic reticulum and ribosomes, and the RNA of those ribosomes is what binds the basic dye.
+The plasma cell exports antibody, so it is filled with rough endoplasmic reticulum and ribosomes, and the RNA of those ribosomes is what binds the basic dye.
 ## answer_b
 Few mitochondaria
 ## explanation_b
@@ -34340,7 +34340,7 @@ invagination of CM to surround particles without need of other proteins:
 ## answer_a
 pinocytosis
 ## explanation_a
-Correct. Pinocytosis is a plain invagination of the membrane closing round extracellular fluid — no clathrin, no receptor, no pseudopodium.
+Pinocytosis is a plain invagination of the membrane closing round extracellular fluid — no clathrin, no receptor, no pseudopodium.
 ## answer_b
 exocytosis
 ## explanation_b
@@ -34441,7 +34441,7 @@ True, but not the whole answer. Basal infoldings are the invaginations that prov
 ## answer_d
 Both a & c
 ## explanation_d
-Correct. Surface and power together: infoldings to move the ions across and mitochondria packed between them to pay for it, which is why the two are always seen in the same cell.
+Surface and power together: infoldings to move the ions across and mitochondria packed between them to pay for it, which is why the two are always seen in the same cell.
 ## correct_answer
 D
 ## main_concept
@@ -34518,11 +34518,11 @@ Kreb's cycle occurs in:
 ## answer_a
 Mitochondrial matrix
 ## explanation_a
-Correct. The Krebs cycle enzymes are soluble, in the matrix — the department book lists them among the matrix contents alongside the mitochondrial DNA and the calcium granules.
+The Krebs cycle enzymes are soluble, in the matrix, alongside the mitochondrial DNA and the calcium granules.
 ## answer_b
 Mitochondrial inner membrane
 ## explanation_b
-The inner membrane carries oxidative phosphorylation, the *next* stage. This is the option the book keys, and the two stages are the two halves of the same question set in almost every mitochondrial row in this leaf.
+The inner membrane carries oxidative phosphorylation, the *next* stage. This is the keyed answer, and the two stages are the two halves of the same question set in almost every mitochondrial row in this leaf.
 ## answer_c
 Lysosomes
 ## explanation_c
@@ -34611,7 +34611,7 @@ Digested material is absorbed and used. What stays behind and colours the cell i
 ## answer_b
 Are the undigested material in the secondary lysosome in long lived cells
 ## explanation_b
-Correct. Undigested residue held in the secondary lysosome — the residual body — which in cells that never divide accumulates year on year and becomes the age pigment.
+Undigested residue held in the secondary lysosome — the residual body — which in cells that never divide accumulates year on year and becomes the age pigment.
 ## answer_c
 Are the undigested material in multivesicular bodies in long lived cells
 ## explanation_c
@@ -34619,7 +34619,7 @@ The multivesicular body is one route in; the residue ends up in a residual body 
 ## answer_d
 None of the above
 ## explanation_d
-This is the option the book keys, and B is true, so it cannot stand.
+This is the keyed answer, and B is true, so it cannot stand.
 ## correct_answer
 B
 ## main_concept
@@ -34708,7 +34708,7 @@ True, but not the whole answer, and it is the category the other two belong to.
 ## answer_d
 all the above
 ## explanation_d
-Correct. All of them, because all three are phagocytes — and A and B are simply two named members of the class C describes.
+All of them, because all three are phagocytes — and A and B are simply two named members of the class C describes.
 ## correct_answer
 D
 ## main_concept
@@ -34793,7 +34793,7 @@ H&E shows neither the organelle nor its contents; the enzymes are colourless and
 ## answer_c
 Need acid phosphatase to be seen
 ## explanation_c
-Correct. The acid phosphatase reaction — a histochemical demonstration of the marker enzyme, which is what confirms a dense body is a lysosome at all.
+The acid phosphatase reaction — a histochemical demonstration of the marker enzyme, which is what confirms a dense body is a lysosome at all.
 ## answer_d
 Need best’s carmine to be seen
 ## explanation_d
@@ -34874,7 +34874,7 @@ Mature erythrocyte
 ## answer_a
 Lacking nuclei
 ## explanation_a
-Correct. The mature erythrocyte has no nucleus — the department book goes further and says it is not a true cell — because everything that is not haemoglobin has been discarded to carry more of it.
+The mature erythrocyte has no nucleus and is not even a true cell, because everything that is not haemoglobin has been discarded to carry more of it.
 ## answer_b
 Rich with mitochondria
 ## explanation_b
@@ -34967,7 +34967,7 @@ The cell membrane is the boundary the network runs to, not the network.
 ## answer_b
 endoplasmic reticulum
 ## explanation_b
-Correct. The endoplasmic reticulum is the department book's own definition: a membranous network extending from the nucleus to the cell membrane, enclosing intercommunicating channels and sacs.
+The endoplasmic reticulum is a membranous network extending from the nucleus to the cell membrane, enclosing intercommunicating channels and sacs.
 ## answer_c
 golgi
 ## explanation_c
@@ -35052,7 +35052,7 @@ Microbodies are:
 ## answer_a
 Peroxisomes
 ## explanation_a
-Correct. Microbody is the peroxisome's other name, and the department book uses the two interchangeably.
+Microbody is the peroxisome's other name, and the two are used interchangeably.
 ## answer_b
 Lysosomes
 ## explanation_b
@@ -35145,11 +35145,11 @@ A stable filament could not change the shape of a cell during endocytosis or pin
 ## answer_b
 dynamic
 ## explanation_b
-Correct. Microfilaments assemble and disassemble continually — dynamic — which is what lets actin build a cleavage furrow and then take it apart again.
+Microfilaments assemble and disassemble continually — dynamic — which is what lets actin build a cleavage furrow and then take it apart again.
 ## answer_c
 a, b
 ## explanation_c
-Both would require the filament to be two contradictory things at once. Microtubules are the element the books describe as being of both kinds.
+Both would require the filament to be two contradictory things at once. Microtubules are the element described as being of both kinds.
 ## answer_d
 none of the above
 ## explanation_d
@@ -35242,7 +35242,7 @@ True, so not the exception. Actin beneath the plasmalemma determines and changes
 ## answer_d
 Developing cleavage furrow
 ## explanation_d
-True, so not the exception. The cleavage furrow is a contractile ring of actin. This is the option the book keys, and taking it would deny microfilaments their part in cell division.
+True, so not the exception. The cleavage furrow is a contractile ring of actin. This is the keyed answer, and taking it would deny microfilaments their part in cell division.
 ## correct_answer
 A
 ## main_concept
@@ -35331,7 +35331,7 @@ True, but not the whole answer. Two centrioles at right angles sit at its heart,
 ## answer_d
 All of the above
 ## explanation_d
-Correct. Origin, protein and content are three parts of one description of the centrosome.
+Origin, protein and content are three parts of one description of the centrosome.
 ## correct_answer
 D
 ## main_concept
@@ -35416,7 +35416,7 @@ True, but not the whole answer. The microtubules of the cytoplasm and of the mit
 ## answer_c
 a, b
 ## explanation_c
-Correct. Both, and the difference is what the microtubule is for: a permanent scaffold in a cilium, a temporary one in a dividing cell.
+Both, and the difference is what the microtubule is for: a permanent scaffold in a cilium, a temporary one in a dividing cell.
 ## answer_d
 none of the above
 ## explanation_d
@@ -35501,7 +35501,7 @@ Ubiquitin is the tag that marks a protein for the proteasome. It is a label, not
 ## answer_b
 tubulin
 ## explanation_b
-Correct. Tubulin, as alpha and beta dimers polymerised into protofilaments.
+Tubulin, as alpha and beta dimers polymerised into protofilaments.
 ## answer_c
 actin
 ## explanation_c
@@ -35594,11 +35594,11 @@ True, but not the whole answer. Beta tubulin is the other half.
 ## answer_c
 Gamma tubulin
 ## explanation_c
-Gamma tubulin is in the microtubule organising centre, where it nucleates new microtubules. It directs their growth without becoming part of the tube. This is the option the book keys.
+Gamma tubulin is in the microtubule organising centre, where it nucleates new microtubules. It directs their growth without becoming part of the tube. This is the keyed answer.
 ## answer_d
 Both a & b
 ## explanation_d
-Correct. Alpha and beta together — the dimer that repeats along each of the thirteen protofilaments.
+Alpha and beta together — the dimer that repeats along each of the thirteen protofilaments.
 ## answer_e
 Both a & c
 ## explanation_e
@@ -35691,7 +35691,7 @@ True, but not the whole answer. Small intestine and kidney tubule — the two gr
 ## answer_d
 both b & c are correct
 ## explanation_d
-Correct. Actin core and absorptive site are one fact rather than two: the microvillus exists to increase surface area, and the actin is what holds it out.
+Actin core and absorptive site are one fact rather than two: the microvillus exists to increase surface area, and the actin is what holds it out.
 ## correct_answer
 D
 ## main_concept
@@ -35780,7 +35780,7 @@ True, but not the whole answer. In brown fat the energy leaves as heat instead o
 ## answer_d
 all of the above
 ## explanation_d
-Correct. Movement, division, ATP and heat are all within one organelle's repertoire, and a student who stops at ATP has taken a quarter of it.
+Movement, division, ATP and heat are all within one organelle's repertoire, and a student who stops at ATP has taken a quarter of it.
 ## correct_answer
 D
 ## main_concept
@@ -35861,7 +35861,7 @@ The two stains are the right pair but in the wrong order. Janus green gives gree
 ## answer_b
 iron H, janus green
 ## explanation_b
-Correct. Iron haematoxylin gives dark blue, Janus green gives green. Haematoxylin is blue in every preparation it is used in, which is the way to hold the pair the right way round.
+Iron haematoxylin gives dark blue, Janus green gives green. Haematoxylin is blue in every preparation it is used in, which is the way to hold the pair the right way round.
 ## answer_c
 iron H, silver
 ## explanation_c
@@ -35958,7 +35958,7 @@ True, but not the whole answer. Messenger, transfer and ribosomal RNA are all pr
 ## answer_d
 All The Above
 ## explanation_d
-Correct. Enzymes, genetic material and ions together, and between them they are why a mitochondrion can divide without the nucleus.
+Enzymes, genetic material and ions together, and between them they are why a mitochondrion can divide without the nucleus.
 ## correct_answer
 D
 ## main_concept
@@ -36047,7 +36047,7 @@ True, but not the whole answer. Their activity is under hormonal control, which 
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three, and they are one story: a mitochondrion adapted to burn fuel for warmth rather than for work.
+All three, and they are one story: a mitochondrion adapted to burn fuel for warmth rather than for work.
 ## correct_answer
 D
 ## main_concept
@@ -36132,7 +36132,7 @@ Sulphur metabolism belongs to the sulfatases, which are lysosomal and peroxisoma
 ## answer_c
 Calcium metabolism
 ## explanation_c
-Correct. The matrix granules are calcium-rich, and the mitochondrion stores and releases calcium as well as making ATP.
+The matrix granules are calcium-rich, and the mitochondrion stores and releases calcium as well as making ATP.
 ## answer_d
 All of the above
 ## explanation_d
@@ -36314,7 +36314,7 @@ Affected by starvation is again white fat, the body's energy store; brown fat is
 ## answer_d
 abundant mitochondria
 ## explanation_d
-Correct. Abundant mitochondria are the defining feature, and everything else about brown fat follows from them — the colour, the heat, the vascularity.
+Abundant mitochondria are the defining feature, and everything else about brown fat follows from them — the colour, the heat, the vascularity.
 ## correct_answer
 D
 ## main_concept
@@ -36391,11 +36391,11 @@ Multivesicular bodies are formed when:
 ## answer_a
 1ry lysosomes fuse with phagosome
 ## explanation_a
-A phagosome gives the heterolysosome — solid material from outside. This is the option the book keys, and it names the wrong one of the three fusions.
+A phagosome gives the heterolysosome — solid material from outside. This is the keyed answer, and it names the wrong one of the three fusions.
 ## answer_b
 1ry lysosomes fuse with pinocytic vesicles
 ## explanation_b
-Correct. A pinocytic vesicle, holding fluid. Many such small vesicles inside one lysosome is what "multivesicular" describes.
+A pinocytic vesicle, holding fluid. Many such small vesicles inside one lysosome is what "multivesicular" describes.
 ## answer_c
 1ry lysosomes fuse with old organelles
 ## explanation_c
@@ -36484,11 +36484,11 @@ Microfilaments are actin, the same in every cell, and have no neuronal form.
 ## answer_b
 Intermediate filaments
 ## explanation_b
-Correct. Neurofilaments are the intermediate filament of the neuron — one of the six tissue-specific proteins the department book names.
+Neurofilaments are the intermediate filament of the neuron — one of six tissue-specific intermediate filament proteins.
 ## answer_c
 Thick filaments
 ## explanation_c
-Thick filaments are myosin of the muscle contractile apparatus. This is the option the book keys, and it puts a nerve protein into muscle.
+Thick filaments are myosin of the muscle contractile apparatus. This is the keyed answer, and it puts a nerve protein into muscle.
 ## answer_d
 Microtubules
 ## explanation_d
@@ -36569,7 +36569,7 @@ non membranous dense particles, formed of rRNA And Protein:
 ## answer_a
 ribosome
 ## explanation_a
-Correct. rRNA and protein, non-membranous, electron dense — the department book's own definition of a ribosome.
+rRNA and protein, non-membranous, electron dense — the definition of a ribosome.
 ## answer_b
 proteasome
 ## explanation_b
@@ -36658,11 +36658,11 @@ One of the following cilium parts has an identical structure to the centriole:
 ## answer_a
 Basal body
 ## explanation_a
-Correct. The basal body is a centriole that has migrated to the apical surface: nine triplets, 27 microtubules, the same arrangement exactly.
+The basal body is a centriole that has migrated to the apical surface: nine triplets, 27 microtubules, the same arrangement exactly.
 ## answer_b
 Rootles
 ## explanation_b
-The rootlets are nine single microtubules growing down into the cytoplasm from the basal body — a ninth of a centriole, not a copy of one. This is the option the book keys.
+The rootlets are nine single microtubules growing down into the cytoplasm from the basal body — a ninth of a centriole, not a copy of one. This is the keyed answer.
 ## answer_c
 Shaft
 ## explanation_c
@@ -36755,7 +36755,7 @@ True, so related. Janus green is the vital stain for mitochondria.
 ## answer_c
 they are the power house of the cell
 ## explanation_c
-True, so related. Power house of the cell is the book's own phrase for it.
+True, so related. "Power house of the cell" is the standard phrase for it.
 ## answer_d
 their outer membrane is provided with cristae
 ## explanation_d
@@ -36929,7 +36929,7 @@ Rough endoplasmic reticulum makes protein for export. A hormone that is not a pr
 ## answer_b
 sER
 ## explanation_b
-Correct. Smooth endoplasmic reticulum synthesises the steroid hormones, and a cell making them is packed with it.
+Smooth endoplasmic reticulum synthesises the steroid hormones, and a cell making them is packed with it.
 ## answer_c
 Lysosome
 ## explanation_c
@@ -37026,7 +37026,7 @@ True, but not the whole answer. Permeability to small molecules is what the pori
 ## answer_d
 all the above
 ## explanation_d
-Correct. The three are one description: it is smooth because it does not need area, and permeable because the selectivity is the inner membrane's job.
+The three are one description: it is smooth because it does not need area, and permeable because the selectivity is the inner membrane's job.
 ## correct_answer
 D
 ## main_concept
@@ -37107,7 +37107,7 @@ The Golgi packs and modifies protein and holds no enzyme of this kind.
 ## answer_b
 peroxisomes
 ## explanation_b
-Correct. Oxidase is one of the peroxisome's two enzyme groups — the one that carries out beta-oxidation and makes hydrogen peroxide.
+Oxidase is one of the peroxisome's two enzyme groups — the one that carries out beta-oxidation and makes hydrogen peroxide.
 ## answer_c
 Lysosomes
 ## explanation_c
@@ -37192,7 +37192,7 @@ peroxisomal enzymes are synthetized in:
 ## answer_a
 free polysomes
 ## explanation_a
-Correct. Free polysomes — free ribosomes strung on one messenger RNA — make the peroxisome's enzymes and release them into the cytosol for import.
+Free polysomes — free ribosomes strung on one messenger RNA — make the peroxisome's enzymes and release them into the cytosol for import.
 ## answer_b
 attached ribosome
 ## explanation_b
@@ -37281,11 +37281,11 @@ Pinocytosis is the process by which the cell can engulf:
 ## answer_a
 Fluid droplets
 ## explanation_a
-Correct. Fluid droplets: small invaginations of the membrane closing round extracellular fluid and whatever is dissolved in it.
+Fluid droplets: small invaginations of the membrane closing round extracellular fluid and whatever is dissolved in it.
 ## answer_b
 Solid particles
 ## explanation_b
-Solid particles are phagocytosis, taken by pseudopodia. This is the option the book keys, and cell eating and cell drinking are the two halves of the same distinction.
+Solid particles are phagocytosis, taken by pseudopodia. This is the keyed answer, and cell eating and cell drinking are the two halves of the same distinction.
 ## answer_c
 Hormones
 ## explanation_c
@@ -37463,7 +37463,7 @@ A microtubule is built from dimers of alpha and beta tubulin, not tetramers.
 ## answer_b
 intermediate filaments
 ## explanation_b
-Correct. Intermediate filaments polymerise from tetrameric subunits whose chemistry differs from tissue to tissue — which is why there are six of them and why they are diagnostic.
+Intermediate filaments polymerise from tetrameric subunits whose chemistry differs from tissue to tissue — which is why there are six of them and why they are diagnostic.
 ## answer_c
 microfilaments
 ## explanation_c
@@ -37552,7 +37552,7 @@ The small subunit binds the messenger RNA and reads it. It carries no polypeptid
 ## answer_b
 large subunit
 ## explanation_b
-Correct. The large subunit is where the chain is assembled and where it emerges — and it is also the subunit that binds the ribophorins of the rough reticulum, which is no coincidence: the chain has to be delivered into the cisterna.
+The large subunit is where the chain is assembled and where it emerges — and it is also the subunit that binds the ribophorins of the rough reticulum, which is no coincidence: the chain has to be delivered into the cisterna.
 ## answer_c
 a,b
 ## explanation_c
@@ -37637,7 +37637,7 @@ Polysomes are:
 ## answer_a
 A bead like structures formed of the link of a group of ribosomes
 ## explanation_a
-Correct. A group of ribosomes linked along one strand of messenger RNA, seen as bead-like rosettes or spiral chains — many ribosomes reading the same message at once.
+A group of ribosomes linked along one strand of messenger RNA, seen as bead-like rosettes or spiral chains — many ribosomes reading the same message at once.
 ## answer_b
 A bead like structures formed of the link of a group of lysosomes
 ## explanation_b
@@ -37734,7 +37734,7 @@ The cell membrane spends energy too, on active transport.
 ## answer_c
 mitochondria
 ## explanation_c
-Correct. The mitochondrion — the department book's own phrase, and the organelle every other one draws its ATP from.
+The mitochondrion — the organelle every other one draws its ATP from.
 ## answer_d
 golgi
 ## explanation_d
@@ -37827,7 +37827,7 @@ A secretory cell keeps its Golgi apical, above the nucleus and below the surface
 ## answer_d
 nerve cells
 ## explanation_d
-Correct. The nerve cell, which distributes its product along processes running in all directions and so has no single face to point the Golgi at.
+The nerve cell, which distributes its product along processes running in all directions and so has no single face to point the Golgi at.
 ## correct_answer
 D
 ## main_concept
@@ -37912,7 +37912,7 @@ Ribosomes are the reason for that basophilia, so again they are what is stained 
 ## answer_c
 golgi apparatus
 ## explanation_c
-Correct. The unstained area above the nucleus is the Golgi apparatus — the negative Golgi image, pale because the organelle takes neither dye.
+The unstained area above the nucleus is the Golgi apparatus — the negative Golgi image, pale because the organelle takes neither dye.
 ## answer_d
 secretory vesicles
 ## explanation_d
@@ -38005,7 +38005,7 @@ Gamma tubulin is in the microtubule organising centre.
 ## answer_d
 G.Actin
 ## explanation_d
-Correct. Globular G actin is the subunit; two chains of it coil into filamentous F actin, which is the filament itself.
+Globular G actin is the subunit; two chains of it coil into filamentous F actin, which is the filament itself.
 ## correct_answer
 D
 ## main_concept
@@ -38094,7 +38094,7 @@ Gamma tubulin is in the microtubule organising centre and nucleates microtubules
 ## answer_d
 a,b
 ## explanation_d
-Correct. Alpha and beta together, repeating along each protofilament.
+Alpha and beta together, repeating along each protofilament.
 ## correct_answer
 D
 ## main_concept
@@ -38179,7 +38179,7 @@ Exocytosis discharges material outwards but forms no pseudopodium.
 ## answer_c
 phagocytosis
 ## explanation_c
-Correct. Pseudopodia extending to surround a solid particle is phagocytosis — the department book's example is a white blood cell engulfing a bacterium.
+Pseudopodia extending to surround a solid particle is phagocytosis — the classic example is a white blood cell engulfing a bacterium.
 ## answer_d
 receptors-mediated
 ## explanation_d
@@ -38264,11 +38264,11 @@ Fluid droplets are pinocytosis, which needs no receptor at all.
 ## answer_b
 Solid particles
 ## explanation_b
-Solid particles are phagocytosis, taken by pseudopodia. This is the option the book keys.
+Solid particles are phagocytosis, taken by pseudopodia. This is the keyed answer.
 ## answer_c
 Hormones
 ## explanation_c
-Correct. Hormones — a molecule present in tiny quantity, which the cell can only capture by binding it to a specific receptor and then invaginating the patch it has gathered on.
+Hormones — a molecule present in tiny quantity, which the cell can only capture by binding it to a specific receptor and then invaginating the patch it has gathered on.
 ## answer_d
 Foreign bodies
 ## explanation_d
@@ -38353,7 +38353,7 @@ Lysosomes are the platelet's lambda granules, and all its granules lie in the ce
 ## answer_b
 Actin microfilaments
 ## explanation_b
-Correct. The peripheral zone is the hyalomere, and it holds the marginal microtubule bundle and the actin microfilaments — the machinery that changes the platelet's shape and throws out its pseudopodia.
+The peripheral zone is the hyalomere, and it holds the marginal microtubule bundle and the actin microfilaments — the machinery that changes the platelet's shape and throws out its pseudopodia.
 ## answer_c
 Glycogen
 ## explanation_c
@@ -38442,7 +38442,7 @@ Lysosomes increase in phagocytic cells, not in protein-forming ones. A plasma ce
 ## answer_b
 Can appear by histochemical test
 ## explanation_b
-Correct. The acid phosphatase histochemical reaction is the only way a lysosome is demonstrated by light microscopy.
+The acid phosphatase histochemical reaction is the only way a lysosome is demonstrated by light microscopy.
 ## answer_c
 is heterogeneous by EM
 ## explanation_c
@@ -38624,7 +38624,7 @@ An actin-rich core is the microvillus and the stereocilium. A cilium's core is m
 ## answer_b
 The axoneme is formed of 20 microtubules
 ## explanation_b
-Correct. The axoneme is 9 peripheral doublets plus 2 central singlets — 20 microtubules.
+The axoneme is 9 peripheral doublets plus 2 central singlets — 20 microtubules.
 ## answer_c
 Its main function is increasing the surface area of cells
 ## explanation_c
@@ -38713,7 +38713,7 @@ Pinocytosis moves fluid in and consumes membrane doing it.
 ## answer_b
 exocytosis
 ## explanation_b
-Correct. The vesicle fuses with the plasma membrane and discharges outside; membrane is added rather than lost, and its continuity is never broken.
+The vesicle fuses with the plasma membrane and discharges outside; membrane is added rather than lost, and its continuity is never broken.
 ## answer_c
 phagocytosis
 ## explanation_c
@@ -38806,7 +38806,7 @@ Rough endoplasmic reticulum makes protein for export; its product goes on to the
 ## answer_c
 Golgi apparatus
 ## explanation_c
-Correct. The Golgi's vesicles carry membrane to the cell surface and become part of it when they fuse — renewal is a by-product of every act of exocytosis.
+The Golgi's vesicles carry membrane to the cell surface and become part of it when they fuse — renewal is a by-product of every act of exocytosis.
 ## answer_d
 lysosomes
 ## explanation_d
@@ -38891,7 +38891,7 @@ Digested material is absorbed into the cytosol and used. What is left behind is 
 ## answer_b
 Are the undigested material in the secondary lysosome
 ## explanation_b
-Correct. Undigested material retained in the secondary lysosome, either discharged by exocytosis or kept as lipofuscin in long-lived cells.
+Undigested material retained in the secondary lysosome, either discharged by exocytosis or kept as lipofuscin in long-lived cells.
 ## answer_c
 Are the undigested material in multivesicular bodies
 ## explanation_c
@@ -38984,7 +38984,7 @@ Carbohydrate is added to protein in the reticulum and the Golgi, and stored as g
 ## answer_c
 protein
 ## explanation_c
-Correct. A ribosome assembles amino acids into protein, so ribosome-rich cells are protein-rich cells.
+A ribosome assembles amino acids into protein, so ribosome-rich cells are protein-rich cells.
 ## answer_d
 all the above
 ## explanation_d
@@ -39065,7 +39065,7 @@ Ribosomes:
 ## answer_a
 Are intensely basophilic
 ## explanation_a
-True, but not the whole answer. The RNA phosphate makes them intensely basophilic. This is the option the book keys, and it is only a third of what the question offers.
+True, but not the whole answer. The RNA phosphate makes them intensely basophilic. This is the keyed answer, and it is only a third of what the question offers.
 ## answer_b
 Are free or attached to RER
 ## explanation_b
@@ -39077,7 +39077,7 @@ True, but not the whole answer. Assembling amino acids into a polypeptide is wha
 ## answer_d
 All of the above
 ## explanation_d
-Correct. Staining, location and function are three true statements about one particle, and the question rewards holding them together.
+Staining, location and function are three true statements about one particle, and the question rewards holding them together.
 ## correct_answer
 D
 ## main_concept
@@ -39154,7 +39154,7 @@ Ribosomes are composed of:
 ## answer_a
 rRNA & proteins
 ## explanation_a
-Correct. Ribosomal RNA and protein — which is why "r" in rRNA stands for ribosomal in the first place.
+Ribosomal RNA and protein — which is why "r" in rRNA stands for ribosomal in the first place.
 ## answer_b
 DNA & proteins
 ## explanation_b
@@ -39243,7 +39243,7 @@ Ribosomes are intensely basophilic granules. This basophilia is due to:
 ## answer_a
 Presence of basophilic protein
 ## explanation_a
-Circular: calling the protein basophilic is the observation restated, not a cause. And the protein is not what binds the dye. This is the option the book keys.
+Circular: calling the protein basophilic is the observation restated, not a cause. And the protein is not what binds the dye. This is the keyed answer.
 ## answer_b
 Presence of amino acids for assembly
 ## explanation_b
@@ -39251,7 +39251,7 @@ The amino acids passing through are transient and far too few to colour anything
 ## answer_c
 Presence of RNA
 ## explanation_c
-Correct. RNA carries acidic phosphate groups, and an acidic group binds a basic dye — that is what basophilia means.
+RNA carries acidic phosphate groups, and an acidic group binds a basic dye — that is what basophilia means.
 ## answer_d
 Its attachment to RER
 ## explanation_d
@@ -39332,7 +39332,7 @@ Ribosomes are synthesized in:
 ## answer_a
 proteasomes
 ## explanation_a
-A proteasome destroys protein. It is the opposite kind of machine, and this is the option the book keys.
+A proteasome destroys protein. It is the opposite kind of machine, and This is the keyed answer.
 ## answer_b
 Lysosomes
 ## explanation_b
@@ -39340,7 +39340,7 @@ Lysosomes likewise digest rather than build.
 ## answer_c
 The nucleolus
 ## explanation_c
-Correct. The nucleolus: rRNA is transcribed there, the protein arrives from the cytoplasm, and the two unite into the large and small subunits before leaving through the nuclear pores.
+The nucleolus: rRNA is transcribed there, the protein arrives from the cytoplasm, and the two unite into the large and small subunits before leaving through the nuclear pores.
 ## answer_d
 Peroxisomes
 ## explanation_d
@@ -39429,7 +39429,7 @@ The lysosome is a product of the secretory system rather than the system itself.
 ## answer_c
 golgi
 ## explanation_c
-Correct. The Golgi apparatus — the department book defines it as the membranous organelle concerned with secretion.
+The Golgi apparatus — the membranous organelle concerned with secretion.
 ## answer_d
 proteasome
 ## explanation_d
@@ -39510,7 +39510,7 @@ single centriole formed of 27 MTs in 9 triplet:
 ## answer_a
 basal body
 ## explanation_a
-Correct. The basal body is a single centriole — 27 microtubules in nine triplets — that has migrated to the apical surface and grown a shaft.
+The basal body is a single centriole — 27 microtubules in nine triplets — that has migrated to the apical surface and grown a shaft.
 ## answer_b
 shaft
 ## explanation_b
@@ -39599,7 +39599,7 @@ specific granules of granulomere Contain …………
 ## answer_a
 clothing, growth factors
 ## explanation_a
-Correct. The specific — alpha — granules hold clotting factors and fibrinogen along with platelet-derived growth factor. "Clothing" here is the page's OCR of "clotting".
+The specific — alpha — granules hold clotting factors and fibrinogen along with platelet-derived growth factor. "Clothing" here is the page's OCR of "clotting".
 ## answer_b
 ADP, ATP, serotonin
 ## explanation_b
@@ -39700,7 +39700,7 @@ Microtubules are the core of a true cilium. A stereocilium has none, which is ex
 ## answer_d
 formed of actin filaments
 ## explanation_d
-Correct. Actin filaments, like a microvillus — because a stereocilium is a long microvillus, whatever its name says.
+Actin filaments, like a microvillus — because a stereocilium is a long microvillus, whatever its name says.
 ## correct_answer
 D
 ## main_concept
@@ -39777,11 +39777,11 @@ Synthesis of proteins for extracellular use is the function of:
 ## answer_a
 Free ribosomes
 ## explanation_a
-Free ribosomes release their product into the cytosol, where there is no route to the outside. This is the option the book keys.
+Free ribosomes release their product into the cytosol, where there is no route to the outside. This is the keyed answer.
 ## answer_b
 Attached ribosomes
 ## explanation_b
-Correct. Attached ribosomes deliver the growing chain into the cisterna of the rough reticulum, which segregates it, glycosylates it and sends it to the Golgi for export.
+Attached ribosomes deliver the growing chain into the cisterna of the rough reticulum, which segregates it, glycosylates it and sends it to the Golgi for export.
 ## answer_c
 Mitochondria
 ## explanation_c
@@ -39866,7 +39866,7 @@ Synthesis of proteins for intracellular use is the function of:
 ## answer_a
 Free ribosomes
 ## explanation_a
-Correct. Free ribosomes release their product straight into the cytosol, which is where the cell's own enzymes and structural proteins are needed.
+Free ribosomes release their product straight into the cytosol, which is where the cell's own enzymes and structural proteins are needed.
 ## answer_b
 Attached ribosomes
 ## explanation_b
@@ -39874,7 +39874,7 @@ Attached ribosomes make protein for export, through the rough reticulum and the 
 ## answer_c
 Mitochondria
 ## explanation_c
-Mitochondria are the power house. This is the option the book keys, and it confuses making energy with making protein.
+Mitochondria are the power house. This is the keyed answer, and it confuses making energy with making protein.
 ## answer_d
 Lysosomes
 ## explanation_d
@@ -39967,7 +39967,7 @@ The axoneme of the cilia has:
 ## answer_d
 20 microtubules
 ## explanation_d
-Correct. 20: 9 doublets, which is 18, plus 2 central singlets.
+20: 9 doublets, which is 18, plus 2 central singlets.
 ## correct_answer
 D
 ## main_concept
@@ -40044,7 +40044,7 @@ The basal body of cilia is similar to:
 ## answer_a
 Centriole
 ## explanation_a
-Correct. The basal body has a centriole's exact structure, because it is one: centrioles duplicate thousands of times over and migrate to the apical surface to become them.
+The basal body has a centriole's exact structure, because it is one: centrioles duplicate thousands of times over and migrate to the apical surface to become them.
 ## answer_b
 Centrosome
 ## explanation_b
@@ -40133,7 +40133,7 @@ The basal body of the cilia has:
 ## answer_a
 27 microtubules
 ## explanation_a
-Correct. 27, in nine triplets — a centriole's arrangement exactly.
+27, in nine triplets — a centriole's arrangement exactly.
 ## answer_b
 20 microtubules
 ## explanation_b
@@ -40222,11 +40222,11 @@ The cells of a patient suffering from Alzheimer's disease, will show: _
 ## answer_a
 Defective mitochondria.
 ## explanation_a
-Defective mitochondria present as failure of energy production — muscular weakness in the book's own example — rather than as protein accumulating.
+Defective mitochondria present as failure of energy production — muscular weakness, classically — rather than as protein accumulating.
 ## answer_b
 Defective lysosomes.
 ## explanation_b
-Defective lysosomes leave engulfed and worn-out material undigested inside vesicles. That is the storage-disease pattern, and the book attaches it to sulfatase deficiency and nerve cell dysfunction; it is the most defensible of the wrong answers here.
+Defective lysosomes leave engulfed and worn-out material undigested inside vesicles. That is the storage-disease pattern, attached here to sulfatase deficiency and nerve cell dysfunction; it is the most defensible of the wrong answers here.
 ## answer_c
 Defective rER.
 ## explanation_c
@@ -40234,7 +40234,7 @@ Defective rough endoplasmic reticulum would impair the making of exported protei
 ## answer_d
 Defective proteasomes.
 ## explanation_d
-Correct. When proteasomal degradation fails, abnormal protein that should have been destroyed accumulates in the cytosol — the mechanism these question books attach to Alzheimer's disease.
+When proteasomal degradation fails, abnormal protein that should have been destroyed accumulates in the cytosol — the mechanism these question books attach to Alzheimer's disease.
 ## correct_answer
 D
 ## main_concept
@@ -40311,7 +40311,7 @@ The centrioles are:
 ## answer_a
 Membranous organelles
 ## explanation_a
-Centrioles are non-membranous — nine triplets of microtubules and nothing else. This is the option the book keys, and it puts the centriole in the wrong half of the book's own classification.
+Centrioles are non-membranous — nine triplets of microtubules and nothing else. This is the keyed answer, and it puts the centriole in the wrong half of the classification.
 ## answer_b
 Similar in structure to shaft of cilia
 ## explanation_b
@@ -40323,7 +40323,7 @@ H&E does not demonstrate them; they need iron haematoxylin, and even then they a
 ## answer_d
 Self-replicating organelles
 ## explanation_d
-Correct. The centrosome duplicates in the S phase of the cell cycle and the two pairs move to opposite poles — self-replication, and it is also how the thousands of basal bodies of a ciliated cell are produced.
+The centrosome duplicates in the S phase of the cell cycle and the two pairs move to opposite poles — self-replication, and it is also how the thousands of basal bodies of a ciliated cell are produced.
 ## answer_e
 Disappeared during cell division
 ## explanation_e
@@ -40404,7 +40404,7 @@ The cytoplasmic organelle responsible for renewal and maintenance of cell membra
 ## answer_a
 Golgi
 ## explanation_a
-Correct. Every Golgi vesicle that fuses with the plasma membrane adds its own membrane to it, so renewal is a by-product of secretion.
+Every Golgi vesicle that fuses with the plasma membrane adds its own membrane to it, so renewal is a by-product of secretion.
 ## answer_b
 Mitochondria
 ## explanation_b
@@ -40412,7 +40412,7 @@ Mitochondria supply the energy but contribute no membrane to the surface.
 ## answer_c
 Lysosomes
 ## explanation_c
-Lysosomes break down the membrane that endocytosis brings back in. That is the removal half of turnover, not the renewal half. This is the option the book keys.
+Lysosomes break down the membrane that endocytosis brings back in. That is the removal half of turnover, not the renewal half. This is the keyed answer.
 ## answer_d
 sER
 ## explanation_d
@@ -40505,7 +40505,7 @@ A lysosome contains a nuclease, which digests nucleic acid rather than storing i
 ## answer_d
 Mitochondria
 ## explanation_d
-Correct. The mitochondrion is the only cytoplasmic organelle with its own genome, which is what allows it to divide independently.
+The mitochondrion is the only cytoplasmic organelle with its own genome, which is what allows it to divide independently.
 ## correct_answer
 D
 ## main_concept
@@ -40594,7 +40594,7 @@ The diameter of microtubules is:
 ## answer_d
 24 nm
 ## explanation_d
-Correct. 24 nm, fixed by the thirteen protofilaments of the wall. The three cytoskeletal diameters — 5–7, 8–10 and 24 — are all in this one option set.
+24 nm, fixed by the thirteen protofilaments of the wall. The three cytoskeletal diameters — 5–7, 8–10 and 24 — are all in this one option set.
 ## correct_answer
 D
 ## main_concept
@@ -40764,7 +40764,7 @@ The citric acid cycle enzymes are soluble, in the matrix, not attached to the me
 ## answer_b
 ATP synthetase
 ## explanation_b
-Correct. The globular structures on stalks are the elementary particles, and they carry ATP synthase — the last step of oxidative phosphorylation.
+The globular structures on stalks are the elementary particles, and they carry ATP synthase — the last step of oxidative phosphorylation.
 ## answer_c
 Reductase enzymes
 ## explanation_c
@@ -40853,11 +40853,11 @@ Vesicles are what bud off it, not what it is.
 ## answer_b
 saccules
 ## explanation_b
-Saccules are the Golgi's word — flat curved sacs stacked above one another. The two organelles are distinguished partly by which word the book uses for each.
+Saccules are the Golgi's word — flat curved sacs stacked above one another. The two organelles are distinguished partly by the term used for each.
 ## answer_c
 cisternae
 ## explanation_c
-Correct. Cisternae — parallel flattened sacs, intercommunicating and continuous with the nuclear envelope.
+Cisternae — parallel flattened sacs, intercommunicating and continuous with the nuclear envelope.
 ## answer_d
 microtubule
 ## explanation_d
@@ -40938,11 +40938,11 @@ The microtubules are:
 ## answer_a
 Membranous organelles
 ## explanation_a
-Microtubules are non-membranous, on the book's own list with the ribosomes.
+Microtubules are non-membranous, alongside the ribosomes.
 ## answer_b
 10-15 nm in diameter
 ## explanation_b
-10–15 nm is the intermediate filament's range, not the microtubule's 24 nm. This is the option the book keys.
+10–15 nm is the intermediate filament's range, not the microtubule's 24 nm. This is the keyed answer.
 ## answer_c
 Forming core of microvilli
 ## explanation_c
@@ -40950,7 +40950,7 @@ The core of a microvillus is actin. Giving it to microtubules is the single comm
 ## answer_d
 Having plus & minus end
 ## explanation_d
-Correct. A microtubule has a plus and a minus end, and that polarity is what lets it add tubulin at one end and lose it at the other.
+A microtubule has a plus and a minus end, and that polarity is what lets it add tubulin at one end and lose it at the other.
 ## correct_answer
 D
 ## main_concept
@@ -41120,7 +41120,7 @@ The Golgi packs and ships protein. A lipid needs no packaging of that kind.
 ## answer_b
 SER
 ## explanation_b
-Correct. Smooth endoplasmic reticulum synthesises phospholipid and steroid, and a lipid-forming cell is full of it — which is also why such a cell is acidophilic.
+Smooth endoplasmic reticulum synthesises phospholipid and steroid, and a lipid-forming cell is full of it — which is also why such a cell is acidophilic.
 ## answer_c
 Lysosomes
 ## explanation_c
@@ -41213,7 +41213,7 @@ A phagosome holds a solid particle engulfed from outside — again the wrong sid
 ## answer_c
 autophagosome
 ## explanation_c
-Correct. An autophagosome, or autophagic vesicle: the cell's own old organelle wrapped in membrane, ready to fuse with a primary lysosome and become an autolysosome.
+An autophagosome, or autophagic vesicle: the cell's own old organelle wrapped in membrane, ready to fuse with a primary lysosome and become an autolysosome.
 ## answer_d
 lysosome
 ## explanation_d
@@ -41294,7 +41294,7 @@ The organelle considered with protein synthesis:
 ## answer_a
 ribosomes
 ## explanation_a
-Correct. The ribosome is where amino acids are joined into a polypeptide, whether it is free or attached to the rough reticulum.
+The ribosome is where amino acids are joined into a polypeptide, whether it is free or attached to the rough reticulum.
 ## answer_b
 sER
 ## explanation_b
@@ -41387,11 +41387,11 @@ Rough endoplasmic reticulum handles protein.
 ## answer_b
 sER
 ## explanation_b
-Correct. Smooth endoplasmic reticulum synthesises phospholipid and steroid and breaks glycogen down to glucose — the lipid and carbohydrate side of the cell's metabolism.
+Smooth endoplasmic reticulum synthesises phospholipid and steroid and breaks glycogen down to glucose — the lipid and carbohydrate side of the cell's metabolism.
 ## answer_c
 Lysosomes
 ## explanation_c
-Lysosomes hydrolyse lipid among other things, which is a share in lipid handling; but the organelle the book names for lipid metabolism is the smooth reticulum.
+Lysosomes hydrolyse lipid among other things, which is a share in lipid handling; but the organelle responsible for lipid metabolism is the smooth reticulum.
 ## answer_d
 Golgi apparatus
 ## explanation_d
@@ -41472,7 +41472,7 @@ The organelle responsible for renewal and maintenance of cell membrane is:
 ## answer_a
 Golgi apparatus
 ## explanation_a
-Correct. The Golgi sends membrane to the cell surface in every vesicle it buds, and each fusion adds that membrane to the plasmalemma.
+The Golgi sends membrane to the cell surface in every vesicle it buds, and each fusion adds that membrane to the plasmalemma.
 ## answer_b
 Lysosomes
 ## explanation_b
@@ -41573,7 +41573,7 @@ Lysosomes digest protein.
 ## answer_d
 Golgi apparatus
 ## explanation_d
-Correct. Packing, concentration and storage are the Golgi's named functions, and the secretory vesicle is the package.
+Packing, concentration and storage are the Golgi's named functions, and the secretory vesicle is the package.
 ## correct_answer
 D
 ## main_concept
@@ -41650,7 +41650,7 @@ The organelle which contains ribosomes attached to it’s surface:
 ## answer_a
 rER
 ## explanation_a
-Correct. Rough endoplasmic reticulum — the ribosomes on its outer surface are what make it rough and what give the cell its basophilia.
+Rough endoplasmic reticulum — the ribosomes on its outer surface are what make it rough and what give the cell its basophilia.
 ## answer_b
 sER
 ## explanation_b
@@ -41747,7 +41747,7 @@ Elementary particles sit on the cristae, so they are inner-membrane structures t
 ## answer_c
 Smooth with porins
 ## explanation_c
-Correct. Smooth, with porins, and therefore permeable to small molecules — the selectivity is left to the inner membrane.
+Smooth, with porins, and therefore permeable to small molecules — the selectivity is left to the inner membrane.
 ## answer_d
 Shows attached ribosomes
 ## explanation_d
@@ -41832,7 +41832,7 @@ The Golgi is a separate stack, connected to the rest of the system only by vesic
 ## answer_b
 rER
 ## explanation_b
-Correct. The outer nuclear membrane is continuous with the cisternae of the rough endoplasmic reticulum — which is why it too carries polyribosomes.
+The outer nuclear membrane is continuous with the cisternae of the rough endoplasmic reticulum — which is why it too carries polyribosomes.
 ## answer_c
 sER
 ## explanation_c
@@ -41925,7 +41925,7 @@ Chromatin islands float in the nuclear sap, on the inner side again.
 ## answer_c
 Polyribosomes
 ## explanation_c
-Correct. Polyribosomes stud the outer membrane, because it is continuous with the rough endoplasmic reticulum and is part of the same protein-making surface.
+Polyribosomes stud the outer membrane, because it is continuous with the rough endoplasmic reticulum and is part of the same protein-making surface.
 ## answer_d
 All of the above
 ## explanation_d
@@ -42018,7 +42018,7 @@ Lysosomes digest.
 ## answer_d
 mitochondria
 ## explanation_d
-Correct. The mitochondrion, the department book's own phrase — everything else in the cell runs on what it produces.
+The mitochondrion — everything else in the cell runs on what it produces.
 ## correct_answer
 D
 ## main_concept
@@ -42103,7 +42103,7 @@ Organelles are lost, not gained — mitochondria and ribosomes both go, which is
 ## answer_c
 Increase in Hb content
 ## explanation_c
-Correct. Haemoglobin content rises steadily through erythropoiesis, and the cell discards everything that is not haemoglobin to make room for it.
+Haemoglobin content rises steadily through erythropoiesis, and the cell discards everything that is not haemoglobin to make room for it.
 ## answer_d
 increase in the cell diameter
 ## explanation_d
@@ -42192,7 +42192,7 @@ Exocytosis moves material out.
 ## answer_c
 pinocytosis
 ## explanation_c
-Correct. Pinocytosis — from the Greek for drinking — taking in extracellular fluid through small invaginations.
+Pinocytosis — from the Greek for drinking — taking in extracellular fluid through small invaginations.
 ## answer_d
 phagocytosis
 ## explanation_d
@@ -42277,7 +42277,7 @@ Smooth endoplasmic reticulum has no ribosomes, so it needs no receptor to bind t
 ## answer_b
 rough ER
 ## explanation_b
-Correct. Ribophorins are the membrane receptors of the rough reticulum that the large ribosomal subunit binds to.
+Ribophorins are the membrane receptors of the rough reticulum that the large ribosomal subunit binds to.
 ## answer_c
 golgi apparatus
 ## explanation_c
@@ -42374,7 +42374,7 @@ The rootlets of the cilia have:
 ## answer_d
 9 microtubules
 ## explanation_d
-Correct. 9 — one microtubule from each of the basal body's nine triplets, the C microtubule, growing into the cytoplasm to anchor the whole structure.
+9 — one microtubule from each of the basal body's nine triplets, the C microtubule, growing into the cytoplasm to anchor the whole structure.
 ## correct_answer
 D
 ## main_concept
@@ -42451,7 +42451,7 @@ The rough endoplasmic reticulum’s wall is rough because it’s studded with:
 ## answer_a
 Ribosomes
 ## explanation_a
-Correct. Ribosomes on its cytoplasmic surface, and their presence is the entire difference between the rough reticulum and the smooth.
+Ribosomes on its cytoplasmic surface, and their presence is the entire difference between the rough reticulum and the smooth.
 ## answer_b
 Centrioles
 ## explanation_b
@@ -42552,7 +42552,7 @@ Smooth reticulum tubules handle lipid and produce no secretory vesicle.
 ## answer_d
 Trans face of the Golgi apparatus
 ## explanation_d
-Correct. The trans, or exit, face — where secretory vesicles, lysosomes and coated vesicles all bud off.
+The trans, or exit, face — where secretory vesicles, lysosomes and coated vesicles all bud off.
 ## correct_answer
 D
 ## main_concept
@@ -42633,11 +42633,11 @@ Smooth reticulum tubules handle lipid and detoxification and bud no secretory ve
 ## answer_b
 rER
 ## explanation_b
-The rough reticulum buds transfer vesicles, which go to the Golgi. Transfer and secretory are the two vesicles this leaf keeps asking you to tell apart, and this is the option the book keys.
+The rough reticulum buds transfer vesicles, which go to the Golgi. Transfer and secretory are the two vesicles this leaf keeps asking you to tell apart, and This is the keyed answer.
 ## answer_c
 Golgi apparatus
 ## explanation_c
-Correct. The Golgi apparatus, from its trans face, after packing and concentrating the protein the reticulum sent it.
+The Golgi apparatus, from its trans face, after packing and concentrating the protein the reticulum sent it.
 ## answer_d
 Mitochondria
 ## explanation_d
@@ -42718,7 +42718,7 @@ The wall of the centriole is formed of:
 ## answer_a
 27 microtubules
 ## explanation_a
-Correct. 27 — nine bundles of three.
+27 — nine bundles of three.
 ## answer_b
 20 microtubules
 ## explanation_b
@@ -42815,7 +42815,7 @@ The Golgi packs and modifies protein on the way out; the thyroid hormone questio
 ## answer_c
 lysosomes
 ## explanation_c
-Correct. The follicular cell takes colloid back in and its lysosomal enzymes break the bond between the hormone and its protein, releasing the active hormone — the department book lists this among lysosomal functions.
+The follicular cell takes colloid back in and its lysosomal enzymes break the bond between the hormone and its protein, releasing the active hormone — which is a recognised lysosomal function.
 ## answer_d
 peroxisomes
 ## explanation_d
@@ -42900,7 +42900,7 @@ The Golgi receives transfer vesicles; it does not make them. Direction is the wh
 ## answer_b
 rER
 ## explanation_b
-Correct. The rough endoplasmic reticulum packs its newly made protein into transfer vesicles and sends them to the Golgi's cis face.
+The rough endoplasmic reticulum packs its newly made protein into transfer vesicles and sends them to the Golgi's cis face.
 ## answer_c
 sER
 ## explanation_c
@@ -42989,11 +42989,11 @@ Phagocytosis uses pseudopodia driven by actin, with no clathrin coat.
 ## answer_b
 pinocytosis
 ## explanation_b
-Pinocytosis is a plain invagination and needs no accessory protein at all — the books make that its distinguishing feature.
+Pinocytosis is a plain invagination and needs no accessory protein at all — that is its distinguishing feature.
 ## answer_c
 receptor mediated endocytosis
 ## explanation_c
-Correct. Clathrin coats the cytoplasmic side of the aggregated receptors, forming the coated pit that pinches off as a coated vesicle.
+Clathrin coats the cytoplasmic side of the aggregated receptors, forming the coated pit that pinches off as a coated vesicle.
 ## answer_d
 simple diffusion
 ## explanation_d
@@ -43086,7 +43086,7 @@ The nucleus is pale and euchromatic, which is what a cell with its options still
 ## answer_d
 Possessing many free ribosomes
 ## explanation_d
-Correct. Free ribosomes in quantity — protein made for the cell's own growth rather than for export, which is exactly the profile of a cell that is building itself rather than serving a tissue.
+Free ribosomes in quantity — protein made for the cell's own growth rather than for export, which is exactly the profile of a cell that is building itself rather than serving a tissue.
 ## correct_answer
 D
 ## main_concept
@@ -43175,7 +43175,7 @@ An autolysosome is actively digesting the cell's own organelles.
 ## answer_d
 residual bodies
 ## explanation_d
-Correct. A residual body: what is left when the digestion of any of the three is over and something could not be broken down.
+A residual body: what is left when the digestion of any of the three is over and something could not be broken down.
 ## correct_answer
 D
 ## main_concept
@@ -43256,7 +43256,7 @@ A peroxisome is also a single-membrane vesicle, which is half the description �
 ## answer_b
 lysosome
 ## explanation_b
-Correct. Single membrane plus intracytoplasmic digestion is the department book's own definition of the lysosome.
+Single membrane plus intracytoplasmic digestion is the definition of the lysosome.
 ## answer_c
 golgi
 ## explanation_c
@@ -43345,7 +43345,7 @@ Microfilaments are actin, the same in every cell, and have no tissue-specific fo
 ## answer_b
 Intermediate filaments
 ## explanation_b
-Correct. Vimentin is the intermediate filament of connective tissue and muscle — one of the six the department book names.
+Vimentin is the intermediate filament of connective tissue and muscle — one of six tissue-specific intermediate filament proteins.
 ## answer_c
 Thick filaments
 ## explanation_c
@@ -43434,7 +43434,7 @@ wall of each centriole contain ………… MTs
 ## answer_b
 27
 ## explanation_b
-Correct. 27 microtubules, in nine triplets.
+27 microtubules, in nine triplets.
 ## answer_c
 17
 ## explanation_c
@@ -43519,7 +43519,7 @@ What is the term for the general process that cells us to bring things into the 
 ## answer_a
 Endocytosis
 ## explanation_a
-Correct. Endocytosis is the umbrella term for bringing material in by forming vesicles, and phagocytosis, pinocytosis and receptor-mediated uptake are its three kinds.
+Endocytosis is the umbrella term for bringing material in by forming vesicles, and phagocytosis, pinocytosis and receptor-mediated uptake are its three kinds.
 ## answer_b
 Exocytosis
 ## explanation_b
@@ -43612,7 +43612,7 @@ Endocytosis brings material in — the paired question's answer, with the same o
 ## answer_b
 Exocytosis
 ## explanation_b
-Correct. Exocytosis, in which a vesicle fuses with the plasma membrane and discharges without breaking its continuity.
+Exocytosis, in which a vesicle fuses with the plasma membrane and discharges without breaking its continuity.
 ## answer_c
 Pinocytosis
 ## explanation_c
@@ -43709,7 +43709,7 @@ Endocytosis is the general term covering all three routes in, so it is too broad
 ## answer_d
 Phagocytosis
 ## explanation_d
-Correct. Phagocytosis, cell eating: pseudopodia extend to surround a solid particle.
+Phagocytosis, cell eating: pseudopodia extend to surround a solid particle.
 ## correct_answer
 D
 ## main_concept
@@ -43794,7 +43794,7 @@ A peroxisome is a membranous vesicle of enzymes.
 ## answer_c
 Microfilaments
 ## explanation_c
-Correct. Microfilaments — actin — are one of the three elements, with microtubules and intermediate filaments.
+Microfilaments — actin — are one of the three elements, with microtubules and intermediate filaments.
 ## answer_d
 Centrioles
 ## explanation_d
@@ -43887,7 +43887,7 @@ The rough endoplasmic reticulum is where attached ribosomes work, not where they
 ## answer_d
 Nucleolus
 ## explanation_d
-Correct. The nucleolus: rRNA is transcribed there and unites there with protein imported from the cytoplasm to form the large and small subunits.
+The nucleolus: rRNA is transcribed there and unites there with protein imported from the cytoplasm to form the large and small subunits.
 ## correct_answer
 D
 ## main_concept
@@ -43976,7 +43976,7 @@ The matrix granules are the dense calcium-rich bodies. They are in the matrix bu
 ## answer_d
 Mitochondrial matrix
 ## explanation_d
-Correct. The Krebs cycle enzymes are soluble in the matrix, which is why the matrix is where the substrates are oxidised before the chain takes over.
+The Krebs cycle enzymes are soluble in the matrix, which is why the matrix is where the substrates are oxidised before the chain takes over.
 ## correct_answer
 D
 ## main_concept
@@ -44053,7 +44053,7 @@ Which of the following are seen by LM as Hair like Striations :
 ## answer_a
 cilia
 ## explanation_a
-Correct. Cilia are long enough to be resolved individually and appear as fine hair-like striations at the free surface.
+Cilia are long enough to be resolved individually and appear as fine hair-like striations at the free surface.
 ## answer_b
 microvilli
 ## explanation_b
@@ -44150,11 +44150,11 @@ True, but not the whole answer. Mitochondria stain dark blue with it.
 ## answer_c
 Golgi apparatus
 ## explanation_c
-The Golgi apparatus is the silver stain's subject, appearing as a brown network. This is the option the book keys, and it swaps the two great organelle stains.
+The Golgi apparatus is the silver stain's subject, appearing as a brown network. This is the keyed answer, and it swaps the two great organelle stains.
 ## answer_d
 Both a & b
 ## explanation_d
-Correct. Both centrioles and mitochondria, and the shared answer is why the two organelles are so often seen in the same preparation.
+Both centrioles and mitochondria, and the shared answer is why the two organelles are so often seen in the same preparation.
 ## correct_answer
 D
 ## main_concept
@@ -44243,7 +44243,7 @@ True, but not the whole answer. Mitochondria increase in number by simple divisi
 ## answer_d
 Both a & c are correct
 ## explanation_d
-Correct. Centrioles and mitochondria both, and for related reasons — each carries what it needs to make a copy of itself.
+Centrioles and mitochondria both, and for related reasons — each carries what it needs to make a copy of itself.
 ## correct_answer
 D
 ## main_concept
@@ -44324,7 +44324,7 @@ Lysosomes have a single limiting membrane.
 ## answer_b
 Filaments
 ## explanation_b
-Correct. Filaments — micro and intermediate — are cytoskeletal protein and have no membrane, which puts them with the ribosomes.
+Filaments — micro and intermediate — are cytoskeletal protein and have no membrane, which puts them with the ribosomes.
 ## answer_c
 Peroxisomes
 ## explanation_c
@@ -44413,7 +44413,7 @@ Smooth endoplasmic reticulum causes acidophilia — the opposite reaction, from 
 ## answer_b
 Ribosomes
 ## explanation_b
-Correct. The acidic phosphate of ribosomal RNA binds the basic dye, and every basophilic cytoplasm in histology comes back to that.
+The acidic phosphate of ribosomal RNA binds the basic dye, and every basophilic cytoplasm in histology comes back to that.
 ## answer_c
 Golgi comlpex
 ## explanation_c
@@ -44510,7 +44510,7 @@ True, but not the whole answer. Coated vesicles are Golgi products and carry mem
 ## answer_d
 both a & c are correct
 ## explanation_d
-Correct. The Golgi and its coated vesicles together — the organelle and the vehicle it uses, which is one mechanism rather than two.
+The Golgi and its coated vesicles together — the organelle and the vehicle it uses, which is one mechanism rather than two.
 ## correct_answer
 D
 ## main_concept
@@ -44595,7 +44595,7 @@ The figure 24 is right for a microtubule but the unit is printed as millimetres.
 ## answer_c
 Microfilaments’ diameter is 5-7 nm
 ## explanation_c
-Correct. Microfilaments are 5–7 nm in diameter — figure and unit both as the department book gives them.
+Microfilaments are 5–7 nm in diameter.
 ## answer_d
 Microfilaments is 5-10 nm in length
 ## explanation_d
@@ -44680,7 +44680,7 @@ Secretory vesicles bud from the Golgi's trans face, so they do originate from it
 ## answer_b
 Transfer vesicles
 ## explanation_b
-Correct. Transfer vesicles come from the rough endoplasmic reticulum and travel *to* the Golgi. Every other vesicle in this leaf leaves the Golgi; this one arrives.
+Transfer vesicles come from the rough endoplasmic reticulum and travel *to* the Golgi. Every other vesicle in this leaf leaves the Golgi; this one arrives.
 ## answer_c
 Lysosomes
 ## explanation_c
@@ -44688,7 +44688,7 @@ Lysosomes bud from the trans face too.
 ## answer_d
 All of the above
 ## explanation_d
-This is the option the book keys, and it would mean the Golgi produced nothing at all — which contradicts three other rows in the same books.
+This is the keyed answer, and it would mean the Golgi produced nothing at all — which contradicts three other rows in the same books.
 ## correct_answer
 B
 ## main_concept
@@ -44769,7 +44769,7 @@ Ribosomes assemble protein and hold no enzymes of their own.
 ## answer_b
 Peroxisome
 ## explanation_b
-Correct as the option set stands. Catalase destroys the hydrogen peroxide the peroxisome's own oxidases generate, which is detoxification in the literal sense — and smooth endoplasmic reticulum, the organelle these books usually key for drug detoxification, is not among the four options here.
+Catalase destroys the hydrogen peroxide the peroxisome's own oxidases generate, which is detoxification in the literal sense — and smooth endoplasmic reticulum, the organelle these books usually key for drug detoxification, is not among the four options here.
 ## answer_c
 Microfilaments
 ## explanation_c
@@ -44854,7 +44854,7 @@ Which organelle is not involved in lipid metabolism?
 ## answer_a
 Rough endoplasmic reticulum
 ## explanation_a
-Correct. Rough endoplasmic reticulum makes and segregates protein. It is the one organelle in the list with no share in lipid at all.
+Rough endoplasmic reticulum makes and segregates protein. It is the one organelle in the list with no share in lipid at all.
 ## answer_b
 Smooth endoplasmic reticulum
 ## explanation_b
@@ -44955,7 +44955,7 @@ Peroxisomes oxidise fatty acids and handle hydrogen peroxide.
 ## answer_d
 lysosomes
 ## explanation_d
-Correct. Removing excess and non-functional organelles by autophagy is a named lysosomal function, and replacement begins with removal.
+Removing excess and non-functional organelles by autophagy is a named lysosomal function, and replacement begins with removal.
 ## correct_answer
 D
 ## main_concept
@@ -45044,7 +45044,7 @@ A lysosome is one of the Golgi's products and holds enzymes rather than storing 
 ## answer_d
 Golgi apparatus
 ## explanation_d
-Correct. Storage, concentration and packing are the Golgi's three named functions, in the book's own order.
+Storage, concentration and packing are the Golgi's three named functions, in that order.
 ## correct_answer
 D
 ## main_concept
@@ -45129,7 +45129,7 @@ A cilium likewise. The actin-cored surface projections are the microvillus and t
 ## answer_c
 Microfilaments
 ## explanation_c
-Correct. Microfilaments are two coiled chains of globular G actin.
+Microfilaments are two coiled chains of globular G actin.
 ## answer_d
 Microtubules
 ## explanation_d
@@ -45214,7 +45214,7 @@ Vesicles bud off the *trans* face. Cis and trans are the entry and the exit, and
 ## answer_b
 receives vesicles from rER
 ## explanation_b
-Correct. The cis, or entry, face receives the transfer vesicles that the rough endoplasmic reticulum sends with its newly made protein.
+The cis, or entry, face receives the transfer vesicles that the rough endoplasmic reticulum sends with its newly made protein.
 ## answer_c
 connects the saccules together
 ## explanation_c
@@ -45299,7 +45299,7 @@ Transfer vesicles:
 ## answer_a
 Carry the segregated proteins to the Golgi apparatus
 ## explanation_a
-Correct. The rough reticulum segregates its newly made protein into its lumen and buds it off in transfer vesicles bound for the Golgi's cis face.
+The rough reticulum segregates its newly made protein into its lumen and buds it off in transfer vesicles bound for the Golgi's cis face.
 ## answer_b
 Transfer proteins to the cell membrane
 ## explanation_b
@@ -45307,7 +45307,7 @@ Carrying protein to the cell membrane is the secretory vesicle's job, from the t
 ## answer_c
 Transfer tRNA
 ## explanation_c
-Transfer RNA is a small soluble molecule that brings amino acids to the ribosome; it is never packaged into a vesicle. This is the option the book keys, and the two senses of "transfer" are the whole trap.
+Transfer RNA is a small soluble molecule that brings amino acids to the ribosome; it is never packaged into a vesicle. This is the keyed answer, and the two senses of "transfer" are the whole trap.
 ## answer_d
 None of theabove
 ## explanation_d
@@ -45392,7 +45392,7 @@ The basal body sits inside the apical cytoplasm, below the surface. It anchors t
 ## answer_b
 shaft
 ## explanation_b
-Correct. The shaft is the part that projects above the cell, covered by plasmalemma, with the axoneme inside it.
+The shaft is the part that projects above the cell, covered by plasmalemma, with the axoneme inside it.
 ## answer_c
 rootlet
 ## explanation_c
@@ -45477,11 +45477,11 @@ Clathrin:
 ## answer_a
 Is a protein coats the cytoplasmic surface of the cell membrane
 ## explanation_a
-Correct. Clathrin coats the cytoplasmic surface of the membrane over the aggregated receptors, and the basket it forms is what invaginates the patch into a coated pit and then pinches it off as a coated vesicle.
+Clathrin coats the cytoplasmic surface of the membrane over the aggregated receptors, and the basket it forms is what invaginates the patch into a coated pit and then pinches it off as a coated vesicle.
 ## answer_b
 Is a protein coats the outer surface of the cell membrane
 ## explanation_b
-The outer surface is where the ligand and the cell coat are. A protein cage there would sit between the receptor and the molecule it has to bind. This is the option the book keys, and it is the side-swap the question is really testing.
+The outer surface is where the ligand and the cell coat are. A protein cage there would sit between the receptor and the molecule it has to bind. This is the keyed answer, and it is the side-swap the question is really testing.
 ## answer_c
 Is a specific receptor for ligand
 ## explanation_c
@@ -45566,7 +45566,7 @@ Coated vesicles:
 ## answer_a
 They are vesicles which derived from the cell membrane
 ## explanation_a
-Correct. A coated vesicle is a piece of the cell membrane that has invaginated as a coated pit and pinched off, so it is derived from the cell membrane itself.
+A coated vesicle is a piece of the cell membrane that has invaginated as a coated pit and pinched off, so it is derived from the cell membrane itself.
 ## answer_b
 Coated by clathrin from the outside
 ## explanation_b
@@ -45574,7 +45574,7 @@ The clathrin coat is on the cytoplasmic side, not the outside. Swapping the side
 ## answer_c
 Contain ingested macromolecules as hormones
 ## explanation_c
-Receptor-mediated endocytosis really does take up hormones — the book gives growth hormone as its example — but a vesicle described by its cargo is not defined by it, and the option that says what a coated vesicle *is* is A.
+Receptor-mediated endocytosis really does take up hormones — growth hormone is the standard example — but a vesicle described by its cargo is not defined by it, and the option that says what a coated vesicle *is* is A.
 ## answer_d
 All of the above
 ## explanation_d
@@ -45655,7 +45655,7 @@ Pinocytosis is the process by which the cell membrane can engulf:
 ## answer_a
 Fluid droplets
 ## explanation_a
-Correct. Pinocytosis is cell drinking: small invaginations of the membrane surround extracellular fluid and whatever is dissolved in it.
+Pinocytosis is cell drinking: small invaginations of the membrane surround extracellular fluid and whatever is dissolved in it.
 ## answer_b
 Solid particles
 ## explanation_b
@@ -45663,7 +45663,7 @@ Solid particles are taken by phagocytosis, using pseudopodia. The two words diff
 ## answer_c
 Bacteria
 ## explanation_c
-A bacterium is a solid particle and is the department book's own example of phagocytosis by a white blood cell.
+A bacterium is a solid particle and is the classic example of phagocytosis by a white blood cell.
 ## answer_d
 Foreign bodies
 ## explanation_d
@@ -45752,7 +45752,7 @@ Exocytosis moves material out of the cell, not in.
 ## answer_c
 phagocytosis
 ## explanation_c
-Correct. Phagocytosis, cell eating: pseudopodia surround the solid particle and enclose it in a phagosome.
+Phagocytosis, cell eating: pseudopodia surround the solid particle and enclose it in a phagosome.
 ## answer_d
 pinocytosis
 ## explanation_d
@@ -45841,7 +45841,7 @@ Exocytosis discharges material from the cell; it is the opposite direction.
 ## answer_c
 pinocytosis
 ## explanation_c
-Correct. Pinocytosis, cell drinking — small invaginations of the membrane surrounding extracellular fluid.
+Pinocytosis, cell drinking — small invaginations of the membrane surrounding extracellular fluid.
 ## answer_d
 autophagy
 ## explanation_d
@@ -45934,7 +45934,7 @@ The mitotic spindle is microtubular and is organised by the centrioles. Microfil
 ## answer_d
 Core of microvilli.
 ## explanation_d
-Correct. The microvillus is a finger-like projection with a core of actin microfilaments anchored in the terminal web, and it is the department book's type example of a microfilament-built structure.
+The microvillus is a finger-like projection with a core of actin microfilaments anchored in the terminal web, and it is a textbook example of a microfilament-built structure.
 ## correct_answer
 d
 ## main_concept
@@ -46019,7 +46019,7 @@ The residual body is the end state left after any secondary lysosome has finishe
 ## answer_c
 Secondary lysosome with fluid content.
 ## explanation_c
-Correct. A multivesicular body is a primary lysosome fused with a pinocytic vesicle, so it is a secondary lysosome whose substrate is fluid — the fluid counterpart of the heterolysosome.
+A multivesicular body is a primary lysosome fused with a pinocytic vesicle, so it is a secondary lysosome whose substrate is fluid — the fluid counterpart of the heterolysosome.
 ## answer_d
 Only found in cardiac and nerve cells
 ## explanation_d
@@ -46108,7 +46108,7 @@ Lysosomes are right, free ribosomes are not. Free ribosomes make protein the cel
 ## answer_c
 Golgi apparatus & lysosome.
 ## explanation_c
-Correct. The macrophage digests what it engulfs, so it is rich in lysosomes, and rich in the Golgi apparatus that makes them.
+The macrophage digests what it engulfs, so it is rich in lysosomes, and rich in the Golgi apparatus that makes them.
 ## answer_d
 Mitochondria & sER.
 ## explanation_d
@@ -46193,7 +46193,7 @@ Nissl bodies are the neuron's rough endoplasmic reticulum and free ribosomes, se
 ## answer_b
 Neurofilaments.
 ## explanation_b
-Neurofilaments are the neuron's intermediate filaments. The department book gives intermediate filaments one function, support, and it is the only one of the three cytoskeletal systems with no transport role at all.
+Neurofilaments are the neuron's intermediate filaments. Intermediate filaments have one function, support, and theirs is the only one of the three cytoskeletal systems with no transport role at all.
 ## answer_c
 Centrioles.
 ## explanation_c
@@ -46201,7 +46201,7 @@ Centrioles are microtubular, which makes this the closest wrong answer, but thei
 ## answer_d
 Microtubules.
 ## explanation_d
-Correct. Microtubules transport organelles and macromolecules through the cytoplasm, and in the neuron they are the tracks along which vesicles of neurotransmitter travel to the terminal.
+Microtubules transport organelles and macromolecules through the cytoplasm, and in the neuron they are the tracks along which vesicles of neurotransmitter travel to the terminal.
 ## correct_answer
 d
 ## main_concept
@@ -46286,7 +46286,7 @@ Breaking into membrane-bound vesicles is apoptosis, whose fragments are the apop
 ## answer_c
 Cells and organelles swell and burst
 ## explanation_c
-Correct. In necrosis the injured cell and its organelles take up water, swell and rupture, releasing their contents into the surrounding tissue and provoking inflammation.
+In necrosis the injured cell and its organelles take up water, swell and rupture, releasing their contents into the surrounding tissue and provoking inflammation.
 ## answer_d
 Is active programmed process
 ## explanation_d
@@ -46375,7 +46375,7 @@ Attached ribosomes are the tempting near-miss: they do make the protein a cell e
 ## answer_c
 Golgi apparatus.
 ## explanation_c
-Correct. The Golgi receives transfer vesicles at its cis face and packs, concentrates, stores and glycosylates their protein before budding it off the trans face.
+The Golgi receives transfer vesicles at its cis face and packs, concentrates, stores and glycosylates their protein before budding it off the trans face.
 ## answer_d
 Cytoskeleton. !
 ## explanation_d
@@ -46468,7 +46468,7 @@ A protofilament is not a class of filament but a part of one: thirteen of them l
 ## answer_d
 Intermediate filaments.
 ## explanation_d
-Correct. Intermediate filaments are the one system defined by chemically differing subunits, which is why the class has six named proteins — one per tissue — and why identifying them names a tumour's cell of origin.
+Intermediate filaments are the one system defined by chemically differing subunits, which is why the class has six named proteins — one per tissue — and why identifying them names a tumour's cell of origin.
 ## correct_answer
 d
 ## main_concept
@@ -46549,7 +46549,7 @@ Mitochondria are acidophilic in a routine section and are demonstrated by iron h
 ## answer_b
 rER.
 ## explanation_b
-Correct. Basophilia is the ribosomal RNA taking up the basic dye, and rough endoplasmic reticulum is ribosomes on a membrane — which is why the book gives basophilia as the light-microscopic feature of rER.
+Basophilia is the ribosomal RNA taking up the basic dye, and rough endoplasmic reticulum is ribosomes on a membrane — which is why basophilia is the light-microscopic feature of rER.
 ## answer_c
 sER.
 ## explanation_c
@@ -46634,11 +46634,11 @@ Regarding Golgi apparatus, which statement is correct:
 ## answer_a
 Formed of parallel flattened cisternae.
 ## explanation_a
-This is the department book's wording for the rough endoplasmic reticulum, not for the Golgi, whose stacks it calls flat curved saccules. It is the intended trap and it is a fair one only if you have the book's two descriptions side by side — outside that vocabulary the sentence is nearly true of the Golgi as well.
+This wording describes the rough endoplasmic reticulum, not the Golgi, whose stacks are called flat curved saccules. It is the intended trap and it is a fair one only if you hold the two descriptions side by side — outside that distinction the sentence is nearly true of the Golgi as well.
 ## answer_b
 Have Cis and Trans faces.
 ## explanation_b
-Correct, and correct uniquely: an entry cis face receiving transfer vesicles from the rough endoplasmic reticulum and an exit trans face budding secretory vesicles and lysosomes is a polarity no other organelle has.
+Uniquely, an entry cis face receiving transfer vesicles from the rough endoplasmic reticulum and an exit trans face budding secretory vesicles and lysosomes is a polarity no other organelle has.
 ## answer_c
 Involved in glycogen breakdown.
 ## explanation_c
@@ -46727,7 +46727,7 @@ Old organelles are taken up in an autophagic vesicle, and the primary lysosome t
 ## answer_b
 Bacteria.
 ## explanation_b
-Correct. Bacteria are solid particles taken in by phagocytosis into a phagosome, and phagosome plus primary lysosome is the heterolysosome.
+Bacteria are solid particles taken in by phagocytosis into a phagosome, and phagosome plus primary lysosome is the heterolysosome.
 ## answer_c
 Fluid droplets.
 ## explanation_c
@@ -46824,7 +46824,7 @@ Many lysosomes mark a phagocyte such as the macrophage. The fibroblast builds th
 ## answer_d
 Many rER.
 ## explanation_d
-Correct. The fibroblast is the department book's type example of a protein-secreting cell: deeply basophilic cytoplasm because it is packed with rough endoplasmic reticulum, plus a well developed Golgi and a pale euchromatic nucleus.
+The fibroblast is a textbook example of a protein-secreting cell: deeply basophilic cytoplasm because it is packed with rough endoplasmic reticulum, plus a well developed Golgi and a pale euchromatic nucleus.
 ## correct_answer
 d
 ## main_concept
@@ -46901,7 +46901,7 @@ Regarding RBCs adaptation to perform their function, They are:
 ## answer_a
 Containing carbonic anhydrase enzyme.
 ## explanation_a
-Correct. Carbonic anhydrase is one of the two enzymes the red corpuscle keeps when it discards everything else, and it is what lets the cell carry carbon dioxide as bicarbonate.
+Carbonic anhydrase is one of the two enzymes the red corpuscle keeps when it discards everything else, and it is what lets the cell carry carbon dioxide as bicarbonate.
 ## answer_b
 Rich in mitochondria.
 ## explanation_b
@@ -46990,7 +46990,7 @@ Lambda granules of blood platelets contain:
 ## answer_a
 Lysosomes.
 ## explanation_a
-Correct. The lambda granule is the platelet's lysosome, carrying hydrolytic enzymes that remove the clot once the vessel wall has healed.
+The lambda granule is the platelet's lysosome, carrying hydrolytic enzymes that remove the clot once the vessel wall has healed.
 ## answer_b
 ATP and ADP.
 ## explanation_b
@@ -47087,7 +47087,7 @@ Active chromatin is euchromatin, again nuclear. Nothing about the ribophorin is 
 ## answer_c
 Receptors for ribosomal attachment on
 ## explanation_c
-Correct. Ribophorins are the integral membrane receptors on the rough endoplasmic reticulum to which ribosomes attach by their large subunit.
+Ribophorins are the integral membrane receptors on the rough endoplasmic reticulum to which ribosomes attach by their large subunit.
 ## answer_d
 Polyribosomes linked by mRNA. i
 ## explanation_d
@@ -47172,7 +47172,7 @@ Surface IgE receptors belong to the mast cell and the basophil, which is how an 
 ## answer_b
 Eccentric clock face nucleus.
 ## explanation_b
-Correct. The eccentric nucleus with dark heterochromatin alternating with lighter euchromatin is the clock-face or cart-wheel appearance, and it is the single feature that names a plasma cell down a microscope.
+The eccentric nucleus with dark heterochromatin alternating with lighter euchromatin is the clock-face or cart-wheel appearance, and it is the single feature that names a plasma cell down a microscope.
 ## answer_c
 Deep acidophilic cytoplasm:
 ## explanation_c
@@ -47265,7 +47265,7 @@ Tubulin is the subunit of microtubules, not an intermediate filament at all, and
 ## answer_c
 Cytokeratin.
 ## explanation_c
-Correct. Cytokeratin is the intermediate filament of epithelium, so a tumour full of it is a carcinoma — of epithelial origin.
+Cytokeratin is the intermediate filament of epithelium, so a tumour full of it is a carcinoma — of epithelial origin.
 ## answer_d
 Desmin.
 ## explanation_d
@@ -47346,7 +47346,7 @@ Segmentation of somites starts at
 ## answer_a
 Occipital region
 ## explanation_a
-Correct. Segmentation begins at the occipital region and extends caudally from there.
+Segmentation begins at the occipital region and extends caudally from there.
 ## answer_b
 Cervical region
 ## explanation_b
@@ -47435,15 +47435,15 @@ At the occipital region, the embryo has ........... somites,
 ## answer_a
 Four
 ## explanation_a
-Correct. Four pairs of occipital somites, the first of the six regional groups and the first to segment.
+Four pairs of occipital somites, the first of the six regional groups and the first to segment.
 ## answer_b
 Six
 ## explanation_b
-Six is not a count in the book's regional list at all. It is the number a student reaches for when they remember the occipital group as a middling one rather than the smallest of the six.
+Six is not a count in the regional list at all. It is the number a student reaches for when they remember the occipital group as a middling one rather than the smallest of the six.
 ## answer_c
 Three
 ## explanation_c
-Three is the number of pairs added per day during the somite period, not the number in the occipital region. The two figures sit a line apart in the book and are easily transposed.
+Three is the number of pairs added per day during the somite period, not the number in the occipital region. The two figures sit close together and are easily transposed.
 ## answer_d
 Five
 ## explanation_d
@@ -47532,7 +47532,7 @@ The age of an embryo with 16 pairs of somites is
 ## answer_c
 25 days
 ## explanation_c
-Correct. (16 − 1)/3 + 20 = 25 days.
+(16 − 1)/3 + 20 = 25 days.
 ## answer_d
 26 days
 ## explanation_d
@@ -47562,7 +47562,7 @@ Hard
 ## question_type
 Calculation
 ## learning_objective
-Apply the book's somite-age formula rather than estimating.
+Apply the somite-age formula rather than estimating.
 ## setting
 Academic
 ## academic_relevance
@@ -47613,7 +47613,7 @@ One of the functions of superficial fascia is:
 ## answer_a
 Presence of skin muscles
 ## explanation_a
-Correct. Superficial fascia contains the skin muscles — the muscles of facial expression are the book's example, and they are there precisely because the face has no deep fascia to hold them.
+Superficial fascia contains the skin muscles — the muscles of facial expression are the standard example, and they are there precisely because the face has no deep fascia to hold them.
 ## answer_b
 Formation of aponeurosis
 ## explanation_b
@@ -47702,7 +47702,7 @@ Concerning the superﬁcial fascia, select the correct statement: (2018)
 ## answer_a
 It contains fat.
 ## explanation_a
-Correct. Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
+Fat is the defining content of superficial fascia — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum.
 ## answer_b
 It forms retinacula.
 ## explanation_b
@@ -47799,11 +47799,11 @@ Preventing heat loss is superficial fascia acting as a thermal insulator, and it
 ## answer_c
 Contains many types of glands
 ## explanation_c
-The glands — the mammary gland is the book's example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer's name.
+The glands — the mammary gland is the standard example — sit in superficial fascia. This option is the mirror image of the previous two: a superficial-fascia function offered under the deep layer's name.
 ## answer_d
 Forms the interosseous membranes
 ## explanation_d
-Correct. Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.
+Interosseous membranes are one of the five forms deep fascia takes, separating muscle groups of different action and nerve supply and adding surface for their attachment.
 ## correct_answer
 D
 ## main_concept
@@ -47884,7 +47884,7 @@ Surrounding the muscles of the limbs is what the broad sheets of deep fascia do 
 ## answer_b
 Separate different groups of muscles which have different actions
 ## explanation_b
-Correct. Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.
+Septa and interosseous membranes separate groups of muscles that have different actions and different nerve supplies, and give extra surface for attachment.
 ## answer_c
 Are transverse thickened bands of deep fascia present at wrist joint
 ## explanation_c
@@ -47977,7 +47977,7 @@ Separating muscle groups of different action is the work of the intermuscular se
 ## answer_c
 Are transverse thickened bands of deep fascia present at wrist joint
 ## explanation_c
-Correct. Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.
+Retinacula are localised transverse thickened bands of deep fascia at the wrist and ankle that keep the tendons in position as they cross the joint.
 ## answer_d
 Form tough sheaths around big blood vessels
 ## explanation_d
@@ -48062,7 +48062,7 @@ Chorion laeve is the smooth part of the chorion, whose villi degenerate; it form
 ## answer_b
 Is the chorion frondosum
 ## explanation_b
-Correct. The chorionic plate is chorion frondosum, the part carrying well-developed tertiary villi, and it is the fetal part of the placenta.
+The chorionic plate is chorion frondosum, the part carrying well-developed tertiary villi, and it is the fetal part of the placenta.
 ## answer_c
 Is the decidua basalis
 ## explanation_c
@@ -48151,7 +48151,7 @@ Chorion frondosum is the fetal plate. The septa grow from the opposite side, and
 ## answer_b
 They are extensions from decidual plate
 ## explanation_b
-Correct. Placental (decidual) septa are incomplete extensions from the decidual plate into the intervillous spaces.
+Placental (decidual) septa are incomplete extensions from the decidual plate into the intervillous spaces.
 ## answer_c
 They are fixed to the chorionic plate
 ## explanation_c
@@ -48244,11 +48244,11 @@ The chorionic and decidual plates are again the two sides of the organ. Between 
 ## answer_c
 Cytotrophoblastic shell and intervillous spaces
 ## explanation_c
-The cytotrophoblastic shell lies against the decidual plate and anchors the villi. It borders the intervillous spaces but separates no two circulations, and it is the option the books key this question to.
+The cytotrophoblastic shell lies against the decidual plate and anchors the villi. It borders the intervillous spaces but separates no two circulations, and it is the keyed option.
 ## answer_d
 Fetal and maternal blood inside placenta. Ac ad
 ## explanation_d
-Correct. The barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi.
+The barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi.
 ## correct_answer
 D
 ## main_concept
@@ -48325,7 +48325,7 @@ One of the following is correct regarding the functions of placenta (DEP BOOK)
 ## answer_a
 It allows the passage of maternal antibodies
 ## explanation_a
-Correct. Maternal antibodies cross the placenta, which is why a newborn has passive immunity for its first months.
+Maternal antibodies cross the placenta, which is why a newborn has passive immunity for its first months.
 ## answer_b
 It prevents passage of gases. P
 ## explanation_b
@@ -48337,7 +48337,7 @@ The placenta does produce progesterone, which maintains the endometrium of pregn
 ## answer_d
 It prevents the passage of all viruses y ad
 ## explanation_d
-The word is "most", not "all". Some viruses cross, which is the whole clinical point of rubella in pregnancy — and this is the option the books key the question to.
+The word is "most", not "all". Some viruses cross, which is the whole clinical point of rubella in pregnancy — and this is the keyed option.
 ## correct_answer
 A
 ## main_concept
@@ -48418,7 +48418,7 @@ An anomaly, so not the answer. Velamentous placenta is the cord-attachment group
 ## answer_b
 Placenta accrete
 ## explanation_b
-An anomaly, so not the answer, and the option the books key this question to. Placenta accreta is the infiltration group, in which the villi invade the myometrium.
+An anomaly, so not the answer, and the keyed option. Placenta accreta is the infiltration group, in which the villi invade the myometrium.
 ## answer_c
 Bipartate placenta. P
 ## explanation_c
@@ -48426,7 +48426,7 @@ An anomaly, so not the answer. A bipartite placenta is the shape group, with the
 ## answer_d
 Polyhydramnios. Vi
 ## explanation_d
-Correct — not a placental anomaly. Polyhydramnios is an excess of amniotic fluid at full term, from maternal diabetes, oesophageal atresia or a central nervous system malformation. The placenta may be entirely normal.
+Not a placental anomaly. Polyhydramnios is an excess of amniotic fluid at full term, from maternal diabetes, oesophageal atresia or a central nervous system malformation. The placenta may be entirely normal.
 ## correct_answer
 D
 ## main_concept
@@ -48503,7 +48503,7 @@ Thin and wide placenta is known as
 ## answer_a
 Placenta membranacea
 ## explanation_a
-Correct. Placenta membranacea is the diameter anomaly — a placenta spread thin and wide over the membranes.
+Placenta membranacea is the diameter anomaly — a placenta spread thin and wide over the membranes.
 ## answer_b
 Placenta increta
 ## explanation_b
@@ -48592,7 +48592,7 @@ Marginal attachment of umbilical cord to the placenta is known as
 ## answer_a
 Battle-door placenta
 ## explanation_a
-Correct. Battledore placenta is the cord attached at the margin of the disc — named for the bat of the old game, a handle at the edge of a paddle.
+Battledore placenta is the cord attached at the margin of the disc — named for the bat of the old game, a handle at the edge of a paddle.
 ## answer_b
 Velamentous placenta
 ## explanation_b
@@ -48681,7 +48681,7 @@ Abnormally long umbilical cord may lead to (DEP BOOK - 2024) Ac ad Ac ad ad ad
 ## answer_a
 Formation of false knots.
 ## explanation_a
-A false knot is a wider curve of an umbilical artery, and the book states that it causes the fetus no stress. It is a feature of the cord's tortuosity, not of its length, and it is the option students pick because "knot" appears in the long-cord description — the knot that matters there is a true one.
+A false knot is a wider curve of an umbilical artery, and it causes the fetus no stress. It is a feature of the cord's tortuosity, not of its length, and it is the option students pick because "knot" appears in the long-cord description — the knot that matters there is a true one.
 ## answer_b
 Early separation of placenta during delivery.
 ## explanation_b
@@ -48689,7 +48689,7 @@ Early separation of the placenta belongs to the short cord, which is pulled taut
 ## answer_c
 Strangulation of the baby during delivery.
 ## explanation_c
-Correct. A long cord may encircle the fetal neck and strangle the baby during delivery.
+A long cord may encircle the fetal neck and strangle the baby during delivery.
 ## answer_d
 Adhesion between the fetus with the wall of uterus.
 ## explanation_d
@@ -48778,7 +48778,7 @@ The primitive umbilical ring is the defect in the ventral abdominal wall that th
 ## answer_c
 Primitive umbilical cord
 ## explanation_c
-Correct. The herniated intestinal loops lie in the primitive umbilical cord, along with the secondary yolk sac, the vitelline duct and the connecting stalk.
+The herniated intestinal loops lie in the primitive umbilical cord, along with the secondary yolk sac, the vitelline duct and the connecting stalk.
 ## answer_d
 Definitive umbilical cord
 ## explanation_d
@@ -48867,7 +48867,7 @@ The definitive yolk sac lies in the primitive umbilical *cord*, once the amnion 
 ## answer_c
 It contains vitelline duct
 ## explanation_c
-Correct. The vitelline duct with its vessels passes through the ring, along with the allantois and the umbilical vessels inside the connecting stalk.
+The vitelline duct with its vessels passes through the ring, along with the allantois and the umbilical vessels inside the connecting stalk.
 ## answer_d
 It contains loops of intestine
 ## explanation_d
@@ -48952,7 +48952,7 @@ The connecting stalk joins the caudal end of the disc to the chorion and carries
 ## answer_b
 Vitelline duct
 ## explanation_b
-Correct. Folding compresses the secondary yolk sac into the vitelline, or vitello-intestinal, duct, which connects it to the midgut.
+Folding compresses the secondary yolk sac into the vitelline, or vitello-intestinal, duct, which connects it to the midgut.
 ## answer_c
 Allantois
 ## explanation_c
@@ -49037,7 +49037,7 @@ Allantois is a dorsal extension from
 ## answer_a
 Secondary yolk sac
 ## explanation_a
-Correct. The allantois is a diverticulum from the caudal wall of the secondary yolk sac, extending into the connecting stalk.
+The allantois is a diverticulum from the caudal wall of the secondary yolk sac, extending into the connecting stalk.
 ## answer_b
 Amniotic cavity
 ## explanation_b
@@ -49130,7 +49130,7 @@ Definitive is another word for secondary, and the secondary sac is lined by a se
 ## answer_b
 Primary yolk sac
 ## explanation_b
-Correct. Heuser's membrane lines the blastocele on the ninth day and so converts it into the primary yolk sac.
+Heuser's membrane lines the blastocele on the ninth day and so converts it into the primary yolk sac.
 ## answer_c
 Secondary yolk sac
 ## explanation_c
@@ -49215,7 +49215,7 @@ Which of the following Is responsible for bladder development? (2024)
 ## answer_a
 Allantois
 ## explanation_a
-Correct. The proximal part of the allantois forms the apex of the urinary bladder; what remains of it in the adult is the urachus, or median umbilical ligament.
+The proximal part of the allantois forms the apex of the urinary bladder; what remains of it in the adult is the urachus, or median umbilical ligament.
 ## answer_b
 Yolk sac
 ## explanation_b
@@ -49227,7 +49227,7 @@ Amniotic fluid accumulates fetal urine once the bladder works. It is downstream 
 ## answer_d
 Primordial gut
 ## explanation_d
-The primitive gut gives the hindgut and cloaca, which the bladder is partitioned from — but the apex itself is allantoic, and that is the fact the book states.
+The primitive gut gives the hindgut and cloaca, which the bladder is partitioned from — but the apex itself is allantoic.
 ## correct_answer
 A
 ## main_concept
@@ -49312,7 +49312,7 @@ The connecting stalk is the surviving bridge of extra-embryonic mesoderm across 
 ## answer_c
 Formation of amniochorionic membrane
 ## explanation_c
-Correct. Expansion brings the amnion into contact with the chorion, and the two together are the amniochorionic membrane — the membrane that ruptures at the start of labour.
+Expansion brings the amnion into contact with the chorion, and the two together are the amniochorionic membrane — the membrane that ruptures at the start of labour.
 ## answer_d
 Formation of neural tube
 ## explanation_d
@@ -49397,7 +49397,7 @@ Fusing and obliterating the uterine cavity is what capsularis and parietalis do 
 ## answer_b
 It forms the maternal part of the placenta
 ## explanation_b
-Correct. Decidua basalis lies between the conceptus and the myometrium and becomes the maternal part of the placenta.
+Decidua basalis lies between the conceptus and the myometrium and becomes the maternal part of the placenta.
 ## answer_c
 It covers the embryo
 ## explanation_c
@@ -49494,7 +49494,7 @@ Persisting as the maternal part of the placenta is again basalis. This question 
 ## answer_d
 It degenerates at last y
 ## explanation_d
-Correct. Decidua parietalis fuses with the capsularis, obliterating the uterine cavity, and is shed at delivery — it degenerates at last.
+Decidua parietalis fuses with the capsularis, obliterating the uterine cavity, and is shed at delivery — it degenerates at last.
 ## correct_answer
 D
 ## main_concept
@@ -49575,7 +49575,7 @@ The chorionic cavity is outside the embryonic disc entirely; the neurenteric can
 ## answer_b
 Amniotic and yolk sac cavities
 ## explanation_b
-Correct. Degeneration of the floor of the notochordal canal and the endoderm fused to it opens a temporary communication between the amniotic cavity above and the yolk sac below.
+Degeneration of the floor of the notochordal canal and the endoderm fused to it opens a temporary communication between the amniotic cavity above and the yolk sac below.
 ## answer_c
 Amniotic and uterine cavities
 ## explanation_c
@@ -49660,7 +49660,7 @@ One of the following is an event of the 8th day of pregnancy (DEP BOOK)
 ## answer_a
 Formation of hypoblast
 ## explanation_a
-Correct. The hypoblast forms on the eighth day, when the embryoblast cells facing the blastocele become cuboidal — the same day the amniotic cavity opens.
+The hypoblast forms on the eighth day, when the embryoblast cells facing the blastocele become cuboidal — the same day the amniotic cavity opens.
 ## answer_b
 Formation of primary yolk sac. P
 ## explanation_b
@@ -49761,7 +49761,7 @@ The eighth day is the amniotic cavity and the bilaminar disc — five days too e
 ## answer_d
 13thday of the pregnancy.
 ## explanation_d
-Correct. On the thirteenth day the spaces fuse into a single chorionic cavity and the wall around it — somatic mesoderm, cytotrophoblast, syncytiotrophoblast — is the chorion.
+On the thirteenth day the spaces fuse into a single chorionic cavity and the wall around it — somatic mesoderm, cytotrophoblast, syncytiotrophoblast — is the chorion.
 ## correct_answer
 D
 ## main_concept
@@ -49842,7 +49842,7 @@ Dizygotic twinning is the commoner kind by a wide margin. Identical twins are th
 ## answer_b
 Twins are always of same sex.
 ## explanation_b
-Correct. One zygote means one set of chromosomes, so the two are necessarily of the same sex.
+One zygote means one set of chromosomes, so the two are necessarily of the same sex.
 ## answer_c
 Are non-identical in shape.
 ## explanation_c
@@ -49927,7 +49927,7 @@ Regarding the dizygotic twin
 ## answer_a
 Are non-identical in shape
 ## explanation_a
-Correct. Two zygotes means two genotypes, so the twins are no more alike than any brother and sister.
+Two zygotes means two genotypes, so the twins are no more alike than any brother and sister.
 ## answer_b
 Always of same sex
 ## explanation_b
@@ -50109,7 +50109,7 @@ The exception, and the answer. A mucous membrane is an epithelium with its under
 ## answer_b
 pulp of teeth
 ## explanation_b
-True, so not the exception. The pulp of the teeth is one of the book's three sites.
+True, so not the exception. The pulp of the teeth is one of the three sites.
 ## answer_c
 umbilical cord
 ## explanation_c
@@ -50194,7 +50194,7 @@ Collagen type 1 is present in:
 ## answer_a
 Capsule of organs
 ## explanation_a
-Correct. The capsule of an organ is dense irregular connective tissue, and its strength is type I collagen.
+The capsule of an organ is dense irregular connective tissue, and its strength is type I collagen.
 ## answer_b
 Fetal connective tissue
 ## explanation_b
@@ -50287,7 +50287,7 @@ White fibrous connective tissue — tendon, ligament, aponeurosis — is type I.
 ## answer_b
 Stroma of parenchymatous organs
 ## explanation_b
-Correct. Type III collagen is the reticular fibre, and reticular fibres form the supporting stroma of parenchymatous organs such as liver, spleen and lymph node.
+Type III collagen is the reticular fibre, and reticular fibres form the supporting stroma of parenchymatous organs such as liver, spleen and lymph node.
 ## answer_c
 Basement membrane
 ## explanation_c
@@ -50384,7 +50384,7 @@ The umbilical cord is mucoid connective tissue, Wharton's jelly.
 ## answer_d
 stroma of organs
 ## explanation_d
-Correct. Reticular tissue forms the stroma of the parenchymatous organs — liver, spleen, lymph node and bone marrow — where a fine branching network can support cells without stiffening the organ.
+Reticular tissue forms the stroma of the parenchymatous organs — liver, spleen, lymph node and bone marrow — where a fine branching network can support cells without stiffening the organ.
 ## correct_answer
 D
 ## main_concept
@@ -50465,7 +50465,7 @@ The capsule of an organ resists stretch rather than performing it; it is dense c
 ## answer_b
 Ligamentum nuchae
 ## explanation_b
-Correct. Ligamentum nuchae is the type example of yellow elastic connective tissue, along with the ligamenta flava and the vocal ligaments.
+Ligamentum nuchae is the type example of yellow elastic connective tissue, along with the ligamenta flava and the vocal ligaments.
 ## answer_c
 umbilical cord
 ## explanation_c
@@ -50550,11 +50550,11 @@ Premature separation of placenta occurs due to:
 ## answer_a
 Short umbilical cord.
 ## explanation_a
-Correct. A cord too short to pay out as the fetus descends is put under traction during delivery, and the pull is transmitted to the placenta and strips it off the decidua basalis before the baby is delivered.
+A cord too short to pay out as the fetus descends is put under traction during delivery, and the pull is transmitted to the placenta and strips it off the decidua basalis before the baby is delivered.
 ## answer_b
 Long umbilical cord.
 ## explanation_b
-The long cord is the dangerous one a student remembers, because the book calls neck encirclement and a true knot life-threatening — but both of those strangle the fetal circulation through the cord itself. A long cord has slack to spare and pulls on nothing.
+The long cord is the dangerous one a student remembers, because neck encirclement and a true knot are life-threatening — but both of those strangle the fetal circulation through the cord itself. A long cord has slack to spare and pulls on nothing.
 ## answer_c
 Accessory placenta.
 ## explanation_c
@@ -50639,11 +50639,11 @@ Concerning the umbilical cord at birth, select the incorrect statement:
 ## answer_a
 About 50-60 cm in length.
 ## explanation_a
-True, and the book’s figure exactly: 50–60 cm long and about 2 cm across. The length matters because it is what the two length anomalies are measured against.
+True, and the figure is exactly 50–60 cm long and about 2 cm across. The length matters because it is what the two length anomalies are measured against.
 ## answer_b
 Contains 2 veins and one artery.
 ## explanation_b
-Correct — this is the incorrect statement, and the answer. The cord carries two arteries and one vein, not two veins and one artery. The count is inverted so often because the fetal circulation is inverted: the paired vessels are the arteries carrying deoxygenated blood away from the fetus, and the single vessel is the vein bringing oxygenated blood back. A student who reasons from the adult body, where veins outnumber arteries, gets it backwards.
+This is the incorrect statement, and the answer. The cord carries two arteries and one vein, not two veins and one artery. The count is inverted so often because the fetal circulation is inverted: the paired vessels are the arteries carrying deoxygenated blood away from the fetus, and the single vessel is the vein bringing oxygenated blood back. A student who reasons from the adult body, where veins outnumber arteries, gets it backwards.
 ## answer_c
 ls attached to the fetal surface of the placenta.
 ## explanation_c
@@ -50651,7 +50651,7 @@ True. The cord is attached near the centre of the smooth, amnion-covered fetal s
 ## answer_d
 Short cord may lead to premature separation of the placenta.
 ## explanation_d
-True, and it is the book’s first named cord anomaly: a short cord limits fetal movement and is put under traction at delivery, stripping the placenta prematurely.
+True, and it is the first named cord anomaly: a short cord limits fetal movement and is put under traction at delivery, stripping the placenta prematurely.
 ## correct_answer
 b
 ## main_concept
@@ -50732,7 +50732,7 @@ True. The fetal part is the chorionic plate, and the chorionic plate is chorion 
 ## answer_b
 Its maternal part develops from decidua capsularis.
 ## explanation_b
-Correct — this is the incorrect statement, and the answer. The maternal part is decidua basalis. Decidua capsularis is the thin layer that covers the conceptus on the side facing the uterine cavity; it degenerates as the sac expands, which is what lets the amniochorionic membrane meet decidua parietalis. Students pick it because all three deciduae are learnt as one list and only one of them makes placenta.
+This is the incorrect statement, and the answer. The maternal part is decidua basalis. Decidua capsularis is the thin layer that covers the conceptus on the side facing the uterine cavity; it degenerates as the sac expands, which is what lets the amniochorionic membrane meet decidua parietalis. Students pick it because all three deciduae are learnt as one list and only one of them makes placenta.
 ## answer_c
 There is a barrier between fetal and maternal blood.
 ## explanation_c
@@ -50817,11 +50817,11 @@ Regarding the umbilical cord at birth, select the incorrect statement:
 ## answer_a
 About 50-60 cm in length.
 ## explanation_a
-True, and the book’s figure: the cord is 50–60 cm long and about 2 cm in diameter.
+True, and the cord is 50–60 cm long and about 2 cm in diameter.
 ## answer_b
 Contains 2 veins and 2 arteries.
 ## explanation_b
-Correct — this is the incorrect statement, and the answer. The count is two arteries and one vein, three vessels in all, not four. This year’s version is harder than the previous year’s "2 veins and one artery", because it gets the total wrong as well as the distribution, and a student who has learnt only "three vessels" can still catch it.
+This is the incorrect statement, and the answer. The count is two arteries and one vein, three vessels in all, not four. This year’s version is harder than the previous year’s "2 veins and one artery", because it gets the total wrong as well as the distribution, and a student who has learnt only "three vessels" can still catch it.
 ## answer_c
 Is attached to the fetal surface.of thé placenta.
 ## explanation_c
@@ -50829,7 +50829,7 @@ True. The cord is attached near the centre of the fetal surface of the placenta 
 ## answer_d
 Short cord may lead to premature separation of the placenta.
 ## explanation_d
-True, and the book’s own account of the short cord: it limits fetal movement and separates the placenta prematurely during delivery.
+True, and the short cord’s known effect: it limits fetal movement and separates the placenta prematurely during delivery.
 ## correct_answer
 b
 ## main_concept
@@ -50910,7 +50910,7 @@ The 2nd month is weeks 5 to 8, which is the second half of the embryonic period 
 ## answer_b
 3rd month
 ## explanation_b
-Correct. The fetal period begins at the beginning of the 9th week, and the 9th week opens the 3rd month.
+The fetal period begins at the beginning of the 9th week, and the 9th week opens the 3rd month.
 ## answer_c
 4th month
 ## explanation_c
@@ -50944,7 +50944,7 @@ Easy
 ## question_type
 Developmental timing
 ## learning_objective
-Convert the 9th week into the month the book counts it as.
+Convert the 9th week into the month it falls in.
 ## setting
 Academic
 ## academic_relevance
@@ -50995,7 +50995,7 @@ At full term, the head of the fetus represent about
 ## answer_a
 1/5 of the CH length
 ## explanation_a
-One fifth is not one of the book's three figures at all. It reads plausibly because it lies between the newborn's quarter and the adult's eighth, and it is the option a student picks when they remember only that the head shrinks in proportion.
+One fifth is not one of the three figures at all. It reads plausibly because it lies between the newborn's quarter and the adult's eighth, and it is the option a student picks when they remember only that the head shrinks in proportion.
 ## answer_b
 1/6 of the CH length
 ## explanation_b
@@ -51007,7 +51007,7 @@ One third is the true figure for the beginning of the 5th month, taken against c
 ## answer_d
 1/4 Of the CH length
 ## explanation_d
-Correct. At birth the head is about one quarter of the crown-heel length, down from one half of the crown-rump length at the beginning of the 3rd month.
+At birth the head is about one quarter of the crown-heel length, down from one half of the crown-rump length at the beginning of the 3rd month.
 ## correct_answer
 D
 ## main_concept
@@ -51088,11 +51088,11 @@ The weight of fetus at full tern'l ranges between
 ## answer_b
 1400- 2100 grams
 ## explanation_b
-1400–2100 g is the weight at 28–32 weeks. It is the commonest wrong answer because it is a real row of the same growth table, and one printing of this very question in the books is keyed to it in error.
+1400–2100 g is the weight at 28–32 weeks. It is the commonest wrong answer because it is a real row of the same growth table, and one printing of this very question is keyed to it in error.
 ## answer_c
 3000 - 3400 grams
 ## explanation_c
-Correct. A full-term fetus weighs 3000–3400 g, the last row of the growth table.
+A full-term fetus weighs 3000–3400 g, the last row of the growth table.
 ## answer_d
 4600 - 5300 grams
 ## explanation_d
@@ -51181,7 +51181,7 @@ The weight of fetus at full term ranges between
 ## answer_c
 3000 - 3400 grams
 ## explanation_c
-Correct. 3000–3400 g is the full-term weight.
+3000–3400 g is the full-term weight.
 ## answer_d
 4600 - 5300 grams
 ## explanation_d
@@ -51262,11 +51262,11 @@ Fertilization occurs in the
 ## answer_a
 Fallopian tube
 ## explanation_a
-Correct. Fertilisation occurs in the uterine (Fallopian) tube — in its ampullary part, the lateral third.
+Fertilisation occurs in the uterine (Fallopian) tube — in its ampullary part, the lateral third.
 ## answer_b
 Surface of ovary
 ## explanation_b
-The surface of the ovary is where the oocyte is released, not where it is fertilised. Implantation there is ovarian ectopic pregnancy, an abnormality; one annotated printing of this very question in the books is keyed to this option in error.
+The surface of the ovary is where the oocyte is released, not where it is fertilised. Implantation there is ovarian ectopic pregnancy, an abnormality; one annotated printing of this very question is keyed to this option in error.
 ## answer_c
 Uterine cavity
 ## explanation_c
@@ -51355,11 +51355,11 @@ The intramural part is the short segment inside the uterine wall, the narrowest 
 ## answer_b
 Isthmus
 ## explanation_b
-The isthmus is the narrow medial third, between the intramural part and the ampulla. It is the answer printed in the books and it is wrong: it is a site of tubal ectopic pregnancy, not the site of fertilisation.
+The isthmus is the narrow medial third, between the intramural part and the ampulla. It is the printed answer and it is wrong: it is a site of tubal ectopic pregnancy, not the site of fertilisation.
 ## answer_c
 Lateral 1/3 P
 ## explanation_c
-Correct. The lateral third of the tube is the ampulla, and the department book puts fertilisation there.
+The lateral third of the tube is the ampulla, where fertilisation occurs.
 ## answer_d
 Infundibulum
 ## explanation_d
@@ -51440,7 +51440,7 @@ One of the following is a result of fertilization
 ## answer_a
 Determination of sex
 ## explanation_a
-Correct. Determination of sex is one of the four results the book lists, and it follows from which sperm arrived: an X-bearing sperm gives XX and a Y-bearing sperm XY.
+Determination of sex is one of the four results of fertilisation, and it follows from which sperm arrived: an X-bearing sperm gives XX and a Y-bearing sperm XY.
 ## answer_b
 Cortical and zona reaction
 ## explanation_b
@@ -51452,7 +51452,7 @@ Formation of the male and female pronuclei is likewise a step. The result is wha
 ## answer_d
 Zygote nucleus contains haploid number of chromosomes
 ## explanation_d
-The reverse of the truth, and the answer one annotated printing of this question is keyed to. Each gamete nucleus is haploid; fertilisation restores the diploid number of forty-six, which is the third result on the book's list.
+The reverse of the truth, and the answer one annotated printing of this question is keyed to. Each gamete nucleus is haploid; fertilisation restores the diploid number of forty-six, which is the third result of fertilisation.
 ## correct_answer
 A
 ## main_concept
@@ -51537,7 +51537,7 @@ Capacitation comes before the phases are counted at all — it is the seven-hour
 ## answer_c
 Penetration of cell membrane of ovum.
 ## explanation_c
-Correct. Phase III is the opening of the cell membrane of the oocyte: the membranes of sperm head and oocyte fuse, and the sperm nucleus, mitochondrial sheath and axial filament pass into the cytoplasm.
+Phase III is the opening of the cell membrane of the oocyte: the membranes of sperm head and oocyte fuse, and the sperm nucleus, mitochondrial sheath and axial filament pass into the cytoplasm.
 ## answer_d
 Penetration of zona pellucida.
 ## explanation_d
@@ -51567,7 +51567,7 @@ Hard
 ## question_type
 Developmental process
 ## learning_objective
-Put the phases of fertilisation in the book's order and name the third by number.
+Put the phases of fertilisation in order and name the third by number.
 ## setting
 Academic
 ## academic_relevance
@@ -51618,7 +51618,7 @@ Regarding morula
 ## answer_a
 It is formed in uterine tube within 3 days after formation of zygote
 ## explanation_a
-Correct. The morula is the 16-cell stage, formed inside the uterine tube within three days of the zygote — it has not reached the uterus yet.
+The morula is the 16-cell stage, formed inside the uterine tube within three days of the zygote — it has not reached the uterus yet.
 ## answer_b
 It is formed after degeneration of zona pellucida
 ## explanation_b
@@ -51707,7 +51707,7 @@ Which structure bounds cells after fertilization as they compact to form the mor
 ## answer_a
 Zona pellucida
 ## explanation_a
-Correct. Cleavage happens inside the zona pellucida, which is why the blastomeres get smaller instead of the whole embryo getting bigger, and why they compact rather than scatter.
+Cleavage happens inside the zona pellucida, which is why the blastomeres get smaller instead of the whole embryo getting bigger, and why they compact rather than scatter.
 ## answer_b
 Corona radiate
 ## explanation_b
@@ -51800,7 +51800,7 @@ The blastocyst is defined by its cavity, the blastocele. It is the morula that h
 ## answer_b
 It starts implantation by its abembryonic pole
 ## explanation_b
-It implants by its embryonic pole, the trophoblast lying over the inner cell mass. The abembryonic pole is the far side and goes in last — this is the commonest error in the whole chapter, and the books ask it both ways round.
+It implants by its embryonic pole, the trophoblast lying over the inner cell mass. The abembryonic pole is the far side and goes in last — this is the commonest error in the whole chapter, and it is asked both ways round.
 ## answer_c
 It is formed 3 days after formation of the zygote
 ## explanation_c
@@ -51808,7 +51808,7 @@ Three days after the zygote gives the morula, not the blastocyst; the blastocyst
 ## answer_d
 Its inner cell mass is called embryoblast
 ## explanation_d
-Correct. Embryoblast is the other name for the inner cell mass, as trophoblast is for the outer.
+Embryoblast is the other name for the inner cell mass, as trophoblast is for the outer.
 ## correct_answer
 D
 ## main_concept
@@ -51978,7 +51978,7 @@ The morula is a solid ball of blastomeres with no wall and no cavity, so it has 
 ## answer_b
 Blastocyst.
 ## explanation_b
-Correct. The trophoblast is the single-layered outer cell mass forming the wall of the blastocyst.
+The trophoblast is the single-layered outer cell mass forming the wall of the blastocyst.
 ## answer_c
 Chorionic vesicle.
 ## explanation_c
@@ -52063,7 +52063,7 @@ Placenta previa
 ## answer_a
 Is the implantation of blastocyst in the lower segment of uterine cavity
 ## explanation_a
-Correct. Placenta previa is implantation in the lower uterine segment, so that the placenta comes to lie over or near the internal os.
+Placenta previa is implantation in the lower uterine segment, so that the placenta comes to lie over or near the internal os.
 ## answer_b
 Is the implantation of blastocyst in the uterine tube
 ## explanation_b
@@ -52160,7 +52160,7 @@ The covering over the implanted conceptus is decidua capsularis. This is the cla
 ## answer_c
 It is the part of endometrium between the implanted blastocyst and myometrium
 ## explanation_c
-Correct. Decidua basalis is the endometrium between the implanted blastocyst and the myometrium, and it becomes the maternal part of the placenta.
+Decidua basalis is the endometrium between the implanted blastocyst and the myometrium, and it becomes the maternal part of the placenta.
 ## answer_d
 It is the endometrium that lines uterine cavity. Ac ad
 ## explanation_d
@@ -52334,7 +52334,7 @@ The process of fusion between sperm and ovum is called:
 ## answer_a
 Cleavage.
 ## explanation_a
-Cleavage is what happens after the union, not the union itself: the zygote divides mitotically inside the zona pellucida into smaller and smaller blastomeres. The book lists the start of cleavage as one of the four results of fertilisation, which is the relation a student picking this option has got the wrong way round.
+Cleavage is what happens after the union, not the union itself: the zygote divides mitotically inside the zona pellucida into smaller and smaller blastomeres. The start of cleavage is one of the four results of fertilisation, which is the relation a student picking this option has got the wrong way round.
 ## answer_b
 Gastrulation.
 ## explanation_b
@@ -52342,11 +52342,11 @@ Gastrulation belongs to the third week, not the first. It is the formation of th
 ## answer_c
 Capacitation.
 ## explanation_c
-Capacitation is a change in the sperm, not a fusion with the ovum — the removal of the glycoprotein coat and seminal proteins from the acrosome during the sperm’s passage through the female tract, which is what makes it able to fertilise. The book lists it as the step before phase I, so it is the nearest wrong answer on the page and the one a student who has learnt the steps in order will reach for.
+Capacitation is a change in the sperm, not a fusion with the ovum — the removal of the glycoprotein coat and seminal proteins from the acrosome during the sperm’s passage through the female tract, which is what makes it able to fertilise. It is the step before phase I, so it is the nearest wrong answer on the page and the one a student who has learnt the steps in order will reach for.
 ## answer_d
 Fertilization.
 ## explanation_d
-Correct. Fertilisation is the union of sperm and ovum to form a zygote, and it occurs in the ampullary part of the uterine tube.
+Fertilisation is the union of sperm and ovum to form a zygote, and it occurs in the ampullary part of the uterine tube.
 ## correct_answer
 d
 ## main_concept
@@ -52427,15 +52427,15 @@ An abnormal site, and the commonest one that is still inside the uterus. Implant
 ## answer_b
 Mesentery of small intestine.
 ## explanation_b
-An abnormal site. The book’s omental ectopic is implantation on the surface of the peritoneum, and the mesentery of the small intestine is peritoneum — a blastocyst expelled from the fimbrial end of the tube into the peritoneal cavity can settle there.
+An abnormal site. An omental ectopic is implantation on the surface of the peritoneum, and the mesentery of the small intestine is peritoneum — a blastocyst expelled from the fimbrial end of the tube into the peritoneal cavity can settle there.
 ## answer_c
 Lungs.
 ## explanation_c
-Correct — this is the exception, and the answer. The lung is not a site of implantation, abnormal or otherwise: the blastocyst reaches the peritoneal cavity at worst, and there is no route from the uterine tube to the chest. Students hesitate because the other three are memorised as a list and the lung is not on it, which is precisely what the question is testing.
+This is the exception, and the answer. The lung is not a site of implantation, abnormal or otherwise: the blastocyst reaches the peritoneal cavity at worst, and there is no route from the uterine tube to the chest. Students hesitate because the other three are memorised as a list and the lung is not on it, which is precisely what the question is testing.
 ## answer_d
 Uterine tube.
 ## explanation_d
-An abnormal site, and the commonest ectopic pregnancy of all. The book divides tubal implantation into ampullary, isthmic and intramural, and it is dangerous because the tube ruptures as the conceptus grows.
+An abnormal site, and the commonest ectopic pregnancy of all. Tubal implantation is divided into ampullary, isthmic and intramural, and it is dangerous because the tube ruptures as the conceptus grows.
 ## correct_answer
 c
 ## main_concept
@@ -52461,7 +52461,7 @@ Moderate
 ## question_type
 Clinical application
 ## learning_objective
-List the abnormal sites of implantation the department book names, and recognise a site the blastocyst can never reach.
+List the abnormal sites of implantation, and recognise a site the blastocyst can never reach.
 ## setting
 Academic
 ## academic_relevance
@@ -52520,11 +52520,11 @@ Four blastomeres is the second day. Still a cleaving zygote, still inside an int
 ## answer_c
 8 cell’s stage.
 ## explanation_c
-Eight blastomeres is the third day, and it is the number the book states most prominently, which is what makes this the strongest distractor — a student who remembers "day 3" and "8 cells" together stops one step early. The morula is the next count in the same sentence.
+Eight blastomeres is the third day, and it is the most prominently stated figure, which is what makes this the strongest distractor — a student who remembers "day 3" and "8 cells" together stops one step early. The morula is the next count in the same sentence.
 ## answer_d
 16 cell’s stage.
 ## explanation_d
-Correct. At 16 cells the ball is called the morula, and it is formed in the uterine tube within three days of the zygote; it has no cavity and its zona pellucida is intact, which is what separates it from the blastocyst that follows.
+At 16 cells the ball is called the morula, and it is formed in the uterine tube within three days of the zygote; it has no cavity and its zona pellucida is intact, which is what separates it from the blastocyst that follows.
 ## correct_answer
 d
 ## main_concept
@@ -52601,7 +52601,7 @@ Branches of ulnar artery in the forearm, choose the correct answer:
 ## answer_a
 Anterior ulnar recurrent
 ## explanation_a
-Correct. The ulnar artery gives the anterior and posterior ulnar recurrent arteries near its beginning, and both ascend to the anastomosis round the elbow.
+The ulnar artery gives the anterior and posterior ulnar recurrent arteries near its beginning, and both ascend to the anastomosis round the elbow.
 ## answer_b
 Ulnar collateral artery
 ## explanation_b
@@ -52698,7 +52698,7 @@ Biceps is the powerful supinator with the elbow flexed, not extended — flexion
 ## answer_c
 Brachioradialis puts the forearm in mid-prone position
 ## explanation_c
-Correct. Brachioradialis is a mid-prone muscle: from full pronation it supinates to the mid position and from full supination it pronates to it, and no further either way.
+Brachioradialis is a mid-prone muscle: from full pronation it supinates to the mid position and from full supination it pronates to it, and no further either way.
 ## answer_d
 The radius is fixed, the ulna is the movable bone
 ## explanation_d
@@ -52787,7 +52787,7 @@ Reversed in the same way. Its insertion is the lower quarter of the anterior sur
 ## answer_c
 Pronates the forearm at radioulnar joints
 ## explanation_c
-Correct. Pronation happens at the superior and inferior radio-ulnar joints, and pronator quadratus is the muscle placed exactly across the inferior one.
+Pronation happens at the superior and inferior radio-ulnar joints, and pronator quadratus is the muscle placed exactly across the inferior one.
 ## answer_d
 Is innervated by posterior interosseous nerve
 ## explanation_d
@@ -52880,7 +52880,7 @@ Extensor pollicis longus is likewise deep and posterior interosseous.
 ## answer_d
 Extensor carpi radialis longus
 ## explanation_d
-Correct. Extensor carpi radialis longus is supplied by the radial nerve itself, before the division into terminal branches — which is why the wrist still extends when the posterior interosseous nerve alone is cut.
+Extensor carpi radialis longus is supplied by the radial nerve itself, before the division into terminal branches — which is why the wrist still extends when the posterior interosseous nerve alone is cut.
 ## correct_answer
 D
 ## main_concept
@@ -52965,7 +52965,7 @@ The dorsal interossei are supplied by the deep branch of the ulnar nerve.
 ## answer_c
 Opponens pollicis
 ## explanation_c
-Correct. Opponens pollicis is a thenar muscle, supplied by the recurrent branch of the median nerve.
+Opponens pollicis is a thenar muscle, supplied by the recurrent branch of the median nerve.
 ## answer_d
 Adductor pollicis muscle
 ## explanation_d
@@ -53050,7 +53050,7 @@ The articular disc of the wrist joint binds the lower end of the ulna to the rad
 ## answer_b
 Interosseous membrane
 ## explanation_b
-Correct. The interosseous membrane runs between the interosseous borders of the two bones for most of their length, holding them apart and transmitting weight from the radius to the ulna.
+The interosseous membrane runs between the interosseous borders of the two bones for most of their length, holding them apart and transmitting weight from the radius to the ulna.
 ## answer_c
 Radial collateral ligament
 ## explanation_c
@@ -53143,7 +53143,7 @@ Extensor digiti minimi is a posterior compartment muscle supplied by the posteri
 ## answer_c
 Adductor pollicis
 ## explanation_c
-Correct. The fracture injures the ulnar nerve in its groove behind the epicondyle, and adductor pollicis is the muscle in which that nerve’s deep branch terminates.
+The fracture injures the ulnar nerve in its groove behind the epicondyle, and adductor pollicis is the muscle in which that nerve’s deep branch terminates.
 ## answer_d
 Flexor carpi radialis
 ## explanation_d
@@ -53236,7 +53236,7 @@ Flexor carpi radialis gives flexion with abduction — the mirror movement, and 
 ## answer_d
 Flexor carpi ulnaris
 ## explanation_d
-Correct. Flexor carpi ulnaris flexes and adducts, which is exactly what its two names say: a flexor, on the ulnar side.
+Flexor carpi ulnaris flexes and adducts, which is exactly what its two names say: a flexor, on the ulnar side.
 ## correct_answer
 D
 ## main_concept
@@ -53321,7 +53321,7 @@ Pronator quadratus is the prime pronator and also carries the movement through i
 ## answer_c
 Brachioradialis
 ## explanation_c
-Correct. Brachioradialis inserts on the lower end of the radius and its pull is strongest when the forearm is mid-prone, so it supinates a pronated forearm to that point and pronates a supinated one to it.
+Brachioradialis inserts on the lower end of the radius and its pull is strongest when the forearm is mid-prone, so it supinates a pronated forearm to that point and pronates a supinated one to it.
 ## answer_d
 Biceps brachii
 ## explanation_d
@@ -53406,7 +53406,7 @@ Flexor digitorum superficialis inserts into the sides of the middle phalanges an
 ## answer_b
 Biceps brachii is a powerful supinator
 ## explanation_b
-Correct. Biceps is the powerful supinator of the flexed forearm, supinator itself being the weaker of the two.
+Biceps is the powerful supinator of the flexed forearm, supinator itself being the weaker of the two.
 ## answer_c
 Flexor carpi ulnaris is flexor and abductor of the wrist
 ## explanation_c
@@ -53503,7 +53503,7 @@ The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, 
 ## answer_d
 It gives the common interosseous artery
 ## explanation_d
-Correct. The common interosseous artery is a short trunk arising about an inch below the ulnar artery’s beginning and dividing at once into anterior and posterior interosseous arteries.
+The common interosseous artery is a short trunk arising about an inch below the ulnar artery’s beginning and dividing at once into anterior and posterior interosseous arteries.
 ## correct_answer
 D
 ## main_concept
@@ -53592,7 +53592,7 @@ Brachioradialis only brings the forearm to the mid-prone position and cannot car
 ## answer_d
 Biceps brachii
 ## explanation_d
-Correct. Biceps supinates powerfully with the elbow flexed, and supinator does the rest; between them supination is stronger than pronation.
+Biceps supinates powerfully with the elbow flexed, and supinator does the rest; between them supination is stronger than pronation.
 ## correct_answer
 D
 ## main_concept
@@ -53677,11 +53677,11 @@ What supinator surrounds is the upper third of the shaft of the radius, and what
 ## answer_c
 Is innervated by radial nerve itself
 ## explanation_c
-The radial nerve itself supplies only brachioradialis, extensor carpi radialis longus and anconeus in this region. Naming the parent trunk where the branch is meant is the mistake, and it is the answer the books print.
+The radial nerve itself supplies only brachioradialis, extensor carpi radialis longus and anconeus in this region. Naming the parent trunk where the branch is meant is the mistake, and it is the printed answer.
 ## answer_d
 Is innervated by posterior interosseous nerve
 ## explanation_d
-Correct. The posterior interosseous nerve supplies supinator and then continues through it to the rest of the deep extensor group.
+The posterior interosseous nerve supplies supinator and then continues through it to the rest of the deep extensor group.
 ## correct_answer
 D
 ## main_concept
@@ -53758,7 +53758,7 @@ The flexor digitorum profundus, choose correct answer:
 ## answer_a
 Receives double nerve supply
 ## explanation_a
-Correct. The lateral half, to the index and middle fingers, is anterior interosseous; the medial half, to the ring and little fingers, is ulnar. That split is why an ulnar lesion above the elbow claws the hand less than one at the wrist.
+The lateral half, to the index and middle fingers, is anterior interosseous; the medial half, to the ring and little fingers, is ulnar. That split is why an ulnar lesion above the elbow claws the hand less than one at the wrist.
 ## answer_b
 Inserted into the front of middle phalanx
 ## explanation_b
@@ -53766,7 +53766,7 @@ The middle phalanx is where flexor digitorum superficialis inserts. Profundus pa
 ## answer_c
 Flexes the lateral four fingers
 ## explanation_c
-The four fingers it flexes are conventionally called the medial four, the thumb being excluded. The books use "medial four fingers" throughout, and "lateral" here is the error.
+The four fingers it flexes are conventionally called the medial four, the thumb being excluded. "Medial four fingers" is the term used throughout, and "lateral" here is the error.
 ## answer_d
 Arises from radius, ulna and interosseous membrane
 ## explanation_d
@@ -53855,7 +53855,7 @@ Abductor pollicis brevis is a thenar muscle inside the hand. Abductor pollicis l
 ## answer_c
 Gives origin to the deep flexors of the hand
 ## explanation_c
-Correct. The anterior surface gives origin to flexor pollicis longus and flexor digitorum profundus, the deep flexors that reach into the hand.
+The anterior surface gives origin to flexor pollicis longus and flexor digitorum profundus, the deep flexors that reach into the hand.
 ## answer_d
 Pierced by posterior interosseous vessels
 ## explanation_d
@@ -53944,7 +53944,7 @@ Pronator teres is wholly median, although it has two heads of origin — which i
 ## answer_c
 Flexor digitorum profundus
 ## explanation_c
-Correct. The lateral half of flexor digitorum profundus is median through the anterior interosseous nerve and the medial half is ulnar.
+The lateral half of flexor digitorum profundus is median through the anterior interosseous nerve and the medial half is ulnar.
 ## answer_d
 Flexor digitorum superficialis
 ## explanation_d
@@ -54037,7 +54037,7 @@ The lateral end of the dorsal venous arch continues as the cephalic vein — tha
 ## answer_d
 Gives the median basilic vein
 ## explanation_d
-Correct. In front of the elbow the median vein of the forearm commonly divides into a median cephalic and a median basilic vein, joining the two great superficial channels of the limb.
+In front of the elbow the median vein of the forearm commonly divides into a median cephalic and a median basilic vein, joining the two great superficial channels of the limb.
 ## correct_answer
 D
 ## main_concept
@@ -54126,7 +54126,7 @@ Brachioradialis is in the extensor compartment and is supplied by the radial ner
 ## answer_d
 The supinator is innervated by the posterior interosseous nerve
 ## explanation_d
-Correct. Supinator lies in the deep extensor group and is pierced and supplied by the posterior interosseous nerve.
+Supinator lies in the deep extensor group and is pierced and supplied by the posterior interosseous nerve.
 ## correct_answer
 D
 ## main_concept
@@ -54215,7 +54215,7 @@ Brachioradialis is radial. It is a flexor of the elbow lying in the extensor com
 ## answer_d
 The supinator is innervated by the posterior interosseous nerve
 ## explanation_d
-Correct. Supinator is a deep extensor supplied by the posterior interosseous nerve, which pierces it.
+Supinator is a deep extensor supplied by the posterior interosseous nerve, which pierces it.
 ## correct_answer
 D
 ## main_concept
@@ -54292,7 +54292,7 @@ Regarding the radial artery, one is correct:
 ## answer_a
 Its pulsations can be felt between the tendons of the flexor carpi radialis and
 ## explanation_a
-Correct. In the lower third of the forearm the artery lies between the tendons of flexor carpi radialis medially and brachioradialis laterally, on the front of the lower end of the radius with only skin and fascia over it. This copy has cut the option short after "and"; the intact copy names brachioradialis.
+In the lower third of the forearm the artery lies between the tendons of flexor carpi radialis medially and brachioradialis laterally, on the front of the lower end of the radius with only skin and fascia over it. This copy has cut the option short after "and"; the intact copy names brachioradialis.
 ## answer_b
 It continues in the palm as the superficial palmar arch
 ## explanation_b
@@ -54389,7 +54389,7 @@ It passes superficial to the flexor retinaculum, in the canal of Guyon, alongsid
 ## answer_c
 It continues in the hand as the superficial palmar arch
 ## explanation_c
-Correct. The ulnar artery becomes the superficial palmar arch as it enters the palm.
+The ulnar artery becomes the superficial palmar arch as it enters the palm.
 ## answer_d
 It supplies the thumb
 ## explanation_d
@@ -54478,7 +54478,7 @@ The posterior ulnar recurrent artery is likewise ulnar. The recurrent arteries d
 ## answer_c
 Radialis indicis artery
 ## explanation_c
-Correct. The radialis indicis runs along the radial side of the index finger and comes from the radial artery in the palm, with the princeps pollicis.
+The radialis indicis runs along the radial side of the index finger and comes from the radial artery in the palm, with the princeps pollicis.
 ## answer_d
 Common interosseous artery
 ## explanation_d
@@ -54571,7 +54571,7 @@ Flexor pollicis longus is in the tunnel too, in its own synovial sheath.
 ## answer_d
 Ulnar nerve
 ## explanation_d
-Correct. The ulnar nerve, with the ulnar vessels, crosses superficial to the retinaculum in the canal of Guyon — which is why dividing the retinaculum for carpal tunnel syndrome leaves it untouched.
+The ulnar nerve, with the ulnar vessels, crosses superficial to the retinaculum in the canal of Guyon — which is why dividing the retinaculum for carpal tunnel syndrome leaves it untouched.
 ## correct_answer
 D
 ## main_concept
@@ -54652,7 +54652,7 @@ A lumbrical arises from a tendon by a single head and lies far in front of the a
 ## answer_b
 Adductor pollicis
 ## explanation_b
-Correct. Adductor pollicis has an oblique and a transverse head, and the radial artery passes between them just before it forms the deep arch.
+Adductor pollicis has an oblique and a transverse head, and the radial artery passes between them just before it forms the deep arch.
 ## answer_c
 Second dorsal interosseous
 ## explanation_c
@@ -54741,7 +54741,7 @@ Flexor digitorum brevis is a muscle of the sole of the foot. It has no represent
 ## answer_b
 Flexor digitorum profundus
 ## explanation_b
-Correct. All four tendons of flexor digitorum profundus lie with the four of superficialis in the common synovial sheath, the ulnar bursa.
+All four tendons of flexor digitorum profundus lie with the four of superficialis in the common synovial sheath, the ulnar bursa.
 ## answer_c
 Flexor pollicis brevis
 ## explanation_c
@@ -54834,7 +54834,7 @@ The profundus tendons are in the carpal tunnel with them.
 ## answer_c
 Palmaris longus tendon
 ## explanation_c
-Correct. Palmaris longus is the most superficial structure at the front of the wrist, resting on the retinaculum and blending with it and with the palmar aponeurosis — which is what makes it the landmark for the median nerve beneath.
+Palmaris longus is the most superficial structure at the front of the wrist, resting on the retinaculum and blending with it and with the palmar aponeurosis — which is what makes it the landmark for the median nerve beneath.
 ## answer_d
 Flexor carpi radialis tendon
 ## explanation_d
@@ -54923,7 +54923,7 @@ Extensor digitorum shares the fourth compartment with extensor indicis; extensor
 ## answer_c
 Abductor pollicis longus and extensor pollicis brevis.
 ## explanation_c
-Correct. The first compartment, the most lateral, carries abductor pollicis longus and extensor pollicis brevis — the two tendons that form the anterior border of the anatomical snuff box.
+The first compartment, the most lateral, carries abductor pollicis longus and extensor pollicis brevis — the two tendons that form the anterior border of the anatomical snuff box.
 ## answer_d
 Extensor pollicis longus and brevis.
 ## explanation_d
@@ -55012,7 +55012,7 @@ Extensor digitorum is the fourth compartment and extensor digiti minimi the fift
 ## answer_c
 Abductor pollicis longus and extensor pollicis brevis
 ## explanation_c
-Correct. Abductor pollicis longus and extensor pollicis brevis share the first compartment and go on to bound the snuff box in front.
+Abductor pollicis longus and extensor pollicis brevis share the first compartment and go on to bound the snuff box in front.
 ## answer_d
 Extensor pollicis longus and brevis
 ## explanation_d
@@ -55105,7 +55105,7 @@ The ulnar nerve is behind the medial epicondyle and never enters the fossa — w
 ## answer_d
 Median
 ## explanation_d
-Correct. The median nerve lies immediately medial to the brachial artery, on the brachialis part of the floor.
+The median nerve lies immediately medial to the brachial artery, on the brachialis part of the floor.
 ## correct_answer
 D
 ## main_concept
@@ -55194,7 +55194,7 @@ Flexor digitorum profundus is deeper still and has no surface tendon at the wris
 ## answer_d
 Flexor carpi radialis. Vi Acad
 ## explanation_d
-Correct. Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis is on its lateral side, and the artery lies in the groove between them.
+Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis is on its lateral side, and the artery lies in the groove between them.
 ## correct_answer
 D
 ## main_concept
@@ -55283,7 +55283,7 @@ Brachioradialis is a radial muscle in the extensor compartment.
 ## answer_d
 flexor carpi ulnaris
 ## explanation_d
-Correct. Flexor carpi ulnaris is one of the ulnar nerve’s two forearm muscles, and the nerve enters the forearm between its two heads.
+Flexor carpi ulnaris is one of the ulnar nerve’s two forearm muscles, and the nerve enters the forearm between its two heads.
 ## correct_answer
 d
 ## main_concept
@@ -55627,7 +55627,7 @@ Anterior aspect of interosseous membrane gives attachment to:
 ## answer_a
 Flexor pollicis longus and flexor digitorum profundus
 ## explanation_a
-Correct. The deep flexor group takes the membrane and the bones on either side of it — which is why it has no attachment to the humerus and survives a common flexor origin injury.
+The deep flexor group takes the membrane and the bones on either side of it — which is why it has no attachment to the humerus and survives a common flexor origin injury.
 ## answer_b
 Flexor digitorum superficialis
 ## explanation_b
@@ -55716,7 +55716,7 @@ Anterior aspect of interosseous membrane glves attachment to:
 ## answer_a
 Flexor pollicis longus and flexor digitorum profundus
 ## explanation_a
-Correct. Both deep flexors arise from the anterior surface of the membrane and the adjacent bone.
+Both deep flexors arise from the anterior surface of the membrane and the adjacent bone.
 ## answer_b
 Flexor digitorum superficlalls
 ## explanation_b
@@ -55817,7 +55817,7 @@ Brachioradialis is posterior and radial.
 ## answer_d
 Pronator quadratus
 ## explanation_d
-Correct. Pronator quadratus is the deepest anterior muscle and the last one the anterior interosseous nerve supplies.
+Pronator quadratus is the deepest anterior muscle and the last one the anterior interosseous nerve supplies.
 ## correct_answer
 D
 ## main_concept
@@ -55894,7 +55894,7 @@ Branches of ulnar artery in the forearm, choose the correct answer: (DEP BOOK) A
 ## answer_a
 Anterior ulnar recurrent.
 ## explanation_a
-Correct. The anterior ulnar recurrent arises just below the elbow and ascends in front of the medial epicondyle to the anastomosis.
+The anterior ulnar recurrent arises just below the elbow and ascends in front of the medial epicondyle to the anastomosis.
 ## answer_b
 Ulnar collateral artery.
 ## explanation_b
@@ -55991,7 +55991,7 @@ Biceps supinates powerfully when the elbow is flexed, not extended.
 ## answer_c
 Brachioradialis puts the forearm in mid-prone position
 ## explanation_c
-Correct. Brachioradialis carries the forearm to the mid-prone position from either extreme and no further.
+Brachioradialis carries the forearm to the mid-prone position from either extreme and no further.
 ## answer_d
 The radius is ﬁxed; the ulna is the movable bone. Ac ad
 ## explanation_d
@@ -56258,7 +56258,7 @@ Biceps supinates best with the elbow flexed. It is the printed key here and the 
 ## answer_c
 Brachioradialis puts the forearm in mid-prone position.
 ## explanation_c
-Correct. Brachioradialis is the mid-prone muscle.
+Brachioradialis is the mid-prone muscle.
 ## answer_d
 The radius is ﬁxed; the ulna is the movable bone.
 ## explanation_d
@@ -56339,7 +56339,7 @@ Extensor pollicis brevis: (IPKA) ad P
 ## answer_a
 Takes origin from radius and interosseous membrane
 ## explanation_a
-Correct. Extensor pollicis brevis is a deep extensor arising from the posterior surface of the radius and the interosseous membrane, below abductor pollicis longus.
+Extensor pollicis brevis is a deep extensor arising from the posterior surface of the radius and the interosseous membrane, below abductor pollicis longus.
 ## answer_b
 Lies on ulnar side of snuffbox. y
 ## explanation_b
@@ -56440,7 +56440,7 @@ Flexor carpi radialis flexes and abducts — the mirror image.
 ## answer_d
 Flexor carpi ulnaris
 ## explanation_d
-Correct. Flexor carpi ulnaris flexes and adducts the wrist, and with extensor carpi ulnaris it produces pure adduction.
+Flexor carpi ulnaris flexes and adducts the wrist, and with extensor carpi ulnaris it produces pure adduction.
 ## correct_answer
 D
 ## main_concept
@@ -56529,7 +56529,7 @@ Flexes and abducts — the opposite deviation.
 ## answer_d
 Flexor carpi ulnaris.
 ## explanation_d
-Correct. Flexor carpi ulnaris is the flexor on the adducting side.
+Flexor carpi ulnaris is the flexor on the adducting side.
 ## correct_answer
 D
 ## main_concept
@@ -56618,7 +56618,7 @@ Palmaris longus is median and lost.
 ## answer_d
 Flexor carpi ulnaris.
 ## explanation_d
-Correct. Flexor carpi ulnaris is one of the only two muscles in the anterior compartment that are ulnar, and it is what makes the paralysed wrist deviate medially when it is flexed.
+Flexor carpi ulnaris is one of the only two muscles in the anterior compartment that are ulnar, and it is what makes the paralysed wrist deviate medially when it is flexed.
 ## correct_answer
 D
 ## main_concept
@@ -56703,7 +56703,7 @@ The anterior interosseous artery does reach the fourth compartment: it pierces t
 ## answer_c
 Anterior interosseous nerve
 ## explanation_c
-Correct, and the answer. The anterior interosseous nerve stays in front, ending on the deep surface of pronator quadratus; only its companion artery crosses to the back.
+This is the answer. The anterior interosseous nerve stays in front, ending on the deep surface of pronator quadratus; only its companion artery crosses to the back.
 ## answer_d
 Posterior interosseous nerve
 ## explanation_d
@@ -56792,7 +56792,7 @@ The ulnar artery passes deep to the two heads of pronator teres as it leaves the
 ## answer_c
 The radial artery originates from the brachial artery
 ## explanation_c
-Correct. The brachial artery ends in the fossa by dividing into the radial and ulnar arteries.
+The brachial artery ends in the fossa by dividing into the radial and ulnar arteries.
 ## answer_d
 The radial nerve lies medial to the biceps tendon
 ## explanation_d
@@ -56885,7 +56885,7 @@ The ulnar artery passes deep to pronator teres.
 ## answer_c
 The radial artery originates from the brachial artery. Ac ad
 ## explanation_c
-Correct. The radial artery is one of the two terminal branches of the brachial artery, given in the fossa.
+The radial artery is one of the two terminal branches of the brachial artery, given in the fossa.
 ## answer_d
 The radial nerve lies medial to the biceps tendon
 ## explanation_d
@@ -56982,7 +56982,7 @@ It is the median nerve that leaves the fossa between the two heads of pronator t
 ## answer_d
 Radial nerve leaves the fossa between the heads of the supinator muscle.
 ## explanation_d
-Correct. The deep terminal branch of the radial nerve leaves the fossa by piercing supinator between its superficial and deep layers, and emerges on the back of the forearm as the posterior interosseous nerve.
+The deep terminal branch of the radial nerve leaves the fossa by piercing supinator between its superficial and deep layers, and emerges on the back of the forearm as the posterior interosseous nerve.
 ## correct_answer
 D
 ## main_concept
@@ -57063,7 +57063,7 @@ The floor is brachialis medially and supinator laterally — two muscles, not on
 ## answer_b
 The medial boundary is formed by pronator teres.
 ## explanation_b
-Correct. Pronator teres forms the medial boundary of the triangle and brachioradialis the lateral.
+Pronator teres forms the medial boundary of the triangle and brachioradialis the lateral.
 ## answer_c
 The ulnar nerve lies lateral to the brachial artery.
 ## explanation_c
@@ -57152,7 +57152,7 @@ The lesser tuberosity is on the front of the upper end of the humerus and takes 
 ## answer_b
 Gives origin to brachioradialis
 ## explanation_b
-Correct. Brachioradialis arises from the upper two-thirds of the lateral supracondylar ridge and from the front of this septum — one of the two muscles that make it a muscular attachment as well as a partition.
+Brachioradialis arises from the upper two-thirds of the lateral supracondylar ridge and from the front of this septum — one of the two muscles that make it a muscular attachment as well as a partition.
 ## answer_c
 Gives origin to extensor carpi radialis brevis
 ## explanation_c
@@ -57241,7 +57241,7 @@ The lesser tuberosity is nowhere near it. It is the printed key and it is wrong.
 ## answer_b
 Gives origin to brachioradialis.
 ## explanation_b
-Correct. Brachioradialis takes origin from the front of the septum and the ridge above the lateral epicondyle.
+Brachioradialis takes origin from the front of the septum and the ridge above the lateral epicondyle.
 ## answer_c
 Gives origin to extensor carpi radialis brevis.
 ## explanation_c
@@ -57334,7 +57334,7 @@ Pronator teres is wholly median. Two heads of origin are not two nerves, and tha
 ## answer_c
 Flexor digitorum profundus
 ## explanation_c
-Correct. Flexor digitorum profundus is median laterally, through the anterior interosseous nerve, and ulnar medially.
+Flexor digitorum profundus is median laterally, through the anterior interosseous nerve, and ulnar medially.
 ## answer_d
 Flexor digitorum superficialis
 ## explanation_d
@@ -57427,7 +57427,7 @@ The lateral end of the dorsal venous arch becomes the cephalic vein.
 ## answer_d
 Gives the median basilic vein.
 ## explanation_d
-Correct. In front of the elbow it commonly divides into median cephalic and median basilic veins.
+In front of the elbow it commonly divides into median cephalic and median basilic veins.
 ## correct_answer
 D
 ## main_concept
@@ -57516,7 +57516,7 @@ The lateral end of the dorsal venous arch continues as the cephalic vein.
 ## answer_e
 It is a common site for intravenous injections
 ## explanation_e
-Correct. Its size, its superficial position and the bicipital aponeurosis lying between it and the brachial artery are exactly why it is the vein used.
+Its size, its superficial position and the bicipital aponeurosis lying between it and the brachial artery are exactly why it is the vein used.
 ## correct_answer
 E
 ## main_concept
@@ -57605,7 +57605,7 @@ That describes the cephalic vein.
 ## answer_e
 It is a common site for intravenous injections
 ## explanation_e
-Correct. It is large, superficial and protected from the brachial artery by the bicipital aponeurosis, which is what makes it the standard vein for injection.
+It is large, superficial and protected from the brachial artery by the bicipital aponeurosis, which is what makes it the standard vein for injection.
 ## correct_answer
 E
 ## main_concept
@@ -57690,7 +57690,7 @@ Pronator quadratus is the prime pronator.
 ## answer_c
 Brachioradialis.
 ## explanation_c
-Correct. Brachioradialis stops at mid-prone, which is the position of greatest mechanical advantage for it.
+Brachioradialis stops at mid-prone, which is the position of greatest mechanical advantage for it.
 ## answer_d
 Biceps brachii.
 ## explanation_d
@@ -57771,7 +57771,7 @@ Name the nerve which innervates the ﬂexor pollicis longus: (IPKA - 2021) Ac P 
 ## answer_a
 Anterior interosseous.
 ## explanation_a
-Correct. The anterior interosseous nerve leaves the median nerve below the cubital fossa, descends on the interosseous membrane and supplies flexor pollicis longus, the lateral half of flexor digitorum profundus and pronator quadratus.
+The anterior interosseous nerve leaves the median nerve below the cubital fossa, descends on the interosseous membrane and supplies flexor pollicis longus, the lateral half of flexor digitorum profundus and pronator quadratus.
 ## answer_b
 Median.
 ## explanation_b
@@ -57864,7 +57864,7 @@ Name the nerve which innervates the flexor policis longus:
 ## answer_a
 Anterior Interosseous
 ## explanation_a
-Correct. Flexor pollicis longus is one of the three muscles of the anterior interosseous nerve.
+Flexor pollicis longus is one of the three muscles of the anterior interosseous nerve.
 ## answer_b
 Median
 ## explanation_b
@@ -57957,7 +57957,7 @@ The radial recurrent artery ascends from the radial artery to the elbow anastomo
 ## answer_b
 Common interosseous artery.
 ## explanation_b
-Correct. The common interosseous artery arises about an inch below the ulnar artery’s beginning and at once divides into anterior and posterior interosseous arteries.
+The common interosseous artery arises about an inch below the ulnar artery’s beginning and at once divides into anterior and posterior interosseous arteries.
 ## answer_c
 Inferior ulnar collateral artery.
 ## explanation_c
@@ -58046,7 +58046,7 @@ A radial branch, so not the answer. The radial recurrent artery ascends in front
 ## answer_b
 Common interosseous artery
 ## explanation_b
-Correct, and the answer. The common interosseous artery is the ulnar artery’s branch and the parent of both interosseous vessels.
+This is the answer. The common interosseous artery is the ulnar artery’s branch and the parent of both interosseous vessels.
 ## answer_c
 Palmar (anterior) carpal
 ## explanation_c
@@ -58139,7 +58139,7 @@ A content. The radial artery begins in the fossa.
 ## answer_c
 Ulnar nerve
 ## explanation_c
-Correct, and the answer. The ulnar nerve pierces the medial intermuscular septum in the arm and passes behind the medial epicondyle, outside the fossa.
+This is the answer. The ulnar nerve pierces the medial intermuscular septum in the arm and passes behind the medial epicondyle, outside the fossa.
 ## answer_d
 Median nerve
 ## explanation_d
@@ -58220,7 +58220,7 @@ One of the following muscles cannot perform ﬂexion of the wrist (2022)
 ## answer_a
 Pronator quadratus.
 ## explanation_a
-Correct. Pronator quadratus lies entirely proximal to the wrist joint, spanning from ulna to radius; a muscle that does not cross a joint cannot move it.
+Pronator quadratus lies entirely proximal to the wrist joint, spanning from ulna to radius; a muscle that does not cross a joint cannot move it.
 ## answer_b
 Flexor pollicis longus.
 ## explanation_b
@@ -58321,7 +58321,7 @@ Median, so not the answer — through the recurrent branch to the thenar eminenc
 ## answer_d
 Adductor pollicis.
 ## explanation_d
-Correct, and the answer. Adductor pollicis lies in the adductor compartment and is the muscle in which the deep branch of the ulnar nerve ends; it is the one thumb muscle that is not median, and its loss gives Froment’s sign.
+This is the answer. Adductor pollicis lies in the adductor compartment and is the muscle in which the deep branch of the ulnar nerve ends; it is the one thumb muscle that is not median, and its loss gives Froment’s sign.
 ## correct_answer
 D
 ## main_concept
@@ -58402,7 +58402,7 @@ The elbow is a hinge and cannot rotate. The superior radio-ulnar joint shares it
 ## answer_b
 Superior and inferior radio-ulnar joints.
 ## explanation_b
-Correct. The head of the radius spins within the anular ligament above and the lower end of the radius swings round the head of the ulna below.
+The head of the radius spins within the anular ligament above and the lower end of the radius swings round the head of the ulna below.
 ## answer_c
 Shoulder joint.
 ## explanation_c
@@ -58499,7 +58499,7 @@ The radial nerve supplies the extensor side.
 ## answer_d
 Anterior interosseous nerve
 ## explanation_d
-Correct. Pronator quadratus lies deepest in the front of the forearm, and the anterior interosseous nerve ends on its deep surface.
+Pronator quadratus lies deepest in the front of the forearm, and the anterior interosseous nerve ends on its deep surface.
 ## correct_answer
 D
 ## main_concept
@@ -58588,7 +58588,7 @@ The same distractor as A, printed a second time by the extraction as the single 
 ## answer_d
 Anterior interosseous nerve
 ## explanation_d
-Correct. The anterior interosseous nerve ends in pronator quadratus.
+The anterior interosseous nerve ends in pronator quadratus.
 ## correct_answer
 D
 ## main_concept
@@ -58673,7 +58673,7 @@ The short head arises from the tip of the coracoid process, not the acromion.
 ## answer_c
 It is a supinator of the forearm
 ## explanation_c
-Correct. Biceps is the powerful supinator of the flexed forearm, which is why the bicipital tendon winds round to the back of the radial tuberosity.
+Biceps is the powerful supinator of the flexed forearm, which is why the bicipital tendon winds round to the back of the radial tuberosity.
 ## answer_e
 The two heads unite in the upper arm
 ## explanation_e
@@ -58762,7 +58762,7 @@ The tip of the coracoid process, not the acromion.
 ## answer_c
 it is a supinator of the forearm
 ## explanation_c
-Correct. Biceps flexes the elbow and supinates the forearm powerfully.
+Biceps flexes the elbow and supinates the forearm powerfully.
 ## answer_d
 it is supplied by branches of the median nerve
 ## explanation_d
@@ -58940,7 +58940,7 @@ Superficialis inserts into the middle phalanx; the distal phalanx belongs to pro
 ## answer_b
 Biceps brachii is a powerful supinator
 ## explanation_b
-Correct. Biceps is the powerful supinator, supinator itself being the weaker.
+Biceps is the powerful supinator, supinator itself being the weaker.
 ## answer_c
 Flexor carpi ulnaris is flexor and abductor of the wrist
 ## explanation_c
@@ -59029,7 +59029,7 @@ Superficialis flexes the middle phalanges; the distal ones are profundus.
 ## answer_b
 Biceps brachii is a powerful supinator
 ## explanation_b
-Correct. Biceps supinates powerfully with the elbow flexed.
+Biceps supinates powerfully with the elbow flexed.
 ## answer_c
 Flexor carpi ulnaris is ﬂexor and abductor of the wrist
 ## explanation_c
@@ -59126,7 +59126,7 @@ Brachioradialis is radial, not median. It is a flexor of the elbow lying in the 
 ## answer_d
 The supinator is innervated by the posterior interosseous nerve.
 ## explanation_d
-Correct. Supinator is a deep extensor pierced and supplied by the posterior interosseous nerve.
+Supinator is a deep extensor pierced and supplied by the posterior interosseous nerve.
 ## correct_answer
 D
 ## main_concept
@@ -59211,7 +59211,7 @@ It disappears in pronation, rather than appearing. The option reverses the behav
 ## answer_c
 It is due to downward projection of the medial end of trochlea more than its lateral end
 ## explanation_c
-Correct. The medial part of the trochlea projects further down than the lateral part, so the trochlear notch of the ulna sits on it obliquely and the forearm is carried laterally.
+The medial part of the trochlea projects further down than the lateral part, so the trochlear notch of the ulna sits on it obliquely and the forearm is carried laterally.
 ## answer_d
 It is larger in males than in females
 ## explanation_d
@@ -59296,7 +59296,7 @@ The lateral epicondyle is on the other side of the joint entirely; the ulnar ner
 ## answer_b
 Passes between the humeral and ulnar attachment of flexor carpi ulnaris
 ## explanation_b
-Correct. The two heads of flexor carpi ulnaris, from the medial epicondyle and from the olecranon, form the arch the nerve passes under to enter the forearm.
+The two heads of flexor carpi ulnaris, from the medial epicondyle and from the olecranon, form the arch the nerve passes under to enter the forearm.
 ## answer_c
 Passes between flexor digitorum profundus and Paimaris longus
 ## explanation_c
@@ -59482,7 +59482,7 @@ Opponens pollicis rolls the first metacarpal and stops there. What the expansion
 ## answer_d
 It is supplied by posterior interosseous nerve. Ac
 ## explanation_d
-Correct. Extensor digitorum lies in the superficial extensor group and is supplied by the posterior interosseous nerve, which reaches it after piercing supinator.
+Extensor digitorum lies in the superficial extensor group and is supplied by the posterior interosseous nerve, which reaches it after piercing supinator.
 ## correct_answer
 D
 ## main_concept
@@ -59559,7 +59559,7 @@ Regarding the radial artery in the hand, choose the correct answer: (DEP BOOK) y
 ## answer_a
 Passes between the two heads of the 1st dorsal interosseous muscle.
 ## explanation_a
-Correct. The first dorsal interosseous has two heads with a gap between them, and the artery uses that gap to cross from the dorsum to the palm.
+The first dorsal interosseous has two heads with a gap between them, and the artery uses that gap to cross from the dorsum to the palm.
 ## answer_b
 Passes between the 1st and 2nd lumbrical muscles.
 ## explanation_b
@@ -59648,7 +59648,7 @@ Regarding the radial artery, one is correct: (DEP BOOK) em em em em em
 ## answer_a
 Its pulsations can be felt between tendons of ﬂexor carpi radialis & brachioradialis
 ## explanation_a
-Correct. In the lower third of the forearm the artery lies in the groove between flexor carpi radialis medially and brachioradialis laterally, on the front of the radius with nothing but skin and fascia over it.
+In the lower third of the forearm the artery lies in the groove between flexor carpi radialis medially and brachioradialis laterally, on the front of the radius with nothing but skin and fascia over it.
 ## answer_b
 It continues in the palm as the superﬁcial palmar arch
 ## explanation_b
@@ -59749,7 +59749,7 @@ The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, 
 ## answer_d
 It gives the common interosseous artery. Acad
 ## explanation_d
-Correct. The common interosseous artery is the ulnar artery’s largest branch and divides at once into the two interosseous arteries.
+The common interosseous artery is the ulnar artery’s largest branch and divides at once into the two interosseous arteries.
 ## correct_answer
 D
 ## main_concept
@@ -59834,7 +59834,7 @@ It passes superficial to the flexor retinaculum, with the nerve.
 ## answer_c
 It continues in the hand as the superﬁcial palmar arch
 ## explanation_c
-Correct. The ulnar artery becomes the superficial palmar arch on entering the palm.
+The ulnar artery becomes the superficial palmar arch on entering the palm.
 ## answer_d
 It supplies the thumb
 ## explanation_d
@@ -59923,7 +59923,7 @@ It gives no branches in the arm, which is what the option is half-remembering. I
 ## answer_c
 It passes behind medial epicondyle of humerus. — -
 ## explanation_c
-Correct. The nerve grooves the back of the medial epicondyle against bare bone, which is where it is palpable and where it is injured.
+The nerve grooves the back of the medial epicondyle against bare bone, which is where it is palpable and where it is injured.
 ## answer_d
 It supplies extensor carpi ulnaris.
 ## explanation_d
@@ -60016,7 +60016,7 @@ Brachioradialis stops at the mid-prone position.
 ## answer_d
 Biceps brachii.
 ## explanation_d
-Correct. Biceps is the powerful supinator, which is why supination is stronger than pronation.
+Biceps is the powerful supinator, which is why supination is stronger than pronation.
 ## correct_answer
 D
 ## main_concept
@@ -60097,7 +60097,7 @@ Flexor digitorum brevis is a muscle of the sole of the foot and has no counterpa
 ## answer_b
 Flexor digitorum profundus.
 ## explanation_b
-Correct. All four profundus tendons lie in the common sheath with the four superficialis tendons.
+All four profundus tendons lie in the common sheath with the four superficialis tendons.
 ## answer_c
 Flexor pollicis brevis.
 ## explanation_c
@@ -60186,7 +60186,7 @@ A muscle of the foot, not the hand.
 ## answer_b
 Flexor digitorum profundus. ;
 ## explanation_b
-Correct. Flexor digitorum profundus lies in the common synovial sheath.
+Flexor digitorum profundus lies in the common synovial sheath.
 ## answer_c
 Flexor pollicis brevis
 ## explanation_c
@@ -60275,7 +60275,7 @@ A muscle of the sole of the foot.
 ## answer_b
 Flexor digitorum profundus
 ## explanation_b
-Correct. The eight digital flexor tendons share one sheath under the retinaculum.
+The eight digital flexor tendons share one sheath under the retinaculum.
 ## answer_c
 Flexor pollicis brevis
 ## explanation_c
@@ -60360,7 +60360,7 @@ The anterior aspect of the interosseous membrane gives attachment to, mark the s
 ## answer_a
 Flexor pollicis longus and flexor digitorum profundus
 ## explanation_a
-Correct. The two deep flexors take the front of the membrane, which is why they have no humeral attachment.
+The two deep flexors take the front of the membrane, which is why they have no humeral attachment.
 ## answer_b
 Flexor digitorum superficialis
 ## explanation_b
@@ -60449,7 +60449,7 @@ The brachioradialis muscle receives its nerve supply from: (2018) Vi P y
 ## answer_a
 The radial nerve
 ## explanation_a
-Correct. The radial nerve supplies brachioradialis in the arm, above the level at which it divides into superficial and deep branches.
+The radial nerve supplies brachioradialis in the arm, above the level at which it divides into superficial and deep branches.
 ## answer_b
 The anterior interosseous nerve
 ## explanation_b
@@ -60538,7 +60538,7 @@ The brachioradialis muscle receives its nerve supply from: (2018) Ac ad Ac ad ad
 ## answer_a
 The radial nerve.
 ## explanation_a
-Correct. Brachioradialis takes a branch from the radial nerve trunk in the lower arm.
+Brachioradialis takes a branch from the radial nerve trunk in the lower arm.
 ## answer_b
 The anterior interosseous nerve.
 ## explanation_b
@@ -60639,7 +60639,7 @@ It is supplied by the radial nerve directly, not by the posterior interosseous n
 ## answer_d
 Put the forearm in mid-prone position.
 ## explanation_d
-Correct. Brachioradialis brings the forearm to the mid-prone position from full pronation or full supination.
+Brachioradialis brings the forearm to the mid-prone position from full pronation or full supination.
 ## correct_answer
 D
 ## main_concept
@@ -60724,7 +60724,7 @@ The medial cutaneous nerve of the forearm arises from the medial cord and is an 
 ## answer_c
 Lateral cutaneous nerve of forearm
 ## explanation_c
-Correct. The name records the change: the nerve is muscular in the arm and cutaneous below it.
+The name records the change: the nerve is muscular in the arm and cutaneous below it.
 ## answer_d
 Medial cutaneous nerve of arm
 ## explanation_d
@@ -60813,7 +60813,7 @@ Extensor carpi radialis brevis is superficial, from the common extensor origin.
 ## answer_c
 Supinator
 ## explanation_c
-Correct. Supinator is the highest of the deep extensor group, wrapped round the upper third of the radius.
+Supinator is the highest of the deep extensor group, wrapped round the upper third of the radius.
 ## answer_d
 Extensor carpi ulnaris
 ## explanation_d
@@ -60894,7 +60894,7 @@ The ﬂexor digitorum profundus, choose correct answer: (DEP BOOK) P Vi a- Recei
 ## answer_a
 Receives double nerve supply.
 ## explanation_a
-Correct. Lateral half median through the anterior interosseous nerve, medial half ulnar — the one muscle in the limb divided between two nerves.
+Lateral half median through the anterior interosseous nerve, medial half ulnar — the one muscle in the limb divided between two nerves.
 ## answer_b
 Inserted into the front of middle phalanx.
 ## explanation_b
@@ -60991,7 +60991,7 @@ The middle finger receives the second dorsal interosseous on its radial side and
 ## answer_c
 Ring
 ## explanation_c
-Correct. The fourth dorsal interosseous passes to the ulnar side of the ring finger, abducting it away from the middle finger.
+The fourth dorsal interosseous passes to the ulnar side of the ring finger, abducting it away from the middle finger.
 ## answer_d
 Little. y
 ## explanation_d
@@ -61084,7 +61084,7 @@ Also ulnar. It is the printed key here and its own name contradicts it.
 ## answer_c
 Radialis indicis artery.
 ## explanation_c
-Correct. The radialis indicis arises with the princeps pollicis from the radial artery in the palm.
+The radialis indicis arises with the princeps pollicis from the radial artery in the palm.
 ## answer_d
 Common interosseous artery.
 ## explanation_d
@@ -61165,7 +61165,7 @@ The following muscle is innervated by the posterior interosseous nerve: Ac P Vi 
 ## answer_a
 Extensor carpi radialis brevis. ad Vi P
 ## explanation_a
-Correct. Extensor carpi radialis brevis takes the deep branch of the radial nerve — the posterior interosseous — while its longer neighbour takes the trunk.
+Extensor carpi radialis brevis takes the deep branch of the radial nerve — the posterior interosseous — while its longer neighbour takes the trunk.
 ## answer_b
 Adductor pollicis
 ## explanation_b
@@ -61258,7 +61258,7 @@ The following muscle is innervated by the posterior interosseous nerve: (2017) A
 ## answer_a
 Extensor carpi radialis brevis.
 ## explanation_a
-Correct. Extensor carpi radialis brevis is posterior interosseous.
+Extensor carpi radialis brevis is posterior interosseous.
 ## answer_b
 Adductor pollicis.
 ## explanation_b
@@ -61359,7 +61359,7 @@ Extensor pollicis longus is likewise deep and posterior interosseous.
 ## answer_d
 Extensor carpi radialis longus.
 ## explanation_d
-Correct. Extensor carpi radialis longus, with brachioradialis and anconeus, takes the radial nerve directly.
+Extensor carpi radialis longus, with brachioradialis and anconeus, takes the radial nerve directly.
 ## correct_answer
 D
 ## main_concept
@@ -61444,7 +61444,7 @@ Abductor pollicis brevis is a thenar muscle in the hand; abductor pollicis longu
 ## answer_c
 Gives origin to the deep ﬂexors of the hand.
 ## explanation_c
-Correct. The deep flexors — flexor pollicis longus and flexor digitorum profundus — arise from the front of the membrane.
+The deep flexors — flexor pollicis longus and flexor digitorum profundus — arise from the front of the membrane.
 ## answer_d
 Pierced by posterior interosseous vessels.
 ## explanation_d
@@ -61533,7 +61533,7 @@ Abductor pollicis longus, not brevis, and from the posterior surface.
 ## answer_c
 Gives origin to the deep ﬂexors of the hand
 ## explanation_c
-Correct. Flexor pollicis longus and flexor digitorum profundus take origin from the anterior surface.
+Flexor pollicis longus and flexor digitorum profundus take origin from the anterior surface.
 ## answer_d
 Pierced by posterior interosseous vessels
 ## explanation_d
@@ -61618,7 +61618,7 @@ The ulnar nerve takes the medial half. It is the printed key here and it names t
 ## answer_b
 Anterior interosseus nerve.
 ## explanation_b
-Correct. The anterior interosseous nerve supplies the lateral half along with flexor pollicis longus and pronator quadratus.
+The anterior interosseous nerve supplies the lateral half along with flexor pollicis longus and pronator quadratus.
 ## answer_c
 Both ulnar and median nerves.
 ## explanation_c
@@ -61707,7 +61707,7 @@ Extensor carpi ulnaris is a posterior compartment muscle on the posterior intero
 ## answer_b
 Abductor pollicis brevis.
 ## explanation_b
-Correct. Abductor pollicis brevis is one of the three thenar muscles supplied by the recurrent branch of the median nerve.
+Abductor pollicis brevis is one of the three thenar muscles supplied by the recurrent branch of the median nerve.
 ## answer_c
 Medial two lumbricals.
 ## explanation_c
@@ -61800,7 +61800,7 @@ The dorsal interossei are ulnar, through the deep branch.
 ## answer_c
 Opponens pollicis.
 ## explanation_c
-Correct. Opponens pollicis is median, and opposition is the movement a median lesion costs.
+Opponens pollicis is median, and opposition is the movement a median lesion costs.
 ## answer_d
 Adductor pollicis muscle.
 ## explanation_d
@@ -61889,7 +61889,7 @@ Flexor carpi radialis arises from the common flexor origin.
 ## answer_c
 Flexor pollicis longus.
 ## explanation_c
-Correct. Flexor pollicis longus arises from the anterior surface of the radius and the adjoining interosseous membrane.
+Flexor pollicis longus arises from the anterior surface of the radius and the adjoining interosseous membrane.
 ## answer_d
 Flexor carpi ulnaris.
 ## explanation_d
@@ -61982,7 +61982,7 @@ Pronator quadratus arises from the ulna and inserts into the radius.
 ## answer_d
 Flexor pollicis longus
 ## explanation_d
-Correct. Flexor pollicis longus takes origin from the anterior surface of the shaft of the radius.
+Flexor pollicis longus takes origin from the anterior surface of the shaft of the radius.
 ## correct_answer
 D
 ## main_concept
@@ -62067,7 +62067,7 @@ Extensor carpi radialis longus is one of the three muscles the radial nerve supp
 ## answer_c
 Extensor indicis
 ## explanation_c
-Correct. Extensor indicis is the lowest of the deep extensor group and takes the posterior interosseous nerve, sharing the fourth compartment of the retinaculum with extensor digitorum.
+Extensor indicis is the lowest of the deep extensor group and takes the posterior interosseous nerve, sharing the fourth compartment of the retinaculum with extensor digitorum.
 ## answer_d
 Brachialis
 ## explanation_d
@@ -62160,7 +62160,7 @@ The superficial arch lies in front of the flexor tendons, immediately deep to th
 ## answer_d
 The deep palmar arch passes between tendons of ﬂexor digitorum profundus and bases of the medial four metacarpal bones.
 ## explanation_d
-Correct. The deep arch runs across the bases of the medial four metacarpal bones, behind the long flexor tendons and behind adductor pollicis — which is what makes it the deeper and the more proximal of the two.
+The deep arch runs across the bases of the medial four metacarpal bones, behind the long flexor tendons and behind adductor pollicis — which is what makes it the deeper and the more proximal of the two.
 ## correct_answer
 D
 ## main_concept
@@ -62241,7 +62241,7 @@ These two are the deep flexors and arise from the front of the membrane. The opt
 ## answer_b
 Extensor indicis.
 ## explanation_b
-Correct. Extensor indicis is one of the deep extensors — with abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus — arising from the back of the membrane and the adjacent bone.
+Extensor indicis is one of the deep extensors — with abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus — arising from the back of the membrane and the adjacent bone.
 ## answer_c
 Pronator quadratus.
 ## explanation_c
@@ -62330,7 +62330,7 @@ A lumbrical arises by one head from a flexor tendon and lies in front of the art
 ## answer_b
 Adductor pollicis.
 ## explanation_b
-Correct. Adductor pollicis has an oblique and a transverse head, and the artery passes between them to become the deep arch.
+Adductor pollicis has an oblique and a transverse head, and the artery passes between them to become the deep arch.
 ## answer_c
 Second dorsal interosseous.
 ## explanation_c
@@ -62419,7 +62419,7 @@ Pronator teres ends halfway down the forearm and presents no tendon at the wrist
 ## answer_b
 Flexor carpi radialis
 ## explanation_b
-Correct. Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis lies laterally, and the artery runs in the groove between them.
+Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis lies laterally, and the artery runs in the groove between them.
 ## answer_d
 Flexor carpi ulnaris
 ## explanation_d
@@ -62508,7 +62508,7 @@ Pronator teres has no tendon at the wrist.
 ## answer_b
 flexor carpi radialis
 ## explanation_b
-Correct. The pulse is felt lateral to flexor carpi radialis, on the front of the lower end of the radius.
+The pulse is felt lateral to flexor carpi radialis, on the front of the lower end of the radius.
 ## answer_c
 palmaris longus
 ## explanation_c
@@ -62597,7 +62597,7 @@ The radial nerve, select the correct statement:
 ## answer_a
 supplies extensors to the elbow
 ## explanation_a
-Correct. All three heads of triceps and anconeus take the radial nerve, which is why elbow extension is tested after a high radial lesion.
+All three heads of triceps and anconeus take the radial nerve, which is why elbow extension is tested after a high radial lesion.
 ## answer_b
 pierces the medial intermuscular septum of the mid arm
 ## explanation_b
@@ -62690,7 +62690,7 @@ The radial nerve, select the correct statement: (IPKA)
 ## answer_a
 Supplies extensors to the elbow
 ## explanation_a
-Correct. Triceps and anconeus are the extensors of the elbow and both are radial.
+Triceps and anconeus are the extensors of the elbow and both are radial.
 ## answer_b
 Pierces the medial intermuscular septum of the mid arm
 ## explanation_b
@@ -62783,7 +62783,7 @@ The articular disc binds the two bones at their lower ends only, as part of the 
 ## answer_b
 Interosseous membrane.
 ## explanation_b
-Correct. The interosseous membrane runs between the interosseous borders of the radius and the ulna for most of their length.
+The interosseous membrane runs between the interosseous borders of the radius and the ulna for most of their length.
 ## answer_c
 Radial collateral ligament.
 ## explanation_c
@@ -62868,7 +62868,7 @@ The structures passing deep to ﬂexor retinaculum include: (2024) Ac em
 ## answer_a
 Tendon of ﬂexor digitorum profundus
 ## explanation_a
-Correct. The four tendons of flexor digitorum profundus pass through the carpal tunnel in the common synovial sheath with the four of superficialis.
+The four tendons of flexor digitorum profundus pass through the carpal tunnel in the common synovial sheath with the four of superficialis.
 ## answer_b
 Ulnar artery
 ## explanation_b
@@ -62961,7 +62961,7 @@ Pronator quadratus is the deepest muscle of the front of the forearm.
 ## answer_b
 Flexor carpi radialis.
 ## explanation_b
-Correct. Flexor carpi radialis arises from the common flexor origin and lies in the superficial group, second from the lateral side.
+Flexor carpi radialis arises from the common flexor origin and lies in the superficial group, second from the lateral side.
 ## answer_c
 Flexor pollicis longus.
 ## explanation_c
@@ -63054,7 +63054,7 @@ The superficial branch carries no motor fibres. It is the printed key here and i
 ## answer_c
 Lies on the lateral side of the radial artery in the forearm.
 ## explanation_c
-Correct. In the middle third of the forearm the superficial radial nerve lies on the lateral side of the radial artery, under cover of brachioradialis.
+In the middle third of the forearm the superficial radial nerve lies on the lateral side of the radial artery, under cover of brachioradialis.
 ## answer_d
 Lies medially in the cubital fossa.
 ## explanation_d
@@ -63143,7 +63143,7 @@ The profundus tendons are with them.
 ## answer_c
 Palmaris longus.
 ## explanation_c
-Correct. Palmaris longus lies on the retinaculum and blends with it and with the palmar aponeurosis beyond.
+Palmaris longus lies on the retinaculum and blends with it and with the palmar aponeurosis beyond.
 ## answer_d
 Flexor carpi radialis.
 ## explanation_d
@@ -63232,7 +63232,7 @@ In the carpal tunnel.
 ## answer_c
 Palmaris longus.
 ## explanation_c
-Correct. Palmaris longus is the most superficial structure at the front of the wrist.
+Palmaris longus is the most superficial structure at the front of the wrist.
 ## answer_d
 Flexor carpi radialis.
 ## explanation_d
@@ -63321,7 +63321,7 @@ The profundus tendons are inside the tunnel.
 ## answer_c
 Palmaris longus tendon
 ## explanation_c
-Correct. Palmaris longus is superficial to the retinaculum, which is why it is visible and palpable when the wrist is flexed against resistance.
+Palmaris longus is superficial to the retinaculum, which is why it is visible and palpable when the wrist is flexed against resistance.
 ## answer_d
 Flexor carpi radialis tendon
 ## explanation_d
@@ -63410,7 +63410,7 @@ The profundus tendons run with them.
 ## answer_c
 Palmaris longus tendon
 ## explanation_c
-Correct. Palmaris longus is the only one of the four that lies on the retinaculum, and it is partly inserted into it.
+Palmaris longus is the only one of the four that lies on the retinaculum, and it is partly inserted into it.
 ## answer_d
 Flexor carpi radialis tendon
 ## explanation_d
@@ -63491,7 +63491,7 @@ The ulnar nerve innervates the following muscle: (2017 - 2016) Ac P Vi a- Extens
 ## answer_b
 Adductor pollicis
 ## explanation_b
-Correct. Adductor pollicis lies in the adductor compartment of the palm and is the muscle in which the deep branch of the ulnar nerve ends.
+Adductor pollicis lies in the adductor compartment of the palm and is the muscle in which the deep branch of the ulnar nerve ends.
 ## answer_c
 Extensor carpi ulnaris
 ## explanation_c
@@ -63592,7 +63592,7 @@ Pronator teres is median.
 ## answer_e
 The medial part of ﬂexor digitorum profundus
 ## explanation_e
-Correct. The medial half of flexor digitorum profundus, to the ring and little fingers, is supplied by the ulnar nerve; the lateral half is anterior interosseous.
+The medial half of flexor digitorum profundus, to the ring and little fingers, is supplied by the ulnar nerve; the lateral half is anterior interosseous.
 ## correct_answer
 E
 ## main_concept
@@ -63681,7 +63681,7 @@ Pronator quadratus is median, through the anterior interosseous nerve.
 ## answer_e
 The medial part of ﬂexor digitorum profundus
 ## explanation_e
-Correct. The medial half of flexor digitorum profundus is ulnar.
+The medial half of flexor digitorum profundus is ulnar.
 ## correct_answer
 E
 ## main_concept
@@ -63774,7 +63774,7 @@ Pronator teres is median.
 ## answer_e
 the medial part of flexor digitorum profundus
 ## explanation_e
-Correct. The medial half of flexor digitorum profundus is the ulnar nerve’s share of that muscle.
+The medial half of flexor digitorum profundus is the ulnar nerve’s share of that muscle.
 ## correct_answer
 E
 ## main_concept
@@ -63851,7 +63851,7 @@ Ulnar nerve enter the forearm between the two heads of the following muscle: (20
 ## answer_a
 Flexor carpi ulnaris.
 ## explanation_a
-Correct. The two heads arise from the medial epicondyle and from the olecranon and posterior border of the ulna, and the nerve passes under the fibrous arch between them.
+The two heads arise from the medial epicondyle and from the olecranon and posterior border of the ulna, and the nerve passes under the fibrous arch between them.
 ## answer_b
 Flexor carpi radialis.
 ## explanation_b
@@ -63940,7 +63940,7 @@ Which muscle does NOT cross the elbow joint?
 ## answer_a
 flexor pollicis longus
 ## explanation_a
-Correct. Flexor pollicis longus arises from the shaft of the radius and the interosseous membrane and has no humeral attachment, so the elbow is above its origin.
+Flexor pollicis longus arises from the shaft of the radius and the interosseous membrane and has no humeral attachment, so the elbow is above its origin.
 ## answer_b
 pronator teres
 ## explanation_b
@@ -64033,7 +64033,7 @@ Which muscle does NOT cross the elbow joint? (IPKA) em em
 ## answer_a
 Flexor pollicis longus
 ## explanation_a
-Correct. Every muscle of the deep flexor group arises below the elbow, which is why they escape a common flexor origin injury.
+Every muscle of the deep flexor group arises below the elbow, which is why they escape a common flexor origin injury.
 ## answer_b
 Pronator teres
 ## explanation_b
@@ -64142,7 +64142,7 @@ Abductor pollicis longus crosses the radial side of the wrist on its way to the 
 ## answer_e
 Palmaris longus.
 ## explanation_e
-Correct, and the answer. Palmaris longus runs down the middle of the forearm to the palmar aponeurosis; a muscle in the midline can flex but cannot pull the hand to either side.
+This is the answer. Palmaris longus runs down the middle of the forearm to the palmar aponeurosis; a muscle in the midline can flex but cannot pull the hand to either side.
 ## correct_answer
 E
 ## main_concept
@@ -64235,7 +64235,7 @@ Crosses the radial side of the wrist and assists abduction.
 ## answer_e
 palmaris longus
 ## explanation_e
-Correct. Palmaris longus lies in the midline and produces pure flexion.
+Palmaris longus lies in the midline and produces pure flexion.
 ## correct_answer
 E
 ## main_concept
@@ -64324,7 +64324,7 @@ The line joining the two epicondyles is the base of the triangle, at the top.
 ## answer_e
 Ulnar nerve
 ## explanation_e
-Correct, and the answer. The ulnar nerve pierces the medial intermuscular septum in the arm to reach the back of the medial epicondyle, well outside the fossa.
+This is the answer. The ulnar nerve pierces the medial intermuscular septum in the arm to reach the back of the medial epicondyle, well outside the fossa.
 ## correct_answer
 E
 ## main_concept
@@ -64417,7 +64417,7 @@ Part of the roof, reinforcing the deep fascia and separating the median cubital 
 ## answer_e
 ulnar nerve
 ## explanation_e
-Correct. The ulnar nerve is behind the medial epicondyle.
+The ulnar nerve is behind the medial epicondyle.
 ## correct_answer
 E
 ## main_concept
@@ -64502,7 +64502,7 @@ Extensor carpi ulnaris arises from the common extensor origin too, by its humera
 ## answer_c
 Abductor pollicis longus
 ## explanation_c
-Correct, and the answer. Abductor pollicis longus is deep and arises entirely from the bones of the forearm and the membrane between them.
+This is the answer. Abductor pollicis longus is deep and arises entirely from the bones of the forearm and the membrane between them.
 ## answer_d
 Supinator. P
 ## explanation_d
@@ -64595,7 +64595,7 @@ From the common extensor origin.
 ## answer_c
 abductor pollicis longus
 ## explanation_c
-Correct. Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane.
+Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane.
 ## answer_d
 supinator
 ## explanation_d
@@ -64680,7 +64680,7 @@ Which of the following is derived from the radial artery? (IPKA)
 ## answer_a
 Dorsal and palmar carpal arteries. P
 ## explanation_a
-Correct. The radial artery gives a palmar carpal branch on the front of the wrist and a dorsal carpal branch in the snuff box, each joining its ulnar fellow to make a carpal arch.
+The radial artery gives a palmar carpal branch on the front of the wrist and a dorsal carpal branch in the snuff box, each joining its ulnar fellow to make a carpal arch.
 ## answer_b
 Common interosseous artery
 ## explanation_b
@@ -64785,7 +64785,7 @@ A radial branch, also given in the spiral groove, supplying the lower lateral pa
 ## answer_d
 Upper lateral cutaneous nerve of the arm.
 ## explanation_d
-Correct, and the answer. The upper lateral cutaneous nerve of the arm is axillary, and it is the patch of skin tested after a shoulder dislocation. The word "upper" is the whole distinction from option C.
+This is the answer. The upper lateral cutaneous nerve of the arm is axillary, and it is the patch of skin tested after a shoulder dislocation. The word "upper" is the whole distinction from option C.
 ## correct_answer
 D
 ## main_concept
@@ -64963,7 +64963,7 @@ The tendons that separate first and lie superficial are those to the middle and 
 ## answer_d
 median nerve passes between its two heads
 ## explanation_d
-Correct. The median nerve enters the forearm between the two heads of pronator teres and then passes between the humero-ulnar and radial heads of flexor digitorum superficialis, descending on the deep surface of the muscle.
+The median nerve enters the forearm between the two heads of pronator teres and then passes between the humero-ulnar and radial heads of flexor digitorum superficialis, descending on the deep surface of the muscle.
 ## correct_answer
 D
 ## main_concept
@@ -65048,7 +65048,7 @@ It rotates the radius. The ulna is the fixed bone of the forearm, which is what 
 ## answer_c
 It forms the floor of the cubital fossa along with the brachioradialis
 ## explanation_c
-The floor of the fossa is brachialis medially and supinator laterally; brachioradialis makes the lateral wall. This is the answer the books print and it substitutes a boundary for a floor.
+The floor of the fossa is brachialis medially and supinator laterally; brachioradialis makes the lateral wall. This is the printed answer, and it substitutes a boundary for a floor.
 ## answer_d
 It supinates the forearm when the forearm is already flexed
 ## explanation_d
@@ -65056,7 +65056,7 @@ Supinator works in all positions of the elbow and is the muscle relied on when t
 ## answer_e
 It rotates the radius to turn the palm anteriorly
 ## explanation_e
-Correct. Supination is rotation of the radius so that the palm faces forwards, and supinator is the muscle named for it.
+Supination is rotation of the radius so that the palm faces forwards, and supinator is the muscle named for it.
 ## correct_answer
 E
 ## main_concept
@@ -65149,7 +65149,7 @@ Supinator acts in any position; biceps is the one that needs flexion.
 ## answer_e
 It rotates the radius to turn the palm anteriorly
 ## explanation_e
-Correct. Supinator rotates the radius laterally so that the palm faces forwards.
+Supinator rotates the radius laterally so that the palm faces forwards.
 ## correct_answer
 E
 ## main_concept
@@ -65238,7 +65238,7 @@ Brachialis is the muscle that shares the floor with supinator. It is the printed
 ## answer_d
 It arises from annular and lateral collateral ligament
 ## explanation_d
-Correct. Supinator arises from four places — the lateral epicondyle, the radial collateral ligament, the anular ligament and the supinator crest and fossa of the ulna — which is what lets it wrap right round the upper radius.
+Supinator arises from four places — the lateral epicondyle, the radial collateral ligament, the anular ligament and the supinator crest and fossa of the ulna — which is what lets it wrap right round the upper radius.
 ## correct_answer
 D
 ## main_concept
@@ -65323,7 +65323,7 @@ Palmaris longus arises from the common flexor origin on the medial epicondyle.
 ## answer_c
 Abductor pollicis longus.
 ## explanation_c
-Correct. Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane between them.
+Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane between them.
 ## answer_d
 Extensor digitorum.
 ## explanation_d
@@ -65408,7 +65408,7 @@ Extensor carpi radialis brevis arises from the common extensor origin on the lat
 ## answer_b
 supinator
 ## explanation_b
-Correct. Supinator’s origin from the radial collateral and anular ligaments is what lets it wrap round the upper third of the radius and rotate it.
+Supinator’s origin from the radial collateral and anular ligaments is what lets it wrap round the upper third of the radius and rotate it.
 ## answer_c
 extensor carpi ulnaris
 ## explanation_c
@@ -65501,7 +65501,7 @@ Extensor digitorum arises from the common extensor origin.
 ## answer_c
 extensor carpi radialis longus
 ## explanation_c
-Correct, and the answer. Extensor carpi radialis longus arises from the lateral supracondylar ridge above the epicondyle, alongside brachioradialis — which is why the two of them share a nerve supply from the radial trunk while the rest of the compartment takes the posterior interosseous nerve.
+This is the answer. Extensor carpi radialis longus arises from the lateral supracondylar ridge above the epicondyle, alongside brachioradialis — which is why the two of them share a nerve supply from the radial trunk while the rest of the compartment takes the posterior interosseous nerve.
 ## answer_d
 extensor digiti minimi
 ## explanation_d
@@ -65590,7 +65590,7 @@ From the common extensor origin. It is the printed key and it is one of the four
 ## answer_c
 Extensor carpi radialis longus. ad Vi P
 ## explanation_c
-Correct. Extensor carpi radialis longus comes from the lateral supracondylar ridge, above the epicondyle.
+Extensor carpi radialis longus comes from the lateral supracondylar ridge, above the epicondyle.
 ## answer_d
 Extensor digiti minimi
 ## explanation_d
@@ -65687,7 +65687,7 @@ Extensor digitorum extends the fingers and, continuing past the wrist, helps ext
 ## answer_d
 Brachioradialis. P
 ## explanation_d
-Correct. Brachioradialis inserts on the lower end of the radius, above the wrist joint, and never crosses it; it flexes the elbow and rotates the forearm to mid-prone, and is the one muscle in the extensor compartment that extends nothing.
+Brachioradialis inserts on the lower end of the radius, above the wrist joint, and never crosses it; it flexes the elbow and rotates the forearm to mid-prone, and is the one muscle in the extensor compartment that extends nothing.
 ## correct_answer
 D
 ## main_concept
@@ -65764,7 +65764,7 @@ One of the following muscles cannot perform flexion shah
 ## answer_a
 Pronator quadratus.
 ## explanation_a
-Correct. Pronator quadratus lies in the flexor compartment and is supplied by the anterior interosseous branch of the median nerve like the rest of the deep group, but its fibres run transversely from ulna to radius. A transverse pull can only rotate; it cannot bend a joint, and pronator quadratus crosses none.
+Pronator quadratus lies in the flexor compartment and is supplied by the anterior interosseous branch of the median nerve like the rest of the deep group, but its fibres run transversely from ulna to radius. A transverse pull can only rotate; it cannot bend a joint, and pronator quadratus crosses none.
 ## answer_b
 Flexor pollicis longus.
 ## explanation_b
@@ -65861,7 +65861,7 @@ Stopping at puberty is exactly backwards: puberty is when spermatogenesis begins
 ## answer_c
 Starts at puberty and continues till old. age
 ## explanation_c
-Correct. Spermatogenesis starts at puberty and continues into old age, without the arrest that interrupts the female schedule.
+Spermatogenesis starts at puberty and continues into old age, without the arrest that interrupts the female schedule.
 ## answer_d
 Starts at old age and continues till death
 ## explanation_d
@@ -65954,7 +65954,7 @@ Ending at puberty would mean a woman had no oocytes left to ovulate. Puberty is 
 ## answer_d
 Starts in the intra-uterine life, then arrested to be continued at puberty
 ## explanation_d
-Correct. Oogenesis begins in intrauterine life, is arrested, and resumes at puberty to continue through the ovarian cycles until the menopause.
+Oogenesis begins in intrauterine life, is arrested, and resumes at puberty to continue through the ovarian cycles until the menopause.
 ## correct_answer
 D
 ## main_concept
@@ -66043,7 +66043,7 @@ The sperm shed most of their cytoplasm during spermiogenesis, in the testis, lon
 ## answer_d
 Removal of glycoprotein coat from the head of the sperm
 ## explanation_d
-Correct. Capacitation is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm head, and it takes about seven hours.
+Capacitation is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm head, and it takes about seven hours.
 ## correct_answer
 D
 ## main_concept
@@ -66132,7 +66132,7 @@ Opening the cell membrane of the oocyte is Phase III, the last of the three.
 ## answer_d
 Penetration of zona pellucida
 ## explanation_d
-Correct. Phase II is penetration of the zona pellucida — the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through it.
+Phase II is penetration of the zona pellucida — the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through it.
 ## correct_answer
 D
 ## main_concept
@@ -66217,7 +66217,7 @@ Capacitation is the preparation that precedes Phase I; it is not numbered among 
 ## answer_c
 Penetration of cell membrane of ovum
 ## explanation_c
-Correct. Phase III is the fusion and opening of the cell membranes of sperm and oocyte, letting the sperm nucleus, mitochondrial sheath and axial filament into the cytoplasm.
+Phase III is the fusion and opening of the cell membranes of sperm and oocyte, letting the sperm nucleus, mitochondrial sheath and axial filament into the cytoplasm.
 ## answer_d
 Penetration of zona pellucida
 ## explanation_d
@@ -66306,7 +66306,7 @@ During zona penetration is one step too early for the same reason: several sperm
 ## answer_c
 After entrance of the sperm to the cytoplasm of the ovum
 ## explanation_c
-Correct. The cortical granules release their lysosomal enzymes once the sperm has entered the oocyte cytoplasm, and those enzymes alter the zona receptors and harden the zona and cell membrane against any further sperm.
+The cortical granules release their lysosomal enzymes once the sperm has entered the oocyte cytoplasm, and those enzymes alter the zona receptors and harden the zona and cell membrane against any further sperm.
 ## answer_d
 After formation of the zygote
 ## explanation_d
@@ -66391,7 +66391,7 @@ That is Phase II, the sperm's acrosomal reaction. The zona reaction is the ovum'
 ## answer_b
 Occurs by release of lysosomal enzymes from cortical granules of the ovum
 ## explanation_b
-Correct. The zona reaction is the release of lysosomal enzymes from the cortical granules lying beneath the oocyte cell membrane; those enzymes change the sperm receptors of the zona so that no further sperm is attracted or admitted.
+The zona reaction is the release of lysosomal enzymes from the cortical granules lying beneath the oocyte cell membrane; those enzymes change the sperm receptors of the zona so that no further sperm is attracted or admitted.
 ## answer_c
 Occurs after capacitation of the sperms
 ## explanation_c
@@ -66476,7 +66476,7 @@ Sperm receptors are present on
 ## answer_a
 Zona pellucida
 ## explanation_a
-Correct. The zona pellucida is the glycoprotein coat around the oocyte cell membrane, and it carries the sperm receptors.
+The zona pellucida is the glycoprotein coat around the oocyte cell membrane, and it carries the sperm receptors.
 ## answer_b
 Corona radiata
 ## explanation_b
@@ -66569,7 +66569,7 @@ The acrosomal cap carries hyaluronidase and acrosin, which dissolve a path throu
 ## answer_b
 Mitochondrial sheath and tail
 ## explanation_b
-Correct. The mitochondrial sheath of the middle piece supplies the energy and the tail, an axial filament, does the beating; movement needs both.
+The mitochondrial sheath of the middle piece supplies the energy and the tail, an axial filament, does the beating; movement needs both.
 ## answer_c
 Head and mitochondrial sheath
 ## explanation_c
@@ -66654,7 +66654,7 @@ One of the following parts of sperm is responsible for production of energy
 ## answer_a
 Mitochondrial sheath
 ## explanation_a
-Correct. The mitochondrial sheath wraps the proximal part of the axial filament in the middle piece and is the source of the energy for sperm motility.
+The mitochondrial sheath wraps the proximal part of the axial filament in the middle piece and is the source of the energy for sperm motility.
 ## answer_b
 Nucleus
 ## explanation_b
@@ -66751,7 +66751,7 @@ The cell membrane is the innermost of the three, in contact with the oocyte cyto
 ## answer_c
 Corona radiata
 ## explanation_c
-Correct. The corona radiata is the outermost covering, formed of follicular cells stuck to one another by hyaluronic acid — which is why the sperm's hyaluronidase is what disperses it.
+The corona radiata is the outermost covering, formed of follicular cells stuck to one another by hyaluronic acid — which is why the sperm's hyaluronidase is what disperses it.
 ## answer_d
 Nuclear membrane. 7
 ## explanation_d
@@ -66933,7 +66933,7 @@ The uterine tube is ciliated. Its cilia move the contents past a stationary cell
 ## answer_d
 sperm
 ## explanation_d
-Correct. The sperm is the only human cell with a flagellum, and its single long tail is what propels the cell itself.
+The sperm is the only human cell with a flagellum, and its single long tail is what propels the cell itself.
 ## correct_answer
 D
 ## main_concept
@@ -67010,7 +67010,7 @@ During which stage of first meiotic division does crossing-over occur?
 ## answer_a
 prophase
 ## explanation_a
-Correct. Crossing-over happens in prophase of the first meiotic division — at pachytene, once the homologous chromosomes have paired and each is already split into two chromatids, so that segments can be exchanged between the non-sister chromatids at the chiasmata.
+Crossing-over happens in prophase of the first meiotic division — at pachytene, once the homologous chromosomes have paired and each is already split into two chromatids, so that segments can be exchanged between the non-sister chromatids at the chiasmata.
 ## answer_b
 Metaphase
 ## explanation_b
@@ -67111,7 +67111,7 @@ Tubular and alveolar are alternatives, not companions: the secretory unit here i
 ## answer_d
 Have branched secretory part
 ## explanation_d
-Correct. Simple fixes the duct as unbranched and tubular fixes the secretory unit as a tube, so the only structure left for "branched" to describe is the secretory portion.
+Simple fixes the duct as unbranched and tubular fixes the secretory unit as a tube, so the only structure left for "branched" to describe is the secretory portion.
 ## correct_answer
 D
 ## main_concept
@@ -67196,7 +67196,7 @@ Diffusion into the blood is what an endocrine gland does, and it is precisely wh
 ## answer_c
 Discharge their secretion via ducts
 ## explanation_c
-Correct. An exocrine gland has a secretory portion that makes the secretion and an excretory portion — the ducts — that carries it outside the gland.
+An exocrine gland has a secretory portion that makes the secretion and an excretory portion — the ducts — that carries it outside the gland.
 ## answer_d
 Secretes hormones
 ## explanation_d
@@ -67277,7 +67277,7 @@ Myo-epithelial cells are:
 ## answer_a
 Present around acini of salivary glands
 ## explanation_a
-Correct. The salivary gland is exocrine, so it has ducts, and its acini are wrapped by myo-epithelial cells whose contraction drives the secretion into them. The mammary and sweat glands are the book's other two examples.
+The salivary gland is exocrine, so it has ducts, and its acini are wrapped by myo-epithelial cells whose contraction drives the secretion into them. The mammary and sweat glands are two more examples.
 ## answer_b
 Found in thyroid gland
 ## explanation_b
@@ -67285,7 +67285,7 @@ The thyroid is a ductless endocrine gland. Its follicular cells release their ho
 ## answer_c
 Found in pancreas
 ## explanation_c
-The pancreas is the trap, because it is a mixed gland and its exocrine half really does have acini and ducts. The book's stated sites are the salivary, mammary and sweat glands, and it does not extend them to the pancreas.
+The pancreas is the trap, because it is a mixed gland and its exocrine half really does have acini and ducts. The stated sites are the salivary, mammary and sweat glands, and it does not extend them to the pancreas.
 ## answer_d
 Modified type of epithelium which act as a receptor
 ## explanation_d
@@ -67370,7 +67370,7 @@ Compound needs a branching duct. The sebaceous gland empties by a single short d
 ## answer_b
 Simple branched alveolar gland
 ## explanation_b
-Correct. A single unbranched duct makes it simple, several rounded secretory units off that one duct make it branched, and the rounded shape makes it alveolar.
+A single unbranched duct makes it simple, several rounded secretory units off that one duct make it branched, and the rounded shape makes it alveolar.
 ## answer_c
 Branched tubular
 ## explanation_c
@@ -67463,7 +67463,7 @@ Intestinal crypts are simple tubular — straight unbranched tubes opening on th
 ## answer_c
 Salivary glands
 ## explanation_c
-Correct. The salivary glands have a duct system that branches like a tree, and flask-shaped secretory units, which is what tubulo-alveolar names.
+The salivary glands have a duct system that branches like a tree, and flask-shaped secretory units, which is what tubulo-alveolar names.
 ## answer_d
 Fundus of stomach
 ## explanation_d
@@ -67544,7 +67544,7 @@ According to the mode of secretion the exocrine glands classified into:
 ## answer_a
 Apocrine, holocrine and merocrine glands
 ## explanation_a
-Correct. Mode of secretion asks how much of the cell goes with the product, and the three answers are apocrine, holocrine and merocrine.
+Mode of secretion asks how much of the cell goes with the product, and the three answers are apocrine, holocrine and merocrine.
 ## answer_b
 Mucous, serous and mucoserous glands
 ## explanation_b
@@ -67556,7 +67556,7 @@ Simple, branched and compound classify the duct, which is a question about the g
 ## answer_d
 Alveolar, tubular and tubuloalveolar glands
 ## explanation_d
-Alveolar, tubular and tubuloalveolar classify the shape of the secretory part. The book has five criteria and this question names one of them; picking the wrong list is the standard error.
+Alveolar, tubular and tubuloalveolar classify the shape of the secretory part. There are five criteria and this question names one of them; picking the wrong list is the standard error.
 ## correct_answer
 A
 ## main_concept
@@ -67645,7 +67645,7 @@ Transitional and pseudostratified are two types of *surface* epithelium, so both
 ## answer_d
 covering and secretory epithelium
 ## explanation_d
-Correct as this book puts it — covering epithelium and secretory epithelium. Note that the department book itself recognises four classes, adding neuro-epithelium and myo-epithelium to these two; a question offering only two is using the coarser split.
+Covering epithelium and secretory epithelium. Four classes are recognised overall, adding neuro-epithelium and myo-epithelium to these two; a question offering only two is using the coarser split.
 ## correct_answer
 D
 ## main_concept
@@ -67730,7 +67730,7 @@ True, so not the exception. The name describes the shape — a narrow base and a
 ## answer_c
 Multicellular gland
 ## explanation_c
-The exception, and the answer. Picked by students who count the cells around it rather than the cells doing the secreting. A goblet cell is the book's example of a unicellular gland.
+The exception, and the answer. Picked by students who count the cells around it rather than the cells doing the secreting. A goblet cell is an example of a unicellular gland.
 ## answer_d
 Present in the respiratory tract
 ## explanation_d
@@ -67823,7 +67823,7 @@ The sebaceous gland is holocrine: the whole cell disintegrates and becomes the s
 ## answer_d
 Lactating mammary gland
 ## explanation_d
-Correct. The lactating mammary gland releases its lipid droplets wrapped in a piece of the apical cytoplasm, which is what apocrine means.
+The lactating mammary gland releases its lipid droplets wrapped in a piece of the apical cytoplasm, which is what apocrine means.
 ## correct_answer
 D
 ## main_concept
@@ -67912,7 +67912,7 @@ The prostate is compound tubulo-alveolar as well. It is chosen by students who k
 ## answer_d
 Kidney
 ## explanation_d
-Correct. The kidney is the book's compound tubular example: a branching duct tree whose secretory units are tubes rather than rounded acini.
+The kidney is a compound tubular example: a branching duct tree whose secretory units are tubes rather than rounded acini.
 ## correct_answer
 D
 ## main_concept
@@ -67989,7 +67989,7 @@ Concerning the classification of the exocrine glands the term”simple” refers
 ## answer_a
 Its duct is not branching
 ## explanation_a
-Correct. Simple means the duct does not branch. It says nothing about how many secretory units hang off it — a simple branched gland has several.
+Simple means the duct does not branch. It says nothing about how many secretory units hang off it — a simple branched gland has several.
 ## answer_b
 Its secretory part is one unit
 ## explanation_b
@@ -68078,7 +68078,7 @@ Concerning the exocrine glands the term “compound” refers to:
 ## answer_a
 Its duct is branching
 ## explanation_a
-Correct. Compound means the duct branches like a tree, with each branch carrying its own secretory part.
+Compound means the duct branches like a tree, with each branch carrying its own secretory part.
 ## answer_b
 Its secretory part is branching
 ## explanation_b
@@ -68175,7 +68175,7 @@ The number of secretory units is not what tubular describes; a gland can have on
 ## answer_c
 Its secretory part is tubular
 ## explanation_c
-Correct. Tubular means the secretory unit is a tube, as against rounded (alveolar) or flask-shaped (tubulo-alveolar).
+Tubular means the secretory unit is a tube, as against rounded (alveolar) or flask-shaped (tubulo-alveolar).
 ## answer_d
 Its secretory part is alveolar
 ## explanation_d
@@ -68256,15 +68256,15 @@ Concerning the myoepithelial cells all the statements are true EXCEPT:
 ## answer_a
 They are spindle shaped cells
 ## explanation_a
-Treat as true, so not the exception. The question books describe myo-epithelial cells as spindle-shaped and basket-like around the acinus; the department book gives no shape, so this is not sourced to it.
+Treat as true, so not the exception. The question books describe myo-epithelial cells as spindle-shaped and basket-like around the acinus; no shape is specified in the core text, so this claim is not fully sourced.
 ## answer_b
 They contain actin and myosin
 ## explanation_b
-Treat as true, so not the exception. Contractile proteins are what let the cell squeeze, though again the department book states only that the cell contracts and does not name actin and myosin.
+Treat as true, so not the exception. Contractile proteins are what let the cell squeeze, though the core text states only that the cell contracts, without naming actin and myosin.
 ## answer_c
 They can contract
 ## explanation_c
-True, so not the exception, and it is the one thing the department book does state — myo-epithelium is epithelium modified to contract.
+True, so not the exception, and it is the one point stated outright — myo-epithelium is epithelium modified to contract.
 ## answer_d
 They are related to the endocrine glands
 ## explanation_d
@@ -68353,7 +68353,7 @@ Alveolar means a rounded secretory unit. The fundic gland is a tube running down
 ## answer_c
 Simple branched tubular glands
 ## explanation_c
-Correct. The duct does not branch, so it is simple; the secretory portion divides at its base into several tubes, so it is branched; and the units are tubes, so it is tubular.
+The duct does not branch, so it is simple; the secretory portion divides at its base into several tubes, so it is branched; and the units are tubes, so it is tubular.
 ## answer_d
 Compound tubular glands
 ## explanation_d
@@ -68434,11 +68434,11 @@ Glands are classified according to the presence or absence of ducts into:
 ## answer_a
 exocrine, endocrine or mixed glands
 ## explanation_a
-Correct. A duct makes a gland exocrine, no duct makes it endocrine, and having both parts makes it mixed.
+A duct makes a gland exocrine, no duct makes it endocrine, and having both parts makes it mixed.
 ## answer_b
 serous and mucous glands
 ## explanation_b
-Serous and mucous classify the nature of the secretion, which is a different one of the book's five criteria.
+Serous and mucous classify the nature of the secretion, which is a different one of the five criteria.
 ## answer_c
 unicellular and multi-cellular glands
 ## explanation_c
@@ -68523,7 +68523,7 @@ glands that lose their upper portion of cytoplasm during secretion:
 ## answer_a
 apocrine
 ## explanation_a
-Correct. Apocrine secretion is released together with the apex of the cell, so a piece of apical cytoplasm goes with the product.
+Apocrine secretion is released together with the apex of the cell, so a piece of apical cytoplasm goes with the product.
 ## answer_b
 merocrine
 ## explanation_b
@@ -68535,7 +68535,7 @@ Holocrine costs the cell everything. Losing the upper portion is the middle rung
 ## answer_d
 autocrine
 ## explanation_d
-Autocrine describes a cell that acts on itself, which is a signalling term and not one of the book's three modes of secretion.
+Autocrine describes a cell that acts on itself, which is a signalling term and not one of the three modes of secretion.
 ## correct_answer
 A
 ## main_concept
@@ -68616,7 +68616,7 @@ Simple is the opposite: a duct that does not branch.
 ## answer_b
 compound
 ## explanation_b
-Correct. A branching duct tree is what compound means.
+A branching duct tree is what compound means.
 ## answer_c
 branched
 ## explanation_c
@@ -68713,7 +68713,7 @@ Destruction of the whole cell is holocrine. This is the same swap as B, one rung
 ## answer_d
 Holocrine where all the cell is destroyed during secretion
 ## explanation_d
-Correct. Holocrine secretion accumulates in the cell until the swollen cell ruptures and the whole cell is lost with the product.
+Holocrine secretion accumulates in the cell until the swollen cell ruptures and the whole cell is lost with the product.
 ## correct_answer
 D
 ## main_concept
@@ -68887,7 +68887,7 @@ The salivary gland is merocrine — the standard example of the mode that costs 
 ## answer_c
 Sebaceous gland
 ## explanation_c
-Correct. Sebum is disintegrated sebaceous cells: the cell fills with lipid, swells, ruptures and becomes the secretion.
+Sebum is disintegrated sebaceous cells: the cell fills with lipid, swells, ruptures and becomes the secretion.
 ## answer_d
 Lactating mammary gland
 ## explanation_d
@@ -68972,7 +68972,7 @@ Modes of secretion are a classification of *exocrine* glands. An endocrine gland
 ## answer_b
 Destruction of the whole cell
 ## explanation_b
-Correct. The product accumulates, the swollen cell ruptures, and the whole cell is lost with the secretion.
+The product accumulates, the swollen cell ruptures, and the whole cell is lost with the secretion.
 ## answer_c
 Destruction of apical parts of cell
 ## explanation_c
@@ -69061,7 +69061,7 @@ Merocrine secretion leaves the cell intact; nothing of the cytoplasm goes with t
 ## answer_b
 apocrine gland
 ## explanation_b
-Correct. Apocrine means the apex goes with the secretion, which is exactly what the stem describes.
+Apocrine means the apex goes with the secretion, which is exactly what the stem describes.
 ## answer_c
 holocrine gland
 ## explanation_c
@@ -69154,11 +69154,11 @@ Merocrine costs the cell nothing at all — the far end of the ladder from this 
 ## answer_c
 holocrine
 ## explanation_c
-Correct. Entire cells breaking down to become the product is the definition of holocrine secretion.
+Entire cells breaking down to become the product is the definition of holocrine secretion.
 ## answer_d
 autocrine
 ## explanation_d
-Autocrine is a signalling term for a cell acting on itself and is not one of the book's three modes.
+Autocrine is a signalling term for a cell acting on itself and is not one of the three modes.
 ## correct_answer
 C
 ## main_concept
@@ -69235,7 +69235,7 @@ Intestinal glands are considered as:
 ## answer_a
 Simple tubular glands
 ## explanation_a
-Correct. The intestinal crypt is a straight unbranched tube opening on the surface — simple duct, tubular secretory part, no branching.
+The intestinal crypt is a straight unbranched tube opening on the surface — simple duct, tubular secretory part, no branching.
 ## answer_b
 Simple branched tubular
 ## explanation_b
@@ -69324,11 +69324,11 @@ Merocrine gland is :
 ## answer_a
 Goblet cell
 ## explanation_a
-The goblet cell is in fact merocrine as well, which makes this option arguable rather than plainly wrong. The salivary gland is the example the books intend, and the one that appears in the answer key.
+The goblet cell is in fact merocrine as well, which makes this option arguable rather than plainly wrong. The salivary gland is the intended example, and the one that appears in the answer key.
 ## answer_b
 Salivary gland
 ## explanation_b
-Correct. The salivary gland discharges its secretion by exocytosis with no change in the secretory cell, which is merocrine and the commonest mode.
+The salivary gland discharges its secretion by exocytosis with no change in the secretory cell, which is merocrine and the commonest mode.
 ## answer_c
 Sebaceous gland
 ## explanation_c
@@ -69413,7 +69413,7 @@ Mixed gland is a mixture of:
 ## answer_a
 Endocrine and exocrine glands
 ## explanation_a
-Correct. A mixed gland has an exocrine part with a duct system and an endocrine part without, the pancreas being the example.
+A mixed gland has an exocrine part with a duct system and an endocrine part without, the pancreas being the example.
 ## answer_b
 Simple and compound glands
 ## explanation_b
@@ -69506,7 +69506,7 @@ Surface epithelium covers surfaces and lines cavities. Some of its cells secrete
 ## answer_b
 glandular
 ## explanation_b
-Correct. Glandular epithelium is by definition epithelium modified to act as a gland and produce secretion.
+Glandular epithelium is by definition epithelium modified to act as a gland and produce secretion.
 ## answer_c
 neuro-epithelium
 ## explanation_c
@@ -69595,7 +69595,7 @@ Apocrine costs the cell its apex, so there is a change in the secretory cell —
 ## answer_b
 merocrine
 ## explanation_b
-Correct. Merocrine secretion is discharged by exocytosis with no change in the cell, and the book names it the most common mode.
+Merocrine secretion is discharged by exocytosis with no change in the cell, and it is the most common mode.
 ## answer_c
 holocrine
 ## explanation_c
@@ -69684,7 +69684,7 @@ Sebaceous glands are holocrine — the whole cell becomes sebum.
 ## answer_b
 Mammary gland
 ## explanation_b
-Correct. The mammary gland releases milk fat wrapped in the apex of the cell, which is apocrine.
+The mammary gland releases milk fat wrapped in the apex of the cell, which is apocrine.
 ## answer_c
 Salivary gland
 ## explanation_c
@@ -69773,7 +69773,7 @@ Mucous is the sublingual gland's predominant character, not the parotid's. A muc
 ## answer_b
 Serous secreting gland
 ## explanation_b
-Correct. The parotid is purely serous — a watery secretion containing enzymes, which is what serous means in this classification.
+The parotid is purely serous — a watery secretion containing enzymes, which is what serous means in this classification.
 ## answer_c
 Mucoserous secreting gland
 ## explanation_c
@@ -69781,7 +69781,7 @@ Mucoserous is the submandibular gland, which has both cell types. Chosen by stud
 ## answer_d
 Unicellular secreting gland
 ## explanation_d
-Unicellular is a classification by cell number and would make the parotid a single cell. The only unicellular gland the book names is the goblet cell.
+Unicellular is a classification by cell number and would make the parotid a single cell. The only unicellular gland here is the goblet cell.
 ## correct_answer
 B
 ## main_concept
@@ -69858,7 +69858,7 @@ Salivary glands are considered as:
 ## answer_a
 Merocrine glands
 ## explanation_a
-Correct. Salivary secretion leaves by exocytosis with no change in the secretory cell, which is merocrine — and merocrine is the commonest mode.
+Salivary secretion leaves by exocytosis with no change in the secretory cell, which is merocrine — and merocrine is the commonest mode.
 ## answer_b
 Holocrine glands
 ## explanation_b
@@ -69959,7 +69959,7 @@ True, but not the whole answer. It secretes by exocytosis without losing any of 
 ## answer_d
 Both a & c
 ## explanation_d
-Correct. The criteria are independent, and the same gland is exocrine under one and merocrine under another. A student who stops at the first true option has answered half the question.
+The criteria are independent, and the same gland is exocrine under one and merocrine under another. A student who stops at the first true option has answered half the question.
 ## correct_answer
 D
 ## main_concept
@@ -70044,7 +70044,7 @@ Merocrine loses nothing; the cell is unchanged by secreting.
 ## answer_c
 holocrine
 ## explanation_c
-Correct. In holocrine secretion the swollen cell ruptures and the whole cell goes out with the product.
+In holocrine secretion the swollen cell ruptures and the whole cell goes out with the product.
 ## answer_d
 none of the above
 ## explanation_d
@@ -70125,7 +70125,7 @@ secretion is come out with apex of cell:
 ## answer_a
 apocrine
 ## explanation_a
-Correct. Apocrine secretion is released together with the apex of the cell.
+Apocrine secretion is released together with the apex of the cell.
 ## answer_b
 merocrine
 ## explanation_b
@@ -70214,7 +70214,7 @@ single duct with non-branching secretory cell:
 ## answer_a
 simple non branched
 ## explanation_a
-Correct. One unbranched duct makes it simple, and a secretory part that does not divide makes it non-branched.
+One unbranched duct makes it simple, and a secretory part that does not divide makes it non-branched.
 ## answer_b
 compound
 ## explanation_b
@@ -70303,7 +70303,7 @@ the gland which releases its secretion by exocytosis without change is classifie
 ## answer_a
 merocrine gland
 ## explanation_a
-Correct. Merocrine secretion is discharged by exocytosis with no change in the secretory cell.
+Merocrine secretion is discharged by exocytosis with no change in the secretory cell.
 ## answer_b
 apocrine gland
 ## explanation_b
@@ -70315,7 +70315,7 @@ Holocrine loses the whole cell.
 ## answer_d
 eccrine gland
 ## explanation_d
-Eccrine is not one of the three modes this book recognises. Where a question book uses it, it means merocrine — which is why this option is the hardest of the four to dismiss, and why it is worth knowing the department book's list is three long.
+Eccrine is not one of the three recognised modes. Where a question book uses it, it means merocrine — which is why this option is the hardest of the four to dismiss, and why it is worth knowing the recognised list is three long.
 ## correct_answer
 A
 ## main_concept
@@ -70392,11 +70392,11 @@ The most common type of secretion of exocrine cells is:
 ## answer_a
 All possible types of secretion are roughly equally
 ## explanation_a
-The book is explicit that one mode predominates, so an even split is not the answer. It is chosen when the fact was never learnt and the option sounds cautious.
+One mode predominates, so an even split is not the answer. It is chosen when the fact was never learnt and the option sounds cautious.
 ## answer_b
 Merocrine secretion
 ## explanation_b
-Correct. Merocrine is stated to be the most common mode, which fits: it is the only one that costs the cell nothing and can therefore be repeated indefinitely.
+Merocrine is stated to be the most common mode, which fits: it is the only one that costs the cell nothing and can therefore be repeated indefinitely.
 ## answer_c
 Holocrine secretion
 ## explanation_c
@@ -70485,7 +70485,7 @@ Delivery onto a surface is exocrine, and the skin is where several exocrine glan
 ## answer_b
 into the bloodstream
 ## explanation_b
-Correct. An endocrine gland is ductless; its hormone passes into the blood capillaries beside the secretory cells and is carried to distant parts of the body.
+An endocrine gland is ductless; its hormone passes into the blood capillaries beside the secretory cells and is carried to distant parts of the body.
 ## answer_c
 into a gland duct
 ## explanation_c
@@ -70574,7 +70574,7 @@ Merocrine cells lose no cytoplasm at all.
 ## answer_b
 Apocrine
 ## explanation_b
-Correct. Losing part of the cytoplasm — the apex — with the product is apocrine.
+Losing part of the cytoplasm — the apex — with the product is apocrine.
 ## answer_c
 Holocrine
 ## explanation_c
@@ -70582,7 +70582,7 @@ Holocrine cells lose all of their cytoplasm, along with everything else.
 ## answer_d
 Cytocrine
 ## explanation_d
-Cytocrine is not one of the book's modes. It is a real term for pigment transfer from melanocyte to keratinocyte, and here it functions purely as a plausible-sounding fourth "-crine".
+Cytocrine is not one of the three modes. It is a real term for pigment transfer from melanocyte to keratinocyte, and here it functions purely as a plausible-sounding fourth "-crine".
 ## correct_answer
 B
 ## main_concept
@@ -70667,7 +70667,7 @@ Apocrine expels the apex of the cell along with the product, which is part of th
 ## answer_c
 Holocrine
 ## explanation_c
-Correct. When the cell itself is the secretory product, the mode is holocrine.
+When the cell itself is the secretory product, the mode is holocrine.
 ## answer_d
 Cytocrine
 ## explanation_d
@@ -70756,7 +70756,7 @@ Apocrine eliminates the apical part of a cell, not the complete cell.
 ## answer_c
 Holocrine
 ## explanation_c
-Correct. Holocrine glands lose the entire cell with the secretion, and replace it from a basal reserve.
+Holocrine glands lose the entire cell with the secretion, and replace it from a basal reserve.
 ## answer_d
 Endocrine
 ## explanation_d
@@ -70845,7 +70845,7 @@ The salivary gland is purely exocrine, and "mixed" is being read here in its oth
 ## answer_c
 Pancreas
 ## explanation_c
-Correct. The pancreas has exocrine acini draining through a duct system and endocrine islets releasing insulin and glucagon into the blood, which is the definition of a mixed gland.
+The pancreas has exocrine acini draining through a duct system and endocrine islets releasing insulin and glucagon into the blood, which is the definition of a mixed gland.
 ## answer_d
 None of the above
 ## explanation_d
@@ -70934,7 +70934,7 @@ No change in the secretory cell is merocrine, where the product leaves by exocyt
 ## answer_c
 Secretion comes out with apex of the cell.
 ## explanation_c
-Correct. In apocrine secretion the apical part of the cytoplasm is pinched off and leaves with the product — the prefix apo-, meaning off or away, is the whole definition.
+In apocrine secretion the apical part of the cytoplasm is pinched off and leaves with the product — the prefix apo-, meaning off or away, is the whole definition.
 ## answer_d
 The whole cell is lost with secretion.
 ## explanation_d
@@ -71019,7 +71019,7 @@ This inverts the naming. A branched duct makes the gland compound, and the word 
 ## answer_b
 Duct is not branched but secretory part is branched.
 ## explanation_b
-Correct. "Simple" fixes the duct as unbranched and "branched" then has only the secretory portion left to describe.
+"Simple" fixes the duct as unbranched and "branched" then has only the secretory portion left to describe.
 ## answer_c
 Duct and secretory part are not branched.
 ## explanation_c
@@ -71116,7 +71116,7 @@ The apical part leaving with the secretion is apocrine. The three modes are one 
 ## answer_d
 No change occurs in the secretory cell.
 ## explanation_d
-Correct. In merocrine secretion the product leaves by exocytosis, the vesicle membrane fuses with the cell membrane and is recovered, and the cell is unchanged — which is why it can secrete indefinitely.
+In merocrine secretion the product leaves by exocytosis, the vesicle membrane fuses with the cell membrane and is recovered, and the cell is unchanged — which is why it can secrete indefinitely.
 ## correct_answer
 d
 ## main_concept
@@ -71193,7 +71193,7 @@ basophil membrane contain receptor for
 ## answer_a
 IgA
 ## explanation_a
-IgA is the immunoglobulin of secretions — tears, saliva, gut and respiratory mucus. Nothing in the book puts a receptor for it on the basophil.
+IgA is the immunoglobulin of secretions — tears, saliva, gut and respiratory mucus. Nothing puts a receptor for it on the basophil.
 ## answer_b
 IgG
 ## explanation_b
@@ -71201,7 +71201,7 @@ IgG is the commonest circulating immunoglobulin and the one that crosses the pla
 ## answer_c
 IgE
 ## explanation_c
-Correct. The book states the basophil membrane shows receptors for IgE, which is what makes the cell degranulate on a second exposure to an allergen.
+The basophil membrane shows receptors for IgE, which is what makes the cell degranulate on a second exposure to an allergen.
 ## answer_d
 IgM
 ## explanation_d
@@ -71282,7 +71282,7 @@ Percent of Neutrophils
 ## answer_a
 60 – 70
 ## explanation_a
-Correct. 60–70%, which makes the neutrophil the commonest leukocyte. The book also gives the thresholds either side: neutrophilia above 75%, neutropenia below 60%.
+60–70%, which makes the neutrophil the commonest leukocyte. The thresholds either side are: neutrophilia above 75%, neutropenia below 60%.
 ## answer_b
 1-4
 ## explanation_b
@@ -71375,7 +71375,7 @@ The neutrophil’s granules hold myeloperoxidase in the azurophil population and
 ## answer_b
 eosinophil
 ## explanation_b
-Correct. Histaminase and sulphatase are what the eosinophil uses to destroy histamine and heparin and so terminate an allergic reaction; the granule’s basic protein is the cytotoxic agent against parasites.
+Histaminase and sulphatase are what the eosinophil uses to destroy histamine and heparin and so terminate an allergic reaction; the granule’s basic protein is the cytotoxic agent against parasites.
 ## answer_c
 basophil
 ## explanation_c
@@ -71468,7 +71468,7 @@ The eosinophil holds histamin*ase*, the enzyme that destroys histamine — the o
 ## answer_c
 basophil
 ## explanation_c
-Correct. Histamine and heparin are the basophil’s, and it is the heparin that makes the granules stain metachromatically with toluidine blue.
+Histamine and heparin are the basophil’s, and it is the heparin that makes the granules stain metachromatically with toluidine blue.
 ## answer_d
 lymphocyte
 ## explanation_d
@@ -71553,7 +71553,7 @@ Neutrophils release lactoferrin, phagocytin, lysozyme and collagenase — antiba
 ## answer_b
 eosinophils
 ## explanation_b
-Correct. The eosinophil secretes histaminase and sulphatase to destroy histamine and heparin, which is how it terminates an allergic reaction.
+The eosinophil secretes histaminase and sulphatase to destroy histamine and heparin, which is how it terminates an allergic reaction.
 ## answer_c
 plasma cells
 ## explanation_c
@@ -71650,7 +71650,7 @@ Plasma cells secrete antibody, not vasoactive amines.
 ## answer_d
 basophils
 ## explanation_d
-Correct. The basophil releases histamine, causing vasodilatation and the sudden drop in blood pressure the book names as anaphylaxis. The mast cell does the same, but the option set here is of leukocytes.
+The basophil releases histamine, causing the vasodilatation and sudden drop in blood pressure that define anaphylaxis. The mast cell does the same, but the option set here is of leukocytes.
 ## correct_answer
 D
 ## main_concept
@@ -71731,11 +71731,11 @@ Bacterial infection raises the neutrophil count — neutrophilia above 75% — b
 ## answer_b
 Parasitic infection
 ## explanation_b
-Parasitic infection raises the eosinophil count. In Egypt, bilharziasis is the cause the department names.
+Parasitic infection raises the eosinophil count. In Egypt, bilharziasis is the leading cause.
 ## answer_c
 Allergy
 ## explanation_c
-Correct. Basophilia, above 2%, goes with allergy: the basophil carries IgE receptors and degranulates when an allergen cross-links them.
+Basophilia, above 2%, goes with allergy: the basophil carries IgE receptors and degranulates when an allergen cross-links them.
 ## answer_d
 both b & c are correct
 ## explanation_d
@@ -71824,7 +71824,7 @@ True: on electron microscopy the neutrophil shows pseudopodia, few organelles, a
 ## answer_c
 Coarse, basophilic that contain heparin
 ## explanation_c
-Correct — this is the exception being asked for. Coarse basophilic granules containing heparin belong to the basophil, not the neutrophil, whose specific granules are fine and pale.
+This is the exception being asked for. Coarse basophilic granules containing heparin belong to the basophil, not the neutrophil, whose specific granules are fine and pale.
 ## answer_d
 Primary azurophilic granules with myeloperoxidase in lysosome
 ## explanation_d
@@ -71917,7 +71917,7 @@ Sulphatase is also the eosinophil’s, secreted with histaminase to destroy hepa
 ## answer_d
 hydrolytic enzymes
 ## explanation_d
-Correct. The azurophil granule is a primary lysosome, so its contents are hydrolytic enzymes — myeloperoxidase among them, for defence against bacteria and viruses.
+The azurophil granule is a primary lysosome, so its contents are hydrolytic enzymes — myeloperoxidase among them, for defence against bacteria and viruses.
 ## correct_answer
 D
 ## main_concept
@@ -71998,7 +71998,7 @@ Clathrin coats vesicles during receptor-mediated endocytosis. It is a cytology t
 ## answer_b
 trephone
 ## explanation_b
-Correct, as the department book has it: the neutrophil secretes trephone, which it credits with helping wounds heal.
+The neutrophil secretes trephone, which is credited with helping wounds heal.
 ## answer_c
 tubulin
 ## explanation_c
@@ -72032,7 +72032,7 @@ Moderate
 ## question_type
 Recall of a stated term
 ## learning_objective
-Name the substance the department book credits the neutrophil with for wound healing.
+Name the substance credited with helping the neutrophil promote wound healing.
 ## setting
 Academic
 ## academic_relevance
@@ -72091,7 +72091,7 @@ Polycythaemia is a raised red cell count and belongs to a different chapter enti
 ## answer_c
 Neutropenia
 ## explanation_c
-Correct. The department names typhoid as the commonest cause of neutropenia — below 60% — and it is the exception worth holding, because almost every other bacterial infection raises the neutrophil count instead.
+Typhoid is the commonest cause of neutropenia — below 60% — and it is the exception worth holding, because almost every other bacterial infection raises the neutrophil count instead.
 ## answer_d
 Eosinophilia
 ## explanation_d
@@ -72172,7 +72172,7 @@ Regarding basophils, they:
 ## answer_a
 Constitute 3-8% of circulating leucocytes.
 ## explanation_a
-Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell in the book, and basophilia begins above 2%.
+Three to eight per cent is the monocyte. Basophils are 0–1%, the rarest white cell, and basophilia begins above 2%.
 ## answer_b
 Increase in acute pyogenic infection.
 ## explanation_b
@@ -72184,7 +72184,7 @@ A kidney-shaped nucleus is the monocyte's. The basophil's is irregular, segmente
 ## answer_d
 Are rich in metachromatically stained granules.
 ## explanation_d
-Correct. The basophil's coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.
+The basophil's coarse granules are metachromatic — toluidine blue is blue and turns them purple — because of the heparin in them, and the mast cell shares the property for the same reason.
 ## correct_answer
 d
 ## main_concept
@@ -72265,7 +72265,7 @@ The B lymphocyte mediates humoral immunity: activated by antigen and by a helper
 ## answer_b
 T- lymphocytes.
 ## explanation_b
-Correct. T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.
+T lymphocytes mature in the thymus, carry CD4 and CD8 receptors, and mediate cell-mediated immunity — the cytotoxic CD8 cells killing infected and neoplastic cells directly rather than through an antibody.
 ## answer_c
 Basophils.
 ## explanation_c
@@ -72362,7 +72362,7 @@ Fat cells are what fills marrow as it becomes inactive — the opposite of what 
 ## answer_d
 Haemopoietic stem cells
 ## explanation_d
-Correct. The haemopoietic stem cell is the free cell every blood cell line descends from, so it is the only component that can repopulate the whole marrow.
+The haemopoietic stem cell is the free cell every blood cell line descends from, so it is the only component that can repopulate the whole marrow.
 ## correct_answer
 D
 ## main_concept
@@ -72439,7 +72439,7 @@ Fibroblast in the histology is a good example for:
 ## answer_a
 Active cells
 ## explanation_a
-Correct. The active fibroblast is the department's type example of a protein-synthesising cell: deeply basophilic cytoplasm, abundant rough endoplasmic reticulum and Golgi, and a pale euchromatic nucleus with a prominent nucleolus.
+The active fibroblast is a textbook example of a protein-synthesising cell: deeply basophilic cytoplasm, abundant rough endoplasmic reticulum and Golgi, and a pale euchromatic nucleus with a prominent nucleolus.
 ## answer_b
 Free C.T cells
 ## explanation_b
@@ -72528,7 +72528,7 @@ Which bone marrow component increases markedly as hematopoietic activity decreas
 ## answer_a
 Fat cells
 ## explanation_a
-Correct. Falling haemopoietic activity is exactly what turns red marrow into yellow: fat cells expand to fill the space the haemopoietic cords gave up, which is why the shafts of adult long bones are fatty.
+Falling haemopoietic activity is exactly what turns red marrow into yellow: fat cells expand to fill the space the haemopoietic cords gave up, which is why the shafts of adult long bones are fatty.
 ## answer_b
 Erythrocyte
 ## explanation_b
@@ -72629,7 +72629,7 @@ The right idea with the wrong phase. A cell that leaves the cycle transiently le
 ## answer_d
 Return to continue cell cycle on need for replacement
 ## explanation_d
-Correct. A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.
+A potentially renewable cell is out of the cycle but able to come back into it, and it does so when the tissue needs replacing — the liver cell after resection, the fibrocyte becoming an active fibroblast for wound healing.
 ## correct_answer
 d
 ## main_concept
@@ -72714,7 +72714,7 @@ The writing position — metacarpophalangeal joints flexed with the interphalang
 ## answer_c
 Loss of opposition of the thumb
 ## explanation_c
-Correct. Opposition is opponens pollicis with abductor and flexor pollicis brevis, all three median through the recurrent branch, and losing it costs the hand its grip and its pinch — which is why the answer is the "most acceptable" one the stem asks for.
+Opposition is opponens pollicis with abductor and flexor pollicis brevis, all three median through the recurrent branch, and losing it costs the hand its grip and its pinch — which is why the answer is the "most acceptable" one the stem asks for.
 ## answer_d
 Loss of abduction and adduction of the medial 4 fingers
 ## explanation_d
@@ -72807,7 +72807,7 @@ The hypothenar muscles are also ulnar, through the deep branch.
 ## answer_d
 Lateral two lumbricals
 ## explanation_d
-Correct, and the key. The lateral two lumbricals are the median nerve's only muscles in the hand besides the three of the thenar eminence; the medial two are ulnar.
+This is the key. The lateral two lumbricals are the median nerve's only muscles in the hand besides the three of the thenar eminence; the medial two are ulnar.
 ## correct_answer
 D
 ## main_concept
@@ -72884,7 +72884,7 @@ The radial artery gives the following branch in the hand:
 ## answer_a
 Principes pollicis
 ## explanation_a
-Correct. Once the radial artery has passed between the heads of adductor pollicis into the palm it gives the arteria princeps pollicis to the two sides of the thumb, then the radialis indicis, and ends as the deep palmar arch.
+Once the radial artery has passed between the heads of adductor pollicis into the palm it gives the arteria princeps pollicis to the two sides of the thumb, then the radialis indicis, and ends as the deep palmar arch.
 ## answer_b
 Superficial palmar artery
 ## explanation_b
@@ -72973,7 +72973,7 @@ A patient suffering from carpal tunnel syndrome, would present with one of the f
 ## answer_a
 Parasthesia over the index finger
 ## explanation_a
-Correct. The index finger lies squarely within the median nerve's palmar territory — the lateral three and a half fingers — and tingling there at night is the classic first complaint.
+The index finger lies squarely within the median nerve's palmar territory — the lateral three and a half fingers — and tingling there at night is the classic first complaint.
 ## answer_b
 Parasthesia over the little finger
 ## explanation_b
@@ -73074,7 +73074,7 @@ The deep palmar arch lies on the interossei and the metacarpal bases, behind the
 ## answer_d
 It contains tendons of the long flexors of medial 3 fingers
 ## explanation_d
-Correct. The long flexor tendons of the medial three fingers, with the medial two lumbricals, occupy the midpalmar space, and it is those tendon sheaths that carry infection into it.
+The long flexor tendons of the medial three fingers, with the medial two lumbricals, occupy the midpalmar space, and it is those tendon sheaths that carry infection into it.
 ## correct_answer
 D
 ## main_concept
@@ -73159,11 +73159,11 @@ Inverted. Abductor pollicis brevis is the superficial muscle of the eminence and
 ## answer_c
 Is innervated by of twig from ulnar nerve
 ## explanation_c
-The option the books key, and the reason for this override. The three thenar muscles are median, through the recurrent branch; an ulnar supply to opponens pollicis occurs as an anatomical variant but is not what the muscle is taught to have.
+The keyed option, and the reason for this override. The three thenar muscles are median, through the recurrent branch; an ulnar supply to opponens pollicis occurs as an anatomical variant but is not what the muscle is taught to have.
 ## answer_d
 Is inserted into the lateral aspect of the first metacarpal bone
 ## explanation_d
-Correct. Unlike the other short muscles of the thumb, opponens pollicis inserts into bone along the whole lateral border and anterior surface of the first metacarpal rather than into a phalanx, which is exactly what lets it roll the metacarpal into opposition.
+Unlike the other short muscles of the thumb, opponens pollicis inserts into bone along the whole lateral border and anterior surface of the first metacarpal rather than into a phalanx, which is exactly what lets it roll the metacarpal into opposition.
 ## correct_answer
 D
 ## main_concept
@@ -73248,7 +73248,7 @@ Flexor pollicis longus is a forearm muscle whose tendon merely passes through th
 ## answer_c
 Abductor pollicis brevis, oppose pollicis, flexor pollicis brevis
 ## explanation_c
-Correct. Abductor pollicis brevis superficially, opponens pollicis deep to it and flexor pollicis brevis medially — three short muscles, all median through the recurrent branch.
+Abductor pollicis brevis superficially, opponens pollicis deep to it and flexor pollicis brevis medially — three short muscles, all median through the recurrent branch.
 ## answer_d
 Flexor pollicis longus, abductor pollicis longus
 ## explanation_d
@@ -73329,7 +73329,7 @@ As regards the muscles of the upper limb, one is correct:
 ## answer_a
 The deltoid is supplied by the axillary nerve
 ## explanation_a
-Correct, and the key. Deltoid takes the axillary (circumflex) nerve from the posterior cord, which is why a dislocated shoulder can leave the muscle wasted and the shoulder flat.
+This is the key. Deltoid takes the axillary (circumflex) nerve from the posterior cord, which is why a dislocated shoulder can leave the muscle wasted and the shoulder flat.
 ## answer_b
 All interossei are supplied by the median nerve
 ## explanation_b
@@ -73422,7 +73422,7 @@ The wrong septum on the wrong side. The thenar space is bounded laterally by the
 ## answer_b
 It is bounded posteriorly by the fascia covering the adductor pollicis
 ## explanation_b
-Correct, and the key. Adductor pollicis lies behind the thenar space, and the fascia over it forms the space's posterior wall — which is why an abscess there points forwards into the palm rather than backwards.
+This is the key. Adductor pollicis lies behind the thenar space, and the fascia over it forms the space's posterior wall — which is why an abscess there points forwards into the palm rather than backwards.
 ## answer_c
 It contains the tendon of the digitorum profundus
 ## explanation_c
@@ -73507,7 +73507,7 @@ Regarding the ulnar artery at the wrist and hand, mark the correct answer:
 ## answer_a
 Gives a deep palmar branch
 ## explanation_a
-Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which passes between the muscles of the hypothenar eminence to join the radial artery and complete the deep palmar arch.
+Beside the pisiform the ulnar artery gives a deep palmar branch, which passes between the muscles of the hypothenar eminence to join the radial artery and complete the deep palmar arch.
 ## answer_b
 Gives radialis indicis artery
 ## explanation_b
@@ -73600,7 +73600,7 @@ The wrong long flexor. The lumbricals arise from the tendons of flexor digitorum
 ## answer_b
 Are inserted into the radial side of extensor expansion
 ## explanation_b
-Correct. Each lumbrical passes to the radial side of the extensor expansion of its finger, which is what puts it in front of the axis of the metacarpophalangeal joint and behind that of the interphalangeal joints.
+Each lumbrical passes to the radial side of the extensor expansion of its finger, which is what puts it in front of the axis of the metacarpophalangeal joint and behind that of the interphalangeal joints.
 ## answer_c
 Are innervated by ulnar and radial nerves
 ## explanation_c
@@ -73693,7 +73693,7 @@ The median nerve as a whole would fit the loss of opposition but not the intact 
 ## answer_c
 Recurrent branch of median
 ## explanation_c
-Correct. The recurrent branch of the median nerve is purely motor and supplies only the three thenar muscles, so cutting it in the palm loses opposition and nothing else — no sensory loss, no interosseous weakness.
+The recurrent branch of the median nerve is purely motor and supplies only the three thenar muscles, so cutting it in the palm loses opposition and nothing else — no sensory loss, no interosseous weakness.
 ## answer_d
 Deep branch of radial
 ## explanation_d
@@ -73782,7 +73782,7 @@ Flexor digitorum profundus flexes the distal interphalangeal joint, since its te
 ## answer_c
 Flexor digitorum superﬁcialis.
 ## explanation_c
-Correct, and the key. Flexor digitorum superficialis inserts into the sides of the middle phalanx, so the proximal interphalangeal joint is the joint it acts on and the joint that fails when it is paralysed.
+This is the key. Flexor digitorum superficialis inserts into the sides of the middle phalanx, so the proximal interphalangeal joint is the joint it acts on and the joint that fails when it is paralysed.
 ## answer_d
 Lumbricals.
 ## explanation_d
@@ -73871,7 +73871,7 @@ Flexor digitorum profundus reaches the distal phalanx and flexes the terminal jo
 ## answer_c
 Flexor digitorum superficialis
 ## explanation_c
-Correct. Superficialis to the middle phalanx, profundus to the distal — the insertion is what assigns each tendon its joint.
+Superficialis to the middle phalanx, profundus to the distal — the insertion is what assigns each tendon its joint.
 ## answer_d
 Lumbricals
 ## explanation_d
@@ -73952,7 +73952,7 @@ A patient suffering from carpal tunnel syndrome would present with one of the P 
 ## answer_a
 Paresthesia over the index ﬁnger
 ## explanation_a
-Correct. Paraesthesia over the lateral three and a half fingers, of which the index is one, is the presenting complaint.
+Paraesthesia over the lateral three and a half fingers, of which the index is one, is the presenting complaint.
 ## answer_b
 Paresthesia over the little ﬁnger
 ## explanation_b
@@ -74312,7 +74312,7 @@ The wrong eminence. An ulnar lesion flattens the hypothenar eminence and hollows
 ## answer_b
 Thumb cannot be adducted.
 ## explanation_b
-Correct. Adductor pollicis is the deep branch of the ulnar nerve's largest muscle, and its loss is what produces Froment's sign — the thumb flexing at the interphalangeal joint to hold a sheet of paper.
+Adductor pollicis is the deep branch of the ulnar nerve's largest muscle, and its loss is what produces Froment's sign — the thumb flexing at the interphalangeal joint to hold a sheet of paper.
 ## answer_c
 Thumb cannot be abducted.
 ## explanation_c
@@ -74401,7 +74401,7 @@ The descending anastomotic branch belongs to the arteries around the elbow, not 
 ## answer_b
 Common palmar digital artery.
 ## explanation_b
-Correct, and the key. The superficial palmar arch gives the common palmar digital arteries, each of which divides into two proper digital arteries for the adjacent sides of two fingers.
+This is the key. The superficial palmar arch gives the common palmar digital arteries, each of which divides into two proper digital arteries for the adjacent sides of two fingers.
 ## answer_c
 2nd Dorsal metacarpal artery.
 ## explanation_c
@@ -74490,7 +74490,7 @@ A branch of the arteries around the elbow, not of any arch in the hand.
 ## answer_b
 Common palmar digital
 ## explanation_b
-Correct. The common palmar digital arteries run distally from the convexity of the superficial arch and each divides for two adjacent finger sides.
+The common palmar digital arteries run distally from the convexity of the superficial arch and each divides for two adjacent finger sides.
 ## answer_c
 2nd Dorsal metacarpal artery
 ## explanation_c
@@ -74672,7 +74672,7 @@ The wrong cord again. The lateral side of the arm is supplied by the upper and l
 ## answer_c
 The skin of the dorsum of the hand is supplied by branches of radial and ulnar nerves
 ## explanation_c
-Correct. The radial nerve covers the lateral two thirds of the back of the hand and the ulnar nerve the medial third, meeting along a line through the ring finger.
+The radial nerve covers the lateral two thirds of the back of the hand and the ulnar nerve the medial third, meeting along a line through the ring finger.
 ## answer_d
 The skin of the medial 11⁄2 fingers is supplied by branches of the median nerve
 ## explanation_d
@@ -74842,7 +74842,7 @@ Regarding the hand, select the true statement: (2021)
 ## answer_a
 Deep branch of ulnar nerve lies within the concavity of deep palmar arch.
 ## explanation_a
-Correct. The deep branch of the ulnar nerve runs laterally across the palm with the deep arch, lying within its concavity — which is why a deep palmar wound tends to take the artery and the nerve together.
+The deep branch of the ulnar nerve runs laterally across the palm with the deep arch, lying within its concavity — which is why a deep palmar wound tends to take the artery and the nerve together.
 ## answer_b
 Deep palmar arch is level with the distal border of outstretched thumb web.
 ## explanation_b
@@ -75028,7 +75028,7 @@ The septum on the wrong side. The intermediate septum runs to the third metacarp
 ## answer_c
 It contains the superﬁcial palmar arch.
 ## explanation_c
-Correct, and the key. The superficial palmar arch lies in front of the flexor tendons that form the anterior wall of the space, and the department describes it among the space's anterior contents.
+This is the key. The superficial palmar arch lies in front of the flexor tendons that form the anterior wall of the space, so it is one of the space's anterior contents.
 ## answer_d
 It contains the superﬁcial branch of the ulnar nerve.
 ## explanation_d
@@ -75117,7 +75117,7 @@ The intermediate septum bounds this space laterally, not medially.
 ## answer_c
 It contains the superficial palmar arch
 ## explanation_c
-Correct. The superficial palmar arch lies among the structures in front of the space, deep to the palmar aponeurosis and in front of the flexor tendons.
+The superficial palmar arch lies among the structures in front of the space, deep to the palmar aponeurosis and in front of the flexor tendons.
 ## answer_d
 It contains the superficial branch of the ulnar nerve
 ## explanation_d
@@ -75206,7 +75206,7 @@ The intermediate septum is the lateral boundary of the midpalmar space, not the 
 ## answer_c
 It contains the superficial palmar arch
 ## explanation_c
-Correct. The superficial arch lies in front of the flexor tendons that roof the space.
+The superficial arch lies in front of the flexor tendons that roof the space.
 ## answer_d
 It contains the superficial branch of the ulnar nerve
 ## explanation_d
@@ -75295,7 +75295,7 @@ The intermediate septum forms this space's lateral boundary; the medial boundary
 ## answer_c
 It contains the superficial palmar arch
 ## explanation_c
-Correct, and the key. The superficial palmar arch is described among the structures lying in front of the midpalmar space.
+This is the key. The superficial palmar arch is described among the structures lying in front of the midpalmar space.
 ## answer_d
 It contains the superficial branch of the ulnar nerve
 ## explanation_d
@@ -75380,7 +75380,7 @@ The answer the extractor took from this page, and the reason for the override. T
 ## answer_b
 It is bounded posteriorly by the fascia covering the adductor pollicis.
 ## explanation_b
-Correct. Adductor pollicis lies behind the thenar space and the fascia over it is the space's floor.
+Adductor pollicis lies behind the thenar space and the fascia over it is the space's floor.
 ## answer_c
 It contains the tendon of the digitorum profundus.
 ## explanation_c
@@ -75469,7 +75469,7 @@ The option the scan has echoed into the stem, and it is false: the lateral bound
 ## answer_b
 It is bounded posteriorly by the fascia covering the adductor pollicis.
 ## explanation_b
-Correct. The posterior wall of the thenar space is the fascia covering adductor pollicis.
+The posterior wall of the thenar space is the fascia covering adductor pollicis.
 ## answer_c
 It contains the tendon of the digitorum profundus.
 ## explanation_c
@@ -75566,7 +75566,7 @@ The wrong fingers. The lateral three and a half fingers are median; the ulnar ta
 ## answer_d
 If injured above the elbow, the clawing of the hand becomes less apparent than
 ## explanation_d
-Correct. Clawing needs the long flexors intact to bend the fingers; a high lesion takes the medial half of flexor digitorum profundus as well, so the deformity is less obvious even though the injury is worse.
+Clawing needs the long flexors intact to bend the fingers; a high lesion takes the medial half of flexor digitorum profundus as well, so the deformity is less obvious even though the injury is worse.
 ## correct_answer
 D
 ## main_concept
@@ -75643,7 +75643,7 @@ Regarding ulnar artery at wrist & hand, mark the correct answer:
 ## answer_a
 Gives a deep palmar branch
 ## explanation_a
-Correct. Beside the pisiform the ulnar artery gives a deep palmar branch, which sinks between the hypothenar muscles to join the radial artery and complete the deep arch.
+Beside the pisiform the ulnar artery gives a deep palmar branch, which sinks between the hypothenar muscles to join the radial artery and complete the deep arch.
 ## answer_b
 Gives radialis indicis artery
 ## explanation_b
@@ -75732,7 +75732,7 @@ Regarding ulnar artery at wrist & hand, mark the correct answer: (DEP BOOK) em e
 ## answer_a
 Gives a deep palmar branch
 ## explanation_a
-Correct. The deep palmar branch of the ulnar artery completes the deep arch by joining the radial artery.
+The deep palmar branch of the ulnar artery completes the deep arch by joining the radial artery.
 ## answer_b
 Gives radialis indices artery
 ## explanation_b
@@ -75821,7 +75821,7 @@ Saddle-shaped (biaxial) carpometacarpal, is joint of which finger:
 ## answer_a
 Thumb
 ## explanation_a
-Correct. The carpometacarpal joint of the thumb, between the trapezium and the base of the first metacarpal, is a saddle joint and biaxial — which is exactly what allows the thumb to be opposed and the other four fingers not.
+The carpometacarpal joint of the thumb, between the trapezium and the base of the first metacarpal, is a saddle joint and biaxial — which is exactly what allows the thumb to be opposed and the other four fingers not.
 ## answer_b
 Index
 ## explanation_b
@@ -75910,7 +75910,7 @@ Saddle-shaped (biaxial) carpometacarpal, is the joint of which finger:
 ## answer_a
 Thumb
 ## explanation_a
-Correct, and the key. Trapezium against the base of the first metacarpal, saddle-shaped and biaxial — the joint that makes the human thumb opposable.
+This is the key. Trapezium against the base of the first metacarpal, saddle-shaped and biaxial — the joint that makes the human thumb opposable.
 ## answer_b
 Index
 ## explanation_b
@@ -76181,7 +76181,7 @@ The lumbricals arise from the tendons of flexor digitorum profundus, the deeper 
 ## answer_b
 Are Inserted Into the radial side of extensor expansion
 ## explanation_b
-Correct, and the key. Each lumbrical reaches the radial side of the extensor expansion of its own finger.
+This is the key. Each lumbrical reaches the radial side of the extensor expansion of its own finger.
 ## answer_c
 Are innervated by ulnar and radial nerves. y
 ## explanation_c
@@ -76274,7 +76274,7 @@ The hypothenar muscles take the deep branch of the ulnar nerve.
 ## answer_c
 Lateral two lumbricals
 ## explanation_c
-Correct. The first and second lumbricals are supplied by the median nerve, travelling with its digital branches.
+The first and second lumbricals are supplied by the median nerve, travelling with its digital branches.
 ## answer_d
 Adductor pollicis
 ## explanation_d
@@ -76363,7 +76363,7 @@ The hypothenar muscles are ulnar, through the deep branch.
 ## answer_c
 Lateral two lumbricals.
 ## explanation_c
-Correct, and the key. Lumbricals one and two are median; three and four are ulnar.
+This is the key. Lumbricals one and two are median; three and four are ulnar.
 ## answer_d
 Adductor pollicis.
 ## explanation_d
@@ -76456,7 +76456,7 @@ The lateral two lumbricals are median; the medial two are the ulnar ones.
 ## answer_d
 All interossei. P
 ## explanation_d
-Correct. Every dorsal and palmar interosseous muscle is supplied by the deep branch of the ulnar nerve, without exception.
+Every dorsal and palmar interosseous muscle is supplied by the deep branch of the ulnar nerve, without exception.
 ## correct_answer
 D
 ## main_concept
@@ -76545,7 +76545,7 @@ The lateral two lumbricals are median; three and four are ulnar.
 ## answer_d
 All interossei.
 ## explanation_d
-Correct. All the interossei, dorsal and palmar, are deep branch of the ulnar.
+All the interossei, dorsal and palmar, are deep branch of the ulnar.
 ## correct_answer
 D
 ## main_concept
@@ -76634,7 +76634,7 @@ The answer the extractor took from this page, and the reason for the override. O
 ## answer_d
 Is inserted into the lateral aspect of the ﬁrst metacarpal bone
 ## explanation_d
-Correct. It inserts into the lateral border and anterior surface of the first metacarpal along its whole length — a muscle that moves a metacarpal rather than a phalanx, which is what opposition requires.
+It inserts into the lateral border and anterior surface of the first metacarpal along its whole length — a muscle that moves a metacarpal rather than a phalanx, which is what opposition requires.
 ## correct_answer
 D
 ## main_concept
@@ -76711,7 +76711,7 @@ The palmar thenar space contains, mark the correct answer:
 ## answer_a
 Flexor pollicis longus tendon. 1
 ## explanation_a
-Correct. The flexor pollicis longus tendon runs to the thumb on the lateral side of the intermediate septum and so lies within the thenar space.
+The flexor pollicis longus tendon runs to the thumb on the lateral side of the intermediate septum and so lies within the thenar space.
 ## answer_b
 Flexor tendons of the middle 3 fingers
 ## explanation_b
@@ -76800,7 +76800,7 @@ The palmar thenar space contains, mark the correct answer: (DEP BOOK) em em em e
 ## answer_a
 Flexor pollicis longus tendon
 ## explanation_a
-Correct, and the key. Flexor pollicis longus passes to the thumb within the thenar space.
+This is the key. Flexor pollicis longus passes to the thumb within the thenar space.
 ## answer_b
 Flexor tendons of the middle 3 ﬁngers
 ## explanation_b
@@ -76889,7 +76889,7 @@ The palmar thenar space contains, mark the wrong answer:(2022) Ac ad Ac ad ad ad
 ## answer_a
 Flexer pollicis longus tendon.
 ## explanation_a
-The answer the extractor read off this page, and the reason for the override. Flexor pollicis longus is a genuine content of the thenar space; the department's own other version of this question keys it as the correct answer.
+The answer the extractor read off this page, and the reason for the override. Flexor pollicis longus is a genuine content of the thenar space; another version of this question keys it as the correct answer.
 ## answer_b
 Flexor tendons of the index.
 ## explanation_b
@@ -76978,7 +76978,7 @@ The radial artery gives the following branch in the hand: (DEP BOOK) Ac P a- Pri
 ## answer_a
 Principes pollicis.
 ## explanation_a
-Correct. Princeps pollicis leaves the radial artery as it enters the palm between the heads of adductor pollicis and divides for the two sides of the thumb.
+Princeps pollicis leaves the radial artery as it enters the palm between the heads of adductor pollicis and divides for the two sides of the thumb.
 ## answer_b
 Superﬁcial palmar artery.
 ## explanation_b
@@ -77067,7 +77067,7 @@ The space of Parana, choose the correct answer:
 ## answer_a
 Bounded posteriorly by the pronator quadratus muscle
 ## explanation_a
-Correct. Pronator quadratus, covering the lower ends of radius and ulna, forms the posterior wall of the space; the long flexor tendons lie in front of it.
+Pronator quadratus, covering the lower ends of radius and ulna, forms the posterior wall of the space; the long flexor tendons lie in front of it.
 ## answer_b
 Continuous distally with the thenar space
 ## explanation_b
@@ -77156,7 +77156,7 @@ The space of Parona, choose the correct answer:
 ## answer_a
 Bounded posteriorly by the pronator quadratus muscle. 1
 ## explanation_a
-Correct. The space lies between the long flexor tendons in front and pronator quadratus behind, in the lower quarter of the forearm.
+The space lies between the long flexor tendons in front and pronator quadratus behind, in the lower quarter of the forearm.
 ## answer_b
 Continuous distally with the thenar space
 ## explanation_b
@@ -77253,7 +77253,7 @@ A forearm muscle whose tendon only passes through the hand.
 ## answer_c
 Abductor pollicis brevis, oppose pollicis, ﬂexor pollicis brevis
 ## explanation_c
-Correct. Abductor pollicis brevis, opponens pollicis and flexor pollicis brevis, all supplied by the recurrent branch of the median nerve.
+Abductor pollicis brevis, opponens pollicis and flexor pollicis brevis, all supplied by the recurrent branch of the median nerve.
 ## answer_d
 Flexor pollicis longus, abductor pollicis longus. y ad
 ## explanation_d
@@ -77342,7 +77342,7 @@ Flexor pollicis longus arises in the forearm and only sends a tendon through the
 ## answer_c
 Abductor pollicis brevis, oppose pollicis, flexor pollicis brevis
 ## explanation_c
-Correct. Three short muscles, all median through the recurrent branch.
+Three short muscles, all median through the recurrent branch.
 ## answer_d
 Flexor pollicis longus, abductor pollicis longus
 ## explanation_d
@@ -77435,7 +77435,7 @@ All-median is true of the thenar eminence, not of the lumbricals.
 ## answer_d
 Half median & half ulnar nerves.
 ## explanation_d
-Correct. Lumbricals one and two are median, travelling with the digital branches to the index and middle fingers; three and four are ulnar.
+Lumbricals one and two are median, travelling with the digital branches to the index and middle fingers; three and four are ulnar.
 ## correct_answer
 D
 ## main_concept
@@ -77524,7 +77524,7 @@ All-median describes the thenar eminence.
 ## answer_d
 Half median & half ulnar nerves.
 ## explanation_d
-Correct. Two median, two ulnar — the group is split, and that split is why an ulnar lesion claws only the ring and little fingers.
+Two median, two ulnar — the group is split, and that split is why an ulnar lesion claws only the ring and little fingers.
 ## correct_answer
 D
 ## main_concept
@@ -77609,7 +77609,7 @@ Ape hand belongs to a median lesion — a wasted thenar eminence with the thumb 
 ## answer_c
 paralysis of adductor pollicis
 ## explanation_c
-Correct. Adductor pollicis is the largest muscle the deep branch supplies, and its loss is what produces Froment's sign when the patient tries to pinch a sheet of paper.
+Adductor pollicis is the largest muscle the deep branch supplies, and its loss is what produces Froment's sign when the patient tries to pinch a sheet of paper.
 ## answer_d
 loss of sensation over palmar surface of little finger
 ## explanation_d
@@ -77787,7 +77787,7 @@ Extensor digiti minimi is radial, in the fifth compartment under the extensor re
 ## answer_c
 Adductor pollicis.
 ## explanation_c
-Correct. Adductor pollicis is supplied by the deep branch of the ulnar nerve, and the ulnar nerve lies against the back of the medial epicondyle where the fracture is.
+Adductor pollicis is supplied by the deep branch of the ulnar nerve, and the ulnar nerve lies against the back of the medial epicondyle where the fracture is.
 ## answer_d
 Flexor carpi radialis.
 ## explanation_d
@@ -77876,7 +77876,7 @@ The deep palmar arch is in the palm, immediately distal to the bases of the meta
 ## answer_c
 Radial artery.
 ## explanation_c
-Correct. The radial artery winds backwards round the lateral side of the wrist and crosses the anatomical snuffbox, whose floor is formed by the scaphoid; it lies directly on the bone, which is why a scaphoid fracture may tear it.
+The radial artery winds backwards round the lateral side of the wrist and crosses the anatomical snuffbox, whose floor is formed by the scaphoid; it lies directly on the bone, which is why a scaphoid fracture may tear it.
 ## answer_d
 Princeps pollicis artery.
 ## explanation_d
@@ -77965,7 +77965,7 @@ The deep palmar arch lies across the bases of the metacarpals, distal to the car
 ## answer_c
 Radial artery
 ## explanation_c
-Correct, and the same answer as the 2021 printing of this question. The radial artery lies on the scaphoid in the floor of the snuffbox, where its pulsation is felt.
+This is the same answer as the 2021 printing of this question. The radial artery lies on the scaphoid in the floor of the snuffbox, where its pulsation is felt.
 ## answer_d
 Princeps pollicis artery
 ## explanation_d
@@ -78050,11 +78050,11 @@ Sitting is not the reference. A position that changes with the chair could not b
 ## answer_b
 The position in which the body Is lying down with feet parallel and arms by the sides.
 ## explanation_b
-Lying down with the arms at the sides is the supine position, which the book names separately. It is a clinical posture, not the reference posture.
+Lying down with the arms at the sides is the supine position, named separately. It is a clinical posture, not the reference posture.
 ## answer_c
 The position in which the body is erect, facing front with feet parallel and arms hanging at the sides with the palms facing forwards.
 ## explanation_c
-Correct, and complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.
+This is complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.
 ## answer_d
 The position in which the body is erect, facing forward with feet parallel and arms hanging at the sides with palms facing backwards.
 ## explanation_d
@@ -78139,7 +78139,7 @@ Reversed. The eyes look forwards; a body facing one way with the eyes looking th
 ## answer_b
 The upper limbs are hanging by the sides
 ## explanation_b
-Correct. The upper limbs hang by the sides — the only one of the four statements the book gives as printed.
+The upper limbs hang by the sides — the only one of the four statements printed as given.
 ## answer_c
 The palms are facing backwards
 ## explanation_c
@@ -78224,7 +78224,7 @@ The plane which divides the body into 2 equal halves right and left is: (DEP BOO
 ## answer_a
 Median plane
 ## explanation_a
-Correct. The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.
+The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.
 ## answer_b
 Coronal plane
 ## explanation_b
@@ -78317,7 +78317,7 @@ The median plane is vertical like the coronal, but it separates right from left.
 ## answer_b
 Sagittal plane.
 ## explanation_b
-The book gives "sagittal" as the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.
+"Sagittal" is the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.
 ## answer_c
 Horizontal plane.
 ## explanation_c
@@ -78325,7 +78325,7 @@ The horizontal plane gives an upper and a lower part. A student picks it when re
 ## answer_d
 Coronal plane.
 ## explanation_d
-Correct. Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.
+Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.
 ## correct_answer
 D
 ## main_concept
@@ -78406,7 +78406,7 @@ The coronal plane is vertical, not horizontal. This option and C are the same er
 ## answer_b
 It divides the body into anterior and posterior halves
 ## explanation_b
-Correct, subject to the book's wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The department book says "parts"; only a plane through the exact mid-thickness of the body would give halves.
+In the exact wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The wording says "parts"; only a plane through the exact mid-thickness of the body would give halves.
 ## answer_c
 It cuts the body into upper and lower halves
 ## explanation_c
@@ -78491,7 +78491,7 @@ The anatomical term that means "away from the median plane" is:
 ## answer_a
 Lateral
 ## explanation_a
-Correct. Lateral is away from the median plane; medial is towards it.
+Lateral is away from the median plane; medial is towards it.
 ## answer_b
 Medial
 ## explanation_b
@@ -78592,7 +78592,7 @@ The exact opposite: distal is away from the root of the limb. A student who read
 ## answer_d
 Proximal
 ## explanation_d
-Correct. Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.
+Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.
 ## correct_answer
 D
 ## main_concept
@@ -78677,7 +78677,7 @@ Proximal is measured along a limb, from its root, not from the midline of the bo
 ## answer_c
 Medial
 ## explanation_c
-Correct, and the override. Medial is nearer to the median plane; median itself is exactly in the midline.
+This is the overridden answer. Medial is nearer to the median plane; median itself is exactly in the midline.
 ## answer_d
 Inferior
 ## explanation_d
@@ -78762,11 +78762,11 @@ Wrong on both counts: a sagittal plane is vertical and never divides upper from 
 ## answer_b
 Coronal plane divides the body into two equal halves anterior and posterior.
 ## explanation_b
-The coronal plane does divide the body into anterior and posterior parts, but not into equal halves — the book says "an anterior part towards the front and a posterior part towards the back" and no more, and any coronal plane through the body qualifies. The option is true in its direction and false in the word equal, which is precisely the discrimination this question is built on.
+The coronal plane does divide the body into anterior and posterior parts, but not into equal halves — the definition says "an anterior part towards the front and a posterior part towards the back" and no more, and any coronal plane through the body qualifies. The option is true in its direction and false in the word equal, which is precisely the discrimination this question is built on.
 ## answer_c
 Sagittal plane divides the body into two equal halves right and left.
 ## explanation_c
-Correct. The median, or sagittal, plane passes vertically in the midline and divides the body into equal right and left halves. A plane parallel to it and near it is the paramedian plane, and that one gives unequal halves — which is why the book names it separately.
+The median, or sagittal, plane passes vertically in the midline and divides the body into equal right and left halves. A plane parallel to it and near it is the paramedian plane, and that one gives unequal halves — which is why it is named separately.
 ## answer_d
 Transvers plane divides the body into two equal halves upper and lower.
 ## explanation_d
@@ -78851,7 +78851,7 @@ Picked by students who assume a collateral ligament must reach the bone below it
 ## answer_b
 Attached to the annular ligament
 ## explanation_b
-Correct. The radial collateral ligament passes from the lateral epicondyle to blend with the anular ligament, so it stabilises the elbow without ever gripping the radius.
+The radial collateral ligament passes from the lateral epicondyle to blend with the anular ligament, so it stabilises the elbow without ever gripping the radius.
 ## answer_c
 It is continuous with the capsule of the superior radioulnar joint
 ## explanation_c
@@ -78940,7 +78940,7 @@ The margin of this copy of the page marks A, which is how the wrong answer reach
 ## answer_b
 Attached to the annular ligament.
 ## explanation_b
-Correct. From the lateral epicondyle the ligament ends in the anular ligament, stabilising the elbow while leaving the radial head free to spin.
+From the lateral epicondyle the ligament ends in the anular ligament, stabilising the elbow while leaving the radial head free to spin.
 ## answer_c
 It is continuous with the capsule of the superior radioulnar joint.
 ## explanation_c
@@ -79037,7 +79037,7 @@ The attachment the ligament cannot have. It surrounds the head of the radius wit
 ## answer_d
 Its upper border blends with the capsule and ligaments of the elbow joint
 ## explanation_d
-Correct. The upper border blends with the capsule and the ligaments of the elbow joint, including the radial collateral; only the lower border is free.
+The upper border blends with the capsule and the ligaments of the elbow joint, including the radial collateral; only the lower border is free.
 ## correct_answer
 D
 ## main_concept
@@ -79126,7 +79126,7 @@ The attachment the ligament must not have, since the radial head has to spin fre
 ## answer_d
 Its upper border blends with capsule and ligaments of elbow joint
 ## explanation_d
-Correct. The upper border blends with the capsule and ligaments of the elbow; the lower border is free around the neck.
+The upper border blends with the capsule and ligaments of the elbow; the lower border is free around the neck.
 ## correct_answer
 D
 ## main_concept
@@ -79381,7 +79381,7 @@ Regarding movements of joints: (DEP BOOK) Vi P y
 ## answer_a
 Circumduction can occur at the shoulder girdle
 ## explanation_a
-Correct, and the key of the three-times-asked copy of this question. Circumduction of the lateral end of the clavicle is the sum of the shoulder girdle’s elevation, depression, protraction and retraction.
+This is the key of the three-times-asked copy of this question. Circumduction of the lateral end of the clavicle is the sum of the shoulder girdle’s elevation, depression, protraction and retraction.
 ## answer_b
 Pronation can occur at the wrist joints
 ## explanation_b
@@ -79474,7 +79474,7 @@ A uniaxial hinge. Flexion and extension are all the elbow has; any apparent side
 ## answer_b
 Wrist joint
 ## explanation_b
-Correct. The wrist is ellipsoid and biaxial, so beyond flexion and extension it abducts and adducts — the movements clinically called radial and ulnar deviation.
+The wrist is ellipsoid and biaxial, so beyond flexion and extension it abducts and adducts — the movements clinically called radial and ulnar deviation.
 ## answer_c
 Superior radio-ulnar
 ## explanation_c
@@ -79567,7 +79567,7 @@ True of the lateral two only. The medial two lumbricals are supplied by the deep
 ## answer_c
 They produce ﬂexion at the metacarpophalangeal joints of the ﬁnger
 ## explanation_c
-Correct. Passing in front of the axis of the metacarpophalangeal joint, the lumbrical flexes it; the same muscle then extends the interphalangeal joints through the extensor expansion.
+Passing in front of the axis of the metacarpophalangeal joint, the lumbrical flexes it; the same muscle then extends the interphalangeal joints through the extensor expansion.
 ## answer_d
 They produce ﬂexion at the interphalangeal joint. y ad
 ## explanation_d
@@ -79648,7 +79648,7 @@ The elbow joint is:
 ## answer_a
 Hinge
 ## explanation_a
-Correct. The trochlea of the humerus and the trochlear notch of the ulna interlock as a pulley in a groove, which is a hinge and permits flexion and extension alone.
+The trochlea of the humerus and the trochlear notch of the ulna interlock as a pulley in a groove, which is a hinge and permits flexion and extension alone.
 ## answer_b
 Ellipsoid
 ## explanation_b
@@ -79737,7 +79737,7 @@ The elbow joint is: (DEP BOOK). em em em em em
 ## answer_a
 Hinge
 ## explanation_a
-Correct. Trochlea in trochlear notch is a hinge, and it moves on one axis only.
+Trochlea in trochlear notch is a hinge, and it moves on one axis only.
 ## answer_b
 Ellipsoid
 ## explanation_b
@@ -79830,7 +79830,7 @@ Hinge is the elbow. It is the wrist’s second axis — the abduction and adduct
 ## answer_b
 Ellipsoid
 ## explanation_b
-Correct. The oval lower end of the radius with the articular disc receives an oval carpal surface, which is an ellipsoid, or condyloid, joint: biaxial.
+The oval lower end of the radius with the articular disc receives an oval carpal surface, which is an ellipsoid, or condyloid, joint: biaxial.
 ## answer_c
 Bicondylar
 ## explanation_c
@@ -79919,7 +79919,7 @@ Hinge is the elbow. The wrist has a second axis the elbow lacks.
 ## answer_b
 Ellipsoid.
 ## explanation_b
-Correct. An oval radial surface in an oval carpal one is an ellipsoid joint, biaxial and therefore capable of circumduction.
+An oval radial surface in an oval carpal one is an ellipsoid joint, biaxial and therefore capable of circumduction.
 ## answer_c
 Bicondylar.
 ## explanation_c
@@ -80008,7 +80008,7 @@ The answer this page carries, and the reason for the override. The elbow is a un
 ## answer_b
 Wrist joint
 ## explanation_b
-Correct. The wrist is the ellipsoid joint of the upper limb: two axes, giving flexion and extension with abduction and adduction, and so circumduction.
+The wrist is the ellipsoid joint of the upper limb: two axes, giving flexion and extension with abduction and adduction, and so circumduction.
 ## answer_c
 Acromioclavicular joint
 ## explanation_c
@@ -80093,7 +80093,7 @@ Regarding types of the joints of upper limb, choose correct answer:
 ## answer_a
 The elbow joint is synovial hinge joint
 ## explanation_a
-Correct. Trochlea in trochlear notch, one axis, flexion and extension: a synovial hinge.
+Trochlea in trochlear notch, one axis, flexion and extension: a synovial hinge.
 ## answer_b
 The carpometacarpal joint of the thumb is synovial pivot
 ## explanation_b
@@ -80182,7 +80182,7 @@ Regarding the types of the joints of the upper limb, choose the correct answer:
 ## answer_a
 The elbow joint is synovial hinge joint
 ## explanation_a
-Correct. The elbow is a synovial hinge, uniaxial, flexing and extending only.
+The elbow is a synovial hinge, uniaxial, flexing and extending only.
 ## answer_b
 The carpometacarpal joint of the thumb is synovial pivot
 ## explanation_b
@@ -80283,7 +80283,7 @@ The elbow is a hinge. Pivot is the type of the two radio-ulnar joints, and the s
 ## answer_d
 The wrist joint is of ellipsoid variety
 ## explanation_d
-Correct. The wrist is a synovial ellipsoid joint, biaxial, flexing, extending, abducting and adducting.
+The wrist is a synovial ellipsoid joint, biaxial, flexing, extending, abducting and adducting.
 ## correct_answer
 D
 ## main_concept
@@ -80372,7 +80372,7 @@ The elbow is a hinge. Pivot is borrowed from the superior radio-ulnar joint, whi
 ## answer_d
 The wrist joint is of ellipsoid variety
 ## explanation_d
-Correct. The wrist is ellipsoid — biaxial, so it flexes, extends, abducts and adducts.
+The wrist is ellipsoid — biaxial, so it flexes, extends, abducts and adducts.
 ## correct_answer
 D
 ## main_concept
@@ -80461,7 +80461,7 @@ The elbow is a hinge. The pivot in that neighbourhood is the superior radio-ulna
 ## answer_d
 The wrist joint is of ellipsoid variety
 ## explanation_d
-Correct. The wrist is a biaxial ellipsoid joint.
+The wrist is a biaxial ellipsoid joint.
 ## correct_answer
 D
 ## main_concept
@@ -80542,7 +80542,7 @@ The answer printed on this page, and the reason for the override. The sternoclav
 ## answer_b
 Contains a ﬁbrocartilaginous disc
 ## explanation_b
-Correct. A complete fibrocartilaginous disc divides the cavity into two compartments, and it is the chief structure preventing the clavicle being driven medially onto the sternum.
+A complete fibrocartilaginous disc divides the cavity into two compartments, and it is the chief structure preventing the clavicle being driven medially onto the sternum.
 ## answer_c
 Between clavicle and sternum at the angle of Lewis
 ## explanation_c
@@ -80627,7 +80627,7 @@ Which of the following flexes the arm at the glenohumeral joint?
 ## answer_a
 Pectoralis major.
 ## explanation_a
-Correct. The clavicular head of pectoralis major flexes the arm at the glenohumeral joint. The muscle as a whole also adducts and medially rotates, and its sternocostal head extends the flexed arm — so the same muscle appears as the answer to several opposite questions, which is why the department examines it so often.
+The clavicular head of pectoralis major flexes the arm at the glenohumeral joint. The muscle as a whole also adducts and medially rotates, and its sternocostal head extends the flexed arm — so the same muscle appears as the answer to several opposite questions, which is why it is examined so often.
 ## answer_b
 Latissimus dorsi.
 ## explanation_b
@@ -80724,7 +80724,7 @@ The right lower limb is below the diaphragm and therefore thoracic duct territor
 ## answer_c
 The right upper limb
 ## explanation_c
-Correct. The right lymphatic duct drains the right upper limb, with the right side of the head and neck and the right half of the thorax.
+The right lymphatic duct drains the right upper limb, with the right side of the head and neck and the right half of the thorax.
 ## answer_d
 The right half of the abdomen
 ## explanation_d
@@ -80817,7 +80817,7 @@ Half of this is the chapter's own wording — lymph vessels do end blindly in th
 ## answer_d
 Absent in brain, spinal cord, bone marrow and avascular structures.
 ## explanation_d
-Correct, and the override. The four sites are brain and spinal cord, bone marrow, and the avascular structures — cartilage, cornea, hair. The pattern behind the list is worth keeping: a tissue with no blood vessels has no lymphatics either.
+This is the overridden answer. The four sites are brain and spinal cord, bone marrow, and the avascular structures — cartilage, cornea, hair. The pattern behind the list is worth keeping: a tissue with no blood vessels has no lymphatics either.
 ## correct_answer
 D
 ## main_concept
@@ -80898,7 +80898,7 @@ True, so not the exception. Plasmalemma is simply the other name for the plasma 
 ## answer_b
 All membranes of the cell have the same appearance
 ## explanation_b
-True, so not the exception, and the option most students pick because "all" sounds like an overstatement. It is not one here: unit membrane is a general term, and the department book applies it to the mitochondrial membranes and to the nuclear envelope as well as to the cell surface.
+True, so not the exception, and the option most students pick because "all" sounds like an overstatement. It is not one here: unit membrane is a general term, applied to the mitochondrial membranes and to the nuclear envelope as well as to the cell surface.
 ## answer_c
 By E/M it is formed of bilayer
 ## explanation_c
@@ -80962,7 +80962,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The books key this to B, and B is what the department book itself teaches: it calls the two mitochondrial membranes and both layers of the nuclear envelope "unit membranes", which is the statement that all the cell's membranes share one appearance. The false statement is C. By electron microscopy the membrane is trilaminar, not a bilayer — the bilayer is its molecular construction, and the third layer of the image exists because the heavy metal deposits in the hydrophilic heads and not in the tails between them. The same books key `electron-microscope-of-cell-membrane` to trilaminar over bilaminar, and `by-em-the-cell-membrane-appears-as` to trilaminar over lipid bilayer, so their own answer elsewhere contradicts the key printed here.
+Answer changed from the source's: The books key this to B, which is also the taught statement: the two mitochondrial membranes and both layers of the nuclear envelope are "unit membranes", which is the statement that all the cell's membranes share one appearance. The false statement is C. By electron microscopy the membrane is trilaminar, not a bilayer — the bilayer is its molecular construction, and the third layer of the image exists because the heavy metal deposits in the hydrophilic heads and not in the tails between them. The same books key `electron-microscope-of-cell-membrane` to trilaminar over bilaminar, and `by-em-the-cell-membrane-appears-as` to trilaminar over lipid bilayer, so their own answer elsewhere contradicts the key printed here.
 
 
 ---
@@ -80987,7 +80987,7 @@ Bilaminar is the commonest wrong answer, taken from the phospholipid bilayer. Th
 ## answer_b
 trilaminar
 ## explanation_b
-Correct. Two dark electron-dense layers with a light electron-lucent layer between them — the trilaminar or unit membrane.
+Two dark electron-dense layers with a light electron-lucent layer between them — the trilaminar or unit membrane.
 ## answer_c
 tetralaminar
 ## explanation_c
@@ -81072,7 +81072,7 @@ The resolution of TEM is about
 ## answer_a
 0.2 nm
 ## explanation_a
-Correct. The electron microscope resolves 0.2 nm, a thousandfold finer than the light microscope's 0.2 µm.
+The electron microscope resolves 0.2 nm, a thousandfold finer than the light microscope's 0.2 µm.
 ## answer_b
 0.4 um
 ## explanation_b
@@ -81161,7 +81161,7 @@ Electron microscopic feature of cells responsible for steroid hormone secretion 
 ## answer_a
 Numerous proteasomes
 ## explanation_a
-Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not even mentioned in the department book's cytology chapter, and nothing about them is secretory.
+Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not part of this course's cytology chapter, and nothing about them is secretory.
 ## answer_b
 Numerous ribosomes.
 ## explanation_b
@@ -81169,7 +81169,7 @@ Numerous free ribosomes mark a cell making protein for its own use. A steroid is
 ## answer_c
 Well - developed sER.
 ## explanation_c
-Correct. Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.
+Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.
 ## answer_d
 Well - developed rER.
 ## explanation_d
@@ -81229,7 +81229,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.
 
 
 ---
@@ -81262,7 +81262,7 @@ Well-developed smooth endoplasmic reticulum is the steroid- or lipid-forming cel
 ## answer_d
 Well - developed rER.
 ## explanation_d
-Correct. Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.
+Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.
 ## correct_answer
 d
 ## main_concept
@@ -81318,7 +81318,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book, which sites rough endoplasmic reticulum in protein-forming cells — its example is the plasma cell — and gives it protein synthesis, segregation, glycosylation and packing into transfer vesicles.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer given here is: rough endoplasmic reticulum is sited in protein-forming cells — the plasma cell is the example — and it carries out protein synthesis, segregation, glycosylation and packing into transfer vesicles.
 
 
 ---
@@ -81339,11 +81339,11 @@ Freezing technique has the following advantage:
 ## answer_a
 It takes a short time
 ## explanation_a
-Correct. Freezing is the most rapid method, which is why a frozen section is what a surgeon waits for while a tumour is diagnosed mid-operation.
+Freezing is the most rapid method, which is why a frozen section is what a surgeon waits for while a tumour is diagnosed mid-operation.
 ## answer_b
 It gives serial sections
 ## explanation_b
-Serial sections are a paraffin advantage; the book lists "no serial sections" among the disadvantages of freezing.
+Serial sections are a paraffin advantage; "no serial sections" is listed among the disadvantages of freezing.
 ## answer_c
 It gives thin sections
 ## explanation_c
@@ -81351,7 +81351,7 @@ Thin sections are paraffin too. Frozen sections are thick and hard to cut.
 ## answer_d
 Sections are easy to stain
 ## explanation_d
-Frozen sections are explicitly "not easily stained" in the book's table — which is a separate matter from their being the only sections that keep enzymes to stain for.
+Frozen sections are explicitly "not easily stained" — which is a separate matter from their being the only sections that keep enzymes to stain for.
 ## correct_answer
 A
 ## main_concept
@@ -81407,7 +81407,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book calls the freezing technique "the most rapid" and lists the other three options — serial sections, thin sections, easy staining — as advantages of the paraffin technique and disadvantages of freezing.
+Answer changed from the source's: The source printed no key. The freezing technique is called "the most rapid", and the other three options — serial sections, thin sections, easy staining — are advantages of the paraffin technique and disadvantages of freezing.
 
 
 ---
@@ -81428,7 +81428,7 @@ The suitable technique to stain the glycogen inside the cells is:
 ## answer_a
 Paraffin technique
 ## explanation_a
-Paraffin is the routine technique and the wrong one here for the reason the book gives: its xylol and heat destroy the cell's chemical components, which is exactly what a histochemical stain is looking for.
+Paraffin is the routine technique and the wrong one here because its xylol and heat destroy the cell's chemical components, which is exactly what a histochemical stain is looking for.
 ## answer_b
 Celloidin technique
 ## explanation_b
@@ -81436,7 +81436,7 @@ Celloidin avoids heat and preserves fine structure, but it is the slowest techni
 ## answer_c
 Freezing technique
 ## explanation_c
-Correct. Histochemical stains are done on frozen sections, because freezing preserves the chemistry the stain reacts with.
+Histochemical stains are done on frozen sections, because freezing preserves the chemistry the stain reacts with.
 ## answer_d
 Scanning EM
 ## explanation_d
@@ -81496,7 +81496,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book states that histochemical stains — PAS for glycogen among them — need the frozen technique, because the heat and solvents of paraffin processing destroy the chemical components of the cell.
+Answer changed from the source's: The source printed no key. Histochemical stains — PAS for glycogen among them — need the frozen technique, because the heat and solvents of paraffin processing destroy the chemical components of the cell.
 
 
 ---
@@ -81525,7 +81525,7 @@ Orcein is a special stain with one job: browning elastic fibres.
 ## answer_c
 Hematoxylin and eosin system (H & E)
 ## explanation_c
-Correct. H&E is the routine system, and every slide a student is shown is H&E unless told otherwise.
+H&E is the routine system, and every slide a student is shown is H&E unless told otherwise.
 ## answer_d
 Periodic acid-Schiff reaction (PAS)
 ## explanation_d
@@ -81585,7 +81585,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book states that haematoxylin and eosin is the most commonly used stain in routine histological slides; the other three are special stains used for one target each.
+Answer changed from the source's: The source printed no key. Haematoxylin and eosin is the most commonly used stain in routine histological slides; the other three are special stains used for one target each.
 
 
 ---
@@ -81610,7 +81610,7 @@ Acidophilic is what cytoplasm poor in RNA looks like — smooth endoplasmic reti
 ## answer_b
 basophilic
 ## explanation_b
-Correct. Ribosomal RNA carries acidic phosphate groups, which bind the basic dye haematoxylin, so ribosome-rich cytoplasm is basophilic.
+Ribosomal RNA carries acidic phosphate groups, which bind the basic dye haematoxylin, so ribosome-rich cytoplasm is basophilic.
 ## answer_c
 need special stain
 ## explanation_c
@@ -81618,7 +81618,7 @@ Ribosomes need no special stain to make their presence felt: their effect on ord
 ## answer_d
 none of the above
 ## explanation_d
-"None of the above" cannot stand while B is the department book's own account of cytoplasmic basophilia.
+"None of the above" cannot stand while B is the correct account of cytoplasmic basophilia.
 ## correct_answer
 B
 ## main_concept
@@ -81695,7 +81695,7 @@ Lishman stain is:
 ## answer_a
 neutral stain
 ## explanation_a
-Correct, and keyed. Leishman's stain is a neutral stain: a mixture of the acidic dye eosin and the basic dye methylene blue, which is what lets one preparation show both the acidophilic and the basophilic cells of a blood film.
+Keyed. Leishman's stain is a neutral stain: a mixture of the acidic dye eosin and the basic dye methylene blue, which is what lets one preparation show both the acidophilic and the basophilic cells of a blood film.
 ## answer_b
 vital stain
 ## explanation_b
@@ -81788,7 +81788,7 @@ Eosin alone is acidic and would show the acidophilic structures — red cells an
 ## answer_b
 Leishman
 ## explanation_b
-Correct. Leishman's stain is the neutral stain for blood films, and being a mixture is the whole point of it.
+Leishman's stain is the neutral stain for blood films, and being a mixture is the whole point of it.
 ## answer_c
 methylene blue only
 ## explanation_c
@@ -81885,7 +81885,7 @@ H&E is the routine stain for a tissue section, not for a blood film — a film i
 ## answer_d
 leishman's stain
 ## explanation_d
-Correct. Leishman's stain is the blood film stain.
+Leishman's stain is the blood film stain.
 ## correct_answer
 D
 ## main_concept
@@ -81962,7 +81962,7 @@ Fixative material that used in blood film:
 ## answer_a
 methyl alcohol
 ## explanation_a
-Correct. Leishman's dyes are dissolved in methyl alcohol, which fixes the air-dried film as the stain is applied — one solution doing both jobs.
+Leishman's dyes are dissolved in methyl alcohol, which fixes the air-dried film as the stain is applied — one solution doing both jobs.
 ## answer_b
 eosin
 ## explanation_b
@@ -82051,11 +82051,11 @@ Staining of the macrophage with trypan blue is an example of:
 ## answer_a
 Vital stain
 ## explanation_a
-Correct. A vital stain is one taken up by living cells inside the living animal — the dye is injected and the macrophage phagocytoses it, which is why this method identifies that cell and no other.
+A vital stain is one taken up by living cells inside the living animal — the dye is injected and the macrophage phagocytoses it, which is why this method identifies that cell and no other.
 ## answer_b
 Supravital stain
 ## explanation_b
-Supravital staining is of living cells outside the body. The reticulocyte with brilliant cresyl blue is the example the book gives.
+Supravital staining is of living cells outside the body. The reticulocyte with brilliant cresyl blue is the standard example.
 ## answer_c
 Flurescent stain
 ## explanation_c
@@ -82144,7 +82144,7 @@ A vital stain works inside the living animal. The reticulocyte is stained on a s
 ## answer_b
 Supra vital stain
 ## explanation_b
-Correct, and keyed. Brilliant cresyl blue on living cells outside the body is supravital staining, and it precipitates the residual RNA of the young red cell into the visible reticulum that names it.
+Keyed. Brilliant cresyl blue on living cells outside the body is supravital staining, and it precipitates the residual RNA of the young red cell into the visible reticulum that names it.
 ## answer_c
 Toluidine blue
 ## explanation_c
@@ -82233,11 +82233,11 @@ A metachromatic stain demonstrates the mast cell and the basophil, whose granule
 ## answer_b
 Histochemical stain
 ## explanation_b
-A histochemical stain does mark the macrophage indirectly, through the acid phosphatase of its many lysosomes — but the specific demonstration named in the book is the vital stain, and the option offered here is unqualified.
+A histochemical stain does mark the macrophage indirectly, through the acid phosphatase of its many lysosomes — but the specific demonstration here is the vital stain, and the option offered here is unqualified.
 ## answer_c
 Trypan blue stain
 ## explanation_c
-Correct. Trypan blue is the vital stain the macrophage phagocytoses, and finding blue granules inside a connective tissue cell is how the cell is identified.
+Trypan blue is the vital stain the macrophage phagocytoses, and finding blue granules inside a connective tissue cell is how the cell is identified.
 ## answer_d
 Sudan III stain
 ## explanation_d
@@ -82318,7 +82318,7 @@ Mast cells can be stained by:
 ## answer_a
 Metachromatic stain
 ## explanation_a
-Correct. Toluidine blue is a metachromatic stain, and the heparin of the mast cell granule turns it purple — a colour the dye itself does not have.
+Toluidine blue is a metachromatic stain, and the heparin of the mast cell granule turns it purple — a colour the dye itself does not have.
 ## answer_b
 Histochemical stain
 ## explanation_b
@@ -82326,7 +82326,7 @@ Histochemical stains demonstrate a named chemical or enzyme; the mast cell is no
 ## answer_c
 Trypan blue stain
 ## explanation_c
-Trypan blue identifies the macrophage, by being eaten. Mast cells are not phagocytic, which is one of the differences the book draws between them and the basophil.
+Trypan blue identifies the macrophage, by being eaten. Mast cells are not phagocytic, which is one of the differences between them and the basophil.
 ## answer_d
 Sudan III stain
 ## explanation_d
@@ -82411,7 +82411,7 @@ Histamine is in the same granule and is what causes the vasodilatation of anaphy
 ## answer_b
 heparin
 ## explanation_b
-Correct. Heparin is the sulphated glycosaminoglycan of the granule, and metachromasia is what a dye does on a densely charged polyanion like it.
+Heparin is the sulphated glycosaminoglycan of the granule, and metachromasia is what a dye does on a densely charged polyanion like it.
 ## answer_c
 sulfate
 ## explanation_c
@@ -82508,7 +82508,7 @@ True on its own. PAS reacts with the sugar of glycogen and gives magenta red.
 ## answer_d
 b & c
 ## explanation_d
-Correct. Both B and C demonstrate glycogen, and they do so for the same reason: glycogen is a carbohydrate.
+Both B and C demonstrate glycogen, and they do so for the same reason: glycogen is a carbohydrate.
 ## correct_answer
 D
 ## main_concept
@@ -82597,7 +82597,7 @@ Sudan III is the fat stain. Fat and glycogen are the two cytoplasmic inclusions 
 ## answer_d
 Both a & b
 ## explanation_d
-Correct. A and B are both true, so the combined option is the one that stands.
+A and B are both true, so the combined option is the one that stands.
 ## correct_answer
 D
 ## main_concept
@@ -82653,7 +82653,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The bank carries A. Best's carmine does stain glycogen, so A is a true statement — but so is B, since the department book states that PAS stains glycogen magenta red, and the row offers "Both a & b" as option D. When two single options are both true and their conjunction is offered, the conjunction is the answer. The neighbouring row on the same printed page, `fat-cells-are-stained-with-8f1f1a6a`, is keyed one line out in the same way, which is what makes this look like a shifted key rather than a considered one.
+Answer changed from the source's: The bank carries A. Best's carmine does stain glycogen, so A is a true statement — but so is B, since PAS stains glycogen magenta red, and the row offers "Both a & b" as option D. When two single options are both true and their conjunction is offered, the conjunction is the answer. The neighbouring row on the same printed page, `fat-cells-are-stained-with-8f1f1a6a`, is keyed one line out in the same way, which is what makes this look like a shifted key rather than a considered one.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
@@ -82686,7 +82686,7 @@ Iron haematoxylin is the stain for centrioles and gives dark blue.
 ## answer_d
 Best’s carmine
 ## explanation_d
-Correct. Best's carmine reddens carbohydrate — glycogen above all — and PAS does the same in magenta.
+Best's carmine reddens carbohydrate — glycogen above all — and PAS does the same in magenta.
 ## correct_answer
 D
 ## main_concept
@@ -82767,7 +82767,7 @@ Haemoglobin is a protein and is acidophilic; it takes eosin in an ordinary film 
 ## answer_b
 Glycogen
 ## explanation_b
-Correct. Best's carmine demonstrates glycogen, and glycogen is the carbohydrate inclusion of the liver and muscle cell.
+Best's carmine demonstrates glycogen, and glycogen is the carbohydrate inclusion of the liver and muscle cell.
 ## answer_c
 Fats
 ## explanation_c
@@ -82864,7 +82864,7 @@ Eosin makes it, at best, part of the general pink of the connective tissue below
 ## answer_d
 PAS
 ## explanation_d
-Correct, and keyed. PAS reddens the basement membrane because its glycoproteins are carbohydrate — the same reason it reddens glycogen and mucus.
+Keyed. PAS reddens the basement membrane because its glycoproteins are carbohydrate — the same reason it reddens glycogen and mucus.
 ## correct_answer
 D
 ## main_concept
@@ -82953,7 +82953,7 @@ True on its own — PAS reddens it, through its glycoprotein.
 ## answer_d
 Both b and c are correct
 ## explanation_d
-Correct. Both B and C work, and they work on the same layer from its two sides: silver on the reticular fibres of the connective tissue half, PAS on the sugar of the whole.
+Both B and C work, and they work on the same layer from its two sides: silver on the reticular fibres of the connective tissue half, PAS on the sugar of the whole.
 ## correct_answer
 D
 ## main_concept
@@ -83042,7 +83042,7 @@ Trypan blue is the vital stain for the macrophage.
 ## answer_d
 Sudan III stain
 ## explanation_d
-Correct. Sudan III dissolves into the fat droplet and colours it orange, and it is the stain that identifies the adipocyte.
+Sudan III dissolves into the fat droplet and colours it orange, and it is the stain that identifies the adipocyte.
 ## correct_answer
 D
 ## main_concept
@@ -83127,7 +83127,7 @@ The answer the page carries, and the reason for this override. PAS reacts with s
 ## answer_c
 Sudan III
 ## explanation_c
-Correct. Sudan III is a fat-soluble dye and stains the droplet orange, on a frozen section.
+Sudan III is a fat-soluble dye and stains the droplet orange, on a frozen section.
 ## answer_d
 Both a & b
 ## explanation_d
@@ -83187,7 +83187,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The bank carries B — PAS — and PAS is a carbohydrate reaction that shows nothing in a lipid droplet. The department book gives Sudan III as the fat stain and PAS as the glycogen stain, which is option C. This row is number 31 on a page whose numbers 32 and 33 are keyed the same way, one line out: 32 asks for glycogen and is keyed to Best's carmine alone, and 33 asks for mitochondria and is keyed to Sudan III. Read as a block the three keys are displaced, and correcting them separately is what this override and the two beside it do.
+Answer changed from the source's: The bank carries B — PAS — and PAS is a carbohydrate reaction that shows nothing in a lipid droplet. Sudan III is the fat stain and PAS is the glycogen stain, which is option C. This row is number 31 on a page whose numbers 32 and 33 are keyed the same way, one line out: 32 asks for glycogen and is keyed to Best's carmine alone, and 33 asks for mitochondria and is keyed to Sudan III. Read as a block the three keys are displaced, and correcting them separately is what this override and the two beside it do.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
@@ -83216,7 +83216,7 @@ H&E dissolves the lipid out during processing and leaves an empty space — the 
 ## answer_c
 Sudan ‏الا‎ stain
 ## explanation_c
-Correct, and keyed. Sudan III is the fat-soluble dye that colours the droplet orange. The option is printed with the Roman numeral mangled by the scan, but the stain named is unambiguous.
+Keyed. Sudan III is the fat-soluble dye that colours the droplet orange. The option is printed with the Roman numeral mangled by the scan, but the stain named is unambiguous.
 ## answer_d
 Silver stain
 ## explanation_d
@@ -83309,7 +83309,7 @@ The liver stores glycogen. Fat accumulates in it only in disease, which is a pat
 ## answer_d
 None of the above
 ## explanation_d
-Correct by elimination: no option offered is true, because fat is stored in the unilocular adipocyte and is demonstrated by Sudan III on a frozen section.
+By elimination, no option offered is true: fat is stored in the unilocular adipocyte and is demonstrated by Sudan III on a frozen section.
 ## correct_answer
 D
 ## main_concept
@@ -83365,7 +83365,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key, and each of the three substantive options fails against the department book: fat is stored in the adipocyte of adipose connective tissue rather than mainly in muscle or in liver cells, and PAS is a carbohydrate reaction that gives nothing on lipid. That leaves "none of the above", which is the only option this row can carry.
+Answer changed from the source's: The source printed no key, and each of the three substantive options fails: fat is stored in the adipocyte of adipose connective tissue rather than mainly in muscle or in liver cells, and PAS is a carbohydrate reaction that gives nothing on lipid. That leaves "none of the above", which is the only option this row can carry.
 
 
 ---
@@ -83394,7 +83394,7 @@ Sudan black does the same in black; again the space is occupied.
 ## answer_c
 Fat cells stained with H&E
 ## explanation_c
-Correct. H&E dissolves the fat away, leaving a large empty space with the nucleus and a rim of cytoplasm flattened against one side — the stone and the band of a signet ring.
+H&E dissolves the fat away, leaving a large empty space with the nucleus and a rim of cytoplasm flattened against one side — the stone and the band of a signet ring.
 ## answer_d
 Fat cells stained with toludin blue
 ## explanation_d
@@ -83475,7 +83475,7 @@ Concerning unilocular adipocytes, they:
 ## answer_a
 Are stained by Sudan Ill
 ## explanation_a
-Correct. The single large droplet of the unilocular cell is fat, and Sudan III is what makes it visible.
+The single large droplet of the unilocular cell is fat, and Sudan III is what makes it visible.
 ## answer_b
 Are concerned with heat generation
 ## explanation_b
@@ -83543,7 +83543,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. A is true of the unilocular cell — Sudan III is the department book's stain for its fat — and the other three are each a character of the multilocular cell or of no cell: thermogenesis and multiple small droplets belong to the brown, multilocular adipocyte, and a mature fat cell does not divide.
+Answer changed from the source's: The source printed no key. A is true of the unilocular cell — Sudan III is the stain for its fat — and the other three are each a character of the multilocular cell or of no cell: thermogenesis and multiple small droplets belong to the brown, multilocular adipocyte, and a mature fat cell does not divide.
 
 
 ---
@@ -83572,7 +83572,7 @@ Metachromatic staining marks the heparin of mast cell and basophil granules, not
 ## answer_c
 Histochemical stain detecting acid phosphatase
 ## explanation_c
-Correct. Acid phosphatase is the lysosomal marker enzyme, and the histochemical reaction for it is how the organelle is identified by light microscopy.
+Acid phosphatase is the lysosomal marker enzyme, and the histochemical reaction for it is how the organelle is identified by light microscopy.
 ## answer_d
 Histochemical stain detecting alkaline phosphatase
 ## explanation_d
@@ -83657,7 +83657,7 @@ A metachromatic stain marks heparin-rich granules; a peroxisome has none.
 ## answer_b
 Histochemical stain for catalase
 ## explanation_b
-Correct. Catalase is the peroxisome's defining enzyme — it destroys the hydrogen peroxide the organelle's own oxidases produce — and the histochemical reaction for it is what identifies the organelle.
+Catalase is the peroxisome's defining enzyme — it destroys the hydrogen peroxide the organelle's own oxidases produce — and the histochemical reaction for it is what identifies the organelle.
 ## answer_c
 Histochemical stain as acid phosphatase
 ## explanation_c
@@ -83721,7 +83721,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The bank carries D, alkaline phosphatase, which is neither a lysosomal nor a peroxisomal enzyme. The department book gives the peroxisome two enzyme groups, the oxidases and catalase, and option B names catalase specifically. This row sits on the same book's page 21 among the same block of shifted keys as the fat cell and mitochondrion rows.
+Answer changed from the source's: The bank carries D, alkaline phosphatase, which is neither a lysosomal nor a peroxisomal enzyme. The peroxisome has two enzyme groups, the oxidases and catalase, and option B names catalase specifically. This row sits on the same book's page 21 among the same block of shifted keys as the fat cell and mitochondrion rows.
 
 
 ---
@@ -83742,7 +83742,7 @@ mitochondria can be stained by:
 ## answer_a
 janus green
 ## explanation_a
-Correct. Janus green is the vital stain for mitochondria, and it colours them green.
+Janus green is the vital stain for mitochondria, and it colours them green.
 ## answer_b
 van Gieson
 ## explanation_b
@@ -83835,7 +83835,7 @@ Best's carmine demonstrates glycogen.
 ## answer_b
 Janus green
 ## explanation_b
-Correct. Janus green is the vital stain for mitochondria; iron haematoxylin is the other stain the book names for them.
+Janus green is the vital stain for mitochondria; iron haematoxylin is the other stain used for them.
 ## answer_c
 Sudan III
 ## explanation_c
@@ -83899,7 +83899,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The bank carries C, Sudan III, which is the fat stain. The department book gives Janus green and iron haematoxylin as the mitochondrial stains, and Janus green is option B. This is the third row of the shifted block on the same printed page as `fat-cells-are-stained-with-8f1f1a6a` and `glycogen-granules-are-stained-with-760dabb7`.
+Answer changed from the source's: The bank carries C, Sudan III, which is the fat stain. Janus green and iron haematoxylin are the mitochondrial stains, and Janus green is option B. This is the third row of the shifted block on the same printed page as `fat-cells-are-stained-with-8f1f1a6a` and `glycogen-granules-are-stained-with-760dabb7`.
 
 
 ---
@@ -83920,7 +83920,7 @@ stain used for centriole:
 ## answer_a
 iron hematoxylin
 ## explanation_a
-Correct. Iron haematoxylin is the stain for centrioles, which are otherwise below the useful resolution of the light microscope in a routine section.
+Iron haematoxylin is the stain for centrioles, which are otherwise below the useful resolution of the light microscope in a routine section.
 ## answer_b
 janus green
 ## explanation_b
@@ -84017,7 +84017,7 @@ PAS reddens carbohydrate. The Golgi does add sugar to proteins, but the reaction
 ## answer_c
 silver
 ## explanation_c
-Correct. Silver impregnation shows the Golgi as a network of brown granules and fibrils beside the nucleus.
+Silver impregnation shows the Golgi as a network of brown granules and fibrils beside the nucleus.
 ## answer_d
 Integral membrane proteins
 ## explanation_d
@@ -84106,7 +84106,7 @@ Also swapped. H&E gives no granular network — that is silver's picture — and
 ## answer_c
 Variable in size, shape and position
 ## explanation_c
-Correct. The Golgi varies in size, shape and position with the cell: apical in a secretory cell discharging at a surface, perinuclear in a nerve cell.
+The Golgi varies in size, shape and position with the cell: apical in a secretory cell discharging at a surface, perinuclear in a nerve cell.
 ## answer_d
 Easy to see in routine histological sections
 ## explanation_d
@@ -84191,7 +84191,7 @@ True, and the answer the page carries. Silver shows the Golgi as brown granules 
 ## answer_b
 Appears as Golgi image in H/E sections
 ## explanation_b
-True, with the book's own wording behind it: in an H&E section the Golgi appears as an image — the negative Golgi image, a pale area where the basophilic cytoplasm is interrupted.
+True: in an H&E section the Golgi appears as an image — the negative Golgi image, a pale area where the basophilic cytoplasm is interrupted.
 ## answer_c
 Variable in size, shape and position
 ## explanation_c
@@ -84199,7 +84199,7 @@ True. Size, shape and position all vary with the cell and with what it is secret
 ## answer_d
 Not present in protein synthesizing cells
 ## explanation_d
-Correct, and the exception. A protein-synthesising cell has a well developed Golgi — that is what packages the protein for export — and the plasma cell shows it as a clear negative image.
+The exception. A protein-synthesising cell has a well developed Golgi — that is what packages the protein for export — and the plasma cell shows it as a clear negative image.
 ## correct_answer
 D
 ## main_concept
@@ -84255,7 +84255,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The bank carries A, "stained with silver", but that is the department book's own positive demonstration of the Golgi and cannot be the false statement. D is false on the book's account and on this leaf's own evidence: the Golgi is best developed in protein-synthesising cells, and the plasma cell — the type example of one — is the cell in which the negative Golgi image is asked about three separate times in this same bank.
+Answer changed from the source's: The bank carries A, "stained with silver", but that is the correct positive demonstration of the Golgi and cannot be the false statement. D is false both on the record and on this leaf's own evidence: the Golgi is best developed in protein-synthesising cells, and the plasma cell — the type example of one — is the cell in which the negative Golgi image is asked about three separate times in this same bank.
 
 
 ---
@@ -84284,7 +84284,7 @@ Apical describes the position in a secretory epithelial cell discharging at a fr
 ## answer_c
 Unstained
 ## explanation_c
-Correct. It appears unstained — the negative Golgi image, a pale gap in the plasma cell's otherwise deeply basophilic cytoplasm. Asked three times across three books, which makes it the most repeated question in this leaf.
+It appears unstained — the negative Golgi image, a pale gap in the plasma cell's otherwise deeply basophilic cytoplasm. Asked three times across three books, which makes it the most repeated question in this leaf.
 ## answer_d
 Basal
 ## explanation_d
@@ -84377,7 +84377,7 @@ Brown fibrils and granules is the silver picture, not the H&E one. The question 
 ## answer_d
 unstained area near the nucleus
 ## explanation_d
-Correct. The negative Golgi image: an unstained area beside the nucleus, where the Golgi takes neither dye.
+The negative Golgi image: an unstained area beside the nucleus, where the Golgi takes neither dye.
 ## correct_answer
 D
 ## main_concept
@@ -84433,7 +84433,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book gives the H&E appearance of the Golgi as the negative Golgi image — an unstained area beside the nucleus — and the identical question asked of the plasma cell, `in-h-e-stained-sections-of-plasma-cell-golgi-apparatus-appea-75f990cf`, is keyed to "unstained" in three separate books.
+Answer changed from the source's: The source printed no key. The H&E appearance of the Golgi is the negative Golgi image — an unstained area beside the nucleus — and the identical question asked of the plasma cell, `in-h-e-stained-sections-of-plasma-cell-golgi-apparatus-appea-75f990cf`, is keyed to "unstained" in three separate books.
 
 
 ---
@@ -84454,7 +84454,7 @@ negative Golgi image appears:
 ## answer_a
 in plasma cells & osteoblasts
 ## explanation_a
-True on its own. The plasma cell and the osteoblast are the two cells the books name for the negative Golgi image, because both have deeply basophilic cytoplasm for the pale area to stand out against.
+True on its own. The plasma cell and the osteoblast are the two cells named for the negative Golgi image, because both have deeply basophilic cytoplasm for the pale area to stand out against.
 ## answer_b
 when stained by H&E
 ## explanation_b
@@ -84466,7 +84466,7 @@ The reverse of the mechanism. A small Golgi gives a small pale area or none; the
 ## answer_d
 both a & b
 ## explanation_d
-Correct. Both A and B hold, and together they state the whole finding: which cells, and in which stain.
+Both A and B hold, and together they state the whole finding: which cells, and in which stain.
 ## correct_answer
 D
 ## main_concept
@@ -84543,7 +84543,7 @@ Regarding the cell membrane, the following is true:
 ## answer_a
 Non.membranous organelle
 ## explanation_a
-The plasma membrane is the first item on the department book's list of membranous organelles — being a membrane is what puts it there.
+The plasma membrane is the first item on the list of membranous organelles — being a membrane is what puts it there.
 ## answer_b
 Its function is cell respiration
 ## explanation_b
@@ -84555,7 +84555,7 @@ H&E does not resolve it. Silver or PAS is needed, and both act on the carbohydra
 ## answer_d
 Appear by EM as 3 layers
 ## explanation_d
-Correct. On electron microscopy it is trilaminar: two dark layers with a light one between them.
+On electron microscopy it is trilaminar: two dark layers with a light one between them.
 ## correct_answer
 D
 ## main_concept
@@ -84632,7 +84632,7 @@ The following stains can be used to stain the cell membrane
 ## answer_a
 Silver stain
 ## explanation_a
-Correct. Silver demonstrates the membrane, acting on the carbohydrate of its cell coat rather than on the lipid bilayer itself.
+Silver demonstrates the membrane, acting on the carbohydrate of its cell coat rather than on the lipid bilayer itself.
 ## answer_b
 Trichrome stains
 ## explanation_b
@@ -84700,7 +84700,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book names silver and PAS as the two ways of showing the plasma membrane by light microscopy, and silver is the only one of the four options offered.
+Answer changed from the source's: The source printed no key. Silver and PAS are the two ways of showing the plasma membrane by light microscopy, and silver is the only one of the four options offered.
 
 
 ---
@@ -84725,7 +84725,7 @@ Pink is collagen in eosin. Every fibre stain question turns on which stain is na
 ## answer_b
 blue
 ## explanation_b
-Correct. Mallory's trichrome stains collagen blue.
+Mallory's trichrome stains collagen blue.
 ## answer_c
 brown
 ## explanation_c
@@ -84810,7 +84810,7 @@ Which of the following would be best suited to differentiate collagen fibers fro
 ## answer_a
 Mallory trichrome stain
 ## explanation_a
-Correct, and keyed. Mallory's trichrome turns collagen blue and leaves the other fibres a different colour, which is what "differentiate" asks for.
+Keyed. Mallory's trichrome turns collagen blue and leaves the other fibres a different colour, which is what "differentiate" asks for.
 ## answer_b
 Hematoxylin and eosin stain
 ## explanation_b
@@ -84903,7 +84903,7 @@ H&E leaves collagen and elastic fibres both pink, so it differentiates nothing h
 ## answer_b
 Mallory's trichrome stain
 ## explanation_b
-Correct. Mallory's trichrome stains collagen blue against the other fibres.
+Mallory's trichrome stains collagen blue against the other fibres.
 ## answer_c
 Sudan stain
 ## explanation_c
@@ -84967,7 +84967,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The stem asks for the best stain to differentiate collagen from other fibres, and the department book gives Mallory's trichrome as the stain that turns collagen blue. The identically worded row `which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f` is keyed A for the same option in a different letter order, which corroborates it.
+Answer changed from the source's: The source printed no key. The stem asks for the best stain to differentiate collagen from other fibres, and Mallory's trichrome is the stain that turns collagen blue. The identically worded row `which-of-the-following-would-be-best-suited-to-differentiate-2ceebe5f` is keyed A for the same option in a different letter order, which corroborates it.
 
 
 ---
@@ -84988,7 +84988,7 @@ Elastic fibers can be stained brown by:
 ## answer_a
 Orecin
 ## explanation_a
-Correct. Orcein browns elastic fibres, and it leaves collagen unstained beside them.
+Orcein browns elastic fibres, and it leaves collagen unstained beside them.
 ## answer_b
 Van Gieson
 ## explanation_b
@@ -85089,7 +85089,7 @@ Purple and red is what a metachromatic dye does to a mast cell granule, not what
 ## answer_d
 Yellow
 ## explanation_d
-Correct, and keyed. Van Gieson stains elastic fibres yellow and collagen red, which is why it is the one stain that separates the two in a single field.
+Keyed. Van Gieson stains elastic fibres yellow and collagen red, which is why it is the one stain that separates the two in a single field.
 ## correct_answer
 D
 ## main_concept
@@ -85178,7 +85178,7 @@ PAS gives magenta red on carbohydrate. Elastin is protein, and elastic fibres ar
 ## answer_d
 both a & b are correct
 ## explanation_d
-Correct. Both A and B hold, and the pair is the whole of what the book's table says about staining elastic fibres apart from eosin.
+Both A and B hold, and the pair is the whole of what is said about staining elastic fibres apart from eosin.
 ## correct_answer
 D
 ## main_concept
@@ -85267,7 +85267,7 @@ Sudan shows fat.
 ## answer_d
 Silver stain
 ## explanation_d
-Correct, and keyed. Silver impregnation is the only way to see a reticular fibre, and it shows them as a fine brown branching network.
+Keyed. Silver impregnation is the only way to see a reticular fibre, and it shows them as a fine brown branching network.
 ## correct_answer
 D
 ## main_concept
@@ -85348,7 +85348,7 @@ Silver does show them, brown, and gives them the name argyrophilic.
 ## answer_b
 H&E
 ## explanation_b
-Correct, and the exception. Reticular fibres are not visible in H&E — the single most examined negative fact about them.
+The exception. Reticular fibres are not visible in H&E — the single most examined negative fact about them.
 ## answer_c
 PAS
 ## explanation_c
@@ -85445,7 +85445,7 @@ True. They form the stroma of spleen, lymph node and liver.
 ## answer_d
 They are unbranched fibers
 ## explanation_d
-Correct, and the exception. Reticular fibres branch and anastomose — that is what makes them a network, and unbranched is the one thing they are not.
+The exception. Reticular fibres branch and anastomose — that is what makes them a network, and unbranched is the one thing they are not.
 ## correct_answer
 D
 ## main_concept
@@ -85526,7 +85526,7 @@ Bundles are collagen type I. Reticular fibres anastomose into a network instead.
 ## answer_b
 Its fibres are demonstrated by silver stain
 ## explanation_b
-Correct. Silver impregnation is what demonstrates them, and nothing else in a light microscope will.
+Silver impregnation is what demonstrates them, and nothing else in a light microscope will.
 ## answer_c
 Binds structures together
 ## explanation_c
@@ -85590,7 +85590,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. B is the department book's own statement — reticular fibres are demonstrated by silver — and the other three contradict it: the fibres form a network rather than bundles, binding structures together is the job of loose areolar tissue, and reticular fibres are explicitly not visible in H&E.
+Answer changed from the source's: The source printed no key. B is correct — reticular fibres are demonstrated by silver — and the other three contradict it: the fibres form a network rather than bundles, binding structures together is the job of loose areolar tissue, and reticular fibres are explicitly not visible in H&E.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -85623,7 +85623,7 @@ True, and the same fact restated: acidophilic means it takes eosin pink.
 ## answer_d
 Branched fibers
 ## explanation_d
-Correct, and the exception. Collagen forms branching bundles of non-branching fibres; the individual fibre does not branch, and elastic fibres are the ones that do.
+The exception. Collagen forms branching bundles of non-branching fibres; the individual fibre does not branch, and elastic fibres are the ones that do.
 ## correct_answer
 D
 ## main_concept
@@ -85700,7 +85700,7 @@ Concerning collagen fibers:
 ## answer_a
 Wavy branching bundles formed of non-branching fibers.
 ## explanation_a
-Correct, and the book's own sentence. The bundle branches; the fibre within it does not.
+The bundle branches; the fibre within it does not.
 ## answer_b
 Basophilic.
 ## explanation_b
@@ -85768,7 +85768,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. Option A is the department book's wording almost verbatim — collagen fibres are "wavy branching bundles formed of non-branching fibres" — and the other three contradict the book: collagen is acidophilic not basophilic, it is flexible but inelastic, and van Gieson stains it red while yellow is what van Gieson does to elastic fibres.
+Answer changed from the source's: The source printed no key. Option A is the correct wording almost verbatim — collagen fibres are "wavy branching bundles formed of non-branching fibres" — and the other three are each contradicted: collagen is acidophilic not basophilic, it is flexible but inelastic, and van Gieson stains it red while yellow is what van Gieson does to elastic fibres.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
@@ -85801,7 +85801,7 @@ True. Orcein is the elastic fibre stain and browns them.
 ## answer_d
 They are deep basophilic
 ## explanation_d
-Correct, and the exception. Elastic fibres are acidophilic and take eosin pink; deep basophilia belongs to nuclei and to ribosome-rich cytoplasm.
+The exception. Elastic fibres are acidophilic and take eosin pink; deep basophilia belongs to nuclei and to ribosome-rich cytoplasm.
 ## correct_answer
 D
 ## main_concept
@@ -85882,7 +85882,7 @@ Bundles are collagen. Elastic fibres run singly and branch.
 ## answer_b
 Stained brown with orcein stain
 ## explanation_b
-Correct, and keyed. Orcein is the elastic fibre stain and gives brown.
+Keyed. Orcein is the elastic fibre stain and gives brown.
 ## answer_c
 Not demonstrated with H&E
 ## explanation_c
@@ -85971,7 +85971,7 @@ The plasma cell is basophilic but diffusely, from its rough endoplasmic reticulu
 ## answer_b
 Mast cells
 ## explanation_b
-Correct. Metachromatic magenta granules in a connective tissue cell are the mast cell, and the heparin in the granule is why.
+Metachromatic magenta granules in a connective tissue cell are the mast cell, and the heparin in the granule is why.
 ## answer_c
 Phagocytic cells
 ## explanation_c
@@ -86064,11 +86064,11 @@ True. IgE receptors on the mast cell surface are what allergen binds to, and the
 ## answer_c
 Its surface has receptors for IgA
 ## explanation_c
-Correct, and the exception. IgA is the antibody of secretions — saliva, tears, gut mucus — and the mast cell has no receptor for it.
+The exception. IgA is the antibody of secretions — saliva, tears, gut mucus — and the mast cell has no receptor for it.
 ## answer_d
 Its granules are stained metachromatically with toluidine blue
 ## explanation_d
-True. Toluidine blue on mast cell granules is the department book's own example of metachromasia.
+True. Toluidine blue on mast cell granules is the standard example of metachromasia.
 ## correct_answer
 C
 ## main_concept
@@ -86149,7 +86149,7 @@ Shared. Both carry IgE receptors on the surface, and both discharge on allergen 
 ## answer_b
 phagocytic activity
 ## explanation_b
-Correct, and the exception, and keyed. Neither cell is the phagocyte of this pair — the department book's comparison lists phagocytic ability among the points on which the two differ, and it is the basophil that has a limited capacity the mast cell lacks.
+The exception, and keyed. Neither cell is the phagocyte of this pair — phagocytic ability is among the points on which the two differ, and it is the basophil that has a limited capacity the mast cell lacks.
 ## answer_c
 metachromatic stained granules
 ## explanation_c
@@ -86242,7 +86242,7 @@ Histaminase is the eosinophil's enzyme, and it exists to destroy the histamine t
 ## answer_c
 Their granules are metachromatically stained.
 ## explanation_c
-Correct. Mast cell granules stain metachromatically with toluidine blue.
+Mast cell granules stain metachromatically with toluidine blue.
 ## answer_d
 They can be demonstrated with trypan blue stain.
 ## explanation_d
@@ -86302,7 +86302,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. C is the department book's own statement about mast cell granules, and each of the other three belongs to a different cell: antibody formation to the plasma cell, histaminase secretion to the eosinophil, and trypan blue demonstration to the macrophage.
+Answer changed from the source's: The source printed no key. C is correct about mast cell granules, and each of the other three belongs to a different cell: antibody formation to the plasma cell, histaminase secretion to the eosinophil, and trypan blue demonstration to the macrophage.
 
 
 ---
@@ -86327,7 +86327,7 @@ True. Presenting antigen to lymphocytes is one of the macrophage's four listed f
 ## answer_b
 It originate from B lymphocytes
 ## explanation_b
-Correct, and the exception. The macrophage comes from the blood monocyte. What comes from the B lymphocyte is the plasma cell, and the two derivations are the pair this question exists to separate.
+The exception. The macrophage comes from the blood monocyte. What comes from the B lymphocyte is the plasma cell, and the two derivations are the pair this question exists to separate.
 ## answer_c
 Stained with vital staining using trypan blue
 ## explanation_c
@@ -86416,7 +86416,7 @@ Multilobed and segmented is the neutrophil, two to five lobes; the eosinophil st
 ## answer_b
 bilobed horse show
 ## explanation_b
-Correct. Bilobed, the two lobes joined by a thick chromatin thread so that the whole looks like a horse-shoe or a pair of spectacles.
+Bilobed, the two lobes joined by a thick chromatin thread so that the whole looks like a horse-shoe or a pair of spectacles.
 ## answer_c
 S shaped
 ## explanation_c
@@ -86513,7 +86513,7 @@ True. Its granule protein is cytotoxic to parasites.
 ## answer_d
 vasodilatation, anaphylaxis by histamine secretion
 ## explanation_d
-Correct, and the exception. Releasing histamine to cause vasodilatation and anaphylaxis is the basophil and the mast cell. The eosinophil is the cell that stops it.
+The exception. Releasing histamine to cause vasodilatation and anaphylaxis is the basophil and the mast cell. The eosinophil is the cell that stops it.
 ## correct_answer
 D
 ## main_concept
@@ -86602,7 +86602,7 @@ True. Its granule protein kills parasites.
 ## answer_d
 produce trephone substance
 ## explanation_d
-Correct, and the exception, and keyed. Trephone substances are attributed to the lymphocyte, said to promote tissue growth and repair — not to the eosinophil.
+The exception, and keyed. Trephone substances are attributed to the lymphocyte, said to promote tissue growth and repair — not to the eosinophil.
 ## correct_answer
 D
 ## main_concept
@@ -86679,7 +86679,7 @@ Eosinophils granules include all of the following except:
 ## answer_a
 neurotoxins to parasites
 ## explanation_a
-True. The granule protein is cytotoxic to parasites, and the books also call it a neurotoxin for that effect.
+True. The granule protein is cytotoxic to parasites, and it is also called a neurotoxin for that effect.
 ## answer_b
 histaminase
 ## explanation_b
@@ -86691,7 +86691,7 @@ True. Sulphatase destroys heparin, the other main product of those cells.
 ## answer_d
 leukotrienes
 ## explanation_d
-Correct, and the exception. Leukotrienes are a basophil and mast cell product and cause bronchospasm; the eosinophil opposes their effects rather than releasing them.
+The exception. Leukotrienes are a basophil and mast cell product and cause bronchospasm; the eosinophil opposes their effects rather than releasing them.
 ## correct_answer
 D
 ## main_concept
@@ -86747,7 +86747,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book gives the eosinophil granule a basic protein cytotoxic to parasites, together with histaminase and sulphatase. Leukotrienes are listed among the basophil and mast cell secretions, not the eosinophil's, so D is the one item on this list that belongs to another cell.
+Answer changed from the source's: The source printed no key. The eosinophil granule carries a basic protein cytotoxic to parasites, together with histaminase and sulphatase. Leukotrienes are listed among the basophil and mast cell secretions, not the eosinophil's, so D is the one item on this list that belongs to another cell.
 
 
 ---
@@ -86780,7 +86780,7 @@ True on its own — allergy raises them, because the eosinophil is drawn in to e
 ## answer_d
 both b & c are correct
 ## explanation_d
-Correct. Both B and C raise the eosinophil count, and both for reasons the cell's two functions explain.
+Both B and C raise the eosinophil count, and both for reasons the cell's two functions explain.
 ## correct_answer
 D
 ## main_concept
@@ -86857,7 +86857,7 @@ Eosinophils are lowered 1% in the following
 ## answer_a
 typhoid fever
 ## explanation_a
-Typhoid fever is the classical cause of a low count in older texts, but the option this question is keyed against is the pharmacological one, and typhoid is not what the books teach here.
+Typhoid fever is the classical cause of a low count in older texts, but the option this question is keyed against is the pharmacological one, and typhoid is not the answer intended here.
 ## answer_b
 tuberculosis
 ## explanation_b
@@ -86869,7 +86869,7 @@ A viral infection such as influenza raises lymphocytes; it does not define an eo
 ## answer_d
 treat with cortisone
 ## explanation_d
-Correct. Corticosteroid treatment drops the eosinophil count below one per cent, which is the definition of eosinopenia, and it is the reason a steroid works in allergy.
+Corticosteroid treatment drops the eosinophil count below one per cent, which is the definition of eosinopenia, and it is the reason a steroid works in allergy.
 ## correct_answer
 D
 ## main_concept
@@ -86950,7 +86950,7 @@ The direction of the arrow is reversed. Eosinophil chemotactic factor is what th
 ## answer_b
 Have horse-shoe shaped nuclei
 ## explanation_b
-Correct. The eosinophil nucleus is bilobed and horse-shoe shaped, the two lobes joined by a thick chromatin thread.
+The eosinophil nucleus is bilobed and horse-shoe shaped, the two lobes joined by a thick chromatin thread.
 ## answer_c
 Represent about 60-70 % of circulating leucocytes
 ## explanation_c
@@ -87014,7 +87014,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. B is the department book's own description of the eosinophil nucleus — bilobed, horse-shoe shaped — and each of the other three belongs to another cell: eosinophil chemotactic factor is secreted by the mast cell and the basophil to attract eosinophils rather than by eosinophils themselves, 60–70% is the neutrophil's share of the count, and histamine and heparin are basophil products.
+Answer changed from the source's: The source printed no key. B is the correct description of the eosinophil nucleus — bilobed, horse-shoe shaped — and each of the other three belongs to another cell: eosinophil chemotactic factor is secreted by the mast cell and the basophil to attract eosinophils rather than by eosinophils themselves, 60–70% is the neutrophil's share of the count, and histamine and heparin are basophil products.
 
 
 ---
@@ -87039,7 +87039,7 @@ Urine analysis would be the answer for a urinary schistosomiasis, but the routin
 ## answer_b
 Stool analysis. 0
 ## explanation_b
-Correct. Eosinophilia with allergy excluded means a parasite, and stool analysis is how a parasite is looked for.
+Eosinophilia with allergy excluded means a parasite, and stool analysis is how a parasite is looked for.
 ## answer_c
 Estimation of his bleeding time.
 ## explanation_c
@@ -87124,7 +87124,7 @@ Which of the following is described as having a "central pallor"?
 ## answer_a
 Erythrocytes
 ## explanation_a
-Correct, and keyed. The erythrocyte is biconcave, so its centre is thinner and holds less haemoglobin — a pale disc about a third of the diameter across.
+Keyed. The erythrocyte is biconcave, so its centre is thinner and holds less haemoglobin — a pale disc about a third of the diameter across.
 ## answer_b
 Monocytes
 ## explanation_b
@@ -87217,11 +87217,11 @@ True. Reticular cells lie in the stroma of spleen, lymph node and endocrine glan
 ## answer_b
 Considered as fibroblast
 ## explanation_b
-True in the sense the books mean it: the reticular cell is a fibre-forming cell of the same family as the fibroblast, and both are grouped as connective-tissue-forming cells.
+True: the reticular cell is a fibre-forming cell of the same family as the fibroblast, and both are grouped as connective-tissue-forming cells.
 ## answer_c
 It is stained with iron HX
 ## explanation_c
-Correct, and the exception. Iron haematoxylin is the stain for centrioles. What silver demonstrates around the reticular cell is its fibres, not the cell.
+The exception. Iron haematoxylin is the stain for centrioles. What silver demonstrates around the reticular cell is its fibres, not the cell.
 ## answer_d
 Has a phagocytic function
 ## explanation_d
@@ -87302,7 +87302,7 @@ Cell membrane can be stained by:
 ## answer_a
 AG.
 ## explanation_a
-Correct. Silver is one of the two stains the book gives for the plasma membrane, and it works on the carbohydrate of the cell coat rather than on the lipid bilayer.
+Silver is one of the two stains for the plasma membrane, and it works on the carbohydrate of the cell coat rather than on the lipid bilayer.
 ## answer_b
 Tryban blue.
 ## explanation_b
@@ -87370,7 +87370,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it says the plasma membrane is hard to see by light microscopy and needs silver or PAS. Silver — printed here as "AG.", the chemical symbol — is the only one of the four options the book names.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is not from a key: the plasma membrane is hard to see by light microscopy and needs silver or PAS. Silver — printed here as "AG.", the chemical symbol — is the only one of the four options named.
 
 
 ---
@@ -87403,7 +87403,7 @@ Brilliant cresyl blue is the supravital stain of the reticulocyte, showing the r
 ## answer_d
 Periodic acid Schiff reaction (PAS
 ## explanation_d
-Correct. The periodic acid–Schiff reaction is a histochemical test for carbohydrate, and the cell coat on the outer surface of the membrane is glycoprotein and glycolipid — which is why PAS reddens it.
+The periodic acid–Schiff reaction is a histochemical test for carbohydrate, and the cell coat on the outer surface of the membrane is glycoprotein and glycolipid — which is why PAS reddens it.
 ## correct_answer
 d
 ## main_concept
@@ -87459,7 +87459,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 20
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The highlight recovery reached this row on the 2022 script but could not resolve it — the record is ambiguous and low confidence, with no answer — so the answer comes from the department book instead: it names silver and PAS as the two ways of showing the plasma membrane, and PAS is the histochemical one, reacting with the carbohydrate of the glycocalyx. Silver is not among these four options, which leaves PAS as the only candidate. The stem is peppered with scanner noise ("th : i ; Fo! g") but its sense — "by the following histochemical stain" — is intact.
+Answer changed from the source's: The highlight recovery reached this row on the 2022 script but could not resolve it — the record is ambiguous and low confidence, with no answer — so the answer given here is: silver and PAS are the two ways of showing the plasma membrane, and PAS is the histochemical one, reacting with the carbohydrate of the glycocalyx. Silver is not among these four options, which leaves PAS as the only candidate. The stem is peppered with scanner noise ("th : i ; Fo! g") but its sense — "by the following histochemical stain" — is intact.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -87492,7 +87492,7 @@ Eosinophils rise in allergy and in parasitic infestation — eosinophilia is abo
 ## answer_d
 Neutrophils.
 ## explanation_d
-Correct. Neutrophils are drawn to bacterial toxins, leave the blood by diapedesis and phagocytose the bacteria, so an acute pyogenic infection raises their percentage above 75%.
+Neutrophils are drawn to bacterial toxins, leave the blood by diapedesis and phagocytose the bacteria, so an acute pyogenic infection raises their percentage above 75%.
 ## correct_answer
 d
 ## main_concept
@@ -87548,7 +87548,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is worked from the department book: neutrophils are the first line of non-specific defence, bacterial toxins attract them, and neutrophilia is defined as a count above 75%. Acute tonsillitis is an acute bacterial infection.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer given here is: neutrophils are the first line of non-specific defence, bacterial toxins attract them, and neutrophilia is defined as a count above 75%. Acute tonsillitis is an acute bacterial infection.
 
 
 ---
@@ -87573,11 +87573,11 @@ The eosinophil's cytoplasm is crowded with large acidophilic specific granules �
 ## answer_b
 Neutrophils.
 ## explanation_b
-The neutrophil has numerous fine pale specific granules and is the closest wrong answer, since fine and pale is halfway to frosted. But the book reserves the phrase for the monocyte, and the neutrophil's granules are specific granules rather than lysosomes.
+The neutrophil has numerous fine pale specific granules and is the closest wrong answer, since fine and pale is halfway to frosted. But the phrase is reserved for the monocyte, and the neutrophil's granules are specific granules rather than lysosomes.
 ## answer_c
 Monocytes.
 ## explanation_c
-Correct. The monocyte has no specific granules at all; its pale basophilic cytoplasm is hazed by azurophil granules, which are lysosomes, and that haze is the frosted-glass appearance.
+The monocyte has no specific granules at all; its pale basophilic cytoplasm is hazed by azurophil granules, which are lysosomes, and that haze is the frosted-glass appearance.
 ## answer_d
 Basophils.
 ## explanation_d
@@ -87637,7 +87637,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer comes from the department book, which uses the phrase only once: monocytes have non-granular pale basophilic cytoplasm with a frosted-glass appearance due to lysosomes, the azurophil granules. No other cell in the book is described this way.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for it, so the answer given here is: monocytes have non-granular pale basophilic cytoplasm with a frosted-glass appearance due to lysosomes, the azurophil granules. No other cell is described this way.
 
 
 ---
@@ -87666,7 +87666,7 @@ Serratus anterior is half right, which is what makes this the strongest distract
 ## answer_c
 Trapezius and serratus anterior muscles
 ## explanation_c
-Correct. Trapezius, pulling the acromion up and behind, and serratus anterior, pulling the inferior angle forwards and laterally, form a couple that swings the glenoid cavity upwards.
+Trapezius, pulling the acromion up and behind, and serratus anterior, pulling the inferior angle forwards and laterally, form a couple that swings the glenoid cavity upwards.
 ## answer_d
 Trapezius and teres minor muscles
 ## explanation_d
@@ -87755,7 +87755,7 @@ Latissimus dorsi pulls the shoulder down when it acts. Its paralysis would if an
 ## answer_c
 trapezius
 ## explanation_c
-Correct. Trapezius holds the whole girdle up from the occiput and the vertebral spines; when the spinal accessory nerve is cut in the posterior triangle the shoulder drops.
+Trapezius holds the whole girdle up from the occiput and the vertebral spines; when the spinal accessory nerve is cut in the posterior triangle the shoulder drops.
 ## answer_d
 deltoid
 ## explanation_d
@@ -87840,7 +87840,7 @@ Serratus anterior runs laterally round the chest, which is why students place it
 ## answer_b
 The teres major muscle
 ## explanation_b
-Correct. Teres major arises from the lower third of the dorsal surface of the lateral border and from the inferior angle.
+Teres major arises from the lower third of the dorsal surface of the lateral border and from the inferior angle.
 ## answer_c
 The levator scapulae muscle
 ## explanation_c
@@ -87929,7 +87929,7 @@ Serratus anterior is a medial-border muscle despite running laterally round the 
 ## answer_b
 The teres major muscle
 ## explanation_b
-Correct, and the key. Teres major arises from the lower third of the lateral border and the inferior angle of the scapula.
+The key. Teres major arises from the lower third of the lateral border and the inferior angle of the scapula.
 ## answer_c
 The levator scapulae muscle
 ## explanation_c
@@ -88026,7 +88026,7 @@ Latissimus dorsi attaches to the inferior angle only in passing on its way to th
 ## answer_d
 Serratus anterior.
 ## explanation_d
-Correct, and the key. Serratus anterior holds the medial border of the scapula against the chest wall; when the long thoracic nerve is injured the border lifts away like a wing, most obviously when the patient pushes against a wall.
+The key. Serratus anterior holds the medial border of the scapula against the chest wall; when the long thoracic nerve is injured the border lifts away like a wing, most obviously when the patient pushes against a wall.
 ## correct_answer
 D
 ## main_concept
@@ -88119,7 +88119,7 @@ Attractive to a student who is not sure of any single option and hopes the inclu
 ## answer_e
 None of the above
 ## explanation_e
-Correct. None of the three actions offered belongs to latissimus dorsi; it extends, adducts and medially rotates.
+None of the three actions offered belongs to latissimus dorsi; it extends, adducts and medially rotates.
 ## correct_answer
 E
 ## main_concept
@@ -88212,7 +88212,7 @@ The refuge of a student unsure of any single statement. Three false statements d
 ## answer_e
 None of the above
 ## explanation_e
-Correct. Not one of the three offered actions belongs to this muscle.
+Not one of the three offered actions belongs to this muscle.
 ## correct_answer
 E
 ## main_concept
@@ -88390,7 +88390,7 @@ The answer the bank carries, and the reason for the override. The ligamentum nuc
 ## answer_d
 Outer lip of iliac crest
 ## explanation_d
-Correct. Latissimus dorsi arises directly from the posterior third of the outer lip of the iliac crest, the lowest and most lateral of its bony origins.
+Latissimus dorsi arises directly from the posterior third of the outer lip of the iliac crest, the lowest and most lateral of its bony origins.
 ## correct_answer
 D
 ## main_concept
@@ -88568,7 +88568,7 @@ Lateral rotation belongs to infraspinatus and teres minor. The twist in the lati
 ## answer_d
 Extend the arm.
 ## explanation_d
-Correct. Extension of the arm is one of the three actions of latissimus dorsi, alongside adduction and medial rotation.
+Extension of the arm is one of the three actions of latissimus dorsi, alongside adduction and medial rotation.
 ## correct_answer
 D
 ## main_concept
@@ -88649,7 +88649,7 @@ Attached to the medial border, above the root of the spine, so not the answer.
 ## answer_b
 Teres minor.
 ## explanation_b
-Correct. Teres minor arises from the upper two thirds of the dorsal surface of the lateral border and runs to the greater tuberosity of the humerus — a lateral-border muscle throughout.
+Teres minor arises from the upper two thirds of the dorsal surface of the lateral border and runs to the greater tuberosity of the humerus — a lateral-border muscle throughout.
 ## answer_c
 Serratus anterior.
 ## explanation_c
@@ -88738,7 +88738,7 @@ The answer the extractor read off this page, and the reason for the override. La
 ## answer_b
 Upper ﬁber of trapezius
 ## explanation_b
-Correct. The upper fibres of trapezius run downwards and laterally from the skull and the upper spines to the clavicle and acromion, so their pull lifts the whole girdle — the shrug.
+The upper fibres of trapezius run downwards and laterally from the skull and the upper spines to the clavicle and acromion, so their pull lifts the whole girdle — the shrug.
 ## answer_c
 Rhomboid minor
 ## explanation_c
@@ -88835,7 +88835,7 @@ Trapezius paralysis drops the shoulder — the shoulder sits lower but keeps its
 ## answer_d
 Deltoid. Vi Acad
 ## explanation_d
-Correct. Deltoid caps the shoulder and is what makes it round; when the axillary nerve is injured the muscle wastes, the acromion becomes prominent and the shoulder looks flat, even square.
+Deltoid caps the shoulder and is what makes it round; when the axillary nerve is injured the muscle wastes, the acromion becomes prominent and the shoulder looks flat, even square.
 ## correct_answer
 D
 ## main_concept
@@ -88924,7 +88924,7 @@ Trapezius paralysis drops the whole shoulder without changing its shape — the 
 ## answer_d
 Deltoid
 ## explanation_d
-Correct. Deltoid is the rounded contour of the shoulder, and once it wastes the underlying acromion stands out and the shoulder looks flat.
+Deltoid is the rounded contour of the shoulder, and once it wastes the underlying acromion stands out and the shoulder looks flat.
 ## correct_answer
 D
 ## main_concept
@@ -89009,7 +89009,7 @@ Latissimus dorsi pulls the shoulder down when it acts, so its loss cannot be the
 ## answer_c
 Trapezius
 ## explanation_c
-Correct. Trapezius suspends the clavicle and scapula from the occiput and the vertebral spines; when the spinal accessory nerve is divided the shoulder sags.
+Trapezius suspends the clavicle and scapula from the occiput and the vertebral spines; when the spinal accessory nerve is divided the shoulder sags.
 ## answer_d
 Deltoid 3-c 2-e 1-c
 ## explanation_d
@@ -89098,7 +89098,7 @@ Levator scapulae elevates the scapula and rotates the glenoid cavity downwards. 
 ## answer_c
 Rhomboids
 ## explanation_c
-Correct. The rhomboids run downwards and laterally from the vertebral spines to the medial border, so their pull draws the scapula backwards and medially — retraction, with the middle fibres of trapezius.
+The rhomboids run downwards and laterally from the vertebral spines to the medial border, so their pull draws the scapula backwards and medially — retraction, with the middle fibres of trapezius.
 ## answer_d
 Serratus posterior superior
 ## explanation_d
@@ -89187,7 +89187,7 @@ Levator scapulae elevates the scapula and rotates the glenoid downwards, and its
 ## answer_c
 Rhomboids.
 ## explanation_c
-Correct, and the key. The rhomboids draw the medial border of the scapula backwards and medially with the middle fibres of trapezius.
+The key. The rhomboids draw the medial border of the scapula backwards and medially with the middle fibres of trapezius.
 ## answer_d
 Serratus posterior superior.
 ## explanation_d
@@ -89276,7 +89276,7 @@ Serratus anterior is the right half of the pair, which makes this the strongest 
 ## answer_c
 Trapezius and serratus anterior muscles.
 ## explanation_c
-Correct. Trapezius lifting the acromion and serratus anterior pulling the inferior angle forwards form the couple that turns the glenoid cavity upwards.
+Trapezius lifting the acromion and serratus anterior pulling the inferior angle forwards form the couple that turns the glenoid cavity upwards.
 ## answer_d
 Trapezius and teres minor muscles.
 ## explanation_d
@@ -89361,7 +89361,7 @@ The answer the extractor read off this page, and the reason for the override. Se
 ## answer_b
 The teres major muscle. Vi
 ## explanation_b
-Correct. Teres major arises from the lower third of the lateral border and from the inferior angle.
+Teres major arises from the lower third of the lateral border and from the inferior angle.
 ## answer_c
 The levator scapulae muscle.P Ac ad
 ## explanation_c
@@ -89450,7 +89450,7 @@ The upper triangular space is in the axilla, bounded by teres minor, teres major
 ## answer_b
 Auscultation triangle.
 ## explanation_b
-Correct. Trapezius forms its medial boundary, latissimus dorsi its lower one and the medial border of the scapula its lateral one, with rhomboideus major and the sixth and seventh ribs in the floor.
+Trapezius forms its medial boundary, latissimus dorsi its lower one and the medial border of the scapula its lateral one, with rhomboideus major and the sixth and seventh ribs in the floor.
 ## answer_c
 Lumbar triangle.
 ## explanation_c
@@ -89543,7 +89543,7 @@ Trapezius takes the spinal root of the accessory nerve, from outside the brachia
 ## answer_c
 Latissimus dorsi.
 ## explanation_c
-Correct. The thoracodorsal nerve, C6 to C8 from the posterior cord, is the nerve to latissimus dorsi and is the structure at risk when the posterior axillary wall is cleared in a mastectomy.
+The thoracodorsal nerve, C6 to C8 from the posterior cord, is the nerve to latissimus dorsi and is the structure at risk when the posterior axillary wall is cleared in a mastectomy.
 ## answer_d
 Rhomboid minor.
 ## explanation_d
@@ -89628,7 +89628,7 @@ The trap the item is built around, and the reason both accessory options are off
 ## answer_b
 Spinal accessory
 ## explanation_b
-Correct. The spinal root of the accessory nerve arises from the upper five cervical segments, enters the skull through the foramen magnum, leaves through the jugular foramen and crosses the posterior triangle of the neck to supply sternomastoid and trapezius.
+The spinal root of the accessory nerve arises from the upper five cervical segments, enters the skull through the foramen magnum, leaves through the jugular foramen and crosses the posterior triangle of the neck to supply sternomastoid and trapezius.
 ## answer_c
 Long thoracic
 ## explanation_c
@@ -89822,7 +89822,7 @@ The wall of a blood vessel holds smooth muscle.
 ## answer_d
 Attached to the bones
 ## explanation_d
-Correct. Skeletal muscle is defined by its attachment to the skeleton, and it is the only one of the three with that attachment.
+Skeletal muscle is defined by its attachment to the skeleton, and it is the only one of the three with that attachment.
 ## correct_answer
 D
 ## main_concept
@@ -89907,7 +89907,7 @@ The heart is cardiac muscle. It is involuntary like smooth muscle, so a student 
 ## answer_c
 Present in the wall of blood vessels
 ## explanation_c
-Correct. Smooth muscle is in the wall of blood vessels and of the viscera, has no striations, and is supplied by autonomic nerves.
+Smooth muscle is in the wall of blood vessels and of the viscera, has no striations, and is supplied by autonomic nerves.
 ## answer_d
 Attached to the bones
 ## explanation_d
@@ -89996,7 +89996,7 @@ A unipennate muscle has its fibres on one side of a tendon, like the barbs on on
 ## answer_c
 Multipennate muscle fibers
 ## explanation_c
-Correct. Deltoid is the department book's example of a multipennate muscle: a series of bipennate units side by side, separated by tendinous septa, which is what lets a muscle of that size abduct the whole limb.
+Deltoid is the multipennate example: a series of bipennate units side by side, separated by tendinous septa, which is what lets a muscle of that size abduct the whole limb.
 ## answer_d
 Circumpennate muscle fibers
 ## explanation_d
@@ -90081,11 +90081,11 @@ The agonist is the prime mover itself. The stem asks for a muscle that assists i
 ## answer_b
 Antagonist
 ## explanation_b
-The answer printed in this book, and the reason for the override. The antagonist opposes the prime mover; it is the exact opposite of a muscle assisting it, and choosing it inverts the chapter's definition.
+The printed answer, and the reason for the override. The antagonist opposes the prime mover; it is the exact opposite of a muscle assisting it, and choosing it inverts the chapter's definition.
 ## answer_c
 Synergist
 ## explanation_c
-Correct, and the override. The synergist contracts to eliminate unwanted movements at joints the prime mover crosses, so that the prime mover's action on the joint that matters becomes maximal — assistance by subtraction.
+The override. The synergist contracts to eliminate unwanted movements at joints the prime mover crosses, so that the prime mover's action on the joint that matters becomes maximal — assistance by subtraction.
 ## answer_d
 Fixator
 ## explanation_d
@@ -90145,7 +90145,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The bank carries B, "Antagonist", which the department chapter contradicts in one line: the antagonist is defined as the muscle which *opposes* the action of the prime mover, and cannot be the muscle that assists it. Of the four options only the synergist is described by the chapter as acting so that the prime mover's action becomes maximal.
+Answer changed from the source's: The bank carries B, "Antagonist", which the definition contradicts in one line: the antagonist is the muscle which *opposes* the action of the prime mover, and cannot be the muscle that assists it. Of the four options only the synergist acts so that the prime mover's action becomes maximal.
 
 
 ---
@@ -90178,7 +90178,7 @@ True: the fixator, or stabiliser, fixes the origin of the prime mover or steadie
 ## answer_d
 Symphysis.
 ## explanation_d
-Correct — this is the one that is not true, and the answer. A symphysis is a secondary cartilaginous joint, such as the pubic symphysis or an intervertebral disc; it is a way of joining bones, not a role a muscle plays. The fourth muscle role the option displaces is the synergist, which cancels unwanted movement at the other joints the prime mover crosses.
+This is the one that is not true, and the answer. A symphysis is a secondary cartilaginous joint, such as the pubic symphysis or an intervertebral disc; it is a way of joining bones, not a role a muscle plays. The fourth muscle role the option displaces is the synergist, which cancels unwanted movement at the other joints the prime mover crosses.
 ## correct_answer
 d
 ## main_concept
@@ -90234,7 +90234,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: Filed here rather than in `articular-system.ts`, where the slice put it on the word "symphysis": the question classifies muscles by action, and this leaf owns that concept and the department chapter it comes from. The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which gives exactly four types of muscle action — prime mover (agonist), antagonist, fixator (stabiliser) and synergist. A symphysis is a secondary cartilaginous joint and is on no list of muscle actions.
+Answer changed from the source's: Filed here rather than in `articular-system.ts`, where the slice put it on the word "symphysis": the question classifies muscles by action, and this leaf owns that concept. The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: there are exactly four types of muscle action — prime mover (agonist), antagonist, fixator (stabiliser) and synergist. A symphysis is a secondary cartilaginous joint and is on no list of muscle actions.
 
 
 ---
@@ -90259,7 +90259,7 @@ True, so not the exception. Contraction is what the "myo-" in myo-epithelium nam
 ## answer_b
 present between base of cells & their basement membrane
 ## explanation_b
-True, so not the exception. This is the book's own wording — the cell lies between the base of the secretory cells and their basement membrane, wrapped round the acinus.
+True, so not the exception. The cell lies between the base of the secretory cells and their basement membrane, wrapped round the acinus.
 ## answer_c
 present between apex of cells & their basement membrane
 ## explanation_c
@@ -90352,7 +90352,7 @@ Picked by students who reason that the wrist "drops" into flexion and therefore 
 ## answer_c
 Radial nerve
 ## explanation_c
-Correct. Every extensor of the wrist and fingers is radial, so a radial lesion above the elbow leaves nothing to hold the wrist up and the hand hangs.
+Every extensor of the wrist and fingers is radial, so a radial lesion above the elbow leaves nothing to hold the wrist up and the hand hangs.
 ## answer_d
 Axillary nerve
 ## explanation_d
@@ -90441,7 +90441,7 @@ True as far as it goes, and it is the answer a student gives who has learnt the 
 ## answer_c
 Median, ulnar and lateral cutaneous nerves of forearm
 ## explanation_c
-Correct. Median for the lateral two-thirds, ulnar for the medial third, and the lateral cutaneous nerve of the forearm — the terminal part of the musculocutaneous — for the upper part of the thenar area.
+Median for the lateral two-thirds, ulnar for the medial third, and the lateral cutaneous nerve of the forearm — the terminal part of the musculocutaneous — for the upper part of the thenar area.
 ## answer_d
 Ulnar and radial nerve only
 ## explanation_d
@@ -90522,7 +90522,7 @@ Loss of finger's abduction and adduction results from lesion of which one of the
 ## answer_a
 Ulnar nerve
 ## explanation_a
-Correct. All four dorsal interossei, which abduct, and all three palmar interossei, which adduct, take the deep branch of the ulnar nerve.
+All four dorsal interossei, which abduct, and all three palmar interossei, which adduct, take the deep branch of the ulnar nerve.
 ## answer_b
 Median nerve
 ## explanation_b
@@ -90623,7 +90623,7 @@ The musculocutaneous nerve has already left the arm laterally, piercing the deep
 ## answer_d
 Ulnar nerve
 ## explanation_d
-Correct. The ulnar nerve grooves the back of the medial epicondyle, where it lies against bare bone and can be rolled under a finger — and where a fracture of that epicondyle catches it.
+The ulnar nerve grooves the back of the medial epicondyle, where it lies against bare bone and can be rolled under a finger — and where a fracture of that epicondyle catches it.
 ## correct_answer
 D
 ## main_concept
@@ -90704,7 +90704,7 @@ Trapezium and capitate are carpal bones that give origin to the thenar and adduc
 ## answer_b
 Is the only muscle innervated by superficial branch of ulnar nerve
 ## explanation_b
-Correct. The deep branch of the ulnar nerve supplies every other ulnar muscle in the hand; the superficial branch supplies palmaris brevis alone and then continues as the palmar digital nerves.
+The deep branch of the ulnar nerve supplies every other ulnar muscle in the hand; the superficial branch supplies palmaris brevis alone and then continues as the palmar digital nerves.
 ## answer_c
 Covers the ulnar artery and the superficial branch of median nerve
 ## explanation_c
@@ -90801,7 +90801,7 @@ The suprascapular nerve is the other branch of the upper trunk. It is the most-o
 ## answer_d
 Thoracodorsal nerve
 ## explanation_d
-Correct. The thoracodorsal (nerve to latissimus dorsi) is a branch of the posterior cord, along with the radial, axillary and the two subscapular nerves.
+The thoracodorsal (nerve to latissimus dorsi) is a branch of the posterior cord, along with the radial, axillary and the two subscapular nerves.
 ## correct_answer
 D
 ## main_concept
@@ -90890,7 +90890,7 @@ The ulnar nerve has only two muscles in the forearm, flexor carpi ulnaris and th
 ## answer_d
 Median nerve
 ## explanation_d
-Correct. Pronator teres and pronator quadratus are both anterior compartment muscles and both median, the latter through the anterior interosseous branch.
+Pronator teres and pronator quadratus are both anterior compartment muscles and both median, the latter through the anterior interosseous branch.
 ## correct_answer
 D
 ## main_concept
@@ -90975,7 +90975,7 @@ Claw hand is ulnar. It is offered here because both nerves are flexor nerves of 
 ## answer_c
 There is loss of opposition of the thumb
 ## explanation_c
-Correct. Opposition is produced by opponens pollicis, one of the three thenar muscles supplied by the recurrent branch of the median nerve, and it is the first thing tested after a median injury.
+Opposition is produced by opponens pollicis, one of the three thenar muscles supplied by the recurrent branch of the median nerve, and it is the first thing tested after a median injury.
 ## answer_d
 There is loss of sensation.over the lateral 2/3 of dorsum of hand
 ## explanation_d
@@ -91056,7 +91056,7 @@ Structures passing through the quadrangular space of the axilla; mark the correc
 ## answer_a
 The axillary nerve and posterior circumflex humeral artery
 ## explanation_a
-Correct. The axillary nerve and the posterior circumflex humeral vessels wind together round the surgical neck of the humerus through this space, which is why one injury takes both.
+The axillary nerve and the posterior circumflex humeral vessels wind together round the surgical neck of the humerus through this space, which is why one injury takes both.
 ## answer_b
 The axillary nerve and anterior circumflex humeral artery
 ## explanation_b
@@ -91149,7 +91149,7 @@ Brachioradialis forms the lateral boundary of the triangle. It is the commonest 
 ## answer_b
 Median nerve
 ## explanation_b
-Correct. The median nerve is the most medial content, lying medial to the brachial artery on the floor formed by brachialis.
+The median nerve is the most medial content, lying medial to the brachial artery on the floor formed by brachialis.
 ## answer_c
 Musculocutaneous
 ## explanation_c
@@ -91246,7 +91246,7 @@ Palmaris longus is inserted partly into the retinaculum and its tendon lies supe
 ## answer_d
 Median nerve
 ## explanation_d
-Correct. The median nerve passes deep to the retinaculum with the long flexor tendons, and compression there is carpal tunnel syndrome.
+The median nerve passes deep to the retinaculum with the long flexor tendons, and compression there is carpal tunnel syndrome.
 ## correct_answer
 D
 ## main_concept
@@ -91331,7 +91331,7 @@ The ulnar nerve is against the humerus only at the medial epicondyle, at the low
 ## answer_c
 Radial nerve
 ## explanation_c
-Correct. The radial nerve lies in the spiral groove directly on the back of the shaft, with the profunda brachii vessels, and a mid-shaft fracture is the classic cause of wrist drop.
+The radial nerve lies in the spiral groove directly on the back of the shaft, with the profunda brachii vessels, and a mid-shaft fracture is the classic cause of wrist drop.
 ## answer_d
 Median nerve
 ## explanation_d
@@ -91416,7 +91416,7 @@ The digitations are eight, which is the half of the statement that is true, but 
 ## answer_b
 Is inserted into the costal aspect of the medial border of scapula
 ## explanation_b
-Correct. Serratus anterior is inserted along the whole costal aspect of the medial border of the scapula, which is precisely why its paralysis lets that border wing away from the chest wall.
+Serratus anterior is inserted along the whole costal aspect of the medial border of the scapula, which is precisely why its paralysis lets that border wing away from the chest wall.
 ## answer_c
 Is innervated by thoracodorsal nerve
 ## explanation_c
@@ -91509,7 +91509,7 @@ The ulnar nerve has no branch above the elbow at all, let alone one to the shoul
 ## answer_c
 Axillary nerve
 ## explanation_c
-Correct. The middle fibres of deltoid carry abduction from fifteen to ninety degrees, and deltoid is supplied by the axillary (circumflex) nerve.
+The middle fibres of deltoid carry abduction from fifteen to ninety degrees, and deltoid is supplied by the axillary (circumflex) nerve.
 ## answer_d
 Suprascapular nerve
 ## explanation_d
@@ -91594,7 +91594,7 @@ The axillary nerve gives a flat shoulder, from wasting of deltoid. Its territory
 ## answer_b
 Median nerve
 ## explanation_b
-Correct. The thenar eminence wastes when the median nerve is cut, the thumb falls back into the plane of the palm, and the flattened hand is called the ape or monkey hand.
+The thenar eminence wastes when the median nerve is cut, the thumb falls back into the plane of the palm, and the flattened hand is called the ape or monkey hand.
 ## answer_c
 Ulnar nerve
 ## explanation_c
@@ -91691,7 +91691,7 @@ Opponens digiti minimi completes the hypothenar trio and is also supplied at the
 ## answer_d
 Adductor pollicis.
 ## explanation_d
-Correct. The deep branch crosses the palm deep to the long flexor tendons and terminates in adductor pollicis, which is why a deep branch lesion abolishes thumb adduction and produces Froment’s sign.
+The deep branch crosses the palm deep to the long flexor tendons and terminates in adductor pollicis, which is why a deep branch lesion abolishes thumb adduction and produces Froment’s sign.
 ## correct_answer
 D
 ## main_concept
@@ -91776,7 +91776,7 @@ The ulnar nerve touches the humerus only at the back of the medial epicondyle, a
 ## answer_c
 Axillary nerve
 ## explanation_c
-Correct. The axillary nerve passes backwards through the quadrangular space and then circles the surgical neck against bone, which is why a fracture there or a dislocation tests deltoid.
+The axillary nerve passes backwards through the quadrangular space and then circles the surgical neck against bone, which is why a fracture there or a dislocation tests deltoid.
 ## answer_d
 Musculocutaneous nerve
 ## explanation_d
@@ -91869,7 +91869,7 @@ The musculocutaneous nerve flexes the elbow. Coracobrachialis, its only shoulder
 ## answer_d
 Axillary nerve
 ## explanation_d
-Correct. Deltoid’s middle fibres carry the arm from fifteen to ninety degrees and deltoid is axillary.
+Deltoid’s middle fibres carry the arm from fifteen to ninety degrees and deltoid is axillary.
 ## correct_answer
 D
 ## main_concept
@@ -91958,7 +91958,7 @@ The musculocutaneous nerve is the nerve of elbow flexion.
 ## answer_d
 Axillary nerve
 ## explanation_d
-Correct. Deltoid, supplied by the axillary nerve, is the muscle of the fifteen-to-ninety range, and the first fifteen degrees are supraspinatus.
+Deltoid, supplied by the axillary nerve, is the muscle of the fifteen-to-ninety range, and the first fifteen degrees are supraspinatus.
 ## correct_answer
 D
 ## main_concept
@@ -92043,7 +92043,7 @@ The medial boundary is the long head of triceps; the lateral head lies laterally
 ## answer_c
 Transmits radial nerve and profound brachii artery
 ## explanation_c
-Correct. The radial nerve and the profunda brachii vessels leave the axilla through this space to reach the spiral groove — which is why a wound here and a mid-shaft fracture produce the same wrist drop.
+The radial nerve and the profunda brachii vessels leave the axilla through this space to reach the spiral groove — which is why a wound here and a mid-shaft fracture produce the same wrist drop.
 ## answer_d
 Transmits median nerve and radial recurrent artery
 ## explanation_d
@@ -92132,7 +92132,7 @@ The long head of triceps is the medial boundary here. Reaching for the lateral h
 ## answer_c
 Transmits radial nerve and profound brachii artery
 ## explanation_c
-Correct. The lower triangular space, or triangular interval, transmits the radial nerve and the profunda brachii vessels to the back of the arm.
+The lower triangular space, or triangular interval, transmits the radial nerve and the profunda brachii vessels to the back of the arm.
 ## answer_d
 Transmits median nerve and radial recurrent artery
 ## explanation_d
@@ -92213,7 +92213,7 @@ Nerve commonly injured after fracture of humerus surgical neck is:
 ## answer_a
 Axillary nerve
 ## explanation_a
-Correct. The axillary nerve circles the surgical neck in the quadrangular space, so a fracture there is tested by asking the patient to abduct and by testing the skin over the lower deltoid.
+The axillary nerve circles the surgical neck in the quadrangular space, so a fracture there is tested by asking the patient to abduct and by testing the skin over the lower deltoid.
 ## answer_b
 Ulnar nerve
 ## explanation_b
@@ -92306,7 +92306,7 @@ The axillary nerve ends at the shoulder and has nothing to do with the thumb.
 ## answer_b
 Median nerve
 ## explanation_b
-Correct. Opponens pollicis is one of the three thenar muscles taking the recurrent branch of the median nerve, and opposition is the movement lost first in carpal tunnel syndrome.
+Opponens pollicis is one of the three thenar muscles taking the recurrent branch of the median nerve, and opposition is the movement lost first in carpal tunnel syndrome.
 ## answer_c
 Radial nerve
 ## explanation_c
@@ -92399,7 +92399,7 @@ The median nerve gives the ape hand. Together with the ulnar it gives a complete
 ## answer_c
 Ulnar nerve
 ## explanation_c
-Correct. An ulnar lesion paralyses the interossei and the medial two lumbricals, so the fourth and fifth fingers claw while the second and third, whose lumbricals are median, are largely spared. That sparing is what makes the claw partial.
+An ulnar lesion paralyses the interossei and the medial two lumbricals, so the fourth and fifth fingers claw while the second and third, whose lumbricals are median, are largely spared. That sparing is what makes the claw partial.
 ## answer_d
 Radial nerve
 ## explanation_d
@@ -92488,7 +92488,7 @@ The long thoracic nerve comes off the roots, C5, C6 and C7, before the trunks fo
 ## answer_c
 Axillary nerve
 ## explanation_c
-Correct. The axillary nerve is a terminal branch of the posterior cord, the other being the radial.
+The axillary nerve is a terminal branch of the posterior cord, the other being the radial.
 ## answer_d
 Median nerve
 ## explanation_d
@@ -92581,7 +92581,7 @@ The carpal tunnel carries the median nerve; the ulnar nerve passes superficial t
 ## answer_d
 Injury to the axillary nerve leads to loss of abduction of the shoulder
 ## explanation_d
-Correct — with the qualification the examiner intends: the axillary nerve supplies deltoid, so its injury loses abduction through the fifteen-to-ninety degree range.
+With the qualification the examiner intends: the axillary nerve supplies deltoid, so its injury loses abduction through the fifteen-to-ninety degree range.
 ## correct_answer
 D
 ## main_concept
@@ -92670,7 +92670,7 @@ The nerve compressed in the carpal tunnel is the median. The ulnar nerve crosses
 ## answer_d
 Injury to the axillary nerve leads to loss of abduction of the shoulder
 ## explanation_d
-Correct. Deltoid is axillary, so an axillary lesion abolishes abduction of the shoulder through the range deltoid provides.
+Deltoid is axillary, so an axillary lesion abolishes abduction of the shoulder through the range deltoid provides.
 ## correct_answer
 D
 ## main_concept
@@ -92747,7 +92747,7 @@ Regarding radial nerve injury, choose the correct answer:
 ## answer_a
 It may be injured if the shaft of the humerus is fractured
 ## explanation_a
-Correct. The nerve lies in the spiral groove against the back of the shaft, and a fracture there is the classic cause of wrist drop.
+The nerve lies in the spiral groove against the back of the shaft, and a fracture there is the classic cause of wrist drop.
 ## answer_b
 Injury of the posterior interosseous nerve causes wrist drop
 ## explanation_b
@@ -92844,7 +92844,7 @@ Supination survives entirely: it is performed by supinator, from the radial nerv
 ## answer_c
 Loss of sensations over the lateral 2/3 of the palm
 ## explanation_c
-Correct. The palmar cutaneous branch and the palmar digital branches of the median nerve together cover the lateral two-thirds of the palm.
+The palmar cutaneous branch and the palmar digital branches of the median nerve together cover the lateral two-thirds of the palm.
 ## answer_d
 Weak flexion of the wrist with radial deviation
 ## explanation_d
@@ -92937,7 +92937,7 @@ The median nerve crosses the front of the joint in the cubital fossa on its way 
 ## answer_d
 Axillary nerve
 ## explanation_d
-Correct, and the exception. The axillary nerve ends in deltoid and teres minor and never reaches below the shoulder; by Hilton’s law a joint takes the nerves of the muscles that move it, and no muscle the axillary nerve supplies moves the elbow.
+The exception. The axillary nerve ends in deltoid and teres minor and never reaches below the shoulder; by Hilton’s law a joint takes the nerves of the muscles that move it, and no muscle the axillary nerve supplies moves the elbow.
 ## correct_answer
 D
 ## main_concept
@@ -93022,7 +93022,7 @@ The long thoracic nerve arises from the roots C5, C6 and C7 and descends on serr
 ## answer_c
 Axillary nerve
 ## explanation_c
-Correct. The posterior cord ends in the radial and axillary nerves and gives the two subscapular nerves and the thoracodorsal on the way.
+The posterior cord ends in the radial and axillary nerves and gives the two subscapular nerves and the thoracodorsal on the way.
 ## answer_d
 Median nerve
 ## explanation_d
@@ -93111,7 +93111,7 @@ The same root value as A, printed a second time with "root" in the singular. Two
 ## answer_c
 Nerve roots C5, 6, 7, 8c and T1
 ## explanation_c
-Correct. The radial nerve is the largest branch of the posterior cord and carries C5, C6, C7, C8 and T1. The "8c" in this copy is the OCR of "8 and".
+The radial nerve is the largest branch of the posterior cord and carries C5, C6, C7, C8 and T1. The "8c" in this copy is the OCR of "8 and".
 ## answer_d
 Nerve roots C5, 6, 7 and 8
 ## explanation_d
@@ -93200,7 +93200,7 @@ The long thoracic nerve comes off the roots.
 ## answer_c
 Musculocutaneous nerve
 ## explanation_c
-Correct. The musculocutaneous nerve is the lateral cord’s own terminal branch, and it is the nerve of the anterior compartment of the arm.
+The musculocutaneous nerve is the lateral cord’s own terminal branch, and it is the nerve of the anterior compartment of the arm.
 ## answer_d
 Suprascapular nerve
 ## explanation_d
@@ -93289,7 +93289,7 @@ The long thoracic nerve is a root branch and travels alone down the medial wall 
 ## answer_c
 Musculocutaneous nerve
 ## explanation_c
-Correct. Musculocutaneous, the lateral root of the median and the lateral pectoral nerve are the three branches of the lateral cord.
+Musculocutaneous, the lateral root of the median and the lateral pectoral nerve are the three branches of the lateral cord.
 ## answer_d
 Suprascapular nerve
 ## explanation_d
@@ -93374,7 +93374,7 @@ An axillary nerve lesion flattens the shoulder and weakens abduction to ninety d
 ## answer_b
 long thoracic nerve.
 ## explanation_b
-Correct. The long thoracic nerve runs superficially on serratus anterior on the lateral chest wall, which is what makes it vulnerable to a stab there and to axillary surgery.
+The long thoracic nerve runs superficially on serratus anterior on the lateral chest wall, which is what makes it vulnerable to a stab there and to axillary surgery.
 ## answer_c
 dorsal scapular nerve
 ## explanation_c
@@ -93467,7 +93467,7 @@ The median nerve is endangered by a supracondylar fracture at the lower end of t
 ## answer_c
 radial nerve
 ## explanation_c
-Correct. The spiral groove runs across the back of the mid-shaft and carries the radial nerve with the profunda brachii vessels.
+The spiral groove runs across the back of the mid-shaft and carries the radial nerve with the profunda brachii vessels.
 ## answer_d
 axillary nerve
 ## explanation_d
@@ -93556,7 +93556,7 @@ The median nerve’s only intrinsic muscles are the three thenar muscles and the
 ## answer_c
 Ulnar nerve.
 ## explanation_c
-Correct. The palmar interossei adduct the fingers towards the middle finger, and they are ulnar — the same test as Froment’s sign one digit over.
+The palmar interossei adduct the fingers towards the middle finger, and they are ulnar — the same test as Froment’s sign one digit over.
 ## answer_d
 Musculocutaneous nerve.
 ## explanation_d
@@ -93641,7 +93641,7 @@ The superficial branch supplies palmaris brevis and then the skin of the medial 
 ## answer_b
 Deep branch of ulnar nerve.
 ## explanation_b
-Correct. The deep branch is the motor branch, and adductor pollicis is the last muscle it supplies.
+The deep branch is the motor branch, and adductor pollicis is the last muscle it supplies.
 ## answer_c
 Median nerve.
 ## explanation_c
@@ -93726,11 +93726,11 @@ A patient with loss of sensation on the lateral 2/3 of the dorsum of the hand. T
 ## answer_a
 Median nerve
 ## explanation_a
-The median nerve covers the lateral two-thirds of the palm — the same fraction on the other surface. Reading "2/3" and answering before reading "dorsum" is the entire trap, and it is the answer the books themselves print.
+The median nerve covers the lateral two-thirds of the palm — the same fraction on the other surface. Reading "2/3" and answering before reading "dorsum" is the entire trap, and it is the printed answer.
 ## answer_b
 Superficial radial nerve
 ## explanation_b
-Correct. The superficial terminal branch of the radial nerve supplies the lateral two-thirds of the back of the hand and the backs of the lateral three and a half fingers to the level of the nail beds.
+The superficial terminal branch of the radial nerve supplies the lateral two-thirds of the back of the hand and the backs of the lateral three and a half fingers to the level of the nail beds.
 ## answer_c
 Ulnar nerve
 ## explanation_c
@@ -93819,7 +93819,7 @@ The palm, not the dorsum. This is the printed key and it is the mistake the ques
 ## answer_b
 Superﬁcial radial nerve
 ## explanation_b
-Correct. The superficial branch of the radial nerve winds round the lateral side of the wrist to supply the lateral two-thirds of the back of the hand.
+The superficial branch of the radial nerve winds round the lateral side of the wrist to supply the lateral two-thirds of the back of the hand.
 ## answer_c
 Ulnar nerve. Ac
 ## explanation_c
@@ -93908,7 +93908,7 @@ The lateral two-thirds of the palm is median. Choosing it here means matching th
 ## answer_b
 Superﬁcial radial nerve.
 ## explanation_b
-Correct. The superficial radial nerve is purely sensory and supplies the lateral two-thirds of the dorsum of the hand.
+The superficial radial nerve is purely sensory and supplies the lateral two-thirds of the dorsum of the hand.
 ## answer_c
 Ulnar nerve.
 ## explanation_c
@@ -94005,7 +94005,7 @@ The median nerve alone gives the ape hand and weakness of the index and middle f
 ## answer_d
 Both median and ulnar nerves.
 ## explanation_d
-Correct. A wrist laceration deep enough to take both nerves paralyses all four lumbricals and all seven interossei, and the unopposed long extensors and long flexors produce the complete claw.
+A wrist laceration deep enough to take both nerves paralyses all four lumbricals and all seven interossei, and the unopposed long extensors and long flexors produce the complete claw.
 ## correct_answer
 D
 ## main_concept
@@ -94090,7 +94090,7 @@ This names a branch rather than a site of injury, and triceps paralysis would ab
 ## answer_c
 Radial nerve in the axilla.
 ## explanation_c
-Correct. The arm hung over the back of a chair compresses the radial nerve in the axilla, the classical Saturday night palsy: the wrist and fingers cannot be extended while elbow flexion, which is musculocutaneous, is unaffected.
+The arm hung over the back of a chair compresses the radial nerve in the axilla, the classical Saturday night palsy: the wrist and fingers cannot be extended while elbow flexion, which is musculocutaneous, is unaffected.
 ## answer_d
 Posterior cord.
 ## explanation_d
@@ -94179,7 +94179,7 @@ Triceps is a muscle, not a site, and the stem describes no loss of elbow extensi
 ## answer_c
 radial nerve in the axilla
 ## explanation_c
-Correct. Compression of the radial nerve in the axilla by the back of a chair is Saturday night palsy, and the picture is inability to extend the hand with elbow flexion preserved.
+Compression of the radial nerve in the axilla by the back of a chair is Saturday night palsy, and the picture is inability to extend the hand with elbow flexion preserved.
 ## answer_d
 posterior cord
 ## explanation_d
@@ -94353,7 +94353,7 @@ The axillary nerve deformity is the flat shoulder.
 ## answer_b
 Median nerve.
 ## explanation_b
-Correct. Wasting of the three thenar muscles flattens the ball of the thumb and lets it fall back into the plane of the palm.
+Wasting of the three thenar muscles flattens the ball of the thumb and lets it fall back into the plane of the palm.
 ## answer_c
 Ulnar nerve.
 ## explanation_c
@@ -94438,7 +94438,7 @@ Complete claw hand deformity is due to injury of: (2019)
 ## answer_a
 Median and ulnar nerves.
 ## explanation_a
-Correct. Median and ulnar together account for all four lumbricals and all seven interossei, and only then do all four fingers hyperextend at the knuckles and flex at the interphalangeal joints.
+Median and ulnar together account for all four lumbricals and all seven interossei, and only then do all four fingers hyperextend at the knuckles and flex at the interphalangeal joints.
 ## answer_b
 Radial and ulnar nerve.
 ## explanation_b
@@ -94539,7 +94539,7 @@ Opponens digiti minimi likewise.
 ## answer_d
 Adductor pollicis.
 ## explanation_d
-Correct. The deep branch crosses the whole palm and terminates in adductor pollicis, whose loss gives Froment’s sign.
+The deep branch crosses the whole palm and terminates in adductor pollicis, whose loss gives Froment’s sign.
 ## correct_answer
 D
 ## main_concept
@@ -94620,7 +94620,7 @@ The superficial branch supplies palmaris brevis and the skin of the medial one a
 ## answer_b
 Deep branch of the ulnar nerve.
 ## explanation_b
-Correct. The deep branch is the motor branch of the ulnar nerve in the hand and supplies all four dorsal and all three palmar interossei.
+The deep branch is the motor branch of the ulnar nerve in the hand and supplies all four dorsal and all three palmar interossei.
 ## answer_c
 lateral terminal division of the median nerve.
 ## explanation_c
@@ -94709,7 +94709,7 @@ The superficial branch is almost entirely cutaneous. It is the printed key and i
 ## answer_b
 Deep branch of the ulnar nerve
 ## explanation_b
-Correct. All seven interossei are supplied by the deep branch of the ulnar nerve, which is what makes finger abduction and adduction the bedside test of that nerve.
+All seven interossei are supplied by the deep branch of the ulnar nerve, which is what makes finger abduction and adduction the bedside test of that nerve.
 ## answer_c
 lateral terminal division of the median nerve
 ## explanation_c
@@ -94798,7 +94798,7 @@ The lateral cutaneous nerve of the forearm reaches only the upper part of the ba
 ## answer_b
 Palmar cutaneous branch of median nerve
 ## explanation_b
-Correct. The palmar cutaneous branch of the median nerve is purely sensory to the lateral palm and lies superficial to the retinaculum, so a transverse laceration at the wrist can take it alone.
+The palmar cutaneous branch of the median nerve is purely sensory to the lateral palm and lies superficial to the retinaculum, so a transverse laceration at the wrist can take it alone.
 ## answer_c
 Palmar digital branches of median nerve
 ## explanation_c
@@ -94887,7 +94887,7 @@ The lateral cutaneous nerve of the forearm ends over the thenar area proximally 
 ## answer_b
 Palmar cutaneous branch of median nerve
 ## explanation_b
-Correct. A purely sensory branch, superficial to the retinaculum, supplying the skin of the lateral palm — which is precisely the deficit described.
+A purely sensory branch, superficial to the retinaculum, supplying the skin of the lateral palm — which is precisely the deficit described.
 ## answer_c
 Palmar digital branches of median nerve
 ## explanation_c
@@ -94980,7 +94980,7 @@ The radial nerve is at the lateral side, having pierced the lateral intermuscula
 ## answer_c
 Ulnar nerve.
 ## explanation_c
-Correct. The ulnar nerve is in direct contact with the back of the medial epicondyle and is torn or stretched when that epicondyle is avulsed.
+The ulnar nerve is in direct contact with the back of the medial epicondyle and is torn or stretched when that epicondyle is avulsed.
 ## answer_d
 Posterior interosseous nerve.
 ## explanation_d
@@ -95073,7 +95073,7 @@ Wrist drop is radial, and the radial nerve carries C5 to T1 — so a C5 and C6 l
 ## answer_d
 Policeman’s tip position
 ## explanation_d
-Correct. The shoulder adducted and medially rotated, the elbow extended and the forearm pronated makes the hand face backwards behind the hip, the position in which a policeman or porter takes a tip.
+The shoulder adducted and medially rotated, the elbow extended and the forearm pronated makes the hand face backwards behind the hip, the position in which a policeman or porter takes a tip.
 ## correct_answer
 D
 ## main_concept
@@ -95154,7 +95154,7 @@ The lateral pectoral nerve is a branch of the lateral cord, distal to the trunks
 ## answer_b
 Suprascapular
 ## explanation_b
-Correct. The suprascapular nerve leaves the upper trunk and supplies supraspinatus and infraspinatus, which is why an Erb’s lesion costs both the initiation of abduction and lateral rotation.
+The suprascapular nerve leaves the upper trunk and supplies supraspinatus and infraspinatus, which is why an Erb’s lesion costs both the initiation of abduction and lateral rotation.
 ## answer_c
 Dorsal scapular
 ## explanation_c
@@ -95243,7 +95243,7 @@ The lateral pectoral nerve is a lateral cord branch.
 ## answer_b
 Suprascapular.
 ## explanation_b
-Correct. The suprascapular nerve is the upper trunk’s named branch and the reason supraspinatus and infraspinatus fail in Erb’s palsy.
+The suprascapular nerve is the upper trunk’s named branch and the reason supraspinatus and infraspinatus fail in Erb’s palsy.
 ## answer_c
 Dorsal scapular.
 ## explanation_c
@@ -95340,7 +95340,7 @@ The musculocutaneous nerve flexes the elbow.
 ## answer_d
 Axillary nerve.
 ## explanation_d
-Correct. Deltoid’s middle fibres carry the arm from fifteen to ninety degrees, and deltoid is axillary.
+Deltoid’s middle fibres carry the arm from fifteen to ninety degrees, and deltoid is axillary.
 ## correct_answer
 D
 ## main_concept
@@ -95429,7 +95429,7 @@ The musculocutaneous nerve is the nerve of the anterior compartment of the arm.
 ## answer_d
 Axillary nerve.
 ## explanation_d
-Correct. Loss of the fifteen-to-ninety range with a flattened shoulder contour is the axillary nerve.
+Loss of the fifteen-to-ninety range with a flattened shoulder contour is the axillary nerve.
 ## correct_answer
 D
 ## main_concept
@@ -95510,7 +95510,7 @@ The artery is right and the nerve is wrong. This pairing is the printed key on t
 ## answer_b
 Posterior circumﬂex humeral artery & axillary nerve
 ## explanation_b
-Correct. The axillary nerve and the posterior circumflex humeral vessels pass together through the quadrangular space to reach the deep surface of deltoid.
+The axillary nerve and the posterior circumflex humeral vessels pass together through the quadrangular space to reach the deep surface of deltoid.
 ## answer_c
 Radial nerve & profunda brachii artery
 ## explanation_c
@@ -95599,7 +95599,7 @@ Right artery, wrong nerve. It is the printed key and it is wrong, and it is wron
 ## answer_b
 Posterior circumﬂex humeral artery & axillary nerve.
 ## explanation_b
-Correct. Axillary nerve and posterior circumflex humeral vessels together.
+Axillary nerve and posterior circumflex humeral vessels together.
 ## answer_c
 Radial nerve & profunda brachii artery.
 ## explanation_c
@@ -95684,7 +95684,7 @@ Knife wound near medial border of cubital fossa that completely transects y pron
 ## answer_a
 Injure median nerve
 ## explanation_a
-Correct. The median nerve leaves the fossa by passing between the two heads of pronator teres, so the muscle and the nerve cannot be separated at this site.
+The median nerve leaves the fossa by passing between the two heads of pronator teres, so the muscle and the nerve cannot be separated at this site.
 ## answer_b
 Injure musculocutaneous nerve
 ## explanation_b
@@ -95785,7 +95785,7 @@ Claw hand is ulnar, or median and ulnar together.
 ## answer_d
 Flat shoulder. y
 ## explanation_d
-Correct. Deltoid wastes, the rounded contour of the shoulder is lost, and the acromion stands out under the skin — the flat shoulder.
+Deltoid wastes, the rounded contour of the shoulder is lost, and the acromion stands out under the skin — the flat shoulder.
 ## correct_answer
 D
 ## main_concept
@@ -95862,7 +95862,7 @@ Loss of finger's abduction and adduction results from lesion of which one of the
 ## answer_a
 Ulnar nerve
 ## explanation_a
-Correct. Every interosseous muscle is ulnar, which is why spreading the fingers is the bedside test of that nerve.
+Every interosseous muscle is ulnar, which is why spreading the fingers is the bedside test of that nerve.
 ## answer_b
 Median nerve
 ## explanation_b
@@ -95951,7 +95951,7 @@ Loss of ﬁnger's abduction and adduction results from lesion of which one of th
 ## answer_a
 Ulnar nerve. P Ac ad
 ## explanation_a
-Correct. The deep branch of the ulnar nerve supplies all four dorsal and all three palmar interossei.
+The deep branch of the ulnar nerve supplies all four dorsal and all three palmar interossei.
 ## answer_b
 Median nerve
 ## explanation_b
@@ -96040,7 +96040,7 @@ Loss of ﬁnger's abduction and adduction results from lesion of which one of th
 ## answer_a
 Ulnar nerve.
 ## explanation_a
-Correct. Finger abduction and adduction are the interossei, and every interosseous is ulnar.
+Finger abduction and adduction are the interossei, and every interosseous is ulnar.
 ## answer_b
 Median nerve.
 ## explanation_b
@@ -96129,7 +96129,7 @@ Loss of ﬁnger’s adduction results from lesion of which of the following nerv
 ## answer_a
 Ulnar nerve.
 ## explanation_a
-Correct. The palmar interossei draw the fingers towards the middle finger and are ulnar, which is why a sheet of paper held between two fingers is an ulnar nerve test.
+The palmar interossei draw the fingers towards the middle finger and are ulnar, which is why a sheet of paper held between two fingers is an ulnar nerve test.
 ## answer_b
 Median nerve.
 ## explanation_b
@@ -96222,7 +96222,7 @@ The superficial radial nerve stops short of the finger tips: on the dorsum its t
 ## answer_b
 Median
 ## explanation_b
-Correct. The palmar digital branch of the median nerve supplies the pulp of the index finger and wraps round to its nail bed, which is the surface that does the feeling in a pinch grip.
+The palmar digital branch of the median nerve supplies the pulp of the index finger and wraps round to its nail bed, which is the surface that does the feeling in a pinch grip.
 ## answer_c
 Ulnar. P
 ## explanation_c
@@ -96319,7 +96319,7 @@ The musculocutaneous nerve ends in the arm.
 ## answer_d
 Median.
 ## explanation_d
-Correct. Opponens pollicis is median, and losing opposition is the deficit that costs the hand its grip in carpal tunnel syndrome.
+Opponens pollicis is median, and losing opposition is the deficit that costs the hand its grip in carpal tunnel syndrome.
 ## correct_answer
 D
 ## main_concept
@@ -96408,7 +96408,7 @@ The lateral pectoral nerve is likewise lateral cord; the medial pectoral nerve i
 ## answer_d
 Ulnar nerve Vi Acad
 ## explanation_d
-Correct. The ulnar nerve is the largest branch of the medial cord, C8 and T1.
+The ulnar nerve is the largest branch of the medial cord, C8 and T1.
 ## correct_answer
 D
 ## main_concept
@@ -96493,7 +96493,7 @@ The musculocutaneous nerve crosses in front of the elbow well laterally, at the 
 ## answer_c
 The ulnar nerve passes behind it
 ## explanation_c
-Correct. The ulnar nerve lies in a groove on the back of the medial epicondyle, against bone, which is what makes it palpable and vulnerable there.
+The ulnar nerve lies in a groove on the back of the medial epicondyle, against bone, which is what makes it palpable and vulnerable there.
 ## answer_d
 Gives attachment to the common extensor origin
 ## explanation_d
@@ -96582,7 +96582,7 @@ The musculocutaneous nerve becomes cutaneous at the lateral side of the biceps t
 ## answer_c
 The ulnar nerve passes behind it
 ## explanation_c
-Correct. The ulnar nerve grooves the back of the medial epicondyle.
+The ulnar nerve grooves the back of the medial epicondyle.
 ## answer_d
 Gives attachment to the common extensor origin. 1
 ## explanation_d
@@ -96663,7 +96663,7 @@ Medial intermuscular septum is pierced by:
 ## answer_a
 Ulnar nerve
 ## explanation_a
-Correct. The ulnar nerve pierces the medial septum about the middle of the arm to pass from the flexor compartment to the extensor one, and it is accompanied by the superior ulnar collateral artery.
+The ulnar nerve pierces the medial septum about the middle of the arm to pass from the flexor compartment to the extensor one, and it is accompanied by the superior ulnar collateral artery.
 ## answer_b
 Radial nerve
 ## explanation_b
@@ -96756,7 +96756,7 @@ Medial intermuscular septum is pierced by: (IPKA) y y
 ## answer_a
 Ulnar nerve
 ## explanation_a
-Correct. The ulnar nerve leaves the front of the arm through the medial septum to reach the back of the medial epicondyle.
+The ulnar nerve leaves the front of the arm through the medial septum to reach the back of the medial epicondyle.
 ## answer_c
 Median nerve
 ## explanation_c
@@ -97027,7 +97027,7 @@ The median nerve supplies the thenar eminence — the other side of the palm. Mi
 ## answer_b
 Ulnar nerve.
 ## explanation_b
-Correct. Abductor, flexor and opponens digiti minimi are all supplied by the deep branch of the ulnar nerve.
+Abductor, flexor and opponens digiti minimi are all supplied by the deep branch of the ulnar nerve.
 ## answer_c
 Median & radial nerves.
 ## explanation_c
@@ -97112,7 +97112,7 @@ Nerve responsible for ﬁne movements of the hand is: (2018) Ac em
 ## answer_a
 Median Nerve
 ## explanation_a
-Correct. The median nerve carries opposition of the thumb and sensation from the pulps of the lateral three and a half fingers, and fine manipulation needs both — which is why it is sometimes called the labourer’s eye.
+The median nerve carries opposition of the thumb and sensation from the pulps of the lateral three and a half fingers, and fine manipulation needs both — which is why it is sometimes called the labourer’s eye.
 ## answer_b
 Radial nerve
 ## explanation_b
@@ -97201,7 +97201,7 @@ Numbness to the skin on the medial part of the palm of the hand may be caused by
 ## answer_a
 Ulnar nerve
 ## explanation_a
-Correct. The palmar cutaneous branch and the palmar digital branches of the ulnar nerve cover the medial third of the palm and the medial one and a half fingers.
+The palmar cutaneous branch and the palmar digital branches of the ulnar nerve cover the medial third of the palm and the medial one and a half fingers.
 ## answer_b
 Radial nerve
 ## explanation_b
@@ -97290,7 +97290,7 @@ Numbness to the skin on the medial part of the palm of the hand may be caused by
 ## answer_a
 Ulnar nerve
 ## explanation_a
-Correct. The medial third of the palm is supplied by the ulnar nerve.
+The medial third of the palm is supplied by the ulnar nerve.
 ## answer_b
 Radial nerve
 ## explanation_b
@@ -97391,7 +97391,7 @@ The median cubital vein lies superficial to the aponeurosis, which is the whole 
 ## answer_d
 Median nerve.
 ## explanation_d
-Correct. The median nerve and the brachial artery run deep to the bicipital aponeurosis, protected by it.
+The median nerve and the brachial artery run deep to the bicipital aponeurosis, protected by it.
 ## correct_answer
 D
 ## main_concept
@@ -97480,7 +97480,7 @@ The musculocutaneous nerve has become cutaneous laterally, above the elbow.
 ## answer_d
 Ulnar nerve
 ## explanation_d
-Correct. The ulnar nerve grooves the back of the medial epicondyle against bone.
+The ulnar nerve grooves the back of the medial epicondyle against bone.
 ## correct_answer
 D
 ## main_concept
@@ -97561,7 +97561,7 @@ Palmaris longus is partly inserted into the retinaculum and its tendon crosses s
 ## answer_b
 Tendon of ﬂexor pollicis longus
 ## explanation_b
-Correct. Flexor pollicis longus passes through the carpal tunnel deep to the retinaculum, in a synovial sheath of its own separate from the common sheath of the other eight flexor tendons.
+Flexor pollicis longus passes through the carpal tunnel deep to the retinaculum, in a synovial sheath of its own separate from the common sheath of the other eight flexor tendons.
 ## answer_c
 Ulnar nerve
 ## explanation_c
@@ -97650,7 +97650,7 @@ Palmaris longus lies superficial to the retinaculum and is attached to it.
 ## answer_b
 Tendon of flexor pollicis longus
 ## explanation_b
-Correct. Flexor pollicis longus runs in the carpal tunnel in its own synovial sheath.
+Flexor pollicis longus runs in the carpal tunnel in its own synovial sheath.
 ## answer_c
 Ulnar nerve
 ## explanation_c
@@ -97735,7 +97735,7 @@ One of the following structures passes in the roof of the cubital fossa: (2019) 
 ## answer_a
 Cephalic vein
 ## explanation_a
-Correct. The roof is skin and superficial fascia carrying the cephalic and basilic veins with the median cubital vein between them, plus deep fascia reinforced by the bicipital aponeurosis.
+The roof is skin and superficial fascia carrying the cephalic and basilic veins with the median cubital vein between them, plus deep fascia reinforced by the bicipital aponeurosis.
 ## answer_b
 Radial nerve. y
 ## explanation_b
@@ -97828,7 +97828,7 @@ The axillary nerve stops at the shoulder. It is the printed key here and it is i
 ## answer_b
 Median nerve.
 ## explanation_b
-Correct. Opponens pollicis takes the recurrent branch of the median nerve.
+Opponens pollicis takes the recurrent branch of the median nerve.
 ## answer_c
 Radial nerve.
 ## explanation_c
@@ -97913,7 +97913,7 @@ Paralysis of the deltoid muscle causes: (2017) em Ac P a- Flat shoulder. P Vi b-
 ## answer_a
 Flat shoulder.
 ## explanation_a
-Correct. With deltoid wasted the acromion becomes prominent and the rounded curve of the shoulder is lost.
+With deltoid wasted the acromion becomes prominent and the rounded curve of the shoulder is lost.
 ## answer_b
 Winging of the scapula.
 ## explanation_b
@@ -98002,7 +98002,7 @@ Paralysis of the serratus anterior muscle causes:
 ## answer_a
 Winging of the scapula
 ## explanation_a
-Correct. The medial border of the scapula lifts away from the chest wall, most obviously when the patient pushes forwards against a wall.
+The medial border of the scapula lifts away from the chest wall, most obviously when the patient pushes forwards against a wall.
 ## answer_b
 Claw hand
 ## explanation_b
@@ -98095,7 +98095,7 @@ Paralysis of the serratus anterior muscle causes: (IPKA) Ac ad Ac ad ad ad
 ## answer_a
 Winging of the scapula
 ## explanation_a
-Correct. Serratus anterior holds the scapula to the chest wall and rotates it upwards; without it the medial border wings.
+Serratus anterior holds the scapula to the chest wall and rotates it upwards; without it the medial border wings.
 ## answer_b
 Claw hand
 ## explanation_b
@@ -98192,7 +98192,7 @@ The median nerve gives the ape hand; with the ulnar it gives a complete claw, bu
 ## answer_c
 Ulnar nerve.
 ## explanation_c
-Correct. The interossei and the medial two lumbricals are ulnar, so the medial two fingers claw while the lateral two are held by their median lumbricals.
+The interossei and the medial two lumbricals are ulnar, so the medial two fingers claw while the lateral two are held by their median lumbricals.
 ## answer_d
 Radial nerve.
 ## explanation_d
@@ -98285,7 +98285,7 @@ The carpal tunnel carries the median nerve; the ulnar nerve passes over the reti
 ## answer_d
 Injury to the axillary nerve leads to loss of abduction of the shoulder.
 ## explanation_d
-Correct. Deltoid is axillary, so an axillary lesion abolishes abduction through deltoid’s range.
+Deltoid is axillary, so an axillary lesion abolishes abduction through deltoid’s range.
 ## correct_answer
 D
 ## main_concept
@@ -98362,7 +98362,7 @@ Regarding radial nerve injury, choose the correct answer: (DEP BOOK) y ad Ac a- 
 ## answer_a
 It may be Injured if the shaft of the humerus Is fractured.
 ## explanation_a
-Correct. A fracture of the shaft of the humerus is the classic cause of a radial nerve lesion, because the nerve is applied directly to the bone in the spiral groove.
+A fracture of the shaft of the humerus is the classic cause of a radial nerve lesion, because the nerve is applied directly to the bone in the spiral groove.
 ## answer_b
 Injury of the posterior interosseous nerve causes wrist drop.
 ## explanation_b
@@ -98455,7 +98455,7 @@ Behind the lateral epicondyle is the wrong side of the elbow entirely; that is w
 ## answer_b
 Passes between humeral and ulnar attachment of ﬂexor carpi ulnaris.
 ## explanation_b
-Correct. The two heads of flexor carpi ulnaris, from the medial epicondyle and the olecranon, form the arch the nerve enters the forearm through.
+The two heads of flexor carpi ulnaris, from the medial epicondyle and the olecranon, form the arch the nerve enters the forearm through.
 ## answer_c
 Passes between ﬂexor digitorum profundus and Palmaris longus.
 ## explanation_c
@@ -98548,7 +98548,7 @@ The skin of the lateral side of the arm is supplied by the axillary and radial n
 ## answer_c
 The skin of the dorsum of the hand is supplied by branches of radial and ulnar nerves
 ## explanation_c
-Correct. The dorsum of the hand is divided between the superficial branch of the radial nerve laterally and the dorsal branch of the ulnar nerve medially.
+The dorsum of the hand is divided between the superficial branch of the radial nerve laterally and the dorsal branch of the ulnar nerve medially.
 ## answer_d
 The skin of the medial 1 ½ ﬁngers is supplied by branches of the median nerve
 ## explanation_d
@@ -98637,7 +98637,7 @@ Supination is supinator, from the radial nerve, and biceps, from the musculocuta
 ## answer_c
 Loss of sensations over the lateral 2/3 of the palm. Ac ad
 ## explanation_c
-Correct. The palmar cutaneous branch and the palmar digital branches of the median nerve cover the lateral two-thirds of the palm.
+The palmar cutaneous branch and the palmar digital branches of the median nerve cover the lateral two-thirds of the palm.
 ## answer_d
 Weak ﬂexion of the wrist with radial deviation
 ## explanation_d
@@ -98726,7 +98726,7 @@ Supination survives a median lesion entirely.
 ## answer_c
 Loss of sensations over the lateral 2/3 of the palm.
 ## explanation_c
-Correct. Sensation over the lateral two-thirds of the palm is median.
+Sensation over the lateral two-thirds of the palm is median.
 ## answer_d
 Weak flexion of the wrist with radial deviation.
 ## explanation_d
@@ -98815,7 +98815,7 @@ Claw hand is ulnar; the median deformity is the ape hand.
 ## answer_c
 There is loss of opposition of the thumb
 ## explanation_c
-Correct. Opponens pollicis is median, and losing opposition is what disables the pinch grip.
+Opponens pollicis is median, and losing opposition is what disables the pinch grip.
 ## answer_d
 There is loss of sensation over the lateral 2/3 of dorsum of hand
 ## explanation_d
@@ -98908,7 +98908,7 @@ The lateral three and a half fingers are median territory. The ulnar nerve takes
 ## answer_d
 If injured above the elbow, the clawing of the hand becomes less apparent than when it is injured above the wrist.
 ## explanation_d
-Correct, and counter-intuitive, which is why it is called the ulnar paradox: a higher lesion also kills the medial half of flexor digitorum profundus, and without that muscle pulling there is less force to flex the interphalangeal joints into a claw.
+Counter-intuitive, which is why it is called the ulnar paradox: a higher lesion also kills the medial half of flexor digitorum profundus, and without that muscle pulling there is less force to flex the interphalangeal joints into a claw.
 ## correct_answer
 D
 ## main_concept
@@ -99074,7 +99074,7 @@ Regarding ulnar nerve injury: (2024) y y
 ## answer_a
 Often occurs where the nerve passes posterior to medial epicondyle of the humerus
 ## explanation_a
-Correct. Behind the medial epicondyle the nerve lies against bare bone in a groove, held only by skin and fascia, which is why fracture, dislocation and simple pressure all reach it there.
+Behind the medial epicondyle the nerve lies against bare bone in a groove, held only by skin and fascia, which is why fracture, dislocation and simple pressure all reach it there.
 ## answer_b
 The patient experiences numbness and tingling sensation on lateral part of the palm
 ## explanation_b
@@ -99167,7 +99167,7 @@ The median nerve passes deep to the retinaculum, inside the carpal tunnel. It is
 ## answer_b
 Ulnar nerve
 ## explanation_b
-Correct. The ulnar nerve and vessels cross over the retinaculum lateral to the pisiform, which is why an ulnar lesion at the wrist is not carpal tunnel syndrome and is not relieved by dividing the retinaculum.
+The ulnar nerve and vessels cross over the retinaculum lateral to the pisiform, which is why an ulnar lesion at the wrist is not carpal tunnel syndrome and is not relieved by dividing the retinaculum.
 ## answer_c
 Flexer digitorum superﬁcialis
 ## explanation_c
@@ -99256,7 +99256,7 @@ The median nerve is inside the carpal tunnel, deep to the retinaculum.
 ## answer_b
 Ulnar nerve
 ## explanation_b
-Correct. The ulnar nerve crosses over the retinaculum with the ulnar artery.
+The ulnar nerve crosses over the retinaculum with the ulnar artery.
 ## answer_c
 Flexer digitorum superficialis
 ## explanation_c
@@ -99341,7 +99341,7 @@ Structures passing through the quadrangular space of the axilla; mark the correc
 ## answer_a
 The axillary nerve and posterior circumﬂex humeral artery
 ## explanation_a
-Correct. Nerve and artery wind round the surgical neck together through this space.
+Nerve and artery wind round the surgical neck together through this space.
 ## answer_b
 The axillary nerve and anterior circumﬂex humeral artery
 ## explanation_b
@@ -99434,7 +99434,7 @@ The radial nerve is on the lateral side, having pierced the lateral intermuscula
 ## answer_b
 Ulnar nerve.
 ## explanation_b
-Correct. The ulnar nerve lies in a groove on the back of the medial epicondyle, which is where it can be rolled under a finger and where a blow gives the pins and needles of the "funny bone".
+The ulnar nerve lies in a groove on the back of the medial epicondyle, which is where it can be rolled under a finger and where a blow gives the pins and needles of the "funny bone".
 ## answer_c
 Median nerve.
 ## explanation_c
@@ -99523,7 +99523,7 @@ Brachioradialis is the lateral boundary of the triangle rather than a content. T
 ## answer_b
 Median nerve
 ## explanation_b
-Correct. The median nerve is the most medial content of the fossa.
+The median nerve is the most medial content of the fossa.
 ## answer_c
 Musculocutaneous
 ## explanation_c
@@ -99709,7 +99709,7 @@ The median nerve crosses the front of the joint and supplies it.
 ## answer_d
 Axillary nerve.
 ## explanation_d
-Correct. The axillary nerve ends in deltoid and teres minor; by Hilton’s law it can supply the shoulder and nothing below it.
+The axillary nerve ends in deltoid and teres minor; by Hilton’s law it can supply the shoulder and nothing below it.
 ## correct_answer
 D
 ## main_concept
@@ -99794,7 +99794,7 @@ The ulnar nerve touches the humerus only at the medial epicondyle.
 ## answer_c
 Axillary nerve.
 ## explanation_c
-Correct. The axillary nerve circles the surgical neck with the posterior circumflex humeral vessels.
+The axillary nerve circles the surgical neck with the posterior circumflex humeral vessels.
 ## answer_d
 Musculocutaneous nerve.
 ## explanation_d
@@ -99875,7 +99875,7 @@ The following nerve is related directly to the humerus: (2019)
 ## answer_a
 Radial nerve.
 ## explanation_a
-Correct. The spiral groove is a shallow trough on the back of the shaft, and the radial nerve lies in it with the profunda brachii vessels — which is why a mid-shaft fracture is the classic cause of wrist drop.
+The spiral groove is a shallow trough on the back of the shaft, and the radial nerve lies in it with the profunda brachii vessels — which is why a mid-shaft fracture is the classic cause of wrist drop.
 ## answer_b
 Musculocutaneous nerve.
 ## explanation_b
@@ -99972,7 +99972,7 @@ The ulnar nerve is at the medial epicondyle, the other end of the bone.
 ## answer_c
 Axillary nerve
 ## explanation_c
-Correct. The axillary nerve winds round the surgical neck, which is why deltoid must be tested after a fracture there.
+The axillary nerve winds round the surgical neck, which is why deltoid must be tested after a fracture there.
 ## answer_d
 Musculocutaneous nerve
 ## explanation_d
@@ -100061,7 +100061,7 @@ The ulnar nerve is related to the medial epicondyle.
 ## answer_c
 Axillary nerve
 ## explanation_c
-Correct. The axillary nerve passes through the quadrangular space and round the surgical neck.
+The axillary nerve passes through the quadrangular space and round the surgical neck.
 ## answer_d
 Musculocutaneous nerve
 ## explanation_d
@@ -100146,7 +100146,7 @@ Brachioradialis makes the lateral wall of the triangle. It is the printed key he
 ## answer_b
 Median nerve
 ## explanation_b
-Correct. The median nerve lies medially in the fossa, on the brachialis part of its floor.
+The median nerve lies medially in the fossa, on the brachialis part of its floor.
 ## answer_c
 Musculocutaneous
 ## explanation_c
@@ -100235,7 +100235,7 @@ The ulnar nerve crosses superficial to the retinaculum in the canal of Guyon.
 ## answer_c
 Median nerve.
 ## explanation_c
-Correct. The median nerve is the one nerve inside the carpal tunnel, and compressing it there is carpal tunnel syndrome.
+The median nerve is the one nerve inside the carpal tunnel, and compressing it there is carpal tunnel syndrome.
 ## answer_d
 Palmar cutaneous branch of median nerve.
 ## explanation_d
@@ -100498,7 +100498,7 @@ The Interosseous muscles of the hand are supplied by: (DEP BOOK) P Vi a- Deep br
 ## answer_a
 Deep branch of ulnar nerve.
 ## explanation_a
-Correct. All four dorsal and all three palmar interossei take the deep branch of the ulnar nerve.
+All four dorsal and all three palmar interossei take the deep branch of the ulnar nerve.
 ## answer_b
 Superﬁcial branch of ulnar nerve.
 ## explanation_b
@@ -100587,7 +100587,7 @@ The Interosseous muscles of the hand are supplied by: (DEP BOOK)
 ## answer_a
 Deep branch of ulnar nerve
 ## explanation_a
-Correct. The deep branch is the motor branch of the ulnar nerve in the hand.
+The deep branch is the motor branch of the ulnar nerve in the hand.
 ## answer_b
 Superﬁcial branch of ulnar nerve. P
 ## explanation_b
@@ -100676,7 +100676,7 @@ The Interosseous muscles of the hand are supplied by:
 ## answer_a
 Deep branch of ulnar nerve
 ## explanation_a
-Correct. The deep branch supplies all seven interossei on its way across the palm.
+The deep branch supplies all seven interossei on its way across the palm.
 ## answer_b
 Superficial branch of ulnar nerve
 ## explanation_b
@@ -100773,7 +100773,7 @@ The axillary nerve gives the upper lateral cutaneous nerve of the arm and stops 
 ## answer_c
 Musculocutaneous nerve.
 ## explanation_c
-Correct. The lateral cutaneous nerve of the forearm is the terminal, purely sensory continuation of the musculocutaneous nerve.
+The lateral cutaneous nerve of the forearm is the terminal, purely sensory continuation of the musculocutaneous nerve.
 ## answer_d
 Median nerve.
 ## explanation_d
@@ -100854,7 +100854,7 @@ The nerve commonly injured after fracture of the surgical neck of the humerus is
 ## answer_a
 Axillary nerve
 ## explanation_a
-Correct. The axillary nerve is wrapped round the surgical neck and is torn or stretched when it breaks.
+The axillary nerve is wrapped round the surgical neck and is torn or stretched when it breaks.
 ## answer_b
 Ulnar nerve
 ## explanation_b
@@ -100951,7 +100951,7 @@ The ulnar nerve is at the medial epicondyle, at the lower end.
 ## answer_c
 Radial nerve. P
 ## explanation_c
-Correct. The spiral groove crosses the back of the middle of the shaft and carries the radial nerve against the bone.
+The spiral groove crosses the back of the middle of the shaft and carries the radial nerve against the bone.
 ## answer_d
 Median nerve. Vi Acad
 ## explanation_d
@@ -101036,7 +101036,7 @@ The median nerve reaches the dorsum only over the terminal phalanges of the late
 ## answer_b
 Ulnar nerve
 ## explanation_b
-Correct. The dorsal cutaneous branch of the ulnar nerve leaves the nerve above the wrist, passes behind the ulna and supplies the medial third of the back of the hand and the backs of the medial one and a half fingers.
+The dorsal cutaneous branch of the ulnar nerve leaves the nerve above the wrist, passes behind the ulna and supplies the medial third of the back of the hand and the backs of the medial one and a half fingers.
 ## answer_c
 Radial nerve
 ## explanation_c
@@ -101121,7 +101121,7 @@ The palmaris longus tendon is a useful guide to which nerve at the wrist? (2022)
 ## answer_a
 Median nerve
 ## explanation_a
-Correct. The median nerve is directly under the palmaris longus tendon at the wrist, which is why the tendon is used to site a median nerve block and why a wrist laceration in that line cuts the nerve.
+The median nerve is directly under the palmaris longus tendon at the wrist, which is why the tendon is used to site a median nerve block and why a wrist laceration in that line cuts the nerve.
 ## answer_b
 Anterior interosseous nerve
 ## explanation_b
@@ -101210,7 +101210,7 @@ The palmaris longus tendon is a useful guide to which nerve at the wrist? (2021)
 ## answer_a
 Median nerve
 ## explanation_a
-Correct. The median nerve lies deep to the palmaris longus tendon at the wrist.
+The median nerve lies deep to the palmaris longus tendon at the wrist.
 ## answer_b
 Anterior interosseous nerve
 ## explanation_b
@@ -101307,7 +101307,7 @@ The posterior interosseous nerve is in the back of the forearm.
 ## answer_c
 median nerve
 ## explanation_c
-Correct. The median nerve is immediately deep to the palmaris longus tendon, which is why that tendon is the landmark for it.
+The median nerve is immediately deep to the palmaris longus tendon, which is why that tendon is the landmark for it.
 ## answer_d
 ulnar nerve
 ## explanation_d
@@ -101400,7 +101400,7 @@ The same root value as A with "root" in the singular — two printings of one di
 ## answer_c
 Nerve roots C5, 6, 7, 8 and T1.
 ## explanation_c
-Correct. The radial nerve carries C5, C6, C7, C8 and T1.
+The radial nerve carries C5, C6, C7, C8 and T1.
 ## answer_d
 Nerve roots C5, 6, 7 and 8.
 ## explanation_d
@@ -101493,7 +101493,7 @@ C7 alone is the whole of the middle trunk, not of this nerve.
 ## answer_d
 C5, 6 & 7
 ## explanation_d
-Correct. C5, C6 and C7 — three roots, which is why the nerve is called long and why it comes off before the trunks form.
+C5, C6 and C7 — three roots, which is why the nerve is called long and why it comes off before the trunks form.
 ## answer_e
 C5, 6, 7 & 8
 ## explanation_e
@@ -101586,7 +101586,7 @@ C7 alone is the middle trunk.
 ## answer_d
 C5,6& 7
 ## explanation_d
-Correct. C5, C6 and C7, taken from the roots before the trunks are formed.
+C5, C6 and C7, taken from the roots before the trunks are formed.
 ## answer_e
 C5, 6, 7 & 8
 ## explanation_e
@@ -101671,7 +101671,7 @@ The digitations are eight but they arise from the upper eight ribs. Getting the 
 ## answer_b
 Is Inserted into the costal aspect of the medial border of scapula
 ## explanation_b
-Correct. The insertion runs along the whole costal aspect of the medial border of the scapula, which is why the border wings when the muscle fails.
+The insertion runs along the whole costal aspect of the medial border of the scapula, which is why the border wings when the muscle fails.
 ## answer_c
 Is Innervated by thoracodorsal nerve. Ac ad
 ## explanation_c
@@ -101760,7 +101760,7 @@ The cranial root of the accessory nerve joins the vagus and is distributed to th
 ## answer_b
 Spinal accessory nerve
 ## explanation_b
-Correct. The spinal root of the accessory nerve descends into the neck and supplies sternocleidomastoid and then trapezius, which is why a lymph node biopsy in the posterior triangle can drop the shoulder.
+The spinal root of the accessory nerve descends into the neck and supplies sternocleidomastoid and then trapezius, which is why a lymph node biopsy in the posterior triangle can drop the shoulder.
 ## answer_c
 Long thoracic nerve
 ## explanation_c
@@ -101853,7 +101853,7 @@ The median nerve supplies no muscle in the arm at all, in either compartment.
 ## answer_b
 It receives motor supply from radial nerve
 ## explanation_b
-Correct. Every head of triceps and anconeus is supplied by the radial nerve, which is the general rule that the posterior cord and its branches serve the extensor side.
+Every head of triceps and anconeus is supplied by the radial nerve, which is the general rule that the posterior cord and its branches serve the extensor side.
 ## answer_c
 It contains the musculocutaneous nerve
 ## explanation_c
@@ -101946,7 +101946,7 @@ Adduction is adductor pollicis, supplied by the deep branch of the ulnar nerve, 
 ## answer_c
 Extension.
 ## explanation_c
-Correct. Extensor pollicis longus and brevis are the only extensors of the thumb and both are radial, so extension is lost completely — the thumb cannot be lifted out of the palm.
+Extensor pollicis longus and brevis are the only extensors of the thumb and both are radial, so extension is lost completely — the thumb cannot be lifted out of the palm.
 ## answer_d
 Opposition.
 ## explanation_d
@@ -102031,7 +102031,7 @@ The ulnar nerve crosses superficial to the retinaculum in the canal of Guyon. It
 ## answer_b
 Flexor carpi radialis tendon. P
 ## explanation_b
-Correct. The lateral attachment of the retinaculum splits into two layers to enclose the flexor carpi radialis tendon in its own compartment as it runs to the base of the second metacarpal.
+The lateral attachment of the retinaculum splits into two layers to enclose the flexor carpi radialis tendon in its own compartment as it runs to the base of the second metacarpal.
 ## answer_c
 Palmar cutaneous branch of median nerve
 ## explanation_c
@@ -102120,7 +102120,7 @@ The ulnar nerve is superficial to the retinaculum.
 ## answer_b
 Flexor carpi radialis tendon
 ## explanation_b
-Correct. A split in the lateral attachment of the retinaculum makes a tunnel for the flexor carpi radialis tendon alone.
+A split in the lateral attachment of the retinaculum makes a tunnel for the flexor carpi radialis tendon alone.
 ## answer_c
 Palmar cutaneous branch of median nerve
 ## explanation_c
@@ -102217,7 +102217,7 @@ The suprascapular nerve is the other upper trunk branch.
 ## answer_d
 Thoracodorsal nerve
 ## explanation_d
-Correct. The thoracodorsal (nerve to latissimus dorsi) comes off the posterior cord.
+The thoracodorsal (nerve to latissimus dorsi) comes off the posterior cord.
 ## correct_answer
 D
 ## main_concept
@@ -102306,7 +102306,7 @@ The suprascapular nerve is an upper trunk branch.
 ## answer_d
 Thoracodorsal nerve
 ## explanation_d
-Correct. The thoracodorsal nerve arises from the posterior cord and runs down the posterior wall of the axilla to latissimus dorsi.
+The thoracodorsal nerve arises from the posterior cord and runs down the posterior wall of the axilla to latissimus dorsi.
 ## correct_answer
 D
 ## main_concept
@@ -102391,7 +102391,7 @@ Abductor pollicis brevis is one of the three thenar muscles, all median.
 ## answer_c
 Adductor pollicis
 ## explanation_c
-Correct. Adductor pollicis lies in the adductor compartment deep in the palm and is the muscle in which the deep branch of the ulnar nerve terminates. Its loss gives Froment’s sign.
+Adductor pollicis lies in the adductor compartment deep in the palm and is the muscle in which the deep branch of the ulnar nerve terminates. Its loss gives Froment’s sign.
 ## answer_d
 Opponens pollicis
 ## explanation_d
@@ -102480,7 +102480,7 @@ Abductor pollicis brevis is thenar and median.
 ## answer_c
 Adductor pollicis.
 ## explanation_c
-Correct. Adductor pollicis takes the deep branch of the ulnar nerve.
+Adductor pollicis takes the deep branch of the ulnar nerve.
 ## answer_d
 Opponens pollicis.
 ## explanation_d
@@ -102569,7 +102569,7 @@ The radial nerve supplies triceps in the arm, so this pair fails on its first me
 ## answer_c
 Median and ulnar.
 ## explanation_c
-Correct. Median and ulnar are the two through-travellers: both are destined for the forearm and hand and neither gives a branch above the elbow.
+Median and ulnar are the two through-travellers: both are destined for the forearm and hand and neither gives a branch above the elbow.
 ## answer_d
 Median and radial.
 ## explanation_d
@@ -102658,7 +102658,7 @@ The long thoracic nerve is a root branch.
 ## answer_c
 Musculocutaneous nerve
 ## explanation_c
-Correct. The musculocutaneous nerve is the lateral cord’s terminal branch and the nerve of the flexor compartment of the arm.
+The musculocutaneous nerve is the lateral cord’s terminal branch and the nerve of the flexor compartment of the arm.
 ## answer_d
 Suprascapular nerve
 ## explanation_d
@@ -102747,7 +102747,7 @@ The ulnar nerve gives no branch above the elbow.
 ## answer_c
 Axillary nerve
 ## explanation_c
-Correct. Deltoid carries abduction from fifteen to ninety degrees and is supplied by the axillary nerve.
+Deltoid carries abduction from fifteen to ninety degrees and is supplied by the axillary nerve.
 ## answer_d
 Suprascapular nerve
 ## explanation_d
@@ -102836,7 +102836,7 @@ The radial artery crosses the floor of the anatomical snuff box, on the back of 
 ## answer_c
 median nerve
 ## explanation_c
-Correct. The carpal tunnel contains the median nerve and the tendons of flexor digitorum superficialis, flexor digitorum profundus and flexor pollicis longus.
+The carpal tunnel contains the median nerve and the tendons of flexor digitorum superficialis, flexor digitorum profundus and flexor pollicis longus.
 ## answer_d
 brachial artery
 ## explanation_d
@@ -102925,7 +102925,7 @@ The median nerve is a flexor nerve; cutting it weakens wrist flexion, not extens
 ## answer_c
 Radial nerve
 ## explanation_c
-Correct. Extensor carpi radialis longus and brevis and extensor carpi ulnaris are all radial, so a radial lesion above the elbow leaves the wrist hanging.
+Extensor carpi radialis longus and brevis and extensor carpi ulnaris are all radial, so a radial lesion above the elbow leaves the wrist hanging.
 ## answer_d
 Axillary nerve. P
 ## explanation_d
@@ -103022,7 +103022,7 @@ Exactly backwards, and the commonest error on this muscle. Biceps inserts on the
 ## answer_d
 Short head arises from coracoid process, lateral to coracobrachialis.
 ## explanation_d
-Correct. The short head and coracobrachialis share the tip of the coracoid process, biceps taking the lateral part of it and coracobrachialis the medial — which is why the two are described together and why the conjoined origin is a landmark rather than one muscle’s.
+The short head and coracobrachialis share the tip of the coracoid process, biceps taking the lateral part of it and coracobrachialis the medial — which is why the two are described together and why the conjoined origin is a landmark rather than one muscle’s.
 ## correct_answer
 d
 ## main_concept
@@ -103078,7 +103078,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper printed no key, and the recovered answer sheet has no entry for this source at all, so the answer is taken from the department book rather than from a key. The book puts the long head on the supraglenoid tubercle and the infraglenoid on the long head of triceps, supplies biceps from the musculocutaneous nerve of the lateral cord, and calls it the powerful supinator — so a, b and c are each false on the book’s own words. It also puts the short head on the lateral part of the tip of the coracoid process, lateral to coracobrachialis, which is d exactly.
+Answer changed from the source's: The 2021 paper printed no key, and the recovered answer sheet has no entry for this source at all, so the answer given here is worked from the source text rather than from a key. The long head arises from the supraglenoid tubercle, the infraglenoid tubercle gives rise to the long head of triceps, biceps is supplied by the musculocutaneous nerve of the lateral cord, and it is the powerful supinator — so a, b and c are each false on this evidence. The short head arises from the lateral part of the tip of the coracoid process, lateral to coracobrachialis, which is d exactly.
 
 
 ---
@@ -103107,7 +103107,7 @@ The upper third of the shaft carries the insertion of deltoid, which brachialis 
 ## answer_c
 The main flexor of the elbowjoint. :
 ## explanation_c
-Correct. Brachialis crosses only the elbow and pulls on the ulna, which cannot rotate, so it flexes whatever position the forearm is in — including pronation, where biceps is at a mechanical disadvantage. That is what makes it the main flexor rather than biceps.
+Brachialis crosses only the elbow and pulls on the ulna, which cannot rotate, so it flexes whatever position the forearm is in — including pronation, where biceps is at a mechanical disadvantage. That is what makes it the main flexor rather than biceps.
 ## answer_d
 Attaches to the pronator tuberosity of the radius.
 ## explanation_d
@@ -103167,7 +103167,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, not from a key. The book states brachialis arises from the lower half of the anterior humeral shaft, inserts into the coronoid process and ulnar tuberosity, takes the musculocutaneous nerve with a radial twig, and is the primary flexor of the elbow — which makes a, b and d false and c its own wording. OCR has mangled the stem and the option text without touching their sense.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is worked from the source text, not from a key. Brachialis arises from the lower half of the anterior humeral shaft, inserts into the coronoid process and ulnar tuberosity, takes the musculocutaneous nerve with a radial twig, and is the primary flexor of the elbow — which makes a, b and d false and c its own wording. OCR has mangled the stem and the option text without touching their sense.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -103192,7 +103192,7 @@ Hair is keratin. Picked because both are tough structural proteins, but keratin 
 ## answer_b
 In muscle to join the myofibrils
 ## explanation_b
-Correct. Desmin is the intermediate filament of muscle, and it ties neighbouring myofibrils to each other at the Z line so the whole cell shortens as one.
+Desmin is the intermediate filament of muscle, and it ties neighbouring myofibrils to each other at the Z line so the whole cell shortens as one.
 ## answer_c
 In neurons
 ## explanation_c
@@ -103289,7 +103289,7 @@ The suprarenal medulla is also neural crest — its chromaffin cells are modifie
 ## answer_d
 Central nervous system
 ## explanation_d
-Correct. The neural tube becomes the brain and the spinal cord, and therefore the central nervous system entire.
+The neural tube becomes the brain and the spinal cord, and therefore the central nervous system entire.
 ## correct_answer
 D
 ## main_concept
@@ -103370,7 +103370,7 @@ The lining epithelium of the intestine is endoderm. Its muscle and connective ti
 ## answer_b
 Urogenital system
 ## explanation_b
-Correct. The intermediate mesoderm, the middle of the three divisions, forms the urogenital system — kidney, ureter and gonad.
+The intermediate mesoderm, the middle of the three divisions, forms the urogenital system — kidney, ureter and gonad.
 ## answer_c
 Central nervous system
 ## explanation_c
@@ -103455,7 +103455,7 @@ Keratin filaments are present in:
 ## answer_a
 Epithelial cells and form hair
 ## explanation_a
-Correct. Cytokeratin is the intermediate filament of epithelial cells, and hair and nail are the keratinised products of epidermal epithelium.
+Cytokeratin is the intermediate filament of epithelial cells, and hair and nail are the keratinised products of epidermal epithelium.
 ## answer_b
 Connective tissue
 ## explanation_b
@@ -103552,7 +103552,7 @@ Connective tissue carries vimentin.
 ## answer_c
 Neurons.
 ## explanation_c
-Correct. Neurofilaments are the intermediate filament of the neuron, running the length of the axon and supporting it.
+Neurofilaments are the intermediate filament of the neuron, running the length of the axon and supporting it.
 ## answer_d
 Glial tissue.
 ## explanation_d
@@ -103633,7 +103633,7 @@ Sensory, sympathetic and parasympathetic ganglia are developed from (DEP BOOK)
 ## answer_a
 Neural crest
 ## explanation_a
-Correct. Cells at the crest of the fusing neural folds separate and migrate to form the sensory, sympathetic and parasympathetic ganglia, along with the Schwann cells, the melanocytes and the suprarenal medulla.
+Cells at the crest of the fusing neural folds separate and migrate to form the sensory, sympathetic and parasympathetic ganglia, along with the Schwann cells, the melanocytes and the suprarenal medulla.
 ## answer_b
 Neural tube. P
 ## explanation_b
@@ -103734,7 +103734,7 @@ One sacral segment, when there are five. The sacral segments matter: the parasym
 ## answer_d
 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and one coccygeal
 ## explanation_d
-Correct. Eight cervical, twelve thoracic, five lumbar, five sacral and one coccygeal — thirty-one segments and therefore thirty-one pairs of spinal nerves.
+Eight cervical, twelve thoracic, five lumbar, five sacral and one coccygeal — thirty-one segments and therefore thirty-one pairs of spinal nerves.
 ## correct_answer
 D
 ## main_concept
@@ -103815,7 +103815,7 @@ Hair is keratin, the epithelial filament.
 ## answer_b
 C.T. & muscle
 ## explanation_b
-Correct. Vimentin is the intermediate filament of mesenchymal tissue — connective tissue and muscle — which is why a vimentin-positive tumour is a sarcoma rather than a carcinoma.
+Vimentin is the intermediate filament of mesenchymal tissue — connective tissue and muscle — which is why a vimentin-positive tumour is a sarcoma rather than a carcinoma.
 ## answer_c
 Neurons
 ## explanation_c
@@ -103900,15 +103900,15 @@ One statement is true:
 ## answer_a
 Neuroepithelium is a special type of nerve cells modified to epithelium
 ## explanation_a
-The modification runs the other way. This option makes the cell a nerve cell first, which would put the tissue in the nervous system; the book classes neuro-epithelium among the four types of *epithelial* tissue.
+The modification runs the other way. This option makes the cell a nerve cell first, which would put the tissue in the nervous system; neuro-epithelium is classed among the four types of *epithelial* tissue.
 ## answer_b
 Neuroepithelium is a special type of epithelium modified to sensory function
 ## explanation_b
-Correct. Neuro-epithelium is epithelium whose cells are modified to act as receptors and receive the stimulus of a sensation — the book's own definition, and the taste bud is its example.
+Neuro-epithelium is epithelium whose cells are modified to act as receptors and receive the stimulus of a sensation — the standard definition, and the taste bud is its example.
 ## answer_c
 Neuroepithelium means that nerve and epithelium are of the same origin
 ## explanation_c
-A statement about embryology rather than about structure. Some epithelia are ectodermal, as the nervous system is, but shared origin is not what the term neuro-epithelium asserts, and the book makes no such claim.
+A statement about embryology rather than about structure. Some epithelia are ectodermal, as the nervous system is, but shared origin is not what the term neuro-epithelium asserts, and no such claim is made.
 ## answer_d
 Neuroepithelium means that epithelium develop from the nerve
 ## explanation_d
@@ -103989,7 +103989,7 @@ The epithelium forming the taste buds is:
 ## answer_a
 Neuroepithelium
 ## explanation_a
-Correct. The taste bud is the book's single example of neuro-epithelium: epithelial cells modified as receptors for the sensation of taste.
+The taste bud is the classic example of neuro-epithelium: epithelial cells modified as receptors for the sensation of taste.
 ## answer_b
 Glandular epithelium
 ## explanation_b
@@ -104082,11 +104082,11 @@ Glandular epithelium is modified to secrete. The taste bud is modified to receiv
 ## answer_b
 absorptive epithelium
 ## explanation_b
-Absorptive epithelium is not one of the book's four classes at all. It is a description of what simple columnar epithelium does in the gut, borrowed here as a plausible-sounding category.
+Absorptive epithelium is not one of the four classes at all. It is a description of what simple columnar epithelium does in the gut, borrowed here as a plausible-sounding category.
 ## answer_c
 neuro epithelium
 ## explanation_c
-Correct. Neuro-epithelium is epithelium modified as a receptor, and the taste bud is the example the book gives.
+Neuro-epithelium is epithelium modified as a receptor, and the taste bud is the standard example.
 ## answer_d
 endothelium
 ## explanation_d
@@ -104167,7 +104167,7 @@ Cells are required for Initiation of cellular & humoral immunity:
 ## answer_a
 T Helper & Macrophage
 ## explanation_a
-Correct. The macrophage presents the antigen, the helper T cell recognises it, and the activated helper then drives the cell-mediated arm and licenses the B cell for the humoral arm.
+The macrophage presents the antigen, the helper T cell recognises it, and the activated helper then drives the cell-mediated arm and licenses the B cell for the humoral arm.
 ## answer_b
 T suppressor & Monocyte
 ## explanation_b
@@ -104235,7 +104235,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The same question, with the same four options, is keyed A in `two-cells-are-required-for-the-initiation-of-the-cellular-an-e19b9dc0`, and A is also what the department teaches: the macrophage presents the antigen and the helper T cell is activated by it.
+Answer changed from the source's: The source printed no key. The same question, with the same four options, is keyed A in `two-cells-are-required-for-the-initiation-of-the-cellular-an-e19b9dc0`: the macrophage presents the antigen and the helper T cell is activated by it.
 
 
 ---
@@ -104260,7 +104260,7 @@ A lymphocyte is immune-competent but not phagocytic, and it gives rise to plasma
 ## answer_b
 monocyte
 ## explanation_b
-Correct. The monocyte presents antigen and is the precursor of the macrophage and of every phagocytic cell derived from it — dust cells, Kupffer cells, osteoclasts and microglia.
+The monocyte presents antigen and is the precursor of the macrophage and of every phagocytic cell derived from it — dust cells, Kupffer cells, osteoclasts and microglia.
 ## answer_c
 Nertrophil
 ## explanation_c
@@ -104349,7 +104349,7 @@ A lymphocyte carries antigen receptors but does not phagocytose or present antig
 ## answer_b
 monocyte
 ## explanation_b
-Correct. The monocyte is an antigen-presenting cell and becomes the macrophage once it enters connective tissue.
+The monocyte is an antigen-presenting cell and becomes the macrophage once it enters connective tissue.
 ## answer_c
 Nertrophil
 ## explanation_c
@@ -104434,7 +104434,7 @@ The largest leucocytes is:
 ## answer_a
 Monocyte
 ## explanation_a
-Correct. The monocyte is 13–20 µm, larger than any other white cell on the film.
+The monocyte is 13–20 µm, larger than any other white cell on the film.
 ## answer_b
 Large lymphocyte
 ## explanation_b
@@ -104531,7 +104531,7 @@ The pericyte is an adult mesenchymal stem cell around capillaries and can become
 ## answer_c
 Monocytes
 ## explanation_c
-Correct. The monocyte leaves the blood, enters connective tissue and becomes the macrophage, also called the histiocyte.
+The monocyte leaves the blood, enters connective tissue and becomes the macrophage, also called the histiocyte.
 ## answer_d
 B lymphocytes
 ## explanation_d
@@ -104624,7 +104624,7 @@ The monocyte becomes the macrophage. Picking it here is the mirror image of the 
 ## answer_d
 B lymphocytes
 ## explanation_d
-Correct. The B lymphocyte, once its antigen and a helper T cell have activated it, becomes a plasmablast and then the antibody-secreting plasma cell.
+The B lymphocyte, once its antigen and a helper T cell have activated it, becomes a plasmablast and then the antibody-secreting plasma cell.
 ## correct_answer
 D
 ## main_concept
@@ -104701,7 +104701,7 @@ Two cells are required for the initiation of the cellular and humoral immune res
 ## answer_a
 T helper & Macrophage
 ## explanation_a
-Correct. The macrophage presents the antigen and the helper T cell is activated by it; from that one interaction both arms of the response follow.
+The macrophage presents the antigen and the helper T cell is activated by it; from that one interaction both arms of the response follow.
 ## answer_b
 T suppressor & Monocyte
 ## explanation_b
@@ -104798,7 +104798,7 @@ The thrombocyte is a shed fragment of megakaryocyte cytoplasm with no nucleus, s
 ## answer_c
 Lymphocyte
 ## explanation_c
-Correct. The lymphocyte keeps a full nucleus and proliferates into a clone of effector and memory cells when it meets its antigen.
+The lymphocyte keeps a full nucleus and proliferates into a clone of effector and memory cells when it meets its antigen.
 ## answer_d
 Monocyte
 ## explanation_d
@@ -104891,7 +104891,7 @@ The lymphocyte is the other non-granular leukocyte, with only a thin rim of cyto
 ## answer_d
 Polymorphonuclear leukocyte
 ## explanation_d
-Correct. Polymorphonuclear leukocyte is the neutrophil's other name, taken from its many-shaped 2–5-lobed nucleus, and the neutrophil is a granulocyte.
+Polymorphonuclear leukocyte is the neutrophil's other name, taken from its many-shaped 2–5-lobed nucleus, and the neutrophil is a granulocyte.
 ## correct_answer
 D
 ## main_concept
@@ -104976,7 +104976,7 @@ The megakaryocyte sheds platelets in the marrow. It has nothing to do with immun
 ## answer_c
 B Lymphocytes
 ## explanation_c
-Correct. The B lymphocyte, activated by its antigen and by a helper T cell, becomes a plasmablast and then a plasma cell secreting antibody.
+The B lymphocyte, activated by its antigen and by a helper T cell, becomes a plasmablast and then a plasma cell secreting antibody.
 ## answer_d
 T Lymphocytes
 ## explanation_d
@@ -105069,7 +105069,7 @@ The adipocyte arises from the undifferentiated mesenchymal cell and stores fat. 
 ## answer_d
 Monocyte.
 ## explanation_d
-Correct. The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.
+The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.
 ## correct_answer
 d
 ## main_concept
@@ -105125,7 +105125,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 3 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: the macrophage, which it calls the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.
+Answer changed from the source's: The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer given here is: the macrophage, also called the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.
 
 
 ---
@@ -105146,11 +105146,11 @@ The surface marker/ receptor that identifies NK cell is:
 ## answer_a
 CD16.
 ## explanation_a
-Correct. CD16 is the marker the book gives for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.
+CD16 is the marker for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.
 ## answer_b
 CD4.
 ## explanation_b
-CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; the book gives CD4 and CD8 to the T cell alone.
+CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; CD4 and CD8 belong to the T cell alone.
 ## answer_c
 lg M.
 ## explanation_c
@@ -105214,7 +105214,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: natural killer cells carry CD16 and others and have neither T nor B cell receptors.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: natural killer cells carry CD16 and others and have neither T nor B cell receptors.
 
 
 ---
@@ -105247,7 +105247,7 @@ Half right and therefore dangerous. Euchromatin does direct protein synthesis, b
 ## answer_d
 Makes the nucleus vesicular
 ## explanation_d
-Correct. Fine, dispersed euchromatin takes up little stain, so the nucleus reads pale and open — vesicular — with a clear nucleolus, and that appearance is the sign of an active cell.
+Fine, dispersed euchromatin takes up little stain, so the nucleus reads pale and open — vesicular — with a clear nucleolus, and that appearance is the sign of an active cell.
 ## correct_answer
 D
 ## main_concept
@@ -105328,7 +105328,7 @@ The small lymphocyte has a thin rim of cytoplasm, barely more than a blue line a
 ## answer_b
 Indented nucleus with nucleolus
 ## explanation_b
-An indented nucleus with a visible nucleolus is the *large* lymphocyte. The small one has a round, dark, condensed nucleus and no nucleolus you can see — it is the book's own example of a heterochromatic nucleus.
+An indented nucleus with a visible nucleolus is the *large* lymphocyte. The small one has a round, dark, condensed nucleus and no nucleolus you can see — it is the standard example of a heterochromatic nucleus.
 ## answer_c
 Well-developed organelles
 ## explanation_c
@@ -105336,7 +105336,7 @@ Organelles are scanty in the small lymphocyte, which follows from the same fact:
 ## answer_d
 The majority of circulating lymphocytes
 ## explanation_d
-Correct. Most lymphocytes in circulating blood are small lymphocytes, and it is the only statement in the set that is true of them.
+Most lymphocytes in circulating blood are small lymphocytes, and it is the only statement in the set that is true of them.
 ## correct_answer
 D
 ## main_concept
@@ -105362,7 +105362,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Recognise the small lymphocyte as the department book's type example of an inactive, heterochromatic cell.
+Recognise the small lymphocyte as the type example of an inactive, heterochromatic cell.
 ## setting
 Academic
 ## academic_relevance
@@ -105413,7 +105413,7 @@ Pars fibrosa of the nucleolus:
 ## answer_a
 Represents newly synthesized rRNA
 ## explanation_a
-Correct. Pars fibrosa is strands of newly synthesised rRNA — fibres because a new transcript is still a thread rather than a packed particle.
+Pars fibrosa is strands of newly synthesised rRNA — fibres because a new transcript is still a thread rather than a packed particle.
 ## answer_b
 Represents mature rRNA
 ## explanation_b
@@ -105506,7 +105506,7 @@ Newly formed rRNA is pars fibrosa. This is the option immediately before the ans
 ## answer_b
 Represents mature rRNA
 ## explanation_b
-Correct. Pars granulosa is granules of mature rRNA, the last of the three dark parts and the material that leaves through the nuclear pores as ribosomal subunits.
+Pars granulosa is granules of mature rRNA, the last of the three dark parts and the material that leaves through the nuclear pores as ribosomal subunits.
 ## answer_c
 Represents chromosomes encoding for rRNA
 ## explanation_c
@@ -105599,7 +105599,7 @@ Somatic cells contains 47 chromosomes
 ## answer_c
 Has XO sex chromosomes
 ## explanation_c
-Correct. A single X and no second sex chromosome — XO — which is why the count is 45.
+A single X and no second sex chromosome — XO — which is why the count is 45.
 ## answer_d
 Has normal genital system
 ## explanation_d
@@ -105858,7 +105858,7 @@ Chromatin:
 ## answer_a
 Basophilic as it contains phosphate group
 ## explanation_a
-Correct. The phosphate groups of the nucleic acid are acidic, so they bind the basic dye — that is what basophilia means, and it is why the whole nucleus is blue in H&E.
+The phosphate groups of the nucleic acid are acidic, so they bind the basic dye — that is what basophilia means, and it is why the whole nucleus is blue in H&E.
 ## answer_b
 Acidophilic as it contains DNA
 ## explanation_b
@@ -105955,7 +105955,7 @@ The nucleolus is a single rounded mass, usually one or two per nucleus, and it s
 ## answer_c
 heterochromatin
 ## explanation_c
-Correct. Peripheral chromatin — heterochromatin attached to the inner surface of the nuclear membrane — is the first of the three sites of heterochromatin.
+Peripheral chromatin — heterochromatin attached to the inner surface of the nuclear membrane — is the first of the three sites of heterochromatin.
 ## answer_d
 euchromatin
 ## explanation_d
@@ -106015,7 +106015,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. Peripheral chromatin is one of the three sites of heterochromatin the department book names, so C is the only option the description fits.
+Answer changed from the source's: The source printed no key. Peripheral chromatin is one of the three named sites of heterochromatin, so C is the only option the description fits.
 
 
 ---
@@ -106040,7 +106040,7 @@ True, so not the exception. Heterochromatin is the inactive form of chromatin.
 ## answer_b
 Present in the form of coiled filaments
 ## explanation_b
-True, so not the exception. Coiled is precisely what heterochromatin is, and it is the reason it is dense and silent. This is the option the book keys, and taking it would mean calling heterochromatin's own definition false.
+True, so not the exception. Coiled is precisely what heterochromatin is, and it is the reason it is dense and silent. This is the keyed answer, and taking it would mean calling heterochromatin's own definition false.
 ## answer_c
 Present in the form of extended filaments
 ## explanation_c
@@ -106125,7 +106125,7 @@ Concerning multilocular adipocytes, they have:
 ## answer_a
 Cytochrome pigments
 ## explanation_a
-Correct. The multilocular — brown — fat cell is crowded with mitochondria, and their cytochrome pigment is what gives brown fat its colour and its heat-generating power.
+The multilocular — brown — fat cell is crowded with mitochondria, and their cytochrome pigment is what gives brown fat its colour and its heat-generating power.
 ## answer_b
 Signet ring appearance
 ## explanation_b
@@ -106222,7 +106222,7 @@ The histiocyte is the macrophage of connective tissue, a different cell. Both li
 ## answer_c
 They have pale basophilic cytoplasm
 ## explanation_c
-Correct. The cytoplasm is palely basophilic and the nucleus is pale and euchromatic, which together say this is an active, protein-forming cell rather than a resting one.
+The cytoplasm is palely basophilic and the nucleus is pale and euchromatic, which together say this is an active, protein-forming cell rather than a resting one.
 ## answer_d
 They have dark heterochromatic nucleus
 ## explanation_d
@@ -106315,7 +106315,7 @@ The direction is wrong. RNA and ribosomal subunits are exported out of the nucle
 ## answer_d
 Its proteins form octagonal ring
 ## explanation_d
-Correct. About thirty nucleoporin proteins are arranged as an octagonal ring around the pore, with filaments trailing into the cytoplasm and into the nucleus.
+About thirty nucleoporin proteins are arranged as an octagonal ring around the pore, with filaments trailing into the cytoplasm and into the nucleus.
 ## correct_answer
 D
 ## main_concept
@@ -106371,7 +106371,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The pores are circular, not triangular; the two membranes do fuse at them; and RNA is exported from the nucleus rather than imported into it. Only D — the nucleoporins form an octagonal ring — is as the department book has it.
+Answer changed from the source's: The source printed no key. The pores are circular, not triangular; the two membranes do fuse at them; and RNA is exported from the nucleus rather than imported into it. Only D — the nucleoporins form an octagonal ring — is correct.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -106481,7 +106481,7 @@ Cri-du-chat syndrome is due to
 ## answer_a
 Partial deletion of short arm of chromosome 5
 ## explanation_a
-Correct. Partial deletion of the short arm of chromosome 5.
+Partial deletion of the short arm of chromosome 5.
 ## answer_b
 Partial deletion of long arm of chromosome 5
 ## explanation_b
@@ -106582,7 +106582,7 @@ True, but not the whole answer. Pars granulosa is the third.
 ## answer_d
 all the above
 ## explanation_d
-Correct. All three are dark; what is light in the nucleolus is the nucleolar sap, and the question is testing whether the dark/light split is held separately from the three-part split.
+All three are dark; what is light in the nucleolus is the nucleolar sap, and the question is testing whether the dark/light split is held separately from the three-part split.
 ## correct_answer
 D
 ## main_concept
@@ -106663,7 +106663,7 @@ An extra chromosome 13 is Patau syndrome, not Down. It is the right kind of faul
 ## answer_b
 Partial deletion of long arm of chromosome 15
 ## explanation_b
-A deletion on chromosome 15 belongs to neither Down nor cri-du-chat, which is chromosome 5. This is the option the book keys, and it names a fault the syllabus does not teach at all.
+A deletion on chromosome 15 belongs to neither Down nor cri-du-chat, which is chromosome 5. This is the keyed answer, and it names a fault the syllabus does not teach at all.
 ## answer_c
 Partial deletion of short arm of chromosome 5
 ## explanation_c
@@ -106671,7 +106671,7 @@ Partial deletion of the short arm of chromosome 5 is cri-du-chat syndrome. The b
 ## answer_d
 Extra chromosome 21
 ## explanation_d
-Correct. Down syndrome is trisomy 21 — an extra copy of chromosome 21, giving 47 chromosomes.
+Down syndrome is trisomy 21 — an extra copy of chromosome 21, giving 47 chromosomes.
 ## correct_answer
 D
 ## main_concept
@@ -106756,7 +106756,7 @@ True, so not the exception. Its genes are the active ones.
 ## answer_c
 coarse clumps, dark basophilic
 ## explanation_c
-The exception, and the answer. Coarse, darkly basophilic clumps are heterochromatin. Every item in this option set is one half of the department book's comparative table, and this is the row that has been taken from the wrong column.
+The exception, and the answer. Coarse, darkly basophilic clumps are heterochromatin. Every item in this option set is one half of a comparative table, and this is the row that has been taken from the wrong column.
 ## answer_d
 electron lucent, clear nucleolus
 ## explanation_d
@@ -106845,11 +106845,11 @@ Chromatin is DNA with histone and non-histone protein, not RNA with protein. RNA
 ## answer_c
 Directing protein synthesis
 ## explanation_c
-Correct. Euchromatin carries the active genes, and it is through them that the nucleus directs and controls protein synthesis.
+Euchromatin carries the active genes, and it is through them that the nucleus directs and controls protein synthesis.
 ## answer_d
 Associated with nucleolus
 ## explanation_d
-Chromatin condensed around the nucleolus is nucleolus-associated *hetero*chromatin — one of the three sites the book lists. This is the option the book keys, and it names the wrong form of chromatin.
+Chromatin condensed around the nucleolus is nucleolus-associated *hetero*chromatin — one of the three named sites. This is the keyed answer, and it names the wrong form of chromatin.
 ## answer_e
 Attached to inner nuclear membrane
 ## explanation_e
@@ -106909,7 +106909,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The book keys D, but nucleolus-associated chromatin is one of the three sites of heterochromatin the department book names, so D is false. Only C — directing protein synthesis — is true of euchromatin, which is the form carrying the active genes. This is the rare five-option row in the bank, and the extra option appears to have shifted the key by one letter.
+Answer changed from the source's: The book keys D, but nucleolus-associated chromatin is one of the three named sites of heterochromatin, so D is false. Only C — directing protein synthesis — is true of euchromatin, which is the form carrying the active genes. This is the rare five-option row in the bank, and the extra option appears to have shifted the key by one letter.
 
 
 ---
@@ -106938,7 +106938,7 @@ Lamins alone are incomplete. They are the protein the nuclear lamina is built fr
 ## answer_c
 Heterochromatin + Nuclear lamina
 ## explanation_c
-Correct. The inner membrane is fibrillar because the nuclear lamina lies against it and peripheral heterochromatin is attached to it — those two together are what the fibrillar picture is made of.
+The inner membrane is fibrillar because the nuclear lamina lies against it and peripheral heterochromatin is attached to it — those two together are what the fibrillar picture is made of.
 ## answer_d
 Lamins + nuclear lamina
 ## explanation_d
@@ -106998,7 +106998,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book describes the inner nuclear membrane as fibrillar, with peripheral chromatin attached to it and the nuclear lamina lying against it — which is heterochromatin plus nuclear lamina, option C. A names euchromatin, which is not attached to the envelope; B and D name the lamina and the lamins it is made of and leave the chromatin out, D saying the same thing twice. C is the reading the book supports, and the row is flagged here because no key was printed and the wording of the options is loose.
+Answer changed from the source's: The source printed no key. The inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina lying against it — which is heterochromatin plus nuclear lamina, option C. A names euchromatin, which is not attached to the envelope; B and D name the lamina and the lamins it is made of and leave the chromatin out, D saying the same thing twice. C is the supported reading, and the row is flagged here because no key was printed and the wording of the options is loose.
 
 
 ---
@@ -107087,7 +107087,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. A, B and D are all stated by the department book. C says the envelope is not resolved by electron microscopy, which is exactly backwards — electron microscopy is the only way it is resolved.
+Answer changed from the source's: The source printed no key. A, B and D are all correct statements. C says the envelope is not resolved by electron microscopy, which is exactly backwards — electron microscopy is the only way it is resolved.
 
 
 ---
@@ -107112,7 +107112,7 @@ A cell exporting a large glycoprotein needs abundant rough endoplasmic reticulum
 ## answer_b
 Synthesize mucus
 ## explanation_b
-Correct. The goblet cell is a unicellular gland that synthesises and secretes mucus.
+The goblet cell is a unicellular gland that synthesises and secretes mucus.
 ## answer_c
 Has central nucleus
 ## explanation_c
@@ -107205,11 +107205,11 @@ True, so not the exception. Inactive genes, and electron dense because the coili
 ## answer_c
 in small lymphocyte
 ## explanation_c
-True, so not the exception. The small lymphocyte is the department book's own example of a heterochromatic cell.
+True, so not the exception. The small lymphocyte is the standard example of a heterochromatic cell.
 ## answer_d
 active in protein forming cell
 ## explanation_d
-The exception, and the answer. A protein-forming cell is where euchromatin predominates, because protein synthesis needs genes that are readable. This is the row of the book's comparative table taken from the wrong column.
+The exception, and the answer. A protein-forming cell is where euchromatin predominates, because protein synthesis needs genes that are readable. This is the row of the comparative table taken from the wrong column.
 ## correct_answer
 D
 ## main_concept
@@ -107298,7 +107298,7 @@ Directing protein synthesis is euchromatin's work. Heterochromatin's genes are i
 ## answer_d
 a & b are correct
 ## explanation_d
-Correct. A and B are the same fact seen twice — the coiling and its electron-microscopic consequence — and both belong to heterochromatin.
+A and B are the same fact seen twice — the coiling and its electron-microscopic consequence — and both belong to heterochromatin.
 ## correct_answer
 D
 ## main_concept
@@ -107375,7 +107375,7 @@ intermediate layer of transitional is:
 ## answer_a
 polyhedral, central, rounded nucleus
 ## explanation_a
-Correct. The intermediate layer of transitional epithelium is polyhedral or pear-shaped cells with a central rounded nucleus, between the basal cubical layer and the superficial dome cells.
+The intermediate layer of transitional epithelium is polyhedral or pear-shaped cells with a central rounded nucleus, between the basal cubical layer and the superficial dome cells.
 ## answer_b
 in full bladder: increase thickness
 ## explanation_b
@@ -107468,7 +107468,7 @@ The nucleolus is inside the nucleus, so it is smaller by definition — and a re
 ## answer_b
 nucleus
 ## explanation_b
-Correct. The nucleus is the largest component of the cell, and the department book states that the red blood corpuscle and the platelet, having none, are not true cells.
+The nucleus is the largest component of the cell, and the red blood corpuscle and the platelet, having none, are not true cells.
 ## answer_c
 cytoplasm
 ## explanation_c
@@ -107561,7 +107561,7 @@ DNA is in the dark areas too, in the pars amorpha that encodes the rRNA.
 ## answer_c
 sap
 ## explanation_c
-Correct. The light areas are nucleolar sap, the fluid between the dark parts.
+The light areas are nucleolar sap, the fluid between the dark parts.
 ## answer_d
 none of above
 ## explanation_d
@@ -107654,7 +107654,7 @@ True, but not the whole answer. The basophil's nucleus is pale as well, and its 
 ## answer_d
 both b & c are correct
 ## explanation_d
-Correct as the books have it: the eosinophil and the basophil both show more euchromatin than the neutrophil. This question and `more-heterochromatin-is-prominent-in` are a matched pair from one book and only make sense read together.
+The eosinophil and the basophil both show more euchromatin than the neutrophil. This question and `more-heterochromatin-is-prominent-in` are a matched pair from one book and only make sense read together.
 ## correct_answer
 D
 ## main_concept
@@ -107680,7 +107680,7 @@ Hard
 ## question_type
 Structure and function
 ## learning_objective
-Rank the granulocytes by how condensed their nuclei are, as the books ask it.
+Rank the granulocytes by how condensed their nuclei are.
 ## setting
 Academic
 ## academic_relevance
@@ -107731,7 +107731,7 @@ More heterochromatin is prominent in :
 ## answer_a
 neutrophils
 ## explanation_a
-Correct. The neutrophil's segmented nucleus is the darkest of the granulocytes, its lobes joined by threads of condensed chromatin.
+The neutrophil's segmented nucleus is the darkest of the granulocytes, its lobes joined by threads of condensed chromatin.
 ## answer_b
 eosinphils
 ## explanation_b
@@ -107769,7 +107769,7 @@ Hard
 ## question_type
 Structure and function
 ## learning_objective
-Rank the granulocytes by how condensed their nuclei are, as the books ask it.
+Rank the granulocytes by how condensed their nuclei are.
 ## setting
 Academic
 ## academic_relevance
@@ -107832,7 +107832,7 @@ True, but not the whole answer. Those proteins are arranged as an octagonal annu
 ## answer_d
 all the above
 ## explanation_d
-Correct. Shape, protein and arrangement are three parts of one description, and the question is asking whether all three are held together.
+Shape, protein and arrangement are three parts of one description, and the question is asking whether all three are held together.
 ## correct_answer
 D
 ## main_concept
@@ -107913,7 +107913,7 @@ The nuclear pores are the openings. The complex is what sits in them — the two
 ## answer_b
 Non membranous cylindrical structure fits the pores
 ## explanation_b
-Correct. A non-membranous cylindrical protein structure fitting the pore, built of nucleoporins in an octagonal ring with a central transporter.
+A non-membranous cylindrical protein structure fitting the pore, built of nucleoporins in an octagonal ring with a central transporter.
 ## answer_c
 Rim of the nuclear pores
 ## explanation_c
@@ -108010,7 +108010,7 @@ True, but not the whole answer. Protein enters and RNA and ribosomal subunits le
 ## answer_d
 All of the above
 ## explanation_d
-Correct. Site, structure and function together — a student stopping at the first true option has answered a third of it.
+Site, structure and function together — a student stopping at the first true option has answered a third of it.
 ## correct_answer
 D
 ## main_concept
@@ -108066,7 +108066,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. A, B and C are each stated by the department book — the pores perforate the envelope, the two membranes are continuous at them, and they regulate exchange between nucleus and cytoplasm — so only D covers the whole.
+Answer changed from the source's: The source printed no key. A, B and C are each correct — the pores perforate the envelope, the two membranes are continuous at them, and they regulate exchange between nucleus and cytoplasm — so only D covers the whole.
 
 
 ---
@@ -108087,11 +108087,11 @@ Nucleolus associated heterochromatin:
 ## answer_a
 Is a membrane surrounds the nucleolus
 ## explanation_a
-The nucleolus has no membrane of its own; the book is explicit that it is not limited by one. Chromatin around it is not a membrane and does not act as one.
+The nucleolus has no membrane of its own; it is explicitly not limited by one. Chromatin around it is not a membrane and does not act as one.
 ## answer_b
 Is a heterochromatin attached to the nucleolus
 ## explanation_b
-Correct. It is heterochromatin condensed around the nucleolus, the third site alongside peripheral chromatin and chromatin islands.
+It is heterochromatin condensed around the nucleolus, the third site alongside peripheral chromatin and chromatin islands.
 ## answer_c
 Nucleolar organizer regions
 ## explanation_c
@@ -108155,7 +108155,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. Nucleolus-associated chromatin is the third of the three heterochromatin sites the department book names — heterochromatin condensed around the nucleolus — which is option B.
+Answer changed from the source's: The source printed no key. Nucleolus-associated chromatin is the third of the three named heterochromatin sites — heterochromatin condensed around the nucleolus — which is option B.
 
 
 ---
@@ -108176,7 +108176,7 @@ Nucleolus formed of three regions:
 ## answer_a
 Pars granulosa, pars fibrosa and nucleolar organizer regions
 ## explanation_a
-Correct. Pars granulosa, pars fibrosa and the nucleolar organiser region — the nucleolar organiser being pars amorpha under its other name.
+Pars granulosa, pars fibrosa and the nucleolar organiser region — the nucleolar organiser being pars amorpha under its other name.
 ## answer_b
 Peripheral , nucleolar associated chromatin and chromatin islands
 ## explanation_b
@@ -108188,7 +108188,7 @@ rRNA, ribosomal protein and DNA are the materials the nucleolus works with, not 
 ## answer_d
 Heterochromatin, euchromatin and nucleolar matrix
 ## explanation_d
-Heterochromatin and euchromatin are forms of chromatin in the nucleus at large, and "nucleolar matrix" is not a term the book uses.
+Heterochromatin and euchromatin are forms of chromatin in the nucleus at large, and "nucleolar matrix" is not the correct term.
 ## correct_answer
 A
 ## main_concept
@@ -108244,7 +108244,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book gives the nucleolus's dark areas as pars amorpha (the nucleolar organiser), pars fibrosa and pars granulosa — option A, with the organiser named in place of pars amorpha.
+Answer changed from the source's: The source printed no key. The nucleolus's dark areas are pars amorpha (the nucleolar organiser), pars fibrosa and pars granulosa — option A, with the organiser named in place of pars amorpha.
 
 
 ---
@@ -108277,7 +108277,7 @@ True, but not the whole answer. Nucleolus-associated chromatin condenses around 
 ## answer_d
 all the above
 ## explanation_d
-Correct. All three, and they are one description rather than three: it is basophilic *because* it is rich in nucleic acid, and it is ringed by chromatin.
+All three, and they are one description rather than three: it is basophilic *because* it is rich in nucleic acid, and it is ringed by chromatin.
 ## correct_answer
 D
 ## main_concept
@@ -108451,7 +108451,7 @@ Bilobed and horse-shoe shaped is the eosinophil, its two lobes joined by a thick
 ## answer_c
 S shaped
 ## explanation_c
-Correct. The basophil nucleus is irregular and S-shaped, and it is largely hidden by the coarse granules lying over it.
+The basophil nucleus is irregular and S-shaped, and it is largely hidden by the coarse granules lying over it.
 ## answer_d
 large kidney shaped
 ## explanation_d
@@ -108544,7 +108544,7 @@ S-shaped is the basophil.
 ## answer_d
 large kidney shaped
 ## explanation_d
-Correct. The monocyte has a large kidney-shaped or indented nucleus, and it is the largest leucocyte.
+The monocyte has a large kidney-shaped or indented nucleus, and it is the largest leucocyte.
 ## correct_answer
 D
 ## main_concept
@@ -108621,7 +108621,7 @@ nucleus of neutrophils is :
 ## answer_a
 multilobed segmented
 ## explanation_a
-Correct. Two to five lobes joined by thin threads of chromatin — the segmented nucleus that gives the cell its other name, polymorphonuclear leucocyte.
+Two to five lobes joined by thin threads of chromatin — the segmented nucleus that gives the cell its other name, polymorphonuclear leucocyte.
 ## answer_b
 bilobed horse show
 ## explanation_b
@@ -108710,11 +108710,11 @@ Nucleus of the nerve cells:
 ## answer_a
 Condensed
 ## explanation_a
-A condensed nucleus means an inactive cell. The nerve cell is one of the two the department book names as active, alongside the liver cell.
+A condensed nucleus means an inactive cell. The nerve cell is one of the two named as active, alongside the liver cell.
 ## answer_b
 Euchromatic
 ## explanation_b
-Correct. The nerve cell nucleus is euchromatic — pale, vesicular, with a prominent nucleolus — because it is synthesising protein continuously.
+The nerve cell nucleus is euchromatic — pale, vesicular, with a prominent nucleolus — because it is synthesising protein continuously.
 ## answer_c
 No visible nucleolus
 ## explanation_c
@@ -108811,7 +108811,7 @@ Simple columnar epithelium is a single layer of tall cells, but its nuclei sit a
 ## answer_d
 pseudostratified
 ## explanation_d
-Correct. Pseudostratified epithelium is one layer of crowded cells of differing heights, so their nuclei lie at several levels and it looks stratified without being so. Every cell still reaches the basement membrane.
+Pseudostratified epithelium is one layer of crowded cells of differing heights, so their nuclei lie at several levels and it looks stratified without being so. Every cell still reaches the basement membrane.
 ## correct_answer
 D
 ## main_concept
@@ -108896,7 +108896,7 @@ Granules of mature rRNA are pars granulosa, two steps downstream.
 ## answer_c
 Represents parts of chromosomes encoding for rRNA
 ## explanation_c
-Correct. Pars amorpha is the nucleolar organiser: the parts of chromosomes carrying the genes that encode rRNA. It is DNA, and it is the only one of the three that is.
+Pars amorpha is the nucleolar organiser: the parts of chromosomes carrying the genes that encode rRNA. It is DNA, and it is the only one of the three that is.
 ## answer_d
 Represents the light areas of nuclear sap
 ## explanation_d
@@ -108981,11 +108981,11 @@ Newly synthesised rRNA is pars fibrosa.
 ## answer_b
 Represents mature rRNA
 ## explanation_b
-Mature rRNA is pars granulosa. This is the option the book keys, and it names the last stage of the sequence for the part that is the first.
+Mature rRNA is pars granulosa. This is the keyed answer, and it names the last stage of the sequence for the part that is the first.
 ## answer_c
 Represents DNA encoding for rRNA
 ## explanation_c
-Correct. Pars amorpha, the nucleolar organiser, is the DNA of the chromosomes encoding rRNA.
+Pars amorpha, the nucleolar organiser, is the DNA of the chromosomes encoding rRNA.
 ## answer_d
 Represents the light areas of nuclear sap
 ## explanation_d
@@ -109066,11 +109066,11 @@ Pars fibrosa of the nucleus:
 ## answer_a
 Represents newly synthesized rRNA
 ## explanation_a
-Correct. Pars fibrosa is newly synthesised rRNA, still in strands rather than packed into granules.
+Pars fibrosa is newly synthesised rRNA, still in strands rather than packed into granules.
 ## answer_b
 Represents mature rRNA
 ## explanation_b
-Mature rRNA is pars granulosa. This is the option the book keys, and it is one step further along the sequence than the question asks.
+Mature rRNA is pars granulosa. This is the keyed answer, and it is one step further along the sequence than the question asks.
 ## answer_c
 Represents DNA encoding for rRNA
 ## explanation_c
@@ -109155,7 +109155,7 @@ part of chromosome carry genes encoding rRNA:
 ## answer_a
 pars amorpha
 ## explanation_a
-Correct. Pars amorpha is the nucleolar organiser — the chromosomal region carrying the rRNA genes.
+Pars amorpha is the nucleolar organiser — the chromosomal region carrying the rRNA genes.
 ## answer_b
 pars fibrosa
 ## explanation_b
@@ -109256,7 +109256,7 @@ True, but not the whole answer. Deep basophilia follows from the rough endoplasm
 ## answer_d
 all of the above
 ## explanation_d
-Correct. Nucleus, Golgi and cytoplasm are one coherent picture of a cell built to export protein, and the question rewards seeing them as one rather than three.
+Nucleus, Golgi and cytoplasm are one coherent picture of a cell built to export protein, and the question rewards seeing them as one rather than three.
 ## correct_answer
 D
 ## main_concept
@@ -109337,7 +109337,7 @@ Klinefelter syndrome occurs in males. It is Turner syndrome that affects females
 ## answer_b
 Somatic cells contain 47 chromosomes.
 ## explanation_b
-Correct. XXY gives 47 chromosomes — one more than normal, because a sex chromosome has been gained rather than lost.
+XXY gives 47 chromosomes — one more than normal, because a sex chromosome has been gained rather than lost.
 ## answer_c
 Has XO sex chromosomes.
 ## explanation_c
@@ -109430,11 +109430,11 @@ The oocyte nucleus carries 22 autosomes and an X chromosome only. "Either X or Y
 ## answer_c
 It starts development at puberty. Ac ad
 ## explanation_c
-Oogenesis begins in intrauterine life and is then arrested; what happens at puberty is that it resumes. This is the option the book keys, and it describes spermatogenesis, which really does start at puberty.
+Oogenesis begins in intrauterine life and is then arrested; what happens at puberty is that it resumes. This is the keyed answer, and it describes spermatogenesis, which really does start at puberty.
 ## answer_d
 Corona radiate is the outer cover of the ovum
 ## explanation_d
-Correct. The three coverings from within outwards are cell membrane, zona pellucida and corona radiata, so the corona radiata — follicular cells held together by hyaluronic acid — is the outer one.
+The three coverings from within outwards are cell membrane, zona pellucida and corona radiata, so the corona radiata — follicular cells held together by hyaluronic acid — is the outer one.
 ## correct_answer
 D
 ## main_concept
@@ -109490,7 +109490,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The book keys C, that the ovum starts development at puberty, but the department book states that in the female gametogenesis starts in intrauterine life, is arrested, and only then continues from puberty — so C is false as this faculty teaches it. The same book states in its own words that the corona radiata is the outer cover of the ovum, which is option D. Overridden to D, and recorded because the override contradicts a printed key on the strength of the department book against it.
+Answer changed from the source's: The book keys C, that the ovum starts development at puberty, but in the female gametogenesis starts in intrauterine life, is arrested, and only then continues from puberty — so C is false as taught. The same book states in its own words that the corona radiata is the outer cover of the ovum, which is option D. Overridden to D, and recorded because the override contradicts a printed key on the strength of the course material against it.
 
 
 ---
@@ -109515,7 +109515,7 @@ The whole sperm is about 55 µm long: head 4, middle piece 6 and tail 45. Six mi
 ## answer_b
 The nucleus carries 22 autosomes and either X- or Y-chromosome.
 ## explanation_b
-Correct. The sperm nucleus carries 22 autosomes and either an X or a Y chromosome — which is why the father determines the sex of the child.
+The sperm nucleus carries 22 autosomes and either an X or a Y chromosome — which is why the father determines the sex of the child.
 ## answer_c
 It starts formation at birth.
 ## explanation_c
@@ -109579,7 +109579,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book gives the sperm as 55 µm long, its formation as beginning at puberty, and the acrosomal cap as covering most of the nucleus in the head — so A, C and D are all false and B is the only statement that stands.
+Answer changed from the source's: The source printed no key. The sperm is 55 µm long, its formation begins at puberty, and the acrosomal cap covers most of the nucleus in the head — so A, C and D are all false and B is the only statement that stands.
 
 
 ---
@@ -109612,7 +109612,7 @@ True, but not the whole answer. Nucleolus-associated chromatin, condensed around
 ## answer_d
 all the above
 ## explanation_d
-Correct. Three sites, and the department book lists them as three; each is a separate option in other questions in these books, so knowing only one of them is not enough.
+Three sites are listed; each is a separate option in other questions in these books, so knowing only one of them is not enough.
 ## correct_answer
 D
 ## main_concept
@@ -109697,7 +109697,7 @@ Electron dense is heterochromatin. Euchromatin is electron lucent, because it is
 ## answer_c
 Predominates in active cells
 ## explanation_c
-Correct. Euchromatin predominates in metabolically active, protein-forming cells — the nerve cell and the liver cell are the book's examples.
+Euchromatin predominates in metabolically active, protein-forming cells — the nerve cell and the liver cell are standard examples.
 ## answer_d
 Include peripheral and islands chromatin
 ## explanation_d
@@ -109786,7 +109786,7 @@ A flattened peripheral nucleus is the unilocular cell, pushed aside by its singl
 ## answer_c
 Function is heat generation
 ## explanation_c
-Correct. Brown fat generates heat, which is why it is packed with mitochondria and why their cytochrome pigment colours it.
+Brown fat generates heat, which is why it is packed with mitochondria and why their cytochrome pigment colours it.
 ## answer_d
 Most abundant in white adipose C.T
 ## explanation_d
@@ -109867,7 +109867,7 @@ The megakaryocyte is characterized by the following
 ## answer_a
 Have single multilobed dark nucleus
 ## explanation_a
-Correct. One very large multilobed dark nucleus in a giant marrow cell — the appearance that makes a megakaryocyte unmistakable on a marrow smear.
+One very large multilobed dark nucleus in a giant marrow cell — the appearance that makes a megakaryocyte unmistakable on a marrow smear.
 ## answer_b
 Have acidophilie cytoplasm rich in lysosomes
 ## explanation_b
@@ -109960,7 +109960,7 @@ Kidney-shaped is the monocyte. The two are the largest cells on a film and the o
 ## answer_b
 Large and indented
 ## explanation_b
-Correct. Large and indented, with a visible nucleolus — the appearance of a lymphocyte that is growing rather than resting.
+Large and indented, with a visible nucleolus — the appearance of a lymphocyte that is growing rather than resting.
 ## answer_c
 With no obvious nucleolus
 ## explanation_c
@@ -110138,7 +110138,7 @@ Smooth is what the inner membrane would be called if the terms were reversed. Th
 ## answer_b
 Is granular
 ## explanation_b
-Correct. The outer membrane is granular, studded with polyribosomes, and continuous with the cisternae of the rough endoplasmic reticulum.
+The outer membrane is granular, studded with polyribosomes, and continuous with the cisternae of the rough endoplasmic reticulum.
 ## answer_c
 Shows cristae
 ## explanation_c
@@ -110235,7 +110235,7 @@ True, but not the whole answer. What is left of the cytoplasm is a thin rim arou
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three together are the signet ring: one huge droplet, a rim of cytoplasm and a flattened nucleus at one edge — three descriptions of a single consequence.
+All three together are the signet ring: one huge droplet, a rim of cytoplasm and a flattened nucleus at one edge — three descriptions of a single consequence.
 ## correct_answer
 D
 ## main_concept
@@ -110320,7 +110320,7 @@ Immature rRNA is the pars fibrosa, not the pars amorpha. This is the near-miss o
 ## answer_c
 Pars granulosa contains mature rRNA.
 ## explanation_c
-Correct. The pars granulosa is granules of mature ribosomal RNA, the last of the three stages: gene in the amorpha, new transcript in the fibrosa, finished product in the granulosa.
+The pars granulosa is granules of mature ribosomal RNA, the last of the three stages: gene in the amorpha, new transcript in the fibrosa, finished product in the granulosa.
 ## answer_d
 Pars granulosa contains immature rRNA
 ## explanation_d
@@ -110380,7 +110380,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it gives the pars amorpha as the nucleolar organiser of DNA filaments carrying the rRNA genes, the pars fibrosa as strands of newly formed rRNA, and the pars granulosa as granules of mature rRNA. Only option c matches a part to the right stage.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is not from a key: the pars amorpha is the nucleolar organiser of DNA filaments carrying the rRNA genes, the pars fibrosa is strands of newly formed rRNA, and the pars granulosa is granules of mature rRNA. Only option c matches a part to the right stage.
 
 
 ---
@@ -110409,7 +110409,7 @@ Doubly wrong. Turner has no spare X to inactivate, and the Barr body is by defin
 ## answer_c
 Inactive extra X chromosome in Klinefelter syndrome.
 ## explanation_c
-Correct. Klinefelter syndrome is XXY, so there is one X more than the cell needs; that extra X is inactivated and condensed into the Barr body, exactly as the second X is in a normal female.
+Klinefelter syndrome is XXY, so there is one X more than the cell needs; that extra X is inactivated and condensed into the Barr body, exactly as the second X is in a normal female.
 ## answer_d
 Active extra x chromosome in Klinefelter syndrome.
 ## explanation_d
@@ -110469,7 +110469,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: No key was printed on the 2020 paper and none was recovered. The department book does not settle this one either: it names the Barr body only in the granular leukocyte chapter, to say that one is visible in 3-6% of female neutrophils, and never states that it is an inactivated X. The answer therefore rests on the inactivation rule — one X stays active, the rest condense — applied to the two constitutions the book does give, Turner XO and Klinefelter XXY. The concept carries a `gaps` note saying that the rule is not in the faculty's own text.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered. The course material does not settle this one either: it names the Barr body only in the granular leukocyte chapter, to say that one is visible in 3-6% of female neutrophils, and never states that it is an inactivated X. The answer therefore rests on the inactivation rule — one X stays active, the rest condense — applied to the two constitutions the book does give, Turner XO and Klinefelter XXY. The concept carries a `gaps` note saying that the rule is not in the course text.
 
 
 ---
@@ -110494,7 +110494,7 @@ The place is right and the occasion is wrong. The subunits do meet in the cytopl
 ## answer_b
 Cytoplasm during protein synthesis
 ## explanation_b
-Correct. The subunits leave the nucleus separately and come together on a strand of mRNA in the cytoplasm only while a protein is actually being made; when translation ends they separate again.
+The subunits leave the nucleus separately and come together on a strand of mRNA in the cytoplasm only while a protein is actually being made; when translation ends they separate again.
 ## answer_c
 Nucleus during cell division.
 ## explanation_c
@@ -110558,7 +110558,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book: the two subunits are assembled in the nucleolus, return separately to the cytoplasm, and join one another only during protein synthesis. Both halves of option b come straight from that sentence.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the two subunits are assembled in the nucleolus, return separately to the cytoplasm, and join one another only during protein synthesis. Both halves of option b come straight from that sentence.
 
 
 ---
@@ -110587,7 +110587,7 @@ This is the trap, and it is a good one: the peroxisome itself does bud off the r
 ## answer_c
 Free polysomes.
 ## explanation_c
-Correct. Peroxisomal oxidases and catalase are made on free ribosomes — polysomes lying loose in the cytosol — which is the general rule for protein a cell keeps for its own use.
+Peroxisomal oxidases and catalase are made on free ribosomes — polysomes lying loose in the cytosol — which is the general rule for protein a cell keeps for its own use.
 ## answer_d
 Nucleus.
 ## explanation_d
@@ -110647,7 +110647,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper printed no key and none was recovered for it, so the answer comes from the department book, which says peroxisomes are membranous vesicles budding off the rough endoplasmic reticulum with enzymes made on free ribosomes. The vesicle and the enzymes have different origins, and the stem asks about the enzymes.
+Answer changed from the source's: The 2021 paper printed no key and none was recovered for it, so the answer given here is: peroxisomes are membranous vesicles budding off the rough endoplasmic reticulum with enzymes made on free ribosomes. The vesicle and the enzymes have different origins, and the stem asks about the enzymes.
 
 
 ---
@@ -110672,11 +110672,11 @@ Peripheral chromatin is one of the three sites of heterochromatin, not of euchro
 ## answer_b
 Formed of the nucleoproteins.
 ## explanation_b
-Correct, though it looks too general to be the answer. All chromatin is nucleoprotein — double-stranded DNA plus histone and non-histone protein — and peripheral chromatin is chromatin, so the statement holds. The other three options each attach it to the wrong place.
+This option looks too general to be the answer, but it is the true one. All chromatin is nucleoprotein — double-stranded DNA plus histone and non-histone protein — and peripheral chromatin is chromatin, so the statement holds. The other three options each attach it to the wrong place.
 ## answer_c
 Surrounding the nucleolus.
 ## explanation_c
-Condensed around the nucleolus is nucleolus-associated chromatin, the third site. The three sites are set out as a list in the book and the question simply asks which one the name "peripheral" belongs to.
+Condensed around the nucleolus is nucleolus-associated chromatin, the third site. The three sites are set out as a list and the question simply asks which one the name "peripheral" belongs to.
 ## answer_d
 Scattered in the nuclear sap.
 ## explanation_d
@@ -110736,7 +110736,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer is worked from the department book. It defines chromatin as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and it gives the three sites of heterochromatin as peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer given here is: chromatin is defined as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and the three sites of heterochromatin are peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.
 
 
 ---
@@ -110761,7 +110761,7 @@ The pars amorpha is the nucleolar organiser — the DNA carrying the rRNA genes.
 ## answer_b
 Pars fibrosa.
 ## explanation_b
-Correct. The pars fibrosa is strands of newly synthesised rRNA, the fibrillar half of the nucleolonema.
+The pars fibrosa is strands of newly synthesised rRNA, the fibrillar half of the nucleolonema.
 ## answer_c
 Nucleolar organiser.
 ## explanation_c
@@ -110825,7 +110825,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer is taken from the department book, which gives the pars fibrosa as strands of newly formed rRNA and reserves the pars granulosa for the mature granules.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the pars fibrosa is strands of newly formed rRNA, and the pars granulosa is reserved for the mature granules.
 
 
 ---
@@ -110854,7 +110854,7 @@ A dark basophilic nucleus by light microscopy is the condensed nucleus of a hete
 ## answer_c
 It contains active genes.
 ## explanation_c
-Correct. Euchromatin is the extended form carrying active genes, which is why it predominates in protein-forming cells such as the nerve cell and the liver cell.
+Euchromatin is the extended form carrying active genes, which is why it predominates in protein-forming cells such as the nerve cell and the liver cell.
 ## answer_d
 It forms chromatin islands.
 ## explanation_d
@@ -110914,7 +110914,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer comes from the department book, whose definition of euchromatin is extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer given here is: euchromatin is defined as extended, uncoiled chromatin containing active genes. Each of the other three options is a property the same page assigns to heterochromatin.
 
 
 ---
@@ -110947,7 +110947,7 @@ The outer nuclear membrane is the one continuous with the rough endoplasmic reti
 ## answer_d
 Attached to inner nuclear membrane
 ## explanation_d
-Correct. The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.
+The nuclear lamina is a meshwork of lamins against the inner nuclear membrane, and peripheral chromatin attaches to the same surface.
 ## correct_answer
 d
 ## main_concept
@@ -111003,7 +111003,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter's envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because the nuclear lamina is part of this chapter's envelope. The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the inner nuclear membrane is fibrillar, with peripheral chromatin attached to it and the nuclear lamina, made mainly of lamins, lying against it. The outer membrane is the rough one, studded with polyribosomes.
 
 
 ---
@@ -111032,7 +111032,7 @@ Every part of a chromosome is a segment of DNA, so this says nothing that distin
 ## answer_c
 Attach to spindle fibers during cell division
 ## explanation_c
-Correct. The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.
+The kinetochore is the protein plate assembled on the centromere, and the spindle microtubules attach to it to pull the chromatids apart in cell division.
 ## answer_d
 Protect end of chromosome from destruction
 ## explanation_d
@@ -111092,7 +111092,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the department book does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no source this faculty would accept supports it.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a question about chromosome structure. No key was printed on the 2020 paper and none was recovered — and, unusually, the course material does not settle it either: the words kinetochore, centromere and telomere appear nowhere in its text. The answer is the standard definition on which the item is built, the kinetochore being the plate at the centromere to which the spindle microtubules attach, with two of the three distractors describing the telomere instead. The concept carries a `gaps` note recording that no accepted source supports it.
 
 
 ---
@@ -111202,7 +111202,7 @@ Brown adipose C.T. is present in the following site in adults:
 ## answer_a
 Interscapular space.
 ## explanation_a
-Correct. The interscapular region between the shoulder blades is where brown adipose tissue is most abundant in the newborn and where a remnant survives into adult life, along with the root of the neck and around the great vessels.
+The interscapular region between the shoulder blades is where brown adipose tissue is most abundant in the newborn and where a remnant survives into adult life, along with the root of the neck and around the great vessels.
 ## answer_b
 Mammary gland.
 ## explanation_b
@@ -111299,7 +111299,7 @@ Teres major adducts and medially rotates the arm with latissimus dorsi. Students
 ## answer_c
 Supraspinatus
 ## explanation_c
-Correct, and the key. Supraspinatus runs from the supraspinous fossa over the top of the joint to the greater tuberosity, so it initiates abduction — the first fifteen degrees, before deltoid can act efficiently.
+The key. Supraspinatus runs from the supraspinous fossa over the top of the joint to the greater tuberosity, so it initiates abduction — the first fifteen degrees, before deltoid can act efficiently.
 ## answer_d
 Latissimus dorsi
 ## explanation_d
@@ -111380,7 +111380,7 @@ Winging of the scapula is due to:
 ## answer_a
 Paralysis of serratus anterior
 ## explanation_a
-Correct. Serratus anterior arises from the ribs and inserts along the costal surface of the medial border, pressing it against the chest wall; when the long thoracic nerve is lost the border stands off like a wing on pushing.
+Serratus anterior arises from the ribs and inserts along the costal surface of the medial border, pressing it against the chest wall; when the long thoracic nerve is lost the border stands off like a wing on pushing.
 ## answer_b
 Paralysis of pectoralis major
 ## explanation_b
@@ -111469,7 +111469,7 @@ A 43-year-old woman presented with a breast mass, examination of the biopsy reve
 ## answer_a
 Dense irregular white fibrous C.T. ‏ظ‎
 ## explanation_a
-Correct. Bundles running in different directions with few cells between them is the definition of dense irregular white fibrous connective tissue, and it is what surrounds and separates the lobules of the mammary gland.
+Bundles running in different directions with few cells between them is the definition of dense irregular white fibrous connective tissue, and it is what surrounds and separates the lobules of the mammary gland.
 ## answer_b
 Dense regular white fibrous C.T
 ## explanation_b
@@ -111562,7 +111562,7 @@ The nerve to latissimus dorsi — the thoracodorsal — runs on the posterior wa
 ## answer_b
 Nerve to serratus anterior.
 ## explanation_b
-Correct, and the key. The long thoracic nerve runs on the surface of serratus anterior on the medial wall of the axilla, unprotected, and axillary clearance is the classic way it is divided.
+The key. The long thoracic nerve runs on the surface of serratus anterior on the medial wall of the axilla, unprotected, and axillary clearance is the classic way it is divided.
 ## answer_c
 Nerve to pectoralis major.
 ## explanation_c
@@ -111651,7 +111651,7 @@ Deltoid caps the shoulder above and lateral to the fold and inserts into the hum
 ## answer_b
 Pectoralis major
 ## explanation_b
-Correct. The free lower border of pectoralis major, running to the lateral lip of the bicipital groove, is exactly what a hand grips at the front of the armpit.
+The free lower border of pectoralis major, running to the lateral lip of the bicipital groove, is exactly what a hand grips at the front of the armpit.
 ## answer_c
 Pectoralis minor
 ## explanation_c
@@ -111744,7 +111744,7 @@ The other half. The medial pectoral nerve, from the medial cord, pierces pectora
 ## answer_c
 both medial and pectoral nerves.
 ## explanation_c
-Correct. Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.
+Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.
 ## answer_d
 nerve to pectoralis major.
 ## explanation_d
@@ -111837,7 +111837,7 @@ Teres major sits directly beside teres minor and rotates the arm the other way. 
 ## answer_d
 Teres minor.
 ## explanation_d
-Correct as the options stand. Teres minor is a rotator cuff muscle running to the lowest facet of the greater tuberosity and rotates the arm laterally. Strictly the principal lateral rotator is infraspinatus, which this item does not offer — so teres minor is the answer here by being the only lateral rotator on the list.
+As the options stand, teres minor is a rotator cuff muscle running to the lowest facet of the greater tuberosity and rotates the arm laterally. Strictly the principal lateral rotator is infraspinatus, which this item does not offer — so teres minor is the answer here by being the only lateral rotator on the list.
 ## correct_answer
 D
 ## main_concept
@@ -111914,7 +111914,7 @@ Regarding pectoralis major, mark one correct statement: (DEP BOOK) Ac ad Ac ad a
 ## answer_a
 Inserted Into the lateral lip of the bicipital groove.
 ## explanation_a
-Correct, and the key. The tendon of pectoralis major is inserted into the lateral lip of the bicipital groove, in front of the tendon of latissimus dorsi, which takes the floor.
+The key. The tendon of pectoralis major is inserted into the lateral lip of the bicipital groove, in front of the tendon of latissimus dorsi, which takes the floor.
 ## answer_b
 Receives nerve supply from posterior cord of brachia plexus.
 ## explanation_b
@@ -112003,7 +112003,7 @@ Regarding pectoralis major, mark one correct statement: (DEP BOOK) em em em em e
 ## answer_a
 Inserted Into the lateral lip of the bicipital groove
 ## explanation_a
-Correct, and the key. Pectoralis major inserts into the lateral lip of the bicipital groove; latissimus dorsi takes the floor and teres major the medial lip.
+The key. Pectoralis major inserts into the lateral lip of the bicipital groove; latissimus dorsi takes the floor and teres major the medial lip.
 ## answer_b
 Receives nerve supply from posterior cord of brachia plexus
 ## explanation_b
@@ -112100,7 +112100,7 @@ Stops short laterally. The breast reaches the mid-axillary line, not the mid-cla
 ## answer_c
 It lies over the pectoralis major and serratus anterior muscles
 ## explanation_c
-Correct. Pectoralis major forms the bed over the medial two thirds and serratus anterior, with the external oblique aponeurosis, forms it laterally and below.
+Pectoralis major forms the bed over the medial two thirds and serratus anterior, with the external oblique aponeurosis, forms it laterally and below.
 ## answer_d
 The nipple usually lies over the 6” intercostal space
 ## explanation_d
@@ -112193,7 +112193,7 @@ The right idea inverted. With the arms fixed above the head pectoralis major pul
 ## answer_d
 Acts with latissimus dorsi to adduct the arm.
 ## explanation_d
-Correct. Both muscles reach the intertubercular groove from opposite sides and both pull the arm hard against the trunk, which is why they are the pair named whenever adduction is asked.
+Both muscles reach the intertubercular groove from opposite sides and both pull the arm hard against the trunk, which is why they are the pair named whenever adduction is asked.
 ## correct_answer
 D
 ## main_concept
@@ -112274,7 +112274,7 @@ Pectoralis minor is part of the anterior wall but ends on the coracoid process, 
 ## answer_b
 Pectoralis major muscle only
 ## explanation_b
-Correct. The lower free border of pectoralis major, running laterally towards the bicipital groove, is the anterior fold — the ridge that can be pinched at the front of the armpit.
+The lower free border of pectoralis major, running laterally towards the bicipital groove, is the anterior fold — the ridge that can be pinched at the front of the armpit.
 ## answer_c
 Subclavius and pectoralis minor muscles
 ## explanation_c
@@ -112735,7 +112735,7 @@ The kidney is not an exocrine gland in this classification at all. Its tubules a
 ## answer_d
 mammary gland
 ## explanation_d
-Correct, and the key. The mammary gland has a branching duct system opening at the nipple, each branch ending in rounded alveoli — a compound alveolar gland, and the one every student has a specimen of.
+The key. The mammary gland has a branching duct system opening at the nipple, each branch ending in rounded alveoli — a compound alveolar gland, and the one every student has a specimen of.
 ## correct_answer
 D
 ## main_concept
@@ -112812,7 +112812,7 @@ The following muscle has double innervation: (DEP BOOK)
 ## answer_a
 Pectoralis major
 ## explanation_a
-Correct, and the key. The lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve the sternocostal head, so the muscle takes a branch from each cord that gives one.
+The key. The lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve the sternocostal head, so the muscle takes a branch from each cord that gives one.
 ## answer_b
 Pectoralis minor. P
 ## explanation_b
@@ -112905,7 +112905,7 @@ Pectoralis minor is in the anterior wall, deep to pectoralis major and directly 
 ## answer_b
 Teres major.
 ## explanation_b
-Correct. Teres major forms the lower part of the posterior wall, with subscapularis above it and latissimus dorsi curling round its lower border.
+Teres major forms the lower part of the posterior wall, with subscapularis above it and latissimus dorsi curling round its lower border.
 ## answer_c
 Supraspinatus.
 ## explanation_c
@@ -113168,7 +113168,7 @@ Unicellular gland is :
 ## answer_a
 Goblet cell
 ## explanation_a
-Correct, and the key. The goblet cell is a single flask-shaped mucous-secreting cell within a surface epithelium, and it is the only unicellular gland taught.
+The key. The goblet cell is a single flask-shaped mucous-secreting cell within a surface epithelium, and it is the only unicellular gland taught.
 ## answer_b
 Salivary gland
 ## explanation_b
@@ -113261,7 +113261,7 @@ The reverse. A contracting serratus anterior presses the medial border of the sc
 ## answer_b
 When the serratus anterior muscle is paralyzed.
 ## explanation_b
-Correct, and the key. With serratus anterior paralysed, pushing forward against a wall lets the medial border lift away from the chest wall.
+The key. With serratus anterior paralysed, pushing forward against a wall lets the medial border lift away from the chest wall.
 ## answer_c
 When the pectoralis major muscle is contracted.
 ## explanation_c
@@ -113354,7 +113354,7 @@ Also reversed, and impossible besides: the muscle arises from costal cartilages,
 ## answer_c
 It adducts the arm.
 ## explanation_c
-Correct, and the key. Pectoralis major adducts the arm — with latissimus dorsi it is one of the two powerful adductors — and medially rotates it.
+The key. Pectoralis major adducts the arm — with latissimus dorsi it is one of the two powerful adductors — and medially rotates it.
 ## answer_d
 It is innervated by the median nerve.
 ## explanation_d
@@ -113443,7 +113443,7 @@ A flagellum in the human body is the sperm tail, one per cell. It does not form 
 ## answer_c
 Microvilli
 ## explanation_c
-Correct. Microvilli are too small to resolve individually, so the light microscope sees the whole carpet as a single brush or striated border on the apex of the absorptive cell.
+Microvilli are too small to resolve individually, so the light microscope sees the whole carpet as a single brush or striated border on the apex of the absorptive cell.
 ## answer_d
 Stereocilia
 ## explanation_d
@@ -113536,7 +113536,7 @@ The brush border of the intestine is microvilli as well, for the same reason.
 ## answer_d
 Contain doublets of microtubules
 ## explanation_d
-Correct. The shaft — the axoneme — is nine peripheral doublets of microtubules around two central singlets. Doublets are the giveaway: the basal body has triplets and a microvillus has no microtubules at all.
+The shaft — the axoneme — is nine peripheral doublets of microtubules around two central singlets. Doublets are the giveaway: the basal body has triplets and a microvillus has no microtubules at all.
 ## correct_answer
 D
 ## main_concept
@@ -113617,7 +113617,7 @@ Right kind of structure, wrong length. Ordinary microvilli are the short ones; t
 ## answer_b
 Long microvilli
 ## explanation_b
-Correct. A stereocilium is a long, non-motile microvillus with an actin core, and the book is explicit that it is not a true cilium.
+A stereocilium is a long, non-motile microvillus with an actin core, and it is not a true cilium.
 ## answer_c
 Motile cilia
 ## explanation_c
@@ -113702,7 +113702,7 @@ which of the following is involved in cell to cell communication??
 ## answer_a
 gap junction
 ## explanation_a
-Correct. The gap junction is the communicating junction: its channels carry ions and small molecules from the interior of one cell to the interior of the next, and impulses between muscle cells.
+The gap junction is the communicating junction: its channels carry ions and small molecules from the interior of one cell to the interior of the next, and impulses between muscle cells.
 ## answer_b
 desmosomes
 ## explanation_b
@@ -113799,7 +113799,7 @@ Same objection, and it also conflicts with the stem: the usual medications are n
 ## answer_c
 immotile cilia
 ## explanation_c
-Correct. Cilia that cannot beat cannot move mucus up the airway, secretions accumulate, and bacteria grow on top of them — so the infections recur however they are treated.
+Cilia that cannot beat cannot move mucus up the airway, secretions accumulate, and bacteria grow on top of them — so the infections recur however they are treated.
 ## answer_d
 defective stereocilia
 ## explanation_d
@@ -113888,7 +113888,7 @@ Bacterial infection is what happens on top of retained secretions; the question 
 ## answer_c
 immotile cilia syndrome
 ## explanation_c
-Correct. Immotile cilia syndrome stops the mucociliary escalator, secretions accumulate and infection follows — and because the sperm flagellum shares the axoneme, the same patient may also be infertile.
+Immotile cilia syndrome stops the mucociliary escalator, secretions accumulate and infection follows — and because the sperm flagellum shares the axoneme, the same patient may also be infertile.
 ## answer_d
 defective stereocilia
 ## explanation_d
@@ -113973,7 +113973,7 @@ Cilia move material along a surface; they do not take it up. A ciliated epitheli
 ## answer_b
 columnar cell with microvilli
 ## explanation_b
-Correct. Absorption needs surface area, and a tall cell carrying a carpet of microvilli is how the epithelium gets it.
+Absorption needs surface area, and a tall cell carrying a carpet of microvilli is how the epithelium gets it.
 ## answer_c
 simple squamous epithelium
 ## explanation_c
@@ -114062,7 +114062,7 @@ The basement membrane is the whole structure, of which the basal lamina is one p
 ## answer_b
 Lamina lucida and lamina densa
 ## explanation_b
-Correct. Within the basal lamina, electron microscopy shows an electron-lucent lamina lucida against the epithelial cell and an electron-dense lamina densa beneath it.
+Within the basal lamina, electron microscopy shows an electron-lucent lamina lucida against the epithelial cell and an electron-dense lamina densa beneath it.
 ## answer_c
 Lamina lucida and lamina reticularis
 ## explanation_c
@@ -114155,11 +114155,11 @@ Same fault: the lamina densa also lies within the basal lamina.
 ## answer_c
 Basal lamina and lamina reticularis
 ## explanation_c
-Correct. The basement membrane is the epithelium's basal lamina — type IV collagen — plus the connective tissue's lamina reticularis of type III collagen, which is the reticular fibres.
+The basement membrane is the epithelium's basal lamina — type IV collagen — plus the connective tissue's lamina reticularis of type III collagen, which is the reticular fibres.
 ## answer_d
 None of the above
 ## explanation_d
-A hedge, chosen when the two-level structure has become confusing. Option C is the book's own answer.
+A hedge, chosen when the two-level structure has become confusing. Option C is the keyed answer.
 ## correct_answer
 C
 ## main_concept
@@ -114240,7 +114240,7 @@ The gap junction does the opposite — it opens a route, though between the inte
 ## answer_b
 zonula occludens
 ## explanation_b
-Correct. The zonula occludens fuses the two membranes at points and encircles the apex, so nothing passes down the intercellular space.
+The zonula occludens fuses the two membranes at points and encircles the apex, so nothing passes down the intercellular space.
 ## answer_c
 zonula adherens
 ## explanation_c
@@ -114337,7 +114337,7 @@ True, but not the whole answer. A flagellum is the same arrangement as a cilium,
 ## answer_d
 All of the above
 ## explanation_d
-Correct. All three are the plasma membrane pushed outwards over a different cytoskeletal core, which is exactly what "membranous specialisation" names.
+All three are the plasma membrane pushed outwards over a different cytoskeletal core, which is exactly what "membranous specialisation" names.
 ## correct_answer
 D
 ## main_concept
@@ -114515,7 +114515,7 @@ True, but not the whole answer. The rootlets are 9 microtubules growing down int
 ## answer_d
 all the above
 ## explanation_d
-Correct. All three, and the reason to know all three is that each has its own microtubule count — 27, 20 and 9 — and the exam asks for them separately.
+All three, and the reason to know all three is that each has its own microtubule count — 27, 20 and 9 — and the exam asks for them separately.
 ## correct_answer
 D
 ## main_concept
@@ -114596,11 +114596,11 @@ True, but not the whole answer. Being a long microvillus, its job is to increase
 ## answer_b
 Present in epididymis
 ## explanation_b
-True, but not the whole answer. The epididymis is where the book puts them, in the male genital system.
+True, but not the whole answer. The epididymis is where they are found, in the male genital system.
 ## answer_c
 A and B
 ## explanation_c
-Correct. Both are true, and a student who takes the first true option has given half the answer.
+Both are true, and a student who takes the first true option has given half the answer.
 ## answer_d
 Movement of the mucous
 ## explanation_d
@@ -114693,7 +114693,7 @@ True, but not the whole answer. The lamina reticularis is type III collagen laid
 ## answer_d
 All of the above
 ## explanation_d
-Correct. The structure is made by two tissues from either side, which is why it has two layers and why naming which tissue made which layer is the question this material is always asked as.
+The structure is made by two tissues from either side, which is why it has two layers and why naming which tissue made which layer is the question this material is always asked as.
 ## correct_answer
 D
 ## main_concept
@@ -114782,7 +114782,7 @@ True, but not the whole answer. The wide intercellular space between the two pla
 ## answer_d
 All of the above
 ## explanation_d
-Correct. Plaque, intermediate filaments and midline are three parts of one picture, and the desmosome question is normally set as a picture rather than as a single fact.
+Plaque, intermediate filaments and midline are three parts of one picture, and the desmosome question is normally set as a picture rather than as a single fact.
 ## correct_answer
 D
 ## main_concept
@@ -114859,11 +114859,11 @@ each channel in gap junction is formed of ……… Symmetrical subunit
 ## answer_a
 6
 ## explanation_a
-Correct. Each channel is built of six symmetrical transmembrane protein molecules, which is the one number the book gives for this junction.
+Each channel is built of six symmetrical transmembrane protein molecules, which is the one number given for this junction.
 ## answer_b
 8
 ## explanation_b
-Eight is not a count the book gives anywhere in this chapter.
+Eight is not a count given anywhere in this chapter.
 ## answer_c
 9
 ## explanation_c
@@ -114871,7 +114871,7 @@ Nine is the ciliary number — nine doublets in the shaft, nine triplets in the 
 ## answer_d
 5
 ## explanation_d
-Five is not a count the book gives.
+Five is not the count.
 ## correct_answer
 A
 ## main_concept
@@ -114948,7 +114948,7 @@ encircle apex of cell like Belt
 ## answer_a
 tight junction
 ## explanation_a
-Correct. The zonula occludens is the most apical junction and completely encircles the cell like a belt, which is what "zonula" means.
+The zonula occludens is the most apical junction and completely encircles the cell like a belt, which is what "zonula" means.
 ## answer_b
 adherens junction
 ## explanation_b
@@ -115049,7 +115049,7 @@ Carrying action potentials is nerve. Neuro-epithelium receives a stimulus but do
 ## answer_d
 basement membrane
 ## explanation_d
-Correct. Resting on a basement membrane is what all four classes of epithelium have in common and what none of the other tissues has.
+Resting on a basement membrane is what all four classes of epithelium have in common and what none of the other tissues has.
 ## correct_answer
 D
 ## main_concept
@@ -115126,7 +115126,7 @@ Epithelial tissue that can resist friction would have many
 ## answer_a
 desmosomes
 ## explanation_a
-Correct. The desmosome is the strongest junction, and the book states it is abundant between the cells of stratified squamous epithelium precisely where the surface is subjected to friction.
+The desmosome is the strongest junction, and it is abundant between the cells of stratified squamous epithelium precisely where the surface is subjected to friction.
 ## answer_b
 gap junctions
 ## explanation_b
@@ -115215,7 +115215,7 @@ fix epithelium to basement membrane and C.T:
 ## answer_a
 hemidesmosome
 ## explanation_a
-Correct. A hemidesmosome is half a desmosome on the basal surface of a basal cell, and it fixes the epithelium to the basement membrane and the connective tissue below.
+A hemidesmosome is half a desmosome on the basal surface of a basal cell, and it fixes the epithelium to the basement membrane and the connective tissue below.
 ## answer_b
 basement membrane
 ## explanation_b
@@ -115312,7 +115312,7 @@ Adhering covers the two adherens junctions, which hold cells together mechanical
 ## answer_c
 Communicating junction
 ## explanation_c
-Correct. The gap junction is the communicating junction — the only one of the four through which ions, small molecules and impulses actually pass.
+The gap junction is the communicating junction — the only one of the four through which ions, small molecules and impulses actually pass.
 ## answer_d
 All of the above
 ## explanation_d
@@ -115405,7 +115405,7 @@ Not exclusive to epithelium at all, and that is the point of the correct option:
 ## answer_d
 Are areas of transmission of impulses
 ## explanation_d
-Correct. Impulses pass through gap junctions at electrical synapses and between muscle cells, which is the same channel doing the same thing in a different tissue.
+Impulses pass through gap junctions at electrical synapses and between muscle cells, which is the same channel doing the same thing in a different tissue.
 ## correct_answer
 D
 ## main_concept
@@ -115482,7 +115482,7 @@ help absorption in male genital system:
 ## answer_a
 stereocilia
 ## explanation_a
-Correct. Stereocilia are long non-motile microvilli in the epididymis, and like all microvilli they increase surface area for absorption.
+Stereocilia are long non-motile microvilli in the epididymis, and like all microvilli they increase surface area for absorption.
 ## answer_b
 cilia
 ## explanation_b
@@ -115490,7 +115490,7 @@ Cilia occur in the female genital tract, moving the ovum along the fallopian tub
 ## answer_c
 microvilli
 ## explanation_c
-Microvilli absorb, but the book's named site for them is the intestine; in the male genital system the microvillus takes the long non-motile form and the name stereocilium.
+Microvilli absorb, but the standard site for them is the intestine; in the male genital system the microvillus takes the long non-motile form and the name stereocilium.
 ## answer_d
 flagella
 ## explanation_d
@@ -115571,11 +115571,11 @@ in zonula adherens, transmembrane is attached to ………. filament:
 ## answer_a
 actin
 ## explanation_a
-Correct. Condensed proteins on the cytoplasmic side of the zonula adherens bind the junction to actin filaments.
+Condensed proteins on the cytoplasmic side of the zonula adherens bind the junction to actin filaments.
 ## answer_b
 myosin
 ## explanation_b
-Myosin is the motor that acts on actin, not the filament anchored at the junction. The book names actin here and nothing else.
+Myosin is the motor that acts on actin, not the filament anchored at the junction. Actin is named here and nothing else.
 ## answer_c
 intermediate
 ## explanation_c
@@ -115672,7 +115672,7 @@ Also true in life — the sperm flagellum has the same axoneme, so the same defe
 ## answer_d
 a, b
 ## explanation_d
-Correct as the source has it. The bacterial infection and the chronic respiratory picture are one sequence, and naming only one of them describes half of it.
+The bacterial infection and the chronic respiratory picture are one sequence, and naming only one of them describes half of it.
 ## correct_answer
 D
 ## main_concept
@@ -115761,7 +115761,7 @@ True, so not the exception. The desmosome is the deepest member.
 ## answer_d
 gap junction
 ## explanation_d
-The exception, and the answer. The book recognises four lateral junctions and three members of the complex, and the gap junction is the one left out — it communicates rather than sealing or adhering.
+The exception, and the answer. There are four lateral junctions and three members of the complex, and the gap junction is the one left out — it communicates rather than sealing or adhering.
 ## correct_answer
 D
 ## main_concept
@@ -115927,11 +115927,11 @@ lon transporting cells are characterized by:
 ## answer_a
 Basal infoldings alternating with mitochondria
 ## explanation_a
-Correct. The infoldings multiply the basal membrane area available for transport, and the mitochondria stacked vertically between them supply the ATP on the spot. The kidney tubule cell is the book's example.
+The infoldings multiply the basal membrane area available for transport, and the mitochondria stacked vertically between them supply the ATP on the spot. The kidney tubule cell is the standard example.
 ## answer_b
 Lateral infoldings
 ## explanation_b
-Lateral infoldings are not a specialisation the book names. The lateral surface carries junctions, not folds.
+Lateral infoldings are not a recognised specialisation. The lateral surface carries junctions, not folds.
 ## answer_c
 Stereocilia
 ## explanation_c
@@ -116020,7 +116020,7 @@ Microvilli are short and do not move. They are the structure most often given a 
 ## answer_b
 Cilia
 ## explanation_b
-Correct. Cilia are the motile processes on the free surface of an epithelium, moving secretions and particles across it in one direction.
+Cilia are the motile processes on the free surface of an epithelium, moving secretions and particles across it in one direction.
 ## answer_c
 Flagella
 ## explanation_c
@@ -116117,7 +116117,7 @@ Intercellular communication is the gap junction again, stated the other way roun
 ## answer_d
 Bundles of intermediate filaments are anchored to the plaques
 ## explanation_d
-Correct. Bundles of intermediate filaments are anchored into the dense cytoplasmic plaque on each side, which is what makes the desmosome the strongest junction.
+Bundles of intermediate filaments are anchored into the dense cytoplasmic plaque on each side, which is what makes the desmosome the strongest junction.
 ## correct_answer
 D
 ## main_concept
@@ -116291,7 +116291,7 @@ True, but not the whole answer. Striated border is the same appearance under ano
 ## answer_c
 A or B
 ## explanation_c
-Correct. The two terms describe one appearance, and a question offering both separately is testing whether the student knows they are synonyms.
+The two terms describe one appearance, and a question offering both separately is testing whether the student knows they are synonyms.
 ## answer_d
 None of the above
 ## explanation_d
@@ -116372,19 +116372,19 @@ Movement of cilia can be done by:
 ## answer_a
 Dyenin arms
 ## explanation_a
-Dynein arms are the accepted mechanism in the general literature, and they are what the concept record for the cilium states. They are not, however, in the department book, which attributes the beat to the bending of adjacent doublets and never names them — which is why the printed key rejects this option.
+Dynein arms are the accepted mechanism in the general literature, and they are what the concept record for the cilium states. They are not, however, in the course material, which attributes the beat to the bending of adjacent doublets and never names them — which is why the printed key rejects this option.
 ## answer_b
 Nexin
 ## explanation_b
-Nexin links hold neighbouring doublets together so that sliding becomes bending. The department book does not mention them either.
+Nexin links hold neighbouring doublets together so that sliding becomes bending. They are not mentioned in the course material either.
 ## answer_c
 Radial spokes
 ## explanation_c
-Radial spokes run from each doublet to the central pair. Again real, again absent from the department book.
+Radial spokes run from each doublet to the central pair. Again real, again absent from the course material.
 ## answer_d
 None of the above
 ## explanation_d
-The answer as this faculty keys it. The book gives the beat as the bending of adjacent doublets against one another and names no protein at all, so none of the three named structures is in the material the examiner set. Learn the department's answer for the paper and the dynein mechanism for everything after it — the disagreement is recorded on the concept.
+The answer as it is keyed. The beat is given as the bending of adjacent doublets against one another, with no protein named at all, so none of the three named structures is in the material the examiner set. Learn the examined answer for the paper and the dynein mechanism for everything after it — the disagreement is recorded on the concept.
 ## correct_answer
 D
 ## main_concept
@@ -116473,7 +116473,7 @@ The desmosome is the strongest junction and the least permeable — a mechanical
 ## answer_d
 gap junction
 ## explanation_d
-Correct. The gap junction's six-subunit channels carry ions and small molecules between cell interiors, and impulses between muscle cells.
+The gap junction's six-subunit channels carry ions and small molecules between cell interiors, and impulses between muscle cells.
 ## correct_answer
 D
 ## main_concept
@@ -116558,7 +116558,7 @@ The bladder's basement membrane is non-clear and thin; the thick, clear, wavy on
 ## answer_c
 Superficial cells are connected by junctional complex
 ## explanation_c
-Correct. The dome-shaped superficial cells are joined to one another by junctional complexes — zonula occludens, zonula adherens and macula adherens together — which is part of how the surface stays impermeable to urine.
+The dome-shaped superficial cells are joined to one another by junctional complexes — zonula occludens, zonula adherens and macula adherens together — which is part of how the surface stays impermeable to urine.
 ## answer_d
 Superficial cells are covered by cilia
 ## explanation_d
@@ -116643,7 +116643,7 @@ Cilia would sweep the contents along, which the intestine achieves by muscular c
 ## answer_b
 Microvilli
 ## explanation_b
-Correct. Microvilli, seen by light microscopy as the striated or brush border, multiply the absorptive surface of the intestinal cell.
+Microvilli, seen by light microscopy as the striated or brush border, multiply the absorptive surface of the intestinal cell.
 ## answer_c
 sterocilia
 ## explanation_c
@@ -116736,7 +116736,7 @@ The adherens junction does adhere, but across a wide space and onto actin, which
 ## answer_c
 desmosome
 ## explanation_c
-Correct. The desmosome anchors intermediate filaments into a dense plaque on each side, and the book names it the strongest junction — which is why stratified squamous epithelium, the tissue that takes friction, is full of them.
+The desmosome anchors intermediate filaments into a dense plaque on each side, and it is the strongest junction — which is why stratified squamous epithelium, the tissue that takes friction, is full of them.
 ## answer_d
 gap junction
 ## explanation_d
@@ -116821,11 +116821,11 @@ The nucleus of a columnar cell is oval and basal, not apical and not flat — a 
 ## answer_b
 numerous myosin filaments
 ## explanation_b
-The microvillus core is actin, and myosin is not what the book names in it. The option swaps the contractile partner for the structural one.
+The microvillus core is actin, and myosin is not part of it. The option swaps the contractile partner for the structural one.
 ## answer_c
 apical microvilli
 ## explanation_c
-Correct. Apical microvilli, seen as a brush border, are what make the cell absorptive.
+Apical microvilli, seen as a brush border, are what make the cell absorptive.
 ## answer_d
 cilia
 ## explanation_d
@@ -116914,7 +116914,7 @@ The kinetochore is the attachment point of spindle microtubules on a chromosome 
 ## answer_c
 Terminal web
 ## explanation_c
-Correct. The actin filaments of each microvillus run down into a mat of filaments beneath the apical membrane, the terminal web.
+The actin filaments of each microvillus run down into a mat of filaments beneath the apical membrane, the terminal web.
 ## answer_d
 Centrosome
 ## explanation_d
@@ -117181,7 +117181,7 @@ A desmosome joins two epithelial cells. It is the right family, and the trap is 
 ## answer_c
 hemi-desmosomes
 ## explanation_c
-Correct. A hemidesmosome is half a desmosome facing the basement membrane instead of a neighbouring cell.
+A hemidesmosome is half a desmosome facing the basement membrane instead of a neighbouring cell.
 ## answer_d
 zonula occludens
 ## explanation_d
@@ -117274,7 +117274,7 @@ Epithelium is avascular — blood and lymph vessels cannot penetrate between its
 ## answer_d
 It has clear or non clear basement membrane
 ## explanation_d
-Correct. Every epithelium rests on a basement membrane, and the book explicitly allows it to be clear, as in skin, or not clear, as in transitional epithelium.
+Every epithelium rests on a basement membrane, and it may be clear, as in skin, or not clear, as in transitional epithelium.
 ## correct_answer
 D
 ## main_concept
@@ -117363,7 +117363,7 @@ A desmosome is on the lateral surface, joining the cell to its neighbours.
 ## answer_d
 Microvilli
 ## explanation_d
-Correct. Microvilli are the apical specialisation of the intestinal absorptive cell, seen by light microscopy as the striated border.
+Microvilli are the apical specialisation of the intestinal absorptive cell, seen by light microscopy as the striated border.
 ## correct_answer
 D
 ## main_concept
@@ -117626,7 +117626,7 @@ The adherens junction leaves a wide intercellular space open and merely holds th
 ## answer_c
 Occluding junction
 ## explanation_c
-Correct. The occluding junction fuses the two membranes at points around the apex, so extracellular material cannot pass down between the cells.
+The occluding junction fuses the two membranes at points around the apex, so extracellular material cannot pass down between the cells.
 ## answer_d
 Desmosome
 ## explanation_d
@@ -117719,7 +117719,7 @@ A secretory cell exports material and is recognised by its granules and its roug
 ## answer_d
 absorption
 ## explanation_d
-Correct. Microvilli exist to multiply surface area, and surface area is what absorption needs.
+Microvilli exist to multiply surface area, and surface area is what absorption needs.
 ## correct_answer
 D
 ## main_concept
@@ -117804,7 +117804,7 @@ Zonula adherens adheres, but anchors actin across a wide space and is the weaker
 ## answer_c
 macula adherens
 ## explanation_c
-Correct. Macula adherens — the desmosome — anchors intermediate filaments into dense plaques and is the strongest of the four.
+Macula adherens — the desmosome — anchors intermediate filaments into dense plaques and is the strongest of the four.
 ## answer_d
 gap junction
 ## explanation_d
@@ -117893,7 +117893,7 @@ Thick filaments are myosin, a muscle structure, and are not anchored at any epit
 ## answer_c
 intermediate filaments
 ## explanation_c
-Correct. Bundles of intermediate filaments — tonofilaments in an epithelial cell — insert into the dense attachment plaque of the desmosome.
+Bundles of intermediate filaments — tonofilaments in an epithelial cell — insert into the dense attachment plaque of the desmosome.
 ## answer_d
 neuro filaments
 ## explanation_d
@@ -117982,7 +117982,7 @@ Stereocilia look like hairs and are not motile at all, which is precisely the tr
 ## answer_c
 cilia
 ## explanation_c
-Correct. Cilia are the motile hair-like processes covering the free surface of a ciliated epithelium.
+Cilia are the motile hair-like processes covering the free surface of a ciliated epithelium.
 ## answer_d
 microvilli
 ## explanation_d
@@ -118071,7 +118071,7 @@ Epithelium is a tissue in its own right, not a connective tissue fibre. The fibr
 ## answer_c
 Its cells lie on a basement membrane
 ## explanation_c
-Correct. Every epithelium rests on a basement membrane, and it is the feature that distinguishes epithelium from the tissues around it.
+Every epithelium rests on a basement membrane, and it is the feature that distinguishes epithelium from the tissues around it.
 ## answer_d
 It’s transitional type is considered to be simple
 ## explanation_d
@@ -118152,7 +118152,7 @@ Which feature is characteristic for zonula Occludens?
 ## answer_a
 Fusion of adjacent membranes at certain points
 ## explanation_a
-Correct. The two adjacent plasma membranes fuse at points through transmembrane proteins from each cell, which is what obliterates the space between them.
+The two adjacent plasma membranes fuse at points through transmembrane proteins from each cell, which is what obliterates the space between them.
 ## answer_b
 Abundant cytokeratin filaments near the junction
 ## explanation_b
@@ -118249,11 +118249,11 @@ Cilia sit on simple and pseudostratified columnar epithelia. A stratified surfac
 ## answer_c
 desmosomes
 ## explanation_c
-Correct. Desmosomes are abundant between the cells of stratified squamous epithelium, because that is the tissue exposed to friction and the desmosome is the strongest junction.
+Desmosomes are abundant between the cells of stratified squamous epithelium, because that is the tissue exposed to friction and the desmosome is the strongest junction.
 ## answer_d
 gap junction
 ## explanation_d
-Gap junctions occur widely but are not what the book singles out as the specialisation of stratified epithelium.
+Gap junctions occur widely but they are not the specialisation singled out for stratified epithelium.
 ## correct_answer
 C
 ## main_concept
@@ -118330,7 +118330,7 @@ Which of the following statements is the best description of zonula Occludens? C
 ## answer_a
 A barrier to avoid free diffusion along epithelial cells
 ## explanation_a
-Correct. The seal is a barrier to free diffusion along the intercellular space, which is what makes an epithelium able to keep two compartments different from each other.
+The seal is a barrier to free diffusion along the intercellular space, which is what makes an epithelium able to keep two compartments different from each other.
 ## answer_b
 Exchange of small molecules and ions between cells
 ## explanation_b
@@ -118427,7 +118427,7 @@ The basal body is the base of a cilium, inside the cell. Its name makes it sound
 ## answer_c
 Microvilli
 ## explanation_c
-Correct. A dense carpet of microvilli is resolved by the light microscope as a single brush or striated border.
+A dense carpet of microvilli is resolved by the light microscope as a single brush or striated border.
 ## answer_d
 Cilia
 ## explanation_d
@@ -118512,7 +118512,7 @@ The zonula adherens holds cells together across an open space, so material can s
 ## answer_b
 zonula occludens
 ## explanation_b
-Correct. The zonula occludens is what turns a sheet of cells into a barrier, by closing the only route that goes round the cells rather than through them.
+The zonula occludens is what turns a sheet of cells into a barrier, by closing the only route that goes round the cells rather than through them.
 ## answer_c
 fascia adherens
 ## explanation_c
@@ -118601,7 +118601,7 @@ The zonula adherens lies immediately below the tight junction, which makes it th
 ## answer_b
 tight junction
 ## explanation_b
-Correct. The tight junction is the most apical of the lateral junctions, which is what lets it seal everything below it off from the lumen.
+The tight junction is the most apical of the lateral junctions, which is what lets it seal everything below it off from the lumen.
 ## answer_c
 Desmosomes
 ## explanation_c
@@ -118694,7 +118694,7 @@ The zonula adherens does have a wide intercellular space, which makes this the r
 ## answer_c
 desmosome
 ## explanation_c
-Correct. The desmosome shows a wide intercellular space with a dense midline where the transmembrane proteins of the two cells meet, flanked by an attachment plaque on each side.
+The desmosome shows a wide intercellular space with a dense midline where the transmembrane proteins of the two cells meet, flanked by an attachment plaque on each side.
 ## answer_d
 gap junction
 ## explanation_d
@@ -118775,7 +118775,7 @@ Chronic respiratory tract infection may be caused by abnormality in:
 ## answer_a
 Cilia
 ## explanation_a
-Correct. Cilia sweep mucus and trapped particles up out of the airway; when they cannot beat, the secretions sit still and bacteria grow in them, which is the mechanism the book gives for chronic respiratory infection.
+Cilia sweep mucus and trapped particles up out of the airway; when they cannot beat, the secretions sit still and bacteria grow in them, which is the mechanism behind chronic respiratory infection.
 ## answer_b
 Microvilli.
 ## explanation_b
@@ -118843,7 +118843,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which states in its own applied note that inability of the cilia to move results in bacterial infection on top of accumulated secretions, causing chronic respiratory infections.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: inability of the cilia to move results in bacterial infection on top of accumulated secretions, causing chronic respiratory infections.
 
 
 ---
@@ -118872,7 +118872,7 @@ The adherens junction is adhering. Its transmembrane proteins are joined across 
 ## answer_c
 Gap junction.
 ## explanation_c
-Correct. Each channel of the gap junction is six symmetrical transmembrane protein molecules, and through them ions and small molecules move directly from one cytoplasm to the next — and impulses between muscle cells.
+Each channel of the gap junction is six symmetrical transmembrane protein molecules, and through them ions and small molecules move directly from one cytoplasm to the next — and impulses between muscle cells.
 ## answer_d
 Desmosomes.
 ## explanation_d
@@ -118932,7 +118932,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer is taken from the department book, which names the gap junction the nexus or communicating junction and gives it as the only one of the four through which ions, small molecules and impulses pass.
+Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for that sitting, so the answer given here is: the gap junction, also called the nexus or communicating junction, is the only one of the four through which ions, small molecules and impulses pass.
 
 
 ---
@@ -118953,11 +118953,11 @@ Concerning Zonula occludens (occluding junction):
 ## answer_a
 Itis a type of apical epithelial specializations.
 ## explanation_a
-The apical specialisations are cilia, flagella, microvilli and stereocilia. The zonula occludens sits at the apical end of the *lateral* membrane, and the book classes it with the lateral specialisations — a distinction of position against class that this option is built on.
+The apical specialisations are cilia, flagella, microvilli and stereocilia. The zonula occludens sits at the apical end of the *lateral* membrane, and it is classed with the lateral specialisations — a distinction of position against class that this option is built on.
 ## answer_b
 Two adjacent cell’membranes fuse at certain points. ’
 ## explanation_b
-Correct. The two membranes fuse at points via transmembrane proteins on each cell, and the belt of fusion is what restricts passage of substances between the cells.
+The two membranes fuse at points via transmembrane proteins on each cell, and the belt of fusion is what restricts passage of substances between the cells.
 ## answer_c
 The adjacent cell- membranes are widely separated:
 ## explanation_c
@@ -119021,7 +119021,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a lateral junction question. The 2022 paper printed no key for it and the highlight recovery returned nothing, so the answer comes from the department book: the tight or occluding junction is where two adjacent cell membranes fuse at certain points through transmembrane proteins, encircling the apex of the cell like a belt. The book also groups all four junctions as lateral specialisations, which is what makes option a false.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it is a lateral junction question. The 2022 paper printed no key for it and the highlight recovery returned nothing, so the answer given here is: the tight or occluding junction is where two adjacent cell membranes fuse at certain points through transmembrane proteins, encircling the apex of the cell like a belt. All four junctions are also grouped as lateral specialisations, which is what makes option a false.
 
 
 ---
@@ -119042,7 +119042,7 @@ Normal RBCs are :
 ## answer_a
 oval in shape
 ## explanation_a
-Oval red cells — ovalocytes — are one of the abnormal shapes the book lists, alongside spherocytes, sickle cells and poikilocytes.
+Oval red cells — ovalocytes — are one of the abnormal shapes, alongside spherocytes, sickle cells and poikilocytes.
 ## answer_b
 nucleated biconcave disks
 ## explanation_b
@@ -119050,7 +119050,7 @@ The shape is right and the nucleus is not. The mature mammalian red corpuscle ha
 ## answer_c
 non nucleated biconcave disks
 ## explanation_c
-Correct. Non-nucleated biconcave discs — the two facts that between them define the cell.
+Non-nucleated biconcave discs — the two facts that between them define the cell.
 ## answer_d
 non nucleated biconvex disks
 ## explanation_d
@@ -119139,7 +119139,7 @@ No special stain is needed: the routine Leishman's film shows the cell perfectly
 ## answer_c
 acidophilic
 ## explanation_c
-Correct. Haemoglobin is a basic protein, so it binds the acidic dye eosin, and the corpuscle is acidophilic.
+Haemoglobin is a basic protein, so it binds the acidic dye eosin, and the corpuscle is acidophilic.
 ## answer_d
 All the above
 ## explanation_d
@@ -119220,11 +119220,11 @@ Light microscopic features of red blood corpuscles Include:
 ## answer_a
 Variation in size
 ## explanation_a
-Variation in size is anisocytosis, and the book lists it among the abnormalities of size along with microcytes and macrocytes. A normal film is uniform.
+Variation in size is anisocytosis, and it is one of the abnormalities of size, along with microcytes and macrocytes. A normal film is uniform.
 ## answer_b
 Acidophilic appearance
 ## explanation_b
-Correct. The cell is acidophilic, because haemoglobin is a basic protein and binds the acidic dye.
+The cell is acidophilic, because haemoglobin is a basic protein and binds the acidic dye.
 ## answer_c
 The presence of nuclei
 ## explanation_c
@@ -119288,7 +119288,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. B is the department book's own account — the corpuscle is acidophilic because haemoglobin is a basic protein — and each of the other three contradicts the book: normal corpuscles are uniform in size (variation is anisocytosis, an abnormality), they have no nuclei, and the centre is pale rather than dark.
+Answer changed from the source's: The source printed no key. B is the correct account — the corpuscle is acidophilic because haemoglobin is a basic protein — and each of the other three is contradicted: normal corpuscles are uniform in size (variation is anisocytosis, an abnormality), they have no nuclei, and the centre is pale rather than dark.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -119309,7 +119309,7 @@ Central pallor in RBCs is the:
 ## answer_a
 middle 1/3
 ## explanation_a
-Correct, and keyed. The pale centre is about one third of the diameter, which is the figure the book gives and the one a normochromic film is judged against.
+Keyed. The pale centre is about one third of the diameter, and a normochromic film is judged against that figure.
 ## answer_b
 middle 1/2
 ## explanation_b
@@ -119402,7 +119402,7 @@ The two halves are the right words in the wrong order. Biconcavity is what is se
 ## answer_b
 rounded, biconcave
 ## explanation_b
-Correct on the department book's own figure: rounded seen face on, biconcave seen edge on.
+The corpuscle is rounded seen face on and biconcave seen edge on.
 ## answer_c
 oval, biconvex
 ## explanation_c
@@ -119466,7 +119466,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood | Module 101 que
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from the question book itself.
-Answer changed from the source's: The bank carries C — "oval, biconvex" — and both halves of it contradict the department book, whose figure on page 26 is captioned "Top view and Side view of the RBC" and whose text reads "rounded in top view, biconcave in side view to increase surface area for gas exchange". Oval is an abnormal shape (the ovalocyte) and biconvex is the opposite curvature to the one that gives the cell its surface area. B states the book's own pair.
+Answer changed from the source's: The bank carries C — "oval, biconvex" — and both halves of it are contradicted by the reference figure, captioned "Top view and Side view of the RBC", and the accompanying text: "rounded in top view, biconcave in side view to increase surface area for gas exchange". Oval is an abnormal shape (the ovalocyte) and biconvex is the opposite curvature to the one that gives the cell its surface area. B states the correct pair.
 
 
 ---
@@ -119491,7 +119491,7 @@ True. Rounded, biconcave and non-nucleated is the standard description.
 ## answer_b
 6-9 µm in diameter
 ## explanation_b
-True. The book gives the diameter as 6–9 µm, with an average of 7.5.
+True. The diameter is 6–9 µm, with an average of 7.5.
 ## answer_c
 It is red because of its hemoglobin content
 ## explanation_c
@@ -119499,7 +119499,7 @@ True. The colour is haemoglobin, and it is why the cell is acidophilic.
 ## answer_d
 It is very active cell
 ## explanation_d
-Correct, and the exception. The mature red corpuscle is the least active cell in the body: no nucleus, no organelles, no division and no protein synthesis — it is a bag of haemoglobin with a membrane.
+The exception. The mature red corpuscle is the least active cell in the body: no nucleus, no organelles, no division and no protein synthesis — it is a bag of haemoglobin with a membrane.
 ## correct_answer
 D
 ## main_concept
@@ -119580,7 +119580,7 @@ True. The average diameter is 7.5 µm.
 ## answer_b
 have a role in immunity
 ## explanation_b
-Correct, and the exception. Immunity is the leukocyte's work. The red corpuscle carries gases and buffers acid, and it has neither the organelles nor the receptors for a defensive role.
+The exception. Immunity is the leukocyte's work. The red corpuscle carries gases and buffers acid, and it has neither the organelles nor the receptors for a defensive role.
 ## answer_c
 have biconcave shape
 ## explanation_c
@@ -119665,7 +119665,7 @@ The RBCs in adults:
 ## answer_a
 Are flexible biconcave discs
 ## explanation_a
-Correct. Flexible biconcave discs: the flexibility lets them through the capillaries and the biconcavity gives them their surface area.
+Flexible biconcave discs: the flexibility lets them through the capillaries and the biconcavity gives them their surface area.
 ## answer_b
 Have a life span of about 3 weeks
 ## explanation_b
@@ -119733,7 +119733,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. A is the department book's own description; the other three each contradict it, since the life span is about 120 days rather than three weeks, the mature cell is non-nucleated, and the oxygen-binding pigment of the red corpuscle is haemoglobin — myoglobin belongs to muscle.
+Answer changed from the source's: The source printed no key. A is the accurate description; the other three are each contradicted, since the life span is about 120 days rather than three weeks, the mature cell is non-nucleated, and the oxygen-binding pigment of the red corpuscle is haemoglobin — myoglobin belongs to muscle.
 
 
 ---
@@ -119754,7 +119754,7 @@ The following is character of the erythrocytes
 ## answer_a
 its average diameter is 7.5 µm
 ## explanation_a
-Correct. The average diameter is 7.5 µm, within a range of 6 to 9.
+The average diameter is 7.5 µm, within a range of 6 to 9.
 ## answer_b
 Is life span is about 20 days
 ## explanation_b
@@ -119843,7 +119843,7 @@ The average size of RBCs
 ## answer_a
 7.0 um
 ## explanation_a
-Correct, and the only option in a plausible unit. The department book gives 7.5 µm as the average within a 6–9 µm range, so the printed 7.0 is a rounding of it; what this question is really testing is the micrometre.
+The only option in a plausible unit. 7.5 µm is the average within a 6–9 µm range, so the printed 7.0 is a rounding of it; what this question is really testing is the micrometre.
 ## answer_b
 7.0 nm
 ## explanation_b
@@ -119940,11 +119940,11 @@ True on its own. Leukocytes are the nucleated cells of blood.
 ## answer_c
 thrombocytes
 ## explanation_c
-True on its own. Thrombocytes — platelets — are the third element, even though the book says they are not true cells.
+True on its own. Thrombocytes — platelets — are the third element, even though they are not true cells.
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three are formed elements of blood, suspended in the fluid matrix that is plasma.
+All three are formed elements of blood, suspended in the fluid matrix that is plasma.
 ## correct_answer
 D
 ## main_concept
@@ -120029,7 +120029,7 @@ A heterochromatic nucleus is the small lymphocyte's. The mature red corpuscle ha
 ## answer_c
 Cell membrane as the only organelle
 ## explanation_c
-Correct. The cell membrane is the only membranous structure left; everything inside is homogeneous electron-dense haemoglobin.
+The cell membrane is the only membranous structure left; everything inside is homogeneous electron-dense haemoglobin.
 ## answer_d
 Euchromatic nucleus
 ## explanation_d
@@ -120122,7 +120122,7 @@ True. Rounded edges are what let it pass easily through branched vessels.
 ## answer_d
 low surface area for gas exchange
 ## explanation_d
-Correct, and the exception. The biconcave shape exists precisely to give a large surface area for the volume; a low surface area would defeat the whole design.
+The exception. The biconcave shape exists precisely to give a large surface area for the volume; a low surface area would defeat the whole design.
 ## correct_answer
 D
 ## main_concept
@@ -120148,7 +120148,7 @@ Moderate
 ## question_type
 Negative stem
 ## learning_objective
-Identify the false statement in the book's adaptation table.
+Identify the false statement in the adaptation table.
 ## setting
 Academic
 ## academic_relevance
@@ -120211,7 +120211,7 @@ True. Its elasticity lets the cell through capillaries narrower than itself.
 ## answer_d
 The small nucleus provide a wide space for hemoglobin
 ## explanation_d
-Correct, and the exception, on one word. There is no nucleus at all, small or otherwise; the space for haemoglobin comes from having lost it entirely.
+The exception, on one word. There is no nucleus at all, small or otherwise; the space for haemoglobin comes from having lost it entirely.
 ## correct_answer
 D
 ## main_concept
@@ -120300,7 +120300,7 @@ True on its own. Losing the organelles frees the rest.
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three contribute, and together they are the "content" row of the book's adaptation table.
+All three contribute, and together they are the "content" row of the adaptation table.
 ## correct_answer
 D
 ## main_concept
@@ -120381,7 +120381,7 @@ Myoglobin is muscle's oxygen store and is not a membrane component of anything.
 ## answer_b
 Cholesterol content
 ## explanation_b
-Cholesterol does sit among the fatty acid tails and stabilise the membrane, but the book attributes the selectivity for gas exchange to the membrane's lipoprotein nature.
+Cholesterol does sit among the fatty acid tails and stabilise the membrane, but the selectivity for gas exchange comes from the membrane's lipoprotein nature.
 ## answer_c
 Carbohydrate content
 ## explanation_c
@@ -120389,7 +120389,7 @@ The carbohydrate of the outer coat carries the blood group antigens. It is on on
 ## answer_d
 Lipoprotein content
 ## explanation_d
-Correct. The plasmalemma is lipoprotein and therefore highly selective — permeable to the gases and not to the haemoglobin.
+The plasmalemma is lipoprotein and therefore highly selective — permeable to the gases and not to the haemoglobin.
 ## correct_answer
 D
 ## main_concept
@@ -120478,7 +120478,7 @@ Phagocytosis needs lysosomes and a cytoskeleton capable of pseudopodia. The red 
 ## answer_d
 both a & b are correct
 ## explanation_d
-Correct. Gas transport and buffering are both red corpuscle functions; phagocytosis is the leukocyte's.
+Gas transport and buffering are both red corpuscle functions; phagocytosis is the leukocyte's.
 ## correct_answer
 D
 ## main_concept
@@ -120555,7 +120555,7 @@ Adaptations of RBCS to function include:
 ## answer_a
 flexible cell membrane to squeeze in capillaries
 ## explanation_a
-Correct. Flexibility is what squeezing through a narrow capillary needs, and the book attributes it to the plasmalemma in exactly those words.
+Flexibility is what squeezing through a narrow capillary needs, and it is attributed to the plasmalemma.
 ## answer_b
 lipoprotein cell membrane to squeeze in capillaries
 ## explanation_b
@@ -120567,7 +120567,7 @@ Swapped the other way. Rounded edges ease passage through branched vessels; it i
 ## answer_d
 biconcave surface to pass in branched vessels
 ## explanation_d
-And swapped again: the biconcave surface gives surface area for gas exchange, while the rounded edges are what the book credits with passage through branched vessels.
+And swapped again: the biconcave surface gives surface area for gas exchange, while the rounded edges account for passage through branched vessels.
 ## correct_answer
 A
 ## main_concept
@@ -120623,7 +120623,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book pairs each adaptation with its own property: the flexible membrane is what lets the cell squeeze through narrow capillaries, the lipoprotein membrane is what makes it selective for gas exchange, the rounded edges are what ease passage through branched vessels, and the biconcave shape is what gives the surface area. Options B, C and D each keep the right pairs but exchange their halves; only A pairs a property with the consequence the book gives it.
+Answer changed from the source's: The source printed no key. Each adaptation pairs with its own property: the flexible membrane is what lets the cell squeeze through narrow capillaries, the lipoprotein membrane is what makes it selective for gas exchange, the rounded edges are what ease passage through branched vessels, and the biconcave shape is what gives the surface area. Options B, C and D each keep the right pairs but exchange their halves; only A pairs a property with its correct consequence.
 
 
 ---
@@ -120644,7 +120644,7 @@ The outer surface of cell membrane of RBCs is responsible for:
 ## answer_a
 blood grouping
 ## explanation_a
-Correct. The glycocalyx on the outer surface carries the antigenic sites of the ABO groups and the Rh factor.
+The glycocalyx on the outer surface carries the antigenic sites of the ABO groups and the Rh factor.
 ## answer_b
 maintainance of its shape
 ## explanation_b
@@ -120737,7 +120737,7 @@ Blood grouping is a property of the outer surface, the carbohydrate coat, not of
 ## answer_b
 maintainance of its shape
 ## explanation_b
-Correct. Spectrin and actin maintain the biconcave shape and give the membrane the elasticity and stability it needs to be deformed thousands of times.
+Spectrin and actin maintain the biconcave shape and give the membrane the elasticity and stability it needs to be deformed thousands of times.
 ## answer_c
 maintainace of its color
 ## explanation_c
@@ -120834,7 +120834,7 @@ Myosin is the motor protein of muscle contraction and of the pericyte; the red c
 ## answer_d
 a, b
 ## explanation_d
-Correct. Actin and spectrin together are the peripheral protein network beneath the inner surface.
+Actin and spectrin together are the peripheral protein network beneath the inner surface.
 ## correct_answer
 D
 ## main_concept
@@ -120923,7 +120923,7 @@ Carbonic anhydrase carries carbon dioxide; losing it would impair gas transport,
 ## answer_d
 Primary defect in spectrin gene expression
 ## explanation_d
-Correct. A primary defect in spectrin gene expression leaves the cytoskeleton unable to hold the biconcavity, so the cell rounds up into a sphere and is destroyed early.
+A primary defect in spectrin gene expression leaves the cytoskeleton unable to hold the biconcavity, so the cell rounds up into a sphere and is destroyed early.
 ## correct_answer
 D
 ## main_concept
@@ -121000,7 +121000,7 @@ Rouleaux appearance is characteristic for :
 ## answer_a
 RBCs
 ## explanation_a
-Correct. Only red corpuscles stack like coins, and the reason is their biconcave surfaces meeting face to face.
+Only red corpuscles stack like coins, and the reason is their biconcave surfaces meeting face to face.
 ## answer_b
 WBCs
 ## explanation_b
@@ -121097,11 +121097,11 @@ True. It occurs in slow circulation, not in normal flow.
 ## answer_c
 its cause is high surface tension
 ## explanation_c
-True, and the book's own explanation: the surface tension of the biconcave surfaces is what makes them stick.
+True: the surface tension of the biconcave surfaces is what makes them stick.
 ## answer_d
 its cause is low surface tension
 ## explanation_d
-Correct, and the false statement. It is high surface tension, not low, that causes the stacking — this option is C with one word inverted, which is the whole item.
+The false statement. It is high surface tension, not low, that causes the stacking — this option is C with one word inverted, which is the whole item.
 ## correct_answer
 D
 ## main_concept
@@ -121182,7 +121182,7 @@ It occurs in slow circulation. Normal flow keeps the cells apart.
 ## answer_b
 Reversible phenomena
 ## explanation_b
-Correct, and keyed. Rouleaux is reversible: the stacks separate again when the circulation speeds up, and no cell is harmed.
+Keyed. Rouleaux is reversible: the stacks separate again when the circulation speeds up, and no cell is harmed.
 ## answer_c
 Causes damage of RBCs
 ## explanation_c
@@ -121279,7 +121279,7 @@ One word wrong. The cytoskeleton maintains the biconcave shape, not a biconvex o
 ## answer_d
 They tend to form rouleaux appearance in slow circulation
 ## explanation_d
-Correct. Rouleaux forms in slow circulation, reversibly and without damage.
+Rouleaux forms in slow circulation, reversibly and without damage.
 ## correct_answer
 D
 ## main_concept
@@ -121356,7 +121356,7 @@ RBCs are fragile, so maintained in …………. solution
 ## answer_a
 isotonic
 ## explanation_a
-Correct. The corpuscle keeps its normal shape in an isotonic medium, and plasma is isotonic — equal in osmotic pressure to 0.9% saline.
+The corpuscle keeps its normal shape in an isotonic medium, and plasma is isotonic — equal in osmotic pressure to 0.9% saline.
 ## answer_b
 hypertonic
 ## explanation_b
@@ -121449,7 +121449,7 @@ Only an isotonic medium leaves the cell unchanged.
 ## answer_b
 shrink crenate
 ## explanation_b
-Correct. Water leaves the cell, it shrinks, and its edge takes on the notches that give crenation its name.
+Water leaves the cell, it shrinks, and its edge takes on the notches that give crenation its name.
 ## answer_c
 swell, burst
 ## explanation_c
@@ -121538,7 +121538,7 @@ Iron and vitamin B12 deficiencies give nutritional anaemias — microcytic and p
 ## answer_b
 Bone marrow depression by x-ray
 ## explanation_b
-Correct. Aplastic anaemia is depression or destruction of the bone marrow itself, by irradiation or chemotherapy, and because the whole marrow fails all three cell lines fall together.
+Aplastic anaemia is depression or destruction of the bone marrow itself, by irradiation or chemotherapy, and because the whole marrow fails all three cell lines fall together.
 ## answer_c
 Acute blood loss
 ## explanation_c
@@ -121627,7 +121627,7 @@ Aplastic anaemia is marrow failure from irradiation or chemotherapy, not a vitam
 ## answer_b
 Perinicious anemia
 ## explanation_b
-Correct. Pernicious anaemia is vitamin B12 deficiency, and the deficiency arises because the stomach fails to make the intrinsic factor B12 needs to be absorbed.
+Pernicious anaemia is vitamin B12 deficiency, and the deficiency arises because the stomach fails to make the intrinsic factor B12 needs to be absorbed.
 ## answer_c
 sickle cell anemia
 ## explanation_c
@@ -121720,7 +121720,7 @@ Pernicious anaemia is a B12 deficiency; the haemoglobin molecule is normal.
 ## answer_c
 sickle cell anemia
 ## explanation_c
-Correct. HbS is rigid and accumulates at one side of the cell, pulling it into the crescent that names sickle cell anaemia.
+HbS is rigid and accumulates at one side of the cell, pulling it into the crescent that names sickle cell anaemia.
 ## answer_d
 microcytic anemia
 ## explanation_d
@@ -121813,7 +121813,7 @@ The mature red corpuscle has no nucleus, so no red cell disease can be an abnorm
 ## answer_d
 Mutated DNA encoding Hb
 ## explanation_d
-Correct, and keyed. A mutation in the DNA encoding the globin chain produces HbS, and everything else about the disease follows from that molecule.
+Keyed. A mutation in the DNA encoding the globin chain produces HbS, and everything else about the disease follows from that molecule.
 ## correct_answer
 D
 ## main_concept
@@ -121894,7 +121894,7 @@ Six million is the threshold above which the count becomes polycythaemia, not th
 ## answer_b
 5
 ## explanation_b
-Correct. The average count is 5 million per cubic millimetre — 4.5–5.5 in the male, 4–5 in the female.
+The average count is 5 million per cubic millimetre — 4.5–5.5 in the male, 4–5 in the female.
 ## answer_c
 8
 ## explanation_c
@@ -121983,11 +121983,11 @@ Ninety days is short of the figure and is not a number this course gives for any
 ## answer_b
 100 days
 ## explanation_b
-A hundred days is close enough to be tempting, which is why it is here; the book's figure is not it.
+A hundred days is close enough to be tempting, which is why it is here; that is not the correct figure.
 ## answer_c
 120 days
 ## explanation_c
-Correct. About 120 days, after which macrophages in liver, spleen and marrow remove the cell.
+About 120 days, after which macrophages in liver, spleen and marrow remove the cell.
 ## answer_d
 150 days
 ## explanation_d
@@ -122068,15 +122068,15 @@ male RBCs number is more than female due to …………
 ## answer_a
 stimulatory effect of estrogen on B.M
 ## explanation_a
-The book attributes the difference to the male hormones, not to oestrogen driving the marrow.
+The difference is attributed to the male hormones, not to oestrogen driving the marrow.
 ## answer_b
 inhibitory effect of estrogen on B.M
 ## explanation_b
-An inhibitory effect of oestrogen would give the same arithmetic by a different route, but it is not what the book states.
+An inhibitory effect of oestrogen would give the same arithmetic by a different route, but that is not the case.
 ## answer_c
 stimulatory effect of androgen on B.M
 ## explanation_c
-Correct. The book gives the higher male count as the stimulatory effect of the male hormones — androgens — on the bone marrow.
+The higher male count is the stimulatory effect of the male hormones — androgens — on the bone marrow.
 ## answer_d
 inhibitory effect of androgen on B.M
 ## explanation_d
@@ -122165,7 +122165,7 @@ A decreased number is anaemia — oligocythaemia — the opposite condition.
 ## answer_c
 increased number of RBCs
 ## explanation_c
-Correct. Polycythaemia is an increased number of red corpuscles, above six million per cubic millimetre, driven by hypoxia stimulating the marrow.
+Polycythaemia is an increased number of red corpuscles, above six million per cubic millimetre, driven by hypoxia stimulating the marrow.
 ## answer_d
 increase size of RBCs
 ## explanation_d
@@ -122258,7 +122258,7 @@ Physiological. The newborn has the highest count of any age, and it falls gradua
 ## answer_d
 lung disease
 ## explanation_d
-Correct, and the exception. Chronic lung disease raises the count by the same hypoxic mechanism, but the book files it under pathological polycythaemia because the hypoxia is disease rather than circumstance.
+The exception. Chronic lung disease raises the count by the same hypoxic mechanism, but it is filed under pathological polycythaemia because the hypoxia is disease rather than circumstance.
 ## correct_answer
 D
 ## main_concept
@@ -122347,7 +122347,7 @@ About 10-12 pm in diameter
 ## answer_d
 Increase in number in chronic lung disease
 ## explanation_d
-Correct. Chronic lung disease causes hypoxia, hypoxia drives the marrow, and the count rises — the book's own example of pathological polycythaemia.
+Chronic lung disease causes hypoxia, hypoxia drives the marrow, and the count rises — a standard example of pathological polycythaemia.
 ## correct_answer
 D
 ## main_concept
@@ -122403,7 +122403,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pd
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. D is the department book's pathological polycythaemia — chronic lung disease raises the count through hypoxia — and the other three each contradict the book: azurophilic granules belong to leukocytes, the centre of the corpuscle is thinner than the periphery, and the diameter is 6–9 µm rather than 10–12.
+Answer changed from the source's: The source printed no key. D is the correct pathological polycythaemia — chronic lung disease raises the count through hypoxia — and the other three are each contradicted: azurophilic granules belong to leukocytes, the centre of the corpuscle is thinner than the periphery, and the diameter is 6–9 µm rather than 10–12.
 
 
 ---
@@ -122428,7 +122428,7 @@ Reticular cells are stromal, not free. The free cells of the marrow are the deve
 ## answer_b
 Ratio of immature WBCs to immature RBCs is 5:1
 ## explanation_b
-Correct. Immature white cells outnumber immature red cells about five to one, because most white cells are shorter-lived and need replacing faster.
+Immature white cells outnumber immature red cells about five to one, because most white cells are shorter-lived and need replacing faster.
 ## answer_c
 Blood sinusoid in its stroma has continuous basement membrane
 ## explanation_c
@@ -122517,7 +122517,7 @@ ratio of immature wBCs to immature RBCs
 ## answer_b
 5:1
 ## explanation_b
-Correct. About five immature white cells to every immature red one.
+About five immature white cells to every immature red one.
 ## answer_c
 4:1
 ## explanation_c
@@ -122610,7 +122610,7 @@ Azurophilic granules are the non-specific lysosomal granules every granulocyte h
 ## answer_c
 S-shaped nuclei
 ## explanation_c
-Correct. The basophil nucleus is irregular and S-shaped, usually half hidden under the coarse granules lying over it.
+The basophil nucleus is irregular and S-shaped, usually half hidden under the coarse granules lying over it.
 ## answer_d
 Acidophilic coarse granules
 ## explanation_d
@@ -122699,7 +122699,7 @@ WBCs
 ## answer_c
 monocytes
 ## explanation_c
-Correct. The monocyte's pale basophilic cytoplasm is finely stippled with lysosomes, and that gives the frosted-glass or ground-glass look.
+The monocyte's pale basophilic cytoplasm is finely stippled with lysosomes, and that gives the frosted-glass or ground-glass look.
 ## answer_d
 none of the above
 ## explanation_d
@@ -122780,7 +122780,7 @@ Which of the following increases with age:
 ## answer_a
 lipofuscin
 ## explanation_a
-Correct. Lipofuscin is undigested residue left in residual bodies, and in cells that never divide — cardiac muscle, nerve cells — it accumulates year on year, which is why it is called the age pigment.
+Lipofuscin is undigested residue left in residual bodies, and in cells that never divide — cardiac muscle, nerve cells — it accumulates year on year, which is why it is called the age pigment.
 ## answer_b
 carotene
 ## explanation_b
@@ -122869,7 +122869,7 @@ One is regarded as an endogenous pigment:
 ## answer_a
 Haemoglobin
 ## explanation_a
-Correct. Haemoglobin is made by the body — the book's own first example of an endogenous pigment.
+Haemoglobin is made by the body — the standard example of an endogenous pigment.
 ## answer_b
 Carbon
 ## explanation_b
@@ -122881,7 +122881,7 @@ Carotene comes in with food and is dissolved in the fat of the adipocyte, which 
 ## answer_d
 Tattoo marks. |
 ## explanation_d
-Tattoo marks are dye injected under the skin — the book's own example of an exogenous pigment, and the most obviously so of the four.
+Tattoo marks are dye injected under the skin — a standard example of an exogenous pigment, and the most obviously so of the four.
 ## correct_answer
 A
 ## main_concept
@@ -122937,7 +122937,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cy
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book's cytology chapter lists the endogenous pigments as haemoglobin, melanin and lipofuscin, and the exogenous ones as carbon and dust, carotene and tattoo dyes, which places three of these four options on the exogenous side and leaves haemoglobin.
+Answer changed from the source's: The source printed no key. The endogenous pigments are haemoglobin, melanin and lipofuscin, and the exogenous ones are carbon and dust, carotene and tattoo dyes, which places three of these four options on the exogenous side and leaves haemoglobin.
 2 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
@@ -122962,7 +122962,7 @@ Melanin is the pigment of skin, hair and the choroid, made by melanocytes; it pl
 ## answer_b
 cytochrome
 ## explanation_b
-Correct. The multilocular fat cell is packed with mitochondria, and their cytochrome pigment — with the tissue's richer blood supply — is what makes brown fat brown.
+The multilocular fat cell is packed with mitochondria, and their cytochrome pigment — with the tissue's richer blood supply — is what makes brown fat brown.
 ## answer_c
 hemosedrin
 ## explanation_c
@@ -122970,7 +122970,7 @@ Haemosiderin is iron stored after red cells break down, and it is brown, which i
 ## answer_d
 hemoglobin
 ## explanation_d
-Haemoglobin colours the blood in the tissue rather than the cells; the book attributes the colour to the cytochromes of the mitochondria.
+Haemoglobin colours the blood in the tissue rather than the cells; the colour is attributed to the cytochromes of the mitochondria.
 ## correct_answer
 B
 ## main_concept
@@ -123059,7 +123059,7 @@ Anaemia is a red corpuscle disorder. It causes pallor and breathlessness, not a 
 ## answer_d
 Scurvy
 ## explanation_d
-Correct. Bleeding gums, loss of teeth and non-healing wounds together are scurvy, and the underlying lesion is collagen that cannot be made properly.
+Bleeding gums, loss of teeth and non-healing wounds together are scurvy, and the underlying lesion is collagen that cannot be made properly.
 ## correct_answer
 D
 ## main_concept
@@ -123115,7 +123115,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book states that vitamin C deficiency — scurvy — is due to defective collagen synthesis and is characterised by unhealed wounds and bleeding gums, which is the stem's own description, and the stem adds that the resident suspected a connective tissue disease.
+Answer changed from the source's: The source printed no key. Vitamin C deficiency — scurvy — is due to defective collagen synthesis and is characterised by unhealed wounds and bleeding gums, which is the stem's own description, and the stem adds that the resident suspected a connective tissue disease.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -123136,7 +123136,7 @@ Regarding the reticulocyte, the following statement is correct:
 ## answer_a
 Acidophilic cytoplasm with basophilic reticulum
 ## explanation_a
-Correct, and keyed. The cell is already acidophilic from its haemoglobin, and what a supravital stain adds is a basophilic reticulum precipitated from its remaining ribosomes.
+Keyed. The cell is already acidophilic from its haemoglobin, and what a supravital stain adds is a basophilic reticulum precipitated from its remaining ribosomes.
 ## answer_b
 Its size is 20 pm
 ## explanation_b
@@ -123229,7 +123229,7 @@ Aplastic anaemia is a failure of the bone marrow to produce cells at all. The ha
 ## answer_b
 Sickle cell anemia.
 ## explanation_b
-Correct. HbS is rigid and deforms the corpuscle into a sickle shape, which makes it fragile and unable to squeeze through a capillary — the two adaptations the normal red cell depends on.
+HbS is rigid and deforms the corpuscle into a sickle shape, which makes it fragile and unable to squeeze through a capillary — the two adaptations the normal red cell depends on.
 ## answer_c
 Spherocytosis.
 ## explanation_c
@@ -123293,7 +123293,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a red cell disease. The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, which gives sickle cell anaemia as the condition in which an abnormal rigid haemoglobin, HbS, distorts the corpuscle into a sickle.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf; it is authored here because it names a red cell disease. The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer given here is: sickle cell anaemia is the condition in which an abnormal rigid haemoglobin, HbS, distorts the corpuscle into a sickle.
 
 
 ---
@@ -123318,7 +123318,7 @@ The amnioblast lies against the cytotrophoblast, but the cavity does not open be
 ## answer_b
 Amnioblast and epiblast
 ## explanation_b
-Correct. The cavity appears within the inner cell mass and separates the amnioblast, which roofs it, from the epiblast, which floors it.
+The cavity appears within the inner cell mass and separates the amnioblast, which roofs it, from the epiblast, which floors it.
 ## answer_c
 Amnioblast and hypoblast
 ## explanation_c
@@ -123403,11 +123403,11 @@ The source of the three germ layers is
 ## answer_a
 Hypoblast
 ## explanation_a
-The hypoblast is displaced by epiblast cells invaginating through the primitive streak; it contributes nothing to the trilaminar disc. It is the intuitive answer — lower layer becomes lower layer — and the book states the contrary as a point in its own right.
+The hypoblast is displaced by epiblast cells invaginating through the primitive streak; it contributes nothing to the trilaminar disc. It is the intuitive answer — lower layer becomes lower layer — and the contrary is stated as a point in its own right.
 ## answer_b
 Epiblast
 ## explanation_b
-Correct. Ectoderm, intra-embryonic mesoderm and endoderm all come from the epiblast.
+Ectoderm, intra-embryonic mesoderm and endoderm all come from the epiblast.
 ## answer_c
 Extraembryonic mesoderm
 ## explanation_c
@@ -123504,7 +123504,7 @@ The blastocele is the cavity that made the blastocyst a blastocyst, and it exist
 ## answer_d
 Amniotic cavity
 ## explanation_d
-Correct. The amniotic cavity opens within the inner cell mass on the eighth day, separating amnioblast from epiblast.
+The amniotic cavity opens within the inner cell mass on the eighth day, separating amnioblast from epiblast.
 ## correct_answer
 D
 ## main_concept
@@ -123593,7 +123593,7 @@ Fetal urine is added only from about the fifth month, when the kidneys begin to 
 ## answer_d
 Amnioblast
 ## explanation_d
-Correct. The amnioblast cells, which form the roof of the amniotic cavity, are the first source of amniotic fluid.
+The amnioblast cells, which form the roof of the amniotic cavity, are the first source of amniotic fluid.
 ## correct_answer
 D
 ## main_concept
@@ -123678,7 +123678,7 @@ The blastocyst starts implantation. The chorionic vesicle is what the conceptus 
 ## answer_c
 It occurs at the upper part of the posterior wall of uterine cavity
 ## explanation_c
-Correct. Implantation occurs normally in the upper part of the posterior wall of the uterus, just below the fundus.
+Implantation occurs normally in the upper part of the posterior wall of the uterus, just below the fundus.
 ## answer_d
 Implantation cavity is formed through the action of proteolytic enzymes
 ## explanation_d
@@ -123759,11 +123759,11 @@ The common site of implantation in the uterus is at: (2023 - 2022) em em em em e
 ## answer_a
 Anterior wall of the fundus
 ## explanation_a
-The anterior wall of the fundus is the second commonest site and the book says so, which makes it the strongest distractor: it is right about the level and wrong about the wall.
+The anterior wall of the fundus is the second commonest site and this is true, which makes it the strongest distractor: it is right about the level and wrong about the wall.
 ## answer_b
 Posterior wall of the fundus
 ## explanation_b
-Correct. The upper part of the posterior wall, just below the fundus, is the normal site.
+The upper part of the posterior wall, just below the fundus, is the normal site.
 ## answer_c
 Anterior wall of the cervix.ViP
 ## explanation_c
@@ -123848,7 +123848,7 @@ During the second week of development, the trophoblast differentiates into: (201
 ## answer_a
 Syncytiotrophoblast and cytotrophoblast
 ## explanation_a
-Correct. The trophoblast differentiates into an inner cytotrophoblast of separate cells and an outer syncytiotrophoblast whose cells have no membranes between them.
+The trophoblast differentiates into an inner cytotrophoblast of separate cells and an outer syncytiotrophoblast whose cells have no membranes between them.
 ## answer_b
 The blastocyst begins implantation by its embryonic pole
 ## explanation_b
@@ -123937,7 +123937,7 @@ On day nine, trophoblastic lacunae and maternal sinusoids begin to form around w
 ## answer_a
 Syncytiotrophoblast
 ## explanation_a
-Correct. The lacunar spaces appear within the syncytiotrophoblast on the ninth day, and fill with maternal blood two days later as the utero-placental circulation.
+The lacunar spaces appear within the syncytiotrophoblast on the ninth day, and fill with maternal blood two days later as the utero-placental circulation.
 ## answer_b
 Extraembryonic coelom
 ## explanation_b
@@ -124030,7 +124030,7 @@ The seventh day is when implantation begins and the trophoblast splits in two. T
 ## answer_b
 8th day of pregnancy.
 ## explanation_b
-Correct. The amniotic cavity forms on the eighth day, at the same time as the hypoblast and the bilaminar disc.
+The amniotic cavity forms on the eighth day, at the same time as the hypoblast and the bilaminar disc.
 ## answer_c
 9th day of pregnancy.
 ## explanation_c
@@ -124119,7 +124119,7 @@ The hypoblast forms on the eighth day, with the amniotic cavity. It is one day e
 ## answer_b
 Formation of primary yolk sac.
 ## explanation_b
-Correct. Heuser's membrane forms on the ninth day and converts the blastocele into the primary yolk sac, alongside complete embedding and the appearance of the lacunae.
+Heuser's membrane forms on the ninth day and converts the blastocele into the primary yolk sac, alongside complete embedding and the appearance of the lacunae.
 ## answer_c
 Formation of extraembryonic mesoderm.
 ## explanation_c
@@ -124272,7 +124272,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key. Three of the four statements are events the department book places in the second week; the trilaminar disc is not one of them — gastrulation is a third-week event, and the disc is bilaminar throughout the second.
+Answer changed from the source's: The books print no key. Three of the four statements are events placed in the second week; the trilaminar disc is not one of them — gastrulation is a third-week event, and the disc is bilaminar throughout the second.
 
 
 ---
@@ -124301,7 +124301,7 @@ Covering the yolk sac is what the splanchnic layer does. Somatic and splanchnic 
 ## answer_c
 Lines Cytotrophoblast
 ## explanation_c
-Correct. The somatic layer lines the cytotrophoblast, and with the cytotrophoblast and syncytiotrophoblast makes the three layers of the chorion.
+The somatic layer lines the cytotrophoblast, and with the cytotrophoblast and syncytiotrophoblast makes the three layers of the chorion.
 ## answer_d
 Lines syncytiotrophoblast
 ## explanation_d
@@ -124386,7 +124386,7 @@ The amniotic cavity is covered by the somatic layer, along with the lining of th
 ## answer_b
 yolk sac cavity
 ## explanation_b
-Correct. The splanchnic layer covers the secondary yolk sac — splanchnic goes with the gut and its derivatives throughout embryology, and the yolk sac is the gut's ancestor.
+The splanchnic layer covers the secondary yolk sac — splanchnic goes with the gut and its derivatives throughout embryology, and the yolk sac is the gut's ancestor.
 ## answer_c
 Lines Cytotrophoblast
 ## explanation_c
@@ -124471,7 +124471,7 @@ single_best_answer
 ## answer_a
 Cytotrophoblast
 ## explanation_a
-Correct. The chorion is somatic extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast from within outwards, so the cytotrophoblast is the middle layer.
+The chorion is somatic extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast from within outwards, so the cytotrophoblast is the middle layer.
 ## answer_b
 Syncytiotrophoblast
 ## explanation_b
@@ -124560,11 +124560,11 @@ Primary chorionic villi (DEP BOOK) y ad Ac em
 ## answer_a
 Is composed of cytotrophoblast and syncytiotrophoblast.
 ## explanation_a
-Correct. A primary villus is a core of proliferating cytotrophoblast pushing into the overlying syncytiotrophoblast, and nothing else.
+A primary villus is a core of proliferating cytotrophoblast pushing into the overlying syncytiotrophoblast, and nothing else.
 ## answer_b
 It contains fetal blood vessels.
 ## explanation_b
-Fetal blood vessels appear only in the tertiary villus, two stages later. This is the option the books key the question to, and it is the answer to the same question asked about tertiary villi.
+Fetal blood vessels appear only in the tertiary villus, two stages later. This is the keyed option, and it is the answer to the same question asked about tertiary villi.
 ## answer_c
 It starts formation at the middle of the 3rd week of pregnancy.
 ## explanation_c
@@ -124628,7 +124628,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from the question book itself.
-Answer changed from the source's: The books key this to B, that a primary villus contains fetal blood vessels. Vessels are what make a villus tertiary; a primary villus is a cytotrophoblast core covered by syncytiotrophoblast, with no mesoderm and no vessels at all. The answer is A. The department book is explicit: primary villi are a core of cytotrophoblast covered by syncytiotrophoblast, secondary villi add a mesodermal core, and tertiary villi add vessels within it.
+Answer changed from the source's: The books key this to B, that a primary villus contains fetal blood vessels. Vessels are what make a villus tertiary; a primary villus is a cytotrophoblast core covered by syncytiotrophoblast, with no mesoderm and no vessels at all. The answer is A. Primary villi are a core of cytotrophoblast covered by syncytiotrophoblast, secondary villi add a mesodermal core, and tertiary villi add vessels within it.
 
 
 ---
@@ -124653,11 +124653,11 @@ Cytotrophoblast covered by syncytiotrophoblast, with nothing between, is the pri
 ## answer_b
 It contains fetal blood vessels
 ## explanation_b
-Fetal blood vessels make a villus tertiary. This is the option the books key the question to, and the distinction it erases — mesoderm without vessels against mesoderm with them — is the one thing this question exists to test.
+Fetal blood vessels make a villus tertiary. This is the keyed option, and the distinction it erases — mesoderm without vessels against mesoderm with them — is the one thing this question exists to test.
 ## answer_c
 It is formed at the middle of the 3rd week of pregnancy
 ## explanation_c
-Correct. Secondary villi form at the middle of the third week, when somatic mesoderm grows into the core of the primary villus.
+Secondary villi form at the middle of the third week, when somatic mesoderm grows into the core of the primary villus.
 ## answer_d
 It forms the fetal part of placenta. Acad
 ## explanation_d
@@ -124717,7 +124717,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The books key this to B, that the secondary villus contains fetal blood vessels. It does not: mesoderm alone in the core makes a villus secondary, and it becomes tertiary only once vessels form in that mesoderm. The department book puts secondary villi at the middle of the third week, which is option C, and that is the only true statement of the four.
+Answer changed from the source's: The books key this to B, that the secondary villus contains fetal blood vessels. It does not: mesoderm alone in the core makes a villus secondary, and it becomes tertiary only once vessels form in that mesoderm. Secondary villi appear at the middle of the third week, which is option C, and that is the only true statement of the four.
 
 
 ---
@@ -124746,7 +124746,7 @@ The secondary villus has a mesodermal core but is still floating; it does not re
 ## answer_c
 Stem tertiary chorionic villi
 ## explanation_c
-Correct. The shell forms from the cytotrophoblast of the stem, or anchoring, tertiary villi — the ones that run all the way from chorion to decidua basalis and can therefore spread out against it.
+The shell forms from the cytotrophoblast of the stem, or anchoring, tertiary villi — the ones that run all the way from chorion to decidua basalis and can therefore spread out against it.
 ## answer_d
 Floating or absorbing tertiary chorionic villi. :
 ## explanation_d
@@ -124831,7 +124831,7 @@ Syncytiotrophoblast plus cytotrophoblast is the outer half of the early barrier,
 ## answer_b
 Syncytiotrophoblast and endothelium of fetal blood vessels
 ## explanation_b
-Correct. The late barrier is syncytiotrophoblast and the endothelium of the fetal blood vessels, two layers where the early barrier had four.
+The late barrier is syncytiotrophoblast and the endothelium of the fetal blood vessels, two layers where the early barrier had four.
 ## answer_c
 Cytotrophoblast and extraembryonic mesoderm.
 ## explanation_c
@@ -124924,7 +124924,7 @@ The notochord extends from the primitive pit to the bucco-pharyngeal membrane. T
 ## answer_c
 It limits the head fold during folding of the embryonic disc
 ## explanation_c
-Correct. Its firmness limits the head fold during folding of the embryonic disc, which is one of the three points the book makes about its importance.
+Its firmness limits the head fold during folding of the embryonic disc, which is one of three key points about its importance.
 ## answer_d
 It is formed during the second week of pregnancy
 ## explanation_d
@@ -125005,11 +125005,11 @@ Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
 ## answer_a
 They are segments of paraxial mesoderm
 ## explanation_a
-Correct. Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and the neural tube.
+Somites are the transverse segments of the paraxial mesoderm, which lies on both sides of the notochord and the neural tube.
 ## answer_b
 They start formation during the second week of pregnancy.
 ## explanation_b
-The first somite pair separates on the twentieth day, in the third week, and three pairs are added daily from then. This is the option the books key the question to, and it is a whole week early — the paraxial mesoderm itself only appears on the seventeenth day.
+The first somite pair separates on the twentieth day, in the third week, and three pairs are added daily from then. This is the keyed option, and it is a whole week early — the paraxial mesoderm itself only appears on the seventeenth day.
 ## answer_c
 They give rise to muscles of gut.
 ## explanation_c
@@ -125073,7 +125073,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence medium; the answer came from the question book itself.
-Answer changed from the source's: The books key this to B, that somites start forming during the second week. The department book puts the first pair of occipital somites on the twentieth gestational day — the third week — and the paraxial mesoderm they segment from does not exist until gastrulation. The true statement is A: somites are the transverse segments of the paraxial mesoderm.
+Answer changed from the source's: The books key this to B, that somites start forming during the second week. The first pair of occipital somites forms on the twentieth gestational day — the third week — and the paraxial mesoderm they segment from does not exist until gastrulation. The true statement is A: somites are the transverse segments of the paraxial mesoderm.
 
 
 ---
@@ -125094,7 +125094,7 @@ Lateral rotation at the shoulder; is done by:
 ## answer_a
 Deltoid
 ## explanation_a
-Correct, through its posterior fibres, which extend and laterally rotate the arm. Deltoid is the only muscle on this list that rotates the humerus laterally at all.
+Its posterior fibres extend and laterally rotate the arm. Deltoid is the only muscle on this list that rotates the humerus laterally at all.
 ## answer_b
 Subscapularis
 ## explanation_b
@@ -125195,7 +125195,7 @@ The axillary nerve comes from the posterior cord, not the lateral. The lateral c
 ## answer_d
 Its paralysis results in a flat shoulder
 ## explanation_d
-Correct. Deltoid gives the shoulder its rounded contour, so when it wastes the acromion stands out and the shoulder looks flat — the sign of an axillary nerve lesion.
+Deltoid gives the shoulder its rounded contour, so when it wastes the acromion stands out and the shoulder looks flat — the sign of an axillary nerve lesion.
 ## correct_answer
 D
 ## main_concept
@@ -125276,7 +125276,7 @@ Two of the three are right, which is what makes it dangerous. The third origin i
 ## answer_b
 Is inserted into deltoid tuberosity
 ## explanation_b
-Correct. All three sets of fibres converge on the deltoid tuberosity, on the lateral surface of the middle of the humeral shaft.
+All three sets of fibres converge on the deltoid tuberosity, on the lateral surface of the middle of the humeral shaft.
 ## answer_c
 Is innervated by radial nerve
 ## explanation_c
@@ -125365,7 +125365,7 @@ Trapezius rotates the scapula and carries abduction past ninety degrees. It is t
 ## answer_b
 Supraspinatus muscle
 ## explanation_b
-Correct. Supraspinatus takes the arm through the first fifteen degrees, at which point deltoid's line of pull becomes effective.
+Supraspinatus takes the arm through the first fifteen degrees, at which point deltoid's line of pull becomes effective.
 ## answer_c
 Infraspinatus muscle
 ## explanation_c
@@ -125450,11 +125450,11 @@ The glenohumeral ligaments, choose the correct answer:
 ## answer_a
 Strong ligaments of shoulder joint
 ## explanation_a
-The book calls all three weak, and their weakness is the point: it is why the shoulder is the most commonly dislocated joint in the body.
+All three are weak, and their weakness is the point: it is why the shoulder is the most commonly dislocated joint in the body.
 ## answer_b
 Three in number
 ## explanation_b
-Correct. Three gleno-humeral ligaments — superior, middle and inferior — thicken the front of the capsule.
+Three gleno-humeral ligaments — superior, middle and inferior — thicken the front of the capsule.
 ## answer_c
 All are attached to the whole margin of glenoid cavity
 ## explanation_c
@@ -125518,7 +125518,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Up
 ## author_notes
 Asked 4 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. There are three gleno-humeral ligaments, so B is true; the department book calls them weak, attaches them to the anterior margin of the glenoid only, and the dislocation they fail to prevent is anterior and inferior, not posterior.
+Answer changed from the source's: The source printed no key. There are three gleno-humeral ligaments, so B is true; they are weak, attach to the anterior margin of the glenoid only, and the dislocation they fail to prevent is anterior and inferior, not posterior.
 
 
 ---
@@ -125543,7 +125543,7 @@ Infraspinatus is a lateral rotator of the humerus. It lies on the back of the sc
 ## answer_b
 Latissimus dorsi
 ## explanation_b
-Correct. Latissimus dorsi is the principal extensor of the arm, and also adducts and medially rotates it.
+Latissimus dorsi is the principal extensor of the arm, and also adducts and medially rotates it.
 ## answer_c
 Clavicular fibers of pectoralis major
 ## explanation_c
@@ -125628,7 +125628,7 @@ One of the following muscle is a rotator cuff muscle:
 ## answer_a
 Infraspinatus
 ## explanation_a
-Correct. Infraspinatus is one of the four — subscapularis, supraspinatus, infraspinatus and teres minor — whose tendons blend with the capsule.
+Infraspinatus is one of the four — subscapularis, supraspinatus, infraspinatus and teres minor — whose tendons blend with the capsule.
 ## answer_b
 Pectoralis major
 ## explanation_b
@@ -125721,7 +125721,7 @@ The elbow is a uniaxial hinge and does flexion and extension only. It shares a c
 ## answer_b
 Superior and inferior radio-ulnar joints
 ## explanation_b
-Correct. Rotation of the radius on the ulna happens at the superior and inferior radio-ulnar joints, both pivot joints, working together.
+Rotation of the radius on the ulna happens at the superior and inferior radio-ulnar joints, both pivot joints, working together.
 ## answer_c
 Shoulder joint
 ## explanation_c
@@ -125810,7 +125810,7 @@ Supraspinatus belongs to the suprascapular nerve, from the upper trunk. Pairing 
 ## answer_b
 Deltoid and teres minor
 ## explanation_b
-Correct. The axillary nerve supplies deltoid and teres minor, and nothing else.
+The axillary nerve supplies deltoid and teres minor, and nothing else.
 ## answer_c
 Teres minor and teres major
 ## explanation_c
@@ -125907,7 +125907,7 @@ A retinaculum, not a stabiliser. It holds a tendon in its groove; the stability 
 ## answer_d
 Converts the bicipital groove into a tunnel
 ## explanation_d
-Correct. Roofing the groove converts it into a canal through which the biceps tendon runs, and that is the ligament's whole purpose.
+Roofing the groove converts it into a canal through which the biceps tendon runs, and that is the ligament's whole purpose.
 ## correct_answer
 D
 ## main_concept
@@ -125988,7 +125988,7 @@ Supraspinatus and infraspinatus are the suprascapular nerve's two muscles — a 
 ## answer_b
 Deltoid and teres minor muscles
 ## explanation_b
-Correct. Deltoid and teres minor are the axillary nerve's two muscles.
+Deltoid and teres minor are the axillary nerve's two muscles.
 ## answer_c
 Pectoralis major and pectoralis minor muscles
 ## explanation_c
@@ -126077,7 +126077,7 @@ Rectus abdominis is a strap muscle, interrupted by tendinous intersections. Its 
 ## answer_b
 Rectus femoris
 ## explanation_b
-Correct. Rectus femoris has a central tendon with fibres running into it from both sides, which is what bipennate means.
+Rectus femoris has a central tendon with fibres running into it from both sides, which is what bipennate means.
 ## answer_c
 Sartorius
 ## explanation_c
@@ -126111,7 +126111,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Give the book's example of a bipennate muscle.
+Give an example of a bipennate muscle.
 ## setting
 Academic
 ## academic_relevance
@@ -126162,7 +126162,7 @@ An example of multipennate muscle is:
 ## answer_a
 Deltoid
 ## explanation_a
-Correct. Deltoid has several tendinous septa with fibres passing obliquely to each, which packs the greatest number of fibres into the muscle and makes it powerful.
+Deltoid has several tendinous septa with fibres passing obliquely to each, which packs the greatest number of fibres into the muscle and makes it powerful.
 ## answer_b
 Tibialis anterior
 ## explanation_b
@@ -126200,7 +126200,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Give the book's example of a multipennate muscle.
+Give an example of a multipennate muscle.
 ## setting
 Academic
 ## academic_relevance
@@ -126251,11 +126251,11 @@ An example of strap-like muscle is:
 ## answer_a
 Rectus abdominis
 ## explanation_a
-Rectus abdominis is a strap muscle too, but the book's example of a *plain* strap muscle is sartorius; rectus abdominis is the one with tendinous intersections, and that is the distinction the pair of questions is testing.
+Rectus abdominis is a strap muscle too, but the standard example of a *plain* strap muscle is sartorius; rectus abdominis is the one with tendinous intersections, and that is the distinction the pair of questions is testing.
 ## answer_b
 Sartorius
 ## explanation_b
-Correct. Sartorius runs uninterrupted from the anterior superior iliac spine to the tibia, its fibres parallel throughout.
+Sartorius runs uninterrupted from the anterior superior iliac spine to the tibia, its fibres parallel throughout.
 ## answer_c
 Deltoid
 ## explanation_c
@@ -126263,7 +126263,7 @@ Deltoid is multipennate, the opposite extreme — built for power rather than ra
 ## answer_d
 Supinator
 ## explanation_d
-Supinator is a short, flat muscle wrapped round the radius and is not the book's example of anything here.
+Supinator is a short, flat muscle wrapped round the radius and is not the example of anything here.
 ## correct_answer
 B
 ## main_concept
@@ -126289,7 +126289,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Give the book's example of a strap-like muscle.
+Give an example of a strap-like muscle.
 ## setting
 Academic
 ## academic_relevance
@@ -126348,7 +126348,7 @@ Deltoid is multipennate; its tendinous septa are not intersections crossing a st
 ## answer_c
 Rectus abdominis
 ## explanation_c
-Correct. Rectus abdominis is a strap muscle crossed by three or more tendinous intersections, which is what makes the "six-pack" visible.
+Rectus abdominis is a strap muscle crossed by three or more tendinous intersections, which is what makes the "six-pack" visible.
 ## answer_d
 Tibialis anterior
 ## explanation_d
@@ -126378,7 +126378,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Give the book's example of a strap muscle with tendinous intersections.
+Give an example of a strap muscle with tendinous intersections.
 ## setting
 Academic
 ## academic_relevance
@@ -126437,7 +126437,7 @@ Infraspinatus is a lateral rotator, one of the two cuff muscles behind the joint
 ## answer_c
 Teres major
 ## explanation_c
-Correct. Teres major adducts, extends and medially rotates the arm, going to the medial lip of the intertubercular groove.
+Teres major adducts, extends and medially rotates the arm, going to the medial lip of the intertubercular groove.
 ## answer_d
 Supraspinatus
 ## explanation_d
@@ -126526,7 +126526,7 @@ Teres minor is a lateral rotator and a cuff muscle. Being on the back of the joi
 ## answer_c
 Latissimus dorsi
 ## explanation_c
-Correct. Latissimus dorsi is the principal extensor, and it also adducts and medially rotates.
+Latissimus dorsi is the principal extensor, and it also adducts and medially rotates.
 ## answer_d
 Serratus anterior
 ## explanation_d
@@ -126611,7 +126611,7 @@ The wrong head. It is the *long* head, from the supraglenoid tubercle, that runs
 ## answer_b
 It flexes the elbow joints
 ## explanation_b
-Correct. Biceps crosses the elbow and flexes it — its most obvious action, and the only true statement here.
+Biceps crosses the elbow and flexes it — its most obvious action, and the only true statement here.
 ## answer_c
 It pronates the forearm
 ## explanation_c
@@ -126700,7 +126700,7 @@ Supraspinatus is above the spine of the scapula, far from this space. The upper 
 ## answer_b
 It is bounded laterally by the surgical neck of the humerus
 ## explanation_b
-Correct. The surgical neck closes the space laterally, which is why the axillary nerve winding through it is torn by a fracture there.
+The surgical neck closes the space laterally, which is why the axillary nerve winding through it is torn by a fracture there.
 ## answer_c
 It is bounded below by the teres minor
 ## explanation_c
@@ -126793,7 +126793,7 @@ The wrong bursa and the wrong direction. The subscapular bursa lies anteriorly a
 ## answer_c
 Supraspinatus and deltoid muscles produce abduction of the joint
 ## explanation_c
-Correct. Supraspinatus initiates abduction and the middle fibres of deltoid carry it to ninety degrees; between them they abduct the joint.
+Supraspinatus initiates abduction and the middle fibres of deltoid carry it to ninety degrees; between them they abduct the joint.
 ## answer_d
 Tendon of short head of biceps takes origin within capsule of joint
 ## explanation_d
@@ -126886,7 +126886,7 @@ The quadrangular space, not the triangular. This is the single most examined fac
 ## answer_d
 It supplies the deltoid and teres minor muscles
 ## explanation_d
-Correct. Deltoid and teres minor are its two muscles, which is why its injury flattens the shoulder and weakens lateral rotation.
+Deltoid and teres minor are its two muscles, which is why its injury flattens the shoulder and weakens lateral rotation.
 ## correct_answer
 D
 ## main_concept
@@ -126967,7 +126967,7 @@ The reverse of the truth. The subscapular bursa does communicate with the joint 
 ## answer_b
 It is supplied by the axillary and suprascapular nerves
 ## explanation_b
-Correct. The joint takes its nerve supply from the axillary and suprascapular nerves, with the lateral pectoral nerve — the nerves of the muscles that cross it, following Hilton's law.
+The joint takes its nerve supply from the axillary and suprascapular nerves, with the lateral pectoral nerve — the nerves of the muscles that cross it, following Hilton's law.
 ## answer_c
 The capsule is strengthened inferiorly by a strong ligament
 ## explanation_c
@@ -127052,7 +127052,7 @@ Select the most acceptable answer allowing free mobility of the shoulder:
 ## answer_a
 Head of humerus (ball) 3:4 times as much as the glenoid fossa (socket)
 ## explanation_a
-Correct. Only about a third of the head is in contact with the glenoid at any time, so the head can roll and spin through a very wide arc before it runs out of socket.
+Only about a third of the head is in contact with the glenoid at any time, so the head can roll and spin through a very wide arc before it runs out of socket.
 ## answer_b
 The presence of 3 glenohumeral ligaments
 ## explanation_b
@@ -127120,7 +127120,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Uppe
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The disproportion between a large humeral head and a small shallow glenoid is what allows the range, and it is the first factor the department book lists; the other three are restraining structures. The department printing `select-most-acceptable-answer-allowing-free-mobility-of-shou-051de2bf` keys A.
+Answer changed from the source's: The source printed no key. The disproportion between a large humeral head and a small shallow glenoid is what allows the range, and it is listed as the first factor; the other three are restraining structures. The same question printed elsewhere, `select-most-acceptable-answer-allowing-free-mobility-of-shou-051de2bf`, keys A.
 
 
 ---
@@ -127149,7 +127149,7 @@ Pectoralis major goes to the lateral lip of the intertubercular groove, just bey
 ## answer_c
 Gives attachment to teres minor
 ## explanation_c
-Correct. Teres minor takes the lowest of the three impressions on the greater tuberosity, below supraspinatus and infraspinatus.
+Teres minor takes the lowest of the three impressions on the greater tuberosity, below supraspinatus and infraspinatus.
 ## answer_d
 Gives attachment to teres major
 ## explanation_d
@@ -127238,7 +127238,7 @@ Teres minor rotates the arm laterally; lying behind the joint does not make a mu
 ## answer_c
 Latissimus dorsi
 ## explanation_c
-Correct. Latissimus dorsi extends, adducts and medially rotates the arm, and is the principal muscle of the first of those.
+Latissimus dorsi extends, adducts and medially rotates the arm, and is the principal muscle of the first of those.
 ## answer_d
 Serratus anterior
 ## explanation_d
@@ -127319,7 +127319,7 @@ The principal muscle concerned in medial rotation of the shoulder, choose the co
 ## answer_a
 Pectoralis major
 ## explanation_a
-Correct. Pectoralis major, running from the front of the chest to the lateral lip of the intertubercular groove, adducts and medially rotates the arm powerfully.
+Pectoralis major, running from the front of the chest to the lateral lip of the intertubercular groove, adducts and medially rotates the arm powerfully.
 ## answer_b
 Deltoid •. middle fibers
 ## explanation_b
@@ -127387,7 +127387,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Uppe
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. Pectoralis major is the only medial rotator among the four: the middle fibres of deltoid abduct, supraspinatus does not rotate at all and teres minor rotates laterally. The department printing `principal-muscle-concerned-in-medial-rotation-of-the-shoulde-7f6c72cf` keys B, which is overridden there for the same reason.
+Answer changed from the source's: The source printed no key. Pectoralis major is the only medial rotator among the four: the middle fibres of deltoid abduct, supraspinatus does not rotate at all and teres minor rotates laterally. The same question printed elsewhere, `principal-muscle-concerned-in-medial-rotation-of-the-shoulde-7f6c72cf`, keys B, which is overridden there for the same reason.
 
 
 ---
@@ -127420,7 +127420,7 @@ Anconeus takes the radial nerve, the third posterior cord branch. Three of the f
 ## answer_d
 Pronator teres
 ## explanation_d
-Correct. Pronator teres is supplied by the median nerve, which is formed by a medial root from the medial cord and a lateral root from the lateral cord — so the medial cord does contribute to it, and it is the only flexor here.
+Pronator teres is supplied by the median nerve, which is formed by a medial root from the medial cord and a lateral root from the lateral cord — so the medial cord does contribute to it, and it is the only flexor here.
 ## correct_answer
 D
 ## main_concept
@@ -127501,7 +127501,7 @@ Subscapularis is inserted into the lesser tuberosity — the other one.
 ## answer_b
 Teres minor muscle
 ## explanation_b
-Correct. Teres minor takes the lowest impression on the greater tuberosity, with supraspinatus and infraspinatus above it.
+Teres minor takes the lowest impression on the greater tuberosity, with supraspinatus and infraspinatus above it.
 ## answer_c
 Teres major muscle
 ## explanation_c
@@ -127586,7 +127586,7 @@ Which tendon is intracapsular extrasynovial of the shoulder joint, mark the corr
 ## answer_a
 Long head of biceps brachii
 ## explanation_a
-Correct. It crosses the head of the humerus inside the capsule, wrapped in its own synovial sheath, and leaves the joint through the intertubercular groove.
+It crosses the head of the humerus inside the capsule, wrapped in its own synovial sheath, and leaves the joint through the intertubercular groove.
 ## answer_b
 Short head of biceps brachii
 ## explanation_b
@@ -127675,7 +127675,7 @@ Winging of scapula follows paralysis of which muscle?
 ## answer_a
 Serratus anterior muscle
 ## explanation_a
-Correct. Serratus anterior holds the medial border of the scapula against the chest wall; when it goes, the border stands off and the scapula wings.
+Serratus anterior holds the medial border of the scapula against the chest wall; when it goes, the border stands off and the scapula wings.
 ## answer_b
 Deltoid muscle
 ## explanation_b
@@ -127764,7 +127764,7 @@ A 33-year-old man was admitted to the emergency department after an automobile c
 ## answer_a
 Lower subscapular
 ## explanation_a
-Correct. The lower subscapular nerve, from the posterior cord, supplies the lower part of subscapularis and teres major — a medial rotator and an adductor — and teres major arises from the lateral border of the scapula, which is the bone that broke.
+The lower subscapular nerve, from the posterior cord, supplies the lower part of subscapularis and teres major — a medial rotator and an adductor — and teres major arises from the lateral border of the scapula, which is the bone that broke.
 ## answer_b
 Axillary
 ## explanation_b
@@ -127853,7 +127853,7 @@ A 33-year-old man was admitted to the emergency department after an automobile V
 ## answer_a
 Lower subscapular.
 ## explanation_a
-Correct. Teres major arises from the lateral border of the scapula, and it and subscapularis share the lower subscapular nerve — the one branch whose loss weakens medial rotation and adduction together.
+Teres major arises from the lateral border of the scapula, and it and subscapularis share the lower subscapular nerve — the one branch whose loss weakens medial rotation and adduction together.
 ## answer_b
 Axillary.
 ## explanation_b
@@ -127950,11 +127950,11 @@ The coraco-humeral ligament strengthens the upper capsule and blends with supras
 ## answer_c
 Glenohumeral
 ## explanation_c
-The key the book prints. The three gleno-humeral ligaments are anterior thickenings of the capsule and lie deep to subscapularis, not against a tendon that moves beneath them.
+The printed key. The three gleno-humeral ligaments are anterior thickenings of the capsule and lie deep to subscapularis, not against a tendon that moves beneath them.
 ## answer_d
 Coracoacromial
 ## explanation_d
-Correct. With the coracoid and the acromion the coraco-acromial ligament forms the coraco-acromial arch, and the supraspinatus tendon with the subacromial bursa slides beneath it every time the arm is raised.
+With the coracoid and the acromion the coraco-acromial ligament forms the coraco-acromial arch, and the supraspinatus tendon with the subacromial bursa slides beneath it every time the arm is raised.
 ## correct_answer
 D
 ## main_concept
@@ -128043,7 +128043,7 @@ Rotation is spread across five medial rotators and three lateral ones, so losing
 ## answer_d
 Abduction
 ## explanation_d
-Correct. Deltoid is the only muscle that abducts from fifteen to ninety degrees, so abduction fails at once and unambiguously — which makes it the movement to test.
+Deltoid is the only muscle that abducts from fifteen to ninety degrees, so abduction fails at once and unambiguously — which makes it the movement to test.
 ## correct_answer
 D
 ## main_concept
@@ -128132,7 +128132,7 @@ Rotation is shared by many muscles; losing teres minor alone will not abolish it
 ## answer_d
 Abduction
 ## explanation_d
-Correct. Deltoid is the sole abductor between fifteen and ninety degrees, so its paralysis shows there first.
+Deltoid is the sole abductor between fifteen and ninety degrees, so its paralysis shows there first.
 ## correct_answer
 d
 ## main_concept
@@ -128213,7 +128213,7 @@ None of the three abducts. All three pull the humerus towards the trunk, which i
 ## answer_b
 Adduction of arm
 ## explanation_b
-Correct. Pectoralis major on the lateral lip, latissimus dorsi on the floor and teres major on the medial lip all adduct the arm, and all three also rotate it medially.
+Pectoralis major on the lateral lip, latissimus dorsi on the floor and teres major on the medial lip all adduct the arm, and all three also rotate it medially.
 ## answer_c
 Extension of arm
 ## explanation_c
@@ -128298,7 +128298,7 @@ An example of multipennate muscle is: (DEP BOOK). Vi P
 ## answer_a
 Deltoid. y
 ## explanation_a
-Correct. Deltoid's several tendinous septa with obliquely set fibres make it multipennate, which is what gives it its power.
+Deltoid's several tendinous septa with obliquely set fibres make it multipennate, which is what gives it its power.
 ## answer_b
 Tibialis anterior
 ## explanation_b
@@ -128336,7 +128336,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Give the book's example of a multipennate muscle.
+Give an example of a multipennate muscle.
 ## setting
 Academic
 ## academic_relevance
@@ -128387,7 +128387,7 @@ The serratus anterior muscle, mark the wrong answer:
 ## answer_a
 Arises by eight digitations from the upper eight ribs.
 ## explanation_a
-True. The book gives eight digitations from the outer surfaces of the upper eight ribs, the first arising from the 1st and 2nd ribs and being the largest, and the lower five converging on the inferior angle of the scapula.
+True. There are eight digitations from the outer surfaces of the upper eight ribs, the first arising from the 1st and 2nd ribs and being the largest, and the lower five converging on the inferior angle of the scapula.
 ## answer_b
 Is innervated by long thoracic nerve.
 ## explanation_b
@@ -128395,7 +128395,7 @@ True, and the nerve that makes this muscle clinically famous. The long thoracic 
 ## answer_c
 Is a powerful retractor of shoulder.
 ## explanation_c
-Correct — this is the wrong statement, and the answer. Serratus anterior is the main and powerful protractor of the shoulder: it pulls the scapula forwards round the chest wall, which is the movement of a punch or a push. Retraction is the opposite movement and belongs to the rhomboids and the middle fibres of trapezius. A student who has learnt only that this muscle is powerful and that it holds the scapula down will accept either direction.
+This is the wrong statement, and the answer. Serratus anterior is the main and powerful protractor of the shoulder: it pulls the scapula forwards round the chest wall, which is the movement of a punch or a push. Retraction is the opposite movement and belongs to the rhomboids and the middle fibres of trapezius. A student who has learnt only that this muscle is powerful and that it holds the scapula down will accept either direction.
 ## answer_d
 Fixes the scapula tolthe chest a il Of the upper limb.
 ## explanation_d
@@ -128455,7 +128455,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives serratus anterior eight digitations from the upper eight ribs (option a), the long thoracic nerve (option b), and fixation of the scapula to the chest wall (option d) — and calls it "the main and powerful protractor of the shoulder", which makes option c, retractor, the one wrong statement the stem asks for.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer given here is: serratus anterior has eight digitations from the upper eight ribs (option a), is supplied by the long thoracic nerve (option b), and fixes the scapula to the chest wall (option d) — and it is "the main and powerful protractor of the shoulder", which makes option c, retractor, the one wrong statement the stem asks for.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -128476,7 +128476,7 @@ Which one of the;fotiowing muscles canpextend the arm?
 ## answer_a
 Latissimus dorsi.
 ## explanation_a
-Correct. Latissimus dorsi is the principal extensor of the arm at the shoulder; it also adducts and medially rotates, which is the combination that drives the arm down and back in swimming and climbing.
+Latissimus dorsi is the principal extensor of the arm at the shoulder; it also adducts and medially rotates, which is the combination that drives the arm down and back in swimming and climbing.
 ## answer_b
 Clavicular fibers of pectoralis major.
 ## explanation_b
@@ -128544,7 +128544,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book, which gives extension of the arm to the posterior fibres of deltoid, teres major and latissimus dorsi. Latissimus dorsi is the only one of the four options on that list; the other three — the clavicular fibres of pectoralis major, the anterior fibres of deltoid and coracobrachialis — are the book’s three flexors.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer given here is: extension of the arm belongs to the posterior fibres of deltoid, teres major and latissimus dorsi. Latissimus dorsi is the only one of the four options on that list; the other three — the clavicular fibres of pectoralis major, the anterior fibres of deltoid and coracobrachialis — are the three flexors.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -128565,7 +128565,7 @@ What muscles are‘Hecessary to.raisé the arm above the shoulder?
 ## answer_a
 First the supraspinatus; next the deltoid, and:then.the.serratus anterior
 ## explanation_a
-Correct. Supraspinatus starts the movement over the first fifteen degrees, deltoid carries it to ninety, and past ninety the shoulder joint is out of range — the scapula rotates instead, turning the glenoid cavity upwards, and serratus anterior with trapezius does that.
+Supraspinatus starts the movement over the first fifteen degrees, deltoid carries it to ninety, and past ninety the shoulder joint is out of range — the scapula rotates instead, turning the glenoid cavity upwards, and serratus anterior with trapezius does that.
 ## answer_b
 First the deltoid, next the Supraspinatus, and'then the serratus anterior
 ## explanation_b
@@ -128633,7 +128633,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book gives supraspinatus abduction from 0 to 15 degrees, initiating it; the middle fibres of deltoid from 15 to 90; and beyond 90 it says the greater tuberosity meets the coraco-acromial ligament and further elevation is upward rotation of the scapula, produced by trapezius with the lower five digitations of serratus anterior. That is supraspinatus, then deltoid, then serratus anterior — option a’s order.
+Answer changed from the source's: The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer given here is: supraspinatus abducts from 0 to 15 degrees, initiating it; the middle fibres of deltoid carry it from 15 to 90; and beyond 90 the greater tuberosity meets the coraco-acromial ligament and further elevation is upward rotation of the scapula, produced by trapezius with the lower five digitations of serratus anterior. That is supraspinatus, then deltoid, then serratus anterior — option a’s order.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -128658,7 +128658,7 @@ The skull and mandible are the top of the axial skeleton — the central axis, n
 ## answer_b
 Bones of the upper and lower limbs
 ## explanation_b
-Correct. Appendicular means the appendages: the bones of the upper and lower limbs, girdles included.
+Appendicular means the appendages: the bones of the upper and lower limbs, girdles included.
 ## answer_c
 Ribs and stemum
 ## explanation_c
@@ -128722,7 +128722,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: This copy printed no key. Its three-option twin `appendicular-skeleton-includes-dep-book-ac-ad-ac-ad-ad-ad-99ec3dc9` is keyed to the same statement, "Bones of the limbs", and the department book defines the appendicular (peripheral) skeleton as the bones of the upper and lower limbs.
+Answer changed from the source's: This copy printed no key. Its three-option twin `appendicular-skeleton-includes-dep-book-ac-ad-ac-ad-ad-ad-99ec3dc9` is keyed to the same statement, "Bones of the limbs", and the appendicular (peripheral) skeleton is defined as the bones of the upper and lower limbs.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -128751,7 +128751,7 @@ The ulna is a forearm bone, appendicular beyond argument.
 ## answer_c
 Sternum.
 ## explanation_c
-Correct. The sternum is one of the six components of the axial skeleton the book lists, with the skull, mandible, hyoid, ribs and vertebral column.
+The sternum is one of the six components of the axial skeleton, with the skull, mandible, hyoid, ribs and vertebral column.
 ## answer_d
 Scapula.
 ## explanation_d
@@ -128844,7 +128844,7 @@ A flat bone is two compact plates with spongy bone between; the scapula and ribs
 ## answer_d
 Seasamoid bone
 ## explanation_d
-Correct. The patella is a nodule of bone embedded in the tendon of quadriceps femoris in front of the knee — the largest sesamoid bone in the body — and its job is to reduce friction between that tendon and the bone beneath.
+The patella is a nodule of bone embedded in the tendon of quadriceps femoris in front of the knee — the largest sesamoid bone in the body — and its job is to reduce friction between that tendon and the bone beneath.
 ## correct_answer
 D
 ## main_concept
@@ -128929,7 +128929,7 @@ A long bone has a shaft and two ends. The scapula has processes — spine, acrom
 ## answer_c
 Flat bone
 ## explanation_c
-Correct. The scapula is one of the book's three examples of a flat bone, with the skull cap and the ribs: two thin plates of compact bone with a spongy layer between.
+The scapula is one of the three examples of a flat bone, with the skull cap and the ribs: two thin plates of compact bone with a spongy layer between.
 ## answer_d
 Seasamoid bone
 ## explanation_d
@@ -129018,7 +129018,7 @@ The commonest error here, because a rib is manifestly long. Length is not what d
 ## answer_c
 Flat bone
 ## explanation_c
-Correct. The ribs are flat bones — two thin plates of compact bone with spongy bone between, which is also why the sternum and the ribs hold red marrow in adult life.
+The ribs are flat bones — two thin plates of compact bone with spongy bone between, which is also why the sternum and the ribs hold red marrow in adult life.
 ## answer_d
 Seasamoid bone
 ## explanation_d
@@ -129103,7 +129103,7 @@ The humerus is the type example of a long bone — two epiphyses and a shaft wit
 ## answer_b
 Scapula
 ## explanation_b
-Correct. The scapula is a flat bone: two thin plates of compact bone with a spongy layer between them.
+The scapula is a flat bone: two thin plates of compact bone with a spongy layer between them.
 ## answer_c
 Ulna
 ## explanation_c
@@ -129167,7 +129167,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Up
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: Asked twice and keyed on neither page. The department book names the scapula as one of its three examples of a flat bone, and none of the other three options is flat: the humerus and ulna are long bones and the clavicle, though it ossifies in membrane, is classed as a long bone.
+Answer changed from the source's: Asked twice and keyed on neither page. The scapula is one of the three examples of a flat bone, and none of the other three options is flat: the humerus and ulna are long bones and the clavicle, though it ossifies in membrane, is classed as a long bone.
 
 
 ---
@@ -129188,11 +129188,11 @@ One of the following is a ﬂat bone: (DEP BOOK - 2017)
 ## answer_a
 Vertebra.
 ## explanation_a
-The vertebra is the book's example of an irregular bone — irregular in shape with projecting processes, and built inside like a short bone.
+The vertebra is an example of an irregular bone — irregular in shape with projecting processes, and built inside like a short bone.
 ## answer_b
 Cap of skull.
 ## explanation_b
-Correct. The cap of the skull is a flat bone: outer and inner tables of compact bone with the diploe between them.
+The cap of the skull is a flat bone: outer and inner tables of compact bone with the diploe between them.
 ## answer_c
 Humerus.
 ## explanation_c
@@ -129200,7 +129200,7 @@ The humerus is a long bone.
 ## answer_d
 Scaphoid.
 ## explanation_d
-The scaphoid is a carpal bone, and the carpals are the book's example of short bones.
+The scaphoid is a carpal bone, and the carpals are an example of short bones.
 ## correct_answer
 B
 ## main_concept
@@ -129256,7 +129256,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2017 source printed no key. The department book names the skull cap as one of its three flat bones, and files the other three options elsewhere: the vertebra under irregular bones, the humerus under long, the scaphoid under short.
+Answer changed from the source's: The 2017 source printed no key. The skull cap is one of the three flat bones, and the other three options file elsewhere: the vertebra under irregular bones, the humerus under long, the scaphoid under short.
 
 
 ---
@@ -129289,7 +129289,7 @@ The metacarpals are miniature long bones, each with a base, a shaft and a head.
 ## answer_d
 Vertebra
 ## explanation_d
-Correct. The vertebra is the book's worked example of an irregular bone.
+The vertebra is the worked example of an irregular bone.
 ## correct_answer
 D
 ## main_concept
@@ -129366,7 +129366,7 @@ Which of the following bones is a sesamoid bone? (2024)
 ## answer_a
 Pisiform
 ## explanation_a
-Correct. The pisiform sits in the tendon of flexor carpi ulnaris, which is what a sesamoid bone is — a nodule of bone within a tendon. It is the one carpal bone that qualifies.
+The pisiform sits in the tendon of flexor carpi ulnaris, which is what a sesamoid bone is — a nodule of bone within a tendon. It is the one carpal bone that qualifies.
 ## answer_b
 Scaphoid. P
 ## explanation_b
@@ -129467,7 +129467,7 @@ The flat bones of the skull cap are the nearest true answer, and the reason this
 ## answer_d
 Pneumatic bones
 ## explanation_d
-Correct. A bone containing air is a pneumatic bone, and the air cavities of the skull bones around the nose are the paranasal sinuses.
+A bone containing air is a pneumatic bone, and the air cavities of the skull bones around the nose are the paranasal sinuses.
 ## correct_answer
 D
 ## main_concept
@@ -129548,7 +129548,7 @@ A genuine function. The sinus is lined by a highly vascular mucosa, and inspired
 ## answer_b
 Withstand forces and stresses
 ## explanation_b
-Correct as the exception, and the answer. Hollowing a bone cannot make it stronger; the air is bought at the cost of substance, which is why a blow to the face fractures the maxilla and the orbital floor so readily.
+The exception, and the answer. Hollowing a bone cannot make it stronger; the air is bought at the cost of substance, which is why a blow to the face fractures the maxilla and the orbital floor so readily.
 ## answer_c
 Resonance of voice
 ## explanation_c
@@ -129633,7 +129633,7 @@ The expanded upper and lower ends of the long bone are called:
 ## answer_a
 Epiphysis
 ## explanation_a
-Correct. The epiphyses are the expanded upper and lower ends, used for articulation and covered with hyaline cartilage.
+The epiphyses are the expanded upper and lower ends, used for articulation and covered with hyaline cartilage.
 ## answer_b
 Epiphyseal plate
 ## explanation_b
@@ -129730,11 +129730,11 @@ The epiphyseal plate is cartilage, not bone at all.
 ## answer_c
 Diaphysis
 ## explanation_c
-Correct, and the override. The diaphysis is the shaft: a tube of compact bone around a central medullary cavity lined with endosteum and filled with marrow.
+The override. The diaphysis is the shaft: a tube of compact bone around a central medullary cavity lined with endosteum and filled with marrow.
 ## answer_d
 Metaphysis
 ## explanation_d
-The answer printed in both copies of this question in the books, and the reason for the override. The metaphysis is the short, highly active segment just under the epiphyseal cartilage; it is part of the shaft, but it is not the description in the stem.
+The answer printed in both copies of this question, and the reason for the override. The metaphysis is the short, highly active segment just under the epiphyseal cartilage; it is part of the shaft, but it is not the description in the stem.
 ## correct_answer
 C
 ## main_concept
@@ -129790,7 +129790,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basi
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The bank carries D, "Metaphysis", and so does the second copy of this question — and both conflict with the department book, whose definition of the diaphysis is word for word the stem of this question: "a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow". The metaphysis is defined separately as the part just beneath the epiphyseal cartilage. A key repeated on two pages is still one wrong key, and the conflict is recorded rather than absorbed.
+Answer changed from the source's: The bank carries D, "Metaphysis", and so does the second copy of this question — and both conflict with the definition of the diaphysis, which is word for word the stem of this question: "a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow". The metaphysis is defined separately as the part just beneath the epiphyseal cartilage. A key repeated on two pages is still one wrong key, and the conflict is recorded rather than absorbed.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -129815,7 +129815,7 @@ The epiphysis is the end that the plate pushes away; it is carried along by the 
 ## answer_b
 Epiphyseal plate
 ## explanation_b
-Correct. The bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells.
+The bone increases in length from the epiphysial plates of cartilage, by proliferation of their cells.
 ## answer_c
 Diaphysis
 ## explanation_c
@@ -129900,7 +129900,7 @@ Longitudinal growth in a growing bone passes through which of the following?
 ## answer_a
 metaphysic
 ## explanation_a
-The metaphysis is where the new cartilage is replaced by bone, and the book calls it the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.
+The metaphysis is where the new cartilage is replaced by bone, and it is the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.
 ## answer_b
 diaphysis
 ## explanation_b
@@ -129908,7 +129908,7 @@ The diaphysis is the shaft. It gains length at its ends and gains width from the
 ## answer_c
 epiphyseal plate
 ## explanation_c
-Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.
+The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.
 ## answer_d
 epiphyseal line
 ## explanation_d
@@ -129968,7 +129968,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2024 source printed no key. The department book states that long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
+Answer changed from the source's: The 2024 source printed no key. Long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
 
 
 ---
@@ -129993,7 +129993,7 @@ The roof of the skull ossifies in membrane, directly from mesenchyme, with no ca
 ## answer_b
 Clavicle
 ## explanation_b
-The clavicle is the book's other example of membranous ossification, and the classic trap: it looks like a long bone and long bones are cartilaginous, but the clavicle is not.
+The clavicle is another example of membranous ossification, and the classic trap: it looks like a long bone and long bones are cartilaginous, but the clavicle is not.
 ## answer_c
 Skull cap
 ## explanation_c
@@ -130001,7 +130001,7 @@ The skull cap is the same structure as option A under another name. Two identica
 ## answer_d
 Vertebrae
 ## explanation_d
-Correct. The vertebrae are on the book's intra-cartilaginous list with the long bones, the ribs and the base of the skull: mesenchyme first becomes a cartilage model, and the model is then replaced by bone.
+The vertebrae belong with the long bones on the intra-cartilaginous list, the ribs and the base of the skull: mesenchyme first becomes a cartilage model, and the model is then replaced by bone.
 ## correct_answer
 D
 ## main_concept
@@ -130078,7 +130078,7 @@ One of the following bones undergoes membranous ossiﬁcation: (DEP BOOK)
 ## answer_a
 Clavicle.
 ## explanation_a
-Correct. The clavicle is one of the book's two examples of intra-membranous ossification, with the skull cap — and the only limb bone that forms this way.
+The clavicle is one of the two examples of intra-membranous ossification, with the skull cap — and the only limb bone that forms this way.
 ## answer_b
 Radius.
 ## explanation_b
@@ -130175,7 +130175,7 @@ The auricle of the ear is yellow elastic fibrocartilage, which is what lets it b
 ## answer_c
 Articular cartilage of joints
 ## explanation_c
-Correct. The articular cartilage covering the surfaces of a synovial joint is hyaline, as are the epiphyseal plates, the costal cartilages and the developing bones of the fetus.
+The articular cartilage covering the surfaces of a synovial joint is hyaline, as are the epiphyseal plates, the costal cartilages and the developing bones of the fetus.
 ## answer_d
 Intervertebral disc
 ## explanation_d
@@ -130235,7 +130235,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book lists the articular cartilage of joints among the sites of hyaline cartilage, and files the other three options elsewhere: the epiglottis and the auricle under yellow elastic fibrocartilage, the intervertebral disc under white fibrocartilage.
+Answer changed from the source's: The source printed no key. The articular cartilage of joints is one of the sites of hyaline cartilage; the other three options file elsewhere: the epiglottis and the auricle under yellow elastic fibrocartilage, the intervertebral disc under white fibrocartilage.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -130268,7 +130268,7 @@ Articular cartilage is hyaline. It is the most tempting wrong answer here becaus
 ## answer_d
 Intervertebral disc
 ## explanation_d
-Correct. The intervertebral disc is the department book's one named site of white fibrocartilage, and unlike hyaline it does not ossify in old age.
+The intervertebral disc is the one named site of white fibrocartilage, and unlike hyaline it does not ossify in old age.
 ## correct_answer
 D
 ## main_concept
@@ -130353,7 +130353,7 @@ The auricle of the ear is yellow elastic fibrocartilage.
 ## answer_c
 Intervertebral disc of cartilage.
 ## explanation_c
-Correct. The intervertebral disc is the book's named site of white fibrocartilage.
+The intervertebral disc is the named site of white fibrocartilage.
 ## answer_d
 Costal cartilage.
 ## explanation_d
@@ -130438,7 +130438,7 @@ Developing bone in the fetus is a hyaline cartilage model, waiting to be replace
 ## answer_b
 Auricle of the ear
 ## explanation_b
-Correct. The auricle of the ear is yellow elastic fibrocartilage, with the tip of the nose and the epiglottis.
+The auricle of the ear is yellow elastic fibrocartilage, with the tip of the nose and the epiglottis.
 ## answer_c
 Articular cartilage of joints
 ## explanation_c
@@ -130531,7 +130531,7 @@ White fibrocartilage is the intervertebral disc. It is built to resist compressi
 ## answer_c
 Yellow elastic ﬁbrocartilage
 ## explanation_c
-Correct. The tip of the nose is yellow elastic fibrocartilage, with the auricle of the ear and the epiglottis — the three places that have to bend and recoil.
+The tip of the nose is yellow elastic fibrocartilage, with the auricle of the ear and the epiglottis — the three places that have to bend and recoil.
 ## answer_d
 No cartilage at all
 ## explanation_d
@@ -130620,7 +130620,7 @@ The periosteal arteries are the other half of this question and the commonest wr
 ## answer_c
 Diaphyseal artery.
 ## explanation_c
-Correct. The nutrient, or diaphyseal, artery enters through the oblique nutrient foramen at the middle of the shaft, runs away from the growing end, and supplies the inner two-thirds of the shaft.
+The nutrient, or diaphyseal, artery enters through the oblique nutrient foramen at the middle of the shaft, runs away from the growing end, and supplies the inner two-thirds of the shaft.
 ## answer_d
 Metaphyseal artery.
 ## explanation_d
@@ -130680,7 +130680,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which states that the nutrient artery enters the middle of the shaft and supplies the inner two-thirds of it, while the periosteal arteries supply the outer third. The paper calls that vessel the diaphyseal artery and the book calls it the nutrient artery; the two names are the same vessel — the artery of the diaphysis — and no other option names anything in the interior of the shaft.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: the nutrient artery enters the middle of the shaft and supplies the inner two-thirds of it, while the periosteal arteries supply the outer third. The paper calls that vessel the diaphyseal artery, also known as the nutrient artery; the two names are the same vessel — the artery of the diaphysis — and no other option names anything in the interior of the shaft.
 
 
 ---
@@ -130713,7 +130713,7 @@ Secretory — glandular — epithelium makes a product. The serous glands of the
 ## answer_d
 Neuro-epithelium
 ## explanation_d
-Correct. Neuro-epithelium is epithelium whose cells are modified to act as receptors, and the taste bud is the book's example of it.
+Neuro-epithelium is epithelium whose cells are modified to act as receptors, and the taste bud is the standard example of it.
 ## correct_answer
 D
 ## main_concept
@@ -130798,7 +130798,7 @@ True, but not the whole answer. The simple columnar cells of the intestine absor
 ## answer_c
 Secretion and absorption
 ## explanation_c
-Correct. The same epithelium does both along the digestive tract, and a question offering the two separately is testing whether the student stops at the first true option.
+The same epithelium does both along the digestive tract, and a question offering the two separately is testing whether the student stops at the first true option.
 ## answer_d
 Protection
 ## explanation_d
@@ -130891,7 +130891,7 @@ Covering skin and forming glands describes surface and glandular epithelium — 
 ## answer_d
 Is present in organ of Corti
 ## explanation_d
-Correct as keyed. The organ of Corti is a sensory receptor, so its epithelium is neuro-epithelium. Note that the department book names only the taste bud; the organ of Corti comes from the question books.
+The organ of Corti is a sensory receptor, so its epithelium is neuro-epithelium. Only the taste bud is named in the course material; the organ of Corti comes from the question books.
 ## correct_answer
 D
 ## main_concept
@@ -130972,7 +130972,7 @@ The convoluted tubules are simple cubical. Their job is reabsorption, which need
 ## answer_b
 Lines the endothelium of blood vessels
 ## explanation_b
-Correct. Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart.
+Endothelium is the name simple squamous epithelium takes when it lines blood vessels and the heart.
 ## answer_c
 Formed of many layers of cells resting on basement membrane
 ## explanation_c
@@ -131069,7 +131069,7 @@ The basal cells are not what any stratified epithelium is classified on, and des
 ## answer_d
 The surface cells are columnar in shape
 ## explanation_d
-Correct. Stratified epithelium is named for the shape of its superficial cells, and in this one they are columnar.
+Stratified epithelium is named for the shape of its superficial cells, and in this one they are columnar.
 ## correct_answer
 D
 ## main_concept
@@ -131146,7 +131146,7 @@ Simple squamous epithelium can be found in:
 ## answer_a
 Lung alveoli
 ## explanation_a
-Correct. The lung alveolus needs a barrier thin enough for oxygen and carbon dioxide to cross, and its lining cells — the pneumocytes — are simple squamous.
+The lung alveolus needs a barrier thin enough for oxygen and carbon dioxide to cross, and its lining cells — the pneumocytes — are simple squamous.
 ## answer_b
 Small intestine
 ## explanation_b
@@ -131243,7 +131243,7 @@ A rounded nucleus does not fit inside a flat cell. The nucleus follows the shape
 ## answer_c
 One layer of flat cells with flat nuclei
 ## explanation_c
-Correct. One layer of flat cells with flat nuclei.
+One layer of flat cells with flat nuclei.
 ## answer_d
 Two layers of flat cells with flat nuclei
 ## explanation_d
@@ -131324,7 +131324,7 @@ The stratified squamous epithelium is characterized by:
 ## answer_a
 Cells connected by desmosomes
 ## explanation_a
-Correct. The intermediate polyhedral cells are joined by desmosomes, the strongest junction, which is exactly what an epithelium exposed to abrasion needs.
+The intermediate polyhedral cells are joined by desmosomes, the strongest junction, which is exactly what an epithelium exposed to abrasion needs.
 ## answer_b
 It is always keratinized
 ## explanation_b
@@ -131413,7 +131413,7 @@ single_best_answer
 ## answer_a
 Simple squamous epithelium that lines serous cavities
 ## explanation_a
-Correct. Mesothelium is simple squamous epithelium lining the serous cavities — pleura, pericardium and peritoneum — and it is smooth so the organs inside them can move against one another.
+Mesothelium is simple squamous epithelium lining the serous cavities — pleura, pericardium and peritoneum — and it is smooth so the organs inside them can move against one another.
 ## answer_b
 Simple squamous epithelium that lines the lumen of the
 ## explanation_b
@@ -131502,7 +131502,7 @@ A type of epithelium with limited distribution in the body is
 ## answer_a
 Stratified cubical epithelium
 ## explanation_a
-Correct. The book calls stratified cubical epithelium rare, and gives it essentially one site — the ducts of the sweat glands, usually two layers.
+Stratified cubical epithelium is rare, and gives it essentially one site — the ducts of the sweat glands, usually two layers.
 ## answer_b
 Simple columnar epithelium
 ## explanation_b
@@ -131510,7 +131510,7 @@ Simple columnar epithelium lines most of the gastrointestinal tract, which is as
 ## answer_c
 Transitional epithelium
 ## explanation_c
-Transitional epithelium is confined to the urinary tract, so it is restricted — but to a whole system, and the book does not call it rare.
+Transitional epithelium is confined to the urinary tract, so it is restricted — but to a whole system, and it is not rare.
 ## answer_d
 Simple squamous epithelium
 ## explanation_d
@@ -131692,7 +131692,7 @@ Simple columnar epithelium has its nuclei at one level near the base. Crowd it a
 ## answer_d
 pseudostratified columnar epithelium
 ## explanation_d
-Correct. Pseudostratified columnar epithelium: nuclei at several levels because the cells are of different heights, but every cell on the basement membrane.
+Pseudostratified columnar epithelium: nuclei at several levels because the cells are of different heights, but every cell on the basement membrane.
 ## correct_answer
 D
 ## main_concept
@@ -131769,7 +131769,7 @@ called uro-epithelium:
 ## answer_a
 transitional
 ## explanation_a
-Correct. Urothelium is the other name for transitional epithelium, and it lines the whole urinary tract.
+Urothelium is the other name for transitional epithelium, and it lines the whole urinary tract.
 ## answer_b
 stratified squamous
 ## explanation_b
@@ -131947,7 +131947,7 @@ dome-shaped cell with upper convex is present in:
 ## answer_a
 transitional
 ## explanation_a
-Correct. The dome cell with its convex luminal surface and rigid plaques is the identifying feature of transitional epithelium.
+The dome cell with its convex luminal surface and rigid plaques is the identifying feature of transitional epithelium.
 ## answer_b
 stratified squamous
 ## explanation_b
@@ -132040,7 +132040,7 @@ Simple squamous epithelium is for exchange and smooth movement, neither of which
 ## answer_b
 Stratified cubical epithelium
 ## explanation_b
-Correct. The sweat gland duct is the book's single example of stratified cubical epithelium, usually two layers thick.
+The sweat gland duct is the standard example of stratified cubical epithelium, usually two layers thick.
 ## answer_c
 Simple columnar epithelium
 ## explanation_c
@@ -132214,7 +132214,7 @@ Endothelium is:
 ## answer_a
 simple squamous epithelium in blood vessels
 ## explanation_a
-Correct. Endothelium is simple squamous epithelium lining the blood vessels and the heart.
+Endothelium is simple squamous epithelium lining the blood vessels and the heart.
 ## answer_b
 simple squamous epithelium in serous membranes
 ## explanation_b
@@ -132315,7 +132315,7 @@ Pseudostratified columnar epithelium looks as if it changes level, but its cells
 ## answer_d
 transitional epithelium
 ## explanation_d
-Correct. Changing shape with the degree of filling is the defining property of transitional epithelium, and it is where the name comes from.
+Changing shape with the degree of filling is the defining property of transitional epithelium, and it is where the name comes from.
 ## correct_answer
 D
 ## main_concept
@@ -132404,7 +132404,7 @@ The trap. The oesophagus is stratified squamous, but non-keratinised: keratin be
 ## answer_d
 stratified squamous epithelium
 ## explanation_d
-Correct. Stratified squamous — non-keratinised, though this option does not say so — because a passing bolus abrades the surface and protection is what many layers of cells joined by desmosomes provide.
+Stratified squamous — non-keratinised, though this option does not say so — because a passing bolus abrades the surface and protection is what many layers of cells joined by desmosomes provide.
 ## correct_answer
 D
 ## main_concept
@@ -132481,7 +132481,7 @@ example of pseudostratified columnar ciliated with motile cilia:
 ## answer_a
 upper respiratory
 ## explanation_a
-Correct. The upper respiratory passages — nose, trachea and bronchi — are lined by pseudostratified columnar ciliated epithelium with goblet cells, and the cilia sweep mucus upwards.
+The upper respiratory passages — nose, trachea and bronchi — are lined by pseudostratified columnar ciliated epithelium with goblet cells, and the cilia sweep mucus upwards.
 ## answer_b
 lower respiratory
 ## explanation_b
@@ -132582,7 +132582,7 @@ The vas deferens has the non-ciliated form — no processes of either kind.
 ## answer_d
 epididymis
 ## explanation_d
-Correct. The epididymis carries stereocilia, which the book classes under "ciliated with non-motile cilia" while stating plainly that they are long microvilli and not true cilia.
+The epididymis carries stereocilia, classed under "ciliated with non-motile cilia" while stating plainly that they are long microvilli and not true cilia.
 ## correct_answer
 D
 ## main_concept
@@ -132667,7 +132667,7 @@ The lower respiratory tract is simple columnar ciliated and then simple squamous
 ## answer_c
 vas deferens
 ## explanation_c
-Correct. The vas deferens, with the membranous urethra, carries pseudostratified columnar epithelium with no apical specialisation at all.
+The vas deferens, with the membranous urethra, carries pseudostratified columnar epithelium with no apical specialisation at all.
 ## answer_d
 epididymis
 ## explanation_d
@@ -132760,7 +132760,7 @@ True, but not the whole answer. The intestinal lining absorbs, through its micro
 ## answer_d
 both a & c are correct
 ## explanation_d
-Correct. Secretion in the stomach and absorption in the intestine are both simple columnar epithelium doing what a tall cell with plenty of cytoplasm can do.
+Secretion in the stomach and absorption in the intestine are both simple columnar epithelium doing what a tall cell with plenty of cytoplasm can do.
 ## correct_answer
 D
 ## main_concept
@@ -132845,7 +132845,7 @@ Reabsorption is simple cubical epithelium in the kidney tubule.
 ## answer_c
 Protection
 ## explanation_c
-Correct. Protection — against abrasion in the oesophagus and mouth, against abrasion and drying in the skin. Layers of cells bound by desmosomes are what protection looks like histologically.
+Protection — against abrasion in the oesophagus and mouth, against abrasion and drying in the skin. Layers of cells bound by desmosomes are what protection looks like histologically.
 ## answer_d
 Gas exchange
 ## explanation_d
@@ -132930,7 +132930,7 @@ The reverse of the truth, and the reason the epithelium looks stratified in the 
 ## answer_b
 All cells reach apex
 ## explanation_b
-Correct as keyed, though it needs care. Every cell of a pseudostratified epithelium reaches the basement membrane, which is the property that makes it simple; not every cell reaches the apex, which is what creates the illusion. The keyed wording states the reaching, and the reaching is what separates it from a truly stratified epithelium, whose upper cells reach neither.
+This needs care. Every cell of a pseudostratified epithelium reaches the basement membrane, which is the property that makes it simple; not every cell reaches the apex, which is what creates the illusion. The keyed wording states the reaching, and the reaching is what separates it from a truly stratified epithelium, whose upper cells reach neither.
 ## answer_c
 There are multiple cell layers in pseudostratified epithelia
 ## explanation_c
@@ -133023,11 +133023,11 @@ Stratified cubical epithelium is two layers in a sweat duct and gives little pro
 ## answer_c
 stratified squamous
 ## explanation_c
-Correct. Squamous metaplasia produces stratified squamous epithelium: better against the irritant, and with no cilia at all, so the airway can no longer clear itself.
+Squamous metaplasia produces stratified squamous epithelium: better against the irritant, and with no cilia at all, so the airway can no longer clear itself.
 ## answer_d
 none of above
 ## explanation_d
-The change is well described and this is the option of a student who does not believe an epithelium can change type. It can, and the book calls it metaplasia.
+The change is well described and this is the option of a student who does not believe an epithelium can change type. It can, and this is called metaplasia.
 ## correct_answer
 C
 ## main_concept
@@ -133116,7 +133116,7 @@ Simple cubical epithelium is thinner and weaker than what it would be replacing.
 ## answer_d
 Stratified squamous epithelium
 ## explanation_d
-Correct. Stratified squamous epithelium replaces it — protective, and cilialess, which is why these patients get repeated chest infections.
+Stratified squamous epithelium replaces it — protective, and cilialess, which is why these patients get repeated chest infections.
 ## correct_answer
 D
 ## main_concept
@@ -133205,7 +133205,7 @@ Stratified columnar non-ciliated epithelium is a rare epithelium found at the re
 ## answer_d
 Stratified squamous epithelium
 ## explanation_d
-Correct. Stratified squamous epithelium — the epithelium of protection — replaces the ciliated lining, and the mucociliary escalator stops.
+Stratified squamous epithelium — the epithelium of protection — replaces the ciliated lining, and the mucociliary escalator stops.
 ## correct_answer
 D
 ## main_concept
@@ -133286,7 +133286,7 @@ The surface of the skin is stratified squamous keratinised epithelium — the op
 ## answer_b
 lining of nasal cavity and trachea
 ## explanation_b
-Correct. Nasal cavity and trachea: ciliated cells to move the mucus and goblet cells to make it, which is the whole design of the respiratory lining.
+Nasal cavity and trachea: ciliated cells to move the mucus and goblet cells to make it, which is the whole design of the respiratory lining.
 ## answer_c
 lining of serous membranes
 ## explanation_c
@@ -133371,7 +133371,7 @@ its function is distensibility:
 ## answer_a
 transitional
 ## explanation_a
-Correct. Transitional epithelium thins from 6–8 layers to 3–4 as the organ fills, and its cells change shape rather than tearing.
+Transitional epithelium thins from 6–8 layers to 3–4 as the organ fills, and its cells change shape rather than tearing.
 ## answer_b
 stratified squamous
 ## explanation_b
@@ -133460,7 +133460,7 @@ its function is easy movement, exchange of gases:
 ## answer_a
 squamous
 ## explanation_a
-Correct. Flat cells give both properties at once — thin enough for gases to cross in the alveolus, smooth enough for organs to slide over one another on a serous membrane.
+Flat cells give both properties at once — thin enough for gases to cross in the alveolus, smooth enough for organs to slide over one another on a serous membrane.
 ## answer_b
 cubical
 ## explanation_b
@@ -133557,7 +133557,7 @@ The near miss, and the pair this question is set against: cubical epithelium sec
 ## answer_c
 columnar
 ## explanation_c
-Correct. Columnar epithelium secretes and absorbs, along the digestive tract — absorption of what has been eaten, not reabsorption of what the body has already filtered.
+Columnar epithelium secretes and absorbs, along the digestive tract — absorption of what has been eaten, not reabsorption of what the body has already filtered.
 ## answer_d
 pseudostratified
 ## explanation_d
@@ -133642,7 +133642,7 @@ Squamous is exchange and easy movement.
 ## answer_b
 cubical
 ## explanation_b
-Correct. Simple cubical epithelium secretes in the gland acinus and the thyroid follicle, and reabsorbs in the convoluted tubules of the kidney.
+Simple cubical epithelium secretes in the gland acinus and the thyroid follicle, and reabsorbs in the convoluted tubules of the kidney.
 ## answer_c
 columnar
 ## explanation_c
@@ -133735,7 +133735,7 @@ Simple cubical epithelium moves material through the cell, not over its surface.
 ## answer_c
 columnar
 ## explanation_c
-Correct. Simple columnar ciliated epithelium sweeps fluid or particles in one direction — up the bronchioles, and along the uterus and fallopian tube to carry the ovum.
+Simple columnar ciliated epithelium sweeps fluid or particles in one direction — up the bronchioles, and along the uterus and fallopian tube to carry the ovum.
 ## answer_d
 pseudostratified
 ## explanation_d
@@ -133820,7 +133820,7 @@ Right epithelium, wrong site — that is endothelium, and the two names are the 
 ## answer_b
 simple squamous epithelium in serous membranes
 ## explanation_b
-Correct. Mesothelium is simple squamous epithelium on the serous membranes: pleura, pericardium and peritoneum.
+Mesothelium is simple squamous epithelium on the serous membranes: pleura, pericardium and peritoneum.
 ## answer_c
 simple cuboidal epithelium in blood vessels
 ## explanation_c
@@ -133998,7 +133998,7 @@ Central rounded nuclei belong to cubical cells, whose height and width are the s
 ## answer_b
 basal & oval
 ## explanation_b
-Correct. A tall cell has an oval nucleus pushed towards the base, which leaves the apex free for secretory granules or a brush border.
+A tall cell has an oval nucleus pushed towards the base, which leaves the apex free for secretory granules or a brush border.
 ## answer_c
 flat
 ## explanation_c
@@ -134083,7 +134083,7 @@ Nuclei of simple cuboidal epithelium are:
 ## answer_a
 central rounded
 ## explanation_a
-Correct. A cube-shaped cell holds a round nucleus in the centre.
+A cube-shaped cell holds a round nucleus in the centre.
 ## answer_b
 basal & oval
 ## explanation_b
@@ -134184,7 +134184,7 @@ Two layers is stratified cubical epithelium, in the sweat gland duct.
 ## answer_d
 3-4
 ## explanation_d
-Correct. 3–4 layers when the bladder is full: the intermediate cells are pushed laterally and the epithelium thins.
+3–4 layers when the bladder is full: the intermediate cells are pushed laterally and the epithelium thins.
 ## correct_answer
 D
 ## main_concept
@@ -134261,7 +134261,7 @@ number of layers of stratified squamous:
 ## answer_a
 5-30
 ## explanation_a
-Correct. 5–30 layers — a wide range, because the same epithelium covers everything from the thin lining of the cheek to the sole of the foot.
+5–30 layers — a wide range, because the same epithelium covers everything from the thin lining of the cheek to the sole of the foot.
 ## answer_b
 6-8
 ## explanation_b
@@ -134354,7 +134354,7 @@ The uterus is simple columnar partially ciliated epithelium.
 ## answer_b
 Urinary bladder
 ## explanation_b
-Correct. The urinary bladder, with the ureter, renal pelvis and prostatic urethra, is the territory of transitional epithelium.
+The urinary bladder, with the ureter, renal pelvis and prostatic urethra, is the territory of transitional epithelium.
 ## answer_c
 Vas deferens
 ## explanation_c
@@ -134451,7 +134451,7 @@ The single most useful discriminator against the oesophagus, and it is false her
 ## answer_d
 The upper most layers have some binucleated cells
 ## explanation_d
-Correct. The uppermost dome-shaped cells are large and some of them are binucleated — a feature of this epithelium and of no other in the list.
+The uppermost dome-shaped cells are large and some of them are binucleated — a feature of this epithelium and of no other in the list.
 ## correct_answer
 D
 ## main_concept
@@ -134617,7 +134617,7 @@ Only one statement about the stratified squamous epithelium is correct. Cells of
 ## answer_a
 Farthest from the basement membrane, squamous
 ## explanation_a
-Correct. Farthest from the basement membrane means the surface, and the surface cells are squamous — which is what the epithelium is named for.
+Farthest from the basement membrane means the surface, and the surface cells are squamous — which is what the epithelium is named for.
 ## answer_b
 Farthest from the basement membrane, are polygonal
 ## explanation_b
@@ -134714,7 +134714,7 @@ Stratified columnar epithelium really does have cells that do not reach the base
 ## answer_c
 A simple columnar epithelium
 ## explanation_c
-Correct. Every cell rests on the basement membrane, so the book classifies it among the simple epithelia despite its appearance.
+Every cell rests on the basement membrane, so it is classified among the simple epithelia despite its appearance.
 ## answer_d
 It is a false appearance of epithelium, it is CT
 ## explanation_d
@@ -134799,7 +134799,7 @@ The ureter is transitional epithelium.
 ## answer_b
 vas deference
 ## explanation_b
-Correct. The vas deferens carries the non-ciliated form of pseudostratified columnar epithelium.
+The vas deferens carries the non-ciliated form of pseudostratified columnar epithelium.
 ## answer_c
 small intestine
 ## explanation_c
@@ -134896,7 +134896,7 @@ The ureter is transitional.
 ## answer_d
 Vas deferens
 ## explanation_d
-Correct. The vas deferens, with the membranous urethra, is the non-ciliated form.
+The vas deferens, with the membranous urethra, is the non-ciliated form.
 ## correct_answer
 D
 ## main_concept
@@ -134977,7 +134977,7 @@ The ureter is transitional epithelium.
 ## answer_b
 lining the thyroid follicle
 ## explanation_b
-Correct. The thyroid follicle is lined by a single layer of cubical cells that secrete into the colloid and reabsorb from it.
+The thyroid follicle is lined by a single layer of cubical cells that secrete into the colloid and reabsorb from it.
 ## answer_c
 trachea
 ## explanation_c
@@ -135074,7 +135074,7 @@ Absorptive surfaces are lined by simple columnar epithelium with microvilli. A f
 ## answer_d
 a & b
 ## explanation_d
-Correct. The smoothness and the thinness are two consequences of the same shape, and the epithelium is used for both.
+The smoothness and the thinness are two consequences of the same shape, and the epithelium is used for both.
 ## correct_answer
 D
 ## main_concept
@@ -135159,7 +135159,7 @@ Reabsorption is simple cubical, in the kidney tubule.
 ## answer_c
 Gas exchange
 ## explanation_c
-Correct. Gas exchange needs the shortest possible diffusion distance, and one layer of flattened cells is the shortest an epithelium gets.
+Gas exchange needs the shortest possible diffusion distance, and one layer of flattened cells is the shortest an epithelium gets.
 ## answer_d
 Protection
 ## explanation_d
@@ -135240,7 +135240,7 @@ Stratified squamous keratinized epithelium:
 ## answer_a
 Covered by thick layer of keratin
 ## explanation_a
-Correct. A superficial layer of keratin is exactly what distinguishes the keratinised form from the non-keratinised one.
+A superficial layer of keratin is exactly what distinguishes the keratinised form from the non-keratinised one.
 ## answer_b
 Present in the moist surfaces (mouth, pharynx and esophagous)
 ## explanation_b
@@ -135418,7 +135418,7 @@ Stratified squamous non keratinized epithelium is present in:
 ## answer_a
 Oral cavity
 ## explanation_a
-Correct. The oral cavity is a moist surface exposed to abrasion — many layers, no keratin.
+The oral cavity is a moist surface exposed to abrasion — many layers, no keratin.
 ## answer_b
 Trachea
 ## explanation_b
@@ -135507,7 +135507,7 @@ The alveoli in the lung (gas exchange) are line by:
 ## answer_a
 simple squamous epithelium
 ## explanation_a
-Correct. Simple squamous epithelium — the alveolar cells are called pneumocytes — because gas exchange needs the thinnest possible barrier.
+Simple squamous epithelium — the alveolar cells are called pneumocytes — because gas exchange needs the thinnest possible barrier.
 ## answer_b
 simple cuboidal epithelium
 ## explanation_b
@@ -135604,7 +135604,7 @@ The right epithelium without the keratin, which is the lining of the oesophagus 
 ## answer_c
 stratified squamous keratinized epithelium
 ## explanation_c
-Correct. Stratified squamous keratinised epithelium — layers for abrasion, keratin for the dry air.
+Stratified squamous keratinised epithelium — layers for abrasion, keratin for the dry air.
 ## answer_d
 simple columnar ciliated epithelium
 ## explanation_d
@@ -135693,7 +135693,7 @@ Simple columnar epithelium is the gut. A serous membrane needs a surface that sl
 ## answer_c
 mesothelium
 ## explanation_c
-Correct. Mesothelium — simple squamous epithelium of the pleura, pericardium and peritoneum.
+Mesothelium — simple squamous epithelium of the pleura, pericardium and peritoneum.
 ## answer_d
 endothelium
 ## explanation_d
@@ -135786,7 +135786,7 @@ Glandular epithelium secretes. The bladder stores; it does not make urine.
 ## answer_d
 Transitional epithelium
 ## explanation_d
-Correct. Transitional epithelium, or urothelium: distensible, and impermeable through the plaques of its dome cells.
+Transitional epithelium, or urothelium: distensible, and impermeable through the plaques of its dome cells.
 ## correct_answer
 D
 ## main_concept
@@ -135875,7 +135875,7 @@ Mesothelium is the serous membranes — the same simple squamous epithelium unde
 ## answer_d
 endothelium
 ## explanation_d
-Correct. Endothelium, and its smoothness is what keeps blood flowing without clotting on the wall.
+Endothelium, and its smoothness is what keeps blood flowing without clotting on the wall.
 ## correct_answer
 D
 ## main_concept
@@ -135956,7 +135956,7 @@ Mesothelium is the serous membranes. The pair endothelium/mesothelium is asked r
 ## answer_b
 Endothelium
 ## explanation_b
-Correct. Endothelium lines the blood vessels and the heart.
+Endothelium lines the blood vessels and the heart.
 ## answer_c
 Transitional
 ## explanation_c
@@ -136049,7 +136049,7 @@ Pseudostratified columnar epithelium is a conducting lining, protected from fric
 ## answer_c
 Stratified squamous
 ## explanation_c
-Correct. Many layers of cells bound by desmosomes, the surface layer constantly shed and replaced from below — that is what friction resistance looks like.
+Many layers of cells bound by desmosomes, the surface layer constantly shed and replaced from below — that is what friction resistance looks like.
 ## answer_d
 Transitional
 ## explanation_d
@@ -136142,7 +136142,7 @@ Simple columnar epithelium is one layer throughout.
 ## answer_d
 Transitional epithelium
 ## explanation_d
-Correct. Transitional epithelium goes from 6–8 layers to 3–4 as the viscus fills, because the intermediate cells slide laterally past one another.
+Transitional epithelium goes from 6–8 layers to 3–4 as the viscus fills, because the intermediate cells slide laterally past one another.
 ## correct_answer
 D
 ## main_concept
@@ -136227,7 +136227,7 @@ Stratified cuboidal epithelium is likewise genuinely layered.
 ## answer_c
 pseudostratified epithelium
 ## explanation_c
-Correct. Pseudostratified epithelium: every cell on the basement membrane, not every cell reaching the lumen, and the nuclei at several levels as a result.
+Pseudostratified epithelium: every cell on the basement membrane, not every cell reaching the lumen, and the nuclei at several levels as a result.
 ## answer_d
 Transitional epithelium
 ## explanation_d
@@ -136312,7 +136312,7 @@ Simple means one layer, with every cell on the basement membrane.
 ## answer_b
 stratified
 ## explanation_b
-Correct. Stratified means more than one layer, and it is then subdivided by the shape of the superficial cells.
+Stratified means more than one layer, and it is then subdivided by the shape of the superficial cells.
 ## answer_c
 pseudostratified
 ## explanation_c
@@ -136401,7 +136401,7 @@ One layer of flat cells would be stripped off by the first bolus. "Simple squamo
 ## answer_b
 stratified squamous non keratinized epithelium
 ## explanation_b
-Correct. Stratified squamous non-keratinised — layers for the abrasion of the bolus, no keratin because the surface is wet.
+Stratified squamous non-keratinised — layers for the abrasion of the bolus, no keratin because the surface is wet.
 ## answer_c
 stratified squamous keratinized epithelium
 ## explanation_c
@@ -136490,7 +136490,7 @@ Many layers would make it stratified. Simple means exactly one.
 ## answer_b
 It forms the mesothelium of serous membranes
 ## explanation_b
-Correct. The serous membranes — pleura, pericardium, peritoneum — are covered by simple squamous epithelium under the name mesothelium.
+The serous membranes — pleura, pericardium, peritoneum — are covered by simple squamous epithelium under the name mesothelium.
 ## answer_c
 It lines the intestinal mucosa
 ## explanation_c
@@ -136579,7 +136579,7 @@ The superficial layer of cells always keratinized
 ## answer_b
 It lines the wall of the esophagus
 ## explanation_b
-Correct. The oesophagus is lined by stratified squamous epithelium, in its non-keratinised form.
+The oesophagus is lined by stratified squamous epithelium, in its non-keratinised form.
 ## answer_c
 Its most superficial layer of cells is cuboidal cells
 ## explanation_c
@@ -136676,7 +136676,7 @@ One layer would make it simple. Transitional epithelium is 6–8 layers empty an
 ## answer_d
 Superficial cells are dome shaped
 ## explanation_d
-Correct. Dome-shaped superficial cells with a convex upper surface, carrying the rigid plaques that keep urine out.
+Dome-shaped superficial cells with a convex upper surface, carrying the rigid plaques that keep urine out.
 ## correct_answer
 D
 ## main_concept
@@ -136757,7 +136757,7 @@ Many layers contradicts "simple", which means one.
 ## answer_b
 It forms the mesothelium of serous membranes
 ## explanation_b
-Correct. Mesothelium of the serous membranes is simple squamous epithelium.
+Mesothelium of the serous membranes is simple squamous epithelium.
 ## answer_c
 It lines the intestinal mucosa
 ## explanation_c
@@ -136846,7 +136846,7 @@ True, but not the whole answer. Stretchability is what the changing layer count 
 ## answer_b
 Distensibility
 ## explanation_b
-True, but not the whole answer, and the same property named in the book's own word.
+True, but not the whole answer, and the same property named by the standard term.
 ## answer_c
 Protection from toxins
 ## explanation_c
@@ -136854,7 +136854,7 @@ True, but not the whole answer, and the one students forget: the plaques on the 
 ## answer_d
 All of the above
 ## explanation_d
-Correct. Distension and chemical protection are two demands of the same organ, and the epithelium meets both.
+Distension and chemical protection are two demands of the same organ, and the epithelium meets both.
 ## correct_answer
 D
 ## main_concept
@@ -136935,7 +136935,7 @@ Columnar epithelium lines the gut and the uterus, not these three.
 ## answer_b
 Stratified squamous epithelium
 ## explanation_b
-Correct. Vagina, tip of the urethra and oesophagus are three of the book's named sites of stratified squamous non-keratinised epithelium, along with the oral cavity, cornea and anal canal.
+Vagina, tip of the urethra and oesophagus are three of the named sites of stratified squamous non-keratinised epithelium, along with the oral cavity, cornea and anal canal.
 ## answer_c
 Squamous epithelium
 ## explanation_c
@@ -136969,7 +136969,7 @@ Easy
 ## question_type
 Classification
 ## learning_objective
-Recognise the book's list of non-keratinised sites as one epithelium.
+Recognise the non-keratinised sites as one epithelium.
 ## setting
 Academic
 ## academic_relevance
@@ -137024,7 +137024,7 @@ Simple squamous epithelium is in the same nephron, lining Bowman's capsule, wher
 ## answer_b
 simple cuboidal epithelium
 ## explanation_b
-Correct. The convoluted tubules are simple cubical, with the cytoplasm and mitochondria that active reabsorption requires.
+The convoluted tubules are simple cubical, with the cytoplasm and mitochondria that active reabsorption requires.
 ## answer_c
 simple columnar epithelium
 ## explanation_c
@@ -137109,7 +137109,7 @@ The lining epithelium of pleura is:
 ## answer_a
 Simple squamous epithelium
 ## explanation_a
-Correct. The pleura is a serous membrane, lined by simple squamous epithelium under the name mesothelium, so the lung can slide against the chest wall.
+The pleura is a serous membrane, lined by simple squamous epithelium under the name mesothelium, so the lung can slide against the chest wall.
 ## answer_b
 Cubical Stratified epithelium
 ## explanation_b
@@ -137210,7 +137210,7 @@ Simple columnar ciliated epithelium is the uterus and the bronchiole; nothing in
 ## answer_d
 Transitional epithelium
 ## explanation_d
-Correct. Transitional epithelium runs from the renal pelvis through the ureter and bladder to the prostatic urethra.
+Transitional epithelium runs from the renal pelvis through the ureter and bladder to the prostatic urethra.
 ## correct_answer
 D
 ## main_concept
@@ -137295,7 +137295,7 @@ Simple cubical epithelium secretes and reabsorbs but cannot transport anything a
 ## answer_c
 simple columnar ciliated epithelium
 ## explanation_c
-Correct. Simple columnar ciliated epithelium, whose cilia beat in one direction to move the ovum along the tube and the uterus.
+Simple columnar ciliated epithelium, whose cilia beat in one direction to move the ovum along the tube and the uterus.
 ## answer_d
 Transitional epithelium
 ## explanation_d
@@ -137376,11 +137376,11 @@ The lining epithelium of thyroid follicles is:
 ## answer_a
 simple squamous epithelium
 ## explanation_a
-Simple squamous epithelium appears in a very underactive follicle, but the epithelium the book names is cubical.
+Simple squamous epithelium appears in a very underactive follicle, but the epithelium here is cubical.
 ## answer_b
 simple cuboidal epithelium
 ## explanation_b
-Correct. Simple cubical epithelium, secreting into the colloid and reabsorbing from it.
+Simple cubical epithelium, secreting into the colloid and reabsorbing from it.
 ## answer_c
 simple columnar ciliated epithelium
 ## explanation_c
@@ -137473,7 +137473,7 @@ Urothelium is transitional epithelium of the urinary tract.
 ## answer_c
 Pseudostratified columnar ciliated with goblet cells
 ## explanation_c
-Correct. Pseudostratified columnar ciliated epithelium with goblet cells — the goblet cells make the mucus and the cilia move it.
+Pseudostratified columnar ciliated epithelium with goblet cells — the goblet cells make the mucus and the cilia move it.
 ## answer_d
 Mesotelium
 ## explanation_d
@@ -137554,7 +137554,7 @@ The simple cuboidal epithelium is present in:
 ## answer_a
 The lining of thyroid follicles
 ## explanation_a
-Correct. The thyroid follicle is lined by a single layer of cubical cells.
+The thyroid follicle is lined by a single layer of cubical cells.
 ## answer_b
 Small intestine
 ## explanation_b
@@ -137643,7 +137643,7 @@ the simple squamous epithelium lines:
 ## answer_a
 Bowman capsule of the kidney
 ## explanation_a
-Correct. Bowman's capsule is where the blood is filtered, and filtration needs the thinnest barrier the kidney can build.
+Bowman's capsule is where the blood is filtered, and filtration needs the thinnest barrier the kidney can build.
 ## answer_b
 gall bladder
 ## explanation_b
@@ -137740,7 +137740,7 @@ The respiratory epithelium is the airway. It is offered here because both are mu
 ## answer_c
 Simple columnar epithelium
 ## explanation_c
-Correct. Simple columnar epithelium, secreting mucus over the whole surface and continuing down into the gastric pits.
+Simple columnar epithelium, secreting mucus over the whole surface and continuing down into the gastric pits.
 ## answer_d
 Stratified columnar epithelium
 ## explanation_d
@@ -137825,7 +137825,7 @@ The large intestine is simple columnar with many goblet cells.
 ## answer_b
 epidermis of skin
 ## explanation_b
-Correct. The epidermis of the skin is the only keratinised epithelium in the body, because it is the only surface permanently exposed to dry air.
+The epidermis of the skin is the only keratinised epithelium in the body, because it is the only surface permanently exposed to dry air.
 ## answer_c
 urinary bladder
 ## explanation_c
@@ -137922,7 +137922,7 @@ The vagina is stratified squamous — but non-keratinised, being a moist surface
 ## answer_d
 Epidermis of skin
 ## explanation_d
-Correct. The epidermis of the skin.
+The epidermis of the skin.
 ## correct_answer
 D
 ## main_concept
@@ -137999,7 +137999,7 @@ the stratified squamous non-keratinized epithelium is present in
 ## answer_a
 esophagus
 ## explanation_a
-Correct. The oesophagus: many layers against the abrasion of a bolus, no keratin because it is wet.
+The oesophagus: many layers against the abrasion of a bolus, no keratin because it is wet.
 ## answer_b
 gall bladder
 ## explanation_b
@@ -138092,7 +138092,7 @@ Simple columnar epithelium is the gut lining, one cell thick.
 ## answer_b
 Stratified squamous epithelium
 ## explanation_b
-Correct. The epidermis is stratified squamous epithelium — keratinised, though this option does not say so.
+The epidermis is stratified squamous epithelium — keratinised, though this option does not say so.
 ## answer_c
 Dense fibrous tissue
 ## explanation_c
@@ -138189,7 +138189,7 @@ Modified to receive sensation is neuro-epithelium.
 ## answer_d
 Covers surfaces or lines cavities
 ## explanation_d
-Correct. Surface epithelium covers surfaces or lines cavities, which is the one of the four modifications that is not really a modification at all — it is what epithelium does before it is specialised.
+Surface epithelium covers surfaces or lines cavities, which is the one of the four modifications that is not really a modification at all — it is what epithelium does before it is specialised.
 ## correct_answer
 D
 ## main_concept
@@ -138278,7 +138278,7 @@ Keratinised stratified squamous epithelium belongs to the skin and appears nowhe
 ## answer_d
 pseudostratified columnar ciliated epithelium with goblet cells
 ## explanation_d
-Correct. Pseudostratified columnar ciliated epithelium with goblet cells: mucus made by the goblet cells and swept upwards by the cilia.
+Pseudostratified columnar ciliated epithelium with goblet cells: mucus made by the goblet cells and swept upwards by the cilia.
 ## correct_answer
 D
 ## main_concept
@@ -138359,7 +138359,7 @@ The thyroid gland is simple cubical epithelium lining its follicles.
 ## answer_b
 urinary bladder
 ## explanation_b
-Correct. The urinary bladder, the organ this epithelium exists for.
+The urinary bladder, the organ this epithelium exists for.
 ## answer_c
 gallbladder
 ## explanation_c
@@ -138448,7 +138448,7 @@ The bladder's basement membrane is thin and non-clear, not thick — and a thick
 ## answer_b
 wide intracellular substance containing mucous like substance
 ## explanation_b
-Correct as keyed. The wide intercellular substance lets the cells slide past one another as the organ fills, which is how 6–8 layers become 3–4. Note the wording: the substance is *inter*cellular, between the cells, and some books print "intracellular" here in error.
+The wide intercellular substance lets the cells slide past one another as the organ fills, which is how 6–8 layers become 3–4. Note the wording: the substance is *inter*cellular, between the cells, and some books print "intracellular" here in error.
 ## answer_c
 thin layer of keratin on top layer
 ## explanation_c
@@ -138545,7 +138545,7 @@ True, so not the false one. It is more than one layer, so it is stratified — n
 ## answer_d
 Has a non-clear basement membrane
 ## explanation_d
-True, so not the false one. The non-clear basement membrane is the book's own point of comparison against the oesophagus.
+True, so not the false one. The non-clear basement membrane is the point of comparison against the oesophagus.
 ## correct_answer
 B
 ## main_concept
@@ -138622,7 +138622,7 @@ Type of epithelium in Bowman's capsule of kidney is:
 ## answer_a
 Simple squamous
 ## explanation_a
-Correct. Filtration needs the thinnest barrier available, and the parietal layer of Bowman's capsule is simple squamous.
+Filtration needs the thinnest barrier available, and the parietal layer of Bowman's capsule is simple squamous.
 ## answer_b
 Simple cuboidal
 ## explanation_b
@@ -138715,11 +138715,11 @@ Simple squamous epithelium is further down still, in the alveolus.
 ## answer_b
 Simple cuboidal
 ## explanation_b
-Simple cubical epithelium appears in the smallest terminal bronchioles, which makes this a near miss; the epithelium the book names for the bronchiole is columnar and ciliated.
+Simple cubical epithelium appears in the smallest terminal bronchioles, which makes this a near miss; the epithelium for the bronchiole is columnar and ciliated.
 ## answer_c
 Simple columnar ciliated
 ## explanation_c
-Correct. Simple columnar ciliated epithelium, whose cilia beat upwards to carry secretions towards the trachea.
+Simple columnar ciliated epithelium, whose cilia beat upwards to carry secretions towards the trachea.
 ## answer_d
 Pseudostratified columnar ciliated with goblet cells
 ## explanation_d
@@ -138804,7 +138804,7 @@ Simple squamous epithelium is Bowman's capsule, at the start of the same nephron
 ## answer_b
 Simple cuboidal
 ## explanation_b
-Correct. Simple cubical epithelium, whose cytoplasm and basal infoldings carry out active reabsorption.
+Simple cubical epithelium, whose cytoplasm and basal infoldings carry out active reabsorption.
 ## answer_c
 Simple columnar ciliated
 ## explanation_c
@@ -138893,7 +138893,7 @@ Keratin would make the cornea opaque, which would defeat the whole organ. This i
 ## answer_b
 Non keratinized stratified squamous
 ## explanation_b
-Correct. Non-keratinised stratified squamous epithelium: protective and transparent, kept moist by tears.
+Non-keratinised stratified squamous epithelium: protective and transparent, kept moist by tears.
 ## answer_c
 Stratified cuboidal
 ## explanation_c
@@ -138986,7 +138986,7 @@ Non-keratinised stratified squamous epithelium is the moist linings — mouth, o
 ## answer_c
 Stratified cuboidal
 ## explanation_c
-Correct. Stratified cubical epithelium, usually two layers, and the sweat gland duct is essentially its only site.
+Stratified cubical epithelium, usually two layers, and the sweat gland duct is essentially its only site.
 ## answer_d
 Transitional
 ## explanation_d
@@ -139067,7 +139067,7 @@ Type of epithelium in skin is:
 ## answer_a
 Keratinized stratified squamous
 ## explanation_a
-Correct. Keratinised stratified squamous epithelium — the only keratinised epithelium in the body.
+Keratinised stratified squamous epithelium — the only keratinised epithelium in the body.
 ## answer_b
 Non keratinized stratified squamous
 ## explanation_b
@@ -139160,7 +139160,7 @@ Simple squamous epithelium is for exchange, and a follicle secretes.
 ## answer_b
 Simple cuboidal
 ## explanation_b
-Correct. Simple cubical epithelium, the standard lining of a secretory unit.
+Simple cubical epithelium, the standard lining of a secretory unit.
 ## answer_c
 Simple columnar ciliated
 ## explanation_c
@@ -139257,7 +139257,7 @@ Simple columnar ciliated epithelium is the bronchiole — the same cilia, one la
 ## answer_d
 Pseudostratified columnar ciliated with goblet cells
 ## explanation_d
-Correct. Pseudostratified columnar ciliated epithelium with goblet cells, which is what "respiratory epithelium" names.
+Pseudostratified columnar ciliated epithelium with goblet cells, which is what "respiratory epithelium" names.
 ## correct_answer
 D
 ## main_concept
@@ -139346,7 +139346,7 @@ Stratified cuboidal epithelium is the sweat gland duct.
 ## answer_d
 Transitional
 ## explanation_d
-Correct. Transitional epithelium, the same lining as the bladder, because the ureter also distends and carries urine.
+Transitional epithelium, the same lining as the bladder, because the ureter also distends and carries urine.
 ## correct_answer
 D
 ## main_concept
@@ -139435,7 +139435,7 @@ Stratified cuboidal epithelium is the sweat gland duct.
 ## answer_d
 Transitional
 ## explanation_d
-Correct. Transitional epithelium — distensible, and impermeable to urine through the plaques of its dome cells.
+Transitional epithelium — distensible, and impermeable to urine through the plaques of its dome cells.
 ## correct_answer
 D
 ## main_concept
@@ -139524,7 +139524,7 @@ Stratified squamous epithelium is the bilharzial metaplasia answer, not the norm
 ## answer_d
 Transitional epithelium
 ## explanation_d
-Correct. Transitional epithelium.
+Transitional epithelium.
 ## correct_answer
 D
 ## main_concept
@@ -139613,7 +139613,7 @@ Stratified squamous epithelium appears in the bladder only in bilharziasis, as m
 ## answer_d
 Transitional
 ## explanation_d
-Correct. Transitional epithelium, or urothelium.
+Transitional epithelium, or urothelium.
 ## correct_answer
 D
 ## main_concept
@@ -139702,7 +139702,7 @@ Stratified cuboidal epithelium has two layers, of which only one is basal.
 ## answer_d
 Pseudostratified epithelium
 ## explanation_d
-Correct. Pseudostratified epithelium is one cell layer thick by this test — every cell reaches the basement membrane — even though the nuclei sit at several levels.
+Pseudostratified epithelium is one cell layer thick by this test — every cell reaches the basement membrane — even though the nuclei sit at several levels.
 ## correct_answer
 D
 ## main_concept
@@ -139787,7 +139787,7 @@ Simple cubical epithelium lines the gut's glands, not its surface.
 ## answer_c
 Simple columnar epithelium
 ## explanation_c
-Correct. Simple columnar epithelium from the stomach to the rectum, secreting and absorbing. The two ends of the tube — mouth and anal canal — are stratified squamous instead.
+Simple columnar epithelium from the stomach to the rectum, secreting and absorbing. The two ends of the tube — mouth and anal canal — are stratified squamous instead.
 ## answer_d
 Simple columnar ciliated
 ## explanation_d
@@ -139868,7 +139868,7 @@ which of following contain desmosome:
 ## answer_a
 stratified columnar
 ## explanation_a
-Stratified columnar epithelium has junctions like any epithelium, but the book singles out neither it nor its junctions.
+Stratified columnar epithelium has junctions like any epithelium, but neither it nor its junctions are singled out here.
 ## answer_b
 stratified cubical
 ## explanation_b
@@ -139876,7 +139876,7 @@ Stratified cubical epithelium is two layers in a sweat duct and is under no part
 ## answer_c
 stratified squamous
 ## explanation_c
-Correct. The book states that desmosomes are abundant between the cells of stratified squamous epithelium, because that is the surface subjected to friction and the desmosome is the strongest junction.
+Desmosomes are abundant between the cells of stratified squamous epithelium, because that is the surface subjected to friction and the desmosome is the strongest junction.
 ## answer_d
 all the above
 ## explanation_d
@@ -139969,7 +139969,7 @@ Simple columnar epithelium is the gut.
 ## answer_d
 Transitional epithelium
 ## explanation_d
-Correct. Urothelium is transitional epithelium.
+Urothelium is transitional epithelium.
 ## correct_answer
 D
 ## main_concept
@@ -140054,7 +140054,7 @@ A stratified squamous surface is shedding cells constantly; a specialised absorp
 ## answer_c
 Simple columnar epithelium
 ## explanation_c
-Correct. The striated or brush border is a carpet of microvilli on the apex of the absorptive simple columnar cell of the intestine.
+The striated or brush border is a carpet of microvilli on the apex of the absorptive simple columnar cell of the intestine.
 ## answer_d
 Transitional epithelium
 ## explanation_d
@@ -140139,7 +140139,7 @@ Simple squamous epithelium is one layer for exchange; keratinising it would dest
 ## answer_b
 Stratified squamous epithelium
 ## explanation_b
-Correct. Keratinisation is the surface layer of dead flattened cells filled with keratin, and only stratified squamous epithelium produces it — the "may" is doing real work, since most stratified squamous epithelium is not keratinised.
+Keratinisation is the surface layer of dead flattened cells filled with keratin, and only stratified squamous epithelium produces it — the "may" is doing real work, since most stratified squamous epithelium is not keratinised.
 ## answer_c
 Simple columnar epithelium
 ## explanation_c
@@ -140236,7 +140236,7 @@ The trachea is pseudostratified columnar ciliated and is not stratified squamous
 ## answer_d
 Skin
 ## explanation_d
-Correct. The skin, the only place in the body where the surface is dry and the epithelium keratinises.
+The skin, the only place in the body where the surface is dry and the epithelium keratinises.
 ## correct_answer
 D
 ## main_concept
@@ -140321,7 +140321,7 @@ Simple cuboidal epithelium is thicker than squamous and belongs to secretory and
 ## answer_c
 Simple squamous epithelium
 ## explanation_c
-Correct. Simple squamous epithelium — the alveolar pneumocytes — gives the shortest diffusion path in the body.
+Simple squamous epithelium — the alveolar pneumocytes — gives the shortest diffusion path in the body.
 ## answer_d
 Transitional epithelium
 ## explanation_d
@@ -140402,7 +140402,7 @@ Which type of epithelium is best suited for rapid filtration?
 ## answer_a
 simple squamous
 ## explanation_a
-Correct. Filtration in Bowman's capsule needs the thinnest possible barrier, and one layer of flat cells provides it.
+Filtration in Bowman's capsule needs the thinnest possible barrier, and one layer of flat cells provides it.
 ## answer_b
 stratified squamous
 ## explanation_b
@@ -140503,7 +140503,7 @@ The source's printed answer, and incomplete. Pseudostratified columnar epitheliu
 ## answer_d
 pseudo stratified ciliated columnar epithelium
 ## explanation_d
-Correct. Pseudostratified ciliated columnar epithelium: the cilia are what make it respiratory, and with goblet cells beside them they are the mucociliary escalator.
+Pseudostratified ciliated columnar epithelium: the cilia are what make it respiratory, and with goblet cells beside them they are the mucociliary escalator.
 ## correct_answer
 D
 ## main_concept
@@ -140580,7 +140580,7 @@ which type of epithelium is found in organs that are responsible for gaseous exc
 ## answer_a
 simple squamous epithelium
 ## explanation_a
-Correct. Simple squamous epithelium in the lung alveoli, thin enough for oxygen and carbon dioxide to diffuse across.
+Simple squamous epithelium in the lung alveoli, thin enough for oxygen and carbon dioxide to diffuse across.
 ## answer_b
 simple cuboidal epithelium
 ## explanation_b
@@ -140677,7 +140677,7 @@ Stratified cuboidal epithelium is the sweat gland duct within the skin, not the 
 ## answer_c
 stratified squamous keratinized epithelium
 ## explanation_c
-Correct. Stratified squamous keratinised epithelium.
+Stratified squamous keratinised epithelium.
 ## answer_d
 stratified squamous epithelium
 ## explanation_d
@@ -140762,7 +140762,7 @@ Without keratinisation this is the lining of the oesophagus, mouth and vagina �
 ## answer_b
 Stratified squamous epithelium with keratinization
 ## explanation_b
-Correct. Stratified squamous epithelium with keratinisation.
+Stratified squamous epithelium with keratinisation.
 ## answer_c
 Secretory type of epithelium
 ## explanation_c
@@ -140847,7 +140847,7 @@ Which type of the epithelium has dome shaped cells?
 ## answer_a
 Transitional epithelium
 ## explanation_a
-Correct. The dome-shaped superficial cell with its convex luminal surface belongs to transitional epithelium alone.
+The dome-shaped superficial cell with its convex luminal surface belongs to transitional epithelium alone.
 ## answer_b
 Stratified cubical epithelium
 ## explanation_b
@@ -140936,7 +140936,7 @@ The type of epithelium providing thin membrane and smooth surface is:
 ## answer_a
 Simple squamous epithelium.
 ## explanation_a
-Correct. One layer of flat cells is the thinnest epithelium there is, which is why it lines the alveolus for gas exchange and the pleura and peritoneum for organs to slide against.
+One layer of flat cells is the thinnest epithelium there is, which is why it lines the alveolus for gas exchange and the pleura and peritoneum for organs to slide against.
 ## answer_b
 Simple cubical epithelium.
 ## explanation_b
@@ -141004,7 +141004,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book rather than from a key: it gives simple squamous epithelium as one layer of flat cells providing a smooth surface for easy passage of fluids and easy movement of organs, and a thin membrane for gas exchange. Both halves of the stem are quoted from that sentence.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: simple squamous epithelium is one layer of flat cells providing a smooth surface for easy passage of fluids and easy movement of organs, and a thin membrane for gas exchange. Both halves of the stem are quoted from that sentence.
 
 
 ---
@@ -141033,7 +141033,7 @@ Neuro-epithelium is epithelium modified as a receptor — taste, smell, hearing.
 ## answer_c
 Myo-epithelium.
 ## explanation_c
-Correct. Myo-epithelial cells are epithelial cells given a contractile function, and they squeeze secretion out of the acini of glands such as the salivary and mammary glands.
+Myo-epithelial cells are epithelial cells given a contractile function, and they squeeze secretion out of the acini of glands such as the salivary and mammary glands.
 ## answer_d
 Urothelium.
 ## explanation_d
@@ -141093,7 +141093,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer is taken from the department book, whose four-way functional classification names myo-epithelium as the class of epithelial cells with a contractile function.
+Answer changed from the source's: No key was printed on the 2020 paper and none was recovered, so the answer given here is: in the four-way functional classification, myo-epithelium is the class of epithelial cells with a contractile function.
 
 
 ---
@@ -141126,7 +141126,7 @@ Every word is right except two. The lower respiratory tract — the bronchioles 
 ## answer_d
 Pseudostratified columnar ciliated epithelium with goblet cells.
 ## explanation_d
-Correct. Pseudostratified columnar ciliated epithelium with goblet cells is the respiratory epithelium: the goblet cells make the mucus and the cilia sweep it upwards.
+Pseudostratified columnar ciliated epithelium with goblet cells is the respiratory epithelium: the goblet cells make the mucus and the cilia sweep it upwards.
 ## correct_answer
 d
 ## main_concept
@@ -141182,7 +141182,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer comes from the department book: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, and the book names it the respiratory epithelium of the nose, trachea and bronchi.
+Answer changed from the source's: The 2021 paper carried no key and no highlight was recovered for that sitting, so the answer given here is: the second of the three forms of pseudostratified columnar epithelium is the ciliated form with goblet cells, known as the respiratory epithelium of the nose, trachea and bronchi.
 
 
 ---
@@ -141215,7 +141215,7 @@ Small molecules are what integral proteins carry, not what they are. Glucose and
 ## answer_d
 Trans. membrane protein
 ## explanation_d
-Correct. Integral proteins are transmembrane: they run right through the lipid bilayer, which is what allows them to be channels for ions and water and carriers such as the sodium–potassium pump.
+Integral proteins are transmembrane: they run right through the lipid bilayer, which is what allows them to be channels for ions and water and carriers such as the sodium–potassium pump.
 ## correct_answer
 D
 ## main_concept
@@ -141300,7 +141300,7 @@ A defect of the whole cell membrane would not produce a picture confined to grow
 ## answer_c
 Defective cell receptors and normal hormone {evel
 ## explanation_c
-Correct. The hormone is present in the blood at a normal level, but the target cell has no receptors on its coat to bind it, so the signal is never received — the department book gives this as a cause of dwarfism.
+The hormone is present in the blood at a normal level, but the target cell has no receptors on its coat to bind it, so the signal is never received — a recognised cause of dwarfism.
 ## answer_d
 Defective endoplasmic reticulum receptors
 ## explanation_d
@@ -141360,7 +141360,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Cy
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book's own applied note gives this exact case: despite a normal blood level of growth hormone, lack of growth hormone receptors on the target cell membrane causes a type of dwarfism. Only option C states both halves — receptors defective, hormone level normal.
+Answer changed from the source's: The source printed no key. The applied note gives this exact case: despite a normal blood level of growth hormone, lack of growth hormone receptors on the target cell membrane causes a type of dwarfism. Only option C states both halves — receptors defective, hormone level normal.
 
 
 ---
@@ -141393,7 +141393,7 @@ True, but not the whole answer. The coat carries the specific receptors for drug
 ## answer_d
 All of the above
 ## explanation_d
-Correct. Recognition, adhesion and reception are three of the coat's functions and the book lists protection and cell immunity beside them; a student who stops at the first true option has answered a third of the question.
+Recognition, adhesion and reception are three of the coat's functions, alongside protection and cell immunity; a student who stops at the first true option has answered a third of the question.
 ## correct_answer
 D
 ## main_concept
@@ -141449,7 +141449,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. A, B and C are each stated by the department book as a cell coat function, so the only option that is not incomplete is D.
+Answer changed from the source's: The source printed no key. A, B and C are each a stated cell coat function, so the only option that is not incomplete is D.
 
 
 ---
@@ -141470,7 +141470,7 @@ all the following statements about the cell membrane are true except
 ## answer_a
 its thickness is about 7.5.10nm
 ## explanation_a
-True, so not the exception. 7.5–10 nm is the thickness the department book gives.
+True, so not the exception. 7.5–10 nm is the given thickness.
 ## answer_b
 it is not visible by the light microscope with H, E
 ## explanation_b
@@ -141660,7 +141660,7 @@ It is formed of glycoproteins and glycolipids — that is, of the carbohydrate a
 ## answer_d
 Plays a role in cell adhesion & recognition
 ## explanation_d
-Correct. Adhesion and recognition are the coat's two headline functions, and both follow from its being the outermost, cell-specific layer of the cell.
+Adhesion and recognition are the coat's two headline functions, and both follow from its being the outermost, cell-specific layer of the cell.
 ## correct_answer
 D
 ## main_concept
@@ -141749,7 +141749,7 @@ True, but not the whole answer. The middle layer is electron lucent, which is wh
 ## answer_d
 all of the above
 ## explanation_d
-Correct. The three options are one description broken into pieces, and the question is testing whether the whole trilaminar picture is held together.
+The three options are one description broken into pieces, and the question is testing whether the whole trilaminar picture is held together.
 ## correct_answer
 D
 ## main_concept
@@ -141838,7 +141838,7 @@ False, and it is the statement the answer excludes. The coat is on the external 
 ## answer_d
 all except C
 ## explanation_d
-Correct. A and B are true and C is false, so "all except C" is the only option that holds. A student who reads only as far as C and stops has taken the trap the option set is built around.
+A and B are true and C is false, so "all except C" is the only option that holds. A student who reads only as far as C and stops has taken the trap the option set is built around.
 ## correct_answer
 D
 ## main_concept
@@ -141927,7 +141927,7 @@ True, but not the whole answer. Protein is about half the membrane by mass.
 ## answer_d
 All of the above
 ## explanation_d
-Correct. Lipid, protein and carbohydrate — the three-part answer the department book's own heading gives.
+Lipid, protein and carbohydrate — the three-part answer.
 ## correct_answer
 D
 ## main_concept
@@ -142008,7 +142008,7 @@ IgA is the immunoglobulin of secretions — tears, saliva, gut and airway mucus.
 ## answer_b
 Ig E
 ## explanation_b
-Correct. The basophil membrane carries receptors for IgE, and that is why a second exposure to an allergen makes the cell degranulate and release its histamine.
+The basophil membrane carries receptors for IgE, and that is why a second exposure to an allergen makes the cell degranulate and release its histamine.
 ## answer_c
 Ig M
 ## explanation_c
@@ -142186,7 +142186,7 @@ True, but not the whole answer. Identification and adhesion are the two function
 ## answer_b
 immunity
 ## explanation_b
-True, but not the whole answer. The book lists cell immunity among the coat's functions.
+True, but not the whole answer. Cell immunity is among the coat's functions.
 ## answer_c
 protection
 ## explanation_c
@@ -142194,7 +142194,7 @@ True, but not the whole answer. Protection is on the same list.
 ## answer_d
 all the above
 ## explanation_d
-Correct. The department book gives adhesion, identification, protection and cell immunity together, so any single option leaves most of the list out.
+Adhesion, identification, protection and cell immunity belong together, so any single option leaves most of the list out.
 ## correct_answer
 D
 ## main_concept
@@ -142283,7 +142283,7 @@ True, but not the whole answer. The specific receptors of the cell are carried o
 ## answer_d
 all of the above
 ## explanation_d
-Correct. All three are coat functions; the question is asked in this shape three separate times across the books, which is a fair measure of how much weight the department puts on it.
+All three are coat functions; the question is asked in this shape three separate times across the books, which is a fair measure of how much weight is placed on it.
 ## correct_answer
 D
 ## main_concept
@@ -142372,7 +142372,7 @@ Condensation of actin on the cytoplasmic side is the zonula adherens. Intermedia
 ## answer_d
 Permits the passage of ions
 ## explanation_d
-Correct. The gap junction's channels let ions and small molecules pass directly from one cytoplasm to the next, which is also how impulses travel between muscle cells.
+The gap junction's channels let ions and small molecules pass directly from one cytoplasm to the next, which is also how impulses travel between muscle cells.
 ## correct_answer
 D
 ## main_concept
@@ -142461,7 +142461,7 @@ True, but not the whole answer. Silver also demonstrates it.
 ## answer_d
 both b & c are correct
 ## explanation_d
-Correct. Both PAS and silver work, and both work for the same reason — they are acting on the sugar of the glycoproteins and glycolipids, not on the membrane itself.
+Both PAS and silver work, and both work for the same reason — they are acting on the sugar of the glycoproteins and glycolipids, not on the membrane itself.
 ## correct_answer
 D
 ## main_concept
@@ -142542,7 +142542,7 @@ The protein component is the peripheral and integral proteins. "Glyco-" is the p
 ## answer_b
 the carbohydrate component of the cell membrane
 ## explanation_b
-Correct. The glycocalyx is the carbohydrate of the cell membrane, presented as glycoproteins and glycolipids on the outer surface.
+The glycocalyx is the carbohydrate of the cell membrane, presented as glycoproteins and glycolipids on the outer surface.
 ## answer_c
 the hydrophilic end of lipid
 ## explanation_c
@@ -142631,7 +142631,7 @@ Lipoproteins are what the membrane as a whole is often called. The coat is speci
 ## answer_b
 Molecules of glycolipids and glycoproteins
 ## explanation_b
-Correct. Glycolipids and glycoproteins — carbohydrate attached to the lipid and to the protein of the outer leaflet.
+Glycolipids and glycoproteins — carbohydrate attached to the lipid and to the protein of the outer leaflet.
 ## answer_c
 Molecules of proteoglycans and glycoproteins
 ## explanation_c
@@ -142720,7 +142720,7 @@ Angstroms are a tenth of a nanometre, so 7.5–10 Å would be under a nanometre 
 ## answer_b
 7.5-10 nanometers
 ## explanation_b
-Correct. 7.5–10 nm, which is why the membrane cannot be resolved by light microscopy and needs the electron microscope.
+7.5–10 nm, which is why the membrane cannot be resolved by light microscopy and needs the electron microscope.
 ## answer_c
 7.5-10 micrometers
 ## explanation_c
@@ -142813,7 +142813,7 @@ In zonula occludens, distance between two cell membranes is:
 ## answer_c
 Zero
 ## explanation_c
-Correct. At the zonula occludens the two membranes fuse at points, so the distance between them falls to zero. That is why the junction seals the space and stops material passing between the cells.
+At the zonula occludens the two membranes fuse at points, so the distance between them falls to zero. That is why the junction seals the space and stops material passing between the cells.
 ## answer_d
 200 um
 ## explanation_d
@@ -142898,7 +142898,7 @@ Active transport is a membrane function: the sodium–potassium pump is an integ
 ## answer_b
 Passive diffusion
 ## explanation_b
-Passive diffusion is a membrane function too, and the most basic one — gases cross the bilayer by it without any protein at all. This is the option the book keys, and taking it would mean denying that anything crosses a membrane unaided.
+Passive diffusion is a membrane function too, and the most basic one — gases cross the bilayer by it without any protein at all. This is the keyed answer, and taking it would mean denying that anything crosses a membrane unaided.
 ## answer_c
 Phagocytosis
 ## explanation_c
@@ -142906,7 +142906,7 @@ Phagocytosis is a membrane function: the pseudopodia that surround a particle ar
 ## answer_d
 RNA synthesis
 ## explanation_d
-Correct. RNA synthesis is done in the nucleus on a DNA template. It is the one item on the list the plasma membrane has nothing to do with.
+RNA synthesis is done in the nucleus on a DNA template. It is the one item on the list the plasma membrane has nothing to do with.
 ## correct_answer
 D
 ## main_concept
@@ -142995,7 +142995,7 @@ Integral proteins are not outside the bilayer. This option and A are the same sw
 ## answer_d
 integral may cross the lipid bilayer
 ## explanation_d
-Correct. Integral proteins are transmembrane: they may cross the whole bilayer, which is what lets them serve as channels and pumps.
+Integral proteins are transmembrane: they may cross the whole bilayer, which is what lets them serve as channels and pumps.
 ## correct_answer
 D
 ## main_concept
@@ -143051,7 +143051,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. Each of A, B and C states a protein type on the wrong side of the bilayer; only D — integral proteins may cross the lipid bilayer — is as the department book has it.
+Answer changed from the source's: The source printed no key. Each of A, B and C states a protein type on the wrong side of the bilayer; only D — integral proteins may cross the lipid bilayer — is correct.
 
 
 ---
@@ -143072,7 +143072,7 @@ Responsible for blood Grouping:
 ## answer_a
 Cell coat on outer surface of RBCs
 ## explanation_a
-Correct. The blood group antigens are glycoprotein and glycolipid molecules of the cell coat on the outer surface of the red cell — cell identification, which is exactly what the coat is for.
+The blood group antigens are glycoprotein and glycolipid molecules of the cell coat on the outer surface of the red cell — cell identification, which is exactly what the coat is for.
 ## answer_b
 Cytoskeleton on the inner surface of RBCs plasma membrane
 ## explanation_b
@@ -143165,7 +143165,7 @@ The cell coat on the outer surface carries the blood group antigens. It identifi
 ## answer_b
 Cytoskeleton on the inner surface of RBCs plasma membrane
 ## explanation_b
-Correct. The network of peripheral proteins on the inner surface of the plasma membrane is what lets the red cell fold through a capillary narrower than itself and spring back.
+The network of peripheral proteins on the inner surface of the plasma membrane is what lets the red cell fold through a capillary narrower than itself and spring back.
 ## answer_c
 Cholesterol
 ## explanation_c
@@ -143254,7 +143254,7 @@ Plasmalemma is the membrane itself, the structure the coat sits on.
 ## answer_b
 Glycocalyx
 ## explanation_b
-Correct. Glycocalyx is the name for the carbohydrate coat of the outer membrane surface.
+Glycocalyx is the name for the carbohydrate coat of the outer membrane surface.
 ## answer_c
 cristae
 ## explanation_c
@@ -143339,7 +143339,7 @@ The cell limiting membrane is:
 ## answer_a
 plasmalemma
 ## explanation_a
-Correct. The plasmalemma is the limiting membrane that envelopes the cell — that is the department book's own definition of it.
+The plasmalemma is the limiting membrane that envelopes the cell — its own definition.
 ## answer_b
 Glycocalyx
 ## explanation_b
@@ -143432,7 +143432,7 @@ H&E does not show it. This is the option most students take, because H&E is the 
 ## answer_b
 PAS
 ## explanation_b
-Correct. PAS stains the carbohydrate of the cell coat, and it is that reaction, not the membrane itself, which makes the cell outline visible.
+PAS stains the carbohydrate of the cell coat, and it is that reaction, not the membrane itself, which makes the cell outline visible.
 ## answer_c
 Sudan III
 ## explanation_c
@@ -143529,7 +143529,7 @@ IgA is the immunoglobulin of secretions and is handled by epithelium, not by mas
 ## answer_d
 IgE
 ## explanation_d
-Correct. The mast cell membrane carries IgE receptors, which is what makes it degranulate on re-exposure to an allergen — the same receptor the basophil has, and the department book compares the two cells directly.
+The mast cell membrane carries IgE receptors, which is what makes it degranulate on re-exposure to an allergen — the same receptor the basophil has, and the two cells are compared directly.
 ## correct_answer
 D
 ## main_concept
@@ -143614,7 +143614,7 @@ The cell membrane’s thickness ranges from:
 ## answer_c
 7.5-10 nm thick
 ## explanation_c
-Correct. 7.5–10 nm is the range the department book gives.
+7.5–10 nm is the given range.
 ## answer_d
 10-30 nm thick
 ## explanation_d
@@ -143674,7 +143674,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department book gives 7.5–10 nm, which is option C; here every option is in nanometres, so the question tests the figure rather than the unit.
+Answer changed from the source's: The source printed no key. The given range is 7.5–10 nm, which is option C; here every option is in nanometres, so the question tests the figure rather than the unit.
 
 
 ---
@@ -143699,7 +143699,7 @@ Channels are integral proteins spanning the bilayer. Cholesterol sits between th
 ## answer_b
 stabilize the cell membrane
 ## explanation_b
-Correct. Cholesterol lies among the hydrophobic tails, restricts the movement of the phospholipids and so stabilises the membrane and modulates its fluidity.
+Cholesterol lies among the hydrophobic tails, restricts the movement of the phospholipids and so stabilises the membrane and modulates its fluidity.
 ## answer_c
 act as receptors
 ## explanation_c
@@ -143792,7 +143792,7 @@ Glycocalyx is the carbohydrate coat on the outer surface of the plasmalemma.
 ## answer_c
 cristae
 ## explanation_c
-Correct. Cristae are the folds of the inner mitochondrial membrane, and they carry the elementary particles with ATP synthase activity.
+Cristae are the folds of the inner mitochondrial membrane, and they carry the elementary particles with ATP synthase activity.
 ## answer_d
 cisternae
 ## explanation_d
@@ -143822,7 +143822,7 @@ Easy
 ## question_type
 Structure and function
 ## learning_objective
-Tell the plasmalemma apart from the other membranous terms the books offer beside it.
+Tell the plasmalemma apart from the other membranous terms often confused with it.
 ## setting
 Academic
 ## academic_relevance
@@ -143881,7 +143881,7 @@ The thickness of the cell membraneis:
 ## answer_c
 7.5 – 10 nm
 ## explanation_c
-Correct. 7.5–10 nm.
+7.5–10 nm.
 ## answer_d
 None of the above
 ## explanation_d
@@ -143962,7 +143962,7 @@ thickness of the cell membrane is about:
 ## answer_a
 7.5.10nm
 ## explanation_a
-Correct. 7.5–10 nm, printed here without the dash. This is the fifth time the books ask membrane thickness, and the fourth different way of setting the trap.
+7.5–10 nm, printed here without the dash. This is the fifth time the books ask membrane thickness, and the fourth different way of setting the trap.
 ## answer_b
 7.5 .10 µm
 ## explanation_b
@@ -144051,7 +144051,7 @@ What is the limiting membrane of a cell?
 ## answer_a
 Plasmalemma
 ## explanation_a
-Correct. The plasmalemma is the limiting membrane enveloping the cell.
+The plasmalemma is the limiting membrane enveloping the cell.
 ## answer_b
 Glycocalyx
 ## explanation_b
@@ -144140,7 +144140,7 @@ Which molecule of the cell membrane has a stabilizing effect?
 ## answer_a
 cholesterol
 ## explanation_a
-Correct. Cholesterol sits among the fatty acid tails, restricts phospholipid movement and stabilises the bilayer.
+Cholesterol sits among the fatty acid tails, restricts phospholipid movement and stabilises the bilayer.
 ## answer_b
 cell coat
 ## explanation_b
@@ -144148,7 +144148,7 @@ The cell coat is on the outer surface and does recognition, adhesion and recepti
 ## answer_c
 Phospholipids
 ## explanation_c
-Phospholipids are the component cholesterol acts on: on their own they are mobile, and that mobility is what stabilisation restrains. This is the option the book keys, and taking it reverses the relationship the question is about.
+Phospholipids are the component cholesterol acts on: on their own they are mobile, and that mobility is what stabilisation restrains. This is the keyed answer, and taking it reverses the relationship the question is about.
 ## answer_d
 Intrinsic proteins
 ## explanation_d
@@ -144241,7 +144241,7 @@ The right count with the wrong covering. The axoneme projects above the cell sur
 ## answer_d
 20 microtubules covered by cell membrane.
 ## explanation_d
-Correct. The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.
+The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.
 ## correct_answer
 d
 ## main_concept
@@ -144297,7 +144297,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answer
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it defines cilia as motile processes with a microtubular core covered by plasmalemma, names the shaft the axoneme, and gives that shaft nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.
+Answer changed from the source's: The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is not from a key: cilia are motile processes with a microtubular core covered by plasmalemma, the shaft is called the axoneme, and that shaft has nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.
 
 
 ---
@@ -144318,7 +144318,7 @@ Multipolar nerve cells are present in:
 ## answer_a
 Purkinje cells in cerebellar cortex.
 ## explanation_a
-Correct. The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.
+The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.
 ## answer_b
 Spinal ganglia.
 ## explanation_b
@@ -144386,7 +144386,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module's book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the book: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the department book. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.
+Answer changed from the source's: One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module's book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the course material: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the course text. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.
 
 
 ---
@@ -144419,7 +144419,7 @@ The primitive node is at the cranial end of the primitive streak, so it is the m
 ## answer_d
 Connecting stalk
 ## explanation_d
-Correct. Before folding the connecting stalk, carrying the allantois, is the most caudal structure; the tail fold then swings it cranially and ventrally, leaving the cloacal membrane the most caudal.
+Before folding the connecting stalk, carrying the allantois, is the most caudal structure; the tail fold then swings it cranially and ventrally, leaving the cloacal membrane the most caudal.
 ## correct_answer
 D
 ## main_concept
@@ -144500,11 +144500,11 @@ The primitive streak is regressing by this stage and is in any case never the mo
 ## answer_b
 Cloacal membrane.
 ## explanation_b
-Correct. The tail fold carries the connecting stalk cranially and ventrally, and the cloacal membrane is left as the most caudal structure of the folded embryo.
+The tail fold carries the connecting stalk cranially and ventrally, and the cloacal membrane is left as the most caudal structure of the folded embryo.
 ## answer_c
 Connecting stalk.
 ## explanation_c
-The connecting stalk is the answer to the same question asked about the position before folding, and it is the option the books key this one to as well. After the fold it has moved cranially and ventrally to lie in the ventral body wall at the umbilical ring, which is the opposite end of the reversal.
+The connecting stalk is the answer to the same question asked about the position before folding, and it is the keyed option as well. After the fold it has moved cranially and ventrally to lie in the ventral body wall at the umbilical ring, which is the opposite end of the reversal.
 ## answer_d
 Buccopharyngeal membrane.
 ## explanation_d
@@ -144564,7 +144564,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from the question book itself.
-Answer changed from the source's: The books key this to the connecting stalk, which is the answer to the paired question about the position *before* folding — the two questions are printed together and their keys appear to have been carried across. The department book states the reversal explicitly: in the tail fold the connecting stalk with the allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal. After folding the answer is therefore the cloacal membrane, option B.
+Answer changed from the source's: The books key this to the connecting stalk, which is the answer to the paired question about the position *before* folding — the two questions are printed together and their keys appear to have been carried across. The reversal is explicit: in the tail fold the connecting stalk with the allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal. After folding the answer is therefore the cloacal membrane, option B.
 
 
 ---
@@ -144585,11 +144585,11 @@ Tail fold of the embryo is limited by (DEP BOOK) Ac ad Ac ad ad ad
 ## answer_a
 Notochord.
 ## explanation_a
-The notochord limits the head fold, not the tail fold. The book pairs the two limits deliberately, and swapping them is the error the question is set to find.
+The notochord limits the head fold, not the tail fold. The two limits are paired deliberately, and swapping them is the error the question is set to find.
 ## answer_b
 Primitive streak.
 ## explanation_b
-Correct. The relatively firm primitive streak limits the tail fold, as the notochord limits the head fold.
+The relatively firm primitive streak limits the tail fold, as the notochord limits the head fold.
 ## answer_c
 Yolk sac.
 ## explanation_c
@@ -144686,7 +144686,7 @@ The notochord is not formed from mesoderm; it arises alongside it, from the same
 ## answer_d
 Epiblast cells at the wall of primitive pit
 ## explanation_d
-Correct. The prenotochordal process is a solid cord of epiblast cells from the wall of the primitive pit, which invaginates and grows cranially in the midline.
+The prenotochordal process is a solid cord of epiblast cells from the wall of the primitive pit, which invaginates and grows cranially in the midline.
 ## correct_answer
 D
 ## main_concept
@@ -144763,7 +144763,7 @@ Neurenteric canal is formed due to degeneration of
 ## answer_a
 Floor of notochordal canal and underlying endoderm
 ## explanation_a
-Correct. The floor of the notochordal canal, fused with the endoderm beneath it, degenerates — which opens the amniotic cavity into the yolk sac through the canal.
+The floor of the notochordal canal, fused with the endoderm beneath it, degenerates — which opens the amniotic cavity into the yolk sac through the canal.
 ## answer_b
 Roof of notochordal canal and median endoderm
 ## explanation_b
@@ -144856,7 +144856,7 @@ The notochord extends from the primitive pit cranially as far as the bucco-phary
 ## answer_b
 It persists as nucleus pulposus in the intervertebral discs.
 ## explanation_b
-Correct. Most of the notochord degenerates; the part inside the intervertebral disc persists as the nucleus pulposus, which is the only piece of it a person keeps.
+Most of the notochord degenerates; the part inside the intervertebral disc persists as the nucleus pulposus, which is the only piece of it a person keeps.
 ## answer_c
 It is formed from cells migrating from primitive streak.
 ## explanation_c
@@ -144941,7 +144941,7 @@ Gastrulation is
 ## answer_a
 The formation of trilaminar embryonic disc
 ## explanation_a
-Correct. Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one.
+Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one.
 ## answer_b
 The formation of bilaminar embryonic disc
 ## explanation_b
@@ -145030,7 +145030,7 @@ The primitive streak ﬁrst appears at the beginning of the __ week. (2019 – 2
 ## answer_a
 First
 ## explanation_a
-The first week is fertilisation, cleavage and the blastocyst. There is no epiblast yet, so there is nothing for a primitive streak to form in. This is the option the books key the question to, and it is a week and a half too early.
+The first week is fertilisation, cleavage and the blastocyst. There is no epiblast yet, so there is nothing for a primitive streak to form in. This is the keyed option, and it is a week and a half too early.
 ## answer_b
 Second
 ## explanation_b
@@ -145038,7 +145038,7 @@ The second week is implantation and the bilaminar disc, which does create the ep
 ## answer_c
 Third
 ## explanation_c
-Correct. The primitive streak appears at the beginning of the third week, and its appearance is the beginning of gastrulation.
+The primitive streak appears at the beginning of the third week, and its appearance is the beginning of gastrulation.
 ## answer_d
 Fourth
 ## explanation_d
@@ -145098,7 +145098,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
-Answer changed from the source's: The books key this to the first week. The department book makes gastrulation, beginning with the formation of the primitive streak in the epiblast, one of the two characteristic events of the third gestational week — and the epiblast the streak forms in does not exist until the eighth day. The first week is fertilisation, cleavage and blastocyst formation. Set to C.
+Answer changed from the source's: The books key this to the first week. Gastrulation, beginning with the formation of the primitive streak in the epiblast, is one of the two characteristic events of the third gestational week — and the epiblast the streak forms in does not exist until the eighth day. The first week is fertilisation, cleavage and blastocyst formation. Set to C.
 
 
 ---
@@ -145127,11 +145127,11 @@ The cloacal membrane is the same arrangement at the caudal end — ectoderm fuse
 ## answer_c
 On both sides of notochord and neural tube
 ## explanation_c
-Correct. The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and the neural tube.
+The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and the neural tube.
 ## answer_d
 Median region between primitive pit and buccopharyngeal membrane
 ## explanation_d
-The median region between the primitive node and the bucco-pharyngeal membrane is occupied by the notochord and the neural tube, so mesoderm is absent there too. All three wrong options name one of the book's three exceptions, which is why this question is harder than it looks: a student who has learnt only the exceptions still has to notice that none of them is the answer.
+The median region between the primitive node and the bucco-pharyngeal membrane is occupied by the notochord and the neural tube, so mesoderm is absent there too. All three wrong options name one of the three exceptions, which is why this question is harder than it looks: a student who has learnt only the exceptions still has to notice that none of them is the answer.
 ## correct_answer
 C
 ## main_concept
@@ -145216,7 +145216,7 @@ The mesoderm lies between the other two and is where the notochord that *induces
 ## answer_c
 Ectoderm
 ## explanation_c
-Correct. The neural plate is a thickening of the ectoderm in the median plane, overlying the notochord.
+The neural plate is a thickening of the ectoderm in the median plane, overlying the notochord.
 ## answer_d
 Notochord
 ## explanation_d
@@ -145276,7 +145276,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: None of the three printings of this question carries a key. The neural plate is a median thickening of the ectoderm, and the department book puts the central nervous system among the ectodermal derivatives on page 87. Set to C.
+Answer changed from the source's: None of the three printings of this question carries a key. The neural plate is a median thickening of the ectoderm, and the central nervous system is one of the ectodermal derivatives. Set to C.
 
 
 ---
@@ -145297,7 +145297,7 @@ Regarding formation of central nervous system, mark the correct statement: (DEP 
 ## answer_a
 It is derived from ectoderm
 ## explanation_a
-Correct. The central nervous system develops from ectoderm, by way of the neural plate and the neural tube.
+The central nervous system develops from ectoderm, by way of the neural plate and the neural tube.
 ## answer_b
 It is not induced by the underlying notochord
 ## explanation_b
@@ -145365,7 +145365,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The books print no key. Only A is true: the central nervous system is a derivative of ectoderm, which is the one statement of the four the department book itself makes, in its list of ectodermal derivatives on page 87. B, C and D are each false, and the reasons are given in their explanations.
+Answer changed from the source's: The books print no key. Only A is true: the central nervous system is a derivative of ectoderm, which is the one statement of the four confirmed in the list of ectodermal derivatives. B, C and D are each false, and the reasons are given in their explanations.
 
 
 ---
@@ -145394,7 +145394,7 @@ The neural tube becomes the brain and spinal cord. It began as the same ectoderm
 ## answer_c
 Suiface ectoderm
 ## explanation_c
-Correct. The epidermis comes from the surface ectoderm, the part of the layer that is left once the neural plate has sunk away from it.
+The epidermis comes from the surface ectoderm, the part of the layer that is left once the neural plate has sunk away from it.
 ## answer_d
 Intraembryonic mesoderm
 ## explanation_d
@@ -145475,7 +145475,7 @@ Parenchyma of the liver is developed from
 ## answer_a
 Endoderm
 ## explanation_a
-Correct. The liver parenchyma is endodermal — it grows as a diverticulum from the foregut, whose lining is endoderm.
+The liver parenchyma is endodermal — it grows as a diverticulum from the foregut, whose lining is endoderm.
 ## answer_b
 Ectoderm
 ## explanation_b
@@ -145543,7 +145543,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: None of the three printings of this question carries a key. The department book lists the parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid among the derivatives of endoderm, as glandular epithelium. Set to A.
+Answer changed from the source's: None of the three printings of this question carries a key. The parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid are derivatives of endoderm, as glandular epithelium. Set to A.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -145568,7 +145568,7 @@ The lipid bilayer is the molecular arrangement. The electron microscope shows on
 ## answer_b
 Trilaminar
 ## explanation_b
-Correct. Trilaminar — two electron-dense layers with an electron-lucent layer between them — the unit membrane.
+Trilaminar — two electron-dense layers with an electron-lucent layer between them — the unit membrane.
 ## answer_c
 unilaminar
 ## explanation_c
@@ -145661,7 +145661,7 @@ Also true, and also not the reason. A bilayer by itself would be expected to loo
 ## answer_c
 Of deposition of heavy metals (osmium) in the hydrophilic heads of phospholipids
 ## explanation_c
-Correct. Osmium and other heavy metals deposit in the hydrophilic heads at both surfaces and not in the hydrophobic tails between them, so two dense lines appear with a pale line between.
+Osmium and other heavy metals deposit in the hydrophilic heads at both surfaces and not in the hydrophobic tails between them, so two dense lines appear with a pale line between.
 ## answer_d
 All of the above
 ## explanation_d
@@ -145746,7 +145746,7 @@ Reversed. One dark line between two light ones would mean the stain sat in the t
 ## answer_b
 2 dark line, 1 light
 ## explanation_b
-Correct. Two dark, electron-dense lines — the stained hydrophilic heads at the two surfaces — with one light, electron-lucent line between them.
+Two dark, electron-dense lines — the stained hydrophilic heads at the two surfaces — with one light, electron-lucent line between them.
 ## answer_c
 2 dark line, 2 light
 ## explanation_c
@@ -145831,7 +145831,7 @@ One of the following are paired structures in the embryo:
 ## answer_a
 Somites.
 ## explanation_a
-Correct. The paraxial mesoderm lies on both sides of the midline, so its segments come in pairs; the book counts somites in pairs from the first pair of occipital somites on the twentieth day onwards.
+The paraxial mesoderm lies on both sides of the midline, so its segments come in pairs; somites are counted in pairs from the first pair of occipital somites on the twentieth day onwards.
 ## answer_b
 Buccopharyngeal membrane.
 ## explanation_b
@@ -145899,7 +145899,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book, which counts somites in pairs throughout — 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8 to 10 coccygeal pairs, three pairs separating each day — because the paraxial mesoderm lies on both sides of the notochord and neural tube and segments on each side. The other three options are single median structures.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: somites are counted in pairs throughout — 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8 to 10 coccygeal pairs, three pairs separating each day — because the paraxial mesoderm lies on both sides of the notochord and neural tube and segments on each side. The other three options are single median structures.
 
 
 ---
@@ -145928,7 +145928,7 @@ Lateral plate mesoderm splits into somatic and splanchnic layers and lines the b
 ## answer_c
 Ectoderm.
 ## explanation_c
-Correct. The neural plate is a thickened median region of ectoderm; its edges rise as neural folds, meet and fuse to make the neural tube, and that tube becomes the brain and the spinal cord.
+The neural plate is a thickened median region of ectoderm; its edges rise as neural folds, meet and fuse to make the neural tube, and that tube becomes the brain and the spinal cord.
 ## answer_d
 Extraembryonic mesoderm.
 ## explanation_d
@@ -145988,7 +145988,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book derives the whole nervous system from the neural plate, a thickened median region of the ectoderm overlying the notochord, which folds into the neural tube; the endoderm and the two mesoderms make no part of it.
+Answer changed from the source's: The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer given here is: the whole nervous system derives from the neural plate, a thickened median region of the ectoderm overlying the notochord, which folds into the neural tube; the endoderm and the two mesoderms make no part of it.
 
 
 ---
@@ -146021,7 +146021,7 @@ True, so not the exception. The lamina propria and submucosa of mucous membranes
 ## answer_d
 brain
 ## explanation_d
-The exception, and the answer. The brain is nervous tissue supported by its own neuroglia, and the department names it as the single place this otherwise universal tissue is absent — chosen wrongly by students who read "soft" as "loose connective tissue".
+The exception, and the answer. The brain is nervous tissue supported by its own neuroglia, making it the single place this otherwise universal tissue is absent — chosen wrongly by students who read "soft" as "loose connective tissue".
 ## correct_answer
 D
 ## main_concept
@@ -146106,7 +146106,7 @@ Mucoid connective tissue is the jelly of the umbilical cord and the dental pulp.
 ## answer_c
 Brown fat. (adipose tissue)
 ## explanation_c
-Correct. Brown fat is abundant in the newborn and its multilocular cells burn fat for heat through the thermogenin of their many mitochondria.
+Brown fat is abundant in the newborn and its multilocular cells burn fat for heat through the thermogenin of their many mitochondria.
 ## answer_d
 Reticular C.T
 ## explanation_d
@@ -146187,7 +146187,7 @@ Regarding loose areolar connective tissue:
 ## answer_a
 It is found below epithelium
 ## explanation_a
-Correct. Loose areolar tissue lies immediately under epithelium throughout the body — as the papillary dermis, as the lamina propria of mucosa — which is where the epithelium gets its blood supply from.
+Loose areolar tissue lies immediately under epithelium throughout the body — as the papillary dermis, as the lamina propria of mucosa — which is where the epithelium gets its blood supply from.
 ## answer_b
 Condensed with fibers
 ## explanation_b
@@ -146462,7 +146462,7 @@ Adipose tissue is bulky and conspicuous, which is why it draws the eye, but it i
 ## answer_c
 Loose areolar connective tissue
 ## explanation_c
-Correct. Loose areolar connective tissue is the commonest type and is found everywhere in the body except the brain.
+Loose areolar connective tissue is the commonest type and is found everywhere in the body except the brain.
 ## answer_d
 White fibrous connective tissue
 ## explanation_d
@@ -146522,7 +146522,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book HISTO MCQ [Co
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The source printed no key. The department states outright that loose areolar connective tissue is the most common type, and the leaf's other question on the same point — `the-most-widespread-c-t-is-fc4178f4` — is keyed to it.
+Answer changed from the source's: The source printed no key. Loose areolar connective tissue is the most common type, and the leaf's other question on the same point — `the-most-widespread-c-t-is-fc4178f4` — is keyed to it.
 
 
 ---
@@ -146543,7 +146543,7 @@ The most widespread C.T is:
 ## answer_a
 Loose areolar C.T
 ## explanation_a
-Correct. Loose areolar connective tissue fills the spaces of the whole body except the brain, which makes it both the commonest and the most widely spread.
+Loose areolar connective tissue fills the spaces of the whole body except the brain, which makes it both the commonest and the most widely spread.
 ## answer_b
 Reticular C.T
 ## explanation_b
@@ -146640,7 +146640,7 @@ Loose areolar tissue also has abundant ground substance, which is the pull here,
 ## answer_c
 Mucoid
 ## explanation_c
-Correct. The pulp of the teeth is mucoid connective tissue, along with the umbilical cord — Wharton's jelly — and the vitreous humour.
+The pulp of the teeth is mucoid connective tissue, along with the umbilical cord — Wharton's jelly — and the vitreous humour.
 ## answer_d
 Adipose
 ## explanation_d
@@ -146725,7 +146725,7 @@ The Type of C.T. contains all types of C.T. cells & fibers is called:
 ## answer_a
 Loose areolar C.T
 ## explanation_a
-Correct. Loose areolar connective tissue holds all the connective tissue cells and all three fibre types, mainly as collagen bundles, in the most abundant matrix of any type.
+Loose areolar connective tissue holds all the connective tissue cells and all three fibre types, mainly as collagen bundles, in the most abundant matrix of any type.
 ## answer_b
 Adipose C.T
 ## explanation_b
@@ -146826,7 +146826,7 @@ Unilocular is the fat cell of white adipose tissue, so this is the same wrong an
 ## answer_d
 Multilocular adipose tissue
 ## explanation_d
-Correct. Multilocular is the fat cell of brown adipose tissue, which is abundant in the newborn, is lost through childhood and persists in adults only in the interscapular, mediastinal and axillary regions.
+Multilocular is the fat cell of brown adipose tissue, which is abundant in the newborn, is lost through childhood and persists in adults only in the interscapular, mediastinal and axillary regions.
 ## correct_answer
 D
 ## main_concept
@@ -146915,7 +146915,7 @@ Also true, and for the same reason: the unilocular fat cell is the cell of white
 ## answer_d
 Both b and c
 ## explanation_d
-Correct. B and C are two names for one tissue, so both are right and the combined option is the only complete answer.
+B and C are two names for one tissue, so both are right and the combined option is the only complete answer.
 ## correct_answer
 D
 ## main_concept
@@ -147004,7 +147004,7 @@ Dense connective tissue is also connective tissue proper, just with fibres predo
 ## answer_d
 Blood
 ## explanation_d
-Correct. The consistency of the matrix is what grades connective tissue, and a fluid matrix — plasma — places blood among the specialised types with cartilage and bone. Students reject it because it circulates, but circulating is what its matrix is for.
+The consistency of the matrix is what grades connective tissue, and a fluid matrix — plasma — places blood among the specialised types with cartilage and bone. Students reject it because it circulates, but circulating is what its matrix is for.
 ## correct_answer
 D
 ## main_concept
@@ -147081,7 +147081,7 @@ Which of the following is NOT primarily composed of connective tissue?
 ## answer_a
 Brain
 ## explanation_a
-Correct. The brain is nervous tissue, supported by neuroglia rather than by connective tissue, and it is the one place the department says loose areolar tissue is absent.
+The brain is nervous tissue, supported by neuroglia rather than by connective tissue, and it is the one place loose areolar tissue is absent.
 ## answer_b
 Organ capsule
 ## explanation_b
@@ -147178,11 +147178,11 @@ Yellow describes bone marrow and elastic connective tissue, not a type of fat ce
 ## answer_c
 grey
 ## explanation_c
-Grey is not one of the department's two types of adipose tissue.
+Grey is not one of the two named types of adipose tissue.
 ## answer_d
 brown
 ## explanation_d
-Correct. Brown adipose tissue, with its multilocular cells, is abundant in fetal life and in the newborn, where its thermogenesis keeps the infant warm.
+Brown adipose tissue, with its multilocular cells, is abundant in fetal life and in the newborn, where its thermogenesis keeps the infant warm.
 ## correct_answer
 D
 ## main_concept
@@ -147263,7 +147263,7 @@ Irregular white fibrous connective tissue is a dense type, sited in the reticula
 ## answer_b
 Loose areolar C.T.
 ## explanation_b
-Correct. Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and the book says it is found everywhere in the body except the brain.
+Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and it is found everywhere in the body except the brain.
 ## answer_c
 Yellow elastic C.T.
 ## explanation_c
@@ -147327,7 +147327,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM first 2021 101 INT
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.
+Answer changed from the source's: The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.
 
 
 ---
@@ -147348,7 +147348,7 @@ The type of C.T. in tendons is tetaedSeouserssides OlTE
 ## answer_a
 White fibrous,
 ## explanation_a
-Correct, and confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.
+Confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.
 ## answer_b
 Elastic,
 ## explanation_b
@@ -147416,7 +147416,7 @@ Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK End 101 — 20
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
-Answer changed from the source's: Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.
+Answer changed from the source's: Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence. Regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
@@ -147445,7 +147445,7 @@ A cutaneous nerve, and cutaneous nerves cross superficial to a retinaculum by de
 ## answer_c
 Extensor indices
 ## explanation_c
-Correct. Extensor indicis runs with the extensor digitorum tendons in the fourth compartment, deep to the retinaculum. Everything the retinaculum holds down is a tendon; everything that crosses it is a vein or a cutaneous nerve.
+Extensor indicis runs with the extensor digitorum tendons in the fourth compartment, deep to the retinaculum. Everything the retinaculum holds down is a tendon; everything that crosses it is a vein or a cutaneous nerve.
 ## answer_d
 The beginning of the cephalic vein
 ## explanation_d
@@ -147534,7 +147534,7 @@ The same swap in the other direction, and the commonest single error in this lea
 ## answer_c
 The median cubital vein connects cephalic and basilic veins
 ## explanation_c
-Correct. The median cubital vein runs upwards and medially across the front of the cubital fossa from the cephalic to the basilic, which is why a needle in it drains into both.
+The median cubital vein runs upwards and medially across the front of the cubital fossa from the cephalic to the basilic, which is why a needle in it drains into both.
 ## answer_d
 The axillary artery is accompanied by two venae comitantes
 ## explanation_d
@@ -147623,7 +147623,7 @@ A cutaneous nerve on its way to skin, so it crosses superficial to the retinacul
 ## answer_c
 Extensor indices. P Ac ad
 ## explanation_c
-Correct. Extensor indicis occupies the fourth compartment beneath the retinaculum with the extensor digitorum tendons. The OCR of this copy prints it as "Extensor indices" with a fragment of page furniture attached; the option is legible and is the tendon.
+Extensor indicis occupies the fourth compartment beneath the retinaculum with the extensor digitorum tendons. The OCR of this copy prints it as "Extensor indices" with a fragment of page furniture attached; the option is legible and is the tendon.
 ## answer_d
 The beginning of the cephalic vein
 ## explanation_d
@@ -147712,7 +147712,7 @@ The same swap read the other way round. The cephalic vein is the lateral one thr
 ## answer_c
 The median cubital vein connects cephalic and basilic veins
 ## explanation_c
-Correct. The median cubital vein crosses the cubital fossa obliquely and connects the cephalic vein to the basilic.
+The median cubital vein crosses the cubital fossa obliquely and connects the cephalic vein to the basilic.
 ## answer_d
 The axillary artery is accompanied by two venae comitantes
 ## explanation_d
@@ -147797,7 +147797,7 @@ The right relationship attached to the wrong vein. It is the median cubital vein
 ## answer_b
 The cephalic vein starts at lateral end of dorsal venous arch of the hand.
 ## explanation_b
-Correct. The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and remains the lateral vein of the limb.
+The cephalic vein begins at the lateral end of the dorsal venous arch of the hand and remains the lateral vein of the limb.
 ## answer_c
 The basilic vein pierces the clavipectoral fascia.
 ## explanation_c
@@ -147882,7 +147882,7 @@ The cephalic vein ends in: (DEP BOOK) P
 ## answer_a
 The axillary vein.
 ## explanation_a
-Correct. The cephalic vein leaves the deltopectoral groove, pierces the clavipectoral fascia and ends in the axillary vein.
+The cephalic vein leaves the deltopectoral groove, pierces the clavipectoral fascia and ends in the axillary vein.
 ## answer_b
 Median cubital vein.
 ## explanation_b
@@ -147971,7 +147971,7 @@ The cephalic vein is located on which aspect of the upper limb?
 ## answer_a
 lateral
 ## explanation_a
-Correct. Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.
+Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.
 ## answer_b
 medial
 ## explanation_b
@@ -148064,7 +148064,7 @@ The answer the extractor took from this page, and the reason for the override. T
 ## answer_c
 It is a common vein for intravenous injection
 ## explanation_c
-Correct. It is large, superficial and fixed in place, and the bicipital aponeurosis lies between it and the brachial artery — which is why it is the standard vein for venepuncture and intravenous injection.
+It is large, superficial and fixed in place, and the bicipital aponeurosis lies between it and the brachial artery — which is why it is the standard vein for venepuncture and intravenous injection.
 ## answer_d
 It is one of the deep veins in the upper limb
 ## explanation_d
