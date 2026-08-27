@@ -1,11 +1,12 @@
 # ASU-HCB triage — Phase 1
 
 Module: **ASU-HCB** (Introduction to Histology and Cell Biology), ASU_Y1, Term 1. Subject placement:
-`fnd` is not on the 20-list — histology/cytology is foundational cell biology, not a body system; treating
-as `fnd`-equivalent is wrong per LANE-BRIEF §6 (fnd is Kasr's manual, not the ASU 20-list). **Placement
-decision needed from CoS**: the 20-list has no generic "histology/cell biology" bucket — closest analogs
-used elsewhere are body-system-specific histology folded into that system. Until ruled, concepts below are
-left unplaced (`subject: TBD-histology`) rather than guessed.
+`fnd` **is** on the 20-list (`cvs resp renal gi neuro endo msk pharm fnd dev haem imm inf obs gyn androl
+psy derm mul pop`, LANE-BRIEF §6) and reads as the correct bucket for generic cell-biology/cytology facts
+not tied to a body system (organelles, membrane structure, cytoskeleton, generic junctions). Epithelium
+classification and histology-technique facts likely also route to `fnd` by the same logic, but this isn't
+explicitly ruled anywhere the way `pop`/`psy`/`inf` placements are — flagging for a quick CoS confirm
+rather than guessing silently, since a wrong subject id is a silent importer failure (LANE-BRIEF §6).
 
 Manifest flags 4 of 6 MCQ files `blocked`/`textLayer:none` — wrong for all 4 (same CamScanner hazard as
 ASU-INF/IMM/MBG); rendered + OCR'd clean. 2 files were genuinely native-text (`ready`, correctly flagged).
@@ -180,11 +181,10 @@ the epithelium/junction/histology-technique facts (which returned no hits in the
   - **New:** epithelium/junction/histology-technique facts (no live hits in sample) — placement pending
     the subject-id ruling noted at the top of this file.
 
-## BLOCKED — needs a ruling before Phase 2
+## Note — subject placement (not a hard block, just unconfirmed)
 
-Subject-id placement for a pure cytology/histology-technique concept — the 20-list
-(`cvs resp renal gi neuro endo msk pharm fnd dev haem imm inf obs gyn androl psy derm mul pop`) has no
-generic bucket for "the cell" or "epithelium/junctions" the way `msk` or `cvs` cover a body system. Options:
-(a) route to `fnd` per the old manual despite LANE-BRIEF calling it stale, (b) split per eventual
-body-system application (a tight-junction fact tagged to whatever system uses it in context), or (c) a new
-ruling. Flagging now so triage approval can settle it before any ASU-HCB concept is minted.
+`fnd` is on the 20-list and is the working assumption for every concept in this file (organelles,
+membrane, cytoskeleton, generic junctions, epithelium classification, histology technique). No explicit
+ruling names `fnd` as histology/cytology's home the way `pop`/`psy`/`inf` are spelled out in LANE-BRIEF §6,
+so this triage proceeds on that reading but flags it for a one-line CoS confirm before Phase 2 mints —
+cheap to confirm now, expensive to relabel ~80 concepts later.
