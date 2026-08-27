@@ -37,8 +37,24 @@ export interface Note {
    * `my:<id>`; one field addresses both kinds because the reader does.
    */
   resourceRefs?: NoteResourceRef[]
+  /** Freehand ink drawn over (or under) the note body from the Draw tab. Optional and additive. */
+  drawing?: NoteDrawing
   /** ISO timestamp of the last edit. */
   updatedAt: string
+}
+
+/** A single freehand stroke: a flat list of [x, y, x, y, …] points in editor-surface pixels. */
+export interface NoteDrawStroke {
+  points: number[]
+  color: string
+  width: number
+}
+
+/** The note's ink layer and where it sits relative to the typed text. */
+export interface NoteDrawing {
+  strokes: NoteDrawStroke[]
+  /** `over` paints the ink above the text, `under` behind it. */
+  placement: 'over' | 'under'
 }
 
 export interface NotebookEditorJson {

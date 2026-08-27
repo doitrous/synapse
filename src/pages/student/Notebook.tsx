@@ -382,6 +382,8 @@ export function Notebook() {
                 focusMode={focusMode}
                 onToggleFocus={() => setFocusMode((current) => !current)}
                 uploadImage={(file) => documents.upload(file, undefined, { kind: 'notebook', id: editorNote.id })}
+                drawing={editorNote.drawing}
+                onDrawingChange={(next) => update(editorNote.id, { drawing: next })}
               />
             </div>
             <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Insert an image inline from the Insert tab, or paste a copied image directly into this note.')}</p>

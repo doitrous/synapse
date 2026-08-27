@@ -22,6 +22,7 @@ import {
   Subscript,
   Superscript,
   Table2,
+  Trash2,
   Underline,
   Undo2,
 } from 'lucide-react'
@@ -63,6 +64,24 @@ import { cn } from '@/lib/cn'
 import { readyItemsByCategory, searchReadyItems, type ReadyItem, type ReadyItemCategory } from '@/data/readyItems'
 import { $createImageNode } from './ImageNode'
 import { $createReadyItemNode } from './ReadyItemNode'
+import type { DrawTool } from './NoteDrawLayer'
+
+export interface DrawControls {
+  enabled: boolean
+  setEnabled: (next: boolean | ((current: boolean) => boolean)) => void
+  tool: DrawTool
+  setTool: (next: DrawTool) => void
+  color: string
+  setColor: (next: string) => void
+  width: number
+  setWidth: (next: number) => void
+  colors: readonly string[]
+  widths: readonly number[]
+  placement: 'over' | 'under'
+  setPlacement: (next: 'over' | 'under') => void
+  hasStrokes: boolean
+  clear: () => void
+}
 import {
   ALIGN_OPTIONS,
   applyHighlightColor,
@@ -95,7 +114,7 @@ const RIBBON_TABS: TabItem[] = [
  * `docs/HANDOFF-notebook.md`) — the tab structure exists, the controls do not
  * yet.
  */
-export function NoteRibbon({ uploadImage }: { uploadImage?: (file: File) => Promise<string> }) {
+export function NoteRibbon({ uploadImage, draw }: { uploadImage?: (file: File) => Promise<string>; draw?: DrawControls }) {
   const [editor] = useLexicalComposerContext()
   const [tab, setTab] = useState<RibbonTabId>('home')
   const formats = useActiveFormats(editor)
@@ -107,7 +126,7 @@ export function NoteRibbon({ uploadImage }: { uploadImage?: (file: File) => Prom
         {tab === 'home' && <HomeRibbon editor={editor} formats={formats} />}
         {tab === 'layout' && <LayoutRibbon editor={editor} formats={formats} />}
         {tab === 'insert' && <InsertRibbon editor={editor} uploadImage={uploadImage} />}
-        {tab === 'draw' && <DrawRibbonStub />}
+        {tab === 'draw' && (draw ? <DrawRibbon draw={draw} /> : <DrawRibbonStub />)}
       </div>
     </div>
   )
@@ -478,9 +497,95 @@ function ReadyItemGrid({ items, onPick }: { items: ReadyItem[]; onPick: (item: R
   )
 }
 
+function DrawRibbon({ draw }: { draw: DrawControls }) {
+  return (
+    <>
+      <IconButton
+        icon={PenTool}
+        label={draw.enabled ? 'Stop drawing' : 'Draw'}
+        size="sm"
+        active={draw.enabled && draw.tool === 'pen'}
+        onMouseDown={stop}
+        onClick={() => { draw.setTool('pen'); draw.setEnabled((current) => draw.tool === 'pen' ? !current : true) }}
+      />
+      <IconButton
+        icon={Eraser}
+        label="Eraser"
+        size="sm"
+        active={draw.enabled && draw.tool === 'eraser'}
+        onMouseDown={stop}
+        onClick={() => { draw.setTool('eraser'); draw.setEnabled((current) => draw.tool === 'eraser' ? !current : true) }}
+      />
+      <RibbonDivider />
+
+      <div className="flex items-center gap-1">
+        {draw.colors.map((swatch) => (
+          <button
+            key={swatch}
+            type="button"
+            aria-label={`Pen colour ${swatch}`}
+            title={swatch}
+            onMouseDown={stop}
+            onClick={() => draw.setColor(swatch)}
+            className={cn(
+              'size-5 rounded-full border transition-transform hover:scale-110',
+              draw.color === swatch ? 'border-ink scale-110' : 'border-line-2',
+            )}
+            style={{ backgroundColor: swatch }}
+          />
+        ))}
+      </div>
+      <RibbonDivider />
+
+      <div className="flex items-center gap-0.5">
+        {draw.widths.map((option) => (
+          <button
+            key={option}
+            type="button"
+            aria-label={`Pen width ${option}`}
+            title={`Width ${option}`}
+            onMouseDown={stop}
+            onClick={() => draw.setWidth(option)}
+            className={cn(
+              'grid size-8 place-items-center rounded-lg transition-colors hover:bg-inset',
+              draw.width === option ? 'bg-primary-tint' : '',
+            )}
+          >
+            <span className="rounded-full bg-ink" style={{ width: option + 2, height: option + 2 }} />
+          </button>
+        ))}
+      </div>
+      <RibbonDivider />
+
+      <button
+        type="button"
+        onMouseDown={stop}
+        onClick={() => draw.setPlacement(draw.placement === 'over' ? 'under' : 'over')}
+        className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2.5 text-[12px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
+        title="Whether the drawing sits over or under your text"
+      >
+        <Icon icon={Layers} size={15} />
+        Ink {draw.placement === 'over' ? 'over text' : 'under text'}
+      </button>
+      <RibbonDivider />
+
+      <IconButton
+        icon={Trash2}
+        label="Clear drawing"
+        size="sm"
+        disabled={!draw.hasStrokes}
+        className="disabled:pointer-events-none disabled:opacity-40"
+        onMouseDown={stop}
+        onClick={draw.clear}
+      />
+      {draw.enabled && <Badge tone="primary" className="ms-1">Drawing on</Badge>}
+    </>
+  )
+}
+
 /**
- * STUB — owned by the next agent working the Draw tab (see
- * `docs/HANDOFF-notebook.md`). Placeholder, disabled controls only.
+ * Fallback shell shown only when the host does not provide draw controls
+ * (e.g. a read-only surface). The live Draw tab is `DrawRibbon` above.
  */
 function DrawRibbonStub() {
   const stubs: { icon: LucideIcon; label: string }[] = [

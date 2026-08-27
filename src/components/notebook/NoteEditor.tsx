@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { FileText, Focus as FocusIcon, Image as ImageIcon, Minus, Plus, Type as WordsIcon } from 'lucide-react'
 import {
   $createParagraphNode,
@@ -26,14 +26,15 @@ import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin'
 import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
-import type { NotebookEditorJson } from '@/data/notebook'
+import type { NotebookEditorJson, NoteDrawing } from '@/data/notebook'
 import { editorJsonToPlainText, notebookEmbeddedMediaCount, notebookWordCount, plainTextToEditorJson } from '@/data/notebook'
 import { usePersistentState } from '@/lib/usePersistentState'
 import type { Updater } from '@/lib/stateStore'
 import { cn } from '@/lib/cn'
 import { ImageNode } from './ImageNode'
 import { ReadyItemNode } from './ReadyItemNode'
-import { NoteRibbon } from './NoteRibbon'
+import { NoteDrawLayer, type DrawTool } from './NoteDrawLayer'
+import { NoteRibbon, type DrawControls } from './NoteRibbon'
 
 interface NoteEditorChange {
   editorJson: NotebookEditorJson
@@ -53,7 +54,13 @@ interface NoteEditorProps {
   onToggleFocus?: () => void
   /** Uploads a picked image as a managed student document and resolves its id, for inline insertion. */
   uploadImage?: (file: File) => Promise<string>
+  /** Freehand ink drawn over/under the note, and a setter to persist it. When omitted, the Draw tab stays inert. */
+  drawing?: NoteDrawing
+  onDrawingChange?: (next: NoteDrawing) => void
 }
+
+const DRAW_COLORS = ['#ef4444', '#f59e0b', '#10b981', '#3b82f6', '#8b5cf6', '#111827', '#ffffff'] as const
+const DRAW_WIDTHS = [2, 3, 5, 8] as const
 
 const ZOOM_LEVELS = [75, 90, 100, 110, 125, 150, 175, 200] as const
 const ZOOM_MIN = 50
@@ -117,10 +124,34 @@ export function NoteEditor({
   focusMode,
   onToggleFocus,
   uploadImage,
+  drawing,
+  onDrawingChange,
 }: NoteEditorProps) {
   const initialState = useMemo(() => JSON.stringify(normaliseForLexical(editorJson)), [editorJson])
   const locallyEmittedStates = useRef(new Set<string>())
   const [zoom, setZoom] = usePersistentState<number>('synapse.notebook.zoom', 100)
+  const [drawEnabled, setDrawEnabled] = useState(false)
+  const [drawTool, setDrawTool] = useState<DrawTool>('pen')
+  const [drawColor, setDrawColor] = useState<string>(DRAW_COLORS[0])
+  const [drawWidth, setDrawWidth] = useState<number>(DRAW_WIDTHS[1])
+  const placement = drawing?.placement ?? 'over'
+
+  const draw: DrawControls | undefined = onDrawingChange && {
+    enabled: drawEnabled,
+    setEnabled: setDrawEnabled,
+    tool: drawTool,
+    setTool: setDrawTool,
+    color: drawColor,
+    setColor: setDrawColor,
+    width: drawWidth,
+    setWidth: setDrawWidth,
+    colors: DRAW_COLORS,
+    widths: DRAW_WIDTHS,
+    placement,
+    setPlacement: (next) => onDrawingChange({ strokes: drawing?.strokes ?? [], placement: next }),
+    hasStrokes: (drawing?.strokes.length ?? 0) > 0,
+    clear: () => onDrawingChange({ strokes: [], placement }),
+  }
 
   const wordCount = useMemo(() => notebookWordCount(editorJsonToPlainText(editorJson)), [editorJson])
   const mediaCount = useMemo(
@@ -141,23 +172,35 @@ export function NoteEditor({
       }}
     >
       <div className="rounded-xl border border-line bg-surface shadow-soft">
-        <NoteRibbon uploadImage={uploadImage} />
+        <NoteRibbon uploadImage={uploadImage} draw={draw} />
         <div
           className="relative min-h-[42vh] px-4 py-3 sm:px-5 sm:py-4"
           style={{ fontSize: `${Math.round((BASE_FONT_PX * zoom) / 100)}px` }}
         >
-          <RichTextPlugin
-            contentEditable={
-              <ContentEditable
-                onPaste={onPaste}
-                aria-label="Note body"
-                aria-placeholder={placeholder ?? 'Start writing…'}
-                placeholder={<p className="pointer-events-none absolute left-5 top-4 text-[0.93em] text-ink-3">{placeholder ?? 'Start writing…'}</p>}
-                className="min-h-[38vh] outline-none prose-headings:font-serif leading-[1.75] text-ink/90 focus-visible:ring-0"
-              />
-            }
-            ErrorBoundary={LexicalErrorBoundary}
-          />
+          <div className="relative z-10">
+            <RichTextPlugin
+              contentEditable={
+                <ContentEditable
+                  onPaste={onPaste}
+                  aria-label="Note body"
+                  aria-placeholder={placeholder ?? 'Start writing…'}
+                  placeholder={<p className="pointer-events-none absolute left-1 top-0 text-[0.93em] text-ink-3">{placeholder ?? 'Start writing…'}</p>}
+                  className="min-h-[38vh] outline-none prose-headings:font-serif leading-[1.75] text-ink/90 focus-visible:ring-0"
+                />
+              }
+              ErrorBoundary={LexicalErrorBoundary}
+            />
+          </div>
+          {onDrawingChange && (
+            <NoteDrawLayer
+              drawing={drawing}
+              onChange={onDrawingChange}
+              active={drawEnabled}
+              tool={drawTool}
+              color={drawColor}
+              width={drawWidth}
+            />
+          )}
         </div>
         <NoteStatusBar
           wordCount={wordCount}
