@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   Baseline,
   Bold,
@@ -27,6 +27,7 @@ import {
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import {
+  $insertNodes,
   CAN_REDO_COMMAND,
   CAN_UNDO_COMMAND,
   COMMAND_PRIORITY_LOW,
@@ -48,6 +49,9 @@ import { Badge } from '@/components/ui/Badge'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { Tabs, type TabItem } from '@/components/ui/Tabs'
 import { cn } from '@/lib/cn'
+import { readyItemsByCategory, searchReadyItems, type ReadyItem, type ReadyItemCategory } from '@/data/readyItems'
+import { $createImageNode } from './ImageNode'
+import { $createReadyItemNode } from './ReadyItemNode'
 import {
   ALIGN_OPTIONS,
   applyHighlightColor,
@@ -80,7 +84,7 @@ const RIBBON_TABS: TabItem[] = [
  * `docs/HANDOFF-notebook.md`) — the tab structure exists, the controls do not
  * yet.
  */
-export function NoteRibbon() {
+export function NoteRibbon({ uploadImage }: { uploadImage?: (file: File) => Promise<string> }) {
   const [editor] = useLexicalComposerContext()
   const [tab, setTab] = useState<RibbonTabId>('home')
   const formats = useActiveFormats(editor)
@@ -91,7 +95,7 @@ export function NoteRibbon() {
       <div className="flex flex-wrap items-center gap-1 px-2 py-1.5" aria-label={`Note formatting — ${tab} tab`}>
         {tab === 'home' && <HomeRibbon editor={editor} formats={formats} />}
         {tab === 'layout' && <LayoutRibbon editor={editor} formats={formats} />}
-        {tab === 'insert' && <InsertRibbonStub />}
+        {tab === 'insert' && <InsertRibbon editor={editor} uploadImage={uploadImage} />}
         {tab === 'draw' && <DrawRibbonStub />}
       </div>
     </div>
@@ -202,23 +206,43 @@ function LayoutRibbon({ editor, formats }: { editor: LexicalEditor; formats: Ret
 }
 
 /**
- * STUB — owned by the next agent working the Insert tab (see
- * `docs/HANDOFF-notebook.md`). The buttons below are placeholders only: they
- * are disabled and exist to hold the ribbon's shape. Replace this whole
- * function body with working controls for inline images, hyperlinks
- * (`@lexical/link`), tables (`@lexical/table`), and the ready-items inserter
- * — keep the tab wiring in `NoteRibbon` above untouched.
+ * The Insert tab. Inline images (a managed student upload placed in the text
+ * flow) and the ready-items inserter are wired; hyperlinks and tables are the
+ * remaining work (see `docs/HANDOFF-notebook.md`).
  */
-function InsertRibbonStub() {
-  const stubs: { icon: LucideIcon; label: string }[] = [
-    { icon: ImageIcon, label: 'Image' },
-    { icon: Link2, label: 'Link' },
-    { icon: Table2, label: 'Table' },
-    { icon: Sparkles, label: 'Ready items' },
-  ]
+function InsertRibbon({ editor, uploadImage }: { editor: LexicalEditor; uploadImage?: (file: File) => Promise<string> }) {
+  const fileInput = useRef<HTMLInputElement>(null)
+
+  async function onPickImage(event: React.ChangeEvent<HTMLInputElement>) {
+    const file = event.target.files?.[0]
+    event.target.value = ''
+    if (!file) return
+    const alt = file.name.replace(/\.[^.]+$/, '')
+    try {
+      if (uploadImage) {
+        const documentId = await uploadImage(file)
+        editor.update(() => { $insertNodes([$createImageNode({ documentId, alt })]) })
+        return
+      }
+    } catch {
+      // Fall back to an inline data URL below if the managed upload is unavailable.
+    }
+    const reader = new FileReader()
+    reader.onload = () => {
+      const src = typeof reader.result === 'string' ? reader.result : undefined
+      if (!src) return
+      editor.update(() => { $insertNodes([$createImageNode({ src, alt })]) })
+    }
+    reader.readAsDataURL(file)
+  }
+
   return (
     <>
-      {stubs.map((item) => (
+      <input ref={fileInput} type="file" accept="image/*" className="hidden" onChange={onPickImage} />
+      <IconButton icon={ImageIcon} label="Insert image" size="sm" onMouseDown={stop} onClick={() => fileInput.current?.click()} />
+      <ReadyItemMenu editor={editor} />
+      <RibbonDivider />
+      {([{ icon: Link2, label: 'Link' }, { icon: Table2, label: 'Table' }] as const).map((item) => (
         <button
           key={item.label}
           type="button"
@@ -229,8 +253,95 @@ function InsertRibbonStub() {
           <Icon icon={item.icon} size={16} />
         </button>
       ))}
-      <Badge tone="outline" className="ms-2">Coming soon</Badge>
+      <Badge tone="outline" className="ms-1">Link &amp; table soon</Badge>
     </>
+  )
+}
+
+const READY_ITEM_CATEGORY_LABEL: Record<ReadyItemCategory, string> = {
+  anatomy: 'Anatomy',
+  tools: 'Tools',
+  people: 'People',
+  trends: 'Trends',
+  symptoms: 'Symptoms',
+  general: 'General',
+}
+
+function ReadyItemMenu({ editor }: { editor: LexicalEditor }) {
+  const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
+  const [query, setQuery] = useState('')
+  const grouped = useMemo(() => readyItemsByCategory(), [])
+  const results = useMemo(() => (query.trim() ? searchReadyItems(query) : null), [query])
+
+  function insert(item: ReadyItem) {
+    close()
+    setQuery('')
+    editor.update(() => { $insertNodes([$createReadyItemNode(item.id)]) })
+  }
+
+  return (
+    <>
+      <button
+        type="button"
+        ref={setAnchor}
+        onMouseDown={stop}
+        onClick={() => setOpen(true)}
+        aria-haspopup="menu"
+        aria-expanded={open}
+        aria-label="Ready items"
+        title="Ready items"
+        className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2 text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
+      >
+        <Icon icon={Sparkles} size={16} />
+        <Icon icon={ChevronDown} size={12} className="text-ink-3" />
+      </button>
+      {open && (
+        <Popover anchor={anchor} onClose={close} role="menu" label="Ready items" className="w-72 p-2">
+          <input
+            autoFocus
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Search items…"
+            className="mb-2 h-9 w-full rounded-lg border border-line-2 bg-surface px-2.5 text-[12.5px] text-ink outline-none focus:border-primary"
+          />
+          <div className="max-h-72 overflow-y-auto">
+            {results ? (
+              <ReadyItemGrid items={results} onPick={insert} />
+            ) : (
+              (Object.keys(grouped) as ReadyItemCategory[]).map((category) => (
+                grouped[category].length > 0 && (
+                  <div key={category} className="mb-2 last:mb-0">
+                    <p className="mb-1 px-1 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{READY_ITEM_CATEGORY_LABEL[category]}</p>
+                    <ReadyItemGrid items={grouped[category]} onPick={insert} />
+                  </div>
+                )
+              ))
+            )}
+            {results?.length === 0 && <p className="px-1 py-3 text-center text-[12px] text-ink-3">No items match “{query}”.</p>}
+          </div>
+        </Popover>
+      )}
+    </>
+  )
+}
+
+function ReadyItemGrid({ items, onPick }: { items: ReadyItem[]; onPick: (item: ReadyItem) => void }) {
+  return (
+    <div className="grid grid-cols-6 gap-1">
+      {items.map((item) => (
+        <button
+          key={item.id}
+          type="button"
+          title={item.label}
+          aria-label={item.label}
+          onMouseDown={stop}
+          onClick={() => onPick(item)}
+          className="grid aspect-square place-items-center rounded-lg text-ink-2 transition-colors hover:bg-inset hover:text-ink"
+        >
+          <item.Svg className="size-5" />
+        </button>
+      ))}
+    </div>
   )
 }
 

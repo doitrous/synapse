@@ -27,6 +27,8 @@ import { editorJsonToPlainText, notebookEmbeddedMediaCount, notebookWordCount, p
 import { usePersistentState } from '@/lib/usePersistentState'
 import type { Updater } from '@/lib/stateStore'
 import { cn } from '@/lib/cn'
+import { ImageNode } from './ImageNode'
+import { ReadyItemNode } from './ReadyItemNode'
 import { NoteRibbon } from './NoteRibbon'
 
 interface NoteEditorChange {
@@ -45,6 +47,8 @@ interface NoteEditorProps {
   notePosition?: { index: number; total: number }
   focusMode?: boolean
   onToggleFocus?: () => void
+  /** Uploads a picked image as a managed student document and resolves its id, for inline insertion. */
+  uploadImage?: (file: File) => Promise<string>
 }
 
 const ZOOM_LEVELS = [75, 90, 100, 110, 125, 150, 175, 200] as const
@@ -57,7 +61,7 @@ const BASE_FONT_PX = 15
  * heading, quote, checklist or horizontal line saved by one renders
  * correctly everywhere the note is shown.
  */
-const NOTE_NODES = [ListNode, ListItemNode, HeadingNode, QuoteNode, HorizontalRuleNode]
+const NOTE_NODES = [ListNode, ListItemNode, HeadingNode, QuoteNode, HorizontalRuleNode, ImageNode, ReadyItemNode]
 
 const theme = {
   paragraph: 'mb-2',
@@ -101,6 +105,7 @@ export function NoteEditor({
   notePosition,
   focusMode,
   onToggleFocus,
+  uploadImage,
 }: NoteEditorProps) {
   const initialState = useMemo(() => JSON.stringify(normaliseForLexical(editorJson)), [editorJson])
   const locallyEmittedStates = useRef(new Set<string>())
@@ -125,7 +130,7 @@ export function NoteEditor({
       }}
     >
       <div className="rounded-xl border border-line bg-surface shadow-soft">
-        <NoteRibbon />
+        <NoteRibbon uploadImage={uploadImage} />
         <div
           className="relative min-h-[42vh] px-4 py-3 sm:px-5 sm:py-4"
           style={{ fontSize: `${Math.round((BASE_FONT_PX * zoom) / 100)}px` }}

@@ -381,9 +381,10 @@ export function Notebook() {
                 notePosition={{ index: Math.max(1, notes.findIndex((entry) => entry.id === editorNote.id) + 1), total: notes.length }}
                 focusMode={focusMode}
                 onToggleFocus={() => setFocusMode((current) => !current)}
+                uploadImage={(file) => documents.upload(file, undefined, { kind: 'notebook', id: editorNote.id })}
               />
             </div>
-            <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Paste an image from your clipboard directly into this note.')}</p>
+            <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Insert an image inline from the Insert tab, or paste a copied image directly into this note.')}</p>
             {imageError && <p role="status" className="mt-1.5 text-[11.5px] text-danger">{imageError}</p>}
 
             {/* Published as its own copy under its own link — see `ShareDialog`.
