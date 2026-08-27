@@ -141,7 +141,7 @@ export function Billing() {
 
   return (
     <PageContainer>
-      <PageHeader title={t('Billing')} description={t('Your plan and any voucher applied to it.')} />
+      <PageHeader title={t('Billing')} description={t('Your plan and any voucher applied to it.')} back={{ fallback: '/app' }} />
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.4fr)_minmax(16rem,0.6fr)]">
         <Panel>

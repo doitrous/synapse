@@ -67,7 +67,7 @@ export const LEAF: McqLeafSeed = {
     {
       key: 'lymphocyte-alone-among-blood-cells-still-divides',
       label: 'The lymphocyte is the blood cell that can still divide and the only one that returns from the tissues to the blood',
-      definition: 'Mature blood cells are, with one exception, end cells. The erythrocyte and the platelet have no nucleus at all; the granulocyte and the monocyte leave the blood, do their work and die there. The lymphocyte keeps a full nucleus, proliferates when it meets its antigen to give a clone of effector and memory cells, and is actively motile, circulating continuously between the blood and the lymphoid organs — the department states it is the only cell that can return to the blood.',
+      definition: 'Mature blood cells are, with one exception, end cells. The erythrocyte and the platelet have no nucleus at all; the granulocyte and the monocyte leave the blood, do their work and die there. The lymphocyte keeps a full nucleus, proliferates when it meets its antigen to give a clone of effector and memory cells, and is actively motile, circulating continuously between the blood and the lymphoid organs — it is the only cell that can return to the blood.',
       objective: 'Explain why the lymphocyte, alone among the circulating blood cells, can still divide.',
       pitfall: 'Assuming any nucleated white cell can divide. A neutrophil and a monocyte have nuclei but are already differentiated end cells; division stopped in the marrow.',
       subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T01-S01-M02'],
@@ -88,11 +88,11 @@ export const LEAF: McqLeafSeed = {
       key: 'lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates',
       label: 'The three lymphocytes look identical and differ only in their surface receptors: T mediates cell-mediated immunity, B mediates humoral immunity, NK acts without either',
       definition:
-        'By function there are three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.',
+        'By function there are three lymphocytes, and they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.',
       objective:
         'Name the three functional lymphocytes, give the immunity each mediates and where each matures, and give the four functional types of T cell with their CD markers.',
       pitfall:
-        'Trying to tell them apart down a microscope. The book says outright that all three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.',
+        'Trying to tell them apart down a microscope. All three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.',
       subject: 'haem',
       primary: 'DIS-HIS-T02',
       secondary: ['SYS-HEM-T01-S01-M02'],
@@ -109,9 +109,9 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Mechanism',
       learningObjective: 'Name the two cells whose interaction opens both arms of the immune response.',
       answerOverride: 'A',
-      answerOverrideReason: 'The source printed no key. The same question, with the same four options, is keyed A in `two-cells-are-required-for-the-initiation-of-the-cellular-an-e19b9dc0`, and A is also what the department teaches: the macrophage presents the antigen and the helper T cell is activated by it.',
+      answerOverrideReason: 'The source printed no key. The same question, with the same four options, is keyed A in `two-cells-are-required-for-the-initiation-of-the-cellular-an-e19b9dc0`: the macrophage presents the antigen and the helper T cell is activated by it.',
       explanations: {
-        A: 'Correct. The macrophage presents the antigen, the helper T cell recognises it, and the activated helper then drives the cell-mediated arm and licenses the B cell for the humoral arm.',
+        A: 'The macrophage presents the antigen, the helper T cell recognises it, and the activated helper then drives the cell-mediated arm and licenses the B cell for the humoral arm.',
         B: 'The suppressor (regulatory) T cell damps a response down and maintains tolerance to self. Pairing the brake with the response it is supposed to start is the trap here.',
         C: 'Half right, which is what makes it attractive: the macrophage is one of the pair, but the B lymphocyte is the effector of the humoral response only, and it acts after the helper T cell, not before it.',
         D: 'The plasmablast is already a committed antibody-producing cell — the end of the humoral response, not its beginning — and it has no part in the cell-mediated arm.',
@@ -124,7 +124,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'Only three options survived, and worse, the loss destroyed the single best answer. The department lists chronic infection — tuberculosis, syphilis, whooping cough — as a cause of both monocytosis and lymphocytosis, so with the fourth option gone, two of the three survivors are defensible and the question has no unique key. Rescanning would recover the missing option, and only then can it be judged whether the intended answer was one cell type or a combined option.',
+      excludeReason: 'Only three options survived, and worse, the loss destroyed the single best answer. Chronic infection — tuberculosis, syphilis, whooping cough — causes both monocytosis and lymphocytosis, so with the fourth option gone, two of the three survivors are defensible and the question has no unique key. Rescanning would recover the missing option, and only then can it be judged whether the intended answer was one cell type or a combined option.',
     },
     {
       key: 'is-antigen-presenting-cell-precursor-of-all-phagocytic-cell-25d68247',
@@ -133,7 +133,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the monocyte as the source of every phagocytic cell of the tissues.',
       explanations: {
         A: 'A lymphocyte is immune-competent but not phagocytic, and it gives rise to plasma cells rather than to macrophages.',
-        B: 'Correct. The monocyte presents antigen and is the precursor of the macrophage and of every phagocytic cell derived from it — dust cells, Kupffer cells, osteoclasts and microglia.',
+        B: 'The monocyte presents antigen and is the precursor of the macrophage and of every phagocytic cell derived from it — dust cells, Kupffer cells, osteoclasts and microglia.',
         C: 'The neutrophil is highly phagocytic, which is exactly what makes it tempting, but it is an end cell: it phagocytoses and dies as a pus cell, and nothing descends from it.',
         D: 'The megakaryocyte belongs to the marrow and sheds platelets. It leaves nothing behind in the tissues.',
       },
@@ -145,7 +145,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the monocyte as both an antigen-presenting cell and the precursor of the tissue phagocytes.',
       explanations: {
         A: 'A lymphocyte carries antigen receptors but does not phagocytose or present antigen to others; that is the macrophage\'s and the monocyte\'s role.',
-        B: 'Correct. The monocyte is an antigen-presenting cell and becomes the macrophage once it enters connective tissue.',
+        B: 'The monocyte is an antigen-presenting cell and becomes the macrophage once it enters connective tissue.',
         C: 'The neutrophil phagocytoses vigorously but presents no antigen and is a terminal cell — it dies at the site as a pus cell.',
         D: 'The megakaryocyte is a marrow cell that produces platelets; it is neither phagocytic nor antigen-presenting.',
       },
@@ -165,7 +165,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Normal values',
       learningObjective: 'Rank the leukocytes by diameter and name the largest.',
       explanations: {
-        A: 'Correct. The monocyte is 13–20 µm, larger than any other white cell on the film.',
+        A: 'The monocyte is 13–20 µm, larger than any other white cell on the film.',
         B: 'The commonest wrong answer, and an understandable one: the large lymphocyte is big at 10–15 µm, but it stops short of the monocyte. Its round nucleus, against the monocyte\'s kidney-shaped one, tells them apart.',
         C: 'The neutrophil is 10–12 µm. It looks busy because of its lobes, not because it is large.',
         D: 'The natural killer cell is a large lymphocyte and shares its size range, so it cannot be larger than the large lymphocyte, let alone the monocyte.',
@@ -179,7 +179,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The fibrocyte is the resting fibroblast. It makes fibres and ground substance and has no phagocytic role.',
         B: 'The pericyte is an adult mesenchymal stem cell around capillaries and can become endothelium, fibroblast or smooth muscle — but not a macrophage.',
-        C: 'Correct. The monocyte leaves the blood, enters connective tissue and becomes the macrophage, also called the histiocyte.',
+        C: 'The monocyte leaves the blood, enters connective tissue and becomes the macrophage, also called the histiocyte.',
         D: 'The B lymphocyte becomes the plasma cell. Confusing the two lines is the trap: one produces antibody, the other phagocytoses.',
       },
     },
@@ -192,7 +192,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The fibrocyte is a resting fibroblast. Both it and the plasma cell are connective tissue cells, but they are unrelated lines.',
         B: 'The pericyte gives endothelium, fibroblasts and smooth muscle. It makes no immune cell.',
         C: 'The monocyte becomes the macrophage. Picking it here is the mirror image of the commonest error on the macrophage question — the two answers get swapped as a pair.',
-        D: 'Correct. The B lymphocyte, once its antigen and a helper T cell have activated it, becomes a plasmablast and then the antibody-secreting plasma cell.',
+        D: 'The B lymphocyte, once its antigen and a helper T cell have activated it, becomes a plasmablast and then the antibody-secreting plasma cell.',
       },
     },
     {
@@ -210,7 +210,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Mechanism',
       learningObjective: 'Name the two cells whose interaction initiates both the cell-mediated and the humoral response.',
       explanations: {
-        A: 'Correct. The macrophage presents the antigen and the helper T cell is activated by it; from that one interaction both arms of the response follow.',
+        A: 'The macrophage presents the antigen and the helper T cell is activated by it; from that one interaction both arms of the response follow.',
         B: 'The suppressor T cell exists to limit a response and to hold tolerance to self antigens. It ends responses rather than starting them.',
         C: 'The macrophage is right and the B lymphocyte is wrong: the B cell is the effector of the humoral arm and has no part in starting the cell-mediated one, and it needs the helper T cell before it does anything at all.',
         D: 'The plasmablast is the B lymphocyte already committed to making antibody, so it belongs at the end of the humoral response, not the start of both.',
@@ -224,7 +224,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The erythrocyte has no nucleus and no organelles — the space is given over to haemoglobin — so it cannot divide at all.',
         B: 'The thrombocyte is a shed fragment of megakaryocyte cytoplasm with no nucleus, so division is impossible.',
-        C: 'Correct. The lymphocyte keeps a full nucleus and proliferates into a clone of effector and memory cells when it meets its antigen.',
+        C: 'The lymphocyte keeps a full nucleus and proliferates into a clone of effector and memory cells when it meets its antigen.',
         D: 'The tempting one: the monocyte has a large nucleus and clearly changes into a macrophage. But that is differentiation, not division — it is already an end cell when it leaves the marrow.',
       },
     },
@@ -246,7 +246,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A thrombocyte is a platelet, not a leukocyte at all — it is a non-nucleated fragment, and the granular/non-granular split applies only to white cells.',
         B: 'The monocyte is a non-granular leukocyte. Its cytoplasm holds azurophil granules, which are lysosomes, but no specific granules.',
         C: 'The lymphocyte is the other non-granular leukocyte, with only a thin rim of cytoplasm and a few azurophil granules in it.',
-        D: 'Correct. Polymorphonuclear leukocyte is the neutrophil\'s other name, taken from its many-shaped 2–5-lobed nucleus, and the neutrophil is a granulocyte.',
+        D: 'Polymorphonuclear leukocyte is the neutrophil\'s other name, taken from its many-shaped 2–5-lobed nucleus, and the neutrophil is a granulocyte.',
       },
     },
     {
@@ -257,7 +257,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The monocyte differentiates in the tissues, but into the macrophage. Antibody production is not in its line.',
         B: 'The megakaryocyte sheds platelets in the marrow. It has nothing to do with immunity.',
-        C: 'Correct. The B lymphocyte, activated by its antigen and by a helper T cell, becomes a plasmablast and then a plasma cell secreting antibody.',
+        C: 'The B lymphocyte, activated by its antigen and by a helper T cell, becomes a plasmablast and then a plasma cell secreting antibody.',
         D: 'The near miss, and the reason this is asked: T lymphocytes are essential to the humoral response — the helper T cell is what licenses the B cell — but they mediate cell-mediated immunity and never become plasma cells themselves.',
       },
     },
@@ -268,12 +268,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the blood cell the tissue macrophage comes from.',
       answerOverride: 'd',
       answerOverrideReason:
-        'The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: the macrophage, which it calls the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.',
+        'The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer given here is: the macrophage, also called the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.',
       explanations: {
         a: 'The pericyte is the connective tissue stem cell around a capillary and gives rise to fibroblasts, smooth muscle and endothelium. It is a resident cell, and the histiocyte comes from the blood.',
         b: 'The B lymphocyte becomes the plasma cell. Both answers are "a blood cell that settles in connective tissue and changes", which is what makes this the strongest distractor — but the product is an antibody factory, not a phagocyte.',
         c: 'The adipocyte arises from the undifferentiated mesenchymal cell and stores fat. It gives rise to nothing.',
-        d: 'Correct. The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.',
+        d: 'The monocyte is the circulating form; once in the tissue it becomes the macrophage, also called the histiocyte, and the same lineage gives the dust cells of the lung, the Kupffer cells of the liver, the osteoclasts and the microglia.',
       },
     },
     {
@@ -283,7 +283,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'The correct option has been absorbed into the one before it. The pen crossed the letter of option c on this 2022 script, so the bank holds option b as "Memory. © & Cytotoxic." The recovered key resolves this row to option c with high confidence and full overlap, and the department book agrees — the CD8+ T cells are the cytotoxic ones, secreting perforins that make pores in virally infected, transplanted and neoplastic cells — but option c no longer exists as an option, so the keyed answer cannot be selected. Recoverable by rescanning page 4 of the 2022 paper.',
+      excludeReason: 'The correct option has been absorbed into the one before it. The pen crossed the letter of option c on this 2022 script, so the bank holds option b as "Memory. © & Cytotoxic." The recovered key resolves this row to option c with high confidence and full overlap — the CD8+ T cells are the cytotoxic ones, secreting perforins that make pores in virally infected, transplanted and neoplastic cells — but option c no longer exists as an option, so the keyed answer cannot be selected. Recoverable by rescanning page 4 of the 2022 paper.',
     },
     {
       key: 'monocytes-are-the-origin-of-cells-7-plasma-je-mast-oa-macrop-7511b5be',
@@ -292,7 +292,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'The bank row has no options. All four option letters were crossed by the pen on this 2024 script and the options were read into the stem, where they remain legible as Plasma, Mast, Macrophages and Fibroblasts. The department book answers it — monocytes enter connective tissue and become macrophages — and the live row `histiocytes-originate-from` above examines the same fact from the other end. A question with an empty option map cannot be emitted; recoverable by rescanning page 2 of the 2024 paper.',
+      excludeReason: 'The bank row has no options. All four option letters were crossed by the pen on this 2024 script and the options were read into the stem, where they remain legible as Plasma, Mast, Macrophages and Fibroblasts. Monocytes enter connective tissue and become macrophages, and the live row `histiocytes-originate-from` above examines the same fact from the other end. A question with an empty option map cannot be emitted; recoverable by rescanning page 2 of the 2024 paper.',
     },
     {
       key: 'the-surface-marker-receptor-that-identifies-nk-cell-is-d0f357c0',
@@ -301,10 +301,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the surface marker of the natural killer cell and contrast it with the T and B cell receptors.',
       answerOverride: 'a',
       answerOverrideReason:
-        'One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: natural killer cells carry CD16 and others and have neither T nor B cell receptors.',
+        'One of the strays the extractor could not file to a leaf; it is authored here because it names a lymphocyte marker. The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: natural killer cells carry CD16 and others and have neither T nor B cell receptors.',
       explanations: {
-        a: 'Correct. CD16 is the marker the book gives for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.',
-        b: 'CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; the book gives CD4 and CD8 to the T cell alone.',
+        a: 'CD16 is the marker for the natural killer cell — which matters precisely because the three lymphocytes are indistinguishable by microscopy and can only be told apart by their surface receptors.',
+        b: 'CD4 is the helper T cell. Both CD numbers, and both lymphocytes, which is what makes this the closest wrong answer; CD4 and CD8 belong to the T cell alone.',
         c: 'IgM is one of the two receptors of the B lymphocyte, together with IgD. The natural killer cell carries neither T nor B receptors, and that absence is part of its definition.',
         d: 'The option is truncated to "Ig" on the paper, and whichever immunoglobulin it named it would still be a B cell receptor rather than an NK marker.',
       },

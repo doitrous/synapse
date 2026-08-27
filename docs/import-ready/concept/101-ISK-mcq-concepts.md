@@ -896,7 +896,7 @@ The brachial artery begins at the lower border of teres major as the continuatio
 ## explicit_objective
 Give the beginning, the ending and the six groups of branches of the brachial artery.
 ## pitfalls
-Ending it at the elbow joint. The book puts the division one centimetre below the joint, at the neck of the radius, which is why the artery is still one vessel where it is palpated in the cubital fossa.
+Ending it at the elbow joint. The division is one centimetre below the joint, at the neck of the radius, which is why the artery is still one vessel where it is palpated in the cubital fossa.
 ## concept_type
 structural_description
 ## status
@@ -1176,7 +1176,7 @@ The musculocutaneous nerve arises in the axilla from the lateral cord of the bra
 ## explicit_objective
 State the origin and root value of the musculocutaneous nerve and list its muscular and cutaneous branches.
 ## pitfalls
-Giving the root value as C5, C6. The book carries C7 as well, and dropping it changes which root lesions are predicted to weaken elbow flexion.
+Giving the root value as C5, C6. C7 belongs too, and dropping it changes which root lesions are predicted to weaken elbow flexion.
 ## concept_type
 structural_description
 ## status
@@ -4252,7 +4252,7 @@ The shoulder joint is a synovial polyaxial ball-and-socket joint between the hea
 ## explicit_objective
 List the ligaments of the shoulder joint with their attachments, and relate their weakness to the instability of the joint.
 ## pitfalls
-Reading the gleno-humeral ligaments as the joint's support. The book calls all three weak; what actually holds the shoulder is the rotator cuff, and the coraco-acromial arch above.
+Reading the gleno-humeral ligaments as the joint's support. All three are weak; what actually holds the shoulder is the rotator cuff, and the coraco-acromial arch above.
 ## concept_type
 structural_description
 ## status
@@ -5453,7 +5453,7 @@ CON-FND-7D406E91EA3BF2
 ## canonical_key
 mast-cell-granule-contents-and-the-anaphylactic-reaction
 ## definition
-The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and — in the books' account — serotonin; it also releases eosinophil chemotactic factor and leukotrienes. Its surface carries receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once. That discharge is the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child. The mast cell does not make histaminase; that is the eosinophil's enzyme, and it is what ends the reaction the mast cell began.
+The mast cell's granules hold heparin, which prevents clotting, histamine, which dilates vessels and raises their permeability, and serotonin; it also releases eosinophil chemotactic factor and leukotrienes. Its surface carries receptors for IgE, so that when an allergen binds antibody already fixed to the cell, the granules are discharged at once. That discharge is the immediate allergic reaction: locally, itching, swelling and wheal; systemically, the vasodilatation and increased permeability that produce oedema, bronchospasm and a sudden fall in blood pressure — anaphylactic shock, as after a penicillin injection or a peanut in a sensitised child. The mast cell does not make histaminase; that is the eosinophil's enzyme, and it is what ends the reaction the mast cell began.
 ## explicit_objective
 List what the mast cell releases, explain how IgE triggers the release, and connect each mediator to a sign of the allergic reaction.
 ## pitfalls
@@ -6286,7 +6286,7 @@ Basophils are 0–1% of the white cell count, 10–12 µm, with an S-shaped nucl
 ## explicit_objective
 List what the basophil granule contains, and connect each substance to the clinical event it produces.
 ## pitfalls
-Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors — the book compares them directly — but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.
+Calling the basophil a mast cell. Both stain metachromatically, both hold histamine and heparin and both carry IgE receptors, but they differ in life span, size, nuclear shape and phagocytic ability, and the mast cell is 20–30 µm against the basophil’s 10–12.
 ## concept_type
 structure_function_relationship
 ## status
@@ -8210,7 +8210,7 @@ CON-FND-CE178A6B5707B1
 ## canonical_key
 connective-tissue-fibre-stains-by-fibre-type
 ## definition
-The department book prints the three fibres against the stains that show them. Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.
+The three fibres are distinguished by the stains that show them. Collagen is pink with eosin, blue with Mallory's trichrome and red with van Gieson. Elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson. Reticular fibres are not visible in H&E at all; silver stains them brown — the reason they are called argyrophilic — and PAS stains them red, because of their high sugar content. Van Gieson is therefore the one stain that separates collagen from elastic in a single section by colour alone, red against yellow, and silver is the only way to see a reticular fibre.
 ## explicit_objective
 Give the colour each of the three connective tissue fibres takes with H&E, Mallory, van Gieson, orcein, silver and PAS, and choose the right stain when asked to demonstrate one fibre.
 ## pitfalls
@@ -8532,7 +8532,7 @@ CON-FND-A635150A3F245D
 ## canonical_key
 collagen-types-and-where-each-is-found
 ## definition
-The department book tabulates five collagens. Type I is arranged in bundles and is the commonest and strongest, found in connective tissue proper, tendon, bone and the capsules of organs, made by fibroblasts and osteoblasts. Type II is fine fibres in cartilage, made by chondroblasts. Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells. Type IV is not fibrous at all but granular, in the basement membrane, made by the epithelial cells that rest on it. Type VII forms the anchoring fibrils of the basement membrane and is made by fibroblasts.
+There are five main collagens. Type I is arranged in bundles and is the commonest and strongest, found in connective tissue proper, tendon, bone and the capsules of organs, made by fibroblasts and osteoblasts. Type II is fine fibres in cartilage, made by chondroblasts. Type III is the reticular fibre, in the stroma of organs, made by fibroblasts, reticular cells and smooth muscle cells. Type IV is not fibrous at all but granular, in the basement membrane, made by the epithelial cells that rest on it. Type VII forms the anchoring fibrils of the basement membrane and is made by fibroblasts.
 ## explicit_objective
 Name the collagen type of a named structure, and give the form — bundle, fine fibre, network, granule or anchoring fibril — that each type takes.
 ## pitfalls
@@ -8804,7 +8804,7 @@ CON-FND-46C9A4425362B0
 ## canonical_key
 scurvy-is-defective-collagen-synthesis
 ## definition
-The department book states that vitamin C deficiency — scurvy — is due to defective collagen synthesis, and that it presents with unhealed wounds and bleeding gums. Collagen is the fibre of repair: the fibroblast becomes active in injury and lays it down, so when it cannot be made properly the wound stays open and the tissue holding teeth and vessel walls together fails. The book names one other collagen disorder in the same place, keloid, where healing goes the other way and collagen is deposited to excess in a skin scar.
+Vitamin C deficiency — scurvy — is due to defective collagen synthesis, and it presents with unhealed wounds and bleeding gums. Collagen is the fibre of repair: the fibroblast becomes active in injury and lays it down, so when it cannot be made properly the wound stays open and the tissue holding teeth and vessel walls together fails. One other collagen disorder is keloid, where healing goes the other way and collagen is deposited to excess in a skin scar.
 ## explicit_objective
 Recognise the clinical picture of defective collagen synthesis and name the vitamin whose deficiency causes it.
 ## pitfalls
@@ -9348,7 +9348,7 @@ CON-FND-E0C05B1FE6D280
 ## canonical_key
 mast-cell-secretions-and-the-allergic-reaction
 ## definition
-The mast cell carries surface receptors for IgE, and when allergen binds them it discharges its granules. It secretes heparin, an anticoagulant that prevents clotting; histamine, which dilates vessels and raises their permeability; leukotrienes, which contract the smooth muscle of the bronchial tree and so cause the bronchospasm of asthma; and eosinophil chemotactic factor, which draws eosinophils to the allergic site. The department book adds that a massive discharge from mast cells causes anaphylactic shock, through vasodilatation and increased permeability severe enough to drop the blood pressure.
+The mast cell carries surface receptors for IgE, and when allergen binds them it discharges its granules. It secretes heparin, an anticoagulant that prevents clotting; histamine, which dilates vessels and raises their permeability; leukotrienes, which contract the smooth muscle of the bronchial tree and so cause the bronchospasm of asthma; and eosinophil chemotactic factor, which draws eosinophils to the allergic site. A massive discharge from mast cells causes anaphylactic shock, through vasodilatation and increased permeability severe enough to drop the blood pressure.
 ## explicit_objective
 Name the four mast cell secretions and give what each one does in an allergic reaction.
 ## pitfalls
@@ -9481,7 +9481,7 @@ organelles-inclusions-and-the-membranous-classification
 ## definition
 Cytoplasm is cytosol, organelles and inclusions. Organelles are living, permanent, essential and active, and have vital functions; inclusions are non-living, temporary, usually not essential and inert, and result from the cell's activity. Organelles are classified by whether they have a limiting membrane. The membranous ones are the plasma membrane, mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes and peroxisomes; the non-membranous ones are the ribosomes and the cytoskeleton, with the centrioles, cilia and flagella that the microtubules build. The inclusions are stored food — glycogen, which dissolves out of an H&E section leaving vacuoles and is shown by Best's carmine or PAS, and fat, vacuolated in H&E and orange with Sudan III — and pigments, endogenous (haemoglobin, melanin, lipofuscin) or exogenous (carbon and dust, carotene, tattoo dyes).
 ## explicit_objective
-Separate organelles from inclusions by the five properties the book contrasts, sort the organelles into membranous and non-membranous, and name the inclusions and the stains that show them.
+Separate organelles from inclusions by the five contrasting properties, sort the organelles into membranous and non-membranous, and name the inclusions and the stains that show them.
 ## pitfalls
 Calling a coated vesicle or a centriole an organelle of the wrong class. A coated vesicle is a piece of membrane and is membranous; a centriole is built of microtubules and has no membrane at all.
 ## concept_type
@@ -9622,7 +9622,7 @@ CON-FND-7D25B3CB28F0F6
 ## canonical_key
 organelle-content-identifies-what-a-cell-does
 ## definition
-A cell's organelle profile follows from its work, and the books examine the inference in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.
+A cell's organelle profile follows from its work, and the inference runs in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.
 ## explicit_objective
 Predict which organelle will be prominent in a named cell, and name the cell from a described organelle profile.
 ## pitfalls
@@ -9919,7 +9919,7 @@ The mitochondrion is the power house of the cell: it holds the enzymes of aerobi
 ## explicit_objective
 Say where in the mitochondrion each stage of energy production happens, and explain what changes in a mitochondrion that makes heat instead of ATP.
 ## pitfalls
-Placing the Krebs cycle on the inner membrane. The cycle is a set of soluble enzymes in the matrix; only the respiratory chain and ATP synthase are on the membrane, and the books ask both in the same option list.
+Placing the Krebs cycle on the inner membrane. The cycle is a set of soluble enzymes in the matrix; only the respiratory chain and ATP synthase are on the membrane.
 ## concept_type
 structure_function_relationship
 ## status
@@ -10061,7 +10061,7 @@ CON-FND-405BB5EA3C359E
 ## canonical_key
 golgi-apparatus-em-structure-products-and-functions
 ## definition
-On electron microscopy the Golgi apparatus is a stack of three to ten interconnected, parallel, flat curved saccules lying above one another, with vesicles at both ends. The entry or cis face receives the transfer vesicles that the rough endoplasmic reticulum sends; the exit or trans face buds off the products — secretory vesicles, lysosomes and coated vesicles. A transfer vesicle is therefore not a Golgi product but a Golgi input, which is the distinction the books ask most often. The Golgi packs, concentrates and stores protein, modifies it chemically by adding carbohydrate to make glycoprotein, forms secretory vesicles and primary lysosomes, and renews and maintains the cell membrane by sending membrane to it.
+On electron microscopy the Golgi apparatus is a stack of three to ten interconnected, parallel, flat curved saccules lying above one another, with vesicles at both ends. The entry or cis face receives the transfer vesicles that the rough endoplasmic reticulum sends; the exit or trans face buds off the products — secretory vesicles, lysosomes and coated vesicles. A transfer vesicle is therefore not a Golgi product but a Golgi input, which is the most often tested distinction. The Golgi packs, concentrates and stores protein, modifies it chemically by adding carbohydrate to make glycoprotein, forms secretory vesicles and primary lysosomes, and renews and maintains the cell membrane by sending membrane to it.
 ## explicit_objective
 Describe the Golgi stack and its two faces, say what arrives at each and what leaves, and list its functions.
 ## pitfalls
@@ -10924,9 +10924,9 @@ cytoskeleton-is-three-filament-systems
 ## definition
 The cytoskeleton is a complex network of microtubules, microfilaments and intermediate filaments, joined by linking proteins into a microtrabecular lattice that fills the cytosol. All three are non-membranous, and all three are beyond the resolution of the light microscope except by immunofluorescence. The centrioles, cilia and flagella are built by the microtubules and the microvilli and stereocilia by the microfilaments, so they are products of the cytoskeleton rather than a fourth element of it, and the thick filaments of muscle are a contractile apparatus rather than part of it.
 ## explicit_objective
-Name the three elements of the cytoskeleton and recognise what the books offer beside them that is not one.
+Name the three elements of the cytoskeleton and recognise what is offered beside them that is not one.
 ## pitfalls
-Admitting thick filaments to the cytoskeleton because thin filaments are in it. Thin filaments are the microfilaments; thick filaments are myosin of the muscle contractile apparatus, and the books use the pair as an "except" every time.
+Admitting thick filaments to the cytoskeleton because thin filaments are in it. Thin filaments are the microfilaments; thick filaments are myosin of the muscle contractile apparatus, and the pair is a recurring "except" option.
 ## concept_type
 classification
 ## status
@@ -11207,7 +11207,7 @@ A microfilament, or thin filament, is a fine strand 5–7 nm in diameter formed 
 ## explicit_objective
 Give the diameter and the protein of a microfilament, and list the movements and shape changes it performs.
 ## pitfalls
-Handing the mitotic spindle to the microfilament. The microfilament cleaves the cell at the end of division; the spindle that separates the chromosomes is microtubule, and the books put the two in the same "except" list.
+Handing the mitotic spindle to the microfilament. The microfilament cleaves the cell at the end of division; the spindle that separates the chromosomes is microtubule, and the two are a recurring "except" pair.
 ## concept_type
 structure_function_relationship
 ## status
@@ -12304,7 +12304,7 @@ CON-HEM-2C81CE9CF9F3D8
 ## canonical_key
 red-corpuscle-adaptation-to-gas-transport
 ## definition
-The department book prints the red corpuscle's adaptations as three rows: plasmalemma, shape and content. The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in. The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels. The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days. It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
+The red corpuscle's adaptations fall into three rows: plasmalemma, shape and content. The plasmalemma is flexible, so the cell squeezes through capillaries narrower than itself, and it is lipoprotein and therefore highly selective, letting the gases across while keeping the haemoglobin in. The shape is a biconcave disc with rounded edges, which gives a large surface area for the volume and lets the cell pass easily through branched vessels. The content is the third adaptation and it works by subtraction: there is no nucleus and there are no organelles — by electron microscopy the cell membrane is the only structure left — so the whole interior is free for haemoglobin, and the cell cannot divide and cannot repair itself, which is why it lasts only 120 days. It keeps enzymes: haemoglobin reductase to hold the iron in the state that binds oxygen, and carbonic anhydrase to carry carbon dioxide.
 ## explicit_objective
 Give the three adaptations of the red corpuscle to gas transport and say what each one buys and what it costs.
 ## pitfalls
@@ -12442,7 +12442,7 @@ CON-FND-05C930A781CE55
 ## canonical_key
 pas-and-best-carmine-demonstrate-carbohydrate
 ## definition
-Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best's carmine is the older stain for the same target and reddens glycogen specifically. The consequence the books trade on is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.
+Periodic acid–Schiff is a histochemical reaction for carbohydrate, and it stains what it finds magenta red: the glycogen of the liver and muscle cell, the mucus of the goblet cell, the sugar-rich type III collagen of the reticular fibre, the basement membrane, and the glycocalyx on the outer surface of the plasma membrane. Best's carmine is the older stain for the same target and reddens glycogen specifically. The consequence is that a PAS-positive result names a class of molecule, not a structure — so a question offering glycogen, fat and basement membrane against PAS is testing whether the student knows that fat is the one item on the list that is not a carbohydrate.
 ## explicit_objective
 Name the two stains that demonstrate carbohydrate and list the structures they redden.
 ## pitfalls
@@ -12846,9 +12846,9 @@ CON-DEV-3AB7E19B99F387
 ## canonical_key
 somite-period-dates-and-the-age-from-somite-number-formula
 ## definition
-The intra-embryonic mesoderm divides into its three parts on the 17th gestational day. The first pair of occipital somites separates on the 20th day, and from then three pairs are added each day until the 30th day; this stretch of regular segmentation, day 21 to day 30, is the somite period. Segmentation then continues at a slower and irregular rate until the 35th to 40th day, by which time 42–44 pairs are present. Because the rate is fixed while segmentation is regular, the number of somites dates the embryo, and the department book gives the arithmetic: age in days = (number of somites − 1) / 3 + 20.
+The intra-embryonic mesoderm divides into its three parts on the 17th gestational day. The first pair of occipital somites separates on the 20th day, and from then three pairs are added each day until the 30th day; this stretch of regular segmentation, day 21 to day 30, is the somite period. Segmentation then continues at a slower and irregular rate until the 35th to 40th day, by which time 42–44 pairs are present. Because the rate is fixed while segmentation is regular, the number of somites dates the embryo, and the arithmetic follows: age in days = (number of somites − 1) / 3 + 20.
 ## explicit_objective
-Give the day the first somite appears and the rate at which pairs are added, and use the book's formula to date an embryo from its somite count.
+Give the day the first somite appears and the rate at which pairs are added, and use the somite-age formula to date an embryo from its somite count.
 ## pitfalls
 Guessing the age instead of using the formula. Sixteen somites is not sixteen days or twenty-plus-sixteen; it is (16 − 1)/3 + 20 = 25 days, and the distractors are set one day either side so that only the arithmetic separates them.
 ## concept_type
@@ -12979,7 +12979,7 @@ superficial-fascia-features
 ## definition
 Superficial fascia is a layer of loose connective tissue just deep to the skin, allowing the skin to move more or less freely over the underlying structures. It contains a variable quantity of fat, more in females — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum. Its functions are to prevent heat loss as a thermal insulator; to soften and smooth the body surface; to facilitate movement of the skin over underlying structures; to act as the medium conducting nerves, vessels and lymphatics to the skin; to contain skin muscles, as the muscles of expression in the face; and to contain special glands such as the mammary glands.
 ## explicit_objective
-List the six functions of the superficial fascia the department book gives.
+List the six functions of the superficial fascia.
 ## pitfalls
 Giving fat storage as the function. The fat is the material; the functions are what the layer does with it — insulation, contour, mobility, conduction, and housing muscles and glands.
 ## concept_type
@@ -13374,11 +13374,11 @@ CON-DEV-AB990D329EBEC2
 ## canonical_key
 placental-functions-and-hormones
 ## definition
-The placenta exchanges metabolic products and the respiratory gases between mother and fetus, excretes fetal urea and creatinine, transmits maternal antibodies to the fetal blood so that the newborn has passive immunity, protects the fetus, and acts as an endocrine gland. Its hormones are progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum and is the hormone a pregnancy test detects; and somatomammotropin, which gives the fetus priority on maternal blood glucose and promotes breast development. The barrier keeps bacteria and most viruses out, but only most: the department book records named exceptions, so no statement that the placenta stops all viruses is true.
+The placenta exchanges metabolic products and the respiratory gases between mother and fetus, excretes fetal urea and creatinine, transmits maternal antibodies to the fetal blood so that the newborn has passive immunity, protects the fetus, and acts as an endocrine gland. Its hormones are progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum and is the hormone a pregnancy test detects; and somatomammotropin, which gives the fetus priority on maternal blood glucose and promotes breast development. The barrier keeps bacteria and most viruses out, but only most: named exceptions are recorded, so no statement that the placenta stops all viruses is true.
 ## explicit_objective
 List the functions of the placenta, name its four hormones and what each does, and state the limits of its protective role.
 ## pitfalls
-Reading the protective function as absolute. The word the book uses is "most" — some viruses cross, which is why rubella and similar infections in pregnancy matter, and a question offering "prevents the passage of all viruses" is offering an overstatement rather than a fact.
+Reading the protective function as absolute. The correct word is "most" — some viruses cross, which is why rubella and similar infections in pregnancy matter, and a question offering "prevents the passage of all viruses" is offering an overstatement rather than a fact.
 ## concept_type
 structure_function_relationship
 ## status
@@ -13422,7 +13422,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the following is correct regarding the functions of placenta (DEP BOOK)
+[asked 1x across the question books] One of the following is correct regarding the functions of placenta
 ## conflicts
 [clear]
 ## uncertainty
@@ -14218,7 +14218,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Placental barrier is the separation between (DEP BOOK) em em em em em
+[asked 1x across the question books] Placental barrier is the separation between em em em em em
 ## conflicts
 [clear]
 ## uncertainty
@@ -14295,7 +14295,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-The placenta goes wrong in six ways, and the department groups them by what is abnormal
+The placenta goes wrong in six ways, grouped by what is abnormal
 ## id
 CON-DEV-723B31B1B9ED2E
 ## canonical_key
@@ -14303,9 +14303,9 @@ placenta-anomalies
 ## definition
 The congenital anomalies of the placenta are grouped by what is abnormal about it: position, as in placenta previa; shape, bilobed or trilobed; number, twin or accessory placenta; attachment of the umbilical cord, velamentous where the cord is attached through the amniotic membrane and battledore where it is attached to the margin; diameter, as in placenta membranacea, which is thinner and wider; and infiltration, as accreta, increta and percreta.
 ## explicit_objective
-Enumerate the congenital anomalies of the placenta under the six headings the department book uses.
+Enumerate the congenital anomalies of the placenta under its six headings.
 ## pitfalls
-Listing names without the grouping. The book groups them by position, shape, number, cord attachment, diameter and infiltration, and the grouping is what makes six unrelated names recallable.
+Listing names without the grouping. They are grouped by position, shape, number, cord attachment, diameter and infiltration, and the grouping is what makes six unrelated names recallable.
 ## concept_type
 clinical_correlation
 ## status
@@ -14439,7 +14439,7 @@ The congenital anomalies of the umbilical cord are: a short cord, which limits f
 ## explicit_objective
 Enumerate the congenital anomalies of the umbilical cord and give the consequence of each.
 ## pitfalls
-Calling a false knot an anomaly. A false knot is a wider curve of an umbilical artery and the book says it causes no fetal stress; it is the true knot, in a long cord, that matters.
+Calling a false knot an anomaly. A false knot is a wider curve of an umbilical artery and it causes no fetal stress; it is the true knot, in a long cord, that matters.
 ## concept_type
 clinical_correlation
 ## status
@@ -14484,7 +14484,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Abnormally long umbilical cord may lead to (DEP BOOK - 2024) Ac ad Ac ad ad ad
+[asked 1x across the question books] Abnormally long umbilical cord may lead to Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -14571,7 +14571,7 @@ Amniotic fluid is a clear watery fluid of water, electrolytes, protein, carbohyd
 ## explicit_objective
 Enumerate the functions of amniotic fluid in early pregnancy, in late pregnancy and during delivery.
 ## pitfalls
-Giving cushioning alone. The book groups the functions by stage, and the delivery group — gradual cervical dilatation, the sign of labour, washing the birth canal — is a third of the answer.
+Giving cushioning alone. The functions are grouped by stage, and the delivery group — gradual cervical dilatation, the sign of labour, washing the birth canal — is a third of the answer.
 ## concept_type
 structure_function_relationship
 ## status
@@ -14747,7 +14747,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding the decidua basalis, one of the following statements is correct: (2018 – DEP BOOK)
+[asked 1x across the question books] Regarding the decidua basalis, one of the following statements is correct:
 ## conflicts
 [clear]
 ## uncertainty
@@ -14967,9 +14967,9 @@ CON-DEV-22C6EB6EB88448
 ## canonical_key
 second-week-day-by-day-timetable
 ## definition
-The department book gives the second week day by day. On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole. On the eighth day the blastocyst is partly embedded, the hypoblast forms, and the amniotic cavity appears within the rest of the inner cell mass, separating amnioblast from epiblast and completing the bilaminar disc. On the ninth and tenth the blastocyst is completely embedded, the breach is plugged by a fibrin clot, Heuser's membrane forms from the hypoblast and turns the blastocele into the primary yolk sac, and lacunar spaces appear in the syncytiotrophoblast. On the eleventh and twelfth the endometrial epithelium covers the clot and completes implantation, the lacunae fill with maternal blood as the utero-placental circulation, and extra-embryonic mesoderm appears from the yolk sac wall. On the thirteenth the spaces in that mesoderm run together into one chorionic cavity, the mesoderm divides into somatic and splanchnic, the secondary yolk sac replaces the primary, the allantois buds from it into the connecting stalk, and the primary chorionic villi begin.
+The second week runs day by day. On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole. On the eighth day the blastocyst is partly embedded, the hypoblast forms, and the amniotic cavity appears within the rest of the inner cell mass, separating amnioblast from epiblast and completing the bilaminar disc. On the ninth and tenth the blastocyst is completely embedded, the breach is plugged by a fibrin clot, Heuser's membrane forms from the hypoblast and turns the blastocele into the primary yolk sac, and lacunar spaces appear in the syncytiotrophoblast. On the eleventh and twelfth the endometrial epithelium covers the clot and completes implantation, the lacunae fill with maternal blood as the utero-placental circulation, and extra-embryonic mesoderm appears from the yolk sac wall. On the thirteenth the spaces in that mesoderm run together into one chorionic cavity, the mesoderm divides into somatic and splanchnic, the secondary yolk sac replaces the primary, the allantois buds from it into the connecting stalk, and the primary chorionic villi begin.
 ## explicit_objective
-Place each event of the second week on the day the book gives it, and say what the week does not yet produce.
+Place each event of the second week on the day it occurs, and say what the week does not yet produce.
 ## pitfalls
 Letting a third-week event into the second. The disc is bilaminar at the end of this week and does not become trilaminar until gastrulation, and the somites do not begin until the twentieth day — both are offered as second-week events in these books, and both are a week early.
 ## concept_type
@@ -15104,7 +15104,7 @@ The fetal period is the period from the beginning of the 9th week until birth. I
 ## explicit_objective
 State when the fetal period begins, in weeks and in months, and say what distinguishes it from the embryonic period.
 ## pitfalls
-Counting in months when the book counts in weeks, and landing a month early. The 9th week is the beginning of the 3rd month, not of the 2nd: weeks 1–4 are the first month and weeks 5–8 the second, so the eight weeks of the embryonic period fill two whole months and the fetal period starts as the third begins.
+Counting in months instead of weeks, and landing a month early. The 9th week is the beginning of the 3rd month, not of the 2nd: weeks 1–4 are the first month and weeks 5–8 the second, so the eight weeks of the embryonic period fill two whole months and the fetal period starts as the third begins.
 ## concept_type
 developmental_process
 ## status
@@ -15231,7 +15231,7 @@ CON-DEV-869FD1A9D3AEB7
 ## canonical_key
 fetal-head-to-body-proportion-changes-through-the-fetal-period
 ## definition
-The fetus is measured two ways: crown-rump length, the sitting height, and crown-heel length, from the vertex of the skull to the heel, which is the standing height. The head grows more slowly than the rest of the body through the fetal period, so its share of the whole falls on a schedule the book tabulates: at the beginning of the 3rd month the head is one half of the crown-rump length, at the beginning of the 5th month one third of the crown-heel length, and at birth one quarter of the crown-heel length. The head is still disproportionately large at birth by adult standards — an adult head is about one eighth of standing height — which is why the proportion is examined at all.
+The fetus is measured two ways: crown-rump length, the sitting height, and crown-heel length, from the vertex of the skull to the heel, which is the standing height. The head grows more slowly than the rest of the body through the fetal period, so its share of the whole falls on a fixed schedule: at the beginning of the 3rd month the head is one half of the crown-rump length, at the beginning of the 5th month one third of the crown-heel length, and at birth one quarter of the crown-heel length. The head is still disproportionately large at birth by adult standards — an adult head is about one eighth of standing height — which is why the proportion is examined at all.
 ## explicit_objective
 Give the head's fraction of body length at the beginning of the 3rd month, the beginning of the 5th month and at birth, and say which measurement each fraction is taken against.
 ## pitfalls
@@ -15366,7 +15366,7 @@ At full term — 38 weeks after fertilisation — the fetus weighs about 3000 to
 ## explicit_objective
 Give the weight of the fetus at full term, and place the smaller weights in the table at the preterm weeks they belong to.
 ## pitfalls
-Reading the answer off the wrong row of the growth table. 1400–2100 g is a real figure from that table and belongs to 28–32 weeks, which is why it is the distractor that catches most students — and why one printing of this question in the books is keyed to it in error.
+Reading the answer off the wrong row of the growth table. 1400–2100 g is a real figure from that table and belongs to 28–32 weeks, which is why it is the distractor that catches most students — and why one printing of this question is keyed to it in error.
 ## concept_type
 developmental_process
 ## status
@@ -15496,7 +15496,7 @@ fertilization-site-mechanism-results
 ## definition
 Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third. Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
 ## explicit_objective
-State where fertilisation occurs and give the four results the department book lists.
+State where fertilisation occurs and give its four results.
 ## pitfalls
 Saying the uterus. Fertilisation is tubal; the uterus is where the product of it implants, four days later.
 ## concept_type
@@ -18759,7 +18759,7 @@ ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Median vein of the forearm: (DEP BOOK)
+[asked 1x across the question books] Median vein of the forearm:
 ## conflicts
 [clear]
 ## uncertainty
@@ -19531,7 +19531,7 @@ CON-FND-677595D34287F6
 ## canonical_key
 named-exocrine-glands-in-the-combined-classification
 ## definition
-The book sets out the combined classification as nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar. The glands the question books place in them are the intestinal glands (crypts) as simple tubular, the fundic glands of the stomach as simple branched tubular, the sweat gland as simple coiled tubular, the collecting system of the kidney as compound tubular, the sebaceous gland as simple branched alveolar, and the salivary glands as compound tubulo-alveolar.
+The combined classification has nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar. Examples of glands in each form are the intestinal glands (crypts) as simple tubular, the fundic glands of the stomach as simple branched tubular, the sweat gland as simple coiled tubular, the collecting system of the kidney as compound tubular, the sebaceous gland as simple branched alveolar, and the salivary glands as compound tubulo-alveolar.
 ## explicit_objective
 Place a named gland in the combined classification, reading the duct term and the secretory-shape term separately.
 ## pitfalls
@@ -20203,11 +20203,11 @@ CON-HEM-FDAC2D5F64032E
 ## canonical_key
 lymphocyte-types-t-b-and-nk-and-the-immunity-each-mediates
 ## definition
-By function there are three lymphocytes, and the department book is explicit that they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.
+By function there are three lymphocytes, and they cannot be told apart by light or electron microscopy — only by their surface receptors. T lymphocytes are 60–80% of the lymphocytes and live for years; their stem cells leave the bone marrow for the thymus, where thymic education gives them their T-cell receptors, CD4 and CD8, and they mediate cell-mediated immunity. Their functional types are the cytotoxic CD8+ cell, which secretes perforins that make pores in virally infected, transplanted and neoplastic cells; the helper CD4+ cell, which activates the B cell; the regulatory or suppressor cell, which keeps the response off self antigens and damps an excessive one; and the memory cell. B lymphocytes are 20–30%, mature in the bone marrow in mammals and in the bursa of Fabricius in birds, carry receptors for IgM and IgD, and mediate humoral immunity by becoming plasma cells that secrete antibody. Natural killer cells are 5–10%, come from the precursors of T and B cells but never enter the thymus, carry neither T nor B receptors, act in innate early immunity without any helper T stimulation, and secrete interferon.
 ## explicit_objective
 Name the three functional lymphocytes, give the immunity each mediates and where each matures, and give the four functional types of T cell with their CD markers.
 ## pitfalls
-Trying to tell them apart down a microscope. The book says outright that all three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.
+Trying to tell them apart down a microscope. All three look alike by light and electron microscopy and differ only in their surface receptors, so every question about them is a question about markers — CD4 helper, CD8 cytotoxic — and never about appearance.
 ## concept_type
 classification
 ## status
@@ -21586,9 +21586,9 @@ CON-MSK-D193498AB94D21
 ## canonical_key
 anatomical-erect-position-is-the-reference-for-all-description
 ## definition
-The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally. Every term of position — anterior, medial, proximal — is stated as though the body were in it, whatever posture the patient is actually in. The other four positions the book names are clinical postures, not references: supine, lying on the back; prone, lying on the face; lithotomy, on the back with hip and knee flexed and the hips abducted; and lateral decubitus, lying on the right or left side.
+The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally. Every term of position — anterior, medial, proximal — is stated as though the body were in it, whatever posture the patient is actually in. The other four positions are clinical postures, not references: supine, lying on the back; prone, lying on the face; lithotomy, on the back with hip and knee flexed and the hips abducted; and lateral decubitus, lying on the right or left side.
 ## explicit_objective
-State the anatomical erect position in full and name the four other positions the department book defines.
+State the anatomical erect position in full and name its four other positions.
 ## pitfalls
 Forgetting the palms. Every other element of the position is the posture a person naturally stands in; supinated forearms are the one deliberate part, and it is the part examiners test.
 ## concept_type
@@ -21770,7 +21770,7 @@ ART-101-ANA-INTRODUCTION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+[asked 1x across the question books] The plane which divides the body into 2 equal halves right and left is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21853,7 +21853,7 @@ CON-MSK-A0C1F50FABDC0F
 ## canonical_key
 terms-of-position-medial-lateral-proximal-distal
 ## definition
-The department book tabulates fourteen terms of position. Median is exactly in the midline; medial is nearer to the median plane and lateral away from it. Proximal is nearer to the root of the limb and distal away from it. Anterior (ventral) is nearer the front and posterior (dorsal, retro-) nearer the back; superior (cranial) is upper and inferior (caudal) lower; external (outer) is near or on the surface and internal (inner) inside; superficial is towards the skin and deep away from it; peri- means around.
+There are fourteen terms of position. Median is exactly in the midline; medial is nearer to the median plane and lateral away from it. Proximal is nearer to the root of the limb and distal away from it. Anterior (ventral) is nearer the front and posterior (dorsal, retro-) nearer the back; superior (cranial) is upper and inferior (caudal) lower; external (outer) is near or on the surface and internal (inner) inside; superficial is towards the skin and deep away from it; peri- means around.
 ## explicit_objective
 Give the term for a stated relation, and name the reference — the median plane, the root of the limb, or the skin — that each pair is measured from.
 ## pitfalls
@@ -22309,7 +22309,7 @@ ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Sternoclavicular joint, choose the. correct answer: (DEP BOOK) Ac em
+[asked 1x across the question books] Sternoclavicular joint, choose the. correct answer: Ac em
 ## conflicts
 [clear]
 ## uncertainty
@@ -22930,7 +22930,7 @@ CON-FND-F4B7458F8B8265
 ## canonical_key
 plasma-membrane-unit-membrane-em-and-thickness
 ## definition
-The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. The books set it against three other membranous terms: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.
+The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. Three other membranous terms are worth distinguishing: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.
 ## explicit_objective
 Give the thickness of the plasma membrane in the right unit, describe its trilaminar appearance on electron microscopy, and name the stains that show it by light microscopy.
 ## pitfalls
@@ -23074,7 +23074,7 @@ CON-FND-9F0CCA2BFB5C7B
 ## canonical_key
 three-tissue-processing-techniques-compared
 ## definition
-The department book teaches three ways of turning a piece of tissue into a section, and prints them as a table of advantages against disadvantages. The paraffin technique is the most common: short preparation time, serial sections for research, very thin sections and easy staining — but xylol dissolves the fat out of the tissue and the heat destroys its enzymes, so it cannot show the chemical components of the cell. The celloidin technique is the most perfect: no heat, so fine detail and structure are preserved, and it suits large organs such as the eyeball and soft tissues such as brain — but it takes a long time, gives thick sections, gives no serial sections and stains poorly. The freezing technique is the most rapid, which is why it is used to diagnose a tumour while the surgeon waits, and it preserves enzymes, which is why every histochemical stain is done on a frozen section — but its sections are thick, hard to cut, not serial and not easily stained.
+There are three ways of turning a piece of tissue into a section, set out here as a table of advantages against disadvantages. The paraffin technique is the most common: short preparation time, serial sections for research, very thin sections and easy staining — but xylol dissolves the fat out of the tissue and the heat destroys its enzymes, so it cannot show the chemical components of the cell. The celloidin technique is the most perfect: no heat, so fine detail and structure are preserved, and it suits large organs such as the eyeball and soft tissues such as brain — but it takes a long time, gives thick sections, gives no serial sections and stains poorly. The freezing technique is the most rapid, which is why it is used to diagnose a tumour while the surgeon waits, and it preserves enzymes, which is why every histochemical stain is done on a frozen section — but its sections are thick, hard to cut, not serial and not easily stained.
 ## explicit_objective
 Name the three tissue-processing techniques, give the one advantage each is chosen for, and say which technique a named requirement — a serial section, a frozen enzyme, a rapid diagnosis — forces.
 ## pitfalls
@@ -23205,7 +23205,7 @@ CON-FND-22D6FA8D15AA45
 ## canonical_key
 haematoxylin-and-eosin-basophilia-and-acidophilia
 ## definition
-Haematoxylin and eosin is the commonest staining system in histology and the one every routine slide is made with. Haematoxylin is a basic blue dye, so it binds the acidic components of the cell, which are therefore called basophilic — the nucleus above all, rich in DNA and RNA, and the cytoplasm of a protein-forming cell, whose ribosomes are RNA. Eosin is an acidic pink or red dye and binds the basic structures of the cell, which are called acidophilic — most cytoplasm, and haemoglobin. The rule that follows is the one the books ask over and over: the nucleus is always basophilic, while the cytoplasm may be either, and which it is depends on how much RNA the cell is carrying.
+Haematoxylin and eosin is the commonest staining system in histology and the one every routine slide is made with. Haematoxylin is a basic blue dye, so it binds the acidic components of the cell, which are therefore called basophilic — the nucleus above all, rich in DNA and RNA, and the cytoplasm of a protein-forming cell, whose ribosomes are RNA. Eosin is an acidic pink or red dye and binds the basic structures of the cell, which are called acidophilic — most cytoplasm, and haemoglobin. The rule that follows is worth remembering: the nucleus is always basophilic, while the cytoplasm may be either, and which it is depends on how much RNA the cell is carrying.
 ## explicit_objective
 Say which dye of H&E is basic and which acidic, and predict from a structure's chemistry whether it will be basophilic or acidophilic.
 ## pitfalls
@@ -23336,7 +23336,7 @@ CON-FND-5F15B250FC19EC
 ## canonical_key
 stain-classes-neutral-vital-supravital-and-metachromatic
 ## definition
-Beyond H&E the department book names classes of stain, and the class is what the books examine. A neutral stain is a mixture of an acidic and a basic dye — Leishman's stain, eosin and methylene blue dissolved in methyl alcohol, which is also its fixative — and it is used for blood films, because a blood film holds both acidophilic and basophilic cells. A vital stain stains living cells inside the living animal, which the cell must take up itself: trypan blue and India ink demonstrate the macrophage because the macrophage phagocytoses them. A supravital stain stains living cells outside the body, and the standard example is brilliant cresyl blue on the reticulocyte. A metachromatic stain gives a colour different from the colour of the dye itself: toluidine blue, which is blue, stains the mucopolysaccharide granules of the mast cell and the blood basophil violet or purple.
+Beyond H&E there are named classes of stain, and the class is the examinable distinction. A neutral stain is a mixture of an acidic and a basic dye — Leishman's stain, eosin and methylene blue dissolved in methyl alcohol, which is also its fixative — and it is used for blood films, because a blood film holds both acidophilic and basophilic cells. A vital stain stains living cells inside the living animal, which the cell must take up itself: trypan blue and India ink demonstrate the macrophage because the macrophage phagocytoses them. A supravital stain stains living cells outside the body, and the standard example is brilliant cresyl blue on the reticulocyte. A metachromatic stain gives a colour different from the colour of the dye itself: toluidine blue, which is blue, stains the mucopolysaccharide granules of the mast cell and the blood basophil violet or purple.
 ## explicit_objective
 Define neutral, vital, supravital and metachromatic staining, and name the cell or preparation that is the standard example of each.
 ## pitfalls
@@ -23928,7 +23928,7 @@ CON-FND-AEAB45FAA2C33D
 ## canonical_key
 nucleus-shape-position-and-number-identify-the-cell
 ## definition
-Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many. The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline. The books use a fixed set of examples: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet. Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.
+Most cells have one nucleus; the liver cell has two; the osteoclast and skeletal muscle have many. The nucleus may be central, basal, peripheral or eccentric in position, and flat, rounded, oval, bilobed, segmented or multilobed, or kidney-shaped in outline. The standard examples are: the neutrophil has a multilobed segmented nucleus, the eosinophil a bilobed horse-shoe nucleus, the basophil an irregular S-shaped one, the monocyte a large kidney-shaped one, the large lymphocyte a large indented nucleus with a visible nucleolus and the small lymphocyte a dark round one, the megakaryocyte a single large multilobed dark nucleus, the plasma cell a cartwheel nucleus set eccentrically beside a pale Golgi area, and the unilocular fat cell a flattened nucleus pushed to the periphery by its single droplet. Nuclear level is used the same way: crowded columnar cells whose nuclei lie at more than one level are pseudostratified, not stratified.
 ## explicit_objective
 Name a cell from the number, position and shape of its nucleus, and use nuclear level to tell pseudostratified from stratified epithelium.
 ## pitfalls
@@ -25016,7 +25016,7 @@ Muscle tissue is characterised by contraction — the ability of its fibres to s
 ## explicit_objective
 Assign a muscle to one of the three types from its site, its control, its striations or its nerve supply.
 ## pitfalls
-Using striation alone to mean voluntary. Cardiac muscle is striated and involuntary at once, which is why the department book tabulates four columns rather than one.
+Using striation alone to mean voluntary. Cardiac muscle is striated and involuntary at once, which is why the muscle types are tabulated across four columns rather than one.
 ## concept_type
 classification
 ## status
@@ -25146,7 +25146,7 @@ skeletal-muscle-form-classification-by-fibre-direction
 ## definition
 Skeletal muscles are classified by the arrangement of their fibres. Parallel or strap-like muscles have fibres running the length of the muscle — sartorius is the example, and rectus abdominis is a strap muscle interrupted by tendinous intersections. Pennate muscles have fibres set obliquely on a tendon like the barbs of a feather: unipennate with the tendon along one side, as in flexor pollicis longus; bipennate with the tendon in the middle and fibres on both sides, as in rectus femoris; and multipennate, with several tendinous septa, as in deltoid. Pennation packs more and shorter fibres into the same volume, so a pennate muscle is powerful but moves through a smaller range than a strap muscle of the same size.
 ## explicit_objective
-Classify a named muscle by the arrangement of its fibres, and give the example the book uses for each class.
+Classify a named muscle by the arrangement of its fibres, and give an example of each class.
 ## pitfalls
 Reading pennation as a way of gaining range. It buys power at the cost of range; the strap muscle is the one built for range.
 ## concept_type
@@ -25282,7 +25282,7 @@ muscle-action-roles-prime-mover-antagonist-fixator-synergist
 ## definition
 No purposeful movement is done by one muscle; a group acts together, and by role there are four types of muscle action. The prime mover, or agonist, initiates and maintains the movement. The antagonist opposes the action of the prime mover. The fixator, or stabiliser, fixes the origin of the prime mover, or stabilises the joint on which it acts, so that the pull has something to work against. The synergist contracts to eliminate unwanted movements at the other joints the prime mover crosses, so that its action on the joint that matters becomes maximal.
 ## explicit_objective
-Name the role a muscle is playing in a described movement, and give the department book's definition of each of the four roles.
+Name the role a muscle is playing in a described movement, and give the defined role of each of the four types.
 ## pitfalls
 Merging fixator and synergist because both are "helpers". The fixator holds the prime mover's origin still; the synergist cancels the prime mover's effect at a joint it crosses on the way.
 ## concept_type
@@ -25331,7 +25331,7 @@ direct_statement
 ## original_wording
 [asked 3x across the question books] The muscle which initiate a certain movement, is called: (2022 - 2023). Ac ad Ac ad ad ad
 ## conflicts
-`which-of-the-following-terms-describes-a-muscle-that-assists-ef68e5d8` is keyed to "antagonist" for a stem asking which muscle assists the prime mover. The department chapter defines the antagonist as the muscle that *opposes* the prime mover, and the synergist as the one that acts so the prime mover's action becomes maximal.
+`which-of-the-following-terms-describes-a-muscle-that-assists-ef68e5d8` is keyed to "antagonist" for a stem asking which muscle assists the prime mover. The antagonist is defined as the muscle that *opposes* the prime mover, and the synergist as the one that acts so the prime mover's action becomes maximal.
 ## uncertainty
 [clear]
 ## evidence_gaps
@@ -25597,7 +25597,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book does not say whether myo-epithelial cells are ectodermal in origin, nor whether they contain smooth-muscle actin. Both are standard in general histology and neither is stated by this faculty's own source, so neither is taught here.
+Whether myo-epithelial cells are ectodermal in origin, and whether they contain smooth-muscle actin, is left open here. Both are standard in general histology, but neither is stated in the course material, so neither is taught.
 ## arabic_label
 
 ## arabic_aliases
@@ -26892,7 +26892,7 @@ CON-FND-B6BD265FBD8B5F
 ## canonical_key
 neuro-epithelium-is-epithelium-modified-as-receptor
 ## definition
-Neuro-epithelium is a special type of epithelial tissue whose cells — the sensory cells — are modified to act as receptors and receive the stimulus for some sensation. It is one of the four classes of epithelial tissue the book recognises, alongside surface, glandular and myo-epithelium. The example the book gives is the taste buds of the tongue, which receive the sensation of taste.
+Neuro-epithelium is a special type of epithelial tissue whose cells — the sensory cells — are modified to act as receptors and receive the stimulus for some sensation. It is one of the four classes of epithelial tissue, alongside surface, glandular and myo-epithelium. The standard example is the taste buds of the tongue, which receive the sensation of taste.
 ## explicit_objective
 Define neuro-epithelium as epithelium modified for a sensory function, and name the taste bud as its example.
 ## pitfalls
@@ -26947,7 +26947,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book names only the taste bud. It does not extend neuro-epithelium to the olfactory mucosa, the retina or the hair cells of the inner ear, all of which general histology includes. Only the taste bud is taught here, because only the taste bud is this faculty's stated example.
+Only the taste bud is named here. Neuro-epithelium is not extended to the olfactory mucosa, the retina or the hair cells of the inner ear, all of which general histology includes. Only the taste bud is taught in this course, and only the taste bud is examinable.
 ## arabic_label
 
 ## arabic_aliases
@@ -27156,7 +27156,7 @@ CON-HEM-667148E42AB738
 ## canonical_key
 lymphocyte-alone-among-blood-cells-still-divides
 ## definition
-Mature blood cells are, with one exception, end cells. The erythrocyte and the platelet have no nucleus at all; the granulocyte and the monocyte leave the blood, do their work and die there. The lymphocyte keeps a full nucleus, proliferates when it meets its antigen to give a clone of effector and memory cells, and is actively motile, circulating continuously between the blood and the lymphoid organs — the department states it is the only cell that can return to the blood.
+Mature blood cells are, with one exception, end cells. The erythrocyte and the platelet have no nucleus at all; the granulocyte and the monocyte leave the blood, do their work and die there. The lymphocyte keeps a full nucleus, proliferates when it meets its antigen to give a clone of effector and memory cells, and is actively motile, circulating continuously between the blood and the lymphoid organs — it is the only cell that can return to the blood.
 ## explicit_objective
 Explain why the lymphocyte, alone among the circulating blood cells, can still divide.
 ## pitfalls
@@ -27495,7 +27495,7 @@ direct_statement
 ## conflicts
 [clear]
 ## uncertainty
-One book asks which granulocyte shows most euchromatin and which most heterochromatin, keying the eosinophil and basophil for the first and the neutrophil for the second. All three granulocyte nuclei are substantially condensed, and no statement in the department book ranks them. The pair is authored to the book's own keys and this note records that the ranking is the book's, not the chapter's.
+One book asks which granulocyte shows most euchromatin and which most heterochromatin, keying the eosinophil and basophil for the first and the neutrophil for the second. All three granulocyte nuclei are substantially condensed, and no statement in the course material ranks them. The pair is authored to the book's own keys and this note records that the ranking is the book's, not the chapter's.
 ## evidence_gaps
 [clear]
 ## arabic_label
@@ -27574,7 +27574,7 @@ CON-FND-30573B6D0A9AFD
 ## canonical_key
 nucleolus-parts-and-ribosome-formation
 ## definition
-The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane. By electron microscopy it is spongy, with dark areas and light areas. The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA. Pars fibrosa and pars granulosa together are called the nucleolonema. The light areas are nucleolar sap. The nucleolus forms ribosomal RNA and assembles the ribosomal subunits, which then pass out through the nuclear pores to the cytoplasm; a large nucleolus therefore means a cell making a great deal of protein, and the department book notes that large nucleoli are found in rapidly growing malignant cells.
+The nucleolus is a rounded, deeply basophilic mass rich in nucleic acid, surrounded by chromatin, usually one or two per nucleus, and it is not limited by any membrane. By electron microscopy it is spongy, with dark areas and light areas. The dark areas are three: the pars amorpha, or nucleolar organiser, which is the part of the chromosomes carrying the DNA that encodes rRNA; the pars fibrosa, strands of newly synthesised rRNA; and the pars granulosa, granules of mature rRNA. Pars fibrosa and pars granulosa together are called the nucleolonema. The light areas are nucleolar sap. The nucleolus forms ribosomal RNA and assembles the ribosomal subunits, which then pass out through the nuclear pores to the cytoplasm; a large nucleolus therefore means a cell making a great deal of protein, and large nucleoli are found in rapidly growing malignant cells.
 ## explicit_objective
 Name the three dark parts of the nucleolus and say what each represents, and explain what the nucleolus produces.
 ## pitfalls
@@ -27715,7 +27715,7 @@ CON-FND-BC0AAA59F11F66
 ## canonical_key
 nucleus-parts-and-functions-including-nuclear-sap
 ## definition
-The nucleus is the largest component of the cell, and the department book states that the red blood corpuscle and the platelet, which lack one, are not true cells. It is made of four things: the nuclear membrane or envelope, the chromatin material, the nucleolus, and the nuclear sap — a colloidal solution filling the space between the chromatin and the nucleolus, formed of nucleoproteins, enzymes, sugars and calcium, potassium and phosphorus ions, which provides the medium through which RNA is carried to the nuclear pores. The nucleus carries all the genetic information and hereditary factors, controls every cell function including protein synthesis, is responsible for the formation of RNA, and directs cell division.
+The nucleus is the largest component of the cell, and the red blood corpuscle and the platelet, which lack one, are not true cells. It is made of four things: the nuclear membrane or envelope, the chromatin material, the nucleolus, and the nuclear sap — a colloidal solution filling the space between the chromatin and the nucleolus, formed of nucleoproteins, enzymes, sugars and calcium, potassium and phosphorus ions, which provides the medium through which RNA is carried to the nuclear pores. The nucleus carries all the genetic information and hereditary factors, controls every cell function including protein synthesis, is responsible for the formation of RNA, and directs cell division.
 ## explicit_objective
 Name the four structural parts of the nucleus, say what the nuclear sap is and does, and list the functions of the nucleus.
 ## pitfalls
@@ -27846,7 +27846,7 @@ CON-FND-5097CA5BAB2E51
 ## canonical_key
 chromosomal-abnormalities-and-the-syndromes-they-cause
 ## definition
-The department book teaches that chromosomal alterations are associated with tumours and with genetic diseases, and its question books examine four by name. Down syndrome is trisomy 21 — an extra chromosome 21. Turner syndrome affects females and has an XO sex chromosome constitution, so the somatic cells hold 45 chromosomes and the genital system is underdeveloped. Klinefelter syndrome affects males and is XXY, so the somatic cells hold 47 chromosomes. Cri-du-chat syndrome is a partial deletion of the short arm of chromosome 5.
+Chromosomal alterations are associated with tumours and with genetic diseases, and the question books examine four by name. Down syndrome is trisomy 21 — an extra chromosome 21. Turner syndrome affects females and has an XO sex chromosome constitution, so the somatic cells hold 45 chromosomes and the genital system is underdeveloped. Klinefelter syndrome affects males and is XXY, so the somatic cells hold 47 chromosomes. Cri-du-chat syndrome is a partial deletion of the short arm of chromosome 5.
 ## explicit_objective
 Give the chromosomal fault behind Down, Turner, Klinefelter and cri-du-chat syndromes, and say which sex each affects.
 ## pitfalls
@@ -28033,7 +28033,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book names the Barr body once, in the granular leukocyte chapter, only to say that one can be seen in 3-6% of female neutrophils. It nowhere states that the Barr body is an inactivated X chromosome, and it gives no sex-chromosome constitution for Turner or Klinefelter beyond XO and XXY in the nucleus chapter's clinical note. The 2020 end-of-module paper set the question anyway, so the concept is minted from a sat paper and this note records that the inactivation rule itself is not in the faculty's text.
+The Barr body is named once, in the granular leukocyte chapter, only to say that one can be seen in 3-6% of female neutrophils. Nowhere is it stated that the Barr body is an inactivated X chromosome, and no sex-chromosome constitution is given for Turner or Klinefelter beyond XO and XXY in the nucleus chapter's clinical note. The 2020 end-of-module paper set the question anyway, so the concept is minted from a sat paper and this note records that the inactivation rule itself is not in the course text.
 ## arabic_label
 
 ## arabic_aliases
@@ -28164,7 +28164,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book names none of these structures: kinetochore, centromere and telomere appear nowhere in its text, and its nucleus chapter stops at chromatin, nucleolus and nuclear sap. The 2020 end-of-module paper set a four-option kinetochore question whose distractors are the telomere twice over, so the concept is minted from a sat paper and this note records that the answer rests on the standard definitions rather than on the faculty's own text.
+None of these structures are named in the course material: kinetochore, centromere and telomere appear nowhere in its text, and its nucleus chapter stops at chromatin, nucleolus and nuclear sap. The 2020 end-of-module paper set a four-option kinetochore question whose distractors are the telomere twice over, so the concept is minted from a sat paper and this note records that the answer rests on the standard definitions rather than on the course text.
 ## arabic_label
 
 ## arabic_aliases
@@ -28420,7 +28420,7 @@ ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Principal muscle concerned in lateral rotation of the shoulder: (DEP BOOK) Ac ad Ac ad ad ad
+[asked 1x across the question books] Principal muscle concerned in lateral rotation of the shoulder: Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -28507,7 +28507,7 @@ The apical specialisations differ in their core and in what they do. A microvill
 ## explicit_objective
 Tell a microvillus, a stereocilium and a cilium apart by their core filament, their motility and their function, and name the light-microscopic appearance of each.
 ## pitfalls
-Reading "stereocilium" as a kind of cilium. The name says cilium and the structure is a microvillus — long, actin-cored and motionless — and the book says so explicitly.
+Reading "stereocilium" as a kind of cilium. The name says cilium and the structure is a microvillus — long, actin-cored and motionless — and this is explicit.
 ## concept_type
 comparison
 ## status
@@ -28571,7 +28571,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book gives no length or diameter for a microvillus, a stereocilium, a cilium or a flagellum, so "short" and "long" here are relative to each other and not to a stated figure.
+No length or diameter is given for a microvillus, a stereocilium, a cilium or a flagellum, so "short" and "long" here are relative to each other and not to a stated figure.
 ## arabic_label
 
 ## arabic_aliases
@@ -28708,7 +28708,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book names no transmembrane protein family for any junction — no occludin or claudin appears — and describes them only as transmembrane protein molecules.
+No transmembrane protein family is named for any junction — no occludin or claudin appears — they are described only as transmembrane protein molecules.
 ## arabic_label
 
 ## arabic_aliases
@@ -28926,7 +28926,7 @@ Where the first three lateral junctions occur together between adjacent cells, r
 ## explicit_objective
 Name the three junctions of the junctional complex, in order from the apex, and say which junction is excluded from it.
 ## pitfalls
-Counting four. The book recognises four lateral junctions and three members of the complex, and the one left out is the gap junction — the only one that is not an adhesion or a seal.
+Counting four. There are four lateral junctions and three members of the complex, and the one left out is the gap junction — the only one that is not an adhesion or a seal.
 ## concept_type
 classification
 ## status
@@ -29056,7 +29056,7 @@ CON-FND-D716C3939DB217
 ## canonical_key
 basal-infoldings-serve-ion-transport
 ## definition
-Basal infoldings are invaginations of the basal cell membrane that increase the surface area available for transport. Mitochondria are arranged vertically in the compartments between them, supplying on the spot the energy that active transport needs. They are therefore found in ion-transporting cells, of which the book's example is the cells of the kidney tubules.
+Basal infoldings are invaginations of the basal cell membrane that increase the surface area available for transport. Mitochondria are arranged vertically in the compartments between them, supplying on the spot the energy that active transport needs. They are therefore found in ion-transporting cells, of which the standard example is the cells of the kidney tubules.
 ## explicit_objective
 Explain why basal infoldings and vertically arranged mitochondria occur together, and name the cells that have them.
 ## pitfalls
@@ -29244,7 +29244,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The department book describes the consequences without naming the disease. "Immotile cilia syndrome" appears in the question books as an option and is used here because they use it, not because this faculty's text does.
+The consequences are described without naming the disease. "Immotile cilia syndrome" appears in the question books as an option and is used here because they use it, not because the course text does.
 ## arabic_label
 
 ## arabic_aliases
@@ -29321,11 +29321,11 @@ CON-HEM-11ABCB9BFB7F06
 ## canonical_key
 red-corpuscle-count-life-span-and-polycythaemia
 ## definition
-The average red corpuscle count is 5 million per cubic millimetre: 4.5–5.5 million in the adult male and 4–5 million in the adult female, the difference being the stimulating effect of the male hormones on the bone marrow. The count is highest in the newborn and falls gradually. The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused. Below 4 million per cubic millimetre, or with a low haemoglobin concentration, is anaemia; above 6 million is polycythaemia, which the book divides into physiological — high altitude, muscular exercise, the newborn — and pathological, in chronic lung and heart disease. Both are the body answering hypoxia by driving the marrow.
+The average red corpuscle count is 5 million per cubic millimetre: 4.5–5.5 million in the adult male and 4–5 million in the adult female, the difference being the stimulating effect of the male hormones on the bone marrow. The count is highest in the newborn and falls gradually. The cell lives about 120 days and is then phagocytosed by macrophages in liver, spleen and bone marrow, its pigment excreted as bile pigment and its iron reused. Below 4 million per cubic millimetre, or with a low haemoglobin concentration, is anaemia; above 6 million is polycythaemia, divided into physiological — high altitude, muscular exercise, the newborn — and pathological, in chronic lung and heart disease. Both are the body answering hypoxia by driving the marrow.
 ## explicit_objective
 Give the normal red corpuscle count and life span, and say what number and what cause define anaemia and each kind of polycythaemia.
 ## pitfalls
-Calling chronic lung disease a physiological polycythaemia because the mechanism is the same. The book divides them by whether the hypoxia is normal for the situation — a mountain, exercise, being newly born — or the result of disease.
+Calling chronic lung disease a physiological polycythaemia because the mechanism is the same. The two are distinguished by whether the hypoxia is normal for the situation — a mountain, exercise, being newly born — or the result of disease.
 ## concept_type
 classification
 ## status
@@ -29857,7 +29857,7 @@ CON-HEM-C79EA8644C0C9C
 ## canonical_key
 named-anaemias-aplastic-pernicious-and-sickle-cell
 ## definition
-The department book names three anaemias. Aplastic anaemia is destruction or depression of the bone marrow by irradiation or chemotherapy, so every line fails at once — a pancytopenia. Pernicious anaemia is a deficiency of vitamin B12 caused by the stomach's failure to produce intrinsic factor, without which the vitamin cannot be absorbed. Sickle cell anaemia is an abnormal, rigid haemoglobin, HbS, arising from a mutation in the DNA that encodes the globin chain; the haemoglobin piles up at one side of the cell and pulls it into a crescent, and the rigid abnormal cell is fragile and haemolyses. Each is named for where the failure is, not for what the blood film shows.
+Three anaemias are named here. Aplastic anaemia is destruction or depression of the bone marrow by irradiation or chemotherapy, so every line fails at once — a pancytopenia. Pernicious anaemia is a deficiency of vitamin B12 caused by the stomach's failure to produce intrinsic factor, without which the vitamin cannot be absorbed. Sickle cell anaemia is an abnormal, rigid haemoglobin, HbS, arising from a mutation in the DNA that encodes the globin chain; the haemoglobin piles up at one side of the cell and pulls it into a crescent, and the rigid abnormal cell is fragile and haemolyses. Each is named for where the failure is, not for what the blood film shows.
 ## explicit_objective
 Name the cause of aplastic, pernicious and sickle cell anaemia and place each failure at its own step.
 ## pitfalls
@@ -29992,11 +29992,11 @@ CON-HEM-0EBFB178160067
 ## canonical_key
 blood-is-a-connective-tissue-of-cells-in-a-fluid-matrix
 ## definition
-Blood is a special type of connective tissue circulating inside blood vessels, made of cells and an extracellular fluid matrix called plasma — 45% cells and 55% plasma. Its formed elements are three: the erythrocytes or red blood corpuscles, the leukocytes or white blood cells, and the thrombocytes or platelets. The book adds that the red corpuscle and the platelet are not true cells, the one having lost its nucleus and the other never having been more than a fragment of a megakaryocyte. Blood is examined as a film — a drop spread on a slide, air-dried and stained with a neutral stain such as Leishman's.
+Blood is a special type of connective tissue circulating inside blood vessels, made of cells and an extracellular fluid matrix called plasma — 45% cells and 55% plasma. Its formed elements are three: the erythrocytes or red blood corpuscles, the leukocytes or white blood cells, and the thrombocytes or platelets. The red corpuscle and the platelet are not true cells, the one having lost its nucleus and the other never having been more than a fragment of a megakaryocyte. Blood is examined as a film — a drop spread on a slide, air-dried and stained with a neutral stain such as Leishman's.
 ## explicit_objective
 Name the three formed elements of blood and say what makes blood a connective tissue.
 ## pitfalls
-Excluding platelets because they are not cells. They are one of the three formed elements all the same, and the book says so in the same sentence in which it denies them cellhood.
+Excluding platelets because they are not cells. They are one of the three formed elements all the same, even while denying them cellhood in the same breath.
 ## concept_type
 classification
 ## status
@@ -30279,7 +30279,7 @@ On the eighth day the cells of the embryoblast facing the blastocele become cubo
 ## explicit_objective
 Name the two layers of the bilaminar disc and the two cell populations the amniotic cavity separates, and say which of them all three germ layers come from.
 ## pitfalls
-Making the hypoblast the source of the endoderm. It looks like the lower layer becoming the lower layer, and it is wrong — the epiblast supplies all three, which the book states as a point in its own right.
+Making the hypoblast the source of the endoderm. It looks like the lower layer becoming the lower layer, and it is wrong — the epiblast supplies all three, stated here as a point in its own right.
 ## concept_type
 structural_description
 ## status
@@ -30461,7 +30461,7 @@ ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Somatic extraembryonic mesoderm (DEP BOOK)
+[asked 1x across the question books] Somatic extraembryonic mesoderm
 ## conflicts
 [clear]
 ## uncertainty
@@ -30594,7 +30594,7 @@ ART-101-ANA-IMPLANTATION | ART-101-ANA-EMBRYONIC-FOLDING
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
+[asked 2x across the question books] Regarding the somites, choose the true statement:
 ## conflicts
 [clear]
 ## uncertainty
@@ -31205,7 +31205,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Bones fall into six shape classes, and the department book names one worked example of each
+Bones fall into six shape classes, each with one worked example
 ## id
 CON-MSK-00B4A0D32A6420
 ## canonical_key
@@ -31213,7 +31213,7 @@ bone-shapes-six-classes-with-examples
 ## definition
 By shape there are six classes of bone. A long bone has two expanded ends and a shaft. A short bone — the carpal and tarsal bones — is spongy bone under a thin shell of compact bone. A flat bone — the skull cap, the scapula, the ribs — is two thin plates of compact bone with a spongy layer between; in the skull the plates are the outer and inner tables and the spongy layer is the diploe. A pneumatic bone contains air cavities, chiefly the skull bones around the nose. An irregular bone, such as a vertebra, has an irregular shape with projecting processes and is built like a short bone. A sesamoid bone is a small nodule of bone embedded in a muscle tendon; the patella, in the tendon of quadriceps femoris, is the largest.
 ## explicit_objective
-Classify a named bone into one of the six shape classes, and give the book's example of each class.
+Classify a named bone into one of the six shape classes, and give an example of each class.
 ## pitfalls
 Calling the patella a short bone because it is small and rounded. Its class is decided by where it sits — inside a tendon — not by its size.
 ## concept_type
@@ -31616,7 +31616,7 @@ A long bone increases in length from the epiphysial plates of cartilage, by prol
 ## explicit_objective
 Name the structure that lengthens a long bone, the one that widens it, and say what makes one end the growing end.
 ## pitfalls
-Answering "metaphysis" because the book calls it the most active part of the bone. Activity is not the same as growth: the cartilage cells of the plate divide, and the metaphysis is the bone left behind as they do.
+Answering "metaphysis" because it is the most active part of the bone. Activity is not the same as growth: the cartilage cells of the plate divide, and the metaphysis is the bone left behind as they do.
 ## concept_type
 structure_function_relationship
 ## status
@@ -31747,7 +31747,7 @@ ossification-membranous-versus-cartilaginous
 ## definition
 Bones form by one of two processes. In intra-membranous ossification bone develops directly from a connective tissue membrane of mesenchyme, beginning at one or more centres; the clavicle and the skull cap form this way. In intra-cartilaginous (endochondral) ossification the mesenchyme first becomes a cartilage model, which is then changed into bone; the long bones, the vertebrae, the ribs and the base of the skull form this way.
 ## explicit_objective
-Say by which of the two processes a named bone ossifies, and give the book's examples of each.
+Say by which of the two processes a named bone ossifies, and give an example of each.
 ## pitfalls
 Reading the clavicle as a long bone and therefore cartilaginous. It is the standing exception the examiner uses: shaped like a long bone, but ossified in membrane.
 ## concept_type
@@ -32200,7 +32200,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The question books extend neuro-epithelium to the organ of Corti. The department book names only the taste bud, so the organ of Corti is taught here because a keyed question uses it and not because this faculty's text supports it.
+The question books extend neuro-epithelium to the organ of Corti. Only the taste bud is named in the course material, so the organ of Corti is taught here because a keyed question uses it and not because the course text supports it.
 ## arabic_label
 
 ## arabic_aliases
@@ -32701,7 +32701,7 @@ CON-FND-68DA70C4BBE2A1
 ## canonical_key
 pseudostratified-columnar-epithelium-is-simple-and-has-three-forms
 ## definition
-Pseudostratified columnar epithelium looks stratified and is not. All its cells rest on the basement membrane, but some do not reach the surface, and crowding puts the nuclei at more than one level, giving a false appearance of layering; the book classifies it among the simple epithelia. It has three forms. Non-ciliated lines the vas deferens and the membranous urethra. Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland. Ciliated with non-motile cilia — stereocilia, which are long microvilli and not true cilia — lines the epididymis.
+Pseudostratified columnar epithelium looks stratified and is not. All its cells rest on the basement membrane, but some do not reach the surface, and crowding puts the nuclei at more than one level, giving a false appearance of layering, and it is classified among the simple epithelia. It has three forms. Non-ciliated lines the vas deferens and the membranous urethra. Ciliated with motile cilia and goblet cells is the respiratory epithelium of the nose, trachea and bronchi, the goblet cell being a unicellular mucous gland. Ciliated with non-motile cilia — stereocilia, which are long microvilli and not true cilia — lines the epididymis.
 ## explicit_objective
 Explain why pseudostratified epithelium counts as simple, and name the site of each of its three forms.
 ## pitfalls
@@ -34004,7 +34004,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-This module's department book has no nervous tissue histology at all — its nervous system chapter is gross anatomy, and the words multipolar, bipolar, unipolar and Purkinje appear nowhere in the text. The 2020 end-of-module paper nevertheless asked where multipolar nerve cells are found, so the concept is minted from a sat paper, and the answer rests on the standard classification rather than on any statement of this faculty's. It is filed under the cytology leaf because it is a question about cell shape and because no histology leaf of 101 ISK covers nervous tissue; when a nervous tissue leaf exists, the row should be re-homed to it.
+This module's course material has no nervous tissue histology at all — its nervous system chapter is gross anatomy, and the words multipolar, bipolar, unipolar and Purkinje appear nowhere in the text. The 2020 end-of-module paper nevertheless asked where multipolar nerve cells are found, so the concept is minted from a sat paper, and the answer rests on the standard classification rather than on any statement in the course text. It is filed under the cytology leaf because it is a question about cell shape and because no histology leaf of 101 ISK covers nervous tissue; when a nervous tissue leaf exists, the row should be re-homed to it.
 ## arabic_label
 
 ## arabic_aliases
@@ -34085,7 +34085,7 @@ Gastrulation is the transformation of the bilaminar embryonic disc into a trilam
 ## explicit_objective
 Define gastrulation, date the primitive streak, name the layer all three germ layers arise from, and say where intra-embryonic mesoderm is present and where it is absent.
 ## pitfalls
-Deriving the endoderm from the hypoblast. The hypoblast is displaced, not converted — every layer of the trilaminar disc comes from the epiblast, and the book states it as a point in its own right.
+Deriving the endoderm from the hypoblast. The hypoblast is displaced, not converted — every layer of the trilaminar disc comes from the epiblast, stated here as a point in its own right.
 ## concept_type
 developmental_process
 ## status
@@ -34214,7 +34214,7 @@ CON-DEV-4BC4233153C3DC
 ## canonical_key
 neural-plate-and-the-ectodermal-origin-of-the-nervous-system
 ## definition
-The central nervous system is a derivative of ectoderm. In the median plane of the ectoderm overlying the notochord, and induced by it, the cells thicken into the neural plate. The plate's median part sinks to form the neural groove, with a neural fold rising on either side; the folds meet and fuse, converting the groove into the neural tube. Fusion begins in the middle of the embryo and travels both cranially and caudally, so the ends are the last to shut — the cranial neuropore closes before the caudal one. Cells at the crest of each fold separate as they fuse and become the neural crest, whose derivatives include the sensory ganglia and much of the peripheral nervous system, and which is the source of the "derivatives of the neural crest" the department book lists beside the central nervous system among the ectodermal derivatives.
+The central nervous system is a derivative of ectoderm. In the median plane of the ectoderm overlying the notochord, and induced by it, the cells thicken into the neural plate. The plate's median part sinks to form the neural groove, with a neural fold rising on either side; the folds meet and fuse, converting the groove into the neural tube. Fusion begins in the middle of the embryo and travels both cranially and caudally, so the ends are the last to shut — the cranial neuropore closes before the caudal one. Cells at the crest of each fold separate as they fuse and become the neural crest, whose derivatives include the sensory ganglia and much of the peripheral nervous system, and which is the source of the "derivatives of the neural crest" listed beside the central nervous system among the ectodermal derivatives.
 ## explicit_objective
 Name the germ layer the neural plate is a thickening of, say what induces it, and give the order in which the neural tube closes.
 ## pitfalls
@@ -34270,7 +34270,7 @@ direct_statement
 ## uncertainty
 [clear]
 ## evidence_gaps
-The extraction of the department book carries no account of neurulation at all: no neural plate, no neural groove, no neural tube closure and no neuropores. The book names the central nervous system and the neural crest derivatives in its list of ectodermal derivatives on page 87 and stops there. Four rows of this leaf examine the process anyway, so the explanations are written to standard teaching rather than to a departmental source, and a reviewer should check them against the lecture material.
+The course material carries no account of neurulation at all: no neural plate, no neural groove, no neural tube closure and no neuropores. It names the central nervous system and the neural crest derivatives in its list of ectodermal derivatives and stops there. Four rows of this leaf examine the process anyway, so the explanations are written to standard teaching rather than to the course material, and a reviewer should check them against the lecture material.
 ## arabic_label
 
 ## arabic_aliases
@@ -34347,7 +34347,7 @@ CON-DEV-C84AD85AB265CC
 ## canonical_key
 germ-layer-derivatives-ectoderm-and-endoderm
 ## definition
-The department book lists the derivatives of two germ layers directly. From ectoderm come the central nervous system; the derivatives of the neural crest; the otic and lens placodes, which form the internal ear and the lens; the peripheral nerves and the sensory epithelium of ear, nose and eye; the epidermis of the skin; the pituitary gland; and the beginning and end of the digestive tract. From endoderm come two kinds of epithelium: the mucous lining of the digestive system apart from its beginning and end, of the respiratory tract, of most of the urinary bladder and urethra, and of the tympanic cavity and Eustachian tube; and the glandular epithelium that is the parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid glands. Mesoderm is not given as a matching list but through the three divisions of the intra-embryonic mesoderm.
+The derivatives of two germ layers are listed directly. From ectoderm come the central nervous system; the derivatives of the neural crest; the otic and lens placodes, which form the internal ear and the lens; the peripheral nerves and the sensory epithelium of ear, nose and eye; the epidermis of the skin; the pituitary gland; and the beginning and end of the digestive tract. From endoderm come two kinds of epithelium: the mucous lining of the digestive system apart from its beginning and end, of the respiratory tract, of most of the urinary bladder and urethra, and of the tympanic cavity and Eustachian tube; and the glandular epithelium that is the parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid glands. Mesoderm is not given as a matching list but through the three divisions of the intra-embryonic mesoderm.
 ## explicit_objective
 Assign an organ or a tissue to the germ layer it comes from, and separate the endodermal parenchymas from the mesodermal stroma that supports them.
 ## pitfalls
@@ -34616,7 +34616,7 @@ Loose areolar connective tissue is found everywhere in the body except the brain
 ## explicit_objective
 Name the sites of loose areolar connective tissue and its three functions, and state the one place it is absent.
 ## pitfalls
-Assuming the brain, being soft, is full of loose connective tissue. It is nervous tissue with neuroglia as its support, and the department names it as the exception.
+Assuming the brain, being soft, is full of loose connective tissue. It is nervous tissue with neuroglia as its support, which is why it is the one exception.
 ## concept_type
 structure_function_relationship
 ## status

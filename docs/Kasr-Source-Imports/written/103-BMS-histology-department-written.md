@@ -4444,7 +4444,7 @@ ART-103-HIS-MUSCLE-COMPARISON-TABLE
 
 
 ## learning_objective
-Reproduce the department book's own fourteen-row comparison of skeletal, cardiac and smooth muscle.
+Reproduce the fourteen-row comparison of skeletal, cardiac and smooth muscle.
 
 ## media_recommendations
 

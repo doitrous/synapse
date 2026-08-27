@@ -90,6 +90,7 @@ import { mintInvite, redeemInvite } from './friendInvites.js'
 import {
   linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount,
   deletionCallback as facebookDeletionCallback, parseSignedRequest as parseFacebookSignedRequest,
+  matchFacebookFriends,
 } from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { withContentCatalogueGate } from './contentCatalogueGate.js'
@@ -238,7 +239,12 @@ const app = express()
 app.use(compression())
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
-  limit: '25mb',
+  // The shared content documents are whole-document saves. The question ledger
+  // alone is ~23 MB and growing, so 25 MB was one import away from rejecting
+  // every save with 413. `limit` is checked against the DECOMPRESSED body, so it
+  // must exceed the raw document size even though clients now gzip it on the
+  // wire (body-parser inflates gzip requests automatically). 64 MB is headroom.
+  limit: '64mb',
   verify: (req, _res, buffer) => {
     if (req.originalUrl === '/api/webhooks/resend/inbound') req.rawBody = buffer.toString('utf8')
   },
@@ -1039,6 +1045,20 @@ app.post('/api/friends/facebook/link', requireAuthenticated, facebookFriendsEnab
 
 app.post('/api/friends/facebook/unlink', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
   res.json(await unlinkFacebookAccount(req.identity.id))
+}))
+
+/**
+ * The intersection itself.
+ *
+ * `fbFriendIds` is the caller's own Facebook friend list, read by the browser
+ * straight from Facebook's `/me/friends` for the account it just connected.
+ * This route never talks to Facebook — it only matches that list against
+ * `facebook_links`, same as the deletion callback never re-derives what Meta
+ * already told it.
+ */
+app.post('/api/friends/facebook/match', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
+  const fbFriendIds = Array.isArray(req.body?.fbFriendIds) ? req.body.fbFriendIds : []
+  res.json({ people: await matchFacebookFriends(req.identity.id, fbFriendIds) })
 }))
 
 /**

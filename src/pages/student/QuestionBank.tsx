@@ -60,7 +60,6 @@ import { ContextMenu } from '@/components/ui/ContextMenu'
 import { Dialog } from '@/components/ui/Dialog'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { SubjectDot } from '@/components/ui/Subject'
-import { ConceptText } from '@/components/concepts/ConceptText'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
@@ -71,6 +70,7 @@ import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachm
 import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { StudyRail } from '@/components/qbank/StudyRail'
+import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 import { useImmersion } from '@/components/shell/ImmersionContext'
@@ -425,8 +425,12 @@ function SessionDetailPanel({
                         <p className="mt-1 text-[11.5px] text-success">{t('Correct')} {picked ? `· ${LETTERS[answer.selectedIndex!]} · ${picked.text}` : ''}</p>
                       ) : answer.correct === false ? (
                         <div className="mt-1 space-y-0.5 text-[11.5px] leading-snug">
-                          <p className="text-danger">{t('Selected')}: {picked ? `${LETTERS[answer.selectedIndex!]} · ${picked.text}` : t('Not retained for this legacy attempt')}</p>
-                          <p className="text-success">{t('Correct')}: {keyed ? `${LETTERS[answer.correctIndex!]} · ${keyed.text}` : t('Review the question explanation')}</p>
+                          {/* "Correct" alone, right under the option this student
+                              picked, reads as being told they got it right. Naming
+                              both sides — whose pick this is, and which one the key
+                              names — leaves no room to misread it either way. */}
+                          <p className="text-danger">{t('Your answer')}: {picked ? `${LETTERS[answer.selectedIndex!]} · ${picked.text}` : t('Not retained for this legacy attempt')}</p>
+                          <p className="text-success">{t('Correct answer')}: {keyed ? `${LETTERS[answer.correctIndex!]} · ${keyed.text}` : t('Review the question explanation')}</p>
                         </div>
                       ) : (
                         <p className="mt-1 text-[11.5px] text-ink-3">{t('This activity was not marked against a key.')}</p>
@@ -717,6 +721,11 @@ export function QuestionBank() {
 
   const [session, setSession] = useState<Question[]>([])
   const [idx, setIdx] = useState(0)
+  // Called unconditionally, ahead of the phase branches below, like every
+  // other hook in this component — `session[idx]` is simply undefined outside
+  // the running phase, which the hook treats as just another (empty) key.
+  const highlights = useQuestionHighlights(session[idx]?.id ?? '')
+  const questionCardRef = useRef<HTMLDivElement>(null)
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [struck, setStruck] = useState<Record<string, number[]>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
@@ -1567,7 +1576,11 @@ export function QuestionBank() {
                     </button>
                   )}
                 </div>
-                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} />
+                {/* `pool` keeps the chapter tree stable across sources; `countPool`
+                    is the exact set `available` below draws from, so every
+                    number in the tree matches what starting a session would
+                    actually contain. */}
+                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={sourcePool} />
                 <p className="mt-2 text-[11.5px] text-ink-3">
                   {scope.size === 0
                     ? t('Nothing selected — questions are drawn from the whole bank.')
@@ -1971,7 +1984,12 @@ export function QuestionBank() {
         graded={reviewing || mode === 'tutor'}
       />
 
-      <Panel className="p-5 sm:p-6">
+      <Panel ref={questionCardRef} className="p-5 sm:p-6">
+        {/* Select any of the stem, an option, or an explanation to highlight
+            it — one colour, no toolbar. Scoped to this card so a selection
+            made anywhere else on the page (the navigator, the study rail)
+            never opens it. */}
+        <HighlightSelectionPopover container={questionCardRef} highlights={highlights} />
         <div className="flex flex-wrap items-center gap-2">
           <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
             <SubjectDot id={q.subjectId} />
@@ -1984,8 +2002,8 @@ export function QuestionBank() {
           </Badge>
         </div>
 
-        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><ConceptText text={q.vignette} enabled={revealed} /></p>
-        <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><ConceptText text={q.stem} enabled={revealed} /></p>
+        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><HighlightableText text={q.vignette} enabled={revealed} blockId="vignette" highlights={highlights} /></p>
+        <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><HighlightableText text={q.stem} enabled={revealed} blockId="stem" highlights={highlights} /></p>
 
         {q.attachedImage && (
           <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
@@ -2030,7 +2048,7 @@ export function QuestionBank() {
             )
             const text = (
               <span className={cn('flex-1 pt-0.5 text-[14px] text-ink', ruledOut && 'line-through decoration-ink-3')}>
-                <ConceptText text={opt.text} enabled={revealed} />
+                <HighlightableText text={opt.text} enabled={revealed} blockId={`option-${i}`} highlights={highlights} />
               </span>
             )
             // main kept the badge and the option text as one inseparable
@@ -2051,6 +2069,11 @@ export function QuestionBank() {
                     <button
                       type="button"
                       onClick={() => {
+                        // A drag that ends inside this button still fires a
+                        // click. Without this guard, dragging across an
+                        // option's text to highlight it would also select
+                        // that option as the answer.
+                        if (window.getSelection()?.isCollapsed === false) return
                         setAnswers((a) => ({ ...a, [q.id]: i }))
                         // Symmetric with `toggleStrike`, which drops the
                         // selection when it strikes the selected option — see
@@ -2097,14 +2120,14 @@ export function QuestionBank() {
                   <Icon icon={Check} size={13} strokeWidth={2.6} />
                   {t('Why the right answer is right')}
                 </p>
-                <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={correctRationale} enabled /></p>
+                <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={correctRationale} enabled blockId="correctRationale" highlights={highlights} /></p>
               </div>
             )}
 
             {hasSeparateExplanation && (
               <div className="rounded-xl border border-line bg-surface-2 p-4">
                 <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
-                <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={q.explanation} enabled /></p>
+                <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
               </div>
             )}
 
@@ -2132,7 +2155,7 @@ export function QuestionBank() {
                         <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-line-2 bg-surface-2 font-mono text-[11px] font-bold text-ink-2">{LETTERS[index]}</span>
                         <span className="min-w-0 flex-1">
                           <span className="block text-[13px] font-medium text-ink">{option.text}</span>
-                          <span className="mt-1 block text-[12.5px] leading-relaxed text-ink-2"><ConceptText text={option.rationale} enabled /></span>
+                          <span className="mt-1 block text-[12.5px] leading-relaxed text-ink-2"><HighlightableText text={option.rationale} enabled blockId={`wrong-${index}`} highlights={highlights} /></span>
                         </span>
                       </li>
                     ))}

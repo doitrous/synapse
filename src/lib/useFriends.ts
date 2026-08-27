@@ -87,5 +87,26 @@ export function useFriends() {
     return apiGet<{ people: FriendProfile[] }>(`/friends/directory?q=${encodeURIComponent(query)}`)
   }, [])
 
-  return { friends, incoming, outgoing, loading, reload, request, respond, remove, mintInvite, redeemInvite, searchDirectory }
+  // Points this account at a Facebook id. Reloading afterwards is what turns
+  // `already_linked` into a message rather than a silent no-op: the graph
+  // itself never changes from this call, only the link that feeds matching.
+  const linkFacebook = useCallback(async (fbUserId: string) => {
+    return apiPost<{ ok: boolean; reason?: string }>('/friends/facebook/link', { fbUserId })
+  }, [])
+
+  const unlinkFacebook = useCallback(async () => {
+    return apiPost<{ ok: boolean }>('/friends/facebook/unlink')
+  }, [])
+
+  // A search, exactly like `searchDirectory`, over a different source: the
+  // caller's own Facebook friend ids rather than a name. Nothing about the
+  // viewer's graph changes until a match is actually sent a request.
+  const matchFacebook = useCallback(async (fbFriendIds: string[]) => {
+    return apiPost<{ people: FriendProfile[] }>('/friends/facebook/match', { fbFriendIds })
+  }, [])
+
+  return {
+    friends, incoming, outgoing, loading, reload, request, respond, remove,
+    mintInvite, redeemInvite, searchDirectory, linkFacebook, unlinkFacebook, matchFacebook,
+  }
 }

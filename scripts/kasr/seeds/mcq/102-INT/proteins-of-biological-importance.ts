@@ -61,7 +61,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Identify which end of a polypeptide chain is the N-terminus and which is the C-terminus, state the direction in which the chain is synthesized, and explain why the primary sequence underlies the higher orders of structure.',
       pitfall:
-        'Reversing the termini — putting the free carboxyl group on the left and the free amino group on the right. The book\'s own convention is fixed: N-terminus (free amino group) on the left where synthesis starts, C-terminus (free carboxyl group) on the right where it ends.',
+        'Reversing the termini — putting the free carboxyl group on the left and the free amino group on the right. The convention is fixed: N-terminus (free amino group) on the left where synthesis starts, C-terminus (free carboxyl group) on the right where it ends.',
       subject: 'fnd',
       primary: 'DIS-BIO-T05',
       secondary: [],
@@ -78,7 +78,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Describe how the α-helix is formed and stabilized, where its R-groups point, which side chains disrupt it and by what mechanism, and note that collagen\'s own helix is left-handed rather than the usual right-handed form.',
       pitfall:
-        'Mixing up which residues disrupt the helix by ionic bonds and which by ring structures. The book keeps them as two separate lists — histidine, lysine, arginine, aspartic acid and glutamic acid disrupt it through ionic bonds; proline and tryptophan disrupt it through their ring structures — and a student who blends the two lists (e.g. attributing histidine\'s disruption to its ring) has the mechanism right for the wrong residue.',
+        'Mixing up which residues disrupt the helix by ionic bonds and which by ring structures. Kept them as two separate lists — histidine, lysine, arginine, aspartic acid and glutamic acid disrupt it through ionic bonds; proline and tryptophan disrupt it through their ring structures — and a student who blends the two lists (e.g. attributing histidine\'s disruption to its ring) has the mechanism right for the wrong residue.',
       subject: 'fnd',
       primary: 'DIS-BIO-T05',
       secondary: [],
@@ -144,9 +144,9 @@ export const LEAF: McqLeafSeed = {
         'Depending on their conformation, proteins are classified as fibrous — chains arranged in parallel along a single axis into long fibers or sheets, as in collagen, elastin and α-keratin — or globular — tightly folded into compact spherical shapes, as in most enzymes, hemoglobin, myoglobin, many hormones, immunoglobulins and plasma proteins',
       definition:
         'Depending on their conformation, proteins are classified into two major classes: fibrous and globular. Fibrous proteins consist of polypeptide chains arranged in a parallel form along a single axis to yield long fibers or sheets, for example collagen, elastin and α-keratin. Globular proteins are tightly folded into compact spherical or globular shapes, for example most enzymes, hemoglobin, myoglobin, many hormones, immunoglobulins and plasma proteins.',
-      objective: 'Classify a named protein as fibrous or globular from the book\'s own examples.',
+      objective: 'Classify a named protein as fibrous or globular from the examples.',
       pitfall:
-        'Assuming shape correlates with function in a way the book doesn\'t state — e.g. that fibrous proteins are always structural and globular proteins are always active. The book\'s classification is by conformation and gives named examples; it draws no further generalization.',
+        'Assuming shape correlates with function in a way not stated — e.g. that fibrous proteins are always structural and globular proteins are always active. The classification is by conformation and gives named examples; it draws no further generalization.',
       subject: 'fnd',
       primary: 'DIS-BIO-T05',
       secondary: [],
@@ -197,9 +197,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'State that a single-chain protein has primary, secondary and tertiary structure only, without a quaternary level.',
       explanations: {
-        a: 'Pentagonal structure names nothing the book describes, and starting the list at tertiary skips over primary and secondary altogether — a single-chain protein still has all three of the lower orders.',
+        a: 'Pentagonal structure names nothing described, and starting the list at tertiary skips over primary and secondary altogether — a single-chain protein still has all three of the lower orders.',
         b: 'Same problem as the pentagonal option with a different invented shape name; a single chain does not reach quaternary structure at all, so quaternary should not be on this list.',
-        c: 'Correct. A protein built of one polypeptide chain has primary, secondary and tertiary structure; quaternary structure requires two or more chains.',
+        c: 'A protein built of one polypeptide chain has primary, secondary and tertiary structure; quaternary structure requires two or more chains.',
         d: 'Adds quaternary structure, which only appears when two or more polypeptide chains combine as subunits — a single chain never reaches it.',
       },
     },
@@ -210,10 +210,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'State that a multi-chain protein adds quaternary structure on top of primary, secondary and tertiary.',
       explanations: {
-        a: 'Pentagonal structure is not a level the book recognises, and this list also skips primary and secondary, which a multi-chain protein still has.',
-        b: 'Hexagonal structure is likewise not one of the book\'s four orders, and the list again omits primary and secondary.',
+        a: 'Pentagonal structure is not a level recognised, and this list also skips primary and secondary, which a multi-chain protein still has.',
+        b: 'Hexagonal structure is likewise not one of the four orders, and the list again omits primary and secondary.',
         c: 'This is the set for a single-chain protein. A protein with two or more chains adds a fourth, quaternary, level on top of these three.',
-        d: 'Correct. Two or more chains combine as subunits into a quaternary structure, on top of the primary, secondary and tertiary structure each subunit already has on its own.',
+        d: 'Two or more chains combine as subunits into a quaternary structure, on top of the primary, secondary and tertiary structure each subunit already has on its own.',
       },
     },
     {
@@ -224,9 +224,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that a protein\'s native state is three-dimensional.',
       explanations: {
         a: 'A one-dimensional description would be the amino acid sequence alone — the primary structure — not the folded native protein.',
-        b: 'Two dimensions is not a description the book uses for any level of protein structure.',
-        c: 'Correct. The book states directly that proteins in their native state are characterized by their three-dimensional structure — the folded shape built from primary through tertiary (and, for some, quaternary) structure.',
-        d: 'Five dimensions is not a real description of anything in the book; it is a distractor with no basis in the text.',
+        b: 'Two dimensions is not a description used for any level of protein structure.',
+        c: 'Directly that proteins in their native state are characterized by their three-dimensional structure — the folded shape built from primary through tertiary (and, for some, quaternary) structure.',
+        d: 'Five dimensions is not a real description of anything; it is a distractor with no basis in the text.',
       },
     },
     {
@@ -236,10 +236,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Identify the N-terminus as the amino acid that starts the polypeptide chain on the left.',
       explanations: {
-        a: 'Correct. The book states the polypeptide chain starts on the left side with amino acid number 1, which carries a free terminal amino group and is termed the N-terminus amino acid.',
-        b: 'The C-terminus, with its free carboxylic group, is the book\'s name for the end of the chain on the right, not the start on the left.',
-        c: 'S-terminus names no group the book describes; it invents a sulfur-based terminus that does not exist in the primary structure it teaches.',
-        d: 'OH-terminus is likewise not a term the book uses; no hydroxyl group defines either end of the chain.',
+        a: 'The polypeptide chain starts on the left side with amino acid number 1, which carries a free terminal amino group and is termed the N-terminus amino acid.',
+        b: 'The C-terminus, with its free carboxylic group, is the name for the end of the chain on the right, not the start on the left.',
+        c: 'S-terminus names no group described; it invents a sulfur-based terminus that does not exist in the primary structure it teaches.',
+        d: 'OH-terminus is likewise not a term used; no hydroxyl group defines either end of the chain.',
       },
     },
     {
@@ -249,10 +249,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Identify the C-terminus as the amino acid that ends the polypeptide chain on the right.',
       explanations: {
-        a: 'N-terminus, with its free amino group, is the book\'s name for the start of the chain on the left, not the end on the right.',
-        b: 'Correct. The book states that at the end, on the right side, the chain carries an amino acid with a free terminal carboxylic group, termed the C-terminus amino acid.',
-        c: 'S-terminus is not a term the book uses for either end of the chain.',
-        d: 'OH-terminus is likewise not one of the book\'s two termini.',
+        a: 'N-terminus, with its free amino group, is the name for the start of the chain on the left, not the end on the right.',
+        b: 'At the end, on the right side, the chain carries an amino acid with a free terminal carboxylic group, termed the C-terminus amino acid.',
+        c: 'S-terminus is not a term used for either end of the chain.',
+        d: 'OH-terminus is likewise not one of the two termini.',
       },
     },
     {
@@ -262,9 +262,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that polypeptide synthesis proceeds from the N-terminus toward the C-terminus.',
       explanations: {
-        a: 'Correct. The book states synthesis of the polypeptide chain starts from the N-terminus end toward the C-terminus, with the sequence determined by the genetic information in DNA.',
-        b: 'Reverses the book\'s stated direction; synthesis runs from the N- toward the C-terminus, not the other way.',
-        c: 'Invents an S-terminus that the book never names as a starting point for synthesis.',
+        a: 'Synthesis of the polypeptide chain starts from the N-terminus end toward the C-terminus, with the sequence determined by the genetic information in DNA.',
+        b: 'Reverses the stated direction; synthesis runs from the N- toward the C-terminus, not the other way.',
+        c: 'Invents an S-terminus that as a starting point is never named for synthesis.',
         d: 'Invents the same nonexistent S-terminus as the wrong starting point, and still gets the direction of travel wrong.',
       },
     },
@@ -276,9 +276,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Recognise the primary structure as the amino acid sequence laid down first, which the higher orders of structure are built from by folding.',
       explanations: {
-        a: 'Correct. The book lays out the four orders of structure in sequence — primary first, as the amino acid sequence fixed by peptide bonds during biosynthesis — and describes the secondary and tertiary orders as further folding of that same chain; the sequence set at the primary level is what the higher orders fold.',
-        b: 'The reverse of the book\'s own ordering: primary structure is the first of four orders, not the final one — tertiary (or quaternary, for multi-chain proteins) is the higher, later order.',
-        c: 'The book\'s own example of a functionally essential order is the quaternary structure of hemoglobin, not the primary sequence on its own.',
+        a: 'Laid out the four orders of structure in sequence — primary first, as the amino acid sequence fixed by peptide bonds during biosynthesis — and describes the secondary and tertiary orders as further folding of that same chain; the sequence set at the primary level is what the higher orders fold.',
+        b: 'The reverse of the ordering: primary structure is the first of four orders, not the final one — tertiary (or quaternary, for multi-chain proteins) is the higher, later order.',
+        c: 'The example of a functionally essential order is the quaternary structure of hemoglobin, not the primary sequence on its own.',
         d: 'The α-helix is a secondary-structure feature, one specific folded form the chain can take — it is not part of the primary structure, which is the unfolded amino acid sequence.',
       },
     },
@@ -289,10 +289,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name α-helix and β-pleated sheet as the two main forms of secondary structure.',
       explanations: {
-        a: 'Repeats \'a-\' for both forms; the book pairs the α-helix with the β-pleated sheet, not with a second α form.',
-        b: 'There is no "β-helix" in the book; the two regular secondary structures are the α-helix and the β-pleated sheet.',
-        c: 'Correct. The book states secondary structure includes mainly two regular forms, α-helical or β-pleated sheets.',
-        d: '"β-globular sheets" is not a term the book uses; "globular" describes a class of whole proteins by conformation, not a secondary-structure form.',
+        a: 'Repeats \'a-\' for both forms; paired the α-helix with the β-pleated sheet, not with a second α form.',
+        b: 'There is no "β-helix"; The two regular secondary structures are the α-helix and the β-pleated sheet.',
+        c: 'Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets.',
+        d: '"β-globular sheets" is not a term used; "globular" describes a class of whole proteins by conformation, not a secondary-structure form.',
       },
     },
     {
@@ -302,10 +302,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Describe the α-helix as a coiling of the chain along its own long axis.',
       explanations: {
-        a: 'Correct. The book describes the α-helix as a folding of the polypeptide chain along its long axis into a specific coiled structure.',
-        b: 'Perpendicular coiling is not how the book describes the helix; the coiling runs along the chain\'s own long axis, not across it.',
-        c: 'Chains lying side by side is how the book describes β-pleated sheet formation, not the α-helix, which is a single coiled chain.',
-        d: 'Chains crossing each other describes neither structure the book teaches; the α-helix is one chain coiling around its own axis.',
+        a: 'Described the α-helix as a folding of the polypeptide chain along its long axis into a specific coiled structure.',
+        b: 'Perpendicular coiling is not how described the helix; the coiling runs along the chain\'s own long axis, not across it.',
+        c: 'Chains lying side by side is how described β-pleated sheet formation, not the α-helix, which is a single coiled chain.',
+        d: 'Chains crossing each other describes neither structure taught; the α-helix is one chain coiling around its own axis.',
       },
     },
     {
@@ -315,10 +315,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Describe β-pleated sheet formation as chain segments lining up side by side.',
       explanations: {
-        a: 'Crossing chains is not how the book describes sheet formation; the segments line up side by side, and "crossing" is not the geometry given for any secondary structure.',
-        b: 'Combines two errors — crossing is not the book\'s geometry, and "coils" describes the α-helix, not the β-pleated sheet.',
+        a: 'Crossing chains is not how described sheet formation; the segments line up side by side, and "crossing" is not the geometry given for any secondary structure.',
+        b: 'Combines two errors — crossing is not the geometry, and "coils" describes the α-helix, not the β-pleated sheet.',
         c: 'Side by side is correct, but the resulting structure is a sheet, not a coil — "coil" is the α-helix\'s shape, not the β-pleated sheet\'s.',
-        d: 'Correct. The book states that when two or more segments of chain are arranged side by side, a β-pleated sheet is formed.',
+        d: 'When two or more segments of chain are arranged side by side, a β-pleated sheet is formed.',
       },
     },
     {
@@ -330,8 +330,8 @@ export const LEAF: McqLeafSeed = {
         'State that the α-helix is stabilized by intra-chain hydrogen bonds between the NH and C=O of different peptide bonds in the same chain.',
       explanations: {
         a: 'Inter-chain hydrogen bonds stabilize β-pleated sheets formed between separate chains; the α-helix is a single chain coiling on itself, so its bonds are intra-chain.',
-        b: 'Correct. The book states the α-helix is stabilized by intra-chain hydrogen bonds, formed between the NH group of one peptide bond and the C=O group of another peptide bond in the same chain.',
-        c: 'Ionic bonds are not what the book credits with α-helix stability; hydrogen bonds are, and in any case ionic bonds between certain side chains are described as disrupting the helix, not stabilizing it.',
+        b: 'The α-helix is stabilized by intra-chain hydrogen bonds, formed between the NH group of one peptide bond and the C=O group of another peptide bond in the same chain.',
+        c: 'Ionic bonds are not what is credited with α-helix stability; hydrogen bonds are, and in any case ionic bonds between certain side chains are described as disrupting the helix, not stabilizing it.',
         d: 'Combines two errors: ionic bonds are described as disruptive to the helix, not stabilizing, and the stabilizing hydrogen bonds are the correct bond type here, not ionic bonds.',
       },
     },
@@ -343,10 +343,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Identify the NH and C=O groups of the peptide bond as the partners in the α-helix\'s stabilizing hydrogen bonds.',
       explanations: {
-        a: 'Correct. The book specifies the α-helix\'s intra-chain hydrogen bonds form between the NH group of one peptide bond and the C=O group of another.',
-        b: 'The R-group is not one of the book\'s stated partners; the bond is between backbone NH and C=O groups of the peptide bonds, not a side chain.',
-        c: 'Same substitution error as the NH/R- option, with the R-group swapped in for the NH partner instead — the book keeps both partners as backbone peptide-bond groups.',
-        d: 'SH belongs to cysteine\'s side chain, relevant to disulfide bonds elsewhere in the book, not to the α-helix\'s hydrogen bonding, which involves NH and C=O.',
+        a: 'Specified the α-helix\'s intra-chain hydrogen bonds form between the NH group of one peptide bond and the C=O group of another.',
+        b: 'The R-group is not one of the stated partners; the bond is between backbone NH and C=O groups of the peptide bonds, not a side chain.',
+        c: 'Same substitution error as the NH/R- option, with the R-group swapped in for the NH partner instead — kept both partners as backbone peptide-bond groups.',
+        d: 'SH belongs to cysteine\'s side chain, relevant to disulfide bonds elsewhere, not to the α-helix\'s hydrogen bonding, which involves NH and C=O.',
       },
     },
     {
@@ -356,10 +356,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'State that the R-groups of an α-helix project outward from the coil.',
       explanations: {
-        a: 'Inward projection would crowd the R-groups into the helix\'s core; the book states they project outwards, away from the axis.',
-        b: 'Correct. The book states the R-groups of amino acids project outwards of the helix.',
-        c: 'Upwards is not the direction the book gives; the helix is a coil around a long axis, and the R-groups point outward from that axis, not along it.',
-        d: 'Downwards has the same problem as upwards — it describes motion along the helix\'s axis rather than the outward projection the book states.',
+        a: 'Inward projection would crowd the R-groups into the helix\'s core; they project outwards, away from the axis.',
+        b: 'The R-groups of amino acids project outwards of the helix.',
+        c: 'Upwards is not the direction given; the helix is a coil around a long axis, and the R-groups point outward from that axis, not along it.',
+        d: 'Downwards has the same problem as upwards — it describes motion along the helix\'s axis rather than the outward projection stated.',
       },
     },
     {
@@ -369,10 +369,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that tryptophan\'s ring structure disturbs the α-helix.',
       explanations: {
-        a: 'The book names tryptophan among the residues that disrupt the helix, not residues that reinforce it.',
-        b: 'The opposite of what the book states — tryptophan\'s ring structure is one of the two named causes of helix disruption, not stabilization.',
-        c: 'Correct. The book lists tryptophan, alongside proline, as disrupting the α-helical structure because its ring structure disturbs the helical formation.',
-        d: 'The book gives tryptophan a specific, named disruptive effect on the helix; it is not neutral.',
+        a: 'Named tryptophan among the residues that disrupt the helix, not residues that reinforce it.',
+        b: 'The opposite of what is stated — tryptophan\'s ring structure is one of the two named causes of helix disruption, not stabilization.',
+        c: 'Listed tryptophan, alongside proline, as disrupting the α-helical structure because its ring structure disturbs the helical formation.',
+        d: 'Given tryptophan a specific, named disruptive effect on the helix; it is not neutral.',
       },
     },
     {
@@ -404,10 +404,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'State that a β-sheet\'s R-groups project above or below the plane of the sheet.',
       explanations: {
-        a: 'Correct. The book states the R-groups of amino acids project above or below the plane of the sheet.',
-        b: 'Inside or outside the plane is not the book\'s description; "inside/outside" better fits a folded globular shape than a flat sheet.',
-        c: 'Forward or backward does not describe the perpendicular projection the book gives; the R-groups project above or below the flat plane, not along it.',
-        d: 'Away or near does not capture the book\'s specific geometry of projection above or below the sheet\'s plane.',
+        a: 'The R-groups of amino acids project above or below the plane of the sheet.',
+        b: 'Inside or outside the plane is not the description; "inside/outside" better fits a folded globular shape than a flat sheet.',
+        c: 'Forward or backward does not describe the perpendicular projection given; the R-groups project above or below the flat plane, not along it.',
+        d: 'Away or near does not capture the specific geometry of projection above or below the sheet\'s plane.',
       },
     },
     {
@@ -417,10 +417,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name antiparallel β-pleated sheet as the form with strands running in opposite directions.',
       explanations: {
-        a: 'Parallel is the book\'s name for segments running in the same direction (N to C terminus), the opposite of what this stem describes.',
-        b: 'Correct. The book states that when adjacent segments run in opposite directions, the structure is termed an antiparallel β-pleated sheet.',
-        c: 'Perpendicular is not a term the book uses for β-sheet strand orientation; the two named orientations are parallel and antiparallel.',
-        d: '"Separate" describes nothing about strand direction and is not a term the book uses for sheet classification.',
+        a: 'Parallel is the name for segments running in the same direction (N to C terminus), the opposite of what this stem describes.',
+        b: 'When adjacent segments run in opposite directions, the structure is termed an antiparallel β-pleated sheet.',
+        c: 'Perpendicular is not a term used for β-sheet strand orientation; the two named orientations are parallel and antiparallel.',
+        d: '"Separate" describes nothing about strand direction and is not a term used for sheet classification.',
       },
     },
     {
@@ -430,10 +430,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name parallel β-pleated sheet as the form with strands running in the same direction.',
       explanations: {
-        a: 'Correct. The book states that when segments of the β-pleated sheet run in the same direction (N to C terminus), the structure is termed a parallel β-pleated sheet.',
-        b: 'Antiparallel is the book\'s name for the opposite case, strands running in opposite directions.',
-        c: 'Perpendicular is not one of the book\'s two named strand orientations.',
-        d: '"Separate" is not a term the book uses to classify strand direction in a β-pleated sheet.',
+        a: 'When segments of the β-pleated sheet run in the same direction (N to C terminus), the structure is termed a parallel β-pleated sheet.',
+        b: 'Antiparallel is the name for the opposite case, strands running in opposite directions.',
+        c: 'Perpendicular is not one of the two named strand orientations.',
+        d: '"Separate" is not a term used to classify strand direction in a β-pleated sheet.',
       },
     },
     {
@@ -443,9 +443,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that a β-sheet built from separate chains is held by inter-chain hydrogen bonds.',
       explanations: {
-        a: 'Correct. The book states that in the case of multiple polypeptide chains, the chains involved in β-pleated sheet formation are stabilized by inter-chain hydrogen bonds.',
+        a: 'In the case of multiple polypeptide chains, the chains involved in β-pleated sheet formation are stabilized by inter-chain hydrogen bonds.',
         b: 'Intra-chain hydrogen bonds stabilize a sheet formed by segments of a single chain folding on itself, not a sheet built from separate chains.',
-        c: 'Ionic bonds are not the bond type the book credits with β-sheet stability in either case; hydrogen bonds are, whether intra- or inter-chain.',
+        c: 'Ionic bonds are not the bond type credited with β-sheet stability in either case; hydrogen bonds are, whether intra- or inter-chain.',
         d: 'Combines two errors — ionic bonds are the wrong bond type, and intra-chain is the wrong scope for a sheet built between separate chains.',
       },
     },
@@ -457,9 +457,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that a β-sheet built within one chain is held by intra-chain hydrogen bonds.',
       explanations: {
         a: 'Inter-chain hydrogen bonds stabilize a sheet built between separate chains; a sheet formed within one chain\'s own regions is intra-chain.',
-        b: 'Correct. The book states that when two or more segments of a single polypeptide chain are arranged side by side, the resulting β-pleated sheet is stabilized by intra-chain hydrogen bonds.',
-        c: 'Ionic bonds are not the stabilizing bond type the book gives for β-pleated sheets, whichever scope is chosen; hydrogen bonds are.',
-        d: 'Intra-chain is the right scope, but ionic bonds are the wrong bond type — the book specifies hydrogen bonds for this structure.',
+        b: 'When two or more segments of a single polypeptide chain are arranged side by side, the resulting β-pleated sheet is stabilized by intra-chain hydrogen bonds.',
+        c: 'Ionic bonds are not the stabilizing bond type given for β-pleated sheets, whichever scope is chosen; hydrogen bonds are.',
+        d: 'Intra-chain is the right scope, but ionic bonds are the wrong bond type — specified hydrogen bonds for this structure.',
       },
     },
     {
@@ -470,10 +470,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Recognise that collagen\'s helix is left-handed, distinct from the ordinary right-handed α-helix most proteins use.',
       explanations: {
-        a: '"a-pleated sheet" names nothing the book describes, and in any case collagen\'s helix is explicitly the left-handed exception to the ordinary α-helix, not a standard α-helix at all.',
-        b: 'There is no "β-helix" in the book\'s account of secondary structure, for collagen or any other protein.',
-        c: 'The ordinary α-helix/β-pleated-sheet pairing describes most proteins\' secondary structure, but the book specifically singles out collagen as forming a left-handed helix where most proteins form a right-handed one — collagen is the stated exception, not an example of the ordinary pairing.',
-        d: 'Correct. The book notes that helical folding is right-handed in most proteins but left-handed in collagen — marking collagen\'s helix out from the standard forms described for secondary structure, consistent with collagen having its own characteristic secondary structure.',
+        a: '"a-pleated sheet" names nothing described, and in any case collagen\'s helix is explicitly the left-handed exception to the ordinary α-helix, not a standard α-helix at all.',
+        b: 'There is no "β-helix" in the account of secondary structure, for collagen or any other protein.',
+        c: 'The ordinary α-helix/β-pleated-sheet pairing describes most proteins\' secondary structure, but specifically singled out collagen as forming a left-handed helix where most proteins form a right-handed one — collagen is the stated exception, not an example of the ordinary pairing.',
+        d: 'Noted that helical folding is right-handed in most proteins but left-handed in collagen — marking collagen\'s helix out from the standard forms described for secondary structure, consistent with collagen having its own characteristic secondary structure.',
       },
     },
     {
@@ -483,10 +483,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'State that tertiary structure folds a polypeptide chain into a higher three-dimensional globular structure.',
       explanations: {
-        a: 'Two dimensions understates the fold; the book specifies a higher three-dimensional globular structure, not a flat, two-dimensional one.',
-        b: 'Correct. The book states tertiary structure is the folding of the polypeptide chain into a specific higher three-dimensional globular structure.',
-        c: 'Four dimensions is not a description the book applies to any level of protein structure.',
-        d: 'Five dimensions, likewise, is not a real description used anywhere in the book.',
+        a: 'Two dimensions understates the fold; specified a higher three-dimensional globular structure, not a flat, two-dimensional one.',
+        b: 'Tertiary structure is the folding of the polypeptide chain into a specific higher three-dimensional globular structure.',
+        c: 'Four dimensions is not a description applied to any level of protein structure.',
+        d: 'Five dimensions, likewise, is not a real description used anywhere.',
       },
     },
     {
@@ -497,10 +497,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Identify the nonpolar side chains of neutral amino acids as the ones clustering together in hydrophobic interactions.',
       explanations: {
-        a: 'Correct. The book states the nonpolar side chains of neutral amino acids tend to associate together in proteins, driven by their tendency to cluster away from the surrounding aqueous medium.',
-        b: 'Acidic amino acids are charged at physiological pH, which is what makes them polar, not nonpolar — the hydrophobic clustering the book describes is specifically among neutral, nonpolar side chains.',
+        a: 'The nonpolar side chains of neutral amino acids tend to associate together in proteins, driven by their tendency to cluster away from the surrounding aqueous medium.',
+        b: 'Acidic amino acids are charged at physiological pH, which is what makes them polar, not nonpolar — the hydrophobic clustering described is specifically among neutral, nonpolar side chains.',
         c: 'Polar side chains are the opposite of what associates hydrophobically; hydrophobic interactions are driven by nonpolar groups avoiding water, not polar ones.',
-        d: 'Same error as the acidic-polar option with an alkaline side chain substituted — polar side chains, charged or not, are not what the book credits with hydrophobic clustering.',
+        d: 'Same error as the acidic-polar option with an alkaline side chain substituted — polar side chains, charged or not, are not what is credited with hydrophobic clustering.',
       },
     },
     {
@@ -510,10 +510,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that electrostatic (ionic) bonds in tertiary structure form between oppositely charged side chains.',
       explanations: {
-        a: 'Uncharged groups cannot form an electrostatic bond, which by definition requires charge; the book\'s own example, lysine and aspartic acid, are both charged, just oppositely.',
-        b: 'Correct. The book states electrostatic bonds (salt bridges or ionic bonds) form between oppositely charged groups of amino acid side chains, giving lysine (positive) and aspartic acid (negative) as the example.',
-        c: 'Same-charged groups repel rather than bond; an electrostatic attraction requires opposite charges, as the book\'s lysine/aspartate example shows.',
-        d: 'Two sulfur groups describes the disulfide bond, a different bond type the book covers separately from the electrostatic (ionic) bond.',
+        a: 'Uncharged groups cannot form an electrostatic bond, which by definition requires charge; the example, lysine and aspartic acid, are both charged, just oppositely.',
+        b: 'Electrostatic bonds (salt bridges or ionic bonds) form between oppositely charged groups of amino acid side chains, giving lysine (positive) and aspartic acid (negative) as the example.',
+        c: 'Same-charged groups repel rather than bond; an electrostatic attraction requires opposite charges, as the lysine/aspartate example shows.',
+        d: 'Two sulfur groups describes the disulfide bond, a different bond type covered separately from the electrostatic (ionic) bond.',
       },
     },
     {
@@ -522,12 +522,12 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard',
       questionType: 'Mechanism',
       learningObjective:
-        'Match each side-chain group the book names for tertiary-structure hydrogen bonding to the correct amino acid.',
+        'Match each side-chain group named for tertiary-structure hydrogen bonding to the correct amino acid.',
       explanations: {
-        a: 'Aspartate\'s side chain is carboxylic, not hydroxyl; the book lists aspartic acid\'s carboxylic group, not a hydroxyl group, among the hydrogen-bonding groups.',
-        b: 'Correct. The book names the hydroxyl group of amino acids such as serine (and threonine) as taking part in internal hydrogen bond formation in the tertiary structure.',
-        c: 'Threonine\'s group named by the book is a hydroxyl group, like serine\'s, not an amide group — the amide group belongs to glutamine and asparagine instead.',
-        d: 'Methionine\'s sulfur is not among the groups the book lists for tertiary hydrogen bonding; disulfide bonds, a separate bond type, involve cysteine\'s sulfur, not methionine\'s.',
+        a: 'Aspartate\'s side chain is carboxylic, not hydroxyl; listed aspartic acid\'s carboxylic group, not a hydroxyl group, among the hydrogen-bonding groups.',
+        b: 'The hydroxyl group of amino acids such is serine (and threonine) as taking part in internal hydrogen bond formation in the tertiary structure.',
+        c: 'Threonine\'s group named is a hydroxyl group, like serine\'s, not an amide group — the amide group belongs to glutamine and asparagine instead.',
+        d: 'Methionine\'s sulfur is not among the groups listed for tertiary hydrogen bonding; disulfide bonds, a separate bond type, involve cysteine\'s sulfur, not methionine\'s.',
       },
     },
     {
@@ -537,10 +537,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'State that Van der Waals interactions are weak forces contributing to tertiary structure stability.',
       explanations: {
-        a: 'The book calls Van der Waals interactions weak, transient attractions, not strong bonds.',
-        b: 'Correct. The book describes Van der Waals interactions as transient attractions between molecules that, as weak interactions, also contribute to the stability of proteins — introduced among the tertiary-structure interactions.',
-        c: 'The book discusses Van der Waals interactions under tertiary structure, not secondary structure, and in any case calls them weak, not strong.',
-        d: 'Primary structure is held by peptide bonds, not Van der Waals interactions, and the book calls these interactions weak, not strong.',
+        a: 'Called Van der Waals interactions weak, transient attractions, not strong bonds.',
+        b: 'Described Van der Waals interactions as transient attractions between molecules that, as weak interactions, also contribute to the stability of proteins — introduced among the tertiary-structure interactions.',
+        c: 'Discussed Van der Waals interactions under tertiary structure, not secondary structure, and in any case calls them weak, not strong.',
+        d: 'Primary structure is held by peptide bonds, not Van der Waals interactions, and called these interactions weak, not strong.',
       },
     },
     {
@@ -550,10 +550,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'State that a disulfide bond forms between two cysteine residues.',
       explanations: {
-        a: 'Alanine\'s side chain has no sulfur to form a disulfide bond with; the book names cysteine specifically.',
-        b: 'Tyrosine\'s side chain is a phenol, not a thiol, and is not the residue the book names for disulfide bonding.',
-        c: 'Correct. The book states disulfide bonds are present in many proteins when two cysteine residues connect to form cystine, giving keratin and insulin as examples.',
-        d: 'Serine\'s hydroxyl group takes part in hydrogen bonding elsewhere in the tertiary structure, not in disulfide bond formation, which the book reserves for cysteine.',
+        a: 'Alanine\'s side chain has no sulfur to form a disulfide bond with; named cysteine specifically.',
+        b: 'Tyrosine\'s side chain is a phenol, not a thiol, and is not the residue named for disulfide bonding.',
+        c: 'Disulfide bonds are present in many proteins when two cysteine residues connect to form cystine, giving keratin and insulin as examples.',
+        d: 'Serine\'s hydroxyl group takes part in hydrogen bonding elsewhere in the tertiary structure, not in disulfide bond formation, which is reserved for cysteine.',
       },
     },
     {
@@ -561,12 +561,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'protein-structure-four-orders-by-chain-count',
       difficulty: 'Moderate',
       questionType: 'Structure and function',
-      learningObjective: 'Name quaternary structure as essential to hemoglobin\'s activity, per the book\'s own example.',
+      learningObjective: 'Name quaternary structure as essential to hemoglobin\'s activity, per the example.',
       explanations: {
-        a: 'Primary structure is necessary for any protein but is not the level the book singles out as essential for hemoglobin\'s activity.',
-        b: 'Secondary structure, likewise, is a prerequisite but not the specific level the book names for hemoglobin\'s function.',
+        a: 'Primary structure is necessary for any protein but is not the level singled out as essential for hemoglobin\'s activity.',
+        b: 'Secondary structure, likewise, is a prerequisite but not the specific level named for hemoglobin\'s function.',
         c: 'Tertiary structure is what a single subunit reaches on its own; hemoglobin\'s activity specifically depends on its subunits combining further, into quaternary structure.',
-        d: 'Correct. The book states that this high level of organization — quaternary structure — may be essential for the activity of certain proteins, naming hemoglobin as an example.',
+        d: 'This high level of organization — quaternary structure — may be essential for the activity of certain proteins, naming hemoglobin as an example.',
       },
     },
     {
@@ -576,10 +576,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'State that denaturation is a property specific to proteins.',
       explanations: {
-        a: 'Correct. The book opens its denaturation section by stating that denaturation is a specific property of proteins — the change of a protein\'s native state by rupture of the bonds holding its secondary, tertiary and quaternary structure.',
-        b: 'Carbohydrates are not described as undergoing denaturation anywhere in the book; the concept is specific to proteins\' folded structure.',
-        c: 'Lipids, likewise, are not subject to denaturation in the book\'s account — denaturation is defined specifically as a property of proteins.',
-        d: 'Water has no folded structure to lose; denaturation as the book defines it applies to proteins\' secondary, tertiary and quaternary structure.',
+        a: 'Denaturation is a specific property of proteins — the change of a protein\'s native state by rupture of the bonds holding its secondary, tertiary and quaternary structure.',
+        b: 'Carbohydrates are not described as undergoing denaturation anywhere; the concept is specific to proteins\' folded structure.',
+        c: 'Lipids, likewise, are not subject to denaturation in the account — denaturation is defined specifically as a property of proteins.',
+        d: 'Water has no folded structure to lose; denaturation as defined it applies to proteins\' secondary, tertiary and quaternary structure.',
       },
     },
     {
@@ -589,10 +589,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that heat-induced albumin coagulation results from disulfide cross-linking.',
       explanations: {
-        a: 'Ionic bonds are not the cross-link the book names for albumin\'s heat coagulation; it names disulfide cross-linking specifically.',
-        b: '"Carboxyl cross linkage" is not a bond type the book describes for albumin coagulation or anywhere else in this section.',
-        c: '"Glycoprotein cross linkage" is not a real bond type; it is not how the book describes the coagulation mechanism.',
-        d: 'Correct. The book gives albumin coagulation by heat as its example of denaturation, occurring due to the formation of disulfide cross linkage.',
+        a: 'Ionic bonds are not the cross-link named for albumin\'s heat coagulation; it names disulfide cross-linking specifically.',
+        b: '"Carboxyl cross linkage" is not a bond type described for albumin coagulation or anywhere else in this section.',
+        c: '"Glycoprotein cross linkage" is not a real bond type; it is not how described the coagulation mechanism.',
+        d: 'Given albumin coagulation by heat as its example of denaturation, occurring due to the formation of disulfide cross linkage.',
       },
     },
     {
@@ -600,12 +600,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'protein-denaturation-effects',
       difficulty: 'Easy',
       questionType: 'Mechanism',
-      learningObjective: 'List increased viscosity as one of the book\'s stated effects of protein denaturation.',
+      learningObjective: 'List increased viscosity as one of the stated effects of protein denaturation.',
       explanations: {
-        a: 'The book states denaturation decreases protein solubility, due to exposure of nonpolar hydrophobic groups — the opposite of this option.',
-        b: 'Correct. The book lists increased viscosity among the effects of denaturation on proteins.',
-        c: 'The book states denaturation increases digestibility by proteolytic enzymes, due to exposure of peptide bonds — the opposite of this option.',
-        d: 'The book states denaturation causes loss of biologic activity, including inactivation of enzymes — the opposite of increased enzyme activity.',
+        a: 'Denaturation decreases protein solubility, due to exposure of nonpolar hydrophobic groups — the opposite of this option.',
+        b: 'Listed increased viscosity among the effects of denaturation on proteins.',
+        c: 'Denaturation increases digestibility by proteolytic enzymes, due to exposure of peptide bonds — the opposite of this option.',
+        d: 'Denaturation causes loss of biologic activity, including inactivation of enzymes — the opposite of increased enzyme activity.',
       },
     },
     {
@@ -615,9 +615,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name fibrous and globular as the two conformational classes of proteins.',
       explanations: {
-        a: 'Simple and compound is a classification by composition, not the conformational classification the book gives here, which is fibrous and globular.',
+        a: 'Simple and compound is a classification by composition, not the conformational classification given here, which is fibrous and globular.',
         b: 'Glycoproteins and lipoproteins are classified by what is conjugated to the protein, not by conformation.',
-        c: 'Correct. The book states that, depending on their conformation, proteins are classified into two major classes: fibrous and globular.',
+        c: 'That, depending on their conformation, proteins are classified into two major classes: fibrous and globular.',
         d: 'Essential and nonessential is a nutritional classification of amino acids, not a conformational classification of proteins.',
       },
     },
@@ -628,10 +628,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Classify collagen and elastin as fibrous proteins.',
       explanations: {
-        a: 'Correct. The book gives collagen and elastin, alongside α-keratin, as its examples of fibrous proteins.',
-        b: 'Globular is the book\'s other conformational class, illustrated instead by hemoglobin, myoglobin and enzymes, not by collagen or elastin.',
-        c: 'Spherical is not one of the book\'s two conformational classes; it is closer in meaning to "globular," which collagen and elastin are not.',
-        d: 'Cylindrical is not a term the book uses for protein conformation at all.',
+        a: 'Given collagen and elastin, alongside α-keratin, as its examples of fibrous proteins.',
+        b: 'Globular is the other conformational class, illustrated instead by hemoglobin, myoglobin and enzymes, not by collagen or elastin.',
+        c: 'Spherical is not one of the two conformational classes; it is closer in meaning to "globular," which collagen and elastin are not.',
+        d: 'Cylindrical is not a term used for protein conformation at all.',
       },
     },
     {
@@ -641,10 +641,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Classify hemoglobin and myoglobin as globular proteins.',
       explanations: {
-        a: 'Fibrous is the book\'s other conformational class, illustrated by collagen, elastin and α-keratin, not by hemoglobin or myoglobin.',
-        b: 'Correct. The book lists hemoglobin and myoglobin among its examples of globular proteins, tightly folded into compact spherical shapes.',
+        a: 'Fibrous is the other conformational class, illustrated by collagen, elastin and α-keratin, not by hemoglobin or myoglobin.',
+        b: 'Listed hemoglobin and myoglobin among its examples of globular proteins, tightly folded into compact spherical shapes.',
         c: 'Apoprotein describes a protein lacking its non-protein prosthetic group (as apo-hemoglobin would lack heme) — a different distinction from the fibrous/globular conformational classification the question asks about.',
-        d: 'Cylindrical is not a term the book uses for protein conformation.',
+        d: 'Cylindrical is not a term used for protein conformation.',
       },
     },
   ],

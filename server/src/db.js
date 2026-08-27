@@ -254,6 +254,61 @@ export async function migrate() {
         throw error
       }
     }
+
+    // Publishing an imported content item silently reverted to unpublished. The
+    // server rebuilds every client's optimistic-merge base from the newest
+    // app_state_versions row, which must equal app_state. An earlier import
+    // script recorded the PRE-import ledger in that row while app_state received
+    // the POST-import ledger, so each client merged its next edit against a
+    // document that predated the import — and publishing an imported item came
+    // back a phantom conflict and was reverted in the browser.
+    //
+    // Heal it once: for each shared, mergeable document whose newest version row
+    // disagrees with app_state, append a version row equal to app_state. This is
+    // append-only — app_state itself, what students and admins see, is never
+    // touched — and marker-guarded so it runs exactly once, at the boot that
+    // ships this build. See server/src/stateMerge.test.js and the standalone
+    // scripts/repair-content-version-baseline.mjs (same logic, for other DBs).
+    const versionBaselineId = '2026-08-27-repair-content-version-baseline'
+    const [versionBaselineApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [versionBaselineId])
+    if (!versionBaselineApplied.length) {
+      const sharedKeys = [
+        'synapse-admin-content-ledger-v4',
+        'synapse-concept-graph-v2',
+        'synapse-medical-evidence-v1',
+        'synapse-minigame-packs-v1',
+        'synapse-library-trees-v1',
+        'synapse-academic-universities-v1',
+        'synapse-media-library-v1',
+      ]
+      // Compare by structure, not by byte, so a re-serialisation is not "drift".
+      const canonical = (raw) => {
+        if (raw == null) return null
+        try { return JSON.stringify(JSON.parse(raw)) } catch { return raw }
+      }
+      await conn.beginTransaction()
+      try {
+        for (const key of sharedKeys) {
+          const [stateRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+          if (!stateRows.length) continue
+          const current = stateRows[0].v
+          const [versionRows] = await conn.query(
+            'SELECT v FROM app_state_versions WHERE k = ? ORDER BY id DESC LIMIT 1',
+            [key],
+          )
+          if (versionRows.length && canonical(versionRows[0].v) === canonical(current)) continue
+          await conn.query(
+            'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+            [key, current, `migration:${versionBaselineId}`],
+          )
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [versionBaselineId])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
+    }
   } finally {
     conn.release()
   }

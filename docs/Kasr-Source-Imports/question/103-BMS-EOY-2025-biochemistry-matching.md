@@ -212,6 +212,7 @@ Academic
 ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
 
 ## resource_ids
+src_300847a5fa64809d6c07
 
 ## learning_objective
 Assign each of ten vitamins, fat-soluble and water-soluble together, to the one reaction or deficiency disease that identifies it, and recognise the two functions on the list that belong to vitamins the list does not name.
@@ -236,7 +237,7 @@ Not split into ten single-best-answer questions. Splitting changes what is teste
 Two main concepts, both co-primary: the block runs across the fat-soluble vitamins and the water-soluble ones, and a student who gets the four fat-soluble stems right and the six water-soluble ones wrong has demonstrated one and not the other. Naming a single main concept would leave half of what this question tests earning no mastery evidence.
 concept_ids and contextual_concept_ids are empty: the two summary concepts cover all twelve options and both distractors between them, and nothing in the question is needed as background without being assessed.
 Marks: the paper prints {1 Mark each} against the block and lists ten vitamins, so it is worth ten. There is no marks column on a matching question — the runner marks it prompt by prompt, which is the same thing.
-resource_ids is left present-but-empty on purpose. It resolves against the catalogue resource store, not the evidence store the Kasr manifest feeds, so naming src_37f6c0daf3436096af19 or src_a2e23ffc50b6b2e24897 there fails with "is not a resource that exists". Both manifests are named in source_citation instead.
+resource_ids now names src_300847a5fa64809d6c07, the catalogue record for the department's Biochemistry (BMS 103) book, once docs/import-ready/resource/KASR-Y1-department-books.md is imported. The EOY paper manifests, src_37f6c0daf3436096af19 and src_a2e23ffc50b6b2e24897, live only in the evidence store and stay named in source_citation instead.
 media_recommendations is empty: the paper's table is words, and it is reproduced as words. An image of it would add nothing and would make the options unsearchable.
 A single-question file cannot hit the bank-wide difficulty mix, and `medical:batch` says so as a note. It is judged across the whole 103 BMS batch, where this sits alongside the seven written questions in the sibling file.
 

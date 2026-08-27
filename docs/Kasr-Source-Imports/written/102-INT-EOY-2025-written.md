@@ -63,7 +63,7 @@ Easy
 ## question_type
 Structure and function
 ## learning_objective
-Explain why cellulose escapes digestion and state the two dietary consequences the department book gives for it.
+Explain why cellulose escapes digestion and state its two dietary consequences.
 ## setting
 Academic
 ## academic_relevance
@@ -479,7 +479,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Name the types of covalent post-translational modification and give the department book's example for each.
+Name the types of covalent post-translational modification and give an example for each.
 ## setting
 Academic
 ## academic_relevance
@@ -949,7 +949,7 @@ Claude
 EOY (INT - 102) 199 (2).pdf — Kasr Al Ainy end of year 2025, Biochemistry Q11, p4. Manifest src_f90429f7c288986e68b5.
 ## media_recommendations
 ### flowchart · Pathway of eicosanoid synthesis, with three enzymes blanked
-Brief: Redraw the department book's eicosanoid flowchart (Module 102 Department Book, printed p34): membrane phospholipids at the top, an arrow down to arachidonic acid, then the chart branching left to leukotrienes and lipoxins and right to prostaglandin H2 and on to prostacyclins, other prostaglandins and thromboxanes. Leave the three enzyme labels on the arrows blank and number them 1, 2 and 3 in the order the exam paper uses. Show the SAID inhibition mark on the first arrow and the NSAID inhibition mark on the branch to PGH2.
+Brief: Redraw the department book's eicosanoid flowchart: membrane phospholipids at the top, an arrow down to arachidonic acid, then the chart branching left to leukotrienes and lipoxins and right to prostaglandin H2 and on to prostacyclins, other prostaglandins and thromboxanes. Leave the three enzyme labels on the arrows blank and number them 1, 2 and 3 in the order the exam paper uses. Show the SAID inhibition mark on the first arrow and the NSAID inhibition mark on the branch to PGH2.
 Purpose: The question asks the student to name three enzymes by their position on a pathway diagram. Without the figure there is nothing to name, and any prose restatement would have to say which enzyme sits where — which is the answer. The figure is also what makes parts (a) to (c) intelligible, because each drug is defined by the arrow it blocks.
 Priority: required
 Status: needed
@@ -1059,7 +1059,7 @@ Claude
 EOY (INT - 102) 199 (2).pdf — Kasr Al Ainy end of year 2025, Biochemistry Q12, p5. Manifest src_f90429f7c288986e68b5.
 ## media_recommendations
 ### flowchart · Post-transcriptional modification of mRNA, with three steps blanked
-Brief: Redraw the department book's figure (Module 102 Department Book, printed p87): a gene of five exons, an arrow to the primary RNA transcript, then two divergent arrows to a normally spliced mRNA (exons 1-2-3-4-5) and an alternatively spliced mRNA (exons 1-3-5). Blank the three process labels on the arrows and number them 1, 2 and 3 as the exam paper does.
+Brief: Redraw the department book's figure: a gene of five exons, an arrow to the primary RNA transcript, then two divergent arrows to a normally spliced mRNA (exons 1-2-3-4-5) and an alternatively spliced mRNA (exons 1-3-5). Blank the three process labels on the arrows and number them 1, 2 and 3 as the exam paper does.
 Purpose: The student must name three steps by where they sit on the diagram, and must then read off which step the snRNP and SLE sub-questions attach to. Prose cannot present the branch point that distinguishes splicing from alternative splicing without naming both, which is the answer.
 Priority: required
 Status: needed
@@ -1173,7 +1173,7 @@ Claude
 EOY (INT - 102) 199 (2).pdf — Kasr Al Ainy end of year 2025, Biochemistry Q13, p6. Manifest src_f90429f7c288986e68b5.
 ## media_recommendations
 ### diagram · Types of point mutation from a single codon, with three types blanked
-Brief: Redraw the department book's figure (Module 102 Department Book, printed p97): the codon UCA (serine) at the centre, with three labelled arrows leading to UAA (stop codon), CCA (codon for proline) and UCU (codon for serine). Blank the three arrow labels and number them 1, 2 and 3 as the exam paper does.
+Brief: Redraw the department book's figure: the codon UCA (serine) at the centre, with three labelled arrows leading to UAA (stop codon), CCA (codon for proline) and UCU (codon for serine). Blank the three arrow labels and number them 1, 2 and 3 as the exam paper does.
 Purpose: The question is to name a mutation type from the codon change shown on the arrow. Describing the codon changes in prose would give the answer away, since the type follows directly from whether the new codon is a stop, a different amino acid, or a synonym.
 Priority: required
 Status: needed

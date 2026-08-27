@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ArrowLeft, Eye, FastForward, PenLine } from 'lucide-react'
+import { ArrowLeft, ChevronDown, Eye, FastForward, PenLine } from 'lucide-react'
 import { coveredCount, initialStage, type EssayQuestion } from '@/data/essay'
 import { useEssayAnswers } from '@/lib/useEssayAnswers'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
@@ -11,6 +11,14 @@ import { Checkbox } from '@/components/ui/Checkbox'
 import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectTag } from '@/components/ui/Subject'
+import { Collapse } from '@/components/ui/Collapse'
+import { cn } from '@/lib/cn'
+
+/** Words in a written answer — the same rough count the design shows next to "Your answer". */
+function wordCount(text: string): number {
+  const trimmed = text.trim()
+  return trimmed ? trimmed.split(/\s+/).length : 0
+}
 
 function Header({ essay, onExit }: { essay: EssayQuestion; onExit: () => void }) {
   const t = useT()
@@ -51,6 +59,8 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
   // to see helpers they have already earned this sitting.
   const [stage, setStage] = useState<'write' | 'revealed'>(() => initialStage(saved))
   const [ticked, setTicked] = useState<Set<string>>(() => new Set(saved?.ticked ?? []))
+
+  const [modelOpen, setModelOpen] = useState(false)
 
   const pointIds = essay.keyPoints.map((point) => point.id)
   const covered = stage === 'revealed' ? coveredCount([...ticked], pointIds) : null
@@ -96,72 +106,129 @@ export function EssayRunner({ essay, onExit }: { essay: EssayQuestion; onExit: (
     })
   }
 
+  const words = wordCount(text)
+
   return (
-    <div className="mx-auto max-w-[720px] px-4 py-6 sm:px-6">
+    <div className="mx-auto max-w-[1040px] px-4 py-6 sm:px-6">
       <Header essay={essay} onExit={onExit} />
 
-      <Panel className="p-5">
-        <p className="text-[15px] font-medium leading-relaxed text-ink">{essay.prompt}</p>
-        <Textarea
-          value={text}
-          onChange={(event) => changeText(event.target.value)}
-          rows={8}
-          placeholder={t('Write your answer…')}
-          aria-label={t('Your answer')}
-          className="mt-3"
-        />
-        {stage === 'write' && (
-          <div className="mt-4 flex flex-wrap items-center gap-2">
-            <Button variant="primary" iconLeft={Eye} disabled={!text.trim()} onClick={reveal}>
-              {t('Reveal')}
-            </Button>
-            <Button variant="ghost" iconLeft={FastForward} onClick={reveal}>
-              {t('Skip and show me')}
-            </Button>
-          </div>
-        )}
-      </Panel>
+      <div className={cn('grid gap-4', stage === 'revealed' && 'lg:grid-cols-2')}>
+        {/* Question + the student's own answer */}
+        <div className="space-y-4">
+          <Panel className="p-5">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('The question')}</p>
+            <p className="mt-1.5 text-[15px] font-medium leading-relaxed text-ink">{essay.prompt}</p>
+          </Panel>
 
-      {stage === 'revealed' && (
-        <div className="mt-4 space-y-4">
-          <Panel>
-            <PanelHeader
-              title={t('Key points')}
-              hint={
-                covered
-                  ? t('{covered} of {total} points covered')
-                      .replace('{covered}', String(covered.covered))
-                      .replace('{total}', String(covered.total))
-                  : undefined
-              }
+          <Panel className="p-5">
+            <div className="flex items-center justify-between gap-3">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Your answer')}</p>
+              {stage === 'revealed' ? (
+                <span className="font-mono text-[11px] tabular-nums text-ink-3">
+                  {t('written before reveal · {n} words').replace('{n}', String(words))}
+                </span>
+              ) : (
+                <span className="font-mono text-[11px] tabular-nums text-ink-3">
+                  {t('{n} words').replace('{n}', String(words))}
+                </span>
+              )}
+            </div>
+            <Textarea
+              value={text}
+              onChange={(event) => changeText(event.target.value)}
+              rows={stage === 'revealed' ? 10 : 8}
+              placeholder={t('Write your answer…')}
+              aria-label={t('Your answer')}
+              className="mt-3"
             />
-            <ul className="divide-y divide-line px-5">
-              {essay.keyPoints.map((point) => (
-                <li key={point.id} className="flex items-start gap-3 py-3">
-                  <Checkbox checked={ticked.has(point.id)} onChange={() => toggle(point.id)} label={point.text} className="mt-0.5" />
-                  <span className="flex-1 text-[13.5px] leading-relaxed text-ink">{point.text}</span>
-                  {point.legible && (
-                    <Badge tone="primary">
-                      <Icon icon={PenLine} size={11} />
-                      {t('Write legibly')}
-                    </Badge>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </Panel>
-
-          <Panel className="p-5">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('What the examiner scans for')}</p>
-            <p className="mt-1.5 text-[13.5px] leading-relaxed text-ink-2">{essay.examinerNote}</p>
-          </Panel>
-
-          <Panel className="p-5">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Model answer')}</p>
-            <p className="mt-1.5 whitespace-pre-wrap text-[13.5px] leading-relaxed text-ink-2">{essay.modelAnswer}</p>
+            {stage === 'write' ? (
+              <div className="mt-4 flex flex-wrap items-center gap-2">
+                <Button variant="primary" iconLeft={Eye} disabled={!text.trim()} onClick={reveal}>
+                  {t('Reveal')}
+                </Button>
+                <Button variant="ghost" iconLeft={FastForward} onClick={reveal}>
+                  {t('Skip and show me')}
+                </Button>
+              </div>
+            ) : (
+              <p className="mt-3 text-[11px] leading-relaxed text-ink-3">
+                {t('Reveal was disabled until you wrote — recognising the model answer is not the same as producing one.')}
+              </p>
+            )}
           </Panel>
         </div>
-      )}
+
+        {/* Self-marking */}
+        {stage === 'revealed' && (
+          <div className="space-y-4">
+            <Panel>
+              <PanelHeader
+                title={t('Key points — tick what you covered')}
+                hint={
+                  covered
+                    ? t('{covered} of {total} covered')
+                        .replace('{covered}', String(covered.covered))
+                        .replace('{total}', String(covered.total))
+                    : undefined
+                }
+              />
+              <ul className="divide-y divide-line px-5">
+                {essay.keyPoints.map((point) => (
+                  <li key={point.id} className="flex items-start gap-3 py-2.5">
+                    <Checkbox checked={ticked.has(point.id)} onChange={() => toggle(point.id)} label={point.text} className="mt-0.5" />
+                    <span className={cn('flex-1 text-[13px] leading-relaxed', ticked.has(point.id) ? 'text-ink' : 'text-ink-2')}>
+                      {point.text}
+                    </span>
+                    {point.legible && (
+                      <Badge tone="primary">
+                        <Icon icon={PenLine} size={11} />
+                        {t('Write legibly')}
+                      </Badge>
+                    )}
+                  </li>
+                ))}
+              </ul>
+              {covered && (
+                <div className="flex items-center justify-between gap-3 border-t border-line px-5 py-3">
+                  <span className="text-[12.5px] text-ink-2">
+                    {t('Marks yourself:')}{' '}
+                    <span className="font-mono font-bold tabular-nums text-ink">
+                      {t('{covered} of {total}').replace('{covered}', String(covered.covered)).replace('{total}', String(covered.total))}
+                    </span>
+                  </span>
+                  <span className="text-[10.5px] text-ink-3">{t('Self-marked — never enters your accuracy stats')}</span>
+                </div>
+              )}
+            </Panel>
+
+            <Panel className="border-warning/30 bg-warning-tint p-4">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-warning">{t('What the examiner scans for')}</p>
+              <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">{essay.examinerNote}</p>
+            </Panel>
+
+            <Panel className="overflow-hidden">
+              <button
+                type="button"
+                aria-expanded={modelOpen}
+                onClick={() => setModelOpen((current) => !current)}
+                className="flex w-full items-center justify-between gap-3 px-5 py-3.5 text-start transition-colors hover:bg-inset/60"
+              >
+                <span>
+                  <span className="block text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Model answer')}</span>
+                  <span className="mt-0.5 block text-[12px] text-ink-2">{t('Full worked answer, for comparison')}</span>
+                </span>
+                <span className="flex shrink-0 items-center gap-1.5 rounded-md border border-line-2 bg-surface px-3 py-1.5 text-[12.5px] font-semibold text-ink">
+                  {modelOpen ? t('Hide') : t('Open')}
+                  <Icon icon={ChevronDown} size={14} className="chevron-turn" open={modelOpen} />
+                </span>
+              </button>
+              <Collapse open={modelOpen}>
+                <p className="whitespace-pre-wrap px-5 pb-4 text-[13.5px] leading-relaxed text-ink-2">{essay.modelAnswer}</p>
+              </Collapse>
+            </Panel>
+          </div>
+        )}
+      </div>
     </div>
   )
 }

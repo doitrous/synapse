@@ -97,6 +97,7 @@ const QUESTION_MCQ = {
   explanation_e: 'Unsafe.',
   answer_f: 'Repeat in a week',
   explanation_f: 'Unsafe.',
+  explanation: 'Airway, breathing, and circulation are always addressed before any confirmatory imaging.',
   topic: 'Venous thromboembolism',
   subtopic: 'Pulmonary embolism',
   difficulty: 'Moderate',
@@ -325,6 +326,11 @@ test('content fixtures cover every schema field and survive validate -> import -
   assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-LAB')?.practicalData.questions[0].mediaMimeType, 'video/webm')
   assert.equal(serialised.find((item) => item.id === 'DECK-ROUNDTRIP')?.deckData.cards.length, 2)
   assert.equal(serialised.find((item) => item.id === 'HIST-ROUNDTRIP')?.histologyData.views.length, 3)
+  assert.equal(
+    serialised.find((item) => item.id === 'Q-ROUNDTRIP-MCQ')?.fields.Explanation,
+    QUESTION_MCQ.explanation,
+  )
+  assert.notEqual(QUESTION_MCQ.explanation, QUESTION_MCQ.explanation_a)
 })
 
 test('concept, relation, evidence, and subject fixtures round-trip through their registries', () => {

@@ -2535,7 +2535,7 @@ fertilization-site-mechanism-results
 ## definition
 Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third. Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.
 ## explicit_objective
-State where fertilisation occurs and give the four results the department book lists.
+State where fertilisation occurs and give its four results.
 ## pitfalls
 Saying the uterus. Fertilisation is tubal; the uterus is where the product of it implants, four days later.
 ## concept_type
@@ -6210,7 +6210,7 @@ superficial-fascia-features
 ## definition
 Superficial fascia is a layer of loose connective tissue just deep to the skin, allowing the skin to move more or less freely over the underlying structures. It contains a variable quantity of fat, more in females — abundant in the gluteal region, anterior abdominal wall and breast, less in the limbs, absent in the eyelid, penis and scrotum. Its functions are to prevent heat loss as a thermal insulator; to soften and smooth the body surface; to facilitate movement of the skin over underlying structures; to act as the medium conducting nerves, vessels and lymphatics to the skin; to contain skin muscles, as the muscles of expression in the face; and to contain special glands such as the mammary glands.
 ## explicit_objective
-List the six functions of the superficial fascia the department book gives.
+List the six functions of the superficial fascia.
 ## pitfalls
 Giving fat storage as the function. The fat is the material; the functions are what the layer does with it — insulation, contour, mobility, conduction, and housing muscles and glands.
 ## concept_type
@@ -6603,7 +6603,7 @@ placenta-anomalies
 ## definition
 The congenital anomalies of the placenta are grouped by what is abnormal about it: position, as in placenta previa; shape, bilobed or trilobed; number, twin or accessory placenta; attachment of the umbilical cord, velamentous where the cord is attached through the amniotic membrane and battledore where it is attached to the margin; diameter, as in placenta membranacea, which is thinner and wider; and infiltration, as accreta, increta and percreta.
 ## explicit_objective
-Enumerate the congenital anomalies of the placenta under the six headings the department book uses.
+Enumerate the congenital anomalies of the placenta under the six headings.
 ## pitfalls
 Listing names without the grouping. The book groups them by position, shape, number, cord attachment, diameter and infiltration, and the grouping is what makes six unrelated names recallable.
 ## concept_type
@@ -6867,7 +6867,7 @@ The shoulder joint is a synovial polyaxial ball-and-socket joint between the hea
 ## explicit_objective
 List the ligaments of the shoulder joint with their attachments, and relate their weakness to the instability of the joint.
 ## pitfalls
-Reading the gleno-humeral ligaments as the joint's support. The book calls all three weak; what actually holds the shoulder is the rotator cuff, and the coraco-acromial arch above.
+Reading the gleno-humeral ligaments as the joint's support. All three are weak; what actually holds the shoulder is the rotator cuff, and the coraco-acromial arch above.
 ## concept_type
 structural_description
 ## status
@@ -7386,7 +7386,7 @@ CON-MSK-26E6BC06A6079C
 ## canonical_key
 case-clavicle-fracture-middle-third
 ## definition
-The clavicle fractures most often at the junction between its lateral and middle thirds, the site at which its curvature changes — the lateral third is convex posteriorly and the medial two thirds convex anteriorly. The shoulder drops because the weight of the upper limb is suspended from the lateral third of the clavicle through the coraco-clavicular ligament, which the department book calls the main medium by which the scapula and upper limb are suspended; the book adds that a fracture medial to that ligament's attachment lets the upper limb drop. The subclavian vessels and the divisions of the brachial plexus lie behind the bone and are liable to be damaged, and the fracture is treated with an arm sling to support the sagging limb.
+The clavicle fractures most often at the junction between its lateral and middle thirds, the site at which its curvature changes — the lateral third is convex posteriorly and the medial two thirds convex anteriorly. The shoulder drops because the weight of the upper limb is suspended from the lateral third of the clavicle through the coraco-clavicular ligament, the main medium by which the scapula and upper limb are suspended; a fracture medial to that ligament's attachment lets the upper limb drop. The subclavian vessels and the divisions of the brachial plexus lie behind the bone and are liable to be damaged, and the fracture is treated with an arm sling to support the sagging limb.
 ## explicit_objective
 Explain why the clavicle fractures at the junction of its lateral and middle thirds, why the shoulder is then depressed, and what lies at risk behind it.
 ## pitfalls
@@ -8696,7 +8696,7 @@ CON-MSK-951D4DFF864245
 ## canonical_key
 elbow-anastomosis-arteries-origin
 ## definition
-The anastomosis around the elbow joint is between the brachial artery above and the radial and ulnar arteries below, and the book describes it around the two epicondyles. Behind the medial epicondyle the superior ulnar collateral and the posterior branch of the inferior ulnar collateral, both from the brachial artery, meet the posterior ulnar recurrent from the ulnar artery; in front of it the anterior branch of the inferior ulnar collateral meets the anterior ulnar recurrent. Behind the lateral epicondyle the posterior descending (middle collateral) branch of the profunda brachii meets the posterior interosseous recurrent; in front of it the anterior descending (radial collateral) branch of the profunda brachii meets the radial recurrent from the radial artery. A transverse anastomosis lies above the olecranon fossa between the inferior ulnar collateral and the posterior descending branch of the profunda brachii.
+The anastomosis around the elbow joint is between the brachial artery above and the radial and ulnar arteries below, arranged around the two epicondyles. Behind the medial epicondyle the superior ulnar collateral and the posterior branch of the inferior ulnar collateral, both from the brachial artery, meet the posterior ulnar recurrent from the ulnar artery; in front of it the anterior branch of the inferior ulnar collateral meets the anterior ulnar recurrent. Behind the lateral epicondyle the posterior descending (middle collateral) branch of the profunda brachii meets the posterior interosseous recurrent; in front of it the anterior descending (radial collateral) branch of the profunda brachii meets the radial recurrent from the radial artery. A transverse anastomosis lies above the olecranon fossa between the inferior ulnar collateral and the posterior descending branch of the profunda brachii.
 ## explicit_objective
 Name the arteries taking part in the anastomosis around the elbow and give the parent artery of each.
 ## pitfalls

@@ -1084,7 +1084,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Match each free nucleotide or nucleotide derivative to the biochemical role the department book assigns it.
+Match each free nucleotide or nucleotide derivative to its biochemical role.
 ## setting
 Academic
 ## academic_relevance
@@ -1159,7 +1159,7 @@ Concept: CON-FND-D1FDD52629718C
 ### (b) 1 marks
 Explain why (3) decreases the membrane fluidity. {1 Mark}
 Expects: A saturated fatty acid has no cis-double bond, so its chain carries no kink and lies straight
-Expects: Straight chains pack closely together, which is the condition the department book names as the opposite of the fluidising effect of USFA
+Expects: Straight chains pack closely together, the opposite of the fluidising effect of USFA
 Expects: Closer packing of the phospholipids decreases membrane fluidity
 Concept: CON-FND-D1FDD52629718C
 ## main_concept
@@ -1216,7 +1216,7 @@ Claude
 EOY (INT - 102) 198 (1).pdf — Kasr Al Ainy end of year 2024, Biochemistry Q19, p10. Manifest src_dbe1da0da0b7f94a618f.
 ## media_recommendations
 ### diagram · Phospholipid bilayer with cholesterol and the saturated and unsaturated chains blanked
-Brief: Redraw the department book's bilayer figure (Module 102 Department Book, printed p30): two rows of hydrophilic phospholipid heads facing the aqueous medium above and below, with the hydrophobic fatty acid tails between them; a cholesterol molecule inserted between the phospholipids; one region showing a kinked, cis-unsaturated fatty acid chain and another showing straight, closely packed saturated chains. Keep the printed labels for hydrophilic heads, hydrophobic FA tails, aqueous medium and phospholipid bilayer. Blank the three annotations that name cholesterol, the unsaturated fatty acid and the saturated fatty acids, and number them 1, 2 and 3 in the order the exam paper uses.
+Brief: Redraw the department book's bilayer figure: two rows of hydrophilic phospholipid heads facing the aqueous medium above and below, with the hydrophobic fatty acid tails between them; a cholesterol molecule inserted between the phospholipids; one region showing a kinked, cis-unsaturated fatty acid chain and another showing straight, closely packed saturated chains. Keep the printed labels for hydrophilic heads, hydrophobic FA tails, aqueous medium and phospholipid bilayer. Blank the three annotations that name cholesterol, the unsaturated fatty acid and the saturated fatty acids, and number them 1, 2 and 3 in the order the exam paper uses.
 Purpose: The question asks the student to name three components by their position in a bilayer, and then to explain the fluidity of two of them. Without the figure there is nothing to name, and any prose restatement would have to say which component sits where — which is the answer. Sub-questions (a) and (b) are only intelligible once the student can see which chain is kinked and which is straight.
 Priority: required
 Status: needed
@@ -1315,7 +1315,7 @@ Claude
 EOY (INT - 102) 198 (1).pdf — Kasr Al Ainy end of year 2024, Biochemistry Q20, p11. Manifest src_dbe1da0da0b7f94a618f.
 ## media_recommendations
 ### diagram · Replication fork during elongation, with three proteins blanked
-Brief: Redraw the department book's elongation figure (Module 102 Department Book, printed p79): a parental duplex opening at a replication fork with 5' and 3' ends marked; the leading strand extending continuously from a single RNA primer in the direction of the advancing fork; the lagging strand made of Okazaki fragments each with its own RNA primer, running in the opposite direction; the strand-separating enzyme at the apex of the fork; the leading-strand polymerase on the leading template; and the single-strand binding proteins coating the separated strands. Keep the printed labels for leading strand, lagging strand, RNA primer, Okazaki fragment, replication fork and the lagging-strand polymerase. Blank the three labels the exam paper blanks and number them 1, 2 and 3 as it does.
+Brief: Redraw the department book's elongation figure: a parental duplex opening at a replication fork with 5' and 3' ends marked; the leading strand extending continuously from a single RNA primer in the direction of the advancing fork; the lagging strand made of Okazaki fragments each with its own RNA primer, running in the opposite direction; the strand-separating enzyme at the apex of the fork; the leading-strand polymerase on the leading template; and the single-strand binding proteins coating the separated strands. Keep the printed labels for leading strand, lagging strand, RNA primer, Okazaki fragment, replication fork and the lagging-strand polymerase. Blank the three labels the exam paper blanks and number them 1, 2 and 3 as it does.
 Purpose: The question is to name a protein from where it sits on the fork and then give its function. Describing the fork in prose would have to say which protein opens the duplex and which coats the separated strands, which is the answer; and part (b) depends on the student reading off which strand the numbered polymerase is copying.
 Priority: required
 Status: needed

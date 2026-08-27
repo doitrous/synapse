@@ -121,6 +121,7 @@ export function MedicalTaxonomy() {
       <PageHeader
         title={t('Medical Taxonomy')}
         description={t('A bilingual dictionary of the basic medical terms — with Arabic translations and plain explanations to help you build vocabulary fast.')}
+        back={{ fallback: '/app' }}
       />
 
       <div className="mb-4 space-y-3">

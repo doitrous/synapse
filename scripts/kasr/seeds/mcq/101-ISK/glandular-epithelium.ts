@@ -110,7 +110,7 @@ export const LEAF: McqLeafSeed = {
       key: 'named-exocrine-glands-in-the-combined-classification',
       label: 'Each named exocrine gland sits at one place in the combined classification — intestinal simple tubular, fundic simple branched tubular, sebaceous simple branched alveolar, salivary compound tubulo-alveolar',
       definition:
-        'The book sets out the combined classification as nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar. The glands the question books place in them are the intestinal glands (crypts) as simple tubular, the fundic glands of the stomach as simple branched tubular, the sweat gland as simple coiled tubular, the collecting system of the kidney as compound tubular, the sebaceous gland as simple branched alveolar, and the salivary glands as compound tubulo-alveolar.',
+        'The combined classification has nine or ten named forms: simple tubular, simple branched tubular, simple coiled tubular and compound tubular; simple alveolar, simple branched alveolar and compound alveolar; and simple, simple branched and compound tubulo-alveolar. Examples of glands in each form are the intestinal glands (crypts) as simple tubular, the fundic glands of the stomach as simple branched tubular, the sweat gland as simple coiled tubular, the collecting system of the kidney as compound tubular, the sebaceous gland as simple branched alveolar, and the salivary glands as compound tubulo-alveolar.',
       objective:
         'Place a named gland in the combined classification, reading the duct term and the secretory-shape term separately.',
       pitfall:
@@ -173,7 +173,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The commonest wrong answer, and the one the name invites. A branching duct is what "compound" means, and this gland has already been called simple, which settles the duct as unbranched.',
         B: 'An endocrine gland is ductless, so it cannot be described by duct branching at all. Every term in this name presupposes a duct.',
         C: 'Tubular and alveolar are alternatives, not companions: the secretory unit here is a tube, which is what the word tubular states.',
-        D: 'Correct. Simple fixes the duct as unbranched and tubular fixes the secretory unit as a tube, so the only structure left for "branched" to describe is the secretory portion.',
+        D: 'Simple fixes the duct as unbranched and tubular fixes the secretory unit as a tube, so the only structure left for "branched" to describe is the secretory portion.',
       },
     },
     {
@@ -185,7 +185,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Unicellular glands such as the goblet cell are exocrine, but so are the multicellular ones. This option mistakes one subdivision of exocrine glands for the whole class.',
         B: 'Diffusion into the blood is what an endocrine gland does, and it is precisely what having a duct makes unnecessary.',
-        C: 'Correct. An exocrine gland has a secretory portion that makes the secretion and an excretory portion — the ducts — that carries it outside the gland.',
+        C: 'An exocrine gland has a secretory portion that makes the secretion and an excretory portion — the ducts — that carries it outside the gland.',
         D: 'Hormones are the endocrine product. An exocrine secretion is delivered to a surface or a lumen, not to the bloodstream.',
       },
     },
@@ -197,9 +197,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Work out which glands can have myo-epithelial cells by asking whether the gland has a duct to squeeze secretion into.',
       explanations: {
-        A: 'Correct. The salivary gland is exocrine, so it has ducts, and its acini are wrapped by myo-epithelial cells whose contraction drives the secretion into them. The mammary and sweat glands are the book\'s other two examples.',
+        A: 'The salivary gland is exocrine, so it has ducts, and its acini are wrapped by myo-epithelial cells whose contraction drives the secretion into them. The mammary and sweat glands are two more examples.',
         B: 'The thyroid is a ductless endocrine gland. Its follicular cells release their hormone into blood capillaries, so there is no duct to squeeze anything into and no myo-epithelial cell to do it.',
-        C: 'The pancreas is the trap, because it is a mixed gland and its exocrine half really does have acini and ducts. The book\'s stated sites are the salivary, mammary and sweat glands, and it does not extend them to the pancreas.',
+        C: 'The pancreas is the trap, because it is a mixed gland and its exocrine half really does have acini and ducts. The stated sites are the salivary, mammary and sweat glands, and it does not extend them to the pancreas.',
         D: 'Acting as a receptor is neuro-epithelium, the class next door. Myo-epithelium is modified to contract, which is a different one of the four modifications.',
       },
     },
@@ -211,7 +211,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place the sebaceous gland in the combined classification.',
       explanations: {
         A: 'Compound needs a branching duct. The sebaceous gland empties by a single short duct into a hair follicle, and its secretory units are rounded rather than tubular.',
-        B: 'Correct. A single unbranched duct makes it simple, several rounded secretory units off that one duct make it branched, and the rounded shape makes it alveolar.',
+        B: 'A single unbranched duct makes it simple, several rounded secretory units off that one duct make it branched, and the rounded shape makes it alveolar.',
         C: 'Right on the branching, wrong on the shape. The sebaceous secretory unit is a rounded sac, not a tube — this is the answer of a student who remembered "branched" and stopped there.',
         D: 'Compound tubulo-alveolar is the salivary gland. Two of the three terms are wrong here.',
       },
@@ -225,7 +225,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The sweat gland is simple coiled tubular: one unbranched duct and a tube coiled up in the dermis.',
         B: 'Intestinal crypts are simple tubular — straight unbranched tubes opening on the surface, with no duct tree at all.',
-        C: 'Correct. The salivary glands have a duct system that branches like a tree, and flask-shaped secretory units, which is what tubulo-alveolar names.',
+        C: 'The salivary glands have a duct system that branches like a tree, and flask-shaped secretory units, which is what tubulo-alveolar names.',
         D: 'The fundic glands of the stomach are simple branched tubular: the duct does not branch, the secretory part does.',
       },
     },
@@ -247,10 +247,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Match a classifying criterion to the set of categories it produces.',
       explanations: {
-        A: 'Correct. Mode of secretion asks how much of the cell goes with the product, and the three answers are apocrine, holocrine and merocrine.',
+        A: 'Mode of secretion asks how much of the cell goes with the product, and the three answers are apocrine, holocrine and merocrine.',
         B: 'Mucous, serous and mucoserous is the classification by the *nature* of the secretion — what it is made of, rather than how it leaves.',
         C: 'Simple, branched and compound classify the duct, which is a question about the gland\'s architecture rather than its secretory mechanism.',
-        D: 'Alveolar, tubular and tubuloalveolar classify the shape of the secretory part. The book has five criteria and this question names one of them; picking the wrong list is the standard error.',
+        D: 'Alveolar, tubular and tubuloalveolar classify the shape of the secretory part. There are five criteria and this question names one of them; picking the wrong list is the standard error.',
       },
     },
     {
@@ -263,7 +263,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Cartilage is connective tissue, not epithelium. This option does not answer the question it was asked.',
         B: 'Holocrine and apocrine are modes of secretion within one class of epithelium, not two classes of epithelial tissue.',
         C: 'Transitional and pseudostratified are two types of *surface* epithelium, so both sit inside one of the answer\'s two categories.',
-        D: 'Correct as this book puts it — covering epithelium and secretory epithelium. Note that the department book itself recognises four classes, adding neuro-epithelium and myo-epithelium to these two; a question offering only two is using the coarser split.',
+        D: 'Covering epithelium and secretory epithelium. Four classes are recognised overall, adding neuro-epithelium and myo-epithelium to these two; a question offering only two is using the coarser split.',
       },
     },
     {
@@ -286,7 +286,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'True, so not the exception. Mucus is the goblet cell\'s product, which is why it is classed as a mucous gland.',
         B: 'True, so not the exception. The name describes the shape — a narrow base and a swollen mucus-filled apex.',
-        C: 'The exception, and the answer. Picked by students who count the cells around it rather than the cells doing the secreting. A goblet cell is the book\'s example of a unicellular gland.',
+        C: 'The exception, and the answer. Picked by students who count the cells around it rather than the cells doing the secreting. A goblet cell is an example of a unicellular gland.',
         D: 'True, so not the exception. Goblet cells are scattered through the pseudostratified columnar ciliated epithelium of the airway, and through the simple columnar epithelium of the intestine.',
       },
     },
@@ -300,7 +300,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The goblet cell discharges mucus by exocytosis and stays intact, which is merocrine.',
         B: 'The salivary gland is the standard merocrine example — its cells lose nothing at all.',
         C: 'The sebaceous gland is holocrine: the whole cell disintegrates and becomes the secretion. This is one rung too far along the ladder.',
-        D: 'Correct. The lactating mammary gland releases its lipid droplets wrapped in a piece of the apical cytoplasm, which is what apocrine means.',
+        D: 'The lactating mammary gland releases its lipid droplets wrapped in a piece of the apical cytoplasm, which is what apocrine means.',
       },
     },
     {
@@ -313,7 +313,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The pancreas has a branching duct system, so it is compound, but its secretory units are rounded acini — it is compound alveolar, not tubular.',
         B: 'The parotid is a salivary gland, compound tubulo-alveolar. The duct term is right and the shape term is not.',
         C: 'The prostate is compound tubulo-alveolar as well. It is chosen by students who know it is compound and stop there.',
-        D: 'Correct. The kidney is the book\'s compound tubular example: a branching duct tree whose secretory units are tubes rather than rounded acini.',
+        D: 'The kidney is a compound tubular example: a branching duct tree whose secretory units are tubes rather than rounded acini.',
       },
     },
     {
@@ -323,7 +323,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Attribute the word "simple" to the duct.',
       explanations: {
-        A: 'Correct. Simple means the duct does not branch. It says nothing about how many secretory units hang off it — a simple branched gland has several.',
+        A: 'Simple means the duct does not branch. It says nothing about how many secretory units hang off it — a simple branched gland has several.',
         B: 'This describes an unbranched *secretory* part, which is what "simple" is routinely mistaken for. A simple branched gland is the counter-example: simple duct, several secretory units.',
         C: 'Tubular describes the shape of the secretory part, and is chosen from an adjacent list rather than from the one the question asked about.',
         D: 'Alveolar likewise describes shape. Neither shape term has anything to say about the duct.',
@@ -336,7 +336,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Attribute the word "compound" to the duct alone.',
       explanations: {
-        A: 'Correct. Compound means the duct branches like a tree, with each branch carrying its own secretory part.',
+        A: 'Compound means the duct branches like a tree, with each branch carrying its own secretory part.',
         B: 'A branching secretory part is what "branched" names, and it can occur under a simple duct — a simple branched gland is exactly that.',
         C: 'The tempting hedge. It is true that a compound gland has many secretory parts, but the word compound is defined on the duct, and choosing both makes the term unable to distinguish anything.',
         D: 'Alveolar is a shape term from a different criterion, and a compound gland may be tubular, alveolar or tubulo-alveolar.',
@@ -351,7 +351,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'An unbranching duct is "simple". This is the answer to the neighbouring question in the same series, and the two are routinely swapped.',
         B: 'The number of secretory units is not what tubular describes; a gland can have one tube or many.',
-        C: 'Correct. Tubular means the secretory unit is a tube, as against rounded (alveolar) or flask-shaped (tubulo-alveolar).',
+        C: 'Tubular means the secretory unit is a tube, as against rounded (alveolar) or flask-shaped (tubulo-alveolar).',
         D: 'Alveolar is the alternative to tubular, not a synonym for it — the secretory unit is rounded rather than tube-like.',
       },
     },
@@ -363,9 +363,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Reason from the duct: a gland with no duct has nothing for a myo-epithelial cell to expel secretion into.',
       explanations: {
-        A: 'Treat as true, so not the exception. The question books describe myo-epithelial cells as spindle-shaped and basket-like around the acinus; the department book gives no shape, so this is not sourced to it.',
-        B: 'Treat as true, so not the exception. Contractile proteins are what let the cell squeeze, though again the department book states only that the cell contracts and does not name actin and myosin.',
-        C: 'True, so not the exception, and it is the one thing the department book does state — myo-epithelium is epithelium modified to contract.',
+        A: 'Treat as true, so not the exception. The question books describe myo-epithelial cells as spindle-shaped and basket-like around the acinus; no shape is specified in the core text, so this claim is not fully sourced.',
+        B: 'Treat as true, so not the exception. Contractile proteins are what let the cell squeeze, though the core text states only that the cell contracts, without naming actin and myosin.',
+        C: 'True, so not the exception, and it is the one point stated outright — myo-epithelium is epithelium modified to contract.',
         D: 'The exception, and the answer. An endocrine gland is ductless: its secretion leaves through the blood capillaries beside it, so there is no duct to squeeze it into and no work for a myo-epithelial cell to do. They belong to exocrine glands — salivary, mammary and sweat.',
       },
     },
@@ -389,7 +389,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Simple tubular is the intestinal crypt: a straight unbranched tube. The trap is that both organs are in the gut and both have tubular glands.',
         B: 'Alveolar means a rounded secretory unit. The fundic gland is a tube running down through the mucosa.',
-        C: 'Correct. The duct does not branch, so it is simple; the secretory portion divides at its base into several tubes, so it is branched; and the units are tubes, so it is tubular.',
+        C: 'The duct does not branch, so it is simple; the secretory portion divides at its base into several tubes, so it is branched; and the units are tubes, so it is tubular.',
         D: 'Compound requires a branching duct tree, which the fundic gland does not have — it opens directly into a gastric pit.',
       },
     },
@@ -400,8 +400,8 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Match the duct criterion to the three classes it produces.',
       explanations: {
-        A: 'Correct. A duct makes a gland exocrine, no duct makes it endocrine, and having both parts makes it mixed.',
-        B: 'Serous and mucous classify the nature of the secretion, which is a different one of the book\'s five criteria.',
+        A: 'A duct makes a gland exocrine, no duct makes it endocrine, and having both parts makes it mixed.',
+        B: 'Serous and mucous classify the nature of the secretion, which is a different one of the five criteria.',
         C: 'Unicellular and multicellular classify exocrine glands by the number of secretory cells, and presuppose that the duct question has already been answered.',
         D: 'A hedge that is wrong because option A is exactly right. It is chosen when the three-way answer is misremembered as two-way, exocrine and endocrine only.',
       },
@@ -413,10 +413,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Match the loss of the cell apex to apocrine secretion.',
       explanations: {
-        A: 'Correct. Apocrine secretion is released together with the apex of the cell, so a piece of apical cytoplasm goes with the product.',
+        A: 'Apocrine secretion is released together with the apex of the cell, so a piece of apical cytoplasm goes with the product.',
         B: 'Merocrine costs the cell nothing — the product leaves by exocytosis and the cell is unchanged.',
         C: 'Holocrine costs the cell everything. Losing the upper portion is the middle rung, not the last one.',
-        D: 'Autocrine describes a cell that acts on itself, which is a signalling term and not one of the book\'s three modes of secretion.',
+        D: 'Autocrine describes a cell that acts on itself, which is a signalling term and not one of the three modes of secretion.',
       },
     },
     {
@@ -438,7 +438,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the gland whose duct branches.',
       explanations: {
         A: 'Simple is the opposite: a duct that does not branch.',
-        B: 'Correct. A branching duct tree is what compound means.',
+        B: 'A branching duct tree is what compound means.',
         C: '"Branched" is reserved for a branching secretory portion, and it is the word this question is designed to make you reach for wrongly.',
         D: 'Alveolar describes the shape of the secretory unit and says nothing about the duct.',
       },
@@ -456,7 +456,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The description belongs to merocrine, not apocrine. In apocrine secretion the cell does change — it loses its apex.',
         B: 'Backwards. Losing the apex of the cell is apocrine; merocrine leaves the cell untouched.',
         C: 'Destruction of the whole cell is holocrine. This is the same swap as B, one rung further along.',
-        D: 'Correct. Holocrine secretion accumulates in the cell until the swollen cell ruptures and the whole cell is lost with the product.',
+        D: 'Holocrine secretion accumulates in the cell until the swollen cell ruptures and the whole cell is lost with the product.',
       },
     },
     {
@@ -492,7 +492,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The goblet cell secretes by exocytosis and survives it, which is merocrine.',
         B: 'The salivary gland is merocrine — the standard example of the mode that costs the cell nothing.',
-        C: 'Correct. Sebum is disintegrated sebaceous cells: the cell fills with lipid, swells, ruptures and becomes the secretion.',
+        C: 'Sebum is disintegrated sebaceous cells: the cell fills with lipid, swells, ruptures and becomes the secretion.',
         D: 'The lactating mammary gland is apocrine, losing only the apex. Chosen by students who know it loses something and do not check how much.',
       },
     },
@@ -507,7 +507,7 @@ export const LEAF: McqLeafSeed = {
         'The source printed no key. Holocrine secretion is defined as the whole cell being lost with the product, which is option B; A is false because holocrine is a mode of exocrine secretion, and C and D are the definitions of apocrine and merocrine.',
       explanations: {
         A: 'Modes of secretion are a classification of *exocrine* glands. An endocrine gland is ductless and releases hormone into blood; it has no holocrine form.',
-        B: 'Correct. The product accumulates, the swollen cell ruptures, and the whole cell is lost with the secretion.',
+        B: 'The product accumulates, the swollen cell ruptures, and the whole cell is lost with the secretion.',
         C: 'Destruction of the apical part is apocrine — one rung short.',
         D: 'No change in the secretory cell is merocrine, the commonest mode and the opposite extreme from this one.',
       },
@@ -520,7 +520,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match the loss of apical cytoplasm to apocrine secretion.',
       explanations: {
         A: 'Merocrine secretion leaves the cell intact; nothing of the cytoplasm goes with the product.',
-        B: 'Correct. Apocrine means the apex goes with the secretion, which is exactly what the stem describes.',
+        B: 'Apocrine means the apex goes with the secretion, which is exactly what the stem describes.',
         C: 'Holocrine loses the entire cell, not part of it.',
         D: 'Endocrine is a classification by duct, not by mode. It answers a different criterion altogether, and is chosen when the "-crine" ending is read as if all four words belonged to one list.',
       },
@@ -534,8 +534,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Exocrine is the class of gland, not the mode. All three modes below are exocrine, so this cannot distinguish anything.',
         B: 'Merocrine costs the cell nothing at all — the far end of the ladder from this stem.',
-        C: 'Correct. Entire cells breaking down to become the product is the definition of holocrine secretion.',
-        D: 'Autocrine is a signalling term for a cell acting on itself and is not one of the book\'s three modes.',
+        C: 'Entire cells breaking down to become the product is the definition of holocrine secretion.',
+        D: 'Autocrine is a signalling term for a cell acting on itself and is not one of the three modes.',
       },
     },
     {
@@ -545,7 +545,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Place the intestinal crypt in the combined classification.',
       explanations: {
-        A: 'Correct. The intestinal crypt is a straight unbranched tube opening on the surface — simple duct, tubular secretory part, no branching.',
+        A: 'The intestinal crypt is a straight unbranched tube opening on the surface — simple duct, tubular secretory part, no branching.',
         B: 'Simple branched tubular is the fundic gland of the stomach. The two are the classic pair, and the whole difference is whether the secretory part divides at its base.',
         C: 'Compound requires a branching duct tree, which the intestine\'s crypts do not have.',
         D: 'Simple coiled tubular is the sweat gland, whose tube is coiled up in the dermis. The intestinal crypt is straight.',
@@ -569,8 +569,8 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the gland whose cells lose nothing when they secrete.',
       explanations: {
-        A: 'The goblet cell is in fact merocrine as well, which makes this option arguable rather than plainly wrong. The salivary gland is the example the books intend, and the one that appears in the answer key.',
-        B: 'Correct. The salivary gland discharges its secretion by exocytosis with no change in the secretory cell, which is merocrine and the commonest mode.',
+        A: 'The goblet cell is in fact merocrine as well, which makes this option arguable rather than plainly wrong. The salivary gland is the intended example, and the one that appears in the answer key.',
+        B: 'The salivary gland discharges its secretion by exocytosis with no change in the secretory cell, which is merocrine and the commonest mode.',
         C: 'The sebaceous gland is holocrine: the cell is the secretion.',
         D: 'The lactating mammary gland is apocrine, losing the apex of each cell with the milk fat.',
       },
@@ -582,7 +582,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Definition',
       learningObjective: 'Define a mixed gland by the two secretory arrangements it contains.',
       explanations: {
-        A: 'Correct. A mixed gland has an exocrine part with a duct system and an endocrine part without, the pancreas being the example.',
+        A: 'A mixed gland has an exocrine part with a duct system and an endocrine part without, the pancreas being the example.',
         B: 'Simple and compound are two forms of exocrine duct. A gland is one or the other, and no gland is called mixed for having both.',
         C: 'Unicellular and multicellular is another exocrine subdivision, and again not what "mixed" refers to.',
         D: 'Stroma and parenchyma are the supporting and working tissue of any organ, so every gland is a mixture of them. The word tells you nothing, which is what makes it a plausible-sounding distractor.',
@@ -596,7 +596,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the class of epithelium that is modified to secrete.',
       explanations: {
         A: 'Surface epithelium covers surfaces and lines cavities. Some of its cells secrete — the goblet cell does — but the class is defined by covering.',
-        B: 'Correct. Glandular epithelium is by definition epithelium modified to act as a gland and produce secretion.',
+        B: 'Glandular epithelium is by definition epithelium modified to act as a gland and produce secretion.',
         C: 'Neuro-epithelium is modified to receive a stimulus, not to make a product.',
         D: 'Myo-epithelium is modified to contract, and it acts on secretion made by somebody else.',
       },
@@ -609,7 +609,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the commonest mode of secretion and state what it costs the cell.',
       explanations: {
         A: 'Apocrine costs the cell its apex, so there is a change in the secretory cell — and it is much the rarer arrangement.',
-        B: 'Correct. Merocrine secretion is discharged by exocytosis with no change in the cell, and the book names it the most common mode.',
+        B: 'Merocrine secretion is discharged by exocytosis with no change in the cell, and it is the most common mode.',
         C: 'Holocrine destroys the cell entirely, which is the largest change of the three.',
         D: 'A hedge with no reason to be chosen: merocrine answers the stem exactly.',
       },
@@ -622,7 +622,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the apocrine gland among four named glands.',
       explanations: {
         A: 'Sebaceous glands are holocrine — the whole cell becomes sebum.',
-        B: 'Correct. The mammary gland releases milk fat wrapped in the apex of the cell, which is apocrine.',
+        B: 'The mammary gland releases milk fat wrapped in the apex of the cell, which is apocrine.',
         C: 'Salivary glands are merocrine, losing nothing.',
         D: 'The exocrine pancreas is merocrine too; it is chosen when a student is looking for something unusual and picks the gland that is unusual for a different reason — it is the mixed gland.',
       },
@@ -657,9 +657,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Classify the parotid by the nature of its secretion.',
       explanations: {
         A: 'Mucous is the sublingual gland\'s predominant character, not the parotid\'s. A mucous secretion is viscid and carries no enzymes.',
-        B: 'Correct. The parotid is purely serous — a watery secretion containing enzymes, which is what serous means in this classification.',
+        B: 'The parotid is purely serous — a watery secretion containing enzymes, which is what serous means in this classification.',
         C: 'Mucoserous is the submandibular gland, which has both cell types. Chosen by students who know the three salivary glands differ and cannot recall which is which.',
-        D: 'Unicellular is a classification by cell number and would make the parotid a single cell. The only unicellular gland the book names is the goblet cell.',
+        D: 'Unicellular is a classification by cell number and would make the parotid a single cell. The only unicellular gland here is the goblet cell.',
       },
     },
     {
@@ -691,7 +691,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Classify the salivary gland by mode of secretion when a shape term is also on offer.',
       explanations: {
-        A: 'Correct. Salivary secretion leaves by exocytosis with no change in the secretory cell, which is merocrine — and merocrine is the commonest mode.',
+        A: 'Salivary secretion leaves by exocytosis with no change in the secretory cell, which is merocrine — and merocrine is the commonest mode.',
         B: 'Holocrine is the sebaceous gland, where the whole cell is lost.',
         C: 'Apocrine is the lactating mammary gland, which loses the apex of its cells.',
         D: 'The interesting distractor, because it is not false — the salivary gland *is* compound tubulo-alveolar. It answers a different criterion, though: this option classifies by architecture where the other three classify by mode, and a question whose other options are all modes is asking about mode.',
@@ -707,7 +707,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The salivary gland has ducts, so it is exocrine.',
         B: 'False. An endocrine gland is ductless and sends its product into the blood; salivary secretion goes down a duct into the mouth.',
         C: 'True, but not the whole answer. It secretes by exocytosis without losing any of the cell, so it is merocrine.',
-        D: 'Correct. The criteria are independent, and the same gland is exocrine under one and merocrine under another. A student who stops at the first true option has answered half the question.',
+        D: 'The criteria are independent, and the same gland is exocrine under one and merocrine under another. A student who stops at the first true option has answered half the question.',
       },
     },
     {
@@ -741,7 +741,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Apocrine loses the apex only, which is the middle of the three.',
         B: 'Merocrine loses nothing; the cell is unchanged by secreting.',
-        C: 'Correct. In holocrine secretion the swollen cell ruptures and the whole cell goes out with the product.',
+        C: 'In holocrine secretion the swollen cell ruptures and the whole cell goes out with the product.',
         D: 'There is a mode that fits the stem exactly, so a hedge cannot be right here.',
       },
     },
@@ -752,7 +752,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Match loss of the cell apex to apocrine secretion.',
       explanations: {
-        A: 'Correct. Apocrine secretion is released together with the apex of the cell.',
+        A: 'Apocrine secretion is released together with the apex of the cell.',
         B: 'Merocrine costs the cell nothing — exocytosis leaves the membrane and cytoplasm intact.',
         C: 'Holocrine costs the whole cell, not just its apex.',
         D: 'Apocrine answers the stem exactly, so the hedge is not needed.',
@@ -765,7 +765,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the gland in which neither the duct nor the secretory part branches.',
       explanations: {
-        A: 'Correct. One unbranched duct makes it simple, and a secretory part that does not divide makes it non-branched.',
+        A: 'One unbranched duct makes it simple, and a secretory part that does not divide makes it non-branched.',
         B: 'Compound requires the duct to branch, which the stem has ruled out.',
         C: 'Tubular is a shape term from the other criterion, and the stem says nothing about shape.',
         D: 'A hedge that cannot hold, since compound directly contradicts the single unbranched duct in the stem.',
@@ -866,10 +866,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Name the mode in which the cell is unchanged by secreting.',
       explanations: {
-        A: 'Correct. Merocrine secretion is discharged by exocytosis with no change in the secretory cell.',
+        A: 'Merocrine secretion is discharged by exocytosis with no change in the secretory cell.',
         B: 'Apocrine loses the apex of the cell with the product, so the cell is changed.',
         C: 'Holocrine loses the whole cell.',
-        D: 'Eccrine is not one of the three modes this book recognises. Where a question book uses it, it means merocrine — which is why this option is the hardest of the four to dismiss, and why it is worth knowing the department book\'s list is three long.',
+        D: 'Eccrine is not one of the three recognised modes. Where a question book uses it, it means merocrine — which is why this option is the hardest of the four to dismiss, and why it is worth knowing the recognised list is three long.',
       },
     },
     {
@@ -879,8 +879,8 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State which mode of secretion is the commonest.',
       explanations: {
-        A: 'The book is explicit that one mode predominates, so an even split is not the answer. It is chosen when the fact was never learnt and the option sounds cautious.',
-        B: 'Correct. Merocrine is stated to be the most common mode, which fits: it is the only one that costs the cell nothing and can therefore be repeated indefinitely.',
+        A: 'One mode predominates, so an even split is not the answer. It is chosen when the fact was never learnt and the option sounds cautious.',
+        B: 'Merocrine is stated to be the most common mode, which fits: it is the only one that costs the cell nothing and can therefore be repeated indefinitely.',
         C: 'Holocrine destroys a cell per secretion and is confined to a few glands such as the sebaceous.',
         D: 'Apocrine is likewise uncommon, and the lactating mammary gland is its one everyday example.',
       },
@@ -904,7 +904,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State where an endocrine gland delivers its secretion.',
       explanations: {
         A: 'Delivery onto a surface is exocrine, and the skin is where several exocrine glands empty — sweat and sebaceous among them.',
-        B: 'Correct. An endocrine gland is ductless; its hormone passes into the blood capillaries beside the secretory cells and is carried to distant parts of the body.',
+        B: 'An endocrine gland is ductless; its hormone passes into the blood capillaries beside the secretory cells and is carried to distant parts of the body.',
         C: 'A gland duct is precisely what an endocrine gland does not have. This is the definition of the class it is being distinguished from.',
         D: 'Release into brain tissue would make the gland a neurosecretory structure with a local target. The defining feature of an endocrine gland is that the blood carries its product *away*.',
       },
@@ -928,9 +928,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Match partial loss of cytoplasm to apocrine secretion.',
       explanations: {
         A: 'Merocrine cells lose no cytoplasm at all.',
-        B: 'Correct. Losing part of the cytoplasm — the apex — with the product is apocrine.',
+        B: 'Losing part of the cytoplasm — the apex — with the product is apocrine.',
         C: 'Holocrine cells lose all of their cytoplasm, along with everything else.',
-        D: 'Cytocrine is not one of the book\'s modes. It is a real term for pigment transfer from melanocyte to keratinocyte, and here it functions purely as a plausible-sounding fourth "-crine".',
+        D: 'Cytocrine is not one of the three modes. It is a real term for pigment transfer from melanocyte to keratinocyte, and here it functions purely as a plausible-sounding fourth "-crine".',
       },
     },
     {
@@ -953,7 +953,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Merocrine expels only the product; the cell stays where it is.',
         B: 'Apocrine expels the apex of the cell along with the product, which is part of the cell rather than the cell.',
-        C: 'Correct. When the cell itself is the secretory product, the mode is holocrine.',
+        C: 'When the cell itself is the secretory product, the mode is holocrine.',
         D: 'Cytocrine is not one of the three modes, despite the "cyto-" making it sound like the one that involves whole cells. That resemblance is the trap.',
       },
     },
@@ -977,7 +977,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Merocrine eliminates no cells; that is what makes it repeatable and the commonest mode.',
         B: 'Apocrine eliminates the apical part of a cell, not the complete cell.',
-        C: 'Correct. Holocrine glands lose the entire cell with the secretion, and replace it from a basal reserve.',
+        C: 'Holocrine glands lose the entire cell with the secretion, and replace it from a basal reserve.',
         D: 'Endocrine answers a different criterion — presence of a duct — and no endocrine gland is described by any of the three modes.',
       },
     },
@@ -990,7 +990,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The thyroid is purely endocrine. Its follicles look like secretory units with a lumen, which is what makes it tempting, but nothing leaves them by a duct.',
         B: 'The salivary gland is purely exocrine, and "mixed" is being read here in its other sense — a mucoserous secretion. That double meaning is the trap the question is built on.',
-        C: 'Correct. The pancreas has exocrine acini draining through a duct system and endocrine islets releasing insulin and glucagon into the blood, which is the definition of a mixed gland.',
+        C: 'The pancreas has exocrine acini draining through a duct system and endocrine islets releasing insulin and glucagon into the blood, which is the definition of a mixed gland.',
         D: 'A hedge that is wrong because the pancreas is exactly the example the classification was written for.',
       },
     },
@@ -1016,7 +1016,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The most common mode is merocrine, which is how most glands work most of the time. Apocrine costs the cell part of itself and is therefore the less usual arrangement.',
         b: 'No change in the secretory cell is merocrine, where the product leaves by exocytosis and the membrane is restored. Apocrine takes the apex away with the secretion, so there is a change by definition.',
-        c: 'Correct. In apocrine secretion the apical part of the cytoplasm is pinched off and leaves with the product — the prefix apo-, meaning off or away, is the whole definition.',
+        c: 'In apocrine secretion the apical part of the cytoplasm is pinched off and leaves with the product — the prefix apo-, meaning off or away, is the whole definition.',
         d: 'Losing the whole cell is holocrine, as in the sebaceous gland. The three modes form a ladder of how much of the cell is spent, and this option is one rung past the answer.',
       },
     },
@@ -1030,7 +1030,7 @@ export const LEAF: McqLeafSeed = {
         'No key was printed on the 2021 paper and none was recovered for it, so the answer is worked from the department book: a simple gland is one with a single non-branching duct, and it is called simple branched when only the secretory portion branches. Simple always describes the duct, and branched always describes the secretory part.',
       explanations: {
         a: 'This inverts the naming. A branched duct makes the gland compound, and the word simple would then be wrong — the two halves of the name cannot both refer to the duct.',
-        b: 'Correct. "Simple" fixes the duct as unbranched and "branched" then has only the secretory portion left to describe.',
+        b: '"Simple" fixes the duct as unbranched and "branched" then has only the secretory portion left to describe.',
         c: 'Neither part branching is a plain simple gland — simple tubular or simple alveolar — with no second word at all. Adding "branched" to the name has to mean something.',
         d: 'Both branching is a compound gland, and a compound gland is never called simple. This is the option for a student reading "branched" as a property of the whole gland.',
       },
@@ -1047,7 +1047,7 @@ export const LEAF: McqLeafSeed = {
         a: 'The whole cell coming out with the secretion is holocrine — the sebaceous gland, where the swollen cell ruptures and is lost entirely.',
         b: 'Merocrine is the most common mode, not the least. Only one word separates this option from a true statement, and it is the word the examiner changed.',
         c: 'The apical part leaving with the secretion is apocrine. The three modes are one question asked three ways in these papers, and each mode appears as a distractor in the others.',
-        d: 'Correct. In merocrine secretion the product leaves by exocytosis, the vesicle membrane fuses with the cell membrane and is recovered, and the cell is unchanged — which is why it can secrete indefinitely.',
+        d: 'In merocrine secretion the product leaves by exocytosis, the vesicle membrane fuses with the cell membrane and is recovered, and the cell is unchanged — which is why it can secrete indefinitely.',
       },
     },
     {

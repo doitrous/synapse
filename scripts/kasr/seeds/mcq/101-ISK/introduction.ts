@@ -39,8 +39,8 @@ export const LEAF: McqLeafSeed = {
     {
       key: 'anatomical-erect-position-is-the-reference-for-all-description',
       label: 'Every anatomical description assumes the erect position: standing, eyes forward, arms at the sides, palms facing forwards',
-      definition: 'The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally. Every term of position — anterior, medial, proximal — is stated as though the body were in it, whatever posture the patient is actually in. The other four positions the book names are clinical postures, not references: supine, lying on the back; prone, lying on the face; lithotomy, on the back with hip and knee flexed and the hips abducted; and lateral decubitus, lying on the right or left side.',
-      objective: 'State the anatomical erect position in full and name the four other positions the department book defines.',
+      definition: 'The anatomical erect position is the reference position for describing the anatomy of the body: the body stands erect, the eyes look forwards, the upper limbs hang by the sides, the palms face forwards and the thumbs are directed laterally. Every term of position — anterior, medial, proximal — is stated as though the body were in it, whatever posture the patient is actually in. The other four positions are clinical postures, not references: supine, lying on the back; prone, lying on the face; lithotomy, on the back with hip and knee flexed and the hips abducted; and lateral decubitus, lying on the right or left side.',
+      objective: 'State the anatomical erect position in full and name its four other positions.',
       pitfall: 'Forgetting the palms. Every other element of the position is the posture a person naturally stands in; supinated forearms are the one deliberate part, and it is the part examiners test.',
       subject: 'msk', primary: 'DIS-ANA-T01', secondary: [],
       modulePath: '101 ISK > Anatomy > Basis of Anatomy > Introduction',
@@ -61,7 +61,7 @@ export const LEAF: McqLeafSeed = {
     {
       key: 'terms-of-position-medial-lateral-proximal-distal',
       label: 'Medial and lateral are measured from the median plane; proximal and distal from the root of the limb',
-      definition: 'The department book tabulates fourteen terms of position. Median is exactly in the midline; medial is nearer to the median plane and lateral away from it. Proximal is nearer to the root of the limb and distal away from it. Anterior (ventral) is nearer the front and posterior (dorsal, retro-) nearer the back; superior (cranial) is upper and inferior (caudal) lower; external (outer) is near or on the surface and internal (inner) inside; superficial is towards the skin and deep away from it; peri- means around.',
+      definition: 'There are fourteen terms of position. Median is exactly in the midline; medial is nearer to the median plane and lateral away from it. Proximal is nearer to the root of the limb and distal away from it. Anterior (ventral) is nearer the front and posterior (dorsal, retro-) nearer the back; superior (cranial) is upper and inferior (caudal) lower; external (outer) is near or on the surface and internal (inner) inside; superficial is towards the skin and deep away from it; peri- means around.',
       objective: 'Give the term for a stated relation, and name the reference — the median plane, the root of the limb, or the skin — that each pair is measured from.',
       pitfall: 'Using medial and proximal interchangeably because both mean "towards the middle of something". They measure from different things: medial from the median plane of the body, proximal from where the limb joins the trunk.',
       subject: 'msk', primary: 'DIS-ANA-T01', secondary: [],
@@ -81,8 +81,8 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'This copy printed no key. The identical row `anatomical-position-is-ebd3fee8`, asked twice, is keyed C — and this is the only copy in which C and D are printed in full, so it is the only copy in which the key can be acted on at all.',
       explanations: {
         A: 'Sitting is not the reference. A position that changes with the chair could not be a reference for describing anything; the anatomical position is standing, and it is fixed.',
-        B: 'Lying down with the arms at the sides is the supine position, which the book names separately. It is a clinical posture, not the reference posture.',
-        C: 'Correct, and complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.',
+        B: 'Lying down with the arms at the sides is the supine position, named separately. It is a clinical posture, not the reference posture.',
+        C: 'This is complete: erect, facing front, feet parallel, arms hanging at the sides, palms facing forwards. The palms are what make this statement the right one.',
         D: 'Identical to C except that the palms face backwards — which is where they naturally hang, and therefore the option a student who has never noticed the detail will pick. In the anatomical position the forearms are supinated so the palms face forwards and the thumbs point laterally.',
       },
     },
@@ -102,7 +102,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the one statement about the anatomical position that is true, given three that invert a detail of it.',
       explanations: {
         A: 'Reversed. The eyes look forwards; a body facing one way with the eyes looking the other is not a posture anyone could hold, which is what makes this the easiest option to eliminate.',
-        B: 'Correct. The upper limbs hang by the sides — the only one of the four statements the book gives as printed.',
+        B: 'The upper limbs hang by the sides — the only one of the four statements printed as given.',
         C: 'Reversed, and the commonest error in this leaf. The palms face forwards, not backwards; this is the one element of the position that is not the way a body naturally stands.',
         D: 'Reversed. The thumbs are directed laterally, which follows from the palms facing forwards. A student who put the palms backwards will put the thumbs medially too, so the two errors travel together.',
       },
@@ -124,7 +124,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'This copy printed no key. Its twin `the-plane-which-divides-the-body-into-2-equal-halves-right-a-8f461c93` is keyed A, and A is what the department book states: the median (sagittal) plane passes in the midline and gives equal right and left halves.',
       explanations: {
-        A: 'Correct. The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.',
+        A: 'The median or sagittal plane runs vertically in the midline, and the word "equal" is what selects it over the paramedian plane.',
         B: 'The coronal plane is vertical too, which is why it is picked. It divides the body into anterior and posterior parts, not right and left.',
         C: 'The trap the word "equal" is in the stem for. The paramedian plane is parallel to the median plane and near it, so it also gives a right and a left part — unequal ones.',
         D: 'The horizontal plane cuts across the body into an upper and a lower part. It divides nothing into right and left.',
@@ -148,9 +148,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The department book defines the coronal (frontal) plane as the one cutting the body vertically into an anterior part towards the front and a posterior part towards the back, so D is the only option that answers the stem.',
       explanations: {
         A: 'The median plane is vertical like the coronal, but it separates right from left.',
-        B: 'The book gives "sagittal" as the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.',
+        B: '"Sagittal" is the second name of the median plane, so this option is A again under another name — and two identical options cannot both be the answer, which is itself a way to eliminate them.',
         C: 'The horizontal plane gives an upper and a lower part. A student picks it when reading "separates the body into two parts" and stopping there.',
-        D: 'Correct. Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.',
+        D: 'Coronal, also called frontal: a vertical plane leaving an anterior part in front and a posterior part behind.',
       },
     },
     {
@@ -162,7 +162,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. B is the only true statement: the coronal plane divides the body into an anterior and a posterior part. The book says "parts" rather than "halves", and the item\'s wording is looser than the book\'s, but no other option is defensible — A and C describe the horizontal plane and D the median.',
       explanations: {
         A: 'The coronal plane is vertical, not horizontal. This option and C are the same error stated twice, which is a sign that neither is the answer.',
-        B: 'Correct, subject to the book\'s wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The department book says "parts"; only a plane through the exact mid-thickness of the body would give halves.',
+        B: 'In the exact wording: the coronal plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back. The wording says "parts"; only a plane through the exact mid-thickness of the body would give halves.',
         C: 'Upper and lower is the horizontal (transverse) plane. Picked by students who remember that the coronal plane is a cross-section of some kind without remembering which way it faces.',
         D: 'A correct definition of the median plane, offered under the coronal plane\'s name. Both are vertical, which is what makes the swap tempting.',
       },
@@ -191,7 +191,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Definition',
       learningObjective: 'Give the term for a position away from the median plane.',
       explanations: {
-        A: 'Correct. Lateral is away from the median plane; medial is towards it.',
+        A: 'Lateral is away from the median plane; medial is towards it.',
         B: 'The exact opposite, and the option a student picks by matching the words "median" and "medial" rather than reading the direction.',
         C: 'Distal is away from the root of the limb, not away from the midline. Both mean "further out", which is why the two pairs are confused; they measure from different reference points.',
         D: 'Proximal is nearer the root of the limb — the wrong axis and the wrong direction at once.',
@@ -215,7 +215,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Lateral is measured from the median plane of the body, not along the limb.',
         B: 'Medial is the other half of that same pair, and belongs to the trunk axis rather than the limb axis.',
         C: 'The exact opposite: distal is away from the root of the limb. A student who reads only "root" and answers by feel takes this half the time.',
-        D: 'Correct. Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.',
+        D: 'Proximal is nearer to the root of the limb — the shoulder for the upper limb, the hip for the lower.',
       },
     },
     {
@@ -246,7 +246,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Lateral is the opposite — away from the median plane.',
         B: 'Proximal is measured along a limb, from its root, not from the midline of the body.',
-        C: 'Correct, and the override. Medial is nearer to the median plane; median itself is exactly in the midline.',
+        C: 'This is the overridden answer. Medial is nearer to the median plane; median itself is exactly in the midline.',
         D: 'The answer the extractor took from this page, and the reason for the override. Inferior means lower or caudal; it names a position on the vertical axis and says nothing about the midline.',
       },
     },
@@ -258,9 +258,9 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'c',
       answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book defines the median (sagittal) plane as the vertical plane in the midline "dividing it into equal right and left halves" \u2014 the only one of the four planes it describes with the word equal. Of the coronal plane it says only that it cuts the body into an anterior and a posterior part, and of the horizontal plane into an upper and a lower part, with no claim of equality; that single word is what separates option c from options b and d.',
       explanations: {
-        a: 'Wrong on both counts: a sagittal plane is vertical and never divides upper from lower. This is the option that pairs the right plane name with the wrong pair of parts, and it is the easiest of the four to eliminate.',
-        b: 'The coronal plane does divide the body into anterior and posterior parts, but not into equal halves \u2014 the book says "an anterior part towards the front and a posterior part towards the back" and no more, and any coronal plane through the body qualifies. The option is true in its direction and false in the word equal, which is precisely the discrimination this question is built on.',
-        c: 'Correct. The median, or sagittal, plane passes vertically in the midline and divides the body into equal right and left halves. A plane parallel to it and near it is the paramedian plane, and that one gives unequal halves \u2014 which is why the book names it separately.',
+        a: 'A sagittal plane is vertical and never divides upper from lower. This is the option that pairs the right plane name with the wrong pair of parts, and it is the easiest of the four to eliminate.',
+        b: 'The coronal plane does divide the body into anterior and posterior parts, but not into equal halves \u2014 the definition says "an anterior part towards the front and a posterior part towards the back" and no more, and any coronal plane through the body qualifies. The option is true in its direction and false in the word equal, which is precisely the discrimination this question is built on.',
+        c: 'The median, or sagittal, plane passes vertically in the midline and divides the body into equal right and left halves. A plane parallel to it and near it is the paramedian plane, and that one gives unequal halves \u2014 which is why it is named separately.',
         d: 'The transverse (horizontal) plane divides the body into upper and lower parts, but again not equal ones: it can be taken at any level. It fails on the same word as option b.',
       },
     },

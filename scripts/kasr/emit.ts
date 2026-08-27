@@ -842,9 +842,9 @@ function evidenceField(block: string, label: string): string {
  * every evidence file per question would be pure waste.
  *
  * A claim survives into the index only if some citation locates it to a page
- * — a claim nothing cites cannot honestly carry a "(department book p.N)"
- * tag, so it is left out rather than tagged with nothing. Kept in the file's
- * own order (which follows the department book); `appendEnrichment` is what
+ * — a claim nothing cites cannot be trusted as a fact about the concept, so
+ * it is left out rather than asserted on nothing. Kept in the file's own
+ * order (which follows the department book); `appendEnrichment` is what
  * sorts verified claims first and caps the count, so that selection policy
  * lives in one place and is unit-testable without touching disk.
  */
@@ -900,7 +900,7 @@ function claimsIndexFor(module: ModuleRef): Map<string, EnrichmentClaim[]> {
 }
 
 /** The fixed sub-heading a mechanical enrichment lands under — see `appendEnrichment`. */
-export const ENRICHMENT_HEADING = 'Why this is right, from the department book:'
+export const ENRICHMENT_HEADING = 'Why this is right:'
 
 /** The first sentence of a block of text — used for the definition fallback below. */
 function firstSentence(text: string): string {
@@ -915,12 +915,18 @@ function firstSentence(text: string): string {
  *
  * Approved design (chief of staff + Omar's standing order, see
  * `E1-enrichment.md`): up to 3 claims, verified ones first (a stable sort, so
- * ties keep the department book's own order), each followed by
- * `(department book p.N)`; when the concept has no locatable claim, the
- * concept's `definition` sentence stands in; a sentence already present
- * verbatim in the explanation is skipped rather than repeated. Entirely
- * mechanical — nothing here is hand-written for this question — and it never
- * touches the text above the sub-heading or any distractor's explanation.
+ * ties keep the department book's own order); when the concept has no
+ * locatable claim, the concept's `definition` sentence stands in; a sentence
+ * already present verbatim in the explanation is skipped rather than
+ * repeated. Entirely mechanical — nothing here is hand-written for this
+ * question — and it never touches the text above the sub-heading or any
+ * distractor's explanation.
+ *
+ * Student-facing text never names the department book — that citation lives
+ * in `source_citation`/`author_notes` instead (see `mcqBlock`) — so only a
+ * claim's `text` is emitted here, never its `page`. A claim still needs a
+ * locatable page to enter `claimsIndexFor`'s index at all: that gate is about
+ * trusting the claim, not about printing where it came from.
  *
  * If every candidate is a duplicate, the explanation is returned byte-for-byte
  * unchanged: a heading over nothing to add is worse than no heading. Pure —
@@ -931,13 +937,10 @@ function firstSentence(text: string): string {
 export function appendEnrichment(explanation: string, claims: EnrichmentClaim[], definition: string): string {
   const ordered = [...claims].sort((a, b) => Number(b.verified) - Number(a.verified))
   const candidates = ordered.length
-    ? ordered.slice(0, 3).map((c) => `${c.text} (department book p.${c.page})`)
+    ? ordered.slice(0, 3).map((c) => c.text)
     : [firstSentence(definition)].filter(Boolean)
 
-  const fresh = candidates.filter((sentence) => {
-    const bare = sentence.replace(/ \(department book p\.\d+\)$/, '')
-    return bare.length > 0 && !explanation.includes(bare)
-  })
+  const fresh = candidates.filter((sentence) => sentence.length > 0 && !explanation.includes(sentence))
   if (!fresh.length) return explanation
 
   return `${explanation}\n\n${ENRICHMENT_HEADING}\n${fresh.map((s) => `- ${s}`).join('\n')}`

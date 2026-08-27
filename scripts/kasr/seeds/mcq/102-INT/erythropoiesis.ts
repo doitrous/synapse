@@ -35,7 +35,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'The average RBC count ranges from 5–5.5 million/mm3 in males and 4–4.5 million/mm3 in females. The count is high in newly born infants, at high altitudes and in athletes, and is lower in growing children and in old age.',
       objective: 'Name high altitude, alongside newborns and athletes, as a state of higher-than-normal RBC count.',
-      pitfall: 'Treating the raised RBC count at high altitude as pathological — it is the ordinary, expected hypoxia-driven response the book lists alongside newborns and athletes, not a disease state.',
+      pitfall: 'Treating the raised RBC count at high altitude as pathological — it is the ordinary, expected hypoxia-driven response listed alongside newborns and athletes, not a disease state.',
       subject: 'haem',
       primary: 'DIS-PHY-T02',
       secondary: [],
@@ -49,7 +49,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'Polycythemia means an increased number of RBCs, which may reach 6–8 million/mm3. Primary polycythemia (polycythemia vera) is due to a condition in the RBC-forming organs themselves. Secondary polycythemia occurs when the tissues become hypoxic, as in obstructive lung disease and in people living at high altitude — driven by the same erythropoietin pathway that raises the RBC count in these situations.',
       objective: 'Distinguish primary polycythemia from secondary (hypoxia-driven) polycythemia, and connect the latter to erythropoietin secretion.',
-      pitfall: 'Treating liver disease as a cause of polycythemia — it is not one the book names for either type; liver disease instead reduces the liver\'s 15% contribution to erythropoietin, if anything working against polycythemia rather than causing it.',
+      pitfall: 'Treating liver disease as a cause of polycythemia — it is not one named for either type; liver disease instead reduces the liver\'s 15% contribution to erythropoietin, if anything working against polycythemia rather than causing it.',
       subject: 'haem',
       primary: 'DIS-PHY-T02',
       secondary: [],
@@ -95,7 +95,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Normal values',
       learningObjective: 'State that RBC count is higher than normal in people living at high altitude.',
       explanations: {
-        a: 'Correct. RBC count runs above the adult range at high altitude, alongside newborns and athletes — a physiological, hypoxia-driven response, not a disease.',
+        a: 'RBC count runs above the adult range at high altitude, alongside newborns and athletes — a physiological, hypoxia-driven response, not a disease.',
         b: 'Backwards. The biconcave shape enhances flexibility so erythrocytes can be squeezed through narrow capillaries *without* rupturing — it facilitates safe passage, not rupture.',
         c: 'Erythrocytes do not synthesize erythropoietin — the kidney (85%) and liver (15%) do, and erythrocytes are the *targets* of erythropoietin\'s action, not its source.',
         d: 'The erythrocyte membrane keeps haemoglobin inside to prevent the *hazards* of free plasma haemoglobin (renal tubule blockage, raised viscosity, raised colloidal osmotic pressure) — those hazards raise cardiac workload if the membrane fails, so the membrane\'s job is to prevent an *increased*, not decreased, heart load.',
@@ -109,9 +109,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recognise adenosine as a stimulator of erythropoietin secretion, so its antagonists inhibit secretion.',
       explanations: {
         a: 'Backwards. In adults, erythropoietin is secreted 85% by the kidney and 15% by the liver — the option gives the reversed split.',
-        b: 'Backwards. Erythropoietin secretion is stimulated by the alkalosis that develops at high altitude, not by acidosis — the book names alkalosis specifically.',
+        b: 'Backwards. Erythropoietin secretion is stimulated by the alkalosis that develops at high altitude, not by acidosis — named alkalosis specifically.',
         c: 'Backwards. Erythropoietin is synthesized and released by the kidneys and liver, not by red blood cells — RBCs are the downstream product of erythropoiesis, not a source of the hormone driving it.',
-        d: 'Correct. Adenosine is one of the book\'s named stimulators of erythropoietin secretion, so an adenosine antagonist — blocking that stimulus — would inhibit secretion rather than promote it.',
+        d: 'Adenosine is one of the named stimulators of erythropoietin secretion, so an adenosine antagonist — blocking that stimulus — would inhibit secretion rather than promote it.',
       },
     },
     {
@@ -121,10 +121,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that erythropoietin speeds every step of erythropoiesis, from proerythroblast to mature RBC.',
       explanations: {
-        a: 'Backwards. Erythropoietin is secreted 85% by the kidney and only 15% by the bone marrow-adjacent liver split described in the book — the option reverses the percentages and misnames the second source.',
-        b: 'Cobalt salts and acidosis are not paired as stimulators in the book — cobalt salts are named as a stimulator, but the specific altitude-related stimulus named is alkalosis, not acidosis.',
-        c: 'Backwards. Erythropoietin stimulates mitosis of erythropoietin-*sensitive* committed cells, which the book distinguishes from the uncommitted stem cell pool further upstream — "uncommitted" is the wrong target population.',
-        d: 'Correct. Erythropoietin stimulates all steps of erythropoiesis — from the earliest proerythroblast through to the mature red cell — which is the mechanism the book states directly.',
+        a: 'Backwards. Erythropoietin is secreted 85% by the kidney and only 15% by the bone marrow-adjacent liver split described — the option reverses the percentages and misnames the second source.',
+        b: 'Cobalt salts and acidosis are not paired as stimulators — cobalt salts are named as a stimulator, but the specific altitude-related stimulus named is alkalosis, not acidosis.',
+        c: 'Backwards. Erythropoietin stimulates mitosis of erythropoietin-*sensitive* committed cells, which is distinguished from the uncommitted stem cell pool further upstream — "uncommitted" is the wrong target population.',
+        d: 'Erythropoietin stimulates all steps of erythropoiesis — from the earliest proerythroblast through to the mature red cell — which is the mechanism directly.',
       },
     },
     {
@@ -154,9 +154,9 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Recognise that liver disease is not a named cause of polycythemia.',
       explanations: {
-        a: 'Correct — the exception. Liver disease is not among the book\'s causes of either primary or secondary polycythemia; if anything, since the liver makes 15% of erythropoietin, liver disease would work against a raised count, not toward one.',
-        b: 'Increased RBC number genuinely increases blood viscosity (the book states viscosity rises in polycythemia and falls in anaemia), so this is a true statement and not the exception.',
-        c: 'High altitude is the book\'s own named example of secondary polycythemia, through tissue hypoxia, so this is true and not the exception.',
+        a: 'The exception. Liver disease is not among the causes of either primary or secondary polycythemia; if anything, since the liver makes 15% of erythropoietin, liver disease would work against a raised count, not toward one.',
+        b: 'Increased RBC number genuinely increases blood viscosity (viscosity rises in polycythemia and falls in anaemia), so this is a true statement and not the exception.',
+        c: 'High altitude is the named example of secondary polycythemia, through tissue hypoxia, so this is true and not the exception.',
         d: 'A high level of erythropoietin secretion is exactly the mechanism driving secondary polycythemia, so this is true and not the exception.',
       },
     },
@@ -167,8 +167,8 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that the stomach\'s role in erythropoiesis includes absorption of both vitamin B12 and iron.',
       explanations: {
-        a: 'Folic acid absorption is not described in the book as gastric-dependent the way vitamin B12 and iron are — it does not require intrinsic factor or gastric acid.',
-        b: 'Correct. Gastric parietal cells provide intrinsic factor (needed for vitamin B12 absorption in the lower ileum) and gastric HCl (needed to reduce dietary iron to its absorbable ferrous form) — both nutrients the stomach makes possible, through different secretions from the same organ.',
+        a: 'Folic acid absorption is not described as gastric-dependent the way vitamin B12 and iron are — it does not require intrinsic factor or gastric acid.',
+        b: 'Gastric parietal cells provide intrinsic factor (needed for vitamin B12 absorption in the lower ileum) and gastric HCl (needed to reduce dietary iron to its absorbable ferrous form) — both nutrients the stomach makes possible, through different secretions from the same organ.',
         c: 'Erythropoietin is secreted by the kidney (85%) and liver (15%), not by the stomach.',
         d: 'The globin part of haemoglobin is formed by the liver, not the stomach.',
       },
@@ -181,9 +181,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute renal-failure anaemia to loss of the kidney\'s 85% share of erythropoietin production.',
       explanations: {
         a: 'The stem cells are present in the marrow in renal failure — the marrow itself is not the diseased organ here, the kidney is, and the marrow simply lacks the hormonal drive to use those stem cells at full rate.',
-        b: 'Correct. Since the kidney normally makes 85% of erythropoietin and the liver\'s 15% cannot compensate for its loss, renal failure causes severe anaemia through erythropoietin deficiency.',
+        b: 'Since the kidney normally makes 85% of erythropoietin and the liver\'s 15% cannot compensate for its loss, renal failure causes severe anaemia through erythropoietin deficiency.',
         c: 'Renal failure does not stop a patient eating essential vitamins — the anaemia mechanism here is hormonal (lost erythropoietin), not nutritional.',
-        d: 'The book attributes renal-failure anaemia to lost erythropoietin drive, not to a congenital marrow anomaly, which is an unrelated and unstated mechanism.',
+        d: 'Attributed renal-failure anaemia to lost erythropoietin drive, not to a congenital marrow anomaly, which is an unrelated and unstated mechanism.',
       },
     },
     {
@@ -193,10 +193,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Clinical correlation',
       learningObjective: 'Attribute heart-failure-stimulated erythropoiesis to tissue hypoxia driving erythropoietin secretion.',
       explanations: {
-        a: 'Backwards. Heart failure is one of the book\'s named causes of hypoxia (reduced tissue perfusion), which *stimulates* erythropoietin secretion — the option claims the opposite, that secretion cannot occur.',
-        b: 'The book does not connect heart failure to decreased iron absorption; the stimulus it names for heart-failure erythropoiesis is hypoxia, not an iron-supply change.',
-        c: 'The book does not describe heart failure as raising blood vitamin B12 — this option names an unconnected mechanism.',
-        d: 'Correct. Heart failure reduces tissue oxygen delivery — hypoxia — which is the main stimulus for erythropoietin secretion and so for erythropoiesis, exactly as at high altitude or after haemorrhage.',
+        a: 'Backwards. Heart failure is one of the named causes of hypoxia (reduced tissue perfusion), which *stimulates* erythropoietin secretion — the option claims the opposite, that secretion cannot occur.',
+        b: 'Heart failure is not connected to decreased iron absorption; the stimulus it names for heart-failure erythropoiesis is hypoxia, not an iron-supply change.',
+        c: 'Heart failure is not described as raising blood vitamin B12 — this option names an unconnected mechanism.',
+        d: 'Heart failure reduces tissue oxygen delivery — hypoxia — which is the main stimulus for erythropoietin secretion and so for erythropoiesis, exactly as at high altitude or after haemorrhage.',
       },
     },
     {
@@ -207,9 +207,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that bone marrow is the site of erythropoiesis because it contains haemopoietic stem cells.',
       explanations: {
         a: 'Intrinsic factor receptors are found in the lower ileal mucosa (for vitamin B12 absorption), not in the bone marrow.',
-        b: 'Correct. Active bone marrow contains the haemopoietic stem cells from which erythrocytes (and the other blood cell lines) develop — their presence, in healthy marrow, is what makes the marrow the site of erythropoiesis after birth.',
+        b: 'Active bone marrow contains the haemopoietic stem cells from which erythrocytes (and the other blood cell lines) develop — their presence, in healthy marrow, is what makes the marrow the site of erythropoiesis after birth.',
         c: 'Megakaryocytes are present in bone marrow, but they are the platelet-producing cells, not what makes the marrow the site of erythropoiesis specifically.',
-        d: 'Alkaline phosphatase is not named by the book as a reason marrow supports erythropoiesis; it is not part of this mechanism.',
+        d: 'Alkaline phosphatase is not named as a reason marrow supports erythropoiesis; it is not part of this mechanism.',
       },
     },
   ],

@@ -86,7 +86,7 @@ export const LEAF: McqLeafSeed = {
       label: 'Fertilisation happens in the ampulla of the uterine tube and has four results',
       definition:
         'Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third. Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.',
-      objective: 'State where fertilisation occurs and give the four results the department book lists.',
+      objective: 'State where fertilisation occurs and give its four results.',
       pitfall: 'Saying the uterus. Fertilisation is tubal; the uterus is where the product of it implants, four days later.',
       subject: 'dev',
       primary: 'DIS-EMB-T01',
@@ -121,7 +121,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Starting at birth is the female pattern misapplied to the male, and even for the female it is a month too late — she starts in intrauterine life. Nothing about sperm begins at birth. This is the option one annotated printing of this question is keyed to in error.',
         B: 'Stopping at puberty is exactly backwards: puberty is when spermatogenesis begins, not when it ends.',
-        C: 'Correct. Spermatogenesis starts at puberty and continues into old age, without the arrest that interrupts the female schedule.',
+        C: 'Spermatogenesis starts at puberty and continues into old age, without the arrest that interrupts the female schedule.',
         D: 'Starting at old age would leave a man infertile for most of his life. The option exists only to complete the four combinations of the two boundaries.',
       },
     },
@@ -134,7 +134,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Starting at puberty is the male schedule. Picked by students who reason from menstruation backwards — but the oocytes were already there, arrested, long before the first period.',
         B: 'The end is right and the beginning is wrong. Oogenesis does continue to the menopause, but it began in intrauterine life, not at birth — and that half-truth is what makes this the strongest distractor of the four.',
         C: 'Ending at puberty would mean a woman had no oocytes left to ovulate. Puberty is where the arrested process resumes, not where it stops.',
-        D: 'Correct. Oogenesis begins in intrauterine life, is arrested, and resumes at puberty to continue through the ovarian cycles until the menopause.',
+        D: 'Oogenesis begins in intrauterine life, is arrested, and resumes at puberty to continue through the ovarian cycles until the menopause.',
       },
     },
     {
@@ -146,7 +146,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Capacitation does not add acrosomal enzymes; the hyaluronidase and acrosin are already in the acrosomal cap when the sperm is made. What changes is access to them.',
         B: 'The sperm does become more active after capacitation, which is why this option is tempting and why one annotated printing of this question is keyed to it. But increased motility is a consequence, not the definition — the definition names what is taken away.',
         C: 'The sperm shed most of their cytoplasm during spermiogenesis, in the testis, long before they reach the female tract.',
-        D: 'Correct. Capacitation is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm head, and it takes about seven hours.',
+        D: 'Capacitation is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm head, and it takes about seven hours.',
       },
     },
     {
@@ -158,7 +158,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Dispersion of the corona radiata is Phase I. It is one place too early, and it is the answer of a student who has counted capacitation out of the sequence but not renumbered what follows.',
         B: 'Capacitation precedes the numbered phases entirely, and one annotated printing of this question is keyed to it in error. Counting it as Phase I shifts every subsequent phase by one, which is precisely the error this pair of questions is built to detect.',
         C: 'Opening the cell membrane of the oocyte is Phase III, the last of the three.',
-        D: 'Correct. Phase II is penetration of the zona pellucida — the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through it.',
+        D: 'Phase II is penetration of the zona pellucida — the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through it.',
       },
     },
     {
@@ -169,7 +169,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Penetration of the corona radiata is Phase I, done by hyaluronidase from the several hundred sperms that reach the ovum.',
         B: 'Capacitation is the preparation that precedes Phase I; it is not numbered among the three phases at all.',
-        C: 'Correct. Phase III is the fusion and opening of the cell membranes of sperm and oocyte, letting the sperm nucleus, mitochondrial sheath and axial filament into the cytoplasm.',
+        C: 'Phase III is the fusion and opening of the cell membranes of sperm and oocyte, letting the sperm nucleus, mitochondrial sheath and axial filament into the cytoplasm.',
         D: 'Penetration of the zona pellucida is Phase II. The two questions on this page differ by one word — II against III — and offer the same four options, so a student who has learnt the phases as an unordered list will get one of the pair wrong whichever way they guess.',
       },
     },
@@ -181,7 +181,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'After the corona radiata is passed the sperm still has the zona pellucida ahead of it. Blocking other sperms at this point would be premature — the fertilising sperm has not yet arrived.',
         B: 'During zona penetration is one step too early for the same reason: several sperms may still be in the zona, and the block is not thrown until one of them is inside.',
-        C: 'Correct. The cortical granules release their lysosomal enzymes once the sperm has entered the oocyte cytoplasm, and those enzymes alter the zona receptors and harden the zona and cell membrane against any further sperm.',
+        C: 'The cortical granules release their lysosomal enzymes once the sperm has entered the oocyte cytoplasm, and those enzymes alter the zona receptors and harden the zona and cell membrane against any further sperm.',
         D: 'The zygote forms only when the two pronuclei fuse, hours later. If the block waited that long, polyspermy would already have happened.',
       },
     },
@@ -192,7 +192,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Define the zona reaction as the ovum\'s act, not the sperm\'s.',
       explanations: {
         A: 'That is Phase II, the sperm\'s acrosomal reaction. The zona reaction is the ovum\'s answer to it, and the two are easily transposed because both name the zona.',
-        B: 'Correct. The zona reaction is the release of lysosomal enzymes from the cortical granules lying beneath the oocyte cell membrane; those enzymes change the sperm receptors of the zona so that no further sperm is attracted or admitted.',
+        B: 'The zona reaction is the release of lysosomal enzymes from the cortical granules lying beneath the oocyte cell membrane; those enzymes change the sperm receptors of the zona so that no further sperm is attracted or admitted.',
         C: 'It does occur after capacitation, but so does everything else in fertilisation, so this says nothing that identifies it. It is the option one annotated printing of this question is keyed to, and a statement that is true but not defining is the hardest kind of distractor to reject.',
         D: 'Degeneration of the zona pellucida is a later and quite separate event — it happens at the end of the fifth day, in the uterine cavity, so the blastocyst can hatch and implant.',
       },
@@ -203,7 +203,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Place the sperm receptors on the correct covering of the ovum.',
       explanations: {
-        A: 'Correct. The zona pellucida is the glycoprotein coat around the oocyte cell membrane, and it carries the sperm receptors.',
+        A: 'The zona pellucida is the glycoprotein coat around the oocyte cell membrane, and it carries the sperm receptors.',
         B: 'The corona radiata is the outermost covering, of follicular cells, and the sperm passes it by dissolving the hyaluronic acid between its cells rather than by binding a receptor. One annotated printing of this question is keyed to it in error.',
         C: 'The oocyte cell membrane is the innermost of the three coverings and is where Phase III happens — fusion, not binding. Binding has already selected one sperm by then.',
         D: 'The nuclear membrane is inside the oocyte altogether. A sperm that reached it would have passed everything the receptors exist to regulate.',
@@ -216,7 +216,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Pair the part that generates the energy with the part that uses it.',
       explanations: {
         A: 'The acrosomal cap carries hyaluronidase and acrosin, which dissolve a path through the ovum\'s coverings. It contributes nothing to movement — it is chemistry, not propulsion.',
-        B: 'Correct. The mitochondrial sheath of the middle piece supplies the energy and the tail, an axial filament, does the beating; movement needs both.',
+        B: 'The mitochondrial sheath of the middle piece supplies the energy and the tail, an axial filament, does the beating; movement needs both.',
         C: 'The head carries the nucleus and the acrosome and is the passenger, not the engine. Half of this option is right, which is what makes it the most attractive wrong answer.',
         D: 'Neither the head nor the acrosomal cap has any motile apparatus. This pairs the two parts of the sperm that do the least moving.',
       },
@@ -227,7 +227,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Separate the part that makes the energy from the part that spends it.',
       explanations: {
-        A: 'Correct. The mitochondrial sheath wraps the proximal part of the axial filament in the middle piece and is the source of the energy for sperm motility.',
+        A: 'The mitochondrial sheath wraps the proximal part of the axial filament in the middle piece and is the source of the energy for sperm motility.',
         B: 'The nucleus carries the paternal chromosomes. It is condensed and transcriptionally quiet, and produces no energy at all.',
         C: 'The acrosomal cap is a specialised lysosome holding hyaluronidase and acrosin. It spends energy rather than producing it.',
         D: 'The tail is what the energy is spent on, and it is the answer one annotated printing of this question is keyed to. The distinction the question is testing is exactly this one: the tail moves, the middle piece pays for it.',
@@ -244,7 +244,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The zona pellucida is the middle covering, between the cell membrane and the corona radiata. It is the one students name first because it is the one with the sperm receptors, and it is one layer short of the answer.',
         B: 'The cell membrane is the innermost of the three, in contact with the oocyte cytoplasm.',
-        C: 'Correct. The corona radiata is the outermost covering, formed of follicular cells stuck to one another by hyaluronic acid — which is why the sperm\'s hyaluronidase is what disperses it.',
+        C: 'The corona radiata is the outermost covering, formed of follicular cells stuck to one another by hyaluronic acid — which is why the sperm\'s hyaluronidase is what disperses it.',
         D: 'The nuclear membrane is inside the oocyte and is not one of its coverings at all.',
       },
     },
@@ -269,7 +269,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The trachea has cilia — many short ones per cell — not a flagellum.',
         B: 'The bronchi likewise carry cilia. A flagellum would move the cell itself, which is not what a fixed epithelial cell needs.',
         C: 'The uterine tube is ciliated. Its cilia move the contents past a stationary cell, the opposite arrangement to the sperm\'s.',
-        D: 'Correct. The sperm is the only human cell with a flagellum, and its single long tail is what propels the cell itself.',
+        D: 'The sperm is the only human cell with a flagellum, and its single long tail is what propels the cell itself.',
       },
     },
     {
@@ -460,7 +460,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'a',
       answerOverrideReason: 'Filed here from the unassigned pile: the stem names no structure any leaf\u2019s vocabulary matched, but crossing-over during the first meiotic division is gametogenesis and belongs to this leaf. The 2020 paper printed no key and the recovered answer sheet does not cover this source. The answer does not come from the department book either \u2014 the book teaches no meiosis at all, and that gap is recorded on this concept. It is set to prophase because crossing-over is by definition an event of prophase I, at the pachytene stage, when the homologous chromosomes are synapsed; the other three stages are each defined by an event that is not it, so only one option is defensible and a faculty reviewer is not needed to say which.',
       explanations: {
-        a: 'Correct. Crossing-over happens in prophase of the first meiotic division \u2014 at pachytene, once the homologous chromosomes have paired and each is already split into two chromatids, so that segments can be exchanged between the non-sister chromatids at the chiasmata.',
+        a: 'Crossing-over happens in prophase of the first meiotic division \u2014 at pachytene, once the homologous chromosomes have paired and each is already split into two chromatids, so that segments can be exchanged between the non-sister chromatids at the chiasmata.',
         b: 'Metaphase I is when the paired chromosomes line up on the equator of the spindle. The pairing that crossing-over needs has already happened by then, and this is the commonest wrong answer because students remember that meiosis pairs chromosomes and metaphase is where pairs are visible in a diagram.',
         c: 'Anaphase I is when the homologous chromosomes are pulled apart to opposite poles \u2014 the separation, not the exchange. It is also the stage at which failure of that separation, non-disjunction, produces gametes with the wrong chromosome number.',
         d: 'Telophase I is the reforming of the nuclei around the two separated sets. By then the chromosomes are no longer in contact at all, so no exchange between them is possible.',

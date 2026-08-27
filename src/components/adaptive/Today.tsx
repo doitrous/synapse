@@ -21,7 +21,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { Caveat, Figure, RangeBar, ShareRow, percent, rangeText } from './parts'
+import { Caveat, Figure, ProgressBlock, RangeBar, percent, rangeText } from './parts'
 import { NEED_LABEL, ALLOCATION_NEEDS } from '@/data/adaptive/config'
 import { PREDICTION_CAVEAT, WRONG_ATTEMPTS_VS_WEAK_CONCEPTS } from '@/data/adaptive/explain'
 import { readinessSentence, type ReadinessResult } from '@/data/adaptive/readiness'
@@ -213,15 +213,15 @@ export function Today({
                 description="No concepts are scoped to your university and year, so coverage cannot be measured. An administrator sets this up."
               />
             ) : (
-              <div className="space-y-3.5">
+              <div className="space-y-3">
                 {study.coverage.groups.slice(0, 8).map((group) => (
-                  <ShareRow
+                  <ProgressBlock
                     key={group.groupId}
                     label={group.groupLabel}
                     value={group.coveredWeight}
                     max={group.weight}
                     right={`${percent(group.weight > 0 ? group.coveredWeight / group.weight : 0)} of ${percent(group.weight)}`}
-                    tone={group.coveredWeight / Math.max(group.weight, 1e-9) < 0.34 ? 'warning' : 'primary'}
+                    tone={group.coveredWeight / Math.max(group.weight, 1e-9) < 0.34 ? 'danger' : group.coveredWeight / Math.max(group.weight, 1e-9) < 0.67 ? 'warning' : 'success'}
                   />
                 ))}
                 {study.debt.slots >= 1 && (
@@ -238,9 +238,9 @@ export function Today({
 
         <Panel>
           <PanelHeader title="What your next block will contain" icon={Target} hint="Allocation targets" />
-          <div className="space-y-3.5 p-5">
+          <div className="space-y-3 p-5">
             {ALLOCATION_NEEDS.map((need) => (
-              <ShareRow
+              <ProgressBlock
                 key={need}
                 label={NEED_LABEL[need]}
                 value={study.shares[need]}
