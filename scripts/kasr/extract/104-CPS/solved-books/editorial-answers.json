@@ -42,6 +42,12 @@
    "cluster": "Anatomy / Lungs (tail) + Lymphatics + Mediastinum",
    "keyed": 7,
    "excluded": 13
+  },
+  {
+   "batch": 8,
+   "cluster": "Anatomy / Mediastinum (tail) + Pericardium + Diaphragm",
+   "keyed": 10,
+   "excluded": 10
   }
  ],
  "keyed": {
@@ -683,6 +689,110 @@
     "B": "Lymph nodes have their own sinus system (subcapsular and medullary sinuses) lined by a different type of sinus-lining (reticular) cell, not littoral cells, which are specific to the spleen."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "where-do-t-lymphocytes-acquire-their-immunocompetence-7eafb30a": {
+   "answer": "A",
+   "explanation": "T-lymphocytes acquire their immunocompetence in the thymus, where bone-marrow-derived precursor cells undergo maturation and rigorous positive and negative selection against self-antigens, ensuring that only functional, self-tolerant T-cells are released to populate the peripheral immune system. This process defines the thymus as a primary (central) lymphoid organ, distinct from secondary (peripheral) lymphoid organs like lymph nodes and the spleen, where already-mature lymphocytes go on to encounter antigen and mount immune responses. The exam takeaway is the clean division of labour: bone marrow makes both B- and T-cell precursors, but only the thymus finishes educating T-cells specifically.",
+   "distractorNotes": {
+    "B": "The thyroid is an endocrine gland producing thyroid hormones; it plays no role in lymphocyte maturation.",
+    "C": "Bone marrow is where T-cell precursors originate and where B-lymphocytes complete their own maturation, but T-cells specifically require the thymic environment to become immunocompetent.",
+    "D": "Lymph nodes are secondary lymphoid organs where mature lymphocytes encounter antigen; they do not mature naive T-cells into immunocompetent cells."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "about-the-transverse-sinus-of-the-serous-pericardium-mark-on-cba8c86e": {
+   "answer": "A",
+   "explanation": "The transverse sinus of the pericardium is the passage lying between the arterial pedicle (ascending aorta and pulmonary trunk) anteriorly and the venous structures (superior vena cava and the roof of the left atrium) posteriorly, formed where the serous pericardium reflects around the great vessels -- 'situated between the ascending aorta and the SVC' is the standard simplified description of this relationship. This space is of major surgical importance because it allows a finger or clamp to be passed behind the great arteries and in front of the great veins, for instance to control blood flow during cardiac surgery. The exam takeaway is to pair the transverse sinus with the arterial-pedicle/venous-structure boundary, distinct from the oblique sinus, which instead sits behind the left atrium bounded by the pulmonary veins.",
+   "distractorNotes": {
+    "C": "The transverse sinus is a potential space, not a conduit for a coronary artery; the right coronary artery runs externally in the coronary (atrioventricular) sulcus, unrelated to this sinus.",
+    "D": "The coronary sinus lies in the posterior coronary sulcus, related to the region of the oblique sinus, not contained within the transverse sinus.",
+    "E": "The circumflex artery runs in the coronary sulcus around the heart's external surface; it does not pass through the pericardial transverse sinus."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-oblique-sinus-of-the-serous-pericardium-indic-e475ffbf": {
+   "answer": "B",
+   "explanation": "The oblique sinus of the pericardium is a cul-de-sac lying behind the left atrium, formed by the reflection of the serous pericardium around the pulmonary veins, and is classically described as bounded by the four pulmonary veins (two right, two left) entering the back of the left atrium. This recess is closed on all sides except for a narrow inferior opening, and its posterior relations (oesophagus and descending aorta) are exactly what the pericardium's oblique sinus separates from the heart's posterior surface. The exam takeaway is to keep the oblique sinus's landmark (behind the left atrium, bounded by the pulmonary veins) distinct from the transverse sinus's landmark (between the great arteries and great veins anteriorly/posteriorly).",
+   "distractorNotes": {
+    "A": "The oblique sinus lies behind, not in front of, the left atrium.",
+    "C": "While some descriptions extend the oblique sinus's boundary to include a nearby great vein (the inferior vena cava) alongside the pulmonary veins, this option's truncated wording risks overstating that boundary (e.g. by including the superior vena cava, which is not part of it), making the simpler, unambiguously correct pulmonary-veins description the safer choice.",
+    "D": "The great cardiac vein runs in the anterior interventricular groove and then the coronary sulcus toward the coronary sinus, unrelated to the oblique sinus.",
+    "E": "The posterior interventricular artery runs externally in the posterior interventricular groove on the diaphragmatic surface of the heart, not through the pericardial oblique sinus."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-esophagus-the-following-statements-are-correct-7bd0d4e2": {
+   "answer": "D",
+   "explanation": "The thoracic duct does not lie on the oesophagus's left side along its entire thoracic course: it ascends on the RIGHT side of the oesophagus in the lower thorax, then crosses behind the oesophagus to the LEFT side at approximately the T4-T5 vertebral level, continuing on the left only through the upper thorax and superior mediastinum. Claiming it lies on the left 'along its whole course' therefore overstates a relationship that is only true for the upper portion, making this the false statement. The other listed statements are correct: the esophagus is indeed separated from the base of the heart by the oblique sinus of the pericardium, it begins at the lower border of C6, and it is crossed anteriorly by the left main bronchus in the thorax.",
+   "distractorNotes": {
+    "A": "True: the oblique sinus of the pericardium, behind the left atrium, separates the base of the heart from the oesophagus and descending aorta posterior to it.",
+    "B": "True: the oesophagus begins in the neck at the level of the lower border of the cricoid cartilage, vertebral level C6.",
+    "C": "True: the oesophagus is crossed anteriorly by the left main bronchus as it descends through the posterior mediastinum.",
+    "E": "The oesophagus is often described as ending near T11 at the oesophagogastric (cardial) junction, a short distance below the diaphragmatic hiatus at T10, so this statement is broadly consistent with standard teaching."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-function-of-the-pericardium-one-of-the-followi-25ea0a87": {
+   "answer": "C",
+   "explanation": "There is no established teaching that the pericardium's oblique sinus performs a function related to oesophageal expansion during swallowing -- the oblique sinus is simply the pericardial recess behind the left atrium created by the reflection of serous pericardium around the pulmonary veins, and its relationship to the adjacent oesophagus is purely anatomical proximity, not a functional role in swallowing mechanics, which instead depends entirely on the oesophagus's own muscular wall and peristalsis. This makes it the fabricated/incorrect function among genuine pericardial functions being tested. The other statements describe real, standard pericardial functions: the tough fibrous pericardium does protect the heart and limit its distension, and the transverse sinus, as a potential space around the arterial pedicle, does allow some room for the great vessels to pulsate and shift without pericardial constraint.",
+   "distractorNotes": {
+    "A": "True: protecting the heart against overdistension and external trauma/infection spread is a genuine, classic function of the tough fibrous pericardium.",
+    "D": "True in spirit: the transverse sinus, as a potential space around the ascending aorta and pulmonary trunk, allows these great vessels some freedom of movement and expansion independent of the venous structures behind them."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-pericardium-the-following-statements-are-corre-1ceda27b": {
+   "answer": "C",
+   "explanation": "The phrenic nerves, together with the pericardiacophrenic vessels, run in the plane between the mediastinal pleura and the fibrous pericardium -- that is, ON the lateral surface of the fibrous pericardium -- rather than being embedded within its substance, so describing them as 'embedded in the lateral walls' overstates and mischaracterises this relationship, making it the false statement. The other statements are standard, correct pericardial anatomy: the fibrous pericardium does fuse with the outer adventitial coats of the great vessels where they pierce it, the parietal and visceral layers of the serous pericardium are indeed continuous with each other at the vessel reflections, and the transverse sinus does lie between the ascending aorta anteriorly and the venous structures posteriorly. The exam takeaway is the precise phrasing distinction between a nerve 'running on/related to' a structure's surface versus being 'embedded within' its substance.",
+   "distractorNotes": {
+    "A": "True: the fibrous pericardium blends with the tunica adventitia of the great vessels (aorta, pulmonary trunk, venae cavae, pulmonary veins) at the points where they enter or leave the pericardial sac.",
+    "B": "True: the parietal and visceral layers of the serous pericardium form one continuous membrane, reflected onto each other around the roots of the great vessels.",
+    "D": "True: the transverse sinus lies between the ascending aorta (part of the arterial pedicle) anteriorly and the venous structures (SVC, left atrial roof) posteriorly."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-breathing-all-true-except-ecd77f19": {
+   "answer": "B",
+   "explanation": "The phrenic nerve is unambiguously a spinal nerve, formed mainly from the fourth cervical spinal nerve root with contributions from the third and fifth (C3, C4, C5) -- it is not one of the twelve cranial nerves, making this a clear and confident factual error. The other statements are true: the respiratory muscles (diaphragm, intercostals) are skeletal muscles controlled by somatic motor neurons whose activity is paced by the brainstem's automatic rhythm-generating centres; the diaphragm is indeed the principal active muscle of quiet inspiration; and the intercostal muscles are innervated by the intercostal nerves, which are themselves the anterior rami of the thoracic spinal nerves. The exam takeaway is to never confuse the phrenic nerve's cervical spinal origin with a cranial nerve, a mistake this option makes outright.",
+   "distractorNotes": {
+    "A": "Respiratory rhythm is generated and modulated by brainstem centres acting through somatic motor pathways to skeletal respiratory muscles; while debatable in exact phrasing, it is a far less clear-cut error than mislabelling the phrenic nerve as cranial.",
+    "C": "True: the diaphragm is the principal, most active muscle of quiet (resting) inspiration.",
+    "D": "True: the intercostal muscles are innervated by the intercostal nerves, which are the anterior (ventral) rami of the thoracic spinal nerves T1-T11."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-diaphragm-all-true-except-1213ff45": {
+   "answer": "D",
+   "explanation": "The inferior vena cava passes through the diaphragm at the level of the eighth thoracic vertebra (T8), through the caval opening in the central tendon -- not at T12, which is instead the level of the aortic hiatus, transmitting the aorta and thoracic duct. Swapping these two diaphragmatic-opening levels is a classic, confidently identifiable error, making this the false statement. The other statements are standard, correct diaphragm facts: it develops embryologically from the septum transversum plus contributions including the cervical myotomes (explaining the phrenic nerve's cervical origin), it receives motor supply from the phrenic nerves and a sensory contribution from the lower intercostal nerves at its periphery, the caval opening in the central tendon does transmit the inferior vena cava, and the aortic hiatus does lie behind the median arcuate ligament (formed by the crura).",
+   "distractorNotes": {
+    "A": "True: the diaphragm's composite embryological origin (septum transversum, pleuroperitoneal membranes, dorsal oesophageal mesentery, and body wall/cervical myotomes) is why its motor nerve, the phrenic, originates from cervical spinal segments despite the diaphragm's thoracoabdominal position.",
+    "B": "True: the diaphragm's central part is supplied motorically by the phrenic nerves, while its peripheral costal part also receives sensory contributions from the lower intercostal nerves.",
+    "C": "True: the caval opening, located in the diaphragm's central tendon at the T8 level, transmits the inferior vena cava.",
+    "E": "True: the aortic hiatus lies behind (deep to) the median arcuate ligament, formed by the fibrous arch connecting the diaphragm's two crura, at the T12 level."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-descending-thoracic-aorta-the-following-statements-ba505495": {
+   "answer": "A",
+   "explanation": "The descending thoracic aorta lies within the posterior mediastinum, not the middle mediastinum -- the middle mediastinum instead contains the heart and pericardium along with the roots of the great vessels (ascending aorta, pulmonary trunk, lower SVC), making this a clear, confidently identifiable compartment error. The other statements are standard, correct descending-thoracic-aorta facts: it does give posterior intercostal arteries to the lower nine intercostal spaces (the upper two spaces being supplied instead by the superior intercostal artery), it does begin at the T4/T5 intervertebral disc level (where the arch ends), it does pass through the aortic opening of the diaphragm at T12, and it does give small oesophageal branches along its course. The exam takeaway is to keep the three mediastinal compartments' contents distinct: middle mediastinum holds the heart and great vessel roots; posterior mediastinum holds the descending (thoracic) aorta, oesophagus, thoracic duct, azygos system, and sympathetic trunks.",
+   "distractorNotes": {
+    "B": "True: the descending thoracic aorta supplies posterior intercostal arteries to the lower nine intercostal spaces, with the upper two spaces supplied instead by the superior (supreme) intercostal artery.",
+    "C": "True: the descending thoracic aorta begins where the arch ends, at the level of the intervertebral disc between T4 and T5.",
+    "D": "True: it enters the aortic hiatus of the diaphragm at the level of the twelfth thoracic vertebra (T12).",
+    "E": "True: small oesophageal branches arise directly from the descending thoracic aorta to supply the mid-oesophagus."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-pericardium-of-the-heart-following-statements-75dfa8a4": {
+   "answer": "D",
+   "explanation": "The relationship stated here is reversed: it is the serous pericardium (specifically its parietal layer) that lines the inner surface of the tough outer fibrous pericardium, not the other way around -- the fibrous pericardium is the external fibrous sac, and the serous pericardium's parietal layer is closely applied to its internal aspect, with the visceral layer (epicardium) applied directly to the heart's surface. This reversed phrasing is a classic way exam banks test whether students have the layering direction (fibrous outside, serous parietal layer lining it from within, visceral layer on the heart) correctly memorised. The other statements are true: the fibrous pericardium does attach inferiorly to the central tendon of the diaphragm and anteriorly to the sternum via the sternopericardial ligaments, the parietal pericardium (and fibrous pericardium) receive sensory supply from the phrenic nerve, and the visceral (serous) layer closely applied to the heart shares the heart's own autonomic innervation.",
+   "distractorNotes": {
+    "A": "True: the fibrous pericardium is anchored inferiorly to the central tendon of the diaphragm (the pericardiacophrenic/phrenicopericardial attachment).",
+    "B": "True: the sternopericardial ligaments anchor the fibrous pericardium to the posterior surface of the sternum.",
+    "C": "True: the parietal layer of the serous pericardium (together with the fibrous pericardium) receives sensory innervation from the phrenic nerve, the basis of referred pericardial pain patterns.",
+    "E": "True: the visceral layer of serous pericardium (epicardium), being intimately applied to the heart, shares the heart's autonomic (sympathetic and parasympathetic) innervation."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -913,6 +1023,36 @@
   },
   "regarding-the-vagus-nerves-in-th-are-correct-ex-cep-e-thorax-24f7f721": {
    "reason": "The stem itself is garbled, options A and E are truncated mid-sentence, and the remaining options (B, C, D) each describe independently plausible, individually true statements about vagus nerve anatomy in the thorax -- no confidently identifiable false statement survives among what remains legible."
+  },
+  "the-right-pherinic-nerve-descends-along-venous-structures-re-be08db11": {
+   "reason": "All four surviving statements are individually plausible and consistent with standard superior-mediastinum anatomy (the retrosternal region being dominated by veins; tracheal compression causing dyspnoea; the left vagus not lying in as direct a relation to the trachea as the right vagus does; the right phrenic nerve coursing along the great veins) -- no statement stands out as clearly, confidently false among them without the source's specific intended distinction."
+  },
+  "thoracic-duct-cf78466b": {
+   "reason": "The stem is a bare, meaningless fragment ('thoracic duct') with no question form, and the options merge unrelated mediastinal-compartment boundary definitions with vessel names (aorta, azygos vein) that do not correspond to any coherent question being asked."
+  },
+  "which-of-the-following-structures-lies-in-the-anterior-media-c8e9422d": {
+   "reason": "Options C and D have absorbed entire additional, unrelated question stems (about middle-mediastinum content and mediastinal syndrome) into single option slots, and none of the options that remain legible for the actual anterior-mediastinum question (trachea, oesophagus, or the phrenic-nerve/pericardium fact in E) is itself a genuine anterior-mediastinum content -- the true answer (e.g. thymus or sternopericardial ligaments) was not among what survived legibly."
+  },
+  "a-15-years-old-teenaged-boy-inhaled-a-foreign-body-5-marks-7574ed32": {
+   "reason": "This is a discursive, multi-part written-exam prompt ('which bronchus and why', 'name two arteries', 'give the parts of...') worth explicit marks, not a single-best-answer multiple-choice item -- not keyable as an MCQ."
+  },
+  "list-the-tributaries-and-fields-of-lymph-drainage-of-the-tho-fbd38c36": {
+   "reason": "This is an entire written/essay exam page (multiple discursive problem-solving questions about foreign body aspiration and a stab-wound pericardial haemorrhage vignette, each worth marks) rather than a single-best-answer multiple-choice question -- not keyable as an MCQ."
+  },
+  "sternopericardial-ligaments-04ae54f1": {
+   "reason": "The 'stem' is a bare noun phrase ('Sternopericardial ligaments,') with no question attached, and the remaining options (pericardial sac, trachea, heart) read as a leftover, disconnected option list from a different anterior-mediastinum-contents question rather than answers to any question posed here."
+  },
+  "what-is-the-expected-complication-of-blocking-a-lober-bronch-b6589629": {
+   "reason": "This is a discursive written-exam prompt (naming a condition, describing treatment, listing pericardial parts and arteries) rather than a single-best-answer multiple-choice item -- not keyable as an MCQ."
+  },
+  "1-698105-at-the-of-the-intervertebral-disc-between-the-4-and-727a12e4": {
+   "reason": "The stem is an incoherent merge of a thoracic-duct-level fact, a phrenic-nerve-origin question, and a mediastinum-location question, with garbled option text throughout. No single coherent question can be recovered."
+  },
+  "concerning-respiration-it-2-aaa-5c63100d": {
+   "reason": "The stem is a meaningless garbled fragment ('Concerning respiration: it 2 aaa') that gives no indication of whether the question wants the correct or the incorrect statement, and option C is itself an ambiguous, context-free fragment ('Chest of same side expands') -- too corrupted to confidently interpret and key."
+  },
+  "one-of-the-following-structures-passes-with-the-descending-t-d360ad09": {
+   "reason": "None of the three surviving options (oesophagus, inferior vena cava, right phrenic nerve) actually passes through the diaphragm together with the descending thoracic aorta at the aortic hiatus -- the correct answer, the thoracic duct, was most likely the missing option C."
   }
  }
 }
