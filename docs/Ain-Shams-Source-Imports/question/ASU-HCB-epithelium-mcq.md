@@ -35,11 +35,20 @@ Connective tissue
 ## explanation_a
 Incorrect. Connective tissue is built around an extracellular matrix and does not have a free surface versus an attached surface in the way epithelium does, so it is not described as having apical–basal polarity. This is a plausible-sounding distractor because connective tissue does have directional properties (e.g. fibre orientation), but that is not the same feature the question is asking about.
 
+## answer_b
+Epithelium
+
 ## explanation_b
 Correct. Epithelium is the one basic tissue that shows polarity: its apical (free) surface faces a lumen or the exterior, and its basal surface attaches to the underlying basement membrane, with the cell's organelles and membrane specialisations often distributed asymmetrically between the two. This apical–basal difference underlies epithelial functions such as directional secretion and absorption, and it is the defining feature this MCQ tests.
 
+## answer_c
+Muscular tissue
+
 ## explanation_c
 Incorrect. Muscular tissue is organised around contractile filaments and force generation along the length of the fibre, not around an apical-versus-basal surface distinction, so it does not show the polarity being asked about here.
+
+## answer_d
+Nervous tissue
 
 ## explanation_d
 Incorrect. Nervous tissue has a functional directionality (dendrite to axon terminal) but this is not the apical–basal epithelial polarity the bank is testing; the question is specifically about the four basic tissues and picks the one built around a free versus attached surface.
@@ -179,11 +188,20 @@ Metaplasia
 ## explanation_b
 Incorrect. Metaplasia is the reversible change of one differentiated epithelial type into another differentiated type (for example, ciliated columnar epithelium becoming stratified squamous under chronic irritation); it describes a change in cell type, not an increase in the amount of cell growth, so it does not match the question's wording.
 
+## answer_c
+Neoplasia = tumor
+
 ## explanation_c
 Correct. Neoplasia literally means "new growth" and is defined here as the abnormal increase in the growth of cells — the process that produces a tumour (the bank explicitly glosses it as "= tumor"). This distinguishes it from metaplasia (a change in epithelial type) and dysplasia (disordered but non-neoplastic growth).
 
+## answer_d
+Elasticity
+
 ## explanation_d
 Incorrect. Elasticity is a mechanical property of tissue (its ability to stretch and recoil), unrelated to abnormal cell-growth increase, and is included here as an implausible distractor.
+
+## answer_e
+Plasticity
 
 ## explanation_e
 Incorrect. Plasticity refers to a tissue's or cell's capacity to change or adapt, not specifically to an abnormal increase in cell growth, and is a further implausible distractor alongside elasticity.
@@ -315,7 +333,7 @@ a
 Cell polarity
 
 ## explanation_a
-Correct. Apical–basal cell polarity is a defining character of epithelial tissue: the apical surface (facing a lumen or the exterior) differs structurally and functionally from the basal surface (attached to the basement membrane), unlike the other basic tissues.
+Correct. Apical–basal cell polarity is a defining character of epithelial tissue: the apical surface (facing a lumen or the exterior) differs structurally and functionally from the basal surface (attached to the basement membrane), unlike the other basic tissues. This polarity is what lets an epithelial sheet do directional work — absorbing or secreting from one surface while anchoring to connective tissue at the other — and it is the same feature tested in Question 1 of this bank.
 
 ## answer_b
 Rarely modified
@@ -910,7 +928,7 @@ a
 Stratified squamous non-keratinized
 
 ## explanation_a
-Correct. The esophagus is lined by stratified squamous non-keratinized epithelium: multiple layers of cells for abrasion resistance as swallowed food passes, but non-keratinized because the surface stays moist, unlike the keratinized epithelium of the skin.
+Correct. The esophagus is lined by stratified squamous non-keratinized epithelium: multiple layers of cells for abrasion resistance as swallowed food passes, but non-keratinized because the surface stays moist, unlike the keratinized epithelium of the skin. Inflammation of this lining, as in the vignette's oesophagitis, is exactly the setting in which recognising the underlying epithelial type matters clinically.
 
 ## answer_b
 Stratified squamous keratinized
@@ -1063,7 +1081,7 @@ a
 Endothelium
 
 ## explanation_a
-Correct. Endothelium is the simple squamous epithelium that lines the entire cardiovascular system, including capillaries, providing a thin, single-cell-layer barrier suited to exchange between blood and surrounding tissue.
+Correct. Endothelium is the simple squamous epithelium that lines the entire cardiovascular system, including capillaries, providing a thin, single-cell-layer barrier suited to exchange between blood and surrounding tissue. Its single-cell thinness is precisely what makes capillary exchange of gases, nutrients and waste efficient.
 
 ## answer_b
 Mesothelium
@@ -1228,7 +1246,7 @@ Incorrect. The urinary bladder is lined by transitional epithelium (urothelium),
 Mouth cavity
 
 ## explanation_d
-Correct. The mouth cavity is lined by stratified squamous non-keratinized epithelium: multiple cell layers for abrasion resistance during chewing and speech, kept non-keratinized because the surface remains moist with saliva, unlike keratinized skin.
+Correct. The mouth cavity is lined by stratified squamous non-keratinized epithelium: multiple cell layers for abrasion resistance during chewing and speech, kept non-keratinized because the surface remains moist with saliva, unlike keratinized skin. The esophagus (Q19 of this bank) shares the same non-keratinized stratified squamous pattern for the same reason — continuous moisture from saliva or mucus.
 
 ## topic
 Cell & molecular biology
@@ -1357,7 +1375,7 @@ a
 Tracheal epithelium
 
 ## explanation_a
-Correct. The trachea is lined by pseudostratified ciliated columnar epithelium with goblet cells: all cells reach the basement membrane but not all reach the apical surface, giving a false ("pseudo") stratified appearance, and cilia with mucus from goblet cells drive mucociliary clearance.
+Correct. The trachea is lined by pseudostratified ciliated columnar epithelium with goblet cells: all cells reach the basement membrane but not all reach the apical surface, giving a false ("pseudo") stratified appearance, and cilia with mucus from goblet cells drive mucociliary clearance. Contrast this with the Fallopian tube in this same bank (Q28), whose simple columnar ciliated lining has no goblet cells at all.
 
 ## answer_b
 Skin
@@ -1510,7 +1528,7 @@ Incorrect. Alveoli are lined by type I and type II pneumocytes, a specialised si
 Blood vessels
 
 ## explanation_b
-Correct. Endothelium is, by definition, the simple squamous epithelium lining the entire cardiovascular system — arteries, veins and capillaries — providing a smooth, low-friction, exchange-permitting surface for blood flow.
+Correct. Endothelium is, by definition, the simple squamous epithelium lining the entire cardiovascular system — arteries, veins and capillaries — providing a smooth, low-friction, exchange-permitting surface for blood flow. Even the vessels inside a glomerulus or the sinusoids of the liver are still endothelium, since the term names the tissue type by vascular location, not by organ.
 
 ## answer_c
 Pericardium
@@ -1663,7 +1681,7 @@ Incorrect. Non-keratinized stratified squamous epithelium is built for abrasion 
 Transitional = urothelium
 
 ## explanation_c
-Correct. Transitional epithelium, also called urothelium, has a distinctive structure — dome-shaped surface cells that flatten and stretch, with cells that can slide over one another — specifically adapted to withstand distention, as seen in the urinary bladder as it fills and empties.
+Correct. Transitional epithelium, also called urothelium, has a distinctive structure — dome-shaped surface cells that flatten and stretch, with cells that can slide over one another — specifically adapted to withstand distention, as seen in the urinary bladder as it fills and empties. Its layered but sliding architecture also gives it an apparent thickness that changes with the organ's fill state, unlike the fixed layer count of a true stratified epithelium.
 
 ## answer_d
 Stratified columnar
@@ -1810,7 +1828,7 @@ Incorrect. Deeply acidophilic cytoplasm reflects an abundance of rough endoplasm
 Flattened basal nuclei
 
 ## explanation_c
-Correct. Mucous acinar cells accumulate mucinogen droplets that distend and push the nucleus toward the base of the cell, flattening it against the basal cytoplasm; this basal, flattened nucleus together with pale, vacuolated cytoplasm is the classic light-microscopic appearance of a mucous cell.
+Correct. Mucous acinar cells accumulate mucinogen droplets that distend and push the nucleus toward the base of the cell, flattening it against the basal cytoplasm; this basal, flattened nucleus together with pale, vacuolated cytoplasm is the classic light-microscopic appearance of a mucous cell. Question 31 of this same bank tests the cytoplasmic half of this same picture directly.
 
 ## answer_d
 Rounded basal nuclei
@@ -1957,7 +1975,7 @@ Incorrect. Endothelium lines blood vessels and the heart chambers, not the pleur
 Mesothelium
 
 ## explanation_b
-Correct. Mesothelium is the simple squamous epithelium lining serous cavities — the pleura, pericardium and peritoneum — and provides the smooth, lubricated surface that allows the lungs to expand and contract with minimal friction against the chest wall.
+Correct. Mesothelium is the simple squamous epithelium lining serous cavities — the pleura, pericardium and peritoneum — and provides the smooth, lubricated surface that allows the lungs to expand and contract with minimal friction against the chest wall. Both the visceral layer (covering the lung) and the parietal layer (lining the chest wall) are mesothelium, secreting the thin fluid film between them.
 
 ## answer_c
 Neurothelium
@@ -2110,7 +2128,7 @@ Incorrect, and this is the printed key's specific catch. The Fallopian tube's ci
 Simple columnar ciliated
 
 ## explanation_b
-Correct. The Fallopian (uterine) tube is lined by simple columnar epithelium bearing cilia, which beat to help move the ovum toward the uterus; the bank's printed key marks this plain description correct over the otherwise-similar goblet-cell option.
+Correct. The Fallopian (uterine) tube is lined by simple columnar epithelium bearing cilia, which beat to help move the ovum toward the uterus; the bank's printed key marks this plain description correct over the otherwise-similar goblet-cell option. The tube does contain non-ciliated secretory ("peg") cells alongside the ciliated cells, but the local teaching term used here is not "goblet cell" — that name is reserved for the mucus-secreting cells of the respiratory and intestinal epithelium.
 
 ## answer_c
 Pseudo stratified columnar with goblet cell
@@ -2263,7 +2281,7 @@ Incorrect. Whole-cell disintegration describes holocrine secretion (as in the se
 Exocytosis
 
 ## explanation_b
-Correct. Merocrine secretion releases its product by exocytosis: membrane-bound secretory vesicles fuse with the plasma membrane and discharge their contents, while the plasma membrane and the rest of the cell remain intact and ready to secrete again.
+Correct. Merocrine secretion releases its product by exocytosis: membrane-bound secretory vesicles fuse with the plasma membrane and discharge their contents, while the plasma membrane and the rest of the cell remain intact and ready to secrete again. Most exocrine glands (salivary, pancreatic acinar) and all classical endocrine glands secrete this way, which is why merocrine is the default assumption unless a question names a sebaceous- or mammary-type exception.
 
 ## answer_c
 Phagocytosis
@@ -2411,7 +2429,7 @@ a
 Sebaceous gland
 
 ## explanation_a
-Correct. The sebaceous gland is the classic example of holocrine secretion: its cells fill progressively with lipid (sebum), then disintegrate entirely, and the cell debris itself becomes the secreted product, requiring continuous replacement of the secreting cells from a basal layer.
+Correct. The sebaceous gland is the classic example of holocrine secretion: its cells fill progressively with lipid (sebum), then disintegrate entirely, and the cell debris itself becomes the secreted product, requiring continuous replacement of the secreting cells from a basal layer. This is the one exocrine mechanism in this bank in which the secreting cell itself does not survive the secretory event.
 
 ## answer_b
 Salivary gland
@@ -2570,7 +2588,7 @@ Incorrect. A central, rounded nucleus with a prominent nucleolus (reflecting act
 Have vacuolated and pale basophilic cytoplasm
 
 ## explanation_c
-Correct. Mucous-secreting cells accumulate mucinogen in vesicles that appear as clear vacuoles on routine staining, giving the cytoplasm a vacuolated, pale-staining (weakly basophilic) appearance, in contrast to the deeply basophilic, RER-rich cytoplasm of a serous cell.
+Correct. Mucous-secreting cells accumulate mucinogen in vesicles that appear as clear vacuoles on routine staining, giving the cytoplasm a vacuolated, pale-staining (weakly basophilic) appearance, in contrast to the deeply basophilic, RER-rich cytoplasm of a serous cell. Question 25 of this same bank tests the nuclear half of this same picture (a flattened, basally displaced nucleus) directly.
 
 ## answer_d
 Have acidophilic secretory vesicles
@@ -2711,7 +2729,7 @@ Incorrect. Myoepithelial cells are specialised contractile cells around gland ac
 Neuroepithelium
 
 ## explanation_b
-Correct. Taste buds are classified as neuroepithelium: a specialised sensory epithelium whose receptor cells synapse with afferent nerve endings, transducing chemical stimuli into nerve impulses.
+Correct. Taste buds are classified as neuroepithelium: a specialised sensory epithelium whose receptor cells synapse with afferent nerve endings, transducing chemical stimuli into nerve impulses. The olfactory epithelium of the nasal cavity is classified the same way, for the same reason: sensory receptor cells wired directly to afferent nerve fibres.
 
 ## answer_c
 Stratified epithelium
@@ -2882,7 +2900,7 @@ Incorrect. Holocrine secretion (as in the sebaceous gland) destroys the whole se
 Apocrine
 
 ## explanation_e
-Correct. Mammary gland lipid droplets are secreted by the apocrine pathway: the lipid droplet, surrounded by a thin rim of apical cytoplasm and plasma membrane, buds off and pinches away from the cell, while the rest of the cell survives and regenerates the lost portion.
+Correct. Mammary gland lipid droplets are secreted by the apocrine pathway: the lipid droplet, surrounded by a thin rim of apical cytoplasm and plasma membrane, buds off and pinches away from the cell, while the rest of the cell survives and regenerates the lost portion. This closes out the bank's three-way secretion-mechanism contrast: merocrine keeps the whole cell, apocrine loses only apical cytoplasm, and holocrine loses the whole cell.
 
 ## topic
 Cell & molecular biology
