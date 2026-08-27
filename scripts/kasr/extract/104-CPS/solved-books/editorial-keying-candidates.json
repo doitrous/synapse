@@ -1,0 +1,4373 @@
+{
+ "purpose": "104 CPS rows with no recoverable answer from the 5 solved books after 3 progressively-fuzzier matching passes (exact-stem, fuzzy-stem, token-overlap). Per ANSWER-KEY GAPS ruling: these are candidates for EDITORIAL keying (authoritative subject knowledge, field-note 'keyed editorially, no printed key', >=3-sentence explanation) once TRIAGE APPROVED. NOT keyed here.",
+ "conflictingCount": 2,
+ "conflicting": [
+  {
+   "key": "pleural-reflection-lies-at-which-rib-level-in-the-midclavicu-4742bd47",
+   "stem": "Pleural reflection lies at which rib level in the midclavicular line?",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-superior-mediastinum-select-the-incorrect-answ-8ac910fc",
+   "stem": "Regarding the superior mediastinum, select the incorrect answer:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  }
+ ],
+ "noMatchCount": 530,
+ "noMatch": [
+  {
+   "key": "medium-sized-artery-is-characterized-by-60b39a97",
+   "stem": "Medium sized artery is characterized by: |",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 3
+  },
+  {
+   "key": "a-15-years-old-teenaged-boy-inhaled-a-foreign-body-d8c90daf",
+   "stem": "A 15 years old teenaged boy inhaled a foreign body:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 2
+  },
+  {
+   "key": "blood-capillaries-in-exocrine-glands-are-d8a679f4",
+   "stem": "Blood capillaries in exocrine glands are:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 2
+  },
+  {
+   "key": "it-is-absent-in-klinefelter-syndrome-9-addition-of-a-fragmen-4f0b50c3",
+   "stem": "It is absent in Klinefelter syndrome | 9- Addition of a fragmented segment of one chromosome to the homologous chromosome is known as:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 2
+  },
+  {
+   "key": "regarding-the-meiotic-cell-division-meiosis-51b08c53",
+   "stem": "Regarding the meiotic cell division (Meiosis):",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 2
+  },
+  {
+   "key": "regarding-the-red-pulp-of-the-spleen-c93e25bf",
+   "stem": "Regarding the Red pulp of the spleen: ١",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 2
+  },
+  {
+   "key": "regarding-the-white-pulp-of-the-spleen-a-contains-a-central-e5269929",
+   "stem": "Regarding the white pulp of the spleen: | a. Contains a central arteriole at one side | b. Is lined by stave cells | c. Rich in numerous RBCs | d. Formed of blood sinusoids & splenic cord | 3- The paracortex of the lymph node is characterized by:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 2
+  },
+  {
+   "key": "renal-glomerular-capillaries-are-a-type-of-c122dd7c",
+   "stem": "Renal glomerular capillaries are a type of:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 2
+  },
+  {
+   "key": "segments-of-dna-molecules-that-code-for-formation-of-specifi-d5b539e9",
+   "stem": "Segments of DNA molecules that code for formation of specific proteins are:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 2
+  },
+  {
+   "key": "tunica-adventitia-with-longitudinal-smooth-muscle-fibers-is-26042411",
+   "stem": "Tunica adventitia with longitudinal smooth muscle fibers is seen in:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 2
+  },
+  {
+   "key": "tunica-media-of-blood-vessels-constitutes-the-following-f2ad81c4",
+   "stem": "Tunica media of blood vessels constitutes the following:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 2
+  },
+  {
+   "key": "two-discs-of-protein-located-at-centromere-for-spindle-fiber-e8770502",
+   "stem": "Two discs of protein located at centromere for spindle fibers attachment in | ١ cell division are called: |",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 2
+  },
+  {
+   "key": "which-of-the-following-is-true-under-normal-conditions-145d5832",
+   "stem": "Which of the following is true under normal conditions? :",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Organization of the Respiratory System",
+   "timesAsked": 2
+  },
+  {
+   "key": "0-0992dd7a",
+   "stem": "0",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "03-6-visceral-pleufa-is-innervated-by-the-phrenic-and-the-fo-5369899d",
+   "stem": "03 6 visceral pleufa is innervated by the phrenic and the fower five 1 00 intercostal nerves, : One of the following statements regarding right lung is wrong : ‏عق‎ The right ung has horizontal and oblique fissures:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "03-contains-network-of-lymph-capillaries-of-00-0-693-1-regar-28bdf44e",
+   "stem": "03 contains network of lymph capillaries, of 00 0 693 1 .-Regarding respiration and the changes in the thorax; choose the wrong answer: : 00 Vertical diameter of thorax increases when the diaphragm contracts, 0 b- Anteroposterior diametet is increased when the intercostal Muscles contract. 3",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "1-698105-at-the-of-the-intervertebral-disc-between-the-4-and-727a12e4",
+   "stem": "1 698105 at the ‏زتها‎ of the intervertebral disc between the 4® and S\" thoracic vertebrae. ‏ب‎ ‎d, It gives esophageal branches. ee wie ee G Nerves of thorax Tn whiat mediastinum are the phrenic nerves located? 00 a. Prevertebral part of superior ‏باعلالل لعمم‎ 1",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "1-ip-the-blood-capillaries-reguls-the-blood-flow-is-the-func-a390fd08",
+   "stem": "1 ‏يمرا‎ Ip the blood capillaries, reguls the blood flow is the function 0 | ‏م‎ a- Elastic fibers. : X p-Smooth muscle fibers. / | » ‏يع‎ Fibroblasts. | ‏ار‎ fe | | 115. Longitudinal smooth muscle fibers are present in adventitia of: 30 |",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-15-years-old-teenaged-boy-inhaled-a-foreign-body-5-marks-7574ed32",
+   "stem": "A 15 years old teenaged boy inhaled a foreign body: (5 marks)",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "a-17-year-old-boy-is-brought-to-the-emergency-room-after-an-74c6b22e",
+   "stem": "A 17 year old boy is brought to the emergency room after an accident. He was injured and suffering from significant blood loss. Which of the following is true about his condition?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-25-year-old-min-is-under-water-in-the-swimming-pool-and-br-7c09a85e",
+   "stem": "A 25- year-old min is under water in the swimming pool and breathing through a snorkel, He has a respiratory rate of 10/min, a tidal volume of 550 ml and an effective anatomical dead space of 250 ml. What is the alveolar ventilation of this man?",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Organization of the Respiratory System",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-35-year-old-man-has-a-vital-capacity-vc-of-5-l-a-tidal-vol-d5f494f1",
+   "stem": "A 35-year-old man has a vital capacity (VC) of 5 L, a tidal volume (VT) of 0.5 L, an inspiratory capacity of 3.5 L, and a functional residual capacity (FRC) of 2.5 L. What is his expiratory reserve yolume (ERV)?",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-49-year-old-man-has-a-pulmonary-embolism-that-completely-b-5ba07ffa",
+   "stem": "A 49-year-old man has a pulmonary embolism that completely blocks blood flow to his left lung. As a result, which of the following will occur?",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "a-blood-pressure-of-180-120-mmhg-was-found-in-a-patient-aged-ff99150a",
+   "stem": "A blood pressure of 180/120 mmHg was found in a patient aged 35. The following statements about this are true, except:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-child-with-mental-retardation-hypotonia-and-mongol-like-fe-92c527a1",
+   "stem": "A Child with mental retardation, hypotonia and mongol - like features has ‏ا‎ ‎performed karyotyping test. He was found to have 46 chromosomes. One 1 of the following could be seen in his karyotype: 1",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-child-with-mental-retardation-hypotonia-and-mongol-like-fe-a6e1a6a7",
+   "stem": "A Child with mental retardation, hypotonia and mongol - like features has performed karyotyping test. He was found to have 46 ١ chromosomes. One of the following could be seen in his karyotype: | a. 46, Robertsonian translocation (21 & 14) | b. 46, Philadelphia chromosome",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-female-patient-presented-with-mental-retardation-edema-of-45ad91b4",
+   "stem": "A female patient presented with mental retardation, edema of upper and lower limbs, short stature and primary amenorrhea. - . @. Her karyotype is 47 XO",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-healthy-45-year-old-man-is-reading-the-newspaper-which-of-39a53f44",
+   "stem": "A healthy, 45-year-old man is reading the newspaper. Which of the following muscles are used for quiet breathing?",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "a-histological-feature-of-the-bronchiole-is-0-a-it-has-carti-14b9553c",
+   "stem": "A histological feature of the bronchiole is: 0 a. It-has cartilage plates in its wall. 0 ‏ا‎ ‎١ +... Its lining epithelium contains goblet ceils. ae a ~ \"¢, It has well developed circular smooth muscles. = ‏ا‎ ‎So, ‘d. It has mucoserous glands.in its wall. 20 re . oe ~ 25) Alveolar sacs are characterized by the following: 00",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-m-ntaliy-retarded-female-patient-with-short-stature-primar-2601c06b",
+   "stem": "A méntaliy retarded female patient with short stature, primary amenorrhea | and underdeveloped secondary sex organs was asked: to perform karyotyping. Her karyotype would probably be: |",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-mild-hemorrhage-will-cause-stroke-volume-to-shift-from-poi-29f14a8f",
+   "stem": "A mild hemorrhage will cause stroke volume to shift from point X to point:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-patient-has-an-auto-immune-disease-it-may-be-due-to-a-defe-060829f0",
+   "stem": "A patient has an auto immune disease .It may be due to a defect in the lymphocytes produced in the:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Tonsils",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-patient-was-diagnosed-as-having-chronic-myeloid-leukemia-h-e370e170",
+   "stem": "A patient was diagnosed as having chronic myeloid leukemia. His | condition might be due to:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-patient-with-heart-failure-the-ejection-fraction-is-535bf7d6",
+   "stem": "A patient with heart failure, the ejection fraction is:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-patient-with-heart-failure-the-ejection-fraction-is-feprat-a02135d6",
+   "stem": "A patient with heart failure, the ejection fraction is: fePrat a 40%",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-preterm-infant-has-a-surfactant-deficiency-without-surfact-87f66d17",
+   "stem": "A preterm infant has a surfactant deficiency. Without surfactant, many of the alveoli collapse at end of each expiration, which in turn leads to pulmonary failure. Which of following sets of changes are present in preterm infant, compared to a normal infant? Alveolar surface tension Pulmonary Compliance",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "a-s0-year-old-male-was-admitted-to-the-emergency-department-2eaada5b",
+   "stem": "A S0-year-old male was admitted to the emergency department after he was struck by a esr. The radiographic examination revented fail chest. During physical examination, the patient complained of severe pain during inspiration and expiration. Which of the following nerves was most likely responsible for the sensation of pain during respiration? 3",
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "a-swab-from-the-buccal-mucosa-of-a-newly-born-infant-showed-ed97054a",
+   "stem": "A swab from the buccal mucosa of a newly born infant showed more | than one Barr bodies in the nuclei of nearly all epithelial cells. This condition may be diagnosed as:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "a7-year-old-child-came-to-the-pediatric-clinic-presenting-wi-c1adae6b",
+   "stem": "A7 year old child came to the pediatric clinic presenting with a typical picture of acute tonsillitis, choose the true statement related to this case:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Tonsils",
+   "timesAsked": 1
+  },
+  {
+   "key": "about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885",
+   "stem": "About mediators and vasoactive substances, all of the following are true Except:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "about-the-cardiac-muscle-all-the-following-are-true-except-a-3657b81f",
+   "stem": "About the cardiac muscle all the following are true except : a, It has low electric resistance of the membrane at the intercalated discs",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "about-the-pacemaker-potential-all-the-following-are-true-exc-233246b9",
+   "stem": "About the pacemaker potential, all the following are true except : a.it's amplitude is - 80 to - 90 mv",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "about-the-transverse-sinus-of-the-serous-pericardium-mark-on-cba8c86e",
+   "stem": "About the transverse sinus of the serous pericardium mark one correct statement:",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "according-to-gene-content-in-chromosomes-autosomes-are-facc440f",
+   "stem": "According to gene content in chromosomes, autosomes are:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "according-to-starling-law-the-strength-of-cardiac-muscle-con-4e1e6c59",
+   "stem": "According to Starling law, the strength of cardiac muscle contraction is directly proportionate to which of the following?",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "The heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "according-to-starling-law-the-tension-of-isometric-cardiac-m-0dfbb05b",
+   "stem": "According to Starling law, the tension of isometric cardiac muscle contraction is directly Proportionate to which of the following?",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "The heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "achild-presented-with-mental-retardation-muscular-hypotonia-7cd5aa87",
+   "stem": "Achild presented with mental retardation, muscular hypotonia, cardiac abnormalities, small genital organs. You have to think about:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "afferents-which-may-stimulate-inspiratory-centers-include-7cdecfe6",
+   "stem": "Afferents which may stimulate inspiratory centers include:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "all-cardiac-valves-are-closed-in-a22d5c2c",
+   "stem": "All cardiac valves are closed in:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "all-characters-of-extra-pulmonary-bronchi-except-5edbbc7f",
+   "stem": "All characters of extra pulmonary bronchi except:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "all-of-following-are-branches-of-descending-thoracic-aorta-e-59eb3cb8",
+   "stem": "All of following are branches of descending thoracic aorta EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "all-of-the-following-cause-pulmonary-vasoconstriction-except-44323c47",
+   "stem": "All of the following cause pulmonary vasoconstriction Except:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "all-of-the-following-help-drainage-of-lymph-except-6cd27447",
+   "stem": "All of the following help drainage of lymph Except:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "all-of-the-following-increase-the-work-of-breathing-except-17128ff7",
+   "stem": "All of the following increase the work of breathing Except:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "all-of-the-followings-are-causes-of-pitting-edema-except-1f971191",
+   "stem": "All of the followings are causes of pitting edema Except:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "amale-child-at-puberty-is-presented-with-mental-retardation-d31b09e6",
+   "stem": "Amale child at puberty is presented with mental retardation, tall stature, | small testis and widely separated nipples. This condition could be due to: 1",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "an-effect-of-myocardial-ischemia-on-the-electrical-activity-4e43148c",
+   "stem": "An effect of myocardial ischemia on the electrical activity of the heart is:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "an-increase-in-afterload-and-venous-compliance-can-cause-str-4dc76b7f",
+   "stem": "An increase in afterload and venous compliance can cause stroke volume to change from the point marked X to point:‫ نسألكم الدعاء‬,‫هدية منى لكم‬",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "an-old-man-suffers-from-pulsatile-retrosternal-chest-pain-wh-65035639",
+   "stem": "An old man suffers from pulsatile retrosternal chest pain which increases following effort associated with irregular heartbeats, dysphagia and horsiness of voice",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "anterior-margin-of-the-left-atrium-the-sino-atrial-node-is-s-a81d5f99",
+   "stem": "Anterior margin of the left atrium: | \"The sino-atrial node is si : ْ a Within the interatrial ‏ساد‎ ,",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40",
+   "stem": "Anterior media stinum Space, mark the unacceptable statement:",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "apoptosis-is-characterized-by-the-following-d02e77f3",
+   "stem": "Apoptosis is characterized by the following:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "arterial-blood-pressure-may-be-increased-by-d7be95b1",
+   "stem": "Arterial blood pressure may be increased by:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-6c505d42",
+   "stem": "Arterial blood pressure may be increased by which of the following? 7",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-e73503b4",
+   "stem": "Arterial blood pressure may be increased by which of the following?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "arterio-venous-anastomoses-are-a-direct-connection-between-m-7275de63",
+   "stem": "Arterio-venous anastomoses are: a, Direct connection between’ medium sized arteries and veins",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "arterio-venous-anastomoses-are-characterized-by-0677dfc0",
+   "stem": "Arterio-venous anastomoses are characterized by:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "as-regard-the-standard-limb-leads-of-ecg-lead-ii-represents-a738ddad",
+   "stem": "As regard the standard limb leads of ECG, lead II represents:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "as-the-preload-increases-what-is-the-effect-on-ventricular-m-b3ab5a86",
+   "stem": "As the preload increases, what is the effect on ventricular myocyte?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "at-any-time-the-greatest-fraction-of-blood-volume-is-present-f63d75ba",
+   "stem": "At any time, the greatest fraction of blood volume is present in the:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "at-the-horizontal-axis-of-ecg-paper-cach-millimeter-represen-eee2b8c1",
+   "stem": "At the horizontal axis of ECG paper, cach millimeter represents:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "at-the-level-of-the-except-4h-sternum-with-ste-47ed872f",
+   "stem": "at the level of the EXCEPT: 4h sternum. : : ‏و‎ with ste",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "at-the-level-of-the-sternal-angle-the-following-features-are-835ef4ab",
+   "stem": "At the level of the sternal angle the following features are present, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "at-the-sternal-angle-one-is-true-5ff4bcf3",
+   "stem": "At the sternal-angle, one is true:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "at-the-sternal-angle-one-is-wrong-909d35f4",
+   "stem": "At the sternal angle, one is wrong:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "at-what-level-does-the-trachea-split-into-the-main-bronchi-p-36a13daa",
+   "stem": "At what level does the trachea split into the main bronchi? Posterior to the sternal angle , At the level of the transvers plane that passes through the body of the sixth cervical vertebra 1",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "av-valves-are-open-during-which-of-the-following-phases-of-c-b3cd86ce",
+   "stem": "AV valves are open during which of the following phases of cardiac cycle?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "b-outline-the-zones-of-white-pulp-and-state-the-cellular-com-38817513",
+   "stem": "b. Outline the zones of white pulp and state the cellular composition of each zone (4 marks) + Each ‘pulp is formed of reticular ‏أ‎ “on which cells are concentrically arranged around the central arteriole into 4 zones from inside outwards",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "based-on-the-following-values-the-flow-of-fluid-out-of-the-c-858e5d64",
+   "stem": "Based on the following values, the flow of fluid out of the capillarics will be zero if the average interstitial hydrostatic pressure is : 1 Average capillary hydrostatic pressure = 18 mmHg Average capillary oncolic pressure = 27 mmHg Average interstitial oncotic pressure = 7 mmbg",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "bifurcates-6-cm-below-the-steal-angle-mark-one-correct-state-7adedfe5",
+   "stem": "bifurcates 6 cm below the steal angle, ١ Mark ONE CORRECT statement regarding the trachea: @~ Its thoracic part ties in the posterior Mediastinum, _ 0",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "blood-film-from-this-patient-may-present-eosinophilia-853347f0",
+   "stem": "Blood film from this patient may present eosinophilia. |",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Tonsils",
+   "timesAsked": 1
+  },
+  {
+   "key": "blood-flows-into-the-coronary-arteries-arises-from-the-20f83d05",
+   "stem": "Blood flows into the coronary arteries arises from the:",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "blood-sinusoids-are-characterized-by-the-following-91db52cc",
+   "stem": "Blood sinusoids are characterized by the following:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "cardiac-muscle-cannot-be-tetanized-because-of-e311a248",
+   "stem": "Cardiac muscle cannot be tetanized because of:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "choose-the-correct-statement-about-billroth-cords-a-they-are-5d292dfe",
+   "stem": "Choose the correct statement about Billroth cords: ١ a. They are found in the stroma of lymph nodes. _ ©. They are infiltrated by blood & lymphoid cells. ‏ا‎ 6. They are the spaces in between secondary lymphatic follicles. ‏أ‎ 0. They contain central arterioles at one side. | 11. Which of the following statements is correct about splenic sinusoids?",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "choose-the-correct-statement-about-billroth-cords-aa93a7fb",
+   "stem": "Choose the correct statement about Billroth cords:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "choose-the-correct-statement-about-the-lymph-node-a-lymph-ci-76fd16cb",
+   "stem": "Choose the correct statement about the lymph node: a, Lymph circulates from medullary to cortical sinuses",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "chronotropism-refers-to-which-of-the-following-50fd5563",
+   "stem": "Chronotropism refers to which of the following?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "clara-cells-are-known-to-be-7933b952",
+   "stem": "Clara cells are known to be:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "co-narcosis-means-466cf640",
+   "stem": "CO₂ narcosis means:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Control of Respiration",
+   "timesAsked": 1
+  },
+  {
+   "key": "compared-with-the-apex-of-the-lung-the-base-of-the-lung-has-bcf708af",
+   "stem": "Compared with the apex of the lung, the base of the lung has 3",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerni-vacorring-the-branches-of-the-typical-intercostal-n-16fc12f6",
+   "stem": "Concerni | VaCorRing the branches of the typical intercostal nerve: ‏عه‎ Collateral nerve :",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-apoptosis-25140e67",
+   "stem": "Concerning apoptosis: |",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-breathing-all-true-except-ecd77f19",
+   "stem": "Concerning breathing all true except:",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-compliance-of-large-arterial-blood-vessels-one-is-9eea479c",
+   "stem": "Concerning compliance of large arterial blood vessels, one is true:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-compliance-of-the-stomach-one-is-true-ec247c63",
+   "stem": "Concerning compliance of the stomach, one is true:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-laminar-blood-flow-one-is-incorrect-eb00a7cf",
+   "stem": "Concerning laminar blood flow, one is incorrect:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-large-veins-which-one-of-the-following-statements-1b1fd630",
+   "stem": "Concerning large veins, which one of the following statements is not true?",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-respiration-a-expiratory-muscles-act-during-norma-6bd951ba",
+   "stem": "Concerning respiration: : a, expiratory muscles act during normal expiration",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-respiration-it-2-aaa-5c63100d",
+   "stem": "Concerning respiration: it 2 aaa",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-small-granule-cells-2d4e1325",
+   "stem": "Concerning Small granule cells:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-small-granule-cells-it-i-85641459",
+   "stem": "Concerning small granule cells, it: i",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-atrial-pressure-curve-a-c-wave-occurs-during-8e579abd",
+   "stem": "Concerning the atrial pressure curve a, c-wave occurs during atrial systole",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-base-of-the-heart-choose-the-incorrect-answer-e10f37be",
+   "stem": "Concerning the base of the heart; choose the incorrect answer:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-diaphragm-all-true-except-1213ff45",
+   "stem": "Concerning the diaphragm all true EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-ecg-of-an-aciult-human-all-are-true-except-a9cb2ea6",
+   "stem": "Concerning the ECG of an aciult human, all are true EXCEPT:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-external-intercostal-muscle-choose-the-incorr-7f6cb920",
+   "stem": "١ Concerning the external intercostal muscle; choose the incorrect answer:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-heart-mark-the-correct-statement-1-8c625a04",
+   "stem": "Concerning the heart; mark the correct statement: 1",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-intercostal-and-subcostal-arteries-which-of-t-24b9b038",
+   "stem": "Concerning the intercostal and subcostal arteries, which of the following is true?",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-left-ventricle-select-the-incorrect-statement-6dc70dc8",
+   "stem": "Concerning the left ventricle, select the incorrect statement:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-oblique-sinus-of-the-serous-pericardium-indic-e475ffbf",
+   "stem": "Concerning the oblique sinus of the serous pericardium, indicate the accepted statement:",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-oesophagus-all-true-except-135051ac",
+   "stem": "Concerning the oesophagus all true EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-olfactory-epithelium-9305cebb",
+   "stem": "Concerning the olfactory epithelium:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-phrenic-nerves-select-the-correct-statement-2d4818a1",
+   "stem": "Concerning the phrenic nerves; select the correct statement:",
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-pleural-cavity-mark-the-incorrect-statement-37aaad9c",
+   "stem": "Concerning the Pleural cavity; mark the incorrect statement:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-pressure-volume-loop-of-left-ventricle-all-ex-0eb3ce9e",
+   "stem": "Concerning the pressure volume loop of left ventricle, all EXCEPT:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-residual-volume-a-represents-more-than-30-of-b7834ad1",
+   "stem": "Concerning the residual volume ‏ا‎ ‎a. Represents more than 30% of total lung capacity ‏ا‎ ‎b. It averages 2200 ml",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-thorax-choose-the-wrong-answert-ed16fc68",
+   "stem": "Concerning the thorax; choose the wrong answert",
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-thymus-which-of-the-following-is-correct-1-84f21510",
+   "stem": "Concerning the thymus, which of the following is correct? 1",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Thymus",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-trachea-one-is-wrong-315fcd65",
+   "stem": "Concerning the trachea, one is wrong:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-upper-pair-of-vocal-cords-a-they-are-the-true-db8e5351",
+   "stem": "Concerning the upper pair of vocal cords: ‘a. They are the true vocal cords. b. They contain elastic ligaments",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "concerning-the-upper-pair-of-vocal-cords-they-d0e9e07b",
+   "stem": "Concerning the upper pair of vocal cords, they:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "conduction-speed-is-highest-in-the-bc0dd1e9",
+   "stem": "Conduction speed is highest in the:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "conduction-speed-is-slowest-in-the-99b22b7b",
+   "stem": "Conduction speed is slowest in the:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "control-multiplication-of-helper-suppresser-t-cell-f9d598e8",
+   "stem": "Control multiplication of helper, suppresser T -cell",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Thymus",
+   "timesAsked": 1
+  },
+  {
+   "key": "coronary-arteries-select-the-correct-statement-57c2cd72",
+   "stem": "Coronary arteries, select the correct statement:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "costocervical-trunk-b-vertebral-artery-transverse-cervical-a-2c56970b",
+   "stem": "Costocervical trunk. ١ b. Vertebral artery. ‏,مر‎ Transverse Cervical artety. Liaw owletha fi diac 055 ee ma 4 ‏ب‎ At the sternal‘angle, one is true: 1",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "cyanosis-1-60b08503",
+   "stem": "Cyanosis: 1",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Gas Transport by the Blood",
+   "timesAsked": 1
+  },
+  {
+   "key": "describe-the-ionic-bases-of-phase-1-and-phase-2-in-cardiac-m-b46ebbe9",
+   "stem": "‏.ه‎ Describe the ionic bases of phase 1 and phase 2 in cardiac myocyte action potential (4 marks) Phase 1 Rapid small 1. Inactivation of fast Na* channels repolarization Phase 2 Plateau (around + Balance between zero mV) 1. Outward positive via delayed rectifier K* channels 200 msec 2. Inward positive via",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "diacrotic-notch-is-due-to-e9c90ebf",
+   "stem": "Diacrotic notch is due to: |",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "divide-the-spleen-into-regular-compartments-lymphatic-system-61263f5a",
+   "stem": "Divide the spleen into regular compartments. ! Lymphatic System : 22. Regarding Hassall's corpuscles, one of the following is true:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Tonsils",
+   "timesAsked": 1
+  },
+  {
+   "key": "down-syndrome-mongolism-is-characterized-by-a-it-is-a-form-o-449c5e95",
+   "stem": "Down syndrome (mongolism) is characterized by: ‏ظ‎ ‎| a. It is a form of triploid chromosomal aberration",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "during-excitation-contraction-coupling-of-carciac-myocyte-wh-8f883a4d",
+   "stem": "During excitation contraction coupling of carciac myocyte, which of _ the following occurs?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "during-hemorrhagic-shock-the-patient-exhibits-4d2e0a8d",
+   "stem": "During hemorrhagic shock, the patient exhibits",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "during-isovolumetric-ventricular-contraction-a-rapid-filling-ae3cfd14",
+   "stem": "During isovolumetric ventricular contraction ‘a. Rapid filling of ventricles occur",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "during-quiet-inspiration-ipp-equals-190312a7",
+   "stem": "During quiet inspiration, IPP equals:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "during-quiet-inspiration-ipp-equals-a-1mmug-003c6ae3",
+   "stem": "During quiet inspiration, IPP equals: a-- 1mmug",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "during-the-heart-development-the-left-horn-of-the-sinus-veno-a2954fc5",
+   "stem": "During the heart development, the left horn of the sinus venosus becomes smaller and forms: @)coronary sinus",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "during-the-isometric-contraction-pnase-of-cardiac-cycle-what-f8195c12",
+   "stem": "During the isometric contraction pnase of cardiac cycle, what happens to the ventricular volume?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "during-which-of-the-foliowing-would-the-intra-pleura-pressur-de1dd666",
+   "stem": "During which of the foliowing would the intra-pleura! pressure be greater than atmospheric pressure?",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "during-which-of-the-following-would-the-intra-pleural-pressu-232671b6",
+   "stem": "During which of the following would the intra-pleural pressure be greater than atmospheric pressure?",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "during-which-of-the-following-would-the-intra-pleural-pressu-e2dafb02",
+   "stem": "During which of the following would the intra-pleural pressure be greater than atmospheric pressure? an 1",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "each-segment-is-supplied-by-a-lobar-bronchus-s-concerning-th-aae4cd22",
+   "stem": "Each segment is supplied by a lobar bronchus. ; @s) ~Concerning the lungs, choose the wrong answer: 1 a Its apex projects into the neck, ١",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "elastic-cartilage-provides-structural-support-for-the-respir-0efcaf59",
+   "stem": "Elastic cartilage provides structural support for the respiratory airway: ‏ا‎ ‎a. Trachea b. Bronchi 7",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "eleventh-1-regarding-the-external-intercostal-muscle-indicat-9a181d08",
+   "stem": "Eleventh. 1 @)-Regarding the external - intercostal: muscle; indicate the wrong: statement: mo",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "esophagus-1-08884f27",
+   "stem": "Esophagus. . ‘ . 1",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "esophagussvfemer-0-structure-located-inside-the-anterior-med-49aa11d3",
+   "stem": "esophagussvfemer ٠ ٠ 0 © ‏ماع سو‎ structure located inside the anterior mediastinum:",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "fenestrated-visceral-blood-capillaries-are-known-by-bbfeda5d",
+   "stem": "Fenestrated (visceral) blood capillaries are known by:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "fetal-hemoglobin-contains-2alpha-2-gamma-chain-cannot-combin-826332b1",
+   "stem": "fetal hemoglobin: contains 2alpha & 2 gamma chain (cannot combine with 2,3-DPG) Q6.b. Mention characteristics of CO poisoning and its treatment (6 marks) ٠ Hbhas 210 times affinity for CO > O2 ٠ CObind at same site of O02 > CO-Hb (cannot carry O2) ٠ Carboxy hemoglobin shift O2 dissociation curve to left ٠ Carboxy hemoglobin breaks down slowly ٠ Amount formed depend on amount of CO in air & duration of exposure © Death if 70 % of Hb >is converted to CO-Hb Signs: Carboxy hemoglobin has cherry red color on skin & mucous membrane Treatment: e Termination of exposure ٠ Exchange blood transfusion. © Hyperbaric 2 Q7. Mention the end of posterior intecoastal and subcostal veins (6 marks) *2nd, 3rd & 4th veins form Rt. sup. intercostal v. ending | \"2nd, 3rd & 4th veins form Lt. sup. intercostal v. ending in Lt in azygos arch. brachiocephalic v. *5th - Ith veins & subcostal v. open in azygos V. *5th, 6th, 7th & 8th veins open in sup. hemiazygos v. “9th, 10th, TIth veins & subcostal v. open in inf. hemiazygos v. Q8. Mention the nerve supply of pleura (6 marks)",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "fetal-hemoglobin-contains-2alpha-2-gamma-chains-cannot-combi-bd5548ea",
+   "stem": "fetal hemoglobin: contains 2alpha & 2 gamma chains (cannot combine with 2,3-DPG) ~",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "gas-exchange-occurs-in-a-terminal-bronchioles-b-intra-pulmon-049ead38",
+   "stem": "Gas exchange occurs in: . -- a, terminal bronchioles b. intra-pulmonary. bronchi SO _c, Alveolarsacd.. OD. extra-pulmonary bronchi ~ - 0 1 ‏(وو”‎ What is the first portion of the respiratory tree where gas exchange : 7 -. Ganoccur? ‏ال‎ 7 Coke 0 0",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "give-the-distribution-of-the-right-coronary-artery-eseeeeeee-a34e7aa3",
+   "stem": "Give the distribution of the right coronary artery, (.eseeeeeeee 5S marks) 9 CamScanner \\?- Discuss site, formation and branches of deep cardiac plexus. (.seeeeeeee-/5 marks) 10 3 camscanner Problem Solving Question: 8 ‏ا‎ ‎13- A man with difficulty of respiration. On doing X-ray there was a fluid in the pleural cavity. | (sesseeseeeee 4 marks)",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "gives-of-the-recurrent-laryngeal-nerve-in-the-neck-has-no-se-598b6ee2",
+   "stem": "gives of the recurrent laryngeal nerve in the neck. . ©. has no sensory component,",
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "hassall-s-corpuscles-in-thymus-are-characterized-by-94e95c43",
+   "stem": "Hassall's corpuscles in thymus are characterized by:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Thymus",
+   "timesAsked": 1
+  },
+  {
+   "key": "heart-failure-cells-are-b0fe1a8f",
+   "stem": "Heart failure cells are",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Alveolar Phagocytes",
+   "timesAsked": 1
+  },
+  {
+   "key": "how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8",
+   "stem": "How much oxygen is normally carried in the blood?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "ht-begins-at-the-level-of-the-lower-border-of-the-second-tho-b61fc1a3",
+   "stem": "Ht begins at the level of the lower border of the second thoracic vertebra 3 8١ Its upper Part lies in the Superior mediastinum : & It gives off the Pericardiophrenic artery It gives off branches to Supply the middle part of the esophagus ‏و‎ ‎69 Regarding the thoracic duct, choose the correct Statement: ‘",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "hypertension-develops-when-the-a-amount-of-collagen-fibers-i-9f819538",
+   "stem": "Hypertension develops when the: “a. Amount of collagen fibers in media of arterioles becomes high",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "hypoxemia-is-caused-by-all-of-the-following-except-e0059e10",
+   "stem": "Hypoxemia is caused by all of the following Except:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Gas exchange in the lung",
+   "timesAsked": 1
+  },
+  {
+   "key": "i-regarding-the-root-of-the-lung-mark-the-incorrect-answer-0-e92f0fa9",
+   "stem": "i Regarding the root of the lung; mark the incorrect answer: 00 ْ a- It lie opposite the bodies of the T5, 6,7 vertebrae",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "if-a-patient-at-rest-has-a-systolic-diastolic-blood-pressure-2d576eb0",
+   "stem": "If a patient at rest has a systolic/diastolic blood pressure of 140/80 mmHg and a cardiac outputofS 07 L/min, what is his total peripheral resistance? ‏سنن‎ ‎a- 18 mmHg x min/L",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "if-a-patient-at-rest-has-a-systolic-diastolic-blood-pressure-44891a85",
+   "stem": "If a patient at rest has a systolic/diastolic blood pressure of 130/70 mmHg and a cardiac output of 5 L/min, what is his total peripheral resistance?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "if-the-lungs-experimentally-filled-completely-with-saline-so-4d4a1047",
+   "stem": "If the lungs experimentally filled completely with saline, so the surface tension of fluid lining alveoli is:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "if-the-systolic-blood-pressure-is-120-mmhg-and-the-pulse-pre-be7f9f01",
+   "stem": "If the systolic blood pressure is 120 mmHg and the pulse pressure equals 45 mm Hg, the mean arterial blood pressure would be:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "ifa-parent-is-a-carrier-of-a-chromosome-21-translocation-he-2f86d27d",
+   "stem": "Ifa parent is a carrier of a chromosome 21 translocation, he might have a child with:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-a-resting-adult-what-s-the-normal-ventricular-ejection-fr-dbe6d127",
+   "stem": "In a resting adult, what's the normal ventricular ejection fraction?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-an-ecg-recording-the-time-between-atria-depolarization-ve-bf64f74f",
+   "stem": "In an ECG recording, the time between atria! depolarization & ventricular depolarization is represented by which part?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-bronchiole-cell-degrades-the-toxin-in-inhaled-air-is-867e6059",
+   "stem": "In bronchiole, cell degrades the toxin in inhaled air is: !",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-hypovolemis-shock-which-of-the-following-receptors-are-st-b5143c11",
+   "stem": "In hypovolemis shock, which of the following receptors are stimulated?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-metabolic-acidosis-compensatory-hyperventilation-occurs-i-4b08cc0a",
+   "stem": "In metabolic acidosis compensatory hyperventilation occurs in order to lower arterial PCO, The cause of hyperventilation is: |",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Control of Respiration",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-muller-s-experiment-it-reaches-30cmh20-26-the-intrapleura-fe19c8c8",
+   "stem": "In Muller’s experiment, it reaches 30cmH20 ‏ا‎ ‎26- The intrapleural pressure at the end of inspiration is: :",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Organization of the Respiratory System",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-normal-individual-respiration-is-regulated-by-all-except-7e8ddaae",
+   "stem": "In normal individual respiration is regulated by all except:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04",
+   "stem": "In progressive hemorrhagic shock, which of the following occurs? ~~’",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-the-following-figure-which-answer-is-correct-29499284",
+   "stem": "In the following figure, which answer is correct? |",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "in-the-interphase-of-cell-cycle-synthesis-s-phase-shows-ffdda484",
+   "stem": "In the interphase of cell cycle, synthesis (S) phase shows:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "The Cell Cycle",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-the-sinoatrial-sa-node-phase-4-depolarization-pacemaker-p-51bb7e46",
+   "stem": "In the sinoatrial (SA) node, phase 4 depolarization (pacemaker potential) isattributable to",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-the-sinoatrial-sa-node-phase-4-depolarization-pacemaker-p-e735e414",
+   "stem": "In the sinoatrial (SA) node, phase 4 depolarization (pacemaker potential) is attributable to",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-the-spleen-white-pulp-7d4646cc",
+   "stem": "In the spleen, white pulp:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-the-superior-mediastinum-select-the-true-statement-2a-the-6e6fa7ec",
+   "stem": "In the superior mediastinum, select the true statement: 2a: the azygous vein arches below the right mainbronchus bb the right brachiocephalic vein lie in the tubal layer of the mediastinum ‏ع‎ The trachea and oseophagus crossed anteriorly by the arch of aorta",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "in-thymus-gland-hassall-s-corpuscles-are-characterized-by-3ddbf712",
+   "stem": "In thymus gland, Hassall’s corpuscles are characterized by: !",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Thymus",
+   "timesAsked": 1
+  },
+  {
+   "key": "in-what-mediastinum-are-the-phrenic-nerves-located-a-prevert-44989386",
+   "stem": "In. what mediastinum are the phrenic nerves located? a, Prevertebyal part of superior mediastinum 1 1 i b, Anteriot mediastinum, ; © Middle mediastinum. . 1 8 d.. Posterior mediastinum. ‏ا‎ X 31) The mucus membrane of the larynx above the vocal cordgis'supplied by 0",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "inaorta-internal-elastic-lamina-is-unclear-because-4955103f",
+   "stem": "Inaorta, internal elastic lamina is unclear because:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "increases-in-which-of-the-following-variables-would-be-expec-6a43febb",
+   "stem": "Increases in which of the following variables would be expected to decrease the venous return?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "increasing-the-inotropic-state-of-the-heart-will-ans-25958be0",
+   "stem": "Increasing the inotropic state of the heart will ans —",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "inferlor-to-the-lower-border-of-therib-at-thie-iniddle-of-th-1dfb27a0",
+   "stem": "Inferlor to the lower border of therib, | ©: At thie iniddle of the intercostal Space, | _ 0:١ Between the internal ‘and external interojtal muscles, ® ‏ظ‎ : 09 ٠ Which of the following are the bronchopulmonary segments of the 1 lingula of the left lung? ١ ْ . a- Anterior and posterior",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "inlymph-node-are-lined-by-simple-squamous-epithelium-j-a-sub-34a12bea",
+   "stem": "Inlymph node, .......... are lined by simple squamous epithelium. j a.’ Subcapsular sinuses. | } “b. Medullary cords. } |",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "internal-elastic-lamina-is-developed-in-the-tunica-intima-of-11ac0429",
+   "stem": "Internal elastic lamina is developed in the tunica intima of:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "intra-alveolar-pressure-a-is-negative-throughout-normal-quie-fa946e59",
+   "stem": "Intra-alveolar pressure: a-Is negative throughout normal quiet breathing",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "intra-pulmonary-bronchi-is-characterized-by-all-except-a-pse-f23160d8",
+   "stem": "intra pulmonary bronchi is characterized by All except a)pseudo stratified columnar with many goblet cell b) absence of elastic membrae or submucosa",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "intrapulmonary-bronchus-has-tepret-epithelial-lining-with-no-a0257a5b",
+   "stem": "Intrapulmonary bronchus has: tePret ‏-م‎ Epithelial lining with no goblet celis",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "is-supplied-by-the-glossopharyngeal-nerve-0-0-the-esophageal-87b6ba62",
+   "stem": "Is supplied by the glossopharyngeal nerve * 0 0 The esophageal opening in tHediaphira: gm liesopposite of: a TS 2220 3 ce TI 80 ‏ا سيك‎ ْ . - — 1 ‏ا‎ . 8 (2 A 58-year-old woman was admitted to the emergency department with a severe dyspnea, Bronchoscopy revealed that. the carina was distorted and . widened, Enlargement: of: which group of lymph nodes was most likely , esponsible for altering the carina? Ns",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "it-divides-at-the-level-of-the-6-thoracic-vertebra-into-2-ma-9aaf4a1d",
+   "stem": "It divides at the level of the 6\" thoracic vertebra into 2 main bronchi Go) ' Regarding the bronchi, choose the correct answer: : ‏-ه‎ The right bronchus is shorter and narrower than the feft",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "it-is-crossed-anteriorly-by-the-left-brachiocephalic-vein-cd36110c",
+   "stem": "it is crossed anteriorly by the left brachiocephalic vein",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "it-is-crossed-by-the-arch-of-the-aorta-s-concerning-the-oeso-2b4dc92f",
+   "stem": "It is crossed by the arch of the aorta. . @s)concerning the oesophagus; select the wrong answer: _ @) Is 40 cm in length,",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "it-is-crossed-by-the-left-bronchus-along-its-whole-course-th-3ff223e8",
+   "stem": "It is crossed by the left bronchus. | @ Along its whole course, the thoracic duct lies on its left side, @2)Regarding the bronchi; select the incorrect statement: : a~ The bronchial vessels lie behind the bronchi",
+   "subject": "Anatomy",
+   "chapter": "Lymphatics of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "it-passes-through-diaphragm-to-the-abdomen-at-the-level-of-t-36bf2357",
+   "stem": "it passes through diaphragm to the abdomen at the level of T7",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "it-passes-through-the-diaphragm-level-ts-0-name-the-structur-3883d600",
+   "stem": "it passes through the diaphragm ‏عط عه‎ level TS © 0 Name the structure that is located anterior to the thoracic part of the trachea? 5 Left brachiocephalic. vein ne : enea?",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "its-apex-is-directed-anteriorly-7532acaa",
+   "stem": "Its apex is directed anteriorly :",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "its-middle-lobe-has-two-bronchopulmonary-segments-9b17b3d7",
+   "stem": "Its middle lobe has two bronchopulmonary segments",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "k-27f4ee2c",
+   "stem": "K+",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "klinefelter-s-syndrome-is-82256d5f",
+   "stem": "Klinefelter’s syndrome is:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "lack-of-surfactant-produces-all-of-the-above-except-3e26cce3",
+   "stem": "Lack of surfactant produces all of the above EXCEPT:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "large-elastic-arteries-are-characterized-by-6fa6edbe",
+   "stem": "Large elastic arteries are characterized by:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "less-developed-spirally-arranged-smooth-muscles-are-a-featur-adbb9056",
+   "stem": "Less developed spirally arranged smooth muscles are a feature of:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "list-the-tributaries-and-fields-of-lymph-drainage-of-the-tho-fbd38c36",
+   "stem": "List the tributaries and fields of lymph drainage of the thoracic duct. (4 marks) | ‏م‎ 10 | ll) Problem Solving Questions: (10 marks) | 1) A 15 years old teenaged boy inhaled a foreign body: (5 marks) | a. Which main bronchus and Iung is more likely to be affected, and why? | b. Which lober bronchus is frequently blocked by the foreign body and why? c.Which type of foreign body (metal, wood or plant seed) gives a more dangerous outcome if left for a long time and why. | d. What is the expected complication of blocking a lober bronchus ll) A man with stab wound in the 4\" left intercostal space induced accumulation of blood in the pericardial cavity. (5 marks)",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "longitudinal-splitting-of-chromosomes-happens-in-the-followi-dd089630",
+   "stem": "Longitudinal splitting of chromosomes happens in the following phase:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "low-resistance-shock-is-characterized-by-which-of-the-follow-476fb9a1",
+   "stem": "Low resistance shock is characterized by which of the following?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "low-resistance-shock-is-characterized-by-which-of-the-follow-d4c77b84",
+   "stem": "Low resistance shock is characterized by which of the following? - Occurs when the size of the vascular system is increased by vasodilatation,",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "lower-border-oblique-line-from-point-c-to-lt-57-intercostal-064bfa4c",
+   "stem": "Lower border: Oblique line, from point c to Lt. 57 intercostal space 9 | 2-Ant. interventricular groove: Vertical line, cm from median plane (point d). from Lt. 3 sternocostal junction to inf. border",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "lung-bronchiole-has-76f40d7b",
+   "stem": "Lung bronchiole has:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "lung-compliance-is-increased-in-1ce011e2",
+   "stem": "Lung compliance is'increased in:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "lung-emphysema-decreases-the-pulmonary-diffusing-capacity-fo-ead15150",
+   "stem": "Lung emphysema decreases the pulmonary diffusing capacity for gases due to:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "lung-surfactant-a-decreases-the-tendency-of-alveolar-collaps-619db9e4",
+   "stem": "Lung surfactant: ‏ع‎ ‎a- Decreases the tendency of alveolar collapse during expiration",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "match-column-a-with-b-d4f72026",
+   "stem": "Match column A with B: |",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "may-be-due-to-47-chromosomes-xxy-15-structural-aberrations-i-304914be",
+   "stem": "May be due to 47 chromosomes (XXY). 15, Structural aberrations include:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "medium-sized-arteries-d8faffa8",
+   "stem": "Medium sized arteries",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "medium-sized-vein-is-characterized-by-eeba9e52",
+   "stem": "Medium sized vein is characterized by:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "mitosis-is-characterized-by-the-following-a-exchange-of-gene-0099d1c3",
+   "stem": "Mitosis is characterized by the following: | a. Exchange of genes. | b. Absence of crossing over. | c. Daughier cells contain n chromosomes",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "monosomy-of-sex-chromosome-is-4dd33dcd",
+   "stem": "Monosomy of sex chromosome is: |",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "murmur-appears-in-the-following-condition-ab3d9e41",
+   "stem": "Murmur appears in the following condition:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "negative-inotropic-mechanisms-include-which-of-the-following-10f92c99",
+   "stem": "Negative inotropic mechanisms include which of the following?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "non-keratinized-stratified-squamous-epithelium-is-the-coveri-a6b12974",
+   "stem": "Non keratinized stratified squamous epithelium is the covering of: |",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Tonsils",
+   "timesAsked": 1
+  },
+  {
+   "key": "normal-value-of-lung-compliance-is-about-b1eb2ab0",
+   "stem": "Normal value of lung‘ compliance is about....:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "olfactory-mucosa-shows-a-simple-squamous-epithelium-df1fb9e8",
+   "stem": "Olfactory mucosa shows: a, Simple squamous epithelium",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "on-e-m-examination-of-lung-section-show-pinocytic-vesicles-a-0fd1550e",
+   "stem": "On E.M. examination of lung section, ............. show pinocytic vesicles and few organelles",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "on-the-following-graph-showing-left-ventricular-volume-and-p-a53a02d1",
+   "stem": "On the following graph showing left ventricular volume and pressure, the first heart sound corresponds to point",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-following-branches-not-arising-from-descending-th-fd16980d",
+   "stem": "One of the following branches not arising from descending thoracic aorta: | a~ Posterior intercostal artery. | | 7b< Subcostal artery. | ‏عنم‎ Left subclavian artery. | i-~Left bronchial artery. | | | | Page 2 of 15 - ‏5مع‎ 104 | | 17- Re ) < ti the blood supply to the chest w a The posterior intercostal arteries « st wall; mark the most correct answer: a cect The internal thoracic artery 7 | ae the upper six intercostal spaces. | Six intercostal spaces, ‏“ل‎ arises from the subclavian artery and supplies the anterior part of lower | “7 The neurovascular bundle Passes in tl ey a. asses in the F :. 5 : : ١ ; 2 | Arises from descending aorta sal’, plane between the internal and innermost intercostal muscle. | 18-A 45 | A 45-year-old woman pres | | ‏كلاف‎ sents with a t | result in compressio 5 umor confined to the posteri , ; ; ‏ظ‎ ssion of which of the follow; posterior mediastinum. This could | om ‏مي‎ owing structures? | | ‏رع‎ Descending aorta. | | io Arch of the aorta. | | ¢d- Arch of the azygos vein. | : \\-19- Inability to maintai | maintain constant tension on th | ٠. : e cusps of the AV valve. i | structures is most likely damaged? : ye. WAKE One ee | La» Crista terminalis. | db-- Septomarginal trabecula. Dae <6 Chordae tendineae. [a Pectinate muscle. | 20- The Internal Mammary artery arises from: .a-~ Costocervical trunk. | ‏عدجا‎ Transverse Cervical artery. | ‏وم‎ Brachiocephalic artery. | id= Subclavian artery. | 21- Concerning the oesophagus; select the true answer: | | | US It is 40 cm in length. | | | cb In the thorax, passes behind the right main bronchus. ‏تعر ظ‎ It passes through the oesophageal opening of the diaphragm at the level of T10. | ae Is crossed by the arch of azygos. | 22- Which of the following structures lies in the anterior mediastinum? | ge Sternopericardial ligaments. | | pb Pericardial sac. | Zs Trachea. | | de Heart. | 4 23- Which of the following embryonic arterial structures is most likely responsible for the origin of the | | patent ductus arteriosus? | ‏ظ‎ ‎(| ‏عور‎ Right fourth arch. | | ‏عورم‎ Left fifth arch. ya Right fifth arch. | | ac Left sixth arch. | ‏أ‎ 44. The arch of the aorta: | , ee tween 14 and TS. | (' cae Begins a Oe ad sgh left of the bifurcation of the trachea. | be in . 1 | Ors the superficial cardiac plexus on its upper ae | | ing below 1 4, Has the right recurrent laryngeal nerve ‏ع‎ 8 | } page 3 of 15 - ‏5214م‎",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-following-does-not-open-into-the-right-atrium-2-a-3a31c50e",
+   "stem": "One of the following does not open into the right atrium: (2 azygos vein",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-following-is-a-type-of-blood-capillaries-a-blood-68545fdd",
+   "stem": "One of the following is a type of blood capillaries: ‏ا‎ ‎a. Blood sinusoids. b. Coronary vessels",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-following-is-incorrect-concerning-the-thoracic-pa-7d0e7265",
+   "stem": "One of the following is incorrect concerning the thoracic part of right vagus nerve: ١ : a.. gives branches to:the bronchi. ® passes anterior to the hilum of the right lung. ; centers the thorax in front.of I* part of subclavian artery. . 1 :",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-following-structure-is-a-content-of-the-middle-me-662f52e5",
+   "stem": "‘One of the following structure is a content of the middle mediastinum: a~ Descending aorta 1 ©} Ascending aorta",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-following-structures-5-pt-related-5dd94a50",
+   "stem": ": One of the following structures 5 pt related",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-following-structures-passes-with-the-descending-t-d360ad09",
+   "stem": "One of the following structures passes with the descending thoracic aorta through the diaphragm:",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-followings-i-13-gs-is-a-main-feature-of-the-right-b16d5199",
+   "stem": "One of the followings i: | } 13. gs is a main feature of the right lung: | \\y a- It has two lobes Ee | + b- Its inferior surface is shallow | « c- Its anterior border has a cardiac notch @ its medial surface has a hilum with arch of azygos lie above | | | 14. At what level does the trachea divides into the main bronchi? | a- At the level of the transvers plane that passcs through the body of the sixth cervical | | : vertebra | \\ b- At the level of the transvers plane that passes through the body of the sixth thoracic vertebra | X c- Atthelevel of the transvers plane that passes through the thoracic inlet | ١ @Posterior to the sternal angle \\ | | 15. The thoracic part of trachea is related posteriorly to the esophagus with the following nerve in || | between: |",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "one-of-the-followings-is-not-true-concerning-the-left-vagus-101e7ea5",
+   "stem": ": _ One of the followings is not true concerning the left vagus nerve: a, crosses the aortic arch posterior to the lefi-phrenic nerve. 0",
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387",
+   "stem": "Opposite the tracheal bifurcation, lies; indicate the correct answer:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "oxygen-therapy-is-of-limited-value-in-which-of-the-following-4b8eb82e",
+   "stem": "Oxygen therapy is of limited value in which of the following situations?",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Gas Transport by the Blood",
+   "timesAsked": 1
+  },
+  {
+   "key": "p-wave-is-due-to-bb56baa3",
+   "stem": "P wave is due to:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "pacemaker-potentials-are-normally-absent-from-98015db5",
+   "stem": "Pacemaker potentials are normally absent from:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "pericyte-of-blood-capillary-can-differentiate-into-the-follo-5b3cb3c8",
+   "stem": "Pericyte of blood capillary can differentiate into the following cell:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "peripheral-chemoreceptors-are-not-sensitive-to-all-of-the-fo-eb2cd041",
+   "stem": "Peripheral chemoreceptors are not sensitive to all of the following Except:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913",
+   "stem": "pH of venous blood is only slightly more acidic than pH of arterial blood because:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "philadelphia-chromosome-6245c1ec",
+   "stem": "Philadelphia chromosome:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "pleural-reflection-lies-at-which-rib-level-in-the-midaxillar-385a843b",
+   "stem": "Pleural reflection lies at which rib level in the midaxillary line: ‏م‎ vera 8 (2) 12 |",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "posterior-border-line-between-12t-thoracic-spine-and-cervica-b0d45e1b",
+   "stem": "Posterior border; line between 12t thoracic spine and cervical pleura, Mark the incorrect statement concerning the pleural cavity:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "posterior-interventricular-artery-ae-circumflex-artery-et-d-5b0513d5",
+   "stem": "posterior interventricular artery. ae >. circumflex artery. et . ١ d. right marginal artery.. 8 G6) Regarding the right coronary artery: a, supplies the SA node in 40% of cases. ١",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "prominent-internal-elastic-lamina-iel-is-seen-in-8c080de2",
+   "stem": "Prominent internal elastic lamina (IEL) is seen in:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "protein-discs-located-at-centromere-for-attachment-for-spind-62275fa7",
+   "stem": "Protein discs located at centromere for attachment for spindle fibers:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "qrs-complex-is-due-to-0e1de663",
+   "stem": "QRS complex is due to: *",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "quantitatively-the-most-important-means-for-increasing-blood-ee55525a",
+   "stem": "Quantitatively, the most important means for increasing blood flow to an actively metabolizing tissue is:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "red-pulp-of-the-spleen-shows-91bf4d2f",
+   "stem": "Red pulp of the spleen shows:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da",
+   "stem": "Regarding arch of aorta, mark ONE correct answer: | a- It extends above the suprasternal notch",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-arch-of-aorta-select-the-correct-statement-397779d3",
+   "stem": "Regarding arch of aorta, select the correct statement:",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-arch-of-aorta-the-following-statements-are-correct-7928ecd9",
+   "stem": "Regarding arch of aorta, the following statements are correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-brachiocephalic-veins-one-of-the-following-stateme-8aac4731",
+   "stem": "Regarding brachiocephalic veins, one of the following statements is incorrect: ١",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-chloride-shift-phenomenon-at-the-tissue-level-d2124bd0",
+   "stem": "Regarding chloride shift phenomenon at the tissue level:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Gas Transport by the Blood",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-descending-thoracic-aorta-the-following-statements-ba505495",
+   "stem": "Regarding descending thoracic aorta, the following statements are | correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-intercostal-spaces-choose-the-correct-statement-a-7ff13aa0",
+   "stem": "Regarding intercostal spaces, choose the correct statement: ‏ا‎ ‎a. Internal intercostal muscle has fibres directed downwards and backwards",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-lymph-node-which-answer-is-correct-821e3545",
+   "stem": "Regarding lymph node, which answer is correct?",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-mitosis-2b0b7327",
+   "stem": "Regarding mitosis:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-phospholamban-pln-protein-b5c226f7",
+   "stem": "Regarding phospholamban (PLN) protein:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-pleurae-the-following-statements-are-true-except-22eb58e4",
+   "stem": "Regarding pleurae, the following statements are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-respiration-and-the-changes-in-the-thorax-all-the-69394d4b",
+   "stem": "Regarding respiration and the changes in the thorax, all the followings are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-anatomy-of-the-heart-following-statements-are-62f7c901",
+   "stem": "Regarding the anatomy of the heart, following statements are correct, ١ EXCEPT:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-apex-of-the-heart-select-the-incorrect-stateme-56ba303e",
+   "stem": "Regarding the apex of the heart, select the incorrect statement:",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-apex-of-the-heart-select-the-incorrect-stateme-b4d0740f",
+   "stem": "Regarding the apex of the heart, select the incorrect statement: Be",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-arch-of-the-aorta-the-following-statements-are-86180e3e",
+   "stem": "Regarding the arch of the aorta, the following statements are correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-azygos-vein-the-following-statements-are-corre-75a55e25",
+   "stem": "Regarding the azygos vein, the following statements are Correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-base-of-the-heart-following-statements-are-cor-6d7c3d62",
+   "stem": "Regarding the base of the heart, following statements are Correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-blood-vessels-0-a-smooth-muscle-contraction-in-4cd2175e",
+   "stem": "Regarding the blood vessels: - 0 ‘a’ Smooth muscle contraction in vein wall restricts venous return to heart “b. Smooth muscle cells in wall of a medium sized artery regulate blood supply to target tissues. 0",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-blood-vessels-1-74c7dfb7",
+   "stem": "Regarding the blood vessels: 1 |",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-blood-vessels-6a4abd1f",
+   "stem": "Regarding the blood vessels:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-bronchi-the-following-statements-are-true-exce-4c571716",
+   "stem": "Regarding the bronchi, the following statements are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-bronchopulmonary-segments-choose-the-correct-s-a03bf8bf",
+   "stem": "Regarding the bronchopulmonary segments, choose the correct statement:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-cell-division-71282d45",
+   "stem": "Regarding the cell division:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-coronary-arteries-all-the-following-statements-402c0dd1",
+   "stem": "Regarding the coronary arteries, all the following statements are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-descending-thoracic-aorta-the-following-statem-0c346b05",
+   "stem": "Regarding the descending thoracic aorta, the following statemen,. are correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-development-of-aortic-arches-mark-one-correct-09a8e7be",
+   "stem": "Regarding the development of ‘aortic arches, mark one correct statement: a~ The definitive adult aortic arch develops from the third left arch",
+   "subject": "Anatomy",
+   "chapter": "Development of the Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-esophagus-the-following-statements-are-correct-7bd0d4e2",
+   "stem": "Regarding the esophagus, the following statements are correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-external-intercostal-muscle-one-of-the-followi-e9d10d6e",
+   "stem": "Regarding the external intercostal muscle; one of the following statements is wrong: a~ Its fibres are directed downward and forward. 1 ‏خط‎ It takes origin from the inferior border of the ‏طم‎ above, ‏ش‎ ‎c~ It is inserted into the superior border of the rib below. It.extends posteriorly to the angle of the rib. . . 0 6 @ - Regarding the intercostal nerves; choose the wrong answer: 5",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-fetal-circulation-and-circulatory-changes-afte-6044f685",
+   "stem": "٠ Regarding the fetal circulation and circulatory changes after birth, mark one correct statement: :",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-function-of-the-pericardium-one-of-the-followi-25ea0a87",
+   "stem": "Regarding the function of the pericardium, one of the following 1 statements is incorrect:",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-germinal-center-in-lymph-node-2a8628a2",
+   "stem": "Regarding the germinal center in lymph node:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-heart-choose-the-correct-answer-it-lies-in-the-c3cd415b",
+   "stem": "Regarding the heart, choose the correct answer: It lies in the middie mediastinum",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-heart-valves-the-following-statements-are-true-4070ac89",
+   "stem": "Regarding the heart valves, the following statements are true EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-heart-valves-which-of-the-followings-is-correc-af88156c",
+   "stem": "Regarding the heart valves, which of the followings is correct?",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-intercostal-arteries-one-is-ne-oo-1ec8d7e7",
+   "stem": "Regarding the intercostal arteries, one is ne oo!",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-intercostal-nerve-mark-one-correct-statement-39200e19",
+   "stem": "Regarding the intercostal nerve, mark ONE correct statement:",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-ionic-basis-of-action-potential-in-cardiomyocy-5f570010",
+   "stem": "Regarding the ionic basis of action potential in cardiomyocytes, which is incorrect?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-isovolumetric-contraction-phase-of-cardiac-cyc-325b52a8",
+   "stem": "Regarding the isovolumetric contraction phase of cardiac cycle, what happens?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-left-coronary-artery-all-the-followings-are-tr-d0a150af",
+   "stem": "Regarding the left coronary artery, all the followings are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-lungs-all-the-following-statements-are-true-ex-1bfb9298",
+   "stem": "Regarding the lungs, all the following statements are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-lungs-the-following-statements-are-correct-exc-e8f3c3d0",
+   "stem": "Regarding the lungs, the following statements are correct EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-lymphatic-capillaries-choose-the-correct-state-6e9870ae",
+   "stem": "Regarding the lymphatic capillaries, choose the correct statement:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-metarterioles-the-following-are-correct-f3764004",
+   "stem": "Regarding the metarterioles, the following are correct:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-mononuclear-phagocytic-system-0c3848e5",
+   "stem": "Regarding the mononuclear phagocytic system:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Macrophage system",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-movements-of-respiration-all-the-followings-st-101c31bf",
+   "stem": "Regarding the movements of respiration, all the followings statements are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-pericardium-of-the-heart-following-statements-75dfa8a4",
+   "stem": "Regarding the pericardium of the heart, following statements a “ correct, EXCEPT: ; |",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-pericardium-the-following-statements-are-corre-1ceda27b",
+   "stem": "Regarding the pericardium, the following statements are correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-pleura-all-the-following-statements-are-true-e-1968aabb",
+   "stem": "Regarding the pleura, all the following statements are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-posterior-mediastinum-one-of-the-followings-is-de5b0b34",
+   "stem": "Regarding the posterior mediastinum, one of the followings is true: a Bounded posteriorly by thoracic vertebrae from T2 to T10",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-ribs-one-of-the-following-statements-is-wrong-1d20d8ae",
+   "stem": "Regarding the ribs; one of the following statements is wrong: _",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-right-atrium-the-following-statements-are-corr-14b9deef",
+   "stem": "Regarding the right atrium, the following statements are correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-right-ventricle-the-following-statements-are-c-145cd774",
+   "stem": "Regarding the right ventricle, the following statements are correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-suprapleural-membrane-all-the-following-statem-c8caf1dc",
+   "stem": "Regarding the suprapleural membrane, all the following statements are true, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-thoracic-part-of-the-sympathetic-trunk-select-68a233e6",
+   "stem": "٠١ Regarding the thoracic part of the sympathetic trunk; select the wrong answer: 8 : . a~ It leaves the thorax by passing behind the medial arcuate ligament of ١ diaphragm. ‏د‎ ْ ْ",
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-thoracic-skeleton-the-following-statements-are-62092e50",
+   "stem": "Regarding the thoracic skeleton, the following statements are Correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-trachea-choose-the-correct-answer-it-begins-at-37d26b3d",
+   "stem": "Regarding the trachea, choose the correct answer: @ It begins at the level of the lower border of C6",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722",
+   "stem": "Regarding the trachea, choose the correct statement: . : a, It contains incomplete rings of fibrocartilage. >",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-trachea-in-thorax-the-following-statements-are-9cd4602d",
+   "stem": "Regarding the trachea in thorax, the following statements are Correct, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-vagus-nerves-in-th-are-correct-ex-cep-e-thorax-24f7f721",
+   "stem": "regarding the vagus nerves in th ١ are correct, EX cep: e thorax, the following statements T",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-wall-of-blood-vessels-internal-elastic-lamina-41190697",
+   "stem": "Regarding the wall of blood vessels, Internal elastic lamina (IEL) is prominent in:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-the-xiphoid-process-of-the-sternum-choose-the-corr-e1b90732",
+   "stem": "' Regarding the xiphoid process of the sternum, choose the. correct answer:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-thymus-gland-it-is-i-16460019",
+   "stem": "Regarding thymus gland, It is: i",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "regarding-vasa-vasorum-1-48262f8b",
+   "stem": "Regarding vasa vasorum: 1",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "regional-enlargement-of-lymph-nodes-may-be-due-to-a-inflamma-5fbbc1b0",
+   "stem": "Regional enlargement of lymph nodes may be due to: ‎a. Inflammation of the part of the body drained by these lymph nodes. |",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "regions-at-chromosomal-ends-protecting-from-destruction-are-b239ba2e",
+   "stem": "Regions at chromosomal ends protecting from destruction are ..---+",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "relaxation-asaction-potential-ends-j-ca-release-calcium-is-r-4f27e09d",
+   "stem": "Relaxation: ٠ Asaction potential ends>J Ca++ release. ٠ Calcium is removed from cytoplasm via:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "respiratory-portions-for-aeb43c04",
+   "stem": "respiratory portions for",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Gas exchange in the lung",
+   "timesAsked": 1
+  },
+  {
+   "key": "secretion-of-the-following-hormones-is-increased-during-hemo-62b59647",
+   "stem": "Secretion of the following hormones is increased during hemorrhagic shock, except:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "select-the-correct-statement-about-o-transport-in-the-blood-3533ae13",
+   "stem": "Select the correct statement about O, transport in the blood:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "septum-secondume-439a3b74",
+   "stem": "Septum secondume ١",
+   "subject": "Anatomy",
+   "chapter": "Development of the Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "sinusoidal-capillary-blood-sinusoid-is-characterized-by-e2000dcb",
+   "stem": "Sinusoidal capillary (blood sinusoid) is characterized by:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "spontaneous-respiration-ceases-after-7ab1a72f",
+   "stem": "Spontaneous respiration ceases after:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "starling-forces-of-bulk-flow-include-all-of-the-following-ex-84983327",
+   "stem": "Starling forces of bulk flow include all of the following Except:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "starling-s-law-of-the-heari-states-that-the-strength-of-cont-e7fa67a6",
+   "stem": "Starling’s law of the heari states that the strength of contraction is proportional to which of the following?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "sternopericardial-ligaments-04ae54f1",
+   "stem": "Sternopericardial ligaments,",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "stimulation-of-angiotensin-ii-receptors-at-2-produce-a2994df9",
+   "stem": "Stimulation of angiotensin II receptors AT-2 produce:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "stimulation-of-arterial-baroreceptors-causes-all-except-aafa1ea1",
+   "stem": "Stimulation of arterial baroreceptors causes all, Except:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "stroke-volume-reserve-sv-7-from-70-up-to-200-ml-during-max-e-64548dbe",
+   "stem": "Stroke volume reserve ٠ SV: 7 from 70 up to 200 ml during max. exercise via",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "structural-aberrations-include-9c106da4",
+   "stem": "Structural aberrations include:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Chromosomal Aberrations (Abnormalities)",
+   "timesAsked": 1
+  },
+  {
+   "key": "structures-passing-between-arch-0-pene-a-and-pulmonary-trunk-c8fde235",
+   "stem": "Structures passing between arch - 0 pene a and pulmonary trunk, mark",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "subcostal-arteries-regarding-the-beginning-of-arch-of-aorta-7d074006",
+   "stem": "Subcostal arteries Regarding the beginning of arch of aorta, choose the correct answer:",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "submetacentric-chromosome-is-characterized-by-the-centromere-c32da786",
+   "stem": "Submetacentric chromosome is characterized by the centromere:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "superior-cervical-cardiac-branch-of-left-vagus-66af8666",
+   "stem": "Superior cervical cardiac branch of left vagus",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "sympathetic-stimulation-of-which-vessels-cause-the-greatest-30d5bfc3",
+   "stem": "Sympathetic stimulation of which vessels cause the greatest increase in total peripheral resistance?",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "systolic-pressure-in-right-ventricle-is-84464eed",
+   "stem": "Systolic pressure in right ventricle is:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "t-waye-is-inverted-in-a-muscular-exercise-be27b8b3",
+   "stem": "'T waye is inverted in: a, muscular exercise. |",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "that-capillaries-can-withstand-high-internal-pressures-witho-57d4fc14",
+   "stem": "That capillaries can withstand high internal pressures without bursting is explained using: = a. Bernoulli’sprinciple",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-absolute-refractory-period-in-the-ventricles-dcf3f403",
+   "stem": "The absolute refractory period in the ventricles :",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-absolute-refractory-period-of-cardiac-muscle-a-coincides-e08a585f",
+   "stem": "The absolute refractory period of cardiac muscle ' . a, Coincides with total duration of action potential |",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-activity-of-the-central-chemoreceptors-is-stimulated-by-6197201c",
+   "stem": "The activity of the central chemoreceptors is stimulated by: a, An increase in the PCO, of blood flowing through the brain",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-activity-of-the-central-chemoreceptors-is-stimulated-by-bd93fcab",
+   "stem": "The activity of the central chemoreceptors is stimulated by: —",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-angiotensin-converting-enzyme-ace-tepref-is-normally-abs-ad4a1b73",
+   "stem": "The angiotensin converting enzyme (ACE): tePref Is normally absent in the pulmonary endothelial celts",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-aortic-opening-of-the-diaphragm-transmits-thoracic-duct-cf25e6b5",
+   "stem": "The aortic opening of the diaphragm transmits: | @ Thoracic duct novia ae",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-apex-of-the-heart-is-normally-located-at-the-8b396c0d",
+   "stem": "The apex of the heart is normally located at the:",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-atrio-ventricular-valves-a-have-three-cusps-for-each-val-74e93b22",
+   "stem": "The atrio-ventricular valves : a.have three cusps for each valve",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f",
+   "stem": "The autonomic plexus of the oesophagus, indicate the correct statement:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-basic-rhythm-of-respiration-is-generated-by-neurons-loca-4d2b32e9",
+   "stem": "The basic rhythm of respiration is generated by neurons located in the medulla. Which of the following can limit the duration of inspiration? ‏لم‎ Apneustic center. - Dorsal respiratory group. ‏مه‎ Pneumotaxic center",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Control of Respiration",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-basic-rhythm-of-respiration-is-generated-by-neurons-loca-dbed56b4",
+   "stem": "The basic rhythm of respiration is generated by neurons located in the medulla. Which of the ‘following can limit the duration of inspiration?",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Control of Respiration",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-blood-thymic-barrier-is-achieved-by-the-following-b845a999",
+   "stem": "The blood thymic barrier is achieved by the following:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-capillaries-can-withstand-high-internal-pressure-without-75f7a208",
+   "stem": "The capillaries can withstand high internal pressure without bursting is explained by using:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-cause-of-compensatoryhyperventilation-in-metabolic-acido-d0688695",
+   "stem": "The cause of compensatoryhyperventilation in metabolic acidosis is: tral ehemoree pis",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-caval-opening-of-the-diaphragm-lies-at-the-level-of-a-ti-71665abc",
+   "stem": "The caval opening of the diaphragm, lies at the level of: . ‘a. TIO 155 ¢. T6 . i",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-cell-division-occurring-in-somatic-cells-is-characterize-6fcc3694",
+   "stem": "The cell division occurring in somatic cells is characterized by:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-chromosomal-microtubules-of-the-mitotic-spindle-bc625da2",
+   "stem": "The chromosomal microtubules of the mitotic spindle",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-chromosome-with-centromere-at-its-center-is-known-as-884d1186",
+   "stem": "The chromosome with centromere at its center is known as:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-diagram-above-shows-three-different-compliance-curves-s-e04b57fc",
+   "stem": "The diagram above shows three different compliance curves (S, T, and U) for isolated lungs subjected to various transpulmonary pressures. Which of the following best describe the relative compliances for the three curves?",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-distensibility-of-the-veins-is-more-than-the-of-arteries-4051477c",
+   "stem": "The distensibility of the veins is more than the of arteries by:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-14f45925",
+   "stem": "The exploring electrode of V1 of unipolar chest leads of ECG is placed at: a",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-fc99a24d",
+   "stem": "The exploring electrode of V1 of unipolar chest leads of ECG is placed at:",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-first-part-of-the-respiratory-tract-containsnon-ciliated-fdc3a214",
+   "stem": "The first part of the respiratory tract containsnon-ciliated cells is:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-are-a-parts-of-the-conductive-system-of-the-he-98ca9ab2",
+   "stem": "The following are a parts of the conductive system of the heart, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-are-parts-of-the-conductive-system-of-the-hear-baaf7de3",
+   "stem": "The following are parts of the conductive system of the heart, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-cell-is-considered-as-a-stem-cell-1-a2296218",
+   "stem": "The following cell is considered as a stem cell: 1",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-data-are-obtained-from-a-patient-connected-to-208204d2",
+   "stem": "The following data are obtained from a patient connected to a monitor: Arterial systolic blood pressure 122 mmHg Arterial diastolic blood pressure 70 mmHg Central venous pressure 2 mmHg Cardiac output (COP) 5000ml/min Heart Rate (HR) 1 100 beats/min From these data, one can determine that the:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-data-are-obtained-from-a-patient-connected-to-4207d8b0",
+   "stem": "The following data are obtained from a patient connected to a monitor: ystolic blood pressure = 120 mmHg; Diastolic blood pressure = 70 mmHg Central venous pressure = 2 mmHg; Heart Rate (HR) = 100 beats/min Cardiac output (COP) = 6000mI/min; From these data, one can determine that the:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-data-are-obtained-from-a-patient-the-end-diast-40b0894f",
+   "stem": "The following data are obtained from a patient: The end diastolic volume 130 ml, the end systolic volume 70ml and the cardiac output 4800ml/min. From these data, ‏صف عصه‎ determine that the heart rate equals: 1",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-data-are-obtained-from-a-patient-the-end-diast-70439a00",
+   "stem": "The following data are obtained from a patient: The end diastolic volume 120 ml, the end systolic volume 70ml and the cardiac output 4500ml/min. From these data, one can determine that the heart rate equals:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-is-a-difference-between-medium-sized-artery-an-e8d4f013",
+   "stem": "The following is a difference between medium sized artery and vein: ‏ا‎ ‎a. Tunica intima is thin in medium sized artery and not in same sized vein. |",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-is-not-a-part-of-the-blood-air-barrier-92786e33",
+   "stem": "The following is NOT a part of the blood air barrier:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-physiological-events-are-in-a-random-sequence-fe3ca507",
+   "stem": "The following physiological events are in a random sequence, which is the usual sequence?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-following-structure-is-present-in-the-cavity-of-the-righ-879bc218",
+   "stem": "The following structure is present in the cavity of the right ventricle: a crista terminalis",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-function-of-the-av-node-is-to-a-excite-the-left-and-righ-00f4d17c",
+   "stem": "The function of the AV node is to: a, Excite the left and right atrium",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-function-s-of-the-endothelial-cells-is-are-12d25892",
+   "stem": "The function/s of the endothelial cells is/are:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-groove-of-the-oesophagus-8-d-the-groove-for-superior-ver-5014c403",
+   "stem": "The groove.of'the oesophagus 8 d, The groove for ‘Superior vera. cava 9 The lower margin of the jung cuts the following rib in the midaxillary line: : Oly | & 19% 0, 2# ‏ا‎ 1 2©(( A 51-year-old male was admitted to the hospital with severe dyspnea. Radiographic examination revealed a tension pneumothorax. Adequate local anesthesia of the chest wall prior to insertion of a chest tube was necessary for pain control, Which of the following layers is the deepest that must be infiltrated with the local anesthetic to achieve adequate anesthesia?",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-haldane-effect-refers-to-460f3b00",
+   "stem": "The haldane effect refers to:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Gas Transport by the Blood",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-heart-continues-to-beat-regularly-this-property-is-calle-c007f068",
+   "stem": "The heart continues to beat regularly. This property is called:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-hemoglobin-oxygen-dissociation-curve-moves-up-and-to-the-58fa0d96",
+   "stem": "The hemoglobin-oxygen dissociation curve moves up and to the left with:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Gas Transport by the Blood",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-innermost-intercostal-musele-extends-from-sternal-margin-36e50e9b",
+   "stem": "The innermost intercostal musele extends from sternal margin to the tubercle of the rib. ‏ا‎ ‎3) Which of the following statements is incorrect.concerning the intercastal nerves? They Provide'motor itinervation to the peripheral parts of the-diaphyagm",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-internal-elastic-lamina-is-prominent-in-5830712a",
+   "stem": "The internal elastic lamina is prominent in:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-intrapleural-pressure-at-the-end-of-inspiration-is-9c8970b0",
+   "stem": "The intrapleural pressure at the end of inspiration is:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Organization of the Respiratory System",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-intrapleural-pressure-is-positive-in-90a4bb0f",
+   "stem": "The intrapleural pressure is positive in:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Organization of the Respiratory System",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-intraptoural-pressure-is-normally-negative-due-to-9-pres-f71a9c25",
+   "stem": "The intraptoural pressure is normally negative due to: ‘9. Presence of air inside the pleura. ‏لا‎ Tendency of the chest wail to expand. © Tendency of the chest wail to recoil. ‏لو‎ Tendency of the tung to expand, 81, Straining and vatsalva’s experiment shows:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-largest-portion-of-the-sternocostal-surface-of-the-heart-adb08495",
+   "stem": "The largest portion of the sternocostal surface of the heart is formed by the:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-left-coronary-artery-suppli-s-the-major-part-ofthe-inter-1025a972",
+   "stem": "The left coronary artery Suppliés:the major part ofthe interveritridular septum. : | .- The right atrium contains one of the following structures:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-left-coronary-flow-e45593b5",
+   "stem": "The left coronary flow:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "The heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-left-superior-intercostal-vein-crossas-superficial-to-th-51a6f7df",
+   "stem": "The left superior intercostal vein crossas superficial to the arch",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-left-vagus-nerve-passes-on-the-posterior-surface-of-the-f687f205",
+   "stem": "The left vagus nerve passes on the posterior surface of the esophagus. : ١ Select the wrong statement regarding the phrenic nerves: 1 a- They supply the abdominal surface of the diaphragm. . 69 The left phrenic nerve passes through the vena caval opening of the diaphragm. ١ 1",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-lesser-splanchnic-nerve-is-formed-by-which-of-the-follow-4bc279ae",
+   "stem": "The lesser splanchnic nerve is formed by which of the following sympathetic nerves? ol a~ T5-T7 . ‏-ط‎ T8-T9 ١ . )T9-T10 ,",
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-lining-epithelium-of-trachea-is-5ce8b069",
+   "stem": "The lining epithelium of trachea is:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-lymphatic-organ-containing-littoral-macrophage-cells-is-00df2662",
+   "stem": "The lymphatic organ containing Littoral macrophage cells is: |",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-main-feature-of-basilar-artery-is-c2068f7e",
+   "stem": "The main feature of basilar artery is:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-main-feature-of-basilar-artery-is-prominent-3b70a70a",
+   "stem": "The main feature of basilar artery is prominent:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-main-site-of-r-sistance-in-the-systemic-circulation-is-a-63db5055",
+   "stem": "The main site of résistance in the systemic circulation is: ‏كك‎ Aorta ١ _ b- The big arteries",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-mechanisms-that-lower-free-sarcoplasmic-ca-produce-relax-c00ecede",
+   "stem": "The mechanisms that lower free sarcoplasmic Ca & produce relaxation of cardiac muscle are all except:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-mediastinal-surface-of-the-left-lang-shows-an-impression-24a9bb35",
+   "stem": "The mediastinal surface of the left lang shows an impression for one of the following 7",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-muscles-and-cartilages-of-the-larynx-are-derived-embryol-77635214",
+   "stem": "The muscles and:cartilages of the larynx are derived embryologically from:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-nasolacrimal-duct-op-15-1110-a-superior-1-5-101016-meatu-f0a63404",
+   "stem": "The nasolacrimal duct op 15 1110 a Superior 1 5 101016 meatus , 1 02101 1+ 1 ‏ا ل‎ 11010616 6 1 rises trom 00 ntercostal artery andi descenGging aorta ٠ Hil 1 1101 uy ‘ opens teu Anary Any a ine interior vena cat - Perio: / ' 11 1 Whi li ONCHTS' ie : Swine o WN ne Bees PES sae ee eH ee §-Coucermng ieee SEAL Tee), one is: corree!: : 1 ‏عاريلا‎ 00101111 010 Re ase pailachMent tO ME Heche ‏عن‎ Beaman enran 1 has phe °F : i 4nd backwards. 5 qi the aZzyee\" rca AN +? Slow the right main bronchy: diagtinum bothe nen Serb ae Vein: Wein the tubal layer.ob nf aoa ©) The tra: Hes 110 0500 SUS Crossed anteriorly, by tie: ~ frat first COstal cartilape 0 the stipe att 1 161 SS ithe} ZY 015 vein ab tit : ‏بن‎ Which ofthe following <j: tements about iheanatomy © {he toy oie fe) Has'aconstnction atits beginning 175 eat mupp mriteks! it begins at the level of 74 ‏ل‎ tis about 10cin lone i WOTOBES: B TS anterior siirface. 5 shallow ‏دود‎ Stas ‏جد ال‎ si 0 ‘lsanterior border has ac diac notch 5 Bounded 'posteric ry iby ioracic yeriebae trom: 12 to T10 5 ibcontains helen principal bronchus ©) itis related below ta thé ‘diaphr tune 0 Tcontains the bevinningwofihe 5001101110 14 Ifa child intiates by mistake a foreien body, it-will Dass to th b 9511011 verucaL ind narrower 0 Longer narrower and! oblique: | Ns The arterial supply of telat yr oid artery 0 8 Superior laryngeal ‏ا‎ ‎0. Suprahyoid artery fron lingual aE | INE ‘the following structor pes inte superion meatus; ae a Maxillary air sinus 0 © Posterior ethmoidal air sints 0 Frontal air sinus 0 ْ Yr Concerning the diaphragm, seléct the tru statements ee 4 Receives a necye supply from both the phrenic and intercostal Hehe ‏ا‎ ‎0 An opening in the right crus transmits the inferior Vera ‏ا‎ Lo a ee C 4 The aorta passes through the diaphragm behind the lateral arcuate ligament: . 18- At what leyel does thetracheasplitinfothemain bronchi? ‏ع 2 ب ب‎ ‏ا‎ a Atthe level of the transvers plane that passes through the body of the sixth cervical 5 | ‘vertebra ; Be 4 she bo At the’level of the transvers plane that passes through the body of the sixth thoracic 5 Sq. Abithe level ‏كه‎ the trinsvers plane that passes through (he thoracie inlet Postenoptotiesternalangle if AoThe thoracic part of tracheais related posteriorly to thee phagus with the follows: Pe Right rectirent laryngeal nerve, mi ‘4 ‘eft reourrentlaryngedi nerve 2000 6 Superior laryngeal nee, fd Tntemal laryngedl nerve . @! ternal intercostal miscle has fibres directed ‏ىن‎ 1 ْ ® Nolrovascular bundlerins between the inter downwards and forwards, H Posterior inlecmialaneies suinpiving 1 ‏لاله‎ external intetcostal mucste i... a Allanteior eee ‏ا‎ Sipplying the fret two spaces arise 1 costal muscle layers / mi Veins drain directly into the internal thorns Me descending aorta Fae ot noua arteries: One is trues see ee OOS Fee ny re lal artery Fe te sSurichtsubslegs ey, 0 THELEN Ss fom de Sie subelavian artery, > Sending thoracic aorta 1 i ae ‏بحم ا رود اوور‎ ean 1 0 : ae eon > @ the osophoas : = ¢ The inferior vena cava ae We",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-opening-of-the-inferior-vena-cava-is-guarded-on-its-righ-760729ed",
+   "stem": "The Opening of the inferior vena cava Is guarded on its right side by a rudimentary valves :",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-oxyhemoglobin-dissociation-curve-fa89718b",
+   "stem": "The oxyhemoglobin dissociation curve:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-palatine-tonsil-is-characterized-by-c790a1a2",
+   "stem": "The palatine tonsil is characterized by:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Tonsils",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-paracortex-of-the-lymph-node-is-characterized-by-d7159f87",
+   "stem": "The paracortex of the lymph node is characterized by:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-parasympathetic-root-of-the-superficial-cardiac-plexus-o-d9fa56cb",
+   "stem": "The parasympathetic root of the superficial cardiac plexus of the heart arises form: |",
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-plasticity-of-the-urinary-bladder-is-explained-by-8bf89a19",
+   "stem": "The plasticity of the urinary bladder is explained by:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-poiseuille-law-is-concerned-with-which-of-the-following-501dd5db",
+   "stem": "The Poiseuille law is concerned with which of the following factors:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-pressure-in-a-blood-vessel-at-which-flow-ceases-is-calle-debc097f",
+   "stem": "The pressure in a blood vessel at which flow ceases is called:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-pressure-volume-curve-of-veins-has-the-following-criteri-0f33e8a9",
+   "stem": "The pressure-volume curve of veins has the following criteria:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-primary-lymphatic-organs-include-1a970a71",
+   "stem": "The primary lymphatic organs include:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-pulmonary-valve-sound-is-best-heard-at-07398a71",
+   "stem": "The pulmonary valve sound is best heard at: :",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-pulmonary-valve-sound-is-best-heard-at-indicate-the-corr-22983fbe",
+   "stem": "The pulmonary valve sound is best heard at; indicate the correct answer:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-resistance-of-the-lungs-to-inflation-is-increase-by-ee943cea",
+   "stem": "The resistance of the lungs to inflation is increase by:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-respiratory-center-includes-a-inspiratory-neurons-that-a-782073f6",
+   "stem": "The respiratory center includes: a, inspiratory neurons that are present in the medulla",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Control of Respiration",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-right-atrium-contains-one-of-the-following-structures-3caca180",
+   "stem": "The right atrium contains one of the following structures:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-right-pherinic-nerve-descends-along-venous-structures-re-be08db11",
+   "stem": "The right pherinic. nerve descends along venous structures. : - Regarding the contents of the superior mediastinum, one of the following statements is incrorrect: 3",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-right-phrenic-nerve-scleet-the-rarrest-anewer-xa-arises-286764db",
+   "stem": "The right phrenic nerve, scleet the rarrest anewer: Xa- Arises from T3, 4 and 5",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-right-primary-bronchus-b28ae5ea",
+   "stem": "The right primary bronchus",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-right-ventricle-contains-all-the-following-structures-ex-71e6d172",
+   "stem": "The right ventricle contains all the following structures, EXCEPT:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-s-a-node-is-situated-in-the-wall-of-right-atrium-in-fron-b11855b9",
+   "stem": "The S.A node is situated in the wall of right atrium in front of the opening of LV.C",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-se-ieleted-thoracic-ther-select-the-incorrect-statement-3d2d92df",
+   "stem": "The se ieleted thoracic ther select the incorrect statement:",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-secondary-lymphatic-nodules-of-lymph-node-have-center-ss-2b71e601",
+   "stem": "The secondary lymphatic nodules of lymph node have: ‏يك‎ center SS Only T lymphocytes",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-structural-changes-that-occur-in-the-respiratory-airway-14592311",
+   "stem": "The structural changes that occur in the respiratory airway is characterized by:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-superior-vena-cava-choose-the-true-answer-27315868",
+   "stem": "The superior vena cava, choose the true answer:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-superior-vena-cava-choose-the-trueanswer-9b5d0624",
+   "stem": "The superior vena cava, choose the trueanswer:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-supernormal-period-of-cardiomyocyte-action-potential-tha-8b25e4ca",
+   "stem": "The supernormal period of cardiomyocyte action potential that many cardiac arrhythmias can be initiated during:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-tendency-for-blood-flow-to-be-turbulent-is-increased-by-19fbd049",
+   "stem": "The tendency for blood flow to be turbulent is increased by 1",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-thymus-dependent-zone-of-the-spleen-is-the-06-of-eb84e27a",
+   "stem": "The thymus dependent zone of the spleen is the ...............+06. Of ‘",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-total-amount-of-air-that-does-not-undergo-gas-exchange-b-16470694",
+   "stem": "The total amount of air that does not undergo gas exchange because of alveolar disease in addition to the air that cannot reach the alveoli is termed:",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-type-of-capillaries-that-show-pores-and-diaphragms-is-0586b4be",
+   "stem": "The type of capillaries that show pores and diaphragms is:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-vasa-vasorum-are-d41dcc76",
+   "stem": "The vasa vasorum are:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-68b1dda6",
+   "stem": "The velocity of shortening of cardiac muscle is decreased by:",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-f3398b36",
+   "stem": "The velocity of shortening of cardiac muscle is decreased by: tePref ‏له‎ Increased the preload",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-wall-of-aorta-shows-ea35f5ef",
+   "stem": "The wall of aorta shows:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-wall-of-contains-40-70-fenestrated-elastic-membranes-1f8c5d6d",
+   "stem": "The wall of........ contains 40-70 fenestrated elastic membranes",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "the-wall-of-inferior-vena-cava-contains-5098daea",
+   "stem": "The wall of inferior vena cava contains",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "the-work-performed-by-left-ventricle-is-greater-than-that-pe-eec8e8ca",
+   "stem": "The work performed by left ventricle is greater than that performed by right ventricle because a, The wall is thicker",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "they-contain-sympathetic-fibers-to-innervate-the-vascular-sm-7c7370f6",
+   "stem": "‘They contain sympathetic ‘fibers to innervate the vascular smodth muscle : © ١ Regarding the external intercostal muscle choose the correct answer: oo",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "they-unite-together-to-form-the-s-v-c-behind-the-lower-borde-db9d8d9d",
+   "stem": "They unite together to form the S.V.C behind the lower border of the 1* right 8 costal cartilage",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "thin-walled-capillaries-donot-burst-when-intracapillary-pres-286420f9",
+   "stem": "Thin walled capillaries donot burst. when intracapillary pressure is increased within physiologic limits because:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "thoracic-duct-cf78466b",
+   "stem": "thoracic duct",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "thorax-all-are-true-except-88af29b9",
+   "stem": "Thorax; all are true except:",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "thymic-epithelial-cells-epithelial-reticular-cells-are-e7482bae",
+   "stem": "Thymic epithelial cells (epithelial reticular cells) are:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Thymus",
+   "timesAsked": 1
+  },
+  {
+   "key": "thymus-dependent-zone-of-the-spleen-is-present-at-i-8fce8aab",
+   "stem": "Thymus dependent zone of the spleen is present at: i",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "thymus-dependent-zones-in-lymph-node-spleen-are-respectively-3b5cbb99",
+   "stem": "Thymus dependent zones in lymph node & spleen are....... & ...... | respectively:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "thymus-dependent-zones-in-the-lymph-node-spleen-are-respecti-0c5ecaaa",
+   "stem": "Thymus dependent zones in the lymph node & spleen are........ | &..;...... respectively: |",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Spleen",
+   "timesAsked": 1
+  },
+  {
+   "key": "transection-between-medulla-oblongata-and-upper-border-of-sp-d728ec2a",
+   "stem": "Transection between medulla oblongata and upper border of spinal cord causes:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "tunica-adventitia-of-arteries-constitutes-the-following-e4d71a3b",
+   "stem": "Tunica adventitia of arteries constitutes the following:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "tunica-media-of-vein-is-typically-wider-than-tunica-media-of-1c2af8e7",
+   "stem": "Tunica media of vein is typically wider than tunica media of artery",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe",
+   "stem": "Turbulence is almost always present when Reynolds number is more than:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "turbulent-blood-flow-has-the-following-criteria-it-is-silent-3f05fdaa",
+   "stem": "Turbulent blood flow has the following criteria: ‏ظ‎ ‏حه‎ It is silent flow |",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "type-i-pneumocytes-are-characterized-by-a348c670",
+   "stem": "Type I pneumocytes are characterized by:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "union-of-the-two-brachiocephalic-veins-to-form-the-superior-b04d3403",
+   "stem": "Union of the two brachiocephalic veins to form the Superior vena cava occurs behind the following level: @Ist right costal cartilage",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "using-specific-chemical-chromatids-are-stopped-from-separati-796779b2",
+   "stem": "Using specific chemical chromatids are stopped from separating during mitosis at:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "vasa-vasorum-c6082c8b",
+   "stem": "Vasa vasorum:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "venous-return-is-enhanced-during-exerciseby-eb2e3ff5",
+   "stem": "Venous return is enhanced during exerciseby: ===",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "visceral-capillaries-are-characterized-by-the-following-0999435e",
+   "stem": "Visceral capillaries are characterized by the following:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "vital-capacity-e6eee7c9",
+   "stem": "Vital capacity:",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "what-fraction-of-total-blood-volume-is-present-in-the-capill-f9b7cdfa",
+   "stem": "What fraction of total blood volume is present in the capillaries at any given time?",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "what-is-the-anterior-relation-of-the-thoracic-part-of-the-tr-88a094cc",
+   "stem": "What is the anterior relation of the thoracic part of the trachea? | a- Thoracic duct",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "what-is-the-effect-of-sympathetic-stimulation-on-the-heart-836e2203",
+   "stem": "What is the effect of sympathetic stimulation on the heart?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "what-is-the-effect-of-sympathetic-stimulation-on-the-membran-6c7c92a3",
+   "stem": "What is the effect of sympathetic stimulation on the membrane potential of the SA node?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "what-is-the-expected-complication-of-blocking-a-lober-bronch-b6589629",
+   "stem": "What is the expected complication of blocking a lober bronchus _Lung abcess, segment collapse. vss Il) A man with stab wound in the 4\" left intercostals space induced accumulation of blood in the pericardial cavity",
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "what-is-the-important-function-of-cardiac-purkinje-system-3132c9a7",
+   "stem": "What is the important function of cardiac Purkinje system?",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "what-s-the-correct-definition-of-cardiac-output-f23eae83",
+   "stem": "What's the correct definition of cardiac output?",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "what-type-of-tissue-forms-the-alveoli-in-the-lung-44df5f2e",
+   "stem": "What type of tissue forms the alveoli in the lung?",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "what-type-of-tissues-lines-the-paranasal-sinuses-i-f4430a68",
+   "stem": "What type of tissues lines the paranasal sinuses: i",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "what-type-of-tissues-lines-the-paranasalsinuses-65393ccf",
+   "stem": "What type of tissues lines the paranasalsinuses:",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Conducting Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "what-would-be-the-change-in-blood-flow-to-a-tissue-if-radius-98cfcd7f",
+   "stem": "What would be the change in blood flow to a tissue if radius of the arterioles in that tissue is doubled and perfusion pressure is halved? a, Increase 8 times",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "when-chromosome-divides-transversely-at-centromere-it-result-3596a2fe",
+   "stem": "When chromosome divides transversely at centromere, it results in:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "when-the-chromosome-divides-transversely-during-anaphase-0536de99",
+   "stem": "When the chromosome divides transversely during anaphase:",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Cell Division",
+   "timesAsked": 1
+  },
+  {
+   "key": "when-the-radius-of-the-resistance-vessels-is-increased-which-ec5ad2d0",
+   "stem": "When the radius of the resistance vessels is increased, which of the following is increased?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "where-do-t-lymphocytes-acquire-their-immunocompetence-7eafb30a",
+   "stem": "Where do T-lymphocytes acquire their immunocompetence?",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-cell-considered-as-a-part-of-the-phagocytic-system-325b83f1",
+   "stem": "Which cell considered as a part of the phagocytic system:",
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "leaf": "Lymph node",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-disease-increase-lung-compliance-a-emphysema-572250fc",
+   "stem": "Which disease increase lung compliance: ‏ظ‎ ‎a- Emphysema",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-disorder-decreases-the-chest-compliance-a178c097",
+   "stem": "Which disorder decreases the chest compliance:",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-ef-the-following-are-muscles-of-inspiration-0eea2c0f",
+   "stem": "Which ef the following are muscles of inspiration?",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-are-called-capacitance-vessels-that-h-06f1d3bd",
+   "stem": "Which of the following are called capacitance vessels that having most of the blood volume?",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Veins",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-are-muscles-of-inspiration-5936e8bb",
+   "stem": "Which of the following are muscles of inspiration?",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-bronchi-is-called-the-eparterial-bron-cfa0e534",
+   "stem": "٠ Which of the following bronchi is called the eparterial bronchus?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-can-stop-normal-inspiration-and-start-9d7e98d1",
+   "stem": "Which of the following can stop normal inspiration and start expiration?",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Control of Respiration",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-ceils-produce-surfactant-in-lung-alve-ab6f6f5b",
+   "stem": "Which of the following ceils produce surfactant in lung alveoli?",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-cells-produce-surfactant-in-lung-alve-0ed7b354",
+   "stem": "Which of the following cells produce surfactant in lung alveoli?",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Respiratory Portion",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-characteristic-are-helpful-in-differe-90dd02ea",
+   "stem": "Which of the following characteristic are helpful in differentiating between cervical and lumbar vertebra:",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-conditions-would-lixely-increase-the-bf2e2eaa",
+   "stem": "Which of the following conditions would lixely increase the preload?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-decreases-the-myocardial-contractilit-5280d5ef",
+   "stem": "Which of the following decreases the myocardial contractility?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-describes-the-pulse-pressure-212b2ae7",
+   "stem": "Which of the following describes the pulse pressure?",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-discharge-spontaneously-during-quiet-b30226e7",
+   "stem": "Which of the following discharge spontaneously during quiet breathing? ‏ا‎ ‎a- Stretch receptors ‏ا 18 ا‎",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-discharge-spontaneously-during-quist-89974900",
+   "stem": "Which of the following discharge spontaneously during quist breathing?",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-discharges-s-8-1-receptort-fa-ling-be-5358ae60",
+   "stem": "Which of the following discharges s 8 1 | | ‏يه‎ receptort fa ling Bes spontaneously during quiet breathing? |",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Control of Respiration",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-discharges-spontaneously-during-quiet-20ea9248",
+   "stem": "Which of the following discharges spontaneously during quiet breathing?",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-events-of-cardiac-myocyte-action-pote-3a3be2b8",
+   "stem": "Which of the following events of cardiac myocyte action potential is correctly described? . : : 1",
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-factors-helps-venous-return-2fb446fd",
+   "stem": "Which of the following factors helps venous return?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-happens-during-atrial-systole-of-the-2beef02f",
+   "stem": "Which of the following happens during atrial systole of the cardiac cycle?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-happens-during-rapid-ejection-phase-o-239e492b",
+   "stem": "Which of the following happens during rapid ejection phase of the cardiac cycle? ‏م‎ Ventricular volume increases rapidly",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-has-negative-chronotropic-effect-e351e202",
+   "stem": "Which of the following has negative chronotropic effect?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-has-the-slowest-rhythmicity-in-the-au-e06c2b37",
+   "stem": "Which of the following has the slowest rhythmicity in the automatic cardiac tissue?",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-associated-with-a-decrease-in-card-e182b510",
+   "stem": "Which of the following is associated with a decrease in cardiac output?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-characteristic-about-the-conductin-c32dcb44",
+   "stem": "which of the following is characteristic about the conducting system of the heart:",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-considered-a-positive-inotropic-me-b253c08c",
+   "stem": "Which of the following is considered a \"Positive inotropic mechanism\"?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Mechanical Properties of Cardiac Muscle",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-correct-0954638f",
+   "stem": "Which of the following is correct?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Special Circulation",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-correct-as-regards-excitation-cont-75256009",
+   "stem": "Which of the following is correct as regards excitation-contraction coupling of cardiac myocyte?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-correct-as-regards-na-ca-exchanger-e0bfc7af",
+   "stem": "Which of the following is correct as regards Na+ - Ca++ exchanger?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-not-a-component-of-the-respiratory-40a9efde",
+   "stem": "Which of the following is NOT a component of the respiratory membrane? sti(‘S;SSS™~™~™~™”C™",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "A-V Connections",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-not-a-vasodilator-metabolite-8da91769",
+   "stem": "Which of the following is not a vasodilator metabolite?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Basic Mechanisms of Circulatory Control",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-not-true-regarding-the-aorta-0be21235",
+   "stem": "Which of the following is NOT true regarding the aorta:",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-the-normal-order-arrangement-of-ca-ae2b57bd",
+   "stem": "Which of the following is the normal order (arrangement) of cardiac cycle phases?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Cardiac Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-true-about-alveolar-macrophage-4147624c",
+   "stem": "Which of the following is true about alveolar macrophage?",
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "leaf": "Alveolar Phagocytes",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-is-true-for-barr-body-49c8ee45",
+   "stem": "Which of the following is true for Barr body?",
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "leaf": "Human Chromosome",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-maintain-the-ionic-concentrations-acr-20b74fb5",
+   "stem": "Which of the following maintain the ionic concentrations across the sarcolemma of cardiac myocytes?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-phases-shows-opening-of-delayed-recti-c2a9578e",
+   "stem": "Which of the following phases shows opening of delayed rectifying K+ channels and increased K+ conductance?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-phases-shows-the-opening-of-na-funny-a75f2e1d",
+   "stem": "Which of the following phases shows the opening of Na+ funny channels?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-statements-about-the-anatomy-of-the-e-4e1bfb55",
+   "stem": "Which of the following statements about the anatomy of the esophagus is correct?",
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-statements-about-the-anatomy-of-the-e-cf479e2a",
+   "stem": "Which of the following statements about the anatomy of the esophagus is correct? @ Has a constriction at its beginning 17 cm from upper incisor",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-statements-about-this-patient-is-most-b89bc455",
+   "stem": "Which of the following statements about this patient is most likely to be true? ْ",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-statements-is-incorrect-concerning-th-4c763ab1",
+   "stem": "Which of the following statements:is incorrect concerning the intercostal nerves? © They providemotor iinervation to the peripheral parts of the diaphyagm",
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f",
+   "stem": "Which of the following statements regarding the phrenic nerves is | true?",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-structures-lies-in-the-anterior-media-c8e9422d",
+   "stem": "Which of the following structures lies in the anterior mediastinum:",
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-structures-opens-into-the-left-atrium-b7f79dc7",
+   "stem": "Which of the following structures opens into the left atrium?",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-following-would-be-expected-during-brain-ischem-458ed3b2",
+   "stem": "Which of the following would be expected during brain ischemia?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-the-given-terms-is-defined-as-the-difference-betwee-e481ba38",
+   "stem": "Which of the given terms is defined as “the difference between the systolic and the diastolic pressures”?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Vascular Function",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-of-these-parts-of-vertebral-column-will-show-concavity-9dd268be",
+   "stem": "Which of these parts of vertebral column will show concavity back- wards in secondary curves: | ip. a- Cervical. | ‏شط‎ 0 b+ Thoracic. ) & Sacral",
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-one-can-increase-the-compliance-of-blood-vessels-3a01102d",
+   "stem": "Which one can increase the compliance of blood vessels",
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "leaf": "Pulmonary Compliance",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-one-of-the-following-is-the-correct-statement-regardin-c5bde64a",
+   "stem": "Which one of the following is the correct statement regarding coronary food flow?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-one-of-the-following-statements-about-the-medium-sized-9923d5d5",
+   "stem": "Which one of the following statements about the medium sized artery is true?",
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Arteries",
+   "timesAsked": 1
+  },
+  {
+   "key": "which-one-of-the-following-structures-leaves-an-impression-o-df903e92",
+   "stem": "Which one of the following structures leaves an impression on the mediastinal surfaces of both | | lungs? | (The oesophagus. |",
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "which-statement-about-hemoglobin-is-incorrect-e6822bc0",
+   "stem": "Which statement about hemoglobin is Incorrect?",
+   "subject": null,
+   "chapter": null,
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "why-the-na-funny-channels-are-called-hyperpolarization-activ-e6ee2d77",
+   "stem": "Why the Na+ funny channels are called \"Hyperpolarization-activated Cyclic Nucleotide-regulated channels\"?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "with-respect-to-tive-root-of-the-lefttung-one-s-incorrect-0fda734d",
+   "stem": "With respect to tive root of the lefttung, one {s incorrect:",
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "leaf": null,
+   "timesAsked": 1
+  },
+  {
+   "key": "wnicn-character-of-the-san-makes-it-the-normal-heart-s-pacem-4a072f34",
+   "stem": "wnicn character of the SAN makes it the normal heart's pacemaker?",
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "leaf": "Electrical Activity of the Heart",
+   "timesAsked": 1
+  },
+  {
+   "key": "yonduction-speed-is-slowest-in-the-a-sa-node-020f430f",
+   "stem": "Yonduction speed is slowest in the: | ’ a- SA node |",
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "leaf": null,
+   "timesAsked": 1
+  }
+ ],
+ "noMatchBySubject": {
+  "Histology": 159,
+  "Anatomy": 206,
+  "Physiology": 122,
+  "null": 43
+ },
+ "noMatchByChapterTop": [
+  {
+   "subject": "Physiology",
+   "chapter": "Cardiovascular System",
+   "count": 94
+  },
+  {
+   "subject": "Histology",
+   "chapter": "Cardiovascular System",
+   "count": 68
+  },
+  {
+   "subject": null,
+   "chapter": null,
+   "count": 43
+  },
+  {
+   "subject": "Histology",
+   "chapter": "Cytogenetics",
+   "count": 34
+  },
+  {
+   "subject": "Histology",
+   "chapter": "Lymphatic and Macrophage System",
+   "count": 32
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Heart",
+   "count": 31
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cage",
+   "count": 30
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Lungs",
+   "count": 29
+  },
+  {
+   "subject": "Physiology",
+   "chapter": "Respiratory System",
+   "count": 28
+  },
+  {
+   "subject": "Histology",
+   "chapter": "Respiratory System",
+   "count": 25
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Intercostal Spaces",
+   "count": 19
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Mediastinum",
+   "count": 18
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Large Tubes of the Thorax",
+   "count": 18
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "The Diaphragm",
+   "count": 12
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Thoracic Cavity",
+   "count": 11
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Large Arteries of the Thorax",
+   "count": 10
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Pericardium",
+   "count": 9
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Large Veins of the Thorax",
+   "count": 9
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Large Nerves of the Thorax",
+   "count": 7
+  },
+  {
+   "subject": "Anatomy",
+   "chapter": "Development of the Heart",
+   "count": 2
+  }
+ ]
+}
