@@ -40,14 +40,45 @@ export async function apiGet<T>(path: string): Promise<T> {
   return res.json() as Promise<T>
 }
 
+/**
+ * Above this many characters, a JSON body is worth gzipping before upload.
+ *
+ * The shared content documents are tens of megabytes (the question ledger alone
+ * is ~23 MB), and a save re-sends the whole document. Raw, that upload is the
+ * dominant cost of publishing — tens of seconds on an asymmetric connection,
+ * long enough that a reload before it finished dropped the write and the change
+ * looked like it reverted. Gzip shrinks it ~6× on the wire; body-parser inflates
+ * it server-side automatically. Small bodies are left alone: the compression
+ * would cost more than it saves.
+ */
+const GZIP_MIN_CHARS = 256 * 1024
+
+async function gzipBody(text: string): Promise<Blob> {
+  const stream = new Blob([text]).stream().pipeThrough(new CompressionStream('gzip'))
+  return await new Response(stream).blob()
+}
+
 export async function apiSend<T>(path: string, method: string, body?: unknown, keepalive = false): Promise<T> {
   // A file is sent as itself. Stringifying a Blob yields "{}", which is how an
   // upload silently becomes two bytes of nothing.
   const isBinary = typeof Blob !== 'undefined' && body instanceof Blob
+  const outgoing = await headers(!isBinary)
+  let payload: BodyInit | undefined = body == null ? undefined : isBinary ? (body as Blob) : JSON.stringify(body)
+  // Compress large JSON documents on the wire. `keepalive` requests are capped
+  // at 64 KB by the browser, so they never reach the threshold and are left as
+  // strings. Any failure falls back to the uncompressed body rather than losing
+  // the save.
+  if (typeof payload === 'string' && !keepalive && payload.length >= GZIP_MIN_CHARS && typeof CompressionStream !== 'undefined') {
+    try {
+      payload = await gzipBody(payload)
+      ;(outgoing as Record<string, string>)['Content-Type'] = 'application/json'
+      ;(outgoing as Record<string, string>)['Content-Encoding'] = 'gzip'
+    } catch { /* leave payload as the original JSON string */ }
+  }
   const res = await fetch(`${BASE}${path}`, {
     method,
-    headers: await headers(!isBinary),
-    body: body == null ? undefined : isBinary ? body : JSON.stringify(body),
+    headers: outgoing,
+    body: payload,
     keepalive,
   })
   if (!res.ok) {
