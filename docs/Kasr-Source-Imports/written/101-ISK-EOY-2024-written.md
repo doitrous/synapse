@@ -234,7 +234,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-State where fertilisation occurs and give the four results the department book lists.
+State where fertilisation occurs and give its four results.
 ## setting
 Academic
 ## academic_relevance

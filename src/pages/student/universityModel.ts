@@ -248,6 +248,45 @@ function countCoverage(coverage: ProjectionCoverage | undefined): number {
   ].reduce((sum, values) => sum + (values?.length ?? 0), 0)
 }
 
+/**
+ * A plain-language label for an assessment component when the record itself
+ * carries none. Kinds are a closed, faculty-facing vocabulary (`eom`, `saq`,
+ * `pass-fail`...); this is the one place they are translated into wording a
+ * student would recognise from their own exam timetable, rather than printed
+ * as-is on a screen that never shows anything else internal.
+ */
+const KIND_LABEL: Partial<Record<string, string>> = {
+  eom: 'Written · end of module',
+  eoy: 'Written · end of year',
+  midterm: 'Midterm exam',
+  quiz: 'Quiz',
+  coursework: 'Coursework',
+  assignments: 'Assignments',
+  'final-written': 'Final written exam',
+  saq: 'Short-answer questions',
+  mcq: 'MCQ exam',
+  case: 'Case-based exam',
+  practical: 'Practical exam',
+  ospe: 'OSPE',
+  osce: 'OSCE',
+  oral: 'Oral exam',
+  portfolio: 'Portfolio',
+  attendance: 'Attendance',
+  logbook: 'Logbook',
+  'pass-fail': 'Pass/fail component',
+  custom: 'Assessment component',
+}
+
+function flattenSubjectNames(subjects: readonly StudentSubjectMap[]): Record<string, string> {
+  const map: Record<string, string> = {}
+  const visit = (list: readonly StudentSubjectMap[]) => list.forEach((subject) => {
+    map[subject.id] = subject.name
+    visit(subject.children)
+  })
+  visit(subjects)
+  return map
+}
+
 function formatDisplayMarks(value: number | null | undefined | 'unavailable'): string {
   if (value === null || value === undefined || value === 'unavailable') return 'unavailable'
   return Number.isInteger(value) ? String(value) : value.toFixed(2).replace(/0+$/, '').replace(/\.$/, '')
@@ -262,18 +301,20 @@ function localDateTime(date: string | null | undefined, time: string | null | un
   return Number.isFinite(out.getTime()) ? out : null
 }
 
-function normalizeAssessment(input: ProjectionAssessment | undefined): StudentAssessmentMap {
+function normalizeAssessment(input: ProjectionAssessment | undefined, subjectNames: Record<string, string> = {}): StudentAssessmentMap {
   const components = (input?.components ?? [])
     .filter((component) => component.marks !== null && component.marks !== undefined)
     .map<StudentAssessmentComponent>((component, index) => ({
       id: component.id ?? `component-${index + 1}`,
-      label: component.label ?? component.kind ?? 'Assessment',
+      label: component.label || KIND_LABEL[component.kind ?? ''] || 'Assessment component',
       kind: component.kind ?? 'custom',
       marks: component.marks ?? null,
       displayMarks: formatDisplayMarks(component.marks),
+      // Never the raw subjectId: an unresolved allocation reads as a plain,
+      // still-informative "Allocation 2" rather than an internal identifier.
       allocations: (component.subjectAllocations ?? []).map((allocation, allocationIndex) => ({
         subjectId: allocation.subjectId ?? null,
-        label: allocation.label ?? allocation.subjectId ?? `Allocation ${allocationIndex + 1}`,
+        label: allocation.label || (allocation.subjectId ? subjectNames[allocation.subjectId] : undefined) || `Allocation ${allocationIndex + 1}`,
         marks: allocation.marks ?? null,
         displayMarks: formatDisplayMarks(allocation.marks),
       })),
@@ -365,7 +406,7 @@ export function normalizeStudentUniversityProjection(
         moduleId: raw.moduleId || raw.id,
         term: raw.term || term.term || DEFAULT_TERM,
         labels: unique([...(raw.labels ?? []), raw.evidenceState ?? null]),
-        assessment: normalizeAssessment(raw.assessment),
+        assessment: normalizeAssessment(raw.assessment, flattenSubjectNames(subjects)),
         subjects,
         subjectCount: countSubjectNodes(subjects),
         schedule,
@@ -427,7 +468,9 @@ function projectionAssessmentFromScheme(scheme: AssessmentScheme | null | undefi
       marks: marksToNumber(component.marks),
       subjectAllocations: (component.subjectAllocations ?? []).map((allocation) => ({
         subjectId: allocation.subjectId,
-        label: allocation.subjectId,
+        // No label here: `normalizeAssessment` resolves it to the subject's
+        // real name, or a plain "Allocation N" — never the raw subjectId.
+        label: null,
         marks: marksToNumber(allocation.marks),
       })),
       passRule: component.passRule ?? null,

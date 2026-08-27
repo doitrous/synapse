@@ -168,19 +168,19 @@ C
 ## answer_a
 Nuclear pyknosis
 ## explanation_a
-Incorrect, and it is the commonest wrong answer here because pyknosis is a change every student can picture. But pyknosis — shrinkage of the whole nucleus into a dense basophilic mass — is a nuclear change of **necrosis**, not of reversible injury. A cell showing pyknosis is already dead; the question asks for the first change in a cell that can still recover.
+It is the commonest wrong answer here because pyknosis is a change every student can picture. But pyknosis — shrinkage of the whole nucleus into a dense basophilic mass — is a nuclear change of **necrosis**, not of reversible injury. A cell showing pyknosis is already dead; the question asks for the first change in a cell that can still recover.
 ## answer_b
 Fatty change
 ## explanation_b
-Incorrect, though fatty change is genuinely reversible. It is the third of the reversible patterns, not the first: cloudy swelling comes first, hydropic change is the same mechanism further advanced, and fatty change appears later and only in cells that handle fat — hepatocytes, myocardial cells, renal tubular cells. This option catches the student who has learned the list of reversible changes without its order.
+Fatty change is genuinely reversible. It is the third of the reversible patterns, not the first: cloudy swelling comes first, hydropic change is the same mechanism further advanced, and fatty change appears later and only in cells that handle fat — hepatocytes, myocardial cells, renal tubular cells. This option catches the student who has learned the list of reversible changes without its order.
 ## answer_c
 Cloudy swelling
 ## explanation_c
-Correct. Cloudy swelling is the earliest morphological change of reversible injury. The mechanism is the failure of the plasma-membrane sodium pump: the injured cell cannot keep sodium out, sodium and water follow into the cytosol, the cell swells, and the cytoplasm takes on the granular, cloudy look the name records. It is seen in liver cells, myocardial cells and renal tubular cells — the cells with the highest pump workload. Two things are worth holding. First, the sequence: cloudy swelling, then hydropic (ballooning, vacuolar) change as the same process advances, then fatty change. Second, that every one of these is reversible while the membrane is intact; the moment the nucleus shows pyknosis, karyorrhexis or karyolysis, the cell has crossed into necrosis and the changes above are no longer the point.
+Cloudy swelling is the earliest morphological change of reversible injury. The mechanism is the failure of the plasma-membrane sodium pump: the injured cell cannot keep sodium out, sodium and water follow into the cytosol, the cell swells, and the cytoplasm takes on the granular, cloudy look the name records. It is seen in liver cells, myocardial cells and renal tubular cells — the cells with the highest pump workload. Two things are worth holding. First, the sequence: cloudy swelling, then hydropic (ballooning, vacuolar) change as the same process advances, then fatty change. Second, that every one of these is reversible while the membrane is intact; the moment the nucleus shows pyknosis, karyorrhexis or karyolysis, the cell has crossed into necrosis and the changes above are no longer the point.
 ## answer_d
 Fat necrosis
 ## explanation_d
-Incorrect, and this is the swap the papers use most often. Fat necrosis is a type of **cell death** in adipose tissue — traumatic, or enzymatic as in acute pancreatitis. It is not a change inside a living injured cell at all. The student who picks it has fused fat necrosis with fatty change, which are as far apart as death and swelling.
+This is the swap the papers use most often. Fat necrosis is a type of **cell death** in adipose tissue — traumatic, or enzymatic as in acute pancreatitis. It is not a change inside a living injured cell at all. The student who picks it has fused fat necrosis with fatty change, which are as far apart as death and swelling.
 ## topic
 General pathology
 ## subtopic
@@ -226,7 +226,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Name the earliest morphological change of reversible cell injury and place it in sequence against hydropic and fatty change.
@@ -270,19 +270,19 @@ B
 ## answer_a
 Loss of ATP only
 ## explanation_a
-Incorrect. ATP depletion is the injury of the *ischaemic* period, and it is only one of several mechanisms even then. Reperfusion is by definition what happens after blood flow returns, when ATP production has restarted — so an answer built on ATP loss alone describes the phase before the one the question asks about, and the word "only" makes it wrong twice over.
+ATP depletion is the injury of the *ischaemic* period, and it is only one of several mechanisms even then. Reperfusion is by definition what happens after blood flow returns, when ATP production has restarted — so an answer built on ATP loss alone describes the phase before the one the question asks about, and the word "only" makes it wrong twice over.
 ## answer_b
 Increased free radicals
 ## explanation_b
-Correct. Restoring the blood supply to ischaemic tissue is not simply a rescue. The returning blood delivers oxygen to cells whose antioxidant defences were exhausted during the ischaemia, and the result is a burst of reactive oxygen species that peroxidises membrane lipids, damages proteins and breaks DNA. Cells that survived the ischaemic insult itself are injured or killed in this second wave — which is the whole reason reperfusion injury has a name of its own. Free radicals are the agent the book names, and the same agent it names in cellular ageing, chemical injury and radiation damage. The point to hold is counter-intuitive and clinically live: reopening an occluded vessel can add injury, and the injury is oxidative.
+Restoring the blood supply to ischaemic tissue is not simply a rescue. The returning blood delivers oxygen to cells whose antioxidant defences were exhausted during the ischaemia, and the result is a burst of reactive oxygen species that peroxidises membrane lipids, damages proteins and breaks DNA. Cells that survived the ischaemic insult itself are injured or killed in this second wave — which is the whole reason reperfusion injury has a name of its own. Free radicals are the responsible agent — the same agent implicated in cellular ageing, chemical injury and radiation damage. The point to hold is counter-intuitive and clinically live: reopening an occluded vessel can add injury, and the injury is oxidative.
 ## answer_c
 Glycogen accumulation
 ## explanation_c
-Incorrect, and it is a category error rather than a near miss. Excess intracellular glycogen appears as clear vacuoles in the glycogen storage diseases and in poorly controlled diabetes; it is a disorder of stored carbohydrate, with nothing to do with restoring blood flow. This option catches a student matching on "something accumulates in the cell" without asking what.
+It is a category error rather than a near miss. Excess intracellular glycogen appears as clear vacuoles in the glycogen storage diseases and in poorly controlled diabetes; it is a disorder of stored carbohydrate, with nothing to do with restoring blood flow. This option catches a student matching on "something accumulates in the cell" without asking what.
 ## answer_d
 Reduced oxygen supply
 ## explanation_d
-Incorrect, and it is the exact opposite of the situation described. Reduced oxygen supply is ischaemia — the injury that came first. Reperfusion is the return of oxygen. The student who picks this has read the word "injury" and answered the question about hypoxia they were expecting rather than the one they were asked.
+It is the exact opposite of the situation described. Reduced oxygen supply is ischaemia — the injury that came first. Reperfusion is the return of oxygen. The student who picks this has read the word "injury" and answered the question about hypoxia they were expecting rather than the one they were asked.
 ## topic
 General pathology
 ## subtopic
@@ -328,7 +328,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Explain why restoring blood flow to ischaemic tissue can injure cells that survived the ischaemia, and name the agent responsible.
@@ -372,19 +372,19 @@ C
 ## answer_a
 Cell swelling
 ## explanation_a
-Incorrect, and it is the single most useful thing this question tests. Swelling belongs to necrosis, where the failed sodium pump lets water in. The apoptotic cell does the opposite — its cytoplasm condenses and the cell shrinks, with the plasma membrane intact throughout. A student who expects a swollen cell has fused the two deaths, and will mis-answer every question that contrasts them.
+It is the single most useful thing this question tests. Swelling belongs to necrosis, where the failed sodium pump lets water in. The apoptotic cell does the opposite — its cytoplasm condenses and the cell shrinks, with the plasma membrane intact throughout. A student who expects a swollen cell has fused the two deaths, and will mis-answer every question that contrasts them.
 ## answer_b
 Inflammation
 ## explanation_b
-Incorrect, and it names the feature that most sharply separates the two. Apoptosis provokes no inflammation: the membrane never ruptures, so the cell's contents are never spilled into the interstitium, and adjacent cells or macrophages clear the apoptotic bodies quietly. Necrosis spills lysosomal enzymes and cytoplasm, and inflammation is the tissue's response to that spill.
+It names the feature that most sharply separates the two. Apoptosis provokes no inflammation: the membrane never ruptures, so the cell's contents are never spilled into the interstitium, and adjacent cells or macrophages clear the apoptotic bodies quietly. Necrosis spills lysosomal enzymes and cytoplasm, and inflammation is the tissue's response to that spill.
 ## answer_c
 Cell shrinkage
 ## explanation_c
-Correct. The apoptotic cell shrinks. The cytoplasm condenses, the nucleus shrinks and then fragments, the cell throws out surface blebs, and those blebs break off as membrane-bound apoptotic bodies — each a dark nuclear fragment wrapped in eosinophilic cytoplasm — which neighbouring cells and macrophages phagocytose. The plasma membrane stays intact for the whole sequence, and that single fact explains everything else worth knowing: nothing leaks, so there is no inflammation; the cell is removed piecemeal, so no scar forms; and the process is energy-dependent and controlled rather than a collapse. Set that against necrosis, where the cell swells, the membrane ruptures, and the resulting inflammation is what a pathologist sees first.
+The apoptotic cell shrinks. The cytoplasm condenses, the nucleus shrinks and then fragments, the cell throws out surface blebs, and those blebs break off as membrane-bound apoptotic bodies — each a dark nuclear fragment wrapped in eosinophilic cytoplasm — which neighbouring cells and macrophages phagocytose. The plasma membrane stays intact for the whole sequence, and that single fact explains everything else worth knowing: nothing leaks, so there is no inflammation; the cell is removed piecemeal, so no scar forms; and the process is energy-dependent and controlled rather than a collapse. Set that against necrosis, where the cell swells, the membrane ruptures, and the resulting inflammation is what a pathologist sees first.
 ## answer_d
 Liquefaction
 ## explanation_d
-Incorrect. Liquefaction is a pattern of *necrosis* — the dead tissue is digested to fluid, as in a cerebral infarct or the centre of a pyogenic abscess. It describes what becomes of a mass of dead tissue, whereas apoptosis deletes single cells, one at a time, leaving the surrounding tissue undisturbed.
+Liquefaction is a pattern of *necrosis* — the dead tissue is digested to fluid, as in a cerebral infarct or the centre of a pyogenic abscess. It describes what becomes of a mass of dead tissue, whereas apoptosis deletes single cells, one at a time, leaving the surrounding tissue undisturbed.
 ## topic
 General pathology
 ## subtopic
@@ -431,7 +431,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-APOPTOSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 State the morphological changes of apoptosis and explain why an intact plasma membrane means no inflammation follows.
@@ -475,19 +475,19 @@ A
 ## answer_a
 Acute pancreatitis
 ## explanation_a
-Correct, and this is enzymatic fat necrosis. In acute pancreatitis the inflamed gland leaks pancreatic lipase into the peritoneal cavity; the lipase splits the triglyceride of mesenteric and omental fat into glycerol and free fatty acids, and those fatty acids combine with calcium to form insoluble calcium soaps. Those soaps are what the surgeon sees as the chalky white plaques scattered over the omentum, and their formation consumes enough calcium to drop the serum level — which is why hypocalcaemia is a severity marker in acute pancreatitis. Fat necrosis has a second, unrelated form: traumatic fat necrosis, most often in the breast, where injury releases fat from damaged adipocytes, macrophages engulf it, and the fibrosis that follows leaves a hard mass that can mimic carcinoma. Both are death of adipose tissue; only the pancreatic one is enzymatic.
+This is enzymatic fat necrosis. In acute pancreatitis the inflamed gland leaks pancreatic lipase into the peritoneal cavity; the lipase splits the triglyceride of mesenteric and omental fat into glycerol and free fatty acids, and those fatty acids combine with calcium to form insoluble calcium soaps. Those soaps are what the surgeon sees as the chalky white plaques scattered over the omentum, and their formation consumes enough calcium to drop the serum level — which is why hypocalcaemia is a severity marker in acute pancreatitis. Fat necrosis has a second, unrelated form: traumatic fat necrosis, most often in the breast, where injury releases fat from damaged adipocytes, macrophages engulf it, and the fibrosis that follows leaves a hard mass that can mimic carcinoma. Both are death of adipose tissue; only the pancreatic one is enzymatic.
 ## answer_b
 Myocardial infarction
 ## explanation_b
-Incorrect. The infarcted myocardium undergoes coagulative necrosis: ischaemia denatures the structural proteins faster than the lysosomal enzymes can digest them, so the dead muscle keeps its cell outlines for days — ghost fibres with no nuclei. This option catches the student who has memorised infarction as the standard example of necrosis without keeping the types apart.
+The infarcted myocardium undergoes coagulative necrosis: ischaemia denatures the structural proteins faster than the lysosomal enzymes can digest them, so the dead muscle keeps its cell outlines for days — ghost fibres with no nuclei. This option catches the student who has memorised infarction as the standard example of necrosis without keeping the types apart.
 ## answer_c
 Brain infarction
 ## explanation_c
-Incorrect. Cerebral infarction gives liquefactive necrosis, because brain tissue is rich in lipid, poor in supporting stroma, and its own enzymes digest it to fluid; the softened area is walled off by glial tissue and ends as a cyst. It is the one solid organ where infarction does not produce coagulative necrosis — which is worth knowing, but it is not fat necrosis.
+Cerebral infarction gives liquefactive necrosis, because brain tissue is rich in lipid, poor in supporting stroma, and its own enzymes digest it to fluid; the softened area is walled off by glial tissue and ends as a cyst. It is the one solid organ where infarction does not produce coagulative necrosis — which is worth knowing, but it is not fat necrosis.
 ## answer_d
 Tuberculosis
 ## explanation_d
-Incorrect. Tuberculosis produces caseation necrosis — semi-solid, yellowish, cheese-like material that is structureless under the microscope. Lipid does contribute to its appearance, from the tubercle bacillus's own capsule, and that lipid is probably what draws a student to this option. But the tissue dying is not adipose tissue, and the mechanism is digestion by activated macrophages, not lipase.
+Tuberculosis produces caseation necrosis — semi-solid, yellowish, cheese-like material that is structureless under the microscope. Lipid does contribute to its appearance, from the tubercle bacillus's own capsule, and that lipid is probably what draws a student to this option. But the tissue dying is not adipose tissue, and the mechanism is digestion by activated macrophages, not lipase.
 ## topic
 General pathology
 ## subtopic
@@ -536,7 +536,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-NECROSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Identify acute pancreatitis as the setting of enzymatic fat necrosis, and assign coagulative, liquefactive and caseation necrosis to their own settings.
@@ -580,19 +580,19 @@ D
 ## answer_a
 Coagulative
 ## explanation_a
-Incorrect, and it is the closest of the three wrong answers, because coagulative necrosis is the other necrosis that stays firm rather than liquefying. The difference is architectural. Coagulative necrosis *preserves* the outline of the dead cells — ghost cells and ghost tubules are still recognisable, because denaturation of structural protein outran the enzymes that would have digested them. Caseation destroys the architecture completely. Firm is not the discriminator; structure is.
+It is the closest of the three wrong answers, because coagulative necrosis is the other necrosis that stays firm rather than liquefying. The difference is architectural. Coagulative necrosis *preserves* the outline of the dead cells — ghost cells and ghost tubules are still recognisable, because denaturation of structural protein outran the enzymes that would have digested them. Caseation destroys the architecture completely. Firm is not the discriminator; structure is.
 ## answer_b
 Fat
 ## explanation_b
-Incorrect. Enzymatic fat necrosis produces chalky white plaques of calcium soap, and traumatic fat necrosis a firm fibrotic mass, usually in the breast. Neither is described as cheesy, and neither occurs in the setting the phrase belongs to. The colour word "white" is probably what draws the student here; the texture and the setting are both wrong.
+Enzymatic fat necrosis produces chalky white plaques of calcium soap, and traumatic fat necrosis a firm fibrotic mass, usually in the breast. Neither is described as cheesy, and neither occurs in the setting the phrase belongs to. The colour word "white" is probably what draws the student here; the texture and the setting are both wrong.
 ## answer_c
 Fibrinoid
 ## explanation_c
-Incorrect. Fibrinoid necrosis is not a gross appearance at all — it is a microscopic one, a deep red homogeneous material in vessel walls and damaged collagen that stains like fibrin. You would never describe it as cheese-like, because you would never see it with the naked eye.
+Fibrinoid necrosis is not a gross appearance at all — it is a microscopic one, a deep red homogeneous material in vessel walls and damaged collagen that stains like fibrin. You would never describe it as cheese-like, because you would never see it with the naked eye.
 ## answer_d
 Caseous
 ## explanation_d
-Correct. Caseation necrosis is named for exactly this: the necrotic tissue is semi-solid, yellowish-white and cheese-like, from casein. It occurs mainly in tuberculosis, where activated macrophages digest the tissue, and lipid liberated from the capsule of the tubercle bacillus adds to the cheesy consistency. Under the microscope it appears as granular, structureless pink material — and that word structureless is what matters most, because it is the feature separating caseation from coagulative necrosis, the other necrosis that remains solid. In coagulative necrosis the dead cells keep their outlines; in caseation the tissue architecture is completely lost. If you can see ghost cells it is coagulative; if the field is amorphous pink debris, usually ringed by epithelioid cells and Langhans giant cells, it is caseation and you should be thinking tuberculosis.
+Caseation necrosis is named for exactly this: the necrotic tissue is semi-solid, yellowish-white and cheese-like, from casein. It occurs mainly in tuberculosis, where activated macrophages digest the tissue, and lipid liberated from the capsule of the tubercle bacillus adds to the cheesy consistency. Under the microscope it appears as granular, structureless pink material — and that word structureless is what matters most, because it is the feature separating caseation from coagulative necrosis, the other necrosis that remains solid. In coagulative necrosis the dead cells keep their outlines; in caseation the tissue architecture is completely lost. If you can see ghost cells it is coagulative; if the field is amorphous pink debris, usually ringed by epithelioid cells and Langhans giant cells, it is caseation and you should be thinking tuberculosis.
 ## topic
 General pathology
 ## subtopic
@@ -641,7 +641,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-NECROSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Recognise caseation necrosis from its gross description, name the disease it points to, and separate it from coagulative necrosis by loss of architecture.
@@ -684,19 +684,19 @@ B
 ## answer_a
 Normal tissues
 ## explanation_a
-Incorrect — this describes metastatic calcification, the other half of the pair. Metastatic calcification deposits calcium in *viable, normal* tissue, and it does so because the serum calcium is high. Dystrophic calcification is the mirror image: abnormal tissue, normal blood. A student who picks this has the two definitions the right way round in their head and has attached them to the wrong names.
+This describes metastatic calcification, the other half of the pair. Metastatic calcification deposits calcium in *viable, normal* tissue, and it does so because the serum calcium is high. Dystrophic calcification is the mirror image: abnormal tissue, normal blood. A student who picks this has the two definitions the right way round in their head and has attached them to the wrong names.
 ## answer_b
 Dead or damaged tissues
 ## explanation_b
-Correct. Dystrophic calcification is the local precipitation of insoluble calcium salts in tissue that is already diseased, and it happens at a **normal serum calcium**. The tissue is what is abnormal, not the blood. The book's examples are worth learning as a list, because they are what gets asked: atheromatous plaques, congenitally bicuspid aortic valves, areas of necrosis such as old tuberculous lesions, old thrombi, a lithopedion — a dead retained fetus — and fat necrosis. The mechanism is local: dying cells lose the ability to keep calcium out, and phospholipids released from damaged membranes nucleate crystal formation. Set that against metastatic calcification, where the blood level is high and the tissue receiving the calcium is healthy. The two look identical down a microscope; only the serum calcium tells them apart, and that is why the serum calcium is the first thing to ask for.
+Dystrophic calcification is the local precipitation of insoluble calcium salts in tissue that is already diseased, and it happens at a **normal serum calcium**. The tissue is what is abnormal, not the blood. Its classic examples are worth learning as a list, because they are what gets asked: atheromatous plaques, congenitally bicuspid aortic valves, areas of necrosis such as old tuberculous lesions, old thrombi, a lithopedion — a dead retained fetus — and fat necrosis. The mechanism is local: dying cells lose the ability to keep calcium out, and phospholipids released from damaged membranes nucleate crystal formation. Set that against metastatic calcification, where the blood level is high and the tissue receiving the calcium is healthy. The two look identical down a microscope; only the serum calcium tells them apart, and that is why the serum calcium is the first thing to ask for.
 ## answer_c
 Hypercalcemia
 ## explanation_c
-Incorrect, and it names the pitfall this question exists to catch: reading any calcification as evidence that the calcium level is raised. Hypercalcaemia is the setting for *metastatic* calcification. Dystrophic calcification proceeds perfectly well at a normal serum calcium, which is exactly why finding calcification in an atheroma tells you nothing about the patient's biochemistry.
+It names the pitfall this question exists to catch: reading any calcification as evidence that the calcium level is raised. Hypercalcaemia is the setting for *metastatic* calcification. Dystrophic calcification proceeds perfectly well at a normal serum calcium, which is exactly why finding calcification in an atheroma tells you nothing about the patient's biochemistry.
 ## answer_d
 Bone and teeth
 ## explanation_d
-Incorrect, and it is excluded by the definition rather than by a fact. Pathological calcification means the deposition of calcium salts in tissue **other than** bone or teeth. Calcium in bone and teeth is normal mineralisation, not calcification of any pathological kind.
+It is excluded by the definition rather than by a fact. Pathological calcification means the deposition of calcium salts in tissue **other than** bone or teeth. Calcium in bone and teeth is normal mineralisation, not calcification of any pathological kind.
 ## topic
 General pathology
 ## subtopic
@@ -744,7 +744,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-PATHOLOGICAL-CALCIFICATION
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Define dystrophic calcification by the state of the tissue and the serum calcium, and distinguish it from metastatic calcification.
@@ -787,19 +787,19 @@ B
 ## answer_a
 Dystrophic calcification
 ## explanation_a
-Incorrect, and it is the answer of a student who has the pair the wrong way round. Dystrophic calcification needs damaged tissue and happens at a normal serum calcium; hyperparathyroidism damages no tissue directly, it raises the blood calcium. Immediately before this question the same paper asked where dystrophic calcification occurs, which makes the swap easy and the discrimination the point.
+It is the answer of a student who has the pair the wrong way round. Dystrophic calcification needs damaged tissue and happens at a normal serum calcium; hyperparathyroidism damages no tissue directly, it raises the blood calcium. Immediately before this question the same paper asked where dystrophic calcification occurs, which makes the swap easy and the discrimination the point.
 ## answer_b
 Metastatic calcification
 ## explanation_b
-Correct. Parathyroid hormone mobilises calcium from bone and increases its retention by the kidney, so a parathyroid tumour, ectopic PTH secretion by another neoplasm, or the secondary hyperparathyroidism of chronic renal failure all raise the serum calcium — and calcium then precipitates in tissue that is perfectly viable. That is metastatic calcification. "Metastatic" here means the calcium travelled, not that a tumour spread, which is the misreading worth naming out loud. The other causes belong to the same list: bone destruction, whether by multiple myeloma, diffuse skeletal metastasis, Paget's disease or immobilisation; hypervitaminosis D; and, less commonly, the milk-alkali syndrome. The deposits favour the interstitium of the gastric mucosa, kidney, lungs, systemic arteries and pulmonary veins, and usually cause no dysfunction — the exception being massive renal deposition, nephrocalcinosis, which can end in renal failure.
+Parathyroid hormone mobilises calcium from bone and increases its retention by the kidney, so a parathyroid tumour, ectopic PTH secretion by another neoplasm, or the secondary hyperparathyroidism of chronic renal failure all raise the serum calcium — and calcium then precipitates in tissue that is perfectly viable. That is metastatic calcification. "Metastatic" here means the calcium travelled, not that a tumour spread, which is the misreading worth naming out loud. The other causes belong to the same list: bone destruction, whether by multiple myeloma, diffuse skeletal metastasis, Paget's disease or immobilisation; hypervitaminosis D; and, less commonly, the milk-alkali syndrome. The deposits favour the interstitium of the gastric mucosa, kidney, lungs, systemic arteries and pulmonary veins, and usually cause no dysfunction — the exception being massive renal deposition, nephrocalcinosis, which can end in renal failure.
 ## answer_c
 Fat necrosis
 ## explanation_c
-Incorrect. Fat necrosis is death of adipose tissue, enzymatic in acute pancreatitis or traumatic in the breast. It has a calcium connection — the calcium soaps of the enzymatic form — and that connection is presumably why the option is here, but the calcium in those soaps comes out of the blood locally, and the causal arrow runs the wrong way for hyperparathyroidism.
+Fat necrosis is death of adipose tissue, enzymatic in acute pancreatitis or traumatic in the breast. It has a calcium connection — the calcium soaps of the enzymatic form — and that connection is presumably why the option is here, but the calcium in those soaps comes out of the blood locally, and the causal arrow runs the wrong way for hyperparathyroidism.
 ## answer_d
 Amyloidosis
 ## explanation_d
-Incorrect. Amyloidosis is the extracellular deposition of a beta-pleated protein, not of a mineral, and hyperparathyroidism has no part in it. Secondary amyloidosis follows chronic inflammation and primary amyloidosis accompanies myeloma; neither is a disorder of calcium handling.
+Amyloidosis is the extracellular deposition of a beta-pleated protein, not of a mineral, and hyperparathyroidism has no part in it. Secondary amyloidosis follows chronic inflammation and primary amyloidosis accompanies myeloma; neither is a disorder of calcium handling.
 ## topic
 General pathology
 ## subtopic
@@ -846,7 +846,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-PATHOLOGICAL-CALCIFICATION
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Explain why raised parathyroid hormone produces metastatic rather than dystrophic calcification, and list the other causes of hypercalcaemia that do the same.
@@ -890,19 +890,19 @@ A
 ## answer_a
 Melanin
 ## explanation_a
-Correct. Café-au-lait patches are areas of increased melanin, and melanin is the endogenous brown-black pigment formed when tyrosinase oxidises tyrosine to dihydroxyphenylalanine inside melanocytes. The book names five settings in which melanin is increased, and they are worth holding as a set because any of them can be asked: prolonged sun exposure; melanocytic naevi and melanomas; chloasma of pregnancy, the brown patches on face, nipple and genitalia that follow hormonal change; Addison's disease, where the hyperpigmentation of sun-exposed areas and pressure points — neck, elbows, knees, knuckles — is driven by raised pro-opiomelanocortin, the shared precursor of ACTH and melanocyte-stimulating hormone, which is why it is *primary* adrenal failure and not secondary that darkens the skin; and café-au-lait patches in neurofibromatosis. The colour of the lesion is the clue the examiner is offering: brown means melanin unless there is a reason to think of iron.
+Café-au-lait patches are areas of increased melanin, and melanin is the endogenous brown-black pigment formed when tyrosinase oxidises tyrosine to dihydroxyphenylalanine inside melanocytes. Five settings in which melanin is increased are worth holding as a set because any of them can be asked: prolonged sun exposure; melanocytic naevi and melanomas; chloasma of pregnancy, the brown patches on face, nipple and genitalia that follow hormonal change; Addison's disease, where the hyperpigmentation of sun-exposed areas and pressure points — neck, elbows, knees, knuckles — is driven by raised pro-opiomelanocortin, the shared precursor of ACTH and melanocyte-stimulating hormone, which is why it is *primary* adrenal failure and not secondary that darkens the skin; and café-au-lait patches in neurofibromatosis. The colour of the lesion is the clue the examiner is offering: brown means melanin unless there is a reason to think of iron.
 ## answer_b
 Amyloid
 ## explanation_b
-Incorrect. Amyloid is a colourless extracellular protein deposit, not a pigment; it is recognised by staining — Congo red with apple-green birefringence — rather than by colour in the tissue. Nothing about amyloid produces a brown skin patch, and amyloid has no association with neurofibromatosis.
+Amyloid is a colourless extracellular protein deposit, not a pigment; it is recognised by staining — Congo red with apple-green birefringence — rather than by colour in the tissue. Nothing about amyloid produces a brown skin patch, and amyloid has no association with neurofibromatosis.
 ## answer_c
 Lipids
 ## explanation_c
-Incorrect. Lipid deposition in the skin gives xanthomas — yellowish nodules of foamy macrophages in subcutaneous tissue and tendons, seen in the hyperlipidaemias. Both are skin lesions with a name and a colour, which is what makes the option tempting, but a xanthoma is yellow and lumpy where a café-au-lait patch is brown and flat.
+Lipid deposition in the skin gives xanthomas — yellowish nodules of foamy macrophages in subcutaneous tissue and tendons, seen in the hyperlipidaemias. Both are skin lesions with a name and a colour, which is what makes the option tempting, but a xanthoma is yellow and lumpy where a café-au-lait patch is brown and flat.
 ## answer_d
 Carbon
 ## explanation_d
-Incorrect. Carbon is an exogenous pigment: inhaled, it produces anthracosis in the lung; inoculated into the dermis, it produces a tattoo. A tattoo is indeed a permanent pigmented skin lesion, which is why the option is here, but its pigment arrived from outside the body and its colour is blue-black, not café-au-lait brown.
+Carbon is an exogenous pigment: inhaled, it produces anthracosis in the lung; inoculated into the dermis, it produces a tattoo. A tattoo is indeed a permanent pigmented skin lesion, which is why the option is here, but its pigment arrived from outside the body and its colour is blue-black, not café-au-lait brown.
 ## topic
 General pathology
 ## subtopic
@@ -949,7 +949,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-PATHOLOGICAL-PIGMENTS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Identify melanin as the pigment of café-au-lait patches and name the five conditions in which melanin is increased.
@@ -993,19 +993,19 @@ B
 ## answer_a
 Yellow fluorescence
 ## explanation_a
-Incorrect. Fluorescence and birefringence are different optical phenomena and the question names polarised light, which is the birefringence apparatus. Thioflavin stains do give amyloid a fluorescence under ultraviolet light, so a student who has met a fluorescent amyloid stain may reach for this — but that is a different stain under a different light, and Congo red under polarised light gives a colour by a different mechanism.
+Fluorescence and birefringence are different optical phenomena and the question names polarised light, which is the birefringence apparatus. Thioflavin stains do give amyloid a fluorescence under ultraviolet light, so a student who has met a fluorescent amyloid stain may reach for this — but that is a different stain under a different light, and Congo red under polarised light gives a colour by a different mechanism.
 ## answer_b
 Apple green birefringence
 ## explanation_b
-Correct. Congo red binds along the beta-pleated sheet of amyloid, and the ordered alignment of the dye on that regular structure makes the deposit birefringent: viewed through a polarising filter and a rotating analyser, the orange-red deposit turns apple green against a dark background. That combination — Congo red plus polarised light — is the confirmation of amyloid, and the reason it is confirmatory is that it reports the beta-pleated architecture rather than merely the presence of protein. The trap is to stop at the Congo red. Under ordinary light Congo red gives amyloid an orange-red colour, and several other things take up the dye; it is the apple-green birefringence that is diagnostic. The rest of the staining repertoire is worth holding with it: gross tissue immersed in Lugol's iodine turns amyloid dark brown against a yellow background, and iodine followed by 1% sulphuric acid turns it blue; on haematoxylin and eosin the deposit is simply pink; and the metachromatic stains methyl violet and crystal violet turn it rose red while the surrounding tissue stains violet.
+Congo red binds along the beta-pleated sheet of amyloid, and the ordered alignment of the dye on that regular structure makes the deposit birefringent: viewed through a polarising filter and a rotating analyser, the orange-red deposit turns apple green against a dark background. That combination — Congo red plus polarised light — is the confirmation of amyloid, and the reason it is confirmatory is that it reports the beta-pleated architecture rather than merely the presence of protein. The trap is to stop at the Congo red. Under ordinary light Congo red gives amyloid an orange-red colour, and several other things take up the dye; it is the apple-green birefringence that is diagnostic. The rest of the staining repertoire is worth holding with it: gross tissue immersed in Lugol's iodine turns amyloid dark brown against a yellow background, and iodine followed by 1% sulphuric acid turns it blue; on haematoxylin and eosin the deposit is simply pink; and the metachromatic stains methyl violet and crystal violet turn it rose red while the surrounding tissue stains violet.
 ## answer_c
 Blue fluorescence
 ## explanation_c
-Incorrect on two counts. Blue is the colour of the *gross* iodine-and-sulphuric-acid reaction, not of anything seen down a microscope, and fluorescence is again the wrong phenomenon for polarised light. This option catches a student who has retained the word "blue" from the staining list without the context it belonged to.
+This fails on two counts: blue is the colour of the *gross* iodine-and-sulphuric-acid reaction, not of anything seen down a microscope, and fluorescence is again the wrong phenomenon for polarised light. This option catches a student who has retained the word "blue" from the staining list without the context it belonged to.
 ## answer_d
 Black pigmentation
 ## explanation_d
-Incorrect. Amyloid is not a pigment and produces no pigmentation of any colour. Black in a tissue section points to carbon, to formalin pigment, or to melanin — all of which are visible without polarised light and none of which needs Congo red.
+Amyloid is not a pigment and produces no pigmentation of any colour. Black in a tissue section points to carbon, to formalin pigment, or to melanin — all of which are visible without polarised light and none of which needs Congo red.
 ## topic
 General pathology
 ## subtopic
@@ -1052,7 +1052,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-AMYLOIDOSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 State what Congo red-stained amyloid shows under polarised light, and explain why the birefringence rather than the Congo red colour is what confirms the diagnosis.
@@ -1103,19 +1103,19 @@ C
 ## answer_a
 Hyaline arteriolosclerosis
 ## explanation_a
-Incorrect, and it is the option that makes this question worth asking. Hyaline arteriolosclerosis is a genuine hyaline change — the glassy pink thickening of arteriolar walls in long-standing hypertension and diabetes, especially in the kidney — but the material sits **outside** cells, in the vessel wall, and is made of extravasated plasma protein and basement-membrane material. The question asks for the intracellular example. A student who knows what hyaline change is and not where this one sits picks this.
+It is the option that makes this question worth asking. Hyaline arteriolosclerosis is a genuine hyaline change — the glassy pink thickening of arteriolar walls in long-standing hypertension and diabetes, especially in the kidney — but the material sits **outside** cells, in the vessel wall, and is made of extravasated plasma protein and basement-membrane material. The question asks for the intracellular example. A student who knows what hyaline change is and not where this one sits picks this.
 ## answer_b
 Keloid scar
 ## explanation_b
-Incorrect, and extracellular for the same reason. The hyalinised collagen of an old scar is the classic extracellular hyaline: dense, glassy, pink bundles of collagen laid down between cells. Keloid is that process in excess. Again the appearance is right and the compartment is wrong.
+Extracellular for the same reason. The hyalinised collagen of an old scar is the classic extracellular hyaline: dense, glassy, pink bundles of collagen laid down between cells. Keloid is that process in excess. Again the appearance is right and the compartment is wrong.
 ## answer_c
 Russell bodies
 ## explanation_c
-Correct. Russell bodies are the intracellular example: rounded, glassy, eosinophilic inclusions inside plasma cells distended with the immunoglobulin they are making, seen in chronic inflammation. They are hyaline in the only sense the word carries — a homogeneous, glassy, pink appearance on routine haematoxylin and eosin. That is the thing to hold about hyaline change generally: it is a *descriptive* term for how something looks, not the name of a substance and not a specific marker of injury. The same word covers three different materials. Intracellularly it covers Russell bodies, which are immunoglobulin, and Mallory alcoholic hyaline in the hepatocytes of chronic alcoholism, which is a cytoskeletal inclusion. Extracellularly it covers the hyalinised collagen of old scars and of mesenchymal tumours such as leiomyoma, and the plasma protein and basement membrane in the arteriolar walls of hypertension and diabetes. Three substances, one appearance, one word.
+Russell bodies are the intracellular example: rounded, glassy, eosinophilic inclusions inside plasma cells distended with the immunoglobulin they are making, seen in chronic inflammation. They are hyaline in the only sense the word carries — a homogeneous, glassy, pink appearance on routine haematoxylin and eosin. That is the thing to hold about hyaline change generally: it is a *descriptive* term for how something looks, not the name of a substance and not a specific marker of injury. The same word covers three different materials. Intracellularly it covers Russell bodies, which are immunoglobulin, and Mallory alcoholic hyaline in the hepatocytes of chronic alcoholism, which is a cytoskeletal inclusion. Extracellularly it covers the hyalinised collagen of old scars and of mesenchymal tumours such as leiomyoma, and the plasma protein and basement membrane in the arteriolar walls of hypertension and diabetes. Three substances, one appearance, one word.
 ## answer_d
 Chloasma of pregnancy
 ## explanation_d
-Incorrect, and it is not a hyaline change at all. Chloasma is increased melanin — the brown patches on face, nipple and genitalia that follow the hormonal change of pregnancy. It is pigmentation, so it is neither glassy nor pink, and it belongs to the pigment section rather than this one. This option catches a student answering on "something accumulates in a cell" rather than on what the accumulation looks like.
+It is not a hyaline change at all. Chloasma is increased melanin — the brown patches on face, nipple and genitalia that follow the hormonal change of pregnancy. It is pigmentation, so it is neither glassy nor pink, and it belongs to the pigment section rather than this one. This option catches a student answering on "something accumulates in a cell" rather than on what the accumulation looks like.
 ## topic
 General pathology
 ## subtopic
@@ -1162,7 +1162,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Sort examples of hyaline change into intracellular and extracellular, and explain why one word covers several different materials.
@@ -1206,19 +1206,19 @@ B
 ## answer_a
 Calcium
 ## explanation_a
-Incorrect. Calcium deposits in soft tissue are pathological calcification — dystrophic where the tissue is already damaged, metastatic where the serum calcium is high — and they are hard, gritty and radio-opaque rather than the soft yellow nodules of a xanthoma. The option catches a student answering on "deposit in tissue" without asking which deposit.
+Calcium deposits in soft tissue are pathological calcification — dystrophic where the tissue is already damaged, metastatic where the serum calcium is high — and they are hard, gritty and radio-opaque rather than the soft yellow nodules of a xanthoma. The option catches a student answering on "deposit in tissue" without asking which deposit.
 ## answer_b
 Lipids
 ## explanation_b
-Correct. A xanthoma is a mass of lipid-laden foamy macrophages clustered in subcutaneous tissue or along tendons, and it forms in the acquired and hereditary hyperlipidaemias — cholesterol and cholesterol esters taken up by macrophages faster than they can be handled. The finding matters clinically because it is visible evidence of a lipid disorder: tendon xanthomata over the Achilles or the extensor tendons of the hand point to familial hypercholesterolaemia, and the same lipid handled by the same macrophages in an arterial wall is what builds an atheromatous plaque. Cholesterol accumulation has two faces worth pairing in memory: extracellularly in atheroma it appears as cleft-like spaces where the crystals dissolved out during processing, and in a xanthoma it appears inside foamy macrophages.
+A xanthoma is a mass of lipid-laden foamy macrophages clustered in subcutaneous tissue or along tendons, and it forms in the acquired and hereditary hyperlipidaemias — cholesterol and cholesterol esters taken up by macrophages faster than they can be handled. The finding matters clinically because it is visible evidence of a lipid disorder: tendon xanthomata over the Achilles or the extensor tendons of the hand point to familial hypercholesterolaemia, and the same lipid handled by the same macrophages in an arterial wall is what builds an atheromatous plaque. Cholesterol accumulation has two faces worth pairing in memory: extracellularly in atheroma it appears as cleft-like spaces where the crystals dissolved out during processing, and in a xanthoma it appears inside foamy macrophages.
 ## answer_c
 Uric acid
 ## explanation_c
-Incorrect, and it is the strongest distractor because of the site. Deposits of monosodium urate around joints and tendons are tophi, of gout — and a tophus and a tendon xanthoma can sit in the same place and feel similar. The substance is different: urate crystals versus lipid in macrophages, and the clinical company they keep is different too.
+It is the strongest distractor because of the site. Deposits of monosodium urate around joints and tendons are tophi, of gout — and a tophus and a tendon xanthoma can sit in the same place and feel similar. The substance is different: urate crystals versus lipid in macrophages, and the clinical company they keep is different too.
 ## answer_d
 Melanin
 ## explanation_d
-Incorrect. Melanin is a pigment, so it colours skin rather than forming a mass in it, and it accumulates in melanocytes rather than in macrophages. Nothing about a xanthoma involves melanin; the option is here to catch answering on "skin lesion" alone.
+Melanin is a pigment, so it colours skin rather than forming a mass in it, and it accumulates in melanocytes rather than in macrophages. Nothing about a xanthoma involves melanin; the option is here to catch answering on "skin lesion" alone.
 ## topic
 General pathology
 ## subtopic
@@ -1266,7 +1266,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Identify lipid as the substance accumulating in a xanthoma and relate the lesion to the hyperlipidaemias and to atheroma.
@@ -1310,19 +1310,19 @@ D
 ## answer_a
 It is pathological only
 ## explanation_a
-Incorrect, and it misses half of what apoptosis is for. Apoptosis has physiological causes as well as pathological ones: the deletion of cells during embryogenesis, the involution of hormone-dependent tissue such as the endometrium and the lactating breast after weaning, the turnover of proliferating populations such as gut epithelium, and the elimination of self-reactive lymphocytes. A student holding this belief will not understand why a *failure* of apoptosis is one of the things that permits cancer.
+It misses half of what apoptosis is for. Apoptosis has physiological causes as well as pathological ones: the deletion of cells during embryogenesis, the involution of hormone-dependent tissue such as the endometrium and the lactating breast after weaning, the turnover of proliferating populations such as gut epithelium, and the elimination of self-reactive lymphocytes. A student holding this belief will not understand why a *failure* of apoptosis is one of the things that permits cancer.
 ## answer_b
 It involves death of a group of cells
 ## explanation_b
-Incorrect, and this is the definition of necrosis, not apoptosis. Necrosis is the death of a group of cells within a living body — a territory, usually an infarct or an area of infection. Apoptosis deletes single cells scattered among healthy neighbours, which is why an apoptotic cell is easy to miss on a section and a necrotic area is impossible to miss.
+This is the definition of necrosis, not apoptosis. Necrosis is the death of a group of cells within a living body — a territory, usually an infarct or an area of infection. Apoptosis deletes single cells scattered among healthy neighbours, which is why an apoptotic cell is easy to miss on a section and a necrotic area is impossible to miss.
 ## answer_c
 It represents reversible cell injury
 ## explanation_c
-Incorrect, and it confuses two categories entirely. Apoptosis is a form of cell **death**; nothing about it is reversible once the caspase cascade is executed. Reversible injury means cloudy swelling, hydropic change and fatty change — a living cell that can still recover. The one thing apoptosis shares with reversible injury is that neither leaves inflammation behind, which may be what draws the student here.
+It confuses two categories entirely. Apoptosis is a form of cell **death**; nothing about it is reversible once the caspase cascade is executed. Reversible injury means cloudy swelling, hydropic change and fatty change — a living cell that can still recover. The one thing apoptosis shares with reversible injury is that neither leaves inflammation behind, which may be what draws the student here.
 ## answer_d
 It is controlled by the BCL2 protein family
 ## explanation_d
-Correct. Apoptosis is a regulated programme, and the bcl-2 protein family is its control: the balance of pro-apoptotic and anti-apoptotic members of that family decides whether a cell commits. Execution is by the caspases, a family of proteases that the programme activates; they destroy the nuclear membrane and activate DNAases that degrade nuclear DNA into the fragments the process is known for. Control and execution are separate steps and examiners ask for them separately — bcl-2 controls, caspases execute. Everything else about apoptosis follows from its being a programme rather than a collapse: it costs ATP, it affects single cells, the plasma membrane stays intact so nothing leaks, no inflammation follows, and the cell ends as membrane-bound apoptotic bodies that neighbours phagocytose. It also has physiological uses — embryogenesis, hormone-dependent involution, epithelial turnover, deletion of self-reactive lymphocytes — as well as pathological ones.
+Apoptosis is a regulated programme, and the bcl-2 protein family is its control: the balance of pro-apoptotic and anti-apoptotic members of that family decides whether a cell commits. Execution is by the caspases, a family of proteases that the programme activates; they destroy the nuclear membrane and activate DNAases that degrade nuclear DNA into the fragments the process is known for. Control and execution are separate steps and examiners ask for them separately — bcl-2 controls, caspases execute. Everything else about apoptosis follows from its being a programme rather than a collapse: it costs ATP, it affects single cells, the plasma membrane stays intact so nothing leaks, no inflammation follows, and the cell ends as membrane-bound apoptotic bodies that neighbours phagocytose. It also has physiological uses — embryogenesis, hormone-dependent involution, epithelial turnover, deletion of self-reactive lymphocytes — as well as pathological ones.
 ## topic
 General pathology
 ## subtopic
@@ -1369,7 +1369,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-APOPTOSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Name the protein family controlling apoptosis, separate control from execution, and reject the three commonest false statements about the process.
@@ -1412,19 +1412,19 @@ C
 ## answer_a
 Active transport is maximally effective in the acidic gastric environment
 ## explanation_a
-Incorrect on both halves. Active transport is not what carries most drugs across membranes — passive diffusion is — and nothing about gastric acidity makes a carrier work better. The option catches a student who has learned that there are several transport mechanisms and reaches for the most elaborate one rather than asking which one this drug uses.
+This fails on both halves: active transport is not what carries most drugs across membranes — passive diffusion is — and nothing about gastric acidity makes a carrier work better. The option catches a student who has learned that there are several transport mechanisms and reaches for the most elaborate one rather than asking which one this drug uses.
 ## answer_b
 Gastric acidity increases the drug's passive distribution to tissues
 ## explanation_b
-Incorrect, and it answers a different question. Distribution is what happens after a drug is in the blood; the stem asks about absorption from the stomach lumen. Gastric pH governs the ionisation of the drug at the absorbing surface and has no bearing on how the absorbed fraction is later distributed to tissues. The student who picks this has not separated the A of ADME from the D.
+It answers a different question. Distribution is what happens after a drug is in the blood; the stem asks about absorption from the stomach lumen. Gastric pH governs the ionisation of the drug at the absorbing surface and has no bearing on how the absorbed fraction is later distributed to tissues. The student who picks this has not separated the A of ADME from the D.
 ## answer_c
 In an acidic medium, the weak acid is mostly non-ionized and lipid-soluble
 ## explanation_c
-Correct. Only the non-ionised form of a drug is lipid-soluble enough to cross a cell membrane by passive diffusion, and how much of a drug is non-ionised is set by its pKa against the pH of the medium it sits in. A weak acid placed in an acid medium is suppressed from dissociating, so most of it stays in the un-ionised, lipid-soluble form and it crosses the gastric mucosa readily. A weak base does the opposite in the stomach — it accepts a proton, ionises, and stays in the lumen. Two things follow that are worth carrying beyond this question. First, the same rule run in reverse is ion trapping: a drug that ionises in a compartment cannot leave it, which is why alkalinising the urine accelerates the excretion of a weak acid such as aspirin in overdose. Second, being *better absorbed per unit area* from the stomach is not the same as being *mostly absorbed* there. The small intestine has an enormously larger surface area and remains the main site of absorption for almost every drug, weak acids included.
+Only the non-ionised form of a drug is lipid-soluble enough to cross a cell membrane by passive diffusion, and how much of a drug is non-ionised is set by its pKa against the pH of the medium it sits in. A weak acid placed in an acid medium is suppressed from dissociating, so most of it stays in the un-ionised, lipid-soluble form and it crosses the gastric mucosa readily. A weak base does the opposite in the stomach — it accepts a proton, ionises, and stays in the lumen. Two things follow that are worth carrying beyond this question. First, the same rule run in reverse is ion trapping: a drug that ionises in a compartment cannot leave it, which is why alkalinising the urine accelerates the excretion of a weak acid such as aspirin in overdose. Second, being *better absorbed per unit area* from the stomach is not the same as being *mostly absorbed* there. The small intestine has an enormously larger surface area and remains the main site of absorption for almost every drug, weak acids included.
 ## answer_d
 The gastric mucosa has the largest absorbing surface in the gastrointestinal tract
 ## explanation_d
-Incorrect, and it is the factual error most worth correcting. The small intestine has by far the largest absorbing surface in the gut — villi and microvilli multiply it many times over — and it is the main site of absorption for most drugs whatever their pKa. This option catches a student who has correctly concluded that the stomach favours weak acids and then over-reached into thinking the stomach is where absorption mostly happens.
+It is the factual error most worth correcting. The small intestine has by far the largest absorbing surface in the gut — villi and microvilli multiply it many times over — and it is the main site of absorption for most drugs whatever their pKa. This option catches a student who has correctly concluded that the stomach favours weak acids and then over-reached into thinking the stomach is where absorption mostly happens.
 ## topic
 General pharmacology
 ## subtopic
@@ -1472,7 +1472,7 @@ KAU_Y1
 ART-108-PHA-MEMBRANE-PASSAGE
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Explain, from pKa and medium pH, why a weak acid is well absorbed from the stomach, without concluding that the stomach is the main site of absorption.
@@ -1516,19 +1516,19 @@ B
 ## answer_a
 Has high molecular weight or strong plasma protein binding
 ## explanation_a
-Incorrect, and it is the interpretation of a **low** Vd, not a high one. A large molecule, or one held tightly by albumin, cannot leave the circulation, so the drug stays in plasma and the calculated volume comes out at around 4 litres. The 2024 paper asked precisely this as its own question, with a Vd of 4 litres in a 70 kg person, and this option is that question's correct answer transplanted into a stem asking the opposite. It catches a student who has memorised the two interpretations without attaching each to its direction.
+It is the interpretation of a **low** Vd, not a high one. A large molecule, or one held tightly by albumin, cannot leave the circulation, so the drug stays in plasma and the calculated volume comes out at around 4 litres. The 2024 paper asked precisely this as its own question, with a Vd of 4 litres in a 70 kg person, and this option is that question's correct answer transplanted into a stem asking the opposite. It catches a student who has memorised the two interpretations without attaching each to its direction.
 ## answer_b
 Is concentrated in body tissues rather than remaining in the blood
 ## explanation_b
-Correct. The apparent volume of distribution is a proportionality constant, not a real anatomical volume: it is the volume that would be needed to hold all the drug in the body at the concentration measured in plasma. So the plasma concentration is the denominator, and anything that drives drug out of the plasma and into tissue drives Vd up. A drug that is highly lipid-soluble, or that binds avidly to tissue components, leaves very little of itself in the blood, and the arithmetic then reports a volume far larger than the body — several hundred litres for drugs such as the ones that sequester in fat or bind muscle and lung. That is why the volume is called *apparent*: nothing exceeds body volume in reality, and a Vd of 500 litres is a statement about where the drug went, not about how big the patient is. Practically, a high Vd means plasma holds little of the total body load, so haemodialysis removes such a drug poorly, and it means a loading dose calculated as Vd multiplied by the target concentration will be large.
+The apparent volume of distribution is a proportionality constant, not a real anatomical volume: it is the volume that would be needed to hold all the drug in the body at the concentration measured in plasma. So the plasma concentration is the denominator, and anything that drives drug out of the plasma and into tissue drives Vd up. A drug that is highly lipid-soluble, or that binds avidly to tissue components, leaves very little of itself in the blood, and the arithmetic then reports a volume far larger than the body — several hundred litres for drugs such as the ones that sequester in fat or bind muscle and lung. That is why the volume is called *apparent*: nothing exceeds body volume in reality, and a Vd of 500 litres is a statement about where the drug went, not about how big the patient is. Practically, a high Vd means plasma holds little of the total body load, so haemodialysis removes such a drug poorly, and it means a loading dose calculated as Vd multiplied by the target concentration will be large.
 ## answer_c
 Is unlikely to cross the blood-brain barrier
 ## explanation_c
-Incorrect, and it points the wrong way. What gets a drug into tissue generally — small size, lipid solubility, little protein binding — is broadly what gets it across the blood-brain barrier. A drug with a very high Vd is usually one that penetrates tissue well, so if anything a high Vd makes central penetration more likely, not less.
+It points the wrong way. What gets a drug into tissue generally — small size, lipid solubility, little protein binding — is broadly what gets it across the blood-brain barrier. A drug with a very high Vd is usually one that penetrates tissue well, so if anything a high Vd makes central penetration more likely, not less.
 ## answer_d
 Remains within the intravascular compartment
 ## explanation_d
-Incorrect, and it is the definition of the smallest Vd there is. A drug confined to plasma has a Vd of about 4 litres in an adult — the plasma volume — which is the lowest value the parameter takes. Choosing it for a *very high* Vd inverts the parameter completely, and it usually means the student is reading Vd as "how much of the body the drug is in" without noticing that plasma concentration sits in the denominator.
+It is the definition of the smallest Vd there is. A drug confined to plasma has a Vd of about 4 litres in an adult — the plasma volume — which is the lowest value the parameter takes. Choosing it for a *very high* Vd inverts the parameter completely, and it usually means the student is reading Vd as "how much of the body the drug is in" without noticing that plasma concentration sits in the denominator.
 ## topic
 General pharmacology
 ## subtopic
@@ -1576,7 +1576,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Interpret a very high apparent volume of distribution as tissue sequestration, and distinguish it from the low-Vd picture of plasma protein binding.
@@ -1619,19 +1619,19 @@ B
 ## answer_a
 Administration by intravenous infusion only
 ## explanation_a
-Incorrect. A constant-rate intravenous infusion is the cleanest way to demonstrate steady state, because the input rate really is constant, and that is why textbook figures use it. But any repeated dosing regimen reaches a steady state — oral tablets twice a day reach one too, with the plasma concentration oscillating between peak and trough around a mean that stops rising. The route is not the requirement; the balance of rates is.
+A constant-rate intravenous infusion is the cleanest way to demonstrate steady state, because the input rate really is constant, and that is why textbook figures use it. But any repeated dosing regimen reaches a steady state — oral tablets twice a day reach one too, with the plasma concentration oscillating between peak and trough around a mean that stops rising. The route is not the requirement; the balance of rates is.
 ## answer_b
 Equal rates of drug administration and drug elimination
 ## explanation_b
-Correct, and this is the definition rather than a consequence of it. Steady state is the point at which the rate of drug entering the body equals the rate leaving it, so the amount in the body stops changing and the plasma concentration plateaus. Everything else students memorise about steady state follows from that one statement. Because elimination is first-order, the rate out rises as the amount in the body rises, and it climbs until it matches the fixed rate in — which is why the approach to the plateau is asymptotic and why it takes four to five half-lives, whatever the dose or the interval. Because it takes that long, a drug needed to work quickly is given a loading dose to fill the volume of distribution at once, and the maintenance dose then simply replaces what is eliminated between doses. And because the *time* to steady state depends only on the half-life, raising the dose does not get you there sooner — it only raises the plateau you eventually settle at.
+This is the definition rather than a consequence of it. Steady state is the point at which the rate of drug entering the body equals the rate leaving it, so the amount in the body stops changing and the plasma concentration plateaus. Everything else students memorise about steady state follows from that one statement. Because elimination is first-order, the rate out rises as the amount in the body rises, and it climbs until it matches the fixed rate in — which is why the approach to the plateau is asymptotic and why it takes four to five half-lives, whatever the dose or the interval. Because it takes that long, a drug needed to work quickly is given a loading dose to fill the volume of distribution at once, and the maintenance dose then simply replaces what is eliminated between doses. And because the *time* to steady state depends only on the half-life, raising the dose does not get you there sooner — it only raises the plateau you eventually settle at.
 ## answer_c
 Gradual reduction of the dose over successive administrations
 ## explanation_c
-Incorrect, and it would prevent steady state rather than produce it. A falling dose means a falling input rate, so the concentration never settles; it drifts downward. This option catches a student who has seen the curve flattening out and assumed something must be tapered to flatten it, when what flattens it is elimination catching up with a constant input.
+It would prevent steady state rather than produce it. A falling dose means a falling input rate, so the concentration never settles; it drifts downward. This option catches a student who has seen the curve flattening out and assumed something must be tapered to flatten it, when what flattens it is elimination catching up with a constant input.
 ## answer_d
 Waiting exactly one plasma half-life between successive doses
 ## explanation_d
-Incorrect. Dosing at an interval of one half-life is a common and convenient regimen, but it is neither necessary nor sufficient. A drug given every half-life reaches steady state in four to five half-lives; a drug given twice as often, or half as often, also reaches steady state in four to five half-lives, at a different plateau. The interval sets how much the concentration swings between doses and where the plateau sits, not whether a plateau is reached.
+Dosing at an interval of one half-life is a common and convenient regimen, but it is neither necessary nor sufficient. A drug given every half-life reaches steady state in four to five half-lives; a drug given twice as often, or half as often, also reaches steady state in four to five half-lives, at a different plateau. The interval sets how much the concentration swings between doses and where the plateau sits, not whether a plateau is reached.
 ## topic
 General pharmacology
 ## subtopic
@@ -1677,7 +1677,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-KINETIC-PRINCIPLES
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 State the condition that defines steady state and explain why the time to reach it depends on half-life rather than on dose, route or interval.
@@ -1720,19 +1720,19 @@ A
 ## answer_a
 Hepatic microsomal enzymes are inducible; non-microsomal enzymes are not
 ## explanation_a
-Correct, and inducibility is the property with the most clinical consequences attached to it. The microsomal enzymes sit in the smooth endoplasmic reticulum of the hepatocyte — the cytochrome P450 system and the glucuronyl transferases — they act on lipid-soluble drugs, and their synthesis can be increased by an inducer over days to weeks. That is why an inducer such as rifampicin or carbamazepine lowers the plasma level of everything else those enzymes handle, why a drug can induce its own metabolism so that the dose which worked in week one no longer works in week three, and why induction *raises* toxicity whenever the toxic species is the metabolite rather than the parent drug. The non-microsomal enzymes are a different group in every respect: they are cytoplasmic or mitochondrial rather than membrane-bound, they are found in plasma, gut wall, lung and kidney as well as liver, they act mostly on water-soluble drugs, and they are not inducible. Monoamine oxidase, alcohol dehydrogenase and plasma cholinesterase belong here. Non-inducibility is the practical half of the distinction: their activity cannot be turned up by another drug.
+Inducibility is the property with the most clinical consequences attached to it. The microsomal enzymes sit in the smooth endoplasmic reticulum of the hepatocyte — the cytochrome P450 system and the glucuronyl transferases — they act on lipid-soluble drugs, and their synthesis can be increased by an inducer over days to weeks. That is why an inducer such as rifampicin or carbamazepine lowers the plasma level of everything else those enzymes handle, why a drug can induce its own metabolism so that the dose which worked in week one no longer works in week three, and why induction *raises* toxicity whenever the toxic species is the metabolite rather than the parent drug. The non-microsomal enzymes are a different group in every respect: they are cytoplasmic or mitochondrial rather than membrane-bound, they are found in plasma, gut wall, lung and kidney as well as liver, they act mostly on water-soluble drugs, and they are not inducible. Monoamine oxidase, alcohol dehydrogenase and plasma cholinesterase belong here. Non-inducibility is the practical half of the distinction: their activity cannot be turned up by another drug.
 ## answer_b
 Hepatic microsomal enzymes can catalyze all Phase II reactions except glucuronidation
 ## explanation_b
-Incorrect, and it inverts the one Phase II reaction that is microsomal. Glucuronidation is *the* microsomal conjugation — glucuronyl transferase sits in the same smooth endoplasmic reticulum as cytochrome P450 — while the other Phase II conjugations, such as acetylation, methylation and sulphate and glycine conjugation, are non-microsomal. The option catches a student who remembers that glucuronidation is the exception in this pairing without remembering which way the exception runs.
+It inverts the one Phase II reaction that is microsomal. Glucuronidation is *the* microsomal conjugation — glucuronyl transferase sits in the same smooth endoplasmic reticulum as cytochrome P450 — while the other Phase II conjugations, such as acetylation, methylation and sulphate and glycine conjugation, are non-microsomal. The option catches a student who remembers that glucuronidation is the exception in this pairing without remembering which way the exception runs.
 ## answer_c
 Non-microsomal enzymes are confined to the liver and absent from other organs
 ## explanation_c
-Incorrect, and it is the wrong group. It is the microsomal enzymes that are essentially hepatic. The non-microsomal enzymes are the widely distributed ones — plasma cholinesterase in plasma, enzymes in the gut wall, lung, kidney and elsewhere — so this statement is not merely false, it is true of the other half of the pair.
+It is the wrong group. It is the microsomal enzymes that are essentially hepatic. The non-microsomal enzymes are the widely distributed ones — plasma cholinesterase in plasma, enzymes in the gut wall, lung, kidney and elsewhere — so this statement is not merely false, it is true of the other half of the pair.
 ## answer_d
 Non-microsomal enzymes catalyze only Phase II synthetic reactions.
 ## explanation_d
-Incorrect, because of "only". Non-microsomal enzymes do catalyse most of the Phase II conjugations, but they also carry out Phase I reactions: the hydrolyses performed by plasma esterases, and the oxidations of alcohol dehydrogenase and monoamine oxidase, are all Phase I and all non-microsomal. This option catches a student who has learned a real association and hardened it into an exclusive rule.
+The word "only" is what breaks this option. Non-microsomal enzymes do catalyse most of the Phase II conjugations, but they also carry out Phase I reactions: the hydrolyses performed by plasma esterases, and the oxidations of alcohol dehydrogenase and monoamine oxidase, are all Phase I and all non-microsomal. This option catches a student who has learned a real association and hardened it into an exclusive rule.
 ## topic
 General pharmacology
 ## subtopic
@@ -1781,7 +1781,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Separate microsomal from non-microsomal drug-metabolising enzymes by location, inducibility, substrate and the reactions each carries out.
@@ -1824,19 +1824,19 @@ B
 ## answer_a
 Clearance divided by the desired steady-state concentration (Css)
 ## explanation_a
-Incorrect, and the error is the direction of the operation. Clearance is a volume per unit time and Css is an amount per volume; dividing one by the other gives a quantity with no useful meaning, whereas multiplying them gives an amount per unit time — which is what a dosing rate is. This option catches a student who has retained the two symbols in the formula and not the arithmetic joining them, and a quick check of the units is what rescues them.
+The error is the direction of the operation. Clearance is a volume per unit time and Css is an amount per volume; dividing one by the other gives a quantity with no useful meaning, whereas multiplying them gives an amount per unit time — which is what a dosing rate is. This option catches a student who has retained the two symbols in the formula and not the arithmetic joining them, and a quick check of the units is what rescues them.
 ## answer_b
 Clearance multiplied by the desired Css and the dosing interval (Tm)
 ## explanation_b
-Correct. The purpose of a maintenance dose is to replace exactly what the body has eliminated since the previous dose, so that the plasma concentration stays at its target. Elimination is described by clearance: the volume of body fluid cleared of drug per unit time. Multiply clearance by the concentration being maintained and you get the *rate* at which drug is being lost, an amount per unit time. Multiply that rate by the interval between doses and you get the amount to give each time — maintenance dose = CL × Css × τ. Reading the formula rather than memorising it also tells you when to change the dose: a patient whose clearance is halved by renal or hepatic impairment needs half the maintenance dose for the same Css, and lengthening the interval raises each individual dose without changing the total per day. Keep this apart from the loading dose, which answers a different question — how much drug it takes to fill the volume of distribution and reach the target concentration immediately — and is therefore Vd × the target concentration, with no time in it at all.
+The purpose of a maintenance dose is to replace exactly what the body has eliminated since the previous dose, so that the plasma concentration stays at its target. Elimination is described by clearance: the volume of body fluid cleared of drug per unit time. Multiply clearance by the concentration being maintained and you get the *rate* at which drug is being lost, an amount per unit time. Multiply that rate by the interval between doses and you get the amount to give each time — maintenance dose = CL × Css × τ. Reading the formula rather than memorising it also tells you when to change the dose: a patient whose clearance is halved by renal or hepatic impairment needs half the maintenance dose for the same Css, and lengthening the interval raises each individual dose without changing the total per day. Keep this apart from the loading dose, which answers a different question — how much drug it takes to fill the volume of distribution and reach the target concentration immediately — and is therefore Vd × the target concentration, with no time in it at all.
 ## answer_c
 Half-life multiplied by the volume of distribution
 ## explanation_c
-Incorrect. Half-life and volume of distribution are both real pharmacokinetic parameters and their product is not a dose — it has units of volume × time. The two are related to clearance rather than to a dose: half-life is itself derived from Vd and clearance together. This option is the pure formula-fragment answer, assembled from remembered symbols.
+Half-life and volume of distribution are both real pharmacokinetic parameters and their product is not a dose — it has units of volume × time. The two are related to clearance rather than to a dose: half-life is itself derived from Vd and clearance together. This option is the pure formula-fragment answer, assembled from remembered symbols.
 ## answer_d
 Volume of distribution multiplied by the desired plasma concentration
 ## explanation_d
-Incorrect for a maintenance dose, but it is the correct formula for the **loading dose** — which is what makes it the strongest distractor on the page. A loading dose fills the apparent volume of distribution to the target concentration in one go, so it is Vd × target concentration and contains no time term. A maintenance dose replaces losses over an interval, so it must contain clearance and the interval. A student who picks this knows both formulae and has attached them to the wrong doses.
+This is the wrong formula for a maintenance dose, but it is the correct formula for the **loading dose** — which is what makes it the strongest distractor on the page. A loading dose fills the apparent volume of distribution to the target concentration in one go, so it is Vd × target concentration and contains no time term. A maintenance dose replaces losses over an interval, so it must contain clearance and the interval. A student who picks this knows both formulae and has attached them to the wrong doses.
 ## topic
 General pharmacology
 ## subtopic
@@ -1884,7 +1884,7 @@ KAU_Y1
 ART-108-PHA-KINETIC-PRINCIPLES
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Derive the maintenance dose from clearance, target steady-state concentration and dosing interval, and distinguish it from the loading dose formula.
@@ -1928,19 +1928,19 @@ A
 ## answer_a
 It is an active saturable process.
 ## explanation_a
-Correct, and saturability is the property with all the consequences. Tubular secretion moves drug from peritubular blood into the tubular lumen against a concentration gradient, so it costs energy and it needs a carrier — and because carriers are finite in number, the process saturates once they are all occupied. Three things follow. Saturation means the process has a ceiling, so beyond a certain plasma concentration secretion no longer keeps pace. Carriers are shared rather than drug-specific — there is one system for organic acids and one for organic bases — so two drugs handled by the same system compete, which is a genuine and common site of drug interaction. And that competition can be exploited: probenecid competes with penicillin for the organic acid carrier and therefore *slows* penicillin's secretion, raising and prolonging its plasma level, which is why it was given alongside penicillin when the drug was scarce. Secretion also handles protein-bound drug, unlike glomerular filtration, because the carrier strips drug from albumin as the free fraction is removed.
+Saturability is the property with all the consequences. Tubular secretion moves drug from peritubular blood into the tubular lumen against a concentration gradient, so it costs energy and it needs a carrier — and because carriers are finite in number, the process saturates once they are all occupied. Three things follow. Saturation means the process has a ceiling, so beyond a certain plasma concentration secretion no longer keeps pace. Carriers are shared rather than drug-specific — there is one system for organic acids and one for organic bases — so two drugs handled by the same system compete, which is a genuine and common site of drug interaction. And that competition can be exploited: probenecid competes with penicillin for the organic acid carrier and therefore *slows* penicillin's secretion, raising and prolonging its plasma level, which is why it was given alongside penicillin when the drug was scarce. Secretion also handles protein-bound drug, unlike glomerular filtration, because the carrier strips drug from albumin as the free fraction is removed.
 ## answer_b
 It is effective only for water-soluble drugs.
 ## explanation_b
-Incorrect, because of "only". The tubular secretory carriers handle organic acids and organic bases in ionised form and are not restricted to water-soluble drugs; more importantly, the property that really matters at the tubule is what happens *after* secretion. A lipid-soluble drug secreted into the lumen is passively reabsorbed further down the nephron, which is why renal excretion is efficient for polar drugs — but that is passive reabsorption, a different step, and this option attaches its consequence to the wrong process.
+The word "only" is what breaks this option. The tubular secretory carriers handle organic acids and organic bases in ionised form and are not restricted to water-soluble drugs; more importantly, the property that really matters at the tubule is what happens *after* secretion. A lipid-soluble drug secreted into the lumen is passively reabsorbed further down the nephron, which is why renal excretion is efficient for polar drugs — but that is passive reabsorption, a different step, and this option attaches its consequence to the wrong process.
 ## answer_c
 Probenecid increases penicillin excretion by competition at this mechanism.
 ## explanation_c
-Incorrect, and it is the direction that is wrong rather than the pharmacology. Probenecid does compete with penicillin at the organic acid carrier, and that competition **blocks** penicillin's secretion, so less penicillin reaches the urine, its plasma level rises and its action is prolonged. That is the entire clinical purpose of giving the two together. A student who picks this has remembered the pairing and reversed the effect.
+It is the direction that is wrong rather than the pharmacology. Probenecid does compete with penicillin at the organic acid carrier, and that competition **blocks** penicillin's secretion, so less penicillin reaches the urine, its plasma level rises and its action is prolonged. That is the entire clinical purpose of giving the two together. A student who picks this has remembered the pairing and reversed the effect.
 ## answer_d
 There is one specific carrier for each individual drug.
 ## explanation_d
-Incorrect, and if it were true the interaction in option C could not exist. There are two broad, relatively non-selective transport systems — one for organic acids, one for organic bases — each handling many drugs. That shared capacity is exactly what makes competition at the tubule a routine source of drug interaction rather than a curiosity.
+If it were true the interaction in option C could not exist. There are two broad, relatively non-selective transport systems — one for organic acids, one for organic bases — each handling many drugs. That shared capacity is exactly what makes competition at the tubule a routine source of drug interaction rather than a curiosity.
 ## topic
 General pharmacology
 ## subtopic
@@ -1987,7 +1987,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Describe renal tubular secretion as an active, saturable, carrier-mediated process, and predict the direction of the probenecid-penicillin interaction from it.
@@ -2031,19 +2031,19 @@ A
 ## answer_a
 A decrease in the Emax of the agonist occurs only with the non-competitive antagonist
 ## explanation_a
-Correct, and the fall in Emax is the signature to look for because it reports the mechanism directly. A competitive antagonist binds the same site as the agonist, reversibly, so the two compete for it: enough agonist will always win the site back, the maximum response is eventually reached, and the only change to the curve is a parallel shift to the right. The antagonism is *surmountable*. A non-competitive antagonist does not compete for the agonist's site — it binds elsewhere, or binds the same site irreversibly — so adding agonist cannot displace it. Receptors it occupies are removed from the pool available to the agonist, and a response that needs the full pool can no longer be produced at any concentration. The maximum falls, and the antagonism is *insurmountable*. Read a pair of curves this way: a rightward shift with the plateau intact means competitive; a lowered plateau means non-competitive. Clinically the distinction decides whether the block can be overridden — flumazenil against a benzodiazepine can be, because it is competitive; the block by an irreversible non-competitive antagonist cannot be, and lifts only as new receptors are synthesised.
+The fall in Emax is the signature to look for because it reports the mechanism directly. A competitive antagonist binds the same site as the agonist, reversibly, so the two compete for it: enough agonist will always win the site back, the maximum response is eventually reached, and the only change to the curve is a parallel shift to the right. The antagonism is *surmountable*. A non-competitive antagonist does not compete for the agonist's site — it binds elsewhere, or binds the same site irreversibly — so adding agonist cannot displace it. Receptors it occupies are removed from the pool available to the agonist, and a response that needs the full pool can no longer be produced at any concentration. The maximum falls, and the antagonism is *insurmountable*. Read a pair of curves this way: a rightward shift with the plateau intact means competitive; a lowered plateau means non-competitive. Clinically the distinction decides whether the block can be overridden — flumazenil against a benzodiazepine can be, because it is competitive; the block by an irreversible non-competitive antagonist cannot be, and lifts only as new receptors are synthesised.
 ## answer_b
 A lower potency of the agonist occurs only with competitive antagonism
 ## explanation_b
-Incorrect as a way of telling the two apart, and it is the most defensible of the wrong options. A competitive antagonist does reduce the agonist's apparent potency — that is what a rightward shift of the curve means. But the word doing the damage is "only": a fall in the maximum response also lowers the response measured at every submaximal concentration, so a non-competitive antagonist changes the observed dose-response relationship too. A change in apparent potency is therefore not a clean discriminator, whereas the ceiling of the curve is: a competitive antagonist never lowers Emax and a non-competitive one always does.
+This does not work as a way of telling the two apart, though it is the most defensible of the wrong options. A competitive antagonist does reduce the agonist's apparent potency — that is what a rightward shift of the curve means. But the word doing the damage is "only": a fall in the maximum response also lowers the response measured at every submaximal concentration, so a non-competitive antagonist changes the observed dose-response relationship too. A change in apparent potency is therefore not a clean discriminator, whereas the ceiling of the curve is: a competitive antagonist never lowers Emax and a non-competitive one always does.
 ## answer_c
 A parallel rightward shift of the curve occurs with the non-competitive antagonist
 ## explanation_c
-Incorrect, and it attaches the right observation to the wrong antagonist. The parallel rightward shift with an unchanged maximum is the classic picture of *competitive* antagonism — the curve moves along the concentration axis because more agonist is needed to win the site, and it still reaches the top because it eventually does. The non-competitive antagonist flattens the curve instead of sliding it. This is the commonest way the two get swapped.
+It attaches the right observation to the wrong antagonist. The parallel rightward shift with an unchanged maximum is the classic picture of *competitive* antagonism — the curve moves along the concentration axis because more agonist is needed to win the site, and it still reaches the top because it eventually does. The non-competitive antagonist flattens the curve instead of sliding it. This is the commonest way the two get swapped.
 ## answer_d
 Displacement by excess agonist occurs with the non-competitive antagonist
 ## explanation_d
-Incorrect, and it inverts the property that gives competitive antagonism its name. Displacement by excess agonist is precisely what a competitive antagonist permits and a non-competitive one does not. If a block can be overcome by piling on agonist, it is competitive and surmountable — which is why the two words travel together.
+It inverts the property that gives competitive antagonism its name. Displacement by excess agonist is precisely what a competitive antagonist permits and a non-competitive one does not. If a block can be overcome by piling on agonist, it is competitive and surmountable — which is why the two words travel together.
 ## topic
 General pharmacology
 ## subtopic
@@ -2091,7 +2091,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACODYNAMICS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Read a concentration-response curve to separate competitive from non-competitive antagonism, using Emax rather than apparent potency as the discriminator.
@@ -2143,19 +2143,19 @@ D
 ## answer_a
 Drug A has greater efficacy than Drug B
 ## explanation_a
-Incorrect, and it is the correct answer with the two drugs the wrong way round. Efficacy is measured by the maximum effect a drug can produce; Drug A tops out at 80% and Drug B at 100%, so B has the greater efficacy. A student who picks this has the definition right and has misread which number belongs to which drug — worth checking, because it is a careless error rather than a conceptual one.
+It is the correct answer with the two drugs the wrong way round. Efficacy is measured by the maximum effect a drug can produce; Drug A tops out at 80% and Drug B at 100%, so B has the greater efficacy. A student who picks this has the definition right and has misread which number belongs to which drug — worth checking, because it is a careless error rather than a conceptual one.
 ## answer_b
 Drug A has greater potency than Drug B
 ## explanation_b
-Incorrect, and unanswerable from what is given, which is the point of the option. Potency is about *dose* — how much drug is needed to produce a given effect, read off the position of the curve along the concentration axis. The stem gives only the two maxima and no doses at all, so nothing here says anything about potency in either direction. The trap is real because potency and efficacy are independent: a drug can be far more potent than another and still have lower efficacy, which is why morphine and a partial agonist cannot be ranked by strength alone.
+Unanswerable from what is given, which is the point of the option. Potency is about *dose* — how much drug is needed to produce a given effect, read off the position of the curve along the concentration axis. The stem gives only the two maxima and no doses at all, so nothing here says anything about potency in either direction. The trap is real because potency and efficacy are independent: a drug can be far more potent than another and still have lower efficacy, which is why morphine and a partial agonist cannot be ranked by strength alone.
 ## answer_c
 Drug A is a full agonist and Drug B is a partial agonist
 ## explanation_c
-Incorrect, and again inverted. The full agonist is the one that produces the tissue's maximal response — Drug B, at 100%. Drug A, which cannot exceed 80% however much is given, is behaving as a partial agonist: it occupies the receptor and activates it incompletely. This option catches the student who has understood that one of these is partial and assigned the label to the wrong curve.
+Again inverted. The full agonist is the one that produces the tissue's maximal response — Drug B, at 100%. Drug A, which cannot exceed 80% however much is given, is behaving as a partial agonist: it occupies the receptor and activates it incompletely. This option catches the student who has understood that one of these is partial and assigned the label to the wrong curve.
 ## answer_d
 Drug B has greater efficacy than Drug A
 ## explanation_d
-Correct. Efficacy is the size of the largest effect a drug can produce once every receptor it can reach is occupied; it is read off the *height* of the concentration-response curve. Drug B reaches 100% and Drug A stops at 80%, so B has the greater efficacy, and A is by definition a partial agonist at this receptor while B is a full one. Keep efficacy strictly apart from potency, which is read off the *position* of the curve on the concentration axis and describes the dose needed rather than the effect achievable. The two are independent, and the independence matters clinically: a highly potent drug with low efficacy is useless where a maximal response is required, and a partial agonist given alongside a full one behaves as an antagonist, because it occupies receptors it cannot fully activate — which is how buprenorphine limits the effect of a full opioid agonist.
+Efficacy is the size of the largest effect a drug can produce once every receptor it can reach is occupied; it is read off the *height* of the concentration-response curve. Drug B reaches 100% and Drug A stops at 80%, so B has the greater efficacy, and A is by definition a partial agonist at this receptor while B is a full one. Keep efficacy strictly apart from potency, which is read off the *position* of the curve on the concentration axis and describes the dose needed rather than the effect achievable. The two are independent, and the independence matters clinically: a highly potent drug with low efficacy is useless where a maximal response is required, and a partial agonist given alongside a full one behaves as an antagonist, because it occupies receptors it cannot fully activate — which is how buprenorphine limits the effect of a full opioid agonist.
 ## topic
 General pharmacology
 ## subtopic
@@ -2201,7 +2201,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACODYNAMICS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Compare two agonists at one receptor by efficacy rather than potency, and identify the one with the lower maximum as a partial agonist.
@@ -2244,19 +2244,19 @@ A
 ## answer_a
 It binds covalently, and its block ends only with new receptor synthesis
 ## explanation_a
-Correct, and it is the covalent bond that explains everything else. A reversible antagonist associates and dissociates continuously, so its effect is governed by its concentration and wanes as the drug is cleared; stop the drug and the receptor is free again. An irreversible antagonist forms a covalent bond with the receptor, which does not dissociate. Clearing the drug from plasma therefore does nothing for the receptors it has already reacted with — those are permanently out of service, and the tissue recovers only at the rate the cell synthesises new receptor protein, which takes days. Two consequences follow that examiners like. The duration of action of such a drug is set by receptor turnover rather than by its own half-life, which is why the block outlasts the drug in the body. And the antagonism cannot be overcome by giving more agonist, however much is given — phenoxybenzamine at the alpha-adrenoceptor is the standard example, and its use before surgery for phaeochromocytoma depends exactly on the block not being surmountable by the catecholamine surge.
+It is the covalent bond that explains everything else. A reversible antagonist associates and dissociates continuously, so its effect is governed by its concentration and wanes as the drug is cleared; stop the drug and the receptor is free again. An irreversible antagonist forms a covalent bond with the receptor, which does not dissociate. Clearing the drug from plasma therefore does nothing for the receptors it has already reacted with — those are permanently out of service, and the tissue recovers only at the rate the cell synthesises new receptor protein, which takes days. Two consequences follow that examiners like. The duration of action of such a drug is set by receptor turnover rather than by its own half-life, which is why the block outlasts the drug in the body. And the antagonism cannot be overcome by giving more agonist, however much is given — phenoxybenzamine at the alpha-adrenoceptor is the standard example, and its use before surgery for phaeochromocytoma depends exactly on the block not being surmountable by the catecholamine surge.
 ## answer_b
 It can be displaced by excess agonist, restoring the normal response
 ## explanation_b
-Incorrect, and it describes a competitive antagonist rather than either kind of non-competitive one. Displacement by excess agonist is the definition of surmountable, competitive antagonism. An irreversible antagonist is at the opposite extreme: it is covalently bound and cannot be displaced by anything.
+It describes a competitive antagonist rather than either kind of non-competitive one. Displacement by excess agonist is the definition of surmountable, competitive antagonism. An irreversible antagonist is at the opposite extreme: it is covalently bound and cannot be displaced by anything.
 ## answer_c
 It causes a parallel rightward shift of the concentration-response curve
 ## explanation_c
-Incorrect, and it is the competitive signature again. A parallel rightward shift with the maximum preserved is what competition looks like on a curve. Any non-competitive antagonist, reversible or not, lowers the maximum instead — so this statement is not a difference between the two kinds of non-competitive antagonist, it is untrue of both.
+It is the competitive signature again. A parallel rightward shift with the maximum preserved is what competition looks like on a curve. Any non-competitive antagonist, reversible or not, lowers the maximum instead — so this statement is not a difference between the two kinds of non-competitive antagonist, it is untrue of both.
 ## answer_d
 It does not affect the maximum response (Emax) of the agonist
 ## explanation_d
-Incorrect, and it is the reverse of the defining property. Every non-competitive antagonist reduces Emax, because the receptors it occupies are removed from the pool the agonist can use. The irreversible one does this permanently rather than transiently; it does not spare the maximum, it takes it away for longer.
+It is the reverse of the defining property. Every non-competitive antagonist reduces Emax, because the receptors it occupies are removed from the pool the agonist can use. The irreversible one does this permanently rather than transiently; it does not spare the maximum, it takes it away for longer.
 ## topic
 General pharmacology
 ## subtopic
@@ -2303,7 +2303,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACODYNAMICS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Explain why a covalently bound antagonist's action outlasts its plasma presence and ends only with receptor synthesis.
@@ -2346,19 +2346,19 @@ B
 ## answer_a
 Decreased drug absorption due to changes in gastrointestinal motility
 ## explanation_a
-Incorrect: this is pharmacokinetic. Anything that alters how much drug arrives in the plasma — absorption, distribution, metabolism, excretion — changes the concentration at the receptor without changing the receptor's response to it. Reduced absorption means less drug reaches the site of action, which is a kinetic explanation for a diminished effect, not a dynamic one.
+This is pharmacokinetic. Anything that alters how much drug arrives in the plasma — absorption, distribution, metabolism, excretion — changes the concentration at the receptor without changing the receptor's response to it. Reduced absorption means less drug reaches the site of action, which is a kinetic explanation for a diminished effect, not a dynamic one.
 ## answer_b
 Down-regulation of receptors following prolonged agonist administration
 ## explanation_b
-Correct, and it is the definition of pharmacodynamic tolerance: the drug is still arriving at the same concentration, and the tissue has stopped responding to it as it did. Continuous occupation of a receptor by an agonist triggers the cell to reduce the number of receptors on its surface — by internalising them and by transcribing fewer — so the same plasma concentration now engages fewer receptors and produces a smaller effect. Uncoupling of the receptor from its second-messenger system does the same thing without changing receptor number. That is the whole distinction the question is built on. Pharmacokinetic tolerance means the body clears the drug faster, most often because the drug has induced the microsomal enzymes that metabolise it; the concentration at the receptor falls. Pharmacodynamic tolerance means the concentration is unchanged and the response has fallen. The practical difference is that raising the dose restores the effect in kinetic tolerance far more reliably than in dynamic tolerance, where the receptors have gone — and down-regulation also explains why stopping a beta-blocker abruptly produces rebound, since up-regulated receptors meet an unopposed catecholamine.
+It is the definition of pharmacodynamic tolerance: the drug is still arriving at the same concentration, and the tissue has stopped responding to it as it did. Continuous occupation of a receptor by an agonist triggers the cell to reduce the number of receptors on its surface — by internalising them and by transcribing fewer — so the same plasma concentration now engages fewer receptors and produces a smaller effect. Uncoupling of the receptor from its second-messenger system does the same thing without changing receptor number. That is the whole distinction the question is built on. Pharmacokinetic tolerance means the body clears the drug faster, most often because the drug has induced the microsomal enzymes that metabolise it; the concentration at the receptor falls. Pharmacodynamic tolerance means the concentration is unchanged and the response has fallen. The practical difference is that raising the dose restores the effect in kinetic tolerance far more reliably than in dynamic tolerance, where the receptors have gone — and down-regulation also explains why stopping a beta-blocker abruptly produces rebound, since up-regulated receptors meet an unopposed catecholamine.
 ## answer_c
 Increased hepatic microsomal enzyme activity, degrading the drug faster
 ## explanation_c
-Incorrect: this is the textbook example of *pharmacokinetic* tolerance, and it is the strongest distractor because it is a real and common cause of tolerance. Enzyme induction speeds the drug's own metabolism so that less of it is present, which is a statement about concentration rather than about the receptor. A student who picks it has identified tolerance correctly and has not sorted it into the right half.
+This is the textbook example of *pharmacokinetic* tolerance, and it is the strongest distractor because it is a real and common cause of tolerance. Enzyme induction speeds the drug's own metabolism so that less of it is present, which is a statement about concentration rather than about the receptor. A student who picks it has identified tolerance correctly and has not sorted it into the right half.
 ## answer_d
 Reduction in drug bioavailability due to increased first-pass metabolism
 ## explanation_d
-Incorrect, and pharmacokinetic for the same reason as A and C. Bioavailability is the fraction of an oral dose reaching the systemic circulation; increased first-pass metabolism lowers it, so less drug arrives. Once again the receptor is unchanged and only the concentration reaching it has fallen.
+Pharmacokinetic for the same reason as A and C. Bioavailability is the fraction of an oral dose reaching the systemic circulation; increased first-pass metabolism lowers it, so less drug arrives. Once again the receptor is unchanged and only the concentration reaching it has fallen.
 ## topic
 General pharmacology
 ## subtopic
@@ -2406,7 +2406,7 @@ KAU_Y1
 ART-108-PHA-ADVERSE-DRUG-REACTIONS
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Sort mechanisms of acquired tolerance into pharmacokinetic and pharmacodynamic, and identify receptor down-regulation as the dynamic one.
@@ -2450,19 +2450,19 @@ B
 ## answer_a
 Allergy can occur on first exposure; idiosyncrasy requires repeated exposure.
 ## explanation_a
-Incorrect, and it is exactly the wrong way round. Allergy is an immune response, so the immune system must have met the drug or its metabolite before — prior sensitisation is required, and a genuinely first exposure does not produce it. Idiosyncrasy needs no prior exposure at all, because the genetic difference responsible was present before the drug was ever given; the very first dose can reveal it. This option catches a student who knows both requirements and has attached each to the other condition.
+It is exactly the wrong way round. Allergy is an immune response, so the immune system must have met the drug or its metabolite before — prior sensitisation is required, and a genuinely first exposure does not produce it. Idiosyncrasy needs no prior exposure at all, because the genetic difference responsible was present before the drug was ever given; the very first dose can reveal it. This option catches a student who knows both requirements and has attached each to the other condition.
 ## answer_b
 Allergy is immune-mediated; idiosyncrasy is genetically determined.
 ## explanation_b
-Correct, and it is the mechanism rather than a surface feature, which is why every other property follows from it. Both belong to Type B adverse reactions — bizarre, unpredictable from the drug's known pharmacology, and not dose-dependent in the ordinary sense — and the two are separated by what produces them. Allergy is an immune response to the drug or one of its metabolites acting as an antigen, so it requires prior sensitisation, bears no relation to the size of the dose, and can be severe after a trivial one. Idiosyncrasy is a qualitatively abnormal response arising from an inherited difference in an enzyme or a receptor — the haemolysis of glucose-6-phosphate dehydrogenase deficiency, or prolonged apnoea after suxamethonium in someone with atypical plasma cholinesterase. It is present on first exposure and needs no immune mechanism whatever. The third member of the group is worth holding beside them: super-sensitivity, an exaggerated but *qualitatively normal* action of the drug after a small therapeutic dose. Allergy and idiosyncrasy give a response the drug does not normally produce; super-sensitivity gives too much of the response it does.
+It is the mechanism rather than a surface feature, which is why every other property follows from it. Both belong to Type B adverse reactions — bizarre, unpredictable from the drug's known pharmacology, and not dose-dependent in the ordinary sense — and the two are separated by what produces them. Allergy is an immune response to the drug or one of its metabolites acting as an antigen, so it requires prior sensitisation, bears no relation to the size of the dose, and can be severe after a trivial one. Idiosyncrasy is a qualitatively abnormal response arising from an inherited difference in an enzyme or a receptor — the haemolysis of glucose-6-phosphate dehydrogenase deficiency, or prolonged apnoea after suxamethonium in someone with atypical plasma cholinesterase. It is present on first exposure and needs no immune mechanism whatever. The third member of the group is worth holding beside them: super-sensitivity, an exaggerated but *qualitatively normal* action of the drug after a small therapeutic dose. Allergy and idiosyncrasy give a response the drug does not normally produce; super-sensitivity gives too much of the response it does.
 ## answer_c
 Idiosyncrasy is dose-dependent; allergy occurs only at toxic doses.
 ## explanation_c
-Incorrect on both halves, and it imports the logic of Type A reactions into Type B. Type A reactions are dose-dependent extensions of the drug's known action; neither allergy nor idiosyncrasy is. Allergy in particular can be provoked by a minute quantity — that is what makes it dangerous — and idiosyncrasy is a qualitative difference in response rather than a matter of how much was given.
+This fails on both halves, importing the logic of Type A reactions into Type B. Type A reactions are dose-dependent extensions of the drug's known action; neither allergy nor idiosyncrasy is. Allergy in particular can be provoked by a minute quantity — that is what makes it dangerous — and idiosyncrasy is a qualitative difference in response rather than a matter of how much was given.
 ## answer_d
 Idiosyncrasy requires prior sensitization; allergy does not.
 ## explanation_d
-Incorrect, and it is the same inversion as option A stated the other way about. Prior sensitisation is the requirement of *allergy*, because an immune response cannot occur to an antigen the immune system has never met. Idiosyncrasy is genetic and needs no sensitisation of any kind.
+It is the same inversion as option A stated the other way about. Prior sensitisation is the requirement of *allergy*, because an immune response cannot occur to an antigen the immune system has never met. Idiosyncrasy is genetic and needs no sensitisation of any kind.
 ## topic
 General pharmacology
 ## subtopic
@@ -2508,7 +2508,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-ADVERSE-DRUG-REACTIONS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Distinguish drug allergy from idiosyncrasy by mechanism, and derive from that mechanism which of the two needs prior exposure.
@@ -2552,19 +2552,19 @@ D
 ## answer_a
 Kidney infarction.
 ## explanation_a
-Incorrect. Renal infarction gives coagulative necrosis, like infarction of almost every solid organ: ischaemia denatures the structural proteins faster than lysosomal enzymes can digest them, so the dead tissue stays firm and the outlines of tubules and glomeruli remain visible as ghosts. This option, with the two that follow, catches the student who has learned "infarct" and stopped there.
+Renal infarction gives coagulative necrosis, like infarction of almost every solid organ: ischaemia denatures the structural proteins faster than lysosomal enzymes can digest them, so the dead tissue stays firm and the outlines of tubules and glomeruli remain visible as ghosts. This option, with the two that follow, catches the student who has learned "infarct" and stopped there.
 ## answer_b
 Heart infarction.
 ## explanation_b
-Incorrect, and coagulative for the same reason. The infarcted myocardium remains firm and pale for days, with ghost muscle fibres that have lost their nuclei but kept their outline. It is the standard illustration of coagulative necrosis in every textbook, which is why it appears here.
+Coagulative for the same reason. The infarcted myocardium remains firm and pale for days, with ghost muscle fibres that have lost their nuclei but kept their outline. It is the standard illustration of coagulative necrosis in every textbook, which is why it appears here.
 ## answer_c
 Splenic infarction.
 ## explanation_c
-Incorrect, and coagulative again. Three of the four options are solid-organ infarcts and all three behave the same way; offering three of them is the examiner's way of making the point that infarction and liquefaction are not the same idea.
+Coagulative again. Three of the four options are solid-organ infarcts and all three behave the same way; offering three of them is the examiner's way of making the point that infarction and liquefaction are not the same idea.
 ## answer_d
 Centers of pyogenic abscesses
 ## explanation_d
-Correct. Liquefactive — or colliquative — necrosis is necrosis in which the dead tissue is digested to a fluid mass, and the book gives two settings for it. Pus in suppurative inflammation is one: the neutrophils that flooded the site release powerful hydrolytic enzymes that liquefy the dead tissue, and the creamy centre of an abscess is the result. The other is infarction of the central nervous system, which is the exception to the coagulative rule for infarcts, because brain tissue is rich in lipid, poor in supporting stroma and readily digested by its own enzymes; the softened area is walled off by glial tissue and ends as a cyst. Do not answer "brain" reflexively when this is asked. The examiner here offers three solid-organ infarcts and one abscess, and pus is liquefactive necrosis just as surely as a cerebral infarct is.
+Liquefactive — or colliquative — necrosis is necrosis in which the dead tissue is digested to a fluid mass, and it arises in two settings. Pus in suppurative inflammation is one: the neutrophils that flooded the site release powerful hydrolytic enzymes that liquefy the dead tissue, and the creamy centre of an abscess is the result. The other is infarction of the central nervous system, which is the exception to the coagulative rule for infarcts, because brain tissue is rich in lipid, poor in supporting stroma and readily digested by its own enzymes; the softened area is walled off by glial tissue and ends as a cyst. Do not answer "brain" reflexively when this is asked. The examiner here offers three solid-organ infarcts and one abscess, and pus is liquefactive necrosis just as surely as a cerebral infarct is.
 ## topic
 General pathology
 ## subtopic
@@ -2611,7 +2611,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-NECROSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Identify pus and cerebral infarction as the two settings of liquefactive necrosis, and assign solid-organ infarction to coagulative necrosis.
@@ -2655,19 +2655,19 @@ C
 ## answer_a
 Lipases
 ## explanation_a
-Incorrect. Lipases split fats, and the one that matters in this module is pancreatic lipase, which produces the enzymatic fat necrosis of acute pancreatitis. They have no role in apoptosis, where the substrates that matter are proteins and DNA.
+Lipases split fats, and the one that matters in this module is pancreatic lipase, which produces the enzymatic fat necrosis of acute pancreatitis. They have no role in apoptosis, where the substrates that matter are proteins and DNA.
 ## answer_b
 Proteases
 ## explanation_b
-Incorrect as the answer, although it is not a false statement — which is exactly why it is the distractor to beat. Caspases *are* proteases; they are cysteine proteases that cleave after aspartate residues, which is what the name records. But "proteases" names a vast class that includes pepsin, trypsin and the lysosomal enzymes of necrosis, and it says nothing specific about apoptosis. The examiner is asking for the group that brings apoptosis about, and the answer at that level of precision is caspases. Both the department book's own formative question and this paper offer proteases against caspases, so the discrimination is deliberate and it is worth expecting.
+This is not the answer, although it is not a false statement either — which is exactly why it is the distractor to beat. Caspases *are* proteases; they are cysteine proteases that cleave after aspartate residues, which is what the name records. But "proteases" names a vast class that includes pepsin, trypsin and the lysosomal enzymes of necrosis, and it says nothing specific about apoptosis. The examiner is asking for the group that brings apoptosis about, and the answer at that level of precision is caspases. This same distractor — proteases set against caspases — turns up more than once, so it is a discrimination worth expecting.
 ## answer_c
 Caspases
 ## explanation_c
-Correct. Apoptosis is executed by the caspases, a family of proteases that the cell holds as inactive precursors and activates in a cascade once the decision to die has been made. Their effect is direct and destructive in a controlled way: they break down the nuclear membrane and activate DNAases that cut nuclear DNA into fragments, and they dismantle the cytoskeleton, which is what produces the shrinkage and blebbing seen down the microscope. Keep execution separate from control. The bcl-2 protein family *controls* apoptosis — the balance of its pro- and anti-apoptotic members decides whether the cascade starts — and the caspases *execute* it once it has. Examiners ask for the two separately, and the 2025 paper asked for the controlling family in the same section of its own sitting.
+Apoptosis is executed by the caspases, a family of proteases that the cell holds as inactive precursors and activates in a cascade once the decision to die has been made. Their effect is direct and destructive in a controlled way: they break down the nuclear membrane and activate DNAases that cut nuclear DNA into fragments, and they dismantle the cytoskeleton, which is what produces the shrinkage and blebbing seen down the microscope. Keep execution separate from control. The bcl-2 protein family *controls* apoptosis — the balance of its pro- and anti-apoptotic members decides whether the cascade starts — and the caspases *execute* it once it has. Examiners ask for the two separately, and the 2025 paper asked for the controlling family in the same section of its own sitting.
 ## answer_d
 Catalases
 ## explanation_d
-Incorrect. Catalase is an antioxidant enzyme: it breaks hydrogen peroxide down to water and oxygen and is part of the cell's defence against free radicals. Its place in this module is in the mechanisms of cell injury — oxidative stress is free-radical production outrunning defences of which catalase is one — and not in apoptosis.
+Catalase is an antioxidant enzyme: it breaks hydrogen peroxide down to water and oxygen and is part of the cell's defence against free radicals. Its place in this module is in the mechanisms of cell injury — oxidative stress is free-radical production outrunning defences of which catalase is one — and not in apoptosis.
 ## topic
 General pathology
 ## subtopic
@@ -2715,7 +2715,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-APOPTOSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Name the caspases as the executioner enzymes of apoptosis and explain why the broader answer "proteases" is not what the question asks for.
@@ -2759,19 +2759,19 @@ C
 ## answer_a
 Intracellular accumulation of neutral lipids in parenchymatous organs occurs.
 ## explanation_a
-Incorrect, and it is the swap this question exists to catch. Intracellular accumulation of triglyceride inside living parenchymal cells is **fatty change**, or steatosis — the fatty liver, the fatty myocardium. Fat necrosis is death of adipose tissue. The two share the word fat and share nothing else: one is a reversible accumulation inside a living cell, the other is the death of a tissue.
+It is the swap this question exists to catch. Intracellular accumulation of triglyceride inside living parenchymal cells is **fatty change**, or steatosis — the fatty liver, the fatty myocardium. Fat necrosis is death of adipose tissue. The two share the word fat and share nothing else: one is a reversible accumulation inside a living cell, the other is the death of a tissue.
 ## answer_b
 Depression of mitochondrial enzymes occurs in enzymatic fat necrosis
 ## explanation_b
-Incorrect. Enzymatic fat necrosis is caused by *pancreatic lipase* leaking from an inflamed pancreas and splitting the triglyceride of mesenteric and omental fat. Mitochondrial enzymes have no part in it. The option is built to sound mechanistic enough to attract a student who is reasoning about cell death in general terms rather than recalling what enzymatic means here.
+Enzymatic fat necrosis is caused by *pancreatic lipase* leaking from an inflamed pancreas and splitting the triglyceride of mesenteric and omental fat. Mitochondrial enzymes have no part in it. The option is built to sound mechanistic enough to attract a student who is reasoning about cell death in general terms rather than recalling what enzymatic means here.
 ## answer_c
 The affected areas are chalky white due to formation of calcium soaps
 ## explanation_c
-Correct, and the chalky white plaque is the thing to picture. In acute pancreatitis, lipase escaping from the inflamed gland splits the triglyceride of mesenteric and omental fat into glycerol and free fatty acids; those fatty acids then combine with calcium to form insoluble calcium soaps, which appear as chalky white deposits scattered over the omentum and mesentery. The consumption of calcium is enough to lower the serum level, which is why hypocalcaemia is used as a marker of severity in acute pancreatitis. That is the enzymatic form. The other form is traumatic fat necrosis, which follows injury to adipose tissue — commonly the breast: fat released from damaged adipocytes provokes inflammation, macrophages engulf it, and the fibrosis that follows leaves a firm mass that can be mistaken clinically for a carcinoma. Both are death of adipose tissue, and neither is the same thing as fatty change inside a living cell.
+The chalky white plaque is the thing to picture. In acute pancreatitis, lipase escaping from the inflamed gland splits the triglyceride of mesenteric and omental fat into glycerol and free fatty acids; those fatty acids then combine with calcium to form insoluble calcium soaps, which appear as chalky white deposits scattered over the omentum and mesentery. The consumption of calcium is enough to lower the serum level, which is why hypocalcaemia is used as a marker of severity in acute pancreatitis. That is the enzymatic form. The other form is traumatic fat necrosis, which follows injury to adipose tissue — commonly the breast: fat released from damaged adipocytes provokes inflammation, macrophages engulf it, and the fibrosis that follows leaves a firm mass that can be mistaken clinically for a carcinoma. Both are death of adipose tissue, and neither is the same thing as fatty change inside a living cell.
 ## answer_d
 May occur due to excessive mobilization of fat from its stores to the liver.
 ## explanation_d
-Incorrect, and it describes a cause of hepatic **steatosis**, not of fat necrosis. Increased entry of fatty acids into the liver — in starvation, or with corticosteroid excess — is one of the four routes to a fatty liver. Two of this question's four options therefore describe fatty change, which tells you how deliberately the examiner is testing the fatty change / fat necrosis boundary.
+It describes a cause of hepatic **steatosis**, not of fat necrosis. Increased entry of fatty acids into the liver — in starvation, or with corticosteroid excess — is one of the four routes to a fatty liver. Two of this question's four options therefore describe fatty change, which tells you how deliberately the examiner is testing the fatty change / fat necrosis boundary.
 ## topic
 General pathology
 ## subtopic
@@ -2820,7 +2820,7 @@ KAU_Y1
 ART-108-PAT-NECROSIS
 ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 State why enzymatic fat necrosis produces chalky white calcium soaps, and separate fat necrosis from fatty change of parenchymal cells.
@@ -2864,19 +2864,19 @@ C
 ## answer_a
 Caseation necrosis
 ## explanation_a
-Incorrect. Caseation is the cheese-like necrosis of tuberculosis, produced by digestion of tissue by activated macrophages, and its setting is granulomatous infection rather than immune vascular damage. It does involve the immune system, which is presumably the attraction, but through cell-mediated immunity against an organism rather than through autoimmunity against the vessel.
+Caseation is the cheese-like necrosis of tuberculosis, produced by digestion of tissue by activated macrophages, and its setting is granulomatous infection rather than immune vascular damage. It does involve the immune system, which is presumably the attraction, but through cell-mediated immunity against an organism rather than through autoimmunity against the vessel.
 ## answer_b
 Liquefactive necrosis.
 ## explanation_b
-Incorrect. Liquefaction is the digestion of dead tissue to fluid, seen in cerebral infarction and in pus. Neither setting is a vessel wall and neither is autoimmune. This option is here as a general necrosis distractor rather than as a near miss.
+Liquefaction is the digestion of dead tissue to fluid, seen in cerebral infarction and in pus. Neither setting is a vessel wall and neither is autoimmune. This option is here as a general necrosis distractor rather than as a near miss.
 ## answer_c
 Fibrinoid necrosis.
 ## explanation_c
-Correct. Fibrinoid necrosis is a special form of necrosis in which the necrotic material takes on the staining reactions of fibrin — with haematoxylin and eosin it appears as a deep red, homogeneous, structureless material. Its settings are exactly the two the stem points at: immune reactions involving blood vessels, such as polyarteritis nodosa, and damage to collagen in some autoimmune diseases, such as rheumatoid arthritis. The mechanism is deposition of immune complexes together with plasma protein, including fibrin, in the damaged wall. The name is a warning as much as a description: "fibrinoid" means it *resembles* fibrin in how it stains, not that fibrin is what it is made of. It records an appearance, not a composition — which is the misreading the concept record singles out.
+Fibrinoid necrosis is a special form of necrosis in which the necrotic material takes on the staining reactions of fibrin — with haematoxylin and eosin it appears as a deep red, homogeneous, structureless material. Its settings are exactly the two the stem points at: immune reactions involving blood vessels, such as polyarteritis nodosa, and damage to collagen in some autoimmune diseases, such as rheumatoid arthritis. The mechanism is deposition of immune complexes together with plasma protein, including fibrin, in the damaged wall. The name is a warning as much as a description: "fibrinoid" means it *resembles* fibrin in how it stains, not that fibrin is what it is made of. It records an appearance, not a composition — which is the misreading the concept record singles out.
 ## answer_d
 Coagulative necrosis
 ## explanation_d
-Incorrect. Coagulative necrosis is ischaemic necrosis, the pattern of infarction in solid organs, where protein denaturation preserves the outlines of dead cells. It is a consequence of loss of blood supply rather than of immune attack on the vessel, and it involves the tissue supplied rather than the vessel wall itself.
+Coagulative necrosis is ischaemic necrosis, the pattern of infarction in solid organs, where protein denaturation preserves the outlines of dead cells. It is a consequence of loss of blood supply rather than of immune attack on the vessel, and it involves the tissue supplied rather than the vessel wall itself.
 ## topic
 General pathology
 ## subtopic
@@ -2925,7 +2925,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-NECROSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Assign fibrinoid necrosis to immune vascular and collagen damage, and explain what the suffix "-oid" is claiming about the material.
@@ -2968,19 +2968,19 @@ C
 ## answer_a
 Swelling of the nucleus.
 ## explanation_a
-Incorrect, and there is no named nuclear change of necrosis that is swelling. The three the book gives all go the other way — fading, shrinking, fragmenting — because the nucleus of a dying cell is being dismantled rather than filled. Cell swelling belongs to the cytoplasm in reversible injury and in necrosis, not to the nucleus.
+There is no named nuclear change of necrosis that is swelling. The three named changes all go the other way — fading, shrinking, fragmenting — because the nucleus of a dying cell is being dismantled rather than filled. Cell swelling belongs to the cytoplasm in reversible injury and in necrosis, not to the nucleus.
 ## answer_b
 Shrinkage of the nucleus
 ## explanation_b
-Incorrect: this is **pyknosis**, and it is the answer to beat here. Pyknosis is shrinkage of the whole nucleus into a small dense basophilic mass, and it is the step that precedes karyorrhexis — the pyknotic nucleus then fragments. The two are consecutive stages of one process with similar-sounding Greek names, which is precisely why the examiner asked for the definition alone with no other context.
+This is **pyknosis**, and it is the answer to beat here. Pyknosis is shrinkage of the whole nucleus into a small dense basophilic mass, and it is the step that precedes karyorrhexis — the pyknotic nucleus then fragments. The two are consecutive stages of one process with similar-sounding Greek names, which is precisely why the examiner asked for the definition alone with no other context.
 ## answer_c
 Fragmentation of the nucleus
 ## explanation_c
-Correct. Karyorrhexis is destructive fragmentation of the nucleus: the dense pyknotic nucleus breaks into pieces which then disperse. It is one of the three nuclear changes by which necrosis is recognised, and the three are worth holding as a set with their meanings attached. Karyolysis is fading of nuclear basophilia as DNAases digest the chromatin. Pyknosis is shrinkage of the nucleus into a dense mass. Karyorrhexis is fragmentation of that mass. Eventually the nucleus disappears altogether. Alongside them the cytoplasm becomes more eosinophilic — pinker on haematoxylin and eosin — partly from the loss of cytoplasmic RNA that would have bound haematoxylin and partly from denatured protein binding eosin, the cell border loses definition, and later the whole area appears as structureless pink material.
+Karyorrhexis is destructive fragmentation of the nucleus: the dense pyknotic nucleus breaks into pieces which then disperse. It is one of the three nuclear changes by which necrosis is recognised, and the three are worth holding as a set with their meanings attached. Karyolysis is fading of nuclear basophilia as DNAases digest the chromatin. Pyknosis is shrinkage of the nucleus into a dense mass. Karyorrhexis is fragmentation of that mass. Eventually the nucleus disappears altogether. Alongside them the cytoplasm becomes more eosinophilic — pinker on haematoxylin and eosin — partly from the loss of cytoplasmic RNA that would have bound haematoxylin and partly from denatured protein binding eosin, the cell border loses definition, and later the whole area appears as structureless pink material.
 ## answer_d
 Deep staining of the nucleus
 ## explanation_d
-Incorrect, and it is the observable *appearance* of pyknosis rather than a change of its own. A pyknotic nucleus does stain deeply, because the same amount of chromatin is condensed into a smaller volume. Describing that appearance is not what karyorrhexis means, and a student who picks it is one step removed from the pyknosis answer in option B.
+It is the observable *appearance* of pyknosis rather than a change of its own. A pyknotic nucleus does stain deeply, because the same amount of chromatin is condensed into a smaller volume. Describing that appearance is not what karyorrhexis means, and a student who picks it is one step removed from the pyknosis answer in option B.
 ## topic
 General pathology
 ## subtopic
@@ -3027,7 +3027,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-NECROSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Define karyorrhexis and place it against karyolysis and pyknosis as the three nuclear changes of necrosis.
@@ -3071,19 +3071,19 @@ D
 ## answer_a
 It is typically irreversible.
 ## explanation_a
-Incorrect, and it is the clinically important error. Fatty change is a **reversible** accumulation inside living hepatocytes: remove the cause — stop the alcohol, correct the malnutrition, relieve the hypoxia — and the fat is cleared and the liver returns to normal. What is irreversible is what may follow if the cause persists, alcoholic hepatitis and then cirrhosis, but steatosis itself is not that stage.
+It is the clinically important error. Fatty change is a **reversible** accumulation inside living hepatocytes: remove the cause — stop the alcohol, correct the malnutrition, relieve the hypoxia — and the fat is cleared and the liver returns to normal. What is irreversible is what may follow if the cause persists, alcoholic hepatitis and then cirrhosis, but steatosis itself is not that stage.
 ## answer_b
 the liver is shrunken, yellow and greasy.
 ## explanation_b
-Incorrect in exactly one word, which is what makes it the strongest distractor. The fatty liver *is* yellow and greasy on the cut surface — but it is **enlarged** and soft, with rounded borders that record its softness, not shrunken. A shrunken liver points to cirrhosis, the end of a different road. Two-thirds of this option is a correct description, so a student reading quickly will accept it.
+The error is exactly one word, which is what makes this the strongest distractor. The fatty liver *is* yellow and greasy on the cut surface — but it is **enlarged** and soft, with rounded borders that record its softness, not shrunken. A shrunken liver points to cirrhosis, the end of a different road. Two-thirds of this option is a correct description, so a student reading quickly will accept it.
 ## answer_c
 It is an abnormal accumulation of lipid within portal tract areas.
 ## explanation_c
-Incorrect, and it puts the fat in the wrong compartment. Steatosis is the accumulation of triglyceride **inside hepatocytes** — small droplets or a single large vacuole that flattens the nucleus against the cell membrane and gives the signet-ring appearance. The portal tracts are connective tissue carrying the portal triad; fat does not collect there. This option catches a student who knows the liver's architecture and has not asked which compartment the fat is in.
+It puts the fat in the wrong compartment. Steatosis is the accumulation of triglyceride **inside hepatocytes** — small droplets or a single large vacuole that flattens the nucleus against the cell membrane and gives the signet-ring appearance. The portal tracts are connective tissue carrying the portal triad; fat does not collect there. This option catches a student who knows the liver's architecture and has not asked which compartment the fat is in.
 ## answer_d
 May be caused by alcohol intake.
 ## explanation_d
-Correct, and alcohol is the heaviest cause in the book because it acts at two separate steps. Hepatic steatosis arises when lipid enters the hepatocyte faster than it leaves, and the book gives four routes with an example each: increased entry of fatty acids into the liver, as in starvation and corticosteroid excess; decreased fatty acid oxidation, as in hypoxia; increased triglyceride formation, as with alcohol; and impaired secretion of lipoprotein out of the hepatocyte, also alcohol. Naming alcohol as one mechanism is the common half-answer — it works at two, which is why it produces fatty liver so readily and so early. The morphology to hold alongside the causes: grossly the liver is enlarged and soft with rounded borders, and yellow and greasy on section; microscopically the fat forms droplets or one large vacuole that pushes the nucleus to one side, giving the signet-ring cell, and in a paraffin section that vacuole looks empty because the fat dissolved in the xylol and alcohol during processing.
+Alcohol is the heaviest cause because it acts at two separate steps. Hepatic steatosis arises when lipid enters the hepatocyte faster than it leaves, through four routes, each with its own example: increased entry of fatty acids into the liver, as in starvation and corticosteroid excess; decreased fatty acid oxidation, as in hypoxia; increased triglyceride formation, as with alcohol; and impaired secretion of lipoprotein out of the hepatocyte, also alcohol. Naming alcohol as one mechanism is the common half-answer — it works at two, which is why it produces fatty liver so readily and so early. The morphology to hold alongside the causes: grossly the liver is enlarged and soft with rounded borders, and yellow and greasy on section; microscopically the fat forms droplets or one large vacuole that pushes the nucleus to one side, giving the signet-ring cell, and in a paraffin section that vacuole looks empty because the fat dissolved in the xylol and alcohol during processing.
 ## topic
 General pathology
 ## subtopic
@@ -3131,7 +3131,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 State that hepatic steatosis is reversible, name alcohol among its causes, and describe the fatty liver correctly as enlarged rather than shrunken.
@@ -3175,19 +3175,19 @@ C
 ## answer_a
 Tuberculosis
 ## explanation_a
-Incorrect for *primary* amyloidosis, though tuberculosis is a textbook cause of the secondary form. Secondary, or reactive, amyloidosis follows long-standing chronic inflammation — bronchiectasis, chronic osteomyelitis, rheumatoid disease, tuberculosis, Crohn's disease, ulcerative colitis — and deposits AA protein derived from serum amyloid-associated protein, an acute-phase reactant the liver secretes under the drive of inflammatory cytokines. Right disease, wrong half of the classification.
+This does not fit *primary* amyloidosis, though tuberculosis is a textbook cause of the secondary form. Secondary, or reactive, amyloidosis follows long-standing chronic inflammation — bronchiectasis, chronic osteomyelitis, rheumatoid disease, tuberculosis, Crohn's disease, ulcerative colitis — and deposits AA protein derived from serum amyloid-associated protein, an acute-phase reactant the liver secretes under the drive of inflammatory cytokines. Right disease, wrong half of the classification.
 ## answer_b
 Acute inflammation
 ## explanation_b
-Incorrect, and the word acute is what makes it wrong. Reactive amyloidosis needs the acute-phase response to be sustained for a long time before enough AA protein accumulates to deposit; a short-lived acute inflammation raises SAA and then stops. Amyloidosis is a disease of chronicity in every one of its reactive forms.
+The word acute is what makes it wrong. Reactive amyloidosis needs the acute-phase response to be sustained for a long time before enough AA protein accumulates to deposit; a short-lived acute inflammation raises SAA and then stops. Amyloidosis is a disease of chronicity in every one of its reactive forms.
 ## answer_c
 Plasma cell tumor (multiple myeloma)
 ## explanation_c
-Correct. Primary amyloidosis is myeloma-associated amyloidosis and it deposits AL protein — amyloid light chain. Myeloma is a plasma-cell tumour arising in bone marrow that produces a large amount of a single immunoglobulin class with one light-chain type, and it is that monoclonal light chain, folded into a beta-pleated sheet, which forms the amyloid. The name causes trouble and is worth unpicking: "primary" here does not mean idiopathic. It means the amyloid is the first disease process rather than a reaction to a long-standing one — the classification is by aetiology into primary (myeloma-associated, AL), secondary (reactive, AA, following chronic inflammation) and senile (transthyretin, in the heart and vessel walls of the elderly, rarely of clinical consequence). Pair the type of amyloid with the disease and neither question in this pair can catch you: plasma cells make light chains, so myeloma gives AL; chronic inflammation drives the acute-phase response, so it gives AA.
+Primary amyloidosis is myeloma-associated amyloidosis and it deposits AL protein — amyloid light chain. Myeloma is a plasma-cell tumour arising in bone marrow that produces a large amount of a single immunoglobulin class with one light-chain type, and it is that monoclonal light chain, folded into a beta-pleated sheet, which forms the amyloid. The name causes trouble and is worth unpicking: "primary" here does not mean idiopathic. It means the amyloid is the first disease process rather than a reaction to a long-standing one — the classification is by aetiology into primary (myeloma-associated, AL), secondary (reactive, AA, following chronic inflammation) and senile (transthyretin, in the heart and vessel walls of the elderly, rarely of clinical consequence). Pair the type of amyloid with the disease and neither question in this pair can catch you: plasma cells make light chains, so myeloma gives AL; chronic inflammation drives the acute-phase response, so it gives AA.
 ## answer_d
 Renal transplantation
 ## explanation_d
-Incorrect. The kidney is the organ most often damaged *by* amyloid — glomerular deposition obliterates the tuft and presents as proteinuria progressing to renal failure — so the association a student half-remembers runs the other way. Transplantation is not a cause of amyloidosis of either kind.
+The kidney is the organ most often damaged *by* amyloid — glomerular deposition obliterates the tuft and presents as proteinuria progressing to renal failure — so the association a student half-remembers runs the other way. Transplantation is not a cause of amyloidosis of either kind.
 ## topic
 General pathology
 ## subtopic
@@ -3233,7 +3233,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-AMYLOIDOSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Assign primary amyloidosis to multiple myeloma and AL protein, and explain why "primary" does not mean idiopathic here.
@@ -3277,19 +3277,19 @@ B
 ## answer_a
 Ulcerative colitis.
 ## explanation_a
-Incorrect as the exception — ulcerative colitis does produce AA amyloid. It is one of the chronic inflammatory bowel diseases the book names alongside Crohn's disease, and the mechanism is the sustained acute-phase response: inflammatory cytokines drive hepatocytes to secrete serum amyloid-associated protein, and AA amyloid is derived from it.
+Ulcerative colitis does produce AA amyloid. It is one of the chronic inflammatory bowel diseases, alongside Crohn's disease, and the mechanism is the sustained acute-phase response: inflammatory cytokines drive hepatocytes to secrete serum amyloid-associated protein, and AA amyloid is derived from it.
 ## answer_b
 Multiple myeloma.
 ## explanation_b
-Correct — this is the exception the question is looking for. Myeloma is a plasma-cell tumour, and plasma cells make immunoglobulin. The monoclonal light chains it produces in excess are what form the amyloid, so myeloma deposits **AL** protein — amyloid light chain — not AA. Every other option is a long-standing chronic inflammatory disease, and chronic inflammation works through a completely different route: the liver secretes serum amyloid-associated protein as an acute-phase reactant under cytokine drive, and AA amyloid is derived from that precursor. The two commonest amyloid proteins therefore have two clean stories. AL comes from plasma cells and appears in myeloma-associated, primary amyloidosis. AA comes from the acute-phase response and appears in reactive, secondary amyloidosis. If you can name the cell of origin you can name the protein, and an "EXCEPT" question like this one becomes a matter of spotting which option is not a chronic inflammation.
+This is the exception the question is looking for. Myeloma is a plasma-cell tumour, and plasma cells make immunoglobulin. The monoclonal light chains it produces in excess are what form the amyloid, so myeloma deposits **AL** protein — amyloid light chain — not AA. Every other option is a long-standing chronic inflammatory disease, and chronic inflammation works through a completely different route: the liver secretes serum amyloid-associated protein as an acute-phase reactant under cytokine drive, and AA amyloid is derived from that precursor. The two commonest amyloid proteins therefore have two clean stories. AL comes from plasma cells and appears in myeloma-associated, primary amyloidosis. AA comes from the acute-phase response and appears in reactive, secondary amyloidosis. If you can name the cell of origin you can name the protein, and an "EXCEPT" question like this one becomes a matter of spotting which option is not a chronic inflammation.
 ## answer_c
 Tuberculosis
 ## explanation_c
-Incorrect as the exception — tuberculosis is the classic cause of AA amyloid. It is a chronic granulomatous infection that can persist for years, which is exactly the sustained acute-phase response reactive amyloidosis requires.
+Tuberculosis is the classic cause of AA amyloid. It is a chronic granulomatous infection that can persist for years, which is exactly the sustained acute-phase response reactive amyloidosis requires.
 ## answer_d
 Chronic osteomyelitis.
 ## explanation_d
-Incorrect as the exception — chronic osteomyelitis produces AA amyloid too, and for the same reason as tuberculosis and ulcerative colitis. Three of the four options are chronic inflammatory diseases, which is the pattern that identifies the odd one out.
+Chronic osteomyelitis produces AA amyloid too, and for the same reason as tuberculosis and ulcerative colitis. Three of the four options are chronic inflammatory diseases, which is the pattern that identifies the odd one out.
 ## topic
 General pathology
 ## subtopic
@@ -3336,7 +3336,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-AMYLOIDOSIS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Derive the fibril protein from the underlying disease — AL from plasma-cell light chains, AA from the acute-phase response — and use that to find the exception in a list.
@@ -3380,19 +3380,19 @@ C
 ## answer_a
 Lipofuscin pigments
 ## explanation_a
-Incorrect. Lipofuscin is the wear-and-tear pigment of lipid peroxidation, a yellow-brown granular material that gathers with age in heart, liver and neurones; it is endogenous, harmless, and its classic setting is brown atrophy of the heart. It is not inhaled and it does not blacken the lung.
+Lipofuscin is the wear-and-tear pigment of lipid peroxidation, a yellow-brown granular material that gathers with age in heart, liver and neurones; it is endogenous, harmless, and its classic setting is brown atrophy of the heart. It is not inhaled and it does not blacken the lung.
 ## answer_b
 Haemosiderin pigments
 ## explanation_b
-Incorrect, but it is the option worth pausing on, because haemosiderin genuinely does accumulate in the lung — in chronic pulmonary venous congestion, where red cells extravasate and alveolar macrophages laden with the iron pigment become the "heart failure cells" of a left-sided failure. That is a golden-brown pigment from broken-down haemoglobin, endogenous and iron-containing, and it stains blue with Prussian blue. Anthracosis is none of those things.
+It is the option worth pausing on, because haemosiderin genuinely does accumulate in the lung — in chronic pulmonary venous congestion, where red cells extravasate and alveolar macrophages laden with the iron pigment become the "heart failure cells" of a left-sided failure. That is a golden-brown pigment from broken-down haemoglobin, endogenous and iron-containing, and it stains blue with Prussian blue. Anthracosis is none of those things.
 ## answer_c
 Carbon particles
 ## explanation_c
-Correct. Carbon is an exogenous pigment — it comes from outside the body, in air polluted by factory and vehicle exhaust and in tobacco smoke. Inhaled particles are taken up by alveolar macrophages and carried through lymphatic channels to the tracheobronchial lymph nodes, and their accumulation blackens both the lung tissue and the nodes. That blackening is anthracosis, and by itself it is a marker of exposure rather than a disease: it causes no functional impairment. What matters is the distinction from the disease that a heavy dust load can cause. In coal miners the aggregates of carbon dust may provoke a fibroblastic reaction, and that fibrosis is coal worker's pneumoconiosis. Anthracosis is the pigment; the pneumoconiosis is the reaction to it, and only the second damages the lung. The same pigment inoculated into the dermis rather than inhaled is a tattoo, phagocytosed by dermal macrophages and permanent for the same reason.
+Carbon is an exogenous pigment — it comes from outside the body, in air polluted by factory and vehicle exhaust and in tobacco smoke. Inhaled particles are taken up by alveolar macrophages and carried through lymphatic channels to the tracheobronchial lymph nodes, and their accumulation blackens both the lung tissue and the nodes. That blackening is anthracosis, and by itself it is a marker of exposure rather than a disease: it causes no functional impairment. What matters is the distinction from the disease that a heavy dust load can cause. In coal miners the aggregates of carbon dust may provoke a fibroblastic reaction, and that fibrosis is coal worker's pneumoconiosis. Anthracosis is the pigment; the pneumoconiosis is the reaction to it, and only the second damages the lung. The same pigment inoculated into the dermis rather than inhaled is a tattoo, phagocytosed by dermal macrophages and permanent for the same reason.
 ## answer_d
 Calcium salts
 ## explanation_d
-Incorrect. Calcium does deposit in the lung — the lung is one of the sites of metastatic calcification in hypercalcaemia — but calcium salts are a mineral, not a pigment, and they are white rather than black. Anthracosis is defined by its blackening, so the option is excluded by colour alone.
+Calcium does deposit in the lung — the lung is one of the sites of metastatic calcification in hypercalcaemia — but calcium salts are a mineral, not a pigment, and they are white rather than black. Anthracosis is defined by its blackening, so the option is excluded by colour alone.
 ## topic
 General pathology
 ## subtopic
@@ -3439,7 +3439,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-PATHOLOGICAL-PIGMENTS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Identify carbon as the pigment of anthracosis and separate the pigmentation itself from coal worker's pneumoconiosis.
@@ -3482,19 +3482,19 @@ C
 ## answer_a
 Amyloidosis of the pancreas
 ## explanation_a
-Incorrect. Amyloid deposition in the pancreatic islets is a real finding — it is one of the localised amyloidoses, seen in the islets in type 2 diabetes — so there is a pancreas-and-diabetes association here, and that is what the option trades on. But amyloid is colourless in tissue and produces no skin pigmentation at all, so nothing about it could make a patient bronze.
+Amyloid deposition in the pancreatic islets is a real finding — it is one of the localised amyloidoses, seen in the islets in type 2 diabetes — so there is a pancreas-and-diabetes association here, and that is what the option trades on. But amyloid is colourless in tissue and produces no skin pigmentation at all, so nothing about it could make a patient bronze.
 ## answer_b
 Wilson disease
 ## explanation_b
-Incorrect, though it is the closest relative among the distractors: Wilson disease is the other inherited metal-overload disorder, and the metal is copper rather than iron. It damages liver and basal ganglia and its characteristic sign is a corneal ring, not bronze skin with diabetes. A student who has filed "inherited metal accumulation" as a single heading picks this.
+It is the closest relative among the distractors: Wilson disease is the other inherited metal-overload disorder, and the metal is copper rather than iron. It damages liver and basal ganglia and its characteristic sign is a corneal ring, not bronze skin with diabetes. A student who has filed "inherited metal accumulation" as a single heading picks this.
 ## answer_c
 Hemochromatosis
 ## explanation_c
-Correct. Primary haemochromatosis is a congenital disorder arising from a gene defect on chromosome 6, in which the small intestine goes on absorbing iron even when transferrin is fully saturated; heterozygotes absorb more than normal, but only homozygotes reach dangerous levels. Iron is deposited as haemosiderin throughout the body — in periportal hepatocytes first, staining blue with Prussian blue, then through the rest of the lobule, the bile duct epithelium and the Kupffer cells, with the liver becoming slightly enlarged, dense and chocolate brown and slow fibrous septation ending in a micronodular cirrhosis in an intensely pigmented liver. In advanced disease the endocrine glands are loaded too — pancreas, adrenal, pituitary and thyroid — and deposition in the heart can cause heart failure. Bronze diabetes is the pancreatic and cutaneous end of that: iron-induced damage to the islets produces the diabetes, while the skin colour comes from two pigments together, the haemosiderin deposited in the skin and the extra melanin driven by increased pituitary melanotropin. That is worth holding, because it is why the name says bronze rather than grey — the colour is not iron alone.
+Primary haemochromatosis is a congenital disorder arising from a gene defect on chromosome 6, in which the small intestine goes on absorbing iron even when transferrin is fully saturated; heterozygotes absorb more than normal, but only homozygotes reach dangerous levels. Iron is deposited as haemosiderin throughout the body — in periportal hepatocytes first, staining blue with Prussian blue, then through the rest of the lobule, the bile duct epithelium and the Kupffer cells, with the liver becoming slightly enlarged, dense and chocolate brown and slow fibrous septation ending in a micronodular cirrhosis in an intensely pigmented liver. In advanced disease the endocrine glands are loaded too — pancreas, adrenal, pituitary and thyroid — and deposition in the heart can cause heart failure. Bronze diabetes is the pancreatic and cutaneous end of that: iron-induced damage to the islets produces the diabetes, while the skin colour comes from two pigments together, the haemosiderin deposited in the skin and the extra melanin driven by increased pituitary melanotropin. That is worth holding, because it is why the name says bronze rather than grey — the colour is not iron alone.
 ## answer_d
 Alpha 1 antitrypsin deficiency
 ## explanation_d
-Incorrect. Alpha-1 antitrypsin deficiency is an inherited disorder in which an abnormal protein accumulates in hepatocytes and cannot be secreted, causing liver disease, while its absence from the circulation permits emphysema. The accumulating material is a protein, not a pigment, and neither skin colour nor diabetes belongs to the picture.
+Alpha-1 antitrypsin deficiency is an inherited disorder in which an abnormal protein accumulates in hepatocytes and cannot be secreted, causing liver disease, while its absence from the circulation permits emphysema. The accumulating material is a protein, not a pigment, and neither skin colour nor diabetes belongs to the picture.
 ## topic
 General pathology
 ## subtopic
@@ -3541,7 +3541,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-PATHOLOGICAL-PIGMENTS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Attribute bronze diabetes to haemochromatosis and explain the two pigments that give the skin its colour.
@@ -3586,19 +3586,19 @@ B
 ## answer_a
 Russell bodies.
 ## explanation_a
-Incorrect: Russell bodies are **immunoglobulin**, not lipid. They are the glassy eosinophilic inclusions inside plasma cells distended with the immunoglobulin they are producing, seen in chronic inflammation, and they are the standard intracellular example of hyaline change. The 2025 paper asked for exactly that in its own sitting. Hyaline and lipid can both look homogeneous in a cell, which is what makes this option worth offering.
+Russell bodies are **immunoglobulin**, not lipid. They are the glassy eosinophilic inclusions inside plasma cells distended with the immunoglobulin they are producing, seen in chronic inflammation, and they are the standard intracellular example of hyaline change. The 2025 paper asked for exactly that in its own sitting. Hyaline and lipid can both look homogeneous in a cell, which is what makes this option worth offering.
 ## answer_b
 Xanthomas.
 ## explanation_b
-Correct. A xanthoma is an accumulation of cholesterol and cholesterol esters inside foamy macrophages, clustered in subcutaneous tissue and in tendons, and it is what abnormal lipid deposition looks like clinically — a visible marker of an acquired or hereditary hyperlipidaemia. It is the second of the two faces of cholesterol accumulation the book gives. The first is atherosclerosis, where cholesterol and its esters accumulate in the smooth muscle cells and macrophages of the arterial wall, and the extracellular deposits appear microscopically as cleft-like spaces — the crystals themselves dissolved during processing and left their shape behind. Same lipid, same foamy macrophage, two very different consequences depending on where it happens. Note also what this question is *not* asking: fatty change is intracellular triglyceride in a parenchymal cell, which is also a lipid accumulation but is not among the options here.
+A xanthoma is an accumulation of cholesterol and cholesterol esters inside foamy macrophages, clustered in subcutaneous tissue and in tendons, and it is what abnormal lipid deposition looks like clinically — a visible marker of an acquired or hereditary hyperlipidaemia. It is the second of the two faces of cholesterol accumulation. The first is atherosclerosis, where cholesterol and its esters accumulate in the smooth muscle cells and macrophages of the arterial wall, and the extracellular deposits appear microscopically as cleft-like spaces — the crystals themselves dissolved during processing and left their shape behind. Same lipid, same foamy macrophage, two very different consequences depending on where it happens. Note also what this question is *not* asking: fatty change is intracellular triglyceride in a parenchymal cell, which is also a lipid accumulation but is not among the options here.
 ## answer_c
 Brown atrophy of the heart.
 ## explanation_c
-Incorrect, and it is the subtlest of the three. Brown atrophy is the small brown senile heart loaded with **lipofuscin**, and lipofuscin is a wear-and-tear pigment produced by lipid peroxidation of membranes — so lipid is upstream of it. But what accumulates is the pigment, a residue of that peroxidation, not lipid itself, and the process is classified under pigments rather than under lipid accumulation. This option catches a student who traces the chemistry back one step too far.
+It is the subtlest of the three. Brown atrophy is the small brown senile heart loaded with **lipofuscin**, and lipofuscin is a wear-and-tear pigment produced by lipid peroxidation of membranes — so lipid is upstream of it. But what accumulates is the pigment, a residue of that peroxidation, not lipid itself, and the process is classified under pigments rather than under lipid accumulation. This option catches a student who traces the chemistry back one step too far.
 ## answer_d
 Hyalinosis.
 ## explanation_d
-Incorrect. Hyaline change names a glassy pink appearance rather than a substance, and the materials that produce it are immunoglobulin in Russell bodies, a cytoskeletal inclusion in Mallory hyaline, and plasma protein with basement-membrane material in arteriolar hyalinosis. None of them is lipid. Along with option A, this makes two of the four options hyaline changes, which is where the examiner has aimed the discrimination.
+Hyaline change names a glassy pink appearance rather than a substance, and the materials that produce it are immunoglobulin in Russell bodies, a cytoskeletal inclusion in Mallory hyaline, and plasma protein with basement-membrane material in arteriolar hyalinosis. None of them is lipid. Along with option A, this makes two of the four options hyaline changes, which is where the examiner has aimed the discrimination.
 ## topic
 General pathology
 ## subtopic
@@ -3646,7 +3646,7 @@ KAU_Y1
 ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 ART-108-PAT-PATHOLOGICAL-PIGMENTS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Identify the xanthoma as an abnormal lipid deposit and separate it from hyaline change and from lipofuscin, both of which look like accumulations of something else.
@@ -3690,19 +3690,19 @@ B
 ## answer_a
 Hemosiderin
 ## explanation_a
-Incorrect, and it is the near miss the question is built around, because haemosiderin and hemozoin are both brown iron-containing pigments that end up inside the same macrophages of the same organs. Haemosiderin is *stored excess iron* from the body's own haemoglobin — deposited locally after bleeding into a tissue, or throughout the body in iron overload — and it stains blue with Prussian blue. That stain is the discriminator, and it is the reason a student who knows only "brown pigment with iron" cannot answer this question.
+It is the near miss the question is built around, because haemosiderin and hemozoin are both brown iron-containing pigments that end up inside the same macrophages of the same organs. Haemosiderin is *stored excess iron* from the body's own haemoglobin — deposited locally after bleeding into a tissue, or throughout the body in iron overload — and it stains blue with Prussian blue. That stain is the discriminator, and it is the reason a student who knows only "brown pigment with iron" cannot answer this question.
 ## answer_b
 Hemozoins
 ## explanation_b
-Correct. Hemozoin is the brownish iron-containing pigment produced by parasites that feed on blood cells, and the book names malaria and bilharziasis. The parasite digests haemoglobin and disposes of the haem it cannot use by crystallising it; the pigment is then released into the blood and taken up by macrophages in the liver, spleen and other organs, which is why those organs darken in chronic malaria. The single feature to carry away is negative and precise: hemozoin contains iron and yet does **not** react with Prussian blue. Haemosiderin, in the same macrophage in the same organ, does. So the stain — not the colour, not the presence of iron — is what tells the two apart down a microscope, and expecting every iron-containing pigment to stain with Prussian blue is exactly the assumption this question punishes.
+Hemozoin is the brownish iron-containing pigment produced by parasites that feed on blood cells, notably in malaria and bilharziasis. The parasite digests haemoglobin and disposes of the haem it cannot use by crystallising it; the pigment is then released into the blood and taken up by macrophages in the liver, spleen and other organs, which is why those organs darken in chronic malaria. The single feature to carry away is negative and precise: hemozoin contains iron and yet does **not** react with Prussian blue. Haemosiderin, in the same macrophage in the same organ, does. So the stain — not the colour, not the presence of iron — is what tells the two apart down a microscope, and expecting every iron-containing pigment to stain with Prussian blue is exactly the assumption this question punishes.
 ## answer_c
 Lipofuscin
 ## explanation_c
-Incorrect. Lipofuscin is the wear-and-tear pigment of ageing, produced by lipid peroxidation of cell membranes and accumulating in heart, liver and neurones — brown atrophy of the heart is its usual setting. It contains no iron, has no infective association, and is a marker of age and atrophy rather than of disease.
+Lipofuscin is the wear-and-tear pigment of ageing, produced by lipid peroxidation of cell membranes and accumulating in heart, liver and neurones — brown atrophy of the heart is its usual setting. It contains no iron, has no infective association, and is a marker of age and atrophy rather than of disease.
 ## answer_d
 Melanin
 ## explanation_d
-Incorrect. Melanin is the endogenous brown-black pigment made by tyrosinase in melanocytes, and it increases with sun exposure, in naevi and melanomas, in chloasma of pregnancy, in Addison's disease and in the café-au-lait patches of neurofibromatosis. None of those is parasitic, and melanin contains no iron.
+Melanin is the endogenous brown-black pigment made by tyrosinase in melanocytes, and it increases with sun exposure, in naevi and melanomas, in chloasma of pregnancy, in Addison's disease and in the café-au-lait patches of neurofibromatosis. None of those is parasitic, and melanin contains no iron.
 ## topic
 General pathology
 ## subtopic
@@ -3751,7 +3751,7 @@ KAU_Y1
 ## library_ids
 ART-108-PAT-PATHOLOGICAL-PIGMENTS
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## learning_objective
 Name hemozoin as the pigment of blood-feeding parasites and use the Prussian blue reaction to separate it from haemosiderin.
@@ -3795,19 +3795,19 @@ D
 ## answer_a
 It doesn't need energy.
 ## explanation_a
-Incorrect, and it is what the word active means. Active transport moves a drug against its concentration gradient, and moving anything against a gradient costs energy — supplied directly by ATP hydrolysis, or indirectly by coupling to the gradient of another ion. Facilitated diffusion is the carrier-mediated process that needs no energy, but it also cannot go against the gradient.
+It is what the word active means. Active transport moves a drug against its concentration gradient, and moving anything against a gradient costs energy — supplied directly by ATP hydrolysis, or indirectly by coupling to the gradient of another ion. Facilitated diffusion is the carrier-mediated process that needs no energy, but it also cannot go against the gradient.
 ## answer_b
 It involves mainly small sized lipid soluble drugs.
 ## explanation_b
-Incorrect: this describes **passive diffusion**, which is how most drugs cross most membranes. A small, lipid-soluble, non-ionised molecule dissolves in the lipid bilayer and moves down its gradient with no carrier and no energy. Carrier-mediated transport exists precisely for the molecules that cannot do that — the large, the polar, the ionised — which is why this option is not merely wrong but describes the alternative mechanism.
+This describes **passive diffusion**, which is how most drugs cross most membranes. A small, lipid-soluble, non-ionised molecule dissolves in the lipid bilayer and moves down its gradient with no carrier and no energy. Carrier-mediated transport exists precisely for the molecules that cannot do that — the large, the polar, the ionised — which is why this option is not merely wrong but describes the alternative mechanism.
 ## answer_c
 It occurs with the concentration gradient.
 ## explanation_c
-Incorrect, and it is the defining property inverted. Active transport moves drug **against** the concentration gradient, from low concentration to high; that is the reason it needs energy at all. Movement with the gradient is passive diffusion, or facilitated diffusion if a carrier is involved. A student who picks this has not connected the energy requirement to the direction of travel.
+It is the defining property inverted. Active transport moves drug **against** the concentration gradient, from low concentration to high; that is the reason it needs energy at all. Movement with the gradient is passive diffusion, or facilitated diffusion if a carrier is involved. A student who picks this has not connected the energy requirement to the direction of travel.
 ## answer_d
 It requires a carrier.
 ## explanation_d
-Correct. Active transport is carrier-mediated: the drug binds a specific transport protein in the membrane, which carries it across against its concentration gradient using energy. Three consequences follow from the carrier, and all three are examinable. The process is **saturable**, because carriers are present in finite number, so beyond a certain concentration the rate of transport plateaus instead of rising. It is **specific**, in the loose sense that each carrier handles a family of structurally related substrates rather than any molecule that arrives. And it is subject to **competition**, because two drugs handled by the same carrier interfere with one another — which is the mechanism behind the probenecid-penicillin interaction at the renal tubule, where the two compete for the organic acid carrier and penicillin's secretion is blocked. Set all of that against passive diffusion, which needs no carrier, no energy, cannot go against a gradient, does not saturate and cannot be competed for, and which is how most drugs actually cross most membranes.
+Active transport is carrier-mediated: the drug binds a specific transport protein in the membrane, which carries it across against its concentration gradient using energy. Three consequences follow from the carrier, and all three are examinable. The process is **saturable**, because carriers are present in finite number, so beyond a certain concentration the rate of transport plateaus instead of rising. It is **specific**, in the loose sense that each carrier handles a family of structurally related substrates rather than any molecule that arrives. And it is subject to **competition**, because two drugs handled by the same carrier interfere with one another — which is the mechanism behind the probenecid-penicillin interaction at the renal tubule, where the two compete for the organic acid carrier and penicillin's secretion is blocked. Set all of that against passive diffusion, which needs no carrier, no energy, cannot go against a gradient, does not saturate and cannot be competed for, and which is how most drugs actually cross most membranes.
 ## topic
 General pharmacology
 ## subtopic
@@ -3854,7 +3854,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-MEMBRANE-PASSAGE
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 State the defining features of active transport — carrier, energy, movement against the gradient — and separate them from passive diffusion.
@@ -3897,19 +3897,19 @@ D
 ## answer_a
 First-pass metabolism occurs only in the liver.
 ## explanation_a
-Incorrect, because of "only". The liver is the major site of first-pass metabolism, but it is not the only one: a drug swallowed is exposed to enzymes in the gut lumen and in the gut wall before it ever reaches the portal vein, and both remove drug. That matters practically, because it explains why some drugs have poor oral bioavailability despite modest hepatic extraction, and why inhibiting gut-wall enzymes can raise a drug's level as surely as inhibiting hepatic ones.
+The word "only" is what breaks this option. The liver is the major site of first-pass metabolism, but it is not the only one: a drug swallowed is exposed to enzymes in the gut lumen and in the gut wall before it ever reaches the portal vein, and both remove drug. That matters practically, because it explains why some drugs have poor oral bioavailability despite modest hepatic extraction, and why inhibiting gut-wall enzymes can raise a drug's level as surely as inhibiting hepatic ones.
 ## answer_b
 Gastritis (stomach inflammation) will increase the surface area for absorption.
 ## explanation_b
-Incorrect, and it inverts what inflammation does. Inflammation of the mucosa damages the absorbing surface rather than enlarging it, so absorption is reduced or made erratic. The option seems to reason from "inflammation means more blood flow, and blood flow helps absorption", which is a real factor — mucosal perfusion does affect absorption — applied to a change that damages the surface it depends on.
+It inverts what inflammation does. Inflammation of the mucosa damages the absorbing surface rather than enlarging it, so absorption is reduced or made erratic. The option seems to reason from "inflammation means more blood flow, and blood flow helps absorption", which is a real factor — mucosal perfusion does affect absorption — applied to a change that damages the surface it depends on.
 ## answer_c
 The stomach will be the main site of absorption of most drugs.
 ## explanation_c
-Incorrect, and it is the misconception that follows from teaching pH partitioning. The stomach is acidic and therefore favours the non-ionised form of weak acids, which is true and is what the 2025 paper asked about. But the small intestine has an enormously greater absorbing surface — villi and microvilli multiply it many times over — and surface area outweighs the pH advantage, so the small intestine is the main site of absorption for almost every drug, weak acids included.
+It is the misconception that follows from teaching pH partitioning. The stomach is acidic and therefore favours the non-ionised form of weak acids, which is true and is what the 2025 paper asked about. But the small intestine has an enormously greater absorbing surface — villi and microvilli multiply it many times over — and surface area outweighs the pH advantage, so the small intestine is the main site of absorption for almost every drug, weak acids included.
 ## answer_d
 The presence of food might compete with the absorption of some drugs.
 ## explanation_d
-Correct, and it is deliberately cautious: "might", "some". What else is in the gut is one of the four things that govern oral absorption, alongside the absorbing surface area, the rate of gastric emptying and mucosal blood flow. Food interferes in several distinct ways and each has a real example behind it: it can bind a drug chemically, as calcium in dairy products chelates tetracyclines and iron; it can slow gastric emptying so that a drug reaches the small intestine and therefore the circulation more slowly; and it can compete for the same absorptive mechanism where the drug uses a carrier that a dietary constituent also uses. This is the pharmacological content behind an instruction as ordinary as "take on an empty stomach" or "take with food", which is why the option is worth more than it looks.
+It is deliberately cautious: "might", "some". What else is in the gut is one of the four things that govern oral absorption, alongside the absorbing surface area, the rate of gastric emptying and mucosal blood flow. Food interferes in several distinct ways and each has a real example behind it: it can bind a drug chemically, as calcium in dairy products chelates tetracyclines and iron; it can slow gastric emptying so that a drug reaches the small intestine and therefore the circulation more slowly; and it can compete for the same absorptive mechanism where the drug uses a carrier that a dietary constituent also uses. This is the pharmacological content behind an instruction as ordinary as "take on an empty stomach" or "take with food", which is why the option is worth more than it looks.
 ## topic
 General pharmacology
 ## subtopic
@@ -3957,7 +3957,7 @@ KAU_Y1
 ART-108-PHA-PHARMACOKINETICS-ADME
 ART-108-PHA-MEMBRANE-PASSAGE
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Name the factors governing oral absorption, and reject the claims that the stomach is the main absorbing site and that first-pass metabolism is purely hepatic.
@@ -4002,19 +4002,19 @@ C
 ## answer_a
 The drug is most probably concentrated in bones and has a very low plasma concentration that keeps it intravascular.
 ## explanation_a
-Incorrect, and it is self-contradictory, which is worth noticing as a technique. A drug concentrated in bone has left the plasma, so its plasma concentration is low — and a low plasma concentration is the *denominator* of the Vd calculation, which makes Vd large, not small. The option then asserts that this keeps the drug intravascular, which is the opposite of being concentrated in bone. Two incompatible claims in one sentence, and either one alone would rule it out.
+It is self-contradictory, which is worth noticing as a technique. A drug concentrated in bone has left the plasma, so its plasma concentration is low — and a low plasma concentration is the *denominator* of the Vd calculation, which makes Vd large, not small. The option then asserts that this keeps the drug intravascular, which is the opposite of being concentrated in bone. Two incompatible claims in one sentence, and either one alone would rule it out.
 ## answer_b
 It enters every cell in the body.
 ## explanation_b
-Incorrect, and it describes the largest Vd rather than the smallest. A drug distributing into total body water reaches roughly 42 litres in a 70 kg adult, and one that concentrates inside cells or in fat gives a figure far larger still. Four litres is an order of magnitude below total body water; a drug entering every cell could not produce it.
+It describes the largest Vd rather than the smallest. A drug distributing into total body water reaches roughly 42 litres in a 70 kg adult, and one that concentrates inside cells or in fat gives a figure far larger still. Four litres is an order of magnitude below total body water; a drug entering every cell could not produce it.
 ## answer_c
 This drug probably has a high molecular weight or strong plasma protein binding
 ## explanation_c
-Correct. Four litres is approximately the **plasma volume** of a 70 kg adult, so a Vd of that size says the drug has essentially stayed in the vascular compartment — the calculation found the whole body's drug at the concentration measured in plasma, which is only possible if plasma is where it all is. Two things keep a drug there. A large molecule cannot cross the capillary endothelium, which is why heparin and the plasma expanders behave this way. And a drug bound tightly to albumin is, in effect, a large molecule: the free fraction that could leave is tiny, so the drug travels wherever albumin travels and no further. Read the interpretation off the number rather than memorising it. Around 4 litres means plasma; around 14 litres means the extracellular fluid, typical of a polar drug that leaves the circulation but cannot enter cells; around 42 litres means total body water; and anything above body volume means the drug is concentrated in tissue and plasma holds very little of it. That last case is what the 2025 paper asked about, and it is this question's mirror image.
+Four litres is approximately the **plasma volume** of a 70 kg adult, so a Vd of that size says the drug has essentially stayed in the vascular compartment — the calculation found the whole body's drug at the concentration measured in plasma, which is only possible if plasma is where it all is. Two things keep a drug there. A large molecule cannot cross the capillary endothelium, which is why heparin and the plasma expanders behave this way. And a drug bound tightly to albumin is, in effect, a large molecule: the free fraction that could leave is tiny, so the drug travels wherever albumin travels and no further. Read the interpretation off the number rather than memorising it. Around 4 litres means plasma; around 14 litres means the extracellular fluid, typical of a polar drug that leaves the circulation but cannot enter cells; around 42 litres means total body water; and anything above body volume means the drug is concentrated in tissue and plasma holds very little of it. That last case is what the 2025 paper asked about, and it is this question's mirror image.
 ## answer_d
 It is probably highly ionized and is confined to the extracellular space.
 ## explanation_d
-Incorrect, and it is the strongest distractor because the reasoning is sound and lands one compartment too far out. A highly ionised drug does struggle to cross cell membranes and is indeed confined to the extracellular fluid — but extracellular fluid is about 14 litres in a 70 kg adult, not 4. The student who picks this has the physiology right and has not attached the numbers to the compartments.
+It is the strongest distractor because the reasoning is sound and lands one compartment too far out. A highly ionised drug does struggle to cross cell membranes and is indeed confined to the extracellular fluid — but extracellular fluid is about 14 litres in a 70 kg adult, not 4. The student who picks this has the physiology right and has not attached the numbers to the compartments.
 ## topic
 General pharmacology
 ## subtopic
@@ -4063,7 +4063,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Interpret a volume of distribution near plasma volume, and match the four distribution patterns to their approximate volumes in a 70 kg adult.
@@ -4106,19 +4106,19 @@ D
 ## answer_a
 A decrease in the rate of formation of metabolites by the liver
 ## explanation_a
-Incorrect, and it is induction confused with inhibition. An inducer increases the synthesis of microsomal enzymes, so the liver forms metabolites **faster**, not more slowly. A decreased rate of metabolite formation is what an enzyme inhibitor produces — and inhibition also acts far faster than induction, within hours rather than over the days to weeks that new enzyme synthesis takes.
+It is induction confused with inhibition. An inducer increases the synthesis of microsomal enzymes, so the liver forms metabolites **faster**, not more slowly. A decreased rate of metabolite formation is what an enzyme inhibitor produces — and inhibition also acts far faster than induction, within hours rather than over the days to weeks that new enzyme synthesis takes.
 ## answer_b
 An increase in drug duration of action.
 ## explanation_b
-Incorrect, and it is the consequence of induction inverted. Faster metabolism means the drug is cleared sooner, so its plasma level falls, its effect is smaller and its duration of action is **shorter**. This is why a patient started on an inducer may need a larger dose of everything else they take, and why an oral contraceptive can fail in a woman started on an enzyme-inducing anticonvulsant.
+It is the consequence of induction inverted. Faster metabolism means the drug is cleared sooner, so its plasma level falls, its effect is smaller and its duration of action is **shorter**. This is why a patient started on an inducer may need a larger dose of everything else they take, and why an oral contraceptive can fail in a woman started on an enzyme-inducing anticonvulsant.
 ## answer_c
 An increase in plasma protein binding of other drugs.
 ## explanation_c
-Incorrect, and it is the wrong kind of interaction entirely. Displacement from plasma protein binding is a distribution interaction, in which one drug competes with another for albumin; it has nothing to do with the synthesis of metabolising enzymes. The option catches a student who is answering "drug interaction" in general rather than answering about enzyme induction.
+It is the wrong kind of interaction entirely. Displacement from plasma protein binding is a distribution interaction, in which one drug competes with another for albumin; it has nothing to do with the synthesis of metabolising enzymes. The option catches a student who is answering "drug interaction" in general rather than answering about enzyme induction.
 ## answer_d
 Induce its own metabolism.
 ## explanation_d
-Correct, and the phenomenon has a name worth knowing — auto-induction. An inducer increases the synthesis of the microsomal enzymes over days to weeks, and if the drug that did the inducing is itself a substrate of those enzymes, it accelerates its own clearance. The clinical consequence is exact: the dose that produced a therapeutic level in week one may produce a subtherapeutic one by week three, with no change in prescribing and no error by the patient. Carbamazepine is the standard example. Two further consequences of induction belong beside it. Everything else those enzymes handle is cleared faster too, so an inducer lowers the plasma level of co-administered drugs and can cause a warfarin patient to under-anticoagulate or an oral contraceptive to fail. And induction does not always reduce toxicity — where the toxic species is the metabolite rather than the parent drug, inducing the enzyme produces more of the toxin, which is why an enzyme inducer worsens rather than protects against paracetamol overdose.
+The phenomenon has a name worth knowing — auto-induction. An inducer increases the synthesis of the microsomal enzymes over days to weeks, and if the drug that did the inducing is itself a substrate of those enzymes, it accelerates its own clearance. The clinical consequence is exact: the dose that produced a therapeutic level in week one may produce a subtherapeutic one by week three, with no change in prescribing and no error by the patient. Carbamazepine is the standard example. Two further consequences of induction belong beside it. Everything else those enzymes handle is cleared faster too, so an inducer lowers the plasma level of co-administered drugs and can cause a warfarin patient to under-anticoagulate or an oral contraceptive to fail. And induction does not always reduce toxicity — where the toxic species is the metabolite rather than the parent drug, inducing the enzyme produces more of the toxin, which is why an enzyme inducer worsens rather than protects against paracetamol overdose.
 ## topic
 General pharmacology
 ## subtopic
@@ -4165,7 +4165,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Predict the effects of microsomal enzyme induction on metabolite formation, duration of action and the inducer's own clearance.
@@ -4209,19 +4209,19 @@ C
 ## answer_a
 The longer the plasma half-life, the shorter the time required to reach a steady state concentration.
 ## explanation_a
-Incorrect, and inverted. Steady state is reached after four to five half-lives, so the *longer* the half-life the longer the wait — a drug with a half-life of a week takes a month or more to plateau, which is why such drugs are given a loading dose when the effect is needed sooner. The relationship is direct, not inverse.
+Inverted. Steady state is reached after four to five half-lives, so the *longer* the half-life the longer the wait — a drug with a half-life of a week takes a month or more to plateau, which is why such drugs are given a loading dose when the effect is needed sooner. The relationship is direct, not inverse.
 ## answer_b
 The plasma half-life is always an indicator of the duration of action of a drug.
 ## explanation_b
-Incorrect, because of "always". Half-life and duration of action usually run together, but they come apart whenever the effect outlasts the drug's presence in plasma. An irreversible antagonist is bound covalently and acts until new receptor is synthesised, long after the drug itself has gone. Drugs whose effect depends on an enzyme being resynthesised, or on a downstream process with its own timescale, behave the same way. Half-life describes the disappearance of the drug; duration of action describes the persistence of the effect, and the two are different measurements.
+The word "always" is what breaks this option. Half-life and duration of action usually run together, but they come apart whenever the effect outlasts the drug's presence in plasma. An irreversible antagonist is bound covalently and acts until new receptor is synthesised, long after the drug itself has gone. Drugs whose effect depends on an enzyme being resynthesised, or on a downstream process with its own timescale, behave the same way. Half-life describes the disappearance of the drug; duration of action describes the persistence of the effect, and the two are different measurements.
 ## answer_c
 The plasma half-life is fixed in drugs following first-order elimination.
 ## explanation_c
-Correct, and it follows directly from what first-order means. In first-order elimination a constant *fraction* of the drug present is removed per unit time, because the enzymes and transporters handling it are working well below saturation. A constant fraction means the time taken to lose half is the same whatever the starting concentration, so the half-life is a fixed property of the drug in that patient — 100 mg falls to 50 in one half-life, and 20 mg falls to 10 in the same time. That is what makes half-life usable at all: it lets you predict the time to steady state, four to five half-lives, and the time for a drug to be cleared after stopping, also four to five. Zero-order elimination breaks all of this. There a constant *amount* is removed per unit time, because the enzyme is saturated and is already working at maximum, so the fraction removed depends on how much is present and the half-life is not a fixed number at all. Ethanol is the standard example, and phenytoin becomes zero-order within its therapeutic range, which is why a small dose increase can produce a large and unexpected rise in level.
+It follows directly from what first-order means. In first-order elimination a constant *fraction* of the drug present is removed per unit time, because the enzymes and transporters handling it are working well below saturation. A constant fraction means the time taken to lose half is the same whatever the starting concentration, so the half-life is a fixed property of the drug in that patient — 100 mg falls to 50 in one half-life, and 20 mg falls to 10 in the same time. That is what makes half-life usable at all: it lets you predict the time to steady state, four to five half-lives, and the time for a drug to be cleared after stopping, also four to five. Zero-order elimination breaks all of this. There a constant *amount* is removed per unit time, because the enzyme is saturated and is already working at maximum, so the fraction removed depends on how much is present and the half-life is not a fixed number at all. Ethanol is the standard example, and phenytoin becomes zero-order within its therapeutic range, which is why a small dose increase can produce a large and unexpected rise in level.
 ## answer_d
 It takes two half-lives for a drug to attain steady state concentration in plasma.
 ## explanation_d
-Incorrect on the arithmetic. Approach to steady state is asymptotic: after one half-life the concentration is at 50% of the plateau, after two 75%, after three 87.5%, after four 94% and after five 97%. Four to five half-lives is the working figure, and two gets you three-quarters of the way at best. The option catches a student who remembers that half-lives and steady state are linked without remembering how many.
+The arithmetic is what fails here. Approach to steady state is asymptotic: after one half-life the concentration is at 50% of the plateau, after two 75%, after three 87.5%, after four 94% and after five 97%. Four to five half-lives is the working figure, and two gets you three-quarters of the way at best. The option catches a student who remembers that half-lives and steady state are linked without remembering how many.
 ## topic
 General pharmacology
 ## subtopic
@@ -4269,7 +4269,7 @@ KAU_Y1
 ART-108-PHA-KINETIC-PRINCIPLES
 ART-108-PHA-PHARMACODYNAMICS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Explain why plasma half-life is fixed only under first-order elimination, and state how many half-lives steady state requires.
@@ -4313,19 +4313,19 @@ D
 ## answer_a
 Estrogen
 ## explanation_a
-Incorrect. Oestrogen, and the oral contraceptives containing it, inhibit rather than induce hepatic microsomal enzymes, so they slow the metabolism of drugs handled by those enzymes and raise their plasma levels. The option is here because hormones are a plausible-sounding influence on liver enzymes; the direction is the wrong way round.
+Oestrogen, and the oral contraceptives containing it, inhibit rather than induce hepatic microsomal enzymes, so they slow the metabolism of drugs handled by those enzymes and raise their plasma levels. The option is here because hormones are a plausible-sounding influence on liver enzymes; the direction is the wrong way round.
 ## answer_b
 Grapefruit
 ## explanation_b
-Incorrect, and grapefruit is the standard dietary example of an enzyme **inhibitor**. It blocks intestinal cytochrome P450, so a drug metabolised by that enzyme in the gut wall is less extensively degraded before absorption, its bioavailability rises, and its plasma level goes up. That is the opposite of what the stem asks for, and it is the distractor most likely to catch a student who remembers only that grapefruit affects drug metabolism.
+Grapefruit is the standard dietary example of an enzyme **inhibitor**. It blocks intestinal cytochrome P450, so a drug metabolised by that enzyme in the gut wall is less extensively degraded before absorption, its bioavailability rises, and its plasma level goes up. That is the opposite of what the stem asks for, and it is the distractor most likely to catch a student who remembers only that grapefruit affects drug metabolism.
 ## answer_c
 Malnutrition
 ## explanation_c
-Incorrect. Malnutrition is one of the factors the book names as altering enzyme activity, and it lowers it: enzymes are proteins, and a deficient protein intake reduces the liver's synthetic capacity, so drug metabolism slows. This is the same reason liver disease and the extremes of age reduce metabolic clearance.
+Malnutrition is one of the factors that alters enzyme activity, and it lowers it: enzymes are proteins, and a deficient protein intake reduces the liver's synthetic capacity, so drug metabolism slows. This is the same reason liver disease and the extremes of age reduce metabolic clearance.
 ## answer_d
 Tobacco smoking
 ## explanation_d
-Correct. Tobacco smoke contains polycyclic aromatic hydrocarbons, and these are microsomal enzyme inducers: they increase the synthesis of hepatic enzymes over days to weeks, so a smoker metabolises the affected drugs faster, holds lower plasma levels and may need larger doses than a non-smoker of the same weight. The clinical corollary is the one worth carrying — a patient who stops smoking loses the induction over the following weeks, and the dose that was right while they smoked can become an overdose, which is why theophylline and some antipsychotics need review at the point of stopping. Smoking sits in a list of factors the book gives as shifting enzyme activity: age, genetics, liver disease, malnutrition, smoking and diet. What separates them is direction. Smoking induces; malnutrition, liver disease, the extremes of age and inhibitors such as grapefruit and oestrogen reduce activity.
+Tobacco smoke contains polycyclic aromatic hydrocarbons, and these are microsomal enzyme inducers: they increase the synthesis of hepatic enzymes over days to weeks, so a smoker metabolises the affected drugs faster, holds lower plasma levels and may need larger doses than a non-smoker of the same weight. The clinical corollary is the one worth carrying — a patient who stops smoking loses the induction over the following weeks, and the dose that was right while they smoked can become an overdose, which is why theophylline and some antipsychotics need review at the point of stopping. Smoking sits alongside age, genetics, liver disease, malnutrition and diet as a factor that shifts enzyme activity. What separates them is direction. Smoking induces; malnutrition, liver disease, the extremes of age and inhibitors such as grapefruit and oestrogen reduce activity.
 ## topic
 General pharmacology
 ## subtopic
@@ -4371,7 +4371,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Sort the factors affecting drug-metabolising enzyme activity by direction, and identify tobacco smoking as an inducer.
@@ -4415,19 +4415,19 @@ A
 ## answer_a
 Drugs undergoing renal secretion need a carrier.
 ## explanation_a
-Correct. Renal elimination is the sum of three processes, and the middle one is the answer here. Glomerular filtration is passive and handles only free drug, since protein-bound drug is too large to pass the filter. Active tubular secretion moves drug from peritubular blood into the tubular lumen against its concentration gradient, so it needs energy and a carrier — one transport system for organic acids and one for organic bases — and because it strips drug from albumin as the free fraction is removed, it can eliminate protein-bound drug that filtration cannot touch. Passive tubular reabsorption then takes back whatever remains lipid-soluble and non-ionised in the tubular fluid. Two consequences follow from the carrier. It is saturable, so secretion has a ceiling; and it is shared, so two drugs handled by the same system compete — which is how probenecid blocks the secretion of penicillin and raises its plasma level. The reabsorption step is where urine pH matters: only the non-ionised form is reabsorbed, so making the urine unfavourable to a drug's ionisation traps it in the tubule and speeds its excretion.
+Renal elimination is the sum of three processes, and the middle one is the answer here. Glomerular filtration is passive and handles only free drug, since protein-bound drug is too large to pass the filter. Active tubular secretion moves drug from peritubular blood into the tubular lumen against its concentration gradient, so it needs energy and a carrier — one transport system for organic acids and one for organic bases — and because it strips drug from albumin as the free fraction is removed, it can eliminate protein-bound drug that filtration cannot touch. Passive tubular reabsorption then takes back whatever remains lipid-soluble and non-ionised in the tubular fluid. Two consequences follow from the carrier. It is saturable, so secretion has a ceiling; and it is shared, so two drugs handled by the same system compete — which is how probenecid blocks the secretion of penicillin and raises its plasma level. The reabsorption step is where urine pH matters: only the non-ionised form is reabsorbed, so making the urine unfavourable to a drug's ionisation traps it in the tubule and speeds its excretion.
 ## answer_b
 Renal excretion is faster and better for lipid-soluble than for water-soluble drugs.
 ## explanation_b
-Incorrect, and inverted. A lipid-soluble drug arriving in the tubular fluid is passively reabsorbed back across the tubular epithelium, so it is not excreted at all until it has been metabolised into something more polar — which is the whole purpose of Phase I and Phase II metabolism. Water-soluble drugs cannot be reabsorbed and are excreted efficiently. This option catches the student who has carried "lipid solubility helps a drug cross membranes" from absorption into excretion, where crossing the membrane is exactly what you do not want.
+Inverted. A lipid-soluble drug arriving in the tubular fluid is passively reabsorbed back across the tubular epithelium, so it is not excreted at all until it has been metabolised into something more polar — which is the whole purpose of Phase I and Phase II metabolism. Water-soluble drugs cannot be reabsorbed and are excreted efficiently. This option catches the student who has carried "lipid solubility helps a drug cross membranes" from absorption into excretion, where crossing the membrane is exactly what you do not want.
 ## answer_c
 Urinary acidification helps the excretion of acidic drugs.
 ## explanation_c
-Incorrect, and it inverts ion trapping. An acidic urine suppresses the ionisation of a weak acid, leaving it non-ionised and lipid-soluble, so it is passively reabsorbed and *retained* rather than excreted. To excrete a weak acid you alkalinise the urine — which ionises it, traps it in the tubular fluid and carries it out. That is why sodium bicarbonate is used in salicylate overdose, and the rule runs the opposite way for weak bases.
+It inverts ion trapping. An acidic urine suppresses the ionisation of a weak acid, leaving it non-ionised and lipid-soluble, so it is passively reabsorbed and *retained* rather than excreted. To excrete a weak acid you alkalinise the urine — which ionises it, traps it in the tubular fluid and carries it out. That is why sodium bicarbonate is used in salicylate overdose, and the rule runs the opposite way for weak bases.
 ## answer_d
 Water soluble, protein-bound drugs are filtered through the glomeruli.
 ## explanation_d
-Incorrect, and the fault is "protein-bound". Only the free fraction of a drug is filtered at the glomerulus; drug bound to albumin is part of a molecule far too large to cross the filtration barrier, whatever the water solubility of the drug itself. Protein-bound drug can be eliminated by tubular secretion, which strips it from albumin, but not by filtration.
+The fault is "protein-bound". Only the free fraction of a drug is filtered at the glomerulus; drug bound to albumin is part of a molecule far too large to cross the filtration barrier, whatever the water solubility of the drug itself. Protein-bound drug can be eliminated by tubular secretion, which strips it from albumin, but not by filtration.
 ## topic
 General pharmacology
 ## subtopic
@@ -4474,7 +4474,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACOKINETICS-ADME
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Describe renal drug elimination as filtration, secretion and reabsorption, and predict the effect of urine pH and protein binding on each.
@@ -4519,19 +4519,19 @@ B
 ## answer_a
 It affects a drug's efficacy more than affecting its potency.
 ## explanation_a
-Incorrect, and the two are the wrong way round. A competitive antagonist leaves efficacy untouched — the agonist still reaches its full maximum once enough of it is present — and reduces apparent potency, since more agonist is now needed for any given effect. The option describes a non-competitive antagonist, which lowers the maximum. Potency is read off the position of the curve, efficacy off its height, and competition moves the curve without lowering it.
+The two are the wrong way round. A competitive antagonist leaves efficacy untouched — the agonist still reaches its full maximum once enough of it is present — and reduces apparent potency, since more agonist is now needed for any given effect. The option describes a non-competitive antagonist, which lowers the maximum. Potency is read off the position of the curve, efficacy off its height, and competition moves the curve without lowering it.
 ## answer_b
 It can be displaced by an excess of the agonist.
 ## explanation_b
-Correct, and displaceability is what the word competitive is claiming. The antagonist binds the same site as the agonist, and it binds reversibly, so the two are in a genuine competition for occupancy that is settled by their relative concentrations. Raise the agonist concentration far enough and it wins the site back, the full maximum response is restored, and the antagonism is said to be **surmountable**. On a concentration-response curve this appears as a parallel shift to the right with the plateau unchanged. Contrast a non-competitive antagonist, which binds elsewhere on the receptor or binds the same site irreversibly: the receptors it holds are simply removed from the pool, no amount of agonist recovers them, the maximum falls, and the antagonism is insurmountable. The distinction is not academic — it decides whether a block can be overridden clinically, which is why naloxone can reverse an opioid and why the block produced by an irreversible alpha-blocker cannot be overcome by a catecholamine surge.
+Displaceability is what the word competitive is claiming. The antagonist binds the same site as the agonist, and it binds reversibly, so the two are in a genuine competition for occupancy that is settled by their relative concentrations. Raise the agonist concentration far enough and it wins the site back, the full maximum response is restored, and the antagonism is said to be **surmountable**. On a concentration-response curve this appears as a parallel shift to the right with the plateau unchanged. Contrast a non-competitive antagonist, which binds elsewhere on the receptor or binds the same site irreversibly: the receptors it holds are simply removed from the pool, no amount of agonist recovers them, the maximum falls, and the antagonism is insurmountable. The distinction is not academic — it decides whether a block can be overridden clinically, which is why naloxone can reverse an opioid and why the block produced by an irreversible alpha-blocker cannot be overcome by a catecholamine surge.
 ## answer_c
 It causes a non-parallel shift of the dose-response curve to the right
 ## explanation_c
-Incorrect in one word. A competitive antagonist does shift the dose-response curve to the right, but the shift is **parallel** — the curve slides along the concentration axis with its shape and its plateau intact, because the only thing that has changed is how much agonist is needed to occupy the receptor. A non-parallel change, one that flattens the curve, is the signature of non-competitive antagonism.
+The error is one word. A competitive antagonist does shift the dose-response curve to the right, but the shift is **parallel** — the curve slides along the concentration axis with its shape and its plateau intact, because the only thing that has changed is how much agonist is needed to occupy the receptor. A non-parallel change, one that flattens the curve, is the signature of non-competitive antagonism.
 ## answer_d
 It reduces the E-Max of the agonist.
 ## explanation_d
-Incorrect, and it is the defining property of the other kind of antagonist. A competitive antagonist never lowers Emax, precisely because it can be outcompeted: enough agonist restores the full response. A reduced Emax means the antagonism is insurmountable and therefore non-competitive.
+It is the defining property of the other kind of antagonist. A competitive antagonist never lowers Emax, precisely because it can be outcompeted: enough agonist restores the full response. A reduced Emax means the antagonism is insurmountable and therefore non-competitive.
 ## topic
 General pharmacology
 ## subtopic
@@ -4579,7 +4579,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACODYNAMICS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 State the properties of competitive antagonism — same site, reversible, surmountable, parallel rightward shift with Emax preserved — and separate each from its non-competitive counterpart.
@@ -4622,19 +4622,19 @@ B
 ## answer_a
 Efficacy.
 ## explanation_a
-Incorrect, and it is the property that binding does *not* guarantee, which is why it is the distractor the question is really about. Efficacy is the size of the maximum effect a drug can produce once it has bound — the height of the concentration-response curve. A competitive antagonist has high affinity and zero efficacy: it fits the receptor beautifully and produces no response at all. Binding and activating are separate steps, and separating them is what makes antagonism intelligible.
+It is the property that binding does *not* guarantee, which is why it is the distractor the question is really about. Efficacy is the size of the maximum effect a drug can produce once it has bound — the height of the concentration-response curve. A competitive antagonist has high affinity and zero efficacy: it fits the receptor beautifully and produces no response at all. Binding and activating are separate steps, and separating them is what makes antagonism intelligible.
 ## answer_b
 Affinity.
 ## explanation_b
-Correct. A receptor is the macromolecule with which a drug interacts to produce its effect, and affinity is how readily a given drug binds it — the tendency to form the drug-receptor complex. The point worth carrying is what affinity does *not* say: it says nothing about what happens after binding. That second property is intrinsic activity, and it is what separates the classes of ligand from one another. A full agonist has affinity and full intrinsic activity, so it binds and produces the maximal response. A partial agonist binds and activates incompletely, so it cannot reach the maximum however much is given. An antagonist has affinity and no intrinsic activity at all: it occupies the receptor and does nothing, which is precisely how it blocks. An inverse agonist binds and produces the opposite of the agonist's effect by reducing the receptor's constitutive activity. All four have affinity; that is the shared property. What they do with the receptor once bound is the distinguishing one.
+A receptor is the macromolecule with which a drug interacts to produce its effect, and affinity is how readily a given drug binds it — the tendency to form the drug-receptor complex. The point worth carrying is what affinity does *not* say: it says nothing about what happens after binding. That second property is intrinsic activity, and it is what separates the classes of ligand from one another. A full agonist has affinity and full intrinsic activity, so it binds and produces the maximal response. A partial agonist binds and activates incompletely, so it cannot reach the maximum however much is given. An antagonist has affinity and no intrinsic activity at all: it occupies the receptor and does nothing, which is precisely how it blocks. An inverse agonist binds and produces the opposite of the agonist's effect by reducing the receptor's constitutive activity. All four have affinity; that is the shared property. What they do with the receptor once bound is the distinguishing one.
 ## answer_c
 Potency.
 ## explanation_c
-Incorrect. Potency is about dose — how much drug is needed to produce a given effect, read off the position of the concentration-response curve on the concentration axis. Affinity is one of the things that contributes to potency, which is what makes the option tempting, but potency is a property of the whole dose-effect relationship in a tissue and affinity is a property of the binding step alone.
+Potency is about dose — how much drug is needed to produce a given effect, read off the position of the concentration-response curve on the concentration axis. Affinity is one of the things that contributes to potency, which is what makes the option tempting, but potency is a property of the whole dose-effect relationship in a tissue and affinity is a property of the binding step alone.
 ## answer_d
 Bioavailability
 ## explanation_d
-Incorrect, and it belongs to a different half of the subject entirely. Bioavailability is the fraction of an administered dose that reaches the systemic circulation unchanged, and it is a pharmacokinetic quantity — what the body does to the drug on the way in. This question is about pharmacodynamics, what the drug does at the receptor once it has arrived.
+It belongs to a different half of the subject entirely. Bioavailability is the fraction of an administered dose that reaches the systemic circulation unchanged, and it is a pharmacokinetic quantity — what the body does to the drug on the way in. This question is about pharmacodynamics, what the drug does at the receptor once it has arrived.
 ## topic
 General pharmacology
 ## subtopic
@@ -4681,7 +4681,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-PHARMACODYNAMICS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Define affinity as the tendency to form the drug-receptor complex, and distinguish it from efficacy, potency and bioavailability.
@@ -4725,19 +4725,19 @@ C
 ## answer_a
 Hypersensitivity
 ## explanation_a
-Incorrect, and it is the option most students reach for, because the everyday sense of the word — being unusually sensitive to something — fits the stem exactly. In pharmacology hypersensitivity means an **immune-mediated** reaction, that is, drug allergy: a response to the drug or its metabolite as an antigen, requiring prior sensitisation, unrelated to dose, and qualitatively unlike the drug's normal action. The stem describes a response that is qualitatively normal and merely excessive, which is not an immune reaction at all.
+It is the option most students reach for, because the everyday sense of the word — being unusually sensitive to something — fits the stem exactly. In pharmacology hypersensitivity means an **immune-mediated** reaction, that is, drug allergy: a response to the drug or its metabolite as an antigen, requiring prior sensitisation, unrelated to dose, and qualitatively unlike the drug's normal action. The stem describes a response that is qualitatively normal and merely excessive, which is not an immune reaction at all.
 ## answer_b
 Idiosyncrasy
 ## explanation_b
-Incorrect, and the word that excludes it is "normal". Idiosyncrasy is a genetically determined response that is *qualitatively abnormal* — something the drug does not ordinarily do to anyone, such as the haemolysis of glucose-6-phosphate dehydrogenase deficiency or prolonged apnoea after suxamethonium in a person with atypical plasma cholinesterase. The stem describes too much of the drug's ordinary action, not a different action.
+The word that excludes it is "normal". Idiosyncrasy is a genetically determined response that is *qualitatively abnormal* — something the drug does not ordinarily do to anyone, such as the haemolysis of glucose-6-phosphate dehydrogenase deficiency or prolonged apnoea after suxamethonium in a person with atypical plasma cholinesterase. The stem describes too much of the drug's ordinary action, not a different action.
 ## answer_c
 Super-sensitivity
 ## explanation_c
-Correct. Super-sensitivity is an exaggerated but qualitatively normal response: the drug does what it always does, and does too much of it, after a dose that would be therapeutic in most people. It sits with allergy and idiosyncrasy in the Type B group of adverse reactions — the bizarre ones, not predictable from the drug's known pharmacology in an ordinary patient — and what separates the three is the *kind* of response each produces. Allergy is immune-mediated and gives a response the drug does not normally produce, requiring prior sensitisation. Idiosyncrasy is genetically determined and also gives an abnormal kind of response, present on first exposure. Super-sensitivity alone gives the normal response, magnified. Reading the stem word by word is what gets this right: "exaggerated" rules out a qualitatively different reaction, "normal action" rules out allergy and idiosyncrasy, and "small therapeutic dose" rules out a Type A dose-dependent effect, which would need an excessive dose to explain it.
+Super-sensitivity is an exaggerated but qualitatively normal response: the drug does what it always does, and does too much of it, after a dose that would be therapeutic in most people. It sits with allergy and idiosyncrasy in the Type B group of adverse reactions — the bizarre ones, not predictable from the drug's known pharmacology in an ordinary patient — and what separates the three is the *kind* of response each produces. Allergy is immune-mediated and gives a response the drug does not normally produce, requiring prior sensitisation. Idiosyncrasy is genetically determined and also gives an abnormal kind of response, present on first exposure. Super-sensitivity alone gives the normal response, magnified. Reading the stem word by word is what gets this right: "exaggerated" rules out a qualitatively different reaction, "normal action" rules out allergy and idiosyncrasy, and "small therapeutic dose" rules out a Type A dose-dependent effect, which would need an excessive dose to explain it.
 ## answer_d
 Tolerance
 ## explanation_d
-Incorrect, and it is the opposite phenomenon. Tolerance is a *diminished* response to a dose that previously worked, so that more drug is needed for the same effect — whether because the body clears it faster or because the receptors have down-regulated. The stem describes an exaggerated response, which is tolerance turned upside down.
+It is the opposite phenomenon. Tolerance is a *diminished* response to a dose that previously worked, so that more drug is needed for the same effect — whether because the body clears it faster or because the receptors have down-regulated. The stem describes an exaggerated response, which is tolerance turned upside down.
 ## topic
 General pharmacology
 ## subtopic
@@ -4783,7 +4783,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-ADVERSE-DRUG-REACTIONS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Name super-sensitivity from its definition, and separate it from allergy, idiosyncrasy and tolerance by the kind of response each produces.
@@ -4827,19 +4827,19 @@ B
 ## answer_a
 It is the ratio between the E-Max and the ED50
 ## explanation_a
-Incorrect, and it mixes two different measurements. The therapeutic index is a ratio of two *doses* — the dose that produces toxicity against the dose that produces the wanted effect, conventionally TD50 (or LD50 in animal work) divided by ED50. Emax is not a dose at all; it is the maximum *effect* the drug can produce. Dividing an effect by a dose gives a quantity with no meaning, and checking that both terms of a ratio are doses is what rescues a student here.
+It mixes two different measurements. The therapeutic index is a ratio of two *doses* — the dose that produces toxicity against the dose that produces the wanted effect, conventionally TD50 (or LD50 in animal work) divided by ED50. Emax is not a dose at all; it is the maximum *effect* the drug can produce. Dividing an effect by a dose gives a quantity with no meaning, and checking that both terms of a ratio are doses is what rescues a student here.
 ## answer_b
 It is a measure of drug safety.
 ## explanation_b
-Correct. The therapeutic index is the ratio of the toxic dose to the effective dose — TD50/ED50 — and what it expresses is how much room there is between the dose that helps and the dose that harms. A large index means the two are far apart and ordinary dosing errors are unlikely to be dangerous; a small index means they are close, and warfarin, digoxin, lithium and phenytoin are small-index drugs for exactly this reason, which is why they are the drugs whose plasma levels get monitored. The distinction that matters is against potency: the index says nothing about how *much* drug is needed, only about the separation between the two doses, so a highly potent drug can be dangerous and a weak one safe. It is also worth knowing the index's own limitation. It is calculated from two population medians, so it describes the middle of a distribution rather than an individual patient, and it takes no account of the shape or the spread of either dose-response curve. The therapeutic *window* — the range of plasma concentrations that are effective without being toxic — is the more clinically useful quantity for that reason, because it is what a measured level can be compared against.
+The therapeutic index is the ratio of the toxic dose to the effective dose — TD50/ED50 — and what it expresses is how much room there is between the dose that helps and the dose that harms. A large index means the two are far apart and ordinary dosing errors are unlikely to be dangerous; a small index means they are close, and warfarin, digoxin, lithium and phenytoin are small-index drugs for exactly this reason, which is why they are the drugs whose plasma levels get monitored. The distinction that matters is against potency: the index says nothing about how *much* drug is needed, only about the separation between the two doses, so a highly potent drug can be dangerous and a weak one safe. It is also worth knowing the index's own limitation. It is calculated from two population medians, so it describes the middle of a distribution rather than an individual patient, and it takes no account of the shape or the spread of either dose-response curve. The therapeutic *window* — the range of plasma concentrations that are effective without being toxic — is the more clinically useful quantity for that reason, because it is what a measured level can be compared against.
 ## answer_c
 The lower the ratio the less effective a drug is.
 ## explanation_c
-Incorrect, and it is safety confused with efficacy. A low therapeutic index means the toxic dose sits close to the effective dose — the drug is *hazardous*, not feeble. Digoxin and lithium have low indices and both are effective; what their low index requires is careful dosing and monitoring, not a larger dose.
+It is safety confused with efficacy. A low therapeutic index means the toxic dose sits close to the effective dose — the drug is *hazardous*, not feeble. Digoxin and lithium have low indices and both are effective; what their low index requires is careful dosing and monitoring, not a larger dose.
 ## answer_d
 It is more clinically relevant than the therapeutic window.
 ## explanation_d
-Incorrect, and it is the comparison inverted. The therapeutic window — the range of plasma concentrations between the minimum effective and the minimum toxic — is the more clinically relevant of the two, because it can be compared directly against a measured level in an individual patient. The therapeutic index is derived from two population medians and describes the drug rather than the person in front of you.
+It is the comparison inverted. The therapeutic window — the range of plasma concentrations between the minimum effective and the minimum toxic — is the more clinically relevant of the two, because it can be compared directly against a measured level in an individual patient. The therapeutic index is derived from two population medians and describes the drug rather than the person in front of you.
 ## topic
 General pharmacology
 ## subtopic
@@ -4886,7 +4886,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-POSOLOGY
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Define the therapeutic index as a ratio of toxic to effective dose, read it as a measure of safety rather than of potency or efficacy, and say why the therapeutic window is more clinically useful.
@@ -4929,19 +4929,19 @@ B
 ## answer_a
 Acquired tolerance
 ## explanation_a
-Incorrect, and the word that rules it out is "acquired". Acquired tolerance develops over repeated exposure to a drug — either because the body has learned to clear it faster, usually through enzyme induction, or because the receptors have down-regulated. It is a change that the drug itself brings about with time. The stem describes a difference that was present in the patient before the first dose was ever given.
+The word that rules it out is "acquired". Acquired tolerance develops over repeated exposure to a drug — either because the body has learned to clear it faster, usually through enzyme induction, or because the receptors have down-regulated. It is a change that the drug itself brings about with time. The stem describes a difference that was present in the patient before the first dose was ever given.
 ## answer_b
 Idiosyncrasy
 ## explanation_b
-Correct. Idiosyncrasy is a qualitatively abnormal response to a drug arising from an inherited difference in an enzyme or a receptor. Because the genetic difference is there from birth, the reaction can appear on the very first exposure, it needs no immune mechanism, and it bears no relation to dose. The standard examples make the mechanism concrete: haemolysis after certain drugs in a person with glucose-6-phosphate dehydrogenase deficiency, and prolonged apnoea after suxamethonium in a person with atypical plasma cholinesterase — in each case a specific inherited enzyme variant meets a specific drug. It belongs to the Type B adverse reactions, the bizarre ones that cannot be predicted from the drug's known pharmacology, alongside allergy and super-sensitivity. Keep the three apart by mechanism: allergy is immune-mediated and requires prior sensitisation; idiosyncrasy is genetic and requires none; super-sensitivity is an exaggerated but qualitatively normal action after a small dose.
+Idiosyncrasy is a qualitatively abnormal response to a drug arising from an inherited difference in an enzyme or a receptor. Because the genetic difference is there from birth, the reaction can appear on the very first exposure, it needs no immune mechanism, and it bears no relation to dose. The standard examples make the mechanism concrete: haemolysis after certain drugs in a person with glucose-6-phosphate dehydrogenase deficiency, and prolonged apnoea after suxamethonium in a person with atypical plasma cholinesterase — in each case a specific inherited enzyme variant meets a specific drug. It belongs to the Type B adverse reactions, the bizarre ones that cannot be predicted from the drug's known pharmacology, alongside allergy and super-sensitivity. Keep the three apart by mechanism: allergy is immune-mediated and requires prior sensitisation; idiosyncrasy is genetic and requires none; super-sensitivity is an exaggerated but qualitatively normal action after a small dose.
 ## answer_c
 Mutagenicity
 ## explanation_c
-Incorrect, and it reverses the direction of the relationship between the drug and the genes. Mutagenicity is a drug's capacity to *cause* a genetic change — damage to the DNA of the exposed person's cells. Idiosyncrasy is a genetic difference that was already present and that alters the response to the drug. The gene is the cause in one and the consequence in the other.
+It reverses the direction of the relationship between the drug and the genes. Mutagenicity is a drug's capacity to *cause* a genetic change — damage to the DNA of the exposed person's cells. Idiosyncrasy is a genetic difference that was already present and that alters the response to the drug. The gene is the cause in one and the consequence in the other.
 ## answer_d
 Teratogenicity
 ## explanation_d
-Incorrect. Teratogenicity is the capacity of a drug to cause structural malformation in a developing fetus when given to a pregnant woman. It is a Type D adverse reaction — a delayed effect — and it concerns harm to a second individual rather than an unusual response in the person taking the drug.
+Teratogenicity is the capacity of a drug to cause structural malformation in a developing fetus when given to a pregnant woman. It is a Type D adverse reaction — a delayed effect — and it concerns harm to a second individual rather than an unusual response in the person taking the drug.
 ## topic
 General pharmacology
 ## subtopic
@@ -4989,7 +4989,7 @@ KAU_Y1
 ## library_ids
 ART-108-PHA-ADVERSE-DRUG-REACTIONS
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## learning_objective
 Name idiosyncrasy as the genetically determined altered drug response, and separate it from tolerance, mutagenicity and teratogenicity.

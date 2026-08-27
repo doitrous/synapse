@@ -125,7 +125,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. Demarcation channels subdivide megakaryocyte cytoplasm into platelets, which is the only option the mechanism produces.',
       explanations: {
-        A: 'Correct. The channels cut the megakaryocyte cytoplasm into platelet ribbons, which fragment into platelets.',
+        A: 'The channels cut the megakaryocyte cytoplasm into platelet ribbons, which fragment into platelets.',
         B: 'A reticulocyte is a young red cell that has lost its nucleus but kept ribosomes. Nothing subdivides it.',
         C: 'Backwards: the demarcation channels are inside the megakaryocyte, so they cannot form it.',
         D: 'Leucocytes arise by division of their own precursors, not by fragmentation of a larger cell.',
@@ -151,7 +151,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The open canalicular system belongs to the hyalomere, the peripheral zone, not the central one. Its job is to open the granulomere\'s granules to the exterior across that periphery.',
         B: 'Microfilaments are in the hyalomere too. The central zone is where the granules are, which is what makes it dark.',
         C: 'The granulomere is named for its granules. Its microtubule content is not what defines it, and the marginal bundle is not there.',
-        D: 'Correct. The marginal bundle of microtubules runs around the periphery within the hyalomere, and it is what holds the resting platelet in its discoid shape.',
+        D: 'The marginal bundle of microtubules runs around the periphery within the hyalomere, and it is what holds the resting platelet in its discoid shape.',
       },
     },
     {
@@ -163,7 +163,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A neutrophil has granules throughout its cytoplasm and a lobed nucleus; it has no two-zone division into hyalomere and granulomere.',
         B: 'A basophil is granular, which is what makes this tempting, but its granules fill the cell rather than occupying a named central zone.',
         C: 'An erythrocyte is a biconcave disc filled with haemoglobin and has no granules at all.',
-        D: 'Correct. Hyalomere and granulomere are the platelet\'s two zones, and the terms are used of nothing else.',
+        D: 'Hyalomere and granulomere are the platelet\'s two zones, and the terms are used of nothing else.',
       },
     },
     {
@@ -176,7 +176,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The dense tubular system is a hyalomere structure — it stores the calcium that triggers release — and is not a granulomere content.',
         B: 'Serotonin is in the delta granules, not the alpha. Alpha granules hold clotting factors, fibrinogen and platelet-derived growth factor.',
-        C: 'Correct. Delta, or dense, granules hold ADP, ATP, calcium and serotonin, and they lie in the granulomere.',
+        C: 'Delta, or dense, granules hold ADP, ATP, calcium and serotonin, and they lie in the granulomere.',
         D: 'Lambda granules are lysosomes and hold hydrolytic enzymes. The clotting factors belong to the alpha granules.',
       },
     },
@@ -189,7 +189,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A T lymphocyte has a large round nucleus and a thin rim of agranular cytoplasm — no named zones.',
         B: 'A B lymphocyte looks much the same on light microscopy, and is likewise not divided into zones.',
         C: 'A mast cell is filled with coarse metachromatic granules throughout, with no clear peripheral zone.',
-        D: 'Correct. Hyalomere and granulomere are the platelet\'s two zones.',
+        D: 'Hyalomere and granulomere are the platelet\'s two zones.',
       },
     },
     {
@@ -201,7 +201,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. The marginal microtubule bundle holds the resting discoid shape.',
         B: 'True, but not the whole answer. Actin and myosin contract to produce the pseudopodia of the activated platelet.',
         C: 'True, but not the whole answer. The open (surface-connected) canalicular system discharges the granules, and the dense tubular system stores the calcium that triggers them.',
-        D: 'Correct. All three are hyalomere contents, and between them they perform every mechanical step the platelet takes.',
+        D: 'All three are hyalomere contents, and between them they perform every mechanical step the platelet takes.',
       },
     },
     {
@@ -223,7 +223,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State the normal platelet count without confusing it with the red or white cell count.',
       explanations: {
         A: '5–6 million per mm³ is the red cell count.',
-        B: 'Correct. The normal platelet count is roughly 150,000–400,000 per mm³.',
+        B: 'The normal platelet count is roughly 150,000–400,000 per mm³.',
         C: '4,000–11,000 per mm³ is the total white cell count.',
         D: '2–4 million confuses the count with the platelet\'s diameter of 2–4 µm.',
       },
@@ -235,7 +235,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the cell platelets are shed from.',
       explanations: {
         A: 'Mesenchymal cells give rise to connective tissue, not to blood platelets.',
-        B: 'Correct. Platelets are fragments shed from megakaryocytes in the bone marrow.',
+        B: 'Platelets are fragments shed from megakaryocytes in the bone marrow.',
         C: 'Pericytes sit on the outside of capillaries and are contractile; they produce no blood cells.',
         D: 'Monocytes are themselves blood cells and become macrophages; they shed nothing.',
       },
@@ -248,7 +248,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A macrophage phagocytoses worn platelets; it does not produce them.',
         B: 'Undifferentiated mesenchymal cells give rise to connective tissue, not to platelets.',
-        C: 'Correct. Platelets are shed from megakaryocytes in the bone marrow.',
+        C: 'Platelets are shed from megakaryocytes in the bone marrow.',
         D: 'A fibroblast makes collagen and ground substance and produces no blood elements.',
       },
     },
@@ -259,7 +259,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Place the platelet ribbon in the cell it forms within.',
       explanations: {
         A: 'A monocyte is a mature circulating cell and does not fragment.',
-        B: 'Correct. Demarcation channels divide megakaryocyte cytoplasm into ribbons, which then break into individual platelets.',
+        B: 'Demarcation channels divide megakaryocyte cytoplasm into ribbons, which then break into individual platelets.',
         C: 'A reticulocyte is a young red cell; the word looks similar but the two have nothing to do with each other.',
         D: 'A lymphocyte divides in two when it proliferates; it never fragments into ribbons.',
       },
@@ -273,7 +273,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Bleeding becomes a real risk once the count falls below about 50,000/mm³.',
         B: 'True, but not the whole answer. Reduced marrow production is one route to it, alongside increased destruction.',
         C: 'True, but not the whole answer. A prolonged bleeding time and excessive bleeding after trauma are how it presents.',
-        D: 'Correct. The count, its cause and its consequence are all part of the picture, and a student who stops at the first true option has answered only a third of it.',
+        D: 'The count, its cause and its consequence are all part of the picture, and a student who stops at the first true option has answered only a third of it.',
       },
     },
     {
@@ -282,7 +282,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Mechanism',
       learningObjective: 'Name what the megakaryocyte produces.',
       explanations: {
-        A: 'Correct. Platelets are shed from megakaryocyte cytoplasm.',
+        A: 'Platelets are shed from megakaryocyte cytoplasm.',
         B: 'Erythrocytes come from the erythroid line, through the normoblast.',
         C: 'Monocytes come from the monocyte line in the marrow.',
         D: 'Lymphocytes come from lymphoid precursors, and mature in the thymus or the marrow.',

@@ -178,6 +178,34 @@ test('two reviewers restructuring the same year collide by name', () => {
   assert.deepEqual(merged.conflicts, ['year:OMS_Y2'])
 })
 
+test('the newest version row must equal app_state, or every re-edit is a phantom conflict', () => {
+  // Reproduces the production incident behind "publishing reverts by itself".
+  // apply-content-import-to-db.mjs recorded the PRE-import ledger in the newest
+  // app_state_versions row while app_state held the POST-import ledger. The
+  // server rebuilds a client's merge base from that newest version row, so
+  // `base` here lacks every imported item. Publishing one then looks like an
+  // item added underneath the client — a conflict — and the client silently
+  // re-reads, reverting the publish.
+  const imported = (status) => ({
+    id: 'q-imported', kind: 'question', title: 'Imported', status,
+    questionData: { tags: { moduleIds: ['MOD_CVS'], years: [] } },
+  })
+  const staleBase = []                     // newest version row = pre-import
+  const stored = [imported('Draft')]       // app_state = post-import
+  const incoming = [imported('Published')] // the admin publishes it
+  const broken = mergeDocument(LEDGER, staleBase, stored, incoming)
+  assert.equal(broken.ok, false)
+  assert.deepEqual(broken.conflicts, ['q-imported'])
+
+  // With the invariant intact — the newest version row equals app_state — the
+  // same publish merges cleanly. This is what the repaired import guarantees,
+  // and what repair-content-version-baseline.mjs restores on a broken database.
+  const correctBase = [imported('Draft')]
+  const fixed = mergeDocument(LEDGER, correctBase, stored, incoming)
+  assert.equal(fixed.ok, true)
+  assert.equal(fixed.value.find((item) => item.id === 'q-imported').status, 'Published')
+})
+
 test('an unmergeable document is returned as sent, for the caller to version-check', () => {
   const merged = mergeDocument('synapse-vouchers-v1', { a: 1 }, { a: 2 }, { a: 3 })
   assert.equal(merged.ok, true)

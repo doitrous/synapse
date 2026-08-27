@@ -1,5 +1,5 @@
 import type { Subject } from './types'
-import { CURRICULUM_SUBJECTS } from './curriculumCatalog'
+import { CURRICULUM_SUBJECTS } from './curriculumCatalog.ts'
 
 /**
  * The organ systems and disciplines the curriculum is organised by.

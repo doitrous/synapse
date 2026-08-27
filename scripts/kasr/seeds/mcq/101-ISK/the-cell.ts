@@ -67,7 +67,7 @@ export const LEAF: McqLeafSeed = {
       key: 'plasma-membrane-unit-membrane-em-and-thickness',
       label: 'The plasma membrane is a 7.5–10 nm trilaminar unit membrane, invisible in H&E and shown only by silver or PAS',
       definition:
-        'The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. The books set it against three other membranous terms: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.',
+        'The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. Three other membranous terms are worth distinguishing: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.',
       objective:
         'Give the thickness of the plasma membrane in the right unit, describe its trilaminar appearance on electron microscopy, and name the stains that show it by light microscopy.',
       pitfall:
@@ -175,7 +175,7 @@ export const LEAF: McqLeafSeed = {
       type: 'classification',
       aliases: ['Multipolar neuron', 'Bipolar neuron', 'Unipolar neuron', 'Pseudounipolar', 'Purkinje cell'],
       gaps: [
-        'This module\'s department book has no nervous tissue histology at all — its nervous system chapter is gross anatomy, and the words multipolar, bipolar, unipolar and Purkinje appear nowhere in the text. The 2020 end-of-module paper nevertheless asked where multipolar nerve cells are found, so the concept is minted from a sat paper, and the answer rests on the standard classification rather than on any statement of this faculty\'s. It is filed under the cytology leaf because it is a question about cell shape and because no histology leaf of 101 ISK covers nervous tissue; when a nervous tissue leaf exists, the row should be re-homed to it.',
+        'This module\'s course material has no nervous tissue histology at all — its nervous system chapter is gross anatomy, and the words multipolar, bipolar, unipolar and Purkinje appear nowhere in the text. The 2020 end-of-module paper nevertheless asked where multipolar nerve cells are found, so the concept is minted from a sat paper, and the answer rests on the standard classification rather than on any statement in the course text. It is filed under the cytology leaf because it is a question about cell shape and because no histology leaf of 101 ISK covers nervous tissue; when a nervous tissue leaf exists, the row should be re-homed to it.',
       ],
     },
   ],
@@ -190,7 +190,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A non-continuous layer describes the way peripheral proteins are scattered over the membrane surfaces, not the integral protein.',
         B: 'This is the definition of a peripheral protein — loosely attached to either surface — and it is the exact opposite of an integral one. It is the option most often taken by students who read "integral" as "important" rather than as "built in".',
         C: 'Small molecules are what integral proteins carry, not what they are. Glucose and ions cross through them; they are not made of them.',
-        D: 'Correct. Integral proteins are transmembrane: they run right through the lipid bilayer, which is what allows them to be channels for ions and water and carriers such as the sodium–potassium pump.',
+        D: 'Integral proteins are transmembrane: they run right through the lipid bilayer, which is what allows them to be channels for ions and water and carriers such as the sodium–potassium pump.',
       },
     },
     {
@@ -200,11 +200,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Explain a failure of hormone action when the hormone level itself is normal.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The source printed no key. The department book\'s own applied note gives this exact case: despite a normal blood level of growth hormone, lack of growth hormone receptors on the target cell membrane causes a type of dwarfism. Only option C states both halves — receptors defective, hormone level normal.',
+        'The source printed no key. The applied note gives this exact case: despite a normal blood level of growth hormone, lack of growth hormone receptors on the target cell membrane causes a type of dwarfism. Only option C states both halves — receptors defective, hormone level normal.',
       explanations: {
         A: 'A low hormone level would explain the failure without any receptor being involved, and the point of the question is a target cell that cannot hear a message that is being sent normally.',
         B: 'A defect of the whole cell membrane would not produce a picture confined to growth and sexual development. What is selective here is the receptor, not the membrane.',
-        C: 'Correct. The hormone is present in the blood at a normal level, but the target cell has no receptors on its coat to bind it, so the signal is never received — the department book gives this as a cause of dwarfism.',
+        C: 'The hormone is present in the blood at a normal level, but the target cell has no receptors on its coat to bind it, so the signal is never received — a recognised cause of dwarfism.',
         D: 'The receptors that bind circulating hormones sit on the cell coat at the external surface, where the hormone can reach them. Endoplasmic reticulum is inside the cell and a blood-borne hormone never arrives there.',
       },
     },
@@ -215,12 +215,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'List all the functions of the cell coat rather than stopping at the first true one.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The source printed no key. A, B and C are each stated by the department book as a cell coat function, so the only option that is not incomplete is D.',
+        'The source printed no key. A, B and C are each a stated cell coat function, so the only option that is not incomplete is D.',
       explanations: {
         A: 'True, but not the whole answer. Cell recognition — one cell identifying another as self or foreign — is a cell coat function.',
         B: 'True, but not the whole answer. Adhesion of cells to each other is a cell coat function.',
         C: 'True, but not the whole answer. The coat carries the specific receptors for drugs, hormones, bacteria and viruses.',
-        D: 'Correct. Recognition, adhesion and reception are three of the coat\'s functions and the book lists protection and cell immunity beside them; a student who stops at the first true option has answered a third of the question.',
+        D: 'Recognition, adhesion and reception are three of the coat\'s functions, alongside protection and cell immunity; a student who stops at the first true option has answered a third of the question.',
       },
     },
     {
@@ -229,7 +229,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Place the cell coat on the outer surface and nowhere else.',
       explanations: {
-        A: 'True, so not the exception. 7.5–10 nm is the thickness the department book gives.',
+        A: 'True, so not the exception. 7.5–10 nm is the given thickness.',
         B: 'True, so not the exception. The membrane is below the resolving power of the light microscope in an H&E section, which is why it has to be inferred rather than seen.',
         C: 'The exception, and the answer. Picked by students who remember that peripheral proteins sit on both surfaces and extend that to the coat. The carbohydrate is added on the external face only; the inner surface carries the cytoskeleton instead.',
         D: 'True, so not the exception. Silver and PAS both act on the carbohydrate of the coat, and they are the only way the membrane is shown by light microscopy.',
@@ -256,7 +256,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The coat is on the external surface only. This option is the mirror of the commonest error, and it is what students choose when they generalise from peripheral proteins, which really are on both.',
         B: 'The glycocalyx projects from the outer face of the bilayer; it is not embedded within it. What is embedded in the lipid is cholesterol and the integral proteins.',
         C: 'It is formed of glycoproteins and glycolipids — that is, of the carbohydrate attached to protein and to lipid. Naming proteins and lipids without the sugar leaves out the only part that makes it a glycocalyx.',
-        D: 'Correct. Adhesion and recognition are the coat\'s two headline functions, and both follow from its being the outermost, cell-specific layer of the cell.',
+        D: 'Adhesion and recognition are the coat\'s two headline functions, and both follow from its being the outermost, cell-specific layer of the cell.',
       },
     },
     {
@@ -271,7 +271,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Three layers is what "trilaminar" means and what "unit membrane" names.',
         B: 'True, but not the whole answer. The two dark lines are the electron-dense outer and inner layers.',
         C: 'True, but not the whole answer. The middle layer is electron lucent, which is why the membrane reads as two dark lines with a clear one between them.',
-        D: 'Correct. The three options are one description broken into pieces, and the question is testing whether the whole trilaminar picture is held together.',
+        D: 'The three options are one description broken into pieces, and the question is testing whether the whole trilaminar picture is held together.',
       },
     },
     {
@@ -283,7 +283,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True. The coat is a mixture of glycolipid and glycoprotein — sugar carried on the lipid and on the protein of the outer leaflet.',
         B: 'True. The receptors for drugs, hormones, bacteria and viruses are part of the coat.',
         C: 'False, and it is the statement the answer excludes. The coat is on the external surface only.',
-        D: 'Correct. A and B are true and C is false, so "all except C" is the only option that holds. A student who reads only as far as C and stops has taken the trap the option set is built around.',
+        D: 'A and B are true and C is false, so "all except C" is the only option that holds. A student who reads only as far as C and stops has taken the trap the option set is built around.',
       },
     },
     {
@@ -295,7 +295,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Lipid is the phospholipid bilayer plus cholesterol.',
         B: 'True, but not the whole answer. Carbohydrate is the smallest component by mass and sits on the outer surface only, but it is a component.',
         C: 'True, but not the whole answer. Protein is about half the membrane by mass.',
-        D: 'Correct. Lipid, protein and carbohydrate — the three-part answer the department book\'s own heading gives.',
+        D: 'Lipid, protein and carbohydrate — the three-part answer.',
       },
     },
     {
@@ -305,7 +305,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the immunoglobulin whose receptor the basophil membrane carries.',
       explanations: {
         A: 'IgA is the immunoglobulin of secretions — tears, saliva, gut and airway mucus. Nothing puts a receptor for it on the basophil.',
-        B: 'Correct. The basophil membrane carries receptors for IgE, and that is why a second exposure to an allergen makes the cell degranulate and release its histamine.',
+        B: 'The basophil membrane carries receptors for IgE, and that is why a second exposure to an allergen makes the cell degranulate and release its histamine.',
         C: 'IgM is the first antibody of a primary response and the largest. Chosen by students reasoning from size or from primacy, neither of which is what the receptor is selected for.',
         D: 'IgD sits on the surface of B lymphocytes as an antigen receptor. It is a membrane immunoglobulin, which makes it tempting, but it is on a different cell.',
       },
@@ -339,9 +339,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Recall the full list of cell coat functions.',
       explanations: {
         A: 'True, but not the whole answer. Identification and adhesion are the two functions most often quoted.',
-        B: 'True, but not the whole answer. The book lists cell immunity among the coat\'s functions.',
+        B: 'True, but not the whole answer. Cell immunity is among the coat\'s functions.',
         C: 'True, but not the whole answer. Protection is on the same list.',
-        D: 'Correct. The department book gives adhesion, identification, protection and cell immunity together, so any single option leaves most of the list out.',
+        D: 'Adhesion, identification, protection and cell immunity belong together, so any single option leaves most of the list out.',
       },
     },
     {
@@ -353,7 +353,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, but not the whole answer. Adhesion of one cell to another is a coat function.',
         B: 'True, but not the whole answer. Recognition of self from foreign is a coat function.',
         C: 'True, but not the whole answer. The specific receptors of the cell are carried on the coat.',
-        D: 'Correct. All three are coat functions; the question is asked in this shape three separate times across the books, which is a fair measure of how much weight the department puts on it.',
+        D: 'All three are coat functions; the question is asked in this shape three separate times across the books, which is a fair measure of how much weight is placed on it.',
       },
     },
     {
@@ -368,7 +368,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Sites of mechanical stress and friction are where desmosomes are, because the desmosome is the strongest junction. The gap junction is a communication device and adds almost nothing to adhesion.',
         B: 'An intercellular space filled with adhesive material describes the adherens junction and the desmosome, where transmembrane proteins are joined across a wide gap with calcium.',
         C: 'Condensation of actin on the cytoplasmic side is the zonula adherens. Intermediate filaments, not actin, go to the desmosome, and nothing is anchored at a gap junction.',
-        D: 'Correct. The gap junction\'s channels let ions and small molecules pass directly from one cytoplasm to the next, which is also how impulses travel between muscle cells.',
+        D: 'The gap junction\'s channels let ions and small molecules pass directly from one cytoplasm to the next, which is also how impulses travel between muscle cells.',
       },
     },
     {
@@ -380,7 +380,7 @@ export const LEAF: McqLeafSeed = {
         A: 'H&E shows neither the membrane nor its coat; the coat is too thin and too little coloured by either dye. This is the option taken by students who assume that anything on a routine slide must be H&E-visible.',
         B: 'True, but not the whole answer. PAS is the carbohydrate stain and it does show the coat.',
         C: 'True, but not the whole answer. Silver also demonstrates it.',
-        D: 'Correct. Both PAS and silver work, and both work for the same reason — they are acting on the sugar of the glycoproteins and glycolipids, not on the membrane itself.',
+        D: 'Both PAS and silver work, and both work for the same reason — they are acting on the sugar of the glycoproteins and glycolipids, not on the membrane itself.',
       },
     },
     {
@@ -390,7 +390,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify the glycocalyx as the carbohydrate component of the membrane.',
       explanations: {
         A: 'The protein component is the peripheral and integral proteins. "Glyco-" is the part of the word that names what this actually is.',
-        B: 'Correct. The glycocalyx is the carbohydrate of the cell membrane, presented as glycoproteins and glycolipids on the outer surface.',
+        B: 'The glycocalyx is the carbohydrate of the cell membrane, presented as glycoproteins and glycolipids on the outer surface.',
         C: 'The hydrophilic end of the phospholipid is its head, which faces the aqueous solution. It is on the outer surface too, which is what makes this option tempting, but it is lipid, not sugar.',
         D: 'The hydrophobic end is the fatty acid tail, and it points inwards, away from the surface entirely.',
       },
@@ -402,7 +402,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the two molecule types that make up the cell coat.',
       explanations: {
         A: 'Lipoproteins are what the membrane as a whole is often called. The coat is specifically the sugar carried on lipid and on protein, and "lipoprotein" leaves the sugar out.',
-        B: 'Correct. Glycolipids and glycoproteins — carbohydrate attached to the lipid and to the protein of the outer leaflet.',
+        B: 'Glycolipids and glycoproteins — carbohydrate attached to the lipid and to the protein of the outer leaflet.',
         C: 'Proteoglycans are ground substance molecules of connective tissue. They are sugar-rich, which is why the option looks plausible, but they are extracellular matrix, not membrane coat.',
         D: 'Phospholipids and cholesterol are the lipid of the bilayer itself, underneath the coat rather than part of it.',
       },
@@ -414,7 +414,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give membrane thickness in the correct unit.',
       explanations: {
         A: 'Angstroms are a tenth of a nanometre, so 7.5–10 Å would be under a nanometre — thinner than a single phospholipid molecule, and thinner than one leaflet of the bilayer.',
-        B: 'Correct. 7.5–10 nm, which is why the membrane cannot be resolved by light microscopy and needs the electron microscope.',
+        B: '7.5–10 nm, which is why the membrane cannot be resolved by light microscopy and needs the electron microscope.',
         C: 'Micrometres would make the membrane about the width of a red blood cell. The whole point of the figure is that the membrane is far below light-microscopic resolution.',
         D: 'Millimetres would make it visible to the naked eye. The option is in the set only to mark the far end of the unit ladder that this question is entirely about.',
       },
@@ -427,7 +427,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: '20 nm is roughly the wide intercellular space of an adherens junction or a desmosome. Chosen by students who know the tight junction is narrow but not that it is nothing.',
         B: '20 µm is a thousand times too large — wider than most whole cells, so no junction could span it.',
-        C: 'Correct. At the zonula occludens the two membranes fuse at points, so the distance between them falls to zero. That is why the junction seals the space and stops material passing between the cells.',
+        C: 'At the zonula occludens the two membranes fuse at points, so the distance between them falls to zero. That is why the junction seals the space and stops material passing between the cells.',
         D: '200 µm is larger still, and is in the set only as the far end of the unit ladder.',
       },
     },
@@ -461,9 +461,9 @@ export const LEAF: McqLeafSeed = {
         'The book keys B, and passive diffusion is a membrane function — it is the plainest one there is. RNA synthesis happens in the nucleus and is the only listed activity the membrane has no part in. The key is one letter off; the answer is D.',
       explanations: {
         A: 'Active transport is a membrane function: the sodium–potassium pump is an integral protein of the membrane.',
-        B: 'Passive diffusion is a membrane function too, and the most basic one — gases cross the bilayer by it without any protein at all. This is the option the book keys, and taking it would mean denying that anything crosses a membrane unaided.',
+        B: 'Passive diffusion is a membrane function too, and the most basic one — gases cross the bilayer by it without any protein at all. This is the keyed answer, and taking it would mean denying that anything crosses a membrane unaided.',
         C: 'Phagocytosis is a membrane function: the pseudopodia that surround a particle are membrane, and the phagosome is made from it.',
-        D: 'Correct. RNA synthesis is done in the nucleus on a DNA template. It is the one item on the list the plasma membrane has nothing to do with.',
+        D: 'RNA synthesis is done in the nucleus on a DNA template. It is the one item on the list the plasma membrane has nothing to do with.',
       },
     },
     {
@@ -483,12 +483,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Distinguish peripheral from integral protein by position.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The source printed no key. Each of A, B and C states a protein type on the wrong side of the bilayer; only D — integral proteins may cross the lipid bilayer — is as the department book has it.',
+        'The source printed no key. Each of A, B and C states a protein type on the wrong side of the bilayer; only D — integral proteins may cross the lipid bilayer — is correct.',
       explanations: {
         A: 'Peripheral proteins are outside the lipid bilayer, on one surface or the other. Inside the bilayer is where the integral proteins are.',
         B: 'The first half is right — peripheral proteins are outside the bilayer — but they are not a continuous layer; they are scattered and loosely attached. "Continuous" is what makes this option false.',
         C: 'Integral proteins are not outside the bilayer. This option and A are the same swap made in both directions, which is what the question is set to catch.',
-        D: 'Correct. Integral proteins are transmembrane: they may cross the whole bilayer, which is what lets them serve as channels and pumps.',
+        D: 'Integral proteins are transmembrane: they may cross the whole bilayer, which is what lets them serve as channels and pumps.',
       },
     },
     {
@@ -497,7 +497,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Attribute the blood group antigens to the cell coat.',
       explanations: {
-        A: 'Correct. The blood group antigens are glycoprotein and glycolipid molecules of the cell coat on the outer surface of the red cell — cell identification, which is exactly what the coat is for.',
+        A: 'The blood group antigens are glycoprotein and glycolipid molecules of the cell coat on the outer surface of the red cell — cell identification, which is exactly what the coat is for.',
         B: 'The membrane cytoskeleton on the inner surface gives the red cell its elasticity and its biconcave shape. It faces the cytoplasm, so it cannot be what another person\'s antibodies recognise.',
         C: 'Cholesterol stabilises the bilayer. It is the same in every red cell of every group and carries no identity.',
         D: 'Phospholipids likewise are structural and identical between people. Only the sugar of the coat varies enough to type blood by.',
@@ -510,7 +510,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attribute red cell deformability to the membrane cytoskeleton on the inner surface.',
       explanations: {
         A: 'The cell coat on the outer surface carries the blood group antigens. It identifies the cell; it does not give it shape. This is the paired question to `responsible-for-blood-grouping`, with the same four options, and swapping the two answers is what the pair is designed to catch.',
-        B: 'Correct. The network of peripheral proteins on the inner surface of the plasma membrane is what lets the red cell fold through a capillary narrower than itself and spring back.',
+        B: 'The network of peripheral proteins on the inner surface of the plasma membrane is what lets the red cell fold through a capillary narrower than itself and spring back.',
         C: 'Cholesterol stabilises the bilayer and restricts phospholipid movement — it makes the membrane less mobile, not more deformable.',
         D: 'Phospholipids form the bilayer, which is fluid but has no mechanical memory of its own. Shape and recoil come from the protein scaffold beneath it.',
       },
@@ -522,7 +522,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the carbohydrate coat.',
       explanations: {
         A: 'Plasmalemma is the membrane itself, the structure the coat sits on.',
-        B: 'Correct. Glycocalyx is the name for the carbohydrate coat of the outer membrane surface.',
+        B: 'Glycocalyx is the name for the carbohydrate coat of the outer membrane surface.',
         C: 'Cristae are the folds of the inner mitochondrial membrane. They are in the option set because this book uses one quartet of membranous terms across several questions.',
         D: 'Cisternae are the flattened sacs of the endoplasmic reticulum and the Golgi.',
       },
@@ -543,7 +543,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the limiting membrane of the cell.',
       explanations: {
-        A: 'Correct. The plasmalemma is the limiting membrane that envelopes the cell — that is the department book\'s own definition of it.',
+        A: 'The plasmalemma is the limiting membrane that envelopes the cell — its own definition.',
         B: 'The glycocalyx is carried on the plasmalemma\'s outer surface. It is a coat, not a membrane, and it does not limit the cell by itself.',
         C: 'Cristae are folds of the inner mitochondrial membrane, inside an organelle rather than around the cell.',
         D: 'Cisternae are the sacs of the endoplasmic reticulum, again inside the cell.',
@@ -556,7 +556,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Choose the stain that shows the cell membrane by light microscopy.',
       explanations: {
         A: 'H&E does not show it. This is the option most students take, because H&E is the slide they see every week — but the membrane is below the light microscope\'s resolution and neither dye concentrates in it.',
-        B: 'Correct. PAS stains the carbohydrate of the cell coat, and it is that reaction, not the membrane itself, which makes the cell outline visible.',
+        B: 'PAS stains the carbohydrate of the cell coat, and it is that reaction, not the membrane itself, which makes the cell outline visible.',
         C: 'Sudan III is a fat stain, used on frozen sections for fat inclusions. The membrane\'s lipid is far too little to show with it.',
         D: 'Orcein stains elastic fibres in connective tissue and has nothing to do with the cell membrane.',
       },
@@ -570,7 +570,7 @@ export const LEAF: McqLeafSeed = {
         A: 'IgM is the first antibody of a primary response, made and released by plasma cells rather than bound at a mast cell surface.',
         B: 'IgG is the commonest circulating immunoglobulin and the one crossing the placenta. Chosen by students reasoning from abundance.',
         C: 'IgA is the immunoglobulin of secretions and is handled by epithelium, not by mast cells.',
-        D: 'Correct. The mast cell membrane carries IgE receptors, which is what makes it degranulate on re-exposure to an allergen — the same receptor the basophil has, and the department book compares the two cells directly.',
+        D: 'The mast cell membrane carries IgE receptors, which is what makes it degranulate on re-exposure to an allergen — the same receptor the basophil has, and the two cells are compared directly.',
       },
     },
     {
@@ -580,11 +580,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the membrane thickness as a range within the right order of magnitude.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The source printed no key. The department book gives 7.5–10 nm, which is option C; here every option is in nanometres, so the question tests the figure rather than the unit.',
+        'The source printed no key. The given range is 7.5–10 nm, which is option C; here every option is in nanometres, so the question tests the figure rather than the unit.',
       explanations: {
         A: '4–6 nm is thinner than the bilayer plus its coat, and is roughly what a single leaflet with its head groups would measure.',
         B: '6–7.5 nm brushes the bottom of the true range without reaching it. This option is set immediately below the answer, so it catches a half-remembered figure.',
-        C: 'Correct. 7.5–10 nm is the range the department book gives.',
+        C: '7.5–10 nm is the given range.',
         D: '10–30 nm is thicker than any plasma membrane and closer to the width of an intercellular gap at an adherens junction.',
       },
     },
@@ -605,7 +605,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State what cholesterol does in the bilayer.',
       explanations: {
         A: 'Channels are integral proteins spanning the bilayer. Cholesterol sits between the fatty acid tails and conducts nothing.',
-        B: 'Correct. Cholesterol lies among the hydrophobic tails, restricts the movement of the phospholipids and so stabilises the membrane and modulates its fluidity.',
+        B: 'Cholesterol lies among the hydrophobic tails, restricts the movement of the phospholipids and so stabilises the membrane and modulates its fluidity.',
         C: 'Receptors are on the cell coat and are glycoprotein. Cholesterol is buried in the lipid interior where no extracellular ligand could reach it.',
         D: 'Both a and c would need cholesterol to be a channel and a receptor, and it is neither. This is the option for a student who thinks a lipid this famous must be doing more than one thing.',
       },
@@ -614,11 +614,11 @@ export const LEAF: McqLeafSeed = {
       key: 'the-inner-folds-of-mitochondrial-membrane-are-called-90464254',
       conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
       difficulty: 'Easy', questionType: 'Structure and function',
-      learningObjective: 'Tell the plasmalemma apart from the other membranous terms the books offer beside it.',
+      learningObjective: 'Tell the plasmalemma apart from the other membranous terms often confused with it.',
       explanations: {
         A: 'Plasmalemma is the limiting membrane of the whole cell, not a fold inside an organelle.',
         B: 'Glycocalyx is the carbohydrate coat on the outer surface of the plasmalemma.',
-        C: 'Correct. Cristae are the folds of the inner mitochondrial membrane, and they carry the elementary particles with ATP synthase activity.',
+        C: 'Cristae are the folds of the inner mitochondrial membrane, and they carry the elementary particles with ATP synthase activity.',
         D: 'Cisternae are the flattened sacs of the endoplasmic reticulum and of the Golgi. This quartet of four membranous terms is reused across several questions in this book, and answering it is a matter of holding all four apart at once.',
       },
     },
@@ -630,7 +630,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: '7.5–10 mm is a centimetre-scale membrane. The option is at the far end of the unit ladder this question is built from.',
         B: '7.5–10 µm is about the diameter of a red blood cell — a thousand times too thick.',
-        C: 'Correct. 7.5–10 nm.',
+        C: '7.5–10 nm.',
         D: 'There is a correct option in the set, so "none of the above" cannot stand.',
       },
     },
@@ -640,7 +640,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Normal values',
       learningObjective: 'Give membrane thickness in the correct unit and the correct order of magnitude.',
       explanations: {
-        A: 'Correct. 7.5–10 nm, printed here without the dash. This is the fifth time the books ask membrane thickness, and the fourth different way of setting the trap.',
+        A: '7.5–10 nm, printed here without the dash. This is the fifth time the books ask membrane thickness, and the fourth different way of setting the trap.',
         B: 'The same figure in micrometres, a thousandfold too thick.',
         C: '75–100 nm is ten times the true thickness and is closer to the diameter of a small vesicle.',
         D: '75–100 µm is larger than most whole cells.',
@@ -652,7 +652,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the limiting membrane of the cell.',
       explanations: {
-        A: 'Correct. The plasmalemma is the limiting membrane enveloping the cell.',
+        A: 'The plasmalemma is the limiting membrane enveloping the cell.',
         B: 'The glycocalyx is the coat carried on the plasmalemma\'s outer face, not the membrane itself.',
         C: 'Protoplasm is the whole living content of the cell, cytoplasm and nucleus together. It is what the membrane encloses, not what encloses it.',
         D: 'Cristae are folds of the inner mitochondrial membrane.',
@@ -667,9 +667,9 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The book keys C, phospholipids. Phospholipids are the fluid part of the membrane — cholesterol is what restricts their movement and stabilises it, and the same books key `the-function-of-cholesterol-in-the-cell-membrane-is-to` as "stabilize the cell membrane". The two questions cannot both be right, and the one with cholesterol named in the stem is the one to trust.',
       explanations: {
-        A: 'Correct. Cholesterol sits among the fatty acid tails, restricts phospholipid movement and stabilises the bilayer.',
+        A: 'Cholesterol sits among the fatty acid tails, restricts phospholipid movement and stabilises the bilayer.',
         B: 'The cell coat is on the outer surface and does recognition, adhesion and reception. It contributes nothing to the mechanical stability of the lipid.',
-        C: 'Phospholipids are the component cholesterol acts on: on their own they are mobile, and that mobility is what stabilisation restrains. This is the option the book keys, and taking it reverses the relationship the question is about.',
+        C: 'Phospholipids are the component cholesterol acts on: on their own they are mobile, and that mobility is what stabilisation restrains. This is the keyed answer, and taking it reverses the relationship the question is about.',
         D: 'Intrinsic — integral — proteins are channels, carriers and pumps. They cross the bilayer but they do not hold it together.',
       },
     },
@@ -690,12 +690,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the microtubule count of the ciliary axoneme and say whether it lies inside or outside the plasmalemma.',
       answerOverride: 'd',
       answerOverrideReason:
-        'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book, not from a key: it defines cilia as motile processes with a microtubular core covered by plasmalemma, names the shaft the axoneme, and gives that shaft nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.',
+        'The 2021 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is not from a key: cilia are motile processes with a microtubular core covered by plasmalemma, the shaft is called the axoneme, and that shaft has nine peripheral doublets plus two central singlets — twenty microtubules. The four options cross the two counts with the two coverings, so only one crossing is right.',
       explanations: {
         a: 'Twenty-seven is the basal body, and the centriole it comes from: nine triplets. The covering is right and the number is wrong, which is the harder half of the item to see.',
         b: 'Both halves wrong. Twenty-seven belongs to the basal body, and the basal body is the part that sits inside the apical cytoplasm — but that makes it the structure the option is describing, not the axoneme.',
         c: 'The right count with the wrong covering. The axoneme projects above the cell surface, and everything that projects from a cell is covered by its plasma membrane; a bare bundle of microtubules in the extracellular space would not be part of a cell at all.',
-        d: 'Correct. The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.',
+        d: 'The axoneme is the shaft of the cilium: 9 + 2 — nine peripheral doublets and two central singlets, twenty microtubules — sheathed in the plasmalemma.',
       },
     },
     {
@@ -714,7 +714,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'No options in the bank row, and two questions in one stem. The pen crossed the option letters of question 3 on this 2024 script, so its options — Cell membrane, Mitochondria, Golgi apparatus, Ribosomes — went into the stem, and question 4 on the peroxisomes followed with its own four. The department book answers both: ribosomes and the cytoskeleton are its only non-membranous organelles, and peroxisomes bud from the rough, not the smooth, endoplasmic reticulum and produce heat rather than ATP. Neither can be emitted from a row with an empty option map. Recoverable by rescanning page 1 of the 2024 paper, which would split it into two.',
+      excludeReason: 'No options in the bank row, and two questions in one stem. The pen crossed the option letters of question 3 on this 2024 script, so its options — Cell membrane, Mitochondria, Golgi apparatus, Ribosomes — went into the stem, and question 4 on the peroxisomes followed with its own four. Both answers are known: ribosomes and the cytoskeleton are the only non-membranous organelles, and peroxisomes bud from the rough, not the smooth, endoplasmic reticulum and produce heat rather than ATP. Neither can be emitted from a row with an empty option map. Recoverable by rescanning page 1 of the 2024 paper, which would split it into two.',
     },
     {
       key: 'multipolar-nerve-cells-are-present-in-46f1ffc3',
@@ -723,9 +723,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Sort named nerve cells into unipolar, bipolar and multipolar by the number of processes leaving the cell body.',
       answerOverride: 'a',
       answerOverrideReason:
-        'One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module\'s book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the book: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the department book. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.',
+        'One of the strays the extractor could not file to a leaf. It is authored here, in the cytology leaf, because it is a question about cell shape and because this module\'s book has no nervous tissue histology chapter to file it under — its nervous system chapter is gross anatomy. That is also why the answer comes from neither a key nor the course material: the 2020 paper printed none, the highlight recovery does not cover that sitting, and the words multipolar, bipolar and unipolar appear nowhere in the course text. The answer is the standard classification the item is built on, and the concept carries a `gaps` note saying so.',
       explanations: {
-        a: 'Correct. The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.',
+        a: 'The Purkinje cell of the cerebellar cortex is the type example of a multipolar neuron: one axon and a great many dendrites leaving the cell body, so more than two processes in all.',
         b: 'Spinal ganglion cells are unipolar — strictly pseudounipolar, a single process that divides in two — and they are the standard example of that class. This is the strongest distractor because a ganglion is where most students first meet a named nerve cell.',
         c: 'Vestibular ganglion cells in the ear are bipolar: one process at each end of the cell body. They belong with the retinal and olfactory cells, not with the Purkinje cell.',
         d: 'The bipolar cells of the retina are the second standard example of the bipolar class, which is why the item offers two bipolar options — a student who knows only that ganglia are unipolar still has to choose between them.',

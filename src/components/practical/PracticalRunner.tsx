@@ -296,150 +296,156 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
     )
   }
 
+  const stationProgress = progress.stations[target.id]
+  const totalSeconds = (target.minutes ?? 8) * 60
+  const remainingPct = totalSeconds ? (seconds / totalSeconds) * 100 : 0
+
   return (
     <div>
-      <Header
-        target={target}
-        onExit={onExit}
-        right={
-          <div className="w-full space-y-2 sm:w-64">
-            <Panel className="p-3">
-            <div className="text-end">
-            {/* The card was digits floating against empty space. Naming the
-                thing balances it and says what the number is. */}
-            <div className="flex items-baseline justify-between gap-3">
-              <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Timer')}</span>
-              <span
-                className={cn(
-                  'tnum font-mono text-[22px] font-semibold',
-                  seconds <= 30 ? 'text-danger' : 'text-ink',
-                )}
-              >
-                {clock(seconds)}
-              </span>
-            </div>
-            <div className="flex items-center justify-end gap-1 text-[11px] text-ink-3">
-              <Icon icon={Clock} size={11} />
-              {t('remaining')}
-            </div>
-            <div className="mt-2 flex justify-end gap-1.5">
+      <Header target={target} onExit={onExit} />
+
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-start">
+        {/* Sidebar: the clock is a fixed reference point, not tied to whichever
+            tab the candidate/examiner happen to be looking at, so it lives
+            outside the tabbed content instead of floating in the header. */}
+        <div className="flex flex-col gap-3 lg:w-[240px] lg:shrink-0">
+          <Panel className="flex flex-col items-center gap-2.5 p-4 text-center">
+            <p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('Station clock')}</p>
+            <p className={cn('tnum font-mono text-[40px] font-semibold leading-none tracking-[-0.02em]', seconds <= 30 ? 'text-danger' : 'text-ink')}>
+              {clock(seconds)}
+            </p>
+            <Meter value={remainingPct} tone={seconds <= 30 ? 'danger' : 'primary'} className="w-full" />
+            <div className="flex gap-1.5">
               <Button variant={running ? 'secondary' : 'primary'} size="sm" iconLeft={running ? Pause : Play} onClick={() => setRunning((value) => !value)}>{running ? 'Stop' : 'Start'}</Button>
-              <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => { setSeconds((target.minutes ?? 8) * 60); setRunning(false) }}>Reset</Button>
+              <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => { setSeconds(totalSeconds); setRunning(false) }}>Reset</Button>
             </div>
-            </div>
-            </Panel>
-          </div>
-        }
-      />
-
-      <div className="mb-4 flex border-b border-line">
-        <button onClick={() => setTab('candidate')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'candidate' ? 'text-ink' : 'text-ink-3')}>Candidate{tab === 'candidate' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
-        <button onClick={() => setTab('examiner')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'examiner' ? 'text-ink' : 'text-ink-3')}>Examiner &amp; Actor{tab === 'examiner' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
-      </div>
-
-      {tab === 'candidate' ? (
-        <div className="mb-4 space-y-3">
-          <ExaminerWarning />
-          <Panel className="p-4">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Candidate instructions</p>
-            <p className="mt-1.5 text-[14.5px] leading-relaxed text-ink">{detail.scenario}</p>
-            {'mediaUrl' in detail && typeof detail.mediaUrl === 'string' && detail.mediaUrl && (
-              <div className="mt-4">
-                <PracticalMedia
-                  url={detail.mediaUrl}
-                  type={'mediaType' in detail ? detail.mediaType : undefined}
-                  mimeType={'mediaMimeType' in detail ? detail.mediaMimeType : undefined}
-                  name={`${target.title} station media`}
-                  record={recordAt(mediaRecords, detail.mediaUrl)}
-                />
-              </div>
-            )}
+            <div className="flex items-center gap-1 text-[10.5px] text-ink-3"><Icon icon={Clock} size={11} />{t('Turns red under 30 seconds')}</div>
           </Panel>
+
+          {stationProgress && (
+            <Panel className="px-4 py-3 text-[12px] text-ink-2">
+              Best so far{' '}
+              <span className="tnum font-mono font-semibold text-ink">
+                {stationProgress.outOf ? Math.round((stationProgress.bestMarks / stationProgress.outOf) * 100) : 0}%
+              </span>
+              <span className="text-ink-3"> · {stationProgress.attempts} {stationProgress.attempts === 1 ? 'try' : 'tries'}</span>
+            </Panel>
+          )}
+
+          {(detail.references?.length ?? 0) > 0 && (
+            <Panel className="p-4">
+              <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Read around it</h3>
+              <ul className="mt-2.5 space-y-1.5">
+                {detail.references!.map((reference) => (
+                  <li key={reference}>
+                    <Link
+                      to={`/app/resources?q=${encodeURIComponent(reference)}`}
+                      state={backState(location, 'Back to station')}
+                      className="group flex min-w-0 items-center gap-2 rounded-lg border border-line bg-surface px-2.5 py-1.5 text-[12px] text-ink-2 transition-colors hover:border-primary-line hover:bg-primary-tint/30 hover:text-ink"
+                    >
+                      <Icon icon={BookOpen} size={13} className="shrink-0 text-ink-3" />
+                      <span className="min-w-0 flex-1 truncate">{reference}</span>
+                      <Icon icon={ExternalLink} size={12} className="shrink-0 text-ink-3" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </Panel>
+          )}
         </div>
-      ) : (
-        <Panel className="mb-4 overflow-hidden">
-          <div className="border-b border-line px-4 py-3"><p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink">Actor brief</p><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">For whoever is playing the patient</p></div>
-          <div className="space-y-5 p-4">
-            <div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Open with this, then stop</p><p className="mt-1 font-serif text-[17px] text-ink">{detail.actorBrief?.opening ?? 'Wait for the candidate to begin.'}</p></div>
-            {detail.actorBrief?.sections ? <div className="divide-y divide-line">{detail.actorBrief.sections.map((section) => <div key={section.id} className="py-2.5"><p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink-3">{section.label}</p><p className="mt-1 max-w-3xl text-[12.5px] leading-relaxed text-ink-2">{section.content}</p></div>)}</div> : <><div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Who you are</p><p className="mt-1 max-w-3xl text-[13px] leading-relaxed text-ink-2">{detail.actorBrief?.identity ?? 'Answer in role and offer only information that is asked for.'}</p></div><div className="divide-y divide-line">{detail.actorBrief?.prompts.map((prompt) => <div key={prompt.label} className="py-2.5"><p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-3">{prompt.label}</p><p className="mt-1 text-[12.5px] text-ink-2">“{prompt.response}”</p></div>)}</div></>}
-            {(detail.actorBrief?.flags ?? (detail.actorBrief?.examinerNote ? [detail.actorBrief.examinerNote] : [])).map((flag) => <div key={flag} className="flex gap-3 rounded-lg border border-primary/40 bg-primary-tint/50 p-3 text-[12px] leading-relaxed text-ink-2"><Icon icon={Flag} size={15} className="mt-0.5 text-primary" /><span>{flag}</span></div>)}
+
+        {/* Main column */}
+        <div className="min-w-0 flex-1">
+          <div className="mb-3 flex border-b border-line">
+            <button onClick={() => setTab('candidate')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'candidate' ? 'text-ink' : 'text-ink-3')}>Candidate{tab === 'candidate' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
+            <button onClick={() => setTab('examiner')} className={cn('relative min-h-11 px-3 py-2 text-[13px] font-medium', tab === 'examiner' ? 'text-ink' : 'text-ink-3')}>Examiner &amp; Actor{tab === 'examiner' && <span className="absolute inset-x-2 -bottom-px h-0.5 bg-primary" />}</button>
           </div>
-        </Panel>
-      )}
 
-      {tab === 'examiner' && <Panel>
-        <div className="flex items-center justify-between border-b border-line px-4 py-3">
-          <h3 className="font-sans text-[13px] font-semibold text-ink">Mark scheme</h3>
-          <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => setChecked(new Set())}>Reset</Button>
-        </div>
-        <div className="border-b border-line px-4 py-4">
-          <div className="flex items-end gap-4"><span className="tnum font-mono text-[34px] font-semibold leading-none text-danger">{pct}%</span><div className="flex-1"><Meter value={pct} tone="primary" /><p className="mt-1.5 font-mono text-[10.5px] text-ink-3">{checked.size} of {total} scoring points · pass mark 65%</p></div></div>
-        </div>
-        <div className="divide-y divide-line px-4">
-          {sections.map((section) => <section key={section.id} className="py-4"><div className="mb-1.5 flex items-center justify-between gap-3"><h4 className="text-[13px] font-bold text-ink">{section.title}</h4><span className="font-mono text-[11px] font-semibold text-warning">{section.marks} marks</span></div><ul>{section.items.map((m) => {
-            const done = checked.has(m.id)
-            return (
-              <li key={m.id}>
-                <button
-                  onClick={() =>
-                    setChecked((prev) => {
-                      const next = new Set(prev)
-                      if (next.has(m.id)) next.delete(m.id)
-                      else next.add(m.id)
-                      return next
-                    })
-                  }
-                  className="group flex w-full items-start gap-3 rounded-md px-2 py-2.5 text-start transition-colors hover:bg-inset"
-                >
-                  <span
-                    className={cn(
-                      'mt-px grid size-[18px] shrink-0 place-items-center rounded-[5px] border transition-colors',
-                      done ? 'border-primary bg-primary' : 'border-line-2 bg-surface group-hover:border-ink-3',
-                    )}
-                  >
-                    {done && <Icon icon={Check} size={12} strokeWidth={2.5} className="text-on-primary" />}
-                  </span>
-                  <span className={cn('text-[14px] leading-snug', done ? 'text-ink-2' : 'text-ink')}>
-                    {m.text}
-                  </span>
-                </button>
-              </li>
-            )
-          })}</ul></section>)}
-        </div>
-        <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-3">
-          <Meter value={pct} tone="primary" className="flex-1" />
-          <Button variant="primary" size="sm" iconRight={Trophy} onClick={finishStation}>
-            Finish station
-          </Button>
-        </div>
-      </Panel>}
+          {tab === 'candidate' ? (
+            <div className="space-y-3">
+              <ExaminerWarning />
+              <Panel className="p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Candidate instructions</p>
+                <p className="mt-1.5 text-[14.5px] leading-relaxed text-ink">{detail.scenario}</p>
+                {'mediaUrl' in detail && typeof detail.mediaUrl === 'string' && detail.mediaUrl && (
+                  <div className="mt-4">
+                    <PracticalMedia
+                      url={detail.mediaUrl}
+                      type={'mediaType' in detail ? detail.mediaType : undefined}
+                      mimeType={'mediaMimeType' in detail ? detail.mediaMimeType : undefined}
+                      name={`${target.title} station media`}
+                      record={recordAt(mediaRecords, detail.mediaUrl)}
+                    />
+                  </div>
+                )}
+              </Panel>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              <Panel className="overflow-hidden">
+                <div className="border-b border-line px-4 py-3"><p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink">Actor brief</p><p className="mt-0.5 font-mono text-[10.5px] text-ink-3">For whoever is playing the patient</p></div>
+                <div className="space-y-5 p-4">
+                  <div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Open with this, then stop</p><p className="mt-1 font-serif text-[17px] text-ink">{detail.actorBrief?.opening ?? 'Wait for the candidate to begin.'}</p></div>
+                  {detail.actorBrief?.sections ? <div className="divide-y divide-line">{detail.actorBrief.sections.map((section) => <div key={section.id} className="py-2.5"><p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink-3">{section.label}</p><p className="mt-1 max-w-3xl text-[12.5px] leading-relaxed text-ink-2">{section.content}</p></div>)}</div> : <><div><p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Who you are</p><p className="mt-1 max-w-3xl text-[13px] leading-relaxed text-ink-2">{detail.actorBrief?.identity ?? 'Answer in role and offer only information that is asked for.'}</p></div><div className="divide-y divide-line">{detail.actorBrief?.prompts.map((prompt) => <div key={prompt.label} className="py-2.5"><p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-ink-3">{prompt.label}</p><p className="mt-1 text-[12.5px] text-ink-2">“{prompt.response}”</p></div>)}</div></>}
+                  {(detail.actorBrief?.flags ?? (detail.actorBrief?.examinerNote ? [detail.actorBrief.examinerNote] : [])).map((flag) => <div key={flag} className="flex gap-3 rounded-lg border border-primary/40 bg-primary-tint/50 p-3 text-[12px] leading-relaxed text-ink-2"><Icon icon={Flag} size={15} className="mt-0.5 text-primary" /><span>{flag}</span></div>)}
+                </div>
+              </Panel>
 
-      {/* Moved out of the header's right column, where it stood a stacked list
-          tall enough to push the timer into a corner of its own and swallow the
-          space the station itself needed. Below the tabs it is what it is: what
-          to read afterwards. The two placeholder links that used to appear when
-          a station had no references are gone — they led nowhere. */}
-      {(detail.references?.length ?? 0) > 0 && (
-        <Panel className="mt-4 p-4">
-          <h3 className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Read around it</h3>
-          <ul className="mt-2 flex flex-wrap gap-2">
-            {detail.references!.map((reference) => (
-              <li key={reference}>
-                <Link
-                  to={`/app/resources?q=${encodeURIComponent(reference)}`}
-                  state={backState(location, 'Back to station')}
-                  className="group inline-flex max-w-full items-center gap-2 rounded-lg border border-line bg-surface px-2.5 py-1.5 text-[12px] text-ink-2 transition-colors hover:border-primary-line hover:bg-primary-tint/30 hover:text-ink"
-                >
-                  <Icon icon={BookOpen} size={13} className="shrink-0 text-ink-3" />
-                  <span className="truncate">{reference}</span>
-                  <Icon icon={ExternalLink} size={12} className="shrink-0 text-ink-3" />
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </Panel>
-      )}
+              <Panel className="overflow-hidden">
+                <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-4 py-3">
+                  <h3 className="font-sans text-[13px] font-semibold text-ink">Mark scheme</h3>
+                  <div className="flex items-baseline gap-2.5">
+                    <span className="tnum font-mono text-[24px] font-semibold leading-none text-primary-strong">{pct}%</span>
+                    <span className="text-[11px] text-ink-3">{checked.size} of {total} scoring points · pass mark 65%</span>
+                  </div>
+                </div>
+                <div className="px-4 pt-3"><Meter value={pct} tone="primary" /></div>
+                {/* Ticking updates the live score above — weighted by section,
+                    not by raw item count, so a light section can't outweigh a
+                    heavy one. */}
+                <div className="columns-1 gap-x-6 px-2 py-2 sm:columns-2">
+                  {sections.map((section) => <section key={section.id} className="break-inside-avoid px-2 py-2"><div className="mb-1 flex items-center justify-between gap-3"><h4 className="text-[13px] font-bold text-ink">{section.title}</h4><span className="font-mono text-[11px] font-semibold text-warning">{section.marks} marks</span></div><ul>{section.items.map((m) => {
+                    const done = checked.has(m.id)
+                    return (
+                      <li key={m.id}>
+                        <button
+                          onClick={() =>
+                            setChecked((prev) => {
+                              const next = new Set(prev)
+                              if (next.has(m.id)) next.delete(m.id)
+                              else next.add(m.id)
+                              return next
+                            })
+                          }
+                          className="group flex w-full items-start gap-3 rounded-md px-2 py-2 text-start transition-colors hover:bg-inset"
+                        >
+                          <span
+                            className={cn(
+                              'mt-px grid size-[18px] shrink-0 place-items-center rounded-[5px] border transition-colors',
+                              done ? 'border-primary bg-primary' : 'border-line-2 bg-surface group-hover:border-ink-3',
+                            )}
+                          >
+                            {done && <Icon icon={Check} size={12} strokeWidth={2.5} className="text-on-primary" />}
+                          </span>
+                          <span className={cn('text-[13.5px] leading-snug', done ? 'text-ink-2' : 'text-ink')}>
+                            {m.text}
+                          </span>
+                        </button>
+                      </li>
+                    )
+                  })}</ul></section>)}
+                </div>
+                <div className="flex items-center justify-between gap-3 border-t border-line px-4 py-3">
+                  <Button variant="ghost" size="sm" iconLeft={RotateCcw} onClick={() => setChecked(new Set())}>Reset ticks</Button>
+                  <Button variant="primary" size="sm" iconRight={Trophy} onClick={finishStation}>
+                    Finish station
+                  </Button>
+                </div>
+              </Panel>
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   )
 }
@@ -525,61 +531,114 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
     <div>
       <Header target={target} onExit={onExit} />
 
-      <div className="mb-4 flex items-center gap-3">
-        <span className="text-[13px] font-medium text-ink-2">
-          Decision <span className="tnum font-mono text-ink">{idx + 1}</span> of {stages.length}
-        </span>
-        <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
-          <div
-            className="h-full rounded-full bg-primary transition-[width] duration-300"
-            style={{ width: `${((idx + 1) / stages.length) * 100}%` }}
-          />
-        </div>
-      </div>
-
-      <Panel className="p-5 sm:p-6">
-        <div className="flex items-center gap-2"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">{stage.title}</p><DifficultyMark value={'difficulty' in stage ? stage.difficulty : undefined} /></div>
-        {stage.context && <p className="mt-3 max-w-3xl text-[15px] leading-[1.7] text-ink-2">{stage.context}</p>}
-        {'mediaUrl' in stage && typeof stage.mediaUrl === 'string' && stage.mediaUrl && (
-          <div className="mt-4">
-            <PracticalMedia
-              url={stage.mediaUrl}
-              type={'mediaType' in stage && (stage.mediaType === 'image' || stage.mediaType === 'audio' || stage.mediaType === 'video') ? stage.mediaType : undefined}
-              mimeType={'mediaMimeType' in stage && typeof stage.mediaMimeType === 'string' ? stage.mediaMimeType : undefined}
-              name={stage.title ?? 'Case media'}
-              record={recordAt(mediaRecords, stage.mediaUrl)}
-            />
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-start">
+        <div className="min-w-0 flex-1">
+          <div className="mb-4 flex items-center gap-3">
+            <span className="text-[13px] font-medium text-ink-2">
+              Decision <span className="tnum font-mono text-ink">{idx + 1}</span> of {stages.length}
+            </span>
+            <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
+              <div
+                className="h-full rounded-full bg-primary transition-[width] duration-300"
+                style={{ width: `${((idx + 1) / stages.length) * 100}%` }}
+              />
+            </div>
           </div>
-        )}
-        <h2 className="mt-4 font-sans text-[18px] font-semibold tracking-[-0.01em] text-ink">{stage.question ?? stage.prompt}</h2>
 
-        <div className="mt-5 space-y-2">{options.map((option, optionIndex) => {
-          const correct = optionIndex === correctIndex
-          return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-primary-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-start text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
-        })}</div>
-        {revealed && <div className="mt-4 rounded-lg border border-primary-line bg-primary-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">Decision rationale</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
+          <Panel className="p-5 sm:p-6">
+            <div className="flex items-center gap-2"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">{stage.title}</p><DifficultyMark value={'difficulty' in stage ? stage.difficulty : undefined} /></div>
+            {stage.context && <p className="mt-3 max-w-3xl text-[15px] leading-[1.7] text-ink-2">{stage.context}</p>}
+            {'mediaUrl' in stage && typeof stage.mediaUrl === 'string' && stage.mediaUrl && (
+              <div className="mt-4">
+                <PracticalMedia
+                  url={stage.mediaUrl}
+                  type={'mediaType' in stage && (stage.mediaType === 'image' || stage.mediaType === 'audio' || stage.mediaType === 'video') ? stage.mediaType : undefined}
+                  mimeType={'mediaMimeType' in stage && typeof stage.mediaMimeType === 'string' ? stage.mediaMimeType : undefined}
+                  name={stage.title ?? 'Case media'}
+                  record={recordAt(mediaRecords, stage.mediaUrl)}
+                />
+              </div>
+            )}
+            <h2 className="mt-4 font-sans text-[18px] font-semibold tracking-[-0.01em] text-ink">{stage.question ?? stage.prompt}</h2>
 
-        <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
-          <Button
-            variant="ghost"
-            size="md"
-            iconLeft={ArrowLeft}
-            disabled={idx === 0}
-            onClick={() => setIdx((i) => Math.max(0, i - 1))}
-          >
-            Previous
-          </Button>
-          {last ? (
-            <Button variant="primary" size="md" onClick={() => setDebrief(true)} disabled={!revealed}>
-              See the debrief
-            </Button>
-          ) : (
-            <Button variant="primary" size="md" iconRight={ArrowRight} onClick={() => setIdx((i) => i + 1)} disabled={!revealed}>
-              Next decision
-            </Button>
+            <div className="mt-5 space-y-2">{options.map((option, optionIndex) => {
+              const correct = optionIndex === correctIndex
+              return <div key={option} className={cn('overflow-hidden rounded-lg border transition-colors', !revealed && 'border-line bg-surface hover:border-primary-line', revealed && correct && 'border-success bg-success-tint', revealed && selected === optionIndex && !correct && 'border-danger bg-danger-tint', revealed && !correct && selected !== optionIndex && 'border-line opacity-65')}><button disabled={revealed} onClick={() => { setChoices((current) => ({ ...current, [idx]: optionIndex })); recordDecision(optionIndex) }} className="flex w-full items-start gap-3 p-3 text-start text-[13.5px]"><span className="grid size-6 shrink-0 place-items-center rounded-full border border-line-2 font-mono text-[11px]">{String.fromCharCode(65 + optionIndex)}</span><span>{option}</span></button>{revealed && stage.optionExplanations?.[optionIndex] && <p className="border-t border-current/10 px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{stage.optionExplanations[optionIndex]}</p>}</div>
+            })}</div>
+            {revealed && <div className="mt-4 rounded-lg border border-primary-line bg-primary-tint/50 p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">Decision rationale</p><p className="mt-1.5 text-[14px] leading-relaxed text-ink">{stage.answer}</p></div>}
+
+            <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
+              <Button
+                variant="ghost"
+                size="md"
+                iconLeft={ArrowLeft}
+                disabled={idx === 0}
+                onClick={() => setIdx((i) => Math.max(0, i - 1))}
+              >
+                Previous
+              </Button>
+              {last ? (
+                <Button variant="primary" size="md" onClick={() => setDebrief(true)} disabled={!revealed}>
+                  See the debrief
+                </Button>
+              ) : (
+                <Button variant="primary" size="md" iconRight={ArrowRight} onClick={() => setIdx((i) => i + 1)} disabled={!revealed}>
+                  Next decision
+                </Button>
+              )}
+            </div>
+          </Panel>
+        </div>
+
+        {/* Case path: built from the real stages/choices state, not a
+            standalone list — a stage reads as answered only once its own
+            option has actually been picked, and "correct" only when the
+            author marked one. */}
+        <div className="flex flex-col gap-3 lg:w-[240px] lg:shrink-0">
+          <Panel className="p-4">
+            <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Case path</h3>
+            <ol className="mt-3">
+              {stages.map((s, i) => {
+                const done = choices[i] != null
+                const current = i === idx
+                const stageCorrect = done && (s.correctIndex ?? -1) >= 0 ? choices[i] === s.correctIndex : null
+                return (
+                  <li key={s.title} className="flex gap-2.5">
+                    <div className="flex flex-col items-center">
+                      <span
+                        className={cn(
+                          'grid size-[20px] shrink-0 place-items-center rounded-full',
+                          done ? (stageCorrect === false ? 'bg-danger' : 'bg-success') : current ? 'border-2 border-primary bg-primary-tint' : 'border border-line-2',
+                        )}
+                      >
+                        {done ? (
+                          <Icon icon={stageCorrect === false ? X : Check} size={11} strokeWidth={3} className={stageCorrect === false ? 'text-on-danger' : 'text-on-success'} />
+                        ) : current ? (
+                          <span className="size-1.5 rounded-full bg-primary" />
+                        ) : null}
+                      </span>
+                      {i < stages.length - 1 && <span className="my-0.5 w-px flex-1 bg-line" />}
+                    </div>
+                    <div className={cn('min-w-0', i < stages.length - 1 ? 'pb-4' : 'pb-0.5')}>
+                      <p className={cn('text-[12.5px] font-medium', current ? 'text-primary-strong' : done ? 'text-ink' : 'text-ink-3')}>{s.title}</p>
+                      <p className="mt-0.5 text-[10.5px] text-ink-3">
+                        {current ? 'You are here' : done ? (stageCorrect === false ? 'Answered' : stageCorrect ? 'Answered correctly' : 'Answered') : 'Locked'}
+                      </p>
+                    </div>
+                  </li>
+                )
+              })}
+            </ol>
+          </Panel>
+
+          {detail?.debrief && (
+            <Panel className="p-4">
+              <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">What the debrief will cover</h3>
+              <p className="mt-2 text-[12px] leading-relaxed text-ink-2">Every decision with its rationale, and the references below.</p>
+            </Panel>
           )}
         </div>
-      </Panel>
+      </div>
     </div>
   )
 }
@@ -675,6 +734,8 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
     return 'border-line bg-surface opacity-70'
   }
 
+  const hasMedia = Boolean(mediaUrl)
+
   return (
     <div>
       <Header target={target} onExit={onExit} />
@@ -691,85 +752,106 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
         </div>
       </div>
 
-      <Panel className="p-5 sm:p-6">
-        {q.context && <p className="mb-3 text-[14.5px] leading-relaxed text-ink-2">{q.context}</p>}
-        <div className="flex items-start gap-2"><p className="flex-1 text-[16px] font-semibold leading-snug text-ink">{q.question ?? q.stem}</p><DifficultyMark value={'difficulty' in q ? q.difficulty : undefined} /></div>
-        {mediaUrl && <div className="mt-4"><PracticalMedia url={mediaUrl} type={mediaType} mimeType={mediaMimeType} name={`${target.title} · media ${idx + 1}`} record={recordAt(mediaRecords, mediaUrl)} /><div className="mt-1 flex justify-end"><Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'image', id: `${target.id}-${idx}`, title: `${target.title} · media ${idx + 1}` })}>Report media</Button></div></div>}
-        <div className="mt-4 space-y-2.5">
-          {q.options.map((opt, i) => (
-            <div key={i}>
-              <button
-                disabled={revealed}
-                onClick={() => setAnswers((a) => ({ ...a, [idx]: i }))}
-                className={cn(
-                  'flex w-full items-center gap-3 rounded-lg border p-3 text-start transition-colors',
-                  optionClasses(i),
-                )}
-              >
-                <span
-                  className={cn(
-                    'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
-                    revealed && opt.correct
-                      ? 'border-success bg-success text-on-success'
-                      : revealed && chosen === i
-                        ? 'border-danger bg-danger text-on-danger'
-                        : chosen === i
-                          ? 'border-primary bg-primary text-on-primary'
-                          : 'border-line-2 text-ink-2',
-                  )}
-                >
-                  {revealed && opt.correct ? (
-                    <Icon icon={Check} size={14} strokeWidth={2.6} />
-                  ) : revealed && chosen === i ? (
-                    <Icon icon={X} size={14} strokeWidth={2.6} />
-                  ) : (
-                    ['A', 'B', 'C', 'D'][i]
-                  )}
-                </span>
-                <span className="flex-1 text-[14px] text-ink">{opt.text}</span>
-              </button>
-              {revealed && opt.explanation && <p className="border-x border-b border-line px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{opt.explanation}</p>}
-            </div>
-          ))}
-        </div>
-
-        {revealed && (
-          <div className="mt-4 rounded-lg border border-line bg-surface-2 p-4">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Explanation</p>
-            <p className="mt-1.5 text-[14px] leading-relaxed text-ink">{q.explanation}</p>
+      {/* With media the viewer and the question sit side by side, matching how
+          much room each needs. With none — most interpretation questions are
+          text-only vitals/labs/ABGs — the media column simply doesn't exist,
+          so the question card is not left stranded next to empty space. */}
+      <div className={cn('flex flex-col gap-4', hasMedia && 'lg:flex-row lg:items-start')}>
+        {hasMedia && (
+          <div className="min-w-0 lg:flex-1">
+            <Panel className="overflow-hidden">
+              <div className="flex items-center justify-between gap-2 border-b border-line px-4 py-2.5">
+                <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Media</span>
+                <Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'image', id: `${target.id}-${idx}`, title: `${target.title} · media ${idx + 1}` })}>Report media</Button>
+              </div>
+              <div className="p-3">
+                <PracticalMedia url={mediaUrl} type={mediaType} mimeType={mediaMimeType} name={`${target.title} · media ${idx + 1}`} record={recordAt(mediaRecords, mediaUrl)} />
+              </div>
+            </Panel>
           </div>
         )}
 
-        <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
-          <Button
-            variant="ghost"
-            size="md"
-            iconLeft={ArrowLeft}
-            disabled={idx === 0}
-            onClick={() => setIdx((i) => Math.max(0, i - 1))}
-          >
-            Previous
-          </Button>
-          {!revealed ? (
-            <Button
-              variant="primary"
-              size="md"
-              disabled={chosen == null}
-              onClick={checkAnswer}
-            >
-              Check answer
-            </Button>
-          ) : last ? (
-            <Button variant="primary" size="md" iconRight={Trophy} onClick={() => setFinished(true)}>
-              See results
-            </Button>
-          ) : (
-            <Button variant="primary" size="md" iconRight={ArrowRight} onClick={() => setIdx((i) => i + 1)}>
-              Next
-            </Button>
-          )}
+        <div className={cn('min-w-0', hasMedia ? 'lg:w-[400px] lg:shrink-0' : 'flex-1 lg:mx-auto lg:max-w-[640px]')}>
+          <Panel className="p-5 sm:p-6">
+            {q.context && <p className="mb-3 text-[14.5px] leading-relaxed text-ink-2">{q.context}</p>}
+            <div className="flex items-start gap-2"><p className="flex-1 text-[16px] font-semibold leading-snug text-ink">{q.question ?? q.stem}</p><DifficultyMark value={'difficulty' in q ? q.difficulty : undefined} /></div>
+            <div className="mt-4 space-y-2.5">
+              {q.options.map((opt, i) => (
+                <div key={i}>
+                  <button
+                    disabled={revealed}
+                    onClick={() => setAnswers((a) => ({ ...a, [idx]: i }))}
+                    className={cn(
+                      'flex w-full items-center gap-3 rounded-lg border p-3 text-start transition-colors',
+                      optionClasses(i),
+                    )}
+                  >
+                    <span
+                      className={cn(
+                        'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
+                        revealed && opt.correct
+                          ? 'border-success bg-success text-on-success'
+                          : revealed && chosen === i
+                            ? 'border-danger bg-danger text-on-danger'
+                            : chosen === i
+                              ? 'border-primary bg-primary text-on-primary'
+                              : 'border-line-2 text-ink-2',
+                      )}
+                    >
+                      {revealed && opt.correct ? (
+                        <Icon icon={Check} size={14} strokeWidth={2.6} />
+                      ) : revealed && chosen === i ? (
+                        <Icon icon={X} size={14} strokeWidth={2.6} />
+                      ) : (
+                        ['A', 'B', 'C', 'D'][i]
+                      )}
+                    </span>
+                    <span className="flex-1 text-[14px] text-ink">{opt.text}</span>
+                  </button>
+                  {revealed && opt.explanation && <p className="border-x border-b border-line px-12 py-2.5 text-[12px] leading-relaxed text-ink-2">{opt.explanation}</p>}
+                </div>
+              ))}
+            </div>
+
+            {revealed && (
+              <div className="mt-4 rounded-lg border border-line bg-surface-2 p-4">
+                <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Explanation</p>
+                <p className="mt-1.5 text-[14px] leading-relaxed text-ink">{q.explanation}</p>
+              </div>
+            )}
+
+            <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
+              <Button
+                variant="ghost"
+                size="md"
+                iconLeft={ArrowLeft}
+                disabled={idx === 0}
+                onClick={() => setIdx((i) => Math.max(0, i - 1))}
+              >
+                Previous
+              </Button>
+              {!revealed ? (
+                <Button
+                  variant="primary"
+                  size="md"
+                  disabled={chosen == null}
+                  onClick={checkAnswer}
+                >
+                  Check answer
+                </Button>
+              ) : last ? (
+                <Button variant="primary" size="md" iconRight={Trophy} onClick={() => setFinished(true)}>
+                  See results
+                </Button>
+              ) : (
+                <Button variant="primary" size="md" iconRight={ArrowRight} onClick={() => setIdx((i) => i + 1)}>
+                  Next
+                </Button>
+              )}
+            </div>
+          </Panel>
         </div>
-      </Panel>
+      </div>
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
     </div>
   )
@@ -777,7 +859,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
 
 export function PracticalRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   return (
-    <div className="mx-auto max-w-[760px] px-4 py-6 sm:px-6">
+    <div className="mx-auto max-w-[1040px] px-4 py-6 sm:px-6">
       {target.kind === 'osce' && <OsceRunner target={target} onExit={onExit} />}
       {target.kind === 'case' && <CaseRunner target={target} onExit={onExit} />}
       {target.kind === 'lab' && <LabRunner target={target} onExit={onExit} />}

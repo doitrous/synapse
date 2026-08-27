@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
-  ArrowRight, Award, BookOpenCheck, Building2, Check, CircleHelp, Clock3, Hammer,
+  ArrowLeft, ArrowRight, Award, BookOpenCheck, Building2, Check, CircleHelp, Clock3, Hammer,
   ListChecks, Pencil, Sparkles, Trophy,
 } from 'lucide-react'
 import { PageContainer } from '@/components/shell/Page'
@@ -32,6 +33,27 @@ function duration(minutes: number): string {
   const rest = minutes % 60
   if (!hours) return `${rest}m`
   return rest ? `${hours}h ${rest}m` : `${hours}h`
+}
+
+/** ArrowLeft to the previous screen, falling back to the dashboard when this
+ * is the first entry in the tab's history (a fresh tab, a bookmark, a deep link). */
+function BackButton() {
+  const navigate = useNavigate()
+  const handleBack = useCallback(() => {
+    const historyIndex = (window.history.state as { idx?: number } | null)?.idx
+    if (typeof historyIndex === 'number' && historyIndex > 0) navigate(-1)
+    else navigate('/app')
+  }, [navigate])
+  return (
+    <button
+      type="button"
+      onClick={handleBack}
+      className="mb-3 inline-flex min-h-9 items-center gap-1.5 rounded-md px-2 -ms-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+    >
+      <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
+      Back
+    </button>
+  )
 }
 
 function ProgressSteps({ stage }: { stage: number }) {
@@ -216,6 +238,7 @@ export function Maristanas() {
   return (
     <>
     <PageContainer className="max-w-[1280px]">
+      <BackButton />
       <header className="mb-5 flex flex-wrap items-end justify-between gap-4 sm:mb-6">
         <div className="max-w-2xl">
           <div className="flex items-center gap-2 text-primary-strong">

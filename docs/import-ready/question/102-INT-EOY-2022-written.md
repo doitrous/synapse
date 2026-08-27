@@ -38,12 +38,12 @@ Define autonomic ganglia, mention their importance, and describe their different
 ## written_parts
 ### (a) 6 marks
 Define autonomic ganglia, mention their importance, and describe their different types.
-Expects: Definition: a ganglion is a collection of neurons outside the CNS, containing the mother neurons (cell bodies) of postganglionic nerve fibres (Module 102 Department Book, physical p152)
-Expects: Importance: each preganglionic axon synapses on 8-9 postganglionic cell bodies, so autonomic ganglia act as distribution centres and diffuse the autonomic output, the ratio of preganglionic to postganglionic fibres being about 1:8 or 1:9 (Module 102 Department Book, physical p152)
-Expects: Paravertebral sympathetic chain: on both sides of the vertebral column, one ganglion per spinal segment except only 3 in the cervical region (superior, middle, inferior); relays sympathetic fibres only (Module 102 Department Book, physical p152)
-Expects: Collateral ganglia: midway between the spinal cord and the viscera at the origin of the abdominal aorta's branches, named after the vessel — coeliac, superior mesenteric and inferior mesenteric ganglia relay sympathetic fibres; ciliary, sphenopalatine, submaxillary and otic ganglia relay parasympathetic fibres (Module 102 Department Book, physical p153)
-Expects: Terminal ganglia: near or within the visceral organ itself, relaying parasympathetic fibres whose postganglionic axons are very short (1 mm to a few cm) (Module 102 Department Book, physical p153)
-Expects: Adrenal medulla: a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete adrenaline (80%) and noradrenaline (20%) directly into the blood when the preganglionic cholinergic sympathetic supply is stimulated (Module 102 Department Book, physical p153)
+Expects: Definition: a ganglion is a collection of neurons outside the CNS, containing the mother neurons (cell bodies) of postganglionic nerve fibres
+Expects: Importance: each preganglionic axon synapses on 8-9 postganglionic cell bodies, so autonomic ganglia act as distribution centres and diffuse the autonomic output, the ratio of preganglionic to postganglionic fibres being about 1:8 or 1:9
+Expects: Paravertebral sympathetic chain: on both sides of the vertebral column, one ganglion per spinal segment except only 3 in the cervical region (superior, middle, inferior); relays sympathetic fibres only
+Expects: Collateral ganglia: midway between the spinal cord and the viscera at the origin of the abdominal aorta's branches, named after the vessel — coeliac, superior mesenteric and inferior mesenteric ganglia relay sympathetic fibres; ciliary, sphenopalatine, submaxillary and otic ganglia relay parasympathetic fibres
+Expects: Terminal ganglia: near or within the visceral organ itself, relaying parasympathetic fibres whose postganglionic axons are very short (1 mm to a few cm)
+Expects: Adrenal medulla: a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete adrenaline (80%) and noradrenaline (20%) directly into the blood when the preganglionic cholinergic sympathetic supply is stimulated
 Concept: CON-NEU-FCFD384A1011F8
 ## main_concept
 CON-NEU-FCFD384A1011F8
@@ -122,12 +122,12 @@ Describe how acetylcholine and noradrenaline are removed after being released.
 ## written_parts
 ### (a) 6 marks
 Describe how acetylcholine and noradrenaline are removed after being released.
-Expects: Acetylcholine: split within a fraction of a second into acetate ion and choline by the enzyme acetylcholinesterase (Module 102 Department Book, physical p163)
-Expects: True (specific) cholinesterase has high affinity for acetylcholine and sits on membranes of cholinergic nerve endings, in the synaptic area bound to collagen and at the cholinergic nerve terminal (Module 102 Department Book, physical p163)
-Expects: Pseudocholinesterase (non-specific) is present in plasma and acts on acetylcholine that diffuses into surrounding fluid or plasma (Module 102 Department Book, physical p163)
-Expects: The choline produced is transported back into the nerve ending and reused to synthesise new acetylcholine (Module 102 Department Book, physical p163)
-Expects: Noradrenaline route 1: active re-uptake into the adrenergic nerve ending itself, accounting for 50-80% of removal of the secreted noradrenaline (Module 102 Department Book, physical p164)
-Expects: Noradrenaline routes 2-3: diffusion away from the nerve ending into surrounding body fluids and blood; and destruction by monoamine oxidase (MAO, outer mitochondrial surface, deaminates noradrenaline) and catechol-O-methyl-transferase (COMT, present in tissues generally but not in adrenergic nerve endings, methylates noradrenaline) (Module 102 Department Book, physical p164)
+Expects: Acetylcholine: split within a fraction of a second into acetate ion and choline by the enzyme acetylcholinesterase
+Expects: True (specific) cholinesterase has high affinity for acetylcholine and sits on membranes of cholinergic nerve endings, in the synaptic area bound to collagen and at the cholinergic nerve terminal
+Expects: Pseudocholinesterase (non-specific) is present in plasma and acts on acetylcholine that diffuses into surrounding fluid or plasma
+Expects: The choline produced is transported back into the nerve ending and reused to synthesise new acetylcholine
+Expects: Noradrenaline route 1: active re-uptake into the adrenergic nerve ending itself, accounting for 50-80% of removal of the secreted noradrenaline
+Expects: Noradrenaline routes 2-3: diffusion away from the nerve ending into surrounding body fluids and blood; and destruction by monoamine oxidase (MAO, outer mitochondrial surface, deaminates noradrenaline) and catechol-O-methyl-transferase (COMT, present in tissues generally but not in adrenergic nerve endings, methylates noradrenaline)
 Concept: CON-NEU-ACE8344E6D9D43
 ## main_concept
 CON-NEU-ACE8344E6D9D43
@@ -206,12 +206,12 @@ Define hepcidin, outline its role in iron homeostasis, and mention the factors a
 ## written_parts
 ### (a) 6 marks
 Define hepcidin, outline its role in iron homeostasis, and mention the factors affecting its secretion.
-Expects: Definition: hepcidin is a 25-amino-acid hormone secreted by the liver, and is the main regulator of iron absorption from the intestine (Module 102 Department Book, physical p130)
-Expects: Because the body has no mechanism to regulate iron excretion, plasma iron level is regulated mainly through absorption, which is where hepcidin acts (Module 102 Department Book, physical p130)
-Expects: Mechanism on enterocytes: hepcidin binds ferroportin on the basolateral membrane of enterocytes, causing its internalisation and degradation, blocking dietary iron export into plasma (Module 102 Department Book, physical p130)
-Expects: Mechanism on macrophages/hepatocytes: hepcidin binds ferroportin on macrophages and hepatocytes, inhibiting release of stored/recycled iron from these cells (Module 102 Department Book, physical p130)
-Expects: Net role: hepcidin promotes cellular storage of iron and lowers plasma iron levels; the liver senses plasma iron level and regulates hepcidin synthesis and secretion accordingly (Module 102 Department Book, physical p130)
-Expects: Decreased by: iron deficiency, hypoxia, erythropoietin hormone. Increased by: excessive iron intake, inflammation (Module 102 Department Book, physical p130)
+Expects: Definition: hepcidin is a 25-amino-acid hormone secreted by the liver, and is the main regulator of iron absorption from the intestine
+Expects: Because the body has no mechanism to regulate iron excretion, plasma iron level is regulated mainly through absorption, which is where hepcidin acts
+Expects: Mechanism on enterocytes: hepcidin binds ferroportin on the basolateral membrane of enterocytes, causing its internalisation and degradation, blocking dietary iron export into plasma
+Expects: Mechanism on macrophages/hepatocytes: hepcidin binds ferroportin on macrophages and hepatocytes, inhibiting release of stored/recycled iron from these cells
+Expects: Net role: hepcidin promotes cellular storage of iron and lowers plasma iron levels; the liver senses plasma iron level and regulates hepcidin synthesis and secretion accordingly
+Expects: Decreased by: iron deficiency, hypoxia, erythropoietin hormone. Increased by: excessive iron intake, inflammation
 Concept: CON-HEM-E0B694DE0AF467
 ## main_concept
 CON-HEM-E0B694DE0AF467
@@ -290,12 +290,12 @@ Describe the platelet release reaction.
 ## written_parts
 ### (a) 6 marks
 Describe the platelet release reaction.
-Expects: A calcium-dependent reaction that follows platelet adhesion (to exposed subendothelial collagen and von Willebrand factor) and activation (Module 102 Department Book, physical p135)
-Expects: Dense granule contents released: calcium (leads to more release), ADP (activation, aggregation and fusion of platelets), serotonin (reinforces and maintains vasoconstriction of the injured vessel) (Module 102 Department Book, physical p135)
-Expects: Alpha granule contents released: coagulation factors — fibrinogen, factor V, von Willebrand factor and factor XIII (Module 102 Department Book, physical p135)
-Expects: Alpha granule contents released: platelet-derived growth factor (PDGF), which stimulates vessel-wall repair by driving growth and multiplication of vascular endothelium, smooth muscle and fibroblasts (Module 102 Department Book, physical p135)
-Expects: Alpha granule contents released: platelet activating factor (PAF), which stimulates platelet aggregation (Module 102 Department Book, physical p135)
-Expects: Thromboxane A2 (TXA2), produced from membrane arachidonic acid by cyclooxygenase, is a vasoconstrictor, a stimulator of the release reaction itself, and a powerful stimulant of platelet aggregation (Module 102 Department Book, physical p135-Module 102 Department Book, physical p136)
+Expects: A calcium-dependent reaction that follows platelet adhesion (to exposed subendothelial collagen and von Willebrand factor) and activation
+Expects: Dense granule contents released: calcium (leads to more release), ADP (activation, aggregation and fusion of platelets), serotonin (reinforces and maintains vasoconstriction of the injured vessel)
+Expects: Alpha granule contents released: coagulation factors — fibrinogen, factor V, von Willebrand factor and factor XIII
+Expects: Alpha granule contents released: platelet-derived growth factor (PDGF), which stimulates vessel-wall repair by driving growth and multiplication of vascular endothelium, smooth muscle and fibroblasts
+Expects: Alpha granule contents released: platelet activating factor (PAF), which stimulates platelet aggregation
+Expects: Thromboxane A2 (TXA2), produced from membrane arachidonic acid by cyclooxygenase, is a vasoconstrictor, a stimulator of the release reaction itself, and a powerful stimulant of platelet aggregation
 Concept: CON-HEM-E20402B19F5D30
 ## main_concept
 CON-HEM-E20402B19F5D30
@@ -374,27 +374,27 @@ Case of pulmonary embolism treated with tissue plasminogen activator, in a patie
 ## written_parts
 ### (a) 1 marks
 Outline the mechanism of action of tissue plasminogen activator.
-Expects: TPA converts plasminogen into plasmin (fibrinolysin), with the help of thrombin; plasmin then lyses fibrin and fibrinogen into fibrinogen degradation products (FDPs), which in turn inhibit thrombin (Module 102 Department Book, physical p140)
+Expects: TPA converts plasminogen into plasmin (fibrinolysin), with the help of thrombin; plasmin then lyses fibrin and fibrinogen into fibrinogen degradation products (FDPs), which in turn inhibit thrombin
 Concept: CON-HEM-87280E690F877F
 ### (b) 1 marks
 Inside the body, explain the relation between protein C and tissue plasminogen activator.
-Expects: Thrombin bound to endothelial thrombomodulin activates protein C; activated protein C (with cofactor protein S) inactivates the inhibitor of TPA, which releases TPA to become active — so protein C is what switches TPA on (Module 102 Department Book, physical p140)
+Expects: Thrombin bound to endothelial thrombomodulin activates protein C; activated protein C (with cofactor protein S) inactivates the inhibitor of TPA, which releases TPA to become active — so protein C is what switches TPA on
 Concept: CON-HEM-87280E690F877F
 ### (c) 1 marks
 Clarify the role of thrombin in coagulation.
-Expects: Thrombin is the enzyme formed by the prothrombin activator complex (active factor X + phospholipid + Ca2+ + active factor V) that converts prothrombin to thrombin, which converts fibrinogen to fibrin, producing the clot; it is formed by both the intrinsic and extrinsic pathways (Module 102 Department Book, physical p140; also physical p138)
+Expects: Thrombin is the enzyme formed by the prothrombin activator complex (active factor X + phospholipid + Ca2+ + active factor V) that converts prothrombin to thrombin, which converts fibrinogen to fibrin, producing the clot; it is formed by both the intrinsic and extrinsic pathways
 Concept: CON-HEM-87280E690F877F
 ### (d) 1 marks
 How does thrombin lose its procoagulant activity and become a potent anticoagulant?
-Expects: When thrombin binds thrombomodulin on the endothelial surface it forms a thrombin-thrombomodulin complex that no longer clots fibrinogen but instead activates protein C, converting thrombin's action from procoagulant to anticoagulant (Module 102 Department Book, physical p140)
+Expects: When thrombin binds thrombomodulin on the endothelial surface it forms a thrombin-thrombomodulin complex that no longer clots fibrinogen but instead activates protein C, converting thrombin's action from procoagulant to anticoagulant
 Concept: CON-HEM-87280E690F877F
 ### (e) 1 marks
 Name the factors inactivated by protein C.
-Expects: Activated protein C (with protein S) inactivates factor V and factor VIII(a) (Module 102 Department Book, physical p140)
+Expects: Activated protein C (with protein S) inactivates factor V and factor VIII(a)
 Concept: CON-HEM-87280E690F877F
 ### (f) 1 marks
 Name 2 possible complications of blood clot formation inside blood vessels.
-Expects: Local: obstruction of blood flow through the vessel with infarction (tissue anoxia and death) of the area supplied. Distant: embolism, in which part or all of the clot breaks off and lodges in a smaller downstream vessel — as the pulmonary embolus in this case (Module 102 Department Book, physical p140; case stem)
+Expects: Local: obstruction of blood flow through the vessel with infarction (tissue anoxia and death) of the area supplied. Distant: embolism, in which part or all of the clot breaks off and lodges in a smaller downstream vessel — as the pulmonary embolus in this case
 Concept: CON-HEM-87280E690F877F
 ## main_concept
 CON-HEM-87280E690F877F
@@ -473,10 +473,10 @@ On a biochemical basis, explain the importance of capping and polyadenylation of
 ## written_parts
 ### (a) 6 marks
 On a biochemical basis, explain the importance of capping and polyadenylation of mRNA molecules.
-Expects: Capping: addition of a methyl-guanosine cap at the 5' end of the primary transcript (Module 102 Department Book, physical p74)
-Expects: Importance of capping: stabilises mRNA by protecting it against ribonuclease attack; increases protein synthesis by increasing transport of mRNA to the cytoplasm and allowing its recognition by ribosomes (Module 102 Department Book, physical p74)
-Expects: Polyadenylation: addition of a poly(A) tail (up to 200 adenine residues) at the 3' end, catalysed by poly(A) polymerase (PAP) (Module 102 Department Book, physical p74)
-Expects: Importance of polyadenylation: stabilises mRNA against ribonuclease attack; increases protein synthesis by binding specific poly(A)-tail-binding proteins; and the length of the poly(A) tail determines the half-life of the mRNA (Module 102 Department Book, physical p74)
+Expects: Capping: addition of a methyl-guanosine cap at the 5' end of the primary transcript
+Expects: Importance of capping: stabilises mRNA by protecting it against ribonuclease attack; increases protein synthesis by increasing transport of mRNA to the cytoplasm and allowing its recognition by ribosomes
+Expects: Polyadenylation: addition of a poly(A) tail (up to 200 adenine residues) at the 3' end, catalysed by poly(A) polymerase (PAP)
+Expects: Importance of polyadenylation: stabilises mRNA against ribonuclease attack; increases protein synthesis by binding specific poly(A)-tail-binding proteins; and the length of the poly(A) tail determines the half-life of the mRNA
 Concept: CON-FND-CC55F157021237
 ## main_concept
 CON-FND-CC55F157021237
@@ -555,12 +555,12 @@ On a biochemical basis, explain how cAMP acts as a hormone second messenger.
 ## written_parts
 ### (a) 6 marks
 On a biochemical basis, explain how cAMP acts as a hormone second messenger.
-Expects: cAMP is formed from ATP by adenylyl cyclase and converted to AMP by phosphodiesterase (Module 102 Department Book, physical p69)
-Expects: Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, which forms cAMP from ATP (Module 102 Department Book, physical p69)
-Expects: Cyclic AMP activates protein kinase A, causing phosphorylation of target proteins/enzymes (Module 102 Department Book, physical p69)
-Expects: Inactive protein kinase A is a tetramer of two regulatory (R) and two catalytic (C) subunits; binding of two cAMP molecules to each regulatory subunit releases the two catalytic subunits, which are active and phosphorylate their substrates (Module 102 Department Book, physical p69)
-Expects: Phosphorylation activates some enzymes (e.g. glycogen phosphorylase kinase) and inactivates others (e.g. glycogen synthase); a protein phosphatase reverses the process by dephosphorylation (Module 102 Department Book, physical p69)
-Expects: Glucagon and epinephrine activate adenylyl cyclase and raise cAMP, which inhibits protein phosphatase; insulin activates protein phosphatase and phosphodiesterase and lowers cAMP, reversing glucagon's and epinephrine's effects (Module 102 Department Book, physical p69)
+Expects: cAMP is formed from ATP by adenylyl cyclase and converted to AMP by phosphodiesterase
+Expects: Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, which forms cAMP from ATP
+Expects: Cyclic AMP activates protein kinase A, causing phosphorylation of target proteins/enzymes
+Expects: Inactive protein kinase A is a tetramer of two regulatory (R) and two catalytic (C) subunits; binding of two cAMP molecules to each regulatory subunit releases the two catalytic subunits, which are active and phosphorylate their substrates
+Expects: Phosphorylation activates some enzymes (e.g. glycogen phosphorylase kinase) and inactivates others (e.g. glycogen synthase); a protein phosphatase reverses the process by dephosphorylation
+Expects: Glucagon and epinephrine activate adenylyl cyclase and raise cAMP, which inhibits protein phosphatase; insulin activates protein phosphatase and phosphodiesterase and lowers cAMP, reversing glucagon's and epinephrine's effects
 Concept: CON-FND-12CE1BF1D6C77C
 ## main_concept
 CON-FND-12CE1BF1D6C77C
@@ -639,12 +639,12 @@ On a biochemical basis, explain why the collagen molecule has a strong flexible 
 ## written_parts
 ### (a) 6 marks
 On a biochemical basis, explain why the collagen molecule has a strong flexible structure.
-Expects: Tropocollagen is 3 left-handed alpha-chains, each about 1000 amino acids of the repeating triplet Gly-X-Y (X = proline, Y = hydroxyproline), twisted into a right-handed superhelix (Module 102 Department Book, physical p50)
-Expects: Each turn of the helix contains only 3 amino acid residues, making a tighter helix than an ordinary protein (3.6 residues/turn) (Module 102 Department Book, physical p50)
-Expects: Glycine, present at every third position, has a side chain small enough to let the 3 chains lie very close together (Module 102 Department Book, physical p50)
-Expects: The high hydroxyproline content forms hydrogen bonds between the chains (Module 102 Department Book, physical p50)
-Expects: Covalent cross-links between adjacent chains give collagen its tensile property, so it can be stretched without breaking (Module 102 Department Book, physical p50)
-Expects: The molecules are arranged specifically into fibrils and then fibres in a staggered, overhanging array, which gives collagen marked flexibility (Module 102 Department Book, physical p50)
+Expects: Tropocollagen is 3 left-handed alpha-chains, each about 1000 amino acids of the repeating triplet Gly-X-Y (X = proline, Y = hydroxyproline), twisted into a right-handed superhelix
+Expects: Each turn of the helix contains only 3 amino acid residues, making a tighter helix than an ordinary protein (3.6 residues/turn)
+Expects: Glycine, present at every third position, has a side chain small enough to let the 3 chains lie very close together
+Expects: The high hydroxyproline content forms hydrogen bonds between the chains
+Expects: Covalent cross-links between adjacent chains give collagen its tensile property, so it can be stretched without breaking
+Expects: The molecules are arranged specifically into fibrils and then fibres in a staggered, overhanging array, which gives collagen marked flexibility
 Concept: CON-FND-14647EC60106E1
 ## main_concept
 CON-FND-14647EC60106E1
@@ -723,12 +723,12 @@ On a biochemical basis, explain how repair of damaged DNA occurs in four steps.
 ## written_parts
 ### (a) 6 marks
 On a biochemical basis, explain how repair of damaged DNA occurs in four steps.
-Expects: Step 1 — Recognition of the lesion: an endonuclease cleaves the damaged strand to form a nick (Module 102 Department Book, physical p85)
-Expects: Step 2 — Excision of damaged DNA: the damaged part is removed by an exonuclease (Module 102 Department Book, physical p85)
-Expects: Step 3 — Filling the gap: catalysed by a repair DNA polymerase (DNA polymerase beta) (Module 102 Department Book, physical p85)
-Expects: Step 4 — Ligation: catalysed by DNA ligase (Module 102 Department Book, physical p85)
-Expects: Context: DNA replication has an error rate of about 1 per 30,000 bases, and radiation, chemicals and spontaneous base loss also cause damage; unrepaired damage becomes a permanent mutation (Module 102 Department Book, physical p85)
-Expects: Clinical correlate: defects of the repair mechanism cause genetic disease, e.g. xeroderma pigmentosum — hypersensitivity to sunlight/UV, increased skin cancer, premature ageing and death (Module 102 Department Book, physical p85)
+Expects: Step 1 — Recognition of the lesion: an endonuclease cleaves the damaged strand to form a nick
+Expects: Step 2 — Excision of damaged DNA: the damaged part is removed by an exonuclease
+Expects: Step 3 — Filling the gap: catalysed by a repair DNA polymerase (DNA polymerase beta)
+Expects: Step 4 — Ligation: catalysed by DNA ligase
+Expects: Context: DNA replication has an error rate of about 1 per 30,000 bases, and radiation, chemicals and spontaneous base loss also cause damage; unrepaired damage becomes a permanent mutation
+Expects: Clinical correlate: defects of the repair mechanism cause genetic disease, e.g. xeroderma pigmentosum — hypersensitivity to sunlight/UV, increased skin cancer, premature ageing and death
 Concept: CON-FND-DEE7732AEC0F74
 ## main_concept
 CON-FND-DEE7732AEC0F74
@@ -795,7 +795,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-6D62C49C96B5
 ## title
-DNA and RNA differ in every dimension the book tabulates — bases, sugar, strandedness, kind, location and job
+DNA and RNA differ across every dimension — bases, sugar, strandedness, kind, location and job
 ## subject
 fnd
 ## status
@@ -807,12 +807,12 @@ Compare between DNA and RNA.
 ## written_parts
 ### (a) 4 marks
 Compare between DNA and RNA.
-Expects: Nitrogenous bases: both carry adenine, guanine and cytosine; DNA carries thymine and no uracil; RNA carries uracil, and thymine only as a minor base in tRNA (Module 102 Department Book, physical p79)
-Expects: Sugar: DNA has 2-deoxyribose; RNA has ribose (Module 102 Department Book, physical p79)
-Expects: Shape of strand: DNA is a double helix; RNA is a single strand (Module 102 Department Book, physical p79)
-Expects: Types: DNA is linear or circular; RNA exists as mRNA, tRNA and rRNA (Module 102 Department Book, physical p79)
-Expects: Site: DNA is in the nucleus and mitochondria; RNA is mainly in the cytosol, less commonly in the nucleus and mitochondria (Module 102 Department Book, physical p79)
-Expects: Function: DNA carries genetic information and directs synthesis of RNAs; RNA carries out protein synthesis (Module 102 Department Book, physical p79)
+Expects: Nitrogenous bases: both carry adenine, guanine and cytosine; DNA carries thymine and no uracil; RNA carries uracil, and thymine only as a minor base in tRNA
+Expects: Sugar: DNA has 2-deoxyribose; RNA has ribose
+Expects: Shape of strand: DNA is a double helix; RNA is a single strand
+Expects: Types: DNA is linear or circular; RNA exists as mRNA, tRNA and rRNA
+Expects: Site: DNA is in the nucleus and mitochondria; RNA is mainly in the cytosol, less commonly in the nucleus and mitochondria
+Expects: Function: DNA carries genetic information and directs synthesis of RNAs; RNA carries out protein synthesis
 Concept: CON-FND-E50700FFFCF367
 ## main_concept
 CON-FND-E50700FFFCF367
@@ -835,7 +835,7 @@ Easy
 ## question_type
 Structure and function
 ## learning_objective
-Reproduce the book's DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.
+Reproduce the DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.
 ## setting
 Academic
 ## academic_relevance
@@ -891,11 +891,11 @@ Compare between competitive and allosteric enzyme inhibitors.
 ## written_parts
 ### (a) 4 marks
 Compare between competitive and allosteric enzyme inhibitors.
-Expects: Site of binding: competitive inhibitors bind reversibly at the active/catalytic site itself, because they structurally resemble the substrate; allosteric inhibitors bind reversibly at a separate allosteric site (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)
-Expects: Mechanism: competitive inhibition depends on the ratio of inhibitor to substrate concentration and on relative affinities; allosteric inhibition works by producing a conformational change in the enzyme that lowers its affinity for the substrate (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)
-Expects: Reversal by substrate: competitive inhibition is overcome by raising substrate concentration; allosteric inhibition, acting away from the active site, cannot be overcome this way (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)
-Expects: Effect on kinetics: competitive inhibitors leave Vmax unchanged and raise the apparent Km; allosteric inhibitors decrease the enzyme's affinity for substrate (raise apparent Km), decrease Vmax, or both (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)
-Expects: Example of allosteric inhibition: physiological feedback inhibition, where the pathway's end product binds the allosteric site of an early regulatory enzyme (Module 102 Department Book, physical p59)
+Expects: Site of binding: competitive inhibitors bind reversibly at the active/catalytic site itself, because they structurally resemble the substrate; allosteric inhibitors bind reversibly at a separate allosteric site
+Expects: Mechanism: competitive inhibition depends on the ratio of inhibitor to substrate concentration and on relative affinities; allosteric inhibition works by producing a conformational change in the enzyme that lowers its affinity for the substrate
+Expects: Reversal by substrate: competitive inhibition is overcome by raising substrate concentration; allosteric inhibition, acting away from the active site, cannot be overcome this way
+Expects: Effect on kinetics: competitive inhibitors leave Vmax unchanged and raise the apparent Km; allosteric inhibitors decrease the enzyme's affinity for substrate (raise apparent Km), decrease Vmax, or both
+Expects: Example of allosteric inhibition: physiological feedback inhibition, where the pathway's end product binds the allosteric site of an early regulatory enzyme
 Concept: CON-FND-C04259379794DA
 ## main_concept
 CON-FND-C04259379794DA
@@ -974,11 +974,11 @@ Compare between myoglobin and hemoglobin.
 ## written_parts
 ### (a) 4 marks
 Compare between myoglobin and hemoglobin.
-Expects: Site: myoglobin in cardiac and skeletal muscle; hemoglobin (HbA1) in red blood cells (Module 102 Department Book, physical p46)
-Expects: Structure: myoglobin — one heme + one polypeptide chain, apomyoglobin 153 amino acids/8 helices; hemoglobin — four heme rings + four chains, globin alpha2-beta2 (alpha: 141 aa/7 helices; beta: 146 aa/8 helices) (Module 102 Department Book, physical p46)
-Expects: Function: myoglobin stores O2 in muscle and releases it during severe muscular exercise; hemoglobin transports O2 to tissue, removes CO2 from tissue, and buffers blood (Module 102 Department Book, physical p46)
-Expects: Affinity to oxygen: myoglobin has a higher affinity at low pO2 (90% saturated at pO2 20 mmHg); hemoglobin has a higher affinity at the lung and a lower affinity at the tissue (Module 102 Department Book, physical p46)
-Expects: Clinical significance: myoglobin is a blood marker of muscle damage; HbA1c assesses diabetic control over the preceding 3 months (Module 102 Department Book, physical p46)
+Expects: Site: myoglobin in cardiac and skeletal muscle; hemoglobin (HbA1) in red blood cells
+Expects: Structure: myoglobin — one heme + one polypeptide chain, apomyoglobin 153 amino acids/8 helices; hemoglobin — four heme rings + four chains, globin alpha2-beta2 (alpha: 141 aa/7 helices; beta: 146 aa/8 helices)
+Expects: Function: myoglobin stores O2 in muscle and releases it during severe muscular exercise; hemoglobin transports O2 to tissue, removes CO2 from tissue, and buffers blood
+Expects: Affinity to oxygen: myoglobin has a higher affinity at low pO2 (90% saturated at pO2 20 mmHg); hemoglobin has a higher affinity at the lung and a lower affinity at the tissue
+Expects: Clinical significance: myoglobin is a blood marker of muscle damage; HbA1c assesses diabetic control over the preceding 3 months
 Concept: CON-HEM-741FE61E6062DB
 ## main_concept
 CON-HEM-741FE61E6062DB
@@ -1045,7 +1045,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-175412D14C96
 ## title
-Cysteine and methionine are the two sulfur-containing amino acids the book draws
+Cysteine and methionine are the two sulfur-containing amino acids
 ## subject
 fnd
 ## status
@@ -1057,7 +1057,7 @@ Enumerate two sulfur-containing amino acids.
 ## written_parts
 ### (a) 2 marks
 Enumerate two sulfur-containing amino acids.
-Expects: Cysteine and methionine (Module 102 Department Book, physical p6)
+Expects: Cysteine and methionine
 Concept: CON-FND-3D6B24CAA42AC2
 ## main_concept
 CON-FND-3D6B24CAA42AC2
@@ -1136,7 +1136,7 @@ Enumerate two essential fatty acids.
 ## written_parts
 ### (a) 2 marks
 Enumerate two essential fatty acids.
-Expects: Alpha-linolenic acid and linoleic acid (Module 102 Department Book, physical p31)
+Expects: Alpha-linolenic acid and linoleic acid
 Concept: CON-FND-2AA1E4F3853330
 ## main_concept
 CON-FND-2AA1E4F3853330
@@ -1215,8 +1215,8 @@ Enumerate two characteristics of the genetic code.
 ## written_parts
 ### (a) 2 marks
 Enumerate two characteristics of the genetic code.
-Expects: Specificity: a particular codon always codes for only one amino acid (e.g. UUU codes only for phenylalanine) (Module 102 Department Book, physical p92)
-Expects: Degeneracy: an amino acid may be coded by more than one codon (synonym codons, e.g. phenylalanine has two) — also acceptable: universality (the code is nearly universal) or reading frame (codons read from a fixed start point, 3 bases at a time, uninterrupted) (Module 102 Department Book, physical p92)
+Expects: Specificity: a particular codon always codes for only one amino acid (e.g. UUU codes only for phenylalanine)
+Expects: Degeneracy: an amino acid may be coded by more than one codon (synonym codons, e.g. phenylalanine has two) — also acceptable: universality (the code is nearly universal) or reading frame (codons read from a fixed start point, 3 bases at a time, uninterrupted)
 Concept: CON-FND-D23183EAACF5B7
 ## main_concept
 CON-FND-D23183EAACF5B7
@@ -1283,7 +1283,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-1B83C9FAA274
 ## title
-Starch and glycogen are the two homopolysaccharides the book names first, both built entirely of glucose
+Starch and glycogen are two homopolysaccharides, both built entirely of glucose
 ## subject
 fnd
 ## status
@@ -1295,7 +1295,7 @@ Enumerate two homopolysaccharides.
 ## written_parts
 ### (a) 2 marks
 Enumerate two homopolysaccharides.
-Expects: Starch and glycogen (both glucans, built of glucose units); cellulose is also acceptable (Module 102 Department Book, physical p23)
+Expects: Starch and glycogen (both glucans, built of glucose units); cellulose is also acceptable
 Concept: CON-FND-B4916A9B4C980C
 ## main_concept
 CON-FND-B4916A9B4C980C
@@ -1362,7 +1362,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-102681ACC4FA
 ## title
-Sickle cell anemia and thalassemia are the book's two named hemoglobinopathies, one from a wrong amino acid and one from too little chain
+Sickle cell anemia and thalassemia are two named hemoglobinopathies, one from a wrong amino acid and one from too little chain
 ## subject
 haem
 ## status
@@ -1374,7 +1374,7 @@ Enumerate two hemoglobinopathies.
 ## written_parts
 ### (a) 2 marks
 Enumerate two hemoglobinopathies.
-Expects: Sickle cell anemia (HbS) and thalassemia (Module 102 Department Book, physical p47)
+Expects: Sickle cell anemia (HbS) and thalassemia
 Concept: CON-HEM-3B1C5DBC2DB666
 ## main_concept
 CON-HEM-3B1C5DBC2DB666
@@ -1453,7 +1453,7 @@ Enumerate two factors affecting the rate of an enzyme-catalyzed reaction.
 ## written_parts
 ### (a) 2 marks
 Enumerate two factors affecting the rate of an enzyme-catalyzed reaction.
-Expects: Any two of: substrate concentration, enzyme concentration, cofactor concentration, temperature, pH (Module 102 Department Book, physical p56)
+Expects: Any two of: substrate concentration, enzyme concentration, cofactor concentration, temperature, pH
 Concept: CON-FND-F29934C070A94C
 ## main_concept
 CON-FND-F29934C070A94C
@@ -1532,7 +1532,7 @@ Enumerate four effects of denaturation on proteins.
 ## written_parts
 ### (a) 4 marks
 Enumerate four effects of denaturation on proteins.
-Expects: Any four of: decreased solubility, increased viscosity, increased digestibility by proteolytic enzymes, loss of secondary/tertiary/quaternary structure, loss of biological activity, loss of antigenic property (Module 102 Department Book, physical p11)
+Expects: Any four of: decreased solubility, increased viscosity, increased digestibility by proteolytic enzymes, loss of secondary/tertiary/quaternary structure, loss of biological activity, loss of antigenic property
 Concept: CON-FND-2414B3639FD4D3
 ## main_concept
 CON-FND-2414B3639FD4D3

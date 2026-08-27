@@ -29,9 +29,9 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "State that G1 is when the daughter cell grows in size and acquires energy.",
       explanations: {
-        A: "Lasting about 4 hours is what the book states of G2, not G1 (G1 lasts about 8 hours).",
+        A: "Lasting about 4 hours is the stated duration of G2, not G1 (G1 lasts about 8 hours).",
         B: "Containing 46 double chromosomes (d-chromosomes) describes the state after S phase, not G1, where the cell still has 46 single chromosomes (chromatids).",
-        C: "Correct. The book lists cell growth and acquiring energy (ATP) among G1's own characteristics, alongside RNA/protein synthesis and cells becoming specialised. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
+        C: "Cell growth and acquiring energy (ATP) are among G1's own characteristics, alongside RNA/protein synthesis and cells becoming specialised. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
         D: "Duplication of DNA and of the centriole are S-phase events, not G1's.",
       },
     },
@@ -43,9 +43,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that mitosis's changes are visible under the microscope, not undetectable — that description belongs to interphase.",
       explanations: {
         A: "True of mitosis, so not the exception. It is the period in which the cell divides into two daughter cells.",
-        B: "True, so not the exception. Mitosis is made of the four stages the book names, starting with prophase.",
-        C: "The exception, and the answer. The book states mitosis's changes ARE visible with the microscope; it is interphase, the period between divisions, whose changes cannot be detected with the microscope. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
-        D: "True, so not the exception. The book states mitosis lasts for a short period, about one hour.",
+        B: "True, so not the exception. Mitosis is made of four stages, starting with prophase.",
+        C: "The exception, and the answer. Mitosis's changes ARE visible with the microscope; it is interphase, the period between divisions, whose changes cannot be detected with the microscope. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
+        D: "True, so not the exception. Mitosis lasts for a short period, about one hour.",
       },
     },
     {
@@ -56,9 +56,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that tubulin, synthesised in G2, is what builds the microtubules mitosis requires.",
       explanations: {
         A: "DNA is duplicated during S phase, not synthesised in G2 to build microtubules.",
-        B: "RNA and protein synthesis in G2 supports the essentials of division generally, but the specific molecule built into microtubules is tubulin, a distinct G2 event the book names separately.",
+        B: "RNA and protein synthesis in G2 supports the essentials of division generally, but the specific molecule built into microtubules is tubulin, a distinct G2 event.",
         C: "Energy storage for mitosis is a separate G2 characteristic from tubulin synthesis, and does not itself build microtubules.",
-        D: "Correct. The book states that in G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
+        D: "In G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
       },
     },
     {
@@ -69,7 +69,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that tubulin, for building mitotic microtubules, is synthesised in G2.",
       explanations: {
         A: "S phase is when DNA and the centriole duplicate, not when tubulin is synthesised.",
-        B: "Correct. The book states that in G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
+        B: "In G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
         C: "G1 is characterised by cell growth, energy acquisition and RNA/protein synthesis for DNA duplication, not tubulin synthesis specifically.",
         D: "Prophase is a mitotic stage that uses the already-synthesised tubulin to build the spindle, not the phase where tubulin itself is made.",
       },
@@ -82,7 +82,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that centriole duplication happens in S phase, alongside DNA duplication.",
       explanations: {
         A: "G1 is when the cell grows and prepares for DNA duplication, before S phase's actual duplication events.",
-        B: "Correct. The book states that S phase is characterised by duplication of DNA (so each cell contains 46 d-chromosomes) and duplication of centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
+        B: "S phase is characterised by duplication of DNA (so each cell contains 46 d-chromosomes) and duplication of centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
         C: "G2 follows S phase, synthesising RNA/protein and tubulin for division — not where duplication of the centriole itself happens.",
         D: "G0 is the resting phase outside the active cycle, where no duplication occurs at all.",
       },
@@ -94,8 +94,8 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "State that S phase is characterised by duplication of DNA and the centriole.",
       explanations: {
-        A: "Lasting about 4 hours is the book's stated duration for G2, not S phase (which the book gives as about 8 hours).",
-        B: "Correct. The book states S phase is characterised by duplication of DNA, giving each cell 46 d-chromosomes, and duplication of the centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
+        A: "Lasting about 4 hours is the stated duration for G2, not S phase (which is about 8 hours).",
+        B: "S phase is characterised by duplication of DNA, giving each cell 46 d-chromosomes, and duplication of the centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
         C: "Synthesising RNA, protein and storing energy for mitosis are G2's characteristics, not S phase's.",
         D: "Synthesising tubulin is a G2 event, not an S-phase one.",
       },
@@ -107,10 +107,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Mechanism",
       learningObjective: "State that a more specialised cell has a longer G1 and a lower rate of division.",
       explanations: {
-        A: "The book pairs a longer G1 with a lower, not higher, rate of division for a more specialised cell.",
-        B: "Correct. The book states directly: 'The more specialized cell, the longer G1-phase & less rate of division.' The mechanism is that G1 is when a cell carries out its specialised working function rather than preparing to divide, so a cell doing more specialised work spends longer there before committing to another round of DNA synthesis. The thing worth remembering: G1's length is not fixed like S or G2's — it is the one phase whose duration tracks how differentiated the cell already is, from a highly dividing stem cell at one end to a non-renewing neuron effectively frozen in an extended G1 at the other.",
-        C: "The book's relationship runs the other way — a longer G1, not a smaller one, goes with greater specialisation.",
-        D: "Both halves of this pairing are wrong: the book pairs greater specialisation with a longer G1 and a lower rate of division, not a smaller phase and smaller rate change in this direction.",
+        A: "A longer G1 is paired with a lower, not higher, rate of division for a more specialised cell.",
+        B: "Stated directly: 'The more specialized cell, the longer G1-phase & less rate of division.' The mechanism is that G1 is when a cell carries out its specialised working function rather than preparing to divide, so a cell doing more specialised work spends longer there before committing to another round of DNA synthesis. The thing worth remembering: G1's length is not fixed like S or G2's — it is the one phase whose duration tracks how differentiated the cell already is, from a highly dividing stem cell at one end to a non-renewing neuron effectively frozen in an extended G1 at the other.",
+        C: "The relationship runs the other way — a longer G1, not a smaller one, goes with greater specialisation.",
+        D: "Both halves of this pairing are wrong: greater specialisation is paired with a longer G1 and a lower rate of division, not a smaller phase and smaller rate change in this direction.",
       },
     },
   ],

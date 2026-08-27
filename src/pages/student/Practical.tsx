@@ -1,4 +1,4 @@
-import { useMemo, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import {
   Stethoscope,
   ClipboardList,
@@ -8,12 +8,14 @@ import {
   ArrowRight,
   CircleCheck,
   CircleDashed,
-  Circle,
+  CircleAlert,
+  CircleX,
   FlaskConical,
   MessagesSquare,
   Eye,
   EyeOff,
   ChevronRight,
+  Mic,
 } from 'lucide-react'
 import type { Skill } from '@/data/practical'
 import { skills, oralQuestions } from '@/data/practical'
@@ -26,6 +28,7 @@ import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { subjects } from '@/data/subjects'
 import { cn } from '@/lib/cn'
+import { formatRelativeTime } from '@/lib/format'
 import { getSubject } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -270,12 +273,6 @@ function CasesTab({ onOpen }: { onOpen: Open }) {
 
 /* ---- Skills ------------------------------------------------------------ */
 
-const STATUS_ICON: Record<SkillStatus, { icon: typeof CircleCheck; cls: string }> = {
-  ready: { icon: CircleCheck, cls: 'text-success' },
-  practised: { icon: Circle, cls: 'text-warning' },
-  'not-started': { icon: CircleDashed, cls: 'text-ink-3' },
-}
-
 /** The next state each tap moves a skill to, cycling through the three. */
 const NEXT_STATUS: Record<SkillStatus, SkillStatus> = {
   'not-started': 'practised',
@@ -286,26 +283,59 @@ const NEXT_STATUS: Record<SkillStatus, SkillStatus> = {
 const STATUS_LABEL: Record<SkillStatus, string> = {
   'not-started': 'Not started',
   practised: 'Practised',
-  ready: 'Ready to be assessed',
+  ready: 'Ready',
 }
 
 function SkillRow({ skill, status, onCycle }: { skill: Skill; status: SkillStatus; onCycle: () => void }) {
-  const meta = STATUS_ICON[status]
   return (
     <li>
       <button
         type="button"
         onClick={onCycle}
-        className="flex w-full items-center gap-3 rounded-md py-2.5 text-start transition-colors hover:bg-inset"
+        className="flex w-full items-center gap-3 border-b border-line px-4 py-2.5 text-start transition-colors last:border-b-0 hover:bg-inset"
         aria-label={`${skill.name} — ${STATUS_LABEL[status]}. Change`}
       >
-        <Icon icon={meta.icon} size={18} className={meta.cls} />
-        <span className="flex-1 text-[13.5px] text-ink">{skill.name}</span>
-        <Badge tone={status === 'ready' ? 'success' : status === 'practised' ? 'warning' : 'neutral'}>
-          {STATUS_LABEL[status]}
+        <span className="flex-1 text-[13px] text-ink">{skill.name}</span>
+        <Badge tone={status === 'ready' ? 'success' : status === 'practised' ? 'accent' : 'neutral'}>
+          {STATUS_LABEL[status].toUpperCase()}
         </Badge>
       </button>
     </li>
+  )
+}
+
+/** A small ring showing `value`/`total` as an arc, matching the artboard's summary dial. */
+function ProgressRing({ value, total, size = 76 }: { value: number; total: number; size?: number }) {
+  const r = size / 2 - 7
+  const circumference = 2 * Math.PI * r
+  const frac = total ? value / total : 0
+  return (
+    <div className="relative shrink-0" style={{ width: size, height: size }}>
+      <svg
+        width={size}
+        height={size}
+        viewBox={`0 0 ${size} ${size}`}
+        style={{ transform: 'rotate(-90deg)', transformOrigin: '50% 50%' }}
+      >
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" strokeWidth={7} className="stroke-inset" />
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={r}
+          fill="none"
+          strokeWidth={7}
+          strokeLinecap="round"
+          className="stroke-success transition-[stroke-dasharray] duration-500"
+          strokeDasharray={`${frac * circumference} ${circumference}`}
+        />
+      </svg>
+      <div className="absolute inset-0 grid place-items-center">
+        <span className="tnum font-mono text-[16px] font-semibold text-ink">
+          {value}
+          <span className="text-[11px] font-medium text-ink-3">/{total}</span>
+        </span>
+      </div>
+    </div>
   )
 }
 
@@ -319,11 +349,17 @@ function SkillRow({ skill, status, onCycle }: { skill: Skill; status: SkillStatu
  * explicit that this is their own record, not a sign-off, because no assessor
  * identity exists in Maristana to give one.
  */
-function SkillsTab() {
+function SkillsTab({ onGoToOsce }: { onGoToOsce: () => void }) {
   const categories = ['Examination', 'Procedures', 'Communication'] as const
   const { progress, markSkill } = usePracticalProgress()
   const summary = summariseSkills(progress, skills.length)
-  const pct = summary.total ? Math.round((summary.ready / summary.total) * 100) : 0
+  const readyPct = summary.total ? (summary.ready / summary.total) * 100 : 0
+  const practisedOnlyPct = summary.total ? ((summary.practised - summary.ready) / summary.total) * 100 : 0
+
+  const lastAt = useMemo(() => {
+    const stamps = Object.values(progress.skills).map((s) => s.lastAt)
+    return stamps.length ? stamps.sort().at(-1) : undefined
+  }, [progress.skills])
 
   if (!skills.length) {
     return <Panel className="p-8"><EmptyState icon={CircleCheck} title="No skills checklist yet" description="The year's skills checklist appears here once it has been set up." /></Panel>
@@ -331,46 +367,78 @@ function SkillsTab() {
 
   return (
     <div className="space-y-4">
-      <Panel className="flex flex-wrap items-center gap-4 p-4">
-        <div className="flex-1">
-          <p className="text-[13px] font-medium text-ink">Skills you have marked ready</p>
+      <p className="text-[11.5px] text-ink-3">Tap a skill to cycle: not started → practised → ready.</p>
+
+      <Panel className="flex flex-wrap items-center gap-5 p-4">
+        <ProgressRing value={summary.ready} total={summary.total} />
+        <div className="min-w-[220px] flex-1">
+          <p className="font-serif text-[15px] font-semibold text-ink">Skills you have marked ready</p>
           <p className="mt-0.5 text-[12px] text-ink-3">
-            {summary.total - summary.ready} still to go · {summary.practised} practised so far
+            {summary.total - summary.ready} still to go · {summary.practised - summary.ready} practised so far
+            {lastAt ? ` · updated ${formatRelativeTime(lastAt)}` : ''}
           </p>
+          <div className="mt-2 flex h-2 w-full max-w-md overflow-hidden rounded-full bg-inset">
+            <span className="h-full bg-success" style={{ width: `${readyPct}%` }} />
+            <span className="h-full bg-accent" style={{ width: `${practisedOnlyPct}%` }} />
+          </div>
         </div>
-        <span className="tnum font-mono text-[20px] font-semibold text-ink">
-          {summary.ready} / {summary.total}
-        </span>
-        <Meter value={pct} tone="primary" className="w-full sm:w-56" />
+        <p className="max-w-[260px] rounded-lg border border-dashed border-line-2 bg-surface-2/40 px-3.5 py-2.5 text-[11px] leading-relaxed text-ink-3">
+          This is your own record for planning revision — a formal sign-off is given by an assessor and is not recorded here.
+        </p>
       </Panel>
 
-      <p className="flex items-start gap-2 rounded-lg border border-line bg-surface-2/40 px-3.5 py-2.5 text-[12px] leading-relaxed text-ink-2">
-        <Icon icon={CircleCheck} size={14} className="mt-0.5 shrink-0 text-ink-3" />
-        This is your own record of what you have practised. A formal sign-off is given by an assessor and is not recorded in Maristana.
-      </p>
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {categories.map((cat) => {
+          const items = skills.filter((s) => s.category === cat)
+          if (items.length === 0) return null
+          const readyInCat = items.filter((s) => progress.skills[s.id]?.status === 'ready').length
+          const suggestion = items.find((s) => (progress.skills[s.id]?.status ?? 'not-started') !== 'ready')
 
-      {categories.map((cat) => {
-        const items = skills.filter((s) => s.category === cat)
-        if (items.length === 0) return null
-        return (
-          <Panel key={cat} className="px-4 py-3">
-            <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{cat}</p>
-            <ul className="divide-y divide-line">
-              {items.map((skill) => {
-                const status = progress.skills[skill.id]?.status ?? 'not-started'
-                return (
-                  <SkillRow
-                    key={skill.id}
-                    skill={skill}
-                    status={status}
-                    onCycle={() => markSkill(skill.id, NEXT_STATUS[status])}
-                  />
-                )
-              })}
-            </ul>
-          </Panel>
-        )
-      })}
+          return (
+            <Panel key={cat} className="flex flex-col overflow-hidden">
+              <div className="flex items-center justify-between border-b border-line px-4 py-2.5">
+                <p className="text-[13px] font-semibold text-ink">{cat}</p>
+                <span className="tnum font-mono text-[11px] text-ink-3">{readyInCat}/{items.length} ready</span>
+              </div>
+              <ul>
+                {items.map((skill) => {
+                  const status = progress.skills[skill.id]?.status ?? 'not-started'
+                  return (
+                    <SkillRow
+                      key={skill.id}
+                      skill={skill}
+                      status={status}
+                      onCycle={() => markSkill(skill.id, NEXT_STATUS[status])}
+                    />
+                  )
+                })}
+              </ul>
+              <div className="mt-auto border-t border-line px-4 py-2.5">
+                {cat === 'Communication' ? (
+                  suggestion ? (
+                    <>
+                      <p className="text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">Suggested next</p>
+                      <p className="mt-1 text-[12px] leading-relaxed text-ink-2">
+                        <span className="font-medium text-ink">{suggestion.name}</span> — practise this to close the gap.
+                      </p>
+                    </>
+                  ) : (
+                    <p className="text-[11.5px] text-success">All communication skills are marked ready.</p>
+                  )
+                ) : (
+                  <button
+                    type="button"
+                    onClick={onGoToOsce}
+                    className="text-[11px] font-medium text-primary hover:text-primary-hover"
+                  >
+                    Practise in OSCE stations →
+                  </button>
+                )}
+              </div>
+            </Panel>
+          )
+        })}
+      </div>
     </div>
   )
 }
@@ -438,79 +506,199 @@ function LabTab({ onOpen }: { onOpen: Open }) {
 
 /* ---- Oral questions ---------------------------------------------------- */
 
-function OralTab() {
-  const [revealed, setRevealed] = useState<Set<string>>(new Set())
-  const [collapsedSystems, setCollapsedSystems] = useState<Set<string>>(new Set())
-  const toggle = (id: string) =>
-    setRevealed((prev) => {
-      const next = new Set(prev)
-      if (next.has(id)) next.delete(id)
-      else next.add(id)
-      return next
-    })
+type OralMark = 'got' | 'partly' | 'missed'
 
-  const groups = subjects
-    .map((subj) => ({ subj, questions: oralQuestions.filter((q) => q.subjectId === subj.id) }))
-    .filter((g) => g.questions.length > 0)
+const ORAL_MARK_META: Record<OralMark, { icon: typeof CircleCheck; cls: string; label: string }> = {
+  got: { icon: CircleCheck, cls: 'text-success', label: 'Got it' },
+  partly: { icon: CircleAlert, cls: 'text-warning', label: 'Partly' },
+  missed: { icon: CircleX, cls: 'text-danger', label: 'Missed it' },
+}
+
+function formatTimer(totalSeconds: number) {
+  const m = Math.floor(totalSeconds / 60)
+  const s = totalSeconds % 60
+  return `${m}:${String(s).padStart(2, '0')}`
+}
+
+/**
+ * One question rehearsed at a time — attempt it aloud, reveal the model
+ * answer, then mark yourself before moving on. The self-mark is a session
+ * record only (kept in this tab's state, like the old reveal-set was); there
+ * is no schema for it in `practicalProgress` yet, so it resets on reload
+ * rather than silently pretending to be durable.
+ */
+function OralTab() {
+  const flat = useMemo(() => {
+    const known = subjects.filter((s) => oralQuestions.some((q) => q.subjectId === s.id))
+    return known.flatMap((subj) => oralQuestions.filter((q) => q.subjectId === subj.id).map((q) => ({ ...q, subjectName: subj.name })))
+  }, [])
+  const groups = useMemo(
+    () =>
+      subjects
+        .map((subj) => ({ subj, questions: oralQuestions.filter((q) => q.subjectId === subj.id) }))
+        .filter((g) => g.questions.length > 0),
+    [],
+  )
+
+  const [index, setIndex] = useState(0)
+  const [revealed, setRevealed] = useState(false)
+  const [marks, setMarks] = useState<Record<string, OralMark>>({})
+  const [running, setRunning] = useState(false)
+  const [elapsed, setElapsed] = useState(0)
+  const tick = useRef<ReturnType<typeof setInterval> | null>(null)
+
+  useEffect(() => {
+    if (running) {
+      tick.current = setInterval(() => setElapsed((e) => e + 1), 1000)
+      return () => { if (tick.current) clearInterval(tick.current) }
+    }
+  }, [running])
+
+  const goTo = (i: number) => {
+    setIndex(Math.min(Math.max(i, 0), flat.length - 1))
+    setRevealed(false)
+    setRunning(false)
+    setElapsed(0)
+  }
+
+  if (!flat.length) {
+    return <Panel className="p-8"><EmptyState icon={MessagesSquare} title="No oral questions yet" description="Viva questions appear here once they are published in Practical Setup." /></Panel>
+  }
+
+  const current = flat[index]
+  const doneCount = flat.filter((q) => marks[q.id] === 'got').length
+  const partlyCount = flat.filter((q) => marks[q.id] === 'partly').length
+  const answeredCount = flat.filter((q) => marks[q.id]).length
+  const isLast = index === flat.length - 1
 
   return (
-    <div className="space-y-5">
-      <p className="flex items-center gap-2 text-[12.5px] text-ink-3">
-        <MessagesSquare size={14} />
-        The most common viva questions by module. Attempt each one aloud, then reveal the model answer to mark yourself.
-      </p>
-      {groups.map(({ subj, questions }) => {
-        const isCollapsed = collapsedSystems.has(subj.id)
-        return (
-        <section key={subj.id}>
-          {/* This tab was already divided by system; what it lacked was the
-              chevron every other tab now has. */}
-          <button
-            type="button"
-            aria-expanded={!isCollapsed}
-            onClick={() => setCollapsedSystems((current) => {
-              const next = new Set(current)
-              if (!next.delete(subj.id)) next.add(subj.id)
-              return next
-            })}
-            className="mb-2 flex w-full items-center gap-2 rounded-md px-1 py-1 text-start transition-colors hover:bg-inset/60"
-          >
-            <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!isCollapsed} />
-            <SystemMark subjectId={subj.id} />
-            <h2 className="font-serif text-[16px] font-semibold text-ink">{subj.name}</h2>
-            <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{questions.length}</span>
-          </button>
-          {!isCollapsed && (
-          <div className="space-y-2.5">
-            {questions.map((q) => {
-              const isOpen = revealed.has(q.id)
-              return (
-                <Panel key={q.id} className="p-4">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{q.topic}</p>
-                  <p className="mt-1 text-[14.5px] font-medium leading-snug text-ink">{q.question}</p>
-                  {isOpen ? (
-                    <div className="mt-3 rounded-lg border border-primary-line bg-primary-tint/30 p-3">
-                      <p className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">
-                        <CircleCheck size={13} /> Model answer
-                      </p>
-                      <p className="text-[13.5px] leading-relaxed text-ink"><ConceptText text={q.modelAnswer} /></p>
-                      <Button variant="ghost" size="sm" iconLeft={EyeOff} className="mt-2" onClick={() => toggle(q.id)}>
-                        Hide answer
-                      </Button>
-                    </div>
-                  ) : (
-                    <Button variant="secondary" size="sm" iconLeft={Eye} className="mt-3" onClick={() => toggle(q.id)}>
-                      Reveal model answer
-                    </Button>
-                  )}
-                </Panel>
-              )
-            })}
-          </div>
+    <div className="space-y-3">
+      <div className="flex flex-wrap items-center gap-2">
+        <Badge tone="primary">Viva rehearsal</Badge>
+        <span className="tnum font-mono text-[11.5px] text-ink-3">
+          Question {index + 1} of {flat.length} · {current.subjectName}
+        </span>
+      </div>
+
+      <div className="grid gap-4 lg:grid-cols-[1fr_300px]">
+        {/* Rehearsal column */}
+        <div className="flex flex-col gap-3">
+          <Panel className="flex flex-col items-center gap-3 p-6 text-center">
+            <span className="text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">The examiner asks</span>
+            <h1 className="font-serif text-[19px] font-semibold leading-snug text-ink sm:text-[21px]">
+              &ldquo;{current.question}&rdquo;
+            </h1>
+            <Badge tone="outline">{current.topic}</Badge>
+            <div className="mt-1 flex flex-wrap items-center justify-center gap-2.5">
+              <Button
+                variant="secondary"
+                size="sm"
+                iconLeft={Mic}
+                onClick={() => setRunning((r) => !r)}
+                aria-pressed={running}
+              >
+                {running ? `Answering aloud · ${formatTimer(elapsed)}` : elapsed > 0 ? `Paused · ${formatTimer(elapsed)}` : 'Answer aloud'}
+              </Button>
+              {!revealed && (
+                <Button
+                  variant="primary"
+                  size="sm"
+                  iconLeft={Eye}
+                  onClick={() => { setRevealed(true); setRunning(false) }}
+                >
+                  Reveal the model answer
+                </Button>
+              )}
+            </div>
+            <p className="flex items-center gap-1.5 text-[11px] text-ink-3">
+              <MessagesSquare size={12} /> Say it out loud before revealing — recognising an answer isn&rsquo;t the same as producing one.
+            </p>
+          </Panel>
+
+          {revealed && (
+            <Panel className="p-4">
+              <div className="flex items-center justify-between">
+                <span className="flex items-center gap-1.5 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-primary-strong">
+                  <CircleCheck size={13} /> Model answer
+                </span>
+                <Button variant="ghost" size="sm" iconLeft={EyeOff} onClick={() => setRevealed(false)}>Hide</Button>
+              </div>
+              <p className="mt-2 text-[13.5px] leading-relaxed text-ink"><ConceptText text={current.modelAnswer} /></p>
+
+              <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-line pt-3">
+                <span className="text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">How did you do?</span>
+                {(Object.keys(ORAL_MARK_META) as OralMark[]).map((m) => {
+                  const meta = ORAL_MARK_META[m]
+                  const active = marks[current.id] === m
+                  return (
+                    <button
+                      key={m}
+                      type="button"
+                      onClick={() => setMarks((prev) => ({ ...prev, [current.id]: m }))}
+                      className={cn(
+                        'inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[12px] font-medium transition-colors',
+                        active
+                          ? m === 'got'
+                            ? 'border-success/40 bg-success-tint text-success'
+                            : m === 'partly'
+                              ? 'border-warning/40 bg-warning-tint text-warning'
+                              : 'border-danger/40 bg-danger-tint text-danger'
+                          : 'border-line-2 bg-surface text-ink-2 hover:bg-inset',
+                      )}
+                    >
+                      <Icon icon={meta.icon} size={13} className={active ? '' : 'text-ink-3'} />
+                      {meta.label}
+                    </button>
+                  )
+                })}
+                <span className="ms-auto text-[10.5px] text-ink-3">Self-marked · never counts toward accuracy</span>
+                <Button variant="primary" size="sm" iconRight={ArrowRight} disabled={isLast} onClick={() => goTo(index + 1)}>
+                  {isLast ? 'Last question' : 'Next'}
+                </Button>
+              </div>
+            </Panel>
           )}
-        </section>
-        )
-      })}
+        </div>
+
+        {/* Queue rail */}
+        <Panel className="flex max-h-[560px] flex-col overflow-hidden p-2">
+          <p className="px-2 pb-1.5 pt-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+            Tonight&rsquo;s queue · by module
+          </p>
+          <div className="flex-1 space-y-0.5 overflow-y-auto">
+            {groups.map(({ subj, questions }) => (
+              <div key={subj.id}>
+                <p className="px-2 pb-1 pt-2 text-[11px] font-semibold text-ink-2">{subj.name}</p>
+                {questions.map((q) => {
+                  const i = flat.findIndex((f) => f.id === q.id)
+                  const mark = marks[q.id]
+                  const isCurrent = i === index
+                  const meta = mark ? ORAL_MARK_META[mark] : { icon: CircleDashed, cls: 'text-ink-3', label: 'Not answered' }
+                  return (
+                    <button
+                      key={q.id}
+                      type="button"
+                      onClick={() => goTo(i)}
+                      className={cn(
+                        'flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[12px] transition-colors',
+                        isCurrent ? 'bg-primary-tint text-primary-strong font-medium' : 'text-ink-2 hover:bg-inset',
+                      )}
+                    >
+                      <Icon icon={meta.icon} size={13} className={isCurrent ? '' : meta.cls} />
+                      <span className="min-w-0 flex-1 truncate">{q.question}</span>
+                      {isCurrent && <span className="shrink-0 font-mono text-[10px]">now</span>}
+                    </button>
+                  )
+                })}
+              </div>
+            ))}
+          </div>
+          <div className="flex items-center justify-between border-t border-line px-2 pt-2 text-[11px] text-ink-3">
+            <span>{doneCount} done · {partlyCount} partly</span>
+            <span className="tnum font-mono">{answeredCount}/{flat.length} answered</span>
+          </div>
+        </Panel>
+      </div>
     </div>
   )
 }
@@ -550,6 +738,7 @@ export function Practical() {
       <PageHeader
         title={t('Practical')}
         description={t('Rehearse OSCE stations, work through clinical cases, track skills sign-off, and practise lab and imaging interpretation.')}
+        back={{ fallback: '/app' }}
       />
 
       <Tabs
@@ -569,7 +758,7 @@ export function Practical() {
       {tab === 'osce' && <OsceTab onOpen={setActive} />}
       {tab === 'cases' && <CasesTab onOpen={setActive} />}
       {tab === 'oral' && <OralTab />}
-      {tab === 'skills' && <SkillsTab />}
+      {tab === 'skills' && <SkillsTab onGoToOsce={() => setTab('osce')} />}
       {tab === 'lab' && <LabTab onOpen={setActive} />}
       {tab === 'histology' && <HistologyTab />}
     </PageContainer>

@@ -423,13 +423,13 @@ homeostasis-control-and-feedback-mechanisms
 [clear]
 
 ## definition
-Homeostasis is keeping the conditions of the internal environment — the interstitial fluid surrounding the cells — constant; most body systems work to maintain it, and its failure often leads to disease and death. A control system has a stimulus, a receptor, a control centre, one or more effector organs, and a feedback mechanism. Almost all homeostatic control mechanisms are negative feedback: the response drives the variable back to its original value. Positive feedback instead makes the response progressively larger, and the book gives it as the mechanism the body uses to accelerate a process that must complete rapidly, naming blood clotting and uterine contractions during childbirth as its two examples. Homeostasis depends on two exchange processes: across the cell membrane (cells take up O2 and food from the interstitial fluid and give up CO2 and waste) and across the capillary wall (O2 and food diffuse from blood to interstitial fluid and waste diffuses back), with blood carrying waste to the kidneys and CO2 to the lungs for excretion; ECF temperature is held constant by a balance of heat production and heat loss, and ECF pH by the body's buffers.
+Homeostasis is keeping the conditions of the internal environment — the interstitial fluid surrounding the cells — constant; most body systems work to maintain it, and its failure often leads to disease and death. A control system has a stimulus, a receptor, a control centre, one or more effector organs, and a feedback mechanism. Almost all homeostatic control mechanisms are negative feedback: the response drives the variable back to its original value. Positive feedback instead makes the response progressively larger, and the body uses it to accelerate a process that must complete rapidly; blood clotting and uterine contractions during childbirth are its two examples. Homeostasis depends on two exchange processes: across the cell membrane (cells take up O2 and food from the interstitial fluid and give up CO2 and waste) and across the capillary wall (O2 and food diffuse from blood to interstitial fluid and waste diffuses back), with blood carrying waste to the kidneys and CO2 to the lungs for excretion; ECF temperature is held constant by a balance of heat production and heat loss, and ECF pH by the body's buffers.
 
 ## explicit_objective
 Name the five components of a homeostatic control system and explain why almost all of them use negative rather than positive feedback.
 
 ## pitfalls
-Assuming positive feedback is always pathological. The book gives two normal, necessary examples — clotting and childbirth — where accelerating the process to completion is exactly what is needed.
+Assuming positive feedback is always pathological. Clotting and childbirth are two normal, necessary examples where accelerating the process to completion is exactly what is needed.
 
 ## concept_type
 mechanism
@@ -609,7 +609,7 @@ Blood is the transport medium of the body, slightly alkaline (pH 7.4), with an a
 State blood's normal pH, adult volume, and the percentage split between plasma and cellular elements.
 
 ## pitfalls
-Quoting one blood volume figure for both sexes — the book gives 5 L for males and about 4.5 L for females.
+Quoting one blood volume figure for both sexes — it is about 5 L for males and about 4.5 L for females.
 
 ## concept_type
 fact
@@ -780,13 +780,13 @@ functions-of-blood
 [clear]
 
 ## definition
-The department book lists blood's functions as: delivering oxygen to body cells and removing carbon dioxide and other waste products, which it names as blood's main function; defence against invading microorganisms and tumours; distribution of heat; prevention of blood loss; and maintenance of homeostasis — body temperature, pH, ionic composition, and the volume of the internal environment.
+Blood's functions are delivering oxygen to body cells and removing carbon dioxide and other waste products — its main function; defence against invading microorganisms and tumours; distribution of heat; prevention of blood loss; and maintenance of homeostasis — body temperature, pH, ionic composition, and the volume of the internal environment.
 
 ## explicit_objective
-List the five functions of blood the department book names, identifying which one it calls the main function.
+List the five functions of blood, identifying which one is the main function.
 
 ## pitfalls
-Treating all five functions as equally weighted — the book explicitly marks gas transport and waste removal as blood's main function, not just one function among five equals.
+Treating all five functions as equally weighted — gas transport and waste removal is blood's main function, not just one function among five equals.
 
 ## concept_type
 classification
@@ -956,13 +956,13 @@ hemoglobin-types-hba-hba2-hbf
 [clear]
 
 ## definition
-The book names three types of haemoglobin. Adult haemoglobin (HbA) is 96-98% of Hb in the adult. Haemoglobin A2 is 2-4% of adult Hb. Fetal haemoglobin (HbF) has more affinity for O2 than HbA, allowing the fetus to extract oxygen from the mother's blood during pregnancy; after birth HbF is changed to HbA, a process completed by the age of 4 months. Haemoglobin content — the amount of Hb in 100 mL of blood — is 15-16 g/dL in adult males and 13-14 g/dL in adult females, reaching up to 19 g/dL in normal newborn infants because of relative intrauterine oxygen deficiency (hypoxia).
+There are three types of haemoglobin. Adult haemoglobin (HbA) is 96-98% of Hb in the adult. Haemoglobin A2 is 2-4% of adult Hb. Fetal haemoglobin (HbF) has more affinity for O2 than HbA, allowing the fetus to extract oxygen from the mother's blood during pregnancy; after birth HbF is changed to HbA, a process completed by the age of 4 months. Haemoglobin content — the amount of Hb in 100 mL of blood — is 15-16 g/dL in adult males and 13-14 g/dL in adult females, reaching up to 19 g/dL in normal newborn infants because of relative intrauterine oxygen deficiency (hypoxia).
 
 ## explicit_objective
 State the three types of haemoglobin, their approximate adult proportions, and why fetal haemoglobin's higher O2 affinity matters before birth.
 
 ## pitfalls
-Assuming HbF is gradually diluted out over years — the book states it is fully converted to HbA by 4 months of age.
+Assuming HbF is gradually diluted out over years — it is fully converted to HbA by 4 months of age.
 
 ## concept_type
 classification
@@ -1136,13 +1136,13 @@ hemoglobin-chemical-reactions
 [clear]
 
 ## definition
-Hb unites loosely with oxygen to form oxyhaemoglobin; the O2 molecule attaches to iron that stays in the Fe2+ state, so the book calls this oxygenation, not oxidation. Hb combines with CO2 to form carbaminohaemoglobin, with CO2 attached to the polypeptide chains rather than the iron. Hb reacts with carbon monoxide to form carboxyhaemoglobin. On exposure to strong oxidising agents, the Fe2+ iron is oxidised to ferric (Fe3+), forming dark-coloured methaemoglobin, which cannot carry oxygen; small amounts form normally and are reduced back to haemoglobin by NADH-methaemoglobin reductase.
+Hb unites loosely with oxygen to form oxyhaemoglobin; the O2 molecule attaches to iron that stays in the Fe2+ state, so this is oxygenation, not oxidation. Hb combines with CO2 to form carbaminohaemoglobin, with CO2 attached to the polypeptide chains rather than the iron. Hb reacts with carbon monoxide to form carboxyhaemoglobin. On exposure to strong oxidising agents, the Fe2+ iron is oxidised to ferric (Fe3+), forming dark-coloured methaemoglobin, which cannot carry oxygen; small amounts form normally and are reduced back to haemoglobin by NADH-methaemoglobin reductase.
 
 ## explicit_objective
 Name the four chemical reactions of haemoglobin and state which one is not a true oxidation.
 
 ## pitfalls
-Calling oxyhaemoglobin formation "oxidation" — the book is explicit that the iron stays Fe2+ throughout that reaction; true oxidation (Fe2+ to Fe3+) is what forms methaemoglobin instead.
+Calling oxyhaemoglobin formation "oxidation" — the iron stays Fe2+ throughout that reaction; true oxidation (Fe2+ to Fe3+) is what forms methaemoglobin instead.
 
 ## concept_type
 mechanism
@@ -1321,7 +1321,7 @@ Erythropoietin is a glycoprotein hormone normally present in plasma at low conce
 State the adult renal/hepatic split of erythropoietin production and name the main stimulus for its secretion.
 
 ## pitfalls
-Assuming the liver can compensate for lost renal erythropoietin production — the book states it cannot, which is exactly why renal failure produces severe anaemia.
+Assuming the liver can compensate for lost renal erythropoietin production — it cannot, which is exactly why renal failure produces severe anaemia.
 
 ## concept_type
 mechanism
@@ -1498,7 +1498,7 @@ erythropoiesis-site-by-age
 In the fetus, erythropoiesis occurs in the liver and spleen. After birth it occurs in active red marrow in the cavities of all bones; by age 20 the marrow in the cavities of long bones (except the upper humerus and femur) becomes inactive yellow marrow infiltrated by fat, so after age 20 only the membranous bones — vertebrae, skull, ribs and pelvis — produce erythrocytes. The bone marrow is one of the largest and most active organs in the body, approaching the size and weight of the liver. The spleen additionally acts as a site of fetal erythropoiesis, a blood filter that removes old or abnormal RBCs, a blood-storage site that can add volume in acute haemorrhage, a store for 30% of platelets, and an immune organ containing lymphocytes and macrophages.
 
 ## explicit_objective
-Trace the site of erythropoiesis from fetal life through to after age 20, and name the five roles of the spleen the book gives.
+Trace the site of erythropoiesis from fetal life through to after age 20, and name the five roles of the spleen.
 
 ## pitfalls
 Assuming all bones make blood throughout life — after age 20 only the membranous bones do; the shafts of long bones (except the upper humerus and femur) have converted to fat-infiltrated yellow marrow.
@@ -2210,13 +2210,13 @@ anaemia-classification-by-mcv-and-mch
 [clear]
 
 ## definition
-Anaemia is a decrease in the oxygen-carrying capacity of the blood, from a decreased number or dysfunction of RBCs; the book's numeric thresholds are an RBC count under 4.5 million/µL in adult males or under 3.9 million/µL in adult females, and an Hb content under 13.5 g/dL in males or under 11.5 g/dL in females, with symptoms of shortness of breath, fatigue, tachycardia, palpitation, exercise intolerance and dizziness. Anaemia is classified by RBC size and Hb content into three groups: normocytic normochromic anaemia (decreased RBC mass and Hb content, but MCH and MCV within normal values — causes include bone marrow depression, acute blood loss, and haemolytic anaemia); microcytic hypochromic anaemia, i.e. iron-deficiency anaemia (MCV under 80 μ3 and MCH under 25 pg); and macrocytic (megaloblastic) anaemia (MCV over 95 μ3, from folic acid or vitamin B12 deficiency).
+Anaemia is a decrease in the oxygen-carrying capacity of the blood, from a decreased number or dysfunction of RBCs; the numeric thresholds are an RBC count under 4.5 million/µL in adult males or under 3.9 million/µL in adult females, and an Hb content under 13.5 g/dL in males or under 11.5 g/dL in females, with symptoms of shortness of breath, fatigue, tachycardia, palpitation, exercise intolerance and dizziness. Anaemia is classified by RBC size and Hb content into three groups: normocytic normochromic anaemia (decreased RBC mass and Hb content, but MCH and MCV within normal values — causes include bone marrow depression, acute blood loss, and haemolytic anaemia); microcytic hypochromic anaemia, i.e. iron-deficiency anaemia (MCV under 80 μ3 and MCH under 25 pg); and macrocytic (megaloblastic) anaemia (MCV over 95 μ3, from folic acid or vitamin B12 deficiency).
 
 ## explicit_objective
-State the MCV/MCH criteria that separate microcytic, normocytic and macrocytic anaemia, and name one cause the book gives for each class.
+State the MCV/MCH criteria that separate microcytic, normocytic and macrocytic anaemia, and name one cause for each class.
 
 ## pitfalls
-Quoting one universal RBC-count or Hb threshold for anaemia — the book gives separate cut-offs for males and females for both measures.
+Quoting one universal RBC-count or Hb threshold for anaemia — there are separate cut-offs for males and females for both measures.
 
 ## concept_type
 classification
@@ -2744,7 +2744,7 @@ vitamin-k-deficiency-bleeding-disorder
 Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S. Its deficiency decreases formation of these coagulation factors and prolongs coagulation time. Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K).
 
 ## explicit_objective
-Name the four coagulation factors and two proteins vitamin K deficiency reduces, and the three causes of the deficiency the book gives.
+Name the four coagulation factors and two proteins vitamin K deficiency reduces, and the three causes of the deficiency.
 
 ## pitfalls
 Treating vitamin K deficiency and coumarin anticoagulant therapy as the same event — they produce the same laboratory picture through the same factors, but one is a dietary/absorptive deficiency and the other a deliberate competitive-inhibition drug effect.
@@ -3096,7 +3096,7 @@ disseminated-intravascular-coagulation
 [clear]
 
 ## definition
-DIC is characterised by widespread clotting, which over-utilises platelets and coagulation factors, dramatically dropping their plasma level and causing bleeding from that consumption. DIC is elicited by massive thromboplastin production from necrotic tissue, in conditions including shock, tissue necrosis, septicaemia, and retention of a dead fetus in the uterus for weeks. The book separately names thromboembolic conditions — excessive intravascular clotting from slow blood flow (e.g. leg veins after prolonged bed rest following operations) or atherosclerosis (roughness of the vascular endothelium) — as the pure-clotting counterpart to DIC's combined bleeding-and-clotting picture.
+DIC is characterised by widespread clotting, which over-utilises platelets and coagulation factors, dramatically dropping their plasma level and causing bleeding from that consumption. DIC is elicited by massive thromboplastin production from necrotic tissue, in conditions including shock, tissue necrosis, septicaemia, and retention of a dead fetus in the uterus for weeks. Thromboembolic conditions — excessive intravascular clotting from slow blood flow (e.g. leg veins after prolonged bed rest following operations) or atherosclerosis (roughness of the vascular endothelium) — are the pure-clotting counterpart to DIC's combined bleeding-and-clotting picture.
 
 ## explicit_objective
 Explain why DIC produces bleeding despite being triggered by excessive clotting, and name two conditions that elicit it.
@@ -3819,7 +3819,7 @@ When an Rh-positive male and an Rh-negative female conceive an Rh-positive fetus
 Explain why the ABO system causes no fetal disease while the Rh system does, and state when anti-D immunoglobulin is given.
 
 ## pitfalls
-Giving anti-D prophylaxis to an already-sensitised mother — the book states this is contraindicated, since prophylaxis works by destroying fetal RBCs before they trigger a first immune response, which cannot help once that response already exists.
+Giving anti-D prophylaxis to an already-sensitised mother — this is contraindicated, since prophylaxis works by destroying fetal RBCs before they trigger a first immune response, which cannot help once that response already exists.
 
 ## concept_type
 mechanism
@@ -4177,7 +4177,7 @@ The nervous system, alongside the endocrine system, is one of the body's two maj
 State the anatomical and the physiological divisions of the nervous system, and name the three parts of a neuron.
 
 ## pitfalls
-Equating "motor" with only the somatic system — the book's motor division names two parallel systems, somatic (skeletal muscle) and autonomic (smooth muscle, glands, cardiac muscle), operating side by side.
+Equating "motor" with only the somatic system — the motor division has two parallel systems, somatic (skeletal muscle) and autonomic (smooth muscle, glands, cardiac muscle), operating side by side.
 
 ## concept_type
 classification
@@ -4706,10 +4706,10 @@ somatic-vs-autonomic-reflex-differences
 [clear]
 
 ## definition
-The book draws a five-row comparison between somatic and autonomic reflexes. Afferent fibres relay at dorsal horn cells or cranial nuclei (somatic) versus lateral horn cells or cranial nuclei (autonomic). Efferent fibres originate from anterior horn cells of the spinal cord (somatic) versus cranial nuclei or lateral horn cells (autonomic). Efferent fibres form a one-neuron system (somatic) versus a two-neuron system (autonomic). Myelination is mostly myelinated (somatic) versus preganglionic myelinated B fibre with postganglionic unmyelinated C fibre (autonomic). The chemical transmitter is one type only, acetylcholine (somatic), versus two types, acetylcholine and noradrenaline (autonomic).
+Somatic and autonomic reflexes differ across five rows. Afferent fibres relay at dorsal horn cells or cranial nuclei (somatic) versus lateral horn cells or cranial nuclei (autonomic). Efferent fibres originate from anterior horn cells of the spinal cord (somatic) versus cranial nuclei or lateral horn cells (autonomic). Efferent fibres form a one-neuron system (somatic) versus a two-neuron system (autonomic). Myelination is mostly myelinated (somatic) versus preganglionic myelinated B fibre with postganglionic unmyelinated C fibre (autonomic). The chemical transmitter is one type only, acetylcholine (somatic), versus two types, acetylcholine and noradrenaline (autonomic).
 
 ## explicit_objective
-Reproduce the five-row comparison the book draws between somatic and autonomic reflexes.
+Reproduce the five-row comparison between somatic and autonomic reflexes.
 
 ## pitfalls
 Assuming both autonomic neurons are myelinated like the somatic efferent fibre — only the preganglionic B fibre is myelinated; the postganglionic C fibre is unmyelinated.

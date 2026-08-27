@@ -53,7 +53,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name factor IX as one of the four vitamin-K-dependent clotting factors.',
       explanations: {
-        a: 'Correct. Factor IX belongs to the prothrombin group (II, VII, IX, X), all of which need vitamin K for their hepatic synthesis.',
+        a: 'Factor IX belongs to the prothrombin group (II, VII, IX, X), all of which need vitamin K for their hepatic synthesis.',
         b: 'Factor XI belongs to the contact group with factor XII, activated by contact with an electronegatively-charged surface — it is not one of the vitamin-K-dependent factors.',
         c: 'Fibrinogen (factor I) belongs to the fibrinogen group with V, VIII and XIII, activated by thrombin — its synthesis does not depend on vitamin K.',
         d: 'Plasminogen is the fibrinolytic system\'s substrate, converted to plasmin by tissue plasminogen activator — it plays no part in the vitamin-K-dependent synthesis list.',
@@ -68,7 +68,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Thrombomodulin, not protein S, is the endothelial surface protein that binds thrombin to start this pathway. Protein S is a circulating cofactor, not something the endothelium synthesises as its structural component.',
         b: 'Vitamin K, not vitamin C, is what protein S synthesis (like protein C, and factors II, VII, IX, X) depends on in the liver.',
-        c: 'Correct. Protein S is the cofactor that activated protein C needs to inactivate factors V and VIII — protein C is the enzyme, protein S enables it.',
+        c: 'Protein S is the cofactor that activated protein C needs to inactivate factors V and VIII — protein C is the enzyme, protein S enables it.',
         d: 'That is what activated protein C itself does (with protein S as its cofactor) to factor V and VIII — inactivating factor IXa is not part of this pathway; factor IXa is instead removed by fibrinogen degradation products\' inhibition of thrombin further downstream, not by protein C/S directly.',
       },
     },

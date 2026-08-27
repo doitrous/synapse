@@ -36,7 +36,7 @@ export const LEAF: McqLeafSeed = {
       type: 'structure_function_relationship',
       aliases: ['Myoepithelial cell', 'Basket cell', 'Myo-epithelium'],
       gaps: [
-        'The department book does not say whether myo-epithelial cells are ectodermal in origin, nor whether they contain smooth-muscle actin. Both are standard in general histology and neither is stated by this faculty\'s own source, so neither is taught here.',
+        'Whether myo-epithelial cells are ectodermal in origin, and whether they contain smooth-muscle actin, is left open here. Both are standard in general histology, but neither is stated in the course material, so neither is taught.',
       ],
     },
   ],
@@ -51,7 +51,7 @@ export const LEAF: McqLeafSeed = {
         'Place the myo-epithelial cell at the base of the secretory cell, against the basement membrane, and not at its apex.',
       explanations: {
         A: 'True, so not the exception. Contraction is what the "myo-" in myo-epithelium names, and it is the whole of what the cell does: it squeezes the secretory cells so their secretion is driven into the duct.',
-        B: 'True, so not the exception. This is the book\'s own wording — the cell lies between the base of the secretory cells and their basement membrane, wrapped round the acinus.',
+        B: 'True, so not the exception. The cell lies between the base of the secretory cells and their basement membrane, wrapped round the acinus.',
         C: 'The exception, and the answer. Picked by students who remember only that the cell lies against the basement membrane and do not check which surface that membrane is on. The basement membrane is by definition at the basal surface, so there is no space between it and the apex for anything to occupy.',
         D: 'A "none of the above" cannot be the exception when a genuinely false statement is on the list. It attracts students who could not separate B from C and hedged rather than choosing between them.',
       },

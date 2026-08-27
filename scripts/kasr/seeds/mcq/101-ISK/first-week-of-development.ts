@@ -78,7 +78,7 @@ export const LEAF: McqLeafSeed = {
       label: 'Fertilisation happens in the ampulla of the uterine tube and has four results',
       definition:
         'Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third. Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.',
-      objective: 'State where fertilisation occurs and give the four results the department book lists.',
+      objective: 'State where fertilisation occurs and give its four results.',
       pitfall: 'Saying the uterus. Fertilisation is tubal; the uterus is where the product of it implants, four days later.',
       subject: 'dev',
       primary: 'DIS-EMB-T01',
@@ -171,8 +171,8 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Developmental process',
       learningObjective: 'Name the organ in which fertilisation takes place.',
       explanations: {
-        A: 'Correct. Fertilisation occurs in the uterine (Fallopian) tube — in its ampullary part, the lateral third.',
-        B: 'The surface of the ovary is where the oocyte is released, not where it is fertilised. Implantation there is ovarian ectopic pregnancy, an abnormality; one annotated printing of this very question in the books is keyed to this option in error.',
+        A: 'Fertilisation occurs in the uterine (Fallopian) tube — in its ampullary part, the lateral third.',
+        B: 'The surface of the ovary is where the oocyte is released, not where it is fertilised. Implantation there is ovarian ectopic pregnancy, an abnormality; one annotated printing of this very question is keyed to this option in error.',
         C: 'The uterine cavity is where the embryo arrives on the fourth day and implants at the end of the first week — four days after fertilisation, not at it.',
         D: 'The pelvic cavity is where an omental or abdominal ectopic pregnancy would implant. Nothing normal happens to the oocyte there.',
       },
@@ -187,8 +187,8 @@ export const LEAF: McqLeafSeed = {
         'The books key this to the isthmus. The department book states that fertilisation occurs "in the ampullary part of the uterine tube (lateral third)", and the written batch\'s own concept for this, `fertilization-site-mechanism-results`, says the same. The lateral third is the ampulla, so the answer is C. The isthmus is a real place — it is one of the three tubal sites of ectopic implantation the book lists — which is what makes it a plausible key to print by mistake.',
       explanations: {
         A: 'The intramural part is the short segment inside the uterine wall, the narrowest part of the tube. It is a site of ectopic implantation, and the most dangerous one, but the oocyte never gets that far unfertilised.',
-        B: 'The isthmus is the narrow medial third, between the intramural part and the ampulla. It is the answer printed in the books and it is wrong: it is a site of tubal ectopic pregnancy, not the site of fertilisation.',
-        C: 'Correct. The lateral third of the tube is the ampulla, and the department book puts fertilisation there.',
+        B: 'The isthmus is the narrow medial third, between the intramural part and the ampulla. It is the printed answer and it is wrong: it is a site of tubal ectopic pregnancy, not the site of fertilisation.',
+        C: 'The lateral third of the tube is the ampulla, where fertilisation occurs.',
         D: 'The infundibulum is the funnel with the fimbriae at the ovarian end. It collects the oocyte and passes it on; fertilisation happens just medial to it, in the ampulla.',
       },
     },
@@ -198,21 +198,21 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Separate the results of fertilisation from the steps that produce them.',
       explanations: {
-        A: 'Correct. Determination of sex is one of the four results the book lists, and it follows from which sperm arrived: an X-bearing sperm gives XX and a Y-bearing sperm XY.',
+        A: 'Determination of sex is one of the four results of fertilisation, and it follows from which sperm arrived: an X-bearing sperm gives XX and a Y-bearing sperm XY.',
         B: 'The cortical and zona reaction is a step within fertilisation, not a result of it — it is the block to polyspermy that happens the moment the membranes fuse.',
         C: 'Formation of the male and female pronuclei is likewise a step. The result is what their fusion produces: the zygote nucleus.',
-        D: 'The reverse of the truth, and the answer one annotated printing of this question is keyed to. Each gamete nucleus is haploid; fertilisation restores the diploid number of forty-six, which is the third result on the book\'s list.',
+        D: 'The reverse of the truth, and the answer one annotated printing of this question is keyed to. Each gamete nucleus is haploid; fertilisation restores the diploid number of forty-six, which is the third result of fertilisation.',
       },
     },
     {
       key: 'phase-iii-of-fertilization-is-dep-book-y-y-99a3f883',
       conceptKey: 'fertilization-site-mechanism-results',
       difficulty: 'Hard', questionType: 'Developmental process',
-      learningObjective: 'Put the phases of fertilisation in the book\'s order and name the third by number.',
+      learningObjective: 'Put the phases of fertilisation in order and name the third by number.',
       explanations: {
         A: 'Dispersion of the corona radiata is Phase I, done by the hyaluronidase of the three to five hundred sperms that reach the ovum.',
         B: 'Capacitation comes before the phases are counted at all — it is the seven-hour removal of the glycoprotein coat from the sperm\'s acrosomal region in the female tract. A student who counts it as Phase I lands one number short on every phase that follows, which is exactly what this question is set to catch.',
-        C: 'Correct. Phase III is the opening of the cell membrane of the oocyte: the membranes of sperm head and oocyte fuse, and the sperm nucleus, mitochondrial sheath and axial filament pass into the cytoplasm.',
+        C: 'Phase III is the opening of the cell membrane of the oocyte: the membranes of sperm head and oocyte fuse, and the sperm nucleus, mitochondrial sheath and axial filament pass into the cytoplasm.',
         D: 'Penetration of the zona pellucida is Phase II, the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through the zona.',
       },
     },
@@ -222,7 +222,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Developmental timing',
       learningObjective: 'Date the morula and keep the blastocyst\'s features off it.',
       explanations: {
-        A: 'Correct. The morula is the 16-cell stage, formed inside the uterine tube within three days of the zygote — it has not reached the uterus yet.',
+        A: 'The morula is the 16-cell stage, formed inside the uterine tube within three days of the zygote — it has not reached the uterus yet.',
         B: 'Backwards. The zona pellucida is still intact around the morula and only begins to degenerate at the end of the fifth day, after the morula has reached the uterine cavity.',
         C: 'A cavity is what makes a blastocyst a blastocyst. The morula is a solid ball, which is what its name — mulberry — describes.',
         D: 'Implantation is started by the blastocyst, at the end of the first week and by its embryonic pole. The morula is two to three days too early and has no trophoblast yet.',
@@ -234,7 +234,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Name what holds the blastomeres together during cleavage.',
       explanations: {
-        A: 'Correct. Cleavage happens inside the zona pellucida, which is why the blastomeres get smaller instead of the whole embryo getting bigger, and why they compact rather than scatter.',
+        A: 'Cleavage happens inside the zona pellucida, which is why the blastomeres get smaller instead of the whole embryo getting bigger, and why they compact rather than scatter.',
         B: 'The corona radiata is the outer layer of follicular cells, and it is dispersed in Phase I of fertilisation — it is gone before the first cleavage division.',
         C: 'A pronucleus is one of the two haploid nuclei that fuse to make the zygote nucleus. It is inside a single cell and bounds nothing.',
         D: 'The inner cell mass is a group of cells within the blastocyst, two stages later. It is bounded by the trophoblast rather than bounding anything itself.',
@@ -247,9 +247,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the parts of the blastocyst and reject the morula\'s properties.',
       explanations: {
         A: 'The blastocyst is defined by its cavity, the blastocele. It is the morula that has none.',
-        B: 'It implants by its embryonic pole, the trophoblast lying over the inner cell mass. The abembryonic pole is the far side and goes in last — this is the commonest error in the whole chapter, and the books ask it both ways round.',
+        B: 'It implants by its embryonic pole, the trophoblast lying over the inner cell mass. The abembryonic pole is the far side and goes in last — this is the commonest error in the whole chapter, and it is asked both ways round.',
         C: 'Three days after the zygote gives the morula, not the blastocyst; the blastocyst is complete at the end of the sixth day.',
-        D: 'Correct. Embryoblast is the other name for the inner cell mass, as trophoblast is for the outer.',
+        D: 'Embryoblast is the other name for the inner cell mass, as trophoblast is for the outer.',
       },
     },
     {
@@ -271,7 +271,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Attach the trophoblast to the stage that actually has one.',
       explanations: {
         A: 'The morula is a solid ball of blastomeres with no wall and no cavity, so it has no trophoblast to be the outer layer of. The trophoblast appears only when the blastocele opens up inside it.',
-        B: 'Correct. The trophoblast is the single-layered outer cell mass forming the wall of the blastocyst.',
+        B: 'The trophoblast is the single-layered outer cell mass forming the wall of the blastocyst.',
         C: 'The chorionic vesicle is a later structure — the conceptus once the chorion has formed — and its wall is chorion, which is trophoblast plus extra-embryonic mesoderm, not trophoblast alone.',
         D: 'The placenta is later still, and it is built from chorionic villi and decidua basalis together. Trophoblast contributes to it, but the placenta is not a vesicle with a trophoblast wall.',
       },
@@ -282,7 +282,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Separate the one abnormal intrauterine site from the ectopic ones.',
       explanations: {
-        A: 'Correct. Placenta previa is implantation in the lower uterine segment, so that the placenta comes to lie over or near the internal os.',
+        A: 'Placenta previa is implantation in the lower uterine segment, so that the placenta comes to lie over or near the internal os.',
         B: 'Implantation in the uterine tube is tubal ectopic pregnancy — the commonest ectopic site, and the one that ruptures. It is chosen by students who read "abnormal site" as meaning "outside the uterus".',
         C: 'Implantation on the surface of the ovary is ovarian ectopic pregnancy, another site outside the uterine cavity.',
         D: 'Implantation on the peritoneum is abdominal or omental ectopic pregnancy. Like B and C it is outside the uterus, whereas previa is inside it and merely too low.',
@@ -296,7 +296,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The lower uterine segment is where placenta previa implants. The decidua is named by its relation to the conceptus, not by which part of the uterus it is in.',
         B: 'The covering over the implanted conceptus is decidua capsularis. This is the classic swap, and it is the option that catches most students: basalis is beneath, capsularis is over.',
-        C: 'Correct. Decidua basalis is the endometrium between the implanted blastocyst and the myometrium, and it becomes the maternal part of the placenta.',
+        C: 'Decidua basalis is the endometrium between the implanted blastocyst and the myometrium, and it becomes the maternal part of the placenta.',
         D: 'The endometrium lining the rest of the uterine cavity, away from the conceptus, is decidua parietalis. It fuses with the capsularis at about the fourth month.',
       },
     },
@@ -441,24 +441,24 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'd',
       answerOverrideReason: 'The 2020 paper printed no key and the recovered answer sheet does not cover this source, so the answer is taken from the department book. The book defines fertilization in exactly these words: "the process by which sperm and ovum unite to form a zygote".',
       explanations: {
-        a: 'Cleavage is what happens after the union, not the union itself: the zygote divides mitotically inside the zona pellucida into smaller and smaller blastomeres. The book lists the start of cleavage as one of the four results of fertilisation, which is the relation a student picking this option has got the wrong way round.',
+        a: 'Cleavage is what happens after the union, not the union itself: the zygote divides mitotically inside the zona pellucida into smaller and smaller blastomeres. The start of cleavage is one of the four results of fertilisation, which is the relation a student picking this option has got the wrong way round.',
         b: 'Gastrulation belongs to the third week, not the first. It is the formation of the three germ layers from the bilaminar disc, and the only thing it has in common with fertilisation is that both are single named events a student is asked to define.',
-        c: 'Capacitation is a change in the sperm, not a fusion with the ovum \u2014 the removal of the glycoprotein coat and seminal proteins from the acrosome during the sperm\u2019s passage through the female tract, which is what makes it able to fertilise. The book lists it as the step before phase I, so it is the nearest wrong answer on the page and the one a student who has learnt the steps in order will reach for.',
-        d: 'Correct. Fertilisation is the union of sperm and ovum to form a zygote, and it occurs in the ampullary part of the uterine tube.',
+        c: 'Capacitation is a change in the sperm, not a fusion with the ovum \u2014 the removal of the glycoprotein coat and seminal proteins from the acrosome during the sperm\u2019s passage through the female tract, which is what makes it able to fertilise. It is the step before phase I, so it is the nearest wrong answer on the page and the one a student who has learnt the steps in order will reach for.',
+        d: 'Fertilisation is the union of sperm and ovum to form a zygote, and it occurs in the ampullary part of the uterine tube.',
       },
     },
     {
       key: 'all-of-the-followings-are-abnormal-site-of-implantation-exce-ebe2b995',
       conceptKey: 'implantation-abnormal-sites',
       difficulty: 'Moderate', questionType: 'Clinical application',
-      learningObjective: 'List the abnormal sites of implantation the department book names, and recognise a site the blastocyst can never reach.',
+      learningObjective: 'List the abnormal sites of implantation, and recognise a site the blastocyst can never reach.',
       answerOverride: 'c',
       answerOverrideReason: 'The 2021 paper printed no key and the recovered answer sheet does not cover this source, so the answer comes from the department book. The book\u2019s abnormal sites are the lower uterine segment (placenta previa, at the internal os), and ectopic implantation \u2014 tubal, ovarian and omental, on the surface of the peritoneum. The internal os, the mesentery and the uterine tube are all on that list; the lung is not, and cannot be, because nothing carries a blastocyst there. This is also the option that was lost from the question-book printing of this question, `all-of-the-following-are-abnormal-sites-of-implantation-exce-cafc7147`, which is excluded there for exactly that reason.',
       explanations: {
         a: 'An abnormal site, and the commonest one that is still inside the uterus. Implantation at the internal os gives placenta previa, where the placenta lies over or beside the outlet the fetus has to come through.',
-        b: 'An abnormal site. The book\u2019s omental ectopic is implantation on the surface of the peritoneum, and the mesentery of the small intestine is peritoneum \u2014 a blastocyst expelled from the fimbrial end of the tube into the peritoneal cavity can settle there.',
-        c: 'Correct \u2014 this is the exception, and the answer. The lung is not a site of implantation, abnormal or otherwise: the blastocyst reaches the peritoneal cavity at worst, and there is no route from the uterine tube to the chest. Students hesitate because the other three are memorised as a list and the lung is not on it, which is precisely what the question is testing.',
-        d: 'An abnormal site, and the commonest ectopic pregnancy of all. The book divides tubal implantation into ampullary, isthmic and intramural, and it is dangerous because the tube ruptures as the conceptus grows.',
+        b: 'An abnormal site. An omental ectopic is implantation on the surface of the peritoneum, and the mesentery of the small intestine is peritoneum \u2014 a blastocyst expelled from the fimbrial end of the tube into the peritoneal cavity can settle there.',
+        c: 'This is the exception, and the answer. The lung is not a site of implantation, abnormal or otherwise: the blastocyst reaches the peritoneal cavity at worst, and there is no route from the uterine tube to the chest. Students hesitate because the other three are memorised as a list and the lung is not on it, which is precisely what the question is testing.',
+        d: 'An abnormal site, and the commonest ectopic pregnancy of all. Tubal implantation is divided into ampullary, isthmic and intramural, and it is dangerous because the tube ruptures as the conceptus grows.',
       },
     },
     {
@@ -471,8 +471,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'The two-cell stage is the first day of cleavage and has no name of its own. It is offered first because a reader who has copied option a into the stem of the other printing of this question made exactly this mistake.',
         b: 'Four blastomeres is the second day. Still a cleaving zygote, still inside an intact zona pellucida, and still not a morula.',
-        c: 'Eight blastomeres is the third day, and it is the number the book states most prominently, which is what makes this the strongest distractor \u2014 a student who remembers "day 3" and "8 cells" together stops one step early. The morula is the next count in the same sentence.',
-        d: 'Correct. At 16 cells the ball is called the morula, and it is formed in the uterine tube within three days of the zygote; it has no cavity and its zona pellucida is intact, which is what separates it from the blastocyst that follows.',
+        c: 'Eight blastomeres is the third day, and it is the most prominently stated figure, which is what makes this the strongest distractor \u2014 a student who remembers "day 3" and "8 cells" together stops one step early. The morula is the next count in the same sentence.',
+        d: 'At 16 cells the ball is called the morula, and it is formed in the uterine tube within three days of the zygote; it has no cavity and its zona pellucida is intact, which is what separates it from the blastocyst that follows.',
       },
     },
     {

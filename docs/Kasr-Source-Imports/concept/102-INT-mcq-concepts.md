@@ -212,11 +212,11 @@ CON-FND-A37A5AA8733ACE
 ## canonical_key
 amino-acid-basic-composition-and-alpha-imino-distinction
 ## definition
-Proteins are organic compounds with a high molecular weight. Synthesis of proteins commonly requires twenty different amino acids. All of these amino acids are α-amino acids — the amino group sits on the carbon next to the carboxyl group — except proline, whose side chain cyclises back onto its own nitrogen, which the book classes as an imino acid rather than a true amino acid.
+Proteins are organic compounds with a high molecular weight. Synthesis of proteins commonly requires twenty different amino acids. All of these amino acids are α-amino acids — the amino group sits on the carbon next to the carboxyl group — except proline, whose side chain cyclises back onto its own nitrogen, which makes it an imino acid rather than a true amino acid.
 ## explicit_objective
 State that proteins are high molecular weight organic compounds built from 20 amino acids, and identify proline as the one exception to the rule that all of them are α-amino acids.
 ## pitfalls
-Treating proline as just another α-amino acid because it sits on the same list of twenty. Its ring puts its nitrogen between two carbons rather than leaving it with two free hydrogens, which is exactly why the book calls it an imino, not an amino, acid.
+Treating proline as just another α-amino acid because it sits on the same list of twenty. Its ring puts its nitrogen between two carbons rather than leaving it with two free hydrogens, which is exactly why it is an imino, not an amino, acid.
 ## concept_type
 definition
 ## status
@@ -343,11 +343,11 @@ CON-FND-5C05062976F311
 ## canonical_key
 amino-acid-classification-schemes-and-chemical-subgroups
 ## definition
-The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate). The chemical scheme divides amino acids into aliphatic, aromatic and heterocyclic groups. Aromatic amino acids are phenylalanine, tyrosine and tryptophan; heterocyclic amino acids are histidine and proline. Aliphatic amino acids split further into neutral aliphatic (glycine and the short-chain alanine; the branched-chain valine, leucine and isoleucine; the hydroxyl-containing serine and threonine; the sulfur-containing cysteine and methionine; and the amide-of-acidic-amino-acid pair asparagine and glutamine), acidic aliphatic (aspartic acid and glutamic acid) and basic aliphatic (lysine and arginine). The book's own note adds that tryptophan can be considered both aromatic and heterocyclic, and that histidine is a basic heterocyclic amino acid.
+Amino acids are classified four ways: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate). The chemical scheme divides amino acids into aliphatic, aromatic and heterocyclic groups. Aromatic amino acids are phenylalanine, tyrosine and tryptophan; heterocyclic amino acids are histidine and proline. Aliphatic amino acids split further into neutral aliphatic (glycine and the short-chain alanine; the branched-chain valine, leucine and isoleucine; the hydroxyl-containing serine and threonine; the sulfur-containing cysteine and methionine; and the amide-of-acidic-amino-acid pair asparagine and glutamine), acidic aliphatic (aspartic acid and glutamic acid) and basic aliphatic (lysine and arginine). Tryptophan can be considered both aromatic and heterocyclic, and histidine is a basic heterocyclic amino acid.
 ## explicit_objective
-Name the book's four classification schemes for amino acids, and place a named amino acid in its correct chemical subgroup — aliphatic (neutral, acidic or basic, with its further short-chain, branched-chain, hydroxyl- or sulfur-containing subdivision), aromatic or heterocyclic.
+Name the four classification schemes for amino acids, and place a named amino acid in its correct chemical subgroup — aliphatic (neutral, acidic or basic, with its further short-chain, branched-chain, hydroxyl- or sulfur-containing subdivision), aromatic or heterocyclic.
 ## pitfalls
-Sorting histidine as aromatic because it has a ring. The book's own chemical classification tree puts histidine, with proline, under heterocyclic amino acids, keeping aromatic reserved for phenylalanine, tyrosine and tryptophan.
+Sorting histidine as aromatic because it has a ring. The chemical classification tree puts histidine, with proline, under heterocyclic amino acids, keeping aromatic reserved for phenylalanine, tyrosine and tryptophan.
 ## concept_type
 classification
 ## status
@@ -476,11 +476,11 @@ CON-FND-327EF635E45CB6
 ## canonical_key
 amino-acid-polarity-based-classification
 ## definition
-By the polarity of the side chain (R-group), the book sorts amino acids into three main groups. Amino acids with nonpolar or hydrophobic R groups include glycine, alanine, valine, leucine, isoleucine, methionine, phenylalanine, tryptophan and proline. Amino acids with uncharged polar R groups are more soluble in water and include serine, threonine, tyrosine and hydroxyproline (hydroxyl group), cysteine (SH group), and asparagine and glutamine (amide group). Amino acids with charged R groups split into basic amino acids, or diamino-monocarboxylic acids (lysine, arginine, histidine), and acidic amino acids, or monoamino-dicarboxylic acids (aspartic acid, glutamic acid).
+By the polarity of the side chain (R-group), amino acids sort into three main groups. Amino acids with nonpolar or hydrophobic R groups include glycine, alanine, valine, leucine, isoleucine, methionine, phenylalanine, tryptophan and proline. Amino acids with uncharged polar R groups are more soluble in water and include serine, threonine, tyrosine and hydroxyproline (hydroxyl group), cysteine (SH group), and asparagine and glutamine (amide group). Amino acids with charged R groups split into basic amino acids, or diamino-monocarboxylic acids (lysine, arginine, histidine), and acidic amino acids, or monoamino-dicarboxylic acids (aspartic acid, glutamic acid).
 ## explicit_objective
 Classify a named amino acid by the polarity of its side chain — nonpolar/hydrophobic, uncharged polar, or charged (basic or acidic) — as distinct from the chemical classification tree.
 ## pitfalls
-Conflating this scheme with the chemical classification tree. Serine is 'hydroxyl-containing' chemically but 'uncharged polar' by side-chain polarity — the same amino acid is sorted differently depending on which of the book's two schemes is being applied.
+Conflating this scheme with the chemical classification tree. Serine is 'hydroxyl-containing' chemically but 'uncharged polar' by side-chain polarity — the same amino acid is sorted differently depending on which of the two schemes is being applied.
 ## concept_type
 classification
 ## status
@@ -741,9 +741,9 @@ CON-FND-F7B968019AB64C
 ## canonical_key
 protein-biological-value-from-essential-amino-acid-completeness
 ## definition
-Proteins that contain all the essential amino acids are of high biological value — the book's examples are milk and egg proteins. Proteins that are deficient in one or more of the essential amino acids are of low biological value — the book's example is zein of maize, which is deficient in tryptophan.
+Proteins that contain all the essential amino acids are of high biological value — milk and egg proteins are examples. Proteins that are deficient in one or more of the essential amino acids are of low biological value — zein of maize is an example, deficient in tryptophan.
 ## explicit_objective
-State what makes a protein of high versus low biological value, and give the book's worked examples of each.
+State what makes a protein of high versus low biological value, and give a worked example of each.
 ## pitfalls
 Judging biological value by a protein's size or molecular weight rather than by its essential-amino-acid completeness. A protein can be large and still be of low biological value if it lacks even one essential amino acid, as zein does for tryptophan.
 ## concept_type
@@ -872,11 +872,11 @@ CON-FND-4EA3F93C091334
 ## canonical_key
 amino-acid-metabolic-classification-glucogenic-ketogenic
 ## definition
-According to their metabolic fate, the book classifies amino acids into three groups. Pure glucogenic amino acids can give glucose in the body and include all amino acids except the members of the other two groups. Pure ketogenic amino acids can give ketone bodies and include only leucine and lysine. Glucogenic and ketogenic (mixed) amino acids can give both glucose and ketone bodies, and include phenylalanine, tyrosine, tryptophan and isoleucine.
+According to their metabolic fate, amino acids classify into three groups. Pure glucogenic amino acids can give glucose in the body and include all amino acids except the members of the other two groups. Pure ketogenic amino acids can give ketone bodies and include only leucine and lysine. Glucogenic and ketogenic (mixed) amino acids can give both glucose and ketone bodies, and include phenylalanine, tyrosine, tryptophan and isoleucine.
 ## explicit_objective
-Classify a named amino acid by metabolic fate — pure glucogenic, pure ketogenic, or glucogenic-and-ketogenic (mixed) — and name the book's exact membership of the two small, named groups.
+Classify a named amino acid by metabolic fate — pure glucogenic, pure ketogenic, or glucogenic-and-ketogenic (mixed) — and name the exact membership of the two small, named groups.
 ## pitfalls
-Assuming phenylalanine must be simply glucogenic because it is not one of the two purely ketogenic amino acids. The book names phenylalanine, along with tyrosine, tryptophan and isoleucine, as mixed — capable of giving rise to both glucose and ketone bodies — not purely glucogenic.
+Assuming phenylalanine must be simply glucogenic because it is not one of the two purely ketogenic amino acids. Phenylalanine, along with tyrosine, tryptophan and isoleucine, is named as mixed — capable of giving rise to both glucose and ketone bodies — not purely glucogenic.
 ## concept_type
 classification
 ## status
@@ -1005,9 +1005,9 @@ amino-acid-amphoteric-property-and-isoelectric-point
 ## definition
 Amino acids can react with both acids and bases, so they are ampholytes. In acidic medium they are positively charged (R-NH3+); in alkaline medium they are negatively charged (R-COO-); at the isoelectric point (IEP) they carry equal negative and positive charges, forming dipolar ions (zwitterions), which sit at pH 6.02 for all monoamino-monocarboxylic amino acids. At this point the amino acid cannot migrate in an electric field, and the fully uncharged form is never present at any pH.
 ## explicit_objective
-State how an amino acid's charge changes with pH — positive in acid, negative in alkali, zwitterionic at the isoelectric point — and give the book's IEP value of pH 6.02 for monoamino-monocarboxylic amino acids.
+State how an amino acid's charge changes with pH — positive in acid, negative in alkali, zwitterionic at the isoelectric point — and give the IEP value of pH 6.02 for monoamino-monocarboxylic amino acids.
 ## pitfalls
-Assuming an amino acid can exist in a fully neutral, uncharged form at some pH. The book is explicit that the uncharged form is not present at any pH — at the isoelectric point the amino acid is not chargeless, it is a zwitterion carrying equal and opposite charges.
+Assuming an amino acid can exist in a fully neutral, uncharged form at some pH. The uncharged form is not present at any pH — at the isoelectric point the amino acid is not chargeless, it is a zwitterion carrying equal and opposite charges.
 ## concept_type
 mechanism
 ## status
@@ -1137,7 +1137,7 @@ peptide-bond-formation-mechanism
 ## definition
 A dipeptide is formed by the condensation of the carboxylic group of one amino acid with the amino group of a second amino acid, losing one molecule of water. Three amino acids form a tripeptide, and so on. Proteins are formed of many amino acids linked together by peptide bonds; the term polypeptide means the presence of a large number of peptide bonds. Oligopeptides contain 2 to 10 amino acids, polypeptides contain 11 to 49 amino acids, and protein molecules are formed of 50 or more amino acids.
 ## explicit_objective
-Describe the condensation reaction that forms a peptide bond — carboxyl group of one amino acid to amino group of the next, with loss of water — and state the size cut-offs the book gives for oligopeptide, polypeptide and protein.
+Describe the condensation reaction that forms a peptide bond — carboxyl group of one amino acid to amino group of the next, with loss of water — and state the size cut-offs for oligopeptide, polypeptide and protein.
 ## pitfalls
 Reversing which group belongs to which amino acid. It is the carboxylic group of the first amino acid that condenses with the amino group of the second, not the other way around — the resulting dipeptide still has one free amino end and one free carboxyl end.
 ## concept_type
@@ -1266,7 +1266,7 @@ CON-HEM-3767DA0A153B4C
 ## canonical_key
 teaching.iron-deficiency.chronic-blood-loss
 ## definition
-Chronic blood loss is one of the three causes of iron-deficiency anaemia the book names, alongside deficient dietary intake and deficient absorption. It occurs as in ankylostoma (hookworm) infestation, bleeding from a peptic ulcer or piles, and excessive menstrual bleeding in females — situations where iron is lost from the body faster than diet and absorption can replace it.
+Chronic blood loss is one of the three causes of iron-deficiency anaemia named, alongside deficient dietary intake and deficient absorption. It occurs as in ankylostoma (hookworm) infestation, bleeding from a peptic ulcer or piles, and excessive menstrual bleeding in females — situations where iron is lost from the body faster than diet and absorption can replace it.
 ## explicit_objective
 Name chronic blood loss as a cause of iron-deficiency anaemia, distinct from low dietary intake or malabsorption.
 ## pitfalls
@@ -1401,7 +1401,7 @@ The bone marrow's rapidly dividing cells need DNA synthesis for nuclear maturati
 ## explicit_objective
 State that vitamin B12 is needed for nuclear maturation/division (via DNA synthesis) and for myelination, and connect its deficiency to both macrocytic anaemia and neurological signs.
 ## pitfalls
-Naming only the hematologic effect of B12 deficiency and missing the neurological one, or vice versa — the book states both come from the one vitamin's two separate jobs, not from one mechanism.
+Naming only the hematologic effect of B12 deficiency and missing the neurological one, or vice versa — both come from the one vitamin's two separate jobs, not from one mechanism.
 ## concept_type
 mechanism
 ## status
@@ -1948,9 +1948,9 @@ monosaccharide-classification-by-carbonyl-group-and-carbon-count
 ## definition
 Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons). The two classifications combine: aldotrioses (glyceraldehyde, the mother compound of all aldoses), aldotetroses (erythrose), aldopentoses (ribose and xylose), aldohexoses (glucose, mannose and galactose); ketotrioses (dihydroxyacetone, the simplest ketose), ketotetroses (erythrulose), ketopentoses (ribulose) and ketohexoses (fructose). Every ketose carries exactly two terminal primary alcohol groups (CH2OH) and one ketone group (C=O).
 ## explicit_objective
-Classify a named monosaccharide by its carbonyl group (aldose vs ketose) and by its carbon count (triose to hexose), and name the book's example for each class.
+Classify a named monosaccharide by its carbonyl group (aldose vs ketose) and by its carbon count (triose to hexose), and name a worked example for each class.
 ## pitfalls
-Assuming dihydroxyacetone, the simplest ketose, is also the starting point of the whole monosaccharide family — the book names glyceraldehyde, an aldotriose, as the mother compound of all aldoses, a separate claim about the aldose series specifically. Also confusing which class a named sugar belongs to: fructose, ribulose, erythrulose and dihydroxyacetone are ketoses, while glucose, mannose, galactose, ribose, xylose, erythrose and glyceraldehyde are aldoses.
+Assuming dihydroxyacetone, the simplest ketose, is also the starting point of the whole monosaccharide family — glyceraldehyde, an aldotriose, is the mother compound of all aldoses, a separate fact about the aldose series specifically. Also confusing which class a named sugar belongs to: fructose, ribulose, erythrulose and dihydroxyacetone are ketoses, while glucose, mannose, galactose, ribose, xylose, erythrose and glyceraldehyde are aldoses.
 ## concept_type
 classification
 ## status
@@ -2214,9 +2214,9 @@ important-monosaccharides-biological-occurrence
 ## definition
 Among the pentoses, ribose is a component of ribonucleic acid (RNA) and 2-deoxyribose is a component of deoxyribonucleic acid (DNA). Among the hexoses, glucose (grape sugar) is the main sugar of blood, present in all animal and plant cells, honey and fruits, and enters the formation of many disaccharides and polysaccharides; fructose (fruit sugar) is present in honey, fruits, semen, sucrose and inulin; galactose is a component of lactose (milk sugar) and is also found in glycosaminoglycans, glycolipids and glycoproteins.
 ## explicit_objective
-Name which pentose belongs to RNA and which to DNA, and match each of glucose, fructose and galactose to where the book says it is found.
+Name which pentose belongs to RNA and which to DNA, and match each of glucose, fructose and galactose to where it is found.
 ## pitfalls
-Swapping ribose and deoxyribose between RNA and DNA, or forgetting that fructose, not glucose, is the sugar the book names as abundant in honey, since glucose is also present there and is the more familiar sugar.
+Swapping ribose and deoxyribose between RNA and DNA, or forgetting that fructose, not glucose, is the sugar most abundant in honey, since glucose is also present there and is the more familiar sugar.
 ## concept_type
 biological_significance
 ## status
@@ -2345,7 +2345,7 @@ monosaccharide-derivative-types
 ## definition
 Monosaccharides are chemically modified into five classes of derivative. Sugar acids: uronic acids form when the primary alcohol group of a monosaccharide is oxidised — glucose is oxidised to glucuronic acid, galactose to galacturonic acid. Sugar alcohols form when the carbonyl group is reduced to an alcohol group; named members include glycerol (the alcohol of glyceraldehyde or dihydroxyacetone, a component of triacylglycerol and most phospholipids), ribitol (ribose alcohol, a component of riboflavin/vitamin B2), sorbitol (glucose and fructose alcohol, linked to diabetic complications and used as a sweetener) and dulcitol (galactose alcohol). Deoxy sugars have the hydroxyl group at C2 replaced by a hydrogen atom; the chief example is 2-deoxyribose, found in DNA. Amino sugars have the hydroxyl group at C2 replaced by an amino group (NH2), e.g. glucosamine, galactosamine and mannosamine, and are important constituents of glycosaminoglycans and some glycolipids/glycoproteins. Glycosides form by condensation of a sugar's carbonyl carbon with another sugar (a glycon, as in disaccharides and polysaccharides) or with a non-carbohydrate compound (an aglycon, such as an alcohol, phenol or nitrogenous base); nucleosides — ribose or deoxyribose joined to a nitrogenous base — are the glycosides found in nucleic acids.
 ## explicit_objective
-Name the five classes of monosaccharide derivative, the chemical modification that defines each, and the named example the book gives for each.
+Name the five classes of monosaccharide derivative, the chemical modification that defines each, and a named example for each.
 ## pitfalls
 Confusing which modification defines which class — oxidation makes a sugar acid, reduction makes a sugar alcohol, replacing C2-OH with H makes a deoxy sugar, replacing C2-OH with NH2 makes an amino sugar — and forgetting that a glycoside is a condensation product rather than an oxidation or reduction product, so nucleosides belong with glycosides, not with any of the other four classes.
 ## concept_type
@@ -2481,7 +2481,7 @@ A disaccharide is two monosaccharides joined by a glycosidic linkage, named for 
 ## explicit_objective
 For each of maltose, lactose and sucrose, state its two component monosaccharides, its glycosidic linkage, and whether it is reducing or non-reducing, and explain why.
 ## pitfalls
-Assuming every disaccharide is reducing by default — the book's own explicit exception is sucrose, non-reducing because both of its carbonyl carbons, not just one, are consumed by the linkage. Also swapping which enzyme hydrolyses which sugar (maltase for maltose, lactase for lactose), and mixing up which pair of monosaccharides each disaccharide yields.
+Assuming every disaccharide is reducing by default — the explicit exception is sucrose, non-reducing because both of its carbonyl carbons, not just one, are consumed by the linkage. Also swapping which enzyme hydrolyses which sugar (maltase for maltose, lactase for lactose), and mixing up which pair of monosaccharides each disaccharide yields.
 ## concept_type
 structure_function_relationship
 ## status
@@ -2876,7 +2876,7 @@ Heteropolysaccharides are polysaccharides formed of more than one type of monosa
 ## explicit_objective
 Classify a named polysaccharide as homo- or heteropolysaccharide, and sort a named GAG into the sulfate-free or sulfate-containing group.
 ## pitfalls
-Assuming every named polysaccharide is a homopolysaccharide by default — GAGs are built from repeating disaccharide units of an amino sugar plus a uronic acid, not a single sugar, which is exactly what makes them heteropolysaccharides. Hyaluronic acid is the one GAG the book lists with no sulfate group; every other named GAG in this list carries one.
+Assuming every named polysaccharide is a homopolysaccharide by default — GAGs are built from repeating disaccharide units of an amino sugar plus a uronic acid, not a single sugar, which is exactly what makes them heteropolysaccharides. Hyaluronic acid is the one GAG with no sulfate group; every other named GAG in this list carries one.
 ## concept_type
 classification
 ## status
@@ -3006,9 +3006,9 @@ specific-gag-biomedical-functions
 ## definition
 The GAGs each carry a specific biomedical role. Hyaluronic acid is found in the extracellular matrix, skin, synovial fluid, umbilical cord, the vitreous body of the eye, and in high concentration in embryonic tissues; skin ageing reduces its production (contributing to wrinkles), osteoarthritis lowers its joint concentration, and in the eye it acts as a shock absorber and nutrient transporter. Hyaluronidase (the "spreading factor") hydrolyses hyaluronic acid, is used by some bacteria to spread through subcutaneous tissue, and is present in sperm heads to aid fertilization. Chondroitin sulfate is the most abundant GAG, prominent in cartilage, tendons, ligaments, bone and aorta, and is used orally to treat osteoarthritis. Dermatan sulfate, present in skin, blood vessels and heart valves, has anticoagulant activity (it binds heparin and augments its action) and is associated with increased resistance to infection. Keratan sulfate is a major corneal component, important for corneal development and the maintenance of corneal transparency. Heparin proteoglycan is an important anticoagulant: it inactivates clotting factors IX and XI, activates antithrombin III, and clears blood lipids by binding lipoprotein lipase and releasing it from the capillary wall into plasma. Heparan sulfate is associated with the plasma membrane, where it functions in cell membrane receptors and cell-cell interaction.
 ## explicit_objective
-Match each named GAG — hyaluronic acid, chondroitin sulfate, dermatan sulfate, keratan sulfate, heparin and heparan sulfate — to the specific biomedical role the book assigns it.
+Match each named GAG — hyaluronic acid, chondroitin sulfate, dermatan sulfate, keratan sulfate, heparin and heparan sulfate — to its specific biomedical role.
 ## pitfalls
-Mixing up heparin (the anticoagulant that inactivates clotting factors and activates antithrombin III) with heparan sulfate (a membrane-associated GAG concerned with cell-cell interaction, not coagulation) — the names differ by only three letters but the book gives them entirely different jobs. Also swapping keratan sulfate's corneal role with hyaluronic acid's vitreous/embryonic roles.
+Mixing up heparin (the anticoagulant that inactivates clotting factors and activates antithrombin III) with heparan sulfate (a membrane-associated GAG concerned with cell-cell interaction, not coagulation) — the names differ by only three letters but they carry entirely different jobs. Also swapping keratan sulfate's corneal role with hyaluronic acid's vitreous/embryonic roles.
 ## concept_type
 structure_function_relationship
 ## status
@@ -3269,7 +3269,7 @@ cellulose-dietary-importance
 ## definition
 Cellulose is an unbranched chain of β-glucose units joined by β1,4-glucosidic linkages. Amylase hydrolyses only α-linkages, so cellulose passes through the gut undigested. It increases the bulk of food, which stimulates intestinal contractions and prevents constipation, and it delays fat absorption.
 ## explicit_objective
-Explain why cellulose escapes digestion and state the two dietary consequences the department book gives for it.
+Explain why cellulose escapes digestion and state its two dietary consequences.
 ## pitfalls
 Believing that humans secrete a cellulase and simply absorb cellulose slowly. Nothing in the human gut hydrolyses a β1,4 bond — the benefit comes from the cellulose that is never absorbed at all.
 ## concept_type
@@ -4454,7 +4454,7 @@ CON-NEU-7D2786E349DE45
 ## canonical_key
 sympathetic-regional-effects-abdomen-pelvis-limbs
 ## definition
-Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves. Their effects include hepatic glycogenolysis (raising blood glucose) and, via preganglionic cholinergic fibres reaching the adrenal medulla directly, secretion of adrenaline and noradrenaline into the blood — stimulation of the greater splanchnic nerve is one of the book's named routes to adrenal catecholamine release.
+Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves. Their effects include hepatic glycogenolysis (raising blood glucose) and, via preganglionic cholinergic fibres reaching the adrenal medulla directly, secretion of adrenaline and noradrenaline into the blood — stimulation of the greater splanchnic nerve is one of the named routes to adrenal catecholamine release.
 ## explicit_objective
 Connect splanchnic-nerve stimulation to two separate sympathetic abdominal effects: hepatic glycogenolysis and adrenal medulla catecholamine secretion.
 ## pitfalls
@@ -4732,17 +4732,17 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Hydrolysis breaks a nucleotide down to a nucleoside plus phosphate, and a nucleoside down to its nitrogenous base plus pentose; the book names each base, nucleoside and nucleotide by a fixed table (Adenine→Adenosine→AMP, Uracil→Uridine→UMP, and so on)
+Hydrolysis breaks a nucleotide down to a nucleoside plus phosphate, and a nucleoside down to its nitrogenous base plus pentose; named each base, nucleoside and nucleotide by a fixed table (Adenine→Adenosine→AMP, Uracil→Uridine→UMP, and so on)
 ## id
 CON-FND-21029C98FEA19F
 ## canonical_key
 nucleotide-hydrolysis-hierarchy-and-naming
 ## definition
-Nucleotides are the building units of DNA and RNA. Hydrolysis breaks a nucleotide into a nucleoside plus phosphate, and a nucleoside into a nitrogenous base plus a pentose. The nitrogenous bases split into purines (adenine, guanine) and pyrimidines (cytosine, uracil, thymine); the pentose is ribose, or 2-deoxyribose in DNA nucleotides only. The book names each base, its nucleoside, and its nucleotide by a fixed table: Adenine/Adenosine/Adenosine monophosphate (AMP), Guanine/Guanosine/Guanosine monophosphate (GMP), Xanthine/Xanthosine/Xanthosine monophosphate (XMP), Hypoxanthine/Inosine/Inosine monophosphate (IMP), Cytosine/Cytidine/Cytidine monophosphate (CMP), Uracil/Uridine/Uridine monophosphate (UMP), and Thymine/Thymidine/Thymidine monophosphate (TMP).
+Nucleotides are the building units of DNA and RNA. Hydrolysis breaks a nucleotide into a nucleoside plus phosphate, and a nucleoside into a nitrogenous base plus a pentose. The nitrogenous bases split into purines (adenine, guanine) and pyrimidines (cytosine, uracil, thymine); the pentose is ribose, or 2-deoxyribose in DNA nucleotides only. Named each base, its nucleoside, and its nucleotide by a fixed table: Adenine/Adenosine/Adenosine monophosphate (AMP), Guanine/Guanosine/Guanosine monophosphate (GMP), Xanthine/Xanthosine/Xanthosine monophosphate (XMP), Hypoxanthine/Inosine/Inosine monophosphate (IMP), Cytosine/Cytidine/Cytidine monophosphate (CMP), Uracil/Uridine/Uridine monophosphate (UMP), and Thymine/Thymidine/Thymidine monophosphate (TMP).
 ## explicit_objective
-State the hydrolysis hierarchy nucleotide→nucleoside→base+sugar, classify a named base as purine or pyrimidine, and use the book's naming table to move between a base, its nucleoside and its nucleotide.
+State the hydrolysis hierarchy nucleotide→nucleoside→base+sugar, classify a named base as purine or pyrimidine, and use the naming table to move between a base, its nucleoside and its nucleotide.
 ## pitfalls
-Treating 'nucleoside' and 'nucleotide' as interchangeable, or assuming a compound's name settles which one it is without checking the table. A nucleoside (e.g. Adenosine, Uridine) is base+sugar only; only adding phosphate turns it into the corresponding nucleotide (e.g. AMP, UMP) — the book's naming table is what fixes which is which.
+Treating 'nucleoside' and 'nucleotide' as interchangeable, or assuming a compound's name settles which one it is without checking the table. A nucleoside (e.g. Adenosine, Uridine) is base+sugar only; only adding phosphate turns it into the corresponding nucleotide (e.g. AMP, UMP) — the naming table is what fixes which is which.
 ## concept_type
 classification
 ## status
@@ -4874,7 +4874,7 @@ Each nucleoside is formed of a nitrogenous base and a pentose, where C1' of the 
 ## explicit_objective
 Name the glycosidic bond as the base-to-sugar linkage, the ester bond at C5 as the sugar-to-phosphate linkage, and state which pentose (ribose or 2-deoxyribose) a nucleotide carries based on its base and whether it belongs to RNA or DNA.
 ## pitfalls
-Assuming every base can be found paired with either ribose or deoxyribose. The book restricts thymine to DNA (so always deoxyribose) and uracil to RNA (so always ribose); only cytosine and adenine are named as present in both nucleic acids and so can appear with either sugar.
+Assuming every base can be found paired with either ribose or deoxyribose. Restricted thymine to DNA (so always deoxyribose) and uracil to RNA (so always ribose); only cytosine and adenine are named as present in both nucleic acids and so can appear with either sugar.
 ## concept_type
 mechanism
 ## status
@@ -5002,11 +5002,11 @@ CON-FND-F2A54F8809C051
 ## canonical_key
 nucleotide-full-composition-in-named-examples
 ## definition
-Each nucleotide is formed of a nitrogenous base, a pentose, and phosphate. Applying this definition to named compounds: uridylic acid is Uridine monophosphate (UMP), composed of uracil, ribose and phosphate. ATP (adenosine triphosphate) is likewise a nucleotide, built from the base adenine, the sugar ribose, and — in its case — three phosphate groups rather than one; the book introduces ATP, ADP and AMP together under free nucleotides' energy-transduction role, describing the bonds between the phosphate groups as high-energy bonds.
+Each nucleotide is formed of a nitrogenous base, a pentose, and phosphate. Applying this definition to named compounds: uridylic acid is Uridine monophosphate (UMP), composed of uracil, ribose and phosphate. ATP (adenosine triphosphate) is likewise a nucleotide, built from the base adenine, the sugar ribose, and — in its case — three phosphate groups rather than one; introduced ATP, ADP and AMP together under free nucleotides' energy-transduction role, describing the bonds between the phosphate groups as high-energy bonds.
 ## explicit_objective
 Apply the base+pentose+phosphate definition of a nucleotide to name what a specific compound (uridylic acid, ATP) is composed of, and classify ATP itself as a nucleotide.
 ## pitfalls
-Assuming a compound with more than one phosphate, like ATP, must belong to some other category than 'nucleotide.' The book's definition of a nucleotide does not cap the phosphate count at one — ATP, ADP and AMP are all discussed together as forms of the same nucleotide, differing only in how many phosphates they carry.
+Assuming a compound with more than one phosphate, like ATP, must belong to some other category than 'nucleotide.' the definition of a nucleotide does not cap the phosphate count at one — ATP, ADP and AMP are all discussed together as forms of the same nucleotide, differing only in how many phosphates they carry.
 ## concept_type
 definition
 ## status
@@ -5133,9 +5133,9 @@ CON-HEM-208821E5E203D5
 ## canonical_key
 hemoprotein-classification-conjugated-with-heme-and-examples
 ## definition
-Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group. The book's own table of examples assigns each a distinct job: haemoglobin transports oxygen in the blood; myoglobin stores oxygen in muscle; cytochromes transport electrons in the respiratory chain; and catalase and peroxidases degrade hydrogen peroxide.
+Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group. The table of examples assigns each a distinct job: haemoglobin transports oxygen in the blood; myoglobin stores oxygen in muscle; cytochromes transport electrons in the respiratory chain; and catalase and peroxidases degrade hydrogen peroxide.
 ## explicit_objective
-Classify hemoproteins as conjugated proteins and match each named example to its main function from the book's table.
+Classify hemoproteins as conjugated proteins and match each named example to its main function from the table.
 ## pitfalls
 Assuming every hemoprotein transports or stores oxygen. Cytochromes and catalase/peroxidases are hemoproteins too, but their jobs are electron transport and peroxide breakdown, not oxygen handling.
 ## concept_type
@@ -5401,7 +5401,7 @@ Myoglobin is formed of one heme group attached to one polypeptide chain (apomyog
 ## explicit_objective
 Compare myoglobin and hemoglobin at each level of protein structure — how many hemes and chains, how many residues, and which structural level differs between them and which does not.
 ## pitfalls
-Assuming that because myoglobin and hemoglobin subunits differ in primary structure they must also differ in tertiary structure. The book describes both foldings in the same terms — globular, polar surface, nonpolar core — so the tertiary fold is shared even though the sequence is not.
+Assuming that because myoglobin and hemoglobin subunits differ in primary structure they must also differ in tertiary structure. Described both foldings in the same terms — globular, polar surface, nonpolar core — so the tertiary fold is shared even though the sequence is not.
 ## concept_type
 structure_function_relationship
 ## status
@@ -5533,7 +5533,7 @@ Heme is a ferrous (Fe2+) protoporphyrin IX: a porphin ring of four pyrrole rings
 ## explicit_objective
 State heme's oxidation state and ring composition, where it sits in the globin chain, and what iron's six coordination bonds connect to.
 ## pitfalls
-Writing heme's iron as ferric (Fe3+). The book is explicit that heme is a ferrous, Fe2+, protoporphyrin; iron only becomes ferric when heme is oxidised to hematin, which is a different molecule the globin chain normally prevents.
+Writing heme's iron as ferric (Fe3+). Heme is a ferrous, Fe2+, protoporphyrin; iron only becomes ferric when heme is oxidised to hematin, which is a different molecule the globin chain normally prevents.
 ## concept_type
 structure_function_relationship
 ## status
@@ -5796,7 +5796,7 @@ Sickle cell anaemia is caused by a single nucleotide alteration — a point muta
 ## explicit_objective
 Identify the molecular basis of sickle cell haemoglobin as a point mutation causing a single amino-acid substitution (Glu6→Val) in the β chain, not a broader structural or synthetic defect.
 ## pitfalls
-Confusing the specific single-residue substitution with a general structural or secondary-structure defect, or with an iron/heme-binding fault. The book locates the whole problem at one point mutation and one substituted residue in the β chain; nothing about the heme groups or their binding is altered.
+Confusing the specific single-residue substitution with a general structural or secondary-structure defect, or with an iron/heme-binding fault. Located the whole problem at one point mutation and one substituted residue in the β chain; nothing about the heme groups or their binding is altered.
 ## concept_type
 mechanism
 ## status
@@ -6194,7 +6194,7 @@ DNA and RNA share the purine bases adenine and guanine and the pyrimidine cytosi
 ## explicit_objective
 Name RNA's distinguishing sugar and base compared with DNA, and classify each of the four common bases as a purine or a pyrimidine.
 ## pitfalls
-Assuming RNA never contains thymine — the book notes thymine does appear in RNA, but only as a minor base within tRNA (the T of the TψC arm), so 'RNA never has thymine' overstates the rule.
+Assuming RNA never contains thymine — noted thymine does appear in RNA, but only as a minor base within tRNA (the T of the TψC arm), so 'RNA never has thymine' overstates the rule.
 ## concept_type
 classification
 ## status
@@ -7642,7 +7642,7 @@ The ends of eukaryotic linear chromosomes are called telomeres. Their 3' strand 
 ## explicit_objective
 Name the repeated telomeric sequence and its loop structure, and explain why lagging-strand synthesis alone would shorten a chromosome with each replication cycle.
 ## pitfalls
-Reaching for telomerase's reverse-transcriptase mechanism or an RNA template to explain how it restores length — the book states only that telomerase restores chromosomal length, not the mechanism by which it does so.
+Reaching for telomerase's reverse-transcriptase mechanism or an RNA template to explain how it restores length — only that telomerase restores chromosomal length, not the mechanism by which it does so.
 ## concept_type
 mechanism
 ## status
@@ -7901,7 +7901,7 @@ CON-FND-CB8584ED2F3C49
 ## canonical_key
 competitive-enzyme-inhibition-mechanism
 ## definition
-A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because the inhibition is reversed by raising substrate concentration and at a high enough substrate concentration the reaction reaches the same Vmax as in the absence of inhibitor. The apparent Km rises, because more substrate is needed to reach half of Vmax. The department book's examples are allopurinol, a structural analogue of hypoxanthine that inhibits xanthine oxidase and is used in gout; sulfonamides, structural analogues of para-aminobenzoic acid that block bacterial folate synthesis; and dicumarol and warfarin, structurally similar to a vitamin K derivative and used as anticoagulants.
+A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because the inhibition is reversed by raising substrate concentration and at a high enough substrate concentration the reaction reaches the same Vmax as in the absence of inhibitor. The apparent Km rises, because more substrate is needed to reach half of Vmax. Examples include allopurinol, a structural analogue of hypoxanthine that inhibits xanthine oxidase and is used in gout; sulfonamides, structural analogues of para-aminobenzoic acid that block bacterial folate synthesis; and dicumarol and warfarin, structurally similar to a vitamin K derivative and used as anticoagulants.
 ## explicit_objective
 Explain how structural similarity to the substrate produces reversible inhibition, state what it does to Km and Vmax, and give two worked examples.
 ## pitfalls
@@ -8036,7 +8036,7 @@ Enzymes are biocatalysts that regulate the rate of biochemical reactions. All ar
 ## explicit_objective
 List the common features that define an enzyme (produced by living cells, needed in small amounts, does not shift equilibrium, mainly protein, chemically unchanged at the end, highly specific), and name 'substrate' as the term for the molecule an enzyme acts on.
 ## pitfalls
-Assuming an enzyme is consumed or altered by the reaction it catalyses, or that it is needed in large amounts like a typical reactant. The book is explicit on both: enzymes are needed in very small amounts and are not changed chemically by the end of the reaction — an enzyme molecule can be used again.
+Assuming an enzyme is consumed or altered by the reaction it catalyses, or that it is needed in large amounts like a typical reactant. In fact, enzymes are needed in very small amounts and are not changed chemically by the end of the reaction — an enzyme molecule can be used again.
 ## concept_type
 definition
 ## status
@@ -8167,7 +8167,7 @@ The active site is a special pocket or cleft on the enzyme molecule, containing 
 ## explicit_objective
 State that the active site catalyses the reaction by lowering activation energy, and that this leaves the reaction's equilibrium and free energy change unaffected.
 ## pitfalls
-Describing the general mechanism of enzyme action in terms of pH rather than activation energy. The book's account of the thermodynamic basis of catalysis is specifically about lowering activation energy; pH is instead one of the separate factors that affects the rate of an already-catalysed reaction.
+Describing the general mechanism of enzyme action in terms of pH rather than activation energy. The thermodynamic basis of catalysis is specifically lowering activation energy; pH is instead one of the separate factors that affects the rate of an already-catalysed reaction.
 ## concept_type
 mechanism
 ## status
@@ -8298,7 +8298,7 @@ As substrate concentration [S] increases, reaction velocity rises toward a maxim
 ## explicit_objective
 Define Km as the substrate concentration giving half of Vmax, and explain why a smaller Km value means higher enzyme-substrate affinity and is used to compare enzymes' catalytic efficiency.
 ## pitfalls
-Reading Km as half of the substrate concentration needed to reach Vmax, rather than as the substrate concentration that itself produces half of Vmax. The two phrasings sound similar but describe different quantities; the book's own definition is the latter.
+Reading Km as half of the substrate concentration needed to reach Vmax, rather than as the substrate concentration that itself produces half of Vmax. The two phrasings sound similar but describe different quantities; the correct definition is the latter.
 ## concept_type
 mechanism
 ## status
@@ -8425,9 +8425,9 @@ CON-FND-6BBAC69900B22F
 ## canonical_key
 allosteric-enzyme-regulation-mechanism
 ## definition
-Allosteric inhibitors and activators are usually small organic molecules that bind to a specific allosteric site away from the catalytic site, producing conformational changes in protein structure. Allosteric inhibitors decrease the enzyme's affinity for its substrate (increasing Km) or decrease its maximal catalytic activity (decreasing Vmax), or both; allosteric activators do the reverse, increasing affinity (decreasing Km) or increasing maximal activity (increasing Vmax), or both. A worked example the book gives is ATP acting as an allosteric inhibitor of phosphofructokinase-1, and AMP acting as its allosteric activator.
+Allosteric inhibitors and activators are usually small organic molecules that bind to a specific allosteric site away from the catalytic site, producing conformational changes in protein structure. Allosteric inhibitors decrease the enzyme's affinity for its substrate (increasing Km) or decrease its maximal catalytic activity (decreasing Vmax), or both; allosteric activators do the reverse, increasing affinity (decreasing Km) or increasing maximal activity (increasing Vmax), or both. A worked example is ATP acting as an allosteric inhibitor of phosphofructokinase-1, and AMP acting as its allosteric activator.
 ## explicit_objective
-Explain that allosteric effectors act by binding a site distinct from the catalytic site and altering enzyme conformation, and give the book's ATP/AMP-on-PFK-1 example.
+Explain that allosteric effectors act by binding a site distinct from the catalytic site and altering enzyme conformation, and give the ATP/AMP-on-PFK-1 example.
 ## pitfalls
 Confusing allosteric with competitive regulation because both can be reversible. A competitive inhibitor occupies the catalytic site itself and is defeated by more substrate; an allosteric effector binds an entirely separate site and works by reshaping the protein, which more substrate cannot reverse.
 ## concept_type
@@ -8560,7 +8560,7 @@ Irreversible enzyme inhibition, unlike competitive or allosteric inhibition, per
 ## explicit_objective
 Classify irreversible enzyme inhibition into cofactor-inhibitors and apoenzyme-inhibitors, and name heavy-metal ions such as mercury as inhibitors that irreversibly block a catalytically important sulfhydryl group.
 ## pitfalls
-Assuming any drug or agent named alongside enzyme inhibition must be irreversible. The book's own worked examples of allopurinol and sulfonamides are explicitly reversible, competitive inhibitors — irreversible inhibition is reserved for agents that permanently chelate a cofactor, denature the protein outright, or block an essential chemical group, as mercury does to the SH group.
+Assuming any drug or agent named alongside enzyme inhibition must be irreversible. Allopurinol and sulfonamides are explicitly reversible, competitive inhibitors — irreversible inhibition is reserved for agents that permanently chelate a cofactor, denature the protein outright, or block an essential chemical group, as mercury does to the SH group.
 ## concept_type
 mechanism
 ## status
@@ -8681,15 +8681,15 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-A zymogen (proenzyme) is an inactive enzyme precursor, activated by proteolysis that removes the part of the chain masking the active site — pepsinogen becoming pepsin is the book's autocatalytic example
+A zymogen (proenzyme) is an inactive enzyme precursor, activated by proteolysis that removes the part of the chain masking the active site — pepsinogen becoming pepsin is the classic autocatalytic example
 ## id
 CON-FND-F6E154FA6FF42A
 ## canonical_key
 zymogen-activation-and-autocatalysis
 ## definition
-Many enzymes are first formed as inactive proenzymes or zymogens. Activation requires proteolysis — removal of a part of the polypeptide chain that masks the active or substrate site. A good example is the digestive proteolytic enzymes, formed as zymogens inside the cells that produce them (to prevent digestion of the cells' own proteins) and activated once released into the gut; many of these activated enzymes can then activate their own zymogens further, a process termed autocatalytic activation. The book's worked example is pepsinogen, converted by HCl into pepsin plus a polypeptide fragment, in an autocatalytic reaction. Blood clotting factors are the book's other example, formed as zymogens and activated by specific proteases.
+Many enzymes are first formed as inactive proenzymes or zymogens. Activation requires proteolysis — removal of a part of the polypeptide chain that masks the active or substrate site. A good example is the digestive proteolytic enzymes, formed as zymogens inside the cells that produce them (to prevent digestion of the cells' own proteins) and activated once released into the gut; many of these activated enzymes can then activate their own zymogens further, a process termed autocatalytic activation. A worked example is pepsinogen, converted by HCl into pepsin plus a polypeptide fragment, in an autocatalytic reaction. Blood clotting factors are another example, formed as zymogens and activated by specific proteases.
 ## explicit_objective
-Define a zymogen/proenzyme as an inactive enzyme precursor activated by proteolysis, and give pepsinogen-to-pepsin as the book's autocatalytic worked example.
+Define a zymogen/proenzyme as an inactive enzyme precursor activated by proteolysis, and give pepsinogen-to-pepsin as the autocatalytic worked example.
 ## pitfalls
 Naming the active enzyme itself, such as pepsin or trypsin, as the proenzyme. The proenzyme is specifically the inactive precursor form — pepsinogen, not pepsin — before proteolysis removes the part of the chain that masks the active site.
 ## concept_type
@@ -8818,11 +8818,11 @@ CON-FND-6A58FA1680290F
 ## canonical_key
 covalent-phosphorylation-modification-of-enzymes
 ## definition
-Many enzymes are activated by phosphorylation and inactivated by dephosphorylation, or vice versa, existing in two interconvertible forms. This is a covalent modification: protein kinase transfers a phosphate group from ATP (with Mg2+) onto the hydroxyl group of an amino acid residue — mainly serine or tyrosine — of the polypeptide chain, producing the phosphorylated enzyme and ADP; protein phosphatase reverses this, releasing inorganic phosphate (Pi) and water to regenerate the dephosphorylated enzyme. Whether phosphorylation switches a given enzyme on or off depends on the enzyme — the book's examples are glycogen phosphorylase kinase, which phosphorylation activates, and glycogen synthase, which phosphorylation inactivates.
+Many enzymes are activated by phosphorylation and inactivated by dephosphorylation, or vice versa, existing in two interconvertible forms. This is a covalent modification: protein kinase transfers a phosphate group from ATP (with Mg2+) onto the hydroxyl group of an amino acid residue — mainly serine or tyrosine — of the polypeptide chain, producing the phosphorylated enzyme and ADP; protein phosphatase reverses this, releasing inorganic phosphate (Pi) and water to regenerate the dephosphorylated enzyme. Whether phosphorylation switches a given enzyme on or off depends on the enzyme — examples are glycogen phosphorylase kinase, which phosphorylation activates, and glycogen synthase, which phosphorylation inactivates.
 ## explicit_objective
 Describe phosphorylation/dephosphorylation as a reversible covalent modification carried out by protein kinase and protein phosphatase on the hydroxyl group of a serine or tyrosine residue, noting it can activate or inactivate different enzymes.
 ## pitfalls
-Assuming phosphorylation always has the same effect on every enzyme, or that it is a non-covalent, one-way change. The book's own examples show it can activate one enzyme (glycogen phosphorylase kinase) and inactivate another (glycogen synthase), and it is explicitly reversible and covalent, catalysed by dedicated kinase and phosphatase enzymes on opposite sides of the same reaction.
+Assuming phosphorylation always has the same effect on every enzyme, or that it is a non-covalent, one-way change. The examples show it can activate one enzyme (glycogen phosphorylase kinase) and inactivate another (glycogen synthase), and it is explicitly reversible and covalent, catalysed by dedicated kinase and phosphatase enzymes on opposite sides of the same reaction.
 ## concept_type
 mechanism
 ## status
@@ -9106,7 +9106,7 @@ The average RBC count ranges from 5–5.5 million/mm3 in males and 4–4.5 milli
 ## explicit_objective
 Name high altitude, alongside newborns and athletes, as a state of higher-than-normal RBC count.
 ## pitfalls
-Treating the raised RBC count at high altitude as pathological — it is the ordinary, expected hypoxia-driven response the book lists alongside newborns and athletes, not a disease state.
+Treating the raised RBC count at high altitude as pathological — it is the ordinary, expected hypoxia-driven response listed alongside newborns and athletes, not a disease state.
 ## concept_type
 normal_values
 ## status
@@ -9443,7 +9443,7 @@ Fatty acids are classified by the existence of double bonds into saturated fatty
 ## explicit_objective
 Classify a named fatty acid as saturated or unsaturated, name margarine as the main dietary source of trans fat, and state the shared cardiovascular risk of saturated and trans fatty acids.
 ## pitfalls
-Assuming trans fat is simply a kind of unsaturated (and therefore 'healthy') fat because it has a double bond. The book groups it with saturated fat by its biomedical effect: both are structurally straight enough to worsen hypercholesterolemia and atherosclerosis.
+Assuming trans fat is simply a kind of unsaturated (and therefore 'healthy') fat because it has a double bond. Trans fat is grouped with saturated fat by its biomedical effect: both are structurally straight enough to worsen hypercholesterolemia and atherosclerosis.
 ## concept_type
 classification
 ## status
@@ -9574,7 +9574,7 @@ Cis fatty acids are classified by their number of double bonds into monoenoic ac
 ## explicit_objective
 Assign a named fatty acid to its omega family (ω3, ω6) and to monoenoic or polyenoic status, and count arachidonic acid's double bonds from its structure.
 ## pitfalls
-Treating 'polyunsaturated' as a single family. The book splits PUFA into two distinct families, ω3 and ω6, by where the first double bond sits counting from the terminal methyl carbon, and a fatty acid belongs to only one of them.
+Treating 'polyunsaturated' as a single family. PUFA split into two distinct families, ω3 and ω6, by where the first double bond sits counting from the terminal methyl carbon, and a fatty acid belongs to only one of them.
 ## concept_type
 classification
 ## status
@@ -9964,7 +9964,7 @@ CON-FND-30D2E317144DDF
 ## canonical_key
 lipid-three-way-classification-simple-compound-derived
 ## definition
-Lipids are classified into three main groups by composition. Simple lipids are esters of fatty acids with various alcohols. Compound lipids contain fatty acids and alcohol plus another group besides. Derived lipids are fat-soluble products of hydrolysis of the first two groups, or substances present in association with them in nature; the book lists fatty acids, alcohols, steroids, the fat-soluble vitamins (A, D, E, K) and carotenoids under this heading. Triacylglycerol (TAG) — three fatty acids esterified to glycerol — is the book's example of a simple lipid, and steroids are its example of a derived lipid.
+Lipids are classified into three main groups by composition. Simple lipids are esters of fatty acids with various alcohols. Compound lipids contain fatty acids and alcohol plus another group besides. Derived lipids are fat-soluble products of hydrolysis of the first two groups, or substances present in association with them in nature; this heading covers fatty acids, alcohols, steroids, the fat-soluble vitamins (A, D, E, K) and carotenoids. Triacylglycerol (TAG) — three fatty acids esterified to glycerol — is a simple lipid example, and steroids are a derived lipid example.
 ## explicit_objective
 Sort a named lipid into simple, compound or derived by what its composition adds beyond fatty acid and alcohol.
 ## pitfalls
@@ -10096,11 +10096,11 @@ CON-FND-E618B54C3E216C
 ## canonical_key
 simple-lipid-subtypes-neutral-fats-and-waxes
 ## definition
-Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use. Neutral fats (triacylglycerol, TAG) are esters of three fatty acids with glycerol; triglyceride is the book's other name for it. Waxes are esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol, and the book's examples are ceramide (sphingosine alcohol conjugated with fatty acid), cholesteryl esters, vitamin A (retinol) esters and vitamin D (calciferol) esters.
+Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use. Neutral fats (triacylglycerol, TAG) are esters of three fatty acids with glycerol, also called triglyceride. Waxes are esters of one fatty acid with a long-chain monohydroxy alcohol higher than glycerol, and examples include ceramide (sphingosine alcohol conjugated with fatty acid), cholesteryl esters, vitamin A (retinol) esters and vitamin D (calciferol) esters.
 ## explicit_objective
-Distinguish neutral fats from waxes by their alcohol (glycerol versus a longer-chain monohydroxy alcohol) and recognise the book's named wax examples.
+Distinguish neutral fats from waxes by their alcohol (glycerol versus a longer-chain monohydroxy alcohol) and recognise the named wax examples.
 ## pitfalls
-Assuming cholesteryl esters must be a derived lipid because cholesterol itself is one. The book classes the ester specifically — fatty acid joined to a monohydroxy alcohol higher than glycerol — as a wax, a simple lipid, even though the alcohol it is built from (cholesterol) is separately a derived lipid on its own.
+Assuming cholesteryl esters must be a derived lipid because cholesterol itself is one. The ester is classed specifically — fatty acid joined to a monohydroxy alcohol higher than glycerol — as a wax, a simple lipid, even though the alcohol it is built from (cholesterol) is separately a derived lipid on its own.
 ## concept_type
 classification
 ## status
@@ -10231,7 +10231,7 @@ Phosphatidic acid, also called diacylglycerol phosphate, is a glycerophospholipi
 ## explicit_objective
 Reconstruct phosphatidic acid's substituent positions on glycerol and name the two hydrolysis products of removing its phosphate, and identify lecithin and cephalin as its derivatives.
 ## pitfalls
-Losing track of which position the phosphate occupies. Glycerol has only three carbons, so a diacylglycerol numbered anywhere but 1,2 (leaving position 3 for phosphate) contradicts the book's own numbering of phosphatidic acid's substituents.
+Losing track of which position the phosphate occupies. Glycerol has only three carbons, so a diacylglycerol numbered anywhere but 1,2 (leaving position 3 for phosphate) contradicts the standard numbering of phosphatidic acid's substituents.
 ## concept_type
 structure_function_relationship
 ## status
@@ -10494,7 +10494,7 @@ Cardiolipins, also called diphosphatidylglycerol, are formed of two molecules of
 ## explicit_objective
 State cardiolipin's composition (two phosphatidic acids plus a connecting glycerol) and its near-exclusive location in the inner mitochondrial membrane.
 ## pitfalls
-Placing cardiolipin in the plasma membrane with the other phospholipids. The book restricts it almost exclusively to the inner mitochondrial membrane, tying it to mitochondrial energy metabolism rather than to general membrane structure.
+Placing cardiolipin in the plasma membrane with the other phospholipids. Cardiolipin is restricted almost exclusively to the inner mitochondrial membrane, tying it to mitochondrial energy metabolism rather than to general membrane structure.
 ## concept_type
 structure_function_relationship
 ## status
@@ -10625,7 +10625,7 @@ Plasmalogens resemble lecithin and cephalin but contain a fatty alcohol instead 
 ## explicit_objective
 Identify plasmalogens by their fatty-alcohol-for-fatty-acid substitution at position 1, and state their association with platelet-activating factor and with Alzheimer disease.
 ## pitfalls
-Filing plasmalogens as glycolipids because 'ether phospholipid' sounds like a separate category. The book keeps them among the glycerophospholipids — built on phosphatidic acid, like lecithin and cephalin — distinguished only by that one substituent.
+Filing plasmalogens as glycolipids because 'ether phospholipid' sounds like a separate category. Plasmalogens belong among the glycerophospholipids — built on phosphatidic acid, like lecithin and cephalin — distinguished only by that one substituent.
 ## concept_type
 structure_function_relationship
 ## status
@@ -10756,7 +10756,7 @@ Sphingomyelin is formed from sphingosine, an 18-carbon amino alcohol. Fatty acid
 ## explicit_objective
 Trace the two-step assembly of sphingomyelin — fatty acid plus sphingosine to ceramide, ceramide plus phosphocholine to sphingomyelin — and classify sphingomyelin as a phospholipid.
 ## pitfalls
-Classing sphingomyelin as a glycolipid because it shares the ceramide backbone with cerebrosides and gangliosides. The book's classification turns on what is attached to ceramide: phosphocholine makes a phospholipid (sphingomyelin), a carbohydrate makes a glycolipid.
+Classing sphingomyelin as a glycolipid because it shares the ceramide backbone with cerebrosides and gangliosides. Classification turns on what is attached to ceramide: phosphocholine makes a phospholipid (sphingomyelin), a carbohydrate makes a glycolipid.
 ## concept_type
 structure_function_relationship
 ## status
@@ -11020,7 +11020,7 @@ Phosphatidylinositol, formed of phosphatidic acid and inositol, acts as a second
 ## explicit_objective
 State phosphatidylinositol's role as a second messenger.
 ## pitfalls
-Expecting the book to name inositol triphosphate and diacylglycerol as the specific messenger molecules. The book credits the second-messenger role to phosphatidylinositol itself, without separately naming the cleavage products a fuller biochemistry text would.
+Expecting inositol triphosphate and diacylglycerol to be named as the specific messenger molecules. The second-messenger role is credited to phosphatidylinositol itself, without separately naming the cleavage products a fuller biochemistry text would.
 ## concept_type
 mechanism
 ## status
@@ -11149,7 +11149,7 @@ glycolipid-classification-and-tissue-distribution
 ## definition
 Glycolipids are formed of ceramide (sphingosine-fatty acid) and a carbohydrate radical; they include cerebrosides, sulfolipids (sulfatides) and gangliosides. They are found mainly in brain tissue, the myelin sheath and the cell membrane of red blood cells. They are components of cell membrane receptors for hormones and other ligands, providing recognition properties that let a cell communicate with its extracellular environment.
 ## explicit_objective
-Name the three glycolipid types the book lists and state their shared ceramide-plus-carbohydrate composition and receptor role.
+Name the three glycolipid types and state their shared ceramide-plus-carbohydrate composition and receptor role.
 ## pitfalls
 Assuming any lipid found in brain tissue is automatically a glycolipid. Sphingomyelin and plasmalogens are also concentrated in nervous tissue; what makes a glycolipid distinct is the carbohydrate radical joined to its ceramide.
 ## concept_type
@@ -11562,7 +11562,7 @@ The vagus nerve (cranial nerve X) constitutes about 75% of all parasympathetic f
 ## explicit_objective
 State that the vagus supplies the atria but not the ventricles, and list its bronchial, gastrointestinal and biliary effects.
 ## pitfalls
-Assuming vagal (parasympathetic) stimulation slows the whole heart — it acts only on atrial muscle; the book states explicitly that the vagus does not supply the ventricles at all.
+Assuming vagal (parasympathetic) stimulation slows the whole heart — it acts only on atrial muscle; the vagus does not supply the ventricles at all.
 ## concept_type
 structure_function_relationship
 ## status
@@ -12262,7 +12262,7 @@ CON-FND-E4551E87D19A8F
 ## canonical_key
 translation-occurs-in-cytoplasm-not-nucleus
 ## definition
-Rough endoplasmic reticulum is the site of formation of proteins in eukaryotes — translation happens in the cytoplasm, on ribosomes studding the rough ER, once the mature mRNA has already left the nucleus through a nuclear pore. By contrast, the department book places the post-transcriptional modifications of mRNA — capping, polyadenylation, splicing (removal of introns) and editing — inside the nucleus, before that export; transcription itself, which produces the primary transcript those modifications act on, necessarily happens there too.
+Rough endoplasmic reticulum is the site of formation of proteins in eukaryotes — translation happens in the cytoplasm, on ribosomes studding the rough ER, once the mature mRNA has already left the nucleus through a nuclear pore. By contrast, the post-transcriptional modifications of mRNA — capping, polyadenylation, splicing (removal of introns) and editing — take place inside the nucleus, before that export; transcription itself, which produces the primary transcript those modifications act on, necessarily happens there too.
 ## explicit_objective
 State that protein synthesis (translation) is a cytoplasmic, rough-ER event, distinct from transcription and RNA processing, which are nuclear.
 ## pitfalls
@@ -12397,7 +12397,7 @@ Since each codon is formed of 3 of the 4 bases (U, C, A, G), there are 4³ = 64 
 ## explicit_objective
 List the four characteristics of the genetic code — specificity, degeneracy, universality and reading frame — and recognise that reading the code as a continuous, non-overlapping sequence rules out any base being shared between two codons.
 ## pitfalls
-Adding 'overlapping' as a fifth characteristic. The book's reading-frame description reads the mRNA as 'a continuous uninterrupted sequence of bases taken 3 at a time' — every base belongs to exactly one codon, so the code cannot be read as overlapping the way this distractor claims.
+Adding 'overlapping' as a fifth characteristic. The reading-frame characteristic reads the mRNA as 'a continuous uninterrupted sequence of bases taken 3 at a time' — every base belongs to exactly one codon, so the code cannot be read as overlapping the way this distractor claims.
 ## concept_type
 classification
 ## status
@@ -12528,7 +12528,7 @@ The genetic code is the nucleotide sequence of mRNA representing the code words 
 ## explicit_objective
 Define a codon as a 3-base mRNA code word for one amino acid, locate codons on mRNA specifically (not DNA, tRNA or rRNA), and name AUG as the initiation codon and UAA/UAG/UGA as the termination codons.
 ## pitfalls
-Placing codons on the template strand of DNA or on tRNA. The codon is, by the book's own definition, a feature of mRNA; DNA carries the gene the codon originates from, and tRNA carries the complementary anticodon, not the codon.
+Placing codons on the template strand of DNA or on tRNA. The codon is, by definition, a feature of mRNA; DNA carries the gene the codon originates from, and tRNA carries the complementary anticodon, not the codon.
 ## concept_type
 definition
 ## status
@@ -12790,7 +12790,7 @@ Translation is the process by which a cell makes protein using the genetic infor
 ## explicit_objective
 List what translation requires (three RNA classes, activated amino acids, energy, protein factors), and describe how each amino acid is activated and charged onto its own tRNA by its own aminoacyl-tRNA synthetase.
 ## pitfalls
-Treating a DNA-replication component, such as an Okazaki fragment, as something translation needs. The book's list of translation's requirements is the three RNA classes, activated amino acids, ATP/GTP and protein factors — nothing from lagging-strand DNA synthesis belongs on it. The same logic rules out the spliceosome, which belongs to mRNA splicing, a nuclear, pre-translation event, not to the ribosome's own machinery.
+Treating a DNA-replication component, such as an Okazaki fragment, as something translation needs. Translation's requirements are the three RNA classes, activated amino acids, ATP/GTP and protein factors — nothing from lagging-strand DNA synthesis belongs on that list. The same logic rules out the spliceosome, which belongs to mRNA splicing, a nuclear, pre-translation event, not to the ribosome's own machinery.
 ## concept_type
 mechanism
 ## status
@@ -12922,7 +12922,7 @@ Elongation is a 3-step cycle repeated for each amino acid added to the protein a
 ## explicit_objective
 Walk through the three steps of elongation — A-site binding, peptide bond formation by peptidyl transferase, translocation — and state that the resulting amino acid sequence follows the mRNA’s codon sequence.
 ## pitfalls
-Crediting peptide bond formation to a separate 'polymerase' enzyme, or placing peptidyl transferase on the small (40S) subunit. The book is specific that peptidyl transferase is part of the 60S subunit and is the enzyme that forms the peptide bond.
+Crediting peptide bond formation to a separate 'polymerase' enzyme, or placing peptidyl transferase on the small (40S) subunit. Peptidyl transferase is specifically part of the 60S subunit and is the enzyme that forms the peptide bond.
 ## concept_type
 mechanism
 ## status
@@ -13054,7 +13054,7 @@ Initiation involves the assembly of the components of protein synthesis at the i
 ## explicit_objective
 State that the eukaryotic initiator tRNA is methionyl-tRNA (Met-tRNAi), bound to the AUG start codon, and place it correctly on the P site at the end of initiation.
 ## pitfalls
-Naming formylmethionyl-tRNA as the eukaryotic initiator. The book's eukaryotic initiation steps name only methionyl-tRNA (Met-tRNAi); formylmethionine does not appear in this chapter's account of eukaryotic translation.
+Naming formylmethionyl-tRNA as the eukaryotic initiator. Eukaryotic initiation names only methionyl-tRNA (Met-tRNAi) as the initiator; formylmethionine does not feature in eukaryotic translation initiation.
 ## concept_type
 mechanism
 ## status
@@ -13183,7 +13183,7 @@ post-translational-trimming-of-precursor-proteins
 ## definition
 Many proteins secreted from the cell are initially made as large, precursor molecules that are not functionally active. Portions of the protein chain must be removed by specialized endoproteases, which results in the release of an active molecule. For example, insulin is formed as pre-proinsulin, which is converted to proinsulin and then to insulin; and zymogens are inactive precursors of secreted enzymes, e.g. trypsinogen becomes activated to trypsin in the small intestine.
 ## explicit_objective
-Identify trimming as the proteolytic removal of a segment from an inactive protein precursor, and name insulin and trypsinogen as the book's examples.
+Identify trimming as the proteolytic removal of a segment from an inactive protein precursor, and name insulin and trypsinogen as its classic examples.
 ## pitfalls
 Confusing trimming with covalent modification. Trimming, unlike phosphorylation, glycosylation, acetylation, methylation, hydroxylation or carboxylation, does not add a functional group — it removes a piece of the chain by proteolysis to release the active protein.
 ## concept_type
@@ -13314,7 +13314,7 @@ post-translational-covalent-modification-types
 ## definition
 Amino acid residues in a finished chain are modified enzymatically to alter activity or stability, to direct the protein to a compartment, or to prepare it for secretion. Phosphorylation and dephosphorylation on serine, threonine or tyrosine regulate the enzymes of glycogen metabolism and regulators of gene transcription. Glycosylation marks proteins destined for secretion, lysosomes or membranes. Acetylation or methylation of the N-terminal residue alters charge, as in chromatin remodelling by histone acetylation. Hydroxylation of prolyl and lysyl residues stabilises collagen. Carboxylation forms γ-carboxyglutamate, which lets clotting proteins bind calcium.
 ## explicit_objective
-Name the types of covalent post-translational modification and give the department book's example for each.
+Name the types of covalent post-translational modification and give an example for each.
 ## pitfalls
 Offering trimming — the conversion of pre-proinsulin to insulin — as a covalent modification. Trimming is proteolytic removal of a segment and is the other branch of post-translational modification, not this one.
 ## concept_type
@@ -13843,7 +13843,7 @@ The primary structure refers to the amino acid sequence of the polypeptide chain
 ## explicit_objective
 Identify which end of a polypeptide chain is the N-terminus and which is the C-terminus, state the direction in which the chain is synthesized, and explain why the primary sequence underlies the higher orders of structure.
 ## pitfalls
-Reversing the termini — putting the free carboxyl group on the left and the free amino group on the right. The book's own convention is fixed: N-terminus (free amino group) on the left where synthesis starts, C-terminus (free carboxyl group) on the right where it ends.
+Reversing the termini — putting the free carboxyl group on the left and the free amino group on the right. The convention is fixed: N-terminus (free amino group) on the left where synthesis starts, C-terminus (free carboxyl group) on the right where it ends.
 ## concept_type
 structural_description
 ## status
@@ -13975,7 +13975,7 @@ Secondary structure includes mainly two regular forms, α-helical or β-pleated 
 ## explicit_objective
 Describe how the α-helix is formed and stabilized, where its R-groups point, which side chains disrupt it and by what mechanism, and note that collagen's own helix is left-handed rather than the usual right-handed form.
 ## pitfalls
-Mixing up which residues disrupt the helix by ionic bonds and which by ring structures. The book keeps them as two separate lists — histidine, lysine, arginine, aspartic acid and glutamic acid disrupt it through ionic bonds; proline and tryptophan disrupt it through their ring structures — and a student who blends the two lists (e.g. attributing histidine's disruption to its ring) has the mechanism right for the wrong residue.
+Mixing up which residues disrupt the helix by ionic bonds and which by ring structures. Kept them as two separate lists — histidine, lysine, arginine, aspartic acid and glutamic acid disrupt it through ionic bonds; proline and tryptophan disrupt it through their ring structures — and a student who blends the two lists (e.g. attributing histidine's disruption to its ring) has the mechanism right for the wrong residue.
 ## concept_type
 structure_function_relationship
 ## status
@@ -14502,9 +14502,9 @@ protein-conformational-classification-fibrous-globular
 ## definition
 Depending on their conformation, proteins are classified into two major classes: fibrous and globular. Fibrous proteins consist of polypeptide chains arranged in a parallel form along a single axis to yield long fibers or sheets, for example collagen, elastin and α-keratin. Globular proteins are tightly folded into compact spherical or globular shapes, for example most enzymes, hemoglobin, myoglobin, many hormones, immunoglobulins and plasma proteins.
 ## explicit_objective
-Classify a named protein as fibrous or globular from the book's own examples.
+Classify a named protein as fibrous or globular from the examples.
 ## pitfalls
-Assuming shape correlates with function in a way the book doesn't state — e.g. that fibrous proteins are always structural and globular proteins are always active. The book's classification is by conformation and gives named examples; it draws no further generalization.
+Assuming shape correlates with function in a way not stated — e.g. that fibrous proteins are always structural and globular proteins are always active. The classification is by conformation and gives named examples; it draws no further generalization.
 ## concept_type
 classification
 ## status
@@ -14767,7 +14767,7 @@ During collagen synthesis, inside the lumen of the rough endoplasmic reticulum, 
 ## explicit_objective
 Name the vitamin cofactor collagen's hydroxylase enzymes require, and state which residue type carries the glucose/galactose that makes collagen a glycoprotein.
 ## pitfalls
-Attaching the sugar residues to proline or to hydroxyproline instead of hydroxylysine. The book is specific: glucose and galactose are attached to hydroxylysine residues, not to proline, hydroxyproline or unmodified lysine.
+Attaching the sugar residues to proline or to hydroxyproline instead of hydroxylysine. Glucose and galactose are attached to hydroxylysine residues, not to proline, hydroxyproline or unmodified lysine.
 ## concept_type
 mechanism
 ## status
@@ -14898,7 +14898,7 @@ Collagen and elastin are both connective-tissue fibrous proteins and share the p
 ## explicit_objective
 State which structural feature collagen and elastin share, and contrast their chain number, glycoprotein status and stabilizing cross-links.
 ## pitfalls
-Assuming tropoelastin is a triple helix like tropocollagen because both are called "tropo-" molecules. The book is explicit that tropoelastin is a monomer — one polypeptide chain — while only tropocollagen is the three-chain triple helix.
+Assuming tropoelastin is a triple helix like tropocollagen because both are called "tropo-" molecules. Tropoelastin is a monomer — one polypeptide chain — while only tropocollagen is the three-chain triple helix.
 ## concept_type
 structure_function_relationship
 ## status
@@ -15029,7 +15029,7 @@ Type I collagen forms 90% of bone proteins and is made of two α1 chains and one
 ## explicit_objective
 State which collagen type predominates in bone versus cartilage, and name the vitamin required for osteocalcin's glutamate carboxylation.
 ## pitfalls
-Swapping the collagen types — putting type II in bone and type I in cartilage. The book assigns them the other way round: type I predominates in bone, type II in cartilage.
+Swapping the collagen types — putting type II in bone and type I in cartilage. Assigned them the other way round: type I predominates in bone, type II in cartilage.
 ## concept_type
 structure_function_relationship
 ## status
@@ -15160,7 +15160,7 @@ Gene expression is the process by which the information contained within a gene 
 ## explicit_objective
 Place a given regulatory mechanism (epigenetics, capping, splicing, IF phosphorylation, trimming, etc.) at the correct one of the five levels at which eukaryotic gene expression is regulated, and distinguish a constitutive/housekeeping gene from a regulated gene.
 ## pitfalls
-Sorting post-transcriptional mechanisms (capping, poly-A tailing, splicing, miRNA) into the pre-transcriptional or translational category, or vice versa. The book's own diagram fixes each mechanism at one level only, in the order the primary transcript actually passes through them: DNA changes come first (pre-transcriptional), then promoter/enhancer control of transcription itself, then processing of the freshly made transcript (post-transcriptional), then control of the ribosome reading it (translational), then modification of the finished protein (post-translational).
+Sorting post-transcriptional mechanisms (capping, poly-A tailing, splicing, miRNA) into the pre-transcriptional or translational category, or vice versa. The diagram fixes each mechanism at one level only, in the order the primary transcript actually passes through them: DNA changes come first (pre-transcriptional), then promoter/enhancer control of transcription itself, then processing of the freshly made transcript (post-transcriptional), then control of the ribosome reading it (translational), then modification of the finished protein (post-translational).
 ## concept_type
 classification
 ## status
@@ -15290,9 +15290,9 @@ epigenetic-mechanisms-dna-methylation-and-histone-acetylation
 ## definition
 Epigenetic means 'around the gene'; it refers to changes in DNA and histone proteins that do not alter the DNA sequence. DNA methylation is the methylation of a specific cytosine to form 5′methylcytosine by DNA methyltransferase; the target cytosine usually lies next to a guanine, forming a CpG island, often near or in a gene's promoter region; it is associated with silencing the activities of certain genes, and is a mechanism for regulating gene expression during cell differentiation, particularly in fetal development; demethylation reverses the process. Chromatin remodeling: the cellular genome is packaged with histones into chromatin structures, and activating a gene for transcription requires changes in chromatin state to make the region accessible to RNA polymerase and other proteins such as transcription factors. This occurs through mechanisms such as histone acetylation: histone acetyltransferases (HATs) transfer an acetyl group from acetyl coenzyme A to lysine residues in the tail of the histone octamer, removing a positive charge from the lysine's ε-amino group and so reducing the electrostatic interaction between the histones and the negatively charged DNA, which makes it easier for DNA to unwind from the histones with simultaneous activation of the gene; histone deacetylases (HDACs) remove these acetyl groups to re-form inactive chromatin.
 ## explicit_objective
-Describe DNA methylation (target base, enzyme, CpG island, effect on gene activity, reversibility) and histone acetylation/deacetylation (enzymes, effect on chromatin state and gene activity) as the book's two epigenetic mechanisms.
+Describe DNA methylation (target base, enzyme, CpG island, effect on gene activity, reversibility) and histone acetylation/deacetylation (enzymes, effect on chromatin state and gene activity) as the two epigenetic mechanisms.
 ## pitfalls
-Placing the methylated base on guanine, or treating methylation as a permanent, irreversible change. The book methylates cytosine (forming 5-methylcytosine, typically at a CpG island) and states explicitly that demethylation reverses the process.
+Placing the methylated base on guanine, or treating methylation as a permanent, irreversible change. Cytosine is the base that gets methylated (forming 5-methylcytosine, typically at a CpG island), and demethylation reverses the process.
 ## concept_type
 mechanism
 ## status
@@ -15421,7 +15421,7 @@ gene-amplification-diminution-and-rearrangement
 ## definition
 A change in the number of copies of a gene can affect the amount of gene product produced. Gene amplification (increase in number) is seen in response to certain chemotherapeutic drugs such as methotrexate, an inhibitor of dihydrofolate reductase (DHFR), required for DNA synthesis; malignant cells can develop resistance to methotrexate by amplifying the gene for this enzyme. Gene diminution (decrease in number) occurs during development of red blood cells, as all genes disappear during their maturation. Gene rearrangement: the heavy and light chains of immunoglobulins are encoded by several hundred gene segments; their rearrangement or recombination allows the generation of several million different immunoglobulins, providing the diversity needed for the recognition of an enormous number of antigens.
 ## explicit_objective
-Distinguish gene amplification from gene diminution as opposite changes in gene copy number, name methotrexate resistance as the book's amplification example, and explain how immunoglobulin gene rearrangement generates antibody diversity.
+Distinguish gene amplification from gene diminution as opposite changes in gene copy number, name methotrexate resistance as the amplification example, and explain how immunoglobulin gene rearrangement generates antibody diversity.
 ## pitfalls
 Confusing gene amplification (more copies, as with the DHFR gene under methotrexate pressure) with gene rearrangement (the same limited gene segments recombined into new combinations, as in immunoglobulin genes) — amplification changes how much of one arrangement exists, rearrangement changes which arrangement exists.
 ## concept_type
@@ -15552,9 +15552,9 @@ cis-and-trans-acting-transcriptional-regulatory-elements
 ## definition
 Regulation of gene expression at the level of transcription occurs through interaction between cis- and trans-acting elements. Cis-acting elements are DNA regulatory sequences flanking a gene, usually embedded in non-coding regions of the genome; they influence expression of genes only on the same chromosome; interaction between these DNA segments and regulatory molecules such as transcription factors can induce or repress the transcriptional machinery. Cis-acting elements include: the promoter, carrying the TATA box and the CAAT box/GC box (discussed in transcription); enhancers, which facilitate initiation of transcription by binding proteins that facilitate transcription-factor binding to the promoter, and which can be close to or thousands of base pairs from the promoter, upstream or downstream, on either strand, and silencers, which inhibit initiation of transcription by binding proteins that produce inhibition; and hormone-response elements, which let hormones regulate transcription when the hormone-receptor complex binds the specific DNA element, as with steroid and thyroid hormones. Trans-acting elements are the regulatory molecules that can diffuse from their site of synthesis in the cell to the DNA-binding site — for example, a trans-acting molecule transcribed from a gene on chromosome 11 can regulate another gene on chromosome 6.
 ## explicit_objective
-Distinguish a cis-acting DNA element (promoter, enhancer, silencer, hormone-response element — all restricted to the same chromosome) from a trans-acting regulatory molecule (diffusible, able to act on genes elsewhere in the genome), and name the three types of cis-acting element the book lists.
+Distinguish a cis-acting DNA element (promoter, enhancer, silencer, hormone-response element — all restricted to the same chromosome) from a trans-acting regulatory molecule (diffusible, able to act on genes elsewhere in the genome), and name the three types of cis-acting element listed.
 ## pitfalls
-Assuming enhancers must sit right next to the promoter. The book states explicitly that enhancers can be close to or thousands of base pairs away, upstream or downstream, on either strand — proximity is not what makes an element cis-acting; being restricted to the same chromosome is.
+Assuming enhancers must sit right next to the promoter. Explicitly that enhancers can be close to or thousands of base pairs away, upstream or downstream, on either strand — proximity is not what makes an element cis-acting; being restricted to the same chromosome is.
 ## concept_type
 classification
 ## status
@@ -15685,7 +15685,7 @@ miRNAs are non-coding RNAs that reduce expression of the target mRNA either by i
 ## explicit_objective
 State what a microRNA does to its target mRNA and name the two mechanisms — degradation or translational blocking — by which it does so.
 ## pitfalls
-Treating miRNA as something that increases or initiates translation. The book’s own wording is that miRNAs reduce expression, acting as a brake rather than a switch.
+Treating miRNA as something that increases or initiates translation. The wording is that miRNAs reduce expression, acting as a brake rather than a switch.
 ## concept_type
 mechanism
 ## status
@@ -15814,7 +15814,7 @@ translational-regulation-by-if-phosphorylation
 ## definition
 Phosphorylation of some IFs blocks protein synthesis. They are phosphorylated by protein kinases that are activated when the cell is under stress and when energy utilization for protein synthesis is deleterious, e.g. starvation.
 ## explicit_objective
-State that translation is regulated by phosphorylating some initiation factors, which blocks protein synthesis, and identify cellular stress/starvation as the trigger the book gives for this.
+State that translation is regulated by phosphorylating some initiation factors, which blocks protein synthesis, and identify cellular stress/starvation as the trigger given for this.
 ## pitfalls
 Assuming phosphorylation of an initiation factor always activates it, by analogy with kinase-activated enzymes elsewhere. Here phosphorylation blocks protein synthesis rather than promoting it — the same chemical modification has an inhibitory, not activating, effect at this checkpoint.
 ## concept_type
@@ -15947,7 +15947,7 @@ The primary transcript, hnRNA, contains introns that do not code for amino acids
 ## explicit_objective
 Identify the post-transcriptional steps on the pathway diagram, name the ribonucleoproteins that carry out splicing, and explain what alternative splicing achieves.
 ## pitfalls
-Thinking alternative splicing is a fault that produces a wrong protein. It is a normal, regulated route by which one gene legitimately encodes several different products — the antibody genes are the department book's example.
+Thinking alternative splicing is a fault that produces a wrong protein. It is a normal, regulated route by which one gene legitimately encodes several different products — the antibody genes are the example.
 ## concept_type
 mechanism
 ## status
@@ -16209,7 +16209,7 @@ CON-FND-CDAB433363C64E
 ## canonical_key
 transcription-template-strand-and-rna-complementarity
 ## definition
-Synthesis of RNA from DNA is known as transcription. Only one strand of DNA is transcribed: the strand transcribed into RNA is the template strand, and the other strand is the coding strand. The sequence of RNA is complementary to the sequence of the template strand, and it is the same as that of the coding strand except for U replacing T. The RNA polymerase II-TFIIF complex synthesises the complementary transcript of the template DNA strand using ribonucleoside triphosphates — ATP, GTP, CTP and UTP — as substrates, releasing pyrophosphate each time a nucleotide is added; the book's own transcriptional-unit diagram shows the RNA transcript running 5' to 3'.
+Synthesis of RNA from DNA is known as transcription. Only one strand of DNA is transcribed: the strand transcribed into RNA is the template strand, and the other strand is the coding strand. The sequence of RNA is complementary to the sequence of the template strand, and it is the same as that of the coding strand except for U replacing T. The RNA polymerase II-TFIIF complex synthesises the complementary transcript of the template DNA strand using ribonucleoside triphosphates — ATP, GTP, CTP and UTP — as substrates, releasing pyrophosphate each time a nucleotide is added; the transcriptional-unit diagram shows the RNA transcript running 5' to 3'.
 ## explicit_objective
 Identify the template strand as the one actually transcribed, state that RNA is complementary to it (and identical to the coding strand except U for T), and name the four ribonucleoside triphosphates RNA polymerase uses.
 ## pitfalls
@@ -16344,7 +16344,7 @@ There are three types of nuclear RNA polymerases: RNA polymerase I and III, for 
 ## explicit_objective
 Assign each of the three nuclear RNA polymerases (I, II, III) to the class of RNA it mainly synthesises.
 ## pitfalls
-Assuming one polymerase makes all RNA, or defaulting to RNA polymerase II for any RNA-polymerase question. The book divides the job three ways: I and III cover the ribosomal and transfer RNAs, and II alone covers messenger RNA, snRNA and miRNA — so a question about a large ribosomal RNA gene points to RNA polymerase I, not II.
+Assuming one polymerase makes all RNA, or defaulting to RNA polymerase II for any RNA-polymerase question. Divided the job three ways: I and III cover the ribosomal and transfer RNAs, and II alone covers messenger RNA, snRNA and miRNA — so a question about a large ribosomal RNA gene points to RNA polymerase I, not II.
 ## concept_type
 classification
 ## status
@@ -16475,7 +16475,7 @@ Capping at the 5' end adds a methyl-guanosine cap; this stabilises the mRNA and 
 ## explicit_objective
 State what capping and polyadenylation each contribute to a mature mRNA: protection from ribonucleases, stabilisation, and support for efficient translation.
 ## pitfalls
-Assuming only the poly(A) tail protects mRNA from degradation. The book credits the same protective, ribonuclease-resistance role to the 5' cap; the poly(A) tail's distinguishing extra role is that its length sets the mRNA's half-life.
+Assuming only the poly(A) tail protects mRNA from degradation. Credited the same protective, ribonuclease-resistance role to the 5' cap; the poly(A) tail's distinguishing extra role is that its length sets the mRNA's half-life.
 ## concept_type
 mechanism
 ## status
@@ -16604,7 +16604,7 @@ mrna-editing-apob-gene-example
 ## definition
 Coding information of mRNA can be changed by RNA editing. For example, in the liver, the single apolipoprotein B gene (Apo-B gene) is transcribed into an mRNA that directs synthesis of the apoB-100 protein (100-kDa); in the intestine, the same gene directs synthesis of a primary transcript that, by the action of a cytidine deaminase, has a CAA codon in the mRNA converted to UAA, a termination codon. Apo B-48 protein (48-kDa) results from translating this edited form of the mRNA. ApoB-100 and Apo B-48 proteins have different functions.
 ## explicit_objective
-Describe mRNA editing using the book's own ApoB example: the same gene and the same primary transcript, edited differently in liver versus intestine by a cytidine deaminase to produce two different proteins.
+Describe mRNA editing using the ApoB example: the same gene and the same primary transcript, edited differently in liver versus intestine by a cytidine deaminase to produce two different proteins.
 ## pitfalls
 Confusing mRNA editing with alternative splicing. Both let one gene yield more than one protein, but editing chemically changes a base within the mRNA sequence itself (cytidine deaminase converting C to U), while splicing/alternative splicing works by choosing which exons to join, without changing any base.
 ## concept_type
@@ -16737,7 +16737,7 @@ The sympathetic nervous system discharges as one unit in emergency situations, p
 ## explicit_objective
 List the alarm response's effects as a single coordinated discharge, not five independent mechanisms.
 ## pitfalls
-Treating skin vasoconstriction in the alarm response as a temperature-regulation effect — the book frames it as a wound-limiting, blood-conserving effect specific to the emergency response, distinct from thermoregulatory sweating/vasodilation.
+Treating skin vasoconstriction in the alarm response as a temperature-regulation effect — it is a wound-limiting, blood-conserving effect specific to the emergency response, distinct from thermoregulatory sweating/vasodilation.
 ## concept_type
 mechanism
 ## status

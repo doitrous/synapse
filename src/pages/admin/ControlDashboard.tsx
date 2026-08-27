@@ -83,6 +83,8 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { BulkContentTagDialog } from '@/components/admin/BulkContentTagDialog'
 import { addContentTags, availableContentTags, contentTagsOf } from '@/data/contentTags'
+import { FacetFilter, FacetChips } from '@/components/admin/FacetFilter'
+import { availableFacets, itemFacetTokens, itemMatchesFacets, facetKey, type Facet } from '@/data/contentFacets'
 
 const KIND_ICON = {
   question: FileQuestion,
@@ -229,6 +231,13 @@ interface ControlDashboardProps {
   scope?: ContentScope
   /** Dedicated question registry view. Generic Content Control keeps its status filter. */
   questionView?: 'current' | 'archived'
+  /**
+   * Who owns the Current/Archive switch. 'internal' (the default) renders the
+   * toggle inside this component — every locked catalogue gets its own Archive
+   * tab. 'external' means the parent drives it via `questionView` (Questions
+   * Setup, whose left rail already carries the switch).
+   */
+  archiveControl?: 'internal' | 'external'
 }
 
 export function ControlDashboard({
@@ -237,6 +246,7 @@ export function ControlDashboard({
   questionScope,
   scope,
   questionView = 'current',
+  archiveControl = 'internal',
 }: ControlDashboardProps) {
   const activeScope = scope ?? questionScope
   const [ledger, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
@@ -260,6 +270,7 @@ export function ControlDashboard({
   const [status, setStatus] = useState<Status | 'All'>('All')
   const [mediaFilter, setMediaFilter] = useState<MediaRequestFilter>('all')
   const [query, setQuery] = useState('')
+  const [facets, setFacets] = useState<Set<string>>(() => new Set())
   const [editorOpen, setEditorOpen] = useState(false)
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
   const [deleting, setDeleting] = useState<ManagedContentItem | null>(null)
@@ -279,15 +290,22 @@ export function ControlDashboard({
   // between sibling routes, so relying on useState(initialKind) leaks the
   // previously visited catalogue into the next page.
   const activeKind = lockedKind ? initialKind : kind
-  const isQuestionCatalogue = lockedKind && activeKind === 'question'
-  const isArchiveView = isQuestionCatalogue && questionView === 'archived'
+  // Every locked catalogue now separates its archive from its current content,
+  // so retired items never sit mixed into the working list. The generic Content
+  // Control page keeps its single status filter (Archived included) instead.
+  const archiveSplit = lockedKind
+  const [archiveView, setArchiveView] = useState(questionView === 'archived')
+  // A scoped reviewer has no archive; keep the two controls in sync with intent.
+  useEffect(() => { if (contentScope && archiveView) setArchiveView(false) }, [contentScope, archiveView])
+  useEffect(() => { if (archiveControl === 'external') setArchiveView(questionView === 'archived') }, [archiveControl, questionView])
+  const isArchiveView = archiveSplit && archiveView && !contentScope
   const activeUniversityId = activeScope?.universityId
   const activeYear = activeScope?.year
   const scopedItems = useMemo(() => {
     const byKind = lockedKind ? items.filter((item) => item.kind === activeKind) : items
-    if (!isQuestionCatalogue) return byKind
+    if (!archiveSplit) return byKind
     return byKind.filter((item) => isArchiveView ? item.status === 'Archived' : item.status !== 'Archived')
-  }, [activeKind, isArchiveView, isQuestionCatalogue, items, lockedKind])
+  }, [activeKind, archiveSplit, isArchiveView, items, lockedKind])
 
   const summaryItems = useMemo(() => scopedItems.filter((item) => {
     if (isArchiveView || (!activeUniversityId && !activeYear)) return true
@@ -314,22 +332,47 @@ export function ControlDashboard({
 
   const existingContentTags = useMemo(() => availableContentTags(items), [items])
 
+  // The kind's items, and each one's facet tokens (module + subject + tags),
+  // computed once per change rather than per keystroke of the filters below.
+  const kindItems = useMemo(() => items.filter((item) => item.kind === activeKind), [items, activeKind])
+  const facetIndex = useMemo(
+    () => new Map(kindItems.map((item) => [item.id, itemFacetTokens(item, catalogue)] as const)),
+    [kindItems, catalogue],
+  )
+  const facetGroups = useMemo(() => availableFacets(kindItems, catalogue), [kindItems, catalogue])
+  const facetFlags = useMemo<Facet[]>(
+    () => (kindItems.some((item) => facetIndex.get(item.id)?.has('flag:no-module'))
+      ? [{ type: 'flag', value: 'no-module', label: 'Needs module' }]
+      : []),
+    [kindItems, facetIndex],
+  )
+  const facetLabels = useMemo(() => {
+    const map = new Map<string, string>()
+    for (const facet of [...facetGroups.modules, ...facetGroups.subjects, ...facetGroups.tags, ...facetFlags]) {
+      map.set(facetKey(facet), facet.label)
+    }
+    return map
+  }, [facetGroups, facetFlags])
+  const kindArchivedCount = useMemo(() => kindItems.filter((item) => item.status === 'Archived').length, [kindItems])
+  const kindCurrentCount = kindItems.length - kindArchivedCount
+
   const matching = useMemo(() => {
     const normalized = query.trim().toLowerCase()
     return items
       .filter((item) => item.kind === activeKind)
-      .filter((item) => !isQuestionCatalogue || (isArchiveView ? item.status === 'Archived' : item.status !== 'Archived'))
+      .filter((item) => !archiveSplit || (isArchiveView ? item.status === 'Archived' : item.status !== 'Archived'))
       .filter((item) => status === 'All' || item.status === status)
       .filter((item) => matchesMediaRequestFilter(item, mediaFilter))
+      .filter((item) => itemMatchesFacets(facetIndex.get(item.id) ?? new Set(), facets))
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
         if ((!activeUniversityId && !activeYear) || isArchiveView || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology')) return true
         // Authored scope, not a hash of the item's id.
         return itemInScope(item, activeUniversityId, activeYear)
       })
-      .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')} ${contentTagsOf(item).join(' ')}`.toLowerCase().includes(normalized))
+      .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')} ${[...(facetIndex.get(item.id) ?? [])].join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
-  }, [activeKind, activeUniversityId, activeYear, isArchiveView, isQuestionCatalogue, items, mediaFilter, query, status])
+  }, [activeKind, activeUniversityId, activeYear, archiveSplit, facetIndex, facets, isArchiveView, items, mediaFilter, query, status])
 
   /**
    * Questions and practicals taken from a faculty's own papers are reviewed,
@@ -364,7 +407,7 @@ export function ControlDashboard({
   useEffect(() => {
     setPage(1)
     setSelected(new Set())
-  }, [activeKind, activeUniversityId, activeYear, isArchiveView, status, mediaFilter, query, sourceTab])
+  }, [activeKind, activeUniversityId, activeYear, isArchiveView, status, mediaFilter, query, sourceTab, facets])
 
   /**
    * Open the item a link asked for.
@@ -595,7 +638,7 @@ export function ControlDashboard({
 
   const summaryCards = isArchiveView
     ? [
-        ['Archived questions', summaryItems.length, 'Retired from every student surface', null],
+        [`Archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}`, summaryItems.length, 'Retired from every student surface', null],
         ['Previously published', summaryItems.filter((item) => item.archive?.originalStatus === 'Published').length, 'Published state retained in the archive receipt', null],
         ['No module assigned', summaryItems.filter((item) => contentModuleLabels(item, catalogue).length === 0).length, 'Expected until a real curriculum placement is chosen', 'Needs placement'],
         ['Archive operations', new Set(summaryItems.map((item) => item.archive?.operationId).filter(Boolean)).size, 'Distinct immutable retirement receipts', null],
@@ -610,9 +653,9 @@ export function ControlDashboard({
   return (
     <PageContainer className="max-w-[1600px]">
       <PageHeader
-        title={isArchiveView ? 'Archived questions' : lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
+        title={isArchiveView ? `Archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}` : lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
         description={isArchiveView
-          ? 'Review retired questions, their former publishing state, and whether a verified module was ever assigned.'
+          ? `Review retired ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}, their former publishing state, and whether a verified module was ever assigned. Archived items live here only — never mixed into the working catalogue.`
           : lockedKind
             ? `Create, revise, review, and import ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} without leaving this catalogue.`
             : 'Create, revise, review, and remove everything students can open in the question bank, library, practical area, and resources.'}
@@ -641,7 +684,7 @@ export function ControlDashboard({
         </Panel>
       )}
 
-      {isArchiveView && identity.role === 'super_admin' && <LegacyContentArchivePanel />}
+      {isArchiveView && activeKind === 'question' && identity.role === 'super_admin' && <LegacyContentArchivePanel />}
 
       <div className="mb-4 grid grid-cols-2 gap-3 lg:grid-cols-4">
         {summaryCards.map(([label, value, hint, badge]) => (
@@ -658,10 +701,30 @@ export function ControlDashboard({
 
       <div className="grid items-start gap-4">
         <Panel className="min-w-0 overflow-hidden">
+          {/* Every locked catalogue's own Archive tab. Current and Archive never
+              share a list, so retired items stay out of the working set. */}
+          {archiveControl === 'internal' && archiveSplit && !contentScope && (
+            <div className="border-b border-line px-4 pt-3">
+              <Segmented
+                value={archiveView ? 'archived' : 'current'}
+                onChange={(value) => {
+                  setArchiveView(value === 'archived')
+                  setSelected(new Set())
+                  setStatus('All')
+                  setFacets(new Set())
+                }}
+                items={[
+                  { value: 'current', label: `Current (${kindCurrentCount})` },
+                  { value: 'archived', label: `Archive (${kindArchivedCount})` },
+                ]}
+              />
+            </div>
+          )}
+
           {!lockedKind && <div className="border-b border-line px-4 pt-3">
             <Tabs
               value={activeKind}
-              onChange={(value) => { setKind(value as ContentKind); setStatus('All') }}
+              onChange={(value) => { setKind(value as ContentKind); setStatus('All'); setFacets(new Set()) }}
               items={([
                 ['question', 'Questions'],
                 ['article', 'Library articles'],
@@ -717,7 +780,7 @@ export function ControlDashboard({
               </span>
             ) : (
               <Select aria-label="Filter by workflow status" value={status} onChange={(event) => setStatus(event.target.value as Status | 'All')} className="w-full sm:w-40">
-                {(isQuestionCatalogue ? STATUSES.filter((option) => option !== 'Archived') : STATUSES).map((option) => <option key={option}>{option}</option>)}
+                {(archiveSplit ? STATUSES.filter((option) => option !== 'Archived') : STATUSES).map((option) => <option key={option}>{option}</option>)}
               </Select>
             )}
             <Select aria-label="Filter by media request state" value={mediaFilter} onChange={(event) => setMediaFilter(event.target.value as MediaRequestFilter)} className="w-full sm:w-52">
@@ -727,6 +790,12 @@ export function ControlDashboard({
               <option value="blocking">Required media missing</option>
               <option value="none">No media requests</option>
             </Select>
+            <FacetFilter groups={facetGroups} flags={facetFlags} selected={facets} onChange={setFacets} />
+            <FacetChips
+              selected={facets}
+              labelFor={(token) => facetLabels.get(token) ?? token.split(':').slice(1).join(':')}
+              onRemove={(token) => setFacets((current) => { const next = new Set(current); next.delete(token); return next })}
+            />
             <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">
               {rows.length === 0 ? '0 shown' : `${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, rows.length)} of ${rows.length}`}
             </span>
@@ -995,8 +1064,8 @@ export function ControlDashboard({
                 <tr>
                   <td colSpan={6} className="px-4 py-14 text-center">
                     <Icon icon={Search} size={20} className="mx-auto text-ink-3" />
-                    <p className="mt-2 text-[13px] font-medium text-ink">{isArchiveView ? 'No archived questions yet' : 'No matching content'}</p>
-                    <p className="mt-1 text-[12px] text-ink-3">{isArchiveView ? (API_MODE ? 'Run the legacy content preflight above, or change the search and media filters.' : 'The connected archive appears here. Demo mode has no live archive operation.') : 'Change the search or status filter, or add a new item.'}</p>
+                    <p className="mt-2 text-[13px] font-medium text-ink">{isArchiveView ? `No archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} yet` : 'No matching content'}</p>
+                    <p className="mt-1 text-[12px] text-ink-3">{isArchiveView ? 'Items you archive from the current view appear here.' : 'Change the search, status, or tag filter, or add a new item.'}</p>
                   </td>
                 </tr>
               )}

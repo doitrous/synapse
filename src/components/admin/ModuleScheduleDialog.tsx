@@ -280,8 +280,10 @@ export function ModuleScheduleDialog({
   items,
   curriculum,
   value,
+  published,
   onClose,
   onChange,
+  onPublishChange,
 }: {
   module: CurriculumCourse
   university: string
@@ -289,8 +291,12 @@ export function ModuleScheduleDialog({
   items: ManagedContentItem[]
   curriculum?: CourseCurriculumSelection
   value: ModuleScheduleBlock[]
+  /** Whether students can currently see this module's schedule. Defaults to unpublished. */
+  published?: boolean
   onClose: () => void
   onChange: (value: ModuleScheduleBlock[]) => void
+  /** Publishes or unpublishes this module's schedule. Omit to hide the control. */
+  onPublishChange?: (published: boolean) => void
 }) {
   const [anchor, setAnchor] = useState(() => {
     const first = value.find((block) => block.date)?.date
@@ -380,6 +386,12 @@ export function ModuleScheduleDialog({
         <header className="flex flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-3 sm:gap-3 sm:px-5 sm:py-4">
           <span className="grid size-10 place-items-center rounded-xl bg-primary-tint text-primary-strong"><Icon icon={CalendarDays} size={19} /></span>
           <div className="min-w-0 flex-1"><h2 id="module-schedule-title" className="font-serif text-[20px] font-semibold text-ink">{module.name} schedule</h2><p className="text-[11.5px] text-ink-3">{university} · {year} · {module.block}</p></div>
+          {onPublishChange && (
+            <div className="flex items-center gap-2 rounded-xl border border-line bg-inset px-3 py-2">
+              <Badge tone={published ? 'success' : 'warning'} dot>{published ? 'Published' : "Unpublished — students can't see this"}</Badge>
+              <Toggle checked={Boolean(published)} onChange={onPublishChange} label={published ? 'Unpublish this schedule' : 'Publish this schedule'} />
+            </div>
+          )}
           <Button type="button" variant="primary" size="md" iconLeft={Plus} onClick={() => startBlock(isoDay(new Date()))}>Add block</Button>
           <button type="button" onClick={onClose} className="grid size-10 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close module schedule"><Icon icon={X} size={18} /></button>
         </header>

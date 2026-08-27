@@ -228,7 +228,7 @@ Sequelae
 المسبب
 الإمراض
 ## definition
-For each disease the book studies six things in order: epidemiology, the distribution and determinants of the disease in a population; aetiology, its cause; pathogenesis, the mechanism by which that cause produces the disease; the morphological, functional and clinical changes it makes; its complications and sequelae; and its prognosis, the course it would take if left alone.
+Each disease is described under six things in order: epidemiology, the distribution and determinants of the disease in a population; aetiology, its cause; pathogenesis, the mechanism by which that cause produces the disease; the morphological, functional and clinical changes it makes; its complications and sequelae; and its prognosis, the course it would take if left alone.
 ## explicit_objective
 Name the six headings under which a disease is described, and separate aetiology from pathogenesis when given a clinical example.
 ## pitfalls
@@ -369,11 +369,11 @@ Classification of disease by pathogenesis
 الأمراض الخلقية
 الأمراض المكتسبة
 ## definition
-The most widely used general classification of disease is by pathogenesis, the mechanism. Diseases are congenital, which is either genetic or non-genetic, or acquired, which the book divides five ways: inflammatory, haemodynamic, growth disorders, disordered immunity, and metabolic and degenerative disease.
+The most widely used general classification of disease is by pathogenesis, the mechanism. Diseases are congenital, which is either genetic or non-genetic, or acquired, which divides five ways: inflammatory, haemodynamic, growth disorders, disordered immunity, and metabolic and degenerative disease.
 ## explicit_objective
-Place a named disease in the book's classification, and give the five subdivisions of acquired disease.
+Place a named disease in this classification, and give the five subdivisions of acquired disease.
 ## pitfalls
-Reading "congenital" as "genetic". The book splits congenital into genetic and non-genetic, so a disease present at birth from an intrauterine insult is congenital but not genetic.
+Reading "congenital" as "genetic". Congenital disease splits into genetic and non-genetic, so a disease present at birth from an intrauterine insult is congenital but not genetic.
 ## concept_type
 classification
 ## status
@@ -659,7 +659,7 @@ Metaplasia
 الضمور
 الحؤول
 ## definition
-Adaptation occurs when a physiological or pathological stressor induces a new steady state that changes the cell but preserves its viability in the face of the stimulus. The book names four changes: hypertrophy, hyperplasia, atrophy and metaplasia.
+Adaptation occurs when a physiological or pathological stressor induces a new steady state that changes the cell but preserves its viability in the face of the stimulus. The four changes are hypertrophy, hyperplasia, atrophy and metaplasia.
 ## explicit_objective
 Name the four adaptive changes and identify which one a described tissue has undergone.
 ## pitfalls
@@ -800,7 +800,7 @@ Oxygen deprivation
 نقص الأكسجة
 نقص التروية
 ## definition
-Oxygen deprivation impairs aerobic respiration and therefore the cell's ability to generate ATP, and the book names it the extremely important and common cause of cell injury and death. Hypoxia arises from ischaemia, a deficient blood supply; from inadequate oxygenation, as in cardiorespiratory failure; or from loss of the oxygen-carrying capacity of the blood, as in anaemia and carbon monoxide poisoning. The book's six other causes are physical agents, chemical agents and drugs, infectious agents, immunological reactions, genetic derangements and nutritional imbalance.
+Oxygen deprivation impairs aerobic respiration and therefore the cell's ability to generate ATP, and it is the single most important and common cause of cell injury and death. Hypoxia arises from ischaemia, a deficient blood supply; from inadequate oxygenation, as in cardiorespiratory failure; or from loss of the oxygen-carrying capacity of the blood, as in anaemia and carbon monoxide poisoning. The other six causes are physical agents, chemical agents and drugs, infectious agents, immunological reactions, genetic derangements and nutritional imbalance.
 ## explicit_objective
 Enumerate the causes of cell injury, and separate ischaemia from the other two routes to hypoxia when given a clinical scenario.
 ## pitfalls
@@ -1089,7 +1089,7 @@ Lipid peroxidation
 الجذور الحرة
 أنواع الأكسجين التفاعلية
 ## definition
-Free radicals are chemical species with a single unpaired electron in an outer orbit, which makes them highly reactive with adjacent molecules. They are produced normally in small amounts during mitochondrial redox reactions, and the reactive oxygen species the book names are superoxide, the hydroxyl radical and hydrogen peroxide. Defence is by antioxidants such as vitamin E and enzymes such as superoxide dismutase. When the defences are overcome, free radicals attack membrane lipids by peroxidation, and attack cellular proteins and DNA — that state is oxidative stress.
+Free radicals are chemical species with a single unpaired electron in an outer orbit, which makes them highly reactive with adjacent molecules. They are produced normally in small amounts during mitochondrial redox reactions, and the reactive oxygen species involved are superoxide, the hydroxyl radical and hydrogen peroxide. Defence is by antioxidants such as vitamin E and enzymes such as superoxide dismutase. When the defences are overcome, free radicals attack membrane lipids by peroxidation, and attack cellular proteins and DNA — that state is oxidative stress.
 ## explicit_objective
 Name the three reactive oxygen species and the two defences against them, and explain what makes a free radical reactive.
 ## pitfalls
@@ -1233,7 +1233,7 @@ Lysosomal rupture
 تلف الأغشية الخلوية
 انحلال الجسيمات الحالة
 ## definition
-Membrane disruption is the common end point of the other mechanisms. ATP depletion stops the plasma-membrane sodium pump; rising intracellular calcium activates phospholipases that break membranes down; free-radical peroxidation damages membrane lipids further; and rupture of lysosomal membranes releases DNAases and proteases into the cytosol, which kills the cell. Free radicals are the agent the book names in reperfusion injury, which follows the restoration of blood flow to ischaemic tissue, and in cellular ageing, chemical injury and radiation damage.
+Membrane disruption is the common end point of the other mechanisms. ATP depletion stops the plasma-membrane sodium pump; rising intracellular calcium activates phospholipases that break membranes down; free-radical peroxidation damages membrane lipids further; and rupture of lysosomal membranes releases DNAases and proteases into the cytosol, which kills the cell. Free radicals are the agent responsible for reperfusion injury, which follows the restoration of blood flow to ischaemic tissue, and in cellular ageing, chemical injury and radiation damage.
 ## explicit_objective
 Explain why restoring blood flow to ischaemic tissue can injure it further, and name the four routes by which membranes are disrupted.
 ## pitfalls
@@ -1970,7 +1970,7 @@ Abscess
 النخر الاستحالي
 القيح
 ## definition
-Liquefactive or colliquative necrosis occurs in central nervous system infarction, where the tissue is rich in lipid, soft and lacking supporting stroma. The necrotic area becomes surrounded by glial tissue and is changed into a cyst. Pus in suppurative inflammation is the other example the book gives.
+Liquefactive or colliquative necrosis occurs in central nervous system infarction, where the tissue is rich in lipid, soft and lacking supporting stroma. The necrotic area becomes surrounded by glial tissue and is changed into a cyst. Pus in suppurative inflammation is the other example.
 ## explicit_objective
 Name the two settings in which liquefactive necrosis occurs, and explain from tissue structure why the brain liquefies where the kidney does not.
 ## pitfalls
@@ -2701,7 +2701,7 @@ Apoptosis is controlled by the bcl-2 protein family and is brought about by the 
 ## explicit_objective
 Name the enzyme family that executes apoptosis and the protein family that controls it, and state what the caspases do.
 ## pitfalls
-Answering "proteases" when asked which enzymes bring apoptosis about. Caspases are proteases, but the department book's own formative MCQ and the 2024 paper both offer proteases as a distractor and mark caspases as the answer.
+Answering "proteases" when asked which enzymes bring apoptosis about. Caspases are proteases, but a formative MCQ and the 2024 paper both offer proteases as a distractor and mark caspases as the answer.
 ## concept_type
 mechanism
 ## status
@@ -3420,11 +3420,11 @@ Fatty degeneration
 التغير الدهني
 الكبد الدهني
 ## definition
-Steatosis, or fatty change, is an abnormal accumulation of triglycerides within parenchymal cells, either from excessive entry of lipid or from defective metabolism of it. It is typically reversible, but it can lead to inflammation and fibrosis. The commonest site is the liver, but it also occurs in the heart, muscle and kidney. The book's causes of hepatic steatosis are alcohol abuse, which it names the commonest cause in the USA, protein malnutrition, diabetes mellitus, obesity, hypoxia and toxins.
+Steatosis, or fatty change, is an abnormal accumulation of triglycerides within parenchymal cells, either from excessive entry of lipid or from defective metabolism of it. It is typically reversible, but it can lead to inflammation and fibrosis. The commonest site is the liver, but it also occurs in the heart, muscle and kidney. The causes of hepatic steatosis are alcohol abuse — the commonest cause in the USA — protein malnutrition, diabetes mellitus, obesity, hypoxia and toxins.
 ## explicit_objective
 Define steatosis, name four causes of a fatty liver, and state whether the change is reversible.
 ## pitfalls
-Calling fatty change irreversible because the cell looks so badly disrupted. The book states it is typically reversible; the 2024 paper offered "It is typically irreversible" as a distractor.
+Calling fatty change irreversible because the cell looks so badly disrupted. It is typically reversible; the 2024 paper offered "It is typically irreversible" as a distractor.
 ## concept_type
 definition
 ## status
@@ -3564,11 +3564,11 @@ Mechanism of steatosis
 ## arabic_aliases
 آلية حدوث الكبد الدهني
 ## definition
-Steatosis arises from excessive entry or defective metabolism of lipids, and the book gives four routes with an example each: increased fatty acids entering the liver, as in starvation and corticosteroid excess; decreased fatty acid oxidation, as in hypoxia; increased triglyceride formation, as with alcohol; and impaired lipoprotein secretion from the liver, also alcohol.
+Steatosis arises from excessive entry or defective metabolism of lipids, by four routes, each with an example: increased fatty acids entering the liver, as in starvation and corticosteroid excess; decreased fatty acid oxidation, as in hypoxia; increased triglyceride formation, as with alcohol; and impaired lipoprotein secretion from the liver, also alcohol.
 ## explicit_objective
 Discuss the pathogenesis of fatty change, and explain why alcohol appears twice on the list.
 ## pitfalls
-Giving alcohol as a single mechanism. It works at two separate steps — it increases triglyceride formation and it impairs lipoprotein export — which is why it is the heaviest cause the book names.
+Giving alcohol as a single mechanism. It works at two separate steps — it increases triglyceride formation and it impairs lipoprotein export — which is why it is the heaviest cause.
 ## concept_type
 mechanism
 ## status
@@ -4589,7 +4589,7 @@ Lipofuscin is an insoluble endogenous pigment, also called lipochrome or wear-an
 ## explicit_objective
 State what lipofuscin is derived from, describe its microscopic appearance, and say whether it damages the cell that holds it.
 ## pitfalls
-Treating lipofuscin as a cause of injury because it marks free-radical damage. It is a residue, not an agent — the book states outright that it is not injurious to the cell or its functions.
+Treating lipofuscin as a cause of injury because it marks free-radical damage. It is a residue, not an agent — it is not injurious to the cell or its functions.
 ## concept_type
 definition
 ## status
@@ -4879,7 +4879,7 @@ Melanocyte
 الكلف
 بقع القهوة بالحليب
 ## definition
-Melanin is an endogenous, non-haemoglobin-derived brown-black pigment formed when the enzyme tyrosinase catalyses the oxidation of tyrosine to dihydroxyphenylalanine in melanocytes. The book names five conditions in which melanin is increased: prolonged exposure to the sun; melanocytic naevi and melanomas; chloasma of pregnancy, brown patches on the face, nipple and genitalia from hormonal change; Addison's disease, where hyperpigmentation of sun-exposed areas and pressure points such as the neck, elbows, knees and knuckles is characteristic, caused by raised pro-opiomelanocortin from the anterior pituitary, the precursor of both ACTH and melanocyte-stimulating hormone; and café-au-lait patches in neurofibromatosis.
+Melanin is an endogenous, non-haemoglobin-derived brown-black pigment formed when the enzyme tyrosinase catalyses the oxidation of tyrosine to dihydroxyphenylalanine in melanocytes. Melanin is increased in five conditions: prolonged exposure to the sun; melanocytic naevi and melanomas; chloasma of pregnancy, brown patches on the face, nipple and genitalia from hormonal change; Addison's disease, where hyperpigmentation of sun-exposed areas and pressure points such as the neck, elbows, knees and knuckles is characteristic, caused by raised pro-opiomelanocortin from the anterior pituitary, the precursor of both ACTH and melanocyte-stimulating hormone; and café-au-lait patches in neurofibromatosis.
 ## explicit_objective
 Discuss the causes of increased melanin pigmentation, and explain why primary adrenal failure darkens the skin.
 ## pitfalls
@@ -5032,7 +5032,7 @@ Haemosiderin is a haemoglobin-derived, golden yellow-to-brown granular pigment. 
 ## explicit_objective
 Give three causes of generalised haemosiderosis, name the stain that demonstrates iron, and separate localised from generalised deposition.
 ## pitfalls
-Assuming iron deposition means organ damage. The book states that in most instances of systemic haemosiderosis the pigment does not damage parenchymal cells or impair function — it is haemochromatosis, with its far heavier load, that injures.
+Assuming iron deposition means organ damage. In most instances of systemic haemosiderosis the pigment does not damage parenchymal cells or impair function — it is haemochromatosis, with its far heavier load, that injures.
 ## concept_type
 mechanism
 ## status
@@ -5181,7 +5181,7 @@ Primary haemochromatosis is the commonest form of iron overload. It is a congeni
 ## explicit_objective
 Explain what makes a diabetic patient bronze, and describe the hepatic changes of primary haemochromatosis.
 ## pitfalls
-Attributing the bronze colour to iron alone. The book makes it two pigments — haemosiderin deposited in the skin and extra melanin from increased pituitary melanotropin — which is why the name says bronze and not grey.
+Attributing the bronze colour to iron alone. Two pigments make it — haemosiderin deposited in the skin and extra melanin from increased pituitary melanotropin — which is why the name says bronze and not grey.
 ## concept_type
 clinical_feature
 ## status
@@ -5464,7 +5464,7 @@ Lithopedion
 التكلس المرضي
 ترسب الكالسيوم في الأنسجة التالفة
 ## definition
-Pathological calcification is abnormal deposition of calcium salts in tissue other than teeth or bone. Dystrophic calcification occurs in tissues already affected by disease, with a normal serum calcium, and is due to local precipitation of insoluble calcium salts. The book's examples are atheromatous plaques, congenital bicuspid aortic valves, areas of necrosis such as old tuberculous lesions, old thrombi, lithopedion — a dead retained fetus — and fat necrosis.
+Pathological calcification is abnormal deposition of calcium salts in tissue other than teeth or bone. Dystrophic calcification occurs in tissues already affected by disease, with a normal serum calcium, and is due to local precipitation of insoluble calcium salts. Examples are atheromatous plaques, congenital bicuspid aortic valves, areas of necrosis such as old tuberculous lesions, old thrombi, lithopedion — a dead retained fetus — and fat necrosis.
 ## explicit_objective
 Define dystrophic calcification, state the serum calcium in it, and give four examples of tissues in which it occurs.
 ## pitfalls
@@ -5613,7 +5613,7 @@ Milk alkali syndrome
 التكلس بسبب فرط كالسيوم الدم
 تكلس الكلية
 ## definition
-Metastatic calcification occurs in viable tissues in cases of hypercalcaemia. The book's causes are elevated parathyroid hormone — from a parathyroid tumour, from ectopic secretion by another neoplasm, or secondary hyperparathyroidism in chronic renal failure; bone destruction, as in primary marrow malignancy such as multiple myeloma, diffuse skeletal metastasis such as breast cancer, accelerated bone turnover in Paget's disease, or immobilisation; hypervitaminosis D; and, less commonly, the milk-alkali syndrome from excessive ingestion of calcium and absorbable antacids. The deposits sit in the interstitial tissue of the gastric mucosa, kidney, lungs, systemic arteries and pulmonary veins. They usually cause no clinical dysfunction, but massive deposits in the kidney — nephrocalcinosis — may in time cause renal failure.
+Metastatic calcification occurs in viable tissues in cases of hypercalcaemia. Its causes are elevated parathyroid hormone — from a parathyroid tumour, from ectopic secretion by another neoplasm, or secondary hyperparathyroidism in chronic renal failure; bone destruction, as in primary marrow malignancy such as multiple myeloma, diffuse skeletal metastasis such as breast cancer, accelerated bone turnover in Paget's disease, or immobilisation; hypervitaminosis D; and, less commonly, the milk-alkali syndrome from excessive ingestion of calcium and absorbable antacids. The deposits sit in the interstitial tissue of the gastric mucosa, kidney, lungs, systemic arteries and pulmonary veins. They usually cause no clinical dysfunction, but massive deposits in the kidney — nephrocalcinosis — may in time cause renal failure.
 ## explicit_objective
 Enumerate four causes of metastatic calcification, name its main sites of deposition, and state the one that can cause organ failure.
 ## pitfalls
@@ -6204,7 +6204,7 @@ In systemic amyloidosis the material is deposited in many organs — liver, sple
 ## explicit_objective
 Classify systemic amyloidosis by aetiology, and list the chronic inflammatory diseases that cause the secondary form.
 ## pitfalls
-Reading "primary" as meaning idiopathic. In this book primary amyloidosis is myeloma-associated and has a named cause; it is called primary because the amyloid is the first disease process, not because the cause is unknown.
+Reading "primary" as meaning idiopathic. Primary amyloidosis is myeloma-associated and has a named cause; it is called primary because the amyloid is the first disease process, not because the cause is unknown.
 ## concept_type
 classification
 ## status
@@ -6353,7 +6353,7 @@ In localised amyloidosis the deposits are limited to a single tissue or organ. I
 ## explicit_objective
 Give two examples of localised amyloidosis, and explain what the amyloid in medullary thyroid carcinoma is made of and what it is useful for.
 ## pitfalls
-Expecting localised amyloid to damage the organ it sits in. In medullary thyroid carcinoma the book says it has no clinical effect at all — its whole value is diagnostic.
+Expecting localised amyloid to damage the organ it sits in. In medullary thyroid carcinoma it has no clinical effect at all — its whole value is diagnostic.
 ## concept_type
 classification
 ## status
@@ -7084,7 +7084,7 @@ Amyloid biopsy
 ## definition
 The diagnosis of amyloidosis depends on histological demonstration of amyloid deposits in tissue. The commonest sites biopsied are the kidney, when renal manifestations are present, and rectal or gingival biopsy in patients suspected of having systemic amyloidosis.
 ## explicit_objective
-State what the diagnosis of amyloidosis rests on, and name the three biopsy sites the book gives with the circumstance that selects each.
+State what the diagnosis of amyloidosis rests on, and name the three biopsy sites with the circumstance that selects each.
 ## pitfalls
 Reaching for the affected organ every time. Rectal and gingival biopsy are used precisely because a systemic deposit can be demonstrated from an accessible site, and biopsying an amyloid kidney or a failing heart carries risk the gum does not.
 ## concept_type

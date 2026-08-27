@@ -238,7 +238,7 @@ export const LEAF: McqLeafSeed = {
       label: 'The musculocutaneous nerve leaves the lateral cord, pierces coracobrachialis, and ends as a skin nerve',
       definition: 'The musculocutaneous nerve arises in the axilla from the lateral cord of the brachial plexus, root value C5, C6, C7. It descends lateral to the third part of the axillary artery and the uppermost part of the brachial artery, pierces coracobrachialis, and runs obliquely between biceps and brachialis. Its branches are muscular, to coracobrachialis, biceps and brachialis; about one inch above the elbow it pierces the deep fascia at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm, which divides into anterior and posterior branches supplying the skin of the lateral forearm and the upper part of the ball of the thumb.',
       objective: 'State the origin and root value of the musculocutaneous nerve and list its muscular and cutaneous branches.',
-      pitfall: 'Giving the root value as C5, C6. The book carries C7 as well, and dropping it changes which root lesions are predicted to weaken elbow flexion.',
+      pitfall: 'Giving the root value as C5, C6. C7 belongs too, and dropping it changes which root lesions are predicted to weaken elbow flexion.',
       subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
       modulePath: '101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries',
       type: 'structural_description',
@@ -390,7 +390,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling `branches-of-ulnar-artery-in-the-forearm-choose-the-correct-a-5bbc137c` gives C, the superficial palmar branch, which is a branch of the radial artery — the ulnar artery does not give it, it becomes the superficial arch that branch completes. The anterior ulnar recurrent is a genuine ulnar branch given just below the elbow.',
       explanations: {
-        A: 'Correct. The ulnar artery gives the anterior and posterior ulnar recurrent arteries near its beginning, and both ascend to the anastomosis round the elbow.',
+        A: 'The ulnar artery gives the anterior and posterior ulnar recurrent arteries near its beginning, and both ascend to the anastomosis round the elbow.',
         B: 'The superior and inferior ulnar collateral arteries are branches of the brachial artery in the arm. They meet the ulnar recurrents at the elbow, which is why the two names are so easily exchanged: collaterals come down from above, recurrents come up from below.',
         C: 'The superficial palmar branch belongs to the radial artery. The ulnar artery does not branch into the superficial arch — it becomes it, and the radial branch completes it.',
         D: 'The nutrient artery of the humerus comes from the brachial artery in the arm; the question asks about the forearm.',
@@ -406,7 +406,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Backwards. Supination is the more powerful movement because biceps, a large muscle, is added to supinator; that is why a right-handed screw thread is cut to be driven by supination.',
         B: 'Biceps is the powerful supinator with the elbow flexed, not extended — flexion is what gives its tendon the leverage to unwind the radial tuberosity. The option is a fragment in this copy, but the error is in the word "extended".',
-        C: 'Correct. Brachioradialis is a mid-prone muscle: from full pronation it supinates to the mid position and from full supination it pronates to it, and no further either way.',
+        C: 'Brachioradialis is a mid-prone muscle: from full pronation it supinates to the mid position and from full supination it pronates to it, and no further either way.',
         D: 'The wrong way round. The ulna is fixed and the radius rotates about it, carrying the hand — which is exactly why the head of the radius has to be free to spin inside the anular ligament.',
       },
     },
@@ -420,7 +420,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Reversed. It arises from the lower quarter of the anterior surface of the ulna; every pronator must pull the radius across the ulna, so the ulna is where a pronator takes hold.',
         B: 'Reversed in the same way. Its insertion is the lower quarter of the anterior surface of the radius.',
-        C: 'Correct. Pronation happens at the superior and inferior radio-ulnar joints, and pronator quadratus is the muscle placed exactly across the inferior one.',
+        C: 'Pronation happens at the superior and inferior radio-ulnar joints, and pronator quadratus is the muscle placed exactly across the inferior one.',
         D: 'The posterior interosseous nerve supplies the extensor compartment. Pronator quadratus is the deepest anterior muscle and takes the anterior interosseous branch of the median nerve.',
       },
     },
@@ -433,7 +433,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Supinator is supplied by the posterior interosseous nerve, which pierces it. It is radial at one remove, and the item is asking which muscle the radial nerve supplies directly.',
         B: 'Abductor pollicis longus is a deep extensor and therefore posterior interosseous.',
         C: 'Extensor pollicis longus is likewise deep and posterior interosseous.',
-        D: 'Correct. Extensor carpi radialis longus is supplied by the radial nerve itself, before the division into terminal branches — which is why the wrist still extends when the posterior interosseous nerve alone is cut.',
+        D: 'Extensor carpi radialis longus is supplied by the radial nerve itself, before the division into terminal branches — which is why the wrist still extends when the posterior interosseous nerve alone is cut.',
       },
     },
     {
@@ -444,7 +444,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Flexor carpi ulnaris is one of the only two muscles in the anterior compartment of the forearm that are not median — the other being the medial half of flexor digitorum profundus.',
         B: 'The dorsal interossei are supplied by the deep branch of the ulnar nerve.',
-        C: 'Correct. Opponens pollicis is a thenar muscle, supplied by the recurrent branch of the median nerve.',
+        C: 'Opponens pollicis is a thenar muscle, supplied by the recurrent branch of the median nerve.',
         D: 'Adductor pollicis is a thumb muscle and ulnar, which is exactly the pairing this item is testing — abductor and opponens are median, adductor is not.',
       },
     },
@@ -457,7 +457,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed copy `the-radius-is-xed-tethered-to-the-ulna-by-dep-book-ac-p-a-ar-eb71997e` gives D, the ulnar collateral ligament, which belongs to the elbow joint and connects the humerus to the ulna — it touches the radius nowhere. The structure joining the two forearm bones along their length is the interosseous membrane.',
       explanations: {
         A: 'The articular disc of the wrist joint binds the lower end of the ulna to the radius at one point, but it does not tether the shafts; it is part of the inferior radio-ulnar joint.',
-        B: 'Correct. The interosseous membrane runs between the interosseous borders of the two bones for most of their length, holding them apart and transmitting weight from the radius to the ulna.',
+        B: 'The interosseous membrane runs between the interosseous borders of the two bones for most of their length, holding them apart and transmitting weight from the radius to the ulna.',
         C: 'The radial collateral ligament runs from the lateral epicondyle to the anular ligament and belongs to the elbow.',
         D: 'The ulnar collateral ligament runs from the medial epicondyle to the ulna and never reaches the radius.',
       },
@@ -470,7 +470,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The first lumbrical is one of the lateral two, and those are median. It is the medial two that are ulnar.',
         B: 'Extensor digiti minimi is a posterior compartment muscle supplied by the posterior interosseous nerve; nothing at the medial epicondyle reaches it.',
-        C: 'Correct. The fracture injures the ulnar nerve in its groove behind the epicondyle, and adductor pollicis is the muscle in which that nerve’s deep branch terminates.',
+        C: 'The fracture injures the ulnar nerve in its groove behind the epicondyle, and adductor pollicis is the muscle in which that nerve’s deep branch terminates.',
         D: 'Flexor carpi radialis arises from the medial epicondyle but is supplied by the median nerve, which passes in front of the joint. Arising from the broken bone is not the same as being supplied by the nerve behind it — which is the whole point of the item.',
       },
     },
@@ -485,7 +485,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Flexor pollicis longus flexes the thumb; it crosses the wrist and can help flex it, but it lies laterally and cannot adduct.',
         B: 'Flexor digitorum profundus flexes the fingers and helps flex the wrist, but its four tendons straddle the midline and produce no deviation.',
         C: 'Flexor carpi radialis gives flexion with abduction — the mirror movement, and the one distractor that works by reversing a single word.',
-        D: 'Correct. Flexor carpi ulnaris flexes and adducts, which is exactly what its two names say: a flexor, on the ulnar side.',
+        D: 'Flexor carpi ulnaris flexes and adducts, which is exactly what its two names say: a flexor, on the ulnar side.',
       },
     },
     {
@@ -498,7 +498,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pronator teres pronates fully, and it is the quicker of the two pronators.',
         B: 'Pronator quadratus is the prime pronator and also carries the movement through its full range.',
-        C: 'Correct. Brachioradialis inserts on the lower end of the radius and its pull is strongest when the forearm is mid-prone, so it supinates a pronated forearm to that point and pronates a supinated one to it.',
+        C: 'Brachioradialis inserts on the lower end of the radius and its pull is strongest when the forearm is mid-prone, so it supinates a pronated forearm to that point and pronates a supinated one to it.',
         D: 'Biceps is the powerful supinator and takes the forearm to full supination.',
       },
     },
@@ -509,7 +509,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Check four muscle statements against their attachments and nerves in one pass.',
       explanations: {
         A: 'Flexor digitorum superficialis inserts into the sides of the middle phalanges and so flexes the middle, not the distal, phalanges. The distal phalanges belong to flexor digitorum profundus, which is what "profundus" reaches past it to do.',
-        B: 'Correct. Biceps is the powerful supinator of the flexed forearm, supinator itself being the weaker of the two.',
+        B: 'Biceps is the powerful supinator of the flexed forearm, supinator itself being the weaker of the two.',
         C: 'Flexor carpi ulnaris adducts the wrist. It is flexor and adductor, and the option has swapped in the opposite deviation.',
         D: 'The pronators are median — pronator teres by a direct branch and pronator quadratus through the anterior interosseous nerve. The ulnar nerve has only two muscles in the whole forearm and neither pronates.',
       },
@@ -532,7 +532,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The brachial artery divides at the level of the neck of the radius, not the head, and the ulnar artery therefore begins a little below the head. The distinction is small and the books ask it, which is why it is offered.',
         B: 'It ends as the superficial palmar arch. The deep arch is the radial artery’s termination, and swapping the two arches is the standard error of this pair of vessels.',
         C: 'The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, so the relation is right — but the pulse taken at the wrist is the radial, felt lateral to flexor carpi radialis, and it is that clinical fact the option is imitating. This option needs a faculty eye before students sit it.',
-        D: 'Correct. The common interosseous artery is a short trunk arising about an inch below the ulnar artery’s beginning and dividing at once into anterior and posterior interosseous arteries.',
+        D: 'The common interosseous artery is a short trunk arising about an inch below the ulnar artery’s beginning and dividing at once into anterior and posterior interosseous arteries.',
       },
     },
     {
@@ -546,7 +546,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Pronator teres pronates. It is the printed answer on the other copy of this question and it names the antagonist.',
         B: 'Pronator quadratus is the prime pronator, the deepest muscle of the front of the forearm.',
         C: 'Brachioradialis only brings the forearm to the mid-prone position and cannot carry supination beyond it.',
-        D: 'Correct. Biceps supinates powerfully with the elbow flexed, and supinator does the rest; between them supination is stronger than pronation.',
+        D: 'Biceps supinates powerfully with the elbow flexed, and supinator does the rest; between them supination is stronger than pronation.',
       },
     },
     {
@@ -559,8 +559,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Supinator arises partly from the ulna and inserts into the radius. Every supinator and pronator must move the radius, so the radius is where they insert.',
         B: 'What supinator surrounds is the upper third of the shaft of the radius, and what pierces it is the posterior interosseous nerve; the posterior interosseous artery reaches the back of the forearm above the upper border of the interosseous membrane, not through this muscle.',
-        C: 'The radial nerve itself supplies only brachioradialis, extensor carpi radialis longus and anconeus in this region. Naming the parent trunk where the branch is meant is the mistake, and it is the answer the books print.',
-        D: 'Correct. The posterior interosseous nerve supplies supinator and then continues through it to the rest of the deep extensor group.',
+        C: 'The radial nerve itself supplies only brachioradialis, extensor carpi radialis longus and anconeus in this region. Naming the parent trunk where the branch is meant is the mistake, and it is the printed answer.',
+        D: 'The posterior interosseous nerve supplies supinator and then continues through it to the rest of the deep extensor group.',
       },
     },
     {
@@ -571,9 +571,9 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives B, insertion into the middle phalanx, which belongs to flexor digitorum superficialis — profundus reaches past it to the distal phalanx. Its lateral half is supplied by the anterior interosseous branch of the median nerve and its medial half by the ulnar, which is what makes A true.',
       explanations: {
-        A: 'Correct. The lateral half, to the index and middle fingers, is anterior interosseous; the medial half, to the ring and little fingers, is ulnar. That split is why an ulnar lesion above the elbow claws the hand less than one at the wrist.',
+        A: 'The lateral half, to the index and middle fingers, is anterior interosseous; the medial half, to the ring and little fingers, is ulnar. That split is why an ulnar lesion above the elbow claws the hand less than one at the wrist.',
         B: 'The middle phalanx is where flexor digitorum superficialis inserts. Profundus passes through the split superficialis tendon to reach the base of the distal phalanx, which is what lets it flex the terminal joint.',
-        C: 'The four fingers it flexes are conventionally called the medial four, the thumb being excluded. The books use "medial four fingers" throughout, and "lateral" here is the error.',
+        C: 'The four fingers it flexes are conventionally called the medial four, the thumb being excluded. "Medial four fingers" is the term used throughout, and "lateral" here is the error.',
         D: 'It arises from the ulna and the interosseous membrane only. Flexor pollicis longus is the deep flexor that takes origin from the radius, and confusing the two origins is the usual slip.',
       },
     },
@@ -587,7 +587,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The interosseous borders, not the anterior borders. The interosseous borders face each other across the gap the membrane fills; the anterior borders face forwards.',
         B: 'Abductor pollicis brevis is a thenar muscle inside the hand. Abductor pollicis longus is the deep extensor that arises from the back of the membrane, and the two names differ by one word.',
-        C: 'Correct. The anterior surface gives origin to flexor pollicis longus and flexor digitorum profundus, the deep flexors that reach into the hand.',
+        C: 'The anterior surface gives origin to flexor pollicis longus and flexor digitorum profundus, the deep flexors that reach into the hand.',
         D: 'The posterior interosseous vessels reach the back of the forearm by passing over the upper border of the membrane, between it and the oblique cord. It is the anterior interosseous artery that pierces the membrane, and low down.',
       },
     },
@@ -601,7 +601,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Biceps brachii is wholly musculocutaneous, both heads.',
         B: 'Pronator teres is wholly median, although it has two heads of origin — which is what makes it a tempting answer to a question about "two".',
-        C: 'Correct. The lateral half of flexor digitorum profundus is median through the anterior interosseous nerve and the medial half is ulnar.',
+        C: 'The lateral half of flexor digitorum profundus is median through the anterior interosseous nerve and the medial half is ulnar.',
         D: 'Flexor digitorum superficialis is wholly median, despite also having two heads. Two heads and two nerves are different things, and this item asks for the second.',
       },
     },
@@ -616,7 +616,7 @@ export const LEAF: McqLeafSeed = {
         A: 'It is a superficial vein. The deep veins of the forearm are the paired venae comitantes of the radial and ulnar arteries, which lie against the vessels.',
         B: 'The dorsum of the hand drains into the dorsal venous arch, which gives the cephalic and basilic veins. This vein comes from the palmar side.',
         C: 'The lateral end of the dorsal venous arch continues as the cephalic vein — that is the cephalic vein’s definition, not this one’s.',
-        D: 'Correct. In front of the elbow the median vein of the forearm commonly divides into a median cephalic and a median basilic vein, joining the two great superficial channels of the limb.',
+        D: 'In front of the elbow the median vein of the forearm commonly divides into a median cephalic and a median basilic vein, joining the two great superficial channels of the limb.',
       },
     },
     {
@@ -630,7 +630,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Flexor digitorum profundus arises from the ulna and the interosseous membrane — one bone and a membrane. Three bones would be flexor digitorum superficialis, which has humeral, ulnar and radial heads.',
         B: 'Flexor carpi ulnaris adducts the wrist. The abductors are flexor carpi radialis and the two radial extensors, on the other side.',
         C: 'Brachioradialis is in the extensor compartment and is supplied by the radial nerve. It flexes the elbow, which is what makes students file it with the median flexors.',
-        D: 'Correct. Supinator lies in the deep extensor group and is pierced and supplied by the posterior interosseous nerve.',
+        D: 'Supinator lies in the deep extensor group and is pierced and supplied by the posterior interosseous nerve.',
       },
     },
     {
@@ -642,7 +642,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Two, not three: the ulna and the interosseous membrane. Three bones of origin belongs to flexor digitorum superficialis.',
         B: 'It adducts. Its name gives the side and its group gives the movement.',
         C: 'Brachioradialis is radial. It is a flexor of the elbow lying in the extensor compartment, and it is the standing exception to the rule that nerve follows compartment.',
-        D: 'Correct. Supinator is a deep extensor supplied by the posterior interosseous nerve, which pierces it.',
+        D: 'Supinator is a deep extensor supplied by the posterior interosseous nerve, which pierces it.',
       },
     },
     {
@@ -651,7 +651,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Say exactly where the radial pulse is taken and what the artery becomes.',
       explanations: {
-        A: 'Correct. In the lower third of the forearm the artery lies between the tendons of flexor carpi radialis medially and brachioradialis laterally, on the front of the lower end of the radius with only skin and fascia over it. This copy has cut the option short after "and"; the intact copy names brachioradialis.',
+        A: 'In the lower third of the forearm the artery lies between the tendons of flexor carpi radialis medially and brachioradialis laterally, on the front of the lower end of the radius with only skin and fascia over it. This copy has cut the option short after "and"; the intact copy names brachioradialis.',
         B: 'It continues as the deep palmar arch, not the superficial. The superficial arch is the ulnar artery’s termination.',
         C: 'It begins at the level of the neck of the radius, where the brachial artery divides — a small distinction the books ask about repeatedly.',
         D: 'The superficial branch of the radial nerve lies on the lateral side of the artery in the middle third of the forearm, not the medial. Reversing that relation is the whole of this distractor.',
@@ -665,7 +665,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The artery lies lateral to the ulnar nerve, so the option has the two the wrong way round: it is the nerve that is medial.',
         B: 'It passes superficial to the flexor retinaculum, in the canal of Guyon, alongside the ulnar nerve. Only the median nerve and the long flexor tendons go under it.',
-        C: 'Correct. The ulnar artery becomes the superficial palmar arch as it enters the palm.',
+        C: 'The ulnar artery becomes the superficial palmar arch as it enters the palm.',
         D: 'The thumb is supplied by the arteria princeps pollicis, a branch of the radial artery in the palm. Neither side of the thumb is ulnar.',
       },
     },
@@ -679,7 +679,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The anterior ulnar recurrent artery is an ulnar branch, given just below the elbow.',
         B: 'The posterior ulnar recurrent artery is likewise ulnar. The recurrent arteries divide by name — radial recurrent from the radial, both ulnar recurrents from the ulnar.',
-        C: 'Correct. The radialis indicis runs along the radial side of the index finger and comes from the radial artery in the palm, with the princeps pollicis.',
+        C: 'The radialis indicis runs along the radial side of the index finger and comes from the radial artery in the palm, with the princeps pollicis.',
         D: 'The common interosseous artery is the ulnar artery’s largest branch and the parent of both interosseous arteries.',
       },
     },
@@ -692,7 +692,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The tendons of flexor digitorum superficialis run in the carpal tunnel, deep to the retinaculum, in the common synovial sheath.',
         B: 'The palmar carpal vessels form an arch deep to the flexor tendons, on the front of the carpal bones — deeper still than the tunnel’s contents.',
         C: 'Flexor pollicis longus is in the tunnel too, in its own synovial sheath.',
-        D: 'Correct. The ulnar nerve, with the ulnar vessels, crosses superficial to the retinaculum in the canal of Guyon — which is why dividing the retinaculum for carpal tunnel syndrome leaves it untouched.',
+        D: 'The ulnar nerve, with the ulnar vessels, crosses superficial to the retinaculum in the canal of Guyon — which is why dividing the retinaculum for carpal tunnel syndrome leaves it untouched.',
       },
     },
     {
@@ -704,7 +704,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy; the keyed sibling `the-radial-artery-as-it-continues-forming-the-deep-palmar-ar-8b80998a` gives B. The artery enters the palm between the two heads of the first dorsal interosseous and then passes between the two heads of adductor pollicis to become the deep arch — and of the options offered, only adductor pollicis is a two-headed muscle on that route.',
       explanations: {
         A: 'A lumbrical arises from a tendon by a single head and lies far in front of the artery’s route.',
-        B: 'Correct. Adductor pollicis has an oblique and a transverse head, and the radial artery passes between them just before it forms the deep arch.',
+        B: 'Adductor pollicis has an oblique and a transverse head, and the radial artery passes between them just before it forms the deep arch.',
         C: 'It is the first dorsal interosseous the artery pierces, not the second — and that is the earlier of the two passages, on the back of the hand.',
         D: 'Opponens pollicis is a single-headed thenar muscle lying superficial to the artery’s course, not across it.',
       },
@@ -718,7 +718,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on any of the four copies of this question. The common synovial sheath under the flexor retinaculum encloses the tendons of flexor digitorum superficialis and flexor digitorum profundus; of the options offered only flexor digitorum profundus is one of them.',
       explanations: {
         A: 'Flexor digitorum brevis is a muscle of the sole of the foot. It has no representation in the upper limb at all, and the option works only on the similarity of the name.',
-        B: 'Correct. All four tendons of flexor digitorum profundus lie with the four of superficialis in the common synovial sheath, the ulnar bursa.',
+        B: 'All four tendons of flexor digitorum profundus lie with the four of superficialis in the common synovial sheath, the ulnar bursa.',
         C: 'Flexor pollicis brevis is a short thenar muscle within the hand; it never crosses the wrist and so has no sheath there. It is flexor pollicis longus, one word away, that has its own sheath.',
         D: 'Flexor carpi radialis has a small sheath of its own, in its own compartment within the lateral attachment of the retinaculum, and is not in the digital flexors’ sheath.',
       },
@@ -733,7 +733,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The superficialis tendons are in the carpal tunnel.',
         B: 'The profundus tendons are in the carpal tunnel with them.',
-        C: 'Correct. Palmaris longus is the most superficial structure at the front of the wrist, resting on the retinaculum and blending with it and with the palmar aponeurosis — which is what makes it the landmark for the median nerve beneath.',
+        C: 'Palmaris longus is the most superficial structure at the front of the wrist, resting on the retinaculum and blending with it and with the palmar aponeurosis — which is what makes it the landmark for the median nerve beneath.',
         D: 'Flexor carpi radialis is the exception to both categories: its tendon runs neither over nor under the retinaculum but through a split in its lateral attachment. Calling that "superficial" is the error, and it is the answer one copy prints.',
       },
     },
@@ -745,7 +745,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Extensor carpi radialis longus and brevis occupy the second compartment, immediately lateral to Lister’s tubercle.',
         B: 'Extensor digitorum shares the fourth compartment with extensor indicis; extensor digiti minimi has the fifth to itself.',
-        C: 'Correct. The first compartment, the most lateral, carries abductor pollicis longus and extensor pollicis brevis — the two tendons that form the anterior border of the anatomical snuff box.',
+        C: 'The first compartment, the most lateral, carries abductor pollicis longus and extensor pollicis brevis — the two tendons that form the anterior border of the anatomical snuff box.',
         D: 'Extensor pollicis longus runs alone in the third compartment, medial to Lister’s tubercle, and extensor pollicis brevis is in the first — so the pairing named here spans two compartments and exists in neither.',
       },
     },
@@ -759,7 +759,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'These two are the second compartment.',
         B: 'Extensor digitorum is the fourth compartment and extensor digiti minimi the fifth.',
-        C: 'Correct. Abductor pollicis longus and extensor pollicis brevis share the first compartment and go on to bound the snuff box in front.',
+        C: 'Abductor pollicis longus and extensor pollicis brevis share the first compartment and go on to bound the snuff box in front.',
         D: 'Extensor pollicis longus is alone in the third compartment; the two thumb extensors are not in the same tunnel.',
       },
     },
@@ -774,7 +774,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The radial nerve is the most lateral content, at the far side of the fossa.',
         B: 'The anterior interosseous nerve arises from the median nerve below the fossa, in the forearm, and lies deep on the interosseous membrane.',
         C: 'The ulnar nerve is behind the medial epicondyle and never enters the fossa — which is exactly why it survives an anterior stab wound.',
-        D: 'Correct. The median nerve lies immediately medial to the brachial artery, on the brachialis part of the floor.',
+        D: 'The median nerve lies immediately medial to the brachial artery, on the brachialis part of the floor.',
       },
     },
     {
@@ -788,7 +788,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Palmaris longus lies in the midline of the front of the wrist and is the landmark for the median nerve, not for the radial artery.',
         B: 'Flexor pollicis longus is deep, in the carpal tunnel, and cannot be felt.',
         C: 'Flexor digitorum profundus is deeper still and has no surface tendon at the wrist to be lateral to.',
-        D: 'Correct. Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis is on its lateral side, and the artery lies in the groove between them.',
+        D: 'Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis is on its lateral side, and the artery lies in the groove between them.',
       },
     },
     {
@@ -802,7 +802,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Flexor digitorum superficialis is entirely median, despite arising alongside flexor carpi ulnaris from the same epicondyle.',
         b: 'Biceps is supplied by the musculocutaneous nerve in the arm. It is the printed key and it is impossible.',
         c: 'Brachioradialis is a radial muscle in the extensor compartment.',
-        d: 'Correct. Flexor carpi ulnaris is one of the ulnar nerve’s two forearm muscles, and the nerve enters the forearm between its two heads.',
+        d: 'Flexor carpi ulnaris is one of the ulnar nerve’s two forearm muscles, and the nerve enters the forearm between its two heads.',
       },
     },
     {
@@ -853,7 +853,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy or on its two siblings. The anterior surface of the membrane gives origin to the two deep flexors, flexor pollicis longus laterally and flexor digitorum profundus medially; the other three options are superficial muscles that arise from the medial epicondyle.',
       explanations: {
-        A: 'Correct. The deep flexor group takes the membrane and the bones on either side of it — which is why it has no attachment to the humerus and survives a common flexor origin injury.',
+        A: 'The deep flexor group takes the membrane and the bones on either side of it — which is why it has no attachment to the humerus and survives a common flexor origin injury.',
         B: 'Flexor digitorum superficialis is a superficial muscle arising from the medial epicondyle, the ulna and the oblique line of the radius. It touches the membrane nowhere.',
         C: 'Pronator teres arises from the medial epicondyle and the coronoid process.',
         D: 'Flexor carpi ulnaris arises from the medial epicondyle and the olecranon and posterior border of the ulna.',
@@ -867,7 +867,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The front of the membrane gives origin to flexor pollicis longus and flexor digitorum profundus, the two deep flexors.',
       explanations: {
-        A: 'Correct. Both deep flexors arise from the anterior surface of the membrane and the adjacent bone.',
+        A: 'Both deep flexors arise from the anterior surface of the membrane and the adjacent bone.',
         B: 'Flexor digitorum superficialis is a superficial flexor from the medial epicondyle and the radius.',
         C: 'Pronator teres is a superficial flexor from the medial epicondyle.',
         D: 'Flexor carpi ulnaris is a superficial flexor from the medial epicondyle and the ulna.',
@@ -884,7 +884,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Extensor carpi radialis longus is posterior and supplied by the radial nerve itself.',
         B: 'Extensor carpi radialis brevis is posterior and supplied by the posterior interosseous nerve — the anterior interosseous nerve’s opposite number, and the source of the confusion this item exploits.',
         C: 'Brachioradialis is posterior and radial.',
-        D: 'Correct. Pronator quadratus is the deepest anterior muscle and the last one the anterior interosseous nerve supplies.',
+        D: 'Pronator quadratus is the deepest anterior muscle and the last one the anterior interosseous nerve supplies.',
       },
     },
     {
@@ -904,7 +904,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is C, the superficial palmar branch, which is a branch of the radial artery. The ulnar artery does not give a superficial palmar branch — it becomes the superficial palmar arch, which that radial branch completes. The anterior ulnar recurrent artery is a true ulnar branch in the forearm.',
       explanations: {
-        A: 'Correct. The anterior ulnar recurrent arises just below the elbow and ascends in front of the medial epicondyle to the anastomosis.',
+        A: 'The anterior ulnar recurrent arises just below the elbow and ascends in front of the medial epicondyle to the anastomosis.',
         B: 'The ulnar collateral arteries, superior and inferior, are brachial branches given in the arm.',
         C: 'The superficial palmar branch is radial. It is the printed key here and it is wrong, and the error is easy to make because the branch and the arch share a name.',
         D: 'The nutrient artery of the humerus is a brachial branch, and the humerus is not in the forearm.',
@@ -920,7 +920,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Supination is the stronger movement. It is the printed key here and it is backwards — and the practical test of it is that screws and taps are cut to be tightened by supination of the right hand.',
         B: 'Biceps supinates powerfully when the elbow is flexed, not extended.',
-        C: 'Correct. Brachioradialis carries the forearm to the mid-prone position from either extreme and no further.',
+        C: 'Brachioradialis carries the forearm to the mid-prone position from either extreme and no further.',
         D: 'The ulna is the fixed bone and the radius the moving one; the option reverses them.',
       },
     },
@@ -980,7 +980,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Supination is the stronger movement, not pronation.',
         B: 'Biceps supinates best with the elbow flexed. It is the printed key here and the word "extended" is the error.',
-        C: 'Correct. Brachioradialis is the mid-prone muscle.',
+        C: 'Brachioradialis is the mid-prone muscle.',
         D: 'The ulna is fixed and the radius moves.',
       },
     },
@@ -990,7 +990,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the origin, position at the snuff box and nerve of extensor pollicis brevis.',
       explanations: {
-        A: 'Correct. Extensor pollicis brevis is a deep extensor arising from the posterior surface of the radius and the interosseous membrane, below abductor pollicis longus.',
+        A: 'Extensor pollicis brevis is a deep extensor arising from the posterior surface of the radius and the interosseous membrane, below abductor pollicis longus.',
         B: 'It lies on the radial side of the snuff box, forming its anterior border with abductor pollicis longus. The ulnar border of the box is extensor pollicis longus.',
         C: 'This option has been overwritten in extraction by the words "Extensor carpi ulnaris", carried over from elsewhere on the page; it is not a statement about extensor pollicis brevis and cannot be evaluated as one. It is recorded here rather than silently ignored, and a rescan would recover the option the page printed.',
         D: 'The nerve is the posterior interosseous branch of the radial nerve. Every extensor of the forearm is radial in origin, and the ulnar nerve supplies none of them.',
@@ -1005,7 +1005,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Flexor pollicis longus acts on the thumb and lies laterally; it cannot adduct the wrist.',
         B: 'Flexor digitorum profundus flexes the fingers and the wrist without deviating it.',
         C: 'Flexor carpi radialis flexes and abducts — the mirror image.',
-        D: 'Correct. Flexor carpi ulnaris flexes and adducts the wrist, and with extensor carpi ulnaris it produces pure adduction.',
+        D: 'Flexor carpi ulnaris flexes and adducts the wrist, and with extensor carpi ulnaris it produces pure adduction.',
       },
     },
     {
@@ -1019,7 +1019,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A thumb flexor lying laterally. It is the printed key and it is wrong on both halves of the movement.',
         B: 'Flexes the fingers and helps flex the wrist, but deviates it neither way.',
         C: 'Flexes and abducts — the opposite deviation.',
-        D: 'Correct. Flexor carpi ulnaris is the flexor on the adducting side.',
+        D: 'Flexor carpi ulnaris is the flexor on the adducting side.',
       },
     },
     {
@@ -1033,7 +1033,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Both pronators are median, so pronation is lost. It is the printed key and it names the very muscles the lesion takes.',
         B: 'Opponens pollicis is a thenar muscle on the recurrent branch of the median nerve — lost, and it is the loss that gives the ape hand.',
         C: 'Palmaris longus is median and lost.',
-        D: 'Correct. Flexor carpi ulnaris is one of the only two muscles in the anterior compartment that are ulnar, and it is what makes the paralysed wrist deviate medially when it is flexed.',
+        D: 'Flexor carpi ulnaris is one of the only two muscles in the anterior compartment that are ulnar, and it is what makes the paralysed wrist deviate medially when it is flexed.',
       },
     },
     {
@@ -1046,7 +1046,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Extensor digitorum is the main occupant of the fourth compartment. It is the printed key here and it is the one thing everybody knows is in it.',
         B: 'The anterior interosseous artery does reach the fourth compartment: it pierces the lower part of the interosseous membrane, passes to the back and continues under the retinaculum.',
-        C: 'Correct, and the answer. The anterior interosseous nerve stays in front, ending on the deep surface of pronator quadratus; only its companion artery crosses to the back.',
+        C: 'This is the answer. The anterior interosseous nerve stays in front, ending on the deep surface of pronator quadratus; only its companion artery crosses to the back.',
         D: 'The posterior interosseous nerve ends in the fourth compartment as a small swelling that supplies the wrist joint.',
       },
     },
@@ -1060,7 +1060,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The median nerve is medial to the brachial artery in the fossa. It starts lateral in the upper arm and crosses in front of the artery about the middle of the arm, which is the single relation these books ask about most.',
         B: 'The ulnar artery passes deep to the two heads of pronator teres as it leaves the fossa, not superficial to the muscle.',
-        C: 'Correct. The brachial artery ends in the fossa by dividing into the radial and ulnar arteries.',
+        C: 'The brachial artery ends in the fossa by dividing into the radial and ulnar arteries.',
         D: 'The radial nerve is lateral to the biceps tendon, at the outer edge of the fossa.',
         E: 'The nerve to pronator teres comes from the median nerve, which is the nerve of the whole flexor compartment bar two muscles.',
       },
@@ -1075,7 +1075,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Medial, not lateral. It is the printed key and it is the classic error of this region.',
         B: 'The ulnar artery passes deep to pronator teres.',
-        C: 'Correct. The radial artery is one of the two terminal branches of the brachial artery, given in the fossa.',
+        C: 'The radial artery is one of the two terminal branches of the brachial artery, given in the fossa.',
         D: 'The radial nerve is lateral to the biceps tendon.',
         E: 'Pronator teres is supplied by the median nerve.',
       },
@@ -1089,7 +1089,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The median nerve is medial to the biceps tendon, with the brachial artery between them. The stem of this copy carries an echo of this option, which is an extraction artefact and not a key.',
         B: 'The radial nerve and its deep branch lie between brachialis and brachioradialis, on the lateral side — in front of the lateral part of the floor rather than deep to brachialis.',
         C: 'It is the median nerve that leaves the fossa between the two heads of pronator teres; the radial artery runs down superficially beneath brachioradialis.',
-        D: 'Correct. The deep terminal branch of the radial nerve leaves the fossa by piercing supinator between its superficial and deep layers, and emerges on the back of the forearm as the posterior interosseous nerve.',
+        D: 'The deep terminal branch of the radial nerve leaves the fossa by piercing supinator between its superficial and deep layers, and emerges on the back of the forearm as the posterior interosseous nerve.',
       },
     },
     {
@@ -1099,7 +1099,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the floor and the two boundaries of the cubital fossa.',
       explanations: {
         A: 'The floor is brachialis medially and supinator laterally — two muscles, not one.',
-        B: 'Correct. Pronator teres forms the medial boundary of the triangle and brachioradialis the lateral.',
+        B: 'Pronator teres forms the medial boundary of the triangle and brachioradialis the lateral.',
         C: 'The ulnar nerve is not in the fossa at all; it lies behind the medial epicondyle.',
         D: 'The radial nerve lies lateral to the biceps tendon, not medial. Every relation in this fossa is easier to keep if the contents are listed from medial to lateral: median nerve, artery, tendon, radial nerve.',
       },
@@ -1122,7 +1122,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives A, which places the septum between the lesser tuberosity and the lateral epicondyle — the lesser tuberosity is at the top of the humerus on its front and belongs to subscapularis. The septum runs from the insertion of deltoid down the lateral supracondylar ridge to the lateral epicondyle, and it gives origin in front to brachioradialis and extensor carpi radialis longus. Option D is false as printed because the artery accompanying the radial nerve through this septum is the radial collateral branch of the profunda brachii, not the posterior interosseous, which is a forearm vessel.',
       explanations: {
         A: 'The lesser tuberosity is on the front of the upper end of the humerus and takes subscapularis. The septum begins far lower, at the deltoid insertion, and runs along the lateral supracondylar ridge.',
-        B: 'Correct. Brachioradialis arises from the upper two-thirds of the lateral supracondylar ridge and from the front of this septum — one of the two muscles that make it a muscular attachment as well as a partition.',
+        B: 'Brachioradialis arises from the upper two-thirds of the lateral supracondylar ridge and from the front of this septum — one of the two muscles that make it a muscular attachment as well as a partition.',
         C: 'Extensor carpi radialis brevis arises from the common extensor origin on the lateral epicondyle. It is the longus, not the brevis, that arises from the ridge and the septum, and the two are one word apart.',
         D: 'The radial nerve does pierce this septum, but with the radial collateral branch of the profunda brachii artery. The posterior interosseous artery is a branch of the common interosseous in the forearm and never reaches the arm.',
       },
@@ -1136,7 +1136,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, which gives the septum an upper attachment at the lesser tuberosity — a landmark on the front of the upper humerus belonging to subscapularis. The septum extends from the deltoid insertion along the lateral supracondylar ridge to the lateral epicondyle, and the true statement in the set is that it gives origin to brachioradialis.',
       explanations: {
         A: 'The lesser tuberosity is nowhere near it. It is the printed key and it is wrong.',
-        B: 'Correct. Brachioradialis takes origin from the front of the septum and the ridge above the lateral epicondyle.',
+        B: 'Brachioradialis takes origin from the front of the septum and the ridge above the lateral epicondyle.',
         C: 'Extensor carpi radialis brevis comes from the common extensor origin; extensor carpi radialis longus is the one that comes from the ridge.',
         D: 'The radial nerve pierces the septum with the radial collateral artery from the profunda brachii, not with a posterior interosseous branch.',
       },
@@ -1158,7 +1158,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Biceps is wholly musculocutaneous.',
         B: 'Pronator teres is wholly median. Two heads of origin are not two nerves, and that is the substitution the option invites.',
-        C: 'Correct. Flexor digitorum profundus is median laterally, through the anterior interosseous nerve, and ulnar medially.',
+        C: 'Flexor digitorum profundus is median laterally, through the anterior interosseous nerve, and ulnar medially.',
         D: 'Flexor digitorum superficialis is wholly median despite its two heads.',
       },
     },
@@ -1173,7 +1173,7 @@ export const LEAF: McqLeafSeed = {
         A: 'It is superficial. It is the printed key and it is wrong; a deep vein by definition accompanies an artery, and this one accompanies none.',
         B: 'It begins from the palmar venous network on the front of the wrist. The dorsum drains into the dorsal venous arch.',
         C: 'The lateral end of the dorsal venous arch becomes the cephalic vein.',
-        D: 'Correct. In front of the elbow it commonly divides into median cephalic and median basilic veins.',
+        D: 'In front of the elbow it commonly divides into median cephalic and median basilic veins.',
       },
     },
     {
@@ -1187,7 +1187,7 @@ export const LEAF: McqLeafSeed = {
         A: 'It is superficial, in the superficial fascia. Being the vein a needle goes into is what makes students call it deep, and it is the opposite reason.',
         B: 'The back of the hand drains into the dorsal venous arch; this vein starts on the palmar side.',
         C: 'The lateral end of the dorsal venous arch continues as the cephalic vein.',
-        E: 'Correct. Its size, its superficial position and the bicipital aponeurosis lying between it and the brachial artery are exactly why it is the vein used.',
+        E: 'Its size, its superficial position and the bicipital aponeurosis lying between it and the brachial artery are exactly why it is the vein used.',
       },
     },
     {
@@ -1201,7 +1201,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A superficial vein, not a deep one. It is the printed key and it is wrong.',
         B: 'It begins on the front of the wrist, from the palmar venous network.',
         C: 'That describes the cephalic vein.',
-        E: 'Correct. It is large, superficial and protected from the brachial artery by the bicipital aponeurosis, which is what makes it the standard vein for injection.',
+        E: 'It is large, superficial and protected from the brachial artery by the bicipital aponeurosis, which is what makes it the standard vein for injection.',
       },
     },
     {
@@ -1214,7 +1214,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pronator teres carries pronation through its full range.',
         B: 'Pronator quadratus is the prime pronator.',
-        C: 'Correct. Brachioradialis stops at mid-prone, which is the position of greatest mechanical advantage for it.',
+        C: 'Brachioradialis stops at mid-prone, which is the position of greatest mechanical advantage for it.',
         D: 'Biceps carries supination through its full range.',
       },
     },
@@ -1235,7 +1235,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on either copy. Flexor pollicis longus is supplied by the anterior interosseous nerve, and this leaf follows the faculty’s own convention throughout: where an item offers both a parent trunk and the branch that enters the muscle, the branch is the answer. That convention is what separates flexor pollicis longus and pronator quadratus from the rest of the median territory in the first place.',
       explanations: {
-        A: 'Correct. The anterior interosseous nerve leaves the median nerve below the cubital fossa, descends on the interosseous membrane and supplies flexor pollicis longus, the lateral half of flexor digitorum profundus and pronator quadratus.',
+        A: 'The anterior interosseous nerve leaves the median nerve below the cubital fossa, descends on the interosseous membrane and supplies flexor pollicis longus, the lateral half of flexor digitorum profundus and pronator quadratus.',
         B: 'True at one remove, since the anterior interosseous nerve is a median branch — but the option that names the branch is on the paper, and it is the branch the item is asking for.',
         C: 'The ulnar nerve supplies only flexor carpi ulnaris and the medial half of flexor digitorum profundus in the forearm.',
         D: 'The radial nerve supplies the extensor compartment and no flexor of the thumb.',
@@ -1250,7 +1250,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The anterior interosseous nerve is the branch that supplies flexor pollicis longus, and where a branch and its parent trunk are both offered this faculty keys the branch.',
       explanations: {
-        A: 'Correct. Flexor pollicis longus is one of the three muscles of the anterior interosseous nerve.',
+        A: 'Flexor pollicis longus is one of the three muscles of the anterior interosseous nerve.',
         B: 'The parent trunk. True at one remove, and not what the item is asking when the branch itself is offered.',
         C: 'The ulnar nerve has two forearm muscles and neither is a thumb flexor.',
         D: 'The radial nerve serves the extensor compartment.',
@@ -1265,7 +1265,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The common interosseous artery is the ulnar artery’s largest branch; the radial recurrent is radial, the inferior ulnar collateral is brachial and the radialis indicis is radial.',
       explanations: {
         A: 'The radial recurrent artery ascends from the radial artery to the elbow anastomosis.',
-        B: 'Correct. The common interosseous artery arises about an inch below the ulnar artery’s beginning and at once divides into anterior and posterior interosseous arteries.',
+        B: 'The common interosseous artery arises about an inch below the ulnar artery’s beginning and at once divides into anterior and posterior interosseous arteries.',
         C: 'The inferior ulnar collateral artery comes off the brachial artery in the arm and descends to meet the ulnar recurrents. The word "ulnar" in its name refers to the side of the limb, not to the artery it comes from.',
         D: 'The radialis indicis is a radial branch in the palm.',
       },
@@ -1277,7 +1277,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Separate the radial artery’s branches from the ulnar artery’s.',
       explanations: {
         A: 'A radial branch, so not the answer. The radial recurrent artery ascends in front of the lateral epicondyle to the elbow anastomosis.',
-        B: 'Correct, and the answer. The common interosseous artery is the ulnar artery’s branch and the parent of both interosseous vessels.',
+        B: 'This is the answer. The common interosseous artery is the ulnar artery’s branch and the parent of both interosseous vessels.',
         C: 'A radial branch, so not the answer. The palmar carpal branch joins its ulnar fellow to form the anterior carpal arch.',
         D: 'A radial branch, so not the answer. The dorsal carpal branch forms the dorsal carpal arch in the snuff box.',
       },
@@ -1292,7 +1292,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'A content. The brachial artery ends in the fossa by dividing, and it is the printed key here.',
         B: 'A content. The radial artery begins in the fossa.',
-        C: 'Correct, and the answer. The ulnar nerve pierces the medial intermuscular septum in the arm and passes behind the medial epicondyle, outside the fossa.',
+        C: 'This is the answer. The ulnar nerve pierces the medial intermuscular septum in the arm and passes behind the medial epicondyle, outside the fossa.',
         D: 'A content, and the most medial of them.',
       },
     },
@@ -1304,7 +1304,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is B, flexor pollicis longus, whose tendon crosses the front of the wrist in the carpal tunnel and does help flex it. Pronator quadratus runs between the lower ends of the ulna and the radius and crosses no joint but the inferior radio-ulnar, so it cannot flex the wrist at all.',
       explanations: {
-        A: 'Correct. Pronator quadratus lies entirely proximal to the wrist joint, spanning from ulna to radius; a muscle that does not cross a joint cannot move it.',
+        A: 'Pronator quadratus lies entirely proximal to the wrist joint, spanning from ulna to radius; a muscle that does not cross a joint cannot move it.',
         B: 'Flexor pollicis longus crosses the front of the wrist to reach the thumb and assists flexion there. It is the printed key and it is wrong.',
         C: 'Flexor digitorum profundus crosses the wrist on its way to the distal phalanges and helps flex it.',
         D: 'Flexor carpi ulnaris is a prime flexor of the wrist.',
@@ -1321,7 +1321,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Median, so not the answer — pronator teres is supplied by a direct branch in the cubital fossa.',
         B: 'Median, so not the answer — through the anterior interosseous nerve.',
         C: 'Median, so not the answer — through the recurrent branch to the thenar eminence.',
-        D: 'Correct, and the answer. Adductor pollicis lies in the adductor compartment and is the muscle in which the deep branch of the ulnar nerve ends; it is the one thumb muscle that is not median, and its loss gives Froment’s sign.',
+        D: 'This is the answer. Adductor pollicis lies in the adductor compartment and is the muscle in which the deep branch of the ulnar nerve ends; it is the one thumb muscle that is not median, and its loss gives Froment’s sign.',
       },
     },
     {
@@ -1333,7 +1333,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the elbow joint, which is a hinge and permits flexion and extension only. Rotation of the forearm takes place at the superior and inferior radio-ulnar joints, which are pivot joints, even though the superior one shares a capsule with the elbow.',
       explanations: {
         A: 'The elbow is a hinge and cannot rotate. The superior radio-ulnar joint shares its capsule, which is why the two are so often merged in a student’s mind — but they are different joints of different types. It is the printed key and it is wrong.',
-        B: 'Correct. The head of the radius spins within the anular ligament above and the lower end of the radius swings round the head of the ulna below.',
+        B: 'The head of the radius spins within the anular ligament above and the lower end of the radius swings round the head of the ulna below.',
         C: 'The shoulder rotates the whole limb, which can look like pronation if the elbow is extended; the test is to flex the elbow to a right angle, which locks the shoulder out.',
         D: 'The radio-carpal joint flexes, extends, abducts and adducts, and does not rotate.',
       },
@@ -1349,7 +1349,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The ulnar nerve has two forearm muscles and neither pronates. It is the printed key and it is wrong.',
         B: 'The posterior interosseous nerve is the exact counterpart in the extensor compartment — the same word with the compartment reversed, which is what makes it the standing distractor here.',
         C: 'The radial nerve supplies the extensor side.',
-        D: 'Correct. Pronator quadratus lies deepest in the front of the forearm, and the anterior interosseous nerve ends on its deep surface.',
+        D: 'Pronator quadratus lies deepest in the front of the forearm, and the anterior interosseous nerve ends on its deep surface.',
       },
     },
     {
@@ -1363,7 +1363,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The ulnar nerve supplies no pronator.',
         B: 'The posterior interosseous nerve serves the extensor compartment.',
         C: 'The same distractor as A, printed a second time by the extraction as the single word "Ulnar". Two copies of one wrong answer are still one wrong answer.',
-        D: 'Correct. The anterior interosseous nerve ends in pronator quadratus.',
+        D: 'The anterior interosseous nerve ends in pronator quadratus.',
       },
     },
     {
@@ -1385,7 +1385,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The greater tuberosity is on the humerus and takes supraspinatus, infraspinatus and teres minor. The long head of biceps comes from the supraglenoid tubercle of the scapula, above the glenoid cavity. It is the printed key and it is wrong.',
         B: 'The short head arises from the tip of the coracoid process, not the acromion.',
-        C: 'Correct. Biceps is the powerful supinator of the flexed forearm, which is why the bicipital tendon winds round to the back of the radial tuberosity.',
+        C: 'Biceps is the powerful supinator of the flexed forearm, which is why the bicipital tendon winds round to the back of the radial tuberosity.',
         E: 'The two bellies join in the lower part of the arm, above the elbow, not in the upper arm.',
       },
     },
@@ -1399,7 +1399,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The supraglenoid tubercle of the scapula, not the greater tuberosity of the humerus.',
         B: 'The tip of the coracoid process, not the acromion.',
-        C: 'Correct. Biceps flexes the elbow and supinates the forearm powerfully.',
+        C: 'Biceps flexes the elbow and supinates the forearm powerfully.',
         D: 'Biceps is musculocutaneous, from the lateral cord. The median nerve gives no branch in the arm at all.',
         E: 'The two heads unite in the lower part of the arm.',
       },
@@ -1425,7 +1425,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on this copy; the keyed sibling `regarding-muscle-actions-of-the-upper-limb-dep-book-em-em-em-1ebde679` gives B and B is correct. Flexor digitorum superficialis reaches only the middle phalanx, flexor carpi ulnaris adducts, and the pronators are median.',
       explanations: {
         A: 'Superficialis inserts into the middle phalanx; the distal phalanx belongs to profundus.',
-        B: 'Correct. Biceps is the powerful supinator, supinator itself being the weaker.',
+        B: 'Biceps is the powerful supinator, supinator itself being the weaker.',
         C: 'Flexor carpi ulnaris adducts the wrist, not abducts it.',
         D: 'The pronators are median — teres directly and quadratus through the anterior interosseous nerve.',
       },
@@ -1437,7 +1437,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Check four muscle statements against their attachments and nerves in one pass.',
       explanations: {
         A: 'Superficialis flexes the middle phalanges; the distal ones are profundus.',
-        B: 'Correct. Biceps supinates powerfully with the elbow flexed.',
+        B: 'Biceps supinates powerfully with the elbow flexed.',
         C: 'Flexor carpi ulnaris flexes and adducts.',
         D: 'The pronators are median. The ulnar nerve has only two muscles in the forearm and neither of them pronates.',
       },
@@ -1453,7 +1453,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Flexor digitorum profundus arises from the ulna and the interosseous membrane, not from three bones.',
         B: 'Flexor carpi ulnaris adducts.',
         C: 'Brachioradialis is radial, not median. It is a flexor of the elbow lying in the extensor compartment.',
-        D: 'Correct. Supinator is a deep extensor pierced and supplied by the posterior interosseous nerve.',
+        D: 'Supinator is a deep extensor pierced and supplied by the posterior interosseous nerve.',
       },
     },
     {
@@ -1464,7 +1464,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'It is present in supination of the extended forearm — that is the position in which it is defined and measured. What abolishes it is flexion of the elbow, and pronation of the extended forearm.',
         B: 'It disappears in pronation, rather than appearing. The option reverses the behaviour it is describing.',
-        C: 'Correct. The medial part of the trochlea projects further down than the lateral part, so the trochlear notch of the ulna sits on it obliquely and the forearm is carried laterally.',
+        C: 'The medial part of the trochlea projects further down than the lateral part, so the trochlear notch of the ulna sits on it obliquely and the forearm is carried laterally.',
         D: 'It is larger in females. The conventional figure of about fifteen degrees is the male one, and the difference is attributed to the wider female pelvis.',
       },
     },
@@ -1477,7 +1477,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The ulnar nerve enters the forearm between the humeral and ulnar heads of flexor carpi ulnaris; it passes behind the medial epicondyle rather than the lateral, and the plane between flexor digitorum superficialis and profundus carries the median nerve, not the ulnar.',
       explanations: {
         A: 'The lateral epicondyle is on the other side of the joint entirely; the ulnar nerve grooves the back of the medial one.',
-        B: 'Correct. The two heads of flexor carpi ulnaris, from the medial epicondyle and from the olecranon, form the arch the nerve passes under to enter the forearm.',
+        B: 'The two heads of flexor carpi ulnaris, from the medial epicondyle and from the olecranon, form the arch the nerve passes under to enter the forearm.',
         C: 'The nerve descends on flexor digitorum profundus, deep to flexor carpi ulnaris; palmaris longus is superficial and in the midline.',
         D: 'That plane belongs to the median nerve, which descends between the two digital flexors through the length of the forearm. Swapping the two nerves’ planes is the point of this option.',
       },
@@ -1507,7 +1507,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The expansions are formed over all four medial fingers, not only two.',
         B: 'The expansion has a central slip and two collateral slips — three, and they insert into the middle and distal phalanges.',
         C: 'Opponens pollicis rolls the first metacarpal and stops there. What the expansion receives is the lumbrical and the interossei of that finger. It is the printed key and it is anatomically impossible.',
-        D: 'Correct. Extensor digitorum lies in the superficial extensor group and is supplied by the posterior interosseous nerve, which reaches it after piercing supinator.',
+        D: 'Extensor digitorum lies in the superficial extensor group and is supplied by the posterior interosseous nerve, which reaches it after piercing supinator.',
       },
     },
     {
@@ -1518,7 +1518,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The radial artery reaches the palm from the back of the hand by passing forwards between the two heads of the first dorsal interosseous muscle; it then crosses adductor pollicis to form the deep arch.',
       explanations: {
-        A: 'Correct. The first dorsal interosseous has two heads with a gap between them, and the artery uses that gap to cross from the dorsum to the palm.',
+        A: 'The first dorsal interosseous has two heads with a gap between them, and the artery uses that gap to cross from the dorsum to the palm.',
         B: 'The lumbricals lie well in front of the artery’s route, in the palm, and it does not pass among them.',
         C: 'The plane between flexor digitorum superficialis and profundus is in the forearm and carries the median nerve.',
         D: 'The radial artery ends as the deep palmar arch. The superficial arch is the ulnar artery’s, and this is the swap the books ask about most often.',
@@ -1532,7 +1532,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is C, that the artery begins at the level of the head of the radius; the brachial artery divides at the level of the neck of the radius, one landmark lower, and this faculty asks that distinction on its own elsewhere in the leaf. The true statement is A, the position of the pulse between the tendons of flexor carpi radialis and brachioradialis.',
       explanations: {
-        A: 'Correct. In the lower third of the forearm the artery lies in the groove between flexor carpi radialis medially and brachioradialis laterally, on the front of the radius with nothing but skin and fascia over it.',
+        A: 'In the lower third of the forearm the artery lies in the groove between flexor carpi radialis medially and brachioradialis laterally, on the front of the radius with nothing but skin and fascia over it.',
         B: 'It becomes the deep palmar arch, not the superficial.',
         C: 'The neck of the radius, not the head. It is the printed key and it misses by one landmark.',
         D: 'The superficial branch of the radial nerve lies lateral to the artery in the middle third, not medial.',
@@ -1585,7 +1585,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The neck of the radius, not the head. It is the printed key here and it misses by a landmark.',
         B: 'It ends as the superficial palmar arch; the deep arch is radial.',
         C: 'The artery does lie lateral to the tendon of flexor carpi ulnaris at the wrist, but the pulse taken there in practice is the radial, felt lateral to flexor carpi radialis, and it is that fact the option imitates. The option needs a faculty eye.',
-        D: 'Correct. The common interosseous artery is the ulnar artery’s largest branch and divides at once into the two interosseous arteries.',
+        D: 'The common interosseous artery is the ulnar artery’s largest branch and divides at once into the two interosseous arteries.',
       },
     },
     {
@@ -1598,7 +1598,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The artery is lateral to the ulnar nerve, so the option has the two reversed.',
         B: 'It passes superficial to the flexor retinaculum, with the nerve.',
-        C: 'Correct. The ulnar artery becomes the superficial palmar arch on entering the palm.',
+        C: 'The ulnar artery becomes the superficial palmar arch on entering the palm.',
         D: 'The thumb is supplied by the princeps pollicis from the radial artery. It is the printed key here and it gives one artery the other’s territory.',
       },
     },
@@ -1612,7 +1612,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The medial cord, not the lateral. The lateral cord gives the musculocutaneous nerve and the lateral root of the median.',
         B: 'It gives no branches in the arm, which is what the option is half-remembering. In the forearm it supplies two muscles and gives palmar and dorsal cutaneous branches.',
-        C: 'Correct. The nerve grooves the back of the medial epicondyle against bare bone, which is where it is palpable and where it is injured.',
+        C: 'The nerve grooves the back of the medial epicondyle against bare bone, which is where it is palpable and where it is injured.',
         D: 'Extensor carpi ulnaris is named for the ulna but lies in the extensor compartment and is supplied by the posterior interosseous nerve. Every extensor in the forearm is radial.',
       },
     },
@@ -1627,7 +1627,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Pronator teres pronates. It is the printed key here and it names the antagonist.',
         B: 'Pronator quadratus is the prime pronator.',
         C: 'Brachioradialis stops at the mid-prone position.',
-        D: 'Correct. Biceps is the powerful supinator, which is why supination is stronger than pronation.',
+        D: 'Biceps is the powerful supinator, which is why supination is stronger than pronation.',
       },
     },
     {
@@ -1648,7 +1648,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The common synovial sheath beneath the flexor retinaculum encloses the eight tendons of flexor digitorum superficialis and profundus; only profundus is offered.',
       explanations: {
         A: 'Flexor digitorum brevis is a muscle of the sole of the foot and has no counterpart here.',
-        B: 'Correct. All four profundus tendons lie in the common sheath with the four superficialis tendons.',
+        B: 'All four profundus tendons lie in the common sheath with the four superficialis tendons.',
         C: 'Flexor pollicis brevis is a short thenar muscle within the hand and crosses no retinaculum; it is flexor pollicis longus that has a sheath, and its own one.',
         D: 'Flexor carpi radialis has a separate small sheath in its own compartment in the retinaculum.',
       },
@@ -1662,7 +1662,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The digital flexors in the common sheath are flexor digitorum superficialis and flexor digitorum profundus.',
       explanations: {
         A: 'A muscle of the foot, not the hand.',
-        B: 'Correct. Flexor digitorum profundus lies in the common synovial sheath.',
+        B: 'Flexor digitorum profundus lies in the common synovial sheath.',
         C: 'A short thenar muscle with no sheath at the wrist.',
         D: 'Has a sheath of its own within the retinaculum.',
       },
@@ -1676,7 +1676,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key on any of the four copies of this question. The common sheath encloses the tendons of flexor digitorum superficialis and profundus, and of the options offered only profundus is one of them.',
       explanations: {
         A: 'A muscle of the sole of the foot.',
-        B: 'Correct. The eight digital flexor tendons share one sheath under the retinaculum.',
+        B: 'The eight digital flexor tendons share one sheath under the retinaculum.',
         C: 'An intrinsic muscle of the hand; it never crosses the wrist.',
         D: 'Runs in its own compartment within the retinaculum, in a sheath of its own.',
       },
@@ -1689,7 +1689,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key. The anterior surface of the membrane gives origin to flexor pollicis longus and flexor digitorum profundus; the other three options are superficial flexors arising from the medial epicondyle.',
       explanations: {
-        A: 'Correct. The two deep flexors take the front of the membrane, which is why they have no humeral attachment.',
+        A: 'The two deep flexors take the front of the membrane, which is why they have no humeral attachment.',
         B: 'A superficial flexor from the medial epicondyle, the ulna and the radius.',
         C: 'A superficial flexor from the medial epicondyle and the coronoid process.',
         D: 'A superficial flexor from the medial epicondyle and the ulna.',
@@ -1703,7 +1703,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is C, the posterior interosseous nerve, which supplies the rest of the extensor compartment but not this muscle. Brachioradialis is one of the three muscles the radial nerve supplies directly, before it divides — the others being extensor carpi radialis longus and anconeus — and the identically worded copy `the-brachioradialis-muscle-receives-its-nerve-supply-from-20-fde9f211` is keyed A.',
       explanations: {
-        A: 'Correct. The radial nerve supplies brachioradialis in the arm, above the level at which it divides into superficial and deep branches.',
+        A: 'The radial nerve supplies brachioradialis in the arm, above the level at which it divides into superficial and deep branches.',
         B: 'The anterior interosseous nerve is a median branch in the flexor compartment.',
         C: 'The posterior interosseous nerve supplies everything else in the extensor compartment, which is what makes it the natural guess. It is the printed key here and it is wrong, and the distinction matters: it is why the wrist still extends after a posterior interosseous lesion.',
         D: 'The median nerve supplies no muscle in the posterior compartment.',
@@ -1715,7 +1715,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Assign brachioradialis to the radial nerve itself rather than to its deep branch.',
       explanations: {
-        A: 'Correct. Brachioradialis takes a branch from the radial nerve trunk in the lower arm.',
+        A: 'Brachioradialis takes a branch from the radial nerve trunk in the lower arm.',
         B: 'A median branch in the flexor compartment.',
         C: 'The nerve of the rest of the extensor group, and the standing distractor here.',
         D: 'The median nerve reaches nothing in the extensor compartment.',
@@ -1732,7 +1732,7 @@ export const LEAF: McqLeafSeed = {
         A: 'It flexes the elbow. Lying in the extensor compartment does not make it an extensor, which is the whole oddity of this muscle.',
         B: 'It is on the lateral, radial side — the name says so, and it forms the lateral boundary of the cubital fossa.',
         C: 'It is supplied by the radial nerve directly, not by the posterior interosseous nerve.',
-        D: 'Correct. Brachioradialis brings the forearm to the mid-prone position from full pronation or full supination.',
+        D: 'Brachioradialis brings the forearm to the mid-prone position from full pronation or full supination.',
       },
     },
     {
@@ -1745,7 +1745,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The posterior cutaneous nerve of the forearm is a radial branch, given in the spiral groove.',
         B: 'The medial cutaneous nerve of the forearm arises from the medial cord and is an independent nerve, not a continuation of anything.',
-        C: 'Correct. The name records the change: the nerve is muscular in the arm and cutaneous below it.',
+        C: 'The name records the change: the nerve is muscular in the arm and cutaneous below it.',
         D: 'The medial cutaneous nerve of the arm is another medial cord branch, and it supplies the arm rather than the forearm.',
       },
     },
@@ -1759,7 +1759,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Extensor carpi radialis longus is superficial, from the lateral supracondylar ridge. It is the printed key and it is in the wrong group.',
         B: 'Extensor carpi radialis brevis is superficial, from the common extensor origin.',
-        C: 'Correct. Supinator is the highest of the deep extensor group, wrapped round the upper third of the radius.',
+        C: 'Supinator is the highest of the deep extensor group, wrapped round the upper third of the radius.',
         D: 'Extensor carpi ulnaris is superficial, from the common extensor origin.',
       },
     },
@@ -1771,7 +1771,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is B, insertion into the front of the middle phalanx, which is flexor digitorum superficialis — profundus passes through the split superficialis tendon to reach the distal phalanx. Its double nerve supply, anterior interosseous laterally and ulnar medially, is the true statement.',
       explanations: {
-        A: 'Correct. Lateral half median through the anterior interosseous nerve, medial half ulnar — the one muscle in the limb divided between two nerves.',
+        A: 'Lateral half median through the anterior interosseous nerve, medial half ulnar — the one muscle in the limb divided between two nerves.',
         B: 'The middle phalanx belongs to superficialis. It is the printed key here and it swaps the two digital flexors.',
         C: 'The four fingers it flexes are conventionally the medial four, the thumb excluded.',
         D: 'It arises from the ulna and the interosseous membrane; flexor pollicis longus is the deep flexor with a radial origin.',
@@ -1803,7 +1803,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The index finger receives the first dorsal interosseous, on its radial side.',
         B: 'The middle finger receives the second dorsal interosseous on its radial side and the third on its ulnar side — the axis of abduction runs through it, so it gets two.',
-        C: 'Correct. The fourth dorsal interosseous passes to the ulnar side of the ring finger, abducting it away from the middle finger.',
+        C: 'The fourth dorsal interosseous passes to the ulnar side of the ring finger, abducting it away from the middle finger.',
         D: 'The little finger has no dorsal interosseous; it is abducted by abductor digiti minimi, one of the hypothenar muscles, which is why there are four dorsal interossei and five digits.',
         E: 'This option is contamination: the words "Pronator teres" have been carried into the option set from elsewhere on the page, and a forearm muscle cannot be an answer to a question about which finger receives an interosseous tendon. It is recorded rather than ignored, and a rescan would show what the page printed.',
       },
@@ -1827,7 +1827,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'An ulnar branch given below the elbow.',
         B: 'Also ulnar. It is the printed key here and its own name contradicts it.',
-        C: 'Correct. The radialis indicis arises with the princeps pollicis from the radial artery in the palm.',
+        C: 'The radialis indicis arises with the princeps pollicis from the radial artery in the palm.',
         D: 'The common interosseous artery is the ulnar artery’s largest branch.',
       },
     },
@@ -1839,7 +1839,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is D, extensor carpi radialis longus, which is one of the three muscles the radial nerve supplies directly. Its neighbour extensor carpi radialis brevis is supplied by the posterior interosseous nerve, and the pair are offered side by side precisely because the supply changes between them.',
       explanations: {
-        A: 'Correct. Extensor carpi radialis brevis takes the deep branch of the radial nerve — the posterior interosseous — while its longer neighbour takes the trunk.',
+        A: 'Extensor carpi radialis brevis takes the deep branch of the radial nerve — the posterior interosseous — while its longer neighbour takes the trunk.',
         B: 'Adductor pollicis is an intrinsic hand muscle supplied by the deep branch of the ulnar nerve.',
         C: 'Abductor pollicis brevis is a thenar muscle on the median nerve.',
         D: 'Extensor carpi radialis longus is supplied by the radial nerve itself. It is the printed key and it names the one member of the pair the posterior interosseous nerve does not reach.',
@@ -1854,7 +1854,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives extensor carpi radialis longus, which the radial nerve supplies directly. The brevis is the one on the posterior interosseous nerve.',
       explanations: {
-        A: 'Correct. Extensor carpi radialis brevis is posterior interosseous.',
+        A: 'Extensor carpi radialis brevis is posterior interosseous.',
         B: 'Adductor pollicis is ulnar.',
         C: 'Abductor pollicis brevis is median.',
         D: 'Extensor carpi radialis longus is supplied by the radial nerve itself, which is why the wrist still extends after a posterior interosseous lesion.',
@@ -1871,7 +1871,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Supinator is posterior interosseous. It is the printed key here and it names the muscle the branch passes through.',
         B: 'Abductor pollicis longus is a deep extensor and posterior interosseous.',
         C: 'Extensor pollicis longus is likewise deep and posterior interosseous.',
-        D: 'Correct. Extensor carpi radialis longus, with brachioradialis and anconeus, takes the radial nerve directly.',
+        D: 'Extensor carpi radialis longus, with brachioradialis and anconeus, takes the radial nerve directly.',
       },
     },
     {
@@ -1882,7 +1882,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The interosseous borders, which face each other, not the anterior borders, which face forwards.',
         B: 'Abductor pollicis brevis is a thenar muscle in the hand; abductor pollicis longus is the one that arises from the back of the membrane.',
-        C: 'Correct. The deep flexors — flexor pollicis longus and flexor digitorum profundus — arise from the front of the membrane.',
+        C: 'The deep flexors — flexor pollicis longus and flexor digitorum profundus — arise from the front of the membrane.',
         D: 'The anterior interosseous artery pierces the membrane low down; the posterior interosseous vessels pass over its upper border.',
       },
     },
@@ -1894,7 +1894,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The membrane joins the interosseous borders of the two bones.',
         B: 'Abductor pollicis longus, not brevis, and from the posterior surface.',
-        C: 'Correct. Flexor pollicis longus and flexor digitorum profundus take origin from the anterior surface.',
+        C: 'Flexor pollicis longus and flexor digitorum profundus take origin from the anterior surface.',
         D: 'It is the anterior interosseous artery that pierces the membrane; the posterior interosseous vessels pass above it.',
       },
     },
@@ -1907,7 +1907,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, the ulnar nerve, which supplies the medial half. The lateral half, to the index and middle fingers, is supplied by the anterior interosseous branch of the median nerve — which is why a high median lesion leaves the index unable to flex while the ring and little fingers still can.',
       explanations: {
         A: 'The ulnar nerve takes the medial half. It is the printed key here and it names the other side of the same muscle.',
-        B: 'Correct. The anterior interosseous nerve supplies the lateral half along with flexor pollicis longus and pronator quadratus.',
+        B: 'The anterior interosseous nerve supplies the lateral half along with flexor pollicis longus and pronator quadratus.',
         C: 'The muscle as a whole has both nerves, but each half has only one; the question asks about one half.',
         D: 'The posterior interosseous nerve is in the extensor compartment.',
       },
@@ -1930,7 +1930,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is C, the medial two lumbricals, which are supplied by the deep branch of the ulnar nerve — it is the lateral two that are median. Abductor pollicis brevis is a thenar muscle and unambiguously median.',
       explanations: {
         A: 'Extensor carpi ulnaris is a posterior compartment muscle on the posterior interosseous nerve.',
-        B: 'Correct. Abductor pollicis brevis is one of the three thenar muscles supplied by the recurrent branch of the median nerve.',
+        B: 'Abductor pollicis brevis is one of the three thenar muscles supplied by the recurrent branch of the median nerve.',
         C: 'The medial two lumbricals are ulnar; the lateral two are median. It is the printed key here and it takes the wrong half.',
         D: 'Adductor pollicis is ulnar.',
       },
@@ -1945,7 +1945,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Flexor carpi ulnaris is one of the two forearm flexors that are ulnar.',
         B: 'The dorsal interossei are ulnar, through the deep branch.',
-        C: 'Correct. Opponens pollicis is median, and opposition is the movement a median lesion costs.',
+        C: 'Opponens pollicis is median, and opposition is the movement a median lesion costs.',
         D: 'Adductor pollicis is ulnar — the one thumb muscle that is.',
       },
     },
@@ -1959,7 +1959,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pronator teres arises from the medial epicondyle and the coronoid process of the ulna.',
         B: 'Flexor carpi radialis arises from the common flexor origin.',
-        C: 'Correct. Flexor pollicis longus arises from the anterior surface of the radius and the adjoining interosseous membrane.',
+        C: 'Flexor pollicis longus arises from the anterior surface of the radius and the adjoining interosseous membrane.',
         D: 'Flexor carpi ulnaris arises from the medial epicondyle and the ulna, behind the membrane’s plane rather than on it.',
       },
     },
@@ -1983,7 +1983,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Biceps inserts into the radial tuberosity; it arises from the scapula.',
         B: 'Supinator arises from the ulna and the lateral epicondyle and inserts into the radius. Arising from a bone and wrapping round it are different things, and this is the option that trades on the difference.',
         C: 'Pronator quadratus arises from the ulna and inserts into the radius.',
-        D: 'Correct. Flexor pollicis longus takes origin from the anterior surface of the shaft of the radius.',
+        D: 'Flexor pollicis longus takes origin from the anterior surface of the shaft of the radius.',
       },
     },
     {
@@ -1996,7 +1996,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Anconeus is supplied by the radial nerve in the arm, by the branch that also serves the medial head of triceps.',
         b: 'Extensor carpi radialis longus is one of the three muscles the radial nerve supplies directly.',
-        c: 'Correct. Extensor indicis is the lowest of the deep extensor group and takes the posterior interosseous nerve, sharing the fourth compartment of the retinaculum with extensor digitorum.',
+        c: 'Extensor indicis is the lowest of the deep extensor group and takes the posterior interosseous nerve, sharing the fourth compartment of the retinaculum with extensor digitorum.',
         d: 'Brachialis is a flexor of the arm, supplied by the musculocutaneous nerve with a small radial twig.',
       },
     },
@@ -2020,7 +2020,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The superficial arch is mainly the ulnar artery, completed by the superficial palmar branch of the radial. This option gives it to the wrong parent.',
         B: 'The deep arch is mainly the radial artery, completed by the deep branch of the ulnar — again reversed.',
         C: 'The superficial arch lies in front of the flexor tendons, immediately deep to the palmar aponeurosis, rather than passing between them.',
-        D: 'Correct. The deep arch runs across the bases of the medial four metacarpal bones, behind the long flexor tendons and behind adductor pollicis — which is what makes it the deeper and the more proximal of the two.',
+        D: 'The deep arch runs across the bases of the medial four metacarpal bones, behind the long flexor tendons and behind adductor pollicis — which is what makes it the deeper and the more proximal of the two.',
       },
     },
     {
@@ -2030,7 +2030,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name what arises from the back of the interosseous membrane.',
       explanations: {
         A: 'These two are the deep flexors and arise from the front of the membrane. The option is the right answer to the mirror-image question, which is asked separately in this leaf.',
-        B: 'Correct. Extensor indicis is one of the deep extensors — with abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus — arising from the back of the membrane and the adjacent bone.',
+        B: 'Extensor indicis is one of the deep extensors — with abductor pollicis longus, extensor pollicis brevis and extensor pollicis longus — arising from the back of the membrane and the adjacent bone.',
         C: 'Pronator quadratus arises from the front of the ulna, not from the membrane at all.',
         D: 'Pronator teres arises from the medial epicondyle and the coronoid process.',
       },
@@ -2042,7 +2042,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Trace the radial artery from the back of the hand into the palm through two muscles.',
       explanations: {
         A: 'A lumbrical arises by one head from a flexor tendon and lies in front of the artery’s route.',
-        B: 'Correct. Adductor pollicis has an oblique and a transverse head, and the artery passes between them to become the deep arch.',
+        B: 'Adductor pollicis has an oblique and a transverse head, and the artery passes between them to become the deep arch.',
         C: 'It is the first dorsal interosseous the artery passes through, and that is the earlier passage, from the dorsum into the palm.',
         D: 'Opponens pollicis is single-headed and superficial to the artery.',
       },
@@ -2056,7 +2056,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, pronator teres, which has no tendon at the wrist at all — it inserts into the middle of the lateral surface of the radius, well above it. The radial artery lies immediately lateral to the tendon of flexor carpi radialis, and that is where the pulse is felt.',
       explanations: {
         A: 'Pronator teres ends halfway down the forearm and presents no tendon at the wrist. It is the printed key and it is wrong.',
-        B: 'Correct. Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis lies laterally, and the artery runs in the groove between them.',
+        B: 'Flexor carpi radialis is the tendon just medial to the pulse; brachioradialis lies laterally, and the artery runs in the groove between them.',
         D: 'Flexor carpi ulnaris is on the opposite side of the wrist and is the landmark for the ulnar artery and nerve.',
         E: 'The superficialis tendons lie deeper and more centrally, and they enter the carpal tunnel rather than lying beside the artery.',
       },
@@ -2070,7 +2070,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The radial artery at the wrist lies just lateral to the tendon of flexor carpi radialis, between it and brachioradialis.',
       explanations: {
         A: 'Pronator teres has no tendon at the wrist.',
-        B: 'Correct. The pulse is felt lateral to flexor carpi radialis, on the front of the lower end of the radius.',
+        B: 'The pulse is felt lateral to flexor carpi radialis, on the front of the lower end of the radius.',
         C: 'Palmaris longus is in the midline and is the landmark for the median nerve.',
         D: 'Flexor carpi ulnaris is the landmark on the ulnar side.',
         E: 'The superficialis tendons run into the carpal tunnel rather than flanking the artery.',
@@ -2084,7 +2084,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy; the keyed sibling `the-radial-nerve-select-the-correct-statement-ipka-77370e8f` gives A, and A is correct — the radial nerve supplies triceps and anconeus, the extensors of the elbow. Each of the other options is true of a branch rather than of the trunk, or is a reversed relation: the nerve pierces the lateral septum, extensor carpi ulnaris is supplied by the posterior interosseous branch, it is the superficial branch that lies beside the radial artery in the forearm, and the nerve lies laterally in the cubital fossa.',
       explanations: {
-        A: 'Correct. All three heads of triceps and anconeus take the radial nerve, which is why elbow extension is tested after a high radial lesion.',
+        A: 'All three heads of triceps and anconeus take the radial nerve, which is why elbow extension is tested after a high radial lesion.',
         B: 'The radial nerve pierces the lateral intermuscular septum. It is the ulnar nerve that pierces the medial one, and every distractor built on these two septa is that swap.',
         C: 'Extensor carpi ulnaris is supplied by the posterior interosseous nerve, a branch of the radial rather than the radial nerve itself — the distinction this faculty makes throughout the leaf.',
         D: 'It is the superficial terminal branch, not the radial nerve, that lies lateral to the radial artery in the middle third of the forearm.',
@@ -2097,7 +2097,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Separate the radial nerve trunk from its branches in a list of statements.',
       explanations: {
-        A: 'Correct. Triceps and anconeus are the extensors of the elbow and both are radial.',
+        A: 'Triceps and anconeus are the extensors of the elbow and both are radial.',
         B: 'The lateral septum, not the medial. The medial belongs to the ulnar nerve.',
         D: 'That relation belongs to the superficial branch, in the middle third of the forearm.',
         E: 'It lies laterally in the cubital fossa, beyond the biceps tendon.',
@@ -2112,7 +2112,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is D, the ulnar collateral ligament, which runs from the medial epicondyle of the humerus to the ulna and never touches the radius. The interosseous membrane is the structure that binds the two forearm bones together along their shafts.',
       explanations: {
         A: 'The articular disc binds the two bones at their lower ends only, as part of the inferior radio-ulnar joint.',
-        B: 'Correct. The interosseous membrane runs between the interosseous borders of the radius and the ulna for most of their length.',
+        B: 'The interosseous membrane runs between the interosseous borders of the radius and the ulna for most of their length.',
         C: 'The radial collateral ligament is an elbow ligament, from the lateral epicondyle to the anular ligament.',
         D: 'The ulnar collateral ligament belongs to the elbow and connects humerus to ulna. It is the printed key here and it involves the wrong two bones.',
       },
@@ -2123,7 +2123,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name what lies inside the carpal tunnel.',
       explanations: {
-        A: 'Correct. The four tendons of flexor digitorum profundus pass through the carpal tunnel in the common synovial sheath with the four of superficialis.',
+        A: 'The four tendons of flexor digitorum profundus pass through the carpal tunnel in the common synovial sheath with the four of superficialis.',
         B: 'The ulnar artery crosses superficial to the retinaculum with the ulnar nerve.',
         C: 'The radial artery leaves the front of the wrist laterally and crosses the anatomical snuff box on the back of the hand.',
         D: 'The ulnar nerve passes superficial to the retinaculum in the canal of Guyon — the single most useful fact about this band, because it is why carpal tunnel syndrome spares the little finger.',
@@ -2138,7 +2138,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is C, flexor pollicis longus, which is one of the three deep flexors arising from the radius and the interosseous membrane. The superficial group is pronator teres, flexor carpi radialis, palmaris longus, flexor digitorum superficialis and flexor carpi ulnaris, and only flexor carpi radialis is offered.',
       explanations: {
         A: 'Pronator quadratus is the deepest muscle of the front of the forearm.',
-        B: 'Correct. Flexor carpi radialis arises from the common flexor origin and lies in the superficial group, second from the lateral side.',
+        B: 'Flexor carpi radialis arises from the common flexor origin and lies in the superficial group, second from the lateral side.',
         C: 'Flexor pollicis longus is deep, arising from the radius and the interosseous membrane. It is the printed key here and it is in the wrong group.',
         D: 'Supinator is not in the anterior compartment at all — it is a deep extensor.',
       },
@@ -2153,7 +2153,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'It is the radial nerve trunk, in the arm, that pierces the lateral intermuscular septum, and the septum is lateral rather than medial. The superficial branch begins below that, at the elbow.',
         B: 'The superficial branch carries no motor fibres. It is the printed key here and it is the whole point of the item: cutting this branch numbs the back of the hand and weakens nothing.',
-        C: 'Correct. In the middle third of the forearm the superficial radial nerve lies on the lateral side of the radial artery, under cover of brachioradialis.',
+        C: 'In the middle third of the forearm the superficial radial nerve lies on the lateral side of the radial artery, under cover of brachioradialis.',
         D: 'It runs laterally, under brachioradialis; medial is the median nerve’s side of the fossa.',
       },
     },
@@ -2167,7 +2167,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The superficialis tendons are in the carpal tunnel.',
         B: 'The profundus tendons are with them.',
-        C: 'Correct. Palmaris longus lies on the retinaculum and blends with it and with the palmar aponeurosis beyond.',
+        C: 'Palmaris longus lies on the retinaculum and blends with it and with the palmar aponeurosis beyond.',
         D: 'Flexor carpi radialis passes through the retinaculum rather than over it — the one structure at the wrist that belongs to neither group. It is the printed key here and it is the near miss the item is built around.',
       },
     },
@@ -2181,7 +2181,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'In the carpal tunnel.',
         B: 'In the carpal tunnel.',
-        C: 'Correct. Palmaris longus is the most superficial structure at the front of the wrist.',
+        C: 'Palmaris longus is the most superficial structure at the front of the wrist.',
         D: 'Within the retinaculum, not over it.',
       },
     },
@@ -2195,7 +2195,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The superficialis tendons are inside the tunnel.',
         B: 'The profundus tendons are inside the tunnel.',
-        C: 'Correct. Palmaris longus is superficial to the retinaculum, which is why it is visible and palpable when the wrist is flexed against resistance.',
+        C: 'Palmaris longus is superficial to the retinaculum, which is why it is visible and palpable when the wrist is flexed against resistance.',
         D: 'Flexor carpi radialis runs in its own compartment within the retinaculum.',
       },
     },
@@ -2207,7 +2207,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The superficialis tendons run in the carpal tunnel under the retinaculum.',
         B: 'The profundus tendons run with them.',
-        C: 'Correct. Palmaris longus is the only one of the four that lies on the retinaculum, and it is partly inserted into it.',
+        C: 'Palmaris longus is the only one of the four that lies on the retinaculum, and it is partly inserted into it.',
         D: 'Flexor carpi radialis has its own compartment inside the lateral attachment of the retinaculum, so it passes through rather than over.',
       },
     },
@@ -2228,7 +2228,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'B',
       answerOverrideReason: 'The printed key is C, extensor carpi ulnaris, which is named for the ulna but lies in the extensor compartment and is supplied by the posterior interosseous branch of the radial nerve. Adductor pollicis is the muscle in the list that the ulnar nerve genuinely supplies. Note that option A has been swallowed into the stem of this copy, leaving four options, which is still a sittable set.',
       explanations: {
-        B: 'Correct. Adductor pollicis lies in the adductor compartment of the palm and is the muscle in which the deep branch of the ulnar nerve ends.',
+        B: 'Adductor pollicis lies in the adductor compartment of the palm and is the muscle in which the deep branch of the ulnar nerve ends.',
         C: 'Named for the ulna, supplied by the radial. Every extensor of the forearm is radial, and this muscle is the reason the rule has to be stated. It is the printed key here and it is wrong.',
         D: 'The lateral two lumbricals are median; it is the medial two that are ulnar.',
         E: 'Pronator teres is median.',
@@ -2245,7 +2245,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Flexor digitorum superficialis has no ulnar part at all. It is the profundus that is divided, and swapping the two digital flexors is the whole trap.',
         B: 'Flexor carpi radialis is median.',
         D: 'Pronator teres is median.',
-        E: 'Correct. The medial half of flexor digitorum profundus, to the ring and little fingers, is supplied by the ulnar nerve; the lateral half is anterior interosseous.',
+        E: 'The medial half of flexor digitorum profundus, to the ring and little fingers, is supplied by the ulnar nerve; the lateral half is anterior interosseous.',
       },
     },
     {
@@ -2259,7 +2259,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Superficialis is entirely median. It is the printed key and it names the wrong one of the two digital flexors.',
         B: 'Flexor carpi radialis is median.',
         C: 'Pronator quadratus is median, through the anterior interosseous nerve.',
-        E: 'Correct. The medial half of flexor digitorum profundus is ulnar.',
+        E: 'The medial half of flexor digitorum profundus is ulnar.',
       },
     },
     {
@@ -2274,7 +2274,7 @@ export const LEAF: McqLeafSeed = {
         B: 'Flexor carpi radialis is median.',
         C: 'Pronator quadratus is median.',
         D: 'Pronator teres is median.',
-        E: 'Correct. The medial half of flexor digitorum profundus is the ulnar nerve’s share of that muscle.',
+        E: 'The medial half of flexor digitorum profundus is the ulnar nerve’s share of that muscle.',
       },
     },
     {
@@ -2294,7 +2294,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key — only a stray echo of option a in the stem, which is an extraction artefact. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of flexor carpi ulnaris, an arch that lies just distal to the medial epicondyle.',
       explanations: {
-        A: 'Correct. The two heads arise from the medial epicondyle and from the olecranon and posterior border of the ulna, and the nerve passes under the fibrous arch between them.',
+        A: 'The two heads arise from the medial epicondyle and from the olecranon and posterior border of the ulna, and the nerve passes under the fibrous arch between them.',
         B: 'Flexor carpi radialis has one head and lies on the other side of the forearm.',
         C: 'The two heads of pronator teres are what the median nerve passes between — the same arrangement one nerve over, and the reason this distractor works.',
         D: 'The median nerve passes deep to the fibrous arch of flexor digitorum superficialis after leaving pronator teres.',
@@ -2317,7 +2317,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The source printed no key on this copy, and the keyed sibling gives C, flexor carpi radialis, which arises from the medial epicondyle of the humerus and therefore crosses the joint. Flexor pollicis longus is a deep flexor arising from the radius and the interosseous membrane, entirely below the elbow.',
       explanations: {
-        A: 'Correct. Flexor pollicis longus arises from the shaft of the radius and the interosseous membrane and has no humeral attachment, so the elbow is above its origin.',
+        A: 'Flexor pollicis longus arises from the shaft of the radius and the interosseous membrane and has no humeral attachment, so the elbow is above its origin.',
         B: 'Pronator teres arises from the medial epicondyle and crosses the joint.',
         C: 'Flexor carpi radialis arises from the common flexor origin on the medial epicondyle and crosses.',
         D: 'Flexor carpi ulnaris arises from the medial epicondyle by one head and crosses.',
@@ -2332,7 +2332,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'A',
       answerOverrideReason: 'The printed key is C, flexor carpi radialis, which arises from the medial epicondyle and so does cross the elbow. The muscle that does not is flexor pollicis longus, one of the deep group arising wholly from the bones of the forearm.',
       explanations: {
-        A: 'Correct. Every muscle of the deep flexor group arises below the elbow, which is why they escape a common flexor origin injury.',
+        A: 'Every muscle of the deep flexor group arises below the elbow, which is why they escape a common flexor origin injury.',
         B: 'Pronator teres crosses the joint from the medial epicondyle.',
         C: 'Flexor carpi radialis crosses. It is the printed key and it is one of the four muscles that do.',
         D: 'Flexor carpi ulnaris crosses.',
@@ -2351,7 +2351,7 @@ export const LEAF: McqLeafSeed = {
         B: 'Extensor carpi radialis longus abducts as well as extending.',
         C: 'Extensor carpi radialis brevis does the same.',
         D: 'Abductor pollicis longus crosses the radial side of the wrist on its way to the thumb and assists abduction there, which is what its name records. It is the printed key and it names a genuine abductor.',
-        E: 'Correct, and the answer. Palmaris longus runs down the middle of the forearm to the palmar aponeurosis; a muscle in the midline can flex but cannot pull the hand to either side.',
+        E: 'This is the answer. Palmaris longus runs down the middle of the forearm to the palmar aponeurosis; a muscle in the midline can flex but cannot pull the hand to either side.',
       },
     },
     {
@@ -2366,7 +2366,7 @@ export const LEAF: McqLeafSeed = {
         B: 'Extends and abducts.',
         C: 'Extends and abducts.',
         D: 'Crosses the radial side of the wrist and assists abduction.',
-        E: 'Correct. Palmaris longus lies in the midline and produces pure flexion.',
+        E: 'Palmaris longus lies in the midline and produces pure flexion.',
       },
     },
     {
@@ -2380,7 +2380,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Brachialis forms the medial part of the floor.',
         B: 'Supinator forms the lateral part of the floor.',
         C: 'The line joining the two epicondyles is the base of the triangle, at the top.',
-        E: 'Correct, and the answer. The ulnar nerve pierces the medial intermuscular septum in the arm to reach the back of the medial epicondyle, well outside the fossa.',
+        E: 'This is the answer. The ulnar nerve pierces the medial intermuscular septum in the arm to reach the back of the medial epicondyle, well outside the fossa.',
       },
     },
     {
@@ -2395,7 +2395,7 @@ export const LEAF: McqLeafSeed = {
         B: 'The lateral part of the floor.',
         C: 'The upper boundary of the triangle.',
         D: 'Part of the roof, reinforcing the deep fascia and separating the median cubital vein from the artery beneath.',
-        E: 'Correct. The ulnar nerve is behind the medial epicondyle.',
+        E: 'The ulnar nerve is behind the medial epicondyle.',
       },
     },
     {
@@ -2408,7 +2408,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Extensor carpi radialis brevis arises from the common extensor origin.',
         B: 'Extensor carpi ulnaris arises from the common extensor origin too, by its humeral head. It is the printed key here and it is wrong.',
-        C: 'Correct, and the answer. Abductor pollicis longus is deep and arises entirely from the bones of the forearm and the membrane between them.',
+        C: 'This is the answer. Abductor pollicis longus is deep and arises entirely from the bones of the forearm and the membrane between them.',
         D: 'Supinator is a deep muscle but does take an attachment from the lateral epicondyle, along with the radial collateral and anular ligaments and the supinator crest of the ulna.',
         E: 'Extensor digiti minimi arises from the common extensor origin.',
       },
@@ -2423,7 +2423,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'From the common extensor origin.',
         B: 'From the common extensor origin.',
-        C: 'Correct. Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane.',
+        C: 'Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane.',
         D: 'Supinator does take a slip from the lateral epicondyle, even though it belongs to the deep group.',
         E: 'From the common extensor origin.',
       },
@@ -2434,7 +2434,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Name the radial artery’s carpal branches and reject the ulnar ones.',
       explanations: {
-        A: 'Correct. The radial artery gives a palmar carpal branch on the front of the wrist and a dorsal carpal branch in the snuff box, each joining its ulnar fellow to make a carpal arch.',
+        A: 'The radial artery gives a palmar carpal branch on the front of the wrist and a dorsal carpal branch in the snuff box, each joining its ulnar fellow to make a carpal arch.',
         B: 'The common interosseous artery is the ulnar artery’s largest branch.',
         C: 'The anterior interosseous artery comes from the common interosseous and so is ulnar in origin.',
         E: 'The ulnar recurrent arteries, anterior and posterior, are both ulnar branches.',
@@ -2452,7 +2452,7 @@ export const LEAF: McqLeafSeed = {
         A: 'A radial branch, given in the axilla, so not the answer.',
         B: 'A radial branch, given in the spiral groove. It is the printed key and it is one of the three the nerve does give.',
         C: 'A radial branch, also given in the spiral groove, supplying the lower lateral part of the arm.',
-        D: 'Correct, and the answer. The upper lateral cutaneous nerve of the arm is axillary, and it is the patch of skin tested after a shoulder dislocation. The word "upper" is the whole distinction from option C.',
+        D: 'This is the answer. The upper lateral cutaneous nerve of the arm is axillary, and it is the patch of skin tested after a shoulder dislocation. The word "upper" is the whole distinction from option C.',
       },
     },
     {
@@ -2480,7 +2480,7 @@ export const LEAF: McqLeafSeed = {
         A: 'They lie in two planes: the tendons to the middle and ring fingers in front, those to the index and little fingers behind. That arrangement is why the middle and ring fingers are the first to be involved in a tenosynovitis of the common sheath.',
         B: 'Flexor digitorum superficialis is wholly median. It is flexor digitorum profundus that has two nerves, and the two muscles are constantly swapped.',
         C: 'The tendons that separate first and lie superficial are those to the middle and ring fingers, not the index.',
-        D: 'Correct. The median nerve enters the forearm between the two heads of pronator teres and then passes between the humero-ulnar and radial heads of flexor digitorum superficialis, descending on the deep surface of the muscle.',
+        D: 'The median nerve enters the forearm between the two heads of pronator teres and then passes between the humero-ulnar and radial heads of flexor digitorum superficialis, descending on the deep surface of the muscle.',
       },
     },
     {
@@ -2493,9 +2493,9 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Supinator is a deep extensor and is pierced and supplied by the posterior interosseous nerve. The ulnar nerve reaches no muscle in the extensor compartment.',
         B: 'It rotates the radius. The ulna is the fixed bone of the forearm, which is what allows the hand to turn without the elbow moving.',
-        C: 'The floor of the fossa is brachialis medially and supinator laterally; brachioradialis makes the lateral wall. This is the answer the books print and it substitutes a boundary for a floor.',
+        C: 'The floor of the fossa is brachialis medially and supinator laterally; brachioradialis makes the lateral wall. This is the printed answer, and it substitutes a boundary for a floor.',
         D: 'Supinator works in all positions of the elbow and is the muscle relied on when the elbow is extended; it is biceps that needs the elbow flexed.',
-        E: 'Correct. Supination is rotation of the radius so that the palm faces forwards, and supinator is the muscle named for it.',
+        E: 'Supination is rotation of the radius so that the palm faces forwards, and supinator is the muscle named for it.',
       },
     },
     {
@@ -2510,7 +2510,7 @@ export const LEAF: McqLeafSeed = {
         B: 'It rotates the radius, not the ulna.',
         C: 'Brachialis, not brachioradialis, is supinator’s partner in the floor. It is the printed key and it swaps a boundary for the floor.',
         D: 'Supinator acts in any position; biceps is the one that needs flexion.',
-        E: 'Correct. Supinator rotates the radius laterally so that the palm faces forwards.',
+        E: 'Supinator rotates the radius laterally so that the palm faces forwards.',
       },
     },
     {
@@ -2524,7 +2524,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Supinator takes the posterior interosseous nerve.',
         B: 'It rotates the radius; the ulna is fixed.',
         C: 'Brachialis is the muscle that shares the floor with supinator. It is the printed key and it names the lateral boundary instead.',
-        D: 'Correct. Supinator arises from four places — the lateral epicondyle, the radial collateral ligament, the anular ligament and the supinator crest and fossa of the ulna — which is what lets it wrap right round the upper radius.',
+        D: 'Supinator arises from four places — the lateral epicondyle, the radial collateral ligament, the anular ligament and the supinator crest and fossa of the ulna — which is what lets it wrap right round the upper radius.',
       },
     },
     {
@@ -2537,7 +2537,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pronator teres arises from the humerus and the ulna, above the membrane. It is the printed key and it is wrong.',
         B: 'Palmaris longus arises from the common flexor origin on the medial epicondyle.',
-        C: 'Correct. Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane between them.',
+        C: 'Abductor pollicis longus arises from the backs of the ulna and radius and the interosseous membrane between them.',
         D: 'Extensor digitorum arises from the common extensor origin on the lateral epicondyle.',
       },
     },
@@ -2550,7 +2550,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Supinator is the one muscle of the forearm with a ligamentous origin: it arises from the lateral epicondyle, the radial collateral ligament of the elbow, the anular ligament and the supinator crest of the ulna.',
       explanations: {
         A: 'Extensor carpi radialis brevis arises from the common extensor origin on the lateral epicondyle only.',
-        B: 'Correct. Supinator’s origin from the radial collateral and anular ligaments is what lets it wrap round the upper third of the radius and rotate it.',
+        B: 'Supinator’s origin from the radial collateral and anular ligaments is what lets it wrap round the upper third of the radius and rotate it.',
         C: 'Extensor carpi ulnaris arises from the common extensor origin and the posterior border of the ulna.',
         D: 'Extensor digitorum arises from the common extensor origin.',
       },
@@ -2565,7 +2565,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Extensor carpi radialis brevis arises from the common extensor origin.',
         B: 'Extensor digitorum arises from the common extensor origin.',
-        C: 'Correct, and the answer. Extensor carpi radialis longus arises from the lateral supracondylar ridge above the epicondyle, alongside brachioradialis — which is why the two of them share a nerve supply from the radial trunk while the rest of the compartment takes the posterior interosseous nerve.',
+        C: 'This is the answer. Extensor carpi radialis longus arises from the lateral supracondylar ridge above the epicondyle, alongside brachioradialis — which is why the two of them share a nerve supply from the radial trunk while the rest of the compartment takes the posterior interosseous nerve.',
         D: 'Extensor digiti minimi arises from the common extensor origin.',
         E: 'Extensor carpi ulnaris arises from the common extensor origin by its humeral head.',
       },
@@ -2579,7 +2579,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The printed key is A, extensor carpi radialis brevis, which does arise from the common extensor origin — it is the shorter of the pair precisely because it starts lower. The longus arises higher, from the lateral supracondylar ridge, and is the exception.',
       explanations: {
         A: 'From the common extensor origin. It is the printed key and it is one of the four that do.',
-        C: 'Correct. Extensor carpi radialis longus comes from the lateral supracondylar ridge, above the epicondyle.',
+        C: 'Extensor carpi radialis longus comes from the lateral supracondylar ridge, above the epicondyle.',
         D: 'From the common extensor origin.',
         E: 'From the common extensor origin.',
       },
@@ -2593,7 +2593,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Extensor carpi radialis longus extends and abducts the wrist.',
         B: 'Extensor carpi ulnaris extends and adducts it.',
         C: 'Extensor digitorum extends the fingers and, continuing past the wrist, helps extend it too.',
-        D: 'Correct. Brachioradialis inserts on the lower end of the radius, above the wrist joint, and never crosses it; it flexes the elbow and rotates the forearm to mid-prone, and is the one muscle in the extensor compartment that extends nothing.',
+        D: 'Brachioradialis inserts on the lower end of the radius, above the wrist joint, and never crosses it; it flexes the elbow and rotates the forearm to mid-prone, and is the one muscle in the extensor compartment that extends nothing.',
       },
     },
     {
@@ -2622,7 +2622,7 @@ export const LEAF: McqLeafSeed = {
       answerOverride: 'a',
       answerOverrideReason: 'The 2022 paper printed no key and the recovered answer sheet has no entry for this source, so the answer comes from the department book. The book puts pronator quadratus in the deep flexor group but gives it only pronation: it runs horizontally across the front of the lower radius and ulna, crosses no joint that can flex, and does not appear in the book\u2019s list of the muscles that flex the wrist. Flexor pollicis longus, flexor digitorum profundus and flexor carpi ulnaris are all on that list.',
       explanations: {
-        a: 'Correct. Pronator quadratus lies in the flexor compartment and is supplied by the anterior interosseous branch of the median nerve like the rest of the deep group, but its fibres run transversely from ulna to radius. A transverse pull can only rotate; it cannot bend a joint, and pronator quadratus crosses none.',
+        a: 'Pronator quadratus lies in the flexor compartment and is supplied by the anterior interosseous branch of the median nerve like the rest of the deep group, but its fibres run transversely from ulna to radius. A transverse pull can only rotate; it cannot bend a joint, and pronator quadratus crosses none.',
         b: 'Flexor pollicis longus flexes the interphalangeal and metacarpophalangeal joints of the thumb and assists at the wrist. Students who have learnt "pollicis longus" as a thumb muscle sometimes forget it is a flexor at all.',
         c: 'Flexor digitorum profundus flexes the distal interphalangeal joints of the medial four fingers, and through them the more proximal joints and the wrist \u2014 it is the only muscle that can bend the last joint of a finger.',
         d: 'Flexor carpi ulnaris flexes and adducts the hand at the wrist. It is the odd one of the superficial group for its nerve, being ulnar rather than median, and a student who remembers it as the exception may reach for it as the exception here too \u2014 but the question is about action, not nerve.',
