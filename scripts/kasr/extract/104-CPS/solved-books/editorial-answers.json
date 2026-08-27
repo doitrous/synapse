@@ -12,6 +12,12 @@
    "cluster": "Anatomy / Heart (tail) + Intercostal Spaces",
    "keyed": 11,
    "excluded": 9
+  },
+  {
+   "batch": 3,
+   "cluster": "Anatomy / Intercostal Spaces + Large Arteries of the Thorax",
+   "keyed": 9,
+   "excluded": 11
   }
  ],
  "keyed": {
@@ -233,6 +239,99 @@
     "C": "The posterior intercostal arteries for the first two spaces arise from the superior (supreme) intercostal artery, a branch of the costocervical trunk off the subclavian artery, not directly from the descending thoracic aorta (which supplies the third space downward)."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-intercostal-nerve-mark-one-correct-statement-39200e19": {
+   "answer": "A",
+   "explanation": "The typical intercostal nerve, together with the intercostal vessels, runs in the neurovascular plane between the internal intercostal muscle and the innermost intercostal muscle, lying in the costal groove along the lower border of the rib above -- this is the standard, universally-taught course of the nerve. This layering matters clinically because it is why a needle inserted just above the lower rib of a space (to avoid the neurovascular bundle hugging the rib above) is the safe technique for procedures like thoracocentesis. The takeaway is to remember the three-layer intercostal muscle stack (external, internal, innermost) with the neurovascular bundle sandwiched between the inner two, not simply 'under a rib'.",
+   "distractorNotes": {
+    "B": "The intercostal nerves supply sensory branches to the parietal pleura, but 'motor branches to the pleura' is not a meaningful category since pleura has no skeletal muscle to motor-innervate.",
+    "C": "A thoracoabdominal course, continuing from the thorax into the anterior abdominal wall, is a feature of the lower intercostal nerves (roughly the 7th to 11th) and the subcostal nerve, not the 5th, which stays confined to its intercostal space.",
+    "D": "The classic costal-groove order from superior to inferior is vein, artery, then nerve (mnemonic VAN) -- the nerve lies below both vessels, not sandwiched between the artery and vein.",
+    "E": "While plausible on its own (the subcostal nerve does continue into the abdominal wall), this statement describes the subcostal nerve specifically rather than 'the intercostal nerve' the question is asking about, making option A the more directly correct and unambiguous choice."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-14f45925": {
+   "answer": "B",
+   "explanation": "The V1 chest lead's exploring electrode is placed in the fourth intercostal space at the right sternal border, immediately adjacent to its mirror-image partner V2 (fourth intercostal space, left sternal border). Together V1 and V2 sit closest to the right ventricle and interventricular septum, which is why they are the standard leads used to assess right heart forces and septal depolarisation. The takeaway is the full precordial lead map: V1 right sternal border, V2 left sternal border, V3 midway between V2 and V4, V4 fifth intercostal space midclavicular line, V5 anterior axillary line at the same horizontal level as V4, and V6 midaxillary line at that same level.",
+   "distractorNotes": {
+    "A": "The fourth intercostal space at the LEFT sternal border is the placement for V2, not V1.",
+    "C": "The fifth intercostal space at the midclavicular line is the placement for V4, not V1.",
+    "D": "The fifth intercostal space at the anterior axillary line is the placement for V5, not V1."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-fc99a24d": {
+   "answer": "B",
+   "explanation": "This is a duplicate of the sibling V1-lead-placement question; the answer is unchanged: V1's exploring electrode sits in the fourth intercostal space at the right sternal border. This placement, closest to the right atrium and ventricle, is what makes V1 the lead of choice for detecting right-axis or right-ventricular abnormalities and for characterising the P wave's terminal (left atrial) component. As with the sibling question, the reliable way to answer any V-lead placement question is to walk the full precordial map from V1 through V6 rather than memorising each lead in isolation.",
+   "distractorNotes": {
+    "A": "Fourth intercostal space, left sternal border, is V2's position, not V1's.",
+    "C": "Fifth intercostal space, midclavicular line, is V4's position, not V1's.",
+    "D": "Fifth intercostal space, anterior axillary line, is V5's position, not V1's."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-ef-the-following-are-muscles-of-inspiration-0eea2c0f": {
+   "answer": "C",
+   "explanation": "The diaphragm and the external intercostal muscles are the principal muscles of inspiration: diaphragmatic contraction flattens its dome to increase the vertical dimension of the thoracic cavity, while external intercostal contraction elevates the ribs to increase the anteroposterior and transverse dimensions. Both act to expand thoracic volume and thereby drop intrapleural (and alveolar) pressure below atmospheric, drawing air in -- the defining mechanical requirement of any inspiratory muscle. The takeaway is to pair the diaphragm consistently with the external (not internal) intercostals as the resting-inspiration team, reserving internal intercostals and abdominal muscles for expiration.",
+   "distractorNotes": {
+    "A": "Abdominal muscles are expiratory (they raise intra-abdominal pressure to push the diaphragm up), not inspiratory.",
+    "B": "Abdominal muscles are expiratory, so pairing them with the diaphragm mixes an inspiratory muscle with an expiratory one.",
+    "D": "Internal intercostals depress the ribs and are recruited for forced expiration, the functional opposite of the external intercostals needed for inspiration."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-are-muscles-of-inspiration-5936e8bb": {
+   "answer": "C",
+   "explanation": "This is a duplicate of the sibling inspiration-muscles question, with the identical correct pairing: the diaphragm and external intercostal muscles are the muscles of (quiet) inspiration, expanding the thorax in its vertical and anteroposterior/transverse dimensions respectively. Internal intercostals and abdominal wall muscles instead belong to the expiratory group, active mainly during forced expiration, so any option pairing them with the diaphragm as 'inspiratory' is incorrect. The consistent exam rule is: external intercostals and diaphragm = inspiration; internal intercostals and abdominal muscles = (forced) expiration.",
+   "distractorNotes": {
+    "A": "Abdominal muscles are expiratory, not inspiratory, muscles.",
+    "B": "Pairing the diaphragm with abdominal muscles mixes an inspiratory muscle with an expiratory one.",
+    "D": "Internal intercostals are expiratory muscles, the functional opposite of what quiet inspiration requires."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "all-of-following-are-branches-of-descending-thoracic-aorta-e-59eb3cb8": {
+   "answer": "C",
+   "explanation": "The left subclavian artery is the third branch of the arch of the aorta itself (after the brachiocephalic trunk and the left common carotid artery), not a branch of the descending thoracic aorta, which begins only after the arch ends at the lower border of T4. The descending thoracic aorta's genuine branches include the posterior intercostal arteries (typically the third through eleventh spaces), the subcostal artery, bronchial and oesophageal branches, and small pericardial and mediastinal branches. The takeaway is to keep arch-of-aorta branches (brachiocephalic trunk, left common carotid, left subclavian) strictly separate from descending-thoracic-aorta branches (posterior intercostals, subcostal, bronchial, oesophageal).",
+   "distractorNotes": {
+    "A": "Posterior intercostal arteries genuinely arise from the descending thoracic aorta, supplying most intercostal spaces below the second.",
+    "B": "The subcostal artery, running below the twelfth rib, genuinely arises from the descending thoracic aorta as its most inferior named branch.",
+    "D": "Bronchial arteries genuinely arise from the descending thoracic aorta (usually one right, two left) to supply the lung parenchyma via the systemic circulation.",
+    "E": "Oesophageal branches genuinely arise directly from the descending thoracic aorta to supply the mid-oesophagus."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "blood-flows-into-the-coronary-arteries-arises-from-the-20f83d05": {
+   "answer": "B",
+   "explanation": "The coronary arteries arise from the aortic sinuses (of Valsalva), small dilations located just above the aortic valve at the root of the ascending aorta -- specifically the right and left coronary arteries arise from the right and left posterior aortic sinuses respectively. Coronary filling therefore depends on the ascending aorta's pressure and occurs predominantly during diastole, when the aortic valve cusps are closed and blood in the sinuses is not being swept past the coronary ostia into the ventricle. The exam takeaway is to anchor coronary artery origin specifically to the ascending aorta's root/sinuses, not the arch, descending aorta, or any other great vessel.",
+   "distractorNotes": {
+    "A": "The descending aorta lies well beyond the aortic sinuses and gives rise to intercostal, subcostal, bronchial, and oesophageal branches, not the coronary arteries.",
+    "C": "The pulmonary trunk carries deoxygenated blood to the lungs and plays no role in coronary artery origin (the rare congenital exception, ALCAPA, is a pathology, not normal anatomy).",
+    "D": "The superior vena cava is a systemic vein returning blood to the right atrium; it has no arterial branches and cannot be the source of the coronary arteries."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da": {
+   "answer": "B",
+   "explanation": "The brachiocephalic (innominate) trunk is the first and largest of the three great branches given off the arch of the aorta, followed by the left common carotid artery and then the left subclavian artery -- this branching order is one of the most frequently tested facts about the aortic arch. The other listed statements are false versions of related facts: the arch actually lies below (not above) the suprasternal notch, connects to the pulmonary trunk via the ligamentum arteriosum (not the unrelated ligamentum venosum, a liver structure), and is related to the mediastinal pleura of the left lung (not the right), since the arch curves over the left side of the thorax. The takeaway is to fix the three-branch order (brachiocephalic, left common carotid, left subclavian) as the arch's signature anatomical fact.",
+   "distractorNotes": {
+    "C": "The arch of the aorta is connected to the left pulmonary artery by the ligamentum arteriosum, not to the pulmonary trunk by the ligamentum venosum -- the ligamentum venosum is an unrelated fetal remnant found in the liver.",
+    "D": "The left recurrent laryngeal nerve, not the vagus trunk itself, is the structure classically described hooking below the arch of the aorta (behind the ligamentum arteriosum); the vagus nerve descends along the arch's left side rather than crossing behind the subclavian artery as stated.",
+    "E": "The arch of the aorta, arching leftward over the left main bronchus, is in contact with the mediastinal pleura of the left lung, not the right lung."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-trachea-in-thorax-the-following-statements-are-9cd4602d": {
+   "answer": "B",
+   "explanation": "The trachea in the thorax ends (bifurcates into the two main bronchi) at the level of the sternal angle, corresponding to the lower border of the fourth thoracic vertebra / upper border of the fifth (T4/T5), not at the third thoracic vertebra as this option states, making it the false statement this EXCEPT-question is looking for. The other statements are standard, correct tracheal anatomy: its wall is supported by 16-20 incomplete C-shaped hyaline cartilage rings, it lies immediately anterior to the oesophagus in the thorax, it is crossed anteriorly/superiorly by the arch of the aorta as the arch passes over the left main bronchus, and the left subclavian artery lies along its left side as both structures ascend through the superior mediastinum/root of the neck. The exam takeaway is the precise bifurcation level (T4/T5, at the sternal angle), a frequently swapped numeric detail in this kind of question.",
+   "distractorNotes": {
+    "A": "True: the tracheal wall is supported by 16 to 20 incomplete, C-shaped hyaline cartilage rings, open posteriorly where the trachealis muscle closes the gap.",
+    "C": "True: the oesophagus lies directly posterior to the trachea throughout its thoracic course.",
+    "D": "True: the arch of the aorta crosses over the left main bronchus near the tracheal bifurcation, related to the trachea's lower thoracic part.",
+    "E": "True: the left subclavian artery runs along the left side of the trachea as both ascend toward the neck through the superior mediastinum."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -289,6 +388,39 @@
   },
   "the-opening-of-the-inferior-vena-cava-is-guarded-on-its-righ-760729ed": {
    "reason": "The stem states a right-ventricle-EXCEPT question's options (papillary muscles, chordae tendinae, moderator band-style content) have been merged onto an unrelated inferior-vena-cava/right-atrium stem, and options C and D are themselves truncated mid-sentence. This is the same class of cross-question corruption seen elsewhere in this cluster and cannot be resolved into one coherent question."
+  },
+  "regarding-the-apex-of-the-heart-select-the-incorrect-stateme-b4d0740f": {
+   "reason": "Only three options survived and all three (apex formed totally by the left ventricle; directed downward, forward, and left; lying opposite the left 5th intercostal space) are individually true statements of standard cardiac surface anatomy -- the same pattern as this cluster's sibling apex-of-heart question. The false statement the question needs was almost certainly in a missing fourth or fifth option."
+  },
+  "regarding-the-external-intercostal-muscle-one-of-the-followi-e9d10d6e": {
+   "reason": "The stem is a corrupted merge of two separate questions (external intercostal muscle fibre direction/attachments, and a second question about intercostal nerves), and the surviving lettered options (A-C) belong to the second, unrelated intercostal-nerve question rather than to the external-intercostal-muscle question the visible stem asks about. No single coherent question can be recovered."
+  },
+  "subcostal-arteries-regarding-the-beginning-of-arch-of-aorta-7d074006": {
+   "reason": "None of the three surviving options precisely matches the textbook description (the arch begins opposite the second right sternocostal joint, at the level of the T4/T5 intervertebral disc) -- each combines a plausible detail with an incorrect space number or side (left/right 3rd intercostal space, or the disc's left rather than right/midline side). The correct option was most likely the missing fourth choice."
+  },
+  "the-apex-of-the-heart-is-normally-located-at-the-8b396c0d": {
+   "reason": "No surviving option combines the textbook-correct location (5th left intercostal space, roughly 9 cm from the midline, near the midclavicular line) -- each option pairs one correct detail (space number, or an approximate distance) with one incorrect detail (wrong line/landmark, wrong space, or a distance that does not match standard teaching), so no single option can be confidently selected without the exact figure this source used."
+  },
+  "the-s-a-node-is-situated-in-the-wall-of-right-atrium-in-fron-b11855b9": {
+   "reason": "The stem is a corrupted merge of an SA-node-location question with fragments of an unrelated aortic-arch-position option and a brachiocephalic-vein option; the surviving option list mixes anatomically unrelated statements and cannot be resolved into one coherent question."
+  },
+  "the-se-ieleted-thoracic-ther-select-the-incorrect-statement-3d2d92df": {
+   "reason": "The stem itself is garbled ('The se ieleted thoracic ther'), evidently a mangled reference to the descending thoracic aorta, and all three surviving options (posterior intercostal arteries to the lower nine spaces; begins at the T4/T5 disc level; gives oesophageal branches) are individually true statements about that vessel. The false statement this EXCEPT-question needs was almost certainly in a missing option A."
+  },
+  "which-of-the-following-statements-is-incorrect-concerning-th-4c763ab1": {
+   "reason": "The likely correct (false) statement -- that intercostal nerves provide motor innervation to the diaphragm, which is false since the diaphragm's sole motor supply is the phrenic nerve -- is embedded in the stem itself without a surviving option letter, while only options B and D (both individually true) remain in the options dictionary. There is no clean, lettered option to assign this answer to."
+  },
+  "concerning-the-heart-mark-the-correct-statement-1-8c625a04": {
+   "reason": "Both surviving options are false under standard cardiac anatomy: the tricuspid valve regulates flow between the right atrium and right ventricle and has no relation to the left ventricle or aorta, and the coronary arteries arise from the ascending aorta's sinuses rather than from the arch of the aorta. The correct statement was in a missing option that did not survive extraction."
+  },
+  "its-apex-is-directed-anteriorly-7532acaa": {
+   "reason": "The stem and options are an incoherent merge of fragments from at least two different questions -- something about an 'apex directed anteriorly' with a transverse-process attachment, mixed with branches-of-the-subclavian-artery content (internal mammary artery, third part of the subclavian, brachiocephalic artery). No single coherent question can be recovered."
+  },
+  "one-of-the-following-branches-not-arising-from-descending-th-fd16980d": {
+   "reason": "The extracted 'stem' is an entire OCR'd exam page bleeding together roughly eight distinct, unrelated questions (descending-aorta branches, internal thoracic artery, a posterior-mediastinum tumour vignette, AV-valve structures, internal mammary artery origin, oesophagus anatomy, anterior mediastinum contents, and ductus arteriosus embryology) with the surviving lettered options (A-E: garbled text, azygos vein, body temperature, medullary lymphatic cords, type I pneumocytes) matching none of them. This is unrecoverable as a single question."
+  },
+  "regarding-arch-of-aorta-select-the-correct-statement-397779d3": {
+   "reason": "All three surviving options are false under standard aortic-arch anatomy: the arch ends at the lower border of T4 (not T6), it connects to the LEFT pulmonary artery via the ligamentum arteriosum (not the right), and it begins opposite the second RIGHT sternocostal junction (not the fourth left). The correct statement was in a missing option B that did not survive extraction."
   }
  }
 }
