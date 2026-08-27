@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 1001,
+ "withAnswer": 1016,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -3930,8 +3930,8 @@
     "C": "It obeys the all or none law .",
     "D": "there is almost a special capillary for each muscle fiber ."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -3951,7 +3951,16 @@
    "optionsBefore": [
     "B",
     "C"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Cardiac muscle forms a FUNCTIONAL syncytium, not a true (anatomical) syncytium: individual cardiac muscle cells remain structurally distinct, each with its own nucleus and cell membrane, but are electrically coupled via low-resistance gap junctions at the intercalated discs, allowing action potentials to spread rapidly between cells so the tissue behaves AS IF it were a single continuous unit. This is a critical distinction from a true syncytium (a single continuous mass of cytoplasm shared among many nuclei, as seen in skeletal muscle fibres or the placental syncytiotrophoblast), making the claim that cardiac muscle forms a 'true' syncytium the false statement here. The other statements are correct: intercalated discs do have low electrical resistance (via gap junctions), cardiac muscle does obey the all-or-none law (each chamber contracts maximally or not at all, owing to its functional syncytial spread of excitation), and cardiac muscle is exceptionally richly supplied with capillaries, with roughly one capillary per muscle fibre.",
+    "distractorNotes": {
+     "A": "True: the intercalated discs' gap junctions provide low electrical resistance, enabling rapid, coordinated spread of excitation between cardiac muscle cells.",
+     "C": "True: because excitation spreads through the functional syncytium to the whole chamber, cardiac muscle obeys the all-or-none law at the level of each chamber.",
+     "D": "True: cardiac muscle's high, continuous metabolic (oxidative) demand is matched by an unusually dense capillary network, approaching one capillary per muscle fibre."
+    }
+   }
   },
   {
    "key": "about-the-pacemaker-potential-all-the-following-are-true-exc-233246b9",
@@ -3982,7 +3991,9 @@
    "optionsBefore": [
     "B",
     "C"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely false statement (pacemaker cells have a maximum diastolic potential closer to -60 mV, not as hyperpolarized as -80 to -90 mV, which instead characterises working/contractile myocardium) is embedded unlettered in the stem, and the three lettered options that do survive (unstable resting potential; slope decreased by increased K+ permeability; firing threshold around -45 mV) are all independently, confidently true statements about the pacemaker potential. There is no letter to assign the false statement to."
   },
   {
    "key": "about-the-purkinje-tissue-all-the-following-are-true-except-a1365424",
@@ -6370,8 +6381,8 @@
     "C": "Accumulation of ATP inside cardiomyocytes",
     "D": "Increased the slope of phase 0 of action potential"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -6386,7 +6397,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Electrical Activity of the Heart"
+   "leaf": "Electrical Activity of the Heart",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Myocardial ischemia depletes the ATP supply needed to power the energy-dependent Na+-K+ ATPase pump, inhibiting its function and disrupting the normal transmembrane ionic gradients -- intracellular Na+ accumulates while K+ leaks out of the ischemic cells into the extracellular space, altering resting and action potentials in a way that predisposes to arrhythmias. This mechanism directly explains why the extracellular environment around ischemic myocardium actually shows local HYPERkalaemia (not hypokalaemia), and why phase 0 of the action potential becomes DEPRESSED (slower rate of rise), not accelerated, as ATP and normal ionic gradients are compromised.",
+    "distractorNotes": {
+     "A": "Myocardial ischemia causes local HYPERkalaemia in the extracellular fluid (from impaired Na+-K+ pump function and K+ leaking out of cells), not hypokalaemia.",
+     "C": "Ischemia causes ATP DEPLETION within cardiomyocytes (due to inadequate oxygen supply for aerobic metabolism), not ATP accumulation.",
+     "D": "Ischemia typically DECREASES, not increases, the slope of phase 0 depolarization, as the compromised metabolic and ionic environment impairs fast sodium channel function."
+    }
+   }
   },
   {
    "key": "an-increase-in-afterload-and-venous-compliance-can-cause-str-4dc76b7f",
@@ -6938,8 +6958,8 @@
     "C": "the potential difference between the left leg and the right arm",
     "D": "non of the above"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -6954,7 +6974,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Electrical Activity of the Heart"
+   "leaf": "Electrical Activity of the Heart",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "By Einthoven's triangle convention, standard limb Lead II specifically records the potential difference between the left leg and the right arm, forming one side of the triangle formed by the three limb electrode positions. This is distinct from Lead I (left arm minus right arm) and Lead III (left leg minus left arm), and Lead II's orientation, roughly parallel to the heart's mean electrical axis, is why it typically shows the clearest, most representative P-QRS-T waveform and is the lead most commonly used for basic rhythm monitoring.",
+    "distractorNotes": {
+     "A": "The potential difference between the left arm and right arm defines Lead I, not Lead II.",
+     "B": "The potential difference between the left leg and left arm defines Lead III, not Lead II.",
+     "D": "Since option C correctly describes Lead II, 'none of the above' is incorrect."
+    }
+   }
   },
   {
    "key": "as-the-blood-passes-along-the-tissues-332a11e2",
@@ -7312,8 +7341,8 @@
     "C": "0,004 sec.",
     "D": "0.01 sec."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -7334,7 +7363,16 @@
     "A",
     "B",
     "D"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "At the standard ECG paper speed of 25 mm per second, each small 1 mm square on the horizontal (time) axis represents 0.04 seconds (40 milliseconds), with each larger 5 mm square therefore representing 0.20 seconds -- a fundamental calibration fact used to measure interval durations (PR interval, QRS duration, QT interval) directly off the paper.",
+    "distractorNotes": {
+     "A": "0.4 seconds is ten times too large for a single 1 mm square at standard ECG paper speed.",
+     "C": "0.004 seconds is ten times too small for a single 1 mm square at standard ECG paper speed.",
+     "D": "0.01 seconds does not match the standard 25 mm/sec ECG paper calibration (which gives 0.04 sec per mm)."
+    }
+   }
   },
   {
    "key": "at-the-level-of-the-except-4h-sternum-with-ste-47ed872f",
@@ -8818,7 +8856,9 @@
    ],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Electrical Activity of the Heart"
+   "leaf": "Electrical Activity of the Heart",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Two of the three surviving options contain specific wording issues that create genuine uncertainty about their intended accuracy: option C states 'calcium efflux' during phase II, when the plateau phase is actually characterised by calcium INFLUX (not efflux) balanced against potassium efflux, and option D describes 'long activation' of fast sodium channels, when it is actually their rapid INACTIVATION (not prolonged activation) that contributes to the refractory period. Neither can be confidently selected as precisely and correctly worded without risking a wrong key dressed as a right one."
   },
   {
    "key": "cardiac-output-is-17967bd3",
@@ -10061,8 +10101,8 @@
     "C": "Excitability",
     "D": "Contractility"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -10077,7 +10117,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Electrical Activity of the Heart"
+   "leaf": "Electrical Activity of the Heart",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Chronotropism (from the Greek 'chronos', time) refers specifically to a change in heart rate/rhythm, matching the property of rhythmicity -- the SA node's ability to spontaneously generate the heartbeat's timing. This is one of four classic cardiac physiological properties tested together as a set: chronotropic effects change rate/rhythmicity, dromotropic effects change conduction velocity, bathmotropic effects change excitability/threshold, and inotropic effects change contractile force -- a frequently tested vocabulary distinction.",
+    "distractorNotes": {
+     "B": "Conductivity (conduction velocity through the heart) is described by the term dromotropism, not chronotropism.",
+     "C": "Excitability (threshold for triggering an action potential) is described by the term bathmotropism, not chronotropism.",
+     "D": "Contractility (force of contraction) is described by the term inotropism, not chronotropism."
+    }
+   }
   },
   {
    "key": "clara-cell-degrade-toxins-in-inhaled-air-faede62f",
@@ -11170,8 +11219,8 @@
     "C": "The R-wave coincides with depolarization of the apex of the heart",
     "D": "The Q-wave coincides with cleoolarization of the atria"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -11186,7 +11235,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Electrical Activity of the Heart"
+   "leaf": "Electrical Activity of the Heart",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The Q wave is part of the QRS complex and reflects early ventricular (specifically septal) depolarization, not atrial depolarization -- atrial depolarization is represented exclusively by the P wave, which precedes the QRS complex entirely. This makes the claim that the Q wave coincides with atrial depolarization a clear, confidently identifiable error. The other statements are correctly true: the P wave does represent atrial depolarization, a PR interval of 0.3 seconds is indeed prolonged beyond the normal 0.12-0.20 second range and indicates impaired (delayed) AV conduction, and the R wave is commonly associated with the depolarization wavefront reaching the ventricular apex region early in the QRS sequence via the rapidly-conducting Purkinje fibres there.",
+    "distractorNotes": {
+     "A": "True: the P wave represents atrial depolarization.",
+     "B": "True: a PR interval of 0.3 seconds exceeds the normal range (0.12-0.20 seconds) and indicates delayed (impaired) AV nodal conduction, as in first-degree heart block.",
+     "C": "True: the ventricular apex is among the first regions to depolarize (via the rapidly-conducting Purkinje network reaching it early), contributing significantly to the R wave."
+    }
+   }
   },
   {
    "key": "concerning-the-effects-of-autonomic-nervous-activity-on-the-4c9f1f9f",
@@ -12724,7 +12782,9 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Electrical Activity of the Heart"
+   "leaf": "Electrical Activity of the Heart",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "This is a written-exam model-answer page describing the ionic mechanisms of action potential phases 1 and 2 as prose/bullet content, not a single-best-answer multiple-choice question with genuine distractor options -- the two 'options' are simply fragments of the correct model-answer text itself, not a keyable MCQ as extracted."
   },
   {
    "key": "diacrotic-notch-is-due-to-e9c90ebf",
@@ -17014,8 +17074,8 @@
     "C": "S-T interval",
     "D": "P-R segment"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -17030,7 +17090,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Electrical Activity of the Heart"
+   "leaf": "Electrical Activity of the Heart",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The P-R segment is the isoelectric portion of the ECG tracing specifically spanning the gap between the end of atrial depolarization (end of the P wave) and the start of ventricular depolarization (beginning of the QRS complex) -- this flat segment represents the physiological delay imposed by slow conduction through the AV node, allowing the atria to finish contracting before the ventricles are activated. This is distinct from the P-R INTERVAL, which additionally includes the P wave itself (measuring from the start of atrial depolarization rather than its end).",
+    "distractorNotes": {
+     "A": "The P-wave itself represents atrial depolarization, not the gap/interval between atrial and ventricular depolarization.",
+     "B": "The QRS complex represents ventricular depolarization itself, not the preceding gap between atrial and ventricular depolarization.",
+     "C": "The S-T interval represents the period between the end of ventricular depolarization and the start of ventricular repolarization, unrelated to the atrial-to-ventricular depolarization gap."
+    }
+   }
   },
   {
    "key": "in-aorta-internal-elastic-lamina-is-unclear-because-cf5d90ae",
@@ -27652,8 +27721,8 @@
     "C": "The ventricular volume remains unchanged",
     "D": "Atrial pressure decreases to minimum"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -27668,7 +27737,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "By definition, ventricular volume remains completely unchanged during isovolumetric contraction, since all four cardiac valves are closed at this point -- the AV valves have just shut and the semilunar valves have not yet opened -- so no blood can enter or leave the ventricle even as intraventricular pressure rises steeply due to ongoing myocardial contraction. This phase actually begins with closure of the AV (not semilunar) valves, producing the first (not related to semilunar closure), and by its end left ventricular pressure has risen to just above aortic diastolic pressure (around 80 mmHg, not 10 mmHg) in order to force the aortic valve open.",
+    "distractorNotes": {
+     "A": "Isovolumetric contraction begins with sudden closure of the AV (atrioventricular) valves, not the semilunar valves -- semilunar valve closure instead marks the start of isovolumetric relaxation and produces the second heart sound.",
+     "B": "By the end of isovolumetric contraction, left ventricular pressure has risen to just above aortic diastolic pressure (roughly 80 mmHg), not to a low value like 10 mmHg, which would be insufficient to force open the aortic valve.",
+     "D": "Atrial pressure shows a small rise (the c-wave) during this phase, caused by the AV valves bulging back into the atria, rather than falling to a minimum."
+    }
+   }
   },
   {
    "key": "regarding-the-left-coronary-artery-all-the-followings-are-tr-d0a150af",
@@ -30309,8 +30387,8 @@
     "C": "The end diastolic volume",
     "D": "Arterial blood pressure"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -30325,7 +30403,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Starling's law of the heart states that the strength of ventricular contraction is directly related to the end-diastolic volume -- the degree to which the muscle fibres are stretched by venous filling just before contraction begins (preload) -- within physiological limits. This length-tension relationship allows the heart to automatically adjust its output to match venous return without requiring external neural or hormonal signals, and is the single most fundamental, frequently tested statement of this law.",
+    "distractorNotes": {
+     "A": "Myocardial oxygen supply relates to the heart's metabolic capacity to sustain contraction, not the length-dependent relationship Starling's law describes.",
+     "B": "Stroke volume is the OUTCOME of contraction strength (among other factors), not the variable that Starling's law identifies as determining that strength.",
+     "D": "Arterial blood pressure relates to afterload, a separate determinant of cardiac performance distinct from the preload-based relationship Starling's law describes."
+    }
+   }
   },
   {
    "key": "sternopericardial-ligaments-04ae54f1",
@@ -33578,8 +33665,8 @@
     "C": "90 beat/minute 7",
     "D": "100 beat/minute"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -33594,7 +33681,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Stroke volume equals end-diastolic volume minus end-systolic volume: 130 mL - 70 mL = 60 mL. Since cardiac output equals stroke volume multiplied by heart rate, heart rate equals cardiac output divided by stroke volume: 4800 mL/min divided by 60 mL = 80 beats per minute.",
+    "distractorNotes": {
+     "A": "70 beats/minute does not match the calculation (4800 / 60 = 80, not 70).",
+     "C": "90 beats/minute does not match the calculation.",
+     "D": "100 beats/minute does not match the calculation."
+    }
+   }
   },
   {
    "key": "the-following-data-are-obtained-from-a-patient-the-end-diast-70439a00",
@@ -33605,8 +33701,8 @@
     "C": "90 beat/minute",
     "D": "100 beat/minute"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_d3160d222c8c55775511",
@@ -33621,7 +33717,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Stroke volume equals end-diastolic volume minus end-systolic volume: 120 mL - 70 mL = 50 mL. Heart rate equals cardiac output divided by stroke volume: 4500 mL/min divided by 50 mL = 90 beats per minute.",
+    "distractorNotes": {
+     "A": "70 beats/minute does not match the calculation (4500 / 50 = 90, not 70).",
+     "B": "80 beats/minute does not match the calculation.",
+     "D": "100 beats/minute does not match the calculation."
+    }
+   }
   },
   {
    "key": "the-following-factors-affect-the-rate-of-gas-diffusion-throu-7ed5e46f",
@@ -39933,8 +40038,8 @@
     "B": "Pumping action of skeletal muscles",
     "C": "Venodilatation"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_d3160d222c8c55775511",
@@ -39949,7 +40054,15 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "During exercise, rhythmic contraction of the skeletal muscles surrounding the deep veins of the limbs compresses these vessels, mechanically propelling blood forward toward the heart -- the 'skeletal muscle pump' -- with one-way venous valves preventing backflow between contractions. This mechanism, together with the deeper, more forceful breathing of exercise (which enhances, not reduces, the respiratory pump's contribution to venous return), is one of the two classic muscular/mechanical mechanisms boosting venous return above its resting level during physical activity.",
+    "distractorNotes": {
+     "A": "Exercise INCREASES, not decreases, the depth of respiration, and this deeper breathing actually enhances (not reduces) venous return via the respiratory pump mechanism.",
+     "C": "Venodilatation would increase venous capacitance and tend to pool blood in the veins, reducing rather than enhancing venous return; venoconstriction, not venodilation, helps drive blood back to the heart."
+    }
+   }
   },
   {
    "key": "ventilation-perfusion-v4-q-ratio-a45d5f6c",
@@ -42913,7 +43026,9 @@
     "A",
     "B",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "All three surviving substantive options actually describe factors that HINDER, rather than help, venous return: increased right atrial pressure reduces the pressure gradient driving venous return; positive (rather than negative) intrapleural pressure compresses the great veins and impedes venous return; and increased venous resistance directly reduces venous return by Ohm's-law analogy. The genuinely correct positive contributor (e.g. increased mean systemic filling pressure, the skeletal muscle pump, or negative intrapleural pressure) is not represented with a correct, cleanly-lettered option, and option E has also absorbed an entirely separate, unrelated question stem."
   },
   {
    "key": "which-of-the-following-happens-during-atrial-systole-of-the-2beef02f",
@@ -42924,8 +43039,8 @@
     "C": "The A-V valves are closed",
     "D": "The aortic valve is closed"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -42942,7 +43057,16 @@
    ],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "During atrial systole, which occurs entirely within ventricular diastole before ventricular systole begins, the aortic (and pulmonary) semilunar valve remains closed throughout, since ventricular pressure has not yet risen to challenge it. This is in contrast to the AV valves, which are OPEN during atrial systole (allowing the final 'atrial kick' of blood into the ventricles), and the fact that the majority of ventricular filling (roughly 70-80%) actually occurs passively during the earlier rapid filling phase, before atrial systole even begins, with atrial systole itself typically contributing only the remaining 20-30% in a healthy resting heart. The first heart sound, caused by AV valve closure, occurs only after atrial systole ends, at the very start of ventricular systole.",
+    "distractorNotes": {
+     "A": "The first heart sound occurs at the start of ventricular systole (AV valve closure), after atrial systole has already ended, not during atrial systole itself.",
+     "B": "The majority (roughly 70-80%) of ventricular filling occurs passively during the earlier rapid filling phase of diastole, not specifically during atrial systole, which contributes only the remaining smaller fraction.",
+     "C": "The AV valves are OPEN during atrial systole, allowing the atrial kick to push blood into the ventricles -- the opposite of closed."
+    }
+   }
   },
   {
    "key": "which-of-the-following-happens-during-atrial-systole-of-the-cd69f5c8",
@@ -43009,7 +43133,9 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely embedded claim ('ventricular volume increases rapidly') is actually incorrect for this phase (ventricular volume DECREASES rapidly during rapid ejection, as blood is expelled) and has no surviving option letter in any case, while the two lettered options that do survive (ventricular pressure dropping suddenly; AV valves opening) do not accurately describe the rapid ejection phase either -- pressure is rising or near its peak during rapid ejection, and the AV valves remain closed throughout ventricular systole."
   },
   {
    "key": "which-of-the-following-has-absent-wave-in-recorded-normal-ec-bfb3d84b",
@@ -43301,8 +43427,8 @@
     "C": "Venous obstruction",
     "D": "d-increased myocardial contractility"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -43320,7 +43446,16 @@
    ],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Venous obstruction impedes the return of blood to the heart, reducing ventricular preload (end-diastolic filling) -- and per the Frank-Starling mechanism, reduced preload directly decreases stroke volume and therefore cardiac output. This is the opposite effect from increased blood volume, increased end-diastolic volume, or increased myocardial contractility, all of which enhance either preload or the heart's pumping efficiency and therefore tend to INCREASE, not decrease, cardiac output.",
+    "distractorNotes": {
+     "A": "Increased blood volume typically raises venous return and preload, tending to increase (not decrease) cardiac output via the Frank-Starling mechanism.",
+     "B": "Increased end-diastolic volume (preload) directly increases stroke volume via the Frank-Starling mechanism, increasing (not decreasing) cardiac output.",
+     "D": "Increased myocardial contractility directly increases stroke volume and cardiac output, the opposite of a decrease."
+    }
+   }
   },
   {
    "key": "which-of-the-following-is-characteristic-about-the-conductin-c32dcb44",
@@ -44036,8 +44171,8 @@
     "C": "Rapid filling phase, Isovolumetric relaxation phase, Rapid ejection phase, Atrial systole",
     "D": "Rapid filling phase, Reduced ejection phase, Rapid ejection phase, Isovolumetric contraction phase"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -44052,7 +44187,16 @@
    "variants": [],
    "subject": "Physiology",
    "chapter": "Cardiovascular System",
-   "leaf": "Cardiac Function"
+   "leaf": "Cardiac Function",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The correct sequential order of the cardiac cycle's diastolic-to-systolic transition is: rapid filling phase, followed by the reduced filling phase (diastasis), followed by atrial systole, followed by isovolumetric contraction as ventricular systole begins -- exactly the order given in this option. This sequence correctly reflects the physiology: after the initial burst of passive rapid filling and the slower diastasis phase, the atria contract to top off ventricular filling just before the ventricles begin their own isovolumetric contraction, building pressure with all valves closed before ejection can begin.",
+    "distractorNotes": {
+     "A": "This sequence incorrectly places reduced ejection (a systolic phase) before atrial systole, and isovolumetric relaxation (which should precede rapid filling) after atrial systole, scrambling the correct order.",
+     "C": "This sequence incorrectly places isovolumetric relaxation after rapid filling (it should precede it) and puts rapid ejection and atrial systole in the wrong relative order.",
+     "D": "This sequence incorrectly places reduced ejection before rapid ejection (rapid ejection should come first) and puts isovolumetric contraction after both ejection phases instead of before them."
+    }
+   }
   },
   {
    "key": "which-of-the-following-is-true-about-alveolar-macrophage-4147624c",
@@ -48007,6 +48151,6 @@
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
  "withExternalSolvedBookRecoveredAnswer": 383,
- "withEditorialAnswer": 244,
- "editorialExcludedCount": 144
+ "withEditorialAnswer": 259,
+ "editorialExcludedCount": 149
 }
