@@ -19,7 +19,7 @@
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
-    Macrophage system — 2 questions, 1 concepts
+    Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
@@ -27,7 +27,7 @@
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 13 questions, 3 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 18 questions, 3 concepts
     Respiratory System — Larynx and Airway Wall — 4 questions, 2 concepts
     Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
 
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  3 questions were excluded and 0 held back for having no
+  5 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -10597,6 +10597,282 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-5E58FE45AD3E
+## title
+Heart failure cells are
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Heart failure cells are
+## answer_a
+Ciliated cells
+## explanation_a
+Heart failure cells are haemosiderin-laden alveolar macrophages, not ciliated epithelial cells — cilia belong to the airway lining, not to a free phagocyte within the alveolar lumen.
+## answer_b
+Found in the lining of bronchi
+## explanation_b
+Heart failure cells are found as free cells within the alveolar lumen (having accumulated there from congested pulmonary capillaries in chronic left-sided heart failure), not as a lining component of the bronchi.
+## answer_c
+Flat cells with flat nuclei
+## explanation_c
+Flat cells with flat nuclei describes the thin, squamous Type I pneumocyte lining the alveolus, not the round-to-oval macrophage that is a heart failure cell.
+## answer_d
+Stained with vital stain
+## explanation_d
+Heart failure cells are mononuclear-phagocyte-system macrophages that have engulfed haemoglobin breakdown products (haemosiderin) leaked from congested pulmonary capillaries, and like every cell of that system they take up a vital stain such as trypan blue or Indian ink, accumulating the dye in their cytoplasm — the same identifying property this system's article establishes for the Kupffer cell, the dust cell and every other site-specific member.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## correct_answer
+D
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Macrophage system
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify vital-stain uptake as the property that lets heart failure cells be demonstrated as mononuclear-phagocyte-system macrophages.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p13 q15. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D834B6913FDE
+## title
+origin of dust cell heart failure cell
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+origin of dust cell heart failure cell
+## answer_a
+neutrophil
+## explanation_a
+Neutrophils are short-lived granulocytes recruited acutely to sites of infection; they are not the precursor of any mononuclear-phagocyte-system cell, dust cell or heart failure cell included.
+## answer_b
+lymphocyte
+## explanation_b
+Lymphocytes belong to the adaptive-immunity lineage (T and B cells), developmentally and functionally distinct from the monocyte-derived phagocyte lineage that includes the dust cell and heart failure cell.
+## answer_c
+monocyte
+## explanation_c
+Every cell of the mononuclear phagocyte system — the dust cell and heart failure cell of the lung included, alongside the Kupffer cell of the liver, the microglial cell of the CNS and the osteoclast of bone — differentiates from a blood monocyte. A common trap: treating each site-specific name as its own separate cell line rather than one lineage read by address.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## answer_d
+eosinophil
+## explanation_d
+Eosinophils are granulocytes specialised for parasite defence and allergic reactions, not the precursor of the monocyte-derived alveolar phagocytes.
+## correct_answer
+C
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Histology-general
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the dust cell and the heart failure cell, like every mononuclear-phagocyte-system cell, differentiate from the blood monocyte.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q64. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-137778384176
+## title
+special stain for heart failure cell
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+special stain for heart failure cell
+## answer_a
+toluidine blue
+## explanation_a
+Toluidine blue is used to demonstrate the metachromatic granules of mast cells, not to vitally stain a mononuclear-phagocyte-system cell such as the heart failure cell.
+## answer_b
+methyl blue
+## explanation_b
+Methyl blue is not the vital stain this system's cells are demonstrated with in the department book; trypan blue (or Indian ink) is the one named.
+## answer_c
+azure
+## explanation_c
+Azure dyes are components of Romanowsky-type blood stains used for general blood-film morphology, not the specific vital stain used to demonstrate phagocytic uptake in a living or freshly injected system.
+## answer_d
+trypan blue
+## explanation_d
+Trypan blue, injected as a vital stain, is taken up and accumulated in the cytoplasm of every mononuclear-phagocyte-system cell — the heart failure cell (a haemosiderin-laden alveolar macrophage) included — which is exactly the property that lets the system's members be demonstrated and mapped across all of its named sites.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## correct_answer
+D
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Histology-general
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name trypan blue as a vital stain that demonstrates the heart failure cell, sharing this identifying feature with every mononuclear-phagocyte-system cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q65. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-584C50B35C60
 ## title
 All contain B-lymph except ------------- with T-lymphocyte
@@ -13170,6 +13446,282 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7BF451B7DCB6
+## title
+function of Nasal fossae is ------------- by increasing surface area
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+function of Nasal fossae is ------------- by increasing surface area
+## answer_a
+improve conduction of air
+## explanation_a
+Conduction of air is simply moving it through the passage; increasing the mucosa's surface area is specifically about acting on the air passing over it, which is conditioning, not conduction.
+## answer_b
+improve conditioning of air
+## explanation_b
+Increasing the respiratory mucosa's surface area, by the conchae's shelf-like projections into the airstream, improves the conditioning (warming, humidifying, filtering) of inspired air -- the function this leaf's own concept text names directly for the conchae's lamina propria and its venous plexuses.
+
+Why this is right:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
+## answer_c
+improve gas exchange
+## explanation_c
+Gas exchange happens across the thin alveolar-capillary membrane deep in the respiratory portion, not across the thick, vascular nasal mucosa lining the fossae.
+## answer_d
+All the above
+## explanation_d
+Only conditioning, not conduction or gas exchange, is the function this increased surface area serves, so 'all the above' overstates it.
+## correct_answer
+B
+## main_concept
+CON-RES-1FF74892D5B943
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the nasal fossae's surface-area increase (via the conchae) serves to condition, not merely conduct, inspired air.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q12. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-84F5F0031B3D
+## title
+Olfactory cells are:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Olfactory cells are:
+## answer_a
+Regenerative for all three cell types
+## explanation_a
+Regeneration is a real, notable property of olfactory neurons (via the basal stem cells beneath them), but it is not what the three olfactory-mucosa cell types share -- sustentacular and basal cells are not themselves regenerating neurons, so 'regenerative for all three cell types' overstates a property that belongs to the sensory neuron's renewal pathway, not to all three types equally.
+## answer_b
+Provided with microvilli submerged in a fluid layer. |
+## explanation_b
+Apical microvilli submerged in a fluid layer describes the sustentacular (supporting) cell's apex, not the olfactory neuron itself, whose surface feature is instead long, non-motile cilia arising from its olfactory vesicle.
+## answer_c
+Bipolar nerve cells
+## explanation_c
+Olfactory cells are bipolar nerve cells, their dendrite reaching the surface to end in an olfactory vesicle and their axon passing into the lamina propria as an olfactory nerve fibre -- the one plainly neuronal cell among the three olfactory-mucosa cell types.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_d
+rich in yellow pigments
+## explanation_d
+Yellow lipofuscin pigment is the sustentacular cell's own distinguishing content (giving the olfactory mucosa its yellow colour), not a feature of the olfactory neuron.
+## correct_answer
+C
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that olfactory (neuro-sensory) cells are bipolar nerve cells, distinct from the sustentacular cell's microvillous apex and yellow pigment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q27. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-E1540EB719CE
+## title
+Smokers suffer from.disturbed ratio between: oo
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Smokers suffer from.disturbed ratio between: oo
+## answer_a
+Small granule cells & ciliated columnar cells.
+## explanation_a
+Small granule and ciliated cells are not the pairing whose ratio smoking is described as disturbing; the small granule cell's APUD secretory role is unrelated to the mucus-clearance mechanism this question tests.
+## answer_b
+‘Goblet cells & brush cells.
+## explanation_b
+Goblet and brush cells are not the pair implicated; the brush cell's sensory role plays no part in the mucus-accumulation mechanism smoking disturbs.
+## answer_c
+Ciliated cells & goblet cells. oe
+## explanation_c
+In smokers, mucus accumulates in the small airways because the normal ratio between ciliated cells and goblet cells reverses (relatively more mucus-secreting goblet cells, relatively fewer mucus-clearing ciliated cells) -- the same read-only clinical note already carried on this leaf's conducting-portion-epithelium concept, now the direct answer rather than a pitfall aside.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_d
+Goblet cells & smail granule cells. ne oe , 3).. In smokers, the most abundant cells in the respiratory epithelium are:
+## explanation_d
+Goblet and small granule cells are not the pairing described; small granule cells are a minority neuroendocrine population uninvolved in the ciliated/goblet mucus-clearance balance.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name the ciliated-to-goblet-cell ratio as the one smoking disturbs, driving mucus accumulation in the small airways.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p1 q2. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 

@@ -19,7 +19,7 @@
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
-    Macrophage system — 2 questions, 1 concepts
+    Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
@@ -27,7 +27,7 @@
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 13 questions, 3 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 18 questions, 3 concepts
     Respiratory System — Larynx and Airway Wall — 4 questions, 2 concepts
     Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
 
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  3 questions were excluded and 0 held back for having no
+  5 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1137,6 +1137,8 @@ The mononuclear phagocyte system is monocyte-derived phagocytes distributed unde
 mononuclear-phagocyte-system.definition-origin-and-distribution
 ## exam_signal
 src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
 ## article_ids
 +ART-104-HIS-MACROPHAGE-SYSTEM
 ## field_notes
@@ -1964,6 +1966,7 @@ conducting-portion-epithelium.five-cell-types
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p22 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
 ## article_ids
 +ART-104-HIS-NASAL-MUCOSA
 ## field_notes
@@ -1998,6 +2001,7 @@ Olfactory epithelium has three cell types — olfactory neurons, sustentacular c
 olfactory-mucosa.cell-types-and-lamina-propria
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
 ## article_ids
 +ART-104-HIS-NASAL-MUCOSA
 ## field_notes
