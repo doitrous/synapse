@@ -142,8 +142,27 @@ export interface CaseStage {
   optionExplanations?: string[]
   correctIndex?: number
 }
+/**
+ * Presenting observations for a case, shown as a compact strip at the top of
+ * the runner. All fields optional; a case with no `vitals` renders no strip.
+ * Units are fixed by convention (documented per field) rather than stored, to
+ * keep authoring terse. `abnormal` is the author's clinical call *in context*
+ * (a normal range is age/sex/comorbidity dependent), listing the keys to flag.
+ */
+export interface Vitals {
+  hr?: number       // heart rate — bpm
+  bp?: string       // blood pressure — "156/94" (mmHg)
+  rr?: number       // respiratory rate — breaths/min
+  spo2?: number     // oxygen saturation — %  (room air unless `note` says otherwise)
+  temp?: number     // temperature — °C
+  gcs?: number      // Glasgow Coma Scale — /15   (only when relevant)
+  glucose?: number  // capillary glucose — mmol/L (only when relevant)
+  abnormal?: Array<'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'>
+  note?: string     // short qualifier, e.g. "on 4 L O₂ via nasal cannula"
+}
 export interface CaseDetail {
   stages: CaseStage[]
+  vitals?: Vitals
   debrief?: string
   references?: string[]
 }
@@ -176,6 +195,7 @@ const CASES: Record<string, CaseDetail> = {
         answer: 'Low-molecular-weight heparin is appropriate and compatible with breastfeeding; treatment duration and transition should follow specialist guidance.',
       },
     ],
+    vitals: { hr: 118, bp: '108/68', rr: 30, spo2: 91, temp: 37.4, abnormal: ['hr', 'rr', 'spo2'], note: 'room air' },
     debrief: 'Post-partum breathlessness has a short, dangerous differential. The case rewards treating the hypoxia while the diagnosis is still open, then recognising venous thromboembolism and choosing safe anticoagulation.',
     references: ['RCOG · Thromboembolic disease in pregnancy and the puerperium', 'NICE · Venous thromboembolic diseases'],
   },
@@ -188,6 +208,7 @@ const CASES: Record<string, CaseDetail> = {
       { title: 'Diagnosis', prompt: 'The echocardiogram shows an ejection fraction of 30%. What is the diagnosis?', answer: 'Heart failure with reduced ejection fraction (HFrEF).' },
       { title: 'Management', prompt: 'Outline your management.', answer: 'A loop diuretic for congestion, then start the four prognostic pillars — ARNI/ACE inhibitor, beta-blocker, MRA, and SGLT2 inhibitor — titrated with monitoring of U&Es and blood pressure. Treat the underlying cause and modifiable risk factors.' },
     ],
+    vitals: { hr: 94, bp: '148/90', rr: 20, spo2: 94, temp: 36.8, abnormal: ['spo2', 'bp'], note: 'room air' },
     debrief: 'Progressive breathlessness with oedema should trigger a structured assessment for heart failure, confirmation of ventricular function, and treatment that separates symptom relief from prognostic therapy.',
     references: ['NICE NG106 · Chronic heart failure', 'ESC · Heart failure guideline'],
   },
