@@ -478,7 +478,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Partial deletion of the short arm of chromosome 5.',
         B: 'The long arm of chromosome 5 is the same chromosome with the wrong arm. The option set varies chromosome and arm independently, so both have to be remembered.',
         C: 'Chromosome 15 is the wrong chromosome, with the right arm — the mirror of B.',
-        D: 'Wrong on both counts, and in the set to complete the two-by-two.',
+        D: 'In the set to complete the two-by-two.',
       },
     },
     {

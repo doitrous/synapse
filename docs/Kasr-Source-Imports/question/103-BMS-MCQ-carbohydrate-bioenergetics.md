@@ -51,6 +51,12 @@
 
   status is Draft throughout. These need a faculty reviewer.
 
+  resource_ids is populated on every item with src_300847a5fa64809d6c07 |
+  src_07f0a0ff41addf826c7f, the catalogue rows in
+  docs/import-ready/resource/KASR-Y1-department-books.md — import that batch
+  first, or these ids resolve against nothing. The source is also carried in
+  source_citation and author_notes.
+
   Import: Admin › Bulk import → question. Questions land last.
 -->
 
@@ -87,13 +93,13 @@ D
 6.1
 
 ## explanation_a
-6.1 is below the threshold the book uses, and a bond releasing less than 7.3 kcal/mole is by definition a low-energy bond that cannot generate ATP. Choosing it makes ATP's own bond low energy, which would leave the classification with nothing to be measured against.
+6.1 is below the accepted threshold, and a bond releasing less than 7.3 kcal/mole is by definition a low-energy bond that cannot generate ATP. Choosing it makes ATP's own bond low energy, which would leave the classification with nothing to be measured against.
 
 ## answer_b
 6.3
 
 ## explanation_b
-It is the near-miss designed to catch a student who remembers "about six point something". The figure is not approximate in this book: 7.3 kcal/mole is both the value for ATP and the line that separates high-energy from low-energy bonds, so a number below it cannot be right.
+It is the near-miss designed to catch a student who remembers "about six point something". The figure is not approximate: 7.3 kcal/mole is both the value for ATP and the line that separates high-energy from low-energy bonds, so a number below it cannot be right.
 
 ## answer_c
 7.1
@@ -105,7 +111,7 @@ This is the digit-transposition distractor — 7.1 for 7.3 — and it catches re
 7.3
 
 ## explanation_d
-Each of the two terminal phosphate groups of ATP is joined to the rest of the molecule by a high-energy pyrophosphate bond, and on hydrolysis each releases **7.3 kcal/mole** of free energy. That number does more work than any other in the chapter, because the book then uses it to sort every hydrolysable bond in the body into two classes: bonds liberating less than 7.3 kcal/mole are low energy — the phosphate esters, carboxyl esters, glycosidic and peptide bonds — and cannot generate ATP, while bonds liberating 7.3 or more are high energy and are written with a curved double dash. ATP, 2-phosphoenolpyruvate, creatine phosphate and S-adenosylmethionine are the examples. The thing to hold is that ATP is not merely one high-energy compound among many; it is the standard the others are judged against.
+Each of the two terminal phosphate groups of ATP is joined to the rest of the molecule by a high-energy pyrophosphate bond, and on hydrolysis each releases **7.3 kcal/mole** of free energy. That number does more work than any other in the chapter, because it is then used to sort every hydrolysable bond in the body into two classes: bonds liberating less than 7.3 kcal/mole are low energy — the phosphate esters, carboxyl esters, glycosidic and peptide bonds — and cannot generate ATP, while bonds liberating 7.3 or more are high energy and are written with a curved double dash. ATP, 2-phosphoenolpyruvate, creatine phosphate and S-adenosylmethionine are the examples. The thing to hold is that ATP is not merely one high-energy compound among many; it is the standard the others are judged against.
 
 ## topic
 Biomolecules
@@ -174,7 +180,7 @@ kau
 ART-103-BIO-BIOENERGETICS-AND-HIGH-ENERGY-BONDS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the free-energy figure that separates high-energy from low-energy bonds, and sort a list of phosphorylated compounds into the two groups.
@@ -199,7 +205,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p83-q1. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -236,7 +242,7 @@ A
 Adenosine Triphosphate (ATP)
 
 ## explanation_a
-ATP is the immediate energy source for every kind of cellular work the book lists: mechanical work such as muscle contraction, electrical work such as the transmission of nerve impulses, chemical work such as building proteins, and osmotic work such as absorption, secretion and active transport. It is produced by catabolism and spent by anabolism, and the ATP–ADP cycle is what links the two. The detail worth carrying away is how little of it a cell holds — enough for only a few seconds of activity — which is why the cycle turns over so fast and why the surplus has to be stored as something else.
+ATP is the immediate energy source for every kind of cellular work: mechanical work such as muscle contraction, electrical work such as the transmission of nerve impulses, chemical work such as building proteins, and osmotic work such as absorption, secretion and active transport. It is produced by catabolism and spent by anabolism, and the ATP–ADP cycle is what links the two. The detail worth carrying away is how little of it a cell holds — enough for only a few seconds of activity — which is why the cycle turns over so fast and why the surplus has to be stored as something else.
 
 ## answer_b
 Flavin Adenine Dinucleotide (FAD)
@@ -323,7 +329,7 @@ kau
 ART-103-BIO-BIOENERGETICS-AND-HIGH-ENERGY-BONDS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the storage form of high-energy phosphate in muscle, name the enzyme that makes and breaks it, and explain why ATP itself cannot be the store.
@@ -348,7 +354,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p83-q2. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 86, which gives 2. a for Bioenergetics printed question 2. The extraction recorded correct: null with correctSource "none".
 
 ---
@@ -392,7 +398,7 @@ It catches the belief that any phosphorylated compound holds energy. Glucose 6-p
 Phosphoenolpyruvate
 
 ## explanation_b
-This is the harder distractor because phosphoenolpyruvate genuinely is a high-energy compound — the book lists it beside ATP and creatine phosphate. But it is a transient glycolytic intermediate that exists for one step before pyruvate kinase spends it. A store is something a cell holds in reserve, which is exactly what an intermediate is not.
+This is the harder distractor because phosphoenolpyruvate genuinely is a high-energy compound, standing beside ATP and creatine phosphate. But it is a transient glycolytic intermediate that exists for one step before pyruvate kinase spends it. A store is something a cell holds in reserve, which is exactly what an intermediate is not.
 
 ## answer_c
 Creatine phosphate
@@ -473,7 +479,7 @@ kau
 ART-103-BIO-BIOENERGETICS-AND-HIGH-ENERGY-BONDS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the storage form of high-energy phosphate in muscle, name the enzyme that makes and breaks it, and explain why ATP itself cannot be the store.
@@ -498,7 +504,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p83-q3. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 86, which gives 3. c for Bioenergetics printed question 3. The extraction recorded correct: null with correctSource "none".
 
 ---
@@ -542,7 +548,7 @@ This is the option that separates a student who has counted the bonds from one w
 ADP
 
 ## explanation_b
-A high-energy bond is one whose hydrolysis liberates 7.3 kcal/mole or more, and ADP still carries one such pyrophosphate bond — the second of the two that ATP has. ATP has two terminal phosphates joined by high-energy pyrophosphate bonds; hydrolysing the first gives ADP, which retains the second; hydrolysing that gives AMP, which retains none. So of the four options only ADP has a bond above the threshold. The other three — AMP, glycerol 3-phosphate and glucose 6-phosphate — are all phosphate esters, and the phosphate ester bond is the book's own worked example of a *low*-energy bond. Carrying a phosphate and being high energy are different things, and this question exists to prise them apart.
+A high-energy bond is one whose hydrolysis liberates 7.3 kcal/mole or more, and ADP still carries one such pyrophosphate bond — the second of the two that ATP has. ATP has two terminal phosphates joined by high-energy pyrophosphate bonds; hydrolysing the first gives ADP, which retains the second; hydrolysing that gives AMP, which retains none. So of the four options only ADP has a bond above the threshold. The other three — AMP, glycerol 3-phosphate and glucose 6-phosphate — are all phosphate esters, and the phosphate ester bond is the standard worked example of a *low*-energy bond. Carrying a phosphate and being high energy are different things, and this question exists to prise them apart.
 
 ## answer_c
 Glycerol 3-phosphate
@@ -554,7 +560,7 @@ Glycerol 3-phosphate is a phosphate ester and therefore low energy. It is chosen
 Glucose 6-phosphate
 
 ## explanation_d
-It is the book's own illustration of a low-energy phosphate ester bond — it is printed as the labelled example in the figure. Choosing it here is choosing the textbook's counter-example.
+It is the standard illustration of a low-energy phosphate ester bond — it is printed as the labelled example in the figure. Choosing it here is choosing the counter-example.
 
 ## topic
 Biomolecules
@@ -623,7 +629,7 @@ kau
 ART-103-BIO-BIOENERGETICS-AND-HIGH-ENERGY-BONDS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the free-energy figure that separates high-energy from low-energy bonds, and sort a list of phosphorylated compounds into the two groups.
@@ -648,7 +654,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p83-q4. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -685,7 +691,7 @@ A
 Anabolic pathway
 
 ## explanation_a
-Anabolism is the biosynthesis of large complex molecules from smaller precursors, and it **consumes** energy; the book notes that anabolic reactions accelerate during growth and the regeneration of cellular material. Its counterpart, catabolism, breaks large molecules down with energy production and accelerates during fasting, physical or mental activity and stress. ATP is what links the two: it is a product of catabolism and a requirement of anabolism. Holding the pair as a direction rather than as two lists is what makes the rest of metabolism legible — every pathway in the course is one, the other, or explicitly both.
+Anabolism is the biosynthesis of large complex molecules from smaller precursors, and it **consumes** energy; anabolic reactions accelerate during growth and the regeneration of cellular material. Its counterpart, catabolism, breaks large molecules down with energy production and accelerates during fasting, physical or mental activity and stress. ATP is what links the two: it is a product of catabolism and a requirement of anabolism. Holding the pair as a direction rather than as two lists is what makes the rest of metabolism legible — every pathway in the course is one, the other, or explicitly both.
 
 ## answer_b
 Catabolic pathway
@@ -772,7 +778,7 @@ kau
 ART-103-BIO-BIOENERGETICS-AND-HIGH-ENERGY-BONDS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Classify a named pathway as anabolic, catabolic or amphibolic, and say which of the three catabolic stages traps no energy.
@@ -797,7 +803,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p83-q5. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -921,7 +927,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Identify the electron donor in a redox pair, rank NAD, FMN, FAD and oxygen by redox potential, and name the product formed at the end of the chain.
@@ -946,7 +952,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p83-q6. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -1070,7 +1076,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Identify the electron donor in a redox pair, rank NAD, FMN, FAD and oxygen by redox potential, and name the product formed at the end of the chain.
@@ -1095,7 +1101,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p83-q7. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 86, which gives 7. d for Bioenergetics printed question 7. The extraction recorded correct: null with correctSource "none".
 
 ---
@@ -1151,7 +1157,7 @@ It is the same claim as option B in different words — a hydrogen ion is a prot
 Electron acceptors
 
 ## explanation_d
-Cytochromes are haemoproteins whose iron alternates between the ferrous and ferric states, and that is a one-electron change — so they accept and pass on **electrons**, not hydrogen atoms and not protons. The book's own table describes complex III, made of cytochromes b and c1, as transferring two electrons from CoQH2 to cytochrome c while two hydrogen ions are released, and complex IV, made of cytochromes a and a3 with two copper atoms, as transferring electrons from cytochrome c to oxygen. That separation of the electron from its proton at coenzyme Q is what creates the pumped protons in the first place, so the fact that cytochromes carry electrons alone is not a labelling detail — it is the mechanism of the gradient.
+Cytochromes are haemoproteins whose iron alternates between the ferrous and ferric states, and that is a one-electron change — so they accept and pass on **electrons**, not hydrogen atoms and not protons. Complex III, made of cytochromes b and c1, transfers two electrons from CoQH2 to cytochrome c while two hydrogen ions are released, and complex IV, made of cytochromes a and a3 with two copper atoms, transfers electrons from cytochrome c to oxygen. That separation of the electron from its proton at coenzyme Q is what creates the pumped protons in the first place, so the fact that cytochromes carry electrons alone is not a labelling detail — it is the mechanism of the gradient.
 
 ## topic
 Biomolecules
@@ -1220,7 +1226,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace an electron from NADH and from FADH2 to oxygen, naming each carrier in order, and state which prosthetic group belongs to complex I and to complex II.
@@ -1245,7 +1251,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p84-q8. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -1369,7 +1375,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace an electron from NADH and from FADH2 to oxygen, naming each carrier in order, and state which prosthetic group belongs to complex I and to complex II.
@@ -1394,7 +1400,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p84-q9. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -1431,7 +1437,7 @@ A
 Two
 
 ## explanation_a
-FAD is fully reduced to FADH2, and the arithmetic is in that formula: two hydrogen atoms have been added, and each hydrogen atom is one proton plus one electron — so **two electrons**. The book states the same stoichiometry from the other direction when it describes complex II as transferring "2 hydrogens from FADH2 to CoQ", and complex I as transferring two hydrogens from NADH. Flavins are the carriers that can do this in one step or in two, which is why they sit at the junctions of the chain where a two-electron donor like NADH has to be handed on to one-electron carriers like the cytochromes.
+FAD is fully reduced to FADH2, and the arithmetic is in that formula: two hydrogen atoms have been added, and each hydrogen atom is one proton plus one electron — so **two electrons**. The same stoichiometry holds from the other direction: complex II transfers "2 hydrogens from FADH2 to CoQ", and complex I transfers two hydrogens from NADH. Flavins are the carriers that can do this in one step or in two, which is why they sit at the junctions of the chain where a two-electron donor like NADH has to be handed on to one-electron carriers like the cytochromes.
 
 ## answer_b
 Three
@@ -1518,7 +1524,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace an electron from NADH and from FADH2 to oxygen, naming each carrier in order, and state which prosthetic group belongs to complex I and to complex II.
@@ -1543,7 +1549,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p84-q10. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -1586,7 +1592,7 @@ It is the near-miss. Complex I is also a flavoprotein, but its flavin is **FMN**
 Complex II
 
 ## explanation_b
-Complex II is **succinate dehydrogenase**, a flavoprotein bound to FAD and two iron–sulphur clusters, and it transfers two hydrogens from FADH2 to coenzyme Q. This complex is worth extra attention because it does two jobs at once: it is a component of the respiratory chain *and* the sixth enzyme of the citric acid cycle — the only cycle enzyme not free in the matrix, and the only one whose coenzyme is FAD. Three questions in this book turn on that single fact, and they look unrelated until you notice that succinate dehydrogenase is the answer to all of them.
+Complex II is **succinate dehydrogenase**, a flavoprotein bound to FAD and two iron–sulphur clusters, and it transfers two hydrogens from FADH2 to coenzyme Q. This complex is worth extra attention because it does two jobs at once: it is a component of the respiratory chain *and* the sixth enzyme of the citric acid cycle — the only cycle enzyme not free in the matrix, and the only one whose coenzyme is FAD. Three questions in this chapter turn on that single fact, and they look unrelated until you notice that succinate dehydrogenase is the answer to all of them.
 
 ## answer_c
 Complex III
@@ -1667,7 +1673,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace an electron from NADH and from FADH2 to oxygen, naming each carrier in order, and state which prosthetic group belongs to complex I and to complex II.
@@ -1692,7 +1698,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p84-q11. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read option b as "Complex IT". Repaired to "Complex II" from the page, where the printed option reads "Complex II" and the answer key gives b.
 
 ---
@@ -1817,7 +1823,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace an electron from NADH and from FADH2 to oxygen, naming each carrier in order, and state which prosthetic group belongs to complex I and to complex II.
@@ -1842,7 +1848,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p84-q12. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -1966,7 +1972,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State which complexes pump protons and which does not, and explain why the P:O ratio for FADH2 is lower than for NADH.
@@ -1991,7 +1997,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p84-q13. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -2115,7 +2121,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Identify the electron donor in a redox pair, rank NAD, FMN, FAD and oxygen by redox potential, and name the product formed at the end of the chain.
@@ -2140,7 +2146,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p84-q14. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -2183,7 +2189,7 @@ It inverts the whole of metabolism. Glucose is a fuel that is oxidised to releas
 water
 
 ## explanation_b
-Complex IV transfers electrons from cytochrome c to oxygen, and the oxygen combines with two protons to form **water**. The book's own definition of the chain closes on this: it "catalyzes the transfer of hydrogen atoms and/or electrons from reduced coenzymes to oxygen to form H2O and ATP". Two things follow that are worth carrying. First, this water is metabolic water — a genuine daily contribution to fluid balance. Second, it explains why the chain stops instantly without oxygen: there is nothing else with a high enough redox potential to take the electrons, so every carrier upstream stays reduced and the whole chain backs up.
+Complex IV transfers electrons from cytochrome c to oxygen, and the oxygen combines with two protons to form **water**. The definition of the chain closes on this: it "catalyzes the transfer of hydrogen atoms and/or electrons from reduced coenzymes to oxygen to form H2O and ATP". Two things follow that are worth carrying. First, this water is metabolic water — a genuine daily contribution to fluid balance. Second, it explains why the chain stops instantly without oxygen: there is nothing else with a high enough redox potential to take the electrons, so every carrier upstream stays reduced and the whole chain backs up.
 
 ## answer_c
 sugar
@@ -2264,7 +2270,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Identify the electron donor in a redox pair, rank NAD, FMN, FAD and oxygen by redox potential, and name the product formed at the end of the chain.
@@ -2289,7 +2295,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p85-q15. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read the stem as "combined to QO to form". Repaired to "O₂" from the page, which prints "combined to O2 to form".
 
 ---
@@ -2414,7 +2420,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State which complexes pump protons and which does not, and explain why the P:O ratio for FADH2 is lower than for NADH.
@@ -2439,7 +2445,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p85-q16. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -2563,7 +2569,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State which complexes pump protons and which does not, and explain why the P:O ratio for FADH2 is lower than for NADH.
@@ -2588,7 +2594,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p85-q17. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -2712,7 +2718,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Predict what happens to electron flow, to ATP synthesis and to heat production when an uncoupler is added, and name the cellular signal that normally accelerates the chain.
@@ -2737,7 +2743,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p85-q18. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -2792,7 +2798,7 @@ Uncoupling separates the two halves of oxidative phosphorylation, and it is the 
 Decreased production of heat
 
 ## explanation_d
-It is the opposite of what happens. Heat production rises — that is the defining consequence, and the reason brown adipose tissue uses thermogenin to uncouple deliberately for non-shivering thermogenesis. The book explicitly attributes the increased heat sensation of thyrotoxicosis, intravenous calcium and aspirin overdose to their uncoupling effect.
+It is the opposite of what happens. Heat production rises — that is the defining consequence, and the reason brown adipose tissue uses thermogenin to uncouple deliberately for non-shivering thermogenesis. Thyrotoxicosis, intravenous calcium and aspirin overdose all produce increased heat sensation through this same uncoupling effect.
 
 ## topic
 Biomolecules
@@ -2861,7 +2867,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Predict what happens to electron flow, to ATP synthesis and to heat production when an uncoupler is added, and name the cellular signal that normally accelerates the chain.
@@ -2886,7 +2892,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p85-q19. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -2941,7 +2947,7 @@ It is the reverse of the truth on the arithmetic. Of the three substrate level p
 Substrate reacts to form a product containing a high energy bond
 
 ## explanation_d
-It is the book's own definition. Substrate level phosphorylation is the oxidation of a substrate to give a product carrying a **high energy bond**, whose energy is then used to phosphorylate ADP or GDP directly, with no respiratory chain involved. There are exactly three such reactions in two pathways, and the list is short enough to learn outright: in glycolysis, phosphoglycerate kinase takes the high-energy phosphate of 1,3-bisphosphoglycerate, and pyruvate kinase takes that of 2-phosphoenolpyruvate; in the citric acid cycle, succinate thiokinase cleaves the high-energy thioester bond of succinyl-CoA. Because none of them needs oxygen, they are the whole of anaerobic ATP production and the only source of ATP a red blood cell has.
+Substrate level phosphorylation is defined as the oxidation of a substrate to give a product carrying a **high energy bond**, whose energy is then used to phosphorylate ADP or GDP directly, with no respiratory chain involved. There are exactly three such reactions in two pathways, and the list is short enough to learn outright: in glycolysis, phosphoglycerate kinase takes the high-energy phosphate of 1,3-bisphosphoglycerate, and pyruvate kinase takes that of 2-phosphoenolpyruvate; in the citric acid cycle, succinate thiokinase cleaves the high-energy thioester bond of succinyl-CoA. Because none of them needs oxygen, they are the whole of anaerobic ATP production and the only source of ATP a red blood cell has.
 
 ## topic
 Biomolecules
@@ -3010,7 +3016,7 @@ kau
 ART-103-BIO-BIOENERGETICS-AND-HIGH-ENERGY-BONDS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the three substrate-level phosphorylation reactions and the pathway each belongs to, and distinguish them from ATP made by oxidative phosphorylation.
@@ -3035,7 +3041,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p85-q20. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -3159,7 +3165,7 @@ kau
 ART-103-BIO-RESPIRATORY-CHAIN
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Predict what happens to electron flow, to ATP synthesis and to heat production when an uncoupler is added, and name the cellular signal that normally accelerates the chain.
@@ -3184,7 +3190,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p85-q21. correctSource, verbatim: "printed key (p86)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read option b as "High NAD* concentration". Repaired to "High NAD⁺ concentration" from the page, which prints the superscript plus.
 
 ---
@@ -3222,7 +3228,7 @@ A
 Succinate dehydrogenase
 
 ## explanation_a
-Every enzyme of the citric acid cycle is a soluble enzyme of the mitochondrial matrix except **succinate dehydrogenase**, which is tightly bound to the inner mitochondrial membrane — where it also serves as complex II of the respiratory chain. That double identity explains a second fact the exam tests separately: succinate dehydrogenase is the only cycle enzyme whose coenzyme is FAD, while the three matrix dehydrogenases all use NAD⁺. It is also why the book notes that the cycle enzymes sit close to the chain enzymes: the reduced coenzymes are handed straight on for reoxidation, and in this one case the handover needs no diffusion at all.
+Every enzyme of the citric acid cycle is a soluble enzyme of the mitochondrial matrix except **succinate dehydrogenase**, which is tightly bound to the inner mitochondrial membrane — where it also serves as complex II of the respiratory chain. That double identity explains a second fact the exam tests separately: succinate dehydrogenase is the only cycle enzyme whose coenzyme is FAD, while the three matrix dehydrogenases all use NAD⁺. It is also why the cycle enzymes sit close to the chain enzymes: the reduced coenzymes are handed straight on for reoxidation, and in this one case the handover needs no diffusion at all.
 
 ## answer_b
 NADH dehydrogenase
@@ -3309,7 +3315,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the one membrane-bound enzyme of the cycle, say which respiratory complex it is, and match each dehydrogenase step of the cycle to its coenzyme.
@@ -3334,7 +3340,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p87-q1. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 89, which gives 1. a. The extraction recorded correct: null with correctSource "none".
 
 ---
@@ -3459,7 +3465,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the one membrane-bound enzyme of the cycle, say which respiratory complex it is, and match each dehydrogenase step of the cycle to its coenzyme.
@@ -3484,7 +3490,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p87-q2. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -3608,7 +3614,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain what the cyclic character of the Krebs cycle actually means, and name the step and enzyme that restore the starting compound.
@@ -3633,7 +3639,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p87-q3. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -3757,7 +3763,7 @@ kau
 ART-103-BIO-BIOENERGETICS-AND-HIGH-ENERGY-BONDS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the three substrate-level phosphorylation reactions and the pathway each belongs to, and distinguish them from ATP made by oxidative phosphorylation.
@@ -3782,7 +3788,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p87-q4. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Suspect flag "option ran on": the extraction merged printed question 5 into option d and produced a spurious option e. Repaired from file page 87, where the printed options are a) Aconitase enzyme, b) Isocitrate dehydrogenase, c) Succinate thiokinase, d) α-Ketoglutarate dehydrogenase. Printed question 5 is authored separately.
 
 ---
@@ -3907,7 +3913,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the one membrane-bound enzyme of the cycle, say which respiratory complex it is, and match each dehydrogenase step of the cycle to its coenzyme.
@@ -3932,7 +3938,7 @@ yes
 
 ## author_notes
 Not present in the 102 INT lane’s extraction: the printed question was swallowed by an OCR run-on into a neighbouring item. Recovered in full from the page. correctSource, established here: "printed key (file page 89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 This item is not in the extracted bank: the 102 lane's OCR merged its stem and first two options into option d of printed question 4, and its remaining options into a spurious option e. Recovered in full from file page 87, and its key read from the printed table on file page 89, which gives 5. b.
 
 ---
@@ -4057,7 +4063,7 @@ kau
 ART-103-BIO-TCA-KEY-ENZYMES
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the three key enzymes of the citric acid cycle and state what activates and inhibits each.
@@ -4082,7 +4088,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p87-q6. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -4206,7 +4212,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the CO2, NADH, FADH2 and ATP yield of one turn of the cycle, and show how the ten-ATP total is assembled from them.
@@ -4231,7 +4237,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p88-q7. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 89, which gives 7. d. The extraction recorded correct: null with correctSource "none". OCR repair: the stem's "Co2" is written CO2.
 
 ---
@@ -4269,13 +4275,13 @@ B
 32
 
 ## explanation_a
-It is the number for a whole *glucose*, completely oxidised — the book's figure of 32 ATP per mole of glucose. One glucose gives two acetyl-CoA, and the cycle is only the last stage of its oxidation, so 32 cannot be the yield of a single acetyl group.
+It is the number for a whole *glucose*, completely oxidised — the standard figure of 32 ATP per mole of glucose. One glucose gives two acetyl-CoA, and the cycle is only the last stage of its oxidation, so 32 cannot be the yield of a single acetyl group.
 
 ## answer_b
 10
 
 ## explanation_b
-The arithmetic is worth carrying rather than the number. One turn of the cycle yields three NADH, one FADH2 and one ATP made at substrate level by succinate thiokinase. Through the respiratory chain the three NADH give 3 × 2.5 = 7.5 ATP and the FADH2 gives 1.5, and adding the substrate-level ATP gives **7.5 + 1.5 + 1 = 10 ATP** per acetyl group. Note that the book's own cycle diagram marks "9 ATP" against the chain arrow, which is the older accounting of 3 ATP per NADH and 2 per FADH2; its text and its answer key both use ten, and ten is what this course teaches.
+The arithmetic is worth carrying rather than the number. One turn of the cycle yields three NADH, one FADH2 and one ATP made at substrate level by succinate thiokinase. Through the respiratory chain the three NADH give 3 × 2.5 = 7.5 ATP and the FADH2 gives 1.5, and adding the substrate-level ATP gives **7.5 + 1.5 + 1 = 10 ATP** per acetyl group. The older accounting of 3 ATP per NADH and 2 per FADH2 is sometimes shown as "9 ATP" against the chain arrow; this course uses 2.5 and 1.5, totalling ten, and ten is the answer this course teaches.
 
 ## answer_c
 20
@@ -4356,7 +4362,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the CO2, NADH, FADH2 and ATP yield of one turn of the cycle, and show how the ten-ATP total is assembled from them.
@@ -4381,7 +4387,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p88-q8. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -4424,7 +4430,7 @@ It is false in itself: three of the cycle's reactions are irreversible, and they
 It is present in all cells of the body
 
 ## explanation_b
-It is factually wrong as well. The cycle is absent from the **red blood cell**, which has no mitochondria at all — a fact the question book tests directly elsewhere in this chapter. Even if it were universal, ubiquity is not amphibolism.
+It is factually wrong as well. The cycle is absent from the **red blood cell**, which has no mitochondria at all — a fact tested directly elsewhere in this chapter. Even if it were universal, ubiquity is not amphibolism.
 
 ## answer_c
 Its metabolites participate in the cell's anabolism as well as catabolism
@@ -4505,7 +4511,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain what amphibolic means, and match each cycle intermediate that leaves the cycle to the anabolic pathway it feeds.
@@ -4530,7 +4536,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p88-q9. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 89, which gives 9. c. The extraction recorded correct: null with correctSource "none".
 
 ---
@@ -4568,7 +4574,7 @@ A
 succinyl CoA
 
 ## explanation_a
-**Succinyl-CoA** leaves the cycle for haem synthesis, where it condenses with glycine in the first and rate-limiting step of the porphyrin pathway; the book also names it as the intermediate used in the oxidation of ketone bodies. This is one of the clearest illustrations of what "amphibolic" means: the same molecule that is an intermediate in the oxidation of acetyl-CoA is also the starting material for a biosynthetic pathway in a different chapter. It is worth linking to two other facts about succinyl-CoA — it is the product of the α-ketoglutarate dehydrogenase complex, and its high-energy thioester bond is what succinate thiokinase cashes for the cycle's only substrate-level ATP.
+**Succinyl-CoA** leaves the cycle for haem synthesis, where it condenses with glycine in the first and rate-limiting step of the porphyrin pathway; it is also the intermediate used in the oxidation of ketone bodies. This is one of the clearest illustrations of what "amphibolic" means: the same molecule that is an intermediate in the oxidation of acetyl-CoA is also the starting material for a biosynthetic pathway in a different chapter. It is worth linking to two other facts about succinyl-CoA — it is the product of the α-ketoglutarate dehydrogenase complex, and its high-energy thioester bond is what succinate thiokinase cashes for the cycle's only substrate-level ATP.
 
 ## answer_b
 Malate
@@ -4655,7 +4661,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain what amphibolic means, and match each cycle intermediate that leaves the cycle to the anabolic pathway it feeds.
@@ -4680,7 +4686,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p88-q10. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -4804,7 +4810,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain what amphibolic means, and match each cycle intermediate that leaves the cycle to the anabolic pathway it feeds.
@@ -4829,7 +4835,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p88-q11. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 89, which gives 11. d. The extraction recorded correct: null with correctSource "none".
 
 ---
@@ -4954,7 +4960,7 @@ kau
 ART-103-BIO-RBC-GLYCOLYSIS-AND-BPG-SHUNT
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why glycolysis is the red cell’s only source of ATP, and what follows from the absence of mitochondria.
@@ -4979,7 +4985,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p88-q12. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -5028,7 +5034,7 @@ Isocitrate dehydrogenase is the step immediately after aconitase, and it is a ke
 α-Ketoglutarate dehydrogenase
 
 ## explanation_c
-It is the answer to the *other* poison question in this chapter. α-Ketoglutarate dehydrogenase is inhibited by arsenic compounds. Swapping the two poisons is the commonest error here, and the question book sets both to find out whether they have been learned as a pair.
+It is the answer to the *other* poison question in this chapter. α-Ketoglutarate dehydrogenase is inhibited by arsenic compounds. Swapping the two poisons is the commonest error here, and both are tested to find out whether they have been learned as a pair.
 
 ## answer_d
 Citrate synthase
@@ -5103,7 +5109,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Match fluoroacetate and arsenic to the cycle enzyme each inhibits, and give the mechanism by which arsenic does it.
@@ -5128,7 +5134,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p88-q13. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction appended the running footer "—— TCA Cycle 82 =" to option d. Removed; the printed option is "Citrate synthase".
 
 ---
@@ -5184,7 +5190,7 @@ Arsenic
 Fluoroacetate
 
 ## explanation_d
-It is the paired poison. Fluoroacetate is converted in the body to fluorocitrate, which inhibits **aconitase**, not α-ketoglutarate dehydrogenase. The two cycle poisons and their two enzymes should be learned as a matched pair, because the question book asks them in both directions.
+It is the paired poison. Fluoroacetate is converted in the body to fluorocitrate, which inhibits **aconitase**, not α-ketoglutarate dehydrogenase. The two cycle poisons and their two enzymes should be learned as a matched pair, because both directions are tested.
 
 ## topic
 Carbohydrate metabolism
@@ -5253,7 +5259,7 @@ kau
 ART-103-BIO-CITRIC-ACID-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Match fluoroacetate and arsenic to the cycle enzyme each inhibits, and give the mechanism by which arsenic does it.
@@ -5278,7 +5284,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p89-q14. correctSource, verbatim: "printed key (p89)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -5333,7 +5339,7 @@ Half of this answer is right and half is a disaccharide, which is the commonest 
 Glucose, fructose, and galactose
 
 ## explanation_d
-Digestion of carbohydrate starts in the mouth, continues in the stomach and finishes in the small intestine, and **the end products are mainly glucose, galactose and fructose** — only monosaccharides are absorbed. Work the meal through and every product is accounted for: starch gives glucose, lactose gives glucose and galactose, sucrose gives glucose and fructose. So all three monosaccharides appear, and no disaccharide does. This is worth doing as a derivation rather than as recall, because the same reasoning answers the next question in the book — if the disaccharidases fail, what accumulates is the *disaccharides*, and they appear in the stool rather than the blood.
+Digestion of carbohydrate starts in the mouth, continues in the stomach and finishes in the small intestine, and **the end products are mainly glucose, galactose and fructose** — only monosaccharides are absorbed. Work the meal through and every product is accounted for: starch gives glucose, lactose gives glucose and galactose, sucrose gives glucose and fructose. So all three monosaccharides appear, and no disaccharide does. This is worth doing as a derivation rather than as recall, because the same reasoning answers the related question — if the disaccharidases fail, what accumulates is the *disaccharides*, and they appear in the stool rather than the blood.
 
 ## topic
 Carbohydrate metabolism
@@ -5402,7 +5408,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the three monosaccharides that enter the blood after a mixed carbohydrate meal, and predict what appears in the stool when the brush-border disaccharidases are deficient.
@@ -5427,7 +5433,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p90-q1. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -5551,7 +5557,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the three monosaccharides that enter the blood after a mixed carbohydrate meal, and predict what appears in the stool when the brush-border disaccharidases are deficient.
@@ -5576,7 +5582,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p90-q2. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -5700,7 +5706,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the insulin-dependent glucose transporter and its tissues, and explain how glucosuria can occur in a person who is not diabetic.
@@ -5725,7 +5731,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p90-q3. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read option a as "GLUTI". Repaired to "GLUT1" from file page 90, where the printed option is "GLUT1".
 
 ---
@@ -5781,7 +5787,7 @@ It is the near-miss the question is built on. SGLT-1 is a sodium-dependent cotra
 SGLT2
 
 ## explanation_d
-**SGLT-2** sits primarily in the proximal renal tubule and accomplishes about **90% of the reabsorption of filtered glucose**, at one sodium to one glucose. If it is deficient, glucose is lost in the urine even though the blood glucose is entirely normal — which is what the vignette is telling you when it says the patient is not diabetic. The book classifies this as **normoglycaemic or renal glucosuria**, and distinguishes it from hyperglycaemic glucosuria, which occurs only when the blood glucose exceeds the renal threshold of 180 mg/dL. Two clinical anchors are worth carrying: pregnancy also lowers the renal threshold and can produce the same finding, and the SGLT-2 inhibitors used in type 2 diabetes work by reproducing this defect deliberately.
+**SGLT-2** sits primarily in the proximal renal tubule and accomplishes about **90% of the reabsorption of filtered glucose**, at one sodium to one glucose. If it is deficient, glucose is lost in the urine even though the blood glucose is entirely normal — which is what the vignette is telling you when it says the patient is not diabetic. This is classified as **normoglycaemic or renal glucosuria**, and distinguishes it from hyperglycaemic glucosuria, which occurs only when the blood glucose exceeds the renal threshold of 180 mg/dL. Two clinical anchors are worth carrying: pregnancy also lowers the renal threshold and can produce the same finding, and the SGLT-2 inhibitors used in type 2 diabetes work by reproducing this defect deliberately.
 
 ## topic
 Carbohydrate metabolism
@@ -5850,7 +5856,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the insulin-dependent glucose transporter and its tissues, and explain how glucosuria can occur in a person who is not diabetic.
@@ -5875,7 +5881,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p90-q4. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -5999,7 +6005,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Contrast hexokinase and glucokinase by site, Km, Vmax, product inhibition and hormonal control, and predict which is active at a given blood glucose.
@@ -6024,7 +6030,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p90-q5. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read the stem as "is induced evens ata and". Repaired from file page 90, which prints "is induced by………. and the conversion of glucose-6-phosphate to glucose (via glucose 6-phosphatase) is activated during ………….".
 
 ---
@@ -6149,7 +6155,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Contrast hexokinase and glucokinase by site, Km, Vmax, product inhibition and hormonal control, and predict which is active at a given blood glucose.
@@ -6174,7 +6180,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p91-q6. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -6298,7 +6304,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
@@ -6323,7 +6329,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p91-q7. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 103, which gives 7. d. The extraction recorded correct: null with correctSource "none". OCR repair: option a's "1 mol NAD*" is written NAD⁺.
 
 ---
@@ -6448,7 +6454,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the committed step of glycolysis with its enzyme and product, list the three irreversible reactions, and give the substrate of aldolase.
@@ -6473,7 +6479,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p91-q8. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -6597,7 +6603,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
@@ -6622,7 +6628,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p91-q9. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -6746,7 +6752,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the committed step of glycolysis with its enzyme and product, list the three irreversible reactions, and give the substrate of aldolase.
@@ -6771,7 +6777,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p91-q10. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -6895,7 +6901,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Match fluoride and arsenic to the glycolytic enzyme each inhibits, and explain why a glucose sample is collected into a fluoride tube.
@@ -6920,7 +6926,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p91-q11. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -6969,7 +6975,7 @@ Phosphoglycerate mutase simply moves the phosphate from carbon 3 to carbon 2 and
 Enolase
 
 ## explanation_c
-It is the paired answer to the *other* inhibitor question in this chapter. Enolase is inhibited by **fluoride**, which binds its active-site magnesium — the reason fluoride goes into a glucose tube. Swapping the two inhibitors is the commonest error, and the book sets both questions to find it.
+It is the paired answer to the *other* inhibitor question in this chapter. Enolase is inhibited by **fluoride**, which binds its active-site magnesium — the reason fluoride goes into a glucose tube. Swapping the two inhibitors is the commonest error, and both questions are set to find it.
 
 ## answer_d
 Pyruvate kinase
@@ -7044,7 +7050,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Match fluoride and arsenic to the glycolytic enzyme each inhibits, and explain why a glucose sample is collected into a fluoride tube.
@@ -7069,7 +7075,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p91-q12. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -7193,7 +7199,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
@@ -7218,7 +7224,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p92-q13. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -7342,7 +7348,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why pyruvate kinase deficiency causes haemolysis, and state the net ATP yield and the products that fail to appear in a red cell that lacks the enzyme.
@@ -7367,7 +7373,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p92-q14. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -7491,7 +7497,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why pyruvate kinase deficiency causes haemolysis, and state the net ATP yield and the products that fail to appear in a red cell that lacks the enzyme.
@@ -7516,7 +7522,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p92-q15. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read option b as "NADP* would increase relative to NADPH" and option d as "NADPH to NADP* ratios". Repaired to the superscript plus from file page 92.
 
 ---
@@ -7572,7 +7578,7 @@ Two is the *normal* net yield, with pyruvate kinase intact. Choosing it means th
 4
 
 ## explanation_d
-Four is the gross production at substrate level in a normal cell, before the two spent in phase I are deducted, and before this deficiency is applied. It is the answer to a different question in this same book, which asks how many ATP are synthesised from ADP by substrate level phosphorylation.
+Four is the gross production at substrate level in a normal cell, before the two spent in phase I are deducted, and before this deficiency is applied. It is the answer to a related question, which asks how many ATP are synthesised from ADP by substrate level phosphorylation.
 
 ## topic
 Carbohydrate metabolism
@@ -7641,7 +7647,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why pyruvate kinase deficiency causes haemolysis, and state the net ATP yield and the products that fail to appear in a red cell that lacks the enzyme.
@@ -7666,7 +7672,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p92-q16. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Suspect flag "option count": the extraction produced two options, the second reading "1 ey 2 d) 4". Repaired from file page 92, where the printed options are a) 0, b) 1, c) 2, d) 4. The printed key on file page 103 gives 16. a.
 
 ---
@@ -7704,7 +7710,7 @@ D
 7
 
 ## explanation_a
-It is the most instructive wrong answer, because 7 is a real figure from this book — it is the net gain of **glycolysis alone** under aerobic conditions, once the five ATP from the two NADH are added to the net two. But the question asks for oxidation all the way to six CO2, which requires pyruvate dehydrogenase and two turns of the citric acid cycle as well.
+It is the most instructive wrong answer, because 7 is a real figure — it is the net gain of **glycolysis alone** under aerobic conditions, once the five ATP from the two NADH are added to the net two. But the question asks for oxidation all the way to six CO2, which requires pyruvate dehydrogenase and two turns of the citric acid cycle as well.
 
 ## answer_b
 12.5
@@ -7722,7 +7728,7 @@ Two is the **anaerobic** net, where the NADH is spent on lactate instead of bein
 32
 
 ## explanation_d
-The book's own table totals the complete oxidation of one mole of glucose at **32 moles of ATP** aerobically, and 2 anaerobically. The itemisation is worth having: from glycolysis, +5 for two NADH through the chain, +2 at phosphoglycerate kinase, +2 at pyruvate kinase and −2 spent; from pyruvate dehydrogenase, +5 for two NADH; and from two turns of the citric acid cycle, +5 at isocitrate dehydrogenase, +5 at α-ketoglutarate dehydrogenase, +2 at succinate thiokinase, +3 for two FADH2 and +5 at malate dehydrogenase. Note that older textbooks give 36 to 38 using 3 ATP per NADH and 2 per FADH2; this course uses 2.5 and 1.5 and therefore 32.
+The complete oxidation of one mole of glucose totals **32 moles of ATP** aerobically, and 2 anaerobically. The itemisation is worth having: from glycolysis, +5 for two NADH through the chain, +2 at phosphoglycerate kinase, +2 at pyruvate kinase and −2 spent; from pyruvate dehydrogenase, +5 for two NADH; and from two turns of the citric acid cycle, +5 at isocitrate dehydrogenase, +5 at α-ketoglutarate dehydrogenase, +2 at succinate thiokinase, +3 for two FADH2 and +5 at malate dehydrogenase. Note that older textbooks give 36 to 38 using 3 ATP per NADH and 2 per FADH2; this course uses 2.5 and 1.5 and therefore 32.
 
 ## topic
 Carbohydrate metabolism
@@ -7791,7 +7797,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
@@ -7816,7 +7822,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p92-q17. correctSource, verbatim: "printed key (p103) names option d, which this question does not have".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 103, which gives 17. d. The extraction recorded correct: null, its correctSource noting that the key named an option d the extracted question did not have. Suspect flag "option count": the extraction produced three options, the third reading "2 ad) 32". Repaired from file page 92, where the printed options are a) 7, b) 12.5, c) 2, d) 32.
 
 ---
@@ -7941,7 +7947,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Contrast hexokinase and glucokinase by site, Km, Vmax, product inhibition and hormonal control, and predict which is active at a given blood glucose.
@@ -7966,7 +7972,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p92-q18. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -8009,7 +8015,7 @@ This is the answer the word "first" tempts a student into. The hexokinase or glu
 Conversion of fructose-6-phosphate to fructose-1,6-bisphosphate
 
 ## explanation_b
-Phosphofructokinase-1 converts fructose 6-phosphate to fructose 1,6-bisphosphate, and the book calls it **the most important control site in the mammalian glycolytic pathway** because it is the **first irreversible reaction unique to glycolysis**. Both halves of that phrase matter: irreversible, so the molecule cannot go back; and unique to glycolysis, so it cannot go anywhere else either. That is why the regulation is concentrated here — PFK-1 is inhibited by ATP, by citrate (a signal that the citric acid cycle is saturated) and by a low pH (which protects an anaerobically working muscle from its own lactic acid), and activated by AMP. Recognising a committed step by these two criteria generalises: the same reasoning identifies acetyl-CoA carboxylase in fatty acid synthesis.
+Phosphofructokinase-1 converts fructose 6-phosphate to fructose 1,6-bisphosphate, and it is **the most important control site in the mammalian glycolytic pathway** because it is the **first irreversible reaction unique to glycolysis**. Both halves of that phrase matter: irreversible, so the molecule cannot go back; and unique to glycolysis, so it cannot go anywhere else either. That is why the regulation is concentrated here — PFK-1 is inhibited by ATP, by citrate (a signal that the citric acid cycle is saturated) and by a low pH (which protects an anaerobically working muscle from its own lactic acid), and activated by AMP. Recognising a committed step by these two criteria generalises: the same reasoning identifies acetyl-CoA carboxylase in fatty acid synthesis.
 
 ## answer_c
 Conversion of glyceraldehydes-3-phosphate to 1,3 bisphosphoglycerate
@@ -8090,7 +8096,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the committed step of glycolysis with its enzyme and product, list the three irreversible reactions, and give the substrate of aldolase.
@@ -8115,7 +8121,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p93-q19. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -8164,13 +8170,13 @@ It is the trap this question is built around. Two is the **net** gain — four m
 4
 
 ## explanation_c
-Glycolysis makes **four** ATP by substrate level phosphorylation per glucose: two at phosphoglycerate kinase and two at pyruvate kinase, each acting once per triose and therefore twice per glucose. Two are spent earlier, at hexokinase or glucokinase and at PFK-1, so the net gain is two — but that is a different number answering a different question. The discipline worth building here is to read whether a stem says *net*, *synthesised*, *by substrate level phosphorylation*, or *total including the chain*, because this book asks all four versions.
+Glycolysis makes **four** ATP by substrate level phosphorylation per glucose: two at phosphoglycerate kinase and two at pyruvate kinase, each acting once per triose and therefore twice per glucose. Two are spent earlier, at hexokinase or glucokinase and at PFK-1, so the net gain is two — but that is a different number answering a different question. The discipline worth building here is to read whether a stem says *net*, *synthesised*, *by substrate level phosphorylation*, or *total including the chain*, because all four versions are tested.
 
 ## answer_d
 36
 
 ## explanation_d
-36 belongs to the older accounting of complete glucose oxidation, which gave 3 ATP per NADH and 2 per FADH2; this book uses 2.5 and 1.5 and totals 32. Either way it is not a glycolytic substrate-level figure.
+36 belongs to the older accounting of complete glucose oxidation, which gave 3 ATP per NADH and 2 per FADH2; this course uses 2.5 and 1.5 and totals 32. Either way it is not a glycolytic substrate-level figure.
 
 ## topic
 Carbohydrate metabolism
@@ -8239,7 +8245,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
@@ -8264,7 +8270,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p93-q20. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -8301,7 +8307,7 @@ A
 Glyceraldehyde-3p-dehydrogenase
 
 ## explanation_a
-The answer turns on counting the ATP each step is ultimately worth rather than the ATP each step makes directly. Glyceraldehyde 3-phosphate dehydrogenase makes no ATP at all — it produces **NADH**, one per triose and therefore two per glucose. Passed through the respiratory chain at 2.5 ATP each, those two NADH are worth **five ATP**, which is more than either substrate-level step yields: phosphoglycerate kinase and pyruvate kinase give two apiece. The book's own energy table lays this out explicitly, crediting +5 to glyceraldehyde 3-phosphate dehydrogenase against +2 for each kinase. The lesson generalises across the whole of metabolism — the dehydrogenases, not the kinases, are where most of the energy is captured.
+The answer turns on counting the ATP each step is ultimately worth rather than the ATP each step makes directly. Glyceraldehyde 3-phosphate dehydrogenase makes no ATP at all — it produces **NADH**, one per triose and therefore two per glucose. Passed through the respiratory chain at 2.5 ATP each, those two NADH are worth **five ATP**, which is more than either substrate-level step yields: phosphoglycerate kinase and pyruvate kinase give two apiece. The energy accounting lays this out explicitly, crediting +5 to glyceraldehyde 3-phosphate dehydrogenase against +2 for each kinase. The lesson generalises across the whole of metabolism — the dehydrogenases, not the kinases, are where most of the energy is captured.
 
 ## answer_b
 Phosphoglycerate kinase
@@ -8388,7 +8394,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
@@ -8413,7 +8419,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p93-q21. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -8456,7 +8462,7 @@ The premise fails: glucokinase is expressed only in liver and pancreatic β-cell
 Phosphofructokinase
 
 ## explanation_b
-This does not fit here. PFK-1 deficiency does exist and does cause a glycogen storage disorder with exercise intolerance, but it is not the enzyme this course pairs with red-cell haemolysis, and the book teaches pyruvate kinase in the red cell.
+This does not fit here. PFK-1 deficiency does exist and does cause a glycogen storage disorder with exercise intolerance, but it is not the enzyme this course pairs with red-cell haemolysis; pyruvate kinase is the enzyme taught for the red cell.
 
 ## answer_c
 Phosphoglucomutase
@@ -8537,7 +8543,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why pyruvate kinase deficiency causes haemolysis, and state the net ATP yield and the products that fail to appear in a red cell that lacks the enzyme.
@@ -8562,7 +8568,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p93-q22. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -8686,7 +8692,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why pyruvate is reduced to lactate when oxygen is absent, naming the enzyme and the cofactor that has to be regenerated.
@@ -8711,7 +8717,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p93-q23. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -8835,7 +8841,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Classify the pyruvate-to-oxaloacetate reaction, name its enzyme, cofactor and allosteric activator, and say where it sits in gluconeogenesis.
@@ -8860,7 +8866,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p93-q24. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -8984,7 +8990,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the enzyme that converts pyruvate to acetyl-CoA, list its coenzymes, and predict what accumulates in blood when it is inhibited by deficiency, by thiamine lack or by arsenic.
@@ -9009,7 +9015,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p93-q25. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction appended the running footer "87 jam" to option d. Removed; the printed option is "Glucose to G-6- P".
 
 ---
@@ -9065,7 +9071,7 @@ It is the commonest wrong answer here. Lactate dehydrogenase is the enzyme that 
 Pyruvate dehydrogenase
 
 ## explanation_d
-The step from pyruvate to acetyl-CoA is catalysed by the **pyruvate dehydrogenase complex**, and it requires NAD⁺ as one of its five coenzymes. Without oxygen the respiratory chain cannot reoxidise NADH, the NADH/NAD⁺ ratio rises, and pyruvate dehydrogenase is inhibited both by lack of NAD⁺ and directly by the accumulating NADH — which the book lists among its allosteric inhibitors, along with acetyl-CoA and ATP. Pyruvate therefore cannot enter the mitochondrion's oxidative route and is diverted to lactate instead. The general principle is worth extracting: every mitochondrial dehydrogenase is switched off by a high NADH/NAD⁺ ratio, which is the same mechanism that confines the citric acid cycle to aerobic conditions.
+The step from pyruvate to acetyl-CoA is catalysed by the **pyruvate dehydrogenase complex**, and it requires NAD⁺ as one of its five coenzymes. Without oxygen the respiratory chain cannot reoxidise NADH, the NADH/NAD⁺ ratio rises, and pyruvate dehydrogenase is inhibited both by lack of NAD⁺ and directly by the accumulating NADH — one of its allosteric inhibitors, along with acetyl-CoA and ATP. Pyruvate therefore cannot enter the mitochondrion's oxidative route and is diverted to lactate instead. The general principle is worth extracting: every mitochondrial dehydrogenase is switched off by a high NADH/NAD⁺ ratio, which is the same mechanism that confines the citric acid cycle to aerobic conditions.
 
 ## topic
 Carbohydrate metabolism
@@ -9134,7 +9140,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the enzyme that converts pyruvate to acetyl-CoA, list its coenzymes, and predict what accumulates in blood when it is inhibited by deficiency, by thiamine lack or by arsenic.
@@ -9159,7 +9165,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p94-q26. correctSource, verbatim: "printed key (p103) read differently by different OCR passes (a/d)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 103, which gives 26. d. The extraction recorded correct: null, its correctSource noting that different OCR passes read the key cell as a or d. The printed cell is unambiguous on the page.
 
 ---
@@ -9197,7 +9203,7 @@ C
 Phosphoenolpyruvate carboxykinase
 
 ## explanation_a
-It is a defensible guess. PEPCK deficiency would impair gluconeogenesis and could raise lactate by preventing its removal — but it would not raise **pyruvate and alanine** as well, and the book names pyruvate dehydrogenase, not PEPCK, as the commonest cause of congenital lactic acidosis.
+It is a defensible guess. PEPCK deficiency would impair gluconeogenesis and could raise lactate by preventing its removal — but it would not raise **pyruvate and alanine** as well, and pyruvate dehydrogenase, not PEPCK, is the commonest cause of congenital lactic acidosis.
 
 ## answer_b
 Phosphofructokinase-1
@@ -9209,7 +9215,7 @@ A block at PFK-1 sits *above* pyruvate, so pyruvate and lactate would fall rathe
 Pyruvate dehydrogenase
 
 ## explanation_c
-The three raised metabolites are what identify it. **Congenital deficiency of the pyruvate dehydrogenase complex is the commonest cause of congenital lactic acidosis.** Pyruvate cannot be converted to acetyl-CoA, so it accumulates — and because pyruvate sits in equilibrium with both lactate (through lactate dehydrogenase) and alanine (through alanine aminotransferase), all three rise together. That triad is the diagnostic signature. The book notes that the condition is fatal and produces brain damage, because the brain depends mainly on glucose for energy and is particularly sensitive to acidosis. Two acquired conditions block the same step and should be held beside it: thiamine deficiency, which removes TPP, and arsenic poisoning, which ties up lipoate.
+The three raised metabolites are what identify it. **Congenital deficiency of the pyruvate dehydrogenase complex is the commonest cause of congenital lactic acidosis.** Pyruvate cannot be converted to acetyl-CoA, so it accumulates — and because pyruvate sits in equilibrium with both lactate (through lactate dehydrogenase) and alanine (through alanine aminotransferase), all three rise together. That triad is the diagnostic signature. The condition is fatal and produces brain damage, because the brain depends mainly on glucose for energy and is particularly sensitive to acidosis. Two acquired conditions block the same step and should be held beside it: thiamine deficiency, which removes TPP, and arsenic poisoning, which ties up lipoate.
 
 ## answer_d
 Pyruvate kinase
@@ -9284,7 +9290,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the enzyme that converts pyruvate to acetyl-CoA, list its coenzymes, and predict what accumulates in blood when it is inhibited by deficiency, by thiamine lack or by arsenic.
@@ -9309,7 +9315,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p94-q27. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -9433,7 +9439,7 @@ kau
 ART-103-BIO-HMP-PATHWAY-AND-G6PD
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the two products of the hexose monophosphate pathway and say which phase of it is irreversible.
@@ -9458,7 +9464,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p94-q28. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -9495,7 +9501,7 @@ A
 NADPH
 
 ## explanation_a
-**NADPH** is the pathway's headline product, and the book calls the hexose monophosphate pathway the main source of it. The oxidative phase produces two NADPH per glucose 6-phosphate, at glucose 6-phosphate dehydrogenase and at 6-phosphogluconate dehydrogenase, and that phase is irreversible. The NADPH is then spent on fatty acid and steroid synthesis, on the NADPH oxidase of phagocytes, on vision, and on keeping glutathione reduced in the red cell. The other product is ribose 5-phosphate, for nucleotides.
+**NADPH** is the pathway's headline product, and the hexose monophosphate pathway is its main source. The oxidative phase produces two NADPH per glucose 6-phosphate, at glucose 6-phosphate dehydrogenase and at 6-phosphogluconate dehydrogenase, and that phase is irreversible. The NADPH is then spent on fatty acid and steroid synthesis, on the NADPH oxidase of phagocytes, on vision, and on keeping glutathione reduced in the red cell. The other product is ribose 5-phosphate, for nucleotides.
 
 ## answer_b
 FADH
@@ -9582,7 +9588,7 @@ kau
 ART-103-BIO-HMP-PATHWAY-AND-G6PD
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the two products of the hexose monophosphate pathway and say which phase of it is irreversible.
@@ -9607,7 +9613,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p94-q29. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -9644,7 +9650,7 @@ A
 Glucose -6- Phosphate dehydrogenase
 
 ## explanation_a
-**Glucose 6-phosphate dehydrogenase (G6PD)** catalyses the first and rate-limiting step of the oxidative phase of the hexose monophosphate pathway, oxidising glucose 6-phosphate to 6-phosphogluconolactone and reducing NADP⁺ to NADPH. It is allosterically inhibited by NADPH itself — a clean feedback loop — and induced by insulin. Its clinical importance is out of all proportion to a single dehydrogenase step: in the red cell the NADPH it makes is the only source of reducing power for glutathione reductase, so G6PD deficiency leaves the cell unable to destroy hydrogen peroxide and it haemolyses on exposure to an oxidant. The book calls that deficiency the commonest human enzymopathy.
+**Glucose 6-phosphate dehydrogenase (G6PD)** catalyses the first and rate-limiting step of the oxidative phase of the hexose monophosphate pathway, oxidising glucose 6-phosphate to 6-phosphogluconolactone and reducing NADP⁺ to NADPH. It is allosterically inhibited by NADPH itself — a clean feedback loop — and induced by insulin. Its clinical importance is out of all proportion to a single dehydrogenase step: in the red cell the NADPH it makes is the only source of reducing power for glutathione reductase, so G6PD deficiency leaves the cell unable to destroy hydrogen peroxide and it haemolyses on exposure to an oxidant. That deficiency is the commonest human enzymopathy.
 
 ## answer_b
 Glyceraldehyde-3- phosphate dehydrogenase
@@ -9731,7 +9737,7 @@ kau
 ART-103-BIO-HMP-PATHWAY-AND-G6PD
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the enzyme that generates NADPH in the oxidative phase of the hexose monophosphate pathway.
@@ -9756,7 +9762,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p94-q30. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -9811,7 +9817,7 @@ It is the reverse of what happens. Reduced glutathione is protective. In this pa
 Increased formation of oxygen free radicals
 
 ## explanation_d
-The patient has **glucose 6-phosphate dehydrogenase deficiency**, and the antimalarial — primaquine is the book's example, alongside aspirin, sulfonamides and fava beans — is an oxidant that stimulates the production of hydrogen peroxide. A normal red cell disposes of that peroxide through glutathione peroxidase, and regenerates the reduced glutathione it consumes using **NADPH from the hexose monophosphate pathway**. Without G6PD there is too little NADPH, glutathione reductase cannot keep up, peroxide accumulates, and lipid peroxidation of the membrane increases the cell's fragility until it lyses — giving haemolytic anaemia and jaundice. The book adds a neat evolutionary footnote: the same deficiency confers resistance to malaria, because the parasite itself needs reduced glutathione to survive.
+The patient has **glucose 6-phosphate dehydrogenase deficiency**, and the antimalarial — primaquine is a classic example, alongside aspirin, sulfonamides and fava beans — is an oxidant that stimulates the production of hydrogen peroxide. A normal red cell disposes of that peroxide through glutathione peroxidase, and regenerates the reduced glutathione it consumes using **NADPH from the hexose monophosphate pathway**. Without G6PD there is too little NADPH, glutathione reductase cannot keep up, peroxide accumulates, and lipid peroxidation of the membrane increases the cell's fragility until it lyses — giving haemolytic anaemia and jaundice. There is a neat evolutionary footnote: the same deficiency confers resistance to malaria, because the parasite itself needs reduced glutathione to survive.
 
 ## topic
 Carbohydrate metabolism
@@ -9880,7 +9886,7 @@ kau
 ART-103-BIO-HMP-PATHWAY-AND-G6PD
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why a G6PD-deficient red cell haemolyses on exposure to an oxidant, and name the triggers.
@@ -9905,7 +9911,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p94-q31. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -9942,7 +9948,7 @@ A
 Glucose-6-P- dehydrogenase
 
 ## explanation_a
-This is **favism**, and the book calls it the most common human enzymopathy. Fava beans contain oxidants that stimulate the production of hydrogen peroxide, and a red cell deficient in **glucose 6-phosphate dehydrogenase** cannot make enough NADPH to let glutathione reductase regenerate reduced glutathione. Hydrogen peroxide therefore accumulates, peroxidises the membrane lipids, raises the cell's fragility and lyses it — haemolytic anaemia with jaundice. There is no treatment beyond avoiding the trigger and transfusing during an attack. Note how much of the reasoning is shared with the antimalarial question: the trigger changes, the mechanism does not.
+This is **favism**, and it is the most common human enzymopathy. Fava beans contain oxidants that stimulate the production of hydrogen peroxide, and a red cell deficient in **glucose 6-phosphate dehydrogenase** cannot make enough NADPH to let glutathione reductase regenerate reduced glutathione. Hydrogen peroxide therefore accumulates, peroxidises the membrane lipids, raises the cell's fragility and lyses it — haemolytic anaemia with jaundice. There is no treatment beyond avoiding the trigger and transfusing during an attack. Note how much of the reasoning is shared with the antimalarial question: the trigger changes, the mechanism does not.
 
 ## answer_b
 Glucose-6-Phosphatase
@@ -10029,7 +10035,7 @@ kau
 ART-103-BIO-HMP-PATHWAY-AND-G6PD
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why a G6PD-deficient red cell haemolyses on exposure to an oxidant, and name the triggers.
@@ -10054,7 +10060,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p95-q32. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -10103,7 +10109,7 @@ No such enzyme is taught here. The name is constructed to be plausible for a stu
 Glutathione reductase
 
 ## explanation_c
-**Glutathione reductase**, an FAD-dependent enzyme, reduces the glutathione disulphide back to two molecules of reduced glutathione, and the reducing power it uses is **NADPH+H⁺** — which is where the hexose monophosphate pathway enters the story. The pair is worth holding as a loop: peroxidase spends reduced glutathione to destroy peroxide, reductase remakes it at the cost of NADPH, and G6PD supplies the NADPH. Break any link and the red cell cannot handle oxidative stress, which is the whole pathogenesis of favism. Note also the third route the book gives for hydrogen peroxide — catalase, which splits it into water and oxygen and needs no glutathione at all.
+**Glutathione reductase**, an FAD-dependent enzyme, reduces the glutathione disulphide back to two molecules of reduced glutathione, and the reducing power it uses is **NADPH+H⁺** — which is where the hexose monophosphate pathway enters the story. The pair is worth holding as a loop: peroxidase spends reduced glutathione to destroy peroxide, reductase remakes it at the cost of NADPH, and G6PD supplies the NADPH. Break any link and the red cell cannot handle oxidative stress, which is the whole pathogenesis of favism. Note also the third route for disposing of hydrogen peroxide — catalase, which splits it into water and oxygen and needs no glutathione at all.
 
 ## answer_d
 Glutathione synthetase
@@ -10178,7 +10184,7 @@ kau
 ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the two routes by which hydrogen peroxide is destroyed, and say which of them consumes NADPH.
@@ -10203,7 +10209,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p95-q33. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -10327,7 +10333,7 @@ kau
 ART-103-BIO-HMP-PATHWAY-AND-G6PD
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain why a G6PD-deficient red cell haemolyses on exposure to an oxidant, and name the triggers.
@@ -10352,7 +10358,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p95-q34. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -10389,7 +10395,7 @@ A
 UTP
 
 ## explanation_a
-Glycogenesis begins by **activating** the sugar, and that is what the question is about. Glucose is phosphorylated to glucose 6-phosphate, a mutase converts it to glucose 1-phosphate, and UDP-glucose pyrophosphorylase then condenses glucose 1-phosphate with **UTP** to form **UDP-glucose**, which the book calls the immediate precursor for glycogen synthesis. Glycogen synthase, the key enzyme, transfers glucosyl units from UDP-glucose onto a glycogen primer in α1,4 linkage, and the branching enzyme makes the α1,6 branch points. The pattern generalises usefully: sugars are activated as UDP derivatives across metabolism — UDP-glucuronate in the uronic acid pathway and in bilirubin conjugation is the same idea.
+Glycogenesis begins by **activating** the sugar, and that is what the question is about. Glucose is phosphorylated to glucose 6-phosphate, a mutase converts it to glucose 1-phosphate, and UDP-glucose pyrophosphorylase then condenses glucose 1-phosphate with **UTP** to form **UDP-glucose**, the immediate precursor for glycogen synthesis. Glycogen synthase, the key enzyme, transfers glucosyl units from UDP-glucose onto a glycogen primer in α1,4 linkage, and the branching enzyme makes the α1,6 branch points. The pattern generalises usefully: sugars are activated as UDP derivatives across metabolism — UDP-glucuronate in the uronic acid pathway and in bilirubin conjugation is the same idea.
 
 ## answer_b
 GTP
@@ -10476,7 +10482,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the nucleotide required to activate glucose for glycogen synthesis and the enzyme that uses the activated form, and put the steps of glycogenesis in order.
@@ -10501,7 +10507,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p95-q35. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Suspect flag "option count": the extraction produced three options, the third reading "ATP a) ©TP". Repaired from file page 95, where the printed options are a) UTP, b) GTP, c) ATP, d) CTP. The printed key on file page 103 gives 35. a.
 
 ---
@@ -10545,7 +10551,7 @@ It inverts the ratio. Free glucose is the minority product, released only at the
 More glucose-1-phosphate than glucose
 
 ## explanation_b
-The reason is structural. **Glycogen phosphorylase** cleaves the α1,4 linkages phosphorolytically, releasing **glucose 1-phosphate**, and it works along each branch until about four residues remain on either side of an α1,6 branch point. The **debranching enzyme** then does two things: its glucosyl transferase activity moves the outer three residues onto the nearest chain, and its glucosidase activity hydrolyses the single residue left at the branch point, releasing one molecule of **free glucose**. Since branches carry thirteen to fourteen residues and only one of them comes off free, glucose 1-phosphate greatly predominates. That is why the book calls glucose 1-phosphate the major product, and it is why glycogenolysis is energetically efficient — phosphorolysis captures the phosphate without spending ATP.
+The reason is structural. **Glycogen phosphorylase** cleaves the α1,4 linkages phosphorolytically, releasing **glucose 1-phosphate**, and it works along each branch until about four residues remain on either side of an α1,6 branch point. The **debranching enzyme** then does two things: its glucosyl transferase activity moves the outer three residues onto the nearest chain, and its glucosidase activity hydrolyses the single residue left at the branch point, releasing one molecule of **free glucose**. Since branches carry thirteen to fourteen residues and only one of them comes off free, glucose 1-phosphate greatly predominates. That is why glucose 1-phosphate is the major product, and it is why glycogenolysis is energetically efficient — phosphorolysis captures the phosphate without spending ATP.
 
 ## answer_c
 Equal amounts of glucose and glucose-1-phosphate
@@ -10626,7 +10632,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the major product of glycogenolysis, and explain why muscle glycogen cannot raise blood glucose while liver glycogen can.
@@ -10651,7 +10657,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p95-q36. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -10775,7 +10781,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the major product of glycogenolysis, and explain why muscle glycogen cannot raise blood glucose while liver glycogen can.
@@ -10800,7 +10806,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p95-q37. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -10849,7 +10855,7 @@ It points the wrong way. A glycogen synthase defect means too *little* glycogen 
 Glucose-6-phosphatase
 
 ## explanation_c
-This is **von Gierke's disease, type I glycogen storage disease**, caused by a defect in hepatic **glucose 6-phosphatase** — and every finding derives from that one block. Both glycogenolysis and gluconeogenesis end at glucose 6-phosphate, so with the phosphatase gone neither can release glucose: hence fasting **hypoglycaemia**, and an enlarged liver stuffed with glycogen that cannot be exported. The glucose 6-phosphate that accumulates is pushed down glycolysis to lactate, giving **lactic acidosis**. Some is pushed through the pentose phosphate pathway into excess purine synthesis, and purine degradation raises **urate** — which the lactate compounds by competing with urate for renal excretion. And the hypoglycaemia drives epinephrine, which drives lipolysis, so free fatty acids reach the liver and become triacylglycerol: hyperlipidaemia and a fatty liver. The book's management advice is to eat frequently, especially carbohydrate.
+This is **von Gierke's disease, type I glycogen storage disease**, caused by a defect in hepatic **glucose 6-phosphatase** — and every finding derives from that one block. Both glycogenolysis and gluconeogenesis end at glucose 6-phosphate, so with the phosphatase gone neither can release glucose: hence fasting **hypoglycaemia**, and an enlarged liver stuffed with glycogen that cannot be exported. The glucose 6-phosphate that accumulates is pushed down glycolysis to lactate, giving **lactic acidosis**. Some is pushed through the pentose phosphate pathway into excess purine synthesis, and purine degradation raises **urate** — which the lactate compounds by competing with urate for renal excretion. And the hypoglycaemia drives epinephrine, which drives lipolysis, so free fatty acids reach the liver and become triacylglycerol: hyperlipidaemia and a fatty liver. Management advice is to eat frequently, especially carbohydrate.
 
 ## answer_d
 Muscle glycogen phosphorylase
@@ -10924,7 +10930,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the enzyme defective in von Gierke's disease and derive its four metabolic features — hypoglycaemia, lactic acidosis, hyperuricaemia and hyperlipidaemia — from the one block.
@@ -10949,7 +10955,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p96-q38. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -11073,7 +11079,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -11098,7 +11104,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p96-q39. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read option d as "Ca?*". Repaired to "Ca²⁺" from file page 96, which prints the superscript charge.
 
 ---
@@ -11223,7 +11229,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
@@ -11248,7 +11254,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p96-q40. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Suspect flag "option count": the extraction produced two options, the second reading "33 ce) 125 d) 32". Repaired from file page 96, where the printed options are a) 25, b) 33, c) 12.5, d) 32. The printed key on file page 103 gives 40. b. The 33 figure is not printed in the department textbook; it follows from the book's own statement that glycogenolysis yields glucose 1-phosphate, converted by phosphoglucomutase without ATP.
 
 ---
@@ -11373,7 +11379,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the major product of glycogenolysis, and explain why muscle glycogen cannot raise blood glucose while liver glycogen can.
@@ -11398,7 +11404,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p96-q41. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -11522,7 +11528,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -11547,7 +11553,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p96-q42. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -11671,7 +11677,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -11696,7 +11702,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p96-q43. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -11820,7 +11826,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -11845,7 +11851,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p97-q44. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read option a as "Anenhanced glycogen synthase activity". Repaired to "An enhanced" from file page 97.
 
 ---
@@ -11970,7 +11976,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -11995,7 +12001,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p97-q45. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction read the stem as "because of ......... glycogen synthase and the onsinaniths of glycogen phosphorylase". Repaired from file page 97, which prints "because of ……… glycogen synthase and the …………. of glycogen phosphorylase."
 
 ---
@@ -12045,7 +12051,7 @@ ADP is an intermediate signal and is not the allosteric effector named at this e
 AMP
 
 ## explanation_c
-**AMP** rises when a contracting fibre has spent its ATP, and it allosterically activates the b form of glycogen phosphorylase — the dephosphorylated form that would otherwise be inactive. That gives muscle a way to mobilise glycogen on the strength of its own energy state, without waiting for a hormone. It sits alongside the other hormone-independent route the book does describe: a rise in intracellular **calcium** during contraction activates phosphorylase kinase without phosphorylation. Note for accuracy: ATP and glucose 6-phosphate are the effectors most often cited for this enzyme, and AMP activation is not always covered in introductory material; the printed answer key requires it, and it is standard in international texts.
+**AMP** rises when a contracting fibre has spent its ATP, and it allosterically activates the b form of glycogen phosphorylase — the dephosphorylated form that would otherwise be inactive. That gives muscle a way to mobilise glycogen on the strength of its own energy state, without waiting for a hormone. It sits alongside the other hormone-independent route: a rise in intracellular **calcium** during contraction activates phosphorylase kinase without phosphorylation. Note for accuracy: ATP and glucose 6-phosphate are the effectors most often cited for this enzyme, and AMP activation is not always covered in introductory material; the printed answer key requires it, and it is standard in international texts.
 
 ## answer_d
 UDP-glucose
@@ -12120,7 +12126,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -12145,7 +12151,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p97-q46. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 The department textbook does not print AMP as an allosteric activator of glycogen phosphorylase b; it lists ATP and glucose 6-phosphate as inhibitors and calcium as the muscle override. The printed key on file page 103 gives 46. c, and the live concept CON-MSK-10DF05A8B81781 asserts AMP activation. Written to the key and flagged for a faculty reviewer in the concept's conflicts field.
 
 ---
@@ -12270,7 +12276,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -12295,7 +12301,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p97-q47. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -12344,13 +12350,13 @@ It is the reverse. A high glucose level raises insulin, and insulin decreases th
 It is activated by elevated levels of FFA oxidation
 
 ## explanation_c
-It is the mechanism the book puts at the centre of the regulation. Fasting and stress raise the anti-insulin hormones, those hormones drive lipolysis, and the free fatty acids that reach the liver are oxidised — and it is that **oxidation** which does the switching. It works twice over: the ATP it produces allosterically inhibits phosphofructokinase-1, pyruvate kinase and pyruvate dehydrogenase, and the acetyl-CoA it produces allosterically stimulates **pyruvate carboxylase** while inhibiting pyruvate dehydrogenase — so pyruvate is pushed towards oxaloacetate and glucose rather than towards acetyl-CoA. In other words the liver makes glucose using energy from fat, which is exactly what allows the brain and red cells to be supplied without consuming the glucose in the process.
+It is the mechanism at the centre of the regulation. Fasting and stress raise the anti-insulin hormones, those hormones drive lipolysis, and the free fatty acids that reach the liver are oxidised — and it is that **oxidation** which does the switching. It works twice over: the ATP it produces allosterically inhibits phosphofructokinase-1, pyruvate kinase and pyruvate dehydrogenase, and the acetyl-CoA it produces allosterically stimulates **pyruvate carboxylase** while inhibiting pyruvate dehydrogenase — so pyruvate is pushed towards oxaloacetate and glucose rather than towards acetyl-CoA. In other words the liver makes glucose using energy from fat, which is exactly what allows the brain and red cells to be supplied without consuming the glucose in the process.
 
 ## answer_d
 It is important to maintain blood glucose during overnight fast
 
 ## explanation_d
-This is nearly true and deserves care, though it is not the *best* answer. The book's own timing is that gluconeogenesis begins four to six hours after a meal at a slow rate and becomes the **main** source of blood glucose only after 12 to 18 hours, once liver glycogen is depleted. An overnight fast sits on that boundary, and glycogenolysis is still doing most of the work. Option C states a mechanism the book asserts outright, which is why the printed key prefers it.
+This is nearly true and deserves care, though it is not the *best* answer. The accepted timing is that gluconeogenesis begins four to six hours after a meal at a slow rate and becomes the **main** source of blood glucose only after 12 to 18 hours, once liver glycogen is depleted. An overnight fast sits on that boundary, and glycogenolysis is still doing most of the work. Option C states a mechanism asserted outright, which is why the printed key prefers it.
 
 ## topic
 Carbohydrate metabolism
@@ -12419,7 +12425,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain how increased fatty acid oxidation activates gluconeogenesis and inhibits glycolysis, and predict which key enzymes rise and which fall in prolonged fasting and in diabetes mellitus.
@@ -12444,7 +12450,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p97-q48. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -12568,7 +12574,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 List the gluconeogenic substrates, name the two amino acids that are purely ketogenic, and explain why acetyl-CoA cannot become glucose.
@@ -12593,7 +12599,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p97-q49. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -12717,7 +12723,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the direction of lactate and of glucose in the Cori cycle, name the two tissues it links, and give its two purposes.
@@ -12742,7 +12748,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p98-q50. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -12866,7 +12872,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 List the gluconeogenic substrates, name the two amino acids that are purely ketogenic, and explain why acetyl-CoA cannot become glucose.
@@ -12891,7 +12897,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p98-q51. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -13015,7 +13021,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -13040,7 +13046,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p98-q52. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -13089,7 +13095,7 @@ It is the cycle running backwards. Gluconeogenesis happens in the liver, so the 
 It involves the transport of lactate from skeletal muscle to the liver for gluconeogenesis
 
 ## explanation_c
-Anaerobic glycolysis in exercising skeletal muscle — and continuously in the red cell, which has no mitochondria — produces lactate, which diffuses into the blood and is taken up by the liver. There lactate dehydrogenase oxidises it back to pyruvate and gluconeogenesis converts the pyruvate to glucose, which returns in the blood to be used again. The liver can do this and muscle cannot because only the liver has **glucose 6-phosphatase** to release free glucose. The book gives the cycle two purposes, and both are examinable: it **maintains blood glucose** and it **prevents lactic acidosis**.
+Anaerobic glycolysis in exercising skeletal muscle — and continuously in the red cell, which has no mitochondria — produces lactate, which diffuses into the blood and is taken up by the liver. There lactate dehydrogenase oxidises it back to pyruvate and gluconeogenesis converts the pyruvate to glucose, which returns in the blood to be used again. The liver can do this and muscle cannot because only the liver has **glucose 6-phosphatase** to release free glucose. The cycle serves two purposes, and both are examinable: it **maintains blood glucose** and it **prevents lactic acidosis**.
 
 ## answer_d
 It is active during resting stages and in well-fed condition
@@ -13164,7 +13170,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the direction of lactate and of glucose in the Cori cycle, name the two tissues it links, and give its two purposes.
@@ -13189,7 +13195,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p98-q53. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -13232,7 +13238,7 @@ The first step out of pyruvate is its carboxylation to oxaloacetate by **pyruvat
 Energy is utilized only in the form of GTP
 
 ## explanation_b
-The word "only" is the problem. GTP is indeed spent, at the PEPCK step, but **ATP** is spent too — at pyruvate carboxylase and again at phosphoglycerate kinase running in reverse. The book totals the cost of two pyruvates to one glucose at six ATP and two NADH.
+The word "only" is the problem. GTP is indeed spent, at the PEPCK step, but **ATP** is spent too — at pyruvate carboxylase and again at phosphoglycerate kinase running in reverse. The total cost of two pyruvates to one glucose is six ATP and two NADH.
 
 ## answer_c
 All the reactions occur in the cytosol
@@ -13313,7 +13319,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -13338,7 +13344,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p98-q54. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Suspect flag "option ran on": the extraction merged printed question 55 into option d and produced a spurious option e. Repaired from file page 98, where the printed options are a) Biotin is required as a cofactor, b) Energy is utilized only in the form of GTP, c) All the reactions occur in the cytosol, d) All the reactions occur in the mitochondrion. Printed question 55 is authored separately.
 
 ---
@@ -13463,7 +13469,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the direction of lactate and of glucose in the Cori cycle, name the two tissues it links, and give its two purposes.
@@ -13488,7 +13494,7 @@ yes
 
 ## author_notes
 Not present in the 102 INT lane’s extraction: the printed question was swallowed by an OCR run-on into a neighbouring item. Recovered in full from the page. correctSource, established here: "printed key (file page 103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 This item is not in the extracted bank: the 102 lane's OCR merged its stem and first two options into option d of printed question 54, and its remaining options into a spurious option e. Recovered in full from file page 98, and its key read from the printed table on file page 103, which gives 55. b. The printed options use arrows, which the extraction rendered as ">" and "—"; they are transcribed here as arrows.
 
 ---
@@ -13613,7 +13619,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -13638,7 +13644,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p99-q56. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -13693,7 +13699,7 @@ Four is the total number of gluconeogenic key enzymes across the entire pathway,
 6
 
 ## explanation_d
-Six corresponds to no reaction count. It is the number of ATP the book gives as the cost of making one glucose from two pyruvates.
+Six corresponds to no reaction count. It is the number of ATP required to make one glucose from two pyruvates.
 
 ## topic
 Carbohydrate metabolism
@@ -13762,7 +13768,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -13787,7 +13793,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p99-q57. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -13911,7 +13917,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the tissue that depends on glucose in all conditions and the tissue that depends on gluconeogenesis during fasting, and explain why fat oxidation still needs some glucose.
@@ -13936,7 +13942,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p99-q58. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -13991,7 +13997,7 @@ Fructose 1,6-bisphosphatase is a cytosolic enzyme, as its glycolytic counterpart
 Glucose-6-phosphate to glucose
 
 ## explanation_d
-Although it is the most interesting near-miss. Glucose 6-phosphatase is not free in the cytosol — it sits in the endoplasmic reticulum — but the endoplasmic reticulum is not the mitochondrion, and the book classes the enzyme with the cytosolic ones.
+Although it is the most interesting near-miss. Glucose 6-phosphatase is not free in the cytosol — it sits in the endoplasmic reticulum — but the endoplasmic reticulum is not the mitochondrion, and the enzyme is classed with the cytosolic ones.
 
 ## topic
 Carbohydrate metabolism
@@ -14060,7 +14066,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -14085,7 +14091,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p99-q59. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -14122,7 +14128,7 @@ A
 Glucose-6-phosphatase
 
 ## explanation_a
-The restriction is the reason the tissue list in the stem reads as it does. The book says gluconeogenesis occurs mainly in the liver and to a lesser extent in the kidney **because those tissues have glucose 6-phosphatase and fructose 1,6-bisphosphatase**. Glucose 6-phosphatase is the last step, and without it a cell cannot release free glucose into the blood however much glucose 6-phosphate it has made. That same restriction explains why muscle glycogen cannot raise blood glucose, why lactate has to travel to the liver in the Cori cycle, and why von Gierke's disease — a defect in this enzyme — blocks glycogenolysis and gluconeogenesis together.
+The restriction is the reason the tissue list in the stem reads as it does. Gluconeogenesis occurs mainly in the liver and to a lesser extent in the kidney **because those tissues have glucose 6-phosphatase and fructose 1,6-bisphosphatase**. Glucose 6-phosphatase is the last step, and without it a cell cannot release free glucose into the blood however much glucose 6-phosphate it has made. That same restriction explains why muscle glycogen cannot raise blood glucose, why lactate has to travel to the liver in the Cori cycle, and why von Gierke's disease — a defect in this enzyme — blocks glycogenolysis and gluconeogenesis together.
 
 ## answer_b
 Phosphoglycerate kinase
@@ -14209,7 +14215,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the four key enzymes of gluconeogenesis and the glycolytic step each bypasses, and explain why the conversion of pyruvate to phosphoenolpyruvate is partly mitochondrial and partly cytosolic.
@@ -14234,7 +14240,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p99-q60. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -14271,7 +14277,7 @@ C
 Nor-epinephrine
 
 ## explanation_a
-Noradrenaline is a catecholamine and an anti-insulin hormone; with adrenaline it raises blood glucose during stress, and the book notes that catecholamines also inhibit insulin secretion.
+Noradrenaline is a catecholamine and an anti-insulin hormone; with adrenaline it raises blood glucose during stress, and catecholamines also inhibit insulin secretion.
 
 ## answer_b
 Glucagon
@@ -14283,7 +14289,7 @@ It is the direct opponent of the right answer. Glucagon is the **main inducer of
 Insulin
 
 ## explanation_c
-**Insulin is the only hypoglycaemic hormone**, and the book states it in exactly those words. It lowers blood glucose three ways: by increasing uptake through GLUT-4 in heart, skeletal muscle and adipose tissue; by increasing utilisation through oxidation, glycogenesis and lipogenesis; and by decreasing hepatic output, which means decreasing both glycogenolysis and **gluconeogenesis**. Set against it are five anti-insulin hormones — glucagon, epinephrine, cortisol, growth hormone and thyroid hormones. That asymmetry, one down against five up, is worth carrying: physiologically a fatal hypoglycaemia is a far more urgent threat than a transient hyperglycaemia, and the redundancy is built accordingly.
+**Insulin is the only hypoglycaemic hormone**, stated in exactly those terms. It lowers blood glucose three ways: by increasing uptake through GLUT-4 in heart, skeletal muscle and adipose tissue; by increasing utilisation through oxidation, glycogenesis and lipogenesis; and by decreasing hepatic output, which means decreasing both glycogenolysis and **gluconeogenesis**. Set against it are five anti-insulin hormones — glucagon, epinephrine, cortisol, growth hormone and thyroid hormones. That asymmetry, one down against five up, is worth carrying: physiologically a fatal hypoglycaemia is a far more urgent threat than a transient hyperglycaemia, and the redundancy is built accordingly.
 
 ## answer_d
 Epinephrine
@@ -14358,7 +14364,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the only hypoglycaemic hormone and the five anti-insulin hormones, and describe what insulin and glucagon each do to cAMP and to the liver.
@@ -14383,7 +14389,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p99-q61. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -14420,7 +14426,7 @@ A
 Isomerization to Fructose-6-phosphate
 
 ## explanation_a
-The phrase to weigh in the stem is **"in all tissues"**. Glucose 6-phosphate stands at the junction of five pathways — glycolysis, gluconeogenesis, the pentose phosphate pathway, glycogenesis and glycogenolysis — but only one of them runs in every tissue. Isomerisation to fructose 6-phosphate by phosphohexose isomerase carries it into **glycolysis**, which the book calls the main pathway for glucose oxidation and which proceeds in the cytosol of all cells. The alternatives are all tissue-restricted, which is what makes this answer the majority one by default as much as by volume.
+The phrase to weigh in the stem is **"in all tissues"**. Glucose 6-phosphate stands at the junction of five pathways — glycolysis, gluconeogenesis, the pentose phosphate pathway, glycogenesis and glycogenolysis — but only one of them runs in every tissue. Isomerisation to fructose 6-phosphate by phosphohexose isomerase carries it into **glycolysis**, the main pathway for glucose oxidation and which proceeds in the cytosol of all cells. The alternatives are all tissue-restricted, which is what makes this answer the majority one by default as much as by volume.
 
 ## answer_b
 Hydrolysis to glucose
@@ -14507,7 +14513,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the metabolite common to glycolysis, glycogen synthesis and the pentose phosphate pathway, and state its major fate in the fed state.
@@ -14532,7 +14538,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p100-q62. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -14587,7 +14593,7 @@ The heart prefers fatty acids and uses ketone bodies and lactate readily; it is 
 RBCs
 
 ## explanation_d
-The mature red blood cell has **no mitochondria**, so it has no citric acid cycle, no respiratory chain and no β-oxidation — it cannot burn a fatty acid or a ketone body under any circumstances, however long the starvation. Glucose is its only fuel and glycolysis its only pathway, and the ATP comes from substrate level phosphorylation at phosphoglycerate kinase and pyruvate kinase. That absolute dependence is why the book names supplying the red cell as one of the reasons gluconeogenesis exists, and it is also why a glycolytic enzyme defect such as pyruvate kinase deficiency destroys the cell outright.
+The mature red blood cell has **no mitochondria**, so it has no citric acid cycle, no respiratory chain and no β-oxidation — it cannot burn a fatty acid or a ketone body under any circumstances, however long the starvation. Glucose is its only fuel and glycolysis its only pathway, and the ATP comes from substrate level phosphorylation at phosphoglycerate kinase and pyruvate kinase. That absolute dependence is why supplying the red cell is one of the reasons gluconeogenesis exists, and it is also why a glycolytic enzyme defect such as pyruvate kinase deficiency destroys the cell outright.
 
 ## topic
 Carbohydrate metabolism
@@ -14656,7 +14662,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the tissue that depends on glucose in all conditions and the tissue that depends on gluconeogenesis during fasting, and explain why fat oxidation still needs some glucose.
@@ -14681,7 +14687,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p100-q63. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -14805,7 +14811,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain how increased fatty acid oxidation activates gluconeogenesis and inhibits glycolysis, and predict which key enzymes rise and which fall in prolonged fasting and in diabetes mellitus.
@@ -14830,7 +14836,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p100-q64. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -14873,7 +14879,7 @@ Glucagon is the principal anti-insulin hormone: secreted by the pancreatic α-ce
 Epinephrine
 
 ## explanation_b
-Epinephrine is an anti-insulin hormone released in stress, acting on liver as glucagon does, on muscle to stimulate glycogenolysis, and on adipose tissue to stimulate lipolysis. The book adds that catecholamines also inhibit insulin secretion, and that chronic excess can produce a stress diabetes.
+Epinephrine is an anti-insulin hormone released in stress, acting on liver as glucagon does, on muscle to stimulate glycogenolysis, and on adipose tissue to stimulate lipolysis. Catecholamines also inhibit insulin secretion, and chronic excess can produce a stress diabetes.
 
 ## answer_c
 Cortisol
@@ -14885,7 +14891,7 @@ Cortisol is an anti-insulin hormone that stimulates lipolysis, drives protein ca
 Vasopressin
 
 ## explanation_d
-The book's roster of hormones regulating blood glucose is closed and short: **insulin, the only hypoglycaemic hormone**, against five anti-insulin hormones — glucagon, epinephrine, cortisol, growth hormone and thyroid hormones. **Vasopressin appears nowhere on it.** Vasopressin, or antidiuretic hormone, regulates water reabsorption in the collecting duct and, at higher concentrations, vascular tone; it has no established role in carbohydrate metabolism. Questions of this shape are answered by knowing the list, and the list is worth learning as a list — six hormones, one down and five up.
+The roster of hormones regulating blood glucose is closed and short: **insulin, the only hypoglycaemic hormone**, against five anti-insulin hormones — glucagon, epinephrine, cortisol, growth hormone and thyroid hormones. **Vasopressin appears nowhere on it.** Vasopressin, or antidiuretic hormone, regulates water reabsorption in the collecting duct and, at higher concentrations, vascular tone; it has no established role in carbohydrate metabolism. Questions of this shape are answered by knowing the list, and the list is worth learning as a list — six hormones, one down and five up.
 
 ## topic
 Carbohydrate metabolism
@@ -14954,7 +14960,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the only hypoglycaemic hormone and the five anti-insulin hormones, and describe what insulin and glucagon each do to cAMP and to the liver.
@@ -14979,7 +14985,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p100-q65. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -15103,7 +15109,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the enzyme defective in von Gierke's disease and derive its four metabolic features — hypoglycaemia, lactic acidosis, hyperuricaemia and hyperlipidaemia — from the one block.
@@ -15128,7 +15134,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p100-q66. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -15165,7 +15171,7 @@ A
 Glucose-6-phosphatase
 
 ## explanation_a
-**Glucose 6-phosphatase** is present in liver and kidney and absent from skeletal muscle, and that absence has consequences the book returns to repeatedly. Muscle glycogen cannot maintain blood glucose directly, because glycogenolysis ends at glucose 6-phosphate and a phosphorylated sugar cannot leave the cell. Muscle cannot perform gluconeogenesis to any useful end for the same reason. And the glucose 6-phosphate that muscle does produce has only one destination — glycolysis, supplying the contracting fibre itself. The indirect route, in which muscle exports lactate for the liver to convert to glucose, is the Cori cycle, and it exists precisely because of this missing enzyme.
+**Glucose 6-phosphatase** is present in liver and kidney and absent from skeletal muscle, and that absence has consequences that recur repeatedly. Muscle glycogen cannot maintain blood glucose directly, because glycogenolysis ends at glucose 6-phosphate and a phosphorylated sugar cannot leave the cell. Muscle cannot perform gluconeogenesis to any useful end for the same reason. And the glucose 6-phosphate that muscle does produce has only one destination — glycolysis, supplying the contracting fibre itself. The indirect route, in which muscle exports lactate for the liver to convert to glucose, is the Cori cycle, and it exists precisely because of this missing enzyme.
 
 ## answer_b
 Hexokinase
@@ -15252,7 +15258,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the major product of glycogenolysis, and explain why muscle glycogen cannot raise blood glucose while liver glycogen can.
@@ -15277,7 +15283,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p100-q67. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -15401,7 +15407,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain how increased fatty acid oxidation activates gluconeogenesis and inhibits glycolysis, and predict which key enzymes rise and which fall in prolonged fasting and in diabetes mellitus.
@@ -15426,7 +15432,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p100-q68. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -15550,7 +15556,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 State the major product of glycogenolysis, and explain why muscle glycogen cannot raise blood glucose while liver glycogen can.
@@ -15575,7 +15581,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p101-q69. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -15699,7 +15705,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the only hypoglycaemic hormone and the five anti-insulin hormones, and describe what insulin and glucagon each do to cAMP and to the liver.
@@ -15724,7 +15730,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p101-q70. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -15767,7 +15773,7 @@ It describes **epinephrine** rather than glucagon. Epinephrine is the hormone ef
 It acts primarily on the liver to maintain blood glucose levels
 
 ## explanation_b
-Glucagon is secreted by the α-cells of the pancreatic islets in response to fasting or to any fall in blood glucose, and the book says it **affects liver cells mainly**. There it stimulates glycogenolysis and gluconeogenesis and inhibits glycolysis and glycogenesis, working through adenylyl cyclase, cAMP and protein kinase A. The insulin-to-glucagon ratio is described as the main regulator of blood glucose, and a fall in it is among the causes of type 2 diabetes. The liver focus is what makes glucagon the emergency treatment for hypoglycaemia: it liberates hepatic glycogen quickly, which is precisely where the reserve of exportable glucose is.
+Glucagon is secreted by the α-cells of the pancreatic islets in response to fasting or to any fall in blood glucose, and it **affects liver cells mainly**. There it stimulates glycogenolysis and gluconeogenesis and inhibits glycolysis and glycogenesis, working through adenylyl cyclase, cAMP and protein kinase A. The insulin-to-glucagon ratio is described as the main regulator of blood glucose, and a fall in it is among the causes of type 2 diabetes. The liver focus is what makes glucagon the emergency treatment for hypoglycaemia: it liberates hepatic glycogen quickly, which is precisely where the reserve of exportable glucose is.
 
 ## answer_c
 Its concentration in the blood increases after a high-carbohydrate meal
@@ -15848,7 +15854,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the only hypoglycaemic hormone and the five anti-insulin hormones, and describe what insulin and glucagon each do to cAMP and to the liver.
@@ -15873,7 +15879,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p101-q71. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction appended the artefact "eeveeseoe" to option d. Removed; the printed option ends "when insulin levels increase".
 
 ---
@@ -15998,7 +16004,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the only hypoglycaemic hormone and the five anti-insulin hormones, and describe what insulin and glucagon each do to cAMP and to the liver.
@@ -16023,7 +16029,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p101-q72. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 OCR repair: the extraction scrambled the stem, recording it as "Glycogenolysis is glucagon" and appending "by glucagon and gluconeogenesis is" to option d. Repaired from file page 101, which prints "Glycogenolysis is ……… by glucagon and gluconeogenesis is……..by glucagon."
 
 ---
@@ -16061,7 +16067,7 @@ A
 Alanine
 
 ## explanation_a
-When muscle degrades amino acids for energy in starvation, the nitrogen released has to be disposed of safely, and muscle cannot make urea. It transaminates the amino group onto **pyruvate** — which glycolysis is supplying — to form **alanine**, and alanine travels in the blood to the liver. There transdeamination strips the nitrogen off for the urea cycle, and the carbon skeleton, back as pyruvate, is converted to glucose by gluconeogenesis and returned to the muscle. That round trip is the **glucose–alanine cycle**, and the elegance of it is that one molecule carries both the waste nitrogen out and the fuel carbon back. It is also why the book says protein becomes the main source of blood glucose in prolonged fasting.
+When muscle degrades amino acids for energy in starvation, the nitrogen released has to be disposed of safely, and muscle cannot make urea. It transaminates the amino group onto **pyruvate** — which glycolysis is supplying — to form **alanine**, and alanine travels in the blood to the liver. There transdeamination strips the nitrogen off for the urea cycle, and the carbon skeleton, back as pyruvate, is converted to glucose by gluconeogenesis and returned to the muscle. That round trip is the **glucose–alanine cycle**, and the elegance of it is that one molecule carries both the waste nitrogen out and the fuel carbon back. It is also why protein becomes the main source of blood glucose in prolonged fasting.
 
 ## answer_b
 Serine
@@ -16148,7 +16154,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the amino acid that carries nitrogen from muscle to liver during starvation, and describe what happens to its nitrogen and to its carbon skeleton on arrival.
@@ -16173,7 +16179,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p101-q73. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -16216,7 +16222,7 @@ It is the reverse. A high blood sugar raises insulin, and insulin increases the 
 Prolonged fasting
 
 ## explanation_b
-**Prolonged fasting** is the state gluconeogenesis exists for. The book's timing is precise: it begins four to six hours after the last meal at a slow rate and becomes the main source of blood glucose after 12 to 18 hours, once liver glycogen is depleted. The mechanism has two layers. Hormonally, the insulin-to-anti-insulin ratio falls, and glucagon induces the gluconeogenic key enzymes while repressing the glycolytic ones. Allosterically, the anti-insulin hormones drive lipolysis, the free fatty acids reaching the liver are oxidised, and that oxidation raises ATP — inhibiting PFK-1, pyruvate kinase and pyruvate dehydrogenase — and raises acetyl-CoA, which activates pyruvate carboxylase. Fat therefore pays for the manufacture of glucose it cannot itself become.
+**Prolonged fasting** is the state gluconeogenesis exists for. The timing is precise: it begins four to six hours after the last meal at a slow rate and becomes the main source of blood glucose after 12 to 18 hours, once liver glycogen is depleted. The mechanism has two layers. Hormonally, the insulin-to-anti-insulin ratio falls, and glucagon induces the gluconeogenic key enzymes while repressing the glycolytic ones. Allosterically, the anti-insulin hormones drive lipolysis, the free fatty acids reaching the liver are oxidised, and that oxidation raises ATP — inhibiting PFK-1, pyruvate kinase and pyruvate dehydrogenase — and raises acetyl-CoA, which activates pyruvate carboxylase. Fat therefore pays for the manufacture of glucose it cannot itself become.
 
 ## answer_c
 Increasing cellular level of AMP
@@ -16297,7 +16303,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain how increased fatty acid oxidation activates gluconeogenesis and inhibits glycolysis, and predict which key enzymes rise and which fall in prolonged fasting and in diabetes mellitus.
@@ -16322,7 +16328,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p101-q74. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Suspect flag "option ran on": the extraction merged printed question 75 into option d and produced a spurious option e. Repaired from file page 101, where the printed options are a) High blood sugar, b) Prolonged fasting, c) Increasing cellular level of AMP, d) Low cellular level of pyruvate. Printed question 75 is authored separately.
 
 ---
@@ -16447,7 +16453,7 @@ kau
 ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Explain how increased fatty acid oxidation activates gluconeogenesis and inhibits glycolysis, and predict which key enzymes rise and which fall in prolonged fasting and in diabetes mellitus.
@@ -16472,7 +16478,7 @@ yes
 
 ## author_notes
 Not present in the 102 INT lane’s extraction: the printed question was swallowed by an OCR run-on into a neighbouring item. Recovered in full from the page. correctSource, established here: "printed key (file page 103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 This item is not in the extracted bank: the 102 lane's OCR merged its stem and first two options into option d of printed question 74, and its remaining options into a spurious option e. Recovered in full from file page 101, and its key read from the printed table on file page 103, which gives 75. d.
 
 ---
@@ -16597,7 +16603,7 @@ kau
 ART-103-BIO-GLYCOGEN-METABOLISM
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Trace the cascade from glucagon or epinephrine to activated glycogen phosphorylase, name the enzyme that does the covalent modification, and predict the direction of both enzymes after a meal and after an overnight fast.
@@ -16622,7 +16628,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p102-q76. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -16746,7 +16752,7 @@ kau
 ART-103-BIO-GLYCOLYSIS-AND-PYRUVATE
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the enzyme that converts pyruvate to acetyl-CoA, list its coenzymes, and predict what accumulates in blood when it is inhibited by deficiency, by thiamine lack or by arsenic.
@@ -16771,7 +16777,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p102-q77. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 103, which gives 77. c. The extraction recorded correct: null with correctSource "none". Suspect flag "option ran on": the extraction merged printed question 78 into option d and produced a spurious option e. Repaired from file page 102, where the printed options are a) Aconitase, b) Citrate synthase, c) Pyruvate dehydrogenase, d) Malate dehydrogenase. Printed question 78 is authored separately.
 
 ---
@@ -16896,7 +16902,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the metabolite common to glycolysis, glycogen synthesis and the pentose phosphate pathway, and state its major fate in the fed state.
@@ -16921,7 +16927,7 @@ yes
 
 ## author_notes
 Not present in the 102 INT lane’s extraction: the printed question was swallowed by an OCR run-on into a neighbouring item. Recovered in full from the page. correctSource, established here: "printed key (file page 103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 This item is not in the extracted bank: the 102 lane's OCR merged its stem and first two options into option d of printed question 77, and its remaining options into a spurious option e. Recovered in full from file page 102, and its key read from the printed table on file page 103, which gives 78. b.
 
 ---
@@ -17046,7 +17052,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Name the only hypoglycaemic hormone and the five anti-insulin hormones, and describe what insulin and glucagon each do to cAMP and to the liver.
@@ -17071,7 +17077,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p102-q79. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 
 ---
 
@@ -17114,7 +17120,7 @@ The treatment given is what rules it out. Glucagon raises blood glucose by stimu
 Hypoglycemia
 
 ## explanation_b
-The symptoms divide neatly in two. Tremor and a rapid heartbeat are **adrenergic**: they are the counter-regulatory sympathetic response to a falling glucose, which is also why sweating, hunger and tingling lips appear on the book's list. Difficulty concentrating and dizziness are **neuroglycopenic**: they are the brain running short of its main fuel, and if the glucose falls further they progress to confusion and loss of consciousness. Insulin overdose is one of the two causes of fasting hypoglycaemia from over-utilisation of glucose that the book names, the other being insulinoma. Glucagon relieves it by liberating hepatic glycogen. Note the book's own caution: estimation of blood glucose is the only evidence of hypoglycaemia, so the symptoms suggest the diagnosis and a measurement confirms it.
+The symptoms divide neatly in two. Tremor and a rapid heartbeat are **adrenergic**: they are the counter-regulatory sympathetic response to a falling glucose, which is also why sweating, hunger and tingling lips appear among the recognised symptoms. Difficulty concentrating and dizziness are **neuroglycopenic**: they are the brain running short of its main fuel, and if the glucose falls further they progress to confusion and loss of consciousness. Insulin overdose is one of the two causes of fasting hypoglycaemia from over-utilisation of glucose, the other being insulinoma. Glucagon relieves it by liberating hepatic glycogen. Note the standard caution: estimation of blood glucose is the only evidence of hypoglycaemia, so the symptoms suggest the diagnosis and a measurement confirms it.
 
 ## answer_c
 Fatty acid release
@@ -17195,7 +17201,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Recognise the symptoms of hypoglycaemia, separate fasting from postprandial causes, and interpret a high insulin with a low glucose.
@@ -17220,7 +17226,7 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p102-q80. correctSource, verbatim: "none".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.
 Answer key recovered by reading the printed key table on file page 103, which gives 80. b. The extraction recorded correct: null with correctSource "none". No dose, route or protocol for glucagon is asserted anywhere in this item; the department textbook gives no treatment for hypoglycaemia and the administration is the question's own scenario.
 
 ---
@@ -17258,25 +17264,25 @@ A
 Insulinoma
 
 ## explanation_a
-The pair of laboratory results settles it. A **high insulin with a low glucose** is a physiological contradiction: insulin should be suppressed when glucose is low, so an insulin that is high at that moment must be coming from somewhere that is not listening to the glucose. **Insulinoma** — a pancreatic tumour releasing too much insulin — is the book's first named cause of fasting hypoglycaemia from over-utilisation of glucose, the other being an overdose of insulin or of a diabetes medication. The symptoms follow the usual division: tremor, palpitations and hunger are adrenergic counter-regulation, while headache, weakness and confusion are neuroglycopenic.
+The pair of laboratory results settles it. A **high insulin with a low glucose** is a physiological contradiction: insulin should be suppressed when glucose is low, so an insulin that is high at that moment must be coming from somewhere that is not listening to the glucose. **Insulinoma** — a pancreatic tumour releasing too much insulin — is one of the two causes of fasting hypoglycaemia from over-utilisation of glucose, the other being an overdose of insulin or of a diabetes medication. The symptoms follow the usual division: tremor, palpitations and hunger are adrenergic counter-regulation, while headache, weakness and confusion are neuroglycopenic.
 
 ## answer_b
 Pheochromocytoma
 
 ## explanation_b
-It moves the glucose the wrong way. A phaeochromocytoma secretes catecholamines, which raise blood glucose by stimulating glycogenolysis and gluconeogenesis and by inhibiting insulin secretion — the book lists it as a cause of hyperglycaemic **glucosuria**.
+It moves the glucose the wrong way. A phaeochromocytoma secretes catecholamines, which raise blood glucose by stimulating glycogenolysis and gluconeogenesis and by inhibiting insulin secretion — it is a recognised cause of hyperglycaemic **glucosuria**.
 
 ## answer_c
 Cushing syndrome
 
 ## explanation_c
-Again the direction is wrong. Cushing syndrome is glucocorticoid excess, and cortisol raises blood glucose by stimulating protein catabolism and gluconeogenesis and by reducing peripheral glucose use. The book names it as a cause of steroid diabetes.
+Again the direction is wrong. Cushing syndrome is glucocorticoid excess, and cortisol raises blood glucose by stimulating protein catabolism and gluconeogenesis and by reducing peripheral glucose use. This is a recognised cause of steroid diabetes.
 
 ## answer_d
 Acromegaly
 
 ## explanation_d
-Acromegaly is growth hormone excess, and growth hormone decreases glucose utilisation and induces the liver aminotransferases to drive gluconeogenesis — pituitary diabetes, in the book's phrase. All three wrong options are causes of a *high* glucose, which is what makes them a coherent set: the discrimination rests entirely on reading the laboratory result.
+Acromegaly is growth hormone excess, and growth hormone decreases glucose utilisation and induces the liver aminotransferases to drive gluconeogenesis — the classic pituitary diabetes. All three wrong options are causes of a *high* glucose, which is what makes them a coherent set: the discrimination rests entirely on reading the laboratory result.
 
 ## topic
 Carbohydrate metabolism
@@ -17345,7 +17351,7 @@ kau
 ART-103-BIO-BLOOD-GLUCOSE-HOMEOSTASIS
 
 ## resource_ids
-[clear]
+src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## learning_objective
 Recognise the symptoms of hypoglycaemia, separate fasting from postprandial causes, and interpret a high insulin with a low glucose.
@@ -17370,4 +17376,4 @@ yes
 
 ## author_notes
 Extracted by the 102 INT lane from the department question book and tagged as taught by 103 BMS; the 102 extraction ID is MCQ-102-07f0a0ff-p103-q81. correctSource, verbatim: "printed key (p103)".
-resource_ids is present and deliberately empty. It resolves against the catalogue store, not the evidence store the Kasr manifest feeds, so naming src_07f0a0ff41addf826c7f there would error; the source is carried in source_citation instead.
+resource_ids names the catalogue rows for the 103 department book and the shared 102/103 MCQ book (src_300847a5fa64809d6c07 and src_07f0a0ff41addf826c7f); import KASR-Y1-department-books.md before this batch.

@@ -5,16 +5,18 @@ import { appendEnrichment, ENRICHMENT_HEADING, type EnrichmentClaim } from '../.
 /**
  * `appendEnrichment` is the mechanical step that turns a correct answer's
  * bare explanation into one that also carries the department book's own
- * words: up to 3 claims, verified ones first, each citing a page — or,
- * absent any locatable claim, the concept's own definition sentence. It is
- * pure (no disk, no `ModuleRef`) precisely so this file can drive it with
- * fixture claims instead of real evidence files.
+ * words: up to 3 claims, verified ones first — or, absent any locatable
+ * claim, the concept's own definition sentence. A claim still needs a
+ * locatable page to be trusted enough to appear at all, but per the owner's
+ * rule the department book is never named to students, so the page is not
+ * printed in the output. It is pure (no disk, no `ModuleRef`) precisely so
+ * this file can drive it with fixture claims instead of real evidence files.
  */
 
 const claim = (text: string, verified: boolean, page: number): EnrichmentClaim => ({ text, verified, page })
 
 describe('appendEnrichment appends the department book\'s own words', () => {
-  test('2 verified + 2 unverified claims: exactly 3 appended, verified first, with page refs', () => {
+  test('2 verified + 2 unverified claims: exactly 3 appended, verified first', () => {
     const explanation = 'This is the correct answer because of the mechanism described above.'
     const claims: EnrichmentClaim[] = [
       claim('The unverified claim stated first in the file.', false, 12),
@@ -36,14 +38,15 @@ describe('appendEnrichment appends the department book\'s own words', () => {
     assert.equal(bulletLines.length, 3, 'exactly 3 claims appended, not all 4')
 
     // Verified claims come first, in the order they appeared in the file.
-    assert.equal(bulletLines[0], '- The first verified claim in the file. (department book p.40)')
-    assert.equal(bulletLines[1], '- The second verified claim in the file. (department book p.61)')
+    assert.equal(bulletLines[0], '- The first verified claim in the file.')
+    assert.equal(bulletLines[1], '- The second verified claim in the file.')
     // The third slot is filled by an unverified claim (there are only 2 verified).
-    assert.equal(bulletLines[2], '- The unverified claim stated first in the file. (department book p.12)')
+    assert.equal(bulletLines[2], '- The unverified claim stated first in the file.')
 
-    // Every appended line carries a page reference.
+    // No line names the department book or cites a page — student-facing
+    // text never surfaces the source, only the claim's own words.
     for (const line of bulletLines) {
-      assert.match(line, /\(department book p\.\d+\)$/)
+      assert.doesNotMatch(line, /department book/)
     }
   })
 
@@ -67,8 +70,11 @@ describe('appendEnrichment appends the department book\'s own words', () => {
     const result = appendEnrichment(explanation, claims, 'fallback')
     const appended = result.slice(explanation.length)
 
-    assert.ok(!appended.includes('The heart has four chambers (department book p.8)'))
-    assert.ok(appended.includes('The aorta arises from the left ventricle. (department book p.9)'))
+    // The first claim's text is already a substring of the explanation
+    // (the explanation's trailing clause reads "The heart has four chambers,
+    // as noted above."), so it is skipped rather than repeated verbatim.
+    assert.ok(!appended.includes('The heart has four chambers'))
+    assert.ok(appended.includes('The aorta arises from the left ventricle.'))
   })
 
   test('every candidate a duplicate: explanation returned byte-for-byte unchanged', () => {

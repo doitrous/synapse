@@ -38,12 +38,12 @@ Describe the sympathetic supply of abdominal and pelvic viscera.
 ## written_parts
 ### (a) 8 marks
 Describe the sympathetic supply of abdominal and pelvic viscera.
-Expects: Abdominal — origin: preganglionic fibres arise from LHCs of T5-T12 (Module 102 Department Book, physical p156)
-Expects: Abdominal — relay: pass through the paravertebral chain without relay, leaving as greater (T5-T9, to coeliac and superior mesenteric ganglia), lesser (T10-T11, to aorticorenal and superior mesenteric ganglia) and least (T12, to aorticorenal ganglion) splanchnic nerves (Module 102 Department Book, physical p156)
-Expects: Abdominal — course and function: postganglionic fibres run with the blood vessels to the abdominal viscera; relax GI plain muscle and contract sphincters (e.g. pyloric); vasoconstrict most abdominal arterioles (some vasodilatation); drive hepatic glycogenolysis raising blood glucose; contract the splenic capsule releasing stored blood; and stimulate the adrenal medulla to secrete adrenaline and noradrenaline (Module 102 Department Book, physical p157)
-Expects: Pelvic — origin: preganglionic fibres arise from LHCs of the 12th thoracic and upper 2 lumbar segments (Module 102 Department Book, physical p157)
-Expects: Pelvic — relay: fibres to the GI tract pass the chain without relay as lumbar splanchnic nerves to the inferior mesenteric ganglion; fibres to the bladder and external genitalia leave via the sacral ganglia as sacral splanchnic nerves (Module 102 Department Book, physical p157)
-Expects: Pelvic — course and function: postganglionic fibres run with the pelvic blood vessels; relax distal colon/rectum plain muscle and contract the internal anal sphincter (retains faeces); relax the bladder wall and contract the internal urethral sphincter (retains urine); contract the vas deferens, seminal vesicles and prostate causing ejaculation; and vasoconstrict pelvic/external genital vessels causing penile shrinkage (Module 102 Department Book, physical p158)
+Expects: Abdominal — origin: preganglionic fibres arise from LHCs of T5-T12
+Expects: Abdominal — relay: pass through the paravertebral chain without relay, leaving as greater (T5-T9, to coeliac and superior mesenteric ganglia), lesser (T10-T11, to aorticorenal and superior mesenteric ganglia) and least (T12, to aorticorenal ganglion) splanchnic nerves
+Expects: Abdominal — course and function: postganglionic fibres run with the blood vessels to the abdominal viscera; relax GI plain muscle and contract sphincters (e.g. pyloric); vasoconstrict most abdominal arterioles (some vasodilatation); drive hepatic glycogenolysis raising blood glucose; contract the splenic capsule releasing stored blood; and stimulate the adrenal medulla to secrete adrenaline and noradrenaline
+Expects: Pelvic — origin: preganglionic fibres arise from LHCs of the 12th thoracic and upper 2 lumbar segments
+Expects: Pelvic — relay: fibres to the GI tract pass the chain without relay as lumbar splanchnic nerves to the inferior mesenteric ganglion; fibres to the bladder and external genitalia leave via the sacral ganglia as sacral splanchnic nerves
+Expects: Pelvic — course and function: postganglionic fibres run with the pelvic blood vessels; relax distal colon/rectum plain muscle and contract the internal anal sphincter (retains faeces); relax the bladder wall and contract the internal urethral sphincter (retains urine); contract the vas deferens, seminal vesicles and prostate causing ejaculation; and vasoconstrict pelvic/external genital vessels causing penile shrinkage
 Concept: CON-NEU-EF92EEB546EA99
 ## main_concept
 CON-NEU-EF92EEB546EA99
@@ -122,9 +122,9 @@ Describe the parasympathetic supply of head and neck.
 ## written_parts
 ### (a) 6 marks
 Describe the parasympathetic supply of head and neck.
-Expects: Oculomotor (III): origin — Edinger-Westphal nucleus, midbrain; relay — ciliary ganglion; course — short ciliary nerves; function — contracts constrictor pupillae (miosis) and ciliary muscle (near vision) (Module 102 Department Book, physical p159)
-Expects: Facial (VII): origin — superior salivary nucleus, lower pons; relay — sphenopalatine ganglion (to lacrimal and nasal glands) and, via the chorda tympani, submandibular ganglion (to submandibular and sublingual glands); function — secretomotor and vasodilator (Module 102 Department Book, physical p159)
-Expects: Glossopharyngeal (IX): origin — inferior salivary nucleus, pons-medulla junction; relay — otic ganglion; course — supplies the parotid gland; function — secretomotor and vasodilator (Module 102 Department Book, physical p159)
+Expects: Oculomotor (III): origin — Edinger-Westphal nucleus, midbrain; relay — ciliary ganglion; course — short ciliary nerves; function — contracts constrictor pupillae (miosis) and ciliary muscle (near vision)
+Expects: Facial (VII): origin — superior salivary nucleus, lower pons; relay — sphenopalatine ganglion (to lacrimal and nasal glands) and, via the chorda tympani, submandibular ganglion (to submandibular and sublingual glands); function — secretomotor and vasodilator
+Expects: Glossopharyngeal (IX): origin — inferior salivary nucleus, pons-medulla junction; relay — otic ganglion; course — supplies the parotid gland; function — secretomotor and vasodilator
 Concept: CON-NEU-1B57CDAD7DEBCF
 ## main_concept
 CON-NEU-1B57CDAD7DEBCF
@@ -203,12 +203,12 @@ Explain the mechanism of iron absorption. Mention the effect of iron deficiency 
 ## written_parts
 ### (a) 10 marks
 Explain the mechanism of iron absorption. Mention the effect of iron deficiency and its causes.
-Expects: Site: iron is absorbed by enterocytes, mainly in the duodenum (Module 102 Department Book, physical p129)
-Expects: Apical membrane: Fe2+ enters via DMT1; unreduced Fe3+ is reduced to Fe2+ in the duodenum by a reductase; haem iron enters via a separate carrier, HCP1 (Module 102 Department Book, physical p129)
-Expects: Decreased demand: most absorbed iron is stored in the enterocyte as ferritin/haemosiderin and lost in the faeces with the sloughed cell (Module 102 Department Book, physical p129)
-Expects: Increased demand: iron crosses the basolateral membrane via ferroportin, is oxidised to Fe3+ by a ferroxidase, and binds plasma transferrin (normally 35% saturated), which delivers it to transferrin-receptor cells of the marrow, liver and muscle (Module 102 Department Book, physical p129)
-Expects: Effect of deficiency: microcytic hypochromic (iron deficiency) anaemia — decreased RBC mass and Hb content, MCV < 80 fL, MCH < 25 pg (Module 102 Department Book, physical p133)
-Expects: Causes: (1) dietary deficiency — low intake, more common in growing children and pregnancy; (2) deficient absorption — partial gastrectomy, vitamin C deficiency, high phytate/oxalate/phosphate intake, small-intestinal disease; (3) chronic blood loss — hookworm (ankylostoma) infestation, bleeding peptic ulcer or piles, excessive menstrual bleeding (Module 102 Department Book, physical p133)
+Expects: Site: iron is absorbed by enterocytes, mainly in the duodenum
+Expects: Apical membrane: Fe2+ enters via DMT1; unreduced Fe3+ is reduced to Fe2+ in the duodenum by a reductase; haem iron enters via a separate carrier, HCP1
+Expects: Decreased demand: most absorbed iron is stored in the enterocyte as ferritin/haemosiderin and lost in the faeces with the sloughed cell
+Expects: Increased demand: iron crosses the basolateral membrane via ferroportin, is oxidised to Fe3+ by a ferroxidase, and binds plasma transferrin (normally 35% saturated), which delivers it to transferrin-receptor cells of the marrow, liver and muscle
+Expects: Effect of deficiency: microcytic hypochromic (iron deficiency) anaemia — decreased RBC mass and Hb content, MCV < 80 fL, MCH < 25 pg
+Expects: Causes: (1) dietary deficiency — low intake, more common in growing children and pregnancy; (2) deficient absorption — partial gastrectomy, vitamin C deficiency, high phytate/oxalate/phosphate intake, small-intestinal disease; (3) chronic blood loss — hookworm (ankylostoma) infestation, bleeding peptic ulcer or piles, excessive menstrual bleeding
 Concept: CON-HEM-A6420C4B3B3D9A
 ## main_concept
 CON-HEM-A6420C4B3B3D9A
@@ -287,27 +287,27 @@ Case of pulmonary embolism treated with tissue plasminogen activator, in a patie
 ## written_parts
 ### (a) 1 marks
 Outline the mechanism of action of tissue plasminogen activator.
-Expects: TPA converts plasminogen into plasmin (fibrinolysin), with the help of thrombin; plasmin then lyses fibrin and fibrinogen into fibrinogen degradation products (FDPs), which in turn inhibit thrombin (Module 102 Department Book, physical p140)
+Expects: TPA converts plasminogen into plasmin (fibrinolysin), with the help of thrombin; plasmin then lyses fibrin and fibrinogen into fibrinogen degradation products (FDPs), which in turn inhibit thrombin
 Concept: CON-HEM-87280E690F877F
 ### (b) 1 marks
 Inside the body, explain the relation between protein C and tissue plasminogen activator.
-Expects: Thrombin bound to endothelial thrombomodulin activates protein C; activated protein C (with cofactor protein S) inactivates the inhibitor of TPA, releasing TPA to become active (Module 102 Department Book, physical p140)
+Expects: Thrombin bound to endothelial thrombomodulin activates protein C; activated protein C (with cofactor protein S) inactivates the inhibitor of TPA, releasing TPA to become active
 Concept: CON-HEM-87280E690F877F
 ### (c) 1 marks
 Clarify the role of thrombin in coagulation.
-Expects: Thrombin, formed by the prothrombin activator complex (active factor X + phospholipid + Ca2+ + active factor V), converts fibrinogen to fibrin, producing the clot; formed by both intrinsic and extrinsic pathways (Module 102 Department Book, physical p140; also physical p138)
+Expects: Thrombin, formed by the prothrombin activator complex (active factor X + phospholipid + Ca2+ + active factor V), converts fibrinogen to fibrin, producing the clot; formed by both intrinsic and extrinsic pathways
 Concept: CON-HEM-87280E690F877F
 ### (d) 1 marks
 How does thrombin lose its procoagulant activity and become a potent anticoagulant?
-Expects: Thrombin bound to endothelial thrombomodulin forms a thrombin-thrombomodulin complex that no longer clots fibrinogen but instead activates protein C, converting thrombin's action from procoagulant to anticoagulant (Module 102 Department Book, physical p140)
+Expects: Thrombin bound to endothelial thrombomodulin forms a thrombin-thrombomodulin complex that no longer clots fibrinogen but instead activates protein C, converting thrombin's action from procoagulant to anticoagulant
 Concept: CON-HEM-87280E690F877F
 ### (e) 1 marks
 Name the factors inactivated by protein C.
-Expects: Activated protein C (with protein S) inactivates factor V and factor VIII(a) (Module 102 Department Book, physical p140)
+Expects: Activated protein C (with protein S) inactivates factor V and factor VIII(a)
 Concept: CON-HEM-87280E690F877F
 ### (f) 1 marks
 Name 2 possible complications of blood clot formation inside blood vessels.
-Expects: Local obstruction of blood flow with infarction of the tissue supplied; and embolism, where part of the clot breaks off and lodges in a smaller downstream vessel, as in this case's pulmonary embolus (Module 102 Department Book, physical p140; case stem)
+Expects: Local obstruction of blood flow with infarction of the tissue supplied; and embolism, where part of the clot breaks off and lodges in a smaller downstream vessel, as in this case's pulmonary embolus
 Concept: CON-HEM-87280E690F877F
 ## main_concept
 CON-HEM-87280E690F877F
@@ -386,9 +386,9 @@ On a biochemical basis, explain why point mutation may have no effect or may cau
 ## written_parts
 ### (a) 6 marks
 On a biochemical basis, explain why point mutation may have no effect or may cause serious effects.
-Expects: Silent mutation: gives a synonym codon coding for the same amino acid, so no change occurs in the protein product — no effect (Module 102 Department Book, physical p101)
-Expects: Missense mutation: changes the codon so a different amino acid is inserted; effect ranges from none to very serious depending on which amino acid is substituted, e.g. sickle cell anaemia (Glu -> Val at position 6 of the beta chain) (Module 102 Department Book, physical p100-Module 102 Department Book, physical p101)
-Expects: Nonsense mutation: converts an amino acid codon into a stop codon, so translation terminates prematurely and the protein product is usually non-functional, e.g. thalassaemia (Module 102 Department Book, physical p101)
+Expects: Silent mutation: gives a synonym codon coding for the same amino acid, so no change occurs in the protein product — no effect
+Expects: Missense mutation: changes the codon so a different amino acid is inserted; effect ranges from none to very serious depending on which amino acid is substituted, e.g. sickle cell anaemia (Glu -> Val at position 6 of the beta chain)
+Expects: Nonsense mutation: converts an amino acid codon into a stop codon, so translation terminates prematurely and the protein product is usually non-functional, e.g. thalassaemia
 Concept: CON-FND-4508AC0EA86F86
 ## main_concept
 CON-FND-4508AC0EA86F86
@@ -467,11 +467,11 @@ On a biochemical basis, explain how cAMP acts as a hormone second messenger.
 ## written_parts
 ### (a) 6 marks
 On a biochemical basis, explain how cAMP acts as a hormone second messenger.
-Expects: cAMP is formed from ATP by adenylyl cyclase and converted to AMP by phosphodiesterase (Module 102 Department Book, physical p69)
-Expects: Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, which forms cAMP from ATP (Module 102 Department Book, physical p69)
-Expects: Cyclic AMP activates protein kinase A: binding of two cAMP molecules to each of its two regulatory subunits releases the two catalytic subunits, which phosphorylate substrate enzymes (Module 102 Department Book, physical p69)
-Expects: Phosphorylation activates some enzymes (e.g. glycogen phosphorylase kinase) and inactivates others (e.g. glycogen synthase); a protein phosphatase reverses this by dephosphorylation (Module 102 Department Book, physical p69)
-Expects: Glucagon and epinephrine activate adenylyl cyclase and raise cAMP; insulin activates protein phosphatase and phosphodiesterase and lowers cAMP, reversing their effects (Module 102 Department Book, physical p69)
+Expects: cAMP is formed from ATP by adenylyl cyclase and converted to AMP by phosphodiesterase
+Expects: Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, which forms cAMP from ATP
+Expects: Cyclic AMP activates protein kinase A: binding of two cAMP molecules to each of its two regulatory subunits releases the two catalytic subunits, which phosphorylate substrate enzymes
+Expects: Phosphorylation activates some enzymes (e.g. glycogen phosphorylase kinase) and inactivates others (e.g. glycogen synthase); a protein phosphatase reverses this by dephosphorylation
+Expects: Glucagon and epinephrine activate adenylyl cyclase and raise cAMP; insulin activates protein phosphatase and phosphodiesterase and lowers cAMP, reversing their effects
 Concept: CON-FND-12CE1BF1D6C77C
 ## main_concept
 CON-FND-12CE1BF1D6C77C
@@ -550,12 +550,12 @@ On a biochemical basis, explain why the collagen molecule has a strong flexible 
 ## written_parts
 ### (a) 6 marks
 On a biochemical basis, explain why the collagen molecule has a strong flexible structure.
-Expects: Tropocollagen is 3 left-handed alpha-chains, each the repeating triplet Gly-X-Y (X = proline, Y = hydroxyproline), twisted into a right-handed superhelix (Module 102 Department Book, physical p50)
-Expects: Each turn contains only 3 residues, a tighter helix than an ordinary protein (3.6/turn) (Module 102 Department Book, physical p50)
-Expects: Glycine at every third position has a side chain small enough to let the 3 chains pack closely (Module 102 Department Book, physical p50)
-Expects: High hydroxyproline content forms interchain hydrogen bonds (Module 102 Department Book, physical p50)
-Expects: Covalent cross-links between adjacent chains give the tensile property, allowing stretch without breaking (Module 102 Department Book, physical p50)
-Expects: Molecules are arranged into fibrils and fibres in a staggered, overhanging array, giving marked flexibility (Module 102 Department Book, physical p50)
+Expects: Tropocollagen is 3 left-handed alpha-chains, each the repeating triplet Gly-X-Y (X = proline, Y = hydroxyproline), twisted into a right-handed superhelix
+Expects: Each turn contains only 3 residues, a tighter helix than an ordinary protein (3.6/turn)
+Expects: Glycine at every third position has a side chain small enough to let the 3 chains pack closely
+Expects: High hydroxyproline content forms interchain hydrogen bonds
+Expects: Covalent cross-links between adjacent chains give the tensile property, allowing stretch without breaking
+Expects: Molecules are arranged into fibrils and fibres in a staggered, overhanging array, giving marked flexibility
 Concept: CON-FND-14647EC60106E1
 ## main_concept
 CON-FND-14647EC60106E1
@@ -622,7 +622,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-0CEFD45D0D04
 ## title
-Trimming cuts an inactive precursor protein down to its active, functional size, and insulin and the zymogens are the book's two worked examples
+Trimming cuts an inactive precursor protein down to its active, functional size, and insulin and the zymogens are two worked examples
 ## subject
 fnd
 ## status
@@ -634,9 +634,9 @@ Explain why trimming is a very important posttranslational modification, and men
 ## written_parts
 ### (a) 6 marks
 Explain why trimming is a very important posttranslational modification, and mention an example.
-Expects: Many proteins are initially large, functionally inactive precursor molecules; endoproteases remove portions of the chain to release the active protein (Module 102 Department Book, physical p85, physical p85 area / general post-translational modification section)
-Expects: Example 1: preproinsulin -> proinsulin -> insulin (Module 102 Department Book, physical p85)
-Expects: Example 2: zymogens (inactive precursors of secreted enzymes) are activated by trimming, e.g. trypsinogen -> trypsin in the small intestine (Module 102 Department Book, physical p85)
+Expects: Many proteins are initially large, functionally inactive precursor molecules; endoproteases remove portions of the chain to release the active protein
+Expects: Example 1: preproinsulin -> proinsulin -> insulin
+Expects: Example 2: zymogens (inactive precursors of secreted enzymes) are activated by trimming, e.g. trypsinogen -> trypsin in the small intestine
 Concept: CON-FND-344140D2457FBB
 ## main_concept
 CON-FND-344140D2457FBB
@@ -703,7 +703,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-D1D0101D7B2C
 ## title
-DNA and RNA differ in every dimension the book tabulates — bases, sugar, strandedness, kind, location and job
+DNA and RNA differ across every dimension — bases, sugar, strandedness, kind, location and job
 ## subject
 fnd
 ## status
@@ -715,10 +715,10 @@ Compare between DNA and RNA.
 ## written_parts
 ### (a) 4 marks
 Compare between DNA and RNA.
-Expects: Nitrogenous bases: both carry adenine, guanine, cytosine; DNA carries thymine and no uracil; RNA carries uracil, and thymine only as a minor base in tRNA (Module 102 Department Book, physical p79)
-Expects: Sugar: DNA has 2-deoxyribose; RNA has ribose (Module 102 Department Book, physical p79)
-Expects: Shape of strand: DNA is a double helix; RNA is a single strand (Module 102 Department Book, physical p79)
-Expects: Function: DNA carries genetic information and directs synthesis of RNAs; RNA carries out protein synthesis (Module 102 Department Book, physical p79)
+Expects: Nitrogenous bases: both carry adenine, guanine, cytosine; DNA carries thymine and no uracil; RNA carries uracil, and thymine only as a minor base in tRNA
+Expects: Sugar: DNA has 2-deoxyribose; RNA has ribose
+Expects: Shape of strand: DNA is a double helix; RNA is a single strand
+Expects: Function: DNA carries genetic information and directs synthesis of RNAs; RNA carries out protein synthesis
 Concept: CON-FND-E50700FFFCF367
 ## main_concept
 CON-FND-E50700FFFCF367
@@ -741,7 +741,7 @@ Easy
 ## question_type
 Structure and function
 ## learning_objective
-Reproduce the book's DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.
+Reproduce the DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.
 ## setting
 Academic
 ## academic_relevance
@@ -785,7 +785,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-D023A1E0F54A
 ## title
-answer: not established — the assigned department book does not cover this topic anywhere in its 167 pages
+not established — this topic is not covered in the assigned source for this module
 ## subject
 fnd
 ## status
@@ -876,10 +876,10 @@ Compare between myoglobin and hemoglobin.
 ## written_parts
 ### (a) 4 marks
 Compare between myoglobin and hemoglobin.
-Expects: Site: myoglobin in cardiac and skeletal muscle; hemoglobin (HbA1) in red blood cells (Module 102 Department Book, physical p46)
-Expects: Structure: myoglobin one heme + one chain (apomyoglobin 153 aa/8 helices); hemoglobin four heme rings + four chains (alpha 141 aa/7 helices; beta 146 aa/8 helices) (Module 102 Department Book, physical p46)
-Expects: Function: myoglobin stores O2 in muscle, releases it during severe exercise; hemoglobin transports O2 to tissue, removes CO2, buffers blood (Module 102 Department Book, physical p46)
-Expects: Affinity to oxygen: myoglobin higher at low pO2 (90% saturated at pO2 20 mmHg); hemoglobin higher at the lung, lower at the tissue (Module 102 Department Book, physical p46)
+Expects: Site: myoglobin in cardiac and skeletal muscle; hemoglobin (HbA1) in red blood cells
+Expects: Structure: myoglobin one heme + one chain (apomyoglobin 153 aa/8 helices); hemoglobin four heme rings + four chains (alpha 141 aa/7 helices; beta 146 aa/8 helices)
+Expects: Function: myoglobin stores O2 in muscle, releases it during severe exercise; hemoglobin transports O2 to tissue, removes CO2, buffers blood
+Expects: Affinity to oxygen: myoglobin higher at low pO2 (90% saturated at pO2 20 mmHg); hemoglobin higher at the lung, lower at the tissue
 Concept: CON-HEM-741FE61E6062DB
 ## main_concept
 CON-HEM-741FE61E6062DB
@@ -946,7 +946,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-150A9C7C6D8C
 ## title
-Lysine, arginine and histidine are the book's basic (diamino-monocarboxylic) amino acids
+Lysine, arginine and histidine are the basic (diamino-monocarboxylic) amino acids
 ## subject
 fnd
 ## status
@@ -958,7 +958,7 @@ Enumerate two basic amino acids.
 ## written_parts
 ### (a) 2 marks
 Enumerate two basic amino acids.
-Expects: Any two of: lysine, arginine, histidine (Module 102 Department Book, physical p8)
+Expects: Any two of: lysine, arginine, histidine
 Concept: CON-FND-57DC83CE4A718B
 ## main_concept
 CON-FND-57DC83CE4A718B
@@ -1037,7 +1037,7 @@ Enumerate two essential fatty acids.
 ## written_parts
 ### (a) 2 marks
 Enumerate two essential fatty acids.
-Expects: Alpha-linolenic acid and linoleic acid (Module 102 Department Book, physical p31)
+Expects: Alpha-linolenic acid and linoleic acid
 Concept: CON-FND-2AA1E4F3853330
 ## main_concept
 CON-FND-2AA1E4F3853330
@@ -1116,7 +1116,7 @@ Enumerate two causes of gene mutations.
 ## written_parts
 ### (a) 2 marks
 Enumerate two causes of gene mutations.
-Expects: Any two of: errors in replication, chemical mutagens, irradiation (UV/X-ray/gamma), oxidative damage (Module 102 Department Book, physical p100)
+Expects: Any two of: errors in replication, chemical mutagens, irradiation (UV/X-ray/gamma), oxidative damage
 Concept: CON-FND-3BF934540F73CD
 ## main_concept
 CON-FND-3BF934540F73CD
@@ -1183,7 +1183,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-8C633564003D
 ## title
-Starch and glycogen are the two homopolysaccharides the book names first, both built entirely of glucose
+Starch and glycogen are two homopolysaccharides, both built entirely of glucose
 ## subject
 fnd
 ## status
@@ -1195,7 +1195,7 @@ Enumerate two homopolysaccharides.
 ## written_parts
 ### (a) 2 marks
 Enumerate two homopolysaccharides.
-Expects: Starch and glycogen (glucans, built of glucose); cellulose also acceptable (Module 102 Department Book, physical p23)
+Expects: Starch and glycogen (glucans, built of glucose); cellulose also acceptable
 Concept: CON-FND-B4916A9B4C980C
 ## main_concept
 CON-FND-B4916A9B4C980C
@@ -1262,7 +1262,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-CF55923BD16A
 ## title
-Sickle cell anemia and thalassemia are the book's two named hemoglobinopathies, one from a wrong amino acid and one from too little chain
+Sickle cell anemia and thalassemia are two named hemoglobinopathies, one from a wrong amino acid and one from too little chain
 ## subject
 haem
 ## status
@@ -1274,7 +1274,7 @@ Enumerate two hemoglobinopathies.
 ## written_parts
 ### (a) 2 marks
 Enumerate two hemoglobinopathies.
-Expects: Sickle cell anemia (HbS) and thalassemia (Module 102 Department Book, physical p47)
+Expects: Sickle cell anemia (HbS) and thalassemia
 Concept: CON-HEM-3B1C5DBC2DB666
 ## main_concept
 CON-HEM-3B1C5DBC2DB666
@@ -1353,7 +1353,7 @@ Enumerate two factors affecting the rate of an enzyme-catalyzed reaction.
 ## written_parts
 ### (a) 2 marks
 Enumerate two factors affecting the rate of an enzyme-catalyzed reaction.
-Expects: Any two of: substrate concentration, enzyme concentration, cofactor concentration, temperature, pH (Module 102 Department Book, physical p56)
+Expects: Any two of: substrate concentration, enzyme concentration, cofactor concentration, temperature, pH
 Concept: CON-FND-F29934C070A94C
 ## main_concept
 CON-FND-F29934C070A94C
@@ -1432,7 +1432,7 @@ Enumerate four effects of denaturation on proteins.
 ## written_parts
 ### (a) 4 marks
 Enumerate four effects of denaturation on proteins.
-Expects: Any four of: decreased solubility, increased viscosity, increased digestibility by proteolytic enzymes, loss of secondary/tertiary/quaternary structure, loss of biological activity, loss of antigenic property (Module 102 Department Book, physical p11)
+Expects: Any four of: decreased solubility, increased viscosity, increased digestibility by proteolytic enzymes, loss of secondary/tertiary/quaternary structure, loss of biological activity, loss of antigenic property
 Concept: CON-FND-2414B3639FD4D3
 ## main_concept
 CON-FND-2414B3639FD4D3

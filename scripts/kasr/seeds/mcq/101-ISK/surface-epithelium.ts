@@ -478,7 +478,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Endothelium is simple squamous epithelium lining the blood vessels and the heart.',
         B: 'Right epithelium, wrong site — the serous membranes are lined by the same epithelium under the name mesothelium.',
         C: 'Wrong epithelium, right site. A cuboidal lining would make the vessel wall thicker than exchange allows.',
-        D: 'Wrong on both counts, and it is chosen when the two names and the two cell shapes are being guessed at independently.',
+        D: 'It is chosen when the two names and the two cell shapes are being guessed at independently.',
       },
     },
     {

@@ -130,7 +130,7 @@ Goblet cells belong to the respiratory mucosa. The olfactory epithelium has none
 Pigmented mucosa
 
 ## explanation_c
-Correct. The yellow-brown lipofuscin pigment of the sustentacular cells gives olfactory mucosa its colour, and it is the feature the naked eye and the low-power slide can both use. The pigment sits in the apical cytoplasm of the tall sustentacular cells that support the olfactory neurons and secrete none of it themselves. Remember it as the low-power shortcut a demonstrator reaches for, before confirming the thicker epithelium and the absent goblet cells that go with it.
+The yellow-brown lipofuscin pigment of the sustentacular cells gives olfactory mucosa its colour, and it is the feature the naked eye and the low-power slide can both use. The pigment sits in the apical cytoplasm of the tall sustentacular cells that support the olfactory neurons and secrete none of it themselves. Remember it as the low-power shortcut a demonstrator reaches for, before confirming the thicker epithelium and the absent goblet cells that go with it.
 
 ## answer_d
 Thinner lining epithelium
@@ -152,6 +152,8 @@ CON-RES-B7F9FACECA4AFF
 [clear]
 ## library_ids
 ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -273,7 +275,7 @@ Tracheal glands are sero-mucous and open onto a ciliated respiratory epithelium;
 Olfactory mucosa
 
 ## explanation_c
-Correct. Bowman's serous glands are unique to the olfactory lamina propria, and their watery secretion is the solvent in which an odorant must dissolve before it can reach the receptor. Their ducts open onto the epithelial surface and keep the long, non-motile olfactory cilia bathed in the fluid an odorant must dissolve in before it can excite the bipolar neurone waiting there. No other part of the nasal lining carries a gland of this name, which is what makes its presence diagnostic of olfactory rather than respiratory mucosa on a slide.
+Bowman's serous glands are unique to the olfactory lamina propria, and their watery secretion is the solvent in which an odorant must dissolve before it can reach the receptor. Their ducts open onto the epithelial surface and keep the long, non-motile olfactory cilia bathed in the fluid an odorant must dissolve in before it can excite the bipolar neurone waiting there. No other part of the nasal lining carries a gland of this name, which is what makes its presence diagnostic of olfactory rather than respiratory mucosa on a slide.
 
 ## answer_d
 Nasal cavity
@@ -295,6 +297,8 @@ CON-RES-B7F9FACECA4AFF
 [clear]
 ## library_ids
 ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -438,6 +442,8 @@ CON-RES-B7F9FACECA4AFF
 [clear]
 ## library_ids
 ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -581,6 +587,8 @@ CON-RES-B7F9FACECA4AFF
 [clear]
 ## library_ids
 ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -696,7 +704,7 @@ The basal cell is small, pyramidal and basophilic, sitting on the basement membr
 Sustentacular cell
 
 ## explanation_b
-Correct. The tall columnar supporting cell holds the apical yellow lipofuscin granules, and it is that pigment that makes the whole olfactory mucosa look yellow-brown. These tall columnar cells also carry apical microvilli submerged in Bowman's-gland fluid and are bound to the olfactory neurons by junctional complexes, so they support the sensory cells as well as colouring the mucosa. The pigment itself has no sensory role; it is simply the feature that lets the eye confirm what the cell type already tells the microscope.
+The tall columnar supporting cell holds the apical yellow lipofuscin granules, and it is that pigment that makes the whole olfactory mucosa look yellow-brown. These tall columnar cells also carry apical microvilli submerged in Bowman's-gland fluid and are bound to the olfactory neurons by junctional complexes, so they support the sensory cells as well as colouring the mucosa. The pigment itself has no sensory role; it is simply the feature that lets the eye confirm what the cell type already tells the microscope.
 
 ## answer_c
 Olfactory cell
@@ -724,6 +732,8 @@ CON-RES-B7F9FACECA4AFF
 [clear]
 ## library_ids
 ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -833,7 +843,7 @@ Pulmonary surfactant:
 Is produced by type II pneumocytes
 
 ## explanation_a
-Correct. The type II (great alveolar) cell stores surfactant in its lamellar bodies and releases it onto the alveolar lining fluid. Surfactant is a mixture of the phospholipid DPPC, whose hydrophilic heads face the alveolar fluid and hydrophobic tails face the air, plus apoproteins and calcium ions that spread it rapidly over the lining. Type II cells store it in lamellar bodies until it is needed, which is why a preterm lung, where these cells are still immature, runs short of it first.
+The type II (great alveolar) cell stores surfactant in its lamellar bodies and releases it onto the alveolar lining fluid. Surfactant is a mixture of the phospholipid DPPC, whose hydrophilic heads face the alveolar fluid and hydrophobic tails face the air, plus apoproteins and calcium ions that spread it rapidly over the lining. Type II cells store it in lamellar bodies until it is needed, which is why a preterm lung, where these cells are still immature, runs short of it first.
 
 ## answer_b
 Is produced by alveolar macrophages
@@ -867,6 +877,8 @@ CON-RES-4D4CBF3BB8AF1E
 [clear]
 ## library_ids
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -982,7 +994,7 @@ Goblet cells belong to the conducting airways and to mucus clearance. Their loss
 Pulmonary surfactant
 
 ## explanation_b
-Correct. Without surfactant the alveolar surface tension is unopposed, compliance falls and alveoli collapse at the end of each expiration — which is the neonatal respiratory distress syndrome of the preterm infant. By the Law of Laplace, P = 2T/r, a small alveolus needs proportionally more of the fall in surface tension that surfactant supplies as it shrinks, or it collapses into a larger one at the same pressure. The same deficiency also lets fluid filter from the pulmonary capillaries into the alveoli, since surface tension itself favours that filtration.
+Without surfactant the alveolar surface tension is unopposed, compliance falls and alveoli collapse at the end of each expiration — which is the neonatal respiratory distress syndrome of the preterm infant. By the Law of Laplace, P = 2T/r, a small alveolus needs proportionally more of the fall in surface tension that surfactant supplies as it shrinks, or it collapses into a larger one at the same pressure. The same deficiency also lets fluid filter from the pulmonary capillaries into the alveoli, since surface tension itself favours that filtration.
 
 ## answer_c
 Elastic fibers
@@ -1010,6 +1022,8 @@ CON-RES-4D4CBF3BB8AF1E
 [clear]
 ## library_ids
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -1137,7 +1151,7 @@ The squamous alveolar cell is the type I pneumocyte, which forms the thin part o
 Great alveolar cells
 
 ## explanation_d
-Correct. The great alveolar cell is the type II pneumocyte, and surfactant matures only in the last weeks of gestation — so the preterm infant is short of the cell's product, not of the cell. Surfactant only matures in the final weeks of gestation, so a baby born before it has had time to accumulate lamellar bodies of surfactant is short of the product even though the cell that makes it is present. That gap between having the cell and having what it makes is exactly what an incubator and exogenous surfactant treatment exist to bridge.
+The great alveolar cell is the type II pneumocyte, and surfactant matures only in the last weeks of gestation — so the preterm infant is short of the cell's product, not of the cell. Surfactant only matures in the final weeks of gestation, so a baby born before it has had time to accumulate lamellar bodies of surfactant is short of the product even though the cell that makes it is present. That gap between having the cell and having what it makes is exactly what an incubator and exogenous surfactant treatment exist to bridge.
 
 ## correct_answer
 D
@@ -1153,6 +1167,8 @@ CON-RES-4D4CBF3BB8AF1E
 [clear]
 ## library_ids
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 
@@ -1274,7 +1290,7 @@ Epidermis is continuously renewing from its basal stem cells — the fastest-tur
 Nerve cell
 
 ## explanation_c
-Correct. The neurone leaves the cycle permanently, and cardiac muscle is the other classical example. Loss is repaired by scar, not by replacement. Both nerve and cardiac muscle leave G1 for G0 permanently once they have differentiated, and no replacement stem cell stands behind either lineage. A neurone or a myocyte lost to injury is therefore repaired by scar tissue, not by a fresh cell of its own kind.
+The neurone leaves the cycle permanently, and cardiac muscle is the other classical example. Loss is repaired by scar, not by replacement. Both nerve and cardiac muscle leave G1 for G0 permanently once they have differentiated, and no replacement stem cell stands behind either lineage. A neurone or a myocyte lost to injury is therefore repaired by scar tissue, not by a fresh cell of its own kind.
 
 ## answer_d
 Cartilage cell
@@ -1296,6 +1312,8 @@ CON-FND-A2E40256517389
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -1405,7 +1423,7 @@ One of the following is a potentially renewable cell:
 Liver cell
 
 ## explanation_a
-Correct. The hepatocyte rests in G0 and re-enters the cycle on demand — after partial hepatectomy it divides until the mass is restored, then stops. That transient exit from the cycle is the feature the whole category turns on: the hepatocyte can sit in G0 indefinitely, yet re-enter mitosis the moment the liver's mass falls below what the body needs. Once the deficit is made good the cells leave the cycle again, which is why liver regeneration stops rather than running away.
+The hepatocyte rests in G0 and re-enters the cycle on demand — after partial hepatectomy it divides until the mass is restored, then stops. That transient exit from the cycle is the feature the whole category turns on: the hepatocyte can sit in G0 indefinitely, yet re-enter mitosis the moment the liver's mass falls below what the body needs. Once the deficit is made good the cells leave the cycle again, which is why liver regeneration stops rather than running away.
 
 ## answer_b
 Skin epidermal cell
@@ -1439,6 +1457,8 @@ CON-FND-A2E40256517389
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -1548,7 +1568,7 @@ One of the following has a pluripotential stem cell:
 Blood cells
 
 ## explanation_a
-Correct. One haemopoietic stem cell gives rise to every blood cell line, which is what 'pluripotential' means — many outcomes from one ancestor. A pluripotential stem cell is defined by how many different mature lineages it can give rise to, and the haemopoietic stem cell of the bone marrow produces every blood cell type — red cells, granulocytes, monocytes, lymphocytes and platelets — from one self-renewing ancestor. A unipotential progenitor, like the osteoprogenitor cell of bone, gives only its own single lineage and so does not qualify.
+One haemopoietic stem cell gives rise to every blood cell line, which is what 'pluripotential' means — many outcomes from one ancestor. A pluripotential stem cell is defined by how many different mature lineages it can give rise to, and the haemopoietic stem cell of the bone marrow produces every blood cell type — red cells, granulocytes, monocytes, lymphocytes and platelets — from one self-renewing ancestor. A unipotential progenitor, like the osteoprogenitor cell of bone, gives only its own single lineage and so does not qualify.
 
 ## answer_b
 Hepatocytes
@@ -1582,6 +1602,8 @@ CON-FND-A2E40256517389
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -1703,7 +1725,7 @@ A potentially renewable cell divides itself when called upon, like the hepatocyt
 Continuously renewing cells
 
 ## explanation_c
-Correct. The mature erythrocyte and granulocyte cannot divide, yet the population turns over constantly because the stem cell behind them does. Epidermis and gut lining work the same way. Epidermis and the lining of the gut are built the same way, with a basal stem-cell layer feeding cells that mature, do their job and are shed without ever dividing themselves.
+The mature erythrocyte and granulocyte cannot divide, yet the population turns over constantly because the stem cell behind them does. Epidermis and gut lining work the same way. Epidermis and the lining of the gut are built the same way, with a basal stem-cell layer feeding cells that mature, do their job and are shed without ever dividing themselves.
 
 ## answer_d
 None of the above
@@ -1725,6 +1747,8 @@ CON-FND-A2E40256517389
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -1840,7 +1864,7 @@ Non-renewing means a permanent exit from the cycle — nerve and cardiac muscle.
 Potentially renewable cells
 
 ## explanation_b
-Correct. The hepatocyte waits in G0 and re-enters the cycle when the organ loses mass, then leaves it again. That trigger — a fall in liver mass, from disease or partial removal — is what tells this category apart from continuous renewal, which divides on a schedule of its own rather than in response to loss.
+The hepatocyte waits in G0 and re-enters the cycle when the organ loses mass, then leaves it again. That trigger — a fall in liver mass, from disease or partial removal — is what tells this category apart from continuous renewal, which divides on a schedule of its own rather than in response to loss.
 
 ## answer_c
 Continuously renewing cells
@@ -1868,6 +1892,8 @@ CON-FND-A2E40256517389
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -1995,7 +2021,7 @@ The exception, and the answer. Re-entering the cycle on demand is the defining b
 Heart and nerve cells are examples of that type
 
 ## explanation_d
-True, so not the exception. These two are the standard examples in the department book.
+True, so not the exception. Heart and nerve cells are the standard examples of a non-renewing cell.
 
 ## correct_answer
 C
@@ -2011,6 +2037,8 @@ CON-FND-A2E40256517389
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -2138,7 +2166,7 @@ Down's is trisomy 21, an autosomal trisomy. The sex chromosomes are normal.
 Multiple X syndrome
 
 ## explanation_d
-Correct. 47,XXX is the female with an extra X; two Barr bodies are present, one for each inactivated X beyond the first. The extra chromosome arises the same way as in Klinefelter's — non-disjunction of the X chromosomes during the first meiotic division of the oocyte — but here the ovum carrying two X chromosomes is fertilised by an X-bearing sperm rather than a Y-bearing one. Girls with the syndrome are usually of normal build, though delayed language development and motor coordination problems are described.
+47,XXX is the female with an extra X; two Barr bodies are present, one for each inactivated X beyond the first. The extra chromosome arises the same way as in Klinefelter's — non-disjunction of the X chromosomes during the first meiotic division of the oocyte — but here the ovum carrying two X chromosomes is fertilised by an X-bearing sperm rather than a Y-bearing one. Girls with the syndrome are usually of normal build, though delayed language development and motor coordination problems are described.
 
 ## correct_answer
 D
@@ -2154,6 +2182,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -2297,6 +2327,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -2412,7 +2444,7 @@ Numerical, but autosomal: trisomy 21. The question asks for the sex chromosomes.
 Turner's syndrome
 
 ## explanation_b
-Correct. 45,XO is a numerical aberration of the sex chromosomes — one X is missing, and no Barr body is found. It arises from non-disjunction of the X chromosomes during the first meiotic division of the oocyte, so the ovum carries no sex chromosome at all and is then fertilised by an X-bearing sperm. Because there is only one X to begin with, none is inactivated, and no Barr body is seen on a buccal smear — the finding that separates Turner's from every trisomic sex-chromosome pattern.
+45,XO is a numerical aberration of the sex chromosomes — one X is missing, and no Barr body is found. It arises from non-disjunction of the X chromosomes during the first meiotic division of the oocyte, so the ovum carries no sex chromosome at all and is then fertilised by an X-bearing sperm. Because there is only one X to begin with, none is inactivated, and no Barr body is seen on a buccal smear — the finding that separates Turner's from every trisomic sex-chromosome pattern.
 
 ## answer_c
 Isochromosome
@@ -2440,6 +2472,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -2583,6 +2617,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -2726,6 +2762,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -2841,7 +2879,7 @@ True, so not the exception — that is what euploid means.
 The additional loss of one chromosome
 
 ## explanation_b
-The exception, and the answer. Gaining or losing single chromosomes is aneuploidy. Euploidy moves in whole haploid sets. Aneuploidy instead changes the count by a single chromosome against that haploid multiple — a trisomy adds one, a monosomy removes one — which is the arithmetic distinction the department book uses to separate the two categories.
+The exception, and the answer. Gaining or losing single chromosomes is aneuploidy. Euploidy moves in whole haploid sets. Aneuploidy instead changes the count by a single chromosome against that haploid multiple — a trisomy adds one, a monosomy removes one — which is the arithmetic distinction that separates the two categories.
 
 ## answer_c
 May be triploid with 69 chromosomes
@@ -2869,6 +2907,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -2984,7 +3024,7 @@ Half right and therefore the strongest distractor: the Barr body is coiled, but 
 The inactive coiled X chromosome in the female
 
 ## explanation_b
-Correct. Every X beyond the first is condensed and inactivated, so the number of Barr bodies is one less than the number of X chromosomes — which is what makes it a counting test. In a normal female one X stays extended and active while every additional X condenses into a Barr body, so the Barr body count always runs one behind the total X count: none in Turner's single X, one in the normal female's two, two in the triple-X female's three. A buccal smear reading that count is therefore a quick screen for a sex-chromosome aneuploidy, without needing a full karyotype.
+Every X beyond the first is condensed and inactivated, so the number of Barr bodies is one less than the number of X chromosomes — which is what makes it a counting test. In a normal female one X stays extended and active while every additional X condenses into a Barr body, so the Barr body count always runs one behind the total X count: none in Turner's single X, one in the normal female's two, two in the triple-X female's three. A buccal smear reading that count is therefore a quick screen for a sex-chromosome aneuploidy, without needing a full karyotype.
 
 ## answer_c
 3-5% in buccal cell nuclei
@@ -3012,6 +3052,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -3155,6 +3197,8 @@ CON-HEM-BF004EF03BD129
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -3282,7 +3326,7 @@ This is the palatine arrangement, and it is why the palatine crypts fill with de
 Ducts of their mucous glands open at the base of the crypts
 
 ## explanation_d
-Correct. Secretion entering at the bottom of the crypt washes it out continuously, so debris and organisms do not accumulate the way they do in a palatine crypt. Continuous washing keeps debris from accumulating the way it does in the palatine tonsil, whose glands open on the surface epithelium outside the crypts rather than into their base. The single crypt per lingual follicle, kept flushed this way, is why lingual tonsillitis is the rare exception rather than the rule.
+Secretion entering at the bottom of the crypt washes it out continuously, so debris and organisms do not accumulate the way they do in a palatine crypt. Continuous washing keeps debris from accumulating the way it does in the palatine tonsil, whose glands open on the surface epithelium outside the crypts rather than into their base. The single crypt per lingual follicle, kept flushed this way, is why lingual tonsillitis is the rare exception rather than the rule.
 
 ## correct_answer
 D
@@ -3298,6 +3342,8 @@ CON-HEM-BF004EF03BD129
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -3425,7 +3471,7 @@ This is the lingual tonsil's arrangement, and it is exactly why the lingual tons
 Lymphatic tissue is formed of lymphatic nodules and diffuse lymphatic tissue
 
 ## explanation_d
-Correct. Like the other tonsils it is a partly encapsulated aggregation of nodules set in diffuse lymphatic tissue, not an organized organ with cortex and medulla. That is the construction every tonsil shares — nodules, with or without germinal centres, set in a background of diffuse lymphocytes, plasma cells and macrophages — and it is what makes a tonsil lymphatic tissue rather than a lymphoid organ with its own cortex and medulla. What differs between the palatine, lingual and pharyngeal tonsils is only the site, the epithelium, and whether crypts and a capsule are present.
+Like the other tonsils it is a partly encapsulated aggregation of nodules set in diffuse lymphatic tissue, not an organized organ with cortex and medulla. That is the construction every tonsil shares — nodules, with or without germinal centres, set in a background of diffuse lymphocytes, plasma cells and macrophages — and it is what makes a tonsil lymphatic tissue rather than a lymphoid organ with its own cortex and medulla. What differs between the palatine, lingual and pharyngeal tonsils is only the site, the epithelium, and whether crypts and a capsule are present.
 
 ## correct_answer
 D
@@ -3441,6 +3487,8 @@ CON-HEM-BF004EF03BD129
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -3556,7 +3604,7 @@ The pharyngeal tonsil has folds, not crypts. Deep branching crypts are the palat
 Covering epithelium is pseudo-stratified columnar with goblet cells
 
 ## explanation_b
-Correct. It sits in the nasopharynx, so it keeps respiratory epithelium — which is the single feature that separates it from every other tonsil. Because it sits in the nasopharynx rather than the oropharynx, it keeps the respiratory epithelium of the airway around it instead of the stratified squamous covering the palatine and lingual tonsils share. Its folds, not crypts, are also why chronic enlargement of the adenoid behaves differently from tonsillitis of the palatine tonsil.
+It sits in the nasopharynx, so it keeps respiratory epithelium — which is the single feature that separates it from every other tonsil. Because it sits in the nasopharynx rather than the oropharynx, it keeps the respiratory epithelium of the airway around it instead of the stratified squamous covering the palatine and lingual tonsils share. Its folds, not crypts, are also why chronic enlargement of the adenoid behaves differently from tonsillitis of the palatine tonsil.
 
 ## answer_c
 Present in the lateral wall of the oropharynx
@@ -3584,6 +3632,8 @@ CON-HEM-BF004EF03BD129
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -3705,7 +3755,7 @@ The follicular zone is the darkly staining rim around the germinal centre and is
 Peri-arteriolar lymphatic sheath
 
 ## explanation_c
-Correct. The PALS is the sleeve of mainly T lymphocytes wrapped directly around the central arteriole, and it is the splenic counterpart of the paracortex of a lymph node. The name records what happens to it after thymectomy: without a functioning thymus to seed it with T lymphocytes, the sheath depletes while the B-cell zones of the follicle are left intact. It is the splenic equivalent of the paracortex of a lymph node, both being the T-dependent zone of their organ.
+The PALS is the sleeve of mainly T lymphocytes wrapped directly around the central arteriole, and it is the splenic counterpart of the paracortex of a lymph node. The name records what happens to it after thymectomy: without a functioning thymus to seed it with T lymphocytes, the sheath depletes while the B-cell zones of the follicle are left intact. It is the splenic equivalent of the paracortex of a lymph node, both being the T-dependent zone of their organ.
 
 ## answer_d
 Germinal center
@@ -3727,6 +3777,8 @@ CON-HEM-7B050DE7FE2B80
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -3836,7 +3888,7 @@ The thymus dependent zone of the spleen is present at:
 Around the central arteriole of the white pulp
 
 ## explanation_a
-Correct. The PALS is defined by what it surrounds: the central arteriole, which is eccentric in the follicle and is the landmark that identifies splenic white pulp on a slide. That eccentric position is itself worth remembering: the arteriole runs through one side of the follicle rather than through its centre, even though the sheath around it is called peri-arteriolar. Finding the vessel first, then reading the sheath of small dark lymphocytes wrapped around it, is the fastest way to identify splenic white pulp on a slide.
+The PALS is defined by what it surrounds: the central arteriole, which is eccentric in the follicle and is the landmark that identifies splenic white pulp on a slide. That eccentric position is itself worth remembering: the arteriole runs through one side of the follicle rather than through its centre, even though the sheath around it is called peri-arteriolar. Finding the vessel first, then reading the sheath of small dark lymphocytes wrapped around it, is the fastest way to identify splenic white pulp on a slide.
 
 ## answer_b
 Germinal center of the white pulp
@@ -3870,6 +3922,8 @@ CON-HEM-7B050DE7FE2B80
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -3997,7 +4051,7 @@ Medullary cords are branched masses of B lymphocytes and plasma cells; splenic s
 Paracortex and periarteriolar lymphatic sheath
 
 ## explanation_d
-Correct. Both organs put their T cells in a deep zone between the follicles and the medulla or red pulp — the paracortex in the node, the PALS in the spleen. Both zones sit deep to the B-cell follicles and hold T lymphocytes recirculating from the blood, which is exactly the arrangement thymectomy depletes in either organ. Learning the pair together is more useful than learning either name alone, since this corpus tests them against each other rather than in isolation.
+Both organs put their T cells in a deep zone between the follicles and the medulla or red pulp — the paracortex in the node, the PALS in the spleen. Both zones sit deep to the B-cell follicles and hold T lymphocytes recirculating from the blood, which is exactly the arrangement thymectomy depletes in either organ. Learning the pair together is more useful than learning either name alone, since this corpus tests them against each other rather than in isolation.
 
 ## correct_answer
 D
@@ -4013,6 +4067,8 @@ CON-HEM-7B050DE7FE2B80
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -4140,7 +4196,7 @@ Mainly T lymphocytes; it is the thymus-dependent zone.
 Marginal zone
 
 ## explanation_d
-Correct. The marginal zone is the periphery of the white pulp, where blood first meets lymphoid tissue, and it holds B and T lymphocytes together with plasma cells, macrophages and antigen-presenting cells. Sitting at the outer edge of the white pulp, it is the first lymphoid tissue that blood-borne antigen reaches after crossing from the red pulp, which fits holding both lymphocyte classes plus antigen-presenting macrophages rather than the single class each inner zone specialises in. The PALS by contrast is overwhelmingly T cells and the follicular and germinal-centre zones are overwhelmingly B cells, so 'both' by itself identifies the marginal zone.
+The marginal zone is the periphery of the white pulp, where blood first meets lymphoid tissue, and it holds B and T lymphocytes together with plasma cells, macrophages and antigen-presenting cells. Sitting at the outer edge of the white pulp, it is the first lymphoid tissue that blood-borne antigen reaches after crossing from the red pulp, which fits holding both lymphocyte classes plus antigen-presenting macrophages rather than the single class each inner zone specialises in. The PALS by contrast is overwhelmingly T cells and the follicular and germinal-centre zones are overwhelmingly B cells, so 'both' by itself identifies the marginal zone.
 
 ## correct_answer
 D
@@ -4156,6 +4212,8 @@ CON-HEM-7B050DE7FE2B80
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -4265,7 +4323,7 @@ Which type of capillary has a continuous endothelium and a continuous basal lami
 Continuous
 
 ## explanation_a
-Correct. The continuous (somatic) capillary is a sealed tube: unbroken endothelium, tight junctions between the cells, and an unbroken basal lamina. It is the type found in muscle, nervous tissue, skin and lung. Remember it by all four features moving together: no pores, tight junctions, an unbroken basal lamina and pericytes applied to the outside — lose any one and the vessel is a different type. Most of the body's capillaries are built this way, wherever a tight diffusion barrier matters more than bulk exchange.
+The continuous (somatic) capillary is a sealed tube: unbroken endothelium, tight junctions between the cells, and an unbroken basal lamina. It is the type found in muscle, nervous tissue, skin and lung. Remember it by all four features moving together: no pores, tight junctions, an unbroken basal lamina and pericytes applied to the outside — lose any one and the vessel is a different type. Most of the body's capillaries are built this way, wherever a tight diffusion barrier matters more than bulk exchange.
 
 ## answer_b
 Fenestrated
@@ -4299,6 +4357,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -4414,7 +4474,7 @@ The continuous capillary carries the other name — somatic capillary — becaus
 Fenestrated
 
 ## explanation_b
-Correct. Fenestrated capillaries are called visceral because they serve organs that must exchange in bulk: gut mucosa, endocrine glands and the renal glomerulus. Its pores are covered by a thin diaphragm and its basal lamina stays continuous, so it filters bulk fluid and small solutes fast without letting whole cells or plasma proteins through, exactly what a gut villus, an endocrine gland or a renal glomerulus needs. That combination — pores present but basal lamina intact — is what tells it apart from the sinusoid, whose basal lamina is broken as well.
+Fenestrated capillaries are called visceral because they serve organs that must exchange in bulk: gut mucosa, endocrine glands and the renal glomerulus. Its pores are covered by a thin diaphragm and its basal lamina stays continuous, so it filters bulk fluid and small solutes fast without letting whole cells or plasma proteins through, exactly what a gut villus, an endocrine gland or a renal glomerulus needs. That combination — pores present but basal lamina intact — is what tells it apart from the sinusoid, whose basal lamina is broken as well.
 
 ## answer_c
 Sinusoidal
@@ -4442,6 +4502,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -4563,7 +4625,7 @@ Fenestrated capillaries serve the intestine, endocrine glands and kidney. Their 
 Sinusoidal
 
 ## explanation_c
-Correct. Liver, spleen and bone marrow need whole cells to cross the wall, so the sinusoid is wide, has large intercellular gaps and a discontinuous basal lamina, with macrophages in its wall. Its endothelial cells are separated by wide gaps rather than sealed by tight junctions, its basal lamina is discontinuous, and macrophages sit in or beside its wall, the combination that lets whole plasma proteins, hormones and blood cells cross in the three organs named. No pericytes are found on a sinusoid, which is the last feature that separates it from the other two capillary types.
+Liver, spleen and bone marrow need whole cells to cross the wall, so the sinusoid is wide, has large intercellular gaps and a discontinuous basal lamina, with macrophages in its wall. Its endothelial cells are separated by wide gaps rather than sealed by tight junctions, its basal lamina is discontinuous, and macrophages sit in or beside its wall, the combination that lets whole plasma proteins, hormones and blood cells cross in the three organs named. No pericytes are found on a sinusoid, which is the last feature that separates it from the other two capillary types.
 
 ## answer_d
 Lymphatic
@@ -4585,6 +4647,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -4700,7 +4764,7 @@ Pores are the fenestrated capillary's. The somatic capillary's endothelium is un
 The most common type
 
 ## explanation_b
-Correct. The somatic — continuous — capillary is the default capillary of the body, found in muscle, nervous tissue, skin, lung and connective tissue. Its sealed wall — continuous endothelium joined by tight junctions, on a continuous basal lamina, with pericytes applied to the outside — is the default arrangement wherever a tissue needs a tight diffusion barrier rather than bulk exchange. Muscle, nervous tissue, skin, lung and most connective tissue all use this type, which is why it outnumbers the fenestrated and sinusoidal types combined.
+The somatic — continuous — capillary is the default capillary of the body, found in muscle, nervous tissue, skin, lung and connective tissue. Its sealed wall — continuous endothelium joined by tight junctions, on a continuous basal lamina, with pericytes applied to the outside — is the default arrangement wherever a tissue needs a tight diffusion barrier rather than bulk exchange. Muscle, nervous tissue, skin, lung and most connective tissue all use this type, which is why it outnumbers the fenestrated and sinusoidal types combined.
 
 ## answer_c
 Has discontinuous basement membrane
@@ -4728,6 +4792,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -4843,7 +4909,7 @@ Kupffer cells belong to the hepatic sinusoid. The spleen has its own macrophages
 Are lined with elongated endothelial cells with large intercellular spaces
 
 ## explanation_b
-Correct. The stave cells lie parallel to the long axis like the staves of a barrel, with wide gaps between them — which is how a red cell is forced to deform to leave the cord, and how the spleen tests its flexibility. A red cell has to squeeze between adjacent stave cells to leave the cord and re-enter the circulation, and one that has lost its normal deformability, aged or abnormally shaped, is trapped and phagocytosed there instead, which is the physical basis of splenic filtering. The barrel-stave arrangement, with its discontinuous basal lamina laid down as encircling hoops rather than a sheet, is what makes that selective passage possible.
+The stave cells lie parallel to the long axis like the staves of a barrel, with wide gaps between them — which is how a red cell is forced to deform to leave the cord, and how the spleen tests its flexibility. A red cell has to squeeze between adjacent stave cells to leave the cord and re-enter the circulation, and one that has lost its normal deformability, aged or abnormally shaped, is trapped and phagocytosed there instead, which is the physical basis of splenic filtering. The barrel-stave arrangement, with its discontinuous basal lamina laid down as encircling hoops rather than a sheet, is what makes that selective passage possible.
 
 ## answer_c
 Stave cells are phagocytic cells that surround their walls
@@ -4871,6 +4937,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -4986,7 +5054,7 @@ That is the endothelium's job. The pericyte lies outside it, wrapped in its own 
 Regulate the blood flow through capillaries
 
 ## explanation_b
-Correct. The pericyte is contractile and shares the endothelial basal lamina; it is the capillary's substitute for a tunica media. It shares the endothelial cell's own basal lamina rather than sitting in a separate connective-tissue layer, which fits the capillary having no distinct tunica media of its own. Pericytes are also an undifferentiated cell line: after injury they can give rise to smooth muscle or fibroblasts, a separate function from the contractile role they perform in an intact capillary.
+The pericyte is contractile and shares the endothelial basal lamina; it is the capillary's substitute for a tunica media. It shares the endothelial cell's own basal lamina rather than sitting in a separate connective-tissue layer, which fits the capillary having no distinct tunica media of its own. Pericytes are also an undifferentiated cell line: after injury they can give rise to smooth muscle or fibroblasts, a separate function from the contractile role they perform in an intact capillary.
 
 ## answer_c
 Can differentiate into elastic fibers
@@ -5014,6 +5082,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -5141,7 +5211,7 @@ Fibroblasts make the connective tissue around the vessel; they are not part of i
 Pericytes
 
 ## explanation_d
-Correct. The pericyte is the contractile cell of the capillary wall, sharing the endothelial basal lamina, and it stands in for the tunica media the capillary does not have. One step upstream, at the arteriole and metarteriole, smooth muscle performs the same job before the vessel narrows into a true capillary, so 'who regulates capillary flow' and 'who regulates arteriolar flow' have different correct answers even though they sound alike. The pericyte's control is local to the capillary bed it sits on, rather than being organised into a smooth-muscle sleeve.
+The pericyte is the contractile cell of the capillary wall, sharing the endothelial basal lamina, and it stands in for the tunica media the capillary does not have. One step upstream, at the arteriole and metarteriole, smooth muscle performs the same job before the vessel narrows into a true capillary, so 'who regulates capillary flow' and 'who regulates arteriolar flow' have different correct answers even though they sound alike. The pericyte's control is local to the capillary bed it sits on, rather than being organised into a smooth-muscle sleeve.
 
 ## correct_answer
 D
@@ -5157,6 +5227,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -5292,6 +5364,8 @@ CON-HEM-7B050DE7FE2B80 | CON-HEM-BF004EF03BD129
 [clear]
 ## library_ids
 ART-104-HIS-LYMPHOID-ORGANS
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Lymphatic and Macrophage System
 
@@ -5427,6 +5501,8 @@ CON-CVS-9585A65D9EDA4D
 [clear]
 ## library_ids
 ART-104-HIS-CAPILLARY-TYPES
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cardiovascular System
 
@@ -5559,6 +5635,8 @@ CON-DEV-C2AC39B48A8F21
 [clear]
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Cytogenetics
 
@@ -5694,6 +5772,8 @@ CON-RES-4D4CBF3BB8AF1E | CON-RES-B7F9FACECA4AFF
 [clear]
 ## library_ids
 ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT | ART-104-HIS-NASAL-MUCOSA
+## resource_ids
+src_18d3a953df4ca83c4e74
 ## topic
 Respiratory System
 

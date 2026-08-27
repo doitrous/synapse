@@ -822,7 +822,7 @@ ART-103-ANA-LIMB-DEVELOPMENT
 [clear]
 
 ## learning_objective
-Name and define the six limb anomalies the department book lists, distinguishing absence, shortening and digit number or fusion defects.
+Name and define the six limb anomalies, distinguishing absence, shortening and digit number or fusion defects.
 
 ## media_recommendations
 

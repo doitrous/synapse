@@ -13422,7 +13422,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] One of the following is correct regarding the functions of placenta (DEP BOOK)
+[asked 1x across the question books] One of the following is correct regarding the functions of placenta
 ## conflicts
 [clear]
 ## uncertainty
@@ -14218,7 +14218,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Placental barrier is the separation between (DEP BOOK) em em em em em
+[asked 1x across the question books] Placental barrier is the separation between em em em em em
 ## conflicts
 [clear]
 ## uncertainty
@@ -14484,7 +14484,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Abnormally long umbilical cord may lead to (DEP BOOK - 2024) Ac ad Ac ad ad ad
+[asked 1x across the question books] Abnormally long umbilical cord may lead to Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -14747,7 +14747,7 @@ ART-101-ANA-CHORIONIC-VILLI-PLACENTA | ART-101-ANA-FERTILIZATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Regarding the decidua basalis, one of the following statements is correct: (2018 – DEP BOOK)
+[asked 1x across the question books] Regarding the decidua basalis, one of the following statements is correct:
 ## conflicts
 [clear]
 ## uncertainty
@@ -18759,7 +18759,7 @@ ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-VEINS-OF-UPPER-LIMB
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Median vein of the forearm: (DEP BOOK)
+[asked 1x across the question books] Median vein of the forearm:
 ## conflicts
 [clear]
 ## uncertainty
@@ -21770,7 +21770,7 @@ ART-101-ANA-INTRODUCTION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] The plane which divides the body into 2 equal halves right and left is: (DEP BOOK)
+[asked 1x across the question books] The plane which divides the body into 2 equal halves right and left is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -22309,7 +22309,7 @@ ART-101-ANA-ELBOW-JOINT
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Sternoclavicular joint, choose the. correct answer: (DEP BOOK) Ac em
+[asked 1x across the question books] Sternoclavicular joint, choose the. correct answer: Ac em
 ## conflicts
 [clear]
 ## uncertainty
@@ -28420,7 +28420,7 @@ ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Principal muscle concerned in lateral rotation of the shoulder: (DEP BOOK) Ac ad Ac ad ad ad
+[asked 1x across the question books] Principal muscle concerned in lateral rotation of the shoulder: Ac ad Ac ad ad ad
 ## conflicts
 [clear]
 ## uncertainty
@@ -30461,7 +30461,7 @@ ART-101-ANA-IMPLANTATION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Somatic extraembryonic mesoderm (DEP BOOK)
+[asked 1x across the question books] Somatic extraembryonic mesoderm
 ## conflicts
 [clear]
 ## uncertainty
@@ -30594,7 +30594,7 @@ ART-101-ANA-IMPLANTATION | ART-101-ANA-EMBRYONIC-FOLDING
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Regarding the somites, choose the true statement: (2017 – 2nd - DEP BOOK)
+[asked 2x across the question books] Regarding the somites, choose the true statement:
 ## conflicts
 [clear]
 ## uncertainty

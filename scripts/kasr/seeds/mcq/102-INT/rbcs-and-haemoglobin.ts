@@ -20,7 +20,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'The average number of red blood corpuscles ranges from 5–5.5 million/mm3 in males and 4–4.5 million/mm3 in females. The count is high in newly born infants, at high altitudes and in athletes (all situations of relatively increased oxygen demand or reduced oxygen availability, which raise erythropoietin drive), and is lower in growing children and in old age.',
       objective: 'State the normal RBC count range by sex, and name the physiological states in which it runs higher or lower than normal.',
-      pitfall: 'Attributing the higher newborn/high-altitude/athlete counts to a different mechanism from each other, when the book files them together as one list of situations that raise the count — the underlying driver for altitude and athletic training is the same hypoxia-erythropoietin axis taught under Erythropoiesis, and the newborn count is explained the same way (relative intra-uterine hypoxia).',
+      pitfall: 'Attributing the higher newborn/high-altitude/athlete counts to a different mechanism from each other, when they are grouped together as one list of situations that raise the count — the underlying driver for altitude and athletic training is the same hypoxia-erythropoietin axis taught under Erythropoiesis, and the newborn count is explained the same way (relative intra-uterine hypoxia).',
       subject: 'haem',
       primary: 'DIS-PHY-T02',
       secondary: [],
@@ -38,8 +38,8 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Normal values',
       learningObjective: 'State that RBC count is higher than the adult range in newborn infants.',
       explanations: {
-        a: 'Erythrocytes are biconcave discs, but they are not rigid — the book emphasises the opposite: their flexibility, which lets them be squeezed through capillaries narrower than their own diameter without rupturing.',
-        b: 'Correct. Newborn infants normally have a higher RBC count than the adult range, alongside high altitude and athletic training, reflecting the relative hypoxia of intra-uterine life.',
+        a: 'Erythrocytes are biconcave discs, but they are not rigid — quite the opposite: they are flexible, which lets them be squeezed through capillaries narrower than their own diameter without rupturing.',
+        b: 'Newborn infants normally have a higher RBC count than the adult range, alongside high altitude and athletic training, reflecting the relative hypoxia of intra-uterine life.',
         c: 'Carbonic anhydrase in the erythrocyte is needed for CO2 transport (converting CO2 to bicarbonate for the chloride shift), not for oxygen transport, which is haemoglobin\'s job.',
         d: 'Protective (immune) function belongs to the white blood cells, not the erythrocytes, whose main role is gas transport.',
       },

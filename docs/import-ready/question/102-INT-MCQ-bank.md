@@ -50,7 +50,7 @@ Glycine is:
 ## question
 Glycine is:
 ## vignette
-The department book classifies each amino acid twice over — once by its chemical group and once by whether the diet has to supply it. This item asks only for the chemical placement of the smallest of the twenty.
+Amino acids are classified twice over — once by chemical group and once by whether the diet has to supply them. This item asks only for the chemical placement of the smallest of the twenty.
 ## subject
 fnd
 ## status
@@ -64,19 +64,19 @@ A
 ## answer_a
 Neutral aliphatic amino acid
 ## explanation_a
-Correct. Glycine has a single hydrogen atom as its side chain, so it is aliphatic — a plain carbon skeleton with no ring — and it is neutral, because the side chain carries neither a second amino group nor a second carboxyl group. The department book puts it in the neutral aliphatic subgroup alongside alanine, as one of the two short-chain members, and the other neutral aliphatic subgroups are the branched-chain ones (valine, leucine, isoleucine), the hydroxyl-containing ones (serine, threonine), the sulfur-containing ones (cysteine, methionine) and the amides (asparagine, glutamine). The thing to hold is that the chemical group and the nutritional group are independent facts about the same molecule: glycine is neutral aliphatic *and* non-essential, and the second half does not follow from the first. Its short side chain is also why glycine occupies every third position of the collagen triplet — nothing bulkier would let three chains pack that closely.
+Glycine has a single hydrogen atom as its side chain, so it is aliphatic — a plain carbon skeleton with no ring — and it is neutral, because the side chain carries neither a second amino group nor a second carboxyl group. It sits in the neutral aliphatic subgroup alongside alanine, as one of the two short-chain members, and the other neutral aliphatic subgroups are the branched-chain ones (valine, leucine, isoleucine), the hydroxyl-containing ones (serine, threonine), the sulfur-containing ones (cysteine, methionine) and the amides (asparagine, glutamine). The thing to hold is that the chemical group and the nutritional group are independent facts about the same molecule: glycine is neutral aliphatic *and* non-essential, and the second half does not follow from the first. Its short side chain is also why glycine occupies every third position of the collagen triplet — nothing bulkier would let three chains pack that closely.
 ## answer_b
 Basic aliphatic amino acid
 ## explanation_b
-Incorrect. This is the answer of a student who has learned that the aliphatic group subdivides into neutral, acidic and basic but has not attached names to the subgroups. The basic aliphatic amino acids are arginine and lysine, both of which carry a second nitrogen-containing group on the side chain; glycine's side chain is one hydrogen atom and cannot be basic.
+This is the answer of a student who has learned that the aliphatic group subdivides into neutral, acidic and basic but has not attached names to the subgroups. The basic aliphatic amino acids are arginine and lysine, both of which carry a second nitrogen-containing group on the side chain; glycine's side chain is one hydrogen atom and cannot be basic.
 ## answer_c
 Acidic aliphatic amino acid
 ## explanation_c
-Incorrect. The acidic aliphatic amino acids are aspartic acid and glutamic acid, whose side chains carry a second carboxyl group. Picking this suggests the amino and carboxyl groups of the amino acid backbone — which every amino acid has — are being counted as the side chain. Classification is always by what hangs off the alpha carbon, never by the backbone.
+The acidic aliphatic amino acids are aspartic acid and glutamic acid, whose side chains carry a second carboxyl group. Picking this suggests the amino and carboxyl groups of the amino acid backbone — which every amino acid has — are being counted as the side chain. Classification is always by what hangs off the alpha carbon, never by the backbone.
 ## answer_d
 Acidic aromatic amino acid
 ## explanation_d
-Incorrect twice over. Glycine has no ring, so it is not aromatic, and no acidic amino acid in the department book's chart is aromatic either — the aromatic group is phenylalanine, tyrosine and tryptophan, and the acidic group is aspartic and glutamic acids. This option pairs two labels that never occur together, which is the give-away.
+This option fails twice over: glycine has no ring, so it is not aromatic, and no acidic amino acid is aromatic either — the aromatic group is phenylalanine, tyrosine and tryptophan, and the acidic group is aspartic and glutamic acids. This option pairs two labels that never occur together, which is the give-away.
 ## topic
 Biochemistry
 ## subtopic
@@ -121,8 +121,10 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
-Place a named amino acid in the department book's chemical classification, and recognise that the chemical group carries no information about whether the amino acid is essential.
+Place a named amino acid in its chemical classification, and recognise that the chemical group carries no information about whether the amino acid is essential.
 ## source_citation
 Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 6, page 25; printed answer key page 29, cell 6 = a.
 ## estimated_seconds
@@ -145,7 +147,7 @@ Which of the following is formed when 2 cysteine are conjugated by disulfide bon
 ## question
 Which of the following is formed when 2 cysteine are conjugated by disulfide bond?
 ## vignette
-The department book warns that this molecule is counted as a twenty-first amino acid more often than any other, and that its nutritional status is the half of the answer students get wrong.
+This molecule is counted as a twenty-first amino acid more often than any other, and its nutritional status is the half of the answer students get wrong.
 ## subject
 fnd
 ## status
@@ -159,19 +161,19 @@ C
 ## answer_a
 Homo cysteine
 ## explanation_a
-Incorrect. Homocysteine is a single amino acid with one more methylene group in its chain than cysteine has — a difference in chain length, not a dimer. Picking it reads "conjugated" as "modified" rather than as "two molecules joined", which is the specific misreading this option catches.
+Homocysteine is a single amino acid with one more methylene group in its chain than cysteine has — a difference in chain length, not a dimer. Picking it reads "conjugated" as "modified" rather than as "two molecules joined", which is the specific misreading this option catches.
 ## answer_b
 Acetyl cysteine
 ## explanation_b
-Incorrect. Acetylcysteine is cysteine carrying an acetyl group on its amino nitrogen — again one molecule with something added, not two molecules joined through their sulfurs. The stem specifies a disulfide bond, and a disulfide bond by definition links two sulfur atoms, so the product must contain two sulfur-containing residues.
+Acetylcysteine is cysteine carrying an acetyl group on its amino nitrogen — again one molecule with something added, not two molecules joined through their sulfurs. The stem specifies a disulfide bond, and a disulfide bond by definition links two sulfur atoms, so the product must contain two sulfur-containing residues.
 ## answer_c
 Cystine
 ## explanation_c
-Correct. Two molecules of cysteine are conjugated by a disulfide bond formed by the removal of two hydrogen atoms, and the dimer is cystine. Three things follow and all three are examinable. First, cystine is not a twenty-first amino acid: it is made after cysteine has been incorporated, exactly as hydroxyproline and hydroxylysine are made after proline and lysine. Second, cystine is a sulfur-containing amino acid, and it inherits cysteine's nutritional status, not methionine's — so cystine is non-essential, even though the other sulfur-containing amino acid, methionine, is essential. That single inference is the trap the department set on its 2025 paper. Third, the same bond does structural work at a higher level: a disulfide bond between two cysteines is one of the five interactions holding tertiary structure together, as in keratin and insulin, and it is the cross-link that makes heat-coagulated albumin irreversibly denatured.
+Two molecules of cysteine are conjugated by a disulfide bond formed by the removal of two hydrogen atoms, and the dimer is cystine. Three things follow and all three are examinable. First, cystine is not a twenty-first amino acid: it is made after cysteine has been incorporated, exactly as hydroxyproline and hydroxylysine are made after proline and lysine. Second, cystine is a sulfur-containing amino acid, and it inherits cysteine's nutritional status, not methionine's — so cystine is non-essential, even though the other sulfur-containing amino acid, methionine, is essential. That single inference is the trap set on the 2025 exam paper. Third, the same bond does structural work at a higher level: a disulfide bond between two cysteines is one of the five interactions holding tertiary structure together, as in keratin and insulin, and it is the cross-link that makes heat-coagulated albumin irreversibly denatured.
 ## answer_d
 Homo cystine
 ## explanation_d
-Incorrect, and it is the near-miss. Homocystine is the disulfide dimer of homocysteine, so the *reaction* described is right but the *starting material* is wrong. A student who picks this has the chemistry of the disulfide bond and has simply not held the one-methylene difference between cysteine and homocysteine.
+It is the near-miss. Homocystine is the disulfide dimer of homocysteine, so the *reaction* described is right but the *starting material* is wrong. A student who picks this has the chemistry of the disulfide bond and has simply not held the one-methylene difference between cysteine and homocysteine.
 ## topic
 Biochemistry
 ## subtopic
@@ -216,6 +218,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Identify cystine as the disulfide-linked dimer of cysteine, and infer its nutritional status from cysteine rather than from methionine.
 ## source_citation
@@ -240,7 +244,7 @@ Which of the following is a non-essential amino acid?
 ## question
 Which of the following is a non-essential amino acid?
 ## vignette
-Three of the four options are amino acids the department book places outside the non-essential group, and they are placed outside it for two different reasons.
+Three of the four options are amino acids that fall outside the non-essential group, and they fall outside it for two different reasons.
 ## subject
 fnd
 ## status
@@ -254,19 +258,19 @@ D
 ## answer_a
 Lysine
 ## explanation_a
-Incorrect. Lysine is one of the nine essential amino acids — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine. It is also basic aliphatic, and the pairing is worth noticing because its partner in that chemical subgroup, arginine, is *not* essential: being basic does not make an amino acid essential.
+Lysine is one of the nine essential amino acids — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine. It is also basic aliphatic, and the pairing is worth noticing because its partner in that chemical subgroup, arginine, is *not* essential: being basic does not make an amino acid essential.
 ## answer_b
 Leucine
 ## explanation_b
-Incorrect. Leucine is essential and branched-chain. All three branched-chain amino acids happen to be essential, which tempts students into treating "branched-chain" as a nutritional label; it is a chemical one, and the coincidence is not a rule.
+Leucine is essential and branched-chain. All three branched-chain amino acids happen to be essential, which tempts students into treating "branched-chain" as a nutritional label; it is a chemical one, and the coincidence is not a rule.
 ## answer_c
 Arginine
 ## explanation_c
-Incorrect, and this is the option the question exists for. Arginine is neither essential nor non-essential: it is the only half-essential, or semi-essential, amino acid, formed in the body fast enough for an adult but not fast enough for a growing child or adolescent. A student who picks it has remembered that arginine is made in the body and has forgotten that the department book gives it a category of its own.
+This is the option the question exists for. Arginine is neither essential nor non-essential: it is the only half-essential, or semi-essential, amino acid, formed in the body fast enough for an adult but not fast enough for a growing child or adolescent. A student who picks it has remembered that arginine is made in the body and has forgotten that it holds a category of its own.
 ## answer_d
 Tyrosine
 ## explanation_d
-Correct. Tyrosine is non-essential: the body makes it, and the department book lists it outside both the essential nine and the single half-essential entry. Read the four options together and the whole nutritional classification is on the page. Essential amino acids are not formed in the body at all, so a deficiency lowers the rate of growth and of protein synthesis and produces a negative nitrogen balance; there are nine, and lysine and leucine are two of them. Half-essential means formed, but not fast enough for growth, and arginine is the only member. Non-essential means formed at a rate sufficient for adults and growing children alike, mostly from carbohydrate, and tyrosine belongs there. The practical use of the list is biological value: a protein containing all the essential amino acids is of high biological value, as milk and egg are, and one deficient in even one — zein of maize, deficient in tryptophan — is of low biological value.
+Tyrosine is non-essential: the body makes it, sitting outside both the essential nine and the single half-essential entry. Read the four options together and the whole nutritional classification is on the page. Essential amino acids are not formed in the body at all, so a deficiency lowers the rate of growth and of protein synthesis and produces a negative nitrogen balance; there are nine, and lysine and leucine are two of them. Half-essential means formed, but not fast enough for growth, and arginine is the only member. Non-essential means formed at a rate sufficient for adults and growing children alike, mostly from carbohydrate, and tyrosine belongs there. The practical use of the list is biological value: a protein containing all the essential amino acids is of high biological value, as milk and egg are, and one deficient in even one — zein of maize, deficient in tryptophan — is of low biological value.
 ## topic
 Biochemistry
 ## subtopic
@@ -311,8 +315,10 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
-Sort named amino acids into the department book's three nutritional groups, and distinguish half-essential from non-essential rather than collapsing the two.
+Sort named amino acids into the three nutritional groups, and distinguish half-essential from non-essential rather than collapsing the two.
 ## source_citation
 Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Amino Acids of Biological Importance, printed MCQ 24, page 28; printed answer key page 28-29 grid, cell 24 = d.
 ## estimated_seconds
@@ -335,7 +341,7 @@ The only half-essential amino acid is:
 ## question
 The only half-essential amino acid is:
 ## vignette
-The department book gives this category exactly one member, and says why: it is formed in the body fast enough for an adult and not fast enough for a growing child.
+This category has exactly one member, and for a clear reason: it is formed in the body fast enough for an adult and not fast enough for a growing child.
 ## subject
 fnd
 ## status
@@ -349,19 +355,19 @@ B
 ## answer_a
 Alanine
 ## explanation_a
-Incorrect. Alanine is non-essential and neutral aliphatic — one of the two short-chain members of that subgroup with glycine. Nothing about it is rate-limited in a growing child, which is the whole meaning of the half-essential category.
+Alanine is non-essential and neutral aliphatic — one of the two short-chain members of that subgroup with glycine. Nothing about it is rate-limited in a growing child, which is the whole meaning of the half-essential category.
 ## answer_b
 Arginine
 ## explanation_b
-Correct. Arginine is the only half-essential, or semi-essential, amino acid the department book names. The definition is a rate, not a presence: half-essential amino acids *are* formed in the body, but at a rate that is enough for adults and not enough for growing children and adolescents. That is why the category exists at all and why it cannot be merged with either neighbour — an essential amino acid is not formed in the body at all, and a non-essential one is formed fast enough for anybody. Two further placements travel with arginine and are examined alongside it. Chemically it is basic aliphatic, paired with lysine; lysine is essential and arginine is not, which is the clearest demonstration in the chapter that the chemical group and the nutritional group are independent.
+Arginine is the only half-essential, or semi-essential, amino acid. The definition is a rate, not a presence: half-essential amino acids *are* formed in the body, but at a rate that is enough for adults and not enough for growing children and adolescents. That is why the category exists at all and why it cannot be merged with either neighbour — an essential amino acid is not formed in the body at all, and a non-essential one is formed fast enough for anybody. Two further placements travel with arginine and are examined alongside it. Chemically it is basic aliphatic, paired with lysine; lysine is essential and arginine is not, which is the clearest demonstration in the chapter that the chemical group and the nutritional group are independent.
 ## answer_c
 Asparagine
 ## explanation_c
-Incorrect. Asparagine is non-essential, and chemically it is one of the two amides of the acidic amino acids, with glutamine. The name's resemblance to "aspartate" is doing the work here rather than any nutritional fact.
+Asparagine is non-essential, and chemically it is one of the two amides of the acidic amino acids, with glutamine. The name's resemblance to "aspartate" is doing the work here rather than any nutritional fact.
 ## answer_d
 Aspartate
 ## explanation_d
-Incorrect. Aspartate is acidic aliphatic and non-essential — and it is worth stating the wider rule the department tests directly: there is no essential acidic amino acid anywhere on the list. Aspartic acid and glutamic acid are both non-essential, so an option offering an "essential acidic amino acid" has no correct partner at all.
+Aspartate is acidic aliphatic and non-essential — and it is worth stating the wider rule directly: there is no essential acidic amino acid anywhere on the list. Aspartic acid and glutamic acid are both non-essential, so an option offering an "essential acidic amino acid" has no correct partner at all.
 ## topic
 Biochemistry
 ## subtopic
@@ -406,6 +412,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Name the single half-essential amino acid and state the rate argument that defines the category.
 ## source_citation
@@ -444,19 +452,19 @@ C
 ## answer_a
 Heparin
 ## explanation_a
-Incorrect. Heparin is a glycosaminoglycan — a sulfated heteropolysaccharide — and its use is anticoagulant: it inactivates clotting factors IX and XI by binding them and acts as a catalyst for antithrombin III. It is not eaten, is not a dietary bulking agent, and has nothing to do with intestinal transit. This option catches a student sorting by "polysaccharide with a named clinical use" rather than by mechanism.
+Heparin is a glycosaminoglycan — a sulfated heteropolysaccharide — and its use is anticoagulant: it inactivates clotting factors IX and XI by binding them and acts as a catalyst for antithrombin III. It is not eaten, is not a dietary bulking agent, and has nothing to do with intestinal transit. This option catches a student sorting by "polysaccharide with a named clinical use" rather than by mechanism.
 ## answer_b
 Glycogen
 ## explanation_b
-Incorrect, and it is the instructive wrong answer. Glycogen is a homopolysaccharide of glucose, exactly as cellulose is — same monomer, same class. What separates them is the linkage: glycogen uses α1,4 bonds within its branches and α1,6 at the branch points, and human amylase hydrolyses α-linkages, so glycogen is digested and absorbed. A student who picks this is sorting carbohydrates by their monomer instead of by their bond.
+It is the instructive wrong answer. Glycogen is a homopolysaccharide of glucose, exactly as cellulose is — same monomer, same class. What separates them is the linkage: glycogen uses α1,4 bonds within its branches and α1,6 at the branch points, and human amylase hydrolyses α-linkages, so glycogen is digested and absorbed. A student who picks this is sorting carbohydrates by their monomer instead of by their bond.
 ## answer_c
 Cellulose
 ## explanation_c
-Correct, and the reason is a single Greek letter. Cellulose is a long unbranched chain of β-glucose units joined by β1,4-glucosidic linkage. Amylase, the digestive enzyme, hydrolyses only α-linkages, so nothing in the human gut can cleave a β1,4 bond and cellulose passes through undigested. Undigested cellulose increases the bulk of food, which stimulates intestinal contractions and so prevents constipation; the department book gives it one further dietary consequence, that cellulose delays fat absorption. The point to carry is that the benefit comes entirely from the cellulose that is *never absorbed*: there is no human cellulase, so this is not slow digestion but no digestion at all. Starch, glycogen and cellulose are all long chains of glucose, and what makes two of them food and the third a fibre is the anomeric form of the linkage, not the length of the chain or the presence of branching.
+The reason is a single Greek letter. Cellulose is a long unbranched chain of β-glucose units joined by β1,4-glucosidic linkage. Amylase, the digestive enzyme, hydrolyses only α-linkages, so nothing in the human gut can cleave a β1,4 bond and cellulose passes through undigested. Undigested cellulose increases the bulk of food, which stimulates intestinal contractions and so prevents constipation; cellulose has one further dietary consequence, delaying fat absorption. The point to carry is that the benefit comes entirely from the cellulose that is *never absorbed*: there is no human cellulase, so this is not slow digestion but no digestion at all. Starch, glycogen and cellulose are all long chains of glucose, and what makes two of them food and the third a fibre is the anomeric form of the linkage, not the length of the chain or the presence of branching.
 ## answer_d
 Inulin
 ## explanation_d
-Incorrect. Inulin is a polymer of fructose, not of glucose, and the department book introduces it as a polysaccharide of plant origin rather than as a dietary fibre with a stated bowel action. Picking it takes "plant polysaccharide humans handle poorly" as sufficient, when the book attaches the constipation claim to cellulose specifically and gives the β1,4 bond as the reason.
+Inulin is a polymer of fructose, not of glucose, and it is a polysaccharide of plant origin rather than a dietary fibre with a stated bowel action. Picking it takes "plant polysaccharide humans handle poorly" as sufficient, when the constipation claim attaches to cellulose specifically, with the β1,4 bond as the reason.
 ## topic
 Biochemistry
 ## subtopic
@@ -501,8 +509,10 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
-Explain from the β1,4-glucosidic linkage why cellulose escapes digestion, and name the dietary consequence the department book attaches to it.
+Explain from the β1,4-glucosidic linkage why cellulose escapes digestion, and name the dietary consequence that follows from it.
 ## source_citation
 Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Carbohydrates of Biological Importance, printed MCQ 60, page 13; printed answer key page 15, cell 60 = c.
 ## estimated_seconds
@@ -539,19 +549,19 @@ C
 ## answer_a
 Glycon
 ## explanation_a
-Incorrect. Glycon is the sugar half of a glycoside — the term belongs to the monosaccharide-derivative section of the chapter, where a glycoside is described as a glycon joined to an aglycon. It names a part of a small molecule, not a macromolecular complex with a protein core.
+Glycon is the sugar half of a glycoside — the term belongs to the monosaccharide-derivative section of the chapter, where a glycoside is described as a glycon joined to an aglycon. It names a part of a small molecule, not a macromolecular complex with a protein core.
 ## answer_b
 Aglycon
 ## explanation_b
-Incorrect, and it is the mirror of option a: the aglycon is the non-sugar half of a glycoside. A student picking either of these has matched "sugar plus non-sugar" to the wrong pair of terms — glycoside chemistry rather than extracellular matrix chemistry.
+It is the mirror of option a: the aglycon is the non-sugar half of a glycoside. A student picking either of these has matched "sugar plus non-sugar" to the wrong pair of terms — glycoside chemistry rather than extracellular matrix chemistry.
 ## answer_c
 Proteoglycans
 ## explanation_c
-Correct. Most glycosaminoglycans are covalently conjugated to a protein core, and that product is a proteoglycan — formed of about 95% carbohydrate and only 5% protein. That ratio is worth holding, because it tells you where the function lives. The glycosaminoglycan chains are unbranched, usually more than fifty sugar units long, built of repeating disaccharide units of an amino sugar and a uronic acid, and it is their negatively charged carboxylate and sulfate groups that trap water and create a hydrated gel. When that gel is compressed, water is squeezed out and the molecules occupy a smaller volume; when the compression is released, they regain their original hydrated size. That reversible compressibility is the shock-absorbing property — it is why proteoglycans cushion joints and make the eyeball resilient. Note what is *not* doing the work: not the protein core, and not the sugar chains being physically springy. It is fixed negative charge holding water, and take the water away and the gel does nothing.
+Most glycosaminoglycans are covalently conjugated to a protein core, and that product is a proteoglycan — formed of about 95% carbohydrate and only 5% protein. That ratio is worth holding, because it tells you where the function lives. The glycosaminoglycan chains are unbranched, usually more than fifty sugar units long, built of repeating disaccharide units of an amino sugar and a uronic acid, and it is their negatively charged carboxylate and sulfate groups that trap water and create a hydrated gel. When that gel is compressed, water is squeezed out and the molecules occupy a smaller volume; when the compression is released, they regain their original hydrated size. That reversible compressibility is the shock-absorbing property — it is why proteoglycans cushion joints and make the eyeball resilient. Note what is *not* doing the work: not the protein core, and not the sugar chains being physically springy. It is fixed negative charge holding water, and take the water away and the gel does nothing.
 ## answer_d
 Amino sugar
 ## explanation_d
-Incorrect, and it is a component rather than a product. Amino sugars — glucosamine, galactosamine, mannosamine — are constituents of glycosaminoglycans, one half of each repeating disaccharide unit. Picking this answers "what is a GAG built from?" instead of "what does a GAG plus a protein core make?", which is a level of assembly lower than the stem asks for.
+It is a component rather than a product. Amino sugars — glucosamine, galactosamine, mannosamine — are constituents of glycosaminoglycans, one half of each repeating disaccharide unit. Picking this answers "what is a GAG built from?" instead of "what does a GAG plus a protein core make?", which is a level of assembly lower than the stem asks for.
 ## topic
 Biochemistry
 ## subtopic
@@ -596,6 +606,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Identify the proteoglycan as a glycosaminoglycan conjugated to a protein core, and state the charge-and-water mechanism by which it absorbs shock.
 ## source_citation
@@ -634,19 +646,19 @@ C
 ## answer_a
 Caspase 9
 ## explanation_a
-Incorrect. Caspase 9 is the initiator caspase of the *intrinsic* pathway — it is activated downstream of cytochrome c release from the mitochondria. Two errors are possible here and both are worth naming: putting an intrinsic component on the extrinsic side, and confusing an enzyme that is activated during a pathway with the event that starts it.
+Caspase 9 is the initiator caspase of the *intrinsic* pathway — it is activated downstream of cytochrome c release from the mitochondria. Two errors are possible here and both are worth naming: putting an intrinsic component on the extrinsic side, and confusing an enzyme that is activated during a pathway with the event that starts it.
 ## answer_b
 Caspase 8
 ## explanation_b
-Incorrect, and this is the closest wrong answer. Caspase 8 does belong to the extrinsic pathway, but it is activated *by* death-receptor ligation, not the initiator of it. The stem asks what initiates the pathway; the receptor binding comes first, and the caspase is its consequence. A student who picks this has the right pathway and the wrong step.
+This is the closest wrong answer. Caspase 8 does belong to the extrinsic pathway, but it is activated *by* death-receptor ligation, not the initiator of it. The stem asks what initiates the pathway; the receptor binding comes first, and the caspase is its consequence. A student who picks this has the right pathway and the wrong step.
 ## answer_c
 Binding of a ligand to TNF or FAS receptors
 ## explanation_c
-Correct. The extrinsic pathway is initiated through binding of a ligand to the tumour necrosis factor (TNF) or FAS receptors on the cell surface. That binding activates several caspases — intracellular cysteine proteases — and activated caspases in turn activate caspase-activated DNase, the enzyme that cuts genomic DNA between the nucleosomes into fragments of about 200 base pairs or multiples of it, which is what produces the characteristic DNA ladder on electrophoresis. Set that against the intrinsic, or mitochondrial, pathway and the distinction becomes clean: the intrinsic pathway is triggered by intracellular stress, promotes release of cytochrome c from mitochondria into the cytosol, and cytochrome c then activates the caspases. So the extrinsic pathway starts at a receptor on the outside and the intrinsic pathway starts at an organelle on the inside — no receptor initiates the intrinsic one at all. The intrinsic pathway is also the one regulated by the Bcl-2 family: Bax, Bak and Bok are the apoptotic members and control cytochrome c release, and Bcl-2 and Bcl-x are the anti-apoptotic members.
+The extrinsic pathway is initiated through binding of a ligand to the tumour necrosis factor (TNF) or FAS receptors on the cell surface. That binding activates several caspases — intracellular cysteine proteases — and activated caspases in turn activate caspase-activated DNase, the enzyme that cuts genomic DNA between the nucleosomes into fragments of about 200 base pairs or multiples of it, which is what produces the characteristic DNA ladder on electrophoresis. Set that against the intrinsic, or mitochondrial, pathway and the distinction becomes clean: the intrinsic pathway is triggered by intracellular stress, promotes release of cytochrome c from mitochondria into the cytosol, and cytochrome c then activates the caspases. So the extrinsic pathway starts at a receptor on the outside and the intrinsic pathway starts at an organelle on the inside — no receptor initiates the intrinsic one at all. The intrinsic pathway is also the one regulated by the Bcl-2 family: Bax, Bak and Bok are the apoptotic members and control cytochrome c release, and Bcl-2 and Bcl-x are the anti-apoptotic members.
 ## answer_d
 Cytochrome c
 ## explanation_d
-Incorrect. Cytochrome c is the signal of the intrinsic pathway: cellular stress promotes its release from the mitochondria into the cytosol, and the released cytochrome c activates the caspases. Picking it here is the commonest way of merging the two pathways into one — using the intrinsic trigger to start the extrinsic route.
+Cytochrome c is the signal of the intrinsic pathway: cellular stress promotes its release from the mitochondria into the cytosol, and the released cytochrome c activates the caspases. Picking it here is the commonest way of merging the two pathways into one — using the intrinsic trigger to start the extrinsic route.
 ## topic
 Biochemistry
 ## subtopic
@@ -691,6 +703,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Assign the TNF and FAS receptors to the initiation of the extrinsic apoptotic pathway, and distinguish an initiating event from a downstream effector.
 ## source_citation
@@ -729,19 +743,19 @@ A
 ## answer_a
 Bax
 ## explanation_a
-Correct. Bax is one of the apoptotic members of the Bcl-2 family, with Bak and Bok. They exert their effect by controlling the release of cytochrome c from the mitochondria into the cytosol — the step that starts the intrinsic pathway — and under physiological conditions they sit in balance with the anti-apoptotic members of the same family, Bcl-2 and Bcl-x. Bax has a second appearance in this chapter that is worth carrying: p53, the guardian of the genome, behaves differently according to how badly the DNA is damaged. With moderate damage, phosphorylated p53 acts as a transcription factor for p21, p21 inhibits the CDK2-cyclin E complex, and the cycle arrests in G1 so the cell can repair itself. With severe damage, the same phosphorylated p53 activates the Bax gene and the cell is killed instead. So Bax is the executioner arm of p53, which is why the two are examined together.
+Bax is one of the apoptotic members of the Bcl-2 family, with Bak and Bok. They exert their effect by controlling the release of cytochrome c from the mitochondria into the cytosol — the step that starts the intrinsic pathway — and under physiological conditions they sit in balance with the anti-apoptotic members of the same family, Bcl-2 and Bcl-x. Bax has a second appearance in this chapter that is worth carrying: p53, the guardian of the genome, behaves differently according to how badly the DNA is damaged. With moderate damage, phosphorylated p53 acts as a transcription factor for p21, p21 inhibits the CDK2-cyclin E complex, and the cycle arrests in G1 so the cell can repair itself. With severe damage, the same phosphorylated p53 activates the Bax gene and the cell is killed instead. So Bax is the executioner arm of p53, which is why the two are examined together.
 ## answer_b
 BCL-2
 ## explanation_b
-Incorrect, and this is the misconception the item exists to catch. The whole family is named after Bcl-2, which is exactly why students read the name as meaning "apoptotic". Bcl-2 itself is the *anti*-apoptotic member, with Bcl-x; it opposes cytochrome c release. The family name says nothing about the direction of any individual member's action.
+This is the misconception the item exists to catch. The whole family is named after Bcl-2, which is exactly why students read the name as meaning "apoptotic". Bcl-2 itself is the *anti*-apoptotic member, with Bcl-x; it opposes cytochrome c release. The family name says nothing about the direction of any individual member's action.
 ## answer_c
 Bcl-x
 ## explanation_c
-Incorrect. Bcl-x is the other anti-apoptotic member of the family, alongside Bcl-2. A student who picks this is sorting by name similarity — anything beginning "Bcl" — rather than by the two-column division the department book prints: Bax, Bak and Bok on the apoptotic side; Bcl-2 and Bcl-x on the anti-apoptotic side.
+Bcl-x is the other anti-apoptotic member of the family, alongside Bcl-2. A student who picks this is sorting by name similarity — anything beginning "Bcl" — rather than by the two-column division: Bax, Bak and Bok on the apoptotic side; Bcl-2 and Bcl-x on the anti-apoptotic side.
 ## answer_d
 MYC
 ## explanation_d
-Incorrect. MYC is an oncogene rather than a member of the Bcl-2 family at all, so it belongs to neither column. It is the only option here that is not a Bcl-2 family protein, which makes it the option a student picks when they have not recognised the family and are choosing the unfamiliar name.
+MYC is an oncogene rather than a member of the Bcl-2 family at all, so it belongs to neither column. It is the only option here that is not a Bcl-2 family protein, which makes it the option a student picks when they have not recognised the family and are choosing the unfamiliar name.
 ## topic
 Biochemistry
 ## subtopic
@@ -786,6 +800,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Assign each named member of the Bcl-2 family to the pro-apoptotic or anti-apoptotic side, and state what the family controls.
 ## source_citation
@@ -810,7 +826,7 @@ Cyclin B forms complex with:
 ## question
 Cyclin B forms complex with:
 ## vignette
-The cell cycle is driven by pairs, and the department book pairs each cyclin with the kinase it activates and the transition that pair carries.
+The cell cycle is driven by pairs: each cyclin pairs with the kinase it activates and with the transition that pair carries.
 ## subject
 fnd
 ## status
@@ -824,19 +840,19 @@ A
 ## answer_a
 CDK1
 ## explanation_a
-Correct. CDK1-cyclin B, together with CDK1-cyclin A, drives the transition from G2 to M. The general rule the department book states is that cyclins complex with and activate particular cyclin-dependent kinases, and each complex produces the regulatory effect that carries the cell from one phase to the next: there are at least ten cyclins, designated A, B and so on, and at least eight CDKs, CDK1 to CDK8, acting in specific combinations at specific points. Learn the three pairings the book prints together, because they map onto the cycle in order. CDK4-cyclin D and CDK6-cyclin D drive progression past the restriction point at the G1/S boundary. CDK2-cyclin E and CDK2-cyclin A initiate DNA synthesis in early S phase. CDK1-cyclin A and CDK1-cyclin B drive G2 to M. Note that this is what a CDK does, and it is not what a checkpoint does: the CDK-cyclin complexes drive the transitions, while the G1 checkpoint (cell size, nutrients, growth factors, DNA damage), the G2 checkpoint (cell size, DNA damage) and the spindle assembly checkpoint are the surveillance that decides whether a transition should be allowed.
+CDK1-cyclin B, together with CDK1-cyclin A, drives the transition from G2 to M. The general rule is that cyclins complex with and activate particular cyclin-dependent kinases, and each complex produces the regulatory effect that carries the cell from one phase to the next: there are at least ten cyclins, designated A, B and so on, and at least eight CDKs, CDK1 to CDK8, acting in specific combinations at specific points. Learn the three pairings together, because they map onto the cycle in order. CDK4-cyclin D and CDK6-cyclin D drive progression past the restriction point at the G1/S boundary. CDK2-cyclin E and CDK2-cyclin A initiate DNA synthesis in early S phase. CDK1-cyclin A and CDK1-cyclin B drive G2 to M. Note that this is what a CDK does, and it is not what a checkpoint does: the CDK-cyclin complexes drive the transitions, while the G1 checkpoint (cell size, nutrients, growth factors, DNA damage), the G2 checkpoint (cell size, DNA damage) and the spindle assembly checkpoint are the surveillance that decides whether a transition should be allowed.
 ## answer_b
 CDK2
 ## explanation_b
-Incorrect. CDK2 partners cyclin E and cyclin A, and its complexes initiate DNA synthesis in early S phase. It is also the kinase that p21 inhibits when p53 arrests a moderately damaged cell in G1 — so CDK2 belongs to the G1/S part of the cycle, not to the G2/M transition cyclin B carries.
+CDK2 partners cyclin E and cyclin A, and its complexes initiate DNA synthesis in early S phase. It is also the kinase that p21 inhibits when p53 arrests a moderately damaged cell in G1 — so CDK2 belongs to the G1/S part of the cycle, not to the G2/M transition cyclin B carries.
 ## answer_c
 CDK4
 ## explanation_c
-Incorrect. CDK4 partners cyclin D, and CDK4-cyclin D drives the cell past the restriction point in late G1. Picking it puts cyclin B at the start of the cycle instead of the end, which is the commonest way of scrambling this list — the letters of the cyclins do not run in the same order as the phases.
+CDK4 partners cyclin D, and CDK4-cyclin D drives the cell past the restriction point in late G1. Picking it puts cyclin B at the start of the cycle instead of the end, which is the commonest way of scrambling this list — the letters of the cyclins do not run in the same order as the phases.
 ## answer_d
 CDK6
 ## explanation_d
-Incorrect. CDK6 also partners cyclin D and also acts at the G1/S restriction point, so it is the twin of option c. A student picking either has remembered that cyclin D has two kinase partners and has attached cyclin B to that pair instead of to CDK1.
+CDK6 also partners cyclin D and also acts at the G1/S restriction point, so it is the twin of option c. A student picking either has remembered that cyclin D has two kinase partners and has attached cyclin B to that pair instead of to CDK1.
 ## topic
 Biochemistry
 ## subtopic
@@ -881,6 +897,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Pair each cyclin with its cyclin-dependent kinase and with the cell-cycle transition that pair drives, and separate the driving complexes from the checkpoints.
 ## source_citation
@@ -905,7 +923,7 @@ DNA strands run in relation to each other
 ## question
 DNA strands run in relation to each other
 ## vignette
-One word, and it is the first of the five characteristics the department book gives the double helix.
+One word, and it is the first of the five characteristics of the double helix.
 ## subject
 fnd
 ## status
@@ -919,19 +937,19 @@ A
 ## answer_a
 Antiparallel
 ## explanation_a
-Correct. The two strands of DNA run antiparallel — one runs 5' to 3' where the other runs 3' to 5' — are paired to each other, and coil around a common axis to form a right-handed helix. Antiparallel is not a decorative detail; it is what makes complementary base pairing geometrically possible, and it is why a DNA polymerase, which reads a template only 3' to 5' and therefore builds only 5' to 3', can copy one strand continuously and must copy the other in fragments. The other four characteristics of the helix travel with this one: the strands are held together by complementary base pairing through specific hydrogen bonds, two between adenine and thymine and three between guanine and cytosine; the stacked base pairs are stabilised inside the helix by Van der Waals forces and hydrophobic interactions; the whole resembles a spiral staircase whose steps are the base pairs and whose handrails are the sugar-phosphate backbones; and the helix is 2 nm wide with a major groove of 2.2 nm and a minor groove of 1.2 nm through which drugs and proteins reach the bases without opening the helix.
+The two strands of DNA run antiparallel — one runs 5' to 3' where the other runs 3' to 5' — are paired to each other, and coil around a common axis to form a right-handed helix. Antiparallel is not a decorative detail; it is what makes complementary base pairing geometrically possible, and it is why a DNA polymerase, which reads a template only 3' to 5' and therefore builds only 5' to 3', can copy one strand continuously and must copy the other in fragments. The other four characteristics of the helix travel with this one: the strands are held together by complementary base pairing through specific hydrogen bonds, two between adenine and thymine and three between guanine and cytosine; the stacked base pairs are stabilised inside the helix by Van der Waals forces and hydrophobic interactions; the whole resembles a spiral staircase whose steps are the base pairs and whose handrails are the sugar-phosphate backbones; and the helix is 2 nm wide with a major groove of 2.2 nm and a minor groove of 1.2 nm through which drugs and proteins reach the bases without opening the helix.
 ## answer_b
 Parallel
 ## explanation_b
-Incorrect, and it is the only distractor here with a real misconception behind it: a student picturing two strands drawn side by side on a page, with no attention to which end of each is 5'. Parallel strands cannot base-pair, because the bases would not face each other across the axis. The department's own 2025 paper put "parallel" and "antiparallel" in the same completion-question word bank, which is a good sign of how often the two are swapped.
+It is the only distractor here with a real misconception behind it: a student picturing two strands drawn side by side on a page, with no attention to which end of each is 5'. Parallel strands cannot base-pair, because the bases would not face each other across the axis. The 2025 exam paper put "parallel" and "antiparallel" in the same completion-question word bank, which is a good sign of how often the two are swapped.
 ## answer_c
 Perpendicular
 ## explanation_c
-Incorrect. Perpendicular describes the relationship of the *bases* to the backbone — the nitrogenous bases are linked to the pentoses and project to the inside of the two strands at right angles. Picking this transfers a true statement about one part of the structure to the wrong part of it.
+Perpendicular describes the relationship of the *bases* to the backbone — the nitrogenous bases are linked to the pentoses and project to the inside of the two strands at right angles. Picking this transfers a true statement about one part of the structure to the wrong part of it.
 ## answer_d
 Horizontal
 ## explanation_d
-Incorrect. Horizontal is not a relationship between two strands at all; it is a statement about how a diagram happens to be drawn on a page. An option like this discriminates only between students who have read the chapter and students who have not.
+Horizontal is not a relationship between two strands at all; it is a statement about how a diagram happens to be drawn on a page. An option like this discriminates only between students who have read the chapter and students who have not.
 ## topic
 Biochemistry
 ## subtopic
@@ -976,6 +994,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 State the orientation of the two DNA strands relative to each other and explain why that orientation is a precondition for base pairing.
 ## source_citation
@@ -1000,7 +1020,7 @@ DNA rich in G-C pairs have:
 ## question
 DNA rich in G-C pairs have:
 ## vignette
-This is the second of the department book's five characteristics of the double helix, and it is the one that explains why heat alone can separate the strands.
+This is the second of the double helix's five characteristics, and it is the one that explains why heat alone can separate the strands.
 ## subject
 fnd
 ## status
@@ -1014,19 +1034,19 @@ C
 ## answer_a
 1 Hydrogen bond
 ## explanation_a
-Incorrect. No base pair in DNA is held by a single hydrogen bond. A student picking this has read the question as being about the number of bonds between two *nucleotides along a strand*, where a single phosphodiester bond does the joining — but that bond is covalent and runs along the backbone, not across the helix.
+No base pair in DNA is held by a single hydrogen bond. A student picking this has read the question as being about the number of bonds between two *nucleotides along a strand*, where a single phosphodiester bond does the joining — but that bond is covalent and runs along the backbone, not across the helix.
 ## answer_b
 2 Hydrogen bonds
 ## explanation_b
-Incorrect, and it is the discriminating distractor: two hydrogen bonds hold adenine to thymine, not guanine to cytosine. This is the whole of the misconception — the numbers have been remembered and attached to the wrong pair. The pair with the extra bond is G-C.
+It is the discriminating distractor: two hydrogen bonds hold adenine to thymine, not guanine to cytosine. This is the whole of the misconception — the numbers have been remembered and attached to the wrong pair. The pair with the extra bond is G-C.
 ## answer_c
 3 Hydrogen bonds
 ## explanation_c
-Correct. Guanine pairs with cytosine through three hydrogen bonds, and adenine pairs with thymine through two. Two consequences follow and both are examinable. First, DNA rich in G-C is more stable and needs more heat to separate, because there are more bonds per step to break — heating DNA ruptures the hydrogen bonds and separates the strands, which is DNA denaturation, and cooling reanneals them, which is the first step of the polymerase chain reaction. Second, and more important for the exam, the bond holding the two strands to each other is a *hydrogen* bond and not a covalent one. Along each strand the nucleotides are joined by phosphodiester bonds, which are covalent; across the two strands there is nothing but hydrogen bonding, plus the Van der Waals and hydrophobic forces that stack the base pairs. If the join between the strands were covalent, heat alone could not separate them and replication would be impossible.
+Guanine pairs with cytosine through three hydrogen bonds, and adenine pairs with thymine through two. Two consequences follow and both are examinable. First, DNA rich in G-C is more stable and needs more heat to separate, because there are more bonds per step to break — heating DNA ruptures the hydrogen bonds and separates the strands, which is DNA denaturation, and cooling reanneals them, which is the first step of the polymerase chain reaction. Second, and more important for the exam, the bond holding the two strands to each other is a *hydrogen* bond and not a covalent one. Along each strand the nucleotides are joined by phosphodiester bonds, which are covalent; across the two strands there is nothing but hydrogen bonding, plus the Van der Waals and hydrophobic forces that stack the base pairs. If the join between the strands were covalent, heat alone could not separate them and replication would be impossible.
 ## answer_d
 4 Hydrogen bonds
 ## explanation_d
-Incorrect. Four is not a number the chapter uses for any base pair. It is picked by extrapolating a pattern — two for the smaller pair, three for the next, so four for something bigger — rather than by recalling the two figures the book prints.
+Four is not a number the chapter uses for any base pair. It is picked by extrapolating a pattern — two for the smaller pair, three for the next, so four for something bigger — rather than by recalling the two correct figures.
 ## topic
 Biochemistry
 ## subtopic
@@ -1071,6 +1091,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Give the number of hydrogen bonds in each DNA base pair and name the bond that holds the two strands to each other.
 ## source_citation
@@ -1109,19 +1131,19 @@ C
 ## answer_a
 %30
 ## explanation_a
-Incorrect. This assumes the four bases are present in equal proportions, or simply copies the figure in the stem. Base pairing fixes A equal to T and G equal to C, but it says nothing at all about how the two *pairs* share the remaining total — that is a property of the particular piece of DNA, and here it has to be calculated.
+This assumes the four bases are present in equal proportions, or simply copies the figure in the stem. Base pairing fixes A equal to T and G equal to C, but it says nothing at all about how the two *pairs* share the remaining total — that is a property of the particular piece of DNA, and here it has to be calculated.
 ## answer_b
 %40
 ## explanation_b
-Incorrect. This is what you get from 100 − 30 − 30 = 40 treated as the answer, that is, subtracting A and T and then handing the whole remainder to G alone. The remainder belongs to G *and* C together, and since G equals C it has to be halved.
+This is what you get from 100 − 30 − 30 = 40 treated as the answer, that is, subtracting A and T and then handing the whole remainder to G alone. The remainder belongs to G *and* C together, and since G equals C it has to be halved.
 ## answer_c
 %20
 ## explanation_c
-Correct, and the reasoning is three steps. Adenine pairs only with thymine and guanine only with cytosine, so in double-stranded DNA A = T and G = C. If A is 30%, then T is also 30%, and A + T together account for 60%. The remaining 40% is shared between G and C, and because they are equal, each is 20%. Notice what the question is really testing: it is complementary base pairing used as an arithmetic constraint rather than recited as a fact, which is exactly the step that separates a student who has memorised "A pairs with T" from one who has understood why the two strands are complements of each other. The same rule underlies the constant ratio (A+G)/(T+C) the chapter asks about elsewhere — purines equal pyrimidines in any double-stranded molecule — and the same rule is what lets one strand act as the template for the other during replication.
+The reasoning is three steps. Adenine pairs only with thymine and guanine only with cytosine, so in double-stranded DNA A = T and G = C. If A is 30%, then T is also 30%, and A + T together account for 60%. The remaining 40% is shared between G and C, and because they are equal, each is 20%. Notice what the question is really testing: it is complementary base pairing used as an arithmetic constraint rather than recited as a fact, which is exactly the step that separates a student who has memorised "A pairs with T" from one who has understood why the two strands are complements of each other. The same rule underlies the constant ratio (A+G)/(T+C) the chapter asks about elsewhere — purines equal pyrimidines in any double-stranded molecule — and the same rule is what lets one strand act as the template for the other during replication.
 ## answer_d
 %70
 ## explanation_d
-Incorrect. Seventy is 100 − 30, that is, the whole of the DNA that is not adenine. It ignores thymine entirely and hands everything else to guanine, so it is the same error as option b made one step earlier.
+Seventy is 100 − 30, that is, the whole of the DNA that is not adenine. It ignores thymine entirely and hands everything else to guanine, so it is the same error as option b made one step earlier.
 ## topic
 Biochemistry
 ## subtopic
@@ -1166,6 +1188,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Apply complementary base pairing quantitatively to derive an unknown base composition in double-stranded DNA.
 ## source_citation
@@ -1190,7 +1214,7 @@ In eukaryotes, which of the following DNA polymerases is required for mitochondr
 ## question
 In eukaryotes, which of the following DNA polymerases is required for mitochondrial DNA replication?
 ## vignette
-Five eukaryotic DNA polymerases share the work of replication and repair, and the department book gives each of them exactly one job.
+Five eukaryotic DNA polymerases share the work of replication and repair, each with exactly one job.
 ## subject
 fnd
 ## status
@@ -1204,19 +1228,19 @@ D
 ## answer_a
 DNA polymerase α
 ## explanation_a
-Incorrect. DNA polymerase α, working as the α-primase complex, lays down the RNA primers and the short stretch of DNA attached to them. It starts chains; it does not copy a genome. A student picking it has remembered that α comes first alphabetically and has mapped that onto "the polymerase that does the main job", which is not how the book divides the work.
+DNA polymerase α, working as the α-primase complex, lays down the RNA primers and the short stretch of DNA attached to them. It starts chains; it does not copy a genome. A student picking it has remembered that α comes first alphabetically and has mapped that onto "the polymerase that does the main job", which is not how the work is divided among the five polymerases.
 ## answer_b
 DNA polymerase β
 ## explanation_b
-Incorrect. DNA polymerase β is the repair polymerase: in the four steps of DNA repair — endonuclease recognises and nicks, exonuclease excises, polymerase fills, ligase seals — β is the one that fills the gap. It is not the gap-filler at the replication fork either; that is δ, which is a distinction the book states explicitly.
+DNA polymerase β is the repair polymerase: in the four steps of DNA repair — endonuclease recognises and nicks, exonuclease excises, polymerase fills, ligase seals — β is the one that fills the gap. It is not the gap-filler at the replication fork either; that is δ, a clear division of labour between the two.
 ## answer_c
 DNA polymerase δ
 ## explanation_c
-Incorrect. DNA polymerase δ synthesises the lagging strand, discontinuously and from many primers, and afterwards fills the gaps between Okazaki fragments once RNase H has removed those primers. It is a nuclear replication enzyme, and the stem asks for the mitochondrial one.
+DNA polymerase δ synthesises the lagging strand, discontinuously and from many primers, and afterwards fills the gaps between Okazaki fragments once RNase H has removed those primers. It is a nuclear replication enzyme, and the stem asks for the mitochondrial one.
 ## answer_d
 DNA polymerase γ
 ## explanation_d
-Correct. DNA polymerase γ synthesises mitochondrial DNA, and it is the only one of the five with a job outside the nucleus. Hold the list as five names and five jobs, because the department examines it as an enumeration: α, as the α-primase complex, makes the RNA primers and the short DNA attached to them; β repairs DNA; γ synthesises mitochondrial DNA; δ synthesises the lagging strand; ε synthesises the leading strand. Delta and epsilon also proofread, removing a misplaced nucleotide by exonuclease action and replacing it, because a misread template would become a permanent mutation. Why mitochondria need their own polymerase at all follows from the nucleic-acids chapter: mitochondrial DNA is a separate small double-stranded circular supercoil, 0.3 to 1% of total cellular DNA, coding for 2 ribosomal RNAs, 22 transfer RNAs and 13 proteins of oxidative phosphorylation, and it is replicated inside the organelle rather than in the nucleus.
+DNA polymerase γ synthesises mitochondrial DNA, and it is the only one of the five with a job outside the nucleus. Hold the list as five names and five jobs, tested as an enumeration: α, as the α-primase complex, makes the RNA primers and the short DNA attached to them; β repairs DNA; γ synthesises mitochondrial DNA; δ synthesises the lagging strand; ε synthesises the leading strand. Delta and epsilon also proofread, removing a misplaced nucleotide by exonuclease action and replacing it, because a misread template would become a permanent mutation. Why mitochondria need their own polymerase at all follows from the nucleic-acids chapter: mitochondrial DNA is a separate small double-stranded circular supercoil, 0.3 to 1% of total cellular DNA, coding for 2 ribosomal RNAs, 22 transfer RNAs and 13 proteins of oxidative phosphorylation, and it is replicated inside the organelle rather than in the nucleus.
 ## topic
 Biochemistry
 ## subtopic
@@ -1261,6 +1285,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Name the eukaryotic DNA polymerase responsible for mitochondrial DNA and give the specific job of each of the other four.
 ## source_citation
@@ -1285,7 +1311,7 @@ The DNA polymerase involved in synthesis of the leading strand in eukaryotes is:
 ## question
 The DNA polymerase involved in synthesis of the leading strand in eukaryotes is:
 ## vignette
-Two of the five polymerases work at the fork itself, one on each new strand, and the department book warns that they are the pair most often swapped.
+Two of the five polymerases work at the fork itself, one on each new strand, and they are the pair most often swapped.
 ## subject
 fnd
 ## status
@@ -1299,19 +1325,19 @@ D
 ## answer_a
 DNA polymerase α
 ## explanation_a
-Incorrect. DNA polymerase α is the primer-maker: as the α-primase complex it synthesises the RNA primers and the short stretch of DNA attached to them, on both strands. It is present at the fork but it starts chains rather than extending them into a whole strand.
+DNA polymerase α is the primer-maker: as the α-primase complex it synthesises the RNA primers and the short stretch of DNA attached to them, on both strands. It is present at the fork but it starts chains rather than extending them into a whole strand.
 ## answer_b
 DNA polymerase β
 ## explanation_b
-Incorrect. DNA polymerase β repairs DNA — it is the polymerase that fills the gap after an endonuclease has nicked the damaged strand and an exonuclease has excised the lesion. It has no role in normal replication at the fork at all.
+DNA polymerase β repairs DNA — it is the polymerase that fills the gap after an endonuclease has nicked the damaged strand and an exonuclease has excised the lesion. It has no role in normal replication at the fork at all.
 ## answer_c
 DNA polymerase δ
 ## explanation_c
-Incorrect, and this is the swap the item is built to catch. Delta makes the *lagging* strand, not the leading one. The two are worth separating by the number of primers each needs rather than by their names: δ works on the template that runs the wrong way relative to the fork, so it has to wait for more template to be exposed and start again each time, which is why it needs many primers and produces Okazaki fragments of 100 to 200 bases. Epsilon works on the template the fork exposes continuously and needs only one primer.
+This is the swap the item is built to catch. Delta makes the *lagging* strand, not the leading one. The two are worth separating by the number of primers each needs rather than by their names: δ works on the template that runs the wrong way relative to the fork, so it has to wait for more template to be exposed and start again each time, which is why it needs many primers and produces Okazaki fragments of 100 to 200 bases. Epsilon works on the template the fork exposes continuously and needs only one primer.
 ## answer_d
 DNA polymerase ε
 ## explanation_d
-Correct. DNA polymerase ε synthesises the leading strand: it requires only one RNA primer, copies in the direction of the advancing replication fork, and synthesises continuously in the 5' to 3' direction. Its partner δ synthesises the lagging strand, requires multiple RNA primers, copies in the direction opposite to the fork's advance, and synthesises discontinuously as Okazaki fragments; δ then fills the gaps between those fragments after RNase H has removed the primers, and DNA ligase joins the ends. Both ε and δ proofread by exonuclease activity, removing a misplaced nucleotide and replacing it, because an uncorrected misreading would become a permanent mutation. The reason the fork needs two different polymerases at all is worth stating once: both new strands must be built 5' to 3', but the two templates run antiparallel, so only one of them can be read continuously as the fork opens — and every restart on the other needs its own primer.
+DNA polymerase ε synthesises the leading strand: it requires only one RNA primer, copies in the direction of the advancing replication fork, and synthesises continuously in the 5' to 3' direction. Its partner δ synthesises the lagging strand, requires multiple RNA primers, copies in the direction opposite to the fork's advance, and synthesises discontinuously as Okazaki fragments; δ then fills the gaps between those fragments after RNase H has removed the primers, and DNA ligase joins the ends. Both ε and δ proofread by exonuclease activity, removing a misplaced nucleotide and replacing it, because an uncorrected misreading would become a permanent mutation. The reason the fork needs two different polymerases at all is worth stating once: both new strands must be built 5' to 3', but the two templates run antiparallel, so only one of them can be read continuously as the fork opens — and every restart on the other needs its own primer.
 ## topic
 Biochemistry
 ## subtopic
@@ -1356,6 +1382,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Assign DNA polymerases δ and ε to the lagging and leading strands respectively, and justify the assignment from the antiparallel geometry of the fork.
 ## source_citation
@@ -1394,19 +1422,19 @@ A
 ## answer_a
 Concentration of enzymes
 ## explanation_a
-Correct. Velocity is directly proportional to enzyme concentration, up to a point beyond which further enzyme adds no velocity — and at that point the substrate has become the limiting factor. The stem removes exactly that ceiling by stipulating that substrate is not limiting, which leaves enzyme concentration as the variable velocity tracks. Read the five factors as two kinds of argument and this becomes derivable rather than memorised. Substrate concentration, enzyme concentration and cofactor concentration are *limiting-factor* arguments: velocity rises until whatever else is needed runs out. Raise substrate and velocity rises to Vmax as the enzyme saturates, and then the enzyme concentration limits it; raise enzyme, and eventually substrate limits it; raise cofactor, and once every enzyme molecule has its cofactor the enzyme limits it. Temperature and pH are *optimum* arguments: velocity rises to a peak and then falls, because past the peak the protein itself is being damaged. The book also insists that only one factor is varied at a time and that the rate is measured as the initial velocity, before substrate has fallen and product accumulated.
+Velocity is directly proportional to enzyme concentration, up to a point beyond which further enzyme adds no velocity — and at that point the substrate has become the limiting factor. The stem removes exactly that ceiling by stipulating that substrate is not limiting, which leaves enzyme concentration as the variable velocity tracks. Read the five factors as two kinds of argument and this becomes derivable rather than memorised. Substrate concentration, enzyme concentration and cofactor concentration are *limiting-factor* arguments: velocity rises until whatever else is needed runs out. Raise substrate and velocity rises to Vmax as the enzyme saturates, and then the enzyme concentration limits it; raise enzyme, and eventually substrate limits it; raise cofactor, and once every enzyme molecule has its cofactor the enzyme limits it. Temperature and pH are *optimum* arguments: velocity rises to a peak and then falls, because past the peak the protein itself is being damaged. Only one factor is varied at a time, and the rate is measured as the initial velocity, before substrate has fallen and product accumulated.
 ## answer_b
 Temperature
 ## explanation_b
-Incorrect, and the word that makes it wrong is "directly proportional". Temperature does affect the rate, but not proportionally and not monotonically: velocity rises with temperature up to an optimum near 37 °C for most animal enzymes, and beyond that it falls, because the enzyme protein denatures and the organisation of the catalytic site is disrupted, with activity virtually stopping around 70 °C. A relationship that reverses direction is not a proportionality.
+The word that makes it wrong is "directly proportional". Temperature does affect the rate, but not proportionally and not monotonically: velocity rises with temperature up to an optimum near 37 °C for most animal enzymes, and beyond that it falls, because the enzyme protein denatures and the organisation of the catalytic site is disrupted, with activity virtually stopping around 70 °C. A relationship that reverses direction is not a proportionality.
 ## answer_c
 Concentration of products
 ## explanation_c
-Incorrect, and it inverts the sign. Accumulating product does not drive an enzyme faster; it is one of the reasons the book insists the rate be measured as the initial velocity, at the very beginning of the reaction, before product accumulates and the reaction approaches equilibrium. Note also that an enzyme does not change where the reaction ends up — it lowers the activation energy and speeds the approach to equilibrium, leaving ΔG and the equilibrium position untouched.
+It inverts the sign. Accumulating product does not drive an enzyme faster; it is why the rate is measured as the initial velocity, at the very beginning of the reaction, before product accumulates and the reaction approaches equilibrium. Note also that an enzyme does not change where the reaction ends up — it lowers the activation energy and speeds the approach to equilibrium, leaving ΔG and the equilibrium position untouched.
 ## answer_d
 Ph
 ## explanation_d
-Incorrect, and for the same reason as temperature: pH is an optimum relationship, not a proportional one. Each enzyme has an optimum pH at which it is maximally active, most falling between 5 and 9, and activity falls away on either side of it, virtually stopping about two pH units above or below. Raising pH does not raise velocity.
+For the same reason as temperature: pH is an optimum relationship, not a proportional one. Each enzyme has an optimum pH at which it is maximally active, most falling between 5 and 9, and activity falls away on either side of it, virtually stopping about two pH units above or below. Raising pH does not raise velocity.
 ## topic
 Biochemistry
 ## subtopic
@@ -1451,6 +1479,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Name the five factors affecting the rate of an enzyme-catalysed reaction and say which of them stands in a proportional relationship to velocity and which stands in an optimum relationship.
 ## source_citation
@@ -1475,7 +1505,7 @@ Concerning effect of pH on the catalytic activity of the enzymes:
 ## question
 Concerning effect of pH on the catalytic activity of the enzymes:
 ## vignette
-pH is one of the five factors the department book gives for enzyme velocity, and it is one of the two whose relationship to velocity has a peak rather than a slope.
+pH is one of the five factors affecting enzyme velocity, and it is one of the two whose relationship to velocity has a peak rather than a slope.
 ## subject
 fnd
 ## status
@@ -1489,19 +1519,19 @@ B
 ## answer_a
 Activity increases as we go away from the optimum pH
 ## explanation_a
-Incorrect, and it states the relationship backwards. The optimum pH is by definition the pH at which the enzyme shows maximal activity, so moving away from it can only lower activity — enzyme activity virtually stops about two pH units above or below the optimum. A student picking this has read "optimum" as a threshold to be exceeded rather than as a peak.
+It states the relationship backwards. The optimum pH is by definition the pH at which the enzyme shows maximal activity, so moving away from it can only lower activity — enzyme activity virtually stops about two pH units above or below the optimum. A student picking this has read "optimum" as a threshold to be exceeded rather than as a peak.
 ## answer_b
 Changes of pH alter the charges on the substrate and the active site
 ## explanation_b
-Correct, and this is the mechanism behind the whole factor. Slight changes in pH cause marked changes in activity by altering the charges on the substrate and on the catalytic site — and since the fit between the two depends on complementary chemistry as well as complementary shape, changing those charges changes how well the substrate binds and how well catalysis proceeds. Extreme changes of pH do something different and worse: they denature the enzyme protein, which is an irreversible inhibition rather than a reversible loss of activity. That two-tier structure is the point to hold — slight change alters charge and is reversible, extreme change denatures and is not. Most enzymes have an optimum pH between 5 and 9, and the department book names one clear exception: pepsin, the stomach's digestive enzyme, is maximally active at pH 2, and enzymes built to work at neutral pH are denatured in that environment.
+This is the mechanism behind the whole factor. Slight changes in pH cause marked changes in activity by altering the charges on the substrate and on the catalytic site — and since the fit between the two depends on complementary chemistry as well as complementary shape, changing those charges changes how well the substrate binds and how well catalysis proceeds. Extreme changes of pH do something different and worse: they denature the enzyme protein, which is an irreversible inhibition rather than a reversible loss of activity. That two-tier structure is the point to hold — slight change alters charge and is reversible, extreme change denatures and is not. Most enzymes have an optimum pH between 5 and 9, with one clear exception: pepsin, the stomach's digestive enzyme, is maximally active at pH 2, and enzymes built to work at neutral pH are denatured in that environment.
 ## answer_c
 Extreme changes of pH don't affect the catalytic activity
 ## explanation_c
-Incorrect, and it is the strongest form of the misconception. Extreme changes of pH have the largest effect of all: they denature the enzyme protein, disorganising the catalytic site and causing irreversible inhibition. A student picking this may be generalising from the fact that a protein can be moved a little either side of its optimum without much harm.
+It is the strongest form of the misconception. Extreme changes of pH have the largest effect of all: they denature the enzyme protein, disorganising the catalytic site and causing irreversible inhibition. A student picking this may be generalising from the fact that a protein can be moved a little either side of its optimum without much harm.
 ## answer_d
 Pepsin is maximally active at alkaline pH (above 7)
 ## explanation_d
-Incorrect, and it inverts the book's own named exception. Pepsin works in the stomach and is maximally active at pH 2. The likely route to this answer is remembering that pepsin is the exception to the "optimum between 5 and 9" rule without remembering in which direction it is exceptional — and the stomach, which is where pepsin works, settles that.
+It inverts the named exception. Pepsin works in the stomach and is maximally active at pH 2. The likely route to this answer is remembering that pepsin is the exception to the "optimum between 5 and 9" rule without remembering in which direction it is exceptional — and the stomach, which is where pepsin works, settles that.
 ## topic
 Biochemistry
 ## subtopic
@@ -1546,6 +1576,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Explain how pH changes alter enzyme velocity, and distinguish a slight change that alters charge from an extreme change that denatures.
 ## source_citation
@@ -1584,19 +1616,19 @@ C
 ## answer_a
 Standard
 ## explanation_a
-Incorrect. "Standard" describes a reference condition chosen for comparison, not a value at which a particular enzyme performs best. Nothing in the chapter attaches it to enzyme activity.
+"Standard" describes a reference condition chosen for comparison, not a value at which a particular enzyme performs best. Nothing in the chapter attaches it to enzyme activity.
 ## answer_b
 Equilibrium
 ## explanation_b
-Incorrect, and it confuses two things the chapter is careful to separate. Equilibrium is where a reaction ends up, and the department book states plainly that an enzyme accelerates a reaction without affecting its equilibrium point — it lowers the activation energy and leaves ΔG unchanged. The optimum pH is about how fast the enzyme works, not about where the reaction settles.
+It confuses two things the chapter is careful to separate. Equilibrium is where a reaction ends up, and an enzyme accelerates a reaction without affecting its equilibrium point — it lowers the activation energy and leaves ΔG unchanged. The optimum pH is about how fast the enzyme works, not about where the reaction settles.
 ## answer_c
 Optimum
 ## explanation_c
-Correct. Each enzyme has an optimum pH at which it shows maximal activity, and activity decreases away from it in both directions, virtually stopping about two pH units above or below. Most enzymes have an optimum pH between 5 and 9; pepsin, working in the stomach, is the book's named exception at pH 2. The same word is used for temperature, and for the same reason: the optimum temperature is about 37 °C for most animal enzymes and about 50 °C for most plant enzymes, with activity virtually stopping near 70 °C as the protein denatures. Both are peaks, and that is what separates them from the three concentration factors — substrate, enzyme and cofactor — where velocity rises until something else becomes limiting and then simply plateaus.
+Each enzyme has an optimum pH at which it shows maximal activity, and activity decreases away from it in both directions, virtually stopping about two pH units above or below. Most enzymes have an optimum pH between 5 and 9; pepsin, working in the stomach, is the named exception at pH 2. The same word is used for temperature, and for the same reason: the optimum temperature is about 37 °C for most animal enzymes and about 50 °C for most plant enzymes, with activity virtually stopping near 70 °C as the protein denatures. Both are peaks, and that is what separates them from the three concentration factors — substrate, enzyme and cofactor — where velocity rises until something else becomes limiting and then simply plateaus.
 ## answer_d
 Neutral
 ## explanation_d
-Incorrect, and it assumes that every enzyme peaks at pH 7 because most of the body sits near there. Most enzymes have an optimum somewhere between 5 and 9, which is a range rather than a point, and pepsin's optimum of pH 2 shows how far outside neutrality an optimum can lie.
+It assumes that every enzyme peaks at pH 7 because most of the body sits near there. Most enzymes have an optimum somewhere between 5 and 9, which is a range rather than a point, and pepsin's optimum of pH 2 shows how far outside neutrality an optimum can lie.
 ## topic
 Biochemistry
 ## subtopic
@@ -1641,6 +1673,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-ENZYMES
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Define the optimum pH of an enzyme and recognise that temperature has an optimum in the same sense, unlike the three concentration factors.
 ## source_citation
@@ -1679,19 +1713,19 @@ C
 ## answer_a
 Cholesteryl ester esterase
 ## explanation_a
-Incorrect. This enzyme hydrolyses cholesteryl esters — the waxes formed from cholesterol and a fatty acid — releasing free cholesterol. Cholesteryl esters are not structural components of the red cell membrane bilayer in the way phospholipids are, and hydrolysing them does not rupture a membrane.
+This enzyme hydrolyses cholesteryl esters — the waxes formed from cholesterol and a fatty acid — releasing free cholesterol. Cholesteryl esters are not structural components of the red cell membrane bilayer in the way phospholipids are, and hydrolysing them does not rupture a membrane.
 ## answer_b
 Hormone sensitive lipase
 ## explanation_b
-Incorrect. Hormone-sensitive lipase acts on stored triacylglycerol in adipose tissue, releasing fatty acids — it is the enzyme of lipolysis, which is a metabolic process in fat cells and not an attack on a membrane. This option catches a student sorting by "enzyme that breaks down a lipid" without asking which lipid, and in which structure.
+Hormone-sensitive lipase acts on stored triacylglycerol in adipose tissue, releasing fatty acids — it is the enzyme of lipolysis, which is a metabolic process in fat cells and not an attack on a membrane. This option catches a student sorting by "enzyme that breaks down a lipid" without asking which lipid, and in which structure.
 ## answer_c
 Lecithinase
 ## explanation_c
-Correct. Snake venom toxins contain a lecithinase enzyme with phospholipase A2 activity. Injected into the blood, it converts the phospholipids present in the cell membranes of red blood cells into lysophospholipids, and a lysophospholipid cannot hold a bilayer together, so the membrane ruptures — that is the haemolysis. Untreated, snake venom toxins cause death, and the treatment the book names is antitoxin; no dose is printed and none is added here. Two details make this answer secure rather than merely plausible. The glycerophospholipids are hydrolysed by a family of phospholipases — PLA1, PLA2, PLC and PLD — each named for the bond it attacks, and the venom's activity is specifically A2, which is why the product named in the answer is a *lyso*phospholipid. And phospholipase D is not the answer under any circumstances: it is absent from humans and present only in plants.
+Snake venom toxins contain a lecithinase enzyme with phospholipase A2 activity. Injected into the blood, it converts the phospholipids present in the cell membranes of red blood cells into lysophospholipids, and a lysophospholipid cannot hold a bilayer together, so the membrane ruptures — that is the haemolysis. Untreated, snake venom toxins cause death, and the treatment is antitoxin; no dose is printed and none is added here. Two details make this answer secure rather than merely plausible. The glycerophospholipids are hydrolysed by a family of phospholipases — PLA1, PLA2, PLC and PLD — each named for the bond it attacks, and the venom's activity is specifically A2, which is why the product named in the answer is a *lyso*phospholipid. And phospholipase D is not the answer under any circumstances: it is absent from humans and present only in plants.
 ## answer_d
 Phosphatase
 ## explanation_d
-Incorrect. A phosphatase removes a phosphate group from a substrate — it is the counterpart of a kinase in covalent modification, not a membrane-destroying enzyme. Picking it takes "phospholipids contain phosphate" as sufficient, without asking which bond has to be cleaved to break a bilayer.
+A phosphatase removes a phosphate group from a substrate — it is the counterpart of a kinase in covalent modification, not a membrane-destroying enzyme. Picking it takes "phospholipids contain phosphate" as sufficient, without asking which bond has to be cleaved to break a bilayer.
 ## topic
 Biochemistry
 ## subtopic
@@ -1736,6 +1770,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Name the venom enzyme responsible for haemolysis, classify its activity, and explain from the product why the red cell membrane ruptures.
 ## source_citation
@@ -1774,19 +1810,19 @@ C
 ## answer_a
 Stearic acid
 ## explanation_a
-Incorrect. Stearic acid is a saturated, non-essential fatty acid. Eicosanoids are made from *polyunsaturated* fatty acids with twenty carbons, and a saturated chain has no double bonds at all, so it cannot be cyclised or oxygenated into any of these products.
+Stearic acid is a saturated, non-essential fatty acid. Eicosanoids are made from *polyunsaturated* fatty acids with twenty carbons, and a saturated chain has no double bonds at all, so it cannot be cyclised or oxygenated into any of these products.
 ## answer_b
 Palmitic acid
 ## explanation_b
-Incorrect. Palmitic acid is the commonest saturated fatty acid in the diet and, like stearic acid, has no double bonds. This option and option a fail for the same reason, which is worth noticing: the eicosanoid precursor is defined by its degree of unsaturation and its chain length together, not by abundance.
+Palmitic acid is the commonest saturated fatty acid in the diet and, like stearic acid, has no double bonds. This option and option a fail for the same reason, which is worth noticing: the eicosanoid precursor is defined by its degree of unsaturation and its chain length together, not by abundance.
 ## answer_c
 Arachidonic acid
 ## explanation_c
-Correct. Eicosanoids are physiologically active compounds formed from polyunsaturated fatty acids with twenty carbons, and arachidonic acid is the department book's example. It reaches the pathway two ways: it is liberated from membrane phospholipids by phospholipase A2, or it is synthesised from the ω-6 essential fatty acid linoleate. From arachidonic acid the pathway forks, and the fork is what the whole chapter turns on. Prostaglandin H synthase makes the *cyclic* compounds — prostaglandins, prostacyclins and thromboxanes — and it carries two catalytic activities, cyclooxygenase and peroxidase. Lipoxygenase makes the *acyclic* compounds, the leukotrienes and the lipoxins. Everything clinical in the chapter follows from which side of that fork a drug or a mediator sits on.
+Eicosanoids are physiologically active compounds formed from polyunsaturated fatty acids with twenty carbons, and arachidonic acid is the standard example. It reaches the pathway two ways: it is liberated from membrane phospholipids by phospholipase A2, or it is synthesised from the ω-6 essential fatty acid linoleate. From arachidonic acid the pathway forks, and the fork is what the whole chapter turns on. Prostaglandin H synthase makes the *cyclic* compounds — prostaglandins, prostacyclins and thromboxanes — and it carries two catalytic activities, cyclooxygenase and peroxidase. Lipoxygenase makes the *acyclic* compounds, the leukotrienes and the lipoxins. Everything clinical in the chapter follows from which side of that fork a drug or a mediator sits on.
 ## answer_d
 Lignoceric acid
 ## explanation_d
-Incorrect. Lignoceric acid is a very-long-chain saturated fatty acid of twenty-four carbons. It fails the test twice over: too long, and saturated. It is the option that catches a student who has remembered that eicosanoid precursors are long-chain without remembering that "eicosa-" fixes the number at twenty.
+Lignoceric acid is a very-long-chain saturated fatty acid of twenty-four carbons. It fails the test twice over: too long, and saturated. It is the option that catches a student who has remembered that eicosanoid precursors are long-chain without remembering that "eicosa-" fixes the number at twenty.
 ## topic
 Biochemistry
 ## subtopic
@@ -1831,6 +1867,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Identify arachidonic acid as the eicosanoid precursor, name the enzyme that liberates it, and name the two enzymes at the fork below it.
 ## source_citation
@@ -1869,19 +1907,19 @@ C
 ## answer_a
 Prostaglandins
 ## explanation_a
-Incorrect. Prostaglandins are cyclic eicosanoids, made by prostaglandin H synthase — the enzyme whose two catalytic activities are cyclooxygenase and peroxidase. The word itself is the clue that misleads: "prosta-" says nothing about ring structure, so the group has to be learned as belonging to the cyclic branch.
+Prostaglandins are cyclic eicosanoids, made by prostaglandin H synthase — the enzyme whose two catalytic activities are cyclooxygenase and peroxidase. The word itself is the clue that misleads: "prosta-" says nothing about ring structure, so the group has to be learned as belonging to the cyclic branch.
 ## answer_b
 Thromboxane
 ## explanation_b
-Incorrect. Thromboxanes are cyclic. Their immediate parent is prostaglandin H2, from which thromboxane synthase makes TXA2, so they sit two steps down the same branch as the prostaglandins. Thromboxane A2 is the vasoconstrictor and platelet aggregator made in the platelet, and it is the reason an NSAID acting on cyclooxygenase changes platelet behaviour at all.
+Thromboxanes are cyclic. Their immediate parent is prostaglandin H2, from which thromboxane synthase makes TXA2, so they sit two steps down the same branch as the prostaglandins. Thromboxane A2 is the vasoconstrictor and platelet aggregator made in the platelet, and it is the reason an NSAID acting on cyclooxygenase changes platelet behaviour at all.
 ## answer_c
 Leukotrienes
 ## explanation_c
-Correct. Lipoxygenase converts arachidonic acid into the acyclic compounds, which are the leukotrienes and the lipoxins. The fork is the whole of this topic, so it is worth holding in one sentence: prostaglandin H synthase makes the cyclic products — prostaglandins, prostacyclins and thromboxanes — and lipoxygenase makes the acyclic ones. The clinical consequence is what the department examines. Leukotrienes are made by leukocytes, platelets and mast cells; they stimulate inflammatory reactions and drive the severe allergic responses that produce bronchoconstriction, low blood pressure and shock. Because a nonsteroidal anti-inflammatory drug inhibits cyclooxygenase, it closes the cyclic branch and leaves the lipoxygenase branch running — which is exactly why an NSAID does not relieve leukotriene-driven bronchospasm, and why a leukotriene receptor antagonist is a separate drug rather than a stronger NSAID. A steroid, acting above the fork on phospholipase A2, reduces the supply to both branches.
+Lipoxygenase converts arachidonic acid into the acyclic compounds, which are the leukotrienes and the lipoxins. The fork is the whole of this topic, so it is worth holding in one sentence: prostaglandin H synthase makes the cyclic products — prostaglandins, prostacyclins and thromboxanes — and lipoxygenase makes the acyclic ones. The clinical consequence is what matters most. Leukotrienes are made by leukocytes, platelets and mast cells; they stimulate inflammatory reactions and drive the severe allergic responses that produce bronchoconstriction, low blood pressure and shock. Because a nonsteroidal anti-inflammatory drug inhibits cyclooxygenase, it closes the cyclic branch and leaves the lipoxygenase branch running — which is exactly why an NSAID does not relieve leukotriene-driven bronchospasm, and why a leukotriene receptor antagonist is a separate drug rather than a stronger NSAID. A steroid, acting above the fork on phospholipase A2, reduces the supply to both branches.
 ## answer_d
 Prostacyclins
 ## explanation_d
-Incorrect. Prostacyclin, PGI2, is cyclic — made from prostaglandin H2 by prostacyclin synthase, in the endothelium of blood vessels, where it is a vasodilator and an inhibitor of platelet aggregation. It is the counterpart of thromboxane A2 rather than a member of the other branch.
+Prostacyclin, PGI2, is cyclic — made from prostaglandin H2 by prostacyclin synthase, in the endothelium of blood vessels, where it is a vasodilator and an inhibitor of platelet aggregation. It is the counterpart of thromboxane A2 rather than a member of the other branch.
 ## topic
 Biochemistry
 ## subtopic
@@ -1926,6 +1964,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Separate the cyclic from the acyclic eicosanoids and name the enzyme that produces each class.
 ## source_citation
@@ -1964,19 +2004,19 @@ B
 ## answer_a
 Lipoxygenase
 ## explanation_a
-Incorrect, and it names the branch an NSAID leaves running. Lipoxygenase converts arachidonic acid to the acyclic eicosanoids — the leukotrienes and lipoxins. If an NSAID inhibited it, an NSAID would relieve leukotriene-driven bronchospasm, and it does not; that is why Singulair, a leukotriene receptor antagonist, exists as a separate drug rather than as a stronger NSAID.
+It names the branch an NSAID leaves running. Lipoxygenase converts arachidonic acid to the acyclic eicosanoids — the leukotrienes and lipoxins. If an NSAID inhibited it, an NSAID would relieve leukotriene-driven bronchospasm, and it does not; that is why Singulair, a leukotriene receptor antagonist, exists as a separate drug rather than as a stronger NSAID.
 ## answer_b
 Cyclooxygenase
 ## explanation_b
-Correct. Nonsteroidal anti-inflammatory drugs inhibit cyclooxygenase activity and so inhibit prostaglandin synthesis; the department book's examples are aspirin, indomethacin and ibuprofen, given by class and mechanism with no dose printed. Two things make this answer worth more than a name. First, where it acts: cyclooxygenase is one of the two catalytic activities of prostaglandin H synthase, peroxidase being the other, so it is not a separate enzyme at a separate step — inhibiting it closes the cyclic branch and leaves the lipoxygenase branch open. Second, how aspirin does it: the enzymes chapter states that aspirin acetylates the hydroxyl group of the serine at the active site of cyclooxygenase, which makes it an irreversible inhibitor rather than a competitive one. Locate the three drug classes on the pathway and the whole clinical section follows — steroids inhibit phospholipase A2, above the fork, and so reduce the supply to both branches; NSAIDs inhibit cyclooxygenase, on the cyclic branch; and Singulair blocks the leukotriene receptor, downstream of the acyclic branch and not an enzyme inhibitor at all.
+Nonsteroidal anti-inflammatory drugs inhibit cyclooxygenase activity and so inhibit prostaglandin synthesis; the standard examples are aspirin, indomethacin and ibuprofen, given by class and mechanism. Two things make this answer worth more than a name. First, where it acts: cyclooxygenase is one of the two catalytic activities of prostaglandin H synthase, peroxidase being the other, so it is not a separate enzyme at a separate step — inhibiting it closes the cyclic branch and leaves the lipoxygenase branch open. Second, how aspirin does it: the enzymes chapter states that aspirin acetylates the hydroxyl group of the serine at the active site of cyclooxygenase, which makes it an irreversible inhibitor rather than a competitive one. Locate the three drug classes on the pathway and the whole clinical section follows — steroids inhibit phospholipase A2, above the fork, and so reduce the supply to both branches; NSAIDs inhibit cyclooxygenase, on the cyclic branch; and Singulair blocks the leukotriene receptor, downstream of the acyclic branch and not an enzyme inhibitor at all.
 ## answer_c
 Phospholipase A2
 ## explanation_c
-Incorrect, and it is the specific confusion this item exists to catch: phospholipase A2 is the *steroid* target. Steroidal anti-inflammatory drugs — hydrocortisone, prednisone, betamethasone — inhibit it, cutting the supply of arachidonic acid to the whole pathway. A student who picks this is treating an NSAID as a weaker steroid acting at the same place, when the two act on opposite sides of the fork and have different consequences for bronchospasm.
+It is the specific confusion this item exists to catch: phospholipase A2 is the *steroid* target. Steroidal anti-inflammatory drugs — hydrocortisone, prednisone, betamethasone — inhibit it, cutting the supply of arachidonic acid to the whole pathway. A student who picks this is treating an NSAID as a weaker steroid acting at the same place, when the two act on opposite sides of the fork and have different consequences for bronchospasm.
 ## answer_d
 Lipoprotein lipase
 ## explanation_d
-Incorrect. Lipoprotein lipase clears triacylglycerol from circulating lipoproteins at the capillary wall — it belongs to lipid transport, not to eicosanoid synthesis, and no anti-inflammatory drug class in the chapter targets it. It is the option a student picks when they have matched on the word "lipase" alone.
+Lipoprotein lipase clears triacylglycerol from circulating lipoproteins at the capillary wall — it belongs to lipid transport, not to eicosanoid synthesis, and no anti-inflammatory drug class in the chapter targets it. It is the option a student picks when they have matched on the word "lipase" alone.
 ## topic
 Biochemistry
 ## subtopic
@@ -2021,6 +2061,8 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
 Locate each anti-inflammatory drug class on the eicosanoid pathway and explain why blocking cyclooxygenase leaves the leukotriene branch running.
 ## source_citation
@@ -2045,7 +2087,7 @@ Prolyl and lysyl residues should be modified in collagen for its proper activity
 ## question
 Prolyl and lysyl residues should be modified in collagen for its proper activity by which post-translational modification?
 ## vignette
-The department book gives five types of covalent post-translational modification and a worked example for each. This question gives the example and asks for the type.
+There are five types of covalent post-translational modification, each with a worked example. This question gives the example and asks for the type.
 ## subject
 fnd
 ## status
@@ -2059,19 +2101,19 @@ C
 ## answer_a
 Phosphorylation
 ## explanation_a
-Incorrect. Phosphate groups bind covalently to serine, threonine or tyrosine residues, and adding and removing them regulates the enzymes of glycogen metabolism and the regulators of gene transcription. Note that the residues are different ones: phosphorylation goes on hydroxyl-bearing side chains of serine, threonine and tyrosine, not on proline and lysine.
+Phosphate groups bind covalently to serine, threonine or tyrosine residues, and adding and removing them regulates the enzymes of glycogen metabolism and the regulators of gene transcription. Note that the residues are different ones: phosphorylation goes on hydroxyl-bearing side chains of serine, threonine and tyrosine, not on proline and lysine.
 ## answer_b
 Glycosylation
 ## explanation_b
-Incorrect as the answer to this stem, but close enough to be worth separating carefully. Glycosylation — the addition of carbohydrate groups — is the modification that marks proteins destined for secretion, for lysosomes or for membranes. Collagen *is* glycosylated, with glucose and galactose attached to hydroxylysine residues, which is why it counts as a glycoprotein; but that step comes after the hydroxylation, and it is the hydroxylation the stem names as the modification of prolyl and lysyl residues.
+This is not the answer to this stem, but it is close enough to be worth separating carefully. Glycosylation — the addition of carbohydrate groups — is the modification that marks proteins destined for secretion, for lysosomes or for membranes. Collagen *is* glycosylated, with glucose and galactose attached to hydroxylysine residues, which is why it counts as a glycoprotein; but that step comes after the hydroxylation, and it is the hydroxylation the stem names as the modification of prolyl and lysyl residues.
 ## answer_c
 Hydroxylation
 ## explanation_c
-Correct. Prolyl and lysyl residues are modified by hydroxylation, and in collagen that hydroxylation leads to stabilisation of the protein. Follow the chain of consequence, because the department examines it from both ends. Hydroxylation happens in the lumen of the rough endoplasmic reticulum, catalysed by hydroxylase enzymes that require vitamin C as a cofactor. It converts proline to hydroxyproline and lysine to hydroxylysine. The high hydroxyproline content then forms hydrogen bonds between the three chains of tropocollagen, which is one of the seven reasons the book gives for collagen's strength. And hydroxylysine is what glucose and galactose are attached to, which is what makes collagen a glycoprotein while elastin, having no hydroxylysine, is not. So a vitamin deficiency at one step weakens a fibre several steps later.
+Prolyl and lysyl residues are modified by hydroxylation, and in collagen that hydroxylation leads to stabilisation of the protein. Follow the chain of consequence from both ends. Hydroxylation happens in the lumen of the rough endoplasmic reticulum, catalysed by hydroxylase enzymes that require vitamin C as a cofactor. It converts proline to hydroxyproline and lysine to hydroxylysine. The high hydroxyproline content then forms hydrogen bonds between the three chains of tropocollagen, one of the reasons collagen is strong. And hydroxylysine is what glucose and galactose are attached to, which is what makes collagen a glycoprotein while elastin, having no hydroxylysine, is not. So a vitamin deficiency at one step weakens a fibre several steps later.
 ## answer_d
 Carboxylation
 ## explanation_d
-Incorrect. Carboxylation forms γ-carboxyglutamate from glutamate residues, and its importance is in blood coagulation: γ-carboxyglutamate is what lets the clotting proteins bind Ca2+ during clot formation. It acts on glutamate, not on proline or lysine, and its worked example is a clotting factor rather than a structural fibre.
+Carboxylation forms γ-carboxyglutamate from glutamate residues, and its importance is in blood coagulation: γ-carboxyglutamate is what lets the clotting proteins bind Ca2+ during clot formation. It acts on glutamate, not on proline or lysine, and its worked example is a clotting factor rather than a structural fibre.
 ## topic
 Biochemistry
 ## subtopic
@@ -2116,8 +2158,10 @@ kau
 KAU_Y1
 ## library_ids
 ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## resource_ids
+src_07f0a0ff41addf826c7f
 ## learning_objective
-Match a named post-translational covalent modification to the residues it acts on and to the department book's worked example for it.
+Match a named post-translational covalent modification to the residues it acts on and to its worked example.
 ## source_citation
 Kasr Al Ainy Department Book MCQs — "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", manifest src_07f0a0ff41addf826c7f; chapter Protein Synthesis (Translation), printed MCQ 22, page 71; printed answer key page 72, cell 22 = c.
 ## estimated_seconds

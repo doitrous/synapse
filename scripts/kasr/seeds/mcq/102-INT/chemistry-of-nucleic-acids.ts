@@ -60,7 +60,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         "Name RNA's distinguishing sugar and base compared with DNA, and classify each of the four common bases as a purine or a pyrimidine.",
       pitfall:
-        "Assuming RNA never contains thymine — the book notes thymine does appear in RNA, but only as a minor base within tRNA (the T of the TψC arm), so 'RNA never has thymine' overstates the rule.",
+        "Assuming RNA never contains thymine — noted thymine does appear in RNA, but only as a minor base within tRNA (the T of the TψC arm), so 'RNA never has thymine' overstates the rule.",
       subject: 'fnd',
       primary: 'DIS-BIO-T06',
       secondary: [],
@@ -143,9 +143,9 @@ export const LEAF: McqLeafSeed = {
         "Identify uracil as the nitrogenous base unique to RNA in place of DNA's thymine.",
       explanations: {
         a: "Thymine is DNA's base; the comparison table gives RNA uracil in its place (thymine appears in RNA only as a minor base within tRNA).",
-        b: "Correct. RNA's nitrogenous base is uracil in place of DNA's thymine, per the book's own DNA/RNA comparison.",
-        c: 'Xanthine is not one of the four bases the book lists for either DNA or RNA — it plays no part in this classification.',
-        d: 'Hypoxanthine, like xanthine, is not among the bases the book assigns to DNA or RNA.',
+        b: "RNA's nitrogenous base is uracil in place of DNA's thymine, per the DNA/RNA comparison.",
+        c: 'Xanthine is not one of the four bases listed for either DNA or RNA — it plays no part in this classification.',
+        d: 'Hypoxanthine, like xanthine, is not among the bases assigned to DNA or RNA.',
       },
     },
     {
@@ -157,8 +157,8 @@ export const LEAF: McqLeafSeed = {
         "Identify ribose as RNA's sugar, in contrast to DNA's deoxyribose.",
       explanations: {
         a: 'Ribulose is a five-carbon sugar involved in photosynthetic carbon fixation, not the sugar of RNA.',
-        b: 'Arabinose is not a sugar the book assigns to either nucleic acid.',
-        c: "Correct. The book's comparison table gives RNA the sugar ribose, versus DNA's 2-deoxyribose.",
+        b: 'Arabinose is not a sugar assigned to either nucleic acid.',
+        c: "The comparison table gives RNA the sugar ribose, versus DNA's 2-deoxyribose.",
         d: "Deoxyribose is DNA's sugar, not RNA's — this option swaps the two nucleic acids' sugars.",
       },
       answerOverride: 'c',
@@ -175,7 +175,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Uridine is a normal RNA nucleoside, not the unusual base that distinguishes the D-arm.',
         b: 'Pseudo-uridine is the unusual base found in the TψC arm, not the D-arm.',
-        c: 'Correct. The book states the D-arm contains the unusual base dihydrouracil, which is important for the arm\'s recognition by aminoacyl-tRNA synthetase.',
+        c: 'The D-arm contains the unusual base dihydrouracil, which is important for the arm\'s recognition by aminoacyl-tRNA synthetase.',
         d: 'Thymidine is the unusual base found in the TψC arm alongside pseudouridine, not in the D-arm.',
       },
       answerOverride: 'c',
@@ -190,10 +190,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         "State that the TψC arm's name comes from its thymine, pseudouridine and cytosine sequence.",
       explanations: {
-        a: 'Correct. The book states the TψC arm contains the unusual specific sequence of thymine and pseudouridine bases, alongside cytosine, giving the arm its name.',
-        b: 'Uridine, the ordinary nucleoside, is not the unusual modified base the book names for this arm — pseudouridine is.',
+        a: 'The TψC arm contains the unusual specific sequence of thymine and pseudouridine bases, alongside cytosine, giving the arm its name.',
+        b: 'Uridine, the ordinary nucleoside, is not the unusual modified base named for this arm — pseudouridine is.',
         c: "Dihydrouridine is the unusual base of the D-arm, not the TψC arm — this swaps the two arms' distinguishing bases.",
-        d: "Adenine is not the unusual base named for this arm at all; the book's sequence for this arm is thymine, pseudouridine and cytosine.",
+        d: "Adenine is not the unusual base named for this arm at all; the sequence for this arm is thymine, pseudouridine and cytosine.",
       },
     },
     {
@@ -202,12 +202,12 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Hard',
       questionType: 'Structure and function',
       learningObjective:
-        'Distinguish the base-stacking (Van der Waals) forces the book credits with stabilizing the helix from the hydrogen bonds that hold each base pair together.',
+        'Distinguish the base-stacking (Van der Waals) forces credited with stabilizing the helix from the hydrogen bonds that hold each base pair together.',
       explanations: {
-        a: "Hydrogen bonds hold each base pair together (two for A-T, three for G-C) and give the pairing its specificity, but the book credits the Van der Waals stacking forces between neighbouring base pairs with providing the helix's overall stability.",
-        b: 'Electrostatic bonds are not a force the book names as a source of nucleic acid stability.',
-        c: "Correct. The book states the stacked base pairs are held together by Van der Waals forces and hydrophobic interactions, and that 'these forces provide the stability of the double helix.'",
-        d: "Phosphodiester bonds are the covalent bonds within each backbone; they hold one strand's own nucleotides together, not the two strands to each other, and the book does not credit them with the helix's stability.",
+        a: "Hydrogen bonds hold each base pair together (two for A-T, three for G-C) and give the pairing its specificity, but credited the Van der Waals stacking forces between neighbouring base pairs with providing the helix's overall stability.",
+        b: 'Electrostatic bonds are not a force named as a source of nucleic acid stability.',
+        c: "The stacked base pairs are held together by Van der Waals forces and hydrophobic interactions, and that 'these forces provide the stability of the double helix.'",
+        d: "Phosphodiester bonds are the covalent bonds within each backbone; they hold one strand's own nucleotides together, not the two strands to each other, and them is not credited with the helix's stability.",
       },
     },
     {
@@ -220,7 +220,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Cytosine is a pyrimidine, not a purine — it does not answer the question as asked.',
         b: 'Thymine is a pyrimidine, and in RNA it appears only as a minor base within tRNA — not the purine the question is asking for.',
-        c: "Correct. The book's comparison table lists adenine and guanine as the purines shared by both DNA and RNA; guanine is the purine among these four options.",
+        c: "The comparison table lists adenine and guanine as the purines shared by both DNA and RNA; guanine is the purine among these four options.",
         d: "Uracil is a pyrimidine — RNA's substitute for DNA's thymine — not a purine.",
       },
       answerOverride: 'c',
@@ -237,7 +237,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: '100 only counts the adenine given in the question — it ignores that the segment is double-stranded and has an equal number of paired thymine and cytosine bases, plus the guanine paired with the given cytosine.',
         b: '200 accounts for adenine and its thymine partner (100+100) but leaves out the 100 cytosine and its 100 paired guanine entirely.',
-        c: 'Correct. In double-stranded DNA, adenine pairs with thymine and guanine pairs with cytosine, so 100 adenine implies 100 thymine, and 100 cytosine implies 100 guanine: 100+100+100+100 = 400 nucleotides total.',
+        c: 'In double-stranded DNA, adenine pairs with thymine and guanine pairs with cytosine, so 100 adenine implies 100 thymine, and 100 cytosine implies 100 guanine: 100+100+100+100 = 400 nucleotides total.',
         d: '640 does not follow from doubling any combination of the given counts consistent with complementary base pairing — it overshoots what the A-T/G-C pairing rule gives.',
       },
     },
@@ -249,7 +249,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that nucleotides are the building-block monomers nucleic acids are polymers of.',
       explanations: {
-        a: 'Correct. The book opens by defining nucleic acids as polymers of nucleotides.',
+        a: 'Nucleic acids are polymers of nucleotides.',
         b: 'Nucleosides are a base plus a sugar, missing the phosphate group that makes a nucleotide — the actual repeating unit needs that phosphate to form the phosphodiester backbone.',
         c: 'Amino acids are the building blocks of proteins, an entirely different class of biomolecule.',
         d: 'Histones are proteins that package finished DNA into nucleosomes — they are not part of the nucleic acid polymer itself.',
@@ -263,7 +263,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         "Identify mRNA as the RNA type whose coding region is organized into codons.",
       explanations: {
-        a: "Correct. The book states the coding region of mRNA carries genetic information as the template for protein synthesis, with each three-base codon designating an amino acid.",
+        a: "The coding region of mRNA carries genetic information as the template for protein synthesis, with each three-base codon designating an amino acid.",
         b: "Ribosomal RNA forms the ribosome's structure and catalytic core; it does not carry a codon sequence itself.",
         c: 'Transfer RNA reads a codon via its complementary anticodon, but the codon itself is on the mRNA being translated, not on the tRNA.',
         d: "DNA carries the gene the mRNA is transcribed from, but the codon — the triplet that designates an amino acid during translation — is a feature of the mRNA's coding region, not of DNA.",
@@ -290,7 +290,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: '160 only accounts for the thymine and its adenine partner (80+80) — it leaves out the 80 guanine and its 80 paired cytosine.',
         b: '40 is far too small even for one base pair\'s worth of the given counts — it does not follow from the base-pairing rule applied to either given number.',
-        c: 'Correct. Thymine pairs with adenine and guanine pairs with cytosine, so 80 thymine implies 80 adenine, and 80 guanine implies 80 cytosine: 80+80+80+80 = 320 nucleotides total.',
+        c: 'Thymine pairs with adenine and guanine pairs with cytosine, so 80 thymine implies 80 adenine, and 80 guanine implies 80 cytosine: 80+80+80+80 = 320 nucleotides total.',
         d: '640 overshoots what the pairing rule gives for these counts — it does not correspond to any consistent application of A-T/G-C pairing to 80 and 80.',
       },
       answerOverride: 'c',
@@ -305,7 +305,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Locate the phosphodiester bond as the linkage between nucleotides within a nucleic acid strand.',
       explanations: {
-        a: "Correct. The book states nucleotides within a nucleic acid strand are linked by phosphodiester bonds, between the 3'-hydroxyl of one nucleotide and the 5'-hydroxyl of the next, through a phosphate group.",
+        a: "Nucleotides within a nucleic acid strand are linked by phosphodiester bonds, between the 3'-hydroxyl of one nucleotide and the 5'-hydroxyl of the next, through a phosphate group.",
         b: 'Monosaccharides in a polysaccharide are linked by glycosidic bonds, not phosphodiester bonds — a different class of biomolecule entirely.',
         c: 'Amino acids in a polypeptide are linked by peptide bonds, not phosphodiester bonds.',
         d: 'Fatty acids in a diglyceride are linked by ester bonds to glycerol, not phosphodiester bonds.',
@@ -320,8 +320,8 @@ export const LEAF: McqLeafSeed = {
         'State that hydrogen bonds, not covalent bonds, hold the two strands of the DNA double helix together.',
       explanations: {
         a: "Covalent bonds hold each strand's own backbone together (the phosphodiester bonds), not the two strands to each other.",
-        b: 'Correct. The two strands are held together by complementary base pairing through hydrogen bonds — two between A and T, three between G and C.',
-        c: 'Ionic bonds are not the force the book names for holding the two strands together.',
+        b: 'The two strands are held together by complementary base pairing through hydrogen bonds — two between A and T, three between G and C.',
+        c: 'Ionic bonds are not the force named for holding the two strands together.',
         d: 'Phosphodiester bonds are the covalent bonds within a single strand\'s backbone; they do not join the two strands to each other, which is done only by hydrogen bonds.',
       },
     },
@@ -355,9 +355,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that histones are basic proteins rich in lysine and arginine, which lets them bind acidic DNA electrostatically.',
       explanations: {
-        a: 'Correct. The book states histones are basic proteins rich in lysine and arginine, which are positively charged and so bind the negatively charged, phosphate-rich DNA.',
+        a: 'Histones are basic proteins rich in lysine and arginine, which are positively charged and so bind the negatively charged, phosphate-rich DNA.',
         b: 'Leucine is a neutral, non-basic amino acid — swapping it in for lysine loses the positive charge that lets histones bind DNA.',
-        c: "Histidine and leucine are not the residue pair the book credits with histones' basic, DNA-binding character; arginine and lysine are.",
+        c: "Histidine and leucine are not the residue pair credited with histones' basic, DNA-binding character; arginine and lysine are.",
         d: 'Glutamate and aspartate are acidic amino acids, which would make a protein negatively charged like DNA itself, not able to bind it electrostatically the way histones do.',
       },
     },
@@ -369,10 +369,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State the number of hydrogen bonds (two) between adenine and thymine, as distinct from the three between guanine and cytosine.',
       explanations: {
-        a: '1 is too few for any base pair the book describes; even the weaker A-T pair has two hydrogen bonds, not one.',
-        b: 'Correct. The book states adenine pairs with thymine through two hydrogen bonds.',
+        a: '1 is too few for any base pair described; even the weaker A-T pair has two hydrogen bonds, not one.',
+        b: 'Adenine pairs with thymine through two hydrogen bonds.',
         c: '3 is the number of hydrogen bonds between guanine and cytosine, not adenine and thymine — this swaps the two base pairs\' bond counts.',
-        d: '4 hydrogen bonds is not a count the book gives for either base pair; neither A-T (two) nor G-C (three) reaches four.',
+        d: '4 hydrogen bonds is not a count given for either base pair; neither A-T (two) nor G-C (three) reaches four.',
       },
     },
   ],

@@ -66,7 +66,7 @@ export const LEAF: McqLeafSeed = {
       key: 'sympathetic-regional-effects-abdomen-pelvis-limbs',
       label: 'Sympathetic fibres to the abdomen leave the paravertebral chain as splanchnic nerves from T5–T12, relaxing gut muscle and contracting its sphincters, releasing adrenal catecholamines, and mediating pelvic ejaculation and limb glycogenolysis',
       definition:
-        'Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves. Their effects include hepatic glycogenolysis (raising blood glucose) and, via preganglionic cholinergic fibres reaching the adrenal medulla directly, secretion of adrenaline and noradrenaline into the blood — stimulation of the greater splanchnic nerve is one of the book\'s named routes to adrenal catecholamine release.',
+        'Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves. Their effects include hepatic glycogenolysis (raising blood glucose) and, via preganglionic cholinergic fibres reaching the adrenal medulla directly, secretion of adrenaline and noradrenaline into the blood — stimulation of the greater splanchnic nerve is one of the named routes to adrenal catecholamine release.',
       objective: 'Connect splanchnic-nerve stimulation to two separate sympathetic abdominal effects: hepatic glycogenolysis and adrenal medulla catecholamine secretion.',
       pitfall: 'Assuming the adrenal medulla is reached only indirectly, through hepatic or splenic effects — it has its own direct preganglionic cholinergic sympathetic supply (via the splanchnic nerves), making catecholamine release a first-order effect of splanchnic stimulation, not a downstream consequence of the other abdominal effects.',
       subject: 'neuro',
@@ -82,7 +82,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'Each somatic motor pathway from the spinal cord to a skeletal muscle is a single fibre (one-neuron system). Each autonomic, involuntary pathway is composed of two fibres in series — the preganglionic neuron (cell body in the cord or brainstem, myelinated B fibre) and the postganglionic neuron (cell body in a ganglion outside the CNS, unmyelinated C fibre) — a two-neuron system, with the synapse between them at the ganglion.',
       objective: 'State that the autonomic efferent pathway is a two-neuron relay, in contrast with the somatic system\'s single motor neuron.',
-      pitfall: 'Describing the autonomic system as "two efferent pathways" (meaning sympathetic and parasympathetic) rather than "a two-neuron efferent pathway" (meaning each individual autonomic route is relayed through two neurons in series) — the book\'s point is about the number of neurons in one route, not the number of divisions.',
+      pitfall: 'Describing the autonomic system as "two efferent pathways" (meaning sympathetic and parasympathetic) rather than "a two-neuron efferent pathway" (meaning each individual autonomic route is relayed through two neurons in series) — the point is about the number of neurons in one route, not the number of divisions.',
       subject: 'neuro',
       primary: 'DIS-PHY-T07',
       secondary: [],
@@ -126,7 +126,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name nicotinic as the receptor at the sympathetic ganglionic synapse.',
       explanations: {
         a: 'Muscarinic receptors sit on effector organs reached by postganglionic parasympathetic (or cholinergic-sympathetic) fibres, not at the ganglionic synapse between pre- and postganglionic neurons.',
-        b: 'Correct. The synapse between preganglionic and postganglionic sympathetic neurons uses nicotinic receptors — the same receptor type used at every autonomic ganglion, regardless of division.',
+        b: 'The synapse between preganglionic and postganglionic sympathetic neurons uses nicotinic receptors — the same receptor type used at every autonomic ganglion, regardless of division.',
         c: 'Beta adrenergic receptors sit on effector organs reached by postganglionic adrenergic fibres, not at the ganglionic synapse, which uses acetylcholine and nicotinic receptors rather than noradrenaline.',
         d: 'Alpha adrenergic receptors, like beta, sit on effector organs, not at the ganglionic synapse.',
       },
@@ -141,7 +141,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Sweat-gland secretory fibres are one of the two named cholinergic exceptions among postganglionic sympathetic fibres — they release acetylcholine, not noradrenaline.',
         b: 'Backwards. Adrenaline, not noradrenaline, is the main catecholamine the adrenal medulla secretes (80% adrenaline to 20% noradrenaline).',
         c: 'Backwards. Noradrenaline is released from postganglionic, not preganglionic, sympathetic fibres — preganglionic fibres of both divisions are cholinergic.',
-        d: 'Correct. Noradrenaline excites mainly alpha receptors, exciting beta receptors only to a slight extent — the reverse of adrenaline\'s roughly equal action on both.',
+        d: 'Noradrenaline excites mainly alpha receptors, exciting beta receptors only to a slight extent — the reverse of adrenaline\'s roughly equal action on both.',
       },
     },
     {
@@ -152,7 +152,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that alpha-2 receptors relax intestinal smooth muscle.',
       explanations: {
         a: 'Vasodilation is a beta-2 receptor effect (on coronary and skeletal blood vessels); alpha receptors are instead associated with vasoconstriction (alpha-1, on skin/visceral/genital vessels).',
-        b: 'Correct. Alpha-2 receptors are mainly inhibitory, producing relaxation of intestinal smooth muscle.',
+        b: 'Alpha-2 receptors are mainly inhibitory, producing relaxation of intestinal smooth muscle.',
         c: 'Increased cardiac activity is a beta-1 receptor effect, not an alpha effect.',
         d: 'Inhibition of urinary bladder plain muscle (relaxation, allowing filling) is a beta-2 receptor effect; the alpha-1 effect on the bladder is instead contraction of the internal urethral sphincter (retention), a different tissue within the same organ.',
       },
@@ -164,7 +164,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Name the two cholinergic exceptions among postganglionic sympathetic fibres.',
       explanations: {
-        a: 'Correct. Some postganglionic sympathetic fibres — the two named exceptions, secretory fibres to sweat glands and vasodilator fibres to skeletal-muscle blood vessels — release acetylcholine rather than noradrenaline.',
+        a: 'Some postganglionic sympathetic fibres — the two named exceptions, secretory fibres to sweat glands and vasodilator fibres to skeletal-muscle blood vessels — release acetylcholine rather than noradrenaline.',
         b: 'Postganglionic fibres to the heart are adrenergic (release noradrenaline), one of the majority, not one of the two cholinergic exceptions.',
         c: 'Postganglionic fibres to the skin arterioles are adrenergic (vasoconstrictor, releasing noradrenaline) — the skeletal-muscle vasodilator fibres are the cholinergic exception, not the skin ones.',
         d: 'Backwards. Postganglionic fibres to the sweat glands release acetylcholine (one of the two named cholinergic exceptions), not noradrenaline.',
@@ -179,8 +179,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Backwards on the segments. Sympathetic fibres to abdominal viscera originate from T5–T12 (lower thoracic segments), not the upper 6 — the upper four thoracic segments instead supply the thoracic viscera.',
         b: 'Backwards. Postganglionic cells of the adrenal medulla have lost their axons and secrete catecholamines directly; the fibres *supplying* the adrenal medulla are preganglionic and cholinergic, not adrenergic norepinephrine-secreting fibres from their own endings.',
-        c: 'Correct. Sympathetic stimulation of the liver drives glycogenolysis, breaking down stored glycogen and so increasing blood glucose level.',
-        d: 'Backwards. Sympathetic stimulation *relaxes* plain muscle of the stomach/small intestine/proximal large intestine while *contracting* their sphincters — inhibition of both muscle and sphincter is not the pattern the book describes.',
+        c: 'Sympathetic stimulation of the liver drives glycogenolysis, breaking down stored glycogen and so increasing blood glucose level.',
+        d: 'Backwards. Sympathetic stimulation *relaxes* plain muscle of the stomach/small intestine/proximal large intestine while *contracting* their sphincters — inhibition of both muscle and sphincter is not the pattern seen here.',
       },
     },
     {
@@ -190,7 +190,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'State that the autonomic system is a two-neuron efferent pathway, unlike the somatic system.',
       explanations: {
-        a: 'Correct. The autonomic efferent pathway is a two-neuron system (preganglionic and postganglionic), while the somatic motor pathway from cord to skeletal muscle is a single-neuron system — this is the structural difference the book highlights.',
+        a: 'The autonomic efferent pathway is a two-neuron system (preganglionic and postganglionic), while the somatic motor pathway from cord to skeletal muscle is a single-neuron system — this is the key structural difference between the two.',
         b: 'Backwards. The autonomic system does not originate from all segments uniformly — sympathetic outflow is thoracolumbar and parasympathetic outflow is cranio-sacral, each restricted to specific segments, unlike this option\'s "all segments" claim.',
         c: 'Backwards. The autonomic system has extensive control over the heart (both sympathetic and parasympathetic divisions act on it) — "no control on the heart" is false and describes neither division.',
         d: 'Backwards. Autonomic *afferent* fibres relay at the lateral horn or cranial nuclei, and autonomic *efferent* fibres originate from cranial nuclei or lateral horn cells — not from the anterior horn cells, which is where somatic motor neurons originate instead.',
@@ -207,7 +207,7 @@ export const LEAF: McqLeafSeed = {
         a: 'All parasympathetic preganglionic fibres genuinely release acetylcholine (as all preganglionic autonomic fibres do), so this is not the exception.',
         b: 'All parasympathetic postganglionic fibres genuinely release acetylcholine, so this is not the exception.',
         c: 'All sympathetic preganglionic fibres genuinely release acetylcholine (as all preganglionic autonomic fibres do), so this is not the exception.',
-        d: 'Correct — the exception. Most postganglionic sympathetic fibres release noradrenaline (adrenergic), not acetylcholine — only the two named exceptions (sweat gland secretory fibres, skeletal-muscle vasodilator fibres) are cholinergic, so "all sympathetic postganglionic fibres" release acetylcholine is false.',
+        d: 'The exception. Most postganglionic sympathetic fibres release noradrenaline (adrenergic), not acetylcholine — only the two named exceptions (sweat gland secretory fibres, skeletal-muscle vasodilator fibres) are cholinergic, so "all sympathetic postganglionic fibres" release acetylcholine is false.',
       },
     },
     {
@@ -217,7 +217,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Name reuptake as the dominant route by which noradrenaline is removed from postganglionic sympathetic endings.',
       explanations: {
-        a: 'Correct. Active re-uptake into the sympathetic nerve endings themselves accounts for the removal of 50–80% of secreted noradrenaline — the dominant of the three named removal routes.',
+        a: 'Active re-uptake into the sympathetic nerve endings themselves accounts for the removal of 50–80% of secreted noradrenaline — the dominant of the three named removal routes.',
         b: 'COMT does inactivate noradrenaline, but it is present in all tissues *except* the adrenergic nerve endings themselves — this option misplaces where COMT acts.',
         c: 'Noradrenaline is not transformed into epinephrine at the postganglionic sympathetic ending — epinephrine synthesis (by methylation of noradrenaline) occurs specifically in the adrenal medulla, a different tissue with a different enzyme.',
         d: 'Diffusion away from the nerve ending into surrounding fluid and blood is one of the three removal routes, but it is not the dominant one — reuptake accounts for the larger share (50–80%).',
@@ -233,7 +233,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Backwards. Sympathetic stimulation *relaxes*, not increases the motility of, the plain muscle of the stomach.',
         b: 'Backwards. Sympathetic stimulation is not described as increasing gastric juice secretion — secretomotor stimulation of GIT glands is a parasympathetic (vagal) effect, the opposite division.',
         c: 'Backwards. Splanchnic-nerve-driven hepatic glycogenolysis *increases*, not decreases, blood glucose level.',
-        d: 'Correct. The greater splanchnic nerve carries preganglionic cholinergic sympathetic fibres directly to the adrenal medulla, and its stimulation causes secretion of adrenaline and noradrenaline into the blood.',
+        d: 'The greater splanchnic nerve carries preganglionic cholinergic sympathetic fibres directly to the adrenal medulla, and its stimulation causes secretion of adrenaline and noradrenaline into the blood.',
       },
     },
     {
@@ -243,7 +243,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that epinephrine is synthesised in the adrenal medulla by methylation of noradrenaline.',
       explanations: {
-        a: 'Correct. Epinephrine (adrenaline) is synthesised in the adrenal medulla by methylating noradrenaline — the final step distinguishing the two catecholamines.',
+        a: 'Epinephrine (adrenaline) is synthesised in the adrenal medulla by methylating noradrenaline — the final step distinguishing the two catecholamines.',
         b: 'Backwards. Noradrenaline, not epinephrine, is the transmitter of most sympathetic postganglionic nerve fibres — epinephrine is instead a circulating hormone from the adrenal medulla.',
         c: 'Sympathetic cholinergic postganglionic fibres (sweat glands, skeletal-muscle vasodilators) release acetylcholine, not epinephrine — the two are unrelated compounds released by entirely different fibre types.',
         d: 'Epinephrine is removed by re-uptake, diffusion and enzymatic breakdown by MAO/COMT, the same routes as noradrenaline — cholinesterase is the enzyme that hydrolyses acetylcholine, not catecholamines.',
@@ -256,7 +256,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Recognise that noradrenaline synthesis proceeds through hydroxylation/decarboxylation from tyrosine, not through MAO.',
       explanations: {
-        a: 'Correct — the exception. Noradrenaline is synthesised from tyrosine by hydroxylation (to DOPA) and decarboxylation (to dopamine), then conversion to noradrenaline — MAO (monoamine oxidase) is a *degrading*, not synthesising, enzyme, part of noradrenaline\'s removal rather than its manufacture.',
+        a: 'The exception. Noradrenaline is synthesised from tyrosine by hydroxylation (to DOPA) and decarboxylation (to dopamine), then conversion to noradrenaline — MAO (monoamine oxidase) is a *degrading*, not synthesising, enzyme, part of noradrenaline\'s removal rather than its manufacture.',
         b: 'True, so not the exception. COMT does inactivate noradrenaline and is present broadly in tissues, including on postsynaptic neuron membranes.',
         c: 'True, so not the exception. Noradrenaline, acting mainly on alpha-1 receptors, causes contraction of the dilator pupillae muscle (mydriasis).',
         d: 'True, so not the exception. Noradrenaline\'s (mild) beta-2 stimulation, alongside the sympathetic system\'s broader effect, contributes to bronchodilation.',
@@ -272,7 +272,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Vasoconstriction (of skin, visceral and genital blood vessels) is a genuine alpha-1 receptor effect, so it is not the exception.',
         b: 'Pupil dilation (mydriasis, via the dilator pupillae) is a genuine alpha-1 receptor effect, so it is not the exception.',
         c: 'Relaxation of intestinal wall smooth muscle is a genuine alpha-2 receptor effect, so it is not the exception.',
-        d: 'Correct — the exception. Increased cardiac activity is a beta-1, not an alpha, receptor effect — alpha receptors\' actions are elsewhere (vasoconstriction, mydriasis, sphincter contraction, intestinal relaxation), never on the heart.',
+        d: 'The exception. Increased cardiac activity is a beta-1, not an alpha, receptor effect — alpha receptors\' actions are elsewhere (vasoconstriction, mydriasis, sphincter contraction, intestinal relaxation), never on the heart.',
       },
     },
     {
@@ -296,7 +296,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Epinephrine\'s beta-2 action *relaxes* (dilates) bronchiole smooth muscle, the opposite of contraction — this option asks for a tissue where contraction occurs, and bronchioles are not it.',
         b: 'Epinephrine\'s alpha-1 action on the eye contracts the dilator pupillae (a specific named muscle), not "pupils" generically as smooth muscle in the way this option frames it, and the tachycardia/contraction pairing the stem asks about is better matched by the vascular effect.',
         c: 'Epinephrine\'s beta-2 action *relaxes* intestinal smooth muscle, the opposite of contraction.',
-        d: 'Correct. Alongside beta-1-driven tachycardia, epinephrine\'s alpha-1 action contracts (vasoconstricts) arteriolar smooth muscle in skin, viscera and genitalia — matching both halves of the stem, tachycardia and smooth-muscle contraction, in one receptor-consistent picture.',
+        d: 'Alongside beta-1-driven tachycardia, epinephrine\'s alpha-1 action contracts (vasoconstricts) arteriolar smooth muscle in skin, viscera and genitalia — matching both halves of the stem, tachycardia and smooth-muscle contraction, in one receptor-consistent picture.',
       },
     },
     {
@@ -307,7 +307,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that muscarinic receptor stimulation produces bradycardia.',
       explanations: {
         a: 'Skeletal muscle contraction is mediated by nicotinic receptors at the neuromuscular junction (a different nicotinic receptor subtype from the autonomic-ganglion one), not by muscarinic receptors, which the autonomic system does not use on skeletal muscle at all.',
-        b: 'Correct. Muscarinic receptors mediate the parasympathetic (vagal) effect on the heart, which slows atrial activity — bradycardia.',
+        b: 'Muscarinic receptors mediate the parasympathetic (vagal) effect on the heart, which slows atrial activity — bradycardia.',
         c: 'Backwards. Muscarinic (parasympathetic) stimulation *constricts* the pupil (miosis); dilation is the sympathetic, alpha-receptor-mediated effect instead.',
         d: 'Backwards. Muscarinic stimulation of the heart slows it and, through vasodilator effects elsewhere, tends toward lower rather than higher blood pressure — hypertension is not a muscarinic-stimulation sign.',
       },
@@ -319,7 +319,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'State that skeletal-muscle blood vessels are supplied by sympathetic cholinergic vasodilator fibres.',
       explanations: {
-        a: 'Correct. Skeletal-muscle blood vessels are supplied by sympathetic cholinergic vasodilator fibres — one of the two named exceptions where a sympathetic fibre releases acetylcholine rather than noradrenaline, and it is this cholinergic action (muscarinic-receptor-mediated dilation) that dilates the vessels under sympathetic stimulation.',
+        a: 'Skeletal-muscle blood vessels are supplied by sympathetic cholinergic vasodilator fibres — one of the two named exceptions where a sympathetic fibre releases acetylcholine rather than noradrenaline, and it is this cholinergic action (muscarinic-receptor-mediated dilation) that dilates the vessels under sympathetic stimulation.',
         b: 'Sympathetic *adrenergic* fibres (releasing noradrenaline, acting on alpha-1 receptors) cause vasoconstriction, not the vasodilation this question asks about — the dilation instead comes from the cholinergic exception fibres.',
         c: 'Parasympathetic fibres do not supply skeletal-muscle blood vessels at all — this vasodilation is a sympathetic phenomenon, achieved by the cholinergic exception among sympathetic fibres, not by the parasympathetic division.',
         d: 'Parasympathetic fibres are cholinergic, not adrenergic, throughout — "parasympathetic adrenergic" describes no real fibre type in this system, and in any case parasympathetic fibres do not reach skeletal-muscle vessels.',

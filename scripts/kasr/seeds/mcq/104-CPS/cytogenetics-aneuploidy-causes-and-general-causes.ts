@@ -22,8 +22,8 @@ export const LEAF: McqLeafSeed = {
     {
       key: "chromosomal-aberration.general-causes",
       label: "Radiation, viral infection, advanced maternal age, cytotoxic drugs and autoimmune disease all predispose to chromosomal aberration, each by a different route",
-      definition: "Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration. Radiation causes chromosomal damage and non-disjunction. Viral infections, such as German measles (rubella), cause fragmentation of the chromosome. Pregnancy at an advanced maternal age increases the risk of non-disjunction, through a very long prophase. Drugs, such as the cytotoxic drug colchicine, inhibit formation of the mitotic spindle — which is why colchicine is used experimentally to arrest cells in metaphase, since without a spindle the chromatids cannot be pulled apart into anaphase. Autoimmune diseases are usually associated with non-disjunction as well.",
-      objective: "List the book's five general causes of chromosomal aberration — radiation, viral infection, advanced maternal age, cytotoxic drugs, autoimmune disease — and state which mechanism each acts through.",
+      definition: "Before splitting into numerical and structural types, there are five general causes of chromosomal aberration. Radiation causes chromosomal damage and non-disjunction. Viral infections, such as German measles (rubella), cause fragmentation of the chromosome. Pregnancy at an advanced maternal age increases the risk of non-disjunction, through a very long prophase. Drugs, such as the cytotoxic drug colchicine, inhibit formation of the mitotic spindle — which is why colchicine is used experimentally to arrest cells in metaphase, since without a spindle the chromatids cannot be pulled apart into anaphase. Autoimmune diseases are usually associated with non-disjunction as well.",
+      objective: "List the five general causes of chromosomal aberration — radiation, viral infection, advanced maternal age, cytotoxic drugs, autoimmune disease — and state which mechanism each acts through.",
       pitfall: "Confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss). Radiation and advanced maternal age are named here as things that increase the risk of non-disjunction happening; they are not alternative mechanisms to it.",
       subject: "dev",
       primary: "DIS-HIS-T01",
@@ -40,12 +40,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: "chromosomal-aberration.general-causes",
       difficulty: "Easy",
       questionType: "Mechanism",
-      learningObjective: "Name viral infection (German measles) as the book's cause of chromosome fragmentation.",
+      learningObjective: "Name viral infection (German measles) as the cause of chromosome fragmentation.",
       explanations: {
-        A: "Advanced maternal age is the book's stated risk factor for non-disjunction, not fragmentation.",
-        B: "Autoimmune disease is associated with non-disjunction in the book's list, not fragmentation.",
-        C: "Correct. The book names viral infections, such as German measles, as the cause of chromosome fragmentation. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).",
-        D: "Colchicine is the book's example drug that inhibits mitotic spindle formation, not a cause of fragmentation.",
+        A: "Advanced maternal age is the stated risk factor for non-disjunction, not fragmentation.",
+        B: "Autoimmune disease is associated with non-disjunction in the list, not fragmentation.",
+        C: "Viral infections, such as German measles, are the cause of chromosome fragmentation. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).",
+        D: "Colchicine is the example drug that inhibits mitotic spindle formation, not a cause of fragmentation.",
       },
     },
     {
@@ -55,7 +55,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Mechanism",
       learningObjective: "Name primary non-disjunction, at the first meiotic division, as the event producing four abnormal daughter cells.",
       explanations: {
-        A: "Correct. The book defines primary non-disjunction as the failure of two homologous (bivalent) chromosomes to separate at the first meiotic division, resulting in four abnormal daughter cells. A common trap: treating aneuploidy as always meiotic.",
+        A: "Primary non-disjunction is the failure of two homologous (bivalent) chromosomes to separate at the first meiotic division, resulting in four abnormal daughter cells. A common trap: treating aneuploidy as always meiotic.",
         B: "Secondary non-disjunction is a failure of chromatids (not homologous chromosomes) to separate, at the second meiotic division or in mitosis, giving a different mix of normal and abnormal daughter cells.",
         C: "A mosaic results from secondary non-disjunction occurring in mitosis after many normal divisions, a different pattern from this stem's single failed separation.",
         D: "Simple loss is a chromosome failing to align or lagging in movement, not two homologous chromosomes failing to separate together.",
@@ -70,7 +70,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Prophase precedes spindle formation; colchicine's spindle-inhibiting action is what stops the cell from proceeding past the point the spindle is needed, later than prophase.",
         B: "Anaphase requires spindle microtubules to pull chromatids apart — colchicine prevents the cell from ever reaching this stage, since the spindle it needs never forms.",
-        C: "Correct. The book states colchicine inhibits formation of the mitotic spindle; without a spindle, chromatids cannot be pulled apart into anaphase, so the cell arrests at metaphase — the basis of using colchicine to capture metaphase spreads for karyotyping. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).",
+        C: "Colchicine inhibits formation of the mitotic spindle; without a spindle, chromatids cannot be pulled apart into anaphase, so the cell arrests at metaphase — the basis of using colchicine to capture metaphase spreads for karyotyping. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).",
         D: "Telophase is well past the point a spindle-inhibited cell can reach, since it never completes chromatid separation.",
       },
     },
@@ -84,7 +84,7 @@ export const LEAF: McqLeafSeed = {
         A: "Primary non-disjunction is two homologous chromosomes failing to separate at the first meiotic division, not a single chromosome failing to align.",
         B: "Secondary non-disjunction is two chromatids failing to separate at the centromere, not a single chromosome's alignment failure.",
         C: "A mosaic results from secondary non-disjunction in mitosis after many normal divisions, a different pattern from a single alignment failure.",
-        D: "Correct. The book states simple loss occurs due to failure of a chromosome to align during metaphase, or its lagging to move in anaphase. A common trap: treating aneuploidy as always meiotic.",
+        D: "Simple loss occurs due to failure of a chromosome to align during metaphase, or its lagging to move in anaphase. A common trap: treating aneuploidy as always meiotic.",
       },
     },
     {
@@ -92,12 +92,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: "chromosomal-aberration.general-causes",
       difficulty: "Easy",
       questionType: "Mechanism",
-      learningObjective: "Name colchicine as the drug the book states inhibits mitotic-spindle formation.",
+      learningObjective: "Name colchicine as the drug that inhibits mitotic-spindle formation.",
       explanations: {
-        A: "Advanced maternal age is the book's stated risk factor for non-disjunction, not a drug inhibiting the spindle.",
-        B: "Autoimmune disease is a general association with non-disjunction in the book's list, not a spindle-inhibiting drug.",
-        C: "German measles causes chromosome fragmentation, per the book, not spindle inhibition.",
-        D: "Correct. The book names colchicine, a cytotoxic drug, as inhibiting the formation of the mitotic spindle. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).",
+        A: "Advanced maternal age is the stated risk factor for non-disjunction, not a drug inhibiting the spindle.",
+        B: "Autoimmune disease is a general association with non-disjunction in the list, not a spindle-inhibiting drug.",
+        C: "German measles causes chromosome fragmentation, not spindle inhibition.",
+        D: "Colchicine, a cytotoxic drug, is inhibiting the formation of the mitotic spindle. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).",
       },
     },
     {
@@ -108,7 +108,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name secondary non-disjunction as the failure of chromatids to separate at the second meiotic division or in mitosis.",
       explanations: {
         A: "Primary non-disjunction is a failure of homologous chromosomes at the first meiotic division, not chromatids at the second division or in mitosis.",
-        B: "Correct. The book defines secondary non-disjunction as the failure of two chromatids to separate at the centromere, either during the second meiotic division or during mitosis. A common trap: treating aneuploidy as always meiotic.",
+        B: "Secondary non-disjunction is the failure of two chromatids to separate at the centromere, either during the second meiotic division or during mitosis. A common trap: treating aneuploidy as always meiotic.",
         C: "A mosaic is the pattern that results from secondary non-disjunction happening in mitosis after many normal divisions, not the non-disjunction event itself.",
         D: "Simple loss is a chromosome failing to align or lagging in movement, a different mechanism from chromatids failing to separate.",
       },
@@ -121,8 +121,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name a mosaic as the pattern from secondary non-disjunction occurring in mitosis after many normal divisions.",
       explanations: {
         A: "Primary non-disjunction happens at the first meiotic division, not repeatedly during mitosis after normal divisions.",
-        B: "Secondary non-disjunction is the underlying event; the stem asks for what results when it happens in mitosis after many normal divisions, which the book names specifically as a mosaic.",
-        C: "Correct. The book states that secondary non-disjunction occurring in mitosis after many normal divisions produces a mosaic, whose body cells carry more than one karyotype. A common trap: treating aneuploidy as always meiotic.",
+        B: "Secondary non-disjunction is the underlying event; the stem asks for what results when it happens in mitosis after many normal divisions, which specifically is a mosaic.",
+        C: "Secondary non-disjunction occurring in mitosis after many normal divisions produces a mosaic, whose body cells carry more than one karyotype. A common trap: treating aneuploidy as always meiotic.",
         D: "Simple loss is a chromosome failing to align or lagging, a different mechanism from the repeated-division pattern this stem describes.",
       },
     },
@@ -134,7 +134,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name secondary non-disjunction in meiosis as the event producing two normal and two abnormal daughter cells.",
       explanations: {
         A: "Primary non-disjunction produces four abnormal daughter cells, not a 2-normal/2-abnormal split.",
-        B: "Correct. The book states secondary non-disjunction (chromatids failing to separate at the centromere) in meiosis produces two normal and two abnormal daughter cells — in mitosis, by contrast, both resulting cells are abnormal. A common trap: treating aneuploidy as always meiotic.",
+        B: "Secondary non-disjunction (chromatids failing to separate at the centromere) in meiosis produces two normal and two abnormal daughter cells — in mitosis, by contrast, both resulting cells are abnormal. A common trap: treating aneuploidy as always meiotic.",
         C: "A mosaic is the pattern from repeated mitotic secondary non-disjunction, not the immediate 2-normal/2-abnormal meiotic outcome this stem describes.",
         D: "Simple loss is a chromosome failing to align or lagging, a different mechanism from a chromatid-separation failure producing this specific daughter-cell split.",
       },
