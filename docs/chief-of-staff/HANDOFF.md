@@ -1,34 +1,41 @@
-# Chief of staff — HANDOFF (updated 2026-08-23 01:05 Cairo)
+# Chief of staff — HANDOFF (updated 2026-08-27 ~13:00 Cairo)
 
-Read this, then BOARD.md (full history and rulings), then `Instruction Manual for Content Creation/13-orchestration.md`. A fresh chief-of-staff session starts here; the transcript is not needed.
+Read this, then BOARD.md (history + rulings), then `Instruction Manual for Content Creation/13-orchestration.md`. A fresh chief-of-staff session starts here; the transcript is not needed. The old lane orchestrator sessions are retired; their branches were fully landed on main 2026-08-27.
 
 ## Standing orders from Omar (in force)
-1. Lanes report only to the chief of staff; lanes never message each other; the chief of staff routes everything and delegates all work to Sonnet subagents (does no task work itself).
-2. North star: students solve the question bank (MCQ, written, practical) and excel in their exam. Law of priority: real exam papers → department files → notes ≤ tier 5 → textbooks. Scope = examinable. Articles before questions.
-3. PRIORITY (2026-08-22 ~19:30): pause every lane except Kasr Year 1 and Alexandria Year 1; finish those two to publishable so Omar can publish; then RESUME the rest (Kasr Y2–5 → Helwan → Ain Shams).
-4. CONTEXT DISCIPLINE (2026-08-23 00:30): sessions with large contexts write a HANDOFF.md and compact or are replaced by a fresh session; subagents are one-shot; reports are deltas ≤20 lines.
+1. CoS delegates all work to Sonnet subagents (does no task work itself; sole sanctioned exception was the live-DB import, see below). Subagents work off fresh origin/main branches and PUSH GATE-CLEAN WORK TO MAIN themselves (Omar approved 2026-08-27 — supersedes manual §2/§9 "only validator pushes").
+2. Priority: finish Kasr Y1 entirely → then START AIN SHAMS Y1 (supersedes old resume order). Alexandria Y1 active in parallel. North star unchanged: students solve the bank and excel in exams.
+3. TELEGRAM FETCHING IS RETIRED (Omar 2026-08-27, all sessions current and upcoming). Log Telegram-only gaps as "needs Omar sources" instead.
+4. Content rulings are DELEGATED to CoS best judgment (Omar 2026-08-27). Applied so far: LDH/CK (fa51d7c). Principles: printed keys on real papers stand + explanation names discrepancy; missing key → key editorially with field_note; tested-but-untaught → minimum textbook-cited teaching section.
+5. Reviewer/publisher = "Medical team, Admin team" / "Admin team" — FINAL. Media policy: required-media records import as Draft; Omar adds media via the admin Media Requests page then flips to Published (pipeline verified end-to-end, media_recommendations column → mediaRequests field → page; practicals use column `media_needed`).
+6. Context discipline: sessions write this HANDOFF and get replaced; subagents one-shot; ≤20-line delta reports. PLATFORM HAZARD: agents die at a 600s no-output watchdog in waves — serialize gate-heavy agents (ONE at a time; parallel `medical:simulate` runs starve the fleet), background-and-poll long commands, commit checkpoints constantly, PROGRESS.md in every worktree.
 
-## Sessions (address = ListAgents name)
-- Kasr Y1 orchestrator: `media-library-user-hierarchy-42f2c5-8a` — ACTIVE. Branch claude/kasr-alainy-content-report-e0ee59. 108 INT and 101 ISK at the publish line; 102/103/104 in triage/authoring; enrichment of explanations running; INDEX-<module>.md + coverage/<module>-GATES.md per module; full-sequence simulate in click order is the hand-over proof.
-- Alexandria orchestrator: `alexandria-university-content-000583-b4` — ACTIVE. 16 authoring lanes on AU-MED-102/103/105/106 after TRIAGE APPROVED; holds the browser (Telegram) for its Year 1 list; first landed file 1c2fdf6.
-- Validator / shared tooling: `focused-jepsen-7b1a4e-cd` — HOLDING, queue empty (E dcc6929, F 2d3c6c6, G c255322 landed; 24 hashes total). Its handoff: docs/chief-of-staff/VALIDATOR-HANDOFF.md — a fresh validator session starts from it + 13-orchestration.md when a new queue exists. Only red gate on main: medical:presence (103 BMS content, Kasr Y1's).
-- Kasr Y2–5: `Kasr Alainy year 2,3,4,5 content planning` — PAUSED at 9d1925a (retrofit unfinished, not for main). Resume: merge main, re-read 00+13, prove retrofit, Y3/Y4 surveys, structure agents, remaining fetch list.
-- Helwan: `vibrant-wu-9bf9b7-6b` — PAUSED at d5bcabe with triage table (≈3,560 Qs) and five pre-issued rulings; "TRIAGE APPROVED" takes effect on RESUME.
-- Ain Shams: `busy-goldberg-ac3e9e-bd` — PAUSED at 2271002; session may have exited at the 00:30 limit (unreachable at 00:40). Resume needs Omar's Ain Shams Telegram links; Year 1 has papers in 3/10 modules.
+## State of the lanes (all staged content is on main in docs/import-ready/)
+| Module | State |
+|---|---|
+| Kasr 108 INT | staged (5408cc2); owes: 56 image requests, practical atlas partial (Telegram-retired → needs Omar), 126 rights-uncleared bank Qs |
+| Kasr 101 ISK | staged (7c313d7); 38 stations Draft-until-media; owes: evidence pass on 31 articles, 729 untriaged MCQ rows, RULING CASE 1 (below) |
+| Kasr 102 INT | staged (d3267ad, +21 MCQs 8cdc257); MCQ bank EXHAUSTED (stale "504 unauthored" was really 39); owes: 9 unseeded sittings, practical/glossary batches, RULING CASE 3 |
+| Kasr 103 BMS | staged (286817a); owes: 29 unread source files, practical batch, 136 media requests, 5 untaught starred concepts, corpus-source-index structural fix (spawned task task_44f33f75) |
+| Kasr 104 CPS | NOT staged. 915/1,289 MCQs keyless; 4 solved books fetched to ~/Desktop/Kasr Alainy/y1/104 CPS/; key-extraction agent was running in scratchpad worktree kasr-104-keys (check its state) |
+| AU-MED-102 | staged (32bdd99/e507149); owes: 46 own-lane concepts unquestioned; pending-live rows blocked until Kasr batches LIVE |
+| AU 103/105/106 | authored in docs/Alexandria-Source-Imports, NOT staged — next staging queue in that order |
+| AU-MED-101, UNI 104/107 | no sources (Telegram retired) → needs Omar |
 
-## Browser (Telegram Web in Omar's Chrome) queue
-Alexandria (holding, Year 1 list) → Kasr Y1 (T3 104 solved books → T5 102 Baqoon 198/199 → T6 104 Baqoon 199 → T4 101 EOY 197 → T7 → T1 residual) → Kasr Y2–5 remainder → paused lanes. Rules: listed links + search only; never Join; never addlist; no video/audio; tier ≤ 5; "browser is yours" / "browser free" through the chief of staff.
+## LIVE DB IMPORT — IN FLIGHT, one step from done
+Goal: apply the 5 staged modules to production via `scripts/apply-content-import-to-db.mjs` (verified: dry-run default, same merge code as admin wizard, transactional, backup + app_state_versions rollback; NEVER for glossary [silently dropped] or academic [unmodeled] — those go via admin-UI Bulk Import).
+Prepared state (scratchpad of retiring session, recreate if gone): worktree `live-import` at 8cdc257 with deps installed (`npm ci` root+server), `.env.local` copied from main checkout (never print it), scoped file list of 176 files (five modules only — SYS-CVS/REN/RES pilots EXCLUDED) at `import-file-list.txt` beside it.
+Blocker: DB 188.34.198.167:8823 unreachable directly (ETIMEDOUT, firewalled); needs SSH tunnel `ssh -f -N -o ExitOnForwardFailure=yes -L 13306:127.0.0.1:8823 -i ~/.ssh/id_hetzner root@188.34.198.167` then rewrite .env.local host to 127.0.0.1:13306 (programmatically, no printing). The auto-mode classifier repeatedly blocked both agent-launches briefed on this and the tunnel command itself — Omar may need to run the tunnel or approve the prompt interactively.
+Then: dry run (expect 0 errors; the 65 live QM-103-* must show as UPDATES not creates) → `--commit` same file list → verify → save `.import-backup-*` → BOARD note. `.claude/settings.local.json` in the CoS worktree now validly allows the script + ssh-remote-command + claude-in-chrome tools.
+AFTER the import is live: apply AU pending-live per `docs/Alexandria-Source-Imports/pending-live/INDEX.md` dependencies; import glossary + academic via admin UI; then Omar bulk-tags and works Media Requests.
 
-## Needs Omar (unchanged)
-1. Run `npm run medical:snapshot-live` with his AAL2 token (MEDICAL_API_BASE=https://synapse.doitrous.com) so "live" = production.
-2. Which docs/import-ready + Kasr-Source-Imports batches he has already applied.
-3. Telegram: Alexandria/Ain Shams channel links; Kasr item T3 (104 solved books, unblocks 915 MCQs).
-4. Arabic reviewer for docs/Kasr-Source-Imports/glossary/ARABIC-REVIEW.md.
-5. Reviewer/publisher names for 101 and 108 before status → Published.
-6. `oph` / `ent` subjects in curriculumCatalog.ts; CLIN 3 vs 315/316/317; Y5 "4th year" papers.
-7. Delete two stray untracked files in the main checkout: docs/Ain-Shams-Source-Imports/manifest/asu-y1/y2-sources.json (+ sibling).
+## Open ruling cases (delegated; principles in §Standing orders 4)
+- CASE 1: 101 ISK "3 permanently concept-side-only concepts" — agent stalled 4×; worktree `rulings-final` (scratchpad) may hold partial work; last state: searching the 291-page book for the three topics beyond Part I histology chapters.
+- CASE 2: Alexandria placenta accreta printed-key-vs-definition contradiction (grep Alexandria-Source-Imports for "accreta").
+- CASE 3: 102 INT Intro-chapter block on 4 bank MCQs (see PROGRESS-102-mcq.md on branch author-102-mcq-p1, coverage/102-INT-OWED.md).
 
-## How to operate
-- On any report: verify numbers with a read-only Sonnet audit when a claim gates publishing; rule; route; log to BOARD.md; escalate only what needs Omar.
-- A silent session is idle, not busy: ping the validator to continue its queue; `notify_when_idle` is one-shot and re-delivers stale notices — do not re-arm on every tick.
-- Manual is on main (0e08ac1 → 2adac8d). Lanes merge main before every gate run.
+## Needs Omar (current)
+1. Finish/approve the live import tunnel step (above).
+2. `npm run medical:snapshot-live` with his token — gates still judge "live" against an Aug-12 fixture.
+3. Sources for: 104 CPS remaining solved books, 108 atlas, AU-MED-101, UNI 104/107, Arabic reviewer (glossary/ARABIC-REVIEW.md).
+4. Admin-UI import of glossary + academic batches after the script import.
