@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 814,
+ "withAnswer": 821,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -6420,8 +6420,8 @@
     "D": "Intercostals nerves (anterior Cutaneous)",
     "E": "Pericardiosternal ligament"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -6436,7 +6436,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The anterior mediastinum's genuine contents are the thymus (or its fatty remnant in adults), the terminal parts of the internal thoracic vessels, sternopericardial ligaments, lymph nodes, loose areolar tissue, and slips of the sternocostalis (transversus thoracis) muscle related to its posterior wall -- the anterior cutaneous branches of the intercostal nerves, by contrast, are chest-wall and skin structures that pierce through near the sternum but are not themselves contents residing within the anterior mediastinal compartment, making this the 'unacceptable' (incorrect) inclusion. The exam takeaway is to distinguish true mediastinal contents (structures that lie within the compartment) from structures that merely pass near or through its boundary on their way to another destination, like the skin.",
+    "distractorNotes": {
+     "A": "The thymus gland (or its remnant) is the classic, defining content of the anterior mediastinum.",
+     "B": "The terminal portions of the internal thoracic (internal mammary) vessels are genuine anterior mediastinal contents.",
+     "C": "Slips of the sternocostalis (transversus thoracis) muscle relate to the posterior aspect of the anterior mediastinum's sternal wall and are genuinely included as content/boundary structures.",
+     "E": "The sternopericardial ligaments, anchoring the fibrous pericardium to the posterior surface of the sternum, are a classic named content of the anterior mediastinum."
+    }
+   }
   },
   {
    "key": "apoptosis-is-characterized-by-the-following-d02e77f3",
@@ -7624,7 +7634,9 @@
    "optionsBefore": [
     "B",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem and options are severely corrupted, with entire other questions' full text (including a nearly complete 'regarding the bronchi' question) bleeding wholesale into single option slots. This is unrecoverable as a single coherent question."
   },
   {
    "key": "billroth-cords-are-part-of-bca8155d",
@@ -14186,7 +14198,9 @@
    "optionsBefore": [
     "A",
     "B"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem itself is unreadable garbage text, and the options merge multiple unrelated structures and even a second full question stem ('one of the followings is a content of middle mediastinum') into single option slots. No coherent question survives."
   },
   {
    "key": "euploidy-include-all-the-following-except-7a26317a",
@@ -15297,7 +15311,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a run of several true thoracic-duct facts (crammed together without option letters) followed by a mismatched, unrelated option set (a lumbar vertebral level and a bare 'Right phrenic nerve' fragment) that does not correspond to any of the facts stated. No coherent question-and-answer pairing survives."
   },
   {
    "key": "hypertension-develops-when-the-77d3bbd0",
@@ -17533,7 +17549,9 @@
     "A",
     "C",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of a phrenic-nerve-location question with an unrelated laryngeal-nerve question, and option B has absorbed three of what should have been separate lettered choices (anterior, middle, and posterior mediastinum) into one unusable blob, leaving no clean letter for the genuinely correct answer (middle mediastinum)."
   },
   {
    "key": "in-which-a-chromatid-connected-at-centromere-that-divide-d-c-0ccdeacd",
@@ -19342,7 +19360,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The embedded, unlettered claim and two of the three lettered options (incomplete tracheal cartilage rings; bifurcation at the sternal angle level) are all independently true statements about the trachea, leaving no single option that stands out as uniquely 'the' correct answer, while only option D (lies in the posterior mediastinum) is confidently false. With multiple true statements present and an ambiguous single-answer framing, no letter can be assigned with confidence."
   },
   {
    "key": "it-is-crossed-by-the-arch-of-the-aorta-s-concerning-the-oeso-2b4dc92f",
@@ -19398,7 +19418,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Lymphatics of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of a thoracic-duct-position fact with a separate 'regarding the bronchi, select the incorrect statement' question, and the surviving lettered options answer the bronchi question rather than the thoracic-duct claim stated first -- with all four bronchi options being individually true statements (bronchial vessels behind the bronchi; foreign bodies favouring the right bronchus; tracheal bifurcation level; right upper lobe bronchus preceding the hilum), leaving no false statement to select among what survived."
   },
   {
    "key": "it-passes-through-diaphragm-to-the-abdomen-at-the-level-of-t-36bf2357",
@@ -19423,7 +19445,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem names an unusual, non-standard diaphragmatic level (T7 -- the recognised diaphragmatic openings are at T8 for the IVC, T10 for the oesophagus, and T12 for the aorta), and the two surviving options are unrelated bare fragments ('Phrenic', and an unrelated middle-mediastinum claim) that do not resolve which structure or level is actually being asked about."
   },
   {
    "key": "it-passes-through-the-diaphragm-level-ts-0-name-the-structur-3883d600",
@@ -22341,7 +22365,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Neither surviving lettered option (thoracic duct, oesophagus) is actually a content of the middle mediastinum -- both are posterior mediastinum structures. The genuine middle-mediastinum content (e.g. the pericardium, heart, phrenic nerves, or main bronchi) was most likely in a missing option that did not survive extraction."
   },
   {
    "key": "one-of-the-following-structures-5-pt-related-5dd94a50",
@@ -25242,7 +25268,9 @@
     "A",
     "B",
     "C"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "All four statements are individually plausible and broadly consistent with standard aortic arch anatomy (superior mediastinum location; crossed by the left vagus nerve; the left brachiocephalic vein passing just above it; an approximate two-inch length) -- no statement stands out as clearly and confidently false among them without the source's specific intended figure or distinction."
   },
   {
    "key": "regarding-the-arch-of-the-aorta-which-is-incorrect-5880a035",
@@ -25341,8 +25369,8 @@
     "D": "It receives the esophageal and pericardial veins",
     "E": "Its arch crosses the right vagus nerve"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -25359,7 +25387,17 @@
    ],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The azygos vein arches over the root of the RIGHT lung, not the left, immediately before draining into the superior vena cava -- this right-sided arch is one of its most distinguishing and frequently tested features, contrasted with the hemiazygos vein, which is the corresponding left-sided structure that drains into the azygos system rather than arching independently over a lung root. The other listed statements about the azygos vein are all correct: it does function as an important collateral link between the SVC and IVC systems, it does ascend through the posterior mediastinum, and it does receive oesophageal and pericardial venous tributaries along its course. The exam takeaway is the classic left/right swap trap: azygos = right side (arches over right lung root); hemiazygos/accessory hemiazygos = left side (drain into the azygos system, do not arch independently).",
+    "distractorNotes": {
+     "A": "True: the azygos venous system provides a genuine collateral pathway linking the SVC and IVC systems, clinically important when either cava is obstructed.",
+     "B": "True: the azygos vein ascends through the posterior mediastinum along the right side of the vertebral bodies before arching forward at the T4 level.",
+     "D": "True: the azygos vein receives oesophageal, pericardial, mediastinal, and posterior intercostal venous tributaries along its course.",
+     "E": "True: as the azygos arch curves forward over the right lung root, it passes close to and crosses the right vagus nerve in that region."
+    }
+   }
   },
   {
    "key": "regarding-the-base-of-the-heart-following-statements-are-cor-6d7c3d62",
@@ -27160,7 +27198,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "None of the three surviving claims matches standard posterior-mediastinum anatomy: the vertebral range given (T2 to T10) does not match the standard T5-to-T12 boundary, and both the left principal bronchus and the beginning of the ascending aorta are conventionally middle-mediastinum contents rather than posterior-mediastinum ones. No confidently true statement survives among the options."
   },
   {
    "key": "regarding-the-ribs-one-of-the-following-statements-is-wrong-1d20d8ae",
@@ -27769,7 +27809,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem itself is garbled, options A and E are truncated mid-sentence, and the remaining options (B, C, D) each describe independently plausible, individually true statements about vagus nerve anatomy in the thorax -- no confidently identifiable false statement survives among what remains legible."
   },
   {
    "key": "regarding-the-vagus-nerves-mark-one-correct-statement-4f8ac496",
@@ -27924,8 +27966,8 @@
     "C": "Having both afferent & efferent lymphatic vessels. i",
     "D": "The site of production of T- cells"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_2b531af1f3f6eace5974",
@@ -27940,7 +27982,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Mediastinum",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The thymus is the primary lymphoid organ responsible for T-lymphocyte development: bone-marrow-derived precursor cells migrate to the thymus, where they undergo maturation, positive and negative selection against self-antigens, and ultimately emerge as mature, self-tolerant T-cells ready to populate the peripheral immune system. This function is what defines the thymus as a 'primary' (central) lymphoid organ, alongside the bone marrow, in contrast to 'secondary' (peripheral) lymphoid organs like lymph nodes and the spleen, where mature lymphocytes actually encounter antigen and mount immune responses. The exam takeaway is to fix 'thymus = T-cell education/maturation' as its single defining role, distinct from antibody production (plasma cells in secondary lymphoid organs) or red cell recycling (spleen, liver, bone marrow).",
+    "distractorNotes": {
+     "A": "Antibody production is carried out by plasma cells (differentiated B-lymphocytes) in secondary lymphoid organs such as lymph nodes and the spleen, not in the thymus.",
+     "B": "Red blood cell degradation and bilirubin recycling ('graveyard of red blood cells') is a hallmark function of the spleen, not the thymus.",
+     "C": "The thymus is unusual among lymphoid organs in having NO afferent lymphatic vessels at all (only efferent ones) -- it does not filter lymph the way a lymph node does, so this statement is false rather than true."
+    }
+   }
   },
   {
    "key": "regarding-transpulmonary-pressure-all-is-correct-except-eb323f99",
@@ -33912,8 +33963,8 @@
     "B": "Lymph node.",
     "D": "' Spleen."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_df6b7a7de75411dbb92b",
@@ -33933,7 +33984,15 @@
    "optionsBefore": [
     "A",
     "B"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Littoral cells are a specialised population of macrophage-like cells that line the walls of the splenic (venous) sinuses in the red pulp, forming a distinctive discontinuous, macrophage-rich endothelium uniquely associated with the spleen among lymphoid organs. This lining is precisely what allows the spleen to filter aged or damaged red blood cells out of the slow-moving sinusoidal blood and phagocytose them, the structural basis of the spleen's red-cell 'quality control' and recycling function. The histology takeaway is to treat 'littoral cell' as a spleen-specific vocabulary word, distinguishing splenic sinusoidal histology from the very different sinusoid linings found in lymph nodes or liver.",
+    "distractorNotes": {
+     "A": "The thymus has no venous sinuses lined by littoral cells; its stroma is instead organised into cortex and medulla around developing T-cells.",
+     "B": "Lymph nodes have their own sinus system (subcapsular and medullary sinuses) lined by a different type of sinus-lining (reticular) cell, not littoral cells, which are specific to the spleen."
+    }
+   }
   },
   {
    "key": "the-main-feature-of-basilar-artery-is-c2068f7e",
@@ -41016,8 +41075,8 @@
     "C": "Dorsal respiratory group of neurons",
     "D": "Ventral respiratory group of neurons"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -41032,7 +41091,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Lungs",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The dorsal respiratory group (DRG) of neurons, located in the medulla's nucleus tractus solitarius, is the intrinsic rhythm generator responsible for the basic automatic cycle of quiet breathing, spontaneously discharging in a repeating inspiratory pattern without needing an external trigger. Motor neurons driving the respiratory muscles and stretch receptors in the lung both fire only in response to input (the DRG's descending drive, or lung inflation, respectively) rather than generating activity on their own. The exam takeaway is that the DRG is the autonomous 'pacemaker' of quiet breathing, while the ventral respiratory group remains largely silent at rest and is recruited mainly for forced breathing (active expiration, exercise).",
+    "distractorNotes": {
+     "A": "Stretch receptors in the lung fire in response to lung inflation (a stimulus), not spontaneously on their own.",
+     "B": "Motor neurons to the respiratory muscles fire only when driven by descending input from the medullary respiratory centres; they do not generate spontaneous rhythmic activity themselves.",
+     "D": "The ventral respiratory group is largely inactive during quiet breathing and is recruited mainly during forced breathing, particularly active expiration."
+    }
+   }
   },
   {
    "key": "which-of-the-following-discharges-s-8-1-receptort-fa-ling-be-5358ae60",
@@ -41069,8 +41137,8 @@
     "C": "Dorsal respiratory group of neurons",
     "D": "Ventral respiratory group of neurons"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -41085,7 +41153,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Lungs",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "This is a duplicate of the sibling question; the dorsal respiratory group remains the correct answer as the medulla's intrinsic, spontaneously-discharging rhythm generator for quiet breathing. The DRG sets the basic inspiratory rhythm autonomously, with all other listed elements (stretch receptors, motor neurons) acting only in response to signals rather than generating rhythm themselves. The exam takeaway is unchanged: DRG = spontaneous pacemaker of quiet breathing; VRG = recruited only for forced breathing.",
+    "distractorNotes": {
+     "A": "Stretch receptors respond to lung inflation; they do not discharge spontaneously on their own.",
+     "B": "Motor neurons to respiratory muscles require descending drive from the medullary centres; they are not spontaneously active.",
+     "D": "The ventral respiratory group is essentially silent during quiet breathing, activated mainly for forced breathing."
+    }
+   }
   },
   {
    "key": "which-of-the-following-events-of-cardiac-myocyte-action-pote-3a3be2b8",
@@ -42659,7 +42736,9 @@
     "A",
     "B",
     "C"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "This question references 'this patient' as part of a clinical vignette, but the case description itself did not survive extraction -- without the missing scenario (presumably describing a specific respiratory pathology), it cannot be determined which physiological answer fits the unknown clinical picture."
   },
   {
    "key": "which-of-the-following-statements-is-incorrect-concerning-th-4c763ab1",
@@ -42782,8 +42861,8 @@
     "D": "They contain only somatic motor nerve fibers,",
     "E": "The right phrenic nervesupplies sensory fibers to the peritoneum covering"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "E",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -42798,7 +42877,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Lungs",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The phrenic nerve is a mixed nerve, and its sensory component famously extends beyond the diaphragm itself to the peritoneum covering the diaphragm's central part on its abdominal (inferior) surface -- this is the anatomical basis for the well-known clinical phenomenon of referred shoulder-tip pain when the diaphragm or adjacent peritoneum is irritated (e.g. by blood, bile, or gas after laparoscopic surgery), since the phrenic nerve's C3-C5 dermatomal representation is shared with the shoulder region. This sensory territory extending onto the peritoneal surface, rather than being purely a motor nerve to the diaphragm muscle, is precisely what makes this statement true and clinically important. The takeaway is to remember the phrenic nerve as a genuinely mixed nerve, carrying somatic motor fibres to the diaphragm plus sensory fibres from the diaphragm's central peritoneal and pleural coverings and the fibrous pericardium.",
+    "distractorNotes": {
+     "B": "The phrenic nerves pass ANTERIOR to the roots of the lungs, not posterior -- this anterior/posterior distinction (phrenic anterior, vagus posterior to the lung root) is one of the most frequently tested facts pairing these two nerves.",
+     "C": "The oesophageal plexus is formed by the vagus nerves (anterior and posterior vagal trunks), not the phrenic nerves.",
+     "D": "The phrenic nerve is a mixed nerve carrying both somatic motor fibres (to the diaphragm) and sensory fibres (from the diaphragm, mediastinal pleura, and pericardium), not purely somatic motor fibres."
+    }
+   }
   },
   {
    "key": "which-of-the-following-structures-lies-in-the-anterior-media-c8e9422d",
@@ -43541,7 +43629,9 @@
    "optionsBefore": [
     "B",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely intended answer (the oesophagus) is embedded unlettered in the stem, and the three lettered options that do survive (arch of aorta, inferior vena cava, superior vena cava) are each confidently ONE-SIDED structures -- features of only the left or only the right lung's mediastinal surface, never both -- so none of them can be the answer to a 'leaves an impression on both lungs' question, and there is no letter to assign the oesophagus to."
   },
   {
    "key": "which-one-of-the-following-would-increase-in-obstructive-but-e520e873",
@@ -46176,6 +46266,6 @@
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
  "withExternalSolvedBookRecoveredAnswer": 383,
- "withEditorialAnswer": 57,
- "editorialExcludedCount": 63
+ "withEditorialAnswer": 64,
+ "editorialExcludedCount": 76
 }
