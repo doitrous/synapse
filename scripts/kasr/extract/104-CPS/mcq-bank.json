@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 941,
+ "withAnswer": 955,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -1510,8 +1510,8 @@
     "C": "Rich in mucus glands",
     "D": "Formed of 4 zones"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_375227d5b7c819636151",
@@ -1532,7 +1532,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Spleen"
+   "leaf": "Spleen",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The red pulp of the spleen is defined by its network of venous sinusoids interspersed among the Billroth cords, together forming the specialised, slow-flow architecture that allows red blood cells to be closely screened for age or damage before returning to the circulation. This is distinct from the white pulp's central arteriole landmark and four-zone lymphoid architecture, and the spleen has no mucus glands at all, being a lymphoid/haematological organ rather than a secretory gland.",
+    "distractorNotes": {
+     "A": "A central arteriole is a landmark of the white pulp, not the red pulp.",
+     "C": "The spleen contains no mucus glands; this is not a splenic feature at all.",
+     "D": "The four-zone architecture (periarteriolar lymphatic sheath, germinal centre, follicular/mantle zone, marginal zone) describes the white pulp, not the red pulp."
+    }
+   }
   },
   {
    "key": "regarding-the-white-pulp-of-the-spleen-a-contains-a-central-e5269929",
@@ -1544,8 +1553,8 @@
     "D": "Formed of blood sinusoids & splenic cord | 3- The paracortex of the lymph node is characterized by:",
     "E": "Itis the thymus dependent zone"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_f0dc974eca83c51623bc",
@@ -1571,7 +1580,16 @@
    "optionsBefore": [
     "A",
     "B"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The spleen's white pulp is defined by containing a central arteriole positioned eccentrically to one side of the lymphoid tissue surrounding it, the single most reliable anatomical landmark used to identify white pulp on a histological section. This distinguishes white pulp from red pulp, which instead is characterised by blood sinusoids and splenic (Billroth) cords, is not lined by 'stave cells' (a term describing the specialised lining cells of splenic sinusoids in the red pulp, not white pulp), and is not rich in red blood cells, since it is lymphoid tissue rather than a blood-filtering compartment.",
+    "distractorNotes": {
+     "B": "Stave cells line the splenic sinusoids of the RED pulp, not the white pulp.",
+     "C": "An abundance of red blood cells is characteristic of the red pulp, not the lymphoid-tissue-dominated white pulp.",
+     "D": "Blood sinusoids and splenic cords are red pulp structures; describing white pulp as formed of these confuses the two splenic compartments. Only the periarteriolar lymphatic sheath (PALS) portion of white pulp, not the whole white pulp, is specifically the thymus-dependent zone, making a whole-white-pulp claim to that effect an overgeneralisation as well."
+    }
+   }
   },
   {
    "key": "renal-glomerular-capillaries-are-a-type-of-c122dd7c",
@@ -7627,7 +7645,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Spleen"
+   "leaf": "Spleen",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "This is a written-exam prompt asking the student to outline and describe the four zones of white pulp from the inside out, and the four 'options' are actually fragments of the correct model-answer text for each zone (PALS, germinal centre, follicular zone, marginal zone) rather than distractor choices to a single-best-answer question. Not a keyable multiple-choice item as extracted."
   },
   {
    "key": "baroreceptors-060d2015",
@@ -9536,8 +9556,8 @@
     "D": "They contain central arterioles at one side.",
     "E": "It has plasma cells and afferent lymphatic vessels. | ‏.ل‎ The cortex of each thymic lobule appears darker in staining than the | ., medulla. :"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b0c5c0d32e396511ae20",
@@ -9557,7 +9577,17 @@
    "optionsBefore": [
     "A",
     "D"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "This is a duplicate of the sibling Billroth cords question with additional unrelated content bled in at the end; the answer is unchanged. Billroth (splenic) cords, part of the spleen's red pulp, are richly infiltrated with blood and lymphoid cells -- red blood cells, macrophages, lymphocytes, and plasma cells -- reflecting their role in filtering circulating blood, and are found exclusively in the spleen, not lymph nodes.",
+    "distractorNotes": {
+     "A": "Billroth cords are a spleen structure, found in the red pulp, not in the stroma of lymph nodes.",
+     "C": "This does not describe Billroth cords; it is an unrelated, imprecise description not matching the standard definition of splenic cords.",
+     "D": "The central arteriole is a landmark of the spleen's white pulp, not a feature of the red pulp's Billroth cords.",
+     "E": "This trailing fragment (plasma cells and afferent lymphatic vessels; thymic cortex staining darker than medulla) is unrelated content bled in from other questions, not a genuine option for this question."
+    }
+   }
   },
   {
    "key": "choose-the-correct-statement-about-billroth-cords-aa93a7fb",
@@ -9568,8 +9598,8 @@
     "C": "Are the spaces in between secondary lymphatic follicles.",
     "D": "Contain central arterioles at one side."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_2b531af1f3f6eace5974",
@@ -9592,7 +9622,16 @@
     "A",
     "B",
     "C"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Billroth cords (splenic cords) are the cellular cords of the spleen's red pulp, richly infiltrated with blood cells -- red blood cells, macrophages, lymphocytes, and plasma cells -- reflecting their function as the site where the spleen filters and screens circulating blood, removing aged or damaged erythrocytes. This is an exclusively splenic structure, not found in lymph nodes at all, and is unrelated to the central arteriole (a white pulp landmark) or to the spaces between lymphoid follicles (an unrelated description).",
+    "distractorNotes": {
+     "A": "Billroth cords are found in the red pulp of the SPLEEN, not in the stroma of lymph nodes.",
+     "C": "This does not describe Billroth cords; it is an unrelated, imprecise description not matching the standard definition of splenic cords.",
+     "D": "The central arteriole is a landmark of the spleen's WHITE pulp, not a feature of the red pulp's Billroth cords."
+    }
+   }
   },
   {
    "key": "choose-the-correct-statement-about-lymph-node-functions-79a10886",
@@ -9754,8 +9793,8 @@
     "D": "The paracortex is the deep part of cortex and contains T-lymphocytes",
     "A": "T-suppressor and an antibody"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b0c5c0d32e396511ae20",
@@ -9770,7 +9809,15 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Lymph node"
+   "leaf": "Lymph node",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The paracortex is the deep (inner) part of the lymph node's cortex, situated between the outer cortex (containing B-lymphocyte follicles) and the medulla, and it is specifically rich in T-lymphocytes, earning it the alternative name 'thymus-dependent zone'. This T-cell-rich paracortex is also where specialised high endothelial post-capillary venules are located, allowing circulating lymphocytes to enter the lymph node directly from the bloodstream. The exam takeaway is to fix the paracortex specifically as the T-cell zone, distinct from the outer cortex's B-cell follicles and the medulla's plasma-cell-rich cords.",
+    "distractorNotes": {
+     "B": "Littoral cells are a spleen-specific term for the macrophage-like cells lining splenic sinusoids; lymph node sinuses are lined by a different type of sinus-lining reticuloendothelial cell.",
+     "C": "Efferent lymphatic vessels drain a lymph node through its CONCAVE surface (the hilum), not the convex surface -- afferent vessels instead pierce the capsule at multiple points on the convex surface."
+    }
+   }
   },
   {
    "key": "choose-the-correct-statement-about-the-palatine-tonsil-7961b87c",
@@ -17578,8 +17625,8 @@
     "C": "Duplication of centrioles",
     "D": "Formation of tubulin"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -17594,7 +17641,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cytogenetics",
-   "leaf": "The Cell Cycle"
+   "leaf": "The Cell Cycle",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Centriole duplication occurs specifically during the S (synthesis) phase of interphase, running in parallel with DNA replication, so that by the time the cell cycle proceeds through G2 and into mitosis, each future daughter cell will inherit a complete, duplicated centrosome ready to organise its own spindle apparatus. This precise timing (centrioles and DNA both duplicating during S phase) is a specific, frequently tested cell-cycle fact, distinguishing S phase's defining events from the general cell growth of G1/G2 (option A) or the tubulin/spindle assembly activity more associated with the G2-to-M transition (option D).",
+    "distractorNotes": {
+     "A": "General cell growth and ATP/energy accumulation are characteristic of the G1 and G2 growth phases surrounding S phase, not S phase's own defining event.",
+     "B": "Describing the nucleus as containing '46 single chromosomes (chromatids)' describes the pre-replication (G1) state, before S phase has duplicated the DNA into sister chromatid pairs.",
+     "D": "Tubulin synthesis in preparation for spindle formation is more specifically associated with the G2 phase, immediately preceding mitosis, rather than S phase itself."
+    }
+   }
   },
   {
    "key": "in-the-sinoatrial-sa-node-phase-4-depolarization-pacemaker-p-51bb7e46",
@@ -17664,8 +17720,8 @@
     "C": "Is lymphatic nodule with central arteriole",
     "D": "Is formed of only 2 zones"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -17680,7 +17736,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Spleen"
+   "leaf": "Spleen",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The spleen's white pulp is fundamentally a lymphoid nodule (follicle) organised concentrically around a central arteriole, forming the spleen's immune-surveillance compartment analogous to a lymph node's cortex, in contrast to the red pulp's blood-filtering role. This central arteriole, an eccentrically-positioned branch of the splenic artery, is the defining anatomical landmark used to identify white pulp under the microscope, distinguishing it from the cords-and-sinusoids architecture and abundant red blood cells that instead characterise the red pulp, and from the four (not two) zones that make up the complete white pulp structure (PALS, germinal centre, follicular/mantle zone, and marginal zone).",
+    "distractorNotes": {
+     "A": "Cords (Billroth cords) and sinusoids are the defining architecture of the red pulp, not the white pulp.",
+     "B": "An abundance of red blood cells is characteristic of the red pulp, which filters blood, not the lymphoid-tissue-dominated white pulp.",
+     "D": "White pulp is conventionally described as having four zones (periarteriolar lymphatic sheath, germinal centre, follicular/mantle zone, and marginal zone), not only two."
+    }
+   }
   },
   {
    "key": "in-the-superior-mediastinum-select-the-true-statement-2a-the-6e6fa7ec",
@@ -18585,7 +18650,9 @@
    "optionsBefore": [
     "C",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The correct answer (subcapsular sinuses, lined by flattened simple-squamous-type reticuloendothelial cells) is embedded unlettered in the stem, and no 'A' option survives to assign it to; the three lettered options that do survive (medullary cords, primary lymphatic follicles, post-capillary venules) are all confidently wrong, since medullary cords and follicles are solid lymphoid tissue rather than epithelium-lined channels, and post-capillary venules are lined by specialised cuboidal (high endothelial), not squamous, cells."
   },
   {
    "key": "inspiration-50a94c7d",
@@ -24788,8 +24855,8 @@
     "C": "Medullary lymphatic cords",
     "D": "Central arteriole"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -24804,7 +24871,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Spleen"
+   "leaf": "Spleen",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The red pulp of the spleen is composed of Billroth (splenic) cords -- cellular cords rich in macrophages and blood cells -- interspersed with venous sinusoids, together forming the filtering architecture where aged or damaged red blood cells are screened and removed from circulation. This is distinct from Malpighian corpuscles (an alternative name for the WHITE pulp's lymphoid nodules, not a red pulp feature), medullary lymphatic cords (a lymph node structure, unrelated to the spleen), and the central arteriole (a landmark specifically of the white pulp, not the red pulp).",
+    "distractorNotes": {
+     "B": "Malpighian corpuscles is an alternative historical name for the spleen's WHITE pulp lymphoid nodules, not a red pulp feature.",
+     "C": "Medullary lymphatic cords are a lymph node structure, entirely unrelated to the spleen's red pulp.",
+     "D": "The central arteriole is a defining landmark of the white pulp, not the red pulp."
+    }
+   }
   },
   {
    "key": "regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da",
@@ -25451,8 +25527,8 @@
     "C": "Differentiated T- lymphocytes reach through post capillary venules.",
     "D": "Paracortex contains only B- lymphocytes."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_2b531af1f3f6eace5974",
@@ -25473,7 +25549,16 @@
     "A",
     "B",
     "D"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Circulating lymphocytes, having differentiated and matured in the primary lymphoid organs (thymus for T-cells, bone marrow for B-cells), re-enter and populate lymph nodes specifically through specialised high endothelial post-capillary venules located in the paracortex, a distinctive mechanism of lymphocyte recirculation that allows continuous immune surveillance. This is a specific, well-established and frequently tested histological/immunological fact, distinguishing lymph node lymphocyte entry from the simpler mechanism of antigen and fluid entry via afferent lymphatic vessels.",
+    "distractorNotes": {
+     "A": "A lymph node is not covered by any epithelium at all; it is enclosed by a dense connective tissue capsule, being an internal lymphoid organ, not an epithelial-surfaced structure.",
+     "B": "Storage of red blood cells is a function of the spleen's red pulp, not the lymph node.",
+     "D": "The paracortex is rich in T-lymphocytes (it is the thymus-dependent zone), not exclusively B-lymphocytes, which instead populate the outer cortex's follicles."
+    }
+   }
   },
   {
    "key": "regarding-mitosis-2b0b7327",
@@ -26743,8 +26828,8 @@
     "C": "No Plasma cells",
     "D": "Has Large activated lymphocytes"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -26759,7 +26844,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Lymph node"
+   "leaf": "Lymph node",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The germinal centre of a secondary lymphoid follicle is characterised by large, actively proliferating activated B-lymphocytes (centroblasts and centrocytes) undergoing rapid division and affinity maturation, giving this zone a paler-staining appearance compared with the surrounding, smaller, resting lymphocytes of the mantle zone. This is distinct from a lymph sinus (an entirely separate channel structure, not where germinal centres are located), and germinal centres do contain some plasma cells (as B cells differentiate) and prominent tingible-body macrophages, not an absence of either. The exam takeaway is to associate germinal centres specifically with large, activated (proliferating) B-lymphocytes as their defining cellular feature.",
+    "distractorNotes": {
+     "A": "Germinal centres are located within lymphoid follicles in the cortex, not within the lymph node's sinus system, which is a separate set of channels.",
+     "B": "Germinal centres are predominantly B-lymphocyte zones (with some T-helper cell involvement), not exclusively T-lymphocytes.",
+     "C": "Germinal centres do contain plasma cells, as activated B-cells differentiate during the germinal centre reaction."
+    }
+   }
   },
   {
    "key": "regarding-the-heart-choose-the-correct-answer-it-lies-in-the-c3cd415b",
@@ -27533,8 +27627,8 @@
     "C": "Cells have eccentric kidney shaped nucleus",
     "D": "Plasma cells are one of its components"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_2b531af1f3f6eace5974",
@@ -27549,7 +27643,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Macrophage system"
+   "leaf": "Macrophage system",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Cells of the mononuclear phagocytic system (macrophages and their precursor monocytes) can be specifically identified and demonstrated histologically using supravital staining techniques -- dyes such as trypan blue or India ink that these cells actively phagocytose and retain within their cytoplasm -- a classic laboratory method historically used to study and visualise this cell system before more modern immunohistochemical markers became available. This distinguishes the mononuclear phagocytic system from other cell lineages: it derives from myeloid (monocyte) precursors rather than B-lymphocytes, and neither plasma cells (antibody-producing B-cell derivatives) nor a specifically 'eccentric kidney-shaped nucleus' (more classically a plasma cell feature) are accurate defining descriptions of this system.",
+    "distractorNotes": {
+     "A": "Mononuclear phagocytic system cells (monocytes/macrophages) differentiate from myeloid stem cell precursors, not from B-lymphocytes, which are a separate lymphoid lineage.",
+     "C": "An eccentric nucleus with a distinctive 'clock-face' chromatin pattern is more classically a defining feature of plasma cells, not macrophages, whose nucleus is more typically described as centrally placed and kidney/horseshoe-shaped.",
+     "D": "Plasma cells are terminally differentiated, antibody-producing B-lymphocytes, an entirely separate lineage from the mononuclear phagocytic system, not a component of it."
+    }
+   }
   },
   {
    "key": "regarding-the-movements-of-respiration-all-the-followings-st-101c31bf",
@@ -28901,7 +29004,9 @@
    "optionsBefore": [
     "B",
     "C"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely correct answer (inflammation of the body part drained by these nodes, the classic cause of reactive regional lymphadenopathy) is embedded unlettered in the stem, and the two lettered options that do survive describe mechanisms less specific to REGIONAL (as opposed to generalised or distant) lymph node involvement -- cancer spread via the bloodstream more typically produces distant haematogenous metastases rather than regional lymphadenopathy (which is more classically lymphatic-spread-driven), and acute leukaemia more typically causes generalised rather than regional lymphadenopathy."
   },
   {
    "key": "regions-at-chromosomal-ends-protecting-from-destruction-are-b239ba2e",
@@ -35593,7 +35698,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Lymph node"
+   "leaf": "Lymph node",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "All three surviving options describe features that belong to OTHER structures rather than to the lymph node's own paracortex: lying directly under the capsule describes the outer cortex (not the paracortex, which is deeper); being rich in B-lymphocytes and plasma cells describes the outer cortex's follicles and the medullary cords, not the T-cell-rich paracortex; and surrounding a 'central arteriole' is a splenic white pulp landmark, a structure lymph nodes do not have at all. The genuinely correct description (rich in T-lymphocytes, containing high endothelial post-capillary venules) was most likely in a missing option C."
   },
   {
    "key": "the-parasympathetic-root-of-the-superficial-cardiac-plexus-o-d9fa56cb",
@@ -36044,8 +36151,8 @@
     "C": "Lymph node",
     "D": "Tonsil"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -36062,7 +36169,16 @@
    ],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Lymph node"
+   "leaf": "Lymph node",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Bone marrow is one of the two primary (central) lymphoid organs -- alongside the thymus -- where lymphocytes originate and undergo their initial maturation (B-lymphocytes maturing fully within the bone marrow itself, T-lymphocyte precursors migrating to the thymus to mature) before ever encountering antigen. This is functionally and developmentally distinct from the secondary (peripheral) lymphoid organs -- the spleen, lymph nodes, and tonsils -- where already-mature lymphocytes go on to encounter antigen and mount immune responses. The exam takeaway is to fix 'bone marrow and thymus = primary lymphoid organs (lymphocyte production/maturation)' versus 'spleen, lymph nodes, tonsils = secondary lymphoid organs (antigen encounter)'.",
+    "distractorNotes": {
+     "B": "The spleen is a secondary (peripheral) lymphoid organ, where mature lymphocytes encounter blood-borne antigen, not a primary lymphoid organ.",
+     "C": "The lymph node is a secondary (peripheral) lymphoid organ, filtering lymph and presenting antigen to mature lymphocytes, not a primary lymphoid organ.",
+     "D": "The tonsil is a secondary (peripheral) lymphoid organ, part of the mucosa-associated lymphoid tissue, not a primary lymphoid organ."
+    }
+   }
   },
   {
    "key": "the-pulmonary-valve-sound-is-best-heard-at-07398a71",
@@ -36926,7 +37042,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Lymph node"
+   "leaf": "Lymph node",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem itself has absorbed a garbled fragment ('center SS Only T lymphocytes') that reads like leftover option text, and the two lettered options that do survive (no plasma cells; no macrophages) are both confidently false, since secondary follicle germinal centres do contain plasma cells (as B-cells differentiate) and prominent tingible-body macrophages. The genuinely correct description was most likely in a missing option."
   },
   {
    "key": "the-shortest-phase-in-cardiac-cycle-is-85caf56e",
@@ -37583,7 +37701,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Spleen"
+   "leaf": "Spleen",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The correct answer (the periarteriolar lymphatic sheath, PALS, the T-cell zone immediately surrounding the central arteriole) is missing from the surviving options -- both the follicular zone and marginal zone are the wrong, unrelated zones of white pulp, neither of which is the thymus-dependent (T-cell) zone."
   },
   {
    "key": "the-thymus-is-characterized-by-4c441550",
@@ -41144,8 +41264,8 @@
     "C": "Littoral cells",
     "D": "Merkel’s cells in the skin"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_2b531af1f3f6eace5974",
@@ -41160,7 +41280,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Lymphatic and Macrophage System",
-   "leaf": "Lymph node"
+   "leaf": "Lymph node",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Littoral cells, the specialised macrophage-derived cells lining the splenic (venous) sinuses in the red pulp, are genuine functional members of the mononuclear phagocytic system, actively filtering blood and phagocytosing aged or damaged red blood cells and other debris as it passes through the splenic sinusoids. This distinguishes them from reticular epithelial cells (structural, non-phagocytic support cells of the thymus), activated B-lymphocytes (antibody-producing cells of the adaptive immune lineage, not the phagocytic lineage), and Merkel's cells (specialised touch-sensing mechanoreceptor cells of the skin, functionally unrelated to phagocytosis).",
+    "distractorNotes": {
+     "A": "Reticular epithelial cells provide the structural framework of the thymus (and form the blood-thymic barrier) but are not phagocytic cells themselves.",
+     "B": "Activated B-lymphocytes function in antibody production and antigen presentation, part of the adaptive immune lymphocyte lineage, not the phagocytic system.",
+     "D": "Merkel's cells are specialised mechanoreceptor cells in the skin responsible for touch sensation, entirely unrelated to phagocytosis."
+    }
+   }
   },
   {
    "key": "which-combination-of-the-following-local-factors-leads-to-ar-c8779f94",
@@ -43571,8 +43700,8 @@
     "C": "Number of Barr bodies equals to the number of X-chromosomes in nucleus",
     "D": "Patient with Turner syndrome has one Barr body in her cells"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_79af3b3857ba47239529",
@@ -43590,7 +43719,16 @@
    ],
    "subject": "Histology",
    "chapter": "Cytogenetics",
-   "leaf": "Human Chromosome"
+   "leaf": "Human Chromosome",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "In neutrophils of female individuals, a small drumstick-shaped nuclear appendage -- a classic, distinct manifestation of the Barr body -- can be seen projecting from the nuclear lobes in roughly 3 to 5% of neutrophils examined on a peripheral blood smear, a specific and well-established laboratory finding historically used to help confirm genetic sex or detect X chromosome abnormalities. This differs from the more familiar buccal smear method, where the Barr body appears as a distinct chromatin mass along the inner nuclear envelope, but is not present in literally every single cell examined. The exam takeaway is to remember this specific 3-5% neutrophil 'drumstick' figure as a distinguishing, frequently tested Barr body fact.",
+    "distractorNotes": {
+     "A": "The Barr body is present only in cells with more than one X chromosome (i.e., normal female or similar cells), and even then is not visible with equal clarity in literally all cells at all times -- 'all buccal epithelial cells' overstates this.",
+     "C": "The number of Barr bodies equals the number of X chromosomes MINUS ONE, not the number of X chromosomes itself.",
+     "D": "A Turner syndrome patient (45,X) has only a single X chromosome and therefore shows ZERO Barr bodies, not one."
+    }
+   }
   },
   {
    "key": "which-of-the-following-maintain-the-ionic-concentrations-acr-20b74fb5",
@@ -47435,6 +47573,6 @@
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
  "withExternalSolvedBookRecoveredAnswer": 383,
- "withEditorialAnswer": 184,
- "editorialExcludedCount": 124
+ "withEditorialAnswer": 198,
+ "editorialExcludedCount": 130
 }
