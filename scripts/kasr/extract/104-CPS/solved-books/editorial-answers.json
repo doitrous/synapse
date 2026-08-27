@@ -108,6 +108,12 @@
    "cluster": "Histology / Respiratory System: Conducting Portion + Respiratory Portion",
    "keyed": 16,
    "excluded": 4
+  },
+  {
+   "batch": 19,
+   "cluster": "Physiology / Cardiovascular System: Circulatory Control + Cardiac Function (start)",
+   "keyed": 17,
+   "excluded": 3
   }
  ],
  "keyed": {
@@ -2369,6 +2375,171 @@
     "D": "Both catecholamines (epinephrine/norepinephrine) and vasopressin are genuine circulating vasoconstrictor hormones."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "fetal-hemoglobin-contains-2alpha-2-gamma-chains-cannot-combi-bd5548ea": {
+   "answer": "A",
+   "explanation": "Oxygen tension (arterial PO2), not oxygen content, is the most potent stimulus specifically detected by the peripheral chemoreceptors (carotid and aortic bodies), which is precisely why these receptors respond powerfully to hypoxic hypoxia (low PO2, as at altitude) but are essentially blind to anaemia or carbon monoxide poisoning, where oxygen content falls while PO2 itself remains normal. This PO2-specific sensitivity is a defining, frequently tested distinguishing feature of the peripheral chemoreceptors compared with the central chemoreceptors, which instead respond primarily to CO2/H+ rather than oxygen levels at all.",
+   "distractorNotes": {},
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "in-hypovolemis-shock-which-of-the-following-receptors-are-st-b5143c11": {
+   "answer": "A",
+   "explanation": "In hypovolaemic shock, the arterial baroreceptors in the carotid sinus and aortic arch are the primary sensors engaged by the fall in blood pressure and stretch, triggering the baroreceptor reflex arc that reduces vagal tone and increases sympathetic outflow -- producing the compensatory tachycardia, vasoconstriction, and increased contractility characteristic of the body's initial response to blood loss. While technically the baroreceptors' firing rate DECREASES as pressure falls (since they are stretch receptors), this baroreceptor reflex arc is the standard, most emphasized primary compensatory mechanism engaged in hypovolaemic shock, distinguishing it from the peripheral and central chemoreceptor pathways, which become significantly engaged only with more severe, decompensated hypoxaemia or acidaemia.",
+   "distractorNotes": {
+    "B": "Peripheral chemoreceptors respond primarily to hypoxaemia and become significantly activated only in more severe, decompensated shock, not as the primary initial hypovolaemic shock response.",
+    "C": "Atrial (low-pressure) stretch receptors do respond to reduced venous filling as a secondary/complementary reflex arc, but the arterial baroreceptor reflex is the primary, most classically emphasized mechanism.",
+    "D": "Central chemoreceptors respond to CSF pH/CO2 changes, not directly activated by hypovolaemia itself."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "peripheral-chemoreceptors-are-not-sensitive-to-all-of-the-fo-eb2cd041": {
+   "answer": "D",
+   "explanation": "Peripheral chemoreceptors specifically detect the partial pressure of oxygen dissolved in plasma (PO2) rather than total oxygen content, so they respond appropriately when PO2 itself falls -- exactly what 'O2 dissolved in physical solution' represents. This is precisely why peripheral chemoreceptors fail to detect anaemia, carbon monoxide poisoning, or methaemoglobinaemia: in each of these conditions, oxygen CONTENT is reduced (less oxygen carried by haemoglobin, or haemoglobin unable to release it properly) while arterial PO2 itself remains completely normal, leaving the PO2-sensing peripheral chemoreceptors 'blind' to the problem. The exam takeaway is to fix peripheral chemoreceptors as PO2 sensors, not oxygen-content sensors, explaining this important clinical blind spot.",
+   "distractorNotes": {
+    "A": "In anaemia, PO2 remains normal even though oxygen content is reduced, so peripheral chemoreceptors are NOT stimulated -- they are insensitive to this condition.",
+    "B": "In CO poisoning, PO2 remains normal even though oxygen content (and haemoglobin's ability to carry/release oxygen) is severely compromised, so peripheral chemoreceptors are NOT stimulated by this condition either.",
+    "C": "In methaemoglobinaemia, PO2 remains normal even though functional oxygen-carrying capacity is reduced, so peripheral chemoreceptors again fail to detect this condition."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-activity-of-the-central-chemoreceptors-is-stimulated-by-6197201c": {
+   "answer": "A",
+   "explanation": "Central chemoreceptors in the medulla respond primarily to an increase in the PCO2 of blood perfusing the brain, because CO2 (unlike H+ ions themselves) crosses the blood-brain barrier readily, then hydrates within the CSF to form carbonic acid, which dissociates to release H+ ions that directly stimulate the chemoreceptors. This indirect but highly effective CO2-to-H+ pathway makes central chemoreceptors the dominant driver of the normal, moment-to-moment regulation of breathing under resting conditions, since they are far more sensitive to small changes in PCO2 than the peripheral chemoreceptors are to changes in PO2.",
+   "distractorNotes": {
+    "B": "A decrease in PO2 is detected primarily by the peripheral (not central) chemoreceptors, which are far more sensitive to oxygen tension changes.",
+    "C": "A decrease in oxygen content is not directly detected by central chemoreceptors at all, which respond to CO2/H+ rather than oxygen levels.",
+    "D": "A decrease in surrounding brain metabolic rate would reduce, not increase, local CO2 production, which would tend to REDUCE, not stimulate, central chemoreceptor activity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-activity-of-the-central-chemoreceptors-is-stimulated-by-bd93fcab": {
+   "answer": "A",
+   "explanation": "This is a duplicate of the sibling question; an increase in the PCO2 of blood flowing through the brain remains the central chemoreceptors' primary, dominant stimulus, acting via CO2 crossing the blood-brain barrier and generating H+ ions in the CSF that directly excite these medullary receptors.",
+   "distractorNotes": {
+    "B": "Decreased PO2 is detected primarily by peripheral, not central, chemoreceptors.",
+    "C": "Decreased oxygen content is not a direct stimulus for central chemoreceptors, which respond to CO2/H+.",
+    "D": "Decreased local brain metabolic rate would reduce, not increase, CO2 production and thus central chemoreceptor stimulation."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-is-not-a-vasodilator-metabolite-8da91769": {
+   "answer": "D",
+   "explanation": "Endothelin-1 is one of the most potent VASOCONSTRICTOR substances known, produced by vascular endothelial cells and acting on smooth muscle ETA receptors to raise vascular tone -- the functional opposite of a vasodilator metabolite. This contrasts with adenosine, potassium ions, and hydrogen ions, all of which are genuine local vasodilator metabolites released during increased tissue metabolic activity (from ATP breakdown, action potential-related K+ efflux, and anaerobic/aerobic acid production respectively), helping locally match blood flow to the tissue's metabolic demand through metabolic (active) hyperaemia.",
+   "distractorNotes": {
+    "A": "Adenosine, released as a breakdown product of ATP during increased metabolic activity, is a genuine, well-established local vasodilator metabolite.",
+    "B": "Potassium ions, released during repeated action potentials in active tissue, are a genuine local vasodilator metabolite contributing to metabolic hyperaemia.",
+    "C": "Hydrogen ions (from lactic acid or CO2-derived carbonic acid produced during increased metabolism) are a genuine local vasodilator metabolite."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-patient-with-heart-failure-the-ejection-fraction-is-535bf7d6": {
+   "answer": "A",
+   "explanation": "Heart failure with reduced ejection fraction (HFrEF) is clinically defined by a left ventricular ejection fraction below 40%, reflecting significantly impaired systolic contractile function -- the heart is unable to eject a normal proportion of its end-diastolic volume with each beat. This specific 40% threshold is the standard, most frequently cited cutoff distinguishing reduced-EF heart failure from the normal range (roughly 55-70%) and from heart failure with preserved ejection fraction (HFpEF, where EF remains normal despite impaired diastolic filling).",
+   "distractorNotes": {
+    "B": "60% falls within the normal ejection fraction range, inconsistent with a diagnosis of reduced-EF heart failure.",
+    "C": "70% is within (or above) the normal ejection fraction range, inconsistent with heart failure with reduced ejection fraction.",
+    "D": "80% is a supranormal ejection fraction value, inconsistent with heart failure with reduced ejection fraction."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-patient-with-heart-failure-the-ejection-fraction-is-feprat-a02135d6": {
+   "answer": "A",
+   "explanation": "This is a duplicate of the sibling question; heart failure with reduced ejection fraction (HFrEF) is defined by a left ventricular ejection fraction below the standard 40% threshold, reflecting significantly impaired systolic pump function.",
+   "distractorNotes": {
+    "B": "60% is within the normal ejection fraction range.",
+    "C": "70% is within or above the normal ejection fraction range.",
+    "D": "80% is a supranormal ejection fraction value."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "all-cardiac-valves-are-closed-in-a22d5c2c": {
+   "answer": "A",
+   "explanation": "All four cardiac valves are closed during the two isovolumetric (isometric) phases of the cardiac cycle -- isovolumetric contraction and isovolumetric relaxation -- since these are precisely the periods where ventricular volume must remain constant, requiring no valve to be open to let blood enter or leave. During isovolumetric relaxation specifically, the semilunar valves have just closed (ending ejection) while the AV valves have not yet opened (since ventricular pressure is still above atrial pressure), leaving all four valves shut as ventricular pressure falls rapidly at constant volume.",
+   "distractorNotes": {
+    "B": "During atrial systole, the AV valves are open, allowing the final surge of blood ('atrial kick') into the ventricles -- not all valves are closed.",
+    "C": "Protodiastole is the brief transition moment as the semilunar valves are just closing at the end of ejection; the AV valves remain closed too, but this instant is better characterised as the very end of ejection rather than the defining 'all valves closed' isovolumetric phase."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "av-valves-are-open-during-which-of-the-following-phases-of-c-b3cd86ce": {
+   "answer": "B",
+   "explanation": "The atrioventricular valves are open during atrial systole, allowing the final, active surge of blood ('atrial kick') to be pushed from the contracting atria into the already largely-filled ventricles just before ventricular systole begins. This is distinct from isometric (isovolumetric) contraction, protodiastole, and maximum ejection, all of which occur during ventricular systole, when the AV valves are firmly closed to prevent backflow of blood into the atria as ventricular pressure rises and ejects blood into the great arteries.",
+   "distractorNotes": {
+    "A": "During isometric (isovolumetric) contraction, all four valves, including the AV valves, are closed.",
+    "C": "During protodiastole, the AV valves remain closed, just as the semilunar valves are closing at the end of ejection.",
+    "D": "During maximum ejection, the AV valves remain closed throughout ventricular systole to prevent backflow into the atria."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-atrial-pressure-curve-a-c-wave-occurs-during-8e579abd": {
+   "answer": "C",
+   "explanation": "The a-wave of the atrial pressure curve is generated by atrial contraction (atrial systole) itself, which occurs just before ventricular systole begins -- and since the first heart sound (S1) marks the closure of the AV valves at the very start of ventricular systole, the a-wave necessarily precedes S1 in the correct chronological sequence of the cardiac cycle. The c-wave, by contrast, is caused by the AV valves bulging back into the atria at the very onset of ventricular systole (isovolumetric contraction), occurring AFTER atrial systole has ended, not during it; and the v-wave builds up from continued venous filling of the atria while the AV valves remain closed during ventricular systole, peaking near the end of systole (not during isovolumetric contraction, and not during the ventricular filling phase, when atrial pressure is instead falling as the atria empty into the ventricles).",
+   "distractorNotes": {
+    "A": "The c-wave occurs just after atrial systole has ended, at the onset of ventricular systole (isovolumetric contraction), not during atrial systole itself.",
+    "B": "The v-wave builds up during ventricular systole (while the AV valves are closed) and peaks near its end, not during the isovolumetric contraction phase specifically.",
+    "D": "The v-wave peaks near the end of ventricular systole and then falls (the y descent) as the AV valves open and rapid ventricular filling begins -- atrial pressure is decreasing, not rising, during the actual filling phase."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "during-isovolumetric-ventricular-contraction-a-rapid-filling-ae3cfd14": {
+   "answer": "B",
+   "explanation": "The first heart sound (S1), caused by the closure of the atrioventricular valves, marks the very onset of isovolumetric ventricular contraction, as rising ventricular pressure first exceeds atrial pressure and slams the mitral and tricuspid valves shut. During this brief phase, all four cardiac valves remain closed and ventricular volume stays constant by definition ('isovolumetric'), while intraventricular pressure rises steeply -- meaning no filling occurs, no blood is ejected yet, and tension/pressure is INCREASING rather than decreasing.",
+   "distractorNotes": {
+    "A": "Rapid ventricular filling occurs during early diastole, after the AV valves open, not during isovolumetric contraction (a systolic phase where all valves are closed).",
+    "C": "Maximum ejection occurs later, once the semilunar valves have opened, not during isovolumetric contraction, when no blood is yet being ejected (volume is constant).",
+    "D": "Tension/pressure actually INCREASES, not decreases, during isovolumetric contraction, as the ventricle builds pressure against closed valves at constant volume."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "during-the-isometric-contraction-pnase-of-cardiac-cycle-what-f8195c12": {
+   "answer": "C",
+   "explanation": "By definition, the isometric (isovolumetric) contraction phase is the period during which ventricular volume remains completely unchanged, because all four cardiac valves are closed -- the AV valves have just shut (producing S1) and the semilunar valves have not yet opened -- so no blood can enter or leave the ventricle even as intraventricular pressure rises steeply due to ongoing myocardial contraction. This constant-volume, rising-pressure combination is exactly analogous to isometric (constant-length) contraction in skeletal muscle physiology, which is where this phase gets its name.",
+   "distractorNotes": {
+    "A": "Ventricular volume does not decrease during this phase; it remains constant, since all valves are closed and no blood can be ejected yet.",
+    "B": "Ventricular volume does not increase during this phase either; it remains constant, since the AV valves have already closed, preventing further filling.",
+    "D": "Volume does not decrease at all during this phase; only intraventricular pressure increases while volume stays constant, which is the entire defining feature of the isovolumetric phase."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "in-a-resting-adult-what-s-the-normal-ventricular-ejection-fr-dbe6d127": {
+   "answer": "D",
+   "explanation": "The normal resting ventricular ejection fraction in a healthy adult is typically cited as approximately 55% to 70%, representing the proportion of end-diastolic ventricular volume that is ejected with each systolic contraction under normal conditions. Values below this normal range (particularly below 40%) are used clinically to define reduced ejection fraction and systolic heart failure, making 55% the standard lower-limit-of-normal figure most frequently cited in physiology teaching among the given options.",
+   "distractorNotes": {
+    "A": "20% is far below even the pathologically reduced range seen in severe heart failure, not a normal resting value.",
+    "B": "30% falls well within the pathologically reduced ejection fraction range associated with heart failure, not a normal resting value.",
+    "C": "40% is at the threshold typically used to define reduced ejection fraction heart failure, not a normal resting value."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "increases-in-which-of-the-following-variables-would-be-expec-6a43febb": {
+   "answer": "A",
+   "explanation": "Venous return is governed by the pressure gradient driving blood back to the heart divided by the resistance to that venous flow, so increasing the vascular resistance to venous blood directly decreases venous return by increasing the denominator of this relationship, for any given driving pressure. This contrasts with increases in cardiac output, mean systemic filling pressure, or blood volume, all of which tend to INCREASE venous return -- cardiac output by lowering right atrial pressure and widening the pressure gradient, and mean systemic filling pressure/blood volume by directly raising the driving pressure for venous return.",
+   "distractorNotes": {
+    "B": "Increased cardiac output tends to increase venous return, by pumping blood forward more effectively and lowering right atrial pressure, widening the gradient driving venous return.",
+    "C": "Increased mean systemic filling pressure directly increases the driving pressure for venous return, increasing (not decreasing) it.",
+    "D": "Increased blood volume generally raises mean systemic filling pressure, thereby increasing (not decreasing) venous return."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "low-resistance-shock-is-characterized-by-which-of-the-follow-476fb9a1": {
+   "answer": "A",
+   "explanation": "Low-resistance (distributive) shock, such as septic, anaphylactic, or neurogenic shock, occurs when widespread loss of vasomotor tone effectively increases the size (capacitance) of the vascular system beyond what the available blood volume can adequately fill, creating a relative hypovolaemia even without any actual blood loss. This is mechanistically distinct from hypovolaemic shock (an actual reduction in circulating blood volume) and is associated with DECREASED, not increased, effective venous return, since blood pools within the abnormally dilated vascular bed rather than returning efficiently to the heart. Notably, in early ('warm') septic shock specifically, the skin is characteristically warm and flushed rather than cold and pale, since the vasodilation increases skin blood flow -- the opposite of the cold, pale, clammy skin classically seen in hypovolaemic or cardiogenic shock.",
+   "distractorNotes": {
+    "B": "Low-resistance/distributive shock is associated with DECREASED effective venous return, as blood pools in the abnormally dilated vasculature, not an increase.",
+    "C": "In early ('warm') septic shock, the skin is characteristically warm and flushed due to vasodilation, not cold and pale, which instead describes hypovolaemic or cardiogenic shock.",
+    "D": "Decreased blood volume is the defining feature of hypovolaemic shock, not low-resistance/distributive shock, which typically has normal blood volume that is simply maldistributed."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "murmur-appears-in-the-following-condition-ab3d9e41": {
+   "answer": "B",
+   "explanation": "Stenosis of a cardiac valve narrows its orifice, forcing blood to flow through at increased velocity and creating turbulent flow -- the fundamental physical basis of an audible cardiac murmur -- making valvular stenosis the single most classic and universally taught cause of murmurs, alongside valvular regurgitation (incompetence). This is distinct from mild anaemia (which does not typically produce a significant flow murmur, unlike severe anaemia), sleep (an unrelated physiological state with no bearing on murmur generation), and decreased cardiac output alone (which does not, by itself, create the turbulent flow pattern responsible for murmurs).",
+   "distractorNotes": {
+    "A": "Only SEVERE anaemia, via markedly increased cardiac output and reduced blood viscosity, can produce a flow murmur; mild anaemia typically does not.",
+    "C": "Sleep is an unrelated physiological state and does not itself cause murmurs.",
+    "D": "Decreased cardiac output alone does not create the turbulent flow across a valve or structural defect needed to produce a murmur."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -2794,6 +2965,15 @@
   },
   "afferents-which-may-stimulate-inspiratory-centers-include-7cdecfe6": {
    "reason": "Each of the four listed afferent pathways (vagal fibres from alveolar stretch receptors, arterial baroreceptors, pharyngeal afferents during vomiting, atrial baroreceptors) has a complex or borderline relationship to inspiratory drive rather than being a clean-cut, classically emphasized stimulant of the inspiratory centre (vagal lung-stretch afferents classically INHIBIT further inspiration via the Hering-Breuer reflex, for instance) -- this specific physiological detail cannot be confidently resolved to a single correct option without the source's own intended framing."
+  },
+  "the-cause-of-compensatoryhyperventilation-in-metabolic-acido-d0688695": {
+   "reason": "The compensatory hyperventilation of metabolic acidosis is classically attributed primarily to PERIPHERAL chemoreceptor stimulation by the elevated blood hydrogen ion concentration (since H+ ions cannot easily cross the blood-brain barrier to directly stimulate central chemoreceptors, and in compensated metabolic acidosis arterial PCO2 is typically low, not elevated, from the resulting hyperventilation) -- none of the three surviving options accurately captures this specific peripheral, H+-driven mechanism, and the correct option was most likely the missing option D."
+  },
+  "a-mild-hemorrhage-will-cause-stroke-volume-to-shift-from-poi-29f14a8f": {
+   "reason": "This question depends on reading an accompanying graph (points labelled A, C, D, E on presumably a Frank-Starling or ventricular function curve) that is not available in the text extraction -- the answer cannot be determined from text alone."
+  },
+  "on-the-following-graph-showing-left-ventricular-volume-and-p-a53a02d1": {
+   "reason": "This question depends on reading an accompanying pressure-volume loop graph with numbered points that is not available in the text extraction -- the answer cannot be determined from text alone."
   }
  }
 }
