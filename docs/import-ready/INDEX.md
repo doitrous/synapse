@@ -652,12 +652,28 @@ convention holds — all 12 carry `media_recommendations` with at least one
 the repository) and `reviewer: Medical team, Admin team` /
 `final_publisher: Admin team` per the standing ruling.
 
-**Gate status.** Per-file `medical:batch` (`--with` sibling concept/article
-files for id resolution) results are recorded in `PROGRESS.md` for this
-stage. The chained/combined `medical:simulate` across the whole
-`docs/import-ready/` folder — the real cross-file check, since `medical:
-batch` is directory-scoped and cannot see ids already live in production —
-is deliberately **not** run in this stage; it is the next stage's gate.
+**Gate status, re-run 2026-08-27 against this staged copy plus the rest of
+`docs/import-ready/`:** `medical:simulate` chained one kind at a time,
+resources → articles → concepts (13 files) → claims (5) → citations (5) →
+spans (4) → relations → question (MCQ, 5 files) → written (14 papers) →
+glossary — `errors: []` at every one of the 10 steps, 0 rejected. The
+combined-folder run — 108 INT + 101 ISK + 102 INT + 103 BMS + every
+pre-existing CVS/REN/RES batch, one `medical:simulate` call in per-kind
+order — reports 190 batches applied, **0 rejected, `errors: []`**; the only
+three files skipped are `academic/kau-modules.md`, `academic/au-modules.md`
+and `glossary/INDEX.md`, all by design (not a medical-content kind).
+`medical:audit` on the resulting state reports 291 "no evidence chain"
+relation notes — exactly the 145 declared `needs_evidence` rows in 103's own
+relations file (verified one-for-one by source/type/target) plus 146
+pre-existing from other modules — and 55 field-completeness notes, all on
+non-103 ids (CVS/101/102); zero new errors trace to 103 BMS.
+
+Per-file `medical:batch` (`--with` sibling concept/article files for id
+resolution) results are recorded in `PROGRESS.md` for this stage; the 6
+evidence files' "is not a source the corpus contains" lines are a
+pre-existing shared-toolchain gap (see `PROGRESS.md`), not a 103 defect, and
+do not affect `medical:simulate` or `medical:audit` above — neither script
+reads `corpus-source-index.json`.
 
 **What remains genuinely open** (none of it blocks the 61 files above from
 being applied): 29 of 51 source files are not yet read per `coverage/103-
