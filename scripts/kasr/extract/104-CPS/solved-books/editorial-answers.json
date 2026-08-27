@@ -84,6 +84,12 @@
    "cluster": "Histology / Cardiovascular System - Veins (tail) + Cytogenetics: Cell Division",
    "keyed": 19,
    "excluded": 1
+  },
+  {
+   "batch": 15,
+   "cluster": "Histology / Cytogenetics: Chromosomal Aberrations + Human Chromosome",
+   "keyed": 19,
+   "excluded": 1
   }
  ],
  "keyed": {
@@ -1731,6 +1737,193 @@
     "D": "Centric (Robertsonian) fusion of chromosomes 14 and 21 is associated with familial translocation Down syndrome, not CML."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-swab-from-the-buccal-mucosa-of-a-newly-born-infant-showed-ed97054a": {
+   "answer": "A",
+   "explanation": "The number of Barr bodies (inactivated X chromosomes) visible in a cell's nucleus always equals the total number of X chromosomes minus one, since all but one X chromosome is inactivated in every cell. A normal female (46,XX) therefore shows exactly one Barr body, so finding MORE than one Barr body in nearly every epithelial cell indicates the presence of three or more X chromosomes (such as 47,XXX or higher), a pattern grouped under 'multiple X syndrome' (polysomy X). This buccal smear technique is a classic, simple screening method for detecting extra X chromosome material before formal karyotyping confirms the exact constitution.",
+   "distractorNotes": {
+    "B": "Klinefelter syndrome (47,XXY) shows only one Barr body, since it has only two X chromosomes, not the multiple Barr bodies described here.",
+    "C": "A normal female shows exactly one Barr body, not more than one.",
+    "D": "Turner syndrome (45,X) shows NO Barr bodies at all, since there is only a single X chromosome present."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "achild-presented-with-mental-retardation-muscular-hypotonia-7cd5aa87": {
+   "answer": "B",
+   "explanation": "This combination of findings -- mental retardation, muscular hypotonia (a classically prominent early feature), congenital cardiac abnormalities (such as atrioventricular septal defects), and small genital organs -- is a well-recognised presentation of Down syndrome (trisomy 21), one of the most common and most frequently tested multisystem chromosomal disorders. Down syndrome's combination of hypotonia in infancy plus structural heart defects is a particularly classic diagnostic clue pattern taught for early recognition. The exam takeaway is to recognise this specific symptom cluster (hypotonia + cardiac defect + intellectual disability) as pointing to Down syndrome well before dysmorphic facial features are even considered.",
+   "distractorNotes": {
+    "A": "Klinefelter's syndrome typically presents at or after puberty with tall stature and small testes, not in infancy with hypotonia and cardiac defects.",
+    "C": "Monosomy of chromosome 21 is not a recognised, viable clinical entity presenting this way; it is generally incompatible with survival to term.",
+    "D": "Turner syndrome does not typically cause mental retardation (intelligence is usually normal) and presents with short stature and gonadal dysgenesis rather than this cardiac/hypotonia/mental retardation cluster."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "down-syndrome-mongolism-is-characterized-by-a-it-is-a-form-o-449c5e95": {
+   "answer": "D",
+   "explanation": "Down syndrome is defined as trisomy 21, the presence of three copies (rather than the normal two) of chromosome 21, resulting in 47 total chromosomes rather than the normal 46. This is a numerical chromosomal aberration affecting a single specific autosome, entirely distinct from triploidy (which involves an extra COMPLETE set of all chromosomes, 69 total) and from any aberration of the sex chromosomes, since chromosome 21 is an autosome. The exam takeaway is to fix 'Down syndrome = trisomy 21 = 47 chromosomes, one autosome triplicated' as the precise definitional fact, distinguishing it from other numerical aberration types.",
+   "distractorNotes": {
+    "A": "Triploidy refers to an extra complete haploid set of all chromosomes (69 total), a distinct and generally non-viable condition, not what causes Down syndrome.",
+    "B": "Down syndrome cells contain 47 chromosomes (one extra), not 45 (which would represent a monosomy, the opposite abnormality).",
+    "C": "Chromosome 21 is an autosome, not a sex chromosome, so Down syndrome is not a sex chromosome aberration."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "ifa-parent-is-a-carrier-of-a-chromosome-21-translocation-he-2f86d27d": {
+   "answer": "B",
+   "explanation": "A parent who is a balanced carrier of a Robertsonian translocation involving chromosome 21 (commonly a t(14;21) translocation) carries the correct total amount of chromosome 21 genetic material, just rearranged, and is phenotypically normal -- but during meiosis, this carrier can pass on an unbalanced combination to a child, resulting in effectively three functional copies of chromosome 21 material despite a total chromosome count that may appear as 46 (translocation-type Down syndrome), producing the Down syndrome phenotype. This is the classic mechanism behind 'familial' or translocation Down syndrome, distinct from the more common sporadic trisomy 21 caused by meiotic non-disjunction. The exam takeaway is to associate a parental chromosome 21 translocation carrier state specifically with an increased recurrence risk of having a child with Down syndrome.",
+   "distractorNotes": {
+    "A": "Turner's syndrome results from monosomy of the X chromosome, unrelated to a chromosome 21 translocation.",
+    "C": "Klinefelter's syndrome results from an extra X chromosome (47,XXY), unrelated to a chromosome 21 translocation.",
+    "D": "Chronic myeloid leukaemia results from a reciprocal translocation between chromosomes 9 and 22 (the Philadelphia chromosome), an entirely different translocation from one involving chromosome 21."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "it-is-absent-in-klinefelter-syndrome-9-addition-of-a-fragmen-4f0b50c3": {
+   "answer": "A",
+   "explanation": "Duplication is the structural chromosomal aberration in which a fragmented segment of one chromosome becomes added onto its homologous chromosome, resulting in that segment being present in an extra copy within the genome. This is structurally distinct from translocation, where a segment moves to attach to a NON-homologous chromosome rather than its own homolog, and from inversion, where a segment simply reverses its orientation within the same chromosome without any addition of material. The exam takeaway is to keep these structural aberration definitions precise: duplication adds an extra copy of a segment onto its homolog; translocation moves a segment to a different chromosome; inversion flips a segment's orientation in place.",
+   "distractorNotes": {
+    "B": "An isochromosome results from abnormal transverse (rather than longitudinal) division of the centromere, producing a chromosome with two identical arms, an unrelated mechanism to segment addition between homologues.",
+    "C": "Translocation involves a segment moving to a non-homologous chromosome, not addition of a segment to its own homologous chromosome.",
+    "D": "Inversion involves a segment reversing its orientation within the same chromosome, not addition of material from elsewhere."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "may-be-due-to-47-chromosomes-xxy-15-structural-aberrations-i-304914be": {
+   "answer": "B",
+   "explanation": "Deletion -- the loss of a chromosomal segment -- is a classic structural chromosomal aberration, involving a change to a chromosome's physical structure/composition rather than a change to the overall chromosome count. This distinguishes it from numerical aberrations like aneuploidy (an abnormal chromosome count, such as trisomy or monosomy) and from clinical syndromes such as Turner's or Klinefelter's, which are themselves the phenotypic consequences of numerical (not structural) chromosomal abnormalities rather than being structural aberration categories in themselves. The exam takeaway is to keep the two broad categories distinct: numerical aberrations (aneuploidy, polyploidy) change chromosome count; structural aberrations (deletion, duplication, translocation, inversion, ring chromosome, isochromosome) change chromosome architecture.",
+   "distractorNotes": {
+    "A": "Aneuploidy is a numerical chromosomal aberration (an abnormal chromosome count), not a structural one.",
+    "C": "Turner's syndrome is a clinical condition resulting from a numerical aberration (monosomy X), not itself a category of structural aberration.",
+    "D": "Klinefelter's syndrome is a clinical condition resulting from a numerical aberration (an extra X chromosome), not itself a category of structural aberration."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "monosomy-of-sex-chromosome-is-4dd33dcd": {
+   "answer": "A",
+   "explanation": "Turner syndrome, karyotype 45,X, results from monosomy of a sex chromosome -- the complete absence of one of the two sex chromosomes normally present, leaving only a single X chromosome and no Y or second X. This is the only human sex chromosome monosomy generally compatible with live birth, in contrast to autosomal monosomies, which are almost always lethal early in development. The exam takeaway is to fix 'Turner syndrome = 45,X = sex chromosome monosomy' as the defining numerical chromosomal fact, distinct from Klinefelter's (sex chromosome trisomy, an extra X) and Down syndrome/Robertsonian translocation (autosomal abnormalities unrelated to sex chromosome count).",
+   "distractorNotes": {
+    "B": "Klinefelter's syndrome (47,XXY) is a sex chromosome TRISOMY (an extra chromosome), not a monosomy.",
+    "C": "A Robertsonian translocation is a structural rearrangement between two acrocentric chromosomes, not a numerical monosomy of a sex chromosome.",
+    "D": "Mongolism (Down syndrome) is caused by trisomy of an autosome (chromosome 21), unrelated to sex chromosome monosomy."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "philadelphia-chromosome-6245c1ec": {
+   "answer": "A",
+   "explanation": "The Philadelphia chromosome arises from a reciprocal translocation between chromosomes 9 and 22, t(9;22), which fuses the BCR gene (chromosome 22) with the ABL1 gene (chromosome 9) to produce a constitutively active BCR-ABL fusion tyrosine kinase, driving the uncontrolled myeloid proliferation seen in chronic myeloid leukaemia. This translocation is one of the most historically and clinically significant cytogenetic findings in oncology, being both the first specific chromosomal abnormality linked to a human cancer and the basis for targeted tyrosine kinase inhibitor therapy. The exam takeaway is to fix 'Philadelphia chromosome = t(9;22) = CML' as an essential, frequently tested fact.",
+   "distractorNotes": {
+    "B": "The Philadelphia chromosome results from a translocation (an exchange of material between chromosomes 9 and 22), not a duplication of chromosome 22.",
+    "C": "The Philadelphia chromosome results from a reciprocal translocation, not a terminal deletion.",
+    "D": "The Philadelphia chromosome results from a translocation between two different chromosomes, not an inversion within a single chromosome."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "structural-aberrations-include-9c106da4": {
+   "answer": "B",
+   "explanation": "This is a duplicate of the sibling question on the same distinction; deletion (loss of a chromosomal segment) is a classic structural chromosomal aberration, involving altered chromosome architecture rather than altered chromosome count. Aneuploidy is instead a numerical aberration, and Turner's and Klinefelter's syndromes are clinical conditions resulting from numerical (not structural) sex chromosome abnormalities.",
+   "distractorNotes": {
+    "A": "Aneuploidy is a numerical, not structural, chromosomal aberration.",
+    "C": "Turner's syndrome results from a numerical aberration (monosomy X), not a structural aberration category.",
+    "D": "Klinefelter's syndrome results from a numerical aberration (an extra X chromosome), not a structural aberration category."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-child-with-mental-retardation-hypotonia-and-mongol-like-fe-92c527a1": {
+   "answer": "A",
+   "explanation": "A child with the classic Down syndrome phenotype (mental retardation, hypotonia, mongoloid facial features) but a total chromosome count of 46 rather than the usual 47 points specifically to translocation-type Down syndrome, most commonly caused by a Robertsonian translocation between chromosomes 21 and 14 -- in this scenario, the extra chromosome 21 genetic material is fused onto chromosome 14 rather than existing as a free-standing extra chromosome, keeping the total chromosome count at 46 while still producing three functional copies of chromosome 21 material and the resulting Down syndrome phenotype. This is a key distinguishing cytogenetic finding from standard trisomy 21 (47 chromosomes) and carries different genetic counselling implications, since it can be inherited from a balanced-translocation-carrier parent. The exam takeaway is to recognise '46 chromosomes plus Down syndrome phenotype' as the signature of translocation Down syndrome, most classically involving chromosomes 21 and 14.",
+   "distractorNotes": {
+    "B": "The Philadelphia chromosome is associated with chronic myeloid leukaemia, an unrelated condition with no connection to the Down syndrome phenotype described.",
+    "C": "Duplication of chromosome 14 does not produce the Down syndrome phenotype, which is specifically linked to extra chromosome 21 material.",
+    "D": "Deletion of chromosome 21 would reduce, not increase, chromosome 21 gene dosage, the opposite of what causes the Down syndrome phenotype."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-female-patient-presented-with-mental-retardation-edema-of-45ad91b4": {
+   "answer": "D",
+   "explanation": "This clinical picture -- lymphoedema of the limbs (present from birth in many cases), short stature, and primary amenorrhoea -- is the classic presentation of Turner syndrome, whose karyotype is correctly written as 45,X (informally sometimes rendered 45,XO), reflecting a total of 45 chromosomes with only a single sex chromosome present. The embedded claim of a '47,XO' karyotype is internally inconsistent, since a single-X karyotype (monosomy) should total 45 chromosomes, not 47 (which would instead suggest an extra chromosome present, contradicting the 'XO' single-X notation). The exam takeaway is to fix Turner syndrome's karyotype precisely as 45 total chromosomes with a single X and no Y, distinguishing it clearly from any XXY or trisomy karyotype.",
+   "distractorNotes": {
+    "B": "A patient with Turner syndrome has only ONE X chromosome, not two.",
+    "C": "Turner syndrome is caused by monosomy (loss) of a sex chromosome, not trisomy (gain) of one -- the opposite numerical abnormality."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-m-ntaliy-retarded-female-patient-with-short-stature-primar-2601c06b": {
+   "answer": "B",
+   "explanation": "Short stature, primary amenorrhoea, and underdeveloped secondary sexual characteristics are the classic diagnostic triad of Turner syndrome, whose karyotype is 45,X (informally 45,XO) -- a single X chromosome with no second sex chromosome, resulting in ovarian dysgenesis (streak gonads) that prevents normal pubertal development and menstruation. While Turner syndrome's cognitive profile is more accurately described as normal general intelligence with specific non-verbal/spatial learning difficulties rather than global mental retardation, this vignette's overwhelming combination of features (short stature, amenorrhoea, undeveloped secondary sex organs, female sex) still points most specifically and classically to Turner syndrome among the given options.",
+   "distractorNotes": {
+    "A": "47,XXY (Klinefelter's syndrome) describes a genetically male individual (a Y chromosome is present), inconsistent with the female patient described.",
+    "C": "The notation '47, XY trisomy 21' describes a genetically male individual with Down syndrome, inconsistent both with the stated female sex and with the specific gonadal/short-stature/amenorrhoea presentation described.",
+    "D": "47,XXX (triple X syndrome) is a possible consideration for a female patient with mild cognitive effects, but it does not classically produce the short stature, primary amenorrhoea, and underdeveloped secondary sex organ triad as specifically as Turner syndrome does."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "according-to-gene-content-in-chromosomes-autosomes-are-facc440f": {
+   "answer": "C",
+   "explanation": "When chromosomes are classified according to their gene content (what traits their genes actually control), autosomes are defined as the chromosomes that control the body's general somatic (non-sex-determining) characteristics, in contrast to the sex chromosomes, which specifically carry the genes determining an individual's sex and sex-linked traits. This functional classification is distinct from a purely numerical or structural description of chromosomes, matching precisely what this question's specific framing ('according to gene content') is asking for. The exam takeaway is to keep the two classification lenses separate: by NUMBER, humans have 22 autosome pairs plus 1 sex chromosome pair (23 total); by GENE CONTENT/FUNCTION, autosomes control somatic characteristics while sex chromosomes determine sex.",
+   "distractorNotes": {
+    "A": "Twenty-three homologous pairs describes the total chromosome complement (including the sex chromosome pair), not autosomes specifically, which number 22 pairs.",
+    "B": "Autosomes as a category comprise 22 pairs, not a single pair.",
+    "D": "Controlling the sex of the individual is the defining role of the sex chromosomes, not the autosomes."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "amale-child-at-puberty-is-presented-with-mental-retardation-d31b09e6": {
+   "answer": "D",
+   "explanation": "This presentation -- mental retardation, tall stature, small testes, and gynecomastia (widely separated nipples reflecting breast tissue development) -- is the classic phenotype of Klinefelter syndrome (47,XXY), which most commonly arises from non-disjunction of the X chromosomes during meiosis in either parent, resulting in a gamete carrying an extra X chromosome. This extra X chromosome disrupts normal testicular development and testosterone production, producing the combination of hypogonadism (small testes), eunuchoid tall stature, and gynecomastia classically taught for this condition. The exam takeaway is to associate the Klinefelter phenotype specifically with X chromosome non-disjunction during meiosis, distinguishing this mechanism from autosomal trisomies or losses.",
+   "distractorNotes": {
+    "A": "Trisomy of chromosome 21 causes Down syndrome, a different phenotype (present from birth, not one that specifically manifests with these pubertal, hypogonadal features).",
+    "B": "Loss of an autosome during mitosis would typically be lethal to the affected cell line or produce a very different, non-viable phenotype, not this specific pubertal presentation.",
+    "C": "Loss of the Y chromosome during meiosis would tend toward a Turner-like (45,X) karyotype rather than the extra-X Klinefelter phenotype described."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "klinefelter-s-syndrome-is-82256d5f": {
+   "answer": "C",
+   "explanation": "Klinefelter syndrome patients (47,XXY), despite being genetically and phenotypically male, are Barr-body positive -- they show one Barr body in their cell nuclei, just like a normal female, because the presence of a second X chromosome results in one X being inactivated regardless of the overall karyotype. This unusual sex-chromatin positivity in an otherwise male individual is one of the most classic and frequently tested distinguishing laboratory features of Klinefelter syndrome, historically used as a simple screening clue before karyotyping became routine.",
+   "distractorNotes": {
+    "A": "45,XO (Turner syndrome) is an unrelated karyotype describing a different condition (monosomy X), not Klinefelter syndrome.",
+    "B": "Klinefelter syndrome's karyotype totals 47 chromosomes (47,XXY), not 46 -- 46,XXY would be numerically inconsistent, since three sex chromosomes plus 44 autosomes total 47, not 46."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "protein-discs-located-at-centromere-for-attachment-for-spind-62275fa7": {
+   "answer": "A",
+   "explanation": "Kinetochores are the paired protein disc structures assembled at the centromere of each sister chromatid, serving as the specific attachment site for spindle (kinetochore) microtubules during cell division, allowing the mitotic or meiotic spindle to physically grip and later separate the chromatids. This is a duplicate of an earlier definitional question in this bank; the answer remains the same specific, essential cell-division vocabulary term.",
+   "distractorNotes": {
+    "B": "Genes are protein-coding DNA segments, not the protein discs responsible for spindle fibre attachment.",
+    "C": "Telomeres are protective structures capping chromosome ends, entirely unrelated to spindle fibre attachment at the centromere.",
+    "D": "The centromere is the chromosomal region itself where the kinetochore assembles; the kinetochore is the specific protein disc structure the question asks for, not the centromere in general."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "submetacentric-chromosome-is-characterized-by-the-centromere-c32da786": {
+   "answer": "B",
+   "explanation": "A submetacentric chromosome is defined by its centromere sitting off-centre, positioned roughly midway between the exact centre of the chromosome and one of its ends, producing two arms of noticeably unequal but not extremely disparate length. This distinguishes it from a metacentric chromosome (centromere exactly at the centre, equal arms), an acrocentric chromosome (centromere very close to one end, a tiny short arm), and a (theoretical, essentially absent in normal human karyotypes) telocentric chromosome (centromere at the very terminal end, no short arm at all). The exam takeaway is to fix this four-category centromere-position classification (metacentric, submetacentric, acrocentric, telocentric) precisely, since it is a basic, frequently tested cytogenetics vocabulary set.",
+   "distractorNotes": {
+    "A": "A centromere positioned exactly at the chromosome's centre describes a metacentric chromosome, not submetacentric.",
+    "C": "A centromere positioned very close to one end describes an acrocentric chromosome, not submetacentric.",
+    "D": "A centromere positioned at the very terminal end describes a (essentially theoretical, not seen in normal human karyotypes) telocentric chromosome, not submetacentric."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-chromosome-with-centromere-at-its-center-is-known-as-884d1186": {
+   "answer": "A",
+   "explanation": "A chromosome with its centromere positioned exactly at the centre, producing two arms of equal length, is termed metacentric -- the first of the four standard centromere-position categories (metacentric, submetacentric, acrocentric, telocentric) used to classify and identify chromosomes in a karyotype. This precise, symmetric centromere placement is a key visual feature cytogeneticists use when arranging and identifying chromosome pairs during karyotype analysis.",
+   "distractorNotes": {
+    "B": "A submetacentric chromosome has its centromere positioned off-centre, roughly midway between the centre and one end, producing unequal arms.",
+    "C": "An acrocentric chromosome has its centromere very close to one end, producing a very short arm and a very long arm.",
+    "D": "A telocentric chromosome has its centromere at the very terminal end, with essentially no short arm at all -- a pattern not normally seen in human chromosomes."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "when-chromosome-divides-transversely-at-centromere-it-result-3596a2fe": {
+   "answer": "A",
+   "explanation": "When a chromosome's centromere divides transversely (across its short axis, perpendicular to the normal longitudinal plane of division) rather than longitudinally, each resulting daughter chromosome ends up with two copies of the same arm instead of one copy of each -- this abnormal event is precisely how an isochromosome is formed, matching this bank's identical, already-established fact from the sibling question on this exact mechanism. This is a distinct structural aberration mechanism from translocation (movement of a segment to a different chromosome) or inversion (a segment reversing orientation within the same chromosome).",
+   "distractorNotes": {
+    "C": "Translocation results from an exchange or movement of a segment between chromosomes, an entirely different mechanism from transverse centromere division.",
+    "D": "Inversion results from a chromosomal segment reversing its orientation in place, an entirely different mechanism from transverse centromere division."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -2102,6 +2295,9 @@
   },
   "regarding-the-heart-choose-the-correct-answer-it-lies-in-the-c3cd415b": {
    "reason": "The likely correct embedded statement (the heart lies in the middle mediastinum, which is true) has no surviving option letter, option A is a bare, incomplete fragment ('The right atrium') that does not form a complete statement, and the three remaining lettered options (B, C, D) are each confidently false under standard cardiac anatomy (the heart's base is formed mainly by the left, not right, atrium; the apex is formed by the left ventricle alone, not both ventricles; and the left, not right, atrium receives the four pulmonary veins)."
+  },
+  "a-child-with-mental-retardation-hypotonia-and-mongol-like-fe-a6e1a6a7": {
+   "reason": "The correct answer (46, Robertsonian translocation between chromosomes 21 and 14, matching the identical clinical vignette in the sibling question) is embedded unlettered in the stem alongside a decoy Philadelphia-chromosome option, while the actual lettered options that survive (Multiple X syndrome, Klinefelter syndrome, duplication of chromosome 14, Turner syndrome) are all unrelated and incorrect for this Down-syndrome-phenotype vignette. No letter can be assigned to the correct answer."
   }
  }
 }
