@@ -3,7 +3,8 @@
 
     Aortic Arch Relations and Cardiac Plexuses — 3 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
-    Lymphatics of the Thorax — 1 questions, 1 concepts
+    Lymphatics of the Thorax — 2 questions, 1 concepts
+    Pericardium — 7 questions, 3 concepts
     Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
@@ -17,6 +18,7 @@
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
+    Macrophage system — 2 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
@@ -36,7 +38,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  1 question was excluded and 0 held back for having no
+  3 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -220,10 +222,178 @@ The thoracic duct crosses from right to left behind the oesophagus at T5 and dra
 thoracic-duct.course-tributaries-and-termination
 ## exam_signal
 src_c30d947377670cb99a40 | question_book | | p25 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
 ## article_ids
 +ART-104-ANA-THORACIC-LYMPHATICS
 ## field_notes
 canonical_key "thoracic-duct.course-tributaries-and-termination" already has a pinned id in this module (CON-HEM-9123D4493320A7); mintConceptId derives the same id fresh (CON-HEM-9123D4493320A7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-3706498A4F8F97
+## label
+The transverse sinus of the pericardium passes between the arterial and venous ends of the heart; the oblique sinus is a blind recess behind the left atrium
+## canonical_key
+pericardium.transverse-and-oblique-sinuses
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p21 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+## article_ids
++ART-104-ANA-PERICARDIUM-SINUSES
+## field_notes
+canonical_key "pericardium.transverse-and-oblique-sinuses" already has a pinned id in this module (CON-CVS-3706498A4F8F97); mintConceptId derives the same id fresh (CON-CVS-3706498A4F8F97) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-2DB020EDD28EB7
+## label
+The fibrous and parietal serous pericardium are somatically sensitive to pain via the phrenic nerve, while the visceral layer shares the heart's autonomic supply and its coronary blood supply
+## canonical_key
+pericardium.nerve-and-blood-supply
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p11 | 104 CPS
+## article_ids
++ART-104-ANA-PERICARDIUM-SINUSES
+## field_notes
+canonical_key "pericardium.nerve-and-blood-supply" already has a pinned id in this module (CON-CVS-2DB020EDD28EB7); mintConceptId derives the same id fresh (CON-CVS-2DB020EDD28EB7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The fibrous pericardium is a conical sac fixed to the sternum by the sternopericardial ligaments; its parietal serous layer lines it internally and reflects onto the heart as the visceral layer (epicardium)
+## id
+CON-CVS-0420EB34A2E424
+## canonical_key
+pericardium.fibrous-and-serous-layers
+## definition
+The pericardium has two coats. The fibrous pericardium is a strong, conical sac with an apex directed upwards, blending at the level of the sternal angle with the outer coats of the great vessels, and a base directed downwards, adherent to the central tendon of the diaphragm — the reverse orientation of the heart itself; its anterior surface is fixed to the sternum by the superior and inferior sternopericardial ligaments. The serous pericardium is a closed sac invaginated from above and behind by the heart and the roots of its great vessels: a parietal layer lines the fibrous pericardium, and a visceral layer covers the heart as the epicardium, the two separated by the pericardial cavity, a potential space holding only a thin film of fluid.
+## explicit_objective
+Name the two coats of the pericardium and state which layer of the serous pericardium lines the fibrous pericardium versus which one covers the heart itself.
+## pitfalls
+Assuming the visceral layer lines the fibrous pericardium — it is the parietal layer that lines the fibrous pericardium; the visceral layer instead covers the heart directly as the epicardium.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Pericardium
+## aliases
+Fibrous pericardium | Serous pericardium | Sternopericardial ligaments
+## article_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] is fused to fibrous pericardium XXX
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-DEV-HEART-SEPTATION
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -912,6 +1082,23 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 +ART-104-HIS-STRUCTURAL-ABERRATIONS
 ## field_notes
 canonical_key "structural-chromosomal-aberration.deletion-inversion-translocation-duplication-isochromosome" already has a pinned id in this module (CON-DEV-D2BA4082190B3F); mintConceptId derives the same id fresh (CON-DEV-D2BA4082190B3F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-HEM-D1628423BE0844
+## label
+The mononuclear phagocyte system is monocyte-derived phagocytes distributed under different names across almost every organ
+## canonical_key
+mononuclear-phagocyte-system.definition-origin-and-distribution
+## exam_signal
+src_2b531af1f3f6eace5974 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-HIS-MACROPHAGE-SYSTEM
+## field_notes
+canonical_key "mononuclear-phagocyte-system.definition-origin-and-distribution" already has a pinned id in this module (CON-HEM-D1628423BE0844); mintConceptId derives the same id fresh (CON-HEM-D1628423BE0844) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

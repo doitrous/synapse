@@ -36,5 +36,19 @@ export const LEAF: McqLeafSeed = {
         E: "True, and so not the answer sought. The thoracic duct ends at the root of the neck by opening into the start of the left brachiocephalic vein, at the junction of the left internal jugular and left subclavian veins.",
       },
     },
+    {
+      key: "regarding-the-esophagus-the-following-statements-are-correct-7bd0d4e2",
+      conceptKey: "thoracic-duct.course-tributaries-and-termination",
+      difficulty: "Hard",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that the thoracic duct does not stay on one side of the oesophagus throughout its thoracic course.",
+      explanations: {
+        A: "True, and so not the answer sought. The oesophagus's relation to the heart's base is separated by the oblique sinus of the pericardium, the blind recess behind the left atrium that also lies close to the oesophagus's own path through the posterior mediastinum.",
+        B: "True, and so not the answer sought. The oesophagus, as a whole structure, is conventionally described as beginning at the level of the lower border of the cricoid cartilage/C6, continuous above with the pharynx.",
+        C: "True, and so not the answer sought. The oesophagus is crossed anteriorly by the left principal bronchus as the two structures pass through the superior/posterior mediastinum together.",
+        D: "This is the false statement, and the correct answer. The thoracic duct does not lie on the oesophagus's left side along its whole course — it ascends behind the oesophagus's right border in the posterior mediastinum, then crosses behind the oesophagus from right to left at the level of T5, only lying on the left side for the remainder of its course up to the root of the neck.",
+        E: "True, and so not the answer sought. The oesophagus, as a whole structure, is conventionally described as ending at the level of T11, where it pierces the diaphragm to become continuous with the stomach.",
+      },
+    },
   ],
 }

@@ -3,7 +3,8 @@
 
     Aortic Arch Relations and Cardiac Plexuses — 3 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
-    Lymphatics of the Thorax — 1 questions, 1 concepts
+    Lymphatics of the Thorax — 2 questions, 1 concepts
+    Pericardium — 7 questions, 3 concepts
     Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
@@ -17,6 +18,7 @@
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
+    Macrophage system — 2 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
@@ -36,7 +38,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  1 question was excluded and 0 held back for having no
+  3 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -501,6 +503,662 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p25 q100. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-219E3FD7E62B
+## title
+Regarding the esophagus, the following statements are correct, EXCEPT:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the esophagus, the following statements are correct, EXCEPT:
+## answer_a
+It is separated from the base of the heart by the oblique sinus of the
+## explanation_a
+True, and so not the answer sought. The oesophagus's relation to the heart's base is separated by the oblique sinus of the pericardium, the blind recess behind the left atrium that also lies close to the oesophagus's own path through the posterior mediastinum.
+## answer_b
+It begins at the level of the lower border of C6
+## explanation_b
+True, and so not the answer sought. The oesophagus, as a whole structure, is conventionally described as beginning at the level of the lower border of the cricoid cartilage/C6, continuous above with the pharynx.
+## answer_c
+It is crossed by the left bronchus
+## explanation_c
+True, and so not the answer sought. The oesophagus is crossed anteriorly by the left principal bronchus as the two structures pass through the superior/posterior mediastinum together.
+## answer_d
+Along its whole course, the thoracic duct lies on its left side
+## explanation_d
+This is the false statement, and the correct answer. The thoracic duct does not lie on the oesophagus's left side along its whole course — it ascends behind the oesophagus's right border in the posterior mediastinum, then crosses behind the oesophagus from right to left at the level of T5, only lying on the left side for the remainder of its course up to the root of the neck.
+
+Why this is right:
+- The thoracic duct, the largest lymphatic vessel in the body at about 45 cm, is a beaded, valved vessel beginning in the abdomen at the lower border of T12 as the continuation of the cisterna chyli.
+## answer_e
+It ends at the level of T11
+## explanation_e
+True, and so not the answer sought. The oesophagus, as a whole structure, is conventionally described as ending at the level of T11, where it pierces the diaphragm to become continuous with the stomach.
+## correct_answer
+D
+## main_concept
+CON-HEM-9123D4493320A7
+## library_ids
+ART-104-ANA-THORACIC-LYMPHATICS
+## topic
+Anatomy
+## subtopic
+Lymphatics of the Thorax
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Lymphatics of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the thoracic duct does not stay on one side of the oesophagus throughout its thoracic course.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p18 q71. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BD0E17EAE0F3
+## title
+About the transverse sinus of the serous pericardium mark one correct statement:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+About the transverse sinus of the serous pericardium mark one correct statement:
+## answer_a
+Situated between ascending aorta and SVC
+## explanation_a
+This is the correct answer, and the standard simplified description of this relationship. The transverse sinus lies between the arterial pedicle (ascending aorta and pulmonary trunk) in front and the venous structures (SVC and the roof of the left atrium) behind, formed where the serous pericardium reflects around the great vessels — a finger passed behind the ascending aorta and pulmonary trunk and in front of the lower SVC traverses it from right to left.
+
+Why this is right:
+- The visceral layer of serous pericardium sends two tube-like extensions over the roots of the great vessels: an anterior tube enclosing the ascending aorta and pulmonary trunk together, and a posterior tube enclosing parts of the superior and inferior venae cavae and the four pulmonary veins.
+## answer_b
+Present between anterior wall of left atrium and both of ascending aorta and
+## explanation_b
+This option describes something closer to the oblique sinus, which sits behind the left atrium — the transverse sinus's own anterior boundary is the arterial pedicle (ascending aorta and pulmonary trunk), and its posterior boundary is the venous structures (SVC and the atria), not the left atrium's anterior wall paired with the great arteries in this way.
+## answer_c
+Transmits the right coronary artery
+## explanation_c
+The transverse sinus is a potential space, not a conduit for a coronary artery — the right coronary artery runs externally in the coronary (atrioventricular) sulcus, on the heart's own surface, unrelated to this pericardial sinus.
+## answer_d
+Contains the coronary sinus
+## explanation_d
+The coronary sinus lies in the posterior coronary sulcus, related to the region of the oblique sinus, not contained within the transverse sinus — a venous channel on the heart's surface rather than a structure passing through this space.
+## answer_e
+The circumflex artery passes to the left through 't
+## explanation_e
+The circumflex artery runs in the coronary sulcus around the heart's external surface as a branch of the left coronary artery — it does not pass through the pericardial transverse sinus, which carries no vessel at all through its own passage.
+## correct_answer
+A
+## main_concept
+CON-CVS-3706498A4F8F97
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Anatomy
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of the correct statement
+## learning_objective
+Locate the transverse sinus between the arterial end of the heart in front and the venous end behind.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p21 q84. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-40E4506591B4
+## title
+Concerning the oblique sinus of the serous pericardium, indicate the accepted statement:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the oblique sinus of the serous pericardium, indicate the accepted statement:
+## answer_a
+Situated in front of left atrium
+## explanation_a
+The oblique sinus lies behind the left atrium, not in front of it — it is a blind recess extending upwards between the back of the left atrium (in front of the sinus) and the fibrous pericardium (behind it).
+## answer_b
+Behind left atrium and is bounded by the 4 pulmonary veins
+## explanation_b
+This is the correct answer. The oblique sinus sits behind the left atrium and is bounded by the pericardial reflections onto the four pulmonary veins (two right, two left) as well as the SVC and IVC — closed above where the reflection covers the left atrium's posterior surface, and open only below into the main pericardial cavity.
+
+Why this is right:
+- The visceral layer of serous pericardium sends two tube-like extensions over the roots of the great vessels: an anterior tube enclosing the ascending aorta and pulmonary trunk together, and a posterior tube enclosing parts of the superior and inferior venae cavae and the four pulmonary veins.
+## answer_c
+Behind left atrium and bounded by the pulmonary veins and both of superior
+## explanation_c
+This restates part of the true boundary (the pulmonary veins) but omits that the sinus's closure and shape also depend on the SVC and IVC reflections named in the fuller, correct description — the detail that distinguishes the accepted statement from this partial one.
+## answer_d
+It lodges the great cardiac vein
+## explanation_d
+The oblique sinus does not lodge the great cardiac vein — that vein runs in the anterior interventricular groove and then the coronary sulcus to drain into the coronary sinus, on the heart's surface rather than within this pericardial recess.
+## answer_e
+It transmits the posterior interventricular artery
+## explanation_e
+The oblique sinus does not transmit the posterior interventricular artery — that artery runs on the heart's diaphragmatic surface in the posterior interventricular groove, not through this blind pericardial recess.
+## correct_answer
+B
+## main_concept
+CON-CVS-3706498A4F8F97
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Anatomy
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of the accepted statement
+## learning_objective
+State that the oblique sinus lies behind the left atrium, bounded by the reflections onto the pulmonary veins and venae cavae.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p21 q83. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-982F81B06212
+## title
+is fused to fibrous pericardium XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is fused to fibrous pericardium XXX
+## answer_a
+epicardium
+## explanation_a
+The epicardium is the visceral layer of serous pericardium, covering the heart itself — it is not the layer fused to the fibrous pericardium; that is the parietal layer, on the opposite side of the pericardial cavity.
+## answer_b
+myocardium
+## explanation_b
+The myocardium is the heart's muscular wall, deep to the epicardium — it has no direct relationship to the fibrous pericardium, which lies external to the whole serous pericardial sac.
+## answer_c
+visceral layer
+## explanation_c
+The visceral layer of serous pericardium covers the heart directly, as the epicardium — it is separated from the fibrous pericardium by the pericardial cavity, not fused to it.
+## answer_d
+parietal layer,
+## explanation_d
+This is the correct answer. The parietal layer of the serous pericardium lines the internal surface of the fibrous pericardium, the two effectively fused together, while the visceral layer (epicardium) covers the heart on the cavity's opposite side.
+
+Why this is right:
+- The pericardium has two coats.
+## correct_answer
+D
+## main_concept
+CON-CVS-0420EB34A2E424
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Histology-general
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the parietal layer of serous pericardium as the layer that lines the fibrous pericardium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q8. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-5E34BD302BDA
+## title
+Regarding the oblique sinus of the pericardium, one of the following statements is true:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the oblique sinus of the pericardium, one of the following statements is true:
+## answer_a
+Itis ablind recess between the right atrium anteriorly and fibrous pericardium posteriorly.
+## explanation_a
+The oblique sinus is a blind recess between the left atrium (not the right atrium) anteriorly and the fibrous pericardium posteriorly — the right atrium plays no part in bounding this sinus.
+## answer_b
+Below, the sinus is open into the main pericardial cavity.
+## explanation_b
+This is the correct answer. The oblique sinus is closed above, by the pericardial reflection onto the back of the left atrium, but open below into the main pericardial cavity, between the IVC and the lower left pulmonary vein.
+
+Why this is right:
+- The visceral layer of serous pericardium sends two tube-like extensions over the roots of the great vessels: an anterior tube enclosing the ascending aorta and pulmonary trunk together, and a posterior tube enclosing parts of the superior and inferior venae cavae and the four pulmonary veins.
+## answer_c
+The entrance to the sinus is bounded by the S.V.C and the lower left pulmonary vein.
+## explanation_c
+The entrance to the oblique sinus is not bounded by the SVC and the lower left pulmonary vein together in this way — its boundaries are the pericardial reflections onto the SVC, the two right pulmonary veins and the IVC on the right, and onto the two left pulmonary veins on the left, closed above by the reflection onto the left atrium.
+## answer_d
+Itis related on the left side to the right pulmonary veins.
+## explanation_d
+The oblique sinus is related on its right side to the right pulmonary veins (via the pericardial reflections onto them), not to the right pulmonary veins on its left side — sides are swapped in this distractor.
+## correct_answer
+B
+## main_concept
+CON-CVS-3706498A4F8F97
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Pericardium
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of the true statement
+## learning_objective
+State that the oblique sinus opens below into the main pericardial cavity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p13 q102. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4663024BFB40
+## title
+Regarding the pericardium, select true statement:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pericardium, select true statement:
+## answer_a
+the strong sternopericardial ligaments connect fibrous pericardium to the sternum
+## explanation_a
+This is the correct answer. The fibrous pericardium's anterior surface is fixed to the sternum by the superior and inferior sternopericardial ligaments, helping anchor the pericardial sac within the middle mediastinum.
+
+Why this is right:
+- The pericardium has two coats.
+## answer_b
+the superior vena cava does not fuse with the fibrous pericardium
+## explanation_b
+The fibrous pericardium in fact fuses with the outer coats of the great vessels, including the superior vena cava, at the level of the sternal angle — it does not spare the SVC from this fusion.
+## answer_c
+the parietal layer of the serous pericardium has no nerve supply
+## explanation_c
+The parietal layer of the serous pericardium is supplied by the phrenic nerves and is pain-sensitive, as in pericarditis — it is not without nerve supply; it is the visceral layer (epicardium) that is pain-insensitive.
+## answer_d
+the transverse sinus separates the four pulmonary veins
+## explanation_d
+The transverse sinus does not separate the four pulmonary veins from one another — those veins, together with the SVC and IVC, form part of the posterior tube bounding the sinus's venous-end wall; it is the oblique sinus that lies among the pulmonary veins' reflections.
+## correct_answer
+A
+## main_concept
+CON-CVS-0420EB34A2E424
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Pericardium
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the true statement
+## learning_objective
+Name the sternopericardial ligaments as the structures fixing the fibrous pericardium to the sternum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q6. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BD302A04011E
+## title
+Regarding the pericardium, the following statements are correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pericardium, the following statements are correct, EXCEPT:
+## answer_a
+The fibrous pericardium fuses with the outer coats of the blood vessels
+## explanation_a
+True, and so not the answer sought. The fibrous pericardium fuses with the outer coats of the great vessels at the level of the sternal angle, where its upward-directed apex blends with them.
+## answer_b
+The two layers of the serous pericardium are continuous with each other
+## explanation_b
+True, and so not the answer sought. The parietal and visceral layers of the serous pericardium are continuous with each other at the points where the visceral layer reflects off the great vessels onto the parietal layer — the same continuity every serous membrane's two layers share.
+## answer_c
+The phrenic nerves are embedded in the lateral walls of the fibrous
+## explanation_c
+This is the false statement, and the correct answer. The phrenic nerves run alongside the fibrous pericardium's lateral surface, together with the pericardiacophrenic vessels, on their way to the diaphragm — they are companions of the pericardium, not embedded within the substance of its wall.
+
+Why this is right:
+- The fibrous pericardium and the parietal layer of serous pericardium are supplied by the phrenic nerves, which carry somatic sensation and make this pericardium sensitive to pain, as in pericarditis; their arterial supply is from the internal thoracic arteries and their pericardiacophrenic and musculophrenic branches and from the descending aorta, with venous drainage through the azygos system.
+## answer_d
+The transverse sinus lies between the ascending aorta anteriorly and the
+## explanation_d
+True, and so not the answer sought. The transverse sinus lies exactly there — between the ascending aorta and pulmonary trunk anteriorly (the arterial end) and the SVC and atria posteriorly (the venous end).
+## correct_answer
+C
+## main_concept
+CON-CVS-2DB020EDD28EB7
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Anatomy
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the false statement about the phrenic nerve's relationship to the fibrous pericardium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p11 q45. Manifest src_c30d947377670cb99a40.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -9279,6 +9937,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-67394125BEB6
+## title
+Regarding the mononuclear phagocytic system:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the mononuclear phagocytic system:
+## answer_a
+Differentiate from b lymphocytes
+## explanation_a
+Every cell of the mononuclear phagocyte system differentiates from a blood monocyte, not from a B lymphocyte — B lymphocytes belong to a separate, antibody-producing lineage entirely.
+## answer_b
+Stained with supravital stains
+## explanation_b
+This is the correct answer. Cells of the mononuclear phagocyte system take up a vital stain, such as trypan blue or Indian ink injected into an animal, accumulating the dye in their cytoplasm — this vital-stain behaviour is how the system was first mapped histologically across its many named sites.
+
+Why this is right:
+- The macrophage system, or mononuclear phagocytic system, is a group of highly phagocytic cells widely distributed in the body, constituting an important defence mechanism.
+## answer_c
+Cells have eccentric kidney shaped nucleus
+## explanation_c
+The mononuclear phagocyte system's cells have an eccentric oval or kidney-shaped nucleus, not eccentric kidney-shaped alone without qualification of position — but more importantly, this feature describes their nuclear morphology, not the vital-stain uptake this question's stem specifically distinguishes as the answer.
+## answer_d
+Plasma cells are one of its components
+## explanation_d
+Plasma cells are terminally differentiated B lymphocytes that secrete antibody — they are not part of the monocyte-derived mononuclear phagocyte system, which is a functionally and developmentally distinct lineage.
+## correct_answer
+B
+## main_concept
+CON-HEM-D1628423BE0844
+## library_ids
+ART-104-HIS-MACROPHAGE-SYSTEM
+## topic
+Lymphatic
+## subtopic
+Macrophage system
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Macrophage System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that vital-stain uptake (e.g. trypan blue) is a defining feature of the mononuclear phagocyte system.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q2. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
