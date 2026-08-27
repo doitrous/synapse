@@ -144,6 +144,12 @@
    "cluster": "Physiology / Respiratory: Gas Transport + Gas Exchange + Organization + Pulmonary Compliance",
    "keyed": 18,
    "excluded": 2
+  },
+  {
+   "batch": 25,
+   "cluster": "Physiology (end) + unclassified mixed subject - Pulmonary Compliance tail, apoptosis, small granule cells, misc",
+   "keyed": 15,
+   "excluded": 5
   }
  ],
  "keyed": {
@@ -3384,6 +3390,153 @@
     "D": "Vital capacity is the maximum volume exhaled after maximal inspiration, an unrelated lung volume concept."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-one-can-increase-the-compliance-of-blood-vessels-3a01102d": {
+   "answer": "B",
+   "explanation": "Oestrogen has a well-established vasodilatory and vessel-relaxing effect on the vascular wall, and is associated with genuinely increased vascular compliance -- part of the physiological basis for pre-menopausal women's generally more compliant vasculature and comparatively lower cardiovascular risk compared with men or post-menopausal women. This is the opposite effect from sympathetic activation (which causes smooth muscle contraction/vasoconstriction, decreasing compliance), ageing (classically associated with arterial stiffening and decreased compliance, from increased collagen and decreased elastin content), and atherosclerosis (plaque-related wall stiffening that directly decreases compliance).",
+   "distractorNotes": {
+    "A": "Sympathetic activation causes vascular smooth muscle contraction (vasoconstriction), which decreases, not increases, vessel compliance.",
+    "C": "Ageing is classically associated with progressive arterial stiffening (decreased elastin, increased collagen), decreasing rather than increasing compliance.",
+    "D": "Atherosclerosis stiffens the vessel wall with plaque deposition, decreasing rather than increasing compliance."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "all-characters-of-extra-pulmonary-bronchi-except-5edbbc7f": {
+   "answer": "C",
+   "explanation": "At the level of the extrapulmonary (primary) bronchi, which still retain C-shaped incomplete cartilage rings much like the trachea, the smooth muscle coat has not yet developed into a fully continuous, complete circumferential layer -- that more fully developed circular smooth muscle arrangement is a feature that progressively develops further along the airway, becoming most complete at the level of the intrapulmonary bronchi and bronchioles, where cartilage support becomes discontinuous or absent altogether. The other statements are correct for extrapulmonary bronchi: their lumen is comparatively wide and less folded, they retain C-shaped incomplete rings of hyaline cartilage, and they contain muco-serous glands in the submucosa, all features shared with the trachea just proximal to them.",
+   "distractorNotes": {
+    "A": "True: extrapulmonary bronchi have a comparatively wide, less folded lumen compared with more distal, smaller airway segments.",
+    "B": "True: extrapulmonary bronchi retain C-shaped incomplete rings of hyaline cartilage, similar to the trachea.",
+    "D": "True: muco-serous glands are present in the submucosa of extrapulmonary bronchi, as in the trachea."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "all-of-the-following-cause-pulmonary-vasoconstriction-except-44323c47": {
+   "answer": "D",
+   "explanation": "Nitric oxide is one of the most potent vasodilators known, acting on pulmonary (and systemic) vascular smooth muscle to relax and dilate vessels -- it is, in fact, used clinically as inhaled nitric oxide specifically to treat pulmonary hypertension by causing pulmonary vasodilation, the functional opposite of vasoconstriction. This makes it the clear exception among genuine causes of pulmonary vasoconstriction: low alveolar PO2 is the classic trigger for hypoxic pulmonary vasoconstriction (a unique feature of the pulmonary circulation, redirecting blood flow away from poorly ventilated regions), high alveolar PCO2 contributes as an associated vasoconstrictor stimulus, and histamine, despite being a systemic vasodilator, causes vasoconstriction of larger pulmonary vessels.",
+   "distractorNotes": {
+    "A": "Low alveolar PO2 is the classic, defining trigger of hypoxic pulmonary vasoconstriction, a genuine cause.",
+    "B": "High alveolar PCO2 is a genuine, established contributing cause of pulmonary vasoconstriction.",
+    "C": "Histamine, despite its systemic vasodilator role, causes vasoconstriction specifically in the larger pulmonary vessels, a genuine cause in this context."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "all-of-the-following-help-drainage-of-lymph-except-6cd27447": {
+   "answer": "A",
+   "explanation": "Negative (not positive) intrathoracic pressure is what helps draw lymph toward the great veins at the thoracic inlet, since the suction effect of subatmospheric intrathoracic pressure (particularly during inspiration) enhances the pressure gradient favouring lymph flow into the venous system -- positive intrathoracic pressure would instead work against this gradient, impeding rather than helping lymph drainage, making it the correct exception. The other listed mechanisms are all genuine contributors to lymph propulsion: the skeletal muscle pump compresses lymphatic vessels during muscle contraction, collecting lymphatics have their own intrinsic peristaltic contractile activity, and one-way valves throughout the lymphatic system ensure lymph moves only centrally, preventing backflow.",
+   "distractorNotes": {
+    "B": "Contraction of skeletal muscles surrounding lymphatics genuinely helps propel lymph centrally, analogous to the venous skeletal muscle pump.",
+    "C": "Peristaltic contraction of collecting lymphatics is a genuine, intrinsic mechanism actively propelling lymph forward.",
+    "D": "Valves in lymphatic vessel walls genuinely help lymph drainage by preventing backflow, ensuring unidirectional, centrally-directed flow."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "apoptosis-is-characterized-by-the-following-d02e77f3": {
+   "answer": "B",
+   "explanation": "Apoptosis is defined as an active, energy-requiring, genetically programmed form of cell death, distinct from necrosis, which is typically a passive, pathological response to injury. This is why apoptosis is not exclusively a pathological process (it occurs normally in development, tissue turnover, and immune regulation), does not involve cells and organelles swelling and bursting (that describes necrosis, whereas apoptosis instead involves cell shrinkage, chromatin condensation, and formation of membrane-bound apoptotic bodies without membrane rupture or inflammation), and is not typically caused by anoxia or toxin exposure (which are classic triggers of necrosis, an accidental/pathological form of cell death, rather than the internally-regulated programme of apoptosis).",
+   "distractorNotes": {
+    "A": "Apoptosis is a normal, physiological process occurring in development, tissue homeostasis, and immune regulation, not exclusively a pathological one.",
+    "C": "Cell and organelle swelling followed by membrane rupture describes necrosis, not apoptosis, which instead involves cell shrinkage without rupture.",
+    "D": "Anoxia and toxin exposure are classic causes of necrosis (accidental, pathological cell death), not the internally-programmed process of apoptosis."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-apoptosis-25140e67": {
+   "answer": "A",
+   "explanation": "This is a duplicate of the sibling question; apoptosis is defined as programmed cell death, an active, genetically-regulated process distinct from necrosis, which instead involves cell swelling (not the shrinkage seen in apoptosis) and is classically caused by external insults like toxins or anoxia (rather than being the internally-programmed process apoptosis represents).",
+   "distractorNotes": {
+    "B": "Cell swelling and increase in size describes necrosis, not apoptosis, which instead involves cell shrinkage.",
+    "C": "Anoxia and toxin exposure are classic causes of necrosis, not the internally-programmed process of apoptosis."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-laminar-blood-flow-one-is-incorrect-eb00a7cf": {
+   "answer": "C",
+   "explanation": "Laminar flow is generally maintained up to a Reynolds number of roughly 2000, not as low as 400 -- this substantially understates the threshold at which flow remains laminar, making it the incorrect statement here. The other statements are correct: laminar flow genuinely occurs as concentric, parallel layers (laminae) of fluid, it is characteristically silent (unlike the audible turbulent flow that produces murmurs), and Reynolds numbers above roughly 2000 do mark the transition toward turbulent (non-laminar) flow, consistent with standard fluid dynamics teaching.",
+   "distractorNotes": {
+    "A": "True: laminar flow is defined by fluid moving in concentric, parallel layers.",
+    "B": "True: laminar flow is characteristically silent, unlike the audible turbulent flow that produces murmurs and bruits.",
+    "D": "True: a Reynolds number above roughly 2000 marks the standard threshold for the transition toward turbulent flow."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-small-granule-cells-2d4e1325": {
+   "answer": "C",
+   "explanation": "Small granule (pulmonary neuroendocrine/Kulchitsky) cells of the airway epithelium are innervated by afferent nerve endings at their base, allowing them to function as chemoreceptors sensitive to changes in the gas composition of inhaled air, a defining and frequently tested feature of this cell type. Their secretory granules are actually electron-DENSE (not electron-lucent), a characteristic shared with other APUD/neuroendocrine cells throughout the body, distinguishing this option's claim from the correct ultrastructural appearance, and their progenitor/stem-cell role in airway epithelial renewal is instead attributed to basal cells, not small granule cells.",
+   "distractorNotes": {
+    "A": "Small granule cells have electron-DENSE, not electron-lucent, secretory granules, typical of neuroendocrine (APUD) cells.",
+    "B": "The stem/progenitor cell role in renewing airway epithelium belongs to basal cells, not small granule cells.",
+    "D": "Small granule cells may exert some local paracrine influence on airway smooth muscle via their secreted peptides, a plausible but secondary role compared with their more classically emphasized chemoreceptor/afferent innervation function."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-small-granule-cells-it-i-85641459": {
+   "answer": "C",
+   "explanation": "This is a duplicate of the sibling question; small granule (pulmonary neuroendocrine) cells are defined by their basal afferent nerve endings, functioning as chemoreceptors for inhaled gas composition, rather than by electron-lucent granules (they are actually electron-dense) or a stem-cell/progenitor role (which belongs to basal cells instead).",
+   "distractorNotes": {
+    "A": "Small granule cells have electron-DENSE, not electron-lucent, granules.",
+    "B": "The stem/progenitor role in airway epithelial renewal belongs to basal cells, not small granule cells.",
+    "D": "A possible paracrine effect on airway calibre is a secondary, less classically emphasized role compared with the cells' primary chemoreceptor/afferent innervation function."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-olfactory-epithelium-9305cebb": {
+   "answer": "D",
+   "explanation": "Olfactory epithelium is classified as a specialised neuroepithelium -- an epithelial layer that itself contains true neurons (the olfactory receptor cells) -- responsible for the sensation of smell, a defining and comprehensive characterisation of this tissue. This distinguishes it from misattributed features: it is the olfactory receptor neurons, not the supporting (sustentacular) cells, that bear the specialised cilia housing odorant receptors; olfactory receptor neurons are classically bipolar (not unipolar), with one dendrite reaching the surface and one axon projecting centrally; and basal cells serve as the epithelium's stem/progenitor cell population, not as sensory receptors themselves.",
+   "distractorNotes": {
+    "A": "It is the olfactory receptor neurons, not the supporting (sustentacular) cells, that bear the specialised olfactory cilia; supporting cells instead have microvilli.",
+    "B": "Olfactory receptor neurons are classically bipolar cells (one dendrite, one axon), not unipolar.",
+    "C": "Basal cells function as the stem/progenitor cell population of the olfactory epithelium, not as sensory receptor cells themselves."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "diacrotic-notch-is-due-to-e9c90ebf": {
+   "answer": "B",
+   "explanation": "The dicrotic notch on the aortic pressure trace is caused by the sudden closure of the aortic (semilunar) valve at the end of ventricular ejection, which abruptly halts the brief backflow of blood toward the ventricle that occurs as ventricular pressure falls below aortic pressure -- this sudden valve closure produces the small, characteristic notch followed by a slight secondary pressure rise seen on the descending limb of the aortic pressure curve. This is distinct from AV valve closure (which produces the first heart sound and relates to a different point in the cardiac cycle), and from simply describing a pressure decrease or ventricular pressure change, which are consequences related to the notch's timing rather than its direct mechanical cause.",
+   "distractorNotes": {
+    "A": "Closure of the AV valves produces the first heart sound at the start of ventricular systole, an entirely different event from the dicrotic notch on the aortic pressure curve.",
+    "C": "A decrease in aortic pressure is what is observed around the notch, but the direct mechanical CAUSE of the notch itself is the aortic valve's sudden closure.",
+    "D": "A decrease in ventricular pressure is a related, concurrent event, but the dicrotic notch is specifically a feature of the aortic pressure trace, directly caused by aortic valve closure."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "during-quiet-inspiration-ipp-equals-a-1mmug-003c6ae3": {
+   "answer": "C",
+   "explanation": "By the end of a quiet (normal) inspiration, intrapleural pressure (IPP) has become more negative, reaching approximately -6 mmHg (once the commonly OCR-lost negative sign is accounted for), a more negative value than the roughly -2.5 to -4 mmHg present at the end of expiration, reflecting the greater transpulmonary pressure needed to hold the lung at its larger, more expanded end-inspiratory volume.",
+   "distractorNotes": {
+    "B": "Intrapleural pressure never reaches 0 mmHg (atmospheric) at any point during normal quiet breathing; it remains negative throughout the entire cycle.",
+    "D": "A positive value contradicts the well-established fact that intrapleural pressure stays negative throughout normal quiet breathing."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8": {
+   "answer": "D",
+   "explanation": "Normal arterial blood carries approximately 20 mL of oxygen per 100 mL of blood (roughly 20 volumes percent), combining the small amount dissolved directly in plasma (about 0.3 mL/100 mL) with the much larger amount bound to haemoglobin, which accounts for the vast majority of the total oxygen-carrying capacity. This standard reference value is a foundational figure in respiratory physiology, used as the baseline for calculating oxygen delivery, arteriovenous oxygen content differences, and oxygen consumption.",
+   "distractorNotes": {
+    "A": "2 mL oxygen/100 mL blood substantially understates the normal arterial oxygen content.",
+    "B": "5 mL oxygen/100 mL blood substantially understates the normal arterial oxygen content.",
+    "C": "10 mL oxygen/100 mL blood understates the normal arterial oxygen content, being roughly half the accepted normal value."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "in-normal-individual-respiration-is-regulated-by-all-except-7e8ddaae": {
+   "answer": "A",
+   "explanation": "Central chemoreceptors do not directly respond to changes in PO2 at all -- they are specifically and predominantly sensitive to changes in PCO2 (via the resulting changes in CSF H+ concentration), making the claim that they respond to PO2 changes the incorrect statement here. Oxygen tension is instead detected primarily by the peripheral chemoreceptors, which do respond to PO2 (their most potent stimulus) and also contribute some response to PCO2/pH changes, while the central chemoreceptors' role is specifically and predominantly built around PCO2/H+ sensing, not oxygen sensing.",
+   "distractorNotes": {
+    "B": "Peripheral chemoreceptors do have some genuine sensitivity to PCO2/pH changes, in addition to their primary PO2 sensitivity.",
+    "C": "Peripheral chemoreceptors responding to PO2 changes is their primary, most potent and well-established stimulus, a genuine regulatory mechanism.",
+    "D": "Central chemoreceptors responding to PCO2 changes is their primary, dominant, and well-established regulatory mechanism."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "intra-alveolar-pressure-a-is-negative-throughout-normal-quie-fa946e59": {
+   "answer": "B",
+   "explanation": "Intra-alveolar (intrapulmonary) pressure equals atmospheric pressure (zero relative pressure) specifically at the brief transition points between inspiration and expiration, when airflow momentarily stops because there is no pressure gradient driving air movement at that instant. This distinguishes intra-alveolar pressure from intrapleural pressure: alveolar pressure genuinely fluctuates both above (during expiration) and below (during inspiration) atmospheric pressure across the breathing cycle, rather than being negative throughout as the embedded claim states, and during QUIET (not forced) breathing, its excursions above or below atmospheric are modest (roughly 1-2 mmHg), not as large as 5-6 mmHg, which would instead describe forced breathing.",
+   "distractorNotes": {
+    "C": "During quiet (not forced) expiration, alveolar pressure rises only modestly above atmospheric (roughly 1-2 mmHg), not by as much as 5-6 mmHg, which would instead characterise forced expiration.",
+    "D": "During quiet (not forced) inspiration, alveolar pressure falls only modestly below atmospheric (roughly 1-2 mmHg), not by as much as 5-6 mmHg, which would instead characterise forced inspiration."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -3869,6 +4022,21 @@
   },
   "concerning-the-residual-volume-a-represents-more-than-30-of-b7834ad1": {
    "reason": "The stem's own embedded claims about residual volume (representing more than 30% of TLC; averaging 2200 mL) have no surviving option letters, options A and B are both garbled duplicate labels ('vital capacity (VC)') rather than distinct statements, option D is confidently false (RV is not defined as the sum of tidal volume and expiratory reserve volume), and option C's claim (that residual volume 'aerates blood between breaths') more precisely describes functional residual capacity as a whole rather than residual volume specifically, making it an imprecise attribution rather than a clean, confident answer."
+  },
+  "an-old-man-suffers-from-pulsatile-retrosternal-chest-pain-wh-65035639": {
+   "reason": "This is a discursive clinical-vignette exam prompt with open-ended sub-questions ('name the organ and diagnosis', 'explain the reason for...') rather than a single-best-answer multiple-choice item -- not keyable as an MCQ."
+  },
+  "concerning-the-base-of-the-heart-choose-the-incorrect-answer-e10f37be": {
+   "reason": "All four statements about the base of the heart (formed by the atria; upper border related to the pulmonary arteries; coronary sinus opening lying between the IVC and tricuspid openings; fossa ovalis marking the site of the fetal foramen ovale) are individually correct, standard anatomical facts -- no statement stands out as the intended incorrect one among them."
+  },
+  "costocervical-trunk-b-vertebral-artery-transverse-cervical-a-2c56970b": {
+   "reason": "The stem is a corrupted merge of a costocervical trunk branches list with a separate sternal-angle question, and the options mix an unrelated vertebral-level value and the start of yet another question about the internal mammary artery's origin. No single coherent question survives."
+  },
+  "during-quiet-inspiration-ipp-equals-190312a7": {
+   "reason": "Option A is a value inconsistent with the standard 'quiet inspiration' figure, option C has merged two oppositely-signed values into one unusable blob ('-6 mmHg : +6 mmHg'), and option E is an entirely separate, unrelated question stem bled into this row's options. No single letter can be confidently assigned to the correct answer."
+  },
+  "in-the-following-figure-which-answer-is-correct-29499284": {
+   "reason": "This question depends on viewing an accompanying histology figure/image that is not available in the text extraction -- the answer (including what the asterisk points to) cannot be determined from text alone."
   }
  }
 }
