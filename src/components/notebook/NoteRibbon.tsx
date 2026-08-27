@@ -45,6 +45,13 @@ import {
   type TextFormatType,
 } from 'lexical'
 import { $createLinkNode, TOGGLE_LINK_COMMAND } from '@lexical/link'
+import {
+  $deleteTableColumnAtSelection,
+  $deleteTableRowAtSelection,
+  $insertTableColumnAtSelection,
+  $insertTableRowAtSelection,
+  INSERT_TABLE_COMMAND,
+} from '@lexical/table'
 import { INSERT_HORIZONTAL_RULE_COMMAND } from '@lexical/react/LexicalHorizontalRuleNode'
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext'
 import { Icon } from '@/components/ui/Icon'
@@ -246,16 +253,55 @@ function InsertRibbon({ editor, uploadImage }: { editor: LexicalEditor; uploadIm
       <IconButton icon={ImageIcon} label="Insert image" size="sm" onMouseDown={stop} onClick={() => fileInput.current?.click()} />
       <ReadyItemMenu editor={editor} />
       <LinkMenu editor={editor} />
-      <RibbonDivider />
+      <TableMenu editor={editor} />
+    </>
+  )
+}
+
+function TableMenu({ editor }: { editor: LexicalEditor }) {
+  const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
+
+  const runInTable = (fn: () => void) => editor.update(fn)
+  const action = (label: string, run: () => void) => (
+    <button
+      type="button"
+      onMouseDown={stop}
+      onClick={() => { close(); run() }}
+      className="flex w-full items-center gap-2 rounded-md px-2.5 py-1.5 text-start text-[12.5px] text-ink-2 transition-colors hover:bg-inset hover:text-ink"
+    >
+      {label}
+    </button>
+  )
+
+  return (
+    <>
       <button
         type="button"
-        disabled
-        title="Table — coming soon"
-        className="grid size-11 shrink-0 cursor-not-allowed place-items-center rounded-lg text-ink-3/60 sm:size-8"
+        ref={setAnchor}
+        onMouseDown={stop}
+        onClick={() => setOpen(true)}
+        aria-haspopup="menu"
+        aria-expanded={open}
+        aria-label="Table"
+        title="Table"
+        className="flex h-11 shrink-0 items-center gap-1.5 rounded-lg px-2 text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:h-8"
       >
         <Icon icon={Table2} size={16} />
+        <Icon icon={ChevronDown} size={12} className="text-ink-3" />
       </button>
-      <Badge tone="outline" className="ms-1">Table soon</Badge>
+      {open && (
+        <Popover anchor={anchor} onClose={close} role="menu" label="Table" className="min-w-[13rem] p-1">
+          {action('Insert table (3 × 3)', () => editor.dispatchCommand(INSERT_TABLE_COMMAND, { columns: '3', rows: '3', includeHeaders: true }))}
+          <div className="my-1 border-t border-line" />
+          <p className="px-2.5 pb-1 pt-0.5 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">Edit (inside a table)</p>
+          {action('Insert row below', () => runInTable(() => { $insertTableRowAtSelection(true) }))}
+          {action('Insert row above', () => runInTable(() => { $insertTableRowAtSelection(false) }))}
+          {action('Insert column right', () => runInTable(() => { $insertTableColumnAtSelection(true) }))}
+          {action('Insert column left', () => runInTable(() => { $insertTableColumnAtSelection(false) }))}
+          {action('Delete row', () => runInTable(() => { $deleteTableRowAtSelection() }))}
+          {action('Delete column', () => runInTable(() => { $deleteTableColumnAtSelection() }))}
+        </Popover>
+      )}
     </>
   )
 }

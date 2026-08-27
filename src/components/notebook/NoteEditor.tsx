@@ -8,6 +8,7 @@ import {
 } from 'lexical'
 import { ListItemNode, ListNode } from '@lexical/list'
 import { LinkNode } from '@lexical/link'
+import { TableCellNode, TableNode, TableRowNode } from '@lexical/table'
 import { HeadingNode, QuoteNode } from '@lexical/rich-text'
 import { HorizontalRuleNode } from '@lexical/react/LexicalHorizontalRuleNode'
 import { HorizontalRulePlugin } from '@lexical/react/LexicalHorizontalRulePlugin'
@@ -19,6 +20,7 @@ import { HistoryPlugin } from '@lexical/react/LexicalHistoryPlugin'
 import { LexicalErrorBoundary } from '@lexical/react/LexicalErrorBoundary'
 import { ListPlugin } from '@lexical/react/LexicalListPlugin'
 import { LinkPlugin } from '@lexical/react/LexicalLinkPlugin'
+import { TablePlugin } from '@lexical/react/LexicalTablePlugin'
 import { OnChangePlugin } from '@lexical/react/LexicalOnChangePlugin'
 import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin'
 import { Icon } from '@/components/ui/Icon'
@@ -63,7 +65,7 @@ const BASE_FONT_PX = 15
  * heading, quote, checklist or horizontal line saved by one renders
  * correctly everywhere the note is shown.
  */
-const NOTE_NODES = [ListNode, ListItemNode, HeadingNode, QuoteNode, HorizontalRuleNode, LinkNode, ImageNode, ReadyItemNode]
+const NOTE_NODES = [ListNode, ListItemNode, HeadingNode, QuoteNode, HorizontalRuleNode, LinkNode, TableNode, TableRowNode, TableCellNode, ImageNode, ReadyItemNode]
 
 const theme = {
   paragraph: 'mb-2',
@@ -75,6 +77,12 @@ const theme = {
   },
   quote: 'mb-2 border-s-[3px] border-primary-line ps-3 italic text-ink-2',
   link: 'text-primary underline underline-offset-2 hover:text-primary-strong cursor-pointer',
+  table: 'my-3 w-max border-collapse overflow-hidden text-[0.95em]',
+  tableRow: '',
+  tableCell: 'min-w-[5rem] border border-line-2 p-2 align-top',
+  tableCellHeader: 'bg-inset font-semibold',
+  tableSelection: 'bg-primary-tint',
+  tableCellSelected: 'bg-primary-tint',
   hr: 'my-4 border-0 border-t border-line-2',
   list: {
     nested: { listitem: 'list-none' },
@@ -165,6 +173,7 @@ export function NoteEditor({
       <ListPlugin />
       <CheckListPlugin />
       <LinkPlugin />
+      <TablePlugin />
       <HorizontalRulePlugin />
       <LoadEditorStatePlugin editorJson={editorJson} locallyEmittedStates={locallyEmittedStates.current} />
       <OnChangePlugin
