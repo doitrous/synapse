@@ -21,7 +21,7 @@
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
-    Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
+    Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  5 questions were excluded and 0 held back for having no
+  9 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -11236,6 +11236,654 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-104-CC09864C9BB0
+## title
+All characters of Blood thymic barrier except
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of Blood thymic barrier except
+## answer_a
+allow immature T-lymph to multiply without foreign antigen
+## explanation_a
+True of the blood-thymic barrier, so not the exception. Its function is to let immature T lymphocytes multiply and differentiate in an environment free of foreign antigen before they migrate onward.
+## answer_b
+contain Continuous endothelium, thick basement membrane
+## explanation_b
+True, so not the exception. Continuous capillary endothelium with a thick basement membrane is one of the barrier's four layers.
+## answer_c
+contain T-lymphocyte in cortex not medulla
+## explanation_c
+True, so not the exception. The blood-thymic barrier protects the cortical thymocytes, which is exactly why it is a cortex, not a medulla, structure.
+## answer_d
+contain T-lymphocyte medulla not cortex ,
+## explanation_d
+The exception, and the answer. The blood-thymic barrier contains T-lymphocytes in the cortex, not the medulla — reversing this is the false statement among the five.
+
+Why this is right:
+- The thymus is a primary lymphoid organ with an endocrine function, and unlike the lymph node and spleen it has a double origin: its lymphocytes (the thymocytes) are mesodermal, while its epithelial reticular cells are endodermal.
+## answer_e
+contain complete lager of reticular cell form sheath
+## explanation_e
+True, so not the exception. A complete layer of epithelial reticular cells joined by tight junctions, forming a sheath, is the barrier's outermost of its four layers.
+## correct_answer
+D
+## main_concept
+CON-HEM-817D336693039E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the blood-thymic barrier protects thymocytes in the cortex, not the medulla, and identify that placement as the false statement among its other true characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q27. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-0EF58B3EFF2A
+## title
+Concerning the thymus, which of the following is correct? 1
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the thymus, which of the following is correct? 1
+## answer_a
+Its reticular epithelial cells are mesodermal and produce reticular fibres. |
+## explanation_a
+The thymus's epithelial reticular cells are endodermal, not mesodermal, and produce no reticular fibre at all — a lymph node's or spleen's mesenchymal reticular cells do that job, not the thymus's epithelial ones.
+## answer_b
+The blood thymic barrier is found in the medulla
+## explanation_b
+The blood-thymic barrier is a cortical feature, protecting the developing thymocytes there; the medulla lacks this strict barrier.
+## answer_c
+Ithas plasma cells and afferent lymphatic vessels. |
+## explanation_c
+The thymus characteristically has no plasma cells and no afferent lymphatic vessels at all — both absences are part of what keeps developing thymocytes isolated from blood-borne and lymph-borne antigen.
+## answer_d
+Cortex of each thymic lobule appears darker in staining than medulla
+## explanation_d
+The cortex of each thymic lobule stains darker than the medulla, because it is densely packed with small, actively dividing lymphocytes, while the medulla is paler (fewer lymphocytes, more epithelial reticular cells) and holds the Hassall's corpuscles — one of the most basic ways to orient a thymus slide at low power.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the thymic cortex stains darker than the medulla, against three false statements about origin, barrier placement and cell content.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p2 q12. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6D670A9658D9
+## title
+Concerning the thymus, which of the following is correct?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the thymus, which of the following is correct?
+## answer_a
+Its reticular epithelial cells are mesodermal and produce reticular fibres
+## explanation_a
+The thymus's epithelial reticular cells are endodermal, not mesodermal, and produce no reticular fibre.
+## answer_b
+The blood thymic barrier is found in the medulla
+## explanation_b
+The blood-thymic barrier is a cortical feature, not a medullary one.
+## answer_c
+It has plasma cell and afferent lymphatic vessels
+## explanation_c
+The thymus has no plasma cells and no afferent lymphatic vessels.
+## answer_d
+The cortex of each thymic lobule appears darker in staining than the medulla
+## explanation_d
+The cortex of each thymic lobule stains darker than the medulla, being densely populated with lymphocytes, while the paler medulla holds the Hassall's corpuscles — the same fact tested by this cluster's sibling stem.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the thymic cortex stains darker than the medulla (duplicate stem of the same true/false set).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p8 q13. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-C05F2FCBF03B
+## title
+function of epithelial reticular cell
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+function of epithelial reticular cell
+## answer_a
+secrete thymic hormone that promote T-cell proliferation
+## explanation_a
+True of the epithelial reticular cell, but only one of its three named functions, so not the complete answer the stem's 'all the above' option captures.
+## answer_b
+form sheet around septa, blood vessels
+## explanation_b
+True, but again only one of the three functions — forming a sheet around the septa and blood vessels that isolates cortical lymphocytes from blood-borne antigen.
+## answer_c
+nursing cell for lymphocyte during differentiation
+## explanation_c
+True, but the third function alone — acting as a nursing cell for the developing lymphocytes during their differentiation.
+## answer_d
+All the above
+## explanation_d
+The epithelial reticular cell does all three: it secretes thymic hormone promoting T-cell proliferation, forms a sheathing sheet around septa and blood vessels, and nurses the developing lymphocytes — three distinct, simultaneously true functions of the one cell type.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name all three of the epithelial reticular cell's functions together — secreting thymic hormone, sheathing septa/vessels, and nursing lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q26. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E9B7C17D2AB1
+## title
+Hassall's corpuscles in thymus are characterized by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Hassall's corpuscles in thymus are characterized by:
+## answer_a
+Basophilic masses
+## explanation_a
+Hassall's corpuscles are acidophilic (eosinophilic), not basophilic — their central mass of degenerating, keratinizing epithelial reticular cells takes an acid stain, not a basic one.
+## answer_b
+Found in the medulla
+## explanation_b
+Hassall's corpuscles are found specifically in the thymic medulla, never the cortex — one of the pairing (dark cortex, pale medulla with Hassall's corpuscles) that is unique to the thymus among lymphoid organs.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## answer_c
+Formed of large number of active lymphocytes
+## explanation_c
+Hassall's corpuscles are formed of a central mass of degenerating, keratinizing epithelial reticular cells, not lymphocytes — lymphocytes are simply interspersed in the surrounding medullary tissue, not the corpuscle's own building material.
+## answer_d
+Their number decreases with age
+## explanation_d
+Hassall's corpuscles increase, rather than decrease, in number as the thymus involutes with age — the opposite of this option's claim.
+## correct_answer
+B
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Thymus
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place Hassall's corpuscles in the medulla, against three false statements about their staining, composition and age trend.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q102. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2949E54EBE2F
+## title
+Regarding Hassall's corpuscles, one of the following is true:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding Hassall's corpuscles, one of the following is true:
+## answer_a
+surrounded with concentric layers of lymphocytes
+## explanation_a
+Hassall's corpuscles are surrounded by concentric layers of epithelial reticular cells, not lymphocytes — lymphocytes are simply nearby in the medullary tissue.
+## answer_b
+They are present in the cortex of the thymus
+## explanation_b
+Hassall's corpuscles are present in the medulla, not the cortex, of the thymus.
+## answer_c
+Their number increase with age
+## explanation_c
+Hassall's corpuscles' number increases with age, even as the thymus otherwise involutes and its overall lymphocyte content declines — the true statement among the four.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## answer_d
+They are formed of central basophilic hyaline masses
+## explanation_d
+Hassall's corpuscles are formed of a central ACIDOPHILIC, not basophilic, mass — a hyaline appearance from keratinizing epithelial cells, taking an acid rather than a basic stain.
+## correct_answer
+C
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that Hassall's corpuscles increase in number with age, against three false statements about their surrounding cells, location and staining.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q22. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-28BA6CB3CC5A
+## title
+The thymus is characterized by:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The thymus is characterized by:
+## answer_a
+Many 8 lymphocytes in cortex and medulla
+## explanation_a
+The thymus has no B lymphocytes at all, in either cortex or medulla — its lymphocyte population (thymocytes) is entirely T-lineage, developing under the epithelial reticular cells' supervision.
+## answer_b
+Hassall’s corpuscles in medulla
+## explanation_b
+Hassall's corpuscles, sited in the medulla, are a true and defining characteristic of the thymus — one of the two positive features (with post-pubertal involution) that complete its picture alongside its four defining absences.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## answer_c
+Large number of plasma cells
+## explanation_c
+The thymus characteristically has no plasma cells at all, unlike the lymph node and spleen, which do.
+## answer_d
+Lymphatic nodules in cortex
+## explanation_d
+The thymus has no lymphatic (lymphoid) nodules anywhere, cortex included — a defining absence that distinguishes its cortex from a lymph node's follicle-bearing cortex.
+## correct_answer
+B
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Thymus
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that Hassall's corpuscles in the medulla is the true characteristic of the thymus, against three false statements about B lymphocytes, plasma cells and lymphatic nodules.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p13 q102. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
