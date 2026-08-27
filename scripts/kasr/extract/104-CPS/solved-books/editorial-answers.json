@@ -126,6 +126,12 @@
    "cluster": "Physiology / Cardiovascular System: Electrical Activity (tail) + Mechanical Properties of Cardiac Muscle (start)",
    "keyed": 17,
    "excluded": 3
+  },
+  {
+   "batch": 22,
+   "cluster": "Physiology / Cardiovascular System: Mechanical Properties (tail) + Special Circulation + Vascular Function (start)",
+   "keyed": 17,
+   "excluded": 3
   }
  ],
  "keyed": {
@@ -2867,6 +2873,172 @@
     "D": "True: end-systolic pressure is the standard clinical and experimental proxy for afterload."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "during-excitation-contraction-coupling-of-carciac-myocyte-wh-8f883a4d": {
+   "answer": "D",
+   "explanation": "Myocardial ischemia depletes ATP, impairing the energy-dependent SERCA pump's ability to remove calcium from the cytoplasm back into the sarcoplasmic reticulum, causing intracellular calcium (and often hydrogen ions from anaerobic metabolism) to accumulate and directly interfere with normal relaxation -- a well-established mechanism underlying the diastolic dysfunction seen in ischemic myocardium. This is a genuine, correctly-described pathophysiological consequence, in contrast to calcium being 'immediately' extruded by the Na+-Ca2+ exchanger upon cell entry (the exchanger's extrusion role is more prominent during relaxation, after contraction, not immediately upon calcium's arrival), and in contrast to ryanodine receptors being inhibited during excitation-contraction coupling, when in fact they are actively opened/activated to release stored calcium.",
+   "distractorNotes": {
+    "A": "Calcium entering during depolarization first triggers calcium-induced calcium release from the sarcoplasmic reticulum, driving contraction; the Na+-Ca2+ exchanger's role in extruding calcium out of the cell is more prominent during relaxation, not immediately upon entry.",
+    "B": "Ryanodine receptors are ACTIVATED (opened), not inhibited, during excitation-contraction coupling, releasing calcium from the sarcoplasmic reticulum in response to the trigger calcium signal.",
+    "C": "Sarcoplasmic calcium uptake (via SERCA) is primarily associated with relaxation and replenishing SR calcium stores for the next beat, rather than being the direct trigger for the current contraction, which instead depends on calcium release, not uptake."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "increasing-the-inotropic-state-of-the-heart-will-ans-25958be0": {
+   "answer": "B",
+   "explanation": "Increasing the heart's inotropic state (contractility) shifts the length-tension relationship upward and to the left on a standard plot, meaning more active tension is generated at any given sarcomere length (and even at a somewhat shorter length than before), reflecting enhanced calcium handling and cross-bridge cycling independent of any change in preload. This is distinct from the force-velocity relationship, which shifts UP and to the right (not down) with increased inotropy, with Vmax (velocity at zero load) genuinely INCREASING rather than staying unchanged, and with the overall degree of myocardial shortening increasing rather than decreasing.",
+   "distractorNotes": {
+    "A": "Increased inotropy shifts the force-velocity relationship UP and to the right, not down, reflecting greater force and velocity capacity at any given load.",
+    "C": "Vmax, the velocity of shortening at zero load, genuinely INCREASES with increased inotropy -- it is a classic, load-independent index of enhanced contractility, not an unchanged parameter.",
+    "D": "Increased inotropy INCREASES, not decreases, the degree of myocyte shortening at any given preload and afterload."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "negative-inotropic-mechanisms-include-which-of-the-following-10f92c99": {
+   "answer": "C",
+   "explanation": "Inhibition of cAMP production -- as occurs with muscarinic (parasympathetic) receptor activation, which couples to inhibitory G-proteins that suppress adenylyl cyclase -- reduces downstream protein kinase A activity and calcium handling, producing a genuine negative inotropic effect (decreased contractility). This is the functional opposite of the beta-adrenergic (sympathetic) pathway, where receptor stimulation, protein kinase A activation, and increased extracellular calcium availability all instead enhance contractility as POSITIVE inotropic mechanisms.",
+   "distractorNotes": {
+    "A": "Protein Kinase A activation, downstream of beta-adrenergic stimulation, enhances calcium handling and is a POSITIVE, not negative, inotropic mechanism.",
+    "B": "Beta-adrenergic receptor stimulation increases cAMP and PKA activity, a classic POSITIVE inotropic pathway, not a negative one.",
+    "D": "Increased extracellular calcium concentration generally enhances calcium influx during the action potential, a POSITIVE, not negative, inotropic influence."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-phospholamban-pln-protein-b5c226f7": {
+   "answer": "A",
+   "explanation": "Phospholamban, in its dephosphorylated resting state, exerts an inhibitory effect on the sarco-endoplasmic reticulum calcium ATPase (SERCA), restraining its rate of calcium reuptake into the sarcoplasmic reticulum. When phospholamban itself is phosphorylated (classically by protein kinase A downstream of beta-adrenergic stimulation), this inhibition is relieved, accelerating SERCA-mediated calcium reuptake and thereby enhancing both the speed of relaxation (a positive lusitropic effect) and the amount of calcium available for the next contraction (contributing to a positive inotropic effect). This regulatory role is distinct from SERCA itself (the calcium pump phospholamban regulates), the sodium-calcium exchanger (a separate sarcolemmal transporter), and the ryanodine receptor (the SR calcium release channel).",
+   "distractorNotes": {
+    "B": "The ATP-dependent calcium pump that reuptakes calcium into the sarcoplasmic reticulum is SERCA itself, the protein phospholamban regulates, not phospholamban.",
+    "C": "The sodium-calcium exchanger that extrudes calcium out of the myocyte is a distinct sarcolemmal transporter (NCX), not phospholamban.",
+    "D": "The ryanodine-sensitive calcium release channel is a distinct sarcoplasmic reticulum protein responsible for calcium release, not phospholamban, which instead regulates calcium reuptake."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-plasticity-of-the-urinary-bladder-is-explained-by-8bf89a19": {
+   "answer": "B",
+   "explanation": "Smooth muscle 'plasticity' -- the ability to maintain relatively stable tension despite large changes in length/stretch -- reflects a length-tension relationship broadly analogous to the length-tension (Starling-type) principle more classically taught in cardiac muscle physiology, allowing an organ like the urinary bladder to accommodate substantially increased volume with only a modest rise in internal pressure. This distinguishes plasticity from Laplace's law (relating wall tension to pressure and radius, a different structural relationship), Poiseuille's law (governing fluid flow through tubes, unrelated to a hollow organ wall's length-tension behaviour), and the Reynolds number (predicting turbulent versus laminar flow, also unrelated to smooth muscle wall mechanics).",
+   "distractorNotes": {
+    "A": "Laplace's law relates wall tension to internal pressure and radius, a geometric relationship distinct from the length-tension basis of smooth muscle plasticity.",
+    "C": "Poiseuille's law describes fluid flow through a tube as a function of pressure gradient, radius, and viscosity, unrelated to bladder wall mechanics.",
+    "D": "The Reynolds number predicts whether fluid flow is laminar or turbulent, unrelated to the bladder wall's stress-relaxation behaviour."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-poiseuille-law-is-concerned-with-which-of-the-following-501dd5db": {
+   "answer": "A",
+   "explanation": "Poiseuille's law describes how flow through a tube depends on the pressure gradient, the vessel's radius (to the fourth power), the fluid's viscosity, and the vessel's length -- a relationship from which vascular resistance itself is mathematically derived (resistance is proportional to viscosity and length, and inversely proportional to radius to the fourth power). This makes vascular resistance the direct physiological application of Poiseuille's law, distinct from cardiac preload/afterload concepts or smooth muscle plasticity, which are governed by entirely different physical principles.",
+   "distractorNotes": {
+    "B": "End-diastolic volume is a cardiac filling parameter, unrelated to the flow-resistance relationship Poiseuille's law describes.",
+    "C": "Preload and afterload are cardiac loading conditions, unrelated to the vascular flow-resistance relationship Poiseuille's law addresses.",
+    "D": "Smooth muscle plasticity relates to length-tension behaviour of hollow organ walls, not to Poiseuille's flow-resistance relationship."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-68b1dda6": {
+   "answer": "C",
+   "explanation": "The force-velocity relationship of cardiac muscle describes an inverse relationship between afterload and the velocity of shortening: as afterload increases, the muscle must generate more force before it can begin to shorten at all, directly reducing the velocity at which shortening occurs, with velocity approaching zero under fully isometric (maximal afterload) conditions. This is distinct from increased preload (which can modestly increase force/velocity via the Frank-Starling mechanism, not decrease it), increased inotropy (which shifts the whole force-velocity curve upward, increasing velocity at any given afterload), and achieving Vmax (which by definition represents the maximum, not decreased, velocity, occurring specifically at zero load).",
+   "distractorNotes": {
+    "A": "Increased preload, via the Frank-Starling mechanism, can modestly increase (not decrease) force and velocity at a given afterload.",
+    "B": "Increased positive inotropic state shifts the entire force-velocity curve upward, increasing (not decreasing) velocity of shortening at any given afterload.",
+    "D": "Vmax represents the maximum velocity of shortening, achieved specifically at zero load -- the opposite extreme from a decreased velocity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "what-is-the-effect-of-sympathetic-stimulation-on-the-heart-836e2203": {
+   "answer": "D",
+   "explanation": "Sympathetic stimulation of the heart produces a coordinated set of effects that together increase cardiac performance: a positive chronotropic effect (increased heart rate, via faster SA node phase 4 depolarization), a positive inotropic effect (increased contractility, via enhanced calcium handling), and the combined result of these two effects is an increase in overall cardiac output. Since all three listed effects are genuine, interconnected consequences of sympathetic stimulation, the comprehensive 'all of the above' option is the correct choice.",
+   "distractorNotes": {},
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-conditions-would-lixely-increase-the-bf2e2eaa": {
+   "answer": "A",
+   "explanation": "Fluid infusion directly increases circulating blood volume, which raises venous return and ventricular end-diastolic filling -- the direct definition of increased preload. This contrasts with essential hypertension, whose primary haemodynamic effect is increased AFTERLOAD (the pressure the heart must pump against), not preload; hypoalbuminaemia-induced oedema, which shifts fluid OUT of the vasculature into tissues, tending to reduce (not increase) effective circulating volume and preload; and venous thrombosis, which obstructs venous return from the affected area, reducing (not increasing) preload.",
+   "distractorNotes": {
+    "B": "Essential hypertension primarily increases afterload (the resistance the heart pumps against), not preload directly.",
+    "C": "Hypoalbuminaemia-induced oedema results from fluid shifting out of the vasculature into the interstitium, reducing rather than increasing effective circulating blood volume and preload.",
+    "D": "Venous thrombosis obstructs venous return from the affected territory, reducing rather than increasing preload to the heart."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-decreases-the-myocardial-contractilit-5280d5ef": {
+   "answer": "D",
+   "explanation": "Increased parasympathetic (vagal) activity, acting through muscarinic receptors, inhibits adenylyl cyclase and reduces cAMP/PKA activity, producing a genuine negative inotropic effect that decreases myocardial contractility -- most prominently in the atria, though with some effect on ventricular tissue as well. This contrasts with catecholamines (which increase contractility via beta-adrenergic stimulation), increased heart rate (which, via the force-frequency relationship, tends to modestly increase rather than decrease contractility in most physiological ranges), and increased end-diastolic volume (which affects stroke volume via the separate, preload-dependent Frank-Starling mechanism, without directly changing the heart's intrinsic contractility).",
+   "distractorNotes": {
+    "A": "Catecholamines increase, rather than decrease, myocardial contractility via beta-adrenergic stimulation.",
+    "B": "An increase in heart rate, via the force-frequency (Bowditch/Treppe) relationship, tends to modestly increase, not decrease, contractility across most physiological rate ranges.",
+    "C": "An increase in end-diastolic volume affects stroke volume through the Frank-Starling (preload) mechanism, a distinct concept from intrinsic contractility, which it does not directly decrease."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-is-considered-a-positive-inotropic-me-b253c08c": {
+   "answer": "D",
+   "explanation": "Activation of protein kinase A, downstream of beta-adrenergic receptor stimulation and increased cAMP, phosphorylates key calcium-handling proteins (L-type calcium channels, phospholamban, troponin I) to increase the amount of calcium available in the cytoplasm during systole, producing the classic positive inotropic pathway underlying sympathetically-enhanced cardiac contractility. This contrasts with cardiac ischemia (which impairs, rather than enhances, contractility), activation of the Na+-K+ ATPase (which would tend to favour calcium extrusion via the Na+-Ca2+ exchanger, reducing rather than increasing cytoplasmic calcium), and muscarinic (M2) receptor activation with decreased cAMP (the classic NEGATIVE, parasympathetic inotropic pathway, the functional opposite of what a positive inotropic mechanism requires).",
+   "distractorNotes": {
+    "A": "Cardiac ischemia impairs ATP-dependent calcium handling and REDUCES contractility, a negative, not positive, inotropic influence.",
+    "B": "Activating the Na+-K+ ATPase lowers intracellular Na+, which favours the Na+-Ca2+ exchanger extruding more calcium from the cell, tending to REDUCE rather than increase cytoplasmic calcium and contractility.",
+    "C": "Muscarinic (M2) receptor activation with decreased cAMP is the classic negative (parasympathetic) inotropic pathway, the functional opposite of a positive inotropic mechanism."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-is-correct-0954638f": {
+   "answer": "E",
+   "explanation": "The heart genuinely receives the majority of its coronary blood supply during diastole, since ventricular contraction during systole compresses the intramural coronary vessels (especially in the left ventricle), impeding flow until the muscle relaxes. During systole, the subendocardial layer -- the innermost, most heavily compressed layer of myocardium -- experiences a proportionally greater percentage reduction in blood flow than the more protected subepicardial layer, making the subendocardium especially vulnerable to ischemia under conditions of increased demand or reduced perfusion pressure. Coronary circulation, in contrast to statement B, is regulated predominantly by local metabolic factors (matching flow tightly to myocardial oxygen demand) rather than by neural control, making the combination of statements A and C the correct comprehensive answer.",
+   "distractorNotes": {
+    "B": "Coronary circulation is regulated predominantly by LOCAL METABOLIC factors (adenosine, hypoxia, CO2, and other vasoactive metabolites) matching flow to myocardial oxygen demand, not primarily by neural control.",
+    "C": "Statement C alone is true, but the combined answer 'A and C' is more complete than either A or C individually, since both are genuinely correct.",
+    "D": "Since statement B is false, the combination 'B and C' cannot be the correct comprehensive answer."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-17-year-old-boy-is-brought-to-the-emergency-room-after-an-74c6b22e": {
+   "answer": "D",
+   "explanation": "In response to significant blood loss, the fall in blood pressure reduces baroreceptor stretch and firing, which disinhibits the medullary vasomotor and cardiac centres, resulting in a marked increase in sympathetic outflow to both the heart (increasing heart rate and contractility) and the peripheral vasculature (increasing vasoconstriction and total peripheral resistance) -- the body's primary compensatory mechanism for maintaining blood pressure and perfusion despite reduced circulating volume. This is the opposite of decreased total peripheral resistance, decreased heart rate, or increased carotid sinus nerve firing, all of which would describe the situation incorrectly.",
+   "distractorNotes": {
+    "A": "Total peripheral resistance is INCREASED (via sympathetic vasoconstriction), not decreased, as a compensatory response to blood loss.",
+    "B": "Heart rate is INCREASED (compensatory tachycardia), not decreased, in response to blood loss.",
+    "C": "The firing rate of the carotid sinus (baroreceptor) nerves is DECREASED, not increased, as blood pressure falls and baroreceptor stretch is reduced -- this decreased firing is precisely what triggers the compensatory increase in sympathetic outflow."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-blood-pressure-of-180-120-mmhg-was-found-in-a-patient-aged-ff99150a": {
+   "answer": "A",
+   "explanation": "An elevated blood pressure of 180/120 mmHg would trigger the baroreceptor reflex to DECREASE, not increase, cardiac output and heart rate, as the body's negative feedback mechanism attempts to bring the elevated pressure back down toward normal -- making this statement the false one ('except') among otherwise correct facts about this scenario. The other statements are correct: increased renin secretion (activating the renin-angiotensin-aldosterone system) is a genuine cause of hypertension, a catecholamine-secreting adrenal tumour (phaeochromocytoma) is a classic secondary cause of severe hypertension, and left ventricular work is genuinely increased when the heart must eject blood against this markedly elevated afterload.",
+   "distractorNotes": {
+    "B": "Increased renin secretion, activating the renin-angiotensin-aldosterone system, is a genuine, well-established mechanism that can produce hypertension.",
+    "C": "A catecholamine-secreting adrenal tumour (phaeochromocytoma) is a classic, well-established secondary cause of severe hypertension.",
+    "D": "Left ventricular work is genuinely increased at this elevated blood pressure, since the ventricle must generate more pressure (afterload) to eject blood."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "all-of-the-followings-are-causes-of-pitting-edema-except-1f971191": {
+   "answer": "C",
+   "explanation": "Longstanding (chronic) lymphatic obstruction produces lymphoedema that becomes characteristically NON-pitting over time, because the chronically stagnant, protein-rich fluid stimulates progressive tissue fibrosis, giving the affected area a firm, non-compressible texture that no longer pits on pressure -- a classic distinguishing clinical feature separating chronic lymphoedema from the pitting oedema of other causes. This contrasts with liver cirrhosis (hypoalbuminaemia and portal hypertension), nutritional (protein-deficiency) oedema, and nephrotic syndrome (severe proteinuria and hypoalbuminaemia), all of which reduce plasma oncotic pressure and produce classic soft, pitting oedema.",
+   "distractorNotes": {
+    "A": "Liver cirrhosis causes pitting oedema via hypoalbuminaemia (reduced oncotic pressure) combined with portal hypertension.",
+    "B": "Nutritional (protein-deficiency) oedema causes pitting oedema via hypoalbuminaemia and reduced plasma oncotic pressure.",
+    "D": "Nephrotic syndrome causes pitting oedema via severe proteinuria leading to hypoalbuminaemia and reduced oncotic pressure."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "arterial-blood-pressure-may-be-increased-by-d7be95b1": {
+   "answer": "C",
+   "explanation": "A decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, allowing heart rate to rise, which increases cardiac output and thereby raises arterial blood pressure. This is the opposite of decreased sympathetic tone (which would reduce vasoconstriction and cardiac stimulation, lowering BP), venodilation (which reduces venous return and preload, lowering cardiac output and BP), and decreased antidiuretic hormone release (which would promote diuresis and reduce blood volume, lowering BP).",
+   "distractorNotes": {
+    "A": "Decreased sympathetic tone would reduce vasoconstriction and cardiac stimulation, lowering (not raising) blood pressure.",
+    "B": "Venodilation reduces venous return and cardiac preload, tending to lower (not raise) cardiac output and blood pressure.",
+    "D": "Decreased antidiuretic hormone release would promote water excretion and reduce blood volume, lowering (not raising) blood pressure."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-6c505d42": {
+   "answer": "C",
+   "explanation": "This is a duplicate of the sibling question; a decrease in parasympathetic (vagal) tone removes an inhibitory brake on heart rate, increasing cardiac output and thereby raising arterial blood pressure, the opposite effect from decreased sympathetic tone, venodilation, or decreased antidiuretic hormone release, all of which would tend to lower blood pressure instead.",
+   "distractorNotes": {
+    "A": "Decreased sympathetic tone would lower, not raise, blood pressure.",
+    "B": "Venodilation reduces venous return and cardiac output, lowering rather than raising blood pressure.",
+    "D": "Decreased ADH release would promote diuresis and lower, not raise, blood pressure."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -3325,6 +3497,15 @@
   },
   "an-increase-in-afterload-and-venous-compliance-can-cause-str-4dc76b7f": {
    "reason": "This question depends on reading an accompanying graph (points labelled A, C, D, E on presumably a Frank-Starling or ventricular function curve) that is not available in the text extraction -- the answer cannot be determined from text alone."
+  },
+  "during-hemorrhagic-shock-the-patient-exhibits-4d2e0a8d": {
+   "reason": "All four surviving options are inconsistent with the well-established compensatory response to hemorrhagic shock: heart rate and total peripheral resistance both INCREASE (not decrease) via sympathetic activation, myocardial contractility also INCREASES (not decreases), and the fourth option ('peaks in early diastole') appears to be an unrelated fragment about coronary flow timing rather than a genuine systemic shock finding."
+  },
+  "stroke-volume-reserve-sv-7-from-70-up-to-200-ml-during-max-e-64548dbe": {
+   "reason": "Both surviving options (increased end-diastolic volume via Starling's mechanism; decreased end-systolic volume via a positive inotropic effect) are independently genuine, well-established, complementary mechanisms contributing to the stroke volume reserve seen during maximal exercise, and the missing options (likely including a combined 'both' choice) make it impossible to confidently select a single one as the sole intended answer."
+  },
+  "the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-f3398b36": {
+   "reason": "The correct answer (increased afterload, the established mechanism that decreases shortening velocity per the force-velocity relationship) is embedded unlettered in the stem, and neither of the two lettered options that survive (increased positive inotropic state; achieving Vmax at zero load) correctly describes a cause of decreased shortening velocity -- both instead describe conditions that increase or maximise it."
   }
  }
 }
