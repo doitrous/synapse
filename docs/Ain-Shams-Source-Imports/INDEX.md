@@ -36,6 +36,7 @@ Readable source index: [corpus-source-index.json](evidence/corpus-source-index.j
 | ASU_Y1 | `ASU-LOCO` | Jobe supraspinatus test and cervical-lordosis inspection | Native-text locomotor clinical-medicine practical deck | evidence 1 source + 2 claims + 2 citations + 2 spans; resource 1 catalogue row; concept 2; article 2 | Cross-reviewed for source-only procedural wording; literal raw-page checks, dependency-aware validators and simulation/audit reported 0 errors. Claims are `needs_evidence`; citations are non-counting local curriculum support. |
 | ASU_Y2 | `ASU-CNS-2` | MRC power grading and UMN/LMN examination patterns | Native-text official CNS faculty lecture | evidence 1 source + 2 claims + 2 citations + 2 spans; resource 1 catalogue row; concept 2; article 2 | Doubly indexed source handled without an unstable path; evidence-chain and clinical-skill placement repairs passed literal raw-page checks, dependency-aware validators and simulation/audit with 0 errors. |
 | ASU_Y2 | `ASU-ENDO-2` | Thyroid follicle morphology, thyroglobulin cycling and C-cells | Native-text endocrine histology lecture | evidence 1 source + 3 claims + 3 citations + 3 spans; resource 1 catalogue row; concept 3; article 2 | Normal histology is placed under histology with endocrine-root cross-navigation, not a disease node; literal raw-page checks, dependency-aware validators and simulation/audit reported 0 errors. |
+| ASU_Y1 | `ASU-AE` | Gametogenesis: spermatogenesis, oogenesis, ovulation, corpus luteum/pregnancy hormone support | Scanned/OCR'd MCQ answer bank, stems/options/key visually re-verified against rendered page images | evidence 1 source + 23 claims + 23 citations + 23 spans; resource 1 catalogue row; concept 25 (23 new + 2 sparse live overlays); article 3; question 36 | Triage flagged every MCQ source as scanned; picked the single best-keyed source and re-verified its answer key by rendering pages rather than trusting OCR (caught a row-offset illusion in the printed key table). Full 8-file simulation/audit reported 0 errors; question fieldsUsed 49/50, 0% explanations under 3 sentences. |
 
 ## Import order
 
@@ -62,6 +63,7 @@ Catalogue-resource limitation: the current `medical:batch` kind detector reports
 | [`resource/`](resource/) | Catalogue resource rows for Bulk import → resource | [resource/INDEX.md](resource/INDEX.md) |
 | [`concept/`](concept/) | Concept import batches | [concept/INDEX.md](concept/INDEX.md) |
 | [`article/`](article/) | Library article import batches | [article/INDEX.md](article/INDEX.md) |
+| [`question/`](question/) | MCQ question import batches | (no per-folder INDEX.md yet, matching Alexandria/Kasr's own question folders) |
 
 ## Blockers and exclusions
 

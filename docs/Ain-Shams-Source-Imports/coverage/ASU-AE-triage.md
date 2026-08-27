@@ -1,5 +1,32 @@
 # ASU-AE triage — Phase 1
 
+**Phase 2 authoring update (2026-08-28):** authored the `Bg Embryology Mcq`/`Embryo1-3` block's
+best single source — `MCQs - Embryo 1.pdf` (src_5d3b735488d8c321d5bd, 45 printed items,
+gametogenesis/spermatogenesis/oogenesis/ovulation/corpus-luteum) — since it alone (unlike the other
+5 files) carries an unambiguous, printed, per-question answer key with no shared-file duplication
+inside itself. Every stem, option and key row was re-verified by rendering the page at 220–250 DPI
+and reading the image directly rather than trusting OCR text, which caught an illusion in the raw
+OCR of the answer-key table (a false "row offset" that a first quick read suggested, and that a
+careful side-by-side check against the stem pages disproved). Excluded from this pass: 1 flawed
+item (Q17, duplicated answer option in the source) and a 5-item matching cluster (Q19–23, a
+different question format not attempted here). The remaining 39 printed items map to 36 keyed MCQs
+(some concepts tested twice, from two printed angles) against 25 concepts — 23 newly minted
+(`find-existing.mjs`-searched first) plus 2 sparse overlays onto live records
+(`CON-DEV-B2A947014AE180` haploid-cell-identification, `CON-GYN-67FBF69E18FC33` cumulus oophorus).
+One pending-hit (`CON-DEV-CA422E559742A2`, sperm capacitation, sitting unimported in Alexandria's
+own AU-MED-102 embryology batch) was found for Q28 and left untested this pass rather than opened
+as a `pending-live/` cross-lane entry for a single question.
+
+**Still owed from this triage, not attempted this pass:** the other two files in the same
+high-quality series (`MCQs - Embryo 2.pdf`, fertilization/implantation/decidua/placenta, 69 Qs;
+`MCQs - Embryo 3.pdf`, week-3/gastrulation/neurulation/derivatives, ~104 Qs), the general-anatomy
+half of `MCQs - Bg Mcq dr.youssef.pdf` and all of `MCQs - Dr.yousef mcq1.pdf`, `Bg Embryology
+Mcq.pdf`'s standalone content beyond what Embryo1 already covers, and the 16 written (non-MCQ)
+prompts flagged below for a separate track. Per the block-level totals below, most of the
+embryology content in these remaining files is expected to be live-hit (large existing
+`CON-DEV`/`CON-OBS`/`CON-GYN`/`CON-AND` catalogues), so the next pass should re-run
+`find-existing.mjs` per concept before minting, not assume novelty.
+
 Module: **ASU-AE** (Introduction to Anatomy and Embryology), ASU_Y1, Term 1. Two subject folders
 (Anatomy, Embryology) → placement `msk`/`fnd` for generic anatomy terminology (per `fnd` note in
 ASU-HCB triage) and `dev` for embryology (20-list has `dev` explicitly — LANE-BRIEF §6). Both subject
