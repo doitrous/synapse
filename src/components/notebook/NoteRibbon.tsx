@@ -27,7 +27,10 @@ import {
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import {
+  $createTextNode,
+  $getSelection,
   $insertNodes,
+  $isRangeSelection,
   CAN_REDO_COMMAND,
   CAN_UNDO_COMMAND,
   COMMAND_PRIORITY_LOW,
@@ -41,6 +44,7 @@ import {
   type LexicalEditor,
   type TextFormatType,
 } from 'lexical'
+import { $createLinkNode, TOGGLE_LINK_COMMAND } from '@lexical/link'
 import { INSERT_HORIZONTAL_RULE_COMMAND } from '@lexical/react/LexicalHorizontalRuleNode'
 import { useLexicalComposerContext } from '@lexical/react/LexicalComposerContext'
 import { Icon } from '@/components/ui/Icon'
@@ -241,19 +245,102 @@ function InsertRibbon({ editor, uploadImage }: { editor: LexicalEditor; uploadIm
       <input ref={fileInput} type="file" accept="image/*" className="hidden" onChange={onPickImage} />
       <IconButton icon={ImageIcon} label="Insert image" size="sm" onMouseDown={stop} onClick={() => fileInput.current?.click()} />
       <ReadyItemMenu editor={editor} />
+      <LinkMenu editor={editor} />
       <RibbonDivider />
-      {([{ icon: Link2, label: 'Link' }, { icon: Table2, label: 'Table' }] as const).map((item) => (
-        <button
-          key={item.label}
-          type="button"
-          disabled
-          title={`${item.label} — coming soon`}
-          className="grid size-11 shrink-0 cursor-not-allowed place-items-center rounded-lg text-ink-3/60 sm:size-8"
-        >
-          <Icon icon={item.icon} size={16} />
-        </button>
-      ))}
-      <Badge tone="outline" className="ms-1">Link &amp; table soon</Badge>
+      <button
+        type="button"
+        disabled
+        title="Table — coming soon"
+        className="grid size-11 shrink-0 cursor-not-allowed place-items-center rounded-lg text-ink-3/60 sm:size-8"
+      >
+        <Icon icon={Table2} size={16} />
+      </button>
+      <Badge tone="outline" className="ms-1">Table soon</Badge>
+    </>
+  )
+}
+
+function LinkMenu({ editor }: { editor: LexicalEditor }) {
+  const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
+  const [url, setUrl] = useState('')
+  const [text, setText] = useState('')
+
+  function normalise(raw: string): string {
+    const trimmed = raw.trim()
+    if (!trimmed) return ''
+    return /^(https?:\/\/|mailto:|tel:)/i.test(trimmed) ? trimmed : `https://${trimmed}`
+  }
+
+  function apply() {
+    const href = normalise(url)
+    if (!href) return
+    // Does the current selection already cover some text to turn into a link?
+    let hasText = false
+    editor.getEditorState().read(() => {
+      const selection = $getSelection()
+      hasText = $isRangeSelection(selection) && !selection.isCollapsed()
+    })
+    if (hasText) {
+      editor.dispatchCommand(TOGGLE_LINK_COMMAND, href)
+    } else {
+      editor.update(() => {
+        const selection = $getSelection()
+        if (!$isRangeSelection(selection)) return
+        const link = $createLinkNode(href)
+        link.append($createTextNode(text.trim() || href))
+        $insertNodes([link])
+      })
+    }
+    close()
+    setUrl('')
+    setText('')
+  }
+
+  return (
+    <>
+      <button
+        type="button"
+        ref={setAnchor}
+        onMouseDown={stop}
+        onClick={() => setOpen(true)}
+        aria-haspopup="dialog"
+        aria-expanded={open}
+        aria-label="Insert link"
+        title="Insert link"
+        className="grid size-11 shrink-0 place-items-center rounded-lg text-ink-2 transition-colors hover:bg-inset hover:text-ink sm:size-8"
+      >
+        <Icon icon={Link2} size={16} />
+      </button>
+      {open && (
+        <Popover anchor={anchor} onClose={close} role="dialog" label="Insert link" className="w-64 p-3">
+          <label className="mb-1 block text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Link address</label>
+          <input
+            autoFocus
+            value={url}
+            onChange={(event) => setUrl(event.target.value)}
+            onKeyDown={(event) => { if (event.key === 'Enter') { event.preventDefault(); apply() } }}
+            placeholder="https://…"
+            className="mb-2.5 h-9 w-full rounded-lg border border-line-2 bg-surface px-2.5 text-[12.5px] text-ink outline-none focus:border-primary"
+          />
+          <label className="mb-1 block text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Text to show <span className="font-normal normal-case text-ink-3/70">(if none selected)</span></label>
+          <input
+            value={text}
+            onChange={(event) => setText(event.target.value)}
+            onKeyDown={(event) => { if (event.key === 'Enter') { event.preventDefault(); apply() } }}
+            placeholder="Link text"
+            className="mb-3 h-9 w-full rounded-lg border border-line-2 bg-surface px-2.5 text-[12.5px] text-ink outline-none focus:border-primary"
+          />
+          <button
+            type="button"
+            onMouseDown={stop}
+            onClick={apply}
+            disabled={!url.trim()}
+            className="h-9 w-full rounded-lg bg-primary text-[12.5px] font-medium text-on-primary transition-colors hover:bg-primary-strong disabled:pointer-events-none disabled:opacity-40"
+          >
+            Add link
+          </button>
+        </Popover>
+      )}
     </>
   )
 }

@@ -7,6 +7,7 @@ import {
   type EditorState,
 } from 'lexical'
 import { ListItemNode, ListNode } from '@lexical/list'
+import { LinkNode } from '@lexical/link'
 import { HeadingNode, QuoteNode } from '@lexical/rich-text'
 import { HorizontalRuleNode } from '@lexical/react/LexicalHorizontalRuleNode'
 import { HorizontalRulePlugin } from '@lexical/react/LexicalHorizontalRulePlugin'
@@ -17,6 +18,7 @@ import { ContentEditable } from '@lexical/react/LexicalContentEditable'
 import { HistoryPlugin } from '@lexical/react/LexicalHistoryPlugin'
 import { LexicalErrorBoundary } from '@lexical/react/LexicalErrorBoundary'
 import { ListPlugin } from '@lexical/react/LexicalListPlugin'
+import { LinkPlugin } from '@lexical/react/LexicalLinkPlugin'
 import { OnChangePlugin } from '@lexical/react/LexicalOnChangePlugin'
 import { RichTextPlugin } from '@lexical/react/LexicalRichTextPlugin'
 import { Icon } from '@/components/ui/Icon'
@@ -61,7 +63,7 @@ const BASE_FONT_PX = 15
  * heading, quote, checklist or horizontal line saved by one renders
  * correctly everywhere the note is shown.
  */
-const NOTE_NODES = [ListNode, ListItemNode, HeadingNode, QuoteNode, HorizontalRuleNode, ImageNode, ReadyItemNode]
+const NOTE_NODES = [ListNode, ListItemNode, HeadingNode, QuoteNode, HorizontalRuleNode, LinkNode, ImageNode, ReadyItemNode]
 
 const theme = {
   paragraph: 'mb-2',
@@ -72,6 +74,7 @@ const theme = {
     h4: 'mb-2 mt-1 font-serif text-[1.08em] font-semibold text-ink',
   },
   quote: 'mb-2 border-s-[3px] border-primary-line ps-3 italic text-ink-2',
+  link: 'text-primary underline underline-offset-2 hover:text-primary-strong cursor-pointer',
   hr: 'my-4 border-0 border-t border-line-2',
   list: {
     nested: { listitem: 'list-none' },
@@ -161,6 +164,7 @@ export function NoteEditor({
       <HistoryPlugin />
       <ListPlugin />
       <CheckListPlugin />
+      <LinkPlugin />
       <HorizontalRulePlugin />
       <LoadEditorStatePlugin editorJson={editorJson} locallyEmittedStates={locallyEmittedStates.current} />
       <OnChangePlugin
