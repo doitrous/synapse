@@ -27,11 +27,11 @@ import { YEARS } from '@/data/universities'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useRecentResources } from '@/lib/useRecentResources'
 import { useMyDocuments, type MyDocument } from '@/lib/useMyDocuments'
+import { useMediaRecords } from '@/lib/useMediaRecords'
 import { uploadRouteId } from '@/lib/useReaderSource'
 import { apiDownload, apiOpenFile, API_MODE } from '@/lib/api'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
-import { Panel } from '@/components/ui/Panel'
-import { Badge } from '@/components/ui/Badge'
+import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
 import { SearchInput, Select } from '@/components/ui/Field'
@@ -40,6 +40,9 @@ import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SubjectDot } from '@/components/ui/Subject'
+import { Dialog } from '@/components/ui/Dialog'
+import { PlacedAsset } from '@/components/ui/PlacedMedia'
+import { Badge } from '@/components/ui/Badge'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
 import { BackBar } from '@/components/ui/BackBar'
@@ -47,6 +50,7 @@ import { useT } from '@/lib/i18n'
 import { overlayPortal } from '@/lib/overlayPortal'
 import { initialNotes, type Note } from '@/data/notebook'
 import { filesOf, imagesOf, INITIAL_BOARD, type BoardState } from '@/data/whiteboard'
+import { isMediaReleased, mediaTypeOf } from '@/data/mediaLibrary'
 
 /** Document (PDF) types — everything that isn't a video. */
 const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
@@ -531,8 +535,10 @@ function MyUploads() {
   const [board] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
   const [busy, setBusy] = useState<number | null>(null)
   const [failure, setFailure] = useState<string | null>(null)
-  const readable = documents.items.filter((item) => item.mediaType === 'pdf')
-  const mediaRows = mediaInventory({ documents: documents.items, notes, board })
+  const [siteMediaOpen, setSiteMediaOpen] = useState(false)
+  // One list, not a Documents/Media split — a student uploaded a file, not a
+  // category, and the split forced them to check two panels for one answer.
+  const rows = unifiedUploadRows({ documents: documents.items, notes, board })
   const countedBytes = dedupedMediaBytes({ documents: documents.items, notes, board })
 
   const accept = async (files: FileList | null) => {
@@ -557,20 +563,32 @@ function MyUploads() {
             <h2 className="font-serif text-[15.5px] font-semibold text-ink">{t('My uploads')}</h2>
             <p className="mt-0.5 text-[12.5px] text-ink-3">
               {documents.synced
-                ? t('Your documents and media, counted once against the same account quota wherever they appear.')
-                : t('Your documents and media. This preview keeps uploaded bytes in this browser only.')}
+                ? t('Everything you have uploaded, counted once against the same account quota wherever it appears.')
+                : t('Everything you have uploaded. This preview keeps uploaded bytes in this browser only.')}
             </p>
           </div>
-          <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-primary-line bg-primary-tint px-3 py-2 text-[13px] font-semibold text-primary-strong hover:bg-primary-tint/70">
-            <Icon icon={Upload} size={15} />
-            {busy === null ? t('Add a file') : `${Math.round(busy * 100)}%`}
-            <input
-              type="file"
-              className="sr-only"
-              disabled={busy !== null}
-              onChange={(event) => { void accept(event.target.files); event.target.value = '' }}
-            />
-          </label>
+          <div className="flex flex-wrap items-center gap-2">
+            {/* Distinct from the list below on purpose: this opens media shared
+                by everyone on the site, not this student's own uploads. */}
+            <button
+              type="button"
+              onClick={() => setSiteMediaOpen(true)}
+              className="inline-flex items-center gap-2 rounded-lg border border-line bg-surface-2/60 px-3 py-2 text-[13px] font-semibold text-ink-2 transition-colors hover:bg-inset/60"
+            >
+              <Icon icon={ImagePlus} size={15} />
+              {t('Media (uploaded across the site)')}
+            </button>
+            <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-primary-line bg-primary-tint px-3 py-2 text-[13px] font-semibold text-primary-strong hover:bg-primary-tint/70">
+              <Icon icon={Upload} size={15} />
+              {busy === null ? t('Add a file') : `${Math.round(busy * 100)}%`}
+              <input
+                type="file"
+                className="sr-only"
+                disabled={busy !== null}
+                onChange={(event) => { void accept(event.target.files); event.target.value = '' }}
+              />
+            </label>
+          </div>
         </div>
         {documents.quotaBytes > 0 && (
           <p className="tnum mt-3 font-mono text-[11px] text-ink-3">
@@ -584,73 +602,112 @@ function MyUploads() {
 
       {documents.loading ? (
         <Panel><p className="p-6 text-center text-[13px] text-ink-3">{t('Opening…')}</p></Panel>
-      ) : readable.length === 0 && mediaRows.length === 0 ? (
+      ) : rows.length === 0 ? (
         <Panel>
           <EmptyState
             icon={Upload}
             title={t('Nothing uploaded yet')}
-            description={t('Add a lecture handout, image, or board attachment. Documents and media are listed separately here.')}
+            description={t('Add a lecture handout, image, or board attachment — everything you upload appears here in one list.')}
           />
         </Panel>
       ) : (
-        <div className="grid gap-3 lg:grid-cols-2">
-          <Panel className="overflow-hidden">
-            <div className="border-b border-line bg-surface-2/50 px-4 py-3">
-              <h3 className="text-[13px] font-semibold text-ink">{t('Documents')}</h3>
-              <p className="text-[11.5px] text-ink-3">{t('PDFs that open in the resource reader.')}</p>
-            </div>
-            {readable.length === 0 ? (
-              <p className="p-5 text-[12.5px] text-ink-3">{t('No reader-ready documents yet.')}</p>
+        <Panel className="overflow-hidden">
+          <ul className="divide-y divide-line">
+            {rows.map((row) => row.kind === 'document' ? (
+              <li
+                key={row.id}
+                aria-label={`${t('Open resource')}: ${row.title}`}
+                {...clickableRow(() => navigate(`/app/resources/${uploadRouteId(row.documentId)}`), 'group flex items-center gap-3 px-4 py-2.5 hover:bg-inset/60')}
+              >
+                <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={FileText} size={16} /></span>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-[13.5px] font-medium text-ink">{row.title}</p>
+                  <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(row.sizeBytes)} MB · {t('Resources upload')}</p>
+                </div>
+                <span {...stopRowClick} className="contents">
+                  <IconButton icon={Pencil} label={t('Rename')} size="sm" onClick={() => { const title = window.prompt(t('Rename'), row.title); if (title?.trim()) void documents.rename(row.documentId, title.trim()) }} />
+                  <IconButton icon={Trash2} label={t('Delete')} size="sm" onClick={() => { if (window.confirm(t('Delete this document? Your marks on it are deleted with it.'))) void documents.remove(row.documentId) }} />
+                </span>
+                <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+              </li>
             ) : (
-              <ul className="divide-y divide-line">
-                {readable.map((item) => (
-                  <li
-                    key={item.id}
-                    aria-label={`${t('Open resource')}: ${item.title}`}
-                    {...clickableRow(() => navigate(`/app/resources/${uploadRouteId(item.id)}`), 'group flex items-center gap-3 px-4 py-2.5 hover:bg-inset/60')}
-                  >
-                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={FileText} size={16} /></span>
-                    <div className="min-w-0 flex-1">
-                      <p className="truncate text-[13.5px] font-medium text-ink">{item.title}</p>
-                      <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(item.sizeBytes)} MB · {t('Resources upload')}</p>
-                    </div>
-                    <span {...stopRowClick} className="contents">
-                      <IconButton icon={Pencil} label={t('Rename')} size="sm" onClick={() => { const title = window.prompt(t('Rename'), item.title); if (title?.trim()) void documents.rename(item.id, title.trim()) }} />
-                      <IconButton icon={Trash2} label={t('Delete')} size="sm" onClick={() => { if (window.confirm(t('Delete this document? Your marks on it are deleted with it.'))) void documents.remove(item.id) }} />
-                    </span>
-                    <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
-                  </li>
-                ))}
-              </ul>
-            )}
-          </Panel>
-
-          <Panel className="overflow-hidden">
-            <div className="border-b border-line bg-surface-2/50 px-4 py-3">
-              <h3 className="text-[13px] font-semibold text-ink">{t('Media')}</h3>
-              <p className="text-[11.5px] text-ink-3">{t('Images and non-reader files from resources, notebooks, and whiteboards.')}</p>
-            </div>
-            {mediaRows.length === 0 ? (
-              <p className="p-5 text-[12.5px] text-ink-3">{t('No media assets yet.')}</p>
-            ) : (
-              <ul className="divide-y divide-line">
-                {mediaRows.map((item) => (
-                  <li key={item.id} className="flex items-center gap-3 px-4 py-2.5">
-                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={item.kind === 'image' ? ImagePlus : Upload} size={16} /></span>
-                    <div className="min-w-0 flex-1">
-                      <p className="truncate text-[13.5px] font-medium text-ink">{item.title}</p>
-                      <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(item.sizeBytes)} MB · {t(item.sourceLabel)}</p>
-                    </div>
-                    {item.documentId && API_MODE && <IconButton icon={ChevronRight} label={t('Download')} size="sm" onClick={() => void apiDownload(`/my-documents/${encodeURIComponent(item.documentId!)}/file`, item.title)} />}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </Panel>
-        </div>
+              <li key={row.id} className="flex items-center gap-3 px-4 py-2.5">
+                <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={row.mediaKind === 'image' ? ImagePlus : Upload} size={16} /></span>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-[13.5px] font-medium text-ink">{row.title}</p>
+                  <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(row.sizeBytes)} MB · {t(row.sourceLabel)}</p>
+                </div>
+                {row.documentId && API_MODE && <IconButton icon={ChevronRight} label={t('Download')} size="sm" onClick={() => void apiDownload(`/my-documents/${encodeURIComponent(row.documentId!)}/file`, row.title)} />}
+              </li>
+            ))}
+          </ul>
+        </Panel>
       )}
+
+      {siteMediaOpen && <SiteMediaDialog onClose={() => setSiteMediaOpen(false)} />}
     </div>
   )
+}
+
+/**
+ * Every image, recording, or clip on the platform — not this student's own.
+ *
+ * A student who wants to see what an author attached to a question, or browse
+ * what illustrations already exist for a subject, should not have to guess
+ * where that lives. The label on the button that opens this says so too:
+ * "uploaded across the site", set against "My uploads" right above it. Only
+ * released media is shown — an asset still missing alt text or cleared rights
+ * is not ready for a student to see, same as everywhere else in the app.
+ */
+function SiteMediaDialog({ onClose }: { onClose: () => void }) {
+  const t = useT()
+  const records = useMediaRecords()
+  const [query, setQuery] = useState('')
+  const released = useMemo(() => [...records.values()].filter((record) => isMediaReleased(record)), [records])
+  const visible = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (!q) return released
+    return released.filter((record) => `${record.title} ${record.altText}`.toLowerCase().includes(q))
+  }, [released, query])
+
+  return (
+    <Dialog onClose={onClose} label={t('Media uploaded across the site')} size="lg">
+      <PanelHeader
+        title={t('Media uploaded across the site')}
+        hint={t('Every released image, recording, and clip — shared across all subjects, not just what you uploaded.')}
+        icon={ImagePlus}
+        action={<IconButton icon={X} label={t('Close')} size="sm" onClick={onClose} />}
+      />
+      <div className="border-b border-line p-3">
+        <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t('Search by title or description…')} />
+      </div>
+      {visible.length === 0 ? (
+        <EmptyState
+          icon={ImagePlus}
+          title={released.length ? t('Nothing matches that') : t('No site media yet')}
+          description={released.length ? t('Widen the search to see the rest of the library.') : t('Media uploaded across the site will appear here once it is released.')}
+        />
+      ) : (
+        <ul className="grid gap-2 p-3 sm:grid-cols-2">
+          {visible.map((record) => (
+            <li key={record.id} className="rounded-lg border border-line p-2">
+              <PlacedAsset record={record} />
+              <span className="mt-1.5 block truncate text-[12.5px] font-medium text-ink">{record.title}</span>
+              <span className="mt-0.5 flex items-center gap-1.5 text-[11px] text-ink-3">
+                <Badge tone="neutral">{t(mediaTypeLabel(mediaTypeOf(record)))}</Badge>
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </Dialog>
+  )
+}
+
+function mediaTypeLabel(kind: 'image' | 'audio' | 'video'): string {
+  if (kind === 'audio') return 'Audio'
+  if (kind === 'video') return 'Video'
+  return 'Image'
 }
 
 interface MediaInventoryInput {
@@ -659,61 +716,91 @@ interface MediaInventoryInput {
   board: BoardState
 }
 
-interface MediaRow {
+/** A reader-ready PDF the student uploaded — opens in the resource reader. */
+interface DocumentUploadRow {
+  kind: 'document'
+  id: string
+  title: string
+  sizeBytes: number
+  documentId: string
+}
+
+/** Anything else the student uploaded — an image or a non-PDF file. */
+interface MediaUploadRow {
+  kind: 'media'
   id: string
   title: string
   sizeBytes: number
   sourceLabel: string
-  kind: 'image' | 'file'
+  mediaKind: 'image' | 'file'
   documentId?: string
 }
 
-function mediaInventory({ documents, notes, board }: MediaInventoryInput): MediaRow[] {
-  const rows: MediaRow[] = []
+type UploadRow = DocumentUploadRow | MediaUploadRow
+
+/**
+ * Everything a student has uploaded, as one list.
+ *
+ * This used to be built as two separate lists — reader-ready PDFs, and
+ * everything else — and rendered as two panels under separate headings.
+ * A student does not think of their own uploads in those terms; they
+ * uploaded a file, not a category, so the rows are merged here and the page
+ * renders a single group.
+ */
+function unifiedUploadRows({ documents, notes, board }: MediaInventoryInput): UploadRow[] {
+  const rows: UploadRow[] = []
   const byDocument = new Map(documents.map((item) => [item.id, item]))
 
-  documents
-    .filter((item) => item.mediaType !== 'pdf')
-    .forEach((item) => rows.push({
+  documents.forEach((item) => {
+    if (item.mediaType === 'pdf') {
+      rows.push({ kind: 'document', id: `document:${item.id}`, title: item.title, sizeBytes: item.sizeBytes, documentId: item.id })
+      return
+    }
+    rows.push({
+      kind: 'media',
       id: `document:${item.id}`,
       title: item.title,
       sizeBytes: item.sizeBytes,
       sourceLabel: item.sourceKind === 'notebook' ? 'Notebook' : item.sourceKind === 'whiteboard' ? 'Whiteboard' : 'Resources upload',
-      kind: 'file',
+      mediaKind: 'file',
       documentId: item.id,
-    }))
+    })
+  })
 
   notes
     .filter((note) => Boolean(note.imageData) && !note.imageDocumentId)
     .forEach((note) => rows.push({
+      kind: 'media',
       id: `note:${note.id}`,
       title: note.title || 'Notebook image',
       sizeBytes: dataUrlBytes(note.imageData ?? ''),
       sourceLabel: 'Notebook',
-      kind: 'image',
+      mediaKind: 'image',
     }))
 
   imagesOf(board).filter((image) => !image.documentId || !byDocument.has(image.documentId)).forEach((image) => rows.push({
+    kind: 'media',
     id: `board-image:${image.id}`,
     title: image.alt || 'Whiteboard image',
     sizeBytes: dataUrlBytes(image.src ?? ''),
     sourceLabel: 'Whiteboard',
-    kind: 'image',
+    mediaKind: 'image',
   }))
 
   filesOf(board).filter((file) => !byDocument.has(file.documentId)).forEach((file) => {
     const document = byDocument.get(file.documentId)
     rows.push({
+      kind: 'media',
       id: `board-file:${file.id}`,
       title: file.name,
       sizeBytes: document?.sizeBytes ?? file.sizeBytes,
       sourceLabel: 'Whiteboard',
-      kind: 'file',
+      mediaKind: 'file',
       documentId: file.documentId,
     })
   })
 
-  return rows.sort((a, b) => a.sourceLabel.localeCompare(b.sourceLabel) || a.title.localeCompare(b.title))
+  return rows.sort((a, b) => a.title.localeCompare(b.title))
 }
 
 function dedupedMediaBytes({ documents, notes, board }: MediaInventoryInput): number {

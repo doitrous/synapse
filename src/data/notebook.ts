@@ -141,3 +141,28 @@ export function editorJsonFromPlainText(text: string, previous?: NotebookEditorJ
   void previous
   return plainTextToEditorJson(text)
 }
+
+/** Whitespace-separated word count, the same measure a word processor's status bar uses. */
+export function notebookWordCount(text: string): number {
+  const trimmed = text.trim()
+  if (!trimmed) return 0
+  return trimmed.split(/\s+/).length
+}
+
+/**
+ * Media embedded *inside* the note body — an inline image, a table, an
+ * embed. Nothing does this yet (the Insert tab is still a stub; see
+ * `docs/HANDOFF-notebook.md`), so this walks the tree for any node type
+ * whose name mentions image/embed/media, which starts counting the moment a
+ * future decorator node is registered without this needing to change.
+ */
+export function notebookEmbeddedMediaCount(editorJson: NotebookEditorJson | undefined): number {
+  if (!editorJson?.root?.children?.length) return 0
+  let count = 0
+  const walk = (node: NotebookEditorNode) => {
+    if (typeof node.type === 'string' && /image|embed|media/i.test(node.type)) count += 1
+    node.children?.forEach(walk)
+  }
+  editorJson.root.children.forEach(walk)
+  return count
+}

@@ -1,14 +1,16 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Award, BarChart3, Brain, Clock3, Layers, ListChecks, Medal, Table2, Timer, TrendingUp, Users } from 'lucide-react'
+import { Award, BarChart3, Brain, Clock3, Hourglass, Layers, ListChecks, Medal, Percent, Table2, Timer, TrendingUp, Users } from 'lucide-react'
 import { getSubject } from '@/data/subjects'
 import {
   accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
   firstAttemptSplit, hourHistogram, marked, medianSeconds, weakest,
 } from '@/data/attemptStats'
+import { averageSecondsPerQuestion, percentileStanding, studyTimeBreakdown, withinLastDays } from '@/data/performanceStats'
 import type { AttemptRecord } from '@/data/attempts'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { Meter } from '@/components/ui/Meter'
 import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Icon } from '@/components/ui/Icon'
@@ -18,12 +20,16 @@ import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
-import { formatTimeString } from '@/lib/format'
+import { useMaristanas } from '@/lib/useMaristanas'
+import { formatMinutes, formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
 import { API_MODE, apiGet } from '@/lib/api'
 import { ExamReadinessCard } from '@/components/dashboard/ProgressTrio'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
 import { demoLeaderboard } from '@/data/demoPreview'
+
+/** Window the study-time and pace metrics below are averaged over. */
+const STUDY_WINDOW_DAYS = 7
 
 /**
  * Marked answers needed before this page reports anything.
@@ -234,13 +240,155 @@ function TopPerformers() {
 }
 
 /**
+ * How the student's own accuracy sits against ranked peers.
+ *
+ * The "no cohort aggregate exists anywhere in this product" era is over:
+ * `/api/leaderboards` now publishes real peer accuracy for students with at
+ * least 100 server-verified answers in the same university, year and current
+ * term — the same feed `TopPerformers` already reads. This panel asks the
+ * same feed for a percentile instead of a rank list. When nobody in the
+ * cohort has enough verified evidence yet, or the feed cannot be reached,
+ * this renders a plain "not available" state rather than a guessed number —
+ * a percentile against zero peers is not a percentile.
+ */
+function PeerStandingPanel({ records }: { records: AttemptRecord[] }) {
+  const t = useT()
+  const overall = accuracyOf(records)
+  const [cohort, setCohort] = useState<LeaderboardResponse | null>(null)
+  const [loading, setLoading] = useState(API_MODE)
+  const [failed, setFailed] = useState(false)
+
+  useEffect(() => {
+    let alive = true
+    if (!API_MODE) {
+      setCohort(demoLeaderboard('accuracy'))
+      setLoading(false)
+      setFailed(false)
+      return () => { alive = false }
+    }
+    setLoading(true)
+    setFailed(false)
+    apiGet<LeaderboardResponse>('/leaderboards?metric=accuracy')
+      .then((next) => { if (alive) setCohort(next) })
+      .catch(() => { if (alive) { setCohort(null); setFailed(true) } })
+      .finally(() => { if (alive) setLoading(false) })
+    return () => { alive = false }
+  }, [])
+
+  const peerAccuracies = (cohort?.rows ?? [])
+    .map((row) => row.accuracy)
+    .filter((value): value is number => typeof value === 'number')
+  const standing = overall === null ? null : percentileStanding(overall, peerAccuracies)
+  const yourPct = overall === null ? null : Math.round(overall * 100)
+
+  return (
+    <Panel>
+      <PanelHeader title={t('How you compare')} icon={Percent} hint={t('Percentile standing by accuracy')} />
+      <div className="p-5">
+        {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo cohort preview')}</Badge>}
+        {loading ? (
+          <div className="h-28 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />
+        ) : failed ? (
+          <EmptyState icon={Percent} title={t('Standing unavailable')} description={t('The peer ranking could not be loaded. Your private performance data has not been substituted.')} />
+        ) : !standing || yourPct === null ? (
+          <EmptyState
+            icon={Percent}
+            title={t('Needs cohort data')}
+            description={t('Nobody in your university, year and current term has enough server-verified answers yet to compare against. This fills in once ranked peers exist.')}
+          />
+        ) : (
+          <>
+            <p className="text-[13px] text-ink-2">
+              {t('You scored better than')} <span className="font-mono font-semibold text-primary-strong">{standing.percentile}%</span> {t('of ranked peers, by accuracy.')}
+            </p>
+            <div className="mt-4">
+              <Meter value={yourPct} max={100} tone="primary" ticks />
+              <div className="mt-1.5 flex justify-between font-mono text-[10.5px] text-ink-3">
+                <span>{t('You')} · {yourPct}%</span>
+                <span>{t('Peer median')} · {Math.round(standing.peerMedian * 100)}%</span>
+              </div>
+            </div>
+            <p className="mt-4 border-t border-line pt-3 text-[11.5px] leading-relaxed text-ink-3">
+              {standing.peerCount} {t('ranked peers in your university, year and current term, each with at least 100 server-verified answers this term.')}
+            </p>
+          </>
+        )}
+      </div>
+    </Panel>
+  )
+}
+
+/**
+ * Average daily study time, split into solving and everything else.
+ *
+ * The total and the solving figure are both real: the total is the Build
+ * Maristanas heartbeat's active-study minutes for the last week, across every
+ * study surface; the solving figure is summed straight from the attempt log's
+ * own sitting durations, over the same week. Nothing in this product isolates
+ * reading time on its own, so "reading" is not a fourth measurement — it is
+ * the remainder once solving is taken out of the total, labelled as an
+ * estimate rather than presented as a direct reading of a clock.
+ */
+function StudyTimePanel({ records }: { records: AttemptRecord[] }) {
+  const t = useT()
+  const { data, loading, error } = useMaristanas()
+
+  const windowed = useMemo(() => withinLastDays(records, STUDY_WINDOW_DAYS), [records])
+  const breakdown = useMemo(
+    () => studyTimeBreakdown(windowed, STUDY_WINDOW_DAYS, data ? data.thisWeek.studyMinutes : null),
+    [windowed, data],
+  )
+
+  const solvingLabel = formatMinutes(Math.round(breakdown.solvingMinutesPerDay))
+  const studyingLabel = breakdown.studyingMinutesPerDay === null ? null : formatMinutes(Math.round(breakdown.studyingMinutesPerDay))
+  const readingLabel = breakdown.readingMinutesPerDay === null ? null : formatMinutes(Math.round(breakdown.readingMinutesPerDay))
+
+  return (
+    <Panel>
+      <PanelHeader title={t('Average time studying')} icon={Clock3} hint={`${t('Per day, last')} ${STUDY_WINDOW_DAYS} ${t('days')}`} />
+      <div className="p-5">
+        {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo total — your solving time below is real')}</Badge>}
+        {loading ? (
+          <div className="h-28 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />
+        ) : (
+          <>
+            <div className="flex items-baseline gap-2">
+              <p className="tnum font-mono text-[27px] font-semibold text-ink">{studyingLabel ?? '—'}</p>
+              <span className="text-[12px] text-ink-3">{t('per day, all study surfaces')}</span>
+            </div>
+            {(error || studyingLabel === null) && (
+              <p className="mt-1 text-[11.5px] text-ink-3">{t('Total active-study time needs the server connection and has not loaded.')}</p>
+            )}
+            <div className="mt-4 grid grid-cols-2 gap-3">
+              <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Solving (Question Bank)')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{solvingLabel}</p>
+              </div>
+              <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Reading & other study')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{readingLabel ?? '—'}</p>
+              </div>
+            </div>
+            <p className="mt-4 border-t border-line pt-3 text-[11.5px] leading-relaxed text-ink-3">
+              {readingLabel === null
+                ? t('Reading time is not tracked on its own — only total active-study minutes and Question Bank solving time are measured, and the total has not loaded here.')
+                : t('"Reading & other study" is an estimate: total active-study minutes minus time solving Question Bank items. It also folds in flashcards, clinical cases, notebook work and every other non-Question-Bank surface, not reading alone.')}
+            </p>
+          </>
+        )}
+      </div>
+    </Panel>
+  )
+}
+
+/**
  * The student's own record, and only their own record.
  *
- * Cohort comparison is gone from this page: the year median, the percentile,
- * the anonymous leaderboard and the "13 seconds slower than the median" line
- * were all literals in a source file, and no cohort aggregate exists anywhere
- * in this product to replace them with. Everything left is derived from the
- * attempt log and the concept mastery ledger.
+ * The year-over-year cohort literals this page once showed are still gone —
+ * see the panels above for how a percentile and a study-time comparison are
+ * built honestly instead, from feeds that did not exist when those literals
+ * were removed. Everything below them is still derived only from the attempt
+ * log and the concept mastery ledger.
  */
 export function Performance() {
   const t = useT()
@@ -257,6 +405,7 @@ export function Performance() {
   const surfaces = useMemo(() => bySurface(records), [records])
   const overall = accuracyOf(records)
   const median = medianSeconds(records)
+  const average = averageSecondsPerQuestion(records)
 
   const header = (
     <>
@@ -317,7 +466,7 @@ export function Performance() {
           <ExamReadinessCard />
           <PerformanceOverview />
         </div>
-        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-5">
           <KpiTile
             icon={TrendingUp}
             value={overall === null ? '—' : `${Math.round(overall * 100)}%`}
@@ -345,6 +494,17 @@ export function Performance() {
             label={t('Median per question')}
             sub={median === null ? t('No timed sessions yet') : `${currentStreak(records)} ${t('day streak')}`}
           />
+          <KpiTile
+            icon={Hourglass}
+            value={average === null ? '—' : `${average}s`}
+            label={t('Average per question')}
+            sub={t('Mean across all timed answers')}
+          />
+        </div>
+
+        <div className="grid gap-4 lg:grid-cols-2">
+          <PeerStandingPanel records={records} />
+          <StudyTimePanel records={records} />
         </div>
 
         <ConceptMasteryPanel />

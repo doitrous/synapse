@@ -58,6 +58,7 @@ export function Notebook() {
   const [listOpen, setListOpen] = useState(false)
   const [tagOpen, setTagOpen] = useState(false)
   const [newTag, setNewTag] = useState('')
+  const [focusMode, setFocusMode] = usePersistentState<boolean>('synapse.notebook.focusMode', false)
   const [imageError, setImageError] = useState<string | null>(null)
   const [sharing, setSharing] = useState(false)
   const [pendingCapture, setPendingCapture] = useState<NoteCapturePayload | null>(null)
@@ -283,24 +284,28 @@ export function Notebook() {
 
   return (
     <div className="flex h-[calc(100dvh-3.5rem-env(safe-area-inset-top))]">
-      <aside className="hidden w-72 shrink-0 flex-col border-r border-line bg-surface lg:flex">
-        <div className="flex h-12 items-center gap-2 border-b border-line px-4">
-          <Icon icon={NotebookIcon} size={16} className="text-primary" />
-          <span className="font-serif text-[16px] font-semibold text-ink">Notebook</span>
-          <span className="tnum ml-auto font-mono text-[12px] text-ink-3">{notes.length}</span>
-        </div>
-        {listPane}
-      </aside>
+      {!focusMode && (
+        <aside className="hidden w-72 shrink-0 flex-col border-r border-line bg-surface lg:flex">
+          <div className="flex h-12 items-center gap-2 border-b border-line px-4">
+            <Icon icon={NotebookIcon} size={16} className="text-primary" />
+            <span className="font-serif text-[16px] font-semibold text-ink">Notebook</span>
+            <span className="tnum ml-auto font-mono text-[12px] text-ink-3">{notes.length}</span>
+          </div>
+          {listPane}
+        </aside>
+      )}
 
       <div className="flex-1 overflow-y-auto">
-        <div className="flex items-center gap-2 border-b border-line px-4 py-2 lg:hidden">
-          <Button variant="secondary" size="sm" iconLeft={NotebookIcon} onClick={() => setListOpen(true)}>
-            All notes
-          </Button>
-          <Button variant="secondary" size="sm" iconLeft={Plus} onClick={newNote}>
-            New
-          </Button>
-        </div>
+        {!focusMode && (
+          <div className="flex items-center gap-2 border-b border-line px-4 py-2 lg:hidden">
+            <Button variant="secondary" size="sm" iconLeft={NotebookIcon} onClick={() => setListOpen(true)}>
+              All notes
+            </Button>
+            <Button variant="secondary" size="sm" iconLeft={Plus} onClick={newNote}>
+              New
+            </Button>
+          </div>
+        )}
 
         {editorNote && note ? (
           <div className="mx-auto max-w-[46rem] px-5 py-8 sm:px-8">
@@ -372,6 +377,10 @@ export function Notebook() {
                 onChange={(next) => update(editorNote.id, { editorJson: next.editorJson, plainText: next.plainText })}
                 onPaste={pasteImage}
                 placeholder={t('Start writing, or paste a copied image…')}
+                attachedMediaCount={editorNote.imageDocumentId || editorNote.imageData ? 1 : 0}
+                notePosition={{ index: Math.max(1, notes.findIndex((entry) => entry.id === editorNote.id) + 1), total: notes.length }}
+                focusMode={focusMode}
+                onToggleFocus={() => setFocusMode((current) => !current)}
               />
             </div>
             <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3"><Icon icon={ImagePlus} size={13} />{t('Paste an image from your clipboard directly into this note.')}</p>
