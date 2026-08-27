@@ -55,7 +55,7 @@ export function AuthoredOrderGamePage({ kind }: { kind: 'clinical_sequence' | 'm
   if (!pack) {
     return (
       <PageContainer>
-        <PageHeader title={title} description={description} />
+        <PageHeader title={title} description={description} back={{ fallback: '/app/minigames' }} />
         <Panel className="p-8">
           <EmptyState icon={ListOrdered} title={t('No authored game pack is ready yet.')} description={t('This game appears once a reviewed local pack passes validation.')} />
         </Panel>
@@ -69,7 +69,7 @@ export function AuthoredOrderGamePage({ kind }: { kind: 'clinical_sequence' | 'm
 
   return (
     <PageContainer>
-      <PageHeader title={title} description={description} />
+      <PageHeader title={title} description={description} back={{ fallback: '/app/minigames' }} />
       <div className="space-y-4">
         <Panel className="p-4">
           <div className="flex flex-wrap items-start justify-between gap-3">

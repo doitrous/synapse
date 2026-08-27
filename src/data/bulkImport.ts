@@ -69,6 +69,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
         { key: `answer_${letter.toLowerCase()}`, label: `Answer ${letter}`, help: `Answer option ${letter}. Blank optional answers are omitted.` },
         { key: `explanation_${letter.toLowerCase()}`, label: `Explanation ${letter}`, help: `Why answer ${letter} is correct or incorrect.` },
       ]),
+      { key: 'explanation', label: 'Explanation (overall)', help: 'Optional. An overall explanation shown to the student in addition to each option’s own rationale above. When omitted, the correct option’s explanation is shown on its own, as before.' },
       { key: 'topic', label: 'Topic', help: 'Canonical topic or blueprint heading.' },
       { key: 'subtopic', label: 'Subtopic', help: 'More specific curriculum location.' },
       { key: 'difficulty', label: 'Intended difficulty', help: 'Easy, Moderate, Hard, or Challenging.' },
@@ -1161,7 +1162,10 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       title: values.question?.trim() || base.title,
       fields: {
         Topic: values.topic ?? '', Vignette: values.vignette ?? '',
-        Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '',
+        // An authored overall explanation wins when present and non-blank; a
+        // silent or blank column keeps the long-standing derived behaviour —
+        // a copy of the correct option's own rationale — unchanged.
+        Explanation: (text('explanation') || answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation) ?? '',
         ...(difficulty ? { Difficulty: difficulty } : {}),
       },
       questionData: {

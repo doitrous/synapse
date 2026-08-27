@@ -15,6 +15,7 @@ import { useMyDocuments } from '@/lib/useMyDocuments'
 import { apiDownload, apiFetchFile, API_MODE } from '@/lib/api'
 import { uploadRouteId } from '@/lib/useReaderSource'
 import { ShareDialog } from '@/components/share/ShareDialog'
+import { setShareFollow as apiSetShareFollow, setShareStar as apiSetShareStar, useSharedDocuments, type ShareSummary } from '@/lib/useShares'
 import { useT } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import {
@@ -33,6 +34,13 @@ import {
   type Tool, type WhiteboardCollection, type WhiteboardDocument,
 } from '@/data/whiteboard'
 
+
+// Keyed on the ShareAccess enum — never render its raw values to a student.
+const SHARE_ACCESS_LABEL: Record<string, string> = {
+  private: 'Private',
+  view: 'Can view',
+  edit: 'Can edit',
+}
 
 type NoteOffset = { id: string; ox: number; oy: number }
 type BoardUpdater = BoardState | ((current: BoardState) => BoardState)
@@ -689,6 +697,42 @@ export function Whiteboard() {
     [audience, collection],
   )
 
+  /**
+   * The live "Shared" tab, once a connected deployment exists.
+   *
+   * `collection.sharedBoards` above is preview-only scaffolding — it is never
+   * populated once `API_MODE` is on, so the real feed comes straight from the
+   * shares API, same as the Notebook's shared notes. Sorted by star count first
+   * so the boards classmates value most rise to the top of their module.
+   */
+  const sharedWhiteboards = useSharedDocuments('whiteboard')
+  const liveSharedGroups = useMemo(() => {
+    const sorted = [...sharedWhiteboards.items]
+      .sort((a, b) => (b.starCount ?? 0) - (a.starCount ?? 0) || new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    const groups = new Map<string, ShareSummary[]>()
+    for (const item of sorted) {
+      const key = item.topics?.[0] ?? t('Shared boards')
+      groups.set(key, [...(groups.get(key) ?? []), item])
+    }
+    return [...groups.entries()].map(([topic, boards]) => ({ topic, boards }))
+  }, [sharedWhiteboards.items, t])
+
+  async function toggleSharedBoardStar(item: ShareSummary) {
+    if (!API_MODE) return
+    try {
+      const updated = await apiSetShareStar(item.id, !item.starred)
+      sharedWhiteboards.setItems((current) => current.map((entry) => entry.id === item.id ? updated : entry))
+    } catch { /* the server keeps the truth */ }
+  }
+
+  async function toggleSharedBoardFollow(item: ShareSummary) {
+    if (!API_MODE) return
+    try {
+      const updated = await apiSetShareFollow(item.id, !item.following)
+      sharedWhiteboards.setItems((current) => current.map((entry) => entry.id === item.id ? updated : entry))
+    } catch { /* the server keeps the truth */ }
+  }
+
   const bounds = useMemo(() => {
     const xs = [
       ...board.notes.flatMap((note) => [note.x, note.x + NOTE_W]),
@@ -1167,6 +1211,45 @@ export function Whiteboard() {
             <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{activeBoard.collaborators.length} {t('collaborators')}</span>
           </div>
         </>
+      ) : API_MODE ? (
+        <div className="max-h-52 overflow-auto pr-1">
+          {sharedWhiteboards.loading ? (
+            <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">{t('Opening shared boards…')}</p>
+          ) : sharedWhiteboards.error ? (
+            <p role="alert" className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-danger">{t(sharedWhiteboards.error)}</p>
+          ) : liveSharedGroups.length === 0 ? (
+            <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
+              {t('No same-university/year whiteboards have been shared with you yet.')}
+            </p>
+          ) : (
+            <div className="space-y-3">
+              {liveSharedGroups.map((group) => (
+                <section key={group.topic}>
+                  <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
+                  <div className="space-y-1">
+                    {group.boards.map((item) => (
+                      <div key={item.id} className="rounded-lg border border-line bg-surface-2 p-2">
+                        <div className="flex items-start gap-2">
+                          <button type="button" className="min-w-0 flex-1 text-start" onClick={() => navigate(`/s/${item.id}`)}>
+                            <span className="block truncate text-[12.5px] font-semibold text-ink">{item.title}</span>
+                            <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                              <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{item.starCount ?? 0}</span>
+                              {item.collaborators?.length ? <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{item.collaborators.length}</span> : null}
+                              <span className="inline-flex items-center gap-1"><Icon icon={(item.permission ?? item.access) === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[item.permission ?? item.access] ?? (item.permission ?? item.access))}</span>
+                              <span>{item.ownerName ?? t('A classmate')}</span>
+                            </span>
+                          </button>
+                          <IconButton icon={Star} label={t('Star board')} size="sm" active={Boolean(item.starred)} onClick={() => void toggleSharedBoardStar(item)} />
+                          <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={Boolean(item.following)} onClick={() => void toggleSharedBoardFollow(item)} />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          )}
+        </div>
       ) : (
         <div className="max-h-52 overflow-auto pr-1">
           {sharedGroups.length === 0 ? (
@@ -1185,8 +1268,9 @@ export function Whiteboard() {
                           <button type="button" className="min-w-0 flex-1 text-start" onClick={() => setCollection((current) => ({ ...current, activeBoardId: current.activeBoardId }))}>
                             <span className="block truncate text-[12.5px] font-semibold text-ink">{entry.title}</span>
                             <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                              <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{entry.stars.length}</span>
                               <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{entry.collaborators.length}</span>
-                              <span className="inline-flex items-center gap-1"><Icon icon={entry.permission === 'edit' ? Pencil : Eye} size={11} />{t(entry.permission)}</span>
+                              <span className="inline-flex items-center gap-1"><Icon icon={entry.permission === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[entry.permission] ?? entry.permission)}</span>
                               <span>{entry.ownerName}</span>
                             </span>
                           </button>

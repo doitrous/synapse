@@ -16,8 +16,8 @@ import { Field, TextInput } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { Caveat, ShareRow, SubHeading, percent } from './parts'
-import { buildWeeklyPlan, PLAN_CAVEAT, type DayCapacity, type PlanTask } from '@/data/adaptive/schedule'
-import { buildCrashProgramme, CRASH_CAVEAT, emptyStudyDays } from '@/data/adaptive/crashCourse'
+import { buildWeeklyPlan, PLAN_CAVEAT, type DayCapacity, type PlanTask, type TaskTier } from '@/data/adaptive/schedule'
+import { buildCrashProgramme, CRASH_CAVEAT, emptyStudyDays, type CrashDay } from '@/data/adaptive/crashCourse'
 import { NEED_LABEL, ALLOCATION_NEEDS } from '@/data/adaptive/config'
 import type { AdaptiveStudy } from '@/lib/adaptive/useAdaptiveStudy'
 import { useConceptLabels, usePrerequisites } from '@/lib/adaptive/useAdaptiveConfig'
@@ -34,6 +34,10 @@ function weekStart(from = new Date()): string {
 }
 
 const TIER_TONE = { minimum: 'primary', recommended: 'neutral', stretch: 'outline' } as const
+const TIER_LABEL: Record<TaskTier, string> = { minimum: 'Minimum', recommended: 'Recommended', stretch: 'Stretch' }
+const DAY_KIND_LABEL: Record<CrashDay['kind'], string> = {
+  study: 'Study', mock: 'Mock', review: 'Review', 'catch-up': 'Catch-up', rest: 'Rest',
+}
 
 function TaskRow({ task }: { task: PlanTask }) {
   if (task.kind === 'rest') {
@@ -49,7 +53,7 @@ function TaskRow({ task }: { task: PlanTask }) {
       <div className="flex flex-wrap items-center gap-2">
         <p className="min-w-0 flex-1 truncate text-[12.5px] font-medium text-ink">{task.title}</p>
         <span className="tnum shrink-0 font-mono text-[11px] text-ink-2">{task.expectedMinutes}m</span>
-        <Badge tone={TIER_TONE[task.tier]}>{task.tier}</Badge>
+        <Badge tone={TIER_TONE[task.tier]}>{TIER_LABEL[task.tier]}</Badge>
       </div>
       <p className="mt-1 text-[11.5px] leading-relaxed text-ink-3">{task.reason}</p>
     </div>
@@ -249,7 +253,7 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
                     )}
                   >
                     <span className="tnum w-10 shrink-0 font-mono text-[11px] text-ink-3">Day {day.dayNumber}</span>
-                    <Badge tone={day.kind === 'mock' ? 'primary' : 'outline'}>{day.kind}</Badge>
+                    <Badge tone={day.kind === 'mock' ? 'primary' : 'outline'}>{DAY_KIND_LABEL[day.kind]}</Badge>
                     <p className="min-w-0 flex-1 text-[12.5px] text-ink-2">
                       {day.labels.length
                         ? day.labels.map((label, index) => labels.get(day.conceptIds[index]) ?? label).join(' · ')
