@@ -21,7 +21,7 @@ import type { Skill } from '@/data/practical'
 import { skills, oralQuestions } from '@/data/practical'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
-import { summariseSkills, type SkillStatus } from '@/data/practicalProgress'
+import { summariseSkills, type OralMark, type SkillStatus } from '@/data/practicalProgress'
 import type { Difficulty } from '@/data/qbank'
 import { useLivePracticals } from '@/lib/useLivePracticals'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
@@ -506,8 +506,6 @@ function LabTab({ onOpen }: { onOpen: Open }) {
 
 /* ---- Oral questions ---------------------------------------------------- */
 
-type OralMark = 'got' | 'partly' | 'missed'
-
 const ORAL_MARK_META: Record<OralMark, { icon: typeof CircleCheck; cls: string; label: string }> = {
   got: { icon: CircleCheck, cls: 'text-success', label: 'Got it' },
   partly: { icon: CircleAlert, cls: 'text-warning', label: 'Partly' },
@@ -522,10 +520,10 @@ function formatTimer(totalSeconds: number) {
 
 /**
  * One question rehearsed at a time — attempt it aloud, reveal the model
- * answer, then mark yourself before moving on. The self-mark is a session
- * record only (kept in this tab's state, like the old reveal-set was); there
- * is no schema for it in `practicalProgress` yet, so it resets on reload
- * rather than silently pretending to be durable.
+ * answer, then mark yourself before moving on. The self-mark persists via
+ * `usePracticalProgress` (`oral`), so it survives a reload; only the reveal
+ * state and the "answer aloud" timer stay session-local, since replaying
+ * whether the model answer was on screen a moment ago has no lasting value.
  */
 function OralTab() {
   const flat = useMemo(() => {
@@ -540,9 +538,11 @@ function OralTab() {
     [],
   )
 
+  const { progress, markOral } = usePracticalProgress()
+  const marks = progress.oral ?? {}
+
   const [index, setIndex] = useState(0)
   const [revealed, setRevealed] = useState(false)
-  const [marks, setMarks] = useState<Record<string, OralMark>>({})
   const [running, setRunning] = useState(false)
   const [elapsed, setElapsed] = useState(0)
   const tick = useRef<ReturnType<typeof setInterval> | null>(null)
@@ -566,8 +566,8 @@ function OralTab() {
   }
 
   const current = flat[index]
-  const doneCount = flat.filter((q) => marks[q.id] === 'got').length
-  const partlyCount = flat.filter((q) => marks[q.id] === 'partly').length
+  const doneCount = flat.filter((q) => marks[q.id]?.mark === 'got').length
+  const partlyCount = flat.filter((q) => marks[q.id]?.mark === 'partly').length
   const answeredCount = flat.filter((q) => marks[q.id]).length
   const isLast = index === flat.length - 1
 
@@ -629,12 +629,12 @@ function OralTab() {
                 <span className="text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">How did you do?</span>
                 {(Object.keys(ORAL_MARK_META) as OralMark[]).map((m) => {
                   const meta = ORAL_MARK_META[m]
-                  const active = marks[current.id] === m
+                  const active = marks[current.id]?.mark === m
                   return (
                     <button
                       key={m}
                       type="button"
-                      onClick={() => setMarks((prev) => ({ ...prev, [current.id]: m }))}
+                      onClick={() => markOral(current.id, m)}
                       className={cn(
                         'inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[12px] font-medium transition-colors',
                         active
@@ -671,7 +671,7 @@ function OralTab() {
                 <p className="px-2 pb-1 pt-2 text-[11px] font-semibold text-ink-2">{subj.name}</p>
                 {questions.map((q) => {
                   const i = flat.findIndex((f) => f.id === q.id)
-                  const mark = marks[q.id]
+                  const mark = marks[q.id]?.mark
                   const isCurrent = i === index
                   const meta = mark ? ORAL_MARK_META[mark] : { icon: CircleDashed, cls: 'text-ink-3', label: 'Not answered' }
                   return (
