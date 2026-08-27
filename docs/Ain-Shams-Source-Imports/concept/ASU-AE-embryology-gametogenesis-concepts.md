@@ -3950,3 +3950,59 @@ lastReviewed: New ASU batch; not yet faculty reviewed.
 reviewDue: Set after first review.
 resourceOccurrenceIds: Hand-transcribed (with page-image visual verification) from a scanned/OCR'd source; no separate corpus occurrence record was supplied.
 sourceCandidateIds: Existing content was searched via find-existing.mjs for the concept's key terms before minting (see report / rejectedMergeCandidateIds for near-misses found).
+
+---
+
+# Item
+
+## id
+CON-DEV-B2A947014AE180
+
+## label
+Identify cells with a haploid chromosome number
+
+## learner_years
++1
+
+## universities
++asu
+
+## modules
++ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > Embryo 1
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## field_notes
+overlay: Sparse update only -- live-hit found via find-existing.mjs "haploid" before minting. ASU Year 1 Embryology Q4 ("Which of these cells contains 23 chromosomes? -- Secondary spermatocyte") tests the same assessment objective already live as CON-DEV-B2A947014AE180. This row only adds ASU/ASU_Y1/ASU-AE traceability and the module_subject path; every other field is left as the live record holds it. university_notes is not a field on concepts (per manual 02-concepts.md); this note carries the source instead: ASU-AE Embryology, "MCQs - Embryo 1.pdf" (src_5d3b735488d8c321d5bd), question 4, answer key row 4 = b (secondary spermatocyte).
+
+---
+
+# Item
+
+## id
+CON-GYN-67FBF69E18FC33
+
+## label
+Cumulus oophorus is granulosa-cell group surrounding corona radiata and separating it from follicular fluid
+
+## learner_years
++1
+
+## universities
++asu
+
+## modules
++ASU-AE
+
+## module_subject
+ASU-AE > Embryology > Questions > Embryo 1
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## field_notes
+overlay: Sparse update only -- live-hit found via find-existing.mjs "cumulus oophorus" before minting. ASU Year 1 Embryology Q15 ("After ovulation, the released secondary oocyte is surrounded by cells called: -- Cumulus oophorus") tests the same fact already live as CON-GYN-67FBF69E18FC33. This row only adds ASU/ASU_Y1/ASU-AE traceability, the added learner year (live record was Y2-only; ASU teaches it in Y1) and the module_subject path; every other field is left as the live record holds it. university_notes is not a field on concepts; source instead: ASU-AE Embryology, "MCQs - Embryo 1.pdf" (src_5d3b735488d8c321d5bd), question 15, answer key row 15 = c (cumulus oophorus).
