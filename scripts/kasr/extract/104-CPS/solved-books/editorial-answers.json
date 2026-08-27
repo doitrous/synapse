@@ -138,6 +138,12 @@
    "cluster": "Physiology / Cardiovascular Vascular Function (tail) + Respiratory: Control of Respiration (start)",
    "keyed": 16,
    "excluded": 4
+  },
+  {
+   "batch": 24,
+   "cluster": "Physiology / Respiratory: Gas Transport + Gas Exchange + Organization + Pulmonary Compliance",
+   "keyed": 18,
+   "excluded": 2
   }
  ],
  "keyed": {
@@ -3201,6 +3207,183 @@
     "D": "The Cushing reflex is a cardiovascular pressor response to cerebral ischemia, entirely unrelated to the respiratory cycle's inspiration-to-expiration transition."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "cyanosis-1-60b08503": {
+   "answer": "D",
+   "explanation": "Severe ventilation-perfusion imbalance (including right-to-left shunting) can produce enough deoxygenated (reduced) haemoglobin in the systemic circulation to cause visible cyanosis, since inadequately oxygenated blood mixes into or bypasses ventilated alveoli and reaches the periphery still substantially deoxygenated. This contrasts sharply with two classic exceptions: histotoxic hypoxia (e.g. cyanide poisoning), where blood remains adequately oxygenated even though tissues cannot use the oxygen, so cyanosis is typically ABSENT; and carbon monoxide poisoning, which classically produces a cherry-red skin colour from carboxyhaemoglobin rather than the bluish colour of cyanosis, since CO-bound haemoglobin does not produce the same visual effect as truly deoxygenated (reduced) haemoglobin.",
+   "distractorNotes": {
+    "A": "The classic threshold for visible cyanosis is roughly 5 GRAMS (not milligrams) of reduced haemoglobin per 100 mL of blood -- a large unit discrepancy that makes this statement, as worded, incorrect.",
+    "B": "Histotoxic hypoxia (e.g. cyanide poisoning) classically presents WITHOUT cyanosis, since the blood itself remains adequately oxygenated even though the tissues cannot utilise the oxygen delivered to them.",
+    "C": "Carbon monoxide poisoning classically produces a cherry-red skin colour (from carboxyhaemoglobin), not cyanosis, since CO-bound haemoglobin does not visually resemble truly deoxygenated (reduced) haemoglobin."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "oxygen-therapy-is-of-limited-value-in-which-of-the-following-4b8eb82e": {
+   "answer": "D",
+   "explanation": "Both stagnant hypoxia (where the underlying problem is inadequate blood FLOW/circulation to tissues, not inadequate blood oxygen content) and histotoxic hypoxia such as cyanide poisoning (where tissues cannot metabolically utilise the oxygen delivered to them, regardless of how much is supplied) are classic examples where increasing inspired oxygen concentration provides only limited benefit, since neither condition's primary defect is corrected simply by raising blood oxygen content or saturation. This contrasts with hypoxic hypoxia (e.g. high altitude, hypoventilation, or diffusion impairment), where supplemental oxygen therapy is genuinely and substantially effective, since the underlying problem there IS inadequate oxygen loading onto haemoglobin in the first place.",
+   "distractorNotes": {
+    "A": "Oxygen therapy retains meaningful, if sometimes incomplete, benefit in ARDS, unlike the more fundamentally limited benefit seen in stagnant or histotoxic hypoxia.",
+    "B": "Stagnant hypoxia alone is a correct example, but the more complete answer includes histotoxic hypoxia (cyanide poisoning) as well.",
+    "C": "Cyanide poisoning (histotoxic hypoxia) alone is a correct example, but the more complete answer includes stagnant hypoxia as well."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-chloride-shift-phenomenon-at-the-tissue-level-d2124bd0": {
+   "answer": "A",
+   "explanation": "At the tissue level, CO2 diffuses into red blood cells and is converted to bicarbonate by carbonic anhydrase; as this bicarbonate diffuses out of the cell into the plasma to be carried to the lungs, chloride ions move INTO the red blood cell to maintain electrical neutrality -- the 'chloride shift' (Hamburger phenomenon) -- so chloride concentration genuinely increases within red blood cells at the tissue level. This same influx of chloride (and associated water, following the osmotic gradient) causes red blood cells to gain, not lose, osmotic content and to swell very slightly, meaning venous red blood cells are marginally larger and venous haematocrit is very slightly HIGHER, not lower, than arterial haematocrit.",
+   "distractorNotes": {
+    "B": "The osmotic pressure inside red blood cells actually INCREASES (not decreases) at the tissue level, as chloride ions (and osmotically-following water) enter the cell during the chloride shift.",
+    "C": "Because red blood cells gain osmotic content and swell slightly at the tissue level, venous haematocrit is very slightly HIGHER, not lower, than arterial haematocrit."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-haldane-effect-refers-to-460f3b00": {
+   "answer": "A",
+   "explanation": "The Haldane effect describes how deoxygenated haemoglobin has a substantially greater capacity to carry CO2 (as carbamino compounds and by buffering H+ to allow more bicarbonate formation) than oxygenated haemoglobin does, at any given CO2 tension -- this is why haemoglobin picks up extra CO2-carrying capacity precisely where it becomes deoxygenated (the tissues) and loses that capacity where it becomes oxygenated (the lungs), facilitating CO2 unloading exactly where it needs to be exhaled. This is the functional counterpart to the Bohr effect (where CO2/pH changes affect oxygen binding), together forming a reciprocal, mutually-reinforcing system that enhances both O2 delivery and CO2 removal.",
+   "distractorNotes": {
+    "B": "The chloride shift, maintaining electrical neutrality as bicarbonate exits red blood cells, is a related but distinct phenomenon from the Haldane effect itself.",
+    "C": "The carriage of dissolved CO2 is one of several forms CO2 takes in the blood, not itself the definition of the Haldane effect.",
+    "D": "The shape of the CO2 dissociation curve is a related graphical representation, but not itself the definition of the Haldane effect, which specifically concerns oxygenation status changing CO2-carrying capacity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-hemoglobin-oxygen-dissociation-curve-moves-up-and-to-the-58fa0d96": {
+   "answer": "B",
+   "explanation": "A leftward shift of the oxygen-haemoglobin dissociation curve reflects INCREASED haemoglobin affinity for oxygen, and hypothermia (decreased temperature) is a genuine cause of this leftward shift, since lower temperature stabilises haemoglobin's oxygen-bound conformation. This is the opposite direction from increased hydrogen ion concentration and hypercarbia (increased CO2), both of which are classic Bohr effect factors that instead shift the curve DOWN and to the RIGHT, decreasing haemoglobin's oxygen affinity to facilitate oxygen unloading at the tissues -- making 'all of the above' incorrect since two of the three listed factors actually cause the opposite shift.",
+   "distractorNotes": {
+    "A": "Increased hydrogen ion concentration (acidosis) is a classic Bohr effect factor causing a RIGHTWARD (not leftward) shift, decreasing haemoglobin's oxygen affinity.",
+    "C": "Hypercarbia (increased CO2) similarly causes a RIGHTWARD shift via the Bohr effect, decreasing oxygen affinity, the opposite of an upward-leftward shift.",
+    "D": "Since increased H+ and hypercarbia both cause rightward (not leftward) shifts, 'all of the above' incorrectly groups opposite-direction factors together."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "hypoxemia-is-caused-by-all-of-the-following-except-e0059e10": {
+   "answer": "B",
+   "explanation": "A left-to-right shunt (as in an uncorrected atrial or ventricular septal defect) recirculates already-oxygenated blood from the systemic (left) side back into the pulmonary (right) circulation, without introducing any deoxygenated blood into the systemic arterial circulation -- it does not cause hypoxemia. It is specifically a RIGHT-to-LEFT shunt that causes hypoxemia, by allowing deoxygenated blood to bypass the lungs entirely and mix directly into oxygenated systemic arterial blood. The other listed causes are all genuine, classic mechanisms of hypoxemia: pulmonary fibrosis impairs gas diffusion across a thickened alveolar-capillary membrane, high altitude reduces the inspired partial pressure of oxygen, and hypoventilation reduces alveolar oxygen tension while raising alveolar CO2.",
+   "distractorNotes": {
+    "A": "Pulmonary fibrosis genuinely causes hypoxemia by thickening the diffusion barrier and impairing oxygen transfer into the blood.",
+    "C": "Residing at high altitude genuinely causes hypoxemia by reducing the inspired partial pressure of oxygen available to diffuse into the blood.",
+    "D": "Hypoventilation genuinely causes hypoxemia by reducing alveolar oxygen tension as alveolar CO2 rises."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-25-year-old-min-is-under-water-in-the-swimming-pool-and-br-7c09a85e": {
+   "answer": "B",
+   "explanation": "Alveolar ventilation equals (tidal volume minus dead space) multiplied by respiratory rate: (550 mL - 250 mL) x 10 breaths/min = 300 mL x 10 = 3000 mL/min. Note that breathing through a snorkel effectively adds the snorkel's internal volume to the anatomical dead space, which is why the question specifies an 'effective' anatomical dead space of 250 mL (larger than a typical person's roughly 150 mL) rather than simply the person's own airway dead space -- the calculation itself, however, uses the same standard alveolar ventilation formula.",
+   "distractorNotes": {
+    "A": "2500 mL/min does not match the calculation (300 mL x 10 = 3000, not 2500).",
+    "C": "3500 mL/min does not match the calculation.",
+    "D": "4000 mL/min does not match the calculation."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-intrapleural-pressure-at-the-end-of-inspiration-is-9c8970b0": {
+   "answer": "C",
+   "explanation": "At the end of a normal (quiet) inspiration, intrapleural pressure has become more negative than its resting value, reaching approximately -6 mmHg (roughly -8 cmH2O), compared with the less negative value of roughly -2.5 to -4 mmHg typically present at the end of a normal expiration. This more negative value, matching this option's magnitude (once the commonly OCR-lost negative sign is accounted for), reflects the increased transpulmonary pressure gradient needed to hold the lung more expanded at the larger, end-inspiratory lung volume.",
+   "distractorNotes": {
+    "A": "4 mmHg (as a negative value) is closer to the intrapleural pressure at the END of expiration, not the more negative value reached at the end of inspiration.",
+    "B": "A positive value contradicts the well-established fact that intrapleural pressure remains negative throughout normal quiet breathing.",
+    "D": "A positive value contradicts the well-established fact that intrapleural pressure remains negative throughout normal quiet breathing."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "in-muller-s-experiment-it-reaches-30cmh20-26-the-intrapleura-fe19c8c8": {
+   "answer": "C",
+   "explanation": "This item bundles an unrelated fact about Muller's experiment (forced inspiration against a closed glottis reaching about -30 cmH2O) with a separate, standard question about intrapleural pressure at the end of a NORMAL inspiration, which reaches approximately -6 mmHg (roughly -8 cmH2O) -- more negative than the roughly -2.5 to -4 mmHg present at the end of normal expiration, reflecting the greater transpulmonary pressure gradient needed to hold the lung at its larger, more expanded end-inspiratory volume.",
+   "distractorNotes": {
+    "A": "4 mmHg (as a negative value) is closer to the pressure at the end of expiration, not the more negative value reached at the end of inspiration.",
+    "B": "A positive value contradicts the well-established fact that intrapleural pressure remains negative throughout normal quiet breathing.",
+    "D": "A positive value contradicts the well-established fact that intrapleural pressure remains negative throughout normal quiet breathing."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-intrapleural-pressure-is-positive-in-90a4bb0f": {
+   "answer": "C",
+   "explanation": "Valsalva's experiment -- forced expiration against a closed glottis -- is the classic scenario where intrapleural (and intrathoracic) pressure becomes genuinely positive, since the expiratory effort has no outlet for air and the resulting pressure builds up within the sealed thorax. This is the opposite of Muller's experiment (forced inspiration against a closed glottis), which instead produces an extremely negative intrapleural pressure, and is distinct from the end of normal expiration or deep inspiration, both of which keep intrapleural pressure negative throughout normal breathing.",
+   "distractorNotes": {
+    "A": "Intrapleural pressure remains slightly negative, not positive, even at the end of normal (quiet) expiration.",
+    "B": "Muller's experiment (forced inspiration against a closed glottis) produces an extremely negative, not positive, intrapleural pressure.",
+    "D": "Deep inspiration makes intrapleural pressure more negative, not positive."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-is-true-under-normal-conditions-145d5832": {
+   "answer": "C",
+   "explanation": "Under normal breathing conditions, intrapleural pressure remains consistently negative (below atmospheric pressure) throughout the entire respiratory cycle, never becoming positive during ordinary quiet breathing -- this is what maintains the transpulmonary pressure gradient (alveolar minus intrapleural pressure) that keeps the lung expanded against its own elastic recoil. This contrasts with intrapulmonary (alveolar) pressure, which fluctuates both above and below atmospheric pressure across the cycle (below during inspiration to draw air in, above during expiration to push air out, and equal to atmospheric at the brief pause points between), meaning it is not 'always greater' or 'always less' than atmospheric, and with intrapleural pressure itself, which is normally LESS than (not greater than) intrapulmonary pressure throughout the cycle.",
+   "distractorNotes": {
+    "A": "Intrapleural pressure is normally LESS than (more negative than) intrapulmonary pressure throughout the cycle, not greater -- this pressure difference is what keeps the lung expanded.",
+    "B": "Intrapulmonary pressure fluctuates both above and below atmospheric pressure across the respiratory cycle, so it is not 'always greater' than atmospheric.",
+    "D": "Intrapulmonary pressure fluctuates both above and below atmospheric pressure across the cycle, so it is not 'always less' than atmospheric either."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-35-year-old-man-has-a-vital-capacity-vc-of-5-l-a-tidal-vol-d5f494f1": {
+   "answer": "C",
+   "explanation": "Vital capacity equals inspiratory capacity plus expiratory reserve volume (VC = IC + ERV), so expiratory reserve volume equals vital capacity minus inspiratory capacity: 5 L - 3.5 L = 1.5 L. This is consistent with the other given values: since FRC = ERV + RV, residual volume would be 2.5 L - 1.5 L = 1.0 L, giving a total lung capacity of VC + RV = 5 + 1 = 6 L, a physiologically reasonable set of values.",
+   "distractorNotes": {
+    "A": "3.6 L does not match the calculation (5 - 3.5 = 1.5, not 3.6).",
+    "B": "This garbled value does not match the calculated 1.5 L."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-preterm-infant-has-a-surfactant-deficiency-without-surfact-87f66d17": {
+   "answer": "D",
+   "explanation": "Without adequate surfactant, alveolar surface tension is markedly INCREASED (since surfactant's entire function is to reduce surface tension at the air-liquid interface), and this increased surface tension directly stiffens the lung, DECREASING pulmonary compliance -- together explaining why preterm infants with surfactant deficiency (respiratory distress syndrome) require much greater inspiratory pressure to achieve adequate lung expansion and are prone to progressive alveolar collapse at end-expiration.",
+   "distractorNotes": {
+    "A": "Surface tension is INCREASED, not decreased, without surfactant, since surfactant's role is specifically to reduce surface tension.",
+    "B": "Surface tension increases (not decreases) without surfactant, and compliance also changes (decreases), rather than remaining unchanged.",
+    "C": "While surface tension is correctly identified as increased, compliance also decreases as a direct consequence, rather than remaining unchanged."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "all-of-the-following-increase-the-work-of-breathing-except-17128ff7": {
+   "answer": "C",
+   "explanation": "A normal amount of surfactant reduces alveolar surface tension and thereby maintains normal lung compliance, which DECREASES (not increases) the work of breathing -- making it the clear exception among these otherwise pathological, work-increasing conditions. Bronchial asthma increases airway resistance (obstructive work), lung fibrosis decreases lung compliance (restrictive work), and kyphoscoliosis deforms and stiffens the chest wall (restrictive work), all genuinely increasing the effort required to breathe.",
+   "distractorNotes": {
+    "A": "Bronchial asthma increases airway resistance, genuinely increasing the work of breathing (an obstructive pattern).",
+    "B": "Lung fibrosis decreases lung compliance, genuinely increasing the work of breathing (a restrictive pattern).",
+    "D": "Kyphoscoliosis deforms and stiffens the chest wall, genuinely increasing the work of breathing (a restrictive pattern)."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-compliance-of-large-arterial-blood-vessels-one-is-9eea479c": {
+   "answer": "A",
+   "explanation": "The initial, more linear (compliant) portion of an artery's pressure-volume relationship, occurring at lower distending pressures, is attributable to the stretching of the vessel wall's elastin (elastic) fibres, which are relatively easy to stretch and give the vessel its initial compliance. As pressure and volume increase further, the stiffer, less distensible collagen fibres become progressively recruited and bear more of the load, producing the STEEPER, less compliant portion of the curve at higher pressures -- collagen recruitment therefore makes the vessel wall progressively LESS (not more) compliant as distension increases, protecting the vessel from overdistension and rupture.",
+   "distractorNotes": {
+    "B": "The steeper (less compliant) part of the pressure-volume curve is attributable to the stiffer collagen fibres being recruited, not the more easily-stretched elastic fibres.",
+    "D": "Stretching the collagen fibres makes the vessel wall progressively STIFFER (lower, not higher, compliance), since collagen is far less distensible than elastin."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-compliance-of-the-stomach-one-is-true-ec247c63": {
+   "answer": "B",
+   "explanation": "The smooth muscle of the stomach wall exhibits the property of plasticity -- the ability to maintain relatively stable wall tension despite substantial changes in volume/stretch -- which is precisely what allows the stomach to accommodate a large meal with only a modest rise in internal pressure, analogous to the same plasticity property seen in other visceral smooth muscle organs like the urinary bladder. This is distinct from an inflated normal-capacity claim (the stomach's normal accommodating capacity is far less than 10 litres), a mischaracterisation of the Laplace-law-based relationship between curvature radius and wall tension, and a reversal of the vagally-mediated 'receptive relaxation' reflex, which actually RELAXES (rather than stimulates contraction of) the stomach body's smooth muscle during swallowing to accommodate incoming food.",
+   "distractorNotes": {
+    "A": "The stomach's normal accommodating capacity is far less than 10 litres; this figure substantially overstates normal gastric capacity.",
+    "C": "By Laplace's law, wall tension and curvature radius are directly (not inversely) related at a given pressure, the opposite of what this option states.",
+    "D": "The vagally-mediated 'receptive relaxation' reflex actually RELAXES the smooth muscle of the stomach body during swallowing to accommodate incoming food, rather than stimulating increased muscle activity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "lung-compliance-is-increased-in-1ce011e2": {
+   "answer": "A",
+   "explanation": "Pulmonary emphysema destroys alveolar walls and the elastin fibres within them, reducing the lung's elastic recoil and making it abnormally easy to inflate -- producing the classic 'floppy lung' with increased compliance, in contrast to pulmonary fibrosis, surfactant deficiency, and acute pulmonary oedema, all of which stiffen the lung by different mechanisms (excess fibrous tissue, increased surface tension, and fluid-filled airspaces respectively) and therefore DECREASE, not increase, compliance.",
+   "distractorNotes": {
+    "B": "Pulmonary fibrosis stiffens the lung with excess fibrous tissue, decreasing (not increasing) compliance.",
+    "C": "Surfactant deficiency increases alveolar surface tension, stiffening the lung and decreasing (not increasing) compliance.",
+    "D": "Acute pulmonary oedema fills the interstitium and alveoli with fluid, stiffening the lung and decreasing (not increasing) compliance."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-total-amount-of-air-that-does-not-undergo-gas-exchange-b-16470694": {
+   "answer": "B",
+   "explanation": "Physiologic dead space is defined precisely as the sum of anatomical dead space (air in the conducting airways that never reaches the alveoli at all) and alveolar dead space (air that does reach ventilated alveoli, but where blood flow is inadequate or absent, so gas exchange cannot occur due to disease) -- exactly matching the stem's description of air lost to alveolar disease PLUS air that cannot reach the alveoli at all. This is distinct from anatomical dead space alone (only the conducting-airway component), residual volume (the air remaining after maximal exhalation, an unrelated lung volume), and vital capacity (the maximum volume that can be exhaled after maximal inspiration, also unrelated to dead space).",
+   "distractorNotes": {
+    "A": "Anatomical dead space accounts only for air that cannot reach the alveoli (the conducting airways), not the additional alveolar-disease component described in the stem.",
+    "C": "Residual volume is the air remaining in the lungs after maximal exhalation, an unrelated lung volume concept.",
+    "D": "Vital capacity is the maximum volume exhaled after maximal inspiration, an unrelated lung volume concept."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -3680,6 +3863,12 @@
   },
   "which-of-the-following-discharges-s-8-1-receptort-fa-ling-be-5358ae60": {
    "reason": "The correct answer (the dorsal respiratory group, the medulla's spontaneously discharging rhythm generator for quiet breathing, established repeatedly elsewhere in this bank) is missing from the surviving lettered options (apneustic center, motor neurons of respiratory muscles, ventral respiratory group), none of which is correct -- the option letter that should have held the dorsal respiratory group did not survive extraction."
+  },
+  "respiratory-portions-for-aeb43c04": {
+   "reason": "Option B has absorbed a second option's text ('conditioning of air' merged with 'gas exchange'), making it impossible to cleanly assign the correct answer (gas exchange, the defining function of the respiratory portion) to a distinct letter, and the 'all of the above' option (D) would incorrectly include conduction of air, which is a conducting-portion function, not a respiratory-portion one."
+  },
+  "concerning-the-residual-volume-a-represents-more-than-30-of-b7834ad1": {
+   "reason": "The stem's own embedded claims about residual volume (representing more than 30% of TLC; averaging 2200 mL) have no surviving option letters, options A and B are both garbled duplicate labels ('vital capacity (VC)') rather than distinct statements, option D is confidently false (RV is not defined as the sum of tidal volume and expiratory reserve volume), and option C's claim (that residual volume 'aerates blood between breaths') more precisely describes functional residual capacity as a whole rather than residual volume specifically, making it an imprecise attribution rather than a clean, confident answer."
   }
  }
 }
