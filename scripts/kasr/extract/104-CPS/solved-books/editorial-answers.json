@@ -132,6 +132,12 @@
    "cluster": "Physiology / Cardiovascular System: Mechanical Properties (tail) + Special Circulation + Vascular Function (start)",
    "keyed": 17,
    "excluded": 3
+  },
+  {
+   "batch": 23,
+   "cluster": "Physiology / Cardiovascular Vascular Function (tail) + Respiratory: Control of Respiration (start)",
+   "keyed": 16,
+   "excluded": 4
   }
  ],
  "keyed": {
@@ -3039,6 +3045,162 @@
     "D": "Decreased ADH release would promote diuresis and lower, not raise, blood pressure."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-e73503b4": {
+   "answer": "C",
+   "explanation": "This is a duplicate of the sibling question; a decrease in parasympathetic (vagal) tone removes an inhibitory brake on the SA node, raising heart rate and cardiac output, and thereby increasing arterial blood pressure, the opposite of what decreased sympathetic tone, venodilation, or decreased ADH release would each produce.",
+   "distractorNotes": {
+    "A": "Decreased sympathetic tone would lower, not raise, blood pressure.",
+    "B": "Venodilation reduces venous return and cardiac output, lowering rather than raising blood pressure.",
+    "D": "Decreased ADH release would promote diuresis and lower, not raise, blood pressure."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "if-a-patient-at-rest-has-a-systolic-diastolic-blood-pressure-2d576eb0": {
+   "answer": "B",
+   "explanation": "Mean arterial pressure is approximated as diastolic pressure plus one-third of the pulse pressure: 80 + (1/3)(140-80) = 80 + 20 = 100 mmHg. Total peripheral resistance equals mean arterial pressure divided by cardiac output: 100 mmHg divided by 5 L/min = 20 mmHg x min/L, matching this option's calculation.",
+   "distractorNotes": {
+    "A": "18 mmHg x min/L does not match the calculated value of 20.",
+    "C": "22 mmHg x min/L does not match the calculated value of 20.",
+    "D": "25 mmHg x min/L does not match the calculated value of 20."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "if-a-patient-at-rest-has-a-systolic-diastolic-blood-pressure-44891a85": {
+   "answer": "A",
+   "explanation": "Mean arterial pressure is approximated as diastolic pressure plus one-third of the pulse pressure: 70 + (1/3)(130-70) = 70 + 20 = 90 mmHg. Total peripheral resistance equals mean arterial pressure divided by cardiac output: 90 mmHg divided by 5 L/min = 18 mmHg x min/L, which is the value leading this (corrupted, merged) option's text.",
+   "distractorNotes": {
+    "C": "22 mmHg x min/L does not match the calculated value of 18."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "quantitatively-the-most-important-means-for-increasing-blood-ee55525a": {
+   "answer": "D",
+   "explanation": "Local metabolic vasodilation -- a fall in local vascular resistance driven by tissue metabolites (adenosine, K+, H+, CO2, and others) accumulating during increased metabolic activity -- is quantitatively the dominant mechanism matching blood flow to an actively metabolizing tissue's needs, since flow is inversely proportional to resistance for any given driving pressure. This local, intrinsic regulatory mechanism far outweighs systemic factors like changes in arterial blood pressure or stroke volume in accounting for the large increases in regional blood flow seen during increased tissue activity, such as exercising skeletal muscle.",
+   "distractorNotes": {
+    "A": "Increases in arterial blood pressure play only a minor, secondary role in matching flow to a specific tissue's metabolic activity compared with local resistance changes.",
+    "B": "An increase in total peripheral resistance would tend to DECREASE, not increase, blood flow overall, the opposite of what is needed to supply an actively metabolizing tissue.",
+    "C": "A decrease in stroke volume would tend to decrease, not increase, cardiac output and blood flow."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-following-data-are-obtained-from-a-patient-connected-to-208204d2": {
+   "answer": "D",
+   "explanation": "Stroke volume equals cardiac output divided by heart rate: 5000 mL/min divided by 100 beats/min = 50 mL, exactly matching this option. (The other listed values do not cleanly follow from the given data using standard formulas: pulse pressure is actually 122-70=52 mmHg, not 80; and the standard MAP and TPR approximations do not yield exactly 94 mmHg or 40 resistance units respectively.)",
+   "distractorNotes": {
+    "A": "Pulse pressure equals systolic minus diastolic pressure: 122 - 70 = 52 mmHg, not 80 mmHg.",
+    "B": "The standard MAP approximation (diastolic + one-third pulse pressure) gives roughly 87 mmHg, not 94 mmHg, for this data.",
+    "C": "Using (MAP - CVP)/CO with the standard MAP approximation does not yield approximately 40 resistance units for this data."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-following-data-are-obtained-from-a-patient-connected-to-4207d8b0": {
+   "answer": "A",
+   "explanation": "Pulse pressure equals systolic minus diastolic blood pressure: 120 - 70 = 50 mmHg, exactly matching this option. (Checking the other options: stroke volume from these data is 6000/100 = 60 mL, not 50 mL; the standard MAP approximation gives roughly 87 mmHg, not 94 mmHg; and the standard TPR calculation from these values does not yield approximately 40 resistance units.)",
+   "distractorNotes": {
+    "B": "The standard MAP approximation (diastolic + one-third pulse pressure) gives roughly 87 mmHg for this data, not 94 mmHg.",
+    "C": "The standard TPR calculation from these values does not yield approximately 40 resistance units.",
+    "D": "Stroke volume from these data (cardiac output divided by heart rate) is 6000/100 = 60 mL, not 50 mL."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-pressure-in-a-blood-vessel-at-which-flow-ceases-is-calle-debc097f": {
+   "answer": "C",
+   "explanation": "Critical closing pressure is the specific transmural pressure below which a blood vessel, especially one with active vascular smooth muscle tone, collapses completely and flow abruptly ceases, rather than flow simply declining in smooth proportion to the falling pressure. This distinct closure phenomenon arises because vascular smooth muscle tension, at low enough distending pressure, is sufficient to pinch the vessel shut entirely -- a concept distinct from mean arterial pressure (the time-averaged pressure across the cardiac cycle), pulse pressure (the systolic-diastolic difference), or perfusion pressure (the general driving pressure gradient across a vascular bed).",
+   "distractorNotes": {
+    "A": "Mean arterial pressure is the time-averaged arterial pressure across the cardiac cycle, an unrelated concept to the specific pressure at which a vessel collapses.",
+    "B": "Pulse pressure is the difference between systolic and diastolic pressure, unrelated to vessel collapse.",
+    "D": "Perfusion pressure is the general driving pressure gradient across a vascular bed, not the specific threshold pressure at which flow abruptly ceases due to vessel collapse."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-tendency-for-blood-flow-to-be-turbulent-is-increased-by-19fbd049": {
+   "answer": "C",
+   "explanation": "Partial occlusion (stenosis or narrowing) of a blood vessel forces the same volume of blood through a smaller cross-sectional area, dramatically increasing local flow velocity at and just beyond the narrowed segment -- and since turbulence tendency (Reynolds number) increases directly with velocity, this local acceleration promotes turbulent flow, the physical basis of murmurs and bruits heard over stenotic vessels or valves. This is the opposite effect from increased viscosity or increased haematocrit (both of which raise viscosity, which is inversely related to the Reynolds number and thus REDUCES turbulence tendency), and from decreased velocity (which also reduces, rather than increases, turbulence tendency).",
+   "distractorNotes": {
+    "A": "Increased viscosity is inversely related to the Reynolds number, so it DECREASES, not increases, the tendency toward turbulence.",
+    "B": "Increased haematocrit raises blood viscosity, which similarly decreases the tendency toward turbulence.",
+    "D": "Decreased velocity of blood flow decreases, rather than increases, the Reynolds number and the tendency toward turbulence."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "when-the-radius-of-the-resistance-vessels-is-increased-which-ec5ad2d0": {
+   "answer": "D",
+   "explanation": "Increasing the radius of the resistance vessels (arterioles) sharply decreases vascular resistance (inversely proportional to radius to the fourth power), and since flow equals the pressure gradient divided by resistance, this decrease in resistance directly increases blood flow to the downstream capillary bed for any given driving pressure. This vasodilation-induced flow increase is accompanied by a DECREASE, not increase, in diastolic (and generally overall) arterial pressure, since peripheral resistance is a major determinant of diastolic pressure, and blood viscosity itself is not directly altered by a change in vessel radius.",
+   "distractorNotes": {
+    "A": "Systolic blood pressure would tend to decrease or remain relatively unaffected, not increase, with arteriolar vasodilation.",
+    "B": "Diastolic blood pressure would DECREASE, not increase, since it is heavily influenced by peripheral resistance, which falls sharply as resistance vessel radius increases.",
+    "C": "Blood viscosity is an intrinsic property of the blood itself, not directly altered by a change in vessel radius."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-would-be-expected-during-brain-ischem-458ed3b2": {
+   "answer": "D",
+   "explanation": "Cerebral ischemia triggers the CNS ischemic response (Cushing response), a powerful compensatory reflex driven by a marked increase in sympathetic outflow, causing severe systemic vasoconstriction and a dramatic rise in arterial pressure in an attempt to restore cerebral perfusion pressure. This is the primary, direct effect of brain ischemia -- any subsequent bradycardia and increased vagal tone are secondary, reflex baroreceptor responses TO the resulting elevated pressure, not the initial or direct ischemic response itself, and arterial pressure genuinely RISES, not falls, during this process.",
+   "distractorNotes": {
+    "A": "Increased parasympathetic activity is a secondary, reflex consequence of the resulting elevated blood pressure (baroreceptor-mediated), not the primary, direct effect of brain ischemia itself.",
+    "B": "Decreased heart rate is likewise a secondary reflex bradycardia following the pressor response, not the primary direct effect of brain ischemia.",
+    "C": "Arterial pressure actually INCREASES dramatically during brain ischemia via the Cushing response, the opposite of a decrease."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-given-terms-is-defined-as-the-difference-betwee-e481ba38": {
+   "answer": "B",
+   "explanation": "Pulse pressure is defined precisely as the difference between systolic and diastolic arterial pressure, reflecting the magnitude of pressure swing produced by each heartbeat's stroke volume ejected into the arterial tree, and is primarily determined by stroke volume and arterial compliance. This is distinct from blood pressure generally (a broader term encompassing both systolic and diastolic values themselves), mean arterial pressure (the time-averaged pressure across the cardiac cycle, not a simple difference), and end-ventricular pressure (an unrelated cardiac cycle parameter).",
+   "distractorNotes": {
+    "A": "Blood pressure is a general term for arterial pressure (systolic and/or diastolic values), not specifically their difference.",
+    "C": "Mean arterial pressure is the time-weighted average pressure across the cardiac cycle, not the difference between systolic and diastolic values.",
+    "D": "End-ventricular pressure is an unrelated cardiac cycle parameter, not a definition matching the difference between systolic and diastolic pressures."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "co-narcosis-means-466cf640": {
+   "answer": "C",
+   "explanation": "CO2 narcosis refers to the depression (rather than stimulation) of the respiratory centres and central nervous system that occurs when arterial PCO2 rises to markedly elevated levels, typically cited as above roughly 70 mmHg -- at this point, instead of stimulating breathing as more moderate hypercapnia does, the severely elevated CO2 becomes directly narcotic/depressant to CNS function, paradoxically reducing respiratory drive further. This is a critical, clinically dangerous phenomenon particularly relevant to patients with chronic CO2 retention (such as advanced COPD) who receive excessive supplemental oxygen, removing their hypoxic drive and allowing PCO2 to climb into the narcotic range unchecked.",
+   "distractorNotes": {
+    "A": "A marked DECREASE (not increase) in PCO2 would cause hypocapnia and reduced (not stimulated) respiratory drive, the opposite of CO2 narcosis.",
+    "B": "A mild increase in PCO2 (of only 10 mmHg) normally STIMULATES, rather than depresses, respiration -- CO2 narcosis requires a much more marked elevation.",
+    "D": "A marked decrease in PCO2 would not stimulate respiration in the way described, and does not match the defining mechanism of CO2 narcosis (which involves a marked INCREASE in PCO2)."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "in-metabolic-acidosis-compensatory-hyperventilation-occurs-i-4b08cc0a": {
+   "answer": "D",
+   "explanation": "The compensatory hyperventilation of metabolic acidosis is driven primarily by the elevated blood hydrogen ion concentration stimulating the PERIPHERAL chemoreceptors (carotid and aortic bodies), since H+ ions in the blood cannot readily cross the blood-brain barrier to directly stimulate the central chemoreceptors. This peripheral chemoreceptor pathway is the physiologically correct explanation, distinguishing it from a central-chemoreceptor-based mechanism, which would require either CO2 crossing the blood-brain barrier (but in compensated metabolic acidosis, PCO2 is typically being driven DOWN by the resulting hyperventilation, not up) or H+ itself crossing the barrier (which it does not do readily).",
+   "distractorNotes": {
+    "A": "In compensated metabolic acidosis, the resulting hyperventilation drives arterial PCO2 DOWN, not up, so this option's premise (CO2 being produced and stimulating central chemoreceptors) does not fit the actual physiological sequence.",
+    "C": "Blood H+ ions do not readily cross the blood-brain barrier to directly stimulate the central chemoreceptors; this pathway instead operates through the peripheral chemoreceptors."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-basic-rhythm-of-respiration-is-generated-by-neurons-loca-dbed56b4": {
+   "answer": "C",
+   "explanation": "The pneumotaxic centre, located in the upper pons, functions specifically to limit the duration of inspiration by switching off ('turning off') the inspiratory ramp signal from the medullary dorsal respiratory group, allowing expiration to begin at an appropriate point -- effectively acting as an 'off-switch' that controls the rate and depth of breathing. This is the functional opposite of the apneustic centre (lower pons), which instead tends to PROLONG inspiration when unopposed, and is distinct from the dorsal respiratory group (which generates the basic inspiratory rhythm itself, in the medulla) and the nucleus ambiguus (involved in pharyngeal/laryngeal motor control, unrelated to respiratory rhythm generation).",
+   "distractorNotes": {
+    "A": "The apneustic centre tends to PROLONG, not limit, the duration of inspiration when active without pneumotaxic inhibition.",
+    "B": "The dorsal respiratory group generates the basic inspiratory rhythm itself in the medulla; it does not function to limit inspiration's duration.",
+    "D": "The nucleus ambiguus is involved in motor control of the pharynx and larynx (via cranial nerves IX and X), unrelated to limiting the duration of inspiration."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-respiratory-center-includes-a-inspiratory-neurons-that-a-782073f6": {
+   "answer": "A",
+   "explanation": "The dorsal respiratory group, located in the medulla, is composed primarily of inspiratory neurons that generate the basic rhythmic drive for inspiration, forming the core rhythm-generating component of the respiratory centre. This is distinct from the pontine respiratory groups: the apneustic centre is located in the LOWER (not upper) pons and tends to prolong inspiration, while the pneumotaxic centre is located in the UPPER (not lower) pons and limits inspiration -- making the location claims in the other two options reversed from their correct anatomical positions.",
+   "distractorNotes": {
+    "C": "The apneustic centre is located in the lower third of the pons, not the upper third as this option states -- a reversal of the correct apneustic/pneumotaxic locations.",
+    "D": "The pneumotaxic centre is located in the upper third of the pons, not the lower third as this option states -- again a reversal of the correct locations."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-can-stop-normal-inspiration-and-start-9d7e98d1": {
+   "answer": "C",
+   "explanation": "The Hering-Breuer (inflation) reflex, triggered by vagal afferents from pulmonary stretch receptors as the lungs become adequately inflated, provides negative feedback that terminates the inspiratory ramp signal and allows expiration to begin -- functioning to stop inspiration and start expiration, alongside the pneumotaxic centre's similar off-switch role (not listed among these specific options). This is the opposite function from the apneustic centre (which prolongs, rather than stops, inspiration), distinct from the dorsal respiratory group (which generates the basic inspiratory drive, rather than terminating it), and unrelated to the Cushing reflex (a cardiovascular pressor response to cerebral ischemia, not a respiratory-cycle mechanism).",
+   "distractorNotes": {
+    "A": "The apneustic centre tends to prolong, not stop, inspiration when unopposed by pneumotaxic inhibition.",
+    "B": "The dorsal respiratory group generates the basic inspiratory drive itself; it does not function to terminate inspiration.",
+    "D": "The Cushing reflex is a cardiovascular pressor response to cerebral ischemia, entirely unrelated to the respiratory cycle's inspiration-to-expiration transition."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -3506,6 +3668,18 @@
   },
   "the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-f3398b36": {
    "reason": "The correct answer (increased afterload, the established mechanism that decreases shortening velocity per the force-velocity relationship) is embedded unlettered in the stem, and neither of the two lettered options that survive (increased positive inotropic state; achieving Vmax at zero load) correctly describes a cause of decreased shortening velocity -- both instead describe conditions that increase or maximise it."
+  },
+  "if-the-systolic-blood-pressure-is-120-mmhg-and-the-pulse-pre-be7f9f01": {
+   "reason": "The correct calculated value (diastolic pressure = 120-45 = 75 mmHg; MAP = 75 + 45/3 = 90 mmHg) is embedded as the second, unlettered part of a corrupted, merged option ('100 mmHgb- 90 mmHg'), making it genuinely ambiguous which discrete answer letter a grader or importer would associate with this value -- unlike a sibling calculation question where the correct value happened to lead its merged option's text, here it is buried second, so no letter can be confidently assigned."
+  },
+  "turbulent-blood-flow-has-the-following-criteria-it-is-silent-3f05fdaa": {
+   "reason": "The likely false embedded claim (that turbulent flow is 'silent' -- it is actually characteristically noisy, producing murmurs/bruits, unlike smooth laminar flow which is silent) has no surviving letter, option B's claim about vessel widening promoting turbulence has genuine merit in some contexts (post-stenotic dilation) alongside the more classic narrowing scenario, and options C and D are each confidently false (turbulence decreases, not increases, with higher viscosity, and turbulent flow is not normal throughout the vasculature). No single option stands out as confidently, clearly correct."
+  },
+  "the-basic-rhythm-of-respiration-is-generated-by-neurons-loca-4d2b32e9": {
+   "reason": "The correct answer (the pneumotaxic centre, which limits the duration of inspiration) is named only as unlettered text within a corrupted stem alongside the apneustic centre and dorsal respiratory group, and the two lettered options that do survive (nucleus ambiguus; 'breathing is mostly involuntary') do not correctly answer the question, leaving no valid letter for the correct answer."
+  },
+  "which-of-the-following-discharges-s-8-1-receptort-fa-ling-be-5358ae60": {
+   "reason": "The correct answer (the dorsal respiratory group, the medulla's spontaneously discharging rhythm generator for quiet breathing, established repeatedly elsewhere in this bank) is missing from the surviving lettered options (apneustic center, motor neurons of respiratory muscles, ventral respiratory group), none of which is correct -- the option letter that should have held the dorsal respiratory group did not survive extraction."
   }
  }
 }
