@@ -21,6 +21,7 @@ import type { CardSchedule } from '../srs.ts'
 import {
   cardId,
   newCardMeta,
+  providedNoteId,
   type BasicNote,
   type CardMeta,
   type DeckRecord,
@@ -40,9 +41,15 @@ export interface StoredDeckV1 {
 
 export type StoredDecksV1 = Record<string, StoredDeckV1>
 
-/** The note id a migrated v1 card lands on — stable across repeated migrations. */
-export function migratedNoteId(deckId: string, v1CardId: string): string {
-  return `${deckId}::n::${v1CardId}`
+/**
+ * The note id a migrated v1 card lands on — stable across repeated migrations.
+ * A provided-deck mirror uses the same provided-card id the live catalogue
+ * synthesis uses, so a schedule earned before the migration lines up with the
+ * catalogue card afterwards; an own-deck card gets a deck-namespaced id.
+ */
+export function migratedNoteId(deck: Pick<StoredDeckV1, 'id' | 'sourceId'>, v1CardId: string): string {
+  if (deck.sourceId) return providedNoteId(deck.sourceId, v1CardId)
+  return `${deck.id}::n::${v1CardId}`
 }
 
 /**
@@ -72,7 +79,7 @@ export function migrateV1ToV2(v1: StoredDecksV1, now: Date): FlashcardCollection
     }
 
     for (const card of deck.cards) {
-      const noteId = migratedNoteId(deck.id, card.id)
+      const noteId = migratedNoteId(deck, card.id)
       const note: BasicNote = {
         id: noteId,
         type: 'basic',

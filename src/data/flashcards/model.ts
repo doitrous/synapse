@@ -121,6 +121,17 @@ export function cardId(noteId: string, templateKey: string): string {
 }
 
 /**
+ * The note id a catalogue (provided) deck's card takes. Provided-deck content is
+ * synthesized from the catalogue on load rather than stored, so its cards need a
+ * stable id derived from the deck and the catalogue card — the same one the
+ * migration writes for a v1 provided mirror — so a student's schedule follows
+ * the card whether its content comes from the catalogue or a stored fallback.
+ */
+export function providedNoteId(deckId: string, catalogueCardId: string): string {
+  return `provided:${deckId}:${catalogueCardId}`
+}
+
+/**
  * A student's standing on one card: the schedule that says when it is due, plus
  * the study-action state that sits alongside scheduling — flag, suspend, bury.
  *

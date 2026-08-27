@@ -32,14 +32,14 @@ const v1: StoredDecksV1 = {
 test('every card survives and its schedule is preserved exactly', () => {
   const v2 = migrateV1ToV2(v1, now)
   assert.equal(Object.keys(v2.notes).length, 3)
-  const id = cardId(migratedNoteId('d1', 'c-a'), 'card')
+  const id = cardId(migratedNoteId({ id: 'd1' }, 'c-a'), 'card')
   assert.deepEqual(v2.meta[id].schedule, studied, 'the studied schedule is carried over untouched')
   assert.equal(v2.meta[id].reviewCount, 9, 'reviewCount seeds from reps')
 })
 
 test('a card with no stored schedule becomes an unseen new card, not a loss', () => {
   const v2 = migrateV1ToV2(v1, now)
-  const id = cardId(migratedNoteId('d1', 'c-fresh'), 'card')
+  const id = cardId(migratedNoteId({ id: 'd1' }, 'c-fresh'), 'card')
   assert.ok(v2.meta[id])
   assert.equal(v2.meta[id].schedule.state, 'new')
   assert.equal(v2.meta[id].reviewCount, 0)
@@ -47,7 +47,7 @@ test('a card with no stored schedule becomes an unseen new card, not a loss', ()
 
 test('plain-text fronts are escaped into safe rich text', () => {
   const v2 = migrateV1ToV2(v1, now)
-  const note = v2.notes[migratedNoteId('d1', 'c-b')]
+  const note = v2.notes[migratedNoteId({ id: 'd1' }, 'c-b')]
   assert.equal(note.type, 'basic')
   assert.ok(note.type === 'basic')
   assert.ok(!note.fields.front.includes('<'), 'raw < is escaped')
