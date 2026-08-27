@@ -12,6 +12,10 @@
   re-read of the rendered pages this session -- flagged per-record in evidence_gaps
   and in the BLOCKED note of the lane report. No fact here was invented: content is
   standard parasitology teaching matched to the triage's named organisms.
+
+  article_ids now point at the 2 companion articles authored in
+  docs/Ain-Shams-Source-Imports/article/ASU-LOCO-inf-new-articles.md (same commit
+  set), closing the "main concept must have an article" gate before questions.
 -->
 
 # Item
@@ -93,7 +97,7 @@ Hard tick vs soft tick
 Assuming a tick with visible mouthparts is a soft tick -- it is the opposite: a capitulum visible from above (projecting forward) is the hard-tick feature; the soft tick's capitulum is hidden ventrally.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-ARTHROPOD-VECTORS
 
 ## support_mode
 direct_statement
@@ -270,7 +274,7 @@ Siphonaptera
 Reversing which comb sits on the head versus the thorax; genal (cheek) is the head comb, pronotal is the thoracic-segment comb.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-ARTHROPOD-VECTORS
 
 ## support_mode
 direct_statement
@@ -448,7 +452,7 @@ Crab louse
 Treating Pediculus capitis and corporis as different species -- they are the same species in different ecological forms; only P. corporis (body louse), not the head louse, transmits epidemic typhus, relapsing fever and trench fever.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-ARTHROPOD-VECTORS
 
 ## support_mode
 direct_statement
@@ -626,7 +630,7 @@ Musca domestica
 Treating all four flies as equally invasive myiasis agents -- Musca is included as the mechanical-vector, non-myiasis contrast, and only Wohlfahrtia is described as invading healthy (not just necrotic/wound) tissue.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-ARTHROPOD-VECTORS
 
 ## support_mode
 direct_statement
@@ -802,7 +806,7 @@ Onchocercoma
 Attributing the pathology (itching, blindness) to the adult worms themselves -- it is the microfilariae released by the female, migrating through skin and eye, that cause the clinical disease; the coiled adults inside the nodule are otherwise relatively well tolerated.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-HELMINTH-PROTOZOAN-IDENTIFICATION
 
 ## support_mode
 direct_statement
@@ -978,7 +982,7 @@ Trichinellosis
 Expecting eggs in stool as a diagnostic clue -- Trichinella is ovoviviparous and releases larvae, not eggs, directly into the mucosa, so stool examination is not the diagnostic route (muscle biopsy/serology are).
 
 ## article_ids
-
+ART-INF-ASU-LOCO-HELMINTH-PROTOZOAN-IDENTIFICATION
 
 ## support_mode
 direct_statement
@@ -1155,7 +1159,7 @@ Leishmania amastigote
 Mistaking the kinetoplast for a second nucleus, or for a bacterium/artefact on the smear -- its constant position at the flagellar base and its smaller, denser, rod-like staining pattern are what separate it from either.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-HELMINTH-PROTOZOAN-IDENTIFICATION
 
 ## support_mode
 direct_statement
@@ -1332,7 +1336,7 @@ Larva migrans
 Confusing this with visceral/ocular larva migrans (Toxocara) -- that is a different organism that does migrate through internal organs; cutaneous larva migrans is specifically the dog/cat hookworm larva trapped in skin.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-HELMINTH-PROTOZOAN-IDENTIFICATION
 
 ## support_mode
 direct_statement
@@ -1508,7 +1512,7 @@ River blindness vector
 Confusing Simulium (blackfly, Onchocerca) with Culex/Anopheles/Aedes mosquitoes (the vectors of lymphatic filariasis and malaria/arboviruses) -- each filarial disease in this curriculum has one specific vector family, and mixing them up is the commonest error.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-ARTHROPOD-VECTORS
 
 ## support_mode
 direct_statement
@@ -1685,7 +1689,7 @@ Splinter haemorrhage
 Attributing splinter haemorrhages only to infective endocarditis -- in the parasitology curriculum they are also a classic trichinosis sign, from capillary damage during larval migration, not embolisation.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-HELMINTH-PROTOZOAN-IDENTIFICATION
 
 ## support_mode
 direct_statement
@@ -1863,7 +1867,7 @@ Oriental sore
 Naming the promastigote as the form found in human tissue -- the fly injects promastigotes, but once inside human macrophages the parasite transforms into the amastigote form, which is what is actually seen on a tissue smear/biopsy.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-HELMINTH-PROTOZOAN-IDENTIFICATION
 
 ## support_mode
 direct_statement
@@ -2040,7 +2044,7 @@ Nits
 Assuming both ectoparasites lay eggs the same way -- lice cement nits firmly to the hair shaft/clothing fibre, while fleas scatter eggs loosely in the environment, which is why flea eggs fall off the host and lice eggs do not.
 
 ## article_ids
-
+ART-INF-ASU-LOCO-ARTHROPOD-VECTORS
 
 ## support_mode
 direct_statement

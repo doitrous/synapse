@@ -16,6 +16,10 @@
   scanned pages this session -- flagged per-record in evidence_gaps and in the
   BLOCKED note of the lane report. No fact here was invented: content is standard
   biochemistry teaching matched to the triage's named sub-topics.
+
+  article_ids now point at the 5 companion articles authored in
+  docs/Ain-Shams-Source-Imports/article/ASU-LOCO-msk-new-articles.md (same commit
+  set), closing the "main concept must have an article" gate before questions.
 -->
 
 # Item
@@ -97,7 +101,7 @@ McArdle disease
 Confusing this with a defect further down glycolysis (e.g. phosphofructokinase deficiency, Tarui disease) or with a liver glycogenosis that causes fasting hypoglycaemia. McArdle's spares the liver enzyme and does not cause hypoglycaemia; it is a purely muscle glycogenolysis block that only shows itself on exercise.
 
 ## article_ids
-
+ART-MSK-ASU-LOCO-MCARDLE-DISEASE
 
 ## support_mode
 direct_statement
@@ -276,7 +280,7 @@ Copper-dependent collagen maturation
 Confusing lysyl oxidase's copper dependence with the vitamin-C dependence of the earlier intracellular hydroxylation step. Hydroxylation (proline/lysine hydroxylase, vitamin C) is intracellular and precedes secretion; cross-linking (lysyl oxidase, copper) is extracellular and follows it -- a copper (Menkes-type) defect and a scurvy (vitamin C) defect fail collagen at two different steps.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-COLLAGEN-MATURATION-DISORDERS
 
 ## support_mode
 direct_statement
@@ -453,7 +457,7 @@ Fibrillar collagen defect
 Naming a basement-membrane collagen (type IV) as the defect -- that is Alport syndrome/Goodpasture territory, not Ehlers-Danlos, which is a fibrillar (types I/III/V) collagen disease.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-COLLAGEN-MATURATION-DISORDERS
 
 ## support_mode
 direct_statement
@@ -630,7 +634,7 @@ Calcitriol synthesis
 Reversing the organ order (kidney first, then liver) or naming skin as the site of either hydroxylation -- skin only makes the inactive precursor from UV light; both activating hydroxylations are enzymatic and occur in liver then kidney.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-CALCIUM-VITAMIN-D
 
 ## support_mode
 direct_statement
@@ -807,7 +811,7 @@ Calcitonin
 Assuming calcitonin is the dominant regulator because it is taught alongside PTH -- in humans PTH and calcitriol do most of the physiological work; calcitonin's effect is real but minor and is not the hormone to reach for first when serum calcium falls.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-CALCIUM-VITAMIN-D
 
 ## support_mode
 direct_statement
@@ -985,7 +989,7 @@ SCID
 Swapping the two pairings (HGPRT with SCID, or ADA with Lesch-Nyhan) or assuming both deficiencies raise uric acid -- only the HGPRT block raises uric acid; ADA deficiency's toxicity is lymphocyte-selective and is an immunodeficiency, not a gout syndrome.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-PURINE-ENZYME-DEFICIENCIES
 
 ## support_mode
 direct_statement
@@ -1163,7 +1167,7 @@ Guanidinoacetate
 Reversing the organs (liver-then-kidney) or naming SAM as the amidino donor instead of the methyl donor -- arginine donates the amidino group at the kidney step; SAM donates only the methyl group at the liver step.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-CREATINE-BIOCHEMISTRY
 
 ## support_mode
 direct_statement
@@ -1340,7 +1344,7 @@ GFR marker
 Treating creatinine formation as enzyme-catalysed or hormonally regulated -- it is a spontaneous, non-enzymatic breakdown product, which is exactly why its production rate tracks muscle mass rather than any hormonal control.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-CREATINE-BIOCHEMISTRY
 
 ## support_mode
 direct_statement
@@ -1517,7 +1521,7 @@ Guanidinoacetate normal
 Confusing AGAT deficiency with GAMT deficiency -- GAMT deficiency blocks the second (liver) step, so guanidinoacetate accumulates and is itself neurotoxic (contributing to seizures), whereas AGAT deficiency sits upstream of guanidinoacetate formation, so guanidinoacetate stays low/normal rather than elevated.
 
 ## article_ids
-
+ART-FND-ASU-LOCO-CREATINE-BIOCHEMISTRY
 
 ## support_mode
 direct_statement
