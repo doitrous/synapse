@@ -93,7 +93,7 @@ CLM-IMM-PHAGOCYTOSIS-STEPS-01
 CON-IMM-FB1A496ADF02C2
 
 ## subject
-Phagocytosis proceeds through pathogen recognition, ingestion and oxidative-burst killing
+Phagocytosis proceeds through PRR-PAMP recognition, ingestion and oxidative-burst killing
 
 ## predicate
 is supported by
@@ -102,7 +102,7 @@ is supported by
 the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt1 Q3
 
 ## display_text
-Phagocytosis is a stepwise sequence: a phagocyte first recognises the pathogen (via a specific receptor or via a pattern-recognition receptor binding a microbial PAMP), then ingests it into a phagosome, and finally kills it intracellularly, chiefly through the oxidative burst.
+Phagocytosis is a stepwise innate sequence: pattern-recognition receptors bind a microbial PAMP to flag the pathogen (a non-specific innate recognition step, not the binding of "a specific receptor" to a particular antigen), the phagocyte then ingests it into a phagosome, and finally kills it intracellularly, chiefly through the oxidative burst.
 
 ## risk_class
 foundational_stable

@@ -76,7 +76,7 @@ Innate immunity is the body's rapid, non-specific, repeatable first line of defe
 Innate immunity is the immune system's rapid, non-specific, repeatable first line of defence against infection. It responds equally and quickly on every exposure to a given organism, unlike adaptive immunity, which is slower on first contact and improves only with repeated exposure through clonal memory.
 
 ### Mechanism
-Innate cells detect microbes using germline-encoded pattern-recognition receptors (PRRs) that bind pathogen-associated molecular patterns (PAMPs) — molecular signatures shared by whole classes of microbes, such as bacterial lipopolysaccharide, microbial nucleic acids and teichoic acid. Host-made antimicrobial peptides such as defensins are effectors, not PAMPs, because they are made by the host rather than borne by the pathogen. Once a pathogen is flagged, phagocytosis proceeds through a defined sequence: recognition (via a specific receptor, or via a PRR binding a PAMP), ingestion into a phagosome, and intracellular killing, chiefly through the oxidative burst. The normal microbiota reinforces these barriers mainly by competing with incoming pathogens for attachment sites and nutrients, denying them a foothold on epithelial surfaces.
+Innate cells detect microbes using germline-encoded pattern-recognition receptors (PRRs) that bind pathogen-associated molecular patterns (PAMPs) — molecular signatures shared by whole classes of microbes, such as bacterial lipopolysaccharide, microbial nucleic acids and teichoic acid. Host-made antimicrobial peptides such as defensins are effectors, not PAMPs, because they are made by the host rather than borne by the pathogen. Once a pathogen is flagged, phagocytosis proceeds through a defined sequence: PRR-PAMP recognition, ingestion into a phagosome, and intracellular killing, chiefly through the oxidative burst — recognition by "a specific receptor" for one antigen is the adaptive pattern, not how this innate sequence is framed. The normal microbiota reinforces these barriers mainly by competing with incoming pathogens for attachment sites and nutrients, denying them a foothold on epithelial surfaces.
 
 ### Key determinants
 Innate immunity's components are physical/chemical barriers, phagocytosis and the inflammatory response; antibody production is not one of them, because it requires clonal B-lymphocyte activation, a hallmark of adaptive immunity. Among the innate cell types, the basophil is notably non-phagocytic (unlike neutrophils, dendritic cells and macrophages), and the mast cell's role in this course is effector mediator release rather than immune regulation — neutrophils, T-helper cells and dendritic cells are the ones credited with a regulatory role over the wider response.
@@ -95,7 +95,7 @@ Two lymphoid-organ facts sit alongside innate barrier defence in this course's o
 
 ## hold_these
 Innate immunity is fast, non-specific and repeatable; it does not improve with repeated exposure the way adaptive immunity does.
-Phagocytosis has three genuine steps: recognition (via a specific receptor or a PRR-PAMP interaction), ingestion, and oxidative-burst killing.
+Phagocytosis has three genuine steps here: PRR-PAMP recognition, ingestion, and oxidative-burst killing — not recognition by "a specific receptor", which is the adaptive pattern.
 Antibody production is an adaptive function; it is never a component of innate immunity.
 
 ## lose_the_mark
@@ -151,7 +151,7 @@ asu: Ain Shams Year 1 Immunology, Term 1 (MCQ bank + lecture corpus).
 
 ## annotations
 ### definition_of · CON-IMM-FB1A496ADF02C2
-Quote: recognition (via a specific receptor, or via a PRR binding a PAMP), ingestion into a phagosome, and intracellular killing, chiefly through the oxidative burst
+Quote: PRR-PAMP recognition, ingestion into a phagosome, and intracellular killing, chiefly through the oxidative burst
 Block: body
 
 ## media

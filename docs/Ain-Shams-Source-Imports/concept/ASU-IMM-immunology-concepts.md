@@ -374,7 +374,7 @@ uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagg
 CON-IMM-FB1A496ADF02C2
 
 ## label
-Phagocytosis proceeds through pathogen recognition, ingestion and oxidative-burst killing
+Phagocytosis proceeds through PRR-PAMP recognition, ingestion and oxidative-burst killing
 
 ## canonical_key
 phagocytosis.steps.recognition-ingestion-oxidative-killing
@@ -390,13 +390,13 @@ Phagocytic sequence
 [clear]
 
 ## definition
-Phagocytosis is a stepwise sequence: a phagocyte first recognises the pathogen (via a specific receptor or via a pattern-recognition receptor binding a microbial PAMP), then ingests it into a phagosome, and finally kills it intracellularly, chiefly through the oxidative burst.
+Phagocytosis is a stepwise innate sequence: pattern-recognition receptors bind a microbial PAMP to flag the pathogen (a non-specific innate recognition step, not the binding of "a specific receptor" to a particular antigen), the phagocyte then ingests it into a phagosome, and finally kills it intracellularly, chiefly through the oxidative burst.
 
 ## explicit_objective
-List the steps of phagocytosis in order and identify recognition, ingestion and oxidative killing as genuine steps.
+List the genuine steps of phagocytosis — PRR-PAMP recognition, ingestion, oxidative killing — and recognise that recognition by "a specific receptor" for a particular antigen is not how this innate sequence is framed in this course.
 
 ## pitfalls
-Treating "recognition of bacterial antigen using a specific receptor" (an adaptive, antibody/complement-receptor-mediated route) and "recognition of bacterial PAMP using PRR" (the innate route) as mutually exclusive alternatives rather than two recognised entry points into the same phagocytic sequence, and then missing that both are correct steps.
+Assuming phagocytic recognition works like adaptive, antigen-specific recognition ("a specific receptor" for one antigen); the step this course credits is the non-specific PRR binding a shared PAMP, consistent with innate immunity's own defining "non-specific" character taught alongside it.
 
 ## concept_type
 definition

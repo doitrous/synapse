@@ -1,0 +1,7441 @@
+# Item
+
+## id
+QST-ASU-IMM-001
+
+## title
+Function of bone marrow includes all of the following except:
+
+## question
+Function of bone marrow includes all of the following except:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Maturation of CD4+ cells
+
+## explanation_a
+Correct. The bone marrow generates all blood cell lines (haematopoiesis, including red cells) and matures B lymphocytes, but it does not mature CD4+ T cells — those complete their maturation and selection in the thymus, not the marrow. This is the one function in the list that genuinely belongs to a different organ, which is exactly what an "except" question is built to catch. Keep the two organs straight for exam purposes: bone marrow (B-cell maturation, all blood-cell generation) versus thymus (T-cell maturation) is one of the most repeatedly tested single facts in this module.
+
+## answer_b
+Maturation of B lymphocytes
+
+## explanation_b
+Incorrect. Maturation of B lymphocytes genuinely does happen in the bone marrow, so this is not the exception.
+
+## answer_c
+Generation of RBCs
+
+## explanation_c
+Incorrect. Generation of red blood cells is a normal bone-marrow (haematopoietic) function, not the exception.
+
+## answer_d
+Haematopoiesis
+
+## explanation_d
+Incorrect. Haematopoiesis is the bone marrow's core function by definition, so it cannot be the exception.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-D1046CFB182DFF
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+65
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_784fd471413dcf7d2b6e
+
+## learning_objective
+State that the bone marrow matures B lymphocytes and performs haematopoiesis, but T-lymphocyte maturation happens in the thymus, not the marrow.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I ("Introduction & innate immunity"), Q1.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-002
+
+## title
+Which of the following lymphoid organs is considered a lymph filter?
+
+## question
+Which of the following lymphoid organs is considered a lymph filter?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Peyer's patches
+
+## explanation_a
+Incorrect. Peyer's patches are mucosa-associated lymphoid tissue in the small intestine, sampling gut antigen rather than filtering lymph.
+
+## answer_b
+Palatine tonsils
+
+## explanation_b
+Incorrect. The palatine tonsils are mucosa-associated lymphoid tissue in the oropharynx, not a lymph-filtering organ.
+
+## answer_c
+Spleen
+
+## explanation_c
+Incorrect. This is the deliberate trap: the spleen filters blood, not lymph — mixing the two filtering roles up is the single most common error this question is built to catch.
+
+## answer_d
+Lymph nodes
+
+## explanation_d
+Correct. The lymph node is the organ considered the lymph filter, screening lymph draining from peripheral tissue before it returns to the bloodstream — a distinct role from the spleen's blood-filtering function. Remembering this pair together — "nodes filter lymph, spleen filters blood" — is the fastest way to never lose this mark again.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-982D77EC6E6F64
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_784fd471413dcf7d2b6e
+
+## learning_objective
+Identify the lymph node as the lymph-filtering lymphoid organ, distinct from the spleen's blood-filtering role.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-003
+
+## title
+Which of the following isn't a step of phagocytosis?
+
+## question
+Which of the following isn't a step of phagocytosis?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Recognition of bacterial antigen using a specific receptor
+
+## explanation_a
+Correct. This course frames phagocytic recognition as the non-specific, innate PRR-PAMP interaction, not as binding by "a specific receptor" for one antigen — that specific, clonal pattern belongs to adaptive immunity, not to the innate phagocytic sequence being tested here. Holding onto this framing also explains Q7 and Q8 of this same section: innate recognition is always non-specific PRR-PAMP binding, never a "specific" antigen receptor.
+
+## answer_b
+Recognition of bacterial PAMP using PRR
+
+## explanation_b
+Incorrect. PRR binding a PAMP is exactly the recognition step this course credits as genuinely innate and genuinely a step of phagocytosis.
+
+## answer_c
+Ingestion
+
+## explanation_c
+Incorrect. Ingestion of the recognised particle into a phagosome is a real, necessary step of phagocytosis.
+
+## answer_d
+Intracellular killing using oxidative burst
+
+## explanation_d
+Incorrect. Intracellular killing via the oxidative burst is the final, real step of phagocytosis, not an exception.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-FB1A496ADF02C2
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+List PRR-PAMP recognition, ingestion and oxidative killing as the genuine steps of phagocytosis in this course's framing.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key = a. This only makes sense once "recognition via a specific receptor" is read as the adaptive/antigen-specific pattern, consistent with Q7/Q8 of the same section framing innate recognition as PRR-PAMP-based and non-specific.
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-004
+
+## title
+Pro-inflammatory cytokines play an important role in inflammation as they:
+
+## question
+Pro-inflammatory cytokines play an important role in inflammation as they:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Induce WBC recruitment to the site of infection
+
+## explanation_a
+Incorrect alone. Inducing leukocyte recruitment is a genuine pro-inflammatory cytokine effect, but it is not the only one — the question asks for the complete picture.
+
+## answer_b
+Stimulate leukocytosis by the bone marrow
+
+## explanation_b
+Incorrect alone. Stimulating bone-marrow leukocytosis is also genuine, but again only part of the full set of effects.
+
+## answer_c
+Induce liver production of CRP and MBL
+
+## explanation_c
+Incorrect alone. Inducing hepatic CRP and MBL production (the acute-phase response) is genuine too, but still only one of several correct effects.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. Pro-inflammatory cytokines genuinely drive all three effects together — leukocyte recruitment, bone-marrow leukocytosis and hepatic acute-phase protein production — so the complete, correct answer is that all of them are true. The exam habit worth building here is to check whether every named option is independently true before picking a single one over "all of the above".
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-57534D93572FC4
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+List leukocyte recruitment, bone-marrow leukocytosis and hepatic acute-phase protein induction together as effects of pro-inflammatory cytokines.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-005
+
+## title
+Normal microbiota ("flora") can participate in the formation of innate immunity barriers as they:
+
+## question
+Normal microbiota ("flora") can participate in the formation of innate immunity barriers as they:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Enhance leukocyte migration to the site of infection
+
+## explanation_a
+Incorrect. Enhancing leukocyte migration is a cytokine-mediated effect, not the normal flora's own mechanism of barrier protection.
+
+## answer_b
+Produce mediators that enhance phagocytosis
+
+## explanation_b
+Incorrect. Producing phagocytosis-enhancing mediators (such as opsonins) is a different, complement/antibody-linked mechanism, not what the normal flora itself is credited with here.
+
+## answer_c
+Compete with pathogens
+
+## explanation_c
+Correct. The normal microbiota strengthens innate barrier immunity chiefly by competing with incoming pathogens for attachment sites and nutrients on the epithelial surface, denying them a foothold. The mechanism is ecological, not immunological: a densely colonised surface simply leaves fewer attachment sites and less nutrient for an invading organism to establish itself.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. Because options A and B describe different mechanisms not attributed to normal flora here, "all of the above" over-credits it — the course names competition as the specific mechanism.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-448561BF6AE489
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+State competitive exclusion of pathogens as the mechanism by which normal flora contributes to innate barrier immunity.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-006
+
+## title
+A leukocyte with myeloid origin, which increases in number in cases of allergic reactions and has cytoplasmic granules full of parasite-toxic mediators, is called:
+
+## question
+A leukocyte with myeloid origin, which increases in number in cases of allergic reactions and has cytoplasmic granules full of parasite-toxic mediators, is called:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Polymorphonuclear leukocyte
+
+## explanation_a
+Incorrect. "Polymorphonuclear leukocyte" is a broad structural category (covering neutrophils, eosinophils and basophils together) and does not specifically name the cell being described.
+
+## answer_b
+Eosinophil
+
+## explanation_b
+Correct. The eosinophil is the myeloid leukocyte that rises in allergic reactions and parasitic infection, carrying granules loaded with parasite-toxic mediators such as major basic protein. The pairing to hold onto is eosinophil-with-parasites-and-allergy versus basophil/mast-cell-with-histamine — two allergy-linked granulocytes with two different signature roles.
+
+## answer_c
+Basophil
+
+## explanation_c
+Incorrect. The basophil is also allergy-associated, but it is not the cell credited here with parasite-toxic granule contents and the classic allergy/parasite rise in number.
+
+## answer_d
+Monocyte
+
+## explanation_d
+Incorrect. The monocyte is a mononuclear phagocyte precursor, not a granulocyte, and is not defined by allergy-associated granule toxicity.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-C6C71F9D2AFEED
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify the eosinophil as the myeloid cell that rises in allergy and parasitic disease and carries parasite-toxic granules.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-007
+
+## title
+A 50-year-old diabetic male developed a bacterial infection. Which of the following structures, expressed by innate immunity cells, allows them to recognise bacteria?
+
+## question
+A 50-year-old diabetic male developed a bacterial infection. Which of the following structures, expressed by innate immunity cells, allows them to recognise bacteria?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+A 50-year-old man with known diabetes mellitus presents with a bacterial infection.
+
+## correct_answer
+B
+
+## answer_a
+MHC-I
+
+## explanation_a
+Incorrect. MHC-I is what an innate cell (or any nucleated cell) displays to CD8+ T cells; it is not the structure the cell itself uses to first recognise the bacterium.
+
+## answer_b
+PRR
+
+## explanation_b
+Correct. Pattern-recognition receptors (PRRs), expressed by innate immune cells, bind pathogen-associated molecular patterns (PAMPs) to recognise the bacterium — the question asks for the structure the cell itself expresses, which is the receptor (PRR), not the pattern it binds. This is also the fact that separates innate recognition (PRR-PAMP, immediate) from adaptive recognition (antibody/TCR, days to develop) in a single vignette.
+
+## answer_c
+PAMP
+
+## explanation_c
+Incorrect. PAMP is the molecular pattern borne by the bacterium, not a structure expressed by the host's innate cells.
+
+## answer_d
+Complement receptor
+
+## explanation_d
+Incorrect. A complement receptor recognises complement-opsonised targets, an antibody/complement-dependent route, not the direct PRR-based innate recognition this vignette is testing.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-A89092F59B7397
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify the pattern-recognition receptor (PRR), not MHC-I, PAMP or a complement receptor, as the structure innate cells use to recognise a bacterium directly.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-008
+
+## title
+Which of the following is a characteristic of the innate immune system?
+
+## question
+Which of the following is a characteristic of the innate immune system?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Each receptor binds to one specific organism
+
+## explanation_a
+Incorrect. Binding one specific organism per receptor describes the clonal specificity of adaptive immune receptors, not the broadly-reactive pattern-recognition receptors of innate immunity.
+
+## answer_b
+It responds slowly the first time it recognises an invading pathogen
+
+## explanation_b
+Incorrect. This describes adaptive immunity's slow primary response; innate immunity is fast from the very first exposure.
+
+## answer_c
+It includes both B and T cells
+
+## explanation_c
+Incorrect. B and T lymphocytes are the defining cells of adaptive, not innate, immunity.
+
+## answer_d
+It responds equally and rapidly each time it recognises an organism
+
+## explanation_d
+Correct. A defining characteristic of innate immunity is that it responds rapidly and to the same degree on every exposure to a given organism, because it does not depend on clonal memory the way adaptive immunity does. The single word worth holding onto is "repeatable": innate immunity gives the same fast response on exposure one thousand as on exposure one, because it carries no clonal memory.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-1868D017B7E3B8
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_784fd471413dcf7d2b6e
+
+## learning_objective
+State that innate immunity responds rapidly and equally on every exposure, unlike the slower, improving adaptive response.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-009
+
+## title
+His symptoms are mediated by:
+
+## question
+His symptoms are mediated by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+A 2-year-old boy presents to the emergency room with a red, swollen face, wheeze and hypotension. His mother reports the symptoms began after he played with flowers his grandmother had brought from France.
+
+## correct_answer
+B
+
+## answer_a
+Macrophage release of pro-inflammatory cytokines
+
+## explanation_a
+Incorrect. Macrophage cytokines drive the slower, more sustained inflammatory programme (fever, leukocytosis, acute-phase proteins), not this immediate, minutes-scale allergic reaction.
+
+## answer_b
+Mast cell release of histamine
+
+## explanation_b
+Correct. An acute allergic reaction with facial swelling, wheeze and hypotension after allergen exposure is the classic presentation of mast-cell degranulation releasing histamine — the defining mechanism of immediate (type I) hypersensitivity. The clinical habit worth building is recognising this triad — facial swelling, wheeze, hypotension, minutes after exposure — as anaphylaxis needing immediate adrenaline, not a slower antihistamine-only approach.
+
+## answer_c
+Eosinophil degranulation
+
+## explanation_c
+Incorrect. Eosinophil degranulation contributes to the later, more sustained phase of allergic and parasitic responses, not the immediate, minutes-scale reaction described here.
+
+## answer_d
+Liver production of acute-phase proteins
+
+## explanation_d
+Incorrect. Hepatic acute-phase protein production is part of the slower systemic inflammatory response, not an immediate allergic reaction.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-DCBAA65142C38F
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Recognise mast-cell histamine release as the mechanism of an acute (type I hypersensitivity) allergic reaction.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-010
+
+## title
+A cytokine produced by macrophages that induces expression of adhesion molecules by endothelial cells is called:
+
+## question
+A cytokine produced by macrophages that induces expression of adhesion molecules by endothelial cells is called:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+TGF-beta
+
+## explanation_a
+Incorrect. TGF-beta is an inhibitory cytokine that dampens immune activation; it does not induce endothelial adhesion molecule expression.
+
+## answer_b
+IL-4
+
+## explanation_b
+Incorrect. IL-4 is a Th2 cytokine involved in humoral/allergic responses, not the macrophage-derived signal that switches on endothelial adhesion molecules.
+
+## answer_c
+IL-1
+
+## explanation_c
+Correct. IL-1, a macrophage-derived pro-inflammatory cytokine, induces endothelial cells to express adhesion molecules, the step that lets circulating leukocytes stick to and then cross the vessel wall into inflamed tissue. The chain worth holding onto is macrophage cytokine (IL-1/TNF) switches on endothelial adhesion molecules, which is the step that lets a circulating leukocyte roll, stick and then cross into inflamed tissue.
+
+## answer_d
+IL-4
+
+## explanation_d
+Incorrect. IL-4 is repeated as the fourth option in the source paper; it remains a Th2 cytokine and not the macrophage signal being tested here.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-08852485672870
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify a macrophage-derived pro-inflammatory cytokine (IL-1) as the inducer of endothelial adhesion molecule expression.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+The source paper prints option (b) and (d) identically as "IL-4" (a printing repeat, not a typo we introduced) — preserved as printed since neither is the keyed answer.
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-011
+
+## title
+Which of the following cell types of the innate immune system does not perform phagocytosis?
+
+## question
+Which of the following cell types of the innate immune system does not perform phagocytosis?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Neutrophils
+
+## explanation_a
+Incorrect. Neutrophils are professional phagocytes and do perform phagocytosis.
+
+## answer_b
+Basophils
+
+## explanation_b
+Correct. The basophil is a mediator-release cell (like the mast cell) and does not itself perform phagocytosis, unlike neutrophils, dendritic cells and macrophages. The exam-safe rule is: neutrophils, dendritic cells and macrophages phagocytose; basophils and mast cells degranulate instead.
+
+## answer_c
+Dendritic cells
+
+## explanation_c
+Incorrect. Dendritic cells are facultative phagocytes (and the most important antigen-presenting phagocyte for priming naive T cells).
+
+## answer_d
+Macrophages
+
+## explanation_d
+Incorrect. Macrophages are professional phagocytes and do perform phagocytosis.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-AEF040C9917639
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify the basophil as the non-phagocytic cell among the innate leukocytes listed.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-012
+
+## title
+Innate immunity involves all of the following except:
+
+## question
+Innate immunity involves all of the following except:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Barriers
+
+## explanation_a
+Incorrect. Physical/chemical barriers are a genuine component of innate immunity, so this is not the exception.
+
+## answer_b
+Phagocytosis
+
+## explanation_b
+Incorrect. Phagocytosis is a genuine component of innate immunity, so this is not the exception.
+
+## answer_c
+Inflammation
+
+## explanation_c
+Incorrect. The inflammatory response is a genuine component of innate immunity, so this is not the exception.
+
+## answer_d
+Antibody production
+
+## explanation_d
+Correct. Antibody production requires clonal B-lymphocyte activation, a hallmark of adaptive, not innate, immunity — it is the one item in the list that does not belong to innate immunity's own components. The rule worth keeping is that innate immunity is entirely cellular and barrier-based; anything requiring a lymphocyte clone (like antibody) belongs to adaptive immunity instead.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-57A034EECCBF1B
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_784fd471413dcf7d2b6e
+
+## learning_objective
+Identify antibody production as an adaptive, not innate, immune function.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-013
+
+## title
+Functions of macrophages include:
+
+## question
+Functions of macrophages include:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Phagocytosis
+
+## explanation_a
+Incorrect alone. Phagocytosis is a genuine macrophage function, but not the only one being asked about.
+
+## answer_b
+Antigen presentation
+
+## explanation_b
+Incorrect alone. Antigen presentation is also genuine, but again only part of the complete picture.
+
+## answer_c
+Cytokine production
+
+## explanation_c
+Incorrect alone. Cytokine production is genuine too, but still only one of the macrophage's several roles.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. The macrophage genuinely performs all three functions together — phagocytosis, antigen presentation and cytokine production — making it one of the most functionally versatile cells in the immune system. Because a macrophage genuinely does all three jobs, questions phrased as "macrophage functions include" are one of the safer places in this bank to pick "all of the above" with confidence.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-BE9E2F7DBC5DCD
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+65
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+List phagocytosis, antigen presentation and cytokine production together as core macrophage functions.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-014
+
+## title
+Tissue damage and entry of pathogenic organisms trigger a sequence of reactions known as:
+
+## question
+Tissue damage and entry of pathogenic organisms trigger a sequence of reactions known as:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Inflammation
+
+## explanation_a
+Correct. Inflammation is precisely the sequence of vascular and cellular reactions triggered when tissue damage and pathogen entry activate resident and recruited defence mechanisms at the affected site. The distinction worth keeping sharp is that inflammation is the whole reaction sequence, while opsonisation and clonal expansion are individual steps that can occur inside it.
+
+## answer_b
+Opsonisation
+
+## explanation_b
+Incorrect. Opsonisation is a single molecular recognition step (coating a target to promote phagocytosis), not the whole reaction sequence being described.
+
+## answer_c
+Antigen presentation
+
+## explanation_c
+Incorrect. Antigen presentation is a specific step within the adaptive response, not the general reaction sequence tissue damage and pathogen entry set off.
+
+## answer_d
+Clonal expansion
+
+## explanation_d
+Incorrect. Clonal expansion is a lymphocyte proliferation event downstream of activation, not the definition of the initial reaction sequence.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-92E580FD9AC850
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Define inflammation as the reaction sequence triggered by tissue damage and pathogen entry, distinct from opsonisation, antigen presentation or clonal expansion.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-015
+
+## title
+Concerning the systemic protective effects of pro-inflammatory cytokines, they include all of the following except:
+
+## question
+Concerning the systemic protective effects of pro-inflammatory cytokines, they include all of the following except:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Effect on the hypothalamus causing fever
+
+## explanation_a
+Incorrect. Hypothalamus-driven fever is a genuine, well-recognised systemic effect of pro-inflammatory cytokines, so it is not the exception.
+
+## answer_b
+Effect on bone marrow causing leukocytosis
+
+## explanation_b
+Incorrect. Bone-marrow leukocytosis is a genuine systemic effect of pro-inflammatory cytokines, so it is not the exception.
+
+## answer_c
+Effect on blood vessels causing vascular leakage and thrombosis
+
+## explanation_c
+Correct. Vascular leakage and thrombosis are local/pathological consequences of severe inflammation rather than the systemic "protective" effects this course groups pro-inflammatory cytokines under (fever, leukocytosis, hepatic acute-phase response) — this is the odd one out among the protective systemic effects listed. The pattern worth remembering is that pro-inflammatory cytokines' systemic effects are protective and controlled (fever, leukocytosis, acute-phase proteins), while vascular leakage and thrombosis are pathological consequences of the local process going too far.
+
+## answer_d
+Effect on the liver
+
+## explanation_d
+Incorrect. Hepatic effects (acute-phase protein production, e.g. CRP and MBL) are a genuine systemic protective effect of pro-inflammatory cytokines, so this is not the exception.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-57534D93572FC4
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Distinguish the systemic protective effects of pro-inflammatory cytokines (fever, leukocytosis, hepatic acute-phase response) from vascular leakage/thrombosis, a local pathological consequence rather than a protective systemic effect.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-016
+
+## title
+Which of the following cells does not play a role in regulation of the immune response?
+
+## question
+Which of the following cells does not play a role in regulation of the immune response?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Neutrophil
+
+## explanation_a
+Incorrect. The neutrophil contributes regulatory cross-talk within the innate response, so it is not the exception here.
+
+## answer_b
+T-helper cell
+
+## explanation_b
+Incorrect. The T-helper cell actively directs and regulates adaptive immune responses, so it is not the exception.
+
+## answer_c
+Dendritic cell
+
+## explanation_c
+Incorrect. The dendritic cell shapes and regulates the type of adaptive response through antigen presentation and cytokine signalling, so it is not the exception.
+
+## answer_d
+Mast cell
+
+## explanation_d
+Correct. The mast cell's role in this course is effector mediator release (histamine and other granule contents), not regulation of other cells' responses, making it the one cell in the list that does not play a regulatory role. The rule worth keeping is that regulatory cells (T-helper, dendritic cell, and to a lesser extent neutrophil) shape the response, while the mast cell simply executes its own effector programme once triggered.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5326C584491642
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify the mast cell as the cell type that does not regulate the immune response, distinct from T-helper cells and dendritic cells, which do.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q16.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-017
+
+## title
+Which of the following mediators does not contribute to recruitment and extravasation of neutrophils to the site of his infection?
+
+## question
+Which of the following mediators does not contribute to recruitment and extravasation of neutrophils to the site of his infection?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+A 66-year-old man presents to the clinic with an abscess on his neck.
+
+## correct_answer
+B
+
+## answer_a
+TNF-alpha
+
+## explanation_a
+Incorrect. TNF-alpha primes the local vasculature and contributes to neutrophil recruitment, so it is not the exception.
+
+## answer_b
+IFN-gamma
+
+## explanation_b
+Correct — and editorially keyed. No printed answer-key entry exists for this question (the table on p.13 only tabulates Q1-16); by the course's own framing, IFN-gamma's dominant role is macrophage activation and Th1 support, not direct neutrophil chemotaxis, which is carried out by IL-8, C5a, TNF-alpha and IL-1 instead — making it the one mediator here that does not contribute to neutrophil recruitment. The habit worth keeping from this specific gap is that a missing printed key is recorded as missing, with the reasoning shown in full, rather than silently guessed at.
+
+## answer_c
+IL-8, C5a
+
+## explanation_c
+Incorrect. IL-8 (a chemokine) and C5a (a complement fragment) are both genuine, direct neutrophil chemoattractants, so this is not the exception.
+
+## answer_d
+IL-1
+
+## explanation_d
+Incorrect. IL-1 primes the local vasculature and contributes to neutrophil recruitment, so it is not the exception.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-87D5E8AD1ADD76
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify IFN-gamma as the mediator that does not directly recruit neutrophils, as distinct from IL-8, C5a, TNF-alpha and IL-1, which do.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section I, Q17 (unkeyed in the printed source — see author_notes).
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+## author_notes
+ANSWER-KEY GAP, keyed editorially. The printed key table on p.13 of the source (verified by direct image read, not OCR) tabulates only Q1-16 for this section; Q17 has no printed answer anywhere in the file. Keyed here as (b) IFN-gamma on the authoritative immunology fact that IFN-gamma is not among the direct neutrophil chemoattractants (IL-8, C5a, TNF-alpha, IL-1 all are), consistent with this same course's own framing of IFN-gamma's role as macrophage activation (see CON-IMM-282B44B64B1FD2, CON-IMM-17CE429C40F7BD). No printed key was silently invented or guessed from an ambiguous source; the fact is externally well-established and internally consistent with the rest of this MCQ bank.
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-018
+
+## title
+Large molecules are more immunogenic than small molecules as they:
+
+## question
+Large molecules are more immunogenic than small molecules as they:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Have more epitopes
+
+## explanation_a
+Correct. A larger antigenic molecule presents more epitopes for lymphocyte receptors to recognise, which is the mechanism this course credits for greater immunogenicity. The rule worth keeping is size-drives-epitope-count, not size-drives-better-fit: a bigger molecule simply gives lymphocyte receptors more distinct targets to engage.
+
+## answer_b
+Fit better into lymphocyte receptors
+
+## explanation_b
+Incorrect. "Fitting better" into a lymphocyte receptor is not the mechanism taught here; each receptor engages one epitope regardless of the parent molecule's size.
+
+## answer_c
+Have a depot effect
+
+## explanation_c
+Incorrect. A depot effect (slow, sustained antigen release) is a different phenomenon from immunogenicity driven by molecular size, and is not the mechanism credited here.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Because option A is a genuine, correct mechanism, "none of the above" cannot be right.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-35785A09E9898E
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+Attribute a large antigen's greater immunogenicity to its larger number of epitopes.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q1.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-019
+
+## title
+Class I major histocompatibility complex (MHC-I):
+
+## question
+Class I major histocompatibility complex (MHC-I):
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Is expressed on all cells of the body
+
+## explanation_a
+Incorrect. MHC class I is expressed on essentially all NUCLEATED cells, not literally every cell of the body (mature red blood cells, for example, lack it) — the option as written overstates the rule.
+
+## answer_b
+Is encoded on the short arm of chromosome 16
+
+## explanation_b
+Incorrect. The MHC locus sits on the short arm of chromosome 6, not chromosome 16 — a common numerical mix-up.
+
+## answer_c
+Has a low level of polymorphism
+
+## explanation_c
+Incorrect. MHC class I is exceptionally polymorphic, not weakly polymorphic; this is one of its defining genetic features.
+
+## answer_d
+Is encoded by HLA-A, HLA-B and HLA-C
+
+## explanation_d
+Correct. MHC class I is encoded by the highly polymorphic HLA-A, HLA-B and HLA-C loci on the short arm of chromosome 6. The three facts worth drilling together are chromosome 6, HLA-A/B/C, and exceptionally high polymorphism — each one is a separate distractor trap in this exact question style.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-7123A221F96E40
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+State that MHC class I is HLA-A/B/C-encoded on chromosome 6 and highly polymorphic.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-020
+
+## title
+T cells recognise antigen:
+
+## question
+T cells recognise antigen:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+In a non-specific manner
+
+## explanation_a
+Incorrect. T-cell antigen recognition is highly specific (clonally distributed TCRs), not non-specific — non-specific recognition is the innate PRR-PAMP pattern, not the T-cell pattern.
+
+## answer_b
+In solution in the plasma
+
+## explanation_b
+Incorrect. Unlike B cells, T cells cannot recognise free or soluble antigen in the plasma; they need it processed and displayed on an MHC molecule.
+
+## answer_c
+When presented on the surface of antigen-presenting cells
+
+## explanation_c
+Correct. T lymphocytes recognise antigen only once it has been processed and presented on the surface of an antigen-presenting cell, held in an MHC molecule's groove. The rule worth keeping is that only B cells and antibodies ever meet antigen free in solution; T cells always need it processed and MHC-presented first.
+
+## answer_d
+Following presentation by pattern-recognition receptors
+
+## explanation_d
+Incorrect. Pattern-recognition receptors are an innate mechanism recognising PAMPs; they do not present antigen to T cells, and this is not how T-cell antigen recognition works.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-FD2151E25121CF
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+State that T cells recognise antigen only when it is processed and presented on an MHC molecule at the surface of an antigen-presenting cell.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-021
+
+## title
+CD8+ T cells are generally restricted by:
+
+## question
+CD8+ T cells are generally restricted by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+CD1
+
+## explanation_a
+Incorrect. CD1 presents lipid/glycolipid antigen and is not the restricting element for conventional CD8+ T cells in this course's framing.
+
+## answer_b
+MHC class I
+
+## explanation_b
+Correct. CD8+ (cytotoxic) T cells are restricted by MHC class I: their T-cell receptor recognises peptide only when presented in an MHC class I groove, with CD8 acting as the MHC-I co-receptor. The pairing to over-learn is CD8-with-MHC-I and CD4-with-MHC-II — get this backwards and every downstream T-cell question becomes unreliable.
+
+## answer_c
+MHC class II
+
+## explanation_c
+Incorrect. MHC class II is the restricting element for CD4+ (helper) T cells, not CD8+ T cells.
+
+## answer_d
+Beta2-microglobulin
+
+## explanation_d
+Incorrect. Beta2-microglobulin is a structural component required for MHC class I to reach the cell surface, but it is not itself the restricting molecule.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-EDDCC1F705F847
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+State that CD8+ T cells are MHC-class-I-restricted.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-022
+
+## title
+MHC class I molecules are primarily involved in:
+
+## question
+MHC class I molecules are primarily involved in:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Recognition of glycolipid antigens
+
+## explanation_a
+Incorrect. Glycolipid antigen recognition is a CD1 function, not MHC class I.
+
+## answer_b
+Resistance to fungi
+
+## explanation_b
+Incorrect. Resistance to fungi is not the function this course attributes to MHC class I; MHC class I's central role is cytosolic (including viral) antigen presentation.
+
+## answer_c
+Resistance to viruses
+
+## explanation_c
+Correct. MHC class I molecules present peptides generated in the cytosol, including viral peptide, to CD8+ T cells, which underlies their central role in resistance to viral infection. The link worth keeping is cytosolic peptide (including viral protein made inside an infected cell) loads onto MHC-I, which is exactly why MHC-I surveillance is the immune system's window into what a virus is doing inside a cell.
+
+## answer_d
+Activation of neutrophils
+
+## explanation_d
+Incorrect. Neutrophil activation is not mediated through MHC class I presentation.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-D981D07A61E9FE
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+Link MHC class I to cytosolic/viral antigen presentation and resistance to viral infection.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-023
+
+## title
+Costimulatory molecules help T-cell responses by:
+
+## question
+Costimulatory molecules help T-cell responses by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Degrading antigen so it can bind in the MHC groove
+
+## explanation_a
+Incorrect. Antigen processing/degradation for MHC loading is carried out by proteolytic machinery inside the antigen-presenting cell, not by costimulatory molecules.
+
+## answer_b
+Increasing T-cell activation via sending a second activation signal
+
+## explanation_b
+Correct. Costimulatory molecules (B7 on the antigen-presenting cell engaging CD28 on the T cell) deliver a second, costimulatory signal that increases T-cell activation on top of the first signal from TCR-peptide-MHC engagement. The two-signal model is worth holding as a whole: TCR-peptide-MHC is signal one, B7-CD28 is signal two, and a T cell that gets only signal one becomes anergic rather than activated.
+
+## answer_c
+Binding to MHC molecules containing immunogenic peptides
+
+## explanation_c
+Incorrect. Binding MHC-peptide complexes is the TCR's own job (the first activation signal), not the costimulatory molecule's role.
+
+## answer_d
+Increasing the rate of MHC-I expression
+
+## explanation_d
+Incorrect. Costimulatory molecules do not act by raising MHC-I expression levels; that is a separate, cytokine-driven (e.g. IFN-gamma) effect.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-0E5F986A985CB9
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+State that B7-CD28 engagement delivers the costimulatory second signal required for full T-cell activation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-024
+
+## title
+Activation of naive T lymphocytes is best achieved by which antigen-presenting cells?
+
+## question
+Activation of naive T lymphocytes is best achieved by which antigen-presenting cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Macrophages
+
+## explanation_a
+Incorrect. Macrophages present effectively to already-activated/effector T cells, but are not the specialised primer of naive T cells.
+
+## answer_b
+Neutrophils
+
+## explanation_b
+Incorrect. Neutrophils are not professional antigen-presenting cells and do not prime naive T cells.
+
+## answer_c
+Mast cells
+
+## explanation_c
+Incorrect. Mast cells are effector mediator-release cells, not antigen-presenting cells that activate naive T cells.
+
+## answer_d
+Dendritic cells
+
+## explanation_d
+Correct. Dendritic cells are the professional antigen-presenting cell specialised for activating naive T lymphocytes for the first time. The distinction worth keeping is priming (dendritic cell, for a naive T cell) versus re-presenting to an already-activated effector T cell (where a macrophage does just as well).
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-4430476C1F477F
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Identify dendritic cells as the antigen-presenting cell best suited to activating naive T lymphocytes.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-025
+
+## title
+The cytokine primarily involved in T-cell proliferation and development is:
+
+## question
+The cytokine primarily involved in T-cell proliferation and development is:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+IL-2
+
+## explanation_a
+Correct. IL-2 is the cytokine primarily responsible for driving proliferation and development of activated T lymphocytes, underpinning their clonal expansion. The chain worth keeping is TCR engagement switches on the T cell's own IL-2 receptor, and IL-2 then drives that same cell (and its neighbours) to proliferate — an autocrine loop worth visualising as a single arrow back to itself.
+
+## answer_b
+IL-12
+
+## explanation_b
+Incorrect. IL-12 is a macrophage/dendritic-cell cytokine that promotes Th1 differentiation, not the T cell's own proliferation signal.
+
+## answer_c
+IL-4 and IL-5
+
+## explanation_c
+Incorrect. IL-4 and IL-5 are Th2 cytokines involved in humoral/allergic responses, not the principal drivers of T-cell proliferation.
+
+## answer_d
+TGF-beta
+
+## explanation_d
+Incorrect. TGF-beta is an inhibitory cytokine, the opposite of a proliferation driver.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-864F3373A13DF7
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_71b7bbe61133708e0d0c
+
+## learning_objective
+Identify IL-2 as the principal cytokine driving T-cell proliferation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-026
+
+## title
+Macrophage activation to kill intracellular pathogens is primarily mediated by:
+
+## question
+Macrophage activation to kill intracellular pathogens is primarily mediated by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+IL-2
+
+## explanation_a
+Incorrect. IL-2 drives T-cell proliferation, not macrophage activation for intracellular killing.
+
+## answer_b
+IFN-gamma
+
+## explanation_b
+Correct. IFN-gamma, typically from Th1 cells or NK cells, activates macrophages to kill the intracellular pathogens they have already ingested. The pairing worth keeping is IFN-gamma-activates-macrophage versus IL-12-activates-Th1-differentiation — two steps of the same axis, easily swapped for each other on exam day.
+
+## answer_c
+GM-CSF
+
+## explanation_c
+Incorrect. GM-CSF is a myeloid growth factor, not the principal macrophage-activating signal for intracellular killing.
+
+## answer_d
+IL-12
+
+## explanation_d
+Incorrect. IL-12 promotes Th1 differentiation and NK-cell activity upstream, but IFN-gamma is the cytokine that directly activates the macrophage itself.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-282B44B64B1FD2
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_71b7bbe61133708e0d0c
+
+## learning_objective
+Identify IFN-gamma as the principal activator of macrophage intracellular killing.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-027
+
+## title
+Cytotoxic T cells which kill their targets:
+
+## question
+Cytotoxic T cells which kill their targets:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Are mostly CD4+
+
+## explanation_a
+Incorrect. Cytotoxic T cells are defined by CD8, not CD4 (CD4 marks helper T cells).
+
+## answer_b
+Act via perforin and granzyme B
+
+## explanation_b
+Correct. Cytotoxic (CD8+) T cells kill their targets chiefly via perforin, which forms pores in the target-cell membrane, and granzymes, which then enter to trigger apoptosis. The two-molecule mechanism is worth holding as a pair: perforin punches the entry hole, and granzyme is what actually gets in through it to trigger the target cell's own apoptosis machinery.
+
+## answer_c
+Recognise glycolipids in the context of MHC class I molecules
+
+## explanation_c
+Incorrect. Glycolipid recognition is a CD1-restricted mechanism, not the conventional MHC-class-I-restricted peptide recognition cytotoxic T cells use.
+
+## answer_d
+Also secrete IL-4 and IL-5
+
+## explanation_d
+Incorrect. IL-4 and IL-5 are Th2 cytokines, not products of cytotoxic T cells' own killing mechanism.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-7EBC289118B06C
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+State that cytotoxic T cells kill target cells via perforin and granzyme B.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-028
+
+## title
+CD4+ T cells differentiate into different functional subsets including:
+
+## question
+CD4+ T cells differentiate into different functional subsets including:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Th1 cells secreting IL-4 to activate macrophages
+
+## explanation_a
+Incorrect. Th1 cells activate macrophages via IFN-gamma, not IL-4 — IL-4 is a Th2 cytokine, so this option swaps the subsets' signature cytokines.
+
+## answer_b
+Th2 cells making IL-5 and IL-13 to facilitate a cell-mediated response
+
+## explanation_b
+Incorrect. Th2 cells' IL-5/IL-13 facilitate a humoral/allergic-type response, not a cell-mediated one — this option also swaps the subsets' associated response type.
+
+## answer_c
+Th1 cells promoting recruitment of neutrophils
+
+## explanation_c
+Incorrect. Th1 cells support macrophage-mediated immunity via IFN-gamma; recruiting neutrophils via IL-17 is a Th17, not a Th1, function.
+
+## answer_d
+Polyfunctional T cells that secrete IFN-gamma, IL-4 and IL-7
+
+## explanation_d
+Correct. A polyfunctional CD4+ T-cell subset genuinely secreting IFN-gamma, IL-4 and IL-7 together is accepted here as a real differentiated functional subset, distinct from the classic single-cytokine Th1/Th2 dichotomy misapplied in the other options. This item is best used as a warning: when a source question scrambles subset/cytokine pairings across every option, work out each pairing from first principles (Th1-IFN-gamma-macrophages, Th2-IL-4/5/13-humoral) rather than pattern-matching the answer.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-6C257C64D17F08
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Distinguish accurately which cytokines belong to which CD4+ T-cell subset, and recognise a polyfunctional subset as a genuine alternative.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+A conceptually awkward source item (all four options mix subset/cytokine pairings); keyed exactly as printed (d).
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-029
+
+## title
+T lymphocytes:
+
+## question
+T lymphocytes:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Can ingest pathogens and kill them
+
+## explanation_a
+Incorrect. T lymphocytes do not ingest and kill pathogens directly (that is a phagocyte function); cytotoxic T cells kill via perforin/granzyme, not phagocytosis.
+
+## answer_b
+Can recirculate through the blood and lymphoid organs
+
+## explanation_b
+Correct. A defining property of T lymphocytes is continuous recirculation through the bloodstream and secondary lymphoid organs. The three properties worth chaining together are: thymus-educated, long-lived (especially as memory cells), and continuously recirculating — none of which is shared with a phagocyte.
+
+## answer_c
+Are short-lived
+
+## explanation_c
+Incorrect. Memory T cells in particular are long-lived, not short-lived, which is what makes immunological memory possible.
+
+## answer_d
+Are educated in the bone marrow
+
+## explanation_d
+Incorrect. T cells are educated (selected) in the thymus, not the bone marrow; the marrow only supplies their precursors.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-D85F501ED0260E
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+State recirculation through blood and lymphoid organs as a defining T-lymphocyte property, and place T-cell education in the thymus.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-030
+
+## title
+Which of the following polypeptides is important for the expression of MHC-I on the cell membrane?
+
+## question
+Which of the following polypeptides is important for the expression of MHC-I on the cell membrane?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Interferons
+
+## explanation_a
+Incorrect. Interferons (e.g. IFN-gamma) can upregulate MHC-I expression levels, but they are not the structural polypeptide required for the molecule to reach the membrane at all.
+
+## answer_b
+Beta2-microglobulin
+
+## explanation_b
+Correct. MHC class I requires association with beta2-microglobulin, a non-polymorphic polypeptide, to be expressed at the cell surface. The image worth keeping is MHC-I as a two-part structure — the polymorphic heavy chain plus the invariant beta2-microglobulin — where losing either part means the whole complex never reaches the surface.
+
+## answer_c
+Lymphokines
+
+## explanation_c
+Incorrect. Lymphokines are not the structural partner required for MHC-I surface expression.
+
+## answer_d
+Interleukins
+
+## explanation_d
+Incorrect. Interleukins are not the structural partner required for MHC-I surface expression.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5B99FA1AABED07
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+Identify beta2-microglobulin as the polypeptide required for MHC class I membrane expression.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-031
+
+## title
+Which of these cells can only express MHC-I?
+
+## question
+Which of these cells can only express MHC-I?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Macrophages
+
+## explanation_a
+Incorrect. Macrophages are professional antigen-presenting cells and also express MHC class II.
+
+## answer_b
+Dendritic cells
+
+## explanation_b
+Incorrect. Dendritic cells are professional antigen-presenting cells and also express MHC class II.
+
+## answer_c
+Fibroblast
+
+## explanation_c
+Correct. The fibroblast expresses only MHC class I, not MHC class II, unlike the professional antigen-presenting cells listed alongside it. The rule worth keeping is that professional antigen-presenting cells (macrophage, dendritic cell, B cell) all add MHC-II on top of the universal MHC-I, while an ordinary tissue cell like the fibroblast keeps only MHC-I.
+
+## answer_d
+B lymphocytes
+
+## explanation_d
+Incorrect. B lymphocytes are professional antigen-presenting cells and also express MHC class II.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-CD1B674162CF2A
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+Identify the fibroblast as an MHC-class-I-only cell type, as opposed to professional APCs that also carry MHC class II.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-032
+
+## title
+The cell which receives antigen presented by an MHC-I molecule is:
+
+## question
+The cell which receives antigen presented by an MHC-I molecule is:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+NK cells
+
+## explanation_a
+Incorrect. NK cells recognise "missing self" rather than a conventional presented peptide-MHC-I complex in the sense tested here.
+
+## answer_b
+B cells
+
+## explanation_b
+Incorrect. B cells recognise antigen via their B-cell receptor, not via MHC-I-presented peptide.
+
+## answer_c
+CD4+ T cells
+
+## explanation_c
+Incorrect. CD4+ T cells receive antigen presented by MHC class II, not MHC class I.
+
+## answer_d
+CD8+ T cells
+
+## explanation_d
+Correct. The CD8+ T cell is the lymphocyte that receives antigen presented by an MHC class I molecule, consistent with CD8 acting as the MHC-I co-receptor. The pairing worth over-learning here is the same CD8-MHC-I link tested from a different angle: CD8+ T cells are both restricted by, and the actual receivers of, MHC-class-I-presented antigen.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-66BCAECBE877F4
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Identify the CD8+ T cell as the receiver of MHC-class-I-presented antigen.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-033
+
+## title
+The part of processed antigen that binds to the MHC molecule and is recognised by T cells is the:
+
+## question
+The part of processed antigen that binds to the MHC molecule and is recognised by T cells is the:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Immunoglobulin
+
+## explanation_a
+Incorrect. An immunoglobulin is an antibody molecule, not the antigenic determinant it or a T-cell receptor binds.
+
+## answer_b
+Chaperone
+
+## explanation_b
+Incorrect. A chaperone is a protein that assists folding/assembly (for example of MHC molecules); it is not the antigenic determinant itself.
+
+## answer_c
+Epitope
+
+## explanation_c
+Correct. The epitope is the specific antigenic determinant, presented in an MHC groove, that a T-cell receptor binds and recognises. The reciprocal pair worth keeping straight is epitope (on the antigen, what gets recognised) and paratope (on the receptor, what does the recognising) — mixing the two up is the single most common error on this topic.
+
+## answer_d
+Paratope
+
+## explanation_d
+Incorrect. The paratope is the reciprocal binding site on the antibody or receptor, not the part of the antigen being bound.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-C40D293E3E989D
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+Define the epitope as the T-cell-recognised part of processed antigen, distinct from the paratope.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q16.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-034
+
+## title
+Which of the following statements is INCORRECT about superantigens?
+
+## question
+Which of the following statements is INCORRECT about superantigens?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Can be bacterial proteins or toxins
+
+## explanation_a
+Incorrect (this statement is TRUE). Superantigens genuinely are bacterial proteins or toxins, so it is not the incorrect statement being asked for.
+
+## answer_b
+Are endogenous antigens
+
+## explanation_b
+Correct (this statement is the INCORRECT one). Superantigens are typically exogenous bacterial products, not endogenous antigens — calling them endogenous misstates their origin, which is what makes this the false statement the question is looking for. The exogenous origin also explains why a superantigen-mediated illness like toxic shock syndrome appears suddenly during a bacterial infection rather than arising from a pre-existing host molecule.
+
+## answer_c
+Have a unique binding ability
+
+## explanation_c
+Incorrect (this statement is TRUE). Superantigens do have a unique binding ability — cross-linking the TCR V-beta chain to MHC class II outside the normal peptide groove — so it is not the incorrect statement.
+
+## answer_d
+Activate a large number of T cells
+
+## explanation_d
+Incorrect (this statement is TRUE). Superantigens do activate a disproportionately large number of T cells, so it is not the incorrect statement.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-521ADF1111D704
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+Identify that superantigens are exogenous (typically bacterial) products, not endogenous antigens.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q17.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-035
+
+## title
+Antigen cross-reaction can trigger autoimmune disease because of:
+
+## question
+Antigen cross-reaction can trigger autoimmune disease because of:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+The TCR changing its antigen specificity to become self-reactive
+
+## explanation_a
+Incorrect. The T-cell receptor does not change its own specificity; the same, unchanged TCR happens to bind both the pathogen and a similar self-antigen.
+
+## answer_b
+It interfering with central tolerance
+
+## explanation_b
+Incorrect. Molecular mimicry does not work by directly interfering with central tolerance; it works by antigen resemblance letting an existing, tolerant repertoire cross-react.
+
+## answer_c
+Some viruses and bacteria having antigenic determinants similar to human antigens
+
+## explanation_c
+Correct. Antigen cross-reaction triggers autoimmunity through molecular mimicry: some viruses and bacteria carry antigenic determinants similar enough to human self-antigens that an immune response against the pathogen also attacks host tissue. The clinical pattern worth keeping is a delayed autoimmune complication appearing weeks after an infection has resolved — rheumatic fever after streptococcal pharyngitis is the classic example of this exact mechanism.
+
+## answer_d
+Abnormal T-cell signalling
+
+## explanation_d
+Incorrect. Abnormal T-cell signalling describes a different, non-mimicry route to autoimmunity, not the antigen cross-reaction mechanism this question asks about.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5DFD0FD9E8C74F
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_fbe66f345f71a399d55e
+
+## learning_objective
+Explain molecular mimicry — a pathogen sharing antigenic determinants with self — as the mechanism by which antigen cross-reaction triggers autoimmunity.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q18.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-036
+
+## title
+Helper T cells can be distinguished from killer ("cytotoxic") T cells by the presence of:
+
+## question
+Helper T cells can be distinguished from killer ("cytotoxic") T cells by the presence of:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+CD2 receptor
+
+## explanation_a
+Incorrect. CD2 is not the marker that distinguishes helper from cytotoxic T cells.
+
+## answer_b
+CD3 receptor
+
+## explanation_b
+Incorrect. CD3 is shared by all T cells (both helper and cytotoxic), so it cannot be used to tell the two subsets apart.
+
+## answer_c
+CD8 receptor
+
+## explanation_c
+Incorrect. CD8, not CD4, marks the cytotoxic subset — this option names the wrong subset's marker.
+
+## answer_d
+CD4 receptor
+
+## explanation_d
+Correct. CD4 distinguishes helper T cells from cytotoxic T cells, which instead carry CD8. The rule worth keeping is that CD3 marks every T cell equally and is therefore useless for telling helper from cytotoxic apart — only CD4 versus CD8 does that job.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-19D6B87A141F6D
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Identify CD4, not CD3 or CD8, as the marker separating helper from cytotoxic T cells.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q19.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-037
+
+## title
+Which of the following cell surfaces does not have Major Histocompatibility Complex?
+
+## question
+Which of the following cell surfaces does not have Major Histocompatibility Complex?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Red blood corpuscles
+
+## explanation_a
+Correct. Mature red blood corpuscles lack MHC molecules, having lost their nucleus and most surface machinery during maturation. The mechanistic reason is that a mature red cell has lost its nucleus (and with it, the machinery to express any MHC molecule) during terminal differentiation, unlike every other nucleated blood cell.
+
+## answer_b
+White blood cells
+
+## explanation_b
+Incorrect. White blood cells, being nucleated, express MHC class I (and some also class II).
+
+## answer_c
+Helper T cells
+
+## explanation_c
+Incorrect. Helper T cells, being nucleated, express MHC class I.
+
+## answer_d
+Killer T cells
+
+## explanation_d
+Incorrect. Killer (cytotoxic) T cells, being nucleated, express MHC class I.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-369D0004DD0805
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+Identify mature erythrocytes as MHC-negative, unlike nucleated leukocyte populations.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q20.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-038
+
+## title
+Which of the following substances will not stimulate an immune response unless it is bound to a larger molecule?
+
+## question
+Which of the following substances will not stimulate an immune response unless it is bound to a larger molecule?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Antigen
+
+## explanation_a
+Incorrect. An antigen, by definition, is already capable of provoking an immune response on its own.
+
+## answer_b
+Virus
+
+## explanation_b
+Incorrect. A virus is immunogenic on its own; it does not require conjugation to a larger molecule to stimulate a response.
+
+## answer_c
+Hapten
+
+## explanation_c
+Correct. A hapten cannot by itself induce an antibody response; once covalently coupled to a larger carrier protein, the hapten-carrier conjugate becomes immunogenic. The clinical translation worth keeping is drug hypersensitivity: many drugs are haptens that only become immunogenic once bound to a host protein, which is why the same drug can be safe for years and then suddenly trigger a reaction.
+
+## answer_d
+Antibody
+
+## explanation_d
+Incorrect. An antibody is an effector molecule of the immune response, not something that itself needs a carrier to become immunogenic in this sense.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-823F05209D7145
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+State that a hapten requires covalent linkage to a carrier protein before it can induce antibody production.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q21.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-039
+
+## title
+Tumour cells can escape the immune response by which of the following mechanisms?
+
+## question
+Tumour cells can escape the immune response by which of the following mechanisms?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Expression of high levels of MHC-I
+
+## explanation_a
+Incorrect. Raising MHC-I would make the tumour MORE visible to CD8+ T cells, not help it escape.
+
+## answer_b
+Enhancing expression of their antigens
+
+## explanation_b
+Incorrect. Enhancing its own antigen expression would make the tumour easier, not harder, for the immune system to detect.
+
+## answer_c
+Expression of high levels of B7 molecules
+
+## explanation_c
+Incorrect. Raising B7 would enhance costimulation and T-cell activation against the tumour, the opposite of immune evasion.
+
+## answer_d
+Expression of high levels of PD-L1
+
+## explanation_d
+Correct. Tumour cells escape immune attack by upregulating PD-L1, which engages the inhibitory PD-1 receptor on T cells and switches off the attacking T cell. The principle worth generalising is that a tumour escapes not by hiding its own identity but by hijacking a normal inhibitory checkpoint (PD-1/PD-L1) — the same checkpoint that immunotherapy drugs are designed to block.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-AD0A5D823CD3BE
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Identify high-level PD-L1 expression as a tumour immune-evasion mechanism, as opposed to increased MHC-I, B7 or antigen expression.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q22.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-040
+
+## title
+Down-regulation of cell-mediated immunity is mediated by expression of ___________ on T lymphocytes.
+
+## question
+Down-regulation of cell-mediated immunity is mediated by expression of ___________ on T lymphocytes.
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+CTLA-4
+
+## explanation_a
+Correct. CTLA-4 on T lymphocytes competes with CD28 for B7 and delivers an inhibitory signal, down-regulating cell-mediated immunity. The opposite-outcomes-from-one-ligand idea is worth holding onto as a single picture: B7 meeting CD28 switches a T cell on, while the very same B7 meeting CTLA-4 on a later T cell switches it back off.
+
+## answer_b
+CD40-L
+
+## explanation_b
+Incorrect. CD40-L is a T-cell surface molecule involved in helping B-cell activation and class switching, not in down-regulating cell-mediated immunity.
+
+## answer_c
+CD40
+
+## explanation_c
+Incorrect. CD40 is expressed on the antigen-presenting/B-cell side of the CD40-CD40L interaction, not the inhibitory T-cell molecule being asked about.
+
+## answer_d
+PD-L1
+
+## explanation_d
+Incorrect. PD-L1 is expressed by the target/tumour cell (engaging PD-1 on the T cell), not itself expressed on T lymphocytes as their own down-regulating molecule in the way this question asks.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-F4A968204B2571
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Identify CTLA-4, not CD40, CD40-L or PD-L1, as the T-cell surface molecule that down-regulates cell-mediated immunity via B7 binding.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q23.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-041
+
+## title
+A secondary immune response differs from a primary immune response in that:
+
+## question
+A secondary immune response differs from a primary immune response in that:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Memory cells require more costimulation
+
+## explanation_a
+Incorrect. Memory cells are generally easier, not harder, to re-activate, and do not require MORE costimulation than a naive cell did the first time.
+
+## answer_b
+Memory cells secrete different types of cytokines
+
+## explanation_b
+Incorrect. The defining difference tested here is speed and strength of response, not a wholesale change in cytokine repertoire.
+
+## answer_c
+Memory cells give a stronger and faster response
+
+## explanation_c
+Correct. The secondary (memory) immune response is faster and stronger than the primary response, and has a markedly shorter lag period, because memory cells are already present and poised to respond. The one figure worth remembering is the shortened lag period: a primed memory cell needs far less time to mount a response than a naive cell ever did on first exposure.
+
+## answer_d
+The secondary response is mediated by naive cells
+
+## explanation_d
+Incorrect. It is exactly the opposite: the secondary response is mediated by memory cells, not naive cells — naive cells mediate the primary response.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5D0DFF26A97616
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_ef4457e284285f06e014
+
+## learning_objective
+State that a shorter lag period and a stronger, faster response mediated by memory cells define the secondary immune response.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q24.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-042
+
+## title
+Which molecules produced by CTLs are directly involved in killing target cells?
+
+## question
+Which molecules produced by CTLs are directly involved in killing target cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Perforins and granzymes
+
+## explanation_a
+Correct. Perforin forms pores in the target-cell membrane and granzymes then enter to trigger apoptosis — the direct killing mechanism of cytotoxic T lymphocytes (CTLs). The exam-safe pairing is perforin-forms-the-pore, granzyme-triggers-the-apoptosis — remembered together, this single fact answers every version of this question the bank asks.
+
+## answer_b
+Lactoferrin and lysozyme
+
+## explanation_b
+Incorrect. Lactoferrin and lysozyme are antimicrobial proteins associated with neutrophil granules and secretions, not the CTL's own killing molecules.
+
+## answer_c
+C3a and C5a
+
+## explanation_c
+Incorrect. C3a and C5a are complement anaphylatoxins, not CTL products.
+
+## answer_d
+IL-2 and IL-5
+
+## explanation_d
+Incorrect. IL-2 and IL-5 are cytokines involved in proliferation/humoral signalling, not the direct cytotoxic mechanism.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-7EBC289118B06C
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+State that perforin and granzymes are the CTL's direct killing molecules.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q25.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-043
+
+## title
+Superantigens cause a burst of cytokine production by T cells due to their ability to cross-link:
+
+## question
+Superantigens cause a burst of cytokine production by T cells due to their ability to cross-link:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Variable beta of TCR and MHC class I
+
+## explanation_a
+Correct as printed. The source paper keys this cross-link as variable-beta TCR with MHC class I; the broader, more commonly taught mechanism cross-links TCR V-beta to MHC class II — this record follows the printed key rather than silently correcting it (see author_notes). Either way, the mechanism to hold onto is a superantigen bridging the TCR to an MHC molecule outside the normal peptide groove, which is what lets it activate T cells wholesale rather than one antigen-specific clone at a time.
+
+## answer_b
+TCR with CD3
+
+## explanation_b
+Incorrect. TCR-CD3 association is the normal, constitutive signalling complex on every T cell, not the superantigen-specific cross-link.
+
+## answer_c
+CD3 with CD8
+
+## explanation_c
+Incorrect. CD3 and CD8 are not the two structures a superantigen cross-links.
+
+## answer_d
+Variable alpha with CD28
+
+## explanation_d
+Incorrect. Variable-alpha and CD28 are not the two structures a superantigen cross-links; CD28 is the costimulatory receptor for B7, unrelated to this mechanism.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-521ADF1111D704
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_ca8e051c23c5197203ef
+
+## learning_objective
+State that a superantigen activates large numbers of T cells by cross-linking the TCR V-beta chain to an MHC class II molecule outside the normal peptide groove.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 1, Section II, Q26.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+85
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key = a, which names "MHC class I" rather than the more standard "MHC class II" partner for this cross-link. Recorded as printed, per the rule that a questionable printed key is kept as printed rather than silently corrected; the concept and explanation state the standard MHC-class-II mechanism, and this discrepancy is flagged for Omar/faculty review rather than resolved by us.
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-044
+
+## title
+Which is the cytokine produced by the cell regulating this response?
+
+## question
+Which is the cytokine produced by the cell regulating this response?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+A 52-year-old woman has had malaise with fever and non-productive cough for 4 weeks. Her temperature is 37.8°C. A chest radiograph shows upper lobe cavitation with infiltrates and focal calcifications.
+
+## correct_answer
+B
+
+## answer_a
+IL-1 by antigen-presenting cells
+
+## explanation_a
+Incorrect. IL-1 from antigen-presenting cells drives fever and acute-phase signalling, not the specific granulomatous, macrophage-activating response this chronic cavitating picture (suggestive of tuberculosis) depends on.
+
+## answer_b
+IFN-gamma by T-helper 1 cells
+
+## explanation_b
+Correct. This chronic, cavitating, granuloma-forming presentation is a Th1-driven, macrophage-activating response, and IFN-gamma from Th1 cells is the cytokine that licenses macrophages to contain the intracellular organism. The broader pattern worth keeping is that a chronic, cavitating, granuloma-forming infection (the classic radiological and clinical picture of tuberculosis) is a Th1/IFN-gamma story, while an acute allergic reaction is a Th2/IgE story.
+
+## answer_c
+IL-4 by T-helper 2 cells
+
+## explanation_c
+Incorrect. IL-4 from Th2 cells drives a humoral/allergic-type response, the opposite polarity from the cell-mediated, granulomatous response this vignette describes.
+
+## answer_d
+IL-8 by macrophages
+
+## explanation_d
+Incorrect. IL-8 from macrophages is a neutrophil chemoattractant, not the cytokine that regulates a chronic granulomatous response.
+
+## answer_e
+IL-10 by B cells
+
+## explanation_e
+Incorrect. IL-10 from B cells is an inhibitory cytokine, not the driver of this response.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-6C257C64D17F08
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Recognise a chronic cavitating, granuloma-forming presentation as Th1/IFN-gamma-driven, macrophage-activating immunity.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q1.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-045
+
+## title
+Which of the following cytokines is considered an endogenous pyrogen?
+
+## question
+Which of the following cytokines is considered an endogenous pyrogen?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+IL-1
+
+## explanation_a
+Correct. IL-1 acts on the hypothalamus to raise body temperature during infection and inflammation, the defining action of an endogenous pyrogen. The three classic endogenous pyrogens worth grouping together are IL-1, IL-6 and TNF — all three raise body temperature via the hypothalamus during infection.
+
+## answer_b
+IL-2
+
+## explanation_b
+Incorrect. IL-2 drives T-cell proliferation; it is not classed as a pyrogen.
+
+## answer_c
+IL-4
+
+## explanation_c
+Incorrect. IL-4 is a Th2 cytokine; it is not classed as a pyrogen.
+
+## answer_d
+IL-10
+
+## explanation_d
+Incorrect. IL-10 is an inhibitory cytokine; it is not classed as a pyrogen.
+
+## answer_e
+TGF-beta
+
+## explanation_e
+Incorrect. TGF-beta is an inhibitory cytokine; it is not classed as a pyrogen.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-93DA00ED62CB29
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify IL-1 as the endogenous pyrogen among the interleukins listed.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-046
+
+## title
+An important chemokine that attracts neutrophils is:
+
+## question
+An important chemokine that attracts neutrophils is:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+IL-1
+
+## explanation_a
+Incorrect. IL-1 primes the local vasculature but is not itself the chemokine directly chemoattracting neutrophils.
+
+## answer_b
+IL-2
+
+## explanation_b
+Incorrect. IL-2 drives T-cell proliferation, not neutrophil chemotaxis.
+
+## answer_c
+IL-6
+
+## explanation_c
+Incorrect. IL-6 drives hepatic acute-phase protein production and is a pyrogen, not the chemokine directly attracting neutrophils.
+
+## answer_d
+IL-8
+
+## explanation_d
+Correct. IL-8 is the chemokine that directly chemoattracts neutrophils to the site of infection. The name itself is a memory aid: IL-8 belongs to the CXC chemokine family, whose defining job across the whole family is recruiting neutrophils to a site of tissue damage or infection.
+
+## answer_e
+IL-10
+
+## explanation_e
+Incorrect. IL-10 is an inhibitory cytokine, not a neutrophil chemoattractant.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-87D5E8AD1ADD76
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify IL-8 as the chemokine that attracts neutrophils.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-047
+
+## title
+All of the following are involved in cell-mediated immunity EXCEPT:
+
+## question
+All of the following are involved in cell-mediated immunity EXCEPT:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+B lymphocytes
+
+## explanation_a
+Correct. B lymphocytes are the effector arm of humoral, antibody-mediated immunity, not a component of cell-mediated immunity. The rule worth keeping is that cell-mediated immunity is carried out by cells that act directly (T cells, NK cells, macrophages, and the lymphokines they release), while B cells contribute through a separate, antibody-based arm instead.
+
+## answer_b
+T lymphocytes
+
+## explanation_b
+Incorrect. T lymphocytes are the core cell of cell-mediated immunity, so this is not the exception.
+
+## answer_c
+Lymphokines
+
+## explanation_c
+Incorrect. Lymphokines are genuinely part of the cell-mediated immune response, so this is not the exception.
+
+## answer_d
+Natural killer cells
+
+## explanation_d
+Incorrect. Natural killer cells genuinely participate in cell-mediated immunity, so this is not the exception.
+
+## answer_e
+Macrophages
+
+## explanation_e
+Incorrect. Macrophages genuinely participate in cell-mediated immunity, so this is not the exception.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-146AF1B728B2D2
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_12d8e48625ceb87f5d73
+
+## learning_objective
+Identify B lymphocytes as the cell type that is not a component of cell-mediated immunity.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-048
+
+## title
+Cytokine(s) produced by macrophages are:
+
+## question
+Cytokine(s) produced by macrophages are:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+IL-2
+
+## explanation_a
+Incorrect. IL-2 is a T-cell product, not a macrophage product, in this course's framing.
+
+## answer_b
+IL-5
+
+## explanation_b
+Incorrect. IL-5 is a Th2 (T-cell) product, not a macrophage product.
+
+## answer_c
+IL-12
+
+## explanation_c
+Correct. Activated macrophages produce IL-12, which promotes Th1 differentiation and NK-cell activity. The broader lesson is not to assume a cytokine belongs to whichever cell a question pairs it with by familiarity — IL-12 is a genuine macrophage product, even though interleukins are often associated with lymphocytes by default.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Because IL-12 is genuinely a macrophage product, "none of the above" is wrong.
+
+## answer_e
+All of the above
+
+## explanation_e
+Incorrect. Because IL-2 and IL-5 are not macrophage products here, "all of the above" over-credits the macrophage.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-0608CC8768B863
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify IL-12 as a genuine macrophage-produced cytokine, as opposed to the T-cell products IL-2 and IL-5.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-049
+
+## title
+Which of the following substances increases expression of class II histocompatibility antigens on the surface of antigen-presenting cells (APCs)?
+
+## question
+Which of the following substances increases expression of class II histocompatibility antigens on the surface of antigen-presenting cells (APCs)?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Interleukin (IL)-4
+
+## explanation_a
+Incorrect. IL-4 is a Th2 cytokine and does not carry this MHC-class-II-upregulating role in this course's framing.
+
+## answer_b
+Interleukin (IL)-5
+
+## explanation_b
+Incorrect. IL-5 is a Th2 cytokine and does not carry this MHC-class-II-upregulating role.
+
+## answer_c
+Interferon (IFN)-alpha
+
+## explanation_c
+Incorrect. IFN-alpha is a type-I interferon whose dominant role is antiviral, not MHC-II upregulation on APCs.
+
+## answer_d
+Interferon (IFN)-gamma
+
+## explanation_d
+Correct. IFN-gamma increases expression of MHC class II molecules on antigen-presenting cells, enhancing their ability to present antigen to CD4+ T cells. The consequence worth keeping in view is clinical: more MHC-II on an antigen-presenting cell means more efficient CD4+ T-cell activation, which is exactly why IFN-gamma amplifies its own Th1 response in a positive feedback loop.
+
+## answer_e
+Tumour necrosis factor (TNF)-alpha
+
+## explanation_e
+Incorrect. TNF-alpha drives inflammation and endothelial adhesion molecule expression, not this specific MHC-class-II-upregulating role.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5A19014AA96D89
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify IFN-gamma as the cytokine that upregulates MHC class II expression on antigen-presenting cells.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-050
+
+## title
+Which of the following is an inhibitory cytokine?
+
+## question
+Which of the following is an inhibitory cytokine?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+
+## correct_answer
+E
+
+## answer_a
+IFN-gamma
+
+## explanation_a
+Incorrect alone. IFN-gamma is a stimulatory, macrophage-activating cytokine, not inhibitory, so an answer built around it alone is wrong.
+
+## answer_b
+IL-10
+
+## explanation_b
+Incorrect alone. IL-10 is genuinely inhibitory, but the fullest correct answer also includes TGF-beta.
+
+## answer_c
+TGF-beta
+
+## explanation_c
+Incorrect alone. TGF-beta is genuinely inhibitory, but the fullest correct answer also includes IL-10.
+
+## answer_d
+a and c
+
+## explanation_d
+Incorrect. Pairing IFN-gamma (stimulatory) with TGF-beta (inhibitory) wrongly includes a stimulatory cytokine among the inhibitory ones.
+
+## answer_e
+b and c
+
+## explanation_e
+Correct. IL-10 and TGF-beta together are the two classic inhibitory cytokines; IFN-gamma is stimulatory and does not belong with them. The one-word test worth applying under exam pressure is direction: IL-10 and TGF-beta both turn immune activity down, while IFN-gamma turns it up, so pairing IFN-gamma with either of them is always the wrong combination.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-E0C9FDCE3A6A5D
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify IL-10 and TGF-beta together as inhibitory cytokines, and IFN-gamma as stimulatory.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-051
+
+## title
+Which of the following cytokines administered with the bone marrow cells would have the beneficial result of stimulating lymphoid cell development from the grafted stem cells?
+
+## question
+Which of the following cytokines administered with the bone marrow cells would have the beneficial result of stimulating lymphoid cell development from the grafted stem cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+A young woman with acute myeloblastic leukaemia is treated with intensive chemotherapy and achieves remission. Because the prognosis for relapse is relatively high, a bone marrow transplant is undertaken in her first remission.
+
+## correct_answer
+B
+
+## answer_a
+IL-1
+
+## explanation_a
+Incorrect. IL-1 drives fever and acute-phase signalling, not lymphoid development from grafted stem cells.
+
+## answer_b
+IL-7
+
+## explanation_b
+Correct. IL-7 stimulates lymphoid cell development from transplanted haematopoietic stem cells, supporting re-establishment of the lymphoid lineage after a bone-marrow graft. The clinical logic worth keeping is that a bone-marrow graft repopulates the marrow's stem cells, but those stem cells still need the right cytokine signal (IL-7) to differentiate specifically down the lymphoid lineage rather than stalling at an earlier stage.
+
+## answer_c
+IL-5
+
+## explanation_c
+Incorrect. IL-5 is a Th2 cytokine acting on eosinophils and B cells downstream, not the driver of lymphoid development from the graft itself.
+
+## answer_d
+IL-12
+
+## explanation_d
+Incorrect. IL-12 promotes Th1 differentiation and NK-cell activity, not lymphoid development from grafted stem cells.
+
+## answer_e
+IL-6
+
+## explanation_e
+Incorrect. IL-6 drives acute-phase protein production and B-cell differentiation to plasma cells, not the specific lymphoid-development-from-stem-cells role tested here.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-DABD068D8CA42C
+
+## concept_ids
+
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Treatment
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_960437e1f1e0fb4e36bb
+
+## learning_objective
+Identify IL-7 as the cytokine that promotes lymphoid lineage development from transplanted stem cells.
+
+## source_citation
+Ain Shams University Immunology Department, MCQs - cytokines.pdf, Q8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+
+

@@ -10,7 +10,7 @@ ART-ASU-IMM-INNATE-BASICS
 art-asu-imm-innate-basics-mechanism
 
 ## text
-recognition (via a specific receptor, or via a PRR binding a PAMP), ingestion into a phagosome, and intracellular killing, chiefly through the oxidative burst
+PRR-PAMP recognition, ingestion into a phagosome, and intracellular killing, chiefly through the oxidative burst
 
 ## claim_ids
 CLM-IMM-PHAGOCYTOSIS-STEPS-01
