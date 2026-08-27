@@ -96,6 +96,12 @@
    "cluster": "Histology / Lymphatic and Macrophage System: Lymph node + Spleen",
    "keyed": 14,
    "excluded": 6
+  },
+  {
+   "batch": 17,
+   "cluster": "Histology / Spleen (tail) + Thymus + Tonsils + Respiratory: Alveolar Phagocytes + Conducting Portion (start)",
+   "keyed": 13,
+   "excluded": 7
   }
  ],
  "keyed": {
@@ -2070,6 +2076,133 @@
     "E": "This trailing fragment (plasma cells and afferent lymphatic vessels; thymic cortex staining darker than medulla) is unrelated content bled in from other questions, not a genuine option for this question."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "thymus-dependent-zone-of-the-spleen-is-present-at-i-8fce8aab": {
+   "answer": "A",
+   "explanation": "The thymus-dependent (T-lymphocyte) zone of the spleen's white pulp is the periarteriolar lymphatic sheath (PALS), the cuff of lymphoid tissue immediately surrounding the central arteriole, mirroring the T-cell zone's typical association with the central vasculature of lymphoid organs. This is distinct from the germinal centre and follicular (mantle) zone, both of which are predominantly B-lymphocyte territories, and from the marginal zone at the periphery of the white pulp, which contains a mixed population of lymphocytes and specialised antigen-presenting cells rather than being specifically T-cell-dominant.",
+   "distractorNotes": {
+    "B": "The germinal centre is a B-lymphocyte proliferation zone, not the thymus-dependent (T-cell) zone.",
+    "C": "The follicular zone (mantle zone) surrounding the germinal centre is predominantly composed of B-lymphocytes, not the thymus-dependent zone.",
+    "D": "The marginal zone at the white pulp's periphery contains a mixed lymphocyte population and specialised macrophages, not specifically the thymus-dependent T-cell zone."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-thymus-which-of-the-following-is-correct-1-84f21510": {
+   "answer": "D",
+   "explanation": "The thymic cortex appears distinctly darker (more densely basophilic) on histological staining than the medulla, because the cortex is densely packed with numerous small, actively dividing and maturing lymphocytes (thymocytes), while the medulla contains fewer, more mature lymphocytes along with more epithelial reticular cells and the characteristic eosinophilic Hassall's corpuscles, giving it a comparatively paler appearance. This staining contrast is one of the most basic and reliable ways to orient a thymus histology slide at low power. The other statements are false: the thymus's epithelial reticular cells are endodermal (not mesodermal) in origin, the blood-thymic barrier is a cortical (not medullary) feature protecting developing thymocytes there, and the thymus characteristically lacks both plasma cells and afferent lymphatic vessels altogether.",
+   "distractorNotes": {
+    "A": "Thymic epithelial reticular cells derive embryologically from the endoderm of the third pharyngeal pouch, not from mesoderm.",
+    "B": "The blood-thymic barrier is a feature of the thymic CORTEX, protecting developing thymocytes there from blood-borne antigens; the medulla lacks this same strict barrier.",
+    "C": "The thymus characteristically lacks both plasma cells and afferent lymphatic vessels, since it is a primary lymphoid organ where lymphocytes mature rather than one where immune responses or antigen filtering occur."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "control-multiplication-of-helper-suppresser-t-cell-f9d598e8": {
+   "answer": "D",
+   "explanation": "Thymulin (also known as the thymic humoral factor or facteur thymique sérique) is a thymic hormone specifically recognised for its role in regulating the maturation and functional balance of helper and suppressor T-lymphocyte subsets, distinguishing its action from the more general T-cell differentiation-promoting roles of thymosin and thymopoietin. This more targeted regulatory function on the helper/suppressor T-cell balance is the specific detail this question is testing, distinguishing thymulin from the thymus's other secreted peptide hormones.",
+   "distractorNotes": {
+    "A": "Thymopoietin promotes general T-lymphocyte differentiation and also has effects on neuromuscular transmission, rather than specifically regulating the helper/suppressor T-cell balance.",
+    "C": "Thymosin promotes general T-lymphocyte maturation and proliferation within the thymus, a broader role than the specific helper/suppressor T-cell regulatory function attributed to thymulin."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "hassall-s-corpuscles-in-thymus-are-characterized-by-94e95c43": {
+   "answer": "B",
+   "explanation": "Hassall's corpuscles are a defining histological feature specifically of the thymic medulla, appearing as concentrically arranged, keratinizing epithelial reticular cells forming whorled, eosinophilic (not basophilic) structures. Rather than decreasing with age, Hassall's corpuscles actually tend to become more numerous and prominent as the thymus involutes with age, even as the overall lymphoid (thymocyte) content of the gland declines -- and they are composed of degenerating epithelial cells, not lymphocytes, which are simply interspersed around them in the surrounding medullary tissue.",
+   "distractorNotes": {
+    "A": "Hassall's corpuscles are eosinophilic (acidophilic), not basophilic, owing to their keratin content.",
+    "C": "Hassall's corpuscles are formed of degenerating, keratinizing epithelial reticular cells, not lymphocytes.",
+    "D": "Hassall's corpuscles increase, rather than decrease, in number and prominence with age, even as the thymus otherwise involutes."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "thymic-epithelial-cells-epithelial-reticular-cells-are-e7482bae": {
+   "answer": "B",
+   "explanation": "Thymic epithelial (reticular) cells contain cytokeratin intermediate filaments, the defining feature confirming their true epithelial (endodermal) origin despite their unusual star-shaped, reticular appearance that superficially resembles connective tissue reticular cells. This is why they are specifically distinguished as 'epithelial reticular cells' rather than true mesenchymal reticular cells (which instead contain vimentin), and it is central to understanding their embryological origin as endoderm-derived rather than mesoderm-derived. Structurally, they interconnect with one another via desmosomes to form a continuous supportive meshwork throughout the thymic cortex and medulla, rather than existing as widely separated individual cells, and they typically have large, pale (euchromatic) nuclei rather than small dark ones -- the small dark nuclei instead belong to the densely packed surrounding lymphocytes.",
+   "distractorNotes": {
+    "A": "Thymic epithelial reticular cells typically have large, pale (euchromatic) nuclei, not small dark ones -- small dark nuclei instead characterise the abundant surrounding lymphocytes.",
+    "C": "Thymic epithelial reticular cells are interconnected via desmosomes into a continuous meshwork, not widely separated from one another."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-patient-has-an-auto-immune-disease-it-may-be-due-to-a-defe-060829f0": {
+   "answer": "D",
+   "explanation": "Autoimmune disease can arise from a failure of central immune tolerance, the process by which self-reactive T-lymphocytes are normally eliminated (negative selection) or otherwise inactivated during their maturation within the thymus -- if this thymic selection process is defective, self-reactive T-cells can escape into the peripheral circulation and go on to attack the body's own tissues. This distinguishes the thymus's role as a primary lymphoid organ responsible for T-cell education and self-tolerance from the secondary lymphoid organs (lymph node, spleen, palatine tonsil), where already-mature, already-tolerant lymphocytes go on to encounter antigen and mount immune responses rather than undergoing the initial tolerance-establishing selection process itself.",
+   "distractorNotes": {
+    "A": "The lymph node is a secondary lymphoid organ where mature lymphocytes encounter antigen; it is not the site where T-cell self-tolerance is initially established.",
+    "C": "The palatine tonsil is a secondary lymphoid organ (part of mucosa-associated lymphoid tissue), not the site of T-cell central tolerance selection."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a7-year-old-child-came-to-the-pediatric-clinic-presenting-wi-c1adae6b": {
+   "answer": "A",
+   "explanation": "Acute tonsillitis classically produces reactive inflammation and enlargement of the regional lymph nodes draining the tonsillar area -- particularly the jugulodigastric (tonsillar) node in the upper deep cervical chain -- a very common and expected clinical finding on examination of a child with this presentation. This reactive lymphadenopathy reflects the immune response mounted by these regional nodes against the infecting organisms, and is a routine part of the clinical picture rather than an unusual or alarming finding in this context. A blood film in this acute bacterial infection would typically be expected to show neutrophilia, the standard response to acute bacterial infection, not eosinophilia or basophilia, and there is no suggestion of malignancy to justify calling any nodal enlargement 'metastatic'.",
+   "distractorNotes": {
+    "B": "Describing lymph node enlargement as 'metastatic' implies cancer spread, which is inappropriate and unsupported in a case of simple acute infectious tonsillitis in a child.",
+    "C": "Acute bacterial tonsillitis would classically produce neutrophilia on a blood film, not eosinophilia, which is more typical of parasitic infections or allergic conditions.",
+    "D": "Acute bacterial tonsillitis would classically produce neutrophilia, not basophilia, on a blood film."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "non-keratinized-stratified-squamous-epithelium-is-the-coveri-a6b12974": {
+   "answer": "D",
+   "explanation": "Both the palatine tonsil and the lingual tonsil are covered by non-keratinized stratified squamous epithelium, continuous with the surrounding oropharyngeal and posterior tongue mucosa respectively, which must withstand the mechanical wear of swallowing and food passage. The pharyngeal tonsil (adenoid), by contrast, is covered by pseudostratified ciliated columnar (respiratory-type) epithelium in most areas, matching the nasopharyngeal mucosa it sits within -- a key histological feature distinguishing it from the other two tonsil types. The exam takeaway is to pair 'non-keratinized stratified squamous' specifically with the palatine and lingual tonsils together, and 'respiratory-type pseudostratified columnar' with the pharyngeal tonsil.",
+   "distractorNotes": {
+    "A": "The palatine tonsil alone is covered by this epithelium, but so is the lingual tonsil, making the combined answer (D) more complete.",
+    "B": "The lingual tonsil alone is covered by this epithelium, but so is the palatine tonsil, making the combined answer (D) more complete.",
+    "C": "The pharyngeal tonsil is covered by pseudostratified ciliated columnar (respiratory-type) epithelium, not non-keratinized stratified squamous epithelium."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "heart-failure-cells-are-b0fe1a8f": {
+   "answer": "D",
+   "explanation": "'Heart failure cells' are haemosiderin-laden alveolar macrophages that accumulate in the lungs during chronic pulmonary venous congestion (classically from left-sided heart failure or mitral stenosis), having phagocytosed red blood cells and haemoglobin breakdown products that leaked into the alveolar spaces from congested pulmonary capillaries. Being macrophages, they can be specifically identified and demonstrated using vital (supravital) staining techniques, the same general principle used to identify mononuclear phagocytic system cells elsewhere in the body, and their haemosiderin content classically stains with Prussian blue (Perls') stain. They are free cells within the alveolar lumen rather than a lining cell type, are not ciliated, and are round-to-oval macrophages rather than flat cells, which instead describes the alveolar (Type I pneumocyte) lining itself.",
+   "distractorNotes": {
+    "A": "Heart failure cells are macrophages, not ciliated epithelial cells.",
+    "B": "Heart failure cells are found as free cells within the alveolar lumen, not lining the bronchi.",
+    "C": "Flat cells with flat nuclei describes the thin, squamous Type I pneumocytes forming the alveolar lining, not the round-to-oval macrophages that constitute heart failure cells."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-upper-pair-of-vocal-cords-a-they-are-the-true-db8e5351": {
+   "answer": "D",
+   "explanation": "The upper pair of folds in the larynx are the vestibular (false vocal) folds, whose primary role is protective -- helping to close off the airway and prevent foreign material, food, or liquid from entering the larynx and trachea below, distinct from the lower pair (the true vocal cords), whose specialised role is phonation (sound production). The true vocal cords, not the vestibular folds, are the ones containing the well-developed elastic vocal ligament and being covered by the mechanically durable non-keratinized stratified squamous epithelium needed to withstand the friction of vibration during speech; the vestibular folds instead are typically covered by respiratory-type epithelium and lack this same prominent elastic ligament.",
+   "distractorNotes": {
+    "A": "The true vocal cords are the LOWER pair of folds, specialised for phonation; the upper pair are the false (vestibular) folds.",
+    "B": "The well-developed elastic vocal ligament is a feature of the lower, true vocal cords, not the upper, false vocal folds.",
+    "C": "The mechanically durable non-keratinized stratified squamous epithelium covering is a feature of the true vocal cords (built to withstand vibrational friction), not the vestibular folds, which are typically covered by respiratory-type epithelium."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-upper-pair-of-vocal-cords-they-d0e9e07b": {
+   "answer": "D",
+   "explanation": "This is a duplicate of the sibling question; the upper pair of laryngeal folds are the vestibular (false vocal) folds, whose defining role is protective -- helping prevent foreign material from entering the larynx and airway below -- rather than the phonation role, elastic vocal ligament, and mechanically durable squamous epithelium that instead characterise the lower, true vocal cords.",
+   "distractorNotes": {
+    "A": "The true vocal cords are the lower pair, specialised for phonation, not the upper pair.",
+    "B": "The elastic vocal ligament is a feature of the true (lower) vocal cords, not the vestibular (upper) folds.",
+    "C": "Non-keratinized stratified squamous epithelium, built to withstand vibrational friction, covers the true (lower) vocal cords; the vestibular folds are typically covered by respiratory-type epithelium instead."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "elastic-cartilage-provides-structural-support-for-the-respir-0efcaf59": {
+   "answer": "D",
+   "explanation": "Within the respiratory airway, elastic cartilage is specifically found in parts of the larynx -- the epiglottis, and the corniculate and cuneiform cartilages -- in contrast to the trachea and bronchi, whose supporting cartilage rings are entirely hyaline cartilage, and the bronchioles, which have no cartilage support at all (a defining feature distinguishing them from bronchi). While the larynx as a whole is actually a mix of hyaline (thyroid and cricoid cartilages, most of the arytenoids) and elastic (epiglottis, corniculate, cuneiform) cartilage types, it is the only one of the four listed airway structures that contains any elastic cartilage at all, making it the best answer among the options given.",
+   "distractorNotes": {
+    "A": "The trachea's supporting C-shaped rings are entirely hyaline cartilage, not elastic cartilage.",
+    "B": "The bronchi's supporting cartilage plates are entirely hyaline cartilage, not elastic cartilage.",
+    "C": "Bronchioles have no cartilage support at all, elastic or hyaline -- the loss of cartilage is precisely what defines the transition from bronchus to bronchiole."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "thymus-dependent-zones-in-lymph-node-spleen-are-respectively-3b5cbb99": {
+   "answer": "D",
+   "explanation": "The thymus-dependent (T-lymphocyte) zone in the lymph node is the paracortex, the deep part of the cortex lying between the outer cortical follicles and the medulla, while the corresponding thymus-dependent zone in the spleen is the periarteriolar lymphatic sheath (PALS), the T-cell cuff surrounding the central arteriole within the white pulp. Both structures serve the same functional role in their respective organs -- housing T-lymphocytes and providing the site where antigen-presenting cells interact with T-cells -- making this parallel between paracortex and PALS a frequently tested cross-organ comparison in lymphoid histology.",
+   "distractorNotes": {
+    "A": "Cortical follicles (lymph node) are the B-cell zone, not the thymus-dependent zone, and red pulp (spleen) is the blood-filtering compartment, entirely unrelated to any thymus-dependent lymphoid zone.",
+    "B": "While the paracortex is correctly identified as the lymph node's thymus-dependent zone, red pulp is not the spleen's thymus-dependent zone -- that is the periarteriolar lymphatic sheath within the white pulp.",
+    "C": "Medullary cords (lymph node) are rich in plasma cells, not specifically the T-cell zone, and splenic sinusoids (spleen) are part of the blood-filtering red pulp, unrelated to any thymus-dependent zone."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -2462,6 +2595,27 @@
   },
   "the-thymus-dependent-zone-of-the-spleen-is-the-06-of-eb84e27a": {
    "reason": "The correct answer (the periarteriolar lymphatic sheath, PALS, the T-cell zone immediately surrounding the central arteriole) is missing from the surviving options -- both the follicular zone and marginal zone are the wrong, unrelated zones of white pulp, neither of which is the thymus-dependent (T-cell) zone."
+  },
+  "thymus-dependent-zones-in-the-lymph-node-spleen-are-respecti-0c5ecaaa": {
+   "reason": "The correct pairing (paracortex for the lymph node, periarteriolar lymphatic sheath for the spleen) is not available: option D has been corrupted into an unrelated true statement about the follicular zone rather than completing the second blank correctly, and while option B correctly identifies the lymph node's paracortex, it incorrectly pairs it with the spleen's red pulp rather than the periarteriolar lymphatic sheath. No option correctly completes both blanks."
+  },
+  "in-thymus-gland-hassall-s-corpuscles-are-characterized-by-3ddbf712": {
+   "reason": "All four options contain likely errors: Hassall's corpuscles are located in the medulla (not the cortex, as A states), are eosinophilic rather than basophilic (contradicting B), are formed of degenerating epithelial reticular cells rather than lymphocytes specifically (making C's wording imprecise), and D is an unrelated fragment about gene exchange bled in from a different question. No option can be confidently selected as correct."
+  },
+  "blood-film-from-this-patient-may-present-eosinophilia-853347f0": {
+   "reason": "The stem is itself just a restated option from the sibling tonsillitis vignette question (already established as false, since acute bacterial tonsillitis produces neutrophilia, not eosinophilia), and the surviving 'options' are a corrupted fragment (D: basophilia, also false) and an unrelated blob of leftover text from a different question (lymph node/spleen/palatine tonsil). No coherent, answerable question survives."
+  },
+  "divide-the-spleen-into-regular-compartments-lymphatic-system-61263f5a": {
+   "reason": "The stem is a corrupted merge of an unrelated written-exam prompt (about splenic compartments) with a separate Hassall's corpuscles question, and none of the four surviving options is a clearly, confidently correct statement about Hassall's corpuscles: they are formed of epithelial cells rather than being 'surrounded by' lymphocytes as their defining feature, they are located in the medulla (not cortex, ruling out B as worded), the tonsillectomy fragment is unrelated, and lymphatic nodules are not all of the primary type."
+  },
+  "the-palatine-tonsil-is-characterized-by-c790a1a2": {
+   "reason": "Three of the four options are confidently false for the palatine tonsil specifically (pseudostratified columnar epithelium and lacking a connective tissue capsule both describe the pharyngeal tonsil instead, and 'hypertrophy results in adenoids' is a naming fact specific to the pharyngeal, not palatine, tonsil), while the fourth option (ducts of mucous glands opening on the surface) more closely matches a feature described for the lingual tonsil's crypts rather than being confidently established as a palatine tonsil characteristic. No option can be confidently selected as correct."
+  },
+  "which-of-the-following-is-true-about-alveolar-macrophage-4147624c": {
+   "reason": "Only two of what was likely four options survived, and both contain likely errors: alveolar macrophages are classically described as free cells within the alveolar lumen (a distinct population from the separate 'interstitial macrophages' found in the septum, making 'present in the inter-alveolar septum' an imprecise characterisation), and they are of monocyte (myeloid), not lymphocyte, origin. The genuinely correct characterisation was most likely in a missing option B."
+  },
+  "clara-cells-are-known-to-be-7933b952": {
+   "reason": "Only three of what was likely four options survived, and each contains an identifiable inaccuracy: Clara cells are non-ciliated (ruling out A), are dome-shaped/columnar rather than flat (ruling out B), and secrete a proteinaceous, surfactant-like substance rather than mucus in the goblet-cell sense (making C an imprecise mischaracterisation). The genuinely correct, positive characterisation (a non-ciliated, dome-shaped secretory cell) was most likely in the missing option D."
   }
  }
 }
