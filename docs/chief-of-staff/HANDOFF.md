@@ -2,6 +2,13 @@
 
 Read this, then BOARD.md (history + rulings), then `Instruction Manual for Content Creation/13-orchestration.md`. A fresh chief-of-staff session starts here; the transcript is not needed. The old lane orchestrator sessions are retired; their branches were fully landed on main 2026-08-27.
 
+## RESUME STATE (2026-08-27 ~15:00 — fresh session should re-dispatch from here)
+The prior CoS session's BACKGROUND SUBAGENTS became unusable — every one died at the 600s no-output watchdog during its initial silent file-read phase, on BOTH Sonnet and Opus, regardless of scope (a fresh 104 agent died before even creating its worktree). The main loop stayed healthy; another session on the machine committed fine. Diagnosis: this long-running session's background-agent execution was degraded → a FRESH session should get working subagents. When you re-dispatch: fresh agent per lane (NOT resumes — resumed agents get context-bloated), model Opus or Sonnet, tiny-first-commit within ~2 min, background any command >90s, cap ~2-3 concurrent, NO fan-out.
+Uncommitted-to-main but SAFE on branches:
+- `asu-y1-triage-cont` — Ain Shams Y1 triage COMPLETE + TRIAGE APPROVED (7 modules ~2,240 Qs; coverage/ASU-*-triage.md). Rulings: `fnd` for generic cytology/histology/anatomy-terminology; unsalted university-blind mint (search before each); log ASU-IMM Q181–241 key gap + ASU-HCB written-Q&A-mislabeled-MCQ; BLS/GPATH/GPHARM = needs Omar sources. NEXT: author modules INF/IBM/LOCO/MBG/IMM/HCB/AE (S2→S5), one fresh agent each, off this branch.
+- `kasr-104-triage-work` (head 2fb3678) — 104 CPS: 383/915 keyless MCQs recovered (bank 757/1289 keyed); editorial-keying-candidates.json = the 532 still-keyless (159 Histology/206 Anatomy/122 Physiology/43 unclassified). NEXT: complete triage table via concept-mint SEARCH, then editorial-key the 532 per ANSWER-KEY GAPS ruling. mcq-bank.json is large — a reading agent must read it in slices, not whole.
+- Two production imports already LIVE (see below). AU-103/105/106 pending-live still held.
+
 ## Standing orders from Omar (in force)
 1. CoS delegates all work to Sonnet subagents (does no task work itself; sole sanctioned exception was the live-DB import, see below). Subagents work off fresh origin/main branches and PUSH GATE-CLEAN WORK TO MAIN themselves (Omar approved 2026-08-27 — supersedes manual §2/§9 "only validator pushes").
 2. Priority: finish Kasr Y1 entirely → then START AIN SHAMS Y1 (supersedes old resume order). Alexandria Y1 active in parallel. North star unchanged: students solve the bank and excel in exams.
