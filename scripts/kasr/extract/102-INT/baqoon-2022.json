@@ -229,11 +229,11 @@
       "page": 9,
       "marks": 4,
       "asked": "Lactate dehydrogenase and Creatine Kinase isoenzymes (4 marks)",
-      "label": "answer: not established — the assigned department book does not cover this topic anywhere in its 167 pages",
+      "label": "LDH is a tetramer of H and M subunits forming five tissue isoenzymes and CK is a dimer of M and B subunits forming three, and it is that tissue distribution that makes each isoenzyme's rise diagnostic of where it leaked from",
       "key": "ldh-and-ck-isoenzymes-comparison",
-      "definition": "The department book (src_a488633802ec053c6325, Introduction to Biomedical Sciences INT-102, Biochemistry and Physiology parts) does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in its 167 pages. No book-sourced definition can be written for this question.",
-      "objective": "Not established from the assigned source.",
-      "pitfall": "Not established from the assigned source.",
+      "definition": "The department book (src_a488633802ec053c6325, Introduction to Biomedical Sciences INT-102, Biochemistry and Physiology parts) does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in its 167 pages, so no book-sourced definition exists for this question. Lactate dehydrogenase is a tetramer built from H (heart-type) and M (muscle-type) subunits, giving five isoenzymes, LDH1 (H4) through LDH5 (M4); creatine kinase is a dimer built from M (muscle-type) and B (brain-type) subunits, giving three, CK-MM, CK-MB and CK-BB. LDH1 and CK-MB predominate in cardiac muscle, LDH5 and CK-MM predominate in skeletal muscle and liver, and CK-BB predominates in brain, which is what makes a raised fraction diagnostic of the tissue it leaked from. Ruling 2026-08-27 (chief of staff): keyed editorially from standard biochemistry, no printed key — the assigned department book is silent on this topic, so this record is sourced from the discipline rather than the assigned text, and carries no book citation for that reason.",
+      "objective": "Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use, content the assigned department book does not teach.",
+      "pitfall": "Treating LDH and CK as single enzymes rather than isoenzyme families whose subunit composition (H/M for LDH, M/B for CK) determines which tissue, and therefore which clinical scenario, each fraction signals.",
       "subject": "fnd",
       "primary": "DIS-BIO-T02",
       "secondary": [],
@@ -565,7 +565,12 @@
     "C2": {
       "format": "comparison_table",
       "prompt": "Compare between Lactate dehydrogenase and Creatine Kinase isoenzymes.",
-      "expects": []
+      "expects": [
+        "Subunit composition: LDH is a tetramer of H (heart-type) and M (muscle-type) subunits giving five isoenzymes, LDH1 (H4) through LDH5 (M4); CK is a dimer of M (muscle-type) and B (brain-type) subunits giving three isoenzymes, CK-MM, CK-MB and CK-BB (standard biochemistry — keyed editorially, no printed key)",
+        "Tissue distribution: LDH1 predominates in heart, red blood cells and kidney while LDH5 predominates in liver and skeletal muscle; CK-MM predominates in skeletal muscle, CK-MB in cardiac muscle, and CK-BB in brain (standard biochemistry — keyed editorially, no printed key)",
+        "Diagnostic pattern: a raised LDH1 that exceeds LDH2 (the 'flipped' LDH1:LDH2 ratio) and a raised CK-MB both support myocardial infarction, while a raised LDH5 or CK-MM points to liver or skeletal-muscle injury instead (standard biochemistry — keyed editorially, no printed key)",
+        "Time course: CK-MB rises earlier after myocardial injury (3-6 hours, peaking near 24 hours) than LDH (rising at 24-48 hours, peaking at 3-6 days), which is why LDH was historically used as a late marker in a patient presenting days after chest pain (standard biochemistry — keyed editorially, no printed key)"
+      ]
     },
     "C3": {
       "format": "comparison_table",
@@ -632,10 +637,6 @@
     {
       "scheme": "S1..S4",
       "issue": "Page 1's exam-instructions overview prints \"I- Short assay (5 questions ...... 30 marks)\", but only 4 numbered short-essay items appear in the body (1: 8 marks, 2: 6 marks, 3: 10 marks, 4/case: 6 marks), summing to exactly the stated 30 marks. The header's \"5\" is treated as a paper printing error, not a missing fifth question — the marks reconcile exactly with 4 items and the paper reads continuously from 'Page 1 of 11' to 'END OF EXAM' on page 11 with nothing skipped."
-    },
-    {
-      "scheme": "C2",
-      "issue": "\"Lactate dehydrogenase and Creatine Kinase isoenzymes\" cannot be answered from the assigned source. The department book (src_a488633802ec053c6325, both the Biochemistry and Physiology parts, 167 pages) contains no mention of lactate dehydrogenase, creatine kinase, or enzyme isoenzymes anywhere — confirmed by exhaustive search of the cached page text. The prompt is transcribed verbatim per the paper; `expects` is empty and no definition/answer has been invented. This is the same topic the 31/07/2022 EOY sitting's own Compare section replaces with \"Competitive and allosteric enzyme inhibitors\" — suggesting the department may examine isoenzymes from lecture material outside this textbook."
     },
     {
       "scheme": "S1",

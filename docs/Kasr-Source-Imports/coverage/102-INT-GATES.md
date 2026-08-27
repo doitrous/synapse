@@ -233,13 +233,32 @@ rejected, **`errors: []`**. Only `academic/kau-modules.md` and
 kind, same as 101/108's combined runs).
 
 `medical:batch` per 102 file (`--with` every sibling concept/article file):
-clean except two pre-existing items, neither introduced this session —
-`QW-102-D023A1E0F54A` (LDH/CK isoenzymes; the department book does not
-cover the topic, `102-INT-OWED.md` §4, needs a faculty ruling) and 10 MCQ
+clean except one pre-existing item, not introduced this session — 10 MCQ
 rows whose `library_ids` names only one of two teaching articles (same
 single-`articleId`-per-leaf shape as the 2 just fixed; concept-level
 164/164 coverage is unaffected either way). Left as a known, documented gap
 rather than a shared-toolchain change for 10 rows.
+
+**Ruling 2026-08-27 (chief of staff): `QW-102-D023A1E0F54A` (LDH/CK
+isoenzymes) resolved.** The department book does not cover lactate
+dehydrogenase or creatine kinase isoenzymes anywhere in its 167 pages, and
+no printed key or department mark scheme exists to recover — this is the
+MISSING-key case (real Baqoon 2022 paper, no book-sourced answer possible).
+Per the CoS ruling, keyed editorially from standard biochemistry: the
+concept's `definition`/`explicit_objective`/`pitfalls` and the question's
+four `Expects:` mark-scheme points now carry the correct comparison
+(subunit composition, tissue distribution, diagnostic pattern, time
+course), each point explicitly marked "standard biochemistry — keyed
+editorially, no printed key" so a faculty reviewer can tell book-sourced
+content from editorial content at a glance. Edited in generator input
+(`scripts/kasr/extract/102-INT/baqoon-2022.json`, seed `q2`/scheme `C2`),
+not hand-edited in the generated batches; `build-batches.ts "102 INT"`
+regenerated `concept/102-INT-concepts.md` and
+`written/102-INT-BAQOON-2022-written.md` — diff is exactly this record's
+`label`/`definition`/`explicit_objective`/`pitfalls`/`Expects:`/
+`learning_objective` fields, nothing else moved. `102-INT-OWED.md` §4
+updated to match; see `docs/chief-of-staff/BOARD.md` Rulings for the
+standing ruling text.
 
 `medical:audit` against the combined emit: 102-specific findings are the
 same editorial classes 101/108 already carry on their own not-yet-evidenced

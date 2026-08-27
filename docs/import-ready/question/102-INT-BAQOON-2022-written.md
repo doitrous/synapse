@@ -785,7 +785,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-102-D023A1E0F54A
 ## title
-answer: not established — the assigned department book does not cover this topic anywhere in its 167 pages
+LDH is a tetramer of H and M subunits forming five tissue isoenzymes and CK is a dimer of M and B subunits forming three, and it is that tissue distribution that makes each isoenzyme's rise diagnostic of where it leaked from
 ## subject
 fnd
 ## status
@@ -797,7 +797,10 @@ Compare between Lactate dehydrogenase and Creatine Kinase isoenzymes.
 ## written_parts
 ### (a) 4 marks
 Compare between Lactate dehydrogenase and Creatine Kinase isoenzymes.
-
+Expects: Subunit composition: LDH is a tetramer of H (heart-type) and M (muscle-type) subunits giving five isoenzymes, LDH1 (H4) through LDH5 (M4); CK is a dimer of M (muscle-type) and B (brain-type) subunits giving three isoenzymes, CK-MM, CK-MB and CK-BB (standard biochemistry — keyed editorially, no printed key)
+Expects: Tissue distribution: LDH1 predominates in heart, red blood cells and kidney while LDH5 predominates in liver and skeletal muscle; CK-MM predominates in skeletal muscle, CK-MB in cardiac muscle, and CK-BB in brain (standard biochemistry — keyed editorially, no printed key)
+Expects: Diagnostic pattern: a raised LDH1 that exceeds LDH2 (the 'flipped' LDH1:LDH2 ratio) and a raised CK-MB both support myocardial infarction, while a raised LDH5 or CK-MM points to liver or skeletal-muscle injury instead (standard biochemistry — keyed editorially, no printed key)
+Expects: Time course: CK-MB rises earlier after myocardial injury (3-6 hours, peaking near 24 hours) than LDH (rising at 24-48 hours, peaking at 3-6 days), which is why LDH was historically used as a late marker in a patient presenting days after chest pain (standard biochemistry — keyed editorially, no printed key)
 Concept: CON-FND-DD3EE5EC8C07D1
 ## main_concept
 CON-FND-DD3EE5EC8C07D1
@@ -820,7 +823,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Not established from the assigned source.
+Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use, content the assigned department book does not teach.
 ## setting
 Academic
 ## academic_relevance

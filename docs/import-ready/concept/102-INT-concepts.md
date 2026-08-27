@@ -6840,17 +6840,17 @@ canonical_key "iron-absorption-mechanism-dmt1-hcp1-ferroportin" already has a pi
 
 # Item
 ## label
-answer: not established — the assigned department book does not cover this topic anywhere in its 167 pages
+LDH is a tetramer of H and M subunits forming five tissue isoenzymes and CK is a dimer of M and B subunits forming three, and it is that tissue distribution that makes each isoenzyme's rise diagnostic of where it leaked from
 ## id
 CON-FND-DD3EE5EC8C07D1
 ## canonical_key
 ldh-and-ck-isoenzymes-comparison
 ## definition
-The department book (src_a488633802ec053c6325, Introduction to Biomedical Sciences INT-102, Biochemistry and Physiology parts) does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in its 167 pages. No book-sourced definition can be written for this question.
+The department book (src_a488633802ec053c6325, Introduction to Biomedical Sciences INT-102, Biochemistry and Physiology parts) does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in its 167 pages, so no book-sourced definition exists for this question. Lactate dehydrogenase is a tetramer built from H (heart-type) and M (muscle-type) subunits, giving five isoenzymes, LDH1 (H4) through LDH5 (M4); creatine kinase is a dimer built from M (muscle-type) and B (brain-type) subunits, giving three, CK-MM, CK-MB and CK-BB. LDH1 and CK-MB predominate in cardiac muscle, LDH5 and CK-MM predominate in skeletal muscle and liver, and CK-BB predominates in brain, which is what makes a raised fraction diagnostic of the tissue it leaked from. Ruling 2026-08-27 (chief of staff): keyed editorially from standard biochemistry, no printed key — the assigned department book is silent on this topic, so this record is sourced from the discipline rather than the assigned text, and carries no book citation for that reason.
 ## explicit_objective
-Not established from the assigned source.
+Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use, content the assigned department book does not teach.
 ## pitfalls
-Not established from the assigned source.
+Treating LDH and CK as single enzymes rather than isoenzyme families whose subunit composition (H/M for LDH, M/B for CK) determines which tissue, and therefore which clinical scenario, each fraction signals.
 ## concept_type
 classification
 ## status

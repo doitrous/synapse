@@ -616,17 +616,28 @@ every one of the 10 steps, 0 rejected. The combined-folder run —
 created, **0 rejected, `errors: []`**; the only two files skipped are
 `academic/kau-modules.md` and `academic/au-modules.md`, both by design (not
 a medical-content kind). `medical:batch` per 102 file (`--with` every
-sibling concept/article file) is clean except two pre-existing, documented
-items, neither introduced by this pass: (a) one written item
-(`QW-102-D023A1E0F54A`, "Compare LDH and CK isoenzymes") whose part (a) has
-no `Expects` lines because the assigned department book does not cover the
-topic anywhere in its 167 pages — recorded in `coverage/102-INT-OWED.md` §4
-as needing a faculty ruling, not authored around; (b) 10 further MCQ rows
-whose `library_ids` names only one of two teaching articles (same class as
-the 2 fixed above, on MCQ leaves whose `articleId` is a single string) —
-concept-level two-sided coverage is unaffected (164/164 holds either way),
-left as a known leaf-regeneration item rather than a shared-toolchain change
-for 10 rows.
+sibling concept/article file) is clean except one pre-existing, documented
+item, not introduced by this pass: 10 MCQ rows whose `library_ids` names
+only one of two teaching articles (same class as the 2 fixed above, on MCQ
+leaves whose `articleId` is a single string) — concept-level two-sided
+coverage is unaffected (164/164 holds either way), left as a known
+leaf-regeneration item rather than a shared-toolchain change for 10 rows.
+
+**Ruling 2026-08-27 (chief of staff):** the other item this section used to
+flag, written question `QW-102-D023A1E0F54A` ("Compare LDH and CK
+isoenzymes"), is resolved. It is a real Baqoon 2022 paper question whose
+assigned department book never mentions LDH, CK or isoenzymes — no printed
+key, no recoverable department mark scheme, the MISSING-key case. Keyed
+editorially from standard biochemistry per the ruling: the question's four
+`Expects:` points and the concept's `definition`/`explicit_objective`/
+`pitfalls` now carry the correct comparison, each editorial point marked
+"standard biochemistry — keyed editorially, no printed key". Edited in
+generator input (`scripts/kasr/extract/102-INT/baqoon-2022.json`) and
+regenerated via `build-batches.ts "102 INT"`, not hand-edited; re-verified
+clean on both `medical:batch` (concept + written, `--with` every sibling)
+and the chained `medical:simulate` above. Detail in
+`coverage/102-INT-GATES.md` and `coverage/102-INT-OWED.md` §4a;
+`docs/chief-of-staff/BOARD.md` Rulings carries the standing text.
 
 `medical:audit` against the combined emit: the 102-specific findings are all
 the same editorial classes 101/108 already carry — `relatedArticleIds`/
