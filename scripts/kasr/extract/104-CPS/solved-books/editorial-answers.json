@@ -66,6 +66,12 @@
    "cluster": "Histology / Cardiovascular System - A-V Connections (start of Histology subject)",
    "keyed": 17,
    "excluded": 3
+  },
+  {
+   "batch": 12,
+   "cluster": "Histology / Cardiovascular System - Arteries",
+   "keyed": 20,
+   "excluded": 0
   }
  ],
  "keyed": {
@@ -1189,6 +1195,204 @@
     "A": "Visceral (fenestrated) capillaries, by definition, DO have pores (fenestrations) in their wall -- the opposite of having none.",
     "B": "Visceral (fenestrated) capillaries have a CONTINUOUS basement membrane, distinguishing them from sinusoids, which have a discontinuous one.",
     "D": "Presence in the intestine is a true but narrower, example-level fact rather than the general defining characteristic the question is asking for."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "what-fraction-of-total-blood-volume-is-present-in-the-capill-f9b7cdfa": {
+   "answer": "B",
+   "explanation": "At any given moment, only about 5% of total circulating blood volume is actually within the capillaries, reflecting the vascular system's overall distribution: the venous system (venules and veins) holds the majority, roughly 60-70%, acting as a low-pressure capacitance reservoir, while arteries hold roughly 10-15% and the heart and pulmonary circulation account for the remainder. This small capillary share makes physiological sense given the capillaries' function: they are the site of exchange, not storage, so the circulation is structured to keep blood moving through them briefly rather than pooling there. The exam takeaway is to remember the overall volume distribution hierarchy: veins (largest share, capacitance) > arteries > capillaries (smallest share, exchange only).",
+   "distractorNotes": {
+    "A": "1% understates the capillary blood volume share; the commonly cited figure is closer to 5%.",
+    "C": "15% is closer to the arterial system's share of total blood volume, not the capillaries'.",
+    "D": "20% substantially overstates the capillary compartment's share of total blood volume."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-is-not-a-component-of-the-respiratory-40a9efde": {
+   "answer": "D",
+   "explanation": "The respiratory membrane (blood-air barrier) is built from the alveolar epithelial cell's plasma membrane and cytoplasm, the fused basal laminae shared between the alveolar epithelium and the capillary endothelium, and the capillary endothelial cell's own plasma membrane and cytoplasm -- together forming the thin diffusion barrier gases must cross. The red blood corpuscle, while it is what carries the oxygen and carbon dioxide being exchanged across this barrier, is not itself a structural layer of the membrane; it is the cargo flowing through the capillary lumen on one side of the barrier, not part of the barrier's own construction. The exam takeaway is to picture the respiratory membrane as the layered tissue barrier itself (epithelium, fused basal laminae, endothelium), distinct from the blood cells that merely pass through the capillary adjacent to it.",
+   "distractorNotes": {
+    "A": "The alveolar epithelial cell's plasma membrane is a genuine structural component of the respiratory membrane.",
+    "B": "The capillary endothelial cell's plasma membrane is a genuine structural component of the respiratory membrane.",
+    "C": "The fused basal laminae of the alveolar epithelium and capillary endothelium form a genuine structural layer of the respiratory membrane, helping minimise its overall thickness."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "hypertension-develops-when-the-a-amount-of-collagen-fibers-i-9f819538": {
+   "answer": "C",
+   "explanation": "The most direct, physiologically fundamental mechanism of hypertension is an increase in arteriolar smooth muscle tone, which raises total peripheral resistance -- since arterial blood pressure equals cardiac output multiplied by total peripheral resistance, a sustained increase in arteriolar tone directly and immediately elevates blood pressure. This mechanism, mediated by increased sympathetic vasoconstrictor activity or other vasoconstrictor influences on arteriolar smooth muscle, is the standard, most emphasized cause taught for essential (primary) hypertension. Increased collagen deposition or adventitial thickening are instead chronic structural remodelling changes that can result FROM sustained hypertension, rather than being the primary, direct trigger of the pressure elevation itself.",
+   "distractorNotes": {
+    "A": "Increased collagen in the arteriolar media is more a chronic structural consequence of long-standing hypertension (vascular remodelling/stiffening) than its direct, primary cause.",
+    "B": "A decrease in elastic fibres would reduce arteriolar compliance over time, but this is a slower structural change, not the immediate, primary mechanism raising peripheral resistance.",
+    "D": "Increased adventitial thickness is a structural remodelling change, not the direct, acute mechanism by which peripheral resistance and blood pressure rise."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "inaorta-internal-elastic-lamina-is-unclear-because-4955103f": {
+   "answer": "C",
+   "explanation": "In the aorta and other large elastic arteries, the tunica media is packed with 40 to 70 concentric, fenestrated elastic laminae that dominate the entire wall thickness, making the specific internal elastic lamina (the single boundary lamina that clearly demarcates intima from media in muscular arteries) impossible to distinguish as a separate, distinct structure from the many other elastic laminae surrounding it. This is in sharp contrast to muscular (medium-sized) arteries, where the media is dominated by smooth muscle rather than elastic laminae, allowing the single internal elastic lamina to stand out clearly as a well-defined, wavy line under the microscope. The histology takeaway is that the internal elastic lamina's visibility as a distinct boundary depends on it contrasting against a media that is NOT itself full of elastic tissue -- a contrast that elastic arteries like the aorta lack.",
+   "distractorNotes": {
+    "A": "The internal elastic lamina is present in the aorta's wall, just not distinguishable as a separate structure from the surrounding elastic laminae, rather than being entirely absent.",
+    "B": "The issue is not the lamina's thinness but that it cannot be told apart from the many other, equally prominent elastic laminae filling the media.",
+    "D": "The internal elastic lamina, like the aorta's other elastic laminae, does take up elastic stains; the issue is distinguishing it as a separate structure, not a staining failure."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "internal-elastic-lamina-is-developed-in-the-tunica-intima-of-11ac0429": {
+   "answer": "A",
+   "explanation": "The internal elastic lamina is a well-defined, wavy sheet of elastic tissue marking the boundary between the tunica intima and tunica media, and it is most clearly and consistently developed in arteries, particularly muscular (medium-sized) arteries where it stands out sharply against the smooth-muscle-dominated media. Veins generally lack a well-developed internal elastic lamina, and capillaries and lymphatic vessels are far too simple in construction (essentially just endothelium and minimal surrounding connective tissue) to have distinct tunica layers or an internal elastic lamina at all. The histology takeaway is to associate a prominent internal elastic lamina specifically with the arterial side of the circulation, most classically taught using muscular arteries as the example.",
+   "distractorNotes": {
+    "B": "Veins characteristically lack a well-developed internal elastic lamina, unlike arteries.",
+    "C": "Capillaries have only a single endothelial layer and lack the distinct tunica layers (including any elastic lamina) that define larger vessels.",
+    "D": "Lymphatic vessels, like capillaries, are simple-walled and lack a distinct internal elastic lamina."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "large-elastic-arteries-are-characterized-by-6fa6edbe": {
+   "answer": "C",
+   "explanation": "Large elastic arteries like the aorta are histologically defined by their tunica media containing 40 to 70 concentric, fenestrated elastic laminae (membranes), an adaptation that lets the vessel wall stretch during systole and recoil during diastole, smoothing out the pulsatile flow from the heart into a steadier downstream flow (the Windkessel effect). This is THE hallmark, most frequently tested feature distinguishing elastic arteries from muscular (medium) arteries, whose media is instead dominated by smooth muscle with only a modest number of elastic laminae. The exam takeaway is to fix this specific number range (40-70 elastic membranes) as the signature identifying feature of elastic arteries on a histology slide.",
+   "distractorNotes": {
+    "A": "Longitudinal smooth muscle bundles can be found in the tunica adventitia of large elastic arteries, a real but secondary, less emphasized feature compared to the defining elastic laminae of the media.",
+    "B": "Valves are a feature of veins (particularly medium-sized limb veins), not arteries.",
+    "D": "A single, prominent, distinctly identifiable external elastic lamina is a feature more associated with muscular arteries; in elastic arteries, the media's many elastic laminae make any single lamina, internal or external, hard to distinguish separately."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "medium-sized-artery-is-characterized-by-60b39a97": {
+   "answer": "D",
+   "explanation": "Medium-sized (muscular) arteries are the most numerous and widely distributed artery type in the body, forming the many named arteries supplying individual organs and regions (such as the brachial, femoral, radial, and coronary arteries), in contrast to the few large elastic arteries (aorta and its major branches) and the much smaller, more localised arterioles. Their walls are dominated by a thick tunica media built mainly of smooth muscle (with a single, well-defined internal elastic lamina and a less prominent external elastic lamina), rather than by the many concentric elastic laminae that define large elastic arteries. The exam takeaway is to associate 'muscular artery' with 'the most common, widely distributed artery type', in contrast to elastic arteries (fewer, defined by 40-70 elastic laminae) and arterioles (smallest, primary site of vascular resistance).",
+   "distractorNotes": {
+    "A": "It is the tunica media, not the adventitia, that is the thickest and most defining layer of a medium (muscular) artery's wall.",
+    "B": "The 40-70 elastic membrane feature belongs specifically to large elastic arteries (like the aorta), not medium/muscular arteries, whose media is instead dominated by smooth muscle.",
+    "C": "Having a continuous, non-fenestrated endothelium is a feature shared by essentially all arteries (and continuous capillaries), so it does not specifically distinguish medium arteries."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "medium-sized-vein-is-characterized-by-eeba9e52": {
+   "answer": "A",
+   "explanation": "A defining histological feature distinguishing veins from arteries is that the tunica adventitia is typically the thickest layer of a vein's wall -- often containing longitudinal smooth muscle bundles -- in clear contrast to arteries, where the tunica media (built for withstanding higher pressure) is the dominant, thickest layer. This reflects the different functional demands: veins operate at low pressure and serve as a capacitance reservoir, needing structural support (adventitia) more than a thick muscular pressure-resisting layer (media). The exam takeaway is to pair 'adventitia thicker than media' specifically with veins, the functional and structural mirror image of arteries.",
+   "distractorNotes": {
+    "B": "Veins generally lack well-developed internal and external elastic laminae, a feature instead characteristic of arteries.",
+    "C": "It is actually arteries, with their thicker, more elastic and muscular walls, that tend to remain more open (less collapsed) after death; thin-walled veins tend to collapse.",
+    "D": "A subendothelium rich in elastic fibres is not a standout, defining feature specifically emphasized for medium veins in standard histology teaching."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-blood-vessels-0-a-smooth-muscle-contraction-in-4cd2175e": {
+   "answer": "B",
+   "explanation": "Smooth muscle cells within the tunica media of a medium-sized artery contract or relax to adjust the vessel's luminal diameter, directly regulating the volume of blood flow delivered to the downstream target tissue or organ -- this local and reflex-controlled vasomotor tone is the fundamental basis of blood flow distribution throughout the body. This contrasts with the embedded claim about veins: venous smooth muscle contraction (venoconstriction) actually INCREASES venous return by reducing the reservoir capacity of the venous system and pushing blood centrally toward the heart, not restricting it, so that claim is false. The exam takeaway is to keep arterial smooth muscle's role (regulating flow to tissues, resistance) and venous smooth muscle's role (adjusting capacitance, promoting venous return) conceptually distinct.",
+   "distractorNotes": {
+    "C": "The tunica media is typically thinner in veins compared with the tunica media of similarly-sized arteries, not wider -- arteries need a thicker muscular media to withstand higher pressure.",
+    "D": "This description is reversed: the INTERNAL elastic lamina separates the tunica intima from the tunica media; it is the EXTERNAL elastic lamina that separates the tunica media from the tunica adventitia."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-blood-vessels-1-74c7dfb7": {
+   "answer": "D",
+   "explanation": "Blood sinusoids have large, often diaphragm-less gaps between endothelial cells and a discontinuous or absent basement membrane, structural features that allow blood plasma (and in the liver, spleen, and bone marrow, even some cells) to pass freely across the sinusoidal wall. This is the functional opposite of continuous capillaries, whose tightly joined, unbroken endothelium (the type found in muscle, skin, and forming the blood-brain barrier in the CNS) makes them the least permeable capillary type, definitely not permitting free passage of blood cells. The exam takeaway is to rank capillary permeability from lowest to highest as continuous < fenestrated < sinusoidal, with sinusoids alone allowing free passage of plasma and cells.",
+   "distractorNotes": {
+    "A": "Continuous capillaries are the least permeable capillary type; blood cells cannot freely cross their tightly sealed endothelial wall.",
+    "B": "This description is reversed: it is the internal elastic lamina that separates the tunica intima from the tunica media, not the tunica adventitia from the media.",
+    "C": "This description is also reversed: it is the external elastic lamina that separates the tunica media from the tunica adventitia, not the tunica intima from the media."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-blood-vessels-6a4abd1f": {
+   "answer": "D",
+   "explanation": "This is a cleaner-text duplicate of the sibling question; the answer is unchanged. Blood sinusoids, with their large endothelial gaps and discontinuous basement membrane, allow blood plasma (and even cells, in organs like the liver, spleen, and bone marrow) to pass freely across their wall, unlike the far less permeable continuous capillary type.",
+   "distractorNotes": {
+    "A": "Continuous capillaries are the least permeable type; their tightly sealed endothelium does not allow blood cells to pass freely.",
+    "B": "The internal elastic lamina separates the tunica intima from the tunica media, not the tunica adventitia from the media.",
+    "C": "The external elastic lamina separates the tunica media from the tunica adventitia, not the tunica intima from the media."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-wall-of-blood-vessels-internal-elastic-lamina-41190697": {
+   "answer": "C",
+   "explanation": "The internal elastic lamina is most prominently and consistently developed in medium-sized (muscular) arteries, where it forms a clear, wavy boundary sheet separating the tunica intima from the smooth-muscle-dominated tunica media, making it a key diagnostic feature for identifying this vessel type under the microscope. Metarterioles and blood capillaries are too small and structurally simple to possess a distinct internal elastic lamina at all, while veins such as the inferior vena cava generally lack a well-developed one, consistent with their lower-pressure, capacitance-oriented wall structure. The histology takeaway is to use a prominent internal elastic lamina as one of the most reliable microscopic clues that a vessel cross-section is a muscular artery rather than a vein or a smaller vessel.",
+   "distractorNotes": {
+    "A": "Metarterioles are too small and structurally simple (a discontinuous smooth muscle cuff over an endothelial tube) to have a distinct internal elastic lamina.",
+    "B": "Blood capillaries consist of only a single endothelial layer and lack the distinct tunica layers, including any elastic lamina, that characterise larger vessels.",
+    "D": "The inferior vena cava, like veins generally, lacks a well-developed internal elastic lamina."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-vasa-vasorum-1-48262f8b": {
+   "answer": "B",
+   "explanation": "'Vasa vasorum' literally translates from Latin as 'vessels of the vessels' -- small nutrient blood vessels that penetrate and supply the walls of large blood vessels themselves, since the outer portions of a thick vessel wall are too far from the main lumen's blood to be nourished by simple diffusion alone. This need arises specifically in large vessels (both large arteries and large veins) whose walls are too thick for diffusion from the lumen to reach the outer layers, which is why vasa vasorum are found predominantly in the tunica adventitia (and extending partway into the outer tunica media) of these large vessels, nourishing the OUTER part of the wall rather than the inner part (which is nourished directly by luminal blood diffusion). The exam takeaway is to remember the term's literal definition and its logical basis: large, thick vessel walls need their own dedicated blood supply for their outer layers.",
+   "distractorNotes": {
+    "A": "Vasa vasorum are found predominantly in the tunica adventitia (extending only partly into the outer media), not primarily within the tunica media itself.",
+    "C": "Vasa vasorum are a feature of LARGE vessels (both arteries and veins), not specifically small veins, whose thin walls can be nourished by simple diffusion.",
+    "D": "Vasa vasorum nourish the OUTER part of a large vessel's wall (adventitia and outer media); the inner part (intima, inner media) is nourished directly by diffusion from the blood in the lumen."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "stimulation-of-arterial-baroreceptors-causes-all-except-aafa1ea1": {
+   "answer": "A",
+   "explanation": "Increased firing of arterial baroreceptors (triggered by a rise in blood pressure stretching the vessel wall) reflexively DECREASES sympathetic outflow to the arterioles, causing vasodilation rather than vasoconstriction -- this is the core mechanism by which the baroreceptor reflex acts as a negative feedback loop to bring an elevated blood pressure back down. This reflex response also increases parasympathetic (vagal) tone to the heart, producing bradycardia, and the combined effect of vasodilation, reduced vasomotor tone, and slowed heart rate is a net decrease in arterial blood pressure. The exam takeaway is to fix the entire baroreceptor reflex direction correctly: increased baroreceptor firing leads to LESS sympathetic tone and vasoDILATION, never vasoconstriction, making 'vasoconstriction of arterioles' the one response that does not occur.",
+   "distractorNotes": {
+    "B": "Bradycardia is a genuine effect of baroreceptor stimulation, mediated by increased vagal (parasympathetic) tone to the heart.",
+    "C": "A decrease in arterial blood pressure is the overall net physiological goal and outcome of the baroreceptor reflex.",
+    "D": "Inhibition of vasomotor (sympathetic) tone is a genuine, core effect of baroreceptor stimulation, directly producing the resulting vasodilation."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "sympathetic-stimulation-of-which-vessels-cause-the-greatest-30d5bfc3": {
+   "answer": "B",
+   "explanation": "Arterioles are the body's principal 'resistance vessels': their small radius combined with a well-developed smooth muscle coat gives them the greatest capacity to change vascular resistance in response to sympathetic stimulation, since resistance varies inversely with the fourth power of radius (per Poiseuille's law) and arterioles can markedly constrict or dilate their lumen. Sympathetic vasoconstriction of arterioles therefore produces by far the largest increase in total peripheral resistance of any vessel type, which is why arterioles are the primary target and site of action for blood pressure regulation via the sympathetic nervous system and the baroreceptor reflex. The exam takeaway is to fix 'arterioles = resistance vessels, largest driver of TPR changes' as a core cardiovascular physiology fact, contrasted with arteries (conductance vessels) and venules/veins (capacitance vessels).",
+   "distractorNotes": {
+    "A": "Large arteries have relatively low resistance and function mainly as conduits (conductance vessels), not as the primary site of resistance regulation.",
+    "C": "Capillaries lack smooth muscle in their walls entirely and cannot actively constrict or dilate in response to sympathetic stimulation.",
+    "D": "Venules, while they do respond to sympathetic stimulation, primarily affect venous capacitance (and thus venous return/preload) rather than being the greatest contributor to total peripheral resistance."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-main-feature-of-basilar-artery-is-c2068f7e": {
+   "answer": "B",
+   "explanation": "The basilar artery, part of the posterior cerebral circulation, is a classic histology teaching example specifically noted for its unusually prominent, thick, and often corrugated (wavy) internal elastic lamina, a feature used to help identify this vessel on a microscope slide. This is a distinguishing histological signature separate from the more general muscular artery features (a well-developed smooth muscle media, a less prominent external elastic lamina), making the internal elastic lamina's prominence the specific 'main feature' this exam bank tests for this named vessel. The exam takeaway is to treat 'basilar artery = prominent internal elastic lamina' as a specific, memorable named-vessel histology fact, much like the aorta's '40-70 elastic laminae' or the SA node's pacemaker role.",
+   "distractorNotes": {
+    "A": "A prominent external elastic lamina is not the basilar artery's specifically emphasized distinguishing feature in standard histology teaching.",
+    "C": "Prominent collagen fibres are not the basilar artery's specific distinguishing histological feature.",
+    "D": "Prominent vasa vasorum is not a specifically emphasized feature of the basilar artery; vasa vasorum are more generally associated with large vessels needing their own wall nutrition."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-main-feature-of-basilar-artery-is-prominent-3b70a70a": {
+   "answer": "B",
+   "explanation": "This is a duplicate of the sibling question; the basilar artery's specifically emphasized, exam-tested histological feature remains its prominent internal elastic lamina, a distinctive, often corrugated boundary layer used to help identify this named vessel on histology slides.",
+   "distractorNotes": {
+    "A": "A prominent external elastic lamina is not the basilar artery's specifically emphasized distinguishing feature.",
+    "C": "Prominent collagen fibres are not the basilar artery's specific distinguishing histological feature.",
+    "D": "Prominent vasa vasorum is a feature more generally associated with large vessels needing dedicated wall nutrition, not a specific hallmark of the basilar artery."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-main-site-of-r-sistance-in-the-systemic-circulation-is-a-63db5055": {
+   "answer": "C",
+   "explanation": "Arterioles are the principal site of vascular resistance in the systemic circulation, since their relatively small radius and thick smooth muscle coat allow them to actively and substantially vary resistance (via Poiseuille's fourth-power radius relationship), producing the single largest pressure drop of any vessel segment between the aorta and the capillaries. This is why arterioles are termed 'resistance vessels' and are the primary target of both local (metabolic, myogenic) and systemic (sympathetic, hormonal) blood flow regulation mechanisms. The exam takeaway is to fix arterioles as the main resistance site, distinct from large arteries (low-resistance conduits) and capillaries (the site of exchange, not primary resistance).",
+   "distractorNotes": {
+    "B": "Large arteries have low resistance and function as low-resistance conduits (conductance vessels), not as the main site of resistance.",
+    "D": "Capillaries, lacking smooth muscle, cannot actively regulate their own resistance and are not the main site of resistance despite their large total cross-sectional area."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-vasa-vasorum-are-d41dcc76": {
+   "answer": "B",
+   "explanation": "Vasa vasorum are small nutrient blood vessels found predominantly in the tunica adventitia (and extending partly into the outer tunica media) of large blood vessels, both arteries and veins, whose thick walls are too far from the main lumen for diffusion alone to adequately nourish the outer layers. This need for a dedicated wall blood supply is specific to large vessels; small arteries and veins have thin enough walls that diffusion from the luminal blood suffices for the entire wall thickness, so they lack vasa vasorum altogether. The exam takeaway is to fix the specific location (tunica adventitia of LARGE vessels) as the defining fact about vasa vasorum, distinguishing it from incorrect placements in the media, intima, or small vessels.",
+   "distractorNotes": {
+    "A": "Small arteries have thin enough walls to be nourished entirely by diffusion from the lumen and do not require vasa vasorum.",
+    "C": "Vasa vasorum are not specifically a feature confined to the tunica media of basilar arteries; their defining location is the tunica adventitia of large vessels generally.",
+    "D": "The tunica intima, being closest to the lumen, is nourished directly by diffusion from luminal blood and does not require or contain vasa vasorum."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-wall-of-aorta-shows-ea35f5ef": {
+   "answer": "D",
+   "explanation": "The aorta's tunica media is packed with 40 to 70 concentric, fenestrated elastic laminae, the single most defining and frequently tested histological feature of this large elastic artery, allowing the wall to stretch during systole and elastically recoil during diastole to smooth pulsatile cardiac output into steadier downstream flow. While longitudinal smooth muscle bundles can also be found in the aorta's tunica adventitia (a real, secondary feature), and vasa vasorum do penetrate into the outer part of its media from the adventitia, the elastic laminae of the media remain the aorta's single most emphasized, signature identifying feature. The exam takeaway is to fix '40-70 elastic membranes in the tunica media' as the aorta's headline histological fact, memorable and specific enough to distinguish it from every other artery type.",
+   "distractorNotes": {
+    "A": "Longitudinal smooth muscle bundles in the tunica adventitia are a real, secondary feature of the aorta's wall, but not its single most defining, headline characteristic.",
+    "B": "Smooth muscle in a vessel wall is a tunica MEDIA feature; the tunica intima consists only of endothelium and a thin subendothelial layer, never smooth muscle.",
+    "C": "Vasa vasorum do extend into the outer part of the tunica media in large vessels like the aorta, but their primary, defining location is the tunica adventitia, not the media itself."
    },
    "fieldNote": "keyed editorially, no printed key"
   }
