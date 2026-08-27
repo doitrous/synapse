@@ -200,6 +200,26 @@ export const LEAF: McqLeafSeed = {
       modulePath: '102 INT > Biochemistry > Carbohydrates of Biological Importance',
       type: 'structure_function_relationship',
     },
+    // Reused from docs/Kasr-Source-Imports/concept/102-INT-concepts.md (id
+    // CON-GIT-9589A7077392FD) — fields copied verbatim so this leaf agrees
+    // with the pinned canonical record. Flagged as a candidate when this file
+    // was first written but left undeclared because no row tested it then;
+    // pass 1 (2026-08-27) found one that does.
+    {
+      key: 'cellulose-dietary-importance',
+      label:
+        'Cellulose is undigestible because its glucose units are joined by β1,4 bonds, so it acts as dietary bulk that prevents constipation and delays fat absorption',
+      definition:
+        'Cellulose is an unbranched chain of β-glucose units joined by β1,4-glucosidic linkages. Amylase hydrolyses only α-linkages, so cellulose passes through the gut undigested. It increases the bulk of food, which stimulates intestinal contractions and prevents constipation, and it delays fat absorption.',
+      objective: 'Explain why cellulose escapes digestion and state its two dietary consequences.',
+      pitfall:
+        'Believing that humans secrete a cellulase and simply absorb cellulose slowly. Nothing in the human gut hydrolyses a β1,4 bond — the benefit comes from the cellulose that is never absorbed at all.',
+      subject: 'gi',
+      primary: 'DIS-BIO-T01',
+      secondary: ['SYS-GIT-T02-S02'],
+      modulePath: '102 INT > Biochemistry > Carbohydrates of Biological Importance',
+      type: 'structure_function_relationship',
+    },
   ],
 
   questions: [
@@ -1110,6 +1130,34 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason:
         'Not taught in the module book. The book\'s amino sugars section (physical p.20) states only that amino sugars are important constituents of glycosaminoglycans and some glycolipids/glycoproteins; it never mentions antibiotics, so the fact this question needs to adjudicate the option set is outside the book\'s coverage.',
+    },
+
+    // --- pass 1 additions (2026-08-27) ---
+    {
+      key: 'MCQ-102-07f0a0ff-p13-q60',
+      conceptKey: 'cellulose-dietary-importance',
+      difficulty: 'Easy',
+      questionType: 'Structure and function',
+      learningObjective: 'Name cellulose as the polysaccharide that prevents constipation by adding indigestible dietary bulk.',
+      explanations: {
+        a: 'Heparin is a sulfate-containing GAG with an anticoagulant role — it is not eaten as dietary fibre and has no bulk-forming digestive function.',
+        b: 'Glycogen is the animal storage polysaccharide, built of α1,4/α1,6-linked glucose that amylase digests completely — it is absorbed as fuel, not left undigested as bulk.',
+        c: 'Cellulose\'s glucose units are joined by β1,4-glucosidic bonds, which human amylase cannot hydrolyse, so it passes through the gut undigested, increases the bulk of food and stimulates intestinal contractions that prevent constipation.',
+        d: 'Inulin is a plant fructan storage polysaccharide, not a source of dietary bulk against constipation.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p15-q70',
+      conceptKey: 'heteropolysaccharide-and-gag-classification',
+      difficulty: 'Moderate',
+      questionType: 'Definition',
+      learningObjective: 'Name proteoglycans as the product of a GAG covalently conjugated to a protein core.',
+      explanations: {
+        a: '"Glycon" is the carbohydrate portion of a glycoside (sugar joined to a non-sugar aglycon) — an unrelated pairing, not what forms when a GAG joins a protein core.',
+        b: '"Aglycon" is the non-sugar partner in a glycoside, the opposite half of that same unrelated pairing — again, not the GAG-plus-protein-core product.',
+        c: 'GAGs are mostly covalently conjugated to a protein core to form proteoglycans, roughly 95% carbohydrate and 5% protein by mass.',
+        d: 'An amino sugar is one of the two monosaccharide building blocks of a GAG\'s own repeating disaccharide unit, not the product of conjugating a GAG to protein.',
+      },
     },
   ],
 }

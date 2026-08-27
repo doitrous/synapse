@@ -325,5 +325,12 @@ export const LEAF: McqLeafSeed = {
         d: 'Parasympathetic fibres are cholinergic, not adrenergic, throughout — "parasympathetic adrenergic" describes no real fibre type in this system, and in any case parasympathetic fibres do not reach skeletal-muscle vessels.',
       },
     },
+    // Pass 1 (2026-08-27) note: MCQ-102-b21bbb80-p4-q23 ("Acetylcholine is
+    // released from the following, except") is NOT authored here. It is the
+    // same question as MCQ-102-2093c80b-p25-q23 above (same stem, same four
+    // options, same printed key d), sighted in a different source book the
+    // extractor's cross-book dedup did not link via `duplicateOf` — same
+    // class of miss as MCQ-102-2093c80b-p22-q2's own excludeReason two
+    // entries up. Logged in PROGRESS-102-mcq.md rather than authored twice.
   ],
 }

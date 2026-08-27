@@ -555,5 +555,20 @@ export const LEAF: McqLeafSeed = {
         d: 'A frameshift mutation comes from an insertion or deletion that is not a multiple of three bases, not from a single base substitution changing one codon’s amino acid, which is what causes sickle cell anaemia.',
       },
     },
+
+    // --- pass 1 additions (2026-08-27) ---
+    {
+      key: 'MCQ-102-07f0a0ff-p71-q22',
+      conceptKey: 'post-translational-covalent-modification-types',
+      difficulty: 'Moderate',
+      questionType: 'Classification',
+      learningObjective: 'Name hydroxylation as the post-translational modification that stabilises collagen\'s prolyl and lysyl residues.',
+      explanations: {
+        a: 'Phosphorylation modifies serine, threonine or tyrosine residues to regulate enzymes like those of glycogen metabolism — a different residue set and a different purpose from collagen\'s prolyl/lysyl stabilisation.',
+        b: 'Glycosylation marks proteins destined for secretion, lysosomes or membranes by adding a carbohydrate group — not the modification collagen\'s proline and lysine residues undergo for stability.',
+        c: 'Hydroxylation of prolyl and lysyl residues is what stabilises collagen, a classic example of covalent post-translational modification.',
+        d: 'Carboxylation forms γ-carboxyglutamate, as in clotting-factor calcium binding — a different residue (glutamate) and a different function from collagen\'s proline/lysine hydroxylation.',
+      },
+    },
   ],
 }

@@ -71,6 +71,26 @@ specific misconception it catches, and the question needs a `main_concept` that
 exists and an article that teaches it. That is the work, and 504 of them is a
 programme rather than a session.
 
+## 4a · LDH/CK isoenzymes (QW-102-D023A1E0F54A) — resolved 2026-08-27
+
+Was: the Baqoon 2022 Compare question asked students to compare lactate
+dehydrogenase and creatine kinase isoenzymes, and the assigned department
+book does not mention either topic anywhere in its 167 pages — no printed
+key, no department mark scheme, nothing to recover. Flagged here as needing
+a faculty ruling.
+
+Ruling (chief of staff, 2026-08-27): this is the MISSING-key case — a real
+exam paper with no key recoverable from any assigned source. Keyed
+editorially from standard biochemistry: the concept (`CON-FND-DD3EE5EC8C07D1`)
+and the question's four `Expects:` points now carry the correct comparison
+(subunit composition, tissue distribution, diagnostic pattern, time
+course), each marked "standard biochemistry — keyed editorially, no
+printed key" so the editorial content is never mistaken for department-book
+content. Edited via generator input
+(`scripts/kasr/extract/102-INT/baqoon-2022.json`) and regenerated, not
+hand-edited. See `coverage/102-INT-GATES.md` and
+`docs/chief-of-staff/BOARD.md` Rulings for detail.
+
 ## 4 · Two chapters the question book has and the textbook does not
 
 The question book opens with **"Introduction to Biochemistry and Nutrition"** —

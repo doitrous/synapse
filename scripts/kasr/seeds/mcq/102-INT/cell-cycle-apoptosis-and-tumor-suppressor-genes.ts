@@ -299,5 +299,46 @@ export const LEAF: McqLeafSeed = {
         d: 'Bcl-2 is the anti-apoptotic member of the family named after it — under physiological conditions it balances the pro-apoptotic Bax, Bak and Bok.',
       },
     },
+
+    // --- pass 1 additions (2026-08-27) ---
+    {
+      key: 'MCQ-102-07f0a0ff-p77-q6',
+      conceptKey: 'cyclin-cdk-complexes-and-restriction-point-control-cell-cycle-progression',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'Name CDK1 as cyclin B\'s partner kinase, driving the G2-to-M transition.',
+      explanations: {
+        a: 'CDK1 complexes with cyclin A or cyclin B to drive the transition from G2 into M phase, with cyclin B as its specific partner for the G2/M step.',
+        b: 'CDK2 pairs with cyclin E or cyclin A to drive initiation of DNA synthesis in early S phase, not with cyclin B at G2/M.',
+        c: 'CDK4 pairs with cyclin D to drive progression past the G1/S restriction point, an earlier step than cyclin B\'s.',
+        d: 'CDK6 likewise pairs with cyclin D at the G1/S restriction point, not with cyclin B at the G2/M transition.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p78-q10',
+      conceptKey: 'caspases-and-the-extrinsic-and-intrinsic-apoptotic-pathways',
+      difficulty: 'Easy',
+      questionType: 'Mechanism',
+      learningObjective: 'State that the extrinsic apoptotic pathway is initiated by ligand binding to the TNF or FAS receptors.',
+      explanations: {
+        a: 'Caspase 9 acts downstream, inside the pathway, once it has already been triggered — it is not what starts the extrinsic pathway.',
+        b: 'Caspase 8 is likewise a downstream effector activated after receptor engagement, not the initiating event itself.',
+        c: 'The extrinsic pathway begins when a ligand binds the tumour necrosis factor (TNF) or FAS receptor, which then activates the caspase cascade.',
+        d: 'Cytochrome c release from mitochondria is what starts the intrinsic (mitochondrial) pathway, the extrinsic pathway\'s counterpart, not the extrinsic pathway itself.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p78-q14',
+      conceptKey: 'cell-cycle-and-apoptosis-regulatory-proteins',
+      difficulty: 'Easy',
+      questionType: 'Classification',
+      learningObjective: 'Identify Bax as a pro-apoptotic member of the Bcl-2 family.',
+      explanations: {
+        a: 'Bax is one of the pro-apoptotic members of the Bcl-2 family (alongside Bak and Bok), controlling cytochrome c release from mitochondria.',
+        b: 'BCL-2 is the anti-apoptotic member the family is named after — the opposite role to what this question asks for.',
+        c: 'Bcl-x is likewise an anti-apoptotic family member, not a pro-apoptotic one.',
+        d: 'MYC is a proliferation-driving proto-oncogene, not one of the Bcl-2 family\'s named pro- or anti-apoptotic members.',
+      },
+    },
   ],
 }

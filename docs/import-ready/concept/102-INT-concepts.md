@@ -6840,17 +6840,17 @@ canonical_key "iron-absorption-mechanism-dmt1-hcp1-ferroportin" already has a pi
 
 # Item
 ## label
-not established — this topic is not covered in the assigned source for this module
+LDH is a tetramer of H and M subunits forming five tissue isoenzymes and CK is a dimer of M and B subunits forming three, and it is that tissue distribution that makes each isoenzyme's rise diagnostic of where it leaked from
 ## id
 CON-FND-DD3EE5EC8C07D1
 ## canonical_key
 ldh-and-ck-isoenzymes-comparison
 ## definition
-The assigned source for this module does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in it. No source-backed definition can be written for this question.
+Lactate dehydrogenase is a tetramer built from H (heart-type) and M (muscle-type) subunits, giving five isoenzymes, LDH1 (H4) through LDH5 (M4); creatine kinase is a dimer built from M (muscle-type) and B (brain-type) subunits, giving three, CK-MM, CK-MB and CK-BB. LDH1 and CK-MB predominate in cardiac muscle, LDH5 and CK-MM predominate in skeletal muscle and liver, and CK-BB predominates in brain, which is what makes a raised fraction diagnostic of the tissue it leaked from.
 ## explicit_objective
-Not established from the assigned source.
+Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use.
 ## pitfalls
-Not established from the assigned source.
+Treating LDH and CK as single enzymes rather than isoenzyme families whose subunit composition (H/M for LDH, M/B for CK) determines which tissue, and therefore which clinical scenario, each fraction signals.
 ## concept_type
 classification
 ## status
@@ -6970,13 +6970,13 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Lysine, arginine and histidine are the basic (diamino-monocarboxylic) amino acids
+Lysine, arginine and histidine are the book's basic (diamino-monocarboxylic) amino acids
 ## id
 CON-FND-57DC83CE4A718B
 ## canonical_key
 basic-amino-acids
 ## definition
-The basic (diamino-monocarboxylic) amino acids are lysine, arginine and histidine.
+The basic (diamino-monocarboxylic) amino acids the book lists are lysine, arginine and histidine.
 ## explicit_objective
 Name two basic amino acids.
 ## pitfalls
@@ -7110,7 +7110,7 @@ Causes of mutations: (1) errors in replication — a non-complementary base adde
 ## explicit_objective
 Name two causes of gene mutation.
 ## pitfalls
-Treating 'damage of nucleotides' as one single cause. It splits into three: chemical mutagens, irradiation and oxidative damage, alongside the separate cause of uncorrected replication error.
+Treating 'damage of nucleotides' as one single cause. The book splits it into three: chemical mutagens, irradiation and oxidative damage, alongside the separate cause of uncorrected replication error.
 ## concept_type
 classification
 ## status

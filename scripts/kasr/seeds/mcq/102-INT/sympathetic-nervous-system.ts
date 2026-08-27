@@ -167,5 +167,12 @@ export const LEAF: McqLeafSeed = {
       excludeReason:
         'The extraction has folded the printed answer-key grid for the whole chapter directly into options D and E (`suspect: "option ran on"`), and no printed answer for this specific item survives separately from that key-grid text (`correctSource: "none"`). Recoverable only by rescanning the source page and reading the grid as a table rather than running text.',
     },
+    // Pass 1 (2026-08-27) note: MCQ-102-b21bbb80-p5-q27 ("The sympathetic
+    // response in a fight or flight reaction causes a decrease in the...")
+    // is NOT authored here. It is the same question as
+    // MCQ-102-2093c80b-p26-q27 above (same stem, same four options, same
+    // printed key c), sighted in a different source book the extractor's
+    // cross-book dedup did not link via `duplicateOf`. Logged in
+    // PROGRESS-102-mcq.md rather than authored twice.
   ],
 }

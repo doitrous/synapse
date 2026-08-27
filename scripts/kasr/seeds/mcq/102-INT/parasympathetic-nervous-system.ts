@@ -288,5 +288,14 @@ export const LEAF: McqLeafSeed = {
         d: 'Cranial nerve VIII (vestibulocochlear) is a purely sensory nerve for hearing and balance — it carries no parasympathetic fibres.',
       },
     },
+    // Pass 1 (2026-08-27) note: neither MCQ-102-b21bbb80-p9-q48 ("The
+    // following cranial nerve carries parasympathetic nerve fibers") nor
+    // MCQ-102-b21bbb80-p7-q36 ("The action of parasympathetic in the
+    // salivary glands") is authored here. Both are the same questions as
+    // MCQ-102-2093c80b-p30-q48 above and MCQ-102-2093c80b-p28-q36 in this
+    // same file respectively (same stems, same options, same printed keys),
+    // sighted in a different source book the extractor's cross-book dedup
+    // did not link via `duplicateOf`. Logged in PROGRESS-102-mcq.md rather
+    // than authored twice.
   ],
 }

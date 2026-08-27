@@ -19,12 +19,12 @@ filename alone never did.
 | Folder | Admin page | Files | Records |
 |---|---|---:|---:|
 | [`academic/`](academic/) | Academic setup › Import | 2 | 54 |
-| [`concept/`](concept/) | Concepts › Import | 22 | 936 |
-| [`article/`](article/) | Bulk import → **article** | 20 | 191 |
-| [`question/`](question/) | Bulk import → **question** | 26 | 2569 |
+| [`concept/`](concept/) | Concepts › Import | 31 | 1111 |
+| [`article/`](article/) | Bulk import → **article** | 29 | 220 |
+| [`question/`](question/) | Bulk import → **question** | 35 | 2704 |
 | [`practical/`](practical/) | Bulk import → **practical** | 36 | 200 |
 | [`relations/`](relations/) | Relationships › Import | 3 | 500 |
-| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span | 15 | 2528 |
+| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span | 47 | 2981 |
 | [`subjects/`](subjects/) | Taxonomy › Import | — | — |
 | [`glossary/`](glossary/) | Glossary › Import | 7 | 480 |
 | [`resource/`](resource/) | Bulk import → **resource** | — | — |
@@ -425,6 +425,125 @@ the repository (the 38 practical stations above need it most acutely — see
 row 15). Reviewer/final publisher is now closed (standing ruling applied,
 see above). None of these block the 24 files above from being applied.
 
+### Alexandria University AU-MED-102 (Foundation of Basic Medical Sciences & Medical Terminology) — 59 files across 4 folders
+
+Staged 2026-08-27 by the Alexandria Y1 finisher lane. Copied verbatim from
+`docs/Alexandria-Source-Imports/{concept,article,question,evidence}/AU-MED-102-*`
+across 9 department sub-lanes (Anatomy, Biochemistry ×4 — structural,
+metabolism, molecular, nitrogen/blood — Embryology, Histology, Physiology,
+Terminology). `docs/Alexandria-Source-Imports/coverage/00-publish-plan-year1.md`
+is the plan this staging closes out; `pending-live/INDEX.md` is the
+companion apply-order for everything below that overlays a Kasr Year 1 id
+instead of standing alone.
+
+**Apply in this order** (`academic/au-modules.md` — AU selected — must
+already be applied so `AU-MED-102` exists; see the Alexandria academic
+section above):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/AU-MED-102-anatomy-sources.md`, `-biochem-metabolism-resource.md`, `-biochemistry-resources.md`, `-embryology-resources.md`, `-histology-resources.md`, `-terminology-resources.md` (6 files) | Bulk import evidence · Resource | 125 (39 new to this module; the rest re-declare ids already carried by a sibling department file, content-identical, same shared exam sittings) | On |
+| 2 | `article/AU-MED-102-{anatomy,biochem-metabolism,biochem-molecular,biochem-nitrogen-blood,biochem-structural,embryology,histology,physiology,terminology}-articles.md` (9 files) | Bulk import → article | 29 | On |
+| 3 | `concept/AU-MED-102-{anatomy,biochem-metabolism,biochem-molecular,biochem-nitrogen-blood,biochem-structural,embryology,histology,physiology,terminology}-concepts.md` (9 files) | Concepts › Import | 175 (163 new + 12 sparse updates onto ids already live in production) | **Must be On** — the 12 update rows share an id with a live concept |
+| 4 | `evidence/AU-MED-102-*-claims.md` / `*-generated-claims.md` (9 files) | Bulk import evidence · Claim | 175 | On |
+| 5 | `evidence/AU-MED-102-*-citations.md` (8 files) | Bulk import evidence · Citation | 162 | On |
+| 6 | `evidence/AU-MED-102-*-spans.md` (9 files) | Bulk import evidence · Span | 77 | On |
+| 7 | `question/AU-MED-102-{anatomy,biochem-metabolism,biochem-molecular,biochem-nitrogen-blood,biochem-structural,embryology,histology,physiology,terminology}-mcq.md` (9 files) | Bulk import → question | 135 | On |
+
+**Gate status.** `medical:batch` per file: 0 errors on every concept/article
+file standalone; every question file needs `--with` its own concept +
+article + the relevant evidence resource file(s) (some sub-lanes cite a
+resource declared under a sibling department's file) — 0 errors on all 9
+once given the right `--with` set. Combined `medical:simulate` over all 59
+staged files: `errors: []`, 0 rejected, delta `{concepts:175 (163 created +
+12 updated), articles:29, claims:175, citations:162, spans:77, resources:39
+new, questions:135 created}`. `medical:audit` against that emit: 1 line —
+`ART-FND-AU-MED-102-PROTEIN-CHEMISTRY references unknown concept
+CON-FND-2414B3639FD4D3`, expected and not a defect: that concept is a
+sparse update sitting in `pending-live/AU-MED-102-biochem-structural.md`
+against a Kasr id not yet live, so it resolves once that pending-live step
+applies (§ below), not before. Re-running the whole `docs/import-ready/`
+tree together (170 files, this module plus everything already staged):
+`errors: []`, only the 2 `academic/*.md` files and `glossary/INDEX.md`
+skipped as non-batch content.
+
+**Reviewer / final publisher, closed this pass.** One file
+(`article/AU-MED-102-terminology-articles.md`) carried `reviewer: Dr. Omar`
+/ `final_publisher: Dr. Omar` on both its records instead of the
+chief-of-staff's standing ruling (`Medical team, Admin team` /
+`Admin team`, same values as every Kasr article) — fixed before staging;
+`medical:batch` stays `errors: []` after the edit. Every other AU-MED-102
+article already carried the ruled values.
+
+**Two-sided coverage and question traceability — the real completeness
+picture, not just the gate line.** Every article names in
+`related_concepts` every concept it teaches (checked file by file, not
+assumed from a heuristic link). Of the 175 own-lane concepts staged here:
+
+| Sub-lane | Concepts | Questions (own file) | Untested concepts | Why |
+|---|--:|--:|--:|---|
+| Anatomy | 6 | 3 | 1 | `CON-MSK-9E9BBA40F75CE3` — OWED, no MCQ authored yet |
+| Biochem — metabolism | 8 | 13 | 0 | fully covered |
+| Biochem — molecular | 43 | 38 | 5 | OWED — concepts minted from the department book, no matching MCQ authored yet |
+| Biochem — nitrogen/blood | 14 | 20 | 0 | fully covered |
+| Biochem — structural | 69 | 32 | 39 | **largest gap** — most of these carry a department-book `exam_signal` (primary source, page-cited) but no MCQ; some are the 17+22 "unkeyed item left alone" concepts named in the department's own commit history, the rest are OWED authoring |
+| Embryology | 5 | 4 | 0 (closed this pass — see below) | |
+| Histology | 13 | 11 | 2 | OWED |
+| Physiology | 13 | 10 | 3 | OWED |
+| Terminology | 4 | 4 | 0 | fully covered |
+| **Total** | **175** | **135** | **50** | **71% of own-lane concepts trace to an authored question** |
+
+**Closed this pass:** Embryology's 5 own-lane concepts (4 NEW + 1 sparse
+update onto a live Kasr id, `CON-REN-CB7041F0D25574`) had **no** question
+record at all — `question/AU-MED-102-embryology-mcq.md` did not exist.
+Authored 4 keyed MCQs from the department's own EOM paper
+(`src_3bf4527b51de57464e14`, p17 Q80 and p18 Q83–85; coverage triage rows
+4, 13, 14, 15), wired each article's `question_ids` and each concept's
+`field_notes.questionIds` to the new records, and fixed a `difficulty:
+Medium` value (not a valid enum — corrected to `Moderate`) the new items
+introduced. The 5th idea in that same group, zona pellucida function
+(`CON-DEV-642BA9E28AC8B6`), stays untested on purpose: its only source
+(`src_29f02a5a4d6a273dea76` p6 Q22) is unkeyed and no second sitting was
+found — per the corpus-hazard rule an unkeyed item is not authored as a
+graded MCQ; recorded in the concept's own `field_notes`, not silently
+dropped.
+
+**Not closed — reported, not fixed.** The other 46 untested concepts
+(Anatomy 1, Biochem-molecular 5, Biochem-structural 39, Histology 2,
+Physiology 3) are a real authoring backlog, not a "small gap": closing them
+needs fresh corpus verification per item (page-by-page textbook or MCQ-bank
+reading) to avoid inventing a fact or a key, which is out of scope for a
+finishing pass. They do not fail any validator gate — `medical:batch` only
+checks a question against its concept/article, never the reverse — so
+nothing here is mechanically broken; the module is import-clean but not
+scope-test-complete. Flagged for a dedicated authoring lane.
+
+**Pending-live — apply only after the named Kasr Year 1 files are live**
+(see `pending-live/INDEX.md` for the full per-row detail; nothing in
+`pending-live/` is staged here or anywhere in `docs/import-ready/`, by
+design — Omar applies it separately once its dependency lands):
+
+| Kasr Year 1 file this depends on | Status right now | AU pending-live file(s) |
+|---|---|---|
+| `102-INT-concepts.md`, `108-INT-concepts-pharmacology.md` | not yet live | `AU-MED-102-biochem-structural.md`, `-biochem-molecular.md` (+ its `-questions.md`), `-biochem-metabolism.md` (+ `-questions.md`), `-terminology.md` (+ `-questions.md`), `-physiology.md` |
+| `103-BMS-*-concepts.md` (5 files), `108-INT-concepts-pathology.md` | not yet live | `AU-MED-102-biochem-nitrogen-blood.md` (+ `-questions.md`), `-biochem-metabolism.md` (+ `-questions.md`), `-biochem-structural-questions.md` |
+| `101-ISK-concepts.md`, `101-ISK-mcq-concepts.md`, `101-ISK-practical-concepts.md` | not yet live | `AU-MED-102-anatomy.md` (+ `-questions.md`), `-embryology.md` (+ `-questions.md`), `-histology.md`, `-terminology.md` (+ `-questions.md`) |
+
+**Verdict on 108 INT / 101 ISK / 103 BMS specifically** (asked of this
+lane): 108 INT and 101 ISK are reported in progress on this same import
+pass — this staging does not itself confirm they are live, only that the
+sparse-update rows above resolve as soon as they are; 103 BMS is confirmed
+not yet imported, so every row depending on it stays blocked regardless.
+**`pending-live/AU-MED-102-histology.md`'s 31 sparse Kasr-overlay updates
+have zero matching questions anywhere** — unlike anatomy/embryology/
+terminology, which each have a paired `-questions.md`, no
+`AU-MED-102-histology-questions.md` exists. Per LANE-BRIEF §21 ("a bank
+with its questions deferred is not publishable") this specific pending-live
+batch is not publish-ready even once its Kasr dependency lands; it does not
+block anything staged in this section since it sits outside every import
+root already, but it is the single largest OWED item in the module and
+should be the next authoring lane's first target.
+
 ---
 
 ### Kasr Al Ainy 102 INT (Biochemistry + Physiology) — 21 files across 5 folders
@@ -470,7 +589,7 @@ generic order above already matches this):
 | 5 | `article/102-INT-physiology-blood-ans.md` | Bulk import → article | 11 | On |
 | 6 | `concept/102-INT-concepts.md` | Concepts › Import | 57 | On |
 | 7 | `concept/102-INT-physiology-concepts.md` | Concepts › Import | 25 new + 32 updates | **Must be On** — 32 rows share an id with a concept created in step 6 or already live |
-| 8 | `concept/102-INT-mcq-concepts.md` | Concepts › Import | 98 new + 40 updates | **Must be On**, same reason |
+| 8 | `concept/102-INT-mcq-concepts.md` | Concepts › Import | 98 new + 41 updates | **Must be On**, same reason |
 | 9 | `evidence/102-INT-claims.md` | Bulk import evidence · Claim | 38 | On |
 | 10 | `evidence/102-INT-generated-claims.md` | Bulk import evidence · Claim | 100 | On |
 | 11 | `evidence/102-INT-citations.md` | Bulk import evidence · Citation | 38 | On |
@@ -479,13 +598,20 @@ generic order above already matches this):
 | 14 | `evidence/102-INT-generated-spans.md` | Bulk import evidence · Span | 77 | On |
 | 15 | `relations/102-INT-relations.md` | Relationships › Import | 150 | On — typed (9 real types), ~130 carry `verification_status: verified`, the rest `needs_evidence` (a claim named, no citation on the relation record itself yet) |
 | 16 | `question/102-INT-MCQ-bank.md` | Bulk import → question | 22 | On |
-| 17 | `question/102-INT-mcq.md` | Bulk import → question | 421 | On |
+| 17 | `question/102-INT-mcq.md` | Bulk import → question | 442 | On |
 | 18–21 | `question/102-INT-{EOY-2025,EOY-2024,EOY-2022,BAQOON-2022}-written.md` | Bulk import → question (format: written, same page) | 19+15+19+18 = 71 | On |
 
-Totals: 69 resources, 41 articles, 180 new concepts + 72 updates, 138 claims,
-113 citations, 114 spans, 150 relations, 514 questions (443 MCQ + 71
+Totals: 69 resources, 41 articles, 180 new concepts + 73 updates, 138 claims,
+113 citations, 114 spans, 150 relations, 535 questions (464 MCQ + 71
 written) — every count above read directly off this session's own
-`medical:simulate` `batches[].created`/`updated`, not hand-added.
+`medical:simulate` `batches[].created`/`updated`, not hand-added. Updated
+2026-08-27 (author-102-mcq-p1): `question/102-INT-mcq.md` gained 21 MCQs
+(421 → 442) and `concept/102-INT-mcq-concepts.md` gained 1 update row (a
+reused existing concept, `cellulose-dietary-importance`, declared in an
+MCQ leaf for the first time; 40 → 41 updates), both re-verified against
+`medical:batch --with` and the chained `medical:simulate` below — see
+`PROGRESS-102-mcq.md` for the authoring detail and the 17 unlinked
+duplicates this pass found and did not re-author.
 
 **Gate status, re-run 2026-08-27 against this staged copy plus the rest of
 `docs/import-ready/`:** `medical:simulate` chained one kind at a time,
@@ -497,17 +623,28 @@ every one of the 10 steps, 0 rejected. The combined-folder run —
 created, **0 rejected, `errors: []`**; the only two files skipped are
 `academic/kau-modules.md` and `academic/au-modules.md`, both by design (not
 a medical-content kind). `medical:batch` per 102 file (`--with` every
-sibling concept/article file) is clean except two pre-existing, documented
-items, neither introduced by this pass: (a) one written item
-(`QW-102-D023A1E0F54A`, "Compare LDH and CK isoenzymes") whose part (a) has
-no `Expects` lines because the assigned department book does not cover the
-topic anywhere in its 167 pages — recorded in `coverage/102-INT-OWED.md` §4
-as needing a faculty ruling, not authored around; (b) 10 further MCQ rows
-whose `library_ids` names only one of two teaching articles (same class as
-the 2 fixed above, on MCQ leaves whose `articleId` is a single string) —
-concept-level two-sided coverage is unaffected (164/164 holds either way),
-left as a known leaf-regeneration item rather than a shared-toolchain change
-for 10 rows.
+sibling concept/article file) is clean except one pre-existing, documented
+item, not introduced by this pass: 10 MCQ rows whose `library_ids` names
+only one of two teaching articles (same class as the 2 fixed above, on MCQ
+leaves whose `articleId` is a single string) — concept-level two-sided
+coverage is unaffected (164/164 holds either way), left as a known
+leaf-regeneration item rather than a shared-toolchain change for 10 rows.
+
+**Ruling 2026-08-27 (chief of staff):** the other item this section used to
+flag, written question `QW-102-D023A1E0F54A` ("Compare LDH and CK
+isoenzymes"), is resolved. It is a real Baqoon 2022 paper question whose
+assigned department book never mentions LDH, CK or isoenzymes — no printed
+key, no recoverable department mark scheme, the MISSING-key case. Keyed
+editorially from standard biochemistry per the ruling: the question's four
+`Expects:` points and the concept's `definition`/`explicit_objective`/
+`pitfalls` now carry the correct comparison, each editorial point marked
+"standard biochemistry — keyed editorially, no printed key". Edited in
+generator input (`scripts/kasr/extract/102-INT/baqoon-2022.json`) and
+regenerated via `build-batches.ts "102 INT"`, not hand-edited; re-verified
+clean on both `medical:batch` (concept + written, `--with` every sibling)
+and the chained `medical:simulate` above. Detail in
+`coverage/102-INT-GATES.md` and `coverage/102-INT-OWED.md` §4a;
+`docs/chief-of-staff/BOARD.md` Rulings carries the standing text.
 
 `medical:audit` against the combined emit: the 102-specific findings are all
 the same editorial classes 101/108 already carry — `relatedArticleIds`/
@@ -526,14 +663,31 @@ copy. `biochemistry.md` and `coverage.md`'s 22 articles already carried the
 correct values.
 
 **What remains genuinely open** (none of it blocks the 21 files above from
-being applied): **504 of 1,102 banked MCQ rows are unauthored** (614 tagged
-`102 INT`, 526 printed-key-and-not-suspect, only 22 authored by hand into
-`102-INT-MCQ-bank.md` before the 421-row generated batch was cut short) —
-authoring one is not transcription, each option needs an explanation naming
-the misconception it catches, so this is a multi-session programme, not a
-chunk this pass could close (well over the ~1,500-line ceiling; split plan:
-roughly 3–4 authoring passes of 120–150 questions each, one per source
-department book, is the natural cut). **9 sittings read but not seeded**
+being applied): the **504 of 1,102 banked MCQ rows are unauthored** figure
+this section used to carry was stale even before this pass — it predated
+the two commits that triaged nearly the whole biochemistry book plus the
+Blood/ANS physiology books into `scripts/kasr/seeds/mcq/102-INT/*.ts` (30
+leaf files). `author-102-mcq-p1` (2026-08-27) recomputed the real gap
+directly from `scripts/kasr/extract/102-INT/mcq-bank.json` against every
+`key:` already referenced (authored or excluded) anywhere in that seed
+directory, respecting `duplicateOf`: only 43 distinct, usable, printed-key
+rows had never been touched (39 outside the Intro-chapter block below). Of
+those 39: **21 were genuinely new and are now authored** (`421 → 442` in
+`question/102-INT-mcq.md`); **17 turned out to be unlinked duplicates** of a
+question already authored under a different source book — same printed
+content, OCR noise different enough per book that the extractor's
+cross-book dedup never set `duplicateOf` (the same failure class
+`platelets-and-haemostasis.ts`'s own `MCQ-102-2093c80b-p17-q66` exclude-
+reason already documents once, at much larger scale here) — and **1 has no
+matching existing concept** (a snake-venom/lecithinase row; 102's concept
+space is closed at 164/164 two-sided, so it was logged rather than forced
+onto an unrelated concept). None were force-authored; full pairing list and
+reasoning in `PROGRESS-102-mcq.md`. **The MCQ bank is now exhausted for
+this triage mechanism** — 0 genuinely new, usable, printed-key rows remain
+outside the Intro-chapter block, so there is no further "chunk 2" of this
+kind to split off; the next 102 MCQ work is either the Intro chapter
+(pending the faculty ruling below) or fresh sitting reads (next paragraph).
+**9 sittings read but not seeded**
 (EOM 2024/2023/2021, 3 Baqoon second-sittings, EOY 2021 physiology, EOY
 2022 physiology re-check, 2 "GATHERED" compilations) — reading the 2024
 paper on top of 2025 alone took the module from 21 to 38 concepts and
@@ -551,6 +705,143 @@ question columns (`concept_ids`, `contextual_concept_ids`,
 `exam_weight_by_year`) are deliberately withheld from the written batches —
 emitting them would rewrite all seven of 101's already-committed written
 batches, which is 101's call and commit, not smuggled in here.
+
+---
+
+### Kasr Al Ainy 103 BMS (Anatomy + Biochemistry + Histology + Physiology) — 61 files across 6 folders
+
+Staged 2026-08-27, same pass and layout as 101 ISK/102 INT/108 INT above.
+Copied verbatim from `docs/Kasr-Source-Imports/{evidence,article,concept,
+relations,question,glossary}/103-BMS-*` — no hand edits in this copy. 103
+has no `INDEX-103-BMS.md` or `103-BMS-GATES.md` companion the way 101/108
+do; the closest full detail is `docs/Kasr-Source-Imports/coverage/103-BMS-
+coverage.md` (generated source-read ledger) and `coverage/103-BMS-OWED.md`
+(hand-authored, what is still owed); this entry states the apply order and
+current status. 103 has no `practical/` batch (no practical corpus authored
+yet — see "What remains genuinely open" below); it does carry a `glossary/`
+batch, unlike 102.
+
+**Correction to this branch's own prior checkpoint.** The commit that staged
+these 61 files recorded in `PROGRESS.md` that "0 QM-103-* ids are currently
+live in `server/data/medical-library-v1.json`, so the 5 MCQ question batches
+need no 'Update matching items' note yet." That is wrong on the fact it
+matters on: `server/data/medical-library-v1.json` is a stale build fixture,
+**not** production — production routing is Express (`server/src/index.js`),
+never a static JSON snapshot, so that file was never the right place to
+check liveness. **Production is live with 65 `QM-103-*` questions today**
+(Foundations 50, Blood/lymphoreticular 12, Renal 3), imported by Omar from
+an earlier snapshot of these same five MCQ batches. This is also consistent
+with what the staged files themselves say: `article/103-BMS-mcq-vitamins-
+nerve.md`'s fourth record is a sparse update to the already-live
+`ART-103-PHY-NERVE-ACTION-POTENTIAL` that appends 13 already-live `QM-103-*`
+ids to `question_ids`, and three of the thirteen `canonical_key` rows fixed
+per `coverage/103-BMS-OWED.md` §1 resolve to live `CON-HEM-*`/`CON-REN-*`
+concept ids (heme/renal — the same categories the 65 live questions sit
+under).
+
+**Apply in this order** (each step's ids are referenced by the next; the
+generic order above already matches this):
+
+| # | File | Admin page | Records | "Update matching items" |
+|---|---|---|--:|---|
+| 1 | `evidence/103-BMS-sources.md` | Bulk import evidence · Resource | 9 | on (evidence always upserts) |
+| 2 | `article/103-BMS-anatomy.md` | Bulk import → article | 21 | On |
+| 3 | `article/103-BMS-biochemistry.md` | Bulk import → article | 16 | On |
+| 4 | `article/103-BMS-histology.md` | Bulk import → article | 19 | On |
+| 5 | `article/103-BMS-physiology.md` | Bulk import → article | 16 | On |
+| 6 | `article/103-BMS-mcq-aminoacid.md` | Bulk import → article | 2 | On |
+| 7 | `article/103-BMS-mcq-aromatic.md` | Bulk import → article | 2 | On |
+| 8 | `article/103-BMS-mcq-carbohydrate.md` | Bulk import → article | 7 | On |
+| 9 | `article/103-BMS-mcq-heme.md` | Bulk import → article | 3 | On |
+| 10 | `article/103-BMS-mcq-lipid.md` | Bulk import → article | 8 | On |
+| 11 | `article/103-BMS-mcq-nitrogen.md` | Bulk import → article | 4 | On |
+| 12 | `article/103-BMS-mcq-purine.md` | Bulk import → article | 2 | On |
+| 13 | `article/103-BMS-mcq-vitamins-nerve.md` | Bulk import → article | 3 new + 1 update | **Must be On** — record 4 is a sparse update to the already-live `ART-103-PHY-NERVE-ACTION-POTENTIAL`; with "Create only" it is silently skipped, not merged |
+| 14 | `concept/103-BMS-anatomy-concepts.md` | Concepts › Import | 51, 5 of them updates | **Must be On** — 5 rows (the adductor-canal/acetabulum relations) share an id already live; see `coverage/103-BMS-OWED.md` §1 |
+| 15 | `concept/103-BMS-biochemistry-concepts.md` | Concepts › Import | 43, 5 of them updates | **Must be On**, same reason — G6PD/haemolytic-anaemia/gout rows |
+| 16 | `concept/103-BMS-histology-concepts.md` | Concepts › Import | 65, 3 of them updates | **Must be On**, same reason — bone-cells/myofibril/arrector-pili rows |
+| 17 | `concept/103-BMS-physiology-concepts.md` | Concepts › Import | 46 | On |
+| 18 | `concept/103-BMS-mcq-aminoacid-concepts.md` | Concepts › Import | 8 | On |
+| 19 | `concept/103-BMS-mcq-aromatic-concepts.md` | Concepts › Import | 7 | On |
+| 20 | `concept/103-BMS-mcq-carbohydrate-concepts.md` | Concepts › Import | 36 | On |
+| 21 | `concept/103-BMS-mcq-heme-concepts.md` | Concepts › Import | 9 | On |
+| 22 | `concept/103-BMS-mcq-lipid-concepts.md` | Concepts › Import | 27 | On |
+| 23 | `concept/103-BMS-mcq-nitrogen-concepts.md` | Concepts › Import | 3 | On |
+| 24 | `concept/103-BMS-mcq-protein-concepts.md` | Concepts › Import | 8 | On |
+| 25 | `concept/103-BMS-mcq-purine-concepts.md` | Concepts › Import | 7 | On |
+| 26 | `concept/103-BMS-mcq-vitamins-nerve-concepts.md` | Concepts › Import | 12 | On |
+| 27 | `evidence/103-BMS-claims.md` | Bulk import evidence · Claim | 29 | On |
+| 28 | `evidence/103-BMS-biochemistry-claims.md` | Bulk import evidence · Claim | 28 | On |
+| 29 | `evidence/103-BMS-generated-claims.md` | Bulk import evidence · Claim | 754 | On |
+| 30 | `evidence/103-BMS-mcq-claims.md` | Bulk import evidence · Claim | 12 | On |
+| 31 | `evidence/103-BMS-mcq-carbohydrate-claims.md` | Bulk import evidence · Claim | 36 | On |
+| 32 | `evidence/103-BMS-citations.md` | Bulk import evidence · Citation | 29 | On |
+| 33 | `evidence/103-BMS-biochemistry-citations.md` | Bulk import evidence · Citation | 28 | On |
+| 34 | `evidence/103-BMS-generated-citations.md` | Bulk import evidence · Citation | 164 | On |
+| 35 | `evidence/103-BMS-mcq-citations.md` | Bulk import evidence · Citation | 12 | On |
+| 36 | `evidence/103-BMS-mcq-carbohydrate-citations.md` | Bulk import evidence · Citation | 36 | On |
+| 37 | `evidence/103-BMS-spans.md` | Bulk import evidence · Span | 18 | On |
+| 38 | `evidence/103-BMS-biochemistry-spans.md` | Bulk import evidence · Span | 19 | On |
+| 39 | `evidence/103-BMS-generated-spans.md` | Bulk import evidence · Span | 238 | On |
+| 40 | `evidence/103-BMS-mcq-carbohydrate-spans.md` | Bulk import evidence · Span | 36 | On |
+| 41 | `relations/103-BMS-relations.md` | Relationships › Import | 324 | On — typed (16 real types), 179 carry `verification_status: verified`, the other 145 `needs_evidence` |
+| 42 | `question/103-BMS-MCQ-carbohydrate-bioenergetics.md` | Bulk import → question | 116 | **Must be On** — 65 `QM-103-*` ids across these 5 MCQ files are already live in production (Foundations 50, Blood/lymphoreticular 12, Renal 3, imported by Omar from an earlier snapshot of these same batches) and will update in place, not duplicate |
+| 43 | `question/103-BMS-MCQ-lipid-diabetes.md` | Bulk import → question | 79 | Same note as row 42 |
+| 44 | `question/103-BMS-MCQ-nerve-muscle.md` | Bulk import → question | 56 | Same note as row 42 |
+| 45 | `question/103-BMS-MCQ-protein-heme.md` | Bulk import → question | 101 | Same note as row 42 |
+| 46 | `question/103-BMS-MCQ-vitamins.md` | Bulk import → question | 46 | Same note as row 42 |
+| 47–60 | `question/103-BMS-{BAQOON-2023-biochemistry,BAQOON-2024-biochemistry,EOY-2021-anatomy,EOY-2022-anatomy,EOY-2023-biochemistry,EOY-2024-biochemistry,EOY-2025-anatomy,EOY-2025-anatomy-2,EOY-2025-biochemistry,EOY-2025-biochemistry-matching,EOY-2025-histology,EOY-2025-physiology,histology-department,physiology-department}-written.md` | Bulk import → question (format: written, same page) | 3+5+7+7+5+5+6+7+7+1+4+4+33+34 = 128 | On |
+| 61 | `glossary/103-BMS-glossary.md` | Glossary › Import | 116 | Glossary import always upserts by id |
+
+Totals: 9 resources, 104 articles (103 new + 1 sparse update), 322 concepts
+(309 new + 13 updates to already-live ids), 859 claims, 269 citations, 311
+spans, 324 relations, 526 questions (398 MCQ + 128 written), 116 glossary
+terms — every count above read directly off `grep -c "^# Item"` against this
+staged copy, cross-checked against `coverage/103-BMS-coverage.md`'s
+generated "Authored so far" table, which matches exactly file-for-file.
+
+All 12 article files carry `status: Draft` uniformly (Draft-until-media
+convention holds — all 12 carry `media_recommendations` with at least one
+`Priority: required` line, 136 required-media requests in total, 0 images in
+the repository) and `reviewer: Medical team, Admin team` /
+`final_publisher: Admin team` per the standing ruling.
+
+**Gate status, re-run 2026-08-27 against this staged copy plus the rest of
+`docs/import-ready/`:** `medical:simulate` chained one kind at a time,
+resources → articles → concepts (13 files) → claims (5) → citations (5) →
+spans (4) → relations → question (MCQ, 5 files) → written (14 papers) →
+glossary — `errors: []` at every one of the 10 steps, 0 rejected. The
+combined-folder run — 108 INT + 101 ISK + 102 INT + 103 BMS + every
+pre-existing CVS/REN/RES batch, one `medical:simulate` call in per-kind
+order — reports 190 batches applied, **0 rejected, `errors: []`**; the only
+three files skipped are `academic/kau-modules.md`, `academic/au-modules.md`
+and `glossary/INDEX.md`, all by design (not a medical-content kind).
+`medical:audit` on the resulting state reports 291 "no evidence chain"
+relation notes — exactly the 145 declared `needs_evidence` rows in 103's own
+relations file (verified one-for-one by source/type/target) plus 146
+pre-existing from other modules — and 55 field-completeness notes, all on
+non-103 ids (CVS/101/102); zero new errors trace to 103 BMS.
+
+Per-file `medical:batch` (`--with` sibling concept/article files for id
+resolution) results are recorded in `PROGRESS.md` for this stage; the 6
+evidence files' "is not a source the corpus contains" lines are a
+pre-existing shared-toolchain gap (see `PROGRESS.md`), not a 103 defect, and
+do not affect `medical:simulate` or `medical:audit` above — neither script
+reads `corpus-source-index.json`.
+
+**What remains genuinely open** (none of it blocks the 61 files above from
+being applied): 29 of 51 source files are not yet read per `coverage/103-
+BMS-coverage.md`, including four EOY papers with answers, two Baqoon
+second-sitting papers, one orientation sheet, and 22 instructor-material /
+practical-slide files (the reason no `practical/` batch exists yet for 103);
+136 media requests outstanding (all `required`) across the 12 article files,
+0 images in the repository; the 5 relations/concept "untaught" starred
+entries in `coverage/101-ISK-untaught-concepts.md` (cross-module file,
+misnamed) are all 103 BMS per `coverage/103-BMS-OWED.md` §3, still needing a
+faculty ruling on sourcing; `103-BMS-anatomy-concepts.md`'s field_notes
+records two owed edges (`often_confused_with` to a not-yet-live tibial-nerve
+deformity concept, `complication_of` to `CON-MSK-AB5318A9255811`) that no
+relations batch in this pass claims.
 
 ---
 

@@ -771,5 +771,40 @@ export const LEAF: McqLeafSeed = {
         d: "Bilirubin is a heme breakdown product in the body, not the precursor of bile acids, which is cholesterol.",
       },
     },
+
+    // --- pass 1 additions (2026-08-27) ---
+    // MCQ-102-07f0a0ff-p20-q23 ("Snake venom causes hemolysis of RBCs due to
+    // activation of the following enzyme: Lecithinase") is NOT authored here.
+    // None of this leaf's fifteen concepts state the lecithinase/snake-venom
+    // hemolysis fact, and 102's concept space is closed (164/164 two-sided) —
+    // minting a new one is out of scope for this pass. Left unauthored and
+    // logged in PROGRESS-102-mcq.md rather than forced onto a concept that
+    // does not actually teach it.
+    {
+      key: 'MCQ-102-07f0a0ff-p18-q10',
+      conceptKey: 'eicosanoid-synthesis-pathway-enzymes',
+      difficulty: 'Easy',
+      questionType: 'Structure and function',
+      learningObjective: 'Name arachidonic acid as the fatty-acid precursor of the eicosanoids.',
+      explanations: {
+        a: 'Stearic acid is a saturated fatty acid with no double bonds — eicosanoid synthesis needs a polyunsaturated precursor, which stearic acid is not.',
+        b: 'Palmitic acid is likewise saturated, with no double bonds to supply the eicosanoid pathway\'s downstream chemistry.',
+        c: 'Phospholipase A2 liberates arachidonic acid from membrane phospholipids, and it is arachidonic acid that prostaglandin H synthase and lipoxygenase convert into the various eicosanoids.',
+        d: 'Lignoceric acid is a very-long-chain saturated fatty acid, not the eicosanoid pathway\'s substrate.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p18-q13',
+      conceptKey: 'eicosanoid-synthesis-pathway-enzymes',
+      difficulty: 'Moderate',
+      questionType: 'Classification',
+      learningObjective: 'Identify leukotrienes as the acyclic eicosanoids, made by lipoxygenase.',
+      explanations: {
+        a: 'Prostaglandins are cyclic eicosanoids, made from arachidonic acid by prostaglandin H synthase\'s cyclooxygenase activity — the opposite branch from the acyclic products.',
+        b: 'Thromboxane is likewise a cyclic eicosanoid product of prostaglandin H synthase, not an acyclic one.',
+        c: 'Lipoxygenase converts arachidonic acid into the acyclic eicosanoids — the leukotrienes and lipoxins — as opposed to the cyclic products prostaglandin H synthase makes.',
+        d: 'Prostacyclins are also cyclic eicosanoid products of prostaglandin H synthase, made in the vascular endothelium — not an acyclic product.',
+      },
+    },
   ],
 }

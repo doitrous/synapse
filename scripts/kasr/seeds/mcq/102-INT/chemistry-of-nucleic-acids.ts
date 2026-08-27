@@ -375,5 +375,46 @@ export const LEAF: McqLeafSeed = {
         d: '4 hydrogen bonds is not a count given for either base pair; neither A-T (two) nor G-C (three) reaches four.',
       },
     },
+
+    // --- pass 1 additions (2026-08-27) ---
+    {
+      key: 'MCQ-102-07f0a0ff-p53-q4',
+      conceptKey: 'dna-double-helix-antiparallel-strands',
+      difficulty: 'Easy',
+      questionType: 'Structure and function',
+      learningObjective: 'State the number of hydrogen bonds (three) between guanine and cytosine.',
+      explanations: {
+        a: '1 hydrogen bond is too few for either base pair; even the weaker A-T pair has two.',
+        b: '2 hydrogen bonds is the count for adenine-thymine, the other base pair — not guanine-cytosine, which this question asks about.',
+        c: 'Guanine pairs with cytosine through three hydrogen bonds, one more than the two of adenine-thymine — which is also why G-C-rich DNA is more thermally stable.',
+        d: '4 hydrogen bonds is not the count for either base pair; neither G-C (three) nor A-T (two) reaches four.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p55-q15',
+      conceptKey: 'dna-double-helix-antiparallel-strands',
+      difficulty: 'Easy',
+      questionType: 'Structure and function',
+      learningObjective: 'State that the two strands of the DNA double helix run antiparallel to each other.',
+      explanations: {
+        a: 'Watson and Crick\'s double helix has its two strands running antiparallel — one 5\' to 3\', the other 3\' to 5\' in the same physical direction — while they pair to each other and coil around a common axis.',
+        b: 'Parallel strands, running in the same 5\'-to-3\' direction as each other, is not the arrangement of the double helix.',
+        c: 'Perpendicular describes strands crossing at a right angle, not the side-by-side, oppositely-oriented pairing of the double helix.',
+        d: '"Horizontal" is not an orientation relationship between two strands at all, and does not describe the double helix\'s antiparallel arrangement.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p55-q16',
+      conceptKey: 'dna-double-helix-antiparallel-strands',
+      difficulty: 'Moderate',
+      questionType: 'Structure and function',
+      learningObjective: 'Apply complementary base pairing (A pairs only with T, G only with C) to calculate a missing base percentage.',
+      explanations: {
+        a: '30% would only be correct if G equalled A directly, which is not what complementary pairing gives here — it conflates G with A rather than deriving it from the C+G remainder.',
+        b: '40% overshoots what is left once A and its complementary partner T are accounted for — A (30%) plus T (30%) already takes 60% of the total, leaving only 40% split between G and C together, not to G alone.',
+        c: 'Because A pairs only with T and G only with C, %A = %T = 30% each, using 60% of the double strand; the remaining 40% is shared equally between G and C, so %G = 20%.',
+        d: '70% would mean G alone took up more than the entire A+T-free remainder (40%) — arithmetically impossible once A and T\'s 60% share is subtracted from 100%.',
+      },
+    },
   ],
 }
