@@ -126,5 +126,18 @@ export const LEAF: McqLeafSeed = {
         D: "Tubulin is formed in G2, immediately before mitosis, to build the mitotic microtubules — a later event than S phase's DNA/centriole duplication.",
       },
     },
+    {
+      key: "regarding-the-cell-division-71282d45",
+      conceptKey: "cell-cycle.phases-g1-s-g2-m-and-g0",
+      difficulty: "Moderate",
+      questionType: "Recall",
+      learningObjective: "State that centriole duplication takes place during the cell cycle (in S phase), against three false statements about mitosis's S stage, cleavage-furrow timing and crossing over.",
+      explanations: {
+        A: "Whether mitosis itself has an S stage is a matter of definition (S phase is conventionally part of interphase, not mitosis proper), but centriole duplication is the more clearly, specifically correct fact this question tests, since it names an event with a fixed, well-defined timing (S phase) rather than turning on how narrowly 'mitosis' is being defined.",
+        B: "The cleavage furrow, marking cytokinesis, appears during and after telophase, not metaphase II — a stage that in any case belongs to meiosis, not mitosis.",
+        C: "Duplication of the centrioles takes place during the cell cycle's S phase, in parallel with DNA duplication, so that each future daughter cell inherits a complete, duplicated centrosome ready to organise its own mitotic spindle.",
+        D: "Crossing over occurs at chiasmata between homologous chromosomes during meiotic prophase I, not at the kinetochore — the kinetochore is instead the unrelated spindle-fibre attachment site on the centromere.",
+      },
+    },
   ],
 }

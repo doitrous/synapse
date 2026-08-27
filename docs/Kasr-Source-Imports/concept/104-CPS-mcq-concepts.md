@@ -10,12 +10,12 @@
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
-    Cytogenetics — Cell Cycle Phase Details — 8 questions, 1 concepts
+    Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
     Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
-    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 14 questions, 4 concepts
-    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 15 questions, 3 concepts
+    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 18 questions, 4 concepts
+    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  9 questions were excluded and 0 held back for having no
+  11 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -765,6 +765,7 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
 src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p11 | 104 CPS
 ## article_ids
 +ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## field_notes
@@ -951,6 +952,10 @@ A chromosome is DNA coiled on histones, its two chromatids joined at a centromer
 chromosome-structure.chromatid-centromere-kinetochore-and-telomere
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p31 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p68 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -988,6 +993,7 @@ chromosome-classification.by-gene-content-centromere-position-and-length
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -1022,6 +1028,7 @@ Mitosis is prophase, metaphase, anaphase and telophase, producing two geneticall
 mitosis.four-stages-prophase-to-telophase
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p12 | 104 CPS
 ## article_ids
 +ART-104-HIS-MITOSIS-AND-MEIOSIS
 ## field_notes
@@ -1040,6 +1047,8 @@ meiosis.two-successive-divisions-and-crossing-over
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p31 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p68 | 104 CPS
 ## article_ids
 +ART-104-HIS-MITOSIS-AND-MEIOSIS
 ## field_notes
@@ -1059,6 +1068,9 @@ mitosis-vs-meiosis.comparison
 src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p1 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-MITOSIS-AND-MEIOSIS
 ## field_notes

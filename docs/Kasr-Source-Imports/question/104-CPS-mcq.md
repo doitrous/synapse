@@ -10,12 +10,12 @@
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
-    Cytogenetics — Cell Cycle Phase Details — 8 questions, 1 concepts
+    Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
     Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
-    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 14 questions, 4 concepts
-    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 15 questions, 3 concepts
+    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 18 questions, 4 concepts
+    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
     Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  9 questions were excluded and 0 held back for having no
+  11 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4141,6 +4141,100 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-BF88D20D8089
+## title
+Regarding the cell division:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cell division:
+## answer_a
+NoS stage in mitosis. <
+## explanation_a
+Whether mitosis itself has an S stage is a matter of definition (S phase is conventionally part of interphase, not mitosis proper), but centriole duplication is the more clearly, specifically correct fact this question tests, since it names an event with a fixed, well-defined timing (S phase) rather than turning on how narrowly 'mitosis' is being defined.
+## answer_b
+Cleavage furrow appears in metaphase II
+## explanation_b
+The cleavage furrow, marking cytokinesis, appears during and after telophase, not metaphase II — a stage that in any case belongs to meiosis, not mitosis.
+## answer_c
+Duplication of centrioles take place
+## explanation_c
+Duplication of the centrioles takes place during the cell cycle's S phase, in parallel with DNA duplication, so that each future daughter cell inherits a complete, duplicated centrosome ready to organise its own mitotic spindle.
+
+Why this is right:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases.
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour.
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases.
+## answer_d
+Crossing over occurs at kinetochore
+## explanation_d
+Crossing over occurs at chiasmata between homologous chromosomes during meiotic prophase I, not at the kinetochore — the kinetochore is instead the unrelated spindle-fibre attachment site on the centromere.
+## correct_answer
+C
+## main_concept
+CON-FND-9C205E44C3404D
+## library_ids
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## topic
+Cytogenetics — Cell Cycle Phase Details
+## subtopic
+Cytogenetics — Cell Cycle Phase Details
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that centriole duplication takes place during the cell cycle (in S phase), against three false statements about mitosis's S stage, cleavage-furrow timing and crossing over.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p11 q3. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-880C8D35E8B4
 ## title
 blood cell, cells lining GIT are example for
@@ -6633,6 +6727,282 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-EFBF43A38A75
+## title
+Segments of DNA molecules that code for formation of specific proteins are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Segments of DNA molecules that code for formation of specific proteins are:
+## answer_a
+Kinetochores
+## explanation_a
+Kinetochores are the two protein discs at the centromere to which spindle fibres attach — a structural, not coding, feature of the chromosome.
+## answer_b
+Genes
+## explanation_b
+A gene is a segment of DNA coding for a specific protein, with a precise position (its locus) on the chromosome — exactly the definition this stem describes.
+
+Why this is right:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
+## answer_c
+Centromere
+## explanation_c
+The centromere is the constriction joining a d-chromosome's two chromatids and dividing it into its p and q arms — a structural landmark, not a protein-coding segment.
+## answer_d
+Chiasmata
+## explanation_d
+Chiasmata are the points where crossing over exchanges segments between non-sister chromatids during meiosis — a meiotic event, not the general term for a protein-coding DNA segment.
+## correct_answer
+B
+## main_concept
+CON-FND-918BBB81C26937
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define a gene as the DNA segment coding for a specific protein, against three other chromosome-structure terms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p31 q6; EOY 104 exams Not answerd (1) (1).pdf p68 q6. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-B32FB8B364D6
+## title
+Two discs of protein located at centromere for spindle fibers attachment in | ١ cell di…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Two discs of protein located at centromere for spindle fibers attachment in | ١ cell division are called: |
+## answer_a
+Kinetochores. }
+## explanation_a
+Kinetochores are two discs of protein at the centromere to which the spindle fibres attach during cell division — one on each sister chromatid, so each spindle pole can pull its own chromatid apart at anaphase.
+
+Why this is right:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
+## answer_b
+Telomeres
+## explanation_b
+Telomeres are the repeated-sequence regions capping the chromosome's ends, protecting them from degradation and fusion — unrelated to spindle-fibre attachment at the centromere.
+## answer_c
+Genes. |
+## explanation_c
+A gene is a segment of DNA coding for a specific protein — a coding unit, not the protein discs the stem describes.
+## answer_d
+Chiasmata. |
+## explanation_d
+Chiasmata are the visible crossover points between homologous chromosomes in meiotic prophase I, not protein structures for spindle attachment.
+## correct_answer
+A
+## main_concept
+CON-FND-918BBB81C26937
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name kinetochores as the two protein discs at the centromere where spindle fibres attach.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 FINALS (answered) (1) (1).pdf p26 q6; EOY 104 exams Not answerd (1) (1).pdf p14 q6. Manifest src_375227d5b7c819636151, src_f0dc974eca83c51623bc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0E4E7A20934F
+## title
+When the chromosome divides transversely during anaphase:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+When the chromosome divides transversely during anaphase:
+## answer_a
+It results in isochromosome
+## explanation_a
+Normally a chromosome's centromere splits longitudinally at anaphase, giving each daughter one copy of each arm; when it instead splits transversely, each resulting chromosome carries two copies of the same arm (two short or two long arms) rather than one of each — this is exactly how an isochromosome forms, most often in submetacentric chromosomes.
+
+Why this is right:
+- Chromosomes are classified three ways.
+## answer_b
+It gives rise to Philadelphia chromosome
+## explanation_b
+The Philadelphia chromosome arises from a reciprocal translocation between chromosomes 9 and 22, an entirely different mechanism from a transverse centromere division.
+## answer_c
+A ring chromosome is formed
+## explanation_c
+A ring chromosome forms when a chromosome breaks at both ends and the broken ends fuse together — a different mechanism from transverse centromere splitting.
+## answer_d
+It results in terminal deletion
+## explanation_d
+Terminal deletion results from loss of a chromosome's end segment after a single break, not from an abnormal transverse centromere division.
+## correct_answer
+A
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+State that transverse, rather than the normal longitudinal, centromere division at anaphase produces an isochromosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q110. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-952791BAD541
 ## title
 in clearage furrow, All are free except
@@ -8010,6 +8380,466 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-A3384BC19050
+## title
+Regarding the meiotic cell division (Meiosis):
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the meiotic cell division (Meiosis):
+## answer_a
+It occurs in somatic cells
+## explanation_a
+Meiosis occurs in germ cells (testis and ovary), not somatic cells — somatic cells divide by mitosis instead.
+## answer_b
+Daughter cells with haploid number of chromosomes
+## explanation_b
+Meiosis produces daughter cells with the haploid number of chromosomes — 23 s-chromosomes by the end of the second meiotic division, half the diploid number the parent germ cell started with. This chromosome-number reduction is what makes fertilisation, restoring the diploid number in the zygote, possible.
+
+Why this is right:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
+## answer_c
+Itis a single division
+## explanation_c
+Meiosis is two successive divisions without an intervening S-phase, not a single division — the single-division profile instead belongs to mitosis.
+## answer_d
+No crossing over of chromosomes occurs | 5- The centromere in metacentric chromosome is located:
+## explanation_d
+Crossing over between non-sister chromatids at the chiasmata is a defining, essential feature of meiosis's first division, not something absent from it.
+## correct_answer
+B
+## main_concept
+CON-FND-685D573458A6D7
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that meiosis produces daughter (germ) cells with the haploid chromosome number, against three false statements about site, division count and crossing over.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p31 q4; EOY 104 exams Not answerd (1) (1).pdf p68 q4. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A0287EE7B795
+## title
+Longitudinal splitting of chromosomes happens in the following phase:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Longitudinal splitting of chromosomes happens in the following phase:
+## answer_a
+Prophase.
+## explanation_a
+Prophase condenses the chromosomes and builds the spindle; it does not split any chromosome's centromere.
+## answer_b
+Metaphase.
+## explanation_b
+Metaphase aligns the still-intact d-chromosomes at the equatorial plate; the centromere has not yet split.
+## answer_c
+Anaphase.
+## explanation_c
+In anaphase, each d-chromosome splits longitudinally at the centromere, its two sister chromatids pulled to opposite poles by the chromosomal microtubules. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages.
+## answer_d
+Telophase.
+## explanation_d
+Telophase begins only once the chromatids have already separated and reached the poles — after anaphase's splitting, not during it.
+## correct_answer
+C
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Place the longitudinal splitting of each chromosome at its centromere in anaphase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p12 q6. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-54E8DCECCC02
+## title
+Mitosis is characterized by the following: | a. Exchange of genes. | b. Absence of cros…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mitosis is characterized by the following: | a. Exchange of genes. | b. Absence of crossing over. | c. Daughier cells contain n chromosomes
+## answer_a
+Exchange of genes.
+## explanation_a
+Exchange of genes (crossing over) is a defining feature of meiosis, not mitosis — mitosis involves no pairing of homologous chromosomes at all.
+## answer_b
+Absence of crossing over.
+## explanation_b
+Mitosis is characterised by the ABSENCE of crossing over, with no exchange of genes — since no homologous pairing occurs, there is nothing for chromosomes to exchange.
+
+Why this is right:
+- Mitosis and meiosis contrast across five features.
+## answer_c
+Daughier cells contain n chromosomes.
+## explanation_c
+Mitotic daughter cells retain the diploid (2n) chromosome number of the parent cell, not a haploid (n) number, which is instead meiosis's outcome.
+## answer_d
+Daughter cells are not identical to mother cells.
+## explanation_d
+Mitotic daughter cells are genetically identical to the mother cell, not different from it, precisely because no crossing over or independent assortment occurs.
+## correct_answer
+B
+## main_concept
+CON-FND-AB1858FD6C0F61
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State the absence of crossing over as mitosis's defining feature, against three false statements about gene exchange and chromosome number.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics].pdf p1 q2. Manifest src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3870AE998B54
+## title
+Regarding mitosis:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding mitosis:
+## answer_a
+It occurs in germ cells.
+## explanation_a
+Mitosis occurs in somatic cells, not germ cells — meiosis is the division specific to germ cells for gamete formation.
+## answer_b
+Daughter cells with haploid number of chromosomes.
+## explanation_b
+Mitotic daughter cells retain the diploid chromosome number of the parent cell, not a haploid number, which is instead meiosis's outcome.
+## answer_c
+It is two successive divisions.
+## explanation_c
+Mitosis is a single division, not two successive divisions — the two-division pattern (meiosis I and II) is characteristic of meiosis.
+## answer_d
+No exchange of genes.
+## explanation_d
+Mitosis involves no exchange of genes, since it includes no pairing of homologous chromosomes or crossing over — each chromosome simply replicates and its identical sister chromatids separate, which is exactly why mitotic daughter cells are genetically identical to the parent.
+
+Why this is right:
+- Mitosis and meiosis contrast across five features.
+## correct_answer
+D
+## main_concept
+CON-FND-AB1858FD6C0F61
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that mitosis involves no exchange of genes, against three false statements about site, chromosome number and division count.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 FINALS (answered) (1) (1).pdf p26 q4. Manifest src_375227d5b7c819636151.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-1585B1B5F841
+## title
+The cell division occurring in somatic cells is characterized by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The cell division occurring in somatic cells is characterized by:
+## answer_a
+Chromosomes appear bivalents
+## explanation_a
+Bivalents (tetrads), formed by homologous chromosome pairing, are a meiosis-specific feature (prophase I) — mitosis pairs no homologous chromosomes and forms no bivalents.
+## answer_b
+No crossing over & no exchange of genes
+## explanation_b
+The cell division occurring in somatic cells (mitosis) shows a complete absence of crossing over and gene exchange, since it involves no pairing of homologous chromosomes — each chromosome simply duplicates and separates its own sister chromatids.
+
+Why this is right:
+- Mitosis and meiosis contrast across five features.
+## answer_c
+Two successive cell divisions
+## explanation_c
+Mitosis is a single division, not two successive divisions — the two-division pattern belongs to meiosis.
+## answer_d
+Four daughter cells with (1n) are produced
+## explanation_d
+Mitosis produces two diploid (2n) daughter cells, not four haploid (1n) daughter cells, which is instead meiosis's outcome.
+## correct_answer
+B
+## main_concept
+CON-FND-AB1858FD6C0F61
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that mitosis (the division of somatic cells) has no crossing over and no gene exchange, against three false statements describing meiosis instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q106. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
 
 
 
