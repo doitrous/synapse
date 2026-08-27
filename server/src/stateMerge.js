@@ -103,6 +103,31 @@ function byId(items) {
 }
 
 /**
+ * Canonical item equality, with a cheap pre-check.
+ *
+ * `fingerprint` is order-independent but deep and recursive. `diffDocument` and
+ * `mergeDocument` compare every item in a document on every save, several times
+ * over — and on the content ledger (thousands of nested question items) calling
+ * `fingerprint` that many times cost tens of seconds per publish, long enough
+ * that a reload before it returned dropped the write and the change looked like
+ * it reverted.
+ *
+ * Almost every item is byte-identical between the two versions being compared —
+ * both were serialised from the same stored document — so an identical native
+ * `JSON.stringify` settles them without the sorted walk. An identical string is
+ * unconditionally equal, so this never reports a false match; only when the fast
+ * strings differ (a genuine change, or the rare re-ordered key) do we fall back
+ * to the authoritative, order-independent fingerprint. Correctness is unchanged;
+ * the common case is now one native serialisation instead of a recursive one.
+ */
+function equalItems(a, b) {
+  if (a === b) return true
+  if (!a || !b) return false
+  if (JSON.stringify(a) === JSON.stringify(b)) return true
+  return fingerprint(a) === fingerprint(b)
+}
+
+/**
  * What changed between two versions of a document, item by item.
  *
  * A change carries both sides because authorisation needs both — see
@@ -118,7 +143,7 @@ export function diffDocument(key, base, next) {
     for (const id of new Set([...before.keys(), ...after.keys()])) {
       const from = before.get(id) ?? null
       const to = after.get(id) ?? null
-      if (from && to && fingerprint(from) === fingerprint(to)) continue
+      if (from && to && equalItems(from, to)) continue
       const kind = collection.kindOf(to ?? from)
       changes.push({
         collection: collection.name,
@@ -198,10 +223,10 @@ export function mergeDocument(key, base, stored, incoming) {
     for (const id of new Set([...before.keys(), ...mine.keys()])) {
       const from = before.get(id) ?? null
       const to = mine.get(id) ?? null
-      if (from && to && fingerprint(from) === fingerprint(to)) continue
+      if (from && to && equalItems(from, to)) continue
 
       const current = theirs.get(id) ?? null
-      if (fingerprint(current) !== fingerprint(from)) { conflicts.push(id); continue }
+      if (!equalItems(current, from)) { conflicts.push(id); continue }
 
       if (to) result.set(id, to)
       else result.delete(id)
