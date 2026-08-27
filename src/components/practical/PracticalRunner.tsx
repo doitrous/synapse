@@ -29,6 +29,7 @@ import { useMastery } from '@/lib/useMastery'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
+import { useLivePracticals } from '@/lib/useLivePracticals'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { DIFFICULTIES } from '@/data/qbank'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
@@ -645,6 +646,42 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
 /* ---- Lab runner -------------------------------------------------------- */
 
+/**
+ * Where the current set sits among the student's other lab/imaging sets.
+ *
+ * The runner otherwise shows progress on this one set in isolation; a student
+ * partway through several sets has no way to see that from inside one of them.
+ * Both the sibling list and the done counts come straight from the same hooks
+ * the "Lab & imaging" tab itself reads, so there is nothing here that could
+ * disagree with that tab.
+ */
+function LabSetsStrip({ currentId }: { currentId: string }) {
+  const { labImaging } = useLivePracticals()
+  const { progress } = usePracticalProgress()
+  if (labImaging.length <= 1) return null
+  return (
+    <div className="mb-4 flex flex-wrap items-center gap-1.5">
+      <span className="me-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">Your sets</span>
+      {labImaging.map((l) => {
+        const done = progress.labs[l.id]?.done ?? 0
+        const isCurrent = l.id === currentId
+        return (
+          <span
+            key={l.id}
+            className={cn(
+              'inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11.5px] font-medium',
+              isCurrent ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line-2 bg-surface text-ink-2',
+            )}
+          >
+            {l.title}
+            <span className="tnum font-mono text-[10.5px] opacity-80">{done}/{l.items}</span>
+          </span>
+        )
+      })}
+    </div>
+  )
+}
+
 function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getLabDetail(target.id)
@@ -739,6 +776,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   return (
     <div>
       <Header target={target} onExit={onExit} />
+      <LabSetsStrip currentId={target.id} />
 
       <div className="mb-4 flex items-center gap-3">
         <span className="text-[13px] font-medium text-ink-2">
