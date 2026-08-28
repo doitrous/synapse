@@ -1,13 +1,180 @@
 # 104 CPS MCQ authoring — progress
 
-Branch: `kasr-104-author-run26` (off `kasr-104-author-run25` @ `14f77eef`,
-pushed to origin). run25's own base was `kasr-104-author-run23` @ `29aff753`;
-run24 was interrupted mid-Pulmonary-Compliance and never committed anything —
-its work is gone, redone cleanly in run25.
+Branch: `kasr-104-author-run27` (off `kasr-104-author-run26` @ `1314b2ff`,
+pushed to origin). run26's own base was `kasr-104-author-run25` @ `14f77eef`;
+run25's own base was `kasr-104-author-run23` @ `29aff753`; run24 was
+interrupted mid-Pulmonary-Compliance and never committed anything — its work
+is gone, redone cleanly in run25.
 
 Bank total: 1289 questions in `scripts/kasr/extract/104-CPS/mcq-bank.json`.
-As of this session's HEAD: **352 kept / 1114 keyed**, 57 excluded, 83 MCQ
-concepts.
+As of this session's (run27's) HEAD: **395 kept / 1114 keyed**, 64 excluded,
+88 MCQ concepts.
+
+## Arteries (58/58 bank rows accounted for this session — run27, the first
+CVS histology/anatomy leaf this pipeline has closed) — 43 kept, 6 excluded,
+11 left unclaimed for other clusters (9 listed below + 2 more — the
+baroreceptor/atrial-stretch-receptor pair — documented in their own
+finding further down, since routing them surfaced a pre-existing
+article-mismatch bug worth a longer note). Five commits, one per concept
+group;
+each ran the full build+batch+simulate gate before committing. Full-session
+diff vs base `1314b2ff` (comm -23, both directions): **0 CON-\*/QM-104-\*
+ids lost anywhere**, +5 CON-\* ids in `104-CPS-mcq-concepts.md` (4 genuine
+mints, 1 pre-existing pinned id's first appearance in this file via sparse
+reuse — see below), +40 QM-104-\* ids.
+
+Files touched: `cardiovascular-artery-classification.ts` (extended existing
+concept + 3 new concepts), `cardiovascular-vessel-wall-general-plan.ts`
+(extended existing concept + 1 new concept), new
+`cardiovascular-capillary-exchange.ts`.
+
+**cardiovascular-artery-classification.ts** (articleId
+`ART-104-HIS-ARTERIES-AND-VEINS`, confirmed to teach every fact below before
+authoring against it):
+- Extended `artery-classification.elastic-muscular-and-arteriolar-types`
+  (existing, hand-authored concept) with 7 more duplicate-book-occurrence
+  questions on the same elastic/muscular/arteriolar comparison.
+- New `elastic-artery.aortic-tunica-media-structure` (5 kept + 1 excluded):
+  aorta media = smooth muscle between 40-70 elastic membranes; why the
+  aorta's IEL is unclear (indistinguishable from the media's own elastic
+  laminae, not absent/thin/unstainable — the article's own "Common
+  misconceptions" section states this explicitly).
+  Excluded: `which-of-the-following-is-not-true-regarding-the-aorta` — A+B
+  and C+D option pairs merged into 2 surviving keys, unfixable at the seed
+  layer.
+- New `basilar-artery.muscular-type-despite-cranial-location` (2 kept,
+  duplicate occurrences): basilar artery is histologically muscular,
+  flagged by its unusually prominent IEL. **`gaps` field discloses**: the
+  article teaches the general elastic-vs-muscular IEL-prominence rule but
+  never names the basilar artery as a worked example — this question
+  applies the rule to a named vessel the article itself doesn't mention.
+- New `arterioles.resistance-function-and-regulation` (8 kept): metarteriole
+  and precapillary sphincter as the arteriole's own terminal segment
+  (article-confirmed); arterioles as the principal resistance vessels, NOT
+  the most compliant type (veins are); Poiseuille's-law radius⁴ calculation
+  (8x flow from radius doubled + pressure halved); pressure autoregulation;
+  arteriolar-tone hypertension mechanism (duplicate occurrence kept);
+  sympathetic stimulation and TPR. **Re-scoped in from a planned "defer to
+  Vascular Function" list** — all of it is fundamentally the arteriole's own
+  histology-linked resistance function, which the leaf's own article
+  explicitly teaches, so authoring it here (rather than leaving it
+  unclaimed for a cluster with no dedicated file yet) was the more honest
+  call.
+  **Self-caught defect**: `the-main-site-of-r-sistance-in-the-systemic-
+  circulation` was drafted as a kept question in this concept, but the
+  first `medical:batch` run of that commit's stage flagged a 5th error (3
+  options, contract is 4-5) — re-inspection confirmed option A's text
+  ("Aorta") had bled into the stem during extraction, same corruption class
+  as several other rows this cluster. Converted to `exclude: true` before
+  committing; the fix is reflected in the commit's own gate-line history
+  (first run: 5 errors; after fix: back to the 4 pre-existing).
+
+**cardiovascular-vessel-wall-general-plan.ts** (articleId
+`ART-104-HIS-HEART-AND-VESSEL-WALL`, confirmed to teach every fact below):
+- Extended `blood-vessel-wall.general-three-tunic-plan` (existing concept)
+  with 10 kept + 1 excluded: IEL function/location, thrombus-on-endothelial-
+  damage, endothelium histology, external elastic lamina, subendothelium
+  composition, tunica media elastic-fibre component.
+  Excluded: `internal-elastic-lamina-is-well-developed-in-the-tunica-inti` —
+  option C merges "Capillaries" with a bled-over "c. Lymphatic", leaving
+  only 3 distinguishable options; the same fact survives cleanly on a
+  sibling question with a clean 4-option set.
+- New `tunica-adventitia.vasa-vasorum-and-composition` (7 kept + 1
+  excluded): vasa vasorum's literal meaning and location (adventitia of
+  LARGE vessels only, nourishing what luminal diffusion can't reach),
+  vein>artery frequency gradient, named-constituent identification rows.
+  Excluded: `the-tunica-adventitia-of-a-blood-vessel-contains-collagen-fi` —
+  same A+B/C+D merge-corruption class, caught before authoring rather than
+  after a failed gate run this time.
+- 3 more excludes attached to `blood-vessel-wall.general-three-tunic-plan`
+  for bookkeeping (none test a kept concept specifically, all corrupted):
+  `tunica-media-of-blood-vessels-constitutes-the-following` (unkeyed AND a
+  merged option — double-disqualified); `regarding-the-blood-vessels-0-a-
+  smooth-muscle` (stem absorbed option A's text, leaving 3 options);
+  `the-wall-of-the-arterioles-lacks` (A+B and C+D merged, 2 surviving
+  keys).
+
+**New file `cardiovascular-capillary-exchange.ts`** (articleId
+`ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS` — deliberately a different
+article from the two files above, since a leaf's single `articleId` must
+match its concepts' real teaching article, and this content's true home is
+Vascular Function physiology, not vessel-wall histology):
+- **Dedup win, not a fresh mint**: `find-existing.mjs "capillary
+  permeability"`, run before minting per the heightened CVS dedup
+  mitigation, hit `CON-CVS-D3D1AF25EFA406`
+  (`capillary-exchange.diffusion-permeability-and-vesicular-transport`,
+  hand-authored and pinned in `104-CPS-physiology-concepts.md`, module_subject
+  Vascular Function) — already teaching the exact
+  continuous<fenestrated<discontinuous permeability ranking the 2 remaining
+  bank rows test. Declaring the same canonical_key resolved to the pinned
+  id and emitted a sparse reuse row (confirmed in the built output:
+  `field_notes` states "every other field is untouched"). The concept-id
+  diff shows this id as "new" only because it is `104-CPS-mcq-concepts.md`'s
+  first-ever reference to it — not a fresh mint.
+- 2 kept questions (duplicate occurrence pair): a discontinuous/sinusoidal
+  capillary lets plasma cross freely, a continuous capillary blocks blood
+  cells outright; the item also bundles (and this corrects) a
+  reversed-boundary distractor pair confusing which elastic lamina sits
+  where.
+
+**Left unclaimed for other, not-yet-started or already-flagged clusters (9
+rows, no seed file references any of these keys)** — do not recount these
+as still-open Arteries work, but do not treat "Arteries: 0 remaining" as
+meaning every leaf-tagged-Arteries row was mine to author either:
+- **Veins (6 rows)**, genuinely vein-histology content mistagged under the
+  Arteries leaf (same leaf-field-unreliable hazard as every prior cluster):
+  `concerning-the-medium-sized-veins-all-of-the-following` (also corrupted,
+  A+B/C+D merge), `medium-sized-vein-is-characterized-by` (clean, 4
+  options), `smooth-muscle-fibers-are-found-in-the-tunica-adventitia-of`
+  (IVC-focused), `the-following-is-a-difference-between-medium-sized-
+  artery-an` (artery-vs-vein comparison), `the-wall-of-inferior-vena-cava-
+  contains` (unkeyed + corrupted), `tunica-media-of-vein-is-typically-
+  wider-than-tunica-media-of` (unkeyed + corrupted, stem absorbed option A).
+  Veins has 34 already-tagged rows of its own; these 6 join that pile for
+  whoever starts that cluster.
+- **Spleen (2 rows)**, genuinely splenic histology mistagged under Arteries:
+  `choose-the-correct-statement-concerning-the-malpighian-corpuscle` and
+  `penicillar-arteriole-is-3-parts` (splenic circulation, not general
+  arteriolar histology). Spleen has 26 already-tagged rows of its own.
+- **Vascular Function (1 row)**: `under-normal-conditions-the-capillaries`
+  — corrupted (only 3 options, A/B/C, no D) and about capillary blood-
+  volume distribution/hemodynamics rather than vessel-wall histology or the
+  arteriole-resistance content re-scoped in above. Whoever starts Vascular
+  Function (35 already-tagged rows) will exclude this on sight; flagged
+  here so it isn't silently lost.
+
+**Duplicate-overlap and article-coverage findings from this session, none
+requiring a fix here**:
+- No new cross-pipeline concept-overlap was found for any of the 4 fresh
+  mints (aorta, basilar artery, arterioles, vasa-vasorum/adventitia) —
+  `find-existing.mjs` returned "safe to create" for "basilar artery",
+  "arteriole resistance" and "vasa vasorum" (only a glossary-term hit, not
+  a concept, for the last one) before minting each.
+- **A pre-existing article/concept mismatch was discovered, not fixed**:
+  `physiology-circulatory-control-hemorrhagic-shock.ts` (from an earlier
+  session's Cardiac Function re-route work) is pinned to
+  `ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL`, but at least 4 of its 5
+  concepts (hemorrhagic-shock hormones, atrial functions, venous-return
+  equation, venous-return-during-exercise) describe content that article's
+  own `## notes` field explicitly disclaims teaching ("the arterial
+  baroreceptor reflex itself is taught by the sibling article ART-104-PHY-
+  VENOUS-RETURN-AND-BAROREFLEX and is not repeated here") — the venous-
+  return/MSFP material these concepts actually need is taught by that
+  sibling article instead, not by the one this file cites. This is why this
+  session did NOT route the bank's 2 baroreceptor/atrial-stretch-receptor
+  rows (`stimulation-of-arterial-baroreceptors-causes-all-except`,
+  `stimulation-of-atrial-stretch-receptors-produce`) into that file as
+  originally planned — doing so would have compounded an existing
+  citation gap rather than closing one. Both rows are left unclaimed,
+  leaf-tagged "Arteries", for whoever next touches Basic Mechanisms of
+  Circulatory Control (18 already-tagged rows) to resolve alongside the
+  article re-pin this finding calls for. Separately, `ART-104-PHY-VENOUS-
+  RETURN-AND-BAROREFLEX` itself is live, evidenced and already overlaps a
+  written-paper-pipeline concept, `CON-CVS-C3E60AC7A9EDB1`
+  (`arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-
+  pressure`) — a `GENERATED_BY` file, blind to this MCQ pipeline's dedup
+  mechanism, so whoever authors those 2 rows will need the same fresh-mint-
+  plus-`conflicts`-note treatment already used elsewhere in this file.
 
 ## Gas exchange in the lung (5/7 triaged this session: 3 kept, 2 excluded;
 2 left unclaimed for other clusters — see below) — run26, NEW file
@@ -332,18 +499,27 @@ for(const q of remaining) byLeaf[q.leaf||'(none)']=(byLeaf[q.leaf||'(none)']||0)
 Object.entries(byLeaf).sort((a,b)=>b[1]-a[1]).forEach(([l,c])=>console.log(c,l));
 "
 ```
-As of this session's HEAD: 58 Arteries, 54 A-V Connections, 47 Electrical
-Activity of the Heart, 36 Mechanical Properties of Cardiac Muscle, 35
-Vascular Function, 34 Veins, 26 Spleen, 24 Gas
-Transport by the Blood, 21 Lymph node, 19 Conducting
-Portion, 18 Basic Mechanisms of Circulatory Control, 17 Tonsils, 15
-Control of Respiration, 13 Chromosomal Aberrations, 13 The heart, 1 each
-of Human Chromosome / Thymus / Special Circulation / Alveolar Phagocytes.
-(456 rows have `leaf:"(none)"` in the bank — topic-only, lower priority.)
+As of run27's HEAD: 54 A-V Connections, 47 Electrical Activity of the
+Heart, 36 Mechanical Properties of Cardiac Muscle, 35 Vascular Function, 34
+Veins, 26 Spleen, 24 Gas Transport by the Blood, 21 Lymph node, 19
+Conducting Portion, 18 Basic Mechanisms of Circulatory Control, 17 Tonsils,
+13 Chromosomal Aberrations, 13 The heart, **11 Arteries** (deliberately
+left unclaimed — see the Arteries section above; NOT still-open Arteries
+authoring work), 1 each of Human Chromosome / Thymus / Special Circulation
+/ Alveolar Phagocytes. (456 rows have `leaf:"(none)"` in the bank —
+topic-only, lower priority.)
 
 ## Next action (resume-first)
 
-**Both of this session's (run26's) dispatched clusters are now closed.**
+**run27's dispatched Arteries cluster is now closed (58/58 accounted
+for).** Per the dispatch brief's stated order, **A-V Connections (54 bank
+rows) is next** — none of it has a dedicated seed file yet as of this
+checkpoint; check `cardiovascular-*.ts` files first in case a future
+session already claimed some of it. run27 did not reach A-V Connections
+this session (Arteries alone took 5 commits and the full CVS dedup
+research pass) — this is a clean stop point, not an interruption.
+
+**Superseded, kept for history — run26's own closing note:**
 Control of Respiration: 15/15 triaged (9 kept, 6 excluded), 0 remaining
 bank rows. Gas exchange in the lung: 5/7 triaged (3 kept, 2 excluded), 2
 left unclaimed for their true clusters (A-V Connections; Gas Transport by
