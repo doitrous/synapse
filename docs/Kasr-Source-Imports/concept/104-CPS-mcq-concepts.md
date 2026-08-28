@@ -11,7 +11,9 @@
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
-    Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
+    Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
+    Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
@@ -30,9 +32,10 @@
     Lymphatic and Macrophage System — Thymus — 13 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 7 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 5 questions, 2 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
@@ -54,7 +57,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  82 questions were excluded and 0 held back for having no
+  84 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1443,6 +1446,154 @@ canonical_key "capillary-exchange.starling-forces-and-trans-capillary-filtration
 ---
 
 # Item
+## label
+Purkinje fibres are large, pale, vacuolated cardiac muscle fibres of the AV bundle's branches that conduct fast via gap junctions and carry no intercalated discs
+## id
+CON-CVS-3A8240E7E48C00
+## canonical_key
+cardiac-conducting-system.purkinje-fibre-site-and-histological-characteristics
+## definition
+Purkinje fibres are the terminal, specialised cardiac muscle fibres of the heart's conducting system — the right and left branches of the atrioventricular (AV) bundle, reaching the ventricular myocardium via the moderator band on the right, then running beneath the subendocardium to encircle the papillary-muscle bases before ascending towards the ventricular base. Because their job is rapid, uniform impulse spread rather than force generation, they are built differently from an ordinary cardiac myocyte: larger in diameter, with an eccentrically placed nucleus and a pale, vacuolated sarcoplasm (from abundant glycogen), few myofibrils lying peripherally so the fibre shows no clear striations, and gap junctions connecting fibre to fibre for fast conduction without any intercalated discs at all — the mechanical anchorage an intercalated disc gives ordinary contracting myocardium is not what a fibre built purely for signal speed needs. Bundles of Purkinje fibres are surrounded by a connective-tissue sheath.
+## explicit_objective
+State where Purkinje fibres sit in the conducting system (AV bundle branches, reached via the moderator band on the right) and list the histological features — diameter, nucleus position, sarcoplasm, striations, intercalated discs — that distinguish them from an ordinary cardiac myocyte.
+## pitfalls
+Assuming a specialised conducting cardiac fibre must still carry intercalated discs because it is cardiac muscle. Purkinje fibres carry gap junctions, which give the speed, but no intercalated discs at all — the fastest-conducting cardiac fibre is the one built for signal speed rather than the mechanical anchorage ordinary myocardium needs to contract as one.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01-M04
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Purkinje fibre histology | Conducting system muscle fibres | Moderator band fibres
+## article_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] All characters of Purkinje fibers except: XXX
+## conflicts
+CON-MSK-5EA95D36121EF8 (docs/import-ready/concept/103-BMS-histology-concepts.md, canonical_key cardiac-muscle.purkinje-fibres.histological-characteristics, pending) states this same idea in full, with real evidence (department histology book, cited claims/citations). Outside this pipeline's 104-CPS-scoped existingConceptIds() scan (different module, different root) and mintConceptId would not reproduce its id (different subject/system prefix), so no safe sparse-update path exists from this seed file — recorded here for a future consolidation ruling rather than silently duplicated.
+## uncertainty
+[clear]
+## evidence_gaps
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION states that the conducting system is specialised cardiac muscle (not nerve tissue), names the AV bundle's right and left branches, the moderator band link and Purkinje fibres as their terminal expression — but it does not itself state the cellular-level LM picture (larger diameter, eccentric nucleus, pale vacuolated sarcoplasm from glycogen, absent striations, absent intercalated discs, connective-tissue sheath around bundles) this leaf's own bank question tests. That histological detail is standard, undisputed cardiac histology, already fully evidenced in the sibling 103-BMS record noted above; flagged for the 104 CPS histology-article-authoring lane to add explicitly rather than leaving the citation to stand in for content the article does not yet carry.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-HEART-CHAMBERS | ART-104-ANA-HEART-VESSELS-NERVES-FIXATION
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-74C0F9BB0D3490
+## label
+The heart lies obliquely in the middle mediastinum, one third to the right and two thirds to the left of the median plane, with a base, an apex, two surfaces and four borders
+## canonical_key
+heart.external-features
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
+## article_ids
++ART-104-ANA-HEART-CHAMBERS
+## field_notes
+canonical_key "heart.external-features" already has a pinned id in this module (CON-CVS-74C0F9BB0D3490); mintConceptId derives the same id fresh (CON-CVS-74C0F9BB0D3490) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
 ## id
 CON-CVS-7DA6E2CF7A3369
 ## label
@@ -1455,6 +1606,23 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
 +ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
 canonical_key "cardiac-valve.histological-structure" already has a pinned id in this module (CON-CVS-7DA6E2CF7A3369); mintConceptId derives the same id fresh (CON-CVS-7DA6E2CF7A3369) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-CC8835108F512C
+## label
+The wall of the heart is three layers: epicardium, myocardium and endocardium
+## canonical_key
+heart-wall.three-layers-epicardium-myocardium-endocardium
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+## article_ids
++ART-104-HIS-HEART-AND-VESSEL-WALL
+## field_notes
+canonical_key "heart-wall.three-layers-epicardium-myocardium-endocardium" already has a pinned id in this module (CON-CVS-CC8835108F512C); mintConceptId derives the same id fresh (CON-CVS-CC8835108F512C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -4018,6 +4186,7 @@ src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes
@@ -4865,6 +5034,24 @@ src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
 +ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
 ## field_notes
 canonical_key "hering-breuer-reflex.pulmonary-stretch-receptors" already has a pinned id in this module (CON-RES-B68E39C6B4178F); mintConceptId derives the same id fresh (CON-RES-B68E39C6B4178F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-B29600F656A34B
+## label
+Coronary blood flow falls to a minimum during systole because ventricular contraction compresses the vessels within the wall, and is matched to myocardial O2 demand mainly by metabolic autoregulation since the myocardium already extracts 70-80% of delivered oxygen at rest
+## canonical_key
+coronary-circulation.phasic-flow-and-autoregulation
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p25 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p24 | 104 CPS
+## article_ids
++ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
+## field_notes
+canonical_key "coronary-circulation.phasic-flow-and-autoregulation" already has a pinned id in this module (CON-CVS-B29600F656A34B); mintConceptId derives the same id fresh (CON-CVS-B29600F656A34B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

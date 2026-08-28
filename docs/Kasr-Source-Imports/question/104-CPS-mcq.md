@@ -11,7 +11,9 @@
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
-    Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
+    Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
+    Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
+    Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
@@ -30,9 +32,10 @@
     Lymphatic and Macrophage System — Thymus — 13 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 7 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
+    Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Physiology Respiratory System — Gas Exchange in the Lung — 5 questions, 2 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
@@ -54,7 +57,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  82 questions were excluded and 0 held back for having no
+  84 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -8669,6 +8672,198 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-C55EDF8EA6A2
+## title
+All characters of Purkinje fibers except: XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of Purkinje fibers except: XXX
+## answer_a
+highly specialized fiber Surrounded with C.T sheath
+## explanation_a
+True of Purkinje fibres, so not the exception. Bundles of Purkinje fibres are surrounded by a connective-tissue sheath, part of what marks them out histologically as a specialised, separately-bundled fibre type.
+## answer_b
+Constitute A-V bundles, its branches
+## explanation_b
+True, so not the exception. Purkinje fibres are the terminal branches of the atrioventricular bundle and its right and left divisions, reaching the ventricular myocardium via the moderator band on the right side.
+## answer_c
+Central Nuclei with smaller diameter than ordinary fibers
+## explanation_c
+The exception, and the answer. Purkinje fibres have a LARGER diameter than an ordinary cardiac muscle fibre, not a smaller one, and their nucleus is typically eccentric in position, not central. A common trap: assuming a 'specialised' fibre must be smaller or more delicate than the ordinary tissue around it, when here the opposite is true on both counts.
+
+Why this is right:
+- Purkinje fibres are the terminal, specialised cardiac muscle fibres of the heart's conducting system — the right and left branches of the atrioventricular (AV) bundle, reaching the ventricular myocardium via the moderator band on the right, then running beneath the subendocardium to encircle the papillary-muscle bases before ascending towards the ventricular base.
+## answer_d
+No striation, No intercalated disc
+## explanation_d
+True, so not the exception. Purkinje fibres show no clear striations, because they carry few myofibrils lying peripherally in the fibre, and they carry no intercalated discs at all — their fibre-to-fibre conduction runs through gap junctions instead, built for speed rather than the mechanical anchorage an intercalated disc provides.
+## answer_e
+pale, vacuolated Sarcoplasm due to xss glycogen
+## explanation_e
+True, so not the exception. The Purkinje fibre's sarcoplasm is pale and vacuolated, a direct result of the abundant glycogen it stores.
+## correct_answer
+C
+## main_concept
+CON-CVS-3A8240E7E48C00
+## library_ids
+ART-104-ANA-HEART-SKELETON-AND-CONDUCTION
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres)
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that Purkinje fibres have a LARGER diameter and an eccentric — not central and smaller — nucleus compared with an ordinary cardiac muscle fibre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q11. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-202BB87EC5FA
+## title
+Regarding the anatomy of the heart, following statements are correct, ١ EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the anatomy of the heart, following statements are correct, ١ EXCEPT:
+## answer_a
+The sternocostal (anterior) surface of the heart is formed mainly by the right \ ventricle.
+## explanation_a
+True, so not the exception. The sternocostal (anterior) surface of the heart is formed mainly by the right ventricle, which lies anteriorly.
+## answer_b
+The heart rest on its inferior surface.
+## explanation_b
+True, so not the exception. The heart's diaphragmatic (inferior) surface, formed mainly by the left ventricle, rests upon the diaphragm.
+## answer_c
+The Left ventricle lies anterior to the right ventricle. \
+## explanation_c
+The exception, and the answer. This reverses the true spatial relationship: it is the RIGHT ventricle that lies anterior, forming most of the sternocostal surface, while the left ventricle sits more posteriorly and to the left, contributing mainly to the apex and the diaphragmatic surface — not anterior to the right ventricle at all.
+
+Why this is right:
+- The heart is a hollow muscular pump lying inside the pericardium in the middle mediastinum, behind the sternum and adjoining costal cartilages, one third of its bulk to the right of the median plane and two thirds to the left.
+## answer_d
+The Left ventricular wall is usually three times thicker than of the right.
+## explanation_d
+True, so not the exception. Because it must generate systemic, not pulmonary, pressures, the left ventricular wall is roughly three times thicker than the right ventricle's.
+## answer_e
+The Left atrium of the heart receives pulmonary veins.
+## explanation_e
+True, so not the exception. The left atrium receives the four pulmonary veins returning oxygenated blood from the lungs.
+## correct_answer
+C
+## main_concept
+CON-CVS-74C0F9BB0D3490
+## library_ids
+ART-104-ANA-HEART-CHAMBERS
+## topic
+Anatomy
+## subtopic
+Anatomy Cardiovascular System — The Heart (external features)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that the RIGHT, not the left, ventricle lies anterior and forms most of the heart's sternocostal surface.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p28 q114. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-F68B9AD78542
 ## title
 Valve of heart is lined by - - - - epithelium XXX
@@ -8751,6 +8946,558 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-42ED8EAC921C
+## title
+All characters of epicardium except: XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of epicardium except: XXX
+## answer_a
+adhere to outer surface
+## explanation_a
+True of the epicardium, so not the exception. The epicardium is the visceral layer of the serous pericardium, adherent to the heart's own outer surface.
+## answer_b
+Contain blood vessels, nerves,
+## explanation_b
+True, so not the exception. The epicardium's connective tissue carries the heart's own blood vessels and nerves as they run to and from the myocardium.
+## answer_c
+single layer of mesothelial cell with C.T
+## explanation_c
+True, so not the exception. The epicardium is a single layer of mesothelial cells resting on connective tissue — not a multi-layered structure.
+## answer_d
+Contain middle layer of subendothelial C.T
+## explanation_d
+The exception, and the answer. A middle layer of subendothelial connective tissue belongs to the endocardium (and, more generally, to a blood vessel's own intima) — the epicardium is a single mesothelial sheet over connective tissue, with no such middle layer of its own. A common trap: assuming every named cardiac layer shares the same internal structure as the endocardium simply because both sit at a wall surface.
+
+Why this is right:
+- The heart's wall is three layers from outside to inside.
+## correct_answer
+D
+## main_concept
+CON-CVS-CC8835108F512C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Heart Valves
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that a middle layer of subendothelial connective tissue is not a feature of the epicardium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-489F3391D758
+## title
+is double walled and has Serous, fibrous layer XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is double walled and has Serous, fibrous layer XXX
+## answer_a
+epicardium
+## explanation_a
+The epicardium is a single mesothelial layer — it is the visceral layer of the serous pericardium, not a double-walled structure in its own right.
+## answer_b
+myocardium
+## explanation_b
+The myocardium is cardiac muscle, the heart wall's own thick middle bulk — not a double-walled serous-and-fibrous sac.
+## answer_c
+pericardium
+## explanation_c
+The pericardium is double-walled: an outer fibrous layer and an inner serous layer, the serous layer itself split into parietal and visceral (epicardial) sheets enclosing the pericardial cavity between them.
+
+Why this is right:
+- The heart's wall is three layers from outside to inside.
+## answer_d
+subendocardium
+## explanation_d
+The subendocardium is a single connective-tissue layer deep to the endocardial endothelium, not a double-walled structure.
+## correct_answer
+C
+## main_concept
+CON-CVS-CC8835108F512C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Heart Valves
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure identification
+## learning_objective
+Name the pericardium as the double-walled sac with a fibrous outer layer and a serous inner layer.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q6. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-00292802057C
+## title
+is formed of branched interconnected fibers surrounded by sheath of endomysium XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is formed of branched interconnected fibers surrounded by sheath of endomysium XXX
+## answer_a
+epicardium
+## explanation_a
+The epicardium is a mesothelial layer over connective tissue, not muscle fibres.
+## answer_b
+myocardium
+## explanation_b
+The myocardium is built of branched, interconnected cardiac muscle fibres, each wrapped in a delicate, capillary-rich endomysium — the thick middle bulk of the heart wall, thicker in the ventricles than the atria.
+
+Why this is right:
+- The heart's wall is three layers from outside to inside.
+## answer_c
+pericardium
+## explanation_c
+The pericardium is the fibrous-and-serous sac around the heart, not a layer of muscle fibres.
+## answer_d
+subendocardium
+## explanation_d
+The subendocardium is connective tissue continuous with the myocardium's own connective tissue, not muscle fibres itself.
+## correct_answer
+B
+## main_concept
+CON-CVS-CC8835108F512C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Heart Valves
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure identification
+## learning_objective
+Name the myocardium as branched, interconnected muscle fibres each sheathed in endomysium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q5. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4403C9E3E72D
+## title
+main bulk of heart's wall: XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+main bulk of heart's wall: XXX
+## answer_a
+epicardium
+## explanation_a
+The epicardium is a thin outer mesothelial layer, not the wall's bulk.
+## answer_b
+myocardium
+## explanation_b
+The myocardium, cardiac muscle, is the thick middle bulk of the heart's wall — thicker in the ventricles, which must generate the higher pressures, than in the atria.
+
+Why this is right:
+- The heart's wall is three layers from outside to inside.
+## answer_c
+pericardium
+## explanation_c
+The pericardium is the external fibrous-and-serous sac enclosing the heart, not part of the wall's own thickness.
+## answer_d
+subendocardium
+## explanation_d
+The subendocardium is a thin connective-tissue layer just inside the endocardium's endothelium, not the wall's main bulk.
+## correct_answer
+B
+## main_concept
+CON-CVS-CC8835108F512C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Heart Valves
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure identification
+## learning_objective
+Name the myocardium as the thick middle bulk of the heart wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-9B816C87A0A1
+## title
+visceral layer called ---------------XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+visceral layer called ---------------XXX
+## answer_a
+epicardium
+## explanation_a
+The epicardium is exactly the visceral layer of the serous pericardium — the same mesothelium reflected onto the heart's own surface, adherent to it and carrying its vessels and nerves.
+
+Why this is right:
+- The heart's wall is three layers from outside to inside.
+## answer_b
+myocardium
+## explanation_b
+The myocardium is the heart's own muscle, not a layer of the pericardium at all.
+## answer_c
+pericardium
+## explanation_c
+The pericardium names the whole sac — fibrous layer plus parietal and visceral serous layers — not specifically its visceral layer alone. A common trap: using 'pericardium' and 'epicardium' interchangeably when the epicardium is specifically the visceral serous layer stuck to the heart.
+## answer_d
+subendocardium
+## explanation_d
+The subendocardium is the connective tissue deep to the endocardium's endothelium, unrelated to the pericardial layers.
+## correct_answer
+A
+## main_concept
+CON-CVS-CC8835108F512C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Heart Valves
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the epicardium as the visceral layer of the serous pericardium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C39A4657003E
+## title
+Conducting system of heart is located in: XXX
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Conducting system of heart is located in: XXX
+## answer_a
+epicardium
+## explanation_a
+The epicardium is the outer mesothelial layer, uninvolved in impulse conduction.
+## answer_b
+myocardium
+## explanation_b
+A common trap: assuming the conducting system sits in the myocardium because it is 'electrical muscle.' It does not — the conducting fibres lie in the subendocardial connective tissue of the endocardium, the layer just inside the muscle mass they go on to excite.
+## answer_c
+subendocardial layer
+## explanation_c
+The subendocardial connective tissue, part of the endocardium, houses the heart's conducting system — continuous with the myocardium's own connective tissue but distinct from the contractile muscle itself.
+
+Why this is right:
+- The heart's wall is three layers from outside to inside.
+## answer_d
+pericardium
+## explanation_d
+The pericardium is the external sac around the heart, unrelated to the conducting system's location within the wall.
+## correct_answer
+C
+## main_concept
+CON-CVS-CC8835108F512C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Heart Valves
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > The heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure identification
+## learning_objective
+Locate the heart's conducting system in the subendocardial connective tissue, not the myocardium itself.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q2. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
@@ -27668,6 +28415,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-A8CCBC8C7052
+## title
+According to Starling law, the strength of cardiac muscle contraction is directly propo…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+According to Starling law, the strength of cardiac muscle contraction is directly proportionate to which of the following?
+## answer_a
+Arterial blood pressure
+## explanation_a
+Arterial blood pressure relates to afterload, a separate determinant of cardiac performance from the length-dependent (preload-based) relationship Frank-Starling's law describes.
+## answer_b
+Decreased oxygen supply to myocardium
+## explanation_b
+Decreased oxygen supply to the myocardium would impair contractile strength through an entirely different, ischaemic mechanism, unrelated to fibre stretch.
+## answer_c
+The end systolic volume
+## explanation_c
+End-systolic volume is a consequence of the heart's own pumping performance, not the variable Frank-Starling's law identifies as directly determining contraction strength.
+## answer_d
+Degree of stretching of muscle fibres
+## explanation_d
+Frank-Starling's law states that, within physiological limits, the strength of cardiac muscle contraction is directly proportional to the degree of stretching of the muscle fibres just before contraction begins — that is, to preload, set mainly by venous return. Greater diastolic stretch increases the overlap and calcium sensitivity of the contractile apparatus up to an optimal length, producing a more forceful subsequent contraction — the mechanism by which the heart automatically matches its output to venous return without an external neural signal.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State Frank-Starling's law: contraction strength is directly proportionate to the degree of stretching of the muscle fibres (preload).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p8 q54. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-40ACDB21FA56
 ## title
 Asa rapid compensatory reaction to hemorrhagic shock, the secretion of the following ho…
@@ -29044,6 +29883,194 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7E96991DC251
+## title
+The left coronary flow:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The left coronary flow:
+## answer_a
+Is independent of the oxygen needs of the myocardium
+## explanation_a
+Coronary blood flow is tightly coupled to myocardial oxygen demand via local metabolic regulation — the opposite of being independent of it.
+## answer_b
+Is the same as the right coronary flow
+## explanation_b
+Left and right coronary flow differ in their pattern across the cardiac cycle: left flow is markedly diastole-dominant because of systolic compression, while right flow — facing much lower right-ventricular pressures — is more evenly distributed across the cycle, so the two are not simply 'the same.'
+## answer_c
+Peaks in early systole
+## explanation_c
+Left coronary flow is actually lowest, not highest, during early systole: the powerful contraction of the left ventricular myocardium compresses the intramural coronary vessels running through it, squeezing the very vessels trying to supply it.
+## answer_d
+Peaks in early diastole
+## explanation_d
+Left coronary flow peaks in early diastole, when the myocardium relaxes and releases the compressive force systole placed on the intramural coronary vessels, letting blood flow freely into the coronary bed. This systolic-compression effect is much less pronounced on the right, since right ventricular pressures are far lower — a distinguishing feature to pair with 'left coronary flow.'
+
+Why this is right:
+- Contraction of the myocardium during systole compresses the coronary vessels within the ventricular wall, increasing their resistance and decreasing coronary flow to a minimum.
+## correct_answer
+D
+## main_concept
+CON-CVS-B29600F656A34B
+## library_ids
+ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Special Circulation (Coronary)
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Special Circulation
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that left coronary flow peaks in early diastole because systolic ventricular contraction compresses the intramural coronary vessels.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p25 q184. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E2395AA8891D
+## title
+Which of the following is correct?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is correct?
+## answer_a
+The heart receives most of its blood supply during diastole
+## explanation_a
+True on its own: the heart genuinely receives most of its coronary blood supply during diastole, since systolic ventricular contraction compresses the intramural coronary vessels (especially in the left ventricle) and impedes flow until the muscle relaxes. Combined with statement C, this makes E the correct comprehensive answer.
+## answer_b
+Coronary circulation is mainly under neural control
+## explanation_b
+False. Coronary circulation is regulated predominantly by local metabolic factors — adenosine, hypoxia, CO2 and other vasoactive metabolites released as myocardial metabolism rises — matching flow tightly to myocardial oxygen demand, not primarily by neural control.
+## answer_c
+During systole the % decrease in subendocardial blood flow is greater than the % decrease in
+## explanation_c
+True on its own: during systole, the subendocardium — the innermost, most heavily compressed layer of myocardium — suffers a proportionally greater percentage fall in blood flow than the more protected subepicardium, which is exactly why the subendocardium is especially vulnerable to ischaemia under increased demand or reduced perfusion pressure.
+## answer_d
+B & C are correct
+## explanation_d
+Since statement B is false, the combination 'B and C' cannot be the correct comprehensive answer.
+## answer_e
+A&C are correct
+## explanation_e
+Both A and C are independently true — the heart is diastole-supplied overall, and the subendocardium is disproportionately compressed during systole specifically — making 'A and C' the correct, complete answer.
+
+Why this is right:
+- Contraction of the myocardium during systole compresses the coronary vessels within the ventricular wall, increasing their resistance and decreasing coronary flow to a minimum.
+## correct_answer
+E
+## main_concept
+CON-CVS-B29600F656A34B
+## library_ids
+ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Special Circulation (Coronary)
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Special Circulation
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Comprehensive true/false combination
+## learning_objective
+Identify that the heart receives most of its coronary supply during diastole AND that the subendocardium suffers a proportionally greater fall in flow during systole than the subepicardium, while rejecting neural control as coronary circulation's main regulator.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p24 q180. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 

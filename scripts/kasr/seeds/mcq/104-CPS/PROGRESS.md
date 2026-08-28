@@ -1,7 +1,8 @@
 # 104 CPS MCQ authoring — progress
 
-Branch: `kasr-104-author-run29` (off `kasr-104-author-run28` @ `3af4de1e`,
-pushed to origin). run28's own base was `kasr-104-author-run27` @ `bd7e9f9b`;
+Branch: `kasr-104-author-run30` (off `kasr-104-author-run29` @ `39521cf0`,
+pushed to origin). run29's own base was `kasr-104-author-run28` @ `3af4de1e`;
+run28's own base was `kasr-104-author-run27` @ `bd7e9f9b`;
 run27's own base was `kasr-104-author-run26` @ `1314b2ff`; run26's own base
 was `kasr-104-author-run25` @ `14f77eef`; run25's own base was
 `kasr-104-author-run23` @ `29aff753`; run24 was interrupted mid-Pulmonary-
@@ -9,10 +10,202 @@ Compliance and never committed anything — its work is gone, redone cleanly
 in run25.
 
 Bank total: 1289 questions in `scripts/kasr/extract/104-CPS/mcq-bank.json`.
-As of this session's (run29's) HEAD: **453 kept**, 82 excluded, 98 MCQ
-concepts (95 + 2 sparse-reuse concepts' first appearance in this file + 1
-genuine fresh mint). (run28's own HEAD was 432 kept, 71 excluded, 95 MCQ
-concepts.)
+As of this session's (run30's) HEAD: **464 kept**, 84 excluded, 102 MCQ
+concepts. (run29's own HEAD was 453 kept, 82 excluded, 98 MCQ concepts.)
+
+## The heart (13/13 bank-tagged rows accounted for this session — run30,
+first CVS leaf closed after Veins) — 11 kept, 2 excluded, 0 left unclaimed
+for other clusters (2 genuinely belong to not-yet-started clusters, see
+below, but are documented rather than silently dropped). Plus a **down
+payment on the next leaf**: 2 of the 4 gross-anatomy rows run29 surfaced
+(bank-tagged "Veins", genuinely heart/thorax anatomy) authored here too,
+since the dispatch brief scoped this session as "Heart (histology/
+anatomy)" explicitly; the other 2 (both genuinely Lungs anatomy) are left
+for the next session, plus 1 more heart-anatomy row found and deliberately
+NOT authored due to a genuine source conflict (below). Five commits: wall-
+layers reuse, Purkinje fresh mint, Frank-Starling reroute + fix, coronary-
+circulation reuse, heart gross-anatomy reuse — each ran the full
+build+batch+simulate+audit gate before committing.
+
+**MINT DISCIPLINE, done properly this time**: `find-existing.mjs` was run
+for every candidate BEFORE minting anything, per the heightened CVS
+mitigation (and run29's own self-caught precedent of what happens when
+this is skipped).
+
+**cardiovascular-heart-wall-and-valves.ts** (already-existing file, this
+exact leaf's own `modulePath` and `articleId` — extended, not replaced):
+- **Sparse reuse, not a fresh mint**: `find-existing.mjs "epicardium"` /
+  `"myocardium"` surfaced a hand-authored, pinned record
+  (`CON-CVS-CC8835108F512C`, canonical_key `heart-wall.three-layers-
+  epicardium-myocardium-endocardium`) already sitting in
+  `104-CPS-histology-concepts.md`, already cross-linked as this file's own
+  article's (`ART-104-HIS-HEART-AND-VESSEL-WALL`) `related_concepts`. 6
+  kept questions: 5 wall-layer identification rows (epicardium/myocardium/
+  pericardium/subendocardium distinguished by structure) + 1 conducting-
+  system-location row (subendocardial connective tissue, not the
+  myocardium — the article's own "Common misconceptions" section states
+  this exact point).
+
+**New file `cardiovascular-conducting-system-histology.ts`** (articleId
+`ART-104-ANA-HEART-SKELETON-AND-CONDUCTION`, a real, live, evidenced
+Draft anatomy article — read in full before authoring; deliberately a
+different article from the file above, since no 104-CPS histology article
+states Purkinje fibres' own cellular-level picture):
+- **Fresh mint after a real search, overlap found and recorded, not
+  reused**: `cardiac-conducting-system.purkinje-fibre-site-and-
+  histological-characteristics` (1 kept: the "except" question on
+  diameter/nucleus/sarcoplasm/striations/intercalated-discs). `find-
+  existing.mjs "purkinje"` / `"subendocardial"` returned no 104-CPS-scoped
+  hit, but surfaced `CON-MSK-5EA95D36121EF8`
+  (`docs/import-ready/concept/103-BMS-histology-concepts.md`, canonical_key
+  `cardiac-muscle.purkinje-fibres.histological-characteristics`) — a
+  **different Kasr module's own pending batch**, fully evidenced, stating
+  this exact idea. That record's own `rejectedMergeCandidateIds` field had
+  already considered and rejected merging with "the 104 CPS conduction-
+  system concepts" on the grounds that those state function, not
+  histology — but this leaf's own bank row tests exactly the histological
+  picture 103-BMS's record already owns. Not reused: `existingConceptIds()`
+  for module "104 CPS" only scans `docs/Kasr-Source-Imports/concept/
+  104-CPS-*.md` (confirmed by reading `build-batches.ts:151-180` directly),
+  so a different module's file in `docs/import-ready/` is invisible to it,
+  and `mintConceptId` under subject `cvs` would not reproduce
+  `CON-MSK-5EA95D36121EF8`'s own MSK-system mint in any case — the same
+  "different pipeline/root, no safe sparse-update path" situation
+  documented repeatedly elsewhere in this branch for GENERATED_BY-blind and
+  cross-catalogue overlaps. Minted fresh under 104 CPS instead, overlap
+  recorded in the concept's own `conflicts` field — **needs a
+  chief-of-staff ruling** on consolidation once 103-BMS's own batch is
+  imported.
+  **Gap disclosed**: `ART-104-ANA-HEART-SKELETON-AND-CONDUCTION` states the
+  conducting system is specialised cardiac muscle (not nerve), names the
+  AV bundle's branches, the moderator band link and Purkinje fibres as
+  their terminal expression, but does not itself state the cellular LM
+  picture (diameter, nucleus, sarcoplasm, striations, intercalated discs,
+  connective-tissue sheath) this question tests — standard, undisputed
+  histology, already fully evidenced in the sibling 103-BMS record;
+  flagged for the 104 CPS histology-article-authoring lane.
+
+**physiology-cardiac-preload-frank-starling.ts** (already-existing file,
+leaf "Mechanical Properties of Cardiac Muscle" — a **leaf-mismatch
+reroute**: both rows bank-tagged "The heart" restate this file's own
+already-claimed Frank-Starling/preload concept, the leaf-field-unreliable
+hazard confirmed yet again, no new search needed):
+- 1 kept (`according-to-starling-law-the-strength-of-cardiac-muscle-
+  con-4e1e6c59`): restates "strength of contraction proportional to degree
+  of fibre stretch" in different wording from this file's existing 4
+  questions.
+- **Self-caught defect, same class as run27's/run29's own precedent**:
+  `in-the-whole-intact-heart-bef9de81` was drafted as a kept question on
+  first pass, but this commit's own `medical:batch` run flagged it ("3
+  options — the contract is 4 to 5") — the bank extraction genuinely never
+  recovered an option C for this row. Converted to `exclude: true` before
+  the final gate run; the fix is reflected in the commit's own gate-line
+  history (first run: 5 errors, 465 kept; after fix: back to the 4
+  pre-existing, 464 kept).
+- 1 more excluded (`according-to-starling-law-the-tension-of-isometric-
+  cardiac-m-0dfbb05b`): already unanswerable in the bank itself
+  (`answer: null`, `editorialExcluded: true`) — no printed key, and none of
+  the five options restates Starling's own core relationship.
+
+**New file `physiology-coronary-circulation.ts`** (articleId
+`ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION`, leaf "Special
+Circulation" — this session also closes that leaf's own single remaining
+bank row as a side effect):
+- **Sparse reuse, not a fresh mint**: `find-existing.mjs "coronary flow"`
+  surfaced a hand-authored, pinned record (`CON-CVS-B29600F656A34B`,
+  canonical_key `coronary-circulation.phasic-flow-and-autoregulation`,
+  `module_subject` "104 CPS > Physiology > Cardiovascular System > Special
+  Circulation" — this exact leaf) already sitting in `104-CPS-physiology-
+  concepts.md`, pinned to this same live article. 2 kept: `the-left-
+  coronary-flow-e45593b5` (bank-tagged "The heart" — leaf-mismatch reroute,
+  left-vs-right phasic pattern) and `which-of-the-following-is-correct-
+  0954638f` (Special Circulation's own last remaining row — diastole-
+  dominant supply + subendocardial vulnerability + metabolic-over-neural
+  regulation, a 5-option comprehensive-answer item). **Special Circulation
+  leaf is now 0 remaining.**
+
+**New file `cardiovascular-heart-gross-anatomy.ts`** (articleId
+`ART-104-ANA-HEART-CHAMBERS`, a real, live, evidenced Draft anatomy
+article — the first CVS **gross anatomy** MCQ file this session opens,
+down-payment on the resume-first note below):
+- **Sparse reuse, not a fresh mint**: `find-existing.mjs "sternocostal"`
+  surfaced a hand-authored, pinned record (`CON-CVS-74C0F9BB0D3490`,
+  canonical_key `heart.external-features`) already sitting in
+  `104-CPS-anatomy-concepts.md`, cross-linked as this same article's own
+  `related_concepts`. 1 kept: `regarding-the-anatomy-of-the-heart-
+  following-statements-are-62f7c901` (bank-tagged "Veins" — one of run29's
+  own 4 down-payment rows; heart surfaces/chambers, the RV-vs-LV anterior
+  relationship as the false statement).
+  **Gap disclosed**: neither this article nor the pinned concept states in
+  one sentence that the RIGHT ventricle specifically predominates on the
+  sternocostal surface / lies anterior to the left — defensible by
+  elimination from what both do state (apex + diaphragmatic surface are
+  left-ventricular) and from the sibling coronary-arteries article (left
+  coronary's anterior interventricular branch supplies only "a strip of
+  the right ventricle" on the sternocostal surface), but not spelled out
+  explicitly; flagged for the anatomy-article-authoring lane.
+
+**A genuine source conflict found, authored around rather than
+guessed past** — the second of run29's 4 down-payment rows,
+`regarding-brachiocephalic-veins-one-of-the-following-stateme-8aac4731`
+(bank answer B: "They drain lymph from whole body" marked as the false/
+"incorrect" statement, `answerConfidence: editorial-no-printed-key` — no
+printed key exists, an earlier pipeline stage's own editorial guess). But
+`find-existing.mjs "brachiocephalic vein"` surfaced a hand-authored,
+pinned, department-book-sourced record (`CON-CVS-9CDFD3C60A2550`,
+canonical_key `brachiocephalic-veins.formation-and-course`,
+`104-CPS-anatomy-concepts.md`) whose own definition states, of the two
+veins together: "drain... lymph from the whole body" — treating this as a
+true, if collective/elliptical, statement (right vein via the right
+lymphatic duct, left vein via the thoracic duct, so between the two nearly
+all the body's lymph reaches the venous system through them). This
+**directly contradicts** the bank's own un-keyed editorial guess that the
+same statement is the row's false "except" answer. Rather than force the
+bank's unverified guess into a kept question, or silently substitute my
+own contradicting judgement, this row is **left unauthored**, the
+conflict recorded here for a human ruling — this is exactly the kind of
+"drift to rule on" the manual asks a lane to escalate rather than resolve
+by guessing. The concept id (`CON-CVS-9CDFD3C60A2550`) is noted for
+whoever picks this up.
+
+**2 rows left deliberately unclaimed for their true, not-yet-started
+clusters** (no seed file references these keys — do not recount as
+still-open "The heart" work):
+- `increasing-the-inotropic-state-of-the-myocardium-will-4a21ac61`
+  (pressure-volume-loop width / end-systolic-volume effects of inotropy) —
+  genuinely **Mechanical Properties of Cardiac Muscle** (36 remaining
+  rows). `find-existing.mjs "inotropic"` surfaced a pinned
+  `104-CPS-physiology-concepts.md` concept
+  (`cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms`,
+  `CON-CVS-BF82D6F52B72C9`) but it teaches the beta-adrenergic/cAMP/PKA
+  **molecular mechanism** of inotropy, not the PV-loop/force-velocity
+  **mechanical consequence** this row tests — genuinely distinct
+  objectives per the tiebreaker rule, so a NEW concept is needed, out of
+  this session's scope; flagged with its likely cross-link target.
+- `ecg-record-gives-valuable-information-about-all-of-the-follo-68820593`
+  (ECG's own diagnostic scope: rhythm/chamber-size/ischaemia yes, cardiac
+  output no) — genuinely **Electrical Activity of the Heart** (47
+  remaining rows, the largest untouched CVS leaf). No dedicated 104 CPS
+  ECG article/concept file exists yet; flagged as a starting point for
+  whoever opens that leaf.
+
+**Down payment on the next leaf, 2 rows deliberately left for next
+session** (both well-supported by an article already read in full this
+session — do not recount as still-open "The heart" work, and do not
+re-search from scratch):
+- `the-mediastinal-surface-of-the-left-lang-shows-an-impression-24a9bb35`
+  (left lung's mediastinal-surface impression for the descending thoracic
+  aorta, not SVC/IVC which are right-lung impressions) and
+  `which-vessel-passes-directly-behind-the-right-hilum-01be7ae1` (azygos
+  vein) are both genuinely **Lungs anatomy**, directly supported by
+  `ART-104-ANA-LUNG-SURFACE-FEATURES` (read in full this session — its
+  Structure section states exactly the left-lung mediastinal-surface
+  groove list, including "behind the hilum, the groove for the descending
+  thoracic aorta"). The azygos row needs one more source check (the exact
+  "passes directly behind" phrasing wasn't found verbatim; the cardiac-
+  sling passage in `ART-104-ANA-HEART-VESSELS-NERVES-FIXATION` — "the
+  azygos arch and right pulmonary artery round the right principal
+  bronchus" — is the closest match so far).
 
 ## Veins (34 bank-tagged rows + 6 rows deferred from Arteries = 40
 accounted for this session — run29) — 9 kept via 2 sparse reuses in a new
@@ -848,47 +1041,59 @@ topic-only, lower priority.)
 
 ## Next action (resume-first)
 
-**run29's dispatched Veins cluster is now closed (34 bank-tagged rows + 6
-deferred from Arteries = 40 accounted for — 21 kept total: 16 via 2 new
-files (9 sparse-reuse + 7 fresh-mint), 1 via a leaf-mismatch routing onto
-`cardiovascular-artery-classification.ts`, 4 more routed onto already-
-existing concepts in 2 other files; 10 excluded; 8 deliberately left
-unclaimed).** Per the dispatch brief's stated order, **the next CVS leaf —
-Heart / Spleen / Lungs anatomy — is next.** Concretely:
-- **The heart (13 already-tagged bank rows)** has a real head start: 4
-  genuine gross-anatomy rows surfaced this session, bank-tagged "Veins"
-  but content-wise heart/thorax anatomy (`regarding-brachiocephalic-veins-
-  one-of-the-following-stateme-8aac4731`, `regarding-the-anatomy-of-the-
-  heart-following-statements-are-62f7c901`, `the-mediastinal-surface-of-
-  the-left-lang-shows-an-impression-24a9bb35`,
-  `which-vessel-passes-directly-behind-the-right-hilum-01be7ae1`) — read
-  these first alongside the 13 already-tagged "The heart" rows before
-  minting anything, since together they may cluster into shared concepts
-  (e.g. great-vessel/mediastinal relations).
+**run30's dispatched Heart cluster is now closed (13/13 bank-tagged rows
+accounted for — 11 kept, 2 excluded, 0 deliberately unclaimed for other
+clusters though 2 rows are documented and deferred there; plus 1 gross-
+anatomy down-payment row kept and Special Circulation's own last row
+closed as a side effect — see "The heart" section above).** Per the
+dispatch brief's stated order, **Spleen or Lungs anatomy is next.**
+Concretely:
+- **`104-CPS-anatomy-concepts.md` / `104-CPS-anatomy.md` are now a
+  confirmed, rich, already-written article+concept pair covering gross
+  thorax/heart/lung anatomy in full** — 19 real, live, evidenced Draft
+  articles (`ART-104-ANA-THORACIC-CAGE` through `ART-104-ANA-DEV-HEART-
+  OUTFLOW-AND-CIRCULATION`; the full id-to-title map is in this session's
+  own research, reconstructible via `awk '/^## id$/{getline id; print id}
+  /^## title$/{getline t; print "  -> " t}'
+  docs/Kasr-Source-Imports/article/104-CPS-anatomy.md`), most already used
+  by the pre-run25 `anatomy-*.ts` seed files sitting in this same
+  directory (pericardium, diaphragm, pleura, aortic-arch-relations,
+  development-of-the-heart, large-nerves-of-the-thorax, lymphatics-of-the-
+  thorax — all already closed, do not re-author). **Two of these articles
+  are the Lungs-anatomy starting point**: `ART-104-ANA-LUNG-SURFACE-
+  FEATURES` ("The lungs: external features, hilum, fissures, lobes and the
+  differences between the two sides") and `ART-104-ANA-LUNG-SEGMENTS-AND-
+  BLOOD-SUPPLY` — neither has a seed file yet (`anatomy-pleura.ts` is
+  pleura only, not lung parenchyma/hilum). Check `104-CPS-anatomy-
+  concepts.md` for pinned, unimported concepts on lung external features/
+  hilum/fissures before minting, per the heightened CVS dedup mitigation —
+  unchecked this session (time did not allow going beyond the Heart
+  cluster's own down-payment).
+- **2 rows already deferred here for Lungs anatomy, well-supported, do not
+  re-search**: `the-mediastinal-surface-of-the-left-lang-shows-an-
+  impression-24a9bb35` and `which-vessel-passes-directly-behind-the-right-
+  hilum-01be7ae1` — see "The heart" section above for the exact article
+  passages already found.
 - **Spleen (26 already-tagged rows + 2 deferred from Arteries — see the
-  Arteries section above — = 28 effectively)** and a not-yet-checked
-  "Lungs anatomy" grouping (the bank's own leaf tags for lung/pleura gross
-  anatomy, distinct from the already-closed Respiratory Portion/Pulmonary
-  Compliance histology-physiology leaves, have not been enumerated yet —
-  run a leaf-tag survey of the bank before assuming which tag names apply)
-  are both untouched; no dedicated file exists for either.
-- No `cardiovascular-heart-anatomy.ts` or similar file exists yet —
-  `cardiovascular-heart-wall-and-valves.ts` is **histology** (cardiac
-  valve microstructure only, 1 concept), not gross anatomy; a new file is
-  needed. Check `104-CPS-anatomy-concepts.md` / `104-CPS-anatomy.md` (this
-  session confirmed these exist as a separate concept/article pair from
-  the histology and physiology ones already used) for pinned,
-  unimported anatomy concepts before minting, per the heightened CVS
-  dedup mitigation — a hand-authored anatomy batch parallel to the
-  histology-concepts one found in A-V Connections is plausible and
-  unchecked.
-- **Article coverage is unverified for this leaf.** Before authoring
-  against any article, confirm it actually teaches gross thorax/heart/
-  lung anatomy (brachiocephalic vein course, heart chamber/surface
-  relations, azygos vein at the right hilum) — `104-CPS-anatomy.md` is the
-  most likely home, but read it in full first per the heightened article-
-  mispinning awareness; do not assume a histology or physiology article
-  covers this content just because it shares the CVS subject.
+  Arteries section above — = 28 effectively)** remains completely
+  untouched; no dedicated file exists, and no search for pinned Spleen
+  concepts has been run yet this branch.
+- **A genuine source conflict needs a human ruling before anyone authors
+  it**: `regarding-brachiocephalic-veins-one-of-the-following-stateme-
+  8aac4731` — see "The heart" section above. Do not silently pick either
+  side; escalate to the chief of staff / Omar.
+- **A chief-of-staff consolidation ruling is needed**, not urgent: this
+  session's fresh-mint `cardiac-conducting-system.purkinje-fibre-site-and-
+  histological-characteristics` (`CON-CVS-3A8240E7E48C00`) overlaps
+  `CON-MSK-5EA95D36121EF8` in a different Kasr module's own pending batch
+  (`docs/import-ready/concept/103-BMS-histology-concepts.md`) — see "The
+  heart" section above for the full reasoning.
+- **2 rows genuinely belong to not-yet-started clusters, documented, not
+  authored**: `increasing-the-inotropic-state-of-the-myocardium-will-
+  4a21ac61` (Mechanical Properties of Cardiac Muscle, 36 remaining rows)
+  and `ecg-record-gives-valuable-information-about-all-of-the-follo-
+  68820593` (Electrical Activity of the Heart, 47 remaining rows, the
+  largest untouched CVS leaf) — see "The heart" section above.
 
 **Superseded, kept for history — run28's own closing note:**
 A-V Connections: 54/54 accounted for (40 kept, 12 excluded, 7 deliberately

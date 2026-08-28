@@ -74,5 +74,58 @@ export const LEAF: McqLeafSeed = {
         D: 'Contractile force varies with preload, afterload, sympathetic tone and other inotropic influences — it is not fixed or invariant.',
       },
     },
+    // Leaf-mismatch reroute: bank-tagged "The heart" (a Cardiovascular-System
+    // histology/anatomy leaf), but both rows below restate this same,
+    // already-claimed Frank-Starling/preload concept in a different
+    // phrasing — the leaf-field-unreliable hazard confirmed yet again. No
+    // new search needed; this file's own concept already covers them.
+    {
+      key: 'according-to-starling-law-the-strength-of-cardiac-muscle-con-4e1e6c59',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Easy',
+      questionType: 'Definition',
+      learningObjective: "State Frank-Starling's law: contraction strength is directly proportionate to the degree of stretching of the muscle fibres (preload).",
+      explanations: {
+        A: 'Arterial blood pressure relates to afterload, a separate determinant of cardiac performance from the length-dependent (preload-based) relationship Frank-Starling\'s law describes.',
+        B: 'Decreased oxygen supply to the myocardium would impair contractile strength through an entirely different, ischaemic mechanism, unrelated to fibre stretch.',
+        C: 'End-systolic volume is a consequence of the heart\'s own pumping performance, not the variable Frank-Starling\'s law identifies as directly determining contraction strength.',
+        D: 'Frank-Starling\'s law states that, within physiological limits, the strength of cardiac muscle contraction is directly proportional to the degree of stretching of the muscle fibres just before contraction begins — that is, to preload, set mainly by venous return. Greater diastolic stretch increases the overlap and calcium sensitivity of the contractile apparatus up to an optimal length, producing a more forceful subsequent contraction — the mechanism by which the heart automatically matches its output to venous return without an external neural signal.',
+      },
+    },
+    {
+      // Only 3 options survived extraction (A, B, D — no C at all), below
+      // the platform's 4-to-5-option import contract; medical:batch confirms
+      // ("3 options — the contract is 4 to 5"). No seed-level field exists
+      // to fabricate a plausible 4th option, so this is excluded, not
+      // repaired — same class of unfixable defect documented throughout
+      // this bank. The fact itself (preload = degree of myocardial stretch
+      // before contraction) is not lost: it is already stated directly in
+      // this concept's own definition and covered by the kept question above.
+      key: 'in-the-whole-intact-heart-bef9de81',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Definition',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'Only 3 options survived extraction (A, B, D — no C), below the platform\'s 4-to-5-option import contract. No seed-level field exists to add a plausible 4th option, so this cannot be authored as extracted.',
+    },
+    {
+      // Already unanswerable in the bank itself (answer: null,
+      // editorialExcluded: true) — no printed key, and none of the five
+      // options restates the core Starling relationship (isometric tension
+      // depends on preload/fibre stretch); the options instead mix in
+      // force-velocity-relationship facts (Vmax at zero load) and unrelated
+      // cardiovascular facts. Recorded here, not silently dropped, so the
+      // exclusion and its reason stay visible.
+      key: 'according-to-starling-law-the-tension-of-isometric-cardiac-m-0dfbb05b',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Definition',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason: 'No printed key exists (answerConfidence: none in the bank), and none of the five options restates Frank-Starling\'s law\'s own core relationship — isometric tension rising with the muscle\'s initial stretch (preload). The options instead mix in force-velocity-relationship concepts (achieving Vmax at zero load) and unrelated cardiovascular facts (arterial pressure, oxygen supply, ejection phase), none of which can be confidently matched to what the stem actually asks.',
+    },
   ],
 }
