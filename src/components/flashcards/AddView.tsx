@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
-import { Plus, Save, Layers, AlertTriangle, Image as ImageIcon, FileText, Brackets, Eye } from 'lucide-react'
+import { Plus, Save, Layers, AlertTriangle, Image as ImageIcon, FileText, Brackets, Eye, Music } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
@@ -9,6 +9,8 @@ import { Dialog } from '@/components/ui/Dialog'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { Kbd } from '@/components/ui/Kbd'
 import { Field, TextInput, Select } from '@/components/ui/Field'
+import { MediaAttachmentView } from '@/components/ui/MediaAttachmentView'
+import { storeMediaFile, mediaReference } from '@/lib/mediaStorage'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { useCommands } from '@/lib/shortcuts/useShortcuts'
@@ -78,6 +80,8 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
   const [back, setBack] = useState(editingBasicOrCloze?.type === 'basic' ? editingBasicOrCloze.fields.back : '')
   const [clozeText, setClozeText] = useState(editingBasicOrCloze?.type === 'cloze' ? editingBasicOrCloze.fields.text : '')
   const [extra, setExtra] = useState(editingBasicOrCloze?.type === 'cloze' ? editingBasicOrCloze.fields.extra : '')
+  // Optional card audio (a `synapse-media:` reference); shared by Basic and Cloze.
+  const [audio, setAudio] = useState<string | undefined>(editingBasicOrCloze?.fields.audio)
 
   const [duplicateAck, setDuplicateAck] = useState(false)
   const [showErrors, setShowErrors] = useState(false)
@@ -107,9 +111,10 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
   const contentValid = errors.length === 0
 
   const dirty = useMemo(() => {
+    if (audio) return true
     if (type === 'basic') return !isRichEmpty(front) || !isRichEmpty(back)
     return clozeText.trim() !== '' || !isRichEmpty(extra)
-  }, [type, front, back, clozeText, extra])
+  }, [type, front, back, clozeText, extra, audio])
 
   // ---- note assembly -------------------------------------------------------
 
@@ -119,16 +124,16 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
     const createdAt = editingBasicOrCloze && id === editNoteId ? editingBasicOrCloze.createdAt : now
     const base = { id, deckId, tags, createdAt, updatedAt: now }
     if (type === 'basic') {
-      return { ...base, type: 'basic', fields: { front: sanitizeRich(front), back: sanitizeRich(back) } }
+      return { ...base, type: 'basic', fields: { front: sanitizeRich(front), back: sanitizeRich(back), ...(audio ? { audio } : {}) } }
     }
     // Cloze source text is plain text (rendered as cells, never as HTML), so it
     // is stored verbatim; only the rich "extra" field passes through sanitize.
-    return { ...base, type: 'cloze', fields: { text: clozeText.trim(), extra: sanitizeRich(extra) } }
+    return { ...base, type: 'cloze', fields: { text: clozeText.trim(), extra: sanitizeRich(extra), ...(audio ? { audio } : {}) } }
   }
 
   // buildNote reads current state directly; these inputs are the real triggers.
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const candidate = useMemo(() => (contentValid && deckId ? buildNote(editNoteId ?? '__candidate__') : null), [contentValid, deckId, type, front, back, clozeText, extra, tags, editNoteId])
+  const candidate = useMemo(() => (contentValid && deckId ? buildNote(editNoteId ?? '__candidate__') : null), [contentValid, deckId, type, front, back, clozeText, extra, tags, editNoteId, audio])
   const isDuplicate = useMemo(() => (candidate ? isDuplicateNote(candidate, api.allNotes) : false), [candidate, api.allNotes])
 
   // A fresh edit is a fresh decision: any content or target change clears a
@@ -147,8 +152,22 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
     setBack('')
     setClozeText('')
     setExtra('')
+    setAudio(undefined)
     setShowErrors(false)
     setDuplicateAck(false)
+  }
+
+  async function onAudioFile(file: File | undefined) {
+    if (!file) return
+    const id = `card-audio-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
+    try {
+      await storeMediaFile(id, file)
+      setAudio(mediaReference(id))
+    } catch {
+      // Storage can be blocked (private mode); leave audio unattached rather than
+      // saving a reference that would never resolve at study time.
+      setAudio(undefined)
+    }
   }
 
   function save(addAnother: boolean) {
@@ -340,6 +359,26 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
                 </Field>
               </div>
             )}
+
+            {/* Audio (optional, both note types) */}
+            <Field label={t('Audio')} hint={t('Optional — plays during study (R to replay, P to pause/resume).')}>
+              {audio ? (
+                <MediaAttachmentView
+                  attachment={{ id: 'card-audio', type: 'audio', name: t('Card audio'), url: audio }}
+                  onRemove={() => setAudio(undefined)}
+                />
+              ) : (
+                <label className="inline-flex cursor-pointer items-center gap-2 rounded-md border border-line bg-surface px-3 py-2 text-[13px] font-medium text-ink-2 transition-colors hover:bg-surface-2">
+                  <Icon icon={Music} size={15} /> {t('Attach audio')}
+                  <input
+                    type="file"
+                    accept="audio/*"
+                    className="sr-only"
+                    onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; void onAudioFile(file) }}
+                  />
+                </label>
+              )}
+            </Field>
 
             {/* Validation */}
             {showErrors && errors.length > 0 && (

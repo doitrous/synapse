@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type Dispatch, type SetStateAction } from 'react'
 import {
   ArrowLeft, Layers, Plus, Search, BarChart3, Flag, Archive, RotateCcw, CalendarClock,
-  Ban, Info, History, Timer, Pencil, X, Mic, Volume2,
+  Ban, Info, History, Timer, Pencil, X, Mic, Volume2, AudioLines, Pause,
 } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -25,8 +25,10 @@ import type { FlashcardsView } from '@/pages/student/Flashcards'
 import type { CardSchedule, Grade } from '@/data/srs'
 import { GRADES } from '@/data/flashcards/scheduler'
 import { FLAGS, flagForDigit } from '@/data/flashcards/flag'
+import { noteAudio } from '@/data/flashcards/model'
 import { localDay } from '@/data/flashcards/time'
 import { StudyCardFace } from './StudyCardFace'
+import { StudyCardAudio, type CardAudioHandle } from './StudyCardAudio'
 import { DeckOptionsDialog } from './DeckOptionsDialog'
 import { CardInfoBody } from './CardInfo'
 
@@ -112,6 +114,11 @@ export function StudyScreen({
   const currentId = queue[0]
   const current: CardWithMeta | undefined = currentId ? api.cardById(currentId) : undefined
 
+  // Card audio (authored on the note, distinct from the student's own-voice
+  // recording above). The R/P shortcuts drive the player through this handle.
+  const cardAudioRef = current ? noteAudio(current.note) : undefined
+  const cardAudio = useRef<CardAudioHandle>(null)
+
   useEffect(() => { shownAt.current = Date.now() }, [currentId])
   // A recording belongs to the card it was made on; drop it when the card turns.
   // `voice.reset` is stable; depending on the whole recorder would reset mid-record.
@@ -185,6 +192,8 @@ export function StudyScreen({
       { id: 'study.edit', title: 'Edit note', group: 'Study', scopes: ['study'], keys: 'E', when: () => !!current, run: () => current && onEditNote(current.note.id) },
       { id: 'study.recordVoice', title: 'Record your voice', group: 'Study', scopes: ['study'], keys: 'V', run: toggleVoice },
       { id: 'study.replayVoice', title: 'Replay your voice', group: 'Study', scopes: ['study'], keys: 'Shift+V', when: () => voice.hasRecording, run: voice.play },
+      { id: 'study.replayCardAudio', title: 'Replay card audio', group: 'Study', scopes: ['study'], keys: 'R', when: () => !!cardAudioRef, run: () => cardAudio.current?.replay() },
+      { id: 'study.toggleCardAudio', title: 'Pause / resume card audio', group: 'Study', scopes: ['study'], keys: 'P', when: () => !!cardAudioRef, run: () => cardAudio.current?.toggle() },
     ]
     for (const answer of GRADES) {
       const digit = String(GRADES.indexOf(answer) + 1)
@@ -201,7 +210,7 @@ export function StudyScreen({
       })
     }
     return list
-  }, [showAnswer, current, prevCardId, reveal, onExit, doBury, doSuspend, commitGrade, toggleFlag, onEditNote, setAutoAdvance, toggleVoice, voice.hasRecording, voice.play])
+  }, [showAnswer, current, prevCardId, reveal, onExit, doBury, doSuspend, commitGrade, toggleFlag, onEditNote, setAutoAdvance, toggleVoice, voice.hasRecording, voice.play, cardAudioRef])
   useCommands(commands)
 
   // ---- Auto advance --------------------------------------------------------
@@ -272,6 +281,9 @@ export function StudyScreen({
         hasRecording={voice.hasRecording}
         onRecordVoice={toggleVoice}
         onReplayVoice={voice.play}
+        hasCardAudio={!!cardAudioRef}
+        onReplayCardAudio={() => cardAudio.current?.replay()}
+        onToggleCardAudio={() => cardAudio.current?.toggle()}
       />
       {(voice.state === 'denied' || voice.state === 'unsupported' || voice.state === 'error') && (
         <p className="mt-2 text-[11.5px] text-danger" role="status">
@@ -288,6 +300,7 @@ export function StudyScreen({
 
       <Panel className="flex min-h-[16rem] flex-col justify-center p-8">
         <StudyCardFace entry={current} showAnswer={showAnswer} />
+        {cardAudioRef && <StudyCardAudio key={cardAudioRef} ref={cardAudio} src={cardAudioRef} />}
         {!showAnswer && (
           <div className="mt-6 text-center">
             <Button variant="primary" onClick={reveal}>{t('Show answer')}</Button>
@@ -366,6 +379,9 @@ interface ToolbarProps {
   hasRecording: boolean
   onRecordVoice: () => void
   onReplayVoice: () => void
+  hasCardAudio: boolean
+  onReplayCardAudio: () => void
+  onToggleCardAudio: () => void
 }
 
 function StudyToolbar(props: ToolbarProps) {
@@ -402,6 +418,13 @@ function StudyToolbar(props: ToolbarProps) {
       <span className="mx-1 h-5 w-px bg-line" aria-hidden />
       <ToolButton icon={Mic} label={props.recording ? t('Stop recording') : t('Record your voice')} onClick={props.onRecordVoice} active={props.recording} />
       <ToolButton icon={Volume2} label={t('Replay your voice')} onClick={props.onReplayVoice} disabled={!props.hasRecording} />
+      {props.hasCardAudio && (
+        <>
+          <span className="mx-1 h-5 w-px bg-line" aria-hidden />
+          <ToolButton icon={AudioLines} label={t('Replay card audio (R)')} onClick={props.onReplayCardAudio} />
+          <ToolButton icon={Pause} label={t('Pause / resume card audio (P)')} onClick={props.onToggleCardAudio} />
+        </>
+      )}
     </div>
   )
 }
