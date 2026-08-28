@@ -2105,3 +2105,975 @@ yes
 
 ## author_notes
 Same aldose/ketose classification concept as Q29 (already authored), naming glyceraldehyde's specific role as the D-/L- reference standard.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q16
+
+## title
+The units of carbohydrates which cannot be further hydrolyzed to simpler compounds are
+
+## question
+The units of carbohydrates which cannot be further hydrolyzed to simpler compounds are
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Disaccharide
+
+## explanation_a
+Incorrect. A disaccharide is exactly what hydrolysis breaks down further — it splits into its two component monosaccharides — so a disaccharide is not itself the smallest, non-hydrolysable unit the question describes.
+
+## answer_b
+Polysaccharide
+
+## explanation_b
+Incorrect. A polysaccharide can be hydrolysed all the way down to its many constituent monosaccharide units, so it is the opposite of a unit that cannot be broken down further.
+
+## answer_c
+Monosaccharides
+
+## explanation_c
+Correct. A monosaccharide (such as glucose, fructose or galactose) is a single sugar unit with no glycosidic bonds joining it to another sugar, so it cannot be hydrolysed into any simpler carbohydrate — it is the basic building block that disaccharides, oligosaccharides and polysaccharides are all assembled from. This is exactly the classification level used to describe sugars by carbon count (triose, pentose, hexose) and by carbonyl-group type (aldose, ketose) elsewhere in this topic. Every larger carbohydrate ultimately breaks down, on hydrolysis, into monosaccharide units like these.
+
+## answer_d
+Oligosaccharides
+
+## explanation_d
+Incorrect. An oligosaccharide is a chain of a few monosaccharide units joined by glycosidic bonds, and like a polysaccharide it can be hydrolysed further, down to those individual monosaccharide units.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the monosaccharide as the carbohydrate unit that cannot be hydrolysed into any simpler compound.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q9, p.17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same aldose/ketose/monosaccharide-classification concept as Q29/Q7 (already authored), tested here as the basic definition of "monosaccharide" itself.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q17
+
+## title
+A triose sugar is
+
+## question
+A triose sugar is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Glyceraldehyde
+
+## explanation_a
+Correct. Glyceraldehyde has exactly three carbons, making it a triose, and it is specifically an aldotriose because its carbonyl group is an aldehyde at C1. It is the simplest possible aldose and, with its single chiral carbon, serves as the reference compound for the D-/L- naming system used throughout carbohydrate chemistry. No other monosaccharide has fewer than three carbons, which is why the triose is the smallest carbon-count classification a monosaccharide can have.
+
+## answer_b
+Ribose
+
+## explanation_b
+Incorrect. Ribose has five carbons, making it a pentose, not a triose; it is the sugar component of RNA nucleotides.
+
+## answer_c
+Erythrose
+
+## explanation_c
+Incorrect. Erythrose has four carbons, making it a tetrose, not a triose.
+
+## answer_d
+Fructose
+
+## explanation_d
+Incorrect. Fructose has six carbons, making it a hexose (specifically a ketohexose), not a triose.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify glyceraldehyde as the triose (three-carbon) sugar, among sugars of other carbon-count classes.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q10, p.17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same aldose/ketose/carbon-count classification concept as Q29/Q7/Q9 (already authored), tested here through the triose class specifically.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q18
+
+## title
+A pentose sugar is
+
+## question
+A pentose sugar is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Dihydroxyacetone
+
+## explanation_a
+Incorrect. Dihydroxyacetone has three carbons, making it a triose (specifically a ketotriose), not a pentose.
+
+## answer_b
+Ribose
+
+## explanation_b
+Correct. Ribose has exactly five carbons, making it a pentose, and it is specifically an aldopentose. Ribose (and its derivative, deoxyribose) is the sugar component of nucleotides, forming the backbone sugar of RNA and DNA respectively, which is the same nucleotide chemistry tested elsewhere through the N-glycosidic bond joining a base to this sugar. No other option in this list has five carbons.
+
+## answer_c
+Erythrose
+
+## explanation_c
+Incorrect. Erythrose has four carbons, making it a tetrose, not a pentose.
+
+## answer_d
+Glucose
+
+## explanation_d
+Incorrect. Glucose has six carbons, making it a hexose, not a pentose.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify ribose as the pentose (five-carbon) sugar, the sugar component of nucleotides.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q11, p.17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same carbon-count classification concept as Q29/Q7/Q9/Q10 (already authored), tested here through the pentose class, which also links forward to the N-glycosidic-bond concept via ribose's role in nucleotides.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q19
+
+## title
+A compound with no asymmetric carbon is (II)
+
+## question
+A compound with no asymmetric carbon is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Galactose
+
+## explanation_a
+Incorrect. Galactose is an aldohexose with four chiral carbons, each bonded to four different groups, so it does not fit a question asking for the sugar with no asymmetric carbon.
+
+## answer_b
+Glyceraldehyde
+
+## explanation_b
+Incorrect. Glyceraldehyde's single carbon (C2) bonded to four different groups is exactly what gives it a chiral centre and makes it the D-/L- reference sugar, so it is not the sugar with no asymmetric carbon.
+
+## answer_c
+Dihydroxyacetone
+
+## explanation_c
+Correct. Dihydroxyacetone's central carbon carries two identical -CH2OH groups rather than four different substituents, so it has no chiral centre at all — the one carbohydrate among the standard trioses with no asymmetric carbon and, correspondingly, no D- or L-form. This is the same structural fact already tested once in this section under an identical stem; the source bank simply repeats the question.
+
+## answer_d
+Erythrose
+
+## explanation_d
+Incorrect. Erythrose is an aldotetrose with two chiral carbons (C2 and C3), each bonded to four different groups, so it does not fit a question asking for the sugar with no asymmetric carbon.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-3872365341E543
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-CARBOHYDRATE-GENERAL-PROPERTIES
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify dihydroxyacetone as the one carbohydrate with no asymmetric carbon (repeated verbatim from the source's Q5).
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q12, p.17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+30
+
+## randomise_answers
+yes
+
+## author_notes
+Same dihydroxyacetone/no-chiral-carbon concept as Q33/Q13 (already authored) — the source bank's own exact repeat of Q5, kept here as a separate item since it is a separately numbered question in the printed bank, with a fourth distractor (erythrose) swapped in for "none of the above."
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q20
+
+## title
+Which of the following is a linear homopolysaccharide?
+
+## question
+Which of the following is Linear Homopolysaccharides?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Lactose
+
+## explanation_a
+Incorrect. Lactose is a disaccharide, not a polysaccharide at all, so it cannot be classed as either a linear or a branched homopolysaccharide.
+
+## answer_b
+Glycogen
+
+## explanation_b
+Incorrect. Glycogen is a homopolysaccharide of glucose, but it is highly branched (via alpha-1,6 glucosidic bonds at frequent intervals in addition to its alpha-1,4-linked chains), not linear.
+
+## answer_c
+Cellulose
+
+## explanation_c
+Correct. Cellulose is a homopolysaccharide built entirely from D-glucose units, like starch and glycogen, but its glucose units are joined by beta-1,4 glycosidic bonds into long, unbranched chains, making it a linear (not branched) homopolysaccharide. This straight-chain arrangement, with no side branches, is what allows cellulose chains to pack together into the rigid fibres of plant cell walls, in direct contrast with glycogen's compact, highly branched storage structure.
+
+## answer_d
+Starch
+
+## explanation_d
+Incomplete. Starch is a homopolysaccharide of glucose, but it exists as a mixture of two components — amylose (linear, alpha-1,4-linked) and amylopectin (branched, with alpha-1,6 branch points) — so starch as a whole is not purely a linear polysaccharide the way cellulose is.
+
+## answer_e
+Mucopolysaccharides
+
+## explanation_e
+Incorrect. Mucopolysaccharides (glycosaminoglycans) are built from repeating disaccharide units that typically include an amino sugar, making them heteropolysaccharides rather than homopolysaccharides, which are built from only one kind of monosaccharide.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-4706C1246E4B76
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cellulose as a linear (unbranched) glucose homopolysaccharide, contrasted with highly branched glycogen.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q13, p.17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same storage-polysaccharide concept as Q14 (already authored), widened here to cellulose's linear structure as the counterpoint to glycogen's branching.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q21
+
+## title
+Two sugars which differ from one another only in configuration around a single carbon atom are termed
+
+## question
+Two sugars which differ from one another only in configuration around a single carbon atom are termed
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Epimers
+
+## explanation_a
+Correct. Two sugars that are identical in every respect except the spatial configuration of the -OH and -H at exactly one carbon are called epimers — glucose and galactose (differing only at C4) and glucose and mannose (differing only at C2) are the classic examples. This is distinct from anomers, which differ specifically at the anomeric carbon created during ring closure, and from full enantiomers, which differ at every chiral carbon in the molecule. Defining "epimer" by this single-carbon difference is exactly what separates true epimer pairs (like glucose/galactose) from non-epimer pairs (like mannose/galactose, which differ at two carbons at once).
+
+## answer_b
+Anomers
+
+## explanation_b
+Incorrect. Anomers specifically describes sugars differing at the anomeric carbon (the carbon bearing the carbonyl group before ring closure, C1 in an aldose), not at any arbitrary single carbon; a general "differ at one carbon" description is the definition of epimers, of which anomers is a specific case.
+
+## answer_c
+Optical isomers
+
+## explanation_c
+Incorrect. "Optical isomer" is a broad term covering any stereoisomer that rotates plane-polarised light differently, including enantiomers (which differ at every chiral carbon); it is not specific to the single-carbon difference that defines an epimer.
+
+## answer_d
+Stereoisomers
+
+## explanation_d
+Incorrect. "Stereoisomer" is the broadest term of the four, covering any molecules with the same connectivity but different spatial arrangement, including epimers, anomers and enantiomers alike; it does not specifically name the single-carbon-difference relationship the question asks about.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-358E18A31D89FC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Define epimers as sugars differing in configuration at exactly one carbon, distinguishing them from anomers, optical isomers and stereoisomers generally.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q15, p.17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same isomerism-terminology concept as Q16/Q4/Q6 (already authored), tested here as the direct term-matching definition of "epimer" among broader stereoisomerism vocabulary.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q22
+
+## title
+Isomers differing as a result of variations in configuration on carbon atom 5 of glucose are known as
+
+## question
+Isomers differing as a result of variations in configuration of the -OH and -H on carbon atom 5 of glucose are known as
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Epimers
+
+## explanation_a
+Incorrect. Epimers differ at one of the non-terminal chiral carbons along the chain (such as C2, C3 or C4 of glucose); a difference specifically at C5 — the carbon whose configuration is compared against the D-/L- reference standard — is what defines the D-/L- (enantiomer) relationship instead.
+
+## answer_b
+Anomers
+
+## explanation_b
+Incorrect. Anomers differ at the anomeric carbon (C1 in an aldohexose like glucose, the carbon that becomes a new stereocentre on ring closure), not at C5.
+
+## answer_c
+Aldo-Keto Isomer
+
+## explanation_c
+Incorrect. Aldose-ketose isomerism is a difference in the type of carbonyl group (aldehyde versus ketone), not a difference in configuration at any one particular carbon such as C5.
+
+## answer_d
+D-L Isomer
+
+## explanation_d
+Correct. In an aldohexose like glucose, C5 is the reference carbon whose spatial configuration is compared against D- or L-glyceraldehyde to assign the molecule's overall D- or L- designation; flipping the configuration at C5 alone converts D-glucose into its mirror-image enantiomer, L-glucose. This is why a configurational difference specifically located at C5 defines the D-/L- (enantiomer) relationship, in contrast with epimers (which differ at C2, C3 or C4) and anomers (which differ at C1). D- and L-glucose are in fact full mirror images, differing at every chiral carbon at once, but it is the C5 configuration specifically that the D-/L- naming convention is read from.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-358E18A31D89FC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify a configurational difference at C5 of glucose as what defines the D-/L- (enantiomer) relationship, distinct from epimers (C2-C4) and anomers (C1).
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q17, p.17.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same isomerism-terminology concept as Q16/Q4/Q6/Q15 (already authored), the direct companion to Q16's C2/C3/C4-epimer question, now covering C5 and D-/L- naming.
