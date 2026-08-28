@@ -102,9 +102,13 @@ export function authoriseOneMediaRequestChange(before, after, { rank }) {
   // Status transitions.
   if (before.status !== after.status) {
     if (after.status === 'supplied') {
-      // A reviewer never hand-marks supplied; the server sets it once media is
-      // verified. Editors keep the manual transition for their own workflows.
-      if (!isEditor) return { ok: false, reason: 'a request becomes supplied automatically once verified media is attached, not by hand' }
+      // A reviewer reaches 'supplied' only by attaching media in the same change;
+      // the write route then verifies that media is genuinely ready before the
+      // save is accepted, and the server is what actually stamps supplied. What a
+      // reviewer may never do is flip a request supplied with no media attached.
+      if (!isEditor && !after.mediaId) {
+        return { ok: false, reason: 'a request becomes supplied by attaching verified media, not by hand' }
+      }
     } else if (MANAGEMENT_STATUSES.has(after.status)) {
       if (!isEditor) return { ok: false, reason: `only an editor or super admin may set a request to "${after.status}"` }
     }

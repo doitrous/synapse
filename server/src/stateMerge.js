@@ -16,6 +16,7 @@
 import { changeWritableBy } from './contentScope.js'
 import { LIBRARY_TREES_STATE_KEY } from './libraryTrees.js'
 import { authoriseReportChange, CONTENT_REPORTS_STATE_KEY } from './contentReports.js'
+import { authoriseMediaRequestTransitions } from './mediaRequestPolicy.js'
 
 const LEDGER = 'synapse-admin-content-ledger-v4'
 const GRAPH = 'synapse-concept-graph-v2'
@@ -193,16 +194,15 @@ function mediaRequestsOnly(before, after) {
  * told everything that is wrong at once. The caller applies none of it either
  * way: a half-saved page is worse than a rejected one.
  */
-export function authoriseChanges(changes, { heldTabs, contentScope, role }) {
+export function authoriseChanges(changes, { heldTabs, contentScope, role, rank }) {
   const held = new Set(heldTabs ?? [])
   const refusals = []
   for (const change of changes) {
     // A media request lives inside its owner, so sourcing an asset is a write
     // to the owning item. Media Requests grants that one edit, and so does the
     // owner's tab — but only that edit: anything else needs the owner's tab.
-    const allowed = mediaRequestsOnly(change.before, change.after)
-      ? [...change.tabs, 'media']
-      : change.tabs
+    const isMediaRequestEdit = mediaRequestsOnly(change.before, change.after)
+    const allowed = isMediaRequestEdit ? [...change.tabs, 'media'] : change.tabs
     if (!allowed.some((tab) => held.has(tab))) {
       refusals.push({ id: change.id, reason: `${change.kind} "${change.id}" is not part of your role` })
       continue
@@ -220,6 +220,17 @@ export function authoriseChanges(changes, { heldTabs, contentScope, role }) {
         id: change.id,
         reason: `${change.kind} "${change.id}" is outside the modules and years assigned to you`,
       })
+      continue
+    }
+    // The media-request edit is in scope; now the finer question of what this
+    // edit does. A reviewer may supply, comment and escalate; planning, declining
+    // and resolving an escalation are an editor's, and a request escalated open is
+    // read-only to its reviewer. `mediaRequestsOnly` proved nothing else changed.
+    if (isMediaRequestEdit) {
+      const verdict = authoriseMediaRequestTransitions(change.before, change.after, { rank })
+      for (const refusal of verdict.refusals) {
+        refusals.push({ id: `${change.id}:${refusal.id}`, reason: refusal.reason })
+      }
     }
   }
   return { ok: refusals.length === 0, refusals }

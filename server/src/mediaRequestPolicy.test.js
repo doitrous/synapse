@@ -24,10 +24,14 @@ test('a reviewer may attach media and add comments, but not plan, decline or han
   assert.equal(authoriseOneMediaRequestChange(before, { ...before, mediaId: 'med-1' }, REVIEWER).ok, true)
   // add a review comment — allowed
   assert.equal(authoriseOneMediaRequestChange(before, { ...before, reviewComments: [{ id: 'c1', anchor: 'stem', kind: 'comment', text: 'hi', author: 'R', createdAt: 't' }] }, REVIEWER).ok, true)
-  // plan / decline / supplied — refused for a reviewer
+  // plan / decline — refused for a reviewer
   assert.equal(authoriseOneMediaRequestChange(before, { ...before, status: 'planned' }, REVIEWER).ok, false)
   assert.equal(authoriseOneMediaRequestChange(before, { ...before, status: 'declined' }, REVIEWER).ok, false)
-  assert.equal(authoriseOneMediaRequestChange(before, { ...before, status: 'supplied', mediaId: 'med-1' }, REVIEWER).ok, false)
+  // supplied with NO attached media, by hand — refused
+  assert.equal(authoriseOneMediaRequestChange(before, { ...before, status: 'supplied' }, REVIEWER).ok, false)
+  // supplied WITH media attached in the same change — allowed here; the write route
+  // then verifies the media is actually ready before accepting the save.
+  assert.equal(authoriseOneMediaRequestChange(before, { ...before, status: 'supplied', mediaId: 'med-1' }, REVIEWER).ok, true)
 })
 
 test('an editor may plan, decline, mark supplied, and create or remove a request', () => {

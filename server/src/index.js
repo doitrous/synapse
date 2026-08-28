@@ -2,7 +2,7 @@ import { randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { basename, dirname, join, resolve, sep } from 'node:path'
 import { existsSync } from 'node:fs'
-import { mkdir, open, readFile, rename, rm, unlink } from 'node:fs/promises'
+import { mkdir, open, readFile, rename, rm, stat, unlink } from 'node:fs/promises'
 import express from 'express'
 import compression from 'compression'
 import cors from 'cors'
@@ -28,6 +28,8 @@ import { mediaMeta } from './mediaMeta.js'
 import { MEDIA_STATE_KEY, deleteRefusal, isMediaReleased, storageKeyFor } from './mediaLibrary.js'
 import { createMediaPlaybackToken, readMediaPlaybackToken } from './mediaPlayback.js'
 import { authoriseChanges, diffDocument, mergeDocument, isMergeable, reconstructChanges, applyDelta } from './stateMerge.js'
+import { collectMediaRequests } from './mediaRequestPolicy.js'
+import { describeProviders } from './mediaProvider.js'
 import {
   CONTENT_REPORTS_STATE_KEY, CONTENT_REPORT_TOMBSTONES_KEY,
   buildContentReport, buildTombstone, deletionConfirmed, reporterRoleLabel,
@@ -128,9 +130,17 @@ const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 
  * a single-request ceiling; the normal path uses bounded chunks up to 2 GB. */
 const MEDIA_STORAGE_DIR = RESOURCE_STORAGE_DIR
 const MEDIA_MAX_BYTES = Number(process.env.MEDIA_MAX_BYTES) || 100 * 1024 * 1024
+// Per-type ceilings, enforced after the bytes are sniffed so the limit follows
+// what the file actually is, not what it was named: images 100 MB, audio 500 MB,
+// video 5 GB.
 const MEDIA_IMAGE_MAX_BYTES = Number(process.env.MEDIA_IMAGE_MAX_BYTES) || 100 * 1024 * 1024
+const MEDIA_AUDIO_MAX_BYTES = Number(process.env.MEDIA_AUDIO_MAX_BYTES) || 500 * 1024 * 1024
+const MEDIA_VIDEO_MAX_BYTES = Number(process.env.MEDIA_VIDEO_MAX_BYTES) || 5 * 1024 * 1024 * 1024
+const MEDIA_TYPE_MAX_BYTES = { image: MEDIA_IMAGE_MAX_BYTES, audio: MEDIA_AUDIO_MAX_BYTES, video: MEDIA_VIDEO_MAX_BYTES }
 const MEDIA_CHUNK_MAX_BYTES = Number(process.env.MEDIA_CHUNK_MAX_BYTES) || 8 * 1024 * 1024
-const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
+// The session ceiling is the largest any single type allows (video), so a large
+// video can begin; the per-type cap above is what actually bounds it once known.
+const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || MEDIA_VIDEO_MAX_BYTES
 const MEDIA_UPLOAD_MAX_AGE_HOURS = Math.max(1, Number(process.env.MEDIA_UPLOAD_MAX_AGE_HOURS) || 24)
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
@@ -1695,6 +1705,45 @@ async function pruneStateVersions(key) {
 }
 
 /**
+ * Enforce that a media request only becomes supplied with verified media.
+ *
+ * Compares the merged ledger against what was stored and looks at every request
+ * whose media was just attached, or that now claims to be supplied. A managed
+ * upload must be 'ready' — genuinely round-tripped and verified — for the request
+ * to stand: a ready one is promoted to 'supplied' in place (the server's decision,
+ * not a label the client can assert), and one still verifying or failed refuses
+ * the whole save. A mediaId with no managed row is pre-existing/legacy media and
+ * is left untouched, so this never falsely blocks media the state machine does
+ * not own.
+ */
+async function enforceMediaSupply(conn, mergedLedger, storedLedger) {
+  const merged = collectMediaRequests(mergedLedger)
+  const stored = collectMediaRequests(storedLedger)
+  const candidates = []
+  for (const [id, request] of merged) {
+    if (!request?.mediaId) continue
+    const before = stored.get(id) ?? null
+    const attachedNow = request.mediaId !== before?.mediaId
+    const claimsSupplied = request.status === 'supplied' && before?.status !== 'supplied'
+    if (attachedNow || claimsSupplied) candidates.push(request)
+  }
+  if (!candidates.length) return { ok: true }
+
+  const mediaIds = [...new Set(candidates.map((request) => request.mediaId))]
+  const [rows] = await conn.query('SELECT id, status FROM managed_media WHERE id IN (?)', [mediaIds])
+  const statusById = new Map(rows.map((row) => [row.id, row.status]))
+
+  const notReady = []
+  for (const request of candidates) {
+    const status = statusById.get(request.mediaId)
+    if (status === undefined) continue // not a managed upload — legacy media, left as-is
+    if (status !== 'ready') { notReady.push({ id: request.id, mediaId: request.mediaId, status }); continue }
+    if (request.status !== 'supplied') request.status = 'supplied'
+  }
+  return notReady.length ? { ok: false, notReady } : { ok: true }
+}
+
+/**
  * Save a shared document.
  *
  * Three refusals, in the order they become knowable: you must hold a tab that
@@ -1794,7 +1843,7 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
     }
 
     if (!superAdmin) {
-      const authorised = authoriseChanges(changesForAuth, { heldTabs: held, contentScope: req.identity.contentScope, role: req.identity.role })
+      const authorised = authoriseChanges(changesForAuth, { heldTabs: held, contentScope: req.identity.contentScope, role: req.identity.role, rank: req.identity.rank })
       if (!authorised.ok) {
         await conn.rollback()
         return res.status(403).json({ error: 'refused', refusals: authorised.refusals })
@@ -1858,6 +1907,22 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
         const nextIds = new Set((Array.isArray(media?.records) ? media.records : []).map((record) => record.id))
         removedMediaRecords = (Array.isArray(beforeMedia?.records) ? beforeMedia.records : [])
           .filter((record) => !nextIds.has(record.id))
+      }
+      if (key === CONTENT_LEDGER_STATE_KEY) {
+        // "Supplied" is the server's word, not the client's: a request may only
+        // become supplied with media that has finished verifying. Newly attached
+        // (or newly supplied-claiming) requests are checked against the media
+        // table; a ready managed upload is promoted to supplied here, and a request
+        // pointing at media that is still verifying or has failed is refused.
+        const supply = await enforceMediaSupply(conn, ledger, beforeLedger)
+        if (!supply.ok) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'media_not_ready',
+            reason: 'a request can be supplied only with media that has finished verifying',
+            requests: supply.notReady,
+          })
+        }
       }
     }
 
@@ -2743,8 +2808,9 @@ async function registerManagedMedia(staging, received, { id = `med-${randomUUID(
     error.status = 415
     throw error
   }
-  if (meta.mediaType === 'image' && received.sizeBytes > MEDIA_IMAGE_MAX_BYTES) {
-    const error = new Error(`images may be up to ${Math.round(MEDIA_IMAGE_MAX_BYTES / (1024 * 1024))} MB`)
+  const typeCap = MEDIA_TYPE_MAX_BYTES[meta.mediaType]
+  if (typeCap && received.sizeBytes > typeCap) {
+    const error = new Error(`${meta.mediaType} may be up to ${Math.round(typeCap / (1024 * 1024))} MB`)
     error.status = 413
     throw error
   }
@@ -2765,25 +2831,72 @@ async function registerManagedMedia(staging, received, { id = `med-${randomUUID(
       await rm(staging, { force: true })
     }
     try {
+      // The file is on disk but not yet trusted: land it as 'verifying', prove it
+      // reads back, and only then promote to 'ready'. A record is never 'ready'
+      // because an upload's last request returned — only because its stored bytes
+      // were round-tripped.
       await conn.query(
         `INSERT INTO managed_media
-           (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height, ready_at)
-         VALUES (?, ?, 'ready', ?, ?, ?, ?, ?, ?, ?, NOW())
-         ON DUPLICATE KEY UPDATE status = 'ready', storage_key = VALUES(storage_key),
+           (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height)
+         VALUES (?, ?, 'verifying', ?, ?, ?, ?, ?, ?, ?)
+         ON DUPLICATE KEY UPDATE status = 'verifying', storage_key = VALUES(storage_key),
            sha256 = VALUES(sha256), media_type = VALUES(media_type), mime_type = VALUES(mime_type),
-           size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height), ready_at = NOW()`,
+           size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height),
+           failure_reason = NULL`,
         [id, uploadedBy, storageKey, received.sha256, meta.mediaType, meta.mimeType, received.sizeBytes, meta.width || null, meta.height || null],
       )
     } catch (error) {
       if (!alreadyStored) await removePhysicalMediaIfUnreferenced({ storageKey }, conn)
       throw error
     }
-    return completedMediaPayload({
-      id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
-      mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
-      width: meta.width, height: meta.height,
-    }, alreadyStored)
+
+    const failure = await verifyStoredMedia(fullPath, received.sizeBytes, meta.mediaType)
+    if (failure) {
+      await conn.query('UPDATE managed_media SET status = ?, failure_reason = ? WHERE id = ?', ['failed', failure, id])
+      return { id, status: 'failed', failureReason: failure }
+    }
+    await conn.query('UPDATE managed_media SET status = ?, verified_at = NOW(), ready_at = NOW() WHERE id = ?', ['ready', id])
+    return {
+      ...completedMediaPayload({
+        id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
+        mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
+        width: meta.width, height: meta.height,
+      }, alreadyStored),
+      status: 'ready',
+    }
   })
+}
+
+/**
+ * Verify a stored media object at rest, returning a failure reason or null.
+ *
+ * This is what "verifying" actually means without a transcoder: the file exists
+ * where it was written, is the size we recorded, reads back, and still parses as
+ * the media type it claimed. It catches a truncated or corrupted write that a
+ * successful HTTP upload would otherwise have reported as done. Audio and video
+ * are confirmed as readable and correctly typed; playback itself is not claimed
+ * verified, because the server has no player — the honest ceiling here.
+ */
+async function verifyStoredMedia(fullPath, sizeBytes, mediaType) {
+  try {
+    const info = await stat(fullPath)
+    if (!info.isFile()) return 'stored media is not a file'
+    if (info.size !== sizeBytes) return `stored media is ${info.size} bytes, expected ${sizeBytes}`
+    const headLength = Math.min(1024 * 1024, sizeBytes)
+    const tailLength = Math.min(4 * 1024 * 1024, Math.max(0, sizeBytes - headLength))
+    const back = Buffer.alloc(headLength + tailLength)
+    const handle = await open(fullPath, 'r')
+    try {
+      await handle.read(back, 0, headLength, 0)
+      if (tailLength) await handle.read(back, headLength, tailLength, sizeBytes - tailLength)
+    } finally { await handle.close() }
+    const recheck = mediaMeta(back)
+    if (!recheck) return 'stored media did not read back as a recognised format'
+    if (recheck.mediaType !== mediaType) return `stored media read back as ${recheck.mediaType}, not ${mediaType}`
+    return null
+  } catch {
+    return 'stored media could not be read back'
+  }
 }
 
 /** Legacy bounded request, kept for older clients. New clients use chunks. */
@@ -2802,6 +2915,16 @@ app.post('/api/media', requireTab('resources', 'media'), wrap(async (req, res) =
   try { return res.json({ ok: true, ...(await registerManagedMedia(staging, received, { uploadedBy: req.identity.id })) }) }
   catch (error) { return res.status(error.status || 500).json({ error: error.message }) }
   finally { await rm(staging, { force: true }) }
+}))
+
+/**
+ * Which media storage providers are configured, for a super admin auditing the
+ * Cloudflare wiring. Reports presence and readiness only — never a secret value.
+ * The filesystem provider is always available; R2/Stream report configured only
+ * when their env is complete, and name (never print) any variables still missing.
+ */
+app.get('/api/admin/media/providers', requireSuperAdmin, wrap(async (_req, res) => {
+  res.json(describeProviders(process.env))
 }))
 
 /** Start a large, resumable managed-media upload. */
@@ -2840,13 +2963,18 @@ app.put('/api/media/uploads/:id/:uploadId/chunks/:index', requireTab('resources'
 app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'media'), wrap(async (req, res) => {
   const [rows] = await pool.query(
     `SELECT id, status, storage_key AS storageKey, sha256, media_type AS mediaType,
-       mime_type AS mimeType, size_bytes AS sizeBytes, width, height
+       mime_type AS mimeType, size_bytes AS sizeBytes, width, height, failure_reason AS failureReason
      FROM managed_media
-     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status IN ('uploading', 'ready')`,
+     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status IN ('uploading', 'ready', 'failed')`,
     [req.params.id, req.params.uploadId, req.identity.id],
   )
   const pending = rows[0]
   if (!pending) return res.status(404).json({ error: 'media upload not found' })
+  // A prior attempt that failed verification stays failed — report it honestly on
+  // retry rather than pretending the upload is still in progress.
+  if (pending.status === 'failed') {
+    return res.json({ ok: true, id: pending.id, status: 'failed', failureReason: pending.failureReason || 'verification failed' })
+  }
   if (pending.status === 'ready') {
     const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
     if (workspace) await rm(workspace, { recursive: true, force: true })
@@ -2860,6 +2988,7 @@ app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'm
     )
     return res.json({
       ok: true,
+      status: 'ready',
       ...completedMediaPayload(pending, Number(duplicates[0]?.total || 0) > 0 || describedDuplicate),
     })
   }

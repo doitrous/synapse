@@ -64,19 +64,32 @@ test('a change is refused when the caller does not hold its tab', () => {
 })
 
 test('a media-request-only edit is allowed by the media tab or by the owner tab', () => {
+  // rank 2 (editor) isolates the tab check from the transition rules exercised below.
   const before = q('a', 'One')
   const after = { ...before, questionData: { ...before.questionData, mediaRequests: [{ id: 'm1', brief: 'ECG' }] } }
   const changes = diffDocument(LEDGER, [before], [after])
-  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null }).ok, true)
-  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null }).ok, true)
-  assert.equal(authoriseChanges(changes, { heldTabs: ['library'], contentScope: null }).ok, false)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 2 }).ok, true)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null, rank: 2 }).ok, true)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['library'], contentScope: null, rank: 2 }).ok, false)
 })
 
 test('a nested media-request edit is allowed by the media tab', () => {
   const before = { ...q('a', 'One'), questionData: { tags: {}, answers: [{ label: 'A', mediaRequests: [{ id: 'm1', status: 'needed' }] }] } }
   const after = { ...before, questionData: { ...before.questionData, answers: [{ label: 'A', mediaRequests: [{ id: 'm1', status: 'planned' }] }] } }
   const changes = diffDocument(LEDGER, [before], [after])
-  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null }).ok, true)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 2 }).ok, true)
+})
+
+test('the media tab is not enough for a reviewer to plan or decline — the transition is gated by rank', () => {
+  // A reviewer (rank 1) holds the media tab and may attach media to a request...
+  const before = { ...q('a', 'One'), questionData: { tags: {}, mediaRequests: [{ id: 'm1', status: 'needed' }] } }
+  const attach = { ...before, questionData: { ...before.questionData, mediaRequests: [{ id: 'm1', status: 'needed', mediaId: 'med-1' }] } }
+  assert.equal(authoriseChanges(diffDocument(LEDGER, [before], [attach]), { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, true)
+  // ...but may not set it to planned; an editor (rank 2) may.
+  const planned = { ...before, questionData: { ...before.questionData, mediaRequests: [{ id: 'm1', status: 'planned' }] } }
+  const plannedChanges = diffDocument(LEDGER, [before], [planned])
+  assert.equal(authoriseChanges(plannedChanges, { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, false)
+  assert.equal(authoriseChanges(plannedChanges, { heldTabs: ['media'], contentScope: null, rank: 2 }).ok, true)
 })
 
 test('holding the media tab does not license editing the rest of the question', () => {
