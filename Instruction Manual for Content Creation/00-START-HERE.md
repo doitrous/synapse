@@ -975,12 +975,24 @@ below show `docs/import-ready/<kind>/` as the path — substitute your actual ro
 Verify these names against `package.json` before typing one from memory — the list above
 matches this checkout today, not a promise about tomorrow's.
 
-- **`--with` for sibling batches.** `medical:simulate` and the presence/citations/
-  concept-id checks resolve ids against live state plus whatever files you pass with
-  `--with`. A question batch validated without its own concept batch beside it errors on
-  the unresolved concept — a real error, not a silent skip — and since daf0d4d that error
-  now adds *"name its concept file with `--with`"*. Pass every sibling batch your ids
-  resolve against.
+- **Only `medical:batch` accepts `--with`.** That flag, and the *"name its concept file
+  with `--with`"* hint, live solely in `scripts/validate-content-batch.mjs` — grep it,
+  they are nowhere else. `medical:simulate` takes every file as a plain positional
+  argument and has **no** `--with` flag: its parser
+  (`scripts/simulate-content-import.mjs`) treats any token right after a
+  `--something`-shaped argument as that flag's value, so `medical:simulate a.md --with
+  b.md` silently drops `b.md` — the run still exits 0 and reports `errors: []`, falsely
+  clean, because the dropped file was never read, not rejected. List every sibling
+  positionally, in apply order, with no flag in front of any of them.
+- **The presence/citations/concept-id checks don't take `--with` either, and work
+  differently from each other.** `medical:presence` also takes plain positional file
+  args (a stray `--with` there is read as a literal filename and crashes on a missing
+  file, not a silent drop) — but its npm script already globs every Kasr concept/article
+  file by default, so you rarely need to name files at all. `medical:citations` takes
+  **no** file arguments whatsoever; it walks the entire `docs/Kasr-Source-Imports` tree
+  against the manifest on every run. `medical:concept-ids` scans globally regardless of
+  arguments too — naming a file only narrows which already-found problems count toward
+  *your* exit code, it does not add that file's ids to the scan.
 - **The catalogue check runs inside `medical:batch`** (57ef0d4), not as a separate
   script. It checks who a record is claimed for (`universities`, `module`) against
   `src/data/universities.ts` — it is what refuses a non-Kasr module id without its
