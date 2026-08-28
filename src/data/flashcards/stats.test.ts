@@ -2,6 +2,9 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
   answerButtons,
+  cardDifficulty,
+  cardRetrievability,
+  cardStability,
   currentStreak,
   futureDue,
   heatmap,
@@ -15,6 +18,7 @@ import { newCardMeta, type CardMeta, type ReviewEvent } from './model.ts'
 import type { CardSchedule } from '../srs.ts'
 
 const now = new Date('2026-08-20T09:00:00.000Z')
+const DAY_MS = 86_400_000
 
 let seq = 0
 function ev(over: Partial<ReviewEvent>): ReviewEvent {
@@ -159,4 +163,103 @@ test('empty inputs yield honest empty datasets, not zeros pretending to be data'
   assert.deepEqual(heatmap([]), [])
   assert.equal(trueRetention([], 'all', now).total, null)
   assert.equal(reviewIntervals([], 'all').buckets.length, 0)
+})
+
+// ---- FSRS analytics ---------------------------------------------------
+
+test('card stability buckets by days, one card per fixed bucket, and averages the counted cards', () => {
+  const stabilities = [0.5, 3, 20, 60, 200, 500]
+  const metas = stabilities.map((stability) => meta({ schedule: sched({ stability }) }))
+  const s = cardStability(metas)
+  assert.deepEqual(s.buckets.map((b) => b.label), ['<1d', '1–7d', '7–30d', '1–3mo', '3–12mo', '>1y'])
+  assert.deepEqual(s.buckets.map((b) => b.count), [1, 1, 1, 1, 1, 1])
+  assert.equal(s.count, 6)
+  const expectedAverage = stabilities.reduce((a, b) => a + b, 0) / stabilities.length
+  assert.ok(Math.abs(s.averageDays - expectedAverage) < 1e-9)
+})
+
+test('card stability excludes SM-2 cards (no stability) and reports an honest zero when empty', () => {
+  assert.equal(cardStability([]).count, 0)
+  assert.equal(cardStability([]).averageDays, 0)
+  const s = cardStability([meta(), meta()]) // plain SM-2 metas, no stability
+  assert.equal(s.count, 0)
+  assert.equal(s.averageDays, 0)
+  assert.ok(s.buckets.every((b) => b.count === 0))
+})
+
+test('card difficulty buckets by integer floor and averages the counted cards', () => {
+  const difficulties = [1, 5.4, 10]
+  const metas = difficulties.map((difficulty) => meta({ schedule: sched({ difficulty }) }))
+  metas.push(meta()) // no difficulty — excluded
+  const d = cardDifficulty(metas)
+  assert.equal(d.buckets.length, 10)
+  assert.equal(d.buckets.find((b) => b.label === '1')?.count, 1)
+  assert.equal(d.buckets.find((b) => b.label === '5')?.count, 1)
+  assert.equal(d.buckets.find((b) => b.label === '10')?.count, 1)
+  assert.equal(d.count, 3)
+  const expectedAverage = difficulties.reduce((a, b) => a + b, 0) / difficulties.length
+  assert.ok(Math.abs(d.average - expectedAverage) < 1e-9)
+})
+
+test('card difficulty reports an honest zero when no card carries difficulty', () => {
+  const d = cardDifficulty([meta(), meta()])
+  assert.equal(d.count, 0)
+  assert.equal(d.average, 0)
+  assert.ok(d.buckets.every((b) => b.count === 0))
+})
+
+test('card retrievability is 1 right after review, landing in the top bucket', () => {
+  const card = meta({ schedule: sched({ stability: 10 }), lastReviewedAt: now.toISOString() })
+  const r = cardRetrievability([card], now)
+  assert.equal(r.count, 1)
+  assert.equal(r.average, 1)
+  assert.equal(r.estimatedRemembered, 1)
+  assert.equal(r.buckets.find((b) => b.label === '90–100%')?.count, 1)
+})
+
+test('card retrievability decays to ≈0.9 after one stability’s worth of elapsed days', () => {
+  const stability = 10
+  const card = meta({
+    schedule: sched({ stability }),
+    lastReviewedAt: new Date(now.getTime() - stability * DAY_MS).toISOString(),
+  })
+  const r = cardRetrievability([card], now)
+  assert.equal(r.count, 1)
+  assert.ok(Math.abs(r.average - 0.9) < 1e-6)
+  assert.ok(Math.abs(r.estimatedRemembered - 0.9) < 1e-6)
+})
+
+test('card retrievability excludes cards without stability or without a last review', () => {
+  const noStability = meta({ lastReviewedAt: now.toISOString() })
+  const neverReviewed = meta({ schedule: sched({ stability: 10 }) }) // lastReviewedAt stays null
+  const r = cardRetrievability([noStability, neverReviewed], now)
+  assert.equal(r.count, 0)
+  assert.equal(r.average, 0)
+  assert.equal(r.estimatedRemembered, 0)
+  assert.ok(r.buckets.every((b) => b.count === 0))
+})
+
+test('card retrievability estimatedRemembered sums R across cards and average stays in [0,1]', () => {
+  const fresh = meta({ schedule: sched({ stability: 10 }), lastReviewedAt: now.toISOString() })
+  const decayed = meta({
+    schedule: sched({ stability: 10 }),
+    lastReviewedAt: new Date(now.getTime() - 10 * DAY_MS).toISOString(),
+  })
+  const r = cardRetrievability([fresh, decayed], now)
+  assert.equal(r.count, 2)
+  assert.ok(r.average >= 0 && r.average <= 1)
+  assert.ok(Math.abs(r.average - 0.95) < 1e-6)
+  assert.ok(Math.abs(r.estimatedRemembered - 1.9) < 1e-6)
+})
+
+test('FSRS analytics are deterministic and never mutate their inputs', () => {
+  const metas = [
+    meta({ schedule: sched({ stability: 20, difficulty: 5.4 }), lastReviewedAt: now.toISOString() }),
+    meta(), // SM-2 card, excluded everywhere
+  ]
+  const snapshot = JSON.stringify(metas)
+  const first = { s: cardStability(metas), d: cardDifficulty(metas), r: cardRetrievability(metas, now) }
+  const second = { s: cardStability(metas), d: cardDifficulty(metas), r: cardRetrievability(metas, now) }
+  assert.deepEqual(first, second)
+  assert.equal(JSON.stringify(metas), snapshot)
 })

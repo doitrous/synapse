@@ -15,6 +15,7 @@
 
 import type { CardMeta, Note, ReviewEvent } from './model.ts'
 import type { Grade } from '../srs.ts'
+import { retrievability } from './fsrs.ts'
 import { exclusiveStatus, MATURE_THRESHOLD_DAYS } from './status.ts'
 import { addLocalDays, localDay } from './time.ts'
 
@@ -448,6 +449,113 @@ export function trueRetention(events: ReviewEvent[], period: RetentionPeriod, no
     young: youngTotal === 0 ? null : youngPass / youngTotal,
     mature: matureTotal === 0 ? null : maturePass / matureTotal,
     total: total === 0 ? null : (youngPass + maturePass) / total,
+  }
+}
+
+// ---- FSRS analytics --------------------------------------------------------
+//
+// These three datasets summarize REAL per-card FSRS state — stability,
+// difficulty, retrievability — never anything derived from SM-2's ease or
+// interval. A card the scheduler has not touched with FSRS (no `stability`)
+// carries none of this and is excluded from every one of these functions
+// rather than papered over with a fabricated value: a deck with no FSRS
+// history returns `count: 0` and empty/zero stats, an honest empty state.
+
+export interface DistributionBucket { label: string; count: number }
+
+export interface StabilityStats { buckets: DistributionBucket[]; averageDays: number; count: number }
+
+const STABILITY_BUCKET_LABELS = ['<1d', '1–7d', '7–30d', '1–3mo', '3–12mo', '>1y']
+
+/** Which of the six fixed stability-in-days buckets a value falls into. */
+function stabilityBucketIndex(days: number): number {
+  if (days < 1) return 0
+  if (days < 7) return 1
+  if (days < 30) return 2
+  if (days < 90) return 3
+  if (days < 365) return 4
+  return 5
+}
+
+/** Distribution of FSRS memory stability (in days) across cards that carry it. */
+export function cardStability(metas: CardMeta[]): StabilityStats {
+  const counts = new Array(STABILITY_BUCKET_LABELS.length).fill(0)
+  let sum = 0
+  let count = 0
+  for (const meta of metas) {
+    const stability = meta.schedule.stability
+    if (stability == null) continue
+    counts[stabilityBucketIndex(stability)]++
+    sum += stability
+    count++
+  }
+  return {
+    buckets: STABILITY_BUCKET_LABELS.map((label, i) => ({ label, count: counts[i] })),
+    averageDays: count === 0 ? 0 : sum / count,
+    count,
+  }
+}
+
+export interface DifficultyStats { buckets: DistributionBucket[]; average: number; count: number }
+
+/** Distribution of FSRS difficulty (1–10) across cards that carry it, in ten integer buckets. */
+export function cardDifficulty(metas: CardMeta[]): DifficultyStats {
+  const counts = new Array(10).fill(0)
+  let sum = 0
+  let count = 0
+  for (const meta of metas) {
+    const difficulty = meta.schedule.difficulty
+    if (difficulty == null) continue
+    const bucket = Math.min(10, Math.max(1, Math.floor(difficulty)))
+    counts[bucket - 1]++
+    sum += difficulty
+    count++
+  }
+  return {
+    buckets: counts.map((c, i) => ({ label: String(i + 1), count: c })),
+    average: count === 0 ? 0 : sum / count,
+    count,
+  }
+}
+
+export interface RetrievabilityStats {
+  buckets: DistributionBucket[]
+  average: number
+  count: number
+  estimatedRemembered: number
+}
+
+const RETRIEVABILITY_BUCKET_LABELS = [
+  '0–10%', '10–20%', '20–30%', '30–40%', '40–50%', '50–60%', '60–70%', '70–80%', '80–90%', '90–100%',
+]
+
+/**
+ * Distribution of each FSRS card's current recall probability, computed from
+ * its stability and the time elapsed since its last review. Only reviewed
+ * FSRS cards are considered: a card with no `lastReviewedAt` has no elapsed
+ * time to decay from, so it is excluded rather than assumed fully retained.
+ * `estimatedRemembered` is the raw sum of R across counted cards — the
+ * expected number of them a student could recall right now — left unrounded
+ * so a caller can format it however the screen wants.
+ */
+export function cardRetrievability(metas: CardMeta[], now: Date): RetrievabilityStats {
+  const counts = new Array(RETRIEVABILITY_BUCKET_LABELS.length).fill(0)
+  let sum = 0
+  let count = 0
+  for (const meta of metas) {
+    const stability = meta.schedule.stability
+    if (stability == null || meta.lastReviewedAt == null) continue
+    const elapsedDays = Math.max(0, (now.getTime() - Date.parse(meta.lastReviewedAt)) / DAY_MS)
+    const r = Math.min(1, Math.max(0, retrievability(elapsedDays, stability)))
+    counts[Math.min(9, Math.floor(r * 10))]++
+    sum += r
+    count++
+  }
+  return {
+    buckets: RETRIEVABILITY_BUCKET_LABELS.map((label, i) => ({ label, count: counts[i] })),
+    average: count === 0 ? 0 : sum / count,
+    count,
+    estimatedRemembered: sum,
   }
 }
 
