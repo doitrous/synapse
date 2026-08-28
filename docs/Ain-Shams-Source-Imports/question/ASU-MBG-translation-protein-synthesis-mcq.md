@@ -6246,3 +6246,2856 @@ yes
 
 ## author_notes
 Overlaid onto Kasr's free-versus-attached-ribosome concept (CON-FND-60953640114635) — direct contrast pair with Q44; this variant names the lysosome where the base concept names "enzymes and hormones for export" as its own worked example.
+
+---
+
+# Item
+
+## id
+
+## title
+Defining translation itself
+
+## question
+Translation is the synthesis of
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+mRNA from DNA.
+
+## explanation_a
+Incorrect. Synthesizing mRNA from a DNA template is transcription, a separate, earlier process carried out by RNA polymerase — not translation.
+
+## answer_b
+mRNA from proteins.
+
+## explanation_b
+Incorrect. Information does not flow from protein back into mRNA in normal cellular biology — this reverses the direction described by the central dogma entirely.
+
+## answer_c
+proteins from rRNA
+
+## explanation_c
+Incorrect. rRNA is a structural and catalytic component of the ribosome (including peptidyl transferase), but it is mRNA, not rRNA, that carries the coded template read during translation.
+
+## answer_d
+proteins from mRNA
+
+## explanation_d
+Correct. Translation is the process by which the ribosome reads the codon sequence of mRNA and synthesizes a corresponding polypeptide, using tRNAs to match each codon to its specific amino acid. This is the final step of the central dogma's usual flow (DNA to RNA to protein), converting nucleic-acid information into a functional protein product.
+
+## answer_e
+proteins from tRNA
+
+## explanation_e
+Incorrect. tRNA serves as the adaptor that delivers amino acids according to the codons it reads on mRNA — mRNA, not tRNA, is the template being translated.
+
+## topic
+Human genetics
+
+## subtopic
+Translation elongation cycle
+
+## main_concept
+CON-FND-9A1437CD0A382C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State the basic definition of translation: synthesis of protein from an mRNA template.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q46, p.28.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's elongation-cycle concept (CON-FND-9A1437CD0A382C) — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+Which tRNA moves into the E site during translocation
+
+## question
+Which of the following occurs as the ribosome shifts down the mRNA by a distance of three nucleotides?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+the tRNA that was in the A site moves into the E site
+
+## explanation_a
+Incorrect. Translocation moves tRNAs by exactly one site each — the A-site tRNA moves into the P site, not all the way to the E site, in a single translocation step.
+
+## answer_b
+the tRNA that was in the P site moves into the A site
+
+## explanation_b
+Incorrect. This reverses the true direction of movement — translocation always moves tRNAs toward the E site (A to P, P to E), following the ribosome's advance along the mRNA, never backward from P into A.
+
+## answer_c
+the tRNA that was in the E site moves into the P site
+
+## explanation_c
+Incorrect. This also reverses the true direction — the E site is where a tRNA exits the ribosome, not a site tRNAs move into from elsewhere.
+
+## answer_d
+the tRNA that was in the E site moves into the A site
+
+## explanation_d
+Incorrect. This describes movement in the wrong direction entirely; deacylated tRNA leaves from the E site rather than moving further into the ribosome toward the A site.
+
+## answer_e
+the tRNA that was in the P site moves into the E site
+
+## explanation_e
+Correct. As the ribosome translocates one codon (three nucleotides) along the mRNA, the tRNA that had been in the P site — now deacylated, having handed its growing chain to the A-site tRNA during peptide bond formation — moves into the E site, from which it then leaves the ribosome. This happens simultaneously with the A-site tRNA (now carrying the extended chain) moving into the newly vacated P site.
+
+## topic
+Human genetics
+
+## subtopic
+Ribosome elongation cycle and polysomes
+
+## main_concept
+CON-FND-8C0EB47D70D27A
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-9A1437CD0A382C
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.55
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+65
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that translocation moves the P-site tRNA into the E site, from which it then leaves the ribosome.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q47, p.28.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-8C0EB47D70D27A) for the E site — reordered-option pair with Q48, which tests the complementary A-to-P movement on the existing elongation-cycle concept; both movements happen simultaneously during one translocation step and both are individually correct facts.
+
+---
+
+# Item
+
+## id
+
+## title
+Which tRNA moves into the P site during translocation
+
+## question
+Which of the following occurs as the ribosome shifts down the mRNA by a distance of three nucleotides? (second phrasing)
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+the tRNA that was in the A site moves into the P site
+
+## explanation_a
+Correct. As the ribosome translocates one codon along the mRNA, the tRNA that had been in the A site — now carrying the extended peptide chain after peptide bond formation — moves into the newly vacated P site. This frees the A site to receive the next incoming aminoacyl-tRNA, allowing the elongation cycle to repeat.
+
+## answer_b
+the tRNA that was in the P site moves into the A site
+
+## explanation_b
+Incorrect. This reverses the true direction of movement — translocation always advances tRNAs toward the E site (A to P, P to E), never backward from P into A.
+
+## answer_c
+the tRNA that was in the E site moves into the P site
+
+## explanation_c
+Incorrect. The E site is where a spent tRNA exits the ribosome — tRNAs do not move from the E site back into the P site; movement is unidirectional, always toward and out through the E site.
+
+## answer_d
+the tRNA that was in the E site moves into the A site
+
+## explanation_d
+Incorrect. This describes movement in the wrong direction entirely, and the E site is an exit point, not a site from which tRNAs re-enter deeper into the ribosome.
+
+## answer_e
+the tRNA that was in the A site moves into the E site
+
+## explanation_e
+Incorrect. Translocation moves each tRNA by exactly one site — the A-site tRNA moves into the P site, not all the way to the E site, in a single step.
+
+## topic
+Human genetics
+
+## subtopic
+Translation elongation cycle
+
+## main_concept
+CON-FND-9A1437CD0A382C
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-8C0EB47D70D27A
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that translocation moves the A-site tRNA into the P site.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q48, p.28.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's elongation-cycle concept (CON-FND-9A1437CD0A382C), which explicitly states the A-to-P movement — reused, no new concept minted. This is the source's own reordered-option duplicate of Q47 (title distinguished for record uniqueness); both are legitimate, complementary facts about the same translocation step.
+
+---
+
+# Item
+
+## id
+
+## title
+Contrasting prokaryotic and eukaryotic gene structure
+
+## question
+Which of the following about the differences between the prokaryotic and eukaryotic genes are true?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Prokaryotic genes are large, polycistronic and contain enhancers
+
+## explanation_a
+Incorrect. Prokaryotic operons are typically polycistronic, but they are not generally described as "large" relative to eukaryotic genes, and enhancers — regulatory elements that act at a distance — are a eukaryotic feature, not a standard prokaryotic one.
+
+## answer_b
+Eukaryotic genes are large, polycistronic and contain enhancers
+
+## explanation_b
+Incorrect. Eukaryotic genes do commonly contain enhancers, but they are monocistronic, not polycistronic — polycistronic mRNA (multiple coding regions per transcript) is the prokaryotic pattern.
+
+## answer_c
+Prokaryotic genes are large, monocistronic and contain introns
+
+## explanation_c
+Incorrect. Prokaryotic operons are typically polycistronic, not monocistronic, and prokaryotic genes generally lack introns — introns are a hallmark of eukaryotic gene structure.
+
+## answer_d
+Eukaryotic genes are large, monocistronic and contain introns
+
+## explanation_d
+Correct. Eukaryotic genes are monocistronic (one coding region per mRNA transcript) and contain introns, non-coding sequences that must be removed by splicing before translation — features consistent with their more elaborate, individually regulated structure, in contrast to compact, polycistronic, intron-poor prokaryotic operons. Enhancers, another eukaryotic-associated regulatory feature, are not part of this particular option's wording, but they fit the same broader pattern of eukaryotic genes being individually and elaborately regulated.
+
+## topic
+Human genetics
+
+## subtopic
+Polycistronic and monocistronic mRNA
+
+## main_concept
+CON-FND-175BC0480CCD48
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-ENERGETICS-GENE-STRUCTURE
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Contrast eukaryotic genes (monocistronic, containing introns) against prokaryotic operons (polycistronic, generally intron-poor).
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q49, p.28.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-175BC0480CCD48) — paired with Q42/Q65 under the same polycistronic/monocistronic concept.
+
+---
+
+# Item
+
+## id
+
+## title
+Defining ubiquitin
+
+## question
+Ubiquitin is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Protein kinase.
+
+## explanation_a
+Incorrect. Protein kinase is the enzyme that adds a phosphate group to another protein — a distinct modification unrelated to ubiquitin's tagging function.
+
+## answer_b
+Protein that tags another protein for proteolysis.
+
+## explanation_b
+Correct. Ubiquitin is a small, highly conserved protein that becomes covalently attached to abnormal, misfolded or short-lived proteins, marking them for recognition and destruction by the proteasome — a distinct, non-membranous degradation pathway from the lysosome. Multiple ubiquitin molecules are typically chained together (polyubiquitination) on the target protein, and it is this polyubiquitin chain that the proteasome specifically recognises before unfolding and degrading the tagged protein.
+
+## answer_c
+Protease.
+
+## explanation_c
+Incorrect. A protease is an enzyme that breaks peptide bonds directly; ubiquitin itself does not degrade proteins — it is only the tag that marks them for the proteasome, which contains the actual proteolytic machinery.
+
+## answer_d
+Hydroxylates another protein.
+
+## explanation_d
+Incorrect. Hydroxylation is carried out by dedicated hydroxylase enzymes (as in collagen's prolyl and lysyl hydroxylation) — an entirely separate modification from ubiquitin tagging.
+
+## answer_e
+Protein that regulates cell cycle.
+
+## explanation_e
+Incorrect. While ubiquitin-mediated degradation of specific regulatory proteins (such as cyclins) does influence cell-cycle progression indirectly, ubiquitin's defining, general role is tagging proteins for proteasomal degradation, not directly regulating the cell cycle itself.
+
+## topic
+Human genetics
+
+## subtopic
+Ubiquitin-proteasome pathway
+
+## main_concept
+CON-FND-0D6F0DC6CBAD60
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define ubiquitin as the protein that tags other proteins for proteasomal degradation.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q50, p.28.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's proteasome/ubiquitin concept (CON-FND-0D6F0DC6CBAD60) — reused, no new concept minted; near-duplicate of Q22's fact from the definitional angle.
+
+---
+
+# Item
+
+## id
+
+## title
+tRNA's two essential functional sites
+
+## question
+What are the two essential sites of tRNA for the translation of a genetic codon to an amino acid?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+5' end and T loop.
+
+## explanation_a
+Incorrect. The 5' end has no direct role in either amino acid attachment or codon reading, and the T (TψC) loop's role is binding the ribosome, not directly translating a codon into an amino acid.
+
+## answer_b
+Anticodon loop and the 3' end.
+
+## explanation_b
+Correct. The anticodon loop reads the mRNA codon by complementary base pairing, and the 3' end (the acceptor arm's terminal CCA sequence) carries the specific amino acid that codon calls for — together, these two sites are what let tRNA physically link a nucleotide triplet to an amino acid. Every other structural feature of the tRNA cloverleaf, such as the D-arm or the T (TψC) arm, supports this core function indirectly (synthetase recognition, ribosome binding) rather than performing the codon-to-amino-acid translation itself.
+
+## answer_c
+anticodon loop and 5' end.
+
+## explanation_c
+Incorrect. The anticodon loop is correctly identified, but the amino acid attaches at the tRNA's 3' end, not its 5' end.
+
+## answer_d
+3'end and extra arm.
+
+## explanation_d
+Incorrect. The 3' end is correctly identified as the amino-acid-carrying site, but the extra arm is a minor, variable region between tRNAs — it plays no role in reading the codon, which is the anticodon loop's job.
+
+## answer_e
+T loop and D loop.
+
+## explanation_e
+Incorrect. The T (TψC) loop binds the ribosome and the D-loop is recognised by aminoacyl-tRNA synthetase for charging — neither of these two loops directly reads the codon or carries the amino acid during translation itself.
+
+## topic
+Human genetics
+
+## subtopic
+tRNA structure
+
+## main_concept
+CON-FND-4DCC3E30FD4C86
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify the anticodon loop and the 3' acceptor end as tRNA's two essential sites for translating a codon into an amino acid.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q51, p.28.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's tRNA-cloverleaf concept (CON-FND-4DCC3E30FD4C86) — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+A true statement comparing eukaryotic and prokaryotic translation
+
+## question
+Comparing eukaryotic to prokaryotic translation, which of the following is true?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Formyl-methionine-tRNA is the initiator in eukaryotes.
+
+## explanation_a
+Incorrect. Formylmethionine-tRNA is the prokaryotic (and mitochondrial) initiator — eukaryotic cytoplasmic translation uses plain, unformylated methionine instead.
+
+## answer_b
+Several initiation factors are needed in prokaryotes.
+
+## explanation_b
+Incorrect. This is backwards — eukaryotic initiation actually requires a substantially larger number of initiation factors (many eIFs) than the comparatively simpler prokaryotic initiation, which uses only a few (IF-1, IF-2, IF-3).
+
+## answer_c
+Shine-Dalgarno sequence is present in 16S rRNA.
+
+## explanation_c
+Incorrect as the best answer here — the Shine-Dalgarno-complementary sequence is indeed part of prokaryotic 16S rRNA, but this describes a prokaryotic-only feature rather than a point of comparison between the two systems, making it a less complete answer than the option naming a genuine eukaryotic mechanism.
+
+## answer_d
+Cap at the 5'-end of mRNA is important for initiation in eukaryotes.
+
+## explanation_d
+Correct. Eukaryotic translation initiation depends on recognition of the 7-methylguanosine cap at the mRNA's 5' end by cap-binding initiation factors, which recruit the 40S subunit — a mechanism with no counterpart in prokaryotic initiation, which instead uses the Shine-Dalgarno sequence with no cap involved at all. This cap-dependent mechanism is also why capping is one of the first processing steps a eukaryotic pre-mRNA undergoes in the nucleus, well before splicing or export are complete.
+
+## answer_e
+Eukaryotic coding RNA is polycistronic.
+
+## explanation_e
+Incorrect. Eukaryotic mRNA is monocistronic, carrying one coding region per transcript — polycistronic mRNA, carrying multiple coding regions, is the prokaryotic pattern.
+
+## topic
+Human genetics
+
+## subtopic
+Eukaryotic translation initiation
+
+## main_concept
+CON-FND-CC6BAFEE04D3F8
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-6D0BFB1CD8B9A3
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.55
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+65
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify the 5' cap's role in eukaryotic initiation as a genuine prokaryotic/eukaryotic difference, distinguishing it from three commonly reversed or misapplied comparison statements.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q52, p.28.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's eukaryotic-initiation concept (CON-FND-CC6BAFEE04D3F8); contextual link to the new prokaryotic-initiation concept (CON-FND-6D0BFB1CD8B9A3) since three of the five options are prokaryotic-side facts this question expects the reader to correctly rule out.
+
+---
+
+# Item
+
+## id
+
+## title
+Naming the peptide-bond-forming enzyme and its chemistry
+
+## question
+Name the enzyme that forms the peptide bond during protein synthesis and define its chemical composition:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Peptide synthase, protein.
+
+## explanation_a
+Incorrect. "Peptide synthase" is not the name of the ribosomal enzyme responsible for peptide bond formation, and the enzyme's catalytic chemistry is RNA-based, not protein-based.
+
+## answer_b
+Peptidyl transferase, protein.
+
+## explanation_b
+Incorrect on chemical composition — the enzyme name is correct, but peptidyl transferase's catalytic activity is carried by RNA (a ribozyme), not by protein.
+
+## answer_c
+Peptidyl transferase, RNA.
+
+## explanation_c
+Correct. The enzyme that forms every peptide bond during protein synthesis is peptidyl transferase, and its catalytic activity is chemically RNA-based — carried by 28S rRNA in the eukaryotic 60S subunit or 23S rRNA in the prokaryotic 50S subunit — making it a ribozyme rather than a conventional protein enzyme. This same activity also catalyses the reverse-type hydrolysis reaction at termination, releasing the finished polypeptide from its final tRNA.
+
+## answer_d
+GTPase, glycopeptide.
+
+## explanation_d
+Incorrect. GTPase enzymes (like the elongation factors) hydrolyse GTP to drive steps such as A-site delivery and translocation, but they do not themselves form the peptide bond, and "glycopeptide" does not describe peptidyl transferase's chemical nature.
+
+## answer_e
+Peptidase, glycolipid.
+
+## explanation_e
+Incorrect. A peptidase breaks peptide bonds rather than forming them, and "glycolipid" bears no relation to peptidyl transferase's actual RNA-based chemistry.
+
+## topic
+Human genetics
+
+## subtopic
+Peptidyl transferase
+
+## main_concept
+CON-FND-E5354D98C97340
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name peptidyl transferase as the peptide-bond-forming enzyme and identify its chemical composition as RNA.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q53, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-E5354D98C97340) — same ribozyme-identity concept as Q23/Q24/Q27/Q64.
+
+---
+
+# Item
+
+## id
+
+## title
+What guarantees the fidelity of aminoacyl-tRNA synthetases
+
+## question
+Regarding aminoacyl-tRNA synthetases:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+One enzyme can recognize all the 20 amino acids.
+
+## explanation_a
+Incorrect. This is backwards — there are 20 different synthetases, each specific for exactly one amino acid and its matching tRNA, not one enzyme recognising all twenty.
+
+## answer_b
+It requires GTP as a source of energy.
+
+## explanation_b
+Incorrect. Aminoacyl-tRNA synthetases use ATP, hydrolysed to AMP and pyrophosphate, to activate and charge amino acids onto tRNA — not GTP, which is used at later, ribosome-based elongation steps instead.
+
+## answer_c
+It catalyzes the transfer of amino acids from tRNA to the growing polypeptide.
+
+## explanation_c
+Incorrect. Transferring an amino acid from tRNA onto the growing polypeptide chain is peptidyl transferase's job, at the ribosome — aminoacyl-tRNA synthetase's job is charging the amino acid onto its tRNA in the first place, before the tRNA ever reaches the ribosome.
+
+## answer_d
+It is an RNA that has inherent catalytic activity (Ribozyme).
+
+## explanation_d
+Incorrect. Aminoacyl-tRNA synthetases are protein enzymes, not ribozymes — peptidyl transferase, not the synthetase, is the RNA-based catalyst in this pathway.
+
+## answer_e
+Its specificity is responsible for the high fidelity of translation of genetic code.
+
+## explanation_e
+Correct. Each aminoacyl-tRNA synthetase's high specificity for one amino acid and its one matching tRNA is what guarantees that a codon reliably gets translated into the correct amino acid — an error at this stage would be invisible to every later, downstream step, since the ribosome only ever checks the anticodon, never the amino acid actually attached. This specificity is sometimes described as the "second genetic code."
+
+## topic
+Human genetics
+
+## subtopic
+Translational fidelity
+
+## main_concept
+CON-FND-02E8733D78D5DC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that aminoacyl-tRNA synthetase specificity — the "second genetic code" — is what guarantees translational fidelity.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q54, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-02E8733D78D5DC) — paired with Q20/Q26/Q62 under the same translational-fidelity concept; reordered-option near-duplicate of Q62.
+
+---
+
+# Item
+
+## id
+
+## title
+The very first step of translation
+
+## question
+The first step in translation is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Binding of tRNA to the large ribosomal subunit.
+
+## explanation_a
+Incorrect. The large subunit joins the initiation complex only after the small subunit is already positioned on the mRNA together with the initiator tRNA — it is not where translation begins.
+
+## answer_b
+Binding of mRNA to the two ribosomal subunits.
+
+## explanation_b
+Incorrect. The two subunits do not bind mRNA together simultaneously as a first step — the small subunit engages the mRNA first, with the large subunit joining afterward once the initiator tRNA is correctly positioned.
+
+## answer_c
+Binding of mRNA to the small ribosomal subunit.
+
+## explanation_c
+Incorrect as the single best answer here — mRNA does bind the small subunit early in initiation, but this option omits the initiator tRNA that co-assembles with the small subunit on the mRNA, which the correct option captures more completely.
+
+## answer_d
+Binding of tRNA to the small ribosomal subunit.
+
+## explanation_d
+Correct. Translation begins with the small ribosomal subunit binding mRNA together with the initiator tRNA (fMet-tRNA in prokaryotes at the P site, or Met-tRNAi in the eukaryotic pre-initiation complex) — only after this initial assembly does the large subunit join to complete the functional ribosome. Framing this as tRNA binding the small subunit, rather than mRNA binding it alone, captures that the initiator tRNA is present from this very first step, not added afterward.
+
+## answer_e
+Binding of the two ribosomal subunits to each other.
+
+## explanation_e
+Incorrect. The two subunits join only near the end of initiation, once the small subunit, mRNA and initiator tRNA are already correctly positioned together — this is one of the last initiation steps, not the first.
+
+## topic
+Human genetics
+
+## subtopic
+Eukaryotic translation initiation
+
+## main_concept
+CON-FND-CC6BAFEE04D3F8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the first step of translation is the small ribosomal subunit binding mRNA together with the initiator tRNA.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q55, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's eukaryotic-initiation concept (CON-FND-CC6BAFEE04D3F8), whose own definition names the initiator tRNA as co-assembling with the small subunit at this step — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+The directionality of polypeptide synthesis
+
+## question
+What is the directionality of polypeptide synthesis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+5' to 3' direction.
+
+## explanation_a
+Incorrect for polypeptide synthesis. 5' to 3' describes the direction mRNA is read, and nucleic acids are synthesized, but the polypeptide chain itself is described by its amino- and carboxyl-termini, not by 5'/3' nucleic-acid notation.
+
+## answer_b
+3' to 5' direction.
+
+## explanation_b
+Incorrect for the same reason as 5' to 3' — 3'/5' notation applies to nucleic acids, not to the amino- and carboxyl-terminus framework used to describe polypeptide chain growth.
+
+## answer_c
+N-terminal to 3' direction.
+
+## explanation_c
+Incorrect. This mixes two different notations (amino/carboxyl-terminus for protein, 5'/3' for nucleic acid) that do not belong together — polypeptide direction is described entirely in N-to-C terms.
+
+## answer_d
+N-terminal to C-terminal direction.
+
+## explanation_d
+Correct. Polypeptide synthesis always proceeds from the amino (N) terminus toward the carboxyl (C) terminus: the first amino acid incorporated becomes the chain's N-terminal end, and each subsequent amino acid is added onto the growing chain's C-terminal end. This is why the C-terminal end of the growing chain is always the one still attached to the P-site tRNA, while the N-terminal end is the oldest part, already synthesized and projecting away from the ribosome's active site.
+
+## answer_e
+C-terminal to N-terminal direction.
+
+## explanation_e
+Incorrect. This reverses the true direction — new amino acids are added onto the chain's carboxyl (C-terminal) end, not its amino (N-terminal) end, so the chain grows from N-terminus toward C-terminus, not the other way round.
+
+## topic
+Human genetics
+
+## subtopic
+Translation elongation cycle
+
+## main_concept
+CON-FND-9A1437CD0A382C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+40
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that polypeptide synthesis proceeds from the N-terminus toward the C-terminus.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q56, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's elongation-cycle concept (CON-FND-9A1437CD0A382C), which explicitly states the N-to-C synthesis direction — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+Defining a polysome
+
+## question
+Which one of the following phrases best describes polysomes?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+A ribosome bound to multiple mRNA molecules.
+
+## explanation_a
+Incorrect. This describes the reverse arrangement — a polysome is multiple ribosomes on a single mRNA molecule, not a single ribosome bound to several different mRNAs.
+
+## answer_b
+A collection of free and attached ribosomes.
+
+## explanation_b
+Incorrect. "Free and attached ribosomes" describes the two general locations ribosomes can occupy in a cell (cytosolic versus RER-bound) — it does not describe a polysome, which is specifically several ribosomes translating one mRNA together.
+
+## answer_c
+An mRNA with more than one coding regions.
+
+## explanation_c
+Incorrect. An mRNA carrying more than one protein-coding region describes a polycistronic mRNA — a property of the mRNA itself, not of how many ribosomes are translating it.
+
+## answer_d
+More than one ribosome simultaneously translating the same mRNA.
+
+## explanation_d
+Correct. A polysome (polyribosome) is exactly this: several ribosomes attached to and simultaneously translating a single mRNA molecule, each at a different stage of progress along the message — producing multiple copies of the same protein from one transcript at once. Under electron microscopy, polysomes appear as beaded chains or rosettes of ribosomes strung along the mRNA, a pattern that greatly increases the efficiency of protein output from a single transcript.
+
+## answer_e
+Both structural and regulatory genes.
+
+## explanation_e
+Incorrect. This describes a category of genes by function, unrelated to the physical arrangement of ribosomes on an mRNA that defines a polysome.
+
+## topic
+Human genetics
+
+## subtopic
+Ribosome structure and polysomes
+
+## main_concept
+CON-FND-4284C6B8667CD6
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-8C0EB47D70D27A
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+38
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define a polysome as multiple ribosomes simultaneously translating the same mRNA molecule.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q57, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's histology ribosome-structure concept (CON-FND-4284C6B8667CD6), which already defines polysomes — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+The enzyme that adds a phosphate group to a protein
+
+## question
+Which type of enzyme adds a phosphate group to target proteins?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Kinase.
+
+## explanation_a
+Correct. A protein kinase transfers a phosphate group from ATP onto the hydroxyl group of a target amino acid residue — mainly serine, threonine or tyrosine — producing the phosphorylated protein and ADP as a by-product. This is a covalent, enzyme-catalysed modification, distinct from any non-covalent binding interaction, and it can either activate or inactivate the target protein depending on which specific protein is phosphorylated.
+
+## answer_b
+Dekinase.
+
+## explanation_b
+Incorrect. "Dekinase" is not a standard enzyme class — the enzyme that removes a phosphate group (the reverse reaction) is called a phosphatase, not a dekinase.
+
+## answer_c
+Dephosphatase.
+
+## explanation_c
+Incorrect. "Dephosphatase" is not the correct name for either direction of this reaction — adding phosphate is done by a kinase, and removing it is done by a phosphatase (not a "dephosphatase").
+
+## answer_d
+Phosphatase.
+
+## explanation_d
+Incorrect. Phosphatase performs the reverse reaction — removing a phosphate group from a protein — not adding one.
+
+## answer_e
+Hydroxylase.
+
+## explanation_e
+Incorrect. Hydroxylase enzymes add a hydroxyl group (as in collagen's prolyl and lysyl hydroxylation), an entirely different modification from phosphorylation.
+
+## topic
+Human genetics
+
+## subtopic
+Post-translational phosphorylation
+
+## main_concept
+CON-FND-6A58FA1680290F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+32
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-ENZYMES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify kinase as the enzyme that adds a phosphate group to a target protein.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q58, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's phosphorylation concept (CON-FND-6A58FA1680290F) — reused, no new concept minted; paired with Q59's reverse-reaction question.
+
+---
+
+# Item
+
+## id
+
+## title
+The enzyme that removes a phosphate group from a protein
+
+## question
+Which type of enzyme remove a phosphate group from target proteins?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Kinase.
+
+## explanation_a
+Incorrect. Kinase performs the reverse reaction — adding a phosphate group from ATP onto a target protein — not removing one.
+
+## answer_b
+Dekinase.
+
+## explanation_b
+Incorrect. "Dekinase" is not a standard enzyme class recognised in this pathway — the enzyme that removes phosphate is specifically called a phosphatase.
+
+## answer_c
+Dephosphatase.
+
+## explanation_c
+Incorrect. "Dephosphatase" is not the correct term — the standard name for the phosphate-removing enzyme is simply phosphatase.
+
+## answer_d
+Phosphatase.
+
+## explanation_d
+Correct. A protein phosphatase hydrolyses the phosphate group off a target protein, releasing inorganic phosphate (Pi) and regenerating the dephosphorylated protein — the reverse reaction of kinase-mediated phosphorylation, together forming a reversible on/off switch for many regulated proteins. Whether removing the phosphate activates or inactivates the protein again depends entirely on which specific protein is involved, mirroring the same target-dependent logic that governs phosphorylation itself.
+
+## answer_e
+Hydroxylase.
+
+## explanation_e
+Incorrect. Hydroxylase adds a hydroxyl group to a residue (as in collagen synthesis) — an entirely separate modification from removing a phosphate group.
+
+## topic
+Human genetics
+
+## subtopic
+Post-translational phosphorylation
+
+## main_concept
+CON-FND-6A58FA1680290F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+32
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-ENZYMES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify phosphatase as the enzyme that removes a phosphate group from a target protein.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q59, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's phosphorylation concept (CON-FND-6A58FA1680290F) — reused, no new concept minted; direct pair with Q58.
+
+---
+
+# Item
+
+## id
+
+## title
+The reversible modification that can activate or deactivate a protein
+
+## question
+Which type of reversal post-translational modification can activate or deactivate a protein, depending on which protein is targeted?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Glycosylation.
+
+## explanation_a
+Incorrect. Glycosylation is generally a one-directional, non-reversible modification made during processing through the ER and Golgi — it does not cycle a protein between an "on" and "off" state the way phosphorylation does.
+
+## answer_b
+Phosphorylation
+
+## explanation_b
+Correct. Phosphorylation (by kinase) and dephosphorylation (by phosphatase) form a reversible pair of covalent modifications whose effect depends entirely on which specific protein is targeted — phosphorylation activates some enzymes and inactivates others, so the same modification can switch different proteins in opposite directions. Glycogen metabolism is the textbook illustration: phosphorylation activates glycogen phosphorylase kinase but inactivates glycogen synthase, so the identical chemical change drives glycogen breakdown and glycogen synthesis in opposite directions depending only on which enzyme received the phosphate.
+
+## answer_c
+Hydroxylation.
+
+## explanation_c
+Incorrect. Hydroxylation (as in collagen's prolyl and lysyl residues) is a stabilising structural modification, not a reversible on/off regulatory switch.
+
+## answer_d
+Ubiquitylation.
+
+## explanation_d
+Incorrect. Ubiquitylation marks a protein for proteasomal degradation — a fundamentally destructive, not a reversible regulatory, outcome.
+
+## answer_e
+Acetylation.
+
+## explanation_e
+Incorrect. While some acetylation events are reversible (as in histone acetylation/deacetylation), the reversible modification most classically described as able to either activate or inactivate different target proteins is phosphorylation, with well-known examples on both sides (e.g. glycogen phosphorylase kinase activated, glycogen synthase inactivated, by phosphorylation).
+
+## topic
+Human genetics
+
+## subtopic
+Post-translational phosphorylation
+
+## main_concept
+CON-FND-6A58FA1680290F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-ENZYMES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that phosphorylation is the reversible post-translational modification that can either activate or inactivate a protein depending on which one is targeted.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q60, p.30.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's phosphorylation concept (CON-FND-6A58FA1680290F), whose own worked examples (glycogen phosphorylase kinase activated, glycogen synthase inactivated) directly support this question — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+Spotting the mislabelled part of an elongation-complex diagram
+
+## question
+A eukaryotic translation complex during the elongation stage is represented in a schematic diagram, showing the mRNA, the P-site and A-site tRNAs (with their anticodons), the direction of ribosome movement along the mRNA, and the nascent peptide chain emerging from the ribosome. Which of the following labels on such a diagram is NOT correct?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Is the location of mRNA cap structure.
+
+## explanation_a
+Incorrect as the answer to this NOT question — this label is correctly placed. The 5' end shown near the ribosome's leading edge is consistent with where the mRNA's cap structure lies upstream of the region currently being translated.
+
+## answer_b
+Direction of ribosome movement.
+
+## explanation_b
+Incorrect as the answer to this NOT question — this label is correctly placed. The ribosome always moves toward the mRNA's 3' end during elongation, and a diagram arrow showing this direction is accurately labelled.
+
+## answer_c
+Anticodon of a tRNA molecule.
+
+## explanation_c
+Incorrect as the answer to this NOT question — this label is correctly placed. Each tRNA shown in the A or P site does display its anticodon loop pairing with the corresponding mRNA codon.
+
+## answer_d
+5' end of a tRNA molecule.
+
+## explanation_d
+Incorrect as the answer to this NOT question — this label is correctly placed. A tRNA does have a 5' end (opposite its 3'-CCA acceptor end), and correctly marking it on a diagram is accurate.
+
+## answer_e
+Carboxy-terminus of the growing peptide chain.
+
+## explanation_e
+Correct — this is the incorrect label. The point where the nascent peptide is still attached to the P-site tRNA is the chain's carboxy (C) terminus, the actively growing end — not the free end projecting furthest out of the ribosome's exit tunnel, which is instead the chain's oldest, amino (N)-terminal portion. Labelling the far, exiting end of the peptide as its "carboxy-terminus" reverses which end is which, since polypeptide synthesis proceeds N-terminus to C-terminus, with the growing (C-terminal) end always the one still tethered to tRNA inside the ribosome.
+
+## topic
+Human genetics
+
+## subtopic
+Translation elongation cycle
+
+## main_concept
+CON-FND-9A1437CD0A382C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Challenging
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+72
+
+## exam_relevance
+4
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise that the growing peptide's carboxy-terminus is the end still attached to the P-site tRNA, not the free end exiting the ribosome.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q61, p.30.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+Source question is diagram-based (a labelled eukaryotic elongation-complex schematic with position markers (A)-(E) on the figure, distinct from this item's answer-choice letters a-e). Reworded as a self-contained text description of the diagram's content per this platform's text-only question format, preserving the exact tested fact and the department's own keyed answer (the mislabelled carboxy-terminus) rather than reproducing the image. Overlaid onto Kasr's elongation-cycle concept (CON-FND-9A1437CD0A382C), which states the correct N-to-C growth direction this question's false label reverses.
+
+---
+
+# Item
+
+## id
+
+## title
+Aminoacyl-tRNA synthetase specificity, restated
+
+## question
+Regarding aminoacyl-tRNA synthetases: (restated)
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Its specificity is responsible for the high fidelity of translation of genetic code
+
+## explanation_a
+Correct. Each aminoacyl-tRNA synthetase's high specificity for exactly one amino acid and its matching tRNA is what guarantees translation's fidelity — errors made at this charging step would otherwise be invisible to every subsequent step, since the ribosome checks only the anticodon, never the identity of the amino acid actually attached. This specificity is sometimes described as the "second genetic code," underscoring how central it is to accurate protein synthesis.
+
+## answer_b
+It requires GTP as a source of energy
+
+## explanation_b
+Incorrect. Aminoacyl-tRNA synthetases use ATP (hydrolysed to AMP and pyrophosphate) to activate and charge amino acids, not GTP — GTP is used at later, ribosome-based elongation steps.
+
+## answer_c
+Molecular basis of degeneracy in genetic code
+
+## explanation_c
+Incorrect. Degeneracy — multiple codons specifying the same amino acid — arises from wobble base pairing at the ribosome's decoding step, not from any property of aminoacyl-tRNA synthetases.
+
+## answer_d
+Binding of the small subunit to messenger RNA
+
+## explanation_d
+Incorrect. Small-subunit binding to mRNA is an initiation event carried out by the ribosome, entirely separate from aminoacyl-tRNA synthetase's job of charging tRNAs before they ever reach the ribosome.
+
+## topic
+Human genetics
+
+## subtopic
+Translational fidelity
+
+## main_concept
+CON-FND-02E8733D78D5DC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Restate that aminoacyl-tRNA synthetase specificity guarantees translational fidelity.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q62, p.30.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-02E8733D78D5DC) — reordered-option near-duplicate of Q54, both keyed to the same synthetase-specificity fact.
+
+---
+
+# Item
+
+## id
+
+## title
+A requirement shared by prokaryotic and eukaryotic translation
+
+## question
+Which of the following is required for both prokaryotic and eukaryotic protein synthesis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Charging tRNA with formyl methionine
+
+## explanation_a
+Incorrect. Formylmethionine charging is specific to prokaryotic (and mitochondrial) initiation — eukaryotic cytoplasmic translation initiates with plain, unformylated methionine instead.
+
+## answer_b
+Translocation of the peptidyl-tRNA from the A site to the P site
+
+## explanation_b
+Correct. Translocation — the elongation-factor- and GTP-driven step that moves the peptidyl-tRNA from the A site into the P site, advancing the ribosome one codon along the mRNA — is a universal feature of translation, occurring identically (in principle) in both prokaryotes (via EF-G) and eukaryotes (via eEF-2). This makes translocation one of the clearest examples of a conserved core mechanism sitting underneath the many domain-specific differences in how initiation is carried out.
+
+## answer_c
+Binding of the small ribosomal subunit to shine-Dalgarno sequence
+
+## explanation_c
+Incorrect. The Shine-Dalgarno sequence is a prokaryotic-only feature, recognised by 16S rRNA — eukaryotic mRNA lacks a Shine-Dalgarno sequence and uses 5' cap-dependent recruitment instead.
+
+## answer_d
+Movement of the mRNA out of the nucleus and into the cytoplasm
+
+## explanation_d
+Incorrect. This nuclear export step applies only to eukaryotes, which have a nuclear membrane separating transcription from translation — prokaryotes have no nucleus, so transcription and translation can occur simultaneously in the same compartment.
+
+## answer_e
+Recognition of the 5'-cap by initiation factors
+
+## explanation_e
+Incorrect. Cap recognition is a eukaryotic-specific initiation mechanism — prokaryotic mRNA is not capped, and prokaryotic initiation instead relies on the Shine-Dalgarno sequence.
+
+## topic
+Human genetics
+
+## subtopic
+Translation elongation cycle
+
+## main_concept
+CON-FND-9A1437CD0A382C
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-6D0BFB1CD8B9A3
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.55
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+65
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify translocation (peptidyl-tRNA from A to P site) as a universal elongation step shared by prokaryotic and eukaryotic translation, distinguishing it from four domain-specific distractors.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q63, p.29.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's elongation-cycle concept (CON-FND-9A1437CD0A382C), which describes translocation generically applicable to both domains; contextual link to the new prokaryotic-initiation concept (CON-FND-6D0BFB1CD8B9A3) since four of the five options are domain-specific facts this question expects the reader to correctly rule out.
+
+---
+
+# Item
+
+## id
+
+## title
+Peptidyl transferase's inherent catalytic activity
+
+## question
+Regarding peptidyl transferase enzyme:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It requires ATP as a source of energy
+
+## explanation_a
+Incorrect. Peptidyl transferase does not spend any additional ATP or GTP to form a peptide bond — the energy for that bond was already stored earlier in the aminoacyl-tRNA's own ester bond, formed during amino acid activation.
+
+## answer_b
+It catalyzes the transfer of the initiator tRNA to the P site
+
+## explanation_b
+Incorrect. Placing the initiator tRNA in the P site is an initiation-complex assembly event, not something peptidyl transferase catalyses — peptidyl transferase's job is forming (and, at termination, hydrolysing) the peptide bond itself.
+
+## answer_c
+It is an RNA that has inherent catalytic activity
+
+## explanation_c
+Correct. Peptidyl transferase is a ribozyme: its catalytic activity is carried by ribosomal RNA itself (28S rRNA in the eukaryotic 60S subunit, 23S rRNA in the prokaryotic 50S subunit) rather than by a distinct protein enzyme — making it one of the clearest examples of RNA acting as a biological catalyst. This RNA-catalysed chemistry is used both for forming every peptide bond during elongation and, at termination, for hydrolysing the finished polypeptide off its final tRNA.
+
+## answer_d
+Its specificity is responsible for the high fidelity of translation of genetic code
+
+## explanation_d
+Incorrect. High-fidelity codon-to-amino-acid matching is guaranteed primarily by aminoacyl-tRNA synthetase specificity (with a secondary check at the small subunit's decoding center) — peptidyl transferase's role is catalysing the chemistry of bond formation, not verifying which amino acid is correct.
+
+## answer_e
+It catalyzes the charging of tRNA based on anticodon sequence
+
+## explanation_e
+Incorrect. Charging a tRNA with its amino acid is aminoacyl-tRNA synthetase's job, performed before the tRNA ever reaches the ribosome — peptidyl transferase acts only at the ribosome, on tRNAs that are already charged.
+
+## topic
+Human genetics
+
+## subtopic
+Peptidyl transferase
+
+## main_concept
+CON-FND-E5354D98C97340
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Recall
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Restate that peptidyl transferase is an RNA with inherent catalytic activity (a ribozyme), distinguishing this fact from synthetase-fidelity and tRNA-charging distractors.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q64, p.30.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-E5354D98C97340) — same ribozyme-identity concept as Q23/Q24/Q27/Q53; this item's distractors deliberately probe adjacent facts (energy cost, synthetase fidelity, tRNA charging) to test whether the reader can keep peptidyl transferase's specific role distinct from neighbouring mechanisms.
+
+---
+
+# Item
+
+## id
+
+## title
+Defining polycistronic mRNA
+
+## question
+Which one of the following phrases best describes polycistronic mRNA?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Having only one initiation site but several coding regions
+
+## explanation_a
+Incorrect. A polycistronic mRNA typically has a separate initiation (ribosome-binding) site for each of its coding regions, not just one shared site for all of them.
+
+## answer_b
+Attached to multiple tRNAs during protein biosynthesis
+
+## explanation_b
+Incorrect. Every translating mRNA, polycistronic or not, interacts with many tRNAs in sequence as each codon is read — this is not a distinguishing feature of polycistronic mRNA specifically.
+
+## answer_c
+Attached to multiple ribosomes during protein biosynthesis
+
+## explanation_c
+Incorrect. Having multiple ribosomes attached describes a polysome, a property that can apply to any actively translated mRNA (monocistronic or polycistronic) — it does not define what "polycistronic" itself means.
+
+## answer_d
+Having more than one protein coding regions
+
+## explanation_d
+Correct. Polycistronic mRNA is defined by carrying more than one protein-coding region within a single transcript, allowing one piece of mRNA to direct synthesis of several different, often functionally related, proteins — the defining feature of prokaryotic operon transcripts, in contrast to eukaryotic monocistronic mRNA. This packaging strategy lets a bacterium coordinate expression of an entire metabolic pathway's enzymes together, from one promoter and one transcript, rather than regulating each gene separately.
+
+## answer_e
+Having multiple exons and only intron
+
+## explanation_e
+Incorrect. Exons and introns are features of eukaryotic gene structure (relevant to splicing), not the defining feature of polycistronic mRNA, which is instead about how many protein-coding regions one transcript carries.
+
+## topic
+Human genetics
+
+## subtopic
+Polycistronic and monocistronic mRNA
+
+## main_concept
+CON-FND-175BC0480CCD48
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-ENERGETICS-GENE-STRUCTURE
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define polycistronic mRNA as a transcript carrying more than one protein-coding region.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q65, p.30.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-175BC0480CCD48) — paired with Q42/Q49 under the same polycistronic/monocistronic concept; final question of the Translation "Protein Synthesis" chapter (Q1-65), closing this cluster.

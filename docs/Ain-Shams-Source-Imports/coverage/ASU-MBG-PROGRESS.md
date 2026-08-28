@@ -3,6 +3,99 @@
 Tracks status against the 12 concept clusters in `ASU-MBG-triage.md`. Update this file, do not
 recreate it, as each cluster closes.
 
+## Done (author7, branch `asu-mbg-author7`, base `asu-mbg-author6` @ 937d4e8b)
+
+**Cluster 5 · Translation / Protein Synthesis — CLOSED, all 65 questions authored.**
+
+Keys recovered from the chapter's own answer table (PDF p.30, which also carries the chapter's own
+Q60-65 — the table is not on a page by itself). Page map: pg22=Q1-6, pg23=Q7-14, pg24=Q15-22,
+pg25=Q23-30, pg26=Q31-37, pg27=Q38-45, pg28=Q46-52, pg29=Q53-59, pg30=Q60-65+answer table.
+
+Search-before-mint found 13 existing cross-university concepts (mostly Kasr's `102-INT-mcq-concepts.md`
+"Protein Synthesis (Translation)" chapter and `101-ISK-mcq-concepts.md` histology chapter, plus two from
+Alexandria's `AU-MED-102-biochem-molecular-concepts.md`) already covering most of the chapter — these
+were sparse-overlaid with ASU tags (`+asu`, `+1`, `+ASU-MBG`, field_notes citation) rather than
+duplicated, appended to `pending-live/ASU-MBG-molecular-genetics.md`. Two of their articles
+(`ART-101-HIS-CYTOPLASMIC-ORGANELLES`, `ART-102-BIO-ENZYMES`) needed a first ASU overlay too, appended
+to `pending-live/ASU-MBG-molecular-genetics-articles.md`.
+
+6 new concepts minted for genuinely untaught facts (prokaryotic initiation apparatus was explicitly
+out of scope for the one existing — eukaryotic-only — initiation concept; the E site was never
+mentioned anywhere in the corpus; peptidyl transferase's specific 28S/23S rRNA identity existed only
+at the subunit-location level; aminoacyl-tRNA-synthetase fidelity/"second genetic code" appeared
+nowhere; the full per-residue energy tally and the mono/polycistronic gene-structure contrast were
+both absent). Two new minimal `TPL-CONCEPT` articles teach these 6, cross-linked to the two existing
+translation articles they deepen rather than duplicate.
+
+| Concept | ID | Qs | Status |
+|---|---|---:|---|
+| Elongation cycle (A site, 60S peptidyl transferase, A→P translocation, 5'→3', N→C) | `CON-FND-9A1437CD0A382C` (Kasr, overlaid) | Q3,4,5,8,9,19,21,25,33,37,46,48,56,61,63 | reused |
+| Translocation (eEF-2+GTP, A→P) | `CON-FND-60F505DFC88026` (Alexandria, overlaid) | Q14 | reused |
+| Eukaryotic initiation (IF-4/40S/AUG/Met-tRNAi/P site) | `CON-FND-CC6BAFEE04D3F8` (Kasr, overlaid) | Q29,35,41,52,55 | reused |
+| Translation requirements + 2-step ATP→AMP+PPi charging + 20 synthetases | `CON-FND-89278C7DEE1C9C` (Kasr, overlaid) | Q7,15,34,36 | reused |
+| tRNA cloverleaf (acceptor/D/anticodon/TψC arms) | `CON-FND-4DCC3E30FD4C86` (Kasr, overlaid) | Q2,51 | reused |
+| tRNA 3'-CCA ester bond (already ASU-tagged by author5) | `CON-FND-CA2D65E688434A` | Q11 | reused, no new overlay |
+| Reversible phosphorylation (kinase/phosphatase, activate/inactivate) | `CON-FND-6A58FA1680290F` (Kasr, overlaid) | Q13,58,59,60 | reused |
+| Covalent PTM types (glycosylation etc.) | `CON-FND-344140D2457FBB` (Kasr, overlaid) | Q12,43 | reused |
+| Proteasome/ubiquitin | `CON-FND-0D6F0DC6CBAD60` (Kasr, overlaid) | Q22,50 | reused |
+| Ribosome structure (rRNA+protein, 2 subunits) + polysome def | `CON-FND-4284C6B8667CD6` (Kasr, overlaid) | Q31,57 | reused |
+| Free vs attached ribosome protein targeting | `CON-FND-60953640114635` (Kasr, overlaid) | Q44,45 | reused |
+| Termination (stop codon→A site, release factor, peptidyl transferase hydrolysis) | `CON-FND-38857DFD506559` (Alexandria, overlaid) | Q18,32 | reused |
+| Prokaryotic initiation (30S/Shine-Dalgarno/H-bonds/fMet/P-site entry) | `CON-FND-6D0BFB1CD8B9A3` | Q10,28,38,39,40 | **new** |
+| E site + polysome 3'-end/longest-chain directionality | `CON-FND-8C0EB47D70D27A` | Q6,47 | **new** |
+| Peptidyl transferase ribozyme identity (28S/23S rRNA) | `CON-FND-E5354D98C97340` | Q23,24,27,53,64 | **new** |
+| Synthetase specificity/fidelity ("second genetic code") + decoding center | `CON-FND-02E8733D78D5DC` | Q20,26,54,62 | **new** |
+| Energy cost of translation (4 bonds/residue; disclosed 3-bonds/residue convention for Q17's "30") | `CON-FND-E8FDAF79A38797` | Q1,16,17,30 | **new** |
+| Polycistronic vs monocistronic mRNA/gene structure | `CON-FND-175BC0480CCD48` | Q42,49,65 | **new** |
+
+Total: 42 questions on 13 reused/overlaid concepts + 23 questions on 6 new concepts = 65/65.
+
+Files: `concept/ASU-MBG-translation-protein-synthesis-concepts.md`, `article/ASU-MBG-translation-protein-
+synthesis-articles.md`, `evidence/ASU-MBG-translation-protein-synthesis-{claims,citations,spans}.md`,
+`question/ASU-MBG-translation-protein-synthesis-mcq.md`, plus overlay appends to `pending-live/ASU-MBG-
+molecular-genetics.md` and `pending-live/ASU-MBG-molecular-genetics-articles.md`.
+
+**Known, disclosed source inconsistency:** Q16 (4 high-energy bonds per amino acid added, the fuller
+and more standard count) and Q17 (30 bonds total for a 10-amino-acid chain, which implies a simplified
+3-bonds-per-residue convention) do not arithmetically agree with each other under a single counting
+rule — both are the department's own keyed answers from the same answer table, not a transcription
+error on this pass's part. Disclosed explicitly in both questions' explanations and in the energetics
+concept's own definition/uncertainty fields rather than silently forced to agree.
+
+**Two near-duplicate reordered-option pairs**, both legitimately authored as separate items per the
+source's own numbering: Q47/Q48 (P→E and A→P translocation movements, each independently correct and
+individually tested) and Q54/Q62 (both keyed to aminoacyl-tRNA synthetase specificity/fidelity, options
+reordered). Q61 is diagram-based in the source (a labelled elongation-complex schematic); reworded as a
+self-contained text description preserving the exact tested fact (the growing peptide's far/exiting end
+is mislabelled "carboxy-terminus" when it is actually the N-terminal, already-synthesized portion) since
+this platform's question schema has no image field for MCQ stems.
+
+Gates: `medical:batch` clean (0 errors; explanation-length warning resolved to ~2% under-3-sentences
+residual, confirmed by manual review to be a heuristic false-positive on quote/em-dash punctuation, not
+a real gap) across all four new files plus all 13 cross-university sibling concept/article files plus
+both pending-live overlay files. `medical:simulate` (positional, apply order, `--emit` to a scratch
+file) 0 errors, 0 skipped, `delta: {articles:13, concepts:44, claims:6, citations:6, resources:1,
+articleSpans:2}` against the full cumulative pending-live state (13/44 reflect every prior session's
+still-pending overlay work, not just this pass's — this pass's own new-record contribution is 2
+articles + 6 concepts + 6 claims + 6 citations + 2 spans + 65 questions); questions `created:65,
+updated:0, rejected:0`. `medical:audit --source <emitted-state>` 548 total errors on the full simulated
+state, but by exact-id filtering: only 1 error matches any of this pass's 6 new concept/2 new article
+ids (`CON-FND-175BC0480CCD48.relatedArticleIds missing` — the same generic, harmless field-completeness
+note already present on dozens of pre-existing sparse-overlay concepts from prior sessions, not a new
+category of gap), and 0 errors mention any of this pass's 65 questions. A baseline audit of the
+untouched live state returns 0 errors; a control audit of only the pre-session pending-live content (as
+it stood before this pass, no new files) already returns 411 errors — confirming the 548 figure is
+overwhelmingly pre-existing accumulation across three authoring sessions' sparse-overlay work, not a
+regression this pass introduced.
+
+**Traceable share:** 65/65 questions traceable to a `main_concept` that is covered by one of 15 articles
+(13 pre-existing Kasr/Alexandria/histology articles the reused concepts already point to, 2 new ones
+minted this pass) — 100%.
+
+Commits on `asu-mbg-author7`: `0a8344dc` (6 concepts + 2 articles + evidence + 11 concept/2 article
+overlays), `56b02b79` (Q1-30), `d46cffa6` (Q31-45), plus the final Q46-65 + explanation-strengthening
+commit and this ledger update. Pushed to origin.
+
 ## Done (author6, branch `asu-mbg-author6`, base `asu-mbg-author5` @ 2e8f8145)
 
 **Cluster 7 · Modes of inheritance — CLOSED, all 52 questions authored.**
@@ -147,7 +240,7 @@ All still sourced from `EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf` unless no
 | 1 · RNA types (superlatives) | Q1, Q2, Q10, Q12, Q14, Q15 (~6, "RNA Structure & Transcription" chapter) | tRNA highest-modified-nt / mRNA most-heterogeneous / RNA alkali-lability / min-20-tRNA-types / cloverleaf base-pairing — none found live/pending; would need 1-2 new concepts, article = `ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS` (pending, Kasr) which substantively covers tRNA cloverleaf/RNA types already | authorable next |
 | 2 · Transcription mechanism (prokaryotic apparatus) | **CLOSED this pass (author6) per chief-of-staff Ruling #1 — see the "Done" section above.** | — | done |
 | 3/4 · Genetic code remainder | Q7 (degenerate, redundant w/ Q1/Q2, skipped deliberately), Q12 (DMD→trinucleotide-repeat, wants a disease-correlation concept), Q13-22 (sickle-cell/thalassaemia/Huntington/DMD "mostly occur due to X mutation type" run, p.16-17), Q26-28, 30, 36, 38, 44-46 (codon-table lookups, mixed) | `CON-FND-4508AC0EA86F86` and `CON-FND-25E8976EFF0509` (both now +asu-tagged) cover most of these directly; Q13-16's specific disease→repeat-expansion mapping may want a new "trinucleotide repeat disease" concept — not yet searched | authorable next |
-| 5 · Translation/protein synthesis (whole chapter — corrected count) | "Translation Protein Synthesis" chapter is its own Q1-65 (not ~59 as previously estimated), fully separate numbering from "Genetic Codes." **None of it authored yet** — the four questions author5 tagged Q25/31/32/33 onto `CON-FND-09FACBDCBBF8FD` are Genetic-Codes-chapter numbers (p.16-17, before the Genetic Codes table on p.22), not Translation-chapter numbers, so that overlay does not reduce this count. Ribosome A/P/E sites, peptidyl transferase, aminoacyl-tRNA synthetases, initiation (Shine-Dalgarno, formyl-Met, 5' cap recognition), elongation/translocation, termination, polycistronic mRNA, post-translational modification (phosphorylation/ubiquitylation/glycosylation/acetylation/hydroxylation) — a genuinely large concept set, comparable in size to Cluster 7. | **Answer table now located** this pass: PDF page 30 (printed "29"), "Answers of RNA Translation," a single table covering Q1-65 in one block (not split). Not authored this session — full authoring deferred per "stop after 1-2 clusters"; this is the resume-first target. Alexandria's `CON-FND-906B844C9AEE7D` (anticodon-codon), `CON-FND-A1FC2FAF9F0211` (cystine/cysteine) reusable for a couple of items; not otherwise searched this pass. |
+| 5 · Translation/protein synthesis (whole chapter) | **CLOSED this pass (author7) — all 65 questions authored. See the "Done (author7)" section above.** | — | done |
 | 6 · Gene expression regulation | ~16+ Q in file 1's "Regulation of Gene Expression" section | **answers physically blacked out/redacted in the source scan** — genuine unrecoverable-key case (confirmed again this pass on p.15's own table having 2 blacked cells, Q17/Q82, same hazard pattern). `MCQs - Formative Gene expression gene therapy.docx` (4 items) also 0/4 keyed (plain-text extraction strips highlighting) | **blocked** — log needs-Omar, do not force. Do not re-triage per chief-of-staff ruling this session. |
 | 7 · Modes of inheritance | **CLOSED this pass (author6) — see the "Done" section above.** | — | done |
 | (misc) | "Collection Questions" Q1-27, LMS snippets ~15, file 1 pp.33-49 (~17pp not yet opened — pp.20-28, 30 now opened as the Genetic-Codes/Translation chapters and its answer table; pp.33-52 opened this pass while authoring cluster 7, no unrelated content of note beyond the "Molecular Biology of Cancer" chapter noted below), file 8 (essay) page count/remainder | unmapped | not yet triaged in detail |
