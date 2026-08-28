@@ -1968,6 +1968,183 @@ articleIds / relatedArticleIds: No article authored for this concept in this bat
 # Item
 
 ## label
+Cimex lectularis (the common bed bug) is identified by a flattened, oval, wingless reddish-brown body with a short beak-like proboscis folded beneath the head
+
+## id
+CON-INF-90289E813F213F
+
+## canonical_key
+cimex.identification.bed-bug-features
+
+## definition
+Cimex lectularis (the common bed bug, order Hemiptera) is a wingless, obligate blood-feeding ectoparasite identified by a dorsoventrally flattened, broadly oval body that appears reddish-brown and swells and darkens after a blood meal. Unlike lice and fleas it never lives permanently on the host: it hides in mattress seams, furniture and wall cracks by day and emerges at night to feed, leaving characteristic itchy, linear ("breakfast, lunch, dinner") rows of bite papules on exposed skin. Its short, three-segmented, beak-like proboscis is folded back beneath the head and thorax at rest rather than projecting forward, distinguishing it on inspection from a fly's mouthparts or a mosquito's proboscis.
+
+## explicit_objective
+Identify Cimex lectularis by its flattened oval wingless body and folded beak-like proboscis, and state that it is a nocturnal, non-permanent ectoparasite rather than one that lives continuously on the host.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## subject
+inf
+
+## primary_node_id
+SYS-INF-T04
+
+## secondary_node_ids
+DIS-PAR-T03
+
+## modules
+ASU-LOCO
+
+## module_subject
+ASU-LOCO > Parasitology
+
+## universities
+asu
+
+## learner_years
+1
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.75
+
+## confidence
+0.75
+
+## topic
+Infection & Tropical Medicine
+
+## subtopic
+Parasitology
+
+## microtopic
+SYS-INF-T04
+
+## nanotopic
+
+
+## aliases
+Cimex lectularis
+Bed bug
+Hemiptera ectoparasite
+
+## pitfalls
+Assuming a bed bug lives permanently on the host like a louse -- it feeds nocturnally and then retreats to a nearby harbourage (mattress seam, furniture crack), which is why bites cluster in exposed-skin lines rather than concentrating where clothing or hair meet skin.
+
+## article_ids
+ART-INF-ASU-LOCO-ARTHROPOD-VECTORS
+
+## support_mode
+direct_statement
+
+## original_wording
+Para Dr Ayman Locomotor Practical MCQ -- image-identification item naming Cimex lectularis as the parasite shown (distractor set: Xenopsylla cheopis, Musca domestica, Pediculus humanus, Sarcoptes scabiei). Para Dr Ayman Locomotor Practical MCQ 2025 (src_45be51497717229c4fb8), rendered to page images and read directly this session (pdftoppm -r 200, no OCR) because the source PDF has zero embedded fonts / no text layer at all.
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Content drafted from standard medical entomology teaching to support the organism-identification fact the rendered image tests; the image itself (a stained whole-mount photomicrograph) was read directly by eye this session, not OCR'd.
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## related_concept_ids
+
+
+## related_article_ids
+
+
+## resource_ids
+src_45be51497717229c4fb8
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## atomic_claim_ids
+
+
+## resource_occurrence_ids
+
+
+## source_candidate_ids
+
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## exclusion_reason
+
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## owner
+Claude
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## weight_confidence
+0.4
+
+## field_notes
+sourceCandidateIds: find-existing.mjs "cimex" and "bed bug" -- no hit anywhere; true new mint (2026-08-28, render-and-read session, asu-loco-author4).
+arabicLabel: Not reviewed.
+lastReviewed / reviewDue: Draft, not yet reviewed.
+microtopicId: The book's/paper's own section name is already carried by module_subject; the canonical tree has no node finer than the topic level for this material.
+nanotopicId: No nanotopic exists below the microtopic level for this material, and inventing one would place this concept somewhere nothing else lives.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the source paper/standard teaching; this concept has no corpus extraction record.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: No evidentiary claim authored yet in this pass; owed once the evidence stage (S5) runs on this concept.
+articleIds / relatedArticleIds: No article authored for this concept in this batch; the companion article file's related_concepts is updated in this same commit to backlink to it.
+
+
+---
+
+# Item
+
+## label
 Lice and fleas are told apart on inspection by body shape (dorsoventrally flat louse vs laterally flat, jumping flea) and by their egg-laying habitat
 
 ## id
