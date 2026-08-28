@@ -4618,3 +4618,1401 @@ yes
 
 ## author_notes
 Same triacylglycerol-storage-form concept as Q36 (already authored), extended here to the structural 3:1 fatty-acid-to-glycerol ratio that stepwise hydrolysis reveals.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q34
+
+## title
+Palmitic acid is a fatty acid which contains
+
+## question
+Palmitic acid is a fatty acid which contains
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+16 carbons atoms
+
+## explanation_a
+True but incomplete. Palmitic acid does contain 16 carbon atoms, but this statement alone omits the structural breakdown given in option b, so it is not the fullest correct choice by itself.
+
+## answer_b
+One methyl group, one carboxyl group & 14 methylene groups
+
+## explanation_b
+True but incomplete. This structural breakdown is accurate, but by itself it omits the total carbon count given in option a; both statements describe the same 16-carbon molecule from two different angles.
+
+## answer_c
+Both a & B
+
+## explanation_c
+Correct. Palmitic acid is a straight-chain saturated fatty acid with 16 carbon atoms in total: one terminal methyl group (CH3-), one terminal carboxyl group (-COOH), and the fourteen methylene (CH2) groups that link them in between. Counting 1 (methyl carbon) plus 1 (carboxyl carbon) plus 14 (methylene carbons) gives the full 16-carbon chain, so statements a and b describe the same molecule from two different angles and both are simultaneously true.
+
+## answer_d
+Nether a nor b
+
+## explanation_d
+Incorrect. Both a and b correctly describe palmitic acid's structure, so rejecting both statements is the opposite of the right answer.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-12CC11B43338AB
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State palmitic acid's total carbon count and its structural breakdown into a methyl group, a carboxyl group and methylene groups.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q1, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+1 of 19 authored to complete the Lipids & Biological Membrane section to 57/57 raw items resolved: 52 questions now authored in this file plus 5 explicit near-duplicates skipped (raw Q12/Q47 retest Q35/Q3's amphipathic fact, Q52 retests Q48/Q49's surfactant-FA fact, Q54 retests Q04/Q34's eicosanoid-precursor fact, Q56 retests Q24/Q27's omega-3 fact) — full skip list in this commit's body.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q35
+
+## title
+Phospholipids suit the membrane structure because
+
+## question
+Phospholipids suit the membrane structure because
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+The contain phosphorus
+
+## explanation_a
+Incorrect. Phospholipids do contain phosphorus, but phosphorus content alone does not explain why the molecule can assemble into a membrane — the property this bank credits is amphipathicity (option e).
+
+## answer_b
+Contain -ve & +ve charge
+
+## explanation_b
+Incorrect. Some phospholipid head groups do carry charge, but charge is not the general property shared by every membrane phospholipid, nor is it what drives bilayer self-assembly; amphipathicity is.
+
+## answer_c
+Contain fatty acids
+
+## explanation_c
+Incorrect. Triacylglycerols also contain fatty acids, and they cannot form a stable bilayer membrane on their own — fatty-acid content alone does not explain membrane suitability.
+
+## answer_d
+High molecular weight
+
+## explanation_d
+Incorrect. Molecular weight is not the property that lets phospholipids form a membrane; small amphipathic molecules can also self-assemble into bilayers, so weight is not the deciding factor.
+
+## answer_e
+Are amphipathic
+
+## explanation_e
+Correct. Phospholipids are amphipathic molecules: each one has a hydrophilic (polar) head group and a hydrophobic (nonpolar) fatty-acid tail. In water, this dual character drives phospholipids to spontaneously orient into a bilayer, with the polar heads facing the aqueous cytosol and extracellular fluid on either side and the nonpolar tails buried away from water in the membrane's interior — this self-assembling property is exactly what makes phospholipids the structural basis of every biological membrane.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-4394B72F86446A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that phospholipids are amphipathic and explain why that property lets them form the membrane bilayer.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q3, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+30
+
+## randomise_answers
+yes
+
+## author_notes
+Raw Q12 ("Phospholipid molecules suit the membrane structure because they are Amphipathic") and Q47 (same fact, reordered options) retest this identical concept with the same correct answer and are not separately authored.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q36
+
+## title
+All of the following lipids contain glycerol EXCEPT
+
+## question
+All of the following lipids contain glycerol EXCEPT
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Triacylglycerols
+
+## explanation_a
+Incorrect. Triacylglycerol is glycerol esterified to three fatty acids, so it does contain glycerol — it is not the exception.
+
+## answer_b
+Lecithin
+
+## explanation_b
+Incorrect. Lecithin (phosphatidylcholine) is a glycerophospholipid built on a glycerol backbone, so it does contain glycerol.
+
+## answer_c
+Cholesterol
+
+## explanation_c
+Correct. Cholesterol is a steroid, built from four fused hydrocarbon rings plus a short side chain — it has no glycerol anywhere in its structure. Triacylglycerol, lecithin and phosphatidic acid are all glycerol-based lipids (glycerol esterified to fatty acids and, for the phospholipids, a phosphate-linked head group), which is exactly why cholesterol stands out as the lipid built on a completely different, steroid, skeleton.
+
+## answer_d
+Phosphatidic acid
+
+## explanation_d
+Incorrect. Phosphatidic acid is glycerol with two fatty acids and a phosphate group attached, so it does contain glycerol.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-44A0B047535233
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cholesterol as the lipid that lacks a glycerol backbone, unlike triacylglycerol, lecithin and phosphatidic acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q8, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+30
+
+## randomise_answers
+yes
+
+## author_notes
+2 of 19 authored to complete the Lipids & Biological Membrane section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q37
+
+## title
+Which of the following lipids is not a constituent of biological membranes
+
+## question
+Which of the following lipids is not a constituent of biological membranes
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Cardiolipin
+
+## explanation_a
+Incorrect. Cardiolipin is a phospholipid found chiefly in the inner mitochondrial membrane, so it is a genuine membrane constituent.
+
+## answer_b
+Cholesterol ester
+
+## explanation_b
+Correct. Cholesterol ester is cholesterol esterified with a fatty acid at its 3-hydroxyl group — a storage and transport form found in cytoplasmic lipid droplets and in the core of lipoprotein particles, not in the membrane itself. Once cholesterol is esterified it becomes too hydrophobic and bulky to sit in the bilayer the way free cholesterol does, so it is repackaged for storage or transport rather than incorporated into a membrane; free cholesterol, by contrast, is a normal membrane constituent that regulates bilayer fluidity, which is exactly why the ester form is the genuine exception here.
+
+## answer_c
+Gangliosides
+
+## explanation_c
+Incorrect. Gangliosides are glycosphingolipids anchored in the outer leaflet of the plasma membrane, particularly abundant in neuronal membranes, so they are genuine membrane constituents.
+
+## answer_d
+Sphingomyelin
+
+## explanation_d
+Incorrect. Sphingomyelin is a sphingophospholipid that is a major structural component of the plasma membrane and of myelin, so it is a genuine membrane constituent.
+
+## answer_e
+Plasmalogen
+
+## explanation_e
+Incorrect. Plasmalogens are ether-linked glycerophospholipids present in cell membranes, particularly in nervous and cardiovascular tissue, so they are genuine membrane constituents.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-55DDE1821014D4
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cholesterol ester as the lipid that is not a normal biological-membrane constituent, unlike free cholesterol, cardiolipin, sphingomyelin, plasmalogen and the gangliosides.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q13, p.22.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+3 of 19 authored to complete the Lipids & Biological Membrane section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q38
+
+## title
+The cell membrane is formed of
+
+## question
+The cell membrane is formed of
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+equal proportions of lipids, proteins and carbohydrates
+
+## explanation_a
+Incorrect. The three components are not present in equal proportions; carbohydrate in particular is only a small fraction, not a third of the membrane.
+
+## answer_b
+structural lipids, proteins and small amount of Carbohydrates
+
+## explanation_b
+Correct. The plasma membrane is built mainly of a phospholipid bilayer (the structural lipid) studded with proteins — lipid and protein together make up almost all of the membrane's mass — plus a small amount of carbohydrate, attached to the outer-facing lipids and proteins as the glycocalyx. This lipid-protein-carbohydrate composition, with carbohydrate as the minor component confined to the outer surface, is the basis of the fluid mosaic model of membrane structure.
+
+## answer_c
+a lipid bilayer covered with proteins
+
+## explanation_c
+Incorrect. This description omits carbohydrate entirely; the membrane's outer surface does carry carbohydrate as part of the glycocalyx, so this option is incomplete.
+
+## answer_d
+a protein core covered with lipids and carbohydrates
+
+## explanation_d
+Incorrect. This reverses the membrane's actual architecture — the lipid bilayer is the core structural framework, with proteins embedded in or attached to it, not the other way around.
+
+## answer_e
+lipids and proteins with carbohydrates on the inside facing cytosol
+
+## explanation_e
+Incorrect. Membrane carbohydrate faces the extracellular space as part of the glycocalyx, not the cytosolic (inside) face — this option has the orientation backwards.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-85CC08A33D0A88
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-THE-CELL
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that the plasma membrane is composed of structural lipids, proteins and a small amount of carbohydrate confined to the outer surface (the fluid mosaic model).
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q15, p.22.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+4 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the fluid-mosaic-model concept already minted for Kasr's 101 ISK histology cytology chapter (pending-live overlay), not re-minted here.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q39
+
+## title
+Which of the following is a characteristic of both triacylglycerols and glycerophospholipids?
+
+## question
+Which of the following is a characteristic of both triacylglycerols and glycerophospholipids?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Both contain carboxyl groups and are amphipathic
+
+## explanation_a
+Incorrect. Triacylglycerol is not amphipathic — with all three of glycerol's hydroxyls esterified to fatty acids, it has no free polar head group and behaves as a purely neutral, hydrophobic lipid; amphipathicity is a property of glycerophospholipids only.
+
+## answer_b
+Both contain fatty acids either saturated or unsaturated
+
+## explanation_b
+Correct. Triacylglycerols and glycerophospholipids are both built by esterifying fatty acids onto a glycerol backbone, and in both lipid classes those fatty acids can be either saturated or unsaturated — neither class is restricted to one type. They differ in how many fatty acids attach and in what occupies the remaining position (a third fatty acid for triacylglycerol, a phosphate-linked head group for glycerophospholipids), but the flexibility in fatty-acid saturation is a feature both share.
+
+## answer_c
+Both contain glycerol and ether bonds
+
+## explanation_c
+Incorrect. Both do contain glycerol, but the fatty-acid linkages in triacylglycerol and in most glycerophospholipids are ester bonds, not ether bonds — ether linkages are the distinguishing feature of the separate plasmalogen subclass, not a feature shared by triacylglycerols and glycerophospholipids generally.
+
+## answer_d
+Both can be negatively charged at cellular pH
+
+## explanation_d
+Incorrect. Triacylglycerol is electrically neutral — it has no ionizable head group at all, since all three glycerol hydroxyls are esterified to fatty acids — so this charge property belongs only to (some) glycerophospholipids, not to both classes.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-6EB1AE357B8BCA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that triacylglycerols and glycerophospholipids both admit either saturated or unsaturated fatty acids, unlike properties (glycerol content, charge, ether bonds) that separate the two classes.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q16, p.22.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+5 of 19 authored to complete the Lipids & Biological Membrane section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q40
+
+## title
+Choose a lipid that acts as a precursor for Glycerophospholipids
+
+## question
+Choose a lipid that acts as a precursor for Glycerophospholipids
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cholesterol
+
+## explanation_a
+Incorrect. Cholesterol is a steroid and is not a precursor of glycerophospholipids; it is instead the precursor of steroid hormones, bile salts and vitamin D.
+
+## answer_b
+Sphingosine
+
+## explanation_b
+Incorrect. Sphingosine is the backbone of sphingolipids (such as sphingomyelin), a separate lipid family built without a glycerol backbone at all, not a precursor of the glycerol-based glycerophospholipids.
+
+## answer_c
+Arachidonic acid
+
+## explanation_c
+Incorrect. Arachidonic acid is a polyunsaturated fatty acid that serves as the precursor of eicosanoids (prostaglandins, thromboxanes, leukotrienes) — a fatty-acid substituent on a phospholipid, not the backbone that glycerophospholipids are built from.
+
+## answer_d
+Phosphatidic acid
+
+## explanation_d
+Correct. Phosphatidic acid (diacylglycerol phosphate) is glycerol esterified to two fatty acids and a phosphate group, and it is the common structural precursor from which the other glycerophospholipids are built: adding choline to phosphatidic acid gives lecithin (phosphatidylcholine), and adding ethanolamine gives cephalin (phosphatidylethanolamine). Every major glycerophospholipid is, at its core, phosphatidic acid plus a different head group attached to its phosphate.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-D5D15A190D88AE
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify phosphatidic acid as the structural precursor of the glycerophospholipids.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q19, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+6 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the phosphatidic-acid concept already minted in Kasr's 102 INT batch (pending-live overlay), shared with Q41/Q42 below.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q41
+
+## title
+Which nitrogenous base out of the following is present in lecithin?
+
+## question
+Which nitrogenous base out of the following is present in lecithin?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Choline
+
+## explanation_a
+Correct. Lecithin is the common name for phosphatidylcholine, formed by attaching the nitrogenous base choline to the phosphate group of phosphatidic acid. Choline is what distinguishes lecithin from its close relative cephalin, which carries ethanolamine in the same position instead.
+
+## answer_b
+Adenine
+
+## explanation_b
+Incorrect. Adenine is a purine base found in nucleotides and nucleic acids (and in ATP), not a head group of any glycerophospholipid.
+
+## answer_c
+Ethanolamine
+
+## explanation_c
+Incorrect. Ethanolamine is the nitrogenous base attached to phosphatidic acid in cephalin, not in lecithin — swapping these two is the classic mix-up this question tests.
+
+## answer_d
+Serine
+
+## explanation_d
+Incorrect. Serine is the head group of phosphatidylserine, a different glycerophospholipid from lecithin, not lecithin's own base.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-D5D15A190D88AE
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify choline as lecithin's nitrogenous base.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q23, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+30
+
+## randomise_answers
+yes
+
+## author_notes
+7 of 19 authored to complete the Lipids & Biological Membrane section; pairs with Q42 (cephalin/ethanolamine) below on the same reused phosphatidic-acid concept.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q42
+
+## title
+Which nitrogenous base out of the following is present in Cephalin?
+
+## question
+Which nitrogenous base out of the following is present in Cephalin?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Choline
+
+## explanation_a
+Incorrect. Choline is the base attached to phosphatidic acid in lecithin, not cephalin — the two are complementary derivatives of phosphatidic acid distinguished exactly by this substitution.
+
+## answer_b
+Adenine
+
+## explanation_b
+Incorrect. Adenine is a purine base of nucleotides, not a phospholipid head group.
+
+## answer_c
+Ethanolamine
+
+## explanation_c
+Correct. Cephalin is the common name for phosphatidylethanolamine, formed by attaching the nitrogenous base ethanolamine to the phosphate group of phosphatidic acid. Alongside lecithin (which carries choline in the same position), cephalin is one of the two principal choline/ethanolamine-headed glycerophospholipids built on the same phosphatidic acid core.
+
+## answer_d
+Serine
+
+## explanation_d
+Incorrect. Serine is the head group of phosphatidylserine, a separate glycerophospholipid, not cephalin's own base.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-D5D15A190D88AE
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify ethanolamine as cephalin's nitrogenous base.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q24, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+30
+
+## randomise_answers
+yes
+
+## author_notes
+8 of 19 authored to complete the Lipids & Biological Membrane section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q43
+
+## title
+Which out of the following alcohols is used for waxes:
+
+## question
+Which out of the following alcohols is used for waxes:
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Cholesterol
+
+## explanation_a
+Incorrect. Cholesterol is a steroid alcohol, structurally unrelated to the long-chain monohydric alcohol that defines a wax; cholesteryl esters are grouped with waxes by their ester-bond chemistry, but the alcohol a wax itself is built from is a separate, simpler fatty alcohol.
+
+## answer_b
+Glycerol
+
+## explanation_b
+Incorrect. Glycerol is the trihydric alcohol that builds triacylglycerols and glycerophospholipids, not waxes — waxes are defined precisely by using a different (monohydric, long-chain) alcohol instead of glycerol.
+
+## answer_c
+Monohydric large alcohol
+
+## explanation_c
+Correct. Waxes are esters of a single fatty acid joined to a long-chain monohydric alcohol — an alcohol with only one hydroxyl group, unlike glycerol's three — which is much larger and longer-chain than glycerol. This single-fatty-acid-to-one-alcohol ester structure is what separates waxes from the neutral fats (triacylglycerols), which use the trihydric alcohol glycerol and carry three fatty acids instead of one.
+
+## answer_d
+Sphingosine
+
+## explanation_d
+Incorrect. Sphingosine is the amino-alcohol backbone of sphingolipids (such as sphingomyelin and ceramide), a nitrogen-containing structure unrelated to the simple long-chain alcohol that waxes use.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-E618B54C3E216C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify a long-chain monohydric alcohol, not glycerol, as the alcohol component of a wax.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q28, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+9 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the simple-lipid-subtypes (neutral fats vs waxes) concept already minted in Kasr's 102 INT batch (pending-live overlay).
