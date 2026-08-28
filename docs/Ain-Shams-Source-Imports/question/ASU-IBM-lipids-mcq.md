@@ -2392,3 +2392,1119 @@ yes
 
 ## author_notes
 Same sphingomyelin/sphingolipid concept as Q38/Q4 (already authored), the last of the three companion questions the file header flagged (Q4, Q11, Q17), now all authored — Q11 turned out to belong to the RDS/surfactant concept instead once read in full.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q18
+
+## title
+Which of the following lipids is a charged lipid?
+
+## question
+Which out of the following lipid is a charged lipid?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Phospholipid
+
+## explanation_a
+Correct. A phospholipid's phosphate-containing head group is ionisable, and in several phospholipids — phosphatidylserine, phosphatidylinositol, phosphatidylglycerol and cardiolipin — the head group carries a net negative charge at physiological pH, making these the acidic phospholipids that are the actual antigenic target in antiphospholipid syndrome. Even the phospholipids with a net-neutral (zwitterionic) head group, such as phosphatidylcholine, still carry both a positive and a negative charge internally, unlike a purely nonpolar lipid. This charged character is exactly what allows phospholipids to orient their head groups toward water while their fatty acid tails pack away from it in a membrane.
+
+## answer_b
+Cholesterol
+
+## explanation_b
+Incorrect. Cholesterol's steroid ring system and hydrocarbon tail carry no ionisable or charged groups (aside from a single, largely non-ionised hydroxyl), so it behaves as an uncharged, nonpolar lipid rather than a charged one.
+
+## answer_c
+Triacylglycerol
+
+## explanation_c
+Incorrect. Triacylglycerol is built entirely from glycerol esterified to three fatty acids, with no phosphate or other ionisable group anywhere in the molecule, making it a fully neutral, uncharged storage lipid.
+
+## answer_d
+Wax
+
+## explanation_d
+Incorrect. A wax is a simple ester of a fatty acid and a long-chain alcohol, with no ionisable groups, making it an uncharged, highly nonpolar lipid.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-9D3DE90B645E7A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-AUTOIMMUNE-NEONATAL
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the phospholipid, among cholesterol, triacylglycerol and wax, as the charged lipid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q18, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same antiphospholipid-syndrome/acidic-phospholipid concept as Q39/Q14 (already authored), widened here to phospholipids as a class versus other, uncharged lipid classes.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q19
+
+## title
+All except one are fatty acids with 18 carbon atoms
+
+## question
+All except one are fatty acids with 18 carbon atoms -
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Oleic acid
+
+## explanation_a
+Incorrect as the exception. Oleic acid has 18 carbons (an omega-9 monoenoic fatty acid), so it genuinely belongs on this 18-carbon list.
+
+## answer_b
+Linolenic acid
+
+## explanation_b
+Incorrect as the exception. Alpha-linolenic acid has 18 carbons (the omega-3 parent, with three double bonds), so it too genuinely belongs on this 18-carbon list.
+
+## answer_c
+Palmitic acid
+
+## explanation_c
+Correct. Palmitic acid has only 16 carbons, one fewer pair than the 18-carbon fatty acids oleic, linolenic and linoleic acid, making it the exception to this list. Palmitic acid's shorter, fully saturated 16-carbon chain is exactly what makes it the fatty acid found (in duplicate) in dipalmitoyl lecithin, the major surfactant lipid tested elsewhere in this section. Distinguishing fatty acids by exact carbon count, alongside their degree of unsaturation, is central to naming and classifying them correctly.
+
+## answer_d
+Linoleic acid
+
+## explanation_d
+Incorrect as the exception. Linoleic acid has 18 carbons (the omega-6 parent, with two double bonds), so it too genuinely belongs on this 18-carbon list.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify palmitic acid (16 carbons) as the exception among 18-carbon fatty acids oleic, linolenic and linoleic acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q20, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13 (already authored), extended here to the carbon-count axis rather than the double-bond-position axis.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q20
+
+## title
+Which of the following is a fatty acid with 18 carbon atoms and one double bond?
+
+## question
+Which out of the following is a fatty acid with 18 carbon atoms and one double bond?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Palmitoleic acid
+
+## explanation_a
+Incorrect. Palmitoleic acid has one double bond, but only 16 carbons, not 18, so it does not satisfy the carbon-count part of the question.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Correct. Oleic acid has exactly 18 carbons with a single (mono-) double bond between C9 and C10, making it the monoenoic (monounsaturated) member of the 18-carbon fatty acid family, alongside the diunsaturated linoleic acid and the triunsaturated alpha-linolenic acid. As the parent of the omega-9 family, oleic acid is the reference example used throughout this section's classification of fatty acids by carbon count and degree of unsaturation. Its cis double bond puts a kink in the chain, which is part of why unsaturated fats like oleic acid tend to be liquid at room temperature.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Incorrect. Linoleic acid has 18 carbons but two double bonds (diunsaturated), not the single double bond the question specifies.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid has 18 carbons but three double bonds (triunsaturated), not the single double bond the question specifies.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify oleic acid as the 18-carbon, single-double-bond (monoenoic) fatty acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q21, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19 (already authored), the direct 18-carbon/one-double-bond identification of oleic acid, repeated in "monoenoic"/"monounsaturated" wording as Q32/Q37 later in this section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q21
+
+## title
+Which of the following is a fatty acid with 20 carbon atoms and four double bonds?
+
+## question
+Choose out of the following, a fatty acid with 20 carbon atoms and four double bonds
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Arachidonic acid
+
+## explanation_a
+Correct. Arachidonic acid has exactly 20 carbons and four double bonds, making it a tetraenoic (tetraunsaturated) fatty acid of the omega-6 family, produced by elongating and further desaturating linoleic acid. It is exactly this 20-carbon, four-double-bond structure that lets arachidonic acid serve as the precursor for the eicosanoids — prostaglandins, thromboxanes and leukotrienes — since "eicosanoid" itself refers to a 20-carbon-derived signalling molecule. Because linoleic acid is needed to make it, arachidonic acid only becomes a dietary essential fatty acid itself when linoleic acid is deficient.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Incorrect. Oleic acid has 18 carbons and only one double bond, not the 20 carbons and four double bonds the question specifies.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Incorrect. Linoleic acid has 18 carbons and two double bonds, not the 20 carbons and four double bonds the question specifies.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid has 18 carbons and three double bonds, not the 20 carbons and four double bonds the question specifies.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify arachidonic acid as the 20-carbon, four-double-bond (tetraenoic) fatty acid and eicosanoid precursor.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q22, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19/Q20 (already authored), the direct 20-carbon/four-double-bond identification of arachidonic acid, repeated in "tetraenoic" wording as Q31 later in this section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q22
+
+## title
+During hydrolysis of lecithin, all of the following will be produced except
+
+## question
+During Hydrolysis of Lecithin, all the following will be produced except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Saturated and unsaturated fatty acid
+
+## explanation_a
+Incorrect as the exception. Lecithin's glycerol backbone carries two fatty acid chains, typically one saturated and one unsaturated, and hydrolysis genuinely releases these fatty acids, so this is a real product, not the exception.
+
+## answer_b
+Sphingosine
+
+## explanation_b
+Correct. Lecithin (phosphatidylcholine) is a glycerophospholipid, built on a glycerol backbone, not on sphingosine — sphingosine is instead the backbone of the structurally different sphingolipid family, such as sphingomyelin. Because lecithin never contained sphingosine to begin with, hydrolysing it cannot release sphingosine as a product; this is exactly the glycerol-versus-sphingosine distinction that separates glycerophospholipids from sphingophospholipids. Complete hydrolysis of lecithin instead yields glycerol, two fatty acids, phosphoric acid and choline.
+
+## answer_c
+Glycerol
+
+## explanation_c
+Incorrect as the exception. Glycerol is lecithin's structural backbone, and hydrolysis genuinely releases it once the ester bonds to the fatty acids and phosphate are broken, so it is a real product, not the exception.
+
+## answer_d
+Phosphoric acid
+
+## explanation_d
+Incorrect as the exception. Phosphoric acid is released when the phosphodiester bonds linking glycerol to the phosphate head group and choline are hydrolysed, so it is a real hydrolysis product, not the exception.
+
+## answer_e
+Choline
+
+## explanation_e
+Incorrect as the exception. Choline is lecithin's head group, released as a free molecule once the phosphodiester bond joining it to the phosphate is hydrolysed, so it is a real product, not the exception.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-268703EAF31C9D
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that sphingosine is not a hydrolysis product of lecithin, since lecithin's backbone is glycerol, not sphingosine.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q25, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same sphingomyelin/sphingolipid concept as Q38/Q4/Q17 (already authored), tested here from the opposite direction — what lecithin's hydrolysis does NOT produce — and directly paired with Q46's positive-framing version of the same fact.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q23
+
+## title
+During hydrolysis of surfactant, all of the following will be produced except
+
+## question
+During Hydrolysis of Surfactant, all the following will be produced except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Saturated fatty acid
+
+## explanation_a
+Incorrect as the exception. The major surfactant lipid, dipalmitoyl lecithin, carries two saturated palmitic acid chains, and hydrolysis genuinely releases saturated fatty acid, so this is a real product, not the exception.
+
+## answer_b
+Unsaturated fatty acid
+
+## explanation_b
+Correct. "Dipalmitoyl" specifically means both of the two fatty acid chains on this surfactant lipid are the same saturated fatty acid, palmitic acid — there is no unsaturated fatty acid chain anywhere in the molecule to be released by hydrolysis. This double-saturated-chain structure is exactly what lets dipalmitoyl lecithin pack tightly at the air-liquid interface and lower surface tension, which is the whole reason it is the major surfactant lipid. Because both chains are saturated, unsaturated fatty acid is the one listed product hydrolysis cannot yield.
+
+## answer_c
+Glycerol
+
+## explanation_c
+Incorrect as the exception. Dipalmitoyl lecithin, like other glycerophospholipids, is built on a glycerol backbone, and hydrolysis genuinely releases it, so it is a real product, not the exception.
+
+## answer_d
+Phosphoric acid
+
+## explanation_d
+Incorrect as the exception. Phosphoric acid is released from the phosphodiester linkage in dipalmitoyl lecithin's head group upon hydrolysis, so it is a real product, not the exception.
+
+## answer_e
+Choline
+
+## explanation_e
+Incorrect as the exception. Choline is dipalmitoyl lecithin's head group, released as a free molecule upon hydrolysis of the phosphodiester bond, so it is a real product, not the exception.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-A66D0FD336DDDA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-AUTOIMMUNE-NEONATAL
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that unsaturated fatty acid is not a hydrolysis product of dipalmitoyl lecithin, since both of its fatty acid chains are the saturated palmitic acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q26, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same RDS/surfactant-deficiency concept as Q40/Q6/Q11 (already authored) and Q49/Q52, using dipalmitoyl lecithin's two-saturated-chain structure to test what hydrolysis does NOT release.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q24
+
+## title
+Which of the following is an omega-3 fatty acid?
+
+## question
+Which out of the following is a omega 3 fatty acid?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Arachidonic acid
+
+## explanation_a
+Incorrect. Arachidonic acid's first double bond falls in the omega-6 position (six carbons from the methyl end), making it an omega-6, not an omega-3, fatty acid.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Incorrect. Oleic acid's single double bond falls in the omega-9 position, making it an omega-9 fatty acid, not omega-3.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Incorrect. Linoleic acid's first double bond falls in the omega-6 position, making it the parent of the omega-6 family, not omega-3.
+
+## answer_d
+Alpha-linolenic acid
+
+## explanation_d
+Correct. Alpha-linolenic acid's first double bond falls three carbons from the molecule's methyl end, which is exactly the structural feature that defines the omega-3 family and makes alpha-linolenic acid its parent (essential) fatty acid. From it, the body can make the longer-chain omega-3 fatty acids EPA and DHA, though less efficiently than obtaining them directly from oily fish, as tested elsewhere in this section. This is the same omega-3 family whose defining double-bond position ("third carbon from the methyl end") is tested directly by name later in this section.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify alpha-linolenic acid as the omega-3 fatty acid among omega-6 and omega-9 examples.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q27, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19-21 (already authored), the direct omega-3 identification question, repeated as Q56 later in this section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q25
+
+## title
+Choose the di-enoic fatty acid
+
+## question
+Choose the Di-enoic fatty acid out of the following.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Arachidonic acid
+
+## explanation_a
+Incorrect. Arachidonic acid has four double bonds (tetraenoic), not the two double bonds a di-enoic fatty acid has.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Incorrect. Oleic acid has one double bond (monoenoic), not the two double bonds a di-enoic fatty acid has.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Correct. Linoleic acid has exactly two double bonds, making it the di-enoic (diunsaturated) fatty acid among this group — one double bond fewer than the tri-enoic alpha-linolenic acid and two fewer than the tetraenoic arachidonic acid. This two-double-bond structure, with the first double bond six carbons from the methyl end, is exactly what makes linoleic acid the omega-6 family's parent compound, tested directly elsewhere in this section. Naming fatty acids by their exact number of double bonds (mono-, di-, tri-, tetraenoic) is the same classification system used throughout this part of the topic.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid has three double bonds (tri-enoic), not the two double bonds a di-enoic fatty acid has.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify linoleic acid as the di-enoic (two-double-bond) fatty acid among this group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q29, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19-21/Q24 (already authored), naming linoleic acid's double-bond count directly (di-enoic) rather than its omega-family membership.
