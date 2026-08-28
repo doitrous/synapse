@@ -1622,6 +1622,55 @@ app.get('/api/state/:key', wrap(async (req, res) => {
 }))
 
 /**
+ * How many version rows to keep per document, and how many to drop per save.
+ *
+ * Each version row is a full snapshot — the content ledger's are ~23 MB — so an
+ * unbounded history was the table's runaway growth. Older rows are only ever
+ * read as the merge base for a whole-document save from a client that loaded
+ * long ago; a delta save needs none of them, and a base that has been pruned
+ * simply asks that client to reload. Keeping a generous recent window preserves
+ * that base for all but the most stale client, and the last resort for undoing
+ * a bad write. Both are env-tunable. The delete is bounded so a large backlog
+ * drains over successive saves instead of one heavy, locking delete.
+ */
+const STATE_VERSION_RETENTION = Math.max(2, Number(process.env.STATE_VERSION_RETENTION) || 20)
+// Gentle by default: at steady state only one row per save exceeds the window,
+// so a small batch keeps up, and a large existing backlog drains over many
+// saves rather than in heavy 23 MB-a-row deletes that fight foreground writes.
+// Raise STATE_VERSION_PRUNE_BATCH to reclaim a big backlog faster.
+const STATE_VERSION_PRUNE_BATCH = Math.max(1, Number(process.env.STATE_VERSION_PRUNE_BATCH) || 5)
+const pruningVersionKeys = new Set()
+
+/**
+ * Trim a key's version history to the newest STATE_VERSION_RETENTION rows.
+ *
+ * Runs after commit, off the write's transaction and lock, best-effort: it is
+ * housekeeping, never part of whether the save succeeded. One key prunes at a
+ * time so rapid saves cannot stack heavy deletes on top of each other.
+ */
+async function pruneStateVersions(key) {
+  if (pruningVersionKeys.has(key)) return
+  pruningVersionKeys.add(key)
+  try {
+    // The oldest row we keep; everything with a smaller id is prunable. LIMIT and
+    // OFFSET are inlined, not bound — they are validated server integers, and
+    // mysql2 quotes bound LIMIT/OFFSET values into a syntax error.
+    const [rows] = await pool.query(
+      `SELECT id FROM app_state_versions WHERE k = ? ORDER BY id DESC LIMIT 1 OFFSET ${STATE_VERSION_RETENTION - 1}`,
+      [key],
+    )
+    const floor = rows[0]?.id
+    if (!floor) return
+    await pool.query(
+      `DELETE FROM app_state_versions WHERE k = ? AND id < ? ORDER BY id ASC LIMIT ${STATE_VERSION_PRUNE_BATCH}`,
+      [key, floor],
+    )
+  } finally {
+    pruningVersionKeys.delete(key)
+  }
+}
+
+/**
  * Save a shared document.
  *
  * Three refusals, in the order they become knowable: you must hold a tab that
@@ -1821,6 +1870,12 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
       }
     }
     if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
+    // A new version row was written iff the id advanced. Keep the history bounded
+    // — after the response, so it never adds to save latency, and best-effort, so
+    // a housekeeping hiccup is never a failed save.
+    if (version !== storedVersion) {
+      void pruneStateVersions(key).catch((error) => console.error(`version prune failed for ${key}:`, error?.message ?? error))
+    }
     res.json({ ok: true, version })
   } catch (error) {
     await conn.rollback()
