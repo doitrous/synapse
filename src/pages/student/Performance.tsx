@@ -5,7 +5,7 @@ import {
   accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
   firstAttemptSplit, hourHistogram, marked, medianSeconds, weakest,
 } from '@/data/attemptStats'
-import { averageSecondsPerQuestion, percentileStanding, studyTimeBreakdown, withinLastDays } from '@/data/performanceStats'
+import { averageSecondsPerQuestion, percentileStanding } from '@/data/performanceStats'
 import type { AttemptRecord } from '@/data/attempts'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
@@ -319,35 +319,32 @@ function PeerStandingPanel({ records }: { records: AttemptRecord[] }) {
 }
 
 /**
- * Average daily study time, split into solving and everything else.
+ * Average daily study time, split into reading and solving.
  *
- * The total and the solving figure are both real: the total is the Build
- * Maristanas heartbeat's active-study minutes for the last week, across every
- * study surface; the solving figure is summed straight from the attempt log's
- * own sitting durations, over the same week. Nothing in this product isolates
- * reading time on its own, so "reading" is not a fourth measurement — it is
- * the remainder once solving is taken out of the total, labelled as an
- * estimate rather than presented as a direct reading of a clock.
+ * All three figures are real, measured the same way: the Build Maristanas
+ * minute ledger records one active minute at a time and tags it with the
+ * surface the student was on. Reading is the reader, library and glossary;
+ * solving is the Question Bank and the other answer-and-do surfaces; "other"
+ * is everything else (notebook, whiteboard, flashcards). No estimate — each
+ * bucket is a straight count of tagged minutes over the last week.
  */
-function StudyTimePanel({ records }: { records: AttemptRecord[] }) {
+function StudyTimePanel() {
   const t = useT()
   const { data, loading, error } = useMaristanas()
 
-  const windowed = useMemo(() => withinLastDays(records, STUDY_WINDOW_DAYS), [records])
-  const breakdown = useMemo(
-    () => studyTimeBreakdown(windowed, STUDY_WINDOW_DAYS, data ? data.thisWeek.studyMinutes : null),
-    [windowed, data],
-  )
+  const perDay = (minutes: number | undefined): string | null =>
+    minutes === undefined ? null : formatMinutes(Math.round(minutes / STUDY_WINDOW_DAYS))
 
-  const solvingLabel = formatMinutes(Math.round(breakdown.solvingMinutesPerDay))
-  const studyingLabel = breakdown.studyingMinutesPerDay === null ? null : formatMinutes(Math.round(breakdown.studyingMinutesPerDay))
-  const readingLabel = breakdown.readingMinutesPerDay === null ? null : formatMinutes(Math.round(breakdown.readingMinutesPerDay))
+  const studyingLabel = data ? formatMinutes(Math.round(data.thisWeek.studyMinutes / STUDY_WINDOW_DAYS)) : null
+  const readingLabel = perDay(data?.thisWeek.reading)
+  const solvingLabel = perDay(data?.thisWeek.solving)
+  const otherLabel = perDay(data?.thisWeek.other)
 
   return (
     <Panel>
       <PanelHeader title={t('Average time studying')} icon={Clock3} hint={`${t('Per day, last')} ${STUDY_WINDOW_DAYS} ${t('days')}`} />
       <div className="p-5">
-        {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo total — your solving time below is real')}</Badge>}
+        {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo figures')}</Badge>}
         {loading ? (
           <div className="h-28 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />
         ) : (
@@ -359,20 +356,22 @@ function StudyTimePanel({ records }: { records: AttemptRecord[] }) {
             {(error || studyingLabel === null) && (
               <p className="mt-1 text-[11.5px] text-ink-3">{t('Total active-study time needs the server connection and has not loaded.')}</p>
             )}
-            <div className="mt-4 grid grid-cols-2 gap-3">
+            <div className="mt-4 grid grid-cols-3 gap-3">
               <div className="rounded-lg border border-line bg-surface-2/40 p-3">
-                <p className="text-[11.5px] font-medium text-ink-2">{t('Solving (Question Bank)')}</p>
-                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{solvingLabel}</p>
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Reading')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{readingLabel ?? '—'}</p>
               </div>
               <div className="rounded-lg border border-line bg-surface-2/40 p-3">
-                <p className="text-[11.5px] font-medium text-ink-2">{t('Reading & other study')}</p>
-                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{readingLabel ?? '—'}</p>
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Solving')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{solvingLabel ?? '—'}</p>
+              </div>
+              <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Other study')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{otherLabel ?? '—'}</p>
               </div>
             </div>
             <p className="mt-4 border-t border-line pt-3 text-[11.5px] leading-relaxed text-ink-3">
-              {readingLabel === null
-                ? t('Reading time is not tracked on its own — only total active-study minutes and Question Bank solving time are measured, and the total has not loaded here.')
-                : t('"Reading & other study" is an estimate: total active-study minutes minus time solving Question Bank items. It also folds in flashcards, clinical cases, notebook work and every other non-Question-Bank surface, not reading alone.')}
+              {t('Reading is time in the reader, library and glossary; solving is the Question Bank and other answer-and-do surfaces; other study is notebook, whiteboard and flashcards. Each is a count of active minutes on that surface over the last week.')}
             </p>
           </>
         )}
@@ -504,7 +503,7 @@ export function Performance() {
 
         <div className="grid gap-4 lg:grid-cols-2">
           <PeerStandingPanel records={records} />
-          <StudyTimePanel records={records} />
+          <StudyTimePanel />
         </div>
 
         <ConceptMasteryPanel />
