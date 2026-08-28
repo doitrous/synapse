@@ -19,12 +19,12 @@ filename alone never did.
 | Folder | Admin page | Files | Records |
 |---|---|---:|---:|
 | [`academic/`](academic/) | Academic setup › Import | 2 | 54 |
-| [`concept/`](concept/) | Concepts › Import | 34 | 1183 |
-| [`article/`](article/) | Bulk import → **article** | 32 | 238 |
-| [`question/`](question/) | Bulk import → **question** | 38 | 2793 |
+| [`concept/`](concept/) | Concepts › Import | 37 | 1250 |
+| [`article/`](article/) | Bulk import → **article** | 35 | 256 |
+| [`question/`](question/) | Bulk import → **question** | 41 | 2874 |
 | [`practical/`](practical/) | Bulk import → **practical** | 36 | 200 |
 | [`relations/`](relations/) | Relationships › Import | 3 | 500 |
-| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span | 60 | 3129 |
+| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span (1 file is the "A" catalogue schema, imported at **Bulk import → resource** instead — see AU-MED-105) | 73 | 3345 |
 | [`subjects/`](subjects/) | Taxonomy › Import | — | — |
 | [`glossary/`](glossary/) | Glossary › Import | 7 | 480 |
 | [`resource/`](resource/) | Bulk import → **resource** | — | — |
@@ -935,6 +935,101 @@ Y-structure; histology: erythroid/granulocytic maturation series; physiology: 1 
 diagram) — none has a rights-cleared asset yet. One physiology question
 (`QST-HEM-AU103-EOM2-Q29`, the immunoglobulin-diagram item) also needs media before it can be
 answered from a real image; its explanation already discloses the image is not yet available.
+
+---
+
+### Alexandria University AU-MED-105 (Upper and Lower Limb) — 22 files across 4 folders
+
+Staged 2026-08-28 by a chief-of-staff staging subagent, independently re-verifying every
+gate. Copied verbatim from `docs/Alexandria-Source-Imports/{concept,article,evidence,
+question}/AU-MED-105-*` across 3 department sub-lanes (Anatomy, Histology, Physiology). No
+`relations/`, `glossary/`, or `practical/` batch exists for this module in this pass.
+
+**Apply in this order** (`academic/au-modules.md` — AU selected — must already be applied so
+`AU-MED-105` exists):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/AU-MED-105-{anatomy,histology,physiology}-sources.md` (3 files) | Bulk import evidence · Resource | 19 | On |
+| 1b | `evidence/AU-MED-105-physiology-resources.md` (1 file — the "A" catalogue schema, `subject`/`type`/`source`, not the evidence-store "B" schema the other 3 files use; the file's own header documents this and instructs "validate with `medical:simulate` only", `medical:batch` has no branch for it) | **Bulk import → resource**, not Bulk import evidence | 3 | On |
+| 2 | `article/AU-MED-105-{anatomy,histology,physiology}-articles.md` (3 files) | Bulk import → article | 18 | On |
+| 3 | `concept/AU-MED-105-{anatomy,histology,physiology}-concepts.md` (3 files) | Concepts › Import | 67 (56 new + 11 sparse updates onto ids already live) | **Must be On** — 11 rows share an id with a live concept |
+| 4 | `evidence/AU-MED-105-{anatomy,histology,physiology}-claims.md` (3 files) | Bulk import evidence · Claim | 148 | On |
+| 5 | `evidence/AU-MED-105-{anatomy,histology,physiology}-citations.md` (3 files) | Bulk import evidence · Citation | 21 | On |
+| 6 | `evidence/AU-MED-105-{anatomy,histology,physiology}-spans.md` (3 files) | Bulk import evidence · Span | 25 | On |
+| 7 | `question/AU-MED-105-histology-mcq.md`, `-physiology-mcq.md` (2 files) | Bulk import → question | 52 | On |
+| 7b | `question/AU-MED-105-anatomy-practical-mcq.md` (1 file) | Bulk import → question | 29 — **not importable yet**, see below | — |
+
+**Gate status.** `medical:batch` per file: 0 errors on every concept and article file
+standalone (no directory-scope notes at all this time). `histology-mcq.md` and
+`physiology-mcq.md` each pass `--with` their own concept + article + evidence-source file: 0
+errors. `anatomy-practical-mcq.md` needed a much larger `--with` set — 4 Kasr concept files
+(`101-ISK-concepts.md`, `-mcq-concepts.md`, `-practical-concepts.md`, `103-BMS-anatomy-
+concepts.md`) and 7 Kasr/own article files — because most of its 29 practical-spot items test
+Kasr Upper/Lower Limb concepts directly, not this module's own. Once given the full set, only
+one error class remains: **"A labelling question needs an image — there is nothing to label
+without one"**, on all 29 of 29 records. Chained `medical:simulate` in the order above:
+resources 19 created, catalogue-resource 3 created, articles 18 created, concepts 56
+created/11 updated, claims 148 created, citations 21 created, spans 25 created,
+`histology-mcq.md` 33 created, `physiology-mcq.md` 19 created — `anatomy-practical-mcq.md`:
+**0 created, 29 rejected**, all on the same image gap. Combined `medical:simulate` over the
+whole `docs/import-ready/` tree (298 files, this module plus everything already staged): the
+only top-level errors are those same 29 image-gap lines, 0 non-image errors, only the 4
+expected academic/glossary skips. `medical:audit` before/after diff (276-file baseline
+including AU-MED-103 vs. 298 with AU-MED-105 added): 5 new / 2 superseded lines, all
+accounted for as the same running "field missing across every article" check re-stringified
+with 105's own new ids appended — not a regression on any pre-existing content. Traced: 3 of
+those new mentions are AU-MED-105's **own** 3 new physiology articles
+(`ART-CVS-CARDIAC-PACEMAKER-AP`, `ART-CVS-CONDUCTION-CONTRACTILITY`,
+`ART-NEU-CONTINUOUS-CONDUCTION` — minted under the shared system-topic id namespace per the
+university-blind mint convention; confirmed these ids exist nowhere else in the tree, so this
+is new content, not an overwrite of a live Kasr/system article). concepts 2933→2989 (+56,
+matches created), articles 486→504 (+18, matches created).
+
+**Not importable yet — real gap, not a fix I'm authorized to make.**
+`question/AU-MED-105-anatomy-practical-mcq.md` (29 records, all `status: Draft`) rejects in
+full under `medical:simulate` — every record needs a labelled image before it can be imported
+at all, not merely hidden as Draft. None of the 29 has a sourced image yet; each carries its
+own `media_recommendations` block already. This is more severe than the usual
+Draft-until-media pattern (those articles still import, just stay hidden) — this file cannot
+be committed via Bulk import → question until images exist for at least the records being
+imported.
+
+**Reviewer / final publisher.** All 3 article files already carried `reviewer: Medical team,
+Admin team` / `final_publisher: Admin team` on every record — no fix needed this pass.
+
+**Law of voice — 1 fix this pass.** `question/AU-MED-105-histology-mcq.md` had 6
+diagram-labelling questions (bone-canal identification ×2, unsheathed-neuron-parts grouping
+×2, myelination/nerve-type, sarcomere-band shortening) whose explanations cited "the printed
+key" as the reason a labelled option is correct or incorrect. Rewritten to assess the option
+directly against "this diagram" (the actual object in question) rather than an external
+answer-key authority, with no change to the underlying claim. Phrasing describing what a
+diagram's own labels show (e.g. "printed as lacking a covering sheath") was left as-is — that
+describes the diagram's content directly, not a citation to an external authority. No other
+law-of-voice violations found in this module.
+
+**Small authoring gap, flagged not fixed.** 2 of AU-MED-105-physiology-articles.md's 3 new
+articles (`ART-CVS-CARDIAC-PACEMAKER-AP`, `ART-NEU-CONTINUOUS-CONDUCTION`) carry a blank
+`## notes` field and a blank `questionIds` field with no `field_notes` reason recorded (the
+3rd, `ART-CVS-CONDUCTION-CONTRACTILITY`, is missing only `## notes`). Not a
+`medical:batch`/`medical:simulate` gate failure and not law-of-voice or reviewer/publisher, so
+outside this pass's two authorized fix categories — surfaced here for the next lane.
+
+**Traceability.** 47 of 67 own-lane concepts (70%) are named as `main_concept` or in
+`concept_ids` by at least one of the 81 authored questions (52 currently importable + 29
+image-blocked).
+
+**Media-required, Draft-until-media.** All 18 articles carry `status: Draft` uniformly; none
+declared a `Priority: required` media recommendation this module (all image needs are
+concentrated in the anatomy practical-question file instead, see above).
+
+**No pending-live table needed for this staging pass.** `pending-live/AU-MED-105-anatomy.md`,
+`-histology.md`, `-histology-questions.md`, `-physiology.md`, and `-physiology-questions.md`
+already exist and are documented in full in `pending-live/INDEX.md` (dependencies: `101-ISK-
+concepts.md`/`-mcq-concepts.md`/`-practical-concepts.md`, `103-BMS-anatomy-concepts.md`, and
+`101-ISK-mcq-concepts.md`/`103-BMS-histology-concepts.md`/`103-BMS-mcq-vitamins-nerve-
+concepts.md` for histology). Nothing in `pending-live/` is staged here or anywhere in
+`docs/import-ready/`, by design.
 
 ---
 
