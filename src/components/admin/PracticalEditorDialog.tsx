@@ -15,6 +15,7 @@ import {
   type PracticalConceptTags,
   type PracticalDifficulty,
   type PracticalMarkSectionDraft,
+  type Vitals,
   emptyPracticalCommon,
 } from '@/data/contentControl'
 import { DIFFICULTIES } from '@/data/qbank'
@@ -259,10 +260,58 @@ function QuestionTagFields({ conceptId, secondaryConceptIds, difficulty, onChang
   </div>
 }
 
+type VitalKey = 'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'
+const VITAL_NUMERIC: Array<{ key: Exclude<VitalKey, 'bp'>; label: string }> = [
+  { key: 'hr', label: 'HR (bpm)' }, { key: 'rr', label: 'RR (/min)' }, { key: 'spo2', label: 'SpO₂ (%)' },
+  { key: 'temp', label: 'Temp (°C)' }, { key: 'gcs', label: 'GCS (/15)' }, { key: 'glucose', label: 'Glucose (mmol/L)' },
+]
+const ALL_VITAL_KEYS: VitalKey[] = ['hr', 'bp', 'rr', 'spo2', 'temp', 'gcs', 'glucose']
+
+/** Optional presenting observations for a case. Empty everywhere → no vitals. */
+function VitalsEditor({ data, onChange }: { data: CaseAuthoringData; onChange: (data: CaseAuthoringData) => void }) {
+  const v = data.vitals ?? {}
+  const commit = (next: Vitals) => {
+    const has = ALL_VITAL_KEYS.some((key) => next[key] != null && next[key] !== '') || Boolean(next.note?.trim()) || Boolean(next.abnormal?.length)
+    onChange({ ...data, vitals: has ? next : undefined })
+  }
+  const setNum = (key: Exclude<VitalKey, 'bp'>, raw: string) => {
+    const trimmed = raw.trim()
+    const num = Number(trimmed)
+    commit({ ...v, [key]: trimmed === '' || !Number.isFinite(num) ? undefined : num })
+  }
+  const toggleAbnormal = (key: VitalKey) => {
+    const set = new Set(v.abnormal ?? [])
+    if (set.has(key)) set.delete(key); else set.add(key)
+    commit({ ...v, abnormal: [...set] })
+  }
+  return (
+    <EditorShell title="Vitals (optional)" hint="Presenting observations shown beside the decisions. Tick a vital to flag it red.">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        <Field label="BP (mmHg)" htmlFor="vitals-bp"><TextInput id="vitals-bp" value={v.bp ?? ''} placeholder="120/80" onChange={(event) => commit({ ...v, bp: event.target.value.trim() || undefined })} /></Field>
+        {VITAL_NUMERIC.map((field) => (
+          <Field key={field.key} label={field.label} htmlFor={`vitals-${field.key}`}>
+            <TextInput id={`vitals-${field.key}`} inputMode="decimal" value={v[field.key] == null ? '' : String(v[field.key])} onChange={(event) => setNum(field.key, event.target.value)} />
+          </Field>
+        ))}
+      </div>
+      <Field label="Note" htmlFor="vitals-note" className="mt-3"><TextInput id="vitals-note" value={v.note ?? ''} placeholder="room air" onChange={(event) => commit({ ...v, note: event.target.value || undefined })} /></Field>
+      <div className="mt-3">
+        <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Flag as abnormal</p>
+        <div className="flex flex-wrap gap-2">
+          {ALL_VITAL_KEYS.map((key) => {
+            const on = (v.abnormal ?? []).includes(key)
+            return <button type="button" key={key} onClick={() => toggleAbnormal(key)} className={cn('rounded-md border px-2.5 py-1 text-[12px] font-medium uppercase tracking-[0.04em]', on ? 'border-danger/40 bg-danger-tint text-danger' : 'border-line bg-surface text-ink-2 hover:bg-inset')}>{key}</button>
+          })}
+        </div>
+      </div>
+    </EditorShell>
+  )
+}
+
 function CaseEditor({ data, index, onIndex, onChange, conceptPicks, resourcePicks }: { data: CaseAuthoringData; index: number; onIndex: (index: number) => void; onChange: (data: CaseAuthoringData) => void; conceptPicks: PickerOption[]; resourcePicks: PickerOption[] }) {
   const safeIndex = Math.min(index, data.decisions.length - 1); const decision = data.decisions[safeIndex]
   const update = (patch: Partial<ClinicalDecisionDraft>) => onChange({ ...data, decisions: data.decisions.map((candidate) => candidate.id === decision.id ? { ...candidate, ...patch } : candidate) })
-  return <div className="grid gap-4 lg:grid-cols-[14rem_1fr]"><aside className="space-y-2"><p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Decisions</p>{data.decisions.map((entry, entryIndex) => <button type="button" key={entry.id} onClick={() => onIndex(entryIndex)} className={cn('w-full rounded-lg border px-3 py-2.5 text-start', entryIndex === safeIndex ? 'border-primary-line bg-primary-tint text-ink' : 'border-line bg-surface text-ink-2 hover:bg-inset')}><span className="block font-mono text-[10px] text-ink-3">Decision {entryIndex + 1}</span><span className="mt-0.5 line-clamp-2 block text-[12.5px] font-semibold">{entry.title || 'Untitled decision'}</span></button>)}<Button type="button" className="w-full" size="sm" iconLeft={Plus} onClick={() => { const next = { id: `decision-${Date.now()}`, title: '', context: '', question: '', answers: ensureAnswers([]), rationale: '' }; onChange({ ...data, decisions: [...data.decisions, next] }); onIndex(data.decisions.length) }}>Add decision</Button></aside><main className="space-y-4"><div className="flex items-center gap-3"><span className="text-[13px] font-medium text-ink-2">Decision <span className="font-mono text-ink">{safeIndex + 1}</span> of {data.decisions.length}</span><div className="h-1 flex-1 rounded-full bg-inset"><div className="h-full rounded-full bg-primary" style={{ width: `${((safeIndex + 1) / data.decisions.length) * 100}%` }} /></div>{data.decisions.length > 1 && <Button type="button" variant="ghost" size="sm" iconLeft={Trash2} onClick={() => { onChange({ ...data, decisions: data.decisions.filter((candidate) => candidate.id !== decision.id) }); onIndex(Math.max(0, safeIndex - 1)) }}>Remove</Button>}</div><EditorShell title="Student-facing decision" hint="Clinical context and the main question are deliberately separate."><Field label="Decision label" htmlFor="decision-label"><TextInput id="decision-label" value={decision.title} onChange={(event) => update({ title: event.target.value })} /></Field><Field label="Case text / clinical context" htmlFor="decision-context" className="mt-4"><Textarea id="decision-context" className="min-h-36 text-[15px] leading-[1.7]" value={decision.context} onChange={(event) => update({ context: event.target.value })} /></Field><Field label="Main question" htmlFor="decision-question" className="mt-4"><Textarea id="decision-question" className="min-h-20 text-[17px] font-semibold" value={decision.question} onChange={(event) => update({ question: event.target.value })} /></Field><div className="mt-5"><AnswersEditor answers={decision.answers} onChange={(answers) => update({ answers })} /></div><Field label="Decision rationale" htmlFor="decision-rationale" className="mt-4"><Textarea id="decision-rationale" value={decision.rationale} onChange={(event) => update({ rationale: event.target.value })} /></Field><QuestionTagFields conceptPicks={conceptPicks} idPrefix="decision" conceptId={decision.conceptId} secondaryConceptIds={decision.secondaryConceptIds} difficulty={decision.difficulty} onChange={update} /></EditorShell><EditorShell title="Case debrief" hint="Shown after the final decision."><Textarea aria-label="Case debrief" className="min-h-28" value={data.debrief} onChange={(event) => onChange({ ...data, debrief: event.target.value })} /></EditorShell><References values={data.references} onChange={(references) => onChange({ ...data, references })} resourcePicks={resourcePicks} /></main></div>
+  return <div className="grid gap-4 lg:grid-cols-[14rem_1fr]"><aside className="space-y-2"><p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Decisions</p>{data.decisions.map((entry, entryIndex) => <button type="button" key={entry.id} onClick={() => onIndex(entryIndex)} className={cn('w-full rounded-lg border px-3 py-2.5 text-start', entryIndex === safeIndex ? 'border-primary-line bg-primary-tint text-ink' : 'border-line bg-surface text-ink-2 hover:bg-inset')}><span className="block font-mono text-[10px] text-ink-3">Decision {entryIndex + 1}</span><span className="mt-0.5 line-clamp-2 block text-[12.5px] font-semibold">{entry.title || 'Untitled decision'}</span></button>)}<Button type="button" className="w-full" size="sm" iconLeft={Plus} onClick={() => { const next = { id: `decision-${Date.now()}`, title: '', context: '', question: '', answers: ensureAnswers([]), rationale: '' }; onChange({ ...data, decisions: [...data.decisions, next] }); onIndex(data.decisions.length) }}>Add decision</Button></aside><main className="space-y-4"><div className="flex items-center gap-3"><span className="text-[13px] font-medium text-ink-2">Decision <span className="font-mono text-ink">{safeIndex + 1}</span> of {data.decisions.length}</span><div className="h-1 flex-1 rounded-full bg-inset"><div className="h-full rounded-full bg-primary" style={{ width: `${((safeIndex + 1) / data.decisions.length) * 100}%` }} /></div>{data.decisions.length > 1 && <Button type="button" variant="ghost" size="sm" iconLeft={Trash2} onClick={() => { onChange({ ...data, decisions: data.decisions.filter((candidate) => candidate.id !== decision.id) }); onIndex(Math.max(0, safeIndex - 1)) }}>Remove</Button>}</div><EditorShell title="Student-facing decision" hint="Clinical context and the main question are deliberately separate."><Field label="Decision label" htmlFor="decision-label"><TextInput id="decision-label" value={decision.title} onChange={(event) => update({ title: event.target.value })} /></Field><Field label="Case text / clinical context" htmlFor="decision-context" className="mt-4"><Textarea id="decision-context" className="min-h-36 text-[15px] leading-[1.7]" value={decision.context} onChange={(event) => update({ context: event.target.value })} /></Field><Field label="Main question" htmlFor="decision-question" className="mt-4"><Textarea id="decision-question" className="min-h-20 text-[17px] font-semibold" value={decision.question} onChange={(event) => update({ question: event.target.value })} /></Field><div className="mt-5"><AnswersEditor answers={decision.answers} onChange={(answers) => update({ answers })} /></div><Field label="Decision rationale" htmlFor="decision-rationale" className="mt-4"><Textarea id="decision-rationale" value={decision.rationale} onChange={(event) => update({ rationale: event.target.value })} /></Field><QuestionTagFields conceptPicks={conceptPicks} idPrefix="decision" conceptId={decision.conceptId} secondaryConceptIds={decision.secondaryConceptIds} difficulty={decision.difficulty} onChange={update} /></EditorShell><EditorShell title="Case debrief" hint="Shown after the final decision."><Textarea aria-label="Case debrief" className="min-h-28" value={data.debrief} onChange={(event) => onChange({ ...data, debrief: event.target.value })} /></EditorShell><VitalsEditor data={data} onChange={onChange} /><References values={data.references} onChange={(references) => onChange({ ...data, references })} resourcePicks={resourcePicks} /></main></div>
 }
 
 function LabEditor({ data, index, onIndex, onChange, conceptPicks, resourcePicks }: { data: LabAuthoringData; index: number; onIndex: (index: number) => void; onChange: (data: LabAuthoringData) => void; conceptPicks: PickerOption[]; resourcePicks: PickerOption[] }) {

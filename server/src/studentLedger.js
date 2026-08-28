@@ -102,6 +102,10 @@ export const PUBLIC_FIELDS = new Set([
   'references', 'conceptTags', 'format', 'candidateInstructions',
   'actorOpening', 'actorSections', 'actorFlags', 'markSections', 'difficulty',
   'decisions', 'debrief', 'subtype', 'questions',
+  // A clinical case's vital-signs strip. The student reasons about the case from
+  // it — it renders in the practical runner (VitalsStrip) — so it is presented,
+  // not withheld, exactly like candidateInstructions and decisions above.
+  'vitals',
   // The image a station or a case decision turns on. A student cannot answer
   // "what does this film show" without the film.
   'mediaUrl', 'mediaType', 'mediaMimeType',

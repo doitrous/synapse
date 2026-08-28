@@ -57,11 +57,22 @@ export function RangeBar({
   lower,
   upper,
   tone = 'primary',
+  marker,
   className,
 }: {
   lower: number
   upper: number
   tone?: 'primary' | 'success' | 'warning' | 'danger'
+  /**
+   * The posterior mean, 0–1, drawn as a short tick inside the band. Optional,
+   * and deliberately not the default: most callers show the band alone, because
+   * a tick in the middle of it reads as "the real answer, with error bars" (see
+   * the file header). Where a caller has an actual point estimate behind the
+   * interval — the concept grid's mastery mean — the tick is honest, since it
+   * marks a value the model actually computed rather than implying the
+   * midpoint is special.
+   */
+  marker?: number
   className?: string
 }) {
   const left = Math.max(0, Math.min(100, lower * 100))
@@ -85,6 +96,12 @@ export function RangeBar({
         className={cn('absolute top-0 h-full rounded-full opacity-80', fill)}
         style={{ left: `${left}%`, width: `${width}%` }}
       />
+      {marker !== undefined && (
+        <span
+          className={cn('absolute -top-0.5 h-[calc(100%+4px)] w-[3px] rounded-full', fill)}
+          style={{ left: `${Math.max(0, Math.min(100, marker * 100))}%` }}
+        />
+      )}
     </div>
   )
 }
@@ -169,6 +186,59 @@ export function ShareRow({
       {right && <span className="tnum shrink-0 font-mono text-[12px] text-ink-2">{right}</span>}
       <div className="col-span-2 h-1.5 overflow-hidden rounded-full bg-inset">
         <div className={cn('h-full rounded-full', fill)} style={{ width: `${width}%` }} />
+      </div>
+    </div>
+  )
+}
+
+/**
+ * A bigger, boxier meter for the Today tab's headline reads.
+ *
+ * Coverage and block composition are the two numbers a student checks at a
+ * glance, so they get more visual weight here than `ShareRow` gives the same
+ * shape of data elsewhere. At this size a fully-saturated red/amber/green fill
+ * reads as an alarm strip rather than a proportion, so the body of the bar
+ * stays on the light end of the scale ramp; the tone still shows up as a short
+ * solid cap at the fill's leading edge, which is enough to scan without
+ * shouting.
+ */
+export function ProgressBlock({
+  label,
+  value,
+  max,
+  right,
+  tone = 'primary',
+}: {
+  label: ReactNode
+  value: number
+  max: number
+  right?: ReactNode
+  tone?: 'primary' | 'success' | 'warning' | 'danger' | 'neutral'
+}) {
+  const width = max > 0 ? Math.max(0, Math.min(100, (value / max) * 100)) : 0
+  const fill = {
+    primary: 'bg-scale-2', success: 'bg-scale-1', warning: 'bg-scale-2',
+    danger: 'bg-scale-3', neutral: 'bg-scale-1',
+  }[tone]
+  const cap = {
+    primary: 'bg-primary', success: 'bg-success', warning: 'bg-warning',
+    danger: 'bg-danger', neutral: 'bg-ink-3',
+  }[tone]
+
+  return (
+    <div className="space-y-1.5">
+      <div className="flex items-center justify-between gap-3">
+        <p className="min-w-0 truncate text-[13px] text-ink">{label}</p>
+        {right && <span className="tnum shrink-0 font-mono text-[12px] text-ink-2">{right}</span>}
+      </div>
+      <div className="relative h-4 overflow-hidden rounded-md border border-line bg-scale-0">
+        <div className={cn('absolute inset-y-0 left-0 rounded-[5px] transition-[width]', fill)} style={{ width: `${width}%` }} />
+        {width > 0.5 && (
+          <span
+            className={cn('absolute inset-y-0 w-[3px] rounded-full', cap)}
+            style={{ left: `calc(${width}% - 3px)` }}
+          />
+        )}
       </div>
     </div>
   )

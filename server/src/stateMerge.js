@@ -103,6 +103,31 @@ function byId(items) {
 }
 
 /**
+ * Canonical item equality, with a cheap pre-check.
+ *
+ * `fingerprint` is order-independent but deep and recursive. `diffDocument` and
+ * `mergeDocument` compare every item in a document on every save, several times
+ * over — and on the content ledger (thousands of nested question items) calling
+ * `fingerprint` that many times cost tens of seconds per publish, long enough
+ * that a reload before it returned dropped the write and the change looked like
+ * it reverted.
+ *
+ * Almost every item is byte-identical between the two versions being compared —
+ * both were serialised from the same stored document — so an identical native
+ * `JSON.stringify` settles them without the sorted walk. An identical string is
+ * unconditionally equal, so this never reports a false match; only when the fast
+ * strings differ (a genuine change, or the rare re-ordered key) do we fall back
+ * to the authoritative, order-independent fingerprint. Correctness is unchanged;
+ * the common case is now one native serialisation instead of a recursive one.
+ */
+function equalItems(a, b) {
+  if (a === b) return true
+  if (!a || !b) return false
+  if (JSON.stringify(a) === JSON.stringify(b)) return true
+  return fingerprint(a) === fingerprint(b)
+}
+
+/**
  * What changed between two versions of a document, item by item.
  *
  * A change carries both sides because authorisation needs both — see
@@ -118,7 +143,7 @@ export function diffDocument(key, base, next) {
     for (const id of new Set([...before.keys(), ...after.keys()])) {
       const from = before.get(id) ?? null
       const to = after.get(id) ?? null
-      if (from && to && fingerprint(from) === fingerprint(to)) continue
+      if (from && to && equalItems(from, to)) continue
       const kind = collection.kindOf(to ?? from)
       changes.push({
         collection: collection.name,
@@ -198,13 +223,87 @@ export function mergeDocument(key, base, stored, incoming) {
     for (const id of new Set([...before.keys(), ...mine.keys()])) {
       const from = before.get(id) ?? null
       const to = mine.get(id) ?? null
-      if (from && to && fingerprint(from) === fingerprint(to)) continue
+      if (from && to && equalItems(from, to)) continue
 
       const current = theirs.get(id) ?? null
-      if (fingerprint(current) !== fingerprint(from)) { conflicts.push(id); continue }
+      if (!equalItems(current, from)) { conflicts.push(id); continue }
 
       if (to) result.set(id, to)
       else result.delete(id)
+    }
+    value = collection.write(value, [...result.values()])
+  }
+
+  if (conflicts.length) return { ok: false, conflicts }
+  return { ok: true, value }
+}
+
+/**
+ * A delta save sends only the items a client changed, not the whole document.
+ *
+ * The content ledger is tens of megabytes; re-uploading all of it to publish one
+ * question was the dominant cost of a save. A client that tracks the version it
+ * loaded can instead send just `{ collection, id, before, after }` per changed
+ * item — the same shape `diffDocument` produces — and the server applies those
+ * onto whatever is stored now, with the identical per-item conflict check.
+ *
+ * `reconstructChanges` re-derives `kind` and `tabs` from the adapter rather than
+ * trusting the client for them: authorisation must not be something the caller
+ * can assert. It returns null for anything malformed — an unknown collection, a
+ * non-string id, an `after` whose id disagrees — so the caller refuses the save
+ * rather than guessing. A missing/blank `changes` is the caller's signal to take
+ * the whole-document path, and must never be read as "delete everything".
+ */
+export function reconstructChanges(key, rawChanges) {
+  const adapter = ADAPTERS[key]
+  if (!adapter || !Array.isArray(rawChanges)) return null
+  const byName = new Map(adapter.collections.map((collection) => [collection.name, collection]))
+  const changes = []
+  for (const raw of rawChanges) {
+    if (!raw || typeof raw !== 'object') return null
+    const collection = byName.get(raw.collection)
+    if (!collection) return null
+    if (typeof raw.id !== 'string' || !raw.id) return null
+    const before = raw.before ?? null
+    const after = raw.after ?? null
+    if (before === null && after === null) return null
+    if (after && after.id !== raw.id) return null
+    if (before && before.id !== raw.id) return null
+    const kind = collection.kindOf(after ?? before)
+    changes.push({ collection: collection.name, id: raw.id, kind, tabs: collection.tabsFor(kind), before, after })
+  }
+  return changes
+}
+
+/**
+ * The reconstructed changes applied onto what is stored now.
+ *
+ * Mirrors `mergeDocument`'s conflict rule exactly: an item whose stored value no
+ * longer matches the `before` the client started from is a conflict and the
+ * whole save is refused, so a delta can never silently overwrite somebody
+ * else's concurrent edit. Changes name their collection, so this touches only
+ * the items actually sent — a truncated list cannot delete the rest.
+ */
+export function applyDelta(key, stored, changes) {
+  const adapter = ADAPTERS[key]
+  if (!adapter) return { ok: false, conflicts: [] }
+
+  const perCollection = new Map()
+  for (const change of changes) {
+    if (!perCollection.has(change.collection)) perCollection.set(change.collection, [])
+    perCollection.get(change.collection).push(change)
+  }
+
+  const conflicts = []
+  let value = stored
+  for (const collection of adapter.collections) {
+    const theirs = byId(collection.read(stored))
+    const result = new Map(theirs)
+    for (const change of perCollection.get(collection.name) ?? []) {
+      const current = theirs.get(change.id) ?? null
+      if (!equalItems(current, change.before)) { conflicts.push(change.id); continue }
+      if (change.after) result.set(change.id, change.after)
+      else result.delete(change.id)
     }
     value = collection.write(value, [...result.values()])
   }
