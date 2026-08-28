@@ -276,6 +276,18 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
     setGroups((cur) => cur.filter((g) => !gids.has(g.id)))
   }, [occluders, selection, snapshot])
 
+  // G toggles: if the current selection is already one intact group, ungroup it;
+  // otherwise group it. Without this, pressing G on an already-grouped set kept
+  // minting new groups (Group 2, 3, 4…) instead of undoing the grouping.
+  const toggleGroup = useCallback(() => {
+    if (selection.size < 2) return
+    const selected = occluders.filter((o) => selection.has(o.id))
+    const gid = selected[0]?.groupId
+    const alreadyOneGroup = !!gid && selected.every((o) => o.groupId === gid)
+    if (alreadyOneGroup) ungroupSelected()
+    else groupSelected()
+  }, [selection, occluders, groupSelected, ungroupSelected])
+
   const nudge = useCallback((dx: number, dy: number) => {
     if (selection.size === 0 || !image) return
     setOccluders((cur) => cur.map((o) => (selection.has(o.id) ? { ...o, shape: nudgeShape(o.shape, dx, dy, image.width, image.height) } : o)))
@@ -321,7 +333,7 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
       tk('polygon', 'Polygon', 'P', () => setTool('polygon')),
       tk('pan', 'Pan', 'H', () => setTool('pan')),
       tk('fit', 'Fit to image', 'F', fit),
-      tk('group', 'Group', 'G', groupSelected),
+      tk('group', 'Group or ungroup', 'G', toggleGroup),
       tk('ungroup', 'Ungroup', 'Shift+G', ungroupSelected),
       tk('duplicate', 'Duplicate', 'Mod+D', duplicateSelected),
       tk('delete', 'Delete', 'Delete', deleteSelected, { destructive: true }),
@@ -339,7 +351,7 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
       tk('escape', 'Cancel', 'Escape', () => { if (polygon) setPolygon(null); else setSelection(new Set()) }, { hidden: true }),
       tk('closePoly', 'Finish polygon', 'Enter', () => { if (polygon) commitPolygon() }, { hidden: true }),
     ]
-  }, [fit, groupSelected, ungroupSelected, duplicateSelected, deleteSelected, undo, redo, nudge, polygon, commitPolygon])
+  }, [fit, toggleGroup, ungroupSelected, duplicateSelected, deleteSelected, undo, redo, nudge, polygon, commitPolygon])
   useCommands(commands)
 
   // ---- render --------------------------------------------------------------
@@ -387,7 +399,7 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
             <ToolBtn icon={Hand} label={t('Pan (H)')} active={tool === 'pan'} onClick={() => setTool('pan')} />
             <span className="mx-1 h-5 w-px bg-line" aria-hidden />
             <ToolBtn icon={Maximize2} label={t('Fit (F)')} onClick={fit} />
-            <ToolBtn icon={Group} label={t('Group (G)')} onClick={groupSelected} disabled={selection.size < 2} />
+            <ToolBtn icon={Group} label={t('Group or ungroup (G)')} onClick={toggleGroup} disabled={selection.size < 2} />
             <ToolBtn icon={Ungroup} label={t('Ungroup (⇧G)')} onClick={ungroupSelected} disabled={selection.size === 0} />
             <ToolBtn icon={Copy} label={t('Duplicate (⌘D)')} onClick={duplicateSelected} disabled={selection.size === 0} />
             <ToolBtn icon={Trash2} label={t('Delete')} onClick={deleteSelected} disabled={selection.size === 0} />
