@@ -1608,3 +1608,68 @@ control-hemorrhagic-shock.ts` before minting), the mistagged urinary-
 bladder-plasticity row, the mistagged Poiseuille-law row (route to
 Vascular Function, this leaf's own next queued cluster after this one
 closes).
+
+## run35, third commit: cell-biology/contractility-mechanism group (7
+## kept, 0 excluded, 0 fresh mints)
+
+**`physiology-cardiac-muscle-cell-biology.ts`** (new file, articleId
+ART-104-PHY-CARDIAC-MECHANICS): 3 sparse reuses, 0 fresh mints — all found
+by grepping every 104-CPS concept file for "phospholamban"/"L-type"/
+"functional syncytium" before minting anything:
+- `cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms`
+  (CON-CVS-BF82D6F52B72C9) — 3rd/4th/5th/6th reuse in this leaf now; its
+  own hand-authored definition already names phospholamban's SERCA-
+  inhibition role and myocardial ischaemia's relaxation-impairing
+  mechanism by name, an exact match for 4 of this file's 6 questions
+  (EC-coupling/ischaemia, phospholamban itself, decreased-contractility
+  discrimination, positive-inotropic-mechanism discrimination).
+- `cardiac-action-potential.plateau-phase2.calcium-potassium-balance`
+  (CON-CVS-D0CD4A234205EF) — genuine cross-leaf reuse from "Electrical
+  Activity of the Heart" (article ART-104-PHY-CARDIAC-ACTION-POTENTIAL);
+  its own definition already states L-type Ca++ channels are voltage-
+  gated, open during the plateau and inactivate slowly — an exact match
+  for the L-type-channel-properties EXCEPT row.
+- `cardiac-muscle.functional-syncytium-and-intercalated-discs`
+  (CON-CVS-7FC4E8F3FBEFFE) — genuine cross-leaf reuse, same article as
+  above; exact match for the cardiac-muscle-structure row (functional vs
+  true syncytium, intercalated discs, gap junctions).
+
+**Confirms this session's own hazard note above with a second data
+point**: both cross-leaf reuses here are concepts this *pipeline itself*
+originally minted (they live as full records in `104-CPS-mcq-concepts.md`,
+not hand-authored records in `-physiology-concepts.md`), and this build's
+own diff shows their `article_ids` line rewritten wholesale, cleanly,
+without a `+` prefix (`ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-
+CARDIAC-MECHANICS`) — because the pipeline owns the whole record for a
+concept it minted itself, unlike a hand-authored record it must touch
+conservatively via sparse `+`-append. Both validated clean with 0 new
+`medical:batch` errors, confirming the false-positive is specific to
+reusing a *hand-authored* pinned concept's `article_ids`, not reuse in
+general.
+
+**1 question added to the existing `physiology-cardiac-preload-frank-
+starling.ts`** (`regarding-the-cardiac-muscle-47c4dc0a` — Frank-Starling's
+law restated directly against staircase/treppe, acidosis and sympathetic-
+stimulation distractors), reusing that file's own already-declared
+concept — 0 new reuses/mints.
+
+Gate: 534 kept (+7 from 527), 110 excluded (unchanged — 0 excludes this
+commit). Additive-only proof by `QM-104-*` id-set diff: `comm -23` empty,
+527 -> 534. `medical:simulate` positional: `errors: []`, `skipped: []`,
+all `rejected: 0`. `medical:batch` full `--with`: identical 6 errors as
+the previous two commits (0 new). `medical:audit`: `errors: []`.
+
+Leaf running total across all 3 commits this session: 19 kept, 2
+excluded, 2 fresh mints, 5 concept reuses (2 same-leaf, 3 cross-leaf).
+17 rows remain of the original 36 (contractility "regarding the cardiac
+muscle fibers"-style stragglers are now done; still open: cardiac index,
+stroke-volume-reserve-during-exercise, hemorrhagic shock x2, 1 mistagged
+urinary-bladder row, 1 mistagged Poiseuille-law row).
+
+HANDOFF: kasr-104-author-run35@<this commit's sha, see `git log -1`> ·
+resume-first: cardiac index + stroke-volume-reserve rows (check
+`physiology-cardiac-output-formula.ts` for an existing cardiac-index
+concept before minting), then hemorrhagic shock (check `physiology-
+circulatory-control-hemorrhagic-shock.ts` before minting), then close out
+the leaf's 2 mistagged rows, then move to Vascular Function per the
+dispatch's own queued order.

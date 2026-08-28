@@ -40,8 +40,9 @@
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 4 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 11 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 12 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
@@ -32572,6 +32573,558 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-2AB4503CBC8E
+## title
+Concerning L-type Ca”* channels in cardiac muscle fibers, allthe — - following is true,…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning L-type Ca”* channels in cardiac muscle fibers, allthe — - following is true, EXCEPT:
+## answer_a
+Are voltage-gated channels
+## explanation_a
+True, not the exception. L-type Ca++ channels are voltage-gated, opening in response to the membrane depolarization produced by phase 0.
+## answer_b
+Are opened during the plateau
+## explanation_b
+True, not the exception. L-type Ca++ channels open during the upstroke and remain open through the plateau (phase 2), carrying the sustained inward current that holds the membrane near 0 mV.
+## answer_c
+Conduct outward current
+## explanation_c
+Correct — this is the exception (the false statement). L-type Ca++ channels conduct an inward, not outward, Ca++ current; it is this inward current, balanced against an outward K+ current, that sustains the plateau.
+
+Why this is right:
+- The plateau (phase 2) of a working myocyte's action potential is held near 0 mV by a near-balance between a sustained inward Ca++ current, carried by voltage-gated L-type ('long-lasting') Ca++ channels that open during the upstroke and inactivate slowly (over roughly 200-300 ms), and an outward K+ current.
+## answer_d
+Are inactivated very slowly
+## explanation_d
+True, not the exception. L-type Ca++ channels inactivate slowly (over roughly 200-300 ms), which is exactly why they can sustain a current throughout the whole plateau rather than closing immediately as a fast Na+ channel does.
+## correct_answer
+C
+## main_concept
+CON-CVS-D0CD4A234205EF
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that L-type Ca++ channels conduct an inward, not outward, current as the false statement among their other true properties (voltage-gated, open during the plateau, inactivate slowly).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p6 q22. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5AFB9F7B688D
+## title
+During excitation contraction coupling of carciac myocyte, which of _ the following occ…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During excitation contraction coupling of carciac myocyte, which of _ the following occurs?
+## answer_a
+Calcium entering the cell is immediately pumped by Na*-Ca”* exchanger
+## explanation_a
+Calcium entering during depolarization first triggers a much larger calcium-induced release of Ca++ from the sarcoplasmic reticulum, driving contraction; the Na+-Ca++ exchanger's role in extruding calcium is more prominent during relaxation, not immediately upon entry.
+## answer_b
+The ryanodine receptors are inhibited
+## explanation_b
+Ryanodine receptors are activated (opened), not inhibited, during excitation-contraction coupling, releasing stored sarcoplasmic-reticulum calcium in response to the trigger signal.
+## answer_c
+The sarcoplasmic Ca”* uptake is important for the myocyte contraction
+## explanation_c
+Sarcoplasmic calcium uptake (via SERCA) is primarily associated with relaxation and replenishing sarcoplasmic-reticulum stores for the next beat, not with triggering the current contraction, which depends on calcium release, not uptake.
+## answer_d
+Relaxation is inhibited by myocardial ischemia due to accumulation of
+## explanation_d
+Correct. Myocardial ischaemia, through ATP deficiency, slows the pumps that remove cytoplasmic Ca++; the resulting accumulation of Ca++ cannot detach from troponin, inhibiting relaxation.
+
+Why this is right:
+- Beta-adrenergic stimulation raises cAMP and activates Protein Kinase A, which increases cytoplasmic Ca++ by phosphorylating the L-type Ca++ channel and the ryanodine receptor (positive inotropy) and separately speeds relaxation by phosphorylating phospholamban to accelerate SERCA-mediated Ca++ removal (positive lusitropy); by contrast, hypoxia inhibits ATP production and myocardial ischaemia's ATP deficiency slows Ca++ removal, so Ca++ accumulates and the myocyte contracts weakly and relaxes poorly at the same time.
+## correct_answer
+D
+## main_concept
+CON-CVS-BF82D6F52B72C9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that myocardial ischaemia inhibits relaxation through calcium accumulation, as opposed to misdescribing the roles of the Na-Ca exchanger, the ryanodine receptor, or sarcoplasmic calcium uptake during excitation-contraction coupling.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p4 q8. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E593987BAB69
+## title
+Regarding phospholamban (PLN) protein:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding phospholamban (PLN) protein:
+## answer_a
+Has inhibitory effect on sarco-endoplasmic reticulum calcium ATPase (SERCA)
+## explanation_a
+Correct. In its resting (dephosphorylated) state, phospholamban inhibits the sarco/endoplasmic reticulum calcium ATPase (SERCA); Protein Kinase A phosphorylation of phospholamban relieves this inhibition, speeding calcium reuptake and relaxation.
+
+Why this is right:
+- Beta-adrenergic stimulation raises cAMP and activates Protein Kinase A, which increases cytoplasmic Ca++ by phosphorylating the L-type Ca++ channel and the ryanodine receptor (positive inotropy) and separately speeds relaxation by phosphorylating phospholamban to accelerate SERCA-mediated Ca++ removal (positive lusitropy); by contrast, hypoxia inhibits ATP production and myocardial ischaemia's ATP deficiency slows Ca++ removal, so Ca++ accumulates and the myocyte contracts weakly and relaxes poorly at the same time.
+## answer_b
+ATP-dependent calcium pump for reuptake of Ca++ by sarcoplasmic reticulum
+## explanation_b
+The ATP-dependent calcium pump that reuptakes calcium into the sarcoplasmic reticulum is SERCA itself — the protein phospholamban regulates, not phospholamban.
+## answer_c
+Sodium-calcium exchanger that pumps Ca++ out of Ca++ myocytes
+## explanation_c
+The sodium-calcium exchanger that extrudes calcium out of the myocyte is a distinct sarcolemmal transporter, not phospholamban.
+## answer_d
+Ryanodine-sensitive calcium release channel
+## explanation_d
+The ryanodine-sensitive calcium release channel is a distinct sarcoplasmic-reticulum protein responsible for calcium release, not phospholamban, which instead regulates calcium reuptake.
+## correct_answer
+A
+## main_concept
+CON-CVS-BF82D6F52B72C9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State that phospholamban, in its resting state, inhibits SERCA, as opposed to itself being the calcium pump, the sodium-calcium exchanger, or the ryanodine receptor.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p7 q48. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6C2F1AF86340
+## title
+The cardiac muscle fibers :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The cardiac muscle fibers :
+## answer_a
+are unstriated muscle fibers
+## explanation_a
+Cardiac muscle fibres are striated, just like skeletal muscle — the same actin-myosin sarcomere organisation produces the characteristic banding pattern.
+## answer_b
+form true syncytium
+## explanation_b
+Cardiac muscle forms a functional, not a true, syncytium: its cells stay anatomically separate, each with its own nucleus, unlike skeletal muscle's true syncytium of fused, multinucleated fibres.
+## answer_c
+are poor in mitochondria
+## explanation_c
+Cardiac muscle is richly, not poorly, supplied with mitochondria and capillaries (almost one capillary per fibre), matching its continuous, high metabolic demand.
+## answer_d
+have low resistance bridges & tight gap junctions
+## explanation_d
+Correct. Intercalated discs carry low-resistance gap junctions that let an action potential spread rapidly from cell to cell, producing the tissue's functional-syncytium behaviour.
+
+Why this is right:
+- Cardiac muscle fibres are individual, striated cells, each with its own nucleus, separated from their neighbours by intercalated discs — unlike skeletal muscle's true syncytium of fused, multinucleated fibres.
+## correct_answer
+D
+## main_concept
+CON-CVS-7FC4E8F3FBEFFE
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+State that cardiac muscle fibres are joined by low-resistance gap junctions at tight intercalated discs, as opposed to being unstriated, forming a true syncytium, or being poor in mitochondria.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p1 q1. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-33FA0DB905ED
+## title
+Which of the following decreases the myocardial contractility?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following decreases the myocardial contractility?
+## answer_a
+Catecholamines
+## explanation_a
+Catecholamines increase, not decrease, myocardial contractility via beta-adrenergic-cAMP-PKA stimulation.
+## answer_b
+An increase in heart rate
+## explanation_b
+An increase in heart rate, via the force-frequency (staircase/treppe) relationship, tends to modestly increase, not decrease, contractility across most physiological rate ranges.
+## answer_c
+An increase in end diastolic volume
+## explanation_c
+An increase in end-diastolic volume affects stroke volume through the separate, preload-dependent Frank-Starling mechanism, not through a direct change in intrinsic contractility.
+## answer_d
+An increase in parasympathetic nervous system activity
+## explanation_d
+Correct. Increased parasympathetic (vagal) activity, acting through muscarinic receptors, inhibits adenylyl cyclase and reduces cAMP/PKA activity, producing a genuine negative inotropic effect.
+
+Why this is right:
+- Beta-adrenergic stimulation raises cAMP and activates Protein Kinase A, which increases cytoplasmic Ca++ by phosphorylating the L-type Ca++ channel and the ryanodine receptor (positive inotropy) and separately speeds relaxation by phosphorylating phospholamban to accelerate SERCA-mediated Ca++ removal (positive lusitropy); by contrast, hypoxia inhibits ATP production and myocardial ischaemia's ATP deficiency slows Ca++ removal, so Ca++ accumulates and the myocyte contracts weakly and relaxes poorly at the same time.
+## correct_answer
+D
+## main_concept
+CON-CVS-BF82D6F52B72C9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify increased parasympathetic activity as a cause of decreased myocardial contractility, as opposed to catecholamines, increased heart rate, or increased end-diastolic volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p6 q17. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BD18C32DC42D
+## title
+Which of the following is considered a "Positive inotropic mechanism"?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is considered a "Positive inotropic mechanism"?
+## answer_a
+Ischemia of cardiac muscle
+## explanation_a
+Cardiac ischaemia impairs, rather than enhances, contractility — a negative, not positive, inotropic influence, through ATP deficiency and impaired calcium handling.
+## answer_b
+Activation of Na+-K+ ATPase in sarcolemma
+## explanation_b
+Activating the Na+-K+ ATPase lowers intracellular Na+, which favours the Na+-Ca++ exchanger extruding more calcium from the cell in its normal, forward direction — the opposite of the reversed, calcium-importing direction that raises cytoplasmic calcium (which digitalis instead produces by inhibiting, not activating, this same pump).
+## answer_c
+Activation of muscarinic (M2) receptors and decreased cAMP production
+## explanation_c
+Muscarinic (M2) receptor activation with decreased cAMP is the classic negative (parasympathetic) inotropic pathway, the functional opposite of a positive inotropic mechanism.
+## answer_d
+Activation of protein kinase A leading to increase Ca in the cytoplasm
+## explanation_d
+Correct. Protein Kinase A activation, downstream of beta-adrenergic stimulation and raised cAMP, phosphorylates the L-type Ca++ channel and ryanodine receptor to increase cytoplasmic Ca++ available during systole — the classic positive inotropic pathway.
+
+Why this is right:
+- Beta-adrenergic stimulation raises cAMP and activates Protein Kinase A, which increases cytoplasmic Ca++ by phosphorylating the L-type Ca++ channel and the ryanodine receptor (positive inotropy) and separately speeds relaxation by phosphorylating phospholamban to accelerate SERCA-mediated Ca++ removal (positive lusitropy); by contrast, hypoxia inhibits ATP production and myocardial ischaemia's ATP deficiency slows Ca++ removal, so Ca++ accumulates and the myocyte contracts weakly and relaxes poorly at the same time.
+## correct_answer
+D
+## main_concept
+CON-CVS-BF82D6F52B72C9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## subtopic
+Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify Protein Kinase A activation raising cytoplasmic calcium as a positive inotropic mechanism, as opposed to ischaemia, Na-K ATPase activation, or muscarinic receptor activation with decreased cAMP.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p7 q50. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-861C3EA2CAE6
 ## title
 Cardiac output is equal to:
@@ -34315,6 +34868,98 @@ Asked 3 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-0A66C181C95F
+## title
+Regarding the cardiac muscle
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cardiac muscle
+## answer_a
+The more the initial length of the muscle fibers, the more will be the force of contraction
+## explanation_a
+Correct. This directly restates Frank-Starling's law: the greater a cardiac muscle fibre's initial length (its preload), the greater the force of contraction it develops, up to an optimal length.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_b
+The force of contraction decreases with repeated stimulation
+## explanation_b
+The opposite is true (the "staircase phenomenon" or treppe): increasing the frequency of stimulation raises, not lowers, the force of contraction over the first few beats, as cytoplasmic Ca++ accumulates across successive contractions.
+## answer_c
+Acidosis increases the contractility
+## explanation_c
+Acidosis decreases, not increases, cardiac contractility — excess H+ competes with Ca++ for troponin binding sites and interferes with cross-bridge cycling.
+## answer_d
+Sympathetic stimulation produces negative inotropic effect
+## explanation_d
+Sympathetic stimulation produces a positive, not negative, inotropic effect, via the beta-adrenergic-cAMP-PKA pathway that raises cytoplasmic Ca++.
+## correct_answer
+A
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Restate Frank-Starling's law directly — greater initial fibre length (preload) raises the force of contraction — as opposed to misdescribing the effects of stimulation frequency, acidosis, or sympathetic stimulation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p6 q44. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
 
 ---
 

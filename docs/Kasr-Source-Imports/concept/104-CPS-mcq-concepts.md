@@ -40,8 +40,9 @@
     Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 4 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Muscle Cell Biology and Contractility Mechanisms — 6 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 11 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 12 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
@@ -2827,7 +2828,7 @@ Cardiovascular System
 ## aliases
 Cardiac action potential plateau | Phase 2 | L-type calcium channels
 ## article_ids
-ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-CARDIAC-MECHANICS
 ## support_mode
 direct_statement
 ## original_wording
@@ -2958,7 +2959,7 @@ Cardiovascular System
 ## aliases
 Functional syncytium | Intercalated discs | All-or-none law (cardiac)
 ## article_ids
-ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-CARDIAC-MECHANICS
 ## support_mode
 direct_statement
 ## original_wording
@@ -5693,6 +5694,8 @@ cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms
 src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p7 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes
@@ -6004,6 +6007,7 @@ src_ab84e963639b236e0951 | question_book | | p3 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p6 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes

@@ -187,5 +187,18 @@ export const LEAF: McqLeafSeed = {
         D: "Correct. An increase in preload stretches the ventricular myocardium further before contraction, and via the Frank-Starling mechanism this directly increases the force and degree of shortening, raising stroke volume.",
       },
     },
+    {
+      key: 'regarding-the-cardiac-muscle-47c4dc0a',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: "Restate Frank-Starling's law directly — greater initial fibre length (preload) raises the force of contraction — as opposed to misdescribing the effects of stimulation frequency, acidosis, or sympathetic stimulation.",
+      explanations: {
+        A: "Correct. This directly restates Frank-Starling's law: the greater a cardiac muscle fibre's initial length (its preload), the greater the force of contraction it develops, up to an optimal length.",
+        B: 'The opposite is true (the "staircase phenomenon" or treppe): increasing the frequency of stimulation raises, not lowers, the force of contraction over the first few beats, as cytoplasmic Ca++ accumulates across successive contractions.',
+        C: 'Acidosis decreases, not increases, cardiac contractility — excess H+ competes with Ca++ for troponin binding sites and interferes with cross-bridge cycling.',
+        D: 'Sympathetic stimulation produces a positive, not negative, inotropic effect, via the beta-adrenergic-cAMP-PKA pathway that raises cytoplasmic Ca++.',
+      },
+    },
   ],
 }
