@@ -199,6 +199,8 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
   const onPointerUp = () => {
     const d = drag.current
     drag.current = null
+    // A resize is fully committed during onPointerMove (it snapshots on the
+    // first move), so it needs nothing on pointer-up beyond clearing the drag.
     if (d?.kind === 'move') { snapshot(); return }
     if (d?.kind === 'draw' && draft) {
       const b = shapeBounds(draft)
