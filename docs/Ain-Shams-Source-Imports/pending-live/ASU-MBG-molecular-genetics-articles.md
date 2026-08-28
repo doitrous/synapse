@@ -322,6 +322,44 @@ fnd
 # Item
 
 ## id
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## title
+Protein synthesis (translation)
+
+## topic
+Biochemistry
+
+## summary
+A chain that has just left the ribosome is usually not yet a working protein. Two things can be done to it: a piece can be cut out, which is trimming, or a functional group can be added to a residue, which is covalent modification — phosphate, carbohydrate, acetyl or methyl, hydroxyl or carboxyl, each with its own worked example. The same chapter carries the mutations that make the wrong chain in the first place, and a base substitution in a coding region is nonsense, missense or silent depending only on what the new codon means.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Genetic code, translation and mutations
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) sits its own genetic-code, wobble/anticodon, point-mutation and nonsense/missense/silent papers on the same content — no wording difference identified yet.
+
+## subject
+fnd
+
+---
+
+# Item
+
+## id
 ART-DEV-TOP-6BC67DC7C1
 
 ## title

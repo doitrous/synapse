@@ -5957,3 +5957,3226 @@ yes
 
 ## author_notes
 Printed key: C. Reuses this lane's own earlier DNA-replication topoisomerase concept (CON-FND-FFEE58EC9C0784, already tagged +asu/+ASU_Y1/+ASU-MBG in batch 1) rather than minting a new one — its own pitfalls field already distinguishes topoisomerase from ligase, which is the exact distractor logic this item needs.
+
+---
+
+# Item
+
+## title
+Degeneracy of the genetic code denotes the existence of:
+
+## question
+Degeneracy of the genetic code denotes the existence of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Basic triplets that don't code for any amino acid
+
+## explanation_a
+Incorrect. Triplets that code for no amino acid are the three stop (termination) codons, a separate fact about the code's punctuation, not what "degenerate" describes.
+
+## answer_b
+Codons consist of only two bases
+
+## explanation_b
+Incorrect. Every codon is a triplet of exactly three nucleotides, never two — this option misstates the basic unit the whole code is built from.
+
+## answer_c
+Codons that include one or more unusual bases
+
+## explanation_c
+Incorrect. Standard codons are built from the four ordinary bases (A, G, C, U); "unusual bases" describes certain positions in tRNA molecules, not a property of the genetic code's codons.
+
+## answer_d
+Multiple codons for single amino acid
+
+## explanation_d
+Correct. Degeneracy means that most of the 20 amino acids are specified by more than one codon — for example, leucine has six different codons. This is possible because there are 64 possible triplets but only 20 amino acids to encode (plus start and stop signals), so several "synonym" codons inevitably map to the same amino acid. Degeneracy is distinct from ambiguity (one codon specifying several amino acids), which the code deliberately does not have.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that degeneracy means most amino acids are specified by more than one codon.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q1, p.15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+The codons CUU, CUC, CUG and CUA all code for leucine. What does this indicate?
+
+## question
+The codons CUU, CUC, CUG & CUA all code for the amino acid leucine. This indicates that the genetic code is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ambiguous
+
+## explanation_a
+Incorrect. Ambiguity would mean one codon specifies several amino acids — the opposite pattern from what is shown here, where several codons specify one amino acid.
+
+## answer_b
+Redundant ("degenerate")
+
+## explanation_b
+Correct. Four different codons (CUU, CUC, CUG, CUA) all coding for the same amino acid, leucine, is a direct worked example of degeneracy (also called redundancy): the genetic code assigns more than one codon to most amino acids. This is exactly the same property tested definitionally in the previous item, now applied to a real set of leucine codons — recognising the pattern in a concrete example, not just the definition, is what this style of question checks.
+
+## answer_c
+Universal
+
+## explanation_c
+Incorrect. Universality means nearly all organisms use the same code, which is a separate property from how many codons map to one amino acid within that code.
+
+## answer_d
+Not determined by base pairing
+
+## explanation_d
+Incorrect. The genetic code's codon-anticodon recognition is entirely a matter of base pairing; this option denies a mechanism that is, in fact, central to how the code is read.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+72
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise a worked example of degeneracy: several codons (CUU/CUC/CUG/CUA) coding for one amino acid (leucine).
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q2, p.15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: B.
+
+---
+
+# Item
+
+## title
+About the genetic code, which of the following is incorrect?
+
+## question
+About the genetic code, which of the following is incorrect?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is non-overlapping
+
+## explanation_a
+This is a true statement about the genetic code, so it is not the answer to an "incorrect" question — each nucleotide belongs to only one codon, read consecutively, never shared between two overlapping codons.
+
+## answer_b
+It has 3 nonsense codons
+
+## explanation_b
+This is a true statement about the genetic code, so it is not the answer to an "incorrect" question — UAA, UAG and UGA are the three stop (nonsense) codons.
+
+## answer_c
+Each amino acid has only one codon
+
+## explanation_c
+Correct — this is the false statement. Most amino acids have several codons (degeneracy), not just one; leucine alone has six. A student who has memorised "one codon, one amino acid" as a rule (true in the codon-to-amino-acid direction) but inverts it into "one amino acid, one codon" picks this option.
+
+## answer_d
+Degeneracy
+
+## explanation_d
+This is a true statement about the genetic code, so it is not the answer to an "incorrect" question — degeneracy (multiple codons per amino acid) is one of the code's defining properties.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify "each amino acid has only one codon" as the false statement, since degeneracy means the reverse: most amino acids have several codons.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q3, p.15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Genetic code is said to be unambiguous because:
+
+## question
+Genetic code is said to be unambiguous because:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is universal in all living organisms
+
+## explanation_a
+Incorrect. Universality (nearly all organisms sharing the code) is a separate property from unambiguity (each codon specifying only one amino acid) — one does not explain the other.
+
+## answer_b
+The same four bases form codons in all living organisms
+
+## explanation_b
+Incorrect. Sharing the same four bases is a fact about the code's alphabet, not about whether any given codon could specify more than one amino acid.
+
+## answer_c
+A codon codes for only one amino acid
+
+## explanation_c
+Correct. Unambiguous means that a given codon always specifies exactly one amino acid, never several — reading a codon never leaves the identity of the amino acid in doubt. This is the mirror image of degeneracy (several codons for one amino acid), which the code does have; unambiguity (one codon for several amino acids) is the property it deliberately lacks, and the two are easy to confuse because they sound like opposites of the same idea.
+
+## answer_d
+Each amino acid is encoded by a single codon
+
+## explanation_d
+Incorrect. This describes the opposite of degeneracy, not unambiguity — and it is also factually false, since most amino acids have more than one codon.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that "unambiguous" means a codon always specifies exactly one amino acid.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q5, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Which of the following is NOT a feature of the genetic code (punctuation)?
+
+## question
+Which of the following is not a feature of the genetic code?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Punctuated
+
+## explanation_a
+Correct — this is the false statement. The genetic code is read continuously, three bases at a time from a fixed starting point, with no punctuation marks or gaps between codons — it is "commaless". A student who assumes there must be some marker between codons (by analogy with word spaces in ordinary language) picks this option.
+
+## answer_b
+Universal
+
+## explanation_b
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — nearly all organisms share the same code.
+
+## answer_c
+Specific
+
+## explanation_c
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — a given codon always specifies one particular amino acid.
+
+## answer_d
+Redundant
+
+## explanation_d
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — most amino acids have more than one codon (degeneracy/redundancy).
+
+## answer_e
+Unidirectional
+
+## explanation_e
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — the code is always read 5' to 3', never the reverse.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the genetic code is read continuously with no punctuation between codons ("commaless"), unlike the other listed properties which all genuinely describe it.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q34, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: A.
+
+---
+
+# Item
+
+## title
+Which of the following is NOT a feature of the genetic code (ambiguity)?
+
+## question
+Which of the following is not a feature of the genetic code?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Triplet
+
+## explanation_a
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — every codon is three nucleotides long.
+
+## answer_b
+Degenerate
+
+## explanation_b
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — most amino acids have more than one codon.
+
+## answer_c
+Non-overlapping
+
+## explanation_c
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — each nucleotide belongs to only one codon.
+
+## answer_d
+Ambiguous
+
+## explanation_d
+Correct — this is the false statement, and it is the property most often tested this way. The genetic code is unambiguous: any given codon always specifies exactly one amino acid. Ambiguity, meaning one codon could specify several different amino acids, is exactly the property the code does not have — a student who confuses this with degeneracy (which does hold, in the opposite direction) picks the wrong side of an otherwise correctly-remembered pair of facts.
+
+## answer_e
+Universal
+
+## explanation_e
+This is a true feature of the genetic code, so it is not the answer to a "not a feature" question — nearly all organisms share it.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that "unambiguous", not "ambiguous", is the true property of the genetic code.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q39, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D. Distinct from Q34 (this same batch) which tests the "non-punctuated" property instead — kept as two separate questions since they catch two different specific misconceptions, per the manual's redundancy guidance.
+
+---
+
+# Item
+
+## title
+In the mitochondrial genetic code, UGA is a codon for:
+
+## question
+In case of the mitochondrial genetic code, UGA is a ________ codon.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Tryptophan
+
+## explanation_a
+Correct. The mitochondrial genetic code is one of the handful of known exceptions to universality: in human mitochondria, UGA is reassigned from a stop codon to a sense codon for tryptophan. This is exactly why the standard genetic code is described as "nearly universal" rather than absolutely universal — mitochondrial DNA, with its own separate translation machinery, is the classic worked exception a question can test.
+
+## answer_b
+Arginine
+
+## explanation_b
+Incorrect. Arginine is not the amino acid reassigned to UGA in the mitochondrial code; this option tests whether the student has actually learned the specific reassignment rather than just recalling that "some amino acid" is involved.
+
+## answer_c
+Proline
+
+## explanation_c
+Incorrect, for the same reason as option B — proline is not the mitochondrial reassignment of UGA.
+
+## answer_d
+Stop
+
+## explanation_d
+Incorrect in the mitochondrial context specifically, even though this is the standard (nuclear) genetic code's answer — the question asks specifically about the mitochondrial code, where UGA has been reassigned away from being a stop codon.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the mitochondrial genetic code reassigns UGA from a stop codon to a sense codon for tryptophan, as an exception to universality.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q40, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: A.
+
+---
+
+# Item
+
+## title
+The genetic code contains how many termination codons?
+
+## question
+The genetic code contains ______ termination codons.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+20
+
+## explanation_a
+Incorrect. 20 is the number of standard amino acids the code encodes, not the number of termination codons.
+
+## answer_b
+64
+
+## explanation_b
+Incorrect. 64 is the total number of possible codons (4^3, from four bases taken three at a time) — the vast majority of which code for amino acids, not termination.
+
+## answer_c
+61
+
+## explanation_c
+Incorrect. 61 is the number of sense codons (64 total minus the 3 stop codons) — this option swaps the sense-codon count for the stop-codon count.
+
+## answer_d
+3
+
+## explanation_d
+Correct. There are exactly three termination (stop/nonsense) codons — UAA, UAG and UGA — none of which specify an amino acid; instead, they signal the ribosome to end translation. Together with the single start codon AUG, these are the "punctuation" of an otherwise comma-less, continuously-read code.
+
+## answer_e
+21
+
+## explanation_e
+Incorrect, and not a standard figure in this teaching — the correct stop-codon count is 3, not 21.
+
+## topic
+Molecular biology
+
+## subtopic
+Genetic code
+
+## main_concept
+CON-FND-A1B0BFB9626438
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the genetic code has exactly 3 termination (stop) codons out of 64 total.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q47, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+All statements about codon-anticodon recognition are correct EXCEPT:
+
+## question
+All the following statements about recognition of a codon on mRNA by an anticodon on tRNA are correct EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The recognition of the third base of the codon is not very precise
+
+## explanation_a
+This is a true statement, so it is not the answer to an "except" question — the wobble position (the codon's third base) pairs more loosely than the first two.
+
+## answer_b
+Non-traditional base pairing of the third base of the codon with the first base of the anticodon can occur
+
+## explanation_b
+This is a true statement, so it is not the answer to an "except" question — this is precisely the wobble hypothesis's mechanism.
+
+## answer_c
+More than one codon can be recognised by an anticodon due to wobble
+
+## explanation_c
+This is a true statement, so it is not the answer to an "except" question — this is exactly what wobble allows, and why the number of tRNA species can be smaller than the number of sense codons.
+
+## answer_d
+Wobble results in incorporation of incorrect amino acids in the protein
+
+## explanation_d
+Correct — this is the false statement. Wobble lets a single tRNA (and its single, correctly-charged amino acid) recognise more than one codon that all specify the *same* amino acid — it does not cause the wrong amino acid to be inserted. A student who thinks "loose pairing" must mean "error-prone" picks this option, missing that the flexibility only ever spans synonym codons.
+
+## topic
+Molecular biology
+
+## subtopic
+Wobble and anticodon pairing
+
+## main_concept
+CON-FND-FB17D0600C8D49
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that wobble lets one tRNA read more than one synonym codon for the same amino acid, without causing mistranslation.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q4, p.15.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+If a tRNA has the sequence 5'-CAU-3', what codon would it recognise (ignore wobble)?
+
+## question
+If a tRNA has the sequence 5'-CAU-3', what codon would it recognise (ignore wobble)?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+5'-AUG-3'
+
+## explanation_a
+Correct. An anticodon pairs with its codon antiparallel and complementary. Read the given anticodon 5'-CAU-3' from its 3' end backward (C, at the 3' end, pairs first): 3'-end C pairs with codon G, middle A pairs with codon U, 5'-end U pairs with codon A — reading the resulting codon bases in the correct 5'-to-3' order gives 5'-AUG-3'. This happens to be the start codon, which is a convenient anchor for remembering that its anticodon is 5'-CAU-3' (the initiator methionyl-tRNA's anticodon).
+
+## answer_b
+5'-ATG-3'
+
+## explanation_b
+Incorrect. This is not a valid RNA sequence — it uses T rather than U, which cannot appear in a codon derived from an RNA anticodon.
+
+## answer_c
+3'-UAC-5'
+
+## explanation_c
+Incorrect. Although this spells the same three letters as the correct answer read backward, a codon must be stated in its standard 5'-to-3' orientation, not 3'-to-5' — writing it the wrong way round names a different (and non-conventional) reading.
+
+## answer_d
+3'-AUG-5'
+
+## explanation_d
+Incorrect, for the same reason as option C — the base sequence is right but the direction it is written in is not the conventional 5'-to-3' orientation codons are always given in.
+
+## answer_e
+5'-AUC-3'
+
+## explanation_e
+Incorrect. This changes the last base from G to C, which does not correctly pair with the anticodon's first (5') base U — a small but real base-pairing error.
+
+## topic
+Molecular biology
+
+## subtopic
+Wobble and anticodon pairing
+
+## main_concept
+CON-FND-FB17D0600C8D49
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+38
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Derive the codon read by a given tRNA anticodon by applying antiparallel, complementary base pairing.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q41, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: A. The anticodon given (5'-CAU-3') is, not coincidentally, the real anticodon of the initiator methionyl-tRNA that reads the AUG start codon.
+
+---
+
+# Item
+
+## title
+Cystic fibrosis is caused by deletion of 3 nucleotides, resulting in loss of which amino acid?
+
+## question
+CF (cystic fibrosis) disease is caused by deletion of 3 nucleotides from the coding region of a gene, resulting in loss of ________ in the protein encoded by that gene.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Tyrosine
+
+## explanation_a
+Incorrect. The amino acid lost in the classic CFTR mutation is phenylalanine, not tyrosine — a related but distinct aromatic amino acid, which is exactly the kind of near-miss this distractor is built to catch.
+
+## answer_b
+Phenylalanine
+
+## explanation_b
+Correct. This describes the most common cystic fibrosis mutation, ΔF508: a deletion of exactly 3 nucleotides (a multiple of three) from the CFTR gene's coding region. Because the deletion is in-frame, it does not shift the reading frame downstream — instead, it simply removes one whole codon, deleting a single phenylalanine residue (the 508th amino acid of the protein) while leaving the rest of the reading frame intact. This is the clearest possible worked example of why "multiple of three" matters: the same size of deletion that would be catastrophic (a frameshift) at one or two bases is comparatively contained at three.
+
+## answer_c
+Glutamine
+
+## explanation_c
+Incorrect. Glutamine is not the amino acid lost in the ΔF508 CFTR mutation.
+
+## answer_d
+Alanine
+
+## explanation_d
+Incorrect. Alanine is not the amino acid lost in the ΔF508 CFTR mutation.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-25E8976EFF0509
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+8
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the classic cystic fibrosis (ΔF508) mutation is an in-frame 3-nucleotide deletion that removes one phenylalanine, not a frameshift.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q6, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: B (phenylalanine — the real ΔF508 CFTR mutation).
+
+---
+
+# Item
+
+## title
+Substitution of a Thymine base by Adenine in DNA is known as:
+
+## question
+Substitution of a Thymine base by Adenine in DNA is known as:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Transposition
+
+## explanation_a
+Incorrect. Transposition describes a mobile genetic element moving to a new location in the genome, an entirely different event from a single base substitution.
+
+## answer_b
+Transition
+
+## explanation_b
+Incorrect. A transition swaps a purine for the other purine or a pyrimidine for the other pyrimidine — thymine (a pyrimidine) being replaced by adenine (a purine) crosses between the two chemical classes, which is not what a transition describes.
+
+## answer_c
+Transversion
+
+## explanation_c
+Correct. Thymine is a pyrimidine and adenine is a purine, so replacing one with the other swaps between the two chemical classes of base — by definition, this is a transversion. Keeping "same class swapped" (transition) separate from "class swapped" (transversion) is the whole point of this classification, independent of whatever functional consequence (silent/missense/nonsense) the substitution goes on to have.
+
+## answer_d
+Frameshift mutation
+
+## explanation_d
+Incorrect. A frameshift results from an insertion or deletion that is not a multiple of three, not from a substitution — this substitution does not change the total number of bases, so the reading frame is unaffected.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-25E8976EFF0509
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Classify a thymine-to-adenine substitution as a transversion, since it swaps a pyrimidine for a purine.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q23, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Substitution of a Guanine base by Adenine in DNA is known as:
+
+## question
+Substitution of a Guanine base by Adenine in DNA is known as:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Transposition
+
+## explanation_a
+Incorrect. Transposition describes a mobile genetic element relocating within the genome, not a single base substitution.
+
+## answer_b
+Transition
+
+## explanation_b
+Correct. Guanine and adenine are both purines, so replacing one with the other stays within the same chemical class of base — by definition, this is a transition. Paired with the previous item (thymine to adenine, a transversion), this pair of questions tests the same transition/transversion axis from both sides: same-class swap versus cross-class swap.
+
+## answer_c
+Transversion
+
+## explanation_c
+Incorrect. A transversion swaps between chemical classes (purine to pyrimidine or vice versa); guanine and adenine are both purines, so this substitution stays within one class and is a transition, not a transversion.
+
+## answer_d
+Frameshift mutation
+
+## explanation_d
+Incorrect. A frameshift comes from an insertion or deletion that is not a multiple of three, not from a base substitution — the total base count here is unchanged.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-25E8976EFF0509
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Classify a guanine-to-adenine substitution as a transition, since it stays within the purine class.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q24, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: B.
+
+---
+
+# Item
+
+## title
+Which one of the following causes a frame-shift mutation?
+
+## question
+Which one of the following causes a frame-shift mutation?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Transition
+
+## explanation_a
+Incorrect. A transition is a base substitution (one base swapped for another of the same class) — the total number of bases is unchanged, so the reading frame is not disturbed.
+
+## answer_b
+Transversion
+
+## explanation_b
+Incorrect, for the same reason as transition — a transversion is also a substitution, not a change in the number of bases, so it cannot shift the reading frame.
+
+## answer_c
+Deletion of one or two bases
+
+## explanation_c
+Correct. A frameshift mutation results specifically from an insertion or deletion whose size is not a multiple of three. Deleting one or two bases shifts every codon boundary downstream of the deletion, scrambling the reading frame for the rest of the message — in contrast to deleting exactly three bases (or a multiple of three), which removes whole codons without disturbing the frame.
+
+## answer_d
+Substitution of purine for pyrimidine
+
+## explanation_d
+Incorrect. This describes a transversion, a type of substitution — substitutions never change the total base count, so they cannot cause a frameshift.
+
+## answer_e
+Substitution of pyrimidine for purine
+
+## explanation_e
+Incorrect, for the same reason as option D — this is also a transversion (the reverse direction), and substitutions of any kind leave the reading frame undisturbed.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-25E8976EFF0509
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that a frameshift results from an insertion or deletion whose size is not a multiple of three, not from any base substitution.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q29, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+A tandem repeat of GCU with an inserted A residue — what type of mutation is this?
+
+## question
+Consider a tandem repeat of the sequence GCU. Now if an insertion of an A residue occurs in the message as follows, what type of mutation has taken place in this case?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Nonsense mutation
+
+## explanation_a
+Incorrect. A nonsense mutation specifically creates a premature stop codon; nothing in inserting a single base into a tandem repeat guarantees that outcome — the defining feature here is the change in reading frame, not the creation of a stop signal.
+
+## answer_b
+Silent mutation
+
+## explanation_b
+Incorrect. A silent mutation is a substitution that happens to code for the same amino acid; inserting an extra base changes the total base count, which a silent mutation never does.
+
+## answer_c
+Frame shift mutation
+
+## explanation_c
+Correct. Inserting a single A residue adds one base — not a multiple of three — into the sequence, which shifts every codon boundary downstream of the insertion point. From that point on, the message is read in a completely different set of triplets than originally intended, which is the defining signature of a frameshift mutation, regardless of whether the original sequence was a tandem repeat or not.
+
+## answer_d
+Stop mutation
+
+## explanation_d
+Incorrect. "Stop mutation" is not a standard mutation-type label in this classification scheme (the equivalent concept is a nonsense mutation, which creates a stop codon) — and an insertion is not, on its own, guaranteed to create one.
+
+## answer_e
+Missense mutation
+
+## explanation_e
+Incorrect. A missense mutation is a substitution that changes one amino acid for another while keeping the reading frame intact; an insertion that is not a multiple of three disrupts the entire downstream reading frame, which is a categorically larger effect than a missense change.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-25E8976EFF0509
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Apply the frameshift rule (insertion/deletion not a multiple of three) to a worked tandem-repeat example.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q43, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C. The source stem references a worked-out inserted sequence the scan did not render legibly; the mutation-type classification (frameshift, from a single non-multiple-of-three insertion) is unambiguous from the stem's own wording and the printed key regardless.
+
+---
+
+# Item
+
+## title
+A truncated protein is produced as a result of:
+
+## question
+A truncated protein is produced as a result of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Silent mutation
+
+## explanation_a
+Incorrect. A silent mutation produces a protein identical to the original — by definition, nothing about the protein changes, let alone becoming truncated.
+
+## answer_b
+Missense mutation
+
+## explanation_b
+Incorrect. A missense mutation changes one amino acid for another but does not introduce a premature stop codon, so the protein is still the full length, just with one substituted residue.
+
+## answer_c
+Nonsense mutation
+
+## explanation_c
+Correct together with option D. A nonsense mutation converts an amino-acid-coding codon into a premature stop codon, so translation halts early and the protein is cut short (truncated) relative to the normal, full-length product.
+
+## answer_d
+Frame-shift mutation (premature termination)
+
+## explanation_d
+Correct together with option C. A frameshift mutation scrambles the reading frame downstream of the insertion or deletion, which very often runs into an out-of-frame stop codon sooner than the normal one would have appeared — producing a truncated (and also usually nonsensical) protein.
+
+## answer_e
+Both C and D
+
+## explanation_e
+Correct. Both a nonsense mutation (a substitution that directly creates a stop codon) and a frameshift mutation (which usually creates a premature stop codon indirectly, by shifting the reading frame) can result in translation terminating early — so both are genuine causes of a truncated protein, and the "both" option is the complete answer.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-4508AC0EA86F86
+
+## concept_ids
+CON-FND-25E8976EFF0509
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that both nonsense and frameshift mutations can produce a truncated protein, by different routes to the same premature stop.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q8, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: E ("both c & d"). Tags CON-FND-25E8976EFF0509 (transition/transversion/frameshift) as a related concept_id alongside the main nonsense/missense/silent concept, since the question genuinely spans both.
+
+---
+
+# Item
+
+## title
+A non-sense mutation is:
+
+## question
+A non-sense mutation is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+A frame-shift mutation
+
+## explanation_a
+Incorrect. A frameshift is a distinct type of mutation (an insertion/deletion not a multiple of three) — a nonsense mutation is a substitution, not a change in the number of bases.
+
+## answer_b
+Silent mutation
+
+## explanation_b
+Incorrect. A silent mutation leaves the protein completely unchanged; a nonsense mutation does the opposite, ending translation early and usually destroying the protein's function.
+
+## answer_c
+A change resulting in a termination codon
+
+## explanation_c
+Correct. A nonsense mutation is a base substitution that converts a codon that used to specify an amino acid into one of the three stop (termination) codons. This causes translation to end prematurely at that point, usually producing a truncated, non-functional protein — thalassaemia, from a premature stop in a globin gene, is the classic clinical example.
+
+## answer_d
+The formation of a codon for a basic instead of an acidic amino acid
+
+## explanation_d
+Incorrect. Swapping a codon for a different amino acid (basic for acidic, or any other pair) describes a missense mutation, not a nonsense mutation.
+
+## answer_e
+The formation of a codon for the same amino acid
+
+## explanation_e
+Incorrect. A codon change that still specifies the same amino acid describes a silent mutation, not a nonsense mutation.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-4508AC0EA86F86
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that a nonsense mutation is a substitution that creates a premature stop (termination) codon.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q9, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Which of the following is the most serious DNA alteration?
+
+## question
+Which of the following is the most serious DNA alteration?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Silent mutation
+
+## explanation_a
+Incorrect, and the least serious option by construction — a silent mutation leaves the encoded protein completely unchanged, since the new codon is a synonym for the same amino acid.
+
+## answer_b
+UV-induced thymine dimer
+
+## explanation_b
+Incorrect as the *most* serious option, though genuinely a real form of damage — a thymine dimer distorts the helix locally and blocks replication/transcription until repaired by nucleotide excision repair, but it is a single, repairable lesion on one strand.
+
+## answer_c
+Spontaneous cytosine deamination
+
+## explanation_c
+Incorrect as the *most* serious option — deamination of cytosine to uracil is a common, low-grade lesion that base excision repair routinely corrects; left unrepaired it causes a single point mutation, not a structural break.
+
+## answer_d
+Radiation-induced double strand break
+
+## explanation_d
+Correct. A double-strand break severs both strands of the DNA duplex at the same location, so there is no intact complementary strand left to use as a template for accurate repair — unlike a single-strand lesion (a dimer, a deaminated base), which can always be repaired using the undamaged opposite strand as a guide. Double-strand breaks are consequently the most dangerous form of DNA damage, prone to misrepair (by error-prone non-homologous end joining) that can cause large deletions, translocations or cell death.
+
+## answer_e
+Two nucleotide insertion in a non-coding sequence
+
+## explanation_e
+Incorrect, and one of the least serious options — an insertion in a non-coding sequence does not disturb any reading frame at all, since no protein-coding codons are affected there.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-4508AC0EA86F86
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Both
+
+## reasoning_level
+3
+
+## inferred_difficulty
+45
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Rank DNA lesions by severity, identifying a double-strand break as the most serious because no intact template strand remains for accurate repair.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q10, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+A silent mutation is most likely to result from:
+
+## question
+A silent mutation is most likely to result from:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Substitution of the first base of a codon
+
+## explanation_a
+Incorrect. The first codon position is one of the two positions (along with the second) that pair strictly and precisely, so a substitution here is far more likely to change the encoded amino acid than to be absorbed silently.
+
+## answer_b
+Substitution of the third base of a codon
+
+## explanation_b
+Correct. The third codon position is the wobble position, where the genetic code's degeneracy is concentrated — many amino acids have several codons that differ only at this third base (for example, all four codons GCU/GCC/GCA/GCG code for alanine). A substitution here very often lands on a synonym codon for the same amino acid, producing no change in the protein at all — a silent mutation.
+
+## answer_c
+Conversion of a non-sense codon into a sense codon
+
+## explanation_c
+Incorrect. Converting a stop codon into a sense codon would add an extra amino acid to a protein that should have terminated there — a real functional change, not a silent one.
+
+## answer_d
+Conversion of a sense codon into a non-sense codon
+
+## explanation_d
+Incorrect. This describes a nonsense mutation, which truncates the protein — the opposite of "no effect".
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-4508AC0EA86F86
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that a silent mutation is most likely to arise from a third-base (wobble-position) substitution, because degeneracy is concentrated there.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q11, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: B.
+
+---
+
+# Item
+
+## title
+A missense mutation is one that:
+
+## question
+A missense mutation is one that:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Adds an additional codon to an RNA transcript
+
+## explanation_a
+Incorrect. Adding an extra codon describes an in-frame insertion, not a missense substitution — a missense mutation does not change the total number of codons.
+
+## answer_b
+Deletes segments of RNA
+
+## explanation_b
+Incorrect. Deleting a segment of RNA is an entirely different kind of event (and, depending on size, could cause a frameshift) — a missense mutation is a single-base substitution, not a deletion.
+
+## answer_c
+Changes an amino acid from one to another
+
+## explanation_c
+Correct. A missense mutation is a base substitution that changes a codon so that it now specifies a different amino acid than before. The functional consequence ranges from harmless to severe depending on which amino acid replaces which — sickle cell anaemia, where glutamate is replaced by valine at position six of the beta-globin chain, is the classic example of a missense mutation with major clinical consequences.
+
+## answer_d
+Creates a premature stop codon
+
+## explanation_d
+Incorrect. Creating a premature stop codon describes a nonsense mutation, not a missense mutation — the two are commonly confused because both are point substitutions, but they differ in exactly what the new codon means.
+
+## topic
+Molecular biology
+
+## subtopic
+Mutation
+
+## main_concept
+CON-FND-4508AC0EA86F86
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+68
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that a missense mutation changes a codon to specify a different amino acid, as in sickle cell anaemia's glutamate-to-valine substitution.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q37, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+AUG, the only identified codon for methionine, is important as:
+
+## question
+AUG, the only identified codon for methionine, is important as:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+A releasing factor for peptide chains
+
+## explanation_a
+Incorrect. A release factor is a protein that recognises a stop codon and triggers release of the finished polypeptide — AUG is a codon, not a protein factor, and it marks initiation, not release.
+
+## answer_b
+A chain-terminating codon
+
+## explanation_b
+Incorrect. The chain-terminating (stop) codons are UAA, UAG and UGA — AUG does the opposite job, starting the chain, not ending it.
+
+## answer_c
+Recognition site on tRNA
+
+## explanation_c
+Incorrect. AUG is a codon on the mRNA; the corresponding recognition element on the initiator tRNA is its anticodon (5'-CAU-3'), not AUG itself.
+
+## answer_d
+A chain-initiating codon
+
+## explanation_d
+Correct. AUG is the near-universal start codon: it is where the ribosome, together with the initiator methionyl-tRNA, begins translation, setting the reading frame for every codon that follows. Its dual role — coding for methionine wherever it appears internally, but marking the actual start point when it is the first AUG encountered by the scanning ribosome — is why it is singled out as "the only identified codon for methionine" that also carries this special initiating significance.
+
+## topic
+Molecular biology
+
+## subtopic
+Translation initiation
+
+## main_concept
+CON-FND-09FACBDCBBF8FD
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that AUG is the chain-initiating (start) codon, recognised by initiator methionyl-tRNA.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q25, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+Which of the following is considered a start codon?
+
+## question
+Which of the following is considered as a start codon?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+GUG
+
+## explanation_a
+Incorrect for the standard (nuclear) genetic code — GUG normally codes for valine; it functions as an alternative start codon only in some bacterial systems, which is beyond this question's scope.
+
+## answer_b
+AGG
+
+## explanation_b
+Incorrect. AGG is a sense codon for arginine, with no start-codon role.
+
+## answer_c
+UAG
+
+## explanation_c
+Incorrect. UAG is one of the three stop (termination) codons — the opposite function from a start codon.
+
+## answer_d
+AUG
+
+## explanation_d
+Correct. AUG is the standard start codon in essentially every mRNA, where the initiator methionyl-tRNA complex assembles to begin translation.
+
+## topic
+Molecular biology
+
+## subtopic
+Translation initiation
+
+## main_concept
+CON-FND-09FACBDCBBF8FD
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+78
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify AUG as the mRNA start codon.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q31, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+Which of the following is considered a non-sense codon?
+
+## question
+Which of the following is considered as a non-sense codon?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+GUG
+
+## explanation_a
+Incorrect. GUG is a sense codon (valine) in the standard code, not a stop codon.
+
+## answer_b
+AGG
+
+## explanation_b
+Incorrect. AGG is a sense codon for arginine, not a stop codon.
+
+## answer_c
+UAG
+
+## explanation_c
+Correct. UAG is one of the three termination (nonsense/stop) codons — UAA, UAG and UGA — which do not code for any amino acid and instead signal the ribosome to end translation.
+
+## answer_d
+AUG
+
+## explanation_d
+Incorrect. AUG is the start codon, marking the beginning of translation — the functional opposite of a stop (nonsense) codon.
+
+## topic
+Molecular biology
+
+## subtopic
+Translation initiation
+
+## main_concept
+CON-FND-09FACBDCBBF8FD
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+78
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify UAG as a stop (nonsense) codon, among sense and start codons.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q32, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Mark the one which is NOT a stop codon.
+
+## question
+Mark the one which is NOT a stop codon.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+UAU
+
+## explanation_a
+Correct — this is the one that is NOT a stop codon. UAU is a sense codon for tyrosine. It looks deceptively similar to the three real stop codons (UAA, UAG, UGA), differing from UAA by only its last letter, which is exactly why it is included among them here — to catch a student pattern-matching on "starts with UA" rather than recalling the exact three stop codons.
+
+## answer_b
+UAG
+
+## explanation_b
+Incorrect as an answer to "NOT a stop codon" — UAG is a genuine stop codon (the "amber" codon).
+
+## answer_c
+UAA
+
+## explanation_c
+Incorrect as an answer to "NOT a stop codon" — UAA is a genuine stop codon (the "ochre" codon).
+
+## answer_d
+UGA
+
+## explanation_d
+Incorrect as an answer to "NOT a stop codon" — UGA is a genuine stop codon (the "opal" codon).
+
+## topic
+Molecular biology
+
+## subtopic
+Translation initiation
+
+## main_concept
+CON-FND-09FACBDCBBF8FD
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Distinguish the three real stop codons (UAA, UAG, UGA) from a look-alike sense codon (UAU, tyrosine).
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Genetic Codes Q33, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: A.

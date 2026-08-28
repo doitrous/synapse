@@ -677,3 +677,148 @@ ASU_Y1=0.4
 university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.6 Q39 (alternative splicing is an economic way to produce many proteins from one gene), p.8 Q75 (TATA box consensus sequence), p.9 Q93 (RNA polymerase II binding to the promoter is enhanced by basal transcription factors), p.9 Q96 (the promoter sits upstream of the coding strand's 5' end).
 
 ---
+
+# Item
+
+## id
+CON-FND-A1B0BFB9626438
+
+## label
+The genetic code is degenerate, unambiguous, non-overlapping and universal, and each codon is exactly three nucleotides long
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Genetic code
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Genetic code
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.15 Q1 (degeneracy definition), Q2 (CUU/CUC/CUG/CUA all Leu, illustrating degeneracy), Q3 (EXCEPT: "each amino acid has only one codon" is the false statement), Q5 (unambiguous because a codon codes for only one amino acid), p.16 Q34 (NOT a feature: "punctuated" — the code is non-overlapping/comma-less), p.19 Q39 (NOT a feature: "ambiguous" — the code is unambiguous), p.20 Q40 (mitochondrial exception: UGA codes for tryptophan, not stop — the "nearly universal" qualifier), Q47 (64 total codons include 3 termination codons).
+
+---
+
+# Item
+
+## id
+CON-FND-FB17D0600C8D49
+
+## label
+Codon and anticodon pair antiparallel, 5' to 3'; the wobble hypothesis explains how one tRNA can still recognise more than one codon because only the first two codon bases pair strictly, while the third is flexible
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Genetic code
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.15 Q4 (EXCEPT: wobble lets one anticodon read more than one codon for the same amino acid, it does not cause incorrect amino acid incorporation), p.19 Q41 (deriving the codon read by a tRNA with anticodon 5'-CAU-3').
+
+---
+
+# Item
+
+## id
+CON-FND-25E8976EFF0509
+
+## label
+Base substitutions are transitions (purine for purine, or pyrimidine for pyrimidine) or transversions (purine for pyrimidine or vice versa); insertions or deletions cause a frameshift only when the number of bases added or removed is not a multiple of three
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mutations
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.16 Q6 (CF: deletion of 3 nucleotides is in-frame, loses one phenylalanine, not a frameshift), p.20 Q23 (T→A substitution is a transversion), Q24 (G→A substitution is a transition), Q29 (frameshift from deletion of one or two bases), p.19 Q43 (worked example: an insertion into a tandem GCU repeat is a frameshift).
+
+---
+
+# Item
+
+## id
+CON-FND-4508AC0EA86F86
+
+## label
+A base substitution in a coding region is nonsense if it creates a stop codon, missense if it changes the amino acid, and silent if the new codon is a synonym
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mutations
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.15 Q8 (truncated protein from nonsense or frameshift), Q9 (nonsense = change resulting in a termination codon), Q10 (most serious DNA alteration, comparative), Q11 (silent mutation most likely from third-base substitution), p.16 Q37 (missense = changes an amino acid from one to another).
+
+---
+
+# Item
+
+## id
+CON-FND-09FACBDCBBF8FD
+
+## label
+AUG is the mRNA start codon in almost every case, and initiation forms a complex with methionyl-tRNA
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Translation
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Genetic code
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.16 Q25 (AUG's importance as the chain-initiating codon), p.17 Q31 (AUG is a start codon), Q32 (UAG is a non-sense/stop codon), Q33 (UAU is NOT a stop codon — the exam-tested exception among the four "UAx/UGA" look-alikes).
+
+---
