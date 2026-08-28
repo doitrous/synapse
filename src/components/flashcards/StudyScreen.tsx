@@ -421,8 +421,8 @@ function StudyToolbar(props: ToolbarProps) {
       {props.hasCardAudio && (
         <>
           <span className="mx-1 h-5 w-px bg-line" aria-hidden />
-          <ToolButton icon={AudioLines} label={t('Replay card audio (R)')} onClick={props.onReplayCardAudio} />
-          <ToolButton icon={Pause} label={t('Pause / resume card audio (P)')} onClick={props.onToggleCardAudio} />
+          <ToolButton icon={AudioLines} label={t('Replay card audio')} onClick={props.onReplayCardAudio} />
+          <ToolButton icon={Pause} label={t('Pause / resume card audio')} onClick={props.onToggleCardAudio} />
         </>
       )}
     </div>

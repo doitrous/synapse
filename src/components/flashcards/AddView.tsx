@@ -10,7 +10,7 @@ import { Tooltip } from '@/components/ui/Tooltip'
 import { Kbd } from '@/components/ui/Kbd'
 import { Field, TextInput, Select } from '@/components/ui/Field'
 import { MediaAttachmentView } from '@/components/ui/MediaAttachmentView'
-import { storeMediaFile, mediaReference } from '@/lib/mediaStorage'
+import { storeMediaFile, mediaReference, removeStoredMedia } from '@/lib/mediaStorage'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { useCommands } from '@/lib/shortcuts/useShortcuts'
@@ -82,6 +82,14 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
   const [extra, setExtra] = useState(editingBasicOrCloze?.type === 'cloze' ? editingBasicOrCloze.fields.extra : '')
   // Optional card audio (a `synapse-media:` reference); shared by Basic and Cloze.
   const [audio, setAudio] = useState<string | undefined>(editingBasicOrCloze?.fields.audio)
+  // The audio the note already owned when editing began — never deleted on a mere
+  // Remove, so Remove-then-Cancel can't orphan the still-referenced blob.
+  const initialAudio = editingBasicOrCloze?.fields.audio
+  // Blobs attached this session. A blob is orphaned only if it is never committed
+  // by a save; deletion is deferred to save (reconcile) and unmount (discard), so
+  // clearing the field is always reversible until the note is actually saved.
+  const sessionBlobs = useRef<Set<string>>(new Set())
+  useEffect(() => () => { sessionBlobs.current.forEach((ref) => { void removeStoredMedia(ref) }) }, [])
 
   const [duplicateAck, setDuplicateAck] = useState(false)
   const [showErrors, setShowErrors] = useState(false)
@@ -162,7 +170,9 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
     const id = `card-audio-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
     try {
       await storeMediaFile(id, file)
-      setAudio(mediaReference(id))
+      const ref = mediaReference(id)
+      sessionBlobs.current.add(ref)
+      setAudio(ref)
     } catch {
       // Storage can be blocked (private mode); leave audio unattached rather than
       // saving a reference that would never resolve at study time.
@@ -179,6 +189,14 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
     const note = buildNote(editNoteId ?? `note-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`)
     if (!note) return
     api.saveNote(note)
+    // The saved note now owns `audio`. Delete any blob attached this session that
+    // wasn't the one saved, and (when editing) the note's previous audio if it
+    // changed — safe now because the change is committed. Stop tracking the saved
+    // blob so unmount never deletes it.
+    const savedAudio = audio
+    sessionBlobs.current.forEach((ref) => { if (ref !== savedAudio) void removeStoredMedia(ref) })
+    sessionBlobs.current = new Set()
+    if (initialAudio && initialAudio !== savedAudio) void removeStoredMedia(initialAudio)
     // Editing is a single save that returns to where it was opened from;
     // "add another" only makes sense while creating.
     if (addAnother && !editingBasicOrCloze) {
