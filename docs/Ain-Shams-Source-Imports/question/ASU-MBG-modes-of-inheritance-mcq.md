@@ -1797,3 +1797,1833 @@ yes
 
 ## author_notes
 Closes the zygosity vocabulary run (Q8-13) with the same fact as Q10, phrased as a fill-in-the-blank rather than a multiple-choice definition — kept as its own record since it is a separately numbered, separately keyed item.
+
+---
+
+# Item
+
+## id
+
+## title
+What an affected-individual-in-every-generation pedigree suggests
+
+## question
+The occurrence of affected individuals in every generation of a family suggests a ________ trait.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+An autosomal dominant
+
+## explanation_a
+Correct. Only one copy of an autosomal dominant allele is needed to produce the phenotype, so every carrier of the allele is affected, and every affected parent has roughly even odds of passing the trait to each child — the result is a vertical pedigree with an affected member in every generation. An autosomal recessive trait, by contrast, needs two copies, so it typically hides in unaffected carrier parents for a generation or more before resurfacing. Seeing an unbroken vertical line of affected individuals is the single strongest pedigree clue for autosomal dominant inheritance.
+
+## answer_b
+An autosomal recessive
+
+## explanation_b
+Incorrect. An autosomal recessive trait usually needs two carrier, clinically unaffected parents, so it typically clusters within one sibship rather than appearing in every generation.
+
+## answer_c
+Either dominant or recessive
+
+## explanation_c
+Incorrect. Only the dominant pattern reliably produces an affected individual in every generation; a recessive trait's hallmark is precisely that it can skip generations through unaffected carriers.
+
+## answer_d
+Sex-linked
+
+## explanation_d
+Incorrect. A sex-linked (X-linked) trait's pedigree hallmark is a sex difference in who is affected, not simply an unbroken run of affected individuals across generations — that specific vertical, every-generation pattern points to an autosomal dominant trait instead.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-398856B4B32D8E
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+65
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise an affected individual in every generation as the pedigree hallmark of autosomal dominant inheritance, distinguishing it from autosomal recessive and sex-linked patterns.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q14, p.45.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+
+## title
+Whether an affected father's children inherit a mitochondrial mutation
+
+## question
+A 22-year-old male reports a mutation in his mitochondrial genome. If the patient has children, which one of the following patterns will occur?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+All of his children will have the disease
+
+## explanation_a
+Incorrect. This describes the pattern for an affected mother, not an affected father — mitochondrial DNA passes through the egg's cytoplasm, which the father does not contribute.
+
+## answer_b
+None of his children will have the disease
+
+## explanation_b
+Correct. Mitochondrial DNA is inherited entirely through the ovum's cytoplasm; a sperm's own mitochondria are not retained in the zygote after fertilisation. Because an affected father's mitochondrial mutation therefore has no route into his children's mitochondrial genome, none of his children — sons or daughters — will inherit or develop the disease. This is the single fact that makes mitochondrial inheritance recognisable on a pedigree: an affected male is always a transmission dead end.
+
+## answer_c
+Only his sons will have the disease
+
+## explanation_c
+Incorrect. Mitochondrial inheritance does not follow either sex chromosome, so there is no mechanism by which only sons specifically would be affected — and in any case, an affected father transmits the mutation to none of his children.
+
+## answer_d
+Only his daughters will have the disease
+
+## explanation_d
+Incorrect. Same reasoning as option C: mitochondrial transmission does not track sex-specific inheritance, and a father transmits no mitochondrial mutation to any child regardless of sex.
+
+## answer_e
+All of his children will be carriers of the disease
+
+## explanation_e
+Incorrect. There is no "carrier" state to transmit here, because the father's mitochondrial mutation is not passed on at all — his children's mitochondria come entirely from their mother.
+
+## topic
+Human genetics
+
+## subtopic
+Mitochondrial inheritance
+
+## main_concept
+CON-FND-2ECC10B655DD47
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Predict that an affected father transmits a mitochondrial mutation to none of his children, because sperm mitochondria are not retained in the zygote.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q15, p.45.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Mirror pair with Q16 (affected mother); both kept as separate records since both are separately numbered, keyed items testing opposite halves of the same rule.
+
+---
+
+# Item
+
+## id
+
+## title
+Whether an affected mother's children inherit a mitochondrial mutation
+
+## question
+A 22-year-old female reports a mutation in her mitochondrial genome. If the patient has children, which one of the following patterns will occur?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+All of her children will have the disease
+
+## explanation_a
+Correct. The egg's cytoplasm, and every mitochondrion within it, becomes the zygote's cytoplasm, so a mother passes her entire mitochondrial genome — mutation included — to every child she has, regardless of sex. Unlike a nuclear (chromosomal) mutation, there is no dilution by a normal paternal contribution, because sperm contribute essentially no mitochondria to the zygote. This is why mitochondrial disease pedigrees show a distinctive maternal line in which every child of an affected woman is affected, while none of an affected man's children are.
+
+## answer_b
+None of her children will have the disease
+
+## explanation_b
+Incorrect. This describes the pattern for an affected father, not an affected mother — a mother's mitochondrial mutation is transmitted to all of her children, not none.
+
+## answer_c
+Only her sons will have the disease
+
+## explanation_c
+Incorrect. Mitochondrial inheritance does not follow sex-chromosome logic, so it cannot selectively affect only sons; an affected mother transmits to children of both sexes equally.
+
+## answer_d
+Only her daughters will have the disease
+
+## explanation_d
+Incorrect. Same reasoning as option C — mitochondrial transmission is sex-independent, so a mother's sons are just as certain to inherit the mutation as her daughters.
+
+## answer_e
+All of her children will be carriers of the disease
+
+## explanation_e
+Incorrect. "Carrier" implies an unexpressed state, but mitochondrial mutations are transmitted directly into every cell of the child, so her children inherit the disease itself, not merely a silent carrier state — whether it manifests clinically depends on the mutation's heteroplasmy level, not on a carrier/affected distinction as in autosomal recessive disease.
+
+## topic
+Human genetics
+
+## subtopic
+Mitochondrial inheritance
+
+## main_concept
+CON-FND-2ECC10B655DD47
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+64
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Predict that an affected mother transmits a mitochondrial mutation to all of her children, regardless of sex.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q16, p.45.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Mirror pair with Q15 (affected father).
+
+---
+
+# Item
+
+## id
+
+## title
+The true general statement about mitochondrial disease transmission
+
+## question
+As regards mitochondrial disease, which of the following statements is true?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Only females are affected
+
+## explanation_a
+Incorrect. Mitochondrial disease can affect males and females equally — what differs by sex is not who can be affected, but who can transmit it: only a mother can pass it on.
+
+## answer_b
+The disease is transmitted from the mother
+
+## explanation_b
+Correct. Mitochondrial DNA is inherited exclusively through the maternal line, because the egg's cytoplasm and its mitochondria form the zygote's cytoplasm, while sperm mitochondria are not retained after fertilisation. This makes mitochondrial disease transmission unique among the patterns in this chapter: it depends entirely on the mother's genotype and not at all on the father's, regardless of which sex is ultimately affected. A pedigree in which only individuals descended through an unbroken maternal line are affected, of either sex, is the classic signature of a mitochondrial disorder.
+
+## answer_c
+The disease is transmitted from both parents
+
+## explanation_c
+Incorrect. Only the mother's mitochondrial genome is transmitted; the father's mitochondria are excluded from the zygote, so he contributes nothing to a child's mitochondrial DNA.
+
+## answer_d
+Only males are affected
+
+## explanation_d
+Incorrect. As with option A, mitochondrial disease is not sex-restricted in who is affected — both sons and daughters of an affected mother inherit the mutation.
+
+## answer_e
+The disease is transmitted from the father
+
+## explanation_e
+Incorrect. This is the opposite of the true mechanism: an affected father transmits a mitochondrial mutation to none of his children, because his sperm's mitochondria do not enter the zygote.
+
+## topic
+Human genetics
+
+## subtopic
+Mitochondrial inheritance
+
+## main_concept
+CON-FND-2ECC10B655DD47
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+72
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that mitochondrial disease is transmitted from the mother alone, and that this is independent of the sex of the affected offspring.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q17, p.45.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Closes the three-question mitochondrial run (Q15-17).
+
+---
+
+# Item
+
+## id
+
+## title
+The mechanism behind Prader-Willi syndrome
+
+## question
+Prader-Willi syndrome is diagnosed. Which of the following best describes the reason for this chromosomal abnormality?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Trinucleotide repeat expansion in coding regions
+
+## explanation_a
+Incorrect. This mechanism explains disorders such as Huntington's disease; Prader-Willi syndrome is caused by loss of the active paternal copy of the chromosome 15q11-13 region, not by a repeat expansion.
+
+## answer_b
+Trinucleotide repeat expansion in non-coding regions
+
+## explanation_b
+Incorrect. Non-coding-region repeat expansions cause disorders such as fragile X syndrome or myotonic dystrophy, not Prader-Willi syndrome, which is an imprinting/deletion mechanism rather than a repeat disorder.
+
+## answer_c
+Paternal gene imprinting in chromosome 15
+
+## explanation_c
+Correct, as printed in the source's own answer key. Only the paternally-inherited copy of the Prader-Willi region on chromosome 15q11-13 is normally active in a healthy individual, because genomic imprinting silences the maternal copy in the germline; losing that active paternal contribution — most often through a deletion of the paternal chromosome 15, or through maternal uniparental disomy — produces Prader-Willi syndrome. The more precise statement of this mechanism is "loss of the active paternal copy," and this option's own wording, "paternal gene imprinting," is the closest of the five to that fact rather than a literal restatement of it. Distinguishing this from Angelman syndrome, which follows the identical logic but for the maternal copy of a nearby gene, is the entire teaching point of this pair of questions.
+
+## answer_d
+Gene imprinting in both chromosome 15 alleles
+
+## explanation_d
+Incorrect. Imprinting silences only one parental copy, not both — if both copies were imprinted (silenced), no active copy would ever exist in anyone, which is not the case.
+
+## answer_e
+Deletion in maternal chromosome 15 alleles
+
+## explanation_e
+Incorrect. A deletion of the maternal chromosome 15 region is the mechanism behind Angelman syndrome, the reciprocal disorder — Prader-Willi syndrome instead follows from loss of the paternal contribution.
+
+## topic
+Human genetics
+
+## subtopic
+Chromosomal disorders
+
+## main_concept
+CON-FND-12961F079B4C89
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.75
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-NON-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Attribute Prader-Willi syndrome to loss of the active paternally-inherited copy of the chromosome 15q11-13 region, and distinguish this from the trinucleotide-repeat and Angelman mechanisms offered as distractors.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q18, p.46.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+The printed key's own wording for option C ("paternal gene imprinting in chromosome 15") is looser than the precise mechanism (loss of the active paternal copy, by deletion or maternal UPD) — recorded as printed per the law of priority; this concept's own definition states the mechanism precisely (see CON-FND-12961F079B4C89's conflicts field).
+
+---
+
+# Item
+
+## id
+
+## title
+The mechanism behind Angelman syndrome
+
+## question
+Angelman syndrome is diagnosed. Which of the following best describes the reason for this chromosomal abnormality?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Trinucleotide repeat expansion in coding regions
+
+## explanation_a
+Incorrect. This mechanism explains Huntington's disease, not Angelman syndrome, which follows a genomic-imprinting and deletion mechanism rather than a repeat expansion.
+
+## answer_b
+Trinucleotide repeat expansion in non-coding regions
+
+## explanation_b
+Incorrect. Non-coding repeat expansions cause disorders such as fragile X syndrome, not Angelman syndrome.
+
+## answer_c
+Paternal gene imprinting in chromosome 15
+
+## explanation_c
+Incorrect. This describes the reciprocal mechanism, associated with Prader-Willi syndrome, in which it is the paternal contribution that is lost — Angelman syndrome instead follows from loss of the maternal contribution.
+
+## answer_d
+Gene imprinting in both chromosome 15 alleles
+
+## explanation_d
+Incorrect. Imprinting silences only one parental copy at a time, not both simultaneously in every individual — an active copy from one parent is always present in health.
+
+## answer_e
+Deletion in maternal chromosome 15 alleles
+
+## explanation_e
+Correct. Angelman syndrome most commonly follows a deletion of the maternally-inherited copy of chromosome 15q11-13, which removes the only normally active copy of the UBE3A gene in that region — the paternal copy of UBE3A is itself imprinted (silenced) in the brain, so its presence cannot compensate for the lost maternal copy. This is the reciprocal disorder to Prader-Willi syndrome, and the two are distinguished entirely by which parent's chromosome 15 contribution was lost. The pairing of this question with Q18 is deliberately testing whether a student holds the paternal-versus-maternal distinction rather than just recognising "chromosome 15" as the shared answer.
+
+## topic
+Human genetics
+
+## subtopic
+Chromosomal disorders
+
+## main_concept
+CON-FND-12961F079B4C89
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.75
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-NON-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Attribute Angelman syndrome to loss of the active maternally-inherited copy of the chromosome 15q11-13 region (specifically UBE3A), completing the paternal/maternal contrast begun in Q18.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q19, p.46.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+Paired with Q18; same five options, opposite key.
+
+---
+
+# Item
+
+## id
+
+## title
+The mechanism behind the chromosomal abnormality in Huntington disease
+
+## question
+Huntington disease is diagnosed. Which of the following best describes the reason for this chromosomal abnormality?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Trinucleotide repeat expansion in coding regions
+
+## explanation_a
+Correct. Huntington's disease is caused by an expanded CAG trinucleotide repeat within the coding region of the HTT gene, translated into an abnormally long polyglutamine tract in the huntingtin protein. Because the repeat lies in the coding region rather than a non-coding region, the mutant protein itself is produced and causes disease through a toxic gain-of-function mechanism, rather than through a regulatory or splicing disturbance as some non-coding repeat disorders do. This coding-versus-non-coding distinction is exactly what separates Huntington's disease from the other trinucleotide repeat disorders taught alongside it, and from the two imprinting disorders offered as distractors here.
+
+## answer_b
+Trinucleotide repeat expansion in non-coding regions
+
+## explanation_b
+Incorrect. Huntington's disease's CAG repeat sits within the coding region of HTT, not a non-coding region — this distractor catches a student who recalls "trinucleotide repeat" correctly but not which region it occupies.
+
+## answer_c
+Paternal gene imprinting in chromosome 15
+
+## explanation_c
+Incorrect. This is the Prader-Willi mechanism, unrelated to Huntington's disease, which involves chromosome 4, not chromosome 15, and a repeat expansion rather than imprinting.
+
+## answer_d
+Gene imprinting in both chromosome 15 alleles
+
+## explanation_d
+Incorrect. Huntington's disease has no genomic-imprinting mechanism and is not located on chromosome 15.
+
+## answer_e
+Deletion in maternal chromosome 15 alleles
+
+## explanation_e
+Incorrect. This is the Angelman syndrome mechanism; Huntington's disease involves an expanded CAG repeat on chromosome 4, not a chromosome 15 deletion.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-A385468E42B123
+
+## concept_ids
+CON-FND-398856B4B32D8E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-NON-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify Huntington's disease as a coding-region trinucleotide (CAG) repeat expansion disorder, distinguishing this from non-coding repeat disorders and from the two imprinting mechanisms offered as distractors.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q20, p.46.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Same five-option template as Q18/Q19, now testing whether a student can also rule out the imprinting mechanisms when the correct answer is a repeat expansion. concept_ids names the AD pattern concept since Huntington's disease is itself transmitted as autosomal dominant.
+
+---
+
+# Item
+
+## id
+
+## title
+Why hemophilia and Duchenne muscular dystrophy are far more common in males
+
+## question
+Haemophilia and Duchenne muscular dystrophy are more commonly seen in human males than in human females because:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The disease is due to an X-linked dominant mutation
+
+## explanation_a
+Incorrect. An X-linked dominant condition would affect heterozygous females just as it affects hemizygous males (often more severely in males), so it would not produce the marked male excess these two diseases actually show.
+
+## answer_b
+The disease is due to an autosomal-linked dominant mutation
+
+## explanation_b
+Incorrect. An autosomal dominant mutation affects males and females equally, since autosomes are present in the same number in both sexes — this cannot explain a male excess.
+
+## answer_c
+The disease is due to a Y-linked recessive mutation
+
+## explanation_c
+Incorrect. A Y-linked condition would affect only males, never females at all, and would also be transmitted from every affected father to every son without exception — neither hemophilia nor DMD follows this pattern.
+
+## answer_d
+The disease is due to an X-linked recessive mutation
+
+## explanation_d
+Correct. A male has only one X chromosome, so a single copy of an X-linked recessive mutant allele is enough to produce the disease, with no second, normal X copy available to mask it. A female, with two X chromosomes, would need the same mutant allele on both copies to be affected — a much rarer event — so most female carriers remain clinically unaffected while transmitting the allele to their sons. This single-dose-in-males-versus-two-doses-needed-in-females logic is exactly why X-linked recessive diseases like haemophilia and Duchenne muscular dystrophy are seen overwhelmingly in males.
+
+## answer_e
+A greater proportion of girls die in infancy
+
+## explanation_e
+Incorrect. There is no basis for this claim, and it does not address the actual genetic mechanism — the true explanation is the X-linked recessive dosage difference between males and females, not a difference in infant mortality.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-592065F09E7EC8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Explain the male excess in X-linked recessive disease as a consequence of males having only one X chromosome, with no second copy to mask a recessive allele.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q21, p.46.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+
+## title
+Recurrence risk for a beta-thalassaemia carrier-by-carrier couple
+
+## question
+A 5-year-old girl has beta-thalassaemia. Her family history shows that both of her parents are clinically unaffected. Her father asks about the probability of having another child with the same disease. The answer could be:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+75% of the offspring will be normal
+
+## explanation_a
+Incorrect. This overstates the unaffected fraction: 75% of offspring are clinically well overall (25% homozygous-normal plus 50% carriers), but only 25% are homozygous-normal with no mutant allele at all, and this option's wording does not match the correct 25% affected figure the question is really asking for.
+
+## answer_b
+75% of the offspring could have the same disease
+
+## explanation_b
+Incorrect. This dramatically overstates the recessive recurrence risk — 75% would be the figure for an autosomal dominant mating with one affected and one unaffected parent, not for two unaffected carrier parents.
+
+## answer_c
+25% of the offspring could have the same disease
+
+## explanation_c
+Correct. Since the child is affected but both parents are clinically unaffected, both parents must be heterozygous carriers of the beta-thalassaemia allele — the classic autosomal recessive pattern. A carrier-by-carrier mating produces, on average, a 1:2:1 ratio of homozygous-normal : carrier : homozygous-affected offspring, so each future pregnancy carries an independent 25% risk of another affected child. This is the same 25% figure tested generically in Q34 of this chapter, applied here to a specific, named disease.
+
+## answer_d
+100% of the offspring will be healthy
+
+## explanation_d
+Incorrect. This ignores the recurrence risk entirely — since both parents are established carriers (having already had one affected child), every future pregnancy still carries a real, non-zero risk of another affected child.
+
+## answer_e
+50% of the offspring could have the same disease
+
+## explanation_e
+Incorrect. 50% is the risk figure for an autosomal dominant mating (one affected, one unaffected parent) or for the carrier fraction in an autosomal recessive mating, not for the affected fraction in a recessive carrier-by-carrier cross.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-87B8D24E724816
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Clinical
+
+## reasoning_level
+3
+
+## inferred_difficulty
+45
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Apply the autosomal recessive 25% recurrence-risk rule to a worked clinical vignette, after first recognising that an affected child of two unaffected parents implies both parents are carriers.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q22, p.46.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+100
+
+## randomise_answers
+yes
+
+## author_notes
+Clinical vignette applying the same 25% fact this chapter states generically at Q34; contextual disease (beta-thalassaemia) named for realism but no separate thalassaemia concept exists in this lane's scope, so main_concept is the general AR-pattern concept the vignette actually tests.
+
+---
+
+# Item
+
+## id
+
+## title
+Naming the pattern where an affected father's daughters, but not sons, inherit the disease itself
+
+## question
+If the father in a family has a disease while the mother is unaffected, and only the daughters — not the sons — inherit this disease, what type of inheritance is this?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Autosomal recessive
+
+## explanation_a
+Incorrect. An autosomal recessive disease does not show a strict father-to-daughters-only pattern; it depends on both parents' carrier status, not on the sex of the affected parent, and typically needs both parents to be carriers regardless of sex.
+
+## answer_b
+Autosomal dominant
+
+## explanation_b
+Incorrect. Autosomal dominant inheritance does not distinguish transmission by the child's sex — an affected father would be equally likely to transmit an autosomal dominant condition to sons and daughters, not to daughters exclusively.
+
+## answer_c
+X-linked recessive
+
+## explanation_c
+Incorrect. In X-linked recessive inheritance, an affected father's daughters become carriers, not affected individuals, since they need a second mutant allele from their mother to be affected themselves — this stem specifies the daughters are actually affected, ruling out the recessive pattern.
+
+## answer_d
+X-linked dominant
+
+## explanation_d
+Correct. In X-linked dominant inheritance, an affected father passes his single mutant X allele to every daughter (who all receive his X), and because only one copy is needed to produce the phenotype, every one of those daughters is affected, not merely a carrier. None of his sons receive his X chromosome — they receive his Y instead — so no son is affected. This exact "all daughters affected, no sons affected" pattern from an affected father is the signature that separates X-linked dominant from every other pattern in this chapter.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-70936F91A4C8E5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify X-linked dominant inheritance from an affected father transmitting the disease itself, rather than carrier status, to all of his daughters and none of his sons.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q23, p.46.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Paired with Q24, which asks the identical structural question but for carrier daughters rather than affected daughters, isolating XLD from XLR.
+
+---
+
+# Item
+
+## id
+
+## title
+Naming the pattern where an affected father's daughters, but not sons, become carriers
+
+## question
+If the father in a family has a disease while the mother is unaffected, and only the daughters — not the sons — become carriers of this disease, what type of inheritance is this?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Autosomal recessive
+
+## explanation_a
+Incorrect. Autosomal recessive carrier status does not depend on the sex of the affected parent or the sex of the child in this clean, sex-restricted way; carrier status in AR inheritance is not confined to one sex.
+
+## answer_b
+Autosomal dominant
+
+## explanation_b
+Incorrect. Autosomal dominant inheritance does not produce a carrier state distinct from being affected in the way this stem describes, and it does not distinguish transmission by the child's sex.
+
+## answer_c
+X-linked recessive
+
+## explanation_c
+Correct. An affected father passes his single mutant X allele to every daughter, since daughters receive his X chromosome; because a second, normal X allele from the unaffected mother is very likely present, each daughter becomes a carrier rather than being affected herself. None of his sons receive his X chromosome at all — they receive his Y instead — so no son is affected or a carrier. This "all daughters carriers, no sons affected" pattern from an affected father is the classic signature of X-linked recessive inheritance, and contrasting it with Q23's X-linked dominant pattern (all daughters affected) is the entire point of pairing these two questions.
+
+## answer_d
+X-linked dominant
+
+## explanation_d
+Incorrect. In X-linked dominant inheritance, an affected father's daughters would themselves be affected, not merely carriers, since only one copy of a dominant allele is needed to produce the phenotype.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-592065F09E7EC8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify X-linked recessive inheritance from an affected father transmitting carrier status, rather than the disease itself, to all of his daughters and none of his sons.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q24, p.46.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Paired with Q23; identical stem structure, contrasting "affected" versus "carrier" daughters to isolate X-linked dominant from X-linked recessive.
+
+---
+
+# Item
+
+## id
+
+## title
+Identifying the X-linked recessive trait among four inherited conditions
+
+## question
+Which of the following is a trait of X-linked recessive inheritance?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Achondroplasia, osteogenesis imperfecta and Marfan syndrome
+
+## explanation_a
+Incorrect. These three conditions are all autosomal dominant, not X-linked recessive — they are the standard teaching set for autosomal dominant disease precisely because each can appear from a single mutant copy on an autosome.
+
+## answer_b
+Beta-thalassaemia and cystic fibrosis
+
+## explanation_b
+Incorrect. Both of these are autosomal recessive conditions, requiring two mutant copies on an autosome, not an X-linked recessive pattern.
+
+## answer_c
+Hypophosphataemic rickets
+
+## explanation_c
+Incorrect. X-linked hypophosphataemic rickets is the standard teaching example of X-linked dominant inheritance, not X-linked recessive — this distractor catches a student who remembers "X-linked" but not which dominance pattern it follows.
+
+## answer_d
+Duchenne muscular dystrophy
+
+## explanation_d
+Correct. Duchenne muscular dystrophy is caused by mutation of the dystrophin gene on the X chromosome and follows classic X-linked recessive inheritance: it affects males almost exclusively, since a male's single X allele is unopposed, while carrier females are typically unaffected or only mildly affected. Alongside haemophilia, it is the standard teaching example examiners reach for whenever they want a concrete disease to represent this pattern. Recognising it here, rather than the autosomal dominant or autosomal recessive examples in the other options, is what this whole run of "which trait belongs to which pattern" questions (Q25-28) is testing.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-592065F09E7EC8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name Duchenne muscular dystrophy as the classic X-linked recessive disease example, distinguishing it from the autosomal dominant, autosomal recessive and X-linked dominant examples offered as distractors.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q25, p.47.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+First of a four-question "which trait belongs to which pattern" run (Q25-28) sharing the same four disease-group options in rotating correct position; each authored as its own record since each carries its own printed key.
+
+---
+
+# Item
+
+## id
+
+## title
+Identifying the X-linked dominant trait among four inherited conditions
+
+## question
+Which of the following is a trait of X-linked dominant inheritance?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Achondroplasia, osteogenesis imperfecta and Marfan syndrome
+
+## explanation_a
+Incorrect. These are the standard autosomal dominant disease examples, not X-linked dominant — each is caused by a single mutant allele on an autosome, not the X chromosome.
+
+## answer_b
+Beta-thalassaemia and cystic fibrosis
+
+## explanation_b
+Incorrect. Both are autosomal recessive conditions, unrelated to the X chromosome or to dominant inheritance.
+
+## answer_c
+Hypophosphataemic rickets
+
+## explanation_c
+Correct. X-linked hypophosphataemic rickets is the standard teaching example of X-linked dominant inheritance: the responsible gene (PHEX) sits on the X chromosome, and a single mutant copy is enough to cause disease in either sex, so an affected father transmits the condition to all of his daughters and none of his sons, while an affected mother transmits it to about half of her children of either sex. It is deliberately paired against X-linked recessive Duchenne muscular dystrophy in this run of questions, since both are "X-linked" but the dominance pattern completely changes who is affected. Confusing the two is the single most common error this pair of questions is designed to catch.
+
+## answer_d
+Duchenne muscular dystrophy
+
+## explanation_d
+Incorrect. Duchenne muscular dystrophy is the standard example of X-linked recessive inheritance, not X-linked dominant — this distractor catches a student who remembers "X-linked" but assigns the wrong dominance pattern to it.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-70936F91A4C8E5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Name X-linked hypophosphataemic rickets as the classic X-linked dominant disease example, distinguishing it from X-linked recessive Duchenne muscular dystrophy and the two autosomal examples.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q26, p.47.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Same four options as Q25, rotated correct answer.
