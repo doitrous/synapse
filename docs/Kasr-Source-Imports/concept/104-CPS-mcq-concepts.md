@@ -9,6 +9,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 2 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -947,6 +948,24 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-D3D1AF25EFA406
+## label
+Diffusion is the dominant mechanism of capillary exchange and depends on capillary permeability type and concentration gradient, while vesicular transport carries large lipid-insoluble molecules across the endothelium
+## canonical_key
+capillary-exchange.diffusion-permeability-and-vesicular-transport
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## field_notes
+canonical_key "capillary-exchange.diffusion-permeability-and-vesicular-transport" already has a pinned id in this module (CON-CVS-D3D1AF25EFA406); mintConceptId derives the same id fresh (CON-CVS-D3D1AF25EFA406) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

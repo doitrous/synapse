@@ -9,6 +9,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 2 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -4884,6 +4885,190 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-8BAE61B1B783
+## title
+Regarding the blood vessels: 1 |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the blood vessels: 1 |
+## answer_a
+Blood cells can freely pass the wall of continuous capillary
+## explanation_a
+Continuous capillaries are the least permeable type; their tightly joined, unbroken endothelium does not let blood cells cross freely.
+## answer_b
+Internal elastic lamina limits tunica adventitia from tunica media. [
+## explanation_b
+This reverses the actual boundary: it is the internal elastic lamina that separates the tunica intima from the tunica media, not the tunica adventitia from the media.
+## answer_c
+External elastic lamina limits tunica intima from tunica media
+## explanation_c
+This also reverses the actual boundary: it is the external elastic lamina that separates the tunica media from the tunica adventitia, not the tunica intima from the media.
+## answer_d
+Blood plasma can freely pass the wall of sinusoidal capillary
+## explanation_d
+Discontinuous (sinusoidal) capillaries have large gaps between endothelial cells and a discontinuous basement membrane, letting blood plasma pass freely across the wall — the most permeable capillary type. A common trap: treating all capillaries as equally permeable, or assuming any capillary lets blood cells cross freely.
+
+Why this is right:
+- Capillary permeability increases across the sequence continuous capillaries (lowest permeability), fenestrated capillaries, and discontinuous capillaries (highest permeability).
+## correct_answer
+D
+## main_concept
+CON-CVS-D3D1AF25EFA406
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Cardiovascular
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that blood plasma, not blood cells, can freely cross a sinusoidal (discontinuous) capillary wall, unlike a continuous capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p2 q15. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4FB1BFC2BD65
+## title
+Regarding the blood vessels:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the blood vessels:
+## answer_a
+Blood cells can freely pass the wall of continuous capillary
+## explanation_a
+Continuous capillaries are the least permeable type; their tightly joined, unbroken endothelium does not let blood cells cross freely.
+## answer_b
+Internal elastic lamina limits tunica adventitia from tunica media
+## explanation_b
+This reverses the actual boundary: it is the internal elastic lamina that separates the tunica intima from the tunica media, not the tunica adventitia from the media.
+## answer_c
+External elastic lamina limits tunica intima from tunica media
+## explanation_c
+This also reverses the actual boundary: it is the external elastic lamina that separates the tunica media from the tunica adventitia, not the tunica intima from the media.
+## answer_d
+Blood plasma can freely pass the wall of sinusoidal capillary
+## explanation_d
+Discontinuous (sinusoidal) capillaries have large gaps between endothelial cells and a discontinuous basement membrane, letting blood plasma pass freely across the wall — the most permeable capillary type. A common trap: treating all capillaries as equally permeable, or assuming any capillary lets blood cells cross freely.
+
+Why this is right:
+- Capillary permeability increases across the sequence continuous capillaries (lowest permeability), fenestrated capillaries, and discontinuous capillaries (highest permeability).
+## correct_answer
+D
+## main_concept
+CON-CVS-D3D1AF25EFA406
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Cardiovascular
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that blood plasma, not blood cells, can freely cross a sinusoidal (discontinuous) capillary wall, unlike a continuous capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p2 q15. Manifest src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+3 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
 
