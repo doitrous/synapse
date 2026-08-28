@@ -4160,3 +4160,2089 @@ yes
 
 ## author_notes
 Overlaid onto the new energetics concept (CON-FND-E8FDAF79A38797) minted this pass.
+
+---
+
+# Item
+
+## id
+
+## title
+What ribosomes are actually made of
+
+## question
+Which of the following statements about ribosomes is true?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+They are an integral part of transcription
+
+## explanation_a
+Incorrect. Ribosomes are the machinery of translation, occurring in the cytoplasm — transcription is a separate, nuclear (in eukaryotes) process carried out by RNA polymerase, with no ribosome involvement.
+
+## answer_b
+They are composed of proteins and rRNA
+
+## explanation_b
+Correct. A ribosome is a ribonucleoprotein particle built from ribosomal RNA (rRNA) and ribosomal proteins — never DNA — assembled as two subunits of unequal size (40S and 60S in eukaryotes, 30S and 50S in prokaryotes) that join together only during active translation. Its rRNA is made in the nucleolus and its proteins in the cytoplasm, and the two only unite into complete subunits before returning to the cytoplasm to do the actual work of translation.
+
+## answer_c
+They are bound together so tightly they cannot dissociate
+
+## explanation_c
+Incorrect. The two ribosomal subunits are entirely capable of dissociating — in fact they do so routinely between rounds of translation, joining together only when translation is actively occurring on an mRNA.
+
+## answer_d
+They are composed of RNA, DNA, and protein
+
+## explanation_d
+Incorrect. Ribosomes contain RNA and protein, but never DNA — DNA remains in the nucleus (or in mitochondria/chloroplasts) and plays no structural role in the ribosome itself.
+
+## answer_e
+They are composed of three subunits of unequal size
+
+## explanation_e
+Incorrect. A ribosome has two subunits, not three — a small and a large subunit that join to form the complete (70S or 80S) ribosome.
+
+## topic
+Human genetics
+
+## subtopic
+Ribosome structure and polysomes
+
+## main_concept
+CON-FND-4284C6B8667CD6
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+40
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that ribosomes are non-membranous particles of rRNA and protein, assembled as two (not three) unequal subunits.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q31, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's histology ribosome-structure concept (CON-FND-4284C6B8667CD6) — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+What catalyses the release of the finished polypeptide
+
+## question
+The hydrolytic step leading to the release of a polypeptide chain from a ribosome is catalyzed by
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Stop codons
+
+## explanation_a
+Incorrect. A stop codon triggers termination by being recognised (via a release factor) rather than a tRNA, but the codon itself has no catalytic activity — it does not perform the hydrolysis.
+
+## answer_b
+Peptidyl transferase
+
+## explanation_b
+Correct. When a release factor occupies the A site in place of an aminoacyl-tRNA (because no tRNA recognises a stop codon), it triggers peptidyl transferase — the same ribozyme that formed every peptide bond during elongation — to catalyse hydrolysis of the bond linking the finished polypeptide to the last tRNA, releasing the completed protein. In this final act, peptidyl transferase uses a water molecule instead of an incoming amino acid's amino group as the nucleophile, which is why the reaction is a hydrolysis rather than another peptide-bond-forming step.
+
+## answer_c
+Eukaryotic elongation factors
+
+## explanation_c
+Incorrect. Elongation factors (such as eEF-2) drive translocation during elongation, not the hydrolytic release step at termination, which is peptidyl transferase's role.
+
+## answer_d
+Dissociation of ribosomes
+
+## explanation_d
+Incorrect. Ribosomal subunit dissociation happens after the polypeptide has already been released — it is a downstream consequence of termination, not the hydrolytic step itself.
+
+## answer_e
+UAA
+
+## explanation_e
+Incorrect. UAA is one of the three stop codons that signals termination by entering the A site, but like any codon it has no catalytic activity of its own — it triggers release factor binding, which in turn triggers peptidyl transferase.
+
+## topic
+Human genetics
+
+## subtopic
+Translation termination
+
+## main_concept
+CON-FND-38857DFD506559
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that peptidyl transferase catalyses the hydrolytic release of the finished polypeptide at termination.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q32, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Alexandria's termination concept (CON-FND-38857DFD506559) — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+Putting the steps of protein synthesis in order
+
+## question
+What is the correct order of the following steps in protein synthesis? 1. A peptide bond is formed. 2. The small ribosomal subunit binds to messenger RNA, and initiator aminoacyl-tRNA. 3. The intact ribosome moves forward three bases to read a new codon. 4. The small ribosomal subunit binds with the large ribosomal subunit. 5. New aminoacyl-tRNA binds to the A site.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+1, 2, 5, 4, 3
+
+## explanation_a
+Incorrect. This places peptide bond formation (step 1) before the small subunit has even bound mRNA and the initiator tRNA (step 2) — initiation must happen before any peptide bond can form.
+
+## answer_b
+2, 3, 4, 5, 1
+
+## explanation_b
+Incorrect. This places translocation (step 3) before the large subunit has even joined the small subunit (step 4), which is impossible — translocation is an elongation-cycle event that can only occur once a complete, joined ribosome exists.
+
+## answer_c
+4, 5, 1, 2, 3
+
+## explanation_c
+Incorrect. This places large-small subunit joining (step 4) before the small subunit has bound mRNA and the initiator tRNA (step 2) — the small subunit must first engage the mRNA before the large subunit can join to complete initiation.
+
+## answer_d
+3, 2, 4, 5, 1
+
+## explanation_d
+Incorrect. This places translocation (step 3) as the very first event, before initiation (step 2) has even occurred — translocation cannot happen before a ribosome exists on the mRNA at all.
+
+## answer_e
+2, 4, 5, 1, 3
+
+## explanation_e
+Correct. Initiation comes first: the small ribosomal subunit binds mRNA together with the initiator aminoacyl-tRNA (step 2), then the large subunit joins to complete the ribosome (step 4). Elongation then cycles through the remaining three steps in order: a new aminoacyl-tRNA binds the A site (step 5), a peptide bond forms between it and the growing chain (step 1), and the ribosome translocates three bases to read the next codon (step 3) — after which steps 5, 1 and 3 repeat for every subsequent amino acid.
+
+## topic
+Human genetics
+
+## subtopic
+Translation elongation cycle
+
+## main_concept
+CON-FND-9A1437CD0A382C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Application
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+68
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Order the steps of protein synthesis: small-subunit/mRNA/initiator-tRNA binding, large-subunit joining, then the elongation cycle of A-site binding, peptide bond formation and translocation.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q33, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's elongation-cycle concept (CON-FND-9A1437CD0A382C) — reused, no new concept minted. Ordering question combining initiation and elongation steps.
+
+---
+
+# Item
+
+## id
+
+## title
+What protein synthesis does NOT require
+
+## question
+Which of the following is NOT a requirement for protein synthesis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ribosome
+
+## explanation_a
+Incorrect as the answer to this NOT question — a ribosome is required. It is the machinery that brings mRNA, tRNAs and peptidyl transferase activity together to synthesise the polypeptide.
+
+## answer_b
+Amino acyl tRNA synthetase
+
+## explanation_b
+Incorrect as the answer to this NOT question — aminoacyl-tRNA synthetase is required. It is what activates and charges each amino acid onto its matching tRNA before that tRNA can participate in translation.
+
+## answer_c
+Spliceosome
+
+## explanation_c
+Correct. The spliceosome is a nuclear machine that removes introns from pre-mRNA during splicing — a pre-translation, RNA-processing event, not a component of the translation machinery itself. Protein synthesis proper needs the three RNA classes, activated amino acids, ATP/GTP and various protein factors, but has no direct use for the spliceosome.
+
+## answer_d
+Peptidyl transferase.
+
+## explanation_d
+Incorrect as the answer to this NOT question — peptidyl transferase is required. It is the ribozyme that actually catalyses every peptide bond formed during translation.
+
+## topic
+Human genetics
+
+## subtopic
+Translation requirements and tRNA charging
+
+## main_concept
+CON-FND-89278C7DEE1C9C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise that the spliceosome belongs to nuclear pre-mRNA splicing, not to the translation machinery.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q34, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's translation-requirements concept (CON-FND-89278C7DEE1C9C), whose own pitfalls field explicitly names the spliceosome as the excluded item this question tests — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+How the eukaryotic ribosome is recruited to mRNA
+
+## question
+Eukaryotic ribosome is recruited to the mRNA by
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Randomly
+
+## explanation_a
+Incorrect. Ribosome recruitment is a specific, factor-guided process, not a random event — it depends on recognising a defined feature of the mRNA.
+
+## answer_b
+Shine – Dalgarno sequence
+
+## explanation_b
+Incorrect. The Shine-Dalgarno sequence is the prokaryotic mechanism, recognised by 16S rRNA of the 30S subunit — eukaryotic mRNA has no Shine-Dalgarno sequence, and eukaryotic ribosomes use a different mechanism entirely.
+
+## answer_c
+5' capping
+
+## explanation_c
+Correct. Eukaryotic ribosome recruitment depends on the 7-methylguanosine cap added to the mRNA's 5' end during processing: cap-binding initiation factors recruit the 40S subunit to the capped end, which then scans downstream to locate the AUG start codon. This is why an uncapped eukaryotic mRNA translates far less efficiently — without a cap, the normal recruitment pathway has nothing to bind.
+
+## answer_d
+3' tailing.
+
+## explanation_d
+Incorrect. The poly-A tail at the mRNA's 3' end contributes to mRNA stability and (via interactions with poly-A-binding protein) can enhance translation efficiency, but the ribosome is recruited at the 5' cap, not at the 3' tail.
+
+## topic
+Human genetics
+
+## subtopic
+Eukaryotic translation initiation
+
+## main_concept
+CON-FND-CC6BAFEE04D3F8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that eukaryotic ribosome recruitment to mRNA depends on the 5' cap, contrasting with the prokaryotic Shine-Dalgarno mechanism.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q35, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's eukaryotic-initiation concept (CON-FND-CC6BAFEE04D3F8) — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+How many aminoacyl-tRNA synthetases exist in a cell
+
+## question
+How many tRNA synthetases are found in a cell?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+64
+
+## explanation_a
+Incorrect. Sixty-four is the number of possible codons (4^3) in the genetic code, not the number of aminoacyl-tRNA synthetases — a common point of confusion between two different "counting" facts in this chapter.
+
+## answer_b
+32
+
+## explanation_b
+Incorrect. Thirty-two does not correspond to any standard count relevant here — the number of distinct amino acids used in standard protein synthesis is 20, and there is one synthetase per amino acid.
+
+## answer_c
+10
+
+## explanation_c
+Incorrect. Ten undercounts by half — there are 20 standard amino acids, each requiring its own dedicated synthetase.
+
+## answer_d
+20
+
+## explanation_d
+Correct. There are 20 different aminoacyl-tRNA synthetases in a cell, one for each of the 20 standard amino acids, each recognising both its one amino acid and its one matching tRNA (or family of isoacceptor tRNAs) with high specificity. This one-synthetase-per-amino-acid arrangement is exactly what gives translation its fidelity, since an error at this charging step would otherwise be invisible to every later step of decoding.
+
+## topic
+Human genetics
+
+## subtopic
+Translation requirements and tRNA charging
+
+## main_concept
+CON-FND-89278C7DEE1C9C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+38
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that there are 20 aminoacyl-tRNA synthetases, one per standard amino acid.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q36, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's translation-requirements concept (CON-FND-89278C7DEE1C9C), which states the 20-synthetase fact — reused, no new concept minted.
+
+---
+
+# Item
+
+## id
+
+## title
+How many charged tRNAs are used at once in the elongation cycle
+
+## question
+How many charged tRNA substrate is used for the polypeptide formation at a time?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+1
+
+## explanation_a
+Incorrect. A single charged tRNA is not enough — peptide bond formation is a reaction between two tRNA-bound species, the growing chain in the P site and the incoming amino acid in the A site.
+
+## answer_b
+2
+
+## explanation_b
+Correct. At any instant during elongation, two charged tRNAs are simultaneously present and participating: the peptidyl-tRNA in the P site (carrying the growing chain) and the aminoacyl-tRNA in the A site (carrying the next amino acid) — peptidyl transferase forms the new peptide bond directly between these two. Immediately after that bond forms, translocation moves them along by one site each, so the "two active tRNAs" relationship is maintained cycle after cycle throughout elongation.
+
+## answer_c
+3
+
+## explanation_c
+Incorrect. Although the ribosome has a third (E) site, the tRNA there is deacylated (already spent, no longer "charged" with an amino acid) and is on its way out — only two tRNAs are actively charged and participating in the bond-forming reaction at once.
+
+## answer_d
+4
+
+## explanation_d
+Incorrect. Four overcounts substantially — only two tRNA-binding sites (A and P) hold charged, participating tRNAs during active peptide bond formation.
+
+## topic
+Human genetics
+
+## subtopic
+Translation elongation cycle
+
+## main_concept
+CON-FND-9A1437CD0A382C
+
+## concept_ids
+
+## contextual_concept_ids
+CON-FND-8C0EB47D70D27A
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that two charged tRNAs (A-site and P-site) participate simultaneously in each peptide-bond-forming step.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q37, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's elongation-cycle concept (CON-FND-9A1437CD0A382C); contextual link to the E-site concept (CON-FND-8C0EB47D70D27A) since the distractor "3" specifically tests knowledge that the E-site tRNA is deacylated, not charged.
+
+---
+
+# Item
+
+## id
+
+## title
+What kind of bond links mRNA to the ribosome
+
+## question
+What kind of interactions results in the binding of mRNA and the ribosome?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Hydrophobic interaction
+
+## explanation_a
+Incorrect. Hydrophobic interactions describe non-polar side chains clustering together (as in protein folding or membrane lipids) — mRNA-ribosome binding is a nucleic-acid base-pairing event, not a hydrophobic one.
+
+## answer_b
+Hydrophilic interaction
+
+## explanation_b
+Incorrect. "Hydrophilic interaction" is not the specific chemical bond type responsible here — the actual mechanism is base pairing through hydrogen bonds between complementary nucleotide sequences.
+
+## answer_c
+Ionic interaction
+
+## explanation_c
+Incorrect. Ionic interactions involve electrostatic attraction between oppositely charged groups — not the mechanism by which mRNA sequence is recognised by ribosomal RNA.
+
+## answer_d
+Hydrogen bond
+
+## explanation_d
+Correct. The mRNA-ribosome interaction is fundamentally a base-pairing event mediated by hydrogen bonds — most concretely illustrated by the prokaryotic Shine-Dalgarno sequence, which base-pairs with a complementary sequence near the 3' end of 16S rRNA to position the small subunit at the correct start codon. The same hydrogen-bonding principle underlies codon-anticodon pairing throughout elongation, making hydrogen bonds the common thread linking mRNA recognition at every stage of translation.
+
+## topic
+Human genetics
+
+## subtopic
+Prokaryotic translation initiation
+
+## main_concept
+CON-FND-6D0BFB1CD8B9A3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the mRNA-ribosome interaction (e.g. Shine-Dalgarno:16S rRNA base pairing) is mediated by hydrogen bonds.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q38, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-6D0BFB1CD8B9A3) — paired with Q10/Q28/Q39/Q40 under the same prokaryotic-initiation concept.
+
+---
+
+# Item
+
+## id
+
+## title
+Where the prokaryotic initiator tRNA first enters the ribosome
+
+## question
+In case of prokaryotes the first initiator tRNA enters the ribosome in the
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+A site
+
+## explanation_a
+Incorrect. Every elongator aminoacyl-tRNA enters via the A site, but the initiator tRNA is the one exception — it is loaded directly into the P site during initiation, not via the A site.
+
+## answer_b
+P site
+
+## explanation_b
+Correct. The initiator fMet-tRNAfMet is loaded directly into the P site together with the small (30S) ribosomal subunit during initiation, bypassing the A site entirely — a unique feature of the initiator tRNA that no elongator tRNA shares. Once the 50S subunit joins to complete the 70S initiation complex, the P site is already occupied and the A site sits open, ready to receive the first elongator aminoacyl-tRNA.
+
+## answer_c
+E site
+
+## explanation_c
+Incorrect. The E (exit) site is where spent, deacylated tRNAs sit immediately before leaving the ribosome — it plays no role in bringing a tRNA into the ribosome during initiation.
+
+## answer_d
+Already attached to the mRNA before ribosome association
+
+## explanation_d
+Incorrect. The initiator tRNA is not pre-attached to the mRNA independently of the ribosome — it is loaded into the P site as part of the 30S initiation complex assembling on the mRNA's start codon.
+
+## topic
+Human genetics
+
+## subtopic
+Prokaryotic translation initiation
+
+## main_concept
+CON-FND-6D0BFB1CD8B9A3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the prokaryotic initiator tRNA enters the ribosome directly at the P site, not the A site.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q39, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-6D0BFB1CD8B9A3) — paired with Q10/Q28/Q38/Q40.
+
+---
+
+# Item
+
+## id
+
+## title
+The first amino acid of the prokaryotic polypeptide, restated
+
+## question
+The first amino acid to be incorporated in the prokaryotic polypeptide is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Methionine
+
+## explanation_a
+Incorrect. Plain (unformylated) methionine initiates translation in eukaryotes — the prokaryotic initiator specifically carries a formyl group attached to its methionine.
+
+## answer_b
+Valine
+
+## explanation_b
+Incorrect. Valine has no special initiator role in translation — it is incorporated during elongation only when called for by its codon, like any other standard amino acid.
+
+## answer_c
+N-formyl methionine
+
+## explanation_c
+Correct. Prokaryotic translation always begins with N-formylmethionine, carried on a dedicated initiator tRNA (fMet-tRNAfMet) that is loaded directly into the ribosome's P site — the formyl group is a hallmark of bacterial (and mitochondrial) protein synthesis initiation specifically. Most bacterial proteins later have this formyl group, and often the whole initial methionine, enzymatically removed once synthesis is complete, so the mature protein does not necessarily retain any trace of how it began.
+
+## answer_d
+N-acyl valine.
+
+## explanation_d
+Incorrect. "N-acyl valine" is not a recognised initiator species in any translation system — this option combines two unrelated ideas (an acyl modification and the amino acid valine) that do not correspond to any real initiator.
+
+## topic
+Human genetics
+
+## subtopic
+Prokaryotic translation initiation
+
+## main_concept
+CON-FND-6D0BFB1CD8B9A3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-APPARATUS-DEEPENED
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Restate that N-formylmethionine is the first amino acid of a prokaryotic polypeptide.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q40, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-6D0BFB1CD8B9A3) — near-duplicate of Q10 from the source's own repetition, same concept.
+
+---
+
+# Item
+
+## id
+
+## title
+The first amino acid of the eukaryotic polypeptide
+
+## question
+The first amino acid to be incorporated in the Eukaryotes polypeptide is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Methionine
+
+## explanation_a
+Correct. Eukaryotic translation initiates with plain, unformylated methionine, carried by the initiator tRNA (Met-tRNAi) that is positioned at the AUG start codon in the P site — unlike prokaryotes, which use the formylated form (N-formylmethionine) instead. This distinction is one of the clearest markers separating cytoplasmic (eukaryotic-style) from bacterial and mitochondrial (prokaryotic-style) translation.
+
+## answer_b
+Valine
+
+## explanation_b
+Incorrect. Valine plays no initiator role in eukaryotic translation — it is added during elongation only when its codon appears in the reading frame.
+
+## answer_c
+N-formyl methionine
+
+## explanation_c
+Incorrect. N-formylmethionine is the prokaryotic (and mitochondrial) initiator — eukaryotic cytoplasmic translation uses plain methionine instead, without the formyl modification.
+
+## answer_d
+N-acyl valine
+
+## explanation_d
+Incorrect. "N-acyl valine" does not correspond to any real initiator species in eukaryotic (or any) translation.
+
+## topic
+Human genetics
+
+## subtopic
+Eukaryotic translation initiation
+
+## main_concept
+CON-FND-CC6BAFEE04D3F8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that plain methionine, not the formylated form, initiates eukaryotic translation.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q41, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's eukaryotic-initiation concept (CON-FND-CC6BAFEE04D3F8), whose own pitfalls field explicitly excludes formylmethionine from eukaryotic initiation — reused, no new concept minted. Direct contrast pair with Q40.
+
+---
+
+# Item
+
+## id
+
+## title
+Why eukaryotic mRNA codes for a single protein
+
+## question
+Eukaryotic mRNA generally codes for a single protein because the eukaryotic translation includes
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+A single codon
+
+## explanation_a
+Incorrect. Every mRNA contains many codons, not a single one — "a single codon" does not describe why eukaryotic translation yields one protein per transcript.
+
+## answer_b
+Mono-cistronic codons
+
+## explanation_b
+Correct. Eukaryotic mRNA is monocistronic — each transcript carries only one protein-coding region — so translating it from its single start codon to its single stop codon yields exactly one polypeptide. This contrasts with prokaryotic operons, whose polycistronic mRNA carries several coding regions and can yield several different proteins from one transcript.
+
+## answer_c
+Polycistronic codons
+
+## explanation_c
+Incorrect. Polycistronic mRNA, carrying more than one coding region, is the prokaryotic pattern — it is exactly what eukaryotic mRNA is not, which is why eukaryotic translation yields only one protein per transcript.
+
+## answer_d
+Starts at the first triplet codon
+
+## explanation_d
+Incorrect. While translation does begin at the first AUG codon encountered in the correct context, this alone does not explain why only one protein results — a polycistronic mRNA also starts at a first codon but then goes on to encode further proteins from internal start sites.
+
+## topic
+Human genetics
+
+## subtopic
+Polycistronic and monocistronic mRNA
+
+## main_concept
+CON-FND-175BC0480CCD48
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSLATION-ENERGETICS-GENE-STRUCTURE
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that eukaryotic mRNA is monocistronic, explaining why it yields a single protein per transcript.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q42, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+New concept minted this pass (CON-FND-175BC0480CCD48) — paired with Q49/Q65 under the same polycistronic/monocistronic concept.
+
+---
+
+# Item
+
+## id
+
+## title
+What glycosylation adds to a protein
+
+## question
+Glycosylation is the addition of _______ to the protein.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Carbohydrate
+
+## explanation_a
+Correct. Glycosylation is the covalent addition of a carbohydrate (sugar) group to a protein, carried out in the endoplasmic reticulum and Golgi complex, most often marking the protein for secretion, membrane insertion, or delivery to the lysosome. Because this pathway is exclusive to membrane-bound (RER) ribosomes, glycosylation essentially never happens to proteins made on free cytosolic ribosomes.
+
+## answer_b
+Lipid
+
+## explanation_b
+Incorrect. Adding a lipid group to a protein is a different modification (lipidation, e.g. prenylation or myristoylation), not glycosylation.
+
+## answer_c
+Fat
+
+## explanation_c
+Incorrect. "Fat" is not the chemical group glycosylation adds — glycosylation specifically attaches sugar (carbohydrate) residues.
+
+## answer_d
+Minerals
+
+## explanation_d
+Incorrect. Minerals are not attached to proteins by any post-translational modification described in this chapter — glycosylation specifically adds carbohydrate.
+
+## topic
+Human genetics
+
+## subtopic
+Post-translational modification
+
+## main_concept
+CON-FND-344140D2457FBB
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+32
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Restate that glycosylation adds carbohydrate to a protein.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q43, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's covalent-PTM-types concept (CON-FND-344140D2457FBB) — reused, no new concept minted; near-duplicate of Q12's location fact, tested from the definitional angle here.
+
+---
+
+# Item
+
+## id
+
+## title
+What proteins free ribosomes make
+
+## question
+Free ribosome is used to synthesize proteins present in
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Lysosome
+
+## explanation_a
+Incorrect. Lysosomal enzymes are typically synthesized on membrane-bound (RER) ribosomes and processed through the ER-Golgi secretory pathway, not made by free cytosolic ribosomes.
+
+## answer_b
+Golgi membrane
+
+## explanation_b
+Incorrect. Golgi-resident and Golgi-processed proteins arrive there via the RER-to-Golgi secretory pathway, having been synthesized on membrane-bound ribosomes, not free ones.
+
+## answer_c
+Cell membrane.
+
+## explanation_c
+Incorrect. Integral membrane proteins are synthesized by ribosomes bound to the rough endoplasmic reticulum, which inserts them directly into the growing membrane system — not by free ribosomes.
+
+## answer_d
+Outside the cell
+
+## explanation_d
+Incorrect. Proteins destined for secretion outside the cell are made on membrane-bound (RER) ribosomes and routed through the secretory pathway — free ribosomes make proteins the cell keeps or imports into organelles post-translationally, not proteins for export.
+
+## answer_e
+Mitochondria.
+
+## explanation_e
+Correct. Free ribosomes in the cytosol synthesize proteins the cell uses for itself, including most nuclear-encoded proteins destined for organelles such as mitochondria (and peroxisomes), which are completed in the cytosol and then imported post-translationally — in contrast to membrane-bound ribosomes, which make proteins for secretion, the membrane, or the lysosome. This division of labour is also reflected microscopically: cells rich in free ribosomes show diffuse cytoplasmic basophilia, while cells rich in rough endoplasmic reticulum show a more localised, focal basophilia instead.
+
+## topic
+Human genetics
+
+## subtopic
+Free versus attached ribosomes
+
+## main_concept
+CON-FND-60953640114635
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that free ribosomes synthesize proteins the cell keeps or imports into organelles (e.g. mitochondria) post-translationally.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q44, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's free-versus-attached-ribosome concept (CON-FND-60953640114635) — reused, no new concept minted. This variant names mitochondria where the base concept names peroxisomes as its own worked example; same organizing principle, disclosed in the pending-live overlay's field_notes.
+
+---
+
+# Item
+
+## id
+
+## title
+What proteins membrane-bound (RER) ribosomes make
+
+## question
+Membrane bounded ribosome "RER" is used to synthesize proteins in
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Cytoplasm
+
+## explanation_a
+Incorrect. Cytoplasmic (cytosolic) proteins are typically made by free ribosomes, not RER-bound ones — RER-bound ribosomes make proteins destined to leave the cytosol via the secretory pathway.
+
+## answer_b
+Mitochondria
+
+## explanation_b
+Incorrect. Most mitochondrial proteins are nuclear-encoded and made by free cytosolic ribosomes, then imported post-translationally into the mitochondrion — the RER is not part of this route.
+
+## answer_c
+nucleus
+
+## explanation_c
+Incorrect. Nuclear proteins (such as histones and transcription factors) are made by free cytosolic ribosomes and imported into the nucleus through nuclear pores — translation itself never occurs inside the nucleus, on the RER or otherwise.
+
+## answer_d
+peroxisome
+
+## explanation_d
+Incorrect. Peroxisomal enzymes are synthesized by free ribosomes in the cytosol and imported into the peroxisome post-translationally, not made on the RER.
+
+## answer_e
+Lysosome.
+
+## explanation_e
+Correct. RER-bound ribosomes synthesize proteins that enter the secretory pathway, including lysosomal enzymes, which are processed and tagged (e.g. with mannose-6-phosphate) in the ER and Golgi before being routed to the lysosome — the same pathway used for secreted and membrane proteins.
+
+## topic
+Human genetics
+
+## subtopic
+Free versus attached ribosomes
+
+## main_concept
+CON-FND-60953640114635
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## question_only_for
+
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that membrane-bound (RER) ribosomes synthesize proteins destined for secretion, the membrane, or the lysosome.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" Q45, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Overlaid onto Kasr's free-versus-attached-ribosome concept (CON-FND-60953640114635) — direct contrast pair with Q44; this variant names the lysosome where the base concept names "enzymes and hormones for export" as its own worked example.
