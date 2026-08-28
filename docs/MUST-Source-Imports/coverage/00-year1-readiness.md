@@ -12,7 +12,7 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 
 ## FHB 101 S1 checkpoint status
 
-**`checkpointed-incomplete`.** The completed deduplicated 2026 source family yielded 36 questions, 8 printed keys, and 36 tested concepts (12 live-hit / 12 pending-hit / 12 new, all placement TBD). The remaining source set is 112 inventory rows and the exact 105 SHA-256 values below. Its sorted-newline set checksum is `91625c5786125418de014342444bb52bacea6d8e235c4b31414b3200fd55a3c8`; it excludes only the completed family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
+**`checkpointed-incomplete`.** The completed read-only sources now yield 39 questions, 11 printed keys, and 37 tested concepts (13 live-hit / 12 pending-hit / 12 new, all placement TBD). The Fall 2025 Anatomy EOM written final added three printed question/answer pairs and one newly distinct concept after cross-source deduplication. The remaining source set is 111 inventory rows and the exact 104 SHA-256 values below. Its sorted-newline set checksum is `abae3dd35968a276f9c70c0c96480719e3b8d113c18c4afc5cf63b8366bcab04`; it excludes the completed 2026 duplicate-family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95` and Fall 2025 Anatomy EOM hash `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
 
 ```text
 001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b
@@ -93,7 +93,6 @@ a0accfff0a1b1952b29f174ab12d16028c820eb7048310c6f918877c87a4ae6f
 a433bee65fdb0cdb5a5f9f17948789d58e91f49a633a7502672e5981efa05662
 a44fb9d4295209c4722a348a02a865d9e18dacfcd75901dbaccc943c23a6a2ff
 a52b8c4a67088411b314bcab37820383ad7a32b05b03f0d293e84421db34f195
-a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec
 a6de213a3876866fe421224a4c1ee0d9998f40beccb13d648b0f29fbfe9d303c
 ae19d24e32de6833e7f42b1d1cb27518394af607bd75b618fa96c0f9c01364bc
 af3e920291b581bbc053205c0f42229a4cee595d7a1a086011b4dcaec2f19ee6

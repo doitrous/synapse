@@ -82,3 +82,31 @@ Completed subset only: Anatomy 9 concepts (live 5, pending 2, new 2); Physiology
 **Remaining file list:** all selected ledger rows except the three paths in the completed family above — 112 inventory paths / 105 further SHA-256s, including 39 empty-text and six sparse-text rows.  The command in Evidence is the authoritative exact, path-and-hash-bearing list and must be re-run against the root/Desktop evidence before a continuation claims any question count; no count for those unread sources is estimated here.
 
 **BLOCKED — S1 cannot be approved:** the remaining 112 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read each remaining source family, beginning with the 70 substantive-text rows, then update this table from observed questions only.
+
+## Continuation pass — Anatomy EOM written final, Fall 2025
+
+The asserted starting remaining-hash checksum `91625c5786125418de014342444bb52bacea6d8e235c4b31414b3200fd55a3c8` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 105 hashes before this pass.  The next bounded source was selected from its 67 substantive-text rows: the highest-ranked unread two-page `06 EOM Exams` paper, ahead of keyed-exam and MCQ sources.  Both pages were rendered and read; the text layer is substantive.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed questions read | Printed answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Anatomy | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Anatomy/06 EOM Exams/EOM - Embryology Written final exam FHB 101 Fall 2025.pdf` | `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec` | 2 | 3 | 3 |
+
+| Page | Printed question read | Printed answer recovered (transcribed only) | Assigned tested concept | Manual multi-query result |
+|---:|---|---|---|---|
+| 1 | `Embryologic derivatives of the ectoderm include three parts:` | Surface ectoderm, neural tube, neural crest; the listed derivatives are also printed. | Ectodermal derivatives | `ectoderm derivatives` + `surface ectoderm`: new; matches the already-triaged new concept `surface ectoderm / ectoderm derivatives`. |
+| 1–2 | `Derivatives of the intra embryonic mesoderm include …` | Paraxial, intermediate, and lateral plate mesoderm, with their listed derivatives. | Intraembryonic mesoderm subdivisions and derivatives | `intraembryonic mesoderm`: live-hit; `paraxial intermediate lateral plate mesoderm`: no match. |
+| 2 | `Derivatives of the Endoderm include …` | Epithelial lining of the gastrointestinal tract; epithelial lining of the respiratory tracts; germ cells. | Endodermal derivatives | `endoderm`: live + pending hits; `gastrointestinal epithelial lining`: no match; classified live-hit and matches the already-triaged live endoderm concept. |
+
+The source contributes three question-to-concept assignments but only one newly distinct ledger concept after cross-source deduplication (intraembryonic mesoderm).  Its search outcomes are live 2 / pending 0 / new 1 at assignment level; no answer was inferred or medically corrected.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources: 2026 duplicate family + Anatomy EOM Fall 2025) | 39 | 11 | 37 | 13 | 12 | 12 | TBD |
+
+## Remaining sources / blocker — after continuation pass
+
+**Remaining file list:** 111 selected inventory paths / 104 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `abae3dd35968a276f9c70c0c96480719e3b8d113c18c4afc5cf63b8366bcab04`.  It contains 66 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 111 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread `06 EOM Exams` source family, then update from observed questions only.
