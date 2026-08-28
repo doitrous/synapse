@@ -58,6 +58,7 @@ import {
 } from './enrollmentChanges.js'
 import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
+import { activityTrackingSummary } from './studyTrackingAdmin.js'
 import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
@@ -1244,6 +1245,17 @@ app.get('/api/state', requireSuperAdmin, wrap(async (_req, res) => {
   const out = {}
   for (const r of rows) { try { out[r.k] = JSON.parse(r.v) } catch { out[r.k] = null } }
   res.json(out)
+}))
+
+// Cross-student activity tracking for the Settings console: answer-change
+// transitions from the verified attempt ledger and highlighting behaviour from
+// every student's highlight document. Optional ?university=&year=&term= scope.
+app.get('/api/admin/activity-tracking', requireSuperAdmin, wrap(async (req, res) => {
+  res.json(await activityTrackingSummary({
+    universityId: typeof req.query.university === 'string' ? req.query.university : undefined,
+    year: typeof req.query.year === 'string' ? req.query.year : undefined,
+    term: typeof req.query.term === 'string' ? req.query.term : undefined,
+  }))
 }))
 
 // A mass withdrawal is intentionally not a normal editor action. The

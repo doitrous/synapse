@@ -62,6 +62,8 @@ export const ADMIN_TABS = [
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
   { id: 'reports', to: '/admin/reports', group: 'Content',
     stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
+  { id: 'tutorial', to: '/admin/tutorial', group: 'Content',
+    stateKeys: ['synapse-tutorial-videos-v1'], apiPrefixes: [] },
 
   { id: 'email', to: '/admin/email', group: 'Operations',
     stateKeys: ['synapse-email-automations-v1'], apiPrefixes: [] },

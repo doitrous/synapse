@@ -18,7 +18,6 @@ import {
   Flame,
   Shuffle,
   Flag,
-  XCircle,
   History,
   TrendingDown,
   MoreHorizontal,
@@ -26,6 +25,7 @@ import {
   Eye,
   PenLine,
   Trash2,
+  Columns2,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import type { AttemptRecord } from '@/data/attempts'
@@ -776,7 +776,21 @@ export function QuestionBank() {
   const setMarked = useCallback((update: (current: Set<string>) => Set<string>) => {
     setMarkedIds((current) => [...update(new Set(current))])
   }, [setMarkedIds])
-  const [showAllRationales, setShowAllRationales] = useState(false)
+  /**
+   * Desktop-only layout preference: once an answer is revealed, split the
+   * question (stem/vignette/options) from the answer area (explanations and
+   * per-option rationale) into two columns instead of stacking them.
+   * Persisted so a student who likes it does not re-toggle every sitting.
+   */
+  const [splitView, setSplitView] = usePersistentState<boolean>('synapse.qbank.splitView.v1', false)
+  /** Mirrors the `lg` breakpoint — split view never applies below it. */
+  const [isDesktop, setIsDesktop] = useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1024px)').matches)
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1024px)')
+    const onChange = () => setIsDesktop(mq.matches)
+    mq.addEventListener('change', onChange)
+    return () => mq.removeEventListener('change', onChange)
+  }, [])
   /** What the student called this sitting, if anything. */
   const [sessionName, setSessionName] = useState('')
   const [hubTab, setHubTab] = useState<'new' | 'collections' | 'previous'>('new')
@@ -1077,6 +1091,23 @@ export function QuestionBank() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questions, reviewConcepts, reviewSubject])
 
+  /**
+   * A single question opened by id — e.g. from a Question Notes card. `?q=<id>`
+   * begins a one-question tutor sitting on exactly that question, so a note
+   * links back to the thing it was written about.
+   */
+  const singleQuestion = params.get('q')
+  const openedSingle = useRef(false)
+  useEffect(() => {
+    if (openedSingle.current || !singleQuestion || !questions.length) return
+    const question = questions.find((entry) => entry.id === singleQuestion)
+    if (!question) return
+    openedSingle.current = true
+    requestSession([question])
+    // requestSession is redefined every render; the ref above makes this run once.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [questions, singleQuestion])
+
   // Every live test has an elapsed clock. Timed mode interprets it against the
   // sitting allowance; Tutor mode presents the same value as a calm count-up.
   useEffect(() => {
@@ -1101,7 +1132,6 @@ export function QuestionBank() {
   // Next, Previous, or a jump from the navigator.
   useEffect(() => {
     setVisited((current) => (current.has(idx) ? current : new Set(current).add(idx)))
-    setShowAllRationales(false)
     switchTiming(session[idx]?.id ?? null)
   }, [idx, session, switchTiming])
 
@@ -1153,7 +1183,6 @@ export function QuestionBank() {
     setVisibilityPaused(false)
     questionStartedAt.current = 0
     setVisited(new Set([0]))
-    setShowAllRationales(false)
     setPhase('running')
   }
 
@@ -1778,13 +1807,9 @@ export function QuestionBank() {
   // an imported question the panel below would repeat the rationale already sitting
   // under the right answer. Only show it when it genuinely says something else.
   const hasSeparateExplanation = Boolean(q.explanation.trim()) && q.explanation.trim() !== correctRationale
-  // Every wrong option that has something to say — including the one the student
-  // picked. It used to exclude their own choice, so choosing an answer was the
-  // one way to never be told why it was wrong, and nothing else on the page
-  // carried that rationale. The index is kept so each keeps its own letter.
-  const wrongOptions = q.options
-    .map((option, index) => ({ option, index }))
-    .filter(({ option }) => !option.correct && option.rationale.trim())
+  // Split view only ever changes anything once there is an answer to show —
+  // and only at the breakpoint the toggle itself is offered at.
+  const splitActive = revealed && splitView && isDesktop
 
   /**
    * The record one answer produces, and the mastery evidence that goes with it.
@@ -1938,6 +1963,19 @@ export function QuestionBank() {
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
           {reviewing && <span className="text-[13px] font-medium text-primary">{t('Reviewing')}</span>}
           <div className="flex items-center gap-2 sm:ms-auto">
+            {/* Rearranging the question into two columns only makes sense
+                once there is an answer to look at, and only where there is
+                room for two columns side by side. */}
+            {revealed && (
+              <IconButton
+                icon={Columns2}
+                label={splitView ? t('Single column') : t('Split view')}
+                active={splitView}
+                variant="surface"
+                className="hidden lg:inline-flex"
+                onClick={() => setSplitView((value) => !value)}
+              />
+            )}
             {/* The clock is the whole point of this mode, so it is a fixture
                 rather than a caption: same place, same width, legible across
                 the room. It was previously grey mono text among four other
@@ -1990,181 +2028,220 @@ export function QuestionBank() {
             made anywhere else on the page (the navigator, the study rail)
             never opens it. */}
         <HighlightSelectionPopover container={questionCardRef} highlights={highlights} />
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
-            <SubjectDot id={q.subjectId} />
-            {getSubject(q.subjectId).name}
-          </span>
-          <span className="text-ink-3">·</span>
-          <span className="text-[12.5px] text-ink-3">{q.topic}</span>
-          <Badge tone={diffTone(q.difficulty)} className="ml-auto">
-            {q.difficulty}
-          </Badge>
-        </div>
-
-        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><HighlightableText text={q.vignette} enabled={revealed} blockId="vignette" highlights={highlights} /></p>
-        <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><HighlightableText text={q.stem} enabled={revealed} blockId="stem" highlights={highlights} /></p>
-
-        {q.attachedImage && (
-          <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
-            <ZoomableImage src={q.attachedImage} alt="Question attachment" className="max-h-80 w-full rounded-lg object-contain" />
-          </div>
-        )}
-        {q.attachments && q.attachments.length > 0 && (
-          <div className="mt-4 space-y-2">
-            {q.attachments.map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} />)}
-          </div>
-        )}
-
-        {/* Once the answer is revealed an option stops being a control and
-            becomes prose. It used to stay a `<button disabled>`, which swallows
-            pointer events for everything inside it — so the concept links in
-            the answers went live and dead at the same instant, and the one
-            place they matter most was the one place they never worked. */}
-        <div className="mt-5 space-y-2.5">
-          {q.options.map((opt, i) => {
-            const ruledOut = (struck[q.id] ?? []).includes(i)
-            const badge = (
-              <span
-                className={cn(
-                  'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
-                  revealed && opt.correct
-                    ? 'border-success bg-success text-on-success'
-                    : revealed && chosen === i
-                      ? 'border-danger bg-danger text-on-danger'
-                      : chosen === i
-                        ? 'border-primary bg-primary text-on-primary'
-                        : 'border-line-2 text-ink-2',
-                )}
-              >
-                {revealed && opt.correct ? (
-                  <Icon icon={Check} size={14} strokeWidth={2.6} />
-                ) : revealed && chosen === i ? (
-                  <Icon icon={X} size={14} strokeWidth={2.6} />
-                ) : (
-                  LETTERS[i]
-                )}
+        {/* In split view the question stays in this column and the answer
+            area (explanations, per-option rationale, the explicit
+            `Explanation` text) moves into a second column alongside it. Below
+            `lg`, or with the toggle off, or before the answer is revealed,
+            this is just one column and the two `lg:grid-cols-2` cells stack
+            in source order — question, then answer area. */}
+        <div className={cn(splitActive && 'lg:grid lg:grid-cols-2 lg:items-start lg:gap-6')}>
+          <div className={cn(splitActive && 'lg:border-e lg:border-line lg:pe-6')}>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
+                <SubjectDot id={q.subjectId} />
+                {getSubject(q.subjectId).name}
               </span>
-            )
-            const text = (
-              <span className={cn('flex-1 pt-0.5 text-[14px] text-ink', ruledOut && 'line-through decoration-ink-3')}>
-                <HighlightableText text={opt.text} enabled={revealed} blockId={`option-${i}`} highlights={highlights} />
-              </span>
-            )
-            // main kept the badge and the option text as one inseparable
-            // `body`, because on its side the whole row was a single control.
-            // Here they are two: the badge answers and the text rules out, so
-            // each needs to be placed on its own.
-            const shape = cn(
-              'flex w-full items-start gap-3 rounded-lg border p-3 text-start transition-colors',
-              optionClasses(i),
-              ruledOut && !revealed && 'opacity-55',
-            )
-            return (
-              <div key={i}>
-                {revealed ? (
-                  <div className={shape}>{badge}{text}</div>
-                ) : (
-                  <div className={cn(shape, 'relative p-0')}>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        // A drag that ends inside this button still fires a
-                        // click. Without this guard, dragging across an
-                        // option's text to highlight it would also select
-                        // that option as the answer.
-                        if (window.getSelection()?.isCollapsed === false) return
-                        setAnswers((a) => ({ ...a, [q.id]: i }))
-                        // Symmetric with `toggleStrike`, which drops the
-                        // selection when it strikes the selected option — see
-                        // `selectClearsStrike`.
-                        setStruck((current) => selectClearsStrike(current, q.id, i))
-                      }}
-                      aria-pressed={chosen === i}
-                      aria-label={`${t('Choose answer')} ${LETTERS[i]}: ${opt.text}`}
-                      className="flex min-w-0 flex-1 cursor-pointer items-start gap-3 rounded-lg p-3 pe-12 text-start focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
-                    >
-                      {badge}
-                      {text}
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => toggleStrike(i)}
-                      aria-pressed={ruledOut}
-                      aria-label={`${ruledOut ? t('Rule back in') : t('Rule out')}: ${opt.text}`}
-                      title={ruledOut ? t('Include this answer again') : t('Exclude this answer')}
-                      className={cn(
-                        'absolute end-2 top-1/2 grid size-8 -translate-y-1/2 place-items-center rounded-md border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
-                        ruledOut
-                          ? 'border-danger/30 bg-danger-tint text-danger'
-                          : 'border-transparent text-ink-3 hover:border-line hover:bg-inset hover:text-ink',
-                      )}
-                    >
-                      <Icon icon={X} size={16} strokeWidth={2.3} />
-                    </button>
-                  </div>
-                )}
+              <span className="text-ink-3">·</span>
+              <span className="text-[12.5px] text-ink-3">{q.topic}</span>
+              <Badge tone={diffTone(q.difficulty)} className="ml-auto">
+                {q.difficulty}
+              </Badge>
+            </div>
+
+            <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><HighlightableText text={q.vignette} enabled={revealed} blockId="vignette" highlights={highlights} /></p>
+            <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><HighlightableText text={q.stem} enabled={revealed} blockId="stem" highlights={highlights} /></p>
+
+            {q.attachedImage && (
+              <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
+                <ZoomableImage src={q.attachedImage} alt="Question attachment" className="max-h-80 w-full rounded-lg object-contain" />
               </div>
-            )
-          })}
-        </div>
-
-        {/* Everything explanatory reads at the end of the page, in order: why
-            the right answer is right, then why each wrong one is wrong. It used
-            to be scattered under whichever options happened to be revealed. */}
-        {revealed && (
-          <div className="mt-6 space-y-3">
-            {correctRationale && (
-              <div className="rounded-xl border border-success/30 bg-success-tint/40 p-4">
-                <p className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-success">
-                  <Icon icon={Check} size={13} strokeWidth={2.6} />
-                  {t('Why the right answer is right')}
-                </p>
-                <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={correctRationale} enabled blockId="correctRationale" highlights={highlights} /></p>
+            )}
+            {q.attachments && q.attachments.length > 0 && (
+              <div className="mt-4 space-y-2">
+                {q.attachments.map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} />)}
               </div>
             )}
 
-            {hasSeparateExplanation && (
-              <div className="rounded-xl border border-line bg-surface-2 p-4">
+            {/* Once the answer is revealed an option stops being a control and
+                becomes prose. It used to stay a `<button disabled>`, which swallows
+                pointer events for everything inside it — so the concept links in
+                the answers went live and dead at the same instant, and the one
+                place they matter most was the one place they never worked. */}
+            <div className="mt-5 space-y-2.5">
+              {q.options.map((opt, i) => {
+                const ruledOut = (struck[q.id] ?? []).includes(i)
+                // What made this option right or wrong, read directly under
+                // it once revealed — not collected separately at the bottom
+                // of the page, or (in split view) in the answer-area column.
+                const rationaleText = opt.rationale.trim()
+                const badge = (
+                  <span
+                    className={cn(
+                      'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
+                      revealed && opt.correct
+                        ? 'border-success bg-success text-on-success'
+                        : revealed && chosen === i
+                          ? 'border-danger bg-danger text-on-danger'
+                          : chosen === i
+                            ? 'border-primary bg-primary text-on-primary'
+                            : 'border-line-2 text-ink-2',
+                    )}
+                  >
+                    {revealed && opt.correct ? (
+                      <Icon icon={Check} size={14} strokeWidth={2.6} />
+                    ) : revealed && chosen === i ? (
+                      <Icon icon={X} size={14} strokeWidth={2.6} />
+                    ) : (
+                      LETTERS[i]
+                    )}
+                  </span>
+                )
+                const text = (
+                  <span className={cn('flex-1 pt-0.5 text-[14px] text-ink', ruledOut && 'line-through decoration-ink-3')}>
+                    <HighlightableText text={opt.text} enabled={revealed} blockId={`option-${i}`} highlights={highlights} />
+                  </span>
+                )
+                // main kept the badge and the option text as one inseparable
+                // `body`, because on its side the whole row was a single control.
+                // Here they are two: the badge answers and the text rules out, so
+                // each needs to be placed on its own.
+                const shape = cn(
+                  'flex w-full items-start gap-3 rounded-lg border p-3 text-start transition-colors',
+                  optionClasses(i),
+                  ruledOut && !revealed && 'opacity-55',
+                )
+                return (
+                  <div key={i}>
+                    {revealed ? (
+                      <div className={shape}>
+                        {badge}
+                        <div className="min-w-0 flex-1">
+                          {text}
+                          {/* Split view carries this same rationale in the
+                              answer-area column instead, so it is not shown
+                              twice. */}
+                          {!splitActive && rationaleText && (
+                            <p
+                              className={cn(
+                                'mt-2 rounded-lg border px-3 py-2 text-[12.5px] leading-relaxed',
+                                opt.correct
+                                  ? 'border-success/20 bg-success-tint/40 text-ink-2'
+                                  : chosen === i
+                                    ? 'border-danger/20 bg-danger-tint/40 text-ink-2'
+                                    : 'border-line bg-surface-2 text-ink-3',
+                              )}
+                            >
+                              <HighlightableText text={rationaleText} enabled blockId={`rationale-${i}`} highlights={highlights} />
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className={cn(shape, 'relative p-0')}>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            // A drag that ends inside this button still fires a
+                            // click. Without this guard, dragging across an
+                            // option's text to highlight it would also select
+                            // that option as the answer.
+                            if (window.getSelection()?.isCollapsed === false) return
+                            setAnswers((a) => ({ ...a, [q.id]: i }))
+                            // Symmetric with `toggleStrike`, which drops the
+                            // selection when it strikes the selected option — see
+                            // `selectClearsStrike`.
+                            setStruck((current) => selectClearsStrike(current, q.id, i))
+                          }}
+                          aria-pressed={chosen === i}
+                          aria-label={`${t('Choose answer')} ${LETTERS[i]}: ${opt.text}`}
+                          className="flex min-w-0 flex-1 cursor-pointer items-start gap-3 rounded-lg p-3 pe-12 text-start focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+                        >
+                          {badge}
+                          {text}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => toggleStrike(i)}
+                          aria-pressed={ruledOut}
+                          aria-label={`${ruledOut ? t('Rule back in') : t('Rule out')}: ${opt.text}`}
+                          title={ruledOut ? t('Include this answer again') : t('Exclude this answer')}
+                          className={cn(
+                            'absolute end-2 top-1/2 grid size-8 -translate-y-1/2 place-items-center rounded-md border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
+                            ruledOut
+                              ? 'border-danger/30 bg-danger-tint text-danger'
+                              : 'border-transparent text-ink-3 hover:border-line hover:bg-inset hover:text-ink',
+                          )}
+                        >
+                          <Icon icon={X} size={16} strokeWidth={2.3} />
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+
+            {/* The explicit `Explanation` text (see `hasSeparateExplanation`)
+                stays with the question in single column. In split view it
+                moves to the answer-area column below instead of appearing
+                twice. */}
+            {revealed && !splitActive && hasSeparateExplanation && (
+              <div className="mt-6 rounded-xl border border-line bg-surface-2 p-4">
                 <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
                 <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
               </div>
             )}
-
-            {wrongOptions.length > 0 && (
-              <div className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
-                <button
-                  type="button"
-                  onClick={() => setShowAllRationales((value) => !value)}
-                  aria-expanded={showAllRationales}
-                  className="flex w-full items-center gap-2 px-4 py-3.5 text-start transition-colors hover:bg-inset"
-                >
-                  <Icon icon={XCircle} size={16} className="shrink-0 text-danger" />
-                  <span className="flex-1 text-[13.5px] font-semibold text-ink">{t('Why the wrong answers are wrong')}</span>
-                  <span className="tnum rounded-full bg-inset px-2 py-0.5 font-mono text-[11px] text-ink-2">{wrongOptions.length}</span>
-                  <Icon
-                    icon={ChevronDown}
-                    size={16}
-                    className={cn('shrink-0 text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !showAllRationales && '-rotate-90 rtl:rotate-90')}
-                  />
-                </button>
-                {showAllRationales && (
-                  <ul className="divide-y divide-line border-t border-line">
-                    {wrongOptions.map(({ option, index }) => (
-                      <li key={index} className="flex gap-3 px-4 py-3">
-                        <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-line-2 bg-surface-2 font-mono text-[11px] font-bold text-ink-2">{LETTERS[index]}</span>
-                        <span className="min-w-0 flex-1">
-                          <span className="block text-[13px] font-medium text-ink">{option.text}</span>
-                          <span className="mt-1 block text-[12.5px] leading-relaxed text-ink-2"><HighlightableText text={option.rationale} enabled blockId={`wrong-${index}`} highlights={highlights} /></span>
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            )}
           </div>
-        )}
+
+          {/* The answer area: every option's rationale gathered in one place,
+              plus the explicit `Explanation` text — only ever shown here
+              instead of under each option, never in addition to it. */}
+          {revealed && splitActive && (
+            <div className="mt-6 space-y-2.5 lg:mt-0">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Answer explanations')}</p>
+              {q.options.map((opt, i) => {
+                const rationaleText = opt.rationale.trim()
+                if (!rationaleText) return null
+                return (
+                  <div
+                    key={i}
+                    className={cn(
+                      'rounded-lg border px-3 py-2.5',
+                      opt.correct
+                        ? 'border-success/20 bg-success-tint/40'
+                        : chosen === i
+                          ? 'border-danger/20 bg-danger-tint/40'
+                          : 'border-line bg-surface-2',
+                    )}
+                  >
+                    <div className="flex items-center gap-2">
+                      <span
+                        className={cn(
+                          'grid size-5 shrink-0 place-items-center rounded-full border text-[11px] font-semibold',
+                          opt.correct ? 'border-success bg-success text-on-success' : 'border-line-2 bg-surface text-ink-2',
+                        )}
+                      >
+                        {opt.correct ? <Icon icon={Check} size={12} strokeWidth={2.6} /> : LETTERS[i]}
+                      </span>
+                      <span className="text-[12px] font-semibold text-ink">
+                        {opt.correct ? t('Why the right answer is right') : t('Why this is wrong')}
+                      </span>
+                    </div>
+                    <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">
+                      <HighlightableText text={rationaleText} enabled blockId={`rationale-${i}`} highlights={highlights} />
+                    </p>
+                  </div>
+                )
+              })}
+              {hasSeparateExplanation && (
+                <div className="rounded-xl border border-line bg-surface-2 p-4">
+                  <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
+                  <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
 
         {/* Footer actions */}
         <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
