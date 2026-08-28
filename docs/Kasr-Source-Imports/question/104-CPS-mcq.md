@@ -30,6 +30,7 @@
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
+    Physiology Respiratory System — Gas Exchange in the Lung — 5 questions, 2 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
@@ -49,7 +50,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  55 questions were excluded and 0 held back for having no
+  57 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -20471,6 +20472,282 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FCCD9BFC5D26
+## title
+The following factors affect the rate of gas diffusion through respiratory membrane:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The following factors affect the rate of gas diffusion through respiratory membrane:
+## answer_a
+Thickness of the respiratory membrane 1
+## explanation_a
+Thickness is only one of the three listed factors — on its own it omits surface area and the gas's diffusion coefficient, both of which genuinely affect the rate too.
+## answer_b
+Surface area of the membrane . ;
+## explanation_b
+Surface area is only one of the three listed factors — on its own it omits membrane thickness and the gas's diffusion coefficient, both of which genuinely affect the rate too.
+## answer_c
+Diffusion coefficient of the gas
+## explanation_c
+The gas's diffusion coefficient is only one of the three listed factors — on its own it omits membrane thickness and surface area, both of which genuinely affect the rate too.
+## answer_d
+All of the above
+## explanation_d
+Correct. The rate of gas diffusion across the respiratory membrane depends on all three: it rises with the membrane's surface area (about 70-80 m2) and with the gas's own diffusion coefficient (set mainly by its solubility), and it falls as the membrane's thickness increases, since a thicker barrier lengthens the path each gas molecule must cross. These are three of several factors — alongside the pressure gradient, temperature and the gas's molecular weight — that together determine how quickly O2 and CO2 cross from alveolus to capillary blood and back. A disease that thickens the membrane (fibrosis, oedema) or reduces its surface area (emphysema, pneumonectomy) slows diffusion by exactly this mechanism, and because O2 exchange is far more diffusion-limited than CO2 elimination, such disease produces hypoxaemia well before it produces hypercapnia.
+
+Why this is right:
+- The relative diffusion coefficient of CO2 through the respiratory membrane is about 20.3 times that of O2, so diffusion problems affect O2 exchange but rarely affect CO2 elimination.
+## correct_answer
+D
+## main_concept
+CON-RES-C323EEF5DA30FF
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State that gas diffusion rate through the respiratory membrane depends on membrane thickness, surface area and the gas's diffusion coefficient together, not any one alone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p36 q83. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-86B5FF3E1CAB
+## title
+Hypoxemia is caused by all of the following Except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Hypoxemia is caused by all of the following Except:
+## answer_a
+Pulmonary fibrosis
+## explanation_a
+Pulmonary fibrosis genuinely causes hypoxaemia: thickening the respiratory membrane slows O2 diffusion far more than it slows CO2 elimination, since O2 exchange is much more diffusion-limited.
+## answer_b
+Left to right shunt of blood
+## explanation_b
+Correct. A left-to-right shunt is the one option that does not cause hypoxaemia. It recirculates already-oxygenated blood from the systemic side back into the pulmonary circulation without ever introducing deoxygenated blood into the systemic arterial supply, so arterial PO2 is unaffected. Hypoxaemia specifically requires a right-to-left shunt, which bypasses ventilated alveoli altogether and lets fully deoxygenated blood mix directly into the systemic arterial circulation. The other three options are all genuine mechanisms of hypoxaemia: pulmonary fibrosis thickens the diffusion barrier, high altitude lowers the inspired (and so alveolar) PO2, and hypoventilation lowers alveolar PO2 directly while raising alveolar and arterial PCO2.
+
+Why this is right:
+- Hypoxaemia is a fall in arterial PO2, and it has four classic mechanisms: hypoventilation lowers alveolar PO2 (and so arterial PO2) while raising PCO2; a diffusion defect (a thickened or reduced-area respiratory membrane) slows O2 transfer more than CO2 elimination, so PaO2 falls while PaCO2 may stay normal; ventilation-perfusion mismatch lets poorly ventilated but well-perfused lung units contribute desaturated blood to the pulmonary veins; and a right-to-left shunt (an anatomical bypass of ventilated alveoli) mixes fully deoxygenated blood directly into the arterial circulation, so PaO2 falls despite an entirely normal alveolar PO2.
+## answer_c
+Residing at high altitudes
+## explanation_c
+High altitude genuinely causes hypoxaemia by lowering the inspired partial pressure of oxygen, which lowers alveolar and so arterial PO2 even with entirely normal lungs.
+## answer_d
+Hypoventilation
+## explanation_d
+Hypoventilation genuinely causes hypoxaemia: reducing alveolar ventilation lowers alveolar PO2 directly while raising alveolar (and arterial) PCO2.
+## correct_answer
+B
+## main_concept
+CON-RES-59FB00D6B96AE0
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology Respiratory System — Gas Exchange in the Lung
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Identify a left-to-right shunt as the one listed option that does not cause hypoxaemia, and distinguish it from a right-to-left shunt, pulmonary fibrosis, altitude and hypoventilation, which all do.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q90. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B16F055479CE
+## title
+Which cause of hypoxia is characterized by a decreased arterial PO2 &normal Alveolar PO2?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which cause of hypoxia is characterized by a decreased arterial PO2 &normal Alveolar PO2?
+## answer_a
+Hypoventilation
+## explanation_a
+Hypoventilation lowers both alveolar and arterial PO2 together, since less fresh air reaches the alveoli in the first place — it does not produce the normal-alveolar/low-arterial pattern this question asks for.
+## answer_b
+Right-to-lefi cardiac shunt
+## explanation_b
+Correct. A right-to-left cardiac shunt bypasses ventilated alveoli entirely, mixing fully deoxygenated blood directly into the systemic arterial circulation — arterial PO2 falls while alveolar PO2, measured in the normally ventilated alveoli that never see the shunted blood, stays normal. This dissociation between a normal alveolar PO2 and a low arterial PO2 is the diagnostic signature of a shunt, and it is what separates a shunt from hypoventilation, where alveolar and arterial PO2 fall together. Anaemia and carbon monoxide poisoning reduce the oxygen actually carried by the blood, not its partial pressure, so neither lowers arterial or alveolar PO2 at all despite causing genuine tissue hypoxia.
+
+Why this is right:
+- Hypoxaemia is a fall in arterial PO2, and it has four classic mechanisms: hypoventilation lowers alveolar PO2 (and so arterial PO2) while raising PCO2; a diffusion defect (a thickened or reduced-area respiratory membrane) slows O2 transfer more than CO2 elimination, so PaO2 falls while PaCO2 may stay normal; ventilation-perfusion mismatch lets poorly ventilated but well-perfused lung units contribute desaturated blood to the pulmonary veins; and a right-to-left shunt (an anatomical bypass of ventilated alveoli) mixes fully deoxygenated blood directly into the arterial circulation, so PaO2 falls despite an entirely normal alveolar PO2.
+## answer_c
+Anemia
+## explanation_c
+Anaemia reduces the amount of haemoglobin available to carry oxygen, so it lowers blood oxygen content, not oxygen partial pressure — arterial and alveolar PO2 remain normal in anaemia.
+## answer_d
+Carbon monoxide poisoning
+## explanation_d
+Carbon monoxide occupies haemoglobin's oxygen-binding sites without changing how much dissolved O2 the plasma carries, so it lowers oxygen content, not PO2 — arterial and alveolar PO2 remain normal in CO poisoning.
+## correct_answer
+B
+## main_concept
+CON-RES-59FB00D6B96AE0
+## library_ids
+ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
+## topic
+Physiology Respiratory System — Gas Exchange in the Lung
+## subtopic
+Physiology Respiratory System — Gas Exchange in the Lung
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas exchange in the lung
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Classification
+## learning_objective
+Identify a right-to-left shunt as the cause of hypoxia that produces a low arterial PO2 with a normal alveolar PO2, and distinguish this pattern from hypoventilation (both fall) and from anaemia/CO poisoning (neither falls).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p8 q54. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 

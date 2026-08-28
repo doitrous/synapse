@@ -6,8 +6,86 @@ run24 was interrupted mid-Pulmonary-Compliance and never committed anything —
 its work is gone, redone cleanly in run25.
 
 Bank total: 1289 questions in `scripts/kasr/extract/104-CPS/mcq-bank.json`.
-As of this session's HEAD: **349 kept / 1114 keyed**, 55 excluded, 81 MCQ
+As of this session's HEAD: **352 kept / 1114 keyed**, 57 excluded, 83 MCQ
 concepts.
+
+## Gas exchange in the lung (5/7 triaged this session: 3 kept, 2 excluded;
+2 left unclaimed for other clusters — see below) — run26, NEW file
+`physiology-gas-exchange-in-the-lung.ts`. The dispatch brief flagged this
+leaf as needing a new physiology concept file + article scaffold; checked
+first per the brief and `ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING` was
+already live in `104-CPS-physiology.md` with `module_subject` matching this
+leaf exactly (diffusion physics, V/Q regional variation, physiologic
+shunt) — no article scaffold needed, only the new concept file.
+
+- **Reused `alveolar-capillary-diffusion.factors-determining-rate`**
+  (`CON-RES-C323EEF5DA30FF`, already hand-authored/pinned in
+  `104-CPS-physiology-concepts.md`) for the one question that is exactly
+  its own content (factors affecting respiratory-membrane diffusion rate:
+  thickness, surface area, diffusion coefficient). Sparse reuse row
+  confirmed in the built output.
+- **New mint: `hypoxemia.causes-and-distinction-from-non-hypoxemic-hypoxia`**
+  (`CON-RES-59FB00D6B96AE0`) for 2 questions (which of 4 listed items does
+  NOT cause hypoxaemia — left-to-right shunt is the exception; which cause
+  of hypoxia shows decreased arterial PO2 with normal alveolar PO2 —
+  right-to-left shunt, vs hypoventilation which drops both, vs
+  anaemia/CO poisoning which drop neither). Searched first
+  (`find-existing.mjs` "hypoxemia" / "hypoxaemia" / "right-to-left shunt" /
+  "alveolar PO2") and against this module's other two gas-exchange
+  concepts (V/Q regional variation; pulmonary physiologic shunt) — neither
+  covers hypoxaemia classification.
+  - **Overlap found and recorded, not a duplicate-mint**: a live,
+    different-textbook, Year-3, no-104-CPS-module topic catalogue exists —
+    `ART-RES-TOP-265990F7BD` ("Hypoxia", In review) with 12 linked concepts
+    (`CON-RES-22FEB4F22E7D79` anaemic hypoxia, `CON-RES-654A12F4B21CC0`
+    stagnant hypoxia, `CON-RES-A0F793A4A37DC0` histotoxic mechanism,
+    `CON-RES-723332CA1E127F` cyanotic shunt, several CO-poisoning
+    concepts) — classifying hypoxia **by type** for a topic overview. My
+    concept classifies hypoxaemia **by mechanism** (arterial-vs-alveolar
+    PO2 pattern) for this module's own gas-exchange chapter — genuinely
+    distinct objectives (matches the START-HERE tiebreaker: one record
+    could not answer both without becoming two stapled-together
+    paragraphs), recorded in the concept's own `conflicts` field. Note this
+    is **not** the `GENERATED_BY`-blind dedup case from the dispatch brief:
+    `existingConceptIds()` only scans `docs/Kasr-Source-Imports/concept/
+    104-CPS-*.md`, so it cannot see this live-production catalogue at all,
+    regardless of canonical_key — no sparse-update path exists here even in
+    principle. Same resolution pattern as the Pulmonary Compliance
+    cluster's FRC/lung-volumes overlap with its own Year-3 catalogue.
+  - **Disclosed two-sided article-coverage gap** (in the concept's own
+    `gaps` field): the covering article already teaches diffusion
+    impairment and V/Q-mismatch/shunt as hypoxaemia mechanisms in its
+    Clinical Significance section, but its prose does not yet explicitly
+    enumerate hypoventilation or altitude as causes, contrast
+    right-to-left against left-to-right shunt, or state that anaemia/CO
+    poisoning leave PaO2 unchanged. Not expanded by hand here — the
+    article's own sourced claims/spans are all tied to specific department-
+    book pages via the evidence pass, and inventing new prose without a
+    verified page citation would violate the "never invent a fact" rule.
+    Flagging for the article-authoring lane, same as Pulmonary
+    Compliance's LUNG-RECOIL-AND-SURFACTANT gap.
+- **Excluded (2)**: `respiratory-portions-for-aeb43c04` (already bank-
+  flagged `editorialExcluded` — corrupted option merge); `with-respect-to-
+  gas-exchange-across-the-alyeolar-membrane-ea528c00` (the bank's own
+  **correct answer**, option C, is corrupted — `‏و00‎` for the gas name,
+  `4S5mmHg` for the number — and unlike a distractor, a corrupted correct
+  answer cannot be guessed at; standard values make both "PO2 ≈ 40" and
+  "PCO2 ≈ 45" plausible reconstructions, so left unkeyed per the law of
+  priority rather than guessed).
+- **Left unclaimed (2), not authored, not lost** — genuinely mistagged,
+  belong to other not-yet-started clusters, matching the leaf-field-
+  unreliable hazard: `av-shunt-include-the-following-except-99b84173` is
+  about peripheral (finger/toe/placenta) arteriovenous anastomoses, not
+  pulmonary gas exchange at all — belongs to the **A-V Connections**
+  cluster (54 remaining rows). `with-respect-to-gas-exchange-across-the-
+  alveolar-membrane-e168f662` (Hb O2-carrying capacity, ~20ml O2/100ml
+  blood; Bohr-effect distractors) is genuinely **Gas Transport by the
+  Blood** content (24 remaining rows), not alveolar-membrane diffusion —
+  the existing gas-exchange article's scope is diffusion/V-Q/shunt only
+  and does not teach Hb-O2 binding at all. Neither key appears in any seed
+  file; the next pass on their true clusters will pick them up. **Do not
+  recount these as still-open Gas-exchange-in-the-lung work when both
+  clusters below show non-zero.**
 
 ## Control of Respiration (15/15 triaged this session: 9 kept, 6 excluded)
 — run26, extends the already-existing `physiology-control-of-respiration.ts`
@@ -265,23 +343,37 @@ of Human Chromosome / Thymus / Special Circulation / Alveolar Phagocytes.
 
 ## Next action (resume-first)
 
-**Control of Respiration is now fully closed** (15/15 triaged this session:
-9 kept, 6 excluded — 0 remaining bank rows for that leaf, see above).
-Pulmonary Compliance (27/30 triaged; 3 deferred to Vascular Function/GI —
-do not re-open) and Respiratory Portion (28/30 triaged, fully closed) were
-closed in run25. Continue "Lungs":
+**Both of this session's (run26's) dispatched clusters are now closed.**
+Control of Respiration: 15/15 triaged (9 kept, 6 excluded), 0 remaining
+bank rows. Gas exchange in the lung: 5/7 triaged (3 kept, 2 excluded), 2
+left unclaimed for their true clusters (A-V Connections; Gas Transport by
+the Blood — see above, do not recount as open gas-exchange work, but do
+not treat as "0 remaining" for THIS leaf's own recompute script either,
+since it still counts leaf-tag matches). Pulmonary Compliance and
+Respiratory Portion were closed in run25.
 
-1. **Gas exchange in the lung** (7 remaining) — the dispatch brief flags
-   this one needs a NEW physiology concept file + article scaffold before
-   its questions gate; do this deliberately, not as a quick add-on. Check
-   for an existing article to reuse first —
-   `ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING` already exists in
-   `104-CPS-physiology.md` and covers diffusion/V-Q/shunt — likely the
-   right home — before minting a phantom id. **Also search
-   `104-CPS-physiology-concepts.md` (and any Year-3 pulmonology catalogue)
-   for a pinned canonical_key before minting a concept** — Control of
-   Respiration this session found all 3 needed concepts already pinned
-   there, so check there first rather than assuming a fresh mint is needed.
+**This session's own dedup finding for the next lane to know about**: the
+live "Hypoxia" topic article (`ART-RES-TOP-265990F7BD`, Year 3, no 104 CPS
+module) and its 12 linked concepts are a THIRD other-pipeline catalogue
+alongside the two already documented (Pulmonary Compliance's FRC/lung-
+volumes catalogue; the written-paper `GENERATED_BY` surfactant concept) —
+add it to the standing list anyone touches when authoring hypoxia/shunt/
+anaemia-adjacent respiratory content.
+
+Remaining "Lungs"-adjacent work, not yet started, from the recompute
+script (rerun it, don't trust this count once anyone else has committed):
+58 Arteries, 54 A-V Connections, 47 Electrical Activity of the Heart, 36
+Mechanical Properties of Cardiac Muscle, 35 Vascular Function (+2 deferred
+from Pulmonary Compliance, +1 deferred from this session's gas-exchange
+pass = 38 effectively), 34 Veins, 26 Spleen, 24 Gas Transport by the Blood
+(+1 deferred from this session = 25 effectively), 21 Lymph node, 19
+Conducting Portion, 18 Basic Mechanisms of Circulatory Control, 17
+Tonsils, 13 Chromosomal Aberrations, 13 The heart, 1 each of Human
+Chromosome / Thymus / Special Circulation / Alveolar Phagocytes, plus 456
+`leaf:"(none)"` rows (topic-only, lower priority). None of the CVS
+histology/anatomy leaves have a dedicated seed file yet as of this
+checkpoint — check `cardiovascular-*.ts` files first, they may already own
+some of these.
 
 Then move to the CVS histology/anatomy leaves (Arteries 58, A-V
 Connections 54, Veins 34, Electrical Activity of the Heart 47,
