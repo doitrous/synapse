@@ -506,10 +506,31 @@ export interface ClinicalDecisionDraft {
   difficulty?: PracticalDifficulty
 }
 
+/**
+ * Presenting observations for a case, shown as a compact strip beside the
+ * decisions. All fields optional; a case with no `vitals` renders no strip.
+ * Units are fixed by convention (HR bpm, BP mmHg, RR /min, SpO₂ %, Temp °C,
+ * GCS /15, Glucose mmol/L) rather than stored, to keep authoring terse.
+ * `abnormal` is the author's clinical call *in context* (a normal range is
+ * age/sex/comorbidity dependent), listing which keys to flag.
+ */
+export interface Vitals {
+  hr?: number
+  bp?: string
+  rr?: number
+  spo2?: number
+  temp?: number
+  gcs?: number
+  glucose?: number
+  abnormal?: Array<'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'>
+  note?: string
+}
+
 export interface CaseAuthoringData extends PracticalCommon {
   format: 'case'
   decisions: ClinicalDecisionDraft[]
   debrief: string
+  vitals?: Vitals
 }
 
 export interface LabQuestionDraft {

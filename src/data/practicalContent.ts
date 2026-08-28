@@ -142,24 +142,12 @@ export interface CaseStage {
   optionExplanations?: string[]
   correctIndex?: number
 }
-/**
- * Presenting observations for a case, shown as a compact strip at the top of
- * the runner. All fields optional; a case with no `vitals` renders no strip.
- * Units are fixed by convention (documented per field) rather than stored, to
- * keep authoring terse. `abnormal` is the author's clinical call *in context*
- * (a normal range is age/sex/comorbidity dependent), listing the keys to flag.
- */
-export interface Vitals {
-  hr?: number       // heart rate — bpm
-  bp?: string       // blood pressure — "156/94" (mmHg)
-  rr?: number       // respiratory rate — breaths/min
-  spo2?: number     // oxygen saturation — %  (room air unless `note` says otherwise)
-  temp?: number     // temperature — °C
-  gcs?: number      // Glasgow Coma Scale — /15   (only when relevant)
-  glucose?: number  // capillary glucose — mmol/L (only when relevant)
-  abnormal?: Array<'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'>
-  note?: string     // short qualifier, e.g. "on 4 L O₂ via nasal cannula"
-}
+// `Vitals` is the authoring model's type (it also rides on imported cases), so
+// it lives in contentControl and is re-exported here for the seeded content and
+// the runner that already import it from this module.
+export type { Vitals } from '@/data/contentControl'
+import type { Vitals } from '@/data/contentControl'
+
 export interface CaseDetail {
   stages: CaseStage[]
   vitals?: Vitals

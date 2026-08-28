@@ -510,9 +510,9 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   // — "Take a structured <title> approach now" and two obviously wrong ones —
   // and mark the invented first option correct.
   const stages = (detail?.stages ?? []).filter((item) => (item.options?.length ?? 0) > 0)
-  // Vitals live on seeded case detail only; authored/imported cases have no
-  // vitals field yet (a separate import-schema follow-up).
-  const vitals = authored?.format === 'case' ? undefined : staticDetail?.vitals
+  // Authored/imported cases carry their own vitals; seeded demo cases keep
+  // theirs on the static detail.
+  const vitals = authored?.format === 'case' ? authored.vitals : staticDetail?.vitals
   const { record, } = useMastery()
   const { advanceCase } = usePracticalProgress()
   const logAttempt = useRecordAttempt()
