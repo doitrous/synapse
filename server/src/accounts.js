@@ -18,10 +18,21 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
+import { STORED_ROLES, canSetRole, effectiveRole, hasConsoleAccess, parseSuperAdminEmails, rank } from './roles.js'
+
+const superAdminEmails = parseSuperAdminEmails(process.env.SUPER_ADMIN_EMAILS)
 import { normaliseEmail, normalisePhone } from './identity.js'
 
 const SUPABASE_URL = process.env.SUPABASE_URL?.replace(/\/$/, '')
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
+
+function derivedYearId(universityId, year) {
+  const uni = String(universityId ?? '').replace(/[^A-Za-z0-9]/g, '').toUpperCase()
+  const label = String(year ?? '').trim()
+  const number = label.match(/\d+/)?.[0] ?? ''
+  if (!uni || !number) return null
+  return /internship/i.test(label) ? `${uni}_INT${number}` : `${uni}_Y${number}`
+}
 
 /** Reasons are required on every action, so an audit row is never bare. */
 export function readReason(body) {
@@ -79,7 +90,9 @@ export function addDays(from, days) {
 const USER_COLUMNS = `
   COALESCE(s.id, a.user_id) AS id,
   s.name, COALESCE(s.email, a.email) AS email,
-  s.university_id AS universityId, s.year, s.study_group AS studyGroup, s.plan, s.status,
+  s.university_id AS universityId, s.year, s.year_id AS yearId, s.study_group AS studyGroup, s.plan, s.status,
+  s.username, s.username_normalized AS usernameNormalized, s.profile_icon AS profileIcon,
+  s.discoverable, s.social_provider AS socialProvider, s.social_subject AS socialSubject,
   s.joined, s.last_active AS lastActive, s.questions_answered AS questionsAnswered,
   s.accuracy, s.readiness, COALESCE(s.user_id, a.user_id) AS userId, s.notes,
   a.role, a.status AS accessStatus, a.created_at AS identityCreatedAt,
@@ -130,8 +143,15 @@ function shape(row) {
     email: row.email,
     universityId: row.universityId,
     year: row.year,
+    yearId: row.yearId,
     group: row.studyGroup,
     status: row.status,
+    username: row.username,
+    usernameNormalized: row.usernameNormalized,
+    profileIcon: row.profileIcon,
+    discoverable: Boolean(row.discoverable),
+    socialProvider: row.socialProvider,
+    socialSubject: row.socialSubject,
     joined: row.joined,
     lastActive: row.lastActive,
     notes: row.notes,
@@ -218,7 +238,7 @@ export async function getUser(id) {
  * created from the identity rather than refusing the action. It carries the
  * Supabase user id as its own id, which keeps the two permanently aligned.
  */
-async function ensureStudentRow(conn, id) {
+export async function ensureStudentRow(conn, id) {
   const [existing] = await conn.query('SELECT id, user_id FROM students WHERE id = ? FOR UPDATE', [id])
   if (existing.length) return existing[0]
 
@@ -226,11 +246,51 @@ async function ensureStudentRow(conn, id) {
   if (!identity.length) return null
 
   await conn.query(
-    `INSERT INTO students (id, name, email, user_id, status, joined, questions_answered, accuracy, readiness)
-     VALUES (?, ?, ?, ?, 'Active', CURDATE(), 0, 0, 0)`,
+    `INSERT INTO students (id, name, email, user_id, status, joined, questions_answered, accuracy, readiness, discoverable)
+     VALUES (?, ?, ?, ?, 'Active', CURDATE(), 0, 0, 0, 0)`,
     [id, identity[0].email ?? null, identity[0].email ?? null, id],
   )
   return { id, user_id: id }
+}
+
+/**
+ * Whether classmates can find this student in the directory, as the student's
+ * own session sees it.
+ *
+ * Read directly by `user_id` rather than through `ensureStudentRow`, so
+ * checking the setting is never what creates the roster row — a student who
+ * has changed nothing still gets an honest answer. An absent row and a row
+ * nobody has touched mean the same thing here, because the column's own
+ * default is `0`: both read as private until the student opts in.
+ */
+export async function getDiscoverable(userId) {
+  const [rows] = await pool.query('SELECT discoverable FROM students WHERE user_id = ? LIMIT 1', [userId])
+  return rows.length ? Boolean(rows[0].discoverable) : false
+}
+
+/**
+ * Write the choice for the caller's own row.
+ *
+ * Writing is where the row has to exist, so this is the one place that calls
+ * `ensureStudentRow` on behalf of a student rather than an admin — with the
+ * caller's own verified id, which is exactly how that helper is keyed
+ * everywhere else it is used.
+ */
+export async function setDiscoverable(userId, value) {
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'not_found' } }
+    await conn.query('UPDATE students SET discoverable = ? WHERE user_id = ?', [value ? 1 : 0, userId])
+    await conn.commit()
+    return { ok: true, discoverable: Boolean(value) }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
 }
 
 export async function recordAction(conn, { studentId, userId, action, detail, reason, actorId }) {
@@ -356,11 +416,14 @@ export async function setAccessStatus(studentId, { status, reason, actorId }) {
 
     const [access] = await conn.query('SELECT role FROM user_access WHERE user_id = ? FOR UPDATE', [userId])
     if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
-    // Suspending an admin would remove the ability to undo it if it were the
-    // last one. Refusing here is cheaper than recovering from that.
-    if (access[0].role === 'admin' && status === 'suspended') {
+    // Suspending somebody who holds the console would remove the ability to
+    // undo it if they were the last one. Refusing here is cheaper than
+    // recovering from that. This reads console access rather than the single
+    // role 'admin', or widening the console to four roles would have quietly
+    // made editors and reviewers suspendable.
+    if (hasConsoleAccess(access[0].role) && status === 'suspended') {
       await conn.rollback()
-      return { error: 'cannot_suspend_admin' }
+      return { error: 'cannot_suspend_console' }
     }
 
     await conn.query('UPDATE user_access SET status = ? WHERE user_id = ?', [status, userId])
@@ -431,6 +494,61 @@ export async function requestPasswordReset(studentId, { reason, actorId }) {
 export const passwordResetConfigured = Boolean(SUPABASE_URL && SERVICE_ROLE_KEY)
 
 /**
+ * Set a user's password directly, on behalf of an editor or super admin.
+ *
+ * A password is only ever set for an account below editor — a student, a reviewer
+ * or an admin — so an editor can never reach a peer's or a super admin's
+ * credentials; the target's *effective* role is checked, so an allowlisted super
+ * admin whose row says otherwise is still out of reach. The new password is passed
+ * straight to Supabase and is never stored, logged or returned; only the fact that
+ * it was changed — by whom, for whom, and why — is written to the audit trail.
+ */
+export async function setUserPassword(studentId, { password, reason, actorId }) {
+  const pass = String(password ?? '')
+  if (pass.length < 8) return { error: 'weak_password' }
+
+  const [rows] = await pool.query(
+    `SELECT COALESCE(s.email, a.email) AS email, COALESCE(s.user_id, a.user_id) AS userId
+       FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id
+      WHERE a.user_id = ?
+      UNION ALL
+     SELECT s.email, s.user_id FROM students s WHERE s.id = ? LIMIT 1`,
+    [studentId, studentId],
+  )
+  if (!rows.length) return { error: 'not_found' }
+  const { email, userId } = rows[0]
+  if (!userId) return { error: 'no_identity' }
+
+  // Authoritative role, by user id — so a lookup by roster id can't understate it.
+  const [accessRows] = await pool.query('SELECT role, email FROM user_access WHERE user_id = ?', [userId])
+  const targetRole = effectiveRole(accessRows[0]?.email ?? email, accessRows[0]?.role ?? null, superAdminEmails)
+  if (rank(targetRole) >= 2) return { error: 'forbidden_target' }
+
+  if (!SUPABASE_URL || !SERVICE_ROLE_KEY) return { error: 'supabase_not_configured' }
+  const response = await fetch(`${SUPABASE_URL}/auth/v1/admin/users/${encodeURIComponent(userId)}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${SERVICE_ROLE_KEY}`,
+    },
+    body: JSON.stringify({ password: pass }),
+  })
+  if (!response.ok) return { error: 'supabase_rejected', status: response.status }
+
+  const conn = await pool.getConnection()
+  try {
+    await recordAction(conn, {
+      studentId, userId, action: 'password.set',
+      detail: `password set for ${email}`, reason, actorId,
+    })
+  } finally {
+    conn.release()
+  }
+  return { ok: true }
+}
+
+/**
  * Which family a per-user state key belongs to.
  *
  * `user_state` is a key-value store whose keys encode what they are —
@@ -444,6 +562,7 @@ export function stateFamily(key) {
   if (/^synapse\.qbank\./.test(key)) return 'Question bank'
   if (/^synapse\.practical\./.test(key)) return 'Practicals'
   if (/^synapse\.progress\./.test(key)) return 'Progress'
+  if (/^synapse\.maristanas\./.test(key)) return 'Maristanas'
   if (/^synapse\.notebook\./.test(key)) return 'Notebook'
   if (/^synapse\.whiteboard\./.test(key)) return 'Whiteboards'
   if (/^synapse\.highlights\./.test(key)) return 'Highlights'
@@ -505,8 +624,8 @@ export async function getUserActivity(userId) {
  * Demoting the last admin is refused. There is no way back from an estate with
  * no administrator that does not involve editing the database by hand.
  */
-export async function setRole(studentId, { role, reason, actorId }) {
-  if (!['student', 'admin'].includes(role)) return { error: 'invalid_role' }
+export async function setRole(studentId, { role, reason, actorId, actorRole }) {
+  if (!STORED_ROLES.includes(role)) return { error: 'invalid_role' }
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
@@ -515,16 +634,26 @@ export async function setRole(studentId, { role, reason, actorId }) {
     const userId = student.user_id
     if (!userId) { await conn.rollback(); return { error: 'no_identity' } }
 
-    const [access] = await conn.query('SELECT role, status FROM user_access WHERE user_id = ? FOR UPDATE', [userId])
+    const [access] = await conn.query(
+      'SELECT role, status, email FROM user_access WHERE user_id = ? FOR UPDATE', [userId],
+    )
     if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
     if (access[0].status !== 'active') { await conn.rollback(); return { error: 'suspended' } }
+
+    // The target's rank is their *effective* one, so an allowlisted super admin
+    // cannot be demoted by writing to their row.
+    const targetRole = effectiveRole(access[0].email, access[0].role, superAdminEmails)
+    if (!canSetRole(actorRole, targetRole, role)) { await conn.rollback(); return { error: 'forbidden' } }
     if (access[0].role === role) { await conn.rollback(); return { error: 'unchanged' } }
 
-    if (access[0].role === 'admin' && role === 'student') {
-      const [[{ admins }]] = await conn.query(
-        "SELECT COUNT(*) AS admins FROM user_access WHERE role = 'admin' AND status = 'active'",
+    // Somebody must be able to open the console tomorrow. The allowlist makes
+    // this near-impossible to trip, but an allowlisted account that has never
+    // signed in owns no row, so the net stays.
+    if (rank(targetRole) >= 1 && rank(role) < 1) {
+      const [[{ consoles }]] = await conn.query(
+        "SELECT COUNT(*) AS consoles FROM user_access WHERE role <> 'student' AND status = 'active'",
       )
-      if (admins <= 1) { await conn.rollback(); return { error: 'last_admin' } }
+      if (consoles <= 1) { await conn.rollback(); return { error: 'last_console' } }
     }
 
     await conn.query(
@@ -541,6 +670,51 @@ export async function setRole(studentId, { role, reason, actorId }) {
     })
     await conn.commit()
     return { ok: true, role }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}
+
+/**
+ * Which modules and years a reviewer may write.
+ *
+ * Audited exactly like a role change, because it is one: widening somebody's
+ * scope is widening their access, and "who gave them Year 4" is the same class
+ * of question as "who made them a reviewer".
+ */
+export async function setContentScope(studentId, { moduleIds, yearIds, reason, actorId, actorRole }) {
+  const clean = (value) => [...new Set((Array.isArray(value) ? value : [])
+    .map((entry) => String(entry ?? '').trim())
+    .filter(Boolean))]
+  const scope = { moduleIds: clean(moduleIds), yearIds: clean(yearIds) }
+  const stored = scope.moduleIds.length || scope.yearIds.length ? JSON.stringify(scope) : null
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, studentId)
+    if (!student) { await conn.rollback(); return { error: 'not_found' } }
+    const userId = student.user_id
+    if (!userId) { await conn.rollback(); return { error: 'no_identity' } }
+
+    const [access] = await conn.query(
+      'SELECT role, status, email FROM user_access WHERE user_id = ? FOR UPDATE', [userId],
+    )
+    if (!access.length) { await conn.rollback(); return { error: 'no_identity' } }
+    const targetRole = effectiveRole(access[0].email, access[0].role, superAdminEmails)
+    // Scope only means anything for a reviewer, and you must outrank them.
+    if (rank(actorRole) <= rank(targetRole)) { await conn.rollback(); return { error: 'forbidden' } }
+    if (targetRole !== 'reviewer') { await conn.rollback(); return { error: 'not_scoped' } }
+
+    await conn.query('UPDATE user_access SET content_scope = ? WHERE user_id = ?', [stored, userId])
+    await recordAction(conn, {
+      studentId, userId, action: 'access.scope', detail: stored ?? 'none', reason, actorId,
+    })
+    await conn.commit()
+    return { ok: true, scope: stored ? scope : null }
   } catch (error) {
     await conn.rollback()
     throw error
@@ -572,4 +746,181 @@ export async function identifierTaken({ email, phone }) {
     email: Boolean(cleanEmail && Number(rows?.[0]?.emailTaken ?? 0) > 0),
     phone: Boolean(cleanPhone && Number(rows?.[0]?.phoneTaken ?? 0) > 0),
   }
+}
+
+/* ── The student's own enrolment ─────────────────────────────────────────── */
+
+/** Full access for a new account, for this many days, however they arrive. */
+export const TRIAL_DAYS = 3
+
+function trimmed(value, max) {
+  const text = String(value ?? '').trim()
+  return text ? text.slice(0, max) : null
+}
+
+export function normaliseUsername(value) {
+  return normalisedUsernameText(value).slice(0, 32)
+}
+
+function normalisedUsernameText(value) {
+  return String(value ?? '')
+    .trim()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9_]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/-{2,}/g, '-')
+}
+
+export function usernameProblem(value) {
+  const raw = String(value ?? '').trim()
+  if (!raw) return 'username_required'
+  const normalized = normalisedUsernameText(raw)
+  if (normalized.length < 3) return 'username_too_short'
+  if (normalized.length > 32) return 'username_too_long'
+  if (!/^[a-z0-9][a-z0-9_-]*[a-z0-9]$/.test(normalized)) return 'username_format'
+  return null
+}
+
+export function normaliseProfileIcon(value) {
+  const icon = String(value ?? '').trim().slice(0, 64)
+  if (!icon) return null
+  return /^[a-z][a-z0-9_-]{1,63}$/i.test(icon) ? icon : null
+}
+
+export async function usernameConflict(conn, { universityId, usernameNormalized, studentId }) {
+  if (!universityId || !usernameNormalized) return false
+  const [rows] = await conn.query(
+    `SELECT id FROM students
+      WHERE university_id = ? AND username_normalized = ? AND id <> ?
+      LIMIT 1`,
+    [universityId, usernameNormalized, studentId ?? ''],
+  )
+  return rows.length > 0
+}
+
+/**
+ * Where this account studies, written where every device can read it.
+ *
+ * This is the single source of truth the app was missing. The answers to
+ * onboarding used to live in a browser document, so two browsers signed into
+ * one account could — and did — disagree about which year the student was in.
+ * A row in `students`, keyed to the Supabase user id, cannot: the server is the
+ * only writer, ownership is a `WHERE user_id = ?`, and `/api/me` reads it back
+ * for everybody.
+ *
+ * The name, phone and nationality collected at sign-up live only in Supabase
+ * user metadata until this runs, which is also why phone uniqueness had nothing
+ * to check against. They are carried here on the first enrolment. A phone that
+ * belongs to somebody else is dropped rather than refused: it is not worth
+ * blocking a student out of their own account over, and the number is not a
+ * credential.
+ */
+export async function saveOwnEnrolment(userId, input) {
+  const universityId = trimmed(input?.universityId, 64)
+  const year = trimmed(input?.year, 32)
+  if (!universityId || !year) return { error: 'university_and_year_required' }
+  const yearId = trimmed(input?.yearId, 64) ?? derivedYearId(universityId, year)
+  const group = trimmed(input?.group, 120)
+  const name = trimmed(input?.name, 255)
+  const nationality = trimmed(input?.nationality, 64)
+  const phone = normalisePhone(input?.phone)
+  const plan = trimmed(input?.plan, 64)
+  const username = trimmed(input?.username, 32)
+  const profileIcon = normaliseProfileIcon(input?.profileIcon)
+  const usernameNormalized = username ? normaliseUsername(username) : null
+  const usernameError = username ? usernameProblem(username) : null
+  if (usernameError) return { error: usernameError }
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const student = await ensureStudentRow(conn, userId)
+    if (!student) { await conn.rollback(); return { error: 'no_identity' } }
+
+    // Only if it is free. The UNIQUE index would otherwise abort the whole
+    // transaction and lose the enrolment along with it.
+    let storedPhone = null
+    if (phone) {
+      const [held] = await conn.query('SELECT id FROM students WHERE phone = ? AND id <> ? LIMIT 1', [phone, student.id])
+      if (!held.length) storedPhone = phone
+    }
+
+    /**
+     * A roster row created from an identity alone has no name to put in it, so
+     * `ensureStudentRow` fills the column with the email address. That is a
+     * placeholder, not a name — and `COALESCE(name, ?)` treated it as one, so
+     * the real name carried from sign-up was discarded and every student was
+     * greeted by their own email address.
+     *
+     * A stored name that is anything other than the email was put there
+     * deliberately, by an administrator, and is never overwritten from here.
+     */
+    const [[stored]] = await conn.query(
+      'SELECT name, email, university_id AS universityId, year, year_id AS yearId, username_normalized AS usernameNormalized FROM students WHERE id = ?',
+      [student.id],
+    )
+    const lockedUniversity = Boolean(stored?.universityId)
+    const lockedYear = Boolean(stored?.year)
+    const lockedChanges = []
+    if (lockedUniversity && stored.universityId !== universityId) lockedChanges.push('university')
+    if (lockedYear && stored.year !== year) lockedChanges.push('year')
+    if (lockedChanges.length) {
+      await conn.rollback()
+      return { error: 'enrollment_locked', fields: lockedChanges }
+    }
+    if (usernameNormalized && await usernameConflict(conn, { universityId, usernameNormalized, studentId: student.id })) {
+      await conn.rollback()
+      return { error: 'username_taken' }
+    }
+    const placeholder = !stored?.name || stored.name === stored.email
+    const finalName = placeholder ? (name ?? stored?.name ?? null) : stored.name
+
+    await conn.query(
+      `UPDATE students
+          SET university_id = ?,
+              year = ?,
+              year_id = COALESCE(year_id, ?),
+              study_group = ?,
+              name = ?,
+              nationality = COALESCE(nationality, ?),
+              phone = COALESCE(phone, ?),
+              username = COALESCE(?, username),
+              username_normalized = COALESCE(?, username_normalized),
+              profile_icon = COALESCE(?, profile_icon),
+              discoverable = COALESCE(discoverable, 0),
+              status = COALESCE(status, 'Active'),
+              joined = COALESCE(joined, CURDATE())
+        WHERE id = ?`,
+      [universityId, year, yearId, group, finalName, nationality, storedPhone, username, usernameNormalized, profileIcon, student.id],
+    )
+
+    // The trial is granted once, by the server, so it starts when the account
+    // was actually enrolled and expires at the same moment on every device.
+    // An account that already has a subscription — a paid one, or a trial from
+    // a previous sign-in — keeps it.
+    const [current] = await conn.query(
+      `SELECT id FROM subscriptions WHERE student_id = ? AND status <> 'cancelled' LIMIT 1`,
+      [student.id],
+    )
+    if (!current.length) {
+      const now = new Date()
+      await conn.query(
+        `INSERT INTO subscriptions (id, student_id, plan, status, started_at, expires_at, source, granted_by, note)
+         VALUES (?, ?, ?, 'trialing', ?, ?, 'trial', ?, ?)`,
+        [randomUUID(), student.id, plan ?? 'Free', now, addDays(now, TRIAL_DAYS), userId, `${TRIAL_DAYS}-day trial on enrolment`],
+      )
+      if (plan) await conn.query('UPDATE students SET plan = ? WHERE id = ?', [plan, student.id])
+    }
+
+    await conn.commit()
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+
+  return { ok: true, profile: await getUserByIdentity(userId) }
 }

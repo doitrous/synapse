@@ -1,3 +1,4 @@
+import type { MediaPlacement } from './mediaLibrary.ts'
 export type Difficulty = 'Easy' | 'Moderate' | 'Hard' | 'Challenging'
 
 /** The bands in ascending order of demand, for anything that has to rank them. */
@@ -42,6 +43,8 @@ export interface Question {
   libraryRefs: LibraryRef[]
   resourceRefs: string[]
   attachedImage?: string
+  /** Images placed by slot — stem, an answer letter, or the explanation. */
+  media?: MediaPlacement[]
   attachments?: QuestionMedia[]
   /** What a correct response demonstrates. Held back until the answer is revealed. */
   learningObjective?: string

@@ -25,6 +25,52 @@ review, and the folder's `INDEX.md` should say which is which either way.
 
 ---
 
+## Priority of sources
+
+Highest first (00 §A), and a practical format is where this matters most, because a station
+written from the wrong tier teaches the wrong exam:
+
+1. This department's own practical atlas, OSCE bank, or station sheets — official.
+2. Other official files for the same module (lecture handouts, past mark schemes).
+3. Doctor notes, student notes, academy material — tier ≤5, never the sole source of a
+   mark-scheme item.
+4. A standard textbook, only where the corpus has no department text, cited as such.
+
+**Another university's OSCE bank or atlas is never this university's signal.** It may confirm
+a finding is genuine, never that it is examined here.
+
+## Media (S6 of the pipeline)
+
+An item that needs an image, specimen, slide or film to be answerable carries
+`media_recommendations` and is **marked as a request, never rewritten into prose** that
+describes the asset instead of showing it. This is stage S6 (see
+[13-orchestration.md](13-orchestration.md) §4); an item with an open, correctly-formed
+request is importable now and completes S6 once the asset lands.
+
+## Scope: universities and module
+
+A practical station is scoped exactly as a question is: by `universities`, `years` and
+`module` — ID lists with the standard rules (`\|`, `;` or newline; leading `+` appends; an
+absent column leaves the existing value untouched). The record has always carried
+`universityIds`/`yearIds`/`moduleIds` and the Practical editor could set them; until
+2026-08-22 the importer had no column to read, so every imported station arrived unscoped.
+An empty `universities` list means EVERY university. Scope is separate from concept tagging
+and `module_subject`.
+
+No practical is live yet — the content ledger holds zero — but 52 stations already authored
+in the Kasr batches are unscoped and must gain these three columns before import.
+
+## Stages and completeness
+
+A station is not "done" the day it validates. It passes through the stages in
+[13-orchestration.md](13-orchestration.md) §4 — S2 build, S3 tag & place, S6 media, S7
+completeness — and a station is only finished once its `fieldsUsed` (or, here, the
+mark-scheme-item count) meets this type's floor and every media request from S6 is either
+supplied or still tracked. Do not report a station "complete" on the strength of `medical:batch`
+alone; `medical:audit` and the media ledger are part of the same gate.
+
+---
+
 ## Shared practical fields
 
 Every practical format carries these. They are restated in each of manuals 06–10 so you
@@ -34,13 +80,20 @@ can work from one file.
 |---|---|---|---|
 | `type` | Practical format | **yes** | `OSCE station` here. Exact string — see the box above. |
 | `title` | Title | **yes** | What the station is. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |
 | `duration` | Duration | no | Expected minutes. |
 | `marks` | Marks / decisions | no | Recomputed on save as the sum of your mark-section marks — write it anyway for the human reading the batch. |
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. Whole-item difficulty. |
+| `station_image` | Station media URL | no | A real working managed-media URL the station is built around. The legacy key name is retained for import compatibility. |
+| `station_media_type` | Station media type | no | `image`, `audio`, or `video`. Required for audio/video; defaults to `image` for legacy rows. |
+| `station_media_mime_type` | Station media MIME type | no | The verified MIME type, e.g. `video/mp4` or `audio/mpeg`. |
+| `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
+| `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
+| `years` | Year IDs | — | Year IDs this station is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
+| `module` | Module ID(s) | — | Module ID(s) this station sits under (Kasr `101 ISK`; other universities prefixed, e.g. `AU-MED-102`). |
 | `main_concept` | Main concept(s) | — | What this station is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | What it also genuinely assesses. Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | What the scenario needs but never tests. **Awards no mastery.** |
@@ -252,16 +305,21 @@ above, enforced.
 
 ## Media
 
-> **This format has no field for real media.** `OsceAuthoringData` — which backs both OSCE
-> stations and skills checklists — carries no media URL of any kind, and neither does a
-> clinical case decision. The only media a practical can hold is a **request**, which is an
-> instruction to a human and never renders to a student.
->
-> So you cannot attach an ECG, a photograph, a heart sound or a clip here at all. Your
-> options are: request it and let a human place it once real media exists, or, if the item
-> genuinely turns on the asset, write it as an MCQ instead — a question's `## attachments`
-> takes `image`, `audio` and `video`, and is the only student-facing item that does. See
-> [05-questions.md](05-questions.md) §Media.
+A fulfilled station can render an image, recording, or clip through `station_image` (the
+legacy key name), `station_media_type`, and `station_media_mime_type`. Use only a real,
+rights-cleared managed-media URL. Until that asset exists, omit those fields and keep the
+need in `media_recommendations`; required unresolved requests block publication.
+
+```markdown
+## station_image
+/media/med-verified-heart-sound
+
+## station_media_type
+audio
+
+## station_media_mime_type
+audio/mpeg
+```
 
 Stations often need an ECG, a radiograph, or a heart-sound recording to hand the candidate.
 Never invent a URL.

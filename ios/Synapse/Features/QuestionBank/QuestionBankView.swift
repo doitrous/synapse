@@ -2,6 +2,7 @@ import SwiftUI
 
 /// Drill the question bank: build a sitting, answer, read why.
 struct QuestionBankView: View {
+    @Environment(\.strings) private var strings
     @State private var model: QuestionBankModel
     @State private var qbank: QBankStore
     @State private var mastery: MasteryModel
@@ -20,7 +21,7 @@ struct QuestionBankView: View {
         NavigationStack {
             Group {
                 if model.isLoading {
-                    ProgressView().tint(Theme.accent)
+                    ProgressView().tint(Theme.primary)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if let reason = model.emptyReason {
                     EmptyStateView(symbol: "questionmark.circle", title: "No questions yet", detail: reason)
@@ -33,7 +34,7 @@ struct QuestionBankView: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("Question bank")
+            .navigationTitle(strings("Question bank"))
             .navigationBarTitleDisplayMode(model.phase == .building ? .large : .inline)
         }
         .task {
@@ -64,6 +65,7 @@ struct QuestionBankView: View {
 // MARK: - Building
 
 private struct SessionBuilder: View {
+    @Environment(\.strings) private var strings
     @Bindable var model: QuestionBankModel
     var store: QBankStore
 
@@ -110,6 +112,7 @@ private struct SessionBuilder: View {
                 scope: $model.scope,
                 subjectName: { $0.uppercased() }
             )
+        .localisedSheet()
         }
     }
 
@@ -131,7 +134,7 @@ private struct SessionBuilder: View {
                                 .foregroundStyle(Theme.ink2)
                         }
                     }
-                    Button("Start again instead", role: .destructive) {
+                    Button(strings("Start again instead"), role: .destructive) {
                         Task { await store.clearLive() }
                     }
                     .font(Theme.ui(14))
@@ -139,7 +142,7 @@ private struct SessionBuilder: View {
                 .listRowBackground(Theme.surface)
             }
 
-            Section("Quick start") {
+            Section(strings("Quick start")) {
                 ForEach(QBankPreset.allCases) { preset in
                     let pool = model.preset(preset)
                     Button {
@@ -147,7 +150,7 @@ private struct SessionBuilder: View {
                     } label: {
                         HStack(spacing: 10) {
                             Image(systemName: preset.symbol)
-                                .foregroundStyle(pool.isEmpty ? Theme.ink3 : Theme.accent)
+                                .foregroundStyle(pool.isEmpty ? Theme.ink3 : Theme.primary)
                                 .frame(width: 22)
                             Text(preset.title)
                                 .font(Theme.ui(15))
@@ -163,7 +166,7 @@ private struct SessionBuilder: View {
             }
             .listRowBackground(Theme.surface)
 
-            Section("How") {
+            Section(strings("How")) {
                 Picker("Mode", selection: $model.mode) {
                     ForEach(SittingMode.allCases, id: \.self) { Text($0.label).tag($0) }
                 }
@@ -183,23 +186,23 @@ private struct SessionBuilder: View {
                     } label: {
                         Label("^[\(store.markedCount) flagged question](inflect: true)", systemImage: "flag.fill")
                             .font(Theme.ui(15, weight: 600))
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                     }
                 } footer: {
-                    Text("The ones you marked to come back to.")
+                    Text(strings("The ones you marked to come back to."))
                         .font(Theme.ui(13))
                 }
                 .listRowBackground(Theme.surface)
             }
 
-            Section("Scope") {
+            Section(strings("Scope")) {
                 Button { choosing = true } label: {
                     HStack {
-                        Text("What to study")
+                        Text(strings("What to study"))
                             .foregroundStyle(Theme.ink)
                         Spacer()
                         Text(scopeSummary)
-                            .foregroundStyle(Theme.accent)
+                            .foregroundStyle(Theme.primary)
                         Image(systemName: "chevron.right")
                             .font(.system(size: 12, weight: .semibold))
                             .foregroundStyle(Theme.ink3)
@@ -209,7 +212,7 @@ private struct SessionBuilder: View {
             }
             .listRowBackground(Theme.surface)
 
-            Section("Length") {
+            Section(strings("Length")) {
                 Picker("Questions", selection: $model.length) {
                     ForEach([5, 10, 20, 40], id: \.self) { Text("\($0)").tag($0) }
                 }
@@ -232,13 +235,13 @@ private struct SessionBuilder: View {
                         existing: Array(store.names.values)
                     ))
                 } label: {
-                    Text("Start")
+                    Text(strings("Start"))
                         .font(Theme.ui(16, weight: 600))
                         .frame(maxWidth: .infinity)
                         .frame(height: 44)
                 }
-                .listRowBackground(Theme.accent)
-                .foregroundStyle(Theme.onAccent)
+                .listRowBackground(Theme.primary)
+                .foregroundStyle(Theme.onPrimary)
             } footer: {
                 Text("\(matching) question\(matching == 1 ? "" : "s") available.")
                     .font(Theme.ui(13))
@@ -270,6 +273,7 @@ private struct SessionBuilder: View {
 // MARK: - Running
 
 private struct Runner: View {
+    @Environment(\.strings) private var strings
     let model: QuestionBankModel
     var store: QBankStore?
 
@@ -321,12 +325,14 @@ private struct Runner: View {
                     model.go(to: position)
                     showingNavigator = false
                 }
+                .localisedSheet()
             }
             .sheet(isPresented: $showingNote) {
                 QuestionNoteSheet(text: $noteText, store: store) {
                     guard let id = model.current?.id else { return }
                     Task { await store?.saveNote(noteText, for: id) }
                 }
+                .localisedSheet()
             }
             .onChange(of: model.index) { _, _ in showingWrongAnswers = false }
         }
@@ -345,7 +351,7 @@ private struct Runner: View {
                     .font(Theme.ui(16, weight: 600))
                     .frame(width: 48, height: 48)
                     .background(Theme.surface)
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
                     .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
             }
             .disabled(model.index == 0)
@@ -355,17 +361,20 @@ private struct Runner: View {
         }
         .padding(.horizontal, 20)
         .padding(.bottom, 8)
-        .background(.ultraThinMaterial)
+        .floatingChrome(in: Rectangle())
     }
 
     /// Flag, note and the jump grid, for the question on screen.
     @ToolbarContentBuilder var questionActions: some ToolbarContent {
         ToolbarItem(placement: .topBarTrailing) {
+            AssistantButton(surface: "Question Bank")
+        }
+        ToolbarItem(placement: .topBarTrailing) {
             Button { showingNavigator = true } label: {
                 Label("\(model.index + 1) / \(model.session.count)", systemImage: "square.grid.3x3")
                     .font(Theme.numeric(13))
             }
-            .tint(Theme.accent)
+            .tint(Theme.primary)
         }
         if let question = model.current, let store {
             ToolbarItem(placement: .topBarTrailing) {
@@ -374,7 +383,7 @@ private struct Runner: View {
                 } label: {
                     Image(systemName: store.isMarked(question.id) ? "flag.fill" : "flag")
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .accessibilityLabel(store.isMarked(question.id) ? "Unflag" : "Flag for later")
             }
             ToolbarItem(placement: .topBarTrailing) {
@@ -384,8 +393,8 @@ private struct Runner: View {
                 } label: {
                     Image(systemName: store.note(question.id).isEmpty ? "note.text" : "note.text.badge.plus")
                 }
-                .tint(Theme.accent)
-                .accessibilityLabel("Your note")
+                .tint(Theme.primary)
+                .accessibilityLabel(strings("Your note"))
             }
         }
     }
@@ -409,8 +418,8 @@ private struct Runner: View {
                 .font(Theme.ui(16, weight: 600))
                 .frame(maxWidth: .infinity)
                 .frame(height: 48)
-                .background(Theme.accent)
-                .foregroundStyle(Theme.onAccent)
+                .background(Theme.primary)
+                .foregroundStyle(Theme.onPrimary)
                 .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
         }
         .padding(.horizontal, 20)
@@ -495,7 +504,7 @@ private struct Runner: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 } label: {
                     HStack(spacing: 8) {
-                        Text("Why the wrong answers are wrong")
+                        Text(strings("Why the wrong answers are wrong"))
                             .font(Theme.ui(14, weight: 600))
                             .foregroundStyle(Theme.ink)
                         Text("\(wrong.count)")
@@ -506,7 +515,7 @@ private struct Runner: View {
                             .background(Theme.inset, in: Capsule())
                     }
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .padding(14)
                 .background(Theme.surface)
                 .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
@@ -516,7 +525,7 @@ private struct Runner: View {
             // Named last because it states what the question was testing —
             // shown earlier it would give the answer away.
             if let objective = question.learningObjective, !objective.isEmpty {
-                block("What this tests", symbol: nil, tint: Theme.accentStrong, text: objective)
+                block("What this tests", symbol: nil, tint: Theme.primaryStrong, text: objective)
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
@@ -544,79 +553,11 @@ private struct Runner: View {
     }
 }
 
-private struct OptionRow: View {
-    enum State { case unanswered, chosen, correct, chosenWrong, otherWrong }
-
-    let option: AnswerOption
-    let state: State
-    let isAnswered: Bool
-    let choose: () -> Void
-
-    var body: some View {
-        Button(action: choose) {
-            VStack(alignment: .leading, spacing: 8) {
-                HStack(alignment: .top, spacing: 10) {
-                    Text(option.label)
-                        .font(Theme.numeric(13))
-                        .foregroundStyle(labelColor)
-                        .frame(width: 20, alignment: .leading)
-                    Text(option.text)
-                        .font(Theme.ui(15))
-                        .foregroundStyle(Theme.ink)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    if let symbol {
-                        Image(systemName: symbol).foregroundStyle(labelColor)
-                    }
-                }
-
-            }
-            .padding(14)
-            .background(background)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(border, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
-        }
-        .buttonStyle(.plain)
-        .disabled(isAnswered)
-    }
-
-    private var symbol: String? {
-        switch state {
-        case .correct: "checkmark"
-        case .chosenWrong: "xmark"
-        default: nil
-        }
-    }
-
-    private var labelColor: Color {
-        switch state {
-        case .correct: Theme.success
-        case .chosenWrong: Theme.danger
-        case .chosen: Theme.accentStrong
-        default: Theme.ink3
-        }
-    }
-
-    private var background: Color {
-        switch state {
-        case .unanswered, .otherWrong: Theme.surface
-        case .chosen: Theme.accentTint
-        case .correct, .chosenWrong: Theme.surface2
-        }
-    }
-
-    private var border: Color {
-        switch state {
-        case .correct: Theme.success
-        case .chosenWrong: Theme.danger
-        case .chosen: Theme.accent
-        default: Theme.line
-        }
-    }
-}
 
 // MARK: - Results
 
 private struct Results: View {
+    @Environment(\.strings) private var strings
     let model: QuestionBankModel
 
     var body: some View {
@@ -626,7 +567,7 @@ private struct Results: View {
                     Text("\(model.correctCount) of \(model.answers.count)")
                         .font(Theme.numeric(34))
                         .foregroundStyle(Theme.ink)
-                    Text("correct")
+                    Text(strings("correct"))
                         .font(Theme.ui(15))
                         .foregroundStyle(Theme.ink2)
                 }
@@ -652,9 +593,9 @@ private struct Results: View {
                 .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
                 .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
 
-                Button("Another sitting") { model.restart() }
+                Button(strings("Another sitting")) { model.restart() }
                     .font(Theme.ui(16, weight: 600))
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
             }
             .padding(20)
             .frame(maxWidth: 680)

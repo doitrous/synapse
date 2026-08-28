@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { Activity } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
-import { currentStreak, dailyCounts, longestStreak, type DayCount } from '@/data/attemptStats'
+import { bySession, currentStreak, dailyCounts, longestStreak, type DayCount } from '@/data/attemptStats'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
 import { formatDayLabel } from '@/lib/format'
 import { useT } from '@/lib/i18n'
@@ -10,6 +10,7 @@ import { useT } from '@/lib/i18n'
 const DAY_MS = 86_400_000
 const WEEKS = 17
 const DAYS = WEEKS * 7
+const WEEKDAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const SCALE = [
   'var(--color-scale-0)',
   'var(--color-scale-1)',
@@ -84,10 +85,32 @@ export function StudyHeatmap() {
   const streak = currentStreak(records)
   const longest = longestStreak(records)
 
+  // This week's volume: the window's last 7 entries, since `cells` already
+  // runs oldest-to-newest and ends today.
+  const weeklyVolume = cells.slice(-7).reduce((sum, cell) => sum + cell.attempts, 0)
+
+  // The weekday that has pulled the most answers across the whole window —
+  // "useful" only once there is more than a few days to average over.
+  const bestWeekday = useMemo(() => {
+    const totals = new Array<number>(7).fill(0)
+    for (const cell of cells) totals[cell.day.getDay()] += cell.attempts
+    const max = Math.max(...totals)
+    if (max <= 0) return null
+    return WEEKDAY_NAMES[totals.indexOf(max)]
+  }, [cells])
+
+  // Mean wall-clock length of a sitting, from the sessions the log actually
+  // timed — a station ticked with no clock running contributes nothing here.
+  const avgSessionMinutes = useMemo(() => {
+    const sessions = bySession(records).filter((session) => session.seconds > 0)
+    if (!sessions.length) return null
+    return Math.round(sessions.reduce((sum, session) => sum + session.seconds, 0) / sessions.length / 60)
+  }, [records])
+
   return (
     <Panel className="h-full min-w-0">
       <PanelHeader
-        title={t('Study heatmap')}
+        title={t('Study rhythm')}
         icon={Activity}
         hint={t('Questions answered per day · last 17 weeks')}
         action={
@@ -154,12 +177,15 @@ export function StudyHeatmap() {
             <span>{t('More')}</span>
           </div>
         </div>
-        <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-4">
+        <div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-4 lg:grid-cols-7">
           {[
             [t('Daily average'), activeDays ? `${dailyAverage} ${t('a day')}` : '—'],
             [t('Days learned'), cells.length ? `${Math.round((activeDays / cells.length) * 100)}%` : '—'],
             [t('Longest streak'), `${longest} ${t('days')}`],
             [t('Current streak'), `${streak} ${t('days')}`],
+            [t('This week'), `${weeklyVolume} ${t('answered')}`],
+            [t('Best day'), bestWeekday ? t(bestWeekday) : '—'],
+            [t('Avg. session'), avgSessionMinutes ? `${avgSessionMinutes} ${t('min')}` : '—'],
           ].map(([label, value]) => (
             <div key={label} className="bg-surface px-3 py-2.5">
               <p className="tnum font-mono text-[14px] font-semibold text-ink">{value}</p>

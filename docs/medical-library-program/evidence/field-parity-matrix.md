@@ -6,21 +6,27 @@ drift when a field is added.
 
 | Content type | Model | Model fields | Import columns | Importable | Gaps | Not applicable |
 |---|---|---:|---:|---:|---:|---:|
-| Library article | `ArticleAuthoringData` | 45 | 53 | 45 | 0 | 0 |
-| Library article · statement annotation | `ConceptAnnotation` | 5 | 53 | 5 | 0 | 0 |
-| Library article · media request | `MediaRequest` | 16 | 53 | 14 | 0 | 2 |
-| Concept | `Concept` | 54 | 52 | 54 | 0 | 0 |
+| Library article | `ArticleAuthoringData` | 46 | 54 | 46 | 0 | 0 |
+| Library article · statement annotation | `ConceptAnnotation` | 5 | 54 | 5 | 0 | 0 |
+| Library article · media request | `MediaRequest` | 19 | 54 | 14 | 0 | 5 |
+| Concept | `Concept` | 57 | 54 | 56 | 0 | 1 |
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
-| Question | `QuestionAuthoringData` | 13 | 50 | 13 | 0 | 0 |
-| Question · tags | `QuestionTags` | 21 | 50 | 21 | 0 | 0 |
-| Question · media request | `MediaRequest` | 16 | 50 | 14 | 0 | 2 |
-| Practical · OSCE and checklist | `OsceAuthoringData` | 11 | 25 | 11 | 0 | 0 |
-| Practical · clinical case | `CaseAuthoringData` | 7 | 25 | 7 | 0 | 0 |
-| Practical · case decision | `ClinicalDecisionDraft` | 9 | 25 | 9 | 0 | 0 |
-| Practical · interpretation set | `LabAuthoringData` | 7 | 25 | 7 | 0 | 0 |
-| Practical · interpretation question | `LabQuestionDraft` | 9 | 25 | 9 | 0 | 0 |
-| Practical · media request | `MediaRequest` | 16 | 25 | 14 | 0 | 2 |
-| Resource | `ResourceAuthoringData` | 16 | 18 | 8 | 1 | 7 |
+| Question | `QuestionAuthoringData` | 22 | 61 | 21 | 0 | 1 |
+| Question · tags | `QuestionTags` | 22 | 61 | 22 | 0 | 0 |
+| Question · media request | `MediaRequest` | 19 | 61 | 14 | 0 | 5 |
+| Practical · OSCE and checklist | `OsceAuthoringData` | 18 | 32 | 15 | 0 | 3 |
+| Practical · clinical case | `CaseAuthoringData` | 11 | 32 | 8 | 0 | 3 |
+| Practical · case decision | `ClinicalDecisionDraft` | 12 | 32 | 12 | 0 | 0 |
+| Practical · interpretation set | `LabAuthoringData` | 11 | 32 | 8 | 0 | 3 |
+| Practical · interpretation question | `LabQuestionDraft` | 11 | 32 | 11 | 0 | 0 |
+| Practical · media request | `MediaRequest` | 19 | 32 | 14 | 0 | 5 |
+| Resource | `ResourceAuthoringData` | 17 | 19 | 9 | 0 | 8 |
+| Minigame · base pack | `BasePack` | 7 | 16 | 7 | 0 | 0 |
+| Minigame · source metadata | `MiniGameSource` | 4 | 16 | 4 | 0 | 0 |
+| Minigame · ordered pack | `OrderedMiniGamePack` | 4 | 16 | 4 | 0 | 0 |
+| Minigame · ordered step | `OrderedStep` | 2 | 16 | 2 | 0 | 0 |
+| Minigame · red flag sort | `RedFlagSortPack` | 4 | 16 | 4 | 0 | 0 |
+| Minigame · red flag finding | `RedFlagFinding` | 4 | 16 | 4 | 0 | 0 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
 | Evidence · citation | `CitationLink` | 9 | 12 | 9 | 0 | 0 |
@@ -29,14 +35,21 @@ drift when a field is added.
 
 ## Gaps
 
-| Content type | Field | Why |
-|---|---|---|
-| Resource | `icon` | No import column maps to this field. |
+None. Every model field is reachable by bulk import, or is recorded as not author-supplied.
 
 ## Fields deliberately outside the import contract
 
 | Field | Reason |
 |---|---|
+| `Concept.mediaIds` | Assigned when rights-checked media is attached through the media library, not by concept import. |
+| `QuestionAuthoringData.media` | Question media placements are created when a fulfilled media asset is attached to a slot. |
+| `MediaRequest.slot` | Chosen during fulfillment when the reviewer places the asset into its final owner slot. |
+| `MediaRequest.answerLabel` | Only meaningful for fulfilled answer media; chosen with the final slot. |
+| `MediaRequest.reviewComments` | Created inside the reviewer workspace as anchored discussion, not by bulk authoring import. |
+| `PracticalCommon.universityIds` | Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct university IDs. |
+| `PracticalCommon.yearIds` | Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct year IDs. |
+| `PracticalCommon.moduleIds` | Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct module IDs. |
+| `ResourceAuthoringData.icon` | Presentation glyph chosen by the resource UI from the type unless an editor overrides it later. |
 | `ResourceAuthoringData.collectionId` | Set by the ingest pipeline from the source collection. |
 | `ResourceAuthoringData.storageKey` | Set on upload to authenticated storage; an author cannot choose it. |
 | `ResourceAuthoringData.sha256` | Computed from the uploaded binary. Typing it would forge provenance. |

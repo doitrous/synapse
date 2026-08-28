@@ -18,6 +18,7 @@ dist-ssr
 !.env.example
 
 # Editor directories and files
+.obsidian/workspace.json
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -42,6 +43,10 @@ server/node_modules
 ios/Config/Secrets.xcconfig
 ios/build/
 ios/DerivedData/
+# Swift packages cloned here rather than into DerivedData, so CI can cache
+# them at a stable path. Checkouts of other people's repositories — and
+# `oxlint` walks into their vendored JavaScript if they are left visible.
+ios/.spm/
 ios/Synapse.xcodeproj/project.xcworkspace/xcuserdata/
 ios/Synapse.xcodeproj/xcuserdata/
 # Resolved package versions live in the workspace; keep the pin, drop the noise.
@@ -60,3 +65,16 @@ android/build/
 android/app/build/
 android/.kotlin/
 android/.idea/
+
+# pagetext.py's per-page cache: rendered pdf pages, page-level readability,
+# OCR temp images — regenerable, and not small. Never committed.
+# Nothing else writes here — see the incident note on the next line.
+scripts/alexandria/pagetext/
+# scripts/alexandria/intake/'s own text cache (sourceId -> extracted text, for
+# contentTwinOf). Was first written into scripts/alexandria/pagetext/ under a
+# colliding filename and overwrote 3,397 of pagetext.py's files on
+# 2026-08-22 — moved out to its own directory for good. Never committed.
+scripts/alexandria/intake/textcache/
+
+# Python bytecode from the intake and extraction scripts
+__pycache__/

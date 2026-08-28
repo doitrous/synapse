@@ -14,6 +14,7 @@
  */
 
 import type { Concept } from '@/data/conceptGraph'
+import { derivedExamWeight } from '@/data/examSignal'
 
 /** Admin-owned, so this is a shared catalogue document. */
 export const ADAPTIVE_BLUEPRINT_STORAGE_KEY = 'synapse-adaptive-blueprints-v1'
@@ -58,9 +59,16 @@ export interface Blueprint {
  */
 export const UNWEIGHTED_CONCEPT_WEIGHT = 0.25
 
-export function rawConceptWeight(concept: Concept, yearId: string): number {
+export function rawConceptWeight(concept: Concept, yearId: string, currentYear = new Date().getFullYear()): number {
   const perYear = yearId ? concept.examWeightByYear?.[yearId] : undefined
   if (typeof perYear === 'number' && perYear > 0) return perYear
+  // A weight derived from the papers a concept actually appeared on beats a
+  // number somebody typed, and unlike that number it can say why. Ranked below
+  // an explicit per-year weight, which is a deliberate override.
+  if (concept.examSignal?.appearances.length) {
+    const derived = derivedExamWeight(concept.examSignal, { currentYear })
+    if (derived > 0) return derived
+  }
   if (typeof concept.blueprintWeight === 'number' && concept.blueprintWeight > 0) return concept.blueprintWeight
   return UNWEIGHTED_CONCEPT_WEIGHT
 }
@@ -93,9 +101,31 @@ export interface DeriveBlueprintInput {
   groupFor?: (concept: Concept) => { id: string; label: string }
 }
 
+/**
+ * A readable label from a raw catalogue id, for when no `groupFor` mapper is
+ * supplied at all.
+ *
+ * This is a last resort, not the intended path — the real friendly names live
+ * in the curriculum catalogue and are resolved by the `groupFor` a caller
+ * should pass in (see `useAdaptiveConfig.ts`). But a student must never see a
+ * bare code like `SYS_PHARM` or `haem` on screen, so even this fallback turns
+ * an id into words rather than printing it back verbatim.
+ */
+function humanizeGroupId(id: string): string {
+  const withoutPrefix = id.replace(/^(SYS|TPC|SUB|MIC|NAN)_/, '')
+  const words = withoutPrefix.replace(/[_-]+/g, ' ').trim()
+  if (!words) return 'Other topics'
+  return words
+    .toLowerCase()
+    .split(' ')
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+
 function defaultGroup(concept: Concept): { id: string; label: string } {
   const id = concept.topicTagId || concept.topicId || concept.systemId || concept.subjectId || 'ungrouped'
-  return { id, label: id }
+  return { id, label: humanizeGroupId(id) }
 }
 
 /**

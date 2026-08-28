@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { resources as SEED_RESOURCES, type Resource } from '@/data/resources'
 import type { ResourceType } from '@/data/types'
 import { API_MODE } from './api'
@@ -83,11 +83,14 @@ export function useLiveResources(): LiveResource[] {
     const seededIds = new Set(SEED_RESOURCES.map((r) => r.id))
 
     const overlaid = (API_MODE ? [] : SEED_RESOURCES)
-      .filter((r) => byId.get(r.id)?.status !== 'Archived') // hide if archived in admin
+      .filter((resource) => {
+        const item = byId.get(resource.id)
+        return item?.status !== 'Archived' && !(item?.status === 'Published' && !isStudentPublishable(item))
+      })
       .map((r) => overlayResource(r, byId.get(r.id)))
 
     const added = items
-      .filter((i) => !seededIds.has(i.id) && i.status !== 'Archived' && i.status === 'Published')
+      .filter((i) => !seededIds.has(i.id) && isStudentPublishable(i))
       .map(itemToResource)
 
     return [...overlaid, ...added]

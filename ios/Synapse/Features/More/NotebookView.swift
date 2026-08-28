@@ -88,6 +88,7 @@ final class NotebookModel {
 }
 
 struct NotebookView: View {
+    @Environment(\.strings) private var strings
     let store: LocalStore
     let sync: SyncEngine
 
@@ -108,12 +109,12 @@ struct NotebookView: View {
             if let model {
                 content(model)
             } else {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
         }
         .background(Theme.paper)
-        .navigationTitle("Notebook")
+        .navigationTitle(strings("Notebook"))
         .navigationBarTitleDisplayMode(.inline)
         .task {
             if model == nil {
@@ -143,7 +144,7 @@ struct NotebookView: View {
                         .buttonStyle(.plain)
                         .listRowBackground(Theme.surface)
                         .swipeActions {
-                            Button("Delete", role: .destructive) {
+                            Button(strings("Delete"), role: .destructive) {
                                 Task { await model.delete(note) }
                             }
                         }
@@ -162,13 +163,14 @@ struct NotebookView: View {
                 } label: {
                     Image(systemName: "square.and.pencil")
                 }
-                .tint(Theme.accent)
+                .tint(Theme.primary)
             }
         }
         .sheet(item: $editing) { note in
             NoteEditor(note: note) { saved in
                 Task { await model.save(saved) }
             }
+            .localisedSheet()
         }
     }
 
@@ -192,6 +194,7 @@ struct NotebookView: View {
 /// being stored and none of them shown, so a note written on the website
 /// arrived here stripped of everything that gave it its context.
 private struct NoteRow: View {
+    @Environment(\.strings) private var strings
     let note: Note
 
     var body: some View {
@@ -210,7 +213,7 @@ private struct NoteRow: View {
             if let article = note.subtopicTitle, !article.isEmpty {
                 Label(article, systemImage: "text.book.closed")
                     .font(Theme.ui(11))
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(Theme.primary)
                     .lineLimit(1)
             }
 
@@ -240,7 +243,7 @@ private struct NoteRow: View {
             }
 
             if note.imageData != nil {
-                Label("Has an image", systemImage: "photo")
+                Label(strings("Has an image"), systemImage: "photo")
                     .font(Theme.ui(11))
                     .foregroundStyle(Theme.ink3)
             }
@@ -250,6 +253,7 @@ private struct NoteRow: View {
 }
 
 private struct NoteEditor: View {
+    @Environment(\.strings) private var strings
     @State var note: Note
     let save: (Note) -> Void
     @Environment(\.dismiss) private var dismiss
@@ -269,7 +273,7 @@ private struct NoteEditor: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") { dismiss() }
+                    Button(strings("Cancel")) { dismiss() }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
@@ -277,11 +281,11 @@ private struct NoteEditor: View {
                     } label: {
                         Image(systemName: reading ? "pencil" : "book")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel(reading ? "Edit" : "Read")
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Save") { save(note); dismiss() }
+                    Button(strings("Save")) { save(note); dismiss() }
                         .disabled(note.title.trimmed.isEmpty && note.body.trimmed.isEmpty)
                 }
             }
@@ -290,7 +294,7 @@ private struct NoteEditor: View {
 
     private var editingView: some View {
         VStack(alignment: .leading, spacing: 12) {
-            TextField("Title", text: $note.title)
+            TextField(strings("Title"), text: $note.title)
                 .font(Theme.display(20))
                 .foregroundStyle(Theme.ink)
 
@@ -363,7 +367,7 @@ private struct NoteEditor: View {
                 }
             }
 
-            TextField("Add a tag", text: $tagDraft)
+            TextField(strings("Add a tag"), text: $tagDraft)
                 .font(Theme.ui(13))
                 .submitLabel(.done)
                 .onSubmit {
@@ -383,14 +387,14 @@ private struct NoteEditor: View {
         let refs = note.resourceRefs ?? []
         if note.subtopicTitle?.isEmpty == false || !refs.isEmpty {
             VStack(alignment: .leading, spacing: 6) {
-                Text("About")
+                Text(strings("About"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink3)
 
                 if let article = note.subtopicTitle, !article.isEmpty {
                     Label(article, systemImage: "text.book.closed")
                         .font(Theme.ui(13))
-                        .foregroundStyle(Theme.accent)
+                        .foregroundStyle(Theme.primary)
                 }
 
                 ForEach(refs) { ref in

@@ -1,36 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#e8ecf4" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <!-- page ground (a hint of the brand blue) + faint clinical-chart grid -->
   <rect width="1200" height="630" fill="#f5f7fb"/>
   <rect width="1200" height="630" fill="url(#grid)"/>
 
-  <!-- the mark, faint, bleeding off the left edge — the card mirrors for RTL.
-       __MARK__ is replaced with a data URI by render.mjs. -->
-  <g opacity="0.06">
-    <image xlink:href="__MARK__" x="-360" y="-40" width="700" height="700"/>
+  <!-- The Latin brand lockup stays LTR on the Arabic card. -->
+  <g transform="translate(788 64) scale(.82)">
+    <path fill="#1553b3" d="M4 58V11C4 8.8 5.8 7 8 7h6l18 22v9c-7.7 0-14 6.3-14 14v6H4Z"/>
+    <path fill="#d13a63" d="M60 58V11c0-2.2-1.8-4-4-4h-6L32 29v9c7.7 0 14 6.3 14 14v6h14Z"/>
   </g>
+  <text x="849" y="101" fill="#161920" font-family="Orbitron, Jost, Futura, sans-serif" font-size="31" font-weight="700" letter-spacing="-.3">ARISTANA</text>
+  <text x="850" y="120" fill="#5d636f" font-family="Geist, Helvetica, Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="2.1">BY CONNECT ACADEMY</text>
+  <line x1="80" y1="148" x2="1120" y2="148" stroke="#ccd3e0"/>
 
-  <!-- brand lockup, right-aligned so the card mirrors. The logotype itself
-       stays LTR: it is a name, not running text, and the Arabic site sets it
-       the same way. The text is anchored to the right margin and the mark sits
-       to its left, clear of where the glyphs begin. -->
-  <image xlink:href="__MARK__" x="472" y="86" width="84" height="84"/>
-  <text x="1110" y="152" text-anchor="end" font-family="'Jost','Century Gothic','Futura','Avenir Next',Helvetica,Arial,sans-serif" font-size="56" font-weight="500" letter-spacing="2.5">
-    <tspan fill="#1553b3">CONNECT</tspan><tspan fill="#d13a63">CORTEX</tspan>
-  </text>
+  <text x="1120" y="284" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="74" font-weight="700" fill="#161920">تعلّم الطب بالطريقة التي</text>
+  <text x="1120" y="368" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="74" font-weight="700" fill="#161920">ستمارسه بها.</text>
+  <text x="1118" y="427" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="28" fill="#5d636f">منهج جامعتك المصرية، جاهز للمذاكرة</text>
+  <text x="1118" y="467" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="28" fill="#5d636f">بتدريب سريري مبني على المنهج الدولي.</text>
 
-  <!-- Arabic headline (personalization motto), right-aligned -->
-  <text x="1110" y="360" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Baghdad','Noto Sans Arabic',Arial,sans-serif" font-size="96" font-weight="bold" fill="#161920">مذاكرة مفصلة عليك</text>
+  <rect x="80" y="190" width="278" height="305" rx="10" fill="#fff" stroke="#ccd3e0"/>
+  <text x="334" y="226" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="17" font-weight="700" fill="#a82449">اليوم في مارستانا</text>
+  <line x1="104" y1="244" x2="334" y2="244" stroke="#e3e7ef"/>
+  <rect x="329" y="266" width="5" height="54" fill="#1553b3"/>
+  <text x="312" y="286" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="16" font-weight="700" fill="#161920">جلسة القلب والأوعية</text>
+  <text x="312" y="309" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="13" fill="#5d636f">٩:٠٠ · جدول الجامعة</text>
+  <rect x="329" y="335" width="5" height="54" fill="#d13a63"/>
+  <text x="312" y="355" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="16" font-weight="700" fill="#161920">مراجعة تكيفية</text>
+  <text x="312" y="378" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="13" fill="#5d636f">٨ مفاهيم جاهزة</text>
+  <line x1="104" y1="416" x2="334" y2="416" stroke="#e3e7ef"/>
+  <text x="334" y="445" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="13" fill="#5d636f">الخطوة المقترحة التالية</text>
+  <text x="334" y="472" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="15" font-weight="700" fill="#a82449">أكمل الحالة السريرية ←</text>
 
-  <!-- Arabic subline -->
-  <text x="1110" y="432" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="30" fill="#5d636f">منصة دراسة سريرية لطلاب الطب، تتكيف مع تقدمك.</text>
-
-  <!-- footer rule + Arabic surfaces -->
-  <line x1="92" y1="552" x2="1108" y2="552" stroke="#f4c8d6" stroke-width="1.5"/>
-  <text x="1108" y="592" text-anchor="end" direction="rtl" font-family="'Geeza Pro','SF Arabic','Al Bayan','Noto Sans Arabic',Arial,sans-serif" font-size="26" font-weight="bold" fill="#a82449">المكتبة  ·  بنك الأسئلة  ·  العملي السريري  ·  الجدول</text>
+  <line x1="80" y1="545" x2="1120" y2="545" stroke="#f4c8d6"/>
+  <text x="1120" y="589" text-anchor="end" direction="rtl" font-family="Geeza Pro, SF Arabic, Arial, sans-serif" font-size="25" font-weight="700" fill="#a82449">وصول كامل لمدة ٣ أيام. من غير بطاقة.</text>
+  <text x="80" y="584" font-family="Geist Mono, monospace" font-size="13" fill="#5d636f">MARISTANA · CONNECT ACADEMY, SINCE 2011</text>
 </svg>

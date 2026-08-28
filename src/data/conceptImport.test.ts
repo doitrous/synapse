@@ -40,6 +40,8 @@ const FULL_CONCEPT: Record<string, string> = {
   clinical_relevance: '0.7',
   academic_relevance: '0.8',
   weight_confidence: '0.5',
+  exam_signal: 'src_1a2b3c4d5e6f | end_of_year | 2025 | p14 | 101 ISK\nsrc_9f8e7d6c5b4a | orientation | 2024',
+  module_subject: '101 ISK > Anatomy > Upper Limb',
   confidence: '0.9',
   support_mode: 'direct_statement',
   atomic_claim_ids: 'claim-ag-1',
@@ -374,4 +376,68 @@ test('the same directed edge under a different id is a duplicate', () => {
   // The reverse direction is a different edge, not a duplicate.
   const reversed = relationFromRow({ ...FULL_RELATION, id: 'rel-rev', source: 'c-b', target: 'c-a' })
   assert.equal(isDuplicateRelation(reversed, [first]), false)
+})
+
+test('exam appearances survive the round trip and carry their locator', () => {
+  // The weight is derived from these, so losing one silently changes what a
+  // student is shown next without anything reporting it.
+  const concept = conceptFromRow(FULL_CONCEPT)
+  assert.equal(concept.examSignal?.appearances.length, 2)
+  assert.equal(concept.examSignal?.appearances[0].sourceId, 'src_1a2b3c4d5e6f')
+  assert.equal(concept.examSignal?.appearances[0].tier, 'end_of_year')
+  assert.equal(concept.examSignal?.appearances[0].sittingYear, 2025)
+  assert.equal(concept.examSignal?.appearances[0].page, 14, 'so a reviewer can go to the page')
+  assert.equal(concept.examSignal?.appearances[0].moduleId, '101 ISK')
+  assert.equal(concept.examSignal?.appearances[1].tier, 'orientation')
+  assert.equal(concept.examSignal?.confidence, 0.5)
+})
+
+test('a concept with no exam appearances has no signal at all', () => {
+  // Absent, not an empty signal: never seen on a paper is not the same as
+  // weighted at zero, and the blueprint treats them differently.
+  const { exam_signal: _omitted, ...withoutSignal } = FULL_CONCEPT
+  assert.equal(conceptFromRow(withoutSignal).examSignal, undefined)
+})
+
+test('a concept keeps the curriculum position it was taught at', () => {
+  // Distinct from `primaryNodeId`, which is the canonical placement. A concept
+  // sits in one place in the canonical tree and in as many curricula as teach it.
+  const concept = conceptFromRow(FULL_CONCEPT)
+  assert.deepEqual(concept.moduleSubjectPaths, ['101 ISK > Anatomy > Upper Limb'])
+})
+
+test('a partial update does not wipe the curriculum position it says nothing about', () => {
+  // The failure this prevents: an update row restating only a definition, and
+  // silently clearing where the concept is taught.
+  const created = materialiseNewConcept(conceptFromRow(FULL_CONCEPT))
+  const patched = mergeConcept(created, conceptFromRow({
+    id: FULL_CONCEPT.id, label: FULL_CONCEPT.label, definition: 'A revised definition.',
+  }))
+  assert.equal(patched.definition, 'A revised definition.')
+  assert.deepEqual(patched.moduleSubjectPaths, ['101 ISK > Anatomy > Upper Limb'])
+})
+
+test('an update that omits the label leaves the live label alone', () => {
+  // `conceptFromRow` defaulted `label` to `''` where every other prose field
+  // defaults to `undefined`. `mergeConcept` skips `undefined` and writes
+  // anything else, so an update row carrying `id` and one changed column
+  // blanked the live concept's name: the record stayed, findable by id and by
+  // nothing else, gone from every list a student reads. Proved by a real
+  // simulate before it was fixed.
+  const live = conceptFromRow({ label: 'The live label', id: 'CON-L', definition: 'A live definition' })
+  const merged = mergeConcept(live, conceptFromRow({ id: 'CON-L', pitfalls: 'a new pitfall' }))
+  assert.equal(merged.label, 'The live label')
+  assert.equal(merged.definition, 'A live definition', 'the same rule that already protected definition')
+  assert.equal(merged.pitfalls, 'a new pitfall', 'what the row did say is still applied')
+})
+
+test('a new concept still materialises a label, and a blank one is not a value', () => {
+  // The other half. `undefined` must not reach a created record as `undefined`,
+  // or a new concept has no label field at all; `materialiseNewConcept`
+  // supplies the empty string, exactly as it does for `definition`.
+  assert.equal(conceptFromRow({ id: 'CON-N' }).label, undefined)
+  assert.equal(materialiseNewConcept(conceptFromRow({ id: 'CON-N' })).label, '')
+  // Whitespace is not a label either.
+  assert.equal(conceptFromRow({ id: 'CON-N', label: '   ' }).label, undefined)
+  assert.equal(conceptFromRow({ id: 'CON-N', label: '  Real  ' }).label, 'Real')
 })

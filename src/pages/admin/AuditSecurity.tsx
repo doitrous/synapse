@@ -25,6 +25,21 @@ const CHECK_ICON = {
   fail: { icon: CircleX, cls: 'text-danger' },
 } as const
 
+function exportAuditLog() {
+  const csv = [
+    ['time', 'actor', 'action', 'target', 'ip'],
+    ...auditLog.map((entry) => [entry.time, entry.actor, entry.action, entry.target, entry.ip]),
+  ]
+    .map((row) => row.map((cell) => `"${String(cell).replace(/"/g, '""')}"`).join(','))
+    .join('\n')
+  const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }))
+  const link = document.createElement('a')
+  link.href = url
+  link.download = `audit-log-${new Date().toISOString().slice(0, 10)}.csv`
+  link.click()
+  URL.revokeObjectURL(url)
+}
+
 export function AuditSecurity() {
   const warnings = securityChecks.filter((c) => c.status !== 'pass').length
   const [launchPreview, setLaunchPreview] = useState<MedicalLibraryLaunchPreview | null>(null)
@@ -49,7 +64,7 @@ export function AuditSecurity() {
         title="Audit & Security"
         description={API_MODE ? 'Production recovery points, launch preflight, and persisted audit events.' : 'Security posture and a full, immutable audit trail.'}
         actions={!API_MODE || auditLog.length ? (
-          <Button variant="secondary" size="md" iconLeft={Download}>
+          <Button variant="secondary" size="md" iconLeft={Download} onClick={exportAuditLog} disabled={auditLog.length === 0}>
             Export log
           </Button>
         ) : undefined}

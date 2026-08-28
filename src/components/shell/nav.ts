@@ -8,33 +8,21 @@ import {
   LineChart,
   FolderOpen,
   PenTool,
+  PenLine,
   Notebook,
   Users,
   CreditCard,
-  ImagePlus,
   UserCog,
-  Gauge,
-  GraduationCap,
-  Library,
-  FileQuestion,
   Languages,
-  Clapperboard,
-  Mail,
-  Inbox,
-  Banknote,
-  LifeBuoy,
-  Settings,
-  ShieldCheck,
-  Flag,
-  BellRing,
-  TicketPercent,
-  Braces,
-  GitFork,
-  Network,
   Compass,
-  Scale,
-  Bot,
+  Layers,
+  Gamepad2,
+  Building2,
+  GraduationCap,
+  StickyNote,
+  MonitorPlay,
 } from 'lucide-react'
+import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '@/data/adminTabs'
 
 export type Portal = 'student' | 'admin'
 
@@ -54,6 +42,7 @@ export const studentNav: NavGroup[] = [
   {
     items: [
       { label: 'Dashboard', to: '/app', icon: LayoutDashboard, end: true },
+      { label: 'University', to: '/app/university', icon: GraduationCap },
       { label: 'Calendar', to: '/app/calendar', icon: CalendarDays },
     ],
   },
@@ -62,8 +51,10 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Library', to: '/app/library', icon: BookOpen },
       { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
+      { label: 'Question Notes', to: '/app/question-notes', icon: StickyNote },
       { label: 'Adaptive Study', to: '/app/adaptive', icon: Compass },
       { label: 'Practical', to: '/app/practical', icon: Stethoscope },
+      { label: 'Essay questions', to: '/app/essays', icon: PenLine },
       { label: 'Resources', to: '/app/resources', icon: FolderOpen },
       { label: 'Medical Taxonomy', to: '/app/taxonomy', icon: Languages },
     ],
@@ -72,6 +63,7 @@ export const studentNav: NavGroup[] = [
     label: 'Plan',
     items: [
       { label: 'Performance', to: '/app/performance', icon: LineChart },
+      { label: 'Build Maristanas', to: '/app/maristanas', icon: Building2 },
     ],
   },
   {
@@ -79,7 +71,10 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
       { label: 'Notebook', to: '/app/notebook', icon: Notebook },
+      { label: 'Flashcards', to: '/app/flashcards', icon: Layers },
+      { label: 'Minigames', to: '/app/minigames', icon: Gamepad2 },
       { label: 'Study Together', to: '/app/study-together', icon: Users },
+      { label: 'Tutorials', to: '/app/tutorial', icon: MonitorPlay },
     ],
   },
   {
@@ -91,49 +86,29 @@ export const studentNav: NavGroup[] = [
   },
 ]
 
-export const adminNav: NavGroup[] = [
-  { items: [{ label: 'Control Dashboard', to: '/admin', icon: Gauge, end: true }] },
-  {
-    label: 'Content',
-    items: [
-      { label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network },
-      { label: 'Glossary', to: '/admin/glossary', icon: Languages },
-      { label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap },
-      { label: 'Marks & Weights', to: '/admin/academic/marks', icon: Scale },
-      { label: 'Library Setup', to: '/admin/library', icon: Library },
-      { label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion },
-      { label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass },
-      { label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope },
-      { label: 'Concepts', to: '/admin/concepts', icon: Braces },
-      { label: 'Relationships', to: '/admin/relationships', icon: GitFork },
-      { label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard },
-      { label: 'Media Requests', to: '/admin/library/media', icon: ImagePlus },
-      { label: 'Content Reports', to: '/admin/reports', icon: Flag },
-    ],
-  },
-  {
-    label: 'Operations',
-    items: [
-      { label: 'Email & Automations', to: '/admin/email', icon: Mail },
-      { label: 'Mail Box', to: '/admin/mailbox', icon: Inbox },
-      { label: 'Student Notifications', to: '/admin/notifications', icon: BellRing },
-      { label: 'Users', to: '/admin/users', icon: UserCog },
-      { label: 'Students', to: '/admin/students', icon: Users },
-      { label: 'Payments & Finance', to: '/admin/payments', icon: Banknote },
-      { label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent },
-      { label: 'AI Assistant', to: '/admin/assistant', icon: Bot },
-    ],
-  },
-  {
-    label: 'Governance',
-    items: [
-      { label: 'Privacy & Support', to: '/admin/privacy', icon: LifeBuoy },
-      { label: 'Settings', to: '/admin/settings', icon: Settings },
-      { label: 'Audit & Security', to: '/admin/audit', icon: ShieldCheck },
-    ],
-  },
-]
+const ADMIN_GROUP_ORDER: AdminTabGroup[] = ['Overview', 'Content', 'Operations', 'Governance']
 
-export function navFor(portal: Portal): NavGroup[] {
-  return portal === 'student' ? studentNav : adminNav
+/**
+ * The admin sidebar, built from the tab registry rather than beside it.
+ *
+ * These were two lists that had to agree and had no way to. A tab now appears
+ * in the sidebar because the caller holds it — the same fact the server checks
+ * when the page saves, so a visible link and a rendering page cannot disagree.
+ */
+export function adminNavFor(tabs: readonly string[]): NavGroup[] {
+  const held = new Set(tabs)
+  const visible = ADMIN_TAB_VIEWS.filter((view) => held.has(view.id))
+  return ADMIN_GROUP_ORDER
+    .map((group) => ({
+      // The first group is the dashboard on its own and reads better unlabelled.
+      label: group === 'Overview' ? undefined : group,
+      items: visible
+        .filter((view) => view.group === group)
+        .map((view) => ({ label: view.label, to: view.to, icon: view.icon, end: view.end })),
+    }))
+    .filter((navGroup) => navGroup.items.length > 0)
+}
+
+export function navFor(portal: Portal, tabs: readonly string[] = []): NavGroup[] {
+  return portal === 'student' ? studentNav : adminNavFor(tabs)
 }

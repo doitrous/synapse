@@ -7,13 +7,14 @@ import { ThemeProvider } from './lib/useTheme'
 import { IdentityProvider } from './lib/useIdentity'
 import { ErrorBoundary } from './components/shell/ErrorBoundary'
 import { isAdminHost } from './lib/portalHost'
+import { API_MODE } from './lib/api'
 
 // Self-hosted variable fonts (Fontsource) — offline, no external requests.
-// Jost is the logotype's own geometric sans: brand lockups only, never UI.
+// Orbitron is the logotype's own geometric sans: brand lockups only, never UI.
 import '@fontsource-variable/source-serif-4'
 import '@fontsource-variable/geist'
 import '@fontsource-variable/geist-mono'
-import '@fontsource-variable/jost'
+import '@fontsource-variable/orbitron'
 import './index.css'
 
 // Both domains serve one index.html, whose canonical, hreflang and Open Graph tags
@@ -21,7 +22,7 @@ import './index.css'
 // private, so the marketing head is stripped and the domain is told to stay out of
 // search results.
 if (isAdminHost()) {
-  document.title = 'Connect Cortex Admin'
+  document.title = 'Maristana Admin'
   document.querySelectorAll('link[rel="canonical"], link[rel="alternate"][hreflang], meta[property^="og:"], meta[name^="twitter:"]').forEach((tag) => tag.remove())
   const robots = document.createElement('meta')
   robots.name = 'robots'
@@ -29,16 +30,30 @@ if (isAdminHost()) {
   document.head.appendChild(robots)
 }
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <ErrorBoundary>
-      <ThemeProvider>
-        <I18nProvider>
-          <IdentityProvider>
-            <RouterProvider router={router} />
-          </IdentityProvider>
-        </I18nProvider>
-      </ThemeProvider>
-    </ErrorBoundary>
-  </StrictMode>,
-)
+async function startApp() {
+  // Keep the local showcase populated for review without putting fixture code
+  // on the live startup path or sending fixture data to a configured backend.
+  // Existing browser-owned work is preserved and wins over every demo fixture.
+  if (!API_MODE) {
+    try {
+      const { seedDemoShowcase } = await import('./data/demoPreview')
+      seedDemoShowcase(window.localStorage)
+    } catch { /* storage may be unavailable */ }
+  }
+
+  createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+      <ErrorBoundary>
+        <ThemeProvider>
+          <I18nProvider>
+            <IdentityProvider>
+              <RouterProvider router={router} />
+            </IdentityProvider>
+          </I18nProvider>
+        </ThemeProvider>
+      </ErrorBoundary>
+    </StrictMode>,
+  )
+}
+
+void startApp()

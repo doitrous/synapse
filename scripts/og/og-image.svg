@@ -1,35 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
       <path d="M48 0H0V48" fill="none" stroke="#e8ecf4" stroke-width="1"/>
     </pattern>
   </defs>
-
-  <!-- page ground (a hint of the brand blue) + faint clinical-chart grid -->
   <rect width="1200" height="630" fill="#f5f7fb"/>
   <rect width="1200" height="630" fill="url(#grid)"/>
 
-  <!-- the mark, faint, bleeding off the right edge.
-       __MARK__ is replaced with a data URI by render.mjs, so the artwork stays
-       the supplied PNG rather than a traced approximation. -->
-  <g opacity="0.08">
-    <image xlink:href="__MARK__" x="860" y="-40" width="700" height="700"/>
+  <!-- Maristana lockup: the Courtyard M is the first letter. -->
+  <g transform="translate(78 64) scale(.82)">
+    <path fill="#1553b3" d="M4 58V11C4 8.8 5.8 7 8 7h6l18 22v9c-7.7 0-14 6.3-14 14v6H4Z"/>
+    <path fill="#d13a63" d="M60 58V11c0-2.2-1.8-4-4-4h-6L32 29v9c7.7 0 14 6.3 14 14v6h14Z"/>
   </g>
+  <text x="139" y="101" fill="#161920" font-family="Orbitron, Jost, Futura, sans-serif" font-size="31" font-weight="700" letter-spacing="-.3">ARISTANA</text>
+  <text x="140" y="120" fill="#5d636f" font-family="Geist, Helvetica, Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="2.1">BY CONNECT ACADEMY</text>
+  <line x1="80" y1="148" x2="1120" y2="148" stroke="#ccd3e0"/>
 
-  <!-- brand lockup: the mark is the O in CONNECT, so the two are one thing -->
-  <image xlink:href="__MARK__" x="90" y="86" width="84" height="84"/>
-  <text x="196" y="152" font-family="'Jost','Century Gothic','Futura','Avenir Next',Helvetica,Arial,sans-serif" font-size="56" font-weight="500" letter-spacing="2.5">
-    <tspan fill="#1553b3">CONNECT</tspan><tspan fill="#d13a63">CORTEX</tspan>
-  </text>
+  <text x="80" y="278" font-family="Source Serif 4, Georgia, serif" font-size="61" font-weight="600" fill="#161920" letter-spacing="-1.4">Learn medicine</text>
+  <text x="80" y="346" font-family="Source Serif 4, Georgia, serif" font-size="61" font-weight="600" fill="#161920" letter-spacing="-1.4">the way you’ll practise it.</text>
+  <text x="82" y="413" font-family="Geist, Helvetica, Arial, sans-serif" font-size="23" fill="#5d636f">Your Egyptian university curriculum, ready to study</text>
+  <text x="82" y="447" font-family="Geist, Helvetica, Arial, sans-serif" font-size="23" fill="#5d636f">through internationally grounded clinical practice.</text>
 
-  <!-- headline: the product's hero line -->
-  <text x="90" y="348" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="bold" fill="#161920" letter-spacing="-2">See exactly what to</text>
-  <text x="90" y="430" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="bold" fill="#161920" letter-spacing="-2">study next.</text>
+  <!-- A compact real-product moment, not a decorative app mock-up. -->
+  <rect x="842" y="190" width="278" height="305" rx="10" fill="#fff" stroke="#ccd3e0"/>
+  <text x="866" y="226" font-family="Geist Mono, monospace" font-size="11" font-weight="600" fill="#a82449" letter-spacing="1.2">TODAY IN MARISTANA</text>
+  <line x1="866" y1="244" x2="1096" y2="244" stroke="#e3e7ef"/>
+  <rect x="866" y="266" width="5" height="54" fill="#1553b3"/>
+  <text x="888" y="286" font-family="Geist, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161920">Cardiovascular session</text>
+  <text x="888" y="307" font-family="Geist Mono, monospace" font-size="11" fill="#5d636f">09:00 · University schedule</text>
+  <rect x="866" y="335" width="5" height="54" fill="#d13a63"/>
+  <text x="888" y="355" font-family="Geist, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#161920">Adaptive review</text>
+  <text x="888" y="376" font-family="Geist Mono, monospace" font-size="11" fill="#5d636f">8 concepts ready</text>
+  <line x1="866" y1="416" x2="1096" y2="416" stroke="#e3e7ef"/>
+  <text x="866" y="445" font-family="Geist, Helvetica, Arial, sans-serif" font-size="12" fill="#5d636f">NEXT RECOMMENDED ACTION</text>
+  <text x="866" y="469" font-family="Geist, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#a82449">Continue the valvular case →</text>
 
-  <!-- subline -->
-  <text x="92" y="492" font-family="Helvetica, Arial, sans-serif" font-size="27" fill="#5d636f">A calm clinical workspace for undergraduate medicine.</text>
-
-  <!-- footer rule + surfaces -->
-  <line x1="92" y1="552" x2="1108" y2="552" stroke="#f4c8d6" stroke-width="1.5"/>
-  <text x="92" y="590" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="2.5" fill="#a82449">LIBRARY&#160;&#160;·&#160;&#160;QUESTION BANK&#160;&#160;·&#160;&#160;PRACTICAL&#160;&#160;·&#160;&#160;SCHEDULE</text>
+  <line x1="80" y1="545" x2="1120" y2="545" stroke="#f4c8d6"/>
+  <text x="80" y="584" font-family="Geist, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#a82449">Full access for 3 days. No card.</text>
+  <text x="1120" y="584" text-anchor="end" font-family="Geist Mono, monospace" font-size="13" fill="#5d636f">MARISTANA · CONNECT ACADEMY, SINCE 2011</text>
 </svg>

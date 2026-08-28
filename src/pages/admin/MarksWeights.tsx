@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { AlertTriangle, ChevronRight, GraduationCap, Scale } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 import { Select } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { SystemMark } from '@/components/ui/SystemMark'
@@ -189,7 +189,7 @@ export function MarksWeights() {
         <Panel className="p-8 text-center">
           <p className="text-[13.5px] font-medium text-ink">No universities yet</p>
           <p className="mt-1 text-[12.5px] text-ink-3">Add one in Academic Setup, then come back to see how its marks divide.</p>
-          <Link to="/admin/academic" className="mt-4 inline-block"><Button variant="primary" size="sm" iconLeft={GraduationCap}>Open Academic Setup</Button></Link>
+          <ButtonLink to="/admin/academic" variant="primary" size="sm" iconLeft={GraduationCap} className="mt-4">Open Academic Setup</ButtonLink>
         </Panel>
       </PageContainer>
     )
@@ -208,7 +208,7 @@ export function MarksWeights() {
             <Select aria-label="University" value={university.id} onChange={(event) => setSelectedId(event.target.value)} className="w-56">
               {universities.map((candidate) => <option key={candidate.id} value={candidate.id}>{candidate.name}</option>)}
             </Select>
-            <Link to="/admin/academic"><Button variant="secondary" size="md" iconLeft={GraduationCap}>Academic Setup</Button></Link>
+            <ButtonLink to="/admin/academic" variant="secondary" size="md" iconLeft={GraduationCap}>Academic Setup</ButtonLink>
           </>
         }
       />

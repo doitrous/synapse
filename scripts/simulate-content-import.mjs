@@ -20,11 +20,16 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
 import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
+import { miniGamePackFromRow, validateMiniGameRow } from '../src/data/minigameImport.ts'
+import { applyGlossaryRows } from '../src/data/glossaryImport.ts'
+import { EMPTY_GLOSSARY, GLOSSARY_STORAGE_KEY, MED_CATEGORIES } from '../src/data/glossary.ts'
 import { materialiseNewItem, mergeContentItem, upsertRecords } from '../src/data/importMerge.ts'
 import {
   evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow,
 } from '../src/data/evidenceImport.ts'
+import { detectBatchKind } from '../src/data/batchKind.ts'
+import { IMPORT_CONTRACTS } from '../src/data/importContract.ts'
 
 const args = process.argv.slice(2)
 const option = (name) => {
@@ -39,6 +44,7 @@ if (!files.length) throw new Error('Give at least one batch file')
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 const GRAPH_KEY = 'synapse-concept-graph-v2'
 const EVIDENCE_KEY = 'synapse-medical-evidence-v1'
+const MINIGAME_PACKS_KEY = 'synapse-minigame-packs-v1'
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
@@ -53,23 +59,7 @@ function parseMarkdown(text) {
   })
 }
 
-function detectKind(sample) {
-  if ('source' in sample && 'type' in sample && 'target' in sample) return 'relation'
-  if ('summary' in sample && 'sections' in sample) return 'article'
-  if ('claim_id' in sample && 'resource_id' in sample) return 'citation'
-  if ('concept_id' in sample && 'display_text' in sample) return 'claim'
-  if ('article_id' in sample && 'section_id' in sample) return 'span'
-  if ('institution' in sample && 'processing_status' in sample) return 'resource'
-  if ('type' in sample && ('mark_scheme' in sample || 'decisions' in sample || 'lab_questions' in sample || 'candidate_instructions' in sample)) return 'practical'
-  if ('vignette' in sample || 'correct_answer' in sample || 'answer_a' in sample) return 'question'
-  // Concepts get a positive test too. This used to be the fallback, which meant
-  // *any* unrecognised row became a concept: a stray question batch was applied
-  // as sixteen concept upserts, creating one empty concept and writing over
-  // fields on fifteen real ones. Nothing reported it, because guessing the wrong
-  // kind is not a row error. An unrecognised shape is now unknown, and refused.
-  if ('label' in sample || 'canonical_key' in sample) return 'concept'
-  return 'unknown'
-}
+const detectKind = detectBatchKind
 
 /* ---- load ---------------------------------------------------------------- */
 
@@ -78,6 +68,10 @@ const state = bundle.states
 const graph = structuredClone(state[GRAPH_KEY] ?? { concepts: [], relations: [] })
 const evidence = structuredClone(state[EVIDENCE_KEY] ?? { claims: [], citations: [], resources: [], articleSpans: [], merges: [], coverage: [] })
 const ledger = structuredClone(state[LEDGER_KEY] ?? [])
+let gamePacks = structuredClone(Array.isArray(state[MINIGAME_PACKS_KEY]?.packs) ? state[MINIGAME_PACKS_KEY].packs : [])
+let minigameTouched = false
+let glossary = structuredClone(state[GLOSSARY_STORAGE_KEY] ?? EMPTY_GLOSSARY)
+let glossaryTouched = false
 
 const before = {
   articles: ledger.filter((item) => item.kind === 'article').length,
@@ -87,6 +81,8 @@ const before = {
   citations: evidence.citations.length,
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
+  minigamePacks: gamePacks.length,
+  glossaryTerms: glossary.terms.length,
 }
 
 /* ---- apply, in dependency order ------------------------------------------ */
@@ -95,8 +91,24 @@ const before = {
 // concept must have been applied before one is checked against the graph.
 // Questions run last: each one resolves against both the concept graph and the
 // article ledger, so it has to see every concept and article this run creates.
-const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6, practical: 7, question: 8 }
+const ORDER = { glossary: 0, resource: 1, 'catalogue-resource': 2, article: 3, concept: 4, claim: 5, citation: 6, span: 7, relation: 8, practical: 9, question: 10, minigame: 11 }
+
+// The columns each kind actually has, taken from the canonical registry rather
+// than a copy kept here — a vocabulary maintained in two places is a vocabulary
+// that drifts, and the drift shows up as a false error on a good batch.
+const COLUMNS = Object.fromEntries(
+  Object.entries(IMPORT_CONTRACTS)
+    .filter(([kind]) => kind in ORDER)
+    .map(([kind, contract]) => [kind, contract.fields]),
+)
+const KNOWN_COLUMNS = Object.fromEntries(
+  Object.entries(COLUMNS).map(([kind, fields]) => [kind, new Set(fields.map((field) => field.key))]),
+)
 const batches = []
+// Declared before the file loop below, which reports an id-bearing file it
+// cannot type as an error rather than a skip.
+const errors = []
+
 /** Files this run will not apply, reported under `skipped` rather than `errors`. */
 const refused = []
 for (const file of files) {
@@ -107,6 +119,23 @@ for (const file of files) {
   // whatever the fallback guessed, which is how a question batch became sixteen
   // concept upserts. Refuse it, name it, and carry on with the rest.
   if (!(kind in ORDER)) {
+    // A file carrying `## id` rows is content, whatever the detector made of
+    // it — most often an update batch of `id` plus the columns it changes,
+    // which matches no kind's shape and so comes back "unknown". Reported as a
+    // skip and nothing else, this run exited 0 and a lane reading the exit code
+    // saw a clean simulation of a file that applied nothing at all.
+    //
+    // A file with no ids is a different thing — a stray note, a README — and
+    // stays a skip.
+    const carriesIds = rows.some((row) => row.id?.trim())
+    if (carriesIds) {
+      const ids = rows.map((row) => row.id?.trim()).filter(Boolean)
+      errors.push(`${file}: detected as "${kind}", so this run applies none of it — but it carries ${ids.length} row(s) with an id `
+        + `(${ids.slice(0, 3).join(', ')}${ids.length > 3 ? ', …' : ''}). A row with an id is a record somebody meant to import. `
+        + 'Give each row the column its kind is recognised by — a concept needs `label` or `canonical_key`, a question `question`, '
+        + 'an article `summary`, a practical `type`, a catalogue resource `source` and `type`, or an evidence source `institution` and `processing_status`.')
+      continue
+    }
     refused.push(`${file}: detected as "${kind}", which this simulation does not apply. Move it out of the batch directory or add support for it.`)
     continue
   }
@@ -128,13 +157,61 @@ const report = []
 // a fact about the simulator, not a defect in the file. Counting it as an error
 // would fail a run whose data is fine, and `errors.length` is the signal every
 // caller uses to decide whether a batch is safe to import.
-const errors = []
 
 for (const batch of batches) {
+  // A column the importer does not recognise is dropped, in silence, along with
+  // everything the author wrote under it: a misspelt `## explanaton_b` imports a
+  // clean-looking question whose option explains nothing. `validate-content-batch`
+  // has always refused unknown columns, but that script is directory-scoped and
+  // this one is the gate — so a typo could pass the only check the manual says
+  // must be green before an import. It is an error and not a note because the
+  // content is already lost by the time anyone reads the report.
+  const known = KNOWN_COLUMNS[batch.kind]
+  batch.rows.forEach((row, index) => {
+    for (const key of Object.keys(row)) {
+      if (!known.has(key)) errors.push(`${batch.file} row ${index + 2}: unknown column "${key}"`)
+    }
+  })
+
   const context = {
     store: evidence,
     conceptIds: new Set(graph.concepts.map((concept) => concept.id)),
     articleIds: new Set(ledger.filter((item) => item.kind === 'article').map((item) => item.id)),
+  }
+
+  if (batch.kind === 'minigame') {
+    let created = 0
+    let updated = 0
+    minigameTouched = true
+    batch.rows.forEach((row, index) => {
+      const rowErrors = validateMiniGameRow(row)
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
+      const incoming = miniGamePackFromRow(row)
+      const position = gamePacks.findIndex((pack) => pack.id === incoming.id)
+      if (position >= 0) { gamePacks[position] = incoming; updated += 1 }
+      else { gamePacks = [incoming, ...gamePacks]; created += 1 }
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
+  }
+
+  if (batch.kind === 'glossary') {
+    glossaryTouched = true
+    const result = applyGlossaryRows(glossary.terms, batch.rows)
+    glossary = {
+      version: 1,
+      categories: glossary.categories.length ? glossary.categories : MED_CATEGORIES.map((entry) => ({ ...entry })),
+      terms: result.records,
+    }
+    result.errors.forEach((error) => errors.push(`${batch.file}: ${error}`))
+    report.push({
+      file: batch.file,
+      kind: batch.kind,
+      created: result.created,
+      updated: result.updated,
+      rejected: result.rejected,
+    })
+    continue
   }
 
   if (batch.kind === 'article') {
@@ -144,6 +221,21 @@ for (const batch of batches) {
       const rowErrors = validateImportRow('article', row)
       if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
       const incoming = importRowToContent('article', row, `row-${index}`)
+      const position = ledger.findIndex((item) => item.id === incoming.id)
+      if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
+      else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
+  }
+
+  if (batch.kind === 'catalogue-resource') {
+    let created = 0
+    let updated = 0
+    batch.rows.forEach((row, index) => {
+      const rowErrors = validateImportRow('resource', row)
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
+      const incoming = importRowToContent('resource', row, `row-${index}`)
       const position = ledger.findIndex((item) => item.id === incoming.id)
       if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
       else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
@@ -284,6 +376,8 @@ const after = {
   citations: evidence.citations.length,
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
+  minigamePacks: gamePacks.length,
+  glossaryTerms: glossary.terms.length,
 }
 
 // The point of the exercise: which concepts can now leave needs_evidence.
@@ -302,7 +396,18 @@ const nowSupported = [...claimsByConcept.entries()]
   .filter((entry) => entry.publicationStatus !== 'published')
 
 if (emitFile) {
-  await writeFile(emitFile, `${JSON.stringify({ ...bundle, states: { ...state, [LEDGER_KEY]: ledger, [GRAPH_KEY]: graph, [EVIDENCE_KEY]: evidence } }, null, 1)}\n`)
+  const nextStates = { ...state, [LEDGER_KEY]: ledger, [GRAPH_KEY]: graph, [EVIDENCE_KEY]: evidence }
+  if (minigameTouched) {
+    nextStates[MINIGAME_PACKS_KEY] = {
+      version: 1,
+      status: 'In review',
+      validationStatus: 'validated',
+      updatedAt: new Date().toISOString(),
+      packs: gamePacks,
+    }
+  }
+  if (glossaryTouched) nextStates[GLOSSARY_STORAGE_KEY] = glossary
+  await writeFile(emitFile, `${JSON.stringify({ ...bundle, states: nextStates }, null, 1)}\n`)
 }
 
 console.log(JSON.stringify({

@@ -1,5 +1,7 @@
 import { EMPTY_CURRICULUM_SELECTION, type CourseCurriculumSelection } from './courseCurriculum.ts'
 import type { CurriculumCourse, UniYear, University } from './universities.ts'
+import type { AcademicProvenance } from './academicSource.ts'
+import type { AssessmentScheme } from './assessmentScheme.ts'
 
 /**
  * What a module examines, and what each part of it is worth.
@@ -39,6 +41,9 @@ export interface ModuleSubject {
   name: string
   /** Meaningful only on a module's direct subjects. Deeper ones carry none. */
   marks: ExamMarks
+  /** Flexible, source-backed scheme. `marks` remains the compatibility view. */
+  assessmentScheme?: AssessmentScheme
+  provenance?: AcademicProvenance
   curriculum: CourseCurriculumSelection
   /** Subjects beneath this one. Absent and empty mean the same thing. */
   children?: ModuleSubject[]
@@ -83,11 +88,11 @@ export function newModuleSubject(name = ''): ModuleSubject {
   }
 }
 
-/** Marks are whole and never negative; a blank field reads as none. */
+/** Marks are decimal-safe and never negative; a blank field reads as none. */
 export function normaliseMark(value: number | string): number {
   const parsed = typeof value === 'number' ? value : Number(value.trim())
   if (!Number.isFinite(parsed) || parsed <= 0) return 0
-  return Math.floor(parsed)
+  return Math.round(parsed * 100) / 100
 }
 
 export function subjectTotal(subject: ModuleSubject): number {

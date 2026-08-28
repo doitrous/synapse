@@ -99,7 +99,9 @@ function DocumentPicker({
   const options = useMemo(() => {
     const taken = new Set(chosen)
     const all: { id: string; label: string; own: boolean }[] = [
-      ...mine.items.map((item) => ({ id: uploadRouteId(item.id), label: item.title, own: true })),
+      // Only what the reader can open. A file pinned to a whiteboard is on the
+      // same account but is not something a note can cite a page of.
+      ...mine.items.filter((item) => item.mediaType === 'pdf').map((item) => ({ id: uploadRouteId(item.id), label: item.title, own: true })),
       ...resources
         .filter((item) => item.type !== 'Video')
         .map((item) => ({ id: item.id, label: item.title, own: false })),

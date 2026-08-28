@@ -12,10 +12,10 @@
       (function () {
         try {
           var t = localStorage.getItem('synapse-theme');
-          if (t !== 'light' && t !== 'warm' && t !== 'dark') t = 'light';
+          if (t !== 'light' && t !== 'warm' && t !== 'dark' && t !== 'oled') t = 'light';
           document.documentElement.dataset.theme = t;
           var m = document.querySelector('meta[name="theme-color"]');
-          if (m) m.setAttribute('content', { light: '#f5f7fb', warm: '#f7f2ea', dark: '#0d1117' }[t]);
+          if (m) m.setAttribute('content', { light: '#f5f7fb', warm: '#f7f2ea', dark: '#0d1117', oled: '#000000' }[t]);
         } catch (e) {
           document.documentElement.dataset.theme = 'light';
         }
@@ -23,9 +23,9 @@
     </script>
     <meta
       name="description"
-      content="Connect Cortex — a single clinical instrument for undergraduate medical study: library, question bank, practical, and a schedule that shows you exactly what to study next."
+      content="Maristana by Connect Academy — Egyptian university curricula, internationally grounded clinical practice, and a study workspace that stays with you."
     />
-    <title>Connect Cortex · Clinical study, in one place</title>
+    <title>Maristana · Learn medicine the way you’ll practise it</title>
 
     <link rel="canonical" href="https://synapse.doitrous.com/" />
     <link rel="alternate" hreflang="en" href="https://synapse.doitrous.com/en" />
@@ -34,35 +34,35 @@
 
     <!-- Open Graph — WhatsApp, iMessage, Facebook, LinkedIn, Slack -->
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Connect Cortex" />
+    <meta property="og:site_name" content="Maristana" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="ar_AR" />
-    <meta property="og:title" content="Connect Cortex · See exactly what to study next" />
+    <meta property="og:title" content="Maristana · Learn medicine the way you’ll practise it" />
     <meta
       property="og:description"
-      content="A calm clinical workspace for undergraduate medicine — library, question bank, practicals, and a schedule that shows you exactly what to study next."
+      content="Your Egyptian university curriculum, ready to study through internationally grounded clinical practice."
     />
     <meta property="og:url" content="https://synapse.doitrous.com/" />
     <meta property="og:image" content="https://synapse.doitrous.com/og-image.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Connect Cortex — see exactly what to study next" />
+    <meta property="og:image:alt" content="Maristana — learn medicine the way you’ll practise it" />
 
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Connect Cortex · See exactly what to study next" />
+    <meta name="twitter:title" content="Maristana · Learn medicine the way you’ll practise it" />
     <meta
       name="twitter:description"
-      content="A calm clinical workspace for undergraduate medicine."
+      content="Your Egyptian university curriculum, ready for internationally grounded clinical practice."
     />
     <meta name="twitter:image" content="https://synapse.doitrous.com/og-image.png" />
   </head>
   <body>
     <!--
-      DIRECTION CONTRACT · Connect Cortex · seed:user-pinned/clinical-chart
+      DIRECTION CONTRACT · Maristana · seed:user-pinned/clinical-chart
       THESIS: One calm clinical instrument where a med student reads, drills, practices, and sees what to study next. Refuses the multi-tab SaaS grid of same-size icon cards.
-      OWN-WORLD: A ground carrying a hint of the brand blue on a faint ruled vitals-chart grid; cortex crimson as the working accent and cortex blue as the structural one, taken from the split-hemisphere mark; Source Serif 4 headings + Geist UI + Geist Mono data + Jost for the logotype alone; calibrated reference-range meters; hairline rules; no glass, gradients, or glow.
+      OWN-WORLD: A ground carrying a hint of the brand blue on a faint ruled vitals-chart grid; cortex rose as the working accent and cortex blue as the structural one, joined in the Courtyard M; Source Serif 4 headings + Geist UI + Geist Mono data + Orbitron for the logotype alone; calibrated reference-range meters; hairline rules; no glass, gradients, or glow.
       STORY: Student lands, sees what is next and what is slipping, and acts in one click into review, qbank, or library.
       FIRST VIEWPORT: Serif greeting and date rail; "Next on your schedule" prominent left, exam-readiness meter right; progress trio beneath; all seated on the chart grid.
       FORM: User-pinned direction (Editorial-Clinical → Clinical Chart). No concept roll.

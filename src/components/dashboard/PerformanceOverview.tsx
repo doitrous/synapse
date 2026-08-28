@@ -175,6 +175,11 @@ export function PerformanceOverview({ compact = false }: { compact?: boolean }) 
                   onPointerEnter={() => setHovered(index)}
                   onPointerLeave={(event) => event.pointerType === 'mouse' && setHovered(null)}
                   onClick={() => setHovered((current) => current === index ? null : index)}
+                  onKeyDown={(event) => {
+                    if (event.key !== 'Enter' && event.key !== ' ') return
+                    event.preventDefault()
+                    setHovered((current) => current === index ? null : index)
+                  }}
                   onFocus={() => setHovered(index)}
                   onBlur={() => setHovered(null)}
                 />

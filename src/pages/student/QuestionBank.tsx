@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useSearchParams, useLocation } from 'react-router-dom'
+import { useBlocker, useLocation, useSearchParams } from 'react-router-dom'
 import {
   ListChecks,
   Clock,
@@ -8,6 +8,7 @@ import {
   ArrowRight,
   ArrowLeft,
   Play,
+  AlertTriangle,
   BookOpen,
   ChevronDown,
   RotateCcw,
@@ -17,9 +18,6 @@ import {
   Flame,
   Shuffle,
   Flag,
-  MessageSquareWarning,
-  XCircle,
-  LogOut,
   History,
   TrendingDown,
   MoreHorizontal,
@@ -27,6 +25,8 @@ import {
   Eye,
   PenLine,
   Trash2,
+  Columns2,
+  Sparkles,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import type { AttemptRecord } from '@/data/attempts'
@@ -35,8 +35,19 @@ import { formatLongDate } from '@/lib/format'
 import { getSubject } from '@/data/subjects'
 import { accuracyOf, bySubject as accuracyBySubject, currentStreak, dailyCounts, distinctItems, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
-import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, type AttemptHistory } from '@/lib/useAttemptLog'
+import {
+  incorrectIds, omittedIds, pruneManifests, questionsById, scopeFromQuestions,
+  type SessionManifests,
+} from '@/data/qbankCollections'
+import {
+  clearsStoredSitting, finishedManifests, liveSittingId, pendingAttempts, persistsSitting,
+  restorableQuestions, selectClearsStrike, timedClock, type Phase,
+} from '@/data/qbankSession'
+import { COLLECTION_ICONS, QuestionCollections, type Collection } from '@/components/qbank/QuestionCollections'
+import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts, type AttemptHistory } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { EndSessionDialog } from '@/components/qbank/EndSessionDialog'
+import { ContinueCard } from '@/components/qbank/ContinueCard'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -48,8 +59,8 @@ import { TextInput } from '@/components/ui/Field'
 import { IconButton } from '@/components/ui/IconButton'
 import { ContextMenu } from '@/components/ui/ContextMenu'
 import { Dialog } from '@/components/ui/Dialog'
+import { Tooltip } from '@/components/ui/Tooltip'
 import { SubjectDot } from '@/components/ui/Subject'
-import { ConceptText } from '@/components/concepts/ConceptText'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
@@ -60,12 +71,15 @@ import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachm
 import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { StudyRail } from '@/components/qbank/StudyRail'
+import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
+import { useImmersion } from '@/components/shell/ImmersionContext'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
-type Phase = 'setup' | 'running' | 'results'
+type Source = 'all' | 'flagged' | 'incorrect' | 'omitted'
 
 function shuffle<T>(a: T[]): T[] {
   const b = [...a]
@@ -221,10 +235,16 @@ interface LiveSession {
   mode: Mode
   sessionId: string
   elapsed: number
+  /** Closed question-clock segments, preserved when the sitting is paused. */
+  questionSeconds?: Record<string, number>
   visited: number[]
+  /** Options the student has ruled out, per question. Scratch marks, not a record. */
+  struck: Record<string, number[]>
   reviewing: boolean
   name: string
   phase: Exclude<Phase, 'setup'>
+  /** A submitted sitting is finished with — it is never offered to resume. */
+  submitted: boolean
   startedAt: string
 }
 
@@ -246,6 +266,16 @@ function DetailStat({ label, value, tone }: { label: string; value: string; tone
 }
 
 /**
+ * Which questions each sitting contained.
+ *
+ * The attempt log only receives a question once its answer is checked, so a
+ * skipped one left no trace anywhere the moment its sitting ended. This is the
+ * other half of the pair: with both, "served but never attempted" is a fact
+ * rather than a guess.
+ */
+const SESSION_QUESTIONS_STORAGE_KEY = 'synapse.qbank.sessionQuestions.v1'
+
+/**
  * Everything one sitting can say about itself.
  *
  * All of it derived from the records that sitting produced — see
@@ -254,14 +284,33 @@ function DetailStat({ label, value, tone }: { label: string; value: string; tone
  */
 function SessionDetailPanel({
   detail,
-  seconds,
+  questions,
+  total,
   t,
 }: {
   detail: SessionDetail
-  seconds: number
+  questions: Question[]
+  total?: number
   t: (key: string) => string
 }) {
-  const minutes = Math.round(seconds / 60)
+  const minutes = Math.round(detail.durationSeconds / 60)
+  const omitted = Math.max(0, (total ?? detail.answered) - detail.answered)
+  const pace = [
+    { key: 'good' as const, label: t('Good · 45s or less'), color: 'bg-success' },
+    { key: 'target' as const, label: t('Target · 46–60s'), color: 'bg-primary' },
+    { key: 'slower' as const, label: t('Slower · 61–90s'), color: 'bg-warning' },
+    { key: 'overtime' as const, label: t('Overtime · over 90s'), color: 'bg-danger' },
+  ]
+  const paced = Object.values(detail.pace).reduce((sum, value) => sum + value, 0)
+  const nextAction = detail.repeatedWeaknesses.length
+    ? `${t('Revisit')} ${detail.repeatedWeaknesses.slice(0, 2).join(', ')} ${t('before your next block; these topics have cost marks more than once.')}`
+    : detail.weakestTopic
+      ? `${t('Review')} ${detail.weakestTopic.key} ${t('and retest it while the reasoning is still fresh.')}`
+      : detail.averageSeconds != null && detail.averageSeconds > 60
+        ? t('Your next gain is pace: use a short timed block and aim to commit each answer by 60 seconds.')
+        : detail.wrong > 0
+          ? t('Review the missed answers below, then retake the same scope with fresh questions.')
+          : t('This block is secure. Keep the spacing effect by revisiting it later rather than repeating it immediately.')
   return (
     <div className="border-t border-line bg-surface-2/40 px-4 py-4 sm:px-5">
       <div className="flex flex-wrap gap-x-8 gap-y-4">
@@ -270,10 +319,33 @@ function SessionDetailPanel({
         {/* Only shown when there is one. A nought here would invite the student
             to wonder what they had failed to have marked. */}
         {detail.unmarked > 0 && <DetailStat label={t('Unmarked')} value={String(detail.unmarked)} />}
+        {omitted > 0 && <DetailStat label={t('Omitted')} value={String(omitted)} />}
         <DetailStat label={t('Accuracy')} value={detail.accuracy == null ? '—' : `${Math.round(detail.accuracy * 100)}%`} />
-        {seconds > 0 && <DetailStat label={t('Time')} value={minutes >= 1 ? `${minutes}m` : `${seconds}s`} />}
+        {detail.durationSeconds > 0 && <DetailStat label={t('Total time')} value={minutes >= 1 ? `${minutes}m` : `${detail.durationSeconds}s`} />}
+        {detail.overtimeSeconds > 0 && <DetailStat label={t('Overtime')} value={`+${clock(detail.overtimeSeconds)}`} tone="bad" />}
+        {detail.averageSeconds != null && <DetailStat label={t('Average / question')} value={`${detail.averageSeconds}s`} />}
         {detail.medianSeconds != null && <DetailStat label={t('Median / question')} value={`${detail.medianSeconds}s`} />}
       </div>
+
+      {paced > 0 && (
+        <div className="mt-5 border-t border-line pt-4">
+          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Pace distribution')}</p>
+          <div className="flex h-2.5 overflow-hidden rounded-full bg-inset" aria-hidden>
+            {pace.map((band) => detail.pace[band.key] > 0 && (
+              <span key={band.key} className={band.color} style={{ width: `${(detail.pace[band.key] / paced) * 100}%` }} />
+            ))}
+          </div>
+          <ul className="mt-2 grid gap-1.5 sm:grid-cols-2">
+            {pace.map((band) => (
+              <li key={band.key} className="flex items-center gap-2 text-[11.5px] text-ink-2">
+                <span className={cn('size-2 rounded-full', band.color)} aria-hidden />
+                <span className="flex-1">{band.label}</span>
+                <span className="tnum font-mono text-ink">{detail.pace[band.key]}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {detail.subjects.length > 1 && (
         <div className="mt-4">
@@ -319,6 +391,66 @@ function SessionDetailPanel({
           )}
         </div>
       )}
+
+      {detail.subtopics.length > 0 && (
+        <div className="mt-4 grid gap-2 sm:grid-cols-2">
+          {detail.subtopics.slice(0, 8).map((subtopic) => {
+            const pct = subtopic.accuracy == null ? 0 : Math.round(subtopic.accuracy * 100)
+            return (
+              <div key={subtopic.key} className="rounded-lg border border-line bg-surface px-3 py-2.5">
+                <div className="flex items-start justify-between gap-3 text-[11.5px]">
+                  <span className="min-w-0 truncate text-ink-2" title={subtopic.key}>{subtopic.key}</span>
+                  <span className="tnum shrink-0 font-mono text-ink">{subtopic.accuracy == null ? '—' : `${pct}%`}</span>
+                </div>
+                <Meter value={pct} tone={pct >= 80 ? 'success' : pct >= 60 ? 'primary' : 'warning'} className="mt-2" />
+              </div>
+            )
+          })}
+        </div>
+      )}
+
+      {detail.answers.length > 0 && (
+        <div className="mt-5 border-t border-line pt-4">
+          <p className="mb-2 text-[10.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Answer review')}</p>
+          <ol className="space-y-2">
+            {detail.answers.map((answer, index) => {
+              const question = questions.find((item) => item.id === answer.itemId)
+              const picked = typeof answer.selectedIndex === 'number' ? question?.options[answer.selectedIndex] : undefined
+              const keyed = typeof answer.correctIndex === 'number' ? question?.options[answer.correctIndex] : undefined
+              return (
+                <li key={answer.itemId} className="rounded-lg border border-line bg-surface px-3 py-3">
+                  <div className="flex items-start gap-2">
+                    <span className="tnum grid size-6 shrink-0 place-items-center rounded-full bg-inset font-mono text-[10.5px] text-ink-2">{index + 1}</span>
+                    <div className="min-w-0 flex-1">
+                      <p className="line-clamp-2 text-[12.5px] font-medium leading-snug text-ink">{question?.stem ?? answer.topic}</p>
+                      {answer.correct === true ? (
+                        <p className="mt-1 text-[11.5px] text-success">{t('Correct')} {picked ? `· ${LETTERS[answer.selectedIndex!]} · ${picked.text}` : ''}</p>
+                      ) : answer.correct === false ? (
+                        <div className="mt-1 space-y-0.5 text-[11.5px] leading-snug">
+                          {/* "Correct" alone, right under the option this student
+                              picked, reads as being told they got it right. Naming
+                              both sides — whose pick this is, and which one the key
+                              names — leaves no room to misread it either way. */}
+                          <p className="text-danger">{t('Your answer')}: {picked ? `${LETTERS[answer.selectedIndex!]} · ${picked.text}` : t('Not retained for this legacy attempt')}</p>
+                          <p className="text-success">{t('Correct answer')}: {keyed ? `${LETTERS[answer.correctIndex!]} · ${keyed.text}` : t('Review the question explanation')}</p>
+                        </div>
+                      ) : (
+                        <p className="mt-1 text-[11.5px] text-ink-3">{t('This activity was not marked against a key.')}</p>
+                      )}
+                    </div>
+                    {answer.seconds != null && <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{answer.seconds}s</span>}
+                  </div>
+                </li>
+              )
+            })}
+          </ol>
+        </div>
+      )}
+
+      <div className="mt-5 rounded-lg border border-primary-line bg-primary-tint/35 px-3.5 py-3">
+        <p className="text-[10.5px] font-semibold uppercase tracking-[0.06em] text-primary-strong">{t('Next action')}</p>
+        <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">{nextAction}</p>
+      </div>
     </div>
   )
 }
@@ -341,6 +473,7 @@ function PreviousTests({
   names,
   liveSessionId,
   records,
+  questions,
   onRename,
   onResume,
   onTerminate,
@@ -358,6 +491,7 @@ function PreviousTests({
   liveSessionId: string | null
   /** The whole log; each row reads only its own sitting out of it. */
   records: AttemptRecord[]
+  questions: Question[]
   onRename: (sessionId: string, name: string) => void
   onResume: () => void
   onTerminate: () => void
@@ -466,7 +600,7 @@ function PreviousTests({
 
               {isOpen && (
                 <>
-                  <SessionDetailPanel detail={sessionDetail(records, entry.sessionId)} seconds={entry.seconds} t={t} />
+                  <SessionDetailPanel detail={sessionDetail(records, entry.sessionId)} questions={questions} t={t} />
                   {/* Out of the menu and onto the surface. Sitting a test again
                       is the most useful thing a finished test offers, and it
                       was not offered at all. */}
@@ -582,24 +716,55 @@ export function QuestionBank() {
   const [phase, setPhase] = useState<Phase>('setup')
   const [scope, setScope] = useState<Scope>(() => new Set())
   const [mode, setMode] = useState<Mode>('tutor')
+  const [source, setSource] = useState<Source>('all')
   const [lenChoice, setLenChoice] = useState<'5' | '10' | '20' | '40' | 'custom'>('5')
   const [customLen, setCustomLen] = useState(15)
   const count = lenChoice === 'custom' ? Math.min(MAX_QUESTIONS, Math.max(1, customLen || 1)) : Number(lenChoice)
 
   const [session, setSession] = useState<Question[]>([])
   const [idx, setIdx] = useState(0)
+  // Called unconditionally, ahead of the phase branches below, like every
+  // other hook in this component — `session[idx]` is simply undefined outside
+  // the running phase, which the hook treats as just another (empty) key.
+  const highlights = useQuestionHighlights(session[idx]?.id ?? '')
+  const questionCardRef = useRef<HTMLDivElement>(null)
+  const [flashcardSeed, setFlashcardSeed] = useState<{ front: string; back: string } | null>(null)
   const [answers, setAnswers] = useState<Record<string, number>>({})
+  const [struck, setStruck] = useState<Record<string, number[]>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
   const [reviewing, setReviewing] = useState(false)
+  const [submitted, setSubmitted] = useState(false)
+  // Sitting a test is the one thing here that wants the width, and the one
+  // thing a student should not have to tidy the screen for first.
+  const { setImmersive } = useImmersion()
+  useEffect(() => {
+    setImmersive(phase === 'running')
+    return () => setImmersive(false)
+  }, [phase, setImmersive])
   const { record } = useMastery()
   const logAttempt = useRecordAttempt()
+  const logAttempts = useRecordAttempts()
   const history = useAttemptHistory()
   /** Groups this sitting's records, so a later attempt at the same item is distinct. */
   const [sessionId, setSessionId] = useState(() => newSessionId())
   const [elapsed, setElapsed] = useState(0)
   /** Elapsed seconds when the current question was first shown. */
   const questionStartedAt = useRef(0)
+  /**
+   * How long has been spent on each question, and which one the clock is on.
+   *
+   * A timed block only ever knew the total. Per-question time was measured
+   * exclusively inside `checkAnswer`, which Tutor is the only mode that
+   * reaches — so the mode built around a clock recorded no times at all.
+   */
+  const elapsedRef = useRef(0)
+  elapsedRef.current = elapsed
+  const timeSpent = useRef<Record<string, number>>({})
+  const timingId = useRef<string | null>(null)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
+  const [endOpen, setEndOpen] = useState(false)
+  /** A hidden timed test stays paused until the student explicitly decides. */
+  const [visibilityPaused, setVisibilityPaused] = useState(false)
   /** Indexes the student has actually landed on — what separates "omitted" from "unseen". */
   const [visited, setVisited] = useState<Set<number>>(() => new Set([0]))
   /**
@@ -614,10 +779,24 @@ export function QuestionBank() {
   const setMarked = useCallback((update: (current: Set<string>) => Set<string>) => {
     setMarkedIds((current) => [...update(new Set(current))])
   }, [setMarkedIds])
-  const [showAllRationales, setShowAllRationales] = useState(false)
+  /**
+   * Desktop-only layout preference: once an answer is revealed, split the
+   * question (stem/vignette/options) from the answer area (explanations and
+   * per-option rationale) into two columns instead of stacking them.
+   * Persisted so a student who likes it does not re-toggle every sitting.
+   */
+  const [splitView, setSplitView] = usePersistentState<boolean>('synapse.qbank.splitView.v1', false)
+  /** Mirrors the `lg` breakpoint — split view never applies below it. */
+  const [isDesktop, setIsDesktop] = useState(() => typeof window !== 'undefined' && window.matchMedia('(min-width: 1024px)').matches)
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1024px)')
+    const onChange = () => setIsDesktop(mq.matches)
+    mq.addEventListener('change', onChange)
+    return () => mq.removeEventListener('change', onChange)
+  }, [])
   /** What the student called this sitting, if anything. */
   const [sessionName, setSessionName] = useState('')
-  const [hubTab, setHubTab] = useState<'new' | 'previous'>('new')
+  const [hubTab, setHubTab] = useState<'new' | 'collections' | 'previous'>('new')
   /**
    * What each finished sitting is called.
    *
@@ -626,7 +805,7 @@ export function QuestionBank() {
    * covered, so nothing is ever nameless.
    */
   const [savedNames, setSavedNames] = usePersistentState<Record<string, string>>(SESSION_NAMES_STORAGE_KEY, {})
-
+  const [sessionQuestions, setSessionQuestions] = usePersistentState<SessionManifests>(SESSION_QUESTIONS_STORAGE_KEY, {})
 
   /**
    * The sitting in progress, kept where a route change cannot take it.
@@ -643,29 +822,88 @@ export function QuestionBank() {
   // `saved`, so depending on it there would make the write retrigger the effect
   // that performed it — which is exactly the render loop this avoids.
   const startedAt = useRef<string | null>(null)
+  /**
+   * Which sitting the mirror below is allowed to write.
+   *
+   * The runner's state is one slot serving three things: a live sitting, a past
+   * test, and a collection. Leaving a past test lands on its results screen with
+   * `reviewing` already cleared, and the mirror would then write that finished
+   * test straight over the sitting the student still has paused. Only the
+   * sitting that was actually started or resumed here may be mirrored.
+   */
+  const mirroredSittingId = useRef<string | null>(null)
+
+  /**
+   * A start that is waiting on the student's answer about the open sitting.
+   *
+   * Every way of starting a test funnels through `beginSession`, which replaces
+   * the stored sitting outright. Once the hub could show a paused test and a
+   * Start button at the same time, that replacement became silent loss of work
+   * — and for a timed sitting, total loss, since nothing reaches the attempt
+   * log until it is committed at the end.
+   */
+  const [pendingStart, setPendingStart] = useState<{ picked: Question[]; name?: string } | null>(null)
+
+  /**
+   * Put a stored sitting back into the runner's state.
+   *
+   * Shared by the restore below and by `resumeSaved`, because restoring once on
+   * mount is not enough: viewing a collection or a past test overwrites the same
+   * state slot the sitting lives in, and nothing put it back. Continue then
+   * dropped the student into whatever they had just looked at, read-only, with
+   * their own paused sitting unreachable until a reload.
+   */
+  const restoreFrom = useCallback((sitting: LiveSession) => {
+    const rebuilt = sitting.questionIds
+      .map((id) => questions.find((question) => question.id === id))
+      .filter((question): question is Question => Boolean(question))
+    startedAt.current = sitting.startedAt
+    mirroredSittingId.current = sitting.sessionId
+    setSession(rebuilt)
+    setIdx(Math.min(sitting.idx, rebuilt.length - 1))
+    setAnswers(sitting.answers)
+    setStruck(sitting.struck ?? {})
+    setChecked(sitting.checked)
+    setMode(sitting.mode)
+    setSessionId(sitting.sessionId)
+    setElapsed(sitting.elapsed)
+    timeSpent.current = sitting.questionSeconds ?? {}
+    timingId.current = null
+    questionStartedAt.current = sitting.elapsed
+    setVisited(new Set(sitting.visited))
+    // Not `sitting.reviewing`. The mirror below refuses to write while a review
+    // is on screen, so a stored sitting is never a review; reading the field
+    // back was the only way a stale `true` could outlive the review it belonged
+    // to. The field stays on `LiveSession` for documents already persisted.
+    setReviewing(false)
+    setSubmitted(sitting.submitted ?? false)
+    setSessionName(sitting.name)
+  }, [questions])
 
   useEffect(() => {
     if (restored.current || !savedStatus.hydrated || !saved || !questions.length) return
-    const rebuilt = saved.questionIds
-      .map((id) => questions.find((question) => question.id === id))
-      .filter((question): question is Question => Boolean(question))
-    // A session whose questions have since been unpublished cannot be resumed
-    // honestly, so it is dropped rather than silently shortened.
-    if (rebuilt.length !== saved.questionIds.length) { setSaved(null); restored.current = true; return }
+    // Reconciled: main guarded this effect against overwriting a live sitting
+    // (the stored document arrives asynchronously, and it used to arrive *after*
+    // the student had picked Timed and pressed Start — restoring the old sitting
+    // straight over the new one, mode, answers and `checked` map included); the
+    // incoming branch replaced the inline rebuild with `restorableQuestions` +
+    // `restoreFrom` and stopped it forcing the phase. Both are kept. The guard
+    // costs the Continue card nothing, because the card reads `saved` directly
+    // and `resumeSaved` restores from it on demand — so refusing here only ever
+    // protects what is on screen. Whatever is on screen wins.
+    if (session.length || phase !== 'setup') { restored.current = true; return }
+    // Null when a question has since been unpublished — see `restorableQuestions`.
+    if (!restorableQuestions(saved, questions)) { setSaved(null); restored.current = true; return }
     restored.current = true
-    startedAt.current = saved.startedAt
-    setSession(rebuilt)
-    setIdx(Math.min(saved.idx, rebuilt.length - 1))
-    setAnswers(saved.answers)
-    setChecked(saved.checked)
-    setMode(saved.mode)
-    setSessionId(saved.sessionId)
-    setElapsed(saved.elapsed)
-    setVisited(new Set(saved.visited))
-    setReviewing(saved.reviewing)
-    setSessionName(saved.name)
-    setPhase(saved.phase)
-  }, [questions, saved, savedStatus.hydrated, setSaved])
+    restoreFrom(saved)
+    // Deliberately not `setPhase(saved.phase)`. Everything about the sitting is
+    // back — questions, answers, timer, strikes — but the student lands on the
+    // hub and chooses to go back in, rather than arriving mid-question with no
+    // idea where they are.
+    // `session.length` and `phase` are read above to decide whether restoring is
+    // still the right thing to do, so they belong here: reading a stale pair is
+    // what the guard exists to prevent. `restored.current` stops this repeating.
+  }, [questions, saved, savedStatus.hydrated, setSaved, restoreFrom, session.length, phase])
 
   // Mirror the sitting outward. Debounced by the state store, so this is one
   // write per pause rather than one per answer.
@@ -677,20 +915,66 @@ export function QuestionBank() {
     // stored sitting is now cleared only where it is genuinely finished with:
     // `discardSession`, called from Terminate, from "Start another", and from
     // the guards that find themselves with no questions.
-    if (phase === 'setup') return
+    // A review is not work in progress either — see `persistsSitting`.
+    if (!persistsSitting(phase, reviewing)) return
+    // And never write a session that is not the live sitting. Leaving a past
+    // test clears `reviewing` but stays on that test's results screen, which was
+    // enough for the mirror to file it as the open sitting — over the paused one.
+    if (mirroredSittingId.current !== sessionId) return
     if (!startedAt.current) startedAt.current = new Date().toISOString()
     setSaved({
       questionIds: session.map((question) => question.id),
       idx, answers, checked, mode, sessionId, elapsed,
+      questionSeconds: timeSpent.current,
       visited: [...visited],
+      struck,
       reviewing,
+      submitted,
       name: sessionName,
       phase,
       startedAt: startedAt.current,
     })
     // `saved` is deliberately not a dependency — see startedAt above.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, reviewing, sessionName, savedStatus.hydrated, setSaved])
+  }, [phase, session, idx, answers, checked, mode, sessionId, elapsed, visited, struck, reviewing, submitted, sessionName, savedStatus.hydrated, setSaved])
+
+  const guardActive = phase === 'running' && !reviewing && !submitted
+  const blocker = useBlocker(useCallback(({ currentLocation, nextLocation }) => (
+    guardActive && `${currentLocation.pathname}${currentLocation.search}` !== `${nextLocation.pathname}${nextLocation.search}`
+  ), [guardActive]))
+
+  /** Internal links use the same deliberate exit choice as the End control. */
+  useEffect(() => {
+    if (blocker.state === 'blocked') setEndOpen(true)
+  }, [blocker.state])
+
+  /** Browser close, reload, and external navigation can only use the native warning. */
+  useEffect(() => {
+    if (!guardActive) return
+    const warn = (event: BeforeUnloadEvent) => {
+      event.preventDefault()
+      event.returnValue = ''
+    }
+    window.addEventListener('beforeunload', warn)
+    return () => window.removeEventListener('beforeunload', warn)
+  }, [guardActive])
+
+  /**
+   * Browsers cannot cancel an operating-system tab switch. Pause immediately
+   * while hidden, then require the same choice before the clock can resume.
+   */
+  useEffect(() => {
+    if (!guardActive || mode !== 'timed') return
+    const onVisibility = () => {
+      if (document.visibilityState === 'hidden') {
+        setVisibilityPaused(true)
+        return
+      }
+      setEndOpen(true)
+    }
+    document.addEventListener('visibilitychange', onVisibility)
+    return () => document.removeEventListener('visibilitychange', onVisibility)
+  }, [guardActive, mode])
 
   const articleQuestions = useMemo(
     () => (articleFilter ? questions.filter((question) => question.libraryRefs.some((ref) => ref.id === articleFilter)) : questions),
@@ -701,7 +985,47 @@ export function QuestionBank() {
   // The same merged tree the chooser offers, or a chapter picked there — one
   // the library has no article for — would resolve to no questions at all.
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
-  const available = useMemo(() => questionsInScope(articleQuestions, scope, libraryTopics), [articleQuestions, libraryTopics, scope])
+
+  const flaggedQuestions = useMemo(() => questionsById(questions, marked), [questions, marked])
+  const incorrectQuestions = useMemo(
+    () => questionsById(questions, incorrectIds(history.records)),
+    [questions, history.records],
+  )
+  const omittedQuestions = useMemo(() => {
+    // Without the sitting still open — see `finishedManifests`.
+    const finished = finishedManifests(sessionQuestions, saved)
+    return questionsById(questions, omittedIds(finished, history.records))
+  }, [questions, sessionQuestions, history.records, saved])
+
+  const sourcePool = useMemo(() => {
+    if (source === 'flagged') return flaggedQuestions
+    if (source === 'incorrect') return incorrectQuestions
+    if (source === 'omitted') return omittedQuestions
+    return articleQuestions
+  }, [source, articleQuestions, flaggedQuestions, incorrectQuestions, omittedQuestions])
+
+  const available = useMemo(
+    () => questionsInScope(sourcePool, scope, libraryTopics),
+    [sourcePool, libraryTopics, scope],
+  )
+
+  const collections: Collection[] = useMemo(() => [
+    {
+      key: 'flagged', title: t('Flagged'), icon: COLLECTION_ICONS.flagged,
+      empty: t('Flag a question while you are sitting a test and it waits here.'),
+      questions: flaggedQuestions,
+    },
+    {
+      key: 'incorrect', title: t('Got wrong'), icon: COLLECTION_ICONS.incorrect,
+      empty: t('Questions you answered wrongly collect here, and leave once you get them right.'),
+      questions: incorrectQuestions,
+    },
+    {
+      key: 'omitted', title: t('Omitted'), icon: COLLECTION_ICONS.omitted,
+      empty: t('Questions a test served you but you never answered collect here.'),
+      questions: omittedQuestions,
+    },
+  ], [flaggedQuestions, incorrectQuestions, omittedQuestions, t])
 
   /**
    * The subjects this student is actually weakest in.
@@ -762,24 +1086,57 @@ export function QuestionBank() {
     })
     if (!pool.length) return
     openedReview.current = true
-    beginSession(shuffle(pool).slice(0, Math.min(REVIEW_SESSION_SIZE, pool.length)))
+    // Unnamed, as it has always been: a link arrives with no name to give it,
+    // and `autoSessionName` describes the setup form's scope, not this one's.
+    requestSession(shuffle(pool).slice(0, Math.min(REVIEW_SESSION_SIZE, pool.length)))
     // beginSession is redefined every render; the ref above is what makes this
     // run once, so re-running on its identity would defeat the guard.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questions, reviewConcepts, reviewSubject])
 
+  /**
+   * A single question opened by id — e.g. from a Question Notes card. `?q=<id>`
+   * begins a one-question tutor sitting on exactly that question, so a note
+   * links back to the thing it was written about.
+   */
+  const singleQuestion = params.get('q')
+  const openedSingle = useRef(false)
   useEffect(() => {
-    if (phase !== 'running' || mode !== 'timed' || reviewing) return
+    if (openedSingle.current || !singleQuestion || !questions.length) return
+    const question = questions.find((entry) => entry.id === singleQuestion)
+    if (!question) return
+    openedSingle.current = true
+    requestSession([question])
+    // requestSession is redefined every render; the ref above makes this run once.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [questions, singleQuestion])
+
+  // Every live test has an elapsed clock. Timed mode interprets it against the
+  // sitting allowance; Tutor mode presents the same value as a calm count-up.
+  useEffect(() => {
+    if (phase !== 'running' || reviewing || visibilityPaused) return
     const id = setInterval(() => setElapsed((e) => e + 1), 1000)
     return () => clearInterval(id)
-  }, [phase, mode, reviewing])
+  }, [phase, reviewing, visibilityPaused])
+
+  /** Close the clock on whichever question was showing, and open it on this one. */
+  const switchTiming = useCallback((nextId: string | null) => {
+    const previous = timingId.current
+    if (previous && previous !== nextId) {
+      timeSpent.current[previous] = (timeSpent.current[previous] ?? 0) + Math.max(0, elapsedRef.current - questionStartedAt.current)
+    }
+    if (previous !== nextId) {
+      timingId.current = nextId
+      questionStartedAt.current = elapsedRef.current
+    }
+  }, [])
 
   // Landing on a question is what makes it "seen", however the student got here —
   // Next, Previous, or a jump from the navigator.
   useEffect(() => {
     setVisited((current) => (current.has(idx) ? current : new Set(current).add(idx)))
-    setShowAllRationales(false)
-  }, [idx])
+    switchTiming(session[idx]?.id ?? null)
+  }, [idx, session, switchTiming])
 
   /**
    * Open a session on a chosen set of questions.
@@ -791,23 +1148,60 @@ export function QuestionBank() {
    */
   function beginSession(picked: Question[], name?: string) {
     if (!picked.length) return
-    // The id is minted here and named here, in one place. Callers used to write
-    // the name against whatever `sessionId` happened to hold, and then this
-    // replaced it — so every test a student named was filed under the previous
-    // id and appeared in their history as "Untitled test".
+    // Three things hang off one id, and all three are minted here.
+    //
+    // The name, because callers used to write it against whatever `sessionId`
+    // happened to hold and then this replaced it — so every test a student
+    // named was filed under the previous id and read as "Untitled test".
+    //
+    // The manifest, because the other cure for that bug was to mint the id at
+    // the caller and pass it down, which each caller then had to get right.
+    // Minting once here is the same fix without the obligation, and the
+    // manifest has to travel with it: "omitted" is a sitting's served questions
+    // minus its attempt records, and those records are written against
+    // `sessionId`, so a manifest under any other id subtracts nothing and every
+    // question served looks omitted.
     const id = newSessionId()
+    // Starting is also a decision about the stored sitting: it is superseded,
+    // so a read still in flight must not be allowed to land on top of this one.
+    restored.current = true
+    startedAt.current = new Date().toISOString()
+    timeSpent.current = {}
+    timingId.current = null
     if (name?.trim()) setSavedNames((current) => ({ ...current, [id]: name.trim() }))
+    // Filed at the start, not at the end: a test abandoned halfway still served
+    // its questions, and the ones never reached are still omitted.
+    setSessionQuestions((current) => pruneManifests({ ...current, [id]: picked.map((question) => question.id) }))
+    mirroredSittingId.current = id
     setSession(picked)
     setSessionId(id)
     setIdx(0)
     setAnswers({})
+    setStruck({})
     setChecked({})
     setReviewing(false)
+    setReviewReturn('results')
+    setSubmitted(false)
     setElapsed(0)
+    setVisibilityPaused(false)
     questionStartedAt.current = 0
     setVisited(new Set([0]))
-    setShowAllRationales(false)
     setPhase('running')
+  }
+
+  /**
+   * Start a sitting, asking first if it would throw an open one away.
+   *
+   * Carries the name rather than an id: the id is `beginSession`'s to mint, and
+   * a start the student may yet cancel should not have minted one.
+   */
+  function requestSession(picked: Question[], name?: string) {
+    if (!picked.length) return
+    if (saved && !saved.submitted && saved.questionIds.length > 0) {
+      setPendingStart({ picked, name })
+      return
+    }
+    beginSession(picked, name)
   }
 
   /**
@@ -836,6 +1230,42 @@ export function QuestionBank() {
   }, [history.records, questions])
 
   /**
+   * Where a read-only view goes when it is done.
+   *
+   * A past test has results to go back to; a collection does not — it was never
+   * sat as a sitting — so it returns to the hub instead.
+   */
+  const [reviewReturn, setReviewReturn] = useState<'setup' | 'results'>('results')
+
+  /** Read a collection, answers and explanations shown. */
+  function viewCollection(items: Question[]) {
+    if (!items.length) return
+    mirroredSittingId.current = null
+    setSession(items)
+    setSessionId(newSessionId())
+    setAnswers({})
+    setChecked({})
+    setStruck({})
+    setVisited(new Set(items.map((_, index) => index)))
+    setIdx(0)
+    setSubmitted(false)
+    setReviewing(true)
+    setReviewReturn('setup')
+    setPhase('running')
+  }
+
+  function testTheseQuestions(items: Question[], title: string) {
+    requestSession(shuffle(items).slice(0, Math.min(count, items.length)), title)
+  }
+
+  /** Same topics, fresh questions — including ones the student has not seen. */
+  function testScopeOf(items: Question[], title: string) {
+    const derived = scopeFromQuestions(items, libraryTopics)
+    const pool = questionsInScope(questions, derived, libraryTopics)
+    requestSession(shuffle(pool).slice(0, Math.min(count, pool.length)), `${title} · ${t('same scope')}`)
+  }
+
+  /**
    * Sit the same questions again, as a new test.
    *
    * A new session id, so this is a second sitting rather than an edit of the
@@ -846,7 +1276,10 @@ export function QuestionBank() {
   function retakeSameQuestions(previousId: string) {
     const rebuilt = reviewableQuestions(previousId)
     if (!rebuilt.length) return
-    beginSession(shuffle(rebuilt), `${savedNames[previousId]?.trim() || t('Untitled test')} · ${t('retake')}`)
+    // Through `requestSession`, not straight into `beginSession`: a retake is
+    // another way of starting a test, and starting one over a sitting the
+    // student still has paused would throw that sitting away without asking.
+    requestSession(shuffle(rebuilt), `${savedNames[previousId]?.trim() || t('Untitled test')} · ${t('retake')}`)
   }
 
   /**
@@ -862,7 +1295,7 @@ export function QuestionBank() {
     const pool = questions.filter((question) => wanted.has(question.subjectId))
     if (!pool.length) return
     const scopeName = entry.subjectIds.length === 1 ? getSubject(entry.subjectIds[0]).name : t('Mixed')
-    beginSession(
+    requestSession(
       shuffle(pool).slice(0, Math.min(Math.max(entry.answered, 1), pool.length)),
       `${scopeName} · ${t('Test')} ${sessionSummaries.length + 1}`,
     )
@@ -879,11 +1312,13 @@ export function QuestionBank() {
       marked[record.itemId] = true
       const question = rebuilt.find((item) => item.id === record.itemId)
       if (!question) continue
-      // The log records whether the answer was right, not which option was
-      // chosen, so a wrong answer is shown as wrong without inventing which.
       const correctIndex = question.options.findIndex((option) => option.correct)
-      if (record.correct === true && correctIndex >= 0) answered[record.itemId] = correctIndex
+      if (typeof record.selectedIndex === 'number') answered[record.itemId] = record.selectedIndex
+      // Legacy attempts predate selected-option storage. A correct answer can
+      // still be reconstructed honestly; a wrong one remains unselected.
+      else if (record.correct === true && correctIndex >= 0) answered[record.itemId] = correctIndex
     }
+    mirroredSittingId.current = null
     setSession(rebuilt)
     setAnswers(answered)
     setChecked(marked)
@@ -892,20 +1327,82 @@ export function QuestionBank() {
     setSessionName(savedNames[sessionId] ?? t('Untitled test'))
     setIdx(0)
     setReviewing(true)
+    setReviewReturn('results')
     setPhase('running')
   }
 
-  /** Pick a paused sitting back up exactly where it was left. */
+  /**
+   * Pick a paused sitting back up exactly where it was left.
+   *
+   * The state it needs is restored here, not assumed: a collection or a past
+   * test viewed since the last restore is sitting in the same slot, and the
+   * stored document is the only durable copy of the real sitting.
+   */
   function resumeSaved() {
     if (!saved) return
+    // The same drop the mount effect performs, because that effect runs once and
+    // never again: `usePublishedQuestions` can retire a question long after
+    // `restored` is set, and `restoreFrom` filters tolerantly rather than
+    // refusing. Without this, Continue opened a paper shorter than the one the
+    // student started, still answering to their original answers, and the mirror
+    // then wrote the shortened `questionIds` back over the stored sitting — the
+    // full paper gone with no way back. See `restorableQuestions`.
+    if (!restorableQuestions(saved, questions)) { setSaved(null); setPhase('setup'); return }
+    restoreFrom(saved)
     setPhase(saved.phase)
   }
 
   /** The sitting is finished with — stop offering to resume it. */
   function discardSession() {
     startedAt.current = null
-    setSaved(null)
+    mirroredSittingId.current = null
+    // Only the sitting actually on screen — see `clearsStoredSitting`.
+    if (clearsStoredSitting(saved, sessionId)) setSaved(null)
     setPhase('setup')
+  }
+
+  /**
+   * Throw the stored sitting away, whatever the runner happens to be holding.
+   *
+   * The hub's two controls — Discard on the Continue card, End this test on the
+   * live row of Previous tests — name the *stored* sitting; it is the only thing
+   * either of them is describing. The runner's state slot is not it: viewing a
+   * collection or a past test reassigns `sessionId`, so guarding these with
+   * `clearsStoredSitting` the way the in-runner exits are guarded left them
+   * silently doing nothing after any such detour, with the card still sitting
+   * there. The in-runner exits keep that guard, because there "end this" really
+   * does mean the sitting on screen — which may be a past test's results, and
+   * must not take a separately paused sitting down with it.
+   */
+  function discardSaved() {
+    startedAt.current = null
+    mirroredSittingId.current = null
+    setSaved(null)
+  }
+
+  /** Step out, keep the sitting. */
+  function leaveSession() {
+    switchTiming(null)
+    setEndOpen(false)
+    setVisibilityPaused(false)
+    setPhase('setup')
+    if (blocker.state === 'blocked') blocker.proceed()
+  }
+
+  /** Finish for good: mark what was answered, then show the paper. */
+  function submitSession() {
+    commitAnswers()
+    setSubmitted(true)
+    setEndOpen(false)
+    setVisibilityPaused(false)
+    setPhase('results')
+    if (blocker.state === 'blocked') blocker.proceed()
+  }
+
+  function closeEndDialog() {
+    setEndOpen(false)
+    setVisibilityPaused(false)
+    if (blocker.state === 'blocked') blocker.reset()
   }
 
   const removeAttemptSession = useDeleteAttemptSession()
@@ -916,7 +1413,12 @@ export function QuestionBank() {
       delete next[sessionId]
       return next
     })
-    if (saved?.sessionId === sessionId) setSaved(null)
+    setSessionQuestions((current) => {
+      const next = { ...current }
+      delete next[sessionId]
+      return next
+    })
+    if (clearsStoredSitting(saved, sessionId)) setSaved(null)
   }
 
   const scopeSubjectName = useMemo(() => {
@@ -930,8 +1432,10 @@ export function QuestionBank() {
 
   function start() {
     // Named now rather than when it ends: a sitting abandoned halfway still
-    // produced records, and those should not appear as an unnamed row.
-    beginSession(shuffle(available).slice(0, Math.min(count, available.length)), sessionName.trim() || autoSessionName)
+    // produced records, and those should not appear as an unnamed row. The name
+    // travels with the questions instead of being filed here, because only
+    // `beginSession` knows the id it will be filed under.
+    requestSession(shuffle(available).slice(0, Math.min(count, available.length)), sessionName.trim() || autoSessionName)
   }
 
   function startPreset(kind: 'weak' | 'emergency' | 'demanding' | 'everything') {
@@ -943,20 +1447,12 @@ export function QuestionBank() {
     }
     // A quick start produced records under a name nobody had written, so every
     // one of them arrived in the history as "Untitled test".
-    beginSession(shuffle(presetPool(kind)).slice(0, count), labels[kind])
+    requestSession(shuffle(presetPool(kind)).slice(0, count), labels[kind])
   }
 
   const stats = useMemo(() => {
     const correct = session.filter((q) => q.options[answers[q.id]]?.correct).length
-    const answered = session.filter((q) => answers[q.id] != null).length
-    const bySubject = new Map<string, { correct: number; total: number }>()
-    for (const q of session) {
-      const rec = bySubject.get(q.subjectId) ?? { correct: 0, total: 0 }
-      rec.total++
-      if (q.options[answers[q.id]]?.correct) rec.correct++
-      bySubject.set(q.subjectId, rec)
-    }
-    return { correct, answered, bySubject }
+    return { correct }
   }, [session, answers])
 
   /* ---- Setup --------------------------------------------------------- */
@@ -980,6 +1476,36 @@ export function QuestionBank() {
       <PageContainer>
         <PageHeader title={t('Question Bank')} />
 
+        {saved && !saved.submitted && saved.questionIds.length > 0 && (
+          <ContinueCard
+            name={savedNames[saved.sessionId]?.trim() || t('Untitled test')}
+            answered={Object.keys(saved.answers).length}
+            total={saved.questionIds.length}
+            onContinue={resumeSaved}
+            onDiscard={discardSaved}
+          />
+        )}
+
+        {pendingStart && (
+          <Dialog onClose={() => setPendingStart(null)} label={t('Replace the open test?')} size="sm">
+            <PanelHeader title={t('Replace the open test?')} icon={AlertTriangle} />
+            <div className="space-y-4 p-5">
+              <p className="text-[13.5px] leading-relaxed text-ink-2">
+                {t('You have a test still open. Starting a new one replaces it, and anything you have not had marked is lost.')}
+              </p>
+              <div className="flex flex-col gap-2">
+                <Button variant="secondary" size="md" iconLeft={Play} onClick={() => { setPendingStart(null); resumeSaved() }}>
+                  {t('Go back to the open test')}
+                </Button>
+                <Button variant="primary" size="md" onClick={() => { const next = pendingStart; setPendingStart(null); beginSession(next.picked, next.name) }}>
+                  {t('Replace it and start')}
+                </Button>
+                <Button variant="ghost" size="md" onClick={() => setPendingStart(null)}>{t('Cancel')}</Button>
+              </div>
+            </div>
+          </Dialog>
+        )}
+
         <section className="mb-4 sm:mb-5" aria-labelledby="quick-start-title">
           <h2 id="quick-start-title" className="mb-2 text-[11px] font-bold uppercase tracking-[0.09em] text-ink-3">{t('Quick start')}</h2>
           {/* One compact row. These were four tall cards carrying a sentence of
@@ -987,23 +1513,24 @@ export function QuestionBank() {
               label and a count already say. */}
           <div className="flex flex-wrap gap-2">
             {[
-              { id: 'weak' as const, title: t('Your weakest topics'), icon: TrendingDown, count: presetCounts.weak },
-              { id: 'emergency' as const, title: t('Emergencies only'), icon: Siren, count: presetCounts.emergency },
-              { id: 'demanding' as const, title: t('Demanding questions'), icon: Flame, count: presetCounts.demanding },
-              { id: 'everything' as const, title: t('Everything, shuffled'), icon: Shuffle, count: presetCounts.everything },
+              { id: 'weak' as const, title: t('Your weakest topics'), icon: TrendingDown, count: presetCounts.weak, description: t('Questions from subjects where your marked answers show the lowest accuracy, once there is enough evidence.') },
+              { id: 'emergency' as const, title: t('Emergencies only'), icon: Siren, count: presetCounts.emergency, description: t('Acute and emergency-care questions selected from their authored topics and tags.') },
+              { id: 'demanding' as const, title: t('Demanding questions'), icon: Flame, count: presetCounts.demanding, description: t('Questions authored as moderate, hard, or challenging for focused reasoning practice.') },
+              { id: 'everything' as const, title: t('Everything, shuffled'), icon: Shuffle, count: presetCounts.everything, description: t('Every question available to your university and year, mixed into a new random order.') },
             ].map((preset) => (
-              <button
-                key={preset.id}
-                type="button"
-                onClick={() => startPreset(preset.id)}
-                disabled={preset.count === 0}
-                title={preset.count === 0 ? t('No questions match this yet') : undefined}
-                className="group inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-surface px-3 text-[13px] font-medium text-ink shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/20 disabled:cursor-not-allowed disabled:opacity-55 disabled:hover:border-line disabled:hover:bg-surface sm:min-h-9"
-              >
-                <Icon icon={preset.icon} size={15} className="text-primary group-disabled:text-ink-3" />
-                {preset.title}
-                <span className="tnum rounded-full bg-inset px-1.5 font-mono text-[11px] text-ink-2">{preset.count}</span>
-              </button>
+              <Tooltip key={preset.id} label={preset.description}>
+                <button
+                  type="button"
+                  onClick={() => { if (preset.count > 0) startPreset(preset.id) }}
+                  aria-disabled={preset.count === 0}
+                  title={preset.count === 0 ? t('No questions match this yet') : undefined}
+                  className={cn('group inline-flex min-h-11 items-center gap-2 rounded-lg border border-line bg-surface px-3 text-[13px] font-medium text-ink shadow-panel transition-colors hover:border-primary-line hover:bg-primary-tint/20 sm:min-h-9', preset.count === 0 && 'cursor-not-allowed opacity-55 hover:border-line hover:bg-surface')}
+                >
+                  <Icon icon={preset.icon} size={15} className={preset.count === 0 ? 'text-ink-3' : 'text-primary'} />
+                  {preset.title}
+                  <span className="tnum rounded-full bg-inset px-1.5 font-mono text-[11px] text-ink-2">{preset.count}</span>
+                </button>
+              </Tooltip>
             ))}
           </div>
         </section>
@@ -1011,22 +1538,34 @@ export function QuestionBank() {
         <Tabs
           className="mb-4"
           value={hubTab}
-          onChange={(next) => setHubTab(next as 'new' | 'previous')}
+          onChange={(next) => setHubTab(next as 'new' | 'collections' | 'previous')}
           items={[
             { value: 'new', label: t('New session'), icon: GraduationCap },
+            { value: 'collections', label: t('Flagged & missed'), icon: Flag, count: flaggedQuestions.length + incorrectQuestions.length + omittedQuestions.length },
             { value: 'previous', label: t('Previous tests'), icon: History, count: sessionSummaries.length },
           ]}
         />
 
-        {hubTab === 'previous' ? (
+        {hubTab === 'collections' ? (
+          <QuestionCollections
+            collections={collections}
+            onView={viewCollection}
+            onTestThese={testTheseQuestions}
+            onTestScope={testScopeOf}
+          />
+        ) : hubTab === 'previous' ? (
           <PreviousTests
             sessions={sessionSummaries}
             names={savedNames}
-            liveSessionId={saved?.sessionId ?? null}
+            // `liveSittingId`, not `saved?.sessionId`: a submitted sitting is
+            // still stored, and calling that one "in progress" put Resume on a
+            // test that was already finished.
+            liveSessionId={liveSittingId(saved)}
             records={history.records}
+            questions={questions}
             onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
             onResume={resumeSaved}
-            onTerminate={discardSession}
+            onTerminate={discardSaved}
             onReview={reviewSession}
             onRetakeSame={retakeSameQuestions}
             onRetakeScope={retakeSameScope}
@@ -1041,6 +1580,26 @@ export function QuestionBank() {
             <PanelHeader title={t('New session')} icon={GraduationCap} />
             <div className="space-y-6 p-5">
               <div>
+                <p className="mb-2 text-[12.5px] font-medium text-ink-2">{t('Draw from')}</p>
+                <Segmented
+                  value={source}
+                  onChange={(value) => setSource(value as Source)}
+                  items={[
+                    { value: 'all', label: t('All questions') },
+                    { value: 'flagged', label: t('Flagged') },
+                    { value: 'incorrect', label: t('Got wrong') },
+                    { value: 'omitted', label: t('Omitted') },
+                  ]}
+                />
+                {/* The count below already reads from this pool, so the two
+                    choices are visibly one decision rather than two. */}
+                <p className="mt-2 text-[11.5px] text-ink-3">
+                  {source === 'all'
+                    ? t('Every published question you have access to.')
+                    : t('Narrowed to one of your lists — combine it with a topic below.')}
+                </p>
+              </div>
+              <div>
                 <div className="mb-2 flex items-center justify-between">
                   <p className="text-[12.5px] font-medium text-ink-2">{t('Choose a topic or subtopic')}</p>
                   {scope.size > 0 && (
@@ -1049,7 +1608,11 @@ export function QuestionBank() {
                     </button>
                   )}
                 </div>
-                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} />
+                {/* `pool` keeps the chapter tree stable across sources; `countPool`
+                    is the exact set `available` below draws from, so every
+                    number in the tree matches what starting a session would
+                    actually contain. */}
+                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={sourcePool} />
                 <p className="mt-2 text-[11.5px] text-ink-3">
                   {scope.size === 0
                     ? t('Nothing selected — questions are drawn from the whole bank.')
@@ -1143,8 +1706,42 @@ export function QuestionBank() {
     // stale state. Dividing by zero would print "NaN%" as a score.
     if (!session.length) { discardSession(); return null }
     const pct = Math.round((stats.correct / session.length) * 100)
+    const recorded = history.records.filter((record) => record.sessionId === sessionId && record.surface === 'qbank')
+    const reportRecords = recorded.length
+      ? history.records
+      : [
+          ...history.records,
+          ...session.flatMap((question) => {
+            const selectedIndex = answers[question.id]
+            if (selectedIndex == null) return []
+            const correctIndex = question.options.findIndex((option) => option.correct)
+            const timing = timedClock(session.length, elapsed)
+            return [{
+              id: `${sessionId}:qbank:${question.id}`,
+              at: new Date().toISOString(),
+              surface: 'qbank' as const,
+              itemId: question.id,
+              subjectId: question.subjectId,
+              topic: question.topic,
+              difficulty: question.difficulty,
+              conceptIds: question.conceptIds ?? [],
+              correct: Boolean(question.options[selectedIndex]?.correct),
+              seconds: mode === 'timed' ? timeSpent.current[question.id] ?? null : null,
+              selectedIndex,
+              ...(correctIndex >= 0 ? { correctIndex } : {}),
+              ...(question.libraryRefs[0]?.title ? { subtopic: question.libraryRefs[0].title } : {}),
+              ...(mode === 'timed' ? {
+                sessionDurationSeconds: elapsed,
+                sessionOvertimeSeconds: timing.overtime,
+              } : {}),
+              sessionId,
+            }]
+          }),
+        ]
+    const report = sessionDetail(reportRecords, sessionId)
+    const resultClock = timedClock(session.length, elapsed)
     return (
-      <PageContainer className="max-w-[760px]">
+      <PageContainer className="max-w-[900px]">
         <div className="mb-6 text-center">
           <div className="mx-auto mb-3 grid size-12 place-items-center rounded-xl bg-primary-tint text-primary">
             <Icon icon={Trophy} size={24} />
@@ -1157,31 +1754,13 @@ export function QuestionBank() {
             <span className="font-medium text-ink">
               {stats.correct} of {session.length}
             </span>{' '}
-            ({pct}%){mode === 'timed' && <> in {clock(elapsed)}</>}.
+            ({pct}%){mode === 'timed' && <>{' '}{t('in')} {clock(elapsed)}{resultClock.overtime > 0 ? ` · +${clock(resultClock.overtime)} ${t('overtime')}` : ''}</>}.
           </p>
         </div>
 
         <Panel className="mb-4">
-          <PanelHeader title="By subject" />
-          <div className="divide-y divide-line">
-            {[...stats.bySubject.entries()].map(([sid, rec]) => {
-              const subject = getSubject(sid)
-              return (
-                <div key={sid} className="flex items-center gap-3 px-4 py-3">
-                  <SubjectDot id={sid} />
-                  <span className="flex-1 text-[13.5px] text-ink">{subject.name}</span>
-                  <Meter
-                    value={(rec.correct / rec.total) * 100}
-                    tone="primary"
-                    className="w-28"
-                  />
-                  <span className="tnum w-12 text-end font-mono text-[12.5px] text-ink-2">
-                    {rec.correct}/{rec.total}
-                  </span>
-                </div>
-              )
-            })}
-          </div>
+          <PanelHeader title={t('Full test report')} icon={ListChecks} hint={t('Accuracy, pace, weak areas, and every marked answer')} />
+          <SessionDetailPanel detail={report} questions={session} total={session.length} t={t} />
         </Panel>
 
         <div className="flex justify-center gap-2">
@@ -1190,6 +1769,13 @@ export function QuestionBank() {
             size="md"
             iconLeft={BookOpen}
             onClick={() => {
+              // Every opener of a review has to state its own exit, because
+              // `reviewReturn` outlives the review that last set it. A collection
+              // viewed earlier in the same mount leaves it at 'setup', and this
+              // button — pressed from the results screen the student is standing
+              // on — then offered "Done" back to the hub instead of "Back to
+              // results". The other two openers already declare it.
+              setReviewReturn('results')
               setReviewing(true)
               setIdx(0)
               setPhase('running')
@@ -1211,7 +1797,12 @@ export function QuestionBank() {
   // crash rather than a blank screen. Falling back to setup is the only safe
   // reading of "running with nothing to ask".
   if (!q) { discardSession(); return null }
-  const revealed = reviewing || Boolean(checked[q.id])
+  // Reviewing always reveals. Otherwise only Tutor does, and only for a
+  // question whose answer the student asked to check. Reading `checked` alone
+  // meant anything that put a value in that map — a restored sitting, the
+  // grading pass at the end of a timed block — turned the marking on underneath
+  // a student who was still working.
+  const revealed = reviewing || (mode === 'tutor' && Boolean(checked[q.id]))
   const chosen = answers[q.id]
   const last = idx === session.length - 1
   const correctRationale = q.options.find((option) => option.correct)?.rationale.trim() ?? ''
@@ -1219,39 +1810,131 @@ export function QuestionBank() {
   // an imported question the panel below would repeat the rationale already sitting
   // under the right answer. Only show it when it genuinely says something else.
   const hasSeparateExplanation = Boolean(q.explanation.trim()) && q.explanation.trim() !== correctRationale
-  // Every option that is neither correct nor the one chosen, and that actually
-  // has something to say. The index is kept so each keeps its own letter.
-  const wrongOptions = q.options
-    .map((option, index) => ({ option, index }))
-    .filter(({ option, index }) => !option.correct && index !== chosen && option.rationale.trim())
+  // Split view only ever changes anything once there is an answer to show —
+  // and only at the breakpoint the toggle itself is offered at.
+  const splitActive = revealed && splitView && isDesktop
 
   /**
-   * Record what this question demonstrated, once, when its answer is checked.
+   * The record one answer produces, and the mastery evidence that goes with it.
    *
-   * `q.conceptIds` is already main-then-related with contextual concepts left
-   * out, so what reaches the ledger is only what the question assessed.
+   * Shared by the two writers so they cannot drift: one commits a single answer
+   * as it is checked, the other commits a whole sitting at the end, and a
+   * question must not be worth different things depending on which ran.
    */
-  function checkAnswer() {
-    setChecked((c) => ({ ...c, [q.id]: true }))
-    if (checked[q.id] || chosen == null) return
-    const correct = Boolean(q.options[chosen]?.correct)
-    const conceptIds = q.conceptIds ?? []
+  function attemptFor(question: Question, chosenIndex: number, seconds: number | null) {
+    const correct = Boolean(question.options[chosenIndex]?.correct)
+    const correctIndex = question.options.findIndex((option) => option.correct)
+    const conceptIds = question.conceptIds ?? []
+    const timing = timedClock(session.length, elapsedRef.current)
     // The mastery ledger only takes concept-tagged evidence, but the attempt
-    // log takes every answer: an untagged question still happened, and the
-    // student's totals, streak and accuracy have to include it.
+    // log takes every answer: an untagged question still happened.
     if (conceptIds.length) record({ conceptIds, source: 'question', correct })
-    logAttempt({
-      surface: 'qbank',
-      itemId: q.id,
-      subjectId: q.subjectId,
-      topic: q.topic,
-      difficulty: q.difficulty,
+    return {
+      surface: 'qbank' as const,
+      itemId: question.id,
+      subjectId: question.subjectId,
+      topic: question.topic,
+      difficulty: question.difficulty,
       conceptIds,
       correct,
-      seconds: mode === 'timed' ? Math.max(0, elapsed - questionStartedAt.current) : null,
+      seconds,
+      selectedIndex: chosenIndex,
+      ...(correctIndex >= 0 ? { correctIndex } : {}),
+      ...(question.libraryRefs[0]?.title ? { subtopic: question.libraryRefs[0].title } : {}),
+      ...(mode === 'timed' ? {
+        sessionDurationSeconds: elapsedRef.current,
+        sessionOvertimeSeconds: timing.overtime,
+      } : {}),
       sessionId,
+    }
+  }
+
+  function checkAnswer() {
+    // Nothing is revealed until there is an answer to reveal. Marking the
+    // question checked first meant pressing Check with no option selected
+    // exposed the right answer and recorded nothing.
+    if (checked[q.id] || chosen == null) return
+    // Reconciled: main moved this `setChecked` below the guard above, so
+    // pressing Check with nothing selected can no longer expose the right
+    // answer; the incoming branch factored the record out into `attemptFor`, so
+    // one answer and a whole sitting cannot value a question differently. Both.
+    setChecked((c) => ({ ...c, [q.id]: true }))
+    // Tutor's visible clock measures the sitting, not the speed of a single
+    // answer. Keep its attempt untimed so time spent reading feedback is never
+    // mistaken for answer latency. A timed sitting is measured by
+    // `switchTiming`, which owns `questionStartedAt`, and committed by
+    // `commitAnswers`.
+    logAttempt(attemptFor(q, chosen, null))
+  }
+
+  /*
+   * Reconciled here. Main added `gradeTimedBlock` — write the missing records
+   * for a timed block when the student leaves it, carrying the per-question
+   * time its `switchTiming` clock measures — plus a `showResults` that ran it on
+   * the way to the paper. The incoming branch added `commitAnswers`, built on
+   * the tested `pendingAttempts`, run from "End and submit" and from "See
+   * results".
+   *
+   * They are the same fix for the same defect, so one survives: the tested one.
+   * But `commitAnswers` wrote `seconds: null` because at the time nothing had
+   * measured a timed question, and main's clock now has — so the measurement is
+   * carried across rather than thrown away with the function that took it.
+   *
+   * Main's other call site is not carried across. It graded on *any* exit from
+   * the runner, which was right when End was the only way out; the incoming
+   * branch splits that into "Leave for now" and "End and submit", and grading a
+   * sitting the student has explicitly kept open would freeze their answers —
+   * `addAttempt` refuses a second record for the same id, so an answer changed
+   * after resuming would never reach the log. Committing is what submitting
+   * means.
+   */
+
+  /**
+   * Rule an option in or out.
+   *
+   * Ruling out the option that is currently selected clears the selection:
+   * leaving a pick on something the student has just crossed off would submit
+   * an answer they have visibly stopped believing.
+   */
+  function toggleStrike(index: number) {
+    const ruledOut = !(struck[q.id] ?? []).includes(index)
+    setStruck((current) => {
+      const next = new Set(current[q.id] ?? [])
+      if (!next.delete(index)) next.add(index)
+      return { ...current, [q.id]: [...next] }
     })
-    questionStartedAt.current = elapsed
+    if (ruledOut && answers[q.id] === index) {
+      setAnswers((current) => {
+        const next = { ...current }
+        delete next[q.id]
+        return next
+      })
+    }
+  }
+
+  /**
+   * Write a record for every answered question that does not have one.
+   *
+   * What a timed sitting owes the log at the end — see `pendingAttempts`.
+   *
+   * `seconds` comes from the per-question clock in timed mode. Tutor's count-up
+   * is session context only, so it deliberately files no answer-latency value.
+   */
+  function commitAnswers() {
+    const pending = pendingAttempts(session, answers, checked)
+    if (!pending.length) return
+    // Close the clock on the question still showing, or its time is lost.
+    switchTiming(null)
+    logAttempts(pending.map((question) => attemptFor(
+      question,
+      answers[question.id],
+      mode === 'timed' ? timeSpent.current[question.id] ?? null : null,
+    )))
+    setChecked((current) => {
+      const next = { ...current }
+      for (const question of pending) next[question.id] = true
+      return next
+    })
   }
 
   function stateFor(i: number): QuestionState {
@@ -1272,6 +1955,8 @@ export function QuestionBank() {
     return 'border-line bg-surface opacity-70'
   }
 
+  const sessionClock = timedClock(session.length, elapsed)
+
   return (
     <div className="mx-auto max-w-[1100px] px-4 py-6 sm:px-6">
       {/* Runner header */}
@@ -1281,45 +1966,43 @@ export function QuestionBank() {
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
           {reviewing && <span className="text-[13px] font-medium text-primary">{t('Reviewing')}</span>}
           <div className="flex items-center gap-2 sm:ms-auto">
-            {mode === 'timed' && !reviewing && (
-              <span className="tnum inline-flex items-center gap-1.5 font-mono text-[13px] text-ink-2">
-                <Icon icon={Clock} size={14} />
-                {clock(elapsed)}
+            {/* Rearranging the question into two columns only makes sense
+                once there is an answer to look at, and only where there is
+                room for two columns side by side. */}
+            {revealed && (
+              <IconButton
+                icon={Columns2}
+                label={splitView ? t('Single column') : t('Split view')}
+                active={splitView}
+                variant="surface"
+                className="hidden lg:inline-flex"
+                onClick={() => setSplitView((value) => !value)}
+              />
+            )}
+            {/* The clock is the whole point of this mode, so it is a fixture
+                rather than a caption: same place, same width, legible across
+                the room. It was previously grey mono text among four other
+                grey controls, which is close to not being there. */}
+            {!reviewing && (
+              <span
+                className={cn(
+                  'tnum inline-flex items-center gap-1.5 rounded-lg border bg-surface px-2.5 py-1.5 font-mono text-[14px] font-semibold shadow-panel',
+                  mode === 'timed' && sessionClock.overtime > 0 ? 'border-danger/40 text-danger' : 'border-line-2 text-ink',
+                )}
+                aria-label={mode === 'tutor'
+                  ? `${t('Elapsed time')} ${clock(elapsed)}`
+                  : sessionClock.overtime > 0
+                    ? `${t('Overtime')} ${clock(sessionClock.overtime)}`
+                    : `${t('Time remaining')} ${clock(sessionClock.remaining)}`}
+              >
+                <Icon icon={Clock} size={15} className="text-primary" />
+                {mode === 'tutor'
+                  ? clock(elapsed)
+                  : sessionClock.overtime > 0
+                    ? `+${clock(sessionClock.overtime)}`
+                    : clock(sessionClock.remaining)}
               </span>
             )}
-            <button
-              type="button"
-              aria-pressed={marked.has(q.id)}
-              onClick={() =>
-                setMarked((current) => {
-                  const next = new Set(current)
-                  if (!next.delete(q.id)) next.add(q.id)
-                  return next
-                })
-              }
-              className={cn(
-                'inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium transition-colors sm:min-h-0',
-                marked.has(q.id) ? 'text-primary-strong' : 'text-ink-3 hover:text-ink',
-              )}
-            >
-              <Icon icon={Flag} size={13} className={cn(marked.has(q.id) && 'fill-current')} />
-              {marked.has(q.id) ? t('Flagged') : t('Flag')}
-            </button>
-            <button
-              type="button"
-              onClick={() => setReportTarget({ kind: 'question', id: q.id, title: q.stem })}
-              className="inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-3 transition-colors hover:bg-danger-tint hover:text-danger sm:min-h-0"
-            >
-              <Icon icon={MessageSquareWarning} size={13} />
-              {t('Report')}
-            </button>
-            <button
-              onClick={() => setPhase(reviewing ? 'results' : 'setup')}
-              className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-2 bg-surface px-3 text-[12.5px] font-semibold text-ink shadow-panel transition-colors hover:bg-inset sm:min-h-9"
-            >
-              <Icon icon={reviewing ? ArrowLeft : LogOut} size={14} />
-              {reviewing ? t('Back to results') : t('End session')}
-            </button>
           </div>
         </div>
         <div className="mt-2 h-1 overflow-hidden rounded-full bg-inset">
@@ -1342,136 +2025,238 @@ export function QuestionBank() {
         graded={reviewing || mode === 'tutor'}
       />
 
-      <Panel className="p-5 sm:p-6">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
-            <SubjectDot id={q.subjectId} />
-            {getSubject(q.subjectId).name}
-          </span>
-          <span className="text-ink-3">·</span>
-          <span className="text-[12.5px] text-ink-3">{q.topic}</span>
-          <Badge tone={diffTone(q.difficulty)} className="ml-auto">
-            {q.difficulty}
-          </Badge>
-        </div>
+      <Panel ref={questionCardRef} className="p-5 sm:p-6">
+        {/* Select any of the stem, an option, or an explanation to highlight
+            it — one colour, no toolbar. Scoped to this card so a selection
+            made anywhere else on the page (the navigator, the study rail)
+            never opens it. */}
+        <HighlightSelectionPopover container={questionCardRef} highlights={highlights} />
+        {/* In split view the question stays in this column and the answer
+            area (explanations, per-option rationale, the explicit
+            `Explanation` text) moves into a second column alongside it. Below
+            `lg`, or with the toggle off, or before the answer is revealed,
+            this is just one column and the two `lg:grid-cols-2` cells stack
+            in source order — question, then answer area. */}
+        <div className={cn(splitActive && 'lg:grid lg:grid-cols-2 lg:items-start lg:gap-6')}>
+          <div className={cn(splitActive && 'lg:border-e lg:border-line lg:pe-6')}>
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
+                <SubjectDot id={q.subjectId} />
+                {getSubject(q.subjectId).name}
+              </span>
+              <span className="text-ink-3">·</span>
+              <span className="text-[12.5px] text-ink-3">{q.topic}</span>
+              <Badge tone={diffTone(q.difficulty)} className="ml-auto">
+                {q.difficulty}
+              </Badge>
+            </div>
 
-        <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><ConceptText text={q.vignette} enabled={revealed} /></p>
-        <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><ConceptText text={q.stem} enabled={revealed} /></p>
+            <p className="mt-4 text-[15px] leading-[1.65] text-ink/90"><HighlightableText text={q.vignette} enabled={revealed} blockId="vignette" highlights={highlights} /></p>
+            <p className="mt-3 text-[15.5px] font-semibold leading-snug text-ink"><HighlightableText text={q.stem} enabled={revealed} blockId="stem" highlights={highlights} /></p>
 
-        {q.attachedImage && (
-          <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
-            <ZoomableImage src={q.attachedImage} alt="Question attachment" className="max-h-80 w-full rounded-lg object-contain" />
-          </div>
-        )}
-        {q.attachments && q.attachments.length > 0 && (
-          <div className="mt-4 space-y-2">
-            {q.attachments.map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} />)}
-          </div>
-        )}
-
-        {/* Once the answer is revealed an option stops being a control and
-            becomes prose. It used to stay a `<button disabled>`, which swallows
-            pointer events for everything inside it — so the concept links in
-            the answers went live and dead at the same instant, and the one
-            place they matter most was the one place they never worked. */}
-        <div className="mt-5 space-y-2.5">
-          {q.options.map((opt, i) => {
-            const body = (
-              <>
-                <span
-                  className={cn(
-                    'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
-                    revealed && opt.correct
-                      ? 'border-success bg-success text-on-success'
-                      : revealed && chosen === i
-                        ? 'border-danger bg-danger text-on-danger'
-                        : chosen === i
-                          ? 'border-primary bg-primary text-on-primary'
-                          : 'border-line-2 text-ink-2',
-                  )}
-                >
-                  {revealed && opt.correct ? (
-                    <Icon icon={Check} size={14} strokeWidth={2.6} />
-                  ) : revealed && chosen === i ? (
-                    <Icon icon={X} size={14} strokeWidth={2.6} />
-                  ) : (
-                    LETTERS[i]
-                  )}
-                </span>
-                <span className="flex-1 pt-0.5 text-[14px] text-ink"><ConceptText text={opt.text} enabled={revealed} /></span>
-              </>
-            )
-            const shape = cn('flex w-full items-start gap-3 rounded-lg border p-3 text-start transition-colors', optionClasses(i))
-            return (
-              <div key={i}>
-                {revealed ? (
-                  <div className={shape}>{body}</div>
-                ) : (
-                  <button onClick={() => setAnswers((a) => ({ ...a, [q.id]: i }))} className={cn(shape, 'cursor-pointer')}>
-                    {body}
-                  </button>
-                )}
+            {q.attachedImage && (
+              <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
+                <ZoomableImage src={q.attachedImage} alt="Question attachment" className="max-h-80 w-full rounded-lg object-contain" />
               </div>
-            )
-          })}
-        </div>
-
-        {/* Everything explanatory reads at the end of the page, in order: why
-            the right answer is right, then why each wrong one is wrong. It used
-            to be scattered under whichever options happened to be revealed. */}
-        {revealed && (
-          <div className="mt-6 space-y-3">
-            {correctRationale && (
-              <div className="rounded-xl border border-success/30 bg-success-tint/40 p-4">
-                <p className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-success">
-                  <Icon icon={Check} size={13} strokeWidth={2.6} />
-                  {t('Why the right answer is right')}
-                </p>
-                <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={correctRationale} enabled /></p>
+            )}
+            {q.attachments && q.attachments.length > 0 && (
+              <div className="mt-4 space-y-2">
+                {q.attachments.map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} />)}
               </div>
             )}
 
-            {hasSeparateExplanation && (
-              <div className="rounded-xl border border-line bg-surface-2 p-4">
-                <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
-                <p className="text-[14px] leading-relaxed text-ink"><ConceptText text={q.explanation} enabled /></p>
-              </div>
-            )}
+            {/* Once the answer is revealed an option stops being a control and
+                becomes prose. It used to stay a `<button disabled>`, which swallows
+                pointer events for everything inside it — so the concept links in
+                the answers went live and dead at the same instant, and the one
+                place they matter most was the one place they never worked. */}
+            <div className="mt-5 space-y-2.5">
+              {q.options.map((opt, i) => {
+                const ruledOut = (struck[q.id] ?? []).includes(i)
+                // What made this option right or wrong, read directly under
+                // it once revealed — not collected separately at the bottom
+                // of the page, or (in split view) in the answer-area column.
+                const rationaleText = opt.rationale.trim()
+                const badge = (
+                  <span
+                    className={cn(
+                      'grid size-6 shrink-0 place-items-center rounded-full border text-[12px] font-semibold',
+                      revealed && opt.correct
+                        ? 'border-success bg-success text-on-success'
+                        : revealed && chosen === i
+                          ? 'border-danger bg-danger text-on-danger'
+                          : chosen === i
+                            ? 'border-primary bg-primary text-on-primary'
+                            : 'border-line-2 text-ink-2',
+                    )}
+                  >
+                    {revealed && opt.correct ? (
+                      <Icon icon={Check} size={14} strokeWidth={2.6} />
+                    ) : revealed && chosen === i ? (
+                      <Icon icon={X} size={14} strokeWidth={2.6} />
+                    ) : (
+                      LETTERS[i]
+                    )}
+                  </span>
+                )
+                const text = (
+                  <span className={cn('flex-1 pt-0.5 text-[14px] text-ink', ruledOut && 'line-through decoration-ink-3')}>
+                    <HighlightableText text={opt.text} enabled={revealed} blockId={`option-${i}`} highlights={highlights} />
+                  </span>
+                )
+                // main kept the badge and the option text as one inseparable
+                // `body`, because on its side the whole row was a single control.
+                // Here they are two: the badge answers and the text rules out, so
+                // each needs to be placed on its own.
+                const shape = cn(
+                  'flex w-full items-start gap-3 rounded-lg border p-3 text-start transition-colors',
+                  optionClasses(i),
+                  ruledOut && !revealed && 'opacity-55',
+                )
+                return (
+                  <div key={i}>
+                    {revealed ? (
+                      <div className={shape}>
+                        {badge}
+                        <div className="min-w-0 flex-1">
+                          {text}
+                          {/* Split view carries this same rationale in the
+                              answer-area column instead, so it is not shown
+                              twice. */}
+                          {!splitActive && rationaleText && (
+                            <p
+                              className={cn(
+                                'mt-2 rounded-lg border px-3 py-2 text-[12.5px] leading-relaxed',
+                                opt.correct
+                                  ? 'border-success/20 bg-success-tint/40 text-ink-2'
+                                  : chosen === i
+                                    ? 'border-danger/20 bg-danger-tint/40 text-ink-2'
+                                    : 'border-line bg-surface-2 text-ink-3',
+                              )}
+                            >
+                              <HighlightableText text={rationaleText} enabled blockId={`rationale-${i}`} highlights={highlights} />
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    ) : (
+                      <div className={cn(shape, 'relative p-0')}>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            // A drag that ends inside this button still fires a
+                            // click. Without this guard, dragging across an
+                            // option's text to highlight it would also select
+                            // that option as the answer.
+                            if (window.getSelection()?.isCollapsed === false) return
+                            setAnswers((a) => ({ ...a, [q.id]: i }))
+                            // Symmetric with `toggleStrike`, which drops the
+                            // selection when it strikes the selected option — see
+                            // `selectClearsStrike`.
+                            setStruck((current) => selectClearsStrike(current, q.id, i))
+                          }}
+                          aria-pressed={chosen === i}
+                          aria-label={`${t('Choose answer')} ${LETTERS[i]}: ${opt.text}`}
+                          className="flex min-w-0 flex-1 cursor-pointer items-start gap-3 rounded-lg p-3 pe-12 text-start focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+                        >
+                          {badge}
+                          {text}
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => toggleStrike(i)}
+                          aria-pressed={ruledOut}
+                          aria-label={`${ruledOut ? t('Rule back in') : t('Rule out')}: ${opt.text}`}
+                          title={ruledOut ? t('Include this answer again') : t('Exclude this answer')}
+                          className={cn(
+                            'absolute end-2 top-1/2 grid size-8 -translate-y-1/2 place-items-center rounded-md border transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
+                            ruledOut
+                              ? 'border-danger/30 bg-danger-tint text-danger'
+                              : 'border-transparent text-ink-3 hover:border-line hover:bg-inset hover:text-ink',
+                          )}
+                        >
+                          <Icon icon={X} size={16} strokeWidth={2.3} />
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
 
-            {wrongOptions.length > 0 && (
-              <div className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
+            {revealed && (
+              <div className="mt-5 flex justify-end">
                 <button
                   type="button"
-                  onClick={() => setShowAllRationales((value) => !value)}
-                  aria-expanded={showAllRationales}
-                  className="flex w-full items-center gap-2 px-4 py-3.5 text-start transition-colors hover:bg-inset"
+                  onClick={() => { const correct = q.options.find((option) => option.correct); setFlashcardSeed({ front: q.stem, back: correct ? correct.text : q.explanation }) }}
+                  className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink"
                 >
-                  <Icon icon={XCircle} size={16} className="shrink-0 text-danger" />
-                  <span className="flex-1 text-[13.5px] font-semibold text-ink">{t('Why the wrong answers are wrong')}</span>
-                  <span className="tnum rounded-full bg-inset px-2 py-0.5 font-mono text-[11px] text-ink-2">{wrongOptions.length}</span>
-                  <Icon
-                    icon={ChevronDown}
-                    size={16}
-                    className={cn('shrink-0 text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !showAllRationales && '-rotate-90 rtl:rotate-90')}
-                  />
+                  <Icon icon={Sparkles} size={14} /> {t('Create flashcard')}
                 </button>
-                {showAllRationales && (
-                  <ul className="divide-y divide-line border-t border-line">
-                    {wrongOptions.map(({ option, index }) => (
-                      <li key={index} className="flex gap-3 px-4 py-3">
-                        <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-line-2 bg-surface-2 font-mono text-[11px] font-bold text-ink-2">{LETTERS[index]}</span>
-                        <span className="min-w-0 flex-1">
-                          <span className="block text-[13px] font-medium text-ink">{option.text}</span>
-                          <span className="mt-1 block text-[12.5px] leading-relaxed text-ink-2"><ConceptText text={option.rationale} enabled /></span>
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
+              </div>
+            )}
+
+            {/* The explicit `Explanation` text (see `hasSeparateExplanation`)
+                stays with the question in single column. In split view it
+                moves to the answer-area column below instead of appearing
+                twice. */}
+            {revealed && !splitActive && hasSeparateExplanation && (
+              <div className="mt-6 rounded-xl border border-line bg-surface-2 p-4">
+                <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
+                <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
               </div>
             )}
           </div>
-        )}
+
+          {/* The answer area: every option's rationale gathered in one place,
+              plus the explicit `Explanation` text — only ever shown here
+              instead of under each option, never in addition to it. */}
+          {revealed && splitActive && (
+            <div className="mt-6 space-y-2.5 lg:mt-0">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Answer explanations')}</p>
+              {q.options.map((opt, i) => {
+                const rationaleText = opt.rationale.trim()
+                if (!rationaleText) return null
+                return (
+                  <div
+                    key={i}
+                    className={cn(
+                      'rounded-lg border px-3 py-2.5',
+                      opt.correct
+                        ? 'border-success/20 bg-success-tint/40'
+                        : chosen === i
+                          ? 'border-danger/20 bg-danger-tint/40'
+                          : 'border-line bg-surface-2',
+                    )}
+                  >
+                    <div className="flex items-center gap-2">
+                      <span
+                        className={cn(
+                          'grid size-5 shrink-0 place-items-center rounded-full border text-[11px] font-semibold',
+                          opt.correct ? 'border-success bg-success text-on-success' : 'border-line-2 bg-surface text-ink-2',
+                        )}
+                      >
+                        {opt.correct ? <Icon icon={Check} size={12} strokeWidth={2.6} /> : LETTERS[i]}
+                      </span>
+                      <span className="text-[12px] font-semibold text-ink">
+                        {opt.correct ? t('Why the right answer is right') : t('Why this is wrong')}
+                      </span>
+                    </div>
+                    <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">
+                      <HighlightableText text={rationaleText} enabled blockId={`rationale-${i}`} highlights={highlights} />
+                    </p>
+                  </div>
+                )
+              })}
+              {hasSeparateExplanation && (
+                <div className="rounded-xl border border-line bg-surface-2 p-4">
+                  <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Explanation')}</p>
+                  <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
 
         {/* Footer actions */}
         <div className="mt-6 flex items-center justify-between border-t border-line pt-4">
@@ -1499,7 +2284,17 @@ export function QuestionBank() {
               variant="primary"
               size="md"
               iconRight={reviewing ? undefined : Trophy}
-              onClick={() => setPhase('results')}
+              // Reconciled: main's `showResults` graded a timed block on the
+              // way to the paper — `commitAnswers` is the same commit, tested,
+              // and the incoming branch also marks the sitting submitted and
+              // clears `reviewing` on the other exit from a review.
+              onClick={() => {
+                if (!reviewing) { commitAnswers(); setSubmitted(true) }
+                // The other way out of a review, and the same reason it has to
+                // clear the flag as it goes.
+                else setReviewing(false)
+                setPhase(reviewing ? reviewReturn : 'results')
+              }}
             >
               {reviewing ? 'Finish review' : 'See results'}
             </Button>
@@ -1512,9 +2307,40 @@ export function QuestionBank() {
       </Panel>
         </div>
 
-        <StudyRail question={q} revealed={revealed} location={location} className="lg:sticky lg:top-6" />
+        <StudyRail
+          question={q}
+          revealed={revealed}
+          location={location}
+          flagged={marked.has(q.id)}
+          onFlag={() => setMarked((current) => {
+            const next = new Set(current)
+            if (!next.delete(q.id)) next.add(q.id)
+            return next
+          })}
+          onReport={() => setReportTarget({ kind: 'question', id: q.id, title: q.stem })}
+          onEnd={() => {
+            if (!reviewing) { setEndOpen(true); return }
+            setReviewing(false)
+            setPhase(reviewReturn)
+          }}
+          endLabel={reviewing ? (reviewReturn === 'results' ? t('Back') : t('Done')) : t('End')}
+          className="lg:sticky lg:top-6"
+        />
       </div>
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
+      {flashcardSeed && (
+        <QuickAddFlashcardDialog initialFront={flashcardSeed.front} initialBack={flashcardSeed.back} onClose={() => setFlashcardSeed(null)} />
+      )}
+      {endOpen && (
+        <EndSessionDialog
+          answered={session.filter((question) => answers[question.id] != null).length}
+          total={session.length}
+          onLeave={leaveSession}
+          onSubmit={submitSession}
+          onClose={closeEndDialog}
+          interrupted={visibilityPaused || blocker.state === 'blocked'}
+        />
+      )}
     </div>
   )
 }

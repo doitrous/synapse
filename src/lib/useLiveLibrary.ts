@@ -1,15 +1,21 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { libraryTopics as SEED_TOPICS, type LibTopic, type LinkedQuestion, type Subtopic } from '@/data/library'
-import { subjects } from '@/data/subjects'
+import { subjects, getSubject } from '@/data/subjects'
+import { moduleCatalogueOrder } from '@/data/contentModules'
+import { compareLibraryTopics } from '@/data/libraryOrder'
 import { API_MODE } from './api'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { overlaySubtopic, articleToSubtopic } from '@/data/articleProjection'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { catalogueAvailability } from './catalogueAvailability'
+import { useUniversityCatalogue } from './useUniversityCatalogue'
 
 export type LiveSubtopic = Subtopic & { topicId: string; topicTitle: string; subjectId: string }
+
+/** Every subject's place in the curriculum, in the order `subjects` declares it. */
+const subjectRank = new Map(subjects.map((subject, index) => [subject.id, index]))
 
 /**
  * The library as students should see it right now: the seeded topics with every
@@ -21,9 +27,14 @@ export function useLiveLibrary() {
   const [ledger, , ledgerStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [evidence, , evidenceStatus] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [catalogue] = useUniversityCatalogue()
 
   return useMemo(() => {
-    const articleItems = ledger.filter((i) => i.kind === 'article' && i.status !== 'Archived' && (!API_MODE || i.status === 'Published'))
+    const articleItems = ledger.filter((item) => {
+      if (item.kind !== 'article' || item.status === 'Archived') return false
+      if (item.status === 'Published' && !isStudentPublishable(item)) return false
+      return !API_MODE || isStudentPublishable(item)
+    })
     const byId = new Map(articleItems.map((i) => [i.id, i]))
     // Related reading may only point at an article this projection will render,
     // so the same filtered set decides both what exists and what may be linked.
@@ -65,7 +76,7 @@ export function useLiveLibrary() {
      */
     const questionsByArticle = new Map<string, LinkedQuestion[]>()
     for (const item of ledger) {
-      if (item.kind !== 'question' || item.status !== 'Published') continue
+      if (item.kind !== 'question' || !isStudentPublishable(item)) continue
       const stem = item.title
       for (const articleId of item.questionData?.libraryIds ?? []) {
         questionsByArticle.set(articleId, [...(questionsByArticle.get(articleId) ?? []), { id: item.id, stem }])
@@ -78,7 +89,14 @@ export function useLiveLibrary() {
       }
     }
 
-    const orderedTopics = topics.filter((t) => t.subtopics.length > 0)
+    // By module, in the order the faculty teaches them, then by subject within
+    // that module — a student browsing the library should meet a system's
+    // articles together, not scattered in whatever order they happened to be
+    // authored.
+    const moduleRank = moduleCatalogueOrder(catalogue)
+    const orderedTopics = topics
+      .filter((t) => t.subtopics.length > 0)
+      .sort((a, b) => compareLibraryTopics(a, b, moduleRank, subjectRank, (id) => getSubject(id).name))
     const subtopics: LiveSubtopic[] = orderedTopics.flatMap((t) =>
       t.subtopics.map((s) => ({ ...s, topicId: t.id, topicTitle: t.title, subjectId: t.subjectId })),
     )
@@ -101,5 +119,5 @@ export function useLiveLibrary() {
     })
 
     return { topics: orderedTopics, subtopics, updatedAtFor, subjects, availability }
-  }, [evidence, evidenceStatus, graph, graphStatus, ledger, ledgerStatus])
+  }, [catalogue, evidence, evidenceStatus, graph, graphStatus, ledger, ledgerStatus])
 }

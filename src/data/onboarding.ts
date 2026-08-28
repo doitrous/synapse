@@ -18,7 +18,14 @@ import { plansFor, purchasableAt, type CatalogPlan, type PlanCatalog } from './p
 /** Full access, for three days, however they arrive. */
 export const TRIAL_DAYS = 3
 
-export const ONBOARDING_STORAGE_KEY = 'synapse-onboarding-v1'
+/*
+ * `ONBOARDING_STORAGE_KEY` used to live here. It named a browser document that
+ * recorded whether onboarding had been completed — under an undotted key, so
+ * every write was routed to the shared catalogue store and refused for every
+ * student. Whether an account has been enrolled is now read from the account
+ * itself: `/api/me` answers with the university and year the student saved, and
+ * there is no second place for the two to disagree.
+ */
 
 /** Universities open to students. */
 export function liveUniversities(catalogue: readonly University[]): University[] {

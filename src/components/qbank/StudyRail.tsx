@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, type Location } from 'react-router-dom'
-import { BookOpen, CheckCircle2, FileText, GitFork, Loader, Lock, NotebookPen, Target } from 'lucide-react'
+import { BookOpen, CheckCircle2, FileText, Flag, GitFork, Loader, Lock, LogOut, MessageSquareWarning, NotebookPen, Target } from 'lucide-react'
 import { backState } from '@/components/ui/BackBar'
 import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -99,11 +99,21 @@ export function StudyRail({
   question,
   revealed,
   location,
+  flagged,
+  onFlag,
+  onReport,
+  onEnd,
+  endLabel,
   className,
 }: {
   question: Question
   revealed: boolean
   location: Location
+  flagged: boolean
+  onFlag: () => void
+  onReport: () => void
+  onEnd: () => void
+  endLabel: string
   className?: string
 }) {
   const t = useT()
@@ -122,6 +132,36 @@ export function StudyRail({
   return (
     <aside className={className} aria-label={t('Study tools')}>
       <div className="rounded-xl border border-line bg-surface shadow-panel">
+        <section className="grid grid-cols-3 gap-1.5 px-3 py-3" aria-label={t('Test actions')}>
+          <button
+            type="button"
+            aria-pressed={flagged}
+            onClick={onFlag}
+            className={cn(
+              'inline-flex min-h-9 items-center justify-center gap-1.5 rounded-md border px-2 text-[11.5px] font-semibold transition-colors',
+              flagged ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset hover:text-ink',
+            )}
+          >
+            <Icon icon={Flag} size={13} className={cn(flagged && 'fill-current')} />
+            {flagged ? t('Flagged') : t('Flag')}
+          </button>
+          <button
+            type="button"
+            onClick={onReport}
+            className="inline-flex min-h-9 items-center justify-center gap-1.5 rounded-md border border-line bg-surface px-2 text-[11.5px] font-semibold text-ink-2 transition-colors hover:border-danger/30 hover:bg-danger-tint hover:text-danger"
+          >
+            <Icon icon={MessageSquareWarning} size={13} />
+            {t('Report')}
+          </button>
+          <button
+            type="button"
+            onClick={onEnd}
+            className="inline-flex min-h-9 items-center justify-center gap-1.5 rounded-md border border-line-2 bg-surface px-2 text-[11.5px] font-semibold text-ink transition-colors hover:bg-inset"
+          >
+            <Icon icon={LogOut} size={13} />
+            {endLabel}
+          </button>
+        </section>
         <Section title={t('Your notes')} icon={NotebookPen} action={touched ? <SavedCue pending={notesStatus.pending} /> : null}>
           <Textarea
             value={note}

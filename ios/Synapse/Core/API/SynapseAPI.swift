@@ -69,6 +69,9 @@ struct MeResponse: Decodable, Equatable {
     let user: SessionUser
     let profile: Profile?
     let entitlement: Entitlement?
+    /// The row behind the entitlement, carrying whatever note the person who
+    /// granted it wrote at the time.
+    let subscription: Subscription?
 
     struct Profile: Decodable, Equatable {
         let name: String?
@@ -174,6 +177,110 @@ struct SynapseAPI {
     /// Replace a private document. Last write wins, as on the web.
     func putUserState<Value: Encodable>(key: String, value: Value) async throws {
         _ = try await send(["user-state", key], method: "PUT", body: ValueBody(value: value))
+    }
+
+    // MARK: - Accounts
+
+    /// Whether this person already has an account, asked before one is made.
+    ///
+    /// Sign-up runs this first so somebody re-registering is sent to sign in
+    /// rather than handed an error after Supabase has already created an auth
+    /// user with no roster row behind it. The server holds the UNIQUE index and
+    /// is the authority; this is the question, not the enforcement.
+    func accountExists(email: String, phone: String) async throws -> (email: Bool, phone: Bool) {
+        struct Body: Encodable { let email: String; let phone: String }
+        struct Taken: Decodable { let email: Bool; let phone: Bool }
+        let data = try await send(["accounts", "exists"], method: "POST",
+                                  body: Body(email: email, phone: phone))
+        let taken = try Self.decoder.decode(Taken.self, from: data)
+        return (taken.email, taken.phone)
+    }
+
+    // MARK: - Vouchers
+
+    /// The voucher this student currently has applied, if any.
+    func myVoucher() async throws -> VoucherRedemption? {
+        struct Envelope: Decodable { let redemption: VoucherRedemption? }
+        return try await get(Envelope.self, ["vouchers", "mine"]).redemption
+    }
+
+    struct VoucherResult: Decodable, Sendable {
+        let ok: Bool
+        /// Present when refused: the reason, in words meant for the student.
+        let message: String?
+        let voucher: Voucher?
+    }
+
+    /// Redeem a code.
+    ///
+    /// A refused voucher comes back as a 200 with a typed reason rather than as
+    /// an error status — it is a normal answer, and treating it as a failure
+    /// would put the transport into its retry path for something settled.
+    func redeemVoucher(code: String) async throws -> VoucherResult {
+        struct Body: Encodable { let code: String }
+        let data = try await send(["vouchers", "redeem"], method: "POST", body: Body(code: code))
+        do {
+            return try Self.decoder.decode(VoucherResult.self, from: data)
+        } catch {
+            throw APIError.malformed("vouchers/redeem: \(error)")
+        }
+    }
+
+    func releaseVoucher() async throws {
+        _ = try await send(["vouchers", "redemption"], method: "DELETE", body: Optional<Int>.none)
+    }
+
+    /// Erase this account and everything it owns.
+    ///
+    /// No id in the path: the only account this can delete is the one whose
+    /// token is being presented, which is what makes it safe to expose.
+    func deleteAccount() async throws {
+        _ = try await send(["account"], method: "DELETE", body: Optional<Int>.none)
+    }
+
+    // MARK: - Study assistant
+
+    /// Whether the assistant is usable, and how much of today's quota is left.
+    func assistantStatus() async throws -> AssistantStatus {
+        try await get(AssistantStatus.self, ["assistant", "status"])
+    }
+
+    struct AssistantMessage: Encodable, Sendable {
+        let role: AssistantTurn.Role
+        let content: String
+    }
+
+    struct AssistantReply: Decodable, Sendable {
+        /// Nil when the model returned nothing usable, which is a failure the
+        /// student is told about rather than an empty bubble.
+        let reply: String?
+        let plan: String
+        let dailyMessages: Int
+        let used: Int
+        let remaining: Int
+    }
+
+    /// Send a turn.
+    ///
+    /// The whole transcript goes up each time because the server keeps none of
+    /// it: the conversation exists only in the client that is having it.
+    func assistantChat(
+        messages: [AssistantMessage], lang: String, context: AssistantContext
+    ) async throws -> AssistantReply {
+        struct Body: Encodable {
+            let messages: [AssistantMessage]
+            let lang: String
+            let context: AssistantContext
+        }
+        let data = try await send(
+            ["assistant", "chat"], method: "POST",
+            body: Body(messages: messages, lang: lang, context: context)
+        )
+        do {
+            return try Self.decoder.decode(AssistantReply.self, from: data)
+        } catch {
+            throw APIError.malformed("assistant/chat: \(error)")
+        }
     }
 
     // MARK: - Source documents
@@ -349,6 +456,11 @@ struct SynapseAPI {
 
         if let accessToken = try await token() {
             request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+        }
+        // Which device is asking, so a write made here does not nudge the phone
+        // that made it awake for its own change.
+        if let device = await PushRegistrar.shared.deviceToken {
+            request.setValue(device, forHTTPHeaderField: "X-Device-Token")
         }
         if let body {
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")

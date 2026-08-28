@@ -7,6 +7,7 @@ import SwiftUI
 /// three-state: a chapter with some of its parts chosen reads as partly chosen
 /// rather than as chosen or not, because either of those would be a lie.
 struct TopicChooser: View {
+    @Environment(\.strings) private var strings
     let topics: [ChooserTopic]
     let counts: (topics: [String: Int], subtopics: [String: Int])
     @Binding var scope: Set<String>
@@ -43,19 +44,19 @@ struct TopicChooser: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("What to study")
+            .navigationTitle(strings("What to study"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button("Everything") { scope = [] }
+                    Button(strings("Everything")) { scope = [] }
                         .font(Theme.ui(15))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                         .disabled(scope.isEmpty)
                 }
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") { dismiss() }
+                    Button(strings("Done")) { dismiss() }
                         .font(Theme.ui(16, weight: 600))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                 }
             }
         }
@@ -100,7 +101,7 @@ struct TopicChooser: View {
                             Text(subjectName(group.subject))
                                 .font(Theme.ui(12, weight: 600))
                         }
-                        .foregroundStyle(Theme.accent)
+                        .foregroundStyle(Theme.primary)
                     }
                 }
                 .listRowBackground(Theme.surface)
@@ -136,6 +137,6 @@ struct TopicChooser: View {
         case .off: "square"
         }
         return Image(systemName: name)
-            .foregroundStyle(tick == .off ? Theme.ink3 : Theme.accent)
+            .foregroundStyle(tick == .off ? Theme.ink3 : Theme.primary)
     }
 }

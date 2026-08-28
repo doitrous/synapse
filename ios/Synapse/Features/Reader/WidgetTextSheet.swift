@@ -8,6 +8,7 @@ import SwiftUI
 /// reason. Saved on dismissal rather than per keystroke, because every save is
 /// a shard rewrite.
 struct WidgetTextSheet: View {
+    @Environment(\.strings) private var strings
     let object: AnnotationObject
     let onSave: (String) -> Void
 
@@ -34,12 +35,12 @@ struct WidgetTextSheet: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .topBarTrailing) {
-                        Button("Done") {
+                        Button(strings("Done")) {
                             onSave(text)
                             dismiss()
                         }
                         .font(Theme.ui(16, weight: 600))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                     }
                 }
         }

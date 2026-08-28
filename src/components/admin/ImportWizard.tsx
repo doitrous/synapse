@@ -1,10 +1,9 @@
 import { useMemo, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { AlertTriangle, ArrowLeft, ArrowRight, Check, CheckCircle2, FileSpreadsheet, FileText, Loader2, RotateCcw, Upload, XCircle } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Select } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
@@ -141,7 +140,7 @@ export function ImportWizard(props: ImportWizardProps) {
 
   return (
     <PageContainer className="max-w-[88rem]">
-      <PageHeader title={props.title} description={props.description} actions={<Link to={props.backTo}><Button variant="secondary" iconLeft={ArrowLeft}>{props.backLabel}</Button></Link>} />
+      <PageHeader title={props.title} description={props.description} actions={<ButtonLink to={props.backTo} variant="secondary" iconLeft={ArrowLeft}>{props.backLabel}</ButtonLink>} />
 
       <Panel className="mb-4 overflow-hidden">
         <div className="grid grid-cols-2 gap-px bg-line sm:grid-cols-3 xl:grid-cols-6">{steps.map((label, index) => <button key={label} type="button" disabled={index > step || importing} onClick={() => index <= step && setStep(index)} className={cn('flex min-h-16 items-center gap-2 bg-surface px-3 py-2 text-start', index === step && 'bg-primary-tint/55', index < step && 'text-ink', index > step && 'text-ink-3')}><span className={cn('grid size-6 shrink-0 place-items-center rounded-full border font-mono text-[10px]', index < step ? 'border-success bg-success text-on-success' : index === step ? 'border-primary bg-primary text-on-primary' : 'border-line-2')}>{index < step ? <Check size={12} /> : index + 1}</span><span className="text-[11.5px] font-semibold leading-tight">{label}</span></button>)}</div>

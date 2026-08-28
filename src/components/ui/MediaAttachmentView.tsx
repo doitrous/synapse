@@ -5,6 +5,8 @@ import { Button } from './Button'
 import { Icon } from './Icon'
 import { IconButton } from './IconButton'
 import { resolveMediaSource } from '@/lib/mediaStorage'
+import { mediaPlaybackSource } from '@/lib/mediaUpload'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 export interface MediaAsset {
   id: string
@@ -13,6 +15,8 @@ export interface MediaAsset {
   url: string
   mimeType?: string
   size?: number
+  /** Alt text for images; a transcript or equivalent description for AV. */
+  description?: string
 }
 
 function formatSize(size?: number) {
@@ -58,7 +62,7 @@ export function ZoomableImage({ src, alt, className = '' }: { src: string; alt: 
         <img src={src} alt={alt} className={className} />
         <span className="pointer-events-none absolute bottom-2 right-2 inline-flex items-center gap-1.5 rounded-md border border-white/20 bg-ink/75 px-2 py-1 text-[10.5px] font-semibold text-white opacity-0 shadow-panel backdrop-blur-sm transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100"><Icon icon={ImageIcon} size={12} />Open &amp; zoom</span>
       </button>
-      {open && (
+      {open && overlayPortal(
         <div className="fixed inset-0 z-[90] flex flex-col bg-ink/90 pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)] backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={`${alt} image viewer`} onMouseDown={close}>
           <div className="flex shrink-0 flex-wrap items-center gap-2 border-b border-white/10 px-3 py-2.5 text-white sm:px-5" onMouseDown={(event) => event.stopPropagation()}>
             <span className="min-w-0 flex-1 truncate text-[13px] font-semibold">{alt}</span>
@@ -90,7 +94,11 @@ export function MediaAttachmentView({ attachment, onRemove }: { attachment: Medi
     let revoke = false
     setLoading(true)
     setError('')
-    resolveMediaSource(attachment.url)
+    const managedStream = attachment.type !== 'image' && /^\/media\/[^/?#]+$/.test(attachment.url)
+    const sourcePromise = managedStream
+      ? mediaPlaybackSource(attachment.url).then((url) => ({ url, revoke: false }))
+      : resolveMediaSource(attachment.url)
+    sourcePromise
       .then((resolved) => {
         if (!active) {
           if (resolved.revoke) URL.revokeObjectURL(resolved.url)
@@ -110,7 +118,7 @@ export function MediaAttachmentView({ attachment, onRemove }: { attachment: Medi
       active = false
       if (revoke && resolvedUrl) URL.revokeObjectURL(resolvedUrl)
     }
-  }, [attachment.url])
+  }, [attachment.type, attachment.url])
 
   const size = formatSize(attachment.size)
   return (
@@ -124,18 +132,21 @@ export function MediaAttachmentView({ attachment, onRemove }: { attachment: Medi
       <div className="p-2.5">
         {loading && <p role="status" className="py-4 text-center text-[12px] text-ink-3">Loading media…</p>}
         {!loading && error && <div role="alert" className="rounded-lg border border-danger/25 bg-danger-tint p-3 text-[12px] leading-relaxed text-danger">{error}</div>}
-        {!loading && !error && attachment.type === 'image' && <ZoomableImage src={source} alt={attachment.name} className="max-h-80 w-full rounded-lg object-contain" />}
+        {!loading && !error && attachment.type === 'image' && <ZoomableImage src={source} alt={attachment.description || attachment.name} className="max-h-80 w-full rounded-lg object-contain" />}
         {!loading && !error && attachment.type === 'audio' && (
-          <audio className="block w-full" controls preload="metadata" onCanPlay={() => setError('')} onError={() => setError(playbackError('audio'))}>
+          <audio className="block w-full" aria-label={attachment.name} controls preload="metadata" onCanPlay={() => setError('')} onError={() => setError(playbackError('audio'))}>
             <source src={source} type={attachment.mimeType} />
             Your browser does not support this audio.
           </audio>
         )}
         {!loading && !error && attachment.type === 'video' && (
-          <video className="max-h-96 w-full rounded-lg bg-ink" controls playsInline preload="metadata" onCanPlay={() => setError('')} onError={() => setError(playbackError('video'))}>
+          <video className="max-h-96 w-full rounded-lg bg-ink" aria-label={attachment.name} controls playsInline preload="metadata" onCanPlay={() => setError('')} onError={() => setError(playbackError('video'))}>
             <source src={source} type={attachment.mimeType} />
             Your browser does not support this video.
           </video>
+        )}
+        {!loading && !error && attachment.type !== 'image' && attachment.description && (
+          <p className="mt-2 rounded-lg bg-surface px-3 py-2 text-[11.5px] leading-relaxed text-ink-2"><span className="font-semibold text-ink">Description / transcript:</span> {attachment.description}</p>
         )}
         {!loading && source && !source.startsWith('blob:') && !source.startsWith('data:') && (
           <Button type="button" variant="ghost" size="sm" className="mt-2" iconLeft={ExternalLink} onClick={() => window.open(source, '_blank', 'noopener,noreferrer')}>Open original media</Button>

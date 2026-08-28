@@ -13,15 +13,20 @@ struct MoreView: View {
     let audienceStore: AudienceStore
     let api: SynapseAPI
 
+    @Environment(\.strings) private var strings
+
     var body: some View {
         NavigationStack {
             List {
-                Section("Study") {
+                Section(strings("Study")) {
+                    link("Adaptive Study", "wand.and.stars") {
+                        AdaptiveStudyView(api: api, sync: sync, store: store, audience: audience)
+                    }
                     link("Calendar", "calendar") {
                         CalendarView(store: store, sync: sync, audienceStore: audienceStore, api: api)
                     }
                     link("Practical", "list.bullet.clipboard") {
-                        PracticalView(store: store, sync: sync, audience: audience)
+                        PracticalView(store: store, sync: sync, audience: audience, api: api)
                     }
                     link("Medical taxonomy", "character.book.closed") {
                         GlossaryView(store: store, sync: sync)
@@ -29,7 +34,7 @@ struct MoreView: View {
                 }
                 .listRowBackground(Theme.surface)
 
-                Section("Workspace") {
+                Section(strings("Workspace")) {
                     link("Notebook", "note.text") {
                         NotebookView(store: store, sync: sync, api: api)
                     }
@@ -42,12 +47,12 @@ struct MoreView: View {
                 }
                 .listRowBackground(Theme.surface)
 
-                Section("Plan") {
+                Section(strings("Plan")) {
                     link("Progress", "chart.bar") {
                         PerformanceView(store: store, sync: sync)
                     }
                     link("Billing", "creditcard") {
-                        BillingView(audienceStore: audienceStore)
+                        BillingView(api: api, sync: sync)
                     }
                 }
                 .listRowBackground(Theme.surface)
@@ -55,20 +60,35 @@ struct MoreView: View {
             .listStyle(.insetGrouped)
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
-            .navigationTitle("More")
+            .navigationTitle(strings("More"))
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    AssistantButton(surface: "More")
+                }
+            }
         }
     }
 
+    /// Titles go through `strings` rather than a `LocalizedStringKey`.
+    ///
+    /// The table is keyed by the English source text and shared with the
+    /// website, so both platforms say the same words — and a title with no
+    /// Arabic behind it falls back to the English it was written from rather
+    /// than showing a key.
     private func link<Destination: View>(
-        _ title: LocalizedStringKey, _ symbol: String, @ViewBuilder destination: @escaping () -> Destination
+        _ title: String, _ symbol: String, @ViewBuilder destination: @escaping () -> Destination
     ) -> some View {
         NavigationLink {
             destination()
         } label: {
             Label {
-                Text(title).font(Theme.ui(16))
+                Text(strings(title)).font(Theme.ui(16))
             } icon: {
-                Image(systemName: symbol).foregroundStyle(Theme.accent)
+                Image(systemName: symbol)
+                    .foregroundStyle(Theme.primary)
+                    // A chevron or an arrow points the other way in Arabic; a
+                    // calendar or a clipboard does not.
+                    .flipsForRightToLeftLayoutDirection(true)
             }
         }
     }

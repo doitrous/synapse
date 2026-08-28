@@ -1,4 +1,4 @@
-import type { ScheduledSession } from './useStudentSchedule'
+import type { ScheduledSession } from './studentSchedule'
 // Relative and extensioned, like every other module under `node --test`: it
 // resolves imports itself and knows nothing about Vite's `@/` alias. The
 // type-only import above is erased before it looks, so it may stay aliased.

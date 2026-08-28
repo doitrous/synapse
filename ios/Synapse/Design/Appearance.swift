@@ -4,9 +4,13 @@ import UIKit
 /// UIKit-level chrome that SwiftUI styles no other way.
 ///
 /// Navigation and tab bars are still UIKit underneath, so the fonts and colours
-/// they use come from an appearance proxy rather than a view modifier. Without
-/// this the app reads as Synapse everywhere except its titles, which is the one
-/// place the difference is most obvious.
+/// they use come from an appearance proxy rather than a view modifier.
+///
+/// Every colour here is read from `Theme` rather than written out again. It was
+/// written out again once, and the rebrand left a band of the old warm ground
+/// across the top of every screen while everything below it had moved on — a
+/// palette copied into a second place is a palette that will disagree with
+/// itself the first time it changes.
 enum Appearance {
 
     static func apply() {
@@ -14,19 +18,25 @@ enum Appearance {
         tabBars()
     }
 
+    /// Re-apply after the theme changes.
+    ///
+    /// An appearance proxy is read when a bar is created, so bars already on
+    /// screen keep the old colours. Rebuilding the tree is what replaces them —
+    /// which the theme change already does — so this only has to run first.
+    @MainActor
+    static func reapply() {
+        apply()
+    }
+
     /// Page titles are serif — the rule that pairs with sans panel titles and
     /// gives the product its hierarchy.
     private static func navigationBars() {
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColor { traits in
-            UIColor(rgb: traits.userInterfaceStyle == .dark ? 0x17140F : 0xF6F1E9)
-        }
+        appearance.backgroundColor = UIColor(Theme.paper)
         appearance.shadowColor = .clear
 
-        let ink = UIColor { traits in
-            UIColor(rgb: traits.userInterfaceStyle == .dark ? 0xF2ECE2 : 0x241D16)
-        }
+        let ink = UIColor(Theme.ink)
         appearance.largeTitleTextAttributes = [
             .font: serif(size: 30, weight: 560),
             .foregroundColor: ink,
@@ -44,9 +54,7 @@ enum Appearance {
     private static func tabBars() {
         let appearance = UITabBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = UIColor { traits in
-            UIColor(rgb: traits.userInterfaceStyle == .dark ? 0x201C16 : 0xFFFDFA)
-        }
+        appearance.backgroundColor = UIColor(Theme.surface)
 
         for item in [appearance.stackedLayoutAppearance, appearance.inlineLayoutAppearance, appearance.compactInlineLayoutAppearance] {
             item.normal.titleTextAttributes = [.font: sans(size: 10, weight: 500)]

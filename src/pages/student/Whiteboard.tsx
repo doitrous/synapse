@@ -1,75 +1,68 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import {
-  StickyNote, ZoomIn, ZoomOut, Maximize, Trash2, Undo2, Redo2, PanelsTopLeft, Map, GripVertical,
-  Search, ChevronUp, ChevronDown, X,
+  StickyNote, ZoomIn, ZoomOut, Maximize, Trash2, Undo2, Redo2, PanelsTopLeft, Map as MapIcon, GripVertical,
+  Search, ChevronUp, ChevronDown, X, ImagePlus, Paperclip, Pencil, Eraser, MousePointer2,
+  FileText, Download, Link2, Plus, Star, Bell, Users, Lock, Eye, Sticker, Layers, BringToFront, SendToBack,
 } from 'lucide-react'
 import { IconButton } from '@/components/ui/IconButton'
 import { Icon } from '@/components/ui/Icon'
+import { Collapse } from '@/components/ui/Collapse'
+import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
+import { SearchInput } from '@/components/ui/Field'
 import { cn } from '@/lib/cn'
 import { clamp } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { resolveMediaSource } from '@/lib/mediaStorage'
+import { useMyDocuments } from '@/lib/useMyDocuments'
+import { apiDownload, apiFetchFile, API_MODE } from '@/lib/api'
+import { uploadRouteId } from '@/lib/useReaderSource'
+import { ShareDialog } from '@/components/share/ShareDialog'
+import { setShareFollow as apiSetShareFollow, setShareStar as apiSetShareStar, useSharedDocuments, type ShareSummary } from '@/lib/useShares'
 import { useT } from '@/lib/i18n'
+import { useIdentity } from '@/lib/useIdentity'
 import {
-  BOARD, NOTE_HEIGHT, NOTE_WIDTH, anchorOf, clampToBoard, clampView, defaultControls,
-  linkPath, matchNotes, noteAt, sidesBetween, toBoard, viewCentredOn,
+  BOARD, anchorOf, clampToBoard, clampView, defaultControls,
+  linkPath, matchNotes, minimapViewport, noteAt, panViewByBoardDelta, sidesBetween, toBoard, viewCentredOn, viewFromMinimapPoint,
   type Point, type Side,
 } from '@/lib/whiteboardGeometry'
+import {
+  FILE_H, FILE_W, IMAGE_W, INITIAL_BOARD, INK_COLOURS, INK_WIDTHS, NOTE_H, NOTE_W, READY_ITEM_SIZE,
+  TONES, TONE_LABEL, TONE_ORDER, filesOf, imagesOf, inkOf, inkPath, readyItemsOf,
+  LEGACY_WHITEBOARD_KEY, WHITEBOARD_COLLECTION_KEY,
+  activeWhiteboard, addWhiteboard, createWhiteboardDocument, emptyWhiteboardCollection,
+  groupWhiteboardsByTopic, migrateSingleBoardToCollection, removeWhiteboard, renameWhiteboard,
+  sameAudienceSharedBoards, toggleWhiteboardFollow, toggleWhiteboardStar, updateWhiteboardState,
+  type BoardFile, type BoardImage, type BoardState, type Frame, type InkStroke, type LinkLine, type ReadyElement,
+  type Tool, type WhiteboardCollection, type WhiteboardDocument,
+} from '@/data/whiteboard'
+import { READY_ITEMS, readyItemsByCategory, searchReadyItems, type ReadyItem } from '@/data/readyItems'
 
-interface Note { id: string; x: number; y: number; text: string; tone: keyof typeof TONES }
-/**
- * A connector between two notes.
- *
- * `c1`/`c2` are optional on purpose: absent means "use the automatic curve",
- * which is what every link on an existing board has, so none of them change.
- * Present means the student bent it, and their bend is what is drawn.
- */
-interface LinkLine { id: string; from: string; to: string; c1?: Point; c2?: Point }
-interface Frame { id: string; x: number; y: number; width: number; height: number; title: string }
-interface BoardState { notes: Note[]; links: LinkLine[]; frames: Frame[] }
+/** Looked up once per placed ready item, so a render never scans the library. */
+const READY_ITEM_BY_ID = new Map(READY_ITEMS.map((item) => [item.id, item]))
 
-/**
- * Eight light note colours.
- *
- * Tints rather than fills, so a note reads as paper with a wash over it and the
- * ink on top stays legible — including in the dark theme, where each of these
- * tokens is redefined. The original four keys are kept exactly as they were, so
- * notes already on a board keep the colour they were given.
- */
-const TONES = {
-  paper: 'bg-surface border-line',
-  teal: 'bg-primary-tint border-primary-line',
-  amber: 'bg-warning-tint border-warning/30',
-  rose: 'bg-danger-tint border-danger/25',
-  sage: 'bg-success-tint border-success/30',
-  slate: 'bg-surface-2 border-line-2',
-  sand: 'bg-inset border-line-2',
-  clay: 'bg-primary-tint/55 border-primary-line/70',
-} as const
 
-const TONE_ORDER = ['paper', 'teal', 'amber', 'rose', 'sage', 'sand', 'slate', 'clay'] as const
-
-/** What each colour is called, for the picker's labels. */
-const TONE_LABEL: Record<keyof typeof TONES, string> = {
-  paper: 'Paper', teal: 'Teal', amber: 'Amber', rose: 'Rose',
-  sage: 'Sage', slate: 'Slate', sand: 'Sand', clay: 'Clay',
+// Keyed on the ShareAccess enum — never render its raw values to a student.
+const SHARE_ACCESS_LABEL: Record<string, string> = {
+  private: 'Private',
+  view: 'Can view',
+  edit: 'Can edit',
 }
-const NOTE_W = NOTE_WIDTH
-const NOTE_H = NOTE_HEIGHT
-/**
- * A new whiteboard is empty.
- *
- * It used to be seeded with seven sticky notes, eight connectors and a frame
- * titled "Heart failure · mechanism to treatment" — someone else's diagram,
- * written into a real student's account the first time they dragged anything.
- */
-const INITIAL_BOARD: BoardState = { notes: [], links: [], frames: [] }
 
 type NoteOffset = { id: string; ox: number; oy: number }
+type BoardUpdater = BoardState | ((current: BoardState) => BoardState)
 type Drag =
   | { type: 'pan'; sx: number; sy: number; ox: number; oy: number }
   | { type: 'note'; id: string; sx: number; sy: number; ox: number; oy: number }
   | { type: 'frame'; id: string; sx: number; sy: number; ox: number; oy: number; notes: NoteOffset[] }
   | { type: 'frame-resize'; id: string; sx: number; sy: number; ow: number; oh: number }
+  | { type: 'image'; id: string; sx: number; sy: number; ox: number; oy: number }
+  | { type: 'image-resize'; id: string; sx: number; sy: number; ow: number; oh: number; ratio: number }
+  | { type: 'file'; id: string; sx: number; sy: number; ox: number; oy: number }
+  | { type: 'readyItem'; id: string; sx: number; sy: number; ox: number; oy: number }
+  | { type: 'readyItem-resize'; id: string; sx: number; sy: number; ow: number }
+  /** Drawing a freehand line. The points are collected on the ref below. */
+  | { type: 'ink' }
   /** Pulling a connector out of a note's edge towards wherever it lands. */
   | { type: 'link'; from: string; side: Side }
   /** Bending an existing connector by one of its two control points. */
@@ -78,10 +71,33 @@ type Drag =
 
 export function Whiteboard() {
   const t = useT()
+  const navigate = useNavigate()
+  const documents = useMyDocuments()
+  const uploadDocument = documents.upload
+  const identity = useIdentity()
   const canvasRef = useRef<HTMLDivElement>(null)
+  const minimapRef = useRef<HTMLDivElement>(null)
   // The board starts at its own corner: there is nothing before (0, 0) to show.
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 })
-  const [board, setBoard] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
+  const [legacyBoard] = usePersistentState<BoardState>(LEGACY_WHITEBOARD_KEY, INITIAL_BOARD)
+  const [collection, setCollection] = usePersistentState<WhiteboardCollection>(
+    WHITEBOARD_COLLECTION_KEY,
+    () => emptyWhiteboardCollection(identity.userId ?? 'local-student', identity.displayName, identity.audience.universityId, identity.audience.year),
+  )
+  const activeBoard = activeWhiteboard(collection)
+  const activeBoardId = activeBoard.id
+  const board = activeBoard.state
+  const setBoard = useCallback((next: BoardUpdater) => {
+    setCollection((current) => {
+      const active = activeWhiteboard(current)
+      const nextState = typeof next === 'function' ? next(active.state) : next
+      return updateWhiteboardState(current, active.id, nextState)
+    })
+  }, [setCollection])
+  const [viewMode, setViewMode] = useState<'your' | 'shared'>('your')
+  const [renamingBoard, setRenamingBoard] = useState<string | null>(null)
+  const minimapDrag = useRef<number | null>(null)
+  const audience = identity.audience
   const [selected, setSelected] = useState<string | null>(null)
   /** Which note has its colour picker open, if any. */
   const [palette, setPalette] = useState<string | null>(null)
@@ -100,13 +116,82 @@ export function Whiteboard() {
   const [query, setQuery] = useState('')
   const [searchOpen, setSearchOpen] = useState(false)
   const [hitIndex, setHitIndex] = useState(0)
+  /**
+   * What the pointer does on empty space.
+   *
+   * `select` pans and selects, which is what the board has always done. `pen`
+   * draws, and `eraser` removes a line by touching it. Deliberately a mode
+   * rather than a modifier: a freehand line is a sustained gesture, and holding
+   * a key for the length of a diagram is not drawing.
+   */
+  const [tool, setTool] = useState<Tool>('select')
+  const [inkColour, setInkColour] = useState<string>(INK_COLOURS[0].value)
+  const [inkWidth, setInkWidth] = useState<number>(INK_WIDTHS[1])
+  /** The picture, file, or ready-made item that is selected, if any is. */
+  const [selectedItem, setSelectedItem] = useState<{ kind: 'image' | 'file' | 'readyItem'; id: string } | null>(null)
+  /** Whether the "Your boards" / "Shared" section is expanded. Collapsed by
+   * default so the board list does not compete with the board itself for
+   * space; remembered per student once they change it. */
+  const [boardsPanelOpen, setBoardsPanelOpen] = usePersistentState<boolean>('synapse.whiteboard.boardsPanelOpen', false)
+  const readyItemsTrigger = usePopoverTrigger()
+  const [readyItemQuery, setReadyItemQuery] = useState('')
+  /** The line being drawn, before it is committed to the board. */
+  const [drawing, setDrawing] = useState<number[] | null>(null)
+  const drawingRef = useRef<number[] | null>(null)
+  const [attaching, setAttaching] = useState<'image' | 'file' | null>(null)
+  const [attachError, setAttachError] = useState('')
+  const pictureInput = useRef<HTMLInputElement>(null)
+  const fileInput = useRef<HTMLInputElement>(null)
+  const [sharing, setSharing] = useState(false)
   const drag = useRef<Drag>(null)
   const viewRef = useRef(view)
   const boardRef = useRef(board)
   const history = useRef<BoardState[]>([])
   const future = useRef<BoardState[]>([])
+  const migratingImages = useRef(new Set<string>())
   viewRef.current = view
   boardRef.current = board
+
+  useEffect(() => {
+    if (identity.loading) return
+    setCollection((current) => migrateSingleBoardToCollection(legacyBoard, current, {
+      ownerId: identity.userId ?? 'local-student',
+      ownerName: identity.displayName,
+      universityId: identity.audience.universityId,
+      year: identity.audience.year,
+    }))
+  }, [identity.audience.universityId, identity.audience.year, identity.displayName, identity.loading, identity.userId, legacyBoard, setCollection])
+
+  // Connected accounts lazily move legacy inline/IndexedDB pictures into the
+  // same managed asset ledger as new board uploads. Placement is untouched.
+  useEffect(() => {
+    if (!API_MODE) return
+    const legacy = imagesOf(board).find((image) => image.src && !image.documentId && !migratingImages.current.has(`${activeBoardId}:${image.id}`))
+    if (!legacy?.src) return
+    const key = `${activeBoardId}:${legacy.id}`
+    migratingImages.current.add(key)
+    let revoke = false
+    let source = ''
+    void resolveMediaSource(legacy.src)
+      .then(async (resolved) => {
+        source = resolved.url
+        revoke = resolved.revoke
+        const blob = await fetch(resolved.url).then((response) => response.blob())
+        return uploadDocument(new File([blob], legacy.alt || `${legacy.id}.jpg`, { type: blob.type || 'image/jpeg' }), undefined, { kind: 'whiteboard', id: activeBoardId })
+      })
+      .then((documentId) => setBoard((current) => ({ ...current, images: imagesOf(current).map((image) => image.id === legacy.id ? { ...image, documentId, src: undefined } : image) })))
+      .catch(() => migratingImages.current.delete(key))
+      .finally(() => { if (revoke && source) URL.revokeObjectURL(source) })
+  }, [activeBoardId, board, setBoard, uploadDocument])
+
+  useEffect(() => {
+    history.current = []
+    future.current = []
+    clearSelection()
+    setView((current) => clampView(current, viewportSize()))
+    // Selection clearing is intentionally local to a board switch.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeBoardId])
 
   const snapshot = () => structuredClone(boardRef.current)
   function remember() { history.current.push(snapshot()); if (history.current.length > 50) history.current.shift(); future.current = [] }
@@ -114,6 +199,12 @@ export function Whiteboard() {
   // reached through a ref rather than captured from the first render.
   const rememberRef = useRef(remember)
   rememberRef.current = remember
+  // The window listeners are registered once, so the pen's current colour and
+  // width have to be reachable through a ref rather than captured at mount.
+  const inkColourRef = useRef(inkColour)
+  inkColourRef.current = inkColour
+  const inkWidthRef = useRef(inkWidth)
+  inkWidthRef.current = inkWidth
   function undo() { const previous = history.current.pop(); if (!previous) return; future.current.push(snapshot()); setBoard(previous); setSelected(null) }
   function redo() { const next = future.current.pop(); if (!next) return; history.current.push(snapshot()); setBoard(next); setSelected(null) }
 
@@ -125,9 +216,9 @@ export function Whiteboard() {
   useEffect(() => {
     function onMove(event: PointerEvent) {
       const active = drag.current
-      // The two board-space gestures follow the cursor rather than a delta, and
-      // are handled below.
-      if (!active || active.type === 'link' || active.type === 'bend') return
+      // The board-space gestures — pulling a connector, bending one, drawing —
+      // follow the cursor rather than a delta, and are handled below.
+      if (!active || active.type === 'link' || active.type === 'bend' || active.type === 'ink') return
       const dx = event.clientX - active.sx
       const dy = event.clientY - active.sy
       const scale = viewRef.current.scale
@@ -155,6 +246,43 @@ export function Whiteboard() {
             return offset ? { ...note, x: offset.ox + wdx, y: offset.oy + wdy } : note
           }),
         }))
+      } else if (active.type === 'image') {
+        setBoard((current) => ({
+          ...current,
+          images: imagesOf(current).map((image) => image.id === active.id
+            ? { ...image, ...clampToBoard({ x: active.ox + dx / scale, y: active.oy + dy / scale }, { width: image.width, height: image.height }) }
+            : image),
+        }))
+      } else if (active.type === 'image-resize') {
+        // Width drives height, so a picture cannot be squashed out of shape.
+        const width = Math.max(80, active.ow + dx / scale)
+        setBoard((current) => ({
+          ...current,
+          images: imagesOf(current).map((image) => image.id === active.id
+            ? { ...image, width, height: Math.max(60, width / active.ratio) }
+            : image),
+        }))
+      } else if (active.type === 'file') {
+        setBoard((current) => ({
+          ...current,
+          files: filesOf(current).map((file) => file.id === active.id
+            ? { ...file, ...clampToBoard({ x: active.ox + dx / scale, y: active.oy + dy / scale }, { width: FILE_W, height: FILE_H }) }
+            : file),
+        }))
+      } else if (active.type === 'readyItem') {
+        setBoard((current) => ({
+          ...current,
+          readyItems: readyItemsOf(current).map((element) => element.id === active.id
+            ? { ...element, ...clampToBoard({ x: active.ox + dx / scale, y: active.oy + dy / scale }, { width: element.width, height: element.height }) }
+            : element),
+        }))
+      } else if (active.type === 'readyItem-resize') {
+        // Square icons: one dimension drives both, so nothing is ever squashed.
+        const size = Math.max(32, active.ow + dx / scale)
+        setBoard((current) => ({
+          ...current,
+          readyItems: readyItemsOf(current).map((element) => element.id === active.id ? { ...element, width: size, height: size } : element),
+        }))
       } else if (active.type === 'frame-resize') {
         const wdx = dx / scale
         const wdy = dy / scale
@@ -165,13 +293,25 @@ export function Whiteboard() {
       }
     }
 
-    /** The two gestures that follow the cursor in board space rather than by delta. */
+    /** The gestures that follow the cursor in board space rather than by delta. */
     function onPointerBoard(event: PointerEvent) {
       const active = drag.current
-      if (!active || (active.type !== 'link' && active.type !== 'bend')) return
+      if (!active || (active.type !== 'link' && active.type !== 'bend' && active.type !== 'ink')) return
       const rect = canvasRef.current?.getBoundingClientRect()
       if (!rect) return
       const point = toBoard({ x: event.clientX - rect.left, y: event.clientY - rect.top }, viewRef.current)
+      if (active.type === 'ink') {
+        const points = drawingRef.current
+        if (!points) return
+        // Points closer together than this add nothing a hand can see and a
+        // great deal to the stored document.
+        const lastX = points[points.length - 2]
+        const lastY = points[points.length - 1]
+        if (Math.hypot(point.x - lastX, point.y - lastY) < 1.5) return
+        points.push(point.x, point.y)
+        setDrawing([...points])
+        return
+      }
       if (active.type === 'link') { setPulling(point); return }
       setBoard((current) => ({
         ...current,
@@ -188,6 +328,18 @@ export function Whiteboard() {
     function onUp(event: PointerEvent) {
       const active = drag.current
       drag.current = null
+      if (active?.type === 'ink') {
+        const points = drawingRef.current
+        drawingRef.current = null
+        setDrawing(null)
+        // A tap is not a line. Two points is the minimum that draws anything.
+        if (points && points.length >= 4) {
+          rememberRef.current()
+          const stroke: InkStroke = { id: `i${Date.now()}`, points, color: inkColourRef.current, width: inkWidthRef.current }
+          setBoard((current) => ({ ...current, ink: [...inkOf(current), stroke] }))
+        }
+        return
+      }
       if (active?.type !== 'link') { setPulling(null); return }
       setPulling(null)
       const rect = canvasRef.current?.getBoundingClientRect()
@@ -244,16 +396,34 @@ export function Whiteboard() {
     zoomBy(factor, event.clientX - rect.left, event.clientY - rect.top)
   }
 
-  function backgroundDown(event: React.PointerEvent) {
+  function clearSelection() {
     setSelected(null)
     setSelectedFrame(null)
     setSelectedLink(null)
+    setSelectedItem(null)
     setPalette(null)
+  }
+
+  function backgroundDown(event: React.PointerEvent) {
+    clearSelection()
+    if (tool === 'pen') {
+      const rect = canvasRef.current?.getBoundingClientRect()
+      if (!rect) return
+      const point = toBoard({ x: event.clientX - rect.left, y: event.clientY - rect.top }, view)
+      drawingRef.current = [point.x, point.y]
+      setDrawing([point.x, point.y])
+      drag.current = { type: 'ink' }
+      return
+    }
+    // The eraser removes lines by touching them; a press on bare board with it
+    // selected is still a pan, because otherwise there is no way to move around.
     drag.current = { type: 'pan', sx: event.clientX, sy: event.clientY, ox: view.x, oy: view.y }
   }
 
   /** Empty space, double-clicked, is where a note goes. */
   function backgroundDoubleClick(event: React.MouseEvent) {
+    // With the pen down, a double-click is two strokes, not a new note.
+    if (tool !== 'select') return
     const rect = canvasRef.current?.getBoundingClientRect()
     if (!rect) return
     const point = toBoard({ x: event.clientX - rect.left, y: event.clientY - rect.top }, view)
@@ -365,9 +535,225 @@ export function Whiteboard() {
     setSelected(null)
   }
 
+  /* ---- Pictures, files and ink ----------------------------------------- */
+
+  function imageDown(event: React.PointerEvent, image: BoardImage) {
+    if (tool !== 'select') return
+    event.stopPropagation()
+    clearSelection()
+    setSelectedItem({ kind: 'image', id: image.id })
+    remember()
+    drag.current = { type: 'image', id: image.id, sx: event.clientX, sy: event.clientY, ox: image.x, oy: image.y }
+  }
+
+  function imageResizeDown(event: React.PointerEvent, image: BoardImage) {
+    event.stopPropagation()
+    setSelectedItem({ kind: 'image', id: image.id })
+    remember()
+    drag.current = {
+      type: 'image-resize', id: image.id, sx: event.clientX, sy: event.clientY,
+      ow: image.width, oh: image.height, ratio: image.width / Math.max(1, image.height),
+    }
+  }
+
+  function fileDown(event: React.PointerEvent, file: BoardFile) {
+    if (tool !== 'select') return
+    event.stopPropagation()
+    clearSelection()
+    setSelectedItem({ kind: 'file', id: file.id })
+    remember()
+    drag.current = { type: 'file', id: file.id, sx: event.clientX, sy: event.clientY, ox: file.x, oy: file.y }
+  }
+
+  /** Remove whichever picture, file, or ready-made item is selected. */
+  function removeSelectedItem() {
+    if (!selectedItem) return
+    remember()
+    setBoard((current) => {
+      if (selectedItem.kind === 'image') return { ...current, images: imagesOf(current).filter((image) => image.id !== selectedItem.id) }
+      if (selectedItem.kind === 'file') return { ...current, files: filesOf(current).filter((file) => file.id !== selectedItem.id) }
+      return { ...current, readyItems: readyItemsOf(current).filter((element) => element.id !== selectedItem.id) }
+    })
+    setSelectedItem(null)
+  }
+
+  function readyItemDown(event: React.PointerEvent, element: ReadyElement) {
+    if (tool !== 'select') return
+    event.stopPropagation()
+    clearSelection()
+    setSelectedItem({ kind: 'readyItem', id: element.id })
+    remember()
+    drag.current = { type: 'readyItem', id: element.id, sx: event.clientX, sy: event.clientY, ox: element.x, oy: element.y }
+  }
+
+  function readyItemResizeDown(event: React.PointerEvent, element: ReadyElement) {
+    event.stopPropagation()
+    setSelectedItem({ kind: 'readyItem', id: element.id })
+    remember()
+    drag.current = { type: 'readyItem-resize', id: element.id, sx: event.clientX, sy: event.clientY, ow: element.width }
+  }
+
+  /** Drop a ready-made item from the palette onto the middle of the view. */
+  function addReadyItem(item: ReadyItem) {
+    remember()
+    const centre = centerPoint()
+    const placed = clampToBoard(
+      { x: centre.x - READY_ITEM_SIZE / 2, y: centre.y - READY_ITEM_SIZE / 2 },
+      { width: READY_ITEM_SIZE, height: READY_ITEM_SIZE },
+    )
+    const id = `r${Date.now()}`
+    setBoard((current) => ({
+      ...current,
+      readyItems: [...readyItemsOf(current), { id, x: placed.x, y: placed.y, width: READY_ITEM_SIZE, height: READY_ITEM_SIZE, readyItemId: item.id }],
+    }))
+    clearSelection()
+    setSelectedItem({ kind: 'readyItem', id })
+    readyItemsTrigger.close()
+    setReadyItemQuery('')
+  }
+
+  /**
+   * Move the selected ready item one place forward or backward in the paint
+   * order. Later in the array paints later — on top — the same convention
+   * `noteAt` uses for notes.
+   */
+  function reorderSelectedReadyItem(direction: 1 | -1) {
+    if (!selectedItem || selectedItem.kind !== 'readyItem') return
+    remember()
+    setBoard((current) => {
+      const items = readyItemsOf(current)
+      const index = items.findIndex((element) => element.id === selectedItem.id)
+      const target = index + direction
+      if (index === -1 || target < 0 || target >= items.length) return current
+      const next = [...items]
+      const [moved] = next.splice(index, 1)
+      next.splice(target, 0, moved)
+      return { ...current, readyItems: next }
+    })
+  }
+
+  /** Whether the freehand drawing paints above or below the notes/pictures/files. */
+  function setInkAbove(next: boolean) {
+    remember()
+    setBoard((current) => ({ ...current, inkAbove: next }))
+  }
+
+  /** Touching a line with the eraser removes it. */
+  function eraseStroke(id: string) {
+    remember()
+    setBoard((current) => ({ ...current, ink: inkOf(current).filter((stroke) => stroke.id !== id) }))
+  }
+
+  /**
+   * Put a picture on the board.
+   *
+   * Bounded before it is stored, for the reason on `BoardImage`. The placed
+   * height comes from the image's own proportions, so nothing arrives stretched.
+   */
+  async function addPicture(file: File) {
+    setAttachError('')
+    setAttaching('image')
+    try {
+      const shape = await createImageBitmap(file)
+        .then((bitmap) => {
+          const size = { width: bitmap.width, height: bitmap.height }
+          bitmap.close()
+          return size
+        })
+        .catch(() => ({ width: 4, height: 3 }))
+      const documentId = await documents.upload(file, undefined, { kind: 'whiteboard', id: activeBoardId })
+      const centre = centerPoint()
+      const height = IMAGE_W * (shape.height / Math.max(1, shape.width))
+      const placed = clampToBoard({ x: centre.x - IMAGE_W / 2, y: centre.y - height / 2 }, { width: IMAGE_W, height })
+      remember()
+      const id = `p${Date.now()}`
+      setBoard((current) => ({
+        ...current,
+        images: [...imagesOf(current), { id, x: placed.x, y: placed.y, width: IMAGE_W, height, documentId, alt: file.name, sizeBytes: file.size }],
+      }))
+      clearSelection()
+      setSelectedItem({ kind: 'image', id })
+    } catch (error) {
+      setAttachError(error instanceof Error ? error.message : t('That picture could not be added.'))
+    } finally {
+      setAttaching(null)
+    }
+  }
+
+  /**
+   * Pin a file to the board.
+   *
+   * The bytes go to the student's own document store, so the board document
+   * stays small, the file counts against the account's own space, and it opens
+   * on any device they sign in on. Only the reference is kept here.
+   */
+  async function addFile(file: File) {
+    setAttachError('')
+    setAttaching('file')
+    try {
+      const documentId = await documents.upload(file, undefined, { kind: 'whiteboard', id: activeBoardId })
+      const centre = centerPoint()
+      const placed = clampToBoard({ x: centre.x - FILE_W / 2, y: centre.y - FILE_H / 2 }, { width: FILE_W, height: FILE_H })
+      remember()
+      const id = `d${Date.now()}`
+      const kind: BoardFile['kind'] = file.type === 'application/pdf' || /\.pdf$/i.test(file.name) ? 'pdf' : 'file'
+      setBoard((current) => ({
+        ...current,
+        files: [...filesOf(current), { id, x: placed.x, y: placed.y, documentId, name: file.name, sizeBytes: file.size, kind }],
+      }))
+      clearSelection()
+      setSelectedItem({ kind: 'file', id })
+    } catch (error) {
+      setAttachError(error instanceof Error ? error.message : t('That file could not be added.'))
+    } finally {
+      setAttaching(null)
+    }
+  }
+
+  /** Open a pinned file: a PDF in the reader, anything else as a download. */
+  function openFile(file: BoardFile) {
+    if (file.kind === 'pdf') { navigate(`/app/resources/${uploadRouteId(file.documentId)}`); return }
+    if (!API_MODE) { setAttachError(t('This preview keeps files in the browser, so they cannot be downloaded from here.')); return }
+    void apiDownload(`/my-documents/${encodeURIComponent(file.documentId)}/file`, file.name)
+      .catch(() => setAttachError(t('That file could not be opened.')))
+  }
+
   function setTone(id: string, tone: keyof typeof TONES) {
     remember()
     setBoard((current) => ({ ...current, notes: current.notes.map((note) => note.id === id ? { ...note, tone } : note) }))
+  }
+
+  function createBoard() {
+    const id = `wb-${Date.now().toString(36)}`
+    const next = createWhiteboardDocument({
+      id,
+      title: t('Untitled board'),
+      ownerId: identity.userId ?? 'local-student',
+      ownerName: identity.displayName,
+      universityId: identity.audience.universityId,
+      year: identity.audience.year,
+    })
+    setCollection((current) => addWhiteboard(current, next))
+    setViewMode('your')
+    setRenamingBoard(id)
+  }
+
+  function switchBoard(id: string) {
+    setCollection((current) => ({ ...current, activeBoardId: id }))
+    setViewMode('your')
+  }
+
+  function renameActiveBoard(title: string) {
+    setCollection((current) => renameWhiteboard(current, activeBoardId, title))
+    setRenamingBoard(null)
+  }
+
+  function deleteActiveBoard() {
+    setCollection((current) => removeWhiteboard(current, activeBoardId))
+  }
+
+  function updateSharedBoard(id: string, updater: (board: WhiteboardDocument) => WhiteboardDocument) {
+    setCollection((current) => ({ ...current, sharedBoards: current.sharedBoards.map((board) => board.id === id ? updater(board) : board) }))
   }
 
   /* ---- Search ---------------------------------------------------------- */
@@ -397,10 +783,63 @@ export function Whiteboard() {
   useEffect(() => { if (searchOpen) searchRef.current?.focus() }, [searchOpen])
 
   const hitIds = useMemo(() => new Set(hits.map((note) => note.id)), [hits])
+  const studentId = identity.userId ?? 'local-student'
+  const sharedGroups = useMemo(
+    () => groupWhiteboardsByTopic(sameAudienceSharedBoards(collection, audience)),
+    [audience, collection],
+  )
+
+  /**
+   * The live "Shared" tab, once a connected deployment exists.
+   *
+   * `collection.sharedBoards` above is preview-only scaffolding — it is never
+   * populated once `API_MODE` is on, so the real feed comes straight from the
+   * shares API, same as the Notebook's shared notes. Sorted by star count first
+   * so the boards classmates value most rise to the top of their module.
+   */
+  const sharedWhiteboards = useSharedDocuments('whiteboard')
+  const liveSharedGroups = useMemo(() => {
+    const sorted = [...sharedWhiteboards.items]
+      .sort((a, b) => (b.starCount ?? 0) - (a.starCount ?? 0) || new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
+    const groups = new Map<string, ShareSummary[]>()
+    for (const item of sorted) {
+      const key = item.topics?.[0] ?? t('Shared boards')
+      groups.set(key, [...(groups.get(key) ?? []), item])
+    }
+    return [...groups.entries()].map(([topic, boards]) => ({ topic, boards }))
+  }, [sharedWhiteboards.items, t])
+
+  async function toggleSharedBoardStar(item: ShareSummary) {
+    if (!API_MODE) return
+    try {
+      const updated = await apiSetShareStar(item.id, !item.starred)
+      sharedWhiteboards.setItems((current) => current.map((entry) => entry.id === item.id ? updated : entry))
+    } catch { /* the server keeps the truth */ }
+  }
+
+  async function toggleSharedBoardFollow(item: ShareSummary) {
+    if (!API_MODE) return
+    try {
+      const updated = await apiSetShareFollow(item.id, !item.following)
+      sharedWhiteboards.setItems((current) => current.map((entry) => entry.id === item.id ? updated : entry))
+    } catch { /* the server keeps the truth */ }
+  }
 
   const bounds = useMemo(() => {
-    const xs = [...board.notes.flatMap((note) => [note.x, note.x + NOTE_W]), ...board.frames.flatMap((frame) => [frame.x, frame.x + frame.width])]
-    const ys = [...board.notes.flatMap((note) => [note.y, note.y + NOTE_H]), ...board.frames.flatMap((frame) => [frame.y, frame.y + frame.height])]
+    const xs = [
+      ...board.notes.flatMap((note) => [note.x, note.x + NOTE_W]),
+      ...board.frames.flatMap((frame) => [frame.x, frame.x + frame.width]),
+      ...imagesOf(board).flatMap((image) => [image.x, image.x + image.width]),
+      ...filesOf(board).flatMap((file) => [file.x, file.x + FILE_W]),
+      ...readyItemsOf(board).flatMap((element) => [element.x, element.x + element.width]),
+    ]
+    const ys = [
+      ...board.notes.flatMap((note) => [note.y, note.y + NOTE_H]),
+      ...board.frames.flatMap((frame) => [frame.y, frame.y + frame.height]),
+      ...imagesOf(board).flatMap((image) => [image.y, image.y + image.height]),
+      ...filesOf(board).flatMap((file) => [file.y, file.y + FILE_H]),
+      ...readyItemsOf(board).flatMap((element) => [element.y, element.y + element.height]),
+    ]
     return { minX: Math.min(...xs, 0) - 80, minY: Math.min(...ys, 0) - 80, maxX: Math.max(...xs, 800) + 80, maxY: Math.max(...ys, 500) + 80 }
   }, [board])
 
@@ -438,10 +877,15 @@ export function Whiteboard() {
     }
     if (event.key === 'Delete' || event.key === 'Backspace') {
       if (selected) { event.preventDefault(); removeSelected() }
+      else if (selectedItem) { event.preventDefault(); removeSelectedItem() }
       else if (selectedFrame) { event.preventDefault(); removeFrame() }
       else if (selectedLink) { event.preventDefault(); removeSelectedLink() }
     }
-    if (event.key === 'Escape') { setSelected(null); setSelectedFrame(null); setSelectedLink(null); setPalette(null) }
+    // The tools have single-key shortcuts, as every drawing surface does.
+    if (event.key === 'v') setTool('select')
+    if (event.key === 'p' || event.key === 'd') setTool('pen')
+    if (event.key === 'e') setTool('eraser')
+    if (event.key === 'Escape') { clearSelection(); setTool('select') }
   }
 
   useEffect(() => {
@@ -463,15 +907,11 @@ export function Whiteboard() {
   }, [])
 
   const byId = (id: string) => board.notes.find((note) => note.id === id)
+  const documentsById = useMemo(() => new globalThis.Map(documents.items.map((document) => [document.id, document])), [documents.items])
   const miniWidth = 190; const miniHeight = 112
   const miniScale = Math.min(miniWidth / BOARD.width, miniHeight / BOARD.height)
   const canvasRect = canvasRef.current?.getBoundingClientRect()
-  const visible = {
-    x: (-view.x / view.scale) * miniScale,
-    y: (-view.y / view.scale) * miniScale,
-    width: ((canvasRect?.width ?? 0) / view.scale) * miniScale,
-    height: ((canvasRect?.height ?? 0) / view.scale) * miniScale,
-  }
+  const visible = minimapViewport(view, { width: canvasRect?.width ?? 0, height: canvasRect?.height ?? 0 }, { width: miniWidth, height: miniHeight })
 
   const pulled = (() => {
     const active = drag.current
@@ -480,6 +920,105 @@ export function Whiteboard() {
     if (!note) return null
     return linkPath(anchorOf(note, active.side), pulling).d
   })()
+
+  function panFromMinimap(clientX: number, clientY: number) {
+    const rect = minimapRef.current?.getBoundingClientRect()
+    const canvas = canvasRef.current?.getBoundingClientRect()
+    if (!rect || !canvas) return
+    setView((current) => viewFromMinimapPoint(
+      { x: clientX - rect.left, y: clientY - rect.top },
+      { width: canvas.width, height: canvas.height },
+      { width: miniWidth, height: miniHeight },
+      current,
+    ))
+  }
+
+  function minimapDown(event: React.PointerEvent<HTMLDivElement>) {
+    if (event.button !== 0) return
+    minimapDrag.current = event.pointerId
+    event.currentTarget.setPointerCapture(event.pointerId)
+    panFromMinimap(event.clientX, event.clientY)
+  }
+
+  function minimapMove(event: React.PointerEvent<HTMLDivElement>) {
+    if (minimapDrag.current !== event.pointerId) return
+    panFromMinimap(event.clientX, event.clientY)
+  }
+
+  function minimapUp(event: React.PointerEvent<HTMLDivElement>) {
+    if (minimapDrag.current !== event.pointerId) return
+    event.currentTarget.releasePointerCapture(event.pointerId)
+    minimapDrag.current = null
+  }
+
+  function minimapKeyDown(event: React.KeyboardEvent<HTMLDivElement>) {
+    const moves: Record<string, Point> = {
+      ArrowUp: { x: 0, y: -180 },
+      ArrowDown: { x: 0, y: 180 },
+      ArrowLeft: { x: -180, y: 0 },
+      ArrowRight: { x: 180, y: 0 },
+    }
+    const move = moves[event.key]
+    if (!move) return
+    event.preventDefault()
+    setView((current) => panViewByBoardDelta(current, move, viewportSize()))
+  }
+
+  const inkAbove = board.inkAbove ?? false
+
+  /** Ready-made items grouped for the palette, filtered by the search field. */
+  const readyItemGroups = useMemo(() => {
+    const categories: Array<{ key: ReadyItem['category']; label: string }> = [
+      { key: 'people', label: t('People') },
+      { key: 'anatomy', label: t('Anatomy') },
+      { key: 'tools', label: t('Tools') },
+      { key: 'symptoms', label: t('Symptoms') },
+      { key: 'trends', label: t('Trends') },
+      { key: 'general', label: t('General') },
+    ]
+    const grouped = readyItemsByCategory()
+    const query = readyItemQuery.trim()
+    const matches = query ? new Set(searchReadyItems(query).map((item) => item.id)) : null
+    return categories
+      .map((category) => ({ ...category, items: matches ? grouped[category.key].filter((item) => matches.has(item.id)) : grouped[category.key] }))
+      .filter((category) => category.items.length > 0)
+  }, [readyItemQuery, t])
+
+  /** The freehand ink layer, positioned above or below the notes depending on `inkAbove`. */
+  const inkLayer = (
+    <svg className="pointer-events-none absolute left-0 top-0" width={BOARD.width} height={BOARD.height}>
+      {inkOf(board).map((stroke) => (
+        <g key={stroke.id}>
+          <path
+            d={inkPath(stroke.points)}
+            fill="none"
+            stroke={stroke.color}
+            strokeWidth={stroke.width}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          {/* A thin line is not something a pointer can reliably hit, so the
+              eraser aims at this instead. It only takes the pointer while the
+              eraser is the active tool. */}
+          {tool === 'eraser' && (
+            <path
+              d={inkPath(stroke.points)}
+              fill="none"
+              stroke="transparent"
+              strokeWidth={Math.max(16, stroke.width + 12)}
+              strokeLinecap="round"
+              className="pointer-events-auto cursor-pointer"
+              onPointerDown={(event) => { event.stopPropagation(); eraseStroke(stroke.id) }}
+            />
+          )}
+        </g>
+      ))}
+      {/* The line under the pen right now. */}
+      {drawing && drawing.length >= 2 && (
+        <path d={inkPath(drawing)} fill="none" stroke={inkColour} strokeWidth={inkWidth} strokeLinecap="round" strokeLinejoin="round" />
+      )}
+    </svg>
+  )
 
   return <div ref={canvasRef} onPointerDown={backgroundDown} onDoubleClick={backgroundDoubleClick} onWheel={onWheel} className="relative h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] touch-none overflow-hidden bg-paper" style={{ backgroundImage: 'radial-gradient(var(--color-grid-major) 1.2px, transparent 1.2px)', backgroundSize: `${24 * view.scale}px ${24 * view.scale}px`, backgroundPosition: `${view.x}px ${view.y}px` }}>
     <div className="absolute left-0 top-0 origin-top-left" style={{ transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }}>
@@ -594,6 +1133,112 @@ export function Whiteboard() {
         {pulled && <path d={pulled} fill="none" stroke="var(--color-primary)" strokeWidth={2} strokeDasharray="5 4" />}
       </svg>
 
+      {/* The freehand drawing, under the notes/pictures/files/ready items by
+          default — a diagram is annotated around what is on the board, not
+          over the top of it — unless the student turned on "drawing above
+          notes", in which case the same layer paints after everything else
+          below instead. */}
+      {!inkAbove && inkLayer}
+
+      {/* Pictures, under the notes: a sticky note annotating a diagram has to
+          sit on top of it. */}
+      {imagesOf(board).map((image) => {
+        const isSelected = selectedItem?.kind === 'image' && selectedItem.id === image.id
+        return (
+          <div
+            key={image.id}
+            onPointerDown={(event) => imageDown(event, image)}
+            onDoubleClick={(event) => event.stopPropagation()}
+            className={cn(
+              'group absolute overflow-hidden rounded-lg border bg-surface shadow-panel',
+              tool === 'select' ? 'cursor-grab active:cursor-grabbing' : 'pointer-events-none',
+              isSelected ? 'border-primary ring-2 ring-primary ring-offset-1 ring-offset-paper' : 'border-line',
+            )}
+            style={{ left: image.x, top: image.y, width: image.width, height: image.height }}
+          >
+            <BoardImageView image={image} documentRef={image.documentId ? documentsById.get(image.documentId)?.ref : undefined} />
+            {tool === 'select' && (
+              <span
+                onPointerDown={(event) => imageResizeDown(event, image)}
+                role="presentation"
+                aria-label={t('Resize picture')}
+                className="absolute -bottom-1.5 -right-1.5 size-4 cursor-nwse-resize rounded-sm border border-line-2 bg-surface opacity-0 shadow-panel transition-opacity group-hover:opacity-100 rtl:-left-1.5 rtl:right-auto rtl:cursor-nesw-resize"
+              />
+            )}
+          </div>
+        )
+      })}
+
+      {/* Files, as cards that open what they point at. */}
+      {filesOf(board).map((file) => {
+        const isSelected = selectedItem?.kind === 'file' && selectedItem.id === file.id
+        return (
+          <div
+            key={file.id}
+            onPointerDown={(event) => fileDown(event, file)}
+            onDoubleClick={(event) => { event.stopPropagation(); openFile(file) }}
+            className={cn(
+              'absolute flex items-center gap-2.5 rounded-lg border bg-surface p-3 shadow-panel',
+              tool === 'select' ? 'cursor-grab active:cursor-grabbing' : 'pointer-events-none',
+              isSelected ? 'border-primary ring-2 ring-primary ring-offset-1 ring-offset-paper' : 'border-line',
+            )}
+            style={{ left: file.x, top: file.y, width: FILE_W, height: FILE_H }}
+          >
+            <span className="grid size-9 shrink-0 place-items-center rounded-md bg-inset text-primary-strong">
+              <Icon icon={file.kind === 'pdf' ? FileText : Download} size={17} />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block truncate text-[12.5px] font-medium text-ink">{file.name}</span>
+              <span className="tnum mt-0.5 block font-mono text-[10.5px] text-ink-3">
+                {(file.sizeBytes / (1024 * 1024)).toFixed(file.sizeBytes < 10 * 1024 * 1024 ? 1 : 0)} MB
+              </span>
+              <button
+                type="button"
+                onPointerDown={(event) => event.stopPropagation()}
+                onClick={(event) => { event.stopPropagation(); openFile(file) }}
+                className="mt-0.5 text-[11px] font-semibold text-primary-strong hover:text-primary"
+              >
+                {file.kind === 'pdf' ? t('Open in the reader') : t('Download')}
+              </button>
+            </span>
+          </div>
+        )
+      })}
+
+      {/* Ready-made items dropped from the palette: sit above pictures and
+          files like the sticker they are, but under the notes. Order within
+          `readyItems` is the stacking order among ready items themselves,
+          controlled by the selected item's forward/backward controls. */}
+      {readyItemsOf(board).map((element) => {
+        const item = READY_ITEM_BY_ID.get(element.readyItemId)
+        if (!item) return null
+        const isSelected = selectedItem?.kind === 'readyItem' && selectedItem.id === element.id
+        return (
+          <div
+            key={element.id}
+            onPointerDown={(event) => readyItemDown(event, element)}
+            onDoubleClick={(event) => event.stopPropagation()}
+            title={t(item.label)}
+            className={cn(
+              'group absolute grid place-items-center rounded-lg border bg-surface/70 p-1.5 shadow-panel',
+              tool === 'select' ? 'cursor-grab active:cursor-grabbing' : 'pointer-events-none',
+              isSelected ? 'border-primary ring-2 ring-primary ring-offset-1 ring-offset-paper' : 'border-transparent',
+            )}
+            style={{ left: element.x, top: element.y, width: element.width, height: element.height }}
+          >
+            <item.Svg className="size-full text-ink-2" />
+            {tool === 'select' && (
+              <span
+                onPointerDown={(event) => readyItemResizeDown(event, element)}
+                role="presentation"
+                aria-label={t('Resize item')}
+                className="absolute -bottom-1.5 -right-1.5 size-4 cursor-nwse-resize rounded-sm border border-line-2 bg-surface opacity-0 shadow-panel transition-opacity group-hover:opacity-100 rtl:-left-1.5 rtl:right-auto rtl:cursor-nesw-resize"
+              />
+            )}
+          </div>
+        )
+      })}
+
       {board.notes.map((note) => (
         <div
           key={note.id}
@@ -668,57 +1313,351 @@ export function Whiteboard() {
           ))}
         </div>
       ))}
+
+      {/* The drawing again, this time painted last — on top of everything —
+          when the student has chosen to draw over the notes instead of under
+          them. Only one of the two copies is ever mounted. */}
+      {inkAbove && inkLayer}
     </div>
 
-    <div className="absolute left-2 right-2 top-2 flex items-center gap-1 overflow-x-auto overscroll-x-contain rounded-xl border border-line bg-surface p-1 shadow-raised [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:left-4 sm:right-auto sm:top-4" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
-      <IconButton icon={StickyNote} label={t('Add note')} onClick={addNote} />
-      <IconButton icon={PanelsTopLeft} label={t('Add section')} onClick={addFrame} />
-      <IconButton icon={Search} label={t('Search the board')} active={searchOpen} onClick={() => setSearchOpen((open) => !open)} />
-      <span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Undo2} label={t('Undo')} onClick={undo} /><IconButton icon={Redo2} label={t('Redo')} onClick={redo} /><span className="mx-1 h-5 w-px bg-line" />
-      <IconButton icon={ZoomOut} label={t('Zoom out')} onClick={() => zoomBy(0.8)} /><span className="tnum w-11 text-center font-mono text-[12px] text-ink-2">{Math.round(view.scale * 100)}%</span><IconButton icon={ZoomIn} label={t('Zoom in')} onClick={() => zoomBy(1.25)} /><IconButton icon={Maximize} label={t('Fit board to screen')} onClick={fitContent} />
-      {selected && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete note')} onClick={removeSelected} /></>}
-      {selectedFrame && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete section')} onClick={removeFrame} /></>}
-      {selectedLink && (
-        <>
-          <span className="mx-1 h-5 w-px bg-line" />
-          <button type="button" onClick={straightenSelectedLink} className="whitespace-nowrap rounded-md px-2 py-1.5 text-[12px] font-medium text-ink-2 hover:bg-inset hover:text-ink">{t('Straighten')}</button>
-          <IconButton icon={Trash2} label={t('Delete connection')} onClick={removeSelectedLink} />
-        </>
+    {/* Everything that used to be two independently-positioned floating bars
+        — the board list and the tool controls — now lives in one flowing
+        stack, so a taller board list simply pushes the toolbar down instead
+        of running under it. Each region keeps its own card so the two stay
+        visually distinct. */}
+    <div className="absolute left-2 right-2 top-2 z-10 flex flex-col items-stretch gap-2 sm:left-4 sm:right-auto sm:w-[28rem]" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
+      <div className="rounded-xl border border-line bg-surface shadow-raised">
+        <div className="flex items-center gap-1 p-2">
+          {(['your', 'shared'] as const).map((mode) => (
+            <button
+              key={mode}
+              type="button"
+              onClick={() => { setViewMode(mode); setBoardsPanelOpen(true) }}
+              className={cn(
+                'rounded-lg px-3 py-1.5 text-[12px] font-semibold transition-colors',
+                viewMode === mode ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
+              )}
+            >
+              {mode === 'your' ? t('Your boards') : t('Shared')}
+            </button>
+          ))}
+          <IconButton icon={Plus} label={t('New board')} size="sm" variant="surface" className="ms-auto" onClick={createBoard} />
+          <IconButton
+            icon={boardsPanelOpen ? ChevronUp : ChevronDown}
+            label={boardsPanelOpen ? t('Collapse the board list') : t('Expand the board list')}
+            size="sm"
+            active={boardsPanelOpen}
+            aria-expanded={boardsPanelOpen}
+            onClick={() => setBoardsPanelOpen((open) => !open)}
+          />
+        </div>
+
+        <Collapse open={boardsPanelOpen}>
+          <div className="border-t border-line p-2 pt-2">
+            {viewMode === 'your' ? (
+              <>
+                <div className="flex gap-1 overflow-x-auto overscroll-x-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                  {collection.boards.map((entry) => (
+                    <div key={entry.id} className={cn('flex shrink-0 items-center gap-1 rounded-lg border px-2 py-1', entry.id === activeBoardId ? 'border-primary bg-primary-tint' : 'border-line bg-surface-2')}>
+                      {renamingBoard === entry.id ? (
+                        <input
+                          autoFocus
+                          defaultValue={entry.title}
+                          onBlur={(event) => renameActiveBoard(event.target.value)}
+                          onKeyDown={(event) => {
+                            if (event.key === 'Enter') (event.target as HTMLInputElement).blur()
+                            if (event.key === 'Escape') setRenamingBoard(null)
+                          }}
+                          className="w-36 bg-transparent text-[12.5px] font-semibold text-ink outline-none"
+                        />
+                      ) : (
+                        <button type="button" onClick={() => switchBoard(entry.id)} onDoubleClick={() => setRenamingBoard(entry.id)} className="max-w-40 truncate text-[12.5px] font-semibold text-ink">
+                          {entry.title}
+                        </button>
+                      )}
+                      <span className="tnum font-mono text-[10.5px] text-ink-3">r{entry.revision}</span>
+                    </div>
+                  ))}
+                  {collection.boards.length > 1 && (
+                    <IconButton icon={Trash2} label={t('Delete current board')} size="sm" onClick={deleteActiveBoard} />
+                  )}
+                </div>
+                <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                  <span className="inline-flex items-center gap-1"><Icon icon={Lock} size={11} />{t('Owner')}</span>
+                  <span>{activeBoard.ownerName}</span>
+                  <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{activeBoard.collaborators.length} {t('collaborators')}</span>
+                </div>
+              </>
+            ) : API_MODE ? (
+              <div className="max-h-52 overflow-auto pr-1">
+                {sharedWhiteboards.loading ? (
+                  <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">{t('Opening shared boards…')}</p>
+                ) : sharedWhiteboards.error ? (
+                  <p role="alert" className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-danger">{t(sharedWhiteboards.error)}</p>
+                ) : liveSharedGroups.length === 0 ? (
+                  <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
+                    {t('No same-university/year whiteboards have been shared with you yet.')}
+                  </p>
+                ) : (
+                  <div className="space-y-3">
+                    {liveSharedGroups.map((group) => (
+                      <section key={group.topic}>
+                        <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
+                        <div className="space-y-1">
+                          {group.boards.map((item) => (
+                            <div key={item.id} className="rounded-lg border border-line bg-surface-2 p-2">
+                              <div className="flex items-start gap-2">
+                                <button type="button" className="min-w-0 flex-1 text-start" onClick={() => navigate(`/s/${item.id}`)}>
+                                  <span className="block truncate text-[12.5px] font-semibold text-ink">{item.title}</span>
+                                  <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                                    <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{item.starCount ?? 0}</span>
+                                    {item.collaborators?.length ? <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{item.collaborators.length}</span> : null}
+                                    <span className="inline-flex items-center gap-1"><Icon icon={(item.permission ?? item.access) === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[item.permission ?? item.access] ?? (item.permission ?? item.access))}</span>
+                                    <span>{item.ownerName ?? t('A classmate')}</span>
+                                  </span>
+                                </button>
+                                <IconButton icon={Star} label={t('Star board')} size="sm" active={Boolean(item.starred)} onClick={() => void toggleSharedBoardStar(item)} />
+                                <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={Boolean(item.following)} onClick={() => void toggleSharedBoardFollow(item)} />
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="max-h-52 overflow-auto pr-1">
+                {sharedGroups.length === 0 ? (
+                  <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
+                    {t('No same-university/year whiteboards have been shared with you yet.')}
+                  </p>
+                ) : (
+                  <div className="space-y-3">
+                    {sharedGroups.map((group) => (
+                      <section key={group.topic}>
+                        <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
+                        <div className="space-y-1">
+                          {group.boards.map((entry) => (
+                            <div key={entry.id} className="rounded-lg border border-line bg-surface-2 p-2">
+                              <div className="flex items-start gap-2">
+                                <button type="button" className="min-w-0 flex-1 text-start" onClick={() => setCollection((current) => ({ ...current, activeBoardId: current.activeBoardId }))}>
+                                  <span className="block truncate text-[12.5px] font-semibold text-ink">{entry.title}</span>
+                                  <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                                    <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{entry.stars.length}</span>
+                                    <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{entry.collaborators.length}</span>
+                                    <span className="inline-flex items-center gap-1"><Icon icon={entry.permission === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[entry.permission] ?? entry.permission)}</span>
+                                    <span>{entry.ownerName}</span>
+                                  </span>
+                                </button>
+                                <IconButton icon={Star} label={t('Star board')} size="sm" active={entry.stars.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardStar(board, studentId))} />
+                                <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={entry.follows.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardFollow(board, studentId))} />
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </Collapse>
+      </div>
+
+      <div className="flex items-center gap-1 overflow-x-auto overscroll-x-contain rounded-xl border border-line bg-surface p-1 shadow-raised [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <IconButton icon={MousePointer2} label={t('Move and select')} active={tool === 'select'} onClick={() => setTool('select')} />
+        <IconButton icon={Pencil} label={t('Draw freehand')} active={tool === 'pen'} onClick={() => setTool('pen')} />
+        <IconButton icon={Eraser} label={t('Erase a line')} active={tool === 'eraser'} onClick={() => setTool('eraser')} />
+        {tool === 'pen' && (
+          <>
+            {INK_COLOURS.map((colour) => (
+              <button
+                key={colour.id}
+                type="button"
+                onClick={() => setInkColour(colour.value)}
+                aria-label={t(colour.id)}
+                aria-pressed={inkColour === colour.value}
+                className={cn('size-6 shrink-0 rounded-full border transition-transform hover:scale-110', inkColour === colour.value ? 'border-primary ring-2 ring-primary/40' : 'border-line')}
+                style={{ backgroundColor: colour.value }}
+              />
+            ))}
+            {INK_WIDTHS.map((width) => (
+              <button
+                key={width}
+                type="button"
+                onClick={() => setInkWidth(width)}
+                aria-label={`${t('Line width')} ${width}`}
+                aria-pressed={inkWidth === width}
+                className={cn('grid size-7 shrink-0 place-items-center rounded-md transition-colors', inkWidth === width ? 'bg-primary-tint' : 'hover:bg-inset')}
+              >
+                <span className="rounded-full bg-ink" style={{ width: width + 4, height: width }} />
+              </button>
+            ))}
+          </>
+        )}
+        <IconButton
+          icon={Layers}
+          label={inkAbove ? t('Drawing is above the notes — click to send it under') : t('Drawing is under the notes — click to bring it above')}
+          active={inkAbove}
+          onClick={() => setInkAbove(!inkAbove)}
+        />
+        <span className="mx-1 h-5 w-px bg-line" />
+        <IconButton icon={StickyNote} label={t('Add note')} onClick={addNote} />
+        <IconButton icon={PanelsTopLeft} label={t('Add section')} onClick={addFrame} />
+        <IconButton icon={ImagePlus} label={attaching === 'image' ? t('Adding the picture…') : t('Add a picture')} disabled={attaching !== null} onClick={() => pictureInput.current?.click()} />
+        <IconButton icon={Paperclip} label={attaching === 'file' ? t('Adding the file…') : t('Attach a file')} disabled={attaching !== null} onClick={() => fileInput.current?.click()} />
+        <span ref={readyItemsTrigger.setAnchor} className="shrink-0">
+          <IconButton icon={Sticker} label={t('Add a ready-made item')} active={readyItemsTrigger.open} onClick={readyItemsTrigger.toggle} />
+        </span>
+        <IconButton icon={Search} label={t('Search the board')} active={searchOpen} onClick={() => setSearchOpen((open) => !open)} />
+        <IconButton icon={Link2} label={t('Share this board')} onClick={() => setSharing(true)} />
+        <span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Undo2} label={t('Undo')} onClick={undo} /><IconButton icon={Redo2} label={t('Redo')} onClick={redo} /><span className="mx-1 h-5 w-px bg-line" />
+        <IconButton icon={ZoomOut} label={t('Zoom out')} onClick={() => zoomBy(0.8)} /><span className="tnum w-11 text-center font-mono text-[12px] text-ink-2">{Math.round(view.scale * 100)}%</span><IconButton icon={ZoomIn} label={t('Zoom in')} onClick={() => zoomBy(1.25)} /><IconButton icon={Maximize} label={t('Fit board to screen')} onClick={fitContent} />
+        {selected && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete note')} onClick={removeSelected} /></>}
+        {selectedItem && (
+          <>
+            <span className="mx-1 h-5 w-px bg-line" />
+            {selectedItem.kind === 'readyItem' && (
+              <>
+                <IconButton icon={SendToBack} label={t('Send backward')} onClick={() => reorderSelectedReadyItem(-1)} />
+                <IconButton icon={BringToFront} label={t('Bring forward')} onClick={() => reorderSelectedReadyItem(1)} />
+              </>
+            )}
+            <IconButton
+              icon={Trash2}
+              label={selectedItem.kind === 'image' ? t('Delete picture') : selectedItem.kind === 'file' ? t('Remove this file from the board') : t('Delete item')}
+              onClick={removeSelectedItem}
+            />
+          </>
+        )}
+        {selectedFrame && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete section')} onClick={removeFrame} /></>}
+        {selectedLink && (
+          <>
+            <span className="mx-1 h-5 w-px bg-line" />
+            <button type="button" onClick={straightenSelectedLink} className="whitespace-nowrap rounded-md px-2 py-1.5 text-[12px] font-medium text-ink-2 hover:bg-inset hover:text-ink">{t('Straighten')}</button>
+            <IconButton icon={Trash2} label={t('Delete connection')} onClick={removeSelectedLink} />
+          </>
+        )}
+      </div>
+
+      {searchOpen && (
+        <div className="flex items-center gap-1.5 rounded-xl border border-line bg-surface p-1.5 shadow-raised">
+          <Icon icon={Search} size={14} className="ms-1 shrink-0 text-ink-3" />
+          <input
+            ref={searchRef}
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter') { event.preventDefault(); goToHit(event.shiftKey ? hitIndex - 1 : hitIndex + 1) }
+              if (event.key === 'Escape') { setSearchOpen(false); setQuery('') }
+            }}
+            placeholder={t('Find a note…')}
+            className="min-w-0 flex-1 bg-transparent text-[13px] text-ink outline-none placeholder:text-ink-3"
+          />
+          <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">
+            {query ? `${hits.length ? hitIndex + 1 : 0}/${hits.length}` : ''}
+          </span>
+          <IconButton icon={ChevronUp} label={t('Previous match')} size="sm" onClick={() => goToHit(hitIndex - 1)} />
+          <IconButton icon={ChevronDown} label={t('Next match')} size="sm" onClick={() => goToHit(hitIndex + 1)} />
+          <IconButton icon={X} label={t('Close')} size="sm" onClick={() => { setSearchOpen(false); setQuery('') }} />
+        </div>
+      )}
+
+      {attachError && (
+        <p role="alert" className="rounded-lg border border-danger/30 bg-danger-tint px-3 py-2 text-[12.5px] text-danger">
+          {attachError}
+          <button type="button" onClick={() => setAttachError('')} className="ms-2 font-semibold underline">{t('Dismiss')}</button>
+        </p>
       )}
     </div>
 
-    {searchOpen && (
-      <div
-        className="absolute inset-x-2 top-[3.75rem] flex items-center gap-1.5 rounded-xl border border-line bg-surface p-1.5 shadow-raised sm:inset-x-auto sm:start-4 sm:top-[4.25rem] sm:w-80"
-        onPointerDown={(event) => event.stopPropagation()}
-        onDoubleClick={(event) => event.stopPropagation()}
-      >
-        <Icon icon={Search} size={14} className="ms-1 shrink-0 text-ink-3" />
-        <input
-          ref={searchRef}
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          onKeyDown={(event) => {
-            if (event.key === 'Enter') { event.preventDefault(); goToHit(event.shiftKey ? hitIndex - 1 : hitIndex + 1) }
-            if (event.key === 'Escape') { setSearchOpen(false); setQuery('') }
-          }}
-          placeholder={t('Find a note…')}
-          className="min-w-0 flex-1 bg-transparent text-[13px] text-ink outline-none placeholder:text-ink-3"
-        />
-        <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">
-          {query ? `${hits.length ? hitIndex + 1 : 0}/${hits.length}` : ''}
-        </span>
-        <IconButton icon={ChevronUp} label={t('Previous match')} size="sm" onClick={() => goToHit(hitIndex - 1)} />
-        <IconButton icon={ChevronDown} label={t('Next match')} size="sm" onClick={() => goToHit(hitIndex + 1)} />
-        <IconButton icon={X} label={t('Close')} size="sm" onClick={() => { setSearchOpen(false); setQuery('') }} />
-      </div>
+    {readyItemsTrigger.open && (
+      <Popover anchor={readyItemsTrigger.anchor} onClose={readyItemsTrigger.close} label={t('Ready-made items')} className="w-72">
+        <div className="border-b border-line p-2.5">
+          <SearchInput
+            aria-label={t('Search ready-made items')}
+            value={readyItemQuery}
+            onChange={(event) => setReadyItemQuery(event.target.value)}
+            placeholder={t('Search items…')}
+            className="w-full"
+          />
+        </div>
+        <div className="max-h-80 overflow-y-auto p-1.5">
+          {readyItemGroups.length === 0 ? (
+            <p className="px-3 py-6 text-center text-[12.5px] text-ink-3">{t('No matching items.')}</p>
+          ) : (
+            readyItemGroups.map((group) => (
+              <div key={group.key} className="pb-2">
+                <p className="px-1.5 py-1 text-[10px] font-semibold uppercase tracking-[0.07em] text-ink-3">{group.label}</p>
+                <div className="grid grid-cols-4 gap-1">
+                  {group.items.map((item) => (
+                    <button
+                      key={item.id}
+                      type="button"
+                      title={t(item.label)}
+                      onClick={() => addReadyItem(item)}
+                      className="flex flex-col items-center gap-1 rounded-lg p-1.5 text-ink-2 hover:bg-inset hover:text-ink"
+                    >
+                      <item.Svg className="size-6" />
+                      <span className="w-full truncate text-center text-[10px] leading-tight">{t(item.label)}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      </Popover>
     )}
 
+    {/* A copy of the board, published under its own link. Read when the dialog
+        publishes, so what goes out is the board as it stands. */}
+    <ShareDialog
+      open={sharing}
+      onClose={() => setSharing(false)}
+      handle="board"
+      kind="whiteboard"
+      title={activeBoard.title || t('Whiteboard')}
+      payload={() => boardRef.current}
+    />
+
+    {/* Off-screen, driven by the toolbar buttons above. */}
+    <input
+      ref={pictureInput}
+      type="file"
+      accept="image/*"
+      aria-label={t('Add a picture')}
+      className="sr-only"
+      onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; if (file) void addPicture(file) }}
+    />
+    <input
+      ref={fileInput}
+      type="file"
+      aria-label={t('Attach a file')}
+      className="sr-only"
+      onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; if (file) void addFile(file) }}
+    />
+
     <div className="absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom))] right-3 overflow-hidden rounded-xl border border-line bg-surface/95 p-2 shadow-raised sm:bottom-4 sm:right-4" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()} aria-label={t('Board minimap')}>
-      <div className="mb-1 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={Map} size={12} />{t('World view')}</div>
+      <div className="mb-1 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={MapIcon} size={12} />{t('World view')}</div>
       {/* The minimap shows the whole board, not just what is on it — which is
           what makes it a map of somewhere rather than a map of your notes. */}
-      <div className="relative overflow-hidden rounded-md bg-inset" style={{ width: BOARD.width * miniScale, height: BOARD.height * miniScale }}>
+      <div
+        ref={minimapRef}
+        role="group"
+        tabIndex={0}
+        aria-label={t('Move around the board minimap')}
+        onPointerDown={minimapDown}
+        onPointerMove={minimapMove}
+        onPointerUp={minimapUp}
+        onPointerCancel={minimapUp}
+        onKeyDown={minimapKeyDown}
+        className="relative touch-none overflow-hidden rounded-md bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+        style={{ width: BOARD.width * miniScale, height: BOARD.height * miniScale }}
+      >
         {board.frames.map((frame) => <span key={frame.id} className="absolute rounded border border-line-2" style={{ left: frame.x * miniScale, top: frame.y * miniScale, width: frame.width * miniScale, height: frame.height * miniScale }} />)}
         {board.notes.map((note) => <span key={note.id} className="absolute rounded-sm bg-primary" style={{ left: note.x * miniScale, top: note.y * miniScale, width: Math.max(3, NOTE_W * miniScale), height: Math.max(2, NOTE_H * miniScale) }} />)}
         <span className="absolute border border-danger bg-danger/5" style={{ left: visible.x, top: visible.y, width: visible.width, height: visible.height }} />
@@ -735,4 +1674,71 @@ function controlsFor(board: BoardState, line: LinkLine): [Point, Point] {
   if (!a || !b) return [{ x: 0, y: 0 }, { x: 0, y: 0 }]
   const sides = sidesBetween(a, b)
   return defaultControls(anchorOf(a, sides.from), anchorOf(b, sides.to))
+}
+
+function BoardImageView({ image, documentRef }: { image: BoardImage; documentRef?: string }) {
+  const t = useT()
+  const [url, setUrl] = useState('')
+  const [error, setError] = useState('')
+
+  useEffect(() => {
+    let active = true
+    let revoke = false
+    let resolvedUrl = ''
+    setError('')
+
+    async function load() {
+      try {
+        if (image.src) {
+          const resolved = await resolveMediaSource(image.src)
+          if (!active) {
+            if (resolved.revoke) URL.revokeObjectURL(resolved.url)
+            return
+          }
+          resolvedUrl = resolved.url
+          revoke = resolved.revoke
+          setUrl(resolved.url)
+          return
+        }
+        if (documentRef) {
+          const resolved = await resolveMediaSource(documentRef)
+          if (!active) {
+            if (resolved.revoke) URL.revokeObjectURL(resolved.url)
+            return
+          }
+          resolvedUrl = resolved.url
+          revoke = resolved.revoke
+          setUrl(resolved.url)
+          return
+        }
+        if (API_MODE && image.documentId) {
+          const bytes = await apiFetchFile(`/my-documents/${encodeURIComponent(image.documentId)}/file`)
+          if (!active) return
+          const blob = new Blob([bytes])
+          resolvedUrl = URL.createObjectURL(blob)
+          revoke = true
+          setUrl(resolvedUrl)
+          return
+        }
+        setError(t('This picture is stored as managed media but is not available in this browser yet.'))
+      } catch (cause) {
+        if (!active) return
+        setError(cause instanceof Error ? cause.message : t('This picture could not be loaded.'))
+      }
+    }
+
+    void load()
+    return () => {
+      active = false
+      if (revoke && resolvedUrl) URL.revokeObjectURL(resolvedUrl)
+    }
+  }, [documentRef, image.documentId, image.src, t])
+
+  if (error) {
+    return <p role="alert" className="grid size-full place-items-center p-3 text-center text-[12px] text-danger">{error}</p>
+  }
+  if (!url) {
+    return <p className="grid size-full place-items-center p-3 text-center text-[12px] text-ink-3">{t('Loading picture…')}</p>
+  }
+  return <img src={url} alt={image.alt} draggable={false} className="size-full select-none object-contain" />
 }

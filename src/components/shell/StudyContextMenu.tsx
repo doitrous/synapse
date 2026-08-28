@@ -1,20 +1,36 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { BookOpen, Copy, ExternalLink, FolderOpen, ListChecks, NotebookPen, Search } from 'lucide-react'
+import {
+  ArrowLeft, BookOpen, Copy, ExternalLink, FolderOpen, NotebookPen,
+  RotateCw, Search, Sparkles,
+} from 'lucide-react'
 import { ContextMenu, type ContextMenuItem } from '@/components/ui/ContextMenu'
+import { scopeItemsFor } from '@/lib/contextMenuScopes'
+import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { useT } from '@/lib/i18n'
 
 /**
- * Right-click, anywhere in the student app.
+ * Right-click, anywhere in the app.
  *
- * Mounted once in the shell rather than per surface, because the useful actions
- * follow from *what was clicked*, not from which page is open: a selected
- * phrase can always be looked up or kept, and a row that names a target can
- * always be opened in a new tab.
+ * Mounted once in the shell rather than per surface, because most of the useful
+ * actions follow from *what was clicked*, not from which page is open: a
+ * selected phrase can always be looked up or kept, and a row that names a
+ * target can always be opened in a new tab.
  *
- * Real form controls and links are deliberately left to the browser. Replacing
- * the menu on a text input would take away spellcheck, undo and paste-and-match
- * for no gain, and "Open link in new tab" already exists on an anchor.
+ * Three sources of items, in order:
+ *
+ *  1. The surface, through `data-context-scope` — the notebook's formatting,
+ *     the whiteboard's board actions. These win, including inside a text field,
+ *     because a surface that has registered a menu for its own field means it.
+ *  2. What is selected, and what the clicked row identifies.
+ *  3. The page itself — back, reload, copy this page's link, open search. This
+ *     is the part that was missing: a right-click on anything the first two did
+ *     not recognise fell through to the browser's menu, which on a single-page
+ *     app offers nothing that applies.
+ *
+ * Real form controls and links with nothing registered over them are still left
+ * to the browser. Replacing the menu on a plain input would take away
+ * spellcheck, undo and paste-and-match for no gain.
  */
 
 const NATIVE_MENU_SELECTOR = 'input, textarea, select, a[href], [contenteditable=""], [contenteditable="true"]'
@@ -29,19 +45,21 @@ interface Target {
   /** Set by `data-context-*` attributes on any ancestor of the click. */
   label?: string
   href?: string
+  /** Contributed by the surface that owns this region, if any. */
+  scoped: ContextMenuItem[]
 }
 
 function readTarget(event: MouseEvent): Target | null {
   const node = event.target as HTMLElement | null
   if (!node) return null
-  if (node.closest(NATIVE_MENU_SELECTOR)) return null
 
   const selection = (window.getSelection()?.toString() ?? '').trim()
-  const holder = node.closest<HTMLElement>('[data-context-href], [data-context-label]')
+  const scoped = scopeItemsFor(node, selection)
 
-  // Nothing selected and nothing identifiable: the browser's menu is more
-  // useful than an empty one of ours.
-  if (!selection && !holder) return null
+  // A field with nothing registered over it keeps the browser's menu.
+  if (!scoped.length && node.closest(NATIVE_MENU_SELECTOR)) return null
+
+  const holder = node.closest<HTMLElement>('[data-context-href], [data-context-label]')
 
   return {
     x: event.clientX,
@@ -49,13 +67,15 @@ function readTarget(event: MouseEvent): Target | null {
     selection,
     label: holder?.dataset.contextLabel,
     href: holder?.dataset.contextHref,
+    scoped,
   }
 }
 
-export function StudyContextMenu() {
+export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void }) {
   const t = useT()
   const navigate = useNavigate()
   const [target, setTarget] = useState<Target | null>(null)
+  const [quickAddFront, setQuickAddFront] = useState<string | null>(null)
 
   useEffect(() => {
     function onContextMenu(event: MouseEvent) {
@@ -119,16 +139,24 @@ export function StudyContextMenu() {
 
   const close = useCallback(() => setTarget(null), [])
 
-  if (!target) return null
+  const quickAddDialog = quickAddFront !== null
+    ? <QuickAddFlashcardDialog initialFront={quickAddFront} onClose={() => setQuickAddFront(null)} />
+    : null
 
-  const { selection, label, href } = target
-  const items: ContextMenuItem[] = []
+  // The menu closes the instant an item is chosen, so the dialog it opens must
+  // render independently of `target` (which is null by then).
+  if (!target) return quickAddDialog
+
+  const { selection, label, href, scoped } = target
+  const items: ContextMenuItem[] = [...scoped]
+  const contributed = items.length
 
   if (selection) {
     items.push({
       id: 'copy',
       label: t('Copy'),
       icon: Copy,
+      separated: items.length > 0,
       onSelect: () => { void navigator.clipboard?.writeText(selection).catch(() => undefined) },
     })
     items.push({
@@ -143,17 +171,19 @@ export function StudyContextMenu() {
       },
     })
     items.push({
+      id: 'flashcard',
+      label: t('Create a flashcard'),
+      icon: Sparkles,
+      // Opens a quick-capture dialog with the selection as the card front; it
+      // writes straight to the flashcards collection, so this works on any screen.
+      onSelect: () => setQuickAddFront(selection),
+    })
+    items.push({
       id: 'library',
       label: t('Search the library'),
       icon: BookOpen,
       separated: true,
       onSelect: () => navigate(`/app/library?q=${encodeURIComponent(selection)}`),
-    })
-    items.push({
-      id: 'qbank',
-      label: t('Find questions on this'),
-      icon: ListChecks,
-      onSelect: () => navigate(`/app/qbank?q=${encodeURIComponent(selection)}`),
     })
     items.push({
       id: 'resources',
@@ -179,11 +209,38 @@ export function StudyContextMenu() {
     })
   }
 
-  if (!items.length) return null
+  // Always last, and always there. A menu that can appear with nothing in it is
+  // the same as no menu, and the student has no way to know which it will be
+  // before they press. These four apply on every screen.
+  const surfaceOffered = items.length > contributed || contributed > 0
+  items.push({
+    id: 'search',
+    label: t('Search everything'),
+    icon: Search,
+    separated: surfaceOffered,
+    onSelect: onOpenSearch,
+  })
+  items.push({
+    id: 'back',
+    label: t('Back'),
+    icon: ArrowLeft,
+    onSelect: () => navigate(-1),
+  })
+  items.push({
+    id: 'reload',
+    label: t('Reload this page'),
+    icon: RotateCw,
+    onSelect: () => window.location.reload(),
+  })
 
   const header = selection
     ? (selection.length > HEADER_LIMIT ? `${selection.slice(0, HEADER_LIMIT)}…` : selection)
     : label
 
-  return <ContextMenu x={target.x} y={target.y} items={items} onClose={close} header={header} />
+  return (
+    <>
+      <ContextMenu x={target.x} y={target.y} items={items} onClose={close} header={header} />
+      {quickAddDialog}
+    </>
+  )
 }

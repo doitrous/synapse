@@ -1,5 +1,5 @@
 /**
- * What Connect Cortex sells, defined once.
+ * What Maristana sells, defined once.
  *
  * Plans used to be written twice: a `PlanDef[]` the admin console edited and
  * Billing read, and a separate hardcoded `Plan[]` in the landing content that
@@ -86,11 +86,21 @@ export interface CatalogPlan {
 }
 
 export interface PlanCatalog {
+  /** Incremented whenever a persisted catalogue needs a data migration. */
+  schemaVersion: number
   periods: BillingPeriodDef[]
   plans: CatalogPlan[]
 }
 
+/**
+ * Version 1 was the unversioned Maristana tier catalogue. Version 2 is
+ * the Maristana launch catalogue: one complete membership, with the legacy
+ * plan records retained only so existing subscriptions continue to resolve.
+ */
+export const PLAN_CATALOG_SCHEMA_VERSION = 2
 export const PLAN_CATALOG_STORAGE_KEY = 'synapse-plan-catalog-v1'
+export const MARISTANA_PLAN_ID = 'maristana'
+export const DEFAULT_PURCHASE_PERIOD_ID = 'term'
 
 export function periodById(catalog: PlanCatalog, id: string): BillingPeriodDef | undefined {
   return catalog.periods.find((period) => period.id === id)
@@ -104,11 +114,11 @@ function byLength(periods: readonly BillingPeriodDef[]): BillingPeriodDef[] {
 /**
  * The price to show for a period.
  *
- * A plan sold only by the month still has a price when the page is showing the
- * year, so this falls back to the longest shorter period the plan is actually
- * sold at, and then to the shortest longer one. The period it landed on comes
- * back with the amount, because "billed monthly" underneath a yearly column is
- * the honest label.
+ * For a live period, this falls back to the longest shorter period the plan is
+ * actually sold at, and then to the shortest longer one. A coming-soon period
+ * without an exact price never falls back: doing so would visually invent a
+ * price. The period it landed on comes back with the amount so the billing
+ * cadence can always be stated honestly.
  */
 export function priceAt(
   plan: CatalogPlan,
@@ -120,6 +130,11 @@ export function priceAt(
   const has = (period: BillingPeriodDef) => plan.prices[period.id] !== undefined
 
   if (wanted && has(wanted)) return { amount: plan.prices[wanted.id], period: wanted }
+
+  // A coming-soon period with no price is an announcement, not a request to
+  // extrapolate a shorter price. In particular, Maristana's year must never
+  // display a made-up annual amount or a term price that looks annual.
+  if (wanted?.comingSoon) return null
 
   if (wanted) {
     const shorter = sorted.filter((period) => period.months < wanted.months && has(period)).pop()
@@ -183,8 +198,8 @@ export function isPurchasable(plan: CatalogPlan, period: BillingPeriodDef): bool
  * `isPurchasable` asks about one exact period; this asks the question the page
  * actually has, which is about the period the *price* resolved to. A plan sold
  * only by the month is still on sale while the page shows the term — its price
- * falls back, and so must its button. Asking the raw selected period instead
- * put "Coming soon" under the Free plan for anyone looking at term pricing.
+ * falls back, and so must its button. Coming-soon periods without an exact
+ * price are deliberately excluded by `priceAt`.
  */
 export function purchasableAt(plan: CatalogPlan, periodId: string, periods: readonly BillingPeriodDef[]): boolean {
   const resolved = priceAt(plan, periodId, periods)
@@ -313,4 +328,47 @@ export function findPlan(catalog: PlanCatalog, handle: string): CatalogPlan | un
 export function monthlyPriceFor(catalog: PlanCatalog, handle: string): number {
   const plan = findPlan(catalog, handle)
   return plan ? monthlyEquivalent(plan, catalog.periods) : 0
+}
+
+export interface OfferSelection {
+  planId: string
+  periodId: string
+}
+
+/**
+ * A public offer carried between pricing, sign-up and the future checkout.
+ *
+ * Unknown, inactive and coming-soon values are reduced to the one current
+ * Maristana offer. This is intentionally identifiers-only: a browser may carry
+ * the chosen period, but the authoritative EGP amount must be resolved from
+ * the server-side catalogue rather than trusted from a query string.
+ */
+export function offerSelectionFromSearch(catalog: PlanCatalog, search: string): OfferSelection {
+  const params = new URLSearchParams(search.startsWith('?') ? search.slice(1) : search)
+  const requestedPlan = findPlan(catalog, params.get('plan') ?? '')
+  const fallbackPlan = findPlan(catalog, MARISTANA_PLAN_ID)
+  const plan = requestedPlan?.id === MARISTANA_PLAN_ID && requestedPlan.active
+    ? requestedPlan
+    : fallbackPlan
+
+  if (!plan) return { planId: MARISTANA_PLAN_ID, periodId: DEFAULT_PURCHASE_PERIOD_ID }
+
+  const requestedPeriod = periodById(catalog, params.get('period') ?? '')
+  if (requestedPeriod && isPurchasable(plan, requestedPeriod)) {
+    return { planId: plan.id, periodId: requestedPeriod.id }
+  }
+
+  const preferred = periodById(catalog, DEFAULT_PURCHASE_PERIOD_ID)
+  if (preferred && isPurchasable(plan, preferred)) {
+    return { planId: plan.id, periodId: preferred.id }
+  }
+
+  const first = catalog.periods.find((period) => isPurchasable(plan, period))
+  return { planId: plan.id, periodId: first?.id ?? DEFAULT_PURCHASE_PERIOD_ID }
+}
+
+/** A stable sign-up URL that preserves the chosen product and study window. */
+export function signupPathForOffer(selection: OfferSelection): string {
+  const params = new URLSearchParams({ plan: selection.planId, period: selection.periodId })
+  return `/signup?${params.toString()}`
 }

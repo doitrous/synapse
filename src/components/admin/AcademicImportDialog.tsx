@@ -1,125 +1,99 @@
 import { useMemo, useState } from 'react'
 import { X, Upload, FileText, CheckCircle2 } from 'lucide-react'
-import type { University, UniYear, CurriculumCourse } from '@/data/universities'
-import { defaultModuleId, universityYearId } from '@/data/universities'
+import type { University, UniYear } from '@/data/universities'
+import { universityYearId } from '@/data/universities'
+import { parseAcademicOutline } from '@/data/academicImport'
+import { moduleKey, type ModuleSubjectStore } from '@/data/moduleSubjects'
 import { Button } from '@/components/ui/Button'
 import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const TEMPLATE = `# Year 1
 ## Term 1
 - Foundations of Medicine [MED 01]
-- Anatomy & Physiology [ANA 02]
-## Term 2
+  - Anatomy (written EOM 20, written EOY 30, practical EOY 15)
+    - Upper Limb
+    - Embryology
+  - Histology (written EOY 25)
 - Cell & Molecular Biology [CEL 03]
+  - Biochemistry
+  - Physiology
 
 # Year 2
 ## Term 1
 - Cardiovascular System [CVS 01]
-- Respiratory System [RES 02]
-## Term 2
-- Renal & Urinary [REN 03]`
-
-interface ParseResult {
-  years: UniYear[]
-  yearsAdded: number
-  terms: number
-  modules: number
-  errors: string[]
-}
-
-/**
- * Parse an academic-structure markdown outline:
- *   # Year          → a year
- *   ## Term         → a term inside the current year
- *   - Module [ID]   → a module inside the current term (ID optional)
- * Module IDs are made unique across the whole university; a missing ID is
- * auto-generated as CODE NN from the module name.
- */
-function parse(md: string): ParseResult {
-  const errors: string[] = []
-  const years: UniYear[] = []
-  const takenIds = new Set<string>()
-  let curYear: UniYear | null = null
-  let curTerm: string | null = null
-  let terms = 0
-  let modules = 0
-  let seq = 0
-
-  const uniqueId = (base: string): string => {
-    let candidate = base
-    let n = 2
-    while (takenIds.has(candidate.toUpperCase())) { candidate = `${base}-${n}`; n++ }
-    takenIds.add(candidate.toUpperCase())
-    return candidate
-  }
-
-  md.split('\n').forEach((raw, idx) => {
-    const line = raw.trim()
-    if (!line) return
-    if (line.startsWith('## ')) {
-      if (!curYear) { errors.push(`Line ${idx + 1}: term "${line.slice(3)}" has no year above it.`); return }
-      curTerm = line.slice(3).trim()
-      curYear.terms = [...(curYear.terms ?? []), curTerm]
-      terms++
-    } else if (line.startsWith('# ')) {
-      const label = line.slice(2).trim()
-      curYear = { id: universityYearId('IMPORT', label), year: label, students: 0, courses: [], terms: [] }
-      years.push(curYear)
-      curTerm = null
-    } else if (line.startsWith('- ') || line.startsWith('* ')) {
-      if (!curYear) { errors.push(`Line ${idx + 1}: module "${line.slice(2)}" has no year.`); return }
-      const term = curTerm ?? 'Term 1'
-      if (!curYear.terms?.includes(term)) curYear.terms = [...(curYear.terms ?? []), term]
-      const body = line.slice(2).trim()
-      const m = body.match(/^(.*?)\s*\[([^\]]+)\]\s*$/)
-      const name = (m ? m[1] : body).trim()
-      if (!name) { errors.push(`Line ${idx + 1}: empty module name.`); return }
-      seq++
-      const moduleId = uniqueId((m ? m[2] : defaultModuleId(name, seq)).trim())
-      const course: CurriculumCourse = { id: `imp-${Date.now()}-${seq}`, name, block: term, moduleId, term }
-      curYear.courses.push(course)
-      modules++
-    } else {
-      errors.push(`Line ${idx + 1}: unrecognised "${line}". Use # Year, ## Term, or - Module [ID].`)
-    }
-  })
-
-  return { years, yearsAdded: years.length, terms, modules, errors }
-}
+  - Anatomy
+  - Physiology`
 
 export function AcademicImportDialog({ open, university, onClose, onImport }: {
   open: boolean
   university: University
   onClose: () => void
-  onImport: (years: UniYear[]) => void
+  onImport: (years: UniYear[], subjects: ModuleSubjectStore) => void
 }) {
   const [text, setText] = useState('')
   const [mode, setMode] = useState<'replace' | 'append'>('append')
-  const result = useMemo(() => (text.trim() ? parse(text) : null), [text])
+  // The catalogue's own module IDs, so a shorthand like `101` in the outline
+  // resolves onto the existing `101 ISK` instead of minting a rival module.
+  const knownModuleIds = useMemo(
+    () => university.years.flatMap((y) => y.courses.map((c) => c.moduleId).filter((id): id is string => Boolean(id))),
+    [university],
+  )
+  const result = useMemo(
+    () => (text.trim()
+      ? parseAcademicOutline(text, { universityShort: university.short, knownModuleIds })
+      : null),
+    [text, university.short, knownModuleIds],
+  )
 
   if (!open) return null
 
   const commit = () => {
     if (!result || result.years.length === 0) return
-    if (mode === 'replace') { onImport(result.years); return }
+
+    /**
+     * Subjects are keyed by the year they were parsed under, and appending can
+     * rename a year to keep its ID unique. Re-key them alongside, or a renamed
+     * year silently loses every subject tree the outline just described.
+     */
+    const rekey = (renames: Map<string, string>): ModuleSubjectStore => {
+      const out: ModuleSubjectStore = {}
+      for (const [key, subjects] of Object.entries(result.subjects)) {
+        const [, yearId, courseId] = key.split(':')
+        out[moduleKey(university.id, renames.get(yearId) ?? yearId, courseId)] = subjects
+      }
+      return out
+    }
+
+    if (mode === 'replace') {
+      const renames = new Map(result.years.map((y) => [y.id, y.id]))
+      onImport(result.years, rekey(renames))
+      return
+    }
+
     // Append: keep year labels unique so each year keeps a distinct year_ID.
     const taken = new Set(university.years.map((y) => y.year.toLowerCase()))
+    const renames = new Map<string, string>()
     const deduped = result.years.map((y) => {
       if (!taken.has(y.year.toLowerCase())) {
         taken.add(y.year.toLowerCase())
-        return { ...y, id: universityYearId(university.short, y.year) }
+        const id = universityYearId(university.short, y.year)
+        renames.set(y.id, id)
+        return { ...y, id }
       }
       let n = 2
       let label = `${y.year} (${n})`
       while (taken.has(label.toLowerCase())) { n++; label = `${y.year} (${n})` }
       taken.add(label.toLowerCase())
-      return { ...y, id: universityYearId(university.short, label), year: label }
+      const id = universityYearId(university.short, label)
+      renames.set(y.id, id)
+      return { ...y, id, year: label }
     })
-    onImport([...university.years, ...deduped])
+    onImport([...university.years, ...deduped], rekey(renames))
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="academic-import-title">
       <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={onClose} aria-label="Close" />
       <div className="absolute inset-x-0 bottom-0 w-full sm:left-1/2 sm:top-1/2 sm:bottom-auto sm:w-[min(94vw,720px)] sm:-translate-x-1/2 sm:-translate-y-1/2">
@@ -128,7 +102,7 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
             <span className="grid size-9 place-items-center rounded-lg bg-primary-tint text-primary-strong"><Icon icon={Upload} size={17} /></span>
             <div className="min-w-0 flex-1">
               <h2 id="academic-import-title" className="font-serif text-[18px] font-semibold text-ink">Bulk import — {university.short} structure</h2>
-              <p className="text-[12px] text-ink-3">Years, terms, and modules from a markdown outline.</p>
+              <p className="text-[12px] text-ink-3">Years, terms, modules, and the subjects inside them, from a markdown outline.</p>
             </div>
             <button type="button" onClick={onClose} className="grid size-9 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close"><Icon icon={X} size={18} /></button>
           </div>
@@ -139,7 +113,9 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
               <ol className="ms-4 list-decimal space-y-0.5 text-[12px] text-ink-2">
                 <li><code className="rounded bg-inset px-1"># Year name</code> starts a year (gets a unique year_ID automatically).</li>
                 <li><code className="rounded bg-inset px-1">## Term name</code> starts a term inside that year.</li>
-                <li><code className="rounded bg-inset px-1">- Module name [MOD 01]</code> adds a module; the <code>[ID]</code> is optional and is made unique.</li>
+                <li><code className="rounded bg-inset px-1">- Module name [MOD 01]</code> adds a module. An <code>[ID]</code> already in this university is reused, so <code>[101]</code> lands on <code>101 ISK</code> rather than making a second module.</li>
+                <li>Indent a <code className="rounded bg-inset px-1">- Subject</code> beneath a module to add it, and indent further to nest — as deep as the curriculum goes.</li>
+                <li>A module's direct subjects may carry marks: <code className="rounded bg-inset px-1">- Anatomy (written EOM 20, practical EOY 15)</code>.</li>
               </ol>
               <button type="button" onClick={() => setText(TEMPLATE)} className="mt-2 text-[12px] font-medium text-primary-strong hover:text-primary">Load template ↓</button>
             </div>
@@ -152,7 +128,15 @@ export function AcademicImportDialog({ open, university, onClose, onImport }: {
                   <span><span className="tnum font-mono font-semibold text-ink">{result.yearsAdded}</span> years</span>
                   <span><span className="tnum font-mono font-semibold text-ink">{result.terms}</span> terms</span>
                   <span><span className="tnum font-mono font-semibold text-ink">{result.modules}</span> modules</span>
+                  <span><span className="tnum font-mono font-semibold text-ink">{result.subjectCount}</span> subjects</span>
                 </div>
+                {result.resolvedShorthand.length > 0 && (
+                  <ul className="mt-2 space-y-0.5 text-[11.5px] text-ink-2">
+                    {result.resolvedShorthand.map((r) => (
+                      <li key={r.wrote}>• <code className="rounded bg-inset px-1">{r.wrote}</code> matched the existing module <code className="rounded bg-inset px-1">{r.resolvedTo}</code>.</li>
+                    ))}
+                  </ul>
+                )}
                 {result.errors.length > 0 && (
                   <ul className="mt-2 space-y-0.5 text-[11.5px] text-danger">{result.errors.map((e, i) => <li key={i}>• {e}</li>)}</ul>
                 )}

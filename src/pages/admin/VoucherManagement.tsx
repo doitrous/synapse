@@ -48,6 +48,7 @@ export function VoucherManagement() {
   const [vouchers, setVouchers] = usePersistentState<Voucher[]>(VOUCHER_STORAGE_KEY, initialVouchers)
   const [editing, setEditing] = useState<Voucher | null>(null)
   const [notice, setNotice] = useState('')
+  const [deleteId, setDeleteId] = useState('')
   const activeCount = useMemo(() => vouchers.filter((voucher) => voucher.active && new Date(voucher.expiresAt).getTime() >= Date.now()).length, [vouchers])
 
   function save() {
@@ -57,6 +58,7 @@ export function VoucherManagement() {
     const next = { ...editing, code: editing.code.trim().toUpperCase().replace(/\s+/g, ''), name: editing.name.trim(), updatedAt: new Date().toISOString() }
     setVouchers((current) => current.some((voucher) => voucher.id === next.id) ? current.map((voucher) => voucher.id === next.id ? next : voucher) : [next, ...current])
     setEditing(null)
+    setDeleteId('')
     setNotice(`Voucher ${next.code} saved.`)
   }
 
@@ -78,7 +80,7 @@ export function VoucherManagement() {
               {vouchers.map((voucher) => {
                 const expired = new Date(voucher.expiresAt).getTime() < Date.now()
                 const audience = voucher.universityIds.length + voucher.years.length + voucher.groups.length
-                return <Tr key={voucher.id} hover><Td className="pl-4"><p className="font-mono text-[13px] font-bold text-ink">{voucher.code}</p><p className="mt-0.5 text-[11.5px] text-ink-3">{voucher.name}</p></Td><Td className="whitespace-nowrap font-mono text-[12.5px] text-ink-2">{isTrialVoucher(voucher) ? `${voucherTrialDays(voucher)}-day full access` : voucher.discountType === 'Percentage' ? `${voucher.amount}%` : `£${voucher.amount.toFixed(2)}`}</Td><Td className="text-[12px] text-ink-2">{audience ? `${audience} audience rules` : 'All students'}</Td><Td className="font-mono text-[12px] text-ink-2">{voucher.redemptionCount} / {voucher.maxRedemptions || '∞'}</Td><Td className="whitespace-nowrap text-[12px] text-ink-2">{formatLongDate(new Date(voucher.expiresAt))}</Td><Td><Badge tone={!voucher.active || expired ? 'neutral' : 'success'}>{expired ? 'Expired' : voucher.active ? 'Active' : 'Paused'}</Badge></Td><Td align="end" className="pr-4"><div className="inline-flex gap-1"><IconButton icon={Pencil} label={`Edit ${voucher.code}`} size="sm" onClick={() => setEditing({ ...voucher })} /><IconButton icon={Trash2} label={`Delete ${voucher.code}`} size="sm" className="text-danger" onClick={() => setVouchers((current) => current.filter((item) => item.id !== voucher.id))} /></div></Td></Tr>
+                return <Tr key={voucher.id} hover><Td className="pl-4"><p className="font-mono text-[13px] font-bold text-ink">{voucher.code}</p><p className="mt-0.5 text-[11.5px] text-ink-3">{voucher.name}</p></Td><Td className="whitespace-nowrap font-mono text-[12.5px] text-ink-2">{isTrialVoucher(voucher) ? `${voucherTrialDays(voucher)}-day full access` : voucher.discountType === 'Percentage' ? `${voucher.amount}%` : `£${voucher.amount.toFixed(2)}`}</Td><Td className="text-[12px] text-ink-2">{audience ? `${audience} audience rules` : 'All students'}</Td><Td className="font-mono text-[12px] text-ink-2">{voucher.redemptionCount} / {voucher.maxRedemptions || '∞'}</Td><Td className="whitespace-nowrap text-[12px] text-ink-2">{formatLongDate(new Date(voucher.expiresAt))}</Td><Td><Badge tone={!voucher.active || expired ? 'neutral' : 'success'}>{expired ? 'Expired' : voucher.active ? 'Active' : 'Paused'}</Badge></Td><Td align="end" className="pr-4"><div className="inline-flex gap-1"><IconButton icon={Pencil} label={`Edit ${voucher.code}`} size="sm" onClick={() => { setEditing({ ...voucher }); setDeleteId('') }} /><IconButton icon={Trash2} label={deleteId === voucher.id ? `Confirm delete ${voucher.code}` : `Delete ${voucher.code}`} size="sm" className={deleteId === voucher.id ? 'border-danger/30 bg-danger-tint text-danger' : 'text-danger'} onClick={() => { if (deleteId === voucher.id) { setVouchers((current) => current.filter((item) => item.id !== voucher.id)); setDeleteId(''); setNotice(`Voucher ${voucher.code} deleted.`) } else { setDeleteId(voucher.id); setNotice(`Press delete again to remove ${voucher.code}.`) } }} /></div></Td></Tr>
               })}
             </tbody>
           </Table>

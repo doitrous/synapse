@@ -91,12 +91,32 @@ final class AuthModel {
     /// cannot read anything until that link is followed, so say so plainly
     /// rather than dropping the student on a sign-in screen that will refuse
     /// them for a reason they cannot see.
-    func signUp(email: String, password: String) async {
+    func signUp(email: String, password: String, name: String, phone: String) async {
         guard let client else { return }
         await perform {
-            try await client.auth.signUp(email: Self.tidy(email), password: password)
+            // The same metadata the website writes, so an account made on a
+            // phone is indistinguishable from one made in a browser.
+            try await client.auth.signUp(
+                email: Self.tidy(email),
+                password: password,
+                data: ["full_name": .string(name), "phone": .string(phone)]
+            )
             self.message = "Check your email to confirm the address, then sign in."
         }
+    }
+
+    /// Whether this person already has an account.
+    ///
+    /// A courtesy, not the guarantee: the UNIQUE index on the server is what
+    /// actually enforces it, so a server that cannot answer must not stop
+    /// somebody registering.
+    func identityConflict(email: String, phone: String) async -> IdentityConflict? {
+        guard let taken = try? await api.accountExists(email: email, phone: phone) else { return nil }
+        // Email first: it is the field someone is most likely to remember
+        // signing up with, and the one the sign-in form takes.
+        if taken.email { return IdentityConflict(field: .email, value: email) }
+        if taken.phone { return IdentityConflict(field: .phone, value: phone) }
+        return nil
     }
 
     func sendPasswordReset(email: String) async {
@@ -147,7 +167,7 @@ final class AuthModel {
                 userCache.writeUser(nil)
                 state = .signedOut
                 if explainFailure {
-                    message = "Signed in, but Synapse has no account for this address yet."
+                    message = "Signed in, but Connect Cortex has no account for this address yet."
                 }
             }
         } catch APIError.unauthorized {
@@ -160,7 +180,7 @@ final class AuthModel {
                 // agree, and from here the difference between an unconfigured
                 // server, a suspended account and a clock skew is invisible —
                 // naming one would send the reader after the wrong thing.
-                message = "Your password was accepted, but Synapse rejected the session. "
+                message = "Your password was accepted, but Connect Cortex rejected the session. "
                     + "Please try again, or contact support if it keeps happening."
                 #if DEBUG
                 if let detail = SynapseAPI.lastDiagnostic { message! += "\n\n[\(detail)]" }

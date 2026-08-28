@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "university": "Cairo University - Kasr Al Ainy Faculty of Medicine",
+  "targetRoot": "/Users/doitrous/Desktop/Uni Telegram Data - Organized",
+  "timezone": "Africa/Cairo",
+  "weekStart": 6,
+  "minimumFreeBytes": 5368709120,
+  "includedSourceBatches": [200, 199, 198, 197, 196, 195, 194],
+  "batchPriority": [200, 199, 198, 197, 196, 195, 194],
+  "allowedExtensions": [".pdf", ".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx", ".epub", ".txt", ".md", ".csv", ".zip", ".rar", ".7z", ".jpg", ".jpeg", ".png", ".webp"],
+  "blockedExtensions": [".mp4", ".mov", ".mkv", ".webm", ".avi", ".mp3", ".m4a", ".wav", ".ogg", ".opus", ".aac", ".flac", ".gif", ".webp-animation", ".tgs"],
+  "officeExtensions": [".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx"],
+  "years": [
+    {
+      "year": 1,
+      "newestBatch": 200,
+      "effectiveBatch": 199,
+      "modules": [
+        {"code": "101 ISK", "name": "Introduction to Structure & Function", "subjects": ["Anatomy", "Histology"]},
+        {"code": "102 INT", "name": "Integrated Basic Sciences", "subjects": ["Physiology", "Biochemistry"]},
+        {"code": "103 BMS", "name": "Basic Medical Sciences", "subjects": ["Anatomy", "Biochemistry", "Physiology", "Histology"]},
+        {"code": "104 CPS", "name": "Cardiopulmonary System", "subjects": ["Anatomy", "Histology", "Physiology"]},
+        {"code": "108 INT", "name": "Integrated Pathology & Pharmacology", "subjects": ["Pharmacology", "Pathology"]}
+      ],
+      "secondaryModules": []
+    },
+    {
+      "year": 2,
+      "newestBatch": 198,
+      "effectiveBatch": 198,
+      "modules": [
+        {"code": "205 NEU", "name": "Neurosciences", "subjects": []},
+        {"code": "206 DIG", "name": "Digestive System", "subjects": []},
+        {"code": "207 END", "name": "Endocrine System", "subjects": []},
+        {"code": "208 INT", "name": "Integrated Module", "subjects": []},
+        {"code": "210 PAT", "name": "Pathology", "subjects": []}
+      ],
+      "secondaryModules": ["Psychology 213"]
+    },
+    {
+      "year": 3,
+      "newestBatch": 197,
+      "effectiveBatch": 197,
+      "modules": [
+        {"code": "309 INF", "name": "Infection", "subjects": ["Parasitology", "Microbiology"]},
+        {"code": "310 PAT", "name": "Pathology & Pharmacology", "subjects": ["Pathology", "Pharmacology"]},
+        {"code": "314", "name": "Investigation", "subjects": []},
+        {"code": "319", "name": "Nutrition", "subjects": []},
+        {"code": "Clinical", "name": "Clinical Rotations", "subjects": ["ENT", "Ophthalmology", "Forensic Medicine", "Toxicology"]}
+      ],
+      "secondaryModules": ["MPE-327 Ethics", "Community Issues", "Electives"]
+    },
+    {
+      "year": 4,
+      "newestBatch": 196,
+      "effectiveBatch": 196,
+      "modules": [
+        {"code": "PAEDS", "name": "Paediatrics", "subjects": []},
+        {"code": "OBGYN", "name": "Obstetrics & Gynaecology", "subjects": []},
+        {"code": "SURG", "name": "General Surgery", "subjects": []},
+        {"code": "IM", "name": "Internal Medicine", "subjects": []},
+        {"code": "PSY", "name": "Psychiatry", "subjects": []},
+        {"code": "FM", "name": "Family Medicine", "subjects": []}
+      ],
+      "secondaryModules": ["Community Medicine", "Palliative Medicine & Oncology", "Research"]
+    },
+    {
+      "year": 5,
+      "newestBatch": 195,
+      "effectiveBatch": 195,
+      "modules": [
+        {"code": "SURG", "name": "Surgery", "subjects": []},
+        {"code": "IM", "name": "Internal Medicine", "subjects": []},
+        {"code": "FM", "name": "Family Medicine", "subjects": []}
+      ],
+      "secondaryModules": []
+    }
+  ]
+}

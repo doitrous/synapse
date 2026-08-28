@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { dueReviewItems, type ReviewItem } from '@/data/reviewQueue'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Meter } from '@/components/ui/Meter'
 import { Icon } from '@/components/ui/Icon'
@@ -14,6 +14,7 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { useMastery } from '@/lib/useMastery'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const VISIBLE = 3
 
@@ -76,6 +77,23 @@ function ReviewRow({ item, index, onNavigate }: { item: DisplayItem; index: numb
 }
 
 /**
+ * How many concepts are waiting in the review queue, and where "start review"
+ * on them goes — the number the dashboard's footer quick-link quotes, kept
+ * here so it reads from the exact same query this panel itself uses.
+ */
+export function useDueReviewSummary(): { count: number; startHref: string } {
+  const { ledger } = useMastery()
+  return useMemo(() => {
+    const items = dueReviewItems(ledger)
+    const batch = items.slice(0, REVIEW_BATCH).map((item) => item.conceptId).join(',')
+    return {
+      count: items.length,
+      startHref: batch ? `/app/qbank?concepts=${encodeURIComponent(batch)}` : '/app/qbank',
+    }
+  }, [ledger])
+}
+
+/**
  * The concepts this student should revisit today.
  *
  * Every row is a concept their own answers put here — the interval comes from
@@ -120,7 +138,7 @@ export function DueReviews() {
             icon={Flag}
             title={t('Nothing due')}
             description={t('Answer some questions and the concepts worth revisiting will collect here.')}
-            action={<Link to="/app/qbank"><Button variant="primary" size="sm" iconLeft={Play}>{t('Open the question bank')}</Button></Link>}
+            action={<ButtonLink to="/app/qbank" variant="primary" size="sm" iconLeft={Play}>{t('Open the question bank')}</ButtonLink>}
           />
         </div>
       ) : (
@@ -144,14 +162,12 @@ export function DueReviews() {
             <span className="text-[12.5px] text-ink-2">
               <span className="tnum font-mono font-medium text-ink">{items.length}</span> {items.length === 1 ? t('concept') : t('concepts')}
             </span>
-            <Link to={`/app/qbank?concepts=${encodeURIComponent(batch)}`}>
-              <Button variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</Button>
-            </Link>
+            <ButtonLink to={`/app/qbank?concepts=${encodeURIComponent(batch)}`} variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</ButtonLink>
           </div>
         </>
       )}
 
-      {showAll && (
+      {showAll && overlayPortal(
         <div
           className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4"
           role="dialog"
@@ -179,9 +195,7 @@ export function DueReviews() {
               <span className="text-[12.5px] text-ink-2">
                 <span className="tnum font-mono font-medium text-ink">{items.length}</span> {items.length === 1 ? t('concept') : t('concepts')}
               </span>
-              <Link to={`/app/qbank?concepts=${encodeURIComponent(batch)}`} onClick={() => setShowAll(false)}>
-                <Button variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</Button>
-              </Link>
+              <ButtonLink to={`/app/qbank?concepts=${encodeURIComponent(batch)}`} onClick={() => setShowAll(false)} variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</ButtonLink>
             </div>
           </Panel>
         </div>

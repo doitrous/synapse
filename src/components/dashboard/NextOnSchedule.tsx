@@ -15,7 +15,7 @@ import {
 import { getSubject } from '@/data/subjects'
 import { STUDY_BLOCKS_STORAGE_KEY, type StudyBlock } from '@/data/studyBlocks'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
@@ -109,7 +109,7 @@ export function NextOnSchedule() {
             description={hasYear
               ? t('Your year has no further published sessions, and you have nothing planned after now.')
               : t("Your university hasn't published a timetable for your year. Plan your own study blocks and they will show up here.")}
-            action={<Link to="/app/calendar"><Button variant="secondary" size="sm" iconLeft={CalendarPlus}>{t('Plan a study block')}</Button></Link>}
+            action={<ButtonLink to="/app/calendar" variant="secondary" size="sm" iconLeft={CalendarPlus}>{t('Plan a study block')}</ButtonLink>}
           />
         </div>
       </Panel>
@@ -193,9 +193,7 @@ export function NextOnSchedule() {
         </div>
 
         <div className="mt-4 flex flex-wrap justify-center gap-2">
-          <Link to={action.to} className="max-sm:w-full">
-            <Button className="max-sm:w-full" variant="primary" size="md" iconLeft={action.icon}>{action.label}</Button>
-          </Link>
+          <ButtonLink to={action.to} className="max-sm:w-full" variant="primary" size="md" iconLeft={action.icon}>{action.label}</ButtonLink>
           {next.source === 'faculty' ? (
             <Button
               type="button"

@@ -11,6 +11,7 @@ import { subjects } from '@/data/subjects'
 import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
@@ -60,7 +61,7 @@ export function ContentEditorDialog({
   const noun = CONTENT_KIND_LABEL[kind].singular
   const valid = draft.title.trim() && draft.subjectId && CONTENT_FIELDS[kind].every(({ key }) => draft.fields[key]?.trim())
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="content-editor-title">
       <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={onClose} aria-label="Close editor" />
       <div className="absolute inset-x-0 bottom-0 w-full sm:left-1/2 sm:top-1/2 sm:bottom-auto sm:w-[min(94vw,720px)] sm:-translate-x-1/2 sm:-translate-y-1/2">
@@ -146,7 +147,7 @@ export function ConfirmDeleteDialog({ item, onClose, onConfirm }: { item: Manage
 
   if (!item) return null
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="alertdialog" aria-modal="true" aria-labelledby="delete-content-title" aria-describedby="delete-content-description">
       <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={onClose} aria-label="Cancel delete" />
       <div className="absolute inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))] sm:left-1/2 sm:top-1/2 sm:bottom-auto sm:w-[min(92vw,440px)] sm:-translate-x-1/2 sm:-translate-y-1/2">

@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react'
-import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight } from 'lucide-react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useNavigate, useSearchParams } from 'react-router-dom'
+import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight, Grid3x3, Crosshair, Shuffle } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { QuestionView } from '@/components/qbank/QuestionView'
@@ -7,9 +8,8 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { Meter } from '@/components/ui/Meter'
-import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, TextInput } from '@/components/ui/Field'
-import { Segmented } from '@/components/ui/Tabs'
+import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
 import type { Question } from '@/data/qbank'
@@ -18,13 +18,26 @@ import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useMastery } from '@/lib/useMastery'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
+import { attemptSeconds } from '@/data/attempts'
 import { ROOM_REFUSALS, useMyRooms, useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
+import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
+import { useMyChallenges, useChallengeActions } from '@/lib/useChallenges'
+import { FriendsPanel } from '@/components/social/FriendsPanel'
+import { ChallengePanel, ChallengeDialog } from '@/components/social/ChallengePanel'
+import { ChallengeRunner } from '@/components/social/ChallengeRunner'
+import { PartiesPanel } from '@/components/social/PartiesPanel'
+import { DemoFriendsPreview, DemoPartiesPreview, DemoSharedTestsPreview } from '@/components/social/DemoCollaborationPreview'
 import { API_MODE } from '@/lib/api'
 import { formatRelativeTime } from '@/lib/format'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const MAX_QUESTIONS = 40
+
+/** A fresh seed for a link nobody has opened yet — shared by all three minigames below. */
+function randomGameSeed(): number {
+  return Math.floor(Math.random() * 0x7fffffff)
+}
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
@@ -59,6 +72,32 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
 
   const byId = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
   const answeredIds = useMemo(() => new Set(room?.myAnswers.map((entry) => entry.questionId) ?? []), [room])
+
+  // Which question is being asked, derived above the early returns below so the
+  // effect that times it can be a hook like any other.
+  const remaining = useMemo(
+    () => (room?.questionIds ?? []).filter((id) => !answeredIds.has(id)),
+    [room, answeredIds],
+  )
+  const currentId = remaining[Math.min(idx, Math.max(0, remaining.length - 1))]
+
+  /*
+   * When the question on screen appeared.
+   *
+   * A timed room recorded `seconds: null` against every answer — the column was
+   * written, the room's own `timed` flag was set, and the value was always
+   * empty — so the one mode built around a clock was the one that measured
+   * nothing. There is no clock on screen here and there should not be: this is
+   * measured, not displayed.
+   *
+   * Keyed on the question rather than reset from the Next handler, because Next
+   * is not the only thing that changes it: skipping an archived question does,
+   * and so does the poll bringing back a room this student has answered more of
+   * elsewhere. Starting from when the question actually appears also keeps the
+   * reload that fetches it out of the next question's time.
+   */
+  const questionShownAt = useRef(Date.now())
+  useEffect(() => { questionShownAt.current = Date.now() }, [currentId])
 
   if (!room) {
     return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the shared test…')}</Panel>
@@ -210,8 +249,6 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
   }
 
   /* ---- Running ------------------------------------------------------- */
-  const remaining = room.questionIds.filter((id) => !answeredIds.has(id))
-  const currentId = remaining[Math.min(idx, Math.max(0, remaining.length - 1))]
   const question = currentId ? byId.get(currentId) : undefined
 
   if (!remaining.length) {
@@ -238,8 +275,12 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
 
   async function commit() {
     if (chosen === null || !question) return
+    // Read before the request, not after it: the student stopped thinking when
+    // they pressed Submit, and how long the server took to mark it is not time
+    // they spent on the question.
+    const seconds = attemptSeconds(room!.timed, questionShownAt.current, Date.now())
     setBusy(true)
-    const result = await answer(room!.id, { questionId: question.id, chosenIndex: chosen, seconds: null })
+    const result = await answer(room!.id, { questionId: question.id, chosenIndex: chosen, seconds })
     setBusy(false)
     if (!result.ok) return
     setVerdict({ correct: Boolean(result.correct), correctIndex: result.correctIndex ?? -1 })
@@ -254,7 +295,7 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
       difficulty: question.difficulty,
       conceptIds,
       correct: Boolean(result.correct),
-      seconds: null,
+      seconds,
       sessionId: `room-${room!.id}`,
     })
   }
@@ -308,6 +349,8 @@ function RoomRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) 
  */
 export function StudyTogether() {
   const t = useT()
+  const navigate = useNavigate()
+  const [tab, setTab] = useState<'tests' | 'friends' | 'parties'>('tests')
   const questions = usePublishedQuestions()
   const { rooms, reload: reloadRooms } = useMyRooms()
   const { create, join } = useStudyRoomActions()
@@ -327,26 +370,122 @@ export function StudyTogether() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
-  if (!API_MODE) {
-    return (
-      <PageContainer>
-        <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
-        <Panel className="p-10">
-          <EmptyState
-            icon={Users}
-            title={t('Shared tests need the backend')}
-            description={t('A shared test lives on the server so other people can join it by code. Connect the backend to create one.')}
-          />
-        </Panel>
-      </PageContainer>
-    )
-  }
+  const {
+    friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite,
+    linkFacebook, matchFacebook,
+  } = useFriends()
+  const [inviteNotice, setInviteNotice] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null)
+
+  const { challenges, reload: reloadChallenges } = useMyChallenges()
+  const { create: createChallenge, respond: respondChallenge } = useChallengeActions()
+  const [challengeTarget, setChallengeTarget] = useState<FriendProfile | null>(null)
+  const [openChallengeId, setOpenChallengeId] = useState<string | null>(null)
+
+  /**
+   * Start a shared test with this friend already seated in it.
+   *
+   * Uses whatever topics/length/timing are set on the "Create a shared test"
+   * panel, same as a code-based room — the only difference is the friend
+   * lands in it without ever seeing a code. `FriendsPanel` owns the loading
+   * state and any refusal message; this just does the work and reports back.
+   */
+  const handleStudyTogether = useCallback(
+    async (friend: FriendProfile) => {
+      const picked = shuffle(available).slice(0, Math.min(count, available.length)).map((question) => question.id)
+      const result = await create({
+        name: `${t('Study session with')} ${friend.displayName}`,
+        questionIds: picked,
+        timed,
+        secondsPerQuestion: null,
+        inviteUserIds: [friend.userId],
+      })
+      if (!result.ok) return { ok: false as const, reason: result.reason }
+      await reloadRooms()
+      setOpenRoomId(result.room!.id)
+      return { ok: true as const }
+    },
+    [available, count, timed, create, reloadRooms, t],
+  )
+  const handleChallenge = useCallback((friend: FriendProfile) => setChallengeTarget(friend), [])
+
+  /**
+   * A fresh seed is the whole invitation: whoever opens one of these links
+   * runs the same deterministic generator — `buildGrid`, `buildSpotter`, or
+   * `buildBoard` — over the same published content and lands on the identical
+   * game, with no room and no server round trip to arrange first. None of the
+   * three needs any other parameter: each game's own default (Term Grid's
+   * first published category, Term Match's default mode) resolves the same
+   * way for both students, since they read the same glossary or slide set.
+   */
+  const handlePlayTermGrid = useCallback(() => {
+    navigate(`/app/term-grid?seed=${randomGameSeed()}`)
+  }, [navigate])
+  const handlePlaySpotter = useCallback(() => {
+    navigate(`/app/spotter?seed=${randomGameSeed()}`)
+  }, [navigate])
+  const handlePlayTermMatch = useCallback(() => {
+    navigate(`/app/term-match?seed=${randomGameSeed()}`)
+  }, [navigate])
+
+  /**
+   * Redeem `?invite=` once on arrival.
+   *
+   * The link's whole point is to work with no other setup, so it has to be
+   * caught here rather than requiring the student to find the Friends tab
+   * themselves. Guarded by a ref rather than just checking the param, because
+   * clearing the param itself triggers a re-render this effect would otherwise
+   * see before the URL update has landed.
+   */
+  const [searchParams, setSearchParams] = useSearchParams()
+  const redeemedToken = useRef<string | null>(null)
+  useEffect(() => {
+    if (!API_MODE) return
+    const token = searchParams.get('invite')
+    if (!token || redeemedToken.current === token) return
+    redeemedToken.current = token
+    void (async () => {
+      const result = await redeemInvite(token)
+      setInviteNotice(
+        result.ok
+          ? { tone: 'success', text: t('Friend request sent.') }
+          : { tone: 'danger', text: FRIEND_REFUSALS[result.reason ?? ''] ?? t('That invite link could not be used.') },
+      )
+      setTab('friends')
+      setSearchParams((current) => {
+        const next = new URLSearchParams(current)
+        next.delete('invite')
+        return next
+      }, { replace: true })
+    })()
+  }, [searchParams, setSearchParams, redeemInvite, t])
+
+  /**
+   * A party link opens the party, not just the page.
+   *
+   * The tab is this component's to choose, so arriving on `?party=` switches to
+   * it here; redeeming the code belongs to the panel that knows how, and clears
+   * the param when it is done. Without this the link lands a student on Shared
+   * tests with a code in the address bar and nothing telling them what to do
+   * with it — which is not a link, it is a puzzle.
+   */
+  useEffect(() => {
+    if (searchParams.get('party')) setTab('parties')
+  }, [searchParams])
 
   if (openRoomId) {
     return (
       <PageContainer>
         <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates.')} />
         <RoomRunner roomId={openRoomId} onExit={() => { setOpenRoomId(null); void reloadRooms() }} />
+      </PageContainer>
+    )
+  }
+
+  if (openChallengeId) {
+    return (
+      <PageContainer>
+        <PageHeader title={t('Study Together')} description={t('The same paper, sat separately. The comparison opens once you have both finished.')} />
+        <ChallengeRunner challengeId={openChallengeId} onExit={() => { setOpenChallengeId(null); void reloadChallenges() }} />
       </PageContainer>
     )
   }
@@ -377,10 +516,9 @@ export function StudyTogether() {
   const open = rooms.filter((room) => room.status !== 'closed')
   const past = rooms.filter((room) => room.status === 'closed')
 
-  return (
-    <PageContainer>
-      <PageHeader title={t('Study Together')} description={t('Sit the same set of questions as your classmates, then compare results.')} />
-
+  const testsContent = !API_MODE ? (
+    <DemoSharedTestsPreview />
+  ) : (
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)]">
         <Panel>
           <PanelHeader title={t('Create a shared test')} icon={Plus} />
@@ -496,6 +634,94 @@ export function StudyTogether() {
           </Panel>
         </div>
       </div>
+  )
+
+  const partiesContent = !API_MODE ? (
+    <DemoPartiesPreview />
+  ) : (
+    <PartiesPanel />
+  )
+
+  const friendsContent = !API_MODE ? (
+    <DemoFriendsPreview />
+  ) : (
+    <div className="space-y-4">
+      {inviteNotice && (
+        <p role="status" className={cn('text-[12.5px]', inviteNotice.tone === 'success' ? 'text-success' : 'text-danger')}>
+          {inviteNotice.text}
+        </p>
+      )}
+      <ChallengePanel
+        challenges={challenges}
+        friends={friends}
+        onRespond={respondChallenge}
+        onOpen={setOpenChallengeId}
+      />
+      <FriendsPanel
+        friends={friends}
+        incoming={incoming}
+        outgoing={outgoing}
+        onRespond={respond}
+        onRemove={remove}
+        onStudyTogether={handleStudyTogether}
+        onChallenge={handleChallenge}
+        onCreateInvite={mintInvite}
+        onRequest={request}
+        onSearchDirectory={searchDirectory}
+        onConnectFacebook={linkFacebook}
+        onMatchFacebook={matchFacebook}
+      />
+    </div>
+  )
+
+  return (
+    <PageContainer>
+      <PageHeader
+        title={t('Study Together')}
+        description={API_MODE ? t('Sit the same set of questions as your classmates, then compare results.') : t('Sit the same set of questions as your classmates.')}
+      />
+
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+        <Tabs
+          value={tab}
+          onChange={(value) => setTab(value as 'tests' | 'friends' | 'parties')}
+          items={[
+            { value: 'tests', label: t('Shared tests') },
+            { value: 'parties', label: t('Parties') },
+            { value: 'friends', label: t('Friends') },
+          ]}
+        />
+        {/* One row rather than one button per game: all three are the same
+            invitation — a fresh seed and a link — so they read as one family
+            of actions, not three separate features competing for space. */}
+        <div className="flex flex-wrap items-center gap-2">
+          <Button variant="secondary" iconLeft={Grid3x3} onClick={handlePlayTermGrid}>
+            {t('Term Grid')}
+          </Button>
+          <Button variant="secondary" iconLeft={Crosshair} onClick={handlePlaySpotter}>
+            {t('Spotter')}
+          </Button>
+          <Button variant="secondary" iconLeft={Shuffle} onClick={handlePlayTermMatch}>
+            {t('Term Match')}
+          </Button>
+        </div>
+      </div>
+
+      {tab === 'tests' ? testsContent : tab === 'parties' ? partiesContent : friendsContent}
+
+      {challengeTarget && (
+        <ChallengeDialog
+          friend={challengeTarget}
+          pool={questions}
+          onClose={() => setChallengeTarget(null)}
+          onCreate={createChallenge}
+          onCreated={(challengeId) => {
+            setChallengeTarget(null)
+            void reloadChallenges()
+            setOpenChallengeId(challengeId)
+          }}
+        />
+      )}
     </PageContainer>
   )
 }

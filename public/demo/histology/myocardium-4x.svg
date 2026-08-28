@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7fb"/><stop offset="1" stop-color="#f9e9f1"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+    <pattern id="fibres" width="170" height="90" patternUnits="userSpaceOnUse" patternTransform="rotate(-13)">
+      <path d="M-20 28 C35 2 110 5 190 24" fill="none" stroke="#d67f9d" stroke-width="17" stroke-linecap="round" opacity=".72"/>
+      <path d="M-10 62 C65 36 130 44 190 63" fill="none" stroke="#ecb0c3" stroke-width="13" stroke-linecap="round" opacity=".86"/>
+      <ellipse cx="58" cy="26" rx="9" ry="4" fill="#7d4d82" opacity=".78"/>
+      <ellipse cx="138" cy="58" rx="8" ry="4" fill="#764576" opacity=".72"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <path d="M-80 180 C270 -80 550 90 820 45 C1130 -5 1360 90 1690 20 L1690 920 C1380 1050 1110 870 800 960 C480 1050 250 850 -80 980Z" fill="#f4c9d7" opacity=".52" filter="url(#soft)"/>
+  <rect x="-40" y="60" width="1680" height="900" fill="url(#fibres)"/>
+  <path d="M0 330 C330 255 570 390 815 300 S1290 250 1600 350" fill="none" stroke="#fff9fb" stroke-width="34" opacity=".82"/>
+  <path d="M0 690 C310 610 510 735 760 650 S1280 600 1600 710" fill="none" stroke="#fff9fb" stroke-width="28" opacity=".78"/>
+  <g font-family="Arial, sans-serif" fill="#6f4568"><text x="42" y="70" font-size="28" font-weight="700">DEMO · ILLUSTRATIVE H&amp;E FIELD · 4×</text><text x="42" y="105" font-size="19">Interface preview only — not for diagnosis or assessment.</text></g>
+</svg>

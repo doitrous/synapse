@@ -143,7 +143,7 @@ export function ReaderToolbar({
         onDoubleClick={() => setOpen((current) => !current)}
         aria-label={t('Move the toolbar')}
         title={t('Drag to move · double-click to collapse')}
-        className="grid h-6 w-9 cursor-grab place-items-center rounded-md text-ink-3 hover:bg-inset active:cursor-grabbing"
+        className="grid size-10 cursor-grab place-items-center rounded-md text-ink-3 hover:bg-inset active:cursor-grabbing focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
       >
         <Icon icon={GripVertical} size={14} />
       </button>
@@ -157,7 +157,7 @@ export function ReaderToolbar({
           aria-label={t(entry.label)}
           title={`${t(entry.label)} · ${entry.key}`}
           className={cn(
-            'grid size-9 place-items-center rounded-md transition-colors',
+            'grid size-10 place-items-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
             tool === entry.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
           )}
         >
@@ -177,7 +177,7 @@ export function ReaderToolbar({
             aria-expanded={panel.open}
             aria-label={t('Tool settings')}
             title={t('Tool settings')}
-            className="grid size-9 place-items-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink disabled:opacity-35"
+            className="grid size-10 place-items-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink disabled:opacity-35 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
           >
             <span className="size-4 rounded-full border border-line-2" style={{ backgroundColor: settings.color }} />
           </button>
@@ -187,7 +187,7 @@ export function ReaderToolbar({
             aria-pressed={rulerOn}
             aria-label={t('Ruler')}
             title={`${t('Ruler')} · R`}
-            className={cn('grid size-9 place-items-center rounded-md transition-colors', rulerOn ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+            className={cn('grid size-10 place-items-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', rulerOn ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
           >
             <Icon icon={Ruler} size={16} />
           </button>
@@ -197,16 +197,16 @@ export function ReaderToolbar({
             aria-pressed={timerOn}
             aria-label={t('Study timer')}
             title={t('Study timer')}
-            className={cn('grid size-9 place-items-center rounded-md transition-colors', timerOn ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+            className={cn('grid size-10 place-items-center rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', timerOn ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
           >
             <Icon icon={Timer} size={16} />
           </button>
 
           <span className="my-0.5 h-px w-6 bg-line" aria-hidden />
-          <button type="button" onClick={onUndo} disabled={!canUndo} aria-label={t('Undo')} title={`${t('Undo')} · ⌘Z`} className="grid size-9 place-items-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink disabled:opacity-35">
+          <button type="button" onClick={onUndo} disabled={!canUndo} aria-label={t('Undo')} title={`${t('Undo')} · ⌘Z`} className="grid size-10 place-items-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink disabled:opacity-35 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">
             <Icon icon={Undo2} size={16} />
           </button>
-          <button type="button" onClick={onRedo} disabled={!canRedo} aria-label={t('Redo')} title={`${t('Redo')} · ⌘⇧Z`} className="grid size-9 place-items-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink disabled:opacity-35">
+          <button type="button" onClick={onRedo} disabled={!canRedo} aria-label={t('Redo')} title={`${t('Redo')} · ⌘⇧Z`} className="grid size-10 place-items-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink disabled:opacity-35 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">
             <Icon icon={Redo2} size={16} />
           </button>
         </>
@@ -251,7 +251,7 @@ function ToolSettingsPanel({
               onClick={() => onSettings({ lasso: mode })}
               aria-pressed={settings.lasso === mode}
               className={cn(
-                'rounded-md border px-2 py-1.5 text-[11.5px] transition-colors',
+                'min-h-9 rounded-md border px-2 py-1.5 text-[11.5px] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
                 settings.lasso === mode ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
               )}
             >
@@ -280,7 +280,7 @@ function ToolSettingsPanel({
                 aria-pressed={settings.pen === pen.id}
                 title={t(pen.hint)}
                 className={cn(
-                  'rounded-md border px-2 py-1.5 text-[11.5px] transition-colors',
+                  'min-h-9 rounded-md border px-2 py-1.5 text-[11.5px] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
                   settings.pen === pen.id ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
                 )}
               >
@@ -302,7 +302,7 @@ function ToolSettingsPanel({
                 onClick={() => onSettings({ tone })}
                 aria-pressed={settings.tone === tone}
                 aria-label={t(tone)}
-                className={cn('size-6 rounded-md border transition-transform', settings.tone === tone ? 'scale-110 border-ink' : 'border-line-2 hover:scale-105', TONE_SWATCH[tone])}
+                className={cn('size-8 rounded-md border transition-transform focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', settings.tone === tone ? 'scale-110 border-ink' : 'border-line-2 hover:scale-105', TONE_SWATCH[tone])}
               />
             ))}
           </div>
@@ -318,11 +318,11 @@ function ToolSettingsPanel({
                 onClick={() => onSettings({ color: swatch })}
                 aria-pressed={settings.color === swatch}
                 aria-label={swatch}
-                className={cn('size-5 rounded-full border transition-transform', settings.color === swatch ? 'scale-110 border-ink' : 'border-line-2 hover:scale-105')}
+                className={cn('size-8 rounded-full border transition-transform focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', settings.color === swatch ? 'scale-110 border-ink' : 'border-line-2 hover:scale-105')}
                 style={{ backgroundColor: swatch }}
               />
             ))}
-            <label className="grid size-5 cursor-pointer place-items-center rounded-full border border-dashed border-line-2 text-[9px] text-ink-3" title={t('Any colour')}>
+            <label className="grid size-8 cursor-pointer place-items-center rounded-full border border-dashed border-line-2 text-[11px] text-ink-3 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-[var(--color-primary)]" title={t('Any colour')}>
               +
               <input type="color" value={settings.color} onChange={(event) => onSettings({ color: event.target.value })} className="sr-only" />
             </label>
@@ -342,7 +342,7 @@ function ToolSettingsPanel({
                   onClick={() => onSettings({ eraserMode: mode })}
                   aria-pressed={settings.eraserMode === mode}
                   className={cn(
-                    'rounded-md border px-2 py-1.5 text-[11.5px] transition-colors',
+                    'min-h-9 rounded-md border px-2 py-1.5 text-[11.5px] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
                     settings.eraserMode === mode ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset',
                   )}
                 >

@@ -8,6 +8,7 @@ import SwiftUI
 /// the two together is what makes a progress strip useless — someone scanning
 /// for unfinished work needs to know which gaps they already went by.
 struct QuestionNavigator: View {
+    @Environment(\.strings) private var strings
     let model: QuestionBankModel
     var store: QBankStore?
     let jump: (Int) -> Void
@@ -42,13 +43,13 @@ struct QuestionNavigator: View {
                 .padding(20)
             }
             .background(Theme.paper)
-            .navigationTitle("Questions")
+            .navigationTitle(strings("Questions"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") { dismiss() }
+                    Button(strings("Done")) { dismiss() }
                         .font(Theme.ui(16, weight: 600))
-                        .tint(Theme.accent)
+                        .tint(Theme.primary)
                 }
             }
         }
@@ -73,7 +74,7 @@ struct QuestionNavigator: View {
                 if flagged {
                     Image(systemName: "flag.fill")
                         .font(.system(size: 8))
-                        .foregroundStyle(Theme.accent)
+                        .foregroundStyle(Theme.primary)
                         .padding(3)
                 }
             }
@@ -115,6 +116,9 @@ struct QuestionNavigator: View {
 
     private func colour(_ state: QuestionState) -> (fill: Color, border: Color, ink: Color) {
         switch state {
+        // Blue, not crimson. Crimson is the action colour and is what a
+        // flag uses, so an answered question drawn in it said the same thing
+        // as one marked for review.
         case .answered: (Theme.accentTint, Theme.accent, Theme.accentStrong)
         case .correct: (Theme.successTint, Theme.success, Theme.success)
         case .wrong: (Theme.dangerTint, Theme.danger, Theme.danger)
@@ -129,6 +133,7 @@ struct QuestionNavigator: View {
 /// Kept against the question rather than the sitting, so a note made in March
 /// is still there when the same question comes round in June.
 struct QuestionNoteSheet: View {
+    @Environment(\.strings) private var strings
     @Binding var text: String
     var store: QBankStore?
     let save: () -> Void
@@ -156,16 +161,16 @@ struct QuestionNoteSheet: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("Your note")
+            .navigationTitle(strings("Your note"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") {
+                    Button(strings("Done")) {
                         save()
                         dismiss()
                     }
                     .font(Theme.ui(16, weight: 600))
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                 }
             }
         }

@@ -30,6 +30,7 @@ import { COURSE_CURRICULA_STORAGE_KEY, type CourseCurriculumSelection } from '@/
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { canonicalPlacementFor } from '@/data/taxonomyCrosswalk'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
@@ -294,7 +295,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
     onGraphChange({ ...graph, relations: [...graph.relations, { id: `relation-${Date.now()}`, sourceId: relationSource, type: relationType, targetId: relationTarget, verificationStatus: 'needs_evidence', evidenceClaimIds: [], citationIds: [], reviewer: 'Medical team, Admin team' }] })
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50 bg-paper" role="dialog" aria-modal="true" aria-labelledby="article-editor-title">
       <form className="flex h-full flex-col pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)]" onSubmit={(event) => { event.preventDefault(); if (!valid) return; const base = draft.articleData ?? blankArticleData(); const sections = (base.sections ?? []).map((s) => ({ ...s, heading: s.heading.trim(), body: s.body.trim() })).filter((s) => s.heading || s.body).sort((a, b) => (a.kind === 'components' ? 1 : 0) - (b.kind === 'components' ? 1 : 0)); const finalData = { ...base, sections, body: base.body || sections.map((s) => `${s.heading}\n${s.body}`).join('\n\n') }; onSave({ ...draft, id: draft.id || `article-${Date.now()}`, title: draft.title.trim(), updatedAt: new Date().toISOString(), fields: { ...draft.fields, Summary: finalData.summary, 'Key point': finalData.holdThese[0] ?? '', 'Content owner': draft.owner, Reviewer: finalData.reviewer ?? '', Publisher: finalData.finalPublisher ?? '', 'Publication gate': finalData.publicationGate ?? '' }, articleData: finalData }) }}>
         <header className="flex shrink-0 flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-2.5 sm:h-16 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-0">
@@ -394,7 +395,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
                       <Select aria-label="University" value={note.universityId} onChange={(e) => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).map((x) => x.id === note.id ? { ...x, universityId: e.target.value } : x) }))} className="h-8 text-[12px]">
                         {universities.map((u) => <option key={u.id} value={u.id}>{u.short}</option>)}
                       </Select>
-                      <button type="button" onClick={() => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).filter((x) => x.id !== note.id) }))} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove note"><Icon icon={Trash2} size={13} /></button>
+                      <button type="button" onClick={() => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).filter((x) => x.id !== note.id) }))} className="grid size-10 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger sm:size-8" aria-label="Remove note"><Icon icon={Trash2} size={13} /></button>
                     </div>
                     <Textarea aria-label="Note text" value={note.text} onChange={(e) => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).map((x) => x.id === note.id ? { ...x, text: e.target.value } : x) }))} placeholder="Note shown only to this university…" className="mt-1.5 min-h-16 text-[12.5px]" />
                   </div>
@@ -430,7 +431,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               {(data.universityNotes ?? []).filter((n) => n.text.trim()).map((note) => {
                 const uni = universities.find((u) => u.id === note.universityId)
                 return (
-                  <div key={note.id} className="mt-4 overflow-hidden rounded-xl border-s-4 border-s-primary border-y border-e border-primary-line bg-primary-tint/40">
+                  <div key={note.id} className="mt-4 overflow-hidden rounded-xl border border-primary-line bg-primary-tint/40">
                     <div className="flex items-center gap-1.5 border-b border-primary-line/70 px-3.5 py-1.5">
                       <Icon icon={Flag} size={13} className="text-primary-strong" />
                       <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-primary-strong">{uni?.short ?? note.universityId} only</span>

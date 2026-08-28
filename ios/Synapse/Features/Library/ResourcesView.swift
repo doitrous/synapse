@@ -2,6 +2,7 @@ import SwiftUI
 
 /// The resource catalogue: folders of books, decks, guidelines and video.
 struct ResourcesView: View {
+    @Environment(\.strings) private var strings
     @State private var model: ResourceModel
     let sync: SyncEngine
 
@@ -24,7 +25,7 @@ struct ResourcesView: View {
         NavigationStack {
             Group {
                 if model.isLoading {
-                    ProgressView().tint(Theme.accent)
+                    ProgressView().tint(Theme.primary)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if let reason = model.emptyReason {
                     EmptyStateView(symbol: "folder", title: "No resources yet", detail: reason)
@@ -33,7 +34,7 @@ struct ResourcesView: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("Resources")
+            .navigationTitle(strings("Resources"))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
@@ -41,7 +42,7 @@ struct ResourcesView: View {
                     } label: {
                         Image(systemName: savedOnly ? "bookmark.fill" : "bookmark")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                     .accessibilityLabel(savedOnly ? "Showing saved only" : "Show saved only")
                 }
             }
@@ -149,7 +150,7 @@ struct ResourcesView: View {
         Button(action: toggle) {
             HStack(spacing: 10) {
                 Image(systemName: isOn ? "checkmark.square.fill" : "square")
-                    .foregroundStyle(isOn ? Theme.accent : Theme.ink3)
+                    .foregroundStyle(isOn ? Theme.primary : Theme.ink3)
                 Text(title)
                     .font(Theme.ui(14))
                     .foregroundStyle(Theme.ink)
@@ -185,6 +186,7 @@ struct ResourcesView: View {
 }
 
 private struct ResourceRow: View {
+    @Environment(\.strings) private var strings
     let resource: LibraryResource
     let isSaved: Bool
     let isDownloaded: Bool
@@ -194,7 +196,7 @@ private struct ResourceRow: View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: resource.type.symbol)
                 .font(.system(size: 15))
-                .foregroundStyle(Theme.accent)
+                .foregroundStyle(Theme.primary)
                 .frame(width: 22)
 
             VStack(alignment: .leading, spacing: 3) {
@@ -205,7 +207,7 @@ private struct ResourceRow: View {
                 HStack(spacing: 6) {
                     Text(resource.source)
                     if let year = resource.year {
-                        Text("·")
+                        Text(strings("·"))
                         Text(String(year)).font(Theme.numeric(12))
                     }
                 }
@@ -216,11 +218,11 @@ private struct ResourceRow: View {
                 // A resource can be catalogued before its file is uploaded.
                 // Saying so is better than a tap that opens nothing.
                 if !resource.isOpenable {
-                    Text("File not uploaded yet")
+                    Text(strings("File not uploaded yet"))
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                 } else if isDownloaded {
-                    Label("On this phone", systemImage: "checkmark.circle")
+                    Label(strings("On this phone"), systemImage: "checkmark.circle")
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.success)
                 } else if let pages = resource.file?.pageCount {
@@ -235,7 +237,7 @@ private struct ResourceRow: View {
             Button(action: toggle) {
                 Image(systemName: isSaved ? "bookmark.fill" : "bookmark")
                     .font(.system(size: 14))
-                    .foregroundStyle(isSaved ? Theme.accent : Theme.ink3)
+                    .foregroundStyle(isSaved ? Theme.primary : Theme.ink3)
             }
             .buttonStyle(.plain)
             .accessibilityLabel(isSaved ? "Remove from saved" : "Save")
@@ -246,6 +248,7 @@ private struct ResourceRow: View {
 
 /// Shared empty state, so every surface explains itself the same way.
 struct EmptyStateView: View {
+    @Environment(\.strings) private var strings
     let symbol: String
     let title: LocalizedStringKey
     let detail: String

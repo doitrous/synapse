@@ -100,7 +100,7 @@ export function HowItWorks({ study }: { study: AdaptiveStudy }) {
 
       <div className="grid gap-5 lg:grid-cols-2">
         <Panel>
-          <PanelHeader title={t('What Connect Cortex measures')} icon={BookOpenCheck} />
+          <PanelHeader title={t('What Maristana measures')} icon={BookOpenCheck} />
           <div className="space-y-4 p-5">
             {MEASURED.map(([title, body]) => (
               <div key={title}>
@@ -240,7 +240,7 @@ export function HowItWorks({ study }: { study: AdaptiveStudy }) {
                   <span className="tnum font-mono text-[11.5px] text-ink-3">{note.at}</span>
                 </div>
                 {/* The lookup does the right thing on both kinds of note. The
-                    configuration Connect Cortex ships with carries a note we wrote, and
+                    configuration Maristana ships with carries a note we wrote, and
                     it is translated. A note an administrator typed has no entry,
                     so it falls back to exactly what they wrote — translating that
                     would put words in their mouth about why a student's score

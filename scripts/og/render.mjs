@@ -1,34 +1,39 @@
-// Rasterizes the Open Graph / link-preview cards (SVG -> PNG at 1200x630).
-// Run with: npm run og
-// Arabic text shapes via the host's system fonts (Geeza Pro et al.), so run
-// on macOS for faithful output. The committed PNGs in public/ are what ships.
+// Rasterizes the Maristana identity assets and Open Graph cards.
+// Run with: npm run og. The committed PNGs in public/ are what ships.
 import { Resvg } from '@resvg/resvg-js'
-import { readFileSync, writeFileSync } from 'node:fs'
+import { copyFileSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const PAPER = '#f5f7fb' // --color-paper
-
-// The brand mark is the supplied PNG, not a traced vector, so it is inlined as
-// a data URI at render time. Keeping it out of the .svg files means those stay
-// readable and diffable instead of carrying 150KB of base64 each.
-const markPath = fileURLToPath(new URL('../../public/brand/logo.png', import.meta.url))
-const MARK = `data:image/png;base64,${readFileSync(markPath).toString('base64')}`
+const FONT = { loadSystemFonts: true }
 
 const jobs = [
-  ['./og-image.svg', '../../public/og-image.png'],
-  ['./og-image-ar.svg', '../../public/og-image-ar.png'],
+  { src: '../../public/brand/maristana-mark.svg', out: '../../public/brand/maristana-mark.png', width: 512 },
+  { src: '../../public/brand/maristana-mark-dark.svg', out: '../../public/brand/maristana-mark-dark.png', width: 512 },
+  { src: '../../public/brand/maristana-mark-mono.svg', out: '../../public/brand/maristana-mark-mono.png', width: 512 },
+  { src: '../../public/brand/maristana-mark-white.svg', out: '../../public/brand/maristana-mark-white.png', width: 512 },
+  { src: '../../public/brand/maristana-lockup.svg', out: '../../public/brand/maristana-lockup.png', width: 800 },
+  { src: '../../public/brand/maristana-lockup-dark.svg', out: '../../public/brand/maristana-lockup-dark.png', width: 800 },
+  { src: '../../public/brand/maristana-mark.svg', out: '../../public/favicon.png', width: 128 },
+  { src: './og-image.svg', out: '../../public/og-image.png', width: 1200, background: PAPER },
+  { src: './og-image-ar.svg', out: '../../public/og-image-ar.png', width: 1200, background: PAPER },
 ]
 
-for (const [src, out] of jobs) {
-  const svg = readFileSync(fileURLToPath(new URL(src, import.meta.url)), 'utf8').replaceAll('__MARK__', MARK)
+for (const job of jobs) {
+  const svg = readFileSync(fileURLToPath(new URL(job.src, import.meta.url)), 'utf8')
   const png = new Resvg(svg, {
-    fitTo: { mode: 'width', value: 1200 },
-    font: { loadSystemFonts: true },
-    background: PAPER,
+    fitTo: { mode: 'width', value: job.width },
+    font: FONT,
+    ...(job.background ? { background: job.background } : {}),
   })
     .render()
     .asPng()
-  const outPath = fileURLToPath(new URL(out, import.meta.url))
+  const outPath = fileURLToPath(new URL(job.out, import.meta.url))
   writeFileSync(outPath, png)
-  console.log(`rendered ${out} (${png.length} bytes)`)
+  console.log(`rendered ${job.out} (${png.length} bytes)`)
 }
+
+copyFileSync(
+  fileURLToPath(new URL('../../public/og-image.png', import.meta.url)),
+  fileURLToPath(new URL('../../public/social-preview.png', import.meta.url)),
+)

@@ -7,10 +7,14 @@ import SwiftUI
 /// and renders a 400-page textbook without loading all of it — none of which a
 /// `WKWebView` pointed at a file gives you.
 struct ResourceReaderView: View {
+    @Environment(\.strings) private var strings
     let resource: LibraryResource
     let files: ResourceFileStore
     let api: SynapseAPI
     let sync: SyncEngine
+    /// A page a citation asked for, so a fact can land on its exact source
+    /// rather than on the first page of a four-hundred-page book.
+    var openAt: Int?
 
     @State private var pageLabel = ""
     @State private var annotations: AnnotationStore?
@@ -72,15 +76,15 @@ struct ResourceReaderView: View {
                     Button { panel = .contents } label: {
                         Image(systemName: "list.bullet.indent")
                     }
-                    .tint(Theme.accent)
-                    .accessibilityLabel("Contents")
+                    .tint(Theme.primary)
+                    .accessibilityLabel(strings("Contents"))
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { panel = .search } label: {
                         Image(systemName: "magnifyingglass")
                     }
-                    .tint(Theme.accent)
-                    .accessibilityLabel("Search this document")
+                    .tint(Theme.primary)
+                    .accessibilityLabel(strings("Search this document"))
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Menu {
@@ -95,12 +99,12 @@ struct ResourceReaderView: View {
                         Button(role: .destructive) {
                             files.delete(resource.id)
                         } label: {
-                            Label("Remove download", systemImage: "trash")
+                            Label(strings("Remove download"), systemImage: "trash")
                         }
                     } label: {
                         Image(systemName: "ellipsis.circle")
                     }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
                 }
             }
         }
@@ -120,7 +124,7 @@ struct ResourceReaderView: View {
                             .foregroundStyle(Theme.ink2)
                             .padding(.horizontal, 10)
                             .padding(.vertical, 5)
-                            .background(.ultraThinMaterial, in: Capsule())
+                            .floatingChrome(in: Capsule())
                     }
                     if !selection.isEmpty { selectionBar }
                     // Reserved space too, and for the same reason: its buttons
@@ -183,11 +187,13 @@ struct ResourceReaderView: View {
                 },
                 close: { panel = nil }
             )
+            .localisedSheet()
         }
         .sheet(item: $editing) { object in
             WidgetTextSheet(object: object) { text in
                 Task { await retype(object, text: text) }
             }
+            .localisedSheet()
         }
         .overlay {
             ReaderToolbar(
@@ -204,7 +210,12 @@ struct ResourceReaderView: View {
             if target != nil { DispatchQueue.main.async { jumpTo = nil } }
         }
         .task {
-            noteOpened()
+            // Before anything else, so the reader opens where it was asked to
+            // rather than jumping there a moment after the student arrives.
+            if let openAt { jumpTo = openAt }
+            // Detached from the reader's own opening: a slow round trip must
+            // not hold up the page the student came to read.
+            Task { await noteOpened() }
             // Read off the main thread: a large book's outline is a tree of
             // several thousand nodes, and building it on the way in would show
             // the student a frozen page.
@@ -302,18 +313,19 @@ struct ResourceReaderView: View {
     }
 
     /// Note that this document was opened, for the dashboard's "last used".
-    private func noteOpened() {
-        let defaults = UserDefaults.standard
-        let current = (defaults.data(forKey: RecentResource.key))
-            .flatMap { try? JSONDecoder().decode([RecentResource].self, from: $0) } ?? []
-
+    ///
+    /// Read from the server before it is written back. The key is dotted, so it
+    /// is a record the student owns and carries between devices — writing only
+    /// to this device would let a phone and a laptop each hold half a reading
+    /// history and overwrite the other's half on the next open.
+    private func noteOpened() async {
+        let current = (try? await api.userState([RecentResource].self, key: RecentResource.key))?.value ?? []
         let opened = RecentResource(
             id: resource.id, title: resource.title, type: resource.type.rawValue,
             subjectId: resource.subjectId, meta: resource.meta,
             openedAt: ISO8601DateFormatter().string(from: Date())
         )
-        guard let data = try? JSONEncoder().encode(RecentResource.noting(opened, in: current)) else { return }
-        defaults.set(data, forKey: RecentResource.key)
+        await sync.write(key: RecentResource.key, value: RecentResource.noting(opened, in: current))
     }
 
     /// How long this sitting has been.
@@ -335,10 +347,10 @@ struct ResourceReaderView: View {
             }
         }
         .font(Theme.ui(13, weight: 600))
-        .tint(Theme.accent)
+        .tint(Theme.primary)
         .padding(.horizontal, 16)
         .padding(.vertical, 10)
-        .background(.regularMaterial, in: Capsule())
+        .floatingChrome(in: Capsule())
         .padding(.bottom, 16)
     }
 
@@ -416,24 +428,24 @@ struct ResourceReaderView: View {
                 Button {
                     editing = only
                 } label: {
-                    Label("Edit", systemImage: "character.cursor.ibeam")
+                    Label(strings("Edit"), systemImage: "character.cursor.ibeam")
                 }
             }
 
             Button(role: .destructive) {
                 Task { await removeSelection() }
             } label: {
-                Label("Delete", systemImage: "trash")
+                Label(strings("Delete"), systemImage: "trash")
             }
 
-            Button("Done") { selection = [] }
+            Button(strings("Done")) { selection = [] }
         }
         .font(Theme.ui(13, weight: 600))
         .labelStyle(.titleOnly)
-        .tint(Theme.accent)
+        .tint(Theme.primary)
         .padding(.horizontal, 16)
         .padding(.vertical, 10)
-        .background(.regularMaterial, in: Capsule())
+        .floatingChrome(in: Capsule())
         .padding(.bottom, 16)
     }
 
@@ -455,14 +467,14 @@ struct ResourceReaderView: View {
     private func downloading(_ fraction: Double) -> some View {
         VStack(spacing: 14) {
             ProgressView(value: fraction)
-                .tint(Theme.accent)
+                .tint(Theme.primary)
                 .frame(maxWidth: 220)
             Text(fraction > 0 ? "\(Int(fraction * 100))%" : "Starting…")
                 .font(Theme.numeric(13))
                 .foregroundStyle(Theme.ink2)
-            Button("Cancel") { files.cancel(resource.id) }
+            Button(strings("Cancel")) { files.cancel(resource.id) }
                 .font(Theme.ui(14))
-                .tint(Theme.accent)
+                .tint(Theme.primary)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
@@ -471,12 +483,12 @@ struct ResourceReaderView: View {
         VStack(spacing: 12) {
             Image(systemName: "arrow.down.circle")
                 .font(.system(size: 34))
-                .foregroundStyle(Theme.accent)
+                .foregroundStyle(Theme.primary)
             Text(resource.title)
                 .font(Theme.display(20))
                 .foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
-            Text("Download it once and it stays on this phone, with or without a signal.")
+            Text(strings("Download it once and it stays on this phone, with or without a signal."))
                 .font(Theme.ui(14))
                 .foregroundStyle(Theme.ink2)
                 .multilineTextAlignment(.center)
@@ -484,12 +496,12 @@ struct ResourceReaderView: View {
             Button {
                 files.download(resource.id)
             } label: {
-                Text("Download")
+                Text(strings("Download"))
                     .font(Theme.ui(16, weight: 600))
                     .frame(maxWidth: 220)
                     .frame(height: 46)
-                    .background(Theme.accent)
-                    .foregroundStyle(Theme.onAccent)
+                    .background(Theme.primary)
+                    .foregroundStyle(Theme.onPrimary)
                     .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
             }
             .padding(.top, 4)

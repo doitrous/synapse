@@ -3,6 +3,8 @@ import { ArrowLeft, ArrowRight, BookOpenText, ExternalLink, FileText, GitFork, T
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { Icon } from '@/components/ui/Icon'
+import { PlacedImage } from '@/components/ui/PlacedMedia'
+import { useMediaRecords } from '@/lib/useMediaRecords'
 import { Popover } from '@/components/ui/Popover'
 import { RichText } from '@/components/ui/RichText'
 import { apiOpenFile } from '@/lib/api'
@@ -31,6 +33,7 @@ function humanRelation(type: string) {
 
 export function ConceptText({ text, enabled = true }: { text: string; enabled?: boolean }) {
   const [open, setOpen] = useState<{ concept: Concept; anchor: HTMLElement } | null>(null)
+  const mediaRecords = useMediaRecords()
   const active = open?.concept ?? null
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
@@ -127,6 +130,18 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
             <p className="px-4 py-3 text-[13px] leading-[1.6] text-ink-2">
               {open.concept.definition || 'Definition awaiting editorial review.'}
             </p>
+
+            {/* A concept's own images, from the same library a question draws
+                on — so the plate a student meets in a question is the plate
+                they meet again here. */}
+            {(open.concept.mediaIds ?? []).length > 0 && (
+              <div className="px-4 pb-3">
+                {(open.concept.mediaIds ?? []).map((mediaId) => {
+                  const record = mediaRecords.get(mediaId)
+                  return record ? <PlacedImage key={mediaId} record={record} className="max-h-48 w-full rounded object-contain" /> : null
+                })}
+              </div>
+            )}
 
             {open.concept.pitfalls && (
               <div className="mx-4 mb-3 rounded-lg border border-warning/30 bg-warning-tint/50 p-3">

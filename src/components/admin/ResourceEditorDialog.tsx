@@ -26,6 +26,7 @@ import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { apiUploadMedicalResource } from '@/lib/api'
 import { universities, YEARS } from '@/data/universities'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 const RESOURCE_TYPES: ResourceType[] = ['Book', 'Video', 'Guideline', 'Deck', 'Article']
@@ -120,7 +121,7 @@ export function ResourceEditorDialog({ open, item, onClose, onSave }: {
     }
   }
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-labelledby="resource-editor-title">
       <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={onClose} aria-label="Close editor" />
       <div className="absolute inset-x-0 bottom-0 w-full sm:left-1/2 sm:top-1/2 sm:bottom-auto sm:w-[min(94vw,760px)] sm:-translate-x-1/2 sm:-translate-y-1/2">

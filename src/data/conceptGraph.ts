@@ -1,3 +1,4 @@
+import type { ExamSignal } from './examSignal.ts'
 export const CONCEPT_RELATIONS = [
   'related_concepts',
   'prerequisite_of',
@@ -81,6 +82,13 @@ export interface Concept {
   relatedConceptIds?: string[]
   /** Article IDs that discuss this concept. */
   relatedArticleIds?: string[]
+  /**
+   * Images shown with this concept, from the shared media library.
+   *
+   * Ids rather than URLs, so the plate on a question and the plate on the
+   * concept are one record: fixing it once fixes it in both.
+   */
+  mediaIds?: string[]
   /** Resource IDs approved for this concept — auto-maintained as resources are tagged. */
   resourceIds?: string[]
   approvedFileResourceIds?: string[]
@@ -106,6 +114,24 @@ export interface Concept {
   editorialReviewStatus?: string
   exclusionReason?: string | null
   weightConfidence?: number
+  /**
+   * Why this concept is weighted the way it is: which papers it appeared on,
+   * at what tier, in which year, and how sure the extraction was.
+   *
+   * `blueprintWeight` is a number with no account of itself, which is fine
+   * while weights are set by hand and useless once they come from hundreds of
+   * past papers. When this is present the blueprint derives the weight from it
+   * instead — see `examSignal.ts` — so the inputs stay reviewable and a weight
+   * can be recomputed when the rules change rather than re-gathered.
+   */
+  examSignal?: ExamSignal
+  /**
+   * Where inside a module this concept sits, as written:
+   * `101 ISK > Anatomy > Upper Limb`. The canonical placement is
+   * `primaryNodeId`; this is the curriculum's own, which is a different
+   * question and does not belong in the canonical tree.
+   */
+  moduleSubjectPaths?: string[]
   /** Field-specific reasons for values intentionally left empty. */
   fieldNotes?: Record<string, string>
 }

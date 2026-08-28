@@ -1,0 +1,129 @@
+{
+ "moduleId": "101 ISK",
+ "whatThisIs": "Three sources in this corpus are not exam papers but indices OF exam papers: a student-compiled list of what came up in each sitting, by round. They give no wording and no marks, so they cannot become questions. What they give is the one thing a single paper cannot — which topics recur, and in which round — so they are recorded here as exam-signal occurrences to be folded onto the concepts they name.",
+ "roundNames": {
+  "first": "الدور الأول — the May sitting, the main round",
+  "second": "الدور الثاني — the September sitting, for students who did not pass the first",
+  "third": "الدور الثالث / Baqoon — the third round"
+ },
+ "excluded": [
+  {
+   "batch": "195",
+   "label": "دفعة ۱۹٥ نظام قديم [2022] OLD",
+   "reason": "The source marks this cohort explicitly as نظام قديم — the OLD SYSTEM. The extraction programme excludes OLD SYSTEM material entirely, so its two listed topics are recorded here as excluded rather than carried. They are named so that a later reader can see what was skipped and why, not so they can be used.",
+   "topicsNotUsed": [
+    "Enumerate the boundaries of the axilla.",
+    "Attachment, nerve supply and action of the Deltoid muscle.",
+    "List the branches of the radial nerve."
+   ]
+  }
+ ],
+ "sittings": [
+  {
+   "sourceId": "src_bd5efc3c8bfaac0c23d9",
+   "file": "EOY Anatomy Previous Year Exams Anatomy Questions.rtf",
+   "batchCode": "196",
+   "calendarYear": 2023,
+   "round": "first",
+   "section": "Anatomy",
+   "topics": [
+    "Flexor retinaculum (attachment and relations)",
+    "Elbow joint (movement, muscles and ligaments)",
+    "Radial artery (origin, course, end and branches in forearm)",
+    "Radial nerve (branches)",
+    "Muscles producing abduction of the shoulder joint (attachments, nerve supply and action)"
+   ]
+  },
+  {
+   "sourceId": "src_bd5efc3c8bfaac0c23d9",
+   "file": "EOY Anatomy Previous Year Exams Anatomy Questions.rtf",
+   "batchCode": "196",
+   "calendarYear": 2023,
+   "round": "second",
+   "section": "Anatomy",
+   "corroboratedBy": "src_ec930bfde4ad26924402",
+   "topics": [
+    "Anastomosis around the scapula",
+    "Wrist joint (movement, muscles and ligaments)",
+    "Brachial artery (origin, course, end and branches)",
+    "Rotator cuff muscles (attachments, nerve supply and action)",
+    "Brachial plexus (formation and branches)"
+   ]
+  },
+  {
+   "sourceId": "src_ec930bfde4ad26924402",
+   "file": "EOY 196 final written 101 summer (1).pdf",
+   "batchCode": "196",
+   "calendarYear": 2023,
+   "round": "second",
+   "section": "Anatomy, Embryology and Basis",
+   "note": "Its Upper Limb list is identical to the RTF's 196 second-round list, which is how the two are known to describe the same sitting. This file adds the embryology and basis half, which the RTF omits.",
+   "topics": [
+    "Anastomosis around the scapula",
+    "Wrist joint (movement, muscles and ligaments)",
+    "Brachial artery (origin, course, end and branches)",
+    "Rotator cuff muscles (attachments, nerve supply and action)",
+    "Brachial plexus (formation and branches)",
+    "Summarise the notochord",
+    "Results of folding",
+    "Umbilical cord abnormalities",
+    "Synovial joint",
+    "Arterial blood supply of long bones"
+   ]
+  },
+  {
+   "sourceId": "src_204de291b4763ebc9304",
+   "file": "EOY ANATOMY EMBRYOLOGY Q 2 (1).pdf",
+   "batchCode": "196",
+   "calendarYear": 2023,
+   "round": "unclear",
+   "section": "Embryology",
+   "note": "The sheet lists batch codes 195(1), 195(2), 196(1) and 196(2) down its right margin against three topics, and the alignment of topic to code is not recoverable from the text layer — the layout is a table the extraction flattens. The topics are certainly asked; which sitting each belongs to is not established here and must not be guessed, because the whole value of this file is the sitting attribution.",
+   "topics": [
+    "Functions of amniotic fluid in pregnancy",
+    "Abnormality of implantation",
+    "Development and differentiation of paraxial mesoderm"
+   ]
+  }
+ ],
+ "modelAnswers": [
+  {
+   "sourceId": "src_cd60acf6ffe62830b01d",
+   "file": "EOY 196 Extra Histo 101 .PNG",
+   "title": "HISTOLOGY MODEL ANSWER — ISK 101 (July 2023)",
+   "batchCode": "196",
+   "calendarYear": 2023,
+   "whyThisMatters": "The examiner's own model answer, with the marks allocated point by point and in halves. Every other mark scheme in this programme is authored from the department book and says so; this one is the department's. It should govern the two concepts it covers, and it shows the granularity the faculty marks at.",
+   "questions": [
+    {
+     "number": "1a",
+     "marks": 3,
+     "asked": "Describe the electron microscopic picture of rER.",
+     "modelAnswer": [
+      { "point": "Parallel flattened cisternae", "marks": 0.5 },
+      { "point": "Continuous with the outer nuclear envelope", "marks": 0.5 },
+      { "point": "Covered with electron-dense particles, the ribosomes", "marks": 0.5 },
+      { "point": "Ribosomes bound to specific receptors (ribophorins) on the membranes by their large subunits", "marks": 0.5 },
+      { "point": "Under the receptor is a pore that allows newly synthesised proteins to enter", "marks": 0.5 },
+      { "point": "Proteins are stored in the rER cisternae", "marks": 0.5 }
+     ]
+    },
+    {
+     "number": "1b",
+     "marks": 3,
+     "asked": "Determine the types of secondary lysosomes according to their content.",
+     "modelAnswer": [
+      { "point": "Heterolysosome", "marks": 0.5 },
+      { "point": "Formed by fusion of a primary lysosome and a phagosome, or contains a phagosome or solid particles, or viruses and bacteria", "marks": 0.5 },
+      { "point": "Multivesicular body", "marks": 0.5 },
+      { "point": "Formed by fusion of a primary lysosome and a pinocytic vesicle, or has fluid content", "marks": 0.5 },
+      { "point": "Autolysosome", "marks": 0.5 },
+      { "point": "Formed by fusion of a primary lysosome and an autophagic vesicle, or contains destroyed endogenous substance or a damaged organelle", "marks": 0.5 }
+     ]
+    }
+   ],
+   "bearingOnExistingContent": "Question 1b is the same objective as the concept `lysosome-types-electron-microscopy`, minted from the 2025 paper's Histology Q4. The model answer confirms the three types and, more usefully, shows that the faculty marks the name and the mechanism of formation as separate half-marks — so a mark scheme listing only the three names is worth half of what it should be. It also shows the accepted answers are alternatives joined by OR, which is to say the marking is open-set within each point.",
+   "extraction": "OCR, tesseract eng, --psm 4, single 1170x1208 image. Half-mark glyphs render inconsistently (as ½, ‘/2, %, 7 and ‘/) and were read as 0.5 throughout on the arithmetic: six points to three marks in each question."
+  }
+ ]
+}

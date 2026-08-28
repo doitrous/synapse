@@ -65,3 +65,57 @@ test('partitioning reports both sides of a mixed selection', () => {
   assert.equal(blocked.length, 2)
   assert.equal(blocked[0].reason, 'Needs evidence')
 })
+
+test('required media hard-blocks every owner type and cannot be declined past', () => {
+  for (const kind of ['question', 'article', 'practical'] as const) {
+    const item = {
+      ...base, id: kind, kind,
+      [`${kind}Data`]: {
+        mediaRequests: [{
+          id: 'mr-1', ownerId: kind, ownerKind: kind, medium: 'image', kind: 'diagram',
+          brief: 'Required figure', teachingPurpose: 'Carries the tested relationship',
+          priority: 'required', status: 'declined',
+        }],
+      },
+    } as unknown as ManagedContentItem
+    const verdict = publishReadiness(item)
+    assert.equal(verdict.ready, false)
+    assert.equal(verdict.hardBlocked, true)
+  }
+})
+
+test('required media is resolved only by a supplied managed asset', () => {
+  const item = {
+    ...base, id: 'q', kind: 'question',
+    questionData: { mediaRequests: [{
+      id: 'mr-1', ownerId: 'q', ownerKind: 'question', medium: 'image', kind: 'diagram',
+      brief: 'Required figure', teachingPurpose: 'Carries the tested relationship',
+      priority: 'required', status: 'supplied', mediaId: 'media-1',
+    }] },
+  } as unknown as ManagedContentItem
+  assert.equal(publishReadiness(item).ready, true)
+})
+
+test('a detached archive cannot be republished globally by accident', () => {
+  const item = {
+    ...base,
+    id: 'q-archive',
+    kind: 'question',
+    status: 'Archived',
+    archive: {
+      operationId: 'archive-1', actorId: 'admin-1', reason: 'Legacy generated content',
+      archivedAt: '2026-08-25T20:00:00.000Z', originalStatus: 'Published', detached: true,
+    },
+    questionData: { tags: { moduleIds: [], moduleSubjectPaths: [], universityIds: [], years: [] } },
+  } as unknown as ManagedContentItem
+  const blocked = publishReadiness(item)
+  assert.equal(blocked.ready, false)
+  assert.equal(blocked.hardBlocked, true)
+  assert.equal(blocked.reason, 'Assign a verified module and audience')
+
+  const reassigned = {
+    ...item,
+    questionData: { tags: { moduleIds: ['KAU-CVS-1'], moduleSubjectPaths: [], universityIds: ['KAU'], years: ['KAU_Y1'] } },
+  } as unknown as ManagedContentItem
+  assert.equal(publishReadiness(reassigned).ready, true)
+})

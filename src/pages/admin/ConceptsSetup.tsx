@@ -1,10 +1,15 @@
-import { useEffect, useState } from 'react'
+import { useMemo, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Braces, BookOpenText, Plus, Save, Trash2, Check, Upload, TriangleAlert, ExternalLink, FileText, Database } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
-import { Button } from '@/components/ui/Button'
+import { MediaPicker } from '@/components/admin/MediaPicker'
+import { PlacedImage } from '@/components/ui/PlacedMedia'
+import { useMediaRecords } from '@/lib/useMediaRecords'
+import { PRIORITY_BANDS, bandOf, effectiveWeight, weightForBand } from '@/data/conceptPriority'
+import { useScopedConcepts } from '@/lib/useScopedContent'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
@@ -25,6 +30,8 @@ import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { universities } from '@/data/universities'
 import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore, type ResourceRecord } from '@/data/medicalEvidence'
 import { apiOpenFile } from '@/lib/api'
+import { overlayPortal } from '@/lib/overlayPortal'
+import { useIdentity } from '@/lib/useIdentity'
 
 const slug = (value: string) =>
   value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'concept'
@@ -138,7 +145,7 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
 
                 <div className="mt-2.5 space-y-2">
                   {resourceCitations.length > 0 ? resourceCitations.map((citation) => (
-                    <div key={citation.id} className="rounded-md border-s-2 border-primary-line bg-surface-2/45 px-2.5 py-2">
+                    <div key={citation.id} className="rounded-md border border-primary-line/70 bg-surface-2/45 px-2.5 py-2">
                       <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
                         <span className="font-mono text-[10px] font-semibold text-primary-strong">{sourceLocatorLabel(citation.locator)}</span>
                         <span className={cn('text-[9.5px] font-semibold uppercase tracking-[0.04em]', citation.countsAsClaimEvidence ? 'text-success' : 'text-ink-3')}>
@@ -157,7 +164,7 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
                   <Button size="sm" variant="secondary" iconLeft={ExternalLink} onClick={() => void openResource(resource, resourceCitations)}>Go to source</Button>
                 </div>
                 {openError === resource.id && (
-                  <p role="alert" className="mt-2 rounded-md border border-warning/25 bg-warning-tint px-2.5 py-2 text-[10.5px] leading-relaxed text-warning">The citation is preserved, but this file is still awaiting secure upload to Connect Cortex storage.</p>
+                  <p role="alert" className="mt-2 rounded-md border border-warning/25 bg-warning-tint px-2.5 py-2 text-[10.5px] leading-relaxed text-warning">The citation is preserved, but this file is still awaiting secure upload to Maristana storage.</p>
                 )}
               </article>
             )
@@ -229,10 +236,23 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
 }
 
 export function ConceptsSetup() {
+  const identity = useIdentity()
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [medicalTaxonomy] = useMedicalTaxonomy()
+  /**
+   * The navigator's graph, narrowed to what this person may edit.
+   *
+   * Only the browsing list is scoped, never `graph` itself. Every write takes
+   * the functional form, and the lookups above — the duplicate-id check, the
+   * label resolver — must still see the whole graph: a reviewer who cannot edit
+   * a concept must still be stopped from creating a second one with its id, and
+   * a related concept outside their scope should read as its name rather than
+   * as a bare identifier.
+   */
+  const scopedConcepts = useScopedConcepts(graph.concepts)
+  const navigatorGraph = useMemo(() => ({ ...graph, concepts: scopedConcepts }), [graph, scopedConcepts])
   const [selectedId, setSelectedId] = useState<string | null>(graph.concepts[0]?.id ?? null)
   const [creating, setCreating] = useState(false)
   const [importing, setImporting] = useState(false)
@@ -451,13 +471,25 @@ export function ConceptsSetup() {
       <PageHeader
         title="Concepts"
         description="Concepts are the smallest assessable objectives. Author each one's definition, pitfalls, curriculum placement, weighting, and relationships. Definitions surface in a question — stem and answers — only after the student reveals the answer."
-        actions={<Link to="/admin/concepts/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link>}
+        actions={<ButtonLink to="/admin/concepts/import" variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink>}
       />
+
+      {identity.role === 'reviewer' && (
+        <Panel className="mb-4 p-4">
+          <p className="text-[13px] font-semibold text-ink">Reviewer workflow</p>
+          <ol className="mt-2 grid gap-2 text-[12.5px] leading-relaxed text-ink-2 sm:grid-cols-2 xl:grid-cols-4">
+            <li><span className="font-semibold text-ink">1.</span> Select a concept from your scoped navigator.</li>
+            <li><span className="font-semibold text-ink">2.</span> Confirm the definition, aliases, pitfall, placement, and evidence notes are student-safe.</li>
+            <li><span className="font-semibold text-ink">3.</span> Save the concept before leaving the page.</li>
+            <li><span className="font-semibold text-ink">4.</span> Relationship editing appears only if your role holds that tab.</li>
+          </ol>
+        </Panel>
+      )}
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(19rem,22rem)_minmax(0,1fr)]">
         {/* ---- Navigator: stays put while the editor scrolls ---- */}
         <ConceptNavigator
-          graph={graph}
+          graph={navigatorGraph}
           taxonomy={taxonomy}
           medicalTaxonomy={medicalTaxonomy}
           selectedId={selectedId}
@@ -465,8 +497,8 @@ export function ConceptsSetup() {
           onRename={renameBranch}
           action={<Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="w-full">New concept</Button>}
           footer={<>
-            <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.length}</span> concepts ·{' '}
-            <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.filter((c) => !c.definition).length}</span> without a definition
+            <span className="tnum font-mono font-medium text-ink-2">{scopedConcepts.length}</span> concepts ·{' '}
+            <span className="tnum font-mono font-medium text-ink-2">{scopedConcepts.filter((c) => !c.definition).length}</span> without a definition
           </>}
           className="lg:sticky lg:top-[4.5rem] lg:max-h-[calc(100dvh-6rem)]"
         />
@@ -501,10 +533,15 @@ export function ConceptsSetup() {
                       <option value="inactive">Inactive</option>
                     </Select>
                   </Field>
-                  <Field label="Blueprint weight (0–1)">
-                    <TextInput type="number" min={0} max={1} step={0.05} value={draft.blueprintWeight ?? 0} onChange={(e) => patch({ blueprintWeight: num01(e.target.value) })} />
-                  </Field>
+                  <ExamPriorityFields draft={draft} patch={patch} num01={num01} />
                 </div>
+
+                {/* The same records questions use, so the plate on a question
+                    and the plate on the concept are one image. */}
+                <ConceptMediaField
+                  mediaIds={draft.mediaIds ?? []}
+                  onChange={(mediaIds) => patch({ mediaIds })}
+                />
 
                 <div className="grid grid-cols-2 gap-3">
                   <Field label="Clinical relevance (0–1)">
@@ -555,7 +592,11 @@ export function ConceptsSetup() {
                 <div className="rounded-lg border border-line bg-surface-2/40 p-3">
                   <div className="mb-1.5 flex items-center justify-between">
                     <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Relationships</p>
-                    <Link to="/admin/relationships" className="text-[11px] font-medium text-primary hover:text-primary-strong">Manage →</Link>
+                    {identity.tabs.includes('relationships') ? (
+                      <Link to="/admin/relationships" className="text-[11px] font-medium text-primary hover:text-primary-strong">Manage →</Link>
+                    ) : (
+                      <span className="text-[11px] text-ink-3">Relationship editing unavailable</span>
+                    )}
                   </div>
                   {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).slice(0, 6).map((rel) => (
                     <p key={rel.id} className="font-mono text-[10.5px] leading-relaxed text-ink-2">
@@ -563,7 +604,7 @@ export function ConceptsSetup() {
                     </p>
                   ))}
                   {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).length === 0 && (
-                    <p className="text-[11.5px] text-ink-3">No relationships yet — add them in the Relationships tab.</p>
+                    <p className="text-[11.5px] text-ink-3">{identity.tabs.includes('relationships') ? 'No relationships yet — add them in the Relationships tab.' : 'No relationships are attached to this concept.'}</p>
                   )}
                 </div>
 
@@ -598,7 +639,7 @@ export function ConceptsSetup() {
       </div>
 
       {/* ---- New concept dialog ---- */}
-      {creating && (
+      {creating && overlayPortal(
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="New concept" onMouseDown={() => setCreating(false)}>
           <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-lg sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
             <PanelHeader title="New concept" icon={Plus} />
@@ -649,7 +690,7 @@ export function ConceptsSetup() {
       )}
 
       {/* ---- Bulk import dialog ---- */}
-      {importing && (
+      {importing && overlayPortal(
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="Bulk import concepts" onMouseDown={() => setImporting(false)}>
           <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-xl sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
             <PanelHeader title="Bulk import concepts" icon={Upload} />
@@ -686,5 +727,106 @@ export function ConceptsSetup() {
         </div>
       )}
     </PageContainer>
+  )
+}
+
+/**
+ * The images shown with a concept.
+ *
+ * Drawn from the shared library rather than uploaded per concept, so the upper
+ * limb plate attached to forty questions is the same record here — and fixing
+ * it once fixes it in all of them.
+ */
+function ConceptMediaField({ mediaIds, onChange }: {
+  mediaIds: string[]
+  onChange: (next: string[]) => void
+}) {
+  const records = useMediaRecords()
+  const [picking, setPicking] = useState(false)
+  return (
+    <div>
+      <p className="mb-1.5 text-[11.5px] font-medium text-ink-2">Images</p>
+      {mediaIds.length > 0 && (
+        <ul className="mb-2 grid grid-cols-2 gap-2 sm:grid-cols-3">
+          {mediaIds.map((mediaId) => {
+            const record = records.get(mediaId)
+            return (
+              <li key={mediaId} className="rounded-lg border border-line p-1">
+                {record
+                  ? <PlacedImage record={record} className="max-h-20 w-full rounded object-contain" />
+                  : <p className="p-2 text-[11px] text-warning">no longer in the library</p>}
+                <button
+                  type="button"
+                  className="mt-1 min-h-10 w-full rounded px-1 py-1 text-[11px] text-ink-3 hover:bg-inset hover:text-danger sm:min-h-0"
+                  onClick={() => onChange(mediaIds.filter((candidate) => candidate !== mediaId))}
+                >
+                  Remove
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+      )}
+      {picking
+        ? <MediaPicker onPick={(mediaId) => { setPicking(false); if (!mediaIds.includes(mediaId)) onChange([...mediaIds, mediaId]) }} onCancel={() => setPicking(false)} />
+        : <Button size="sm" variant="secondary" onClick={() => setPicking(true)}>Add an image</Button>}
+    </div>
+  )
+}
+
+/**
+ * A concept's exam priority, said in words — and who decided it.
+ *
+ * The weight is one number with two possible sources. Where past papers have
+ * been gathered, `examSignal` derives it and `blueprint.ts` uses that; where
+ * they have not, somebody types it. Offering an editable band in the first case
+ * would let a reviewer set a value the study order ignores, which is the
+ * two-sources-of-truth problem these bands exist to prevent — so where evidence
+ * owns the weight the band states it and does not offer to change it, and says
+ * what to change instead.
+ */
+function ExamPriorityFields({ draft, patch, num01 }: {
+  draft: Partial<Concept>
+  patch: (fields: Partial<Concept>) => void
+  num01: (value: string) => number
+}) {
+  const currentYear = new Date().getFullYear()
+  const { weight, derived } = effectiveWeight(draft, currentYear)
+  const band = bandOf(weight)
+
+  return (
+    <>
+      <Field label="Exam priority" hint={band.hint}>
+        {derived ? (
+          <div className="flex h-9 items-center gap-2 rounded-lg border border-line bg-inset px-3">
+            <Badge tone="primary">{band.label}</Badge>
+            <span className="text-[11.5px] text-ink-3">from past papers</span>
+          </div>
+        ) : (
+          <Select
+            value={band.id}
+            onChange={(e) => patch({ blueprintWeight: weightForBand(e.target.value as ReturnType<typeof bandOf>['id']) })}
+          >
+            {PRIORITY_BANDS.map((option) => <option key={option.id} value={option.id}>{option.label}</option>)}
+          </Select>
+        )}
+      </Field>
+      <Field
+        label={derived ? 'Derived weight (0–1)' : 'Blueprint weight (0–1)'}
+        hint={derived
+          ? 'Computed from the papers this concept appeared on. Change the appearances, not this.'
+          : 'The number the study order reads. The band above writes it.'}
+      >
+        <TextInput
+          type="number"
+          min={0}
+          max={1}
+          step={0.05}
+          readOnly={derived}
+          value={derived ? weight.toFixed(2) : draft.blueprintWeight ?? 0}
+          onChange={(e) => patch({ blueprintWeight: num01(e.target.value) })}
+        />
+      </Field>
+    </>
   )
 }

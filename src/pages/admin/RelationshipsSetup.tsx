@@ -1,10 +1,9 @@
 import { Fragment, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { Plus, Trash2, ArrowRight, Upload, FileSpreadsheet, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
@@ -37,6 +36,7 @@ import {
   type ConceptGraph,
   type ConceptRelationType,
 } from '@/data/conceptGraph'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 /** Built-in directed relationship types (source → target). */
 const RELATION_TYPES: readonly ConceptRelationType[] = CONCEPT_RELATIONS
@@ -260,7 +260,7 @@ export function RelationshipsSetup() {
         actions={
           <div className="flex flex-wrap gap-2">
             <Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Paste relationships</Button>
-            <Link to="/admin/relationships/import"><Button variant="secondary" size="md" iconLeft={FileSpreadsheet}>Import a file</Button></Link>
+            <ButtonLink to="/admin/relationships/import" variant="secondary" size="md" iconLeft={FileSpreadsheet}>Import a file</ButtonLink>
           </div>
         }
       />
@@ -397,7 +397,7 @@ export function RelationshipsSetup() {
           <Field label="Citation ID(s)" hint="Must belong to the selected claims and point to exact source locations.">
             <TextInput value={citationText} onChange={(event) => setCitationText(event.target.value)} placeholder="CIT-…, CIT-…" />
           </Field>
-          <p className="sm:col-span-2 text-[11px] leading-relaxed text-ink-3">Connect Cortex marks the relationship verified only when every supplied claim is verified and at least one matching exact citation is present. Otherwise it remains “needs evidence.”</p>
+          <p className="sm:col-span-2 text-[11px] leading-relaxed text-ink-3">Maristana marks the relationship verified only when every supplied claim is verified and at least one matching exact citation is present. Otherwise it remains “needs evidence.”</p>
         </div>
         <div className="flex items-center justify-between gap-2 px-4 pb-4">
           <p className="text-[11.5px] text-ink-3">{source && targets.length ? `${conceptLabel(source)} ${bidirectional ? '↔' : '→'} ${type} ${bidirectional ? '↔' : '→'} ${targets.length} concept${targets.length === 1 ? '' : 's'}` : 'Pick a source and one or more targets.'}</p>
@@ -494,7 +494,7 @@ export function RelationshipsSetup() {
       </div>
 
       {/* Bulk import dialog */}
-      {importing && (
+      {importing && overlayPortal(
         <div className="fixed inset-0 z-50 grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-4" role="dialog" aria-modal="true" aria-label="Bulk import relationships" onMouseDown={() => setImporting(false)}>
           <Panel className="animate-pop flex max-h-[92dvh] w-full flex-col overflow-hidden rounded-b-none pb-[env(safe-area-inset-bottom)] shadow-pop sm:max-w-xl sm:rounded-xl" onMouseDown={(e) => e.stopPropagation()}>
             <PanelHeader title="Bulk import relationships" icon={Upload} />

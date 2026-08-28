@@ -1,12 +1,22 @@
 import type { Status } from './admin.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
+import type { AnswerLetter, MediaPlacement, MediaSlot } from './mediaLibrary.ts'
 import type { ArticleSection } from './userLibrary.ts'
+import type { DeckAuthoringData } from './decks.ts'
+import type { EssayAuthoringData } from './essay.ts'
+import type { HistologyAuthoringData } from './histology.ts'
 
 export type ArticleArchetype = 'condition' | 'presentation' | 'concept' | 'anatomy' | 'drug' | 'skill' | 'investigation' | 'organism' | 'emergency' | 'public-health'
 export type PublicationGate = 'publishable' | 'needs_evidence' | 'faculty_review' | 'conflicted' | 'excluded'
 
-export type ContentKind = 'question' | 'article' | 'practical' | 'resource'
+export type ContentKind = 'question' | 'article' | 'practical' | 'resource' | 'deck' | 'essay' | 'histology'
+
+import type { QuestionFormat, WrittenPart } from './questionFormat.ts'
+import type { MatchingPayload } from './matchingQuestion.ts'
+import type { MultiResponsePayload } from './multiResponseQuestion.ts'
+import type { LabelingPayload } from './labelingQuestion.ts'
+import type { CompletionPayload } from './completionQuestion.ts'
 
 export const CONTENT_LEDGER_STORAGE_KEY = 'synapse-admin-content-ledger-v4'
 
@@ -93,7 +103,13 @@ export function isMediaReleased(item: ArticleMediaRecord): boolean {
 
 export const MEDIA_REQUEST_PRIORITIES = ['required', 'strongly helpful', 'optional'] as const
 export const MEDIA_REQUEST_STATUSES = ['needed', 'planned', 'supplied', 'declined'] as const
-export const MEDIA_REQUEST_OWNER_KINDS = ['article', 'question', 'practical'] as const
+// A concept can own one too. Anatomy and histology concepts are frequently
+// unteachable in prose — "the relations of the brachial plexus" needs the plate,
+// not a paragraph — and until now the request had to be hung off whichever
+// article or question happened to mention the concept, which meant the same
+// plate was requested several times over and no single record said what the
+// concept itself needed.
+export const MEDIA_REQUEST_OWNER_KINDS = ['article', 'question', 'practical', 'concept'] as const
 
 /**
  * Two axes, kept separate on purpose.
@@ -115,6 +131,54 @@ export type MediaRequestStatus = (typeof MEDIA_REQUEST_STATUSES)[number]
 export type MediaRequestMedium = (typeof MEDIA_REQUEST_MEDIA)[number]
 export type MediaRequestKind = (typeof MEDIA_REQUEST_KINDS)[number]
 export type MediaRequestOwnerKind = (typeof MEDIA_REQUEST_OWNER_KINDS)[number]
+
+export interface MediaReviewComment {
+  id: string
+  /** The precise student-visible part the reviewer is discussing. */
+  anchor: string
+  kind: 'comment' | 'problem'
+  text: string
+  author: string
+  createdAt: string
+}
+
+export const ESCALATION_PRIORITIES = ['urgent', 'high', 'normal'] as const
+export type EscalationPriority = (typeof ESCALATION_PRIORITIES)[number]
+/** open: with editors/super admins. returned: handed back to the reviewer. resolved: closed. */
+export type EscalationStatus = 'open' | 'returned' | 'resolved'
+
+export interface MediaEscalationEvent {
+  at: string
+  actorId: string | null
+  actorName: string
+  /** Effective-role label of whoever acted: Reviewer, Editor, Superadmin, … */
+  actorRole: string
+  action: 'escalated' | 'returned' | 'reassigned' | 'resolved' | 'note'
+  note?: string
+}
+
+/**
+ * A reviewer's request for help with a media request they cannot complete safely.
+ *
+ * While `status` is 'open' the request is the editors' and super admins' to move;
+ * the reviewer's own edits to it are refused until it is returned or resolved, so
+ * two people are never quietly working the same escalated item. Every transition
+ * appends to `history` — who escalated, who returned it, who resolved it — so the
+ * queue is auditable end to end.
+ */
+export interface MediaRequestEscalation {
+  reason: string
+  priority: EscalationPriority
+  byUserId: string | null
+  byName: string
+  byRole: string
+  at: string
+  status: EscalationStatus
+  history: MediaEscalationEvent[]
+  /** Who last returned/resolved it, for the queue and the audit trail. */
+  handledBy?: string
+  handledAt?: string
+}
 
 /**
  * An asset a piece of content needs but does not yet have.
@@ -154,8 +218,25 @@ export interface MediaRequest {
   /** Where a fulfiller should look, e.g. "openly licensed anatomy atlas". */
   sourceDirection?: string
   rightsNotes?: string
+  /**
+   * Where in the owner this asset goes, when the requester knows.
+   *
+   * A request that names one saves the fulfiller a guess — "answer C needs a
+   * chest X-ray" rather than "this question needs a chest X-ray somewhere".
+   * Requests that name none still work; the slot is chosen at upload time.
+   */
+  slot?: MediaSlot
+  /** Only meaningful when slot is 'answer'. */
+  answerLabel?: AnswerLetter
   /** Set once a real media record fulfils this request. */
   mediaId?: string
+  /** Private, anchored reviewer discussion. Never enters a student projection. */
+  reviewComments?: MediaReviewComment[]
+  /**
+   * Present once a reviewer has escalated this request to editors/super admins.
+   * Its `status` governs who may edit the request — see MediaRequestEscalation.
+   */
+  escalation?: MediaRequestEscalation
 }
 
 /**
@@ -192,6 +273,17 @@ export interface QuestionTags {
   mainConceptIds?: string[]
   /** Every module ID this question applies to. */
   moduleIds?: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   clinicalRelevance?: number
   academicRelevance?: number
   /** Cognitive effort on a 0–1 scale (finer than the Low/Medium/High band). */
@@ -203,7 +295,52 @@ export interface QuestionTags {
 }
 
 export interface QuestionAuthoringData {
+  /**
+   * What kind of question this is. Absent means `mcq_single_best`, so every
+   * question authored before formats existed keeps working untouched.
+   */
+  format?: QuestionFormat
+  /**
+   * The marked subparts of a written question — present only on the written
+   * formats, where the marks and expected components *are* the question.
+   */
+  writtenParts?: WrittenPart[]
+  /**
+   * The option bank and prompts of a matching question. Present only on
+   * `format: 'matching'`.
+   */
+  matching?: MatchingPayload
+  /**
+   * Which options are correct on a multiple-response question. Present only on
+   * `format: 'mcq_multi'`, because `correctAnswer` holds one letter and cannot.
+   */
+  multiResponse?: MultiResponsePayload
+  /** The image and its labelled points. Present only on `format: 'labeling'`. */
+  labeling?: LabelingPayload
+  /** The sentence and its blanks. Present only on `format: 'completion'`. */
+  completion?: CompletionPayload
+  /**
+   * What this was derived from, when it was derived rather than transcribed.
+   * A written question may only be derived from another written question; the
+   * validator enforces that against this. See `questionFormat.ts`.
+   */
+  derivedFromFormat?: QuestionFormat | 'concept' | 'practical'
+  /** The question this was derived from, when there is one. */
+  derivedFromId?: string
   attachments: MediaAttachment[]
+  /**
+   * Images placed in this question, by slot.
+   *
+   * Separate from `attachedImage` and `attachments`, which predate the media
+   * library and still render — live content is not broken to tidy a data model.
+   *
+   * Questions alone carry placements. An article already has
+   * `ArticleMediaRecord[]`, with anchors tying an image to the exact words it
+   * illustrates; a second list beside it would be two ways to put a picture in
+   * one article, free to disagree about which renders. Slots were only ever
+   * missing here, where an option can itself be a picture.
+   */
+  media?: MediaPlacement[]
   correctAnswer: AnswerLabel
   answers: QuestionAnswerDraft[]
   attachedImage: string
@@ -247,6 +384,17 @@ export interface ArticleAuthoringData {
   /** Year IDs this article applies to. */
   yearIds?: string[]
   moduleIds?: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   /** Canonical placement in the complete medical-library taxonomy. */
   primaryNodeId?: string
   /** Additional valid placements across systems, disciplines, skills, and knowledge. */
@@ -315,6 +463,11 @@ export interface PracticalConceptTags {
 
 /** What all three practical formats carry, whatever their shape. */
 export interface PracticalCommon {
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   references: string[]
   conceptTags: PracticalConceptTags
   /**
@@ -326,6 +479,19 @@ export interface PracticalCommon {
   mediaRequests: MediaRequest[]
   /** What a student who passes this item has demonstrated. */
   learningObjective?: string
+  /**
+   * Curriculum placement, matching the blocks articles and resources already
+   * carry. A station used to record its references, its concepts and the assets
+   * it still needed, and nothing at all about where in the curriculum it sits —
+   * so it could not be assigned to a reviewer even in principle.
+   *
+   * Absent until somebody tags it, and that absence is what keeps an untagged
+   * station with the editors rather than handing it to whichever reviewer asked
+   * first. See `itemWritableBy` in server/src/contentScope.js.
+   */
+  universityIds?: string[]
+  yearIds?: string[]
+  moduleIds?: string[]
 }
 
 /** The shared blocks of a practical that has not been tagged yet. */
@@ -353,6 +519,10 @@ export interface PracticalMarkSectionDraft {
 
 export interface OsceAuthoringData extends PracticalCommon {
   format: 'osce'
+  /** Managed media a station is built around — image, recording or clip. */
+  mediaUrl?: string
+  mediaType?: MediaAttachment['type']
+  mediaMimeType?: string
   candidateInstructions: string
   actorOpening: string
   actorSections: ActorBriefSectionDraft[]
@@ -365,6 +535,10 @@ export interface ClinicalDecisionDraft {
   id: string
   title: string
   context: string
+  /** Managed image, recording or clip the decision turns on. */
+  mediaUrl?: string
+  mediaType?: MediaAttachment['type']
+  mediaMimeType?: string
   question: string
   answers: PracticalAnswerDraft[]
   rationale: string
@@ -375,25 +549,41 @@ export interface ClinicalDecisionDraft {
   difficulty?: PracticalDifficulty
 }
 
+/**
+ * Presenting observations for a case, shown as a compact strip beside the
+ * decisions. All fields optional; a case with no `vitals` renders no strip.
+ * Units are fixed by convention (HR bpm, BP mmHg, RR /min, SpO₂ %, Temp °C,
+ * GCS /15, Glucose mmol/L) rather than stored, to keep authoring terse.
+ * `abnormal` is the author's clinical call *in context* (a normal range is
+ * age/sex/comorbidity dependent), listing which keys to flag.
+ */
+export interface Vitals {
+  hr?: number
+  bp?: string
+  rr?: number
+  spo2?: number
+  temp?: number
+  gcs?: number
+  glucose?: number
+  abnormal?: Array<'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'>
+  note?: string
+}
+
 export interface CaseAuthoringData extends PracticalCommon {
   format: 'case'
   decisions: ClinicalDecisionDraft[]
   debrief: string
+  vitals?: Vitals
 }
 
 export interface LabQuestionDraft {
   id: string
   context: string
   question: string
-  /**
-   * An image for this question. **Images only** — the runner renders any
-   * non-empty value as an `<img>`, so an audio or video URL shows a student a
-   * broken image. The admin field once invited "or audio URL", which is the
-   * mistake this comment exists to stop being repeated: there is nowhere in any
-   * practical format to attach a recording, and a heart sound belongs on an MCQ,
-   * whose `attachments` accept `audio` and `video`.
-   */
+  /** Managed image, recording or clip for this interpretation question. */
   mediaUrl: string
+  mediaType?: MediaAttachment['type']
+  mediaMimeType?: string
   answers: PracticalAnswerDraft[]
   explanation: string
   /** The single concept this question teaches. */
@@ -444,6 +634,17 @@ export interface ResourceAuthoringData {
   chapters: string[]
   /** Every module ID this resource is attached to (multi-select). */
   moduleIds: string[]
+  /**
+   * Where inside each module this belongs, as written:
+   * `101 ISK > Anatomy > Upper Limb`.
+   *
+   * A module ID alone is too coarse to revise by — a module runs a term and
+   * covers several disciplines. Kept as written rather than as a resolved ID,
+   * because the subject tree is reorganised as department books change and a
+   * path that stops resolving can be reported and repaired, where a stale ID
+   * just points at nothing. See `moduleSubjectPath.ts`.
+   */
+  moduleSubjectPaths?: string[]
   /** Concept IDs whose material appears in this resource. */
   includedConceptIds: string[]
   /** Library article IDs bundled with this resource. */
@@ -470,6 +671,17 @@ export interface ContentSource {
   reference?: string
 }
 
+/** Private receipt for an administrator's selective catalogue retirement. */
+export interface ContentArchiveRecord {
+  operationId: string
+  actorId: string
+  reason: string
+  archivedAt: string
+  detached: true
+  originalStatus: Status
+  /** Existing solo attempts may finish scoring until this instant. */
+}
+
 export interface ManagedContentItem {
   id: string
   kind: ContentKind
@@ -479,12 +691,84 @@ export interface ManagedContentItem {
   owner: string
   updatedAt: string
   fields: Record<string, string>
+  /**
+   * Admin-managed catalogue labels shared by every content type.
+   *
+   * These are deliberately separate from question blueprint tags and concept
+   * links: an editorial label such as `Generated - No Module` describes the
+   * record's workflow/provenance, not what a student is expected to master.
+   */
+  editorialTags?: string[]
   /** Admin-only provenance. Absent means internally authored. */
   source?: ContentSource
+  /** Admin-only recovery and audit metadata. */
+  archive?: ContentArchiveRecord
   questionData?: QuestionAuthoringData
   articleData?: ArticleAuthoringData
   practicalData?: PracticalAuthoringData
   resourceData?: ResourceAuthoringData
+  deckData?: DeckAuthoringData
+  essayData?: EssayAuthoringData
+  histologyData?: HistologyAuthoringData
+}
+
+/**
+ * Required media still outstanding anywhere inside an authored item.
+ *
+ * Requests may sit on the owner or on an anchored section/answer payload. A
+ * recursive read keeps the publication rule independent of content type and
+ * slot. `supplied` alone is not enough: it must name the managed asset that
+ * fulfilled it, so a manually changed status cannot release broken content.
+ */
+export function mediaRequestsOf(item: ManagedContentItem): MediaRequest[] {
+  const found: MediaRequest[] = []
+  const seen = new Set<unknown>()
+  const requestIds = new Set<string>()
+  const requestObjects = new Set<object>()
+  const visit = (value: unknown) => {
+    if (!value || typeof value !== 'object' || seen.has(value)) return
+    seen.add(value)
+    if (Array.isArray(value)) { value.forEach(visit); return }
+    for (const [key, inner] of Object.entries(value)) {
+      if (key === 'mediaRequests' && Array.isArray(inner)) {
+        for (const request of inner as MediaRequest[]) {
+          if (!request || typeof request !== 'object' || requestObjects.has(request)) continue
+          requestObjects.add(request)
+          const id = typeof request.id === 'string' ? request.id.trim() : ''
+          if (id && requestIds.has(id)) continue
+          if (id) requestIds.add(id)
+          found.push(request)
+        }
+      } else visit(inner)
+    }
+  }
+  visit(item)
+  return found
+}
+
+export function blockingMediaRequests(item: ManagedContentItem): MediaRequest[] {
+  return mediaRequestsOf(item).filter((request) => (
+    request.priority === 'required'
+    && (request.status !== 'supplied' || !request.mediaId?.trim())
+  ))
+}
+
+export type MediaRequestFilter = 'all' | 'any' | 'outstanding' | 'blocking' | 'none'
+
+/** Match a catalogue item against the reviewer-facing media-request states. */
+export function matchesMediaRequestFilter(item: ManagedContentItem, filter: MediaRequestFilter): boolean {
+  if (filter === 'all') return true
+  const requests = mediaRequestsOf(item)
+  if (filter === 'none') return requests.length === 0
+  if (filter === 'any') return requests.length > 0
+  if (filter === 'blocking') return blockingMediaRequests(item).length > 0
+  return requests.some((request) => request.status === 'needed' || request.status === 'planned')
+    || blockingMediaRequests(item).length > 0
+}
+
+/** The one student-projection gate every content surface can share. */
+export function isStudentPublishable(item: ManagedContentItem): boolean {
+  return item.status === 'Published' && blockingMediaRequests(item).length === 0
 }
 
 /** True when an item was taken from a university or college rather than authored here. */
@@ -513,7 +797,7 @@ export function initialManagedContent(): ManagedContentItem[] {
  */
 export function itemScope(item: ManagedContentItem): { universityIds: string[]; yearIds: string[] } {
   const questionTags = item.questionData?.tags
-  const scope = item.articleData ?? item.resourceData
+  const scope = item.articleData ?? item.practicalData ?? item.resourceData
   return {
     universityIds: questionTags?.universityIds ?? scope?.universityIds ?? [],
     yearIds: questionTags?.years ?? scope?.yearIds ?? [],
@@ -533,6 +817,9 @@ export const CONTENT_KIND_LABEL: Record<ContentKind, { singular: string; plural:
   article: { singular: 'article', plural: 'Library articles' },
   practical: { singular: 'practical item', plural: 'Practical items' },
   resource: { singular: 'resource', plural: 'Resources' },
+  deck: { singular: 'deck', plural: 'Flashcard decks' },
+  essay: { singular: 'written question', plural: 'Written questions' },
+  histology: { singular: 'slide', plural: 'Histology slides' },
 }
 
 export const CONTENT_FIELDS: Record<ContentKind, Array<{ key: string; label: string; multiline?: boolean }>> = {
@@ -563,5 +850,17 @@ export const CONTENT_FIELDS: Record<ContentKind, Array<{ key: string; label: str
     { key: 'Chapter', label: 'Chapter / module' },
     { key: 'Included concepts', label: 'Included concept IDs (one per line)', multiline: true },
     { key: 'Included articles', label: 'Included library article IDs', multiline: true },
+  ],
+  deck: [
+    { key: 'Description', label: 'What this deck covers', multiline: true },
+  ],
+  essay: [
+    { key: 'Prompt', label: 'The question', multiline: true },
+    { key: 'ExaminerNote', label: 'What the examiner scans for', multiline: true },
+  ],
+  histology: [
+    { key: 'Tissue', label: 'Tissue' },
+    { key: 'Stain', label: 'Stain' },
+    { key: 'Description', label: 'What to look for', multiline: true },
   ],
 }

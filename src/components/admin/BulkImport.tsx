@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/Button'
 import { Select } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 const IGNORE = 'Ignore'
 
@@ -64,16 +65,16 @@ export function BulkImport({
 
   const mappedFields = parsed.headers.filter((h) => mapping[h] && mapping[h] !== IGNORE)
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label={title}>
-      <div className="absolute inset-0 bg-ink/30 animate-fade" onClick={reset} />
+      <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={reset} aria-label="Close import dialog" />
       <div className="absolute left-1/2 top-1/2 w-[min(94vw,700px)] -translate-x-1/2 -translate-y-1/2">
         <div className="animate-pop overflow-hidden rounded-xl border border-line bg-surface shadow-pop">
           {/* Header */}
           <div className="flex items-center gap-2.5 border-b border-line px-5 py-3.5">
             <Icon icon={Upload} size={17} className="text-primary" />
             <h2 className="flex-1 font-serif text-[17px] font-semibold text-ink">{title}</h2>
-            <button onClick={reset} className="text-ink-3 hover:text-ink" aria-label="Close">
+            <button type="button" onClick={reset} className="grid size-11 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink sm:size-9" aria-label="Close">
               <Icon icon={X} size={18} />
             </button>
           </div>

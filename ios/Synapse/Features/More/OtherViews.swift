@@ -47,6 +47,7 @@ struct StudyBlock: Codable, Identifiable, Equatable, Sendable {
 }
 
 struct CalendarView: View {
+    @Environment(\.strings) private var strings
     let store: LocalStore
     let sync: SyncEngine
     let audienceStore: AudienceStore
@@ -60,13 +61,13 @@ struct CalendarView: View {
     var body: some View {
         Group {
             if isLoading {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else {
                 List {
                     if !hasCurriculum {
                         Section {
-                            Text("Your university has not published a timetable yet. Anything you plan below is your own, and syncs to the website.")
+                            Text(strings("Your university has not published a timetable yet. Anything you plan below is your own, and syncs to the website."))
                                 .font(Theme.ui(13))
                                 .foregroundStyle(Theme.ink2)
                         }
@@ -75,7 +76,7 @@ struct CalendarView: View {
 
                     if blocks.isEmpty {
                         Section {
-                            Text("Nothing planned yet.")
+                            Text(strings("Nothing planned yet."))
                                 .font(Theme.ui(14))
                                 .foregroundStyle(Theme.ink3)
                         }
@@ -119,7 +120,7 @@ struct CalendarView: View {
                                     .buttonStyle(.plain)
                                     .listRowBackground(Theme.surface)
                                     .swipeActions {
-                                        Button("Delete", role: .destructive) {
+                                        Button(strings("Delete"), role: .destructive) {
                                             Task { await remove(block) }
                                         }
                                     }
@@ -150,16 +151,17 @@ struct CalendarView: View {
             }
         }
         .background(Theme.paper)
-        .navigationTitle("Calendar")
+        .navigationTitle(strings("Calendar"))
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button { adding = true } label: { Image(systemName: "plus") }
-                    .tint(Theme.accent)
+                    .tint(Theme.primary)
             }
         }
         .sheet(isPresented: $adding) {
             StudyBlockEditor { block in Task { await add(block) } }
+        .localisedSheet()
         }
         .task { await load() }
     }
@@ -221,6 +223,7 @@ struct CalendarView: View {
 }
 
 private struct StudyBlockEditor: View {
+    @Environment(\.strings) private var strings
     let save: (StudyBlock) -> Void
     @Environment(\.dismiss) private var dismiss
 
@@ -232,19 +235,19 @@ private struct StudyBlockEditor: View {
     var body: some View {
         NavigationStack {
             Form {
-                TextField("What are you studying?", text: $title)
+                TextField(strings("What are you studying?"), text: $title)
                 DatePicker("Day", selection: $date, displayedComponents: .date)
                 DatePicker("From", selection: $start, displayedComponents: .hourAndMinute)
                 DatePicker("To", selection: $end, displayedComponents: .hourAndMinute)
             }
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
-            .navigationTitle("Plan a session")
+            .navigationTitle(strings("Plan a session"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
+                ToolbarItem(placement: .cancellationAction) { Button(strings("Cancel")) { dismiss() } }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Add") {
+                    Button(strings("Add")) {
                         save(StudyBlock(
                             id: UUID().uuidString,
                             title: title.trimmed,
@@ -279,6 +282,7 @@ private struct StudyBlockEditor: View {
 
 /// The bilingual AR⇄EN glossary.
 struct GlossaryView: View {
+    @Environment(\.strings) private var strings
     let store: LocalStore
     let sync: SyncEngine
 
@@ -296,7 +300,7 @@ struct GlossaryView: View {
     var body: some View {
         Group {
             if isLoading {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else if terms.isEmpty {
                 EmptyStateView(
@@ -331,7 +335,7 @@ struct GlossaryView: View {
             }
         }
         .background(Theme.paper)
-        .navigationTitle("Medical taxonomy")
+        .navigationTitle(strings("Medical taxonomy"))
         .navigationBarTitleDisplayMode(.inline)
         .task { await load() }
     }
@@ -375,52 +379,4 @@ struct GlossaryView: View {
 /// purchase for digital content bought inside an app, so buying stays on the
 /// website until that is a deliberate decision. There is no link out either —
 /// that is what the rules forbid.
-struct BillingView: View {
-    let audienceStore: AudienceStore
 
-    var body: some View {
-        List {
-            Section("Your plan") {
-                row("Plan", audienceStore.entitlement?.plan ?? "Free")
-                row("Status", stateLabel)
-                if let expires = audienceStore.entitlement?.expiresAt {
-                    row("Renews", String(expires.prefix(10)))
-                }
-                if let days = audienceStore.entitlement?.daysLeft {
-                    row("Days left", "\(days)")
-                }
-            }
-            .listRowBackground(Theme.surface)
-
-            Section {
-                Text("Synapse does not take payments in the app. Your plan is managed on the website.")
-                    .font(Theme.ui(13))
-                    .foregroundStyle(Theme.ink2)
-            }
-            .listRowBackground(Theme.surface)
-        }
-        .listStyle(.insetGrouped)
-        .scrollContentBackground(.hidden)
-        .background(Theme.paper)
-        .navigationTitle("Billing")
-        .navigationBarTitleDisplayMode(.inline)
-    }
-
-    private var stateLabel: String {
-        switch audienceStore.entitlement?.state {
-        case "active": "Active"
-        case "trialing": "Trial"
-        case "expired": "Expired"
-        case "cancelled": "Cancelled"
-        default: "No subscription"
-        }
-    }
-
-    private func row(_ label: LocalizedStringKey, _ value: String) -> some View {
-        HStack {
-            Text(label).font(Theme.panelTitle()).foregroundStyle(Theme.ink2)
-            Spacer()
-            Text(value).font(Theme.ui(14)).foregroundStyle(Theme.ink)
-        }
-    }
-}

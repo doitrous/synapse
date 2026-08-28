@@ -37,7 +37,7 @@ export function Checkbox({
         onChange(indeterminate ? true : !checked)
       }}
       className={cn(
-        'grid size-[1.15rem] shrink-0 place-items-center rounded-[5px] border transition-[background-color,border-color] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary',
+        'grid size-11 shrink-0 place-items-center rounded-[5px] border transition-[background-color,border-color] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:size-8',
         on ? 'border-primary-hover bg-primary text-on-primary' : 'border-line-2 bg-surface hover:border-ink-3',
         disabled && 'cursor-not-allowed opacity-40',
         className,

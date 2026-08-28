@@ -6,6 +6,7 @@ import { Field, TextInput, Textarea, Select } from '@/components/ui/Field'
 import { subjects } from '@/data/subjects'
 import { emptySections, newId, type ArticleSection, type UserArticle } from '@/data/userLibrary'
 import { useT } from '@/lib/i18n'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 export function NewArticleDialog({
   open,
@@ -65,7 +66,7 @@ export function NewArticleDialog({
 
   const suggestions = reusableTags.filter((tag) => !tags.some((x) => x.toLowerCase() === tag.toLowerCase()))
 
-  return (
+  return overlayPortal(
     <div
       className="fixed inset-0 z-[60] grid items-end bg-ink/30 p-0 animate-fade sm:place-items-center sm:p-6"
       role="dialog"

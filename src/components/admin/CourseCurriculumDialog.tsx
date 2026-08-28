@@ -20,6 +20,7 @@ import { Icon } from '@/components/ui/Icon'
 import { Tabs } from '@/components/ui/Tabs'
 import { cn } from '@/lib/cn'
 import { LibraryTopicPicker } from '@/components/admin/LibraryTopicPicker'
+import { overlayPortal } from '@/lib/overlayPortal'
 
 export { COURSE_CURRICULA_STORAGE_KEY }
 export type { CourseCurriculumSelection }
@@ -422,7 +423,7 @@ export function CourseCurriculumDialog({ course, year, items, graph, value, onCl
   const filteredSelected = filteredIds.filter((id) => selected.includes(id))
   const trail = current ? subjectPath(moduleSubjects, current.id) : []
 
-  return (
+  return overlayPortal(
     <div className="fixed inset-0 z-50 grid place-items-center bg-ink/25 p-0 backdrop-blur-[2px] sm:p-4" role="dialog" aria-modal="true" aria-labelledby="course-curriculum-title">
       <div className="flex h-full max-h-none w-full max-w-6xl flex-col overflow-hidden border border-line bg-paper pb-[env(safe-area-inset-bottom)] pt-[env(safe-area-inset-top)] shadow-pop sm:h-[90vh] sm:rounded-2xl sm:pb-0 sm:pt-0">
         <header className="flex flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-3 sm:flex-nowrap sm:gap-3 sm:px-5 sm:py-4">

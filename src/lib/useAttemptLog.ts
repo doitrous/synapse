@@ -1,5 +1,6 @@
 import { useCallback, useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
+import { API_MODE, apiPost } from './api'
 import {
   addAttempt, attemptId, attemptMonth, attemptMonthKey, ATTEMPT_INDEX_KEY, emptyMonth,
   EMPTY_INDEX, indexAttempt, recentMonths, removeSession, unindexAttempts,
@@ -15,6 +16,37 @@ import {
  * shows — the longest is the seventeen-week heatmap.
  */
 export const HISTORY_MONTHS = 6
+
+/**
+ * Send a markable Question Bank answer to the server-owned ledger.
+ *
+ * The local attempt log still drives the student's immediate private reports.
+ * Public rankings and hospital construction must use the server's published
+ * answer key instead, so neither `correct` nor `correctIndex` is transmitted as
+ * truth. A retry is safe because the server keys by student + sitting + item.
+ */
+function recordVerified(records: AttemptRecord[]): void {
+  if (!API_MODE) return
+  const attempts = records.flatMap((record) => {
+    if (record.surface !== 'qbank' || !Number.isInteger(record.selectedIndex)) return []
+    return [{
+      attemptId: record.id,
+      sessionId: record.sessionId,
+      questionId: record.itemId,
+      answerIndex: record.selectedIndex,
+      seconds: record.seconds,
+      sessionDurationSeconds: record.sessionDurationSeconds,
+      overtimeSeconds: record.sessionOvertimeSeconds,
+      answeredAt: record.at,
+    }]
+  })
+  if (!attempts.length) return
+  void apiPost('/qbank/attempts', { attempts })
+    .then(() => window.dispatchEvent(new Event('synapse:maristana-progress')))
+    // The private record is already safe. A profile still being enrolled or a
+    // transient API fault must never interrupt the question the student sees.
+    .catch(() => undefined)
+}
 
 /**
  * Add to the log.
@@ -41,7 +73,39 @@ export function useRecordAttempt() {
       if (current.totals.lastAt === at) return current
       return indexAttempt(current, record)
     })
+    recordVerified([record])
   }, [setIndex, setMonth])
+}
+
+/**
+ * Add several records at once.
+ *
+ * `useRecordAttempt` refuses a duplicate by comparing the index's `lastAt` with
+ * the record's own timestamp, which is right for one answer committed on a
+ * click and wrong for twenty committed in a loop: those all land in the same
+ * millisecond, and every record after the first would be dropped from the
+ * totals. This reads the shard instead and folds exactly what is new.
+ */
+export function useRecordAttempts() {
+  const month = attemptMonth(new Date())
+  const [shard, setMonth] = usePersistentState<AttemptMonth>(attemptMonthKey(month), () => emptyMonth(month))
+  const [, setIndex] = usePersistentState<AttemptIndex>(ATTEMPT_INDEX_KEY, EMPTY_INDEX)
+
+  return useCallback((inputs: Array<Omit<AttemptRecord, 'id' | 'at'>>) => {
+    const at = new Date().toISOString()
+    const seen = new Set(shard.records.map((record) => record.id))
+    const fresh: AttemptRecord[] = []
+    for (const input of inputs) {
+      const id = attemptId(input)
+      if (seen.has(id)) continue
+      seen.add(id)
+      fresh.push({ ...input, id, at })
+    }
+    if (!fresh.length) return
+    setMonth((current) => fresh.reduce(addAttempt, current))
+    setIndex((current) => fresh.reduce(indexAttempt, current))
+    recordVerified(fresh)
+  }, [shard.records, setIndex, setMonth])
 }
 
 /** Headline totals, without reading a single month document. */

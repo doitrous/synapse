@@ -1,0 +1,324 @@
+{
+  "source": {
+    "id": "src_bc655a2ebebc4bf9d974",
+    "file": "١٩٧ دور ثان ١٠٤ (2)EOY BAQOON 197.pdf",
+    "module": "104 CPS",
+    "sittingYear": 2024,
+    "tier": "baqoon",
+    "sections": ["Anatomy", "Physiology"]
+  },
+
+  "seeds": [
+    {
+      "q": 1, "section": "Anatomy", "page": 1, "marks": 0,
+      "asked": "enumerate branches of typical intercostal nerve",
+      "label": "A typical intercostal nerve runs in the neurovascular bundle below the vein and artery, and ends as the anterior cutaneous branch",
+      "key": "typical-intercostal-nerve.course-and-branches",
+      "definition": "The typical intercostal nerves are the anterior primary rami of the second to sixth thoracic spinal nerves. Its branches are ganglionic rami communicantes to the sympathetic chain, a collateral branch to the muscles, muscular branches, a lateral cutaneous branch, the terminal anterior cutaneous branch, articular branches and pleural branches. The second nerve's lateral cutaneous branch crosses the axilla to the arm as the intercostobrachial nerve instead of dividing locally.",
+      "objective": "List the branches of a typical intercostal nerve.",
+      "pitfall": "Forgetting that the nerve is the lowest of the three neurovascular structures (VAN) in the costal groove.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M04"],
+      "modulePath": "104 CPS > Anatomy > Intercostal Spaces",
+      "type": "definition"
+    },
+    {
+      "q": 2, "section": "Anatomy", "page": 2, "marks": 0,
+      "asked": "summarize relations of mediastinal surface of right lung",
+      "label": "The mediastinal surfaces of the two lungs carry different impressions: the right is grooved by the SVC and azygos arch, the left by the aortic arch and its two great branches",
+      "key": "lung.mediastinal-surface-impressions",
+      "definition": "On the right lung's mediastinal surface, in front of and above the hilum lie the cardiac impression (related to the right atrium and auricle), the superior vena caval groove, the impression for the ascending aorta, the inferior vena caval groove, the groove for the arch of the azygos vein, and the tracheal and oesophageal grooves, the latter continuing behind the hilum.",
+      "objective": "Name the vascular and visceral impressions on the mediastinal surface of the right lung, in front of, above and behind the hilum.",
+      "pitfall": "Placing the ascending aorta's impression on the left lung — it belongs to the right lung, anterior to the hilum.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M02"],
+      "modulePath": "104 CPS > Anatomy > Lungs",
+      "type": "structural_description"
+    },
+    {
+      "q": 3, "section": "Anatomy", "page": 3, "marks": 0,
+      "asked": "describe the inerior of Rt. atrium",
+      "label": "The right atrium is split by the crista terminalis into a rough atrium proper and a smooth sinus venarum; the right ventricle has an inflow part with three papillary muscles and a smooth infundibulum",
+      "key": "heart.right-chambers-interior",
+      "definition": "The right atrium's cavity is divided by the crista terminalis, a muscular ridge between the openings of the superior and inferior venae cavae, into an anterior rough atrium proper, roughened by the musculi pectinati, and a posterior smooth sinus venarum, which receives the superior vena cava (no valve), the inferior vena cava (a rudimentary valve) and the coronary sinus (a small valve). Its septal wall carries the fossa ovalis and its raised margin, the annulus ovalis, deficient below.",
+      "objective": "Describe the interior of the right atrium: the crista terminalis, atrium proper, sinus venarum and septal wall features.",
+      "pitfall": "Forgetting the valve state of each opening into the sinus venarum — the SVC has none, the IVC and coronary sinus each have a rudimentary one.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-CVS-T01-S01-M01"],
+      "modulePath": "104 CPS > Anatomy > Heart",
+      "type": "structural_description"
+    },
+    {
+      "q": 4, "section": "Anatomy", "page": 4, "marks": 0,
+      "asked": "compare Rt. coronary and Lt. coronary regarding origin and distribution",
+      "label": "The right coronary artery runs the coronary sulcus to give the marginal and posterior interventricular arteries, supplying the whole right side of the heart and, in most people, the whole conducting system",
+      "key": "right-coronary-artery.course-and-distribution",
+      "definition": "The right coronary artery arises from the anterior aortic sinus. It supplies the whole right atrium, the whole right ventricle except a strip beside the anterior interventricular groove, a strip of the left ventricle's diaphragmatic surface, the posterior third of the interventricular septum, and the conducting system in most people: the SA node in 60% and the AV node and bundle branches in 80%.",
+      "objective": "State the origin and distribution of the right coronary artery, for comparison against the left.",
+      "pitfall": "Assuming the right coronary artery always supplies the SA node — only 60% of people.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-CVS-T01-S01-M03"],
+      "modulePath": "104 CPS > Anatomy > Heart",
+      "type": "mechanism"
+    },
+    {
+      "q": 4, "section": "Anatomy", "page": 4, "marks": 0,
+      "asked": "compare Rt. coronary and Lt. coronary regarding origin and distribution (left coronary side)",
+      "label": "The left coronary artery divides into the anterior interventricular and circumflex arteries, together supplying the left atrium, most of the left ventricle and the anterior two thirds of the septum",
+      "key": "left-coronary-artery.branches-and-distribution",
+      "definition": "The left coronary artery, larger than the right, arises from the left posterior aortic sinus and divides into the anterior interventricular artery — supplying the sternocostal surface of the left ventricle, a strip of the right ventricle and the anterior two thirds of the septum — and the circumflex artery — supplying the left atrium and, via its marginal branch, the left ventricle down to the apex, and the SA node in 40% and AV node in 20% of people.",
+      "objective": "State the origin and distribution of the left coronary artery, for comparison against the right.",
+      "pitfall": "Crediting the anterior interventricular artery with the posterior third of the septum — that belongs to the right coronary artery.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-CVS-T01-S01-M03"],
+      "modulePath": "104 CPS > Anatomy > Heart",
+      "type": "mechanism"
+    },
+    {
+      "q": 5, "section": "Anatomy", "page": 5, "marks": 0,
+      "asked": "enumerate the structures found in lower concave aspect of arch of aorta",
+      "label": "The arch of the aorta passes over the left bronchus and gives the brachiocephalic, left common carotid and left subclavian arteries from its convexity, with the trachea and oesophagus behind it",
+      "key": "arch-of-aorta.relations-and-branches",
+      "definition": "The arch of the aorta's lower concave aspect overlies the pulmonary trunk's bifurcation, the left principal bronchus, the ligamentum arteriosum, the superficial cardiac plexus and the left recurrent laryngeal nerve.",
+      "objective": "List the five structures related to the lower concave aspect of the aortic arch.",
+      "pitfall": "Placing the deep cardiac plexus on the arch's concavity — it sits on the arch's right posterior aspect at the tracheal bifurcation; the superficial plexus is the one on the concavity.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": [],
+      "modulePath": "104 CPS > Anatomy > Large Arteries of the Thorax",
+      "type": "structural_description"
+    },
+    {
+      "q": 6, "section": "Anatomy", "page": 6, "marks": 0,
+      "asked": "Rt. phrenic nerve, origin, course and branches",
+      "label": "The phrenic nerve enters the thorax on the venous side (right) or arterial side (left) of the mediastinum and leaves through the diaphragm it alone supplies motor to",
+      "key": "phrenic-nerve.course-and-distribution",
+      "definition": "The right phrenic nerve enters the thorax through the thoracic inlet in front of the subclavian artery and behind the start of the brachiocephalic vein, crosses the internal thoracic artery, and descends in front of the lung root, running down the right side of the right brachiocephalic vein, the SVC, the pericardium over the right atrium and the IVC, leaving through the vena caval opening on the IVC's right. It supplies the whole of the diaphragm's motor innervation on its side, and pericardial and diaphragmatic-pleura sensory branches.",
+      "objective": "Give the origin, thoracic course and branches of the right phrenic nerve.",
+      "pitfall": "Assigning the phrenic nerve's course by symmetry — the right and left differ in their mediastinal relations and site of exit through the diaphragm.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M04"],
+      "modulePath": "104 CPS > Anatomy > Large Nerves of the Thorax",
+      "type": "structural_description"
+    },
+    {
+      "q": 1, "section": "Physiology", "page": 8, "marks": 0,
+      "asked": "mentainance of RMP",
+      "label": "The Na+-K+ ATPase, the Ca++-ATPase and the Na+-Ca++ exchanger maintain cardiac myocyte ionic gradients, and the exchanger can reverse direction",
+      "key": "cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance",
+      "definition": "Every action potential lets Na+ and Ca++ leak into the cardiac myocyte and K+ leak out. Three sarcolemmal transport proteins correct this and so maintain the resting membrane potential's underlying gradients: the Na+-K+ ATPase pumps 3 Na+ out for every 2 K+ in (electrogenic); a separate Ca++-ATPase pumps Ca++ out; and the Na+-Ca++ exchanger normally exchanges 3 Na+ in for 1 Ca++ out, though it can reverse when intracellular Na+ rises.",
+      "objective": "Name the three sarcolemmal transporters that restore cardiac ionic gradients and maintain the resting membrane potential, with the Na+-K+ ATPase's stoichiometry.",
+      "pitfall": "Treating the Na+-Ca++ exchanger's direction as fixed — it reverses when intracellular Na+ rises, e.g. with digitalis.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": [],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart",
+      "type": "mechanism"
+    },
+    {
+      "q": 2, "section": "Physiology", "page": 9, "marks": 0,
+      "asked": "Regulation of contractility (+ve and -ve inotropy)",
+      "label": "Beta-adrenergic stimulation raises cytoplasmic calcium through Protein Kinase A to increase both contractile force (positive inotropy) and the speed of relaxation (lusitropy), while hypoxia and ischaemia impair both",
+      "key": "cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms",
+      "definition": "Beta-adrenergic stimulation (sympathetic nerves or circulating catecholamines) raises cAMP and activates PKA, which phosphorylates the L-type Ca++ channel (more Ca++ entry) and the ryanodine receptor (more Ca++ release from the SR) — a positive inotropic effect — and phosphorylates phospholamban to speed SERCA reuptake, a positive lusitropic effect. Negative inotropy follows from impaired ATP supply: hypoxia and myocardial ischaemia both reduce contractile force and slow relaxation.",
+      "objective": "Explain the cAMP-PKA mechanism of positive inotropy and lusitropy, and give causes of negative inotropy.",
+      "pitfall": "Treating inotropy and lusitropy as unrelated — the same PKA activation drives both, through different phosphorylation targets.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": [],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle",
+      "type": "mechanism"
+    },
+    {
+      "q": 3, "section": "Physiology", "page": 10, "marks": 0,
+      "asked": "define cardiac output, mention factors increase, decrease it",
+      "label": "Cardiac output is the volume each ventricle pumps per minute, equals heart rate times stroke volume, and is corrected for body size as the cardiac index",
+      "key": "cardiac-output.definition-formula-and-index",
+      "definition": "Cardiac output (CO) is the volume of blood pumped by each ventricle per minute, normally about 5 litres/minute, equal to stroke volume x heart rate. CO increases with physical exercise (up to 700%), anxiety and excitement (up to 100%), after meals (30%), high environmental temperature, and pregnancy; it decreases with standing up from supine (30%) and with rapid cardiac arrhythmias and many other heart diseases.",
+      "objective": "Define cardiac output and its formula, and list conditions that increase and decrease it.",
+      "pitfall": "Assuming any tachyarrhythmia raises cardiac output — the book places rapid arrhythmias among the causes of decreased CO.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": [],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Cardiac Function",
+      "type": "definition"
+    },
+    {
+      "q": 7, "section": "Physiology", "page": 14, "marks": 0,
+      "asked": "compare APC and PNC regarding site, nature, send, receive, importance",
+      "label": "The dorsal respiratory group drives normal quiet breathing alone, the ventral respiratory group activates only for forced breathing, and the pontine apneustic and pneumotaxic centres tune the medullary rhythm rather than generating it",
+      "key": "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation",
+      "definition": "The apneustic centre (APC) sits in the lower pons, is made of tonically-discharging inspiratory neurons, receives inhibitory input from the pneumotaxic centre (PNC) and lung stretch receptors, and sends tonic excitatory (inspiratory) signals to the dorsal respiratory group (DRG) — its unopposed activity, if disconnected from the PNC and vagus, causes apneustic breathing (prolonged gasping inspiration). The pneumotaxic centre (PNC) sits in the upper pons, is made of inhibitory neurons, receives stimulation from the DRG, and sends inhibitory signals to the DRG and APC — switching off inspiration and starting expiration, so tuning the rate and depth of breathing.",
+      "objective": "Compare the apneustic and pneumotaxic centres by site, the nature of their neurons, their afferent and efferent connections, and their importance to the respiratory rhythm.",
+      "pitfall": "Crediting the pontine centres with generating the basic respiratory rhythm — that is the medullary pre-Botzinger complex and DRG's job; the pons only tunes it.",
+      "subject": "resp", "primary": "DIS-PHY-T03", "secondary": [],
+      "modulePath": "104 CPS > Physiology > Respiratory System > Control of Respiration",
+      "type": "mechanism"
+    }
+  ],
+
+  "schemes": {
+    "A1": {
+      "format": "short_answer",
+      "prompt": "Enumerate branches of typical intercostal nerve",
+      "conceptKey": "typical-intercostal-nerve.course-and-branches",
+      "expects": [
+        "Ganglionic rami communicantes to the sympathetic chain",
+        "A collateral branch to the intercostal muscles",
+        "Muscular branches",
+        "A lateral cutaneous branch (in the 2nd nerve, becomes the intercostobrachial nerve to the arm instead)",
+        "The terminal anterior cutaneous branch",
+        "Articular and pleural branches"
+      ]
+    },
+    "A2": {
+      "format": "short_answer",
+      "prompt": "Summarize relations of mediastinal surface of right lung",
+      "conceptKey": "lung.mediastinal-surface-impressions",
+      "expects": [
+        "Cardiac impression, related to the right atrium and auricle",
+        "Superior vena caval groove",
+        "Impression for the ascending aorta",
+        "Inferior vena caval groove",
+        "Groove for the arch of the azygos vein",
+        "Tracheal and oesophageal grooves, the oesophageal groove continuing behind the hilum"
+      ]
+    },
+    "A3": {
+      "format": "short_answer",
+      "prompt": "Describe the interior of the right atrium",
+      "conceptKey": "heart.right-chambers-interior",
+      "expects": [
+        "Crista terminalis: muscular ridge between the SVC and IVC openings, dividing the atrium into rough and smooth parts",
+        "Atrium proper: anterior, rough, ridged by musculi pectinati",
+        "Sinus venarum: posterior, smooth, receives SVC (no valve), IVC (rudimentary valve) and coronary sinus (small valve)",
+        "Septal wall: fossa ovalis with its raised margin, the annulus ovalis, deficient below"
+      ]
+    },
+    "A4": {
+      "format": "comparison_table",
+      "prompt": "Compare Rt. coronary and Lt. coronary regarding origin and distribution",
+      "expects": [
+        "Right coronary artery: origin from the anterior aortic sinus; distribution — whole right atrium, whole right ventricle except a strip by the anterior interventricular groove, a strip of the left ventricle's diaphragmatic surface, posterior third of the septum, and the conducting system in most people (SA node 60%, AV node/bundle 80%)",
+        "Left coronary artery: origin from the left posterior aortic sinus; distribution via its two terminal branches — anterior interventricular artery (sternocostal surface of left ventricle, a strip of right ventricle, anterior two thirds of septum) and circumflex artery (left atrium, left ventricle to the apex, SA node in 40%, AV node in 20%)"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Right coronary artery — origin and distribution",
+          "conceptKey": "right-coronary-artery.course-and-distribution",
+          "expects": ["Origin: anterior aortic sinus", "Distribution: whole right atrium and right ventricle (except a strip), part of left ventricle diaphragmatic surface, posterior third of septum, conducting system in most people"]
+        },
+        {
+          "letter": "b",
+          "prompt": "Left coronary artery — origin and distribution",
+          "conceptKey": "left-coronary-artery.branches-and-distribution",
+          "expects": ["Origin: left posterior aortic sinus", "Distribution via anterior interventricular and circumflex branches: left atrium, most of left ventricle, a strip of right ventricle, anterior two thirds of septum"]
+        }
+      ]
+    },
+    "A5": {
+      "format": "short_answer",
+      "prompt": "Enumerate the structures found in lower concave aspect of arch of aorta",
+      "conceptKey": "arch-of-aorta.relations-and-branches",
+      "expects": [
+        "Bifurcation of the pulmonary trunk",
+        "Left principal bronchus",
+        "Ligamentum arteriosum",
+        "Superficial cardiac plexus",
+        "Left recurrent laryngeal nerve"
+      ]
+    },
+    "A6": {
+      "format": "short_answer",
+      "prompt": "Rt. phrenic nerve — origin, course and branches",
+      "conceptKey": "phrenic-nerve.course-and-distribution",
+      "expects": [
+        "Origin: enters the thorax through the thoracic inlet, in front of the subclavian artery and behind the start of the brachiocephalic vein",
+        "Course: crosses the internal thoracic artery, descends in front of the right lung root, runs down the right side of the right brachiocephalic vein, the SVC, the pericardium over the right atrium and the IVC, and leaves through the vena caval opening on the IVC's right",
+        "Branches/distribution: whole motor supply of the diaphragm on its side, plus pericardial and diaphragmatic-pleura sensory branches"
+      ]
+    },
+    "A7": {
+      "format": "short_answer",
+      "prompt": "cases: [the case scenario itself is not present in the extracted page text — page 7 of the source carries only the 'cases:' heading, with the case content evidently in an image or handwritten block the text layer did not capture]",
+      "expects": [],
+      "conceptKey": null
+    },
+    "P1": {
+      "format": "short_answer",
+      "prompt": "Maintenance of RMP",
+      "conceptKey": "cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance",
+      "expects": [
+        "Na+-K+ ATPase: pumps 3 Na+ out for every 2 K+ in — electrogenic",
+        "Ca++-ATPase: pumps Ca++ out of the myocyte",
+        "Na+-Ca++ exchanger: normally exchanges 3 Na+ in for 1 Ca++ out, but reverses when intracellular Na+ rises (e.g. with digitalis)"
+      ]
+    },
+    "P2": {
+      "format": "short_answer",
+      "prompt": "Regulation of contractility (+ve and -ve inotropy)",
+      "conceptKey": "cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms",
+      "expects": [
+        "Positive inotropy: beta-adrenergic stimulation raises cAMP, activates PKA, which phosphorylates the L-type Ca++ channel (more Ca++ entry) and the ryanodine receptor (more SR Ca++ release), increasing contractile force",
+        "The same PKA activation phosphorylates phospholamban, speeding SERCA reuptake and relaxation (lusitropy)",
+        "Negative inotropy: hypoxia and myocardial ischaemia impair ATP-dependent contraction and relaxation"
+      ]
+    },
+    "P3": {
+      "format": "short_answer",
+      "prompt": "Define cardiac output, mention factors increase, decrease it",
+      "conceptKey": "cardiac-output.definition-formula-and-index",
+      "expects": [
+        "Cardiac output = volume pumped by each ventricle per minute, normally about 5 L/min = stroke volume x heart rate",
+        "Increased by: physical exercise (up to 700%), anxiety/excitement (up to 100%), meals (30%), high environmental temperature, pregnancy",
+        "Decreased by: standing up from supine (30%), rapid cardiac arrhythmias, other heart diseases"
+      ]
+    },
+    "P4": {
+      "format": "labeling",
+      "prompt": "diagram and answer: name number 1, name number 2, name number 3 [the diagram itself is not present in the extracted page text — only the three blank answer lines were captured; the labelled figure could not be identified without seeing it]",
+      "expects": [],
+      "conceptKey": null
+    },
+    "P5": {
+      "format": "short_answer",
+      "prompt": "Regulation of arteriolar diameter — mention factors determining it (5 that constrict and 5 that dilate)",
+      "expects": [
+        "Myogenic autoregulation: a rise in perfusion pressure stretches arteriolar smooth muscle, raising Ca++ entry and causing vasoconstriction; a fall in pressure has the opposite effect (vasodilatation) [Physiology dept book p. 63]",
+        "Metabolic autoregulation: a fall in flow causes hypoxia and accumulation of vasodilator metabolites, relaxing the arterioles; conversely raised flow/metabolism has the opposite (constrictor) tendency [Physiology dept book p. 63]",
+        "Endothelial factors: nitric oxide (from shear stress, acetylcholine, bradykinin, histamine) is a vasodilator; endothelin is not documented in the extracted text this run [Physiology dept book p. 65-66]",
+        "Humoral vasoconstrictors: angiotensin II, epinephrine (at high levels), norepinephrine, vasopressin [Physiology dept book p. 69]",
+        "Humoral vasodilators: kinins, natriuretic peptide; epinephrine at physiological levels is net-dilator in skeletal muscle/liver via beta2 receptors [Physiology dept book p. 69]",
+        "Nervous control: decreased tonic sympathetic vasoconstrictor discharge produces vasodilatation in most tissues [Physiology dept book p. 69]",
+        "This question spans more than one existing 104 CPS canonical concept and no single concept fully covers a five-plus-five factor list combining autoregulatory, endothelial, humoral and nervous mechanisms in one place — see MISSING CONCEPT in the lane report; partially linked to local-blood-flow-regulation.myogenic-and-metabolic-autoregulation and hormonal-control-of-circulation.epinephrine-and-norepinephrine"
+      ]
+    },
+    "P6": {
+      "format": "comparison_table",
+      "prompt": "Compare anemic hypoxia and stagnant hypoxia regarding arterial PO2, O2 content, O2 saturation %, venous PO2, O2 content, O2 saturation %, and cyanosis",
+      "expects": [
+        "Anemic hypoxia: arterial PO2 and % saturation are normal (ventilation/gas exchange unaffected); arterial O2 content is reduced (less Hb to carry O2); venous O2 content and PO2 are further reduced because tissues extract extra O2 from each unit of the reduced-Hb blood [Physiology dept book pp. 154-155]",
+        "Stagnant hypoxia: blood flow through capillaries is very slow, so tissues withdraw extra O2 from each unit of capillary blood, giving reduced PO2 and O2 content in venous blood; arterial values are not stated as abnormal in the book's prose [Physiology dept book p. 158]",
+        "Cyanosis: does NOT appear with anemic hypoxia (total Hb, oxygenated and deoxygenated, is reduced); DOES appear with stagnant hypoxia (low flow lets tissues strip extra O2 from each unit of Hb, raising reduced Hb locally) [Physiology dept book pp. 159-160]",
+        "The book's own numeric comparison table (Table 3: hypoxic/anemic/stagnant/histotoxic by arterial and venous PO2, content and saturation) exists but its cell values were not captured by this session's text extraction (OCR/table-image failure) — precise numeric values not established; flagged for re-extraction, same gap noted for the 198 EOY sitting"
+      ]
+    },
+    "P7": {
+      "format": "comparison_table",
+      "prompt": "Compare APC and PNC regarding site, nature, send, receive, importance",
+      "conceptKey": "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation",
+      "expects": [
+        "Site: APC (apneustic centre) in the lower pons; PNC (pneumotaxic centre) in the upper pons",
+        "Nature: APC is tonically-discharging inspiratory neurons; PNC is inhibitory neurons",
+        "Send (output): APC sends tonic excitatory signals to the DRG; PNC sends inhibitory signals to the DRG and to the APC",
+        "Receive (input): APC receives inhibitory input from the PNC and lung stretch receptors; PNC receives stimulation from the DRG",
+        "Importance: APC provides ongoing inspiratory drive to the DRG (its loss causes apneustic breathing); PNC switches off inspiration and starts expiration, tuning the rate and depth of breathing"
+      ]
+    }
+  },
+
+  "unsat": [
+    {
+      "scheme": "A7",
+      "issue": "The anatomy 'cases:' question (page 7 of the source) has no visible text beyond the heading — the case vignette was evidently an image or separately-printed block the text extraction did not capture.",
+      "blockedOn": "A clean re-scan/re-OCR of page 7 of src_bc655a2ebebc4bf9d974."
+    },
+    {
+      "scheme": "P4",
+      "issue": "The physiology 'diagram and answer' question (page 11) asks the student to name three numbered items on a figure, but the figure itself is not in the extracted text — only the three blank answer lines ('name number 1/2/3') were captured.",
+      "blockedOn": "A clean re-scan/re-OCR of page 11 of src_bc655a2ebebc4bf9d974 to see the labelled diagram."
+    },
+    {
+      "scheme": "H-mcq-1",
+      "issue": "Page 15 ('Histo - 197 دور ثان') is headed '+ MCQS' with no further text captured — the Histology section of this paper is MCQ-only and out of the written lane's scope; not transcribed, only counted.",
+      "blockedOn": null
+    }
+  ]
+}

@@ -60,10 +60,12 @@ export function QuestionNavigator({
   className?: string
 }) {
   const t = useT()
-  // Open on a large screen, closed on a phone. The grid of numbers is a
-  // convenience beside the question on a desktop; above it on a 375px screen it
-  // is a screenful of chrome before the thing being read.
-  const [open, setOpen] = useState(() => typeof window === 'undefined' || window.innerWidth >= 640)
+  // Open everywhere. It used to start closed on a phone, on the argument that
+  // a grid of numbers above the question is a screenful of chrome — but the
+  // grid is how a student moves around a block and reaches the questions they
+  // marked, and a collapsed strip reads as a heading rather than a control.
+  // It still collapses on request; it simply no longer hides itself.
+  const [open, setOpen] = useState(true)
   const indexes = Array.from({ length: count }, (_, i) => i)
   const answered = indexes.filter((i) => stateFor(i) !== 'unseen' && stateFor(i) !== 'omitted').length
   const flagged = indexes.filter(isFlagged).length
@@ -76,7 +78,7 @@ export function QuestionNavigator({
         aria-expanded={open}
         className="flex min-h-11 w-full items-center gap-2 px-3 text-start"
       >
-        <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Questions')}</span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Jump to question')}</span>
         <span className="tnum font-mono text-[11.5px] text-ink-2">
           {answered}/{count}
         </span>

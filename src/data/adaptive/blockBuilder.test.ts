@@ -9,6 +9,7 @@ import type { BlueprintNode } from './blueprint.ts'
 import type { ScoringContext } from './priority.ts'
 import type { ConceptState } from './masteryModel.ts'
 import { AT, item, pool } from './fixtures.ts'
+import { primaryConcepts } from './item.ts'
 
 const config = defaultAdaptiveConfig()
 
@@ -228,8 +229,11 @@ test('no more than two items in a block are dominated by one concept', () => {
     const block = buildBlock(buildInput({ blockId: `cap-${size}`, size, items: pool(300) }))
     const counts = new Map<string, number>()
     for (const slot of block.slots) {
-      const primary = slot.item.mainConceptIds[0]
-      if (primary) counts.set(primary, (counts.get(primary) ?? 0) + 1)
+      // Every concept the item is chiefly about, not just its first — an item
+      // may be co-primary on several, and each of them is dominated by it.
+      for (const primary of primaryConcepts(slot.item)) {
+        counts.set(primary, (counts.get(primary) ?? 0) + 1)
+      }
     }
     for (const [conceptId, count] of counts) {
       assert.ok(count <= config.constraints.maxItemsPerPrimaryConcept, `${conceptId} appeared ${count} times at size ${size}`)
@@ -377,4 +381,45 @@ test('the block records the config and blueprint versions it was built under', (
   const block = buildBlock(buildInput())
   assert.equal(block.configVersion, config.version)
   assert.equal(block.blueprintVersion, 1)
+})
+
+test('an item co-primary on two concepts is capped against both', () => {
+  // Before this, the cap read `mainConceptIds[0]` only. Items sharing a *second*
+  // main concept were each charged to a different first concept and let through
+  // free on the shared one, so a block could fill with items all really about
+  // the same thing while the cap reported itself satisfied.
+  //
+  // The pool is deliberately large enough that the builder never has to relax
+  // `conceptCap` to fill the block — a relaxed cap is legitimate behaviour and
+  // would hide the bug rather than show it.
+  const shared = 'CON-SHARED'
+  const sharers = Array.from({ length: 12 }, (_, index) =>
+    item({
+      id: `q-co-${index}`,
+      topic: `Topic ${index % 5}`,
+      mainConceptIds: [`CON-CO-${index}`, shared],
+      secondaryConceptIds: [],
+      conceptIds: [`CON-CO-${index}`, shared],
+    }))
+  const others = Array.from({ length: 120 }, (_, index) =>
+    item({
+      id: `q-solo-${index}`,
+      topic: `Topic ${index % 7}`,
+      mainConceptIds: [`CON-SOLO-${index}`],
+      secondaryConceptIds: [],
+      conceptIds: [`CON-SOLO-${index}`],
+    }))
+  const items = [...sharers, ...others]
+
+  const conceptIds = [...new Set(items.flatMap((i) => i.mainConceptIds))]
+  const block = buildBlock(buildInput({
+    blockId: 'co-primary', size: 20, items,
+    context: context(conceptIds, { states: mixedStates(conceptIds) }),
+  }))
+
+  const sharedCount = block.slots.filter((slot) => slot.item.mainConceptIds.includes(shared)).length
+  assert.ok(
+    sharedCount <= config.constraints.maxItemsPerPrimaryConcept,
+    `${sharedCount} items shared ${shared} as a main concept, above the cap of ${config.constraints.maxItemsPerPrimaryConcept}`,
+  )
 })

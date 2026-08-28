@@ -13,7 +13,7 @@ explained. It is the format that teaches clinical reasoning rather than recall.
 | **`type` value** | `Clinical case` |
 | **Recognised by** | `type` plus `decisions` |
 | **Required blocks** | `decisions` — at least one, each with exactly one correct option |
-| **Columns you should use** | **19** of the 25 — all but `candidate_instructions`, `actor_opening`, `actor_sections`, `actor_flags`, `mark_scheme`, `lab_subtype`, `lab_questions` |
+| **Columns you should use** | **20** of the 26 — all but `candidate_instructions`, `actor_opening`, `actor_sections`, `actor_flags`, `mark_scheme`, `lab_subtype`, `lab_questions` |
 
 Practicals do **not** report `fieldsUsed`. `npm run medical:batch` gives you `questions`,
 `conceptsTaught`, `questionDifficulty` and `mediaNeeded`. Check `questions` equals the
@@ -27,23 +27,59 @@ number of decisions you wrote.
 |---|---|---|---|
 | `type` | Practical format | **yes** | `Clinical case`. Exact string. |
 | `title` | Title | **yes** | What the case is about. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |
 | `duration` | Duration | no | Expected minutes. |
 | `marks` | Marks / decisions | no | Recomputed as the **number of decisions**. |
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. Whole-item difficulty; each decision may also set its own. |
+| `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
+| `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
+| `years` | Year IDs | — | Year IDs this case is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
+| `module` | Module ID(s) | — | Module ID(s) this case sits under (Kasr `101 ISK`; other universities prefixed, e.g. `AU-MED-102`). |
 | `main_concept` | Main concept(s) | — | What the case as a whole is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | What it also assesses. Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | Needed by the scenario, never assessed. **No mastery.** |
 | `learning_objective` | Learning objective | — | What a student who completes the case has demonstrated. |
 | `references` | Read around it | — | Shown after the case. **Prose list — newlines only.** |
 | `debrief` | Case debrief | — | Shown after the final decision. |
+| `vitals` | Vitals | — | Presenting observations shown beside the decisions. See **The vitals block** below. Omit entirely for a case with no vitals. |
 | `media_recommendations` | Media requests | — | See below. |
 
 Use the item-level concept fields for what the **case as a whole** is about, and the
 per-decision `Concept:` / `Also:` lines for what **one decision** is about.
+
+---
+
+## Priority of sources
+
+Highest first (00 §A): this department's own practical atlas / OSCE bank / station sheets,
+then other official files for the same module, then doctor/student/academy notes (tier ≤5,
+never sole source), then a standard textbook only where the corpus has none. **Another
+university's material never stands for this university's signal.**
+
+## Media (S6 of the pipeline)
+
+A decision that turns on an image the candidate must read carries `media_recommendations`
+and is **marked as a request, never rewritten into prose** that describes the finding
+instead of showing it. This is stage S6 ([13-orchestration.md](13-orchestration.md) §4).
+
+## Scope: universities and module
+
+A practical case is scoped exactly as a question is: by `universities`, `years` and
+`module` — ID lists with the standard rules (`\|`, `;` or newline; leading `+` appends; an
+absent column leaves the existing value untouched). The record has always carried
+`universityIds`/`yearIds`/`moduleIds` and the Practical editor could set them; until
+2026-08-22 the importer had no column to read, so every imported case arrived unscoped. An
+empty `universities` list means EVERY university. Scope is separate from concept tagging and
+`module_subject`.
+
+## Stages and completeness
+
+A case is not "done" at a green `medical:batch`. It is finished per
+[13-orchestration.md](13-orchestration.md) §4 once `questions` (the decision count) meets
+this type's floor, S6 media requests are tracked, and `medical:audit` is clean.
 
 ---
 
@@ -126,8 +162,11 @@ happen before any result is back, because the cost of waiting is myocardium.
 | `Concept:` | The ONE concept this decision teaches. |
 | `Also:` | Concepts it also assesses, `\|`-separated. |
 | `Difficulty:` | This decision's intended difficulty. |
+| `Media:` | A real working managed-media URL for this decision. Omit while the asset is still only a request. |
+| `Media type:` | `image`, `audio`, or `video`. Required for audio/video; legacy rows without it are treated as images. |
+| `Media MIME:` | The verified MIME type, e.g. `video/mp4` or `audio/mpeg`. |
 
-`Concept:`, `Also:`, `Difficulty:` and `Media:` are **scalar labels** — they take their own
+`Concept:`, `Also:`, `Difficulty:`, `Media:`, `Media type:` and `Media MIME:` are **scalar labels** — they take their own
 line and then the parser reverts to context. This exists because letting `Difficulty:`
 swallow the next line produced values like `"Moderate He tells you he is thirsty"`, which
 matched no band and went silently untagged. Keep each on its own line.
@@ -166,6 +205,44 @@ careless; they were applying a rule they had learned without its timing caveat.
 
 ---
 
+## The vitals block
+
+Optional presenting observations, shown as a compact "Observations" card **beside** the
+decisions (not inside them). One `Label: value` per line — the parser reads labels case-
+insensitively and ignores any it does not recognise. Omit the whole `## vitals` block for a
+case with no vitals; a partial set (just the ones that matter) is fine.
+
+```markdown
+## vitals
+HR: 118
+BP: 108/68
+RR: 30
+SpO2: 91
+Temp: 37.4
+GCS: 14
+Glucose: 6.1
+Abnormal: HR | RR | SpO2
+Note: room air
+```
+
+| Line | Meaning |
+|---|---|
+| `HR:` | Heart rate — **bpm** |
+| `BP:` | Blood pressure — **mmHg**, kept as written (`108/68`) |
+| `RR:` | Respiratory rate — **/min** |
+| `SpO2:` | Oxygen saturation — **%** (room air unless `Note:` says otherwise) |
+| `Temp:` | Temperature — **°C** |
+| `GCS:` | Glasgow Coma Scale — **/15** (only when relevant) |
+| `Glucose:` | Capillary glucose — **mmol/L** (only when relevant) |
+| `Abnormal:` | Which vitals read **red** — the label names, `\|`/`;`/`,` separated. **Your clinical call in context**, because a normal range is age/comorbidity dependent. |
+| `Note:` | A short qualifier, e.g. `on 4 L O₂ via nasal cannula`. |
+
+Units are fixed by the conventions above — write the number only, no unit. Everything a
+decision's context already states in prose can be lifted here so the student reads the
+observations at a glance while they decide.
+
+---
+
 ## What `medical:batch` enforces
 
 The importer is permissive; the batch validator is not. Every practical format must
@@ -194,20 +271,16 @@ line. The importer treats both as optional — the validator does not.
 
 ## Media
 
-> **This format has no field for real media.** `ClinicalDecisionDraft` carries no media URL
-> — and neither does `OsceAuthoringData`, behind stations and checklists. The only media any
-> practical can hold is a **request**, which is an instruction to a human and never renders
-> to a student.
->
-> So you cannot attach an ECG, a photograph, a heart sound or a clip here at all. Your
-> options are: request it and let a human place it once real media exists, or, if the item
-> genuinely turns on the asset, write it as an MCQ instead — a question's `## attachments`
-> takes `image`, `audio` and `video`, and is the only student-facing item that does. See
-> [05-questions.md](05-questions.md) §Media.
-> A `Media:` line inside a `### decision` block is **silently discarded**. The parser
-> recognises the label — it does not even fall through into the decision's context — but
-> `ClinicalDecisionDraft` has no media field to put it in, so it vanishes without an error.
-> Only lab and imaging questions have a `Media:` that goes anywhere.
+A fulfilled decision can render an image, recording, or clip. Put its working managed URL
+on `Media:`, then declare `Media type:` and `Media MIME:` on their own lines. Until the
+asset is supplied and rights-cleared, omit all three and keep it in
+`media_recommendations`; required unresolved requests block publication.
+
+```markdown
+Media: /media/med-verified-ecg-clip
+Media type: video
+Media MIME: video/mp4
+```
 
 A case commonly needs an ECG, a radiograph or a photograph at one particular decision.
 
@@ -400,6 +473,7 @@ npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 - [ ] `Concept:`, `Also:` and `Difficulty:` each sit on their own line
 - [ ] Every decision names the one concept it teaches
 - [ ] `debrief` is written, and says what the case was really about
+- [ ] `vitals`, if given, are on their own `Label: value` lines and `Abnormal:` names only vitals that are truly abnormal in this patient
 - [ ] Every `Section:` in a media request matches a `###` decision heading exactly
 - [ ] `marks` equals the decision count
 

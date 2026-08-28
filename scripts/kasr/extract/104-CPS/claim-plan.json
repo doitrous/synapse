@@ -1,0 +1,262 @@
+[
+ {
+  "conceptId": "CON-CVS-818EC10C20A623",
+  "claimId": "CLM-104-PHY-AP-PHASE1-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-818EC10C20A623",
+  "claimId": "CLM-104-PHY-AP-PHASE2-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-A70930DB23A5B4",
+  "claimId": "CLM-104-PHY-EJECTION-PHASES-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-A70930DB23A5B4",
+  "claimId": "CLM-104-PHY-STROKE-VOLUME-ARITHMETIC-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-C1D705743C07E3",
+  "claimId": "CLM-104-PHY-INOTROPY-ESPVR-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-A99309543A270D",
+  "claimId": "CLM-104-PHY-CARDIAC-RESERVE-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-A99309543A270D",
+  "claimId": "CLM-104-PHY-STROKE-VOLUME-RESERVE-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-B21C3D54DE291E",
+  "claimId": "CLM-104-PHY-MSFP-VALUE-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-B21C3D54DE291E",
+  "claimId": "CLM-104-PHY-MSFP-VR-CURVE-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-08B8764A5D501B",
+  "claimId": "CLM-104-PHY-THORACIC-PUMP-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-C3E60AC7A9EDB1",
+  "claimId": "CLM-104-PHY-BARORECEPTOR-SITE-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-C3E60AC7A9EDB1",
+  "claimId": "CLM-104-PHY-BAROREFLEX-OPPOSES-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-RES-1BA6BE714676EC",
+  "claimId": "CLM-104-PHY-LUNG-RECOIL-SOURCES-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-RES-4D4CBF3BB8AF1E",
+  "claimId": "CLM-104-PHY-SURFACTANT-SOURCE-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-RES-4D4CBF3BB8AF1E",
+  "claimId": "CLM-104-PHY-SURFACTANT-FUNCTIONS-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-RES-D95A9FD64ABF25",
+  "claimId": "CLM-104-PHY-ODC-P50-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-RES-D95A9FD64ABF25",
+  "claimId": "CLM-104-PHY-ODC-LEFT-SHIFT-01",
+  "sourceId": "src_a11a7faed67c95e2d636"
+ },
+ {
+  "conceptId": "CON-CVS-19E63D8A8E7EDA",
+  "claimId": "CLM-104-ANA-POST-INTERCOSTAL-VEINS-RIGHT-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-CVS-19E63D8A8E7EDA",
+  "claimId": "CLM-104-ANA-POST-INTERCOSTAL-VEINS-LEFT-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-RES-3AB5ED388161A2",
+  "claimId": "CLM-104-ANA-PLEURA-NERVE-SUPPLY-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-CVS-CFF45F193765C4",
+  "claimId": "CLM-104-ANA-CIRCUMFLEX-ORIGIN-END-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-CVS-CFF45F193765C4",
+  "claimId": "CLM-104-ANA-CIRCUMFLEX-BRANCHES-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-RES-03AB23DA654BAF",
+  "claimId": "CLM-104-ANA-POSTERIOR-MEDIASTINUM-BOUNDARIES-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-RES-03AB23DA654BAF",
+  "claimId": "CLM-104-ANA-POSTERIOR-MEDIASTINUM-CONTENTS-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-DEV-9A66BF99D1BD3D",
+  "claimId": "CLM-104-ANA-AORTIC-SAC-FATE-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-CVS-4F6394A2A7C0C5",
+  "claimId": "CLM-104-ANA-AORTIC-ANEURYSM-MEDIASTINAL-SYNDROME-01",
+  "sourceId": "src_4bd55e9eaf092282818c"
+ },
+ {
+  "conceptId": "CON-HEM-BF004EF03BD129",
+  "claimId": "CLM-104-HIS-TONSIL-PALATINE-LINGUAL-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-7B050DE7FE2B80",
+  "claimId": "CLM-104-HIS-WHITE-PULP-ZONES-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-FND-A2E40256517389",
+  "claimId": "CLM-104-HIS-CELL-RENEWAL-TYPES-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-DEV-C2AC39B48A8F21",
+  "claimId": "CLM-104-HIS-ANEUPLOIDY-DEFINITION-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-DEV-C2AC39B48A8F21",
+  "claimId": "CLM-104-HIS-ANEUPLOIDY-CAUSES-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-CVS-9585A65D9EDA4D",
+  "claimId": "CLM-104-HIS-CAPILLARY-CONTINUOUS-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-CVS-9585A65D9EDA4D",
+  "claimId": "CLM-104-HIS-CAPILLARY-SINUSOID-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-RES-B7F9FACECA4AFF",
+  "claimId": "CLM-104-HIS-OLFACTORY-EPITHELIUM-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-RES-B7F9FACECA4AFF",
+  "claimId": "CLM-104-HIS-OLFACTORY-BASEMENT-MEMBRANE-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-D2143156B30A8A",
+  "claimId": "CLM-104-HIS-LYMPH-NODE-ARCHITECTURE-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-A76AED7046089F",
+  "claimId": "CLM-104-HIS-SECONDARY-FOLLICLE-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-748293D5DA5D92",
+  "claimId": "CLM-104-HIS-PARACORTEX-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-E3D03CE92F1D92",
+  "claimId": "CLM-104-HIS-LYMPH-NODE-MEDULLA-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-087A20D42875CE",
+  "claimId": "CLM-104-HIS-NODE-VS-SPLEEN-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-2F3CB0082551D1",
+  "claimId": "CLM-104-HIS-SPLEEN-STROMA-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-594B1725902DAD",
+  "claimId": "CLM-104-HIS-RED-PULP-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-4D47090A0B7561",
+  "claimId": "CLM-104-HIS-SPLENIC-CIRCULATION-THEORIES-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-093013026B640A",
+  "claimId": "CLM-104-HIS-PALATINE-TONSIL-STRUCTURE-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-F0020DCB0BA8FD",
+  "claimId": "CLM-104-HIS-TONSIL-CAPSULE-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-23C119B7E783BD",
+  "claimId": "CLM-104-HIS-PHARYNGEAL-TONSIL-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-A165FFF2DDDE92",
+  "claimId": "CLM-104-HIS-TONSIL-FUNCTION-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-BA8773E5D84286",
+  "claimId": "CLM-104-HIS-THYMUS-LOBULATION-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-10B2E783E164FD",
+  "claimId": "CLM-104-HIS-HASSALL-CORPUSCLE-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-02424D1AF8A169",
+  "claimId": "CLM-104-HIS-THYMIC-EPITHELIAL-RETICULAR-CELLS-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-3E38A04641F73C",
+  "claimId": "CLM-104-HIS-THYMUS-ABSENCES-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ },
+ {
+  "conceptId": "CON-HEM-BB5A071CEEB78F",
+  "claimId": "CLM-104-HIS-BLOOD-THYMIC-BARRIER-01",
+  "sourceId": "src_18d3a953df4ca83c4e74"
+ }
+]

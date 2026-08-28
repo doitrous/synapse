@@ -2,17 +2,20 @@ import SwiftUI
 
 /// OSCE stations, clinical cases, lab and imaging sets, and skills checklists.
 struct PracticalView: View {
+    @Environment(\.strings) private var strings
     let store: LocalStore
     let sync: SyncEngine
     let audience: StudentAudience
+    let api: SynapseAPI
 
     @State private var groups: [(type: String, items: [Practical])] = []
     @State private var isLoading = true
+    @State private var model: PracticalModel?
 
     var body: some View {
         Group {
             if isLoading {
-                ProgressView().tint(Theme.accent)
+                ProgressView().tint(Theme.primary)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
             } else if groups.isEmpty {
                 EmptyStateView(
@@ -25,12 +28,19 @@ struct PracticalView: View {
                     ForEach(groups, id: \.type) { group in
                         Section {
                             ForEach(group.items) { item in
-                                NavigationLink {
-                                    PracticalDetailView(practical: item)
-                                } label: {
+                                if isSkill(item), item.markSections.isEmpty {
+                                    // Nothing to open: the rating in the row
+                                    // is the whole of it.
                                     row(item)
+                                        .listRowBackground(Theme.surface)
+                                } else {
+                                    NavigationLink {
+                                        PracticalDetailView(practical: item, model: model)
+                                    } label: {
+                                        row(item)
+                                    }
+                                    .listRowBackground(Theme.surface)
                                 }
-                                .listRowBackground(Theme.surface)
                             }
                         } header: {
                             Text(group.type)
@@ -46,16 +56,23 @@ struct PracticalView: View {
             }
         }
         .background(Theme.paper)
-        .navigationTitle("Practical")
+        .navigationTitle(strings("Practical"))
         .navigationBarTitleDisplayMode(.inline)
-        .task { await load() }
+        .task {
+            if model == nil {
+                let created = PracticalModel(api: api, sync: sync)
+                model = created
+                await created.load()
+            }
+            await load()
+        }
     }
 
     private func row(_ item: Practical) -> some View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: item.symbol)
                 .font(.system(size: 15))
-                .foregroundStyle(Theme.accent)
+                .foregroundStyle(Theme.primary)
                 .frame(width: 22)
             VStack(alignment: .leading, spacing: 3) {
                 Text(item.title)
@@ -68,9 +85,63 @@ struct PracticalView: View {
                 }
                 .font(Theme.numeric(11))
                 .foregroundStyle(Theme.ink3)
+
+                // Where they got to, when they have been here before.
+                if let done = standing(item) {
+                    Text(done)
+                        .font(Theme.numeric(11))
+                        .foregroundStyle(Theme.success)
+                }
+            }
+
+            Spacer(minLength: 0)
+
+            // A skill is rated by the student, so it is rated from the list —
+            // there is nothing to open and read.
+            if isSkill(item), let model {
+                Button {
+                    Task { await model.cycle(skill: item.id) }
+                } label: {
+                    let status = model.skill(item.id)
+                    Text(status.label)
+                        .font(Theme.ui(11, weight: 600))
+                        .foregroundStyle(colour(status))
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(colour(status).opacity(0.12), in: Capsule())
+                }
+                .buttonStyle(.plain)
             }
         }
         .padding(.vertical, 2)
+    }
+
+    private func isSkill(_ item: Practical) -> Bool { item.type == "Skills checklist" }
+
+    private func colour(_ status: PracticalProgress.SkillStatus) -> Color {
+        switch status {
+        case .notStarted: Theme.ink3
+        case .practised: Theme.primary
+        case .ready: Theme.success
+        }
+    }
+
+    /// What this student has already done here, said in a few characters.
+    private func standing(_ item: Practical) -> String? {
+        guard let model else { return nil }
+
+        if let station = model.station(item.id), station.outOf > 0 {
+            return "Best \(station.bestMarks)/\(station.outOf)"
+        }
+        if let progress = model.caseProgress(item.id) {
+            return progress.status == .completed
+                ? "Finished"
+                : "Got to \(progress.lastStep) of \(progress.steps)"
+        }
+        if let lab = model.lab(item.id), lab.items > 0 {
+            return "\(lab.done) of \(lab.items) answered"
+        }
+        return nil
     }
 
     private func load() async {
@@ -95,10 +166,15 @@ struct PracticalView: View {
 /// Answers and debriefs are held behind a tap. A mark scheme visible while you
 /// are still working through a station is not a mark scheme, it is the answers.
 struct PracticalDetailView: View {
+    @Environment(\.strings) private var strings
     let practical: Practical
+    var model: PracticalModel?
 
     @State private var revealed = false
     @State private var ticked: Set<String> = []
+    /// The ticks as they stood when this screen opened, so leaving without
+    /// changing anything does not count as another attempt.
+    @State private var opened: Set<String> = []
 
     var body: some View {
         ScrollView {
@@ -167,12 +243,12 @@ struct PracticalDetailView: View {
                     Button {
                         revealed = true
                     } label: {
-                        Text("Show the answers")
+                        Text(strings("Show the answers"))
                             .font(Theme.ui(16, weight: 600))
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)
-                            .background(revealed ? Theme.inset : Theme.accent)
-                            .foregroundStyle(revealed ? Theme.ink3 : Theme.onAccent)
+                            .background(revealed ? Theme.inset : Theme.primary)
+                            .foregroundStyle(revealed ? Theme.ink3 : Theme.onPrimary)
                             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                     }
                     .disabled(revealed)
@@ -197,6 +273,8 @@ struct PracticalDetailView: View {
         .background(Theme.paper)
         .navigationTitle(practical.title)
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear(perform: resume)
+        .onDisappear(perform: keep)
     }
 
     private var hasHiddenContent: Bool {
@@ -258,9 +336,19 @@ struct PracticalDetailView: View {
                     }
                 }
                 if totalMarkItems > 0 {
-                    Text("\(ticked.count) of \(totalMarkItems) ticked")
-                        .font(Theme.numeric(12))
-                        .foregroundStyle(Theme.ink3)
+                    HStack {
+                        Text("\(ticked.count) of \(totalMarkItems) ticked")
+                            .font(Theme.numeric(12))
+                            .foregroundStyle(Theme.ink3)
+                        Spacer()
+                        // What they managed before, so a second run has
+                        // something to beat.
+                        if let best = model?.station(practical.id), best.outOf > 0 {
+                            Text("Best \(best.bestMarks)/\(best.outOf) · ^[\(best.attempts) go](inflect: true)")
+                                .font(Theme.numeric(12))
+                                .foregroundStyle(Theme.ink2)
+                        }
+                    }
                 }
             }
         }
@@ -268,6 +356,37 @@ struct PracticalDetailView: View {
 
     private var totalMarkItems: Int {
         practical.markSections.reduce(0) { $0 + $1.items.count }
+    }
+
+    /// Pick up where the last run left off.
+    private func resume() {
+        guard let model else { return }
+        ticked = model.resumedTicks(practical.id)
+        opened = ticked
+    }
+
+    /// Keep what this run came to.
+    ///
+    /// On the way out rather than on every tick: the record is one document,
+    /// and a fifty-point mark scheme would otherwise cost fifty writes. A run
+    /// that changed nothing is not a run — reopening a station to read it
+    /// should not count as another attempt at it.
+    private func keep() {
+        guard let model, ticked != opened else { return }
+
+        Task {
+            if totalMarkItems > 0 {
+                await model.record(station: practical, ticked: ticked, outOf: totalMarkItems)
+            } else if !practical.decisions.isEmpty {
+                await model.record(
+                    case: practical,
+                    reachedStep: revealed ? practical.decisions.count : 0,
+                    completed: revealed
+                )
+            } else if !practical.questions.isEmpty {
+                await model.record(lab: practical, answered: revealed ? practical.questions.count : 0)
+            }
+        }
     }
 
     private func section<Content: View>(

@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import { CircleCheck, CircleAlert } from 'lucide-react'
 import { API_MODE, apiGet } from '@/lib/api'
 import { Icon } from '@/components/ui/Icon'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 
 /**
  * The page an unsubscribe link lands on.
@@ -32,7 +32,7 @@ export function Unsubscribe() {
   return (
     <main className="grid min-h-dvh place-items-center bg-paper px-4">
       <div className="w-full max-w-md rounded-xl border border-line bg-surface p-7 text-center shadow-panel">
-        <span className="font-serif text-[19px] font-semibold text-primary-strong">Connect Cortex</span>
+        <span className="font-serif text-[19px] font-semibold text-primary-strong">Maristana</span>
 
         {state === 'working' && <p className="mt-6 text-[14px] text-ink-2">Updating your preferences…</p>}
 
@@ -52,12 +52,19 @@ export function Unsubscribe() {
             <span className="mx-auto mt-6 grid size-11 place-items-center rounded-full bg-warning-tint text-warning"><Icon icon={CircleAlert} size={22} /></span>
             <h1 className="mt-4 font-serif text-[21px] font-semibold text-ink">That link has expired</h1>
             <p className="mt-2 text-[13.5px] leading-relaxed text-ink-2">
-              We could not read this unsubscribe link. Change your email preferences in your account settings, or reply to any Connect Cortex email and we will do it for you.
+              We could not read this unsubscribe link. Change your email preferences in your account settings, or reply to any Maristana email and we will do it for you.
             </p>
           </>
         )}
 
-        <Link to="/" className="mt-6 inline-block"><Button variant="secondary" size="sm">Go to Connect Cortex</Button></Link>
+        <ButtonLink
+          to="/"
+          variant="secondary"
+          size="sm"
+          className="mt-6"
+        >
+          Go to Maristana
+        </ButtonLink>
       </div>
     </main>
   )

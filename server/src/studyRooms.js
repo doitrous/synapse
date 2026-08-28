@@ -14,8 +14,9 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
-
-const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
+import { publishedQuestions } from './publishedQuestions.js'
+import { orderedPair } from './friendship.js'
+import { withContentCatalogueGate } from './contentCatalogueGate.js'
 
 /** Longest a room may be. Enough for a full paper, short of an endurance test. */
 const MAX_QUESTIONS = 40
@@ -23,40 +24,6 @@ const MAX_QUESTIONS = 40
 /** No 0/O/1/I/L — a code gets read aloud and typed by hand. */
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'
 const CODE_LENGTH = 6
-
-/* The published question set, cached and invalidated on ledger writes — the
-   same shape as the medical-resource snapshot above it in index.js. */
-let questionSnapshot = null
-
-export function invalidateStudyRoomSnapshot(key) {
-  if (key === LEDGER_KEY) questionSnapshot = null
-}
-
-async function publishedQuestions() {
-  if (questionSnapshot) return questionSnapshot
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [LEDGER_KEY])
-  const byId = new Map()
-  if (rows.length) {
-    try {
-      const ledger = JSON.parse(rows[0].v)
-      for (const item of Array.isArray(ledger) ? ledger : []) {
-        if (item?.kind !== 'question' || item.status !== 'Published') continue
-        const answers = item.questionData?.answers ?? []
-        byId.set(item.id, {
-          id: item.id,
-          title: item.title,
-          // The index of the correct option, or -1 when the author marked none.
-          correctIndex: answers.findIndex((answer) => answer?.correct),
-          optionCount: answers.length,
-        })
-      }
-    } catch {
-      // A malformed ledger yields an empty set rather than a thrown request.
-    }
-  }
-  questionSnapshot = byId
-  return byId
-}
 
 function newCode() {
   let code = ''
@@ -73,7 +40,34 @@ async function displayNameFor(userId) {
   return name ? String(name).split('@')[0] : 'Student'
 }
 
-export async function createRoom(userId, { name, questionIds, timed, secondsPerQuestion }) {
+/**
+ * Seat invited friends in a room at creation, so the room they land in
+ * already has the host in it and no code has to change hands.
+ *
+ * Each id is checked against the friend graph before it is inserted. This
+ * stays quiet about ids that fail the check rather than reporting why: an
+ * error that told the caller "not your friend" versus "no such account"
+ * would turn room creation into a way to probe whether an arbitrary user id
+ * exists, so a non-friend is simply not seated, the same way a stranger's
+ * guess at a room code just does not work.
+ */
+async function seatInvitedFriends(hostId, roomId, inviteUserIds) {
+  const ids = [...new Set((Array.isArray(inviteUserIds) ? inviteUserIds : []).filter((id) => id && id !== hostId))]
+  for (const friendId of ids) {
+    const { userA, userB } = orderedPair(hostId, friendId)
+    const [rows] = await pool.query(
+      "SELECT 1 FROM friendships WHERE user_a = ? AND user_b = ? AND status = 'accepted' LIMIT 1",
+      [userA, userB],
+    )
+    if (!rows.length) continue
+    await pool.query(
+      'INSERT INTO study_room_members (room_id, user_id, display_name) VALUES (?, ?, ?)',
+      [roomId, friendId, await displayNameFor(friendId)],
+    )
+  }
+}
+
+async function createRoomUnlocked(userId, { name, questionIds, timed, secondsPerQuestion, inviteUserIds }) {
   const wanted = Array.isArray(questionIds) ? questionIds : []
   const published = await publishedQuestions()
   // Only questions that exist and are published can be frozen into a room.
@@ -95,12 +89,17 @@ export async function createRoom(userId, { name, questionIds, timed, secondsPerQ
         'INSERT INTO study_room_members (room_id, user_id, display_name) VALUES (?, ?, ?)',
         [id, userId, await displayNameFor(userId)],
       )
+      await seatInvitedFriends(userId, id, inviteUserIds)
       return { ok: true, room: await roomFor(userId, id) }
     } catch (error) {
       if (error?.code !== 'ER_DUP_ENTRY') throw error
     }
   }
   return { ok: false, reason: 'code_collision' }
+}
+
+export async function createRoom(userId, input) {
+  return withContentCatalogueGate(() => createRoomUnlocked(userId, input))
 }
 
 export async function joinRoom(userId, rawCode) {
@@ -185,13 +184,17 @@ export async function roomFor(userId, roomId) {
   }
 }
 
-export async function startRoom(userId, roomId) {
+async function startRoomUnlocked(userId, roomId) {
   const [rows] = await pool.query('SELECT host_user_id AS hostUserId, status FROM study_rooms WHERE id = ?', [roomId])
   if (!rows.length) return { ok: false, reason: 'not_found' }
   if (rows[0].hostUserId !== userId) return { ok: false, reason: 'not_host' }
   if (rows[0].status !== 'lobby') return { ok: true, room: await roomFor(userId, roomId) }
   await pool.query("UPDATE study_rooms SET status = 'running', started_at = CURRENT_TIMESTAMP WHERE id = ?", [roomId])
   return { ok: true, room: await roomFor(userId, roomId) }
+}
+
+export async function startRoom(userId, roomId) {
+  return withContentCatalogueGate(() => startRoomUnlocked(userId, roomId))
 }
 
 export async function submitAnswer(userId, roomId, { questionId, chosenIndex, seconds }) {

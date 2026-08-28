@@ -17,6 +17,35 @@ There are **53 columns**. This manual covers all of them.
 
 ---
 
+## Scope
+
+An article exists to cover a concept that is in scope by the same rule as 02-concepts.md §Scope
+— tested by a banked question, or taught by the department book chapter the module examines.
+Do not write an article for a concept the module never sits, and do not write prose covering
+more than the concepts it names in `related_concepts`.
+
+Coverage runs in **both directions**, and both must hold before the pair is finished: every
+concept an article teaches goes in that article's `related_concepts`, **and** that concept must
+list the article back in its own `article_ids`. At validate time the coverage check is the
+**union** of the two — a question's main concept counts as covered if it is in the concept's
+own `article_ids`, or if an article named alongside it on `--with` lists it in
+`related_concepts` (05-questions.md §Coverage, precisely). That union is a simulation of what
+importing both batches together would produce, not what importing already did: the article
+importer never backfills a concept's live `article_ids`, so an article that names the concept
+in `related_concepts` without the concept naming the article back will validate clean today —
+as long as both are named on the same `--with` — and still leave live coverage broken the next
+time someone checks without that article in the set. Write both directions for real.
+
+A concept's `article_ids` is not proof either: `scripts/kasr/build-article-links.ts` writes
+that field onto generated concept rows heuristically, by term overlap with article text, and
+the validator's union rule then passes on the concept side alone. A 2026-08-23 check of 23
+concepts found 17 with no article that actually named them and at least 2 links that were
+outright wrong. Treat a term-overlap `article_ids` entry as a lead to verify, never as coverage
+already achieved — run the coverage-verification pass before a module's INDEX (13-orchestration.md
+§4, §10).
+
+---
+
 ## The body is plain text in named sections
 
 Not markdown. Not HTML. Not blocks. An article is a list of `### Heading` sections, each
@@ -138,12 +167,12 @@ From `articlePopulated` in the field audit, plus the importer's own required set
 | Key | Required | Rule |
 |---|---|---|
 | `title` | **yes** | Student-facing. |
-| `subject` | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` — see [00-START-HERE §3](00-START-HERE.md) and [02-concepts.md](02-concepts.md) §Placement for the map where the source material doesn't name one outright. |
 | `topic` | **yes** | Parent topic in the library navigator. |
 | `summary` | **yes** | The opening summary. Also a discriminating column — always include it. |
 | `sections` | **yes** in practice | `### Heading` blocks. The audit requires a value; the importer accepts `body` instead, but do not use it — it is legacy. |
 | `id` | no | `ART-<SUBJECT>-<SLUG>`. Supply to update. |
-| `status` | no | `Draft` · `In review` · `Published` · `Archived`. Write `Draft`. |
+| `status` | no | `Draft` · `In review` · `Published` · `Archived`. Write `Draft`. `server/src/studentLedger.js` redacts every item a student can reach at the source, and its one rule is `item.status !== 'Published'` → withheld — nothing else exempts a record. Stays `Draft` until a named reviewer or publisher (`reviewer` / `final_publisher`, not "Admin team" left as the default) flips it by hand; no gate flips it for you. |
 | `owner` | no | Defaults to `Admin team`. Content owner. |
 | `primary_node_id` | — | Canonical placement, `SYS-CVS-T01`. Derived from the subject/topic crosswalk when omitted — write it anyway. |
 | `template_id` | — | From the table above. |
@@ -244,6 +273,26 @@ A blank here without a `field_notes` line fails the audit. `N/A` and `TODO` are 
 `arabic_title` and `aliases` deserve real effort rather than a note: aliases are what drive
 the automatic concept-linking in rendered prose, and an Arabic title can be researched and
 written directly without a separate verification step.
+
+---
+
+## The evidence layer
+
+Spans, claims and citations are stage **S5** — written from the department book, after the
+article's prose exists, against the same source that wrote it. In the Kasr toolchain, three
+tools carry this in order: `scripts/kasr/extract/deptbook-spans.py` locates candidate spans in
+the extracted book text, `scripts/kasr/build-evidence.ts` turns them into claim and citation
+batches, and `scripts/kasr/apply-article-evidence.ts` fills a finished article's `claim_ids`
+and `span_ids` from that evidence — a targeted rewrite of those two columns only, safe to run
+twice, that never touches the hand-authored prose around them.
+
+Landing S5 with `[clear]` in a prose-section column is a live failure, not a hypothetical one:
+`[clear]` is the sentinel for an empty **list** column, but `sections`, `published_sections`,
+`annotations`, `media` and `media_recommendations` are parsed by `parseSections`, which has no
+heading to split on and stores a section whose body is the literal word "[clear]" — visible to
+a student on `published_sections`. Thirty articles across three Kasr batches shipped it before
+the batch validator was taught to refuse it by name (`60c898a`). The correct empty for any of
+those five columns is an empty body, not `[clear]`.
 
 ---
 
@@ -348,8 +397,8 @@ Id: ann-cvs-preload-001
 
 ## Media
 
-Two different things, and mixing them up puts an unfinished asset one flag away from a
-student.
+Media is stage **S6**. Two different things, and mixing them up puts an unfinished asset one
+flag away from a student.
 
 ### Real media you have — `## media`
 
@@ -418,6 +467,16 @@ MMS: The Mansoura course covers this under Emergency Medicine rather than Respir
 
 `university_notes` is a **prose list** — one note per line, `UNIVERSITY: text`. It renders
 as a distinct in-article aside.
+
+**Every university on this article needs all five of its own tags — `universities`,
+`years`, `module`, `module_subject`, `university_notes` — not just its name in
+`universities`.** Adding a second university means restating the union: `years` and
+`universities` accept `+MMS`/`+MMS_Y2` (true id lists), but `module_subject` and
+`university_notes` are re-parsed whole on every write and have no `+` form, so retype every
+line already there plus the new university's own. See [00-START-HERE §3, "Per-university
+traceability"](00-START-HERE.md#per-university-traceability-on-shared-records) — an article
+has no `exam_weight_by_year` column (that lives on the question and the concept), so this
+kind's traceable set is the five fields above.
 
 ---
 
@@ -674,3 +733,38 @@ npm run medical:validate:authoring
 | `still carries a Components and relations section` | Forbidden section |
 | `related article X is authored nowhere in the batch directory`, but X is live | Directory-scoped check. Confirm with `medical:simulate`. |
 | A teaching point arrives cut in half | You used `;` in a prose list. One item per line. |
+
+---
+
+## `module_subject` — where inside a module this article belongs
+
+A module ID alone is too coarse to revise by: a module runs for a term and
+covers two or more disciplines, so "this belongs to `101 ISK`" does not tell a
+student working on the brachial plexus whether it is theirs.
+
+Write the way down, **one path per line**:
+
+```
+## module_subject
+101 ISK > Anatomy > Upper Limb > Brachial Plexus
+101 ISK > Histology > Epithelium
+```
+
+Newlines separate paths — never `|` or `;`. Every other list column accepts
+those, and this one must not: a faculty's own subject name may contain either,
+and splitting on them would cut it in half.
+
+The first segment may name the module, by ID or by name, and is optional.
+Segments match the module's subject tree by name, ignoring case and padding.
+
+A path that stops matching resolves to **nothing**, and reports the segment it
+failed on. It does not fall back to the last segment that did match — that would
+file the article a level above where it was meant to go, which is worse than
+being told it failed.
+
+The path is stored as written, not as a resolved ID. The subject tree gets
+reorganised as department books change, and a path that stops resolving can be
+reported and repaired, where a stale ID just points at nothing.
+
+Build the tree first, with an indented outline in **Academic Setup › Import** —
+see `01-subjects-and-topics.md`.

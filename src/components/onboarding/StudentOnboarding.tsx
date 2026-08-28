@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, GraduationCap, Sparkles } from 'lucide-react'
+import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, GraduationCap, Sparkles, UserRound } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -8,40 +8,51 @@ import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import { universities as seededUniversities } from '@/data/universities'
+import { useIdentity } from '@/lib/useIdentity'
+import { supabase } from '@/lib/supabase'
+import { API_MODE, apiPut } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { SELF_AUDIENCE_STORAGE_KEY, useIdentity, type SelfDeclaredAudience } from '@/lib/useIdentity'
 import { useT } from '@/lib/i18n'
 import { formatShare } from '@/data/moduleSubjects'
 import { priceAt, say, type CatalogPlan } from '@/data/planCatalog'
+import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
+import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem } from '@/data/profileIcons'
 import {
-  ONBOARDING_STORAGE_KEY, TRIAL_DAYS, liveUniversities, liveYears, offeredPlans,
-  onboardingComplete, planSelectable, trialFor, yearModules,
-  type OnboardingAnswers, type TrialGrant,
+  TRIAL_DAYS, liveUniversities, liveYears, offeredPlans, planSelectable, yearModules,
 } from '@/data/onboarding'
+
+interface StudentProfileDraft {
+  username: string
+  iconId: string
+}
+
+const PROFILE_STORAGE_KEY = 'synapse.account.profile.v1'
 
 /**
  * The three questions a new student is asked, in the order the answers depend
  * on each other.
  *
- * This replaced a dismissible modal that asked for a university and a year and
- * offered "Not now" beside them. Nothing else in the app works without those
- * two — the timetable, the scoped library, the question bank all match nothing
- * — so the way past it was the reason accounts existed with every surface
- * empty. It is now a step at a time, with no way to skip and nothing lost if
- * the tab is closed halfway.
+ * Nothing else in the app works without a university and a year — the
+ * timetable, the scoped library and the question bank all match nothing — so
+ * there is no way past this and nothing here is optional.
+ *
+ * Two things about *when* it appears matter as much as what it asks:
+ *
+ *  - It waits for the account to load. It used to render the moment identity
+ *    resolved, while the record of where the student studies was still in
+ *    flight, so a student who had already answered was asked again — and
+ *    answering differently is how one account ended up showing two different
+ *    enrolled years in two browsers.
+ *  - Whether it has been answered is read from the account itself, not from a
+ *    "completed" flag in a browser document. The flag lived in the shared
+ *    catalogue store, which no student may write; every save was refused, so
+ *    nothing was ever recorded and only the enrolment happening to be present
+ *    kept the screen away.
  *
  * Only live universities and years are offered, through the same `isYearLive`
  * the voucher rules read: a place that cannot take a voucher cannot take a
  * registration either.
  */
-
-interface StoredOnboarding {
-  answers: Partial<OnboardingAnswers>
-  trial?: TrialGrant
-  completedAt?: string
-}
-
-const EMPTY: StoredOnboarding = { answers: {} }
 
 function StepDots({ step, total }: { step: number; total: number }) {
   return (
@@ -49,7 +60,7 @@ function StepDots({ step, total }: { step: number; total: number }) {
       {Array.from({ length: total }, (_, index) => (
         <span
           key={index}
-          className={cn('h-1.5 rounded-full transition-all', index === step ? 'w-6 bg-primary' : index < step ? 'w-1.5 bg-primary/50' : 'w-1.5 bg-line-2')}
+          className={cn('h-1.5 rounded-full transition-[width,background-color]', index === step ? 'w-6 bg-primary' : index < step ? 'w-1.5 bg-primary/50' : 'w-1.5 bg-line-2')}
         />
       ))}
     </div>
@@ -58,17 +69,20 @@ function StepDots({ step, total }: { step: number; total: number }) {
 
 export function StudentOnboarding() {
   const t = useT()
-  const { audienceUnknown, status } = useIdentity()
-  const [configured] = useUniversityCatalogue()
+  const { audienceSettled, audienceUnknown, status, saveEnrolment } = useIdentity()
+  const [configured, , catalogueStatus] = useUniversityCatalogue()
   const [catalog] = usePlanCatalog()
-  const [stored, setStored] = usePersistentState<StoredOnboarding>(ONBOARDING_STORAGE_KEY, EMPTY)
-  const [, setAudience] = usePersistentState<SelfDeclaredAudience | null>(SELF_AUDIENCE_STORAGE_KEY, null)
 
   const [step, setStep] = useState(0)
-  const [universityId, setUniversityId] = useState(() => stored.answers.universityId ?? '')
-  const [yearId, setYearId] = useState(() => stored.answers.yearId ?? '')
-  const [planId, setPlanId] = useState(() => stored.answers.planId ?? '')
+  const [universityId, setUniversityId] = useState('')
+  const [yearId, setYearId] = useState('')
+  const [planId, setPlanId] = useState('')
   const [group, setGroup] = useState('')
+  const [profileDraft, setProfileDraft] = usePersistentState<StudentProfileDraft>(PROFILE_STORAGE_KEY, { username: '', iconId: DEFAULT_PROFILE_ICON })
+  const [username, setUsername] = useState(profileDraft.username)
+  const [iconId, setIconId] = useState(profileDraft.iconId || DEFAULT_PROFILE_ICON)
+  const [saving, setSaving] = useState(false)
+  const [error, setError] = useState('')
 
   // An admin-configured catalogue is the real list; the seeded schools stand in
   // when none has been set up yet, so this is never an empty screen.
@@ -82,46 +96,99 @@ export function StudentOnboarding() {
     () => offeredPlans(catalog, { universityId, year: year?.year }),
     [catalog, universityId, year],
   )
+  const cleanUsername = normaliseUsername(username)
+  const profileError = usernameProblem(username)
+  const steps = [
+    {
+      title: t('Where do you study?'),
+      description: t('This decides which timetable and which content you see.'),
+      icon: Building2,
+    },
+    {
+      title: t('Which year are you in?'),
+      description: t('Your year decides the modules you are taught, and what your timetable shows.'),
+      icon: GraduationCap,
+    },
+    {
+      title: t('Choose your profile'),
+      description: t('Your username and icon are what classmates see if you opt in to discovery later.'),
+      icon: UserRound,
+    },
+    {
+      title: t('Choose your plan'),
+      description: t('Every new account starts with {days} days of full access.').replace('{days}', String(TRIAL_DAYS)),
+      icon: Sparkles,
+    },
+  ]
 
-  if (status === 'loading' || !audienceUnknown || stored.completedAt) return null
+  // Nothing is decided until the account has answered for itself, and the
+  // catalogue this screen offers has arrived. Rendering earlier means asking a
+  // student who has already answered, and there is no way to un-ask it.
+  if (status === 'loading') return null
+  if (status === 'anonymous') return null
+  // Not merely "identity has resolved": the account's own answer may still be
+  // arriving. Asking a student who has already answered cannot be taken back.
+  if (!audienceSettled) return null
+  if (!audienceUnknown) return null
+  // A catalogue that cannot be read is not a reason to withhold the screen —
+  // the seeded list stands in — but one still on its way is.
+  if (!catalogueStatus.hydrated && !catalogueStatus.error) return null
 
-  function finish() {
-    const answers = { universityId, yearId, planId }
-    if (!onboardingComplete(answers) || !university || !year) return
-    setAudience({ universityId: university.id, year: year.year, group: group.trim() })
-    setStored({
-      answers,
-      trial: trialFor(answers.planId, new Date()),
-      completedAt: new Date().toISOString(),
-    })
+  async function finish() {
+    if (!university || !year || !planId || profileError) return
+    setError('')
+    setSaving(true)
+    try {
+      const profilePayload = { username: cleanUsername, iconId }
+      setProfileDraft(profilePayload)
+      if (API_MODE) {
+        try {
+          await apiPut('/me/profile', profilePayload)
+        } catch {
+          // The planned server endpoint owns case-insensitive uniqueness. Older
+          // backends do not have it yet; onboarding can still preserve the
+          // choice locally while the deployment catches up.
+        }
+      }
+      // Sign-up put the name, phone and nationality in Supabase user metadata,
+      // where the server never sees them. This is the first request that can
+      // carry them across, and it is also what finally gives the phone-number
+      // uniqueness check a row to compare against.
+      const metadata = (await supabase?.auth.getUser())?.data.user?.user_metadata as
+        { full_name?: string; name?: string; phone?: string; nationality?: string } | undefined
+      await saveEnrolment({
+        universityId: university.id,
+        year: year.year,
+        group: group.trim(),
+        plan: planId,
+        name: metadata?.full_name || metadata?.name,
+        phone: metadata?.phone,
+        nationality: metadata?.nationality,
+      })
+    } catch {
+      setSaving(false)
+      setError(t('That could not be saved. Check your connection and try again — nothing has been lost.'))
+    }
   }
 
-  /** Remember the answers so far, so closing the tab does not undo them. */
-  const remember = (answers: Partial<OnboardingAnswers>) =>
-    setStored((current) => ({ ...current, answers: { ...current.answers, ...answers } }))
-
-  const canContinue = [Boolean(university), Boolean(year), Boolean(planId)][step]
+  const canContinue = [Boolean(university), Boolean(year), !profileError, Boolean(planId)][step]
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-paper" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
       <div className="mx-auto flex min-h-full w-full max-w-3xl flex-col px-5 py-8 sm:py-12">
         <div className="flex items-center gap-3">
           <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-primary-tint text-primary-strong">
-            <Icon icon={[Building2, GraduationCap, Sparkles][step]} size={20} />
+            <Icon icon={steps[step].icon} size={20} />
           </span>
           <div className="min-w-0 flex-1">
             <h1 id="onboarding-title" className="font-serif text-[22px] font-semibold text-ink">
-              {[t('Where do you study?'), t('Which year are you in?'), t('Choose your plan')][step]}
+              {steps[step].title}
             </h1>
             <p className="mt-0.5 text-[13px] text-ink-2">
-              {[
-                t('This decides which timetable and which content you see.'),
-                t('Your year decides the modules you are taught, and what your timetable shows.'),
-                t('Every new account starts with {days} days of full access.').replace('{days}', String(TRIAL_DAYS)),
-              ][step]}
+              {steps[step].description}
             </p>
           </div>
-          <StepDots step={step} total={3} />
+          <StepDots step={step} total={steps.length} />
         </div>
 
         <div className="mt-7 flex-1">
@@ -131,7 +198,7 @@ export function StudentOnboarding() {
                 <li key={entry.id}>
                   <button
                     type="button"
-                    onClick={() => { setUniversityId(entry.id); setYearId(''); remember({ universityId: entry.id }) }}
+                    onClick={() => { setUniversityId(entry.id); setYearId('') }}
                     className={cn(
                       'flex w-full items-center gap-3 rounded-xl border p-3.5 text-start transition-colors',
                       universityId === entry.id ? 'border-primary bg-primary-tint/50' : 'border-line bg-surface hover:bg-inset',
@@ -161,7 +228,7 @@ export function StudentOnboarding() {
                   <li key={entry.id}>
                     <button
                       type="button"
-                      onClick={() => { setYearId(entry.id); remember({ yearId: entry.id }) }}
+                      onClick={() => setYearId(entry.id)}
                       className={cn(
                         'w-full rounded-xl border p-3 text-center transition-colors',
                         yearId === entry.id ? 'border-primary bg-primary-tint/50 text-primary-strong' : 'border-line bg-surface text-ink hover:bg-inset',
@@ -206,6 +273,61 @@ export function StudentOnboarding() {
           )}
 
           {step === 2 && (
+            <div className="space-y-5">
+              <Field
+                label={t('Username')}
+                htmlFor="onboarding-username"
+                hint={t('Usernames are unique inside your university. The server rechecks this before approval.')}
+              >
+                <TextInput
+                  id="onboarding-username"
+                  value={username}
+                  maxLength={24}
+                  autoComplete="username"
+                  placeholder={t('e.g. cardio-sara')}
+                  onChange={(event) => setUsername(event.target.value)}
+                  aria-describedby="onboarding-username-preview onboarding-username-error"
+                />
+              </Field>
+              <div className="rounded-lg border border-line bg-surface-2/55 px-3.5 py-3">
+                <p id="onboarding-username-preview" className="text-[12.5px] text-ink-2">
+                  {t('Preview')}: <span className="font-mono font-semibold text-ink">@{cleanUsername || t('username')}</span>
+                </p>
+                {profileError && (
+                  <p id="onboarding-username-error" role="alert" className="mt-1 text-[11.5px] text-danger">
+                    {t(profileError)}
+                  </p>
+                )}
+              </div>
+
+              <div>
+                <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Profile icon')}</p>
+                <ul className="mt-2 grid grid-cols-3 gap-2 sm:grid-cols-6">
+                  {PROFILE_ICONS.map((entry) => (
+                    <li key={entry.id}>
+                      <button
+                        type="button"
+                        onClick={() => setIconId(entry.id)}
+                        aria-pressed={iconId === entry.id}
+                        className={cn(
+                          'flex w-full flex-col items-center gap-2 rounded-xl border p-3 text-center transition-colors',
+                          iconId === entry.id ? 'border-primary bg-primary-tint/50 text-primary-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset hover:text-ink',
+                        )}
+                      >
+                        <ProfileIconGlyph id={entry.id} className="size-7" />
+                        <span className="text-[10.5px] font-medium">{t(entry.label)}</span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-2 text-[12px] leading-relaxed text-ink-3">
+                  {t('Discovery is off by default. This profile is private unless you later opt in from Account.')}
+                </p>
+              </div>
+            </div>
+          )}
+
+          {step === 3 && (
             <ul className="grid gap-2.5">
               {plans.map((plan) => (
                 <PlanChoice
@@ -214,7 +336,7 @@ export function StudentOnboarding() {
                   selected={planId === plan.id}
                   selectable={planSelectable(catalog, plan)}
                   price={priceAt(plan, catalog.periods[0]?.id ?? '', catalog.periods)}
-                  onChoose={() => { setPlanId(plan.id); remember({ planId: plan.id }) }}
+                  onChoose={() => setPlanId(plan.id)}
                 />
               ))}
               {plans.length === 0 && (
@@ -226,19 +348,23 @@ export function StudentOnboarding() {
           )}
         </div>
 
+        {error && (
+          <p role="alert" className="mt-5 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger">{error}</p>
+        )}
+
         <div className="mt-8 flex items-center gap-2 border-t border-line pt-5">
           {step > 0 && (
             <Button type="button" variant="ghost" iconLeft={ArrowLeft} onClick={() => setStep((current) => current - 1)}>
               {t('Back')}
             </Button>
           )}
-          <span className="ms-auto text-[12px] text-ink-3">{t('Step')} {step + 1} / 3</span>
-          {step < 2 ? (
+          <span className="ms-auto text-[12px] text-ink-3">{t('Step')} {step + 1} / {steps.length}</span>
+          {step < steps.length - 1 ? (
             <Button type="button" variant="primary" iconRight={ArrowRight} disabled={!canContinue} onClick={() => setStep((current) => current + 1)}>
               {t('Continue')}
             </Button>
           ) : (
-            <Button type="button" variant="primary" iconLeft={Check} disabled={!canContinue} onClick={finish}>
+            <Button type="button" variant="primary" iconLeft={Check} loading={saving} disabled={!canContinue || saving} onClick={() => void finish()}>
               {t('Start studying')}
             </Button>
           )}
