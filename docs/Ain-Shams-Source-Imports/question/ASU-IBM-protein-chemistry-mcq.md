@@ -7518,3 +7518,1665 @@ yes
 
 ## author_notes
 Same denaturation concept as Q6/Q20/Q64/Q65 (already authored), tested here in "NOT true" form with the false claim about primary-structure loss as the answer.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q55
+
+## title
+A non-essential amino acid containing sulfur is
+
+## question
+A nonessential amino acid containing sulfur is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Methionine
+
+## explanation_a
+Incorrect. Methionine is the sulfur-containing amino acid that is essential, not non-essential — the body cannot synthesise it and must obtain it from the diet, which is the opposite of what this question asks for.
+
+## answer_b
+Threonine
+
+## explanation_b
+Incorrect. Threonine is an essential amino acid, and its side chain carries a hydroxyl group rather than sulfur, so it does not fit either the "sulfur-containing" or the "correct non-essential example" part of the question.
+
+## answer_c
+Valine
+
+## explanation_c
+Incorrect. Valine is an essential branched-chain amino acid with a simple hydrocarbon side chain and no sulfur atom, so it does not match the sulfur-containing part of the question at all.
+
+## answer_d
+Cysteine
+
+## explanation_d
+Correct. Cysteine is the sulfur-containing amino acid that is non-essential, because the body can synthesise it from methionine (via homocysteine) rather than needing it directly from the diet. This is the key distinction between the two sulfur-containing amino acids: methionine is essential, while cysteine, made from it, is not. Cysteine's free thiol group is also what allows it to form disulfide bonds, separate from its essentiality status.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-B97BF0F6CCF322
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cysteine as the non-essential sulfur-containing amino acid, made from essential methionine.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q70, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same sulfur-containing-amino-acid concept as Q92/Q26/Q50 (already authored), narrowed here to cysteine's non-essential status versus methionine's essential one.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q56
+
+## title
+During denaturation of proteins, all of the following are disrupted except
+
+## question
+During denaturation of proteins, all of the following are disrupted except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Primary structure
+
+## explanation_a
+Correct. Denaturation disrupts secondary, tertiary and quaternary structure by breaking the noncovalent (and sometimes disulfide) bonds that hold them together, but it specifically leaves primary structure untouched, since the covalent peptide bonds of the amino acid sequence are not affected by the conditions that cause denaturation. This is exactly why a denatured protein can, in principle, be renatured back to its original sequence-determined shape. Primary structure is the one level of organisation denaturation does not reach.
+
+## answer_b
+Secondary structure
+
+## explanation_b
+Incorrect as the exception. Secondary structure (alpha helices, beta sheets) is held by hydrogen bonds that denaturation disrupts, so it is genuinely affected, not the exception.
+
+## answer_c
+Tertiary structure
+
+## explanation_c
+Incorrect as the exception. Tertiary structure depends on hydrophobic, ionic, hydrogen and disulfide interactions that denaturing agents disrupt, so it is also genuinely lost during denaturation.
+
+## answer_d
+Quaternary structure
+
+## explanation_d
+Incorrect as the exception. Quaternary structure depends on noncovalent interactions between subunits, which denaturation disrupts just as it disrupts the noncovalent interactions within a single chain, so it too is affected rather than being the exception.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-2414B3639FD4D3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that primary structure is the one level of organisation not disrupted by denaturation.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q71, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same denaturation concept as Q6/Q20/Q64/Q65/Q67 (already authored), the most direct restatement yet of "primary structure survives denaturation."
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q57
+
+## title
+Denaturation of proteins leads to all of the following except
+
+## question
+Denaturation of proteins leads to all the following except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Increased viscosity
+
+## explanation_a
+Incorrect as the exception. Denatured, unfolded polypeptide chains do increase a protein solution's viscosity compared with the compact native form, so this is a genuine result of denaturation, not the exception.
+
+## answer_b
+Increased solubility
+
+## explanation_b
+Correct. Denaturation makes a protein less soluble, not more — the unfolded chain exposes previously buried hydrophobic side chains to the surrounding water, which promotes aggregation and precipitation rather than dissolution. Because the real result is decreased (not increased) solubility, "increased solubility" is the one outcome on this list that does not actually happen, making it the correct exception. The other three listed effects — increased viscosity, loss of biological activity, increased digestibility — are all genuine, well-documented results of denaturation.
+
+## answer_c
+Loss of biological activity
+
+## explanation_c
+Incorrect as the exception. Losing the native three-dimensional shape through denaturation does cause loss of biological activity, since function depends on correct folding, so this is a genuine result, not the exception.
+
+## answer_d
+Increased digestibility
+
+## explanation_d
+Incorrect as the exception. Unfolding a protein exposes internal peptide bonds that were previously protected within the compact native fold, making the denatured protein easier for digestive enzymes to cleave — a genuine result of denaturation, not the exception.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-2414B3639FD4D3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify increased solubility as the false result of denaturation, since denaturation actually decreases solubility.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q72, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same denaturation concept as Q6/Q20/Q64/Q65/Q67/Q71 (already authored), tested here through the solubility result specifically.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q58
+
+## title
+All of the following are important in maintaining the secondary, tertiary and quaternary structure of proteins, except
+
+## question
+All of the following are important in maintenance of the secondary, tertiary and quaternary structure of proteins EXCEPT
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hydrogen bonds
+
+## explanation_a
+Incorrect as the exception. Hydrogen bonds hold together secondary structure and contribute to tertiary and quaternary structure as well, so they genuinely belong on this list.
+
+## answer_b
+Peptide bonds
+
+## explanation_b
+Correct. Peptide bonds are the covalent linkages that build a chain's primary sequence, and they exist before any secondary, tertiary or quaternary folding takes place; they do not themselves hold together the higher orders of structure the question asks about. Secondary, tertiary and quaternary structure are instead maintained by noncovalent interactions — hydrogen bonds, hydrophobic interactions and ionic bonds — plus, at the tertiary and quaternary level, disulfide bonds between subunits or within a chain. Because the peptide bond's job is building the sequence rather than maintaining the fold, it is the correct exception here.
+
+## answer_c
+Hydrophobic interactions
+
+## explanation_c
+Incorrect as the exception. Hydrophobic interactions are the dominant force driving and maintaining tertiary folding, and they contribute to quaternary assembly between subunits as well, so they genuinely belong on this list.
+
+## answer_d
+Ionic bond
+
+## explanation_d
+Incorrect as the exception. Ionic (electrostatic) bonds between charged side chains contribute to holding tertiary structure together and can also stabilise contacts between subunits in quaternary structure, so they too genuinely belong on this list.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the peptide bond as the one exception among the forces maintaining secondary, tertiary and quaternary structure.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q73, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same tertiary-structure concept as Q7/Q30/Q36/Q50/Q66 (already authored), the quaternary-inclusive version of Q50's tertiary-only "except peptide bonds" question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q59
+
+## title
+When a disulfide bond is cleaved, there is
+
+## question
+When a disulfide bond is cleaved, there is :
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Reduction
+
+## explanation_a
+Correct. A disulfide bond (S-S) forms by oxidation, when two cysteine thiol (-SH) groups lose hydrogen atoms and their sulfurs join together; cleaving that bond is therefore the reverse chemical process, reduction, in which the sulfur-sulfur bond is broken and each sulfur regains a hydrogen to become a free thiol again. This oxidation-forms/reduction-cleaves pairing is exactly how disulfide bonds are formed and broken both in the cell and in the laboratory (for example, with reducing agents like beta-mercaptoethanol or DTT). It is the same reasoning that identifies oxidation as the mechanism forming the bond in the first place.
+
+## answer_b
+Oxidation
+
+## explanation_b
+Incorrect. Oxidation is the process that forms a disulfide bond, by joining two thiol groups together; it is not what cleaves the bond, which instead requires the reverse reaction, reduction.
+
+## answer_c
+Dehydration
+
+## explanation_c
+Incorrect. Dehydration describes the removal of a water molecule, as happens in peptide-bond formation; a disulfide bond involves no water at all, so dehydration cannot describe how it is formed or cleaved.
+
+## answer_d
+Hydration
+
+## explanation_d
+Incorrect. Hydration describes the addition of a water molecule, as in peptide-bond hydrolysis; cleaving a disulfide bond adds hydrogen atoms back to each sulfur, not a water molecule, so hydration does not describe this reaction.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-408C254C4C53F5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-PEPTIDE-DISULFIDE-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that cleaving a disulfide bond is a reduction, the reverse of the oxidation that forms it.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q74, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same disulfide-bond concept as Q102/Q40 (already authored), the exact inverse-reaction pairing of Q102's "formed by oxidation" question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q60
+
+## title
+The two-subunit (dimer) structure of creatine kinase represents a protein's
+
+## question
+The two-subunit (Dimmer) structure of the Creatine kinase represents protein's:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Primary structure
+
+## explanation_a
+Incorrect. Primary structure is only the linear amino acid sequence of a single chain; it does not describe how two separately folded subunits associate into a dimer.
+
+## answer_b
+Secondary structure
+
+## explanation_b
+Incorrect. Secondary structure describes local backbone folding (alpha helices, beta sheets) within one chain; it has nothing to do with the association of two separate polypeptide subunits.
+
+## answer_c
+Tertiary structure
+
+## explanation_c
+Incorrect. Tertiary structure is the complete three-dimensional fold of one polypeptide chain on its own, reached before that subunit ever associates with a second one; it is not the level at which a two-subunit dimer is described.
+
+## answer_d
+Quaternary structure
+
+## explanation_d
+Correct. Quaternary structure is defined as the level of organisation reached when two or more independently folded polypeptide subunits associate into one functional assembly, and creatine kinase's two-subunit (dimeric) form is a direct example of this. Each subunit reaches its own tertiary fold first; only their association into the working dimer counts as quaternary structure. This is the same fact tested by hemoglobin's four-chain assembly and by the earlier question naming creatine kinase's two subunits directly.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-HEM-B9017F150AF212
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the dimeric (two-subunit) assembly of creatine kinase as quaternary structure.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q75, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same quaternary-structure concept as Q63/Q10/Q21 (already authored), rewording Q10's own creatine-kinase example almost verbatim — kept as a separate item because the source bank repeats it as a distinct numbered question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q61
+
+## title
+A cysteine residue in position 8 and another cysteine residue in position 24 of a protein may be brought together by
+
+## question
+Cysteine residue in position 8 and a another Cysteine residue in position 24 of a protein may be brought together by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Peptide bond
+
+## explanation_a
+Incorrect. A peptide bond only links residues that are directly adjacent in the sequence; cysteine at position 8 and cysteine at position 24 are sixteen residues apart, so no peptide bond connects them directly.
+
+## answer_b
+Disulfide bond
+
+## explanation_b
+Correct. Two cysteine residues, wherever they sit in the sequence, can be brought together when tertiary folding positions their thiol (-SH) side chains near each other, allowing oxidation to join the two sulfurs into a covalent disulfide (S-S) bond. This is exactly how a disulfide bond can staple together two parts of a chain that are far apart in the primary sequence — here, positions 8 and 24 — locking that region of the tertiary fold in place. Only cysteine's thiol group is chemically capable of this specific covalent linkage.
+
+## answer_c
+Salt bridge
+
+## explanation_c
+Incorrect. A salt bridge forms between two oppositely charged side chains; cysteine's thiol side chain is not charged at physiological pH in the way that, for example, a glutamate-lysine pair would be, so a salt bridge is not what links two cysteines together.
+
+## answer_d
+Hydrophobic interaction
+
+## explanation_d
+Incorrect. While cysteine's side chain has some hydrophobic character, the specific, strong, covalent link two cysteines are best known for forming is the disulfide bond, not merely a hydrophobic interaction; the question is best answered by the bond unique to cysteine pairs.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-408C254C4C53F5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-PEPTIDE-DISULFIDE-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the disulfide bond as what brings two distant cysteine residues together in tertiary folding.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q76, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same disulfide-bond concept as Q102/Q40/Q74 (already authored), the cysteine-pair counterpart to Q66's hydrophobic-interaction version of the same question format.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q62
+
+## title
+Which is true for a denatured enzyme?
+
+## question
+Which is true for a denatured enzyme?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It loses its native conformation
+
+## explanation_a
+Correct. Denaturing an enzyme unfolds it away from its correctly folded, biologically active native conformation, which is exactly why a denatured enzyme loses its catalytic ability — its active site depends on the precise three-dimensional shape that denaturation destroys. This is the same general principle as denaturation in any protein: the noncovalent interactions holding the fold are disrupted while the underlying amino acid sequence is left unchanged. Losing the native conformation is the defining event of denaturation, whether the protein in question is an enzyme or not.
+
+## answer_b
+The peptide bonds between constituent amino acids are broken
+
+## explanation_b
+Incorrect. Denaturation does not touch the covalent peptide bonds of the primary sequence; those remain intact even as the enzyme's higher-order structure is destroyed, which is exactly why the primary sequence survives denaturation unchanged.
+
+## answer_c
+Enzyme solubility increases
+
+## explanation_c
+Incorrect. Denaturation typically decreases a protein's solubility, because unfolding exposes previously buried hydrophobic side chains to water and promotes aggregation, rather than increasing solubility.
+
+## answer_d
+It can still bind its substrate and catalyze the reaction
+
+## explanation_d
+Incorrect. Losing the native conformation destroys the precise geometry of the enzyme's active site, so a denatured enzyme can no longer bind its substrate correctly or catalyse the reaction; loss of biological (catalytic) activity is one of the defining consequences of denaturation.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-2414B3639FD4D3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that a denatured enzyme has lost its native conformation, and with it the ability to bind substrate and catalyse its reaction.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q77, p.11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same denaturation concept as Q6/Q20/Q64/Q65/Q67/Q71/Q72 (already authored), applied here specifically to an enzyme's loss of catalytic activity.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q63
+
+## title
+An amino acid in the +NH3-CHR-COOH form is at which pH
+
+## question
+An amino acid has the form shown here (+NH3-CHR-COOH) at which pH
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+At pH 7.0
+
+## explanation_a
+Incorrect. A neutral pH of 7.0 is not, by itself, the condition that produces this specific form; whether an amino acid's carboxyl group is protonated (-COOH) or ionised (-COO-) depends on how that pH compares with the amino acid's own isoelectric point, not on the absolute value of pH 7.
+
+## answer_b
+Its isoelectric point
+
+## explanation_b
+Incorrect. At the isoelectric point, an amino acid exists as the zwitterion, with a protonated amino group and a deprotonated carboxyl group (+NH3-CHR-COO-, net charge zero) — not with the carboxyl group still protonated as -COOH, which the figure shows.
+
+## answer_c
+pH higher than its isoelectric point
+
+## explanation_c
+Incorrect. Above the isoelectric point, the carboxyl group is deprotonated (-COO-) and the molecule carries a net negative charge; the figure's protonated -COOH group is the opposite of what is seen at a pH above the isoelectric point.
+
+## answer_d
+pH less than its isoelectric point
+
+## explanation_d
+Correct. The form shown — amino group protonated (+NH3-) and carboxyl group still protonated (-COOH), giving the whole molecule a net positive charge — is exactly what an amino acid looks like at a pH below its isoelectric point, where the solution is more acidic than the amino acid's own neutral point and the carboxyl group has not yet lost its proton. This is the same net-positive, cathode-migrating form tested elsewhere as "pH below the isoelectric point." Below the isoelectric point is the only condition among the four options that matches a fully protonated carboxyl group.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-73F58D943BB03B
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Recognise a fully protonated amino acid (+NH3-CHR-COOH) as the form present at a pH below the isoelectric point.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q78, p.11 (figure).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same isoelectric-point concept as Q32/Q28/Q29 (already authored), tested here from a labelled structure figure rather than a verbal description of the charge state.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q64
+
+## title
+The amino acid sequence of a protein is dictated by which of the following?
+
+## question
+The amino acid sequence of a protein is dictated by which of the following?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Types of amino acids in the diet
+
+## explanation_a
+Incorrect. Dietary amino acids supply the raw material a cell uses to build proteins, but they do not determine the order in which those amino acids are strung together; that order is specified elsewhere in the cell.
+
+## answer_b
+The cell's needs for particular amino acids
+
+## explanation_b
+Incorrect. A cell's metabolic demand can influence how much of a given amino acid is made or taken up, but it does not dictate the specific sequence in which amino acids are joined into a particular protein.
+
+## answer_c
+Available enzymes in the cell
+
+## explanation_c
+Incorrect. Enzymes (including the ribosome's own machinery) carry out protein synthesis, but the enzymes themselves do not decide the sequence — they simply read and execute the instructions given to them from elsewhere.
+
+## answer_d
+Concentrations of amino acids in the cell
+
+## explanation_d
+Incorrect. Even if every amino acid were freely available in whatever concentration, this would not, on its own, specify the particular order in which they must be joined for a given protein; concentration affects availability, not sequence instructions.
+
+## answer_e
+Nucleotide sequence of DNA
+
+## explanation_e
+Correct. The order of amino acids in a protein's primary structure is dictated by the nucleotide sequence of DNA, read out through the genetic code: each three-nucleotide codon (via its messenger RNA copy) specifies one particular amino acid to be added next during translation. This is the central link between genetic information and protein structure — DNA sequence determines primary sequence, and primary sequence in turn determines everything the higher orders of structure can become. None of the diet, cellular need, enzyme availability or amino acid concentration can substitute for this genetic instruction.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-BE919386760579
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that a protein's amino acid sequence (primary structure) is dictated by the nucleotide sequence of DNA.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q79, p.11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same primary-structure concept as Q89/Q23 (already authored), extended here to the genetic origin of the sequence rather than the backbone or terminal groups.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q65
+
+## title
+The last amino acid in any protein is the one with a free
+
+## question
+The last Amino acid in any protein is the amino acid with free
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Alpha-amino group
+
+## explanation_a
+Incorrect. A free alpha-amino group identifies the first amino acid in the chain (the N-terminus), reached at the start of protein synthesis, not the last one.
+
+## answer_b
+Alpha-carboxyl group
+
+## explanation_b
+Correct. Every internal amino acid in a chain has both its alpha-amino and alpha-carboxyl groups tied up in peptide bonds with its neighbours, except at the two ends of the chain: the first residue keeps a free alpha-amino group (the N-terminus) and the last residue keeps a free alpha-carboxyl group (the C-terminus), because there is no next residue to bond it to. Protein synthesis proceeds from the N-terminus to the C-terminus, so the "last" amino acid added is the one whose alpha-carboxyl group remains free. This is the same C-terminal fact tested from the opposite end by identifying the first amino acid's free alpha-amino group.
+
+## answer_c
+Gamma-carboxyl group
+
+## explanation_c
+Incorrect. A gamma-carboxyl group belongs only to specific side chains (such as glutamate's), not to the backbone feature that defines a chain's terminus; the C-terminus is defined by the backbone alpha-carboxyl group, not a side-chain carboxyl.
+
+## answer_d
+Carboxyl and amino groups
+
+## explanation_d
+Incorrect. The last amino acid keeps only its alpha-carboxyl group free; its alpha-amino group is used up in the peptide bond linking it to the second-to-last residue, so it does not have both groups free at once.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-BE919386760579
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the C-terminal amino acid as the one retaining a free alpha-carboxyl group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q80, p.11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same primary-structure concept as Q89/Q23/Q64 (already authored), the C-terminal counterpart to Q95's N-terminal version of the same question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q66
+
+## title
+At a high H+ ion concentration (low pH), amino acids will carry ... and migrate to ...
+
+## question
+At a High H+ ion concentration (Low pH), amino acids will carry...... and migrate to......
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Negative, Cathode
+
+## explanation_a
+Incorrect. A high H+ concentration (low, acidic pH) protonates the amino acid's groups rather than stripping protons from them, so the amino acid ends up positively, not negatively, charged; a negatively charged species would instead migrate toward the anode, not the cathode.
+
+## answer_b
+Negative, Anode
+
+## explanation_b
+Incorrect. Low pH (high H+) favours protonation, giving the amino acid a net positive charge, not the net negative charge this option describes.
+
+## answer_c
+Positive, Cathode
+
+## explanation_c
+Correct. A low pH means a high concentration of H+ ions available to protonate the amino acid's ionisable groups, which keeps the amino group protonated (-NH3+) and suppresses ionisation of the carboxyl group, leaving the molecule with an overall net positive charge — the same state described as "below the isoelectric point" elsewhere in this topic. A net positively charged species is attracted to and migrates toward the cathode (the negative electrode) in an electric field. This positive/cathode pairing is the mirror image of the negative/anode pairing seen at high pH (low H+).
+
+## answer_d
+Positive, Anode
+
+## explanation_d
+Incorrect. A net positively charged amino acid migrates toward the cathode (the negative electrode), which attracts positive charge, not toward the anode, which attracts negative charge.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-73F58D943BB03B
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that a low pH (high H+) leaves an amino acid net positively charged and migrating toward the cathode.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q81, p.11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same isoelectric-point/charge concept as Q32/Q28/Q29/Q63 (already authored), phrased here in terms of H+ concentration rather than pH-versus-pI language.
