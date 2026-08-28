@@ -6000,3 +6000,1521 @@ yes
 
 ## author_notes
 Same zwitterion/solubility concept as Q2/Q42 (already authored), naming the amphoteric property as the root cause behind both the zwitterion form and buffering activity.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q44
+
+## title
+Glutathione is formed from
+
+## question
+Glutathione is formed from
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Glutamic acid and cysteine
+
+## explanation_a
+Incomplete. Glutamic acid and cysteine are two of glutathione's three residues, but leaving out the third — glycine — describes only a dipeptide rather than the actual tripeptide glutathione.
+
+## answer_b
+Glutamine and cysteine
+
+## explanation_b
+Incorrect. Glutathione's first residue is glutamate (glutamic acid), not glutamine; substituting glutamine changes the identity of that residue, so this pairing does not describe the real molecule.
+
+## answer_c
+Glutamine, cysteine, and glycine
+
+## explanation_c
+Incorrect. As in option b, the first residue is glutamate, not glutamine; glutamine is a different amino acid (glutamate's amide), and glutathione is not built from it.
+
+## answer_d
+Glutamic acid, cysteine, and glycine
+
+## explanation_d
+Correct. Glutathione is the tripeptide glutamylcysteinylglycine, built from exactly these three residues joined by two peptide bonds: glutamate contributes the N-terminus (through its side-chain gamma-carboxyl in an unusual linkage), cysteine sits in the middle and supplies the reactive sulfhydryl group that gives glutathione its antioxidant function, and glycine forms the C-terminus. This three-residue composition is what defines glutathione and is the same fact tested by its systematic chemical name, glutamylcysteinylglycine.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-E2CB20749CB547
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that glutathione is built from glutamic acid, cysteine and glycine.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q55, p.8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same glutathione concept as Q39/Q11 (already authored) and Q105, tested here as the direct three-residue composition question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q45
+
+## title
+The zwitterion is
+
+## question
+The zwitterion is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The dipolar ion
+
+## explanation_a
+Correct. The zwitterion is the dipolar form an amino acid takes when its alpha-amino group is protonated (-NH3+) and its alpha-carboxyl group is simultaneously deprotonated (-COO-), so the molecule carries both a positive and a negative charge at once while its overall net charge is zero. This dipolar (two-charge) structure is exactly what the amphoteric, ionisable groups on every amino acid produce at its isoelectric point, and it is the form responsible for amino acids being water-soluble. Because it carries equal and opposite charges rather than no charge at all, "dipolar ion" is a more precise description than simply calling it neutral.
+
+## answer_b
+Positively charged ions
+
+## explanation_b
+Incorrect. A purely positively charged amino acid occurs below its isoelectric point, where the amino group is protonated but the carboxyl group has not yet ionised; the zwitterion specifically carries both a positive and a negative charge at once, not a single positive charge overall.
+
+## answer_c
+Negatively charged ions
+
+## explanation_c
+Incorrect. A purely negatively charged amino acid occurs above its isoelectric point; the zwitterion is defined by carrying both charges simultaneously (net zero), not a single negative charge overall.
+
+## answer_d
+Non charged ions
+
+## explanation_d
+Incorrect. The zwitterion is not chargeless — it carries a positive charge on its amino group and a negative charge on its carboxyl group at the same time; a fully uncharged form of an amino acid does not exist at any pH.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-140D5B96CDD17C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-AMINO-ACID-IDENTITY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Define the zwitterion as the dipolar ion carrying both a protonated amino group and a deprotonated carboxyl group at once.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q57, p.8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same zwitterion/solubility concept as Q2/Q42/Q43 (already authored), tested here as the direct definition of "zwitterion" itself.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q46
+
+## title
+When a peptide bond is formed, there is removal of
+
+## question
+When a peptide bond is formed there is removal of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+CO2
+
+## explanation_a
+Incorrect. Peptide-bond formation is a condensation between a carboxyl group and an amino group; it does not release carbon dioxide, which is instead a byproduct of decarboxylation reactions, not peptide bonding.
+
+## answer_b
+H2O
+
+## explanation_b
+Correct. A peptide bond forms by condensation of the carboxyl group of one amino acid with the amino group of the next, and this condensation reaction releases exactly one molecule of water for each bond formed — the hydroxyl leaves the carboxyl group and a hydrogen leaves the amino group, combining as H2O. This is why building a chain of n amino acids into a polypeptide releases (n-1) molecules of water, one for each peptide bond formed. The reverse reaction, hydrolysis, adds water back in to break the bond.
+
+## answer_c
+NH3
+
+## explanation_c
+Incorrect. Peptide-bond formation does not release free ammonia; the nitrogen from the amino group stays in the chain as part of the new peptide bond's amide nitrogen, rather than leaving the molecule.
+
+## answer_d
+H+
+
+## explanation_d
+Incorrect. The condensation that forms a peptide bond releases a complete water molecule (combining an -OH from the carboxyl group and an -H from the amino group), not a free, isolated proton on its own.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-7C8A02831B3243
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that peptide-bond formation is a condensation reaction that releases one molecule of water.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q58, p.8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same peptide-bond-formation concept as Q104 (already authored), tested here by naming the byproduct released rather than the process name.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q47
+
+## title
+Proteins of high biological value
+
+## question
+Proteins of high biological value:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Contain all essential amino acids
+
+## explanation_a
+Correct. A protein's biological value depends on how completely and efficiently its amino acids can be used to build body protein, and a protein that supplies all the essential amino acids — the ones the body cannot make for itself — in adequate proportions is classed as high biological value. Egg, meat, milk and soya are the standard examples, in contrast with low-value proteins like corn (zein) or gelatin, which are missing or deficient in one or more essential amino acids. This is exactly why a protein source lacking even one essential amino acid, such as tryptophan-poor zein, is graded as low rather than high biological value.
+
+## answer_b
+Are poor in essential amino acids
+
+## explanation_b
+Incorrect. Being poor in essential amino acids is the defining feature of a low-biological-value protein, such as corn or gelatin, not a high-biological-value one; the question asks about high-value proteins, which is the opposite case.
+
+## answer_c
+Are of plant source
+
+## explanation_c
+Incorrect. Most plant proteins (such as corn/zein and other cereal proteins) are actually low biological value because they lack one or more essential amino acids; the high-biological-value examples in this bank (egg, meat, casein, albumin) are predominantly animal-source, with soya as a notable plant-source exception.
+
+## answer_d
+Contain amino acid glycine
+
+## explanation_d
+Incorrect. Containing glycine says nothing about biological value — glycine is non-essential and is present in proteins of both high and low biological value, so its presence cannot be what distinguishes a high-value protein.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-8CF5D9C1E7D8B7
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Define a high-biological-value protein as one supplying all the essential amino acids.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q59, p.8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same biological-value concept as Q29/Q31 (already authored), tested here as the direct definition of "high biological value."
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q48
+
+## title
+The secondary structure of proteins is stabilized by
+
+## question
+2ry structure of proteins is stabilized by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ionic bond
+
+## explanation_a
+Incorrect. Ionic (electrostatic) bonds between charged side chains contribute to tertiary and quaternary structure, but the regular, repeating hydrogen-bonded pattern that defines secondary structure (alpha helix, beta sheet) is not built from side-chain ionic bonds.
+
+## answer_b
+Hydrophobic interaction
+
+## explanation_b
+Incorrect. The hydrophobic interaction is the dominant force in tertiary folding, burying nonpolar side chains in a protein's interior; it is not what produces the regular backbone hydrogen-bonding pattern that defines secondary structure.
+
+## answer_c
+Hydrogen bonds
+
+## explanation_c
+Correct. Secondary structure — the alpha helix and the beta-pleated sheet — is defined by a regular, repeating pattern of hydrogen bonds between the backbone NH and C=O groups of different peptide bonds along or across the chain. This is what makes hydrogen bonding the specific stabilising force at the secondary-structure level, distinct from the additional forces (hydrophobic, ionic, disulfide) that further stabilise the tertiary fold built on top of it. Disrupting these backbone hydrogen bonds, as denaturation does, is exactly what destroys secondary structure.
+
+## answer_d
+Peptide bond
+
+## explanation_d
+Incorrect. The peptide bond is the covalent linkage that builds the primary sequence itself; it is present regardless of whether any secondary structure has formed and is not the noncovalent interaction responsible for stabilising the alpha helix or beta sheet.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-99CEF760A9D2CC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that hydrogen bonds are the stabilising force that defines secondary structure.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q60, p.8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same secondary-structure concept as Q8/Q31/Q32/Q33 (already authored), tested here as the direct "what stabilises secondary structure" question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q49
+
+## title
+Alpha-helices, beta-pleated sheets and beta-bends are examples of a protein's
+
+## question
+a-helices, b-pleated sheets and b-bends are examples of protein's:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Primary structure
+
+## explanation_a
+Incorrect. Primary structure is only the linear amino acid sequence held together by peptide bonds; it does not include any of the local folding patterns named in the question.
+
+## answer_b
+Secondary structure
+
+## explanation_b
+Correct. The alpha helix, the beta-pleated sheet and the beta-bend (beta-turn) are the three classic examples of secondary structure — regular, local folding patterns of the polypeptide backbone held together mainly by hydrogen bonds between backbone NH and C=O groups. Listing all three together in one option is exactly how this level of protein structure is usually introduced, since they are the main recurring conformations found within a folded chain. Together they form the structural building blocks that then pack together into the protein's overall tertiary fold.
+
+## answer_c
+Tertiary structure
+
+## explanation_c
+Incorrect. Tertiary structure is the overall three-dimensional fold of the whole chain, built from packing together secondary-structure elements like alpha helices and beta sheets; it is a level above, not the same as, the elements themselves.
+
+## answer_d
+Quaternary structure
+
+## explanation_d
+Incorrect. Quaternary structure describes the association of multiple separately folded polypeptide chains into one assembly; it is unrelated to the local backbone conformations (alpha helix, beta sheet, beta-bend) named in the question.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-99CEF760A9D2CC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the alpha helix, beta-pleated sheet and beta-bend together as examples of secondary structure.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q61, p.8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same secondary-structure concept as Q8/Q31/Q32/Q33/Q48 (already authored), tested here by naming the three examples together rather than one bond or one residue effect.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q50
+
+## title
+The tertiary structure of proteins is stabilized by the following, except
+
+## question
+The tertiary structure of proteins is stabilized by the following, except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hydrogen bonds
+
+## explanation_a
+Incorrect as the exception. Hydrogen bonds involving side-chain hydroxyl, amide, carboxylic and ring-nitrogen groups are genuinely one of the noncovalent forces that fold and stabilise tertiary structure, so they belong on the list rather than being the odd one out.
+
+## answer_b
+Hydrophobic interactions
+
+## explanation_b
+Incorrect as the exception. Hydrophobic interactions between nonpolar side chains are the dominant force driving tertiary folding, so they are very much part of what stabilises tertiary structure.
+
+## answer_c
+Peptide bonds
+
+## explanation_c
+Correct. The peptide bond is the covalent linkage that builds the primary sequence — it is present in the chain before any tertiary folding happens and does not itself fold or hold the three-dimensional shape together. Tertiary structure is instead stabilised by noncovalent interactions (hydrophobic, hydrogen, electrostatic, Van der Waals) plus the covalent disulfide bond, none of which is the same as the peptide bond of the backbone. This is why the peptide bond is the correct exception on a list of tertiary-stabilising forces.
+
+## answer_d
+Disulfide bonds
+
+## explanation_d
+Incorrect as the exception. Disulfide bonds between cysteine residues are a genuine covalent contributor to tertiary structure stability, so they belong on the list of stabilising forces rather than being the exception.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the peptide bond, not any noncovalent or disulfide interaction, as the one exception among forces stabilising tertiary structure.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q62, p.9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same tertiary-structure concept as Q7/Q30/Q34/Q36 (already authored) and Q73, tested here in "except" form with the peptide bond as the correct exception.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q51
+
+## title
+A protein can be unfolded by a process called
+
+## question
+A protein can be unfolded by a process called:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Renaturation
+
+## explanation_a
+Incorrect. Renaturation is the reverse process — a denatured (unfolded) protein regaining its correctly folded native conformation — not the process that unfolds a protein in the first place.
+
+## answer_b
+Denaturation
+
+## explanation_b
+Correct. Denaturation is the process by which a protein is unfolded: agents such as heat, strong acid, alkali or organic solvents disrupt the noncovalent (and sometimes disulfide) bonds holding secondary, tertiary and quaternary structure, while leaving the peptide-bonded primary sequence intact. The result is a protein that has lost its native three-dimensional shape and, with it, its biological activity, even though its amino acid sequence is unchanged. This is exactly the process tested throughout this section under names such as "denaturation" and its listed causes and effects.
+
+## answer_c
+Oxidation
+
+## explanation_c
+Incorrect. Oxidation is a specific chemical reaction (for example, forming a disulfide bond from two thiol groups); it is not the general term for a protein losing its folded shape, which is denaturation.
+
+## answer_d
+Reduction
+
+## explanation_d
+Incorrect. Reduction is the reverse of oxidation (for example, cleaving a disulfide bond back into two thiol groups); like oxidation, it is a specific chemical reaction rather than the general term for protein unfolding.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-2414B3639FD4D3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Name denaturation as the process that unfolds a protein.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q64, p.9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same denaturation concept as Q6/Q20 (already authored) and Q41/Q65/Q67/Q71/Q72/Q77/Q91, tested here as the direct naming question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q52
+
+## title
+The protein bonds that are not lost by denaturation are
+
+## question
+The protein bonds that are not lost by denaturation is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Peptide bonds
+
+## explanation_a
+Correct. Denaturation destroys the noncovalent interactions (hydrogen bonds, ionic bonds, hydrophobic interactions) and disulfide bonds that hold secondary, tertiary and quaternary structure, but it leaves the covalent peptide bonds of the primary sequence completely intact. This is exactly why a denatured protein retains its original amino acid sequence even though it has lost its three-dimensional shape and biological activity. The peptide bond is the one connection strong and chemically distinct enough to survive conditions (heat, acid, alkali, solvent) that break every other bond type in the protein.
+
+## answer_b
+Hydrogen bonds
+
+## explanation_b
+Incorrect. Hydrogen bonds are among the first interactions disrupted by denaturation, since they stabilise the secondary and parts of the tertiary structure that denaturation specifically destroys.
+
+## answer_c
+Disulfide bonds
+
+## explanation_c
+Incorrect. Disulfide bonds can be broken by reducing conditions during denaturation, and even where they survive a particular denaturing agent they are not the bond type this concept identifies as reliably preserved; the primary-structure peptide bond is the one that consistently remains.
+
+## answer_d
+Electrostatic bond
+
+## explanation_d
+Incorrect. Electrostatic (ionic) bonds between charged side chains are disrupted by pH extremes during denaturation, making them one of the interactions lost rather than one that survives.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-2414B3639FD4D3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that peptide bonds, unlike noncovalent and disulfide bonds, survive denaturation.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q65, p.9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same denaturation concept as Q6/Q20/Q64 (already authored), directly restating the "primary structure survives" fact this concept is built on.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q53
+
+## title
+A valine residue in position 10 and a tryptophan residue in position 134 of a protein may be brought together by
+
+## question
+Valine residue in position 10 and a Tryptophan residue in position 134 of a protein may be brought together by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Peptide bond
+
+## explanation_a
+Incorrect. A peptide bond only joins residues that are directly adjacent in the sequence; valine at position 10 and tryptophan at position 134 are far apart in the primary structure, so no peptide bond connects them directly.
+
+## answer_b
+Disulfide bond
+
+## explanation_b
+Incorrect. A disulfide bond can only form between two cysteine residues through their thiol groups; neither valine nor tryptophan has a thiol side chain, so a disulfide bond cannot be what brings these two residues together.
+
+## answer_c
+Salt bridge
+
+## explanation_c
+Incorrect. A salt bridge (ionic bond) forms between two oppositely charged side chains; valine's side chain is a nonpolar branched hydrocarbon and tryptophan's is a nonpolar aromatic indole ring, so neither carries the charge needed to form a salt bridge.
+
+## answer_d
+Hydrophobic interaction
+
+## explanation_d
+Correct. Valine and tryptophan both have nonpolar side chains — valine's branched aliphatic group and tryptophan's bulky aromatic indole ring — so when tertiary folding buries the polypeptide chain's nonpolar residues away from water, two such residues that are far apart in the sequence (position 10 and position 134) can end up brought close together in the folded three-dimensional structure through the hydrophobic interaction between their side chains. This is exactly how tertiary folding uses residues scattered throughout the primary sequence to build a compact hydrophobic core. Neither a peptide bond nor a disulfide bond nor a salt bridge could connect two residues of this chemical type at such a distance in the sequence.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the hydrophobic interaction as what brings two distant nonpolar residues together in tertiary folding.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q66, p.9.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same tertiary-structure concept as Q7/Q30/Q36/Q50 (already authored), applied here to two specific named residues rather than a general statement, and paired with Q76's disulfide-bond version of the same question format.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q54
+
+## title
+One of the following about protein denaturation is NOT true
+
+## question
+One of the following about protein denaturation is NOT true:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It is loss of primary, secondary, tertiary and quaternary structures
+
+## explanation_a
+Correct — this is the false statement. Denaturation destroys secondary, tertiary and quaternary structure, but it specifically leaves the primary structure (the peptide-bonded amino acid sequence) intact; the primary sequence is exactly what is not lost. Because this statement claims all four levels are lost, including primary structure, it misstates what denaturation actually does and is the one option that is not true.
+
+## answer_b
+It causes loss of biological activity of proteins
+
+## explanation_b
+Incorrect as the false statement — this is actually true. Losing the native three-dimensional shape through denaturation does cause loss of biological activity, since a protein's function depends on its correctly folded conformation, not just its sequence.
+
+## answer_c
+It causes increased viscosity of proteins
+
+## explanation_c
+Incorrect as the false statement — this is actually true. Denatured, unfolded polypeptide chains take up more space and interact differently than compact native proteins, and this is one of the recognised physical results of denaturation, increasing solution viscosity.
+
+## answer_d
+Strong acids can cause protein denaturation
+
+## explanation_d
+Incorrect as the false statement — this is actually true. Strong acids denature proteins by disrupting the electrostatic (ionic) bonds that help hold tertiary and quaternary structure together, making acid one of the standard denaturing agents alongside heat, alkali and solvents.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-2414B3639FD4D3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the claim that denaturation destroys primary structure as the false statement, since primary structure is exactly what survives.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q67, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same denaturation concept as Q6/Q20/Q64/Q65 (already authored), tested here in "NOT true" form with the false claim about primary-structure loss as the answer.
