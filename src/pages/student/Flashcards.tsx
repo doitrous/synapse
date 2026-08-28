@@ -3,7 +3,7 @@ import { Layers, Plus, Search, BarChart3 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Tabs } from '@/components/ui/Tabs'
 import { IconButton } from '@/components/ui/IconButton'
-import { HelpCircle } from 'lucide-react'
+import { HelpCircle, GraduationCap } from 'lucide-react'
 import { useT } from '@/lib/i18n'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
@@ -16,6 +16,7 @@ import { StudyScreen } from '@/components/flashcards/StudyScreen'
 import { AddView } from '@/components/flashcards/AddView'
 import { BrowseView } from '@/components/flashcards/BrowseView'
 import { StatsView } from '@/components/flashcards/StatsView'
+import { FlashcardsGuide } from '@/components/flashcards/FlashcardsGuide'
 
 /**
  * The Flashcards tab: four coordinated views over one persisted collection.
@@ -57,6 +58,7 @@ function FlashcardsShell() {
   const [addDeckId, setAddDeckId] = useState<string | undefined>(undefined)
   const [editNoteId, setEditNoteId] = useState<string | undefined>(undefined)
   const openHelp = useOpenShortcutHelp()
+  const [guideOpen, setGuideOpen] = useState(false)
 
   // Open the Add view either fresh (optionally into a deck) or editing a note.
   const openAdd = (opts: { deckId?: string; noteId?: string } = {}) => {
@@ -105,7 +107,12 @@ function FlashcardsShell() {
       <PageHeader
         title={t('Flashcards')}
         description={t('Build, study and track your cards — spaced repetition on Anki’s own schedule.')}
-        actions={<IconButton icon={HelpCircle} label={t('Keyboard shortcuts')} size="sm" onClick={openHelp} />}
+        actions={
+          <div className="flex items-center gap-1">
+            <IconButton icon={GraduationCap} label={t('How to use Flashcards')} size="sm" onClick={() => setGuideOpen(true)} />
+            <IconButton icon={HelpCircle} label={t('Keyboard shortcuts')} size="sm" onClick={openHelp} />
+          </div>
+        }
       />
 
       <Tabs items={tabs} value={view} onChange={(next) => setView(next as FlashcardsView)} className="mb-5" />
@@ -128,6 +135,8 @@ function FlashcardsShell() {
       )}
       {view === 'browse' && <BrowseView api={api} onAdd={() => openAdd()} onEditNote={(noteId) => openAdd({ noteId })} />}
       {view === 'stats' && <StatsView api={api} />}
+
+      {guideOpen && <FlashcardsGuide onClose={() => setGuideOpen(false)} />}
     </PageContainer>
   )
 }
