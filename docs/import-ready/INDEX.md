@@ -925,11 +925,19 @@ the branch's own commit message):
   reason already used elsewhere in this file (94 concepts, 21 articles touched; verified none
   of them actually had a non-blank value being wrongly annotated). Re-run: **2 error lines**
   — `concept.relatedArticleIds missing` (87/118 concepts) and
-  `article.articleData.relatedArticleIds missing` (21/28 articles). **Not fixed**: this field
-  has no `field_notes` escape hatch — it requires a real judgment call about which *other*
-  article is genuinely related to each concept, which a staging pass should not fabricate.
-  Flagged below as authoring debt, same pattern as AU-MED-102's own "46 untested concepts …
-  flagged for a dedicated authoring lane" above.
+  `article.articleData.relatedArticleIds missing` (21/28 articles).
+- **2026-08-28, finishing pass (two-sided coverage lane).** Both lines closed — see
+  "Further-reading cross-links — closed" below. Re-ran the full sequence from scratch
+  (`medical:batch` on both files, `medical:simulate` in the same 8-file apply order,
+  `medical:audit --source` against the fresh emit): `medical:batch` concept
+  `items 118, fieldsUsed 53, errors []`; article `items 28, fieldsUsed 52, errors []`;
+  `medical:simulate` `created 111 concepts (7 updated) / 28 articles / 111 claims /
+  111 citations / 111 spans / 156 questions, errors: [], skipped: []` — identical to the
+  prior run, confirming nothing else moved; `medical:audit --source` against that emit:
+  **0 errors, library-wide** (not just 0 for this module's own ids — the whole simulated
+  state, every lane's batch included). `medical:duplicate-keys`: 0 canonical-key collisions
+  (the 1 label collision it reports is the pre-existing, unrelated Kasr aspirin/102-INT
+  pair, not ASU-INF). `medical:validate:authoring` / `medical:validate:taxonomy`: both clean.
 
 **Law of voice — checked and fixed.** ~20 sentences across the article's `sections` fields
 and the question's `explanation_*` fields attributed a medical fact's truth to "the
@@ -961,10 +969,32 @@ independent standard-virology verification, not transcribed — disclosed in the
 `explanation_c`, `author_notes` and `source_citation`, and in the concept's `uncertainty`
 field.
 
-**Not closed — reported, not fixed**, same as AU-MED-102's own backlog above: 87 of 118
-concepts and 21 of 28 articles have no `related_article_ids` cross-reference. Closing this
-needs a subject-matter pass deciding which other ASU-INF article each concept/article
-genuinely relates to; flagged for a dedicated authoring/finishing lane, not attempted here.
+**Further-reading cross-links — closed 2026-08-28.** The 87 concepts and 21 articles
+flagged above with no `related_article_ids` / `related_articles` cross-reference (distinct
+from `article_ids`/`related_concepts`, which were already two-sided) are now filled, on a
+real subject-matter read of each flagged article's own concept content, not by title alone.
+The 21 remaining articles group into content-verified clusters — pathogenicity/toxins
+(invasion, host-flora, exotoxin/endotoxin, membrane-toxins/superantigens), genetics
+(variation/transfer, conjugation/lysogeny), diagnostic bacteriology (Staph/Strep ID,
+staining limitations, Enterobacteriaceae, case organisms), antibiotics (resistance
+mechanisms, stewardship), fungi (morphology, diagnosis/antifungals), virology (structure,
+infection patterns, culture/entry/replication, oncogenesis/tropism) and infection control
+(sharps safety, isolation precautions, aseptic technique/HAI) — each pair cross-linked for a
+checkable reason (e.g. Enterobacteriaceae ↔ exotoxin/endotoxin for LPS-mediated septic
+shock; fungal wall ↔ antifungal mechanisms for the actual echinocandin/beta-glucan and
+polyene/ergosterol drug targets named in both records). Each concept then carries one bare
+related-article id drawn from its own teaching article's new `related_articles` set, matching
+the single-bare-id convention the original 24 already-filled concepts (the Chapters 1-3
+physiology cluster) established. No medicine, question keys or law-of-voice prose touched —
+graph linkage only. Identical content backported to
+`docs/Ain-Shams-Source-Imports/{concept,article}/ASU-INF-microbiology-*.md`, which did not
+previously exist there — the branch this module was authored on (`asu-inf-author3`) carries
+the pre-field_notes-fix version of these two files under `Ain-Shams-Source-Imports/`, but
+that branch was never merged, so only the `import-ready` copy ever reached `main`. Backporting
+now closes that gap for the two files this pass touched; the module's other 6 files (evidence
+×4, resource, question) still exist only in `import-ready`, not yet in `Ain-Shams-Source-Imports`
+— a residual staging gap, flagged for the staging lane, not fixed here (out of this pass's
+scope, and none of those 6 needed the field this pass was closing).
 
 ---
 
