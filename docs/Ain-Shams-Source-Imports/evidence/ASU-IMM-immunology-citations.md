@@ -1789,3 +1789,584 @@ The support span is the verbatim MCQ stem and options as printed in the departme
 
 ## counts_as_claim_evidence
 no
+
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-HUMORAL-EXTRACELLULAR-ROLE-01
+
+## claim_id
+CLM-IMM-HUMORAL-EXTRACELLULAR-ROLE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following immune components are most effective at destroying extracelluar pathogens
+a) B lymphocytes & Their Antibodies
+b) Pro inflammatory cytokines
+c) T- Helpers
+d) IFN type I
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-TI-ANTIGEN-PLASMACELLS-01
+
+## claim_id
+CLM-IMM-TI-ANTIGEN-PLASMACELLS-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+B lymphocytes once activated by thymus independant Ag , they diffrentiate into :
+a) Mmory B cells
+b) Plasma cells & Memory cells
+c) cytokines producing B lymphocytes
+d) Plasma cells only
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-ANTIBODY-VARIABLE-REGION-01
+
+## claim_id
+CLM-IMM-ANTIBODY-VARIABLE-REGION-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The specificity of an antibody is duo to it's ?
+a) HyperVariable region
+b) valency
+c) Fc portion
+d) The heavy chain
+(same fact, also tested here:)
+Which of the following is an Ag binding site ?
+a) Constant region of both heavy and light chain
+b) constant region of heavy chain
+c) Variable region of light chain
+d) variable region of both heavy and light chain
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-CLASSSWITCH-IDIOTYPE-01
+
+## claim_id
+CLM-IMM-CLASSSWITCH-IDIOTYPE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the Following isn't a result of class switch ?
+a) Production of diffrent isotype
+b) Change of FC region
+c) Production of AB with diffrent function and properties
+d) Changing the idiotype of Antibody
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-HYBRIDOMA-FUSION-01
+
+## claim_id
+CLM-IMM-HYBRIDOMA-FUSION-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Fusion between a plasma cell and a tumor cell creates a:
+a) lymphoblast
+b) Lymphoma
+c) Hyperdoma
+d) Myeloma
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IGM-COMPLEMENT-ROLE-01
+
+## claim_id
+CLM-IMM-IGM-COMPLEMENT-ROLE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+A person developed Extracellular bacterial infection, and produced IgM in response, which of the following is the most important protective function of IgM ?
+a) Opsonization
+b) Complement activation
+c) Local immunity in mucosal secretions
+d) All of the above
+(same fact, also tested here:)
+Which one of the following Antibodies is the most efficient in complement activation
+a. igG
+b. IgE
+c. igA
+d. IgM
+e. IgD
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-CD40-CD40L-CLASSSWITCH-01
+
+## claim_id
+CLM-IMM-CD40-CD40L-CLASSSWITCH-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+isotype switch of produced Abs requires engagment of which of the following molecules?
+a) B7 & CD28
+b) CDHO & CDHOL
+c) PAMP & PRR
+d) Complement receptor and complement
+(same fact, also tested here:)
+CD4O & CDYOL interaction is important for
+a) Antigen presentation
+b) Differentiation into memory cells
+c) Switching antibody isotype
+d) All of the above
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-ISOTYPE-FUNCTION-PAIRING-01
+
+## claim_id
+CLM-IMM-ISOTYPE-FUNCTION-PAIRING-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following antibody isotype and biological Functions are correctly pair
+a) IgM: transported across Mucosal epithelium
+b) IgE: Defense against parasite & binds to mast cells
+c) IgD: Complement fixation
+d) IgA: Ist antibody to be secreted by b lymphocytes
+e) IgG: Present in minute ammounts in serum
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-C1Q-BINDING-ISOTYPES-01
+
+## claim_id
+CLM-IMM-C1Q-BINDING-ISOTYPES-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following immunoglobulins have binding site for Clq?
+a) IgD & IgA
+b) IgM and IgG
+c) IgM and IgE
+d) IgM and IgD
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IGALPHA-IGBETA-SIGNALING-01
+
+## claim_id
+CLM-IMM-IGALPHA-IGBETA-SIGNALING-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+molecules associated with B cells Ag receptors are called?
+a) Ig delta
+b) Ig gamma
+c) CD59
+d) Ig Alpha and Ig Beta
+(same fact, also tested here:)
+Which of the following molecules can serve as signal transduction molecules on B cells
+a) Fc
+b) IgM and IgD
+c) IgG
+d) Ig-alpha & Ig-Beta
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-BCELL-MATURATION-01
+
+## claim_id
+CLM-IMM-BCELL-MATURATION-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Concerning maturation of B lymphocytes :
+a) Does not ensure Self MHC restriction
+b) Happens in Bone marrow
+c) Produces cells with IgD and IgM as B cells receptors
+d) involves -ve selection
+e) all of the above
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-BCR-VS-TCR-CHO-01
+
+## claim_id
+CLM-IMM-BCR-VS-TCR-CHO-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+BCR in comparasion with TCR ?
+a) can recognize CHO Ag
+b) Has same molecular structure
+c) no need for signal transducer molecule
+d) non specefic
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-THYMUS-DEPENDENT-FEATURES-01
+
+## claim_id
+CLM-IMM-THYMUS-DEPENDENT-FEATURES-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Thymus dependant Ag in comparasion with thymus independant Ag :
+a) No memory
+b) Produce only one isotype of ABs
+c) Recives class switch signal via CD40-CD40L interaction
+d) CHO in nature.
+(same fact, also tested here:)
+Which one of the following is TRUE regarding the immune response to T dependent antigens?
+a) Antigen is not processed by macrophage
+b) No memory cell development
+c) Induction of Isotype switching
+d) Activation of B cells only
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-NEONATAL-PASSIVE-ANTIBODY-01
+
+## claim_id
+CLM-IMM-NEONATAL-PASSIVE-ANTIBODY-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+What Abs are expected to be present in the body of A 6 month old breastfed baby
+a) IgG & IgA
+b) IgA only
+c) IgE only
+d) IgM only
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text and the printed answer-key table (p.18) were verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+

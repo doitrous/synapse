@@ -7439,3 +7439,2481 @@ yes
 ## author_notes
 
 
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-052
+
+## title
+Which of the following immune components are most effective at destroying extracellular pathogens?
+
+## question
+Which of the following immune components are most effective at destroying extracellular pathogens?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+B lymphocytes & their antibodies
+
+## explanation_a
+Correct. B lymphocytes and the antibodies they secrete are the immune components most effective at destroying extracellular pathogens: antibody binds a free organism or its toxin directly in blood or tissue fluid and then recruits opsonisation, complement activation and neutralisation. This antibody-centred (humoral) mechanism is what actually clears an extracellular organism, whereas the other options only support the response.
+
+## answer_b
+Pro-inflammatory cytokines
+
+## explanation_b
+Incorrect. Pro-inflammatory cytokines recruit and activate effector cells, but they are not themselves the molecule that binds and neutralises a free extracellular pathogen.
+
+## answer_c
+T-helpers
+
+## explanation_c
+Incorrect. T-helper cells license and direct the response (including B-cell help) but do not themselves bind or destroy an extracellular organism.
+
+## answer_d
+IFN type I
+
+## explanation_d
+Incorrect. Type I interferon's dominant role is antiviral defence within infected cells, not direct destruction of extracellular pathogens.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-AB38F5017A2AB9
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that B lymphocytes and antibody, not cytokines, T-helpers or type I interferon, are the immune components most effective against extracellular pathogens.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q1.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-053
+
+## title
+B lymphocytes once activated by a thymus-independent antigen differentiate into:
+
+## question
+B lymphocytes once activated by a thymus-independent antigen differentiate into:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Memory B cells
+
+## explanation_a
+Incorrect. Thymus-independent activation does not generate memory B cells at all; it drives differentiation into plasma cells only.
+
+## answer_b
+Plasma cells & memory cells
+
+## explanation_b
+Incorrect. Producing both plasma cells and memory cells is the outcome of thymus-dependent activation, where T-cell help supports memory formation — thymus-independent antigens skip this step.
+
+## answer_c
+Cytokine-producing B lymphocytes
+
+## explanation_c
+Incorrect. Activated B cells are antibody-secreting effector cells (plasma cells), not a cytokine-producing lineage.
+
+## answer_d
+Plasma cells only
+
+## explanation_d
+Correct. Thymus-independent antigens (typically repetitive polysaccharide epitopes) cross-link the B-cell receptor directly and drive differentiation into plasma cells only, without generating memory B cells, because they bypass the cognate T-helper interaction that thymus-dependent antigens use to support memory formation and isotype switching.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-7C76D5D920C47C
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that thymus-independent antigen activation of B cells yields plasma cells only, with no memory B-cell generation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-054
+
+## title
+The specificity of an antibody is due to its:
+
+## question
+The specificity of an antibody is due to its:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+HyperVariable region
+
+## explanation_a
+Correct. An antibody's specificity for its antigen is conferred by the hypervariable region within the variable domains of the heavy and light chains — the small stretches of the variable region with the greatest sequence diversity, which form the actual contact surface with the antigen.
+
+## answer_b
+Valency
+
+## explanation_b
+Incorrect. Valency describes how many antigen-binding sites an antibody molecule has (for example, two for a monomeric IgG), not what determines which antigen it binds.
+
+## answer_c
+Fc portion
+
+## explanation_c
+Incorrect. The Fc portion mediates biological effector functions such as complement fixation; it does not determine antigen specificity.
+
+## answer_d
+The heavy chain
+
+## explanation_d
+Incorrect. The heavy chain alone is not the specificity determinant — specificity depends on the hypervariable region within the variable domains of both the heavy and the light chain together.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-DA7860858B2708
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that antibody specificity is determined by the hypervariable region, not by valency, the Fc portion, or the heavy chain alone.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-055
+
+## title
+Which of the following isn't a result of class switch?
+
+## question
+Which of the following isn't a result of class switch?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Production of a different isotype
+
+## explanation_a
+Incorrect. Producing a different isotype is exactly what class switching does — it is not the exception.
+
+## answer_b
+Change of Fc region
+
+## explanation_b
+Incorrect. Changing the Fc region is how a different isotype acquires different effector functions; this is a genuine result of class switching.
+
+## answer_c
+Production of antibody with different function and properties
+
+## explanation_c
+Incorrect. A different isotype does carry different biological functions and properties (for example, a different capacity to fix complement or cross the placenta), so this is a genuine result, not the exception.
+
+## answer_d
+Changing the idiotype of the antibody
+
+## explanation_d
+Correct. Class switching changes the antibody's isotype, Fc region and effector functions while keeping the same variable region — and therefore the same idiotype and antigen-binding specificity. Changing the idiotype is specifically NOT something class switching does, which is exactly why this is the one option that is not a result of the process.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-F0B36EE3E20932
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that class switching changes isotype, Fc region and function, but never the antibody's idiotype.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-056
+
+## title
+Fusion between a plasma cell and a tumor cell creates a:
+
+## question
+Fusion between a plasma cell and a tumor cell creates a:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Lymphoblast
+
+## explanation_a
+Incorrect. A lymphoblast is an activated, proliferating lymphocyte precursor, not the product of fusing a plasma cell with a tumour cell.
+
+## answer_b
+Lymphoma
+
+## explanation_b
+Incorrect. A lymphoma is a malignant neoplasm of lymphoid cells; it is not the deliberately engineered fusion product described here.
+
+## answer_c
+Hyperdoma
+
+## explanation_c
+Correct. Fusing an antibody-secreting plasma cell (or B cell) with an immortal myeloma (tumour) cell creates the fused, immortalised, antibody-secreting cell line used to manufacture monoclonal antibody. The department's own bank prints this fusion product's name as "Hyperdoma" rather than the standard term "hybridoma" — a printed-term oddity kept exactly as printed rather than silently corrected.
+
+## answer_d
+Myeloma
+
+## explanation_d
+Incorrect. A myeloma is the tumour cell partner used IN the fusion, not the name of the resulting fused cell line itself.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-0706BCC1024657
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify the fusion of a plasma cell with a myeloma cell as producing the cell line this course's bank prints as "Hyperdoma" (the hybridoma), used for monoclonal antibody production.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Source PDF prints option c as "Hyperdoma" (confirmed by direct 220dpi image read, not an OCR artefact); this is the department's own spelling of what is standardly called a hybridoma, and it is kept verbatim per the ANSWER-KEY-GAPS convention of preserving genuine printed oddities.
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-057
+
+## title
+A person developed an extracellular bacterial infection and produced IgM in response. Which of the following is the most important protective function of IgM?
+
+## question
+A person developed an extracellular bacterial infection and produced IgM in response. Which of the following is the most important protective function of IgM?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Opsonization
+
+## explanation_a
+Incorrect. Opsonisation is chiefly an IgG-mediated mechanism; it is not IgM's own standout protective function here.
+
+## answer_b
+Complement activation
+
+## explanation_b
+Correct. IgM's most important protective function against extracellular bacteria is complement activation. Its pentameric structure, with ten antigen-binding sites and multiple exposed Fc regions, makes it the single most efficient immunoglobulin isotype at fixing complement, which is what drives clearance of the bacteria in this scenario.
+
+## answer_c
+Local immunity in mucosal secretions
+
+## explanation_c
+Incorrect. Local immunity in mucosal secretions is the role of secretory IgA, not circulating IgM produced during a systemic bacterial infection.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. Since opsonisation and mucosal immunity are not IgM's own principal mechanisms here, "all of the above" overstates IgM's role; complement activation alone is the best answer.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-3ADAFC717798F9
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IgM's most important protective function against extracellular bacteria is complement activation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-058
+
+## title
+Isotype switch of produced antibodies requires engagement of which of the following molecules?
+
+## question
+Isotype switch of produced antibodies requires engagement of which of the following molecules?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+B7 & CD28
+
+## explanation_a
+Incorrect. B7-CD28 is the T-cell costimulatory (second-signal) pairing for T-cell activation, not the trigger for B-cell isotype switching.
+
+## answer_b
+CD40 & CD40L
+
+## explanation_b
+Correct. Isotype (class) switching of a produced antibody requires engagement of CD40 on the B cell by CD40 ligand (CD40L) on the activated T-helper cell. This CD40-CD40L interaction is the specific molecular signal that licenses class-switch recombination in the B cell, distinct from the general B-cell/macrophage activation that CD40L also supports.
+
+## answer_c
+PAMP & PRR
+
+## explanation_c
+Incorrect. PAMP-PRR pairing is an innate-immunity recognition mechanism; it plays no role in triggering isotype switching.
+
+## answer_d
+Complement receptor and complement
+
+## explanation_d
+Incorrect. Complement receptor-complement engagement supports opsonisation and clearance, not the isotype-switch signal itself.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-F5355ED5234523
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify CD40-CD40L engagement as the specific signal required for antibody isotype switching.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-059
+
+## title
+Which of the following is an antigen-binding site?
+
+## question
+Which of the following is an antigen-binding site?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Constant region of both heavy and light chain
+
+## explanation_a
+Incorrect. The constant regions are conserved within an isotype and mediate effector function; they do not form the antigen-binding site.
+
+## answer_b
+Constant region of heavy chain
+
+## explanation_b
+Incorrect. The heavy-chain constant region contributes to the Fc portion's effector functions, not to antigen binding.
+
+## answer_c
+Variable region of light chain
+
+## explanation_c
+Incorrect. The light-chain variable region alone is only half of the binding site; the antigen-binding site is formed together with the heavy-chain variable region.
+
+## answer_d
+Variable region of both heavy and light chain
+
+## explanation_d
+Correct. The antigen-binding site (paratope) is formed by the variable region of both the heavy and the light chain together, whose hypervariable loops make direct contact with the antigen's epitope.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-DA7860858B2708
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Locate the antigen-binding site in the variable region of both the heavy and light chains together.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-060
+
+## title
+Which of the following antibody isotype and biological function pairings is correctly matched?
+
+## question
+Which of the following antibody isotype and biological function pairings is correctly matched?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+IgM: transported across mucosal epithelium
+
+## explanation_a
+Incorrect. Transport across mucosal epithelium via the poly-Ig receptor is a secretory-IgA function, not an IgM one.
+
+## answer_b
+IgE: defence against parasites & binds to mast cells
+
+## explanation_b
+Correct. IgE's biological function is defence against parasites, achieved through its high-affinity binding to Fc receptors on mast cells (and basophils), which triggers degranulation on antigen cross-linking — the correctly matched isotype-function pairing among the options.
+
+## answer_c
+IgD: complement fixation
+
+## explanation_c
+Incorrect. Complement fixation via the classical pathway is a function of IgM and IgG, not IgD, whose function remains chiefly as a naive B-cell surface receptor.
+
+## answer_d
+IgA: 1st antibody to be secreted by B lymphocytes
+
+## explanation_d
+Incorrect. IgM, not IgA, is the first antibody isotype secreted by an activated B lymphocyte in a primary immune response.
+
+## answer_e
+IgG: present in minute amounts in serum
+
+## explanation_e
+Incorrect. IgG is in fact the most abundant immunoglobulin isotype in serum, not present in only minute amounts — that description would better fit IgE or IgD.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5B7B4DFD6B629B
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify IgE's parasite-defence and mast-cell-binding function as the correctly paired antibody isotype-function statement, rejecting the swapped IgM/IgD/IgA/IgG pairings.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-061
+
+## title
+In comparison with the primary humoral immune response, the secondary (2ry) humoral immune response is characterized by:
+
+## question
+In comparison with the primary humoral immune response, the secondary (2ry) humoral immune response is characterized by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Needs a larger amount of antigen to be stimulated
+
+## explanation_a
+Incorrect. It is the primary response, not the secondary response, that needs a comparatively larger stimulating dose of antigen; memory cells make the secondary response far more sensitive.
+
+## answer_b
+More IgM is produced
+
+## explanation_b
+Incorrect. The secondary response is class-switched and dominated by IgG (and other switched isotypes), producing more IgG, not more IgM, than the primary response.
+
+## answer_c
+Can be induced by both thymus-dependent and thymus-independent antigens
+
+## explanation_c
+Incorrect. The memory-driven secondary response specifically requires the thymus-dependent pathway (which alone generates memory B cells); thymus-independent activation does not produce memory and so cannot mount a true secondary response.
+
+## answer_d
+Has a shorter lag period
+
+## explanation_d
+Correct. The secondary (memory) immune response gives a markedly shorter lag period than the primary response, together with a stronger and faster reaction, because pre-existing memory cells are already primed and expanded rather than needing to be generated from naive lymphocytes as in the primary response.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5D0DFF26A97616
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that a shorter lag period, not a larger antigen dose or more IgM, defines the secondary humoral immune response relative to the primary response.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-062
+
+## title
+Which of the following immunoglobulins have a binding site for C1q?
+
+## question
+Which of the following immunoglobulins have a binding site for C1q?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+IgD & IgA
+
+## explanation_a
+Incorrect. Neither IgD nor IgA carries a C1q-binding site; this pairing includes no isotype that activates the classical complement pathway this way.
+
+## answer_b
+IgM and IgG
+
+## explanation_b
+Correct. IgM and IgG carry the binding site for complement component C1q, allowing them to trigger the classical complement pathway once bound to antigen — IgD, IgA and IgE do not activate complement through this route.
+
+## answer_c
+IgM and IgE
+
+## explanation_c
+Incorrect. IgE does not bind C1q; only IgM among this pair is a genuine C1q-binding isotype.
+
+## answer_d
+IgM and IgD
+
+## explanation_d
+Incorrect. IgD does not bind C1q; only IgM among this pair is a genuine C1q-binding isotype.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-39D2A09A56240D
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify IgM and IgG as the immunoglobulin isotypes that bind C1q and activate the classical complement pathway.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-063
+
+## title
+Molecules associated with B cells' antigen receptors are called:
+
+## question
+Molecules associated with B cells' antigen receptors are called:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Ig delta
+
+## explanation_a
+Incorrect. Ig-delta is the heavy-chain constant region that defines the IgD isotype itself, not the BCR's signal-transduction partner.
+
+## answer_b
+Ig gamma
+
+## explanation_b
+Incorrect. Ig-gamma is the heavy-chain constant region that defines the IgG isotype itself, not the BCR's signal-transduction partner.
+
+## answer_c
+CD59
+
+## explanation_c
+Incorrect. CD59 is a complement-regulatory protein that protects host cells from the membrane attack complex; it has no role in B-cell receptor signalling.
+
+## answer_d
+Ig Alpha and Ig Beta
+
+## explanation_d
+Correct. Ig-alpha and Ig-beta are the molecules associated with the B-cell antigen receptor that carry out signal transduction once membrane immunoglobulin binds antigen, directly analogous to CD3 on the T-cell receptor complex.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-B3F936B93C6E0F
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify Ig-alpha and Ig-beta as the signal-transducing molecules associated with the B-cell antigen receptor.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-064
+
+## title
+Concerning maturation of B lymphocytes:
+
+## question
+Concerning maturation of B lymphocytes:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+E
+
+## answer_a
+Does not ensure self-MHC restriction
+
+## explanation_a
+Incorrect alone. This statement is true (B-cell maturation does not ensure self-MHC restriction), but since every other option is also true, "all of the above" is the best answer, not this option alone.
+
+## answer_b
+Happens in bone marrow
+
+## explanation_b
+Incorrect alone. This statement is true (maturation happens in the bone marrow), but since every other option is also true, "all of the above" is the best answer, not this option alone.
+
+## answer_c
+Produces cells with IgD and IgM as B-cell receptors
+
+## explanation_c
+Incorrect alone. This statement is true (maturation produces IgD/IgM-bearing B cells), but since every other option is also true, "all of the above" is the best answer, not this option alone.
+
+## answer_d
+Involves negative selection
+
+## explanation_d
+Incorrect alone. This statement is true (maturation involves negative selection), but since every other option is also true, "all of the above" is the best answer, not this option alone.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. B-lymphocyte maturation happens in the bone marrow, produces cells bearing both IgD and IgM as their B-cell receptor, and involves negative selection to delete strongly self-reactive clones — but unlike thymic T-cell education, it does not ensure self-MHC restriction, since B cells recognise native antigen directly rather than peptide presented in an MHC groove. All four individual statements are true, making "all of the above" correct.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-172A03F46016A8
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that B-cell maturation occurs in the bone marrow, yields IgM/IgD-bearing cells, and involves negative selection, without ensuring self-MHC restriction.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-065
+
+## title
+The B-cell receptor (BCR), in comparison with the T-cell receptor (TCR):
+
+## question
+The B-cell receptor (BCR), in comparison with the T-cell receptor (TCR):
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Can recognize carbohydrate (CHO) antigen
+
+## explanation_a
+Correct. Unlike the T-cell receptor, which requires antigen to be processed into peptide and presented in an MHC groove, the B-cell receptor can recognise carbohydrate (CHO) and other native antigens directly, without processing.
+
+## answer_b
+Has the same molecular structure
+
+## explanation_b
+Incorrect. The BCR (membrane immunoglobulin paired with Ig-alpha/Ig-beta) is structurally distinct from the TCR-CD3 complex; they do not share the same molecular structure.
+
+## answer_c
+Needs no signal transducer molecule
+
+## explanation_c
+Incorrect. The BCR does need a dedicated signal-transduction partner — Ig-alpha and Ig-beta — directly analogous to CD3 on the TCR.
+
+## answer_d
+Is non-specific
+
+## explanation_d
+Incorrect. The BCR is highly antigen-specific, just like the TCR; the two differ in what form of antigen they can engage, not in how specific they are.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-3A202201DD3303
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that the BCR, unlike the TCR, can recognise native carbohydrate antigen directly without processing or MHC presentation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-066
+
+## title
+Thymus-dependent antigen, in comparison with thymus-independent antigen:
+
+## question
+Thymus-dependent antigen, in comparison with thymus-independent antigen:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+No memory
+
+## explanation_a
+Incorrect. It is the thymus-independent, not the thymus-dependent, pathway that generates no memory; thymus-dependent activation is exactly the route that produces memory B cells.
+
+## answer_b
+Produces only one isotype of antibodies
+
+## explanation_b
+Incorrect. Producing only one antibody isotype describes the thymus-independent pathway; thymus-dependent activation, with T-cell help, supports isotype switching to multiple isotypes.
+
+## answer_c
+Receives the class-switch signal via CD40-CD40L interaction
+
+## explanation_c
+Correct. A thymus-dependent antigen's response engages cognate T-helper cells, whose CD40 ligand (CD40L) engages CD40 on the B cell — the specific signal for isotype class-switch recombination — which the thymus-independent pathway never receives.
+
+## answer_d
+Is carbohydrate (CHO) in nature
+
+## explanation_d
+Incorrect. Being carbohydrate (CHO) in nature is typical of thymus-independent antigens (repetitive polysaccharide epitopes), not thymus-dependent ones, which are typically protein antigens.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-4D425614619A4B
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that thymus-dependent, not thymus-independent, antigen response receives the CD40-CD40L class-switch signal.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-067
+
+## title
+What antibodies are expected to be present in the body of a 6-month-old breastfed baby?
+
+## question
+What antibodies are expected to be present in the body of a 6-month-old breastfed baby?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+IgG & IgA
+
+## explanation_a
+Correct. A six-month-old breastfed baby is expected to carry maternal IgG transferred across the placenta before birth together with IgA acquired from breast milk (including colostrum) — IgG is the only isotype that crosses the placenta, and milk-derived IgA supplies ongoing mucosal passive immunity.
+
+## answer_b
+IgA only
+
+## explanation_b
+Incorrect. IgA alone omits the placentally transferred IgG, which is also expected to be present at six months of age.
+
+## answer_c
+IgE only
+
+## explanation_c
+Incorrect. IgE is not a passively transferred isotype from mother to infant in this way and is not the expected answer here.
+
+## answer_d
+IgM only
+
+## explanation_d
+Incorrect. Maternal IgM does not cross the placenta, so IgM alone is not the expected passively acquired antibody profile of a breastfed infant.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-35B6DD783329A5
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that a breastfed infant carries both maternally transferred IgG (transplacental) and milk-derived IgA.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q16.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-068
+
+## title
+The most abundant antibody in colostrum is:
+
+## question
+The most abundant antibody in colostrum is:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+IgM
+
+## explanation_a
+Incorrect. IgM is not the dominant antibody in colostrum, despite its important role in a fetus's own primary response to intrauterine infection.
+
+## answer_b
+IgA
+
+## explanation_b
+Correct. IgA is the most abundant antibody in colostrum, the first mammary secretion after delivery, providing the newborn with mucosal passive immunity in the gut before the infant's own secretory IgA system matures.
+
+## answer_c
+IgG
+
+## explanation_c
+Incorrect. Although IgG is the isotype that crosses the placenta before birth, IgA — not IgG — is the most abundant antibody in colostrum specifically.
+
+## answer_d
+IgE
+
+## explanation_d
+Incorrect. IgE is not a notably abundant component of colostrum.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-GYN-B5C12E798C9C48
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IgA is the most abundant antibody in colostrum.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section I (Humoral immune response), Q17.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+

@@ -2016,3 +2016,621 @@ no
 
 ## qualifiers
 source_scope: ASU Year 1 Immunology, Term 1
+
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-HUMORAL-EXTRACELLULAR-ROLE-01
+
+## concept_id
+CON-IMM-AB38F5017A2AB9
+
+## subject
+B lymphocytes and antibody are the components most effective against extracellular pathogens
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q1
+
+## display_text
+B lymphocytes and the antibodies they secrete are the immune components most effective at destroying extracellular pathogens, because antibody can bind free organisms and their toxins directly and recruit opsonisation, complement activation and neutralisation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-TI-ANTIGEN-PLASMACELLS-01
+
+## concept_id
+CON-IMM-7C76D5D920C47C
+
+## subject
+Thymus-independent antigens drive B cells into plasma cells only, with no memory
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q2
+
+## display_text
+B lymphocytes activated by a thymus-independent antigen differentiate into plasma cells only, without generating memory B cells.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-ANTIBODY-VARIABLE-REGION-01
+
+## concept_id
+CON-IMM-DA7860858B2708
+
+## subject
+Antibody specificity and the antigen-binding site sit in the variable/hypervariable region
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q3, Q8
+
+## display_text
+Antibody specificity is conferred by the hypervariable region, and the antigen-binding site is formed by the variable region of both the heavy and the light chain together.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-CLASSSWITCH-IDIOTYPE-01
+
+## concept_id
+CON-IMM-F0B36EE3E20932
+
+## subject
+Class switching does not change the antibody's idiotype
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q4
+
+## display_text
+Class switching changes antibody isotype, Fc region and effector function, but changing the idiotype is not a result of class switching.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-HYBRIDOMA-FUSION-01
+
+## concept_id
+CON-IMM-0706BCC1024657
+
+## subject
+Plasma cell + myeloma cell fusion creates a hybridoma
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q5
+
+## display_text
+Fusing a plasma cell with a myeloma (tumour) cell creates the fused cell line used for monoclonal antibody production, printed in the department bank as "Hyperdoma".
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IGM-COMPLEMENT-ROLE-01
+
+## concept_id
+CON-IMM-3ADAFC717798F9
+
+## subject
+IgM's most important protective function is complement activation
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q6, Extra Q15
+
+## display_text
+In an extracellular bacterial infection where IgM is produced, IgM's most important protective function is complement activation, and IgM is the most efficient isotype at activating complement generally.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-CD40-CD40L-CLASSSWITCH-01
+
+## concept_id
+CON-IMM-F5355ED5234523
+
+## subject
+Isotype switching requires CD40-CD40L engagement
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q7, ExamI Q11
+
+## display_text
+Isotype switching of a produced antibody requires engagement of CD40 on the B cell by CD40 ligand (CD40L) on the activated T-helper cell.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-ISOTYPE-FUNCTION-PAIRING-01
+
+## concept_id
+CON-IMM-5B7B4DFD6B629B
+
+## subject
+IgE's correct isotype-function pairing is parasite defence and mast-cell binding
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q9
+
+## display_text
+Of the isotype-function pairings offered, IgE's defence against parasites and binding to mast cells is the correctly paired statement.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-C1Q-BINDING-ISOTYPES-01
+
+## concept_id
+CON-IMM-39D2A09A56240D
+
+## subject
+IgM and IgG bind complement component C1q
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q11
+
+## display_text
+IgM and IgG carry the binding site for complement component C1q; IgD, IgA and IgE do not.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IGALPHA-IGBETA-SIGNALING-01
+
+## concept_id
+CON-IMM-B3F936B93C6E0F
+
+## subject
+Ig-alpha and Ig-beta transduce the B-cell receptor signal
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q12, ExamI Q15
+
+## display_text
+The molecules that carry out signal transduction for the B-cell antigen receptor are Ig-alpha and Ig-beta.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-BCELL-MATURATION-01
+
+## concept_id
+CON-IMM-172A03F46016A8
+
+## subject
+B-cell maturation: bone marrow, IgM/IgD receptors, negative selection, no self-MHC restriction
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q13
+
+## display_text
+B-lymphocyte maturation happens in the bone marrow, produces cells bearing IgD and IgM as their receptors, and involves negative selection, without ensuring self-MHC restriction.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-BCR-VS-TCR-CHO-01
+
+## concept_id
+CON-IMM-3A202201DD3303
+
+## subject
+The BCR, unlike the TCR, can recognise carbohydrate antigen directly
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q14
+
+## display_text
+Compared with the T-cell receptor, the B-cell receptor can recognise carbohydrate (CHO) antigen directly, without processing or MHC presentation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-THYMUS-DEPENDENT-FEATURES-01
+
+## concept_id
+CON-IMM-4D425614619A4B
+
+## subject
+Thymus-dependent antigen responses receive the CD40-CD40L signal and generate memory
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q15, Extra Q8
+
+## display_text
+A thymus-dependent antigen's response receives the class-switch signal via CD40-CD40L interaction and generates memory, unlike the thymus-independent pathway.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-NEONATAL-PASSIVE-ANTIBODY-01
+
+## concept_id
+CON-IMM-35B6DD783329A5
+
+## subject
+A breastfed infant carries transplacental IgG plus milk-derived IgA
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Humoral Q16
+
+## display_text
+A six-month-old breastfed baby is expected to carry maternal IgG (transplacental) together with IgA acquired from breast milk.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+

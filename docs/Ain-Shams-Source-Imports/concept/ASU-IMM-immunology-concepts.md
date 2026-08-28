@@ -8747,3 +8747,2671 @@ ASU_Y1=0.5
 
 ## field_notes
 sparseUpdate: ASU overlay only, added because Ashraf Pt1-II Q10/Q25 and Ashraf Pt2 Exam I Q8 test this exact fact (perforin/granzyme-mediated CTL killing). find-existing.mjs "perforin" returned this live id — same objective as our tested fact, so this is a sparse overlay, never a second record. All other fields left untouched.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-AB38F5017A2AB9
+
+## label
+B lymphocytes and their antibodies are most effective against extracellular pathogens
+
+## canonical_key
+humoralimmunity.role.extracellular-pathogen-defense
+
+## aliases
+Humoral immunity vs extracellular pathogens
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+B lymphocytes and the antibodies they secrete are the immune components most effective at destroying extracellular pathogens, because antibody can bind free organisms and their toxins in blood and tissue fluid directly, then recruit opsonisation, complement activation and neutralisation — mechanisms that pro-inflammatory cytokines, T-helper cells and type I interferon support but do not themselves carry out against a free-living extracellular organism.
+
+## explicit_objective
+Identify humoral immunity (B lymphocytes and antibody) as the arm of the immune system most effective against extracellular pathogens, as distinct from cytokine, T-helper or interferon-mediated mechanisms.
+
+## pitfalls
+Crediting T-helper cells or pro-inflammatory cytokines directly with destroying extracellular pathogens; they support the response (T-helpers license B cells, cytokines recruit and activate effectors) but the antibody itself is the effector molecule that binds and neutralises the free organism.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-HUMORAL-EXTRACELLULAR-ROLE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the following immune components are most effective at destroying extracelluar pathogens
+a) B lymphocytes & Their Antibodies
+b) Pro inflammatory cytokines
+c) T- Helpers
+d) IFN type I
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q1, Extra Q12
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs searches for "humoral immunity" and "extracellular pathogen" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-7C76D5D920C47C
+
+## label
+Thymus-independent antigens activate B cells into plasma cells only, without memory formation
+
+## canonical_key
+bcell.activation.tindependent-plasmacells-only
+
+## aliases
+T-independent B-cell activation
+TI antigen response
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+B lymphocytes activated by a thymus-independent (T-independent) antigen differentiate into plasma cells only, without generating memory B cells, because T-independent antigens (typically repetitive polysaccharide epitopes) cross-link the B-cell receptor and trigger antibody secretion without the cognate T-helper interaction that thymus-dependent antigens use to drive isotype switching and memory formation.
+
+## explicit_objective
+State that thymus-independent antigen activation of B cells yields plasma cells only, with no memory B-cell generation, unlike the thymus-dependent pathway.
+
+## pitfalls
+Assuming every B-cell activation event generates memory cells; memory formation specifically requires T-cell help (thymus-dependent activation), which thymus-independent antigens bypass entirely.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-TI-ANTIGEN-PLASMACELLS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+B lymphocytes once activated by thymus independant Ag , they diffrentiate into :
+a) Mmory B cells
+b) Plasma cells & Memory cells
+c) cytokines producing B lymphocytes
+d) Plasma cells only
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q2, ExamII Q9
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "thymus independent" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-DA7860858B2708
+
+## label
+Antibody specificity and antigen binding reside in the variable/hypervariable region
+
+## canonical_key
+antibody.structure.variableregion-specificity-binding
+
+## aliases
+Antibody hypervariable region
+Fab antigen-binding site
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+An antibody's specificity for its antigen is conferred by the hypervariable region within the variable domains, and the actual antigen-binding site is formed by the variable region of both the heavy and the light chain together — not by the constant region of either chain, the Fc portion, or valency alone.
+
+## explicit_objective
+Locate antibody specificity and the antigen-binding site in the hypervariable/variable region of both heavy and light chains, distinguishing this from the constant region and Fc portion.
+
+## pitfalls
+Placing the antigen-binding site in a constant region (heavy or light chain) or the Fc portion; those regions are conserved across antibodies of a given isotype and mediate effector functions, not antigen recognition.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-ANTIBODY-VARIABLE-REGION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The specificity of an antibody is duo to it's ?
+a) HyperVariable region
+b) valency
+c) Fc portion
+d) The heavy chain
+(same fact, also tested here:)
+Which of the following is an Ag binding site ?
+a) Constant region of both heavy and light chain
+b) constant region of heavy chain
+c) Variable region of light chain
+d) variable region of both heavy and light chain
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q3, Q8
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "hypervariable region" and "antigen binding site" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-F0B36EE3E20932
+
+## label
+Class switching changes antibody isotype and Fc function but not idiotype
+
+## canonical_key
+antibody.classswitch.idiotype-unchanged
+
+## aliases
+Isotype class switching scope
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Class (isotype) switching lets a B cell produce a different antibody isotype with a different Fc region and different effector functions and properties while keeping the same antigen-binding specificity; changing the antibody's idiotype (its unique variable-region antigen-binding identity) is therefore NOT a result of class switching.
+
+## explicit_objective
+State that class switching changes isotype, Fc region and effector function while leaving the antibody's idiotype (antigen-binding specificity) unchanged.
+
+## pitfalls
+Assuming class switching alters what the antibody recognises; the variable region (and therefore the idiotype and antigen specificity) is preserved across the switch — only the constant (Fc) region and isotype change.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-CLASSSWITCH-IDIOTYPE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the Following isn't a result of class switch ?
+a) Production of diffrent isotype
+b) Change of FC region
+c) Production of AB with diffrent function and properties
+d) Changing the idiotype of Antibody
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q4
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "idiotype" and "class switch" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-0706BCC1024657
+
+## label
+Fusion of a plasma cell with a myeloma (tumour) cell creates a hybridoma
+
+## canonical_key
+hybridoma.production.plasmacell-tumorcell-fusion
+
+## aliases
+Hybridoma technique
+Monoclonal antibody production fusion
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Fusing an antibody-secreting plasma cell (or B cell) with an immortal myeloma (tumour) cell creates a hybridoma — an immortalised, antibody-secreting cell line used to manufacture monoclonal antibody, distinct from a lymphoblast, lymphoma or the source PDF's own printed "Hyperdoma", which this course's own bank prints as the label for this fused cell rather than the standard term "hybridoma".
+
+## explicit_objective
+Identify the fusion product of a plasma cell and a myeloma (tumour) cell as the cell line used for monoclonal antibody production, printed in the department bank as "Hyperdoma".
+
+## pitfalls
+Confusing the fusion product with a lymphoblast (an activated, proliferating lymphocyte precursor) or a lymphoma (a malignant lymphoid neoplasm); the fusion product is specifically an immortalised antibody-secreting hybrid line, and this course's own bank prints its name as "Hyperdoma" rather than the standard "hybridoma" — a printed-term oddity kept as printed here, not corrected silently.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-HYBRIDOMA-FUSION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Fusion between a plasma cell and a tumor cell creates a:
+a) lymphoblast
+b) Lymphoma
+c) Hyperdoma
+d) Myeloma
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q5
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "hybridoma" returned no same-grain live/pending concept (checked 2026-08-28).
+printedTermOddity: The source PDF's own printed option reads "Hyperdoma", confirmed by direct 220dpi image read of page 3 of the Part 2 bank (not an OCR artefact) — kept as printed per the ANSWER-KEY-GAPS convention of preserving genuine printed oddities rather than silently correcting the source to "hybridoma".
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-3ADAFC717798F9
+
+## label
+IgM's most important protective function against extracellular bacteria is complement activation
+
+## canonical_key
+igm.function.complementactivation-primary-role
+
+## aliases
+IgM complement activation
+Most efficient complement-fixing antibody
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+In an extracellular bacterial infection where IgM is the antibody produced, IgM's most important protective function is complement activation — its pentameric structure makes it the single most efficient immunoglobulin isotype at fixing complement — rather than opsonisation or mucosal immunity, which are not IgM's principal roles in this setting.
+
+## explicit_objective
+State that IgM's chief protective mechanism against extracellular bacteria, and its standout property among the isotypes, is complement activation.
+
+## pitfalls
+Crediting IgM's protective role chiefly to opsonisation (an IgG-dominant mechanism) or to mucosal/local immunity (a secretory-IgA role); IgM's own principal contribution is its unmatched efficiency at activating complement.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-IGM-COMPLEMENT-ROLE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+A person developed Extracellular bacterial infection, and produced IgM in response, which of the following is the most important protective function of IgM ?
+a) Opsonization
+b) Complement activation
+c) Local immunity in mucosal secretions
+d) All of the above
+(same fact, also tested here:)
+Which one of the following Antibodies is the most efficient in complement activation
+a. igG
+b. IgE
+c. igA
+d. IgM
+e. IgD
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q6, Extra Q15
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "IgM complement" returned no same-grain live/pending concept; the live C1q-binding concept (see antibody.complementbinding.c1q-igm-igg) is a related but broader fact about which isotypes bind C1q at all, not IgM's own standout efficiency, so kept separate.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-F5355ED5234523
+
+## label
+Antibody isotype switching requires CD40–CD40L engagement between B cell and T helper cell
+
+## canonical_key
+antibody.classswitch.cd40-cd40l-signal
+
+## aliases
+CD40-CD40L isotype switch signal
+Class switch recombination trigger
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Isotype (class) switching of a produced antibody requires engagement of CD40 on the B cell by CD40 ligand (CD40L) on the activated T-helper cell — a distinct, more specific fact from CD40L's broader role in helping activate B cells and macrophages, since CD40-CD40L engagement is the specific molecular trigger for class-switch recombination; B7-CD28, PAMP-PRR and complement-receptor/complement pairings do not drive isotype switching.
+
+## explicit_objective
+Identify CD40-CD40L engagement between a B cell and a T-helper cell as the specific signal required for antibody isotype (class) switching.
+
+## pitfalls
+Substituting B7-CD28 (T-cell costimulation) or PAMP-PRR (innate recognition) for the CD40-CD40L pairing; those molecule pairs drive different steps (T-cell activation and innate recognition respectively), not isotype switching.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+CON-IMM-162267AD1BF293
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-CD40-CD40L-CLASSSWITCH-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+isotype switch of produced Abs requires engagment of which of the following molecules?
+a) B7 & CD28
+b) CDHO & CDHOL
+c) PAMP & PRR
+d) Complement receptor and complement
+(same fact, also tested here:)
+CD4O & CDYOL interaction is important for
+a) Antigen presentation
+b) Differentiation into memory cells
+c) Switching antibody isotype
+d) All of the above
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q7, ExamI Q11
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: CON-IMM-162267AD1BF293 (live, "Activated helper-T-cell CD40 ligand helps activate B cells and macrophages through CD40") was found by find-existing.mjs "CD40" and inspected — it is a sibling fact about the same CD40-CD40L molecule pair but frames B-cell/macrophage activation generally, not the specific isotype-class-switch-recombination trigger this question tests, so it was kept as a related, not merged, concept (cross-linked via related_concept_ids).
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-5B7B4DFD6B629B
+
+## label
+Correctly pairing an antibody isotype with its biological function distinguishes IgE-parasite/mast-cell binding from other isotypes
+
+## canonical_key
+antibody.isotype.ige-parasite-mastcell-function
+
+## aliases
+Antibody isotype function pairing
+IgE parasite defense and mast cell binding
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Of the antibody isotype-function pairings offered in this course's bank, IgE's defence against parasites and its binding to mast cells is the correctly paired statement — not IgM being transported across mucosal epithelium (a secretory-IgA role), IgD fixing complement, IgA being the first antibody secreted by B lymphocytes (that is IgM's role), or IgG being present only in minute amounts in serum (IgG is in fact the most abundant serum immunoglobulin).
+
+## explicit_objective
+Identify IgE's parasite-defence and mast-cell-binding function as the correctly paired antibody isotype-function statement, rejecting the mismatched IgM/IgD/IgA/IgG pairings offered as distractors.
+
+## pitfalls
+Accepting a plausible-sounding but swapped isotype-function pairing, such as IgA (not IgM) being the first antibody secreted, or IgG (the most abundant serum isotype) being called a minute-amount isotype; each distractor deliberately swaps a true fact onto the wrong isotype.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-ISOTYPE-FUNCTION-PAIRING-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the following antibody isotype and biological Functions are correctly pair
+a) IgM: transported across Mucosal epithelium
+b) IgE: Defense against parasite & binds to mast cells
+c) IgD: Complement fixation
+d) IgA: Ist antibody to be secreted by b lymphocytes
+e) IgG: Present in minute ammounts in serum
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q9
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "IgE mast cell" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-39D2A09A56240D
+
+## label
+IgM and IgG, not IgA, IgE or IgD, carry the binding site for complement component C1q
+
+## canonical_key
+antibody.complementbinding.c1q-igm-igg
+
+## aliases
+C1q-binding immunoglobulins
+Complement-fixing antibody isotypes
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Of the antibody isotypes, IgM and IgG carry the binding site for the complement component C1q and so can trigger the classical complement pathway, whereas IgD, IgA and IgE do not activate complement through this route.
+
+## explicit_objective
+Identify IgM and IgG as the immunoglobulin isotypes that bind C1q and can activate the classical complement pathway.
+
+## pitfalls
+Including IgA, IgE or IgD among the C1q-binding isotypes; only IgM and IgG carry a C1q-binding site among the isotypes this course tests.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-C1Q-BINDING-ISOTYPES-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the following immunoglobulins have binding site for Clq?
+a) IgD & IgA
+b) IgM and IgG
+c) IgM and IgE
+d) IgM and IgD
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q11
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "C1q" returned no same-grain live/pending concept; related but distinct from igm.function.complementactivation-primary-role, which tests IgM's own standout efficiency rather than which isotypes bind C1q at all.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-B3F936B93C6E0F
+
+## label
+Ig-alpha and Ig-beta are the signal-transduction molecules of the B-cell antigen receptor
+
+## canonical_key
+bcell.receptor.igalpha-igbeta-signaltransduction
+
+## aliases
+Ig-alpha Ig-beta BCR signaling
+CD79a CD79b
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The molecules associated with the B-cell antigen receptor that carry out signal transduction are Ig-alpha and Ig-beta, a non-covalently associated heterodimer that transmits the activation signal once membrane IgM/IgD on the B-cell surface binds antigen — not Ig-delta or Ig-gamma constant regions, and not CD59, a complement-regulatory protein unrelated to BCR signalling.
+
+## explicit_objective
+Identify Ig-alpha and Ig-beta as the signal-transducing molecules associated with the B-cell antigen receptor.
+
+## pitfalls
+Naming a heavy-chain constant region (Ig-delta, Ig-gamma) or an unrelated surface molecule (CD59) as the BCR's signal-transduction partner; Ig-alpha/Ig-beta is the correct, dedicated signalling heterodimer, directly analogous to CD3 on the T-cell receptor.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-IGALPHA-IGBETA-SIGNALING-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+molecules associated with B cells Ag receptors are called?
+a) Ig delta
+b) Ig gamma
+c) CD59
+d) Ig Alpha and Ig Beta
+(same fact, also tested here:)
+Which of the following molecules can serve as signal transduction molecules on B cells
+a) Fc
+b) IgM and IgD
+c) IgG
+d) Ig-alpha & Ig-Beta
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q12, ExamI Q15
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "Ig alpha" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-172A03F46016A8
+
+## label
+B-lymphocyte maturation happens in bone marrow, produces IgM/IgD-bearing cells, and involves negative selection without ensuring self-MHC restriction
+
+## canonical_key
+bcell.maturation.bonemarrow-negativeselection-process
+
+## aliases
+B lymphocyte maturation process
+B cell negative selection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+B-lymphocyte maturation happens in the bone marrow, produces cells bearing IgD and IgM as their B-cell receptors, and involves negative selection (deletion of strongly self-reactive clones) — but, unlike T-cell education in the thymus, it does not ensure self-MHC restriction, since B cells recognise native antigen directly rather than peptide presented in an MHC groove.
+
+## explicit_objective
+State that B-cell maturation occurs in the bone marrow, yields IgM/IgD dual-receptor-bearing cells, and involves negative selection, while not ensuring self-MHC restriction (a T-cell, not a B-cell, feature).
+
+## pitfalls
+Assuming B-cell maturation ensures self-MHC restriction the way thymic T-cell education does; B cells recognise antigen directly via their surface immunoglobulin receptor and do not require MHC restriction to function.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-BCELL-MATURATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Concerning maturation of B lymphocytes :
+a) Does not ensure Self MHC restriction
+b) Happens in Bone marrow
+c) Produces cells with IgD and IgM as B cells receptors
+d) involves -ve selection
+e) all of the above
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q13
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "negative selection" returned no same-grain live/pending concept; kept distinct from bcellreceptor.naive.igm-igd-coexpression, which tests only the narrower receptor-identity fact rather than the whole maturation process (site, selection, MHC-restriction status).
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-3A202201DD3303
+
+## label
+The B-cell receptor, unlike the T-cell receptor, can recognise carbohydrate (CHO) antigen directly
+
+## canonical_key
+bcellreceptor.vs.tcellreceptor-cho-antigen-recognition
+
+## aliases
+BCR vs TCR antigen recognition
+BCR carbohydrate antigen recognition
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Compared with the T-cell receptor, the B-cell receptor can recognise carbohydrate (CHO) antigen directly in its native form, whereas the TCR requires antigen to be processed into peptide and presented in an MHC groove — the BCR does not share the TCR's molecular structure, does need its own signal-transducing molecules (Ig-alpha/Ig-beta), and is not itself non-specific.
+
+## explicit_objective
+State that the B-cell receptor, unlike the T-cell receptor, can recognise native carbohydrate antigen directly without processing or MHC presentation.
+
+## pitfalls
+Assuming the BCR and TCR share the same molecular structure or that the BCR needs no signal-transduction molecule; the BCR is a membrane immunoglobulin paired with Ig-alpha/Ig-beta, structurally distinct from the TCR-CD3 complex, and it is not non-specific — like the TCR, it is highly antigen-specific, differing chiefly in what form of antigen (native vs processed peptide) it can engage.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-BCR-VS-TCR-CHO-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+BCR in comparasion with TCR ?
+a) can recognize CHO Ag
+b) Has same molecular structure
+c) no need for signal transducer molecule
+d) non specefic
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q14
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "BCR TCR" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-4D425614619A4B
+
+## label
+Thymus-dependent antigens, unlike thymus-independent antigens, receive the CD40-CD40L class-switch signal and generate memory
+
+## canonical_key
+antigen.thymusdependent.classswitch-memory-features
+
+## aliases
+Thymus-dependent vs thymus-independent antigen features
+T-dependent antigen response features
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Compared with a thymus-independent antigen, a thymus-dependent antigen's response involves cognate T-cell help, so it receives the class-switch signal through CD40-CD40L interaction and generates memory B cells and multiple antibody isotypes — it is not restricted to producing a single isotype, does not itself lack memory, and is not defined as carbohydrate (CHO) in nature (that framing describes typical thymus-independent antigens instead). This same thymus-dependent response is also processed by macrophages, does induce isotype switching, does generate memory cells, and activates B cells together with T-helper cells rather than B cells alone.
+
+## explicit_objective
+State that thymus-dependent antigen responses receive the CD40-CD40L class-switch signal, generate memory B cells and multiple isotypes via T-cell help, in contrast with the single-isotype, memory-free thymus-independent pathway.
+
+## pitfalls
+Reversing which pathway needs T-cell help; the thymus-independent route produces plasma cells only with a single isotype and no memory, while the thymus-dependent route (needing CD40-CD40L engagement) is the one with isotype switching and memory formation — and assuming thymus-dependent antigen is not processed by a macrophage, when antigen processing and presentation is exactly what licenses the T-cell help this pathway depends on.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-THYMUS-DEPENDENT-FEATURES-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Thymus dependant Ag in comparasion with thymus independant Ag :
+a) No memory
+b) Produce only one isotype of ABs
+c) Recives class switch signal via CD40-CD40L interaction
+d) CHO in nature.
+(same fact, also tested here:)
+Which one of the following is TRUE regarding the immune response to T dependent antigens?
+a) Antigen is not processed by macrophage
+b) No memory cell development
+c) Induction of Isotype switching
+d) Activation of B cells only
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q15, Extra Q8
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs search for "thymus dependent antigen" returned no same-grain live/pending concept; related but distinct from antibody.classswitch.cd40-cd40l-signal, which tests the CD40-CD40L molecular trigger itself rather than the broader thymus-dependent-vs-independent response comparison.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-35B6DD783329A5
+
+## label
+A six-month-old breastfed baby carries maternal IgG (transplacental) and IgA (from breast milk)
+
+## canonical_key
+antibody.neonatalpassive.igg-transplacental-iga-milk
+
+## aliases
+Neonatal passive antibody transfer
+Transplacental IgG and breast-milk IgA
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+A six-month-old breastfed baby is expected to carry maternal IgG transferred across the placenta before birth together with IgA acquired from breast milk (including colostrum), rather than IgA alone, IgE alone, or IgM alone — IgG is the only isotype that crosses the placenta, and milk-derived IgA supplies ongoing mucosal passive immunity after birth.
+
+## explicit_objective
+State that a breastfed infant carries both maternally transferred IgG (transplacental) and milk-derived IgA, not a single isotype alone.
+
+## pitfalls
+Selecting a single isotype alone (IgA only, IgE only or IgM only); IgG's unique ability to cross the placenta plus IgA's presence in breast milk together explain a breastfed infant's passively acquired antibody repertoire.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_concept_ids
+CON-GYN-B5C12E798C9C48
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-NEONATAL-PASSIVE-ANTIBODY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+What Abs are expected to be present in the body of A 6 month old breastfed baby
+a) IgG & IgA
+b) IgA only
+c) IgE only
+d) IgM only
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Humoral Q16
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+CON-GYN-B5C12E798C9C48
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "colostrum" returned live CON-GYN-B5C12E798C9C48 ("Colostrum is first mammary secretion after delivery", claim notes colostrum is IgA-rich) — that concept is specifically about colostrum's own composition, not the broader transplacental-IgG-plus-milk-IgA synthesis this question tests, so kept as a related, not merged, concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+
+# Item
+
+## id
+CON-GYN-B5C12E798C9C48
+
+## label
+Colostrum is first mammary secretion after delivery
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+sparseUpdate: ASU overlay only, added because Ashraf Pt2 Humoral Q17 ("Most abundant Antibody in colostrum is: IgA") tests this exact fact. find-existing.mjs "colostrum" returned this live id, whose own claim already states colostrum is IgA-rich — same objective as our tested fact, so this is a sparse overlay, never a second record. All other fields left untouched.
