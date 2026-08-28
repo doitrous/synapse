@@ -1,0 +1,6134 @@
+{
+ "sourceId": "src_33e91d37f173f0ca3fba",
+ "file": "Year 3/ORL 305/ENT/Questions/MCQs/MCQs - ENT MCQ Question Bank.pdf",
+ "note": "Answer keys recovered by rendering the 'Answer Key' page images (pdftotext extracts none of the four key tables; they are graphics, not text) at pages 20 (Ear), 35 (Nose), 46 (Larynx), 60 (Pharynx) and transcribed by eye. Options parsed from native pdftotext -layout output; a stem or option that runs across a page break may be truncated — flagged items need a second look against the PDF.",
+ "count": 309,
+ "items": [
+  {
+   "section": "Ear",
+   "number": 1,
+   "stem": "A 17-year-old male suffered a blow to the right side of the head by a blunt object. Then he a few drops of blood coming from the right ear with diminution of hearing. On examination, a perforation was seen in his right tympanic membrane) The edges were ragged and irregular, with blood clots around. Management of this case is",
+   "options": {
+    "a": "Nothing per ear (do not enter water in the ear) until spontaneous healing.",
+    "b": "Ear wash to remove any blood clots or debris.",
+    "c": "Hearing Aid fitting.",
+    "d": "Immediate myringoplasty.",
+    "e": "Ear exploration under general anesthesia."
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringoplasty"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 2,
+   "stem": "Traumatic ear drum perforation is",
+   "options": {
+    "a": "Associated with bleeding per ear.",
+    "b": "Usually a central perforation in pars tensa.",
+    "c": "With irregular edges.",
+    "d": "All of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "traumatic ear drum"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 3,
+   "stem": "Treatment of auricular hematoma is",
+   "options": {
+    "a": "Excision",
+    "b": "Cautery",
+    "c": "Tympanoplasty",
+    "d": "Incision and evacuation"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "tympanoplasty",
+    "auricular hematoma"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 4,
+   "stem": "Traumatic perforation of the tympanic membrane is characterized by",
+   "options": {
+    "a": "Irregular edges of the perforation",
+    "b": "Purulent discharge",
+    "c": "Attic perforation",
+    "d": "Congested middle ear mucosa"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "osa"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 5,
+   "stem": "Characteristics of traumatic drum perforation include the followings except:",
+   "options": {
+    "a": "Irregular",
+    "b": "Thin edges, surrounded by clots",
+    "c": "Marginal",
+    "d": "Normal middle ear mucosa"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "osa"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 6,
+   "stem": "A watery ear discharge that increases by straining is:",
+   "options": {
+    "a": "Serous otitis media.",
+    "b": "CSF otorrhea.",
+    "c": "Acute otitis media.",
+    "d": "Malignant otitis externa. 3 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "malignant otitis externa",
+    "acute otitis media"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 7,
+   "stem": "Pulsatile tinnitus in ear is due to:",
+   "options": {
+    "a": "Malignant otitis externa.",
+    "b": "Osteoma.",
+    "c": "Mastoiditis.",
+    "d": "Glomus jugulare tumor"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "glomus",
+    "malignant otitis externa",
+    "mastoiditis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 8,
+   "stem": "The commonest presenting symptom of acoustic neuroma is:",
+   "options": {
+    "a": "Unilateral tinnitus with progressive sensorineural hearing loss",
+    "b": "Vertigo and loss of balance",
+    "c": "Facial and trigeminal paralysis",
+    "d": "Sudden sensorineural hearing loss with tinnitus"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "acoustic neuroma",
+    "sensorineural hearing loss",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 9,
+   "stem": "Investigations in malignant otitis externa includes:",
+   "options": {
+    "a": "CT and MRI petrous.",
+    "b": "Blood sugar and ESR.",
+    "c": "Radioactive isotopes bone scan like technetium and gallium.",
+    "d": "Culture and sensitivity for ear discharge.",
+    "e": "All of the above."
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "malignant otitis externa"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 10,
+   "stem": "A 19 years old male presented to the outpatient clinic complaining of itching in the ear. On examination, the canal was full of white debris with blackish spots. The diagnosis is",
+   "options": {
+    "a": "Malignant otitis externa.",
+    "b": "Otomycosis.",
+    "c": "Acute otitis media.",
+    "d": "Referred pain (otalgia).",
+    "e": "Acute mastoiditis."
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otomycosis",
+    "malignant otitis externa",
+    "acute otitis media",
+    "mastoiditis",
+    "otalgia"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 11,
+   "stem": "In malignant otitis externa:",
+   "options": {
+    "a": "The organism is pseudomonas auruginosa.",
+    "b": "The patient is diabetic with low immunity.",
+    "c": "Pathology is microangiopathy leading to osteomyelitis of skull base.",
+    "d": "Treatment is quinolones.",
+    "e": "All of the above."
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "malignant otitis externa",
+    "osa"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 12,
+   "stem": "Which of the following statements regarding otomycosis is true?",
+   "options": {
+    "a": "Systemic treatment is necessary.",
+    "b": "Treated by local antifungal ear drops.",
+    "c": "Invasive fungal infections are common in immunocompetent patients.",
+    "d": "The most common complaint is severe otalgia. 4 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otomycosis",
+    "otalgia"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 13,
+   "stem": "Otomycosis is another name for:",
+   "options": {
+    "a": "Bacterial otitis externa.",
+    "b": "Viral otitis externa.",
+    "c": "Fungal otitis externa.",
+    "d": "None of the above."
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otomycosis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 14,
+   "stem": "Uncontrolled diabetes in an elderly patient may predispose to:",
+   "options": {
+    "a": "cholesteatoma",
+    "b": "malignant otitis externa",
+    "c": "meniere's disease",
+    "d": "vestibular neuronitis"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "malignant otitis externa",
+    "cholesteatoma",
+    "meniere"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 15,
+   "stem": "Main symptom of otomycosis is",
+   "options": {
+    "a": "Pain.",
+    "b": "Discharge.",
+    "c": "Hearing loss.",
+    "d": "Itching.",
+    "e": "Vertigo."
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otomycosis",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 16,
+   "stem": "The management of malignant otitis externa include:",
+   "options": {
+    "a": "Control of Diabetes.",
+    "b": "Radiotherapy.",
+    "c": "Antibiotics in large doses.",
+    "d": "All of the above.",
+    "e": "A & C."
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "malignant otitis externa"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 17,
+   "stem": "Malignant otitis externa is",
+   "options": {
+    "a": "Malignant tumour of external ear.",
+    "b": "Complication of C.S.O.M.",
+    "c": "Fungal infection.",
+    "d": "Viral disease."
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "malignant otitis externa"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 18,
+   "stem": "Bacterial inflammation of the external auditory canal can produce the following except",
+   "options": {
+    "a": "Furunculosis.",
+    "b": "Diffuse otitis externa.",
+    "c": "Malignant necrotizing otitis externa.",
+    "d": "Otomycosis 5 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otomycosis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 19,
+   "stem": "Treatment of secretory otitis media is",
+   "options": {
+    "a": "Myringoplasty",
+    "b": "Medical treatment in the first 3 months",
+    "c": "Mastoidectomy",
+    "d": "None of the above"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringoplasty",
+    "secretory otitis media"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 20,
+   "stem": "Tubotympanic CSOM might be manifested by",
+   "options": {
+    "a": "Very offensive ear discharge",
+    "b": "High incidence of intracranial complications",
+    "c": "Intermittent profuse odorless mucopurulent ear discharge",
+    "d": "Attic perforation"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "csom"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 21,
+   "stem": "Acute mastoiditis may present by:",
+   "options": {
+    "a": "Sagging of the posterosuperior meatal wall",
+    "b": "Exostosis of the external auditory canal",
+    "c": "Fungal debris in the mastoid",
+    "d": "Granulations on the floor of external auditory meatus"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "exostosis",
+    "mastoiditis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 22,
+   "stem": "Tachyspanic CSOM might be manifested by:",
+   "options": {
+    "a": "Very offensive ear discharge",
+    "b": "High incidence of intracranial complications",
+    "c": "Intermittent profuse odorless mucopurulent ear discharge",
+    "d": "Attic perforation"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "csom"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 23,
+   "stem": "An intracranial complication of chronic suppurative otitis media is:",
+   "options": {
+    "a": "Petrositis",
+    "b": "Extradural abscess",
+    "c": "Mastoiditis",
+    "d": "Labyrinthin fistula"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "chronic suppurative otitis media",
+    "mastoiditis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 24,
+   "stem": "A 6 year old boy was brought by his parents for progressive right ear pain of two days duration. This is associated with fever and runny nose) On examination the external canal was healthy, however the right tympanic membrane was obviously reddish. Management of this condition may include all the following EXCEPT:",
+   "options": {
+    "a": "Systemic antibiotics",
+    "b": "Local and systemic pain control",
+    "c": "Cold fomentations and antipyretics",
+    "d": "MRI scan petrous bones to stand on the extent of the disease",
+    "e": "Myringotomy if not responsive to medical treatment 6 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringotomy"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 25,
+   "stem": "In unsafe CSOM (with cholesteatoma) treatment of choice is:",
+   "options": {
+    "a": "Simple mastoidectomy",
+    "b": "Myringotomy with ventilation tube",
+    "c": "Radical mastoidectomy",
+    "d": "Tympanoplasty"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringotomy",
+    "tympanoplasty",
+    "csom",
+    "cholesteatoma"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 26,
+   "stem": "Acute mastoiditis may present by any of the following EXCEPT:",
+   "options": {
+    "a": "Sagging of the posterosuperior meatal wall",
+    "b": "Reservoir sign",
+    "c": "Ear drum perforation",
+    "d": "Granulations on the floor of external auditory meatus"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "mastoiditis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 27,
+   "stem": "Cholesteatoma is characterized by:",
+   "options": {
+    "a": "Scanty offensive ear discharge",
+    "b": "Marginal tympanic membrane perforation",
+    "c": "Possibility of intracranial complications",
+    "d": "Erosion of the ossicles to cause conductive deafness",
+    "e": "All of the above"
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "cholesteatoma",
+    "deafness",
+    "tympanic membrane perforation"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 28,
+   "stem": "Otitis media may be complicated by all of the following except:",
+   "options": {
+    "a": "Brain abscess",
+    "b": "Lateral sinus thrombosis",
+    "c": "Mastoid abscess",
+    "d": "Parapharyngeal abscess"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "parapharyngeal abscess"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 29,
+   "stem": "Radical mastoidectomy is indicated in:",
+   "options": {
+    "a": "Cholesteatoma",
+    "b": "Otosclerosis",
+    "c": "Secretory otitis media",
+    "d": "Traumatic drum perforation",
+    "e": "Tympanosclerosis"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "secretory otitis media",
+    "cholesteatoma",
+    "otosclerosis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 30,
+   "stem": "Cholesteatoma is characterized by:",
+   "options": {
+    "a": "Scanty offensive ear discharge",
+    "b": "Marginal tympanic membrane perforation",
+    "c": "Possibility of intracranial complications",
+    "d": "Erosion of the ossicles to cause conductive deafness",
+    "e": "All of the above 7 ENT 2026"
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "cholesteatoma",
+    "deafness",
+    "tympanic membrane perforation"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 31,
+   "stem": "The most common cause of diminution of hearing in a 5-year old child is:",
+   "options": {
+    "a": "Bilateral middle ear effusion",
+    "b": "Congenital deaf mutism",
+    "c": "Tympanosclerosis with ossicular fixation",
+    "d": "Frequent exposure to loud sound",
+    "e": "Traumatic rupture of the tympanic membrane"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 32,
+   "stem": "A 35-year-old male presented by right ear discharge since five years. The discharge is intermittent and profuse in nature) On examination the right external canal was seen full of muco-purulent discharge) Suction revealed a central kidney-shaped perforation in the ear drum. If this condition is left untreated, the most probable consequence will be",
+   "options": {
+    "a": "Repeated attacks of muco-purulent discharge",
+    "b": "Progressive hearing loss up to complete deafness",
+    "c": "Right sided facial paralysis",
+    "d": "Spread of the infection to the intracranial cavity",
+    "e": "Septicemia secondary to a septic focus in the ear"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "deafness"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 33,
+   "stem": "Otitis media with effusion in children should be initially treated by:",
+   "options": {
+    "a": "Medical treatment in the form of systemic steroids for several weeks",
+    "b": "Medical treatment in the form of systemic steroids only for 48 hours",
+    "c": "Adenoidectomy and myringotomy",
+    "d": "Adenoidectomy and placement of ventilation tubes",
+    "e": "Long term penicillin till the age of 15 years"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringotomy",
+    "otitis media with effusion",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 34,
+   "stem": "The following is a cranial complication of CSOM except:",
+   "options": {
+    "a": "Labyrinthitis",
+    "b": "Petrositis",
+    "c": "Mastoiditis",
+    "d": "Subdural abscess"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "csom",
+    "mastoiditis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 35,
+   "stem": "The primary goal of surgery for cholesteatoma is:",
+   "options": {
+    "a": "Hearing improvement",
+    "b": "Reconstruction of the ossicular chain",
+    "c": "Removal of all the disease",
+    "d": "Reconstruction of the tympanic membrane 8 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "cholesteatoma"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 36,
+   "stem": "Most common cause of bilateral conductive deafness in a child is:",
+   "options": {
+    "a": "Otosclerosis",
+    "b": "Secretory otitis media",
+    "c": "Congenital cholesteatoma",
+    "d": "Adhesive otitis media"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "secretory otitis media",
+    "cholesteatoma",
+    "otosclerosis",
+    "deafness"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 37,
+   "stem": "Cholesteatoma is characterized by:",
+   "options": {
+    "a": "Continuous mucopurulent ear discharge",
+    "b": "Foul smelling ear discharge",
+    "c": "A central tympanic membrane perforation",
+    "d": "None of the above"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "cholesteatoma",
+    "tympanic membrane perforation"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 38,
+   "stem": "A child with retracted drum and conductive deafness after inadequate treatment of acute suppurative otitis media is suffering from:",
+   "options": {
+    "a": "Chronic tubotympanic otitis media",
+    "b": "Chronic atticoantral otitis media",
+    "c": "Otitis media with effusion",
+    "d": "None of the above"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otitis media with effusion",
+    "deafness"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 39,
+   "stem": "All of the following may be seen in the tubotympanic type of chronic suppurative otitis media EXCEPT:",
+   "options": {
+    "a": "Mucopurulent otorrhoea",
+    "b": "Central tympanic membrane perforation",
+    "c": "Marginal tympanic membrane perforation",
+    "d": "Profuse otorrhoea"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "chronic suppurative otitis media",
+    "otorrhoea",
+    "tympanic membrane perforation"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 40,
+   "stem": "Secretory otitis media is characterized by:",
+   "options": {
+    "a": "More common in middle age males",
+    "b": "Type A curve on tympanogram",
+    "c": "It is predisposed to by enlarged adenoids",
+    "d": "It is treated by myringoplasty"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringoplasty",
+    "secretory otitis media",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 41,
+   "stem": "Recurrent attacks of vertigo, sensorineural hearing loss and tinnitus is typically characteristic of:",
+   "options": {
+    "a": "Vestibular neuronitis",
+    "b": "Acoustic neuroma",
+    "c": "Meniere's disease",
+    "d": "Congenital cholesteatoma 9 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "acoustic neuroma",
+    "cholesteatoma",
+    "meniere",
+    "sensorineural hearing loss",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 42,
+   "stem": "Signs of increased intracranial tension include all EXCEPT",
+   "options": {
+    "a": "Headache",
+    "b": "Neck stiffness",
+    "c": "Vomiting",
+    "d": "Blurring of vision"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "headache"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 43,
+   "stem": "A cranial complication of suppurative otitis media is:",
+   "options": {
+    "a": "Sphenoiditis",
+    "b": "Petrositis",
+    "c": "Encephalitis",
+    "d": "Extradural abscess"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 44,
+   "stem": "The most common route for infection to reach the middle ear is through",
+   "options": {
+    "a": "Traumatic perforation of the tympanic membrane",
+    "b": "The Eustachian tube",
+    "c": "Blood stream",
+    "d": "Retrograde infection from meningitis"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "meningitis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 45,
+   "stem": "Mastoid abscess is treated by:",
+   "options": {
+    "a": "Simple incision",
+    "b": "Cortical mastoidectomy",
+    "c": "Radical mastoidectomy",
+    "d": "Tympanoplasty"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "tympanoplasty"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 46,
+   "stem": "All are symptoms of chronic suppurative otitis media EXCEPT:",
+   "options": {
+    "a": "Discharge",
+    "b": "Pain",
+    "c": "Deafness",
+    "d": "Tinnitus"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "chronic suppurative otitis media",
+    "deafness"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 47,
+   "stem": "Vertigo with sensorineural hearing loss occurs in:",
+   "options": {
+    "a": "Labyrinthitis",
+    "b": "Vestibular neuritis",
+    "c": "Cerebellar lesions",
+    "d": "Benign positional paroxysmal vertigo"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "vestibular neuritis",
+    "sensorineural hearing loss",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 48,
+   "stem": "Cranial complication of otitis media include",
+   "options": {
+    "a": "External otitis",
+    "b": "Petrositis",
+    "c": "Brain abscess",
+    "d": "Lateral sinus thrombosis 10 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 49,
+   "stem": "Triad of ear discharge, diplopia and facial pain are symptoms of:",
+   "options": {
+    "a": "Acute mastoiditis",
+    "b": "Petrositis",
+    "c": "Cerebellar abscess",
+    "d": "Bezold's abscess"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "mastoiditis",
+    "facial pain"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 50,
+   "stem": "Intermittent fever is seen in:",
+   "options": {
+    "a": "Otic brain abscess",
+    "b": "Extradural abscess",
+    "c": "Bezold's abscess",
+    "d": "Lateral sinus thrombophlebitis"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 51,
+   "stem": "The predisposing factors of acute otitis media in infants include all the following EXCEPT:",
+   "options": {
+    "a": "Adenoiditis, tonsillitis and exanthematas are frequent in children",
+    "b": "During teething with its associated rhinitis, gastroenteritis and artificial feeding",
+    "c": "The longer, narrower and vertical Eustachian tube predisposes to infection",
+    "d": "The contaminated milk may enter the Eustachian tube as a result of feeding in supine position"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "acute otitis media",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 52,
+   "stem": "The cranial complications of chronic suppurative otitis media include all of the following EXCEPT",
+   "options": {
+    "a": "Petrositis",
+    "b": "Brain abscess",
+    "c": "Labyrinthitis",
+    "d": "Mastoiditis",
+    "e": "Facial nerve paralysis"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "chronic suppurative otitis media",
+    "mastoiditis",
+    "facial nerve"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 53,
+   "stem": "Which statement about cholesteatoma is NOT true:",
+   "options": {
+    "a": "Often treated with mastoid surgery",
+    "b": "Can produce life threatening illness",
+    "c": "It can be treated with ear tube placement",
+    "d": "It can cause facial paralysis and hearing loss",
+    "e": "Causes marginal perforation 11 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "cholesteatoma"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 54,
+   "stem": "Triad of ear discharge, diplopia and facial pain occurs in one of the following conditions:",
+   "options": {
+    "a": "Acute mastoiditis",
+    "b": "Petrositis",
+    "c": "Cerebellar abscess",
+    "d": "Labyrinthitis"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "mastoiditis",
+    "facial pain"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 55,
+   "stem": "Cholesteatoma is:",
+   "options": {
+    "a": "Tumor of the middle ear",
+    "b": "An infected keratin-containing sac of the middle ear",
+    "c": "A bony lesion that invaded the middle ear",
+    "d": "All of the above",
+    "e": "None of the above"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "cholesteatoma"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 56,
+   "stem": "Bell's palsy:",
+   "options": {
+    "a": "Is an upper motor neuron palsy",
+    "b": "Is a very rare cause of facial paralysis",
+    "c": "Recovery is usual and spontaneous but may be incomplete",
+    "d": "Is associated with hemiplegia"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "bell's palsy"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 57,
+   "stem": "Commonest cause of facial paralysis is:",
+   "options": {
+    "a": "Bell's palsy",
+    "b": "Mastoid surgery",
+    "c": "Guillian Barre syndrome",
+    "d": "Trauma to facial nerve"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "facial nerve",
+    "bell's palsy"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 58,
+   "stem": "Which one of the following statements truly represents Bell's palsy:",
+   "options": {
+    "a": "Hemiparesis and contralateral facial nerve paralysis",
+    "b": "Combined paralysis of the facial, abducent and trigeminal nerves",
+    "c": "Bilateral facial palsy due to congenital anomaly of the facial nerve",
+    "d": "Idiopathic paralysis of the facial nerve that recovers completely in most cases",
+    "e": "Facial nerve paralysis following ear surgery"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "facial nerve",
+    "bell's palsy",
+    "facial palsy"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 59,
+   "stem": "The following fibers are present in the facial nerve EXCEPT:",
+   "options": {
+    "a": "Secretomotor fibers to the lacrimal gland through the GSPN",
+    "b": "Secretomotor fibers to the submandibular gland through the chorda tympani",
+    "c": "Taste sensation fibers to the anterior third of the tongue through the chorda tympani",
+    "d": "Motor fibers to the stapedius muscle",
+    "e": "Motor fibers to the tensor tympani muscle 12 ENT 2026"
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "facial nerve"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 60,
+   "stem": "The first line of treatment in a child who develops lower motor neuron facial paralysis after acute otitis media is:",
+   "options": {
+    "a": "Antibiotics and corticosteroids",
+    "b": "Decompression of facial nerve",
+    "c": "Exploration of facial nerve",
+    "d": "Myringotomy"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringotomy",
+    "acute otitis media",
+    "facial nerve"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 61,
+   "stem": "Lower motor neuron facial paralysis is characterized by:",
+   "options": {
+    "a": "Hyper reflexia",
+    "b": "Preserved emotional movements",
+    "c": "Muscle wasting",
+    "d": "Preserved eye closure"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 62,
+   "stem": "Not supplied by the facial nerve:",
+   "options": {
+    "a": "Stapedius muscle",
+    "b": "Buccinator muscle",
+    "c": "Levator palpebrae superioris muscle",
+    "d": "Posterior belly of the digastric muscle"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "facial nerve"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 63,
+   "stem": "In upper motor neurone facial paralysis:",
+   "options": {
+    "a": "All muscles of the face are affected",
+    "b": "Hypertonia of the muscles is present",
+    "c": "Lost expressions",
+    "d": "Muscles are wasted"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 64,
+   "stem": "All are branches of the facial nerve EXCEPT:",
+   "options": {
+    "a": "Chorda tympani",
+    "b": "Greater auricular nerve",
+    "c": "Nerve to stapedius muscle",
+    "d": "Greater superficial petrosal nerve"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "facial nerve",
+    "osa"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 65,
+   "stem": "Lower motor neurone facial paralysis affects:",
+   "options": {
+    "a": "The upper part of the face",
+    "b": "The lower part of the face",
+    "c": "The whole side of the face",
+    "d": "Muscles of the tongue"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 66,
+   "stem": "The most common cause for LMN facial paralysis is:",
+   "options": {
+    "a": "Parotid surgery",
+    "b": "Bell's palsy",
+    "c": "Trauma",
+    "d": "As a complication of otitis media 13 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "bell's palsy",
+    "parotid"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 67,
+   "stem": "Treatment of otosclerosis is:",
+   "options": {
+    "a": "Radical mastoidectomy",
+    "b": "Myringoplasty",
+    "c": "Myringotomy and ventilation tubes insertion",
+    "d": "Cortical mastoidectomy",
+    "e": "Stapedectomy and synthetic piston insertion"
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringotomy",
+    "myringoplasty",
+    "otosclerosis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 68,
+   "stem": "The following are true in otosclerosis except:",
+   "options": {
+    "a": "The condition is hereditary and more common in females",
+    "b": "Conductive deafness is due to fixation of stapes footplate",
+    "c": "The stapes is the only ossicle that is involved",
+    "d": "Sensorineural hearing loss never occur in this disease",
+    "e": "Stapedectomy is a good treatment option"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otosclerosis",
+    "sensorineural hearing loss",
+    "deafness"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 69,
+   "stem": "A 30-year-old female presented by bilateral gradual hearing loss, more in the right ear. Her older sister had the same problem. On examination, a healthy intact tympanic membrane was seen. Rinne test was negative on the right and positive on the left. Weber test was lateralized to the right. The most probable diagnosis is:",
+   "options": {
+    "a": "Otosclerosis",
+    "b": "Ototoxicity",
+    "c": "Presbyacusis",
+    "d": "Early middle ear fusion",
+    "e": "Glomus tympanicum"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "glomus",
+    "otosclerosis",
+    "rinne",
+    "weber"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 70,
+   "stem": "In otosclerosis, the following is correct except:",
+   "options": {
+    "a": "Usually affects both ears",
+    "b": "Shows more progress during pregnancy",
+    "c": "Shows type As curve on tympanometry",
+    "d": "Tympanoplasty in the operation of choice",
+    "e": "Family history is commonly positive"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "tympanoplasty",
+    "otosclerosis",
+    "tympanometry"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 71,
+   "stem": "In Otosclerosis, the following is true except:",
+   "options": {
+    "a": "Bilateral ear affection",
+    "b": "Fixation of stapes footplate",
+    "c": "Commonly causes conductive hearing loss",
+    "d": "Retracted congested ear drum",
+    "e": "More in females 14 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otosclerosis",
+    "conductive hearing loss"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 72,
+   "stem": "Otosclerosis is characterized by the following except:",
+   "options": {
+    "a": "Conductive Deafness",
+    "b": "Commonly occurs in adolescents",
+    "c": "Eustachian Tube dysfunction",
+    "d": "Treatment is by stapedectomy or hearing aid"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otosclerosis",
+    "deafness"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 73,
+   "stem": "One of the clinical features of Meniere's disease is:",
+   "options": {
+    "a": "Ear discharge",
+    "b": "Vertigo",
+    "c": "Facial paralysis",
+    "d": "Loss of consciousness"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "meniere",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 74,
+   "stem": "All of the following are characteristic clinical features of Meniere's disease EXCEPT:",
+   "options": {
+    "a": "Fluctuating deafness",
+    "b": "Vertigo",
+    "c": "Tinnitus",
+    "d": "Loss of consciousness",
+    "e": "Vomiting"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "meniere",
+    "deafness",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 75,
+   "stem": "Endolymphatic hydrops is found in:",
+   "options": {
+    "a": "Otosclerosis",
+    "b": "CSOM",
+    "c": "Wax impaction",
+    "d": "Ménière's disease"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "csom",
+    "otosclerosis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 76,
+   "stem": "Meniere's disease is characterized by:",
+   "options": {
+    "a": "Attacks of vertigo, tinnitus and conductive hearing loss",
+    "b": "Diuretics are part of the medications prescribed for its management",
+    "c": "Tympanogram shows type B curve",
+    "d": "The condition is strictly unilateral"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "meniere",
+    "conductive hearing loss",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 77,
+   "stem": "Recurrent attacks of vertigo, sensori-neural hearing loss and tinnitus is typically characteristic of:",
+   "options": {
+    "a": "Vestibular neuronitis",
+    "b": "Acoustic neuroma",
+    "c": "Meniere's disease",
+    "d": "Congenital cholesteatoma 15 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "acoustic neuroma",
+    "cholesteatoma",
+    "meniere",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 78,
+   "stem": "Vertigo without deafness occurs in:",
+   "options": {
+    "a": "Labyrinthitis",
+    "b": "Vestibular neuritis",
+    "c": "Otosclerosis",
+    "d": "Meniere's disease"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otosclerosis",
+    "vestibular neuritis",
+    "meniere",
+    "deafness",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 79,
+   "stem": "Meniere's disease is characterized by:",
+   "options": {
+    "a": "Conductive deafness, otorrhea and vertigo",
+    "b": "Sensorineural deafness, pain in the ear and tinnitus",
+    "c": "Sensorineural deafness, tinnitus and vertigo",
+    "d": "Conductive deafness, facial paralysis and vertigo"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "meniere",
+    "deafness",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 80,
+   "stem": "The following are symptoms of Meniere's disease except:",
+   "options": {
+    "a": "Fainting attack",
+    "b": "Acute recurrent attacks of vertigo",
+    "c": "Sensorineural hearing loss",
+    "d": "Tinnitus"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "meniere",
+    "sensorineural hearing loss",
+    "vertigo"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 81,
+   "stem": "One of the complications of ear wash is:",
+   "options": {
+    "a": "Meningitis",
+    "b": "Bezold abscess",
+    "c": "Ear drum perforation",
+    "d": "Otosclerosis"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otosclerosis",
+    "meningitis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 82,
+   "stem": "Indications of ear wash include:",
+   "options": {
+    "a": "Wax in the ear",
+    "b": "Glomus jugular tumor",
+    "c": "Traumatic ear drum perforation",
+    "d": "Vegetable FB in the ear canal"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "glomus",
+    "traumatic ear drum"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 83,
+   "stem": "After an ear wash was done for the 33 years old male patient, he suffered sudden severe pain, deafness and felt water in his throat. He might have:",
+   "options": {
+    "a": "Otomycosis",
+    "b": "Acute otitis externa",
+    "c": "Ear drum perforation",
+    "d": "Glomus jugulare tumour"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "glomus",
+    "otomycosis",
+    "deafness"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 84,
+   "stem": "Indications for ear wash include all of the following except:",
+   "options": {
+    "a": "Ear wax",
+    "b": "Non impacted foreign body",
+    "c": "Vegetable foreign body",
+    "d": "Fungal mass 16 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "foreign body",
+    "ear wax"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 85,
+   "stem": "The following are indications of ear wash except:",
+   "options": {
+    "a": "Acute otitis media",
+    "b": "Foreign body",
+    "c": "Wax",
+    "d": "Caloric test"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "foreign body",
+    "acute otitis media"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 86,
+   "stem": "In left middle ear effusion, Weber test will be:",
+   "options": {
+    "a": "Centralized",
+    "b": "Lateralized to the right",
+    "c": "Lateralized to left",
+    "d": "Reduced positive"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "weber"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 87,
+   "stem": "In secretory otitis media the Rinne test is:",
+   "options": {
+    "a": "Positive",
+    "b": "Negative",
+    "c": "Centralized",
+    "d": "None of the above"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "secretory otitis media",
+    "rinne"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 88,
+   "stem": "Negative Rinne test is seen in:",
+   "options": {
+    "a": "Otosclerosis",
+    "b": "Chronic suppurative otitis media",
+    "c": "Wax impaction",
+    "d": "Acoustic neuroma"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "acoustic neuroma",
+    "chronic suppurative otitis media",
+    "otosclerosis",
+    "rinne"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 89,
+   "stem": "Watery ear discharge may be due to:",
+   "options": {
+    "a": "Otomycosis",
+    "b": "Bullous myringitis",
+    "c": "Acute otitis media",
+    "d": "Cerebro-spinal otorrhea"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otomycosis",
+    "acute otitis media"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 90,
+   "stem": "Conductive hearing loss is not a feature of:",
+   "options": {
+    "a": "Chronic suppurative otitis media",
+    "b": "Adhesive otitis media",
+    "c": "Serous labyrinthitis",
+    "d": "Traumatic perforation of the ear drum"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "chronic suppurative otitis media",
+    "conductive hearing loss"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 91,
+   "stem": "Referred otalgia occurs in cases of:",
+   "options": {
+    "a": "Traumatic perforation of the tympanic membrane",
+    "b": "Temporo-mandibular arthritis",
+    "c": "Myringitis",
+    "d": "Secretory otitis media 17 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "secretory otitis media",
+    "otalgia"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 92,
+   "stem": "The commonest cause of conductive hearing loss in adults is:",
+   "options": {
+    "a": "Otosclerosis",
+    "b": "Wax accumulation",
+    "c": "Acute otitis media",
+    "d": "Traumatic drum perforation."
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "acute otitis media",
+    "otosclerosis",
+    "conductive hearing loss"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 93,
+   "stem": "Unilateral sensorineural hearing loss can be caused by the following except:",
+   "options": {
+    "a": "Mumps",
+    "b": "Meningitis",
+    "c": "Labyrinthitis",
+    "d": "Aminoglycoside ototoxicity",
+    "e": "Secretory otitis media"
+   },
+   "correct": "e",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "secretory otitis media",
+    "sensorineural hearing loss",
+    "meningitis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 94,
+   "stem": "Causes of Deaf-mutism may be due to the following except:",
+   "options": {
+    "a": "Mumps",
+    "b": "Meningitis",
+    "c": "Secretory otitis media",
+    "d": "Ototoxicity"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "secretory otitis media",
+    "meningitis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 95,
+   "stem": "An adult male with bilateral Rinne positive and Weber lateralized to the left side, he has:",
+   "options": {
+    "a": "Rt. S.N.H.L.",
+    "b": "Rt. C.H.L.",
+    "c": "Lt. S.N.H.L.",
+    "d": "Lt. C.H.L."
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "rinne",
+    "weber"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 96,
+   "stem": "The following are causes of conductive hearing loss except:",
+   "options": {
+    "a": "Otosclerosis",
+    "b": "Acoustic trauma",
+    "c": "Otitis media",
+    "d": "Myringitis"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "acoustic trauma",
+    "otosclerosis",
+    "conductive hearing loss"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 97,
+   "stem": "Conductive hearing loss may be due to except:",
+   "options": {
+    "a": "Mumps",
+    "b": "Otosclerosis",
+    "c": "Otitic barotrauma",
+    "d": "Meatal atresia 18 ENT 2026"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "otitic barotrauma",
+    "otosclerosis",
+    "conductive hearing loss"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 98,
+   "stem": "Myringoplasty means repair of:",
+   "options": {
+    "a": "External ear",
+    "b": "Inner ear",
+    "c": "Eustachian tube",
+    "d": "Tympanic membrane"
+   },
+   "correct": "d",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringoplasty"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 99,
+   "stem": "An indication of myringotomy is:",
+   "options": {
+    "a": "Sensory neural hearing loss",
+    "b": "Large central perforation",
+    "c": "Secretory otitis media",
+    "d": "Otosclerosis"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringotomy",
+    "secretory otitis media",
+    "otosclerosis"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 100,
+   "stem": "Which of the following statements is wrong concerning myringotomy operation:",
+   "options": {
+    "a": "It is indicated in acute suppurative otitis media with bulging drum",
+    "b": "It is indicated in secretory otitis media after failure of medical treatment",
+    "c": "It is better done in the postero-superior quadrant of the tympanic membrane",
+    "d": "Residual perforation of the tympanic membrane is one of its complications"
+   },
+   "correct": "c",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "myringotomy",
+    "secretory otitis media"
+   ]
+  },
+  {
+   "section": "Ear",
+   "number": 101,
+   "stem": "By radical mastoidectomy operation we mean:",
+   "options": {
+    "a": "Removal of mastoid air cells and all middle ear contents except the stapes",
+    "b": "Removal of diseased mastoid air cells",
+    "c": "Removal of mastoid air cells and all middle ear contents with preservation of healthy remnants of tympanic membrane and ossicles",
+    "d": "None of the above"
+   },
+   "correct": "a",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": []
+  },
+  {
+   "section": "Ear",
+   "number": 102,
+   "stem": "Acute mastoiditis is treated by:",
+   "options": {
+    "a": "Radical mastoidectomy",
+    "b": "Cortical mastoidectomy",
+    "c": "Tympanoplasty",
+    "d": "Stapedectomy 19"
+   },
+   "correct": "b",
+   "pageRange": [
+    3,
+    19
+   ],
+   "tags": [
+    "tympanoplasty",
+    "mastoiditis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 1,
+   "stem": "\"Little's Area\" is a known spot on the nasal septum vulnerable to bleeding. This is because it is formed of an anastomotic network of branches of the following blood vessels EXCEPT:",
+   "options": {
+    "a": "Superior Labial artery",
+    "b": "Greater Palatine artery",
+    "c": "Nasolabial artery",
+    "d": "Sphenopalatine artery",
+    "e": "Anterior Ethmoidal artery"
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "little's area",
+    "nasal septum"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 2,
+   "stem": "Does not share in the anastomosis in Little's area:",
+   "options": {
+    "a": "Anterior ethmoidal artery",
+    "b": "Posterior ethmoidal artery",
+    "c": "Superior labial artery",
+    "d": "Greater palatine artery"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "little's area"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 3,
+   "stem": "Furunculosis of the vestibule of the nose is dangerous because infection may spread to:",
+   "options": {
+    "a": "The cavernous sinus",
+    "b": "The ethmoid sinus",
+    "c": "The lateral sinus",
+    "d": "The superior sagittal sinus"
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 4,
+   "stem": "Anterior ethmoidal artery comes from:",
+   "options": {
+    "a": "External carotid",
+    "b": "Internal carotid",
+    "c": "Maxillary",
+    "d": "Facial"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 5,
+   "stem": "Furunculosis of the nose is dangerous because infection may spread to:",
+   "options": {
+    "a": "The nasal cartilage",
+    "b": "The orbit",
+    "c": "The cavernous sinus",
+    "d": "The sphenoid sinus"
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 6,
+   "stem": "Little's area is located on:",
+   "options": {
+    "a": "Inferior turbinate",
+    "b": "Nasal septum",
+    "c": "Middle meatus",
+    "d": "Sphenoethmoidal recess 21 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "little's area",
+    "nasal septum"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 7,
+   "stem": "The Kieselbach's plexus in Little's area is formed by the following except:",
+   "options": {
+    "a": "Labial branch of the facial artery",
+    "b": "Septal branch of sphenopalatine artery",
+    "c": "Pharyngeal artery",
+    "d": "Anterior ethmoidal artery",
+    "e": "Greater palatine artery"
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "little's area"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 8,
+   "stem": "Bilateral choanal atresia in a neonate is best first treated by:",
+   "options": {
+    "a": "transnasal puncture",
+    "b": "inserting an oral airway",
+    "c": "transpalatal repair",
+    "d": "transonasal by endoscope"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "choanal atresia"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 9,
+   "stem": "Reduction of nasal bone fracture associated with edema should be done:",
+   "options": {
+    "a": "Immediately.",
+    "b": "After one hour.",
+    "c": "After one week so the edema will subside.",
+    "d": "Should not be done."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal bone"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 10,
+   "stem": "A 4 year old child presented with unilateral nasal offensive purulent discharge) The diagnosis is:",
+   "options": {
+    "a": "CSF rhinorrhea.",
+    "b": "Antrochoanal polyp.",
+    "c": "Foreign body in the nose.",
+    "d": "Allergic rhinitis."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "foreign body",
+    "allergic rhinitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 11,
+   "stem": "A 20 year old female presented with right unilateral watery nasal discharge) This condition exaggerated on leaning forward. Management of her condition include all of the following EXC:",
+   "options": {
+    "a": "Biochemical analysis of the discharge.",
+    "b": "MRI scan of the nose and paranasal sinuses.",
+    "c": "CT with intrathecal metrizamide.",
+    "d": "Nasal vaso constrictive drops.",
+    "e": "Systemic Antibiotics."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 12,
+   "stem": "In CSF rhinorrhea, the most important investigation is:",
+   "options": {
+    "a": "Angiography and embolization.",
+    "b": "Xray paranasal sinus.",
+    "c": "CT with intrathecal metrizamide: to detect the site of leakage.",
+    "d": "Ultrasonography 22 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 13,
+   "stem": "Following extraction of an upper left molar tooth the patient had an offensive left nasal discharge and left nasal regurge of food and fluid, the diagnosis is:",
+   "options": {
+    "a": "Oroantral fistula.",
+    "b": "Malignant nasal tumor.",
+    "c": "Inverted papilloma.",
+    "d": "Fungal sinusitis."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "papilloma",
+    "inverted papilloma",
+    "fungal sinusitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 14,
+   "stem": "A 28 year old male presented to the Emergency Room 30 minutes after sustaining a blow to his face) Bleeding was noted from the nose) His nose was found to be deviated to the left side) There were no obvious facial edema or ecchymosis. X ray showed fractured nasal bone) Reduction of this fracture should be performed:",
+   "options": {
+    "a": "Within a week.",
+    "b": "After 3 weeks.",
+    "c": "After 3 months.",
+    "d": "Should never be performed."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal bone"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 15,
+   "stem": "A 28 year old male presented 30 minutes after sustaining a blow to his face) Bleeding was noted from the nose) His nose was deviated to the left side) There were no obvious facial edema or ecchymosis. X ray showed fractured nasal bone) Reduction of this fracture should be performed:",
+   "options": {
+    "a": "Immediately.",
+    "b": "After 24 hours.",
+    "c": "After 48 hours.",
+    "d": "After 1 week.",
+    "e": "After 3 months."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal bone"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 16,
+   "stem": "A 3-year-old boy was brought to you by his parents for right sided offensive nasal discharge of two weeks duration. They tried several courses of antibiotics and anti-allergic medications with no success. The most probable diagnosis is:",
+   "options": {
+    "a": "Unilateral choanal atresia.",
+    "b": "Neglected foreign body.",
+    "c": "Deviated nasal septum.",
+    "d": "Rhinoscleroma.",
+    "e": "Angiofibroma. 23 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "foreign body",
+    "nasal septum",
+    "choanal atresia",
+    "rhinoscleroma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 17,
+   "stem": "Unilateral offensive blood tinged purulent rhinorrhea in a 3 years old is more likely due to:",
+   "options": {
+    "a": "rhinosceleroma.",
+    "b": "lupus.",
+    "c": "Foreign body.",
+    "d": "atrophic rhinitis."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "foreign body",
+    "atrophic rhinitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 18,
+   "stem": "All the following is true about cerebrospinal fluid rhinorrhea EXCEPT:",
+   "options": {
+    "a": "clear fluid drips from the nose.",
+    "b": "initial treatment is to pack the nose.",
+    "c": "fluid contains glucose.",
+    "d": "fluid has a salty taste."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 19,
+   "stem": "The most common cause of oroantral fistula is:",
+   "options": {
+    "a": "acute sinusitis.",
+    "b": "car accident.",
+    "c": "dental extraction of upper second premolar tooth.",
+    "d": "radical antrum operation."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "acute sinusitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 20,
+   "stem": "Unilateral clear watery nasal discharge reducing filing's solution is suggestive of:",
+   "options": {
+    "a": "CSF rhinorrhea.",
+    "b": "allergic rhinitis.",
+    "c": "viral rhinitis.",
+    "d": "nasal diphtheria."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "allergic rhinitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 21,
+   "stem": "Oroantral fistula commonly follows extraction of:",
+   "options": {
+    "a": "The upper first premolar.",
+    "b": "The upper canine.",
+    "c": "The upper first molar.",
+    "d": "The upper wisdom tooth."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 22,
+   "stem": "Cerebrospinal rhinorrhoea is:",
+   "options": {
+    "a": "Unilateral.",
+    "b": "Sweet in taste.",
+    "c": "Bilateral.",
+    "d": "Yellowish in colour. 24 ENT 2026"
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 23,
+   "stem": "A young adult male is in a motor vehicle accident and has sustained facial trauma) He still has copious clear watery discharge from his nose 24 hours later. The next step is:",
+   "options": {
+    "a": "Blowing the nose to clean the nasal cavity.",
+    "b": "Bilateral nasal packing.",
+    "c": "Bed rest and placing him on prophylactic antibiotics.",
+    "d": "Putting his head down."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 24,
+   "stem": "The following are criteria of CSF rhinorrhea except:",
+   "options": {
+    "a": "Watery nasal discharge.",
+    "b": "Increased on bending forward.",
+    "c": "Commonly Bilateral discharge.",
+    "d": "The fluid is rich in glucose."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 25,
+   "stem": "In inverted papilloma:",
+   "options": {
+    "a": "Recurrence is common.",
+    "b": "There is an incidence of malignant transformation.",
+    "c": "The treatment is wide local surgical excision.",
+    "d": "All of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "papilloma",
+    "inverted papilloma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 26,
+   "stem": "\"Inverted Papilloma\" of the nose:",
+   "options": {
+    "a": "Is a malignant tumor.",
+    "b": "Arises from the nasal septum in most cases.",
+    "c": "Is best diagnosed by Carotid Angiography.",
+    "d": "Should be treated by \"wide surgical resection\" to avoid recurrence.",
+    "e": "Surgery should be followed by \"radiation therapy\" to avoid recurrence."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal septum",
+    "papilloma",
+    "inverted papilloma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 27,
+   "stem": "Furuncle of the nasal vestibule should not be squeezed to avoid spread of infection to:",
+   "options": {
+    "a": "The orbit.",
+    "b": "The cavernous sinus.",
+    "c": "The sigmoid sinus.",
+    "d": "None of the above."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 28,
+   "stem": "Atrophic rhinitis is characterized by:",
+   "options": {
+    "a": "Foul smell from the nose.",
+    "b": "Anosmia.",
+    "c": "Crust formation.",
+    "d": "All of the above. 25 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "atrophic rhinitis",
+    "anosmia"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 29,
+   "stem": "In the atrophic stage of rhinoscleroma:",
+   "options": {
+    "a": "The middle and inferior turbinates are markedly swollen.",
+    "b": "Excessive watery nasal discharge is seen.",
+    "c": "The patient has nasal itching and excessive sneezing.",
+    "d": "There are bilateral nasal masses.",
+    "e": "The nose is roomy with considerable crusts."
+   },
+   "correct": "e",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "rhinoscleroma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 30,
+   "stem": "Infections in dangerous area of the face includes:",
+   "options": {
+    "a": "Acute otitis media.",
+    "b": "Infected preauricular cyst.",
+    "c": "Furunculosis of the nasal vestibule.",
+    "d": "Chronic suppurative otitis media."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "acute otitis media",
+    "chronic suppurative otitis media"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 31,
+   "stem": "In the atrophic stage of rhinoscicerma:",
+   "options": {
+    "a": "The middle and inferior turbinates are markedly swollen.",
+    "b": "Excessive watery nasal discharge is seen.",
+    "c": "The patient has nasal itching and excessive sneezing.",
+    "d": "There are bilateral nasal masses.",
+    "e": "The nose is roomy with considerable crusts."
+   },
+   "correct": "e",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 32,
+   "stem": "In atrophic rhinitis:",
+   "options": {
+    "a": "The patient feels his nose is roomy and patent.",
+    "b": "The patient feels bad odour in his nose.",
+    "c": "The patient complains of anosmia.",
+    "d": "The patient suffers from dysphagia."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "atrophic rhinitis",
+    "anosmia",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 33,
+   "stem": "Scleroma can affect the following sites EXCEPT:",
+   "options": {
+    "a": "Larynx.",
+    "b": "Nose.",
+    "c": "Bronchi.",
+    "d": "Lacrimal system."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 34,
+   "stem": "Rhinoscleroma is:",
+   "options": {
+    "a": "Benign tumor.",
+    "b": "Granuloma of the nose.",
+    "c": "Malignant tumour.",
+    "d": "Chronic non specific inflammation 26 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "rhinoscleroma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 35,
+   "stem": "Choose the false statement regarding atrophic rhinitis:",
+   "options": {
+    "a": "The patient suffers from cacosmia.",
+    "b": "The primary endocrinal cause is common in women.",
+    "c": "Nasal granuloma has no role in this disease.",
+    "d": "Local treatment is with glucose 25 per cent in glycerin drops.",
+    "e": "Surgical measures to narrow the nose may be effective."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "atrophic rhinitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 36,
+   "stem": "The pathognomonic cell of rhinoscleroma is:",
+   "options": {
+    "a": "Lymphocyte.",
+    "b": "Plasma cell.",
+    "c": "Miculicz cell.",
+    "d": "Langhan's giant cell."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "rhinoscleroma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 37,
+   "stem": "Scleroma commonly affects the following sites except:",
+   "options": {
+    "a": "Epiglottis.",
+    "b": "Subglottis.",
+    "c": "Nasopharynx.",
+    "d": "Lacrimal sac."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 38,
+   "stem": "The following cells are found in the histopathology of Scleroma EXCEPT:",
+   "options": {
+    "a": "Fibroblasts.",
+    "b": "Mickulicz cells.",
+    "c": "Langhan's giant cells.",
+    "d": "Russel bodies."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 39,
+   "stem": "Infections in the dangerous area of the face include:",
+   "options": {
+    "a": "AOM.",
+    "b": "Infected preauricular cyst.",
+    "c": "Furunculosis of the nasal vestibule.",
+    "d": "CSOM."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "csom"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 40,
+   "stem": "A 10-year-old girl presented to the Emergency Room with swollen left eye lid. Her condition started one week earlier by fever, nasal discharge and facial pain. This progressed to pain around left eye and edema of both eye lids. The most informative investigation in her case is:",
+   "options": {
+    "a": "Culture and Sensitivity of her nasal discharge.",
+    "b": "Measurement of serum IgE levels.",
+    "c": "Complete blood picture.",
+    "d": "CT scan of the nose and paranasal sinuses. 27 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "facial pain"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 41,
+   "stem": "In allergic fungal sinusitis:",
+   "options": {
+    "a": "There is elevated specific IGE.",
+    "b": "CT scan soft tissue shows heterogenous opacity, and sinus expansion.",
+    "c": "Surgery in the form of FESS is the main stay for treatment.",
+    "d": "All of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "fungal sinusitis",
+    "allergic fungal sinusitis",
+    "fess"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 42,
+   "stem": "Invasive fulminant fungal sinusitis:",
+   "options": {
+    "a": "Occurs in immunocompromised individuals.",
+    "b": "Mucor is the causative organism.",
+    "c": "Treated by Amphotericin B.",
+    "d": "All of the above.",
+    "e": "None of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "fungal sinusitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 43,
+   "stem": "The following is a presenting sign of acute sinusitis:",
+   "options": {
+    "a": "Tenderness over the affected sinus.",
+    "b": "Congestion and edema of the nasal mucosa.",
+    "c": "Mucopurulent nasal discharge.",
+    "d": "All of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "acute sinusitis",
+    "osa"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 44,
+   "stem": "Orbital cellulitis most commonly occurs after which sinus infection:",
+   "options": {
+    "a": "Maxillary.",
+    "b": "Frontal.",
+    "c": "Ethmoidal.",
+    "d": "Sphenoidal."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 45,
+   "stem": "A 10-year-old girl presented to the Emergency Room with swollen left eye lid. Her condition started one week earlier by fever, nasal discharge and facial pain. This progressed to pain around the left eye and edema of both eye lids. The most informative investigation in her case is:",
+   "options": {
+    "a": "Measurement of serum IgE levels.",
+    "b": "Complete blood picture.",
+    "c": "Ocular ultrasonography.",
+    "d": "CT scan of the nose and paranasal sinuses."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "facial pain"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 46,
+   "stem": "Orbital complications of sinusitis include all of the following except:",
+   "options": {
+    "a": "Orbital cellulitis.",
+    "b": "Orbital abscess.",
+    "c": "Cavernous sinus thrombosis.",
+    "d": "Lateral sinus thrombosis. 28 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "cavernous sinus thrombosis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 47,
+   "stem": "The most common complication associated with acute ethmoid sinusitis in children is:",
+   "options": {
+    "a": "Orbital cellulitis.",
+    "b": "Osteomyelitis of the frontal bone.",
+    "c": "Subdural abscess.",
+    "d": "Cavernous sinus thrombosis."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "cavernous sinus thrombosis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 48,
+   "stem": "The commonest to cause acute fulminant invasive fungal sinusitis:",
+   "options": {
+    "a": "Aspergillosis.",
+    "b": "Rhinosporodiosis.",
+    "c": "Candidiasis.",
+    "d": "Mucormycosis."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "fungal sinusitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 49,
+   "stem": "The most helpful investigation for the nose and the paranasal sinuses is:",
+   "options": {
+    "a": "Plain X ray.",
+    "b": "CT scan.",
+    "c": "MRI.",
+    "d": "MRA."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 50,
+   "stem": "Lateral displacement of the eyeball is due to:",
+   "options": {
+    "a": "Sphenoidal sinus lesions.",
+    "b": "Ethmoidal sinus lesions.",
+    "c": "Maxillary sinus lesions.",
+    "d": "Frontal sinus lesions."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 51,
+   "stem": "The following facts regarding \"deviated nasal septum\" are true EXCEPT:",
+   "options": {
+    "a": "It may be caused by an old trauma.",
+    "b": "A sharp septal deviation may be a cause of nasal bleeding.",
+    "c": "The treatment of choice is septoplasty.",
+    "d": "The treatment is functional endoscopic sinus surgery."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal septum",
+    "functional endoscopic sinus surgery"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 52,
+   "stem": "The following facts regarding \"deviated nasal septum\" are true EXCEPT:",
+   "options": {
+    "a": "It may be caused by an old trauma.",
+    "b": "A sharp septal deviation may be a cause of nasal bleeding.",
+    "c": "Hypertrophy of the inferior turbinate on the other side of the deviation.",
+    "d": "The treatment of choice is septoplasty.",
+    "e": "The treatment is functional endoscopic sinus surgery. 29 ENT 2026"
+   },
+   "correct": "e",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal septum",
+    "functional endoscopic sinus surgery"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 53,
+   "stem": "The following facts regarding \"deviated nasal septum\" are true EXCEPT:",
+   "options": {
+    "a": "It may be caused by an old trauma.",
+    "b": "A sharp septal deviation may be a cause of nasal bleeding.",
+    "c": "Hypertrophy of the inferior turbinate on the other side of the deviation.",
+    "d": "The treatment of choice is septoplasty.",
+    "e": "Surgery is contraindicated to avoid septal perforation."
+   },
+   "correct": "e",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal septum",
+    "septal perforation"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 54,
+   "stem": "What is not true about septal hematoma:",
+   "options": {
+    "a": "It might cause saddle nose.",
+    "b": "Treated by decondestants and antihistamines.",
+    "c": "Needs surgical drainage.",
+    "d": "Can cause secondary infection."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "septal hematoma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 55,
+   "stem": "Septal perforation aetiology can be all of the following except:",
+   "options": {
+    "a": "Nose picking.",
+    "b": "Congenital deformity.",
+    "c": "Septal abscess.",
+    "d": "Surgical trauma."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "septal abscess",
+    "septal perforation"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 56,
+   "stem": "In hematoma of the nasal septum:",
+   "options": {
+    "a": "There is recurrent severe epistaxis.",
+    "b": "Excessive watery nasal discharge is reported.",
+    "c": "The patient smells a bad odour.",
+    "d": "There is bilateral nasal obstruction.",
+    "e": "The nose is roomy with considerable crusts."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "epistaxis",
+    "nasal septum",
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 57,
+   "stem": "Perforation of the nasal septum may be due to:",
+   "options": {
+    "a": "Trauma.",
+    "b": "Septal abscess.",
+    "c": "Granuloma of the nose.",
+    "d": "All the above.",
+    "e": "None of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal septum",
+    "septal abscess"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 58,
+   "stem": "Causes of nasal septal perforation include all of the following except:",
+   "options": {
+    "a": "Trauma.",
+    "b": "Cocaine sniffers.",
+    "c": "Rhinoscleroma.",
+    "d": "Syphilis.",
+    "e": "Mid-line lethal granuloma. 30 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "septal perforation",
+    "rhinoscleroma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 59,
+   "stem": "Sneezing is a common symptom in:",
+   "options": {
+    "a": "Sinusitis.",
+    "b": "Fracture nasal bones.",
+    "c": "Allergic rhinitis.",
+    "d": "Cerebrospinal rhinorrhoea."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal bone",
+    "allergic rhinitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 60,
+   "stem": "Attack of sneezing, watery nasal discharge and alternating nasal obstruction can be caused by:",
+   "options": {
+    "a": "Allergic rhinitis.",
+    "b": "Rhinoscleroma.",
+    "c": "Nasal foreign body.",
+    "d": "CSF rhinorrhea"
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "foreign body",
+    "rhinoscleroma",
+    "allergic rhinitis",
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 61,
+   "stem": "Regarding antro choanal polyp, which is the true statement?",
+   "options": {
+    "a": "It usually indicates an underlying fungal infection.",
+    "b": "It arises primarily from the ethmoidal sinus.",
+    "c": "The primary treatment is endoscopic sinus surgery.",
+    "d": "It is precancerous if left untreated.",
+    "e": "Observation only is required, since it resolves spontaneously."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 62,
+   "stem": "The following is correct about antrochoanal polyp :",
+   "options": {
+    "a": "Causes unilateral nasal obstruction",
+    "b": "Arises in the superior meatus",
+    "c": "Associated with watery nasal discharge",
+    "d": "Removed by lateral rhinotomy"
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 63,
+   "stem": "The following is not characteristic for allergic nasal polypi:",
+   "options": {
+    "a": "Bilateral",
+    "b": "Arise from the maxillary sinus",
+    "c": "A nasal smear contains excess eosinophils",
+    "d": "Commonly recurs after excision"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal polyp"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 64,
+   "stem": "Antrochoanal polyp arises from the:",
+   "options": {
+    "a": "Sphenoid sinus.",
+    "b": "Ethmoid sinus.",
+    "c": "Frontal sinus.",
+    "d": "Maxillary sinus. 31 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": []
+  },
+  {
+   "section": "Nose",
+   "number": 65,
+   "stem": "Allergic nasal polypi are:",
+   "options": {
+    "a": "Unilateral.",
+    "b": "Bilateral.",
+    "c": "Fleshy.",
+    "d": "Ulcerating.",
+    "e": "Bleed easily."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal polyp"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 66,
+   "stem": "In Antrochoanal polyp all is true except:",
+   "options": {
+    "a": "Arises usually from the sphenoid sinus.",
+    "b": "Causes unilateral nasal obstruction.",
+    "c": "May reach the nasopharynx.",
+    "d": "Is treated by excision with or without radical antrum operation."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 67,
+   "stem": "Bilateral nasal obstruction in a 40 years old adult can be caused by:",
+   "options": {
+    "a": "Allergic nasal polyp.",
+    "b": "Nasopharyngeal angiofibroma.",
+    "c": "Choanal atresia.",
+    "d": "Foreign body."
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "foreign body",
+    "choanal atresia",
+    "nasal polyp",
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 68,
+   "stem": "The most common cause of epistaxis is:",
+   "options": {
+    "a": "Congenital blood disease.",
+    "b": "Idiopathic.",
+    "c": "Rhinoscleroma.",
+    "d": "Chronic sinusitis."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "epistaxis",
+    "rhinoscleroma",
+    "chronic sinusitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 69,
+   "stem": "The most common cause of epistaxis in elderly is:",
+   "options": {
+    "a": "Congenital blood disease.",
+    "b": "Hypertension.",
+    "c": "Rhinoscleroma.",
+    "d": "Chronic sinusitis.",
+    "e": "Septal perforation."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "epistaxis",
+    "septal perforation",
+    "rhinoscleroma",
+    "chronic sinusitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 70,
+   "stem": "The best treatment of mild epistaxis from Little's area is:",
+   "options": {
+    "a": "Anterior nasal pack",
+    "b": "Cautery of the bleeding point",
+    "c": "Posterior nasal pack",
+    "d": "Blood transfusion 32 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "little's area",
+    "epistaxis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 71,
+   "stem": "The commonest site for epistaxis is:",
+   "options": {
+    "a": "The anterior end of the nasal septum",
+    "b": "The posterior end of the nasal septum",
+    "c": "The anterior end of the inferior turbinate",
+    "d": "The posterior end of the inferior turbinate"
+   },
+   "correct": "a",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "epistaxis",
+    "nasal septum"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 72,
+   "stem": "The commonest cause for epistaxis in a 5 years old child is:",
+   "options": {
+    "a": "Angiofibroma",
+    "b": "Rhinoscleroma",
+    "c": "Inverted papilloma",
+    "d": "Idiopathic"
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "epistaxis",
+    "papilloma",
+    "inverted papilloma",
+    "rhinoscleroma"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 73,
+   "stem": "Cacosmia is a characteristic symptom in cases of:",
+   "options": {
+    "a": "Acute sinusitis.",
+    "b": "Sinusitis of dental origin.",
+    "c": "Atrophic rhinitis.",
+    "d": "Rhinoscleroma."
+   },
+   "correct": "b",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "atrophic rhinitis",
+    "rhinoscleroma",
+    "acute sinusitis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 74,
+   "stem": "A cause of unilateral nasal obstruction:",
+   "options": {
+    "a": "Allergic rhinitis.",
+    "b": "Rhinoscleroma.",
+    "c": "Cancer maxilla.",
+    "d": "Common cold."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "rhinoscleroma",
+    "allergic rhinitis",
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 75,
+   "stem": "The commonest cause of epistaxis in children is:",
+   "options": {
+    "a": "Adenoids.",
+    "b": "Nasopharyngeal fibroma.",
+    "c": "Idiopathic.",
+    "d": "Foreign body."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "foreign body",
+    "epistaxis",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 76,
+   "stem": "Causes of unilateral nasal obstruction includes the following except:",
+   "options": {
+    "a": "Unilateral choanal atresia.",
+    "b": "Antrochoanal polyp.",
+    "c": "Sinusitis of dental origin.",
+    "d": "Sinonasal neoplasm.",
+    "e": "Allergic rhinitis. 33 ENT 2026"
+   },
+   "correct": "e",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "choanal atresia",
+    "sinonasal",
+    "allergic rhinitis",
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 77,
+   "stem": "Systemic causes of epistaxis include:",
+   "options": {
+    "a": "Hypertension.",
+    "b": "Leukemia.",
+    "c": "Anticoagulants.",
+    "d": "Liver cell failure.",
+    "e": "All of the above."
+   },
+   "correct": "e",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "epistaxis"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 78,
+   "stem": "Endoscopic sinus surgery is indicated in the following EXCEPT:",
+   "options": {
+    "a": "Allergic fungal sinusitis.",
+    "b": "Extensive Sinonasal polyposis.",
+    "c": "Atrophic rhinitis.",
+    "d": "Antrochoanal polyp.",
+    "e": "Inverted papilloma."
+   },
+   "correct": "c",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "papilloma",
+    "inverted papilloma",
+    "sinonasal",
+    "atrophic rhinitis",
+    "fungal sinusitis",
+    "allergic fungal sinusitis",
+    "nasal polyp"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 79,
+   "stem": "Complications of Functional endoscopic sinus surgery might include:",
+   "options": {
+    "a": "Bleeding.",
+    "b": "Nasal adhesions.",
+    "c": "CSF leak.",
+    "d": "All of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "functional endoscopic sinus surgery"
+   ]
+  },
+  {
+   "section": "Nose",
+   "number": 80,
+   "stem": "Complications of Functional endoscopic sinus surgery might include:",
+   "options": {
+    "a": "Bleeding.",
+    "b": "Nasal adhesions.",
+    "c": "CSF leak.",
+    "d": "All of the above.",
+    "e": "None of the above. 34"
+   },
+   "correct": "d",
+   "pageRange": [
+    21,
+    34
+   ],
+   "tags": [
+    "functional endoscopic sinus surgery"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 1,
+   "stem": "Innervations of the intrinsic muscles of the larynx come from:",
+   "options": {
+    "a": "The superior laryngeal nerve",
+    "b": "The recurrent laryngeal nerve",
+    "c": "The glossopharyngeal nerve",
+    "d": "The hypoglossal nerve"
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "recurrent laryngeal nerve"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 2,
+   "stem": "The recurrent laryngeal nerve supplies all the muscles of the larynx except:",
+   "options": {
+    "a": "Interarytenoid.",
+    "b": "Cricothyroid.",
+    "c": "Thyrohyoid.",
+    "d": "Posterior cricoarytenoid.",
+    "e": "Lateral cricoarytenoid."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "recurrent laryngeal nerve"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 3,
+   "stem": "Choose the correct statement regarding Laryngomalacia:",
+   "options": {
+    "a": "Starts in infancy and persists till adulthood.",
+    "b": "There is hoarseness of voice in all cases.",
+    "c": "Stridor decreases on lying on the back and increases on lying on face.",
+    "d": "Most cases need only observation as the condition resolves spontaneously.",
+    "e": "Frequently needs to maintain the airway with tracheostomy or endotracheal intubation."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "laryngomalacia",
+    "hoarseness",
+    "stridor",
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 4,
+   "stem": "An infant is noticed to have stridor and a hoarse cry. All the following diagnosis are possible EXCEPT:",
+   "options": {
+    "a": "laryngeal web",
+    "b": "laryngeal paralysis",
+    "c": "congenital laryngeal cyst",
+    "d": "laryngomalacia"
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "laryngomalacia",
+    "laryngeal paralysis",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 5,
+   "stem": "All the following is correct about laryngomalacia except:",
+   "options": {
+    "a": "It is due to congenital weak flaccid larynx.",
+    "b": "Child looks healthy.",
+    "c": "It affects the vocal cords.",
+    "d": "Inspiratory stridor starts soon after birth. 36 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "laryngomalacia",
+    "vocal cord",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 6,
+   "stem": "Which of the following arise the suspicion of inhaled foreign body in a young child:",
+   "options": {
+    "a": "History of an attack of sudden cough, choking and cyanosis.",
+    "b": "A chest X-ray showing unilateral lung emphysema.",
+    "c": "A chest X-ray showing unilateral lung atelectasis.",
+    "d": "Persistent wheezes over one lung.",
+    "e": "All of the above."
+   },
+   "correct": "e",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "foreign body"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 7,
+   "stem": "A 3 years old boy complained of sudden acute respiratory distress, with spasmodic cough, cyanosis & acting accessory respiratory muscles is most probably due to:",
+   "options": {
+    "a": "acute follicular tonsillitis",
+    "b": "foreign body inhalation",
+    "c": "adenoid hypertrophy",
+    "d": "vocal cord nodule"
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "foreign body",
+    "vocal cord",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 8,
+   "stem": "F.B is more commonly lodged in:",
+   "options": {
+    "a": "Right main bronchus.",
+    "b": "Left main bronchus.",
+    "c": "Right or left main bronchi.",
+    "d": "Larynx."
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": []
+  },
+  {
+   "section": "Larynx",
+   "number": 9,
+   "stem": "The following benign lesion in the larynx can be pre-cancerous:",
+   "options": {
+    "a": "Leukoplakia.",
+    "b": "Reinke's edema.",
+    "c": "Laryngeal nodule.",
+    "d": "Laryngosclerosis.",
+    "e": "Juvenile onset recurrent respiratory papillomatosis."
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "reinke"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 10,
+   "stem": "Recurrent respiratory papillomatosis:",
+   "options": {
+    "a": "Occurs in adults.",
+    "b": "May turn malignant.",
+    "c": "Usually single.",
+    "d": "Occurs in children."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 11,
+   "stem": "Investigations for cancer larynx include all of the following EXCEPT:",
+   "options": {
+    "a": "CT scan: To assess tumor extension and lymph nodes involvement.",
+    "b": "Biopsy by direct laryngoscopy: To confirm the diagnosis.",
+    "c": "Metastatic work-up: Chest x-ray, brain CT scan, bone scan & abdomen ultrasound.",
+    "d": "Carotid angiography and embolization. 37 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": []
+  },
+  {
+   "section": "Larynx",
+   "number": 12,
+   "stem": "Regarding glottic laryngeal carcinoma, which is the true statement?",
+   "options": {
+    "a": "Hoarseness of voice is an early presentation.",
+    "b": "Dysphagia and regurgitation are early common symptoms.",
+    "c": "It usually presents in late stages.",
+    "d": "It causes early nodal metastasis."
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "hoarseness",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 13,
+   "stem": "The treatment of advanced cancer larynx with neck lymph nodes metastasis is:",
+   "options": {
+    "a": "Partial laryngectomy.",
+    "b": "Antibiotics.",
+    "c": "Total laryngectomy and radical neck dissection.",
+    "d": "Laser cordectomy."
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": []
+  },
+  {
+   "section": "Larynx",
+   "number": 14,
+   "stem": "Single laryngeal papilloma:",
+   "options": {
+    "a": "Occurs in adults.",
+    "b": "Causes hoarseness of voice.",
+    "c": "Treated by microlaryngosurgery.",
+    "d": "Might turn malignant.",
+    "e": "All of the above."
+   },
+   "correct": "e",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "hoarseness",
+    "laryngeal papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 15,
+   "stem": "T3 cancer larynx means:",
+   "options": {
+    "a": "Extra laryngeal spread.",
+    "b": "Fixed vocal cord.",
+    "c": "Multiple ipsilateral lymph nodes in the neck less than 6 cm.",
+    "d": "Tumor involving two regions in the larynx.",
+    "e": "None of the above."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 16,
+   "stem": "A 7-year-old boy presented to the ER with stridor. He had hoarseness of voice for a year. On examination, his temperature was 37°C) Nasal and oral examination showed no evidence of disease) Laryngeal examination showed warty growths affecting both vocal cords reducing the respiratory shin. The most likely diagnosis is:",
+   "options": {
+    "a": "Juvenile Onset Recurrent Respiratory Papillomatosis",
+    "b": "Laryngeal nodules",
+    "c": "Laryngoscleroma",
+    "d": "Laryngomalacia",
+    "e": "Chronic laryngitis secondary to Gastroesophageal Reflux 38 ENT 2026"
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "laryngomalacia",
+    "vocal cord",
+    "chronic laryngitis",
+    "hoarseness",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 17,
+   "stem": "Laryngeal squamous cell carcinoma is characterized by all of the following EXCEPT:",
+   "options": {
+    "a": "Smoking is a predisposing factor in carcinogenesis",
+    "b": "It seldom arises from the subglottic area",
+    "c": "Invasion of the laryngeal cartilages is staged as T4-disease",
+    "d": "The most common site of nodal metastasis is the upper deep cervical group (level II)",
+    "e": "It commonly sends distant metastasis to the lungs, bone and liver"
+   },
+   "correct": "e",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": []
+  },
+  {
+   "section": "Larynx",
+   "number": 18,
+   "stem": "A 60-year-old male, chronic heavy smoker presented with hoarseness of voice of several months duration, not responsive to medical treatment. Laryngeal examination showed a fungating mass arising from the right vocal cord, which was found fixed. CT scan in such case is indicated in order to determine:",
+   "options": {
+    "a": "The exact site of the tumor",
+    "b": "The exact size of the tumor",
+    "c": "Extension of the tumor to the hypopharynx",
+    "d": "Extension of the tumor to tongue base",
+    "e": "Extension of the tumor to the cartilage and/or intralaryngeal spaces"
+   },
+   "correct": "e",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord",
+    "hoarseness"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 19,
+   "stem": "All of the following is correct about leukoplakia of the larynx except:",
+   "options": {
+    "a": "It is caused by excessive smoking",
+    "b": "It never turns malignant",
+    "c": "It causes gradual hoarseness of voice",
+    "d": "It is white in color"
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "hoarseness"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 20,
+   "stem": "Adult laryngeal papilloma is:",
+   "options": {
+    "a": "Multiple.",
+    "b": "Arises from any part of the larynx.",
+    "c": "Regresses spontaneously.",
+    "d": "Can turn malignant."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "laryngeal papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 21,
+   "stem": "Prognosis of glottic carcinoma is better because:",
+   "options": {
+    "a": "It causes late stridor.",
+    "b": "It causes early hoarseness of voice.",
+    "c": "It does not cause dysphagia.",
+    "d": "It causes lymphatic metastases. 39 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "hoarseness",
+    "stridor",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 22,
+   "stem": "Multiple papillomata of the larynx:",
+   "options": {
+    "a": "Do not extend beyond the vocal fold.",
+    "b": "Can turn malignant.",
+    "c": "Causes hoarseness of voice only.",
+    "d": "Regresses at puberty."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "hoarseness"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 23,
+   "stem": "Causes early stridor before hoarseness of voice:",
+   "options": {
+    "a": "Glottic carcinoma.",
+    "b": "Epiglottic carcinoma.",
+    "c": "Supraglottic carcinoma.",
+    "d": "Subglottic carcinoma."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "hoarseness",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 24,
+   "stem": "Laryngeal papilloma of adults is:",
+   "options": {
+    "a": "Multiple.",
+    "b": "Premalignant.",
+    "c": "Cures spontaneously.",
+    "d": "Causes early stridor."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "stridor",
+    "laryngeal papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 25,
+   "stem": "The earliest symptom of glottis carcinoma is:",
+   "options": {
+    "a": "Stridor.",
+    "b": "Dysphagia.",
+    "c": "Cough.",
+    "d": "Hoarseness of voice."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "hoarseness",
+    "stridor",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 26,
+   "stem": "Adult papilloma of the larynx is:",
+   "options": {
+    "a": "Single and infiltrating the basement membrane.",
+    "b": "Single and precancerous.",
+    "c": "Multiple and large.",
+    "d": "Arises from any part of the larynx."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 27,
+   "stem": "One of the following laryngeal lesions is precancerous:",
+   "options": {
+    "a": "Singer's nodule.",
+    "b": "Laryngoscleroma.",
+    "c": "Multiple papilloma.",
+    "d": "Laryngeal web.",
+    "e": "Single papilloma."
+   },
+   "correct": "e",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 28,
+   "stem": "Carcinoma of the vocal cord is common in:",
+   "options": {
+    "a": "Young males.",
+    "b": "Young females.",
+    "c": "Elderly males.",
+    "d": "Elderly females.",
+    "e": "Children. 40 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 29,
+   "stem": "Laryngeal papilloma in children is: (One answer is wrong)",
+   "options": {
+    "a": "Multiple.",
+    "b": "Arises at any site in the larynx.",
+    "c": "May show malignant transformation.",
+    "d": "Regresses at puberty.",
+    "e": "May be hormonal in origin."
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "laryngeal papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 30,
+   "stem": "All the following are correct about leucoplakia except:",
+   "options": {
+    "a": "Caused by excessive smoking.",
+    "b": "Never turns malignant.",
+    "c": "Causes hoarseness of voice.",
+    "d": "White in color."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "hoarseness"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 31,
+   "stem": "Multiple papillomata of larynx is characterized by the following except:",
+   "options": {
+    "a": "Recurrent.",
+    "b": "Occurs in children.",
+    "c": "Affects any part of larynx and trachea.",
+    "d": "Commonly turns malignant.",
+    "e": "Treatment is by repeated excision."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 32,
+   "stem": "The following lesion of the larynx is precancerous:",
+   "options": {
+    "a": "Single papilloma of the adult.",
+    "b": "Multiple laryngeal papillomatosis.",
+    "c": "Singer's nodule.",
+    "d": "Laryngomalacia."
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "laryngomalacia",
+    "laryngeal papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 33,
+   "stem": "Most common location in the vocal cord of vocal nodule:",
+   "options": {
+    "a": "Junction of anterior 1/3 and posterior 2/3.",
+    "b": "Anterior commissure.",
+    "c": "Junction of posterior 1/3 and anterior 2/3.",
+    "d": "Posterior commissure."
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 34,
+   "stem": "The following statements about Vocal Cord Nodules are true EXCEPT:",
+   "options": {
+    "a": "Caused by voice abuse.",
+    "b": "Present by hoarseness of voice.",
+    "c": "Can be treated conservatively by voice therapy.",
+    "d": "If not treated may present late by respiratory distress. 41 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord",
+    "hoarseness"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 35,
+   "stem": "A 5-year-old boy was brought by his parents to the emergency room with obvious stridor. His temperature was 38 degrees. On examination, the boy was clearly distressed. Retraction of the intercostal and suprasternal notch was noted. The most probable diagnosis is:",
+   "options": {
+    "a": "Laryngomalacia.",
+    "b": "Inhaled Foreign body.",
+    "c": "Acute laryngo-tracheo-bronchitis.",
+    "d": "Diphtheria."
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "foreign body",
+    "laryngomalacia",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 36,
+   "stem": "The most common laryngeal site of involvement in laryngoscleroma is:",
+   "options": {
+    "a": "true vocal cords",
+    "b": "epiglottis",
+    "c": "subglottis",
+    "d": "arytenoids"
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 37,
+   "stem": "The commonest presentation of laryngoscleroma is:",
+   "options": {
+    "a": "Vocal cord paralysis",
+    "b": "Stridor & hoarseness",
+    "c": "Pain & night sweating",
+    "d": "Metastatic lymph node"
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord",
+    "vocal cord paralysis",
+    "hoarseness",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 38,
+   "stem": "Acute non-specific laryngitis in young children is more dangerous than in adults because it may cause:",
+   "options": {
+    "a": "Hoarseness",
+    "b": "Stridor",
+    "c": "Bronchopneumonia",
+    "d": "Aspiration"
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "hoarseness",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 39,
+   "stem": "Laryngoscleroma affects:",
+   "options": {
+    "a": "The epiglottis.",
+    "b": "The vocal cords.",
+    "c": "Above the vocal cords.",
+    "d": "Below the vocal cords."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 40,
+   "stem": "Perichondritis of the larynx may be caused by:",
+   "options": {
+    "a": "Cut throat wound.",
+    "b": "High tracheostomy.",
+    "c": "Radiotherapy.",
+    "d": "All of the above. 42 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 41,
+   "stem": "Perichondritis of the larynx may be caused by the following except:",
+   "options": {
+    "a": "Laryngomalacia.",
+    "b": "Cut throat wound.",
+    "c": "High tracheostomy.",
+    "d": "Cancer larynx."
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "laryngomalacia",
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 42,
+   "stem": "Laryngitis causes referred otalgia through:",
+   "options": {
+    "a": "Trigeminal nerve.",
+    "b": "Glossopharyngeal nerve.",
+    "c": "Great Auricular Nerve.",
+    "d": "Vagus Nerve.",
+    "e": "Lesser Occipital Nerve."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "otalgia"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 43,
+   "stem": "Subglottic stenosis is a condition that could occur as a result of any of the following EXCEPT:",
+   "options": {
+    "a": "Congenital condition.",
+    "b": "Rhinolaryngoscleroma.",
+    "c": "Leukoplakia.",
+    "d": "Prolonged endotracheal intubation.",
+    "e": "High tracheostomy with cricoid injury."
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "subglottic stenosis",
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 44,
+   "stem": "In vocal fold (cord) lesions, which of the following is life threatening:",
+   "options": {
+    "a": "Unilateral abductor paralysis.",
+    "b": "Bilateral abductor paralysis.",
+    "c": "Unilateral adductor paralysis.",
+    "d": "Bilateral adductor paralysis."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": []
+  },
+  {
+   "section": "Larynx",
+   "number": 45,
+   "stem": "Hot potato voice is caused by the following except:",
+   "options": {
+    "a": "supraglottic carcinoma",
+    "b": "epiglottitis",
+    "c": "glottic carcinoma",
+    "d": "torcillar hypertrophy"
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": []
+  },
+  {
+   "section": "Larynx",
+   "number": 46,
+   "stem": "Stridor is a characteristic feature of the following diseases except:",
+   "options": {
+    "a": "laryngeal diphtheria",
+    "b": "angioneurotic edema",
+    "c": "adenoid hypertrophy",
+    "d": "bilateral abductor vocal cord paralysis 43 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "vocal cord",
+    "vocal cord paralysis",
+    "stridor",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 47,
+   "stem": "Stridor is:",
+   "options": {
+    "a": "Difficult breathing.",
+    "b": "Noisy breathing.",
+    "c": "Change of voice.",
+    "d": "Difficult noisy breathing.",
+    "e": "Difficult breathing and swallowing."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 48,
+   "stem": "Inflammatory causes of stridor includes the following except:",
+   "options": {
+    "a": "Acute epiglottitis.",
+    "b": "Laryngomalacia.",
+    "c": "Laryngeal Diphtheria.",
+    "d": "Laryngosclerosis.",
+    "e": "Laryngeal T.B."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "laryngomalacia",
+    "stridor"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 49,
+   "stem": "The following are causes of pediatric airway obstruction except:",
+   "options": {
+    "a": "Acute epiglottitis.",
+    "b": "Acute laryngotracheobronchitis.",
+    "c": "Recurrent respiratory papillomatosis.",
+    "d": "Singer's nodule."
+   },
+   "correct": "d",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 50,
+   "stem": "High tracheostomy:",
+   "options": {
+    "a": "Is usually done in emergency cases.",
+    "b": "Has the risk of cricoid injury with subsequent subglottic stenosis.",
+    "c": "Rapid and easy.",
+    "d": "Is done in the first two tracheal rings.",
+    "e": "All of the above."
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "subglottic stenosis",
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 51,
+   "stem": "An 8-year old boy had urgent tracheostomy done under local anesthesia for stridor due to laryngeal papillomatosis. Immediately after surgery he became distressed with increased effort of breathing and intercostal retractions despite adequate air flow from the tracheostomy tube) The most likely that happened is:",
+   "options": {
+    "a": "Slipped tracheostomy tube out of the trachea.",
+    "b": "Pneumothorax due to injury of the pleura.",
+    "c": "Surgical emphysema in the neck.",
+    "d": "Bilateral injury of the recurrent laryngeal nerves.",
+    "e": "Occluded lumen of the tracheostomy tube with dry mucus crust. 44 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "papilloma",
+    "recurrent laryngeal nerve",
+    "stridor",
+    "tracheostomy",
+    "laryngeal papilloma"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 52,
+   "stem": "The following are indications of Tracheostomy EXCEPT:",
+   "options": {
+    "a": "Expected Prolonged intubation in the Intensive Care Unit",
+    "b": "Before resection of large oro-mandibular cancer",
+    "c": "Extensive leukoplakia affecting both vocal cords",
+    "d": "Bilateral vocal cord paralysis after total thyroidectomy",
+    "e": "Advanced supraglottic laryngeal cancer obstructing the laryngeal inlet"
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "laryngeal cancer",
+    "vocal cord",
+    "vocal cord paralysis",
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 53,
+   "stem": "High tracheostomy is bad because:",
+   "options": {
+    "a": "It may cause injury of the subclavian artery.",
+    "b": "It may cause injury of the thyroid cartilage.",
+    "c": "It may cause injury of the cricoid cartilage.",
+    "d": "It may cause injury of the thyroid gland."
+   },
+   "correct": "c",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": [
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Larynx",
+   "number": 54,
+   "stem": "Laser commonly used in microlaryngosurgery is:",
+   "options": {
+    "a": "CO laser.",
+    "b": "YAG laser.",
+    "c": "Argon laser.",
+    "d": "KTP laser. 45"
+   },
+   "correct": "a",
+   "pageRange": [
+    36,
+    45
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 1,
+   "stem": "Post adenoidectomy bleeding can be treated by:",
+   "options": {
+    "a": "Posterior nasal packing.",
+    "b": "Local nasal steroids.",
+    "c": "Anti inflammatory drugs.",
+    "d": "Hydrogen peroxide mouth gargle.",
+    "e": "None of the above."
+   },
+   "correct": "a",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 2,
+   "stem": "Adenoid enlargement may result in any of the following except:",
+   "options": {
+    "a": "Bilateral middle ear effusion.",
+    "b": "Recurrent epistaxis.",
+    "c": "High arched palate as a feature of adenoid facies.",
+    "d": "Snoring and obstructive sleep apnea.",
+    "e": "Recurrent acute otitis media."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "acute otitis media",
+    "epistaxis",
+    "adenoid",
+    "snoring",
+    "obstructive sleep apnea"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 3,
+   "stem": "A 4 years old child presented by his mother complaining of lack of attention, mouth breathing and hyponasality:",
+   "options": {
+    "a": "secretory otitis media is suspected",
+    "b": "adenoid is suspected",
+    "c": "both a and b",
+    "d": "none of the above"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "secretory otitis media",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 4,
+   "stem": "Highly arched palate is found in cases of:",
+   "options": {
+    "a": "Nasopharyngeal fibroma.",
+    "b": "Nasopharyngeal carcinoma.",
+    "c": "Adenoids.",
+    "d": "Allergic nasal polypi."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "nasal polyp",
+    "adenoid",
+    "nasopharyngeal carcinoma"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 5,
+   "stem": "The commonest cause of bilateral nasal obstruction in a child is:",
+   "options": {
+    "a": "Deviated septum.",
+    "b": "Adenoid hypertrophy.",
+    "c": "Nasal polypi.",
+    "d": "Nasal foreign body."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "foreign body",
+    "nasal polyp",
+    "nasal obstruction",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 6,
+   "stem": "Enlarged adenoids, may cause the following except:",
+   "options": {
+    "a": "Deafness.",
+    "b": "Epistaxis.",
+    "c": "Sleep apnea.",
+    "d": "Nocturnal enuresis. 47 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "deafness",
+    "epistaxis",
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 7,
+   "stem": "The following are true for nasopharyngeal carcinoma EXCEPT:",
+   "options": {
+    "a": "Radiotherapy is considered the treatment of choice.",
+    "b": "It causes unilateral middle ear effusion.",
+    "c": "The first cranial nerve to be affected is the facial nerve.",
+    "d": "Sends metastases to the cervical lymph nodes.",
+    "e": "The mass may extend into the nasal cavity."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "facial nerve",
+    "nasopharyngeal carcinoma"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 8,
+   "stem": "The best investigation to diagnose nasopharyngeal angiofibroma is:",
+   "options": {
+    "a": "Biopsy.",
+    "b": "Plain x-ray.",
+    "c": "Carotid angiography.",
+    "d": "Ultrasonography."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 9,
+   "stem": "Most common presentation in nasopharyngeal carcinoma:",
+   "options": {
+    "a": "Epistaxis.",
+    "b": "Hoarseness of voice.",
+    "c": "Nasal stuffiness.",
+    "d": "Cervical lymphadenopathy."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "epistaxis",
+    "hoarseness",
+    "nasopharyngeal carcinoma",
+    "lymphadenopathy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 10,
+   "stem": "A 15 years old boy presented with history of recurrent epistaxis and protrusion of the eye ball that started one year ago. On examination there was a unilateral fleshy nasal mass on the side of the proptosis. The first important step to do is to:",
+   "options": {
+    "a": "Schedule the patient for urgent surgery to remove the mass.",
+    "b": "Do CT of the nose and paranasal sinuses and angiography if found to be vascular.",
+    "c": "Take biopsy from the mass to reach a histological diagnosis.",
+    "d": "Give antibiotics and analgesics.",
+    "e": "Give local steroids."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "epistaxis"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 11,
+   "stem": "A 15 year old male with blood stained nasal discharge and conductive deafness. Examination revealed large nasopharyngeal mass. CT showed an enhancing mass in the nasopharynx. The most likely diagnosis is:",
+   "options": {
+    "a": "Nasopharyngeal carcinoma.",
+    "b": "Angiofibroma.",
+    "c": "Rhinoscleroma.",
+    "d": "Maxillary sinus carcinoma.",
+    "e": "Inverted papilloma. 48 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "deafness",
+    "papilloma",
+    "inverted papilloma",
+    "rhinoscleroma",
+    "nasopharyngeal carcinoma"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 12,
+   "stem": "The most common presenting sign or symptom of nasopharyngeal cancer is:",
+   "options": {
+    "a": "nasal obstruction",
+    "b": "nasal bleeding",
+    "c": "neck mass",
+    "d": "facial pain"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "facial pain",
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 13,
+   "stem": "All the following about nasopharyngeal angiofibroma is true EXCEPT:",
+   "options": {
+    "a": "occurs exclusively in males",
+    "b": "epistaxis and nasal obstruction are common",
+    "c": "radiotherapy is the treatment of choice",
+    "d": "arises from the sphenopalatine foramen"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "epistaxis",
+    "nasal obstruction"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 14,
+   "stem": "In a teenager male with recurrent severe left epistaxis, pallor and conductive deafness of the left ear, you should suspect:",
+   "options": {
+    "a": "antrochoanal polyp",
+    "b": "inverted papilloma",
+    "c": "nasopharyngeal angiofibroma",
+    "d": "septal hemangioma"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "deafness",
+    "epistaxis",
+    "papilloma",
+    "inverted papilloma"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 15,
+   "stem": "Nasopharyngeal carcinoma can cause paralysis of the following nerves except:",
+   "options": {
+    "a": "the vagus nerve",
+    "b": "the facial nerve",
+    "c": "the glossopharyngeal nerve",
+    "d": "the abducent nerve"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "facial nerve",
+    "nasopharyngeal carcinoma"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 16,
+   "stem": "Juvenile angiofibroma is characterized by the following except:",
+   "options": {
+    "a": "Massive epistaxis",
+    "b": "Possible secretory otitis media",
+    "c": "Male to female ratio is 3:1",
+    "d": "Preoperative embolization is highly recommended before its excision"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "secretory otitis media",
+    "epistaxis",
+    "juvenile angiofibroma"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 17,
+   "stem": "Treatment of choice in nasopharyngeal carcinoma is:",
+   "options": {
+    "a": "Surgery.",
+    "b": "Chemotherapy.",
+    "c": "Immunotherapy.",
+    "d": "Radiotherapy. 49 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "nasopharyngeal carcinoma"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 18,
+   "stem": "Nasopharyngeal angiofibroma affects only:",
+   "options": {
+    "a": "Infants.",
+    "b": "Young males.",
+    "c": "Adolescent females.",
+    "d": "Adults.",
+    "e": "Elderly patients."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 19,
+   "stem": "Nasopharyngeal angiofibroma is characterized by the following except:",
+   "options": {
+    "a": "Occurs in males.",
+    "b": "Presents with severe epistaxis.",
+    "c": "Can present with facial deformity.",
+    "d": "Treatment is by chemotherapy."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "epistaxis"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 20,
+   "stem": "The following is true regarding nasopharyngeal angiofibroma except:",
+   "options": {
+    "a": "Occurs only in males.",
+    "b": "Angiography is of diagnostic and therapeutic value.",
+    "c": "Presents with severe epistaxis.",
+    "d": "Radiotherapy is the first line of treatment"
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "epistaxis"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 21,
+   "stem": "Complications of acute tonsillitis include:",
+   "options": {
+    "a": "Rheumatic fever.",
+    "b": "Glomerulonephritis.",
+    "c": "Quinsy.",
+    "d": "All of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "quinsy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 22,
+   "stem": "The main cause of secondary post tonsillectomy bleeding is:",
+   "options": {
+    "a": "Elevated blood pressure.",
+    "b": "Slipped ligature in the tonsillar bed.",
+    "c": "Coagulation factors deficiency.",
+    "d": "Infection at the site of the operation."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "tonsillectomy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 23,
+   "stem": "Indications of tonsillectomy are:",
+   "options": {
+    "a": "Repeated attacks of acute tonsillitis.",
+    "b": "Tonsillar hypertrophy causing obstructive sleep apnea.",
+    "c": "Quinsy.",
+    "d": "Rheumatic fever and glomerulonephritis.",
+    "e": "All of the above. 50 ENT 2026"
+   },
+   "correct": "e",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "quinsy",
+    "tonsillectomy",
+    "obstructive sleep apnea"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 24,
+   "stem": "Secondary haemorrhage after tonsillectomy is most commonly seen:",
+   "options": {
+    "a": "During the surgery.",
+    "b": "Immediately after the surgery.",
+    "c": "24 hours after surgery.",
+    "d": "6 days after surgery.",
+    "e": "4 weeks after surgery."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "tonsillectomy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 25,
+   "stem": "A 5-year-old boy presented to the emergency room with bleeding from the mouth. He underwent tonsillectomy one week ago. His surgery went uneventful and he was discharged home at the same day in a stable condition. Six days later, he started to spit few blood drops. Then, bleeding gradually progressed. His Hemoglobin on admission was 11.5 Management of such case should be:",
+   "options": {
+    "a": "Surgical intervention in the form of ligation of the bleeders",
+    "b": "Admission to the hospital, observation and IV antibiotics",
+    "c": "Immediate tracheostomy to save his airway",
+    "d": "Immediate blood transfusion to replace his blood loss",
+    "e": "Angiography and embolization of the bleeding vessels"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "tracheostomy",
+    "tonsillectomy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 26,
+   "stem": "Tonsillectomy is absolutely contraindicated in:",
+   "options": {
+    "a": "chronic tonsillitis",
+    "b": "quinsy",
+    "c": "hemophilia",
+    "d": "below five years"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "quinsy",
+    "tonsillectomy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 27,
+   "stem": "The following is not true about acute tonsillitis:",
+   "options": {
+    "a": "It is more common in children",
+    "b": "It may be complicated by rheumatic fever",
+    "c": "Complete blood count shows marked eosinophilia",
+    "d": "Is accompanied by enlarged tender jugulo-digastric lymph nodes"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 28,
+   "stem": "Primary haemorrhage in tonsillectomy occurs:",
+   "options": {
+    "a": "Within the first 24 hours following the operation.",
+    "b": "After one week.",
+    "c": "Within 2 days following the operation.",
+    "d": "During the operation. 51 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "tonsillectomy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 29,
+   "stem": "Reactionary hemorrhage occurs:",
+   "options": {
+    "a": "During the operation.",
+    "b": "Within the first day after the operation.",
+    "c": "From 2-5 days after the operation.",
+    "d": "From 5-15 days after the operation."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 30,
+   "stem": "Indications of tonsillectomy include the following except:",
+   "options": {
+    "a": "Repeated attacks of tonsillitis more than 5 attacks per year.",
+    "b": "Single attack of acute follicular tonsillitis with very high fever.",
+    "c": "After an attack of quinsy.",
+    "d": "Large tonsils causing sleep apnea."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "quinsy",
+    "tonsillectomy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 31,
+   "stem": "A 30 year old female, otherwise healthy, presented with odynophagia of few days duration. On examination of the oral cavity, multiple ulcers were seen in the soft palate, inner cheeks and oropharyngeal walls. The most probable pathogenesis of such ulcers is:",
+   "options": {
+    "a": "Aphthous ulcers.",
+    "b": "Leukoplakia.",
+    "c": "Diphtheria.",
+    "d": "Carcinoma in situ."
+   },
+   "correct": "a",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "oropharyngeal"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 32,
+   "stem": "A true membrane occurs on the pharyngeal mucosa in:",
+   "options": {
+    "a": "Diphtheria.",
+    "b": "Acute follicular tonsillitis.",
+    "c": "Vincent's angina.",
+    "d": "Infectious mononucleosis."
+   },
+   "correct": "a",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "osa"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 33,
+   "stem": "In oral moniliasis all is true except: [177 Final 1st]",
+   "options": {
+    "a": "Presents by whitish patches in the oropharynx.",
+    "b": "Is treated by massive doses of antibiotics.",
+    "c": "Common in immuno compromised patients.",
+    "d": "Caused by candida albicans."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 34,
+   "stem": "Oropharyngeal ulcers can be due to:",
+   "options": {
+    "a": "Mechanical trauma.",
+    "b": "Herpes simplex.",
+    "c": "Dyspeptic.",
+    "d": "Agranulocytosis.",
+    "e": "All of the above. f) None of the above. 52 ENT 2026"
+   },
+   "correct": "e",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "oropharyngeal"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 35,
+   "stem": "Apthous ulceration of the pharynx is characterized by the following except:",
+   "options": {
+    "a": "Recurrent.",
+    "b": "Multiple.",
+    "c": "Heals spontaneously.",
+    "d": "Caused by fungus."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 36,
+   "stem": "Accumulation of pus in Ludwig's angina occurs in the:",
+   "options": {
+    "a": "Parapharyngeal space.",
+    "b": "Retropharyngeal space.",
+    "c": "Submandibular space.",
+    "d": "Prevertebral space."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "ludwig's angina"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 37,
+   "stem": "\"Beck's Triad\" include all of the following EXCEPT:",
+   "options": {
+    "a": "Swelling in the lateral pharyngeal wall pushing a normal tonsil medially.",
+    "b": "Tender firm external swelling in the lateral side of the neck.",
+    "c": "Trismus.",
+    "d": "White spots on the surface of the tonsil."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 38,
+   "stem": "A 20-year-old male presented to the Emergency Room complaining of severe throbbing pain in the right side of his throat. His pain started two days ago and rapidly progressed and became throbbing in nature) On examination, his temperature was 38. He could not open his mouth properly during oral examination. The palate was found to be swollen and the tonsil was pushed medially and downwards. His upper deep cervical nodes were enlarged and tender. The initial line of treatment is:",
+   "options": {
+    "a": "Intravenous Broad Spectrum Antibiotics",
+    "b": "Incision and Drainage under Local Anesthesia",
+    "c": "CT scan to diagnose the extension of the disease",
+    "d": "Intravenous Fluids to avoid dehydration",
+    "e": "Tracheostomy to avoid any airway compromise"
+   },
+   "correct": "a",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "tracheostomy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 39,
+   "stem": "The following spaces can be the site of \"abscess formation\" in the area of the head and neck EXCEPT:",
+   "options": {
+    "a": "The peritonsillar space",
+    "b": "The paraglottic space",
+    "c": "The parapharyngeal space",
+    "d": "The retropharyngeal space",
+    "e": "The Submandibular space 53 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 40,
+   "stem": "Quinsy means collection of pus in the:",
+   "options": {
+    "a": "parapharyngeal space",
+    "b": "retropharyngeal space",
+    "c": "peritonsillar space",
+    "d": "crypto magna"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "quinsy"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 41,
+   "stem": "A 20 years old man c/o fever & increasing sore throat with dripping of saliva & trismus for only 2 days on examination (the right tonsil pushed medially & forward) no response to antibiotics.. rapid relief can be obtained by:",
+   "options": {
+    "a": "Short course of radiotherapy",
+    "b": "assurance & rest",
+    "c": "antidiphtheric serum",
+    "d": "incision & drainage"
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 42,
+   "stem": "Acute retropharyngeal abscess presents by the following except:",
+   "options": {
+    "a": "Fever, malaise and anorexia.",
+    "b": "Dysphagia and odynophagia.",
+    "c": "A swelling in the posterior pharyngeal wall.",
+    "d": "Trismus."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "retropharyngeal abscess",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 43,
+   "stem": "Acute retropharyngeal abscess affects mainly:",
+   "options": {
+    "a": "Elderly patients.",
+    "b": "Adult males.",
+    "c": "Adult females.",
+    "d": "Adolescent.",
+    "e": "Infants and young children."
+   },
+   "correct": "e",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "retropharyngeal abscess"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 44,
+   "stem": "Choose the false answer regarding Quinsy symptoms:",
+   "options": {
+    "a": "Dysphagia.",
+    "b": "Hoarseness of voice.",
+    "c": "Trismus.",
+    "d": "Dribbling of saliva."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "hoarseness",
+    "quinsy",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 45,
+   "stem": "A common cause of hypopharyngeal carcinoma:",
+   "options": {
+    "a": "Esophageal atresia.",
+    "b": "Zinker's diverticulum.",
+    "c": "Plummer Vinson syndrome.",
+    "d": "Occult primary. 54 ENT 2026"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "hypopharyngeal",
+    "plummer",
+    "occult primary"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 46,
+   "stem": "Plummer Vinson's syndrome anemia:",
+   "options": {
+    "a": "Due to iron deficiency anemia.",
+    "b": "Associated with spooned nails and splenomegaly.",
+    "c": "Precancerous and may lead to post cricoid carcinoma.",
+    "d": "All of the above."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "plummer"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 47,
+   "stem": "The following are true about Plummer Vinson syndrome except:",
+   "options": {
+    "a": "More common in females.",
+    "b": "There is iron deficiency anemia.",
+    "c": "There is glossitis with spooning of the nails.",
+    "d": "Dysphagia is present due to upper oesophageal web.",
+    "e": "Laryngeal carcinoma may occur if left untreated."
+   },
+   "correct": "e",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "plummer",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 48,
+   "stem": "A middle aged female with gradually progressive dysphagia, koilonychia, hypochromic anemia and glazed tongue is suffering from:",
+   "options": {
+    "a": "Plummer vinson syndrome",
+    "b": "hypopharyngeal carcinoma",
+    "c": "esophageal carcinoma",
+    "d": "achalasia"
+   },
+   "correct": "a",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "hypopharyngeal",
+    "plummer",
+    "achalasia",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 49,
+   "stem": "Polysomnography is a method of investigation of a case with:",
+   "options": {
+    "a": "sinusitis",
+    "b": "Sleep apnea syndrome",
+    "c": "Acute rhinitis",
+    "d": "Nasal allergy"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 50,
+   "stem": "The commonest cause of obstructive sleep apnea in adults is:",
+   "options": {
+    "a": "allergic rhinitis",
+    "b": "allergic nasal polypi",
+    "c": "marked obesity",
+    "d": "elongated uvula"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "allergic rhinitis",
+    "nasal polyp",
+    "obstructive sleep apnea"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 51,
+   "stem": "The commonest cause for obstructive sleep apnea in children is:",
+   "options": {
+    "a": "Bilateral allergic nasal polypi",
+    "b": "Antro-choanal polyp",
+    "c": "Choanal atresia",
+    "d": "Adeno-tonsillar hypertrophy"
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "choanal atresia",
+    "nasal polyp",
+    "obstructive sleep apnea"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 52,
+   "stem": "Factors predisposing to obstructive sleep apnea include:",
+   "options": {
+    "a": "Obesity.",
+    "b": "Redundant soft palate.",
+    "c": "Marked tonsillar enlargement.",
+    "d": "All of the above. 55 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "obstructive sleep apnea"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 53,
+   "stem": "The following characterized sleep apnea except:",
+   "options": {
+    "a": "Daytime sleepiness.",
+    "b": "Can never be of central origin.",
+    "c": "Occurs in obese patients.",
+    "d": "Hypertrophied tonsils and adenoids are a cause in children."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "adenoid"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 54,
+   "stem": "A 50 year old female presented with a 3 months history of right sided cervical lymph node swelling that was increasing in size) CT neck revealed heterogenous appearance of the lymph nodes and fine needle aspiration cytology came to be squamous cell carcinoma) The next step to do is:",
+   "options": {
+    "a": "Start radiotherapy for the neck.",
+    "b": "Take an open biopsy from the mass to support the diagnosis.",
+    "c": "Do panendoscopy of the upper aerodigestive tract with biopsy from any suspicious mass.",
+    "d": "Schedule the patient for radical neck dissection on the right side.",
+    "e": "Do abdominal ultrasound to detect if there are other lymph node enlargement."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 55,
+   "stem": "Malignancy is suspected in enlarged lymph node if it has the following except:",
+   "options": {
+    "a": "hard",
+    "b": "painful",
+    "c": "progressive",
+    "d": "fixed"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 56,
+   "stem": "Not considered as a silent area in the head and neck:",
+   "options": {
+    "a": "Pyriform fossa.",
+    "b": "Vocal cord.",
+    "c": "Nasopharynx.",
+    "d": "Base of the tongue."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "vocal cord"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 57,
+   "stem": "Silent areas in the head & neck include:",
+   "options": {
+    "a": "Nasopharynx.",
+    "b": "Base of the tongue.",
+    "c": "Pyriform fossa.",
+    "d": "All of the above.",
+    "e": "None of the above. 56 ENT 2026"
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 58,
+   "stem": "Where is Killian’s dehiscence located?",
+   "options": {
+    "a": "Between the superior and middle constrictor muscles.",
+    "b": "Between the cricopharyngeus and thyropharyngeus muscles.",
+    "c": "Between middle and inferior constrictor muscles.",
+    "d": "Between the cricopharyngeus and the most superior esophageal circular muscles."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 59,
+   "stem": "A 3-year-old girl was brought to the ER after swallowing a coin. She has been vomiting and drooling since then. On examination, there were no signs of airway compromise) The first step in management of this girl is:",
+   "options": {
+    "a": "Barium Swallow.",
+    "b": "Neck Ultrasound.",
+    "c": "Plain X-ray of the neck and chest.",
+    "d": "MRI of the neck.",
+    "e": "Bronchoscopy."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 60,
+   "stem": "Foreign bodies in the oesophagus in prisoners are mostly:",
+   "options": {
+    "a": "Coins.",
+    "b": "Razors and pins.",
+    "c": "Fishbone.",
+    "d": "Dentures."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 61,
+   "stem": "A 3-year-old girl was brought to the Emergency Room by her mother soon after accidental ingestion of caustic soda) The girl was crying and drooling. Management of the case include all of the following EXCEPT:",
+   "options": {
+    "a": "Pain killer.",
+    "b": "Systemic steroids.",
+    "c": "Antibiotics.",
+    "d": "Monitoring of the airway.",
+    "e": "Antihistamines.."
+   },
+   "correct": "e",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 62,
+   "stem": "A 3 year old girl was brought to the Emergency Room by her mother soon after accidental ingestion of caustic soda) The girl was crying and drooling. Management includes all of the following EXCEPT:",
+   "options": {
+    "a": "Pain killer.",
+    "b": "Systemic steroids.",
+    "c": "Antibiotics.",
+    "d": "Monitoring of the airway.",
+    "e": "Immediate dilatation. 57 ENT 2026"
+   },
+   "correct": "e",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 63,
+   "stem": "Not used in the treatment of the acute stage of corrosive poisoning:",
+   "options": {
+    "a": "Emollients.",
+    "b": "Antibiotics.",
+    "c": "Stomach wash.",
+    "d": "Analgesics."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 64,
+   "stem": "Treatment of acute corrosive poisoning includes the following except:",
+   "options": {
+    "a": "Analgesics.",
+    "b": "Egg white and milk.",
+    "c": "Stomach wash.",
+    "d": "Care for respiration."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 65,
+   "stem": "Acute corrosive poisoning is treated by the following except one:",
+   "options": {
+    "a": "Egg white and milk.",
+    "b": "Antibiotics.",
+    "c": "Gastric lavage (stomach wash).",
+    "d": "Analgesics.",
+    "e": "Steroids."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": []
+  },
+  {
+   "section": "Pharynx",
+   "number": 66,
+   "stem": "Achalasia of the cardia is:",
+   "options": {
+    "a": "Fibrosis of the upper esophageal sphincter",
+    "b": "A neuromuscular disorder of the lower esophageal sphincter",
+    "c": "Occurs as a result of herniation of the esophagus through the diaphragm",
+    "d": "All of the above"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "achalasia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 67,
+   "stem": "Achalasia of the cardia is characterized by the followings except:",
+   "options": {
+    "a": "dysphagia is more marked for solids than fluids",
+    "b": "dysphagia is more marked for fluid than solids",
+    "c": "treated by cardiomyopathy",
+    "d": "regurgitation of undigested food"
+   },
+   "correct": "a",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "achalasia",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 68,
+   "stem": "Achalasia of the cardia is:",
+   "options": {
+    "a": "Tumour of the cardiac sphincter.",
+    "b": "Not accompanied by loss of weight.",
+    "c": "Cured by antibiotics.",
+    "d": "Not considered as a cause of dysphagia. 58 ENT 2026"
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "achalasia",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 69,
+   "stem": "In achalasia of the cardia dysphagia is:",
+   "options": {
+    "a": "Not present.",
+    "b": "More to solids.",
+    "c": "More to fluids.",
+    "d": "Equal for both."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "achalasia",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 70,
+   "stem": "Dysphagia to fluids more than solids occurs in:",
+   "options": {
+    "a": "Cancer oesophagus.",
+    "b": "Post-corrosive oesophageal stricture.",
+    "c": "Achalasia of the cardia.",
+    "d": "Peptic ulcer."
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "achalasia",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 71,
+   "stem": "The following are criteria of cardiac achalasia except:",
+   "options": {
+    "a": "Spasm of the lower esophageal sphincter.",
+    "b": "Dysphagia is more to liquid.",
+    "c": "Dysphagia is intermittent.",
+    "d": "Spasm of cricopharyngeal sphincter."
+   },
+   "correct": "d",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "achalasia",
+    "dysphagia"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 72,
+   "stem": "Laryngeal manifestations of GERD include the following except:",
+   "options": {
+    "a": "Globus pharyngeus.",
+    "b": "Conductive deafness.",
+    "c": "Chronic cough.",
+    "d": "Hoarseness of voice."
+   },
+   "correct": "b",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "deafness",
+    "hoarseness",
+    "gerd"
+   ]
+  },
+  {
+   "section": "Pharynx",
+   "number": 73,
+   "stem": "All except one can cause dysphagia:",
+   "options": {
+    "a": "Foreign body in the oesophagus.",
+    "b": "Achalasia of the cardia.",
+    "c": "Peptic ulcer of the stomach.",
+    "d": "Esophageal carcinoma.",
+    "e": "Acute follicular tonsillitis. 59"
+   },
+   "correct": "c",
+   "pageRange": [
+    47,
+    59
+   ],
+   "tags": [
+    "foreign body",
+    "achalasia",
+    "dysphagia"
+   ]
+  }
+ ]
+}

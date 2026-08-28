@@ -1,0 +1,379 @@
+{
+  "bank": "MCQs - BIO MCQ [GIT] 2023.pdf",
+  "sourceId": "src_cc193446b5d589c64400",
+  "subject": "biochemistry",
+  "note": "Two chapters, each independently numbered 1-N: 'Biochemistry of Digestion and Absorption' (17 MCQs, p.1-2) and 'Liver Metabolism and Fatty Liver' (7 MCQs, p.4). Both chapters also carry 'Mention (Enumerate)' and 'On biochemical basis explain' sections (p.3, p.5) -- short-answer/written items, out of MCQ scope, flagged for written-question authoring. Answer keys recovered by rendering and reading pp.3 and 5; OCR mis-transcribes both answer-key tables.",
+  "count": 24,
+  "written_items_out_of_scope": {
+    "Biochemistry of Digestion and Absorption": {
+      "Mention (Enumerate)": 8,
+      "On biochemical basis explain": 4
+    },
+    "Liver Metabolism and Fatty Liver": {
+      "Enumerate": 3,
+      "On biochemical basis explain": 4
+    }
+  },
+  "items": [
+    {
+      "num": 1,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 1,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Disaccharides can be hydrolysed by enzymes present in:",
+      "options": {
+        "a": "Saliva",
+        "b": "Pancreatic juice",
+        "c": "Bile",
+        "d": "Gastric juice"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "disaccharide-digestion.pancreatic-enzymes"
+    },
+    {
+      "num": 2,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 1,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Intestinal digestion of lactose gives:",
+      "options": {
+        "a": "Glucose and galactose",
+        "b": "Glucose and fructose",
+        "c": "Glucose and mannose",
+        "d": "Galactose and mannose"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "lactase.hydrolysis-products"
+    },
+    {
+      "num": 3,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 1,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Regarding sodium-dependent glucose transporter-1 (SGLT-1), which statement is incorrect?",
+      "options": {
+        "a": "It is present in muscles and adipose tissue",
+        "b": "It causes active uptake of glucose against its concentration gradient",
+        "c": "It transports sodium down its concentration gradient",
+        "d": "It is insulin-independent"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "sglt-1.tissue-distribution-intestine-and-kidney-not-muscle"
+    },
+    {
+      "num": 4,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 1,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Which of the following glucose transporters is not present in the small intestine?",
+      "options": {
+        "a": "SGLT-1",
+        "b": "GLUT-2",
+        "c": "GLUT-5",
+        "d": "GLUT-4"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "glucose-transporters.intestinal-scglt1-glut2-glut5"
+    },
+    {
+      "num": 5,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 1,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Fructose is absorbed in the small intestine through:",
+      "options": {
+        "a": "SGLT-1",
+        "b": "GLUT-3",
+        "c": "GLUT-4",
+        "d": "GLUT-5"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "fructose-absorption.glut-5"
+    },
+    {
+      "num": 6,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 1,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Which glucose transporter transports glucose from the intestinal cell into the bloodstream?",
+      "options": {
+        "a": "GLUT2",
+        "b": "GLUT4",
+        "c": "SGLT1",
+        "d": "SGLT2"
+      },
+      "recovered_key": "a",
+      "tested_concept_key": "glut-2.basolateral-sugar-exit"
+    },
+    {
+      "num": 7,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 1,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Lactose intolerance can occur due to deficiency of:",
+      "options": {
+        "a": "Galactokinase",
+        "b": "UDP-galactose-4-epimerase",
+        "c": "Galactose-1-phosphate uridyl transferase",
+        "d": "Lactase"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "lactose-intolerance.lactase-deficiency"
+    },
+    {
+      "num": 8,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Pancreatic lipase does not require for its activity:",
+      "options": {
+        "a": "Colipase",
+        "b": "Bile salts",
+        "c": "Phospholipids",
+        "d": "Apo C-II"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "pancreatic-lipase.cofactors"
+    },
+    {
+      "num": 9,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "The dietary fats are transported in blood as:",
+      "options": {
+        "a": "Micelles",
+        "b": "Chylomicrons",
+        "c": "Fatty acid-albumin complex",
+        "d": "Liposomes"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "dietary-lipid-transport.chylomicrons"
+    },
+    {
+      "num": 10,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "The following statement about gastric lipase is correct:",
+      "options": {
+        "a": "It is the main digestive lipase",
+        "b": "It needs colipase as a cofactor",
+        "c": "It is of significance in infants",
+        "d": "It needs a low pH for its action"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "gastric-lipase.significance-in-infants"
+    },
+    {
+      "num": 11,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "One of the following is not a cause of steatorrhoea:",
+      "options": {
+        "a": "Deficiency of pancreatic lipase enzyme",
+        "b": "Deficiency of hormone-sensitive lipase",
+        "c": "Obstruction of the pancreatic duct",
+        "d": "Obstruction of the bile duct"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "steatorrhoea.causes-vs-hormone-sensitive-lipase"
+    },
+    {
+      "num": 12,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "One of the following is not correct about pepsin:",
+      "options": {
+        "a": "It is formed by the action of HCl on its precursor",
+        "b": "It is secreted by the chief cells",
+        "c": "It is an exopeptidase",
+        "d": "It is smaller than pepsinogen"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "pepsin.endopeptidase-not-exopeptidase"
+    },
+    {
+      "num": 13,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "The following statement about trypsin is incorrect:",
+      "options": {
+        "a": "It is secreted as trypsinogen, which is activated to trypsin by intestinal enteropeptidase",
+        "b": "Active trypsin can also act on its own precursor to form more trypsin",
+        "c": "It is an exopeptidase",
+        "d": "Trypsin also activates other zymogens such as chymotrypsinogen"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "trypsin.endopeptidase-not-exopeptidase"
+    },
+    {
+      "num": 14,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Which enzyme cleaves polypeptides at the carboxyl end of arginine and lysine?",
+      "options": {
+        "a": "Pepsin",
+        "b": "Trypsin",
+        "c": "Chymotrypsin",
+        "d": "Elastase"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "trypsin.substrate-specificity-arginine-lysine"
+    },
+    {
+      "num": 15,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 2,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Proteolytic action of trypsin is specific to which one of the following amino acids?",
+      "options": {
+        "a": "Tryptophan",
+        "b": "Glycine",
+        "c": "Tyrosine",
+        "d": "Lysine"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "trypsin.substrate-specificity-arginine-lysine"
+    },
+    {
+      "num": 16,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 3,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Coeliac disease is immune-mediated damage to the small intestine in response to ingestion of:",
+      "options": {
+        "a": "Keratin",
+        "b": "Collagen",
+        "c": "Gluten",
+        "d": "Albumin"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "coeliac-disease.gluten-trigger"
+    },
+    {
+      "num": 17,
+      "chapter": "Biochemistry of Digestion and Absorption",
+      "page": 3,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Which of the following statements is correct?",
+      "options": {
+        "a": "Nucleic acids are found mostly in legumes, cereals and vegetables",
+        "b": "Purines and pyrimidines are poorly absorbed",
+        "c": "Dietary nucleoproteins are degraded by gastric enzymes into proteins and nucleic acids",
+        "d": "The nucleotides are hydrolysed by intestinal nucleosidases (phosphorylases) to yield the base and pentose 1-P"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "nucleoprotein-digestion.poor-absorption-of-purines-and-pyrimidines"
+    },
+    {
+      "num": 1,
+      "chapter": "Liver Metabolism and Fatty Liver",
+      "page": 4,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "One of the following does not cause fatty liver:",
+      "options": {
+        "a": "Over-mobilisation of fats from adipose tissue, as during starvation",
+        "b": "Increased oxidation of fatty acids",
+        "c": "Decreased apolipoprotein synthesis",
+        "d": "Decreased phospholipids for lipoprotein synthesis"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "fatty-liver.causes-vs-increased-fatty-acid-oxidation"
+    },
+    {
+      "num": 2,
+      "chapter": "Liver Metabolism and Fatty Liver",
+      "page": 4,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "One of the following is not a lipotropic factor:",
+      "options": {
+        "a": "Essential fatty acids",
+        "b": "Methionine",
+        "c": "Folic acid",
+        "d": "Chloroform"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "lipotropic-factors.chloroform-is-hepatotoxic"
+    },
+    {
+      "num": 3,
+      "chapter": "Liver Metabolism and Fatty Liver",
+      "page": 4,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "The following is not a manifestation of alcoholic fatty liver:",
+      "options": {
+        "a": "Accumulation of fats in the liver",
+        "b": "Oxidation of alcohol",
+        "c": "Decreased fatty acid oxidation",
+        "d": "Decreased NADH/NAD ratio"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "alcoholic-fatty-liver.increased-nadh-nad-ratio"
+    },
+    {
+      "num": 4,
+      "chapter": "Liver Metabolism and Fatty Liver",
+      "page": 4,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "One of the following is a good index for liver synthetic functions:",
+      "options": {
+        "a": "Serum alpha-fetoprotein (AFP)",
+        "b": "Serum alanine aminotransferase (ALT)",
+        "c": "Prothrombin time and concentration",
+        "d": "Plasma ammonia level"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "liver-function-tests.prothrombin-time-synthetic-function"
+    },
+    {
+      "num": 5,
+      "chapter": "Liver Metabolism and Fatty Liver",
+      "page": 4,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "One of the following increases in liver cancer:",
+      "options": {
+        "a": "Plasma ammonia level",
+        "b": "Serum alpha-fetoprotein (AFP)",
+        "c": "Prothrombin time and concentration",
+        "d": "Serum aspartate aminotransferase (AST)"
+      },
+      "recovered_key": "b",
+      "tested_concept_key": "liver-function-tests.afp-in-liver-cancer"
+    },
+    {
+      "num": 6,
+      "chapter": "Liver Metabolism and Fatty Liver",
+      "page": 4,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "Serum transaminases (ALT & AST) indicate:",
+      "options": {
+        "a": "Liver cancer",
+        "b": "Liver failure",
+        "c": "Hepatocellular damage",
+        "d": "Decreased liver synthetic function"
+      },
+      "recovered_key": "c",
+      "tested_concept_key": "liver-function-tests.transaminases-hepatocellular-damage"
+    },
+    {
+      "num": 7,
+      "chapter": "Liver Metabolism and Fatty Liver",
+      "page": 4,
+      "sourceId": "src_cc193446b5d589c64400",
+      "stem": "The role of the liver in metabolism does not include:",
+      "options": {
+        "a": "It is the main organ responsible for regulation of blood glucose",
+        "b": "It produces bile salts",
+        "c": "It is the site of storage of glucose as glycogen",
+        "d": "It is the site of synthesis of gamma-globulins"
+      },
+      "recovered_key": "d",
+      "tested_concept_key": "liver-metabolism.gamma-globulins-not-hepatic-synthesis"
+    }
+  ]
+}
