@@ -845,6 +845,129 @@ relations batch in this pass claims.
 
 ---
 
+### Ain Shams University ASU-INF (Microbiology, full module, Chapters 1-10) — 8 files across 4 folders
+
+Staged 2026-08-28 by the chief-of-staff staging lane, from the completed authoring branch
+`asu-inf-author3` (HEAD `d248b43b`, five blocks A-E across four commits). Copied verbatim
+from `docs/Ain-Shams-Source-Imports/{resource,article,concept,evidence,question}/ASU-INF-*`
+— the *only* edits made after copying were a law-of-voice wording pass and adding missing
+`field_notes` reasons, both described below, both independently re-verified with the gates
+unchanged (0 errors, same item counts) after each edit.
+
+**Apply in this order** (`academic/asu-modules.md` — ASU selected — must already be applied
+so `ASU-INF` exists):
+
+| # | File(s) | Admin page | Records | "Update matching items" |
+|---|---|--:|---|---|
+| 1 | `evidence/ASU-INF-microbiology-sources.md` | Bulk import evidence · Resource | 1 (the source PDF; this is the *evidence*-kind resource citations resolve against — do not confuse with row 2) | On |
+| 1 | `resource/ASU-INF-microbiology-resources.md` | Bulk import → **resource** | 1 (catalogue/deck entry, same `src_…` id, different kind — `medical:batch` reports it as `catalogue-resource`) | On |
+| 2 | `article/ASU-INF-microbiology-articles.md` | Bulk import → **article** | 28 | On |
+| 3 | `concept/ASU-INF-microbiology-concepts.md` | Concepts › Import | 118 (111 new + 7 sparse updates onto ids already live in production — see below) | **Must be On** — the 7 update rows share an id with a live concept |
+| 4 | `evidence/ASU-INF-microbiology-claims.md` | Bulk import evidence · Claim | 111 | On |
+| 5 | `evidence/ASU-INF-microbiology-citations.md` | Bulk import evidence · Citation | 111 | On |
+| 6 | `evidence/ASU-INF-microbiology-spans.md` | Bulk import evidence · Span | 111 | On |
+| 7 | `question/ASU-INF-microbiology-mcq.md` | Bulk import → **question** | 156 | On |
+
+Row 1 appears twice on purpose: `evidence/…-sources.md` (kind `resource`, what citations
+point at) and `resource/…-resources.md` (kind `catalogue-resource`, the Resource Library deck
+listing) declare the *same* `src_68fe9409ae4ab90d025e` id for two different record kinds — the
+first `medical:simulate` run of this batch silently rejected all 111 citations
+(`Resource … does not exist`) because only the catalogue-resource file was in the apply list;
+adding the evidence sources file fixed it. Apply both.
+
+**7 sparse concept updates, all onto ids already live in production** (verified against
+`server/data/medical-library-v1.json`, not assumed from the branch's own commit message):
+`CON-INF-3E6590C8AC2166` (endospores), `CON-INF-6B7D8A0C6A464E` (Lancefield classification),
+`CON-INF-7789C0F6154E35` (antiphagocytic capsule), `CON-INF-80960EC6FD48EC` (capsomers),
+`CON-INF-86D082D1785D7A` (superinfection — see the duplicate-concept note below),
+`CON-INF-8E477AF19762BE` (glycocalyx), `CON-INF-A6D04F194FA5FB` (gonococcal IgA protease).
+Each row only adds `+asu` / `+ASU-INF` module tagging, `module_subject` and
+`exam_weight_by_year` — none rewrites the existing label, definition or evidence.
+
+**Reconcile note — live duplicate concept found, not fixed here.** The task brief asked this
+lane to check for an IMM/INF "superinfection" duplicate flagged in
+`coverage/ASU-INF-triage.md`. Checked against the live snapshot directly (not just batch
+text): **both `CON-IMM-703027CACF3ADF`** ("Antibiotic suppression of normal flora can permit
+superinfection by potential pathogens") **and `CON-INF-86D082D1785D7A`** ("Antibiotic
+eradication of susceptible normal flora can permit resistant organisms to cause
+superinfection") **are already live in production** — the same idea, minted twice under two
+module namespaces before either authoring session cross-checked the other's. This predates
+this staging pass; the sparse-update row above only adds ASU-INF tagging to the existing
+`CON-INF-…` id (correct practice given the current landscape — it does not create a third id
+or worsen the duplicate). Merging the two into one canonical id per the unsalted-mint law
+means picking a winner and re-pointing every article/question/claim/citation/span that
+references the loser — a live-data migration, not a staging edit. Left for the chief of
+staff / Omar to rule on which id is canonical; recorded here rather than fixed unilaterally.
+
+**Gate status, independently re-run 2026-08-28 against this staged copy** (not trusted from
+the branch's own commit message):
+
+- `medical:batch` per file: concept `items 118, fieldsUsed 53, errors []`; article
+  `items 28, fieldsUsed 52, errors []`; question (`--with` concept/article/resource)
+  `items 156, fieldsUsed 50, errors []`; claims/spans (`--with` their concept/article/source
+  siblings) `errors []` each. Citations standalone/`--with` reports 111 "is not a source the
+  corpus contains" lines — this is the same pre-existing shared-toolchain gap already
+  documented against 103 BMS above (`corpus-source-index.json`'s checked-in snapshot doesn't
+  cover this university's sources; confirmed by running the identical check against an
+  already-staged `AU-MED-102-anatomy-citations.md`, which fails it too); `medical:simulate`
+  does not read that index and is unaffected.
+- `medical:simulate` (all 8 files above, resource → article → concept → evidence → question):
+  `created 111 concepts (7 updated) / 28 articles / 111 claims / 111 citations / 111 spans /
+  156 questions, errors: [], rejected: 0, skipped: []`.
+- `medical:audit` against that simulated state: a baseline audit of the pre-existing shipped
+  state (`server/data/medical-library-v1.json` alone) returns **0 errors**, so every error
+  below is attributable to this batch. First run: **458 error lines** — 456 of them the same
+  five per-concept fields and one per-article field (`microtopicId`, `nanotopicId`,
+  `approvedFileResourceIds`, `approvedVideoResourceIds`, `resourceOccurrenceIds`, article
+  `aliases`) sitting blank without the `field_notes` justification this repo's convention
+  requires — a convention 31/118 concepts and 7/28 articles in this same file already
+  followed, just not consistently across blocks A-E. Fixed by adding the same boilerplate
+  reason already used elsewhere in this file (94 concepts, 21 articles touched; verified none
+  of them actually had a non-blank value being wrongly annotated). Re-run: **2 error lines**
+  — `concept.relatedArticleIds missing` (87/118 concepts) and
+  `article.articleData.relatedArticleIds missing` (21/28 articles). **Not fixed**: this field
+  has no `field_notes` escape hatch — it requires a real judgment call about which *other*
+  article is genuinely related to each concept, which a staging pass should not fabricate.
+  Flagged below as authoring debt, same pattern as AU-MED-102's own "46 untested concepts …
+  flagged for a dedicated authoring lane" above.
+
+**Law of voice — checked and fixed.** ~20 sentences across the article's `sections` fields
+and the question's `explanation_*` fields attributed a medical fact's truth to "the
+source"/"this source"/"this module" instead of stating it directly (e.g. "the source's
+correct answer is 'b or c'", "this source names X as determining Y", "the standard virology
+**textbook** definition"). Reworded to state the medicine directly in all cases; one edit
+(the antibiotic-resistance article's "Key determinants" section) required syncing the
+matching `## annotations` quote (`ann-inf-plasmidvschrom-001`) so the verbatim-quote check in
+`medical:batch` kept passing — caught by re-running the gate, not assumed. Left untouched: the
+`## field_notes` / `author_notes` / `source_citation` fields (provenance's correct home) and
+the "as tested by Chapters N" scope-description convention already used the same way in
+already-staged `AU-MED-102-embryology-articles.md` ("cross-checked against the module's own
+End of Module exam paper, which tests the volume…").
+
+**Reviewer / final publisher.** All 28 article records already carry the standing ruling
+(`reviewer: Medical team, Admin team` / `final_publisher: Admin team`) — checked every record,
+no fix needed.
+
+**Media-required, Draft-until-media.** Two questions cite a bacterial-growth-curve figure not
+reproduced here per media policy: `QST-ASU-INF-CH123-Q29` (`Priority: required`) and
+`QST-ASU-INF-CH123-Q22` (`Priority: strongly` recommended). Both already sit under
+`status: Draft` along with the rest of this module — no additional gate needed beyond the
+existing Draft status until the diagram is supplied via Library Setup → Media requests.
+
+**Answer-key gap, flagged for reviewer confirmation, not fixed by inventing a source.**
+`QST-ASU-INF-CH8910-Q18` (viral interference) has an unrecoverable printed key ("XXX",
+confirmed by direct visual read, not an OCR artifact). `correct_answer C` was set from
+independent standard-virology verification, not transcribed — disclosed in the question's own
+`explanation_c`, `author_notes` and `source_citation`, and in the concept's `uncertainty`
+field.
+
+**Not closed — reported, not fixed**, same as AU-MED-102's own backlog above: 87 of 118
+concepts and 21 of 28 articles have no `related_article_ids` cross-reference. Closing this
+needs a subject-matter pass deciding which other ASU-INF article each concept/article
+genuinely relates to; flagged for a dedicated authoring/finishing lane, not attempted here.
+
+---
+
 ## Before applying anything
 
 ```bash
