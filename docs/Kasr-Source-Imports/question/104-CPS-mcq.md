@@ -24,14 +24,16 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 38 questions, 8 concepts
+    Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
-    Physiology Respiratory System — Dead Space and Alveolar Ventilation — 4 questions, 2 concepts
+    Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
+    Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
+    Pulmonary Compliance — 4 questions, 2 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
@@ -47,7 +49,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  44 questions were excluded and 0 held back for having no
+  47 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -17253,6 +17255,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-979209CCFE6A
+## title
+Diacrotic wave is caused by: :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Diacrotic wave is caused by: :
+## answer_a
+escape of blood from the aorta to the periphery.
+## explanation_a
+Blood continuing to run off into the periphery is what produces the gradual fall of the catacrotic limb overall, not the small secondary rise that specifically follows the dicrotic notch.
+## answer_b
+elastic recoil of the aorta leading to increased aortic pressure.
+## explanation_b
+Correct. The dicrotic wave is the small rise in aortic pressure that follows the sharper dicrotic notch: once the aortic valve shuts, blood already moving toward it rebounds off the now-closed valve, and the aorta's own elastic recoil produces this brief secondary rise in pressure.
+
+Why this is right:
+- On the aortic pressure curve, the dicrotic notch is a sharp drop in pressure caused by closure of the aortic valve at the end of systole, and is followed by the dicrotic wave, a small rise caused by backwardly moving blood bouncing against the closed elastic aortic valve during isovolumetric relaxation.
+## answer_c
+aortic regurgitation of blood
+## explanation_c
+Aortic regurgitation is a pathological backflow of blood through an incompetent aortic valve; it is not the mechanism of the normal dicrotic wave, which occurs even with a perfectly competent valve.
+## answer_d
+increase aortic distension,
+## explanation_d
+The dicrotic wave reflects a brief further stretch from rebounding blood, not a sustained increase in aortic distension as such; describing it as increased distension does not capture that the wave comes specifically from elastic recoil against the closed valve.
+## correct_answer
+B
+## main_concept
+CON-CVS-F8BD2261B8CBDA
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that the dicrotic wave is caused by elastic recoil of the aorta against the newly closed aortic valve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q66. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-861C3EA2CAE6
 ## title
 Cardiac output is equal to:
@@ -19369,6 +19463,190 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-6DA96DA8C9C7
+## title
+Concerning alveolar ventilation, all is trué, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning alveolar ventilation, all is trué, except:
+## answer_a
+May be reduced while the pulmonary ventilation is normal
+## explanation_a
+True, so not the exception. A breathing pattern that keeps minute ventilation constant (e.g. shallow, rapid breathing) can still reduce alveolar ventilation, because a roughly fixed dead space takes a larger fraction of each smaller breath.
+## answer_b
+Is decreased by shallow rapid respiration
+## explanation_b
+True, so not the exception. Shallow rapid respiration wastes a larger share of each breath on the fixed dead space, lowering alveolar ventilation even if minute ventilation is unchanged.
+## answer_c
+Equals 350 ml x 16 at rest, |
+## explanation_c
+True, so not the exception. At a typical resting tidal volume of about 500 ml and dead space of about 150 ml, (500 - 150) x 16 = 350 x 16 matches a normal resting alveolar ventilation figure.
+## answer_d
+Equals tidal volume x respiratory rate
+## explanation_d
+The exception, and the answer. Tidal volume multiplied by respiratory rate gives minute (pulmonary) ventilation, not alveolar ventilation — alveolar ventilation equals (tidal volume minus dead space volume) times respiratory rate, subtracting the dead space's share first.
+
+Why this is right:
+- Of each breath's tidal volume, only the portion beyond the anatomical dead space reaches alveoli that can exchange gas; the dead space's own share is rebreathed without ever taking part in exchange.
+## correct_answer
+D
+## main_concept
+CON-RES-7EEDA8B6F0B402
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Dead Space and Alveolar Ventilation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify tidal volume x respiratory rate as minute ventilation, not alveolar ventilation, and reject it as the exception.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p42 q129. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6A858115EB46
+## title
+The total amount of air that does not undergo gas exchange because of alveolar disease …
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The total amount of air that does not undergo gas exchange because of alveolar disease in addition to the air that cannot reach the alveoli is termed:
+## answer_a
+Anatomical dead space
+## explanation_a
+Anatomical dead space accounts only for air that never reaches the alveoli at all (the conducting airways); it does not include the additional loss from diseased, ventilated-but-unperfused alveoli that the stem also describes.
+## answer_b
+Physiologic dead space
+## explanation_b
+Correct. Physiologic dead space is defined precisely as anatomical dead space (air that never reaches an alveolus) plus alveolar dead space (air that reaches a ventilated alveolus but cannot exchange gas there because of alveolar disease) — exactly the sum the stem describes.
+
+Why this is right:
+- Physiologic dead space is the total volume of each breath that takes no part in gas exchange.
+## answer_c
+Residual volume
+## explanation_c
+Residual volume is the air remaining in the lungs after a maximal forced expiration, an unrelated lung volume with no connection to gas exchange or dead space.
+## answer_d
+Vital capacity
+## explanation_d
+Vital capacity is the maximum volume that can be exhaled after a maximum inspiration, an unrelated lung volume with no connection to dead space.
+## correct_answer
+B
+## main_concept
+CON-RES-343F3DA67B85A6
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology Respiratory System — Dead Space and Alveolar Ventilation
+## subtopic
+Physiology Respiratory System — Dead Space and Alveolar Ventilation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Define physiologic dead space as anatomical dead space plus alveolar dead space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q88. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-B596A0B0E8DE
 ## title
 During which of the foliowing would the intra-pleura! pressure be greater than atmosphe…
@@ -19921,6 +20199,1662 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-B9878D1AA012
+## title
+Functional residual capacity: :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Functional residual capacity: :
+## answer_a
+Residual volume + tidal volume
+## explanation_a
+Residual volume plus tidal volume is not a named capacity; FRC pairs residual volume with expiratory reserve volume, not tidal volume.
+## answer_b
+Residual volume + Expiratory reserve volume
+## explanation_b
+Correct. Functional residual capacity is the air left in the lungs after a normal tidal expiration, and it is composed of the two volumes below tidal breathing: expiratory reserve volume plus residual volume (FRC = ERV + RV).
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_c
+Total lung capacity — tidal volume
+## explanation_c
+Total lung capacity minus tidal volume does not equal FRC; TLC minus vital capacity equals residual volume, and FRC is ERV + RV, a different combination.
+## answer_d
+Tidal volume + inspiratory reserve volume
+## explanation_d
+Tidal volume plus inspiratory reserve volume is inspiratory capacity, not functional residual capacity — the two capacities sit on opposite sides of a normal tidal breath.
+## correct_answer
+B
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that functional residual capacity equals expiratory reserve volume plus residual volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q62. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4160E4FD11D8
+## title
+If the vital capacity is 4.5L and the tidal volume is 525cc, then what is the inspirato…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+If the vital capacity is 4.5L and the tidal volume is 525cc, then what is the inspiratory | reserve volume?
+## answer_a
+3975mL ‏ا‎
+## explanation_a
+3975 mL follows only from VC - TV (4.5 L - 0.525 L) treated as if it were IRV alone, which wrongly assumes ERV is zero — a real lung has a non-zero expiratory reserve volume, so this arithmetic does not give IRV.
+## answer_b
+2075mL
+## explanation_b
+2075 mL does not follow from any correct rearrangement of the lung-volume formulas using only the two figures given; it cannot be derived without also knowing ERV.
+## answer_c
+1050mL
+## explanation_c
+1050 mL likewise does not follow from a valid calculation using only vital capacity and tidal volume; it would require an assumed ERV that the question does not supply.
+## answer_d
+Cannot be determined from the information given
+## explanation_d
+Correct. Inspiratory reserve volume equals vital capacity minus tidal volume minus expiratory reserve volume (IRV = VC - TV - ERV). Vital capacity and tidal volume alone leave expiratory reserve volume unknown, so IRV cannot be isolated from only these two figures — a third figure (ERV, or an equivalent such as FRC and RV) is needed.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Calculation
+## learning_objective
+Recognise that inspiratory reserve volume cannot be calculated from vital capacity and tidal volume alone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q57. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C3830B612297
+## title
+Inspiratory capacity is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Inspiratory capacity is:
+## answer_a
+The total amount of air that can be inspired after a tidal expiration 0
+## explanation_a
+Correct. Inspiratory capacity is the maximum volume that can be inspired starting from the end of a normal tidal expiration — it equals tidal volume plus inspiratory reserve volume (IC = TV + IRV).
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_b
+The total amount of exchangeable air
+## explanation_b
+"The total amount of exchangeable air" more closely describes vital capacity, the full range between maximal inspiration and maximal expiration, not inspiratory capacity, which starts only from the end of a normal tidal breath.
+## answer_c
+Another name for functional residual capacity
+## explanation_c
+Inspiratory capacity is not another name for functional residual capacity; the two are different capacities measured from opposite ends of a normal tidal breath (IC = TV + IRV; FRC = ERV + RV).
+## answer_d
+The amount of air inspired after a tidal inspiration
+## explanation_d
+Air inspired after a normal tidal inspiration, rather than after a tidal expiration, is not a named lung capacity in this scheme; inspiratory capacity is measured starting from the end of expiration, not from a point already at the top of a tidal breath.
+## correct_answer
+A
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define inspiratory capacity as tidal volume plus inspiratory reserve volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q67. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DF5F0401FB4D
+## title
+Total lung capacity is equal to:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Total lung capacity is equal to:
+## answer_a
+Vital capacity x Tidal volume
+## explanation_a
+Vital capacity multiplied by tidal volume is not a meaningful physiological quantity and does not equal total lung capacity, which is a sum of volumes, not a product.
+## answer_b
+Functional residual capacity + Expiratory reserve volume
+## explanation_b
+Functional residual capacity plus expiratory reserve volume double-counts ERV (FRC already includes it, since FRC = ERV + RV) and omits inspiratory reserve volume and tidal volume entirely, so it cannot equal total lung capacity.
+## answer_c
+Anatomical dead space + Alveolar dead space
+## explanation_c
+Anatomical dead space plus alveolar dead space is the definition of physiologic dead space, an airway-conduction concept unrelated to total lung capacity, which is a sum of lung volumes.
+## answer_d
+Residual volume + Vital capacity
+## explanation_d
+Correct. Total lung capacity is all the air the lungs can hold, and it equals residual volume plus vital capacity (TLC = RV + VC) — the one volume never expired (RV) added to the full range that can be (VC).
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that total lung capacity equals residual volume plus vital capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q58. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2F9036136239
+## title
+Vital capacity includes all the following luag volumes, except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Vital capacity includes all the following luag volumes, except:
+## answer_a
+Inspiratory reserve volume
+## explanation_a
+Inspiratory reserve volume is one of the three volumes that make up vital capacity, so not the exception.
+## answer_b
+Expiratory reserve volume
+## explanation_b
+Expiratory reserve volume is one of the three volumes that make up vital capacity, so not the exception.
+## answer_c
+Tidal volume
+## explanation_c
+Tidal volume is one of the three volumes that make up vital capacity, so not the exception.
+## answer_d
+Residual volume ,
+## explanation_d
+The exception, and the answer. Vital capacity is the sum of inspiratory reserve volume, tidal volume and expiratory reserve volume (VC = IRV + TV + ERV); residual volume is specifically excluded, since it is the air that can never be exhaled and so cannot contribute to a volume defined by maximal exhalation.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a false statement
+## learning_objective
+Identify residual volume as excluded from vital capacity, unlike IRV, TV and ERV.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p26 q7. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A96484D6961C
+## title
+Vital capacity is
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Vital capacity is
+## answer_a
+Volume of air that can be maximally expired after maximum inspiration
+## explanation_a
+Correct. Vital capacity is the maximum volume of air that can be forcibly expired after a maximum inspiration — the full range of a lung's usable volume, excluding only the residual volume that can never be exhaled.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_b
+More in pregnant women
+## explanation_b
+Vital capacity is typically reduced, not increased, in pregnancy: the enlarging uterus elevates the diaphragm and reduces the space available for lung expansion.
+## answer_c
+Equals total lung capacity minus tidal volume
+## explanation_c
+Total lung capacity minus tidal volume does not equal vital capacity; TLC minus residual volume equals vital capacity (TLC = VC + RV), a different subtraction.
+## answer_d
+More in females by 10%
+## explanation_d
+Vital capacity is generally lower in females than in males, reflecting smaller average body and lung size, not higher by 10% — this reverses the usual sex difference.
+## correct_answer
+A
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Define vital capacity and reject common false claims about sex- and pregnancy-related differences in it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p33 q60. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6A83916ADD1C
+## title
+Volume of air inspired above tidal volume is called
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Volume of air inspired above tidal volume is called
+## answer_a
+Residual volume
+## explanation_a
+Residual volume is the air remaining after maximal expiration, unrelated to air inspired above tidal volume.
+## answer_b
+Inspiratory capacity :
+## explanation_b
+Inspiratory capacity is tidal volume plus inspiratory reserve volume together (IC = TV + IRV), not the extra volume alone — the extra volume by itself is IRV, not IC.
+## answer_c
+Total lung capacity
+## explanation_c
+Total lung capacity is the sum of all four lung volumes, not specifically the air inspired above a tidal breath.
+## answer_d
+Inspiratory reserve volume ;
+## explanation_d
+Correct. The extra air that can be inspired above a normal tidal inspiration is the inspiratory reserve volume, by definition.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name inspiratory reserve volume as the extra air inspired above a normal tidal inspiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q66. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C1C37DF3F079
+## title
+Which of the following variables must be known to calculate inspiratory reserve volume? ;
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following variables must be known to calculate inspiratory reserve volume? ;
+## answer_a
+Tidal volume and expiratory reserve volume
+## explanation_a
+Tidal volume and expiratory reserve volume alone omit vital capacity, without which IRV cannot be isolated from the VC = IRV + TV + ERV relationship.
+## answer_b
+Tidal volume and residual volume
+## explanation_b
+Tidal volume and residual volume are not part of the vital-capacity relationship that IRV comes from (VC = IRV + TV + ERV); residual volume does not appear in that equation at all.
+## answer_c
+Tidal volume, vital capacity and expiratory reserve volume 8
+## explanation_c
+Correct. Vital capacity equals inspiratory reserve volume plus tidal volume plus expiratory reserve volume (VC = IRV + TV + ERV), so rearranging gives IRV = VC - TV - ERV: exactly tidal volume, vital capacity and expiratory reserve volume, and no other variable, are needed.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_d
+Tidal volume, vital capacity and residual volume
+## explanation_d
+Tidal volume, vital capacity and residual volume includes a variable (RV) that IRV's formula does not use, while never substituting for the expiratory reserve volume the formula actually needs.
+## correct_answer
+C
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+State that IRV = VC - TV - ERV, so exactly tidal volume, vital capacity and expiratory reserve volume are needed to calculate it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p40 q113. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BF0921348E45
+## title
+Which volume or capacity remains in the lungs after a tidal volume is expired?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which volume or capacity remains in the lungs after a tidal volume is expired?
+## answer_a
+Vital capacity LO
+## explanation_a
+Vital capacity is the full range of air that can move in and out of the lungs, not the volume left after one tidal breath is expired.
+## answer_b
+Expiratory reserve volume
+## explanation_b
+Expiratory reserve volume is only part of what remains after a tidal expiration; residual volume remains too, and together they make up functional residual capacity, the more complete answer.
+## answer_c
+Residual volume
+## explanation_c
+Residual volume is only part of what remains after a tidal expiration; expiratory reserve volume also remains, and together the two make up functional residual capacity.
+## answer_d
+Functional residual capacity 1
+## explanation_d
+Correct. What remains in the lungs after a normal tidal volume is expired is the functional residual capacity — the combination of expiratory reserve volume and residual volume still present at the resting end-expiratory point.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## correct_answer
+D
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify functional residual capacity as what remains after a tidal volume is expired.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p26 q5. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8309B5EFD457
+## title
+Which volume remains in the lungs after a tidal volume (TY) is expired?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which volume remains in the lungs after a tidal volume (TY) is expired?
+## answer_a
+Functional residual capacity (FRC)
+## explanation_a
+Correct. What remains in the lungs after a tidal volume is expired is the functional residual capacity — expiratory reserve volume plus residual volume together, the lung's resting end-expiratory volume.
+
+Why this is right:
+- The four lung volumes are non-overlapping: tidal volume (TV, about 500 mL, the air moved in a normal quiet breath), inspiratory reserve volume (IRV, about 3000 mL, the extra air that can be inspired above a normal tidal inspiration), expiratory reserve volume (ERV, about 1100 mL, the extra air that can be forcibly expired after a normal tidal expiration), and residual volume (RV, about 1200 mL, the air remaining in the lungs after a maximal forced expiration, which can never be exhaled and so cannot be measured by spirometry).
+## answer_b
+Vital capacity (VC)
+## explanation_b
+Vital capacity is the full range of air that can be moved in and out of the lungs, not the volume that remains after a single tidal breath is expired.
+## answer_c
+Expiratory reserve volume (ERV)
+## explanation_c
+Expiratory reserve volume alone is only part of what remains; residual volume also remains, and the two together are properly named functional residual capacity.
+## answer_d
+Residual volume (RV)
+## explanation_d
+Residual volume alone is only part of what remains; expiratory reserve volume also remains, and the two together are properly named functional residual capacity.
+## correct_answer
+A
+## main_concept
+CON-RES-C233E747065BC1
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Identify functional residual capacity as what remains after a tidal volume is expired.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p34 q63. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DA6C978983D7
+## title
+All of the following increase the work of breathing Except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All of the following increase the work of breathing Except:
+## answer_a
+Bronchial asthma
+## explanation_a
+Bronchial asthma narrows the airways and raises frictional (airway) resistance, genuinely increasing the work of breathing — an obstructive cause, not the exception.
+## answer_b
+Lung fibrosis
+## explanation_b
+Lung fibrosis stiffens the lung with excess fibrous tissue, lowering its compliance and raising elastic resistance — a restrictive cause of increased work of breathing, not the exception.
+## answer_c
+Normal surfactant amount
+## explanation_c
+The exception, and the answer. A normal amount of surfactant lowers alveolar surface tension, the larger share of the lung's elastic resistance, and so reduces — rather than increases — the work of breathing; only a surfactant deficiency, not a normal amount, raises it.
+
+Why this is right:
+- The work of breathing is spent against three loads: the elastic resistance of the lung and chest wall (stretching them to change volume), the frictional (viscous) resistance of gas flowing through the airways, and the much smaller inertia of the moving tissues and gas.
+## answer_d
+Kyphoscoliosis
+## explanation_d
+Kyphoscoliosis deforms and stiffens the chest wall, raising the elastic resistance the respiratory muscles must overcome — a restrictive cause of increased work of breathing, not the exception.
+## correct_answer
+C
+## main_concept
+CON-RES-90B75FE43DC190
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify a normal amount of surfactant as reducing, not increasing, the work of breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p12 q84. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7D5597242787
+## title
+In a normally breathing individual maximum amount of work of breathing is required to o…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In a normally breathing individual maximum amount of work of breathing is required to overcome:
+## answer_a
+Elastic resistance
+## explanation_a
+Correct. In a normally breathing individual, most of the work of breathing is spent stretching the lung and chest wall against their elastic resistance — chiefly the surface tension of the alveolar lining fluid — the largest of the three loads (elastic resistance, frictional/airway resistance, and inertia) during quiet breathing.
+
+Why this is right:
+- The work of breathing is spent against three loads: the elastic resistance of the lung and chest wall (stretching them to change volume), the frictional (viscous) resistance of gas flowing through the airways, and the much smaller inertia of the moving tissues and gas.
+## answer_b
+Frictional resistance
+## explanation_b
+Frictional (airway) resistance is a real component of the work of breathing, but in a normally breathing individual it is smaller than elastic resistance; it becomes the dominant load only once it is pathologically raised, as in airway obstruction.
+## answer_c
+Inertia
+## explanation_c
+Inertia — resistance to acceleration of the moving gas and tissues — is the smallest of the three loads in normal breathing and is not the answer here.
+## answer_d
+Muscle relaxants
+## explanation_d
+Muscle relaxants are not a component of the work of breathing at all; they are a pharmacological agent, not one of the physical loads the respiratory muscles work against.
+## correct_answer
+A
+## main_concept
+CON-RES-90B75FE43DC190
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that elastic resistance is the largest component of the work of breathing in normal quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q46. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AC90DB37417C
+## title
+In an asthmatic patient which of the following abnormalities is most likely to be seen?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In an asthmatic patient which of the following abnormalities is most likely to be seen?
+## answer_a
+Decreased residual volume 1
+## explanation_a
+Residual volume is increased, not decreased, in asthma: airway narrowing causes air trapping, leaving more air in the lungs after a maximal expiration than normal.
+## answer_b
+Decreased FEV 1/FVC ratio
+## explanation_b
+Correct. Airway narrowing in asthma slows forced expiration disproportionately to any change in the total volume expired, so the FEV1/FVC ratio falls — the defining functional signature of an obstructive pattern.
+
+Why this is right:
+- Obstructive disease (e.g.
+## answer_c
+Increased FVC
+## explanation_c
+FVC (forced vital capacity) is typically reduced or unchanged in asthma, not increased; air trapping raises residual volume, which leaves less room for vital capacity, if anything.
+## answer_d
+Increased FEV1
+## explanation_d
+FEV1 (forced expiratory volume in one second) is decreased in asthma, not increased, precisely because the narrowed airways slow the rate of forced expiration.
+## correct_answer
+B
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Identify a decreased FEV1/FVC ratio as the defining PFT abnormality of asthma.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p35 q74. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-B127BA5DF416
+## title
+In Emphysema which of the following abnormalities is most likely to be seen?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In Emphysema which of the following abnormalities is most likely to be seen?
+## answer_a
+Decreased functional residual capacity
+## explanation_a
+Functional residual capacity is increased in emphysema, not decreased: destroyed elastic fibres reduce lung recoil, so the lung comes to rest at a larger volume.
+## answer_b
+Decreased residual volume
+## explanation_b
+Residual volume is increased, not decreased, in emphysema: loss of elastic recoil and airway collapse on forced expiration trap air, raising the volume left in the lungs after maximal expiration.
+## answer_c
+Increased FEV 1/FVC ratio
+## explanation_c
+The FEV1/FVC ratio is decreased, not increased, in emphysema — it is an obstructive disease, and airway narrowing/collapse slows forced expiration relative to the volume expired.
+## answer_d
+Increased total lung capacity ; ,
+## explanation_d
+Correct. Emphysema destroys alveolar walls and elastic fibres, reducing lung recoil so the lung is easier to inflate (increased compliance) and comes to rest, and can be inflated, to a larger volume — total lung capacity rises above normal, a hallmark of emphysema's hyperinflation.
+
+Why this is right:
+- Obstructive disease (e.g.
+## correct_answer
+D
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify increased total lung capacity as a hallmark finding of emphysema.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p35 q75. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7C8AF4C66760
+## title
+In obstructive lung disease which of following abnormalities is most likely to be seen? :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In obstructive lung disease which of following abnormalities is most likely to be seen? :
+## answer_a
+Decreased functional residual capacity :
+## explanation_a
+FRC is increased, not decreased, in obstructive lung disease: airway narrowing and loss of recoil (in emphysema) or airway collapse on expiration (in asthma) trap air and raise the resting lung volume.
+## answer_b
+Decreased total lung capacity
+## explanation_b
+TLC is preserved or increased in obstructive disease, not decreased — a decreased TLC is instead the hallmark of a restrictive pattern.
+## answer_c
+Increased FEV 1/FVC /
+## explanation_c
+The FEV1/FVC ratio is decreased in obstructive disease, not increased; a preserved or increased ratio is instead characteristic of a restrictive pattern, where the stiff lung still empties quickly relative to its reduced volume.
+## answer_d
+Increased residual volume
+## explanation_d
+Correct. Air trapping from airway narrowing, collapse on expiration or lost elastic recoil raises the volume of air remaining after maximal expiration — residual volume is increased, the classic obstructive-pattern finding.
+
+Why this is right:
+- Obstructive disease (e.g.
+## correct_answer
+D
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify increased residual volume as the classic obstructive-pattern finding.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p35 q76. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E42C4C52580F
+## title
+Which of the following is a characteristic of emphysema but not of pu
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is a characteristic of emphysema but not of pu
+## answer_a
+Hypoxemia /
+## explanation_a
+Hypoxaemia can occur in both emphysema and pulmonary oedema (both impair gas exchange), so it does not distinguish emphysema specifically — the stem asks for a feature of emphysema that pulmonary oedema does not share.
+## answer_b
+F ditisiod barrier is created between the alveolar air and the blood
+## explanation_b
+A diffusion barrier is created between the alveolar air and the blood — recovered here from this question's parallel clean occurrence (`which-of-the-following-is-a-characteristic-of-emphysema-but-be11426a`), this option's own text is OCR-garbled in this occurrence's source scan. A thickened diffusion barrier is the defining lesion of pulmonary oedema (fluid thickens the path gas must cross), not of emphysema, where alveolar walls are destroyed rather than thickened — so this favours oedema, not the answer for emphysema.
+## answer_c
+Abnormally high lung compliance
+## explanation_c
+Correct. Emphysema destroys alveolar walls and elastic fibres, so the lung loses recoil and becomes abnormally easy to inflate — an abnormally high compliance. Pulmonary oedema instead fills the interstitium and alveoli with fluid, which stiffens the lung and lowers compliance, the opposite change — so high compliance is specific to emphysema here.
+
+Why this is right:
+- Obstructive disease (e.g.
+## answer_d
+Abnormally low airway resistance
+## explanation_d
+Airway resistance is not characteristically low in emphysema; loss of the radial traction elastic tissue normally provides on small airways tends to let them collapse and narrow on expiration, if anything raising resistance rather than lowering it.
+## correct_answer
+C
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Comparison
+## learning_objective
+Identify abnormally high lung compliance as a feature specific to emphysema, not shared by pulmonary oedema.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p6 q44. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-96CFE79A6510
+## title
+Which of the following is a characteristic of emphysema but not of pulmonary edema?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is a characteristic of emphysema but not of pulmonary edema?
+## answer_a
+Hypoxemia
+## explanation_a
+Hypoxaemia can occur in both emphysema and pulmonary oedema (both impair gas exchange), so it does not distinguish emphysema specifically — the stem asks for a feature of emphysema that pulmonary oedema does not share.
+## answer_b
+A diffusion barrier is created between the alveolar air and the blood
+## explanation_b
+A diffusion barrier created between the alveolar air and the blood is the defining lesion of pulmonary oedema (fluid thickens the path gas must cross), not of emphysema, where alveolar walls are destroyed rather than thickened — so this favours oedema, not the answer for emphysema.
+## answer_c
+Abnormally high lung compliance
+## explanation_c
+Correct. Emphysema destroys alveolar walls and elastic fibres, so the lung loses recoil and becomes abnormally easy to inflate — an abnormally high compliance. Pulmonary oedema instead fills the interstitium and alveoli with fluid, which stiffens the lung and lowers compliance, the opposite change — so high compliance is specific to emphysema here.
+
+Why this is right:
+- Obstructive disease (e.g.
+## answer_d
+Abnormally low airway resistance
+## explanation_d
+Airway resistance is not characteristically low in emphysema; loss of the radial traction elastic tissue normally provides on small airways tends to let them collapse and narrow on expiration, if anything raising resistance rather than lowering it.
+## correct_answer
+C
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Identify abnormally high lung compliance as a feature specific to emphysema, not shared by pulmonary oedema.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p31 q45. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D5ADB2207CD6
+## title
+Which one of the following would increase in obstructive, but not in restrictive, lung …
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following would increase in obstructive, but not in restrictive, lung disease?
+## answer_a
+Vital capacity
+## explanation_a
+Vital capacity falls in both obstructive and restrictive disease (from air trapping in the former, from a stiffened smaller lung in the latter), so it does not selectively rise in obstructive disease only.
+## answer_b
+Maximum breathing capacity
+## explanation_b
+Maximum breathing capacity falls in obstructive disease, where airway narrowing limits how much air can be moved per minute — it does not rise.
+## answer_c
+FEV1
+## explanation_c
+FEV1 falls in obstructive disease, since airway narrowing slows forced expiration — it does not rise.
+## answer_d
+Functional residual capacity
+## explanation_d
+Correct. Functional residual capacity rises in obstructive disease, from air trapping (airway narrowing or collapse on expiration) or from lost elastic recoil in emphysema, while it falls in restrictive disease, where the lung and/or chest wall are stiffened and volumes shrink together — making FRC one of the few measurements that moves in opposite directions in the two patterns.
+
+Why this is right:
+- Obstructive disease (e.g.
+## correct_answer
+D
+## main_concept
+CON-RES-AE456F22F85B5F
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Comparison
+## learning_objective
+Identify functional residual capacity as rising in obstructive disease while falling in restrictive disease.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q47. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-B8531BD16D23
 ## title
 Inspiration occurs when: 1 ١
@@ -20371,6 +22305,282 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p27 q8. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8EB8278026A7
+## title
+A major function of surfactant is to increase:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A major function of surfactant is to increase:
+## answer_a
+Alveolar surface tension ~~
+## explanation_a
+Surfactant lowers alveolar surface tension; it does not increase it. Raising surface tension is what happens in its absence, not what it does.
+## answer_b
+Pulmonary compliance 1
+## explanation_b
+Correct. Surfactant's whole mechanism is to lower alveolar surface tension, and because surface tension is the larger source of the lung's elastic resistance, lowering it makes the lung easier to inflate — surfactant increases pulmonary compliance.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_c
+Release of O2 from hemoglobin in alveolar capillaries
+## explanation_c
+Surfactant acts on the mechanics of lung inflation, not on gas exchange or haemoglobin's affinity for oxygen; it has no role in releasing O2 from haemoglobin in the capillaries.
+## answer_d
+The work of breathing
+## explanation_d
+Surfactant reduces the work of breathing, by increasing compliance, rather than increasing it — the opposite of this option's claim.
+## correct_answer
+B
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that surfactant's major effect is to increase pulmonary compliance, not surface tension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q37. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5BC5BE6C336B
+## title
+A preterm infant has a surfactant deficiency. Without surfactant, many of the alveoli c…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A preterm infant has a surfactant deficiency. Without surfactant, many of the alveoli collapse at end of each expiration, which in turn leads to pulmonary failure. Which of following sets of changes are present in preterm infant, compared to a normal infant? Alveolar surface tension Pulmonary Compliance
+## answer_a
+Decreased Decreased
+## explanation_a
+Surface tension is increased, not decreased, without surfactant — surfactant's whole function is to lower surface tension, so its absence raises it.
+## answer_b
+Decreased No Change
+## explanation_b
+Surface tension is increased (not decreased) without surfactant, and compliance also falls as a direct consequence — it does not stay unchanged.
+## answer_c
+Increased No Change
+## explanation_c
+Surface tension is correctly identified as increased here, but compliance also falls as a direct result of the raised surface tension; it does not remain unchanged.
+## answer_d
+Increased Decreased
+## explanation_d
+Correct. Without surfactant, alveolar surface tension is markedly increased — surfactant's whole role is to lower it — and that increased surface tension directly stiffens the lung, decreasing pulmonary compliance. Together these explain why a surfactant-deficient preterm infant needs much greater inspiratory pressure to expand the lungs and why alveoli progressively collapse at the end of each expiration.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Pulmonary Compliance
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Predict increased alveolar surface tension and decreased pulmonary compliance in a surfactant-deficient preterm infant.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p11 q82. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-94CE41EB9958
+## title
+Lung compliance is'increased in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Lung compliance is'increased in:
+## answer_a
+Pulmonary emphysema
+## explanation_a
+Correct. Emphysema destroys alveolar walls and the elastin and collagen fibres within them, reducing the lung's elastic recoil and making it abnormally easy to inflate — the classic 'floppy lung' of increased compliance.
+
+Why this is right:
+- Pulmonary compliance is the change in lung volume produced per unit change in distending pressure — a measure of how easy the lung is to stretch.
+## answer_b
+Pulmonary fibrosis
+## explanation_b
+Pulmonary fibrosis stiffens the lung with excess fibrous tissue, decreasing — not increasing — compliance.
+## answer_c
+‘Surfactant deficiency
+## explanation_c
+Surfactant deficiency raises alveolar surface tension, stiffening the lung and decreasing — not increasing — compliance.
+## answer_d
+acute pulmonaryedema
+## explanation_d
+Acute pulmonary oedema fills the interstitium and alveoli with fluid, stiffening the lung and decreasing — not increasing — compliance.
+## correct_answer
+A
+## main_concept
+CON-RES-AA4C2193995295
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Pulmonary Compliance
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Pulmonary Compliance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify emphysema as the condition among these four that increases, rather than decreases, pulmonary compliance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p49 q21. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

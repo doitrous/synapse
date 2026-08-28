@@ -571,5 +571,22 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: 'Only 2 of 4 options (B, D) survived transcription, both further garbled by OCR ("sovolumetric" for "isovolumetric"), well below the platform\'s 4-to-5-option import contract. The same fact, with all 4 options intact, is already established by this leaf\'s own which-of-the-following-is-the-normal-order-arrangement-of-ca-ae2b57bd question.',
     },
+    {
+      // Bank-tagged leaf: "Pulmonary Compliance" (mistagged; a dicrotic-wave
+      // question is Cardiac Function content, not respiratory). Re-routed
+      // here rather than authored under the Pulmonary Compliance leaf files,
+      // per PROGRESS.md.
+      key: 'diacrotic-wave-is-caused-by-1d91da8b',
+      conceptKey: 'aortic-pressure-curve.limbs-and-dicrotic-notch',
+      difficulty: 'Moderate',
+      questionType: 'Recall',
+      learningObjective: 'State that the dicrotic wave is caused by elastic recoil of the aorta against the newly closed aortic valve.',
+      explanations: {
+        A: 'Blood continuing to run off into the periphery is what produces the gradual fall of the catacrotic limb overall, not the small secondary rise that specifically follows the dicrotic notch.',
+        B: 'Correct. The dicrotic wave is the small rise in aortic pressure that follows the sharper dicrotic notch: once the aortic valve shuts, blood already moving toward it rebounds off the now-closed valve, and the aorta\'s own elastic recoil produces this brief secondary rise in pressure.',
+        C: 'Aortic regurgitation is a pathological backflow of blood through an incompetent aortic valve; it is not the mechanism of the normal dicrotic wave, which occurs even with a perfectly competent valve.',
+        D: 'The dicrotic wave reflects a brief further stretch from rebounding blood, not a sustained increase in aortic distension as such; describing it as increased distension does not capture that the wave comes specifically from elastic recoil against the closed valve.',
+      },
+    },
   ],
 }

@@ -32,6 +32,19 @@ export const LEAF: McqLeafSeed = {
       type: "mechanism",
       aliases: ["Alveolar ventilation formula", "VA = (TV - VD) x RR"],
     },
+    {
+      key: "dead-space.physiologic-equals-anatomical-plus-alveolar",
+      label: "Physiologic dead space is anatomical dead space (conducting-airway air) plus alveolar dead space (air reaching ventilated but unperfused alveoli), and normally equals the anatomical figure alone",
+      definition: "Physiologic dead space is the total volume of each breath that takes no part in gas exchange. It has two components: anatomical dead space, the air that never reaches an alveolus at all because it sits in the conducting airways, and alveolar dead space, the air that does reach an alveolus but cannot exchange gas there because that alveolus is diseased or under-perfused. In a healthy lung essentially every ventilated alveolus is also perfused, so alveolar dead space is negligible and physiologic dead space is essentially equal to the anatomical figure; alveolar disease that ventilates alveoli without perfusing them (e.g. a pulmonary embolus) is what makes physiologic dead space rise above the anatomical figure.",
+      objective: "Define physiologic dead space as anatomical dead space plus alveolar dead space, and state that it normally equals the anatomical figure because alveolar dead space is negligible in health.",
+      pitfall: "Treating anatomical dead space and physiologic dead space as always identical. They are equal only when every ventilated alveolus is also perfused; alveolar disease that ventilates without perfusing (raising alveolar dead space) is exactly what makes the two figures diverge.",
+      subject: "resp",
+      primary: "DIS-PHY-T03",
+      secondary: [],
+      modulePath: "104 CPS > Physiology > Respiratory System > Organization of the Respiratory System",
+      type: "definition",
+      aliases: ["Physiologic dead space", "Anatomical vs physiologic dead space", "Alveolar dead space"],
+    },
   ],
 
   questions: [
@@ -83,6 +96,32 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "Option A's text is an OCR merge of what should be two separate choices ('dead space' and 'shunt' run together with garbled characters between them), collapsing 4 intended options (dead space, shunt, low V/Q, V/Q=0) into only 3 selectable slots — below the platform's 4-to-5-option import contract.",
+    },
+    {
+      key: "concerning-alveolar-ventilation-all-is-tru-except-76ff61c7",
+      conceptKey: "alveolar-ventilation.calculation-formula",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify tidal volume x respiratory rate as minute ventilation, not alveolar ventilation, and reject it as the exception.",
+      explanations: {
+        A: "True, so not the exception. A breathing pattern that keeps minute ventilation constant (e.g. shallow, rapid breathing) can still reduce alveolar ventilation, because a roughly fixed dead space takes a larger fraction of each smaller breath.",
+        B: "True, so not the exception. Shallow rapid respiration wastes a larger share of each breath on the fixed dead space, lowering alveolar ventilation even if minute ventilation is unchanged.",
+        C: "True, so not the exception. At a typical resting tidal volume of about 500 ml and dead space of about 150 ml, (500 - 150) x 16 = 350 x 16 matches a normal resting alveolar ventilation figure.",
+        D: "The exception, and the answer. Tidal volume multiplied by respiratory rate gives minute (pulmonary) ventilation, not alveolar ventilation — alveolar ventilation equals (tidal volume minus dead space volume) times respiratory rate, subtracting the dead space's share first.",
+      },
+    },
+    {
+      key: "the-total-amount-of-air-that-does-not-undergo-gas-exchange-b-16470694",
+      conceptKey: "dead-space.physiologic-equals-anatomical-plus-alveolar",
+      difficulty: "Moderate",
+      questionType: "Definition",
+      learningObjective: "Define physiologic dead space as anatomical dead space plus alveolar dead space.",
+      explanations: {
+        A: "Anatomical dead space accounts only for air that never reaches the alveoli at all (the conducting airways); it does not include the additional loss from diseased, ventilated-but-unperfused alveoli that the stem also describes.",
+        B: "Correct. Physiologic dead space is defined precisely as anatomical dead space (air that never reaches an alveolus) plus alveolar dead space (air that reaches a ventilated alveolus but cannot exchange gas there because of alveolar disease) — exactly the sum the stem describes.",
+        C: "Residual volume is the air remaining in the lungs after a maximal forced expiration, an unrelated lung volume with no connection to gas exchange or dead space.",
+        D: "Vital capacity is the maximum volume that can be exhaled after a maximum inspiration, an unrelated lung volume with no connection to dead space.",
+      },
     },
   ],
 }
