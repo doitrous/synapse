@@ -4365,6 +4365,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-HOST-RELATIONSHIPS-NORMAL-FLORA
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4532,6 +4533,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-HOST-RELATIONSHIPS-NORMAL-FLORA
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4699,6 +4701,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4866,6 +4869,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5033,6 +5037,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5200,6 +5205,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5367,6 +5373,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5534,6 +5541,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5701,6 +5709,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5868,6 +5877,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -6035,6 +6045,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -6202,6 +6213,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -6369,6 +6381,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -6536,6 +6549,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -6703,6 +6717,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -6870,6 +6885,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -7037,6 +7053,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -7204,6 +7221,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -7371,6 +7389,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -7538,6 +7557,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -7705,6 +7725,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -7872,6 +7893,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-VARIATION-TRANSFER
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -8039,6 +8061,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-VARIATION-TRANSFER
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -8263,6 +8286,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -8430,6 +8454,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAPHYLOCOCCUS-STREPTOCOCCUS-ID
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -8597,6 +8622,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -8764,6 +8790,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -8931,6 +8958,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAPHYLOCOCCUS-STREPTOCOCCUS-ID
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -9098,6 +9126,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -9265,6 +9294,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -9432,6 +9462,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -9599,6 +9630,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -9766,6 +9798,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -9933,6 +9966,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-STEWARDSHIP
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -10100,6 +10134,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ENTEROBACTERIACEAE-GRAM-NEGATIVE-NOSOCOMIAL
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -10267,6 +10302,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -10434,6 +10470,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ENTEROBACTERIACEAE-GRAM-NEGATIVE-NOSOCOMIAL
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -10601,6 +10638,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ENTEROBACTERIACEAE-GRAM-NEGATIVE-NOSOCOMIAL
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -10768,6 +10806,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -10965,6 +11004,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -11132,6 +11172,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-STEWARDSHIP
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -11299,6 +11340,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -11466,6 +11508,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-STEWARDSHIP
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -11633,6 +11676,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -11800,6 +11844,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-STEWARDSHIP
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -11967,6 +12012,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -12134,6 +12180,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -12301,6 +12348,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -12498,6 +12546,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-DIAGNOSIS-ANTIFUNGAL-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -12665,6 +12714,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-DIAGNOSIS-ANTIFUNGAL-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -12832,6 +12882,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -12999,6 +13050,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-DIAGNOSIS-ANTIFUNGAL-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -13166,6 +13218,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -13333,6 +13386,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-DIAGNOSIS-ANTIFUNGAL-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -13500,6 +13554,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-DIAGNOSIS-ANTIFUNGAL-MECHANISMS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -13667,6 +13722,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-MORPHOLOGY-CELL-WALL
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -13834,6 +13890,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-MORPHOLOGY-CELL-WALL
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -14001,6 +14058,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-FUNGAL-MORPHOLOGY-CELL-WALL
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -14168,6 +14226,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -14335,6 +14394,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-INFECTION-PATTERNS-INCLUSION-BODIES
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -14502,6 +14562,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -14669,6 +14730,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -14836,6 +14898,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-INFECTION-PATTERNS-INCLUSION-BODIES
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -15003,6 +15066,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -15170,6 +15234,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -15337,6 +15402,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -15504,6 +15570,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -15671,6 +15738,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -15838,6 +15906,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -16005,6 +16074,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-ONCOGENESIS-TROPISM-RETROVIRAL-INTEGRATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -16172,6 +16242,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -16339,6 +16410,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-ONCOGENESIS-TROPISM-RETROVIRAL-INTEGRATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -16506,6 +16578,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-INFECTION-PATTERNS-INCLUSION-BODIES
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -16673,6 +16746,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -16840,6 +16914,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -17007,6 +17082,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ASEPTIC-TECHNIQUE-ENDOSCOPE-HAI-DEFINITIONS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -17174,6 +17250,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-OCCUPATIONAL-EXPOSURE-SHARPS-SAFETY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -17341,6 +17418,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ASEPTIC-TECHNIQUE-ENDOSCOPE-HAI-DEFINITIONS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -17508,6 +17586,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ASEPTIC-TECHNIQUE-ENDOSCOPE-HAI-DEFINITIONS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -17675,6 +17754,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ISOLATION-PRECAUTIONS-PROTECTIVE-ENVIRONMENT
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -17842,6 +17922,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-OCCUPATIONAL-EXPOSURE-SHARPS-SAFETY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -18009,6 +18090,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-OCCUPATIONAL-EXPOSURE-SHARPS-SAFETY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -18176,6 +18258,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-OCCUPATIONAL-EXPOSURE-SHARPS-SAFETY
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -18343,6 +18426,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ISOLATION-PRECAUTIONS-PROTECTIVE-ENVIRONMENT
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -18510,6 +18594,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ASEPTIC-TECHNIQUE-ENDOSCOPE-HAI-DEFINITIONS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -18677,6 +18762,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ASEPTIC-TECHNIQUE-ENDOSCOPE-HAI-DEFINITIONS
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -18844,6 +18930,7 @@ Independent microbiology reference (department book/standard text) not yet attac
 ## related_concept_ids
 
 ## related_article_ids
+ART-INF-ISOLATION-PRECAUTIONS-PROTECTIVE-ENVIRONMENT
 
 ## resource_ids
 src_68fe9409ae4ab90d025e

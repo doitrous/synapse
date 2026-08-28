@@ -1599,6 +1599,8 @@ CON-INF-1EAFF70A6FC769
 CON-INF-4CDBD486C53EB4
 
 ## related_articles
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK: companion article on toxin-mediated damage, the other main route by which the determinants covered here injure the host
+ART-INF-HOST-RELATIONSHIPS-NORMAL-FLORA: companion article on the coloniser/host relationship an organism must first breach before these invasion determinants act
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -1807,6 +1809,8 @@ CON-INF-6579BABB03657C
 CON-INF-C8EE841CE9808D
 
 ## related_articles
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY: companion article on the determinants that turn a coloniser into an invader of a site normally held by flora
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK: companion article on toxin production, the property this article's own flora explicitly lack
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -2015,6 +2019,8 @@ CON-INF-D60EAAF763C476
 CON-INF-F2B1AF50F8D51C
 
 ## related_articles
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY: companion article on the invasion determinants that often act alongside the toxins described here
+ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS: companion article on membrane-damaging toxins and superantigens, the other major toxin mechanisms alongside exotoxin/endotoxin
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -2223,6 +2229,8 @@ CON-INF-6F8D6DE961F269
 CON-INF-CFC7896BF71239
 
 ## related_articles
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK: companion article on classic exotoxin/endotoxin action, alongside the membrane toxins and superantigens covered here
+ART-INF-BACTERIAL-INVASION-PATHOGENICITY: companion article on the enzymatic invasion factors that act by the same kind of direct tissue/membrane damage
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -2432,6 +2440,8 @@ CON-INF-E9C14F5981ACE5
 CON-INF-EB5758CBC71F57
 
 ## related_articles
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY: companion article — genetics II — on conjugation, transformation and lysogeny, the gene-transfer mechanisms alongside transposition and transduction covered here
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS: companion article on antibiotic resistance, the clinical consequence when the plasmid and transposon transfer described here carries a resistance gene
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -2640,6 +2650,8 @@ CON-INF-42D77BF4AB3ADD
 CON-INF-BFFA74CFBB0B25
 
 ## related_articles
+ART-INF-BACTERIAL-GENETICS-VARIATION-TRANSFER: companion article — genetics I — on transposons and transduction, the other gene-transfer vehicles alongside conjugation and lysogeny covered here
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS: companion article on antibiotic resistance, most often spread between bacteria by the F-plasmid conjugation described here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -2847,6 +2859,8 @@ CON-INF-9A9A3DB5DB40FE
 CON-INF-2E4D9F498F4B12
 
 ## related_articles
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS: companion article naming Streptococcus viridans among the organisms reliably visualised by Gram stain, in contrast to the staining-limited organisms it covers
+ART-INF-MEMBRANE-TOXINS-SUPERANTIGENS: companion article on TSST-1, the S. aureus superantigen produced by an organism identified here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -3061,6 +3075,8 @@ CON-INF-AF38B9D7F0419D
 CON-INF-8C58253847111C
 
 ## related_articles
+ART-INF-STAPHYLOCOCCUS-STREPTOCOCCUS-ID: companion article on the reliably Gram-stained Staphylococcus and Streptococcus organisms this article's staining exceptions are contrasted against
+ART-INF-ENTEROBACTERIACEAE-GRAM-NEGATIVE-NOSOCOMIAL: companion article on Gram-negative rods that stain reliably, the ordinary case the acid-fast and wall-deficient exceptions here are measured against
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -3266,6 +3282,8 @@ CON-INF-110935663CD77A
 CON-INF-D07212E157CC7A
 
 ## related_articles
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS: companion article on Gram-stain reliability and its exceptions, relevant to identifying the Gram-negative organisms covered here
+ART-INF-EXOTOXIN-ENDOTOXIN-SHOCK: companion article on endotoxin and septic shock, the mechanism by which the Gram-negative organisms covered here cause systemic disease
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -3481,6 +3499,8 @@ CON-INF-1AA1761EA50627
 CON-INF-191AE17C2BC242
 
 ## related_articles
+ART-INF-ANTIBIOTIC-STEWARDSHIP: companion article on antibiotic-use practice, directly relevant to this article's Clostridioides difficile case (an antibiotic-associated disease)
+ART-INF-ENTEROBACTERIACEAE-GRAM-NEGATIVE-NOSOCOMIAL: companion article on other Gram-negative and nosocomial organisms, alongside the Legionella and Pasteurella cases covered here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -3694,6 +3714,8 @@ CON-INF-64A7823DCEC6E5
 CON-INF-8F76601D55C470
 
 ## related_articles
+ART-INF-ANTIBIOTIC-STEWARDSHIP: companion article on the prescribing practice that selects for the resistance mechanisms described here
+ART-INF-BACTERIAL-GENETICS-CONJUGATION-LYSOGENY: companion article on conjugation, the mechanism by which the R-plasmids described here spread between bacteria
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -3919,6 +3941,8 @@ CON-INF-1872C1B986AAD3
 CON-INF-7C50CF18CD73F7
 
 ## related_articles
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS: companion article on the resistance mechanisms that poor stewardship, described here, selects for
+ART-INF-CLINICAL-BACTERIOLOGY-CASE-ORGANISMS: companion article on Clostridioides difficile, the antibiotic-associated disease this article's duration-review guidance is meant to prevent
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4123,6 +4147,8 @@ CON-INF-5711F66EFF586F
 CON-INF-7213E96DAD38D1
 
 ## related_articles
+ART-INF-FUNGAL-DIAGNOSIS-ANTIFUNGAL-MECHANISMS: companion article on antifungal drugs that act directly on the wall and membrane components described here (echinocandins on beta-glucan, polyenes on ergosterol)
+ART-INF-STAINING-LIMITATIONS-SPORE-FORMERS: companion article on bacterial survival spores, the structure this article's own fungal spores are explicitly distinguished from
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4349,6 +4375,8 @@ CON-INF-15A9CB1D102D73
 CON-INF-8C46B66176DADA
 
 ## related_articles
+ART-INF-FUNGAL-MORPHOLOGY-CELL-WALL: companion article on the fungal wall and membrane components (glucan, chitin, ergosterol) that the antifungal mechanisms here target
+ART-INF-ANTIBIOTIC-RESISTANCE-MECHANISMS: companion article on the analogous bacterial drug-target and resistance mechanisms, the antibacterial counterpart of the antifungal mechanisms here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4556,6 +4584,8 @@ CON-INF-7952070C4BD8AF
 CON-INF-1165F8B9564697
 
 ## related_articles
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION: companion article on viral attachment and entry, which depends directly on the capsid and envelope components described here
+ART-INF-VIRAL-INFECTION-PATTERNS-INCLUSION-BODIES: companion article on inclusion bodies, which are aggregates of the same virion and viral-protein structures described here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4772,6 +4802,8 @@ CON-INF-8989679385BD3C
 CON-INF-514E4CAEB62A82
 
 ## related_articles
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION: companion article on the replication cycle that underlies the latent, localized and systemic infection patterns described here
+ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID: companion article on capsid and envelope structure, the virion components that aggregate into the inclusion bodies described here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -4986,6 +5018,8 @@ CON-INF-2C32D6BA60368C
 CON-INF-20755F48E062B0
 
 ## related_articles
+ART-INF-VIRAL-STRUCTURE-CAPSID-ENVELOPE-VIROID: companion article on the capsid and envelope structures that mediate the attachment and entry steps described here
+ART-INF-VIRAL-ONCOGENESIS-TROPISM-RETROVIRAL-INTEGRATION: companion article on cell tropism, which is determined by the same receptor-mediated attachment step described here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5201,6 +5235,8 @@ CON-INF-CE64E7CD7B4393
 CON-INF-A8824D935972A1
 
 ## related_articles
+ART-INF-VIRAL-CULTURE-DETECTION-ENTRY-REPLICATION: companion article on viral attachment and the replication cycle that the receptor-determined tropism described here depends on
+ART-INF-VIRAL-INFECTION-PATTERNS-INCLUSION-BODIES: companion article on systemic and latent infection patterns, the other long-term outcomes alongside the oncogenic transformation described here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5406,6 +5442,8 @@ CON-INF-D66B8139A1AA02
 CON-INF-606F4E2565AC67
 
 ## related_articles
+ART-INF-ISOLATION-PRECAUTIONS-PROTECTIVE-ENVIRONMENT: companion article on isolation precautions, the other main personal-protection practice alongside the sharps and PPE guidance here
+ART-INF-ASEPTIC-TECHNIQUE-ENDOSCOPE-HAI-DEFINITIONS: companion article on aseptic technique and HAI definitions, the broader infection-control framework this occupational-exposure guidance sits within
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5617,6 +5655,8 @@ CON-INF-92B5DD983CF7D8
 CON-INF-DB9EB37C89C863
 
 ## related_articles
+ART-INF-OCCUPATIONAL-EXPOSURE-SHARPS-SAFETY: companion article on healthcare-worker PPE and exposure management, alongside the patient-isolation precautions described here
+ART-INF-ASEPTIC-TECHNIQUE-ENDOSCOPE-HAI-DEFINITIONS: companion article on aseptic technique and HAI definitions, the broader infection-control framework the isolation categories here sit within
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
@@ -5821,6 +5861,8 @@ CON-INF-1667BEB0F19C54
 CON-INF-B18A3C1EEE39BE
 
 ## related_articles
+ART-INF-OCCUPATIONAL-EXPOSURE-SHARPS-SAFETY: companion article on sharps safety and PPE, the procedure-level practices that implement the aseptic technique defined here
+ART-INF-ISOLATION-PRECAUTIONS-PROTECTIVE-ENVIRONMENT: companion article on isolation precaution categories, the patient-level counterpart to the aseptic technique and HAI definitions here
 
 ## resource_ids
 src_68fe9409ae4ab90d025e
