@@ -494,5 +494,70 @@ export const LEAF: McqLeafSeed = {
         D: "Atresia is the congenital absence or closure of a passage; it describes something failing to form or open, the opposite of an abnormally dilated air space.",
       },
     },
+    {
+      // Leaf-tag mismatch: bank-tagged "A-V Connections" but genuinely
+      // interalveolar-septum content — the same composition this concept
+      // already teaches.
+      key: "intra-alveoli-formed-of-all-the-following-except-09c00468",
+      conceptKey: "interalveolar-septum.composition",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that the interalveolar septum's resident phagocytes are extravasated monocytes, not neutrophils, and are not normally present as \"extra\" leucocytes.",
+      explanations: {
+        A: "True of the interalveolar septum, so not the exception — its capillary network and elastic fibres are both genuine components.",
+        B: "True, so not the exception — reticular fibres are part of the septum's fibre content, protecting the capillaries from overexpansion.",
+        C: "The exception, and the answer. The septum's resident phagocytes are extravasated monocytes (dust cells and heart-failure cells), not extra neutrophils — neutrophils are not a normal component of the interalveolar septum.",
+        D: "True, so not the exception — alveolar phagocytes (dust cells and heart-failure cells) are genuine residents of the interalveolar septum.",
+      },
+    },
+    {
+      // Leaf-tag mismatch: bank-tagged "A-V Connections" but genuinely
+      // blood-air-barrier content — the same four layers this concept
+      // already teaches (type II pneumocyte deliberately excluded, red
+      // blood corpuscle likewise not a structural layer of the barrier).
+      key: "which-of-the-following-is-not-a-component-of-the-respiratory-40a9efde",
+      conceptKey: "blood-air-barrier.four-layers",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that the red blood corpuscle is cargo passing through the capillary, not a structural layer of the blood-air barrier itself.",
+      explanations: {
+        A: "The alveolar epithelial cell's (type I pneumocyte's) plasma membrane is a genuine structural layer of the blood-air barrier — true, so not the exception.",
+        B: "The capillary endothelial cell's plasma membrane is a genuine structural layer of the barrier — true, so not the exception.",
+        C: "The fused basal laminae of the alveolar epithelium and capillary endothelium form a genuine structural layer of the barrier, helping minimise its overall thickness — true, so not the exception.",
+        D: "The exception, and the answer. The red blood corpuscle carries the oxygen and carbon dioxide being exchanged across the barrier, but it is cargo flowing through the capillary lumen, not a structural layer the barrier itself is built from.",
+      },
+    },
+    {
+      // Leaf-tag mismatch, corrupted stem: bank-tagged "A-V Connections" but
+      // genuinely alveolar-sac content — a merge of two separate source
+      // questions (a bronchiole item and an alveolar-sac item) into one
+      // corrupted stem. The lettered options (A-D) survive clean and match
+      // the alveolar-sac question, and the answer is confidently
+      // reconstructed editorially, but the stem itself is unusable as
+      // extracted — no seed-level field exists to override stem text (only
+      // the answer letter can be overridden via `answerOverride`), the same
+      // class of unfixable defect as the option-merge corruptions elsewhere
+      // in this module.
+      key: "a-histological-feature-of-the-bronchiole-is-0-a-it-has-carti-14b9553c",
+      conceptKey: "respiratory-portion.structural-sequence-and-pores-of-kohn",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The extracted stem is a corrupted merge of two separate source questions — a bronchiole-histology item and an alveolar-sac item — running together in one block of text with no clean boundary. The four lettered options (A-D) survive clean and answer only the alveolar-sac question, with a confident editorial reconstruction of the correct answer, but the stem itself cannot be presented to a student as extracted, and no seed-level field exists to rewrite stem text (only the answer letter can be overridden via `answerOverride`).",
+    },
+    {
+      // Leaf-tag mismatch, corrupted option set: bank-tagged "A-V
+      // Connections" but genuinely blood-air-barrier content.
+      key: "which-of-the-following-is-a-component-of-the-respiratory-mem-f9f2931b",
+      conceptKey: "blood-air-barrier.four-layers",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only three lettered options survive extraction (A, B and D — no C), one short of the platform's 4-to-5-option import contract, and the surviving D option (\"All of the above\") refers to a set that is missing a member, so it can no longer be presented meaningfully. The same fact — the blood-air barrier includes both the alveolar cell's and the capillary endothelial cell's plasma membranes — is already covered cleanly by this leaf's own `blood-air-barrier-is-formed-of-all-the-following-except` question on the same concept.",
+    },
   ],
 }

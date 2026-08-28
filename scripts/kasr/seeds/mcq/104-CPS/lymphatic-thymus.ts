@@ -180,5 +180,23 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: "Same corrupted option set as control-multiplication-of-helper-suppresser-t-cell-f9d598e8 (options {A: \"thymopoietin b)thymic factor\", C: \"thymosin\", D: \"thymulin\"}, option B's label merged into A's text by OCR/page-bleed) -- excluded for the same reason.",
     },
+    {
+      // Leaf-tag mismatch: bank-tagged "A-V Connections" but genuinely
+      // blood-thymic-barrier content already tested by this concept's own
+      // all-characters-of-blood-thymic-barrier-except question — this row
+      // asks which structure achieves the barrier, not which statement about
+      // it is false, so it is kept as a distinct, non-duplicate angle.
+      key: "the-blood-thymic-barrier-is-achieved-by-the-following-b845a999",
+      conceptKey: "thymus.dual-origin-and-epithelial-reticular-cells",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Identify the perivascular space around cortical capillaries, containing macrophages, as one of the structures that achieves the blood-thymic barrier.",
+      explanations: {
+        A: "The blood-thymic barrier's cortical capillaries are continuous, not non-continuous (fenestrated), with endothelial cells joined by tight junctions — a discontinuous endothelium would defeat the barrier's isolating purpose.",
+        B: "The basement membrane component of the blood-thymic barrier is continuous and relatively thick, not thin and discontinuous, again to reinforce rather than weaken the barrier.",
+        C: "A perivascular connective-tissue space surrounding the cortical capillaries, containing macrophages that intercept and process blood-borne antigens, is one of the barrier's recognised structural components, alongside continuous endothelium, a continuous basement membrane and a sheath of epithelial reticular cells.",
+        D: "Plasma cells (antibody-producing B-lymphocyte derivatives) are not a standard, recognised structural component of the blood-thymic barrier; macrophages, not plasma cells, occupy the perivascular space in this context.",
+      },
+    },
   ],
 }

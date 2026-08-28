@@ -434,5 +434,69 @@ export const LEAF: McqLeafSeed = {
         D: "Flow rises rather than falls overall: the 16-fold gain from doubling the radius outweighs the 2-fold loss from halving the pressure.",
       },
     },
+    {
+      // Leaf-tag mismatch: this bank row is tagged "A-V Connections" but its
+      // content (a small artery's/arteriole's own wall structure) is
+      // genuinely this leaf's own artery-classification content — the same
+      // "smooth-muscle count", "thin adventitia" and "disappearing IEL"
+      // facts this concept's own definition already states for arterioles.
+      key: "all-characters-of-small-arteries-except-47576f41",
+      conceptKey: "artery-classification.elastic-muscular-and-arteriolar-types",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that a small artery (arteriole) has only one or two smooth-muscle layers, not numerous ones, in its tunica media.",
+      explanations: {
+        A: "True of a small artery (arteriole), so not the exception — it is the smallest branch of a muscular artery.",
+        B: "True, so not the exception — regulating flow into the capillary bed is the arteriole's own defining function.",
+        C: "The exception, and the answer. A small artery's tunica media carries only one or two smooth-muscle layers, not numerous ones — the wall thins gradually with vessel diameter, the opposite of what this option states.",
+        D: "True, so not the exception — a thin, ill-defined connective-tissue adventitia is exactly how an arteriole's outermost coat is described.",
+        E: "True, so not the exception — the internal elastic lamina thins and gradually disappears as vessel diameter falls toward the arteriole.",
+      },
+    },
+    {
+      // Leaf-tag mismatch: tagged "A-V Connections" but genuinely tests this
+      // concept's own metarteriole/precapillary-sphincter content.
+      key: "control-blood-flow-to-capillaries-49927906",
+      conceptKey: "arterioles.resistance-function-and-regulation",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Identify the precapillary sphincter as the structure that controls blood flow into the capillary bed.",
+      explanations: {
+        A: "A postcapillary venule sits downstream of the capillary bed, receiving blood that has already crossed it, rather than controlling entry into it.",
+        B: "The metarteriole is the arteriole's own terminal segment leading toward the capillary bed, but the actual gatekeeping is done by its precapillary sphincter, not by the metarteriole as a whole.",
+        C: "The precapillary sphincter — smooth muscle thickened at the metarteriole's origin — opens and closes to control how much blood enters the capillary bed, the last point of active flow control before it.",
+        D: "An elastic lamina is a passive structural sheet within a larger vessel's wall, not a contractile structure capable of controlling capillary blood flow.",
+      },
+    },
+    {
+      // Leaf-tag mismatch: tagged "A-V Connections" but genuinely tests this
+      // concept's own metarteriole content (duplicate occurrence).
+      key: "is-terminal-portion-of-arteriole-that-drain-into-capill-ary-2a292f09",
+      conceptKey: "arterioles.resistance-function-and-regulation",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Identify the metarteriole as the arteriole's own terminal segment draining directly into the capillary.",
+      explanations: {
+        A: "A postcapillary venule sits downstream of the capillary bed, receiving blood after it has crossed the capillaries, not the terminal arteriolar segment draining into them.",
+        B: "The metarteriole is exactly the arteriole's own terminal segment — the part that drains directly into the capillary bed, carrying the precapillary sphincter at its origin.",
+        C: "The precapillary sphincter is a ring of smooth muscle at the metarteriole's origin, not the terminal arteriolar segment itself.",
+        D: "An elastic lamina is a structural sheet within the vessel wall, not a named terminal segment of the arteriole.",
+      },
+    },
+    {
+      // Leaf-tag mismatch: tagged "A-V Connections" but genuinely tests this
+      // concept's own metarteriole/precapillary-sphincter content.
+      key: "regarding-the-metarterioles-the-following-are-correct-f3764004",
+      conceptKey: "arterioles.resistance-function-and-regulation",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that the metarteriole's defining role is controlling blood flow into the capillary bed via its precapillary sphincter.",
+      explanations: {
+        A: "This loosely describes the broader arteriovenous-shunt route rather than the metarteriole's own defining relationship to the capillary bed it feeds.",
+        B: "The precapillary sphincter is formed of smooth muscle, not elastic fibres — a metarteriole's flow control is active and contractile, not passive and elastic.",
+        C: "The relationship runs the other way: capillaries branch off from the metarteriole, not the reverse.",
+        D: "The metarteriole's defining role: its precapillary sphincter opens and closes to control how much blood flows into the downstream capillary bed.",
+      },
+    },
   ],
 }

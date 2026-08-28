@@ -8,9 +8,9 @@
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
-    Histology Cardiovascular System — A-V Connections — 25 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 2 questions, 1 concepts
+    Histology Cardiovascular System — Artery Classification — 33 questions, 4 concepts
+    Histology Cardiovascular System — A-V Connections — 28 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -25,7 +25,7 @@
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
-    Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
+    Lymphatic and Macrophage System — Thymus — 13 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
@@ -37,10 +37,10 @@
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
-    Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
+    Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 31 questions, 6 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 35 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -52,7 +52,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  64 questions were excluded and 0 held back for having no
+  67 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4891,6 +4891,378 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-301ADE471978
+## title
+All characters of small arteries except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of small arteries except
+## answer_a
+smallest branches of muscular arteries
+## explanation_a
+True of a small artery (arteriole), so not the exception — it is the smallest branch of a muscular artery.
+## answer_b
+regulate blood flow to Capillaries
+## explanation_b
+True, so not the exception — regulating flow into the capillary bed is the arteriole's own defining function.
+## answer_c
+numerous smooth muscle fibers in T-media
+## explanation_c
+The exception, and the answer. A small artery's tunica media carries only one or two smooth-muscle layers, not numerous ones — the wall thins gradually with vessel diameter, the opposite of what this option states.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_d
+thin, ill-defined C.T sheath in T. adventitia
+## explanation_d
+True, so not the exception — a thin, ill-defined connective-tissue adventitia is exactly how an arteriole's outermost coat is described.
+## answer_e
+thin, gradually disappear of IEL
+## explanation_e
+True, so not the exception — the internal elastic lamina thins and gradually disappears as vessel diameter falls toward the arteriole.
+## correct_answer
+C
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a small artery (arteriole) has only one or two smooth-muscle layers, not numerous ones, in its tunica media.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q29. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7D81FBF2E4A5
+## title
+Control blood flow to Capillaries
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Control blood flow to Capillaries
+## answer_a
+postcapillary venule
+## explanation_a
+A postcapillary venule sits downstream of the capillary bed, receiving blood that has already crossed it, rather than controlling entry into it.
+## answer_b
+meta arteriole
+## explanation_b
+The metarteriole is the arteriole's own terminal segment leading toward the capillary bed, but the actual gatekeeping is done by its precapillary sphincter, not by the metarteriole as a whole.
+## answer_c
+Precapillary sphincter
+## explanation_c
+The precapillary sphincter — smooth muscle thickened at the metarteriole's origin — opens and closes to control how much blood enters the capillary bed, the last point of active flow control before it.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_d
+EEL
+## explanation_d
+An elastic lamina is a passive structural sheet within a larger vessel's wall, not a contractile structure capable of controlling capillary blood flow.
+## correct_answer
+C
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the precapillary sphincter as the structure that controls blood flow into the capillary bed.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q31. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2758397A406D
+## title
+is terminal portion of arteriole that drain into Capill ary
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is terminal portion of arteriole that drain into Capill ary
+## answer_a
+postcapillary venule
+## explanation_a
+A postcapillary venule sits downstream of the capillary bed, receiving blood after it has crossed the capillaries, not the terminal arteriolar segment draining into them.
+## answer_b
+meta arteriole
+## explanation_b
+The metarteriole is exactly the arteriole's own terminal segment — the part that drains directly into the capillary bed, carrying the precapillary sphincter at its origin.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_c
+Precapillary sphincter
+## explanation_c
+The precapillary sphincter is a ring of smooth muscle at the metarteriole's origin, not the terminal arteriolar segment itself.
+## answer_d
+EEL
+## explanation_d
+An elastic lamina is a structural sheet within the vessel wall, not a named terminal segment of the arteriole.
+## correct_answer
+B
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the metarteriole as the arteriole's own terminal segment draining directly into the capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q30. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-B2F31594BC7A
+## title
+Regarding the metarterioles, the following are correct:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the metarterioles, the following are correct:
+## answer_a
+The connections between arterioles and venules
+## explanation_a
+This loosely describes the broader arteriovenous-shunt route rather than the metarteriole's own defining relationship to the capillary bed it feeds.
+## answer_b
+Its precapillary sphincter is formed of elastic fibers
+## explanation_b
+The precapillary sphincter is formed of smooth muscle, not elastic fibres — a metarteriole's flow control is active and contractile, not passive and elastic.
+## answer_c
+Lateral branches of capillaries
+## explanation_c
+The relationship runs the other way: capillaries branch off from the metarteriole, not the reverse.
+## answer_d
+They control the blood flow to the capillaries
+## explanation_d
+The metarteriole's defining role: its precapillary sphincter opens and closes to control how much blood flows into the downstream capillary bed.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## correct_answer
+D
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Artery Classification
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the metarteriole's defining role is controlling blood flow into the capillary bed via its precapillary sphincter.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q113. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-B933F5614D99
 ## title
 Blood capillaries in exocrine glands are:
@@ -6179,6 +6551,282 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-AC5B8E74BF53
+## title
+Blood sinusoids are characterized by the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Blood sinusoids are characterized by the following:
+## answer_a
+Have no pores in their wall
+## explanation_a
+A blood sinusoid characteristically does have pores in its wall — often without even a covering diaphragm — the opposite of having none.
+## answer_b
+Endcthelial cells are separated by minimal intercellular spaces
+## explanation_b
+Sinusoidal endothelial cells are separated by wide, not minimal, intercellular spaces, which is precisely what allows even large molecules and cells to pass through the wall.
+## answer_c
+Have continuous basement membrane
+## explanation_c
+Sinusoids characteristically have a discontinuous or even absent basement membrane, not a continuous one — one of the key features distinguishing them from a fenestrated capillary.
+## answer_d
+Macrophages are found among or outside their wall
+## explanation_d
+A defining feature of the blood sinusoid is that macrophages sit either within its wall or immediately outside it — the classic example being Kupffer cells lodged in liver sinusoids, and macrophages of the splenic cords positioned just outside splenic sinusoid walls.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## correct_answer
+D
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify a sinusoid's association with macrophages sitting within or beside its own wall as its signature feature (duplicate occurrence from a different source book).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p3 q24. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-8784694A82DB
+## title
+Sinusoidal capillary (blood sinusoid) is characterized by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Sinusoidal capillary (blood sinusoid) is characterized by:
+## answer_a
+Absent pericytes
+## explanation_a
+A blood sinusoid characteristically has few to no pericytes surrounding its endothelium, in contrast to the continuous and fenestrated types, which retain a fuller pericyte investment — this reduced coverage is part of what makes the sinusoidal wall unusually open.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_b
+Small diameter and regular
+## explanation_b
+A sinusoid is large and irregular, not small and regular, in diameter — the opposite of a continuous capillary's own calibre.
+## answer_c
+Continuous basal lamina
+## explanation_c
+A sinusoid has a discontinuous, not continuous, basal lamina — a continuous basal lamina instead marks the continuous and fenestrated types.
+## answer_d
+Endothelium with tight junctions
+## explanation_d
+Sinusoidal endothelial cells are joined by wide gaps rather than tight junctions, allowing free passage of even large molecules and cells — the opposite of this option.
+## correct_answer
+A
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology Cardiovascular System — A-V Connections
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a blood sinusoid carries markedly fewer pericytes than a continuous or fenestrated capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q114. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9B55329B4D9F
+## title
+Continuous capillaries are characterized by all the following EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Continuous capillaries are characterized by all the following EXCEPT:
+## answer_a
+Its endothelial cells contain pinocytic vesicles
+## explanation_a
+True of a continuous capillary, so not the exception — its endothelial cells do contain pinocytic vesicles for vesicular transport.
+## answer_b
+Its endothelial cells are joined by tight junctions
+## explanation_b
+True, so not the exception — its endothelial cells are joined by tight junctions, sealing the wall.
+## answer_c
+Are present in kidney glomeruli
+## explanation_c
+The exception, and the answer. The renal glomerulus is a fenestrated, not a continuous, capillary site — this leaf's own fenestrated-capillary concept names the glomerulus specifically, precisely because its fast, high-volume filtration needs pores, not a sealed continuous wall.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_d
+They lack fenestrae
+## explanation_d
+True, so not the exception — a continuous capillary lacks fenestrae altogether, unlike the fenestrated and sinusoidal types.
+## correct_answer
+C
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the renal glomerulus is a fenestrated, not a continuous, capillary site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-A3F7B1F54E23
 ## title
 Characters of Blood Capillaries include All except
@@ -7370,6 +8018,374 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-11DFB0F91B4C
+## title
+Starling forces of bulk flow include all of the following Except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Starling forces of bulk flow include all of the following Except:
+## answer_a
+Capillary hydrostatic pressure
+## explanation_a
+Capillary hydrostatic pressure is one of the four genuine Starling forces, driving fluid out of the capillary — true, so not the exception.
+## answer_b
+Interstitial colloid osmotic pressure
+## explanation_b
+Interstitial colloid osmotic pressure is one of the four genuine Starling forces, drawing fluid out of the capillary toward the interstitium — true, so not the exception.
+## answer_c
+Right atrial pressure
+## explanation_c
+The exception, and the answer. Right atrial pressure is a distinct cardiovascular parameter, reflecting central venous pressure and cardiac filling — it plays no direct role in the local capillary filtration/absorption balance and is not one of the four Starling forces.
+
+Why this is right:
+- Along a muscle capillary, the net Starling force is about 11 mmHg favouring filtration out of the capillary at the arteriolar end, and about 9 mmHg favouring absorption back into the capillary at the venular end.
+## answer_d
+Interstitial hydrostatic pressure
+## explanation_d
+Interstitial hydrostatic pressure is one of the four genuine Starling forces, opposing outward filtration — true, so not the exception.
+## correct_answer
+C
+## main_concept
+CON-CVS-98657F1E7D300D
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Name capillary hydrostatic pressure, interstitial hydrostatic pressure, plasma colloid osmotic pressure and interstitial colloid osmotic pressure as the four Starling forces, against right atrial pressure as the exception.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p9 q68. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-00361D4A8C6F
+## title
+An increase in which of the following tends to decrease capillary filtration rate
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+An increase in which of the following tends to decrease capillary filtration rate
+## answer_a
+Capillary hydrostatic pressure
+## explanation_a
+A rise in capillary hydrostatic pressure pushes more fluid out of the capillary, increasing, not decreasing, filtration.
+## answer_b
+Plasma colloid osmotic pressure
+## explanation_b
+Plasma colloid osmotic pressure opposes filtration by drawing fluid back into the capillary; a rise in it therefore decreases net capillary filtration — the correct direction this question tests.
+
+Why this is right:
+- Along a muscle capillary, the net Starling force is about 11 mmHg favouring filtration out of the capillary at the arteriolar end, and about 9 mmHg favouring absorption back into the capillary at the venular end.
+## answer_c
+Interstitial colloid osmotic pressure
+## explanation_c
+A rise in interstitial colloid osmotic pressure draws more fluid out of the capillary toward the interstitium, increasing, not decreasing, filtration.
+## answer_d
+Venous hydrostatic pressure
+## explanation_d
+A rise in venous hydrostatic pressure raises capillary hydrostatic pressure upstream, increasing, not decreasing, filtration — this is exactly the mechanism behind the oedema of venous congestion.
+## correct_answer
+B
+## main_concept
+CON-CVS-98657F1E7D300D
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a rise in plasma colloid osmotic pressure, by pulling fluid back into the capillary, is the Starling force that decreases net capillary filtration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p5 q27. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9081241693D9
+## title
+An increase in which of the following tends to decrease capillary filtration rate a.. C…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+An increase in which of the following tends to decrease capillary filtration rate a.. Capillary hydrostatic pressure
+## answer_b
+Plasma colloid osmotic pressure
+## explanation_b
+Plasma colloid osmotic pressure opposes filtration by drawing fluid back into the capillary; a rise in it therefore decreases net capillary filtration — the correct direction this question tests.
+
+Why this is right:
+- Along a muscle capillary, the net Starling force is about 11 mmHg favouring filtration out of the capillary at the arteriolar end, and about 9 mmHg favouring absorption back into the capillary at the venular end.
+## answer_c
+Interstitial colloid osmotic pressure :
+## explanation_c
+A rise in interstitial colloid osmotic pressure draws more fluid out of the capillary toward the interstitium, increasing, not decreasing, filtration.
+## answer_d
+Venous hydrostatic pressure
+## explanation_d
+A rise in venous hydrostatic pressure raises capillary hydrostatic pressure upstream, increasing, not decreasing, filtration.
+## answer_e
+Arteriolar diameter
+## explanation_e
+Arteriolar dilation raises capillary hydrostatic pressure downstream, increasing, not decreasing, filtration — the same direction as a rise in venous hydrostatic pressure.
+## correct_answer
+B
+## main_concept
+CON-CVS-98657F1E7D300D
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a rise in plasma colloid osmotic pressure decreases net capillary filtration (duplicate occurrence from a different source book).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p19 q145. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1A248994CAFB
+## title
+A patient has a renal disease that produced albuminuria. Which of the following is like…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient has a renal disease that produced albuminuria. Which of the following is likely to occur? 1
+## answer_a
+Decrease in the interstitial fluid hydrostatic pressure (Pir)
+## explanation_a
+A fall, not a rise, in plasma colloid osmotic pressure is what albuminuria produces directly; interstitial fluid hydrostatic pressure itself tends to rise, not fall, as more fluid is filtered into the interstitium.
+## answer_b
+Increase in the capillary hydrostatic pressure (P,)
+## explanation_b
+Capillary hydrostatic pressure is not directly altered by a plasma-protein-losing renal disease; the Starling force albuminuria disturbs is on the osmotic, not the hydrostatic, side of the equation.
+## answer_c
+Increase in lymph flow
+## explanation_c
+Losing plasma albumin lowers plasma colloid osmotic pressure, the force that normally opposes filtration — with less opposition, net capillary filtration rises, more fluid enters the interstitium, and lymph flow increases to carry the extra filtrate back to the blood.
+
+Why this is right:
+- Along a muscle capillary, the net Starling force is about 11 mmHg favouring filtration out of the capillary at the arteriolar end, and about 9 mmHg favouring absorption back into the capillary at the venular end.
+## answer_d
+Increase in plasma oncotic pressure )6(
+## explanation_d
+Albuminuria lowers, not raises, plasma oncotic pressure — protein is being lost from the plasma, not added to it.
+## correct_answer
+C
+## main_concept
+CON-CVS-98657F1E7D300D
+## library_ids
+ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Capillary Exchange and Permeability
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Apply the Starling forces to albuminuria: losing plasma protein lowers plasma colloid osmotic pressure, raises net capillary filtration, and so raises lymph flow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p19 q144. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
 
 ---
 
@@ -20850,6 +21866,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-3B7152919BB1
+## title
+The blood thymic barrier is achieved by the following:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The blood thymic barrier is achieved by the following:
+## answer_a
+Non-continuous capillary endothelium
+## explanation_a
+The blood-thymic barrier's cortical capillaries are continuous, not non-continuous (fenestrated), with endothelial cells joined by tight junctions — a discontinuous endothelium would defeat the barrier's isolating purpose.
+## answer_b
+Thin discontinuous basement membrane. i
+## explanation_b
+The basement membrane component of the blood-thymic barrier is continuous and relatively thick, not thin and discontinuous, again to reinforce rather than weaken the barrier.
+## answer_c
+A perivascular space around capillaries containing macrophages. i
+## explanation_c
+A perivascular connective-tissue space surrounding the cortical capillaries, containing macrophages that intercept and process blood-borne antigens, is one of the barrier's recognised structural components, alongside continuous endothelium, a continuous basement membrane and a sheath of epithelial reticular cells.
+
+Why this is right:
+- The thymus is a primary lymphoid organ with an endocrine function, and unlike the lymph node and spleen it has a double origin: its lymphocytes (the thymocytes) are mesodermal, while its epithelial reticular cells are endodermal.
+## answer_d
+Plasma cells in the perivascular space
+## explanation_d
+Plasma cells (antibody-producing B-lymphocyte derivatives) are not a standard, recognised structural component of the blood-thymic barrier; macrophages, not plasma cells, occupy the perivascular space in this context.
+## correct_answer
+C
+## main_concept
+CON-HEM-817D336693039E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the perivascular space around cortical capillaries, containing macrophages, as one of the structures that achieves the blood-thymic barrier.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p2 q13. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-F33C21821BF7
 ## title
 Which phase of the cardiac cycle is absent if there is no P wave on the electrocardiogr…
@@ -29777,6 +30885,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-F4584F8A219E
+## title
+Alveolar phagocytes:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Alveolar phagocytes:
+## answer_a
+Are rich in TER and mitochondria
+## explanation_a
+Rich rER and mitochondria describes a metabolically active secretory cell such as the type II pneumocyte, not the alveolar phagocyte's own defining feature.
+## answer_b
+Arise mainly from neutrophils escaping from blood capillaries
+## explanation_b
+Alveolar phagocytes arise from blood monocytes, not from neutrophils — monocytes and neutrophils are separate leucocyte lineages.
+## answer_c
+Are macrophages that enter C.T from blood
+## explanation_c
+Alveolar phagocytes are macrophages that enter the connective tissue (and alveolar spaces) from the blood, originating from circulating monocytes — dust cells and heart-failure cells are its two functional forms.
+
+Why this is right:
+- Alveolar phagocytes are of two functional kinds, both originating from blood monocytes and both bulging from the interalveolar wall or lying free inside the alveoli, and both stained by a vital stain such as trypan blue.
+## answer_d
+Can be stained with silver.\
+## explanation_d
+Staining with silver is not a defining or standard identifying feature of the alveolar phagocyte; a vital stain such as trypan blue is used instead.
+## correct_answer
+C
+## main_concept
+CON-RES-D8B1BE3C6CFABD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Alveolar Phagocytes and Emphysema
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Alveolar Phagocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that alveolar phagocytes are macrophages that enter the connective tissue from blood monocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q30. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-7FF582FF0334
 ## title
 bind supporting cell to olfactory cell
@@ -38506,5 +39706,189 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9F12FD0B1331
+## title
+intra alveoli formed of all the following except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+intra alveoli formed of all the following except
+## answer_a
+capillary network, elastic fiber
+## explanation_a
+True of the interalveolar septum, so not the exception — its capillary network and elastic fibres are both genuine components.
+## answer_b
+reticular fiber
+## explanation_b
+True, so not the exception — reticular fibres are part of the septum's fibre content, protecting the capillaries from overexpansion.
+## answer_c
+Extra leucocyte especially neutrophils
+## explanation_c
+The exception, and the answer. The septum's resident phagocytes are extravasated monocytes (dust cells and heart-failure cells), not extra neutrophils — neutrophils are not a normal component of the interalveolar septum.
+
+Why this is right:
+- The interalveolar septum is the delicate connective-tissue partition separating adjacent alveoli.
+## answer_d
+alveolar phagocyte
+## explanation_d
+True, so not the exception — alveolar phagocytes (dust cells and heart-failure cells) are genuine residents of the interalveolar septum.
+## correct_answer
+C
+## main_concept
+CON-RES-4903189C8DA93C
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the interalveolar septum's resident phagocytes are extravasated monocytes, not neutrophils, and are not normally present as "extra" leucocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q59. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4A765DD3409C
+## title
+Which of the following is NOT a component of the respiratory membrane? sti(‘S;SSS™~™~™~…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is NOT a component of the respiratory membrane? sti(‘S;SSS™~™~™~™”C™
+## answer_a
+Plasma membrane of the alveolar cell
+## explanation_a
+The alveolar epithelial cell's (type I pneumocyte's) plasma membrane is a genuine structural layer of the blood-air barrier — true, so not the exception.
+## answer_b
+Plasma membrane of the capillary endothelial cell
+## explanation_b
+The capillary endothelial cell's plasma membrane is a genuine structural layer of the barrier — true, so not the exception.
+## answer_c
+Fused basal laminae of the alveolar and the capillary endothelial cell
+## explanation_c
+The fused basal laminae of the alveolar epithelium and capillary endothelium form a genuine structural layer of the barrier, helping minimise its overall thickness — true, so not the exception.
+## answer_d
+Plasma membrane of red blood corpuscle
+## explanation_d
+The exception, and the answer. The red blood corpuscle carries the oxygen and carbon dioxide being exchanged across the barrier, but it is cargo flowing through the capillary lumen, not a structural layer the barrier itself is built from.
+
+Why this is right:
+- The blood-air barrier is the four-layer path across which gas exchange actually happens: the surfactant film on the alveolar surface, the type I pneumocyte, the fused basal lamina of that pneumocyte and the capillary endothelial cell, and the capillary endothelial cell itself.
+## correct_answer
+D
+## main_concept
+CON-RES-ED5ADFB428C5BF
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory System — Respiratory Portion Pneumocytes
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the red blood corpuscle is cargo passing through the capillary, not a structural layer of the blood-air barrier itself.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q51. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 

@@ -8,9 +8,9 @@
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
-    Histology Cardiovascular System — A-V Connections — 25 questions, 5 concepts
-    Physiology Cardiovascular System — Capillary Exchange and Permeability — 2 questions, 1 concepts
+    Histology Cardiovascular System — Artery Classification — 33 questions, 4 concepts
+    Histology Cardiovascular System — A-V Connections — 28 questions, 5 concepts
+    Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -25,7 +25,7 @@
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
-    Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
+    Lymphatic and Macrophage System — Thymus — 13 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
@@ -37,10 +37,10 @@
     Pulmonary Compliance — 20 questions, 3 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Pulmonary Compliance — 4 questions, 2 concepts
-    Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
+    Respiratory System — Alveolar Phagocytes and Emphysema — 2 questions, 2 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 31 questions, 6 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 35 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -52,7 +52,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  64 questions were excluded and 0 held back for having no
+  67 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -855,12 +855,14 @@ src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p47 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1012,12 +1014,14 @@ src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
 src_b1c03ac55330bb88dc62 | question_book | | p3 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1041,7 +1045,7 @@ CON-CVS-9585A65D9EDA4D (pending, docs/Kasr-Source-Imports/concept/104-CPS-concep
 ## uncertainty
 [clear]
 ## evidence_gaps
-The covering article's own Mechanism section states that a continuous capillary's sealed, tight-junctioned, unbroken-basal-lamina wall suits small-solute and gas exchange, and that a sinusoid's wide, irregular, discontinuous-basal-lamina wall suits whole-cell and plasma-protein traffic in the liver, spleen and bone marrow — but it does not itself state that continuous capillaries are the commonest capillary type, that endocrine glands also carry sinusoidal capillaries, or that macrophages sit within or beside the sinusoidal wall. These three facts are standard histology and are tested directly by this leaf's own bank, but are not yet written into this article's prose. Flagging for the article-authoring lane.
+The covering article's own Mechanism section states that a continuous capillary's sealed, tight-junctioned, unbroken-basal-lamina wall suits small-solute and gas exchange, and that a sinusoid's wide, irregular, discontinuous-basal-lamina wall suits whole-cell and plasma-protein traffic in the liver, spleen and bone marrow — but it does not itself state that continuous capillaries are the commonest capillary type, that endocrine glands also carry sinusoidal capillaries, that macrophages sit within or beside the sinusoidal wall, or that sinusoids carry markedly fewer pericytes than a continuous or fenestrated capillary. These four facts are standard histology and are tested directly by this leaf's own bank, but are not yet written into this article's prose. Flagging for the article-authoring lane.
 ## arabic_label
 
 ## arabic_aliases
@@ -1411,6 +1415,25 @@ src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
 +ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
 ## field_notes
 canonical_key "capillary-exchange.diffusion-permeability-and-vesicular-transport" already has a pinned id in this module (CON-CVS-D3D1AF25EFA406); mintConceptId derives the same id fresh (CON-CVS-D3D1AF25EFA406) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-98657F1E7D300D
+## label
+Trans-capillary filtration is set by the Starling forces, and along a muscle capillary this produces net outward filtration at the arteriolar end and net absorption at the venular end
+## canonical_key
+capillary-exchange.starling-forces-and-trans-capillary-filtration
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p5 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p19 | 104 CPS
+## article_ids
++ART-104-PHY-CAPILLARY-EXCHANGE-AND-LYMPHATICS
+## field_notes
+canonical_key "capillary-exchange.starling-forces-and-trans-capillary-filtration" already has a pinned id in this module (CON-CVS-98657F1E7D300D); mintConceptId derives the same id fresh (CON-CVS-98657F1E7D300D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -2448,12 +2471,13 @@ kau
 1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p6 | 104 CPS
+src_2b531af1f3f6eace5974 | question_book | | p2 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -6164,6 +6188,23 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## id
+CON-RES-D8B1BE3C6CFABD
+## label
+Alveolar phagocytes are blood-monocyte-derived dust cells engulfing dust and heart-failure cells engulfing red cells, cleared by three routes
+## canonical_key
+alveolar-phagocytes.dust-cells-and-heart-failure-cells
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+## article_ids
++ART-104-HIS-RESPIRATORY-PORTION
+## field_notes
+canonical_key "alveolar-phagocytes.dust-cells-and-heart-failure-cells" already has a pinned id in this module (CON-RES-D8B1BE3C6CFABD); mintConceptId derives the same id fresh (CON-RES-D8B1BE3C6CFABD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
 CON-RES-38BA83C42FBE02
 ## label
 The conducting portion's epithelium has five cell types: ciliated, goblet, brush, basal and small granule cells
@@ -6704,6 +6745,7 @@ blood-air-barrier.four-layers
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
 ## article_ids
 +ART-104-HIS-RESPIRATORY-PORTION
 ## field_notes
@@ -6746,18 +6788,19 @@ kau
 ## exam_signal
 src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.39
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.39
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic

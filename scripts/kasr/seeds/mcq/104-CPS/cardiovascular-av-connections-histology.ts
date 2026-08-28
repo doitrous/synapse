@@ -62,7 +62,7 @@ export const LEAF: McqLeafSeed = {
         "CON-CVS-9585A65D9EDA4D (pending, docs/Kasr-Source-Imports/concept/104-CPS-concepts.md, GENERATED_BY-blind to this pipeline) teaches the same continuous-versus-sinusoidal comparison from the original hand-picked 40-question MCQ batch; not reused because that file is this pipeline's own generated-output skip-list, so a matching canonical_key would emit a full overwrite rather than a sparse update. CON-CVS-2A37D5DDEB19DB and CON-CVS-047FC0A529AFBA (live, cross-university Systems-view catalogue, pinned to ART-CVS-CARDIAC-HISTOLOGY, no 104-CPS module) are single-sentence site-only facts for the same two types, from a different pipeline this module's own existingConceptIds() cannot see at all.",
       ],
       gaps: [
-        "The covering article's own Mechanism section states that a continuous capillary's sealed, tight-junctioned, unbroken-basal-lamina wall suits small-solute and gas exchange, and that a sinusoid's wide, irregular, discontinuous-basal-lamina wall suits whole-cell and plasma-protein traffic in the liver, spleen and bone marrow — but it does not itself state that continuous capillaries are the commonest capillary type, that endocrine glands also carry sinusoidal capillaries, or that macrophages sit within or beside the sinusoidal wall. These three facts are standard histology and are tested directly by this leaf's own bank, but are not yet written into this article's prose. Flagging for the article-authoring lane.",
+        "The covering article's own Mechanism section states that a continuous capillary's sealed, tight-junctioned, unbroken-basal-lamina wall suits small-solute and gas exchange, and that a sinusoid's wide, irregular, discontinuous-basal-lamina wall suits whole-cell and plasma-protein traffic in the liver, spleen and bone marrow — but it does not itself state that continuous capillaries are the commonest capillary type, that endocrine glands also carry sinusoidal capillaries, that macrophages sit within or beside the sinusoidal wall, or that sinusoids carry markedly fewer pericytes than a continuous or fenestrated capillary. These four facts are standard histology and are tested directly by this leaf's own bank, but are not yet written into this article's prose. Flagging for the article-authoring lane.",
       ],
     },
     {
@@ -312,6 +312,45 @@ export const LEAF: McqLeafSeed = {
         B: "A fenestrated capillary's pores are covered by a diaphragm and it retains pericytes — the reverse of the diaphragm-free, pericyte-poor wall this question describes.",
         C: "The sinusoidal capillary matches all three features: its pores carry no diaphragm, it has few to no pericytes, and macrophages sit within or beside its wall — the classic example being Kupffer cells lodged in liver sinusoids.",
         D: "A lymphatic capillary usually lacks pericytes too, but it is not the type associated with macrophages sitting in or beside its own wall — that association is the sinusoid's own signature feature.",
+      },
+    },
+    {
+      key: "blood-sinusoids-are-characterized-by-the-following-91db52cc",
+      conceptKey: "capillary-types.continuous-and-sinusoidal-structure-and-sites",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Identify a sinusoid's association with macrophages sitting within or beside its own wall as its signature feature (duplicate occurrence from a different source book).",
+      explanations: {
+        A: "A blood sinusoid characteristically does have pores in its wall — often without even a covering diaphragm — the opposite of having none.",
+        B: "Sinusoidal endothelial cells are separated by wide, not minimal, intercellular spaces, which is precisely what allows even large molecules and cells to pass through the wall.",
+        C: "Sinusoids characteristically have a discontinuous or even absent basement membrane, not a continuous one — one of the key features distinguishing them from a fenestrated capillary.",
+        D: "A defining feature of the blood sinusoid is that macrophages sit either within its wall or immediately outside it — the classic example being Kupffer cells lodged in liver sinusoids, and macrophages of the splenic cords positioned just outside splenic sinusoid walls.",
+      },
+    },
+    {
+      key: "sinusoidal-capillary-blood-sinusoid-is-characterized-by-e2000dcb",
+      conceptKey: "capillary-types.continuous-and-sinusoidal-structure-and-sites",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that a blood sinusoid carries markedly fewer pericytes than a continuous or fenestrated capillary.",
+      explanations: {
+        A: "A blood sinusoid characteristically has few to no pericytes surrounding its endothelium, in contrast to the continuous and fenestrated types, which retain a fuller pericyte investment — this reduced coverage is part of what makes the sinusoidal wall unusually open.",
+        B: "A sinusoid is large and irregular, not small and regular, in diameter — the opposite of a continuous capillary's own calibre.",
+        C: "A sinusoid has a discontinuous, not continuous, basal lamina — a continuous basal lamina instead marks the continuous and fenestrated types.",
+        D: "Sinusoidal endothelial cells are joined by wide gaps rather than tight junctions, allowing free passage of even large molecules and cells — the opposite of this option.",
+      },
+    },
+    {
+      key: "continuous-capillaries-are-characterized-by-all-the-followin-63f32cf5",
+      conceptKey: "capillary-types.continuous-and-sinusoidal-structure-and-sites",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "State that the renal glomerulus is a fenestrated, not a continuous, capillary site.",
+      explanations: {
+        A: "True of a continuous capillary, so not the exception — its endothelial cells do contain pinocytic vesicles for vesicular transport.",
+        B: "True, so not the exception — its endothelial cells are joined by tight junctions, sealing the wall.",
+        C: "The exception, and the answer. The renal glomerulus is a fenestrated, not a continuous, capillary site — this leaf's own fenestrated-capillary concept names the glomerulus specifically, precisely because its fast, high-volume filtration needs pores, not a sealed continuous wall.",
+        D: "True, so not the exception — a continuous capillary lacks fenestrae altogether, unlike the fenestrated and sinusoidal types.",
       },
     },
     {
