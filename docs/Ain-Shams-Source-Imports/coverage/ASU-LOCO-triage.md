@@ -105,3 +105,35 @@ Clinical Medicine, or Pharmacology subjects — only lecture/practical material.
 this session's "no bank" list (that's reserved for whole modules with zero assessment sources — see the
 consolidated report), but within ASU-LOCO they are a real gap: 5 of 9 subject folders have no
 exam-shaped material to triage from.
+
+## Addendum (2026-08-28, asu-loco-author3) — physiology complete; biochem/parasit text-layer finding
+
+**Physiology (90/90 MCQs) is now fully authored** across 7 question files (37 in the first
+pass, then 13+13+13+14 in this session) — see the top-level `INDEX.md` row and the CLAIMS.md
+Done row for the full validation trail. `medical:simulate` run across all 7 files together:
+`created: 90, rejected: 0, errors: []`.
+
+**Biochemistry and Parasitology-Practical papers: verified zero text layer, not merely
+"blocked".** This triage's own §"Papers read" table above describes both as "OCR'd" and
+"legible on direct inspection" — checked directly this session with `pdftotext -layout`
+(0 lines of output on both files) and `pdffonts` (0 embedded fonts on both, i.e. no font
+program at all, not even a broken/undecodable one). This means:
+
+- Neither file has ever actually been through OCR — no text layer exists to extract, correctly
+  or otherwise. The manifest's `textLayer: blocked` flag is the accurate one for these two
+  files; the original triage note's "OCR'd clean" / "legible" language described a human
+  looking at the rendered page images by eye, not a machine-readable layer.
+- **This is not the same failure mode as a garbled/undecodable OCR layer** (the "textLayer
+  lies" trap seen elsewhere in this repo, e.g. Kasr's CamScanner banks with a present-but-wrong
+  text layer). There is nothing here to attempt to decode; the only path to a verbatim
+  transcription is rendering each page to an image (e.g. `pdftoppm` at 150-200 dpi) and reading
+  it by eye, the same method Alexandria's AU-MED-106 anatomy lane used successfully on its own
+  46-item unreadable-scan bank.
+- Given the volume (88 biochemistry + 25 parasitology = 113 questions across 22 pages, each
+  needing every stem, option and printed-key digit read and cross-checked by eye, per the
+  explicit "do not fabricate a key from an unreadable scan" rule in `00-START-HERE.md` and the
+  question-authoring hazard list), this is sized as its own dedicated authoring pass, not
+  something to fold into a physiology-completion session.
+- **NEEDS OMAR**: confirm whether this render-and-read-by-eye pass should be scheduled for
+  ASU-LOCO's biochemistry/parasitology banks, given the AU-MED-106 precedent's own report that
+  the same method took a full 55-page pass to complete for a similarly-sized bank.
