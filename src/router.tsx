@@ -109,6 +109,7 @@ const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'Au
 const AccessControl = lazyNamed(() => import('@/pages/admin/AccessControl'), 'AccessControl')
 const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
+const EscalationsQueue = lazyNamed(() => import('@/pages/admin/EscalationsQueue'), 'EscalationsQueue')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
 const AssistantSetup = lazyNamed(() => import('@/pages/admin/AssistantSetup'), 'AssistantSetup')
 const TutorialSetup = lazyNamed(() => import('@/pages/admin/TutorialSetup'), 'TutorialSetup')
@@ -194,6 +195,7 @@ const adminBuilt: Record<string, ReactElement> = {
   written: render(WrittenSetup),
   histology: render(HistologySetup),
   resources: render(ResourcesSetup),
+  escalations: render(EscalationsQueue),
   reports: render(ReportsReview),
   tutorial: render(TutorialSetup),
   students: render(StudentsManagement),
@@ -213,7 +215,7 @@ const adminBuilt: Record<string, ReactElement> = {
 // Keep mounted routes and preloadable student pages in one registry so a new
 // page cannot be linked in navigation while silently falling through to 404.
 const studentPaths = Object.keys(studentPages)
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'tutorial', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'escalations', 'reports', 'tutorial', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
@@ -272,7 +274,7 @@ const toStudentSite = <HandOver origin={STUDENT_ORIGIN} />
 
 const studentApp = {
   path: '/app',
-  element: <RequireAuth><AppShell portal="student" /></RequireAuth>,
+  element: <RequireAuth student><AppShell portal="student" /></RequireAuth>,
   children: [{ index: true, element: render(Dashboard) }, ...studentRoutes],
 }
 

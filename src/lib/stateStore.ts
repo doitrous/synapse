@@ -492,6 +492,28 @@ export function retryAfterSignIn(): void {
 }
 
 /**
+ * Force a document to be re-read from the server, for a write that reached it
+ * through a dedicated endpoint rather than this store's own setter — content
+ * report creation, for one, goes through `POST /api/content-reports` so a
+ * student without the shared write path can still file one — and so left the
+ * cache every reader of that key shares showing a stale copy.
+ *
+ * Reuses `flush`'s own "the document moved, re-read it" path (see the
+ * `kind === 'conflict'` branch above): dropping `hydrated` and calling the
+ * already-exported `hydrate` is exactly what that path does mid-write, so
+ * this is safe even against a save still in flight — a queued local edit's
+ * recovery copy is what `hydrate` consults to decide whether to keep it, not
+ * this flag. A no-op for a key nobody has asked for yet, and in demo mode,
+ * where there is no server copy to be behind.
+ */
+export function invalidateEntry(key: string): void {
+  const entry = entries.get(key)
+  if (!entry || !API_MODE) return
+  entry.hydrated = false
+  hydrate(key)
+}
+
+/**
  * Warm a document before anything renders that needs it — used to prefetch a
  * route's data while the student is still moving toward it.
  */

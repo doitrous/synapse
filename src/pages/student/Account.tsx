@@ -132,16 +132,37 @@ function StudyContext() {
     setRequesting(true)
     try {
       if (API_MODE) {
-        await apiPost('/me/enrolment-change-requests', {
-          targetUniversityId,
-          targetYear,
-          reason: reason.trim(),
-        })
+        // The server models one field per request (university OR year), so a
+        // student changing both files both — each lands as its own row the admin
+        // can approve or reject independently. Endpoint spelling matters: it is
+        // `/enrollment-change-requests`, not the `/enrolment` the locked-profile
+        // save uses; an earlier mismatch here 404'd every request.
+        const changes: Array<{ field: 'university' | 'year'; requestedValue: string }> = []
+        if (targetUniversityId && targetUniversityId !== audience.universityId) {
+          changes.push({ field: 'university', requestedValue: targetUniversityId })
+        }
+        if (targetYear && targetYear !== audience.year) {
+          changes.push({ field: 'year', requestedValue: targetYear })
+        }
+        if (!changes.length) { setRequesting(false); return }
+        const results = await Promise.allSettled(
+          changes.map((change) => apiPost('/me/enrollment-change-requests', { ...change, reason: reason.trim() })),
+        )
+        const failures = results.filter((result): result is PromiseRejectedResult => result.status === 'rejected')
+        if (failures.length === changes.length) {
+          const reason = failures[0].reason
+          throw reason instanceof Error ? reason : new Error(String(reason))
+        }
+        if (failures.length) {
+          const message = failures[0].reason instanceof Error ? failures[0].reason.message : ''
+          setRequestError(message || t('One of your requests could not be sent, but the other was received.'))
+        }
       }
       setRequestSent(true)
       setReason('')
-    } catch {
-      setRequestError(t('Your request could not be sent. Try again, or contact support if it keeps happening.'))
+    } catch (submitError) {
+      const message = submitError instanceof Error ? submitError.message : ''
+      setRequestError(message || t('Your request could not be sent. Try again, or contact support if it keeps happening.'))
     } finally {
       setRequesting(false)
     }

@@ -261,12 +261,96 @@
   --brand-rose: var(--color-primary-strong);
 }
 
+/* OLED / Black — a fourth mode, not "Dark taken further". Dark's ground
+   (#0d1117) deliberately keeps a hint of the brand blue so it never reads as
+   pure absence; OLED inverts that call on purpose: the page itself goes to
+   true #000000 so an OLED panel actually turns those pixels off, and every
+   surface above it is a small, deliberate step up from nothing rather than a
+   tinted variant of it. Brand and status hues are carried over unchanged
+   from Dark — same rose, same blue, same signals — so the four themes still
+   read as one brand; only the neutral ramp (ground/surface/ink/line/grid)
+   is re-derived for a true-black stage. Text is held a shade under white
+   (same instinct as Dark's "not #ffffff — glare at 2am") even though the
+   ratios land higher than Dark's, because the ground itself is now the
+   darkest possible value. */
+:root[data-theme='oled'] {
+  --color-paper: #000000;      /* true black — the OLED-off ground */
+  --color-surface: #0a0a0c;    /* card / panel field — the smallest deliberate lift off nothing */
+  --color-surface-2: #16171b;  /* raised-but-quiet fill */
+  /* Dark sends its inset *below* the page (#0a0e14 under #0d1117). Paper is
+     already the floor here, so inset instead becomes the dimmest lift above
+     it — closer to "off" than any other surface, which still reads as
+     recessed against surface/surface-2 sitting above it. */
+  --color-inset: #050506;
+
+  --color-ink: #dfe2e8;        /* ~16.2:1 on paper, ~15.2:1 on surface — legible without glaring */
+  --color-ink-2: #9aa1af;      /* ~8.1:1 on paper, ~7.6:1 on surface */
+  --color-ink-3: #6b7280;      /* faint, decorative-only — ~4.3:1 on paper */
+
+  --color-line: #1e1f24;
+  --color-line-2: #32333a;
+  --color-grid: #131317;
+  --color-grid-major: #1c1d22;
+
+  /* Same fills as Dark — already tuned for a near-black ground, and only
+     more legible against a truer one. */
+  --color-primary: #d13a63;
+  --color-primary-hover: #e0537a;
+  --color-primary-strong: #f193ab;
+  --color-primary-soft: #8c2745;
+  --color-primary-tint: #2a141d;
+  --color-primary-line: #4a2130;
+  --color-on-primary: #ffffff;
+
+  --color-accent: #6fa5ff;
+  --color-accent-strong: #a3c5ff;
+  --color-accent-soft: #2c5697;
+  --color-accent-tint: #11203a;
+  --color-accent-line: #24406b;
+  --color-on-accent: #0a1120;
+
+  --color-success: #4dc79b;
+  --color-success-tint: #0e2b23;
+  --color-warning: #e3a83f;
+  --color-warning-tint: #2e2410;
+  --color-danger: #ff6b6b;
+  --color-danger-tint: #331416;
+
+  --color-on-success: #06130f;
+  --color-on-warning: #1a1305;
+  --color-on-danger: #1a0708;
+
+  /* Same rose ascension as Dark, but step 0 drops Dark's blue cast — on a
+     hueless black stage an "empty" cell should read as neutral charcoal,
+     not tinted, or it would look like a stray colour rather than "nothing
+     recorded yet". */
+  --color-scale-0: #17181c;
+  --color-scale-1: #3b1d29;
+  --color-scale-2: #5f2739;
+  --color-scale-3: #8d3253;
+  --color-scale-4: #bb416b;
+  --color-scale-5: #e8759a;
+
+  /* Black-based shadows still separate genuinely floating elements from the
+     surfaces beneath them; against true black they simply fade to the
+     ground rather than reading as a halo, which is the correct behaviour. */
+  --shadow-panel: 0 1px 0 rgba(0, 0, 0, 0.5);
+  --shadow-raised: 0 4px 16px rgba(0, 0, 0, 0.55);
+  --shadow-pop: 0 14px 34px rgba(0, 0, 0, 0.65);
+  --shadow-control: 0 1px 1px rgba(0, 0, 0, 0.45);
+  --shadow-action: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-action-hover: 0 2px 6px rgba(0, 0, 0, 0.55);
+
+  --brand-rose: var(--color-primary-strong);
+}
+
 @layer base {
   :root {
     color-scheme: light;
   }
 
-  :root[data-theme='dark'] {
+  :root[data-theme='dark'],
+  :root[data-theme='oled'] {
     color-scheme: dark;
   }
 
@@ -302,7 +386,8 @@
     overflow-x: clip;
   }
 
-  :root[data-theme='dark'] body {
+  :root[data-theme='dark'] body,
+  :root[data-theme='oled'] body {
     background-image: none;
   }
 
@@ -604,4 +689,48 @@
     transition: none !important;
   }
   .lift:hover { transform: none; }
+}
+
+/* =========================================================================
+   FORCED COLORS (Windows High Contrast)
+   The browser's own forced-colour palette already overrides ordinary
+   author colours (text, backgrounds, real borders) with the user's chosen
+   system colours — that part needs no help here. What it explicitly does
+   NOT touch is box-shadow and background-image, so anything drawn with
+   those disappears rather than being recoloured: the focus ring tint
+   (--ring-field), the box-shadow spine `.nav-selected` uses for the active
+   nav row, the sliding `.cortex-tab-indicator` if it were ever shadow-based,
+   and the decorative paper grain / vitals-chart grids. Redeclare the pieces
+   that carry real meaning in system colour keywords, and let the purely
+   decorative ones drop out cleanly instead of leaving a colourless smear.
+   ========================================================================= */
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+
+  /* `.nav-selected` marks the current nav/tab/option with a tint plus a
+     box-shadow hairline + spine — invisible in this mode. A real, system-
+     coloured outline keeps "which one is selected" answerable without it. */
+  .nav-selected {
+    outline: 1px solid Highlight;
+    outline-offset: -1px;
+  }
+
+  /* The sliding tab underline is a solid background-color fill (a property
+     forced-colors *does* respect), but pin it to the system accent so it
+     never quietly inherits a brand colour the palette would rather replace. */
+  .cortex-tab-indicator {
+    background: Highlight;
+  }
+
+  /* Decorative-only: neither the SVG paper grain nor the graph-paper grid
+     utilities carry information, so let the system flatten them instead of
+     rendering as noise the palette can't recolour. */
+  body,
+  .grid-chart,
+  .grid-chart-major {
+    background-image: none;
+  }
 }

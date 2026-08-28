@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
   Users, Search, ShieldOff, ShieldCheck, KeyRound, CalendarPlus, Ban,
   RefreshCw, Copy, History, UserCog, AlertTriangle, Activity, Download, ShieldPlus,
+  GraduationCap,
 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
@@ -15,11 +16,12 @@ import { EmptyState } from '@/components/ui/EmptyState'
 import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { useIdentity } from '@/lib/useIdentity'
-import { ROLE_LABEL, assignableRoles, type StoredRole } from '@/data/adminRoles'
+import { useT } from '@/lib/i18n'
+import { ROLE_LABEL, assignableRoles, rank, type StoredRole } from '@/data/adminRoles'
 import { ReviewerScopeEditor } from '@/components/admin/ReviewerScopeEditor'
 import {
   useAdminUsers, fetchUser, grantSubscription, cancelSubscription,
-  setAccess, sendPasswordReset, updateProfile, setUserRole, fetchUserActivity,
+  setAccess, sendPasswordReset, changePassword, updateProfile, setUserRole, fetchUserActivity, changeEnrollment,
   type UserFilters, type UserActivity,
 } from '@/lib/useAdminUsers'
 import {
@@ -47,8 +49,17 @@ type PendingAction =
   | { kind: 'cancel'; immediate: boolean }
   | { kind: 'access'; status: 'active' | 'suspended' }
   | { kind: 'password' }
-  | { kind: 'profile'; name: string; email: string; year: string; universityId: string; notes: string }
+  /** Set a new password directly — editor-and-above, and only for accounts below editor. */
+  | { kind: 'setPassword'; password: string }
+  | { kind: 'profile'; name: string; email: string; notes: string }
   | { kind: 'role'; role: StoredRole }
+  /**
+   * A university/year move — editor-and-above only. Kept apart from the plain
+   * profile edit above: that PATCH never persisted these two fields, and the
+   * dedicated endpoint resets cohort-scoped progress, so it needs its own
+   * confirmation screen rather than sharing the profile form's.
+   */
+  | { kind: 'enrollment'; universityId: string; year: string }
 
 const PLAN_OPTIONS = ['All access']
 
@@ -100,6 +111,7 @@ export function UsersManagement() {
   const [filters, setFilters] = useState<UserFilters>({})
   const [query, setQuery] = useState('')
   const identity = useIdentity()
+  const t = useT()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [detail, setDetail] = useState<AdminUserDetail | null>(null)
   const [detailLoading, setDetailLoading] = useState(false)
@@ -208,15 +220,31 @@ export function UsersManagement() {
         const result = await sendPasswordReset(selectedId, { reason })
         setResetLink(result.actionLink)
         setNotice(result.actionLink ? 'Recovery link generated. It is shown once — copy it now.' : 'Supabase issued the recovery email.')
+      } else if (pending.kind === 'setPassword') {
+        if (pending.password.length < 8) { setNotice(t('The password must be at least 8 characters.')); setBusy(false); return }
+        await changePassword(selectedId, { password: pending.password, reason })
+        setNotice(t('Password set. Share it with the user over a channel they trust — it is not emailed.'))
       } else if (pending.kind === 'role') {
         await setUserRole(selectedId, { role: pending.role, reason })
         setNotice(`Role changed to ${ROLE_LABEL[pending.role]}.`)
       } else if (pending.kind === 'profile') {
         await updateProfile(selectedId, {
-          name: pending.name, email: pending.email, year: pending.year,
-          universityId: pending.universityId, notes: pending.notes, reason,
+          name: pending.name, email: pending.email, notes: pending.notes, reason,
         })
         setNotice('Profile updated.')
+      } else if (pending.kind === 'enrollment') {
+        const result = await changeEnrollment(selectedId, {
+          universityId: pending.universityId, year: pending.year, reason,
+        })
+        const label = (snapshot: { universityId: string | null; year: string | null }) => {
+          const uni = universities.find((u) => u.id === snapshot.universityId)
+          return `${uni?.short ?? snapshot.universityId ?? '—'}${snapshot.year ? ` · ${snapshot.year}` : ''}`
+        }
+        setNotice(
+          `${t('Moved from')} ${label(result.from)} ${t('to')} ${label(result.to)}. ` +
+          `${result.aggregates.questionsAnswered.toLocaleString()} ${t('questions answered so far in the new cohort')} ` +
+          `(${Math.round(result.aggregates.accuracy)}% ${t('accuracy')}).`,
+        )
       }
       setPending(null)
       setReason('')
@@ -441,11 +469,31 @@ export function UsersManagement() {
                   )}
                   <Button size="sm" variant="secondary" iconLeft={KeyRound} disabled={!detail.email || !passwordResetAvailable}
                     onClick={() => setPending({ kind: 'password' })}>Password reset</Button>
+                  {/* Set a password directly — editor-and-above only, and only for an
+                      account below editor. The server enforces both, so a control that
+                      would be refused is never shown: hidden for admins (rank 1) and
+                      when the target is an editor or super admin. */}
+                  {identity.rank >= 2 && rank(detail.identity?.role ?? 'student') < 2 && (
+                    <Button size="sm" variant="secondary" iconLeft={KeyRound}
+                      onClick={() => setPending({ kind: 'setPassword', password: '' })}>{t('Set password')}</Button>
+                  )}
                   <Button size="sm" variant="ghost" iconLeft={UserCog}
                     onClick={() => setPending({
-                      kind: 'profile', name: detail.name ?? '', email: detail.email ?? '',
-                      year: detail.year ?? '', universityId: detail.universityId ?? '', notes: detail.notes ?? '',
+                      kind: 'profile', name: detail.name ?? '', email: detail.email ?? '', notes: detail.notes ?? '',
                     })}>Edit profile</Button>
+                  {/* University/year is its own audited action, gated past the Users
+                      tab to editor-and-above: an admin can hold this tab (rank 1) but
+                      the server refuses the move with a 403, so it is never offered
+                      here either. Moving cohorts resets what progress the student
+                      sees, which the confirmation screen below states plainly. */}
+                  {identity.rank >= 2 && (
+                    <Button size="sm" variant="ghost" iconLeft={GraduationCap}
+                      onClick={() => setPending({
+                        kind: 'enrollment',
+                        universityId: detail.universityId ?? '',
+                        year: detail.year ?? '',
+                      })}>{t('Change university & year')}</Button>
+                  )}
 {/* Built from the same rule the server enforces, so nothing offered here
                       can be refused. A super admin is stated, never offered: their
                       role comes from the server's email allowlist and has no row
@@ -536,6 +584,23 @@ export function UsersManagement() {
                     <p className="mb-2 text-[12.5px] text-ink">Supabase will generate a recovery link for {detail.email}. No password is read or set here.</p>
                   )}
 
+                  {pending.kind === 'setPassword' && (
+                    <div className="grid gap-2">
+                      <p className="text-[12.5px] text-ink">
+                        {t('Set a new password for {name}. It is applied immediately and is not stored or emailed — share it over a channel they trust.')
+                          .replace('{name}', detail.name || detail.email || t('this user'))}
+                      </p>
+                      <Field label={t('New password')} hint={t('At least 8 characters')}>
+                        <TextInput
+                          type="password"
+                          autoComplete="new-password"
+                          value={pending.password}
+                          onChange={(e) => setPending({ ...pending, password: e.target.value })}
+                        />
+                      </Field>
+                    </div>
+                  )}
+
                   {pending.kind === 'role' && (
                     <p className="mb-2 text-[12.5px] text-ink">{ROLE_CONSEQUENCE[pending.role]}</p>
                   )}
@@ -544,22 +609,83 @@ export function UsersManagement() {
                     <div className="grid gap-2">
                       <Field label="Name"><TextInput value={pending.name} onChange={(e) => setPending({ ...pending, name: e.target.value })} /></Field>
                       <Field label="Email"><TextInput value={pending.email} onChange={(e) => setPending({ ...pending, email: e.target.value })} /></Field>
-                      <Field label="University">
-                        <Select value={pending.universityId} onChange={(e) => setPending({ ...pending, universityId: e.target.value })}>
-                          <option value="">—</option>
-                          {universities.map((u) => <option key={u.id} value={u.id}>{u.short}</option>)}
-                        </Select>
-                      </Field>
-                      <Field label="Year"><TextInput value={pending.year} onChange={(e) => setPending({ ...pending, year: e.target.value })} /></Field>
                       <Field label="Internal note"><Textarea className="min-h-16" value={pending.notes} onChange={(e) => setPending({ ...pending, notes: e.target.value })} /></Field>
                     </div>
                   )}
+
+                  {pending.kind === 'enrollment' && (() => {
+                    const oldUni = universities.find((u) => u.id === detail.universityId)
+                    const newUni = universities.find((u) => u.id === pending.universityId)
+                    const newYears = newUni?.years ?? []
+                    const oldLabel = detail.universityId || detail.year
+                      ? `${oldUni?.short ?? detail.universityId ?? t('no university set')}${detail.year ? ` · ${detail.year}` : ''}`
+                      : t('no university or year set')
+                    const newLabel = pending.universityId && pending.year
+                      ? `${newUni?.short ?? pending.universityId} · ${pending.year}`
+                      : t('choose a university and year below')
+                    const studentLabel = detail.name || detail.email || t('This student')
+                    const progressNote = t(
+                      'Progress from {old} is kept. {student} starts fresh in {new}. If they ever return to {old}, their old progress reappears exactly.',
+                    )
+                      .replace(/\{old\}/g, oldLabel)
+                      .replace(/\{student\}/g, studentLabel)
+                      .replace(/\{new\}/g, newLabel)
+                    return (
+                      <div className="grid gap-2">
+                        <div className="grid grid-cols-2 gap-2">
+                          <div className="rounded-lg border border-line bg-surface px-3 py-2">
+                            <p className="text-[11px] uppercase tracking-[0.06em] text-ink-3">{t('Current')}</p>
+                            <p className="mt-0.5 text-[12.5px] font-medium text-ink">{oldLabel}</p>
+                          </div>
+                          <div className="rounded-lg border border-line bg-surface px-3 py-2">
+                            <p className="text-[11px] uppercase tracking-[0.06em] text-ink-3">{t('New')}</p>
+                            <p className="mt-0.5 text-[12.5px] font-medium text-ink">{newLabel}</p>
+                          </div>
+                        </div>
+                        <Field label={t('New university')}>
+                          <Select
+                            value={pending.universityId}
+                            onChange={(e) => setPending({ kind: 'enrollment', universityId: e.target.value, year: '' })}
+                          >
+                            <option value="">{t('Choose a university…')}</option>
+                            {universities.map((u) => <option key={u.id} value={u.id}>{u.short}</option>)}
+                          </Select>
+                        </Field>
+                        <Field label={t('New year')} hint={!pending.universityId ? t('Choose a university first.') : undefined}>
+                          <Select
+                            value={pending.year}
+                            disabled={!pending.universityId}
+                            onChange={(e) => setPending({ ...pending, year: e.target.value })}
+                          >
+                            <option value="">{t('Choose a year…')}</option>
+                            {newYears.map((y) => <option key={y.id} value={y.year}>{y.year}</option>)}
+                          </Select>
+                        </Field>
+                        <p className="rounded-lg border border-warning/40 bg-warning-tint px-3 py-2.5 text-[12.5px] leading-relaxed text-ink">
+                          {progressNote}
+                        </p>
+                        <p className="text-[11.5px] text-ink-3">
+                          {t('Changed by')} <span className="font-medium text-ink">{identity.displayName}</span>
+                          {identity.role && <> ({t(ROLE_LABEL[identity.role])})</>}
+                        </p>
+                      </div>
+                    )
+                  })()}
 
                   <Field label="Reason" hint="Stored with the change and shown in the history below.">
                     <TextInput value={reason} onChange={(e) => setReason(e.target.value)} placeholder="Why are you doing this?" />
                   </Field>
                   <div className="mt-2 flex gap-1.5">
-                    <Button size="sm" variant={pending.kind === 'access' && pending.status === 'suspended' ? 'danger' : 'primary'} loading={busy} onClick={() => void commit()}>Confirm</Button>
+                    <Button
+                      size="sm"
+                      variant={pending.kind === 'access' && pending.status === 'suspended' ? 'danger' : 'primary'}
+                      loading={busy}
+                      disabled={
+                        (pending.kind === 'enrollment' && (!pending.universityId || !pending.year))
+                        || (pending.kind === 'setPassword' && pending.password.length < 8)
+                      }
+                      onClick={() => void commit()}
+                    >Confirm</Button>
                     <Button size="sm" variant="ghost" onClick={() => { setPending(null); setReason(''); setNotice('') }}>Cancel</Button>
                   </div>
                 </div>

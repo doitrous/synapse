@@ -22,6 +22,61 @@ function derivedYearId(universityId, year) {
   return /internship/i.test(label) ? `${uni}_INT${number}` : `${uni}_Y${number}`
 }
 
+/**
+ * The roster's cached aggregates for one cohort, recomputed from that cohort's
+ * verified attempts.
+ *
+ * Progress is stamped onto every `qbank_attempts` row with the university and
+ * year the student held when they answered, and it is never rewritten. So the
+ * honest total for any cohort is a count over exactly those rows: for a cohort a
+ * student has just moved into, zero — a clean slate — and for one they are
+ * returning to, precisely what it was before. This is what lets a move give a
+ * fresh start without deleting anything, and a move back restore the old numbers
+ * exactly. `accuracy` is a whole-number percentage, the convention the rest of
+ * the app uses (see maristanas.js).
+ */
+export async function cohortAggregates(conn, { userId, universityId, year }) {
+  if (!userId || !universityId || !year) return { questionsAnswered: 0, accuracy: 0 }
+  const [rows] = await conn.query(
+    'SELECT COUNT(*) AS answered, COALESCE(AVG(correct), 0) AS acc FROM qbank_attempts WHERE user_id = ? AND university_id = ? AND year = ?',
+    [userId, universityId, year],
+  )
+  const answered = Number(rows[0]?.answered ?? 0)
+  return { questionsAnswered: answered, accuracy: answered ? Math.round(Number(rows[0]?.acc ?? 0) * 100) : 0 }
+}
+
+/**
+ * Move a student to a new university and year directly, as an editor or super
+ * admin does from user management — persisting the cohort, re-deriving `year_id`,
+ * resetting the cached aggregates to the destination cohort, and writing the
+ * change to the audit log. The caller has already locked the row and confirmed
+ * the destination differs; this is the write itself, inside that transaction.
+ */
+export async function applyDirectEnrollmentChange(conn, {
+  studentId, userId, universityId, year, oldUniversityId, oldYear, oldYearId, actorId, reason,
+}) {
+  const yearId = derivedYearId(universityId, year)
+  const aggregates = await cohortAggregates(conn, { userId, universityId, year })
+  await conn.query(
+    'UPDATE students SET university_id = ?, year = ?, year_id = ?, questions_answered = ?, accuracy = ?, readiness = 0 WHERE id = ?',
+    [universityId, year, yearId, aggregates.questionsAnswered, aggregates.accuracy, studentId],
+  )
+  await conn.query(
+    `INSERT INTO account_action_audit (student_id, user_id, action, detail, reason, actor_id)
+     VALUES (?, ?, ?, ?, ?, ?)`,
+    [
+      studentId, userId ?? null, 'enrollment.change',
+      `enrolment: ${oldUniversityId ?? 'unset'} ${oldYear ?? 'unset'} → ${universityId} ${year}`,
+      reason, actorId,
+    ],
+  )
+  return {
+    from: { universityId: oldUniversityId ?? null, year: oldYear ?? null, yearId: oldYearId ?? null },
+    to: { universityId, year, yearId },
+    aggregates,
+  }
+}
+
 export function requestProblem(input) {
   const field = cleanField(input?.field)
   const requestedValue = cleanText(input?.requestedValue ?? input?.targetValue, 128)
@@ -168,6 +223,8 @@ export async function decideEnrollmentChangeRequest(id, { approve, note, actorId
         })
         if (taken) { await conn.rollback(); return { error: 'username_conflict' } }
       }
+      const newUniversityId = request.field === 'university' ? request.requested_value : request.liveUniversityId
+      const newYear = request.field === 'year' ? request.requested_value : request.liveYear
       if (request.field === 'university') {
         await conn.query(
           'UPDATE students SET university_id = ?, year_id = ? WHERE id = ?',
@@ -179,6 +236,14 @@ export async function decideEnrollmentChangeRequest(id, { approve, note, actorId
           [request.requested_value, derivedYearId(request.liveUniversityId, request.requested_value), request.student_id],
         )
       }
+      // The approved move lands the student in a new cohort. Reset the cached
+      // aggregates to that cohort's own attempts, the same clean-slate/restore
+      // rule a direct change follows.
+      const aggregates = await cohortAggregates(conn, { userId: request.user_id, universityId: newUniversityId, year: newYear })
+      await conn.query(
+        'UPDATE students SET questions_answered = ?, accuracy = ?, readiness = 0 WHERE id = ?',
+        [aggregates.questionsAnswered, aggregates.accuracy, request.student_id],
+      )
     }
     await conn.query(
       `UPDATE enrollment_change_requests

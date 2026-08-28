@@ -64,19 +64,32 @@ test('a change is refused when the caller does not hold its tab', () => {
 })
 
 test('a media-request-only edit is allowed by the media tab or by the owner tab', () => {
+  // rank 2 (editor) isolates the tab check from the transition rules exercised below.
   const before = q('a', 'One')
   const after = { ...before, questionData: { ...before.questionData, mediaRequests: [{ id: 'm1', brief: 'ECG' }] } }
   const changes = diffDocument(LEDGER, [before], [after])
-  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null }).ok, true)
-  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null }).ok, true)
-  assert.equal(authoriseChanges(changes, { heldTabs: ['library'], contentScope: null }).ok, false)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 2 }).ok, true)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null, rank: 2 }).ok, true)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['library'], contentScope: null, rank: 2 }).ok, false)
 })
 
 test('a nested media-request edit is allowed by the media tab', () => {
   const before = { ...q('a', 'One'), questionData: { tags: {}, answers: [{ label: 'A', mediaRequests: [{ id: 'm1', status: 'needed' }] }] } }
   const after = { ...before, questionData: { ...before.questionData, answers: [{ label: 'A', mediaRequests: [{ id: 'm1', status: 'planned' }] }] } }
   const changes = diffDocument(LEDGER, [before], [after])
-  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null }).ok, true)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null, rank: 2 }).ok, true)
+})
+
+test('the media tab is not enough for a reviewer to plan or decline — the transition is gated by rank', () => {
+  // A reviewer (rank 1) holds the media tab and may attach media to a request...
+  const before = { ...q('a', 'One'), questionData: { tags: {}, mediaRequests: [{ id: 'm1', status: 'needed' }] } }
+  const attach = { ...before, questionData: { ...before.questionData, mediaRequests: [{ id: 'm1', status: 'needed', mediaId: 'med-1' }] } }
+  assert.equal(authoriseChanges(diffDocument(LEDGER, [before], [attach]), { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, true)
+  // ...but may not set it to planned; an editor (rank 2) may.
+  const planned = { ...before, questionData: { ...before.questionData, mediaRequests: [{ id: 'm1', status: 'planned' }] } }
+  const plannedChanges = diffDocument(LEDGER, [before], [planned])
+  assert.equal(authoriseChanges(plannedChanges, { heldTabs: ['media'], contentScope: null, rank: 1 }).ok, false)
+  assert.equal(authoriseChanges(plannedChanges, { heldTabs: ['media'], contentScope: null, rank: 2 }).ok, true)
 })
 
 test('holding the media tab does not license editing the rest of the question', () => {
@@ -285,4 +298,63 @@ test('an unmergeable document is returned as sent, for the caller to version-che
   const merged = mergeDocument('synapse-vouchers-v1', { a: 1 }, { a: 2 }, { a: 3 })
   assert.equal(merged.ok, true)
   assert.deepEqual(merged.value, { a: 3 })
+})
+
+test('Add Article is not a reviewer capability: creating an article needs the library tab', () => {
+  // Verification #21, server side. A reviewer holds only media + reports, so the
+  // create is refused; an editor holds library and it is allowed. The route guard
+  // (RequireAuth tab="library") hides the button; this is the API that backs it.
+  const created = diffDocument(LEDGER, [], [{ id: 'a1', kind: 'article', title: 'New article', articleData: {} }])
+  assert.equal(created.length, 1)
+  assert.deepEqual(created[0].tabs, ['library'])
+  assert.equal(authoriseChanges(created, { heldTabs: ['media', 'reports'], contentScope: null, role: 'reviewer' }).ok, false)
+  assert.equal(authoriseChanges(created, { heldTabs: ['library'], contentScope: null, role: 'editor' }).ok, true)
+})
+
+/* ── Content reports: merge-safe, role-gated ─────────────────────────────── */
+
+const REPORTS = 'synapse-content-reports-v1'
+const report = (id, status = 'Open', extra = {}) => ({
+  id, contentKind: 'question', contentId: `q_${id}`, contentTitle: `Report ${id}`,
+  reporterRole: 'Student', reporterName: 'Maya', reporterUserId: 'u1', category: 'Unclear wording',
+  note: 'ambiguous', status, createdAt: '2026-08-01T00:00:00.000Z',
+  events: [{ at: '2026-08-01T00:00:00.000Z', actorId: 'u1', actorName: 'Maya', actorRole: 'Student', action: 'created' }],
+  ...extra,
+})
+
+test('the reports document is mergeable and its changes are contentReports owned by the reports tab', () => {
+  assert.equal(isMergeable(REPORTS), true)
+  const changes = diffDocument(REPORTS, [], [report('a')])
+  assert.equal(changes.length, 1)
+  assert.equal(changes[0].kind, 'contentReport')
+  assert.deepEqual(changes[0].tabs, ['reports'])
+})
+
+test('only the reports tab may write a report, and rank decides the transition', () => {
+  const base = [report('a')]
+  const resolved = [{ ...report('a', 'Resolved'), reviewedBy: 'Ed',
+    events: [...report('a').events, { at: 't', actorId: 'e1', actorName: 'Ed', actorRole: 'Editor', action: 'resolved' }] }]
+  const changes = diffDocument(REPORTS, base, resolved)
+  // Without the reports tab, the coarse tab check refuses first.
+  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null, role: 'editor' }).ok, false)
+  // With the tab, rank decides: a reviewer cannot resolve, an editor can.
+  assert.equal(authoriseChanges(changes, { heldTabs: ['reports'], contentScope: null, role: 'reviewer' }).ok, false)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['reports'], contentScope: null, role: 'editor' }).ok, true)
+})
+
+test('two people working different reports both keep their work; the same report collides', () => {
+  const baseDoc = [report('a'), report('b')]
+  // A resolves report a; meanwhile stored already has b dismissed by someone else.
+  const mine = [{ ...report('a', 'Resolved') }, report('b')]
+  const stored = [report('a'), { ...report('b', 'Dismissed') }]
+  const merged = mergeDocument(REPORTS, baseDoc, stored, mine)
+  assert.equal(merged.ok, true)
+  const byId = Object.fromEntries(merged.value.map((r) => [r.id, r.status]))
+  assert.deepEqual(byId, { a: 'Resolved', b: 'Dismissed' })
+
+  // But two edits to the SAME report, from the same base, collide rather than clobber.
+  const theirs = [{ ...report('a', 'Dismissed') }, report('b')]
+  const collide = mergeDocument(REPORTS, baseDoc, theirs, mine)
+  assert.equal(collide.ok, false)
+  assert.deepEqual(collide.conflicts, ['a'])
 })
