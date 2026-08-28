@@ -266,3 +266,107 @@ An Alexandria University AU-MED-103 end-of-module examination paper (internation
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+src_3e62e4d388493af88dbe
+
+## title
+MCQs - Blood practical
+
+## institution
+Alexandria University Faculty of Medicine
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 103 - Blood and Immune System & Medical Terminology/Blood and Immune System/General/Practical/Questions/MCQs - Blood practical.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+29
+
+## sha256
+3e62e4d388493af88dbe8b2814bc6832ddd3ccabd1d7656eba6d90f0409040cf
+
+## rights
+University examination material held for internal extraction only. Not redistributable.
+
+## qualification
+AU-MED-103's own Practical department-question bank, exported as an MS-Forms results review (each item shown with the student's marked answer and, on open items, the printed correct answer beneath it). Curriculum-signal source for real practical/department exam demand, not an independent medical authority — every fact this lane cites from it is corroborated by the department's own Physiology practical sheet (src_f5026e42c1d5c7361a7b) or a standard textbook.
+
+## confidence
+0.85
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
+src_4b9b0c4cf94fde15b14a
+
+## title
+MCQs - Practical Blood Questions
+
+## institution
+Alexandria University Faculty of Medicine
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 103 - Blood and Immune System & Medical Terminology/Blood and Immune System/General/Practical/Questions/MCQs - Practical Blood Questions_20240329_051349_0000.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+18
+
+## sha256
+4b9b0c4cf94fde15b14af087857c31ed3d5437ba1b5e88ba35ab076fcd9cbe77
+
+## rights
+University examination material held for internal extraction only. Not redistributable.
+
+## qualification
+AU-MED-103's own Practical "spot" department-question bank (three repeated sittings of ~9–13 numbered spot stations each, Physiology and other sections, each with a printed answer key). Curriculum-signal source for real practical exam demand, not an independent medical authority. Several spot items depend on a station image not available in this pass; only the image-independent sub-parts of each item are cited.
+
+## confidence
+0.85
+
+## is_assessment
+yes

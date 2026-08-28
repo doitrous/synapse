@@ -6647,3 +6647,139 @@ yes
 
 ## author_notes
 Distractor d is a plausible-sounding biochemistry term (a real cobalamin component) inserted to catch a student pattern-matching on "ring structure" vocabulary rather than reasoning about haem coordination chemistry specifically.
+
+
+---
+
+# Item
+
+## id
+QST-HEM-AU103-FORMS-Q54
+
+## title
+The most likely cause of macrocytic normochromic anaemia
+
+## question
+A patient's complete blood picture shows macrocytic normochromic anaemia. What is the most likely cause?
+
+## subject
+haem
+
+## status
+Draft
+
+## owner
+Import queue
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Iron deficiency
+
+## explanation_a
+Incorrect. Iron deficiency produces a microcytic hypochromic anaemia — small, pale red cells from too little haemoglobin per cell — the opposite red-cell size to the macrocytic picture described here.
+
+## answer_b
+Copper deficiency
+
+## explanation_b
+Incorrect. Copper deficiency is a rare, minor contributor to anaemia through impaired iron mobilisation, usually normocytic or mildly microcytic, and is not a recognised cause of macrocytosis.
+
+## answer_c
+Acute blood loss
+
+## explanation_c
+Incorrect. Acute blood loss produces a normocytic normochromic anaemia in the short term, because whole blood — plasma and cells together — is lost and then diluted by fluid shift; red-cell size itself is unaffected until the marrow's compensatory response changes the picture days later.
+
+## answer_d
+Vitamin B12 deficiency
+
+## explanation_d
+Correct. Vitamin B12 (with folate) is required for DNA synthesis during red-cell maturation in the marrow; when it is deficient, nuclear maturation lags behind cytoplasmic haemoglobinisation, producing large, immature red cells — a macrocytic, normochromic anaemia. Recognised causes of B12 deficiency include gastrectomy (loss of the intrinsic-factor-secreting parietal cells), intrinsic-factor absence (pernicious anaemia), and disease of the distal small intestine, the site where the B12–intrinsic-factor complex is absorbed.
+
+## topic
+Anaemia and red-cell disorders
+
+## subtopic
+Macrocytic anaemia
+
+## main_concept
+CON-HEM-AA67D0E4B516BF
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Diagnosis
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.6
+
+## exam_weight_by_year
+AU_Y1=0.6
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-103
+
+## question_only_for
+
+## library_ids
+ART-HEM-TOP-B697DE3AAD
+
+## resource_ids
+src_3e62e4d388493af88dbe
+
+## learning_objective
+Identify vitamin B12 deficiency as the cause of a macrocytic normochromic anaemia on a CBC, and name gastrectomy, intrinsic-factor absence and distal small-intestinal disease as its recognised causes.
+
+## source_citation
+Alexandria University, AU-MED-103, "MCQs - Blood practical.pdf" (src_3e62e4d388493af88dbe), Q54 (p19), correct option marked on the same rendered page.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Item 54 of the module's own Blood-practical MCQ bank (an MS-Forms results export). Original option order and correct answer (d) preserved, confirmed visually against the rendered page rather than the OCR text layer, since this corpus's export format places incorrect-selection marks unreliably in extracted text (the known extraction trap for this source family). The concept's full causal list (gastrectomy, intrinsic-factor absence, distal small-intestinal disease) is drawn out in the explanation even though the printed stem itself asks only for the single best cause of the CBC picture shown.
