@@ -37,10 +37,11 @@
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
+    Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 4 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 7 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 11 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
@@ -65,7 +66,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  109 questions were excluded and 0 held back for having no
+  110 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4588,6 +4589,269 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## label
+The ventricular pressure-volume loop's EDPVR traces the ventricle's passive tension as it fills, its ESPVR traces the maximal active tension the contracting ventricle can generate, and end-diastolic volume and end-systolic pressure are the loop's standard practical measures of preload and afterload
+## id
+CON-CVS-CDED5A71C2AEBA
+## canonical_key
+ventricular-pressure-volume-loop.landmarks.edpvr-espvr-preload-afterload
+## definition
+On a ventricular pressure-volume loop, the end-diastolic pressure-volume relationship (EDPVR) is the curve traced by the passive, non-contracting ventricular wall as it is stretched during filling — analogous to the passive length-tension curve of a resting isolated muscle. The end-systolic pressure-volume relationship (ESPVR) is the line on which the upper-left corner of loops at varying preload or afterload lies; its slope is used as a load-independent index of the ventricle's contractility because it isolates the maximal ACTIVE tension-generating capacity of the ventricle at end-systole, not a 'total' tension that would misleadingly combine the active and passive components together. Two of the loop's corners double as standard clinical and experimental proxies for the heart's own loading conditions: end-diastolic volume (EDV), the right-hand edge of the loop, is the standard measure of preload, and end-systolic pressure (ESP), the loop's peak pressure at the point of aortic valve closure, is the standard measure of afterload.
+## explicit_objective
+Distinguish the EDPVR (passive filling tension) from the ESPVR (maximal active tension / contractility) on a ventricular pressure-volume loop, and state that end-diastolic volume and end-systolic pressure are the loop's standard proxies for preload and afterload respectively.
+## pitfalls
+Describing the ESPVR as representing the ventricle's "total" tension. That phrasing wrongly implies it combines both active and passive components, when the ESPVR's entire value as a load-independent index of contractility depends on isolating the active component alone.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+EDPVR | ESPVR | Ventricular pressure-volume loop | End-systolic pressure-volume relationship
+## article_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Concerning the pressure volume loop of left ventricle, all EXCEPT:
+## conflicts
+No conflicting record found; find-existing.mjs returned 'safe to create', and the only related pending concept found by grep (ventricular-pressure-volume-loop.effect-of-increased-inotropy, 104-CPS-concepts.md) teaches a different fact — what shifts the ESPVR line — not what each loop landmark itself is.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Increased afterload decreases the velocity and degree of ventricular myocardial shortening, raises end-systolic volume and lowers stroke volume — a movement along the heart's fixed force-velocity curve, unlike increased inotropy, which shifts the whole curve and genuinely raises Vmax
+## id
+CON-CVS-EF660365382133
+## canonical_key
+ventricular-afterload.effect-on-shortening.force-velocity-relationship
+## definition
+The force-velocity relationship of cardiac muscle is an inverse curve: as afterload (the load the muscle must shorten against) rises, the velocity of shortening falls, extrapolating toward zero velocity — a fully isometric contraction — at a maximal afterload the muscle cannot overcome at all. Because a higher afterload also reduces the degree of shortening reached from a given preload, the ventricle empties less completely, raising end-systolic volume; at an unchanged end-diastolic volume (preload), this lowers stroke volume. This is a movement ALONG a fixed force-velocity curve, in contrast to increased inotropy, which shifts the entire curve up and to the right and genuinely raises Vmax, the curve's maximal, load-independent, zero-load velocity intercept — afterload on its own does not change Vmax.
+## explicit_objective
+State that increased afterload decreases the velocity of shortening, increases end-systolic volume and decreases stroke volume (a movement along the force-velocity curve), and contrast this against increased inotropy, which shifts the curve itself and raises Vmax.
+## pitfalls
+Confusing afterload's effect (moving along a fixed force-velocity curve; Vmax unchanged) with inotropy's effect (shifting the curve itself; Vmax genuinely increases), or assuming increased afterload decreases, rather than increases, end-systolic volume.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p3 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Afterload | Force-velocity relationship | End-systolic volume
+## article_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Increased afterload on the ventricle:
+## conflicts
+No conflicting record found; find-existing.mjs returned 'safe to create', and grepping the pending concept files for 'force-velocity' and 'Vmax' returned no hit — a genuine gap, not a duplicate.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
 ## id
 CON-CVS-8D34A57C987227
 ## label
@@ -5736,6 +6000,10 @@ src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p3 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes

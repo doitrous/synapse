@@ -127,5 +127,65 @@ export const LEAF: McqLeafSeed = {
       exclude: true,
       excludeReason: 'No printed key exists (answerConfidence: none in the bank), and none of the five options restates Frank-Starling\'s law\'s own core relationship — isometric tension rising with the muscle\'s initial stretch (preload). The options instead mix in force-velocity-relationship concepts (achieving Vmax at zero load) and unrelated cardiovascular facts (arterial pressure, oxygen supply, ejection phase), none of which can be confidently matched to what the stem actually asks.',
     },
+    // The 4 questions below are bank rows tagged leaf "Mechanical Properties
+    // of Cardiac Muscle" (not this file's own bank leaf tag, "Cardiac
+    // Function") — added here rather than to a separate file because their
+    // modulePath is the same one this file already lives under, and they
+    // test the same already-declared concept above (preload's effect on
+    // active tension and its own determinants), per this branch's standing
+    // practice of routing by modulePath/concept fit over the bank's own
+    // unreliable leaf tag.
+    {
+      key: 'as-the-preload-increases-what-is-the-effect-on-ventricular-m-b3ab5a86',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Recall of a mechanism',
+      learningObjective: "State that increased preload raises a ventricular myocyte's active tension development, via increased sarcomere length, without itself changing inotropy or decreasing shortening velocity.",
+      explanations: {
+        A: "Correct. Increased preload stretches the ventricular myocyte's sarcomeres to a greater initial length before contraction, which — via the Frank-Starling length-tension relationship — increases the active tension the muscle develops during contraction, up to an optimal length.",
+        B: "Inotropy (intrinsic contractility) is a separate property, regulated mainly by sympathetic tone and calcium handling, not directly changed by preload/stretch itself.",
+        C: "Increased preload increases, not decreases, sarcomere length — greater ventricular filling stretches the myocardial fibres further, which is exactly why active tension rises.",
+        D: "Increased preload does not decrease the velocity of shortening at a given afterload; it actually increases it. Decreased shortening velocity is instead classically associated with increased afterload, not increased preload.",
+      },
+    },
+    {
+      key: 'as-the-preload-on-ventricular-myocytes-is-increased-1-32d2b2d9',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Recall of a mechanism',
+      learningObjective: "State that increased preload raises a ventricular myocyte's active tension development, via increased sarcomere length, without itself changing inotropy or decreasing shortening velocity.",
+      explanations: {
+        A: "Correct. Increased preload stretches the ventricular myocyte's sarcomeres to a greater initial length before contraction, which — via the Frank-Starling length-tension relationship — increases the active tension the muscle develops during contraction, up to an optimal length.",
+        B: "Increased preload increases, not decreases, sarcomere length — greater ventricular filling stretches the myocardial fibres further, which is exactly why active tension rises.",
+        C: "Inotropy (intrinsic contractility) is a separate property, regulated mainly by sympathetic tone and calcium handling, not directly changed by preload/stretch itself.",
+        D: "Increased preload does not decrease the velocity of shortening at a given afterload; it actually increases it. Decreased shortening velocity is instead classically associated with increased afterload, not increased preload.",
+      },
+    },
+    {
+      key: 'which-of-the-following-conditions-would-lixely-increase-the-bf2e2eaa',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: 'Identify fluid infusion, by directly raising circulating volume and venous return, as a cause of increased preload, as opposed to conditions that raise afterload or that reduce effective circulating volume.',
+      explanations: {
+        A: "Correct. Fluid infusion directly increases circulating blood volume, which raises venous return and ventricular end-diastolic filling — the direct definition of increased preload.",
+        B: "Essential hypertension's primary haemodynamic effect is increased afterload (the pressure the heart must pump against), not preload.",
+        C: "Hypoalbuminaemia-induced oedema results from fluid shifting out of the vasculature into the interstitium, reducing, not increasing, effective circulating volume and preload.",
+        D: "Venous thrombosis obstructs venous return from the affected territory, reducing, not increasing, preload to the heart.",
+      },
+    },
+    {
+      key: 'stroke-volume-is-increased-by-which-of-the-following-ccb4e991',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Discrimination among near-miss options',
+      learningObjective: 'Identify an increase in preload as a direct cause of increased stroke volume (via the Frank-Starling mechanism), as opposed to venodilation or a rise in arterial pressure/afterload.',
+      explanations: {
+        A: "An increase in venous capacity from venodilation pools more blood in the veins, reducing venous return to the heart — this lowers, not raises, preload and stroke volume.",
+        B: "A decrease in extracellular Ca++ reduces the Ca++ available for excitation-contraction coupling, a negative inotropic influence that lowers, not raises, stroke volume.",
+        C: "Increased arterial blood pressure raises afterload, the pressure the ventricle must overcome to eject blood; a higher afterload reduces the degree of shortening at a given preload, lowering, not raising, stroke volume.",
+        D: "Correct. An increase in preload stretches the ventricular myocardium further before contraction, and via the Frank-Starling mechanism this directly increases the force and degree of shortening, raising stroke volume.",
+      },
+    },
   ],
 }

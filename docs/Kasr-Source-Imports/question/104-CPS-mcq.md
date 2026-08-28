@@ -37,10 +37,11 @@
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
+    Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop — 4 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 7 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 11 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Cardiovascular System — Special Circulation (Coronary) — 2 questions, 1 concepts
@@ -65,7 +66,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  109 questions were excluded and 0 held back for having no
+  110 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -29347,6 +29348,282 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-D7B4BE8ADFCF
+## title
+Concerning the pressure volume loop of left ventricle, all EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the pressure volume loop of left ventricle, all EXCEPT:
+## answer_a
+The EDPVR represents the passive tension developed in isolated ms
+## explanation_a
+True, not the exception. The EDPVR reflects the passive tension developed by the resting, non-contracting ventricular wall as it is stretched by filling, analogous to a passive length-tension curve of isolated muscle.
+## answer_b
+The ESPVR represents the total tension developed in isolated muscle 1
+## explanation_b
+Correct — this is the exception (the false statement). The ESPVR represents the ventricle's maximal ACTIVE tension-generating capacity at end-systole, a load-independent index of contractility, not a "total" tension that would misleadingly combine active and passive components together.
+
+Why this is right:
+- On a ventricular pressure-volume loop, the end-diastolic pressure-volume relationship (EDPVR) is the curve traced by the passive, non-contracting ventricular wall as it is stretched during filling — analogous to the passive length-tension curve of a resting isolated muscle.
+## answer_c
+The end diastolic volume represents the preload |
+## explanation_c
+True, not the exception. End-diastolic volume is the standard clinical and experimental proxy for preload.
+## answer_d
+The end systolic pressure represents the afterload ;
+## explanation_d
+True, not the exception. End-systolic pressure is the standard clinical and experimental proxy for afterload.
+## correct_answer
+B
+## main_concept
+CON-CVS-CDED5A71C2AEBA
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that the ESPVR represents the ventricle's maximal ACTIVE tension, not a "total" tension, as the false statement among the pressure-volume loop's other true landmark definitions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p12 q88. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-65E6CD5AB7A2
+## title
+Increased afterload on the ventricle:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Increased afterload on the ventricle:
+## answer_a
+Decreases end-systolic volume
+## explanation_a
+Increased afterload increases, not decreases, end-systolic volume — the ventricle empties less completely against the higher load, leaving more blood behind at end-systole.
+## answer_b
+Decreases the velocity of shortening
+## explanation_b
+Correct. Increased afterload moves the ventricle further along its fixed force-velocity curve, decreasing the velocity (and degree) of myocardial shortening.
+
+Why this is right:
+- The force-velocity relationship of cardiac muscle is an inverse curve: as afterload (the load the muscle must shorten against) rises, the velocity of shortening falls, extrapolating toward zero velocity — a fully isometric contraction — at a maximal afterload the muscle cannot overcome at all.
+## answer_c
+Increases stroke volume
+## explanation_c
+Increased afterload decreases, not increases, stroke volume at a given preload — a higher end-systolic volume with an unchanged end-diastolic volume means less blood is ejected per beat.
+## answer_d
+Increases Vmax in the force-velocity relationship
+## explanation_d
+Vmax, the force-velocity curve's zero-load velocity intercept, changes only with inotropy, not afterload; afterload moves the operating point along the existing curve without changing the curve (or Vmax) itself.
+## correct_answer
+B
+## main_concept
+CON-CVS-EF660365382133
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that increased afterload decreases the velocity of shortening, as opposed to decreasing end-systolic volume, increasing stroke volume, or increasing Vmax.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p12 q95. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-F96A506AB376
+## title
+what is the effect of increased afterload on the ventricle?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+what is the effect of increased afterload on the ventricle?
+## answer_a
+Decreases end-systolic volume
+## explanation_a
+Increased afterload increases, not decreases, end-systolic volume, since the ventricle empties less completely against the higher load.
+## answer_b
+Decreases the velocity of shortening
+## explanation_b
+Correct. Increased afterload moves the ventricle further along its own fixed force-velocity curve, decreasing the velocity of myocardial shortening.
+
+Why this is right:
+- The force-velocity relationship of cardiac muscle is an inverse curve: as afterload (the load the muscle must shorten against) rises, the velocity of shortening falls, extrapolating toward zero velocity — a fully isometric contraction — at a maximal afterload the muscle cannot overcome at all.
+## answer_c
+Increases stroke volume
+## explanation_c
+Increased afterload decreases, not increases, stroke volume at a given preload, because more blood is left behind at the higher end-systolic volume.
+## answer_d
+Increases Vax in the force-velocity relationship
+## explanation_d
+Vmax is a property of the force-velocity curve itself, changed by inotropy, not by afterload; afterload only moves the operating point along an unchanged curve.
+## correct_answer
+B
+## main_concept
+CON-CVS-EF660365382133
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Afterload and the Ventricular Pressure-Volume Loop
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+State that increased afterload decreases the velocity of shortening, as opposed to decreasing end-systolic volume, increasing stroke volume, or increasing Vmax.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p3 q5. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-F33C21821BF7
 ## title
 Which phase of the cardiac cycle is absent if there is no P wave on the electrocardiogr…
@@ -33670,6 +33947,374 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-3B6520182B24
+## title
+As the preload increases, what is the effect on ventricular myocyte?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+As the preload increases, what is the effect on ventricular myocyte?
+## answer_a
+Active tension development increases
+## explanation_a
+Correct. Increased preload stretches the ventricular myocyte's sarcomeres to a greater initial length before contraction, which — via the Frank-Starling length-tension relationship — increases the active tension the muscle develops during contraction, up to an optimal length.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_b
+Inotropy decreases
+## explanation_b
+Inotropy (intrinsic contractility) is a separate property, regulated mainly by sympathetic tone and calcium handling, not directly changed by preload/stretch itself.
+## answer_c
+Sarcomere length decreases
+## explanation_c
+Increased preload increases, not decreases, sarcomere length — greater ventricular filling stretches the myocardial fibres further, which is exactly why active tension rises.
+## answer_d
+Velocity of shortening decreases
+## explanation_d
+Increased preload does not decrease the velocity of shortening at a given afterload; it actually increases it. Decreased shortening velocity is instead classically associated with increased afterload, not increased preload.
+## correct_answer
+A
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that increased preload raises a ventricular myocyte's active tension development, via increased sarcomere length, without itself changing inotropy or decreasing shortening velocity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p3 q4. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-456341B69BAE
+## title
+As the preload on ventricular myocytes is increased 1
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+As the preload on ventricular myocytes is increased 1
+## answer_a
+Active tension developed increases
+## explanation_a
+Correct. Increased preload stretches the ventricular myocyte's sarcomeres to a greater initial length before contraction, which — via the Frank-Starling length-tension relationship — increases the active tension the muscle develops during contraction, up to an optimal length.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_b
+Sarcomere length decreases
+## explanation_b
+Increased preload increases, not decreases, sarcomere length — greater ventricular filling stretches the myocardial fibres further, which is exactly why active tension rises.
+## answer_c
+Tnotropy decreases
+## explanation_c
+Inotropy (intrinsic contractility) is a separate property, regulated mainly by sympathetic tone and calcium handling, not directly changed by preload/stretch itself.
+## answer_d
+Velocity of shortening decreases
+## explanation_d
+Increased preload does not decrease the velocity of shortening at a given afterload; it actually increases it. Decreased shortening velocity is instead classically associated with increased afterload, not increased preload.
+## correct_answer
+A
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that increased preload raises a ventricular myocyte's active tension development, via increased sarcomere length, without itself changing inotropy or decreasing shortening velocity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p12 q90. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9F54E215ACC3
+## title
+Which of the following conditions would lixely increase the preload?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following conditions would lixely increase the preload?
+## answer_a
+fluid infusion
+## explanation_a
+Correct. Fluid infusion directly increases circulating blood volume, which raises venous return and ventricular end-diastolic filling — the direct definition of increased preload.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_b
+essential hypertension
+## explanation_b
+Essential hypertension's primary haemodynamic effect is increased afterload (the pressure the heart must pump against), not preload.
+## answer_c
+edema caused by hypoalbuminemia
+## explanation_c
+Hypoalbuminaemia-induced oedema results from fluid shifting out of the vasculature into the interstitium, reducing, not increasing, effective circulating volume and preload.
+## answer_d
+venous thrombosis
+## explanation_d
+Venous thrombosis obstructs venous return from the affected territory, reducing, not increasing, preload to the heart.
+## correct_answer
+A
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify fluid infusion, by directly raising circulating volume and venous return, as a cause of increased preload, as opposed to conditions that raise afterload or that reduce effective circulating volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p4 q7. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1C579791BA43
+## title
+Stroke volume is increased by which of the following?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Stroke volume is increased by which of the following?
+## answer_a
+An increase in venous capacity due to venous dilation
+## explanation_a
+An increase in venous capacity from venodilation pools more blood in the veins, reducing venous return to the heart — this lowers, not raises, preload and stroke volume.
+## answer_b
+A decrease in the extracellular Ca?*
+## explanation_b
+A decrease in extracellular Ca++ reduces the Ca++ available for excitation-contraction coupling, a negative inotropic influence that lowers, not raises, stroke volume.
+## answer_c
+Increased arterial blood pressure
+## explanation_c
+Increased arterial blood pressure raises afterload, the pressure the ventricle must overcome to eject blood; a higher afterload reduces the degree of shortening at a given preload, lowering, not raising, stroke volume.
+## answer_d
+An increase in the preload
+## explanation_d
+Correct. An increase in preload stretches the ventricular myocardium further before contraction, and via the Frank-Starling mechanism this directly increases the force and degree of shortening, raising stroke volume.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## correct_answer
+D
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify an increase in preload as a direct cause of increased stroke volume (via the Frank-Starling mechanism), as opposed to venodilation or a rise in arterial pressure/afterload.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p7 q25; EOM 2022 CPS 104 (1).pdf p4 q20; DPT BOOK Physio MCQ [104][2022].pdf p14 q106. Manifest src_ab84e963639b236e0951, src_d3160d222c8c55775511, src_e569449acf8dc2af471e.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
 

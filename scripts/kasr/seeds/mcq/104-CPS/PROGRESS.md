@@ -1535,3 +1535,76 @@ minting), 1 mistagged urinary-bladder-plasticity row (not cardiac at all
 lives), 1 mistagged Poiseuille-law row (vascular resistance, not cardiac
 muscle mechanics — likely belongs in Vascular Function, this leaf's own
 next queued cluster).
+
+## run35, second commit: Preload/afterload/PV-loop sub-cluster (7 kept, 1
+## excluded)
+
+**4 rows added to the EXISTING `physiology-cardiac-preload-frank-starling.ts`**
+(not a new file): `as-the-preload-increases...-b3ab5a86` and its near-
+duplicate `...-32d2b2d9` (preload raises active tension, via sarcomere
+stretch — not inotropy, not a sarcomere-length decrease, not a shortening-
+velocity decrease), `which-of-the-following-conditions-would-lixely-
+increase...-bf2e2eaa` (fluid infusion raises preload; hypertension raises
+afterload instead; hypoalbuminaemia oedema and venous thrombosis both
+lower it), `stroke-volume-is-increased-by...-ccb4e991` (preload rise is
+the correct cause; venodilation and raised arterial pressure/afterload
+both cut stroke volume instead). All 4 reuse this file's own already-
+declared concept (`cardiac-muscle-length-tension.frank-starling-law.
+preload-effect-on-shortening`) — 0 new reuses/mints needed. Added here
+rather than a separate file because these bank rows carry the *bank's*
+"Mechanical Properties of Cardiac Muscle" leaf tag (not this file's own
+bank-leaf tag, "Cardiac Function") but the same modulePath and the same
+already-declared concept — routed by modulePath/concept fit, per this
+branch's standing practice of treating the bank's own `leaf` field as
+unreliable.
+
+**`physiology-cardiac-afterload-and-pv-loop.ts`** (new file, articleId
+ART-104-PHY-CARDIAC-MECHANICS): 2 fresh mints, both after find-existing.mjs
+"safe to create" AND a grep sweep of all 104-CPS concept files for "EDPVR"/
+"ESPVR"/"pressure-volume"/"force-velocity"/"Vmax" turning up only one
+unrelated written-question concept (`ventricular-pressure-volume-loop.
+effect-of-increased-inotropy`, 104-CPS-concepts.md — a different fact, what
+*moves* the ESPVR line, not what each loop landmark *is*):
+- `ventricular-pressure-volume-loop.landmarks.edpvr-espvr-preload-afterload`
+  — EDPVR = passive filling tension, ESPVR = maximal active tension
+  (contractility index, not "total" tension), EDV = preload proxy, ESP =
+  afterload proxy.
+- `ventricular-afterload.effect-on-shortening.force-velocity-relationship`
+  — increased afterload moves the ventricle along its fixed force-velocity
+  curve (velocity of shortening down, ESV up, SV down), contrasted against
+  inotropy's own curve-shifting effect (Vmax genuinely rises) already
+  covered by this leaf's `physiology-cardiac-inotropy-mechanisms.ts`.
+
+3 kept (`concerning-the-pressure-volume-loop...-0eb3ce9e` EDPVR/ESPVR-
+definitions EXCEPT question; `increased-afterload-on-the-ventricle-
+c44cd5fe` and its near-duplicate `what-is-the-effect-of-increased-
+afterload...-9084d395`, both testing the same afterload-decreases-
+shortening-velocity fact against Vmax/ESV/SV distractors). 1 excluded
+(`an-increase-in-afterload-and-venous-compliance...-4dc76b7f` — already
+`editorialExcluded: true` in the bank itself, depends on an unavailable
+graph; recorded here for this leaf's own complete accounting, not
+silently dropped).
+
+Gate: 527 kept (+7 from 520), 110 excluded (+1 from 109). Additive-only
+proof done by id-set diff this time (more reliable than eyeballing
+`git diff -/+`  lines, since the new mid-file insertions in the preload
+file reordered several downstream cardiac-cycle questions and made git's
+diff render them as spurious remove+re-add pairs): `comm -23` on
+`QM-104-*` ids extracted from `git show HEAD:...` vs the current file —
+0 lines (empty), 520 -> 527; same for `CON-CVS-*` ids in the concepts
+file — 0 lines, 64 -> 66. `medical:simulate` positional (all concept/
+article files + the question file): `errors: []`, `skipped: []`, all
+`rejected: 0`. `medical:batch` full `--with`: identical 6 errors as the
+previous commit (the 4 pre-existing 3-option rows + the 2 known
+library_ids false-positives on the digitalis questions, see this file's
+own hazard note above) — 0 new. `medical:audit`: `errors: []`.
+
+Next in this leaf (23 rows remaining): the wider contractility/EC-
+coupling group (L-type Ca channels, phospholamban, "regarding the cardiac
+muscle" / "the cardiac muscle fibers" general rows, myocardial-
+contractility-decrease row), cardiac index, stroke-volume-reserve-during-
+exercise, hemorrhagic shock (2 rows — check `physiology-circulatory-
+control-hemorrhagic-shock.ts` before minting), the mistagged urinary-
+bladder-plasticity row, the mistagged Poiseuille-law row (route to
+Vascular Function, this leaf's own next queued cluster after this one
+closes).
