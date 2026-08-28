@@ -105,7 +105,7 @@ CON-DEV-2B8AB1049043DB
 CON-DEV-EC7DFE6500CC01
 
 ## related_articles
-ART-DEV-ASU-AE-SPERMATOGENESIS-SEMEN: shares the same ASU-AE Embryology gamete-mechanics thread, from spermatogenesis through to fertilization
+ART-DEV-ASU-AE-TWINNING: same ASU-AE Embryo 2 answer-key source, continuing from fertilization mechanics into twinning
 
 ## question_ids
 
@@ -283,7 +283,7 @@ Calling conjoined/conjoint twins dizygotic.
 CON-DEV-397FA7EC5F2396
 
 ## related_articles
-
+ART-DEV-ASU-AE-FERTILIZATION-BARRIERS: same ASU-AE Embryo 2 answer-key source, continuing from fertilization mechanics into twinning
 
 ## question_ids
 

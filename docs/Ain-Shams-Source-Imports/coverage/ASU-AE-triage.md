@@ -1,5 +1,27 @@
 # ASU-AE triage — Phase 1
 
+**Phase 2b authoring update (2026-08-28):** authored 21 of "MCQs - Embryo 2.pdf"'s 69 printed
+items (src_a7e3b821ab294015c05f, fertilization mechanics/placenta/twins block) as
+`docs/Ain-Shams-Source-Imports/{concept,article,question,evidence}/ASU-AE-embryology-fertilization-placenta-*.md`
+— 1 item (46) excluded as a genuine duplicate-option print defect (confirmed at 500 DPI, same
+pattern as Embryo 1's own Q17). Of the remaining 68, 7 sparse-overlaid a live concept
+(placental barrier, ectopic pregnancy, placenta fetal/maternal parts, battledore placenta,
+placental hormones/hCG, intervillous space, extraembryonic mesoderm identity) and 3 were newly
+minted (acrosome reaction site, oocyte penetration barriers/perivitelline space, conjoined-twins
+classification) after `find-existing.mjs` found nothing live or pending. The other **47
+questions could not be authored this pass**: their tested concept already exists, in
+comprehensive form, inside Kasr's own unimported `101-ISK-mcq-concepts.md` and Alexandria's own
+unimported `AU-MED-102-embryology*` batches — a question citing a `main_concept` that is neither
+live nor inside this lane's own simulated batch fails `medical:simulate`'s concept-existence
+check, so these are logged instead in
+`docs/Ain-Shams-Source-Imports/pending-live/ASU-AE-EMBRYO2-deferred-pending-concepts.md` (stem,
+key and target pending concept id per question) for a fast follow-up once either batch lands.
+Also regenerated the stale `evidence/corpus-source-index.json` (it was silently excluding every
+blocked/OCR'd source, including Embryo 1's own already-shipped one, from the "readable" index —
+a gap Embryo 1's own Done row flagged but did not fix). Still owed: "MCQs - Embryo 3.pdf" (week
+3/gastrulation block, ~104 Qs, not started), the two `youssef` anatomy/embryology files, the
+5-item Embryo 1 matching cluster, and the 16 written "Key Facts"/case-discussion prompts.
+
 **Phase 2 authoring update (2026-08-28):** authored the `Bg Embryology Mcq`/`Embryo1-3` block's
 best single source — `MCQs - Embryo 1.pdf` (src_5d3b735488d8c321d5bd, 45 printed items,
 gametogenesis/spermatogenesis/oogenesis/ovulation/corpus-luteum) — since it alone (unlike the other
