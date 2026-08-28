@@ -48,5 +48,31 @@ export const LEAF: McqLeafSeed = {
         D: "Arterial blood pressure is closer to a component of afterload, which the law does not describe — the law's variable is the muscle's own resting stretch (preload), not the pressure it must contract against.",
       },
     },
+    {
+      key: 'if-the-end-diastolic-volume-is-increased-92889299',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling\'s law.',
+      explanations: {
+        A: 'By Frank-Starling\'s law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects.',
+        B: 'Cardiac output would rise, not fall, if stroke volume rises with an unchanged heart rate — the direct opposite of this option.',
+        C: 'Frank-Starling\'s law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of contraction.',
+        D: 'End-diastolic volume is a ventricular filling variable and does not itself set heart rate, which is governed separately by autonomic and pacemaker mechanisms.',
+      },
+    },
+    {
+      key: 'in-healthy-ventricles-the-force-of-contraction-a-decreases-w-fd934514',
+      conceptKey: 'cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'State that the force of ventricular contraction increases with end-diastolic volume within physiological limits (Frank-Starling\'s law).',
+      explanations: {
+        A: 'Sympathetic stimulation increases, not decreases, the force of cardiac contraction (positive inotropy) — the opposite of this option.',
+        B: 'By Frank-Starling\'s law, within physiological limits, the force of ventricular contraction rises directly with increasing end-diastolic volume (preload) — this is exactly how the heart matches its output to a rising venous return.',
+        C: 'The force of contraction, set partly by preload through Frank-Starling\'s law, is a major determinant of stroke volume and so of cardiac output — it does influence cardiac output.',
+        D: 'Contractile force varies with preload, afterload, sympathetic tone and other inotropic influences — it is not fixed or invariant.',
+      },
+    },
   ],
 }

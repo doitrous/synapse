@@ -25,8 +25,8 @@
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 6 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 3 questions, 1 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 10 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
@@ -46,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  19 questions were excluded and 0 held back for having no
+  21 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1820,10 +1820,145 @@ cardiac-output.definition-formula-and-index
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
 ## field_notes
 canonical_key "cardiac-output.definition-formula-and-index" already has a pinned id in this module (CON-CVS-D97F7FD5B9F824); mintConceptId derives the same id fresh (CON-CVS-D97F7FD5B9F824) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Ejection fraction is the fraction of end-diastolic volume ejected per beat, normally about 55-60% at rest, and is characteristically reduced (around 40% or less) in heart failure
+## id
+CON-CVS-61012EFA26719E
+## canonical_key
+ventricular-ejection-fraction.normal-value-and-reduction-in-heart-failure
+## definition
+Ejection fraction (EF) is the stroke volume expressed as a fraction (percentage) of the end-diastolic volume: EF = stroke volume / end-diastolic volume x 100. In a resting healthy adult it is normally about 55-60% — a healthy ventricle ejects roughly three-fifths of the blood it holds at the end of filling, not all of it, leaving an end-systolic volume behind as a reserve. In systolic heart failure, when the ventricle's contractile performance falls, ejection fraction falls with it, characteristically to around 40% or less, and is used clinically as the chief marker of that reduced pumping performance.
+## explicit_objective
+State the ejection fraction formula (SV / EDV), its normal resting value (~55-60%), and that it falls characteristically to ~40% or below in heart failure.
+## pitfalls
+Confusing ejection fraction (the fraction of the filled ventricle that is ejected, ~55-60% normally) with stroke volume itself (an absolute volume, ~70 ml) — a normal heart never approaches 100% ejection fraction, because some blood always remains as the end-systolic volume.
+## concept_type
+definition
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Ejection fraction | EF in heart failure | EF = SV/EDV
+## article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] A patient with heart failure, the ejection fraction is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -1838,6 +1973,8 @@ cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening
 ## exam_signal
 src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes

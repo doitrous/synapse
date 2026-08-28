@@ -25,8 +25,8 @@
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 6 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 3 questions, 1 concepts
-    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 2 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 10 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
@@ -46,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  19 questions were excluded and 0 held back for having no
+  21 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -15504,6 +15504,466 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-649A698FB3F0
+## title
+The following data are obtained from a patient: The end diastolic volume 130 ml, the en…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following data are obtained from a patient: The end diastolic volume 130 ml, the end systolic volume 70ml and the cardiac output 4800ml/min. From these data, ‏صف عصه‎ determine that the heart rate equals: 1
+## answer_a
+70 beat/minute
+## explanation_a
+Stroke volume here is 130 - 70 = 60 ml; dividing cardiac output (4800 ml/min) by 60 ml gives 80 beats/minute, not 70.
+## answer_b
+80 beat/minute
+## explanation_b
+Stroke volume is end-diastolic minus end-systolic volume: 130 - 70 = 60 ml. Heart rate = cardiac output / stroke volume = 4800 / 60 = 80 beats/minute.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+90 beat/minute 7
+## explanation_c
+Using the correct stroke volume of 60 ml, cardiac output / stroke volume gives 80, not 90, beats/minute.
+## answer_d
+100 beat/minute
+## explanation_d
+4800 / 60 = 80, not 100; 100 beats/minute would require a smaller stroke volume than the 60 ml these figures give.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+Calculate heart rate from cardiac output and stroke volume (end-diastolic minus end-systolic volume).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p18 q136. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A27D84ADC7B8
+## title
+The following data are obtained from a patient: The end diastolic volume 120 ml, the en…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following data are obtained from a patient: The end diastolic volume 120 ml, the end systolic volume 70ml and the cardiac output 4500ml/min. From these data, one can determine that the heart rate equals:
+## answer_a
+70 beat/minute
+## explanation_a
+Stroke volume here is 120 - 70 = 50 ml; dividing cardiac output (4500 ml/min) by 50 ml gives 90 beats/minute, not 70.
+## answer_b
+80 beat/minute
+## explanation_b
+Using the correct stroke volume of 50 ml, cardiac output / stroke volume gives 90, not 80, beats/minute.
+## answer_c
+90 beat/minute
+## explanation_c
+Stroke volume is end-diastolic minus end-systolic volume: 120 - 70 = 50 ml. Heart rate = cardiac output / stroke volume = 4500 / 50 = 90 beats/minute.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_d
+100 beat/minute
+## explanation_d
+4500 / 50 = 90, not 100; 100 beats/minute would require a smaller stroke volume than the 50 ml these figures give.
+## correct_answer
+C
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology Cardiovascular System — Cardiac Output Formula
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+Calculate heart rate from cardiac output and stroke volume (end-diastolic minus end-systolic volume).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p4 q25. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B989AD812F5D
+## title
+A patient with heart failure, the ejection fraction is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient with heart failure, the ejection fraction is:
+## answer_a
+40%
+## explanation_a
+Ejection fraction characteristically falls to around 40% or less in heart failure, well below the normal resting value of about 55-60%, reflecting the ventricle's reduced pumping performance.
+
+Why this is right:
+- Ejection fraction (EF) is the stroke volume expressed as a fraction (percentage) of the end-diastolic volume: EF = stroke volume / end-diastolic volume x 100.
+## answer_b
+60%
+## explanation_b
+60% is within the normal resting range, not the reduced value expected in heart failure.
+## answer_c
+70%
+## explanation_c
+70% is above even the normal resting range and is the opposite direction of change from what heart failure produces.
+## answer_d
+80%
+## explanation_d
+80% would be an implausibly high ejection fraction even for a healthy heart, and is the opposite direction of change from heart failure.
+## correct_answer
+A
+## main_concept
+CON-CVS-61012EFA26719E
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology Cardiovascular System — Cardiac Output Formula
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+State that ejection fraction falls to around 40% in heart failure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p14 q23. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4B2F1375CB2F
+## title
+In a resting adult, the ventricular ejection fraction is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In a resting adult, the ventricular ejection fraction is:
+## answer_a
+20%
+## explanation_a
+20% is far below normal — a value this low signals severely reduced ventricular performance, not a resting healthy adult.
+## answer_b
+30%
+## explanation_b
+30% is still well below the normal resting range and would itself indicate significantly impaired ejection.
+## answer_c
+40%
+## explanation_c
+40% is the value characteristic of heart failure, not the normal resting value in a healthy adult.
+## answer_d
+60%
+## explanation_d
+The normal ventricular ejection fraction at rest in a healthy adult is about 60% — the ventricle ejects roughly three-fifths of its end-diastolic volume each beat.
+
+Why this is right:
+- Ejection fraction (EF) is the stroke volume expressed as a fraction (percentage) of the end-diastolic volume: EF = stroke volume / end-diastolic volume x 100.
+## correct_answer
+D
+## main_concept
+CON-CVS-61012EFA26719E
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the normal resting ventricular ejection fraction (~55-60%).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p14 q105. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D2F20CB7C44F
+## title
+In a resting adult, what's the normal ventricular ejection fraction?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In a resting adult, what's the normal ventricular ejection fraction?
+## answer_a
+20%
+## explanation_a
+20% is far below normal — a value this low signals severely reduced ventricular performance, not a resting healthy adult.
+## answer_b
+30%
+## explanation_b
+30% is still well below the normal resting range and would itself indicate significantly impaired ejection.
+## answer_c
+40%
+## explanation_c
+40% is the value characteristic of heart failure, not the normal resting value in a healthy adult.
+## answer_d
+55%
+## explanation_d
+The normal ventricular ejection fraction at rest in a healthy adult is about 55%, at the lower end of the commonly quoted 55-60% resting range — the ventricle ejects roughly half to three-fifths of its end-diastolic volume each beat.
+
+Why this is right:
+- Ejection fraction (EF) is the stroke volume expressed as a fraction (percentage) of the end-diastolic volume: EF = stroke volume / end-diastolic volume x 100.
+## correct_answer
+D
+## main_concept
+CON-CVS-61012EFA26719E
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology Cardiovascular System — Cardiac Output Formula
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the normal resting ventricular ejection fraction (~55-60%).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p8 q60. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-30851052ECE6
 ## title
 All about cardiac preload is true, EXCEPT:
@@ -15678,6 +16138,190 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q43. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AA55D4C2521E
+## title
+If the end-diastolic volume is increased: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+If the end-diastolic volume is increased: |
+## answer_a
+The stroke volume would be increased |
+## explanation_a
+By Frank-Starling's law, a higher end-diastolic volume stretches the ventricle further before contraction, raising the degree of shortening and so the stroke volume it ejects.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_b
+The cardiac output would be decreased
+## explanation_b
+Cardiac output would rise, not fall, if stroke volume rises with an unchanged heart rate — the direct opposite of this option.
+## answer_c
+The force of cardiac contraction would be decreased
+## explanation_c
+Frank-Starling's law states the opposite: a greater stretch (higher preload) increases, not decreases, the force of contraction.
+## answer_d
+The heart rate would be increased
+## explanation_d
+End-diastolic volume is a ventricular filling variable and does not itself set heart rate, which is governed separately by autonomic and pacemaker mechanisms.
+## correct_answer
+A
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a higher end-diastolic volume (preload) raises stroke volume, by Frank-Starling's law.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p14 q103. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-704CE00FF88B
+## title
+In healthy ventricles, the force of contraction : a, Decreases with sympathetic stimula…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In healthy ventricles, the force of contraction : a, Decreases with sympathetic stimulation,
+## answer_a
+Decreases with sympathetic stimulation,
+## explanation_a
+Sympathetic stimulation increases, not decreases, the force of cardiac contraction (positive inotropy) — the opposite of this option.
+## answer_b
+increases with increased end-diastolic volume within physiological limits,
+## explanation_b
+By Frank-Starling's law, within physiological limits, the force of ventricular contraction rises directly with increasing end-diastolic volume (preload) — this is exactly how the heart matches its output to a rising venous return.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_c
+does not influence the cardiac output.
+## explanation_c
+The force of contraction, set partly by preload through Frank-Starling's law, is a major determinant of stroke volume and so of cardiac output — it does influence cardiac output.
+## answer_d
+Is always the same.
+## explanation_d
+Contractile force varies with preload, afterload, sympathetic tone and other inotropic influences — it is not fixed or invariant.
+## correct_answer
+B
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the force of ventricular contraction increases with end-diastolic volume within physiological limits (Frank-Starling's law).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p12 q92. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
