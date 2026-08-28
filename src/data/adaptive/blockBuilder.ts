@@ -24,7 +24,7 @@
 import type { AdaptiveConfig, AllocationNeed, RelaxableConstraint } from './config.ts'
 import { ALLOCATION_NEEDS } from './config.ts'
 import type { AdaptiveItem } from './item.ts'
-import { itemInScope, primaryConcept } from './item.ts'
+import { itemInScope, primaryConcepts } from './item.ts'
 import type { PriorityScore, ScoringContext } from './priority.ts'
 import { needSignals, scoreItem } from './priority.ts'
 import type { SlotTargets } from './allocation.ts'
@@ -183,8 +183,10 @@ function violates(
   const { constraints } = input.context.config
 
   if (!relaxed.has('conceptCap')) {
-    const primary = primaryConcept(item)
-    if (primary) {
+    // Every concept the item is chiefly about, not just the first. An item
+    // co-primary on two concepts is dominated by both, so it is blocked when
+    // *any* of them is already at the cap.
+    for (const primary of primaryConcepts(item)) {
       const used = placement.primaryConceptCounts.get(primary) ?? 0
       if (used >= constraints.maxItemsPerPrimaryConcept) return 'conceptCap'
     }
@@ -215,9 +217,11 @@ function violates(
 }
 
 function applyPlacement(placement: Placement, slot: BlockSlot, context: ScoringContext): Placement {
-  const primary = primaryConcept(slot.item)
   const counts = new Map(placement.primaryConceptCounts)
-  if (primary) counts.set(primary, (counts.get(primary) ?? 0) + 1)
+  // Charged to every concept the item is chiefly about, matching the check.
+  for (const primary of primaryConcepts(slot.item)) {
+    counts.set(primary, (counts.get(primary) ?? 0) + 1)
+  }
 
   const sameTopic = placement.trailingTopic === slot.item.topic
   return {
@@ -450,8 +454,9 @@ function tryBacktrack(
     trailingRun: 0,
     unseen: placement.unseen - ((input.context.exposureByQuestion.get(last.item.id) ?? 0) === 0 ? 1 : 0),
   }
-  const primary = primaryConcept(last.item)
-  if (primary) {
+  // Refunded to every concept it was charged to, or a rewind leaks a count
+  // and the cap tightens for the rest of the block.
+  for (const primary of primaryConcepts(last.item)) {
     const count = (rewound.primaryConceptCounts.get(primary) ?? 1) - 1
     if (count > 0) rewound.primaryConceptCounts.set(primary, count)
     else rewound.primaryConceptCounts.delete(primary)

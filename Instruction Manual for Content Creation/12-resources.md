@@ -9,9 +9,50 @@ text.
 | | |
 |---|---|
 | **Goes in** | `docs/import-ready/resource/` and `docs/import-ready/evidence/` |
-| **`fieldsUsed` floor** | catalogue **16** of 18 · source **14** of 17 |
+| **`fieldsUsed` floor** | catalogue **16** of 19 · source **14** of 17 |
 
 ---
+
+## Source tiers
+
+Neither resource schema has a `tier` field — **write the tier in prose**, in `qualification`
+(evidence source) or `description` (catalogue), and let `confidence` carry the weight.
+Highest first (00 §A):
+
+1. Actual exam papers, with an official key or model answer.
+2. Department files — department books, department question banks, practical atlases,
+   official lecture files.
+3. Doctor notes, student notes, academy material — tier ≤5 only, never the sole source of an
+   answer.
+4. Standard textbooks — only where the corpus has no department text, said so in
+   `qualification`.
+
+`is_assessment: yes` on an exam paper already keeps it out of the medical-authority pool;
+`qualification` is where you say which of the four tiers a source is and why.
+
+## The name-twin hazard
+
+A file named `"… Updated"` next to one without is not guaranteed to be byte-identical to it,
+and the "Updated" copy has often lost its text layer even when the original had one. Record
+which is which in the intake manifest as `nameTwinOf` (the pair) and `twinPreferred` (the copy
+with the native text layer, read first) — and **cite the copy you actually read**, not
+whichever one you assumed was newer.
+
+## Kasr sitting year by exam type
+
+A Kasr batch number does not map to one exam type the same way. EOM papers sat
+`batch + 1825 + year`; EOY and Baqoon (resit) papers sat `batch + 1826 + year` — one year
+later than the EOM formula for the same batch number. A printed date on the paper always
+wins over either formula.
+
+## Telegram fetch (Omar's Chrome, chief of staff holds the queue)
+
+- One lane fetches at a time; queue through the chief of staff, do not run two at once.
+- Listed channel links and the in-app search box only — never open-ended browsing.
+- Open a channel only to identify it; **never click Join**, log "needs Omar to join" instead.
+- Never click "add to folder" / addlist. No video or audio downloads.
+- Dedupe by sha256 as files land; tier ≤5, and another university's paper is never this
+  university's signal.
 
 ## One PDF, two records
 
@@ -23,7 +64,7 @@ two different pages. Confusing them is the mistake this manual exists to prevent
 | What it is | Something a **student opens** — a book, a video, a deck | Something a **claim cites** — the provenance record |
 | Lives in | the content ledger | the evidence store |
 | Imports at | Bulk import → **resource** | Evidence › Import |
-| Schema | `IMPORT_SCHEMAS.resource`, 18 columns | `EVIDENCE_IMPORT_FIELDS.resource`, 17 columns |
+| Schema | `IMPORT_SCHEMAS.resource`, 19 columns | `EVIDENCE_IMPORT_FIELDS.resource`, 17 columns |
 | Folder | `docs/import-ready/resource/` | `docs/import-ready/evidence/` |
 | Pointed at by | a question's `resource_ids` | a concept's `resource_ids`, a citation's `resource_id` |
 | Can you invent the ID? | Yes — you are creating the record | **No.** See §Never invent a source ID |
@@ -95,10 +136,12 @@ for (const [id, r] of Object.entries(j.sources))
 > Live but unindexed is fine. Neither live nor indexed is the failure the guard is for.
 
 > **The index must sit beside your batch.** The validator looks for
-> `corpus-source-index.json` in the folder it is validating, and **silently skips the check
-> when it is missing** — so an invented ID would pass. `docs/import-ready/evidence/` carries
-> a symlink to the generated index for exactly this reason. If you author evidence anywhere
-> else, put the index there too, or you lose the guard without being told.
+> `corpus-source-index.json` in the folder it is validating. It used to skip the check
+> silently when the index was missing, so an invented ID passed; it now says the index is
+> missing in `notes`, and **errors on any row that names a `src_…` it could not check**. A
+> batch that names no source at all still passes, because it never needed the index.
+> `docs/import-ready/evidence/` carries a symlink to the generated index for exactly this
+> reason. If you author evidence anywhere else, put the index there too.
 
 Regenerate it with:
 
@@ -108,14 +151,14 @@ node --experimental-strip-types scripts/build-corpus-source-index.mjs
 
 ---
 
-## A · The catalogue resource — 18 columns
+## A · The catalogue resource — 19 columns
 
 What a student opens. Imports at **Bulk import → resource**.
 
 | Key | Required | Rule |
 |---|---|---|
 | `title` | **yes** | The source as a student would recognise it. |
-| `subject` | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `type` | **yes** | `Book` · `Video` · `Guideline` · `Deck` · `Article`. |
 | `source` | **yes** | Publisher, institution or author. |
 | `id` | no | Use the `src_…` ID if this PDF is in the corpus, so both records match. |
@@ -126,6 +169,7 @@ What a student opens. Imports at **Bulk import → resource**.
 | `topics` | no | Topic/subtopic IDs or titles it covers. **Solving questions on this resource pulls in these topics**, so this is what makes it usable as a revision filter. |
 | `chapter` | no | Chapters it covers. Files land in the Files tab, videos in the Videos tab. |
 | `module_ids` | no | Modules it serves. |
+| `module_subject` | no | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `included_concepts` | no | Concept IDs it covers. **Each named concept is auto-updated to approve this resource** — this is what fills a concept's `approvedFileResourceIds`, which every concept currently leaves blank. |
 | `included_articles` | no | Library article IDs it supports. |
 | `concept_locations` | no | Page-level deep links, one per line: `conceptId \| page\|line\|slide\|timestamp \| locator`. |
@@ -137,11 +181,16 @@ What a student opens. Imports at **Bulk import → resource**.
 carries a `field_notes` line saying no resource has cleared rights for it. Naming the
 concept here is what removes that.
 
-> **Do not run `npm run medical:batch` on a catalogue-resource file.** `detectKind` has no
-> branch for it, so it falls through to `unknown` and crashes with
-> `TypeError: Cannot read properties of undefined (reading 'map')`. That means "wrong tool",
-> not "bad file" — the same trap as subjects and glossary. Use `medical:simulate`, and the
-> import wizard's own preview.
+> **`npm run medical:batch` does not validate a catalogue-resource file.**
+> `detectBatchKind` (`src/data/batchKind.ts`) has no branch for the catalogue-resource
+> shape — its only `resource` branch matches on `institution` + `processing_status`, which
+> is the evidence-source shape (§B), so a catalogue-resource row falls through to
+> `unknown`. It used to crash with a `TypeError`; it now refuses clearly, naming the file
+> and listing the kinds it does recognise. That means "wrong tool", not "bad file" — the
+> same as subjects and glossary. A fix is queued; until it lands, **validate catalogue
+> resources by `medical:simulate` only**, plus the import wizard's own preview — and record
+> that caveat in the module's `GATES.md` (13 §4, S8) so a green `medical:batch` run is
+> never read as having covered the catalogue-resource rows.
 
 ---
 
@@ -343,6 +392,6 @@ npm run medical:audit -- --source /tmp/synapse-sim.json
 | `X is not a source the corpus contains — do not invent a source ID` | The `src_` ID is not in the index. Use a real one, or a `RES-WEB-` web source. |
 | `X is "…" in the corpus, not "…"` | `source_relative_path` disagrees with the corpus record. Leave it empty. |
 | `cites X, which is not a source the corpus contains` | A citation's `resource_id` names a source that does not exist. |
-| `TypeError: Cannot read properties of undefined (reading 'map')` | You ran `medical:batch` on a **catalogue** resource file. |
+| `… matches no contract this validator knows` | You ran `medical:batch` on a **catalogue** resource file. Wrong tool, not a bad file. |
 | An invented ID passes | `corpus-source-index.json` is missing from the folder, so the check was skipped. |
 | A concept still says no resource has cleared rights | Name the concept in the catalogue record's `included_concepts`. |

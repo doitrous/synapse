@@ -47,7 +47,7 @@ export function FlashcardsSetup() {
                   <button
                     type="button"
                     onClick={() => setOpenUni(uniOpen ? null : u.id)}
-                    className="grid size-7 place-items-center rounded text-ink-3 hover:text-ink"
+                    className="grid size-10 place-items-center rounded text-ink-3 hover:text-ink sm:size-8"
                     aria-label={uniOpen ? `Collapse ${u.short}` : `Expand ${u.short}`}
                   >
                     <Icon icon={ChevronRight} size={14} className={cn('chevron-turn')} open={uniOpen} />
@@ -56,7 +56,7 @@ export function FlashcardsSetup() {
                     type="button"
                     onClick={() => { setSelection({ universityId: u.id }); setOpenUni(u.id) }}
                     className={cn(
-                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px]',
+                      'flex min-h-10 flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px]',
                       uniActive ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset',
                     )}
                   >
@@ -75,7 +75,7 @@ export function FlashcardsSetup() {
                             type="button"
                             onClick={() => setSelection({ universityId: u.id, year: y })}
                             className={cn(
-                              'block w-full rounded px-2.5 py-1.5 text-start text-[12.5px]',
+                              'block min-h-10 w-full rounded px-2.5 py-1.5 text-start text-[12.5px]',
                               yearActive ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
                             )}
                           >
@@ -91,7 +91,7 @@ export function FlashcardsSetup() {
           })}
         </ul>
 
-        <Link to="/admin/taxonomy" className="mt-4 flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-primary-line hover:text-primary-strong">
+        <Link to="/admin/taxonomy" className="mt-4 flex min-h-11 items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-primary-line hover:text-primary-strong">
           <Icon icon={Network} size={14} />
           Edit systems & topics
         </Link>

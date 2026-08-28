@@ -26,6 +26,11 @@ import {
   type ModuleScheduleBlock,
   type ModuleScheduleBlockType,
 } from '@/data/moduleSchedule'
+import {
+  DEFAULT_REMINDER_POLICY, EMPTY_MARK_SPLIT, EXAM_KINDS, EXAM_KIND_LABEL,
+  type ExamMarkSplit, type ExamReminderPolicy,
+} from '@/data/examProgramme'
+import { DEFAULT_QUESTION_FORMAT, isWrittenFormat } from '@/data/questionFormat'
 import { getSubject } from '@/data/subjects'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
@@ -144,6 +149,130 @@ function AssessmentSelection({
   )
 }
 
+
+/**
+ * What the paper is, how it is marked, and when to tell the student.
+ *
+ * The marks are not decoration: they set the proportions of the revision plan a
+ * student is given, so a paper marked 60 written and 20 practical produces a
+ * plan three parts written to one part practical. Leaving them at zero is
+ * allowed and produces an even split, but it wastes the only instruction the
+ * plan has about what this exam actually rewards.
+ */
+function ExamSettings({ draft, patch }: {
+  draft: ModuleScheduleBlock
+  patch: <K extends keyof ModuleScheduleBlock>(key: K, value: ModuleScheduleBlock[K]) => void
+}) {
+  const marks = draft.marks ?? EMPTY_MARK_SPLIT
+  const reminders = draft.reminders ?? DEFAULT_REMINDER_POLICY
+  const total = marks.questions + marks.written + marks.practical
+  const share = (value: number) => (total > 0 ? Math.round((value / total) * 100) : 0)
+
+  const setMarks = (key: keyof ExamMarkSplit, raw: string) => {
+    const value = Math.max(0, Math.round(Number(raw) || 0))
+    patch('marks', { ...marks, [key]: value })
+  }
+  const setPolicy = <K extends keyof ExamReminderPolicy>(key: K, value: ExamReminderPolicy[K]) =>
+    patch('reminders', { ...reminders, [key]: value })
+
+  return (
+    <div className="space-y-3">
+      <div className="rounded-xl border border-line bg-surface p-3">
+        <p className="text-[11px] font-bold uppercase tracking-[0.06em] text-ink-3">This sitting</p>
+        <div className="mt-2 flex flex-wrap gap-1.5">
+          {EXAM_KINDS.map((kind) => (
+            <button
+              key={kind}
+              type="button"
+              onClick={() => patch('examKind', kind)}
+              className={cn('rounded-full border px-2.5 py-1 text-[11.5px] font-medium transition-colors',
+                (draft.examKind ?? 'other') === kind
+                  ? 'border-primary-line bg-primary-tint text-primary-strong'
+                  : 'border-line bg-surface text-ink-2 hover:bg-inset')}
+            >
+              {EXAM_KIND_LABEL[kind]}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="rounded-xl border border-line bg-surface p-3">
+        <p className="text-[11px] font-bold uppercase tracking-[0.06em] text-ink-3">How the paper is marked</p>
+        <p className="mt-1 text-[11px] leading-relaxed text-ink-3">
+          Sets the mix of the revision plan. A kind marked zero gets none of the plan.
+        </p>
+        <div className="mt-2 grid gap-2 sm:grid-cols-3">
+          {([
+            ['questions', 'Questions'],
+            ['written', 'Written'],
+            ['practical', 'Practical'],
+          ] as Array<[keyof ExamMarkSplit, string]>).map(([key, label]) => (
+            <label key={key} className="block">
+              <span className="block text-[10.5px] font-medium text-ink-2">{label}</span>
+              <input
+                type="number"
+                min={0}
+                value={marks[key]}
+                onChange={(event) => setMarks(key, event.target.value)}
+                className="mt-1 w-full rounded-lg border border-line bg-surface px-2 py-1.5 text-[12.5px] tnum text-ink outline-none focus:border-primary"
+              />
+              <span className="mt-0.5 block tnum font-mono text-[10px] text-ink-3">
+                {total > 0 ? `${share(marks[key])}% of the plan` : 'no marks set'}
+              </span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      <div className="rounded-xl border border-line bg-surface p-3">
+        <div className="flex items-center justify-between gap-3">
+          <div>
+            <p className="text-[11px] font-bold uppercase tracking-[0.06em] text-ink-3">Reminders</p>
+            <p className="mt-1 text-[11px] leading-relaxed text-ink-3">
+              Days before the paper to tell the student. Comma separated.
+            </p>
+          </div>
+          <Toggle checked={reminders.enabled} onChange={(value: boolean) => setPolicy('enabled', value)} label="Reminders on" />
+        </div>
+        {reminders.enabled && (
+          <div className="mt-3 grid gap-2 sm:grid-cols-2">
+            <label className="block">
+              <span className="block text-[10.5px] font-medium text-ink-2">Remind at (days before)</span>
+              <input
+                value={reminders.leadDays.join(', ')}
+                onChange={(event) => setPolicy('leadDays',
+                  event.target.value.split(',').map((part) => Math.max(0, Math.round(Number(part.trim()) || 0)))
+                    .filter((day) => day > 0).sort((a, b) => b - a))}
+                className="mt-1 w-full rounded-lg border border-line bg-surface px-2 py-1.5 text-[12.5px] tnum text-ink outline-none focus:border-primary"
+              />
+            </label>
+            <label className="block">
+              <span className="block text-[10.5px] font-medium text-ink-2">Revision plan opens (days before)</span>
+              <input
+                type="number"
+                min={1}
+                value={reminders.programmeStartsDaysBefore}
+                onChange={(event) => setPolicy('programmeStartsDaysBefore', Math.max(1, Math.round(Number(event.target.value) || 1)))}
+                className="mt-1 w-full rounded-lg border border-line bg-surface px-2 py-1.5 text-[12.5px] tnum text-ink outline-none focus:border-primary"
+              />
+            </label>
+            <div className="sm:col-span-2">
+              <Toggle
+                checked={reminders.quietOnExamDay}
+                onChange={(value: boolean) => setPolicy('quietOnExamDay', value)}
+                label="Say nothing on the day itself"
+              />
+              <p className="mt-1 text-[10.5px] leading-relaxed text-ink-3">
+                A student sitting the paper in three hours cannot act on anything said here.
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
 export function ModuleScheduleDialog({
   module,
   university,
@@ -151,8 +280,10 @@ export function ModuleScheduleDialog({
   items,
   curriculum,
   value,
+  published,
   onClose,
   onChange,
+  onPublishChange,
 }: {
   module: CurriculumCourse
   university: string
@@ -160,8 +291,12 @@ export function ModuleScheduleDialog({
   items: ManagedContentItem[]
   curriculum?: CourseCurriculumSelection
   value: ModuleScheduleBlock[]
+  /** Whether students can currently see this module's schedule. Defaults to unpublished. */
+  published?: boolean
   onClose: () => void
   onChange: (value: ModuleScheduleBlock[]) => void
+  /** Publishes or unpublishes this module's schedule. Omit to hide the control. */
+  onPublishChange?: (published: boolean) => void
 }) {
   const [anchor, setAnchor] = useState(() => {
     const first = value.find((block) => block.date)?.date
@@ -170,10 +305,25 @@ export function ModuleScheduleDialog({
   const [draft, setDraft] = useState<ModuleScheduleBlock | null>(null)
   const articles = useMemo(() => items.filter((item) => item.kind === 'article'), [items])
   const curriculumArticles = useMemo(() => new Set(curriculum?.articleIds ?? []), [curriculum])
-  const questions = useMemo(() => items.filter((item) => item.kind === 'question'), [items])
+  // Written questions are picked separately below, so the bank list excludes
+  // them — an exam that marks both should not offer the same item twice.
+  const questions = useMemo(
+    () => items.filter((item) => item.kind === 'question'
+      && !isWrittenFormat(item.questionData?.format ?? DEFAULT_QUESTION_FORMAT)),
+    [items])
   const practicals = useMemo(() => items.filter((item) => item.kind === 'practical'), [items])
   const selectedArticles = useMemo(() => articles.filter((item) => draft?.topicIds.includes(item.id)), [articles, draft?.topicIds])
   const automaticQuestions = useMemo(() => questions.filter((item) => matchesSelectedTopics(item, selectedArticles)), [questions, selectedArticles])
+  // Written questions are a separate pool from the bank's: an exam that marks
+  // written work needs written practice, and the question list does not contain
+  // any. Same topic matching, so an admin picks them the same way.
+  const written = useMemo(
+    () => items.filter((item) => item.kind === 'question'
+      && isWrittenFormat(item.questionData?.format ?? DEFAULT_QUESTION_FORMAT)),
+    [items])
+  const automaticWritten = useMemo(
+    () => written.filter((item) => matchesSelectedTopics(item, selectedArticles)),
+    [written, selectedArticles])
   const automaticPracticals = useMemo(() => practicals.filter((item) => matchesSelectedTopics(item, selectedArticles)), [practicals, selectedArticles])
   const isExam = draft ? EXAM_BLOCK_TYPES.includes(draft.type) : false
 
@@ -207,6 +357,7 @@ export function ModuleScheduleDialog({
       moduleNumber: draft.moduleNumber.trim(),
       automaticQuestionIds: draft.automaticQuestions ? automaticQuestions.map((item) => item.id) : [],
       automaticPracticalIds: draft.automaticPracticals ? automaticPracticals.map((item) => item.id) : [],
+      automaticWrittenIds: (draft.automaticWritten ?? true) ? automaticWritten.map((item) => item.id) : [],
     }
     onChange(value.some((block) => block.id === saved.id) ? value.map((block) => block.id === saved.id ? saved : block) : [...value, saved])
     setDraft(null)
@@ -218,9 +369,13 @@ export function ModuleScheduleDialog({
     setDraft(null)
   }
 
-  function toggleList(key: 'topicIds' | 'manualQuestionIds' | 'manualPracticalIds', id: string) {
+  function toggleList(key: 'topicIds' | 'manualQuestionIds' | 'manualPracticalIds' | 'manualWrittenIds', id: string) {
     if (!draft) return
-    patch(key, draft[key].includes(id) ? draft[key].filter((itemId) => itemId !== id) : [...draft[key], id])
+    // `manualWrittenIds` is optional — a block created before exams carried
+    // written work has none — so an absent list reads as empty rather than
+    // throwing on the first tick.
+    const current = draft[key] ?? []
+    patch(key, current.includes(id) ? current.filter((itemId) => itemId !== id) : [...current, id])
   }
 
   const logbooks = value.filter((block) => block.type === 'logbook')
@@ -231,6 +386,12 @@ export function ModuleScheduleDialog({
         <header className="flex flex-wrap items-center gap-2 border-b border-line bg-surface px-3 py-3 sm:gap-3 sm:px-5 sm:py-4">
           <span className="grid size-10 place-items-center rounded-xl bg-primary-tint text-primary-strong"><Icon icon={CalendarDays} size={19} /></span>
           <div className="min-w-0 flex-1"><h2 id="module-schedule-title" className="font-serif text-[20px] font-semibold text-ink">{module.name} schedule</h2><p className="text-[11.5px] text-ink-3">{university} · {year} · {module.block}</p></div>
+          {onPublishChange && (
+            <div className="flex items-center gap-2 rounded-xl border border-line bg-inset px-3 py-2">
+              <Badge tone={published ? 'success' : 'warning'} dot>{published ? 'Published' : "Unpublished — students can't see this"}</Badge>
+              <Toggle checked={Boolean(published)} onChange={onPublishChange} label={published ? 'Unpublish this schedule' : 'Publish this schedule'} />
+            </div>
+          )}
           <Button type="button" variant="primary" size="md" iconLeft={Plus} onClick={() => startBlock(isoDay(new Date()))}>Add block</Button>
           <button type="button" onClick={onClose} className="grid size-10 place-items-center rounded-lg text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close module schedule"><Icon icon={X} size={18} /></button>
         </header>
@@ -275,7 +436,8 @@ export function ModuleScheduleDialog({
 
                   <section><div className="mb-2 flex items-center justify-between"><div className="flex items-center gap-2"><Icon icon={BookOpenText} size={15} className="text-ink-3" /><h4 className="text-[12.5px] font-bold text-ink">Tagged library topics</h4></div><Badge tone={draft.topicIds.length ? 'primary' : 'neutral'}>{draft.topicIds.length}</Badge></div><div className="max-h-52 space-y-1 overflow-y-auto rounded-xl border border-line bg-surface p-2">{articles.sort((a, b) => Number(curriculumArticles.has(b.id)) - Number(curriculumArticles.has(a.id))).map((article) => { const checked = draft.topicIds.includes(article.id); return <label key={article.id} className={cn('flex cursor-pointer items-start gap-2 rounded-lg px-2 py-2 transition-colors', checked ? 'bg-primary-tint/55' : 'hover:bg-inset')}><input type="checkbox" className="mt-0.5 size-4 accent-[var(--color-primary)]" checked={checked} onChange={() => toggleList('topicIds', article.id)} /><span className="min-w-0 flex-1"><span className="block text-[11.5px] font-semibold leading-snug text-ink">{article.title}</span><span className="mt-0.5 flex items-center gap-1.5 text-[10px] text-ink-3">{getSubject(article.subjectId).short} · {article.fields.Topic}{curriculumArticles.has(article.id) && <span className="text-primary-strong">In curriculum</span>}</span></span></label> })}</div></section>
 
-                  {isExam && <div className="space-y-3"><div className="rounded-xl border border-primary-line bg-primary-tint/35 p-3"><p className="text-[11px] font-bold uppercase tracking-[0.06em] text-primary-strong">Assessment blueprint</p><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">Topic matches are kept separate from manual additions, so the origin of every selected item remains visible.</p></div><AssessmentSelection title="Questions" icon={FileQuestion} enabled={draft.automaticQuestions} onEnabled={(value) => patch('automaticQuestions', value)} automatic={automaticQuestions} manualIds={draft.manualQuestionIds} items={questions} onToggle={(id) => toggleList('manualQuestionIds', id)} /><AssessmentSelection title="Practical questions" icon={Stethoscope} enabled={draft.automaticPracticals} onEnabled={(value) => patch('automaticPracticals', value)} automatic={automaticPracticals} manualIds={draft.manualPracticalIds} items={practicals} onToggle={(id) => toggleList('manualPracticalIds', id)} /></div>}
+                  {isExam && <ExamSettings draft={draft} patch={patch} />}
+                  {isExam && <div className="space-y-3"><div className="rounded-xl border border-primary-line bg-primary-tint/35 p-3"><p className="text-[11px] font-bold uppercase tracking-[0.06em] text-primary-strong">Assessment blueprint</p><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">Topic matches are kept separate from manual additions, so the origin of every selected item remains visible.</p></div><AssessmentSelection title="Questions" icon={FileQuestion} enabled={draft.automaticQuestions} onEnabled={(value) => patch('automaticQuestions', value)} automatic={automaticQuestions} manualIds={draft.manualQuestionIds} items={questions} onToggle={(id) => toggleList('manualQuestionIds', id)} /><AssessmentSelection title="Practical questions" icon={Stethoscope} enabled={draft.automaticPracticals} onEnabled={(value) => patch('automaticPracticals', value)} automatic={automaticPracticals} manualIds={draft.manualPracticalIds} items={practicals} onToggle={(id) => toggleList('manualPracticalIds', id)} /><AssessmentSelection title="Written questions" icon={BookOpenText} enabled={draft.automaticWritten ?? true} onEnabled={(value) => patch('automaticWritten', value)} automatic={automaticWritten} manualIds={draft.manualWrittenIds ?? []} items={written} onToggle={(id) => toggleList('manualWrittenIds', id)} /></div>}
 
                   {draft.type === 'logbook' && <label className="flex cursor-pointer items-center justify-between rounded-xl border border-line bg-surface p-3"><span><span className="block text-[12.5px] font-semibold text-ink">Task completed</span><span className="block text-[10.5px] text-ink-3">Marks this requirement as signed off.</span></span><Toggle checked={draft.completed} onChange={(value) => patch('completed', value)} label="Logbook task completed" /></label>}
 

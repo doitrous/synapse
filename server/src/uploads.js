@@ -13,7 +13,7 @@ import { pipeline } from 'node:stream/promises'
  * stops mid-stream, a temporary file opened with `wx` so two uploads cannot
  * collide, an atomic rename so a reader never sees a half-written book, a
  * path-traversal guard, and cleanup on every failure path. What it also had was
- * `requireAdmin` and a pre-qualified hash from the catalogue, neither of which a
+ * a tab guard and a pre-qualified hash from the catalogue, neither of which a
  * student's own lecture handout can have.
  *
  * Rather than loosen the library's gates to let students through them, the
@@ -100,6 +100,7 @@ export async function assembleChunks(workspace, fullPath, {
   chunkMaxBytes,
   expectedSha256 = null,
   requirePdf = false,
+  removeWorkspace = true,
 }) {
   const chunkPaths = Array.from({ length: totalChunks }, (_, index) => join(workspace, `${String(index).padStart(4, '0')}.part`))
   for (const chunkPath of chunkPaths) {
@@ -139,7 +140,7 @@ export async function assembleChunks(workspace, fullPath, {
       throw failure(415, 'that file is not a PDF')
     }
     await rename(temporaryPath, fullPath)
-    await rm(workspace, { recursive: true, force: true })
+    if (removeWorkspace) await rm(workspace, { recursive: true, force: true })
     return { sizeBytes, sha256, chunks: totalChunks }
   } catch (error) {
     output.destroy()

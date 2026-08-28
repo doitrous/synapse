@@ -149,3 +149,39 @@ export function pendingAttempts(
 ): Question[] {
   return session.filter((question) => answers[question.id] != null && !checked[question.id])
 }
+
+/** Ninety seconds of standard time is allocated for every question. */
+export const SECONDS_PER_QUESTION = 90
+
+export interface TimedClock {
+  /** Standard time left; zero once the sitting is in overtime. */
+  remaining: number
+  /** Time beyond the standard allowance; zero until the allowance is spent. */
+  overtime: number
+}
+
+/**
+ * Read a timed sitting's clock without changing what elapsed means in storage.
+ *
+ * The persisted value remains elapsed real work, so old sessions restore
+ * cleanly. The presentation counts down to zero and then makes overtime
+ * explicit instead of silently switching direction or auto-submitting.
+ */
+export function timedClock(questionCount: number, elapsed: number): TimedClock {
+  const allowance = Math.max(0, questionCount) * SECONDS_PER_QUESTION
+  const safeElapsed = Math.max(0, elapsed)
+  return {
+    remaining: Math.max(0, allowance - safeElapsed),
+    overtime: Math.max(0, safeElapsed - allowance),
+  }
+}
+
+export type PaceBand = 'good' | 'target' | 'slower' | 'overtime'
+
+/** The product's four explicit question-pace bands. */
+export function paceBand(seconds: number): PaceBand {
+  if (seconds <= 45) return 'good'
+  if (seconds <= 60) return 'target'
+  if (seconds <= SECONDS_PER_QUESTION) return 'slower'
+  return 'overtime'
+}

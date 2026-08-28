@@ -49,7 +49,7 @@ export function AuthLayout({
     <div className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-7xl items-center gap-3 px-4 sm:px-6 lg:px-8">
-          <Link to="/" aria-label="Connect Cortex home"><Wordmark /></Link>
+          <Link to="/" aria-label="Maristana home"><Wordmark /></Link>
         </div>
       </header>
 

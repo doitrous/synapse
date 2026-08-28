@@ -130,7 +130,7 @@ export function VerifyEmail() {
             </p>
             <ol className="mx-auto mt-5 max-w-[46ch] space-y-2 text-start text-[13px] leading-relaxed text-ink-2">
               {[
-                'Open your inbox and find the message from Connect Cortex.',
+                'Open your inbox and find the message from Maristana.',
                 'Follow the verification link inside it. Check your spam folder if it is not there within a minute or two.',
                 'You are brought straight back here, signed in and ready to start.',
               ].map((line, index) => (
@@ -172,7 +172,7 @@ export function VerifyEmail() {
           </div>
         ) : (
           <form className="mt-6" onSubmit={(event) => void resend(event)}>
-            {!knownEmail && <Field label="Email address" htmlFor="verify-email" className="mx-auto mb-3 max-w-sm text-start"><TextInput id="verify-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu" /></Field>}
+            {!knownEmail && <Field label="Email address" htmlFor="verify-email" className="mx-auto mb-3 max-w-sm text-start"><TextInput id="verify-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" /></Field>}
             <div className="flex flex-col justify-center gap-2 sm:flex-row">
               <Button type="submit" loading={sending} iconLeft={RotateCw}>Resend verification</Button>
               <Link to="/login" className="inline-flex min-h-11 items-center justify-center rounded-lg px-4 text-[13px] font-semibold text-ink-2 hover:bg-inset hover:text-ink">Back to sign in</Link>

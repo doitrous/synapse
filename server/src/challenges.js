@@ -12,6 +12,7 @@ import { pool } from './db.js'
 import { orderedPair } from './friendship.js'
 import { bothFinished, canFinish, headToHead, sideOf } from './challengeResult.js'
 import { publishedQuestions } from './publishedQuestions.js'
+import { withContentCatalogueGate } from './contentCatalogueGate.js'
 
 /** Longest a challenge may be. Same ceiling as a study room, same reason. */
 const MAX_QUESTIONS = 40
@@ -56,7 +57,7 @@ async function challengeRow(id) {
   return rows.length ? rows[0] : null
 }
 
-export async function createChallenge(userId, { opponentId, questionIds, scopeLabel }) {
+async function createChallengeUnlocked(userId, { opponentId, questionIds, scopeLabel }) {
   if (!opponentId || typeof opponentId !== 'string' || opponentId === userId) {
     return { ok: false, reason: 'invalid_opponent' }
   }
@@ -77,14 +78,22 @@ export async function createChallenge(userId, { opponentId, questionIds, scopeLa
   return { ok: true, challenge: await challengeFor(userId, id) }
 }
 
+export async function createChallenge(userId, input) {
+  return withContentCatalogueGate(() => createChallengeUnlocked(userId, input))
+}
+
 /** Accept or decline a challenge sent to you. Only the opponent may answer it. */
-export async function respondToChallenge(userId, id, accept) {
+async function respondToChallengeUnlocked(userId, id, accept) {
   const row = await challengeRow(id)
   if (!row) return { ok: false, reason: 'not_found' }
   if (sideOf(row, userId) !== 'opponent') return { ok: false, reason: 'not_found' }
   if (row.status !== 'sent') return { ok: false, reason: 'not_pending' }
   await pool.query('UPDATE challenges SET status = ? WHERE id = ?', [accept ? 'running' : 'declined', id])
   return { ok: true, challenge: await challengeFor(userId, id) }
+}
+
+export async function respondToChallenge(userId, id, accept) {
+  return withContentCatalogueGate(() => respondToChallengeUnlocked(userId, id, accept))
 }
 
 export async function submitChallengeAnswer(userId, id, { questionId, chosenIndex, seconds }) {

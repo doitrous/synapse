@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import {
   IMPORT_SCHEMAS, importRowToContent, validateImportRow,
   parseAnnotations, parseMediaRequests, parseCalloutEvidence, parseRelatedArticles, parseFieldNotes,
-  parseDecisions, parseLabQuestions,
+  parseDecisions, parseLabQuestions, practicalDataFrom, parseVitals,
 } from './bulkImport.ts'
 import { mergeContentItem, materialiseNewItem } from './importMerge.ts'
 import { listDirective, applyListDirective, optionalList, isAppend } from './importSemantics.ts'
@@ -177,6 +177,7 @@ const FULL_ARTICLE: Record<string, string> = {
   university_notes: 'HU: Kasr Alainy expects the two-level Wells score.',
   years: 'HU_Y3',
   module: 'CVS 01',
+  module_subject: 'CVS 01 > Physiology > Pulmonary circulation',
   subtopic: 'SUB_PE',
   microtopic: 'MIC_WELLS',
   nanotopic: 'NAN_DDIMER',
@@ -250,6 +251,7 @@ test('a fully populated article row imports with every field present', () => {
   assert.deepEqual(data.relatedArticleIds, ['ART-A'])
   assert.equal(data.fieldNotes?.['relatedArticle:ART-A'], 'Explains the mechanism.')
   assert.equal(data.fieldNotes?.moduleIds, 'awaiting a verified live module ID')
+  assert.deepEqual(data.moduleSubjectPaths, ['CVS 01 > Physiology > Pulmonary circulation'])
   assert.equal(data.calloutEvidence?.['Ordering D-dimer when CTPA is already indicated.']?.reviewedBy, 'Dr Omar')
   assert.equal(data.universityNotes?.length, 1)
   assert.equal(data.notes, 'Draft pending faculty sign-off.')
@@ -531,6 +533,20 @@ test('a created question still opens with the defaults it always had', () => {
   assert.deepEqual(item.questionData!.libraryIds, [])
 })
 
+test('an authored overall explanation overrides the derived one', () => {
+  const item = importRowToContent('question', { ...FULL_QUESTION, explanation: 'Overall: RCA territory covers the SA node in the dominant majority.' }, 'row-1')
+  assert.equal(item.fields.Explanation, 'Overall: RCA territory covers the SA node in the dominant majority.')
+})
+
+test('an absent overall explanation keeps the correct option’s rationale, unchanged', () => {
+  // FULL_QUESTION carries no `explanation` column at all — the long-standing case.
+  const withoutExplanationField = importRowToContent('question', FULL_QUESTION, 'row-1')
+  const withBlankExplanation = importRowToContent('question', { ...FULL_QUESTION, explanation: '   ' }, 'row-1')
+
+  assert.equal(withoutExplanationField.fields.Explanation, 'The RCA supplies the SA node in most people.')
+  assert.equal(withBlankExplanation.fields.Explanation, 'The RCA supplies the SA node in most people.')
+})
+
 const LAB_QUESTIONS = '### Rate\nQ: What is the rate?\n*= 75\nWhy: Count the R-R interval.\n- 60\nWhy: Too slow.\nMarks: 2\nConcept: med.concept.rate'
 
 const FULL_PRACTICAL: Record<string, string> = {
@@ -634,6 +650,9 @@ const DECISION = [
   'Concept: CON-CVS-AAA',
   'Also: CON-CVS-BBB | CON-CVS-CCC',
   'Difficulty: Challenging',
+  'Media: /media/med-decision-video',
+  'Media type: video',
+  'Media MIME: video/mp4',
   'Q: What is your first step?',
   '*= Give aspirin and arrange an immediate ECG',
   'Why: Both are time-critical, and neither waits',
@@ -648,6 +667,9 @@ test('a decision block carries its concept, difficulty and a reason per option',
   assert.equal(decision.conceptId, 'CON-CVS-AAA')
   assert.deepEqual(decision.secondaryConceptIds, ['CON-CVS-BBB', 'CON-CVS-CCC'])
   assert.equal(decision.difficulty, 'Challenging')
+  assert.equal(decision.mediaUrl, '/media/med-decision-video')
+  assert.equal(decision.mediaType, 'video')
+  assert.equal(decision.mediaMimeType, 'video/mp4')
   assert.equal(decision.context, 'A 54-year-old man has 20 minutes of central chest pain.')
   assert.equal(decision.answers[0].explanation, 'Both are time-critical, and neither waits on a confirmed diagnosis.')
   assert.equal(decision.answers[1].explanation, 'The misconception that a diagnosis must be confirmed first.')
@@ -670,6 +692,33 @@ test('a Why: binds to the option above it, not to the block', () => {
   ])
   // The block-level explanation must not have swallowed either of them.
   assert.equal(question.explanation, 'Territory follows the leads that face the surface.')
+})
+
+test('OSCE and interpretation imports preserve managed audio and video metadata', () => {
+  const station = practicalDataFrom({
+    type: 'OSCE station', station_image: '/media/med-station-audio',
+    station_media_type: 'audio', station_media_mime_type: 'audio/mpeg',
+  })
+  assert.equal(station.format, 'osce')
+  if (station.format !== 'osce') return
+  assert.equal(station.mediaUrl, '/media/med-station-audio')
+  assert.equal(station.mediaType, 'audio')
+  assert.equal(station.mediaMimeType, 'audio/mpeg')
+
+  const [question] = parseLabQuestions([
+    '### Moving ultrasound clip',
+    'Media: /media/med-lab-video',
+    'Media type: video',
+    'Media MIME: video/webm',
+    'Q: What is shown?',
+    '*= Pleural sliding',
+    'Why: The pleural line moves with respiration.',
+    '* Absent sliding',
+    'Why: That is the opposite finding.',
+    'Explanation: Motion is essential to the interpretation.',
+  ].join('\n'))
+  assert.equal(question.mediaType, 'video')
+  assert.equal(question.mediaMimeType, 'video/webm')
 })
 
 test('an unexplained option is a row error rather than a silently worse question', () => {
@@ -816,4 +865,237 @@ test('an imported slide carries its views and no pins yet', () => {
   assert.equal(item.kind, 'histology')
   assert.deepEqual(item.histologyData?.views.map((view) => view.objective), [4, 40])
   assert.deepEqual(item.histologyData?.structures, [])
+})
+
+/* ---- question formats beyond single-best-answer ------------------------ */
+
+/**
+ * A written question taken off a real Kasr Al Ainy paper.
+ *
+ * `EOY (BMS - 103) 198` opens with "1) Enumerate content of femoral triangle
+ * {5 Marks}" — no options, no correct letter, two marked parts. Before formats
+ * existed this row could not be imported at all: `correct_answer` was
+ * unconditionally required, so the only ways to keep the question were to
+ * invent options for it or to drop it.
+ */
+const WRITTEN_QUESTION: Record<string, string> = {
+  id: 'Q-BMS-103-W1',
+  title: 'Femoral triangle and hip joint',
+  subject: 'msk',
+  format: 'structured written',
+  question: 'Answer both parts.',
+  written_parts: `### (a) 5 marks
+Enumerate the contents of the femoral triangle.
+Expects: Femoral nerve
+Expects: Femoral artery
+Expects: Femoral vein
+Concept: CON-MSK-0001
+
+### (b) 5 marks
+Summarise the ligaments of the hip joint.
+Expects: Iliofemoral ligament
+Expects: Pubofemoral ligament
+Concept: CON-MSK-0002`,
+  derived_from: 'structured_written · Q-BMS-103-SOURCE',
+  main_concept: 'CON-MSK-0001 | CON-MSK-0002',
+  module_subject: '103 BMS > Anatomy > Lower Limb',
+}
+
+test('a written question imports without a lettered correct answer', () => {
+  assert.deepEqual(validateImportRow('question', WRITTEN_QUESTION), [])
+
+  const data = importRowToContent('question', WRITTEN_QUESTION, 'row-w1').questionData!
+  assert.equal(data.format, 'structured_written')
+  assert.equal(data.writtenParts?.length, 2)
+  assert.equal(data.writtenParts?.[0].marks, 5)
+  assert.deepEqual(data.writtenParts?.[0].expectedPoints,
+    ['Femoral nerve', 'Femoral artery', 'Femoral vein'])
+  assert.deepEqual(data.tags.mainConceptIds, ['CON-MSK-0001', 'CON-MSK-0002'],
+    'both parts are co-primary — neither is the only thing this question tests')
+  assert.deepEqual(data.tags.moduleSubjectPaths, ['103 BMS > Anatomy > Lower Limb'])
+})
+
+test('a written question derived from an MCQ is refused', () => {
+  // The restriction that matters most: a written question is not an MCQ with
+  // the options removed, and inventing one from an MCQ trains a student for an
+  // exam nobody sets.
+  const errors = validateImportRow('question',
+    { ...WRITTEN_QUESTION, derived_from: 'mcq_single_best · Q-CVS-014' })
+  assert.equal(errors.length, 1)
+  assert.match(errors[0], /only be derived from an existing written question/)
+})
+
+test('a written question derived from a concept alone is refused', () => {
+  const errors = validateImportRow('question', { ...WRITTEN_QUESTION, derived_from: 'concept' })
+  assert.equal(errors.length, 1)
+  assert.match(errors[0], /only be derived from an existing written question/)
+})
+
+test('a matching question imports its option bank and prompts', () => {
+  // Shaped after the EPE paper that is twenty matching items out of thirty-two.
+  const row = {
+    id: 'Q-EPE-M1', title: 'Match each consultation skill to its description',
+    subject: 'msk', format: 'matching', question: 'Match each item.',
+    correct_answer: 'A',
+    matching_options: 'A | Open-ended question\nB | Showing empathy\nC | Closed question',
+    matching_prompts: '"Tell me more about that" = A\nDealing with a patient\'s pain = B',
+    derived_from: 'mcq_single_best · Q-EPE-004', main_concept: 'CON-COM-0001',
+  }
+  assert.deepEqual(validateImportRow('question', row), [])
+
+  const data = importRowToContent('question', row, 'row-m1').questionData!
+  assert.equal(data.format, 'matching')
+  assert.equal(data.matching?.options.length, 3)
+  assert.equal(data.matching?.prompts.length, 2)
+  assert.equal(data.matching?.prompts[0].answerId, 'A')
+  assert.equal(data.matching?.options[2].text, 'Closed question',
+    'the third option answers nothing — it is the distractor, and it must survive')
+})
+
+test('a matching question whose prompt names a missing option is refused', () => {
+  const errors = validateImportRow('question', {
+    id: 'Q-EPE-M2', title: 'Broken matching', subject: 'msk', format: 'matching',
+    question: 'Match each item.', correct_answer: 'A', main_concept: 'CON-COM-0001',
+    matching_options: 'A | One\nB | Two',
+    matching_prompts: 'Something = Z',
+  })
+  assert.ok(errors.some((error) => /answered by Z, which is not one of the options/.test(error)))
+})
+
+test('a matching block on a non-matching format is refused', () => {
+  const errors = validateImportRow('question', {
+    ...FULL_QUESTION, matching_options: 'A | One\nB | Two',
+  })
+  assert.ok(errors.some((error) => /only a matching question carries one/.test(error)))
+})
+
+test('an unknown format is refused rather than silently defaulted', () => {
+  const errors = validateImportRow('question', { ...WRITTEN_QUESTION, format: 'viva voce' })
+  assert.ok(errors.some((error) => /is not one of/.test(error)),
+    'a format nobody recognises must not quietly become a single-best-answer question')
+})
+
+test('written parts on a non-written format are refused', () => {
+  const errors = validateImportRow('question', {
+    ...WRITTEN_QUESTION, format: 'mcq_single_best',
+    correct_answer: 'A', answer_a: 'Something',
+  })
+  assert.ok(errors.some((error) => /only a written format carries them/.test(error)))
+})
+
+test('a written question with no parts is refused', () => {
+  const errors = validateImportRow('question', { ...WRITTEN_QUESTION, written_parts: '' })
+  assert.ok(errors.some((error) => /needs its parts/.test(error)))
+})
+
+test('a question with no format still reads as single best answer', () => {
+  const data = importRowToContent('question', FULL_QUESTION, 'row-default').questionData!
+  assert.equal(data.format, 'mcq_single_best',
+    'everything authored before formats existed keeps its meaning')
+  assert.equal(data.writtenParts, undefined)
+})
+
+test('a multiple response question imports its several correct answers', () => {
+  const row = {
+    id: 'Q-MR-1', title: 'Which arteries supply the interventricular septum?',
+    subject: 'cvs', format: 'multiple response', question: 'Select all that apply.',
+    answer_a: 'Left anterior descending', answer_b: 'Left circumflex',
+    answer_c: 'Posterior interventricular', answer_d: 'Right marginal',
+    correct_answers: 'A | C', main_concept: 'CON-CVS-1',
+  }
+  assert.deepEqual(validateImportRow('question', row), [],
+    'and it needs no correct_answer, which it has no way to express')
+
+  const data = importRowToContent('question', row, 'row-mr').questionData!
+  assert.equal(data.format, 'mcq_multi')
+  assert.deepEqual(data.multiResponse?.correctAnswers, ['A', 'C'])
+})
+
+test('a multiple response question with one correct answer is refused', () => {
+  const errors = validateImportRow('question', {
+    id: 'Q-MR-2', title: 'One answer', subject: 'cvs', format: 'mcq_multi',
+    question: 'Pick.', answer_a: 'One', answer_b: 'Two',
+    correct_answers: 'A', main_concept: 'CON-CVS-1',
+  })
+  assert.ok(errors.some((error) => /at least two correct answers/.test(error)))
+})
+
+test('a labelling question imports its image and points', () => {
+  const row = {
+    id: 'Q-LB-1', title: 'Identify the structures in the anterior arm',
+    subject: 'msk', format: 'labelling', question: 'Name each numbered structure.',
+    labeling_image: 'https://example.test/arm.png',
+    labeling_alt: 'Anterior compartment of the arm, three structures arrowed',
+    labeling_points: '1 @ 34,58 = Biceps brachii | Biceps\n2 @ 61,42 = Brachialis',
+    main_concept: 'CON-MSK-1',
+  }
+  assert.deepEqual(validateImportRow('question', row), [])
+
+  const data = importRowToContent('question', row, 'row-lb').questionData!
+  assert.equal(data.format, 'labeling')
+  assert.equal(data.labeling?.points.length, 2)
+  assert.deepEqual(data.labeling?.points[0].accepts, ['Biceps'])
+  assert.equal(data.labeling?.points[0].x, 34)
+})
+
+test('a labelling question with no alt text is refused', () => {
+  // The image is the question; without alt text a student using a screen
+  // reader is told nothing at all.
+  const errors = validateImportRow('question', {
+    id: 'Q-LB-2', title: 'No alt', subject: 'msk', format: 'labeling',
+    question: 'Name it.', labeling_image: 'https://example.test/a.png',
+    labeling_points: '1 @ 10,10 = Something', main_concept: 'CON-MSK-1',
+  })
+  assert.ok(errors.some((error) => /needs alt text/.test(error)))
+})
+
+test('a labelling payload on a non-labelling format is refused', () => {
+  const errors = validateImportRow('question', {
+    ...FULL_QUESTION, labeling_image: 'https://example.test/a.png',
+  })
+  assert.ok(errors.some((error) => /only a labelling question carries them/.test(error)))
+})
+
+test('an update that omits module_subject leaves the live placement alone', () => {
+  // `parseModuleSubjectPaths('')` returns `[]`, and `[]` is a value the merge
+  // writes — so a sparse update row that never mentioned `module_subject`
+  // collapsed the live record's curriculum placement to nothing. Four kinds
+  // computed it unconditionally; `conceptImport.ts` had the guard and they did
+  // not. The column absent means untouched, not emptied.
+  const withPath = importRowToContent('article',
+    { id: 'ART-MS', title: 'T', subject: 'msk', topic: 't', summary: 's', module_subject: '101 ISK > Anatomy > Hip' }, 'p')
+  assert.deepEqual(withPath.articleData?.moduleSubjectPaths, ['101 ISK > Anatomy > Hip'])
+
+  const sparse = importRowToContent('article',
+    { id: 'ART-MS', title: 'T', subject: 'msk', topic: 't', summary: 's' }, 'p')
+  assert.equal(sparse.articleData?.moduleSubjectPaths, undefined,
+    'undefined is what makes the merge skip it; [] would overwrite the live path')
+
+  // The same guard on every kind that carries the column.
+  const practical = practicalDataFrom({ type: 'OSCE station' })
+  assert.equal(practical.moduleSubjectPaths, undefined)
+})
+
+test('parseVitals reads labelled lines, keeps BP a string, flags abnormals', () => {
+  const vitals = parseVitals('HR: 118\nBP: 108/68\nRR: 30\nSpO2: 91\nTemp: 37.4\nGCS: 14\nGlucose: 6.1\nAbnormal: HR | RR | SpO2\nNote: room air')
+  assert.deepEqual(vitals, {
+    hr: 118, bp: '108/68', rr: 30, spo2: 91, temp: 37.4, gcs: 14, glucose: 6.1,
+    abnormal: ['hr', 'rr', 'spo2'], note: 'room air',
+  })
+})
+
+test('parseVitals keeps only the fields present and ignores unknown labels', () => {
+  const vitals = parseVitals('HR: 96\nSpO2: 94\nMood: cheerful')
+  assert.deepEqual(vitals, { hr: 96, spo2: 94 })
+})
+
+test('parseVitals returns undefined for a blank or fieldless block', () => {
+  assert.equal(parseVitals(''), undefined)
+  assert.equal(parseVitals('   \n  '), undefined)
+})
+
+test('a clinical case imports its vitals through practicalDataFrom', () => {
+  const data = practicalDataFrom({ type: 'Clinical case', vitals: 'HR: 118\nAbnormal: HR' })
+  assert.equal(data.format, 'case')
+  assert.deepEqual(data.format === 'case' ? data.vitals : null, { hr: 118, abnormal: ['hr'] })
 })

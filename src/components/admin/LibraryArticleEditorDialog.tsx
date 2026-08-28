@@ -395,7 +395,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
                       <Select aria-label="University" value={note.universityId} onChange={(e) => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).map((x) => x.id === note.id ? { ...x, universityId: e.target.value } : x) }))} className="h-8 text-[12px]">
                         {universities.map((u) => <option key={u.id} value={u.id}>{u.short}</option>)}
                       </Select>
-                      <button type="button" onClick={() => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).filter((x) => x.id !== note.id) }))} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove note"><Icon icon={Trash2} size={13} /></button>
+                      <button type="button" onClick={() => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).filter((x) => x.id !== note.id) }))} className="grid size-10 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger sm:size-8" aria-label="Remove note"><Icon icon={Trash2} size={13} /></button>
                     </div>
                     <Textarea aria-label="Note text" value={note.text} onChange={(e) => updateData((c) => ({ ...c, universityNotes: (c.universityNotes ?? []).map((x) => x.id === note.id ? { ...x, text: e.target.value } : x) }))} placeholder="Note shown only to this university…" className="mt-1.5 min-h-16 text-[12.5px]" />
                   </div>
@@ -431,7 +431,7 @@ export function LibraryArticleEditorDialog({ open, item, contentItems, graph, on
               {(data.universityNotes ?? []).filter((n) => n.text.trim()).map((note) => {
                 const uni = universities.find((u) => u.id === note.universityId)
                 return (
-                  <div key={note.id} className="mt-4 overflow-hidden rounded-xl border-s-4 border-s-primary border-y border-e border-primary-line bg-primary-tint/40">
+                  <div key={note.id} className="mt-4 overflow-hidden rounded-xl border border-primary-line bg-primary-tint/40">
                     <div className="flex items-center gap-1.5 border-b border-primary-line/70 px-3.5 py-1.5">
                       <Icon icon={Flag} size={13} className="text-primary-strong" />
                       <span className="text-[11px] font-bold uppercase tracking-[0.06em] text-primary-strong">{uni?.short ?? note.universityId} only</span>

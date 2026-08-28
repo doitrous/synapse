@@ -1,13 +1,24 @@
+import { useEffect, useState } from 'react'
+
 /**
  * What a surface looks like while its chunk is still arriving.
  *
- * This used to be the words "Opening Connect Cortex…" centred in an empty page, in
+ * This used to be the words "Opening Maristana…" centred in an empty page, in
  * English regardless of the chosen language. A block of prose announcing a wait
  * makes a fast load feel like a slow one; a shape that matches what is about to
  * appear reads as the page already being there. With route chunks now
  * prefetched on hover this should rarely be seen at all.
  */
 export function RouteLoading() {
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => setVisible(true), 150)
+    return () => window.clearTimeout(timer)
+  }, [])
+
+  if (!visible) return null
+
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6" role="status" aria-busy="true">
       <span className="sr-only">Loading</span>

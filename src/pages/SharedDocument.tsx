@@ -4,20 +4,21 @@ import { Check, Eye, LinkIcon, PencilLine, Save } from 'lucide-react'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { NoteEditor, NotePreview } from '@/components/notebook/NoteEditor'
+import { NoteEditor } from '@/components/notebook/NoteEditor'
 import { SharedBoardView } from '@/components/share/SharedBoardView'
 import { updateShare, useSharedDocument } from '@/lib/useShares'
 import { useIdentity } from '@/lib/useIdentity'
 import { formatRelativeTime } from '@/lib/format'
 import type { BoardState } from '@/data/whiteboard'
 import { useT } from '@/lib/i18n'
+import { editorJsonToPlainText, plainTextToEditorJson, type NotebookEditorJson } from '@/data/notebook'
+import { apiFetchBlob } from '@/lib/api'
 
 /**
  * A note or a board somebody shared, at its own link.
  *
- * Outside `/app` on purpose. Whoever opens this may have no account — a
- * revision sheet passed round a study group is the point of the feature — so
- * the page is not behind `RequireAuth` and does not mount the app shell.
+ * Outside `/app` on purpose so a copied link has a focused reader. The API
+ * still requires a signed-in classmate in the owner's university and year.
  *
  * What the reader may do is the server's answer, carried on `canEdit`, and it
  * is never worked out here. Editing is only ever offered to somebody signed in,
@@ -26,8 +27,19 @@ import { useT } from '@/lib/i18n'
 
 interface SharedNote {
   title: string
-  body: string
+  body?: string
+  editorJson?: NotebookEditorJson
+  plainText?: string
+  legacyMarkdownSource?: string
   tags?: string[]
+  revision?: number
+  imageDocumentId?: string
+  imageData?: string
+}
+
+interface NoteDraft {
+  editorJson: NotebookEditorJson
+  plainText: string
 }
 
 export function SharedDocument() {
@@ -36,14 +48,21 @@ export function SharedDocument() {
   const { status } = useIdentity()
   const { share, loading, error, setShare } = useSharedDocument<SharedNote | BoardState>(id)
 
-  const [draft, setDraft] = useState('')
+  const [draft, setDraft] = useState<NoteDraft>({ editorJson: plainTextToEditorJson(''), plainText: '' })
+  const [boardDraft, setBoardDraft] = useState<BoardState | null>(null)
   const [editing, setEditing] = useState(false)
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [failure, setFailure] = useState('')
 
   useEffect(() => {
-    if (share?.kind === 'note') setDraft((share.payload as SharedNote).body ?? '')
+    if (share?.kind === 'note') {
+      const payload = share.payload as SharedNote
+      const plainText = payload.plainText ?? payload.body ?? ''
+      setDraft({ plainText, editorJson: payload.editorJson ?? plainTextToEditorJson(plainText) })
+    } else if (share?.kind === 'whiteboard') {
+      setBoardDraft(structuredClone(share.payload as BoardState))
+    }
   }, [share])
 
   async function save() {
@@ -51,9 +70,12 @@ export function SharedDocument() {
     setFailure('')
     setSaving(true)
     try {
-      const payload = { ...(share.payload as SharedNote), body: draft }
-      const updated = await updateShare(share.id, { payload })
-      setShare({ ...share, title: updated.title, access: updated.access, updatedAt: updated.updatedAt, payload })
+      const payload = share.kind === 'note' ? {
+        ...(share.payload as SharedNote), body: draft.plainText, plainText: draft.plainText,
+        editorJson: draft.editorJson, revision: ((share.payload as SharedNote).revision ?? 1) + 1,
+      } : boardDraft ?? share.payload
+      const updated = await updateShare(share.id, { payload, expectedRevision: share.revision })
+      setShare({ ...updated, payload })
       setSaved(true)
       setEditing(false)
     } catch {
@@ -67,7 +89,7 @@ export function SharedDocument() {
     <div className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-5xl items-center gap-3 px-4 sm:px-6">
-          <Link to="/" aria-label="Connect Cortex home"><Wordmark /></Link>
+          <Link to="/" aria-label="Maristana home"><Wordmark /></Link>
           <span className="ms-auto text-[12.5px] text-ink-3">{t('Shared with you')}</span>
         </div>
       </header>
@@ -83,12 +105,14 @@ export function SharedDocument() {
 
         {!loading && error === 'missing' && (
           <div className="rounded-xl border border-line bg-surface p-8 text-center">
-            <h1 className="font-serif text-[24px] font-semibold text-ink">{t('This link is not available')}</h1>
+            <h1 className="font-serif text-[24px] font-semibold text-ink">{status === 'anonymous' ? t('Sign in to open this shared item') : t('This link is not available')}</h1>
             <p className="mx-auto mt-2 max-w-[48ch] text-[13.5px] leading-relaxed text-ink-2">
-              {t('It may have been set back to private, or withdrawn by whoever shared it. Ask them for a fresh link.')}
+              {status === 'anonymous'
+                ? t('Shared notebooks and whiteboards are limited to classmates in the same university and year.')
+                : t('It may be private, withdrawn, or shared from another cohort. Ask the owner to check the link and permission.')}
             </p>
-            <Link to="/" className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-primary px-5 text-[13.5px] font-semibold text-on-primary hover:bg-primary-hover">
-              {t('Go to Connect Cortex')}
+            <Link to={status === 'anonymous' ? `/login?next=${encodeURIComponent(`/s/${id ?? ''}`)}` : '/'} className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-primary px-5 text-[13.5px] font-semibold text-on-primary hover:bg-primary-hover">
+              {status === 'anonymous' ? t('Sign in') : t('Go to Maristana')}
             </Link>
           </div>
         )}
@@ -101,16 +125,23 @@ export function SharedDocument() {
                 <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-[12.5px] text-ink-3">
                   <span className="inline-flex items-center gap-1.5">
                     <Icon icon={share.access === 'edit' ? PencilLine : Eye} size={13} />
-                    {share.access === 'edit' ? t('Anyone with the link can edit') : t('Read only')}
+                    {share.access === 'edit' ? t('Classmates in your university and year can edit') : t('Read only for your university and year')}
                   </span>
                   <span>{t('Updated')} {formatRelativeTime(share.updatedAt)}</span>
                 </p>
               </div>
 
-              {share.kind === 'note' && share.canEdit && (
+              {share.canEdit && (
                 editing ? (
                   <div className="flex items-center gap-2">
-                    <Button variant="ghost" onClick={() => { setEditing(false); setDraft((share.payload as SharedNote).body ?? '') }}>{t('Cancel')}</Button>
+                    <Button variant="ghost" onClick={() => {
+                      const payload = share.payload as SharedNote
+                      setEditing(false)
+                      if (share.kind === 'note') {
+                        const plainText = payload.plainText ?? payload.body ?? ''
+                        setDraft({ plainText, editorJson: payload.editorJson ?? plainTextToEditorJson(plainText) })
+                      } else setBoardDraft(structuredClone(share.payload as BoardState))
+                    }}>{t('Cancel')}</Button>
                     <Button variant="primary" iconLeft={Save} loading={saving} onClick={() => void save()}>{t('Save changes')}</Button>
                   </div>
                 ) : (
@@ -134,10 +165,10 @@ export function SharedDocument() {
             <article className="rounded-xl border border-line bg-surface p-5 sm:p-7">
               {share.kind === 'note' ? (
                 editing
-                  ? <NoteEditor value={draft} onChange={setDraft} preview={false} />
-                  : <NotePreview source={(share.payload as SharedNote).body ?? ''} />
+                  ? <NoteEditor editorJson={draft.editorJson} onChange={setDraft} />
+                  : <SharedNotePreview note={share.payload as SharedNote} shareId={share.id} />
               ) : (
-                <SharedBoardView board={share.payload as BoardState} />
+                <SharedBoardView board={editing && boardDraft ? boardDraft : share.payload as BoardState} shareId={share.id} editable={editing && share.canEdit} onChange={setBoardDraft} />
               )}
             </article>
 
@@ -149,7 +180,7 @@ export function SharedDocument() {
 
             <p className="mt-6 flex items-center gap-1.5 text-[12px] text-ink-3">
               <Icon icon={LinkIcon} size={13} />
-              {t('Shared from Connect Cortex.')}{' '}
+              {t('Shared from Maristana.')}{' '}
               <Link to="/" className="font-semibold text-primary-strong hover:text-primary">{t('What is this?')}</Link>
             </p>
           </>
@@ -157,4 +188,29 @@ export function SharedDocument() {
       </main>
     </div>
   )
+}
+
+function SharedNotePreview({ note, shareId }: { note: SharedNote; shareId: string }) {
+  const source = note.plainText ?? editorJsonToPlainText(note.editorJson) ?? note.body ?? ''
+  const lines = source.split('\n')
+  return (
+    <div className="space-y-3 whitespace-pre-wrap text-[14.5px] leading-relaxed text-ink-2">
+      {(note.imageDocumentId || note.imageData) && <SharedNoteImage shareId={shareId} documentId={note.imageDocumentId} legacySource={note.imageData} />}
+      {lines.length ? lines.map((line, index) => <p key={index}>{line || '\u00a0'}</p>) : <p>{'\u00a0'}</p>}
+    </div>
+  )
+}
+
+function SharedNoteImage({ shareId, documentId, legacySource }: { shareId: string; documentId?: string; legacySource?: string }) {
+  const [source, setSource] = useState(legacySource ?? '')
+  useEffect(() => {
+    if (legacySource || !documentId) return
+    let active = true
+    let url = ''
+    void apiFetchBlob(`/shares/${encodeURIComponent(shareId)}/assets/${encodeURIComponent(documentId)}`)
+      .then((blob) => { url = URL.createObjectURL(blob); if (active) setSource(url); else URL.revokeObjectURL(url) })
+      .catch(() => undefined)
+    return () => { active = false; if (url) URL.revokeObjectURL(url) }
+  }, [documentId, legacySource, shareId])
+  return source ? <img src={source} alt="Shared notebook attachment" className="max-h-96 w-full rounded-lg object-contain" /> : null
 }

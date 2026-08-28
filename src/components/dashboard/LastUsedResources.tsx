@@ -12,7 +12,7 @@ import {
 import type { LucideIcon } from 'lucide-react'
 import { getSubject } from '@/data/subjects'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SubjectDot } from '@/components/ui/Subject'
@@ -53,7 +53,7 @@ export function LastUsedResources() {
             icon={FolderOpen}
             title={t('Nothing opened yet')}
             description={t('Resources you open appear here, so you can pick up where you left off.')}
-            action={<Link to="/app/resources"><Button variant="secondary" size="sm">{t('Browse resources')}</Button></Link>}
+            action={<ButtonLink to="/app/resources" variant="secondary" size="sm">{t('Browse resources')}</ButtonLink>}
           />
         </div>
       ) : (

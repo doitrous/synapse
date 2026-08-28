@@ -7,6 +7,7 @@ import SwiftUI
 /// sentence in it that supports the statement. Showing that is the difference
 /// between a revision app and one a student can check.
 struct EvidenceDrawer: View {
+    @Environment(\.strings) private var strings
     let span: EvidenceStore.ArticleSpan
     let evidence: EvidenceStore
     /// Open a source document at a page, when there is one to open.
@@ -35,7 +36,7 @@ struct EvidenceDrawer: View {
                         // The gate lets an article through on claims alone, so
                         // a fact can be verified without an exact page behind
                         // it. Saying so is better than an empty drawer.
-                        Text("This fact is verified, but no exact page in a source document has been recorded for it yet.")
+                        Text(strings("This fact is verified, but no exact page in a source document has been recorded for it yet."))
                             .font(Theme.ui(13))
                             .foregroundStyle(Theme.ink2)
                     }
@@ -45,11 +46,11 @@ struct EvidenceDrawer: View {
                 .frame(maxWidth: .infinity)
             }
             .background(Theme.paper)
-            .navigationTitle("Where this comes from")
+            .navigationTitle(strings("Where this comes from"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done") { dismiss() }
+                    Button(strings("Done")) { dismiss() }
                         .font(Theme.ui(16, weight: 600))
                         .tint(Theme.primary)
                 }
@@ -152,7 +153,7 @@ struct EvidenceDrawer: View {
                     }
                     .tint(Theme.accent)
                 } else {
-                    Text("Not uploaded yet")
+                    Text(strings("Not uploaded yet"))
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                 }

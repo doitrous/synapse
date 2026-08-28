@@ -23,7 +23,27 @@ if (!term) {
 }
 
 const LIVE = 'server/data/medical-library-v1.json'
-const BATCH_DIRS = ['docs/import-ready', 'docs/questions-import-ready']
+
+/**
+ * Every root a pending batch can live under.
+ *
+ * The two shared roots were once the whole list, and then per-university roots
+ * appeared — `docs/Kasr-Source-Imports/` and its `concept/`, `question/`,
+ * `article/` subfolders. A batch authored there was invisible to the one tool
+ * authors are told to run before minting anything, so the answer came back
+ * "safe to create" for records that already existed and the duplicate got
+ * written. Discovered by shape rather than by name: the next university must
+ * not need an edit here to be searched.
+ */
+const BATCH_ROOTS = ['docs/import-ready', 'docs/questions-import-ready']
+const BATCH_DIRS = [
+  ...BATCH_ROOTS,
+  ...(existsSync('docs')
+    ? readdirSync('docs', { withFileTypes: true })
+      .filter((entry) => entry.isDirectory() && entry.name.endsWith('-Source-Imports'))
+      .map((entry) => join('docs', entry.name))
+    : []),
+]
 
 const hit = (value) => typeof value === 'string' && value.toLowerCase().includes(term)
 const rows = []
@@ -75,7 +95,16 @@ for (const dir of BATCH_DIRS) {
     const path = join(dir, String(name))
     if (!path.endsWith('.md')) continue
     const text = readFileSync(path, 'utf8')
-    for (const match of text.matchAll(/^## (label|title|term|aliases)\r?\n([\s\S]*?)(?=\r?\n##|\r?\n---|$)/gm)) {
+    // `canonical_key` as well as the prose fields.
+    //
+    // The key is what the mint hashes and what `check-concept-ids` enforces one
+    // ID per, so it is the field a duplicate collides on — and it was the one
+    // field this tool did not read. An author searching the key they were about
+    // to mint was told "safe to create" by the very tool the manual sends them
+    // to, while a pending batch two directories away already held it. Keys are
+    // dotted and hyphenated rather than prose, so they rarely match a
+    // label-shaped search term; searching for one had to be done by hand.
+    for (const match of text.matchAll(/^## (label|title|term|aliases|canonical_key)\r?\n([\s\S]*?)(?=\r?\n##|\r?\n---|$)/gm)) {
       for (const line of match[2].split(/\r?\n|\||;/)) {
         if (hit(line.trim())) rows.push(['pending', path, line.trim(), `via ## ${match[1]}`])
       }

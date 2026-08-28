@@ -273,6 +273,7 @@ struct AssistantButton: View {
             .tint(Theme.primary)
             .sheet(isPresented: $showing) {
                 StudyAssistantView(model: assistant, surface: surface)
+            .localisedSheet()
             }
         }
     }

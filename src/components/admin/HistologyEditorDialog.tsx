@@ -19,18 +19,37 @@ import { Button } from '@/components/ui/Button'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
-import { removeStoredMedia, resolveMediaSource, storeMediaFile } from '@/lib/mediaStorage'
+import { isStoredMediaReference, removeStoredMedia, resolveMediaSource } from '@/lib/mediaStorage'
+import { uploadMedia } from '@/lib/mediaUpload'
+import { apiDelete } from '@/lib/api'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { useIdentity } from '@/lib/useIdentity'
+import { StrandedMediaNotice } from '@/components/admin/StrandedMediaNotice'
+import {
+  MEDIA_STATE_KEY,
+  emptyMediaLibrary,
+  mediaReleaseBlockers,
+  mediaUrl,
+  type MediaLibraryDocument,
+  type MediaRecord,
+} from '@/data/mediaLibrary'
 import { overlayPortal } from '@/lib/overlayPortal'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
 /** The same ceiling question attachments use — one media path, one limit. */
-const MAX_IMAGE_BYTES = 100_000_000
+const MAX_IMAGE_BYTES = 100 * 1024 * 1024
 
 function isImageFile(file: File): boolean {
   if (file.type.startsWith('image/')) return true
   const extension = file.name.split('.').pop()?.toLowerCase() ?? ''
-  return ['jpg', 'jpeg', 'png', 'gif', 'webp', 'avif', 'tif', 'tiff'].includes(extension)
+  return ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(extension)
+}
+
+function managedMediaId(reference: string): string | null {
+  const match = /^\/media\/([^/?#]+)$/.exec(reference)
+  if (!match) return null
+  try { return decodeURIComponent(match[1]) } catch { return null }
 }
 
 function emptyHistologyData(): HistologyAuthoringData {
@@ -115,6 +134,8 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
   const [draft, setDraft] = useState<ManagedContentItem>(() => item ?? emptySlide())
   const [pinObjective, setPinObjective] = useState<Objective>(OBJECTIVES[0])
   const [selectedStructureId, setSelectedStructureId] = useState<string | null>(null)
+  const [library, setLibrary] = usePersistentState<MediaLibraryDocument>(MEDIA_STATE_KEY, emptyMediaLibrary)
+  const identity = useIdentity()
   const [mediaError, setMediaError] = useState('')
   const [uploading, setUploading] = useState<Objective | null>(null)
 
@@ -165,26 +186,54 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
     if (!file) return
     setMediaError('')
     if (!isImageFile(file)) { setMediaError(`${file.name} is not a supported image file.`); return }
-    if (file.size > MAX_IMAGE_BYTES) { setMediaError(`${file.name} is larger than the 100 MB upload limit.`); return }
+    if (file.size > MAX_IMAGE_BYTES) { setMediaError(`${file.name} is larger than the 100 MB image limit. Large-file support is intended for streaming audio and video.`); return }
     // Read before awaiting: after the store resolves, this closure's copy of the
     // draft is a render old.
     const previous = data.views.find((view) => view.objective === objective)
     setUploading(objective)
-    const id = `histology-${objective}x-${Date.now()}-${file.name.replace(/[^a-zA-Z0-9._-]/g, '-')}`
     try {
-      const image = await storeMediaFile(id, file)
-      // The picture being replaced is nobody's now, so it does not sit in the
-      // browser's storage for the rest of the slide's life. Its pins stay: a
-      // replacement is almost always a better scan of the same field.
-      if (previous) void removeStoredMedia(previous.image).catch(() => {})
+      // On the server, like every other image. A slide that only existed in the
+      // uploader's browser rendered perfectly for them and reached no student —
+      // histology arrived after that bug and inherited it.
+      const { id: uploadedId, measured, alreadyStored } = await uploadMedia(file)
+      if (measured.mediaType !== 'image') {
+        await apiDelete(`/media/${encodeURIComponent(uploadedId)}`).catch(() => undefined)
+        throw new Error('Histology fields accept PNG, JPEG, GIF or WebP images.')
+      }
+      const twin = alreadyStored
+        ? (library.records ?? []).find((record) => record.sha256 === measured.sha256)
+        : undefined
+      const mediaId = twin?.id ?? uploadedId
+      if (twin) await apiDelete(`/media/${encodeURIComponent(uploadedId)}`).catch(() => undefined)
+      if (!twin) {
+        const record: MediaRecord = {
+          id: mediaId,
+          ...measured,
+          title: `${draft.title || 'Slide'} · ${objective}×`,
+          // Blank on purpose: the file is safe, and it is not publishable until
+          // somebody says what it shows and where it came from.
+          altText: '',
+          rights: '',
+          tags: { moduleIds: [], moduleSubjectPaths: [], conceptIds: [], yearIds: [] },
+          uploadedBy: identity.userId ?? 'unknown',
+          uploadedAt: new Date().toISOString(),
+        }
+        setLibrary((current) => ({ ...current, records: [record, ...(current.records ?? [])] }))
+      }
+      const image = mediaUrl(mediaId)
+      // A replaced picture that only ever lived in this browser is nobody's
+      // now. One on the server is left alone: another slide may name it.
+      if (previous && isStoredMediaReference(previous.image)) void removeStoredMedia(previous.image).catch(() => {})
       updateData((current) => ({
         ...current,
         views: [...current.views.filter((view) => view.objective !== objective), { objective, image }]
           .sort((a, b) => a.objective - b.objective),
       }))
       setPinObjective(objective)
-    } catch {
-      setMediaError(`${file.name} could not be stored. Check available browser storage and try again.`)
+    } catch (reason) {
+      setMediaError(reason instanceof Error
+        ? `${file.name} was not stored: ${reason.message}`
+        : `${file.name} could not be stored.`)
     } finally {
       setUploading(null)
     }
@@ -208,6 +257,13 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
         delete at[objective]
         return { ...structure, at }
       }),
+    }))
+  }
+
+  function updateMediaRecord(id: string, patch: Partial<MediaRecord>) {
+    setLibrary((current) => ({
+      ...current,
+      records: (current.records ?? []).map((record) => record.id === id ? { ...record, ...patch } : record),
     }))
   }
 
@@ -344,13 +400,26 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                         <span className="text-[13px] font-semibold tabular-nums text-ink">{objective}×</span>
                         {view ? <Badge tone="success">Image</Badge> : <span className="text-[11.5px] text-ink-3">Empty</span>}
                         {view && (
-                          <button type="button" onClick={() => removeView(objective)} className="ms-auto grid size-7 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove the ${objective}× image`}>
+                          <button type="button" onClick={() => removeView(objective)} className="ms-auto grid size-10 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger sm:size-7" aria-label={`Remove the ${objective}× image`}>
                             <Icon icon={Trash2} size={14} />
                           </button>
                         )}
                       </div>
                       {preview && (
                         <img src={preview} alt="" className="mb-2 block h-24 w-full rounded-md object-cover" />
+                      )}
+                      {view && isStoredMediaReference(view.image) && (
+                        <div className="mb-2">
+                          <StrandedMediaNotice
+                            reference={view.image}
+                            title={`${draft.title || 'Slide'} · ${objective}×`}
+                            onRecovered={(mediaId) => updateData((current) => ({
+                              ...current,
+                              views: current.views.map((candidate) =>
+                                candidate.objective === objective ? { ...candidate, image: mediaUrl(mediaId) } : candidate),
+                            }))}
+                          />
+                        </div>
                       )}
                       <label className="flex min-h-9 cursor-pointer items-center justify-center gap-1.5 rounded-md border border-line bg-surface px-2 text-[11.5px] font-semibold text-ink-2 hover:border-primary-line hover:text-primary-strong">
                         <Icon icon={ImagePlus} size={14} />
@@ -361,6 +430,46 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                   )
                 })}
               </div>
+              {data.views.some((view) => managedMediaId(view.image)) && (
+                <div className="mt-4 space-y-3 border-t border-line pt-4">
+                  <div>
+                    <h4 className="text-[12.5px] font-semibold text-ink">Student-safe media details</h4>
+                    <p className="mt-0.5 text-[11.5px] leading-relaxed text-ink-3">Describe what each field shows and record its source or licence. The slide cannot publish until both are complete.</p>
+                  </div>
+                  {data.views.map((view) => {
+                    const mediaId = managedMediaId(view.image)
+                    const record = mediaId ? (library.records ?? []).find((candidate) => candidate.id === mediaId) : undefined
+                    if (!mediaId || !record) return null
+                    const blockers = mediaReleaseBlockers(record)
+                    return (
+                      <div key={view.objective} className="grid gap-3 rounded-lg border border-line bg-surface-2/35 p-3 sm:grid-cols-[5rem_minmax(0,1fr)_minmax(0,1fr)]">
+                        <div className="flex items-start justify-between gap-2 sm:block">
+                          <p className="text-[13px] font-semibold tabular-nums text-ink">{view.objective}× field</p>
+                          <Badge tone={blockers.length ? 'warning' : 'success'}>{blockers.length ? 'Needs details' : 'Ready'}</Badge>
+                        </div>
+                        <Field label="Accessibility description" htmlFor={`histology-media-${view.objective}-description`} hint="What the student needs to understand if the image is unavailable">
+                          <Textarea
+                            id={`histology-media-${view.objective}-description`}
+                            className="min-h-20"
+                            value={record.altText}
+                            onChange={(event) => updateMediaRecord(mediaId, { altText: event.target.value })}
+                            placeholder="H&E section showing…"
+                          />
+                        </Field>
+                        <Field label="Source and rights" htmlFor={`histology-media-${view.objective}-rights`} hint="Owner, source, permission, or licence">
+                          <Textarea
+                            id={`histology-media-${view.objective}-rights`}
+                            className="min-h-20"
+                            value={record.rights}
+                            onChange={(event) => updateMediaRecord(mediaId, { rights: event.target.value })}
+                            placeholder="Department-owned teaching slide; cleared for student use"
+                          />
+                        </Field>
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
               {mediaError && <p role="alert" className="mt-2 text-[11.5px] text-danger">{mediaError}</p>}
               {/* A warning, not a refusal: a 40×-only slide is still worth
                   publishing when that is the only image there is. */}
@@ -398,13 +507,13 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                             type="button"
                             onClick={() => setSelectedStructureId(structure.id)}
                             aria-pressed={selected}
-                            className={cn('grid size-7 shrink-0 place-items-center rounded-full border', selected ? 'border-primary bg-primary text-on-primary' : 'border-line-2 text-ink-3 hover:border-primary-line hover:text-primary-strong')}
+                            className={cn('grid size-10 shrink-0 place-items-center rounded-full border sm:size-7', selected ? 'border-primary bg-primary text-on-primary' : 'border-line-2 text-ink-3 hover:border-primary-line hover:text-primary-strong')}
                             aria-label={`Pin ${structure.label || 'this structure'}`}
                           >
                             <Icon icon={MapPin} size={13} />
                           </button>
                           <TextInput aria-label="Structure label" className="min-w-0 flex-1" value={structure.label} onChange={(event) => setStructure(structure.id, { label: event.target.value })} placeholder="Goblet cell" />
-                          <button type="button" onClick={() => removeStructure(structure.id)} className="grid size-9 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Delete ${structure.label || 'this structure'}`}>
+                          <button type="button" onClick={() => removeStructure(structure.id)} className="grid size-10 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger sm:size-9" aria-label={`Delete ${structure.label || 'this structure'}`}>
                             <Icon icon={Trash2} size={14} />
                           </button>
                         </div>
@@ -417,7 +526,7 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                               key={objective}
                               type="button"
                               onClick={() => clearPin(structure.id, objective)}
-                              className="inline-flex h-6 items-center gap-1 rounded-full border border-primary-line bg-primary-tint px-2 text-[11px] font-semibold tabular-nums text-primary-strong hover:border-danger hover:text-danger"
+                              className="inline-flex min-h-10 items-center gap-1 rounded-full border border-primary-line bg-primary-tint px-2.5 text-[11px] font-semibold tabular-nums text-primary-strong hover:border-danger hover:text-danger sm:min-h-8"
                               aria-label={`Clear the ${objective}× pin for ${structure.label || 'this structure'}`}
                             >
                               {objective}×

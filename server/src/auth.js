@@ -1,9 +1,49 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose'
 import { pool } from './db.js'
+import { effectiveRole, hasConsoleAccess, parseSuperAdminEmails, rank } from './roles.js'
+import { ROLE_TABS_STATE_KEY, holdsTab, tabsForRole } from './tabs.js'
 
 const supabaseUrl = process.env.SUPABASE_URL?.replace(/\/$/, '')
 const issuer = supabaseUrl ? `${supabaseUrl}/auth/v1` : null
 const jwks = issuer ? createRemoteJWKSet(new URL(`${issuer}/.well-known/jwks.json`)) : null
+
+/**
+ * The two accounts that cannot be locked out.
+ *
+ * Super admin is derived from the signed-in email rather than stored, so there
+ * is no row for a database edit to change and no endpoint that could grant or
+ * remove it. Read once: this is configuration, not state.
+ */
+const superAdminEmails = parseSuperAdminEmails(process.env.SUPER_ADMIN_EMAILS)
+if (!superAdminEmails.length) {
+  // Loud, and then carry on. An empty allowlist means nobody holds super admin,
+  // which is survivable; refusing to boot over it is not.
+  console.warn('SUPER_ADMIN_EMAILS is empty — no account will hold super admin.')
+}
+
+function safeParse(value) {
+  try { return JSON.parse(value) } catch { return null }
+}
+
+/**
+ * Whatever was stored in `content_scope`, made safe to read.
+ *
+ * A scope that survives this is non-empty by construction, so `null` means one
+ * thing everywhere downstream: nothing assigned. The driver may hand back a
+ * parsed object or the raw JSON text depending on the column type MariaDB
+ * reports, so both are accepted.
+ */
+function readContentScope(raw) {
+  if (raw == null) return null
+  const parsed = typeof raw === 'string' ? safeParse(raw) : raw
+  if (!parsed || typeof parsed !== 'object') return null
+  const list = (value) => (Array.isArray(value)
+    ? value.filter((entry) => typeof entry === 'string' && entry.trim())
+    : [])
+  const moduleIds = list(parsed.moduleIds)
+  const yearIds = list(parsed.yearIds)
+  return moduleIds.length || yearIds.length ? { moduleIds, yearIds } : null
+}
 
 async function supabaseIdentity(token) {
   if (!jwks || !issuer) return null
@@ -15,24 +55,40 @@ async function supabaseIdentity(token) {
 
   const userId = String(payload.sub)
   const email = typeof payload.email === 'string' ? payload.email : null
+  const appMetadata = payload.app_metadata && typeof payload.app_metadata === 'object' ? payload.app_metadata : {}
+  const provider = typeof appMetadata.provider === 'string' ? appMetadata.provider.slice(0, 32) : null
   await pool.query(
     `INSERT INTO user_access (user_id, email, role) VALUES (?, ?, 'student')
      ON DUPLICATE KEY UPDATE email = COALESCE(VALUES(email), email)`,
     [userId, email],
   )
+  if (provider && provider !== 'email') {
+    await pool.query(
+      `UPDATE students
+          SET social_provider = COALESCE(social_provider, ?),
+              social_subject = COALESCE(social_subject, ?)
+        WHERE user_id = ?`,
+      [provider, userId, userId],
+    )
+  }
   const [rows] = await pool.query(
-    'SELECT role, status, mfa_required FROM user_access WHERE user_id = ?',
+    'SELECT role, status, mfa_required, content_scope FROM user_access WHERE user_id = ?',
     [userId],
   )
   const access = rows[0]
   if (!access || access.status !== 'active') return null
+  const role = effectiveRole(email, access.role, superAdminEmails)
   return {
     id: userId,
     email,
-    role: access.role,
+    role,
+    rank: rank(role),
+    // Editors and super admins are never scoped; only a reviewer's writes are
+    // confined, and a reviewer with nothing assigned holds nothing.
+    contentScope: rank(role) >= 2 ? null : readContentScope(access.content_scope),
     aal: payload.aal === 'aal2' ? 'aal2' : 'aal1',
-    // Opt-in second factor. Nobody is locked out for not having enrolled;
-    // an account that has asked to be held to aal2 is.
+    // Kept for students who asked for a second factor voluntarily. Console
+    // roles are held to aal2 regardless — see `mfaSatisfied`.
     mfaRequired: Boolean(access.mfa_required),
   }
 }
@@ -67,7 +123,11 @@ export async function apiAuthGate(req, res, next) {
     || req.path === '/api/webhooks/resend/inbound'
     || req.path === '/api/unsubscribe'
     || req.path === '/api/accounts/exists'
+    || req.path === '/api/pricing/quote'
     || req.path === '/api/facebook/deletion-callback'
+    // Native media elements cannot attach the Supabase bearer header. They use
+    // a short-lived signed URL minted for an authenticated viewer instead.
+    || ((req.method === 'GET' || req.method === 'HEAD') && req.path.startsWith('/api/media-playback/'))
   ) return next()
 
   const auth = req.header('authorization') || ''
@@ -114,21 +174,80 @@ export async function apiAuthGate(req, res, next) {
   return res.status(401).json({ error: 'unauthorized' })
 }
 
-export function requireAdmin(req, res, next) {
-  if (req.identity?.role !== 'admin') return res.status(403).json({ error: 'admin role required' })
+/**
+ * Whether this identity has cleared its second-factor requirement.
+ *
+ * MFA used to be opt-in for everyone. It is now a consequence of rank: any
+ * account that can open the console must present aal2, because the console
+ * decides who else can open it. The `mfa_required` column survives for students
+ * who asked for a second factor voluntarily.
+ *
+ * Exported because `GET /api/state/:key` repeats the check inline and the two
+ * must never disagree about what counts as sufficient.
+ */
+export function mfaSatisfied(identity) {
+  if (!identity) return false
+  if (hasConsoleAccess(identity.role)) return identity.aal === 'aal2'
+  return !identity.mfaRequired || identity.aal === 'aal2'
+}
+
+/**
+ * The role→tabs document, cached until it is written.
+ *
+ * Every guarded request reads it, so it cannot be a query per request. The
+ * cache is dropped by `invalidateRoleTabs`, which the state route calls when
+ * this key changes — the same invalidation shape the medical-resource snapshot
+ * already uses.
+ */
+let roleTabsCache = null
+
+export function invalidateRoleTabs() {
+  roleTabsCache = null
+}
+
+async function roleTabs() {
+  if (roleTabsCache) return roleTabsCache
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [ROLE_TABS_STATE_KEY])
+  roleTabsCache = (rows.length ? safeParse(rows[0].v) : null) ?? {}
+  return roleTabsCache
+}
+
+/** Every tab this identity holds. */
+export async function heldTabs(identity) {
+  if (!identity) return []
+  return tabsForRole(identity.role, await roleTabs())
+}
+
+/**
+ * A route belongs to a tab, and you must hold that tab.
+ *
+ * This is the whole permission model: hiding a tab in Access Control is not a
+ * cosmetic change, it is this refusal.
+ */
+export function requireTab(...tabIds) {
+  return async function guard(req, res, next) {
+    if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
+    if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+    try {
+      if (!holdsTab(await heldTabs(req.identity), tabIds)) {
+        return res.status(403).json({ error: 'that area is not part of your role' })
+      }
+    } catch (error) { return next(error) }
+    return next()
+  }
+}
+
+/** Any console role at all. Not sufficient on its own — see `requireTab`. */
+export function requireConsole(req, res, next) {
+  if (!hasConsoleAccess(req.identity?.role)) return res.status(403).json({ error: 'console access required' })
   if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
   return next()
 }
 
-/**
- * Whether this identity has cleared its own second-factor requirement.
- *
- * MFA is opt-in: an account that has not asked for it is not held to aal2.
- * Exported because `GET /api/state/:key` repeats the admin check inline and the
- * two must never disagree about what counts as sufficient.
- */
-export function mfaSatisfied(identity) {
-  return !identity?.mfaRequired || identity.aal === 'aal2'
+export function requireSuperAdmin(req, res, next) {
+  if (req.identity?.role !== 'super_admin') return res.status(403).json({ error: 'super admin required' })
+  if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+  return next()
 }
 
 /** Explicit route-level guard for student/staff-only files. */

@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { Plus, Mail, Zap, Inbox, Info, KeyRound, ChevronRight, Send, RotateCcw, Trash2 } from 'lucide-react'
 import { campaigns } from '@/data/admin'
 import {
@@ -14,7 +13,7 @@ import {
 } from '@/data/emailAutomations'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { StatusBadge } from '@/components/ui/StatusBadge'
@@ -218,6 +217,7 @@ function TemplateEditor({
 export function EmailAutomations() {
   const [stored, setAutomations] = usePersistentState<Automation[]>(EMAIL_AUTOMATIONS_STORAGE_KEY, initialAutomations)
   const [openId, setOpenId] = useState<string | null>(null)
+  const [campaignNotice, setCampaignNotice] = useState('')
   // Edits saved against the older single-body shape are read into blocks on the
   // way in, so an admin who rewrote a template last term gets the new layout
   // rather than a message that has lost its button to it.
@@ -244,18 +244,26 @@ export function EmailAutomations() {
         description="Automated messages, their templates, and announcements to students."
         actions={
           <div className="flex gap-2">
-            <Link to="/admin/mailbox"><Button variant="secondary" size="md" iconLeft={Inbox}>Mail Box</Button></Link>
-            <Button variant="primary" size="md" iconLeft={Plus}>New campaign</Button>
+            <ButtonLink to="/admin/mailbox" variant="secondary" size="md" iconLeft={Inbox}>Mail Box</ButtonLink>
+            <Button variant="primary" size="md" iconLeft={Plus} onClick={() => setCampaignNotice('Email campaigns are created and sent from Mail Box once the backend is configured. Automated templates can be edited here.')}>New campaign</Button>
           </div>
         }
       />
+
+      {campaignNotice && (
+        <div role="status" className="mb-4 flex items-center gap-2 rounded-lg border border-line bg-surface-2/70 px-4 py-2.5 text-[13px] text-ink">
+          <Icon icon={Info} size={15} className="text-ink-3" />
+          <span className="flex-1">{campaignNotice}</span>
+          <button type="button" onClick={() => setCampaignNotice('')} className="text-[12px] font-medium text-ink-3 hover:text-ink">Dismiss</button>
+        </div>
+      )}
 
       {/* Sending configuration status */}
       <div className={cn('mb-4 flex flex-wrap items-center gap-2.5 rounded-lg border px-4 py-3 text-[13px]', configured ? 'border-success/25 bg-success-tint/60' : 'border-warning/30 bg-warning-tint/50')}>
         <Icon icon={configured ? KeyRound : Info} size={16} className={configured ? 'text-success' : 'text-warning'} />
         <span className="flex-1 text-ink">
           {transport === 'backend'
-            ? 'Live sending is on. Mail goes through the Connect Cortex backend to Resend, and every message is recorded in Mail Box.'
+            ? 'Live sending is on. Mail goes through the Maristana backend to Resend, and every message is recorded in Mail Box.'
             : transport === 'endpoint'
               ? 'Live sending is on via the configured email function.'
               : 'Demo mode — emails are recorded but not sent. This build has no backend; set RESEND_API_KEY on the server, or VITE_EMAIL_ENDPOINT for a static demo.'}
@@ -291,7 +299,8 @@ export function EmailAutomations() {
                             type="button"
                             onClick={() => setOpenId(open ? null : a.id)}
                             aria-expanded={open}
-                            className="grid size-7 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink"
+                            aria-label={`${open ? 'Collapse' : 'Expand'} ${a.name}`}
+                            className="grid size-11 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink sm:size-7"
                           >
                             <Icon icon={ChevronRight} size={15} className={cn('chevron-turn')} open={open} />
                           </button>

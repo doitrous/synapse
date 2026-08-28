@@ -18,8 +18,10 @@
  *   - Every affected key is written to a timestamped backup file BEFORE the
  *     first UPDATE, and the path is printed. Restoring is a manual, deliberate
  *     act with that file.
- *   - Each write inserts an `app_state_versions` row first, inside the same
- *     transaction, so the history matches what the wizard would have left.
+ *   - Each write inserts an `app_state_versions` row holding the value it is
+ *     about to store, inside the same transaction, exactly as the server's own
+ *     PUT does — so the newest version row equals app_state and the next client
+ *     edit merges against the current document rather than a stale one.
  *   - Merge, never replace: the live state is the base. A record the batches do
  *     not mention is untouched.
  */
@@ -44,9 +46,10 @@ const commit = args.includes('--commit')
 const files = args.filter((a) => !a.startsWith('--'))
 if (!files.length) throw new Error('Give at least one batch file')
 
-const KEYS = ['synapse-admin-content-ledger-v4', 'synapse-concept-graph-v2', 'synapse-medical-evidence-v1']
+const KEYS = ['synapse-admin-content-ledger-v4', 'synapse-concept-graph-v2', 'synapse-medical-evidence-v1', 'synapse-minigame-packs-v1']
 const LEDGER_KEY = KEYS[0]
 const GRAPH_KEY = KEYS[1]
+const MINIGAME_PACKS_KEY = KEYS[3]
 
 /** The connection string the server itself uses. Never printed. */
 async function databaseUrl() {
@@ -78,6 +81,7 @@ try {
     questions: (states[LEDGER_KEY] ?? []).filter((i) => i.kind === 'question').length,
     practicals: (states[LEDGER_KEY] ?? []).filter((i) => i.kind === 'practical').length,
     concepts: (states[GRAPH_KEY]?.concepts ?? []).length,
+    minigamePacks: (states[MINIGAME_PACKS_KEY]?.packs ?? []).length,
   })
 
   console.log('live before:', JSON.stringify(countsOf(live)))
@@ -108,6 +112,7 @@ try {
     process.exitCode = 1
   } else {
     const after = JSON.parse(await readFile(afterFile, 'utf8')).states
+    const writeKeys = KEYS.filter((key) => key in after)
     console.log('would write:', JSON.stringify(countsOf(after)))
 
     if (!commit) {
@@ -116,16 +121,21 @@ try {
       /* ---- write ---------------------------------------------------------- */
       await connection.beginTransaction()
       try {
-        for (const key of KEYS) {
+        for (const key of writeKeys) {
           const value = JSON.stringify(after[key])
-          // The version row records what was there BEFORE this write, which is
-          // the order the server's own PUT /api/state/:key uses.
-          if (key in live) {
-            await connection.query(
-              'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
-              [key, JSON.stringify(live[key]), null],
-            )
-          }
+          // Record the value being WRITTEN as the newest version — exactly what
+          // PUT /api/state/:key does (index.js). The server reconstructs every
+          // client's optimistic-merge base from the newest app_state_versions
+          // row, so it must hold the same document app_state now holds. Recording
+          // the prior value here (as this once did) left the newest version row
+          // one generation behind app_state: every client then merged its next
+          // edit against a document that predated the import, and the edit —
+          // publishing an imported item, most visibly — came back a phantom
+          // conflict and was silently reverted. See stateMerge.test.js.
+          await connection.query(
+            'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+            [key, value, null],
+          )
           await connection.query(
             'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
             [key, value],
@@ -138,7 +148,7 @@ try {
       }
 
       /* ---- verify against the database, not against intent ----------------- */
-      const [check] = await connection.query('SELECT k, v FROM app_state WHERE k IN (?)', [KEYS])
+      const [check] = await connection.query('SELECT k, v FROM app_state WHERE k IN (?)', [writeKeys])
       const written = {}
       for (const row of check) written[row.k] = typeof row.v === 'string' ? JSON.parse(row.v) : row.v
       console.log('live after: ', JSON.stringify(countsOf(written)))

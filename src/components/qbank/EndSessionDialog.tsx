@@ -18,12 +18,15 @@ export function EndSessionDialog({
   onLeave,
   onSubmit,
   onClose,
+  interrupted = false,
 }: {
   answered: number
   total: number
   onLeave: () => void
   onSubmit: () => void
   onClose: () => void
+  /** The student attempted to leave the active test or returned from a hidden tab. */
+  interrupted?: boolean
 }) {
   const t = useT()
   const unanswered = Math.max(0, total - answered)
@@ -32,6 +35,11 @@ export function EndSessionDialog({
     <Dialog onClose={onClose} label={t('End this test')} size="sm">
       <PanelHeader title={t('End this test?')} icon={LogOut} />
       <div className="space-y-4 p-5">
+        {interrupted && (
+          <p className="rounded-lg border border-warning/30 bg-warning-tint/50 px-3 py-2.5 text-[12.5px] leading-relaxed text-ink-2">
+            {t('Your test is paused. Choose whether to keep it for later or end and submit it before continuing.')}
+          </p>
+        )}
         <p className="text-[13.5px] leading-relaxed text-ink-2">
           {answered} {t('of')} {total} {t('answered')}
           {unanswered > 0 && <> · {unanswered} {t('not yet answered')}</>}

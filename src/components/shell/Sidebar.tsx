@@ -5,6 +5,7 @@ import { navFor } from './nav'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
+import { OverflowText } from '@/components/ui/OverflowText'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { ThemeSwitch } from './ThemeSwitch'
 import { LanguageSwitch } from './LanguageSwitch'
@@ -14,6 +15,8 @@ import { cn } from '@/lib/cn'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
+import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
+import { useOpenEscalationCount } from '@/lib/useEscalationBadge'
 
 export function Sidebar({
   portal,
@@ -27,9 +30,10 @@ export function Sidebar({
   onToggleCollapse?: () => void
   onNavigate?: () => void
 }) {
-  const groups = navFor(portal)
   const { t } = useI18n()
   const identity = useIdentity()
+  const groups = navFor(portal, identity.tabs)
+  const escalationCount = useOpenEscalationCount()
   // `audience`, not `profile`: the roster record is authoritative but often
   // absent, and `audience` is the merge of it with what the student told
   // onboarding. Reading `profile` here showed nothing to every student whose
@@ -37,15 +41,24 @@ export function Sidebar({
   const universityShort = useUniversityName(identity.audience.universityId, 'short')
   const universityName = useUniversityName(identity.audience.universityId)
 
-  // Whatever the account actually says, and nothing more: the line falls back
-  // to "Medicine" rather than inventing a cohort this person may not be in.
+  // The admin line names the actual role — Reviewer, Editor, Admin, Super admin —
+  // never a single blanket title, so a reviewer is never labelled as more than
+  // they are. The student line falls back to "Medicine" rather than inventing a
+  // cohort this person may not be in.
+  const roleLabel = t(ROLE_LABEL[identity.role as EffectiveRole] ?? 'Team')
   const detail = portal === 'admin'
-    ? t('Curriculum admin')
+    ? roleLabel
     : [universityShort, identity.audience.year].filter(Boolean).join(' · ') || t('Medicine')
   const detailTitle = portal === 'admin'
-    ? t('Curriculum admin')
+    ? roleLabel
     : [universityName, identity.audience.year].filter(Boolean).join(' · ')
   const profile = { name: identity.displayName, detail }
+  // Never point somebody at a screen their role cannot open. Only a super admin
+  // holds Settings; everyone else on the admin side lands on their console home,
+  // which resolves to the first surface they actually hold.
+  const accountHref = portal === 'admin'
+    ? (identity.tabs.includes('settings') ? '/admin/settings' : '/admin')
+    : '/app/account'
 
   return (
     <div className="flex h-full flex-col bg-surface">
@@ -89,10 +102,9 @@ export function Sidebar({
                     onMouseEnter={() => preloadStudentRoute(item.to)}
                     onFocus={() => preloadStudentRoute(item.to)}
                     onTouchStart={() => preloadStudentRoute(item.to)}
-                    title={collapsed ? t(item.label) : undefined}
                     className={({ isActive }) =>
                       cn(
-                        'group flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
+                        'group relative flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
                         collapsed ? 'justify-center px-0' : 'px-2.5',
                         isActive
                           ? 'nav-selected font-medium'
@@ -107,7 +119,25 @@ export function Sidebar({
                           size={17}
                           className={isActive ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
                         />
-                        {!collapsed && <span className="truncate">{t(item.label)}</span>}
+                        {collapsed ? (
+                          <span role="tooltip" className="pointer-events-none absolute start-[calc(100%+0.5rem)] top-1/2 z-[90] hidden w-max max-w-56 -translate-y-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium leading-snug text-paper shadow-pop group-hover:block group-focus-visible:block">
+                            {t(item.label)}
+                          </span>
+                        ) : (
+                          <OverflowText>{t(item.label)}</OverflowText>
+                        )}
+                        {item.to === '/admin/escalations' && escalationCount > 0 && (
+                          collapsed ? (
+                            <span className="absolute end-1.5 top-1.5 h-2 w-2 rounded-full bg-danger" aria-hidden="true" />
+                          ) : (
+                            <span
+                              className="ms-auto inline-flex min-w-5 items-center justify-center rounded-full bg-danger px-1.5 text-[10.5px] font-bold text-on-danger"
+                              aria-label={t('{count} open escalations').replace('{count}', String(escalationCount))}
+                            >
+                              {escalationCount}
+                            </span>
+                          )
+                        )}
                       </>
                     )}
                   </NavLink>
@@ -127,7 +157,7 @@ export function Sidebar({
           <RailPreferences />
         ) : (
           <div className="space-y-1.5">
-            <ThemeSwitch className="flex w-full [&>button]:flex-1" />
+            <ThemeSwitch className="flex w-full" />
             <LanguageSwitch className="flex w-full [&>button]:flex-1" />
           </div>
         )}
@@ -136,21 +166,20 @@ export function Sidebar({
       {/* User */}
       <div className="shrink-0 border-t border-line p-2">
         <NavLink
-          to={portal === 'admin' ? '/admin/settings' : '/app/account'}
+          to={accountHref}
           className={cn(
             'flex w-full items-center gap-2.5 rounded-md py-1.5 text-start transition-colors hover:bg-inset',
             collapsed ? 'justify-center px-0' : 'px-2',
           )}
-          title={collapsed ? `${profile.name} · ${detailTitle || profile.detail}` : undefined}
         >
           <Avatar name={profile.name} size="sm" />
           {!collapsed && (
             <>
               <span className="min-w-0 flex-1">
-                <span className="block truncate text-[13px] font-medium text-ink">{profile.name}</span>
-                <span className="block truncate text-[11.5px] text-ink-3" title={detailTitle || undefined}>
+                <OverflowText className="text-[13px] font-medium text-ink">{profile.name}</OverflowText>
+                <OverflowText className="text-[11.5px] text-ink-3" tooltip={detailTitle || profile.detail}>
                   {profile.detail}
-                </span>
+                </OverflowText>
               </span>
               <Icon icon={ChevronsUpDown} size={15} className="text-ink-3" />
             </>
@@ -191,7 +220,7 @@ function RailPreferences() {
           <div className="space-y-2">
             <div>
               <p className="mb-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Appearance')}</p>
-              <ThemeSwitch className="flex w-full [&>button]:flex-1" />
+              <ThemeSwitch className="flex w-full" />
             </div>
             <div>
               <p className="mb-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Language')}</p>

@@ -2,6 +2,7 @@ import SwiftUI
 
 /// OSCE stations, clinical cases, lab and imaging sets, and skills checklists.
 struct PracticalView: View {
+    @Environment(\.strings) private var strings
     let store: LocalStore
     let sync: SyncEngine
     let audience: StudentAudience
@@ -55,7 +56,7 @@ struct PracticalView: View {
             }
         }
         .background(Theme.paper)
-        .navigationTitle("Practical")
+        .navigationTitle(strings("Practical"))
         .navigationBarTitleDisplayMode(.inline)
         .task {
             if model == nil {
@@ -165,6 +166,7 @@ struct PracticalView: View {
 /// Answers and debriefs are held behind a tap. A mark scheme visible while you
 /// are still working through a station is not a mark scheme, it is the answers.
 struct PracticalDetailView: View {
+    @Environment(\.strings) private var strings
     let practical: Practical
     var model: PracticalModel?
 
@@ -241,7 +243,7 @@ struct PracticalDetailView: View {
                     Button {
                         revealed = true
                     } label: {
-                        Text("Show the answers")
+                        Text(strings("Show the answers"))
                             .font(Theme.ui(16, weight: 600))
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)

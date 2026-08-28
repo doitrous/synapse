@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Check, Download, KeyRound, LifeBuoy, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonAnchor } from '@/components/ui/Button'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
@@ -13,8 +13,11 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { universities as seededUniversities, YEARS } from '@/data/universities'
-import { API_MODE, apiGet, apiPost } from '@/lib/api'
+import { API_MODE, apiGet, apiPost, apiPut } from '@/lib/api'
 import { useT } from '@/lib/i18n'
+import { cn } from '@/lib/cn'
+import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
+import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem } from '@/data/profileIcons'
 
 /**
  * Preferences the student owns.
@@ -37,8 +40,14 @@ const DEFAULTS: AccountPrefs = {
 }
 
 const ACCOUNT_PREFS_STORAGE_KEY = 'synapse.account.prefs.v1'
+const PROFILE_STORAGE_KEY = 'synapse.account.profile.v1'
 
 const SUPPORT_ADDRESS = 'synapse@mail.doitrous.com'
+
+interface StudentProfilePrefs {
+  username: string
+  iconId: string
+}
 
 function ReadOnlyField({ label, value, hint }: { label: string; value: string | null; hint?: string }) {
   const t = useT()
@@ -82,36 +91,34 @@ function StudyContext() {
   const { audience, profile, displayName, email, saveEnrolment } = useIdentity()
   const [configured] = useUniversityCatalogue()
 
-  const [universityId, setUniversityId] = useState(audience.universityId)
-  const [year, setYear] = useState(audience.year)
   const [group, setGroup] = useState(audience.group)
+  const [targetUniversityId, setTargetUniversityId] = useState(audience.universityId)
+  const [targetYear, setTargetYear] = useState(audience.year)
+  const [reason, setReason] = useState('')
   const [justSaved, setJustSaved] = useState(false)
+  const [requestSent, setRequestSent] = useState(false)
   const [saving, setSaving] = useState(false)
+  const [requesting, setRequesting] = useState(false)
   const [error, setError] = useState('')
+  const [requestError, setRequestError] = useState('')
 
-  // The admin-configured catalogue is the real list; the seeded schools stand
-  // in when none has been set up yet, so this is never an empty dropdown.
   const universities = configured.length ? configured : seededUniversities
+  const currentUniversity = universities.find((item) => item.id === audience.universityId)
   const rosterUniversity = universities.find((item) => item.id === profile.universityId)
+  const selectedTargetUniversity = universities.find((item) => item.id === targetUniversityId)
+  const targetYears = selectedTargetUniversity
+    ? [...new Set([...selectedTargetUniversity.years.map((entry) => entry.year), ...YEARS])]
+    : [...new Set([...YEARS, audience.year, profile.year].filter((value): value is string => Boolean(value)))]
+  const dirty = group !== audience.group
+  const requestDirty = targetUniversityId !== audience.universityId || targetYear !== audience.year
+  const canRequest = requestDirty && reason.trim().length >= 12
 
-  // A year an admin typed that is not in the standard list still has to be
-  // choosable, or saving would quietly move the student to a different one.
-  const years = [...new Set([...YEARS, audience.year, profile.year].filter((value): value is string => Boolean(value)))]
-
-  const dirty = universityId !== audience.universityId || year !== audience.year || group !== audience.group
-
-  /**
-   * Sent to the server, which is the only thing that holds this.
-   *
-   * It used to be written to a browser document, so correcting a year fixed it
-   * on the device it was corrected on and nowhere else.
-   */
-  async function save(event: React.FormEvent) {
+  async function saveGroup(event: React.FormEvent) {
     event.preventDefault()
     setError('')
     setSaving(true)
     try {
-      await saveEnrolment({ universityId, year, group: group.trim() })
+      await saveEnrolment({ universityId: audience.universityId, year: audience.year, group: group.trim() })
       setJustSaved(true)
     } catch {
       setError(t('That could not be saved. Check your connection and try again.'))
@@ -120,42 +127,61 @@ function StudyContext() {
     }
   }
 
+  async function requestChange() {
+    setRequestError('')
+    setRequesting(true)
+    try {
+      if (API_MODE) {
+        // The server models one field per request (university OR year), so a
+        // student changing both files both — each lands as its own row the admin
+        // can approve or reject independently. Endpoint spelling matters: it is
+        // `/enrollment-change-requests`, not the `/enrolment` the locked-profile
+        // save uses; an earlier mismatch here 404'd every request.
+        const changes: Array<{ field: 'university' | 'year'; requestedValue: string }> = []
+        if (targetUniversityId && targetUniversityId !== audience.universityId) {
+          changes.push({ field: 'university', requestedValue: targetUniversityId })
+        }
+        if (targetYear && targetYear !== audience.year) {
+          changes.push({ field: 'year', requestedValue: targetYear })
+        }
+        if (!changes.length) { setRequesting(false); return }
+        const results = await Promise.allSettled(
+          changes.map((change) => apiPost('/me/enrollment-change-requests', { ...change, reason: reason.trim() })),
+        )
+        const failures = results.filter((result): result is PromiseRejectedResult => result.status === 'rejected')
+        if (failures.length === changes.length) {
+          const reason = failures[0].reason
+          throw reason instanceof Error ? reason : new Error(String(reason))
+        }
+        if (failures.length) {
+          const message = failures[0].reason instanceof Error ? failures[0].reason.message : ''
+          setRequestError(message || t('One of your requests could not be sent, but the other was received.'))
+        }
+      }
+      setRequestSent(true)
+      setReason('')
+    } catch (submitError) {
+      const message = submitError instanceof Error ? submitError.message : ''
+      setRequestError(message || t('Your request could not be sent. Try again, or contact support if it keeps happening.'))
+    } finally {
+      setRequesting(false)
+    }
+  }
+
   return (
-    <form className="grid gap-4 p-5 sm:grid-cols-2" onSubmit={(event) => void save(event)}>
+    <div className="grid gap-4 p-5 sm:grid-cols-2">
       <ReadOnlyField label={t('Full name')} value={profile.name ?? displayName} />
       <ReadOnlyField label={t('Email address')} value={profile.email ?? email} />
-
       <div>
-        <Field label={t('University')} htmlFor="account-university">
-          <Select
-            id="account-university"
-            value={universityId}
-            onChange={(event) => { setUniversityId(event.target.value); setJustSaved(false) }}
-          >
-            <option value="">{t('Choose your university')}</option>
-            {universities.map((university) => (
-              <option key={university.id} value={university.id}>{university.short} — {university.name}</option>
-            ))}
-          </Select>
-        </Field>
-        {rosterUniversity && rosterUniversity.id !== universityId && <RosterNote recorded={rosterUniversity.name} />}
+        <ReadOnlyField label={t('University')} value={currentUniversity ? `${currentUniversity.short} — ${currentUniversity.name}` : audience.universityId} hint={t('Locked after onboarding')} />
+        {rosterUniversity && rosterUniversity.id !== audience.universityId && <RosterNote recorded={rosterUniversity.name} />}
+      </div>
+      <div>
+        <ReadOnlyField label={t('Year of study')} value={audience.year} hint={t('Locked after onboarding')} />
+        {profile.year && profile.year !== audience.year && <RosterNote recorded={profile.year} />}
       </div>
 
-      <div>
-        <Field label={t('Year of study')} htmlFor="account-year">
-          <Select
-            id="account-year"
-            value={year}
-            onChange={(event) => { setYear(event.target.value); setJustSaved(false) }}
-          >
-            <option value="">{t('Choose your year')}</option>
-            {years.map((option) => <option key={option} value={option}>{t(option)}</option>)}
-          </Select>
-        </Field>
-        {profile.year && profile.year !== year && <RosterNote recorded={profile.year} />}
-      </div>
-
-      <div>
+      <form className="grid gap-4 sm:col-span-2 sm:grid-cols-[minmax(0,1fr)_auto]" onSubmit={(event) => void saveGroup(event)}>
         <Field label={t('Group')} htmlFor="account-group" hint={t('Used for targeted vouchers and notices')}>
           <TextInput
             id="account-group"
@@ -165,25 +191,116 @@ function StudyContext() {
             onChange={(event) => { setGroup(event.target.value); setJustSaved(false) }}
           />
         </Field>
-        {profile.group && profile.group !== group && <RosterNote recorded={profile.group} />}
-      </div>
+        <div className="flex items-end">
+          <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
+            {justSaved && !dirty ? t('Saved') : t('Save group')}
+          </Button>
+        </div>
+        {error && <p role="alert" className="text-[12.5px] text-danger sm:col-span-2">{error}</p>}
+      </form>
 
-      <div className="sm:col-span-2">
-        <p className="rounded-lg border border-line bg-surface-2/50 px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">
-          {t('Your university and year decide which timetable you see and which content is scoped to you. Change them here whenever they are wrong or out of date — your answer is the one the app uses.')}
-          {' '}
-          {t('Your name and email come from your sign-in and are changed with your account.')}
+      <div className="sm:col-span-2 rounded-xl border border-line bg-surface-2/50 p-4">
+        <p className="text-[13px] font-semibold text-ink">{t('Request a university or year change')}</p>
+        <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">
+          {t('University and year changes need administrator approval and notes. If your university changes, the admin also rechecks that your username is still unique there.')}
         </p>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          <Field label={t('Target university')} htmlFor="account-target-university">
+            <Select id="account-target-university" value={targetUniversityId} onChange={(event) => { setTargetUniversityId(event.target.value); setRequestSent(false) }}>
+              <option value="">{t('Choose your university')}</option>
+              {universities.map((university) => (
+                <option key={university.id} value={university.id}>{university.short} — {university.name}</option>
+              ))}
+            </Select>
+          </Field>
+          <Field label={t('Target year')} htmlFor="account-target-year">
+            <Select id="account-target-year" value={targetYear} onChange={(event) => { setTargetYear(event.target.value); setRequestSent(false) }}>
+              <option value="">{t('Choose your year')}</option>
+              {targetYears.map((option) => <option key={option} value={option}>{t(option)}</option>)}
+            </Select>
+          </Field>
+          <Field label={t('Reason')} htmlFor="account-change-reason" hint={t('Required for the admin audit trail')} className="sm:col-span-2">
+            <TextInput id="account-change-reason" value={reason} onChange={(event) => { setReason(event.target.value); setRequestSent(false) }} placeholder={t('e.g. I transferred to another university this term.')} maxLength={160} />
+          </Field>
+        </div>
+        {requestError && <p role="alert" className="mt-3 text-[12.5px] text-danger">{requestError}</p>}
+        {requestSent && <p className="mt-3 rounded-lg border border-success/25 bg-success-tint px-3 py-2 text-[12.5px] text-success">{t('Request sent for admin review.')}</p>}
+        <div className="mt-4 flex justify-end">
+          <Button type="button" variant="secondary" loading={requesting} disabled={!canRequest || requesting} onClick={() => void requestChange()}>
+            {t('Submit change request')}
+          </Button>
+        </div>
       </div>
+    </div>
+  )
+}
 
-      {error && <p role="alert" className="text-[12.5px] text-danger sm:col-span-2">{error}</p>}
+function ProfileIdentity() {
+  const t = useT()
+  const [profile, setProfile] = usePersistentState<StudentProfilePrefs>(PROFILE_STORAGE_KEY, { username: '', iconId: DEFAULT_PROFILE_ICON })
+  const [username, setUsername] = useState(profile.username)
+  const [iconId, setIconId] = useState(profile.iconId || DEFAULT_PROFILE_ICON)
+  const [saving, setSaving] = useState(false)
+  const [saved, setSaved] = useState(false)
+  const [error, setError] = useState('')
+  const cleanUsername = normaliseUsername(username)
+  const problem = usernameProblem(username)
+  const dirty = cleanUsername !== profile.username || iconId !== profile.iconId
 
-      <div className="flex justify-end sm:col-span-2">
-        <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
-          {justSaved && !dirty ? t('Saved') : t('Save study context')}
-        </Button>
+  async function save() {
+    if (problem) return
+    setError('')
+    setSaving(true)
+    const payload = { username: cleanUsername, iconId }
+    try {
+      if (API_MODE) await apiPut('/me/profile', payload)
+      setProfile(payload)
+      setSaved(true)
+    } catch {
+      setError(t('That profile could not be saved. The server may have refused the username or be temporarily unavailable.'))
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  return (
+    <div className="border-t border-line p-5">
+      <div className="grid gap-4 sm:grid-cols-[minmax(0,1fr)_auto]">
+        <Field label={t('Username')} htmlFor="account-username" hint={t('Unique inside your university, compared case-insensitively by the server.')}>
+          <TextInput id="account-username" value={username} onChange={(event) => { setUsername(event.target.value); setSaved(false) }} maxLength={24} autoComplete="username" />
+        </Field>
+        <div className="flex items-end">
+          <Button type="button" variant="secondary" loading={saving} disabled={!dirty || Boolean(problem) || saving} iconLeft={saved && !dirty ? Check : undefined} onClick={() => void save()}>
+            {saved && !dirty ? t('Saved') : t('Save profile')}
+          </Button>
+        </div>
       </div>
-    </form>
+      <p className="mt-2 text-[12px] text-ink-3">{t('Preview')}: <span className="font-mono font-semibold text-ink">@{cleanUsername || t('username')}</span></p>
+      {problem && <p role="alert" className="mt-1 text-[12px] text-danger">{t(problem)}</p>}
+
+      <div className="mt-4">
+        <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Profile icon')}</p>
+        <ul className="mt-2 grid grid-cols-3 gap-2 sm:grid-cols-6">
+          {PROFILE_ICONS.map((entry) => (
+            <li key={entry.id}>
+              <button
+                type="button"
+                onClick={() => { setIconId(entry.id); setSaved(false) }}
+                aria-pressed={iconId === entry.id}
+                className={cn(
+                  'flex w-full flex-col items-center gap-2 rounded-xl border p-3 text-center transition-colors',
+                  iconId === entry.id ? 'border-primary bg-primary-tint/50 text-primary-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset hover:text-ink',
+                )}
+              >
+                <ProfileIconGlyph id={entry.id} className="size-7" />
+                <span className="text-[10.5px] font-medium">{t(entry.label)}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+      {error && <p role="alert" className="mt-3 text-[12.5px] text-danger">{error}</p>}
+    </div>
   )
 }
 
@@ -191,15 +308,14 @@ export function Account() {
   const t = useT()
   const { email } = useIdentity()
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
+  const timezone = prefs.timezone || DEFAULTS.timezone
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
-  // Matches the column default (`students.discoverable` is `1`), so a student
-  // who has never touched this setting — or has no roster row yet — sees the
-  // same "on" the server would report, without waiting on a round trip first.
-  const [discoverable, setDiscoverableState] = useState(true)
+  // New and existing students are private until they explicitly opt in.
+  const [discoverable, setDiscoverableState] = useState(false)
 
   const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Connect Cortex profile change request')}`
+  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Maristana profile change request')}`
 
   useEffect(() => {
     if (!API_MODE) return
@@ -259,7 +375,7 @@ export function Account() {
 
   return (
     <PageContainer>
-      <PageHeader title={t('Manage your account')} description={t('Your profile, study preferences, security, and data.')} />
+      <PageHeader title={t('Manage your account')} description={t('Your profile, study preferences, security, and data.')} back={{ fallback: '/app' }} />
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.65fr)]">
         <div className="space-y-4">
           <Panel>
@@ -269,12 +385,13 @@ export function Account() {
                 recorded" four times over to a student whose sidebar was showing
                 "KAU · Year 1" two inches away. */}
             <StudyContext />
+            <ProfileIdentity />
             <div className="border-t border-line p-5">
               <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')} className="max-w-sm">
-                <Select value={prefs.timezone} onChange={(event) => patch({ timezone: event.target.value })}>
-                  {[prefs.timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
+                <Select aria-label={t('Timezone')} value={timezone} onChange={(event) => patch({ timezone: event.target.value })}>
+                  {[timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
                     .filter((zone, index, all) => all.indexOf(zone) === index)
-                    .map((zone) => <option key={zone} value={zone}>{zone}</option>)}
+                    .map((zone) => <option key={zone || 'timezone-default'} value={zone}>{zone}</option>)}
                 </Select>
               </Field>
             </div>
@@ -300,7 +417,7 @@ export function Account() {
                 product updates — were read by nothing at all. They return when
                 email delivery actually consults a preference. */}
             <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Email preferences are not configurable yet. Connect Cortex only emails you about your account.')}
+              {t('Email preferences are not configurable yet. Maristana only emails you about your account.')}
             </p>
           </Panel>
         </div>
@@ -336,7 +453,7 @@ export function Account() {
                 <span>
                   <span className="block text-[13.5px] font-medium text-ink">{t('Let classmates find me')}</span>
                   <span className="mt-0.5 block text-[12px] text-ink-3">
-                    {t('Students in your own university and year can find you by name and ask to be friends. Turning this off does not remove friends you already have.')}
+                    {t('Off by default. Turn this on only if you want to appear in and browse the same-university-and-year classmate directory. Turning it off does not remove friends you already have.')}
                   </span>
                 </span>
                 <Toggle checked={discoverable} onChange={(value) => void toggleDiscoverable(value)} label={t('Let classmates find me')} />
@@ -379,7 +496,7 @@ export function Account() {
           <Panel>
             <PanelHeader title={t('Support')} icon={LifeBuoy} />
             <div className="p-4">
-              <a href={supportLink}><Button className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Connect Cortex team')}</Button></a>
+              <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</ButtonAnchor>
             </div>
           </Panel>
         </div>

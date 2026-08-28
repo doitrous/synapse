@@ -10,6 +10,7 @@ import SwiftUI
 /// Where it rests is a device preference, not an account one. Which side of the
 /// screen suits is about the hand holding the phone.
 struct ReaderToolbar: View {
+    @Environment(\.strings) private var strings
     @Binding var settings: ToolSettings
     let canUndo: Bool
     let canRedo: Bool
@@ -86,6 +87,7 @@ struct ReaderToolbar: View {
         .sheet(isPresented: $showingSettings) {
             ToolSettingsSheet(settings: $settings)
                 .presentationDetents([.medium, .large])
+        .localisedSheet()
         }
     }
 
@@ -109,17 +111,17 @@ struct ReaderToolbar: View {
                 Button { showingSettings = true } label: {
                     icon("slider.horizontal.3", active: false)
                 }
-                .accessibilityLabel("Tool settings")
+                .accessibilityLabel(strings("Tool settings"))
 
                 Button(action: undo) { icon("arrow.uturn.backward", active: false) }
                     .disabled(!canUndo)
                     .opacity(canUndo ? 1 : 0.35)
-                    .accessibilityLabel("Undo")
+                    .accessibilityLabel(strings("Undo"))
 
                 Button(action: redo) { icon("arrow.uturn.forward", active: false) }
                     .disabled(!canRedo)
                     .opacity(canRedo ? 1 : 0.35)
-                    .accessibilityLabel("Redo")
+                    .accessibilityLabel(strings("Redo"))
             }
         }
     }
@@ -177,6 +179,7 @@ struct ReaderToolbar: View {
 
 /// Colour, width, pen and eraser options.
 private struct ToolSettingsSheet: View {
+    @Environment(\.strings) private var strings
     @Binding var settings: ToolSettings
     @Environment(\.dismiss) private var dismiss
 
@@ -184,7 +187,7 @@ private struct ToolSettingsSheet: View {
         NavigationStack {
             Form {
                 if settings.tool == .pen || settings.tool == .highlighter || settings.tool == .textbox {
-                    Section("Colour") {
+                    Section(strings("Colour")) {
                         LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 6), spacing: 10) {
                             ForEach(ReaderPalette.ink, id: \.self) { hex in
                                 Button { settings.color = hex } label: {
@@ -212,7 +215,7 @@ private struct ToolSettingsSheet: View {
                 }
 
                 if settings.tool == .pen || settings.tool == .highlighter {
-                    Section("Width") {
+                    Section(strings("Width")) {
                         // Page-space units, so the slider means the same thing
                         // on every document and at every zoom.
                         Slider(value: $settings.width, in: 0.001...0.014)
@@ -223,7 +226,7 @@ private struct ToolSettingsSheet: View {
                 }
 
                 if settings.tool == .pen {
-                    Section("Pen") {
+                    Section(strings("Pen")) {
                         Picker("Pen", selection: $settings.pen) {
                             ForEach(PenTool.allCases, id: \.self) { pen in
                                 Text(pen.rawValue.capitalized).tag(pen)
@@ -235,37 +238,37 @@ private struct ToolSettingsSheet: View {
                     Section {
                         Slider(value: $settings.stabilization, in: 0...0.95)
                     } header: {
-                        Text("Steadiness")
+                        Text(strings("Steadiness"))
                     } footer: {
-                        Text("Eases each stroke toward where your hand was, so a shaky line comes out smooth.")
+                        Text(strings("Eases each stroke toward where your hand was, so a shaky line comes out smooth."))
                             .font(Theme.ui(12))
                     }
 
                     Section {
                         Toggle("Straighten shapes", isOn: $settings.snapShapes)
                     } footer: {
-                        Text("Turns a drawn line, box, circle or arrow into a tidy one — but only when it plainly was one, so a rough ring round a word stays rough.")
+                        Text(strings("Turns a drawn line, box, circle or arrow into a tidy one — but only when it plainly was one, so a rough ring round a word stays rough."))
                             .font(Theme.ui(12))
                     }
                 }
 
                 if settings.tool == .shape {
                     Section {
-                        Text("Draw a line, a box, a circle or an arrow and it is tidied up. Anything else is left exactly as you drew it.")
+                        Text(strings("Draw a line, a box, a circle or an arrow and it is tidied up. Anything else is left exactly as you drew it."))
                             .font(Theme.ui(13))
                             .foregroundStyle(Theme.ink2)
                     } header: {
-                        Text("Shapes")
+                        Text(strings("Shapes"))
                     }
                 }
 
                 if settings.tool == .laser {
                     Section {
-                        Text("For pointing at something while you talk. Nothing is kept.")
+                        Text(strings("For pointing at something while you talk. Nothing is kept."))
                             .font(Theme.ui(13))
                             .foregroundStyle(Theme.ink2)
                     } header: {
-                        Text("Pointer")
+                        Text(strings("Pointer"))
                     }
                 }
 
@@ -289,15 +292,15 @@ private struct ToolSettingsSheet: View {
                         }
                         .padding(.vertical, 4)
                     } header: {
-                        Text("Colour")
+                        Text(strings("Colour"))
                     } footer: {
-                        Text("These follow the page's theme rather than being fixed ink, so a note stays readable in the dark.")
+                        Text(strings("These follow the page's theme rather than being fixed ink, so a note stays readable in the dark."))
                             .font(Theme.ui(12))
                     }
                 }
 
                 if settings.tool == .lasso {
-                    Section("Select by") {
+                    Section(strings("Select by")) {
                         Picker("Shape", selection: $settings.lasso) {
                             ForEach(LassoMode.allCases, id: \.self) { mode in
                                 Text(mode.label).tag(mode)
@@ -317,15 +320,15 @@ private struct ToolSettingsSheet: View {
                             ))
                         }
                     } header: {
-                        Text("Pick up")
+                        Text(strings("Pick up"))
                     } footer: {
-                        Text("Handwriting is caught when most of a stroke falls inside; a note or a strip of tape when its middle does.")
+                        Text(strings("Handwriting is caught when most of a stroke falls inside; a note or a strip of tape when its middle does."))
                             .font(Theme.ui(12))
                     }
                 }
 
                 if settings.tool == .eraser {
-                    Section("Eraser") {
+                    Section(strings("Eraser")) {
                         Picker("Mode", selection: $settings.eraserMode) {
                             ForEach(EraserMode.allCases, id: \.self) { mode in
                                 Text(mode.label).tag(mode)
@@ -345,7 +348,7 @@ private struct ToolSettingsSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { dismiss() }
+                    Button(strings("Done")) { dismiss() }
                 }
             }
         }

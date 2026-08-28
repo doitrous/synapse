@@ -13,6 +13,8 @@
  * Pure module: no React, no storage, no clock.
  */
 
+import { seededRandom, shuffle } from './seededRandom.ts'
+
 export interface GridTerm {
   /** The answer. Normalised to uppercase letters before it reaches the grid. */
   term: string
@@ -105,39 +107,33 @@ interface Bounds {
 const key = (row: number, column: number) => `${row},${column}`
 
 /**
- * Deterministic 0..1 source, seeded from the shared link's seed.
- *
- * The seed is mixed (splitmix-style) before it drives the xorshift because
- * seeds in practice are small and adjacent — a link seeded 1 and the next
- * seeded 2. Feeding those into a raw xorshift state
- * produces near-identical early output and therefore near-identical grids;
- * mixing first makes neighbouring seeds diverge from the very first draw.
+ * The answer form Term Grid uses everywhere: built terms, typed cells, pasted
+ * text and completion checks. It deliberately ignores presentation characters
+ * that students commonly copy from articles — spaces, punctuation, apostrophes,
+ * hyphens and accents — while keeping the crossword itself one Latin letter per
+ * square.
  */
-function seededRandom(seed: number): () => number {
-  let state = Math.imul(seed | 0, 0x9e3779b1) ^ 0x85ebca6b
-  state = Math.imul(state ^ (state >>> 16), 0x21f0aaad)
-  state = Math.imul(state ^ (state >>> 15), 0x735a2d97)
-  state = (state ^ (state >>> 15)) >>> 0
-  // xorshift32 is dead at zero, so nudge it off that one bad state.
-  if (state === 0) state = 0x6d2b79f5
-  return () => {
-    state ^= state << 13
-    state >>>= 0
-    state ^= state >>> 17
-    state ^= state << 5
-    state >>>= 0
-    return state / 0x1_0000_0000
-  }
+export function normalizeTermGridAnswer(input: string): string {
+  return input
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toUpperCase()
+    .replace(/[^A-Z]/g, '')
 }
 
-/** Fisher–Yates, drawing only from the seeded source. */
-function shuffle<T>(items: T[], random: () => number): T[] {
-  const out = [...items]
-  for (let i = out.length - 1; i > 0; i--) {
-    const j = Math.floor(random() * (i + 1))
-    ;[out[i], out[j]] = [out[j], out[i]]
-  }
-  return out
+/** The single square value to store after typing or pasting into one cell. */
+export function normalizeTermGridLetter(input: string): string {
+  return normalizeTermGridAnswer(input).slice(-1)
+}
+
+/**
+ * Deterministic givens for the finished grid. The caller passes the puzzle seed
+ * so a shared link opens with the same two prefilled answers for everyone.
+ */
+export function givenTermsForGrid(grid: Grid, seed: number, count: number = 2): string[] {
+  if (grid.words.length === 0 || count <= 0) return []
+  const unique = [...new Map(grid.words.map((word) => [word.term, word])).keys()]
+  return shuffle(unique, seededRandom(seed ^ 0x6d2b79f5)).slice(0, Math.min(count, unique.length))
 }
 
 const letterAt = (placement: Pick<Placement, 'row' | 'column' | 'direction'>, index: number) => ({
@@ -386,13 +382,7 @@ export function buildGrid(terms: GridTerm[], seed: number, max: number = DEFAULT
 
   for (const entry of terms) {
     const raw = entry.term.trim()
-    // A multi-word term cannot go in a crossword square, and the space has to be
-    // caught before stripping punctuation, or two words would silently fuse.
-    if (/\s/.test(raw)) {
-      rejected.push(raw.toUpperCase())
-      continue
-    }
-    const word = raw.toUpperCase().replace(/[^A-Z]/g, '')
+    const word = normalizeTermGridAnswer(raw)
     if (word.length < 3) {
       // Reported as the caller wrote it, so they can find which term this was.
       rejected.push(raw.toUpperCase())

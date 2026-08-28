@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import { Minimize2 } from 'lucide-react'
 import type { Portal } from './nav'
@@ -14,6 +14,17 @@ import { cn } from '@/lib/cn'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 import { ImmersionProvider, useImmersion } from './ImmersionContext'
+import { OverflowTooltipLayer } from '@/components/ui/OverflowTooltipLayer'
+import { StudyActivityTracker } from './StudyActivityTracker'
+import { FocusAudioProvider } from './FocusAudioPlayer'
+import { MaristanaProgressNotice } from '@/components/maristanas/MaristanaProgressNotice'
+
+function isTypingTarget(target: EventTarget | null): boolean {
+  const element = target instanceof HTMLElement ? target : null
+  if (!element) return false
+  if (element.isContentEditable) return true
+  return Boolean(element.closest('input, textarea, select, [contenteditable="true"]'))
+}
 
 function AppShellInner({ portal }: { portal: Portal }) {
   const t = useT()
@@ -24,6 +35,9 @@ function AppShellInner({ portal }: { portal: Portal }) {
   const [focusMode, , toggleFocusMode] = useLocalPreference('synapse.shell.focusMode', false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
+  const mobileButtonRef = useRef<HTMLButtonElement>(null)
+  const drawerRef = useRef<HTMLDivElement>(null)
+  const mainRef = useRef<HTMLElement>(null)
   const { pathname } = useLocation()
   const { immersive } = useImmersion()
   // The student's own preference is never written by a test — it is only
@@ -34,11 +48,21 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // "/app/resources" are one destination, "/app/library" is another.
   const section = pathname.split('/').slice(0, 3).join('/')
 
+  function openMobile() {
+    setMobileOpen(true)
+  }
+
+  const closeMobile = useCallback(() => {
+    setMobileOpen(false)
+    window.setTimeout(() => mobileButtonRef.current?.focus(), 0)
+  }, [])
+
   // Focus mode hides the chrome, which would also hide the only way back out.
   // Escape is that way out, and it is the key people already try.
   useEffect(() => {
     if (!focusMode) return
     function onKey(event: KeyboardEvent) {
+      if (isTypingTarget(event.target)) return
       if (event.key === 'Escape') toggleFocusMode()
     }
     window.addEventListener('keydown', onKey)
@@ -48,6 +72,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // Global ⌘K / Ctrl-K to toggle search.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
+      if (isTypingTarget(e.target)) return
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault()
         setSearchOpen((v) => !v)
@@ -58,17 +83,50 @@ function AppShellInner({ portal }: { portal: Portal }) {
   }, [])
 
   // Close the mobile drawer whenever the route changes.
-  useEffect(() => setMobileOpen(false), [pathname])
+  useEffect(() => {
+    setMobileOpen(false)
+    window.requestAnimationFrame(() => mainRef.current?.focus({ preventScroll: true }))
+  }, [pathname])
+
+  useEffect(() => {
+    mainRef.current?.focus({ preventScroll: true })
+  }, [section])
 
   // Keep the page behind the mobile navigation still while the drawer is open.
   useEffect(() => {
     if (!mobileOpen) return
     const previous = document.body.style.overflow
     document.body.style.overflow = 'hidden'
+    const drawer = drawerRef.current
+    const selector = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    const focusable = drawer?.querySelector<HTMLElement>(selector)
+    window.setTimeout(() => focusable?.focus(), 0)
+    function trap(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        event.preventDefault()
+        closeMobile()
+        return
+      }
+      if (event.key !== 'Tab' || !drawerRef.current) return
+      const items = Array.from(drawerRef.current.querySelectorAll<HTMLElement>(selector))
+        .filter((element) => !element.hasAttribute('disabled') && element.offsetParent !== null)
+      if (!items.length) return
+      const first = items[0]
+      const last = items[items.length - 1]
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault()
+        last.focus()
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault()
+        first.focus()
+      }
+    }
+    document.addEventListener('keydown', trap)
     return () => {
       document.body.style.overflow = previous
+      document.removeEventListener('keydown', trap)
     }
-  }, [mobileOpen])
+  }, [closeMobile, mobileOpen])
 
   return (
     <div className="min-h-dvh min-w-0">
@@ -96,10 +154,16 @@ function AppShellInner({ portal }: { portal: Portal }) {
             type="button"
             aria-label={t('Close navigation')}
             className="absolute inset-0 size-full cursor-default bg-ink/30 animate-fade"
-            onClick={() => setMobileOpen(false)}
+            onClick={closeMobile}
           />
-          <div className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop">
-            <Sidebar portal={portal} collapsed={false} onNavigate={() => setMobileOpen(false)} />
+          <div
+            ref={drawerRef}
+            className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop"
+            role="dialog"
+            aria-modal="true"
+            aria-label={t('Navigation')}
+          >
+            <Sidebar portal={portal} collapsed={false} onNavigate={closeMobile} />
           </div>
         </div>
       )}
@@ -115,7 +179,8 @@ function AppShellInner({ portal }: { portal: Portal }) {
           portal={portal}
           focusMode={focusMode}
           onToggleFocusMode={toggleFocusMode}
-          onOpenMobile={() => setMobileOpen(true)}
+          mobileButtonRef={mobileButtonRef}
+          onOpenMobile={openMobile}
           onOpenSearch={() => setSearchOpen(true)}
         />
         {/* Keyed on the destination, so the arriving screen re-settles by 8px.
@@ -124,7 +189,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
             and remounting there would throw away the reader's page and zoom.
             The class is on <main> itself rather than an inner wrapper, so
             pages that size themselves against it keep their height contract. */}
-        <main key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in" tabIndex={-1}>
+        <main ref={mainRef} key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in focus:outline-none" tabIndex={-1}>
           <Outlet />
         </main>
       </div>
@@ -143,8 +208,11 @@ function AppShellInner({ portal }: { portal: Portal }) {
       )}
 
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <OverflowTooltipLayer />
       <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
+      {portal === 'student' && <StudyActivityTracker />}
+      {portal === 'student' && <MaristanaProgressNotice />}
       {/* Docked, not a page: the question is nearly always about what is
           already on screen. Renders nothing unless the assistant is on and
           included on this student's plan. */}
@@ -157,7 +225,9 @@ function AppShellInner({ portal }: { portal: Portal }) {
 export function AppShell({ portal }: { portal: Portal }) {
   return (
     <ImmersionProvider>
-      <AppShellInner portal={portal} />
+      <FocusAudioProvider>
+        <AppShellInner portal={portal} />
+      </FocusAudioProvider>
     </ImmersionProvider>
   )
 }

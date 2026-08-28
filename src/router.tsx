@@ -4,6 +4,9 @@ import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RequireAuth } from '@/components/auth/RequireAuth'
+import { RequireImportKind } from '@/components/auth/RequireImportKind'
+import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
+import { useIdentity } from '@/lib/useIdentity'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
 
 /**
@@ -69,22 +72,33 @@ const SharedDocument = lazyNamed(() => import('@/pages/SharedDocument'), 'Shared
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
 const QuestionBank = lazyNamed(() => import('@/pages/student/QuestionBank'), 'QuestionBank')
+const QuestionNotes = lazyNamed(() => import('@/pages/student/QuestionNotes'), 'QuestionNotes')
 const AdaptiveStudy = lazyNamed(() => import('@/pages/student/AdaptiveStudy'), 'AdaptiveStudy')
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
 const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'), 'MedicalTaxonomy')
 const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
+const SpotterPage = lazyNamed(() => import('@/components/games/SpotterPage'), 'SpotterPage')
+const TermMatchPage = lazyNamed(() => import('@/components/games/TermMatchPage'), 'TermMatchPage')
+const MinigamesHubPage = lazyNamed(() => import('@/components/games/MinigamesHubPage'), 'MinigamesHubPage')
+const ClinicalSequencePage = lazyNamed(() => import('@/components/games/ClinicalSequencePage'), 'ClinicalSequencePage')
+const MechanismChainPage = lazyNamed(() => import('@/components/games/MechanismChainPage'), 'MechanismChainPage')
+const RedFlagSortPage = lazyNamed(() => import('@/components/games/RedFlagSortPage'), 'RedFlagSortPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
 const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
 const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
+const UniversityPage = lazyNamed(() => import('@/pages/student/University'), 'University')
 const Performance = lazyNamed(() => import('@/pages/student/Performance'), 'Performance')
+const Maristanas = lazyNamed(() => import('@/pages/student/Maristanas'), 'Maristanas')
 const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteboard')
 const Notebook = lazyNamed(() => import('@/pages/student/Notebook'), 'Notebook')
+const Tutorial = lazyNamed(() => import('@/pages/student/Tutorial'), 'Tutorial')
 const StudyTogether = lazyNamed(() => import('@/pages/student/StudyTogether'), 'StudyTogether')
 const Billing = lazyNamed(() => import('@/pages/student/Billing'), 'Billing')
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
 
+const PlatformDashboard = lazyNamed(() => import('@/pages/admin/PlatformDashboard'), 'PlatformDashboard')
 const ControlDashboard = lazyNamed(() => import('@/pages/admin/ControlDashboard'), 'ControlDashboard')
 const AcademicSetup = lazyNamed(() => import('@/pages/admin/AcademicSetup'), 'AcademicSetup')
 const PaymentsFinance = lazyNamed(() => import('@/pages/admin/PaymentsFinance'), 'PaymentsFinance')
@@ -92,10 +106,13 @@ const EmailAutomations = lazyNamed(() => import('@/pages/admin/EmailAutomations'
 const PrivacySupport = lazyNamed(() => import('@/pages/admin/PrivacySupport'), 'PrivacySupport')
 const AdminSettings = lazyNamed(() => import('@/pages/admin/Settings'), 'Settings')
 const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'AuditSecurity')
+const AccessControl = lazyNamed(() => import('@/pages/admin/AccessControl'), 'AccessControl')
 const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
+const EscalationsQueue = lazyNamed(() => import('@/pages/admin/EscalationsQueue'), 'EscalationsQueue')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
 const AssistantSetup = lazyNamed(() => import('@/pages/admin/AssistantSetup'), 'AssistantSetup')
+const TutorialSetup = lazyNamed(() => import('@/pages/admin/TutorialSetup'), 'TutorialSetup')
 const NotificationCampaigns = lazyNamed(() => import('@/pages/admin/NotificationCampaigns'), 'NotificationCampaigns')
 const BulkImportPage = lazyNamed(() => import('@/pages/admin/BulkImportPage'), 'BulkImportPage')
 const ConceptsSetup = lazyNamed(() => import('@/pages/admin/ConceptsSetup'), 'ConceptsSetup')
@@ -115,6 +132,7 @@ const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImpor
 const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
 const EvidenceImportPage = lazyNamed(() => import('@/pages/admin/EvidenceImportPage'), 'EvidenceImportPage')
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
+const AcademicIntakePage = lazyNamed(() => import('@/pages/admin/AcademicIntakePage'), 'AcademicIntakePage')
 const MarksWeights = lazyNamed(() => import('@/pages/admin/MarksWeights'), 'MarksWeights')
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
@@ -124,17 +142,27 @@ const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportP
 const studentPages: Record<string, Preloadable> = {
   library: Library,
   qbank: QuestionBank,
+  'question-notes': QuestionNotes,
   adaptive: AdaptiveStudy,
   resources: Resources,
   taxonomy: MedicalTaxonomy,
   'term-grid': TermGridPage,
+  spotter: SpotterPage,
+  'term-match': TermMatchPage,
+  minigames: MinigamesHubPage,
+  'clinical-sequence': ClinicalSequencePage,
+  'mechanism-chain': MechanismChainPage,
+  'red-flag-sort': RedFlagSortPage,
   practical: Practical,
   flashcards: Flashcards,
   essays: EssayQuestions,
   calendar: CalendarPage,
+  university: UniversityPage,
   performance: Performance,
+  maristanas: Maristanas,
   whiteboard: Whiteboard,
   notebook: Notebook,
+  tutorial: Tutorial,
   'study-together': StudyTogether,
   billing: Billing,
   account: Account,
@@ -167,7 +195,9 @@ const adminBuilt: Record<string, ReactElement> = {
   written: render(WrittenSetup),
   histology: render(HistologySetup),
   resources: render(ResourcesSetup),
+  escalations: render(EscalationsQueue),
   reports: render(ReportsReview),
+  tutorial: render(TutorialSetup),
   students: render(StudentsManagement),
   users: render(UsersManagement),
   notifications: render(NotificationCampaigns),
@@ -178,11 +208,14 @@ const adminBuilt: Record<string, ReactElement> = {
   privacy: render(PrivacySupport),
   settings: render(AdminSettings),
   audit: render(AuditSecurity),
+  access: render(AccessControl),
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant']
+// Keep mounted routes and preloadable student pages in one registry so a new
+// page cannot be linked in navigation while silently falling through to 404.
+const studentPaths = Object.keys(studentPages)
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'escalations', 'reports', 'tutorial', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
@@ -190,7 +223,47 @@ const studentRoutes = [
   // the viewport, and it has to be linkable at a page.
   { path: 'resources/:id', element: render(ResourceReader) },
 ]
-const adminRoutes = adminPaths.map((path) => ({ path, element: adminBuilt[path] ?? render(Placeholder) }))
+/**
+ * The tab that owns each admin path.
+ *
+ * Derived from the same registry the sidebar reads, so a link that is offered
+ * and a page that renders can never disagree — and neither can disagree with
+ * the server, which checks the same tab when the page saves.
+ */
+const TAB_BY_PATH = new Map(ADMIN_TAB_VIEWS.map((view) => [view.to.replace(/^\/admin\/?/, ''), view.id]))
+
+/** A nested path belongs to its parent's tab: `academic/marks` is Marks & Weights. */
+function tabForAdminPath(path: string): string | undefined {
+  const own = TAB_BY_PATH.get(path)
+  if (own) return own
+  const parent = path.slice(0, path.lastIndexOf('/'))
+  return parent ? tabForAdminPath(parent) : undefined
+}
+
+const adminRoutes = adminPaths.map((path) => ({
+  path,
+  element: <RequireAuth tab={tabForAdminPath(path)}>{adminBuilt[path] ?? render(Placeholder)}</RequireAuth>,
+}))
+
+/** An admin child route, guarded by whichever tab owns its path. */
+const guarded = (path: string, element: ReactElement) => ({
+  path,
+  element: <RequireAuth tab={tabForAdminPath(path)}>{element}</RequireAuth>,
+})
+
+/**
+ * Where `/admin` goes.
+ *
+ * The Control Dashboard is enrolment and revenue, which a reviewer does not
+ * hold, so the console cannot have one fixed front door. It opens on the first
+ * tab this person actually has.
+ */
+function AdminHome() {
+  const identity = useIdentity()
+  if (identity.tabs.includes('dashboard')) return <PlatformDashboard />
+  const first = ADMIN_TAB_VIEWS.find((view) => view.id !== 'dashboard' && identity.tabs.includes(view.id))
+  return first ? <Navigate to={first.to} replace /> : <Navigate to="/app" replace />
+}
 
 // Which portal this origin serves. Everywhere else — localhost, previews — both
 // halves stay mounted, so development is unaffected by the production split.
@@ -201,25 +274,29 @@ const toStudentSite = <HandOver origin={STUDENT_ORIGIN} />
 
 const studentApp = {
   path: '/app',
-  element: <RequireAuth><AppShell portal="student" /></RequireAuth>,
+  element: <RequireAuth student><AppShell portal="student" /></RequireAuth>,
   children: [{ index: true, element: render(Dashboard) }, ...studentRoutes],
 }
 
 const adminApp = {
   path: '/admin',
-  element: <RequireAuth role="admin"><AppShell portal="admin" /></RequireAuth>,
+  element: <RequireAuth console><AppShell portal="admin" /></RequireAuth>,
   children: [
-    { index: true, element: render(ControlDashboard) },
-    { path: 'import/:kind', element: render(BulkImportPage) },
-    { path: 'concepts/import', element: render(ConceptsImportPage) },
-    { path: 'relationships/import', element: render(RelationsImportPage) },
-    { path: 'academic/import', element: render(AcademicImportPage) },
-    { path: 'academic/marks', element: render(MarksWeights) },
-    { path: 'taxonomy/import', element: render(SubjectsImportPage) },
-    { path: 'glossary/import', element: render(GlossaryImportPage) },
-    { path: 'library/coverage', element: render(MedicalCoverageReview) },
-    { path: 'library/media', element: render(MediaRequests) },
-    { path: 'library/evidence/import', element: render(EvidenceImportPage) },
+    { index: true, element: <AdminHome /> },
+    // `import/:kind` is the one path whose tab depends on the parameter, so it
+    // is guarded by the ledger tab that owns that content kind.
+    { path: 'import/:kind', element: <RequireImportKind>{render(BulkImportPage)}</RequireImportKind> },
+    guarded('concepts/import', render(ConceptsImportPage)),
+    guarded('relationships/import', render(RelationsImportPage)),
+    guarded('academic/import', render(AcademicImportPage)),
+    guarded('academic/intake', render(AcademicIntakePage)),
+    guarded('academic/marks', render(MarksWeights)),
+    guarded('taxonomy/import', render(SubjectsImportPage)),
+    guarded('glossary/import', render(GlossaryImportPage)),
+    guarded('library/coverage', render(MedicalCoverageReview)),
+    guarded('library/media', render(MediaRequests)),
+    guarded('library/evidence/import', render(EvidenceImportPage)),
+    { path: 'content', element: <RequireAuth tab="library">{render(ControlDashboard)}</RequireAuth> },
     ...adminRoutes,
   ],
 }

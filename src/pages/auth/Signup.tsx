@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AlertCircle, BookOpenText, CalendarDays, ChartNoAxesColumnIncreasing, Check, Circle, Eye, EyeOff, UserPlus } from 'lucide-react'
 import { AuthLayout } from './AuthLayout'
+import { SocialAuthButtons } from './SocialAuthButtons'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -118,24 +119,30 @@ export function Signup() {
   )
 
   return (
-    <AuthLayout step="account" title="Create your Connect Cortex account" description="One account for your study record. Verify your email, then choose your university, year and plan. A second factor is optional and can be added later." aside={aside}>
+    <AuthLayout step="account" title="Create your Maristana account" description="One account for your study record. Verify your email, then choose your university, year and plan. A second factor is optional and can be added later." aside={aside}>
       <form className="space-y-4" onSubmit={submit}>
         {!isSupabaseConfigured && <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">Account service awaiting Supabase project keys. The form is ready and dashboard preview stays open.</div>}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
-        <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} /></Field>
-        <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu" /></Field>
+        <SocialAuthButtons mode="sign up" redirectTo={`${window.location.origin}/app`} />
+        <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+          <span className="h-px flex-1 bg-line" />
+          Email
+          <span className="h-px flex-1 bg-line" />
+        </div>
+        <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" name="name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} /></Field>
+        <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" /></Field>
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="Phone number" htmlFor="signup-phone" hint="One account per number">
-            <TextInput id="signup-phone" type="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567" />
+            <TextInput id="signup-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567…" />
           </Field>
           <Field label="Nationality" htmlFor="signup-nationality" hint="Optional">
-            <TextInput id="signup-nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian" />
+            <TextInput id="signup-nationality" name="nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian…" />
           </Field>
         </div>
         <Field label="Password" htmlFor="signup-password" hint={`${MIN_PASSWORD} characters or more`}>
-          <div className="relative"><TextInput id="signup-password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required minLength={MIN_PASSWORD} value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" /><button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}><Icon icon={showPassword ? EyeOff : Eye} size={16} /></button></div>
+          <div className="relative"><TextInput id="signup-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required minLength={MIN_PASSWORD} value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" /><button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}><Icon icon={showPassword ? EyeOff : Eye} size={16} /></button></div>
         </Field>
-        <Field label="Confirm password" htmlFor="signup-confirm"><TextInput id="signup-confirm" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={confirm} onChange={(event) => setConfirm(event.target.value)} /></Field>
+        <Field label="Confirm password" htmlFor="signup-confirm"><TextInput id="signup-confirm" name="password-confirmation" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={confirm} onChange={(event) => setConfirm(event.target.value)} /></Field>
         <div className="rounded-lg border border-line bg-surface-2/55 p-3 text-[11.5px]">
           <p aria-label={`${MIN_PASSWORD} or more characters: ${longEnough ? 'met' : 'not yet met'}`} className={longEnough ? 'flex items-center gap-1.5 font-semibold text-success' : 'flex items-center gap-1.5 font-semibold text-ink-2'}>
             <Icon icon={longEnough ? Check : Circle} size={12} />{MIN_PASSWORD} or more characters

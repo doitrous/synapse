@@ -1,0 +1,156 @@
+[
+  {
+    "subjectPath": "102 INT > Biochemistry > Amino Acids of Biological Importance",
+    "bookTitle": "I- AMINO ACIDS OF BIOLOGICAL IMPORTANCE",
+    "physicalStart": 5,
+    "physicalEnd": 10,
+    "printedStart": 1,
+    "printedEnd": 6,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"I. Amino Acids of Biological Importance … 1\" | chapter title page on physical p5 | running head \"Amino Acids of Biological Importance\" on physical p5-p10"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Proteins of Biological Importance",
+    "bookTitle": "II- PROTEINS OF BIOLOGICAL IMPORTANCE",
+    "physicalStart": 11,
+    "physicalEnd": 16,
+    "printedStart": 7,
+    "printedEnd": 12,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"II. Proteins of Biological Importance … 7\" | chapter title page on physical p11 | running head \"Proteins of Biological Importance\" on physical p11-p16"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+    "bookTitle": "III- CARBOHYDRATES OF BIOLOGICAL IMPORTANCE",
+    "physicalStart": 17,
+    "physicalEnd": 27,
+    "printedStart": 13,
+    "printedEnd": 23,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"III. Carbohydrates of Biological Importance … 13\" | chapter title page on physical p17 | running head \"Carbohydrates of Biological Importance\" on physical p17-p27"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Lipids of Biological Importance",
+    "bookTitle": "IV- LIPIDS OF BIOLOGICAL IMPORTANCE",
+    "physicalStart": 28,
+    "physicalEnd": 39,
+    "printedStart": 24,
+    "printedEnd": 35,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"IV. Lipids of Biological Importance … 24\" | chapter title page on physical p28 | running head \"Lipids of Biological Importance\" on physical p28-p39"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+    "bookTitle": "V- CHEMISTRY OF HEMOPROTEINS",
+    "physicalStart": 40,
+    "physicalEnd": 47,
+    "printedStart": 36,
+    "printedEnd": 43,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"V. Chemistry of Hemoproteins … 36\" | chapter title page on physical p40 | running head \"Chemistry of Hemoproteins\" on physical p40-p47"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Proteins of Extracellular Matrix",
+    "bookTitle": "VI- PROTEINS OF EXTRACELLULAR MATRIX",
+    "physicalStart": 48,
+    "physicalEnd": 53,
+    "printedStart": 44,
+    "printedEnd": 49,
+    "cancelledForExam": true,
+    "cancelledNote": "BIO ORIENTATION 102 (2025/2026), under \"A-Cancelled Items for Final Exam -Module 102/2026\": \"Proteins Of Extracellular Matrix From page 44 to page 49\". Printed 44-49 is exactly this chapter, so the whole chapter is cancelled.",
+    "evidence": "Contents on physical p3, row \"VI. Proteins of Extracellular Matrix … 44\" | chapter title page on physical p48 | running head \"Proteins of Extracellular Matrix\" on physical p48-p53"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Enzymes",
+    "bookTitle": "VII- ENZYMES",
+    "physicalStart": 54,
+    "physicalEnd": 65,
+    "printedStart": 50,
+    "printedEnd": 61,
+    "cancelledForExam": false,
+    "cancelledNote": "Partly cancelled, not wholly. BIO ORIENTATION 102 (2025/2026) lists \"International Classification of Enzymes | Page 61\". Printed 61 is physical p65, the last page of this chapter, and it carries the table headed \"International Classification of Enzymes\". Only that one table is cancelled; the remaining printed 50-60 of the chapter is examinable, so the chapter flag stays false.",
+    "evidence": "Contents on physical p3, row \"VII. Enzymes … 50\" | chapter title page on physical p54 | running head \"Enzymes\" on physical p54-p65"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Chemistry of Free Nucleotides",
+    "bookTitle": "VIII- CHEMISTRY OF NUCLEOTIDES",
+    "physicalStart": 66,
+    "physicalEnd": 72,
+    "printedStart": 62,
+    "printedEnd": 68,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"VIII. Chemistry of Free Nucleotides … 62\" | chapter title page on physical p66 reads \"VIII- CHEMISTRY OF NUCLEOTIDES\" (no \"Free\") | running head \"Chemistry of Nucleotides\" on physical p66-p72"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Chemistry of Nucleic Acids",
+    "bookTitle": "IX- NUCLEIC ACIDS",
+    "physicalStart": 73,
+    "physicalEnd": 80,
+    "printedStart": 69,
+    "printedEnd": 76,
+    "cancelledForExam": false,
+    "cancelledNote": "Partly cancelled, not wholly. BIO ORIENTATION 102 (2025/2026) lists \"Genetic Terminology Page 76\". Printed 76 is physical p80, the last page of this chapter, and it carries the heading \"Genetic Terminology\". Only that section is cancelled; the remaining printed 69-75 of the chapter is examinable, so the chapter flag stays false.",
+    "evidence": "Contents on physical p3, row \"IX. Chemistry of Nucleic Acids … 69\" | chapter title page on physical p73 reads \"IX- NUCLEIC ACIDS\" | running head \"Chemistry of Nucleic Acids\" on physical p73-p80"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > DNA Synthesis (Replication) and Repair",
+    "bookTitle": "X- EUKARYOTIC DNA SYNTHESIS (REPLICATION)",
+    "physicalStart": 81,
+    "physicalEnd": 85,
+    "printedStart": 77,
+    "printedEnd": 81,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"X. DNA Synthesis (Replication) and Repair … 77\" | chapter title page on physical p81 reads \"X- EUKARYOTIC DNA SYNTHESIS (REPLICATION)\" | running head \"DNA Synthesis (Replication) & Repair\" on physical p81-p85 | the \"DNA Repair\" section heading is inside this chapter on physical p85"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > RNA Synthesis (Transcription)",
+    "bookTitle": "XI- RNA SYNTHESIS (TRANSCRIPTION)",
+    "physicalStart": 86,
+    "physicalEnd": 91,
+    "printedStart": 82,
+    "printedEnd": 87,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"XI. RNA Synthesis (Transcription) … 82\" | chapter title page on physical p86 | running head \"RNA Synthesis (Transcription)\" on physical p86-p91"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+    "bookTitle": "XII- PROTEIN SYNTHESIS (TRANSLATION)",
+    "physicalStart": 92,
+    "physicalEnd": 101,
+    "printedStart": 88,
+    "printedEnd": 97,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"XII. Protein Synthesis (Translation) … 88\" | chapter title page on physical p92 | running head \"Protein Synthesis (Translation)\" on physical p92-p101 | the \"Gene Mutations\" section heading is inside this chapter on physical p100"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Regulation of Gene Expression",
+    "bookTitle": "XIII- REGULATION OF GENE EXPRESSION",
+    "physicalStart": 102,
+    "physicalEnd": 106,
+    "printedStart": 98,
+    "printedEnd": 102,
+    "cancelledForExam": true,
+    "cancelledNote": "BIO ORIENTATION 102 (2025/2026), under \"A-Cancelled Items for Final Exam -Module 102/2026\": \"Regulation Of Gene Expression From page 98 to page 102\". Printed 98-102 is exactly this chapter, so the whole chapter is cancelled.",
+    "evidence": "Contents on physical p3, row \"XIII. Regulation of Gene Expression … 98\" | chapter title page on physical p102 | running head \"Regulation of Gene Expression\" on physical p102-p106"
+  },
+  {
+    "subjectPath": "102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes",
+    "bookTitle": "XIV- CELL CYCLE, APOPTOSIS & TUMOR SUPPRESSOR GENES",
+    "physicalStart": 107,
+    "physicalEnd": 111,
+    "printedStart": 103,
+    "printedEnd": 107,
+    "cancelledForExam": false,
+    "cancelledNote": null,
+    "evidence": "Contents on physical p3, row \"XIV. Cell Cycle, Apoptosis, and Tumor Suppressor Genes … 103\" | chapter title page on physical p107 | running head \"Cell Cycle and Apoptosis\" on physical p107-p111"
+  }
+]

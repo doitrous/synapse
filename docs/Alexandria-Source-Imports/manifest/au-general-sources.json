@@ -1,0 +1,61 @@
+{
+ "schemaVersion": "au-source-manifest/1.0.0",
+ "generatedOn": "2026-08-22",
+ "universityId": "au",
+ "yearId": null,
+ "corpusRoot": "/Users/doitrous/Desktop/Alexandria University",
+ "corpusSubfolder": "General Resources",
+ "note": "One row per distinct sha256, not per path. corpusRelativePath is a representative path (the copy without the '[from Alexandria University Updated]' marker when one exists); sourceRelativePaths carries every path that hash appears under. The corpus tree was never moved, renamed or deleted to build this manifest. See README.md 'Deduplication reality' for nameTwinOf/twinPreferred.",
+ "moduleSubjectDeclarations": [],
+ "moduleSubjectDeclarationsNote": "This corpus carries no 'NOTE ... NOTE' folder convention (checked: zero matches) — Alexandria's module/subject/department folders are already explicit, so there is nothing to declare here.",
+ "count": 1,
+ "sources": [
+  {
+   "sourceId": "src_5b6d01e4a0f0a59fe194",
+   "sha256": "5b6d01e4a0f0a59fe194b42202e278e8960a106b045d4a2933440c92511408cd",
+   "corpusRelativePath": "General Resources/University Regulations/اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf",
+   "sourceRelativePaths": [
+    "General Resources/University Regulations/اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf"
+   ],
+   "duplicatePathCount": 1,
+   "nameTwinOf": null,
+   "twinPreferred": null,
+   "fileName": "اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf",
+   "universityId": "au",
+   "yearId": null,
+   "generalResources": true,
+   "containerKind": "general-resources",
+   "moduleFolder": null,
+   "moduleId": null,
+   "moduleName": null,
+   "rawModuleShorthand": null,
+   "departmentFolder": "Unknown",
+   "departmentFolderRaw": null,
+   "category": "Administrative",
+   "categoryEvidence": [
+    "university regulation document"
+   ],
+   "moduleMismatch": false,
+   "moduleMismatchEvidence": null,
+   "moduleNamedInText": null,
+   "fileType": "pdf",
+   "claimedExtension": ".pdf",
+   "extensionNote": null,
+   "size": 781236,
+   "pageCount": 20,
+   "textLayer": "native",
+   "probeStatus": "native-text-extracted",
+   "examSignals": {
+    "cohortSignal": null,
+    "streamSignal": null,
+    "streamSignalToken": null,
+    "sittingYear": null,
+    "sittingYearEvidence": null
+   },
+   "exclusionReason": null,
+   "absolutePath": "/Users/doitrous/Desktop/Alexandria University/General Resources/University Regulations/اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf",
+   "contentTwinOf": null,
+   "contentTwinPreferred": null
+  }
+ ]
+}

@@ -115,7 +115,6 @@ function BlockDiagnostics({ diagnostics, tolerance }: { diagnostics: StoredDiagn
       <div className="flex flex-wrap gap-2">
         <Badge tone="outline">{percent(diagnostics.unseenShare)} new to you</Badge>
         <Badge tone="outline">{percent(diagnostics.demandingShare)} demanding</Badge>
-        <Badge tone="outline">Seed <span className="tnum font-mono">{diagnostics.seed}</span></Badge>
         <Badge tone="outline">Config v{diagnostics.configVersion}</Badge>
       </div>
 

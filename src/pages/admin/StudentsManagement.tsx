@@ -10,7 +10,6 @@ import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { adminStudents, type AdminStudent, type StudentStatus } from '@/data/students'
-import { AccountAccessPanel } from '@/components/admin/AccountAccessPanel'
 
 function statusTone(s: StudentStatus): 'success' | 'primary' | 'warning' | 'danger' {
   return s === 'Active' ? 'success' : s === 'Trial' ? 'primary' : s === 'Lapsed' ? 'warning' : 'danger'
@@ -44,14 +43,17 @@ export function StudentsManagement() {
 
   return (
     <PageContainer>
+      {/* The account-promotion panel that used to sit here is gone. It wrote
+          roles from the Students tab, which Admins hold and which no longer
+          carries any promotion power, and it did so through an endpoint that
+          checked neither rank nor self-edit. Roles are changed in Users, where
+          the record, the reason and the audit are already on screen. */}
       <PageHeader title="Students" description="Every registered student, organised by university and year. Select a scope on the left to focus." />
-
-      <AccountAccessPanel />
 
       <div className="grid items-start gap-4 lg:grid-cols-[16rem_minmax(0,1fr)]">
         {/* ---- Left menu: Master Students → university → year ---- */}
         <Panel className="overflow-hidden">
-          <button onClick={() => setScope('all')} className={cn('flex w-full items-center gap-2 border-b border-line px-3 py-2.5 text-start', scope === 'all' ? 'bg-primary-tint' : 'hover:bg-inset')}>
+          <button type="button" onClick={() => setScope('all')} className={cn('flex min-h-11 w-full items-center gap-2 border-b border-line px-3 py-2.5 text-start sm:min-h-10', scope === 'all' ? 'bg-primary-tint' : 'hover:bg-inset')}>
             <Icon icon={Users} size={16} className={scope === 'all' ? 'text-primary' : 'text-ink-3'} />
             <span className={cn('flex-1 text-[13.5px] font-semibold', scope === 'all' ? 'text-primary-strong' : 'text-ink')}>Master Students</span>
             <span className="tnum font-mono text-[11px] text-ink-3">{adminStudents.length}</span>
@@ -62,10 +64,10 @@ export function StudentsManagement() {
               return (
                 <div key={uni.id} className="mb-0.5">
                   <div className="flex items-center">
-                    <button onClick={() => setExpanded((e) => ({ ...e, [uni.id]: !open }))} className="grid size-7 place-items-center text-ink-3 hover:text-ink" aria-label="Toggle years">
+                    <button type="button" onClick={() => setExpanded((e) => ({ ...e, [uni.id]: !open }))} className="grid size-11 shrink-0 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink sm:size-7" aria-label="Toggle years">
                       <Icon icon={ChevronRight} size={14} className={cn('chevron-turn')} open={open} />
                     </button>
-                    <button onClick={() => setScope(uni.id)} className={cn('flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start', scope === uni.id ? 'bg-primary-tint text-primary-strong' : 'hover:bg-inset')}>
+                    <button type="button" onClick={() => setScope(uni.id)} className={cn('flex min-h-11 flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start sm:min-h-8', scope === uni.id ? 'bg-primary-tint text-primary-strong' : 'hover:bg-inset')}>
                       <Icon icon={GraduationCap} size={14} className="text-ink-3" />
                       <span className="flex-1 truncate text-[13px] font-medium">{uni.short}</span>
                       <span className="tnum font-mono text-[10.5px] text-ink-3">{count(uni.id)}</span>
@@ -77,7 +79,7 @@ export function StudentsManagement() {
                         const key = `${uni.id}:${y.year}`
                         return (
                           <li key={key}>
-                            <button onClick={() => setScope(key)} className={cn('flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[12.5px]', scope === key ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}>
+                            <button type="button" onClick={() => setScope(key)} className={cn('flex min-h-11 w-full items-center gap-2 rounded-md px-2 py-1.5 text-start text-[12.5px] sm:min-h-8', scope === key ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}>
                               <Icon icon={Layers} size={12} className="text-ink-3" />
                               <span className="flex-1 truncate">{y.year}</span>
                               <span className="tnum font-mono text-[10px] text-ink-3">{count(uni.id, y.year)}</span>

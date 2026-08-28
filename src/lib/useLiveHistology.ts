@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import {
   CONTENT_LEDGER_STORAGE_KEY,
   initialManagedContent,
+  isStudentPublishable,
   type ManagedContentItem,
 } from '@/data/contentControl'
 import { managedSlideToStudentSlide, type HistologySlide } from '@/data/histology'
@@ -9,6 +10,7 @@ import { usePersistentState } from './usePersistentState'
 
 export function publishedSlidesFromCatalogue(catalogue: ManagedContentItem[]): HistologySlide[] {
   return catalogue
+    .filter(isStudentPublishable)
     .map(managedSlideToStudentSlide)
     .filter((slide): slide is HistologySlide => slide !== null)
 }

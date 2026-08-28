@@ -4,12 +4,21 @@ import type {
   ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData, ArticleMediaRecord,
   MediaRequest, MediaRequestKind, MediaRequestMedium, MediaRequestOwnerKind,
   MediaRequestPriority, MediaRequestStatus, CalloutEvidence, PublicationGate,
-  MediaAttachment, QuestionTags, PracticalConceptTags, PracticalDifficulty, PracticalCommon,
+  MediaAttachment, QuestionTags, PracticalConceptTags, PracticalDifficulty, PracticalCommon, Vitals,
 } from './contentControl.ts'
 import {
   MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
 } from './contentControl.ts'
 import { DIFFICULTIES } from './qbank.ts'
+import {
+  DEFAULT_QUESTION_FORMAT, QUESTION_FORMATS, derivationRefusal, isChoiceFormat,
+  isRunnableFormat, isWrittenFormat, parseDerivedFrom, parseQuestionFormat, parseWrittenParts,
+} from './questionFormat.ts'
+import { matchingErrors, parseMatching } from './matchingQuestion.ts'
+import { multiResponseErrors, parseCorrectAnswers } from './multiResponseQuestion.ts'
+import { labelingErrors, parseLabeling } from './labelingQuestion.ts'
+import { completionErrors, parseCompletion } from './completionQuestion.ts'
+import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import { ARTICLE_TEMPLATES, ARTICLE_TEMPLATE_IDS, canonicalTemplateId } from './articleTemplates.ts'
 import { STATEMENT_RELATIONS, type ConceptAnnotation, type StatementRelationType } from './conceptGraph.ts'
 import { optionalList } from './importSemantics.ts'
@@ -45,17 +54,29 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       ...common,
       { key: 'vignette', label: 'Question context / vignette', help: 'Clinical or academic context shown before the main question.' },
       { key: 'question', label: 'Question', required: true, help: 'The main question, kept separate from its context.' },
+      { key: 'format', label: 'Question format', help: 'single best answer (default), multiple response, true or false, matching, completion, labelling, image-based, short answer, structured written, essay, comparison table, or multipart written.' },
+      { key: 'written_parts', label: 'Written parts', help: 'The marked subparts of a written question. One "### (a) 5 marks" heading per part, then the prompt, then "Expects:" lines for the mark scheme and an optional "Concept:" line.' },
+      { key: 'matching_options', label: 'Matching options', help: 'The option bank of a matching question, one per line as "A | text".' },
+      { key: 'matching_prompts', label: 'Matching prompts', help: 'The prompts of a matching question, one per line as "prompt = A". An option may answer several prompts, and some may answer none.' },
+      { key: 'correct_answers', label: 'Correct answers', help: 'For a multiple response question: every correct option, as "A | C". Two or more.' },
+      { key: 'labeling_image', label: 'Labelling image', help: 'The image URL of a labelling question.' },
+      { key: 'labeling_alt', label: 'Labelling image alt text', help: 'What the image shows, for a student who cannot see it. Required on a labelling question.' },
+      { key: 'labeling_points', label: 'Labelling points', help: 'One per line as "1 @ 34,58 = Answer | Also accepted". Coordinates are percentages of the image.' },
+      { key: 'completion_text', label: 'Completion sentence', help: 'The sentence with its blanks written inline as [[answer|also accepted]].' },
+      { key: 'derived_from', label: 'Derived from', help: 'What this was derived from, when it was derived rather than transcribed: a question ID, or the word concept, practical, or a format name. A written question may only be derived from another written question.' },
       { key: 'correct_answer', label: 'Correct answer', required: true, help: 'A, B, C, D, E, or F.' },
       ...(['A', 'B', 'C', 'D', 'E', 'F'] as const).flatMap((letter) => [
         { key: `answer_${letter.toLowerCase()}`, label: `Answer ${letter}`, help: `Answer option ${letter}. Blank optional answers are omitted.` },
         { key: `explanation_${letter.toLowerCase()}`, label: `Explanation ${letter}`, help: `Why answer ${letter} is correct or incorrect.` },
       ]),
+      { key: 'explanation', label: 'Explanation (overall)', help: 'Optional. An overall explanation shown to the student in addition to each option’s own rationale above. When omitted, the correct option’s explanation is shown on its own, as before.' },
       { key: 'topic', label: 'Topic', help: 'Canonical topic or blueprint heading.' },
       { key: 'subtopic', label: 'Subtopic', help: 'More specific curriculum location.' },
       { key: 'difficulty', label: 'Intended difficulty', help: 'Easy, Moderate, Hard, or Challenging.' },
       { key: 'question_type', label: 'Question type', help: 'What it tests — e.g. Pathophysiology, Diagnosis, Investigation, Treatment, Mechanism.' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this question primarily tests. At least one is expected.' },
       { key: 'module', label: 'Module ID(s)', help: 'Every module this question is applicable to, separated by |, ; or new lines.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'clinical_relevance', label: 'Clinical relevance (0–1)', help: 'How clinically relevant the question is.' },
       { key: 'academic_relevance', label: 'Academic relevance (0–1)', help: 'How academically relevant the question is.' },
       { key: 'cognitive_effort_score', label: 'Cognitive effort score (0–1)', help: 'Fine-grained cognitive effort on a 0–1 scale (finer than the Low/Medium/High band below).' },
@@ -97,6 +118,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'university_notes', label: 'University-only notes', help: 'University-specific callouts, one per line as "OMS: note text". Rendered as a distinct in-article aside.' },
       { key: 'years', label: 'Year IDs', help: 'All years this article is applicable on (e.g. OMS_Y2).' },
       { key: 'module', label: 'Module ID(s)', help: 'Module(s) this article sits under.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'subtopic', label: 'Subtopic ID', help: 'Subtopic ID (SUB_*).' },
       { key: 'microtopic', label: 'Microtopic ID', help: 'Microtopic ID (MIC_*).' },
       { key: 'template_id', label: 'Article template', help: `Which article template this follows: ${ARTICLE_TEMPLATE_IDS.join(', ')}. Sets the expected section headings.` },
@@ -143,18 +165,26 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
     fields: [
       ...common,
       { key: 'type', label: 'Practical type', required: true, help: 'OSCE station, Clinical case, Skills checklist, Lab interpretation, or Imaging interpretation.' },
+      { key: 'universities', label: 'University IDs', help: 'Canonical university IDs separated by |, ; or new lines. An empty list means EVERY university.' },
+      { key: 'years', label: 'Year IDs', help: 'Years this station is used in, e.g. KAU_Y1 | KAU_Y2.' },
+      { key: 'module', label: 'Module ID(s)', help: 'Module(s) this station sits under, separated by |, ; or new lines.' },
       { key: 'duration', label: 'Duration', help: 'Expected minutes.' },
       { key: 'marks', label: 'Marks / decisions', help: 'Total marks or number of decisions.' },
       { key: 'difficulty', label: 'Difficulty', help: 'Easy, Moderate, Hard, or Challenging. Whole-item difficulty; a case or interpretation set may also set "Difficulty:" per question.' },
       { key: 'candidate_instructions', label: 'Candidate instructions', help: 'Student-facing station brief.' },
       { key: 'actor_opening', label: 'Actor opening', help: 'Opening statement for the actor.' },
       { key: 'actor_sections', label: 'Actor brief sections', help: 'One “Section: content” entry per line.' },
+      { key: 'station_image', label: 'Station media URL', help: 'A working managed-media URL the station is built around. Pair audio/video with station_media_type and station_media_mime_type. (OSCE station / Skills checklist)' },
+      { key: 'station_media_type', label: 'Station media type', help: 'image, audio, or video. Required when station_image points to audio or video. (OSCE station / Skills checklist)' },
+      { key: 'station_media_mime_type', label: 'Station media MIME type', help: 'The verified MIME type for station media, e.g. video/mp4 or audio/mpeg. (OSCE station / Skills checklist)' },
       { key: 'actor_flags', label: 'Actor flags', help: 'Behavioural flags separated by new lines. (OSCE station)' },
       { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line. (OSCE station)' },
       { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" (mark the right one "*= option") each followed by "Why: …", and "Rationale: …". (Clinical case)' },
       { key: 'debrief', label: 'Case debrief', help: 'Summary shown after a clinical case. (Clinical case)' },
+      { key: 'vitals', label: 'Vitals', help: 'Presenting observations for a clinical case, shown beside the decisions. One "Label: value" per line — HR, BP, RR, SpO2, Temp, GCS, Glucose — plus "Abnormal: HR | RR | SpO2" (the ones that read red) and an optional "Note: room air". Units are fixed by convention. Omit the field for a case with no vitals. (Clinical case)' },
       { key: 'lab_subtype', label: 'Lab / Imaging', help: 'Lab or Imaging — for interpretation sets.' },
       { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" ("*= option" is correct) each followed by "Why: …", and "Explanation: …". "Media:" takes an image URL only — the runner renders it as an image, so audio and video show a broken image. (Lab/Imaging interpretation)' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'main_concept', label: 'Main concept(s)', help: 'The concept ID(s) this item primarily teaches.' },
       { key: 'concept_ids', label: 'Concept IDs', help: 'Concepts the item also assesses, separated by |, ; or new lines.' },
       { key: 'contextual_concept_ids', label: 'Contextual concept IDs', help: 'Concepts the scenario needs but does not assess. These receive no mastery evidence.' },
@@ -176,6 +206,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'topics', label: 'Tagged topics', help: 'Topic/subtopic IDs or titles this resource covers, separated by |, ; or new lines. Solving questions on this resource pulls in these topics.' },
       { key: 'chapter', label: 'Chapters', help: 'One or more chapters this resource covers, separated by |, ; or new lines (Files live in the Files tab, Videos in the Videos tab).' },
       { key: 'module_ids', label: 'Module IDs', help: 'Module IDs this resource serves (e.g. CVS 01), separated by |, ; or new lines.' },
+      { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
       { key: 'included_concepts', label: 'Included concepts', help: 'Concept IDs this resource covers. Each concept is auto-updated to approve this resource. Add precise page/timestamp deep-links in the resource editor.' },
       { key: 'included_articles', label: 'Included library articles', help: 'Library article IDs this resource supports.' },
       { key: 'concept_locations', label: 'Concept deep-links', help: 'Pin concepts to a precise spot, one per line as "conceptId | page|line|slide|timestamp | locator", e.g. med.concept.heart-failure | page | 142.' },
@@ -559,17 +590,18 @@ export function parseRelatedArticles(value = ''): { ids: string[]; reasons: Reco
   return { ids, reasons }
 }
 
-type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media' | 'concept' | 'also' | 'difficulty'
+type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media' | 'mediaType' | 'mediaMimeType' | 'concept' | 'also' | 'difficulty'
 
 /** `why` is not a part of the block — it belongs to the option above it. */
 type BlockTarget = BlockField | 'why'
 
 const BLOCK_LABELS: Record<string, BlockTarget> = {
   q: 'question', rationale: 'rationale', explanation: 'explanation', media: 'media',
+  'media type': 'mediaType', 'media mime': 'mediaMimeType',
   why: 'why', concept: 'concept', also: 'also', difficulty: 'difficulty',
 }
 
-const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Why|Concept|Also|Difficulty)\s*:\s*(.*)$/i
+const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Media type|Media MIME|Why|Concept|Also|Difficulty)\s*:\s*(.*)$/i
 
 /**
  * Labels whose value is a single line: an ID, a band, a URL.
@@ -580,11 +612,16 @@ const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Why|Concept|Also|Di
  * swallow it produced a difficulty of "Moderate He tells you he is thirsty",
  * which matched no band and silently went untagged.
  */
-const SCALAR_BLOCK_LABELS = new Set<BlockTarget>(['concept', 'also', 'difficulty', 'media'])
+const SCALAR_BLOCK_LABELS = new Set<BlockTarget>(['concept', 'also', 'difficulty', 'media', 'mediaType', 'mediaMimeType'])
 
 /** Read an authored difficulty, on the same four-band scale the question bank uses. */
 function practicalDifficulty(value: string): PracticalDifficulty | undefined {
   return DIFFICULTIES.find((tier) => tier.toLowerCase() === value.trim().toLowerCase())
+}
+
+function practicalMediaType(value = ''): 'image' | 'audio' | 'video' | undefined {
+  const normalized = value.trim().toLowerCase()
+  return normalized === 'image' || normalized === 'audio' || normalized === 'video' ? normalized : undefined
 }
 
 /**
@@ -602,7 +639,10 @@ function practicalDifficulty(value: string): PracticalDifficulty | undefined {
  * batch validator reports it as an option missing its explanation.
  */
 function parseLabelledBlock(body = '') {
-  const parts: Record<BlockField, string[]> = { context: [], question: [], rationale: [], explanation: [], media: [], concept: [], also: [], difficulty: [] }
+  const parts: Record<BlockField, string[]> = {
+    context: [], question: [], rationale: [], explanation: [], media: [], mediaType: [], mediaMimeType: [],
+    concept: [], also: [], difficulty: [],
+  }
   const answers: PracticalAnswerDraft[] = []
   let current: BlockTarget = 'context'
   const write = (target: BlockTarget, text: string) => {
@@ -637,6 +677,8 @@ function parseLabelledBlock(body = '') {
     rationale: parts.rationale.join(' ').trim(),
     explanation: parts.explanation.join(' ').trim(),
     mediaUrl: parts.media.join('').trim(),
+    mediaType: practicalMediaType(parts.mediaType.join(' ')),
+    mediaMimeType: parts.mediaMimeType.join(' ').trim() || undefined,
     conceptId: parts.concept.join(' ').trim(),
     secondaryConceptIds: splitImportList(parts.also.join('\n')),
     difficulty: practicalDifficulty(parts.difficulty.join(' ')),
@@ -654,11 +696,57 @@ function blockTags(block: ReturnType<typeof parseLabelledBlock>) {
 }
 
 /** Parse "### title / Q: / * options / Rationale:" blocks into case decisions. */
+type VitalKey = 'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'
+const VITAL_KEYS: VitalKey[] = ['hr', 'bp', 'rr', 'spo2', 'temp', 'gcs', 'glucose']
+function normaliseVitalKey(label: string): VitalKey | undefined {
+  const k = label.trim().toLowerCase().replace(/\s+/g, '')
+  return VITAL_KEYS.find((key) => key === k)
+}
+
+/**
+ * Presenting observations for a clinical case, one `Label: value` per line —
+ * HR/BP/RR/SpO2/Temp/GCS/Glucose, plus `Abnormal:` (|/;/, separated keys that
+ * read red) and an optional `Note:`. Numbers are parsed as numbers, BP stays a
+ * string, unknown labels are ignored. Returns undefined when nothing parses, so
+ * a case with no vitals block carries no vitals.
+ */
+export function parseVitals(value = ''): Vitals | undefined {
+  const vitals: Vitals = {}
+  const abnormal: VitalKey[] = []
+  for (const raw of value.split('\n')) {
+    const line = raw.trim()
+    const idx = line.indexOf(':')
+    if (idx < 1) continue
+    const label = line.slice(0, idx).trim().toLowerCase().replace(/\s+/g, '')
+    const body = line.slice(idx + 1).trim()
+    if (!body) continue
+    if (label === 'note') { vitals.note = body; continue }
+    if (label === 'abnormal') {
+      for (const part of body.split(/[|;,]/)) {
+        const key = normaliseVitalKey(part)
+        if (key && !abnormal.includes(key)) abnormal.push(key)
+      }
+      continue
+    }
+    const key = normaliseVitalKey(label)
+    if (!key) continue
+    if (key === 'bp') { vitals.bp = body; continue }
+    const num = Number(body)
+    if (Number.isFinite(num)) vitals[key] = num
+  }
+  if (abnormal.length) vitals.abnormal = abnormal
+  return Object.keys(vitals).length ? vitals : undefined
+}
+
 export function parseDecisions(value = ''): ClinicalDecisionDraft[] {
   return parseSections(value)
     .map((section, index) => {
       const block = parseLabelledBlock(section.body)
-      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, answers: block.answers, rationale: block.rationale, ...blockTags(block) }
+      return {
+        id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question,
+        mediaUrl: block.mediaUrl, mediaType: block.mediaType, mediaMimeType: block.mediaMimeType,
+        answers: block.answers, rationale: block.rationale, ...blockTags(block),
+      }
     })
     .filter((decision) => decision.question && decision.answers.length)
 }
@@ -670,7 +758,11 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
       const block = parseLabelledBlock(section.body)
       // The heading is the stem; any prose before `Q:` extends it.
       const context = [section.heading, block.context].filter(Boolean).join('\n')
-      return { id: `lab-imp-${index}`, context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, explanation: block.explanation, ...blockTags(block) }
+      return {
+        id: `lab-imp-${index}`, context, question: block.question, mediaUrl: block.mediaUrl,
+        mediaType: block.mediaType, mediaMimeType: block.mediaMimeType,
+        answers: block.answers, explanation: block.explanation, ...blockTags(block),
+      }
     })
     .filter((question) => question.question && question.answers.length)
 }
@@ -682,6 +774,20 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
  * `PracticalRunner` reads `practicalData`, not the flat `fields` strings, so an
  * imported practical is only usable once this returns the right shape.
  */
+/**
+ * `module_subject`, absent when the column is.
+ *
+ * `parseModuleSubjectPaths('')` returns `[]`, and `[]` is a value: the merge
+ * writes it, so a sparse update row that never mentioned `module_subject`
+ * collapsed the live record's curriculum placement to nothing. Four kinds
+ * computed it unconditionally — question, article, resource and practical —
+ * while `conceptImport.ts` had the guard. Same rule as every other optional
+ * column: the column absent means untouched, not emptied.
+ */
+function moduleSubjectPathsOf(value: string | undefined) {
+  return value === undefined ? undefined : parseModuleSubjectPaths(value)
+}
+
 export function practicalDataFrom(values: Record<string, string>, ownerId = ''): PracticalAuthoringData {
   const type = values.type?.trim()
   const learningObjective = values.learning_objective?.trim()
@@ -694,6 +800,19 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   const shared = {
     references: values.references?.trim() ? importLines(values.references) : undefined,
     conceptTags: practicalConceptTags(values),
+    moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
+    // Curriculum scope, which this never read.
+    //
+    // `PracticalCommon` has carried `universityIds`, `yearIds` and `moduleIds`
+    // since stations needed to be assignable to a reviewer, and `itemScope`
+    // reads them — but no column fed them, so every imported practical arrived
+    // with all three empty. Empty means unrestricted, so roughly 190 Kasr
+    // stations were visible to every university's students. `optionalList`
+    // rather than a plain split, so `undefined` still means "column absent,
+    // leave what the practical had" and `+` still appends.
+    universityIds: optionalList(values.universities),
+    yearIds: optionalList(values.years),
+    moduleIds: optionalList(values.module),
     mediaRequests: media?.trim() ? parseMediaRequests(media, ownerId, 'practical') : undefined,
     ...(learningObjective ? { learningObjective } : {}),
   } as unknown as PracticalCommon
@@ -707,6 +826,7 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
       format: 'case',
       decisions: only('decisions', parseDecisions) as ClinicalDecisionDraft[],
       debrief: trimmed(values.debrief) as string,
+      vitals: only('vitals', parseVitals),
     }
   }
   if (type === 'Lab interpretation' || type === 'Imaging interpretation') {
@@ -716,6 +836,9 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   // OSCE station and Skills checklist share the mark-scheme shape; a checklist
   // simply has no actor brief.
   const difficulty = practicalDifficulty(values.difficulty ?? '')
+  const mediaUrl = trimmed(values.station_image)
+  const mediaType = practicalMediaType(values.station_media_type) ?? (mediaUrl ? 'image' : undefined)
+  const mediaMimeType = trimmed(values.station_media_mime_type)
   return {
     ...shared,
     format: 'osce',
@@ -724,6 +847,9 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
     actorSections: only('actor_sections', parseActorSections) as ActorBriefSectionDraft[],
     actorFlags: only('actor_flags', importLines) as string[],
     markSections: only('mark_scheme', parseMarkSections) as PracticalMarkSectionDraft[],
+    ...(mediaUrl ? { mediaUrl } : {}),
+    ...(mediaType ? { mediaType } : {}),
+    ...(mediaMimeType ? { mediaMimeType } : {}),
     ...(difficulty ? { difficulty } : {}),
   }
 }
@@ -759,11 +885,106 @@ const clamp01 = (value?: string) => {
 }
 
 export function validateImportRow(kind: ContentKind, values: Record<string, string>) {
-  const errors = IMPORT_SCHEMAS[kind].fields.filter((field) => field.required && !values[field.key]?.trim()).map((field) => `${field.label} is required`)
+  // A written question has no lettered correct answer, so `correct_answer`
+  // cannot be unconditionally required without making written questions
+  // unimportable — which is the state that forced source questions to be
+  // rewritten as MCQs or dropped.
+  const declaredFormat = kind === 'question' ? parseQuestionFormat(values.format) : null
+  const format = declaredFormat ?? DEFAULT_QUESTION_FORMAT
+  /**
+   * Only three formats answer with a single lettered choice.
+   *
+   * Written as what *needs* the column rather than as a list of what is excused
+   * from it. The excusing list had grown to `written || mcq_multi || labeling ||
+   * completion` and had already gone stale: `matching` was missing, so a
+   * matching batch was refused with "Correct answer is required" for a column
+   * matching questions do not have — the same class of failure that once made
+   * every written question unimportable. Stated positively it cannot go stale,
+   * because a thirteenth format is not a lettered choice until somebody says so.
+   */
+  const needsLetteredAnswer = kind === 'question' && isChoiceFormat(format) && format !== 'mcq_multi'
+  const written = kind === 'question' && isWrittenFormat(format)
+
+  const errors = IMPORT_SCHEMAS[kind].fields
+    .filter((field) => field.required && !values[field.key]?.trim())
+    .filter((field) => !(field.key === 'correct_answer' && !needsLetteredAnswer))
+    .map((field) => `${field.label} is required`)
+
   if (kind === 'question') {
-    const answer = values.correct_answer?.trim().toUpperCase()
-    if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
-    if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+    if (values.format?.trim() && !declaredFormat) {
+      errors.push(`Question format "${values.format.trim()}" is not one of ${QUESTION_FORMATS.join(', ')}`)
+    }
+
+    if (isChoiceFormat(format) && format !== 'mcq_multi') {
+      const answer = values.correct_answer?.trim().toUpperCase()
+      if (answer && !/^[A-F]$/.test(answer)) errors.push('Correct answer must be A–F')
+      if (answer && !values[`answer_${answer.toLowerCase()}`]?.trim()) errors.push(`Answer ${answer} is marked correct but has no text`)
+    }
+
+    // A format with nowhere to run is refused rather than imported to sit
+    // invisible or, worse, render as something it is not.
+    if (!isRunnableFormat(format)) {
+      errors.push(`Nothing can show a ${format} question to a student yet, so importing one would either hide it or mark it wrongly. Capture the source question and wait for the runner.`)
+    }
+
+    if (format === 'mcq_multi') {
+      const labels: AnswerLabel[] = ['A', 'B', 'C', 'D', 'E', 'F']
+      errors.push(...multiResponseErrors(
+        parseCorrectAnswers(values.correct_answers),
+        labels.map((label) => ({ label, text: values[`answer_${label.toLowerCase()}`] ?? '' })),
+      ))
+    } else if (values.correct_answers?.trim()) {
+      errors.push(`Several correct answers were given, but the format is ${format} — only a multiple response question has more than one`)
+    }
+
+    if (format === 'completion') {
+      errors.push(...completionErrors(parseCompletion(values.completion_text), values.completion_text))
+    } else if (values.completion_text?.trim()) {
+      errors.push(`A completion sentence was given, but the format is ${format} — only a completion question carries one`)
+    }
+
+    if (format === 'labeling') {
+      errors.push(...labelingErrors(
+        parseLabeling(values.labeling_image, values.labeling_alt, values.labeling_points),
+        values.labeling_points,
+      ))
+    } else if (values.labeling_image?.trim() || values.labeling_points?.trim()) {
+      errors.push(`A labelling image or points were given, but the format is ${format} — only a labelling question carries them`)
+    }
+
+    if (format === 'matching') {
+      errors.push(...matchingErrors(
+        parseMatching(values.matching_options, values.matching_prompts),
+        values.matching_options, values.matching_prompts,
+      ))
+    } else if (values.matching_options?.trim() || values.matching_prompts?.trim()) {
+      errors.push(`A matching block was given, but the format is ${format} — only a matching question carries one`)
+    }
+
+    if (written) {
+      const parts = parseWrittenParts(values.written_parts)
+      if (!parts.length) {
+        errors.push('A written question needs its parts — one "### (a) 5 marks" heading per marked subpart')
+      }
+      parts.forEach((part) => {
+        if (!part.prompt.trim()) errors.push(`Written part (${part.label}) has a heading but no question under it`)
+        const known = new Set(parts.map((other) => other.id))
+        if (part.dependsOnPartId && !known.has(part.dependsOnPartId)) {
+          errors.push(`Written part (${part.label}) depends on a part this question does not have`)
+        }
+      })
+    } else if (values.written_parts?.trim()) {
+      errors.push(`Written parts were given, but the format is ${format} — only a written format carries them`)
+    }
+
+    // The two absolute derivation restrictions. See `questionFormat.ts`.
+    const derivedFrom = parseDerivedFrom(values.derived_from)
+    if (derivedFrom.format) {
+      const refusal = derivationRefusal(derivedFrom.format, format)
+      if (refusal) errors.push(refusal)
+    } else if (written && values.derived_from?.trim()) {
+      errors.push('A written question must say what kind of thing it was derived from, and it may only be a written question')
+    }
   }
   if (kind === 'article') {
     const templateId = values.template_id?.trim()
@@ -967,6 +1188,15 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
     // every concept, year and university the question was scoped to.
     const enumValue = <T extends string>(value: string | undefined, allowed: readonly string[], fallback: T) =>
       value?.trim() ? (allowed.includes(value.trim()) ? value.trim() as T : fallback) : undefined
+    // Absent means single best answer, so everything authored before formats
+    // existed keeps its meaning without being migrated.
+    const format = parseQuestionFormat(values.format) ?? DEFAULT_QUESTION_FORMAT
+    const writtenParts = parseWrittenParts(values.written_parts)
+    const matching = parseMatching(values.matching_options, values.matching_prompts)
+    const correctAnswers = parseCorrectAnswers(values.correct_answers)
+    const labeling = parseLabeling(values.labeling_image, values.labeling_alt, values.labeling_points)
+    const completion = parseCompletion(values.completion_text)
+    const derivedFrom = parseDerivedFrom(values.derived_from)
     const difficulty = enumValue<QuestionTags['intendedDifficulty']>(values.difficulty, ['Easy', 'Moderate', 'Hard', 'Challenging'], 'Moderate')
     // `answers` and `correctAnswer` stay eager: `question` and `correct_answer`
     // are required columns and the validator rejects a correct answer with no
@@ -976,13 +1206,24 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       title: values.question?.trim() || base.title,
       fields: {
         Topic: values.topic ?? '', Vignette: values.vignette ?? '',
-        Explanation: answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation ?? '',
+        // An authored overall explanation wins when present and non-blank; a
+        // silent or blank column keeps the long-standing derived behaviour —
+        // a copy of the correct option's own rationale — unchanged.
+        Explanation: (text('explanation') || answers.find((answer) => answer.label === values.correct_answer?.toUpperCase())?.explanation) ?? '',
         ...(difficulty ? { Difficulty: difficulty } : {}),
       },
       questionData: {
         attachments: (values.attachments?.trim() ? parseAttachments(values.attachments) : undefined) as MediaAttachment[],
         correctAnswer: (/^[A-F]$/.test(values.correct_answer?.toUpperCase()) ? values.correct_answer.toUpperCase() : 'A') as AnswerLabel,
         answers,
+        format,
+        writtenParts: writtenParts.length ? writtenParts : undefined,
+        matching: format === 'matching' ? matching : undefined,
+        multiResponse: format === 'mcq_multi' ? { correctAnswers } : undefined,
+        labeling: format === 'labeling' ? labeling : undefined,
+        completion: format === 'completion' ? completion : undefined,
+        derivedFromFormat: derivedFrom.format,
+        derivedFromId: derivedFrom.id,
         attachedImage: text('attached_image') as string,
         libraryIds: optionalList(values.library_ids) as string[],
         resourceIds: optionalList(values.resource_ids) as string[],
@@ -1003,6 +1244,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
           questionType: text('question_type'),
           mainConceptIds: optionalList(values.main_concept),
           moduleIds: optionalList(values.module),
+          moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
           clinicalRelevance: clamp01(values.clinical_relevance),
           academicRelevance: clamp01(values.academic_relevance),
           cognitiveEffortScore: clamp01(values.cognitive_effort_score),
@@ -1077,6 +1319,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         universityIds: optionalList(values.universities),
         yearIds: optionalList(values.years),
         moduleIds: optionalList(values.module),
+        moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
         subtopicId: text('subtopic'), microtopicId: text('microtopic'), nanotopicId: text('nanotopic'),
         relatedConceptIds: optionalList(values.related_concepts),
         relatedArticleIds: related.ids.length ? related.ids : undefined,
@@ -1117,7 +1360,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         ...(text('duration') ? { Duration: values.duration.trim() } : {}),
         ...(text('marks') ? { Marks: values.marks.trim() } : {}),
         ...(text('difficulty') ? { Difficulty: values.difficulty.trim() } : {}),
-        'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
+        'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', Vitals: values.vitals || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
       },
       practicalData: practicalDataFrom(values),
     }
@@ -1171,6 +1414,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       institution: values.source?.trim() || undefined,
       chapters: splitImportList(values.chapter),
       moduleIds: splitImportList(values.module_ids),
+      moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
       includedConceptIds: splitImportList(values.included_concepts),
       includedArticleIds: splitImportList(values.included_articles),
       conceptLocations: (values.concept_locations ?? '').split(/\r?\n/).map((line, i) => {

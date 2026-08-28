@@ -1,9 +1,8 @@
 import { useMemo, useState } from 'react'
 import { BookA, Check, Plus, Trash2, Upload, X } from 'lucide-react'
-import { Link } from 'react-router-dom'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
 import { Badge } from '@/components/ui/Badge'
 import { EmptyState } from '@/components/ui/EmptyState'
@@ -89,7 +88,7 @@ export function GlossarySetup() {
             {glossary.terms.length === 0 && (
               <Button variant="secondary" size="md" onClick={() => setConfirmLoad(true)}>Load starter glossary</Button>
             )}
-            <Link to="/admin/glossary/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link>
+            <ButtonLink to="/admin/glossary/import" variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink>
             <Button variant="primary" size="md" iconLeft={Plus} onClick={addTerm}>Add term</Button>
           </>
         }

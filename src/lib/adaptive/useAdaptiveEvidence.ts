@@ -22,7 +22,7 @@ import {
 } from '@/data/adaptive/evidenceLedger'
 import { ADAPTIVE_BOOSTS_STORAGE_KEY, recordError, recordRepair, type BoostLedger } from '@/data/adaptive/boosts'
 import { misconceptionId } from '@/data/adaptive/misconceptions'
-import { conceptRole, type AdaptiveItem } from '@/data/adaptive/item'
+import { conceptRole, correctOptionIndex, type AdaptiveItem } from '@/data/adaptive/item'
 import type { AdaptiveConfig } from '@/data/adaptive/config'
 
 /** Months of evidence the hooks load. Fixed, because it decides the hook count. */
@@ -127,6 +127,10 @@ export function useRecordAdaptiveAnswer(config: AdaptiveConfig) {
       conceptIds: item.conceptIds,
       correct: answer.correct,
       seconds: answer.seconds,
+      ...(answer.chosenIndex !== null ? {
+        selectedIndex: answer.chosenIndex,
+        correctIndex: correctOptionIndex(item),
+      } : {}),
       sessionId: answer.blockId,
     })
 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8fb"/><stop offset="1" stop-color="#f3dce8"/></linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".7" numOctaves="2" seed="5" result="n"/><feBlend in="SourceGraphic" in2="n" mode="soft-light"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#paper)"/>
+  <g transform="rotate(-8 800 500)" filter="url(#grain)">
+    <g stroke-linecap="round" fill="none">
+      <path d="M-120 180 C270 80 480 210 800 140 S1320 80 1740 220" stroke="#d77794" stroke-width="118"/>
+      <path d="M-130 430 C230 300 520 455 820 360 S1340 300 1740 420" stroke="#df8ca4" stroke-width="112"/>
+      <path d="M-130 700 C250 560 520 715 850 620 S1340 570 1740 700" stroke="#d97f9a" stroke-width="122"/>
+      <path d="M-100 930 C270 820 560 945 850 870 S1320 820 1730 910" stroke="#e39aaf" stroke-width="114"/>
+    </g>
+    <g stroke="#f5c3d1" stroke-width="10" opacity=".9">
+      <path d="M80 95v165m95-185v165m95-150v165m95-150v165m95-145v165m95-155v165m95-150v165m95-155v165m95-145v165m95-145v165m95-150v165m95-145v165"/>
+      <path d="M40 350v165m110-185v165m110-150v165m110-150v165m110-145v165m110-155v165m110-150v165m110-155v165m110-145v165m110-145v165m110-150v165m110-145v165"/>
+      <path d="M20 620v165m105-185v165m105-150v165m105-150v165m105-145v165m105-155v165m105-150v165m105-155v165m105-145v165m105-145v165m105-150v165m105-145v165"/>
+    </g>
+    <g fill="#6e3d6d">
+      <ellipse cx="330" cy="155" rx="37" ry="18"/><ellipse cx="980" cy="128" rx="38" ry="18"/><ellipse cx="610" cy="402" rx="39" ry="18"/><ellipse cx="1320" cy="375" rx="37" ry="18"/><ellipse cx="330" cy="680" rx="40" ry="19"/><ellipse cx="1040" cy="642" rx="39" ry="18"/><ellipse cx="750" cy="895" rx="38" ry="18"/>
+    </g>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#6f4568"><text x="42" y="70" font-size="28" font-weight="700">DEMO · ILLUSTRATIVE H&amp;E FIELD · 40×</text><text x="42" y="105" font-size="19">Interface preview only — not for diagnosis or assessment.</text></g>
+</svg>

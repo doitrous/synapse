@@ -1,8 +1,7 @@
 import { Fragment, useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { CalendarPlus, Check, Clock3, MapPin, University, UserRound } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 import { Meter } from '@/components/ui/Meter'
 import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
@@ -181,7 +180,7 @@ export function TodaysAgenda() {
             description={hasYear
               ? t('Your year has no sessions today. Blocks you plan yourself appear here alongside them.')
               : t('University sessions appear here once your year has a published timetable. Blocks you plan yourself appear here either way.')}
-            action={<Link to="/app/calendar"><Button variant="secondary" size="sm" iconLeft={CalendarPlus}>{t('Plan a study block')}</Button></Link>}
+            action={<ButtonLink to="/app/calendar" variant="secondary" size="sm" iconLeft={CalendarPlus}>{t('Plan a study block')}</ButtonLink>}
           />
         </div>
       </Panel>

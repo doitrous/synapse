@@ -1,94 +1,81 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Check, ShieldCheck } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
-import { cn } from '@/lib/cn'
+import { findPlan, type Lang } from '@/data/planCatalog'
 import { formatNumber } from '@/lib/pricing'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
-import { monthlyEquivalent, plansFor, say, type Lang } from '@/data/planCatalog'
 import { pricingFor } from './pricingContent'
 import type { LandingContent } from './content'
 
-/**
- * Pricing, in the space a landing page can afford to give it.
- *
- * The full table lives at `/pricing`, where it can hold the comparison and
- * twelve answered objections. What the landing page still owes a reader is the
- * number — a marketing page that makes you click to find out whether it costs
- * 90 or 900 loses the people who would have been fine with the answer. So this
- * is the cheapest true price per tier and a link, not a second pricing table.
- *
- * Prices come from the catalogue the admin console edits, like every other
- * price on the site, so this cannot advertise a number Billing no longer
- * charges.
- */
+/** A compact statement of the complete offer; the full objections live on pricing. */
 export function PricingTeaser({ c }: { c: LandingContent }) {
   const [catalog] = usePlanCatalog()
-  const lang = c.lang as Lang
   const p = pricingFor(c.lang)
-  const plans = c.plans
+  const lang = c.lang as Lang
 
-  const tiers = useMemo(() => plansFor(catalog, 'primary'), [catalog])
+  const amounts = useMemo(() => {
+    const plan = findPlan(catalog, 'maristana')
+    return {
+      month: plan?.prices.month ?? 400,
+      term: plan?.prices.term ?? 1000,
+    }
+  }, [catalog])
+
+  const savings = Math.max(0, (amounts.month * 3) - amounts.term)
+  const equivalent = Math.round(amounts.term / 3)
+  const currency = p.offer.currency
 
   return (
-    <section className="mt-24">
-      <div className="flex flex-wrap items-end justify-between gap-4 border-b-2 border-ink/85 pb-3">
-        <h2 className="font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{p.teaser.title}</h2>
-        <p className="max-w-sm text-[13.5px] leading-snug text-ink-3">{p.teaser.sub}</p>
-      </div>
+    <section id="pricing" className="mt-24 scroll-mt-24 border-y border-line py-10 sm:py-12">
+      <div className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+        <div>
+          <p className="text-[11px] font-bold uppercase tracking-[0.08em] text-primary-strong">{p.teaser.eyebrow}</p>
+          <h2 className="mt-2 max-w-xl text-balance font-serif text-[29px] font-semibold leading-[1.08] tracking-[-0.02em] text-ink sm:text-[38px]">
+            {p.teaser.title}
+          </h2>
+          <p className="mt-4 max-w-xl text-[14.5px] leading-relaxed text-ink-2">{p.teaser.sub}</p>
 
-      <div className="mt-6 grid gap-4 sm:grid-cols-3">
-        {tiers.map((plan) => {
-          // The lowest monthly-equivalent this plan is sold at — its honest
-          // "from". A quoted plan has no list price to reduce.
-          const from = plan.quoted ? null : monthlyEquivalent(plan, catalog.periods)
-          return (
+          <div className="mt-7 flex flex-wrap gap-3">
             <Link
-              key={plan.id}
-              to={p.path}
-              className={cn(
-                'group flex flex-col rounded-xl border bg-surface p-4 shadow-panel transition-colors hover:bg-surface-2',
-                plan.featured ? 'border-primary ring-1 ring-primary/25' : 'border-line',
-              )}
+              to="/signup?plan=maristana&period=term"
+              className="group inline-flex min-h-11 items-center gap-2 rounded-xl bg-primary px-5 py-3 text-[14px] font-semibold text-on-primary shadow-panel transition-colors hover:bg-primary-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
             >
-              <div className="flex items-center gap-2">
-                <p className="text-[14px] font-semibold text-ink">{say(plan.name, lang)}</p>
-                {plan.comingSoon && (
-                  <span className="rounded-full border border-warning/30 bg-warning-tint px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.05em] text-warning">
-                    {plans.comingSoon}
-                  </span>
-                )}
-              </div>
-
-              <p className="mt-1.5 flex items-baseline gap-1.5">
-                {plan.quoted ? (
-                  <span className="font-serif text-[22px] font-semibold tracking-[-0.01em] text-ink">{say(plan.quoted, lang)}</span>
-                ) : from ? (
-                  <>
-                    <span className="text-[12px] text-ink-3">{p.teaser.from}</span>
-                    <span className="tnum font-serif text-[22px] font-semibold tracking-[-0.01em] text-ink">
-                      {plans.currency} {formatNumber(from, lang)}
-                    </span>
-                    <span className="text-[12px] text-ink-3">{plans.perMonth}</span>
-                  </>
-                ) : (
-                  <span className="font-serif text-[22px] font-semibold tracking-[-0.01em] text-ink">{plans.free}</span>
-                )}
-              </p>
-
-              <p className="mt-2.5 flex-1 text-[12.5px] leading-relaxed text-ink-2">{say(plan.entitlement, lang)}</p>
+              {p.teaser.cta}
+              <Icon icon={ArrowRight} size={16} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
             </Link>
-          )
-        })}
-      </div>
+            <Link
+              to={p.path}
+              className="inline-flex min-h-11 items-center rounded-xl border border-line-2 bg-surface px-5 py-3 text-[14px] font-semibold text-ink transition-colors hover:bg-surface-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+            >
+              {p.teaser.link}
+            </Link>
+          </div>
+        </div>
 
-      <Link
-        to={p.path}
-        className="group mt-5 inline-flex items-center gap-2 text-[14px] font-semibold text-primary-strong hover:underline"
-      >
-        {p.teaser.link}
-        <Icon icon={ArrowRight} size={15} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
-      </Link>
+        <div className="border-s-0 border-line lg:border-s lg:ps-10">
+          <p className="text-[12px] font-semibold text-ink-3">{p.teaser.termLabel}</p>
+          <p className="mt-2 flex flex-wrap items-baseline gap-x-2">
+            <span className="font-mono text-[12px] font-semibold text-ink-3">{currency}</span>
+            <span className="tnum font-serif text-[46px] font-semibold leading-none tracking-[-0.035em] text-ink">
+              {formatNumber(amounts.term, lang)}
+            </span>
+          </p>
+          <p className="mt-3 flex flex-wrap gap-x-2 text-[12.5px] font-semibold text-success">
+            <span>{p.offer.save} {currency} {formatNumber(savings, lang)}</span>
+            <span aria-hidden="true">·</span>
+            <span>{currency} {formatNumber(equivalent, lang)} {p.offer.equivalent}</span>
+          </p>
+          <p className="mt-5 flex gap-2.5 border-t border-line pt-5 text-[12.5px] leading-relaxed text-ink-2">
+            <Icon icon={ShieldCheck} size={16} className="mt-0.5 text-primary-strong" />
+            <span>{p.teaser.scholarship}</span>
+          </p>
+          <p className="mt-3 flex gap-2.5 text-[12.5px] text-ink-2">
+            <Icon icon={Check} size={15} className="text-success" />
+            <span>{p.offer.fullAccess}</span>
+          </p>
+        </div>
+      </div>
     </section>
   )
 }

@@ -64,7 +64,7 @@ test('no body smuggles the call to action in as a bare link', () => {
 })
 
 test('no body carries the sign-off, which now sits outside the card', () => {
-  each((automation) => assert.doesNotMatch(automation.body, /The Connect Cortex team/, automation.id))
+  each((automation) => assert.doesNotMatch(automation.body, /The Maristana team/, automation.id))
 })
 
 test('the caveat is a note, never a last body paragraph', () => {
@@ -142,7 +142,7 @@ test('every automation renders the same wrapper, down to the rose rule', () => {
     const { html } = renderAutomation(automation)
     assert.match(html, /background-color:#d13a63;border-radius:12px 12px 0 0/, automation.id)
     assert.match(html, /width="600"/, automation.id)
-    assert.match(html, /— The Connect Cortex team/, automation.id)
+    assert.match(html, /— The Maristana team/, automation.id)
     assert.doesNotMatch(html, /#949aa8/, `${automation.id} reaches for ink-3`)
     // The masthead's O is the one image a message may carry. Nothing an author
     // writes may add another: a body that needs an image is a body that goes
@@ -211,7 +211,7 @@ const legacy = {
   action: undefined,
   note: undefined,
   details: undefined,
-  body: '<p>Hello Maya,</p><p>Use the link below to choose a new password. It expires in one hour.</p><p><a href="{{actionUrl}}">Reset my password</a></p><p>If you did not ask for this, no change has been made.</p><p>— The Connect Cortex team</p>',
+  body: '<p>Hello Maya,</p><p>Use the link below to choose a new password. It expires in one hour.</p><p><a href="{{actionUrl}}">Reset my password</a></p><p>If you did not ask for this, no change has been made.</p><p>— The Maristana team</p>',
 }
 
 test('an edit saved against the old shape keeps its button instead of losing it', () => {
@@ -225,8 +225,8 @@ test('the caveat a reader needs moves under the hairline rather than vanishing',
 
 test('the sign-off is dropped, because the wrapper now supplies it outside the card', () => {
   const migrated = normaliseAutomation(legacy)
-  assert.doesNotMatch(migrated.body, /The Connect Cortex team/)
-  assert.match(renderAutomation(migrated).html, /— The Connect Cortex team/)
+  assert.doesNotMatch(migrated.body, /The Maristana team/)
+  assert.match(renderAutomation(migrated).html, /— The Maristana team/)
 })
 
 test('what the author actually wrote survives the move, in order', () => {

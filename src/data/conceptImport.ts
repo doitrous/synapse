@@ -7,6 +7,8 @@
  * under a new ID. This file is the whole contract, and it upserts.
  */
 
+import { parseExamAppearances } from './examSignal.ts'
+import { parseModuleSubjectPaths } from './moduleSubjectPath.ts'
 import type { Concept, ConceptGraph, ConceptRelation, ConceptRelationType, ConceptStatus } from './conceptGraph.ts'
 import { CONCEPT_RELATIONS } from './conceptGraph.ts'
 import { optionalList, importList, mapList } from './importSemantics.ts'
@@ -53,6 +55,8 @@ export const CONCEPT_IMPORT_FIELDS: ConceptImportField[] = [
   { key: 'clinical_relevance', label: 'Clinical relevance (0–1)', help: '' },
   { key: 'academic_relevance', label: 'Academic relevance (0–1)', help: '' },
   { key: 'weight_confidence', label: 'Weight confidence (0–1)', help: 'How sure the weights are. Be honest; a guess is not a 1.' },
+  { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside each module this sits, e.g. 101 ISK > Anatomy > Upper Limb. One path per line.' },
+  { key: 'exam_signal', label: 'Exam appearances', help: 'Which papers this concept came up on, one per line as "src_… | tier | year | p14". The blueprint weight is derived from these.' },
   { key: 'confidence', label: 'Confidence (0–1)', help: 'Extraction or authoring confidence. Never a substitute for verification.' },
   { key: 'support_mode', label: 'Support mode', help: 'How the concept is evidenced, e.g. direct_statement, inferred.' },
   { key: 'atomic_claim_ids', label: 'Atomic claim IDs', help: 'Evidence claims supporting this concept.' },
@@ -141,11 +145,20 @@ export const conceptIdFrom = (label: string) =>
  * mentioned" from "emptied", exactly as the article importer does.
  */
 export function conceptFromRow(values: Record<string, string>, placement: Partial<Concept> = {}): Concept {
+  // The string form, for deriving an ID when the row gives none. The *stored*
+  // label is `text(...)` like every other prose field — see below.
   const label = values.label?.trim() ?? ''
   const status = CONCEPT_STATUSES.includes(values.status?.trim() as ConceptStatus) ? values.status.trim() as ConceptStatus : undefined
   return {
     id: values.id?.trim() || conceptIdFrom(label),
-    label,
+    // `undefined`, not `''`, when the row is silent — the same rule the rest of
+    // this object follows and the one field that did not. `mergeConcept` skips
+    // `undefined` and writes anything else, so an update row that omitted
+    // `## label` blanked the live concept's label: the record stayed, findable
+    // by id and by nothing else, its name gone from every list a student reads.
+    // `materialiseNewConcept` supplies the empty string a genuinely new record
+    // needs, exactly as it does for `definition`.
+    label: text(values.label) as string,
     canonicalKey: text(values.canonical_key),
     aliases: optionalList(values.aliases) as string[],
     arabicLabel: text(values.arabic_label),
@@ -175,6 +188,19 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
     clinicalRelevance: number01(values.clinical_relevance),
     academicRelevance: number01(values.academic_relevance),
     weightConfidence: number01(values.weight_confidence),
+    // Absent when the column is, so a partial update that mentions only a
+    // definition does not wipe the curriculum position it says nothing about.
+    // Every optional list here is eager-or-absent for that reason.
+    moduleSubjectPaths: values.module_subject === undefined
+      ? undefined
+      : parseModuleSubjectPaths(values.module_subject),
+    examSignal: (() => {
+      const appearances = parseExamAppearances(values.exam_signal)
+      // Absent rather than an empty signal, so a concept that has never been
+      // seen on a paper is not confused with one weighted at zero.
+      if (!appearances.length) return undefined
+      return { appearances, confidence: number01(values.weight_confidence) }
+    })(),
     confidence: number01(values.confidence),
     supportMode: text(values.support_mode),
     atomicClaimIds: optionalList(values.atomic_claim_ids),
@@ -216,7 +242,7 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
 export function materialiseNewConcept(concept: Concept): Concept {
   const filled = { ...concept } as Record<string, unknown>
   for (const key of ['aliases', 'articleIds']) if (filled[key] === undefined) filled[key] = []
-  if (filled.definition === undefined) filled.definition = ''
+  for (const key of ['definition', 'label']) if (filled[key] === undefined) filled[key] = ''
   if (filled.status === undefined) filled.status = 'under review'
   const present = [
     'systemId', 'topicTagId', 'subtopicId', 'microtopicId', 'nanotopicId', 'secondaryNodeIds',

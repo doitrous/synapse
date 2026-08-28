@@ -15,6 +15,9 @@ import { useAttemptHistory, useAttemptTotals } from '@/lib/useAttemptLog'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { useLivePracticals } from '@/lib/useLivePracticals'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { useLiveEssays } from '@/lib/useLiveEssays'
+import { useEssayAnswers } from '@/lib/useEssayAnswers'
+import { coveredCount } from '@/data/essay'
 
 type Tone = 'danger' | 'primary' | 'success'
 
@@ -297,6 +300,51 @@ export function PracticalSkillsCard({ compact = false }: { compact?: boolean }) 
         detail={attempted
           ? `${attempted} / ${total} ${t('items attempted')}`
           : t('Not started yet')}
+        compact={compact}
+      />
+    </StatBox>
+  )
+}
+
+/**
+ * Written questions, marked the same way a practical station is: the student
+ * ticks the key points they actually covered, and that ratio stands in for
+ * accuracy. "Used" is how many of the published essays have been marked at
+ * least once, not merely opened — an essay written but never checked has not
+ * yet told the student anything about how they did.
+ */
+export function EssayCard({ compact = false }: { compact?: boolean }) {
+  const t = useT()
+  const essays = useLiveEssays()
+  const { answers } = useEssayAnswers()
+
+  const total = essays.length
+  if (!total) {
+    return <StatBox label={t('Essay')} value="" sub={t('No written questions have been published yet.')} compact={compact} />
+  }
+
+  let markedCount = 0
+  let coverageSum = 0
+  for (const essay of essays) {
+    const covered = coveredCount(answers[essay.id]?.ticked ?? null, essay.keyPoints.map((point) => point.id))
+    if (!covered) continue
+    markedCount += 1
+    coverageSum += covered.total ? covered.covered / covered.total : 0
+  }
+  const accuracy = markedCount ? Math.round((coverageSum / markedCount) * 100) : 0
+  const used = Math.round((markedCount / total) * 100)
+
+  return (
+    <StatBox
+      label={t('Essay')}
+      value=""
+      sub={markedCount ? t('Self-marked · key points covered') : t('Self-scored · your own mark scheme')}
+      compact={compact}
+    >
+      <DualReading
+        accuracy={accuracy}
+        used={used}
+        detail={markedCount ? `${markedCount} / ${total} ${t('marked')}` : t('Not marked yet')}
         compact={compact}
       />
     </StatBox>

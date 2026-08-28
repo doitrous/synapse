@@ -4,9 +4,9 @@
     {
       "contentType": "Library article",
       "model": "ArticleAuthoringData",
-      "modelFields": 45,
-      "importFields": 53,
-      "ok": 45,
+      "modelFields": 46,
+      "importFields": 54,
+      "ok": 46,
       "missing": 0,
       "notApplicable": 0
     },
@@ -14,7 +14,7 @@
       "contentType": "Library article · statement annotation",
       "model": "ConceptAnnotation",
       "modelFields": 5,
-      "importFields": 53,
+      "importFields": 54,
       "ok": 5,
       "missing": 0,
       "notApplicable": 0
@@ -22,20 +22,20 @@
     {
       "contentType": "Library article · media request",
       "model": "MediaRequest",
-      "modelFields": 16,
-      "importFields": 53,
+      "modelFields": 19,
+      "importFields": 54,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 2
+      "notApplicable": 5
     },
     {
       "contentType": "Concept",
       "model": "Concept",
-      "modelFields": 54,
-      "importFields": 52,
-      "ok": 54,
+      "modelFields": 57,
+      "importFields": 54,
+      "ok": 56,
       "missing": 0,
-      "notApplicable": 0
+      "notApplicable": 1
     },
     {
       "contentType": "Concept relation",
@@ -49,92 +49,146 @@
     {
       "contentType": "Question",
       "model": "QuestionAuthoringData",
-      "modelFields": 13,
-      "importFields": 50,
-      "ok": 13,
+      "modelFields": 22,
+      "importFields": 61,
+      "ok": 21,
       "missing": 0,
-      "notApplicable": 0
+      "notApplicable": 1
     },
     {
       "contentType": "Question · tags",
       "model": "QuestionTags",
-      "modelFields": 21,
-      "importFields": 50,
-      "ok": 21,
+      "modelFields": 22,
+      "importFields": 61,
+      "ok": 22,
       "missing": 0,
       "notApplicable": 0
     },
     {
       "contentType": "Question · media request",
       "model": "MediaRequest",
-      "modelFields": 16,
-      "importFields": 50,
+      "modelFields": 19,
+      "importFields": 61,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 2
+      "notApplicable": 5
     },
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "modelFields": 11,
-      "importFields": 25,
-      "ok": 11,
+      "modelFields": 18,
+      "importFields": 32,
+      "ok": 15,
       "missing": 0,
-      "notApplicable": 0
+      "notApplicable": 3
     },
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "modelFields": 7,
-      "importFields": 25,
-      "ok": 7,
+      "modelFields": 11,
+      "importFields": 32,
+      "ok": 8,
       "missing": 0,
-      "notApplicable": 0
+      "notApplicable": 3
     },
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "modelFields": 9,
-      "importFields": 25,
-      "ok": 9,
+      "modelFields": 12,
+      "importFields": 32,
+      "ok": 12,
       "missing": 0,
       "notApplicable": 0
     },
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "modelFields": 7,
-      "importFields": 25,
-      "ok": 7,
+      "modelFields": 11,
+      "importFields": 32,
+      "ok": 8,
       "missing": 0,
-      "notApplicable": 0
+      "notApplicable": 3
     },
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "modelFields": 9,
-      "importFields": 25,
-      "ok": 9,
+      "modelFields": 11,
+      "importFields": 32,
+      "ok": 11,
       "missing": 0,
       "notApplicable": 0
     },
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "modelFields": 16,
-      "importFields": 25,
+      "modelFields": 19,
+      "importFields": 32,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 2
+      "notApplicable": 5
     },
     {
       "contentType": "Resource",
       "model": "ResourceAuthoringData",
-      "modelFields": 16,
-      "importFields": 18,
-      "ok": 8,
-      "missing": 1,
-      "notApplicable": 7
+      "modelFields": 17,
+      "importFields": 19,
+      "ok": 9,
+      "missing": 0,
+      "notApplicable": 8
+    },
+    {
+      "contentType": "Minigame · base pack",
+      "model": "BasePack",
+      "modelFields": 7,
+      "importFields": 16,
+      "ok": 7,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · source metadata",
+      "model": "MiniGameSource",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · ordered pack",
+      "model": "OrderedMiniGamePack",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · ordered step",
+      "model": "OrderedStep",
+      "modelFields": 2,
+      "importFields": 16,
+      "ok": 2,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · red flag sort",
+      "model": "RedFlagSortPack",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · red flag finding",
+      "model": "RedFlagFinding",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
     },
     {
       "contentType": "Evidence · source",
@@ -182,20 +236,12 @@
       "notApplicable": 0
     }
   ],
-  "gaps": [
-    {
-      "contentType": "Resource",
-      "field": "icon",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    }
-  ],
+  "gaps": [],
   "groups": [
     {
       "contentType": "Library article",
       "model": "ArticleAuthoringData",
-      "importFields": 53,
+      "importFields": 54,
       "fields": [
         {
           "field": "arabicTitle",
@@ -308,6 +354,12 @@
         {
           "field": "moduleIds",
           "column": "module",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
           "state": "ok",
           "reason": ""
         },
@@ -472,7 +524,7 @@
     {
       "contentType": "Library article · statement annotation",
       "model": "ConceptAnnotation",
-      "importFields": 53,
+      "importFields": 54,
       "fields": [
         {
           "field": "id",
@@ -509,7 +561,7 @@
     {
       "contentType": "Library article · media request",
       "model": "MediaRequest",
-      "importFields": 53,
+      "importFields": 54,
       "fields": [
         {
           "field": "id",
@@ -602,17 +654,35 @@
           "reason": ""
         },
         {
+          "field": "slot",
+          "column": null,
+          "state": "n/a",
+          "reason": "Chosen during fulfillment when the reviewer places the asset into its final owner slot."
+        },
+        {
+          "field": "answerLabel",
+          "column": null,
+          "state": "n/a",
+          "reason": "Only meaningful for fulfilled answer media; chosen with the final slot."
+        },
+        {
           "field": "mediaId",
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
     {
       "contentType": "Concept",
       "model": "Concept",
-      "importFields": 52,
+      "importFields": 54,
       "fields": [
         {
           "field": "id",
@@ -795,6 +865,12 @@
           "reason": ""
         },
         {
+          "field": "mediaIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Assigned when rights-checked media is attached through the media library, not by concept import."
+        },
+        {
           "field": "resourceIds",
           "column": "resource_ids",
           "state": "ok",
@@ -933,6 +1009,18 @@
           "reason": ""
         },
         {
+          "field": "examSignal",
+          "column": "exam_signal",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "fieldNotes",
           "column": "field_notes",
           "state": "ok",
@@ -1016,13 +1104,67 @@
     {
       "contentType": "Question",
       "model": "QuestionAuthoringData",
-      "importFields": 50,
+      "importFields": 61,
       "fields": [
+        {
+          "field": "format",
+          "column": "format",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "writtenParts",
+          "column": "written_parts",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "matching",
+          "column": "matching_options",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "multiResponse",
+          "column": "correct_answers",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "labeling",
+          "column": "labeling_points",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "completion",
+          "column": "completion_text",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "derivedFromFormat",
+          "column": "derived_from",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "derivedFromId",
+          "column": "derived_from",
+          "state": "ok",
+          "reason": ""
+        },
         {
           "field": "attachments",
           "column": "attachments",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "media",
+          "column": null,
+          "state": "n/a",
+          "reason": "Question media placements are created when a fulfilled media asset is attached to a slot."
         },
         {
           "field": "correctAnswer",
@@ -1101,7 +1243,7 @@
     {
       "contentType": "Question · tags",
       "model": "QuestionTags",
-      "importFields": 50,
+      "importFields": 61,
       "fields": [
         {
           "field": "module",
@@ -1200,6 +1342,12 @@
           "reason": ""
         },
         {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "clinicalRelevance",
           "column": "clinical_relevance",
           "state": "ok",
@@ -1234,7 +1382,7 @@
     {
       "contentType": "Question · media request",
       "model": "MediaRequest",
-      "importFields": 50,
+      "importFields": 61,
       "fields": [
         {
           "field": "id",
@@ -1327,21 +1475,57 @@
           "reason": ""
         },
         {
+          "field": "slot",
+          "column": null,
+          "state": "n/a",
+          "reason": "Chosen during fulfillment when the reviewer places the asset into its final owner slot."
+        },
+        {
+          "field": "answerLabel",
+          "column": null,
+          "state": "n/a",
+          "reason": "Only meaningful for fulfilled answer media; chosen with the final slot."
+        },
+        {
           "field": "mediaId",
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "importFields": 25,
+      "importFields": 32,
       "fields": [
         {
           "field": "format",
           "column": "type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaUrl",
+          "column": "station_image",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaType",
+          "column": "station_media_type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaMimeType",
+          "column": "station_media_mime_type",
           "state": "ok",
           "reason": ""
         },
@@ -1382,6 +1566,12 @@
           "reason": ""
         },
         {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "references",
           "column": "references",
           "state": "ok",
@@ -1404,13 +1594,31 @@
           "column": "learning_objective",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "yearIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "moduleIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
         }
       ]
     },
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "importFields": 25,
+      "importFields": 32,
       "fields": [
         {
           "field": "format",
@@ -1431,6 +1639,12 @@
           "reason": ""
         },
         {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "references",
           "column": "references",
           "state": "ok",
@@ -1453,13 +1667,31 @@
           "column": "learning_objective",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "yearIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "moduleIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
         }
       ]
     },
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "importFields": 25,
+      "importFields": 32,
       "fields": [
         {
           "field": "id",
@@ -1475,6 +1707,24 @@
         },
         {
           "field": "context",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaUrl",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaType",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaMimeType",
           "column": "decisions",
           "state": "ok",
           "reason": ""
@@ -1520,7 +1770,7 @@
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "importFields": 25,
+      "importFields": 32,
       "fields": [
         {
           "field": "format",
@@ -1537,6 +1787,12 @@
         {
           "field": "questions",
           "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
           "state": "ok",
           "reason": ""
         },
@@ -1563,13 +1819,31 @@
           "column": "learning_objective",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "universityIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "yearIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
+        },
+        {
+          "field": "moduleIds",
+          "column": null,
+          "state": "n/a",
+          "reason": "Not author-supplied."
         }
       ]
     },
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "importFields": 25,
+      "importFields": 32,
       "fields": [
         {
           "field": "id",
@@ -1591,6 +1865,18 @@
         },
         {
           "field": "mediaUrl",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaType",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaMimeType",
           "column": "lab_questions",
           "state": "ok",
           "reason": ""
@@ -1630,7 +1916,7 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "importFields": 25,
+      "importFields": 32,
       "fields": [
         {
           "field": "id",
@@ -1723,17 +2009,35 @@
           "reason": ""
         },
         {
+          "field": "slot",
+          "column": null,
+          "state": "n/a",
+          "reason": "Chosen during fulfillment when the reviewer places the asset into its final owner slot."
+        },
+        {
+          "field": "answerLabel",
+          "column": null,
+          "state": "n/a",
+          "reason": "Only meaningful for fulfilled answer media; chosen with the final slot."
+        },
+        {
           "field": "mediaId",
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
     {
       "contentType": "Resource",
       "model": "ResourceAuthoringData",
-      "importFields": 18,
+      "importFields": 19,
       "fields": [
         {
           "field": "universityIds",
@@ -1750,8 +2054,8 @@
         {
           "field": "icon",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Presentation glyph chosen by the resource UI from the type unless an editor overrides it later."
         },
         {
           "field": "institution",
@@ -1814,6 +2118,12 @@
           "reason": ""
         },
         {
+          "field": "moduleSubjectPaths",
+          "column": "module_subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
           "field": "includedConceptIds",
           "column": "included_concepts",
           "state": "ok",
@@ -1828,6 +2138,198 @@
         {
           "field": "conceptLocations",
           "column": "concept_locations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · base pack",
+      "model": "BasePack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "title",
+          "column": "title",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subjectId",
+          "column": "subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "topic",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "summary",
+          "column": "summary",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "source",
+          "column": "source_label",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · source metadata",
+      "model": "MiniGameSource",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "label",
+          "column": "source_label",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewedBy",
+          "column": "reviewed_by",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "url",
+          "column": "source_url",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewedAt",
+          "column": "reviewed_at",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · ordered pack",
+      "model": "OrderedMiniGamePack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "prompt",
+          "column": "prompt",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "steps",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "explanation",
+          "column": "explanation",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · ordered step",
+      "model": "OrderedStep",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "text",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · red flag sort",
+      "model": "RedFlagSortPack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "prompt",
+          "column": "prompt",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lanes",
+          "column": "urgent_lane",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "findings",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · red flag finding",
+      "model": "RedFlagFinding",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "text",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lane",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rationale",
+          "column": "findings",
           "state": "ok",
           "reason": ""
         }

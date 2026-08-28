@@ -1,4 +1,4 @@
-import type { ManagedContentItem } from './contentControl.ts'
+import { isStudentPublishable, type ManagedContentItem } from './contentControl.ts'
 
 /** A point that carries a mark. */
 export interface EssayKeyPoint {
@@ -74,7 +74,7 @@ export function coveredCount(
  * yourself against, which is the whole of the practice.
  */
 export function managedEssayToStudentEssay(item: ManagedContentItem): EssayQuestion | null {
-  if (item.kind !== 'essay' || item.status !== 'Published') return null
+  if (item.kind !== 'essay' || !isStudentPublishable(item)) return null
   const data = item.essayData
   if (!data || !data.prompt.trim() || !data.keyPoints.length) return null
   return {

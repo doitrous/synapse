@@ -24,6 +24,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import { norm, MEDICAL_TAXONOMY_SEED, MEDICAL_TAXONOMY_INDEX } from './lib/taxonomy-match.mjs'
+import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const root = join(here, '..')
@@ -57,7 +58,7 @@ const ledger = launch.states['synapse-admin-content-ledger-v4'] ?? []
 const graph = launch.states['synapse-concept-graph-v2'] ?? { concepts: [], relations: [] }
 const articles = ledger.filter((item) => item.kind === 'article')
 
-const VALID_SUBJECT_IDS = new Set(['cvs', 'resp', 'renal', 'gi', 'neuro', 'endo', 'msk', 'pharm'])
+const VALID_SUBJECT_IDS = new Set(CURRICULUM_CATALOG.map((system) => system.id))
 
 const under = (nodeId) => Boolean(nodeId) && MEDICAL_TAXONOMY_INDEX.lineage(nodeId).some((entry) => entry.id === systemId)
 const placements = (record) => [record.primaryNodeId, ...(record.secondaryNodeIds ?? [])].filter(Boolean)
@@ -149,7 +150,7 @@ function disposeArticle(article) {
   if (!(data.annotations ?? []).length) reasons.push('no statement annotations')
   if (!(data.mediaRequests ?? []).length) reasons.push('no media requests')
   if (!(data.calloutEvidence && Object.keys(data.calloutEvidence).length)) reasons.push('callouts carry no per-line evidence')
-  if (!VALID_SUBJECT_IDS.has(article.subjectId)) reasons.push(`subjectId "${article.subjectId}" is outside the eight-value contract (BLK-09)`)
+  if (!VALID_SUBJECT_IDS.has(article.subjectId)) reasons.push(`subjectId "${article.subjectId}" is outside the live subject contract (BLK-09)`)
   if (article.status === 'Published' && data.publicationGate !== 'publishable') reasons.push(`published while its gate says ${data.publicationGate} (BLK-10)`)
 
   return {
@@ -168,7 +169,7 @@ function disposeArticle(article) {
 
 function disposeConcept(concept) {
   const reasons = []
-  if (!VALID_SUBJECT_IDS.has(concept.subjectId)) reasons.push(`subjectId "${concept.subjectId}" is outside the eight-value contract (BLK-09)`)
+  if (!VALID_SUBJECT_IDS.has(concept.subjectId)) reasons.push(`subjectId "${concept.subjectId}" is outside the live subject contract (BLK-09)`)
   if (!concept.explicitObjective) reasons.push('no explicit objective — a concept without one cannot be assessed')
   if (!graph.relations.some((relation) => relation.sourceId === concept.id || relation.targetId === concept.id)) reasons.push('no typed relation')
   if (concept.publicationStatus !== 'published') reasons.push(`publication status ${concept.publicationStatus}`)

@@ -9,8 +9,7 @@ import {
   type QuestionAuthoringData,
 } from '@/data/contentControl'
 import { subjects } from '@/data/subjects'
-import { YEARS } from '@/data/universities'
-import { yearId } from '@/data/taxonomy'
+import { defaultModuleId } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
@@ -18,7 +17,10 @@ import { Icon } from '@/components/ui/Icon'
 import { Toggle } from '@/components/ui/Toggle'
 import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
-import { removeStoredMedia, storeMediaFile } from '@/lib/mediaStorage'
+import { isStoredMediaReference, removeStoredMedia, storeMediaFile } from '@/lib/mediaStorage'
+import { MediaPlacementEditor } from '@/components/admin/MediaPlacementEditor'
+import { StrandedMediaNotice } from '@/components/admin/StrandedMediaNotice'
+import type { Question } from '@/data/qbank'
 import { EntityPicker } from '@/components/admin/EntityPicker'
 import { ContentSourceFields } from '@/components/admin/ContentSourceFields'
 import { conceptOptions, contentOptions } from '@/components/admin/pickerOptions'
@@ -179,14 +181,94 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
   const valid = draft.title.trim() && nonEmptyAnswers.length >= 2 && correctIsFilled
   const inferredLabel = data.tags.inferredDifficulty >= 70 ? 'Easy' : data.tags.inferredDifficulty < 45 ? 'Hard' : 'Moderate'
 
+  /**
+   * The draft as a student would receive it.
+   *
+   * Built here so the proof below renders the real component against the real
+   * question rather than a stand-in, which is the whole point of it.
+   */
+  const previewQuestion = useMemo<Question>(() => ({
+    id: draft.id || 'preview',
+    subjectId: draft.subjectId,
+    topic: draft.fields.Topic ?? '',
+    difficulty: data.tags.intendedDifficulty,
+    vignette: draft.fields.Vignette ?? '',
+    stem: draft.title,
+    options: data.answers
+      .filter((answer) => answer.text.trim())
+      .map((answer) => ({ text: answer.text, correct: answer.label === data.correctAnswer, rationale: answer.explanation })),
+    explanation: draft.fields.Explanation ?? '',
+    libraryRefs: [],
+    resourceRefs: [],
+    attachedImage: isStoredMediaReference(data.attachedImage ?? '') ? '' : data.attachedImage,
+    media: data.media ?? [],
+  }), [draft, data])
+
   const conceptPicks = useMemo(() => conceptOptions({ graph: concepts, taxonomy, medicalTaxonomy }), [concepts, taxonomy, medicalTaxonomy])
   const articlePicks = useMemo(() => contentOptions(contentItems, 'article'), [contentItems])
   const resourcePicks = useMemo(() => contentOptions(contentItems, 'resource'), [contentItems])
+  const selectedUniversityIds = new Set(data.tags.universityIds)
+  const selectedYearIds = new Set(data.tags.years)
+  const yearOptions = universityCatalogue
+    .filter((university) => selectedUniversityIds.has(university.id))
+    .flatMap((university) => university.years.map((year) => ({
+      id: year.id,
+      label: `${university.short} · ${year.year}`,
+    })))
+  const moduleOptions = [...new Map(universityCatalogue
+    .filter((university) => selectedUniversityIds.has(university.id))
+    .flatMap((university) => university.years
+      .filter((year) => selectedYearIds.has(year.id))
+      .flatMap((year) => year.courses.map((course, index) => ({
+        id: course.moduleId?.trim() || defaultModuleId(course.name, index + 1),
+        label: `${university.short} · ${year.year} · ${course.name}`,
+      }))))
+    .map((option) => [option.id, option] as const)).values()]
 
   if (!open) return null
 
   function updateData(updater: (current: QuestionAuthoringData) => QuestionAuthoringData) {
     setDraft((current) => ({ ...current, questionData: updater(current.questionData ?? blankQuestionData()) }))
+  }
+
+  function updateUniversities(universityIds: string[]) {
+    const validYears = new Set(universityCatalogue
+      .filter((university) => universityIds.includes(university.id))
+      .flatMap((university) => university.years.map((year) => year.id)))
+    updateData((current) => {
+      const years = current.tags.years.filter((id) => validYears.has(id))
+      const validModules = new Set(universityCatalogue
+        .filter((university) => universityIds.includes(university.id))
+        .flatMap((university) => university.years
+          .filter((year) => years.includes(year.id))
+          .flatMap((year) => year.courses.map((course, index) => course.moduleId?.trim() || defaultModuleId(course.name, index + 1)))))
+      return {
+        ...current,
+        tags: {
+          ...current.tags,
+          universityIds,
+          years,
+          moduleIds: (current.tags.moduleIds ?? []).filter((id) => validModules.has(id)),
+          questionOnlyFor: (current.tags.questionOnlyFor ?? []).length ? [...years, ...universityIds] : [],
+        },
+      }
+    })
+  }
+
+  function updateYears(years: string[]) {
+    const validModules = new Set(universityCatalogue
+      .flatMap((university) => university.years
+        .filter((year) => years.includes(year.id))
+        .flatMap((year) => year.courses.map((course, index) => course.moduleId?.trim() || defaultModuleId(course.name, index + 1)))))
+    updateData((current) => ({
+      ...current,
+      tags: {
+        ...current.tags,
+        years,
+        moduleIds: (current.tags.moduleIds ?? []).filter((id) => validModules.has(id)),
+        questionOnlyFor: (current.tags.questionOnlyFor ?? []).length ? [...years, ...current.tags.universityIds] : [],
+      },
+    }))
   }
 
   function addMedia() {
@@ -204,10 +286,18 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
       const type = fileMediaType(file)
       if (!type) { setMediaError(`${file.name} is not a supported image, audio, or video file.`); continue }
       if (file.size > MAX_MEDIA_BYTES) { setMediaError(`${file.name} is larger than the 100 MB upload limit.`); continue }
+      if (type === 'image') {
+        // Images belong in the media library, where a student can reach them.
+        // Sending them here instead is what made every attached image invisible
+        // to everybody but its uploader.
+        setMediaError(`${file.name} is an image — add it under “Placed images” above, where it is stored on the server and checked before it counts.`)
+        continue
+      }
       const id = `media-${Date.now()}-${index}-${file.name.replace(/[^a-zA-Z0-9._-]/g, '-')}`
       try {
         const url = await storeMediaFile(id, file)
         updateData((current) => ({ ...current, attachments: [...(current.attachments ?? []), { id, type, name: file.name, url, mimeType: file.type || undefined, size: file.size }] }))
+        setMediaError(`${file.name} is stored in this browser only. Recordings and clips are not held on the server yet, so students cannot play it.`)
       } catch {
         setMediaError(`${file.name} could not be stored. Check available browser storage and try again.`)
       }
@@ -262,8 +352,30 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
             </div>
 
             <div className="space-y-4">
+              {/* Images that reach a student. The attachments section below
+                  predates the media library and still holds live content, so it
+                  stays until that content has moved across. */}
+              <Section title="Placed images" hint="Images on the stem, on an answer, or on the explanation. Each one is checked by rendering the question as the student receives it." icon={Image}>
+                <MediaPlacementEditor
+                  placements={data.media ?? []}
+                  onChange={(media) => updateData((current) => ({ ...current, media }))}
+                  previewQuestion={previewQuestion}
+                />
+              </Section>
+
               <Section title="Question attachments" hint="Upload media for reliable playback, or use a direct media-file URL. Uploaded files are stored outside the question record so audio and video are not truncated." icon={Paperclip}>
-                <label className="mb-3 flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-line-2 bg-surface-2 px-3 text-[12.5px] font-semibold text-ink-2 hover:border-primary-line hover:bg-primary-tint/35"><Icon icon={Paperclip} size={15} />Choose image, audio, or video<input type="file" multiple accept="image/*,audio/*,video/*,.mp3,.m4a,.aac,.wav,.mp4,.m4v,.mov,.webm" className="sr-only" onChange={(event) => { void attachFiles(event.currentTarget.files); event.currentTarget.value = '' }} /></label>
+                {isStoredMediaReference(data.attachedImage ?? '') && (
+                  <StrandedMediaNotice
+                    reference={data.attachedImage}
+                    title={draft.title}
+                    onRecovered={(mediaId) => updateData((current) => ({
+                      ...current,
+                      attachedImage: '',
+                      media: [...(current.media ?? []), { id: `plc-${mediaId}`, mediaId, slot: 'stem' as const }],
+                    }))}
+                  />
+                )}
+                <label className="mb-3 flex min-h-12 cursor-pointer items-center justify-center gap-2 rounded-lg border border-dashed border-line-2 bg-surface-2 px-3 text-[12.5px] font-semibold text-ink-2 hover:border-primary-line hover:bg-primary-tint/35"><Icon icon={Paperclip} size={15} />Choose audio or video<input type="file" multiple accept="audio/*,video/*,.mp3,.m4a,.aac,.wav,.mp4,.m4v,.mov,.webm" className="sr-only" onChange={(event) => { void attachFiles(event.currentTarget.files); event.currentTarget.value = '' }} /></label>
                 <div className="flex flex-wrap gap-2"><Select value={mediaType} onChange={(event) => setMediaType(event.target.value as MediaAttachment['type'])} className="w-28"><option>image</option><option>audio</option><option>video</option></Select><TextInput aria-label="Attachment URL" className="min-w-0 flex-1" value={mediaUrl} onChange={(event) => setMediaUrl(event.target.value)} placeholder="Media URL" /><Button type="button" size="sm" iconLeft={Plus} onClick={addMedia}>Attach</Button></div>
                 {mediaError && <p role="alert" className="mt-2 text-[11.5px] text-danger">{mediaError}</p>}
                 <div className="mt-3 space-y-2">{(data.attachments ?? []).map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} onRemove={() => removeAttachment(attachment)} />)}</div>
@@ -280,7 +392,7 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
 
               <Section title="Question tags and blueprint" hint="Mastery evidence is awarded only to explicitly linked concepts." icon={Tags}>
                 <div className="grid gap-3 sm:grid-cols-2">
-                  <Field label="Related module" htmlFor="tag-module"><Select id="tag-module" value={data.tags.module} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, module: event.target.value } }))}>{subjects.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}</Select></Field>
+                  <Field label="Related system" htmlFor="tag-module"><Select id="tag-module" value={data.tags.module} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, module: event.target.value } }))}>{subjects.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}</Select></Field>
                   <Field label="Related topic" htmlFor="tag-topic"><TextInput id="tag-topic" value={data.tags.topic} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, topic: event.target.value } }))} /></Field>
                   <Field label="Related subtopic" htmlFor="tag-subtopic" className="sm:col-span-2"><TextInput id="tag-subtopic" value={data.tags.subtopic} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, subtopic: event.target.value } }))} /></Field>
                   <Field label="Cognitive effort" htmlFor="tag-effort"><Select id="tag-effort" value={data.tags.cognitiveEffort} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, cognitiveEffort: event.target.value as QuestionAuthoringData['tags']['cognitiveEffort'] } }))}><option>Low</option><option>Medium</option><option>High</option></Select></Field>
@@ -297,13 +409,20 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
                 <EntityPicker className="mt-4" label="Main concept(s) · what this question primarily tests" noun="concepts" options={conceptPicks} selected={data.tags.mainConceptIds ?? []} onChange={(mainConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, mainConceptIds } }))} />
                 <EntityPicker className="mt-4" label="Related concepts · mastery evidence" noun="concepts" options={conceptPicks} selected={data.tags.conceptIds} onChange={(conceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, conceptIds } }))} />
                 <EntityPicker className="mt-4" label="Contextual concepts · no mastery evidence" noun="concepts" options={conceptPicks} selected={data.tags.contextualConceptIds} onChange={(contextualConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, contextualConceptIds } }))} />
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant years</p><CheckList columns={3} options={YEARS.map((year) => ({ id: year, label: year }))} selected={data.tags.years} onChange={(years) => updateData((current) => ({ ...current, tags: { ...current.tags, years } }))} />
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant universities</p><CheckList options={universityCatalogue.map((university) => ({ id: university.id, label: `${university.short} · ${university.name}` }))} selected={data.tags.universityIds} onChange={(universityIds) => updateData((current) => ({ ...current, tags: { ...current.tags, universityIds } }))} />
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant universities</p><CheckList options={universityCatalogue.map((university) => ({ id: university.id, label: `${university.short} · ${university.name}` }))} selected={data.tags.universityIds} onChange={updateUniversities} />
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant years</p>
+                {yearOptions.length > 0
+                  ? <CheckList columns={3} options={yearOptions} selected={data.tags.years} onChange={updateYears} />
+                  : <p className="text-[11.5px] text-ink-3">Select a university to choose its catalogue years.</p>}
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Curriculum modules</p>
+                {moduleOptions.length > 0
+                  ? <CheckList options={moduleOptions} selected={data.tags.moduleIds ?? []} onChange={(moduleIds) => updateData((current) => ({ ...current, tags: { ...current.tags, moduleIds } }))} />
+                  : <p className="text-[11.5px] text-ink-3">Select a university and year to choose verified modules.</p>}
 
                 {/* Per-year exam-blueprint weight (one unique weight per selected university-year) */}
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Exam blueprint weight by year</p>
                 {(() => {
-                  const keys = data.tags.universityIds.flatMap((uid) => data.tags.years.map((y) => yearId(uid, y)))
+                  const keys = data.tags.years
                   if (keys.length === 0) return <p className="text-[11.5px] text-ink-3">Select relevant universities and years above to set per-year weights.</p>
                   return (
                     <div className="space-y-1.5">

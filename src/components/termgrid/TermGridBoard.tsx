@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import { Eye } from 'lucide-react'
-import type { Grid, GridDirection, PlacedWord } from '@/data/crossword'
+import { normalizeTermGridAnswer, normalizeTermGridLetter, type Grid, type GridDirection, type PlacedWord } from '@/data/crossword'
 import { IconButton } from '@/components/ui/IconButton'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
@@ -76,6 +76,8 @@ export interface TermGridBoardProps {
   letters: Record<string, string>
   onLetterChange: (cell: string, letter: string) => void
   revealedWords: string[]
+  /** Whole answers prefilled by the puzzle, not counted as reveals. */
+  givenWords?: string[]
   onRevealWord: (term: string) => void
   /** Whether wrong letters are currently flagged — toggled by the page's Check action. */
   showErrors: boolean
@@ -92,6 +94,7 @@ export function TermGridBoard({
   letters,
   onLetterChange,
   revealedWords,
+  givenWords = [],
   onRevealWord,
   showErrors,
   disabled = false,
@@ -99,6 +102,7 @@ export function TermGridBoard({
   const t = useT()
   const cells = useMemo(() => buildCells(grid), [grid])
   const revealedSet = useMemo(() => new Set(revealedWords), [revealedWords])
+  const givenSet = useMemo(() => new Set(givenWords), [givenWords])
 
   // Clue order: across first, then down, each ascending by number. This is the
   // order both clue lists render in and the order Tab walks.
@@ -146,9 +150,19 @@ export function TermGridBoard({
     (row: number, column: number): boolean => {
       const info = cells.get(cellKey(row, column))
       if (!info) return false
-      return Object.values(info.words).some((word) => word && revealedSet.has(word.term))
+      return Object.values(info.words).some((word) => word && (revealedSet.has(word.term) || givenSet.has(word.term)))
     },
-    [cells, revealedSet],
+    [cells, revealedSet, givenSet],
+  )
+
+  const givenLetterAt = useCallback(
+    (row: number, column: number): string => {
+      const info = cells.get(cellKey(row, column))
+      if (!info) return ''
+      const word = Object.values(info.words).find((entry) => entry && givenSet.has(entry.term))
+      return word ? info.letter : ''
+    },
+    [cells, givenSet],
   )
 
   /**
@@ -180,7 +194,7 @@ export function TermGridBoard({
 
   const handleChange = useCallback(
     (row: number, column: number, raw: string) => {
-      const letter = raw.replace(/[^a-zA-Z]/g, '').slice(-1).toUpperCase()
+      const letter = normalizeTermGridLetter(raw)
       onLetterChange(cellKey(row, column), letter)
       if (!letter) return
       const direction = selectedRef.current?.direction ?? 'across'
@@ -195,6 +209,32 @@ export function TermGridBoard({
       }
     },
     [onLetterChange, wordFor, focusCell],
+  )
+
+  const handlePaste = useCallback(
+    (row: number, column: number, raw: string) => {
+      const answer = normalizeTermGridAnswer(raw)
+      if (!answer) return
+      const direction = selectedRef.current?.direction ?? 'across'
+      const word = wordFor(row, column, direction)
+      if (!word) {
+        onLetterChange(cellKey(row, column), answer.slice(-1))
+        return
+      }
+      const startIndex = direction === 'across' ? column - word.column : row - word.row
+      for (let i = 0; i < answer.length && startIndex + i < word.term.length; i++) {
+        const nextIndex = startIndex + i
+        const nextRow = direction === 'down' ? word.row + nextIndex : word.row
+        const nextColumn = direction === 'across' ? word.column + nextIndex : word.column
+        onLetterChange(cellKey(nextRow, nextColumn), answer[i])
+      }
+      const focusIndex = Math.min(word.term.length - 1, startIndex + answer.length)
+      const nextRow = direction === 'down' ? word.row + focusIndex : word.row
+      const nextColumn = direction === 'across' ? word.column + focusIndex : word.column
+      setSelected({ row: nextRow, column: nextColumn, direction })
+      focusCell(nextRow, nextColumn)
+    },
+    [focusCell, onLetterChange, wordFor],
   )
 
   const handleKeyDown = useCallback(
@@ -309,6 +349,7 @@ export function TermGridBoard({
         {words.map((word) => {
           const isSelected = selectedWord === word
           const revealed = revealedSet.has(word.term)
+          const given = givenSet.has(word.term)
           return (
             <li key={`${word.direction}-${word.number}`} className="flex items-start gap-1">
               <button
@@ -318,18 +359,20 @@ export function TermGridBoard({
                   focusCell(word.row, word.column)
                 }}
                 className={cn(
-                  'min-w-0 flex-1 rounded-md px-2 py-1 text-start text-[12.5px] leading-snug transition-colors',
+                  'min-h-11 min-w-0 flex-1 rounded-md px-2 py-1 text-start text-[12.5px] leading-snug transition-colors sm:min-h-0',
                   isSelected ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
                   revealed && 'text-ink-3 line-through decoration-ink-3/60',
+                  given && 'bg-primary-tint/35 text-primary-strong',
                 )}
               >
                 <span className="tnum font-mono font-semibold">{word.number}.</span> {word.clue}
+                {given && <span className="ms-1 font-semibold">({t('given')})</span>}
               </button>
               <IconButton
                 icon={Eye}
                 label={t('Reveal this word')}
                 size="sm"
-                disabled={disabled || revealed}
+                disabled={disabled || revealed || given}
                 onClick={() => onRevealWord(word.term)}
                 className="shrink-0"
               />
@@ -362,9 +405,11 @@ export function TermGridBoard({
               if (!info) return <div key={cellKey(row, column)} className="size-8 bg-transparent" />
 
               const at = cellKey(row, column)
-              const value = letters[at] ?? ''
+              const givenValue = givenLetterAt(row, column)
+              const value = givenValue || (letters[at] ?? '')
               const wrong = showErrors && value !== '' && value !== info.letter
               const revealed = isRevealed(row, column)
+              const given = givenValue !== ''
               const isSelectedCell = selected?.row === row && selected?.column === column
               const inWord = isInSelectedWord(row, column)
 
@@ -390,12 +435,18 @@ export function TermGridBoard({
                     onFocus={(event) => event.currentTarget.select()}
                     onClick={() => handleCellClick(row, column)}
                     onChange={(event) => handleChange(row, column, event.target.value)}
+                    onPaste={(event) => {
+                      event.preventDefault()
+                      if (disabled || given) return
+                      handlePaste(row, column, event.clipboardData.getData('text'))
+                    }}
                     onKeyDown={(event) => handleKeyDown(row, column, event)}
                     className={cn(
                       'size-8 border text-center font-mono text-[15px] font-semibold uppercase text-ink outline-none transition-colors',
                       'disabled:cursor-default',
                       wrong ? 'border-danger bg-danger-tint text-danger' : 'border-transparent',
                       !wrong && revealed && 'bg-success-tint/50 text-success',
+                      !wrong && given && 'bg-primary-tint/60 text-primary-strong',
                       !wrong && !revealed && isSelectedCell && 'bg-primary-tint text-primary-strong ring-2 ring-inset ring-primary',
                       !wrong && !revealed && !isSelectedCell && inWord && 'bg-primary-tint/35',
                     )}

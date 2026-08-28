@@ -1,192 +1,165 @@
-import { Link } from 'react-router-dom'
-import type { LucideIcon } from 'lucide-react'
-import {
-  GraduationCap,
-  LogIn,
-  ArrowRight,
-  BookOpen,
-  ListChecks,
-  Stethoscope,
-  CalendarDays,
-  LineChart,
-  FolderOpen,
-  PenTool,
-  Users,
-  Notebook,
-  Network,
-  FileText,
-  Quote,
-  Check,
-} from 'lucide-react'
+import { Link, useLocation } from 'react-router-dom'
+import { ArrowRight, CalendarDays, Check, CircleDot, GraduationCap, Plus, ShieldCheck, Sparkles } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
-import { ReferenceBar, TodaySpecimen } from './specimens'
-import { Walkthrough } from './Walkthrough'
 import { usePageMeta } from '@/lib/pageMeta'
 import { MarketingShell } from './MarketingShell'
 import { PricingTeaser } from './PricingTeaser'
-import type { Feature, LandingContent } from './content'
+import { FeatureSuites } from './FeatureSuites'
+import { MaristanaShowcase } from './MaristanaShowcase'
+import { maristanaCopy } from './maristanaContent'
+import type { LandingContent } from './content'
 
-const FEATURE_ICON: Record<Feature['icon'], LucideIcon> = {
-  library: BookOpen,
-  qbank: ListChecks,
-  practical: Stethoscope,
-  calendar: CalendarDays,
-  performance: LineChart,
-  resources: FolderOpen,
-  whiteboard: PenTool,
-  together: Users,
-  notebook: Notebook,
-  taxonomy: Network,
-  reader: FileText,
-  sources: Quote,
+const TRIAL_PATH = '/signup?plan=maristana&period=term'
+
+function TodaySurface({ c }: { c: ReturnType<typeof maristanaCopy> }) {
+  return (
+    <div className="relative">
+      <div className="absolute -inset-x-3 top-8 bottom-8 -z-10 border-y border-line bg-surface-2/45" aria-hidden />
+      <div className="overflow-hidden rounded-2xl border border-line bg-surface shadow-raised">
+        <div className="grid-chart-major flex items-start justify-between gap-5 border-b border-line px-5 py-5 sm:px-6">
+          <div>
+            <p className="text-[10px] font-bold uppercase tracking-[0.09em] text-primary-strong">{c.today.title}</p>
+            <h2 className="mt-1.5 font-serif text-[20px] font-semibold text-ink">{c.today.university}</h2>
+            <p className="mt-1 text-[11px] text-ink-3">{c.today.date}</p>
+          </div>
+          <span className="grid size-10 place-items-center rounded-xl border border-accent-line bg-accent-tint text-accent-strong"><Icon icon={CalendarDays} size={19} /></span>
+        </div>
+        <div className="p-4 sm:p-5">
+          <div className="border-s-2 border-accent px-3 py-2.5">
+            <div className="flex items-center justify-between gap-4"><p className="text-[10px] font-bold uppercase tracking-[0.07em] text-accent-strong">{c.today.institution}</p><span className="font-mono text-[10px] text-ink-3">{c.today.institutionTime}</span></div>
+            <p className="mt-1.5 text-[13px] font-semibold text-ink">{c.today.module}</p>
+          </div>
+          <div className="my-3 ms-4 h-4 border-s border-dashed border-line-2" aria-hidden />
+          <div className="border-s-2 border-line-2 px-3 py-2.5">
+            <div className="flex items-center justify-between gap-4"><p className="text-[10px] font-bold uppercase tracking-[0.07em] text-ink-3">{c.today.personal}</p><span className="font-mono text-[10px] text-ink-3">{c.today.personalTime}</span></div>
+            <p className="mt-1.5 text-[13px] font-semibold text-ink">{c.lang === 'ar' ? 'مراجعة شرائح الباثولوجي' : 'Review pathology slides'}</p>
+          </div>
+          <div className="mt-4 rounded-xl border border-primary-line bg-primary-tint p-4">
+            <div className="flex items-center justify-between gap-3"><p className="text-[10px] font-bold uppercase tracking-[0.07em] text-primary-strong">{c.today.next}</p><span className="rounded-md bg-surface px-2 py-1 font-mono text-[9.5px] font-semibold text-primary-strong">{c.today.nextTime}</span></div>
+            <p className="mt-2 text-[13px] font-semibold text-ink">{c.lang === 'ar' ? 'اختبر فهمك: الاحتقان الوريدي' : 'Check your understanding: venous congestion'}</p>
+            <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-primary-line"><div className="h-full w-[62%] rounded-full bg-primary" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Provenance({ c }: { c: ReturnType<typeof maristanaCopy> }) {
+  return (
+    <section id="why-maristana" className="scroll-mt-24 py-24 sm:py-28">
+      <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-primary-strong">{c.provenance.eyebrow}</p>
+      <div className="mt-3 grid gap-5 lg:grid-cols-[1fr_0.7fr]">
+        <h2 className="max-w-2xl font-serif text-[31px] font-semibold leading-tight tracking-[-0.02em] text-ink sm:text-[40px]">{c.provenance.title}</h2>
+        <p className="max-w-xl text-[14.5px] leading-relaxed text-ink-2 lg:justify-self-end">{c.provenance.body}</p>
+      </div>
+
+      <div className="relative mt-12 grid gap-8 md:grid-cols-2 md:gap-16">
+        <div className="absolute left-0 right-0 top-[18px] hidden h-px bg-line-2 md:block" aria-hidden />
+        <article className="relative border-t border-line pt-8 md:border-t-0">
+          <span className="absolute top-[-1px] size-9 rounded-full border border-accent bg-surface md:top-0" aria-hidden><span className="absolute inset-[11px] rounded-full bg-accent" /></span>
+          <p className="mt-6 font-mono text-[28px] font-semibold text-accent-strong">2011</p>
+          <h3 className="mt-3 font-serif text-[22px] font-semibold text-ink">{c.provenance.startTitle}</h3>
+          <p className="mt-2 max-w-md text-[13.5px] leading-relaxed text-ink-2">{c.provenance.startBody}</p>
+        </article>
+        <article className="relative border-t border-line pt-8 md:border-t-0">
+          <span className="absolute top-[-1px] size-9 rounded-full border border-primary bg-surface md:top-0" aria-hidden><span className="absolute inset-[11px] rounded-full bg-primary" /></span>
+          <p className="mt-6 font-brand text-[19px] font-semibold tracking-[0.1em] text-primary-strong">MARISTANA</p>
+          <h3 className="mt-3 font-serif text-[22px] font-semibold text-ink">{c.provenance.nowTitle}</h3>
+          <p className="mt-2 max-w-md text-[13.5px] leading-relaxed text-ink-2">{c.provenance.nowBody}</p>
+        </article>
+      </div>
+    </section>
+  )
+}
+
+function Curriculum({ c }: { c: ReturnType<typeof maristanaCopy> }) {
+  return (
+    <section className="grid items-center gap-10 border-y border-line py-20 sm:py-24 lg:grid-cols-[0.82fr_1.18fr] lg:gap-16">
+      <div>
+        <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-accent-strong">{c.curriculum.eyebrow}</p>
+        <h2 className="mt-3 max-w-xl font-serif text-[30px] font-semibold leading-tight tracking-[-0.02em] text-ink sm:text-[38px]">{c.curriculum.title}</h2>
+        <p className="mt-5 max-w-xl text-[14.5px] leading-relaxed text-ink-2">{c.curriculum.body}</p>
+        <div className="mt-7 flex flex-wrap gap-2">
+          {[c.curriculum.university, c.curriculum.year, c.curriculum.ready].map((label, index) => (
+            <span key={label} className={index === 2 ? 'inline-flex items-center gap-1.5 rounded-md border border-success/25 bg-success-tint px-2.5 py-1.5 text-[10.5px] font-semibold text-success' : 'rounded-md border border-line bg-surface px-2.5 py-1.5 text-[10.5px] font-semibold text-ink-2'}>{index === 2 && <Icon icon={Check} size={12} />}{label}</span>
+          ))}
+        </div>
+      </div>
+      <div className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
+        <div className="grid-chart-major flex items-center justify-between border-b border-line px-5 py-4"><div><p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink-3">{c.curriculum.plan}</p><p className="mt-1 text-[14px] font-semibold text-ink">{c.curriculum.module}</p></div><span className="rounded-md border border-warning/25 bg-warning-tint px-2 py-1 text-[9.5px] font-semibold text-warning">{c.curriculum.exam}</span></div>
+        <div className="p-4 sm:p-5">
+          <div className="grid grid-cols-7 border-b border-line pb-2 text-center font-mono text-[9px] text-ink-3">{(c.lang === 'ar' ? ['س', 'ح', 'ن', 'ث', 'ر', 'خ', 'ج'] : ['S', 'S', 'M', 'T', 'W', 'T', 'F']).map((d, i) => <span key={`${d}-${i}`}>{d}</span>)}</div>
+          <div className="mt-3 grid grid-cols-7 gap-2">{Array.from({ length: 14 }, (_, i) => <div key={i} className={i === 8 ? 'aspect-square rounded-md border border-primary bg-primary text-on-primary' : i === 10 ? 'aspect-square rounded-md border border-accent-line bg-accent-tint text-accent-strong' : 'aspect-square rounded-md border border-line bg-surface-2 text-ink-3'}><span className="grid size-full place-items-center font-mono text-[9.5px]">{i + 14}</span></div>)}</div>
+          <div className="mt-5 space-y-2.5"><div className="flex items-center gap-3 border-s-2 border-accent bg-accent-tint px-3 py-2.5"><Icon icon={GraduationCap} size={15} className="text-accent-strong" /><span className="flex-1 text-[11.5px] font-semibold text-ink">{c.lang === 'ar' ? 'جلسة جامعية · فشل القلب' : 'University session · Heart failure'}</span><span className="font-mono text-[9.5px] text-ink-3">10:00</span></div><button type="button" className="flex min-h-11 w-full items-center gap-3 border-s-2 border-dashed border-line-2 px-3 text-start text-[11.5px] font-semibold text-ink-2"><Icon icon={Plus} size={14} />{c.curriculum.personal}</button></div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function ValueClose({ c, legacyContent }: { c: ReturnType<typeof maristanaCopy>; legacyContent: LandingContent }) {
+  const pricingHref = c.lang === 'ar' ? '/ar/pricing' : '/pricing'
+  return (
+    <>
+      <PricingTeaser c={legacyContent} />
+      <section id="study-together" className="scroll-mt-24 py-24 sm:py-28">
+        <div className="grid overflow-hidden rounded-2xl border border-line bg-surface lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="p-6 sm:p-10 lg:p-12">
+            <p className="text-[11px] font-bold uppercase tracking-[0.09em] text-primary-strong">{c.close.eyebrow}</p>
+            <h2 className="mt-3 max-w-2xl font-serif text-[30px] font-semibold leading-tight tracking-[-0.02em] text-ink sm:text-[38px]">{c.close.title}</h2>
+            <p className="mt-4 max-w-xl text-[14.5px] leading-relaxed text-ink-2">{c.close.body}</p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link to={TRIAL_PATH} className="group inline-flex min-h-11 items-center gap-2 rounded-lg bg-primary px-5 text-[14px] font-semibold text-on-primary shadow-action hover:bg-primary-hover">{c.close.primary}<Icon icon={ArrowRight} size={16} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" /></Link>
+              <Link to={pricingHref} className="inline-flex min-h-11 items-center rounded-lg border border-line-2 bg-surface px-5 text-[14px] font-semibold text-ink hover:bg-surface-2">{c.close.pricing}</Link>
+            </div>
+          </div>
+          <aside className="grid-chart-major border-t border-line bg-surface-2/60 p-6 sm:p-10 lg:border-s lg:border-t-0 lg:p-12">
+            <span className="grid size-11 place-items-center rounded-xl border border-primary-line bg-primary-tint text-primary-strong"><Icon icon={ShieldCheck} size={21} /></span>
+            <h3 className="mt-6 font-serif text-[24px] font-semibold text-ink">{c.close.scholarshipTitle}</h3>
+            <p className="mt-3 text-[13.5px] leading-relaxed text-ink-2">{c.close.scholarshipBody}</p>
+            <div className="mt-8 border-t border-line pt-5"><p className="font-mono text-[25px] font-semibold text-ink">{c.close.price}</p><p className="mt-1 text-[11px] text-ink-3">{c.close.priceNote}</p></div>
+          </aside>
+        </div>
+      </section>
+    </>
+  )
 }
 
 export function LandingShell({ content }: { content: LandingContent }) {
-  const c = content
+  const c = maristanaCopy(content.lang)
+  const location = useLocation()
 
   usePageMeta({
-    title: c.documentTitle,
-    description: c.hero.sub,
-    canonical: c.lang === 'ar' ? '/ar' : '/',
+    title: c.lang === 'ar' ? 'Maristana · تعلّم الطب بالطريقة التي ستمارسه بها' : 'Maristana · Learn medicine the way you’ll practise it',
+    description: c.hero.body,
+    canonical: c.lang === 'ar' ? '/ar' : location.pathname === '/en' ? '/en' : '/',
     alternates: { en: '/en', ar: '/ar', 'x-default': '/' },
+    ogImage: c.lang === 'ar' ? '/og-image-ar.png' : '/og-image.png',
+    jsonLd: [{ '@context': 'https://schema.org', '@type': 'EducationalOrganization', name: 'Maristana by Connect Academy', foundingDate: '2011', url: 'https://synapse.doitrous.com' }],
   })
 
   return (
-    <MarketingShell c={c}>
-        {/* ---- Hero: the heading leads, no kicker ---- */}
-        <section className="grid items-center gap-10 pt-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-14 lg:pt-24">
-          <div>
-            <h1 className="max-w-xl text-balance font-serif text-[42px] font-semibold leading-[1.06] tracking-[-0.025em] text-ink sm:text-[58px]">
-              {c.hero.h1}
-            </h1>
-            <p className="mt-6 max-w-lg text-[16.5px] leading-relaxed text-ink-2">{c.hero.sub}</p>
-
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Link
-                to="/signup"
-                className="group inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-[15px] font-semibold text-on-primary shadow-raised transition-colors hover:bg-primary-strong"
-              >
-                <Icon icon={GraduationCap} size={19} />
-                {c.hero.primary}
-                <Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
-              </Link>
-              <Link
-                to="/login"
-                className="inline-flex items-center gap-2 rounded-xl border border-line-2 bg-surface px-5 py-3 text-[15px] font-semibold text-ink shadow-panel transition-colors hover:border-ink-3/45 hover:bg-surface-2"
-              >
-                <Icon icon={LogIn} size={18} className="text-ink-2" />
-                {c.hero.secondary}
-              </Link>
-            </div>
-            <p className="mt-6 text-[13px] text-ink-3">{c.hero.trust}</p>
+    <MarketingShell c={content}>
+      <section className="grid items-center gap-12 pb-20 pt-14 lg:grid-cols-[1.06fr_0.94fr] lg:gap-16 lg:pb-28 lg:pt-24">
+        <div>
+          <div className="mb-6 inline-flex items-center gap-2 border-b border-line pb-2 text-[10.5px] font-semibold text-ink-2"><Icon icon={Sparkles} size={14} className="text-accent-strong" />{c.lang === 'ar' ? 'من Connect Academy · منذ ٢٠١١' : 'From Connect Academy · since 2011'}</div>
+          <h1 className="max-w-2xl text-balance font-serif text-[43px] font-semibold leading-[1.04] tracking-[-0.03em] text-ink sm:text-[60px]">{c.hero.title}</h1>
+          <p className="mt-6 max-w-xl text-[16px] leading-7 text-ink-2 sm:text-[17px]">{c.hero.body}</p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link to={TRIAL_PATH} className="group inline-flex min-h-12 items-center gap-2 rounded-lg bg-primary px-5 text-[14.5px] font-semibold text-on-primary shadow-action transition-colors hover:bg-primary-hover">{c.hero.primary}<Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" /></Link>
+            <a href="#showcase" className="inline-flex min-h-12 items-center gap-2 rounded-lg border border-line-2 bg-surface px-5 text-[14.5px] font-semibold text-ink shadow-control transition-colors hover:bg-surface-2"><Icon icon={CircleDot} size={16} className="text-primary" />{c.hero.secondary}</a>
           </div>
+          <p className="mt-5 inline-flex items-center gap-2 text-[12px] font-medium text-ink-3"><Icon icon={Check} size={14} className="text-success" />{c.hero.trust}</p>
+        </div>
+        <TodaySurface c={c} />
+      </section>
 
-          <div className="lg:ps-4">
-            <TodaySpecimen c={c.specimen} lang={c.lang} />
-          </div>
-        </section>
-
-        {/* ---- Reference values: a ruled formulary strip, not tiles ---- */}
-        <section className="mt-16 overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
-          <dl className="grid grid-cols-2 divide-line md:grid-cols-4 md:divide-x rtl:md:divide-x-reverse [&>div]:border-b [&>div]:border-line md:[&>div]:border-b-0">
-            {c.stats.map((s) => (
-              <div key={s.label} className="flex items-baseline justify-between gap-3 px-5 py-4">
-                <dt className="text-[12.5px] leading-tight text-ink-2">{s.label}</dt>
-                <dd className="tnum shrink-0 font-mono text-[19px] font-semibold text-ink">{s.value}</dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-
-        {/* ---- Everything in one place: a chart-index (ruled), not a card grid ---- */}
-        <section className="mt-24">
-          <div className="flex items-end justify-between gap-6 border-b-2 border-ink/85 pb-3">
-            <h2 className="font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{c.featuresTitle}</h2>
-            <p className="hidden max-w-xs text-[13.5px] leading-snug text-ink-2 sm:block">{c.featuresSub}</p>
-          </div>
-          <dl className="grid sm:grid-cols-2 sm:gap-x-12">
-            {c.features.map((f) => (
-              <div key={f.label} className="group flex items-baseline gap-4 border-b border-line py-4">
-                <Icon icon={FEATURE_ICON[f.icon]} size={17} className="mt-0.5 shrink-0 self-start text-primary" strokeWidth={2} />
-                <dt className="w-32 shrink-0 text-[14.5px] font-semibold text-ink">{f.label}</dt>
-                <dd className="flex-1 text-[13.5px] leading-snug text-ink-2">{f.line}</dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-
-        {/* ---- What it actually looks like: the product's own surfaces ---- */}
-        <Walkthrough c={c} />
-
-        {/* ---- How Connect Cortex decides: a numbered clinical protocol (sequence carries meaning) ---- */}
-        <section className="mt-24 overflow-hidden rounded-2xl border border-line">
-          <div className="grid-chart-major border-b border-line bg-surface-2/50 px-6 py-10 sm:px-10 sm:py-12">
-            <h2 className="max-w-2xl font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{c.how.title}</h2>
-            <p className="mt-2.5 max-w-xl text-[15px] leading-relaxed text-ink-2">{c.how.sub}</p>
-          </div>
-          <ol className="grid divide-y divide-line bg-surface sm:grid-cols-3 sm:divide-x sm:divide-y-0 rtl:sm:divide-x-reverse">
-            {c.how.steps.map((step) => (
-              <li key={step.k} className="p-6 sm:p-8">
-                <div className="flex items-center gap-3">
-                  <span className="tnum grid size-8 place-items-center rounded-lg border border-primary-line bg-primary-tint font-mono text-[14px] font-semibold text-primary-strong">{step.k}</span>
-                  <span className="h-px flex-1 bg-line" aria-hidden />
-                </div>
-                <h3 className="mt-4 text-[16px] font-semibold text-ink">{step.title}</h3>
-                <p className="mt-2 text-[13.5px] leading-relaxed text-ink-2">{step.line}</p>
-              </li>
-            ))}
-          </ol>
-        </section>
-
-        {/* ---- Arabic-first, bilingual: honest mirrored specimens ---- */}
-        <section className="mt-24 grid items-center gap-10 lg:grid-cols-[1fr_auto]">
-          <div>
-            <h2 className="max-w-xl font-serif text-[27px] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">{c.bilingual.title}</h2>
-            <p className="mt-3 max-w-xl text-[15px] leading-relaxed text-ink-2">{c.bilingual.sub}</p>
-            <ul className="mt-6 space-y-2.5">
-              {c.bilingual.points.map((p) => (
-                <li key={p} className="flex items-center gap-2.5 text-[14px] font-medium text-ink">
-                  <span className="grid size-5 shrink-0 place-items-center rounded-full bg-success/15 text-success"><Icon icon={Check} size={13} strokeWidth={2.6} /></span>
-                  {p}
-                </li>
-              ))}
-            </ul>
-          </div>
-          {/* The same real reading, mirrored: RTL and LTR side by side */}
-          <div className="grid grid-cols-2 gap-3">
-            <div className="w-[10.5rem] rounded-xl border border-line bg-surface p-3.5 shadow-panel" dir="rtl" lang="ar">
-              <div className="flex items-baseline justify-between">
-                <span className="text-[11.5px] font-medium text-ink-2">الجاهزية</span>
-                <span className="tnum font-mono text-[12.5px] font-semibold text-ink">68%</span>
-              </div>
-              <div className="mt-2"><ReferenceBar value={68} /></div>
-            </div>
-            <div className="w-[10.5rem] rounded-xl border border-line bg-surface p-3.5 shadow-panel" dir="ltr" lang="en">
-              <div className="flex items-baseline justify-between">
-                <span className="text-[11.5px] font-medium text-ink-2">Readiness</span>
-                <span className="tnum font-mono text-[12.5px] font-semibold text-ink">68%</span>
-              </div>
-              <div className="mt-2"><ReferenceBar value={68} /></div>
-            </div>
-          </div>
-        </section>
-
-        <PricingTeaser c={c} />
-
-        {/* ---- Close ---- */}
-        <section className="mt-24 overflow-hidden rounded-2xl border border-primary-strong/25 bg-primary px-6 py-14 text-center text-on-primary sm:px-10 sm:py-20">
-          <h2 className="mx-auto max-w-2xl text-balance font-serif text-[30px] font-semibold leading-[1.1] tracking-[-0.02em] sm:text-[38px]">{c.cta.title}</h2>
-          <p className="mx-auto mt-4 max-w-xl text-[15.5px] leading-relaxed text-on-primary/85">{c.cta.sub}</p>
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link to="/signup" className="group inline-flex items-center gap-2 rounded-xl bg-on-primary px-5 py-3 text-[15px] font-semibold text-primary-strong shadow-raised transition-transform hover:-translate-y-0.5">
-              {c.cta.button}
-              <Icon icon={ArrowRight} size={17} className="transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100 rtl:group-hover:-translate-x-0.5" />
-            </Link>
-            <Link to="/login" className="inline-flex items-center gap-2 rounded-xl border border-on-primary/30 px-5 py-3 text-[15px] font-semibold text-on-primary transition-colors hover:bg-on-primary/10">
-              {c.cta.secondary}
-            </Link>
-          </div>
-        </section>
+      <Provenance c={c} />
+      <Curriculum c={c} />
+      <MaristanaShowcase c={c} />
+      <FeatureSuites c={c} />
+      <ValueClose c={c} legacyContent={content} />
     </MarketingShell>
   )
 }

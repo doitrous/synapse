@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { buildGrid, MIN_TERMS, type GridTerm, type Grid } from './crossword.ts'
+import { buildGrid, givenTermsForGrid, MIN_TERMS, normalizeTermGridAnswer, normalizeTermGridLetter, type GridTerm, type Grid } from './crossword.ts'
 
 const terms: GridTerm[] = [
   { term: 'ANTERIOR', clue: 'Toward the front' },
@@ -165,6 +165,40 @@ test('terms that can never interlock enough are refused, not made into a stub', 
   assert.equal(grid.width, 0)
   assert.equal(grid.height, 0)
   assert.equal(grid.skipped.length, 9)
+})
+
+test('answer normalization ignores copy-paste presentation marks consistently', () => {
+  assert.equal(normalizeTermGridAnswer("  naïve T-cell's β-lock  "), 'NAIVETCELLSLOCK')
+  assert.equal(normalizeTermGridAnswer('co\u0301te d’ivoire'), 'COTEDIVOIRE')
+  assert.equal(normalizeTermGridLetter(' -é '), 'E')
+})
+
+test('grid building uses the same normalization as typed answers', () => {
+  const noisy: GridTerm[] = [
+    { term: 'Anterior', clue: 'Toward the front' },
+    { term: 'post-erior', clue: 'Toward the back' },
+    { term: 'supérior', clue: 'Above' },
+    { term: 'in ferior', clue: 'Below' },
+    { term: "medi'al", clue: 'Toward the midline' },
+    { term: 'late ral', clue: 'Away from the midline' },
+    { term: 'proximal', clue: 'Nearer the trunk' },
+    { term: 'distal', clue: 'Further from the trunk' },
+    { term: 'supine', clue: 'Lying face up' },
+    { term: 'prone', clue: 'Lying face down' },
+  ]
+  const grid = buildGrid(noisy, 12)
+  const reported = new Set([...grid.words.map((word) => word.term), ...grid.skipped])
+  assert.ok(reported.has('SUPERIOR'))
+  assert.ok(reported.has('INFERIOR'))
+  assert.ok(grid.words.every((word) => /^[A-Z]+$/.test(word.term)))
+})
+
+test('exactly two givens are selected deterministically when a grid has enough words', () => {
+  const grid = buildGrid(terms, 21)
+  const givens = givenTermsForGrid(grid, 21)
+  assert.equal(givens.length, 2)
+  assert.deepEqual(givens, givenTermsForGrid(grid, 21))
+  assert.ok(givens.every((term) => grid.words.some((word) => word.term === term)))
 })
 
 test('the board stays small enough to solve on a phone', () => {

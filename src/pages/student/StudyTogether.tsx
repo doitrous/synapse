@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
-import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight, Grid3x3 } from 'lucide-react'
+import { Users, Hash, Copy, Check, Play, Plus, LogIn, Trophy, Eye, ArrowLeft, ArrowRight, Grid3x3, Crosshair, Shuffle } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { QuestionView } from '@/components/qbank/QuestionView'
@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { Meter } from '@/components/ui/Meter'
-import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
@@ -27,12 +26,18 @@ import { FriendsPanel } from '@/components/social/FriendsPanel'
 import { ChallengePanel, ChallengeDialog } from '@/components/social/ChallengePanel'
 import { ChallengeRunner } from '@/components/social/ChallengeRunner'
 import { PartiesPanel } from '@/components/social/PartiesPanel'
+import { DemoFriendsPreview, DemoPartiesPreview, DemoSharedTestsPreview } from '@/components/social/DemoCollaborationPreview'
 import { API_MODE } from '@/lib/api'
 import { formatRelativeTime } from '@/lib/format'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 const MAX_QUESTIONS = 40
+
+/** A fresh seed for a link nobody has opened yet — shared by all three minigames below. */
+function randomGameSeed(): number {
+  return Math.floor(Math.random() * 0x7fffffff)
+}
 
 function shuffle<T>(items: T[]): T[] {
   const copy = [...items]
@@ -365,7 +370,10 @@ export function StudyTogether() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
-  const { friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite } = useFriends()
+  const {
+    friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite,
+    linkFacebook, matchFacebook,
+  } = useFriends()
   const [inviteNotice, setInviteNotice] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null)
 
   const { challenges, reload: reloadChallenges } = useMyChallenges()
@@ -401,16 +409,22 @@ export function StudyTogether() {
   const handleChallenge = useCallback((friend: FriendProfile) => setChallengeTarget(friend), [])
 
   /**
-   * A fresh seed is the whole invitation: whoever opens this link runs the
-   * same deterministic generator (`buildGrid`) over the same glossary and
-   * lands on the identical grid, with no room and no server round trip to
-   * arrange first. No category travels with it — Term Grid's own default
-   * (the first published category) resolves the same way for both students,
-   * since they read the same glossary.
+   * A fresh seed is the whole invitation: whoever opens one of these links
+   * runs the same deterministic generator — `buildGrid`, `buildSpotter`, or
+   * `buildBoard` — over the same published content and lands on the identical
+   * game, with no room and no server round trip to arrange first. None of the
+   * three needs any other parameter: each game's own default (Term Grid's
+   * first published category, Term Match's default mode) resolves the same
+   * way for both students, since they read the same glossary or slide set.
    */
   const handlePlayTermGrid = useCallback(() => {
-    const seed = Math.floor(Math.random() * 0x7fffffff)
-    navigate(`/app/term-grid?seed=${seed}`)
+    navigate(`/app/term-grid?seed=${randomGameSeed()}`)
+  }, [navigate])
+  const handlePlaySpotter = useCallback(() => {
+    navigate(`/app/spotter?seed=${randomGameSeed()}`)
+  }, [navigate])
+  const handlePlayTermMatch = useCallback(() => {
+    navigate(`/app/term-match?seed=${randomGameSeed()}`)
   }, [navigate])
 
   /**
@@ -503,13 +517,7 @@ export function StudyTogether() {
   const past = rooms.filter((room) => room.status === 'closed')
 
   const testsContent = !API_MODE ? (
-    <Panel className="p-10">
-      <EmptyState
-        icon={Users}
-        title={t('Shared tests need the backend')}
-        description={t('A shared test lives on the server so other people can join it by code. Connect the backend to create one.')}
-      />
-    </Panel>
+    <DemoSharedTestsPreview />
   ) : (
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.3fr)_minmax(18rem,0.7fr)]">
         <Panel>
@@ -629,25 +637,13 @@ export function StudyTogether() {
   )
 
   const partiesContent = !API_MODE ? (
-    <Panel className="p-10">
-      <EmptyState
-        icon={Users}
-        title={t('Study parties need the backend')}
-        description={t('A party lives on the server so the rest of your year can find and join it. Connect the backend to start one.')}
-      />
-    </Panel>
+    <DemoPartiesPreview />
   ) : (
     <PartiesPanel />
   )
 
   const friendsContent = !API_MODE ? (
-    <Panel className="p-10">
-      <EmptyState
-        icon={Users}
-        title={t('Friends need the backend')}
-        description={t('Friend requests live on the server so both people can see them. Connect the backend to add friends.')}
-      />
-    </Panel>
+    <DemoFriendsPreview />
   ) : (
     <div className="space-y-4">
       {inviteNotice && (
@@ -672,6 +668,8 @@ export function StudyTogether() {
         onCreateInvite={mintInvite}
         onRequest={request}
         onSearchDirectory={searchDirectory}
+        onConnectFacebook={linkFacebook}
+        onMatchFacebook={matchFacebook}
       />
     </div>
   )
@@ -693,9 +691,20 @@ export function StudyTogether() {
             { value: 'friends', label: t('Friends') },
           ]}
         />
-        <Button variant="secondary" iconLeft={Grid3x3} onClick={handlePlayTermGrid}>
-          {t('Play a Term Grid with a friend')}
-        </Button>
+        {/* One row rather than one button per game: all three are the same
+            invitation — a fresh seed and a link — so they read as one family
+            of actions, not three separate features competing for space. */}
+        <div className="flex flex-wrap items-center gap-2">
+          <Button variant="secondary" iconLeft={Grid3x3} onClick={handlePlayTermGrid}>
+            {t('Term Grid')}
+          </Button>
+          <Button variant="secondary" iconLeft={Crosshair} onClick={handlePlaySpotter}>
+            {t('Spotter')}
+          </Button>
+          <Button variant="secondary" iconLeft={Shuffle} onClick={handlePlayTermMatch}>
+            {t('Term Match')}
+          </Button>
+        </div>
       </div>
 
       {tab === 'tests' ? testsContent : tab === 'parties' ? partiesContent : friendsContent}

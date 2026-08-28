@@ -4,9 +4,11 @@ import { FolderOpen, ChevronRight, Network, GraduationCap } from 'lucide-react'
 import { ControlDashboard, type ContentScope } from './ControlDashboard'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useScopedItems } from '@/lib/useScopedContent'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, itemInScope, type ManagedContentItem } from '@/data/contentControl'
 import { Icon } from '@/components/ui/Icon'
 import { StorageLimitsPanel } from '@/components/admin/StorageLimitsPanel'
+import { MediaLibraryBrowser } from '@/components/admin/MediaLibraryBrowser'
 import { cn } from '@/lib/cn'
 
 type Selection = { universityId?: string; year?: string }
@@ -21,7 +23,8 @@ export function ResourcesSetup() {
   const [universities] = useUniversityCatalogue()
   const [selection, setSelection] = useState<Selection>({})
   const [openUni, setOpenUni] = useState<string | null>(null)
-  const [items] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const items = useScopedItems(ledger)
 
   const scope: ContentScope = { universityId: selection.universityId, year: selection.year }
   const isMaster = !selection.universityId && !selection.year
@@ -75,7 +78,7 @@ export function ResourcesSetup() {
                   <button
                     type="button"
                     onClick={() => setOpenUni(uniOpen ? null : u.id)}
-                    className="grid size-7 place-items-center rounded text-ink-3 hover:text-ink"
+                    className="grid size-10 place-items-center rounded text-ink-3 hover:text-ink sm:size-8"
                     aria-label={uniOpen ? `Collapse ${u.short}` : `Expand ${u.short}`}
                   >
                     <Icon icon={ChevronRight} size={14} className={cn('chevron-turn')} open={uniOpen} />
@@ -84,7 +87,7 @@ export function ResourcesSetup() {
                     type="button"
                     onClick={() => { setSelection({ universityId: u.id }); setOpenUni(u.id) }}
                     className={cn(
-                      'flex flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px]',
+                      'flex min-h-10 flex-1 items-center gap-2 rounded-md px-2 py-1.5 text-start text-[13px]',
                       uniActive ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-2 hover:bg-inset',
                     )}
                   >
@@ -105,7 +108,7 @@ export function ResourcesSetup() {
                             type="button"
                             onClick={() => setSelection({ universityId: u.id, year: y })}
                             className={cn(
-                              'block w-full rounded px-2.5 py-1.5 text-start text-[12.5px]',
+                              'block min-h-10 w-full rounded px-2.5 py-1.5 text-start text-[12.5px]',
                               yearActive ? 'bg-primary-tint font-medium text-primary-strong' : 'text-ink-3 hover:bg-inset hover:text-ink-2',
                             )}
                           >
@@ -121,7 +124,7 @@ export function ResourcesSetup() {
           })}
         </ul>
 
-        <Link to="/admin/taxonomy" className="mt-4 flex items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-primary-line hover:text-primary-strong">
+        <Link to="/admin/taxonomy" className="mt-4 flex min-h-11 items-center gap-2 rounded-lg border border-line px-3 py-2 text-[12px] text-ink-2 hover:border-primary-line hover:text-primary-strong">
           <Icon icon={Network} size={14} />
           Edit systems & topics
         </Link>
@@ -136,6 +139,7 @@ export function ResourcesSetup() {
             : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
         </div>
         <div className="px-5 pt-3">
+          <MediaLibraryBrowser />
           <StorageLimitsPanel />
         </div>
         <ControlDashboard key={`${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="resource" lockedKind scope={scope} />

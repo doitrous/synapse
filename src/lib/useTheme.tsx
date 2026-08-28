@@ -1,7 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 
 /**
- * Light, Warm and Dark.
+ * Light, Warm, Dark and OLED.
  *
  * Deliberately backed by plain localStorage rather than `usePersistentState`:
  * that hook round-trips to the server and hydrates asynchronously, so the app
@@ -10,7 +10,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
  * exists — see THEME_BOOT_SCRIPT — which is what makes the first paint correct.
  */
 
-export const THEMES = ['light', 'warm', 'dark'] as const
+export const THEMES = ['light', 'warm', 'dark', 'oled'] as const
 export type Theme = (typeof THEMES)[number]
 
 /**
@@ -20,7 +20,7 @@ export type Theme = (typeof THEMES)[number]
  */
 export const THEME_STORAGE_KEY = 'synapse-theme'
 
-/** Light is the reference ground the Connect Cortex palette is built around. */
+/** Light is the reference ground the Maristana palette is built around. */
 const DEFAULT_THEME: Theme = 'light'
 
 /** The address bar / task switcher colour, so browser chrome matches the page. */
@@ -28,6 +28,7 @@ const THEME_COLOR: Record<Theme, string> = {
   light: '#f5f7fb',
   warm: '#f7f2ea',
   dark: '#0d1117',
+  oled: '#000000',
 }
 
 function isTheme(value: unknown): value is Theme {

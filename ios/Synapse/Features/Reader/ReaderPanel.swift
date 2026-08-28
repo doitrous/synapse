@@ -42,6 +42,7 @@ extension PDFDocument {
 /// Finding your way around a document: its contents, your own sections, and
 /// what either of you wrote.
 struct ReaderPanel: View {
+    @Environment(\.strings) private var strings
 
     enum Tab: String, CaseIterable, Identifiable {
         case contents, search
@@ -99,21 +100,21 @@ struct ReaderPanel: View {
                     .frame(width: 200)
                 }
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button("Done", action: close)
+                    Button(strings("Done"), action: close)
                         .font(Theme.ui(16, weight: 600))
                         .tint(Theme.primary)
                 }
             }
         }
-        .alert("Name this section", isPresented: $naming) {
+        .alert(strings("Name this section"), isPresented: $naming) {
             TextField("Page \(currentPage)", text: $sectionTitle)
-            Button("Cancel", role: .cancel) { sectionTitle = "" }
-            Button("Add") {
+            Button(strings("Cancel"), role: .cancel) { sectionTitle = "" }
+            Button(strings("Add")) {
                 addSection(sectionTitle.isEmpty ? "Page \(currentPage)" : sectionTitle)
                 sectionTitle = ""
             }
         } message: {
-            Text("It will be listed here, whatever page you are on.")
+            Text(strings("It will be listed here, whatever page you are on."))
         }
     }
 
@@ -128,7 +129,7 @@ struct ReaderPanel: View {
                     detail: "This document does not carry one. Mark your own sections instead, or search it."
                 )
                 Button { naming = true } label: {
-                    Label("Section here", systemImage: "plus")
+                    Label(strings("Section here"), systemImage: "plus")
                 }
                 .font(Theme.ui(15, weight: 600))
                 .tint(Theme.primary)
@@ -137,7 +138,7 @@ struct ReaderPanel: View {
             List {
                 Section {
                     Button { naming = true } label: {
-                        Label("Section here", systemImage: "plus")
+                        Label(strings("Section here"), systemImage: "plus")
                             .font(Theme.ui(14, weight: 600))
                             .foregroundStyle(Theme.primary)
                     }
@@ -145,7 +146,7 @@ struct ReaderPanel: View {
                 .listRowBackground(Theme.surface)
 
                 if !markers.isEmpty {
-                    Section("Your sections") {
+                    Section(strings("Your sections")) {
                         ForEach(markers) { marker in
                             Button { goTo(marker.page) } label: {
                                 row(marker.title ?? "", page: marker.page, depth: 0, mine: true)
@@ -154,7 +155,7 @@ struct ReaderPanel: View {
                                 Button(role: .destructive) {
                                     removeSection(marker.id)
                                 } label: {
-                                    Label("Remove", systemImage: "trash")
+                                    Label(strings("Remove"), systemImage: "trash")
                                 }
                             }
                         }
@@ -163,7 +164,7 @@ struct ReaderPanel: View {
                 }
 
                 if !outline.isEmpty {
-                    Section("In this document") {
+                    Section(strings("In this document")) {
                         ForEach(outline) { entry in
                             Button { entry.page.map(goTo) } label: {
                                 row(entry.title, page: entry.page, depth: entry.depth, mine: false)
@@ -206,7 +207,7 @@ struct ReaderPanel: View {
     private var search: some View {
         List {
             Section {
-                TextField("Find in this document…", text: $query)
+                TextField(strings("Find in this document…"), text: $query)
                     .font(Theme.ui(15))
                     .submitLabel(.search)
                     .autocorrectionDisabled()
@@ -222,7 +223,7 @@ struct ReaderPanel: View {
             .listRowBackground(Theme.surface)
 
             if !noteHits.isEmpty {
-                Section("In your notes") {
+                Section(strings("In your notes")) {
                     ForEach(noteHits) { hit in
                         Button { goTo(hit.page) } label: { hitRow(hit) }
                     }
@@ -234,7 +235,7 @@ struct ReaderPanel: View {
                 Section {
                     HStack(spacing: 10) {
                         ProgressView().tint(Theme.primary)
-                        Text("Reading the document…")
+                        Text(strings("Reading the document…"))
                             .font(Theme.ui(13))
                             .foregroundStyle(Theme.ink2)
                     }
@@ -250,10 +251,10 @@ struct ReaderPanel: View {
             } else if scanned, !hasText {
                 Section {
                     VStack(alignment: .leading, spacing: 6) {
-                        Label("This one is a scan", systemImage: "doc.text.image")
+                        Label(strings("This one is a scan"), systemImage: "doc.text.image")
                             .font(Theme.ui(14, weight: 600))
                             .foregroundStyle(Theme.ink)
-                        Text("It is photographs of pages, with no text behind them, so there are no words in it to search. Anything you write on it is still searched.")
+                        Text(strings("It is photographs of pages, with no text behind them, so there are no words in it to search. Anything you write on it is still searched."))
                             .font(Theme.ui(13))
                             .foregroundStyle(Theme.ink2)
                     }
@@ -270,7 +271,7 @@ struct ReaderPanel: View {
             } else if !query.isEmpty, !scanned {
                 Section {
                     Button(action: scan) {
-                        Label("Search the document too", systemImage: "magnifyingglass")
+                        Label(strings("Search the document too"), systemImage: "magnifyingglass")
                             .font(Theme.ui(14, weight: 600))
                             .foregroundStyle(Theme.primary)
                     }

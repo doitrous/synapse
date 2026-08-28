@@ -2,23 +2,72 @@ import { randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { basename, dirname, join, resolve, sep } from 'node:path'
 import { existsSync } from 'node:fs'
-import { readFile, rm, unlink } from 'node:fs/promises'
+import { mkdir, open, readFile, rename, rm, stat, unlink } from 'node:fs/promises'
 import express from 'express'
 import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
-import { createShare, deleteShare, listShares, readShare, updateShare } from './shares.js'
-import { apiAuthGate, mfaSatisfied, requireAdmin, requireAuthenticated } from './auth.js'
 import {
-  listUsers, getUser, getUserByIdentity, grantSubscription, cancelSubscription,
-  setAccessStatus, requestPasswordReset, recordAction, readReason,
-  passwordResetConfigured, getUserActivity, setRole, identifierTaken, entitlementOf, saveOwnEnrolment,
-  getDiscoverable, setDiscoverable,
+  REDACTED_STATE_KEYS,
+  archiveScopeBlockedPublishedItems,
+  newlyArchiveScopeBlockedPublishedItems,
+  newlyMediaBlockedPublishedItems,
+  redactLedgerForStudent,
+  releasedMediaIdsFromDocument,
+} from './studentLedger.js'
+import {
+  createShare, deleteShare, listDiscoverableShares, listShareNotifications, listShares,
+  markShareNotificationsRead, readShare, readShareAsset, setShareFollow, setShareStar,
+  shareRevisionHistory, updateShare,
+} from './shares.js'
+import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
+import { hasConsoleAccess } from './roles.js'
+import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
+import { mediaMeta } from './mediaMeta.js'
+import { MEDIA_STATE_KEY, deleteRefusal, isMediaReleased, storageKeyFor } from './mediaLibrary.js'
+import { createMediaPlaybackToken, readMediaPlaybackToken } from './mediaPlayback.js'
+import { authoriseChanges, diffDocument, mergeDocument, isMergeable, reconstructChanges, applyDelta } from './stateMerge.js'
+import { collectMediaRequests } from './mediaRequestPolicy.js'
+import { describeProviders } from './mediaProvider.js'
+import {
+  CONTENT_REPORTS_STATE_KEY, CONTENT_REPORT_TOMBSTONES_KEY,
+  buildContentReport, buildTombstone, deletionConfirmed, reporterRoleLabel,
+} from './contentReports.js'
+import {
+  cancelSubscription,
+  entitlementOf,
+  getDiscoverable,
+  getUser,
+  getUserActivity,
+  getUserByIdentity,
+  grantSubscription,
+  identifierTaken,
+  listUsers,
+  passwordResetConfigured,
+  readReason,
+  recordAction,
+  requestPasswordReset,
+  setUserPassword,
+  saveOwnEnrolment,
+  setAccessStatus,
+  setContentScope,
+  setDiscoverable,
+  setRole,
 } from './accounts.js'
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
+import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
+import {
+  createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
+  listEnrollmentChangeRequests, myEnrollmentChangeRequests,
+  applyDirectEnrollmentChange,
+} from './enrollmentChanges.js'
+import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
+import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
+import { activityTrackingSummary } from './studyTrackingAdmin.js'
+import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
   chat as assistantChat,
@@ -29,6 +78,8 @@ import {
   usageSummary as assistantUsage,
   listModels as assistantModels,
 } from './assistant.js'
+import { sendSilentNudge } from './push.js'
+import { deleteAccount } from './accountDeletion.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
 } from './studyRooms.js'
@@ -36,6 +87,9 @@ import {
   createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
   createSession, sessionsFor, sessionFor, answerItem, closeSession,
 } from './parties.js'
+import {
+  actOnPartyGame, createPartyGame, partyGameFor, partyGamesFor, streamPartyGameEvents,
+} from './partyGames.js'
 import {
   createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
 } from './challenges.js'
@@ -45,16 +99,53 @@ import { mintInvite, redeemInvite } from './friendInvites.js'
 import {
   linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount,
   deletionCallback as facebookDeletionCallback, parseSignedRequest as parseFacebookSignedRequest,
+  matchFacebookFriends,
 } from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
+import { withContentCatalogueGate } from './contentCatalogueGate.js'
+import { affectedSessionIds, affectedSessionSetsMatch } from './contentArchiveActivity.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
+import {
+  CONTENT_ARCHIVE_TTL_MINUTES,
+  CONTENT_ARCHIVE_SELECTION,
+  activeArchiveBlockers,
+  archiveActivityAllowed,
+  applyContentArchive,
+  archiveConfirmation,
+  contentArchiveManifest,
+  contentDigest,
+} from './contentArchive.js'
+import {
+  ACADEMIC_STATE_KEYS,
+  academicPreview,
+  parseAcademicDocuments,
+  studentUniversityProjection,
+} from './academic.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
 const RESOURCE_STORAGE_DIR = resolve(process.env.RESOURCE_STORAGE_DIR || '/data/medical-library')
 const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 * 1024
+/** Managed teaching media shares the resource volume. Small legacy uploads keep
+ * a single-request ceiling; the normal path uses bounded chunks up to 2 GB. */
+const MEDIA_STORAGE_DIR = RESOURCE_STORAGE_DIR
+const MEDIA_MAX_BYTES = Number(process.env.MEDIA_MAX_BYTES) || 100 * 1024 * 1024
+// Per-type ceilings, enforced after the bytes are sniffed so the limit follows
+// what the file actually is, not what it was named: images 100 MB, audio 500 MB,
+// video 5 GB.
+const MEDIA_IMAGE_MAX_BYTES = Number(process.env.MEDIA_IMAGE_MAX_BYTES) || 100 * 1024 * 1024
+const MEDIA_AUDIO_MAX_BYTES = Number(process.env.MEDIA_AUDIO_MAX_BYTES) || 500 * 1024 * 1024
+const MEDIA_VIDEO_MAX_BYTES = Number(process.env.MEDIA_VIDEO_MAX_BYTES) || 5 * 1024 * 1024 * 1024
+const MEDIA_TYPE_MAX_BYTES = { image: MEDIA_IMAGE_MAX_BYTES, audio: MEDIA_AUDIO_MAX_BYTES, video: MEDIA_VIDEO_MAX_BYTES }
+const MEDIA_CHUNK_MAX_BYTES = Number(process.env.MEDIA_CHUNK_MAX_BYTES) || 8 * 1024 * 1024
+// The session ceiling is the largest any single type allows (video), so a large
+// video can begin; the per-type cap above is what actually bounds it once known.
+const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || MEDIA_VIDEO_MAX_BYTES
+const MEDIA_UPLOAD_MAX_AGE_HOURS = Math.max(1, Number(process.env.MEDIA_UPLOAD_MAX_AGE_HOURS) || 24)
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
+const CONTENT_LEDGER_STATE_KEY = 'synapse-admin-content-ledger-v4'
+const ACADEMIC_CATALOGUE_STATE_KEY = 'synapse-academic-universities-v1'
 const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
 let medicalResourceSnapshot = null
 let medicalResourceLoad = null
@@ -71,7 +162,82 @@ function invalidateSnapshots(key) {
     medicalResourceSnapshot = null
     medicalResourceLoad = null
   }
+  if (key === MEDIA_STATE_KEY) mediaSnapshot = null
   invalidatePublishedQuestions(key)
+}
+
+/**
+ * Every media record, cached until the document is written.
+ *
+ * Read on every image request, so it cannot be a query per image. Dropped by
+ * `invalidateSnapshots` above, the same shape the medical-resource snapshot
+ * already uses.
+ */
+let mediaSnapshot = null
+
+async function mediaRecords() {
+  if (mediaSnapshot) return mediaSnapshot
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [MEDIA_STATE_KEY])
+  mediaSnapshot = rows.length ? JSON.parse(rows[0].v)?.records ?? [] : []
+  return mediaSnapshot
+}
+
+/** Student activity that contains one of the questions this archive withdraws. */
+async function contentVisibilityResetSnapshot(db = pool, targetQuestionIds = null) {
+  const [[roomRows], [challengeRows], [partyRows]] = await Promise.all([
+    db.query("SELECT id, question_ids AS questionIds FROM study_rooms WHERE status IN ('lobby','running')"),
+    db.query("SELECT id, question_ids AS questionIds FROM challenges WHERE status IN ('sent','running')"),
+    db.query("SELECT id, item_refs AS itemRefs FROM study_party_sessions WHERE status IN ('open','scheduled')"),
+  ])
+  const sessionIds = {
+    studyRooms: affectedSessionIds(roomRows, 'questionIds', targetQuestionIds),
+    challenges: affectedSessionIds(challengeRows, 'questionIds', targetQuestionIds),
+    partyQuestionSessions: affectedSessionIds(partyRows, 'itemRefs', targetQuestionIds, { party: true }),
+  }
+  return {
+    active: Object.fromEntries(Object.entries(sessionIds).map(([kind, ids]) => [kind, ids.length])),
+    sessionIds,
+  }
+}
+
+async function contentVisibilityResetActivity(db = pool, targetQuestionIds = null) {
+  return (await contentVisibilityResetSnapshot(db, targetQuestionIds)).active
+}
+
+/**
+ * The file facts used by both authenticated fetches and signed playback URLs.
+ * New uploads are authoritative rows, which makes them readable immediately on
+ * completion. The JSON lookup is a backward-compatible bridge for assets
+ * uploaded before managed_media existed.
+ */
+async function managedMediaFile(id) {
+  const [rows] = await pool.query(
+    `SELECT id, storage_key AS storageKey, sha256, media_type AS mediaType,
+       mime_type AS mimeType, size_bytes AS sizeBytes, width, height
+     FROM managed_media WHERE id = ? AND status = 'ready'`,
+    [id],
+  )
+  if (rows[0]) return rows[0]
+  return (await mediaRecords()).find((entry) => entry.id === id) ?? null
+}
+
+function sendManagedMedia(res, record, { signed = false } = {}) {
+  const fullPath = resolveWithin(MEDIA_STORAGE_DIR, record?.storageKey || '')
+  if (!fullPath || !existsSync(fullPath)) return false
+  res.setHeader('Content-Type', record.mimeType || 'application/octet-stream')
+  res.setHeader('Cache-Control', signed ? 'private, no-store' : 'private, max-age=3600')
+  if (!signed) res.setHeader('Vary', 'Authorization')
+  res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.setHeader('Accept-Ranges', 'bytes')
+  res.sendFile(fullPath)
+  return true
+}
+
+/** Console staff may inspect drafts; students receive only released assets. */
+async function mayReadManagedMedia(identity, id) {
+  if (hasConsoleAccess(identity?.role)) return true
+  const record = (await mediaRecords()).find((entry) => entry.id === id)
+  return Boolean(record && isMediaReleased(record))
 }
 const app = express()
 /**
@@ -90,7 +256,12 @@ const app = express()
 app.use(compression())
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
-  limit: '25mb',
+  // The shared content documents are whole-document saves. The question ledger
+  // alone is ~23 MB and growing, so 25 MB was one import away from rejecting
+  // every save with 413. `limit` is checked against the DECOMPRESSED body, so it
+  // must exceed the raw document size even though clients now gzip it on the
+  // wire (body-parser inflates gzip requests automatically). 64 MB is headroom.
+  limit: '64mb',
   verify: (req, _res, buffer) => {
     if (req.originalUrl === '/api/webhooks/resend/inbound') req.rawBody = buffer.toString('utf8')
   },
@@ -158,15 +329,20 @@ app.post('/api/accounts/exists', wrap(async (req, res) => {
   res.json(await identifierTaken({ email, phone }))
 }))
 
-app.get('/api/session', (req, res) => res.json({
+app.get('/api/session', wrap(async (req, res) => res.json({
   user: req.identity ? {
     id: req.identity.id,
     email: req.identity.email,
     role: req.identity.role,
+    rank: req.identity.rank,
+    // What the console should render. Resolved here so the browser never has to
+    // work out its own permissions, and never disagrees with the guard.
+    tabs: await heldTabs(req.identity),
+    contentScope: req.identity.contentScope,
     aal: req.identity.aal,
     mfaRequired: Boolean(req.identity.mfaRequired),
   } : null,
-}))
+})))
 
 /**
  * The caller's own profile and entitlement.
@@ -180,9 +356,31 @@ app.get('/api/session', (req, res) => res.json({
 app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
   const user = await getUserByIdentity(req.identity.id)
   res.json({
-    user: { id: req.identity.id, email: req.identity.email, role: req.identity.role, aal: req.identity.aal, mfaRequired: Boolean(req.identity.mfaRequired) },
+    user: {
+      id: req.identity.id,
+      email: req.identity.email,
+      role: req.identity.role,
+      rank: req.identity.rank,
+      tabs: await heldTabs(req.identity),
+      contentScope: req.identity.contentScope,
+      aal: req.identity.aal,
+      mfaRequired: Boolean(req.identity.mfaRequired),
+    },
     profile: user
-      ? { studentId: user.id, name: user.name, email: user.email, universityId: user.universityId, year: user.year, group: user.group, status: user.status }
+      ? {
+          studentId: user.id,
+          name: user.name,
+          email: user.email,
+          universityId: user.universityId,
+          year: user.year,
+          yearId: user.yearId,
+          group: user.group,
+          status: user.status,
+          username: user.username,
+          profileIcon: user.profileIcon,
+          discoverable: user.discoverable,
+          socialProvider: user.socialProvider,
+        }
       : null,
     subscription: user?.subscription ?? null,
     entitlement: user?.entitlement ?? { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null },
@@ -200,8 +398,39 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
  */
 app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
   const result = await saveOwnEnrolment(req.identity.id, req.body ?? {})
-  if (result.error) return res.status(result.error === 'no_identity' ? 404 : 400).json({ error: result.error })
+  if (result.error) {
+    const status = result.error === 'no_identity' ? 404 : (result.error === 'enrollment_locked' || result.error === 'username_taken' ? 409 : 400)
+    return res.status(status).json(result)
+  }
   res.json({ ok: true, profile: result.profile })
+}))
+
+app.post('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
+  const result = await createEnrollmentChangeRequest(req.identity.id, req.body ?? {})
+  if (result.error) {
+    const status = result.error === 'pending_exists' || result.error === 'unchanged' ? 409 : 400
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.get('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ requests: await myEnrollmentChangeRequests(req.identity.id) })
+}))
+
+app.get('/api/me/university', requireAuthenticated, wrap(async (req, res) => {
+  const [profileRows] = await pool.query(
+    `SELECT id, university_id AS universityId, year, year_id AS yearId, study_group AS studyGroup
+       FROM students WHERE user_id = ? LIMIT 1`,
+    [req.identity.id],
+  )
+  const [stateRows] = await pool.query(
+    `SELECT k, v FROM app_state WHERE k IN (${ACADEMIC_STATE_KEYS.map(() => '?').join(',')})`,
+    ACADEMIC_STATE_KEYS,
+  )
+  const rawDocuments = Object.fromEntries(stateRows.map((row) => [row.k, row.v]))
+  const projection = studentUniversityProjection(profileRows[0] ?? null, parseAcademicDocuments(rawDocuments))
+  res.json(projection)
 }))
 
 /**
@@ -242,10 +471,9 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
 /**
  * Whether the caller shows up in their own year's directory.
  *
- * The column defaults to findable, because the cohort is already closed and
- * being found by your own classmates is the point of the directory — but
- * default-on only stays honest if a student can see and change it, which is
- * what these two routes are for. The actor is always the verified session;
+ * The column defaults to private. A student must deliberately opt in before
+ * they can appear in, or browse, their cohort directory. The actor is always
+ * the verified session;
  * the value being written is the only thing that comes from the body.
  */
 app.get('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
@@ -353,7 +581,8 @@ function describeUpload(body) {
 async function myDocument(userId, id) {
   const [rows] = await pool.query(
     `SELECT id, title, storage_key AS storageKey, media_type AS mediaType, file_name AS fileName,
-       mime_type AS mimeType, size_bytes AS sizeBytes, sha256, page_count AS pageCount, created_at AS createdAt
+       mime_type AS mimeType, size_bytes AS sizeBytes, sha256, page_count AS pageCount,
+       source_kind AS sourceKind, source_id AS sourceId, created_at AS createdAt
      FROM user_documents WHERE id = ? AND user_id = ? AND deleted_at IS NULL`,
     [id, userId],
   )
@@ -363,7 +592,8 @@ async function myDocument(userId, id) {
 app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const [rows] = await pool.query(
     `SELECT id, title, media_type AS mediaType, file_name AS fileName, mime_type AS mimeType,
-       size_bytes AS sizeBytes, page_count AS pageCount, created_at AS createdAt
+       size_bytes AS sizeBytes, page_count AS pageCount, source_kind AS sourceKind,
+       source_id AS sourceId, created_at AS createdAt
      FROM user_documents WHERE user_id = ? AND deleted_at IS NULL ORDER BY created_at DESC`,
     [req.identity.id],
   )
@@ -376,9 +606,13 @@ app.post('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const upload = describeUpload(req.body)
   // Generated here, never accepted: a path is not something a client gets to say.
   const storageKey = join('my-documents', req.identity.id.replace(/[^a-zA-Z0-9_-]/g, '_'), `${id}.${upload.extension}`)
+  const sourceKind = ['notebook', 'whiteboard'].includes(req.body?.sourceKind) ? req.body.sourceKind : 'resource'
+  const sourceId = String(req.body?.sourceId ?? '').trim().replace(/[\r\n\t]/g, ' ').slice(0, 64) || null
   await pool.query(
-    'INSERT INTO user_documents (id, user_id, title, storage_key, media_type, file_name, mime_type) VALUES (?, ?, ?, ?, ?, ?, ?)',
-    [id, req.identity.id, documentTitle(req.body?.title), storageKey, upload.kind, upload.fileName, upload.mimeType],
+    `INSERT INTO user_documents
+       (id, user_id, title, storage_key, media_type, file_name, mime_type, source_kind, source_id)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+    [id, req.identity.id, documentTitle(req.body?.title), storageKey, upload.kind, upload.fileName, upload.mimeType, sourceKind, sourceId],
   )
   res.json({ id, uploadId: randomUUID().replace(/-/g, ''), chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES, mediaType: upload.kind })
 }))
@@ -457,11 +691,12 @@ app.get('/api/my-documents/:id/file', requireAuthenticated, wrap(async (req, res
   const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
   if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'document file is still uploading' })
   const isPdf = document.mediaType === 'pdf'
+  const safeImageMime = /^(?:image\/(?:avif|gif|jpeg|png|webp))$/i.test(document.mimeType ?? '') ? document.mimeType : null
   const name = basename(document.fileName || `${document.title}.${isPdf ? 'pdf' : 'bin'}`).replace(/["\r\n]/g, '')
-  res.setHeader('Content-Type', isPdf ? 'application/pdf' : 'application/octet-stream')
-  // A PDF is opened in the reader. Anything else is handed over as a download
-  // rather than rendered on this origin, whatever it claims to be.
-  res.setHeader('Content-Disposition', `${isPdf ? 'inline' : 'attachment'}; filename="${name}"`)
+  res.setHeader('Content-Type', isPdf ? 'application/pdf' : safeImageMime ?? 'application/octet-stream')
+  // Reviewed raster types and PDFs can render inline. Everything else remains
+  // a download, whatever MIME type the uploader supplied.
+  res.setHeader('Content-Disposition', `${isPdf || safeImageMime ? 'inline' : 'attachment'}; filename="${name}"`)
   res.setHeader('X-Content-Type-Options', 'nosniff')
   res.sendFile(fullPath)
 }))
@@ -485,9 +720,8 @@ app.delete('/api/my-documents/:id', requireAuthenticated, wrap(async (req, res) 
  *
  * The permission rules are in `shares.js`, deliberately away from the routing,
  * because they are the only thing between "shared with my study group" and
- * "on the open web". Read is the one route that answers without a session —
- * see the note in `apiAuthGate` — and it still refuses a private share to
- * anybody but its owner.
+ * "on the open web". Every share route requires a session, and direct reads
+ * remain restricted to the owner's university and year.
  */
 app.post('/api/shares', requireAuthenticated, wrap(async (req, res) => {
   const result = await createShare(req.identity.id, req.body ?? {})
@@ -496,26 +730,71 @@ app.post('/api/shares', requireAuthenticated, wrap(async (req, res) => {
 }))
 
 app.get('/api/shares', requireAuthenticated, wrap(async (req, res) => {
-  res.json({ items: await listShares(req.identity.id) })
+  res.json(await listDiscoverableShares(req.identity.id, { kind: req.query.kind }))
 }))
 
-app.get('/api/shares/:id', wrap(async (req, res) => {
+app.get('/api/shares/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await listShares(req.identity.id, { kind: req.query.kind }))
+}))
+
+app.get('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
   const result = await readShare(req.params.id, req.identity?.id ?? null)
   if (result.error) return res.status(404).json({ error: result.error })
   res.json(result.share)
 }))
 
+app.get('/api/shares/:id/assets/:documentId', requireAuthenticated, wrap(async (req, res) => {
+  const result = await readShareAsset(req.params.id, req.params.documentId, req.identity.id)
+  if (result.error) return res.status(404).json({ error: 'asset not found' })
+  const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, result.document.storageKey)
+  if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'asset not found' })
+  const safeMime = /^(?:image\/(?:avif|gif|jpeg|png|webp)|application\/pdf)$/i.test(result.document.mimeType ?? '')
+    ? result.document.mimeType
+    : 'application/octet-stream'
+  res.setHeader('Content-Type', safeMime)
+  res.setHeader('Content-Disposition', `inline; filename="${basename(result.document.fileName || result.document.title).replace(/["\r\n]/g, '')}"`)
+  res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.sendFile(fullPath)
+}))
+
 app.put('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
   const result = await updateShare(req.params.id, req.identity.id, req.body ?? {})
   if (result.error === 'not_found') return res.status(404).json({ error: result.error })
+  if (result.error === 'stale_revision') return res.status(409).json({ error: result.error, currentRevision: result.currentRevision })
   if (result.error) return res.status(400).json({ error: result.error })
   res.json(result.share)
+}))
+
+app.put('/api/shares/:id/star', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setShareStar(req.params.id, req.identity.id, Boolean(req.body?.starred))
+  if (result.error) return res.status(result.error === 'not_found' ? 404 : 400).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.put('/api/shares/:id/follow', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setShareFollow(req.params.id, req.identity.id, Boolean(req.body?.following))
+  if (result.error) return res.status(result.error === 'not_found' ? 404 : 400).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.get('/api/shares/:id/revisions', requireAuthenticated, wrap(async (req, res) => {
+  const result = await shareRevisionHistory(req.params.id, req.identity.id)
+  if (result.error) return res.status(404).json({ error: result.error })
+  res.json(result.revisions)
 }))
 
 app.delete('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
   const result = await deleteShare(req.params.id, req.identity.id)
   if (result.error) return res.status(404).json({ error: result.error })
   res.json({ ok: true })
+}))
+
+app.get('/api/notifications/shared', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await listShareNotifications(req.identity.id, { limit: req.query.limit }))
+}))
+
+app.post('/api/notifications/shared/read', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await markShareNotificationsRead(req.identity.id, req.body?.ids))
 }))
 
 /* ── Vouchers ────────────────────────────────────────────────────────────── */
@@ -534,6 +813,48 @@ app.delete('/api/vouchers/redemption', requireAuthenticated, wrap(async (req, re
 
 app.get('/api/vouchers/mine', requireAuthenticated, wrap(async (req, res) => {
   res.json({ redemption: await myVoucher(req.identity.id) })
+}))
+
+/* ── Pricing and verified QBank records ─────────────────────────────────── */
+
+app.get('/api/pricing/quote', wrap(async (req, res) => {
+  const result = await pricingQuote({ period: req.query?.period, voucherCode: req.query?.voucher })
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordVerifiedAttempts(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(result.error === 'profile_incomplete' ? 409 : 400).json(result)
+  res.json(result)
+}))
+
+app.get('/api/leaderboards', requireAuthenticated, wrap(async (req, res) => {
+  const result = await leaderboardFor(req.identity.id, {
+    metric: req.query?.metric === 'mastery' ? 'mastery' : 'accuracy',
+    term: req.query?.term ? String(req.query.term) : 'current',
+    limit: Math.min(Number(req.query?.limit) || 50, 100),
+  })
+  if (result.error) return res.status(409).json(result)
+  res.json(result)
+}))
+
+/* ── Build Maristanas ──────────────────────────────────────────────────── */
+
+app.get('/api/maristanas', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await maristanaOverview(req.identity.id))
+}))
+
+app.post('/api/maristanas/study-heartbeat', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordStudyHeartbeat(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.patch('/api/maristanas/:slot', requireAuthenticated, wrap(async (req, res) => {
+  const result = await renameHospital(req.identity.id, req.params.slot, req.body?.name)
+  if (result.error) return res.status(result.error === 'hospital_not_unlocked' ? 403 : 400).json(result)
+  res.json(result)
 }))
 
 /* ── Study Together ──────────────────────────────────────────────────────── */
@@ -600,6 +921,30 @@ app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, r
 
 app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {
   res.json(await leaveParty(req.identity.id, req.params.id))
+}))
+
+/* ── Study party games ───────────────────────────────────────────────────── */
+
+app.post('/api/parties/:id/games', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createPartyGame(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/games', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ games: await partyGamesFor(req.identity.id, req.params.id) })
+}))
+
+app.get('/api/parties/:id/games/:gameId', requireAuthenticated, wrap(async (req, res) => {
+  const game = await partyGameFor(req.identity.id, req.params.id, req.params.gameId)
+  if (!game) return res.status(404).json({ error: 'game not found' })
+  res.json({ game })
+}))
+
+app.post('/api/parties/:id/games/:gameId/actions', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await actOnPartyGame(req.identity.id, req.params.id, req.params.gameId, req.body?.action ?? req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/games/:gameId/events', requireAuthenticated, wrap(async (req, res) => {
+  await streamPartyGameEvents(req.identity.id, req.params.id, req.params.gameId, req, res)
 }))
 
 /* ── Study party sessions ────────────────────────────────────────────────── */
@@ -720,6 +1065,20 @@ app.post('/api/friends/facebook/unlink', requireAuthenticated, facebookFriendsEn
 }))
 
 /**
+ * The intersection itself.
+ *
+ * `fbFriendIds` is the caller's own Facebook friend list, read by the browser
+ * straight from Facebook's `/me/friends` for the account it just connected.
+ * This route never talks to Facebook — it only matches that list against
+ * `facebook_links`, same as the deletion callback never re-derives what Meta
+ * already told it.
+ */
+app.post('/api/friends/facebook/match', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
+  const fbFriendIds = Array.isArray(req.body?.fbFriendIds) ? req.body.fbFriendIds : []
+  res.json({ people: await matchFacebookFriends(req.identity.id, fbFriendIds) })
+}))
+
+/**
  * Meta's data-deletion callback, required for App Review.
  *
  * Public because Meta's own servers call it — there is no student session to
@@ -750,6 +1109,21 @@ app.post('/api/facebook/deletion-callback', express.urlencoded({ extended: false
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
+
+/* ── Deleting an account ─────────────────────────────────────────────────── */
+
+/**
+ * A student erasing their own account.
+ *
+ * Scoped to the caller and to nobody else: there is no id in the path, so the
+ * only account this route can delete is the one whose token was presented.
+ * App Store guideline 5.1.1(v) requires this to exist and to actually delete.
+ */
+app.delete('/api/account', requireAuthenticated, wrap(async (req, res) => {
+  const result = await deleteAccount(req.identity)
+  if (result.error) return res.status(result.status ?? 400).json(result)
+  return res.json(result)
+}))
 
 /* ── Push notification devices ───────────────────────────────────────────── */
 
@@ -810,6 +1184,11 @@ app.delete('/api/devices/:token', requireAuthenticated, wrap(async (req, res) =>
 // product. All other shared documents (reports, imports, email logs, settings)
 // remain admin-only even when a key is guessed.
 const STUDENT_READABLE_STATE = new Set([
+  // Alt text and dimensions for every image a student may be shown. The bytes
+  // are a separate, individually authenticated request.
+  MEDIA_STATE_KEY,
+  // The faculty's own by-module and by-year structures. Students browse them.
+  'synapse-library-trees-v1',
   'synapse-academic-universities-v1',
   'synapse-course-curricula-v1',
   'synapse-module-schedules-v1',
@@ -833,6 +1212,9 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-student-id-discount-v1',
   // The upload allowance, so the demo build can show the limit an admin set.
   'synapse-storage-limits-v1',
+  // The construction economy is set by an admin and explained on the student
+  // dashboard. Students can read the multipliers but only Settings can write.
+  'synapse-maristana-config-v1',
   // Adaptive Study runs entirely on these three, on the student's own screen.
   // Admin-written and student-read: a student must not be able to edit the
   // thresholds they are judged by, but a page that cannot read them silently
@@ -874,54 +1256,868 @@ app.get('/api/state/manifest', requireAuthenticated, wrap(async (_req, res) => {
 }))
 
 // Bulk hydrate on app boot.
-app.get('/api/state', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/state', requireSuperAdmin, wrap(async (_req, res) => {
   const [rows] = await pool.query('SELECT k, v FROM app_state')
   const out = {}
   for (const r of rows) { try { out[r.k] = JSON.parse(r.v) } catch { out[r.k] = null } }
   res.json(out)
 }))
 
-app.get('/api/state/:key', wrap(async (req, res) => {
-  if (!STUDENT_READABLE_STATE.has(req.params.key)) {
-    if (req.identity?.role !== 'admin') return res.status(403).json({ error: 'admin role required' })
-    if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
-  }
-  // `updatedAt` lets the client decide whether its crash-recovery copy is newer
-  // than the stored document. Without it a stale browser silently wins and
-  // re-uploads old data over a newer server-side write.
-  const [rows] = await pool.query('SELECT v, updated_at AS updatedAt FROM app_state WHERE k = ?', [req.params.key])
-  if (!rows.length) return res.json({ value: null, updatedAt: null })
-  try { res.json({ value: JSON.parse(rows[0].v), updatedAt: rows[0].updatedAt }) } catch { res.json({ value: null, updatedAt: rows[0].updatedAt }) }
+// Cross-student activity tracking for the Settings console: answer-change
+// transitions from the verified attempt ledger and highlighting behaviour from
+// every student's highlight document. Optional ?university=&year=&term= scope.
+app.get('/api/admin/activity-tracking', requireSuperAdmin, wrap(async (req, res) => {
+  res.json(await activityTrackingSummary({
+    universityId: typeof req.query.university === 'string' ? req.query.university : undefined,
+    year: typeof req.query.year === 'string' ? req.query.year : undefined,
+    term: typeof req.query.term === 'string' ? req.query.term : undefined,
+  }))
 }))
 
-app.put('/api/state/:key', requireAdmin, wrap(async (req, res) => {
-  const v = JSON.stringify(req.body?.value ?? null)
+// A mass withdrawal is intentionally not a normal editor action. The
+// operational script reads this immediately before its versioned ledger write
+// and refuses to interrupt live question sessions without an explicit flag.
+app.get('/api/admin/content-visibility-reset-preflight', requireSuperAdmin, wrap(async (_req, res) => {
+  res.json({ active: await contentVisibilityResetActivity() })
+}))
+
+/**
+ * Prepare an exact, expiring retirement manifest.
+ *
+ * The response contains compact target summaries, never mutable item bodies.
+ * Originals stay server-side in `content_archive_operations`, where they are a
+ * manual-recovery record and cannot be swapped by a browser before apply.
+ */
+app.post('/api/admin/content-archive/preview', requireSuperAdmin, wrap(async (req, res) => {
+  const [[ledgerRows], [versionRows]] = await Promise.all([
+    pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY]),
+    pool.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [CONTENT_LEDGER_STATE_KEY]),
+  ])
+  const raw = ledgerRows[0]?.v ?? '[]'
+  let ledger
+  try { ledger = JSON.parse(raw) } catch { return res.status(409).json({ error: 'content ledger is malformed' }) }
+  if (!Array.isArray(ledger)) return res.status(409).json({ error: 'content ledger is not a list' })
+
+  let manifest
+  try { manifest = contentArchiveManifest(ledger) } catch (error) {
+    return res.status(409).json({ error: error?.message ?? 'content ledger cannot be archived safely' })
+  }
+  const targetQuestionIds = new Set(manifest.targets.filter((target) => target.kind === 'question').map((target) => target.id))
+  const activity = await contentVisibilityResetSnapshot(pool, targetQuestionIds)
+  manifest.affectedSessions = activity.sessionIds
+  const active = activity.active
+  const operationId = `archive-${randomUUID()}`
+  const confirmationPhrase = archiveConfirmation(manifest.counts)
+  const expiresAt = new Date(Date.now() + CONTENT_ARCHIVE_TTL_MINUTES * 60_000)
+  const ledgerVersion = versionRows[0]?.version ?? null
+  const ledgerDigest = contentDigest(raw)
+  // A refresh replaces the caller's unused preflight rather than multiplying
+  // ledger-sized manifests. Applied receipts remain immutable.
+  await pool.query(
+    `DELETE FROM content_archive_operations
+      WHERE status = 'prepared' AND (created_by = ? OR expires_at <= CURRENT_TIMESTAMP)`,
+    [req.identity.id],
+  )
+  await pool.query(
+    `INSERT INTO content_archive_operations
+       (id, created_by, ledger_version, ledger_digest, manifest_json, confirmation_phrase, expires_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`,
+    [operationId, req.identity.id, ledgerVersion, ledgerDigest, JSON.stringify(manifest), confirmationPhrase, toMariaDbDate(expiresAt)],
+  )
+  res.json({
+    operationId,
+    selection: manifest.selection,
+    expiresAt: expiresAt.toISOString(),
+    ledgerVersion,
+    ledgerDigest,
+    counts: manifest.counts,
+    statusCounts: manifest.statusCounts,
+    sourceCounts: manifest.sourceCounts,
+    targets: manifest.targets.map((target) => ({
+      id: target.id,
+      title: target.before?.title ?? target.id,
+      kind: target.kind,
+      status: target.before?.status ?? 'Unknown',
+      source: target.before?.source ?? target.before?.owner ?? null,
+    })),
+    confirmationPhrase,
+    active,
+    blocked: activeArchiveBlockers(active) > 0,
+  })
+}))
+
+/** Apply only the server-held manifest prepared above. */
+app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req, res) => withContentCatalogueGate(async () => {
+  const operationId = String(req.body?.operationId ?? '').trim()
+  const confirmation = String(req.body?.confirmation ?? '').trim()
+  const reason = String(req.body?.reason ?? '').trim().slice(0, 500)
+  const allowAffectedSessions = req.body?.allowAffectedSessions === true
+  if (!operationId) return res.status(400).json({ error: 'operationId is required' })
+  if (reason.length < 10) return res.status(400).json({ error: 'a clear reason of at least 10 characters is required' })
+
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
-    const [current] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [req.params.key])
-    if (!current.length || current[0].v !== v) {
-      await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [req.params.key, v, req.identity.id])
-      await conn.query(
-        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
-        [req.params.key, v],
-      )
+    const [operationRows] = await conn.query(
+      `SELECT id, created_by AS createdBy, status, ledger_version AS ledgerVersion,
+              ledger_digest AS ledgerDigest, manifest_json AS manifestJson,
+              confirmation_phrase AS confirmationPhrase, result_json AS resultJson,
+              expires_at AS expiresAt
+         FROM content_archive_operations WHERE id = ? FOR UPDATE`,
+      [operationId],
+    )
+    const operation = operationRows[0]
+    if (!operation || operation.createdBy !== req.identity.id) {
+      await conn.rollback()
+      return res.status(404).json({ error: 'archive preflight not found' })
     }
+    if (operation.status === 'applied') {
+      await conn.commit()
+      return res.json(JSON.parse(operation.resultJson))
+    }
+    if (operation.status !== 'prepared' || new Date(operation.expiresAt).getTime() <= Date.now()) {
+      await conn.query("UPDATE content_archive_operations SET status = 'expired' WHERE id = ? AND status = 'prepared'", [operationId])
+      await conn.commit()
+      return res.status(409).json({ error: 'archive preflight expired; run it again' })
+    }
+    if (confirmation !== operation.confirmationPhrase) {
+      await conn.rollback()
+      return res.status(400).json({ error: 'the confirmation phrase does not match this preflight' })
+    }
+
+    let manifest
+    try {
+      manifest = JSON.parse(operation.manifestJson)
+    } catch {
+      await conn.rollback()
+      return res.status(409).json({ error: 'the stored archive manifest is malformed' })
+    }
+    if (manifest?.selection !== CONTENT_ARCHIVE_SELECTION) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'archive preflight uses an obsolete selection; run it again' })
+    }
+    const targetQuestionIds = new Set((manifest.targets ?? []).filter((target) => target?.kind === 'question').map((target) => target.id))
+    const activity = await contentVisibilityResetSnapshot(conn, targetQuestionIds)
+    const active = activity.active
+    if (!affectedSessionSetsMatch(manifest.affectedSessions, activity.sessionIds)) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'affected question sessions changed after preflight; refresh and review again', active })
+    }
+    if (!archiveActivityAllowed(active, allowAffectedSessions)) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'affected question sessions require explicit acknowledgement', active })
+    }
+
+    const [ledgerRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_LEDGER_STATE_KEY])
+    const raw = ledgerRows[0]?.v ?? '[]'
+    const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
+    const currentVersion = versionRows[0]?.version ?? null
+    const expectedVersion = operation.ledgerVersion ?? null
+    if (String(currentVersion ?? '') !== String(expectedVersion ?? '') || contentDigest(raw) !== operation.ledgerDigest) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'content changed after preflight; review the refreshed counts before trying again' })
+    }
+
+    let ledger
+    try {
+      ledger = JSON.parse(raw)
+    } catch {
+      await conn.rollback()
+      return res.status(409).json({ error: 'the content ledger is malformed' })
+    }
+    const archivedAt = new Date()
+    let archived
+    try {
+      archived = applyContentArchive(ledger, manifest, {
+        operationId,
+        actorId: req.identity.id,
+        reason,
+        archivedAt: archivedAt.toISOString(),
+      })
+    } catch (error) {
+      await conn.rollback()
+      if (error?.code === 'stale_manifest' || error?.code === 'invalid_manifest') return res.status(409).json({ error: error.message })
+      throw error
+    }
+
+    const value = JSON.stringify(archived.value)
+    const [inserted] = await conn.query(
+      'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+      [CONTENT_LEDGER_STATE_KEY, value, req.identity.id],
+    )
+    await conn.query('UPDATE app_state SET v = ? WHERE k = ?', [value, CONTENT_LEDGER_STATE_KEY])
+    const result = {
+      ok: true,
+      operationId,
+      counts: archived.counts,
+      affectedSessionsAcknowledged: active,
+      affectedSessionOverrideUsed: allowAffectedSessions && activeArchiveBlockers(active) > 0,
+      archivedAt: archivedAt.toISOString(),
+      version: inserted.insertId,
+    }
+    await conn.query(
+      `UPDATE content_archive_operations
+          SET status = 'applied', reason = ?, result_json = ?, applied_at = ?
+        WHERE id = ?`,
+      [reason, JSON.stringify(result), toMariaDbDate(archivedAt), operationId],
+    )
     await conn.commit()
-    invalidateSnapshots(req.params.key)
+    invalidateSnapshots(CONTENT_LEDGER_STATE_KEY)
+    res.json(result)
   } catch (error) {
     await conn.rollback()
     throw error
   } finally {
     conn.release()
   }
+})))
+
+function cleanAcademicDocuments(input) {
+  const documents = input && typeof input === 'object' ? input : {}
+  const out = {}
+  for (const key of ACADEMIC_STATE_KEYS) {
+    if (Object.hasOwn(documents, key)) out[key] = documents[key]
+  }
+  return out
+}
+
+async function readAcademicState(conn, lock = false) {
+  const [rows] = await conn.query(
+    `SELECT s.k, s.v, (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+       FROM app_state s
+      WHERE s.k IN (${ACADEMIC_STATE_KEYS.map(() => '?').join(',')})
+      ${lock ? 'FOR UPDATE' : ''}`,
+    ACADEMIC_STATE_KEYS,
+  )
+  const found = new Map(rows.map((row) => [row.k, row]))
+  const documents = {}
+  const versions = {}
+  for (const key of ACADEMIC_STATE_KEYS) {
+    const row = found.get(key)
+    documents[key] = row ? JSON.parse(row.v) : null
+    versions[key] = row?.version ?? null
+  }
+  return { documents, versions }
+}
+
+function academicVersionMismatch(expectedVersions, versions) {
+  if (!expectedVersions || typeof expectedVersions !== 'object') return [{ key: '*', expected: undefined, actual: null }]
+  const mismatches = []
+  for (const key of ACADEMIC_STATE_KEYS) {
+    if (!Object.hasOwn(expectedVersions, key)) {
+      mismatches.push({ key, expected: undefined, actual: versions[key] ?? null })
+      continue
+    }
+    const expected = expectedVersions[key] ?? null
+    const actual = versions[key] ?? null
+    if (String(expected) !== String(actual)) mismatches.push({ key, expected, actual })
+  }
+  return mismatches
+}
+
+app.post('/api/admin/academic/preview', requireTab('academic', 'marks'), wrap(async (req, res) => {
+  const incoming = cleanAcademicDocuments(req.body?.documents)
+  if (!Object.keys(incoming).length) return res.status(400).json({ error: 'documents are required' })
+  const conn = await pool.getConnection()
+  try {
+    const { documents, versions } = await readAcademicState(conn)
+    const next = { ...documents, ...incoming }
+    res.json({ ...academicPreview(documents, next), versions })
+  } finally {
+    conn.release()
+  }
+}))
+
+app.post('/api/admin/academic/publish', requireSuperAdmin, wrap(async (req, res) => {
+  const idempotencyKey = String(req.body?.idempotencyKey ?? '').trim().slice(0, 128)
+  if (!idempotencyKey) return res.status(400).json({ error: 'idempotencyKey is required' })
+  const incoming = cleanAcademicDocuments(req.body?.documents)
+  if (!Object.keys(incoming).length) return res.status(400).json({ error: 'documents are required' })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    try {
+      await conn.query(
+        'INSERT INTO academic_publish_requests (idempotency_key, actor_id, response_json) VALUES (?, ?, ?)',
+        [idempotencyKey, req.identity.id, '{}'],
+      )
+    } catch {
+      const [previous] = await conn.query(
+        'SELECT actor_id AS actorId, response_json AS responseJson FROM academic_publish_requests WHERE idempotency_key = ?',
+        [idempotencyKey],
+      )
+      await conn.rollback()
+      if (!previous.length) return res.status(409).json({ error: 'idempotency_conflict' })
+      if (previous[0].actorId !== req.identity.id) return res.status(409).json({ error: 'idempotency_key_used' })
+      return res.json(JSON.parse(previous[0].responseJson))
+    }
+
+    const { documents, versions } = await readAcademicState(conn, true)
+    const mismatches = academicVersionMismatch(req.body?.expectedVersions, versions)
+    if (mismatches.length) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'stale', mismatches })
+    }
+
+    const next = { ...documents, ...incoming }
+    const preview = academicPreview(documents, next)
+    if (!preview.ok) {
+      await conn.rollback()
+      return res.status(400).json({ error: 'academic_batch_refused', preview })
+    }
+
+    const changedVersions = {}
+    for (const key of preview.changedKeys) {
+      const value = JSON.stringify(next[key] ?? null)
+      const [inserted] = await conn.query(
+        'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+        [key, value, req.identity.id],
+      )
+      changedVersions[key] = inserted.insertId
+      await conn.query(
+        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
+        [key, value],
+      )
+    }
+
+    const response = {
+      ok: true,
+      changedKeys: preview.changedKeys,
+      versions: { ...versions, ...changedVersions },
+      fingerprints: preview.fingerprints,
+    }
+    await conn.query(
+      'UPDATE academic_publish_requests SET response_json = ? WHERE idempotency_key = ?',
+      [JSON.stringify(response), idempotencyKey],
+    )
+    await conn.commit()
+    for (const key of preview.changedKeys) invalidateSnapshots(key)
+    res.json(response)
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+app.get('/api/state/:key', wrap(async (req, res) => {
+  // Console access, not the single role 'admin': an editor or a reviewer
+  // authors this content and must read it whole. Redaction is for students.
+  const authoring = hasConsoleAccess(req.identity?.role)
+  if (!STUDENT_READABLE_STATE.has(req.params.key)) {
+    if (!authoring) return res.status(403).json({ error: 'console access required' })
+    if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
+  }
+  // `updatedAt` lets the client decide whether its crash-recovery copy is newer
+  // than the stored document. Without it a stale browser silently wins and
+  // re-uploads old data over a newer server-side write.
+  //
+  // `version` is the row this document was read at. The client sends it back on
+  // save, which is what lets the write below reconstruct what that client
+  // actually changed instead of taking its whole document on trust.
+  // Tells the client this server understands delta saves (change-only writes)
+  // for this document. A client withholds deltas until it sees this, so a client
+  // built for delta can never send one to an older server that would read the
+  // absent whole `value` as "delete everything". Only meaningful for authors —
+  // students do not write.
+  const deltaSupported = authoring && isMergeable(req.params.key)
+  const [rows] = await pool.query(
+    `SELECT s.v, s.updated_at AS updatedAt,
+            (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+       FROM app_state s WHERE s.k = ?`,
+    [req.params.key],
+  )
+  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null, deltaSupported })
+  const { updatedAt, version } = rows[0]
+  let value
+  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version, deltaSupported }) }
+  // Some readable documents are readable only in part. The content ledger holds
+  // every authored item in every state, including drafts, the author's private
+  // notes and the provenance of borrowed papers; a student gets its published
+  // projection instead. That happens here rather than in the browser, because a
+  // field removed after delivery has already been delivered.
+  const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
+  if (!authoring && req.params.key === CONTENT_LEDGER_STATE_KEY) {
+    const releasedMediaIds = releasedMediaIdsFromDocument({ records: await mediaRecords() })
+    const [catalogueRows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [ACADEMIC_CATALOGUE_STATE_KEY])
+    let catalogue = []
+    try { catalogue = catalogueRows[0] ? JSON.parse(catalogueRows[0].v) : [] } catch { catalogue = [] }
+    value = redactLedgerForStudent(value, releasedMediaIds, catalogue)
+  } else if (redact) value = redact(value)
+  // Archived reports stay on the record for editors and super admins, but a
+  // reviewer's queue is only the live work: they are filtered out before the
+  // document ever reaches a reviewer, not merely hidden in the browser.
+  if (req.identity?.role === 'reviewer' && req.params.key === CONTENT_REPORTS_STATE_KEY && Array.isArray(value)) {
+    value = value.filter((report) => report?.status !== 'Archived')
+  }
+  res.json({ value, updatedAt, version, deltaSupported })
+}))
+
+/**
+ * How many version rows to keep per document, and how many to drop per save.
+ *
+ * Each version row is a full snapshot — the content ledger's are ~23 MB — so an
+ * unbounded history was the table's runaway growth. Older rows are only ever
+ * read as the merge base for a whole-document save from a client that loaded
+ * long ago; a delta save needs none of them, and a base that has been pruned
+ * simply asks that client to reload. Keeping a generous recent window preserves
+ * that base for all but the most stale client, and the last resort for undoing
+ * a bad write. Both are env-tunable. The delete is bounded so a large backlog
+ * drains over successive saves instead of one heavy, locking delete.
+ */
+const STATE_VERSION_RETENTION = Math.max(2, Number(process.env.STATE_VERSION_RETENTION) || 20)
+// Gentle by default: at steady state only one row per save exceeds the window,
+// so a small batch keeps up, and a large existing backlog drains over many
+// saves rather than in heavy 23 MB-a-row deletes that fight foreground writes.
+// Raise STATE_VERSION_PRUNE_BATCH to reclaim a big backlog faster.
+const STATE_VERSION_PRUNE_BATCH = Math.max(1, Number(process.env.STATE_VERSION_PRUNE_BATCH) || 5)
+const pruningVersionKeys = new Set()
+
+/**
+ * Trim a key's version history to the newest STATE_VERSION_RETENTION rows.
+ *
+ * Runs after commit, off the write's transaction and lock, best-effort: it is
+ * housekeeping, never part of whether the save succeeded. One key prunes at a
+ * time so rapid saves cannot stack heavy deletes on top of each other.
+ */
+async function pruneStateVersions(key) {
+  if (pruningVersionKeys.has(key)) return
+  pruningVersionKeys.add(key)
+  try {
+    // The oldest row we keep; everything with a smaller id is prunable. LIMIT and
+    // OFFSET are inlined, not bound — they are validated server integers, and
+    // mysql2 quotes bound LIMIT/OFFSET values into a syntax error.
+    const [rows] = await pool.query(
+      `SELECT id FROM app_state_versions WHERE k = ? ORDER BY id DESC LIMIT 1 OFFSET ${STATE_VERSION_RETENTION - 1}`,
+      [key],
+    )
+    const floor = rows[0]?.id
+    if (!floor) return
+    await pool.query(
+      `DELETE FROM app_state_versions WHERE k = ? AND id < ? ORDER BY id ASC LIMIT ${STATE_VERSION_PRUNE_BATCH}`,
+      [key, floor],
+    )
+  } finally {
+    pruningVersionKeys.delete(key)
+  }
+}
+
+/**
+ * Enforce that a media request only becomes supplied with verified media.
+ *
+ * Compares the merged ledger against what was stored and looks at every request
+ * whose media was just attached, or that now claims to be supplied. A managed
+ * upload must be 'ready' — genuinely round-tripped and verified — for the request
+ * to stand: a ready one is promoted to 'supplied' in place (the server's decision,
+ * not a label the client can assert), and one still verifying or failed refuses
+ * the whole save. A mediaId with no managed row is pre-existing/legacy media and
+ * is left untouched, so this never falsely blocks media the state machine does
+ * not own.
+ */
+async function enforceMediaSupply(conn, mergedLedger, storedLedger) {
+  const merged = collectMediaRequests(mergedLedger)
+  const stored = collectMediaRequests(storedLedger)
+  const candidates = []
+  for (const [id, request] of merged) {
+    if (!request?.mediaId) continue
+    const before = stored.get(id) ?? null
+    const attachedNow = request.mediaId !== before?.mediaId
+    const claimsSupplied = request.status === 'supplied' && before?.status !== 'supplied'
+    if (attachedNow || claimsSupplied) candidates.push(request)
+  }
+  if (!candidates.length) return { ok: true }
+
+  const mediaIds = [...new Set(candidates.map((request) => request.mediaId))]
+  const [rows] = await conn.query('SELECT id, status FROM managed_media WHERE id IN (?)', [mediaIds])
+  const statusById = new Map(rows.map((row) => [row.id, row.status]))
+
+  const notReady = []
+  for (const request of candidates) {
+    const status = statusById.get(request.mediaId)
+    if (status === undefined) continue // not a managed upload — legacy media, left as-is
+    if (status !== 'ready') { notReady.push({ id: request.id, mediaId: request.mediaId, status }); continue }
+    if (request.status !== 'supplied') request.status = 'supplied'
+  }
+  return notReady.length ? { ok: false, notReady } : { ok: true }
+}
+
+/**
+ * Save a shared document.
+ *
+ * Three refusals, in the order they become knowable: you must hold a tab that
+ * owns this key; the changes you are making must be yours to make; and nobody
+ * may have changed the same item underneath you. Each answers with what is
+ * wrong, because a save that fails silently is the bug this route used to have.
+ */
+app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
+  const key = req.params.key
+  const owners = tabsForStateKey(key)
+  const held = await heldTabs(req.identity)
+  const superAdmin = req.identity.role === 'super_admin'
+
+  // A key no tab declares is reachable only by a super admin. Fail closed: a
+  // document added later without a registry entry becomes a bug report, never
+  // a hole.
+  if (!superAdmin && !holdsTab(held, owners)) {
+    return res.status(403).json({ error: 'that area is not part of your role' })
+  }
+
+  const baseVersion = req.body?.baseVersion
+  if (baseVersion === undefined) {
+    return res.status(400).json({ error: 'baseVersion is required; reload this page and try again' })
+  }
+
+  const conn = await pool.getConnection()
+  let removedMediaRecords = []
+  try {
+    await conn.beginTransaction()
+    let guardedRows = []
+    let currentRows
+    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY || key === ACADEMIC_CATALOGUE_STATE_KEY) {
+      // Publication, release, and valid curriculum placement are one invariant.
+      // Lock all three documents in one deterministic query so concurrent
+      // writes cannot validate against different catalogue/media generations.
+      const [rows] = await conn.query(
+        'SELECT k, v FROM app_state WHERE k IN (?, ?, ?) ORDER BY k FOR UPDATE',
+        [ACADEMIC_CATALOGUE_STATE_KEY, CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY],
+      )
+      guardedRows = rows
+      currentRows = rows.filter((row) => row.k === key)
+    } else {
+      const [rows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+      currentRows = rows
+    }
+    const storedRaw = currentRows.length ? currentRows[0].v : null
+    const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [key])
+    const storedVersion = versionRows[0]?.version ?? null
+
+    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
+
+    // A delta save sends only the items this client changed. It is the same
+    // authorisation and per-item conflict check as a whole-document save, but it
+    // never needs the base document — the `before` carried by each change is the
+    // conflict guard — so it is immune to a pruned version row, and one changed
+    // question no longer costs a 22 MB upload. A `changes` array that is present
+    // but malformed is refused; a whole-document `value` takes the path below.
+    const rawChanges = req.body?.changes
+    let merged
+    let changesForAuth
+    if (rawChanges !== undefined) {
+      if (!isMergeable(key)) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'delta_unsupported', reason: 'this document is saved whole, not by change' })
+      }
+      changesForAuth = reconstructChanges(key, rawChanges)
+      if (!changesForAuth) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'malformed_changes', reason: 'the change set is malformed; reload this page and try again' })
+      }
+      merged = applyDelta(key, stored, changesForAuth)
+    } else {
+      let base = null
+      if (baseVersion !== null) {
+        const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
+        if (!baseRows.length) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'stale',
+            reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+          })
+        }
+        base = JSON.parse(baseRows[0].v)
+      } else if (storedVersion !== null) {
+        // The client believed this document did not exist, and it does.
+        await conn.rollback()
+        return res.status(409).json({
+          error: 'stale',
+          reason: 'this document was created while you were editing — reload and try again',
+        })
+      }
+      const incoming = req.body?.value ?? null
+      // A document with no adapter yields no changes; the base-version check
+      // above is what protects it, and the tab check below is its authorisation.
+      changesForAuth = diffDocument(key, base, incoming)
+      merged = mergeDocument(key, base, stored, incoming)
+    }
+
+    if (!superAdmin) {
+      const authorised = authoriseChanges(changesForAuth, { heldTabs: held, contentScope: req.identity.contentScope, role: req.identity.role, rank: req.identity.rank })
+      if (!authorised.ok) {
+        await conn.rollback()
+        return res.status(403).json({ error: 'refused', refusals: authorised.refusals })
+      }
+    }
+
+    if (!merged.ok) {
+      await conn.rollback()
+      return res.status(409).json({
+        error: 'conflict',
+        conflicts: merged.conflicts,
+        reason: 'somebody else changed the same items while you were editing',
+      })
+    }
+
+    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY || key === ACADEMIC_CATALOGUE_STATE_KEY) {
+      const ledgerRow = guardedRows.find((row) => row.k === CONTENT_LEDGER_STATE_KEY)
+      const mediaRow = guardedRows.find((row) => row.k === MEDIA_STATE_KEY)
+      const catalogueRow = guardedRows.find((row) => row.k === ACADEMIC_CATALOGUE_STATE_KEY)
+      const beforeLedger = ledgerRow ? JSON.parse(ledgerRow.v) : []
+      const beforeMedia = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
+      const beforeCatalogue = catalogueRow ? JSON.parse(catalogueRow.v) : []
+      const ledger = key === CONTENT_LEDGER_STATE_KEY
+        ? merged.value
+        : beforeLedger
+      const media = key === MEDIA_STATE_KEY
+        ? merged.value
+        : beforeMedia
+      const catalogue = key === ACADEMIC_CATALOGUE_STATE_KEY
+        ? merged.value
+        : beforeCatalogue
+      const blockedItems = newlyMediaBlockedPublishedItems(
+        beforeLedger,
+        releasedMediaIdsFromDocument(beforeMedia),
+        ledger,
+        releasedMediaIdsFromDocument(media),
+      )
+      if (blockedItems.length) {
+        await conn.rollback()
+        return res.status(409).json({
+          error: 'media_required',
+          reason: 'published content cannot be saved while required teaching media is unresolved or unreleased',
+          blockedItems,
+        })
+      }
+      const archiveScopeBlockedItems = key === ACADEMIC_CATALOGUE_STATE_KEY
+        ? (() => {
+            const beforeIds = new Set(archiveScopeBlockedPublishedItems(beforeLedger, beforeCatalogue).map((item) => item.id))
+            return archiveScopeBlockedPublishedItems(ledger, catalogue).filter((item) => !beforeIds.has(item.id))
+          })()
+        : newlyArchiveScopeBlockedPublishedItems(beforeLedger, ledger, catalogue)
+      if (archiveScopeBlockedItems.length) {
+        await conn.rollback()
+        return res.status(409).json({
+          error: 'archive_scope_required',
+          reason: 'archived content must be assigned to a valid university, year, and module before it can be published',
+          blockedItems: archiveScopeBlockedItems,
+        })
+      }
+      if (key === MEDIA_STATE_KEY) {
+        const nextIds = new Set((Array.isArray(media?.records) ? media.records : []).map((record) => record.id))
+        removedMediaRecords = (Array.isArray(beforeMedia?.records) ? beforeMedia.records : [])
+          .filter((record) => !nextIds.has(record.id))
+      }
+      if (key === CONTENT_LEDGER_STATE_KEY) {
+        // "Supplied" is the server's word, not the client's: a request may only
+        // become supplied with media that has finished verifying. Newly attached
+        // (or newly supplied-claiming) requests are checked against the media
+        // table; a ready managed upload is promoted to supplied here, and a request
+        // pointing at media that is still verifying or has failed is refused.
+        const supply = await enforceMediaSupply(conn, ledger, beforeLedger)
+        if (!supply.ok) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'media_not_ready',
+            reason: 'a request can be supplied only with media that has finished verifying',
+            requests: supply.notReady,
+          })
+        }
+      }
+    }
+
+    const v = JSON.stringify(merged.value ?? null)
+    let version = storedVersion
+    if (storedRaw !== v) {
+      const [inserted] = await conn.query(
+        'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [key, v, req.identity.id],
+      )
+      version = inserted.insertId
+      await conn.query(
+        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [key, v],
+      )
+    }
+    await conn.commit()
+    invalidateSnapshots(key)
+    if (removedMediaRecords.length) {
+      // The descriptive document is now authoritative. Reclaim each removed
+      // managed alias only after that commit, so a failed state save can never
+      // strand a live library record without its bytes.
+      for (const record of removedMediaRecords) {
+        try {
+          const deleted = await deleteManagedMediaRow({ id: record.id })
+          if (!deleted && record.storageKey) {
+            await withManagedMediaDigestLock(record.sha256 || record.id, (mediaConn) => (
+              removePhysicalMediaIfUnreferenced(record, mediaConn)
+            ))
+          }
+        } catch (error) {
+          // A remaining managed row is a durable cleanup marker. The stale
+          // upload sweep retries it after the recovery window.
+          console.error(`media cleanup failed for ${record.id}:`, error)
+        }
+      }
+    }
+    if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
+    // A new version row was written iff the id advanced. Keep the history bounded
+    // — after the response, so it never adds to save latency, and best-effort, so
+    // a housekeeping hiccup is never a failed save.
+    if (version !== storedVersion) {
+      void pruneStateVersions(key).catch((error) => console.error(`version prune failed for ${key}:`, error?.message ?? error))
+    }
+    res.json({ ok: true, version })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
+  // Deleting a whole document is not an edit: it has no per-item diff and so no
+  // scope to judge it against. Super admin only.
+  if ([CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_STATE_KEY].includes(req.params.key)) {
+    return res.status(409).json({
+      error: 'protected_state',
+      reason: 'the content ledger, media library, and academic catalogue must be changed through their guarded editors',
+    })
+  }
+  // Reports are removed one at a time, with typed confirmation and a tombstone —
+  // never wiped wholesale by a single call. See POST /api/content-reports/:id/delete.
+  if (req.params.key === CONTENT_REPORTS_STATE_KEY) {
+    return res.status(409).json({
+      error: 'protected_state',
+      reason: 'a content report is deleted one at a time through its own confirmed, audited action',
+    })
+  }
+  await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
+  invalidateSnapshots(req.params.key)
+  if (req.params.key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
   res.json({ ok: true })
 }))
 
-app.delete('/api/state/:key', requireAdmin, wrap(async (req, res) => {
-  await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
-  invalidateSnapshots(req.params.key)
-  res.json({ ok: true })
+/* ── Content reports ─────────────────────────────────────────────────────── */
+
+/**
+ * File a content report.
+ *
+ * Open to any signed-in account, because the people who hit a wrong answer or a
+ * broken image are students, who hold no console tab and so cannot reach the
+ * shared write path. The server stamps the reporter's identity, role and time
+ * itself — never the caller's word for them — and appends under the same row
+ * lock the console write path uses, so a report filed here and a review saved
+ * there cannot lose one another.
+ */
+app.post('/api/content-reports', requireAuthenticated, wrap(async (req, res) => {
+  const body = req.body ?? {}
+  const contentId = typeof body.contentId === 'string' ? body.contentId.trim() : ''
+  const note = typeof body.note === 'string' ? body.note.trim() : ''
+  if (!contentId) return res.status(400).json({ error: 'contentId is required' })
+  if (!note) return res.status(400).json({ error: 'a description is required' })
+
+  const actor = await getUserByIdentity(req.identity.id)
+  const reporterName = actor?.name || String(req.identity.email ?? '').split('@')[0] || 'Someone'
+  const report = buildContentReport(body, {
+    id: `report-${randomUUID()}`,
+    reporterUserId: req.identity.id,
+    reporterRole: reporterRoleLabel(req.identity.role),
+    reporterName,
+    createdAt: new Date().toISOString(),
+  })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_REPORTS_STATE_KEY])
+    let current = []
+    if (rows.length) { try { current = JSON.parse(rows[0].v) } catch { current = [] } }
+    if (!Array.isArray(current)) current = []
+    const next = [report, ...current]
+    const v = JSON.stringify(next)
+    await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [CONTENT_REPORTS_STATE_KEY, v, req.identity.id])
+    await conn.query('INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [CONTENT_REPORTS_STATE_KEY, v])
+    await conn.commit()
+    invalidateSnapshots(CONTENT_REPORTS_STATE_KEY)
+    res.json({ ok: true, id: report.id })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+/**
+ * Permanently delete one report. Super admin only, never a one-click action: the
+ * caller must type the report's id or its exact title back, and what is removed
+ * leaves a tombstone — who deleted it, when, and which report — so the deletion
+ * is itself on the record. The reports document and the tombstone log are written
+ * under one transaction, so a report never disappears without its marker.
+ */
+app.post('/api/content-reports/:id/delete', requireSuperAdmin, wrap(async (req, res) => {
+  const reportId = req.params.id
+  const actor = await getUserByIdentity(req.identity.id)
+  const deletedByName = actor?.name || String(req.identity.email ?? '').split('@')[0] || 'Super admin'
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_REPORTS_STATE_KEY])
+    let current = []
+    if (rows.length) { try { current = JSON.parse(rows[0].v) } catch { current = [] } }
+    if (!Array.isArray(current)) current = []
+    const report = current.find((item) => item?.id === reportId)
+    if (!report) { await conn.rollback(); return res.status(404).json({ error: 'no such report' }) }
+    if (!deletionConfirmed(report, req.body?.confirmation)) {
+      await conn.rollback()
+      return res.status(400).json({ error: 'confirmation_mismatch', reason: 'type the report id or its exact title to confirm deletion' })
+    }
+    const next = current.filter((item) => item?.id !== reportId)
+    const v = JSON.stringify(next)
+    await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [CONTENT_REPORTS_STATE_KEY, v, req.identity.id])
+    await conn.query('INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [CONTENT_REPORTS_STATE_KEY, v])
+
+    const [tombRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_REPORT_TOMBSTONES_KEY])
+    let tombstones = []
+    if (tombRows.length) { try { tombstones = JSON.parse(tombRows[0].v) } catch { tombstones = [] } }
+    if (!Array.isArray(tombstones)) tombstones = []
+    const tombstone = buildTombstone(report, {
+      deletedBy: req.identity.id, deletedByName, deletedAt: new Date().toISOString(), reason: req.body?.reason,
+    })
+    const tv = JSON.stringify([tombstone, ...tombstones])
+    await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [CONTENT_REPORT_TOMBSTONES_KEY, tv, req.identity.id])
+    await conn.query('INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [CONTENT_REPORT_TOMBSTONES_KEY, tv])
+
+    await conn.commit()
+    invalidateSnapshots(CONTENT_REPORTS_STATE_KEY)
+    invalidateSnapshots(CONTENT_REPORT_TOMBSTONES_KEY)
+    res.json({ ok: true, tombstone })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+/* ── Media escalations ───────────────────────────────────────────────────── */
+
+/**
+ * How many media requests are escalated and still open, for the nav badge on the
+ * Escalations queue. Editor-and-above only (the tab is theirs). Counts from the
+ * ledger; escalations are rare, so a scan on an occasional nav fetch is cheap
+ * enough, and it never ships the whole ledger to the browser to do it.
+ */
+app.get('/api/admin/escalations/count', requireTab('escalations'), wrap(async (req, res) => {
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
+  let ledger = []
+  if (rows.length) { try { ledger = JSON.parse(rows[0].v) } catch { ledger = [] } }
+  let open = 0
+  for (const request of collectMediaRequests(ledger).values()) {
+    if (request?.escalation?.status === 'open') open += 1
+  }
+  res.json({ open })
 }))
 
 /* ── Private, per-user state ─────────────────────────────────────────────── */
@@ -938,6 +2134,7 @@ app.get('/api/user-state/:key', wrap(async (req, res) => {
 app.put('/api/user-state/:key', wrap(async (req, res) => {
   const v = JSON.stringify(req.body?.value ?? null)
   const conn = await pool.getConnection()
+  let changed = false
   try {
     await conn.beginTransaction()
     const [current] = await conn.query(
@@ -945,6 +2142,7 @@ app.put('/api/user-state/:key', wrap(async (req, res) => {
       [req.identity.id, req.params.key],
     )
     if (!current.length || current[0].v !== v) {
+      changed = true
       await conn.query(
         'INSERT INTO user_state_versions (user_id, k, v) VALUES (?, ?, ?)',
         [req.identity.id, req.params.key, v],
@@ -961,6 +2159,17 @@ app.put('/api/user-state/:key', wrap(async (req, res) => {
     throw error
   } finally {
     conn.release()
+  }
+  // Tell this student's other devices that something of theirs moved, so the
+  // app does not have to wait for its next refresh to find out. Deliberately
+  // not awaited and unable to reject: the write has already succeeded, and a
+  // push that fails must not turn it into an error the student sees.
+  if (changed) {
+    sendSilentNudge({
+      userId: req.identity.id,
+      exceptToken: normaliseDeviceToken(req.get('X-Device-Token')),
+      key: req.params.key,
+    }).catch(() => {})
   }
   res.json({ ok: true })
 }))
@@ -1012,7 +2221,8 @@ app.get('/api/unsubscribe', wrap(async (req, res) => {
   res.json({ ok: true, category: result.category })
 }))
 
-app.use(['/api/students', '/api/mailboxes', '/api/mail'], requireAdmin)
+app.use('/api/students', requireTab('students'))
+app.use(['/api/mailboxes', '/api/mail'], requireTab('mailbox'))
 
 /* ── Roles and recoverable snapshots ───────────────────────────────────── */
 
@@ -1022,7 +2232,7 @@ app.use(['/api/students', '/api/mailboxes', '/api/mail'], requireAdmin)
    person can sign in and what they have paid for; an audit trail that says who
    and why is the difference between an administrative record and a mystery. */
 
-app.get('/api/admin/users', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/users', requireTab('users'), wrap(async (req, res) => {
   res.json(await listUsers({
     query: req.query.q ? String(req.query.q) : undefined,
     status: req.query.status ? String(req.query.status) : undefined,
@@ -1033,25 +2243,25 @@ app.get('/api/admin/users', requireAdmin, wrap(async (req, res) => {
   }))
 }))
 
-app.get('/api/admin/users/capabilities', requireAdmin, (_req, res) => {
+app.get('/api/admin/users/capabilities', requireTab('users'), (_req, res) => {
   // The UI asks before it offers. A reset button that cannot work should be
   // explained on the screen, not discovered when someone presses it.
   res.json({ passwordReset: passwordResetConfigured })
 })
 
-app.get('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
   const user = await getUser(req.params.id)
   if (!user) return res.status(404).json({ error: 'user not found' })
   res.json(user)
 }))
 
-app.patch('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
+app.patch('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
-  const fields = ['name', 'email', 'university_id', 'year', 'study_group', 'notes']
+  const fields = ['name', 'email', 'study_group', 'notes']
   const updates = []
   const params = []
-  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['universityId', 'university_id'], ['year', 'year'], ['group', 'study_group'], ['notes', 'notes']]) {
+  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['group', 'study_group'], ['notes', 'notes']]) {
     if (req.body?.[key] !== undefined && fields.includes(column)) { updates.push(`${column} = ?`); params.push(req.body[key] || null) }
   }
   if (!updates.length) return res.status(400).json({ error: 'nothing to update' })
@@ -1072,7 +2282,55 @@ app.patch('/api/admin/users/:id', requireAdmin, wrap(async (req, res) => {
   }
 }))
 
-app.post('/api/admin/users/:id/subscription', requireAdmin, wrap(async (req, res) => {
+/**
+ * Move a student to a new university and year.
+ *
+ * The Users tab holds admins too, but changing a cohort is an editor-and-above
+ * action — it resets what progress the student sees — so rank is checked past the
+ * tab. The change is one transaction: persist the cohort, re-derive year_id, reset
+ * the cached aggregates to the destination cohort (a clean slate on a new one,
+ * the old numbers exactly on a return), and write the audit row. The response
+ * carries the before and after so the confirmation screen can state both.
+ */
+app.post('/api/admin/users/:id/enrollment', requireTab('users'), wrap(async (req, res) => {
+  if (req.identity.rank < 2) {
+    return res.status(403).json({ error: 'only an editor or super admin may change a student’s university and year' })
+  }
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const universityId = String(req.body?.universityId || '').trim()
+  const year = String(req.body?.year || '').trim()
+  if (!universityId || !year) return res.status(400).json({ error: 'universityId and year are required' })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query(
+      'SELECT id, university_id AS universityId, year, year_id AS yearId, user_id AS userId FROM students WHERE id = ? FOR UPDATE',
+      [req.params.id],
+    )
+    if (!rows.length) { await conn.rollback(); return res.status(404).json({ error: 'no profile to update' }) }
+    const current = rows[0]
+    if (String(current.universityId ?? '') === universityId && String(current.year ?? '') === year) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'that is already their university and year' })
+    }
+    const result = await applyDirectEnrollmentChange(conn, {
+      studentId: req.params.id, userId: current.userId, universityId, year,
+      oldUniversityId: current.universityId, oldYear: current.year, oldYearId: current.yearId,
+      actorId: req.identity.id, reason,
+    })
+    await conn.commit()
+    res.json({ ok: true, ...result })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+app.post('/api/admin/users/:id/subscription', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const plan = String(req.body?.plan || '').trim()
@@ -1088,7 +2346,7 @@ app.post('/api/admin/users/:id/subscription', requireAdmin, wrap(async (req, res
   res.json(result)
 }))
 
-app.post('/api/admin/users/:id/subscription/cancel', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/subscription/cancel', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const result = await cancelSubscription(req.params.id, {
@@ -1098,19 +2356,19 @@ app.post('/api/admin/users/:id/subscription/cancel', requireAdmin, wrap(async (r
   res.json(result)
 }))
 
-app.post('/api/admin/users/:id/access', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/access', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const status = req.body?.status
   if (!['active', 'suspended'].includes(status)) return res.status(400).json({ error: 'status must be active or suspended' })
   const result = await setAccessStatus(req.params.id, { status, reason, actorId: req.identity.id })
   if (result.error === 'no_identity') return res.status(409).json({ error: 'this person has never signed in, so there is no account to suspend' })
-  if (result.error === 'cannot_suspend_admin') return res.status(409).json({ error: 'demote this admin before suspending the account' })
+  if (result.error === 'cannot_suspend_console') return res.status(409).json({ error: 'demote this account to student before suspending it' })
   if (result.error) return res.status(404).json({ error: result.error })
   res.json(result)
 }))
 
-app.post('/api/admin/users/:id/password-reset', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/password-reset', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   const result = await requestPasswordReset(req.params.id, { reason, actorId: req.identity.id })
@@ -1123,7 +2381,38 @@ app.post('/api/admin/users/:id/password-reset', requireAdmin, wrap(async (req, r
   res.json(result)
 }))
 
-app.get('/api/admin/users/:id/activity', requireAdmin, wrap(async (req, res) => {
+/**
+ * Set a user's password directly.
+ *
+ * Editor-and-above only — an admin holds the Users tab but is rank 1, so the tab
+ * is not enough. The account whose password is being set must itself be below
+ * editor (student, reviewer or admin); accounts.setUserPassword enforces that, so
+ * an editor can never reach a peer's or a super admin's credentials. The password
+ * is never stored or logged here.
+ */
+app.post('/api/admin/users/:id/password', requireTab('users'), wrap(async (req, res) => {
+  if (req.identity.rank < 2) {
+    return res.status(403).json({ error: 'only an editor or super admin may set a user’s password' })
+  }
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const result = await setUserPassword(req.params.id, { password: req.body?.password, reason, actorId: req.identity.id })
+  const REFUSALS = {
+    weak_password: [400, 'password must be at least 8 characters'],
+    not_found: [404, 'user not found'],
+    no_identity: [409, 'this person has never signed in, so there is no account to set a password for'],
+    forbidden_target: [403, 'passwords can only be set for students, reviewers and admins'],
+    supabase_not_configured: [503, 'setting passwords needs SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY on the server'],
+    supabase_rejected: [502, `Supabase refused the request${result?.status ? ` (${result.status})` : ''}`],
+  }
+  if (result.error) {
+    const [status, message] = REFUSALS[result.error] ?? [400, result.error]
+    return res.status(status).json({ error: message })
+  }
+  res.json({ ok: true })
+}))
+
+app.get('/api/admin/users/:id/activity', requireTab('users'), wrap(async (req, res) => {
   // Keyed on the Supabase user id, because `user_state` is written by the app
   // under the signed-in identity. A roster row that has never signed in owns no
   // state, and reports none rather than erroring.
@@ -1132,17 +2421,20 @@ app.get('/api/admin/users/:id/activity', requireAdmin, wrap(async (req, res) => 
   res.json(await getUserActivity(user.identity?.userId ?? null))
 }))
 
-app.post('/api/admin/users/:id/role', requireAdmin, wrap(async (req, res) => {
+app.post('/api/admin/users/:id/role', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
   if (req.params.id === req.identity.id) return res.status(409).json({ error: 'you cannot change your own role' })
-  const result = await setRole(req.params.id, { role: req.body?.role, reason, actorId: req.identity.id })
+  const result = await setRole(req.params.id, {
+    role: req.body?.role, reason, actorId: req.identity.id, actorRole: req.identity.role,
+  })
   const REFUSALS = {
-    invalid_role: [400, 'role must be student or admin'],
+    invalid_role: [400, 'role must be student, reviewer, admin or editor'],
+    forbidden: [403, 'that change is above your level'],
     no_identity: [409, 'this person has never signed in, so there is no role to change'],
     suspended: [409, 'reactivate this account before changing its role'],
     unchanged: [409, 'that is already their role'],
-    last_admin: [409, 'this is the last active admin — promote someone else first'],
+    last_console: [409, 'this is the last account with console access — promote someone else first'],
     not_found: [404, 'user not found'],
   }
   if (result.error) {
@@ -1152,51 +2444,86 @@ app.post('/api/admin/users/:id/role', requireAdmin, wrap(async (req, res) => {
   res.json(result)
 }))
 
-app.get('/api/access/users', requireAdmin, wrap(async (_req, res) => {
-  const [rows] = await pool.query(
-    'SELECT user_id AS userId, email, role, status, promoted_by AS promotedBy, promoted_at AS promotedAt, created_at AS createdAt FROM user_access ORDER BY created_at DESC',
-  )
-  res.json(rows)
-}))
-
-app.post('/api/access/users/:userId/promote', requireAdmin, wrap(async (req, res) => {
-  const role = req.body?.role
-  const reason = String(req.body?.reason || '').trim()
-  if (!['student', 'admin'].includes(role)) return res.status(400).json({ error: 'invalid role' })
-  if (reason.length < 8) return res.status(400).json({ error: 'promotion reason must be explicit' })
-
-  const conn = await pool.getConnection()
-  try {
-    await conn.beginTransaction()
-    const [rows] = await conn.query('SELECT role, status FROM user_access WHERE user_id = ? FOR UPDATE', [req.params.userId])
-    if (!rows.length) {
-      await conn.rollback()
-      return res.status(404).json({ error: 'user not found' })
-    }
-    if (rows[0].status !== 'active') {
-      await conn.rollback()
-      return res.status(409).json({ error: 'suspended account must be reactivated before role changes' })
-    }
-    const previousRole = rows[0].role
-    await conn.query(
-      'UPDATE user_access SET role = ?, promoted_by = ?, promoted_at = NOW() WHERE user_id = ?',
-      [role, req.identity.id, req.params.userId],
-    )
-    await conn.query(
-      'INSERT INTO role_promotion_audit (user_id, previous_role, next_role, promoted_by, reason) VALUES (?, ?, ?, ?, ?)',
-      [req.params.userId, previousRole, role, req.identity.id, reason],
-    )
-    await conn.commit()
-    res.json({ ok: true })
-  } catch (error) {
-    await conn.rollback()
-    throw error
-  } finally {
-    conn.release()
+app.post('/api/admin/users/:id/scope', requireTab('users'), wrap(async (req, res) => {
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const result = await setContentScope(req.params.id, {
+    moduleIds: req.body?.moduleIds, yearIds: req.body?.yearIds,
+    reason, actorId: req.identity.id, actorRole: req.identity.role,
+  })
+  const REFUSALS = {
+    forbidden: [403, 'that change is above your level'],
+    not_scoped: [409, 'only a reviewer is assigned modules and years'],
+    no_identity: [409, 'this person has never signed in, so there is nothing to scope'],
+    not_found: [404, 'user not found'],
   }
+  if (result.error) {
+    const [status, message] = REFUSALS[result.error] ?? [400, result.error]
+    return res.status(status).json({ error: message })
+  }
+  res.json(result)
 }))
 
-app.get('/api/backups', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/admin/enrollment-change-requests', requireTab('users'), wrap(async (req, res) => {
+  res.json({ requests: await listEnrollmentChangeRequests({ status: req.query?.status ? String(req.query.status) : 'pending' }) })
+}))
+
+app.post('/api/admin/enrollment-change-requests/:id/approve', requireTab('users'), wrap(async (req, res) => {
+  const result = await decideEnrollmentChangeRequest(req.params.id, {
+    approve: true, note: req.body?.note ?? req.body?.reason, actorId: req.identity.id,
+  })
+  if (result.error) {
+    const status = result.error === 'username_conflict' || result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.post('/api/admin/enrollment-change-requests/:id/reject', requireTab('users'), wrap(async (req, res) => {
+  const result = await decideEnrollmentChangeRequest(req.params.id, {
+    approve: false, note: req.body?.note ?? req.body?.reason, actorId: req.identity.id,
+  })
+  if (result.error) {
+    const status = result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.get('/api/admin/platform/reports', requireTab('dashboard'), wrap(async (_req, res) => {
+  res.json(await platformReport())
+}))
+
+app.post('/api/admin/platform/storage-thresholds/:thresholdGb/ack', requireTab('dashboard'), wrap(async (req, res) => {
+  const result = await acknowledgeStorageThreshold(req.params.thresholdGb, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.get('/api/admin/pricing', requireTab('payments'), wrap(async (_req, res) => {
+  res.json(await listPricingDiscounts())
+}))
+
+app.post('/api/admin/pricing/promotions', requireTab('payments'), wrap(async (req, res) => {
+  const result = await createPromotion(req.body ?? {}, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/admin/pricing/vouchers', requireTab('payments'), wrap(async (req, res) => {
+  const result = await createPricingVoucher(req.body ?? {}, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+/* `GET /api/access/users` and `POST /api/access/users/:userId/promote` used to
+   live here, behind the Students tab's own panel. The promote route wrote the
+   same `user_access.role` column as `/api/admin/users/:id/role` while checking
+   neither the actor's rank nor a self-edit, which under a hierarchy is an
+   escalation route rather than a duplication. Both are gone with that panel:
+   roles are changed in Users, one door with one lock. */
+
+app.get('/api/backups', requireTab('audit'), wrap(async (_req, res) => {
   const [rows] = await pool.query(
     'SELECT id, label, created_by AS createdBy, created_at AS createdAt, OCTET_LENGTH(snapshot_json) AS sizeBytes FROM data_snapshots ORDER BY created_at DESC LIMIT 50',
   )
@@ -1226,7 +2553,7 @@ async function readMedicalLibraryLaunchData() {
 }
 
 /** Read-only launch preflight. It never changes production data. */
-app.get('/api/launch/medical-library-v1/preview', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/launch/medical-library-v1/preview', requireTab('audit'), wrap(async (_req, res) => {
   const launch = await readMedicalLibraryLaunchData()
   const [migration] = await pool.query('SELECT id, applied_at AS appliedAt FROM schema_migrations WHERE id = ?', [launch.migrationId])
   const keys = Object.keys(launch.states)
@@ -1243,7 +2570,7 @@ app.get('/api/launch/medical-library-v1/preview', requireAdmin, wrap(async (_req
 
 /* ── Medical library coverage review (admin-only) ───────────────────────── */
 
-app.get('/api/medical-library/coverage/summary', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/medical-library/coverage/summary', requireTab('library'), wrap(async (_req, res) => {
   const [[totals], destinations, systems, sourceStates, collections] = await Promise.all([
     pool.query('SELECT COUNT(*) AS candidates, COUNT(DISTINCT source_id) AS candidateSources FROM medical_library_candidate_coverage').then(([rows]) => rows),
     pool.query('SELECT destination, COUNT(*) AS count FROM medical_library_candidate_coverage GROUP BY destination ORDER BY count DESC').then(([rows]) => rows),
@@ -1261,7 +2588,7 @@ app.get('/api/medical-library/coverage/summary', requireAdmin, wrap(async (_req,
   })
 }))
 
-app.get('/api/medical-library/coverage/candidates', requireAdmin, wrap(async (req, res) => {
+app.get('/api/medical-library/coverage/candidates', requireTab('library'), wrap(async (req, res) => {
   const page = Math.max(1, Number.parseInt(String(req.query.page || '1'), 10) || 1)
   const pageSize = Math.min(100, Math.max(10, Number.parseInt(String(req.query.pageSize || '50'), 10) || 50))
   const destination = String(req.query.destination || '').trim()
@@ -1300,7 +2627,7 @@ app.get('/api/medical-library/coverage/candidates', requireAdmin, wrap(async (re
   })
 }))
 
-app.get('/api/medical-library/coverage/sources', requireAdmin, wrap(async (req, res) => {
+app.get('/api/medical-library/coverage/sources', requireTab('library'), wrap(async (req, res) => {
   const collectionId = String(req.query.collectionId || '').trim()
   const status = String(req.query.status || '').trim()
   const where = []
@@ -1346,8 +2673,429 @@ function resolvedChunkUploadPath(resourceId, uploadId) {
   return resolveUploadWorkspace(RESOURCE_STORAGE_DIR, resourceId, uploadId)
 }
 
-/** Remove interrupted upload work only after every stored resource is live. */
-app.post('/api/medical-resources/cleanup-uploads', requireAdmin, wrap(async (_req, res) => {
+/** Managed-media chunks are isolated from the medical-resource cleanup tree. */
+function resolvedMediaUploadPath(mediaId, uploadId) {
+  return resolveUploadWorkspace(resolve(MEDIA_STORAGE_DIR, 'media'), `upload-${mediaId}`, uploadId)
+}
+
+/** Remove only abandoned managed-media sessions, never active resource work. */
+async function cleanupStaleMediaUploads() {
+  const [stale] = await pool.query(
+    `SELECT id, upload_id AS uploadId FROM managed_media
+      WHERE status = 'uploading' AND updated_at < DATE_SUB(NOW(), INTERVAL ? HOUR)`,
+    [MEDIA_UPLOAD_MAX_AGE_HOURS],
+  )
+  for (const row of stale) {
+    const workspace = resolvedMediaUploadPath(row.id, row.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    await pool.query(`DELETE FROM managed_media WHERE id = ? AND upload_id = ? AND status = 'uploading'`, [row.id, row.uploadId])
+  }
+
+  // A browser can disappear after completion but before it describes the
+  // asset in the library document. Keep that recovery window generous, then
+  // reclaim the durable orphan through the same reference-aware path.
+  const stateConn = await pool.getConnection()
+  try {
+    await stateConn.beginTransaction()
+    // Read the authoritative document while holding the same row lock used by
+    // state writes. A second replica's process-local cache must never decide a
+    // destructive cleanup.
+    const [mediaRows] = await stateConn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [MEDIA_STATE_KEY])
+    const describedRecords = mediaRows.length ? JSON.parse(mediaRows[0].v)?.records ?? [] : []
+    const describedIds = new Set(describedRecords.map((record) => record.id))
+    const [readyOrphans] = await stateConn.query(
+      `SELECT id FROM managed_media
+       WHERE status = 'ready' AND updated_at < DATE_SUB(NOW(), INTERVAL ? HOUR)`,
+      [MEDIA_UPLOAD_MAX_AGE_HOURS],
+    )
+    for (const row of readyOrphans) {
+      if (!describedIds.has(row.id)) await deleteManagedMediaRow({ id: row.id, describedMediaRecords: describedRecords })
+    }
+    await stateConn.commit()
+  } catch (error) {
+    await stateConn.rollback()
+    throw error
+  } finally {
+    stateConn.release()
+  }
+}
+
+/** Serialise file creation and reclamation for one content-addressed object. */
+async function withManagedMediaDigestLock(digest, work) {
+  const conn = await pool.getConnection()
+  const lockName = `synapse-media:${String(digest).slice(0, 48)}`
+  try {
+    const [rows] = await conn.query('SELECT GET_LOCK(?, 10) AS acquired', [lockName])
+    if (Number(rows[0]?.acquired) !== 1) {
+      const error = new Error('media storage is busy; please try again')
+      error.status = 503
+      throw error
+    }
+    return await work(conn)
+  } finally {
+    await conn.query('SELECT RELEASE_LOCK(?)', [lockName]).catch(() => {})
+    conn.release()
+  }
+}
+
+function completedMediaPayload(row, alreadyStored = false) {
+  return {
+    id: row.id,
+    storageKey: row.storageKey,
+    sha256: row.sha256,
+    mediaType: row.mediaType,
+    mimeType: row.mimeType,
+    sizeBytes: Number(row.sizeBytes || 0),
+    width: Number(row.width || 0),
+    height: Number(row.height || 0),
+    alreadyStored,
+  }
+}
+
+/** Remove content-addressed bytes only after every database and library alias is gone. */
+async function removePhysicalMediaIfUnreferenced(record, conn, excludedManagedId = null, describedMediaRecords = null) {
+  if (!record?.storageKey) return false
+  const [databaseReferences] = await conn.query(
+    `SELECT COUNT(*) AS total FROM managed_media
+     WHERE storage_key = ? AND status = 'ready'${excludedManagedId ? ' AND id <> ?' : ''}`,
+    excludedManagedId ? [record.storageKey, excludedManagedId] : [record.storageKey],
+  )
+  if (Number(databaseReferences[0]?.total || 0) > 0) return false
+  const descriptions = describedMediaRecords ?? await mediaRecords()
+  const describedReference = descriptions.some((entry) => entry?.storageKey === record.storageKey)
+  if (describedReference) return false
+  const fullPath = resolveWithin(MEDIA_STORAGE_DIR, record.storageKey)
+  if (fullPath) await rm(fullPath, { force: true })
+  return true
+}
+
+/** Delete one owned upload/asset alias and reclaim its bytes when it was the last. */
+async function deleteManagedMediaRow({ id, uploadedBy = null, uploadId = null, describedMediaRecords = null }) {
+  const where = ['id = ?']
+  const params = [id]
+  if (uploadedBy) { where.push('uploaded_by = ?'); params.push(uploadedBy) }
+  if (uploadId) { where.push('upload_id = ?'); params.push(uploadId) }
+  const [initialRows] = await pool.query(
+    `SELECT id, upload_id AS uploadId, uploaded_by AS uploadedBy, status,
+       storage_key AS storageKey, sha256
+     FROM managed_media WHERE ${where.join(' AND ')} LIMIT 1`,
+    params,
+  )
+  const initial = initialRows[0]
+  if (!initial) return false
+
+  if (initial.status === 'uploading') {
+    const workspace = resolvedMediaUploadPath(initial.id, initial.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    const [deleted] = await pool.query(`DELETE FROM managed_media WHERE ${where.join(' AND ')} AND status = 'uploading'`, params)
+    return Boolean(deleted.affectedRows)
+  }
+
+  return withManagedMediaDigestLock(initial.sha256 || initial.id, async (conn) => {
+    const [rows] = await conn.query(
+      `SELECT id, upload_id AS uploadId, storage_key AS storageKey, sha256 FROM managed_media
+       WHERE ${where.join(' AND ')} AND status = 'ready' LIMIT 1`,
+      params,
+    )
+    const record = rows[0]
+    if (!record) return false
+    const workspace = record.uploadId && resolvedMediaUploadPath(record.id, record.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    await removePhysicalMediaIfUnreferenced(record, conn, record.id, describedMediaRecords)
+    const [deleted] = await conn.query(`DELETE FROM managed_media WHERE ${where.join(' AND ')} AND status = 'ready'`, params)
+    if (!deleted.affectedRows) return false
+    return true
+  })
+}
+
+/** Turn an assembled staging file into one immediately readable managed asset. */
+async function registerManagedMedia(staging, received, { id = `med-${randomUUID()}`, uploadedBy }) {
+  // MP4/M4A track metadata may live in a trailing `moov` atom, especially for
+  // large/non-fast-start files. Probe a bounded head and tail rather than
+  // loading a multi-gigabyte upload into memory or guessing from its filename.
+  const headLength = Math.min(1024 * 1024, received.sizeBytes)
+  const tailLength = Math.min(4 * 1024 * 1024, Math.max(0, received.sizeBytes - headLength))
+  const probe = Buffer.alloc(headLength + tailLength)
+  const handle = await open(staging, 'r')
+  try {
+    await handle.read(probe, 0, headLength, 0)
+    if (tailLength) await handle.read(probe, headLength, tailLength, received.sizeBytes - tailLength)
+  } finally { await handle.close() }
+  const meta = mediaMeta(probe)
+  if (!meta) {
+    const error = new Error('that file is not a supported image, audio recording or video')
+    error.status = 415
+    throw error
+  }
+  const typeCap = MEDIA_TYPE_MAX_BYTES[meta.mediaType]
+  if (typeCap && received.sizeBytes > typeCap) {
+    const error = new Error(`${meta.mediaType} may be up to ${Math.round(typeCap / (1024 * 1024))} MB`)
+    error.status = 413
+    throw error
+  }
+
+  const storageKey = storageKeyFor(received.sha256, meta.mimeType)
+  const fullPath = storageKey && resolveWithin(MEDIA_STORAGE_DIR, storageKey)
+  if (!fullPath) throw new Error('media path could not be resolved')
+
+  return withManagedMediaDigestLock(received.sha256, async (conn) => {
+    // Identical uploads share one physical object but retain their own row and
+    // upload id. That makes completion and cleanup safely retryable even when
+    // the first HTTP response is lost.
+    const alreadyStored = existsSync(fullPath)
+    if (!alreadyStored) {
+      await mkdir(dirname(fullPath), { recursive: true })
+      await rename(staging, fullPath)
+    } else {
+      await rm(staging, { force: true })
+    }
+    try {
+      // The file is on disk but not yet trusted: land it as 'verifying', prove it
+      // reads back, and only then promote to 'ready'. A record is never 'ready'
+      // because an upload's last request returned — only because its stored bytes
+      // were round-tripped.
+      await conn.query(
+        `INSERT INTO managed_media
+           (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height)
+         VALUES (?, ?, 'verifying', ?, ?, ?, ?, ?, ?, ?)
+         ON DUPLICATE KEY UPDATE status = 'verifying', storage_key = VALUES(storage_key),
+           sha256 = VALUES(sha256), media_type = VALUES(media_type), mime_type = VALUES(mime_type),
+           size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height),
+           failure_reason = NULL`,
+        [id, uploadedBy, storageKey, received.sha256, meta.mediaType, meta.mimeType, received.sizeBytes, meta.width || null, meta.height || null],
+      )
+    } catch (error) {
+      if (!alreadyStored) await removePhysicalMediaIfUnreferenced({ storageKey }, conn)
+      throw error
+    }
+
+    const failure = await verifyStoredMedia(fullPath, received.sizeBytes, meta.mediaType)
+    if (failure) {
+      await conn.query('UPDATE managed_media SET status = ?, failure_reason = ? WHERE id = ?', ['failed', failure, id])
+      return { id, status: 'failed', failureReason: failure }
+    }
+    await conn.query('UPDATE managed_media SET status = ?, verified_at = NOW(), ready_at = NOW() WHERE id = ?', ['ready', id])
+    return {
+      ...completedMediaPayload({
+        id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
+        mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
+        width: meta.width, height: meta.height,
+      }, alreadyStored),
+      status: 'ready',
+    }
+  })
+}
+
+/**
+ * Verify a stored media object at rest, returning a failure reason or null.
+ *
+ * This is what "verifying" actually means without a transcoder: the file exists
+ * where it was written, is the size we recorded, reads back, and still parses as
+ * the media type it claimed. It catches a truncated or corrupted write that a
+ * successful HTTP upload would otherwise have reported as done. Audio and video
+ * are confirmed as readable and correctly typed; playback itself is not claimed
+ * verified, because the server has no player — the honest ceiling here.
+ */
+async function verifyStoredMedia(fullPath, sizeBytes, mediaType) {
+  try {
+    const info = await stat(fullPath)
+    if (!info.isFile()) return 'stored media is not a file'
+    if (info.size !== sizeBytes) return `stored media is ${info.size} bytes, expected ${sizeBytes}`
+    const headLength = Math.min(1024 * 1024, sizeBytes)
+    const tailLength = Math.min(4 * 1024 * 1024, Math.max(0, sizeBytes - headLength))
+    const back = Buffer.alloc(headLength + tailLength)
+    const handle = await open(fullPath, 'r')
+    try {
+      await handle.read(back, 0, headLength, 0)
+      if (tailLength) await handle.read(back, headLength, tailLength, sizeBytes - tailLength)
+    } finally { await handle.close() }
+    const recheck = mediaMeta(back)
+    if (!recheck) return 'stored media did not read back as a recognised format'
+    if (recheck.mediaType !== mediaType) return `stored media read back as ${recheck.mediaType}, not ${mediaType}`
+    return null
+  } catch {
+    return 'stored media could not be read back'
+  }
+}
+
+/** Legacy bounded request, kept for older clients. New clients use chunks. */
+app.post('/api/media', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const staging = resolveWithin(MEDIA_STORAGE_DIR, join('media', '.staging', randomUUID()))
+  if (!staging) return res.status(500).json({ error: 'media staging path could not be resolved' })
+
+  let received
+  try {
+    received = await receiveStream(req, staging, { maxBytes: MEDIA_MAX_BYTES })
+  } catch (error) {
+    await rm(staging, { force: true })
+    return res.status(413).json({ error: error.message })
+  }
+
+  try { return res.json({ ok: true, ...(await registerManagedMedia(staging, received, { uploadedBy: req.identity.id })) }) }
+  catch (error) { return res.status(error.status || 500).json({ error: error.message }) }
+  finally { await rm(staging, { force: true }) }
+}))
+
+/**
+ * Which media storage providers are configured, for a super admin auditing the
+ * Cloudflare wiring. Reports presence and readiness only — never a secret value.
+ * The filesystem provider is always available; R2/Stream report configured only
+ * when their env is complete, and name (never print) any variables still missing.
+ */
+app.get('/api/admin/media/providers', requireSuperAdmin, wrap(async (_req, res) => {
+  res.json(describeProviders(process.env))
+}))
+
+/** Start a large, resumable managed-media upload. */
+app.post('/api/media/uploads', requireTab('resources', 'media'), wrap(async (req, res) => {
+  await cleanupStaleMediaUploads()
+  const sizeBytes = Number(req.body?.sizeBytes)
+  if (!Number.isFinite(sizeBytes) || sizeBytes < 1 || sizeBytes > MEDIA_CHUNKED_MAX_BYTES) {
+    return res.status(413).json({ error: `managed media may be up to ${Math.round(MEDIA_CHUNKED_MAX_BYTES / (1024 * 1024))} MB` })
+  }
+  const id = `med-${randomUUID()}`
+  const uploadId = randomUUID().replace(/-/g, '')
+  await pool.query(
+    `INSERT INTO managed_media (id, upload_id, uploaded_by, status, size_bytes) VALUES (?, ?, ?, 'uploading', ?)`,
+    [id, uploadId, req.identity.id, sizeBytes],
+  )
+  res.json({ id, uploadId, chunkMaxBytes: MEDIA_CHUNK_MAX_BYTES, maxBytes: MEDIA_CHUNKED_MAX_BYTES })
+}))
+
+app.put('/api/media/uploads/:id/:uploadId/chunks/:index', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    `SELECT id FROM managed_media WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
+    [req.params.id, req.params.uploadId, req.identity.id],
+  )
+  if (!rows.length) return res.status(404).json({ error: 'media upload not found' })
+  const index = Number(req.params.index)
+  if (!Number.isInteger(index) || index < 0 || index > 4095) return res.status(400).json({ error: 'invalid chunk index' })
+  const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
+  if (!workspace) return res.status(400).json({ error: 'invalid media upload path' })
+  const declaredLength = Number(req.header('content-length'))
+  if (Number.isFinite(declaredLength) && declaredLength > MEDIA_CHUNK_MAX_BYTES) return res.status(413).json({ error: 'chunk exceeds configured limit' })
+  const result = await receiveChunk(req, workspace, index, MEDIA_CHUNK_MAX_BYTES)
+  await pool.query(`UPDATE managed_media SET updated_at = NOW() WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`, [req.params.id, req.params.uploadId, req.identity.id])
+  res.json({ ok: true, index, sizeBytes: result.sizeBytes })
+}))
+
+app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    `SELECT id, status, storage_key AS storageKey, sha256, media_type AS mediaType,
+       mime_type AS mimeType, size_bytes AS sizeBytes, width, height, failure_reason AS failureReason
+     FROM managed_media
+     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status IN ('uploading', 'ready', 'failed')`,
+    [req.params.id, req.params.uploadId, req.identity.id],
+  )
+  const pending = rows[0]
+  if (!pending) return res.status(404).json({ error: 'media upload not found' })
+  // A prior attempt that failed verification stays failed — report it honestly on
+  // retry rather than pretending the upload is still in progress.
+  if (pending.status === 'failed') {
+    return res.json({ ok: true, id: pending.id, status: 'failed', failureReason: pending.failureReason || 'verification failed' })
+  }
+  if (pending.status === 'ready') {
+    const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    const [duplicates] = await pool.query(
+      `SELECT COUNT(*) AS total FROM managed_media
+       WHERE storage_key = ? AND status = 'ready' AND id <> ?`,
+      [pending.storageKey, pending.id],
+    )
+    const describedDuplicate = (await mediaRecords()).some(
+      (record) => record.id !== pending.id && record.storageKey === pending.storageKey,
+    )
+    return res.json({
+      ok: true,
+      status: 'ready',
+      ...completedMediaPayload(pending, Number(duplicates[0]?.total || 0) > 0 || describedDuplicate),
+    })
+  }
+  const totalChunks = Number(req.body?.totalChunks)
+  const declaredSize = Number(req.body?.sizeBytes)
+  if (!Number.isInteger(totalChunks) || totalChunks < 1 || totalChunks > 4096) return res.status(400).json({ error: 'invalid chunk count' })
+  if (!Number.isFinite(declaredSize) || declaredSize !== Number(pending.sizeBytes) || declaredSize > MEDIA_CHUNKED_MAX_BYTES) {
+    return res.status(409).json({ error: 'uploaded size does not match the initiated upload' })
+  }
+  const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
+  const staging = resolveWithin(MEDIA_STORAGE_DIR, join('media', '.staging', req.params.id))
+  if (!workspace || !staging) return res.status(400).json({ error: 'invalid media upload path' })
+  try {
+    const received = await assembleChunks(workspace, staging, {
+      totalChunks, declaredSize, maxBytes: MEDIA_CHUNKED_MAX_BYTES, chunkMaxBytes: MEDIA_CHUNK_MAX_BYTES,
+      removeWorkspace: false,
+    })
+    const registered = await registerManagedMedia(staging, received, { id: req.params.id, uploadedBy: req.identity.id })
+    await rm(workspace, { recursive: true, force: true })
+    res.json({ ok: true, ...registered })
+  } catch (error) {
+    await rm(staging, { force: true })
+    res.status(error.status || 500).json({ error: error.message || 'media upload could not be completed' })
+  }
+}))
+
+app.delete('/api/media/uploads/:id/:uploadId', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const deleted = await deleteManagedMediaRow({
+    id: req.params.id,
+    uploadId: req.params.uploadId,
+    uploadedBy: req.identity.id,
+  })
+  if (!deleted) return res.status(404).json({ error: 'media upload not found' })
+  res.json({ ok: true })
+}))
+
+/** Authenticated fetch for images and downloads. */
+app.get('/api/media/:id', requireAuthenticated, wrap(async (req, res) => {
+  if (!await mayReadManagedMedia(req.identity, req.params.id)) return res.status(404).json({ error: 'media not found' })
+  const record = await managedMediaFile(req.params.id)
+  if (!record) return res.status(404).json({ error: 'media not found' })
+  if (!sendManagedMedia(res, record)) return res.status(404).json({ error: 'media file is pending upload' })
+}))
+
+/** Native audio/video playback uses a signed URL so Range requests can seek. */
+app.post('/api/media/:id/playback', requireAuthenticated, wrap(async (req, res) => {
+  if (!await mayReadManagedMedia(req.identity, req.params.id)) return res.status(404).json({ error: 'media not found' })
+  const record = await managedMediaFile(req.params.id)
+  if (!record) return res.status(404).json({ error: 'media not found' })
+  const token = createMediaPlaybackToken(record.id, Date.now(), 4 * 60 * 60 * 1000, hasConsoleAccess(req.identity?.role))
+  res.json({ url: `/api/media-playback/${encodeURIComponent(token)}` })
+}))
+
+app.get('/api/media-playback/:token', wrap(async (req, res) => {
+  const claim = readMediaPlaybackToken(req.params.token)
+  if (!claim) return res.status(404).json({ error: 'media link expired' })
+  if (!claim.allowDraft) {
+    const released = (await mediaRecords()).find((entry) => entry.id === claim.mediaId)
+    if (!released || !isMediaReleased(released)) return res.status(404).json({ error: 'media not found' })
+  }
+  const record = await managedMediaFile(claim.mediaId)
+  if (!record || !sendManagedMedia(res, record, { signed: true })) return res.status(404).json({ error: 'media not found' })
+}))
+
+/**
+ * Whether this image may be removed.
+ *
+ * The record itself is removed by the client's write to the library document;
+ * this route refuses active use and drops this managed alias. Content-addressed
+ * bytes are reclaimed only after every database and library alias is gone.
+ */
+app.delete('/api/media/:id', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
+  const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-concept-graph-v2'])
+  const ledger = ledgerRow.length ? JSON.parse(ledgerRow[0].v) : []
+  const concepts = graphRow.length ? (JSON.parse(graphRow[0].v)?.concepts ?? []) : []
+  const refusal = deleteRefusal(req.params.id, ledger, concepts)
+  if (refusal) return res.status(409).json({ error: refusal })
+  // A described library record is removed by the following state write. Keep
+  // its durable row and bytes until that write commits; pending/duplicate
+  // uploads have no description and can be reclaimed immediately.
+  if (!(await mediaRecords()).some((record) => record.id === req.params.id)) {
+    await deleteManagedMediaRow({ id: req.params.id })
+  }
+  res.json({ ok: true })
+}))
+
+app.post('/api/medical-resources/cleanup-uploads', requireTab('resources'), wrap(async (_req, res) => {
   const storedResources = (await medicalResourceRecords()).filter((resource) => resource.storageKey)
   if (!storedResources.length) return res.status(409).json({ error: 'no qualified stored resources are registered' })
   const missingResourceIds = storedResources
@@ -1369,7 +3117,7 @@ app.get('/api/medical-resources/:resourceId/status', requireAuthenticated, wrap(
     id: resource.id,
     available: Boolean(fullPath && existsSync(fullPath)),
     externalUrl: resource.sourceUri || null,
-    storageKey: req.identity.role === 'admin' ? resource.storageKey || null : undefined,
+    storageKey: hasConsoleAccess(req.identity.role) ? resource.storageKey || null : undefined,
   })
 }))
 
@@ -1385,7 +3133,7 @@ app.get('/api/medical-resources/:resourceId', requireAuthenticated, wrap(async (
   res.sendFile(fullPath)
 }))
 
-app.put('/api/medical-resources/:resourceId/file', requireAdmin, wrap(async (req, res) => {
+app.put('/api/medical-resources/:resourceId/file', requireTab('resources'), wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
   if (!resource) return res.status(404).json({ error: 'resource not found' })
   const fullPath = resolvedResourcePath(resource.storageKey)
@@ -1403,7 +3151,7 @@ app.put('/api/medical-resources/:resourceId/file', requireAdmin, wrap(async (req
  * These endpoints accept bounded chunks, then verify the reconstructed file
  * against the qualified source hash before it becomes visible to readers.
  */
-app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireAdmin, wrap(async (req, res) => {
+app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireTab('resources'), wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
   if (!resource) return res.status(404).json({ error: 'resource not found' })
   const fullPath = resolvedResourcePath(resource.storageKey)
@@ -1418,7 +3166,7 @@ app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireAdm
   res.json({ ok: true, index, sizeBytes })
 }))
 
-app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireAdmin, wrap(async (req, res) => {
+app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireTab('resources'), wrap(async (req, res) => {
   const resource = await resourceRecord(req.params.resourceId)
   if (!resource) return res.status(404).json({ error: 'resource not found' })
   const fullPath = resolvedResourcePath(resource.storageKey)
@@ -1449,12 +3197,12 @@ app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', require
   }
 }))
 
-app.post('/api/backups', requireAdmin, wrap(async (req, res) => {
+app.post('/api/backups', requireTab('audit'), wrap(async (req, res) => {
   const label = req.body?.label || `Manual snapshot ${new Date().toISOString()}`
   res.json(await createDataSnapshot(label, req.identity.id))
 }))
 
-app.get('/api/backups/:id/download', requireAdmin, wrap(async (req, res) => {
+app.get('/api/backups/:id/download', requireTab('audit'), wrap(async (req, res) => {
   const [rows] = await pool.query(
     'SELECT label, snapshot_json AS snapshotJson FROM data_snapshots WHERE id = ?',
     [req.params.id],
@@ -1468,7 +3216,7 @@ app.get('/api/backups/:id/download', requireAdmin, wrap(async (req, res) => {
 
 /* ── Students ────────────────────────────────────────────────────────────── */
 
-const STUDENT_COLS = 'id, name, email, university_id AS universityId, year, plan, status, joined, last_active AS lastActive, questions_answered AS questionsAnswered, accuracy, readiness'
+const STUDENT_COLS = 'id, name, email, university_id AS universityId, year, year_id AS yearId, plan, status, joined, last_active AS lastActive, questions_answered AS questionsAnswered, accuracy, readiness'
 
 app.get('/api/students', wrap(async (_req, res) => {
   const [rows] = await pool.query(`SELECT ${STUDENT_COLS} FROM students ORDER BY name`)
@@ -1479,15 +3227,21 @@ app.post('/api/students', wrap(async (req, res) => {
   const s = req.body || {}
   const id = s.id || `stu-${randomUUID().slice(0, 8)}`
   await pool.query(
-    `INSERT INTO students (id, name, email, university_id, year, plan, status, joined, last_active, questions_answered, accuracy, readiness)
-     VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`,
-    [id, s.name, s.email, s.universityId, s.year, s.plan, s.status, s.joined || null, s.lastActive || null, s.questionsAnswered || 0, s.accuracy || 0, s.readiness || 0],
+    `INSERT INTO students (id, name, email, university_id, year, year_id, plan, status, joined, last_active, questions_answered, accuracy, readiness)
+     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+    [id, s.name, s.email, s.universityId, s.year, s.yearId || null, s.plan, s.status, s.joined || null, s.lastActive || null, s.questionsAnswered || 0, s.accuracy || 0, s.readiness || 0],
   )
   res.json({ id })
 }))
 
 app.patch('/api/students/:id', wrap(async (req, res) => {
-  const allowed = { name: 'name', email: 'email', universityId: 'university_id', year: 'year', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
+  // University, year and year_id are deliberately NOT editable here: a cohort
+  // change resets what progress the student sees, so it must go through
+  // POST /api/admin/users/:id/enrollment, which is editor-and-above, audited,
+  // and resets the aggregates. Persisting them here silently — as the profile
+  // dialog once did — is exactly the bug that let a cohort look changed while the
+  // record still said otherwise.
+  const allowed = { name: 'name', email: 'email', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
   const sets = [], vals = []
   for (const [k, col] of Object.entries(allowed)) if (k in (req.body || {})) { sets.push(`${col} = ?`); vals.push(req.body[k]) }
   if (sets.length) { vals.push(req.params.id); await pool.query(`UPDATE students SET ${sets.join(', ')} WHERE id = ?`, vals) }
@@ -1677,35 +3431,35 @@ app.post('/api/assistant/chat', requireAuthenticated, wrap(async (req, res) => {
   return res.json(result)
 }))
 
-app.get('/api/admin/assistant', requireAdmin, wrap(async (_req, res) => {
+app.get('/api/admin/assistant', requireTab('assistant'), wrap(async (_req, res) => {
   res.json(await assistantAdminSettings())
 }))
 
-app.put('/api/admin/assistant', requireAdmin, wrap(async (req, res) => {
+app.put('/api/admin/assistant', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantSaveSettings(req.body ?? {}, req.identity.id)
   if (result.error) return res.status(400).json(result)
   return res.json(result)
 }))
 
-app.put('/api/admin/assistant/tiers/:plan', requireAdmin, wrap(async (req, res) => {
+app.put('/api/admin/assistant/tiers/:plan', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantSaveTierLimit({ ...req.body, plan: req.params.plan })
   if (result.error) return res.status(400).json(result)
   return res.json(result)
 }))
 
-app.delete('/api/admin/assistant/tiers/:plan', requireAdmin, wrap(async (req, res) => {
+app.delete('/api/admin/assistant/tiers/:plan', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantDeleteTierLimit(req.params.plan)
   if (result.error) return res.status(400).json(result)
   return res.json(result)
 }))
 
-app.get('/api/admin/assistant/usage', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/assistant/usage', requireTab('assistant'), wrap(async (req, res) => {
   res.json(await assistantUsage({ days: req.query.days }))
 }))
 
 // Asked of the provider, so the model list is what it will actually accept
 // today rather than what was true when this was written.
-app.get('/api/admin/assistant/models', requireAdmin, wrap(async (req, res) => {
+app.get('/api/admin/assistant/models', requireTab('assistant'), wrap(async (req, res) => {
   const result = await assistantModels(req.query.provider)
   if (result.error) return res.status(result.status ?? 502).json(result)
   return res.json(result)
@@ -1768,7 +3522,7 @@ const port = Number(process.env.PORT) || 8080
 migrate()
   .then(async () => {
     app.listen(port, () => {
-      console.log(`Connect Cortex on :${port}`)
+      console.log(`Maristana on :${port}`)
       void medicalResourceRecords()
         .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
         .catch((error) => console.error('Medical resource index warm-up failed:', error.message))

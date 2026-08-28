@@ -20,6 +20,7 @@ test('a student\'s own work is routed to their own record', () => {
   assert.equal(isUserOwnedState('synapse.account.audience.v1'), true)
   assert.equal(isUserOwnedState('synapse.essay.answers.v1'), true)
   assert.equal(isUserOwnedState('synapse.termgrid.progress.v1'), true)
+  assert.equal(isUserOwnedState('synapse.maristanas.onboarding.v1'), true)
 })
 
 test('a student\'s flashcard decks and schedules are their own record', () => {

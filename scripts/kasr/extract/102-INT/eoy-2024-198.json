@@ -1,0 +1,920 @@
+{
+  "source": {
+    "id": "src_dbe1da0da0b7f94a618f",
+    "file": "EOY (INT - 102) 198 (1).pdf",
+    "module": "102 INT",
+    "sittingYear": 2024,
+    "tier": "end_of_year",
+    "sections": [
+      "Physiology",
+      "Biochemistry"
+    ],
+    "solvedCopy": "src_7bee2922fec10f6b890a"
+  },
+  "seeds": [
+    {
+      "q": 1,
+      "section": "Physiology",
+      "page": 1,
+      "marks": 8,
+      "asked": "1) Regarding plasma proteins, explain site of formation {2 Marks}, mention six functions {6 Marks}.",
+      "label": "The liver makes albumin, fibrinogen, the clotting factors and half the globulins while plasma cells make the gamma globulins, and between them the plasma proteins hold water in the capillary, buffer the blood, defend it, clot it, thicken it, seal the capillary pores, carry small molecules and store amino acids",
+      "key": "plasma-proteins-formation-and-functions",
+      "definition": "Plasma proteins are present at 7.2 to 7.4 g/dl and consist of albumin, globulins, fibrinogen and the other coagulation factors. The liver is the main site of synthesis, making albumin, fibrinogen, the coagulation factors and 50% of the globulins; the gamma globulins are made by plasma cells in lymphoid tissue. They contribute only 25 to 28 mmHg of the 5000 mmHg total plasma osmotic pressure, but the capillary wall is impermeable to them, so that small contribution is the effective colloidal osmotic pressure that draws tissue fluid back into the blood, and albumin dominates it because it is the most concentrated. They supply 15% of the buffering power of blood; the gamma globulins provide humoral immunity; fibrinogen and the clotting factors coagulate the blood; fibrinogen also contributes most to blood viscosity because of its elongated shape; plasma proteins close the pores of the capillary wall and so set capillary permeability; albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals and stop them being lost in urine; and they are a reserve of amino acids for tissue protein.",
+      "objective": "State where each class of plasma protein is formed and give six functions of the plasma proteins, naming which protein is responsible for each.",
+      "pitfall": "Reading the small share of total osmotic pressure as a small effect. Crystalloids account for almost all of the 5000 mmHg, but they cross the capillary wall freely and so exert no net pull; the 25 to 28 mmHg of the proteins is the only part that acts across the capillary, which is why oedema follows hypoalbuminaemia.",
+      "subject": "haem",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-HEM-T01"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Plasma proteins",
+      "type": "structure_function_relationship",
+      "difficulty": "Easy",
+      "sourcePage": 1
+    },
+    {
+      "q": 2,
+      "section": "Physiology",
+      "page": 2,
+      "marks": 9,
+      "asked": "2) Compare between function of TXA2 and PGI2 {6 Marks}, and function of aspirin in preventing myocardial infarction {3 Marks}.",
+      "label": "Thromboxane A2 from the platelet and prostacyclin from the endothelium are made by the same enzyme from the same substrate and do the opposite things, and that opposition is what keeps a platelet plug at the site of injury",
+      "key": "thromboxane-a2-and-prostacyclin-balance",
+      "definition": "Thromboxane A2 is produced from arachidonic acid in the membrane of activated platelets by cyclooxygenase. It is a vasoconstrictor, a stimulator of the platelet release reaction and a powerful stimulant of platelet aggregation. Prostacyclin is produced from arachidonic acid in the endothelium of blood vessels by the same cyclooxygenase. It is a powerful vasodilator and an inhibitor of both platelet release and platelet aggregation. Because its actions are the opposite of those of thromboxane A2, prostacyclin keeps the platelet plug localised to the site of injury, and the balance between the two is one of the physiological limitations of blood coagulation.",
+      "objective": "Compare thromboxane A2 and prostacyclin by their cell of origin and their three actions each, and explain what the balance between them achieves.",
+      "pitfall": "Treating the two as products of different pathways because their effects are opposite. Both come from arachidonic acid through the same cyclooxygenase step; only the cell differs, and that is exactly why one drug acting on that step can shift the balance.",
+      "subject": "haem",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-HEM-T03"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Platelets and haemostasis",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 2
+    },
+    {
+      "q": 2,
+      "section": "Physiology",
+      "page": 2,
+      "marks": 0,
+      "asked": "2) …and function of aspirin in preventing myocardial infarction {3 Marks}.",
+      "label": "Aspirin prevents myocardial infarction because it inhibits cyclooxygenase in both cells but only the endothelial cell can make the enzyme again, so a small prolonged dose suppresses thromboxane A2 while prostacyclin recovers",
+      "key": "aspirin-cox-inhibition-mi-prevention",
+      "definition": "Aspirin inhibits the cyclooxygenase enzyme and therefore reduces production of both thromboxane A2 and prostacyclin. The endothelial cell produces new cyclooxygenase within a matter of hours, whereas the platelet cannot manufacture the enzyme at all. Administration of small amounts of aspirin for prolonged periods therefore reduces clot formation and has been of value in preventing myocardial infarction.",
+      "objective": "Explain why inhibiting an enzyme common to both platelet and endothelium produces a net antithrombotic effect, and why the dose has to be small and prolonged.",
+      "pitfall": "Assuming a bigger dose gives better protection. A larger dose suppresses endothelial prostacyclin as well, and the protective effect comes from the asymmetry between a cell that can replace the enzyme and one that cannot.",
+      "subject": "pharm",
+      "system": "FND",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-CVS-T03-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Platelets and haemostasis",
+      "type": "mechanism",
+      "difficulty": "Hard",
+      "sourcePage": 2
+    },
+    {
+      "q": 3,
+      "section": "Physiology",
+      "page": 3,
+      "marks": 9,
+      "asked": "3) Explain distribution and action of adrenergic receptors {9 Marks}.",
+      "label": "Adrenergic receptors sit both on the effector organ and on the nerve ending that released the transmitter, and the two alpha and three beta subtypes are told apart by which second messenger they move and which plain muscle they act on",
+      "key": "adrenergic-receptor-distribution-and-actions",
+      "definition": "There are two major types of adrenergic receptor, alpha with subtypes 1 and 2, and beta with subtypes 1, 2 and 3. Presynaptically they are autoreceptors on the membrane of postganglionic adrenergic nerve endings that regulate transmitter release: stimulating presynaptic alpha receptors decreases noradrenaline release and stimulating presynaptic beta receptors increases it. Postsynaptically, alpha-1 acts by raising intracellular calcium, alpha-2 by inhibiting adenylyl cyclase and lowering cAMP, and beta-1 and beta-2 by stimulating adenylyl cyclase and raising cAMP. Alpha-1 receptors are mainly excitatory and contract plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae producing mydriasis, the splenic capsule, the gastrointestinal sphincters retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 receptors are mainly inhibitory and relax intestinal plain muscle. Beta-1 receptors are mainly excitatory and accelerate the heart and increase its force of contraction. Beta-2 receptors are mainly inhibitory and relax plain muscle: vasodilatation of coronary and skeletal-muscle vessels, bronchodilatation, and relaxation of gut, urinary bladder and uterus. Beta-3 receptors drive lipolysis.",
+      "objective": "Give the presynaptic and postsynaptic distribution of adrenergic receptors, the second messenger each subtype uses, and the organ effect of each subtype.",
+      "pitfall": "Assuming alpha always constricts and beta always dilates everywhere. Alpha-2 relaxes intestinal plain muscle and beta-1 excites the heart; the subtype, not the letter, decides whether the effect is excitatory or inhibitory.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors",
+      "type": "classification",
+      "difficulty": "Challenging",
+      "sourcePage": 3
+    },
+    {
+      "q": 4,
+      "section": "Physiology",
+      "page": 4,
+      "marks": 0,
+      "asked": "4) In response to a systemic sympathetic response, epinephrine is released from the adrenal medulla. Which receptor does epinephrine bind to in cardiac muscle cells, bronchial smooth muscle cells, and vascular smooth muscle cells? A. β₁ | β₂ | α₂ B. β₂ | β₁ | α₁ C. α₁ | β₁ | α₂ D. β₁ | β₂ | α₂",
+      "label": "Adrenergic receptors sit both on the effector organ and on the nerve ending that released the transmitter, and the two alpha and three beta subtypes are told apart by which second messenger they move and which plain muscle they act on",
+      "key": "adrenergic-receptor-distribution-and-actions",
+      "definition": "There are two major types of adrenergic receptor, alpha with subtypes 1 and 2, and beta with subtypes 1, 2 and 3. Presynaptically they are autoreceptors on the membrane of postganglionic adrenergic nerve endings that regulate transmitter release: stimulating presynaptic alpha receptors decreases noradrenaline release and stimulating presynaptic beta receptors increases it. Postsynaptically, alpha-1 acts by raising intracellular calcium, alpha-2 by inhibiting adenylyl cyclase and lowering cAMP, and beta-1 and beta-2 by stimulating adenylyl cyclase and raising cAMP. Alpha-1 receptors are mainly excitatory and contract plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae producing mydriasis, the splenic capsule, the gastrointestinal sphincters retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 receptors are mainly inhibitory and relax intestinal plain muscle. Beta-1 receptors are mainly excitatory and accelerate the heart and increase its force of contraction. Beta-2 receptors are mainly inhibitory and relax plain muscle: vasodilatation of coronary and skeletal-muscle vessels, bronchodilatation, and relaxation of gut, urinary bladder and uterus. Beta-3 receptors drive lipolysis.",
+      "objective": "Give the presynaptic and postsynaptic distribution of adrenergic receptors, the second messenger each subtype uses, and the organ effect of each subtype.",
+      "pitfall": "Assuming alpha always constricts and beta always dilates everywhere. Alpha-2 relaxes intestinal plain muscle and beta-1 excites the heart; the subtype, not the letter, decides whether the effect is excitatory or inhibitory.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 4
+    },
+    {
+      "q": 5,
+      "section": "Physiology",
+      "page": 4,
+      "marks": 0,
+      "asked": "5) A 39-year-old woman returns home after eating at a buffet. An hour later she is relaxing in front of the television. Which of the following autonomic responses is most likely occurring at this time? A. Increased peristalsis. B. Increased sweating C. Decreased blood flow to the skin D. Dilation of bronchioles",
+      "label": "The vagus carries the whole parasympathetic supply of the thoracic and abdominal viscera, slowing the atria, constricting bronchi, driving gut motility and secretion, and emptying the gall bladder",
+      "key": "parasympathetic-function-thoracic-abdominal-viscera",
+      "definition": "Preganglionic fibres arise from the vagal nucleus in the medulla oblongata, run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles; it inhibits all properties of atrial muscle only, and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilatation of the pulmonary vessels and stimulation of the bronchial glands. On the gastrointestinal tract it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it.",
+      "objective": "Give the origin, course and relay of the vagal parasympathetic supply and state its effect on the heart, lungs, gastrointestinal tract and gall bladder.",
+      "pitfall": "Saying the vagus slows the whole heart. It does not supply the ventricles at all — it inhibits the properties of atrial muscle only.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system",
+      "type": "mechanism",
+      "difficulty": "Easy",
+      "sourcePage": 4
+    },
+    {
+      "q": 6,
+      "section": "Physiology",
+      "page": 4,
+      "marks": 0,
+      "asked": "6) While driving, you narrowly avoid a car accident by slamming on the brakes. Your heart rate is accelerated (increased) when you come to a stop. Which of the following physiologic parameters will be decreased in response to this experience? A. Airway resistance B. Pupil dilatation C. Systolic blood pressure. D. Vascular resistance",
+      "label": "The sympathetic system discharges as one unit in an emergency, and everything it does — dilating the pupil, accelerating the heart, constricting skin vessels, raising alertness, freeing glucose and fatty acids — is a preparation for flight, fear or fight",
+      "key": "sympathetic-alarm-stress-response",
+      "definition": "The sympathetic nervous system is the catabolic, energy-consuming system, and in emergency it discharges as a single unit to prepare the individual for flight, fear or fight. It dilates the pupils, letting more light into the eyes. It accelerates the heartbeat and raises the blood pressure, giving better perfusion of vital organs and muscles. It constricts the blood vessels of the skin, which limits bleeding from wounds. It lowers the threshold in the reticular formation of the brain, reinforcing the alert and aroused state. It stimulates lipolysis and glycogenolysis, supplying more glucose and free fatty acids. In the lungs the same discharge produces bronchodilatation, so airway resistance falls while almost every other parameter rises.",
+      "objective": "List the components of the sympathetic alarm response and say, for each, what advantage it gives in an emergency.",
+      "pitfall": "Expecting every sympathetic effect to be an increase. Bronchodilatation lowers airway resistance and the gut wall relaxes — the discharge is uniform in purpose, not in direction.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 4
+    },
+    {
+      "q": 7,
+      "section": "Physiology",
+      "page": 4,
+      "marks": 0,
+      "asked": "7) Adrenergic nerve fibers secrete: A. Acetyl choline B. Noradrenaline C. Dopamine D. Calcium ions",
+      "label": "Autonomic fibres are named for the transmitter they release: cholinergic fibres are every preganglionic fibre, every postganglionic parasympathetic fibre and two sympathetic exceptions, and adrenergic fibres are all the remaining postganglionic sympathetic ones, which secrete noradrenaline",
+      "key": "cholinergic-and-adrenergic-fibre-transmitters",
+      "definition": "Acetylcholine and noradrenaline are the main chemical transmitters at autonomic synaptic junctions, so autonomic nerve fibres are divided into cholinergic and adrenergic. Cholinergic fibres are all preganglionic autonomic fibres, sympathetic and parasympathetic alike including those to the adrenal medulla; all postganglionic parasympathetic fibres; and two groups of postganglionic sympathetic fibres, the secretory fibres to sweat glands and the vasodilator fibres to the blood vessels of skeletal muscle. All the other postganglionic sympathetic fibres are adrenergic and secrete noradrenaline, which is also secreted with adrenaline from the adrenal medulla. Cholinergic receptors are activated by acetylcholine and adrenergic receptors by noradrenaline.",
+      "objective": "Say which autonomic fibres are cholinergic and which are adrenergic, and name the transmitter each releases.",
+      "pitfall": "Calling every sympathetic postganglionic fibre adrenergic. The sudomotor fibres to sweat glands and the vasodilator fibres to skeletal-muscle vessels are sympathetic and cholinergic, which is why sweating is a sympathetic response blocked by an antimuscarinic.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 4
+    },
+    {
+      "q": 8,
+      "section": "Physiology",
+      "page": 4,
+      "marks": 0,
+      "asked": "8) Ciliary ganglion is considered as: A. Sympathetic collateral ganglion B. Parasympathetic terminal ganglion C. Parasympathetic collateral ganglion D. Sympathetic Terminal ganglion",
+      "label": "There are four types of autonomic ganglion — the paravertebral sympathetic chain, the collateral ganglia, the terminal ganglia, and the adrenal medulla as a modified sympathetic ganglion",
+      "key": "autonomic-ganglia-types",
+      "definition": "The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, except the cervical region, which has only three — superior, middle and inferior; it relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the large branches of the abdominal aorta and are named after them: coeliac, superior mesenteric and inferior mesenteric relay sympathetic fibres, while the ciliary, sphenopalatine, submaxillary and otic ganglia relay parasympathetic fibres. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines into the blood.",
+      "objective": "Name the four types of autonomic ganglion, give the site of each, and say which division of the autonomic nervous system relays there.",
+      "pitfall": "Assuming every collateral ganglion is sympathetic because the abdominal ones are. The ciliary, sphenopalatine, submaxillary and otic ganglia are collateral ganglia that relay parasympathetic fibres.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Autonomic ganglia",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 4
+    },
+    {
+      "q": 9,
+      "section": "Biochemistry",
+      "page": 5,
+      "marks": 4,
+      "asked": "9) Explain in biochemical basis: Mannitol has a clinical application {4 Marks}.",
+      "label": "Mannitol is the sugar alcohol of mannose, and because the body neither absorbs it well nor metabolises it, it stays osmotically active in the fluid it is given into and is excreted unchanged by the kidney",
+      "key": "mannitol-clinical-applications",
+      "definition": "Sugar alcohols are sugars in which the carbonyl group has been reduced to an alcohol group; mannitol is the alcohol of mannose. It is poorly absorbed by the intestines, which is why it serves as a low-calorie sweetener. It is not metabolised in the body and is easily excreted by the kidney, so it remains osmotically active in the compartment it occupies. On that basis it is used as a diuretic, to reduce eye pressure in glaucoma and to reduce intracranial pressure in brain oedema, in each case by osmosis.",
+      "objective": "Explain, from the fact that mannitol is neither metabolised nor reabsorbed, why it lowers intraocular and intracranial pressure and acts as a diuretic.",
+      "pitfall": "Treating it as a drug with a receptor or a transporter to act on. Mannitol has no pharmacological target at all — the whole effect is the osmotic pull of a solute the body cannot dispose of.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T01",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+      "type": "structure_function_relationship",
+      "difficulty": "Moderate",
+      "sourcePage": 5
+    },
+    {
+      "q": 10,
+      "section": "Biochemistry",
+      "page": 5,
+      "marks": 4,
+      "asked": "10) Explain in biochemical basis: Cholesterol is an important sterol and has many derivatives {4 Marks}.",
+      "label": "Cholesterol matters because almost nothing else can be made without it — the bile acids, every steroid hormone and vitamin D3 all come from it, and it is the constituent that controls the fluidity of the cell membrane",
+      "key": "cholesterol-importance-and-derivatives",
+      "definition": "Cholesterol is the most important animal sterol; free cholesterol contains 27 carbon atoms and it circulates either free or esterified with a fatty acid. It is converted into bile acids and bile salts in the liver. It is the precursor of all the steroid hormones — the sex hormones and the corticoids. It is oxidised in the liver into 7-dehydrocholesterol, which ultraviolet light converts into vitamin D3 in the skin. And it is an important constituent of cell membranes, controlling their fluidity. It is excreted mainly in the bile as bile salts.",
+      "objective": "Name the derivatives cholesterol gives rise to and state its structural role in the cell membrane.",
+      "pitfall": "Filing cholesterol only as the substance that causes atherosclerosis. Every steroid hormone, both bile acid classes and vitamin D3 are built from it, and a cell that could not make it would have no membrane worth the name.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T04",
+      "secondary": [
+        "SYS-END-T01-S01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 5
+    },
+    {
+      "q": 11,
+      "section": "Biochemistry",
+      "page": 6,
+      "marks": 4,
+      "asked": "11) Explain in biochemical basis: Function of globin (protein) part of hemoglobin {4 Marks}.",
+      "label": "The globin chain is what makes haem usable: it dissolves it, keeps its iron from being oxidised, keeps it inside the red cell, and tilts carbon monoxide away from the orientation it would otherwise prefer",
+      "key": "globin-protein-part-functions",
+      "definition": "The globin part of haemoglobin has four functions. It makes haem soluble, because the polar amino acids of the folded chain lie on the surface. It prevents oxidation of haem into haematin, because the haem pocket is lined by nonpolar amino acids, and it also prevents formation of the haem-oxygen-haem complex. It prevents haem diffusing into the plasma, because of its large size. And it reduces the affinity of haem for carbon monoxide: isolated haem binds carbon monoxide with the iron, carbon and oxygen atoms perpendicular to the plane of the ring, but in haemoglobin the distal histidine sterically hinders that orientation, and binding at the less favoured angle weakens the haem-carbon monoxide bond.",
+      "objective": "Give the four functions the globin chain performs for the haem group it carries, and the structural feature responsible for each.",
+      "pitfall": "Thinking the globin merely carries the haem while the haem does all the work. Free haem is insoluble, oxidises to haematin, leaks out of the cell and binds carbon monoxide far more avidly — every one of those problems is solved by the protein around it.",
+      "subject": "haem",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-HEM-T01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+      "type": "structure_function_relationship",
+      "difficulty": "Moderate",
+      "sourcePage": 6
+    },
+    {
+      "q": 12,
+      "section": "Biochemistry",
+      "page": 6,
+      "marks": 4,
+      "asked": "12) Explain in biochemical basis: Competitive inhibitors has an inhibitory functions on enzymes, explain how and enumerate 2 examples {4 Marks}.",
+      "label": "A competitive inhibitor resembles the substrate closely enough to occupy the active site, so it raises the apparent Km without touching Vmax and is defeated by adding more substrate",
+      "key": "competitive-enzyme-inhibition-mechanism",
+      "definition": "A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because the inhibition is reversed by raising substrate concentration and at a high enough substrate concentration the reaction reaches the same Vmax as in the absence of inhibitor. The apparent Km rises, because more substrate is needed to reach half of Vmax. Examples are allopurinol, a structural analogue of hypoxanthine that inhibits xanthine oxidase and is used in gout; sulfonamides, structural analogues of para-aminobenzoic acid that block bacterial folate synthesis; and dicumarol and warfarin, structurally similar to a vitamin K derivative and used as anticoagulants.",
+      "objective": "Explain how structural similarity to the substrate produces reversible inhibition, state what it does to Km and Vmax, and give two worked examples.",
+      "pitfall": "Confusing it with allosteric inhibition because both are reversible. An allosteric inhibitor binds away from the catalytic site, changes the protein's conformation, and cannot be outcompeted by more substrate; a competitive inhibitor can.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T02",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Enzymes",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 6
+    },
+    {
+      "q": 13,
+      "section": "Biochemistry",
+      "page": 7,
+      "marks": 4,
+      "asked": "13) Explain in biochemical basis: Collagen has a strong structure {4 Marks}.",
+      "label": "Collagen is strong because every level of its structure is built for tightness — three residues per turn, glycine in every third position, a right-handed superhelix of left-handed chains, hydroxyproline hydrogen bonds, and covalent cross-links between chains",
+      "key": "collagen-structural-strength-basis",
+      "definition": "The building unit of collagen is tropocollagen: three left-handed alpha-chains twisted into a right-handed superhelix, each chain about a thousand amino acids of the repeating triplet Gly-X-Y, where X is proline and Y hydroxyproline. Seven features give it its strength. Each turn contains only three amino acid residues, making a tight helix where an ordinary protein has 3.6. Glycine, in every third position, has a side chain short enough to let the chains lie very close together. The three left-handed chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between chains. Covalent cross-links between adjacent chains give the tensile property, so collagen can be stretched without breaking. The molecules are arranged specifically into fibrils and then fibres. And the staggered, overhanging array gives collagen marked flexibility.",
+      "objective": "Give the structural features, from the repeating triplet up to the fibre, that account for the tensile strength of collagen.",
+      "pitfall": "Attributing the strength to proline alone. Proline prevents a right-handed helix from forming in the individual chain, but it is glycine at every third position that lets three chains pack close enough to wind together, and the covalent cross-links that let the result be pulled without breaking.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-MSK-T04-S02"
+      ],
+      "modulePath": "102 INT > Biochemistry > Proteins of Extracellular Matrix",
+      "type": "structure_function_relationship",
+      "difficulty": "Moderate",
+      "sourcePage": 7
+    },
+    {
+      "q": 14,
+      "section": "Biochemistry",
+      "page": 7,
+      "marks": 4,
+      "asked": "14) Explain in biochemical basis: Non-sense and missense mutations can have severe effects, explain how and mention one example each {4 Marks}.",
+      "label": "A base substitution in a coding region is nonsense if it creates a stop codon, missense if it changes the amino acid, and silent if the new codon is a synonym",
+      "key": "point-mutation-types-and-consequences",
+      "definition": "Base substitutions are the commonest gene mutations. A nonsense mutation converts an amino acid codon into a stop codon, so translation terminates prematurely and the protein product is usually non-functional — thalassaemia is the example. A missense mutation changes the codon so a different amino acid is inserted; the effect ranges from none to very serious, as in sickle cell anaemia, where glutamate is replaced by valine at position six of the β chain. A silent mutation gives a synonym codon for the same amino acid, so the protein is unchanged.",
+      "objective": "Name the three types of point mutation in a coding region and explain how each affects the protein product.",
+      "pitfall": "Assuming every missense mutation is harmless because only one amino acid changes. Whether it matters depends on which amino acid — swapping polar glutamate for nonpolar valine creates the sticky patch that produces sickle cell anaemia.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [
+        "SYS-FND-T02-S01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+      "type": "classification",
+      "difficulty": "Hard",
+      "sourcePage": 7
+    },
+    {
+      "q": 15,
+      "section": "Biochemistry",
+      "page": 8,
+      "marks": 4,
+      "asked": "15) Complete from the following words: {1 Mark each}. [ Serine - Alanine - Decreased - Tryptophan - Isoleucine - Not changed - Methionine - Increased ] - An example of a sulfur containing amino acid is a)………… and a one of a hydroxyl containing amino acid is b)…………. . - In protein denaturation, viscosity is c)…………. , and solubility is d)…………….. .",
+      "label": "An amino acid is placed by holding two classifications at once — its chemical group and whether the body can make it — and no acidic amino acid is essential",
+      "key": "amino-acid-chemical-and-nutritional-classification",
+      "definition": "Chemically, glycine is the smallest neutral aliphatic amino acid, lysine is basic aliphatic, cystine is the disulfide-linked dimer of the sulfur-containing cysteine, isoleucine is branched-chain, and glutamate is acidic aliphatic. Nutritionally, the nine essential amino acids are valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine; arginine is half-essential; all the rest, including glycine, cysteine and cystine, and glutamate, are non-essential.",
+      "objective": "Classify a named amino acid simultaneously by its chemical group and by whether it is essential in the diet.",
+      "pitfall": "Calling cystine essential because methionine, the other sulfur-containing amino acid, is. Methionine is the essential one; cysteine and its dimer cystine are made in the body. There is no essential acidic amino acid at all.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Amino Acids of Biological Importance",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 8
+    },
+    {
+      "q": 15,
+      "section": "Biochemistry",
+      "page": 8,
+      "marks": 0,
+      "asked": "15) Complete from the following words: {1 Mark each}. […] - In protein denaturation, viscosity is c)…………. , and solubility is d)…………….. .",
+      "label": "Denaturation ruptures the bonds holding secondary, tertiary and quaternary structure, leaving the primary sequence intact but the protein insoluble, more viscous, more digestible and biologically dead",
+      "key": "protein-denaturation-effects",
+      "definition": "Denaturation breaks the bonds that stabilise the secondary, tertiary and quaternary orders, leaving only the primary structure. The protein loses solubility as its nonpolar groups become exposed, viscosity rises, digestibility by proteolytic enzymes rises because peptide bonds are exposed, biological activity is lost, and antigenic property is lost.",
+      "objective": "List the effects of denaturation on a protein and say which level of structure survives it.",
+      "pitfall": "Saying the peptide bonds are broken. Denaturation leaves the primary structure untouched — that is why a denatured protein is more digestible rather than already digested.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Proteins of Biological Importance",
+      "type": "mechanism",
+      "difficulty": "Easy",
+      "sourcePage": 8
+    },
+    {
+      "q": 16,
+      "section": "Biochemistry",
+      "page": 8,
+      "marks": 4,
+      "asked": "16) Complete from the following words: {1 Mark each}. [ Parallel - Hydrogen - Antiparallel - Fatherly - Covalent - Maternally - Circular - Linear ] - The 2 DNA strands run a)…………. and are joined by b)……..…… bonds. - Mitochondrial DNA is c)…….…… in shape and d)………….. inherited.",
+      "label": "The two strands of the DNA double helix run antiparallel and are held to each other only by hydrogen bonds between complementary bases — two for A-T and three for G-C",
+      "key": "dna-double-helix-antiparallel-strands",
+      "definition": "Watson and Crick's double helix is the common physiological form of DNA. The two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds and guanine with cytosine through three. The base pairs inside the helix are stacked above each other by Van der Waals forces and hydrophobic interactions, which stabilise the helix, and the whole resembles a spiral staircase in which the base pairs are the steps and the sugar-phosphate backbones the handrails.",
+      "objective": "State the orientation of the two DNA strands relative to each other and name the bond that holds them together, with the number of bonds in each base pair.",
+      "pitfall": "Calling the bond between the two strands covalent because DNA is chemically stable. The phosphodiester bonds along each backbone are covalent; the two strands are held to each other only by hydrogen bonds, which is why heat alone separates them.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Nucleic Acids",
+      "type": "structure_function_relationship",
+      "difficulty": "Easy",
+      "sourcePage": 8
+    },
+    {
+      "q": 16,
+      "section": "Biochemistry",
+      "page": 8,
+      "marks": 0,
+      "asked": "16) Complete from the following words: {1 Mark each}. […] - Mitochondrial DNA is c)…….…… in shape and d)………….. inherited.",
+      "label": "Mitochondrial DNA is a small double-stranded circular supercoil that codes for the machinery of oxidative phosphorylation and is inherited only from the mother, because the mitochondria come from the ovum",
+      "key": "mitochondrial-dna-characteristics",
+      "definition": "DNA is mainly linear, but it is circular in mitochondria, in chloroplasts and in bacteria. Mitochondrial DNA is 0.3 to 1% of the total cellular DNA and human mitochondrial DNA is a small double-stranded circular supercoil. It controls the synthesis of 2 ribosomal RNAs, 22 transfer RNAs and 13 proteins, most of which are involved in oxidative phosphorylation — the electron transport chain and ATP synthesis. Because the mitochondria are provided by the ovum, mitochondrial DNA molecules are maternally inherited and are used to trace maternal lineage. Mutations of mitochondrial DNA are associated with certain types of myopathy.",
+      "objective": "Give the shape, the coding content and the pattern of inheritance of mitochondrial DNA, and say what makes the inheritance maternal.",
+      "pitfall": "Explaining maternal inheritance as an X-linked pattern. It has nothing to do with the sex chromosomes — the zygote receives its mitochondria from the ovum, so an affected father transmits nothing and an affected mother transmits to all her children.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [
+        "SYS-FND-T02-S01-M03"
+      ],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Nucleic Acids",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 8
+    },
+    {
+      "q": 17,
+      "section": "Biochemistry",
+      "page": 9,
+      "marks": 0,
+      "asked": "17) Match: 1 mRNA 2 CAAT box and GC box 3 Polyadenylation of mRNA at 3’ end 4 TATA box 5 TFIIH 6 Alternative splicing — Explains why the estimated number of proteins much exceeds the number of genes / Has helicase and kinase activity / Control how frequently this event occurs / Determines the half-life time of mRNA / Synthesized by RNA polymerase II / Defines where transcription is to start along the DNA",
+      "label": "The two promoter boxes divide the work — TATA says where transcription starts and CAAT and GC say how often — while TFIIH opens the strands, polyadenylation sets how long the message lives, and alternative splicing decides how many proteins the gene yields",
+      "key": "eukaryotic-transcription-elements-and-mrna-processing",
+      "definition": "RNA polymerase II synthesises messenger RNA, most small nuclear RNAs and micro RNAs. The eukaryotic promoter carries two basal expression elements: the TATA box, of sequence TATAAA and 20 to 30 base pairs upstream of the start site, which defines where transcription is to start along the DNA; and the CAAT box and GC box, 40 to 200 base pairs upstream, which define when transcription starts and so control how frequently the event occurs. TFIID binds the TATA box first and the other transcription factors and RNA polymerase II assemble on it to form the pre-initiation complex; TFIIH then separates the two DNA strands by its helicase activity and activates RNA polymerase II. After transcription, the primary transcript is capped at the 5' end, polyadenylated at the 3' end by poly(A) polymerase — and the length of the poly(A) tail determines the half-life of the mRNA — spliced, and edited. Alternative splicing splices the primary transcript of some genes differently to yield different proteins from one gene, which explains why the estimated number of proteins much exceeds the number of genes.",
+      "objective": "Assign each promoter element, transcription factor and processing step to the specific job it does in the making of a mature messenger RNA.",
+      "pitfall": "Reading the TATA box and the CAAT box as two names for the same thing because both are upstream promoter elements. TATA fixes the start point and CAAT and GC set the frequency; a mutation in one changes where transcription begins and in the other changes how much message is made.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > RNA Synthesis (Transcription)",
+      "type": "classification",
+      "difficulty": "Hard",
+      "sourcePage": 9
+    },
+    {
+      "q": 18,
+      "section": "Biochemistry",
+      "page": 9,
+      "marks": 0,
+      "asked": "18) Match: 1 3’-Phosphodenosine-5’-phosphosulfate (PAPS) 2 ATP 3 S-Adenosyl Methionine (SAM) 4 FAD 5 cGMP 6 Coenzyme A — Hydrogen carrier / Methyl donor / Second hormone messenger / Synthesis of sulfur-containing compounds / Acyl group carrier / Source of energy",
+      "label": "Free nucleotides do six different jobs — carry energy, signal as second messengers, donate methyl and sulfate groups, carry hydrogen and carry acyl groups — and which one a nucleotide does is fixed by the group hung on it, not by its base",
+      "key": "free-nucleotide-biological-functions",
+      "definition": "Beyond being the building blocks of DNA and RNA, free nucleosides and nucleotides serve four families of function. Energy transduction: ATP is the source of energy for mechanical and chemical processes, its bonds between the alpha, beta and gamma phosphates being high-energy bonds, and GTP serves the same role in some pathways. Signalling second messengers: cAMP is formed from ATP by adenylyl cyclase, and cGMP from GTP by guanylyl cyclase, cGMP mediating the smooth-muscle relaxation produced by nitric oxide and other vasodilators. Activated precursors in biosynthesis: S-adenosyl methionine is the most important methyl donor in transmethylation reactions; 3'-phosphoadenosine-5'-phosphosulfate is used for the synthesis of sulfur-containing compounds such as sulfated glycosaminoglycans and sulfolipids; CDP-choline and UDP-sugars serve phospholipid and glycogen synthesis. Coenzyme components: NAD+, NADP+, FMN and FAD are hydrogen carriers, and coenzyme A is an acyl group carrier through its active thiol group.",
+      "objective": "Match each free nucleotide or nucleotide derivative to its biochemical role.",
+      "pitfall": "Sorting them by their base — reading everything adenine-containing as an energy carrier. PAPS, SAM, FAD, NAD+ and coenzyme A all carry adenine and none of them is an energy source; the group attached to the nucleotide is what determines the function.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T01",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Free Nucleotides",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 9
+    },
+    {
+      "q": 19,
+      "section": "Biochemistry",
+      "page": 10,
+      "marks": 5,
+      "asked": "19) Diagram (1) [Phospholipid bilayer]. 1) ....………….. 2) ....………….. 3) ....………….. a) Explain why (2) increases the membrane fluidity. b) Explain why (3) decreases the membrane fluidity.",
+      "label": "Membrane fluidity is set by how closely the phospholipid tails can pack: a cis-double bond kinks the chain and keeps them apart, a saturated chain is straight and lets them pack, and cholesterol sits between them controlling the result",
+      "key": "membrane-fluidity-determinants",
+      "definition": "Phospholipids are amphipathic, with non-polar fatty acid side chains and polar head groups, and they are the important constituents of the lipid bilayer of the cell membrane. Increasing the unsaturated fatty acid content at carbon 2 of the phospholipids increases membrane fluidity, because the kinks produced by the cis-double bonds prevent the phospholipids from packing closely together. Saturated fatty acid chains carry no such kink, so they lie straight and pack closely, and closer packing means lower fluidity. Cholesterol is an important constituent of cell membranes that controls their fluidity, and it sits among the phospholipids of the bilayer.",
+      "objective": "Identify cholesterol and the saturated and unsaturated fatty acid chains on a bilayer diagram and explain, from chain shape and packing, why each raises or lowers fluidity.",
+      "pitfall": "Treating the double bond itself as what loosens the membrane. It is the geometry it imposes — a cis-double bond bends the chain, and a bent chain cannot lie flat against its neighbours; a trans-double bond leaves the chain straight and does not have the same effect.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T04",
+      "secondary": [
+        "SYS-FND-T01-S01-M01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+      "type": "structure_function_relationship",
+      "difficulty": "Moderate",
+      "sourcePage": 10
+    },
+    {
+      "q": 20,
+      "section": "Biochemistry",
+      "page": 11,
+      "marks": 5,
+      "asked": "20) Diagram (2) [Elongation of DNA]. a) Name of (1) and mention its function. b) Name of (2) and mention its function. c) Name of (3): ……………….",
+      "label": "A replication fork is made by two proteins working together — helicase breaks the hydrogen bonds to open the duplex, and single-strand binding proteins hold the separated strands apart and protect them",
+      "key": "replication-fork-strand-separation",
+      "definition": "Helicase enzyme molecules attach at each origin of replication and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, producing replication bubbles. Single strand binding (SSB) proteins then bind to the single strands of the unwound DNA and stabilise them; without SSB proteins the two strands would simply rewind, and the proteins also protect the single strand from nucleases that cleave single-stranded DNA. It is the action of helicase and SSB proteins together that creates the replication fork. Topoisomerases relieve the supercoils that unwinding generates ahead of the fork.",
+      "objective": "Name the two proteins that open and hold open the parental duplex at a replication fork and state what each contributes.",
+      "pitfall": "Expecting the strands to stay apart once helicase has passed. Complementary single strands re-anneal spontaneously; the SSB proteins are what keep the template available, which is why they are drawn coating the separated strands rather than sitting at the fork apex.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > DNA Synthesis (Replication) and Repair",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 11
+    },
+    {
+      "q": 20,
+      "section": "Biochemistry",
+      "page": 11,
+      "marks": 0,
+      "asked": "20) Diagram (2) [Elongation of DNA]. b) Name of (2) and mention its function.",
+      "label": "The five eukaryotic DNA polymerases divide the work of replication: α primes, β repairs, γ copies mitochondrial DNA, δ makes the lagging strand and ε makes the leading strand",
+      "key": "eukaryotic-dna-polymerases-and-roles",
+      "definition": "DNA polymerase α, as the α–primase complex, lays down the RNA primers and the short DNA attached to them. DNA polymerase β fills the gap in DNA repair. DNA polymerase γ synthesises mitochondrial DNA. DNA polymerase δ synthesises the lagging strand from many primers, discontinuously as Okazaki fragments. DNA polymerase ε synthesises the leading strand continuously from a single primer. Polymerases δ and ε also proofread by exonuclease activity.",
+      "objective": "Name the five eukaryotic DNA polymerases and give the specific job each one does.",
+      "pitfall": "Swapping δ and ε. Epsilon makes the leading strand and needs only one primer; delta makes the lagging strand and needs many.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > DNA Synthesis (Replication) and Repair",
+      "type": "classification",
+      "difficulty": "Hard",
+      "sourcePage": 11
+    }
+  ],
+  "schemes": {
+    "P1": {
+      "format": "structured_written",
+      "prompt": "Regarding plasma proteins, explain the site of their formation {2 Marks} and mention six of their functions {6 Marks}.",
+      "expects": [
+        "Site: the liver is the main site of synthesis of plasma proteins — albumin, fibrinogen, the coagulation factors and 50% of the globulins are formed there",
+        "Site: the gamma globulins are formed by plasma cells in the lymphoid tissue",
+        "Osmotic function: the capillary membrane is impermeable to plasma proteins, so the 25 to 28 mmHg they contribute is the effective colloidal osmotic pressure that draws tissue fluid into the blood; albumin is the main protein responsible because it is present in the greatest concentration",
+        "Buffer function: plasma proteins supply 15% of the buffering power of the blood; at pH 7.4 they are negatively charged and combine with bases, mainly NaHCO3, forming the proteinic acid–sodium proteinate buffer system",
+        "Defensive function: the gamma globulins defend the body against microorganisms and their toxins — humoral immunity",
+        "Blood clotting: fibrinogen and all the clotting factors present in plasma are responsible for blood coagulation",
+        "Blood viscosity: blood is three times and plasma 1.5 times as viscous as water; fibrinogen contributes more than the other proteins because of its elongated shape, and viscosity maintains normal arterial blood pressure",
+        "Capillary function: plasma proteins close the pores in the capillary wall and so maintain normal capillary permeability; deficiency of plasma proteins increases it",
+        "Transport and conservation: albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and binding prevents their rapid loss in urine and provides a reservoir",
+        "Source of amino acids: plasma proteins allow rapid replacement of tissue protein when tissue protein is depleted"
+      ]
+    },
+    "P2": {
+      "format": "multipart_written",
+      "prompt": "Compare the functions of thromboxane A2 and prostacyclin {6 Marks}, and explain the function of aspirin in preventing myocardial infarction {3 Marks}.",
+      "expects": [],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Compare between the function of TXA2 and PGI2. {6 Marks}",
+          "expects": [
+            "Thromboxane A2 is produced from arachidonic acid in the membrane of active platelets by the cyclooxygenase enzyme",
+            "TXA2 is a vasoconstrictor",
+            "TXA2 is a stimulator of the platelet release reaction",
+            "TXA2 is a powerful stimulant of platelet aggregation",
+            "Prostacyclin is produced from arachidonic acid in the endothelium of blood vessels by the same cyclooxygenase enzyme",
+            "Prostacyclin is a powerful vasodilator",
+            "Prostacyclin is an inhibitor of the release of platelets",
+            "Prostacyclin is an inhibitor of the aggregation of platelets",
+            "Since its actions are opposite to those of TXA2, prostacyclin keeps the platelet plug localised to the site of injury"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Explain the function of aspirin in preventing myocardial infarction. {3 Marks}",
+          "conceptKey": "aspirin-cox-inhibition-mi-prevention",
+          "expects": [
+            "Aspirin inhibits the cyclooxygenase enzyme and so reduces production of both TXA2 and prostacyclin",
+            "The endothelial cells produce new cyclooxygenase in a matter of hours, whereas platelets cannot manufacture the enzyme",
+            "Administration of small amounts of aspirin for prolonged periods therefore reduces clot formation and has been of value in preventing myocardial infarction"
+          ]
+        }
+      ]
+    },
+    "P3": {
+      "format": "structured_written",
+      "prompt": "Explain the distribution and action of adrenergic receptors.",
+      "expects": [
+        "There are two major types of adrenergic receptor: alpha, with subtypes α1 and α2, and beta, with subtypes β1, β2 and β3",
+        "They are present on the surface of effector organs (postsynaptic receptors) and on the membrane of postganglionic nerve endings (presynaptic receptors)",
+        "Presynaptic receptors are autoreceptors that regulate transmitter release: stimulating presynaptic alpha receptors decreases the release of noradrenaline, and stimulating presynaptic beta receptors increases it",
+        "Mechanism: α1 acts by increasing intracellular Ca++; α2 by inhibiting adenylyl cyclase and decreasing cAMP; β1 and β2 by stimulating adenylyl cyclase and increasing cAMP",
+        "α1 receptors are mainly excitatory and contract plain muscle: vasoconstriction of the vessels of skin, viscera and male genitalia; the dilator pupillae, giving mydriasis; the splenic capsule; the sphincters of the gastrointestinal tract, retaining faeces; the internal urethral sphincter, retaining urine; and the seminal vesicles and vas deferens, in ejaculation",
+        "α2 receptors are mainly inhibitory and relax the plain muscle of the intestine",
+        "β1 receptors are mainly excitatory: cardiac acceleration and increased force of contraction of the heart",
+        "β2 receptors are mainly inhibitory and relax plain muscle: vasodilatation of the coronary and skeletal-muscle vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus",
+        "β3 receptors produce lipolysis",
+        "Noradrenaline excites mainly alpha receptors and the beta receptors only slightly, while adrenaline excites both approximately equally — so adrenaline has the greater effect on cardiac activity and on metabolism, and noradrenaline raises arterial blood pressure more"
+      ]
+    },
+    "P4": {
+      "format": "mcq_single_best",
+      "prompt": "In response to a systemic sympathetic response, epinephrine is released from the adrenal medulla. Which receptor does epinephrine bind to in cardiac muscle cells, bronchial smooth muscle cells, and vascular smooth muscle cells? A. β1 | β2 | α2 · B. β2 | β1 | α1 · C. α1 | β1 | α2 · D. β1 | β2 | α2 (Options A and D as printed are identical — see the unsat entry for this scheme.)",
+      "expects": [
+        "Cardiac muscle cells: β1 receptors — cardiac acceleration and increased force of contraction",
+        "Bronchial smooth muscle cells: β2 receptors — bronchodilatation",
+        "Vascular smooth muscle cells: α1 gives vasoconstriction of the vessels of skin, viscera and male genitalia, and β2 gives vasodilatation of the coronary and skeletal-muscle vessels; α2 only relaxes the plain muscle of the intestine",
+        "A and D are printed identically as β1, β2, α2, and no printed option pairs β1 and β2 with α1, so the intended key cannot be recovered from the paper; A and D are the only options correct on the first two columns",
+        "Adrenaline excites both alpha and beta receptors approximately equally, which is why a single systemic release acts at three different receptor subtypes at once"
+      ]
+    },
+    "P5": {
+      "format": "mcq_single_best",
+      "prompt": "A 39-year-old woman returns home after eating at a buffet. An hour later she is relaxing in front of the television. Which of the following autonomic responses is most likely occurring at this time? A. Increased peristalsis · B. Increased sweating · C. Decreased blood flow to the skin · D. Dilation of bronchioles",
+      "expects": [
+        "A. Increased peristalsis",
+        "Resting and digesting is the parasympathetic state; the parasympathetic system is the anabolic, energy-preserving system of rest, digestion and reading",
+        "The vagus contracts the plain muscle of the wall of the oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas",
+        "Increased sweating and decreased blood flow to the skin are sympathetic effects — sudomotor secretion and cutaneous vasoconstriction",
+        "Dilatation of the bronchioles is a sympathetic effect; the vagus produces bronchoconstriction"
+      ]
+    },
+    "P6": {
+      "format": "mcq_single_best",
+      "prompt": "While driving, you narrowly avoid a car accident by slamming on the brakes. Your heart rate is accelerated when you come to a stop. Which of the following physiologic parameters will be decreased in response to this experience? A. Airway resistance · B. Pupil dilatation · C. Systolic blood pressure · D. Vascular resistance",
+      "expects": [
+        "A. Airway resistance",
+        "The near miss triggers the sympathetic alarm response, in which the system discharges as one unit to prepare for flight, fear or fight",
+        "Sympathetic stimulation of the lungs produces bronchodilatation, and a wider bronchiole offers less resistance to airflow — so airway resistance falls",
+        "Pupil dilatation increases: contraction of the dilator pupillae gives mydriasis, letting more light into the eyes",
+        "Systolic blood pressure increases: the heart accelerates and its force of contraction rises, giving better perfusion of vital organs and muscles",
+        "Vascular resistance increases: the cutaneous and visceral vessels constrict, which also limits bleeding from wounds"
+      ]
+    },
+    "P7": {
+      "format": "mcq_single_best",
+      "prompt": "Adrenergic nerve fibres secrete: A. Acetyl choline · B. Noradrenaline · C. Dopamine · D. Calcium ions",
+      "expects": [
+        "B. Noradrenaline",
+        "Adrenergic fibres are so named because they secrete noradrenaline; all postganglionic sympathetic fibres do so except the secretory fibres to sweat glands and the vasodilator fibres to the vessels of skeletal muscle, which are cholinergic",
+        "Noradrenaline is also secreted from the adrenal medulla together with adrenaline",
+        "Acetylcholine is the transmitter of the cholinergic fibres: all preganglionic autonomic fibres, all postganglionic parasympathetic fibres, and those two groups of postganglionic sympathetic fibres",
+        "Dopamine is an intermediate in the synthesis of noradrenaline — tyrosine is hydroxylated to DOPA, DOPA decarboxylated to dopamine, and dopamine converted to noradrenaline in the granulated dark vesicles — not the transmitter released",
+        "Calcium ions cause the exocytosis of the transmitter vesicles; they are not the transmitter"
+      ]
+    },
+    "P8": {
+      "format": "mcq_single_best",
+      "prompt": "The ciliary ganglion is considered as: A. Sympathetic collateral ganglion · B. Parasympathetic terminal ganglion · C. Parasympathetic collateral ganglion · D. Sympathetic terminal ganglion",
+      "expects": [
+        "C. Parasympathetic collateral ganglion",
+        "The collateral ganglia that relay parasympathetic fibres are the ciliary, sphenopalatine, submaxillary and otic ganglia; the coeliac, superior mesenteric, aorticorenal and inferior mesenteric relay sympathetic fibres",
+        "Preganglionic parasympathetic fibres of the oculomotor nerve arise in the Edinger-Westphal nucleus and relay in the ciliary ganglion; the postganglionic fibres enter the eye as the short ciliary nerves",
+        "It is not a terminal ganglion: terminal ganglia lie near or within the visceral organ itself and their postganglionic fibres are only 1 mm to a few centimetres long",
+        "It is not sympathetic: the paravertebral chain relays sympathetic fibres only, and the abdominal collateral ganglia are the sympathetic collateral ones"
+      ]
+    },
+    "B9": {
+      "format": "short_answer",
+      "prompt": "Explain, on a biochemical basis, why mannitol has a clinical application.",
+      "expects": [
+        "Sugar alcohols are sugars in which the carbonyl group is reduced to an alcohol group; mannitol is mannose alcohol",
+        "It is poorly absorbed by the intestines, so it is used as a low-calorie sweetener",
+        "It is non-metabolised in the body and easily excreted by the kidney",
+        "Because it stays in the fluid it is given into and is excreted unchanged, it acts by osmosis",
+        "It is used as a diuretic, to reduce eye pressure in glaucoma, and to reduce intracranial pressure in brain oedema"
+      ]
+    },
+    "B10": {
+      "format": "short_answer",
+      "prompt": "Explain, on a biochemical basis, why cholesterol is an important sterol with many derivatives.",
+      "expects": [
+        "Cholesterol is the most important animal sterol; free cholesterol contains 27 carbon atoms and it is present either free or esterified with a fatty acid",
+        "It is converted into bile acids and bile salts in the liver",
+        "It is the precursor of all steroid hormones — the sex hormones and the corticoids",
+        "It is oxidised in the liver into 7-dehydrocholesterol, which is converted into vitamin D3 under the skin by ultraviolet rays",
+        "It is an important constituent of cell membranes and controls their fluidity",
+        "It is excreted from the body mainly in the bile in the form of bile salts"
+      ]
+    },
+    "B11": {
+      "format": "short_answer",
+      "prompt": "Explain, on a biochemical basis, the function of the globin (protein) part of haemoglobin.",
+      "expects": [
+        "It makes haem soluble, because of the polar amino acids on the surface of the folded chain",
+        "It prevents oxidation of haem into haematin, because the haem pocket is lined by nonpolar amino acids; it also prevents formation of the haem-O2-haem complex",
+        "It prevents diffusion of haem into the plasma, because of its large size",
+        "It reduces the affinity of haem for carbon monoxide: carbon monoxide binds isolated haem with the iron, carbon and oxygen atoms perpendicular to the plane of the haem, but in haemoglobin the distal histidine sterically hinders that orientation, and binding at the less favoured angle reduces the strength of the haem-CO bond"
+      ]
+    },
+    "B12": {
+      "format": "short_answer",
+      "prompt": "Explain, on a biochemical basis, how competitive inhibitors inhibit enzymes, and enumerate two examples.",
+      "expects": [
+        "A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active (catalytic) site",
+        "The degree of inhibition depends on the ratio of the concentration of the inhibitor to that of the substrate, not on the absolute concentration of either, and on their relative affinities for the enzyme",
+        "There is no effect on Vmax: the inhibition is reversed by increasing the substrate concentration, and at a sufficiently high substrate concentration the reaction reaches the Vmax observed without inhibitor",
+        "The apparent Km increases: more substrate is needed to achieve half of Vmax",
+        "Example — allopurinol: a structural analogue of hypoxanthine that inhibits xanthine oxidase, the enzyme forming uric acid from hypoxanthine, and is used in the treatment of gout",
+        "Example — sulfonamides: structural analogues of para-aminobenzoic acid that inhibit the bacterial enzyme forming folic acid from PABA, making them bacteriostatic",
+        "Example — dicumarol and warfarin: structurally similar to a vitamin K derivative required for the activation of clotting factors, and used as anticoagulants"
+      ]
+    },
+    "B13": {
+      "format": "short_answer",
+      "prompt": "Explain, on a biochemical basis, why collagen has a strong structure. (The companion copy of this paper records the instruction as \"mention 4 points\".)",
+      "expects": [
+        "Each turn contains three amino acid residues, making a tight helix, where normal proteins contain 3.6 amino acids per turn",
+        "The presence of glycine, with its short side chain, in every third position makes the polypeptide chains lie very close to each other",
+        "The three left-handed coiled peptide chains form a right-handed superhelix",
+        "The high content of hydroxyproline forms hydrogen bonds between the chains",
+        "Covalent cross-linkages between adjacent polypeptide chains are responsible for the tensile property of collagen — it can be stretched without being broken",
+        "The specific arrangement into fibrils and fibres",
+        "The staggered array (overhanging) gives marked flexibility to collagen"
+      ]
+    },
+    "B14": {
+      "format": "short_answer",
+      "prompt": "Explain, on a biochemical basis, how nonsense and missense mutations can have severe effects, and mention one example of each.",
+      "expects": [
+        "Nonsense mutation: an amino acid codon is converted into a stop (non-sense) codon",
+        "Translation of the mRNA from that gene is prematurely terminated, so the protein product is truncated and usually non-functional",
+        "Example of a nonsense mutation: thalassaemia — defective production of either the alpha chain or the beta chain of globin",
+        "Missense mutation: the codon is changed so that a different amino acid is inserted into the protein product, and the effect ranges from none to very serious depending on which amino acid is changed",
+        "Example of a missense mutation: sickle cell anaemia — a single nucleotide alteration in the beta-globin gene replaces polar glutamate at position six with nonpolar valine",
+        "That generates a hydrophobic sticky patch on the beta subunit, and at low pO2 deoxy-HbS polymerises into long insoluble fibres, producing rigid misshapen erythrocytes that block narrow capillaries and are removed early by the spleen"
+      ]
+    },
+    "B15": {
+      "format": "completion",
+      "prompt": "Complete from the following words: [ Serine · Alanine · Decreased · Tryptophan · Isoleucine · Not changed · Methionine · Increased ]. An example of a sulfur containing amino acid is (a)……, and one of a hydroxyl containing amino acid is (b)……. In protein denaturation, viscosity is (c)……, and solubility is (d)…….",
+      "expects": [],
+      "parts": [],
+      "completionText": "An example of a sulfur containing amino acid is [[Methionine]], and one of a hydroxyl containing amino acid is [[Serine]]. In protein denaturation, viscosity is [[Increased]] and solubility is [[Decreased]]."
+    },
+    "B16": {
+      "format": "completion",
+      "prompt": "Complete from the following words: [ Parallel · Hydrogen · Antiparallel · Fatherly · Covalent · Maternally · Circular · Linear ]. The 2 DNA strands run (a)…… and are joined by (b)…… bonds. Mitochondrial DNA is (c)…… in shape and (d)…… inherited.",
+      "expects": [],
+      "parts": [],
+      "completionText": "The 2 DNA strands run [[Antiparallel]] and are joined by [[Hydrogen]] bonds. Mitochondrial DNA is [[Circular]] in shape and [[Maternally]] inherited."
+    },
+    "B17": {
+      "format": "matching",
+      "prompt": "Match each item to its description. Every description is used exactly once.",
+      "expects": [],
+      "matchingOptions": [
+        "A | Explains why the estimated number of proteins much exceeds the number of genes",
+        "B | Has helicase and kinase activity",
+        "C | Control how frequently this event occurs",
+        "D | Determines the half-life time of mRNA",
+        "E | Synthesized by RNA polymerase II",
+        "F | Defines where transcription is to start along the DNA"
+      ],
+      "matchingPrompts": [
+        "mRNA = E",
+        "CAAT box and GC box = C",
+        "Polyadenylation of mRNA at 3' end = D",
+        "TATA box = F",
+        "TFIIH = B",
+        "Alternative splicing = A"
+      ]
+    },
+    "B18": {
+      "format": "matching",
+      "prompt": "Match each free nucleotide or nucleotide derivative to its biological function. Every function is used exactly once.",
+      "expects": [],
+      "matchingOptions": [
+        "A | Hydrogen carrier",
+        "B | Methyl donor",
+        "C | Second hormone messenger",
+        "D | Synthesis of sulfur-containing compounds",
+        "E | Acyl group carrier",
+        "F | Source of energy"
+      ],
+      "matchingPrompts": [
+        "3'-Phosphoadenosine-5'-phosphosulfate (PAPS) = D",
+        "ATP = F",
+        "S-Adenosyl methionine (SAM) = B",
+        "FAD = A",
+        "cGMP = C",
+        "Coenzyme A = E"
+      ]
+    },
+    "B19": {
+      "format": "multipart_written",
+      "prompt": "Diagram (1): the phospholipid bilayer. Name the three numbered components on the diagram, then answer (a) and (b). [The figure is required to sit this question — see the media request for scheme B19.]",
+      "expects": [],
+      "parts": [
+        {
+          "letter": "1",
+          "prompt": "Name the component at position 1 on the diagram. {1 Mark}",
+          "expects": [
+            "Cholesterol — an important constituent of cell membranes that controls their fluidity"
+          ]
+        },
+        {
+          "letter": "2",
+          "prompt": "Name the component at position 2 on the diagram. {1 Mark}",
+          "expects": [
+            "Unsaturated fatty acids (USFA), carried at carbon 2 of the membrane phospholipids"
+          ]
+        },
+        {
+          "letter": "3",
+          "prompt": "Name the component at position 3 on the diagram. {1 Mark}",
+          "expects": [
+            "Saturated fatty acids (SFAs)"
+          ]
+        },
+        {
+          "letter": "a",
+          "prompt": "Explain why (2) increases the membrane fluidity. {1 Mark}",
+          "expects": [
+            "Increased unsaturated fatty acid content at carbon 2 of the phospholipids increases membrane fluidity",
+            "The cis-double bonds put kinks in the hydrocarbon chains",
+            "The kinks prevent the phospholipids from packing closely together"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Explain why (3) decreases the membrane fluidity. {1 Mark}",
+          "expects": [
+            "A saturated fatty acid has no cis-double bond, so its chain carries no kink and lies straight",
+            "Straight chains pack closely together, the opposite of the fluidising effect of USFA",
+            "Closer packing of the phospholipids decreases membrane fluidity"
+          ]
+        }
+      ]
+    },
+    "B20": {
+      "format": "multipart_written",
+      "prompt": "Diagram (2): elongation of DNA at the replication fork. Name the three numbered items on the diagram and answer (a) to (c). [The figure is required to sit this question — see the media request for scheme B20.]",
+      "expects": [],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Name of (1) and mention its function. {2 Marks}",
+          "expects": [
+            "DNA helicase",
+            "Helicase enzyme molecules attach to each origin of replication and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, forming replication bubbles"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Name of (2) and mention its function. {2 Marks}",
+          "conceptKey": "eukaryotic-dna-polymerases-and-roles",
+          "expects": [
+            "DNA polymerase ε",
+            "It synthesises the leading strand of DNA, continuously and in the 5' to 3' direction, and requires only one RNA primer because the leading strand is copied in the direction of the advancing fork",
+            "It also proofreads: like DNA polymerase δ it removes a misplaced nucleotide by exonuclease activity and replaces it with the correct one"
+          ]
+        },
+        {
+          "letter": "c",
+          "prompt": "Name of (3). {1 Mark}",
+          "expects": [
+            "Single strand binding (SSB) proteins — they bind to the single strands of the unwound DNA and stabilise them, prevent the two strands rewinding, and protect the single strand from nucleases"
+          ]
+        }
+      ]
+    }
+  },
+  "mediaRequests": [
+    {
+      "forScheme": "B19",
+      "heading": "diagram · Phospholipid bilayer with cholesterol and the saturated and unsaturated chains blanked",
+      "brief": "Redraw the department book's bilayer figure: two rows of hydrophilic phospholipid heads facing the aqueous medium above and below, with the hydrophobic fatty acid tails between them; a cholesterol molecule inserted between the phospholipids; one region showing a kinked, cis-unsaturated fatty acid chain and another showing straight, closely packed saturated chains. Keep the printed labels for hydrophilic heads, hydrophobic FA tails, aqueous medium and phospholipid bilayer. Blank the three annotations that name cholesterol, the unsaturated fatty acid and the saturated fatty acids, and number them 1, 2 and 3 in the order the exam paper uses.",
+      "purpose": "The question asks the student to name three components by their position in a bilayer, and then to explain the fluidity of two of them. Without the figure there is nothing to name, and any prose restatement would have to say which component sits where — which is the answer. Sub-questions (a) and (b) are only intelligible once the student can see which chain is kinked and which is straight.",
+      "priority": "required",
+      "status": "needed",
+      "kind": "diagram",
+      "sourceDirection": "Redraw from the Module 102 Department Book phospholipid bilayer figure (source src_a488633802ec053c6325, physical p34 / printed p30); an openly licensed lipid-bilayer diagram would also serve if relabelled to the department's own terms (USFA, SFAs).",
+      "rights": "Must be an original redraw or CC-BY / public domain. Do not lift the department book scan."
+    },
+    {
+      "forScheme": "B20",
+      "heading": "diagram · Replication fork during elongation, with three proteins blanked",
+      "brief": "Redraw the department book's elongation figure: a parental duplex opening at a replication fork with 5' and 3' ends marked; the leading strand extending continuously from a single RNA primer in the direction of the advancing fork; the lagging strand made of Okazaki fragments each with its own RNA primer, running in the opposite direction; the strand-separating enzyme at the apex of the fork; the leading-strand polymerase on the leading template; and the single-strand binding proteins coating the separated strands. Keep the printed labels for leading strand, lagging strand, RNA primer, Okazaki fragment, replication fork and the lagging-strand polymerase. Blank the three labels the exam paper blanks and number them 1, 2 and 3 as it does.",
+      "purpose": "The question is to name a protein from where it sits on the fork and then give its function. Describing the fork in prose would have to say which protein opens the duplex and which coats the separated strands, which is the answer; and part (b) depends on the student reading off which strand the numbered polymerase is copying.",
+      "priority": "required",
+      "status": "needed",
+      "kind": "diagram",
+      "sourceDirection": "Redraw from the Module 102 Department Book replication-fork figure (source src_a488633802ec053c6325, physical p83 / printed p79). The rough companion scan of this paper, src_a57cd6fa3addbf19d03c p12, shows the exam reproduces this figure with its leading strand, RNA primer, Okazaki fragment and lagging strand labels intact.",
+      "rights": "Must be an original redraw or CC-BY / public domain. Do not lift the department book scan."
+    }
+  ],
+  "unsat": [
+    {
+      "scheme": "P1",
+      "issue": "How much of the solved copy is actually solved. src_7bee2922fec10f6b890a answers only Q15 (a-d), Q16 (a-d), the three blanks of Q19 with its part (b), and the three blanks of Q20. Q1 to Q14, Q17, Q18 and Q19(a) are left entirely blank. So every expects line for P1-P8 and B9-B14, B17 and B18 is derived from the Module 102 Department Book (src_a488633802ec053c6325) and not from a student answer."
+    },
+    {
+      "scheme": "P3",
+      "issue": "The paper prints \"Explain distribution and action of adrenergic receptors {9 Marks}\". The rough companion scan of the same sitting, src_a57cd6fa3addbf19d03c p1, records this question as \"compare between the functions of aloha [alpha] and beta adrenergic receptors (8 marks)\". The exam PDF is authoritative for both wording and marks and is what `asked` and `marks` carry; the discrepancy is recorded because 8 rather than 9 would make the physiology half total exactly 30 if the five MCQs carry one mark each, which is not printed anywhere and is not asserted here."
+    },
+    {
+      "scheme": "P4",
+      "issue": "The paper's own defect, not a reading problem. Options A and D are printed identically (β1 · β2 · α2), so the item has three distinct options rather than four. Worse, none of them matches the department book for the third column: the book gives α1 for vasoconstriction of the vessels of skin, viscera and male genitalia and β2 for vasodilatation of coronary and skeletal-muscle vessels, and describes α2 only as relaxing the plain muscle of the intestine (physical p166 / printed p53). No option pairs β1 and β2 with α1. A and D are the only options correct on the first two columns. The intended key cannot be recovered from the paper and has not been invented."
+    },
+    {
+      "scheme": "P5",
+      "issue": "The paper prints no mark value for questions 4 to 8, the five multiple-choice items, and neither does the rough companion scan. Their `marks` are recorded as 0 rather than guessed, so the section totals in the report are totals of the printed marks only. `SchemeFormat` in scripts/kasr/seeds/types.ts also has no `mcq` member, so all five are recorded as `short_answer` with the options carried in the scheme prompt and the reasoning against every distractor in `expects`."
+    },
+    {
+      "scheme": "B13",
+      "issue": "This question is on material that the department has since cancelled. `biochem-chapters.json` marks `102 INT > Biochemistry > Proteins of Extracellular Matrix` as `cancelledForExam: true`, on the BIO ORIENTATION 102 (2025/2026) list of cancelled items. That cancellation is for 2025/2026; this paper is the 2024 sitting and collagen was examined in it, at 4 marks. The seed keeps the ECM chapter as its `modulePath` because that is where the answer lives (physical p51 / printed p47). A reader planning revision for the current year should treat the concept as examined-but-now-cancelled rather than as live blueprint evidence."
+    },
+    {
+      "scheme": "B17",
+      "issue": "The paper prints no mark value for the two matching blocks, questions 17 and 18, and neither does the rough companion scan; both are recorded with `marks: 0`. Separately, one option is not the department book's own wording: the paper offers \"Has helicase and kinase activity\" for TFIIH, whereas the book (physical p88 / printed p84) gives TFIIH a helicase activity that separates the two DNA strands and says it activates RNA polymerase II, without ever calling it a kinase. The pairing is certain by elimination and by the helicase half; the kinase half is the paper's addition and has not been written into the concept."
+    },
+    {
+      "scheme": "B18",
+      "issue": "The paper misspells the first prompt as \"3'-Phosphodenosine-5'-phosphosulfate (PAPS)\". The compound is 3'-phosphoadenosine-5'-phosphosulfate, as the department book spells it (physical p71 / printed p67). `asked` keeps the paper's spelling; `matchingPrompts` uses the book's. Both blocks pair six prompts against six options with no distractors, unlike the 2025 paper's blocks, so neither tests discrimination against an unused option."
+    },
+    {
+      "scheme": "B19",
+      "issue": "Blocked on a missing figure: the exam's Diagram (1) did not extract from either PDF. The three names are firm rather than inferred — the solved copy answers them (Cholesterol, USFA, SFAs) and the department book's bilayer figure at physical p34 annotates exactly those three species and no others — but which blank carries which cannot be read off the exam text, and a student cannot sit the question without the figure. One further caveat: the book states only that increased USFA content increases fluidity because the cis-double-bond kinks prevent close packing. It does not print the converse for SFAs. Part (b)'s expects is the direct converse of that stated mechanism and agrees with the solved copy's own answer (\"SFAs pack tightly → ↓ membrane fluidity\"); it is not a separate claim from the book.",
+      "blockedOn": "mediaRequest B19"
+    },
+    {
+      "scheme": "B20",
+      "issue": "Blocked on a missing figure: the exam's Diagram (2) did not extract from either PDF. The three answers follow the solved copy (DNA helicase, DNA polymerase, SSB proteins) and all three appear in the department book's replication-fork figure at physical p83. Two things cannot be settled from the text. First, which numbered position carries which protein. Second, which polymerase blank (2) marks: the book's figure labels both DNA polymerase ε on the leading strand and DNA polymerase δ on the lagging strand, and the solved copy writes only \"DNA polymerase\" with the function \"Replicates the leading strand\". ε is recorded on the strength of that stated function; if the figure blanks the lagging-strand label instead, the answer is δ, with many primers and Okazaki fragments. Confirm against the figure before this question is sat.",
+      "blockedOn": "mediaRequest B20"
+    },
+    {
+      "scheme": "P4",
+      "issue": "Single-best-answer, not written: the paper prints lettered options in the stem, and the sitting printed no mark value for it. Excluded from the written batch, which has no column for options — it belongs in the MCQ route, where each option needs an explanation naming the misconception it catches. The stem, its options and the correct answer are all recorded here; what is owed is the four explanations.",
+      "blockedOn": "mcq authoring"
+    },
+    {
+      "scheme": "P5",
+      "issue": "Single-best-answer, not written: the paper prints lettered options in the stem, and the sitting printed no mark value for it. Excluded from the written batch, which has no column for options — it belongs in the MCQ route, where each option needs an explanation naming the misconception it catches. The stem, its options and the correct answer are all recorded here; what is owed is the four explanations.",
+      "blockedOn": "mcq authoring"
+    },
+    {
+      "scheme": "P6",
+      "issue": "Single-best-answer, not written: the paper prints lettered options in the stem, and the sitting printed no mark value for it. Excluded from the written batch, which has no column for options — it belongs in the MCQ route, where each option needs an explanation naming the misconception it catches. The stem, its options and the correct answer are all recorded here; what is owed is the four explanations.",
+      "blockedOn": "mcq authoring"
+    },
+    {
+      "scheme": "P7",
+      "issue": "Single-best-answer, not written: the paper prints lettered options in the stem, and the sitting printed no mark value for it. Excluded from the written batch, which has no column for options — it belongs in the MCQ route, where each option needs an explanation naming the misconception it catches. The stem, its options and the correct answer are all recorded here; what is owed is the four explanations.",
+      "blockedOn": "mcq authoring"
+    },
+    {
+      "scheme": "P8",
+      "issue": "Single-best-answer, not written: the paper prints lettered options in the stem, and the sitting printed no mark value for it. Excluded from the written batch, which has no column for options — it belongs in the MCQ route, where each option needs an explanation naming the misconception it catches. The stem, its options and the correct answer are all recorded here; what is owed is the four explanations.",
+      "blockedOn": "mcq authoring"
+    }
+  ]
+}

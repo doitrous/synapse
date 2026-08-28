@@ -13,6 +13,9 @@ import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { canJoin, visibleTo, sessionState, tally } from './partyRules.js'
 import { publishedQuestions } from './publishedQuestions.js'
+import { withContentCatalogueGate } from './contentCatalogueGate.js'
+import { MEDIA_STATE_KEY } from './mediaLibrary.js'
+import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
 
 /** No 0/O/1/I/L — a code gets read aloud and typed by hand. */
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'
@@ -54,6 +57,14 @@ async function isPartyMember(partyId, userId) {
   return rows.length > 0
 }
 
+async function isPartyHost(partyId, userId) {
+  const [rows] = await pool.query(
+    'SELECT 1 FROM study_parties WHERE id = ? AND host_user_id = ? AND archived_at IS NULL LIMIT 1',
+    [partyId, userId],
+  )
+  return rows.length > 0
+}
+
 /**
  * Published ledger items of the given kinds, id only — the practical and
  * essay half of what `createSession` is allowed to freeze. Not cached like
@@ -63,16 +74,21 @@ async function isPartyMember(partyId, userId) {
  */
 async function publishedLedgerIdsByKind(kinds) {
   const byKind = new Map(kinds.map((kind) => [kind, new Set()]))
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [LEDGER_KEY])
-  if (rows.length) {
-    try {
-      const ledger = JSON.parse(rows[0].v)
-      for (const item of Array.isArray(ledger) ? ledger : []) {
-        if (item?.status === 'Published' && byKind.has(item?.kind)) byKind.get(item.kind).add(item.id)
-      }
-    } catch {
-      // A malformed ledger yields nothing published rather than a thrown request.
+  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?)', [LEDGER_KEY, MEDIA_STATE_KEY])
+  try {
+    const ledgerRow = rows.find((row) => row.k === LEDGER_KEY)
+    const mediaRow = rows.find((row) => row.k === MEDIA_STATE_KEY)
+    const media = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
+    const ledger = redactLedgerForStudent(
+      ledgerRow ? JSON.parse(ledgerRow.v) : [],
+      releasedMediaIdsFromDocument(media),
+    )
+    for (const item of ledger) {
+      if (byKind.has(item?.kind)) byKind.get(item.kind).add(item.id)
     }
+  } catch {
+    // A malformed ledger or media document yields nothing published rather
+    // than freezing content whose required asset is unavailable.
   }
   return byKind
 }
@@ -306,8 +322,8 @@ function parseItemRefs(raw) {
  * unpublished, deleted, or was never real is silently dropped rather than
  * failing the whole request, again matching `createRoom`.
  */
-export async function createSession(userId, partyId, { name, items, startsAt }) {
-  if (!(await isPartyMember(partyId, userId))) return { ok: false, reason: 'not_a_member' }
+async function createSessionUnlocked(userId, partyId, { name, items, startsAt }) {
+  if (!(await isPartyHost(partyId, userId))) return { ok: false, reason: 'not_host' }
 
   const wanted = Array.isArray(items) ? items : []
   const published = await publishedQuestions()
@@ -343,6 +359,10 @@ export async function createSession(userId, partyId, { name, items, startsAt }) 
     [id, partyId, String(name || 'Study session').slice(0, 255), JSON.stringify(frozen), starts, status, userId],
   )
   return { ok: true, session: await sessionFor(userId, id) }
+}
+
+export async function createSession(userId, partyId, input) {
+  return withContentCatalogueGate(() => createSessionUnlocked(userId, partyId, input))
 }
 
 /** The party's sessions, most recent first, with state derived per `sessionState`. */

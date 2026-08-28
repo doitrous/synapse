@@ -11,16 +11,25 @@
 export class ApiError extends Error {
   status: number
   path: string
-  constructor(status: number, path: string, message?: string) {
+  /**
+   * The parsed refusal, when the server sent one.
+   *
+   * A status code cannot say *which* item was refused or *who* else edited it,
+   * and those are exactly the two things a person needs in order to act. The
+   * state store reads `refusals` and `conflicts` out of here.
+   */
+  body: unknown
+  constructor(status: number, path: string, message?: string, body?: unknown) {
     super(message ?? `${path} → ${status}`)
     this.name = 'ApiError'
     this.status = status
     this.path = path
+    this.body = body ?? null
   }
 }
 
 /** Why a read or write failed, in the terms the caller has to act on. */
-export type StateErrorKind = 'unauthorized' | 'forbidden' | 'notfound' | 'toolarge' | 'network' | 'server'
+export type StateErrorKind = 'unauthorized' | 'forbidden' | 'notfound' | 'conflict' | 'toolarge' | 'network' | 'server'
 
 /**
  * A thrown value classified.
@@ -34,6 +43,9 @@ export function errorKind(error: unknown): StateErrorKind {
   if (error.status === 401) return 'unauthorized'
   if (error.status === 403) return 'forbidden'
   if (error.status === 404) return 'notfound'
+  // The document moved underneath this client. Not a permission problem and not
+  // a fault — the write has to be rebuilt on a fresh read, so it is its own kind.
+  if (error.status === 409) return 'conflict'
   if (error.status === 413) return 'toolarge'
   if (error.status >= 500) return 'server'
   return 'forbidden'

@@ -1,4 +1,5 @@
-import type { ButtonHTMLAttributes } from 'react'
+import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react'
+import { Link, type LinkProps } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import { Loader2 } from 'lucide-react'
 import { cn } from '@/lib/cn'
@@ -41,6 +42,47 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean
 }
 
+type SharedButtonProps = {
+  variant?: Variant
+  size?: Size
+  iconLeft?: LucideIcon
+  iconRight?: LucideIcon
+  loading?: boolean
+  className?: string
+}
+
+function buttonClasses({ variant = 'secondary', size = 'md', className }: Pick<SharedButtonProps, 'variant' | 'size' | 'className'>) {
+  return cn(
+    'group inline-flex select-none items-center justify-center rounded-lg font-semibold tracking-[-0.005em]',
+    'transition-[background-color,border-color,color,box-shadow,transform] duration-150 ease-[var(--ease-out-quint)]',
+    'active:translate-y-px focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
+    'disabled:pointer-events-none disabled:opacity-55',
+    VARIANT[variant],
+    SIZE[size],
+    className,
+  )
+}
+
+function buttonContent({
+  loading = false,
+  size = 'md',
+  iconLeft: Left,
+  iconRight: Right,
+  children,
+}: SharedButtonProps & { children?: ReactNode }) {
+  return (
+    <>
+      {loading ? (
+        <Loader2 size={ICON[size]} strokeWidth={2} className="animate-spin" aria-hidden />
+      ) : (
+        Left && <Left size={ICON[size]} strokeWidth={2.15} aria-hidden />
+      )}
+      {children}
+      {Right && !loading && <Right size={ICON[size]} strokeWidth={2.15} aria-hidden />}
+    </>
+  )
+}
+
 export function Button({
   variant = 'secondary',
   size = 'md',
@@ -54,25 +96,69 @@ export function Button({
 }: ButtonProps) {
   return (
     <button
-      className={cn(
-        'group inline-flex select-none items-center justify-center rounded-lg font-semibold tracking-[-0.005em]',
-        'transition-[background-color,border-color,color,box-shadow,transform] duration-150 ease-[var(--ease-out-quint)]',
-        'active:translate-y-px focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
-        'disabled:pointer-events-none disabled:opacity-55',
-        VARIANT[variant],
-        SIZE[size],
-        className,
-      )}
+      className={buttonClasses({ variant, size, className })}
       disabled={disabled || loading}
       {...rest}
     >
-      {loading ? (
-        <Loader2 size={ICON[size]} strokeWidth={2} className="animate-spin" aria-hidden />
-      ) : (
-        Left && <Left size={ICON[size]} strokeWidth={2.15} aria-hidden />
-      )}
-      {children}
-      {Right && !loading && <Right size={ICON[size]} strokeWidth={2.15} aria-hidden />}
+      {buttonContent({ loading, size, iconLeft: Left, iconRight: Right, children })}
     </button>
+  )
+}
+
+export function ButtonLink({
+  variant = 'secondary',
+  size = 'md',
+  iconLeft,
+  iconRight,
+  loading = false,
+  className,
+  children,
+  onClick,
+  ...props
+}: LinkProps & SharedButtonProps) {
+  return (
+    <Link
+      className={buttonClasses({ variant, size, className: cn(loading && 'pointer-events-none opacity-55', className) })}
+      aria-disabled={loading || undefined}
+      onClick={(event) => {
+        if (loading) {
+          event.preventDefault()
+          return
+        }
+        onClick?.(event)
+      }}
+      {...props}
+    >
+      {buttonContent({ loading, size, iconLeft, iconRight, children })}
+    </Link>
+  )
+}
+
+export function ButtonAnchor({
+  variant = 'secondary',
+  size = 'md',
+  iconLeft,
+  iconRight,
+  loading = false,
+  className,
+  children,
+  onClick,
+  ...props
+}: AnchorHTMLAttributes<HTMLAnchorElement> & SharedButtonProps) {
+  return (
+    <a
+      className={buttonClasses({ variant, size, className: cn(loading && 'pointer-events-none opacity-55', className) })}
+      aria-disabled={loading || undefined}
+      onClick={(event) => {
+        if (loading) {
+          event.preventDefault()
+          return
+        }
+        onClick?.(event)
+      }}
+      {...props}
+    >
+      {buttonContent({ loading, size, iconLeft, iconRight, children })}
+    </a>
   )
 }

@@ -15,11 +15,10 @@
 import { useMemo, useState } from 'react'
 import { Braces, Search, SlidersHorizontal } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { Badge } from '@/components/ui/Badge'
+import { FilterChip } from '@/components/ui/FilterChip'
 import { SearchInput, Select } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { Segmented } from '@/components/ui/Tabs'
 import { Caveat, RangeBar, StatusBadge, percent } from './parts'
 import { STATUS_EXPLANATION, WRONG_ATTEMPTS_VS_WEAK_CONCEPTS } from '@/data/adaptive/explain'
 import { CONCEPT_STATUS_LABEL, type ConceptStatus } from '@/data/adaptive/masteryModel'
@@ -27,60 +26,101 @@ import { byConcept } from '@/data/adaptive/misconceptions'
 import type { AdaptiveStudy } from '@/lib/adaptive/useAdaptiveStudy'
 import { useConceptOverrides, type ConceptOverride } from '@/lib/adaptive/useConceptOverrides'
 import { useConceptLabels } from '@/lib/adaptive/useAdaptiveConfig'
+import { cn } from '@/lib/cn'
 
-const FILTERS: Array<{ value: string; label: string }> = [
+/** Filter chips, in the order they read best: worst standing first. */
+const FILTERS: Array<{ value: 'all' | ConceptStatus; label: string }> = [
   { value: 'all', label: 'All' },
-  { value: 'weak', label: 'Weak' },
-  { value: 'attention', label: 'Attention' },
-  { value: 'review-due', label: 'Due' },
-  { value: 'unmeasured', label: 'Unmeasured' },
+  { value: 'weak', label: CONCEPT_STATUS_LABEL.weak },
+  { value: 'attention', label: CONCEPT_STATUS_LABEL.attention },
+  { value: 'review-due', label: CONCEPT_STATUS_LABEL['review-due'] },
+  { value: 'unmeasured', label: CONCEPT_STATUS_LABEL.unmeasured },
 ]
+
+/** The colour a card's edge and its review line borrow from the status system
+ * `StatusBadge` already uses, so a card never claims an urgency its badge
+ * doesn't back up. */
+const ACCENT_VAR: Record<ConceptStatus, string> = {
+  unmeasured: 'var(--color-line-2)',
+  attention: 'var(--color-warning)',
+  weak: 'var(--color-danger)',
+  developing: 'var(--color-primary)',
+  secure: 'var(--color-success)',
+  'review-due': 'var(--color-primary)',
+}
 
 function formatDate(iso: string | null): string {
   if (!iso) return '—'
   return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short' })
 }
 
+/**
+ * What a concept card's footer says about its review, and how urgently.
+ *
+ * Only concepts with actual evidence carry a `nextReviewAt` at all, so this is
+ * never called for an unmeasured concept — there is nothing yet to schedule.
+ */
+function reviewLine(nextReviewAt: string | null, now: Date): { text: string; tone: 'danger' | 'warning' | 'neutral' } | null {
+  if (!nextReviewAt) return null
+  const diffDays = Math.round((new Date(nextReviewAt).getTime() - now.getTime()) / 86_400_000)
+  if (diffDays < 0) return { text: `overdue ${Math.abs(diffDays)}d`, tone: 'danger' }
+  if (diffDays === 0) return { text: 'due today', tone: 'warning' }
+  return { text: `review ${formatDate(nextReviewAt)}`, tone: 'neutral' }
+}
+
 export function Concepts({ study }: { study: AdaptiveStudy }) {
   const [query, setQuery] = useState('')
-  const [filter, setFilter] = useState('all')
+  const [filter, setFilter] = useState<'all' | ConceptStatus>('all')
   const [overrides, setOverride] = useConceptOverrides()
   const labels = useConceptLabels()
+  const now = useMemo(() => new Date(), [])
 
   const misconceptionsByConcept = useMemo(
     () => byConcept(study.misconceptions),
     [study.misconceptions],
   )
 
+  const allRows = useMemo(() => study.blueprint.nodes.map((node) => {
+    const state = study.states.get(node.conceptId)
+    return {
+      conceptId: node.conceptId,
+      label: labels.get(node.conceptId) ?? node.label,
+      group: node.groupLabel,
+      weight: node.weight,
+      state,
+      status: (state?.status ?? 'unmeasured') as ConceptStatus,
+      misconceptions: misconceptionsByConcept.get(node.conceptId)?.length ?? 0,
+      override: overrides[node.conceptId],
+    }
+  }), [study.blueprint.nodes, study.states, labels, misconceptionsByConcept, overrides])
+
+  // Counts are taken from every concept in scope, not the filtered/searched
+  // set — a chip that recounts itself as you type on it would be useless as a
+  // way to see how many concepts a filter still holds.
+  const counts = useMemo(() => {
+    const tally: Record<'all' | ConceptStatus, number> = {
+      all: allRows.length, unmeasured: 0, attention: 0, weak: 0, developing: 0, secure: 0, 'review-due': 0,
+    }
+    for (const row of allRows) tally[row.status] += 1
+    return tally
+  }, [allRows])
+
   const rows = useMemo(() => {
     const needle = query.trim().toLowerCase()
-    return study.blueprint.nodes
-      .map((node) => {
-        const state = study.states.get(node.conceptId)
-        return {
-          conceptId: node.conceptId,
-          label: labels.get(node.conceptId) ?? node.label,
-          group: node.groupLabel,
-          weight: node.weight,
-          state,
-          status: (state?.status ?? 'unmeasured') as ConceptStatus,
-          misconceptions: misconceptionsByConcept.get(node.conceptId)?.length ?? 0,
-          override: overrides[node.conceptId],
-        }
-      })
+    return allRows
       .filter((row) => {
         if (needle && !row.label.toLowerCase().includes(needle) && !row.group.toLowerCase().includes(needle)) return false
         if (filter === 'all') return true
         return row.status === filter
       })
       .sort((a, b) => {
-        // Weakest first, then by blueprint weight: the top of this table should
+        // Weakest first, then by blueprint weight: the top of this grid should
         // be the concepts most worth a student's attention, in that order.
         const order: ConceptStatus[] = ['weak', 'review-due', 'attention', 'developing', 'unmeasured', 'secure']
         const rank = order.indexOf(a.status) - order.indexOf(b.status)
         return rank !== 0 ? rank : b.weight - a.weight
       })
-  }, [study.blueprint.nodes, study.states, labels, misconceptionsByConcept, overrides, query, filter])
+  }, [allRows, query, filter])
 
   if (study.blueprint.empty) {
     return (
@@ -98,86 +138,105 @@ export function Concepts({ study }: { study: AdaptiveStudy }) {
     <div className="space-y-5">
       <Caveat>{WRONG_ATTEMPTS_VS_WEAK_CONCEPTS.body}</Caveat>
 
-      <Panel>
-        <PanelHeader
-          title="Your concepts"
-          icon={Braces}
-          hint={`${rows.length} of ${study.blueprint.nodes.length}`}
-          action={
-            <div className="flex flex-wrap items-center gap-2">
-              <Segmented value={filter} onChange={setFilter} items={FILTERS} />
-              <SearchInput
-                value={query}
-                onChange={(event) => setQuery(event.target.value)}
-                placeholder="Search concepts"
-                className="w-44"
-              />
-            </div>
-          }
+      {/* Filters, in rank order, each carrying its own count so a student can
+          see the shape of their standing before opening a single card. */}
+      <div className="flex flex-wrap items-center gap-2">
+        {FILTERS.map((entry) => (
+          <FilterChip key={entry.value} active={filter === entry.value} onClick={() => setFilter(entry.value)}>
+            {entry.label} · <span className="tnum font-mono">{counts[entry.value]}</span>
+          </FilterChip>
+        ))}
+        <SearchInput
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Search concepts…"
+          className="ms-auto w-full sm:w-64"
         />
+      </div>
 
-        {rows.length === 0 ? (
+      {rows.length === 0 ? (
+        <Panel>
           <EmptyState icon={Search} title="Nothing matches" description="No concept matches this filter and search." />
-        ) : (
-          <Table>
-            <thead>
-              <tr>
-                <Th>Concept</Th>
-                <Th>Status</Th>
-                <Th>Mastery</Th>
-                <Th align="end">Items</Th>
-                <Th align="end">Wrong</Th>
-                <Th align="end">Next review</Th>
-                <Th align="end">Scope</Th>
-              </tr>
-            </thead>
-            <tbody>
-              {rows.map((row) => (
-                <Tr key={row.conceptId} hover>
-                  <Td>
-                    <p className="font-medium text-ink">{row.label}</p>
-                    <p className="mt-0.5 text-[11.5px] text-ink-3">
-                      {row.group} · {percent(row.weight)} of blueprint
-                      {row.misconceptions > 0 && ` · ${row.misconceptions} misconception${row.misconceptions === 1 ? '' : 's'}`}
-                    </p>
-                  </Td>
-                  <Td><StatusBadge status={row.status} /></Td>
-                  <Td className="min-w-[140px]">
-                    {row.state && row.status !== 'unmeasured' ? (
-                      <>
-                        <RangeBar
-                          lower={Math.max(0, row.state.mean - row.state.uncertainty)}
-                          upper={Math.min(1, row.state.mean + row.state.uncertainty)}
-                          tone={row.state.mean < study.config.statuses.weakBelow ? 'danger' : 'primary'}
-                        />
-                        <p className="tnum mt-1 font-mono text-[11px] text-ink-3">
-                          {percent(Math.max(0, row.state.mean - row.state.uncertainty))}–
-                          {percent(Math.min(1, row.state.mean + row.state.uncertainty))}
-                        </p>
-                      </>
-                    ) : (
-                      <span className="text-[12px] text-ink-3">Not enough evidence</span>
+        </Panel>
+      ) : (
+        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+          {rows.map((row) => {
+            const measured = row.state && row.status !== 'unmeasured'
+            const review = row.state ? reviewLine(row.state.nextReviewAt, now) : null
+            const reviewTone = review
+              ? { danger: 'text-danger', warning: 'text-warning', neutral: 'text-ink-3' }[review.tone]
+              : null
+
+            return (
+              <Panel
+                key={row.conceptId}
+                className={cn('min-w-0 p-3.5', row.status === 'unmeasured' && 'border-dashed')}
+                style={{ borderLeftWidth: 3, borderLeftColor: ACCENT_VAR[row.status] }}
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <p className={cn('min-w-0 truncate text-[13px] font-semibold', row.status === 'unmeasured' ? 'text-ink-2' : 'text-ink')}>
+                    {row.label}
+                  </p>
+                  <StatusBadge status={row.status} />
+                </div>
+                <p className="mt-0.5 truncate text-[11px] text-ink-3">
+                  {row.group} · {percent(row.weight)} of blueprint
+                  {row.misconceptions > 0 && ` · ${row.misconceptions} misconception${row.misconceptions === 1 ? '' : 's'}`}
+                </p>
+
+                {measured && row.state ? (
+                  <RangeBar
+                    className="mt-2.5"
+                    lower={Math.max(0, row.state.mean - row.state.uncertainty)}
+                    upper={Math.min(1, row.state.mean + row.state.uncertainty)}
+                    marker={row.state.mean}
+                    tone={row.state.mean < study.config.statuses.weakBelow ? 'danger' : 'primary'}
+                  />
+                ) : (
+                  <p className="mt-2.5 text-[11px] italic text-ink-3">
+                    Not enough evidence — will be drawn into your next block.
+                  </p>
+                )}
+
+                {row.state && (
+                  <div className="mt-2 flex items-center justify-between gap-2 text-[11px] text-ink-3">
+                    <span className="tnum font-mono">{row.state.distinctItems} items · {row.state.rawWrong} wrong</span>
+                    {review && (
+                      <span className={reviewTone ?? undefined}>
+                        {review.tone === 'neutral' ? review.text : <span className="font-semibold">{review.text}</span>}
+                      </span>
                     )}
-                  </Td>
-                  <Td align="end" className="tnum font-mono text-[12.5px]">{row.state?.distinctItems ?? 0}</Td>
-                  <Td align="end" className="tnum font-mono text-[12.5px]">{row.state?.rawWrong ?? 0}</Td>
-                  <Td align="end" className="tnum font-mono text-[12.5px] text-ink-2">{formatDate(row.state?.nextReviewAt ?? null)}</Td>
-                  <Td align="end">
-                    <Select
-                      value={row.override?.mode ?? 'normal'}
-                      onChange={(event) => setOverride(row.conceptId, event.target.value as ConceptOverride['mode'])}
-                      className="h-8 w-[118px] text-[12px]"
-                    >
-                      <option value="normal">Normal</option>
-                      <option value="snoozed">Snoozed</option>
-                      <option value="out-of-scope">Out of scope</option>
-                    </Select>
-                  </Td>
-                </Tr>
-              ))}
-            </tbody>
-          </Table>
-        )}
+                  </div>
+                )}
+
+                <Select
+                  value={row.override?.mode ?? 'normal'}
+                  onChange={(event) => setOverride(row.conceptId, event.target.value as ConceptOverride['mode'])}
+                  className="mt-2.5 h-7 text-[11px]"
+                  aria-label={`Scope for ${row.label}`}
+                >
+                  <option value="normal">Normal</option>
+                  <option value="snoozed">Snoozed</option>
+                  <option value="out-of-scope">Out of scope</option>
+                </Select>
+              </Panel>
+            )
+          })}
+        </div>
+      )}
+
+      {/* Legend, echoing the colours every card just used. */}
+      <Panel className="flex flex-wrap items-center gap-x-5 gap-y-2 p-3.5">
+        <span className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Status</span>
+        {(['weak', 'attention', 'developing', 'secure'] as ConceptStatus[]).map((status) => (
+          <span key={status} className="inline-flex items-center gap-1.5 text-[11.5px] text-ink-2">
+            <span className="size-2 rounded-sm" style={{ backgroundColor: ACCENT_VAR[status] }} />
+            {CONCEPT_STATUS_LABEL[status]} — {STATUS_EXPLANATION[status]}
+          </span>
+        ))}
+        <span className="text-[11px] text-ink-3 sm:ms-auto">
+          Marker = best estimate · band = uncertainty · snooze or scope out any concept from its card
+        </span>
       </Panel>
 
       <Panel>

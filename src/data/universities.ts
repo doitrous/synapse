@@ -149,6 +149,63 @@ const KAU_MODULES: Record<string, [name: string, moduleId: string][]> = {
 }
 
 /**
+ * Alexandria University's Years 1–3 modules, as the corpus folder names carry them
+ * (`/Users/doitrous/Desktop/Alexandria University/y1|y2|y3/<CODE> - <name>`).
+ *
+ * `[name, moduleId]`, same shape as `KAU_MODULES`. IDs renamed 2026-08-22 (chief of
+ * staff ruling): `withModules` below copies `moduleId` through unprefixed, and
+ * nothing downstream (`bulkImport.ts`, `contentControl.ts`, `blueprint.ts`)
+ * cross-checks a module id against which university it belongs to — ids are global
+ * bare strings, so a bare `MED 102` would collide with any other university that
+ * also prints one. Every id here is therefore `AU-<CODE>` (uppercase, hyphens, no
+ * spaces); the faculty-printed code stays visible in the name instead, as `"<CODE>
+ * — <title>"`. See `docs/Alexandria-Source-Imports/academic/au-modules.md` for the
+ * full rationale and the reconciliation against the bylaws.
+ *
+ * The bylaws (`docs/Alexandria-Source-Imports/academic/bylaws-2023-extract.md`)
+ * state a real semester per module, but `withModules` below has no per-module term
+ * slot — like `KAU_MODULES`, every course lands on the year's single `Term 1`
+ * here. The actual per-module term (Term 1/Term 2, mapped from the bylaws' own
+ * semester) lives only in the import batch, `docs/import-ready/academic/au-modules.md`
+ * / `docs/Alexandria-Source-Imports/academic/au-modules.md`, which is what a live
+ * deployment applies through Academic Import; this table seeds demo mode only.
+ *
+ * Years 4 and 5 are out of scope for this table — they were not part of the
+ * Years 1–3 extraction and are left empty, same as any other unlisted year.
+ */
+const AU_MODULES: Record<string, [name: string, moduleId: string][]> = {
+  'Year 1': [
+    ['MED 101 — Medical School Orientation', 'AU-MED-101'],
+    ['MED 102 — Foundation of Basic Medical Sciences & Medical Terminology', 'AU-MED-102'],
+    ['MED 103 — Blood and Immune System & Medical Terminology', 'AU-MED-103'],
+    ['UNI 104 — English', 'AU-UNI-104'],
+    ['MED 105 — Musculoskeletal System & Communication and Basic Clinical Skills (1)', 'AU-MED-105'],
+    ['MED 106 — Cardiorespiratory System & Communication and Basic Clinical Skills (2)', 'AU-MED-106'],
+    ['UNI 107 — Social Issues', 'AU-UNI-107'],
+  ],
+  'Year 2': [
+    ['MED 201 — Endocrine and Genitourinary Systems & Communication and Basic Clinical Skills (3)', 'AU-MED-201'],
+    ['MED 202 — Gastrointestinal System and Nutrition & Communication and Basic Clinical Skills (4)', 'AU-MED-202'],
+    ['MED 203 — Nervous System & Professionalism, Medical Law and Ethics', 'AU-MED-203'],
+    ['MED 204 — Concept of Health and Disease (1) & Professionalism, Medical Law and Ethics', 'AU-MED-204'],
+    ['MED 205 — Concept of Health and Disease (2) & Professionalism, Medical Law and Ethics', 'AU-MED-205'],
+  ],
+  'Year 3': [
+    ['MED 301 — Infection 1', 'AU-MED-301'],
+    ['MED 302 — Infection 2', 'AU-MED-302'],
+    ['MED 303 — Concept of Health and Disease (3)', 'AU-MED-303'],
+    ['E 304 — Elective 1', 'AU-E-304'],
+    ['MED 305 — Medicine', 'AU-MED-305'],
+    ['E 306 — Elective 2', 'AU-E-306'],
+    ['MED 307 — Investigative Medicine', 'AU-MED-307'],
+    ['MED 308 — Research', 'AU-MED-308'],
+    ['MED 309 — Surgery', 'AU-MED-309'],
+    ['UNI 310 — Entrepreneurship', 'AU-UNI-310'],
+    ['UNI 311 — Critical Thinking', 'AU-UNI-311'],
+  ],
+}
+
+/**
  * Fill a university's years with a named set of modules.
  *
  * Years the set says nothing about are left exactly as they were, empty — an
@@ -175,7 +232,7 @@ function withModules(years: UniYear[], modules: Record<string, [string, string][
 export const universities: University[] = [
   { id: 'kau', name: 'Kasr Alainy - Cairo University', short: 'KAU', region: 'Cairo', years: withModules(buildYears('KAU'), KAU_MODULES) },
   { id: 'asu', name: 'Ain Shams University', short: 'ASU', region: 'Cairo', years: buildYears('ASU') },
-  { id: 'au', name: 'Alexandria University', short: 'AU', region: 'Alexandria', years: buildYears('AU') },
+  { id: 'au', name: 'Alexandria University', short: 'AU', region: 'Alexandria', years: withModules(buildYears('AU'), AU_MODULES) },
   { id: 'hu', name: 'Helwan University', short: 'HU', region: 'Helwan, Cairo', years: buildYears('HU') },
   { id: 'bu', name: 'Beni Suef University', short: 'BU', region: 'Beni Suef', years: buildYears('BU') },
   { id: 'fu', name: 'Fayoum University', short: 'FU', region: 'Fayoum', years: buildYears('FU') },

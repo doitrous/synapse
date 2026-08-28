@@ -2,6 +2,7 @@ import SwiftUI
 
 /// Drill the question bank: build a sitting, answer, read why.
 struct QuestionBankView: View {
+    @Environment(\.strings) private var strings
     @State private var model: QuestionBankModel
     @State private var qbank: QBankStore
     @State private var mastery: MasteryModel
@@ -33,7 +34,7 @@ struct QuestionBankView: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("Question bank")
+            .navigationTitle(strings("Question bank"))
             .navigationBarTitleDisplayMode(model.phase == .building ? .large : .inline)
         }
         .task {
@@ -64,6 +65,7 @@ struct QuestionBankView: View {
 // MARK: - Building
 
 private struct SessionBuilder: View {
+    @Environment(\.strings) private var strings
     @Bindable var model: QuestionBankModel
     var store: QBankStore
 
@@ -110,6 +112,7 @@ private struct SessionBuilder: View {
                 scope: $model.scope,
                 subjectName: { $0.uppercased() }
             )
+        .localisedSheet()
         }
     }
 
@@ -131,7 +134,7 @@ private struct SessionBuilder: View {
                                 .foregroundStyle(Theme.ink2)
                         }
                     }
-                    Button("Start again instead", role: .destructive) {
+                    Button(strings("Start again instead"), role: .destructive) {
                         Task { await store.clearLive() }
                     }
                     .font(Theme.ui(14))
@@ -139,7 +142,7 @@ private struct SessionBuilder: View {
                 .listRowBackground(Theme.surface)
             }
 
-            Section("Quick start") {
+            Section(strings("Quick start")) {
                 ForEach(QBankPreset.allCases) { preset in
                     let pool = model.preset(preset)
                     Button {
@@ -163,7 +166,7 @@ private struct SessionBuilder: View {
             }
             .listRowBackground(Theme.surface)
 
-            Section("How") {
+            Section(strings("How")) {
                 Picker("Mode", selection: $model.mode) {
                     ForEach(SittingMode.allCases, id: \.self) { Text($0.label).tag($0) }
                 }
@@ -186,16 +189,16 @@ private struct SessionBuilder: View {
                             .foregroundStyle(Theme.primary)
                     }
                 } footer: {
-                    Text("The ones you marked to come back to.")
+                    Text(strings("The ones you marked to come back to."))
                         .font(Theme.ui(13))
                 }
                 .listRowBackground(Theme.surface)
             }
 
-            Section("Scope") {
+            Section(strings("Scope")) {
                 Button { choosing = true } label: {
                     HStack {
-                        Text("What to study")
+                        Text(strings("What to study"))
                             .foregroundStyle(Theme.ink)
                         Spacer()
                         Text(scopeSummary)
@@ -209,7 +212,7 @@ private struct SessionBuilder: View {
             }
             .listRowBackground(Theme.surface)
 
-            Section("Length") {
+            Section(strings("Length")) {
                 Picker("Questions", selection: $model.length) {
                     ForEach([5, 10, 20, 40], id: \.self) { Text("\($0)").tag($0) }
                 }
@@ -232,7 +235,7 @@ private struct SessionBuilder: View {
                         existing: Array(store.names.values)
                     ))
                 } label: {
-                    Text("Start")
+                    Text(strings("Start"))
                         .font(Theme.ui(16, weight: 600))
                         .frame(maxWidth: .infinity)
                         .frame(height: 44)
@@ -270,6 +273,7 @@ private struct SessionBuilder: View {
 // MARK: - Running
 
 private struct Runner: View {
+    @Environment(\.strings) private var strings
     let model: QuestionBankModel
     var store: QBankStore?
 
@@ -321,12 +325,14 @@ private struct Runner: View {
                     model.go(to: position)
                     showingNavigator = false
                 }
+                .localisedSheet()
             }
             .sheet(isPresented: $showingNote) {
                 QuestionNoteSheet(text: $noteText, store: store) {
                     guard let id = model.current?.id else { return }
                     Task { await store?.saveNote(noteText, for: id) }
                 }
+                .localisedSheet()
             }
             .onChange(of: model.index) { _, _ in showingWrongAnswers = false }
         }
@@ -388,7 +394,7 @@ private struct Runner: View {
                     Image(systemName: store.note(question.id).isEmpty ? "note.text" : "note.text.badge.plus")
                 }
                 .tint(Theme.primary)
-                .accessibilityLabel("Your note")
+                .accessibilityLabel(strings("Your note"))
             }
         }
     }
@@ -498,7 +504,7 @@ private struct Runner: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 } label: {
                     HStack(spacing: 8) {
-                        Text("Why the wrong answers are wrong")
+                        Text(strings("Why the wrong answers are wrong"))
                             .font(Theme.ui(14, weight: 600))
                             .foregroundStyle(Theme.ink)
                         Text("\(wrong.count)")
@@ -551,6 +557,7 @@ private struct Runner: View {
 // MARK: - Results
 
 private struct Results: View {
+    @Environment(\.strings) private var strings
     let model: QuestionBankModel
 
     var body: some View {
@@ -560,7 +567,7 @@ private struct Results: View {
                     Text("\(model.correctCount) of \(model.answers.count)")
                         .font(Theme.numeric(34))
                         .foregroundStyle(Theme.ink)
-                    Text("correct")
+                    Text(strings("correct"))
                         .font(Theme.ui(15))
                         .foregroundStyle(Theme.ink2)
                 }
@@ -586,7 +593,7 @@ private struct Results: View {
                 .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
                 .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
 
-                Button("Another sitting") { model.restart() }
+                Button(strings("Another sitting")) { model.restart() }
                     .font(Theme.ui(16, weight: 600))
                     .foregroundStyle(Theme.primary)
             }

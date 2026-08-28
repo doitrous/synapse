@@ -1,0 +1,206 @@
+<!--
+  Ain Shams Year 2 academic structure.
+  Derived only from the local folder hierarchy and schedule/source filenames under /Users/doitrous/Desktop/ain shams.
+  No medical topics, facts, marks, or citations were inferred from unread source content.
+  Import target: Academic Setup > Import. Review module IDs before applying; they are ASU-local IDs.
+-->
+
+# Year 2
+## Term 1
+- Blood [ASU-BLOOD]
+  - All Subjects
+    - Assessments (2 files)
+    - Department Books (1 files)
+  - Anatomy
+    - Lectures (1 files)
+    - Practical (1 files)
+  - Biochemistry
+    - Lectures (1 files)
+    - Practical (1 files)
+    - Questions (1 files)
+  - Clinical Medicine
+    - Lectures (3 files)
+  - Histology
+    - Lectures (3 files)
+    - Practical (6 files)
+    - Questions (2 files)
+  - Microbiology
+    - Lectures (5 files)
+    - Practical (1 files)
+  - Parasitology
+    - Lectures (3 files)
+    - Practical (5 files)
+    - Questions (3 files)
+  - Pathology
+    - Lectures (2 files)
+    - Practical (4 files)
+    - Questions (1 files)
+  - Pharmacology
+    - Lectures (3 files)
+    - Practical (5 files)
+  - Physiology
+    - Lectures (1 files)
+    - Practical (8 files)
+    - Questions (2 files)
+- Cardiovascular System [ASU-CVS]
+  - All Subjects
+    - Assessments (18 files)
+    - Department Books (1 files)
+    - Practical (1 files)
+  - Anatomy
+    - Compilations (5 files)
+    - Lectures (3 files)
+    - Practical (2 files)
+  - Biochemistry
+    - Lectures (2 files)
+    - Practical (3 files)
+    - Questions (3 files)
+  - Clinical Medicine
+    - Practical (2 files)
+  - Histology
+    - Lectures (2 files)
+    - Practical (1 files)
+    - Summaries (1 files)
+  - Microbiology
+    - Lectures (1 files)
+    - Practical (5 files)
+  - Pathology
+    - Lectures (3 files)
+    - Practical (3 files)
+  - Pharmacology
+    - Compilations (1 files)
+    - Lectures (7 files)
+    - Practical (5 files)
+  - Physiology
+    - Lectures (3 files)
+    - Notes (2 files)
+    - Practical (4 files)
+- Respiratory System [ASU-RESP]
+  - All Subjects
+    - Assessments (2 files)
+  - Anatomy
+    - Lectures (4 files)
+    - Practical (5 files)
+  - Biochemistry
+    - Lectures (4 files)
+    - Practical (3 files)
+  - Clinical Medicine
+    - Practical (5 files)
+  - Histology
+    - Lectures (1 files)
+    - Practical (3 files)
+  - Microbiology
+    - Lectures (5 files)
+    - Practical (5 files)
+  - Parasitology
+    - Lectures (1 files)
+  - Pathology
+    - Lectures (3 files)
+    - Practical (4 files)
+  - Pharmacology
+    - Lectures (3 files)
+    - Practical (5 files)
+  - Physiology
+    - Lectures (2 files)
+    - Practical (3 files)
+## Term 2
+- Central Nervous System [ASU-CNS-2]
+  - All Subjects
+    - Assessments (29 files)
+    - Department Books (1 files)
+    - Lectures (3 files)
+  - Anatomy
+    - Lectures (8 files)
+    - Practical (8 files)
+    - Questions (3 files)
+  - Biochemistry
+    - Lectures (2 files)
+    - Practical (2 files)
+    - Questions (3 files)
+  - Clinical Medicine
+    - Lectures (7 files)
+    - Practical (7 files)
+  - Histology
+    - Lectures (2 files)
+    - Practical (1 files)
+    - Questions (3 files)
+  - Microbiology
+    - Lectures (4 files)
+    - Practical (6 files)
+  - Parasitology
+    - Lectures (1 files)
+  - Pathology
+    - Lectures (2 files)
+    - Practical (1 files)
+    - Questions (2 files)
+  - Pharmacology
+    - Lectures (15 files)
+    - Practical (3 files)
+    - Questions (2 files)
+  - Physiology
+    - Lectures (3 files)
+    - Practical (6 files)
+    - Questions (7 files)
+- Endocrine System [ASU-ENDO-2]
+  - All Subjects
+    - Assessments (25 files)
+    - Practical (1 files)
+    - Questions (4 files)
+  - Anatomy
+    - Lectures (1 files)
+    - Practical (3 files)
+    - Questions (6 files)
+  - Biochemistry
+    - Lectures (2 files)
+    - Practical (3 files)
+    - Questions (10 files)
+  - Clinical Medicine
+    - Lectures (4 files)
+  - Histology
+    - Lectures (2 files)
+    - Practical (1 files)
+    - Questions (12 files)
+  - Pathology
+    - Lectures (2 files)
+    - Practical (1 files)
+    - Questions (13 files)
+  - Pharmacology
+    - Lectures (4 files)
+    - Practical (5 files)
+    - Questions (14 files)
+  - Physiology
+    - Lectures (1 files)
+    - Practical (2 files)
+    - Questions (11 files)
+- Research Methodology [ASU-RES-METH-2]
+  - Research Methodology
+    - Lectures (17 files)
+    - Notes (4 files)
+    - Questions (2 files)
+- Special Senses [ASU-SENSES-2]
+  - All Subjects
+    - Practical (1 files)
+  - Anatomy
+    - Lectures (2 files)
+    - Practical (4 files)
+  - Biochemistry
+    - Lectures (1 files)
+  - Histology
+    - Lectures (3 files)
+    - Practical (2 files)
+  - Microbiology
+    - Lectures (1 files)
+  - Pathology
+    - Lectures (1 files)
+    - Practical (1 files)
+  - Pharmacology
+    - Lectures (1 files)
+  - Physiology
+    - Lectures (1 files)
+    - Practical (1 files)
+
+## Source Evidence Used
+- Manifest: docs/Ain-Shams-Source-Imports/manifest/asu-y2-sources.json
+- Observed subject declarations: 56
+- Source files inventoried: 501
+- Blockers are listed in the matching coverage ledger; no OCR was performed.

@@ -7,6 +7,7 @@ import SwiftUI
 /// system, a discipline, a clinical skill and a curriculum module, and which of
 /// those a student wants depends entirely on what they sat down to do.
 struct LibraryView: View {
+    @Environment(\.strings) private var strings
     @State private var model: LibraryModel
     @State private var library: UserLibrary
     @State private var files: ResourceFileStore
@@ -63,7 +64,7 @@ struct LibraryView: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("Library")
+            .navigationTitle(strings("Library"))
             .navigationBarTitleDisplayMode(.large)
         }
         .searchable(text: $query, prompt: "Search the library")
@@ -74,20 +75,25 @@ struct LibraryView: View {
         // A citation named a document and a page; this is where the student
         // lands on it.
         .sheet(item: $openingSource) { request in
-            if let resource = model.resource(request.resourceId) {
-                NavigationStack {
-                    ResourceReaderView(
-                        resource: resource, files: files, api: api, sync: sync,
-                        openAt: request.page
+            // Grouped so the reading direction can be applied to the sheet as a
+            // whole; a bare if/else is not something a modifier can attach to.
+            Group {
+                if let resource = model.resource(request.resourceId) {
+                    NavigationStack {
+                        ResourceReaderView(
+                            resource: resource, files: files, api: api, sync: sync,
+                            openAt: request.page
+                        )
+                    }
+                } else {
+                    EmptyStateView(
+                        symbol: "doc.questionmark",
+                        title: "That source is not here",
+                        detail: "The document this fact cites has not been uploaded to your library yet."
                     )
                 }
-            } else {
-                EmptyStateView(
-                    symbol: "doc.questionmark",
-                    title: "That source is not here",
-                    detail: "The document this fact cites has not been uploaded to your library yet."
-                )
             }
+            .localisedSheet()
         }
         // The first sync usually finishes after this screen has already loaded
         // an empty cache. Without this the student is told there is nothing to
@@ -124,6 +130,7 @@ struct LibraryView: View {
 
 /// The five ways in, plus the way back to the chooser.
 private struct ViewTabs: View {
+    @Environment(\.strings) private var strings
     @Binding var selection: LibraryView.Mode
 
     /// Laid out directly rather than in a horizontal ScrollView.
@@ -174,6 +181,7 @@ private struct ViewTabs: View {
 
 /// "How do you want to study?" — the landing.
 private struct StudyChooser: View {
+    @Environment(\.strings) private var strings
     let model: LibraryModel
     let choose: (LibraryViewKind) -> Void
 
@@ -181,10 +189,10 @@ private struct StudyChooser: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("How do you want to study?")
+                    Text(strings("How do you want to study?"))
                         .font(Theme.display(24))
                         .foregroundStyle(Theme.ink)
-                    Text("Reviewed articles across the whole curriculum, each carrying the concepts it teaches and the questions that test it. Find it by organ system, by discipline, by clinical skill, by condition, or straight from your own timetable.")
+                    Text(strings("Reviewed articles across the whole curriculum, each carrying the concepts it teaches and the questions that test it. Find it by organ system, by discipline, by clinical skill, by condition, or straight from your own timetable."))
                         .font(Theme.ui(14))
                         .foregroundStyle(Theme.ink2)
                         .lineSpacing(3)
@@ -243,6 +251,7 @@ private struct StudyChooser: View {
 
 /// Browsing one division of the taxonomy, a level at a time.
 private struct DivisionBrowser: View {
+    @Environment(\.strings) private var strings
     /// Passed down so a citation deep in an article can still open its source.
     var openSource: ((String, Int?) -> Void)?
     var library: UserLibrary?
@@ -277,6 +286,7 @@ private struct DivisionBrowser: View {
 
 /// One branch: its sub-branches, then the articles sitting on it.
 private struct BranchView: View {
+    @Environment(\.strings) private var strings
     /// Passed down so a citation deep in an article can still open its source.
     var openSource: ((String, Int?) -> Void)?
     let model: LibraryModel
@@ -318,7 +328,7 @@ private struct BranchView: View {
                         .listRowBackground(Theme.surface)
                     }
                 } header: {
-                    Text("Articles")
+                    Text(strings("Articles"))
                         .font(Theme.panelTitle())
                         .foregroundStyle(Theme.ink2)
                         .textCase(nil)
@@ -334,6 +344,7 @@ private struct BranchView: View {
 }
 
 private struct BranchRow: View {
+    @Environment(\.strings) private var strings
     let model: LibraryModel
     let node: TaxonomyNode
 
@@ -353,6 +364,7 @@ private struct BranchRow: View {
 
 /// The flat chapter list, used by My Curriculum.
 private struct ChapterList: View {
+    @Environment(\.strings) private var strings
     /// Passed down so a citation deep in an article can still open its source.
     var openSource: ((String, Int?) -> Void)?
     var model: LibraryModel?
@@ -392,6 +404,7 @@ private struct ChapterList: View {
 }
 
 private struct SearchResults: View {
+    @Environment(\.strings) private var strings
     /// Passed down so a citation deep in an article can still open its source.
     var openSource: ((String, Int?) -> Void)?
     let model: LibraryModel
@@ -437,6 +450,7 @@ private struct SearchResults: View {
 }
 
 struct ArticleRow: View {
+    @Environment(\.strings) private var strings
     let article: Article
     var library: UserLibrary?
 
@@ -459,7 +473,7 @@ struct ArticleRow: View {
                     Label("\(article.linkedQuestionIds.count)", systemImage: "questionmark.circle")
                 }
                 if library?.hasRead(article.id) == true {
-                    Label("Read", systemImage: "checkmark.circle.fill")
+                    Label(strings("Read"), systemImage: "checkmark.circle.fill")
                         .foregroundStyle(Theme.success)
                 }
                 ForEach(library?.tags(on: article.id) ?? [], id: \.self) { tag in

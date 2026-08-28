@@ -224,6 +224,14 @@ struct SynapseAPI {
         _ = try await send(["vouchers", "redemption"], method: "DELETE", body: Optional<Int>.none)
     }
 
+    /// Erase this account and everything it owns.
+    ///
+    /// No id in the path: the only account this can delete is the one whose
+    /// token is being presented, which is what makes it safe to expose.
+    func deleteAccount() async throws {
+        _ = try await send(["account"], method: "DELETE", body: Optional<Int>.none)
+    }
+
     // MARK: - Study assistant
 
     /// Whether the assistant is usable, and how much of today's quota is left.
@@ -442,6 +450,11 @@ struct SynapseAPI {
 
         if let accessToken = try await token() {
             request.setValue("Bearer \(accessToken)", forHTTPHeaderField: "Authorization")
+        }
+        // Which device is asking, so a write made here does not nudge the phone
+        // that made it awake for its own change.
+        if let device = await PushRegistrar.shared.deviceToken {
+            request.setValue(device, forHTTPHeaderField: "X-Device-Token")
         }
         if let body {
             request.setValue("application/json", forHTTPHeaderField: "Content-Type")

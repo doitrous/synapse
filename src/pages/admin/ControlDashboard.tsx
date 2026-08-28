@@ -1,5 +1,5 @@
-import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { ImagePlus,
   BookOpenText,
   CircleCheck,
@@ -21,9 +21,11 @@ import { ImagePlus,
   PlayCircle,
   FileText,
   Database,
+  EyeOff,
   GraduationCap,
   TriangleAlert,
   Layers,
+  Tags,
 } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
@@ -34,12 +36,14 @@ import {
   type ManagedContentItem,
   itemInScope,
   isUniversitySourced,
+  matchesMediaRequestFilter,
   sourceLabel,
+  type MediaRequestFilter,
 } from '@/data/contentControl'
 import { getSubject, subjects } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
 import { Badge } from '@/components/ui/Badge'
 import { StatusBadge } from '@/components/ui/StatusBadge'
@@ -58,10 +62,14 @@ import { ResourceEditorDialog } from '@/components/admin/ResourceEditorDialog'
 import { DeckEditorDialog } from '@/components/admin/DeckEditorDialog'
 import { EssayEditorDialog } from '@/components/admin/EssayEditorDialog'
 import { HistologyEditorDialog } from '@/components/admin/HistologyEditorDialog'
+import { LegacyContentArchivePanel } from '@/components/admin/LegacyContentArchivePanel'
 import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useScopedItems } from '@/lib/useScopedContent'
+import { LibraryTreeEditor } from '@/components/admin/LibraryTreeEditor'
+import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
 import { overlayPortal } from '@/lib/overlayPortal'
@@ -70,6 +78,13 @@ import { removeStoredMedia } from '@/lib/mediaStorage'
 import { initialContentReports, REPORT_STORAGE_KEY, type ContentReport } from '@/data/contentReports'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { API_MODE } from '@/lib/api'
+import { contentModuleLabels } from '@/data/contentModules'
+import { SystemMark } from '@/components/ui/SystemMark'
+import { Tooltip } from '@/components/ui/Tooltip'
+import { BulkContentTagDialog } from '@/components/admin/BulkContentTagDialog'
+import { addContentTags, availableContentTags, contentTagsOf } from '@/data/contentTags'
+import { FacetFilter, FacetChips } from '@/components/admin/FacetFilter'
+import { availableFacets, itemFacetTokens, itemMatchesFacets, facetKey, type Facet } from '@/data/contentFacets'
 
 const KIND_ICON = {
   question: FileQuestion,
@@ -209,9 +224,43 @@ export interface QuestionScope { universityId?: string; year?: string }
 /** Alias kept for readability at resource call sites. */
 export type ContentScope = QuestionScope
 
-export function ControlDashboard({ initialKind = 'question', lockedKind = false, questionScope, scope }: { initialKind?: ContentKind; lockedKind?: boolean; questionScope?: QuestionScope; scope?: ContentScope }) {
+interface ControlDashboardProps {
+  initialKind?: ContentKind
+  lockedKind?: boolean
+  questionScope?: QuestionScope
+  scope?: ContentScope
+  /** Dedicated question registry view. Generic Content Control keeps its status filter. */
+  questionView?: 'current' | 'archived'
+  /**
+   * Who owns the Current/Archive switch. 'internal' (the default) renders the
+   * toggle inside this component — every locked catalogue gets its own Archive
+   * tab. 'external' means the parent drives it via `questionView` (Questions
+   * Setup, whose left rail already carries the switch).
+   */
+  archiveControl?: 'internal' | 'external'
+}
+
+export function ControlDashboard({
+  initialKind = 'question',
+  lockedKind = false,
+  questionScope,
+  scope,
+  questionView = 'current',
+  archiveControl = 'internal',
+}: ControlDashboardProps) {
   const activeScope = scope ?? questionScope
-  const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger, setItems, saveStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  /**
+   * What this person may actually work on.
+   *
+   * Only the read is narrowed. Every write below takes the functional form —
+   * `setItems((current) => …)` — so it operates on the stored document rather
+   * than on this view, and a scoped reviewer saving a change cannot delete the
+   * content they were never shown.
+   */
+  const items = useScopedItems(ledger)
+  const identity = useIdentity()
+  const { contentScope } = identity
   const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [catalogue] = useUniversityCatalogue()
@@ -219,16 +268,37 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const [newTopicName, setNewTopicName] = useState('')
   const [kind, setKind] = useState<ContentKind>(initialKind)
   const [status, setStatus] = useState<Status | 'All'>('All')
+  const [mediaFilter, setMediaFilter] = useState<MediaRequestFilter>('all')
   const [query, setQuery] = useState('')
+  const [facets, setFacets] = useState<Set<string>>(() => new Set())
   const [editorOpen, setEditorOpen] = useState(false)
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
   const [deleting, setDeleting] = useState<ManagedContentItem | null>(null)
   const [notice, setNotice] = useState<{ text: string; tone: 'success' | 'warning' } | null>(null)
+  // The honest save signal. A content edit updates the row immediately, but it
+  // is not saved until the server says so — so success is never announced up
+  // front. `saveStatus` (from the shared store) is the truth: pending while a
+  // write is in flight, `conflict`/`error` when it was refused and the change
+  // rolled back. `justSaved` flashes only on a real pending→clean transition.
+  const [justSaved, setJustSaved] = useState(false)
+  const wasSaving = useRef(false)
+  useEffect(() => {
+    const failed = Boolean(saveStatus.error) || Boolean(saveStatus.conflict)
+    if (wasSaving.current && !saveStatus.pending && !failed) setJustSaved(true)
+    wasSaving.current = saveStatus.pending
+  }, [saveStatus.pending, saveStatus.error, saveStatus.conflict])
+  useEffect(() => {
+    if (!justSaved) return
+    const timer = window.setTimeout(() => setJustSaved(false), 2500)
+    return () => window.clearTimeout(timer)
+  }, [justSaved])
   /** A thing that happened. */
   const say = (text: string) => setNotice({ text, tone: 'success' })
   /** A thing that did not happen, and why. */
   const warn = (text: string) => setNotice({ text, tone: 'warning' })
   const [selected, setSelected] = useState<Set<string>>(() => new Set())
+  const [bulkTagOpen, setBulkTagOpen] = useState(false)
+  const closeBulkTagDialog = useCallback(() => setBulkTagOpen(false), [])
   const [forcePublish, setForcePublish] = useState(false)
   const [reports] = usePersistentState<ContentReport[]>(REPORT_STORAGE_KEY, initialContentReports)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
@@ -237,17 +307,35 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   // between sibling routes, so relying on useState(initialKind) leaks the
   // previously visited catalogue into the next page.
   const activeKind = lockedKind ? initialKind : kind
-  const scopedItems = useMemo(
-    () => lockedKind ? items.filter((item) => item.kind === activeKind) : items,
-    [activeKind, items, lockedKind],
-  )
+  // Every locked catalogue now separates its archive from its current content,
+  // so retired items never sit mixed into the working list. The generic Content
+  // Control page keeps its single status filter (Archived included) instead.
+  const archiveSplit = lockedKind
+  const [archiveView, setArchiveView] = useState(questionView === 'archived')
+  // A scoped reviewer has no archive; keep the two controls in sync with intent.
+  useEffect(() => { if (contentScope && archiveView) setArchiveView(false) }, [contentScope, archiveView])
+  useEffect(() => { if (archiveControl === 'external') setArchiveView(questionView === 'archived') }, [archiveControl, questionView])
+  const isArchiveView = archiveSplit && archiveView && !contentScope
+  const activeUniversityId = activeScope?.universityId
+  const activeYear = activeScope?.year
+  const scopedItems = useMemo(() => {
+    const byKind = lockedKind ? items.filter((item) => item.kind === activeKind) : items
+    if (!archiveSplit) return byKind
+    return byKind.filter((item) => isArchiveView ? item.status === 'Archived' : item.status !== 'Archived')
+  }, [activeKind, archiveSplit, isArchiveView, items, lockedKind])
+
+  const summaryItems = useMemo(() => scopedItems.filter((item) => {
+    if (isArchiveView || (!activeUniversityId && !activeYear)) return true
+    if (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology') return true
+    return itemInScope(item, activeUniversityId, activeYear)
+  }), [activeKind, activeUniversityId, activeYear, isArchiveView, scopedItems])
 
   const counts = useMemo(() => ({
-    total: scopedItems.length,
-    published: scopedItems.filter((item) => item.status === 'Published').length,
-    review: scopedItems.filter((item) => item.status === 'In review').length,
-    drafts: scopedItems.filter((item) => item.status === 'Draft').length,
-  }), [scopedItems])
+    total: summaryItems.length,
+    published: summaryItems.filter((item) => item.status === 'Published').length,
+    review: summaryItems.filter((item) => item.status === 'In review').length,
+    drafts: summaryItems.filter((item) => item.status === 'Draft').length,
+  }), [summaryItems])
 
   const kindCounts = useMemo(() => ({
     question: items.filter((item) => item.kind === 'question').length,
@@ -259,20 +347,49 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     histology: items.filter((item) => item.kind === 'histology').length,
   }), [items])
 
+  const existingContentTags = useMemo(() => availableContentTags(items), [items])
+
+  // The kind's items, and each one's facet tokens (module + subject + tags),
+  // computed once per change rather than per keystroke of the filters below.
+  const kindItems = useMemo(() => items.filter((item) => item.kind === activeKind), [items, activeKind])
+  const facetIndex = useMemo(
+    () => new Map(kindItems.map((item) => [item.id, itemFacetTokens(item, catalogue)] as const)),
+    [kindItems, catalogue],
+  )
+  const facetGroups = useMemo(() => availableFacets(kindItems, catalogue), [kindItems, catalogue])
+  const facetFlags = useMemo<Facet[]>(
+    () => (kindItems.some((item) => facetIndex.get(item.id)?.has('flag:no-module'))
+      ? [{ type: 'flag', value: 'no-module', label: 'Needs module' }]
+      : []),
+    [kindItems, facetIndex],
+  )
+  const facetLabels = useMemo(() => {
+    const map = new Map<string, string>()
+    for (const facet of [...facetGroups.modules, ...facetGroups.subjects, ...facetGroups.tags, ...facetFlags]) {
+      map.set(facetKey(facet), facet.label)
+    }
+    return map
+  }, [facetGroups, facetFlags])
+  const kindArchivedCount = useMemo(() => kindItems.filter((item) => item.status === 'Archived').length, [kindItems])
+  const kindCurrentCount = kindItems.length - kindArchivedCount
+
   const matching = useMemo(() => {
     const normalized = query.trim().toLowerCase()
     return items
       .filter((item) => item.kind === activeKind)
+      .filter((item) => !archiveSplit || (isArchiveView ? item.status === 'Archived' : item.status !== 'Archived'))
       .filter((item) => status === 'All' || item.status === status)
+      .filter((item) => matchesMediaRequestFilter(item, mediaFilter))
+      .filter((item) => itemMatchesFacets(facetIndex.get(item.id) ?? new Set(), facets))
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
-        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology')) return true
+        if ((!activeUniversityId && !activeYear) || isArchiveView || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology')) return true
         // Authored scope, not a hash of the item's id.
-        return itemInScope(item, activeScope.universityId, activeScope.year)
+        return itemInScope(item, activeUniversityId, activeYear)
       })
-      .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')}`.toLowerCase().includes(normalized))
+      .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')} ${[...(facetIndex.get(item.id) ?? [])].join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
-  }, [activeKind, items, query, status, activeScope])
+  }, [activeKind, activeUniversityId, activeYear, archiveSplit, facetIndex, facets, isArchiveView, items, mediaFilter, query, status])
 
   /**
    * Questions and practicals taken from a faculty's own papers are reviewed,
@@ -304,7 +421,10 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const [page, setPage] = useState(1)
   const currentPage = Math.min(page, pageCount)
   const pageRows = useMemo(() => rows.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE), [rows, currentPage])
-  useEffect(() => { setPage(1) }, [activeKind, status, query, sourceTab, activeScope])
+  useEffect(() => {
+    setPage(1)
+    setSelected(new Set())
+  }, [activeKind, activeUniversityId, activeYear, isArchiveView, status, mediaFilter, query, sourceTab, facets])
 
   /**
    * Open the item a link asked for.
@@ -354,8 +474,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     })
 
   const reviewQueue = useMemo(
-    () => scopedItems.filter((item) => item.status === 'In review').sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()).slice(0, 7),
-    [scopedItems],
+    () => summaryItems.filter((item) => item.status === 'In review').sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()).slice(0, 7),
+    [summaryItems],
   )
 
   function openNew() {
@@ -365,28 +485,36 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
 
   function saveItem(next: ManagedContentItem) {
     const exists = items.some((item) => item.id === next.id)
-    setItems((current) => exists ? current.map((item) => item.id === next.id ? next : item) : [next, ...current])
+    const verdict = publishReadiness(next)
+    const accepted = next.status === 'Published' && verdict.hardBlocked
+      ? { ...next, status: 'In review' as const, updatedAt: new Date().toISOString() }
+      : next
+    setItems((current) => exists ? current.map((item) => item.id === accepted.id ? accepted : item) : [accepted, ...current])
     // Auto-link: a resource tagged with concepts adds itself to those concepts'
     // approved file/video resource lists (so concepts only reference vetted media).
-    if (next.kind === 'resource') {
-      const conceptIds = next.resourceData?.includedConceptIds?.length
-        ? next.resourceData.includedConceptIds
-        : (next.fields['Included concepts'] ?? '').split(/[\n,;|]/).map((s) => s.trim()).filter(Boolean)
+    if (accepted.kind === 'resource') {
+      const conceptIds = accepted.resourceData?.includedConceptIds?.length
+        ? accepted.resourceData.includedConceptIds
+        : (accepted.fields['Included concepts'] ?? '').split(/[\n,;|]/).map((s) => s.trim()).filter(Boolean)
       if (conceptIds.length) {
-        const isVideo = next.fields.Type === 'Video'
+        const isVideo = accepted.fields.Type === 'Video'
         setConceptGraph((g) => ({
           ...g,
           concepts: g.concepts.map((c) => conceptIds.includes(c.id) ? {
             ...c,
-            approvedVideoResourceIds: isVideo ? [...new Set([...(c.approvedVideoResourceIds ?? []), next.id])] : c.approvedVideoResourceIds,
-            approvedFileResourceIds: isVideo ? c.approvedFileResourceIds : [...new Set([...(c.approvedFileResourceIds ?? []), next.id])],
+            approvedVideoResourceIds: isVideo ? [...new Set([...(c.approvedVideoResourceIds ?? []), accepted.id])] : c.approvedVideoResourceIds,
+            approvedFileResourceIds: isVideo ? c.approvedFileResourceIds : [...new Set([...(c.approvedFileResourceIds ?? []), accepted.id])],
           } : c),
         }))
       }
     }
     setEditorOpen(false)
     setEditing(null)
-    say(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
+    if (verdict.hardBlocked && next.status === 'Published') {
+      warn(`${CONTENT_KIND_LABEL[next.kind].singular} kept in review: ${verdict.reason}. Supply the required media before publishing.`)
+    }
+    // Whether the save reached the server is reported by the save indicator, not
+    // claimed here before the write has left.
   }
 
   const isTaxonomyKind = activeKind === 'question' || activeKind === 'article' || activeKind === 'resource'
@@ -424,7 +552,6 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   function sendForReview(item: ManagedContentItem) {
     if (item.status === 'In review') return
     setItems((current) => current.map((candidate) => candidate.id === item.id ? { ...candidate, status: 'In review', updatedAt: new Date().toISOString() } : candidate))
-    say(`“${item.title}” sent for review.`)
   }
 
   /* ---- Bulk selection ---------------------------------------------------- */
@@ -434,9 +561,12 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   // ever claims the page in front of you.
   const selectedItems = useMemo(() => rows.filter((item) => selected.has(item.id)), [rows, selected])
   const readiness = useMemo(() => partitionByReadiness(selectedItems), [selectedItems])
+  const hardBlocked = readiness.blocked.filter((entry) => entry.hardBlocked)
+  const forceableBlocked = readiness.blocked.filter((entry) => !entry.hardBlocked)
   const someShownSelected = selectedItems.length > 0
   const allPageSelected = pageRows.length > 0 && pageRows.every((item) => selected.has(item.id))
   const somePageSelected = pageRows.some((item) => selected.has(item.id))
+  const allMatchingSelected = rows.length > 0 && rows.every((item) => selected.has(item.id))
 
   /** Selection only ever refers to rows the current filters actually show. */
   const setSelection = (ids: string[], on: boolean) =>
@@ -452,18 +582,43 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
    * An empty target list used to return in silence, leaving the selection sitting
    * there and the admin with no idea whether anything had happened. It now says so.
    */
-  function applyStatus(targets: ManagedContentItem[], status: Status, verb: string, nothingToDo: string) {
+  function applyStatus(targets: ManagedContentItem[], status: Status, nothingToDo: string) {
     if (!targets.length) { warn(nothingToDo); return }
     const ids = new Set(targets.map((item) => item.id))
     const at = new Date().toISOString()
     setItems((current) => current.map((item) => (ids.has(item.id) ? { ...item, status, updatedAt: at } : item)))
+    setSelected((current) => {
+      const next = new Set(current)
+      ids.forEach((id) => next.delete(id))
+      return next
+    })
+  }
+
+  function applyTags(tags: string[]) {
+    if (!selectedItems.length || !tags.length) {
+      warn('Choose at least one content item and one tag.')
+      return
+    }
+    const additions = new Set(tags.map((tag) => tag.toLocaleLowerCase()))
+    const changedItems = selectedItems.filter((item) => {
+      const current = new Set(contentTagsOf(item).map((tag) => tag.toLocaleLowerCase()))
+      return [...additions].some((tag) => !current.has(tag))
+    })
+    if (!changedItems.length) {
+      setBulkTagOpen(false)
+      warn(selectedItems.length === 1 ? 'That item already has every selected tag.' : 'Every selected item already has those tags.')
+      return
+    }
+    const ids = new Set(changedItems.map((item) => item.id))
+    const at = new Date().toISOString()
+    setItems((current) => current.map((item) => ids.has(item.id) ? addContentTags(item, tags, at) : item))
     setSelected(new Set())
-    say(`${targets.length} ${targets.length === 1 ? 'item' : 'items'} ${verb}.`)
+    setBulkTagOpen(false)
   }
 
   function publishSelected(includeBlocked: boolean) {
-    const targets = includeBlocked ? [...readiness.ready, ...readiness.blocked.map((entry) => entry.item)] : readiness.ready
-    applyStatus(targets, 'Published', 'published', 'Nothing to publish in this selection.')
+    const targets = includeBlocked ? [...readiness.ready, ...forceableBlocked.map((entry) => entry.item)] : readiness.ready
+    applyStatus(targets, 'Published', 'Nothing to publish in this selection.')
     setForcePublish(false)
   }
 
@@ -474,7 +629,11 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
    */
   function onPublishPressed() {
     if (readiness.ready.length > 0) { publishSelected(false); return }
-    if (readiness.blocked.length > 0) { setForcePublish(true); return }
+    if (forceableBlocked.length > 0) { setForcePublish(true); return }
+    if (hardBlocked.length > 0) {
+      warn(`${hardBlocked.length} selected ${hardBlocked.length === 1 ? 'item has' : 'items have'} required media still unresolved. Nothing was published.`)
+      return
+    }
     warn(readiness.live.length === 1
       ? 'Nothing to publish — that item is already published. Nothing was changed.'
       : `Nothing to publish — all ${readiness.live.length} selected items are already published. Nothing was changed.`)
@@ -488,15 +647,34 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     }
     setItems((current) => current.filter((item) => item.id !== deleted.id))
     setDeleting(null)
-    say(`${CONTENT_KIND_LABEL[deleted.kind].singular} deleted.`)
   }
 
+  const summaryCards = isArchiveView
+    ? [
+        [`Archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}`, summaryItems.length, 'Retired from every student surface', null],
+        ['Previously published', summaryItems.filter((item) => item.archive?.originalStatus === 'Published').length, 'Published state retained in the archive receipt', null],
+        ['No module assigned', summaryItems.filter((item) => contentModuleLabels(item, catalogue).length === 0).length, 'Expected until a real curriculum placement is chosen', 'Needs placement'],
+        ['Archive operations', new Set(summaryItems.map((item) => item.archive?.operationId).filter(Boolean)).size, 'Distinct immutable retirement receipts', null],
+      ] as const
+    : [
+        ['All content', counts.total, 'Every managed student item', null],
+        ['Published', counts.published, 'Visible to students', null],
+        ['Awaiting review', counts.review, 'Needs faculty sign-off', counts.review > 0 ? 'Action needed' : null],
+        ['Drafts', counts.drafts, 'Not yet student-visible', null],
+      ] as const
+
   return (
-    <PageContainer>
+    <PageContainer className="max-w-[1600px]">
       <PageHeader
-        title={lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
-        description={lockedKind ? `Create, revise, review, and import ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} without leaving this catalogue.` : 'Create, revise, review, and remove everything students can open in the question bank, library, practical area, and resources.'}
-        actions={<>{lockedKind && activeKind === 'article' && API_MODE && <Link to="/admin/library/coverage"><Button variant="secondary" size="md" iconLeft={Database}>Evidence review</Button></Link>}{activeKind !== 'resource' && <Link to="/admin/library/media"><Button variant="secondary" size="md" iconLeft={ImagePlus}>Media requests</Button></Link>}<Link to={`/admin/import/${activeKind}`}><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
+        title={isArchiveView ? `Archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}` : lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
+        description={isArchiveView
+          ? `Review retired ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}, their former publishing state, and whether a verified module was ever assigned. Archived items live here only — never mixed into the working catalogue.`
+          : lockedKind
+            ? `Create, revise, review, and import ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} without leaving this catalogue.`
+            : 'Create, revise, review, and remove everything students can open in the question bank, library, practical area, and resources.'}
+        actions={isArchiveView
+          ? <ButtonLink to="/admin/library/media" variant="secondary" size="md" iconLeft={ImagePlus}>Media requests</ButtonLink>
+          : <>{lockedKind && activeKind === 'article' && API_MODE && <ButtonLink to="/admin/library/coverage" variant="secondary" size="md" iconLeft={Database}>Evidence review</ButtonLink>}{activeKind !== 'resource' && <ButtonLink to="/admin/library/media" variant="secondary" size="md" iconLeft={ImagePlus}>Media requests</ButtonLink>}{activeKind === 'practical' && <ButtonLink to="/admin/import/minigame" variant="secondary" size="md" iconLeft={Upload}>Import minigames</ButtonLink>}<ButtonLink to={`/admin/import/${activeKind}`} variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
       />
 
       {notice && (
@@ -507,17 +685,54 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
         </div>
       )}
 
+      {/* The honest save signal. A failed save is loud and stays until it clears;
+          "Saving…" and "Saved" are quiet. Success is never shown before the
+          server confirms it. Only in live mode — demo writes are local. */}
+      {API_MODE && (saveStatus.error || saveStatus.conflict) && !saveStatus.pending && (
+        <div role="alert" className="mb-4 flex items-start gap-2.5 rounded-lg border border-danger/35 bg-danger-tint/70 px-4 py-3 text-[13px] text-ink">
+          <Icon icon={TriangleAlert} size={17} className="mt-0.5 shrink-0 text-danger" />
+          <div className="min-w-0 flex-1">
+            <p className="font-semibold text-danger">Your last change didn’t save</p>
+            <p className="mt-0.5 leading-snug text-ink-2">
+              {saveStatus.conflict
+                ?? 'The server couldn’t be reached or refused the change, and it was rolled back. Reload the page and try again.'}
+            </p>
+          </div>
+        </div>
+      )}
+      {API_MODE && saveStatus.pending && (
+        <div role="status" className="mb-4 inline-flex items-center gap-2 rounded-lg border border-warning/30 bg-warning-tint/55 px-3 py-1.5 text-[12.5px] font-medium text-ink-2">
+          <span className="size-3.5 animate-spin rounded-full border-2 border-warning/40 border-t-warning" aria-hidden />
+          Saving your changes…
+        </div>
+      )}
+      {API_MODE && !saveStatus.pending && !saveStatus.error && !saveStatus.conflict && justSaved && (
+        <div role="status" className="mb-4 inline-flex items-center gap-2 rounded-lg border border-success/30 bg-success-tint/55 px-3 py-1.5 text-[12.5px] font-medium text-ink-2">
+          <Icon icon={CircleCheck} size={14} className="text-success" />
+          All changes saved
+        </div>
+      )}
+
+      {identity.role === 'reviewer' && (
+        <Panel className="mb-4 p-4">
+          <p className="text-[13px] font-semibold text-ink">Reviewer workflow</p>
+          <ol className="mt-2 grid gap-2 text-[12.5px] leading-relaxed text-ink-2 sm:grid-cols-2 xl:grid-cols-4">
+            <li><span className="font-semibold text-ink">1.</span> Filter to <span className="font-medium text-ink">In review</span> or search the assigned item.</li>
+            <li><span className="font-semibold text-ink">2.</span> Open the item and check the source, media, answer key, and student-visible explanation.</li>
+            <li><span className="font-semibold text-ink">3.</span> Save corrections, then use the row actions or selected-row bar to move the status forward.</li>
+            <li><span className="font-semibold text-ink">4.</span> If an item is outside your module scope, ask an editor to widen reviewer scope rather than duplicating it.</li>
+          </ol>
+        </Panel>
+      )}
+
+      {isArchiveView && activeKind === 'question' && identity.role === 'super_admin' && <LegacyContentArchivePanel />}
+
       <div className="mb-4 grid grid-cols-2 gap-3 lg:grid-cols-4">
-        {[
-          ['All content', counts.total, 'Every managed student item'],
-          ['Published', counts.published, 'Visible to students'],
-          ['Awaiting review', counts.review, 'Needs faculty sign-off'],
-          ['Drafts', counts.drafts, 'Not yet student-visible'],
-        ].map(([label, value, hint], index) => (
+        {summaryCards.map(([label, value, hint, badge]) => (
           <Panel key={String(label)} className="p-4">
             <div className="flex items-center justify-between gap-3">
               <p className="text-[12px] font-medium text-ink-2">{label}</p>
-              {index === 2 && Number(value) > 0 && <Badge tone="warning">Action needed</Badge>}
+              {badge && Number(value) > 0 && <Badge tone="warning">{badge}</Badge>}
             </div>
             <p className="tnum mt-2 font-mono text-[27px] font-semibold leading-none text-ink">{value}</p>
             <p className="mt-1.5 text-[11.5px] text-ink-3">{hint}</p>
@@ -525,12 +740,32 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
         ))}
       </div>
 
-      <div className="grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_19rem]">
+      <div className="grid items-start gap-4">
         <Panel className="min-w-0 overflow-hidden">
+          {/* Every locked catalogue's own Archive tab. Current and Archive never
+              share a list, so retired items stay out of the working set. */}
+          {archiveControl === 'internal' && archiveSplit && !contentScope && (
+            <div className="border-b border-line px-4 pt-3">
+              <Segmented
+                value={archiveView ? 'archived' : 'current'}
+                onChange={(value) => {
+                  setArchiveView(value === 'archived')
+                  setSelected(new Set())
+                  setStatus('All')
+                  setFacets(new Set())
+                }}
+                items={[
+                  { value: 'current', label: `Current (${kindCurrentCount})` },
+                  { value: 'archived', label: `Archive (${kindArchivedCount})` },
+                ]}
+              />
+            </div>
+          )}
+
           {!lockedKind && <div className="border-b border-line px-4 pt-3">
             <Tabs
               value={activeKind}
-              onChange={(value) => { setKind(value as ContentKind); setStatus('All') }}
+              onChange={(value) => { setKind(value as ContentKind); setStatus('All'); setFacets(new Set()) }}
               items={([
                 ['question', 'Questions'],
                 ['article', 'Library articles'],
@@ -579,14 +814,48 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
           )}
 
           <div className="flex flex-wrap items-center gap-2 border-b border-line bg-surface-2/45 px-4 py-3">
-            <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}…`} className="w-72" />
-            <Select value={status} onChange={(event) => setStatus(event.target.value as Status | 'All')} className="w-40">
-              {STATUSES.map((option) => <option key={option}>{option}</option>)}
+            <SearchInput aria-label={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}`} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}…`} className="w-full sm:w-72" />
+            {isArchiveView ? (
+              <span className="inline-flex h-11 items-center rounded-md border border-line bg-inset px-3 text-[12.5px] font-semibold text-ink-2 sm:h-9">
+                Archived only
+              </span>
+            ) : (
+              <Select aria-label="Filter by workflow status" value={status} onChange={(event) => setStatus(event.target.value as Status | 'All')} className="w-full sm:w-40">
+                {(archiveSplit ? STATUSES.filter((option) => option !== 'Archived') : STATUSES).map((option) => <option key={option}>{option}</option>)}
+              </Select>
+            )}
+            <Select aria-label="Filter by media request state" value={mediaFilter} onChange={(event) => setMediaFilter(event.target.value as MediaRequestFilter)} className="w-full sm:w-52">
+              <option value="all">All media states</option>
+              <option value="any">Has media requests</option>
+              <option value="outstanding">Unresolved requests</option>
+              <option value="blocking">Required media missing</option>
+              <option value="none">No media requests</option>
             </Select>
+            <FacetFilter groups={facetGroups} flags={facetFlags} selected={facets} onChange={setFacets} />
+            <FacetChips
+              selected={facets}
+              labelFor={(token) => facetLabels.get(token) ?? token.split(':').slice(1).join(':')}
+              onRemove={(token) => setFacets((current) => { const next = new Set(current); next.delete(token); return next })}
+            />
             <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">
               {rows.length === 0 ? '0 shown' : `${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, rows.length)} of ${rows.length}`}
             </span>
           </div>
+
+          {/* An empty table has two very different causes for a scoped reviewer,
+              and "there is nothing here" is the wrong reading of the other one.
+              Said once, at the top, rather than in every empty state below. */}
+          {/* Library Setup only: the faculty's own by-module and by-year
+              structures, which are independent of the generated taxonomy. */}
+          {lockedKind && activeKind === 'article' && <LibraryTreeEditor />}
+
+          {contentScope && ledger.length > items.length && (
+            <p className="border-b border-line bg-inset px-4 py-2 text-[11.5px] leading-relaxed text-ink-2">
+              You are seeing the {CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} in the modules and years assigned
+              to your account. {ledger.length - items.length} other item{ledger.length - items.length === 1 ? ' is' : 's are'} hidden.
+              Ask a super admin or an editor to widen your scope.
+            </p>
+          )}
 
           {/* Bulk actions. Sticky so the selection stays actionable while scrolling
               a long review queue, which is the case this exists for. */}
@@ -596,36 +865,61 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 {selectedItems.length} selected
               </span>
               <span className="text-[12px] text-ink-2">
-                {readiness.ready.length} of {selectedItems.length} can publish
-                {readiness.live.length > 0 && ` · ${readiness.live.length} already published`}
-                {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
+                {isArchiveView
+                  ? 'Add editorial tags without changing archive status'
+                  : <>
+                      {readiness.ready.length} of {selectedItems.length} can publish
+                      {readiness.live.length > 0 && ` · ${readiness.live.length} already published`}
+                      {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
+                    </>}
               </span>
-              <div className="ms-auto flex flex-wrap items-center gap-2">
-                {/* The label says what pressing it will do. It used to read "Publish…"
-                    for both "some are held back" and "these are all already live". */}
-                <Button
-                  variant="primary"
-                  size="sm"
-                  iconLeft={CircleCheck}
-                  onClick={onPublishPressed}
-                >
-                  {readiness.ready.length > 0
-                    ? `Publish ${readiness.ready.length}`
-                    : readiness.blocked.length > 0
-                      ? `Review ${readiness.blocked.length} blocked`
-                      : 'Already published'}
+              {!allMatchingSelected && rows.length > selectedItems.length && (
+                <Button variant="ghost" size="sm" onClick={() => setSelection(rows.map((item) => item.id), true)}>
+                  Select all {rows.length} matching
                 </Button>
-                <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'sent for review', 'Every selected item is already in review.')}>Send for review</Button>
-                <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'archived', 'Every selected item is already archived.')}>Archive</Button>
+              )}
+              <div className="ms-auto flex flex-wrap items-center gap-2">
+                <Button variant="secondary" size="sm" iconLeft={Tags} onClick={() => setBulkTagOpen(true)}>
+                  Add tags
+                </Button>
+                {isArchiveView ? null : (
+                  <>
+                    {/* The label says what pressing it will do. It used to read "Publish…"
+                        for both "some are held back" and "these are all already live". */}
+                    <Button
+                      variant="primary"
+                      size="sm"
+                      iconLeft={CircleCheck}
+                      onClick={onPublishPressed}
+                    >
+                      {readiness.ready.length > 0
+                        ? `Publish ${readiness.ready.length}`
+                        : readiness.blocked.length > 0
+                          ? `Review ${readiness.blocked.length} blocked`
+                          : 'Already published'}
+                    </Button>
+                    <Button variant="secondary" size="sm" iconLeft={EyeOff} onClick={() => applyStatus(selectedItems.filter((item) => item.status === 'Published'), 'In review', 'No selected item is currently published.')}>Unpublish</Button>
+                    <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'Every selected item is already in review.')}>Send for review</Button>
+                    <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'Every selected item is already archived.')}>Archive</Button>
+                  </>
+                )}
                 <Button variant="ghost" size="sm" onClick={() => setSelected(new Set())}>Clear</Button>
               </div>
             </div>
           )}
 
-          {/* A minimum width so the columns keep their shape, and an Actions column
-              pinned to the right edge — it used to be pushed past the panel's clip by
-              the 19rem rail, reachable only by scrolling sideways inside the table. */}
-          <Table className="min-w-[52rem]">
+          {/* The catalogue uses the wider admin canvas and a fixed column contract.
+              At desktop widths, long titles now wrap inside Content instead of
+              widening the table and pushing Actions into a horizontal scroller. */}
+          <Table className="min-w-[42rem] table-fixed">
+            <colgroup>
+              <col className="w-12" />
+              <col />
+              <col className="w-16" />
+              <col className="w-24" />
+              <col className="w-28" />
+              <col className="w-44" />
+            </colgroup>
             <thead>
               <tr>
                 <Th className="w-10 pl-4">
@@ -634,6 +928,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                     checked={allPageSelected}
                     indeterminate={somePageSelected && !allPageSelected}
                     onChange={(on) => setSelection(pageRows.map((item) => item.id), on)}
+                    className="size-11 sm:size-8"
                   />
                 </Th>
                 <Th>Content</Th>
@@ -650,27 +945,35 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                   <Fragment key={group.key}>
                     <tr className="border-t border-line bg-surface-2/70">
                       <td colSpan={6} className="px-2 py-0">
-                        <button
-                          type="button"
-                          onClick={() => toggleGroup(group.key)}
-                          aria-expanded={!groupCollapsed}
-                          className="flex w-full items-center gap-2 px-2 py-2 text-start"
-                        >
-                          <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!groupCollapsed} />
-                          {group.color && <SubjectDot id={group.key} />}
-                          {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="text-primary" />}
-                          <span className="text-[13px] font-semibold text-ink">{group.label}</span>
-                          <span className="tnum font-mono text-[11px] text-ink-3">{group.count}</span>
+                        <div className="flex items-center gap-2">
+                          <button
+                            type="button"
+                            onClick={() => toggleGroup(group.key)}
+                            aria-expanded={!groupCollapsed}
+                            className="flex min-h-10 min-w-0 flex-1 items-center gap-2 px-2 py-2 text-start"
+                          >
+                            <Icon icon={ChevronRight} size={15} className={cn('shrink-0 text-ink-3 chevron-turn')} open={!groupCollapsed} />
+                            {group.color && <SubjectDot id={group.key} />}
+                            {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="shrink-0 text-primary" />}
+                            <span className="min-w-0 truncate text-[13px] font-semibold text-ink">{group.label}</span>
+                            <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{group.count}</span>
+                          </button>
                           {isTaxonomyKind && group.color && (
-                            <span role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setAddingTopicFor(addingTopicFor === group.key ? null : group.key); setNewTopicName('') }} className="ms-auto inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-medium text-ink-3 hover:bg-inset hover:text-primary-strong"><Icon icon={Plus} size={12} />Add topic</span>
+                            <button
+                              type="button"
+                              onClick={() => { setAddingTopicFor(addingTopicFor === group.key ? null : group.key); setNewTopicName('') }}
+                              className="inline-flex min-h-11 shrink-0 items-center gap-1 rounded px-2 text-[11px] font-medium text-ink-3 hover:bg-inset hover:text-primary-strong sm:min-h-9"
+                            >
+                              <Icon icon={Plus} size={12} />Add topic
+                            </button>
                           )}
-                        </button>
+                        </div>
                       </td>
                     </tr>
                     {isTaxonomyKind && addingTopicFor === group.key && (
                       <tr><td colSpan={6} className="px-4 py-2 ps-10">
-                        <form className="flex items-center gap-2" onSubmit={(e) => { e.preventDefault(); addTopic(group.key) }}>
-                          <SearchInput value={newTopicName} onChange={(e) => setNewTopicName(e.target.value)} placeholder="New topic name…" className="w-64" />
+                        <form className="flex flex-wrap items-center gap-2" onSubmit={(e) => { e.preventDefault(); addTopic(group.key) }}>
+                          <SearchInput value={newTopicName} onChange={(e) => setNewTopicName(e.target.value)} placeholder="New topic name…" className="w-full sm:w-64" />
                           <Button type="submit" variant="primary" size="sm">Add</Button>
                           <Button type="button" variant="ghost" size="sm" onClick={() => setAddingTopicFor(null)}>Cancel</Button>
                         </form>
@@ -685,6 +988,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                               checked={sub.items.every((item) => selected.has(item.id))}
                               indeterminate={sub.items.some((item) => selected.has(item.id)) && !sub.items.every((item) => selected.has(item.id))}
                               onChange={(on) => setSelection(sub.items.map((item) => item.id), on)}
+                              className="size-11 sm:size-8"
                             />
                           </td>
                           <td colSpan={5} className="px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
@@ -697,6 +1001,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                         {sub.items.map((item) => {
                           const subject = getSubject(item.subjectId)
                           const verdict = publishReadiness(item)
+                          const modules = contentModuleLabels(item, catalogue)
+                          const contentTags = contentTagsOf(item)
                           return (
                             // One concrete background per state, never two competing
                             // ones — the pinned Actions cell inherits it, so the row
@@ -707,9 +1013,10 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                   label={`Select “${item.title}”`}
                                   checked={selected.has(item.id)}
                                   onChange={(on) => setSelection([item.id], on)}
+                                  className="size-11 sm:size-8"
                                 />
                               </Td>
-                              <Td className="max-w-md">
+                              <Td className="min-w-0">
                                 <p className="line-clamp-2 font-medium leading-snug text-ink">{item.title}</p>
                                 <p className="mt-0.5 flex items-center gap-1.5 truncate text-[11.5px] text-ink-3">
                                   {itemSummary(item)}
@@ -727,6 +1034,48 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                     </span>
                                   )}
                                 </p>
+                                <div className="mt-1.5 flex min-w-0 flex-wrap items-center gap-1.5">
+                                    {modules.length ? modules.slice(0, 2).map((module) => (
+                                      <Tooltip key={`${module.id}-${module.label}`} content={`${module.label}${module.context ? ` · ${module.context}` : ''}`}>
+                                        <span
+                                          tabIndex={0}
+                                          className={cn(
+                                            'inline-flex min-w-0 max-w-full items-center gap-1.5 rounded-md border bg-surface-2/55 pe-2 text-[10.5px] font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/35',
+                                            module.known ? 'border-line text-ink-2' : 'border-warning/30 text-warning',
+                                          )}
+                                        >
+                                          <SystemMark moduleId={module.id} size="sm" title={module.label} />
+                                          <span className="max-w-48 truncate">{module.label}</span>
+                                        </span>
+                                      </Tooltip>
+                                    )) : (
+                                      <span className="inline-flex items-center gap-1 rounded-md border border-warning/30 bg-warning-tint/55 px-2 py-1 text-[10.5px] font-semibold text-warning">
+                                        <Icon icon={TriangleAlert} size={11} />
+                                        No module assigned
+                                      </span>
+                                    )}
+                                    {modules.length > 2 && (
+                                      <Tooltip content={modules.slice(2).map((module) => module.label).join(' · ')}>
+                                        <button type="button" className="inline-flex h-6 items-center rounded-md border border-line bg-inset px-2 font-mono text-[10px] font-semibold text-ink-2">
+                                          +{modules.length - 2}
+                                        </button>
+                                      </Tooltip>
+                                    )}
+                                    {contentTags.slice(0, 3).map((tag) => (
+                                      <Tooltip key={tag} content={tag}>
+                                        <span tabIndex={0} className="inline-flex min-w-0 max-w-full items-center rounded-full border border-accent-line bg-accent-tint/55 px-2 py-1 text-[10.5px] font-medium text-accent-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35">
+                                          <span className="max-w-44 truncate">{tag}</span>
+                                        </span>
+                                      </Tooltip>
+                                    ))}
+                                    {contentTags.length > 3 && (
+                                      <Tooltip content={contentTags.slice(3).join(' · ')}>
+                                        <button type="button" className="inline-flex h-6 items-center rounded-full border border-accent-line bg-accent-tint/55 px-2 font-mono text-[10px] font-semibold text-accent-strong">
+                                          +{contentTags.length - 3} tags
+                                        </button>
+                                      </Tooltip>
+                                    )}
+                                </div>
                               </Td>
                               <Td>
                                 <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-[12.5px] text-ink-2" title={subject.name}><SubjectDot id={subject.id} /></span>
@@ -740,7 +1089,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                 <div className="inline-flex items-center justify-end gap-1">
                                   <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" onClick={() => { setEditing(item); setEditorOpen(true) }} />
                                   {item.kind === 'question' && <IconButton icon={Flag} label={`Report “${item.title}” for editorial review`} size="sm" className="size-10" onClick={() => setReportTarget({ kind: 'question', id: item.id, title: item.title })} />}
-                                  <IconButton icon={item.status === 'In review' ? CircleCheck : Send} label={item.status === 'In review' ? 'Awaiting review' : 'Send for review'} size="sm" className="size-10" disabled={item.status === 'In review'} onClick={() => sendForReview(item)} />
+                                  {item.status !== 'Archived' && <IconButton icon={item.status === 'In review' ? CircleCheck : Send} label={item.status === 'In review' ? 'Awaiting review' : 'Send for review'} size="sm" className="size-10" disabled={item.status === 'In review'} onClick={() => sendForReview(item)} />}
                                   <IconButton icon={Trash2} label={`Delete ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10 text-danger hover:border-danger/20 hover:bg-danger-tint hover:text-danger" onClick={() => setDeleting(item)} />
                                 </div>
                               </Td>
@@ -756,8 +1105,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 <tr>
                   <td colSpan={6} className="px-4 py-14 text-center">
                     <Icon icon={Search} size={20} className="mx-auto text-ink-3" />
-                    <p className="mt-2 text-[13px] font-medium text-ink">No matching content</p>
-                    <p className="mt-1 text-[12px] text-ink-3">Change the search or status filter, or add a new item.</p>
+                    <p className="mt-2 text-[13px] font-medium text-ink">{isArchiveView ? `No archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} yet` : 'No matching content'}</p>
+                    <p className="mt-1 text-[12px] text-ink-3">{isArchiveView ? 'Items you archive from the current view appear here.' : 'Change the search, status, or tag filter, or add a new item.'}</p>
                   </td>
                 </tr>
               )}
@@ -780,7 +1129,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
           )}
         </Panel>
 
-        <div className="space-y-4 xl:sticky xl:top-20">
+        <div className="grid items-start gap-4 lg:grid-cols-3">
           <Panel className="overflow-hidden">
             <PanelHeader title="Review queue" hint={`${counts.review} waiting`} icon={Send} />
             {reviewQueue.length > 0 ? (
@@ -803,13 +1152,13 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
             )}
           </Panel>
 
-          <Panel className="p-4">
+          {identity.tabs.includes('reports') && <Panel className="p-4">
             <div className="flex items-start gap-3">
               <span className="grid size-8 shrink-0 place-items-center rounded-md bg-danger-tint text-danger"><Icon icon={Flag} size={15} /></span>
               <div className="min-w-0 flex-1"><p className="text-[12.5px] font-semibold text-ink">Student content reports</p><p className="mt-0.5 text-[11.5px] leading-snug text-ink-3">{reports.filter((report) => report.status === 'Open' || report.status === 'In review').length} reports need editorial attention.</p></div>
             </div>
-            <Link to="/admin/reports" className="mt-3 block"><Button variant="secondary" size="sm" className="w-full">Open report queue</Button></Link>
-          </Panel>
+            <ButtonLink to="/admin/reports" variant="secondary" size="sm" className="mt-3 w-full">Open report queue</ButtonLink>
+          </Panel>}
 
           {!API_MODE && <Panel className="p-4">
             <div className="flex items-center gap-2"><Icon icon={RotateCcw} size={15} className="text-ink-3" /><p className="text-[12.5px] font-medium text-ink">Prototype data</p></div>
@@ -847,18 +1196,18 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
               <div className="min-w-0">
                 <h2 id="force-publish-title" className="font-serif text-[18px] font-semibold text-ink">Publish without student-visible content?</h2>
                 <p className="mt-2 text-[13px] leading-relaxed text-ink-2">
-                  {readiness.blocked.length} of the {selectedItems.length} selected {selectedItems.length === 1 ? 'item has' : 'items have'} no
-                  verified content to show. Published now, {readiness.blocked.length === 1 ? 'it' : 'they'} will appear in the student library as a
+                  {forceableBlocked.length} of the {selectedItems.length} selected {selectedItems.length === 1 ? 'item has' : 'items have'} no
+                  verified content to show. Published now, {forceableBlocked.length === 1 ? 'it' : 'they'} will appear in the student library as a
                   title and summary with an empty body.
                 </p>
                 <ul className="mt-3 max-h-40 space-y-1 overflow-y-auto rounded-lg border border-line bg-surface-2/50 p-2.5">
-                  {readiness.blocked.slice(0, 8).map(({ item, reason }) => (
+                  {forceableBlocked.slice(0, 8).map(({ item, reason }) => (
                     <li key={item.id} className="flex items-center gap-2 text-[12px] text-ink-2">
                       <span className="min-w-0 flex-1 truncate">{item.title}</span>
                       <span className="shrink-0 font-medium text-warning">{reason}</span>
                     </li>
                   ))}
-                  {readiness.blocked.length > 8 && <li className="text-[11.5px] text-ink-3">…and {readiness.blocked.length - 8} more</li>}
+                  {forceableBlocked.length > 8 && <li className="text-[11.5px] text-ink-3">…and {forceableBlocked.length - 8} more</li>}
                 </ul>
               </div>
             </div>
@@ -871,6 +1220,13 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       )}
 
       <ConfirmDeleteDialog item={deleting} onClose={() => setDeleting(null)} onConfirm={deleteItem} />
+      <BulkContentTagDialog
+        open={bulkTagOpen}
+        itemCount={selectedItems.length}
+        existingTags={existingContentTags}
+        onClose={closeBulkTagDialog}
+        onApply={applyTags}
+      />
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} reporterRole="Admin" onClose={() => setReportTarget(null)} onSubmitted={() => say('Question reported for editorial review.')} />
     </PageContainer>
   )

@@ -41,6 +41,7 @@ export function CatalogueUnavailable({
       unauthorized: t('Your session has expired. Sign in again to see this content.'),
       forbidden: t('This account is not allowed to read this catalogue.'),
       notfound: t('The catalogue is missing from the server.'),
+      conflict: t('Somebody else changed this while you were reading it. Reload to see their version.'),
       toolarge: t('The catalogue could not be transferred.'),
     }
     return (

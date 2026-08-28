@@ -36,13 +36,13 @@ function NodeRow({
   const isOpen = expanded.has(node.id)
   return (
     <li>
-      <div className={cn('group flex min-h-9 items-center rounded-md pe-2 transition-colors', selectedId === node.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')} style={{ paddingInlineStart: `${6 + node.depth * 14}px` }}>
+      <div className={cn('group flex min-h-11 items-center rounded-md pe-2 transition-colors sm:min-h-9', selectedId === node.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')} style={{ paddingInlineStart: `${6 + node.depth * 14}px` }}>
         {children.length > 0 ? (
-          <button type="button" onClick={() => onToggle(node.id)} className="grid size-7 shrink-0 place-items-center rounded text-ink-3 hover:text-ink" aria-label={`${isOpen ? 'Collapse' : 'Expand'} ${node.title}`}>
+          <button type="button" onClick={() => onToggle(node.id)} className="grid size-11 shrink-0 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink sm:size-7" aria-label={`${isOpen ? 'Collapse' : 'Expand'} ${node.title}`}>
             <Icon icon={ChevronRight} size={13} className={cn('chevron-turn')} open={isOpen} />
           </button>
-        ) : <span className="grid size-7 shrink-0 place-items-center"><span className="size-1 rounded-full bg-line-2" /></span>}
-        <button type="button" onClick={() => onSelect(node.id)} className="min-w-0 flex-1 py-1.5 text-start text-[12px] leading-snug">
+        ) : <span className="grid size-11 shrink-0 place-items-center sm:size-7"><span className="size-1 rounded-full bg-line-2" /></span>}
+        <button type="button" onClick={() => onSelect(node.id)} className="min-h-11 min-w-0 flex-1 py-1.5 text-start text-[12px] leading-snug sm:min-h-9">
           <span className="line-clamp-2">{node.title}</span>
         </button>
         {children.length > 0 && <span className="tnum ms-2 font-mono text-[9.5px] text-ink-3">{children.length}</span>}

@@ -30,6 +30,8 @@ export interface Size {
   height: number
 }
 
+export interface Rect extends Point, Size {}
+
 /**
  * The board has edges.
  *
@@ -153,4 +155,28 @@ export function viewCentredOn(point: Point, viewport: Size, scale: number): View
     { x: viewport.width / 2 - point.x * scale, y: viewport.height / 2 - point.y * scale, scale },
     viewport,
   )
+}
+
+export function minimapScale(size: Size): number {
+  return Math.min(size.width / BOARD.width, size.height / BOARD.height)
+}
+
+export function minimapViewport(view: View, viewport: Size, minimap: Size): Rect {
+  const scale = minimapScale(minimap)
+  return {
+    x: (-view.x / view.scale) * scale,
+    y: (-view.y / view.scale) * scale,
+    width: (viewport.width / view.scale) * scale,
+    height: (viewport.height / view.scale) * scale,
+  }
+}
+
+export function viewFromMinimapPoint(point: Point, viewport: Size, minimap: Size, current: View): View {
+  const scale = minimapScale(minimap)
+  const boardPoint = { x: point.x / scale, y: point.y / scale }
+  return viewCentredOn(boardPoint, viewport, current.scale)
+}
+
+export function panViewByBoardDelta(view: View, delta: Point, viewport: Size): View {
+  return clampView({ ...view, x: view.x - delta.x * view.scale, y: view.y - delta.y * view.scale }, viewport)
 }

@@ -1,10 +1,12 @@
 import { useEffect, useState, type ReactNode } from 'react'
-import { Link } from 'react-router-dom'
-import { ArrowRight, Globe, X } from 'lucide-react'
+import { Link, useLocation } from 'react-router-dom'
+import { ArrowRight, Globe, Menu, X } from 'lucide-react'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Icon } from '@/components/ui/Icon'
+import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { pricingFor } from './pricingContent'
+import { maristanaCopy } from './maristanaContent'
 import type { LandingContent } from './content'
 
 /**
@@ -45,7 +47,7 @@ function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: st
         <Icon icon={Globe} size={14} className="shrink-0 text-ink-3" />
         <p className="min-w-0 flex-1 text-ink-2">{c.otherOffer.line}</p>
         <Link to={otherHref} className="font-semibold text-primary-strong hover:underline">{c.otherOffer.accept}</Link>
-        <button type="button" onClick={() => setDismissed(true)} className="grid size-6 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={c.otherOffer.dismiss}>
+        <button type="button" onClick={() => setDismissed(true)} className="grid size-11 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:size-6" aria-label={c.otherOffer.dismiss}>
           <Icon icon={X} size={13} />
         </button>
       </div>
@@ -67,8 +69,13 @@ export function MarketingShell({
   children: ReactNode
 }) {
   const pricing = pricingFor(c.lang)
+  const m = maristanaCopy(c.lang)
+  const location = useLocation()
   const toOther = otherHref ?? c.otherHref
+  const toOtherAtPlace = `${toOther}${location.hash}`
   const toHome = homeHref ?? (c.lang === 'ar' ? '/ar' : '/')
+  const [menuOpen, setMenuOpen] = useState(false)
+  const anchor = (id: string) => `${toHome}#${id}`
 
   useEffect(() => {
     const el = document.documentElement
@@ -82,50 +89,90 @@ export function MarketingShell({
 
   return (
     <div className="min-h-dvh overflow-x-clip" dir={c.dir} lang={c.lang}>
-      <OtherLanguageOffer c={c} otherHref={toOther} />
+      <OtherLanguageOffer c={c} otherHref={toOtherAtPlace} />
 
-      {/* ---- Nav (solid ground, hairline rule — no glass) ---- */}
       <header className="sticky top-0 z-30 border-b border-line bg-paper">
-        <div className="mx-auto flex max-w-[1160px] items-center justify-between px-5 py-3.5 sm:px-8">
-          <Link to={toHome} aria-label="Connect Cortex"><Wordmark /></Link>
-          <div className="flex items-center gap-3 sm:gap-5">
-            {/* Pricing earns a permanent place: it is the page people leave to
-                look for, and hunting for it on a long landing page loses them. */}
-            <Link to={pricing.path} className="text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink">
-              {pricing.navLabel}
-            </Link>
+        <div className="mx-auto flex min-h-[68px] max-w-[1160px] items-center justify-between gap-3 px-5 sm:px-8">
+          <Link to={toHome} aria-label="Maristana home" className="shrink-0">
+            <span className="hidden sm:inline-flex"><Wordmark textSize={18} /></span>
+            <span className="inline-flex sm:hidden"><Wordmark collapsed /></span>
+          </Link>
+
+          <nav aria-label={c.lang === 'ar' ? 'التنقل الرئيسي' : 'Primary navigation'} className="hidden items-center gap-5 lg:flex">
+            <Link to={anchor('why-maristana')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.why}</Link>
+            <Link to={anchor('practice-suite')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.practice}</Link>
+            <Link to={anchor('study-together')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.together}</Link>
+            <Link to={pricing.path} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{pricing.navLabel}</Link>
+          </nav>
+
+          <div className="hidden items-center gap-3 lg:flex">
+            <ThemeSwitch />
             <Link
-              to={toOther}
+              to={toOtherAtPlace}
               lang={c.lang === 'ar' ? 'en' : 'ar'}
-              className="inline-flex items-center gap-1.5 text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink"
+              className="inline-flex min-h-10 items-center gap-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink"
             >
               <Icon icon={Globe} size={15} />
               {c.otherLabel}
             </Link>
-            <Link to="/login" className="hidden text-[13.5px] font-medium text-ink-2 transition-colors hover:text-ink sm:inline">
+            <Link to="/login" className="inline-flex min-h-10 items-center text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">
               {c.signIn}
             </Link>
             <Link
-              to="/signup"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-3.5 py-2 text-[13.5px] font-semibold text-on-primary shadow-panel transition-colors hover:bg-primary-strong"
+              to="/signup?plan=maristana&period=term"
+              className="inline-flex min-h-10 items-center gap-1.5 rounded-lg bg-primary px-3.5 text-[12.5px] font-semibold text-on-primary shadow-action transition-colors hover:bg-primary-hover"
             >
-              {c.nav.start}
+              {m.nav.start}
               <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" />
             </Link>
           </div>
+
+          <div className="flex items-center gap-2 lg:hidden">
+            <ThemeSwitch />
+            <button
+              type="button"
+              aria-expanded={menuOpen}
+              aria-controls="marketing-mobile-menu"
+              aria-label={menuOpen ? m.nav.close : m.nav.menu}
+              onClick={() => setMenuOpen((value) => !value)}
+              className="grid size-11 shrink-0 place-items-center rounded-lg border border-line bg-surface text-ink-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+            >
+              <Icon icon={menuOpen ? X : Menu} size={19} />
+            </button>
+          </div>
         </div>
+
+        {menuOpen && (
+          <div id="marketing-mobile-menu" className="border-t border-line bg-paper px-5 py-4 sm:px-8 lg:hidden">
+            <nav aria-label={c.lang === 'ar' ? 'قائمة الهاتف' : 'Mobile navigation'} className="mx-auto grid max-w-[1160px] gap-1">
+              {[
+                [anchor('why-maristana'), m.nav.why],
+                [anchor('practice-suite'), m.nav.practice],
+                [anchor('study-together'), m.nav.together],
+                [pricing.path, pricing.navLabel],
+              ].map(([href, label]) => (
+                <Link key={href} to={href} onClick={() => setMenuOpen(false)} className="flex min-h-11 items-center border-b border-line text-[13px] font-semibold text-ink-2 last:border-b-0">{label}</Link>
+              ))}
+              <div className="mt-3 grid grid-cols-2 gap-2">
+                <Link to={toOtherAtPlace} onClick={() => setMenuOpen(false)} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-line-2 bg-surface text-[12.5px] font-semibold text-ink"><Icon icon={Globe} size={15} />{c.otherLabel}</Link>
+                <Link to="/login" onClick={() => setMenuOpen(false)} className="inline-flex min-h-11 items-center justify-center rounded-lg border border-line-2 bg-surface text-[12.5px] font-semibold text-ink">{c.signIn}</Link>
+              </div>
+              <Link to="/signup?plan=maristana&period=term" onClick={() => setMenuOpen(false)} className="mt-2 inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-primary px-4 text-[13px] font-semibold text-on-primary shadow-action">{m.nav.start}<Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" /></Link>
+            </nav>
+          </div>
+        )}
       </header>
 
       <main className="mx-auto max-w-[1160px] px-5 sm:px-8">{children}</main>
 
-      <footer className="mt-20 border-t border-line">
+      <footer className="border-t border-line">
         <div className="mx-auto flex max-w-[1160px] flex-col items-start justify-between gap-4 px-5 py-7 text-[12.5px] text-ink-3 sm:flex-row sm:items-center sm:px-8">
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-            <Wordmark />
+            <Wordmark textSize={17} />
             <Link to={pricing.path} className="font-medium transition-colors hover:text-ink">{pricing.navLabel}</Link>
-            <Link to={toOther} lang={c.lang === 'ar' ? 'en' : 'ar'} className="font-medium transition-colors hover:text-ink">{c.otherLabel}</Link>
+            <Link to={toOtherAtPlace} lang={c.lang === 'ar' ? 'en' : 'ar'} className="font-medium transition-colors hover:text-ink">{c.otherLabel}</Link>
           </div>
-          <p className="max-w-md text-start sm:text-end">{c.footer}</p>
+          <p className="max-w-md text-start sm:text-end">{m.footer}</p>
         </div>
       </footer>
     </div>

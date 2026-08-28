@@ -8,6 +8,7 @@ import SwiftUI
 /// drag it to move, and a link mode that is a deliberate two-tap action instead
 /// of a drag from an edge handle nobody could hit at this size.
 struct WhiteboardView: View {
+    @Environment(\.strings) private var strings
     let api: SynapseAPI
     let sync: SyncEngine
 
@@ -38,7 +39,7 @@ struct WhiteboardView: View {
             .onAppear { viewport = geometry.size }
             .onChange(of: geometry.size) { _, size in viewport = size }
         }
-        .navigationTitle("Whiteboard")
+        .navigationTitle(strings("Whiteboard"))
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {
@@ -56,6 +57,7 @@ struct WhiteboardView: View {
             } delete: {
                 Task { await deleteNote(note) }
             }
+            .localisedSheet()
         }
         .task { await load() }
     }
@@ -207,7 +209,7 @@ struct WhiteboardView: View {
                 .tint(linkingFrom == nil ? Theme.primary : Theme.warning)
 
                 Button { editing = note } label: {
-                    Label("Edit", systemImage: "pencil").font(Theme.ui(13, weight: 500))
+                    Label(strings("Edit"), systemImage: "pencil").font(Theme.ui(13, weight: 500))
                 }
                 .tint(Theme.primary)
 
@@ -304,6 +306,7 @@ struct WhiteboardView: View {
 }
 
 private struct NoteCard: View {
+    @Environment(\.strings) private var strings
     let note: BoardNote
     let isSelected: Bool
     let isLinkSource: Bool
@@ -350,6 +353,7 @@ private struct NoteCard: View {
 }
 
 private struct NoteEditorSheet: View {
+    @Environment(\.strings) private var strings
     @State var note: BoardNote
     let save: (BoardNote) -> Void
     let delete: () -> Void
@@ -359,13 +363,13 @@ private struct NoteEditorSheet: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Note") {
-                    TextField("What is it?", text: $note.text, axis: .vertical)
+                Section(strings("Note")) {
+                    TextField(strings("What is it?"), text: $note.text, axis: .vertical)
                         .lineLimit(3...8)
                         .font(Theme.ui(15))
                 }
 
-                Section("Colour") {
+                Section(strings("Colour")) {
                     LazyVGrid(columns: Array(repeating: GridItem(.flexible()), count: 4), spacing: 10) {
                         ForEach(BoardTone.order, id: \.self) { tone in
                             Button { note.tone = tone } label: {
@@ -386,16 +390,16 @@ private struct NoteEditorSheet: View {
                 }
 
                 Section {
-                    Button("Delete note", role: .destructive) { delete(); dismiss() }
+                    Button(strings("Delete note"), role: .destructive) { delete(); dismiss() }
                 }
             }
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
-            .navigationTitle("Note")
+            .navigationTitle(strings("Note"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Done") { save(note); dismiss() }
+                    Button(strings("Done")) { save(note); dismiss() }
                 }
             }
         }

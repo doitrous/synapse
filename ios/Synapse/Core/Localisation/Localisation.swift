@@ -110,3 +110,26 @@ extension EnvironmentValues {
         set { self[LocalisationKey.self] = newValue }
     }
 }
+
+/// Re-apply the reading direction inside a sheet.
+///
+/// A sheet is presented in its own context, and SwiftUI does not carry
+/// `layoutDirection` into it the way it carries ordinary environment values —
+/// so the words inside a sheet came out in Arabic while the layout stayed
+/// left-to-right, which is worse than either being wrong on its own. The
+/// `strings` value *does* reach the sheet, so the direction can be recovered
+/// from it rather than threaded through by hand.
+private struct Localised: ViewModifier {
+    @Environment(\.strings) private var strings
+
+    func body(content: Content) -> some View {
+        content
+            .environment(\.layoutDirection, strings.layoutDirection)
+            .environment(\.locale, strings.language.locale)
+    }
+}
+
+extension View {
+    /// Put this on the root of any sheet. It is a no-op in English.
+    func localisedSheet() -> some View { modifier(Localised()) }
+}

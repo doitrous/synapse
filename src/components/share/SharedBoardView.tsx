@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Download, FileText, Maximize, ZoomIn, ZoomOut } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
@@ -9,27 +9,39 @@ import { BOARD, anchorOf, clampView, linkPath, sidesBetween } from '@/lib/whiteb
 import {
   FILE_H, FILE_W, NOTE_H, NOTE_W, TONES, filesOf, imagesOf, inkOf, inkPath, type BoardState,
 } from '@/data/whiteboard'
+import { apiFetchBlob } from '@/lib/api'
 
 /**
- * A shared board, to look at.
- *
- * Deliberately not the editor with its controls hidden. Everything the editor
- * does — dragging, connecting, drawing, uploading — needs the student's own
- * account behind it, and half of it needs their document store; a viewer that
- * reached for any of that would be one missing guard away from writing to
- * somebody else's record. This draws the shapes and nothing else, from the same
- * description of a board the editor writes, so what is published is what is
- * seen. Panning and zooming are the only interactions.
- *
- * Files are named rather than linked: the bytes live in the owner's own
- * document store, which is theirs and only theirs, so offering a reader here
- * would be offering something the server would rightly refuse.
+ * The shared-board surface. View links support pan and zoom. Edit links also
+ * permit guarded item movement and note editing, with revisions saved by the
+ * parent. Managed images are fetched through the share-scoped asset route;
+ * general attachments remain named rather than exposed as unrestricted files.
  */
-export function SharedBoardView({ board }: { board: BoardState }) {
+export function SharedBoardView({ board, shareId, editable = false, onChange }: { board: BoardState; shareId?: string; editable?: boolean; onChange?: (board: BoardState) => void }) {
   const t = useT()
   const canvasRef = useRef<HTMLDivElement>(null)
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 })
   const pan = useRef<{ sx: number; sy: number; ox: number; oy: number } | null>(null)
+  const moving = useRef<{ kind: 'note' | 'frame' | 'image' | 'file'; id: string; sx: number; sy: number; ox: number; oy: number } | null>(null)
+
+  function beginMove(event: React.PointerEvent, kind: 'note' | 'frame' | 'image' | 'file', id: string, x: number, y: number) {
+    if (!editable) return
+    event.stopPropagation()
+    event.currentTarget.setPointerCapture(event.pointerId)
+    moving.current = { kind, id, sx: event.clientX, sy: event.clientY, ox: x, oy: y }
+  }
+
+  function moveItem(event: React.PointerEvent) {
+    const active = moving.current
+    if (!active || !onChange) return
+    event.stopPropagation()
+    const x = active.ox + (event.clientX - active.sx) / view.scale
+    const y = active.oy + (event.clientY - active.sy) / view.scale
+    if (active.kind === 'note') onChange({ ...board, notes: board.notes.map((item) => item.id === active.id ? { ...item, x, y } : item) })
+    if (active.kind === 'frame') onChange({ ...board, frames: board.frames.map((item) => item.id === active.id ? { ...item, x, y } : item) })
+    if (active.kind === 'image') onChange({ ...board, images: imagesOf(board).map((item) => item.id === active.id ? { ...item, x, y } : item) })
+    if (active.kind === 'file') onChange({ ...board, files: filesOf(board).map((item) => item.id === active.id ? { ...item, x, y } : item) })
+  }
 
   const byId = (id: string) => board.notes.find((note) => note.id === id)
 
@@ -104,7 +116,10 @@ export function SharedBoardView({ board }: { board: BoardState }) {
         {board.frames.map((frame) => (
           <div
             key={frame.id}
-            className="pointer-events-none absolute rounded-xl border border-dashed border-line-2 bg-surface/25"
+            onPointerDown={(event) => beginMove(event, 'frame', frame.id, frame.x, frame.y)}
+            onPointerMove={moveItem}
+            onPointerUp={() => { moving.current = null }}
+            className={cn('absolute rounded-xl border border-dashed border-line-2 bg-surface/25', editable ? 'cursor-move' : 'pointer-events-none')}
             style={{ left: frame.x, top: frame.y, width: frame.width, height: frame.height }}
           >
             <span className="absolute -top-6 left-0 truncate text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{frame.title}</span>
@@ -136,17 +151,23 @@ export function SharedBoardView({ board }: { board: BoardState }) {
         {imagesOf(board).map((image) => (
           <div
             key={image.id}
-            className="pointer-events-none absolute overflow-hidden rounded-lg border border-line bg-surface shadow-panel"
+            onPointerDown={(event) => beginMove(event, 'image', image.id, image.x, image.y)}
+            onPointerMove={moveItem}
+            onPointerUp={() => { moving.current = null }}
+            className={cn('absolute overflow-hidden rounded-lg border border-line bg-surface shadow-panel', editable ? 'cursor-move' : 'pointer-events-none')}
             style={{ left: image.x, top: image.y, width: image.width, height: image.height }}
           >
-            <img src={image.src} alt={image.alt} className="size-full object-contain" />
+            <SharedBoardImage image={image} shareId={shareId} />
           </div>
         ))}
 
         {filesOf(board).map((file) => (
           <div
             key={file.id}
-            className="pointer-events-none absolute flex items-center gap-2.5 rounded-lg border border-line bg-surface p-3 shadow-panel"
+            onPointerDown={(event) => beginMove(event, 'file', file.id, file.x, file.y)}
+            onPointerMove={moveItem}
+            onPointerUp={() => { moving.current = null }}
+            className={cn('absolute flex items-center gap-2.5 rounded-lg border border-line bg-surface p-3 shadow-panel', editable ? 'cursor-move' : 'pointer-events-none')}
             style={{ left: file.x, top: file.y, width: FILE_W, height: FILE_H }}
           >
             <span className="grid size-9 shrink-0 place-items-center rounded-md bg-inset text-ink-2">
@@ -162,10 +183,13 @@ export function SharedBoardView({ board }: { board: BoardState }) {
         {board.notes.map((note) => (
           <div
             key={note.id}
-            className={cn('pointer-events-none absolute rounded-lg border p-3 shadow-panel', TONES[note.tone])}
+            onPointerDown={(event) => beginMove(event, 'note', note.id, note.x, note.y)}
+            onPointerMove={moveItem}
+            onPointerUp={() => { moving.current = null }}
+            className={cn('absolute rounded-lg border p-3 shadow-panel', editable ? 'cursor-move' : 'pointer-events-none', TONES[note.tone])}
             style={{ left: note.x, top: note.y, width: NOTE_W, height: NOTE_H }}
           >
-            <p className="size-full overflow-hidden whitespace-pre-wrap break-words text-[13px] leading-snug text-ink">{note.text}</p>
+            {editable ? <textarea value={note.text} onPointerDown={(event) => event.stopPropagation()} onChange={(event) => onChange?.({ ...board, notes: board.notes.map((item) => item.id === note.id ? { ...item, text: event.target.value } : item) })} aria-label={t('Whiteboard note text')} className="size-full resize-none bg-transparent text-[13px] leading-snug text-ink outline-none" /> : <p className="size-full overflow-hidden whitespace-pre-wrap break-words text-[13px] leading-snug text-ink">{note.text}</p>}
           </div>
         ))}
       </div>
@@ -178,4 +202,22 @@ export function SharedBoardView({ board }: { board: BoardState }) {
       </div>
     </div>
   )
+}
+
+function SharedBoardImage({ image, shareId }: { image: ReturnType<typeof imagesOf>[number]; shareId?: string }) {
+  const [source, setSource] = useState(image.src ?? '')
+  useEffect(() => {
+    if (image.src || !image.documentId || !shareId) return
+    let active = true
+    let url = ''
+    void apiFetchBlob(`/shares/${encodeURIComponent(shareId)}/assets/${encodeURIComponent(image.documentId)}`)
+      .then((blob) => {
+        url = URL.createObjectURL(blob)
+        if (active) setSource(url)
+        else URL.revokeObjectURL(url)
+      })
+      .catch(() => undefined)
+    return () => { active = false; if (url) URL.revokeObjectURL(url) }
+  }, [image.documentId, image.src, shareId])
+  return source ? <img src={source} alt={image.alt} width={image.width} height={image.height} draggable={false} className="size-full object-contain" /> : <span className="grid size-full place-items-center p-2 text-center text-[11px] text-ink-3">{image.alt}</span>
 }
