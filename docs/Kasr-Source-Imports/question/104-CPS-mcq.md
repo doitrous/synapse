@@ -29,8 +29,9 @@
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
-    Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
-    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
+    Physiology Respiratory System — Dead Space and Alveolar Ventilation — 4 questions, 2 concepts
+    Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
+    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
@@ -46,7 +47,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  41 questions were excluded and 0 held back for having no
+  44 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -19092,6 +19093,282 @@ Answer changed from the source's: The chapter structure contradicts the printed 
 
 # Item
 ## id
+QM-104-52E1972B3DF9
+## title
+One of the following is NOT a function of dead space?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is NOT a function of dead space?
+## answer_a
+Warms expired air to body temperature
+## explanation_a
+The exception, and the answer: expired air arrives at the conducting airways already at body temperature from its time in the alveoli, so warming it is not something the dead space does — its warming function applies only to inspired air on the way in.
+
+Why this is right:
+- The anatomical dead space is the volume of the conducting airways (from the nose down to the terminal bronchioles) that takes no part in gas exchange.
+## answer_b
+Saturates inspired air with water vapor
+## explanation_b
+Saturating inspired air with water vapour is a genuine function of the dead space, so not the exception.
+## answer_c
+Removes bacteria and other particulate matter,
+## explanation_c
+Removing bacteria and other particulate matter from inspired air is a genuine function of the dead space, so not the exception.
+## answer_d
+Conducts the warmed air to the respiratory membranes
+## explanation_d
+Conducting the warmed, humidified, filtered air on to the respiratory membrane is a genuine function of the dead space, so not the exception.
+## correct_answer
+A
+## main_concept
+CON-RES-8C8374CB4E632E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Dead Space and Alveolar Ventilation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify warming expired air as not a function of the anatomical dead space, unlike humidifying inspired air, filtering it and conducting it to the respiratory membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p7 q50; DPT BOOK Physio MCQ [104][2022].pdf p36 q80. Manifest src_d3160d222c8c55775511, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6F03DAC619AD
+## title
+A 25- year-old min is under water in the swimming pool and breathing through a snorkel,…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A 25- year-old min is under water in the swimming pool and breathing through a snorkel, He has a respiratory rate of 10/min, a tidal volume of 550 ml and an effective anatomical dead space of 250 ml. What is the alveolar ventilation of this man?
+## answer_a
+2500 ml/min
+## explanation_a
+2500 ml/min would follow from (550 - 250) x [a rate below 10]/min; at the stated rate of 10 breaths/min the correct product is 3000 ml/min, not 2500.
+## answer_b
+3000 ml/min
+## explanation_b
+Correct: alveolar ventilation = (tidal volume - dead space volume) x respiratory rate = (550 - 250) x 10 = 300 x 10 = 3000 ml/min.
+
+Why this is right:
+- Of each breath's tidal volume, only the portion beyond the anatomical dead space reaches alveoli that can exchange gas; the dead space's own share is rebreathed without ever taking part in exchange.
+## answer_c
+3500 ml/min
+## explanation_c
+3500 ml/min overstates the result; with tidal volume 550 ml and dead space 250 ml, the effective volume per breath is 300 ml, not enough to reach 3500 ml/min at a rate of 10/min.
+## answer_d
+4000 ml/min
+## explanation_d
+4000 ml/min would only follow from using the full tidal volume (550 ml) without subtracting the dead space at all (550 x [a rate below 10]), which is minute ventilation reasoning, not alveolar ventilation.
+## correct_answer
+B
+## main_concept
+CON-RES-7EEDA8B6F0B402
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Dead Space and Alveolar Ventilation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+Calculate alveolar ventilation as (tidal volume - dead space volume) x respiratory rate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p38 q98. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-49FAFCA63DD9
+## title
+A patient has a dead space volume of 130 ml, a respiratory rate of 1Sbreaths/min and a …
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient has a dead space volume of 130 ml, a respiratory rate of 1Sbreaths/min and a tidal volume of 460 ml. How much is his alveolar ventilation?
+## answer_a
+8050 ml/inin
+## explanation_a
+8050 ml/min does not follow from these figures by the alveolar ventilation formula; the correct effective volume per breath (460 - 130 = 330 ml) times the stated rate of 15/min gives 4950 ml/min.
+## answer_b
+6900 ml/min
+## explanation_b
+6900 ml/min is what tidal volume alone, without subtracting dead space, gives at this rate (460 x 15 = 6900) — that is minute ventilation, not alveolar ventilation.
+## answer_c
+4620 ml/min
+## explanation_c
+4620 ml/min does not match (tidal volume - dead space) x respiratory rate at the stated figures; the correct product of 330 ml x 15/min is 4950 ml/min.
+## answer_d
+4950 ml/min
+## explanation_d
+Correct: alveolar ventilation = (tidal volume - dead space volume) x respiratory rate = (460 - 130) x 15 = 330 x 15 = 4950 ml/min.
+
+Why this is right:
+- Of each breath's tidal volume, only the portion beyond the anatomical dead space reaches alveoli that can exchange gas; the dead space's own share is rebreathed without ever taking part in exchange.
+## correct_answer
+D
+## main_concept
+CON-RES-7EEDA8B6F0B402
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Dead Space and Alveolar Ventilation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Calculation
+## learning_objective
+Calculate alveolar ventilation as (tidal volume - dead space volume) x respiratory rate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p26 q6. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-B596A0B0E8DE
 ## title
 During which of the foliowing would the intra-pleura! pressure be greater than atmosphe…
@@ -19460,6 +19737,190 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-38D72EA1D936
+## title
+Which of the following is true under normal conditions? :
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true under normal conditions? :
+## answer_a
+Intrapleural pressure is always greater than intrapulmonary pressure :
+## explanation_a
+The opposite is true: intrapleural pressure is always LESS than intrapulmonary (intra-alveolar) pressure in normal breathing — that positive difference (transpulmonary pressure) is what keeps the lung expanded against its own recoil.
+## answer_b
+Intrapulmonary pressure is always greater than atmospheric pressure |
+## explanation_b
+Intrapulmonary pressure is not always greater than atmospheric pressure; it oscillates around atmospheric, falling below it during inspiration and rising above it only during expiration.
+## answer_c
+Intrapleural pressure is always less than atmospheric pressure
+## explanation_c
+Correct: intrapleural pressure stays sub-atmospheric throughout normal quiet breathing, from about -3 cmH2O at end-expiration to about -6 to -8 cmH2O at end-inspiration.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## answer_d
+Intrapulmonary pressure is always less than atmospheric pressure ;
+## explanation_d
+Intrapulmonary pressure is not always less than atmospheric pressure; it falls below atmospheric during inspiration but rises above it during expiration, driving air back out.
+## correct_answer
+C
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that intrapleural pressure stays below atmospheric pressure throughout normal quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p17 q16; DPT BOOK Physio MCQ [104][2022].pdf p29 q24. Manifest src_ab84e963639b236e0951, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-20121EA4A56F
+## title
+The intrapleural pressure is positive in:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The intrapleural pressure is positive in:
+## answer_a
+End of normal expiration
+## explanation_a
+Intrapleural pressure is still negative (about -3 cmH2O) at the end of normal expiration, not positive.
+## answer_b
+Muller's experiment
+## explanation_b
+Muller's experiment (forced inspiration against a closed glottis) drives intrapleural pressure strongly negative, to about -30 to -40 cmH2O — the opposite extreme from becoming positive.
+## answer_c
+Valsalva's experiment
+## explanation_c
+Correct: Valsalva's experiment (forced expiration against a closed glottis) can drive intrapleural pressure positive, to about +50 cmH2O, because the expiratory effort compresses the sealed thorax against a closed airway.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## answer_d
+Deep inspiration
+## explanation_d
+Deep inspiration makes intrapleural pressure more negative than normal quiet inspiration, not positive.
+## correct_answer
+C
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## subtopic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify Valsalva's experiment (forced expiration against a closed glottis) as the condition that drives intrapleural pressure positive.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p11 q80. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-B8531BD16D23
 ## title
 Inspiration occurs when: 1 ١
@@ -19818,6 +20279,98 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p26 q2. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2344EE260287
+## title
+During quiet inspiration:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During quiet inspiration:
+## answer_a
+the volume of the chest increases. 8 |
+## explanation_a
+Correct: during quiet inspiration the diaphragm and external intercostals expand the thoracic cavity, increasing chest volume — this is the mechanical event that lowers intra-alveolar pressure below atmospheric and drives air in.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_b
+the intrapleural pressure becomes less negative
+## explanation_b
+Intrapleural pressure becomes more negative, not less negative, during inspiration, as the expanding chest pulls further on the pleural space.
+## answer_c
+the intra-alveolar pressure rises above atmospheric
+## explanation_c
+Intra-alveolar pressure falls below, not rises above, atmospheric pressure during inspiration — that fall is exactly what drives air into the lung.
+## answer_d
+the abdominal muscles contract. 4
+## explanation_d
+The abdominal muscles are accessory expiratory muscles; they do not contract during quiet inspiration, which relies on the diaphragm and external intercostals.
+## correct_answer
+A
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+State that the volume of the chest increases during quiet inspiration, which is what drives the fall in intra-alveolar pressure that pulls air in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p27 q8. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

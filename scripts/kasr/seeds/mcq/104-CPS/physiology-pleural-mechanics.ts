@@ -74,5 +74,18 @@ export const LEAF: McqLeafSeed = {
         D: "Since venous/lymph return is not increased and the lung does not expand, \"all of the above\" cannot be correct — only the loss of negative intrapleural pressure on the affected side is an accurate effect of pneumothorax.",
       },
     },
+    {
+      key: "during-quiet-inspiration-169438d8",
+      conceptKey: "respiratory-mechanics.causes-of-lung-recoil-and-chest-wall-expansion",
+      difficulty: "Easy",
+      questionType: "Recall of a true statement",
+      learningObjective: "State that the volume of the chest increases during quiet inspiration, which is what drives the fall in intra-alveolar pressure that pulls air in.",
+      explanations: {
+        A: "Correct: during quiet inspiration the diaphragm and external intercostals expand the thoracic cavity, increasing chest volume — this is the mechanical event that lowers intra-alveolar pressure below atmospheric and drives air in.",
+        B: "Intrapleural pressure becomes more negative, not less negative, during inspiration, as the expanding chest pulls further on the pleural space.",
+        C: "Intra-alveolar pressure falls below, not rises above, atmospheric pressure during inspiration — that fall is exactly what drives air into the lung.",
+        D: "The abdominal muscles are accessory expiratory muscles; they do not contract during quiet inspiration, which relies on the diaphragm and external intercostals.",
+      },
+    },
   ],
 }

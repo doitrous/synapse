@@ -29,8 +29,9 @@
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
-    Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
-    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
+    Physiology Respiratory System — Dead Space and Alveolar Ventilation — 4 questions, 2 concepts
+    Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
+    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 5 questions, 1 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
@@ -46,7 +47,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  41 questions were excluded and 0 held back for having no
+  44 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -3584,6 +3585,270 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## label
+The anatomical dead space (conducting airways) warms and humidifies inspired air, filters particulate matter and bacteria from it, and conducts it to the respiratory membrane, but takes no part in warming already-warm expired air
+## id
+CON-RES-8C8374CB4E632E
+## canonical_key
+dead-space.conducting-airway-functions
+## definition
+The anatomical dead space is the volume of the conducting airways (from the nose down to the terminal bronchioles) that takes no part in gas exchange. Its functions all concern preparing inspired air on the way in: warming it to body temperature, saturating it with water vapour, filtering out bacteria and other particulate matter, and simply conducting the now-warmed, humidified, filtered air onward to the respiratory membrane where gas exchange happens. Expired air arrives at the conducting airways already at body temperature and already saturated from its time in the alveoli, so warming expired air is not one of the dead space's functions — there is nothing left for it to do on the way out that it has not already done on the way in.
+## explicit_objective
+List the functions of the anatomical dead space on inspired air (warming, humidifying, filtering, conducting) and state that warming expired air is not one of them, since expired air is already warm and saturated.
+## pitfalls
+Assuming the conducting airways do the same conditioning work in both directions. Their warming and humidifying function only matters for air moving inward, since air moving outward from the alveoli is already at body temperature and already saturated with water vapour.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p36 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Functions of dead space | Conducting airway functions
+## article_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] One of the following is NOT a function of dead space?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Alveolar ventilation, the air per minute actually reaching gas-exchanging surfaces, equals (tidal volume minus dead space volume) times respiratory rate, unlike minute ventilation, which uses tidal volume alone
+## id
+CON-RES-7EEDA8B6F0B402
+## canonical_key
+alveolar-ventilation.calculation-formula
+## definition
+Of each breath's tidal volume, only the portion beyond the anatomical dead space reaches alveoli that can exchange gas; the dead space's own share is rebreathed without ever taking part in exchange. Alveolar ventilation per minute is therefore (tidal volume - dead space volume) x respiratory rate, not tidal volume x respiratory rate (which instead gives total minute ventilation, an overestimate of what is actually available for gas exchange). A change in breathing pattern that keeps minute ventilation constant can still change alveolar ventilation substantially, because the dead space's volume does not scale down with a smaller tidal volume — rapid, shallow breathing wastes a larger fraction of each breath on dead space and so lowers alveolar ventilation even at an unchanged minute ventilation.
+## explicit_objective
+State and apply the formula alveolar ventilation = (tidal volume - dead space volume) x respiratory rate, distinguishing it from minute ventilation (tidal volume x respiratory rate).
+## pitfalls
+Multiplying tidal volume directly by respiratory rate and calling the result alveolar ventilation. That calculation gives minute ventilation; dead space volume must be subtracted from tidal volume first to isolate the portion that actually reaches gas-exchanging alveoli.
+## concept_type
+mechanism
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-PHY-T03
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p38 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Respiratory System
+## aliases
+Alveolar ventilation formula | VA = (TV - VD) x RR
+## article_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] A 25- year-old min is under water in the swimming pool and breathing through a snorkel, He has a respiratory rate of 10/min, a tidal volume of 550 ml and an effective anatomical dead space of 250 ml. What is the alveolar ventilation of this man?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
 ## id
 CON-RES-97B778DE471E7E
 ## label
@@ -3595,6 +3860,8 @@ src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p17 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
 ## article_ids
 +ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
 ## field_notes
@@ -3638,12 +3905,13 @@ kau
 src_e569449acf8dc2af471e | question_book | | p26 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p27 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
