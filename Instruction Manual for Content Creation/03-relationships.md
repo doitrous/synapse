@@ -81,6 +81,23 @@ errors: 0  skipped: 0
 Use `medical:batch` for syntax and per-record contract checks; use `medical:simulate` for
 anything that resolves an ID.
 
+**`medical:simulate` has no `--with` flag — only `medical:batch` does.** Everything on
+this page about widening `medical:batch`'s directory scope with repeated `--with <file>`
+does not carry over: `medical:simulate`'s parser reads whatever token follows `--with` as
+that flag's own value and silently drops it, and every file introduced by a later
+`--with` on the same command line goes the same way. The run still exits 0 with
+`errors: []`, because a dropped file was never read, let alone rejected — it looks exactly
+like a clean pass. Name every sibling file positionally instead, in the apply order this
+manual's worked commands already use (`... "evidence/"*.md "relations/"*.md ...`).
+
+**A bare `---` line inside a long field — `support_span`, `original_wording`, a quoted
+passage in `qualifiers` or `context_note` — silently ends the record.** The importer
+splits one file into records on any line that is only `---`, the exact same separator used
+between `# Item` blocks. A horizontal rule or a row of dashes carried over from the
+source PDF's own formatting truncates everything after it into a broken second record,
+with no error naming what happened. Strip a bare `---` line out of any quoted source text
+before saving the batch.
+
 ### 2 · An edge with no evidence chain is rejected at rest
 
 Both the batch validator and `npm run medical:audit` error on any relation missing
@@ -584,4 +601,6 @@ two are the result.
 | `"X" is not a relation type` | Typo, or a custom type that was never registered in the admin UI |
 | `duplicate of an edge already in the graph` | The edge exists. Update it, or leave it alone. |
 | `counts as evidence without an exact locator` | `counts_as_claim_evidence: yes` with no `locator_page` / `locator_section` / `locator_detail` |
+| `medical:simulate` reports `errors: []`, but a sibling file's IDs still resolve as missing | You passed it after `--with`; `medical:simulate` has no such flag and silently dropped it — list every file positionally instead |
+| A record after a long quoted passage is missing or garbled | A bare `---` line inside `support_span`/`original_wording`/a qualifier ended the record early — strip stray horizontal rules from pasted source text |
 | Two edges appear where you wrote one | You supplied `## id` and it did not match the derived form |
