@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type Dispatch, type SetStateAction } from 'react'
 import {
   ArrowLeft, Layers, Plus, Search, BarChart3, Flag, Archive, RotateCcw, CalendarClock,
-  Ban, Info, History, Timer, Pencil, X,
+  Ban, Info, History, Timer, Pencil, X, Mic, Volume2,
 } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -17,6 +17,7 @@ import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { useLocalJsonPreference } from '@/lib/useLocalPreference'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
+import { useVoiceRecorder } from '@/lib/useVoiceRecorder'
 import { useCommands, useScope } from '@/lib/shortcuts/useShortcuts'
 import type { Command } from '@/lib/shortcuts/registry'
 import type { CardWithMeta, FlashcardsApi } from '@/lib/useFlashcards'
@@ -106,10 +107,21 @@ export function StudyScreen({
   const [autoOpen, setAutoOpen] = useState(false)
   const flagTrigger = usePopoverTrigger()
 
+  const voice = useVoiceRecorder()
+
   const currentId = queue[0]
   const current: CardWithMeta | undefined = currentId ? api.cardById(currentId) : undefined
 
   useEffect(() => { shownAt.current = Date.now() }, [currentId])
+  // A recording belongs to the card it was made on; drop it when the card turns.
+  // `voice.reset` is stable; depending on the whole recorder would reset mid-record.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => { voice.reset() }, [currentId])
+
+  const toggleVoice = useCallback(() => {
+    if (voice.state === 'recording') voice.stop()
+    else voice.start()
+  }, [voice])
 
   const advance = useCallback((nextSchedule: CardSchedule | null) => {
     setQueue((q) => {
@@ -171,6 +183,8 @@ export function StudyScreen({
       { id: 'study.prevInfo', title: 'Previous card info', group: 'Study', scopes: ['study'], keys: 'Shift+I', when: () => !!prevCardId, run: () => setPrevInfoOpen(true) },
       { id: 'study.autoAdvance', title: 'Toggle auto advance', group: 'Study', scopes: ['study'], keys: 'Shift+A', run: () => setAutoAdvance((c) => ({ ...c, enabled: !c.enabled })) },
       { id: 'study.edit', title: 'Edit note', group: 'Study', scopes: ['study'], keys: 'E', when: () => !!current, run: () => current && onEditNote(current.note.id) },
+      { id: 'study.recordVoice', title: 'Record your voice', group: 'Study', scopes: ['study'], keys: 'V', run: toggleVoice },
+      { id: 'study.replayVoice', title: 'Replay your voice', group: 'Study', scopes: ['study'], keys: 'Shift+V', when: () => voice.hasRecording, run: voice.play },
     ]
     for (const answer of GRADES) {
       const digit = String(GRADES.indexOf(answer) + 1)
@@ -187,7 +201,7 @@ export function StudyScreen({
       })
     }
     return list
-  }, [showAnswer, current, prevCardId, reveal, onExit, doBury, doSuspend, commitGrade, toggleFlag, onEditNote, setAutoAdvance])
+  }, [showAnswer, current, prevCardId, reveal, onExit, doBury, doSuspend, commitGrade, toggleFlag, onEditNote, setAutoAdvance, toggleVoice, voice.hasRecording, voice.play])
   useCommands(commands)
 
   // ---- Auto advance --------------------------------------------------------
@@ -254,7 +268,18 @@ export function StudyScreen({
         onAuto={() => setAutoOpen(true)}
         autoOn={autoAdvance.enabled}
         hasPrev={!!prevCardId}
+        recording={voice.state === 'recording'}
+        hasRecording={voice.hasRecording}
+        onRecordVoice={toggleVoice}
+        onReplayVoice={voice.play}
       />
+      {(voice.state === 'denied' || voice.state === 'unsupported' || voice.state === 'error') && (
+        <p className="mt-2 text-[11.5px] text-danger" role="status">
+          {voice.state === 'denied' ? t('Microphone permission was denied. Allow it in your browser to record.')
+            : voice.state === 'unsupported' ? t('Voice recording is not available in this browser.')
+              : t('Recording failed. Please try again.')}
+        </p>
+      )}
 
       <div className="mb-4 mt-3 flex items-center gap-3">
         <Meter value={position} max={total} className="flex-1" />
@@ -337,6 +362,10 @@ interface ToolbarProps {
   onAuto: () => void
   autoOn: boolean
   hasPrev: boolean
+  recording: boolean
+  hasRecording: boolean
+  onRecordVoice: () => void
+  onReplayVoice: () => void
 }
 
 function StudyToolbar(props: ToolbarProps) {
@@ -370,6 +399,9 @@ function StudyToolbar(props: ToolbarProps) {
       <ToolButton icon={Info} label={t('Card info')} onClick={props.onInfo} />
       <ToolButton icon={History} label={t('Previous card info')} onClick={props.onPrevInfo} disabled={!props.hasPrev} />
       <ToolButton icon={Timer} label={t('Auto advance')} onClick={props.onAuto} active={props.autoOn} />
+      <span className="mx-1 h-5 w-px bg-line" aria-hidden />
+      <ToolButton icon={Mic} label={props.recording ? t('Stop recording') : t('Record your voice')} onClick={props.onRecordVoice} active={props.recording} />
+      <ToolButton icon={Volume2} label={t('Replay your voice')} onClick={props.onReplayVoice} disabled={!props.hasRecording} />
     </div>
   )
 }
