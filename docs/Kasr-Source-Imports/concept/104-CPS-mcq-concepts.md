@@ -37,7 +37,7 @@
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 31 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -49,7 +49,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  47 questions were excluded and 0 held back for having no
+  49 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4573,18 +4573,23 @@ kau
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p30 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p11 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p22 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p15 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p6 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p18 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.71
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.71
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Physiology
 ## subtopic
@@ -4592,11 +4597,11 @@ Respiratory System
 ## aliases
 Pulmonary surfactant function | Surfactant and pulmonary compliance | Respiratory distress syndrome of prematurity | Type II pneumocyte secretion
 ## article_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT | ART-104-HIS-RESPIRATORY-PORTION
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] 57 10 4 8 function 10 <--> N MSFP& Cardiac Output af ae ae Output (umin) st ef 5 34 (umin) 5 A Normal + venous ١ > Normal venous return curve 0 0 0 10 0 10 Right atrial pressure Right atrial pressure (mmHg) (mmHg) DET: © te 8 ‏حت‎ pee 5 — ‏بل ل‎ Compliance 01 work ‏اه‎ ‎1 NV 0 2 4 ‘ yr / 15 wc, | | The Most Important Topics in Vascular | Regulation Of ABP — Z 05 3 8 re: 20 =— -_ i 2D) hot cal 295) — Cardiac mbibily Area a = = = ‏اع‎ 5 - 16 ‏ا‎ ‏بل لللللللاالالالالالالالالالالالالالالالاللللللللللللللل ا‎ = 35 ‏ا‎ cg 3 CMUago-Pulmonary 572041 24 : 010 - ‏اط‎ 0 Sued ee 4 7 ARGS Sn aad ~ ‏ل‎ ‏اعم‎ 5 = - 1 2 110] Volume >1١ ‏دم‎ ”“ 00 ‏نا‎ ‎3 ae - i = - = 17 Regulation of ABP : 1.Nervous regulation Direct effect of Changes in blood gases on ABP: ~~ (CNS ischemic response | (Hae ‏الك‎ Cushing reflex Ag pees Shan A HypTensi 00 ‏احج مسري[‎ PICT Boo tsa VBlood ‏عم‎ Cys iscems 12 > te BN Flows ‏2م‎ — T Brain 4 LOSSY ; Flee NW Tyra MA | Veo © Wy cr, ee hie aS Meee 5 ' ol ‏م‎ nay dire © VK PAB RY | a) = ‏ى‎ 2qgulatiowt é yey ABP intermediate 2 1001777 ea : Caer as a i) SSS sae Cae eee — NG “Reabserpton 0 ‏الحا‎ ary B PRR tHe : “HE ase sat Bn —> TolRR : ‏ا 081 وعم‎ 4 | a | 52 19 | 7 ——— Regulation diameter of arterioles Regulation of Diameter of Mrterioles : pe [Local vascular mechanisms =| (1) Tissue metabolic activity : = a ‏ا‎ ie "active hyperaemia " ‏له‎ af = *1 | hypoxia: =¥02—> y ATP > ND ater Wein erate, capmeren Arita Am * Vasodilator metaboutes : a= 5 Vasedslatot eet ‏نه جب‎ ١ * Rise of ‏سييهت‎ 077 2 3 ax activity difec swt © BS Va ie -_ Regulation of Diameter of Arterioles 5 al ‏ك7 وو ومح ودى‎ - 2 Auto-regulation of tissue [Local vascular ee blood flow in response te ; Perfision p. = changes in ABP ‏ب‎ ‎Filed — Resistance 1 * Myogenic mechanism: So =e Vein Venute Capttaring + Metabolic mechanism:, y Paver ‏ا‎ ‎Bod ri A= Sw OY ee ef A i) cinaW 1% ~ ‏حسم‎ ‎20 ‎all ‎MOO [a ss AY seme 507 21 ‏بل لللللللاالالالالالالالالالالالالالالالاللللللللللللللل ا‎ - — يه ‎ie‏ — نكا سعد 3 - 0 3 — 5 = 3 » 57 ‎“=a 1‏ ( اود انر 1 ‎j beasts‏ 6 ‎a =‏ & < بوه - 0 ¢ : 5 22 Wasoconstrictor Hormones ‏بي‎ 3 5 Epinephrine & Norepinephrine al : 7 | ‏حي‎ 17 = ly | 0; OG = VC —> Ree organs +e zND> ‏حوس عل‎ TERY 69 Sym — stm lation ‏و‎ enteral Ses © 6 Hspogyemia . 23 Tips & Tricks > ‏م‎ Module 104 ‎Ni 2026‏ 7 در ‎a) \ hey |‏ | INSPIRATATION Ideas | Idea 1 [Dep Book]: Inspiration occurs when: Correct Explanation: intra ‏يسمح للهواء بالاندفاع من الخارج للداخل وده بيحصل لما‎ pressure gradient ‏بتحتاج‎ inspiration ‏عملية ال‎ atmospheric pressure! ‏امعناويقل عن‎ 32 pressure Idea 2 [Dep Book and previous]: During quiet inspiration: _ The volume of the chest increases by contraction of the external intercostals muscles and diaphragm _ Active process _ intra-pulmonary pressure falls _ IPP equals C. -6 mmHg. _ Intra-alveolar pressure becomes about 1 mmHg negative to atmospheric pressure Explanation: ‏يؤدي إلى زيادة حجم القفص‎ external intercostal muscles! (diaphragm) ‏انقباض عضلة الحجاب الحاجز‎ _ ‏لكي يستوعب تمدد الرئتين‎ (volume of the chest) ‏الصدري‎ ‏عن الضغط الجوي ليخلق‎ (intra-pulmonary pressure) ‏و عشان الهواء يدخل الرئتين لازم يقل الضغط داخل الرئة‎ _ ‏لكي يتمكن من سحب الرئة‎ quiet inspiration ‏في نهاية ال‎ mmHg 6- ‏بينزل إلى‎ Intra-pleural pressure (IPP) ‏ال‎ _ tidal volume.) ‏لسحب‎ Cals Jaa 5. mmHg1- ‏ليصبح حوالي‎ Alveoli ‏وتمديدها و يقل الضغط داخل‎ Idea 3 [Previous years]: A healthy, 45-year-old man is reading the newspaper. Which of the following muscles are used for quiet breathing? Correct Explanation: ‏الأساسية بس وهي ال‎ inspirationJ! ‏العضلات المستخدمة هي عضلات‎ (quiet breathing) ‏في حالة الراحة‎ external intercostals I ;Diaphragm 1 wc, | 0000 ‏سس‎ ‎Idea 4 [Dep Book]: In quiet breathing, expiration is: Passive due to both surface tension in the alveoli and elastic tissue recoil. Explanation: surface tension e elastic tissue recoil ‏تتكفل فيها قوى ال‎ « (passive) ‏عملية شلبية‎ Normal expiration ‏الهواء.‎ a yl} ‏بسحب الرئة/للداخل‎ Idea 5 [Dep Book]: During forced expiration: Correct Explanation: ‏نحتاج لانقباض قوي لعضلات مساعدة لضغط القفص الصدريء وأهمها ال‎ » (forced expiration)é s& +l sell ‏لإخراج‎ ‎internal intercostals s abdominal muscles Idea 6 [Dep Book and Previous years]: During which of the following would the intra-pleural pressure be greater than atmospheric pressure? Correct Explanation: ‏الحزق ( حيث يتم إخراج هواء بقوة ضد‎ ( Valsalva maneuvercend ‏هذا يحدث في تجربة‎ ‏مما يرفع الضغط داخل الصدر‎ (Forced expiration with closed glottis) Sle. ‏مزمار‎ ‏أعلى من الضغط الجوي‎ positive ‏ويجعله‎ ‎2 ‎————_-_-_-SSSSSSS=_=[/_—=_—=__={_H{____—_] | SURFACTANT Ideas | Idea 7 [Dep Book]: Lung surfactant: _ Decreases the tendency of alveolar collapse during expiration _ Acts as surface tension lowering agent _ produced by Type II alveolar cells _ May be deficient in premature babies Explanation: ‏لطبقة السائل المبطنة‎ (surface tension lowering agent) ‏الأساسية هي تقليل التوترن؛السطحي‎ surfactant I! ‏_وظيفة‎ ‎expiration! ‏خاصة في نهايّة‎ (alveolar collapse) ‏للحويصلات مما يمنع انكماشها‎ ‏فبيكون ناقص لدى الأطفال المولودين قبل موعدهم‎ eal ‏ينضج في الشهور الأخيرة من‎ Surfactant) cli) _ (premature infants) Idea 8 [Dep Book]: the following is NOT true concerning respiratory distress syndrome in premature infants? Correct Explanation: ‏بتميل للانكماش‎ alveoli ‏فا‎ « surfactant! ‏هي نقص‎ RDS ‏العبارة الغلط. المشكلة في‎ ‏ولا تنفجر‎ (over-expand) ‏ولا تتمدد بسهولة‎ Idea9 [Dep Book]: Lack of surfactant do not produce Collapse of small alveoli and expansion of large alveoli Explanation: ‏الكبيرة‎ alveolid! ‏حقيقي‎ Expansion ‏الرئة كلها بتميل للانكماش ومبيحصلش‎ Surfactant ‏في غياب ال‎ Idea 10 [Previous years]: A preterm infant has a surfactant deficiency. Without surfactant, many of the alveoli collapse at the end of each expiration, which in turn leads to pulmonary failure. Which of the following sets of changes are present in the preterm infant, compared to a normal infant? Correct Explanation: ‏وده بيخلي الرئة‎ Alveoli ‏جوة‎ (Increased surface tension) ‏بيؤدي لزيادة التوتر السطحي‎ Surfactant ‏نقص ال‎ (Decreased pulmonary compliance) ‏منكمشة وصلبة جدا يعمل‎ 3 wc, | | RESPIRATORY CENTER | Idea 11 [Dep Book]: The respiratory center includes: _ Inspiratory neurons that are present in the medulla _DRG discharge spontaneously during quiet breathing Explanation: inspiration ‏والمسؤولة عن‎ s Medulla ‏الموجودة في ال‎ DRG ‏مركز التنفس الأساسي بيحتوي على ال‎ ‏الطبيعي للتنفس وبتطلع إشارات بشكل تلقائي‎ Pacemaker -! ‏هي‎ Dorsal Respiratory Group ‏ال‎ ‎Idea 12 [Dep Book]: The most potent stimulator of the respiratory center is: . Increase in the blood carbon dioxide tension Explanation: Central chemoreceptors 3425 CSF ll ‏لأنهبيعدي بسهولة‎ RC dill ‏هي أقوى محفز لمراكز‎ pall ‏في‎ COZ I ‏زيادة‎ ‎Idea 13 [Dep Book]: Pneumotaxic center functions primarily to: Limit inspiration Inhibits the apneustic center Explanation: (Limit inspiration) Gee APC and DRG ‏هي إرسال إشارات تثبيطية لل‎ Pneumotaxic center ‏الوظيفة الأساسية لل‎ ‏(تاكسيك تاكسيك بيوقف)‎ Idea14 [Dep Book]: The respiratory center: Correct Explanation: ‏في المفاصل لزيادة النفس أثناء المجهود‎ proprioceptors ‏مركز التنفس بيتحفز بإشارات من ال‎ 4 ————_-_-_-SSSSSSS=_=[/_—=_—=__={_H{____—_] Idea 15 [Dep Book]: Concerning the interaction of respiratory centers in the brainstem and their effect on respiration: Transection of the afferent fibers of the vagus nerve results in prolonged inspiration and shortened expiration Explanation: ‏بيقصر‎ expiration s (Apneusis) las ‏بيطول‎ inspirationJl inspiration ‏بيوقف إشارات تثبيط‎ (Vagus) ‏_قطع‎ ‎Idea 16 [Previous years]: Which of the following can stop normal inspiration and start expiration?
+[asked 2x across the question books] Surfactant:
 ## conflicts
 Overlaps with the live concept CON-RES-4D4CBF3BB8AF1E (canonical_key `pulmonary-surfactant.functions-and-causes-of-deficiency`), authored by the written-paper pipeline into the generated `104-CPS-concepts.md`. Not merged: that file carries the pipeline's own GENERATED_BY marker, so `existingConceptIds()` cannot see it as pinned, and re-minting the same key here would silently full-overwrite an already-scored, under-review live record rather than issue a safe sparse update. Minted as a distinct concept instead; flagged for a chief-of-staff ruling on cross-pipeline concept consolidation for 104 CPS.
 ## uncertainty
@@ -4614,7 +4619,7 @@ Overlaps with the live concept CON-RES-4D4CBF3BB8AF1E (canonical_key `pulmonary-
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM | ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -5316,8 +5321,431 @@ Type I pneumocytes are flat cells covering 97% of the alveolar surface for gas e
 pneumocyte-type-i-vs-type-ii.structure-and-function
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p29 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
 ## article_ids
 +ART-104-HIS-RESPIRATORY-PORTION
 ## field_notes
 canonical_key "pneumocyte-type-i-vs-type-ii.structure-and-function" already has a pinned id in this module (CON-RES-94F66D51DB5B4D); mintConceptId derives the same id fresh (CON-RES-94F66D51DB5B4D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The respiratory portion runs respiratory bronchiole -> alveolar duct -> alveolar sac -> alveolus; the respiratory bronchiole, not the alveolar duct, is the true conducting-to-respiratory transition, and pores of Kohn give collateral air circulation
+## id
+CON-RES-38BCE7439DEBC9
+## canonical_key
+respiratory-portion.structural-sequence-and-pores-of-kohn
+## definition
+The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus. Respiratory bronchioles are the transition from the conducting portion — the first part of the respiratory tree where gas exchange can occur, since some alveoli already open directly from their wall — while keeping a cuboidal, ciliated (Clara-cell-bearing) epithelium that still looks like conducting-portion lining; the true conducting-to-respiratory boundary sits here, not at the alveolar duct, and terminal bronchioles (purely conducting) are never part of the respiratory zone. Alveolar ducts are the free terminations of the respiratory bronchioles, lined completely by alveolar openings, with smooth muscle only at those openings; alveolar sacs are groups of adjacent alveoli sharing a central space, and both ducts and sacs are lined by alveolar epithelium alone, with the alveolar duct's mouth-sphincter smooth muscle disappearing by the level of the sacs and individual alveoli. Alveolar pores (of Kohn) connect adjoining alveolar walls, equalising pressure between alveoli and providing collateral air circulation when a bronchiole is obstructed.
+## explicit_objective
+State the respiratory portion's four-part sequence (respiratory bronchiole, alveolar duct, alveolar sac, alveolus), identify the respiratory bronchiole -- not the alveolar duct or a terminal bronchiole -- as the true conducting-to-respiratory transition, and state the function of the pores of Kohn.
+## pitfalls
+Placing the conducting-to-respiratory transition at the alveolar duct, or including the terminal bronchiole in the respiratory zone. The respiratory bronchiole is already gas-exchanging tissue -- its wall is interrupted by the first alveolar openings -- while the terminal bronchiole, one step upstream, is purely conducting and never part of the respiratory zone.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p28 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p32 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Respiratory portion sequence | Pores of Kohn | Respiratory bronchiole transition | Alveolar duct and sac
+## article_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Afferents which may stimulate inspiratory centers include:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-ED5ADFB428C5BF
+## label
+The blood-air barrier is four layers: surfactant film, pneumocyte type I, fused basal lamina, and capillary endothelium
+## canonical_key
+blood-air-barrier.four-layers
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
+## article_ids
++ART-104-HIS-RESPIRATORY-PORTION
+## field_notes
+canonical_key "blood-air-barrier.four-layers" already has a pinned id in this module (CON-RES-ED5ADFB428C5BF); mintConceptId derives the same id fresh (CON-RES-ED5ADFB428C5BF) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Interalveolar septa are delicate, capillary-rich connective-tissue partitions with elastic and reticular fibres and resident phagocytes -- not smooth muscle, not collagen-supported, and not avascular
+## id
+CON-RES-4903189C8DA93C
+## canonical_key
+interalveolar-septum.composition
+## definition
+The interalveolar septum is the delicate connective-tissue partition separating adjacent alveoli. It carries the richest capillary network in the body, elastic fibres that assist lung expansion, reticular fibres that prevent overexpansion from injuring the capillaries, and extravasated monocytes that become the septum's own resident alveolar phagocytes (dust cells and heart-failure cells). It is not smooth-muscle tissue, not supported chiefly by collagen, and not avascular -- describing it that way reverses its actual composition.
+## explicit_objective
+State that interalveolar septa are delicate connective-tissue partitions carrying a dense capillary network, elastic and reticular fibres, and resident phagocytes -- not smooth muscle, not collagen-supported, and not avascular.
+## pitfalls
+Assuming the interalveolar septum is supported the way a conducting airway wall is, with smooth muscle or collagen as the main structural element. It is instead a delicate, capillary-rich connective-tissue partition whose fibre content (elastic and reticular) serves lung mechanics and capillary protection, not structural rigidity.
+## concept_type
+definition
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Interalveolar septum | Alveolar septum composition
+## article_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Interalveolar septa are:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Emphysema is permanent alveolar enlargement from interalveolar-septal destruction by dust-cell protease/elastase, unleashed by smoking; a congenital anomaly can instead present as alveolar dilatation from birth
+## id
+CON-RES-1C25BE837B7E1D
+## canonical_key
+respiratory-portion.clinical-correlations
+## definition
+Two disease processes trace directly to the respiratory portion's normal structure. Emphysema is permanent, abnormal enlargement of the air spaces from destruction of the interalveolar septa, driven by protease and elastase enzymes secreted by dust cells -- normally kept in check by protective proteins that cigarette smoking inhibits, unleashing the same dust cell that ordinarily just clears inhaled particles. A congenital anomaly presenting as dilatation of the terminal or larger alveoli is a form of congenital cystic disease of the lung, distinct from a chest-wall or gas-exchange functional problem -- a structural malformation of the respiratory portion itself, present from birth, rather than an acquired destructive process like emphysema.
+## explicit_objective
+Identify emphysema as permanent alveolar enlargement from interalveolar-septal destruction by dust-cell protease/elastase (unleashed by smoking), and distinguish a congenital cystic malformation of the lung -- present from birth -- from that acquired, adult-onset process.
+## pitfalls
+Treating every case of enlarged or dilated air spaces as emphysema. A congenital anomaly presenting as dilatation of the terminal or larger alveoli is a structural malformation present from birth, not the acquired, smoking-driven septal destruction that defines emphysema.
+## concept_type
+comparison
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Emphysema mechanism | Congenital cystic disease of the lung | Dust cell protease and elastase
+## article_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] abnormal permanent enlargement of alveoli
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 

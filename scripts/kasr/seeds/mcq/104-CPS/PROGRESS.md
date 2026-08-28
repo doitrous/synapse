@@ -5,7 +5,7 @@ pushed to origin). run24 was interrupted mid-Pulmonary-Compliance and never
 committed anything — its work is gone, redone cleanly here.
 
 Bank total: 1289 questions in `scripts/kasr/extract/104-CPS/mcq-bank.json`.
-As of this session's HEAD: **312 kept / 1114 keyed**, 47 excluded, 74 MCQ
+As of this session's HEAD: **340 kept / 1114 keyed**, 49 excluded, 78 MCQ
 concepts.
 
 ## Clusters fully closed (0 remaining bank rows for that `leaf` tag)
@@ -103,6 +103,42 @@ concepts.
     3 keys) so the next Vascular Function pass picks them up — do **not**
     recount them as still-open Pulmonary Compliance work.
 
+- **Respiratory Portion (28/30 triaged this session: 28 kept, 2 excluded)**
+  — run25, extends the already-existing `respiratory-respiratory-
+  portion.ts` (kept its 1 existing concept + 1 question; article
+  `ART-104-HIS-RESPIRATORY-PORTION` was already live in `104-CPS-
+  histology.md`, so no article-coverage gap this time). Added 4 new
+  concepts + 1 reused concept:
+  - `respiratory-portion.structural-sequence-and-pores-of-kohn` (bronchiole
+    -> duct -> sac -> alveolus; respiratory bronchiole as the true
+    conducting-to-respiratory transition; pores of Kohn), 8 Qs.
+  - `blood-air-barrier.four-layers` (surfactant film / type I pneumocyte /
+    fused basal lamina / capillary endothelium; type II pneumocyte
+    deliberately excluded), 2 Qs.
+  - `interalveolar-septum.composition` (delicate, capillary-rich, elastic +
+    reticular fibres, resident phagocytes — not smooth muscle/collagen/
+    avascular), 2 Qs.
+  - `respiratory-portion.clinical-correlations` (emphysema mechanism;
+    congenital cystic disease of the lung), 2 Qs.
+  - Extended `pneumocyte-type-i-vs-type-ii.structure-and-function` (already
+    existed) with 8 more questions — the bank asks this comparison
+    repeatedly across several source books with reworded stems/options.
+  - **Reused `surfactant.reduces-surface-tension-and-increases-compliance`**
+    (minted in the Pulmonary Compliance cluster's `physiology-pulmonary-
+    compliance-and-surfactant.ts`) for 6 histology-flavoured surfactant
+    rows (who secretes it, RDS risk in infants of diabetic mothers, what
+    its absence does) — declared identically in both files per
+    `build-batches.ts`'s cross-leaf concept merge; **keep the two copies in
+    sync if either is edited**, since the emitted concept always takes the
+    first leaf's definition. Its `conflicts` overlap note (vs the live
+    written-paper-pipeline concept) applies here unchanged.
+  - Excluded: `surfactant-2c89308b` (2 surviving options, below the 4-5
+    contract, and none of its 3 `variants` fully agree with this
+    occurrence's own option set either) and `afferents-which-may-
+    stimulate-inspiratory-centers-include` (bank-tagged leaf mismatch —
+    genuinely Control-of-Respiration content — and already unkeyed per the
+    bank's own extraction).
+
 ## Hazard confirmed this session (beyond the two below)
 
 - **A forward-referenced article that does not exist anywhere is a real
@@ -140,7 +176,7 @@ Object.entries(byLeaf).sort((a,b)=>b[1]-a[1]).forEach(([l,c])=>console.log(c,l))
 ```
 As of this session's HEAD: 58 Arteries, 54 A-V Connections, 47 Electrical
 Activity of the Heart, 36 Mechanical Properties of Cardiac Muscle, 35
-Vascular Function, 34 Veins, **30 Respiratory Portion**, 26 Spleen, 24 Gas
+Vascular Function, 34 Veins, 26 Spleen, 24 Gas
 Transport by the Blood, 21 Lymph node, 19 Conducting
 Portion, 18 Basic Mechanisms of Circulatory Control, 17 Tonsils, 15
 Control of Respiration, 13 Chromosomal Aberrations, 13 The heart, 1 each
@@ -149,21 +185,19 @@ of Human Chromosome / Thymus / Special Circulation / Alveolar Phagocytes.
 
 ## Next action (resume-first)
 
-**Pulmonary Compliance is done** (27/30 triaged this session; 3 deferred to
-Vascular Function/GI, see above — do not re-open). Continue "Lungs":
-1. **Respiratory Portion** (30 remaining, histology) — `respiratory-
-   respiratory-portion.ts` already exists with 1 concept (pneumocyte types
-   I vs II) and 1 question; check it for existing concepts to reuse before
-   minting. Its `articleId` is `ART-104-HIS-RESPIRATORY-PORTION` — verify
-   this article actually exists (live or in a sibling batch) before
-   authoring a large batch against it; if it doesn't, this session's
-   article-coverage hazard (below) applies — don't repeat the phantom-id
-   mistake without checking first.
-2. **Control of Respiration** (15 remaining) — `physiology-control-of-
+**Both this session's clusters are done**: Pulmonary Compliance (27/30
+triaged; 3 deferred to Vascular Function/GI, see above — do not re-open)
+and Respiratory Portion (28/30 triaged; 2 excluded — fully closed, 0
+remaining bank rows for that leaf). Continue "Lungs":
+1. **Control of Respiration** (15 remaining) — `physiology-control-of-
    respiration.ts` already exists with 1 concept; extend it.
-3. Gas exchange in the lung (7 remaining) — the dispatch brief flags this
+2. Gas exchange in the lung (7 remaining) — the dispatch brief flags this
    one needs a NEW physiology concept file + article scaffold before its
-   questions gate; do this last, deliberately, not as a quick add-on.
+   questions gate; do this last, deliberately, not as a quick add-on. Given
+   this session's hazard below, check for an existing article to reuse
+   (`ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING` already exists in
+   `104-CPS-physiology.md` and covers diffusion/V-Q/shunt — likely the
+   right home) before minting a phantom id.
 
 Then move to the CVS histology/anatomy leaves (Arteries 58, A-V
 Connections 54, Veins 34, Electrical Activity of the Heart 47,

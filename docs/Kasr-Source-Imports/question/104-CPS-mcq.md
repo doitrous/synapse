@@ -37,7 +37,7 @@
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
     Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
-    Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 31 questions, 6 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
@@ -49,7 +49,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  47 questions were excluded and 0 held back for having no
+  49 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -28836,5 +28836,2581 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7A090A7A396B
+## title
+All characters of type l pneumocyte except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of type l pneumocyte except
+## answer_a
+more numerous than type II Pneumocyte
+## explanation_a
+True, so not the exception. Type I pneumocytes line about 97% of the alveolar surface, by far the dominant cell of the alveolar epithelium by area, against type II's roughly 3% -- consistent with being described as the more numerous surface-covering cell.
+## answer_b
+flat cell, flat nuclei with little cytoplasm
+## explanation_b
+True, so not the exception. Type I pneumocytes are flat, squamous cells with flat nuclei and little cytoplasm, built purely to minimise the diffusion distance for gas exchange.
+## answer_c
+rich in organelles as mito, G.A, rER
+## explanation_c
+The exception, and the answer. Type I pneumocytes are organelle-poor by design -- few mitochondria, Golgi apparatus or rough endoplasmic reticulum -- because they have no secretory job; it is type II pneumocytes that are rich in these organelles, needed to synthesise and package surfactant.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_d
+small pinocytic vesicle with very thin membrane
+## explanation_d
+True, so not the exception. Type I pneumocytes carry small pinocytic vesicles that turn over surfactant, set within an extremely thin membrane that keeps the diffusion path short.
+## correct_answer
+C
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify organelle-richness as a type II, not type I, pneumocyte characteristic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q55. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C77FD76B83BD
+## title
+type I Pneumocyte prevent tissue fluid leakage by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+type I Pneumocyte prevent tissue fluid leakage by
+## answer_a
+Junctional Complex
+## explanation_a
+A junctional complex is a broader combination of several junction types together; the specific junction that seals type I pneumocytes against fluid leakage is the tight junction alone, not the whole complex.
+## answer_b
+desmosome
+## explanation_b
+A desmosome is an anchoring junction that resists mechanical stress; it does not seal the intercellular space against fluid, which is what prevents leakage here.
+## answer_c
+tight junction
+## explanation_c
+Correct. Type I pneumocytes are joined to each other and to type II pneumocytes by tight junctions, which seal the alveolar epithelium and keep tissue fluid from leaking into the alveolar air space.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_d
+adherers Junction S8)
+## explanation_d
+An adherens junction provides mechanical adhesion between cells but does not seal the intercellular space the way a tight junction does; it is not what keeps fluid out of the alveolus.
+## correct_answer
+C
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tight junction as what keeps tissue fluid from leaking into the alveolar space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q57. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-61C4D71B2C0A
+## title
+Type I pneumocytes:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Type I pneumocytes:
+## answer_a
+Have membrane limited multilamellar bodies
+## explanation_a
+Membrane-limited multilamellar bodies, which store surfactant precursors, are a defining electron-microscopic feature of type II pneumocytes, not type I.
+## answer_b
+Provide a thin membrane through which gaseous exchange occurs
+## explanation_b
+Correct. Type I pneumocytes are flat, organelle-poor cells whose entire structure exists to provide the thinnest possible membrane for gas to diffuse across.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_c
+Secrete the pulmonary surfactant
+## explanation_c
+Secreting pulmonary surfactant is the job of type II pneumocytes; type I pneumocytes are purely structural and have no secretory role.
+## answer_d
+Can divide and act as stem cells
+## explanation_d
+Dividing and acting as the stem cell for both pneumocyte types is a type II pneumocyte function; type I pneumocytes are terminally differentiated and cannot divide.
+## correct_answer
+B
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify providing a thin gas-exchange membrane as the defining type I pneumocyte characteristic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q29. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-39ABB81C4566
+## title
+Type I pneumocytes are characterized by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Type I pneumocytes are characterized by:
+## answer_a
+Are flat squamous cells
+## explanation_a
+Correct. Type I pneumocytes are flat, squamous cells with little cytoplasm, built to keep the blood-air barrier as thin as possible.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_b
+Represent 3% of alveolar epithelium
+## explanation_b
+Type I pneumocytes cover roughly 97% of the alveolar surface, not 3% -- the 3% figure belongs to type II pneumocytes, despite type II being more numerous in raw cell count.
+## answer_c
+Show multilamellar bodies by E.M
+## explanation_c
+Membrane-limited multilamellar bodies are a defining electron-microscopic feature of type II pneumocytes, which store surfactant precursors in them; type I pneumocytes do not show them.
+## answer_d
+Secrete pulmonary surfactant
+## explanation_d
+Secreting pulmonary surfactant is a type II pneumocyte function; type I pneumocytes are purely structural gas-exchange cells.
+## correct_answer
+A
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory System — Respiratory Portion Pneumocytes
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify flat squamous morphology as the defining type I pneumocyte characteristic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p16 q120. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E032AFD62B2B
+## title
+type II pneumocyte is characterized by All except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+type II pneumocyte is characterized by All except
+## answer_a
+rich in mito, ribosome, golgi
+## explanation_a
+True, so not the exception. Type II pneumocytes are rich in mitochondria, ribosomes, rough endoplasmic reticulum and Golgi, the organelles needed to synthesise and package surfactant.
+## answer_b
+very thin membrane for gas exchange
+## explanation_b
+The exception, and the answer. Providing a very thin membrane for gas exchange is the job of the type I pneumocyte, not the cuboidal, organelle-rich type II pneumocyte.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_c
+Secrete surfactant, act as stem cell
+## explanation_c
+True, so not the exception. Secreting surfactant and acting as the stem cell for both pneumocyte types are the two defining functions of the type II pneumocyte.
+## answer_d
+cubical cell with foamy cytoplasm
+## explanation_d
+True, so not the exception. Type II pneumocytes are cuboidal cells bulging into the airspace, with foamy cytoplasm from their membrane-bound multilamellar bodies.
+## correct_answer
+B
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify providing a thin gas-exchange membrane as a type I, not type II, pneumocyte characteristic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q58. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7B8BA71C6340
+## title
+Type II pneumocytes: ١
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Type II pneumocytes: ١
+## answer_a
+Undergo gas exchange
+## explanation_a
+Undergoing gas exchange across a thin membrane is the type I pneumocyte's job; type II pneumocytes are too thick and organelle-rich to serve this purpose.
+## answer_b
+Are macrophages
+## explanation_b
+Type II pneumocytes are epithelial cells, not macrophages; the alveolar phagocytes (dust cells, heart-failure cells) are a separate, blood-monocyte-derived population.
+## answer_c
+Are very flat and practically devoid of organelles
+## explanation_c
+Being very flat and practically devoid of organelles describes the type I pneumocyte; type II pneumocytes are cuboidal and organelle-rich, the opposite description.
+## answer_d
+produce surfactant
+## explanation_d
+Correct. Type II pneumocytes produce and secrete pulmonary surfactant, packaging it in their characteristic multilamellar bodies before release onto the alveolar surface.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## correct_answer
+D
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Physiology
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify surfactant production as the defining type II pneumocyte function.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p29 q29. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-442DA0E7864F
+## title
+Type lpneumocytes:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Type lpneumocytes:
+## answer_a
+Have membrane limited multilamellar bodies
+## explanation_a
+Membrane-limited multilamellar bodies, storing surfactant precursors, are a type II pneumocyte feature, not type I.
+## answer_b
+Provide a thin membrane through which gaseous exchange occurs
+## explanation_b
+Correct. Type I pneumocytes provide a thin membrane through which gas exchange occurs -- their entire structure is built for that one job.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_c
+Secrete the pulmonary surfactant
+## explanation_c
+Secreting pulmonary surfactant is a type II pneumocyte function; type I pneumocytes have no secretory role.
+## answer_d
+Can divide and act as stem cells
+## explanation_d
+Dividing and acting as a stem cell for both pneumocyte types is a type II pneumocyte function; type I pneumocytes cannot divide.
+## correct_answer
+B
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify providing a thin gas-exchange membrane as the defining type I pneumocyte characteristic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p3 q29. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C67FA95FA600
+## title
+Type | pneumocytes: i
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Type | pneumocytes: i
+## answer_a
+Have membrane limited multilamellar bodies. i
+## explanation_a
+Membrane-limited multilamellar bodies, storing surfactant precursors, are a type II pneumocyte feature, not type I.
+## answer_b
+Provide a thin membrane through which gaseous exchange occurs. i
+## explanation_b
+Correct. Type I pneumocytes provide a thin membrane through which gas exchange occurs, the defining job their flat, organelle-poor structure exists for.
+
+Why this is right:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_c
+Secrete pulmonary surfactant
+## explanation_c
+Secreting pulmonary surfactant is a type II pneumocyte function; type I pneumocytes have no secretory role.
+## answer_d
+Can divide and act as stem cells
+## explanation_d
+Dividing and acting as a stem cell for both pneumocyte types is a type II pneumocyte function; type I pneumocytes cannot divide.
+## correct_answer
+B
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify providing a thin gas-exchange membrane as the defining type I pneumocyte characteristic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q29. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D5EAFCB0EF33
+## title
+All the following characters of Alveoli except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following characters of Alveoli except
+## answer_a
+str,, functional units for gas exchange
+## explanation_a
+True, so not the exception. Alveoli are the structural and functional unit of gas exchange, the endpoint of the whole respiratory tree.
+## answer_b
+open into alveolar duct, Sacs
+## explanation_b
+True, so not the exception. Alveoli open into alveolar sacs, alveolar ducts and respiratory bronchioles alike.
+## answer_c
+Alveolar Pore equalize pressure between alveoli
+## explanation_c
+True, so not the exception. Alveolar pores (of Kohn) between adjoining alveolar walls equalise pressure between alveoli and give collateral air circulation when a bronchiole is obstructed.
+## answer_d
+Contain pneumocyte type II for gas exchange
+## explanation_d
+The exception, and the answer. Alveoli contain both pneumocyte types, but it is the type I pneumocyte that carries out gas exchange; the type II pneumocyte's job is secreting surfactant and acting as the stem cell for both types, not gas exchange itself.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## correct_answer
+D
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify gas exchange as a type I, not type II, pneumocyte job even though both line the alveolus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q53. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-6910F90C6FC4
+## title
+Alveolar pore of kohn:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Alveolar pore of kohn:
+## answer_a
+improve gas exchange ,
+## explanation_a
+Improving gas exchange directly is the job of the thin blood-air barrier itself, not the pores of Kohn, whose role is pressure equalisation between alveoli.
+## answer_b
+Secrete pulmonary surfactant
+## explanation_b
+Secreting pulmonary surfactant is a type II pneumocyte function, unrelated to the pores of Kohn, which are simply openings between adjoining alveolar walls.
+## answer_c
+provide collateral circulation of air
+## explanation_c
+Correct. The pores of Kohn connect adjoining alveoli, equalising pressure between them and providing collateral air circulation when a bronchiole supplying one of them is obstructed.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_d
+Prevent leakage of tissue fluid
+## explanation_d
+Preventing tissue fluid leakage is the job of the tight junctions between type I pneumocytes, not the pores of Kohn, which are open channels for air, not a barrier function.
+## correct_answer
+C
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the pores of Kohn provide collateral air circulation between alveoli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q54. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-8EA45547014D
+## title
+free termination of respiratory bronchiole
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+free termination of respiratory bronchiole
+## answer_a
+Alveoli
+## explanation_a
+Alveoli are the terminal structural units opening off ducts, sacs and bronchioles; they are not themselves the free termination of the respiratory bronchiole.
+## answer_b
+Alveolar sac
+## explanation_b
+The alveolar sac is a group of alveoli sharing a central space, one step further along the sequence than the free termination of the respiratory bronchiole.
+## answer_c
+Alveolar duct
+## explanation_c
+Correct. The alveolar duct is the free termination of the respiratory bronchiole -- a passage lined completely by alveolar openings, with smooth muscle only at their mouths.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_d
+type I pneumocyte
+## explanation_d
+A type I pneumocyte is a cell type, not a segment of the airway; it cannot be the anatomical termination of the respiratory bronchiole.
+## correct_answer
+C
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the alveolar duct as the free termination of the respiratory bronchiole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q51. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-38A4BC313AB0
+## title
+region of transition between conducting, respiratory portion
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+region of transition between conducting, respiratory portion
+## answer_a
+Alveoli
+## explanation_a
+Alveoli are already deep in the respiratory portion, well past the conducting-to-respiratory transition, not the transition point itself.
+## answer_b
+bronchi
+## explanation_b
+Bronchi are purely conducting-portion tissue, upstream of the transition, not the transition itself.
+## answer_c
+Alveolar duct
+## explanation_c
+The alveolar duct is already respiratory-portion tissue, past the transition; the true boundary sits one step further upstream, at the respiratory bronchiole.
+## answer_d
+bronchioles
+## explanation_d
+Correct, among these choices. The transition from the conducting to the respiratory portion happens at the level of the bronchioles -- specifically the respiratory bronchiole, whose wall is interrupted by the first alveolar openings while it still keeps the cuboidal, ciliated lining of conducting-portion tissue.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## correct_answer
+D
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the bronchioles, specifically the respiratory bronchiole, as the conducting-to-respiratory transition.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q49. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-57F73E444521
+## title
+The first portion of the respiratory tree where gas exchange can occur:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The first portion of the respiratory tree where gas exchange can occur:
+## answer_a
+Alveolar duct
+## explanation_a
+The alveolar duct is already fully respiratory-portion tissue, one step past the first point gas exchange becomes possible.
+## answer_b
+Alveolar sac
+## explanation_b
+The alveolar sac is further along the sequence still, well past the first site where gas exchange can occur.
+## answer_c
+Respiratory bronchiole
+## explanation_c
+Correct. The respiratory bronchiole is the first portion of the respiratory tree where gas exchange can occur -- its wall is interrupted by the openings of some alveoli, even though it keeps a conducting-portion-like cuboidal, ciliated lining.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_d
+Terminal bronchiole
+## explanation_d
+The terminal bronchiole is one step upstream of the respiratory bronchiole and is purely conducting-portion tissue; no gas exchange occurs there at all.
+## correct_answer
+C
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the respiratory bronchiole as the first site gas exchange becomes possible.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q15. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-28656CF9F34D
+## title
+What is the first portion of the respiratory tree where gas exchange can occur?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the first portion of the respiratory tree where gas exchange can occur?
+## answer_a
+Alveolar duct
+## explanation_a
+The alveolar duct is already fully respiratory-portion tissue, one step past the first point gas exchange becomes possible.
+## answer_b
+Alveolar sac
+## explanation_b
+The alveolar sac is further along the sequence still, well past the first site where gas exchange can occur.
+## answer_c
+Respiratory bronchiole
+## explanation_c
+Correct. The respiratory bronchiole is the first portion of the respiratory tree where gas exchange can occur, its wall interrupted by the openings of some alveoli despite its conducting-portion-like cuboidal, ciliated lining.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_d
+Terminal bronchiole
+## explanation_d
+The terminal bronchiole, one step upstream of the respiratory bronchiole, is purely conducting-portion tissue; no gas exchange occurs there.
+## correct_answer
+C
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Name the respiratory bronchiole as the first site gas exchange becomes possible.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q15. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-5C33EAAB771B
+## title
+Which of the following could NOT be part of the respiratory zone? 1
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following could NOT be part of the respiratory zone? 1
+## answer_a
+alveolar sacs
+## explanation_a
+Alveolar sacs are respiratory-zone tissue, groups of alveoli sharing a central airspace -- genuinely part of the respiratory zone, not the exception.
+## answer_b
+Alveolar ducts 1
+## explanation_b
+Alveolar ducts are respiratory-zone tissue, the free termination of the respiratory bronchiole -- genuinely part of the respiratory zone, not the exception.
+## answer_c
+Terminal bronchioles ' 3
+## explanation_c
+The exception, and the answer. Terminal bronchioles are the last purely conducting-portion structure, one step upstream of the respiratory bronchiole; no alveoli open from their wall, so they take no part in gas exchange and are not part of the respiratory zone.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_d
+Respiratory bronchiole
+## explanation_d
+Respiratory bronchioles are respiratory-zone tissue by definition -- the first segment whose wall is interrupted by alveolar openings -- genuinely part of the respiratory zone, not the exception.
+## correct_answer
+C
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Physiology
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the terminal bronchiole as purely conducting-portion tissue, excluded from the respiratory zone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p28 q20. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-177E5A1CE19F
+## title
+The structural changes that occur in the respiratory airway is characterized by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The structural changes that occur in the respiratory airway is characterized by:
+## answer_a
+Cilia disappear before goblet cells
+## explanation_a
+Reversed: goblet cells disappear before ciliated cells as the airway progresses distally -- goblet cells are already absent by the bronchiole level, while scattered ciliated cells persist even into the respiratory bronchioles.
+## answer_b
+Serous and mucous glands increase gradually
+## explanation_b
+Reversed: serous and mucous glands progressively decrease, not increase, as the airway progresses distally, disappearing altogether by the level of the bronchioles.
+## answer_c
+Smooth muscle is present in alveolar duct and absent in alveolar sac and alveoli
+## explanation_c
+Correct. Smooth muscle persists as small sphincter-like knobs at the mouths of alveoli along the alveolar ducts, but this smooth muscle component is absent by the level of the alveolar sacs and individual alveoli, which are structured purely for gas exchange.
+
+Why this is right:
+- The respiratory portion runs, in order, from respiratory bronchiole to alveolar duct to alveolar sac to alveolus.
+## answer_d
+Cartilage increases gradually
+## explanation_d
+Reversed: cartilage progressively decreases, not increases, as the airway progresses distally, disappearing altogether by the level of the bronchioles.
+## correct_answer
+C
+## main_concept
+CON-RES-38BCE7439DEBC9
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+State that alveolar-duct smooth muscle disappears by the level of the alveolar sac and alveolus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p32 q31. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6FB4813630E2
+## title
+Blood air barrier is formed of All the following except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Blood air barrier is formed of All the following except
+## answer_a
+film of pulmonary surfactant
+## explanation_a
+True, so not the exception. The surfactant film lining the alveolar surface is the first of the barrier's four layers.
+## answer_b
+cytoplasm of pneumocyte type II
+## explanation_b
+The exception, and the answer. The cytoplasm of the type II pneumocyte is not one of the barrier's four layers; its cuboidal, organelle-rich structure is too thick for the thin diffusion path, which uses the type I pneumocyte instead.
+
+Why this is right:
+- The blood-air barrier is the four-layer path across which gas exchange actually happens: the surfactant film on the alveolar surface, the type I pneumocyte, the fused basal lamina of that pneumocyte and the capillary endothelial cell, and the capillary endothelial cell itself.
+## answer_c
+fused basal lamina of endothelium, type I pneumocyte
+## explanation_c
+True, so not the exception. The fused basal lamina of the type I pneumocyte and the capillary endothelium is one of the barrier's four layers, holding the other two together.
+## answer_d
+cytoplasm of endothelial cell of Capillary
+## explanation_d
+True, so not the exception. The cytoplasm of the capillary endothelial cell is the final of the barrier's four layers, completing the path from alveolar air to blood.
+## correct_answer
+B
+## main_concept
+CON-RES-ED5ADFB428C5BF
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the type II pneumocyte as excluded from the four-layer blood-air barrier.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q63. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-9601CD8325B1
+## title
+The following is NOT a part of the blood air barrier:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The following is NOT a part of the blood air barrier:
+## answer_a
+Type I pneumocytes
+## explanation_a
+Type I pneumocytes, with their extremely thin, flattened cytoplasm, are a genuine, essential layer of the blood-air barrier.
+## answer_b
+Surfactant
+## explanation_b
+Surfactant, as the film lining the alveolar surface, is the barrier's outermost layer -- a genuine part of it, not the exception.
+## answer_c
+Type II pneumocytes
+## explanation_c
+Correct. Type II pneumocytes are excluded from the classic four-layer blood-air barrier; their cuboidal, organelle-rich structure would be far too thick to support rapid gas diffusion, so the thin type I pneumocyte carries out this job instead.
+
+Why this is right:
+- The blood-air barrier is the four-layer path across which gas exchange actually happens: the surfactant film on the alveolar surface, the type I pneumocyte, the fused basal lamina of that pneumocyte and the capillary endothelial cell, and the capillary endothelial cell itself.
+## answer_d
+Endothelial cells
+## explanation_d
+Capillary endothelial cells, with their thin cytoplasm, are a genuine, essential layer of the blood-air barrier -- the final layer before blood itself.
+## correct_answer
+C
+## main_concept
+CON-RES-ED5ADFB428C5BF
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory System — Respiratory Portion Pneumocytes
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the type II pneumocyte as excluded from the four-layer blood-air barrier.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p16 q118. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F592C96ADC90
+## title
+Interalveolar septa are:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Interalveolar septa are:
+## answer_a
+Delicate partitions separating alveoli.
+## explanation_a
+Correct. Interalveolar septa are delicate connective-tissue partitions separating adjacent alveoli, carrying the richest capillary network in the body along with elastic and reticular fibres.
+
+Why this is right:
+- The interalveolar septum is the delicate connective-tissue partition separating adjacent alveoli.
+## answer_b
+Having smooth muscle fibers.
+## explanation_b
+Interalveolar septa do not have smooth muscle fibres of their own; smooth muscle in the respiratory portion is instead found as small sphincter-like knobs at the mouths of alveoli along the alveolar ducts.
+## answer_c
+Supported by collagen fibers.
+## explanation_c
+Interalveolar septa are supported chiefly by elastic and reticular fibres, not collagen; collagen is not their defining structural element.
+## answer_d
+Non vascular
+## explanation_d
+Interalveolar septa are the most richly vascularised connective tissue in the body, not avascular -- they carry the capillary network across which gas exchange happens.
+## correct_answer
+A
+## main_concept
+CON-RES-4903189C8DA93C
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that interalveolar septa are delicate connective-tissue partitions between alveoli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q26. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-780F6C67DCBA
+## title
+Interalveolar septa:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Interalveolar septa:
+## answer_a
+Are delicate parts separating alveoli
+## explanation_a
+Correct. Interalveolar septa are delicate parts separating alveoli, built from connective tissue carrying a dense capillary network plus elastic and reticular fibres.
+
+Why this is right:
+- The interalveolar septum is the delicate connective-tissue partition separating adjacent alveoli.
+## answer_b
+Contain smooth muscle fibers
+## explanation_b
+Interalveolar septa do not contain their own smooth muscle fibres; the respiratory portion's smooth muscle is instead confined to small knobs at the mouths of alveoli along the alveolar ducts.
+## answer_c
+Supported by collagen fibers
+## explanation_c
+Collagen fibres are not the septum's defining support; elastic and reticular fibres are, serving lung mechanics and capillary protection rather than rigidity.
+## answer_d
+Have no blood capillaries
+## explanation_d
+Interalveolar septa carry the richest capillary network in the body -- the opposite of having no blood capillaries.
+## correct_answer
+A
+## main_concept
+CON-RES-4903189C8DA93C
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that interalveolar septa are delicate connective-tissue partitions between alveoli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q26. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-F6E3ADABF86B
+## title
+Lack of surfactant produces all of the above EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Lack of surfactant produces all of the above EXCEPT:
+## answer_a
+Collapse of small alveoli and expansion of large alveoli
+## explanation_a
+True, so not the exception. Without surfactant, small alveoli (with their higher collapsing pressure, by Laplace's law) become unstable and collapse while relatively larger alveoli over-distend -- a genuine consequence of surfactant deficiency.
+## answer_b
+Decreased lung compliance
+## explanation_b
+True, so not the exception. Increased alveolar surface tension without surfactant directly stiffens the lung, decreasing compliance.
+## answer_c
+Decreased total lung capacity
+## explanation_c
+The exception, and the answer. Total lung capacity, a maximal structural lung volume, is not a direct or primary consequence of surfactant deficiency the way compliance and functional residual capacity are; TLC reduction is not the classic teaching point tested by this deficiency.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_d
+Increased work of breathing
+## explanation_d
+True, so not the exception. Decreased compliance directly raises the work of breathing, a genuine downstream consequence of surfactant deficiency.
+## correct_answer
+C
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Physiology
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Identify decreased total lung capacity as not a direct, classic consequence of surfactant deficiency.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p22 q43. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A884EAEC61A2
+## title
+Lung surfactant:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Lung surfactant:
+## answer_a
+Decreases the tendency of alveolar collapse during expiration
+## explanation_a
+Correct. By lowering alveolar surface tension, surfactant decreases the tendency of alveoli -- especially the smaller ones -- to collapse during expiration, when their radius and surface tension effects are at their most unfavourable.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_b
+Increases surface tension of fluid lining alveoli
+## explanation_b
+Surfactant decreases, not increases, the surface tension of the fluid lining the alveoli; raising surface tension is what happens in its absence, not what it does.
+## answer_c
+Is deficient in diabetic mothers
+## explanation_c
+Surfactant deficiency is classically linked to prematurity; this option's specific framing (diabetic mothers) is a real, separate risk factor via fetal hyperinsulinaemia, but is not the option this question's key selects.
+## answer_d
+Prevents pulmonary edema as it favors filtration of fluid from blood into
+## explanation_d
+Surfactant helps prevent pulmonary oedema by reducing the surface-tension-driven force that favours fluid filtration into the alveoli -- the opposite of 'favouring' that filtration, as this option states.
+## correct_answer
+A
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Physiology
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that surfactant decreases the tendency of alveolar collapse during expiration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p15 q2. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-7F62CA79D6F9
+## title
+Lung surfactant: ‏ع‎ ‎a- Decreases the tendency of alveolar collapse during expiration
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Lung surfactant: ‏ع‎ ‎a- Decreases the tendency of alveolar collapse during expiration
+## answer_a
+Decreases the tendency of alveolar collapse during expiration
+## explanation_a
+This restates a true fact about surfactant (it does decrease the tendency of alveolar collapse) but is not the option this particular question's key selects as its intended answer.
+## answer_b
+Increases surface tension of fluid lining alveoli
+## explanation_b
+Surfactant's true action is to decrease, not increase, the surface tension of the fluid lining the alveoli -- the entire basis of its anti-collapse effect.
+## answer_c
+Is deficient in diabetic mothers
+## explanation_c
+Correct, per this question's key. Infants of diabetic mothers carry an increased risk of surfactant deficiency: fetal hyperinsulinaemia, driven by maternal hyperglycaemia crossing the placenta, delays maturation of the type II pneumocyte's surfactant-synthesising machinery even at a gestational age when production would otherwise be adequate.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_d
+Prevents pulmonary edema as it favors filtration of fluid from blood into alveoli,
+## explanation_d
+Surfactant helps prevent pulmonary oedema by reducing, not favouring, the surface-tension-driven force that would otherwise draw fluid in from the pulmonary capillaries.
+## correct_answer
+C
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory System — Respiratory Portion Pneumocytes
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Identify infants of diabetic mothers as carrying an increased risk of surfactant deficiency.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p6 q36. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7AC1AC893C6B
+## title
+Pulmonary surfactant:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Pulmonary surfactant:
+## answer_a
+Is produced by type II pneumocytes
+## explanation_a
+Correct. Pulmonary surfactant is produced and secreted by type II pneumocytes, which package it in membrane-bound multilamellar bodies before release onto the alveolar surface.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## answer_b
+Is produced by alveolar macrophages
+## explanation_b
+Alveolar macrophages (dust cells, heart-failure cells) clear inhaled particles and red cells; they play no role in producing surfactant.
+## answer_c
+Increases surface tension of alveolar epithelium
+## explanation_c
+Surfactant decreases, not increases, the surface tension of the alveolar epithelium's lining fluid -- the opposite of what this option states.
+## answer_d
+Is produced by type I pneumocytes
+## explanation_d
+Type I pneumocytes are purely structural gas-exchange cells with no secretory function; producing surfactant is a type II pneumocyte job.
+## correct_answer
+A
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that type II pneumocytes produce pulmonary surfactant.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q18. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-C1FF83361D9D
+## title
+Which of the following ceils produce surfactant in lung alveoli?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following ceils produce surfactant in lung alveoli?
+## answer_a
+Endothelial cells
+## explanation_a
+Endothelial cells form the capillary component of the blood-air barrier; they have no role in surfactant production.
+## answer_b
+Goblet cells
+## explanation_b
+Goblet cells secrete mucus in the conducting airways and are not present in the alveoli at all, let alone producing surfactant there.
+## answer_c
+Type | alveolar cells
+## explanation_c
+Type I alveolar cells are thin, purely structural gas-exchange cells with no secretory function; they do not produce surfactant.
+## answer_d
+Type II alveolar cells
+## explanation_d
+Correct. Type II alveolar cells (pneumocytes) are the dedicated surfactant-producing cells, packaging it within multilamellar bodies before secreting it onto the alveolar surface.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Physiology
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that type II alveolar cells produce pulmonary surfactant.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p18 q20. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2A05EABD6B78
+## title
+Which of the following cells produce surfactant in lung alveoli?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following cells produce surfactant in lung alveoli?
+## answer_a
+Endothelial cells
+## explanation_a
+Endothelial cells form the capillary component of the blood-air barrier and play no role in surfactant production.
+## answer_b
+Goblet cells
+## explanation_b
+Goblet cells secrete mucus in the conducting airways and are not present in the alveoli, nor involved in surfactant production.
+## answer_c
+Type | alveolar cells
+## explanation_c
+Type I alveolar cells are thin structural cells for gas exchange, not surfactant producers.
+## answer_d
+Type II alveolar cells ot
+## explanation_d
+Correct. Type II alveolar cells remain the dedicated surfactant-producing cells, packaging surfactant within multilamellar bodies before secreting it onto the alveolar surface to reduce surface tension and prevent collapse.
+
+Why this is right:
+- Pulmonary surfactant is a phospholipid-rich secretion of the type II alveolar cells that spreads over the air-fluid interface lining the alveoli and markedly lowers its surface tension.
+## correct_answer
+D
+## main_concept
+CON-RES-07849135906FBD
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Physiology
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that type II alveolar cells produce pulmonary surfactant.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p30 q33. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F483520CC848
+## title
+abnormal permanent enlargement of alveoli
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+abnormal permanent enlargement of alveoli
+## answer_a
+epistaxis
+## explanation_a
+Epistaxis is nosebleed, an unrelated nasal condition with no connection to alveolar structure.
+## answer_b
+emphysema
+## explanation_b
+Correct. Emphysema is defined as abnormal, permanent enlargement of the air spaces distal to the terminal bronchiole, from destruction of the interalveolar septa by dust-cell protease and elastase, normally kept in check by protective proteins that cigarette smoking inhibits.
+
+Why this is right:
+- Two disease processes trace directly to the respiratory portion's normal structure.
+## answer_c
+Bronchitis
+## explanation_c
+Bronchitis is inflammation of the bronchi, a conducting-portion condition, not a description of permanent alveolar enlargement.
+## answer_d
+sinusitis
+## explanation_d
+Sinusitis is inflammation of the paranasal sinuses, an entirely different anatomical region with no connection to alveolar enlargement.
+## correct_answer
+B
+## main_concept
+CON-RES-1C25BE837B7E1D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Name emphysema as permanent, abnormal enlargement of the alveolar air spaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q61. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-8B5A76DA5A84
+## title
+The anomaly in which there is dilatation of terminal or larger alveoli is called:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The anomaly in which there is dilatation of terminal or larger alveoli is called:
+## answer_a
+Congenital cystic fibrosis
+## explanation_a
+Correct, per this source's own key and wording. A congenital anomaly presenting as dilatation of the terminal or larger alveoli -- sometimes labelled this way in older texts -- is a structural malformation of the lung's respiratory portion present from birth, distinct from any of the other three options here; the more standard modern term for this group of lesions is congenital cystic disease of the lung, but the option as printed is what this source's key marks correct.
+
+Why this is right:
+- Two disease processes trace directly to the respiratory portion's normal structure.
+## answer_b
+Tracheoesophageal fistula
+## explanation_b
+A tracheoesophageal fistula is an abnormal connection between the trachea and oesophagus, an entirely different congenital anomaly with no connection to alveolar dilatation.
+## answer_c
+Respiratory distress
+## explanation_c
+Respiratory distress (syndrome) is an acquired functional failure from surfactant deficiency, typically in a premature infant -- a physiological problem, not the structural, congenital dilatation this stem describes.
+## answer_d
+Atresia
+## explanation_d
+Atresia is the congenital absence or closure of a passage; it describes something failing to form or open, the opposite of an abnormally dilated air space.
+## correct_answer
+A
+## main_concept
+CON-RES-1C25BE837B7E1D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Respiratory System — Respiratory Portion Pneumocytes
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall
+## learning_objective
+Distinguish a congenital cystic malformation of the lung from tracheoesophageal fistula, respiratory distress and atresia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q34. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
 
 
