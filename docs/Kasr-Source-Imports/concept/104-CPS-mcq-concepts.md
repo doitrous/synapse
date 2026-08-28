@@ -11,6 +11,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 9 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
@@ -20,6 +21,7 @@
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
+    Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -61,7 +63,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  91 questions were excluded and 0 held back for having no
+  97 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1114,6 +1116,62 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## id
+CON-CVS-AAAD34C16F9880
+## label
+Sympathetic activity raises heart rate and conduction velocity while parasympathetic activity lowers both, and a dominant resting vagal tone keeps heart rate below the SA node's own intrinsic rate
+## canonical_key
+autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CONDUCTION
+## field_notes
+canonical_key "autonomic-nervous-system.heart-rate-and-conduction-velocity.chronotropy-dromotropy" already has a pinned id in this module (CON-CVS-AAAD34C16F9880); mintConceptId derives the same id fresh (CON-CVS-AAAD34C16F9880) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-11E581298A0B95
+## label
+Conduction velocity is slowest through the AV node and fastest through the Purkinje fibres, and the slow AV nodal delay gives the atria time to empty before ventricular contraction begins
+## canonical_key
+cardiac-conduction-system.regional-velocity.av-nodal-delay
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CONDUCTION
+## field_notes
+canonical_key "cardiac-conduction-system.regional-velocity.av-nodal-delay" already has a pinned id in this module (CON-CVS-11E581298A0B95); mintConceptId derives the same id fresh (CON-CVS-11E581298A0B95) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-5288011D93888B
+## label
+The absolute and relative refractory periods of the cardiac myocyte action potential span almost the whole of contraction, which prevents the sustained tetanic contractions seen in skeletal muscle
+## canonical_key
+cardiac-myocyte-action-potential.refractory-periods.arp-rrp-supernormal
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p6 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CONDUCTION
+## field_notes
+canonical_key "cardiac-myocyte-action-potential.refractory-periods.arp-rrp-supernormal" already has a pinned id in this module (CON-CVS-5288011D93888B); mintConceptId derives the same id fresh (CON-CVS-5288011D93888B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
 CON-CVS-132A76916FEC05
 ## label
 A fenestrated (visceral) capillary has pores covered by diaphragms and a continuous basal lamina, sited wherever fluid crosses fast
@@ -2132,6 +2190,269 @@ direct_statement
 ART-104-HIS-ARTERIES-AND-VEINS | ART-104-ANA-CORONARY-ARTERIES
 ## resource_ids
 src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The working cardiac myocyte's action potential plateau (phase 2) is sustained by a balance between inward Ca++ current through L-type calcium channels and outward K+ current, prolonging depolarization well beyond a skeletal muscle fibre's brief spike
+## id
+CON-CVS-D0CD4A234205EF
+## canonical_key
+cardiac-action-potential.plateau-phase2.calcium-potassium-balance
+## definition
+After the rapid fast-Na+-channel-driven upstroke (phase 0) of a working atrial or ventricular myocyte's action potential, the membrane does not repolarize immediately as skeletal muscle's does. Instead it plateaus (phase 2) for roughly 200-300 ms, held near 0 mV by a near-balance between a sustained inward Ca++ current — carried by L-type ('long-lasting') Ca++ channels that open during the upstroke and close slowly — and an outward K+ current leaving through the cell's potassium channels. This inward Ca++ current is also the trigger for excitation-contraction coupling: the Ca++ entering through L-type channels triggers a much larger calcium-induced release of Ca++ from the sarcoplasmic reticulum. Only once the L-type Ca++ channels inactivate does the outward K+ current dominate, producing phase 3 repolarization.
+## explicit_objective
+State that the plateau (phase 2) of the working myocyte's action potential is maintained by a balance between L-type Ca++ channel influx and K+ efflux, and that this plateau — largely absent from skeletal muscle's action potential — is what gives cardiac muscle both its long action potential duration and its long refractory period.
+## pitfalls
+Assuming the cardiac plateau is simply 'a pause' with no ionic current flowing. Two opposing currents are active throughout it — inward Ca++ and outward K+ — and it is their near-balance, not their absence, that holds the membrane potential flat for hundreds of milliseconds.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p2 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Cardiac action potential plateau | Phase 2 | L-type calcium channels
+## article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Action potential of the cardiac muscle is ‘characterized by the presence of plateau which: a
+## conflicts
+No conflicting record found; this canonical_key returned 'safe to create' from find-existing.mjs and no concept in 104-CPS-physiology-concepts.md carries ART-104-PHY-CARDIAC-ACTION-POTENTIAL as its own article_ids, so this is a genuine gap in that pre-staged concept file rather than a duplicate.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Cardiac muscle behaves as a functional, not a true, syncytium — individual myocytes stay anatomically separate but are electrically coupled through the low-resistance gap junctions of the intercalated discs
+## id
+CON-CVS-7FC4E8F3FBEFFE
+## canonical_key
+cardiac-muscle.functional-syncytium-and-intercalated-discs
+## definition
+Cardiac muscle fibres are individual cells, each with its own nucleus and plasma membrane, separated from their neighbours by intercalated discs. This distinguishes cardiac muscle from a true syncytium (such as skeletal muscle, formed by fusion of many cells into one multinucleated fibre), even though the tissue behaves electrically as if it were one continuous sheet. The intercalated discs carry gap junctions, whose channels have a very low electrical resistance, letting an action potential spread rapidly from cell to cell almost as though no membrane separated them — this 'functional syncytium' behaviour is what lets the whole atrial mass, and separately the whole ventricular mass, contract together as a single unit following the all-or-none law. Cardiac muscle is also richly supplied with capillaries, with almost one capillary per fibre, matching its continuous, high metabolic demand.
+## explicit_objective
+Distinguish a functional syncytium (cardiac muscle: separate cells, low-resistance electrical coupling via intercalated disc gap junctions) from a true syncytium (skeletal muscle: fused into one multinucleated fibre), and state that cardiac muscle obeys the all-or-none law and is densely capillarised.
+## pitfalls
+Calling cardiac muscle a 'true syncytium' because it behaves electrically as one unit. Anatomically its cells remain separate, joined only by the electrically-permissive intercalated discs — 'functional', not 'true', is the precise term this distinction turns on.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p1 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Functional syncytium | Intercalated discs | All-or-none law (cardiac)
+## article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] About the cardiac muscle all the following are true except : a, It has low electric resistance of the membrane at the intercalated discs
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## resource_ids
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids

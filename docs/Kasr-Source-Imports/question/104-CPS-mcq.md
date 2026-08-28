@@ -11,6 +11,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
+    Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods — 9 questions, 3 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
@@ -20,6 +21,7 @@
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
+    Physiology Cardiovascular System — Working Myocyte Action Potential — 8 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -61,7 +63,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  91 questions were excluded and 0 held back for having no
+  97 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -5541,6 +5543,742 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-65EF52846B88
+## title
+Chronotropism refers to which of the following?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Chronotropism refers to which of the following?
+## answer_a
+Rhythmicity
+## explanation_a
+Correct. Chronotropy is the effect on the SA node's own discharge rate — positive chronotropy speeds it (tachycardia), negative chronotropy slows it (bradycardia) — which is what changes how often, i.e. the rhythm/rate, the heart beats.
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_b
+Conductivity
+## explanation_b
+Conductivity — the speed of impulse spread through the conducting system — is affected separately, by a distinct term: dromotropy. Sympathetic and parasympathetic activity change dromotropy and chronotropy together but they are not the same property.
+## answer_c
+Excitability
+## explanation_c
+Excitability, the ease of triggering a new action potential, is named bathmotropy, a different property from the rate-setting effect chronotropism describes.
+## answer_d
+Contractility
+## explanation_d
+Contractility, the force of contraction, is named inotropy — a mechanical property, not the electrical rate property chronotropism names.
+## correct_answer
+A
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+Identify chronotropism as the term for an effect on heart rate/rhythm, distinct from dromotropy (conduction), bathmotropy (excitability) and inotropy (contractility).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q45. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F7E02576CFFB
+## title
+What is the effect of sympathetic stimulation on the membrane potential of the SA node?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the effect of sympathetic stimulation on the membrane potential of the SA node?
+## answer_a
+It opposes the funny current
+## explanation_a
+Backwards. Sympathetic activity, via norepinephrine on beta1-adrenoreceptors and a rise in cAMP, increases the funny current — it opposes the funny current only in the sense that parasympathetic activity does, not sympathetic.
+## answer_b
+It increases the slope of phase 4
+## explanation_b
+Correct. Raised cAMP from beta1-receptor activation increases the funny current, steepening the slope of phase 4 so the SA node reaches threshold sooner and fires faster — positive chronotropy.
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_c
+It activates hyperpolarizing potassium current
+## explanation_c
+The opposite of the sympathetic effect. Activating a hyperpolarizing K+ current would slow the SA node, which is what parasympathetic (vagal) activity does, not sympathetic stimulation.
+## answer_d
+It decreases the intracellular cAMP
+## explanation_d
+Backwards. Sympathetic stimulation increases, not decreases, intracellular cAMP via beta1-adrenoreceptor signalling — that rise in cAMP is exactly what increases the funny current.
+## correct_answer
+B
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that sympathetic stimulation increases the slope of phase 4 (the pacemaker potential) via beta1-receptor/cAMP-driven increase in the funny current, speeding SA node discharge.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p6 q42. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B4663507A09B
+## title
+The heart continues to beat regularly. This property is called:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The heart continues to beat regularly. This property is called:
+## answer_a
+Excitability
+## explanation_a
+Excitability is the capacity to respond to a stimulus with an action potential, not the property of maintaining a regular beat.
+## answer_b
+Rhythmicity
+## explanation_b
+Correct. Rhythmicity is the heart's ability to generate and maintain a regular beat, driven by the pacemaker tissues' own spontaneous, cyclically repeating phase 4 depolarization.
+
+Why this is right:
+- Sympathetic activity increases both heart rate (positive chronotropy, via norepinephrine-beta1-cAMP raising the funny current) and conduction velocity (positive dromotropy, via beta1-mediated increases in ionic conductance), while parasympathetic activity decreases both; because resting vagal tone is stronger than sympathetic tone, the normal resting heart rate is about 72 beats/minute, below the SA node's own intrinsic discharge rate of 90-105 beats/minute.
+## answer_c
+Conductivity
+## explanation_c
+Conductivity is the capacity to propagate an impulse from cell to cell, a separate property from generating the regular rhythm itself.
+## answer_d
+Contractility
+## explanation_d
+Contractility is the force of contraction the myocardium generates, a mechanical property unrelated to the regularity of the underlying rhythm.
+## correct_answer
+B
+## main_concept
+CON-CVS-AAAD34C16F9880
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+Name rhythmicity as the property of beating regularly, distinct from excitability, conductivity and contractility.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q36. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-833DEC80EF28
+## title
+The physiologic function of the relatively slow conduction through the AV node is to al…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The physiologic function of the relatively slow conduction through the AV node is to allow sufficient time for which of the following?
+## answer_a
+Runoff of blood from the aorta to the arteries
+## explanation_a
+Runoff of blood from the aorta into the arteries happens during ventricular ejection, downstream of the electrical events entirely — the AV nodal delay is upstream of this and does not serve it.
+## answer_b
+Venous return to the heart
+## explanation_b
+Venous return to the heart is governed by peripheral venous pressure and the pressure gradient into the right atrium, not by how long the AV node takes to conduct an impulse to the ventricles.
+## answer_c
+Filling of the ventricles
+## explanation_c
+Correct. The AV node's slow (about 0.05 m/sec) conduction delays ventricular activation just long enough for the atria to finish contracting and empty their blood into the ventricles first, so ventricular filling is complete before ventricular systole begins.
+
+Why this is right:
+- Conduction velocity rises from about 1 m/sec along the internodal tracts to a sharp low of about 0.05 m/sec within the AV node, then to about 2 m/sec through the bundle of His and bundle branches and about 4 m/sec through the Purkinje fibres; the slow AV nodal conduction gives the atria time to finish emptying into the ventricles before ventricular contraction begins, and it limits how many rapid atrial impulses can reach the ventricles when the atrial rate is abnormally fast.
+## answer_d
+Repolarization of the ventricles
+## explanation_d
+Ventricular repolarization is an electrical event that follows ventricular depolarization by an interval set by the plateau's own duration, not by the AV nodal delay that precedes ventricular depolarization.
+## correct_answer
+C
+## main_concept
+CON-CVS-11E581298A0B95
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that the AV node's slow conduction exists to allow the ventricles time to fill from atrial contraction before ventricular systole begins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p6 q20. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0D5CA5CE73FA
+## title
+The absolute refractory period in the ventricle : |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The absolute refractory period in the ventricle : |
+## answer_a
+increases during sympathetic stimulation . i
+## explanation_a
+Backwards. Sympathetic stimulation, by speeding conduction and repolarization, tends to shorten the cardiac action potential and therefore the ARP, not lengthen it.
+## answer_b
+coincides with the phase of rapid depolarization and the plateau
+## explanation_b
+Correct. The absolute refractory period spans phase 0 (rapid depolarization), phase 1 and the phase 2 plateau, continuing into part of phase 3 — throughout this stretch the fast Na+ channels' inactivation gates remain closed, so no stimulus, however strong, can trigger a new action potential.
+
+Why this is right:
+- The cardiac myocyte's absolute refractory period spans phases 0, 1, 2 and part of phase 3 (down to about -50 mV), and its relative refractory period continues to about -75 mV; because of the plateau, this refractory period is much longer than a skeletal myocyte's and occupies almost the whole period of contraction, which prevents the heart from developing sustained tetanic contractions unsuitable for its pumping function.
+## answer_c
+corresponds with the whole duration of action potential
+## explanation_c
+Too broad: the ARP does not span the whole action potential — late phase 3 is instead the relative refractory period (a supra-threshold stimulus can excite the cell) and then the brief supernormal period, not further absolute refractoriness.
+## answer_d
+it is shorter than the ARP of skeletal muscle
+## explanation_d
+Backwards. The ventricular myocyte's ARP is much longer than skeletal muscle's, not shorter — the plateau is exactly what stretches it out, which is why cardiac muscle cannot be tetanised the way skeletal muscle can.
+## correct_answer
+B
+## main_concept
+CON-CVS-5288011D93888B
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that the ventricular absolute refractory period coincides with the phases of rapid depolarization and the plateau (phases 0 through 2), not the whole action potential or only part of phase 3.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p4 q25. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4BD26CA9B134
+## title
+The absolute refractory period of cardiac muscle ' . a, Coincides with total duration o…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The absolute refractory period of cardiac muscle ' . a, Coincides with total duration of action potential |
+## answer_a
+Coincides with total duration of action potential
+## explanation_a
+The ARP coincides with phases 0 through 2 and part of phase 3, not the total duration of the action potential — the relative refractory and supernormal periods make up the remainder of the action potential's own timeline.
+## answer_b
+During which the heart can respond to a maximal stimulus
+## explanation_b
+During the ARP the myocyte cannot respond to any stimulus, however maximal — that is the definition of 'absolute' — so this statement is false as worded, not a property of the ARP.
+## answer_c
+Is longer than the refractory period of the skeletal muscle
+## explanation_c
+Correct. The cardiac ARP is much longer than the skeletal muscle ARP, a direct consequence of the cardiac action potential's plateau, which skeletal muscle's brief action potential does not have.
+
+Why this is right:
+- The cardiac myocyte's absolute refractory period spans phases 0, 1, 2 and part of phase 3 (down to about -50 mV), and its relative refractory period continues to about -75 mV; because of the plateau, this refractory period is much longer than a skeletal myocyte's and occupies almost the whole period of contraction, which prevents the heart from developing sustained tetanic contractions unsuitable for its pumping function.
+## answer_d
+Is the period during which delayed rectifier K channels are inactivated
+## explanation_d
+The ARP is defined by inactivation of the fast Na+ channels' own inactivation gates, not by delayed rectifier K+ channels being inactivated — those K+ channels are the ones that drive repolarization in phase 3, near the ARP's end.
+## correct_answer
+C
+## main_concept
+CON-CVS-5288011D93888B
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the cardiac muscle absolute refractory period is much longer than the skeletal muscle absolute refractory period, and does not coincide with the whole action potential duration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p6 q42. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B66D0CDD85B9
+## title
+The supernormal period of cardiomyocyte action potential that many cardiac arrhythmias …
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The supernormal period of cardiomyocyte action potential that many cardiac arrhythmias can be initiated during:
+## answer_a
+Early part of phase 0
+## explanation_a
+Early phase 0 is deep within the absolute refractory period, when the cell cannot be excited by any stimulus at all — the opposite excitability state from the supernormal period.
+## answer_b
+Late part of phase 2
+## explanation_b
+Late phase 2 (the plateau) is also within the absolute refractory period, well before the membrane approaches full repolarization where the supernormal period occurs.
+## answer_c
+Early part of phase 3
+## explanation_c
+Early phase 3 is still within the relative refractory period, where only a supra-threshold stimulus succeeds — the membrane has not yet reached the near-fully-repolarized state the supernormal period requires.
+## answer_d
+Late part of phase 3
+## explanation_d
+Correct. The supernormal (vulnerable) period occurs late in phase 3, just before full repolarization, when the membrane sits close enough to threshold that a weaker-than-normal stimulus can trigger a new action potential — which is why many arrhythmias are initiated here.
+
+Why this is right:
+- The cardiac myocyte's absolute refractory period spans phases 0, 1, 2 and part of phase 3 (down to about -50 mV), and its relative refractory period continues to about -75 mV; because of the plateau, this refractory period is much longer than a skeletal myocyte's and occupies almost the whole period of contraction, which prevents the heart from developing sustained tetanic contractions unsuitable for its pumping function.
+## correct_answer
+D
+## main_concept
+CON-CVS-5288011D93888B
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a mechanism
+## learning_objective
+Locate the supernormal (vulnerable) period in the late part of phase 3, when many cardiac arrhythmias can be triggered by a weaker-than-normal stimulus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p6 q45. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D780B74A8F98
+## title
+The cardiac muscle is characterized by having all the following except :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The cardiac muscle is characterized by having all the following except :
+## answer_a
+intercalated disk connecting ms.
+## explanation_a
+True of cardiac muscle, so not the exception: intercalated discs (with their gap junctions) electrically couple neighbouring cardiac myocytes, letting the tissue function as a syncytium.
+## answer_b
+AT system located at the 2 line
+## explanation_b
+True of cardiac (and skeletal) muscle, so not the exception: the T-tubule system is positioned at the Z line, where it couples membrane depolarization to sarcoplasmic reticulum Ca++ release.
+## answer_c
+The same refractory period characteristics as the skeletal ms.
+## explanation_c
+The exception, and the answer. Cardiac muscle's refractory period is much LONGER than skeletal muscle's, a direct consequence of the plateau phase cardiac action potentials have and skeletal ones do not — the two tissues do not share refractory period characteristics.
+
+Why this is right:
+- The cardiac myocyte's absolute refractory period spans phases 0, 1, 2 and part of phase 3 (down to about -50 mV), and its relative refractory period continues to about -75 mV; because of the plateau, this refractory period is much longer than a skeletal myocyte's and occupies almost the whole period of contraction, which prevents the heart from developing sustained tetanic contractions unsuitable for its pumping function.
+## answer_d
+Acts as a physiological syncytium
+## explanation_d
+True of cardiac muscle, so not the exception: the electrical coupling at intercalated discs lets the myocardium behave as a functional syncytium despite being made of individual cells.
+## correct_answer
+C
+## main_concept
+CON-CVS-5288011D93888B
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Autonomic Control, Conduction and Refractory Periods
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that cardiac muscle's refractory period is much LONGER than skeletal muscle's, not the same, as the exception among true statements about cardiac muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p5 q36. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
@@ -14109,6 +14847,282 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-CB8F06DF87E1
+## title
+Action potential of the cardiac muscle is ‘characterized by the presence of plateau whi…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Action potential of the cardiac muscle is ‘characterized by the presence of plateau which: a
+## answer_a
+in the ventricular muscle it reached 100 m sec
+## explanation_a
+The plateau's duration is on the order of 200-300 ms in the ventricular muscle, not as long as 100 m sec would suggest if taken as a minimum — but more importantly, the option describes a duration figure, not the ionic mechanism the plateau itself depends on.
+## answer_b
+in the artial muscle, it reached 300 m sec
+## explanation_b
+Atrial muscle has a shorter action potential (and shorter plateau) than ventricular muscle, not a longer one reaching 300 m sec — this reverses the atrial-versus-ventricular comparison.
+## answer_c
+it result from a balance between Ca++ influx and K+ efflux
+## explanation_c
+Correct. The plateau is sustained by a near-balance between inward Ca++ current (through L-type Ca++ channels) and outward K+ current — neither current dominates until the Ca++ channels inactivate, at which point K+ efflux takes over and phase 3 repolarization begins.
+
+Why this is right:
+- After the rapid fast-Na+-channel-driven upstroke (phase 0) of a working atrial or ventricular myocyte's action potential, the membrane does not repolarize immediately as skeletal muscle's does.
+## answer_d
+it result from an inflow of Cl- and outflow of bicarbonate ions
+## explanation_d
+Cl- and bicarbonate movement are not part of the plateau's ionic basis in this scheme; the plateau is a Ca++-versus-K+ phenomenon, not an anion-exchange one.
+## correct_answer
+C
+## main_concept
+CON-CVS-D0CD4A234205EF
+## library_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## topic
+Physiology Cardiovascular System — Working Myocyte Action Potential
+## subtopic
+Physiology Cardiovascular System — Working Myocyte Action Potential
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that the cardiac action potential's plateau results from a balance between Ca++ influx and K+ efflux, not a fixed duration figure or an inflow of Cl- and outflow of bicarbonate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p2 q4. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E4015F3C0D6F
+## title
+Which of the ion channels is responsible for the inward current of plateau phase of the…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the ion channels is responsible for the inward current of plateau phase of the cardiac action potential?
+## answer_a
+Cl channels
+## explanation_a
+Cl- channels are not the plateau's inward current source in this scheme; anion movement is not the mechanism the plateau depends on.
+## answer_b
+K* channels
+## explanation_b
+K+ channels carry the outward current that opposes and eventually ends the plateau, not the inward current that sustains it.
+## answer_c
+Na* channels
+## explanation_c
+Na+ channels drive the rapid upstroke (phase 0) of the working myocyte's action potential, but they inactivate quickly afterward and are not the plateau's own current source.
+## answer_d
+L-type 632 channels
+## explanation_d
+Correct. L-type ('long-lasting') Ca++ channels open during the upstroke and inactivate slowly, carrying the sustained inward Ca++ current that holds the membrane near 0 mV through the plateau.
+
+Why this is right:
+- After the rapid fast-Na+-channel-driven upstroke (phase 0) of a working atrial or ventricular myocyte's action potential, the membrane does not repolarize immediately as skeletal muscle's does.
+## correct_answer
+D
+## main_concept
+CON-CVS-D0CD4A234205EF
+## library_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Working Myocyte Action Potential
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a mechanism
+## learning_objective
+Identify L-type Ca++ channels as the source of the inward current sustaining the cardiac action potential's plateau phase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p6 q21. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E301098770CB
+## title
+About the cardiac muscle all the following are true except : a, It has low electric res…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+About the cardiac muscle all the following are true except : a, It has low electric resistance of the membrane at the intercalated discs
+## answer_a
+It has low electric resistance of the membrane at the intercalated discs
+## explanation_a
+True of cardiac muscle, so not the exception: the intercalated discs carry gap junctions with very low electrical resistance, letting an action potential spread almost as freely as if no membrane separated neighbouring cells.
+## answer_b
+It forms true syncytium .
+## explanation_b
+The exception, and the answer. Cardiac muscle forms a FUNCTIONAL syncytium, not a true one — its cells remain anatomically separate, each with its own membrane and nucleus, joined only by the electrically low-resistance intercalated discs; a true syncytium (like skeletal muscle) is formed by actual cell fusion into one multinucleated fibre.
+
+Why this is right:
+- Cardiac muscle fibres are individual cells, each with its own nucleus and plasma membrane, separated from their neighbours by intercalated discs.
+## answer_c
+It obeys the all or none law .
+## explanation_c
+True of cardiac muscle, so not the exception: because the atrial mass and the ventricular mass each behave as one electrically continuous unit, each contracts as a whole once threshold is reached, following the all-or-none law.
+## answer_d
+there is almost a special capillary for each muscle fiber .
+## explanation_d
+True of cardiac muscle, so not the exception: its high, continuous metabolic demand is matched by an especially rich capillary supply, with almost one capillary present for each muscle fibre.
+## correct_answer
+B
+## main_concept
+CON-CVS-7FC4E8F3FBEFFE
+## library_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Working Myocyte Action Potential
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that cardiac muscle forms a FUNCTIONAL, not a true, syncytium as the exception among true statements about cardiac muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p1 q2. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
 
 
 
