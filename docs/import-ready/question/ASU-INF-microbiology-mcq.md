@@ -736,13 +736,13 @@ Incorrect. Sex pili are used for conjugation and are present only in some bacter
 Mesosomes
 
 ## explanation_c
-Correct, per this source's teaching. Mesosomes -- invaginations of the bacterial cytoplasmic membrane -- are described here as an essential structure and the main site of cytochrome (respiratory-chain) enzymes. Because a mesosome is simply folded cytoplasmic membrane, it contains no sterol, and because it is a prokaryote-specific structure it is not present in eukaryotic cells such as fungi, which instead have mitochondria for that respiratory role. This is the local exam's own classical teaching point; it is recorded as tested content, not as an independently verified statement about modern microbiology's view of mesosomes.
+Correct. Mesosomes -- invaginations of the bacterial cytoplasmic membrane -- are described here as an essential structure and the main site of cytochrome (respiratory-chain) enzymes. Because a mesosome is simply folded cytoplasmic membrane, it contains no sterol, and because it is a prokaryote-specific structure it is not present in eukaryotic cells such as fungi, which instead have mitochondria for that respiratory role. This is the local exam's own classical teaching point; it is recorded as tested content, not as an independently verified statement about modern microbiology's view of mesosomes.
 
 ## answer_d
 Slime layer
 
 ## explanation_d
-Incorrect. The slime layer is a loosely organised, often optional secretion outside the cell wall in some species; it is not the structure this source treats as essential.
+Incorrect. The slime layer is a loosely organised, often optional secretion outside the cell wall in some species; it is not the structure classically described as essential here.
 
 ## subject
 inf
@@ -1436,7 +1436,7 @@ This is true, not the exception: lipid A, the lipid portion of lipopolysaccharid
 Porins in the outer membrane allow passage of amino acids
 
 ## explanation_b
-This is true, not the exception, in the narrower sense the source intends: porin channels allow passage of small hydrophilic solutes generally, and this option is graded as a true statement about porins here (the false statement the question is built around is option C, not this one).
+This is true, not the exception, in the narrower technical sense: porin channels allow passage of small hydrophilic solutes generally, and this option is graded as a true statement about porins here (the false statement the question is built around is option C, not this one).
 
 ## answer_c
 Responsible for osmotic protection
@@ -1730,7 +1730,7 @@ Incorrect, as a general statement about the cytoplasmic membrane on its own: the
 Plays a role in toxin excretion
 
 ## explanation_d
-Correct. The bacterial cytoplasmic membrane plays a role in toxin excretion: many bacterial exotoxins are exported across it on their way out of the cell. This function sits alongside the membrane's more obvious roles in transport and energy generation, but toxin excretion is specifically what this source names as the true statement among the four options. Remembering that the membrane is functionally active in secretion, not merely a passive inner boundary, is the point being tested here.
+Correct. The bacterial cytoplasmic membrane plays a role in toxin excretion: many bacterial exotoxins are exported across it on their way out of the cell. This function sits alongside the membrane's more obvious roles in transport and energy generation, but toxin excretion is the true statement among the four options. Remembering that the membrane is functionally active in secretion, not merely a passive inner boundary, is the point being tested here.
 
 ## subject
 inf
@@ -1865,7 +1865,7 @@ This is true, not the exception: because a mesosome is derived from the cytoplas
 Are the main site of cytochrome enzymes and respiration
 
 ## explanation_c
-This is true, not the exception, per this source's teaching: mesosomes are classically described as the main site of cytochrome (respiratory-chain) enzymes in the bacterial cell.
+This is true, not the exception: mesosomes are classically described as the main site of cytochrome (respiratory-chain) enzymes in the bacterial cell.
 
 ## answer_d
 Present in fungi
@@ -2288,7 +2288,7 @@ Incorrect. Exacting bacteria are heterotrophic, not autotrophic -- autotrophs us
 Heterotrophic bacteria which get their carbon from CO2
 
 ## explanation_c
-Incorrect. This is self-contradictory in the source's own terms: an organism that fixes its carbon from CO2 is autotrophic, not heterotrophic; a genuinely heterotrophic organism needs a preformed organic carbon source instead.
+Incorrect. This is self-contradictory: an organism that fixes its carbon from CO2 is autotrophic, not heterotrophic; a genuinely heterotrophic organism needs a preformed organic carbon source instead.
 
 ## answer_d
 Heterotrophic bacteria which require organic sources for both carbon and nitrogen
@@ -2564,13 +2564,13 @@ Incorrect. Alkaline phosphatase is an enzyme involved in phosphate-ester hydroly
 Superoxide dismutase
 
 ## explanation_b
-This is true, but incomplete on its own: superoxide dismutase does detoxify reactive oxygen species, but catalase can serve the same purpose, which is why the source's correct answer is "b or c" rather than b alone.
+This is true, but incomplete on its own: superoxide dismutase does detoxify reactive oxygen species, but catalase can serve the same purpose, which is why the correct answer is "b or c" rather than b alone.
 
 ## answer_c
 Catalase
 
 ## explanation_c
-This is true, but incomplete on its own: catalase does detoxify reactive oxygen species (specifically hydrogen peroxide), but superoxide dismutase can also serve this role, which is why the source's correct answer is "b or c" rather than c alone.
+This is true, but incomplete on its own: catalase does detoxify reactive oxygen species (specifically hydrogen peroxide), but superoxide dismutase can also serve this role, which is why the correct answer is "b or c" rather than c alone.
 
 ## answer_d
 b or c
@@ -4406,7 +4406,7 @@ D
 Type of organism
 
 ## explanation_a
-This is true, but incomplete: the organism's own physiology genuinely affects lag length, but the question wants every factor the source names, not just one.
+This is true, but incomplete: the organism's own physiology genuinely affects lag length, but the question wants every named lag-length determinant, not just one.
 
 ## answer_b
 Type of media
@@ -4418,7 +4418,7 @@ This is true, but incomplete: the medium an organism is inoculated into genuinel
 Temperature of incubation
 
 ## explanation_c
-Incorrect as the source's answer: temperature affects growth rate throughout the curve, but it is not one of the two factors this source names as determining lag-period length specifically.
+Incorrect: temperature affects growth rate throughout the curve, but it is not one of the two factors that determine lag-period length specifically.
 
 ## answer_d
 A and B (type of organism and type of media)
@@ -5108,7 +5108,7 @@ Incorrect. Gram-stain reaction (positive vs negative) is a laboratory identifica
 Virulence of bacteria
 
 ## explanation_b
-Incorrect as a standalone answer (true but incomplete). Virulence -- the organism's intrinsic capacity to cause damage -- is genuinely one of the two determinants, so this option is not wrong in substance, but it is incomplete on its own because it omits the host side of the equation. The question specifically asks for what determines disease, which the source treats as a joint product of two factors. Because a more complete option (B & C) is available, virulence alone is not the best answer.
+Incorrect as a standalone answer (true but incomplete). Virulence -- the organism's intrinsic capacity to cause damage -- is genuinely one of the two determinants, so this option is not wrong in substance, but it is incomplete on its own because it omits the host side of the equation. The question specifically asks for what determines disease, which is a joint product of two factors. Because a more complete option (B & C) is available, virulence alone is not the best answer.
 
 ## answer_c
 Host immunity
@@ -5531,7 +5531,7 @@ Incorrect. A tri-acyl glycerol is a lipid (a fat molecule made of glycerol and t
 LPS
 
 ## explanation_c
-Incorrect. LPS (lipopolysaccharide) is the structural basis of endotoxin, not exotoxin -- this is precisely the contrast the question is testing. Confusing LPS with exotoxin conflates two categories the source deliberately keeps separate: a structural cell-wall component (endotoxin/LPS) versus an actively secreted protein (exotoxin). Selecting LPS here shows the opposite of the intended distinction.
+Incorrect. LPS (lipopolysaccharide) is the structural basis of endotoxin, not exotoxin -- this is precisely the contrast the question is testing. Confusing LPS with exotoxin conflates two categories that are kept firmly separate: a structural cell-wall component (endotoxin/LPS) versus an actively secreted protein (exotoxin). Selecting LPS here shows the opposite of the intended distinction.
 
 ## answer_d
 Polypeptide 'protein'
@@ -6933,7 +6933,7 @@ Correct. Ordinary pili function mainly in adhesion -- helping a bacterium attach
 flagella
 
 ## explanation_e
-Incorrect (not the best answer, but also not an invasion-promoting factor in the tested sense) -- flagella provide motility, allowing a bacterium to move toward a favorable site, which is a distinct function from breaking down tissue or triggering cellular uptake. The printed key specifically designates pili (option D) as the answer among this list; flagella's motility role is likewise not classified as an invasion-promoting mechanism, but the source's single keyed answer is D.
+Incorrect (not the best answer, but also not an invasion-promoting factor in the tested sense) -- flagella provide motility, allowing a bacterium to move toward a favorable site, which is a distinct function from breaking down tissue or triggering cellular uptake. The printed key specifically designates pili (option D) as the answer among this list; flagella's motility role is likewise not classified as an invasion-promoting mechanism, but the single keyed answer here is D.
 
 ## subject
 inf
@@ -8451,7 +8451,7 @@ Incorrect on its own (partially true only if paired). Conjugation is not the mec
 Specialized Transduction
 
 ## explanation_b
-Incorrect. Specialized transduction is mediated by a lysogenic phage and transfers DNA adjacent to the prophage integration site, not a separate plasmid's genes -- this is the wrong transduction category for a staphylococcal beta-lactamase plasmid, which the source instead pairs with generalized transduction. Confusing generalized with specialized transduction is the trap this option sets.
+Incorrect. Specialized transduction is mediated by a lysogenic phage and transfers DNA adjacent to the prophage integration site, not a separate plasmid's genes -- this is the wrong transduction category for a staphylococcal beta-lactamase plasmid, which instead pairs with generalized transduction. Confusing generalized with specialized transduction is the trap this option sets.
 
 ## answer_c
 Transformation
@@ -12788,7 +12788,7 @@ A
 Aminoglycoside
 
 ## explanation_a
-Correct. Alteration of the ribosomal 30S subunit is the specific target-site change that confers resistance to aminoglycosides, since these drugs work by binding the 30S subunit to disrupt protein synthesis -- if the binding site changes, the drug can no longer act. This target-alteration mechanism is the textbook link tested here between a specific ribosomal component and a specific drug class. Remembering "30S = aminoglycoside target" is the key fact this question is built around.
+Correct. Alteration of the ribosomal 30S subunit is the specific target-site change that confers resistance to aminoglycosides, since these drugs work by binding the 30S subunit to disrupt protein synthesis -- if the binding site changes, the drug can no longer act. This target-alteration mechanism is the key link tested here between a specific ribosomal component and a specific drug class. Remembering "30S = aminoglycoside target" is the key fact this question is built around.
 
 ## answer_b
 Cephalosporins
@@ -16834,7 +16834,7 @@ C
 Virus stops replication of another virus
 
 ## explanation_a
-Incomplete/imprecise as the source's intended definition. "Virus stops replication of another virus" is close to the general idea of interference but is less mechanistically precise than the specific, textbook-standard definition involving the cytopathic-effect (CPE) blocking phenomenon.
+Incomplete/imprecise. "Virus stops replication of another virus" is close to the general idea of interference but is less mechanistically precise than the specific, standard definition involving the cytopathic-effect (CPE) blocking phenomenon.
 
 ## answer_b
 Addition of specefic antiviral serum
@@ -16846,7 +16846,7 @@ Incorrect. Adding specific antiviral serum describes a neutralization/serologic 
 Non cytopathic viruses inhibit CPE of cytopathic virus
 
 ## explanation_c
-This is the standard virology textbook definition of viral interference used for tissue-culture detection: a non-cytopathic virus present in the culture inhibits the cytopathic effect (CPE) that a second, cytopathic (CPE-producing) virus would otherwise cause, revealing the first virus's presence indirectly by the CPE's absence. This phenomenon is thought to arise because the non-cytopathic virus can trigger host antiviral defenses (such as interferon production) that also blunt the second virus's ability to damage the cell. NOTE: the source's own printed answer key marks this question with no valid letter ("XXX" -- an unrecoverable ANSWER-KEY GAP), so correct_answer here is set to C based on independent virology-textbook verification of the standard definition, NOT transcribed from a printed key letter; see author_notes and the concept's uncertainty field for the gap documentation.
+This is the standard definition of viral interference used for tissue-culture detection: a non-cytopathic virus present in the culture inhibits the cytopathic effect (CPE) that a second, cytopathic (CPE-producing) virus would otherwise cause, revealing the first virus's presence indirectly by the CPE's absence. This phenomenon is thought to arise because the non-cytopathic virus can trigger host antiviral defenses (such as interferon production) that also blunt the second virus's ability to damage the cell. NOTE: this question's own printed answer key marks it with no valid letter ("XXX" -- an unrecoverable ANSWER-KEY GAP), so correct_answer here is set to C based on independent virology-textbook verification of the standard definition, NOT transcribed from a printed key letter; see author_notes and the concept's uncertainty field for the gap documentation.
 
 ## answer_d
 Overgrowth of cells on tissue culture forming discrete focci
@@ -21052,7 +21052,7 @@ Correct. Clean (non-sterile) latex gloves are the appropriate PPE for starting I
 Sterile gown
 
 ## explanation_e
-Incorrect (duplicate option in the source, restating the sterile-gown distractor). As with option A, a sterile gown is not the appropriate PPE level for a routine procedure like IV access or phlebotomy.
+Incorrect (this option duplicates another listed choice, restating the sterile-gown distractor). As with option A, a sterile gown is not the appropriate PPE level for a routine procedure like IV access or phlebotomy.
 
 ## subject
 inf
@@ -21614,7 +21614,7 @@ Incorrect. Clean latex gloves, similarly, address hand-contact barrier needs, no
 Sterile gown
 
 ## explanation_e
-Incorrect (duplicate option in the source, restating the sterile-gown distractor). As with option A, a sterile gown does not address the airborne respiratory-protection requirement.
+Incorrect (this option duplicates another listed choice, restating the sterile-gown distractor). As with option A, a sterile gown does not address the airborne respiratory-protection requirement.
 
 ## subject
 inf

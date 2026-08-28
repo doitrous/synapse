@@ -93,7 +93,7 @@ The membrane plays a role in toxin excretion: many bacterial exotoxins are expor
 The 70S ribosome's structural difference from the eukaryotic 80S ribosome is the molecular basis for the selective toxicity of aminoglycoside, macrolide and tetracycline antibiotics.
 
 ### Key determinants
-Sterol content is the single feature this source uses to separate a bacterial membrane from a eukaryotic one, because a prokaryotic cell otherwise has no nucleolus, no histone-coiled DNA and no rough endoplasmic reticulum to compare.
+Sterol content is the single feature that separates a bacterial membrane from a eukaryotic one, because a prokaryotic cell otherwise has no nucleolus, no histone-coiled DNA and no rough endoplasmic reticulum to compare.
 Ribosome size (70S vs 80S) is the corresponding determinant on the protein-synthesis side of the same prokaryote-versus-eukaryote comparison.
 
 ### Clinical significance
@@ -1152,7 +1152,7 @@ The length of the lag period is determined by the type of organism being inocula
 
 ### Key determinants
 A horizontal line on the growth curve does not always mean "no activity" -- only the lag phase is a true state of zero division; the stationary phase's flat line hides ongoing division and death in balance.
-Incubation temperature affects growth rate throughout the curve, but it is organism type and media type together, not temperature alone, that the source names as determining lag-period length.
+Incubation temperature affects growth rate throughout the curve, but it is organism type and media type together, not temperature alone, that determines lag-period length.
 
 ### Clinical significance
 Maximal antibiotic sensitivity in the exponential phase is the mechanistic reason antibiotic timing and dosing schedules matter for actively multiplying infections.
@@ -1545,8 +1545,8 @@ Ordinary pili mediate adhesion and flagella mediate motility; neither breaks dow
 An injectisome bypasses the extracellular space entirely: instead of a toxin being secreted and then diffusing to a distant receptor, it is injected directly from bacterium to host-cell cytoplasm, which both helps invasion and contributes to pathogenicity.
 
 ### Key determinants
-The source draws a firm line between adhesion/motility structures (pili, flagella) and invasion-promoting factors (collagenase, hyaluronidase, invasins), which is the axis this module's "which is NOT important in invasion" question tests.
-Pathogenicity is explicitly a joint product of virulence and host immunity, not virulence in isolation -- reflected in the module's "b & C" (virulence and host immunity) answer key.
+Adhesion/motility structures (pili, flagella) sit on a firm line apart from invasion-promoting factors (collagenase, hyaluronidase, invasins) -- the axis the "which is NOT important in invasion" question tests.
+Pathogenicity is explicitly a joint product of virulence and host immunity, not virulence in isolation.
 
 ### Clinical significance
 Recognising injectisome-delivered toxin injection explains why some Gram-negative pathogens can damage a host cell without releasing a diffusible toxin extracellularly first.
@@ -1760,7 +1760,7 @@ Recognising the bronchi as a sterile site matters clinically: any organism cultu
 Loss of normal flora function (e.g., after broad-spectrum antibiotics) removes the vitamin-production and innate-immune-stimulus benefits described here, setting up the superinfection risk covered in this module's antibiotic-resistance chapter.
 
 ### Common misconceptions
-Do not treat producing "powerful toxins" as an occasional function of normal flora; the source explicitly lists it as the one function normal flora do NOT perform.
+Do not treat producing "powerful toxins" as an occasional function of normal flora; it is the one function normal flora do NOT perform.
 Do not equate commensalism with mutualism -- commensalism leaves the host unaffected, while mutualism requires the host to also benefit.
 
 ## hold_these
@@ -2374,8 +2374,8 @@ Reversibility is what separates phenotypic from genotypic variation: a phenotypi
 In generalized transduction, an assembling virulent phage occasionally packages a random fragment of host DNA -- including a plasmid, such as a staphylococcal beta-lactamase plasmid, that has no transfer machinery of its own -- and delivers it to the next bacterium the phage infects.
 
 ### Key determinants
-Transduction is not restricted to Gram-negative bacteria; this module explicitly tests a Gram-positive (staphylococcal) beta-lactamase plasmid moving by generalized transduction, refuting the "Gram-negative only" distractor.
-Endotoxin production is chromosomally encoded and therefore not among the traits (sex pili, exotoxin, ordinary pili) that can be plasmid-mediated in this module's list.
+Transduction is not restricted to Gram-negative bacteria; a Gram-positive (staphylococcal) beta-lactamase plasmid can move by generalized transduction, refuting the "Gram-negative only" distractor.
+Endotoxin production is chromosomally encoded and therefore not among the traits (sex pili, exotoxin, ordinary pili) that can be plasmid-mediated.
 
 ### Clinical significance
 Generalized transduction moving a beta-lactamase resistance plasmid between staphylococci is a real mechanism of antibiotic-resistance spread, distinct from conjugation or transformation, and matters when tracing how resistance appears in a strain that never directly contacted a resistant donor by conjugation.
@@ -3617,7 +3617,7 @@ Bypassing the drug-targeted metabolic step by developing an alternative metaboli
 Acquired genetic resistance -- exemplified by penicillin resistance in Staphylococcus aureus, gained through a new resistance gene (e.g. beta-lactamase) -- is distinguished from intrinsic (inherent) genetic resistance, exemplified by Mycoplasma's natural resistance to cell-wall-active antibiotics because it has no cell wall to target in the first place.
 Among mobile genetic elements, the R-plasmid (resistance plasmid) is the vehicle specifically identified as carrying genes for bacterial antibiotic resistance, distinct from a temperate phage, a lytic phage, or a virulence plasmid.
 Beta-lactamase confers resistance by directly hydrolyzing and inactivating the beta-lactam antibiotic, a distinct mechanism from altering drug permeability, actively pumping the drug out of the cell, or preventing beta-lactam entry in the first place.
-Plasmid-mediated resistance mechanisms in this module include enzyme inactivation of the drug (e.g. beta-lactamase) and active efflux pumps and porin-permeability modification, whereas 30S-ribosomal-subunit alteration is chromosome-mutation-mediated rather than plasmid-mediated; conversely, alteration of DNA gyrase is chromosome-mutation-mediated, while active efflux pumps are grouped with the plasmid-mediated mechanisms rather than chromosome mutations in this module's framework.
+Plasmid-mediated resistance mechanisms include enzyme inactivation of the drug (e.g. beta-lactamase) and active efflux pumps and porin-permeability modification, whereas 30S-ribosomal-subunit alteration is chromosome-mutation-mediated rather than plasmid-mediated; conversely, alteration of DNA gyrase is chromosome-mutation-mediated, while active efflux pumps are grouped with the plasmid-mediated mechanisms rather than chromosome mutations.
 
 ### Mechanism
 Target-site alteration changes the molecular structure the antibiotic needs to bind (the 30S ribosomal subunit for aminoglycosides), so the drug can no longer engage its target even though it may still enter the cell.
@@ -3627,8 +3627,8 @@ Beta-lactamase works enzymatically, hydrolyzing the beta-lactam ring of penicill
 
 ### Key determinants
 Whether resistance is "acquired" or "intrinsic" depends on whether the bacterium gained a new resistance-conferring gene (acquired, e.g. a beta-lactamase gene picked up by S. aureus) versus having simply never possessed the drug's target structure to begin with (intrinsic, e.g. Mycoplasma has no cell wall for a cell-wall-active drug to act on).
-This module further sorts specific mechanisms into plasmid-mediated (enzyme inactivation, efflux pumps, porin-permeability changes) versus chromosome-mutation-mediated (30S subunit alteration, DNA gyrase alteration) categories -- a classification worth memorizing exactly as tested, since the underlying biology can support either genetic location in different organisms.
-R-plasmids are the specific mobile genetic element this module names as the classic resistance-gene carrier, distinguished from a virulence plasmid (carries virulence genes, not resistance genes) and from temperate/lytic phage (vehicles for transduction).
+Resistance mechanisms sort into plasmid-mediated (enzyme inactivation, efflux pumps, porin-permeability changes) versus chromosome-mutation-mediated (30S subunit alteration, DNA gyrase alteration) categories -- a classification worth memorizing exactly, since the underlying biology can support either genetic location in different organisms.
+R-plasmids are the classic resistance-gene-carrying mobile genetic element, distinguished from a virulence plasmid (carries virulence genes, not resistance genes) and from temperate/lytic phage (vehicles for transduction).
 
 ### Clinical significance
 Recognising which mechanism underlies resistance to a given drug class (e.g. altered permeability for tetracycline/amikacin) guides the choice of an alternative agent whose mechanism the organism has not also evolved resistance to.
@@ -3740,7 +3740,7 @@ Block: body
 Id: ann-inf-betalactamase-001
 
 ### definition_of · CON-INF-8F76601D55C470
-Quote: Plasmid-mediated resistance mechanisms in this module include enzyme inactivation of the drug (e.g. beta-lactamase) and active efflux pumps and porin-permeability modification, whereas 30S-ribosomal-subunit alteration is chromosome-mutation-mediated rather than plasmid-mediated; conversely, alteration of DNA gyrase is chromosome-mutation-mediated, while active efflux pumps are grouped with the plasmid-mediated mechanisms rather than chromosome mutations in this module's framework.
+Quote: Plasmid-mediated resistance mechanisms include enzyme inactivation of the drug (e.g. beta-lactamase) and active efflux pumps and porin-permeability modification, whereas 30S-ribosomal-subunit alteration is chromosome-mutation-mediated rather than plasmid-mediated; conversely, alteration of DNA gyrase is chromosome-mutation-mediated, while active efflux pumps are grouped with the plasmid-mediated mechanisms rather than chromosome mutations.
 Block: body
 Id: ann-inf-plasmidvschrom-001
 
