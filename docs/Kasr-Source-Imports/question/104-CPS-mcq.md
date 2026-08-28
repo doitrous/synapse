@@ -15,7 +15,7 @@
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
-    Physiology Cardiovascular System — Electrocardiogram Basics — 8 questions, 2 concepts
+    Physiology Cardiovascular System — Electrocardiogram Basics — 21 questions, 4 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 9 questions, 4 concepts
@@ -64,7 +64,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  98 questions were excluded and 0 held back for having no
+  108 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -10334,6 +10334,282 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-92B5795B0191
+## title
+At the horizontal axis of ECG paper, cach millimeter represents:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+At the horizontal axis of ECG paper, cach millimeter represents:
+## answer_a
+0.4 sec.
+## explanation_a
+0.4 sec would be ten times the correct value — a common slip when the decimal point is misplaced.
+## answer_b
+0.04 sec.
+## explanation_b
+Correct. Standard ECG paper runs at 25 mm/sec, so each 1 mm horizontally represents 1/25 sec = 0.04 sec — the calibration that lets interval durations be read directly off the grid.
+
+Why this is right:
+- Two technical facts govern how a standard ECG tracing is read.
+## answer_c
+0,004 sec.
+## explanation_c
+0.004 sec is ten times too small, the opposite decimal-point error from option A.
+## answer_d
+0.01 sec.
+## explanation_d
+0.01 sec does not correspond to the standard 25 mm/sec paper speed used for these calculations.
+## correct_answer
+B
+## main_concept
+CON-CVS-B1BD95D51903F8
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+State that 1 mm on the horizontal (time) axis of standard ECG paper represents 0.04 seconds.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q83. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9A697A9B696B
+## title
+As regard the standard limb leads of ECG, lead II represents:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+As regard the standard limb leads of ECG, lead II represents:
+## answer_a
+the potential difference between the left arm and the right arm
+## explanation_a
+The potential difference between the left arm and the right arm is lead I, not lead II.
+## answer_b
+the potential difference between the left leg and the left arm
+## explanation_b
+The potential difference between the left leg and the left arm is lead III, not lead II.
+## answer_c
+the potential difference between the left leg and the right arm
+## explanation_c
+Correct. Lead II records the potential difference between the left leg and the right arm — the diagonal of Einthoven's triangle most closely aligned with the heart's mean electrical axis, which is why it is often used as the reference rhythm strip.
+
+Why this is right:
+- Two technical facts govern how a standard ECG tracing is read.
+## answer_d
+non of the above
+## explanation_d
+Not correct, since option C states the right pairing for lead II.
+## correct_answer
+C
+## main_concept
+CON-CVS-B1BD95D51903F8
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State that standard limb lead II records the potential difference between the left leg (positive) and the right arm (negative).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q80. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6B8A831736B9
+## title
+An effect of myocardial ischemia on the electrical activity of the heart is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+An effect of myocardial ischemia on the electrical activity of the heart is:
+## answer_a
+Hypokalemia in the extracellular fluid
+## explanation_a
+Backwards. Ischemia causes local extracellular HYPERkalemia, not hypokalemia — pump inhibition leaves K+ unable to be returned into the cell as fast as it leaks out, so it accumulates outside the ischemic cells.
+## answer_b
+Inhibition of Na+ - K+ ATPase pump
+## explanation_b
+Correct. ATP depletion from inadequate oxidative metabolism directly inhibits the ATP-dependent Na+-K+ ATPase, letting intracellular Na+ rise and extracellular K+ accumulate around the ischemic myocardium — a well-recognised electrical disturbance that predisposes to arrhythmia.
+
+Why this is right:
+- Ischemic myocardium is starved of the oxygen needed for oxidative ATP production.
+## answer_c
+Accumulation of ATP inside cardiomyocytes
+## explanation_c
+Backwards. Ischemia causes ATP DEPLETION, not accumulation, because the oxidative metabolism that generates ATP is impaired by the inadequate oxygen supply.
+## answer_d
+Increased the slope of phase 0 of action potential
+## explanation_d
+Ischemia impairs conduction and excitability rather than steepening phase 0's slope; a reduced, not increased, upstroke velocity is the more typical electrical consequence of the ionic disturbance ischemia produces.
+## correct_answer
+B
+## main_concept
+CON-CVS-025163EABF1FF0
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a mechanism
+## learning_objective
+Trace myocardial ischemia's ATP depletion to Na+-K+ ATPase inhibition, and identify the resulting rise in extracellular K+ (not a fall) as the electrical disturbance produced.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p7 q47. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
 
 ---
 

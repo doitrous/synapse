@@ -54,6 +54,42 @@ export const LEAF: McqLeafSeed = {
         "Same gap as the waveform-correlates concept above: no 104-CPS-scoped article yet states these ECG interval/segment definitions explicitly; ART-104-PHY-CARDIAC-CONDUCTION is used as the closest live-module article because it does cover the AV nodal delay the PR segment records.",
       ],
     },
+    {
+      // Fresh mint. find-existing.mjs "ECG paper speed calibration limb
+      // leads Einthoven lead II" -> "Safe to create one."
+      key: "ecg.recording-technique.paper-speed-and-limb-leads",
+      label: "Standard ECG paper runs at 25 mm/sec so each horizontal millimetre represents 0.04 seconds, and standard limb lead II records the potential difference between the left leg and the right arm",
+      definition: "Two technical facts govern how a standard ECG tracing is read. First, ECG paper is calibrated to a standard recording speed of 25 mm/sec, so each 1 mm along the horizontal (time) axis represents 0.04 seconds — this calibration is what lets interval and segment durations be read directly off the paper's own grid. Second, the three standard (bipolar) limb leads defined by Einthoven's triangle each record the potential difference between two limbs: lead I is left arm minus right arm, lead II is left leg minus right arm, and lead III is left leg minus left arm.",
+      objective: "State that 1 mm on the horizontal axis of standard ECG paper represents 0.04 seconds, and that standard limb lead II records the potential difference between the left leg and the right arm.",
+      pitfall: "Mixing up which two limbs a given standard lead compares. Lead II is left leg (positive) versus right arm (negative) — not left leg versus left arm (that is lead III), and not left arm versus right arm (that is lead I).",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart",
+      type: "structural_description",
+      aliases: ["ECG paper speed", "Standard limb leads", "Einthoven's triangle", "Lead II"],
+      gaps: [
+        "Same gap as the two concepts above: no 104-CPS-scoped article currently states ECG paper calibration or the standard limb lead definitions; ART-104-PHY-CARDIAC-CONDUCTION is the closest live-module article available.",
+      ],
+    },
+    {
+      // Fresh mint. find-existing.mjs "myocardial ischemia electrical
+      // activity Na-K ATPase hyperkalemia" -> "Safe to create one."
+      key: "myocardial-ischemia.electrical-effects.na-k-atpase-inhibition",
+      label: "Myocardial ischemia depletes ATP and inhibits the Na+-K+ ATPase, letting intracellular Na+ and extracellular K+ rise, which disturbs the electrical activity of the affected myocardium and predisposes to arrhythmia",
+      definition: "Ischemic myocardium is starved of the oxygen needed for oxidative ATP production. Because the Na+-K+ ATPase depends on a continuous ATP supply to keep pumping 3 Na+ out for every 2 K+ it pumps in, falling ATP levels inhibit the pump's activity. Inhibiting the Na+-K+ ATPase lets intracellular Na+ rise and extracellular K+ accumulate around the ischemic cells (rather than being pumped back in), which alters the myocyte's resting membrane potential and its action potential's excitability and conduction — a well-recognised electrical disturbance that predisposes ischemic tissue to arrhythmia.",
+      objective: "Trace the causal chain from myocardial ischemia through ATP depletion to Na+-K+ ATPase inhibition, and state the resulting ionic disturbance (intracellular Na+ rises, extracellular K+ rises around the ischemic tissue) and its electrical consequence.",
+      pitfall: "Assuming ischemia causes extracellular hypokalemia. The opposite occurs locally: pump inhibition traps K+ outside the ischemic cells (they cannot be pumped back in as fast as they leak out), raising local extracellular K+, not lowering it.",
+      subject: "cvs",
+      primary: "DIS-PHY-T02",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart",
+      type: "mechanism",
+      aliases: ["Myocardial ischemia", "Na-K ATPase inhibition", "Ischemic hyperkalemia"],
+      gaps: [
+        "No 104-CPS-scoped article currently covers the clinical/pathophysiological electrical effects of myocardial ischemia; this leaf's articleId (ART-104-PHY-CARDIAC-CONDUCTION) covers the normal autonomic/conduction physiology this concept builds on but not the ischemic disease state itself. Flagged for a future clinical-correlate article-authoring pass.",
+      ],
+    },
   ],
 
   questions: [
@@ -168,6 +204,180 @@ export const LEAF: McqLeafSeed = {
         C: "Correct. The ST segment coincides with the plateau phase of the ventricular myocyte action potential — the ventricles are, at this point, completely and uniformly depolarized, which is exactly why the segment is normally flat.",
         D: "Myocardial ischemia classically produces ST-segment DEVIATION (elevation or depression) from the isoelectric baseline, which is a displacement rather than simply a prolongation of the segment's own duration.",
       },
+    },
+    {
+      key: "at-the-horizontal-axis-of-ecg-paper-cach-millimeter-represen-eee2b8c1",
+      conceptKey: "ecg.recording-technique.paper-speed-and-limb-leads",
+      difficulty: "Easy",
+      questionType: "Recall of a definition",
+      learningObjective: "State that 1 mm on the horizontal (time) axis of standard ECG paper represents 0.04 seconds.",
+      explanations: {
+        A: "0.4 sec would be ten times the correct value — a common slip when the decimal point is misplaced.",
+        B: "Correct. Standard ECG paper runs at 25 mm/sec, so each 1 mm horizontally represents 1/25 sec = 0.04 sec — the calibration that lets interval durations be read directly off the grid.",
+        C: "0.004 sec is ten times too small, the opposite decimal-point error from option A.",
+        D: "0.01 sec does not correspond to the standard 25 mm/sec paper speed used for these calculations.",
+      },
+    },
+    {
+      key: "as-regard-the-standard-limb-leads-of-ecg-lead-ii-represents-a738ddad",
+      conceptKey: "ecg.recording-technique.paper-speed-and-limb-leads",
+      difficulty: "Moderate",
+      questionType: "Recall of a definition",
+      learningObjective: "State that standard limb lead II records the potential difference between the left leg (positive) and the right arm (negative).",
+      explanations: {
+        A: "The potential difference between the left arm and the right arm is lead I, not lead II.",
+        B: "The potential difference between the left leg and the left arm is lead III, not lead II.",
+        C: "Correct. Lead II records the potential difference between the left leg and the right arm — the diagonal of Einthoven's triangle most closely aligned with the heart's mean electrical axis, which is why it is often used as the reference rhythm strip.",
+        D: "Not correct, since option C states the right pairing for lead II.",
+      },
+    },
+    {
+      // Bank extraction genuinely recovered only 3 options (A, B, D — no C
+      // survived at all), below the 4-to-5-option contract.
+      key: "qrs-complex-lies-in-5e77a6b3",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Bank extraction recovered only 3 options (A, B, D — no C at all), below the platform's 4-to-5-option import contract. The tested fact (the QRS complex, ventricular depolarization, triggers the isovolumetric contraction phase of the cardiac cycle) is correctly keyed (A) but not taught elsewhere in this cluster; a genuine, not merely duplicate, loss.",
+    },
+    {
+      key: "an-effect-of-myocardial-ischemia-on-the-electrical-activity-4e43148c",
+      conceptKey: "myocardial-ischemia.electrical-effects.na-k-atpase-inhibition",
+      difficulty: "Hard",
+      questionType: "Recall of a mechanism",
+      learningObjective: "Trace myocardial ischemia's ATP depletion to Na+-K+ ATPase inhibition, and identify the resulting rise in extracellular K+ (not a fall) as the electrical disturbance produced.",
+      explanations: {
+        A: "Backwards. Ischemia causes local extracellular HYPERkalemia, not hypokalemia — pump inhibition leaves K+ unable to be returned into the cell as fast as it leaks out, so it accumulates outside the ischemic cells.",
+        B: "Correct. ATP depletion from inadequate oxidative metabolism directly inhibits the ATP-dependent Na+-K+ ATPase, letting intracellular Na+ rise and extracellular K+ accumulate around the ischemic myocardium — a well-recognised electrical disturbance that predisposes to arrhythmia.",
+        C: "Backwards. Ischemia causes ATP DEPLETION, not accumulation, because the oxidative metabolism that generates ATP is impaired by the inadequate oxygen supply.",
+        D: "Ischemia impairs conduction and excitability rather than steepening phase 0's slope; a reduced, not increased, upstroke velocity is the more typical electrical consequence of the ionic disturbance ischemia produces.",
+      },
+    },
+    {
+      // Leaf-mismatch: this bank row is tagged leaf "Electrical Activity of
+      // the Heart" but its content is Control of Respiration material
+      // (pneumotaxic centre). That cluster was already fully closed earlier
+      // in this branch (PROGRESS.md: "Control of Respiration: 15/15
+      // triaged... 0 remaining bank rows") via physiology-control-of-
+      // respiration.ts, which already teaches this exact fact (pneumotaxic
+      // centre limits inspiration) under concept `respiratory-center.drg-
+      // vrg-pontine-groups-and-rhythm-generation`. Not re-authored here to
+      // avoid touching an already-closed sibling file outside this cluster's
+      // own scope; recorded as excluded from THIS leaf's own count rather
+      // than silently dropped. Flagged in PROGRESS.md for whoever next
+      // touches Control of Respiration to fold in as a routed addition.
+      key: "pneumotaxic-center-functions-primarily-to-9eda7d1c",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Easy",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Leaf-mismatch: this is Control of Respiration content (pneumotaxic centre), not Electrical Activity of the Heart. That cluster is already closed elsewhere in this branch (physiology-control-of-respiration.ts), which already teaches this exact fact under a different concept. Not authored here to avoid touching an already-closed sibling file; flagged in PROGRESS.md for a future routed addition there.",
+    },
+    {
+      // Same leaf-mismatch as the row above — a duplicate/OCR-noisy variant
+      // of the same pneumotaxic-centre question.
+      key: "pneumotaxic-center-functions-primarily-to-a-limit-inspiratio-e9225808",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Easy",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Leaf-mismatch, same fact and same disposition as `pneumotaxic-center-functions-primarily-to-9eda7d1c` above — Control of Respiration content, already closed elsewhere in this branch, not re-authored here.",
+    },
+    {
+      // Ambiguous key, not re-verified against the department book's own
+      // page text this pass: the corrupted stem merges an unrelated
+      // fragment in, option C's text is itself missing/blank in the
+      // extraction, and the bank's own "handwritten-recovered" answer B
+      // (atrial rate 200-300/min) sits closer to standard teaching for
+      // atrial FLUTTER than fibrillation (classically 350-600/min,
+      // irregularly irregular, with absent P waves as the single most
+      // unambiguous ECG hallmark — option D). Per the ANSWER-KEY GAPS
+      // ruling a wrong key is worse than a missing one, and this branch's
+      // own convention only overrides a key against a directly re-verified
+      // department-book page (see the cytogenetics answerOverride examples)
+      // — not attempted here, so excluded rather than guessed at either way.
+      key: "in-ecg-atrial-fibrillation-shows-253f1614",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option C's text is missing from the extraction (only A, B, D survive with content) and the bank's own 'handwritten-recovered' answer (B, atrial rate 200-300/min) conflicts with standard teaching (atrial fibrillation is classically 350-600/min with absent P waves as the defining ECG sign, option D) without a re-verified department-book page to settle it either way. Excluded rather than overridden without that verification, or kept with a key this leaf's own author does not trust.",
+    },
+    {
+      // Corrupted, merged stem (mixes 'Ventricular repolarization.' with a
+      // separately numbered '45,' exam item); the bank's own 'handwritten-
+      // recovered' answer B ('V1 chest lead is present at the left 5th
+      // intercostal space') describes V1's standard placement wrongly (V1
+      // is at the right 4th intercostal space; left 5th ICS is V4's
+      // location) without a re-verified department-book page to confirm
+      // whether this department teaches a non-standard convention.
+      key: "ventricular-repolarization-45-which-of-the-following-is-corr-9258256a",
+      conceptKey: "ecg.intervals-and-segments.pr-qt-st-timing",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Stem is an OCR merge of two separately numbered exam items. The bank's own 'handwritten-recovered' answer (B, V1 at the left 5th intercostal space) conflicts with standard ECG lead placement (V1 is the right 4th intercostal space; left 5th ICS is V4) without a re-verified department-book page to confirm either reading. Excluded rather than overridden or kept with an unverified key.",
+    },
+    {
+      key: "about-the-pacemaker-potential-all-the-following-are-true-exc-233246b9",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already excluded at the bank/editorial-keying stage (editorialExcluded, answerConfidence none): the likely false statement is embedded unlettered in the stem, and the three surviving lettered options are all independently true statements about the pacemaker potential — no letter to assign the intended exception to. Recorded here as a seed exclude for this leaf's own complete accounting, per this branch's standing practice (see A-V Connections' 'record 4 already-known corrupted rows as seed excludes').",
+    },
+    {
+      key: "cardiac-muscle-cannot-be-tetanized-because-of-e311a248",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already excluded at the bank/editorial-keying stage: two of the three surviving options contain internally reversed wording (calcium 'efflux' where the plateau is actually calcium influx; fast Na+ channels' 'long activation' where it is actually their rapid inactivation), so neither can be confidently selected as precisely correct. Recorded here as a seed exclude for this leaf's own complete accounting.",
+    },
+    {
+      key: "describe-the-ionic-bases-of-phase-1-and-phase-2-in-cardiac-m-b46ebbe9",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already excluded at the bank/editorial-keying stage: this is a written-exam model-answer page (prose/bullet content describing phase 1 and 2 ionic mechanisms), not a single-best-answer MCQ with genuine distractors — the surviving 'options' are fragments of the model answer itself. Recorded here as a seed exclude for this leaf's own complete accounting.",
+    },
+    {
+      key: "regarding-the-ionic-basis-of-action-potential-in-cardiomyocy-5f570010",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already excluded at the bank/editorial-keying stage: each of the four surviving options correctly describes its own respective action-potential phase in general terms, with no obvious factual error singled out among them, and no context survives on how they were originally paired with phase labels to identify the intended exception. Recorded here as a seed exclude for this leaf's own complete accounting.",
+    },
+    {
+      key: "superior-cervical-cardiac-branch-of-left-vagus-66af8666",
+      conceptKey: "ecg.waveform-electrophysiological-correlates.p-qrs-t",
+      difficulty: "Hard",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Already excluded at the bank/editorial-keying stage: the stem is a bare anatomical noun phrase with no question attached, and the surviving options mix unrelated anatomical phrase variants with an unrelated term ('Excitability') that does not fit the apparent topic. Recorded here as a seed exclude for this leaf's own complete accounting.",
     },
   ],
 }
