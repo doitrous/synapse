@@ -4,6 +4,7 @@ import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
+import { EmptyState } from '@/components/ui/EmptyState'
 import { Checkbox } from '@/components/ui/Checkbox'
 import { Dialog } from '@/components/ui/Dialog'
 import { Tooltip } from '@/components/ui/Tooltip'
@@ -44,7 +45,7 @@ const CLOZE_ERROR_MESSAGE: Record<ClozeError, string> = {
  * what study will show — every cloze sibling included — so there is no surprise
  * between authoring and review.
  */
-export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; initialDeckId?: string; onDone: () => void }) {
+export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: FlashcardsApi; initialDeckId?: string; editNoteId?: string; onDone: () => void }) {
   const t = useT()
 
   const ownDecks = useMemo(
@@ -53,17 +54,24 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
   )
   const ownDeckIds = useMemo(() => new Set(ownDecks.map((deck) => deck.id)), [ownDecks])
 
-  const [type, setType] = useState<AuthorType>('basic')
+  // A note being edited — only own Basic/Cloze notes are editable here (provided
+  // decks are read-only; image occlusion has its own editor). The parent remounts
+  // this view per edit target (keyed by note id), so seeding state once is safe.
+  const editing = editNoteId ? api.collection.notes[editNoteId] : undefined
+  const editingBasicOrCloze = editing && (editing.type === 'basic' || editing.type === 'cloze') ? editing : undefined
+
+  const [type, setType] = useState<AuthorType>(editingBasicOrCloze?.type ?? 'basic')
   const [deckId, setDeckId] = useState<string>(() => {
+    if (editingBasicOrCloze) return editingBasicOrCloze.deckId
     if (initialDeckId && ownDeckIds.has(initialDeckId)) return initialDeckId
     return ownDecks[0]?.id ?? ''
   })
-  const [tags, setTags] = useState<string[]>([])
+  const [tags, setTags] = useState<string[]>(editingBasicOrCloze?.tags ?? [])
 
-  const [front, setFront] = useState('')
-  const [back, setBack] = useState('')
-  const [clozeText, setClozeText] = useState('')
-  const [extra, setExtra] = useState('')
+  const [front, setFront] = useState(editingBasicOrCloze?.type === 'basic' ? editingBasicOrCloze.fields.front : '')
+  const [back, setBack] = useState(editingBasicOrCloze?.type === 'basic' ? editingBasicOrCloze.fields.back : '')
+  const [clozeText, setClozeText] = useState(editingBasicOrCloze?.type === 'cloze' ? editingBasicOrCloze.fields.text : '')
+  const [extra, setExtra] = useState(editingBasicOrCloze?.type === 'cloze' ? editingBasicOrCloze.fields.extra : '')
 
   const [duplicateAck, setDuplicateAck] = useState(false)
   const [showErrors, setShowErrors] = useState(false)
@@ -102,7 +110,8 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
   function buildNote(id: string): Note | null {
     if (!deckId || !contentValid) return null
     const now = new Date().toISOString()
-    const base = { id, deckId, tags, createdAt: now, updatedAt: now }
+    const createdAt = editingBasicOrCloze && id === editNoteId ? editingBasicOrCloze.createdAt : now
+    const base = { id, deckId, tags, createdAt, updatedAt: now }
     if (type === 'basic') {
       return { ...base, type: 'basic', fields: { front: sanitizeRich(front), back: sanitizeRich(back) } }
     }
@@ -113,7 +122,7 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
 
   // buildNote reads current state directly; these inputs are the real triggers.
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const candidate = useMemo(() => (contentValid && deckId ? buildNote('__candidate__') : null), [contentValid, deckId, type, front, back, clozeText, extra, tags])
+  const candidate = useMemo(() => (contentValid && deckId ? buildNote(editNoteId ?? '__candidate__') : null), [contentValid, deckId, type, front, back, clozeText, extra, tags, editNoteId])
   const isDuplicate = useMemo(() => (candidate ? isDuplicateNote(candidate, api.allNotes) : false), [candidate, api.allNotes])
 
   // A fresh edit is a fresh decision: any content or target change clears a
@@ -142,10 +151,12 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
       return
     }
     if (blockedByDuplicate) return
-    const note = buildNote(`note-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`)
+    const note = buildNote(editNoteId ?? `note-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`)
     if (!note) return
     api.saveNote(note)
-    if (addAnother) {
+    // Editing is a single save that returns to where it was opened from;
+    // "add another" only makes sense while creating.
+    if (addAnother && !editingBasicOrCloze) {
       clearFields()
       requestAnimationFrame(() => firstFieldRef.current?.focus())
     } else {
@@ -180,12 +191,28 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
 
   const noDecks = ownDecks.length === 0
 
+  // Asked to edit something that isn't an own Basic/Cloze note (a provided-deck
+  // card, or an image-occlusion note): say so plainly rather than opening a blank
+  // form that would silently create a new note.
+  if (editNoteId && !editingBasicOrCloze) {
+    return (
+      <Panel className="p-10 text-center">
+        <EmptyState
+          icon={AlertTriangle}
+          title={t('This card can’t be edited here')}
+          description={t('Provided-deck cards are read-only, and image-occlusion cards open in the occlusion editor.')}
+          action={<Button variant="secondary" size="sm" onClick={onDone}>{t('Back')}</Button>}
+        />
+      </Panel>
+    )
+  }
+
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_22rem]">
       <div className="space-y-5">
         <Panel>
           <PanelHeader
-            title={t('Add a card')}
+            title={editingBasicOrCloze ? t('Edit card') : t('Add a card')}
             action={
               <div className="flex items-center gap-2 text-[12px] text-ink-3">
                 <span className="hidden sm:inline">{t('Save')}</span>
@@ -197,7 +224,7 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
           <div className="space-y-5 p-5">
             {/* Note type */}
             <Field label={t('Note type')}>
-              <TypeSelector value={type} onChange={setType} />
+              <TypeSelector value={type} onChange={setType} locked={!!editingBasicOrCloze} />
             </Field>
 
             {/* Deck + tags */}
@@ -317,13 +344,15 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
             {/* Actions */}
             <div className="flex flex-wrap items-center gap-2 border-t border-line pt-4">
               <Button variant="primary" iconLeft={Save} onClick={() => save(false)} disabled={!canSave}>
-                {t('Save')}
+                {editingBasicOrCloze ? t('Save changes') : t('Save')}
               </Button>
-              <Tooltip content={<span className="inline-flex items-center gap-1.5">{t('Save and add another')} <Kbd className="border-paper/25 bg-transparent text-paper">⌘⇧↵</Kbd></span>}>
-                <Button variant="secondary" iconLeft={Plus} onClick={() => save(true)} disabled={!canSave}>
-                  {t('Save & add another')}
-                </Button>
-              </Tooltip>
+              {!editingBasicOrCloze && (
+                <Tooltip content={<span className="inline-flex items-center gap-1.5">{t('Save and add another')} <Kbd className="border-paper/25 bg-transparent text-paper">⌘⇧↵</Kbd></span>}>
+                  <Button variant="secondary" iconLeft={Plus} onClick={() => save(true)} disabled={!canSave}>
+                    {t('Save & add another')}
+                  </Button>
+                </Tooltip>
+              )}
               <div className="ms-auto">
                 <Button variant="ghost" onClick={requestCancel}>{t('Cancel')}</Button>
               </div>
@@ -373,21 +402,25 @@ export function AddView({ api, initialDeckId, onDone }: { api: FlashcardsApi; in
 
 // ---- note-type selector ----------------------------------------------------
 
-function TypeSelector({ value, onChange }: { value: AuthorType; onChange: (value: AuthorType) => void }) {
+function TypeSelector({ value, onChange, locked = false }: { value: AuthorType; onChange: (value: AuthorType) => void; locked?: boolean }) {
   const t = useT()
   const options: { value: AuthorType; label: string; icon: typeof FileText }[] = [
     { value: 'basic', label: t('Basic'), icon: FileText },
     { value: 'cloze', label: t('Cloze'), icon: Brackets },
   ]
+  // While editing, the type is fixed: changing it would regenerate the note's
+  // cards and drop their schedules. Only the current type is shown.
+  const shown = locked ? options.filter((o) => o.value === value) : options
   return (
     <div role="group" aria-label={t('Note type')} className="inline-flex flex-wrap items-center gap-0.5 rounded-lg border border-line bg-surface-2 p-0.5">
-      {options.map((option) => {
+      {shown.map((option) => {
         const active = option.value === value
         return (
           <button
             key={option.value}
             type="button"
             aria-pressed={active}
+            disabled={locked}
             onClick={() => onChange(option.value)}
             className={cn(
               'inline-flex h-9 items-center gap-1.5 rounded-md px-3 text-[13px] font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-primary',
@@ -399,16 +432,18 @@ function TypeSelector({ value, onChange }: { value: AuthorType; onChange: (value
           </button>
         )
       })}
-      <Tooltip content={t('Coming soon')}>
-        <span
-          aria-disabled
-          className="inline-flex h-9 cursor-not-allowed items-center gap-1.5 rounded-md px-3 text-[13px] font-medium text-ink-3 opacity-60"
-        >
-          <Icon icon={ImageIcon} size={15} className="text-ink-3" />
-          {t('Image Occlusion')}
-          <Badge tone="outline" className="ms-0.5">{t('soon')}</Badge>
-        </span>
-      </Tooltip>
+      {!locked && (
+        <Tooltip content={t('Coming soon')}>
+          <span
+            aria-disabled
+            className="inline-flex h-9 cursor-not-allowed items-center gap-1.5 rounded-md px-3 text-[13px] font-medium text-ink-3 opacity-60"
+          >
+            <Icon icon={ImageIcon} size={15} className="text-ink-3" />
+            {t('Image Occlusion')}
+            <Badge tone="outline" className="ms-0.5">{t('soon')}</Badge>
+          </span>
+        </Tooltip>
+      )}
     </div>
   )
 }

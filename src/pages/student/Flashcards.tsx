@@ -55,17 +55,27 @@ function FlashcardsShell() {
   const [view, setView] = useState<FlashcardsView>('decks')
   const [studyDeckId, setStudyDeckId] = useState<string | null>(null)
   const [addDeckId, setAddDeckId] = useState<string | undefined>(undefined)
+  const [editNoteId, setEditNoteId] = useState<string | undefined>(undefined)
   const openHelp = useOpenShortcutHelp()
+
+  // Open the Add view either fresh (optionally into a deck) or editing a note.
+  const openAdd = (opts: { deckId?: string; noteId?: string } = {}) => {
+    setStudyDeckId(null)
+    setAddDeckId(opts.deckId)
+    setEditNoteId(opts.noteId)
+    setView('add')
+  }
 
   // Global two-key navigation chords (G then D/A/B/S) and Cmd/Ctrl+N to add.
   const navCommands = useMemo<Command[]>(
     () => [
       { id: 'nav.decks', title: 'Go to Decks', group: 'Navigation', scopes: ['global'], keys: { seq: ['G', 'D'] }, run: () => setView('decks') },
-      { id: 'nav.add', title: 'Go to Add', group: 'Navigation', scopes: ['global'], keys: { seq: ['G', 'A'] }, run: () => { setAddDeckId(undefined); setView('add') } },
+      { id: 'nav.add', title: 'Go to Add', group: 'Navigation', scopes: ['global'], keys: { seq: ['G', 'A'] }, run: () => openAdd() },
       { id: 'nav.browse', title: 'Go to Browse', group: 'Navigation', scopes: ['global'], keys: { seq: ['G', 'B'] }, run: () => setView('browse') },
       { id: 'nav.stats', title: 'Go to Stats', group: 'Navigation', scopes: ['global'], keys: { seq: ['G', 'S'] }, run: () => setView('stats') },
-      { id: 'nav.new', title: 'Add a new card', group: 'Navigation', scopes: ['global'], keys: 'Mod+N', run: () => { setAddDeckId(undefined); setView('add') } },
+      { id: 'nav.new', title: 'Add a new card', group: 'Navigation', scopes: ['global'], keys: 'Mod+N', run: () => openAdd() },
     ],
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
   )
   useCommands(navCommands)
@@ -78,7 +88,7 @@ function FlashcardsShell() {
         deckId={studyDeckId}
         onExit={() => setStudyDeckId(null)}
         onNavigate={(next) => { setStudyDeckId(null); setView(next) }}
-        onEditNote={(noteId) => { setStudyDeckId(null); setAddDeckId(undefined); setView('add'); void noteId }}
+        onEditNote={(noteId) => openAdd({ noteId })}
       />
     )
   }
@@ -107,8 +117,16 @@ function FlashcardsShell() {
           onAddToDeck={(deckId) => { setAddDeckId(deckId); setView('add') }}
         />
       )}
-      {view === 'add' && <AddView api={api} initialDeckId={addDeckId} onDone={() => setView('decks')} />}
-      {view === 'browse' && <BrowseView api={api} onAdd={() => { setAddDeckId(undefined); setView('add') }} />}
+      {view === 'add' && (
+        <AddView
+          key={editNoteId ?? 'new'}
+          api={api}
+          initialDeckId={addDeckId}
+          editNoteId={editNoteId}
+          onDone={() => { setEditNoteId(undefined); setView(editNoteId ? 'browse' : 'decks') }}
+        />
+      )}
+      {view === 'browse' && <BrowseView api={api} onAdd={() => openAdd()} onEditNote={(noteId) => openAdd({ noteId })} />}
       {view === 'stats' && <StatsView api={api} />}
     </PageContainer>
   )

@@ -64,7 +64,7 @@ import {
  * open. Bulk edits go through the hook's `bulk*` methods, which commit once, so
  * selecting a hundred cards and suspending them never clobbers itself.
  */
-export function BrowseView({ api, onAdd }: { api: FlashcardsApi; onAdd: () => void }) {
+export function BrowseView({ api, onAdd, onEditNote }: { api: FlashcardsApi; onAdd: () => void; onEditNote?: (noteId: string) => void }) {
   const t = useT()
   const now = useMemo(() => new Date(), [])
 
@@ -304,7 +304,7 @@ export function BrowseView({ api, onAdd }: { api: FlashcardsApi; onAdd: () => vo
                   selected={selected.has(entry.card.id)}
                   onToggle={() => toggleOne(entry.card.id)}
                   api={api}
-                  onEdit={onAdd}
+                  onEdit={() => (onEditNote ? onEditNote(entry.card.noteId) : onAdd())}
                   onInfo={() => setPending({ kind: 'info', entry })}
                   onAskReset={() => setPending({ kind: 'reset', cardIds: [entry.card.id] })}
                   onAskDelete={() => setPending({ kind: 'delete', noteIds: [entry.card.noteId] })}
@@ -418,9 +418,12 @@ function BrowseRow({
   const buried = isBuried(meta, now)
   const excerpt = noteFrontPlain(entry.note) || t('(empty card)')
   const s = meta.schedule
+  // A provided-deck card's content belongs to the catalogue and is read-only;
+  // only the student's own scheduling actions apply to it.
+  const provided = api.getDeck(card.deckId)?.provided ?? false
 
   const items: ContextMenuItem[] = [
-    { id: 'edit', label: t('Edit'), icon: Pencil, onSelect: onEdit },
+    ...(provided ? [] : [{ id: 'edit', label: t('Edit'), icon: Pencil, onSelect: onEdit }]),
     { id: 'info', label: t('Card info'), icon: Info, onSelect: onInfo },
     meta.suspended
       ? { id: 'unsuspend', label: t('Unsuspend'), icon: Play, separated: true, onSelect: () => api.suspend(card.id, false) }
