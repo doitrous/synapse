@@ -9180,3 +9180,1833 @@ yes
 
 ## author_notes
 Same isoelectric-point/charge concept as Q32/Q28/Q29/Q63 (already authored), phrased here in terms of H+ concentration rather than pH-versus-pI language.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q67
+
+## title
+Which of the following statements about the peptide bond is true?
+
+## question
+Which of the following statement about the peptide bond is true?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is a bond between two carboxyl groups
+
+## explanation_a
+Incorrect. A peptide bond forms between the carboxyl group of one amino acid and the amino group of the next; it does not join two carboxyl groups together, which would not release the water molecule characteristic of this condensation reaction.
+
+## answer_b
+It has cis hydrogen and oxygen groups
+
+## explanation_b
+Incorrect. The peptide bond's carbonyl oxygen and amide hydrogen are arranged in a trans configuration across the C-N bond in the overwhelming majority of peptide bonds, not a cis arrangement; cis peptide bonds are a rare exception, seen mainly at proline residues.
+
+## answer_c
+It is planar
+
+## explanation_c
+Correct. The peptide bond has partial double-bond character because of resonance between the carbonyl C=O and the C-N bond, which restricts rotation around that bond and forces the six atoms directly involved — the alpha-carbon, carbonyl carbon, oxygen, nitrogen, hydrogen and the next alpha-carbon — to lie in the same flat plane. This planarity, together with the bond's characteristic trans configuration, is what gives the polypeptide backbone its predictable, restricted geometry, which folding then builds on. It is exactly this rigidity that also explains why the peptide bond resists free rotation the way single bonds elsewhere in the chain do not.
+
+## answer_d
+It has rotational freedom
+
+## explanation_d
+Incorrect. The peptide bond's partial double-bond character specifically restricts rotation around it; free rotation is possible around the other backbone bonds (on either side of the alpha-carbon), not around the peptide bond itself.
+
+## answer_e
+It's non-polar
+
+## explanation_e
+Incorrect. The peptide bond's carbonyl oxygen carries a partial negative charge and its amide hydrogen a partial positive charge, making the bond polar; this polarity is exactly what allows peptide bonds to participate in the hydrogen bonding that stabilises secondary structure.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-4CFE3A9FF573F7
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-PEPTIDE-DISULFIDE-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that the peptide bond is planar, due to its partial double-bond resonance character.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q82, p.11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same peptide-bond-planarity concept as Q103 (already authored), tested here alongside distractors about polarity and rotational freedom rather than the trans-vs-cis question directly.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q68
+
+## title
+Each turn of the alpha helix contains how many amino acid residues?
+
+## question
+Each turn of a-helix contains the amino acid residues (number):
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+2
+
+## explanation_a
+Incorrect. Two residues per turn would make far too tight a coil for the alpha helix's actual hydrogen-bonding geometry, which spans from one residue's backbone carbonyl to the amide nitrogen four residues further along the same chain.
+
+## answer_b
+3.0
+
+## explanation_b
+Incorrect. 3.0 residues per turn is close to but not the measured value for the alpha helix; the correct figure captures the slightly irregular, non-integer periodicity that the true structure actually has.
+
+## answer_c
+3.6
+
+## explanation_c
+Correct. The alpha helix completes one full turn every 3.6 amino acid residues, a non-integer periodicity that reflects its precise hydrogen-bonding pattern — each backbone C=O hydrogen-bonds to the backbone NH of the residue four positions ahead, with 3.6 residues fitting into each 360-degree turn of the coil. This specific number is one of the defining geometric parameters of the alpha helix, alongside its right-handed coiling and 0.15 nm rise per residue. It is what distinguishes the alpha helix's geometry from other secondary-structure elements like the beta sheet.
+
+## answer_d
+5.6
+
+## explanation_d
+Incorrect. 5.6 residues per turn is too loose a coil to match the alpha helix's actual hydrogen-bonding pattern between residues four positions apart.
+
+## answer_e
+4.6
+
+## explanation_e
+Incorrect. 4.6 residues per turn overstates the alpha helix's actual periodicity; the correct, precisely measured value is 3.6 residues per turn.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-99CEF760A9D2CC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that the alpha helix completes one turn every 3.6 amino acid residues.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q83, p.12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same secondary-structure concept as Q8/Q31/Q32/Q33/Q48/Q49 (already authored), adding the alpha helix's specific 3.6-residues-per-turn geometry.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q69
+
+## title
+Which one of the following amino acids is dispensable?
+
+## question
+Which one of the following amino acids is dispensable?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Tryptophan
+
+## explanation_a
+Incorrect. Tryptophan is an indispensable (essential) amino acid — the body cannot synthesise it and must obtain it from the diet — so it does not fit the "dispensable" description this question asks for.
+
+## answer_b
+Valine
+
+## explanation_b
+Incorrect. Valine is one of the branched-chain essential amino acids and, like tryptophan, must come from the diet, making it indispensable rather than dispensable.
+
+## answer_c
+Threonine
+
+## explanation_c
+Incorrect. Threonine is essential and cannot be synthesised by the body, so it too is indispensable rather than dispensable.
+
+## answer_d
+Serine
+
+## explanation_d
+Correct. "Dispensable" is another term for non-essential — an amino acid the body can synthesise for itself and therefore does not strictly need from the diet — and serine fits this description, since the body makes it from the glycolytic intermediate 3-phosphoglycerate. This is the same non-essential status tested elsewhere by asking which amino acid is "not essential," with serine appearing there as well. Tryptophan, valine and threonine, by contrast, are all indispensable (essential) amino acids the body cannot make.
+
+## answer_e
+Leucine
+
+## explanation_e
+Incorrect. Leucine is one of the branched-chain essential amino acids, indispensable in the same way as valine, so it does not answer a question asking for the dispensable (non-essential) one.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-71648230D1D4E2
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify serine as dispensable (non-essential) among a list of otherwise indispensable (essential) amino acids.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q84, p.12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same essential/non-essential concept as Q19/Q28/Q30/Q38 (already authored), rephrased here with the synonyms "dispensable/indispensable."
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q70
+
+## title
+Which of the following terms refers to the arrangement of different protein subunits in a polymeric protein?
+
+## question
+Which of the following terms refers to the arrangement of different protein subunits in a polymeric protein?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Primary structure
+
+## explanation_a
+Incorrect. Primary structure is only the linear amino acid sequence of a single chain; it does not describe how separate subunits of a polymeric protein are arranged relative to each other.
+
+## answer_b
+Secondary structure
+
+## explanation_b
+Incorrect. Secondary structure describes local backbone folding (alpha helices, beta sheets) within a single chain, not the arrangement of multiple separate subunits.
+
+## answer_c
+Tertiary structure
+
+## explanation_c
+Incorrect. Tertiary structure is the complete three-dimensional fold of one polypeptide chain on its own; it describes a single subunit's shape, not how multiple subunits are arranged together.
+
+## answer_d
+Quaternary structure
+
+## explanation_d
+Correct. Quaternary structure is specifically defined as the level of organisation describing how two or more independently folded polypeptide subunits are arranged and associate with each other in a polymeric (multi-subunit) protein. Hemoglobin's four chains and creatine kinase's two subunits are both examples of this arrangement. This is the same definition tested through those two specific proteins elsewhere in this section, here asked as the general term itself.
+
+## answer_e
+Denatured structure
+
+## explanation_e
+Incorrect. "Denatured structure" describes a protein that has lost its native folded shape through denaturation; it is not a term for how subunits are normally arranged in a correctly folded polymeric protein.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-HEM-B9017F150AF212
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Name quaternary structure as the term for the arrangement of subunits in a polymeric protein.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q85, p.12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same quaternary-structure concept as Q63/Q10/Q21/Q60 (already authored), tested here as the direct definition of the term itself.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q71
+
+## title
+Which of the following best describes the tertiary structure of a protein?
+
+## question
+Which of the following best describe tertiary structure of protein?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The formation of protein from three subunits
+
+## explanation_a
+Incorrect. "Tertiary" refers to the third level of structural organisation, not to a protein being built from exactly three subunits; a multi-subunit assembly is described by quaternary structure, and the number of subunits it has (two, three, four or more) is unrelated to the meaning of "tertiary."
+
+## answer_b
+The three-dimensional shape of the protein
+
+## explanation_b
+Correct. Tertiary structure is the overall three-dimensional shape that a single polypeptide chain folds into, built by hydrophobic interactions, hydrogen bonds, ionic bonds, disulfide bonds and Van der Waals forces acting on the chain's secondary-structure elements. This complete 3D fold — not the number of subunits and not a specific pleating pattern — is what "tertiary structure" means. It is this three-dimensional shape that denaturation destroys and that a protein's biological activity depends on.
+
+## answer_c
+The protein folding into three pleated sheets
+
+## explanation_c
+Incorrect. Tertiary structure is not defined by a fixed count of beta-pleated sheets; a protein's tertiary fold can include any number of beta sheets, alpha helices or other secondary-structure elements packed together, not specifically three sheets.
+
+## answer_d
+A structure other than alpha helix and pleated sheet
+
+## explanation_d
+Incorrect. Tertiary structure is not defined by excluding alpha helices and beta sheets — it is built from packing those very secondary-structure elements together into an overall three-dimensional fold, not from some separate structure that excludes them.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify tertiary structure as a single chain's overall three-dimensional folded shape.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q88, p.12.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same tertiary-structure concept as Q7/Q30/Q34/Q36/Q50/Q66/Q73 (already authored), tested here as the direct definition question, paired with Q90's secondary-structure counterpart.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q72
+
+## title
+Which of the following best describes secondary structure of a protein?
+
+## question
+Which of the following best describe secondary structure of protein?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It has examples as alpha helix and beta pleated sheet
+
+## explanation_a
+Correct. Secondary structure refers to regular, local folding patterns of the polypeptide backbone, and the alpha helix and beta-pleated sheet are its two principal examples, both held together mainly by hydrogen bonds between backbone NH and C=O groups. Describing secondary structure through these named examples is the standard way this level of organisation is introduced, since they are the recurring conformations found within a folded chain before it packs into an overall tertiary shape. This is the same pair of examples (plus the beta-bend) tested together elsewhere in this section.
+
+## answer_b
+Alpha helix and beta pleated sheet can't exist together in same protein
+
+## explanation_b
+Incorrect. Many proteins contain both alpha helices and beta sheets within the same folded chain, packed together as part of the overall tertiary structure; the two are not mutually exclusive within one protein.
+
+## answer_c
+Alpha helix and beta pleated sheet are disrupted by proline
+
+## explanation_c
+Incomplete as a description of secondary structure in general — proline does disrupt both the alpha helix and the beta sheet, but this is one specific fact about a disrupting residue, not itself a definition of what secondary structure is.
+
+## answer_d
+It represents the native conformation of a protein
+
+## explanation_d
+Incorrect. The native conformation of a protein most commonly refers to its overall correctly folded tertiary structure, not to secondary structure alone; secondary-structure elements are components that are packed together to help build that native conformation, but are not themselves the whole of it.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-99CEF760A9D2CC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify secondary structure through its principal examples, the alpha helix and beta-pleated sheet.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q90, p.13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same secondary-structure concept as Q8/Q31/Q32/Q33/Q48/Q49/Q68 (already authored), the secondary-structure counterpart to Q71's tertiary-structure definition question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q73
+
+## title
+Which events result from denaturation of proteins?
+
+## question
+Which events result from denaturation of proteins?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Increase solubility
+
+## explanation_a
+Incorrect. Denaturation decreases solubility rather than increasing it, since unfolding exposes previously buried hydrophobic side chains to water, which promotes aggregation and precipitation rather than dissolution.
+
+## answer_b
+Decrease viscosity
+
+## explanation_b
+Incorrect. Denaturation increases a protein solution's viscosity, since unfolded chains take up more effective volume and interact differently than compact native proteins; it does not decrease viscosity.
+
+## answer_c
+Difficulty in digestion
+
+## explanation_c
+Incorrect. Denaturation makes a protein easier, not harder, to digest — unfolding exposes internal peptide bonds that were previously protected within the compact native fold, making them more accessible to digestive enzymes.
+
+## answer_d
+Loss of enzymatic and hormonal function
+
+## explanation_d
+Correct. Because both enzymes and peptide/protein hormones depend on their correctly folded native conformation to bind their substrate or receptor, denaturation — which destroys that native shape while leaving the amino acid sequence intact — abolishes their biological activity. This loss of function is one of the clearest practical consequences of denaturation, alongside decreased solubility, increased viscosity and increased digestibility. It is the same "biologically dead" outcome tested elsewhere as loss of biological activity generally.
+
+## answer_e
+Non-covalent bonds are not affected
+
+## explanation_e
+Incorrect. Denaturation is defined specifically by the disruption of non-covalent bonds (hydrogen, ionic, hydrophobic) that hold secondary, tertiary and quaternary structure together; these bonds are exactly what is affected, not left untouched.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-2414B3639FD4D3
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that denaturation results in loss of enzymatic and hormonal function, alongside its other physical effects.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q91, p.13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same denaturation concept as Q6/Q20/Q64/Q65/Q67/Q71/Q72/Q77 (already authored), gathering all four listed physical/functional consequences into one question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q74
+
+## title
+Define the level of protein structure of hemoglobin formed of alpha and beta chains
+
+## question
+Define the level of protein structure of hemoglobin which is formed of alpha and beta chains.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Primary structure
+
+## explanation_a
+Incorrect. Primary structure describes only the amino acid sequence of one chain (an alpha or a beta chain on its own); it does not describe how the separate alpha and beta chains come together.
+
+## answer_b
+Secondary structure
+
+## explanation_b
+Incorrect. Secondary structure describes local folding (alpha helices, beta sheets) within a single chain; it says nothing about the association between the separate alpha and beta chains.
+
+## answer_c
+Alpha helix
+
+## explanation_c
+Incorrect. The alpha helix is one specific example of secondary structure found within each individual globin chain; it is not the level of organisation that describes how the alpha and beta chains associate with each other.
+
+## answer_d
+Tertiary structure
+
+## explanation_d
+Incorrect. Tertiary structure describes the complete three-dimensional fold of one chain (one alpha or one beta globin) by itself, reached before that chain associates with the others; it is not the level describing their association.
+
+## answer_e
+Quaternary structure
+
+## explanation_e
+Correct. Hemoglobin is the classic example of quaternary structure: two alpha chains and two beta chains, each independently folded to its own tertiary structure, associate together into one functional four-chain assembly. It is specifically the association of these four separately folded subunits — not the folding of any one chain alone — that quaternary structure describes. This is the same fact tested elsewhere as the "four-subunit structure of Hb," here phrased through the alpha/beta chain composition directly.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-HEM-B9017F150AF212
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify hemoglobin's alpha/beta four-chain assembly as quaternary structure.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q94, p.13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same quaternary-structure concept as Q63/Q10/Q21/Q60/Q85 (already authored), the alpha/beta-chain-composition phrasing of Q63's "four-subunit Hb" question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q75
+
+## title
+Amino acid number one in any protein is the one with a free
+
+## question
+Amino acid number one in any protein is the amino acid with free
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Alpha-amino group
+
+## explanation_a
+Correct. Protein synthesis proceeds from the N-terminus to the C-terminus, so the first amino acid added to a chain — "amino acid number one" — is the one whose alpha-amino group is never used to form a peptide bond with a preceding residue, because there is no preceding residue. This free alpha-amino group defines the N-terminus of the chain. Every other internal residue has both its alpha-amino and alpha-carboxyl groups tied up in peptide bonds with its neighbours on either side.
+
+## answer_b
+Alpha-carboxyl group
+
+## explanation_b
+Incorrect. A free alpha-carboxyl group identifies the last amino acid in the chain (the C-terminus), not the first one; the first residue's carboxyl group is used to form the peptide bond with the second residue.
+
+## answer_c
+Gamma-carboxyl group
+
+## explanation_c
+Incorrect. A gamma-carboxyl group belongs only to specific side chains (such as glutamate's); it is not the backbone feature that defines a chain's N-terminus, which is instead the free alpha-amino group.
+
+## answer_d
+Carboxyl and amino groups
+
+## explanation_d
+Incorrect. The first amino acid keeps only its alpha-amino group free; its alpha-carboxyl group is used in the peptide bond linking it to the second residue, so it does not have both groups free at once.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-BE919386760579
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify the N-terminal amino acid as the one retaining a free alpha-amino group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q95, p.14.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same primary-structure concept as Q89/Q23/Q64/Q65 (already authored), the N-terminal counterpart to Q65's C-terminal version of the same question, restated verbatim as a separate numbered item in the source bank.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q76
+
+## title
+This figure represents which property of amino acids
+
+## question
+This figure represents which property of amino acids.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Monomer of protein
+
+## explanation_a
+Incorrect. Being the monomer unit of a protein is a general fact about every amino acid; it does not describe what the figure's pair of mirror-image structures specifically illustrates, which is the enantiomer (D/L) relationship.
+
+## answer_b
+Enantiomer "D-L Isomer"
+
+## explanation_b
+Correct. The figure shows two non-superimposable mirror-image structures around a chiral alpha-carbon — the D- and L-forms of an amino acid — which is exactly what "enantiomer" means. Almost every standard amino acid has a chiral alpha-carbon bonded to four different groups, giving it this D/L enantiomer pair, with glycine as the sole exception because its alpha-carbon carries two identical hydrogens instead of four different groups. This mirror-image relationship is the same property tested elsewhere through the specific case of which amino acid lacks it.
+
+## answer_c
+Buffering activity
+
+## explanation_c
+Incorrect. Buffering activity comes from an amino acid's amphoteric, ionisable groups (its ability to act as an acid or a base), which is a completely different property from the mirror-image chirality a D/L enantiomer figure illustrates.
+
+## answer_d
+Colorless
+
+## explanation_d
+Incorrect. Whether an amino acid's crystals are colourless is an unrelated physical property; it has nothing to do with the mirror-image chiral relationship a D/L enantiomer figure is drawn to show.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-3FF9CA93465562
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Recognise a pair of mirror-image amino acid structures as illustrating the D/L enantiomer relationship.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q99, p.14 (figure).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same enantiomer concept as Q1 (already authored), tested here from a generic mirror-image structure figure rather than the specific glycine exception.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q77
+
+## title
+Choose the answer for points A and B in this figure
+
+## question
+Choose the answer for points A and B in this figure.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+A is acidic media, B is anode
+
+## explanation_a
+Incorrect. Point A in this figure shows the amino acid still carrying its protonated carboxyl group (-COOH), which is correct for acidic media, but point B shows the fully deprotonated form (net negative charge), and a negatively charged species migrates toward the anode — so calling B "anode" without correcting the medium at A misdescribes the sequence the figure depicts.
+
+## answer_b
+A is alkaline media, B is anode
+
+## explanation_b
+Incorrect. Point A shows the amino acid with its carboxyl group still protonated (-COOH), which corresponds to acidic, not alkaline, medium; describing A as alkaline reverses the figure's actual starting condition.
+
+## answer_c
+A is acidic media, B is cathode
+
+## explanation_c
+Correct. Point A in the figure shows the amino acid with a protonated carboxyl group (-COOH) and a protonated amino group, the fully positively charged form present in acidic medium; as the reaction shown proceeds toward point B, the carboxyl group loses its proton to become -COO-, leaving the amino group's positive charge and the carboxyl group's negative charge in the dipolar zwitterion arrangement. A positively charged species like the one at point A migrates toward the cathode in an electric field, which is the direction correctly named here. This progression from a fully protonated, net-positive form toward a zwitterionic one is the same acid-to-neutral transition described elsewhere as "pH below the isoelectric point" moving toward the isoelectric point itself.
+
+## answer_d
+A is alkaline media, B is cathode
+
+## explanation_d
+Incorrect. As in option b, point A's protonated carboxyl group (-COOH) corresponds to acidic, not alkaline, medium, so labelling A as alkaline misdescribes the figure regardless of what is said about B.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-73F58D943BB03B
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Trace an amino acid's transition from its fully protonated, acidic-medium form (migrating to the cathode) toward its zwitterion form.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q100, p.14 (figure).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same isoelectric-point/charge concept as Q32/Q28/Q29/Q63/Q66 (already authored), tested here from a two-point reaction figure rather than a single-state description.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q78
+
+## title
+This structure best describes a
+
+## question
+This structure best describes
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Tripeptide
+
+## explanation_a
+Incorrect. The figure's labelled N-terminal and C-terminal residues, connected through the intervening backbone, show more residues joined together than a tripeptide (three amino acids, two peptide bonds) would contain.
+
+## answer_b
+Amino acid
+
+## explanation_b
+Incorrect. A single free amino acid has one alpha-amino and one alpha-carboxyl group and no internal peptide bonds; the figure instead shows multiple residues already joined together by peptide bonds, with separately labelled N-terminal and C-terminal ends.
+
+## answer_c
+Pentapeptide
+
+## explanation_c
+Correct. The figure's chain of residues, running from a labelled N-terminal residue to a labelled C-terminal residue and joined by peptide bonds along the way, matches a pentapeptide — five amino acids linked by four peptide bonds. Labelling the two ends of the chain "N-terminal" and "C-terminal" is exactly the same primary-structure convention tested throughout this section: the first residue keeps a free alpha-amino group and the last keeps a free alpha-carboxyl group, with every residue between them fully tied up in peptide bonds on both sides.
+
+## answer_d
+Alpha helix
+
+## explanation_d
+Incorrect. An alpha helix is a coiled secondary-structure conformation of a chain, held by intrachain hydrogen bonds; the figure instead shows the chain's primary-structure connectivity (its sequence of peptide-bonded residues with labelled termini), not a helical fold.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-BE919386760579
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify a labelled N-terminal-to-C-terminal peptide chain of five residues as a pentapeptide.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q101, p.14 (figure).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same primary-structure concept as Q89/Q23/Q64/Q65/Q75 (already authored), tested here from a labelled N-/C-terminal chain figure rather than a verbal terminal-group question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q79
+
+## title
+In this structure
+
+## question
+In this structure:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is a tetrapeptide, glutathione
+
+## explanation_a
+Incorrect. Glutathione is a tripeptide, built from exactly three residues (glutamate, cysteine, glycine) joined by two peptide bonds, not four residues; calling it a tetrapeptide overstates its actual composition.
+
+## answer_b
+It contains three peptide bonds
+
+## explanation_b
+Incorrect. A chain of three residues requires only two peptide bonds to link them (glutamate-cysteine and cysteine-glycine); three peptide bonds would require a fourth residue, which glutathione does not have.
+
+## answer_c
+Glycine contains a free alpha-carboxyl group
+
+## explanation_c
+Correct. In glutathione's structure, glycine occupies the C-terminal position of the tripeptide, so its alpha-carboxyl group is not used in a peptide bond and remains free — exactly the same C-terminal rule that applies to the last residue of any peptide chain. Glutamate, by contrast, sits at the N-terminus, contributing its free alpha-amino group rather than a free carboxyl group. This structural detail is what the figure's labelled glutamate/cysteine/glycine residues are drawn to show.
+
+## answer_d
+Cysteine contains a free alpha-amino group
+
+## explanation_d
+Incorrect. Cysteine sits in the middle of the glutathione tripeptide, between glutamate and glycine, so both its alpha-amino group (bonded to glutamate) and its alpha-carboxyl group (bonded to glycine) are used in peptide bonds; only its side-chain thiol group is free, not its alpha-amino group.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-E2CB20749CB547
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify glycine as the C-terminal residue of glutathione, contributing the tripeptide's one free alpha-carboxyl group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q105, p.15 (figure).
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same glutathione concept as Q39/Q11/Q44 (already authored), tested here from the structure figure's labelled residues rather than the composition or naming questions. Last question authored from this 105-question section this pass; remaining unauthored items (see file header for the running list) are amino-acid side-chain classification trivia (charged/polar/imidazole/indole/guanido/pyrrole/aromatic/branched-chain groupings — Q16-18/20-25/27/68/69) and a handful of isolated facts (Q5, Q12, Q16-18/20-25/27, Q42/Q97 globular-vs-fibrous, Q49/Q56 hydroxyl-group aa, Q54 amino-group exception, Q86/Q87 named-peptide length trivia, Q13/Q14 flagged for a key-reading anomaly) that do not map to any concept minted for this module; a fresh concept-mint pass would be needed to cover them.
