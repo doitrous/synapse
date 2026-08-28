@@ -1120,3 +1120,1275 @@ yes
 
 ## author_notes
 Three companion questions (Q4, Q11, Q17) retest sphingomyelin/glycerophospholipid classification from other angles; not yet authored.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q09
+
+## title
+The precursor of steroid hormones is
+
+## question
+The precursor of steroid hormones is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cholesterol
+
+## explanation_a
+Correct. Cholesterol is the steroid nucleus from which every steroid hormone is built — the adrenal cortex, gonads and placenta all begin steroidogenesis by converting cholesterol into pregnenolone, the shared precursor for cortisol, aldosterone, the sex hormones and every other steroid hormone. This is the same central role that makes cholesterol the precursor for bile acids and vitamin D3 as well, which is why so little in the body can be made without it. Almost nothing downstream in steroid hormone synthesis can happen without cholesterol as the starting material.
+
+## answer_b
+Bile
+
+## explanation_b
+Incorrect. Bile acids are themselves products made from cholesterol, not the starting material for steroid hormones; bile and steroid hormones are two separate downstream products that both trace back to cholesterol as their common precursor.
+
+## answer_c
+Cortisol
+
+## explanation_c
+Incorrect. Cortisol is one specific steroid hormone, itself synthesised from cholesterol; it is a downstream product, not the precursor from which the wider family of steroid hormones is built.
+
+## answer_d
+Vitamin D
+
+## explanation_d
+Incorrect. Vitamin D (specifically vitamin D3) is also synthesised from cholesterol, but it is a distinct downstream product with its own metabolic pathway, not the precursor of the steroid hormones.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-E77FD4A4D78884
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cholesterol as the precursor of the steroid hormones.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q2, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cholesterol-precursor concept as Q10 (already authored) and Q35/Q44/Q53, tested here through the steroid-hormone branch specifically.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q10
+
+## title
+Glycerophospholipids include all of the following except
+
+## question
+Glycerophospholipids include all of the following except:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Cephalin
+
+## explanation_a
+Incorrect as the exception. Cephalin (phosphatidylethanolamine) is built on a glycerol backbone with two fatty acid chains and a phosphoethanolamine head group, making it a genuine glycerophospholipid, so it belongs on this list.
+
+## answer_b
+Lecithin
+
+## explanation_b
+Incorrect as the exception. Lecithin (phosphatidylcholine) is likewise built on a glycerol backbone with two fatty acid chains and a phosphocholine head group, making it a genuine glycerophospholipid.
+
+## answer_c
+Plasmalogen
+
+## explanation_c
+Incorrect as the exception. A plasmalogen is a glycerophospholipid in which one fatty acid chain is replaced by a fatty alcohol joined through a vinyl-ether bond, but it still has a glycerol backbone at its core, so it too belongs among the glycerophospholipids.
+
+## answer_d
+Sphingomyelin
+
+## explanation_d
+Correct. Sphingomyelin is not built on a glycerol backbone at all — it is a sphingophospholipid, formed instead from sphingosine, which is joined to a fatty acid by an amide bond to make ceramide, and then to phosphocholine. Because it lacks the glycerol backbone that defines every true glycerophospholipid (cephalin, lecithin and plasmalogen alike), sphingomyelin is the correct exception on this list. This same glycerol-versus-sphingosine distinction is what separates the two major phospholipid families from each other.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-268703EAF31C9D
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify sphingomyelin as a sphingophospholipid, not a glycerophospholipid, because it lacks a glycerol backbone.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q4, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same sphingomyelin/sphingolipid concept as Q38 (already authored) and Q17/Q25/Q46, tested here as the direct glycero-vs-sphingo classification question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q11
+
+## title
+Which of the following is the parent compound of the omega-6 family?
+
+## question
+Which of the following is the parent compound of the w-6 family:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Oleic acid
+
+## explanation_a
+Incorrect. Oleic acid is a monoenoic (single double bond) omega-9 fatty acid, not a member of the omega-6 family, so it cannot be that family's parent compound.
+
+## answer_b
+Eladic acid
+
+## explanation_b
+Incorrect. Elaidic acid is the trans-isomer of oleic acid and, like oleic acid, is not part of the omega-6 polyunsaturated family.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Correct. Linoleic acid, with its first double bond six carbons from the methyl end, is the parent (essential) fatty acid of the omega-6 family — the body cannot make it and must obtain it from the diet, and from it the body can elongate and desaturate further omega-6 fatty acids, including arachidonic acid. This is exactly why linoleic acid's absence forces the body to treat arachidonic acid as essential as well, a fact tested directly elsewhere in this section. Linoleic acid's parent role for the omega-6 family mirrors alpha-linolenic acid's parent role for the omega-3 family.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid, with its first double bond three carbons from the methyl end, is the parent compound of the omega-3 family, not the omega-6 family.
+
+## answer_e
+Palmitic acid
+
+## explanation_e
+Incorrect. Palmitic acid is a fully saturated fatty acid with no double bonds at all, so it cannot belong to or be the parent of any omega-numbered polyunsaturated family, which are defined by the position of their first double bond.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify linoleic acid as the parent compound of the omega-6 fatty acid family.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q5, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57 (already authored) and Q7/Q20-22/Q27/Q29-32/Q37/Q51/Q55/Q56, naming linoleic acid's parent role for the omega-6 family specifically.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q12
+
+## title
+Infantile Respiratory Distress Syndrome occurs due to deficiency of
+
+## question
+Infantile Respiratory Distress Syndrome occur due to deficiency of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Cardiolipin
+
+## explanation_a
+Incorrect. Cardiolipin is an acidic phospholipid concentrated in the inner mitochondrial membrane; it is not the surfactant component whose deficiency causes Infantile Respiratory Distress Syndrome.
+
+## answer_b
+Dipalmitoyl Lecithin
+
+## explanation_b
+Correct. Infantile (Neonatal) Respiratory Distress Syndrome develops when a premature infant's lungs have not yet produced enough dipalmitoyl lecithin (dipalmitoyl phosphatidylcholine, DPPC) — the major surface-tension-lowering component of pulmonary surfactant. Without adequate DPPC, the alveoli tend to collapse at the end of each breath, forcing the infant to work much harder to reinflate them. This is exactly the same DPPC-deficiency mechanism tested elsewhere in this section as "surfactant deficiency" more generally.
+
+## answer_c
+Phosphatidyl glycerol
+
+## explanation_c
+Incorrect. Phosphatidylglycerol is a minor surfactant component and a marker of fetal lung maturity, but it is dipalmitoyl lecithin, not phosphatidylglycerol, whose deficiency is the principal cause of Respiratory Distress Syndrome.
+
+## answer_d
+Plasmalogen
+
+## explanation_d
+Incorrect. Plasmalogens are not the defining component of pulmonary surfactant; the surfactant deficiency responsible for Respiratory Distress Syndrome is specifically a deficiency of dipalmitoyl lecithin (DPPC).
+
+## answer_e
+Cephalin
+
+## explanation_e
+Incorrect. Cephalin (phosphatidylethanolamine) is not the surfactant lipid implicated in Respiratory Distress Syndrome; the deficient component is dipalmitoyl lecithin.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-A66D0FD336DDDA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.65
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-AUTOIMMUNE-NEONATAL
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify dipalmitoyl lecithin (DPPC) deficiency as the cause of Infantile Respiratory Distress Syndrome.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q6, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same RDS/surfactant-deficiency concept as Q40 (already authored) and Q26/Q49/Q52, naming the deficient lipid directly by its dipalmitoyl-lecithin name rather than "surfactant" generally.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q13
+
+## title
+Omega-3 fatty acids have significant effects on brain cognitive function — which food is rich in them?
+
+## question
+w-3 fatty acids have significant effects of brain cognitive function, which one of the following food is rich on them
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Cow milk melted fat
+
+## explanation_a
+Incorrect. Cow milk fat is dominated by short- and medium-chain saturated fatty acids, not the long-chain omega-3 polyunsaturated fatty acids associated with brain cognitive benefits.
+
+## answer_b
+Tropical plant oil
+
+## explanation_b
+Incorrect. Tropical plant oils such as palm or coconut oil are predominantly saturated fats, not a rich source of omega-3 fatty acids.
+
+## answer_c
+Corn oil
+
+## explanation_c
+Incorrect. Corn oil is rich in linoleic acid, an omega-6 fatty acid, rather than the omega-3 fatty acids the question is asking about.
+
+## answer_d
+Buffalo meat
+
+## explanation_d
+Incorrect. Buffalo meat, like most red meat, is dominated by saturated and monounsaturated fat and is not a notably rich source of omega-3 fatty acids.
+
+## answer_e
+Salmon fish
+
+## explanation_e
+Correct. Salmon and other oily, cold-water fish are among the richest dietary sources of the long-chain omega-3 fatty acids (EPA and DHA), which the body can also make, less efficiently, from the plant-derived parent omega-3, alpha-linolenic acid. These omega-3 fatty acids are specifically associated with beneficial effects on brain cognitive function, which is why oily fish is the standard dietary recommendation for omega-3 intake. This is the same omega-3 family whose parent compound and defining "third carbon from the methyl end" double-bond position are tested elsewhere in this section.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.65
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify oily fish such as salmon as a rich dietary source of the omega-3 fatty acids linked to brain cognitive function.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q7, p.21.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5 (already authored), extended here to a dietary-source application of the omega-3 family.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q14
+
+## title
+Acidic phospholipids do not include
+
+## question
+Acidic phospholipids don't include :
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Phosphatidic acid
+
+## explanation_a
+Incorrect as the exception. Phosphatidic acid carries a free, ionisable phosphate group with a net negative charge at physiological pH, making it a genuine acidic phospholipid — it belongs among the acidic phospholipids, not the exception to them.
+
+## answer_b
+Phosphatidyl serine and phosphatidyl inositol
+
+## explanation_b
+Incorrect as the exception. Phosphatidylserine (with its carboxyl and amino groups) and phosphatidylinositol (with its multiple hydroxyls that can be phosphorylated) are both negatively charged at physiological pH, making them genuine acidic phospholipids that belong on this list, not the exception.
+
+## answer_c
+Phosphatidyl choline and phosphatidyl ethanolamine
+
+## explanation_c
+Correct. Phosphatidylcholine (lecithin) and phosphatidylethanolamine (cephalin) each carry a positively charged quaternary amine or protonated amine group alongside their negatively charged phosphate, giving the whole head group a net neutral (zwitterionic) charge rather than a net negative one. Because they are not net negatively charged, they are excluded from the acidic phospholipid class — the class that specifically includes phosphatidylserine, phosphatidylinositol, phosphatidylglycerol and cardiolipin, the very antibody targets in antiphospholipid syndrome. This is exactly why phosphatidylcholine and phosphatidylethanolamine are the correct answer to "acidic phospholipids don't include."
+
+## answer_d
+Phosphatidyl glycerol and cardiolipin
+
+## explanation_d
+Incorrect as the exception. Phosphatidylglycerol and cardiolipin are both net negatively charged acidic phospholipids — cardiolipin in particular carries two phosphate groups — and both belong on the list of acidic phospholipids, not the exception to it.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-9D3DE90B645E7A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-AUTOIMMUNE-NEONATAL
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify phosphatidylcholine and phosphatidylethanolamine as neutral (zwitterionic), not acidic, phospholipids, distinct from the acidic class targeted in antiphospholipid syndrome.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q9, p.22.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same antiphospholipid-syndrome/acidic-phospholipid concept as Q39 (already authored) and Q18, naming the specific phospholipids excluded from the acidic class.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q15
+
+## title
+What is the major component of lung surfactant?
+
+## question
+What is the major component of lung surfactant
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Phosphatidylglycerol
+
+## explanation_a
+Incorrect. Phosphatidylglycerol is present in surfactant and used clinically as a marker of fetal lung maturity, but it is a minor component, not the major one.
+
+## answer_b
+Apoproteins
+
+## explanation_b
+Incorrect. Surfactant does contain specific surfactant proteins (SP-A, SP-B, SP-C, SP-D) that help its function, but these proteins are a minor component by mass; the major component of surfactant is a lipid, not a protein.
+
+## answer_c
+Cholesterol
+
+## explanation_c
+Incorrect. Small amounts of cholesterol are present in surfactant, but it is not the major, defining component; that role belongs to dipalmitoyl lecithin.
+
+## answer_d
+Sphingomyelin
+
+## explanation_d
+Incorrect. Sphingomyelin is present only in trace amounts in mature lung surfactant; historically its ratio to lecithin (the lecithin/sphingomyelin ratio) was used to assess fetal lung maturity, but sphingomyelin itself is not the major surfactant component.
+
+## answer_e
+Dipalmitoyl lecithin
+
+## explanation_e
+Correct. Dipalmitoyl lecithin (dipalmitoyl phosphatidylcholine, DPPC) makes up the largest share of pulmonary surfactant by mass, and its two saturated palmitic acid chains are exactly what let it pack tightly at the air-liquid interface of the alveolus, dramatically lowering surface tension and preventing alveolar collapse at the end of expiration. This is the same lipid whose deficiency in a premature infant's immature lungs causes Infantile Respiratory Distress Syndrome, tested elsewhere in this section. Its two identical saturated chains are also why it is called "dipalmitoyl."
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-A66D0FD336DDDA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-AUTOIMMUNE-NEONATAL
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify dipalmitoyl lecithin (DPPC) as the major component of pulmonary surfactant.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q11, p.22.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same RDS/surfactant-deficiency concept as Q40/Q6 (already authored), naming DPPC's normal, positive role as surfactant's major component rather than the disease caused by its deficiency.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q16
+
+## title
+Steroids include
+
+## question
+Steroids include
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Sphingosine
+
+## explanation_a
+Incorrect. Sphingosine is a long-chain amino alcohol that forms the backbone of sphingolipids; it does not share cholesterol's four-fused-ring steroid nucleus, so it is not a steroid.
+
+## answer_b
+Stearic acid
+
+## explanation_b
+Incorrect. Stearic acid is a simple saturated 18-carbon fatty acid, structurally unrelated to the four-fused-ring steroid nucleus; it is not a steroid.
+
+## answer_c
+Bile salts
+
+## explanation_c
+Correct. Bile salts (bile acids conjugated with glycine or taurine) are made from cholesterol and retain its four-fused-ring steroid nucleus, which is exactly what makes them steroids, alongside the other cholesterol-derived compounds such as the steroid hormones and vitamin D3. This is the same precursor relationship — cholesterol as the source of bile acids — tested directly elsewhere in this section. Bile salts' detergent-like action in the gut depends on this same steroid-derived structure.
+
+## answer_d
+Lecithin
+
+## explanation_d
+Incorrect. Lecithin (phosphatidylcholine) is a glycerophospholipid, built on a glycerol backbone with fatty acid chains and a phosphocholine head group; it shares no structural relationship with the steroid nucleus and is not a steroid.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-E77FD4A4D78884
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify bile salts as steroids, made from cholesterol and retaining its ring nucleus.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q14, p.22.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cholesterol-precursor concept as Q10/Q9 (already authored) and Q35/Q44/Q53, tested here through bile salts' identity as a steroid.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q17
+
+## title
+One of the following is a phospholipid
+
+## question
+one of the following is phospholipid:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Triacylglycerol
+
+## explanation_a
+Incorrect. Triacylglycerol is built from glycerol and three fatty acid chains with no phosphate group at all, which is what makes it a simple storage lipid rather than a phospholipid.
+
+## answer_b
+Sphingomyelin
+
+## explanation_b
+Correct. Sphingomyelin is a phospholipid — specifically a sphingophospholipid — built from a ceramide (sphingosine joined to a fatty acid by an amide bond) linked to a phosphocholine head group, giving it the phosphate group that defines the phospholipid class. Unlike the glycerophospholipids, its backbone is sphingosine rather than glycerol, but it still meets the defining criterion of a phospholipid: a phosphate-containing head group attached to a lipid backbone. It is a major component of the myelin sheath and of lung and brain cell membranes.
+
+## answer_c
+Glutamic acid
+
+## explanation_c
+Incorrect. Glutamic acid is an amino acid, not a lipid at all, so it cannot be a phospholipid or any other class of lipid.
+
+## answer_d
+Palmitic acid
+
+## explanation_d
+Incorrect. Palmitic acid is a simple free fatty acid with no glycerol or sphingosine backbone and no phosphate group, so it is not a phospholipid.
+
+## answer_e
+Wax
+
+## explanation_e
+Incorrect. A wax is an ester of a long-chain fatty acid with a long-chain monohydric alcohol, containing no phosphate group, which is why it is classed separately from the phospholipids.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-268703EAF31C9D
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify sphingomyelin as a phospholipid, among non-phospholipid lipids and a non-lipid amino acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q17, p.23.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same sphingomyelin/sphingolipid concept as Q38/Q4 (already authored), the last of the three companion questions the file header flagged (Q4, Q11, Q17), now all authored — Q11 turned out to belong to the RDS/surfactant concept instead once read in full.
