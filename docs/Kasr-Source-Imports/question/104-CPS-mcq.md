@@ -16,6 +16,7 @@
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
+    Physiology Cardiovascular System — Pacemaker Electrophysiology — 9 questions, 4 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
@@ -60,7 +61,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  89 questions were excluded and 0 held back for having no
+  91 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -9690,6 +9691,650 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-104-BEA60888E02B
+## title
+In the sinoatrial (SA) node, phase 4 depolarization (pacemaker potential) is attributab…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In the sinoatrial (SA) node, phase 4 depolarization (pacemaker potential) is attributable to
+## answer_a
+an increase in K+ conductance
+## explanation_a
+The opposite of what drives phase 4. A rising K+ conductance would hold the membrane closer to the K+ equilibrium potential and oppose depolarization — that describes a working myocyte's flat resting phase 4, not the SA node's spontaneously depolarizing one.
+## answer_b
+an increase in Na+ conductance ;
+## explanation_b
+Correct. Phase 4 depolarization begins with an increase in Na+ conductance as the funny channels open (the funny current, If), joined shortly after by the Na+-Ca++ exchanger's own inward Na+ current, carrying the membrane from about -60 mV toward the firing level.
+
+Why this is right:
+- Phase 4 of the pacemaker action potential is a spontaneous depolarization produced first by the funny current (If) through Na+ funny channels together with the Na+-Ca++ exchanger, then by T-type Ca++ channels — in contrast to the stable, non-depolarizing phase 4 of ordinary atrial and ventricular myocytes.
+## answer_c
+adecrease in Cl- conductance
+## explanation_c
+Cl- conductance plays no role in this leaf's account of the pacemaker potential's ionic basis, and a decrease in it would not supply the steady inward current phase 4 needs.
+## answer_d
+adecrease in Ca”* conductance
+## explanation_d
+Backwards. Phase 4 needs an inward Ca++-related current late on (via the T-type channels and the Na+-Ca++ exchanger), not a decreased Ca++ conductance — a decrease would remove, not add, depolarizing current.
+## correct_answer
+B
+## main_concept
+CON-CVS-34D3CB7F794801
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that phase 4 depolarization (the pacemaker potential) of the SA node is attributable to a rising Na+ conductance, not a change in K+, Cl- or Ca++ conductance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p4 q29. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-60A4498CE9A9
+## title
+Which of the following phases shows the opening of Na+ funny channels?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following phases shows the opening of Na+ funny channels?
+## answer_a
+Phase 0
+## explanation_a
+Phase 0 is the rapid (for a pacemaker cell) upstroke, carried by L-type Ca++ channels, not the funny channels — by phase 0 the funny channels have already inactivated.
+## answer_b
+Phase 2
+## explanation_b
+There is no plateau phase in the pacemaker action potential's three-phase scheme (4, 0, 3); phase 2 is a working-myocyte feature, unrelated to the funny channels.
+## answer_c
+Phase 3
+## explanation_c
+Phase 3 is repolarization, carried by delayed rectifier K+ channels — the funny channels are not open at this point in the cycle.
+## answer_d
+Phase 4
+## explanation_d
+Correct. Phase 4, the pacemaker's pre-potential, begins with the funny channels opening from about -60 mV to -40 mV, carrying the inward Na+ current (If) that starts the spontaneous depolarization.
+
+Why this is right:
+- Phase 4 of the pacemaker action potential is a spontaneous depolarization produced first by the funny current (If) through Na+ funny channels together with the Na+-Ca++ exchanger, then by T-type Ca++ channels — in contrast to the stable, non-depolarizing phase 4 of ordinary atrial and ventricular myocytes.
+## correct_answer
+D
+## main_concept
+CON-CVS-34D3CB7F794801
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a phase-current pairing
+## learning_objective
+Identify phase 4 as the phase in which Na+ funny channels open, as opposed to phases 0, 2 or 3.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q38. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6E2546F469C1
+## title
+Why the Na+ funny channels are called "Hyperpolarization-activated Cyclic Nucleotide-re…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Why the Na+ funny channels are called "Hyperpolarization-activated Cyclic Nucleotide-regulated channels"?
+## answer_a
+They are activated by hyperpolarization
+## explanation_a
+True, but only half the name's justification on its own — the funny channel does activate as the membrane hyperpolarizes toward phase 4's starting voltage, which is the 'hyperpolarization-activated' half of the name.
+## answer_b
+They are regulated by intracellular cAMP
+## explanation_b
+Also true on its own, but only the other half: intracellular cAMP (raised by sympathetic β1-receptor activity, lowered by parasympathetic activity) tunes how quickly the funny current activates, which is the 'cyclic nucleotide-regulated' half of the name.
+## answer_c
+They can depolarize the pacemaker cell to +30 mV
+## explanation_c
+Not what gives the channel its name, and not accurate as stated — the funny current does not itself depolarize the pacemaker cell all the way to +30 mV; that overshoot is produced later, by phase 0's L-type Ca++ current.
+## answer_d
+Only A and B are correct
+## explanation_d
+Correct. The name captures both true properties at once: the channel activates on hyperpolarization (A) and its activity is regulated by cyclic nucleotides such as cAMP (B) — neither alone is the full definition, which is exactly why the name has both halves.
+
+Why this is right:
+- Phase 4 of the pacemaker action potential is a spontaneous depolarization produced first by the funny current (If) through Na+ funny channels together with the Na+-Ca++ exchanger, then by T-type Ca++ channels — in contrast to the stable, non-depolarizing phase 4 of ordinary atrial and ventricular myocytes.
+## correct_answer
+D
+## main_concept
+CON-CVS-34D3CB7F794801
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State both reasons the funny channel is named a 'hyperpolarization-activated, cyclic nucleotide-regulated' (HCN) channel: it opens on hyperpolarization and its gating is modulated by intracellular cAMP.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p5 q39. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3BDE87B6B6FC
+## title
+Which of the following phases shows opening of delayed rectifying K+ channels and incre…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following phases shows opening of delayed rectifying K+ channels and increased K+ conductance?
+## answer_a
+Phase 0
+## explanation_a
+Phase 0 is the upstroke, carried by inward current through L-type Ca++ channels, not by K+ efflux.
+## answer_b
+Phase 2
+## explanation_b
+There is no phase 2 (plateau) in the three-phase pacemaker scheme; delayed rectifier K+ channels are not what defines this phase here.
+## answer_c
+Phase 3
+## explanation_c
+Correct. Phase 3 is repolarization: delayed rectifying K+ channels open, increasing K+ conductance and driving an outward K+ current that returns the membrane to about -60 mV, alongside inactivation of the L-type Ca++ channels.
+
+Why this is right:
+- Phase 0 of the pacemaker action potential is a slow upstroke produced by activation of L-type Ca++ channels, which is why the pacemaker action potential is called the slow response action potential, and phase 3 is repolarization produced by an outward K+ current through delayed rectifier K+ channels.
+## answer_d
+Phase 4
+## explanation_d
+Phase 4 is the spontaneous depolarization that follows repolarization, driven by the funny current and T-type Ca++ channels, not by delayed rectifier K+ channels, which have themselves inactivated by this point.
+## correct_answer
+C
+## main_concept
+CON-CVS-0AD04EE46FD2C5
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a phase-current pairing
+## learning_objective
+Identify phase 3 as the phase in which delayed rectifying K+ channels open and K+ conductance increases, repolarizing the cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p6 q40. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-58F4F499961A
+## title
+The SA node is the normal pacemaker because of its : |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The SA node is the normal pacemaker because of its : |
+## answer_a
+rate of impulse discharge
+## explanation_a
+Correct. The SA node fires faster than the AV node (about 60/min) and the Purkinje fibres (about 20-40/min); because it reaches threshold and discharges first every cycle, it drives the whole heart and suppresses the slower tissues below it — sheer rate, not any other property, is what makes it the pacemaker.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## answer_b
+location in the atrium
+## explanation_b
+Location alone does not make a tissue the pacemaker — the AV node and Purkinje fibres are also anatomically fixed conduction-system structures, yet neither controls the normal rhythm; only the SA node's superior discharge rate does that.
+## answer_c
+neural control
+## explanation_c
+The SA node does receive autonomic innervation (which modulates its rate), but neural control is not what makes it the pacemaker in the first place — an artificial or denervated SA node with a faster intrinsic rate than the AV node and Purkinje fibres would still dominate them.
+## answer_d
+muscular structure
+## explanation_d
+All conduction-system tissue is specialised cardiac muscle; the SA node's muscular structure is not distinct in a way that explains its dominance — its faster discharge rate is the actual reason.
+## correct_answer
+A
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a mechanism
+## learning_objective
+State that the SA node is the normal pacemaker because its intrinsic rate of impulse discharge (about 90-105/min) is faster than every other pacemaker tissue, which lets it suppress them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p2 q9. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-79D26FE0842A
+## title
+wnicn character of the SAN makes it the normal heart's pacemaker?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+wnicn character of the SAN makes it the normal heart's pacemaker?
+## answer_a
+It has the fastest rate of auto-rhythmicity
+## explanation_a
+Correct. The SA node discharges at about 90-105/min, faster than the AV node (about 60/min) or the Purkinje fibres (about 20-40/min); firing first every cycle is what lets it suppress the other pacemaker tissues and set the heart's rhythm.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## answer_b
+It has both sympathetic and parasympaihetic innervation
+## explanation_b
+The AV node and Purkinje fibres also receive autonomic innervation, so dual innervation alone does not distinguish the SA node or explain its dominance — its faster intrinsic rate does.
+## answer_c
+lilies in the right atrium
+## explanation_c
+Location in the right atrium is a fixed anatomical fact about the SA node, but location by itself does not make a tissue the pacemaker — the AV node's location in the interatrial septum does not make it dominant either; discharge rate is what decides which tissue leads.
+## answer_d
+Activation of K+ channels occurs more rapidly in this region than
+## explanation_d
+Not the mechanism this leaf's evidence describes; the SA node's dominance is attributed to its faster overall discharge rate, not to a claimed difference in how quickly its K+ channels activate relative to other pacemaker tissue.
+## correct_answer
+A
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a mechanism
+## learning_objective
+Identify the SA node's fastest intrinsic auto-rhythmicity, not its innervation, location or K+-channel kinetics, as the reason it is the normal pacemaker.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p5 q12. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6B607E21F351
+## title
+The cardiac tissue with the slowest rhythmicity is the :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The cardiac tissue with the slowest rhythmicity is the :
+## answer_a
+S.A node without vagal tone
+## explanation_a
+The SA node without vagal tone would fire even faster than its usual 90-105/min (since resting vagal tone normally slows it), making it the fastest tissue here, not the slowest.
+## answer_b
+S.A node with vagal tone
+## explanation_b
+The SA node with vagal tone is slowed toward the resting heart rate of about 72/min, but it is still driven by the fastest pacemaker tissue in the hierarchy — well above the AV node's own intrinsic rate.
+## answer_c
+ventricular muscle . :
+## explanation_c
+A common trap: ordinary ventricular muscle has essentially no spontaneous phase 4 automaticity under normal conditions at all, so it is not a slow-rhythmicity tissue — it is not a rhythmic (self-exciting) tissue in the first place, and 'slowest rhythmicity' can only rank tissues that actually show rhythmicity.
+## answer_d
+AV node
+## explanation_d
+Correct. Among the tissues that do show spontaneous automaticity — SA node, AV node, Purkinje fibres — the AV node (about 60/min) is slower than the SA node but faster than the Purkinje fibres; the question's own option set contrasts it against non-rhythmic ventricular muscle rather than against Purkinje fibres, and the AV node is the slowest of the choices that genuinely paces.
+
+Why this is right:
+- The SA node discharges at about 90-105/min, the AV node at about 60/min, and Purkinje fibres at about 20-40/min; because the SA node is fastest it suppresses the others and is the normal pacemaker, with the AV node becoming the pacemaker if the SA node fails and the Purkinje fibres taking over if the AV node also fails.
+## correct_answer
+D
+## main_concept
+CON-CVS-802E52B82883CD
+## library_ids
+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Pacemaker Electrophysiology
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Rank the pacemaker hierarchy's intrinsic rates (SA node fastest, then AV node, then Purkinje fibres slowest) and recognise that ordinary ventricular muscle — lacking spontaneous automaticity of its own — is not a comparable rhythmic tissue at all.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p2 q15. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 

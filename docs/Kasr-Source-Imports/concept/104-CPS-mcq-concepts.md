@@ -16,6 +16,7 @@
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
+    Physiology Cardiovascular System — Pacemaker Electrophysiology — 9 questions, 4 concepts
     Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
@@ -60,7 +61,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  89 questions were excluded and 0 held back for having no
+  91 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1774,6 +1775,76 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
 +ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
 canonical_key "heart-wall.three-layers-epicardium-myocardium-endocardium" already has a pinned id in this module (CON-CVS-CC8835108F512C); mintConceptId derives the same id fresh (CON-CVS-CC8835108F512C) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-34D3CB7F794801
+## label
+The pacemaker potential's phase 4 is a spontaneous depolarization carried by the funny current, T-type calcium channels and the sodium-calcium exchanger, unlike the stable phase 4 of working atrial and ventricular myocytes
+## canonical_key
+sa-node-pacemaker-potential.phase-4.ionic-basis
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## field_notes
+canonical_key "sa-node-pacemaker-potential.phase-4.ionic-basis" already has a pinned id in this module (CON-CVS-34D3CB7F794801); mintConceptId derives the same id fresh (CON-CVS-34D3CB7F794801) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-0AD04EE46FD2C5
+## label
+Phase 0 of the pacemaker action potential is a slow upstroke through L-type calcium channels, which is why it is called the slow response action potential, and phase 3 is repolarization through delayed rectifier potassium channels
+## canonical_key
+sa-node-pacemaker-potential.phase-0-and-3.ionic-basis
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p6 | 104 CPS
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## field_notes
+canonical_key "sa-node-pacemaker-potential.phase-0-and-3.ionic-basis" already has a pinned id in this module (CON-CVS-0AD04EE46FD2C5); mintConceptId derives the same id fresh (CON-CVS-0AD04EE46FD2C5) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-802E52B82883CD
+## label
+The SA node discharges faster than the AV node and Purkinje fibres, so it normally suppresses them, and a slower tissue only takes over as an escape pacemaker if the faster one above it fails
+## canonical_key
+cardiac-pacemaker-hierarchy.intrinsic-rates.sa-av-purkinje
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p2 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## field_notes
+canonical_key "cardiac-pacemaker-hierarchy.intrinsic-rates.sa-av-purkinje" already has a pinned id in this module (CON-CVS-802E52B82883CD); mintConceptId derives the same id fresh (CON-CVS-802E52B82883CD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-7A8A04F61D44D1
+## label
+The Na+-K+ ATPase, the Ca++-ATPase and the Na+-Ca++ exchanger maintain cardiac myocyte ionic gradients, and the exchanger can reverse direction
+## canonical_key
+cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance
+## exam_signal
+
+## article_ids
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
+## field_notes
+canonical_key "cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance" already has a pinned id in this module (CON-CVS-7A8A04F61D44D1); mintConceptId derives the same id fresh (CON-CVS-7A8A04F61D44D1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
