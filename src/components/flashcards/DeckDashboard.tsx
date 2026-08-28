@@ -12,11 +12,13 @@ import { Field, TextInput } from '@/components/ui/Field'
 import { SubjectTag } from '@/components/ui/Subject'
 import { useT } from '@/lib/i18n'
 import { pct, formatRelativeTime } from '@/lib/format'
-import { cn } from '@/lib/cn'
 import type { DeckView, FlashcardsApi } from '@/lib/useFlashcards'
 import { DeckOptionsDialog } from './DeckOptionsDialog'
+import { StudyRhythm } from './rhythm/StudyRhythm'
+import { CardBreakdown } from './CardBreakdown'
 import { deckDashboardStats } from '@/data/flashcards/deckSummary'
-import type { DeckCounts } from '@/data/flashcards/status'
+import { exclusiveCounts } from '@/data/flashcards/status'
+import { useRhythmSettings, type RhythmSettingsApi } from '@/lib/useRhythmSettings'
 
 /**
  * Decks and the per-deck dashboard.
@@ -40,6 +42,8 @@ export function DeckDashboard({
   const t = useT()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [creating, setCreating] = useState(false)
+  const liveDeckIds = useMemo(() => new Set(api.decks.map((d) => d.id)), [api.decks])
+  const rhythm = useRhythmSettings(liveDeckIds)
 
   const selected = selectedId ? api.getDeck(selectedId) : undefined
 
@@ -48,6 +52,7 @@ export function DeckDashboard({
       <DeckDetail
         api={api}
         deck={selected}
+        rhythm={rhythm}
         onBack={() => setSelectedId(null)}
         onStudy={() => onStudy(selected.id)}
         onAddToDeck={() => onAddToDeck(selected.id)}
@@ -76,6 +81,9 @@ export function DeckDashboard({
 
   return (
     <div className="space-y-5">
+      {rhythm.settings.showOnMain && (
+        <StudyRhythm api={api} scope={{ kind: 'all' }} settingsApi={rhythm} />
+      )}
       <Panel>
         <PanelHeader
           title={t('Your decks')}
@@ -142,27 +150,17 @@ function DeckRow({ deck, onOpen, onStudy }: { deck: DeckView; onOpen: () => void
   )
 }
 
-const COUNT_DEFS: { key: keyof DeckCounts; label: string; tip: string; tone?: string }[] = [
-  { key: 'new', label: 'New', tip: 'Currently in the new scheduling state.', tone: 'text-primary-strong' },
-  { key: 'learning', label: 'Learning', tip: 'In learning or relearning steps.' },
-  { key: 'reviewDue', label: 'Review due', tip: 'Review cards due now or overdue, and not suspended or buried.', tone: 'text-accent' },
-  { key: 'young', label: 'Young', tip: 'A review card with an interval under 21 days.' },
-  { key: 'mature', label: 'Mature', tip: 'A review card with an interval of at least 21 days.' },
-  { key: 'learned', label: 'Learned', tip: 'Has at least one completed review and has not since been reset.' },
-  { key: 'unseen', label: 'Unseen', tip: 'Never answered, with no review history.' },
-  { key: 'buried', label: 'Buried', tip: 'Hidden until the next study day.' },
-  { key: 'suspended', label: 'Suspended', tip: 'Excluded until unsuspended.' },
-]
-
 function DeckDetail({
   api,
   deck,
+  rhythm,
   onBack,
   onStudy,
   onAddToDeck,
 }: {
   api: FlashcardsApi
   deck: DeckView
+  rhythm: RhythmSettingsApi
   onBack: () => void
   onStudy: () => void
   onAddToDeck: () => void
@@ -177,7 +175,7 @@ function DeckDetail({
   const sessionSize = useMemo(() => api.studyQueue(deck.id, now).length, [api, deck.id, now])
   const c = deck.counts
   const buriedCount = c.buried
-  const share = (n: number) => (c.total === 0 ? '0%' : pct((n / c.total) * 100))
+  const breakdownCounts = useMemo(() => exclusiveCounts(metas, now), [metas, now])
 
   return (
     <div className="space-y-5">
@@ -229,22 +227,15 @@ function DeckDetail({
         </div>
       </Panel>
 
+      {rhythm.settings.showOnDeck && (
+        <StudyRhythm api={api} scope={{ kind: 'deck', deckId: deck.id }} settingsApi={rhythm} />
+      )}
+
       <Panel>
         <PanelHeader title={t('Card breakdown')} hint={<><span className="tnum">{c.total}</span> {t('total')}</>} />
-        <div className="grid grid-cols-2 gap-px bg-line sm:grid-cols-3 lg:grid-cols-5">
-          {COUNT_DEFS.map((def) => (
-            <Tooltip key={def.key} label={t(def.tip)}>
-              <div className="bg-surface p-3.5">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t(def.label)}</p>
-                <p className={cn('tnum mt-1 font-mono text-[20px] font-semibold', def.tone ?? 'text-ink')}>{c[def.key]}</p>
-                <p className="tnum text-[11.5px] text-ink-3">{share(c[def.key])}</p>
-              </div>
-            </Tooltip>
-          ))}
+        <div className="p-4">
+          <CardBreakdown counts={breakdownCounts} />
         </div>
-        <p className="border-t border-line px-4 py-2.5 text-[11.5px] text-ink-3">
-          {t('Percentages are shares of the deck total and overlap — they are not meant to add up to 100%.')}
-        </p>
       </Panel>
 
       {optionsOpen && <DeckOptionsDialog api={api} deck={deck} onClose={() => setOptionsOpen(false)} />}
