@@ -1327,3 +1327,115 @@ sub-heading, not leaf by leaf).
   return, AV shunt, athlete's heart, exercise circulation, hemorrhagic
   shock) were genuinely Basic-Mechanisms-of-Circulatory-Control content
   mistagged. Always read the stem before trusting the bank's `leaf` tag.
+
+## run33 (recovery probe, off run31 — run32 died at 0 commits): Electrical Activity of the Heart CLOSED
+
+**47/47 bank rows accounted for — 28 kept, 19 excluded, 0 remaining.**
+Committed in small increments (2 kept 3-option-contract fixes caught and
+corrected mid-session, so numbers below are the final, gate-clean state).
+
+4 files, module_subject "104 CPS > Physiology > Cardiovascular System >
+Electrical Activity of the Heart" for every concept and question:
+
+- **`cardiovascular-pacemaker-electrophysiology.ts`** (articleId
+  ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY): 4 sparse reuses — a **goldmine**
+  find, same class as A-V Connections' own histology-concepts discovery.
+  Grepping `104-CPS-physiology-concepts.md` for this cluster's own article
+  ids (before minting anything, per the heightened CVS dedup mitigation)
+  turned up 7 already-pinned, hand-authored, unimported concepts covering
+  most of this leaf's textbook content: `sa-node-pacemaker-potential.phase-4`
+  (CON-CVS-34D3CB7F794801), `...phase-0-and-3` (CON-CVS-0AD04EE46FD2C5),
+  `cardiac-pacemaker-hierarchy...` (CON-CVS-802E52B82883CD),
+  `cardiac-sarcolemma.ionic-pumps-exchangers...` (CON-CVS-7A8A04F61D44D1),
+  `autonomic-nervous-system...chronotropy-dromotropy` (CON-CVS-AAAD34C16F9880),
+  `cardiac-conduction-system...av-nodal-delay` (CON-CVS-11E581298A0B95),
+  `cardiac-myocyte-action-potential.refractory-periods...`
+  (CON-CVS-5288011D93888B). 7 kept, 2 excluded (3-option bank rows).
+- **`cardiovascular-autonomic-control-and-refractory-periods.ts`**
+  (articleId ART-104-PHY-CARDIAC-CONDUCTION): 3 of the 7 reuses above.
+  8 kept, 1 excluded (3-option row).
+- **`cardiovascular-working-myocyte-action-potential.ts`** (articleId
+  ART-104-PHY-CARDIAC-ACTION-POTENTIAL — a Draft article already staged and
+  named as a sibling by both articles above, but grepped for as a concept's
+  own `article_ids` in the physiology-concepts file with 0 hits: a genuine
+  gap, not another goldmine). 2 fresh mints after find-existing.mjs "safe
+  to create" on every term tried (cardiac AP plateau/L-type Ca-K balance;
+  functional syncytium/intercalated discs). 3 kept, 5 excluded (1 more
+  3-option row, 3 OCR page-bleed merges, 1 stem/option mismatch).
+- **`cardiovascular-ecg-basics.ts`** — no 104-CPS-scoped ECG article exists
+  yet (the one ECG article in the repo, SYS-CVS-ARTICLE-T09, is the
+  cross-university Systems-view pipeline's own, no 104 CPS moduleId, same
+  no-safe-reuse situation as every other cross-catalogue overlap documented
+  in this file). Used ART-104-PHY-CARDIAC-CONDUCTION as the closest live
+  104-CPS article, with the gap recorded on all 4 fresh-mint concepts
+  (ecg.waveform-electrophysiological-correlates, ecg.intervals-and-segments,
+  ecg.recording-technique, myocardial-ischemia.electrical-effects). 10 kept,
+  11 excluded — 1 more 3-option row, 2 leaf-mismatched pneumotaxic rows
+  (see below), 2 unverified/disputable-key rows, 5 rows already excluded at
+  the bank/editorial-keying stage (recorded here as seed excludes for this
+  leaf's own complete accounting, per standing practice).
+
+**Two self-caught 3-option-contract defects**, same class as run27's/run29's
+own precedent: I initially wrote 4-option explanations for 3 bank rows
+(`in-the-sinoatrial-sa-node...-51bb7e46`, `relaxation-asaction-potential-
+ends...-4f27e09d`, `the-absolute-refractory-period-in-the-ventricles-
+dcf3f403`) without re-checking the bank's actual `options` keys first.
+`medical:batch` flagged all 3 ("N options — the contract is 4 to 5")
+before any push; converted to `exclude: true` and re-verified clean.
+**Lesson for the next session touching this bank**: check
+`options.keys()` for every row BEFORE drafting explanations, not after —
+several rows here have only 3 real options (A/B/C or A/B/D) despite
+looking complete in a quick stem-only read.
+
+**Needs-Omar / follow-up items, not fixed in this pass**:
+- **2 leaf-mismatched rows** (`pneumotaxic-center-functions-primarily-to-
+  9eda7d1c`, `...-a-limit-inspiratio-e9225808`) are tagged leaf "Electrical
+  Activity of the Heart" but are genuinely Control of Respiration content
+  (pneumotaxic centre limits inspiration) — that cluster is already fully
+  closed (`physiology-control-of-respiration.ts`, concept
+  `respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation` already
+  teaches this exact fact). Excluded from this leaf rather than re-authored,
+  to avoid touching an already-closed sibling file outside this session's
+  own bounded scope. A future session touching Control of Respiration
+  should fold these 2 rows in as a routed addition (reusing that concept,
+  no new mint needed).
+- **2 rows with an unverified/disputable key**, excluded rather than
+  overridden or trusted: `in-ecg-atrial-fibrillation-shows-253f1614`
+  (handwritten-recovered answer B, "atrial rate 200-300/min", sits closer
+  to standard atrial-flutter teaching than fibrillation's classic
+  350-600/min with absent P waves as the defining sign — option D) and
+  `ventricular-repolarization-45-...-9258256a` (handwritten-recovered
+  answer B, "V1 at the left 5th intercostal space", conflicts with standard
+  lead placement — V1 is right 4th ICS; left 5th ICS is V4). This branch's
+  own `answerOverride` convention (see the cytogenetics files) only
+  overrides against a directly re-verified department-book page; that
+  re-verification was not attempted this pass (recovery-probe time budget),
+  so both were excluded rather than guessed at either way. Worth a real
+  answerOverride pass later if someone has the department book's ECG pages
+  open already.
+- **No 104-CPS-scoped ECG-teaching article exists.** `cardiovascular-ecg-
+  basics.ts`'s 4 concepts all carry a `gaps` note that ART-104-PHY-CARDIAC-
+  CONDUCTION (used as the closest live article) does not itself state the
+  P/QRS/T-to-event correlation, interval/segment definitions, paper
+  calibration or limb-lead definitions this leaf teaches. Same class of gap
+  as the Purkinje-fibre histology concept in `cardiovascular-conducting-
+  system-histology.ts` — flagged for a future 104 CPS physiology-article-
+  authoring pass, not fixed here.
+
+Gate (final, cumulative across all 4 commits): 515 kept (+28 from the
+487 baseline), 108 excluded (+19 from 89). `medical:batch` full `--with`
+(all 104-CPS concept + article files): 4 pre-existing errors only (0 new)
+at every stage. `medical:simulate` positional (all concepts, all articles,
+then the question file): `errors: []`, all `rejected: 0`. Additive-only
+diff confirmed at every commit (`git diff` on the built files showed only
+header summary/count lines changing, never a removed content line).
+
+**No stalls experienced this session** — every read was kept small
+(grep/offset+limit, never a full multi-thousand-line file at once), and
+commits landed roughly every 8-10 questions as instructed. First commit
+landed well inside the 3-minute target.
+
+Next largest untouched clusters (per the recompute in run28's own section
+above, now stale by this cluster's closure — rerun the recompute script
+before trusting exact counts): Mechanical Properties of Cardiac Muscle
+(36), Vascular Function (~43 effectively), Veins (~40 effectively).
