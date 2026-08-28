@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Award, BarChart3, Brain, Clock3, Hourglass, Layers, ListChecks, Medal, Percent, Table2, Timer, TrendingUp, Users } from 'lucide-react'
+import { Award, BarChart3, Brain, Clock3, Highlighter, Hourglass, Layers, ListChecks, Medal, Percent, RotateCcw, Table2, Timer, TrendingDown, TrendingUp, Users } from 'lucide-react'
 import { getSubject } from '@/data/subjects'
 import {
   accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
@@ -20,6 +20,9 @@ import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { QUESTION_HIGHLIGHTS_STORAGE_KEY, type QuestionHighlightStore } from '@/data/questionHighlights'
+import { analyzeHighlightBehavior, classifyAnswerChanges, flattenHighlightStore } from '@/data/studyTracking'
 import { useMaristanas } from '@/lib/useMaristanas'
 import { formatMinutes, formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
@@ -328,6 +331,83 @@ function PeerStandingPanel({ records }: { records: AttemptRecord[] }) {
  * is everything else (notebook, whiteboard, flashcards). No estimate — each
  * bucket is a straight count of tagged minutes over the last week.
  */
+/**
+ * Your own study habits, from the two signals the admin console also tracks:
+ * how your answer to a re-attempted question moves, and whether your Question
+ * Bank highlights land on the reasoning. Both are computed with the same
+ * `studyTracking` functions the admin view uses, but only over your own data.
+ */
+function StudentActivityPanel({ records }: { records: AttemptRecord[] }) {
+  const t = useT()
+  const [highlightStore] = usePersistentState<QuestionHighlightStore>(QUESTION_HIGHLIGHTS_STORAGE_KEY, {})
+  const changes = useMemo(() => classifyAnswerChanges(records), [records])
+  const highlights = useMemo(() => analyzeHighlightBehavior(flattenHighlightStore(highlightStore)), [highlightStore])
+
+  const focusCopy = highlights.focusLabel === 'focused' ? t('You highlight the reasoning — the explanation and rationale. Keep it up.')
+    : highlights.focusLabel === 'mixed' ? t('Your highlights are a mix of the reasoning and the scenario. Leaning into the explanation and rationale pays off most.')
+      : highlights.focusLabel === 'sporadic' ? t('Your highlights scatter across the scenario and options. Try marking the explanation and rationale — the "why" — instead.')
+        : t('Highlight the key points inside a question and a read on your habit appears here.')
+
+  return (
+    <Panel>
+      <PanelHeader title={t('Your study habits')} icon={RotateCcw} hint={t('Answer changes and highlighting, from your own activity')} />
+      <div className="grid gap-4 p-5 sm:grid-cols-2">
+        <div className="rounded-lg border border-line bg-surface-2/40 p-4">
+          <p className="text-[12px] font-semibold text-ink-2">{t('When you re-answer a question')}</p>
+          <p className="mt-1 text-[12px] text-ink-3">
+            {changes.itemsWithRepeatedAttempts} {changes.itemsWithRepeatedAttempts === 1 ? t('question re-attempted') : t('questions re-attempted')} · {changes.totalTransitions} {changes.totalTransitions === 1 ? t('change') : t('changes')}
+          </p>
+          <ul className="mt-3 space-y-2 text-[12.5px] text-ink">
+            <li className="flex items-center gap-2">
+              <TrendingUp className="size-3.5 shrink-0 text-success" />
+              <span className="flex-1 text-ink-2">{t('Wrong, then right')}</span>
+              <span className="tnum font-mono font-semibold">{changes.counts.incorrectToCorrect}</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <TrendingDown className="size-3.5 shrink-0 text-danger" />
+              <span className="flex-1 text-ink-2">{t('Right, then wrong')}</span>
+              <span className="tnum font-mono font-semibold">{changes.counts.correctToIncorrect}</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <RotateCcw className="size-3.5 shrink-0 text-warning" />
+              <span className="flex-1 text-ink-2">{t('Wrong both times')}</span>
+              <span className="tnum font-mono font-semibold">{changes.counts.incorrectToIncorrect}</span>
+            </li>
+          </ul>
+          {changes.totalTransitions === 0 && (
+            <p className="mt-3 text-[11.5px] text-ink-3">{t('Re-attempt a question you have answered before to see how your answer moves.')}</p>
+          )}
+        </div>
+
+        <div className="rounded-lg border border-line bg-surface-2/40 p-4">
+          <div className="flex items-center justify-between gap-2">
+            <p className="text-[12px] font-semibold text-ink-2">{t('How you highlight')}</p>
+            <Badge tone={highlights.focusLabel === 'focused' ? 'success' : highlights.focusLabel === 'sporadic' ? 'warning' : 'neutral'} dot>
+              {highlights.focusLabel === 'focused' ? t('Focused on reasoning')
+                : highlights.focusLabel === 'mixed' ? t('Mixed')
+                  : highlights.focusLabel === 'sporadic' ? t('Sporadic')
+                    : t('No highlights yet')}
+            </Badge>
+          </div>
+          <ul className="mt-3 space-y-2 text-[12.5px] text-ink">
+            <li className="flex items-center gap-2">
+              <Highlighter className="size-3.5 shrink-0 text-ink-3" />
+              <span className="flex-1 text-ink-2">{t('On the explanation or rationale')}</span>
+              <span className="tnum font-mono font-semibold">{Math.round(highlights.keyBlockShare * 100)}%</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <ListChecks className="size-3.5 shrink-0 text-ink-3" />
+              <span className="flex-1 text-ink-2">{t('Highlights per question')}</span>
+              <span className="tnum font-mono font-semibold">{highlights.highlightsPerQuestion.toFixed(1)}</span>
+            </li>
+          </ul>
+          <p className="mt-3 text-[11.5px] leading-relaxed text-ink-3">{focusCopy}</p>
+        </div>
+      </div>
+    </Panel>
+  )
+}
+
 function StudyTimePanel() {
   const t = useT()
   const { data, loading, error } = useMaristanas()
@@ -505,6 +585,8 @@ export function Performance() {
           <PeerStandingPanel records={records} />
           <StudyTimePanel />
         </div>
+
+        <StudentActivityPanel records={records} />
 
         <ConceptMasteryPanel />
 
