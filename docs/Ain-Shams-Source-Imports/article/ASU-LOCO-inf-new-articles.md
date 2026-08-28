@@ -23,6 +23,7 @@ Fleas
 Lice
 Myiasis flies
 Blackfly
+Bed bugs
 
 ## subject
 inf
@@ -148,6 +149,7 @@ CON-INF-6A1D655E9D99E9
 CON-INF-F8623237958385
 CON-INF-9E82E0AEF2DFC9
 CON-INF-4B6BE3ABCDBD35
+CON-INF-90289E813F213F
 
 ## related_articles
 ART-INF-ASU-LOCO-HELMINTH-PROTOZOAN-IDENTIFICATION: companion article on the helminth/protozoan identification and disease facts from the same practical paper.
