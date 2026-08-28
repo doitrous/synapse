@@ -5420,3 +5420,1823 @@ yes
 
 ## author_notes
 Source's option C reads "Sex-linked Recessive Inheritance" (a synonym for X-linked recessive used elsewhere in this same source); transcribed verbatim.
+
+---
+
+# Item
+
+## id
+
+## title
+The term for the degree of severity of a disease phenotype
+
+## question
+The degree of severity of a disease phenotype is called:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Pleiotropy
+
+## explanation_a
+Incorrect. Pleiotropy describes one gene affecting several apparently unrelated traits or organ systems, not the degree of severity of a single trait.
+
+## answer_b
+Holandric inheritance
+
+## explanation_b
+Incorrect. Holandric inheritance is another name for Y-linked inheritance, a transmission pattern — it has nothing to do with how severe a phenotype is.
+
+## answer_c
+Variable expressivity
+
+## explanation_c
+Correct. Variable expressivity is the term for the range of severity a single genotype can produce across different affected individuals — the same autosomal dominant mutation, for instance, can cause mild symptoms in one relative and severe disease in another. It is distinct from penetrance, which asks only whether the genotype produces any phenotype at all, not how severe that phenotype is once it appears. This vocabulary term is what the earlier autosomal dominant questions in this chapter (Q31) were already testing in context, and this question isolates the definition on its own.
+
+## answer_d
+Reduced penetrance
+
+## explanation_d
+Incorrect. Reduced penetrance describes a genotype that fails to produce any phenotype at all in some carriers — an all-or-nothing question of whether the trait appears, not a question of how severe it is once it does appear.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-398856B4B32D8E
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Other
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define variable expressivity as the range of severity a genotype produces, distinguishing it from penetrance, pleiotropy and holandric inheritance.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q40, p.48.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Generic definitional version of the variable-expressivity fact Q31 already tested in an autosomal-dominant context; main_concept kept as the AD pattern concept since that is where this term is taught and where its exam appearances are recorded.
+
+---
+
+# Item
+
+## id
+
+## title
+The pattern that affects males almost exclusively
+
+## question
+Which of the following patterns affects males almost exclusively?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+X-linked dominant inheritance
+
+## explanation_a
+Incorrect. X-linked dominant inheritance affects both sexes — in fact, affected females often outnumber affected males in a population, since females have two X chromosomes and therefore two chances to inherit the dominant allele.
+
+## answer_b
+Autosomal recessive inheritance
+
+## explanation_b
+Incorrect. Autosomal recessive inheritance affects males and females with equal likelihood, since autosomes are present in the same number in both sexes.
+
+## answer_c
+X-linked recessive inheritance
+
+## explanation_c
+Correct. A male has only one X chromosome, so a single copy of an X-linked recessive mutant allele is enough to produce the disease, with no second, normal copy available to mask it. A female needs the same mutant allele on both of her X chromosomes to be affected, a much rarer event, so the overwhelming majority of affected individuals in an X-linked recessive pedigree are male. This single-dose-versus-double-dose logic is the same fact tested earlier in this chapter for haemophilia and Duchenne muscular dystrophy specifically (Q21), now asked at the level of the general pattern.
+
+## answer_d
+Autosomal dominant inheritance
+
+## explanation_d
+Incorrect. Autosomal dominant inheritance affects males and females equally, since it runs through the autosomes rather than the sex chromosomes.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-592065F09E7EC8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+72
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify X-linked recessive inheritance as the pattern affecting males almost exclusively, applying the same single-X-dosage logic tested at Q21.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q41, p.48.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+
+## title
+The definition of genetic anticipation
+
+## question
+Anticipation is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+The symptoms become apparent at an earlier age and more severe with each generation
+
+## explanation_a
+Correct. Genetic anticipation describes a disorder that presents earlier in life, and with greater severity, in each successive generation of an affected family — the opposite of a fixed, unchanging clinical course. It is the direct clinical consequence of a trinucleotide repeat's tendency to expand further each time it is transmitted, since a longer repeat generally correlates with earlier onset and worse disease. Huntington's disease is the worked example in this chapter (see Q52), where a mother's onset at 44 and a grandmother's onset at 53 are consistent with anticipation across the two generations.
+
+## answer_b
+The symptoms become apparent at an earlier age and less severe with each generation
+
+## explanation_b
+Incorrect. Anticipation pairs earlier onset with *greater*, not lesser, severity across generations — this option gets the age-of-onset direction right but reverses the severity direction.
+
+## answer_c
+The symptoms become apparent at an older age and more severe with each generation
+
+## explanation_c
+Incorrect. Anticipation pairs greater severity with *earlier*, not later, onset across generations — this option gets the severity direction right but reverses the age-of-onset direction.
+
+## answer_d
+No change in age or severity
+
+## explanation_d
+Incorrect. A stable clinical course with no change in age of onset or severity across generations is precisely what anticipation is not — anticipation is defined by both changing, and changing in the same (worsening) direction.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-A385468E42B123
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-NON-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Define genetic anticipation as earlier onset and greater severity in successive generations, correctly pairing both directions of change.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q42, p.48.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Options B and C each reverse exactly one of anticipation's two defining directions (age, severity) — deliberately close distractors that reward a student who holds both halves of the definition correctly.
+
+---
+
+# Item
+
+## id
+
+## title
+The factor that does NOT raise multifactorial disease risk
+
+## question
+The risk of a multifactorial disease increases with all of the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+An increasingly remote degree of relationship
+
+## explanation_a
+Correct — this is the factor that does NOT raise risk, and is in fact the opposite of a true risk factor. Multifactorial recurrence risk falls, rather than rises, as the degree of relationship to the affected individual becomes more remote (a second-degree relative carries less risk than a first-degree relative), because a more distant relative shares fewer of the many genes contributing to the trait. This is the reverse of the true rule — risk rises with a *closer*, not a more remote, degree of relationship — which is exactly why this option is the odd one out among four statements that otherwise describe genuine multifactorial risk factors.
+
+## answer_b
+More than one family member affected
+
+## explanation_b
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — a greater number of already-affected relatives genuinely does raise the recurrence risk to another relative in a multifactorial condition.
+
+## answer_c
+Severity of the malformation
+
+## explanation_c
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — a more severely affected index case genuinely does predict a higher recurrence risk for relatives in a multifactorial condition.
+
+## answer_d
+Having a first-degree relative with this disease
+
+## explanation_d
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — a first-degree relative shares the largest proportion of genes with the affected individual, so having one affected genuinely does raise recurrence risk, consistent with risk rising as relatedness becomes closer.
+
+## topic
+Human genetics
+
+## subtopic
+Chromosomal disorders
+
+## main_concept
+CON-FND-D1119AD6424AF0
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-NON-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify that multifactorial recurrence risk falls, not rises, as the degree of relationship becomes more remote, while confirming that more affected relatives, greater severity, and a first-degree relative all genuinely raise the risk.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q43, p.48.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+"EXCEPT" format: option A is the deliberate reversal of the true rule (risk rises with closer, not more remote, relatedness) rather than an unrelated false claim.
+
+---
+
+# Item
+
+## id
+
+## title
+The false statement about autosomal recessive inheritance
+
+## question
+All of the following are true about autosomal recessive inheritance EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Parents are apparently normal
+
+## explanation_a
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — the classic autosomal recessive family has two clinically unaffected (apparently normal) carrier parents.
+
+## answer_b
+Usually skipped generations
+
+## explanation_b
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — because both parents are typically unaffected carriers, the condition often appears not to have been present in the parents' or grandparents' generation.
+
+## answer_c
+Both males and females are equally affected
+
+## explanation_c
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — autosomal recessive inheritance runs through the autosomes, present equally in both sexes, so there is no sex bias in who is affected.
+
+## answer_d
+Consanguinity raises the possibility of AR inheritance
+
+## explanation_d
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — a shared ancestor between the parents raises the chance both carry the same rare recessive allele, increasing the likelihood of an autosomal recessive condition.
+
+## answer_e
+Can manifest in a heterozygote state
+
+## explanation_e
+Correct — this is the false statement the question is asking for. A heterozygous carrier of an autosomal recessive condition has one normal allele and one mutant allele, and the single normal copy is ordinarily enough to prevent the condition from manifesting at all — this is precisely why carrier parents in an autosomal recessive family are clinically unaffected. Claiming that the condition "can manifest in a heterozygote state" describes autosomal dominant inheritance instead, where one mutant copy is sufficient to cause disease, making this the one statement among the five that does not belong with the other four true features of autosomal recessive inheritance.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-87B8D24E724816
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+48
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify "can manifest in a heterozygote state" as false of autosomal recessive inheritance, since a heterozygous carrier is ordinarily unaffected, while confirming the other four statements are all true features of the pattern.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q44, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+95
+
+## randomise_answers
+yes
+
+## author_notes
+Five-option "EXCEPT" item; every distractor's explanation confirms why that TRUE statement is not the answer, per the correct-vs-distractor discipline for this format.
+
+---
+
+# Item
+
+## id
+
+## title
+The false statement about autosomal dominant inheritance, five-option version
+
+## question
+All of the following are true about autosomal dominant inheritance EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+One parent must be affected
+
+## explanation_a
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — a single affected parent is both necessary and sufficient to transmit an autosomal dominant condition to a child.
+
+## answer_b
+Can manifest in a heterozygote state
+
+## explanation_b
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — in fact, most affected individuals with autosomal dominant disease are heterozygotes, since one mutant copy is enough to cause the phenotype.
+
+## answer_c
+Transmitted from one generation to the next without skipping
+
+## explanation_c
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — the vertical, every-generation pedigree pattern (tested at Q14) is a defining feature of fully penetrant autosomal dominant inheritance.
+
+## answer_d
+Both males and females are equally affected
+
+## explanation_d
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — autosomal dominant inheritance runs through the autosomes, present equally in both sexes, so there is no sex bias.
+
+## answer_e
+Carrier parents can have an affected child
+
+## explanation_e
+Correct — this is the false statement the question is asking for. "Carrier" describes a clinically unaffected individual who holds a disease allele silently, which is the language of autosomal recessive inheritance, where two unaffected carrier parents can indeed have an affected child; in autosomal dominant inheritance, by contrast, anyone who holds the mutant allele is, by definition, affected, so there is no unaffected "carrier" state through which the allele can hide before appearing in a child. Recognising that "carrier parents" is a recessive-inheritance concept being incorrectly applied to a dominant pedigree is exactly what separates a student who has memorised isolated facts about autosomal dominant inheritance from one who understands why each fact follows from the pattern's basic mechanism.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-398856B4B32D8E
+
+## concept_ids
+CON-FND-87B8D24E724816
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify "carrier parents can have an affected child" as a misapplied autosomal recessive concept that is false of autosomal dominant inheritance, where anyone carrying the mutant allele is affected.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q45, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+95
+
+## randomise_answers
+yes
+
+## author_notes
+concept_ids names the AR pattern concept since the correct answer requires contrasting the AD and AR "carrier" concepts directly. Five-option sibling of Q33's four-option version of the same "false AD statement" question type, with a different correct answer.
+
+---
+
+# Item
+
+## id
+
+## title
+The false statement about X-linked dominant inheritance
+
+## question
+All of the following are true about X-linked dominant inheritance EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The affected female transmits to both daughters and sons with 50% risk
+
+## explanation_a
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — an affected heterozygous mother transmits an X-linked dominant condition to 50% of her children of either sex, since either X she passes on is equally likely to carry the mutant allele.
+
+## answer_b
+The affected male transmits the condition to all his daughters
+
+## explanation_b
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — every daughter of an affected father receives his single X chromosome, and because the condition is dominant, every one of them is affected.
+
+## answer_c
+No male-to-male transmission
+
+## explanation_c
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — a son never receives his father's X chromosome, so an X-linked dominant condition can never pass from father to son.
+
+## answer_d
+Affected male transmits to 50% of his daughters
+
+## explanation_d
+Correct — this is the false statement the question is asking for. An affected father's X chromosome, carrying the dominant mutant allele, goes to every one of his daughters without exception, since a daughter has no other source for her paternal X — so the true figure is 100% of his daughters, not 50%. The "50%" figure describes an affected *mother's* transmission to her children of either sex (as in option A), not an affected father's transmission to his daughters specifically, which is exactly the substitution this distractor is testing for.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-70936F91A4C8E5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify that an affected father transmits X-linked dominant disease to 100%, not 50%, of his daughters, distinguishing this from an affected mother's genuinely 50% transmission rate to children of either sex.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q46, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+95
+
+## randomise_answers
+yes
+
+## author_notes
+Paired with Q47's XLR "EXCEPT" item, testing the same 50%-versus-100%-of-daughters confusion for the opposite dominance pattern.
+
+---
+
+# Item
+
+## id
+
+## title
+The false statement about X-linked recessive inheritance
+
+## question
+All of the following are true about X-linked recessive inheritance EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Affects males almost exclusively
+
+## explanation_a
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — a male's single, unopposed X allele is enough to cause disease, while a female typically needs two mutant copies, so males are affected far more often.
+
+## answer_b
+Carrier female transmits to 50% of sons being affected
+
+## explanation_b
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — each son of a carrier mother has an independent 50% chance of inheriting her mutant X allele and being affected.
+
+## answer_c
+Carrier female transmits to 50% of daughters being carriers
+
+## explanation_c
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — each daughter of a carrier mother has an independent 50% chance of inheriting the mutant X allele and becoming a carrier herself.
+
+## answer_d
+Affected male: all of his daughters become carriers
+
+## explanation_d
+Incorrect as an answer to this "EXCEPT" question, because this statement is true — every daughter of an affected father receives his single X chromosome, which carries the mutant allele, so all of them become obligate carriers.
+
+## answer_e
+Affected male transmits to 50% of his daughters
+
+## explanation_e
+Correct — this is the false statement the question is asking for. An affected father's X chromosome goes to every one of his daughters without exception, since a daughter has no other source for her paternal X — so the true figure is 100% of his daughters becoming carriers (as option D correctly states), not 50%. This is the same 50%-versus-100%-of-daughters substitution tested for X-linked dominant inheritance in Q46, now applied to the recessive pattern, where the affected daughters become carriers rather than being affected themselves.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-592065F09E7EC8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify that an affected father transmits X-linked recessive carrier status to 100%, not 50%, of his daughters, contrasting this with the correctly-worded "affected male: all daughters become carriers" statement in option D.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q47, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+95
+
+## randomise_answers
+yes
+
+## author_notes
+Paired with Q46; same 50%-vs-100%-of-daughters substitution, opposite dominance pattern and opposite daughter outcome (carrier here, affected in Q46).
+
+---
+
+# Item
+
+## id
+
+## title
+Naming the classic trinucleotide repeat expansion disorder
+
+## question
+Which of the following is an example of a trinucleotide repeat expansion disorder?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Beta-thalassaemia
+
+## explanation_a
+Incorrect. Beta-thalassaemia results from point mutations or small deletions in the beta-globin gene, not from a trinucleotide repeat expansion.
+
+## answer_b
+Marfan syndrome
+
+## explanation_b
+Incorrect. Marfan syndrome results from mutations in the fibrillin-1 gene, an ordinary autosomal dominant point-mutation mechanism, not a repeat expansion.
+
+## answer_c
+Cystic fibrosis
+
+## explanation_c
+Incorrect. Cystic fibrosis most commonly results from a three-base-pair deletion in the CFTR gene (removing a single phenylalanine, as tested elsewhere in this module), which is a deletion rather than a repeat expansion, and the condition is autosomal recessive rather than a dynamic-mutation disorder.
+
+## answer_d
+Prader-Willi syndrome
+
+## explanation_d
+Incorrect. Prader-Willi syndrome results from loss of the active paternal copy of a chromosome 15q11-13 gene through genomic imprinting, not from a trinucleotide repeat expansion.
+
+## answer_e
+Huntington syndrome
+
+## explanation_e
+Correct. Huntington's disease is the standard teaching example of a trinucleotide repeat expansion disorder: an expanded CAG repeat in the coding region of the HTT gene, translated into an abnormally long polyglutamine tract, causes disease once the repeat count passes roughly 36. It is grouped in this question against four other well-known genetic disorders specifically so a student must recognise that the repeat-expansion mechanism is Huntington's alone among the five, not something shared by the AD, AR and imprinting disorders sitting alongside it. This is the same mechanism and threshold tested in more depth at Q20 and Q30 of this chapter.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-A385468E42B123
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+68
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-NON-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify Huntington's disease as the trinucleotide repeat expansion example among five named genetic disorders taught by different mechanisms.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q48, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+
+## title
+Naming the disorder with X-linked recessive inheritance among five options
+
+## question
+Which of the following disorders shows X-linked recessive inheritance?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Duchenne muscle dystrophy
+
+## explanation_a
+Correct. Duchenne muscular dystrophy is caused by mutation of the dystrophin gene on the X chromosome and is the standard teaching example of X-linked recessive inheritance, affecting males almost exclusively while carrier females are typically unaffected or only mildly affected. Placed here alongside an autosomal recessive condition (beta-thalassaemia), an autosomal dominant condition (cystic fibrosis, as the distractor treats it), an X-linked dominant condition (implied by Neurofibromatosis's real autosomal dominant classification being tested as a distractor), and a trinucleotide repeat disorder (Huntington disease), this question is a final check that a student can sort disease examples by pattern across the whole chapter, not just recall isolated facts about DMD itself.
+
+## answer_b
+Beta-thalassaemia
+
+## explanation_b
+Incorrect. Beta-thalassaemia is autosomal recessive, needing two mutant copies of the beta-globin gene on an autosome, not an X-linked pattern.
+
+## answer_c
+Cystic fibrosis
+
+## explanation_c
+Incorrect. Cystic fibrosis is autosomal recessive, caused by mutations in the CFTR gene on an autosome, not the X chromosome.
+
+## answer_d
+Neurofibromatosis
+
+## explanation_d
+Incorrect. Neurofibromatosis type 1 is autosomal dominant, caused by a mutation in the NF1 gene on an autosome, not an X-linked recessive condition.
+
+## answer_e
+Huntington disease
+
+## explanation_e
+Incorrect. Huntington's disease is autosomal dominant with a trinucleotide repeat expansion mechanism on chromosome 4, not an X-linked recessive condition.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-592065F09E7EC8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify Duchenne muscular dystrophy as X-linked recessive among four disorders following autosomal recessive, autosomal dominant and trinucleotide-repeat mechanisms instead.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q49, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+---
+
+# Item
+
+## id
+
+## title
+The usual explanation for achondroplasia in a child of unaffected parents, repeated later in the chapter
+
+## question
+If normal-stature parents have a child with achondroplasia, this is most often caused by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+New mutation
+
+## explanation_a
+Correct. As established earlier in this chapter (Q3), most cases of achondroplasia arise in families with no prior history, from a new mutation occurring in a parental germ cell at conception rather than from a mutation silently carried by either parent. This is why both parents remain of normal stature despite having an affected child, and why achondroplasia is the standard worked example whenever a sporadic autosomal dominant disorder needs illustrating. The source repeats this exact question later in the same chapter with an abbreviated option list, which is why it is authored here as its own record rather than merged into Q3.
+
+## answer_b
+Anticipation
+
+## explanation_b
+Incorrect. Anticipation describes a disorder worsening across generations of an already-affected family, not a first sporadic occurrence in a family with no prior history.
+
+## answer_c
+Multifactorial inheritance
+
+## explanation_c
+Incorrect. Achondroplasia is a well-characterised single-gene (FGFR3) condition, not a multifactorial one shaped by many genes and environmental factors together.
+
+## answer_d
+Genomic imprinting
+
+## explanation_d
+Incorrect. Genomic imprinting explains disorders like Prader-Willi and Angelman syndrome, where parental origin of a lost gene copy matters — it does not explain a sporadic single-gene mutation like this one.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-B8CDB276EC9E25
+
+## concept_ids
+CON-FND-398856B4B32D8E
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Reconfirm new mutation as the explanation for sporadic achondroplasia in a four-option restatement of the fact first tested at Q3.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q50, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Repeats Q3's stem with a four-option list (dropping "trinucleotide repeat expansion") rather than Q3's five — authored as its own record per this chapter's own separate numbering and key, not merged, consistent with the redundancy rule for a printed question appearing twice.
+
+---
+
+# Item
+
+## id
+
+## title
+Recurrence-risk probability across successive pregnancies in a Marfan syndrome pedigree
+
+## question
+Marfan syndrome is one of the most common autosomal dominant disorders. If a female with Marfan syndrome has an unaffected husband, which of the following is true regarding their children?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The probability that their second child will be affected, if their first child is affected, is 1 in 4
+
+## explanation_a
+Incorrect. Each pregnancy of an affected-by-unaffected autosomal dominant mating is an independent 50% (1 in 2) event; the outcome of the first child does not change the odds for the second, so the correct figure is 1 in 2, not 1 in 4.
+
+## answer_b
+If their first child is not affected, then their second child will be affected
+
+## explanation_b
+Incorrect. This claims a guaranteed outcome, but autosomal dominant risk is probabilistic at 50% per pregnancy, not an alternating or compensating pattern — an unaffected first child does not guarantee an affected second child.
+
+## answer_c
+The probability that their third child will be affected, if their first two children are affected, is 1 in 2
+
+## explanation_c
+Correct. Because the mother is affected and the father is unaffected, each pregnancy independently carries a 50% (1 in 2) risk of the child inheriting the mutant fibrillin-1 allele and being affected with Marfan syndrome — regardless of how many previous children were or were not affected. Genetic transmission at conception has no memory of earlier pregnancies, so two previously affected children do not raise, lower, or otherwise change the odds for the third. This independence-of-pregnancies principle is the single most commonly misunderstood idea in single-gene recurrence-risk counselling, and this question exists specifically to correct the intuitive but wrong belief that risk should somehow "average out" across a family.
+
+## answer_d
+If their first child is affected, then their second child will not be affected
+
+## explanation_d
+Incorrect. Like option B, this claims a guaranteed compensating outcome; the true risk for the second child remains an independent 50%, unaffected by whether the first child was affected.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-398856B4B32D8E
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Challenging
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.85
+
+## setting
+Clinical
+
+## reasoning_level
+4
+
+## inferred_difficulty
+32
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.55
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Apply the principle that each pregnancy in an autosomal dominant mating is an independent 50% event, unaffected by the outcome of any earlier pregnancy, to a multi-child Marfan syndrome vignette.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q51, p.49.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+110
+
+## randomise_answers
+yes
+
+## author_notes
+The hardest probability item in this chapter — tests independence of Mendelian events across pregnancies, a distinct skill from simply knowing the 50% AD risk figure itself.
+
+---
+
+# Item
+
+## id
+
+## title
+Explaining an earlier age of onset across three generations of Huntington's disease
+
+## question
+A 27-year-old man's mother developed Huntington's disease at 44 years of age, and his grandmother also had Huntington's disease, at 53 years of age. He is wondering whether he could develop the disease before 40 years of age. You reply that this is possible because of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Meiosis
+
+## explanation_a
+Incorrect. Meiosis is the general cell-division process by which gametes form; it does not by itself explain a specific pattern of progressively earlier onset across generations.
+
+## answer_b
+Mosaicism
+
+## explanation_b
+Incorrect. Mosaicism describes the presence of two genetically different cell populations within one individual, arising from a post-zygotic mutation — it does not explain a trend across successive family generations.
+
+## answer_c
+Anticipation
+
+## explanation_c
+Correct. The family history given — grandmother's onset at 53, mother's onset at 44, a full nine years earlier — is the classic pattern of genetic anticipation, in which the CAG repeat responsible for Huntington's disease tends to expand further with each transmission (particularly through the paternal germline), producing progressively earlier and more severe disease in each generation. Given that trend, it is entirely plausible that this man, as the next generation, could develop symptoms before age 40 rather than waiting until his mid-forties or beyond. This vignette is the clinical, worked-example version of the definition tested abstractly at Q42, and of the repeat-expansion mechanism and 36-repeat threshold tested at Q20 and Q30.
+
+## answer_d
+Penetrance
+
+## explanation_d
+Incorrect. Penetrance asks only whether a genotype produces the phenotype at all in a given individual — it does not explain a trend of progressively earlier onset across generations, which is what the question is actually asking about.
+
+## answer_e
+New mutation
+
+## explanation_e
+Incorrect. A new mutation explains a first, sporadic occurrence of a dominant disorder in a family with no prior history — this family already has two affected generations, so the pattern to explain is progression within an already-affected lineage, not a fresh mutation.
+
+## topic
+Human genetics
+
+## subtopic
+Mendelian inheritance
+
+## main_concept
+CON-FND-A385468E42B123
+
+## concept_ids
+CON-FND-398856B4B32D8E
+
+## contextual_concept_ids
+
+## difficulty
+Challenging
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.8
+
+## setting
+Clinical
+
+## reasoning_level
+4
+
+## inferred_difficulty
+35
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.65
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Mode of Inheritance
+
+## question_only_for
+
+## library_ids
+ART-FND-NON-MENDELIAN-INHERITANCE-PATTERNS
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Recognise a three-generation pattern of progressively earlier onset in Huntington's disease as genetic anticipation, applying the definition and repeat-expansion mechanism tested abstractly earlier in the chapter to a clinical vignette.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, Mode of Inheritance Q52, p.50.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+100
+
+## randomise_answers
+yes
+
+## author_notes
+Closing item of the Mode of Inheritance chapter, sitting on the same PDF page as the chapter's own answer table (p.50). concept_ids names the AD pattern concept since Huntington's disease is itself transmitted as autosomal dominant. This is the worked clinical capstone for the anticipation concept introduced abstractly at Q42.
