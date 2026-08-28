@@ -2,13 +2,13 @@
 
 ## Decision
 
-**S0 is reconciled; S1 is not yet approved.** The first proposed S1 triage module is **FHB 101**. Under the priority law, it has the strongest available Year 1 paper/key signal: 67 assessment-category sources, 10 answer/key-labelled assessment paths, and 115 candidate question-source files. It exceeds the next candidate, MSK 101-1 (62 / 6 / 103), and the volume-only candidate FHB 102-2 (51 / 0 / 96).
+**S0 is reconciled; FHB 101 S1 read-only triage may now be dispatched; S1 is not approved.** Under the priority law, FHB 101 has the strongest available Year 1 paper/key signal: 67 assessment-category sources, 10 answer/key-labelled assessment paths, and 115 candidate question-source files. It exceeds the next candidate, MSK 101-1 (62 / 6 / 103), and the volume-only candidate FHB 102-2 (51 / 0 / 96).
 
 This is a source-file priority decision, not a claim that 10 keys have been read or recovered. A fresh FHB 101 triage lane must read all selected printed questions, recover keys, collapse concepts, search live/pending/new, and receive the literal **`TRIAGE APPROVED`** before any content is minted.
 
 ## Evidence and blocker
 
-The counter reads root evidence only; it does not copy, fetch, transform, import, or alter it. At this run the academic package SHA-256 was `a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c`. The package/audit inputs are untracked WIP outside this worktree, so this branch records only the deterministic result. Omar must accept or land a reviewed evidence snapshot before a portable S1 hand-off.
+The counter reads root evidence only; it does not copy, fetch, transform, import, or alter it. At this run the academic package SHA-256 was `a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c`. The package/audit inputs are untracked WIP outside this worktree, so this branch records only the deterministic result. This does not block the authorised read-only FHB 101 triage dispatch; it blocks a portable S1 hand-off and issuing `TRIAGE APPROVED` until Omar accepts or lands a reviewed evidence snapshot.
 
 ## Exact counter output
 
