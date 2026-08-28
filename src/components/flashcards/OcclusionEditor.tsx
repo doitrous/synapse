@@ -20,7 +20,7 @@ import type { FlashcardsApi } from '@/lib/useFlashcards'
 import type { ImageOcclusionNote, Occluder, OccluderGroup, OccluderShape, OcclusionMode } from '@/data/flashcards/model'
 import { occlusionCardCount, occlusionSignature, isDuplicateOcclusion, pointInShape, shapeBounds } from '@/data/flashcards/occlusion'
 import { escapeHtml } from '@/data/flashcards/richText'
-import { clampRect, clientToImage, isDrawable, nudgeShape, rectFromPoints, zoomViewBox, type ViewBox } from '@/data/flashcards/occlusionEditor'
+import { clampRect, clientToImage, isDrawable, nudgeShape, rectFromPoints, resizeRect, resizeHandlePoints, zoomViewBox, type ResizeHandle, type ViewBox } from '@/data/flashcards/occlusionEditor'
 
 type Tool = 'select' | 'rect' | 'ellipse' | 'polygon' | 'pan'
 
@@ -28,6 +28,14 @@ interface Snapshot { occluders: Occluder[]; groups: OccluderGroup[] }
 
 function uid(prefix: string): string {
   return `${prefix}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`
+}
+
+/** CSS resize cursor per handle, so the pointer signals which way it will grow. */
+const HANDLE_CURSOR: Record<ResizeHandle, string> = {
+  nw: 'nwse-resize', se: 'nwse-resize',
+  ne: 'nesw-resize', sw: 'nesw-resize',
+  n: 'ns-resize', s: 'ns-resize',
+  e: 'ew-resize', w: 'ew-resize',
 }
 
 /**
@@ -56,7 +64,7 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
 
   const past = useRef<Snapshot[]>([])
   const future = useRef<Snapshot[]>([])
-  const drag = useRef<{ kind: 'draw' | 'move' | 'pan'; startImg: { x: number; y: number }; lastImg: { x: number; y: number }; startView: ViewBox } | null>(null)
+  const drag = useRef<{ kind: 'draw' | 'move' | 'pan' | 'resize'; startImg: { x: number; y: number }; lastImg: { x: number; y: number }; startView: ViewBox; handle?: ResizeHandle; resizeId?: string; didSnapshot?: boolean } | null>(null)
   const [draft, setDraft] = useState<OccluderShape | null>(null)
   const [polygon, setPolygon] = useState<{ x: number; y: number }[] | null>(null)
 
@@ -173,6 +181,18 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
         x: Math.max(0, Math.min(image.width - v.w, d.startView.x + dx)),
         y: Math.max(0, Math.min(image.height - v.h, d.startView.y + dy)),
       }))
+    } else if (d.kind === 'resize' && d.handle && d.resizeId) {
+      // Snapshot on the first move only, so a click that never drags leaves no
+      // empty undo step. Passing the shape's current box each frame is enough:
+      // only the dragged edge moves, the fixed edges keep their own values.
+      if (!d.didSnapshot) { snapshot(); d.didSnapshot = true }
+      const id = d.resizeId
+      const handle = d.handle
+      setOccluders((cur) => cur.map((o) => {
+        if (o.id !== id || o.shape.kind === 'polygon') return o
+        const r = resizeRect({ x: o.shape.x, y: o.shape.y, w: o.shape.w, h: o.shape.h }, handle, p, image.width, image.height)
+        return { ...o, shape: { ...o.shape, ...r } }
+      }))
     }
   }
 
@@ -190,6 +210,25 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
       }
       setDraft(null)
     }
+  }
+
+  // The one rect/ellipse eligible for resize handles: select tool, single
+  // selection, not a polygon (polygon resize is out of scope).
+  const resizable = useMemo(() => {
+    if (tool !== 'select' || selection.size !== 1) return null
+    const id = [...selection][0]
+    const occ = occluders.find((o) => o.id === id)
+    if (!occ || occ.shape.kind === 'polygon') return null
+    return occ
+  }, [tool, selection, occluders])
+
+  const onHandleDown = (e: ReactPointerEvent<SVGRectElement>, handle: ResizeHandle) => {
+    if (!image || !resizable) return
+    e.stopPropagation() // don't let the canvas start a move/deselect
+    e.preventDefault()
+    svgRef.current?.setPointerCapture?.(e.pointerId)
+    const p = toImg(e.clientX, e.clientY)
+    drag.current = { kind: 'resize', startImg: p, lastImg: p, startView: view, handle, resizeId: resizable.id, didSnapshot: false }
   }
 
   const commitPolygon = useCallback(() => {
@@ -325,6 +364,10 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
   }
 
   const previewShape = draft
+  // Image-space side length that renders at a near-constant screen size: the
+  // viewBox width maps to the canvas width, so view.w / K is ~ canvasWidth / K px
+  // whatever the zoom.
+  const handleSize = view.w / 45
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_18rem]">
       <div className="space-y-3">
@@ -369,6 +412,24 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
               {occluders.map((o) => (
                 <ShapeMark key={o.id} shape={o.shape} selected={selection.has(o.id)} grouped={!!o.groupId} />
               ))}
+              {resizable && resizable.shape.kind !== 'polygon' &&
+                resizeHandlePoints({ x: resizable.shape.x, y: resizable.shape.y, w: resizable.shape.w, h: resizable.shape.h }).map((hp) => (
+                  <rect
+                    key={hp.handle}
+                    x={hp.x - handleSize / 2}
+                    y={hp.y - handleSize / 2}
+                    width={handleSize}
+                    height={handleSize}
+                    rx={handleSize / 6}
+                    fill="var(--color-primary-strong)"
+                    stroke="var(--color-surface)"
+                    strokeWidth={1.5}
+                    vectorEffect="non-scaling-stroke"
+                    style={{ cursor: HANDLE_CURSOR[hp.handle] }}
+                    onPointerDown={(e) => onHandleDown(e, hp.handle)}
+                    aria-hidden
+                  />
+                ))}
               {previewShape && <ShapeMark shape={previewShape} selected preview />}
               {polygon && polygon.length > 0 && (
                 <polyline points={polygon.map((p) => `${p.x},${p.y}`).join(' ')} fill="var(--color-accent)" fillOpacity={0.2} stroke="var(--color-accent)" strokeWidth={view.w / 300} />
