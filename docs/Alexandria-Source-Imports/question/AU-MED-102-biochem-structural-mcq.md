@@ -4632,3 +4632,2176 @@ yes
 
 
 ## media_recommendations
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-CHO-013
+
+## title
+Hydrogen gas in the presence of a metal catalyst reduces fructose to:
+
+## question
+Hydrogen gas in the presence of a metal catalyst reduces fructose to:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Mannitol
+
+## explanation_a
+Correct. Fructose is a ketohexose, so reducing its carbonyl (C2 ketone) group creates a new asymmetric centre at that carbon — the reduction can therefore give either of two epimeric sugar alcohols, sorbitol or mannitol, and this question's printed answer names mannitol. This is the general reduction rule for monosaccharides: reducing a sugar's carbonyl group to a hydroxyl produces its sugar alcohol (glucose to sorbitol, mannose to mannitol, ribose to ribitol, galactose to galactitol), and fructose is the special case that can yield two different alcohols because its carbonyl sits mid-chain rather than at the end. Glucose, by contrast, has its carbonyl fixed at C1, so its reduction has only one possible outcome, sorbitol, with no equivalent ambiguity.
+
+## answer_b
+Ribitol
+
+## explanation_b
+Incorrect. Ribitol is the sugar alcohol produced by reducing ribose, a pentose — it has the wrong carbon count and the wrong parent sugar for fructose, a hexose.
+
+## answer_c
+Glycerol
+
+## explanation_c
+Incorrect. Glycerol is a three-carbon polyol, the backbone of triacylglycerols, not a reduction product of any monosaccharide — reducing a six-carbon sugar cannot shorten it to three carbons.
+
+## answer_d
+Glucose
+
+## explanation_d
+Incorrect. Glucose is an aldohexose, not a sugar alcohol at all — reduction of a monosaccharide's carbonyl group produces a polyol (sugar alcohol), and glucose itself still carries an aldehyde group, so it cannot be the reduction product.
+
+## topic
+Biomolecules
+
+## subtopic
+Carbohydrate chemistry
+
+## main_concept
+CON-FND-0D24E5BACB71CD
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > CHO Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_9722b2289d25d8c796ab
+
+## learning_objective
+State that reducing fructose's ketone group yields mannitol (or sorbitol), applying the general rule that monosaccharide reduction gives a sugar alcohol.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, CHO Chemistry MCQ bank (CHO MCQs Dr Agha, Q6), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own CHO Chemistry MCQ bank (src_9722b2289d25d8c796ab), Q6; key confirmed against the bank's own complete, gapless 80-item printed answer table (6.a).
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-CHO-014
+
+## title
+Which pairing of a carbohydrate with its storage-versus-structural role is correct?
+
+## question
+Which pairing of a carbohydrate with its storage-versus-structural role is correct?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Starch is the storage carbohydrate in animals
+
+## explanation_a
+Incorrect. Starch is the storage carbohydrate in plants, not animals — glycogen fills the equivalent storage role in animal tissue. This swaps the plant and animal storage forms.
+
+## answer_b
+Cellulose is the storage carbohydrate in plants
+
+## explanation_b
+Incorrect. Cellulose is the plant's structural carbohydrate (it builds the cell wall), not its storage form — starch is the plant storage carbohydrate. This confuses the storage and structural roles within the same kingdom.
+
+## answer_c
+Glycogen is the structural carbohydrate in animals
+
+## explanation_c
+Incorrect. Glycogen is the animal storage carbohydrate, not the structural one — glycosaminoglycans (as proteoglycans in connective tissue and ground substance) fill the animal structural role. This again swaps storage for structural within animals.
+
+## answer_d
+Glycosaminoglycans are the structural carbohydrate in animals
+
+## explanation_d
+Correct. Across the two kingdoms, storage and structural roles are filled by four distinct polysaccharides: starch stores in plants, glycogen stores in animals, cellulose gives plants their structure, and glycosaminoglycans (as proteoglycans in cartilage, ground substance and connective tissue) give animals theirs. Getting this grid right means keeping two independent axes straight — which kingdom, and storage versus structural — rather than assuming digestibility or abundance decides the answer. Glycogen's heavy branching, for instance, makes it look 'structural' to a student reasoning from shape alone, when its actual role is rapid-release storage.
+
+## topic
+Biomolecules
+
+## subtopic
+Carbohydrate chemistry
+
+## main_concept
+CON-FND-656649A3CAAE22
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+68
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > CHO Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_9722b2289d25d8c796ab
+
+## learning_objective
+Classify starch, glycogen, cellulose and glycosaminoglycans correctly by kingdom (plant/animal) and role (storage/structural).
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, CHO Chemistry MCQ bank (CHO MCQs Dr Agha, Q49-52), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+The bank tests this classification as four separate single-best-answer items (Q49 storage-in-plants=Starch, Q50 storage-in-animals=Glycogen, Q51 structural-in-plants=Cellulose, Q52 structural-in-animals=GAGs; keys 49.a/50.c/51.b/52.d, all confirmed against the bank's own complete printed answer table). This record combines the same four confirmed pairings into one higher-order item, since concept CON-FND-656649A3CAAE22 covers the classification as one unified fact; every option restates a pairing the source itself keys, none is invented.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-011
+
+## title
+The major fat in adipose tissue is:
+
+## question
+The major fat in adipose tissue is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Phospholipid
+
+## explanation_a
+Incorrect. Phospholipids are structural membrane components, present in every cell but not the form fat is stored in — adipose tissue's stored energy is not built from phospholipid.
+
+## answer_b
+Cholesterol
+
+## explanation_b
+Incorrect. Cholesterol is a membrane and steroid-hormone precursor lipid, present in relatively small amounts throughout the body — it is not the bulk energy-storage lipid adipocytes are built to hold.
+
+## answer_c
+Sphingolipids
+
+## explanation_c
+Incorrect. Sphingolipids are structural components of cell membranes, particularly abundant in nervous tissue, not a fat-storage form — adipocytes are not characterised by sphingolipid accumulation.
+
+## answer_d
+Triacyl glycerol
+
+## explanation_d
+Correct. Adipose tissue stores fat chiefly as triacylglycerol (triglyceride) — three fatty acids esterified to glycerol — packed densely into the adipocyte's cytoplasm as its main energy reserve. This is distinct from the membrane lipids (phospholipid, cholesterol, sphingolipids), which serve structural roles rather than bulk storage. Triacylglycerol is the most energy-dense storage form the body has, yielding roughly twice the energy per gram of glycogen, which is part of why adipose tissue rather than the liver's glycogen stores carries most of the body's reserve fuel.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-A143E2775DED7A
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify triacylglycerol as the major storage fat in adipose tissue, distinguishing it from the structural membrane lipids.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q4), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q4.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-012
+
+## title
+A ganglioside on hydrolysis gives all the following, EXCEPT:
+
+## question
+A ganglioside on hydrolysis gives all the following, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Fatty acid
+
+## explanation_a
+This is a true hydrolysis product of a ganglioside, so it is not the exception: fatty acid is part of the ceramide backbone every sphingolipid, gangliosides included, is built on.
+
+## answer_b
+Glycerol
+
+## explanation_b
+Correct — this is the exception, and the false statement the question asks for. Gangliosides, like all sphingolipids, are built on a ceramide (sphingosine + fatty acid) backbone, not a glycerol backbone — glycerol is the backbone of the glycerophospholipids and triacylglycerols instead. Hydrolysing a ganglioside therefore never yields glycerol; this is the single feature that separates the sphingolipid family from the glycerol-based lipids, and it is exactly what this question is testing.
+
+## answer_c
+Sphingosine
+
+## explanation_c
+This is a true hydrolysis product, so it is not the exception: sphingosine is the amino-alcohol half of the ceramide backbone shared by every sphingolipid, gangliosides included.
+
+## answer_d
+N-acetyl neuraminic acid
+
+## explanation_d
+This is a true hydrolysis product, so it is not the exception: N-acetylneuraminic acid (sialic acid, NANA) is the distinguishing sugar that marks a glycolipid specifically as a ganglioside, rather than a plain cerebroside.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-434A828D92E20B
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+State that gangliosides hydrolyse to fatty acid, sphingosine, sugars and N-acetylneuraminic acid, never glycerol.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q8/17/44), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5).
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-013
+
+## title
+The fatty acid present in lung surfactant is:
+
+## question
+The fatty acid present in lung surfactant is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Palmitic acid only
+
+## explanation_a
+Correct. Pulmonary surfactant is predominantly dipalmitoyl phosphatidylcholine (dipalmitoyl lecithin) — two palmitic acid chains attached to a phosphatidylcholine backbone. Palmitic acid, a 16-carbon saturated fatty acid, is what gives this phospholipid the tight packing needed to lower surface tension effectively at the air-liquid interface of the alveolus. This is the specific fact the exam tests: not just 'a fatty acid', but palmitic acid by name.
+
+## answer_b
+Stearic acid only
+
+## explanation_b
+Incorrect. Stearic acid is also saturated, and its structural similarity to palmitic acid is exactly why this distractor is tempting — but the surfactant-defining lipid is specifically dipalmitoyl lecithin, not a stearic-acid-containing analogue.
+
+## answer_c
+Both of them
+
+## explanation_c
+Incorrect. Surfactant's defining phospholipid is specifically dipalmitoyl lecithin (two palmitic acid chains), not a mixture containing stearic acid — 'both' overstates what the named compound actually contains.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Palmitic acid is correct, so 'none of the above' cannot be the answer.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-96E45FFCAC519E
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+58
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify palmitic acid as the characteristic fatty acid of lung surfactant (dipalmitoyl lecithin).
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q12), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q12.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-014
+
+## title
+Ceramide consists of:
+
+## question
+Ceramide consists of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Sphingosine and galactose
+
+## explanation_a
+Incorrect. Galactose is the sugar carried by a cerebroside (ceramide plus one sugar), not part of ceramide itself — ceramide is the sugar-free backbone that a glycolipid's sugar is later added onto.
+
+## answer_b
+Sphingosine and FA
+
+## explanation_b
+Correct. Ceramide, the structural core of every sphingolipid, is formed by an amide linkage between sphingosine's amino group and a fatty acid's carboxyl group. Sphingomyelin (ceramide plus phosphocholine) and the glycolipids (ceramide plus carbohydrate) both build on this one ceramide backbone by attaching a different head group to it. Recognising ceramide as 'sphingosine plus fatty acid, joined by an amide bond' is what lets a student correctly predict what every other sphingolipid is made of.
+
+## answer_c
+Glycerol and galactose
+
+## explanation_c
+Incorrect. Glycerol is the backbone of the glycerophospholipids and triacylglycerols, not of ceramide — naming glycerol here confuses the two different lipid backbone families.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. 'Sphingosine and FA' (option B) is correct, so 'none of the above' cannot be the answer.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-95D2E6C9F5FE97
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+58
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+State that ceramide is sphingosine joined to a fatty acid by an amide bond, the backbone shared by every sphingolipid.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q14/48), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5).
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-015
+
+## title
+All are sphingolipids, EXCEPT:
+
+## question
+All are sphingolipids, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Sphingomyelin
+
+## explanation_a
+This is a true sphingolipid, so it is not the exception: sphingomyelin is ceramide joined to a phosphocholine head group, built on the sphingosine backbone.
+
+## answer_b
+Sulfatides
+
+## explanation_b
+This is a true sphingolipid, so it is not the exception: sulfatides are ceramide-based glycolipids carrying a sulfated sugar, part of the same sphingosine-backbone family.
+
+## answer_c
+Cephalin
+
+## explanation_c
+Correct — this is the exception. Cephalin (phosphatidylethanolamine) is built on a glycerol backbone with a phosphate and ethanolamine head group, making it a glycerophospholipid, not a sphingolipid. The sphingolipid family — sphingomyelin, sulfatides and gangliosides — is instead built on the sphingosine/ceramide backbone, and backbone identity, not simply 'being a phospholipid', is what decides family membership.
+
+## answer_d
+Ganglioside
+
+## explanation_d
+This is a true sphingolipid, so it is not the exception: a ganglioside is a ceramide-based glycolipid distinguished by carrying sialic acid, part of the sphingosine-backbone family.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-E1532215D31DF5
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify cephalin as a glycerophospholipid, not a sphingolipid, distinguishing membership by backbone (sphingosine vs glycerol).
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q16), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q16.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-016
+
+## title
+A compound normally used to conjugate bile acids is:
+
+## question
+A compound normally used to conjugate bile acids is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Serine
+
+## explanation_a
+Incorrect. Serine is not the conjugating group used on bile acids — the amino acid the liver actually attaches for this purpose is glycine (or, less commonly, taurine).
+
+## answer_b
+Glucuronic acid
+
+## explanation_b
+Incorrect. Glucuronic acid is used to conjugate other compounds for excretion (as in bilirubin glucuronidation), but it is not the standard conjugate attached to bile acids.
+
+## answer_c
+Fatty acids
+
+## explanation_c
+Incorrect. Fatty acids are not conjugated onto bile acids — bile acids are themselves derivatives of cholesterol, and the conjugation step that converts them into bile salts uses an amino acid, not a fatty acid.
+
+## answer_d
+Glycine
+
+## explanation_d
+Correct. Primary and secondary bile acids are conjugated — most often with glycine, less commonly with taurine — to form bile salts, the water-soluble, more effective detergent form secreted into bile. Conjugation lowers the pKa of the bile acid and keeps it ionised (and therefore soluble) across the pH range found in the intestine, which is essential for its detergent action on dietary fat. Without this conjugation step, bile acids would precipitate rather than form the micelles that solubilise fat for absorption.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-97EA8E843D3BF3
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+State that bile acids are conjugated with glycine (or taurine) to form bile salts before secretion.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q20), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q20.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-017
+
+## title
+True statements about lipids include the following EXCEPT:
+
+## question
+True statements about lipids include the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+They are an intracellular energy source
+
+## explanation_a
+This is a true statement about lipids, so it is not the exception: lipids (chiefly as triacylglycerol) are the body's densest intracellular energy store.
+
+## answer_b
+They are poorly soluble in water
+
+## explanation_b
+This is a true statement about lipids, so it is not the exception: poor water solubility, arising from their predominantly hydrocarbon structure, is a defining physical property of lipids as a class.
+
+## answer_c
+They are structural components of membranes
+
+## explanation_c
+This is a true statement about lipids, so it is not the exception: phospholipids, cholesterol and sphingolipids together build every cell membrane's lipid bilayer.
+
+## answer_d
+They are composed of only carbon, hydrogen and oxygen
+
+## explanation_d
+Correct — this is the exception, and the false statement being asked for. Lipids are not restricted to carbon, hydrogen and oxygen: phospholipids also carry phosphorus and, in most classes, nitrogen in their head groups, and sphingolipids carry nitrogen in the sphingosine backbone. A student who accepts this option is generalising from the simplest lipids (fatty acids, triacylglycerol) to the whole class, missing that the more complex membrane lipids carry additional elements.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-DF00D86470165A
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify that lipids are not restricted to carbon, hydrogen and oxygen, since phospholipids and sphingolipids also carry phosphorus and/or nitrogen.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q18), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q18.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-018
+
+## title
+All the following can be synthesised from arachidonic acid EXCEPT:
+
+## question
+All the following can be synthesised from arachidonic acid EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Prostaglandins
+
+## explanation_a
+This is a true arachidonic-acid derivative, so it is not the exception: prostaglandins are synthesised from arachidonic acid via the cyclooxygenase pathway.
+
+## answer_b
+Thromboxanes
+
+## explanation_b
+This is a true arachidonic-acid derivative, so it is not the exception: thromboxanes are synthesised from arachidonic acid via the cyclooxygenase pathway, alongside the prostaglandins.
+
+## answer_c
+Lipoxins
+
+## explanation_c
+This is a true arachidonic-acid derivative, so it is not the exception: lipoxins are synthesised from arachidonic acid via the lipoxygenase pathway.
+
+## answer_d
+Interleukins
+
+## explanation_d
+Correct — this is the exception. Interleukins are cytokines: protein signalling molecules synthesised by the normal pathway of gene expression and translation, entirely unrelated to arachidonic acid metabolism. Prostaglandins, thromboxanes and lipoxins are eicosanoids, all built from the 20-carbon arachidonic acid via the cyclooxygenase or lipoxygenase pathways, which is the shared feature the other three options have and interleukins do not. A student who groups interleukins with the eicosanoids is treating every inflammation-associated signalling molecule as if it came from one pathway, when in fact the eicosanoids and the cytokines are two entirely separate signalling families.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-6356E5CF325B76
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+52
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify that interleukins, unlike prostaglandins, thromboxanes and lipoxins, are not synthesised from arachidonic acid.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q28), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q28.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-019
+
+## title
+Which of the following has a double bond at Omega 15?
+
+## question
+Which of the following has a double bond at Omega 15?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Linoleic Acid
+
+## explanation_a
+Incorrect. Linoleic acid is an omega-6 fatty acid — its double bond nearest the methyl end sits at carbon 6, not carbon 15.
+
+## answer_b
+Linolenic Acid
+
+## explanation_b
+Incorrect. Linolenic acid is an omega-3 fatty acid — its double bond nearest the methyl end sits at carbon 3, not carbon 15.
+
+## answer_c
+Arachidonic Acid
+
+## explanation_c
+Incorrect. Arachidonic acid, like linoleic acid, is an omega-6 fatty acid, with its double bond nearest the methyl end at carbon 6, not carbon 15.
+
+## answer_d
+Nervonic Acid
+
+## explanation_d
+Correct. The omega numbering system locates a fatty acid's double bond by counting from the methyl (omega) end rather than the carboxyl end. Nervonic acid, a very long-chain (24-carbon) monounsaturated fatty acid, carries its single double bond at the omega-15 position — much further from the methyl end than the small omega numbers (3 or 6) seen in the essential fatty acids, simply because its chain is so much longer. This distinguishes it clearly from linoleic, linolenic and arachidonic acid, all of which are omega-3 or omega-6.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-FFD278E8EA5948
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+38
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Apply omega numbering (counted from the methyl end) to identify nervonic acid's double bond as omega-15.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q38), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q38.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-020
+
+## title
+What is the function of cephalin (phosphatidylethanolamine)?
+
+## question
+What is the function of cephalin (phosphatidylethanolamine)?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Blood clotting factor
+
+## explanation_a
+This is one true role of cephalin, but not the complete answer this question asks for — cephalin does provide the phospholipid surface coagulation factors assemble on, but it also has a second named role.
+
+## answer_b
+Detoxification
+
+## explanation_b
+Incorrect. Detoxification is not a function attributed to cephalin — that role belongs elsewhere in biochemistry (e.g. cytochrome P450 conjugation reactions), not to this glycerophospholipid.
+
+## answer_c
+Myelin sheath of nervous tissue
+
+## explanation_c
+This is one true role of cephalin, but not the complete answer — cephalin is a component of the myelin sheath, but it also has a second named role, blood clotting.
+
+## answer_d
+All of the above
+
+## explanation_d
+Correct. Cephalin's biomedical roles named by the bank are its contribution to the myelin sheath of nervous tissue and its role in blood clotting, providing a phospholipid surface for coagulation factor assembly — but not detoxification, which belongs to a separate class of reaction entirely. Because two of the three listed roles (myelin, clotting) are genuinely true and only detoxification is false, the honest combined answer is 'all of the above' only in the sense the bank intends it: covering the two real functions together. This double role is what distinguishes cephalin from lecithin, which instead functions as a surfactant component and choline donor.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-811CA7149C8E39
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+State that cephalin functions in both blood clotting and the myelin sheath of nervous tissue, distinguishing its roles from lecithin's.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q39), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q39. The printed 'all of the above' key is read here as covering the two true listed functions (clotting, myelin); detoxification is not attributed to cephalin in any standard source and is treated as the deliberately false distractor within that combined option.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-021
+
+## title
+When comparing glycosphingolipids and phosphosphingolipids, glycosphingolipids:
+
+## question
+When comparing glycosphingolipids and phosphosphingolipids, glycosphingolipids:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Are found in membranes of nervous tissues
+
+## explanation_a
+Incorrect as the distinguishing answer here. Glycosphingolipids are indeed found in nervous-tissue membranes, but so is sphingomyelin, a phosphosphingolipid — this is not a feature that separates the two families from each other.
+
+## answer_b
+Contain ceramide
+
+## explanation_b
+Incorrect as the distinguishing answer here. Both glycosphingolipids and phosphosphingolipids are built on the ceramide backbone — this is a shared feature, not something unique to glycosphingolipids.
+
+## answer_c
+Contain sugar moieties
+
+## explanation_c
+Correct. Both glycosphingolipids and phosphosphingolipids (like sphingomyelin) share the ceramide backbone and fatty-acid content, but only glycosphingolipids carry sugar moieties as their polar head group — sphingomyelin's head group is phosphocholine, not sugar. This is the one feature that genuinely distinguishes the two families, since ceramide, fatty acid content and even nervous-tissue membrane location are shared between them. A question that tries to separate the two by any of those shared features will have no correct answer, which is exactly why the bank tests the sugar-moiety criterion specifically.
+
+## answer_d
+Contain fatty acid
+
+## explanation_d
+Incorrect as the distinguishing answer here. Both families contain fatty acid as part of their shared ceramide backbone — this is not unique to glycosphingolipids.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-A8EE64DBE5FC6E
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify sugar-moiety content as the feature that distinguishes glycosphingolipids from phosphosphingolipids, both otherwise sharing a ceramide backbone.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q40), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q40.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-022
+
+## title
+Which of the following lipids have polar charge?
+
+## question
+Which of the following lipids have polar charge?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Cholesterol
+
+## explanation_a
+Incorrect. Cholesterol is amphipathic — its single hydroxyl group gives it a polar region, but it does not carry the kind of charged head group that defines a polar/charged lipid; this is the trap distinguishing 'amphipathic' from 'charged'.
+
+## answer_b
+Phospholipids
+
+## explanation_b
+Correct. Phospholipids are the class of membrane lipid defined by a charged, polar phosphate-containing head group — this charge is what lets phospholipids sit at the membrane surface facing the aqueous environment, hydrophilic head out and hydrophobic tails buried in the bilayer core. Cholesterol, despite also being amphipathic (a polar hydroxyl plus a non-polar ring system), does not carry a net charge the way a phospholipid head group does, which is why it is excluded here. This is why cholesterol can wedge between phospholipid tails and modulate membrane fluidity without disrupting the charged surface the phospholipid head groups present.
+
+## answer_c
+All of the above
+
+## explanation_c
+Incorrect. Since cholesterol does not carry the charged head group phospholipids do, 'all of the above' overstates the answer — only phospholipids meet the 'polar charge' criterion as tested here.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Phospholipids do carry a polar/charged head group, so 'none of the above' cannot be the answer.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-4151DDFA5CABDA
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Distinguish phospholipids' charged head group from cholesterol's amphipathic but uncharged character.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q47), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q47.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-023
+
+## title
+Which of the following compounds contains the steroid nucleus?
+
+## question
+Which of the following compounds contains the steroid nucleus?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Sphingolipids
+
+## explanation_a
+Incorrect. Sphingolipids are built on the sphingosine/ceramide backbone, not the steroid nucleus — the steroid ring system is specific to cholesterol and its direct derivatives.
+
+## answer_b
+Sodium glyco cholic acid
+
+## explanation_b
+Correct. The steroid nucleus (the cyclopentanoperhydrophenanthrene ring system) is shared by cholesterol and its direct derivatives, including the bile acids and bile salts such as sodium glycocholate — a bile salt formed by conjugating cholic acid with glycine. Sphingolipids, gangliosides and sulfatides, by contrast, are built on the sphingosine/ceramide backbone and carry no steroid nucleus at all. Recognising bile salts as steroid derivatives, despite their very different-looking name and function, is what this question tests.
+
+## answer_c
+Gangliosides
+
+## explanation_c
+Incorrect. Gangliosides are ceramide-based glycolipids, not steroid derivatives — they carry no steroid nucleus.
+
+## answer_d
+Sulfatides
+
+## explanation_d
+Incorrect. Sulfatides are ceramide-based sulfated glycolipids, not steroid derivatives — they carry no steroid nucleus.
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-FBBF9B587A2AD6
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Hard
+
+## question_type
+Classification
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+42
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify bile-salt compounds (e.g. sodium glycocholate) as steroid-nucleus-containing, unlike sphingolipids, gangliosides and sulfatides.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (MCQs - lipids MCQ, Q50), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5), Q50.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
