@@ -1127,3 +1127,981 @@ yes
 
 ## author_notes
 Six companion questions (Q6, Q15, Q17, Q24, Q25, Q26) retest the epimer/anomer/enantiomer distinction with named sugar pairs (glucose/galactose, D-/L-glucose, alpha-/beta-glucose); not yet authored.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q09
+
+## title
+Sucrose
+
+## question
+Sucrose:-
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Is a non-reducing sugar
+
+## explanation_a
+Correct. Sucrose is built from glucose and fructose joined through their anomeric carbons (C1 of glucose to C2 of fructose), which uses up both sugars' anomeric carbons in the glycosidic bond and leaves no free anomeric carbon able to open into the reactive aldehyde or ketone form needed to reduce a testing reagent. This is exactly why sucrose is the standard textbook example of a non-reducing sugar, unlike maltose or lactose, which each retain one free anomeric carbon. The absence of a free anomeric carbon is the same structural feature the next option's claim gets backwards.
+
+## answer_b
+Has a free anomeric carbon
+
+## explanation_b
+Incorrect. Sucrose's glycosidic bond specifically links the anomeric carbons of both glucose and fructose to each other, so neither sugar has a free anomeric carbon left — the opposite of what this option claims, and exactly why sucrose does not reduce.
+
+## answer_c
+Results from partial hydrolysis of carbohydrates
+
+## explanation_c
+Incorrect. Sucrose is a disaccharide built by joining two monosaccharides (glucose and fructose) together through a condensation reaction; it is not a partial-hydrolysis breakdown product of a larger carbohydrate.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Sucrose being a non-reducing sugar is a true statement, so an option denying all of the above cannot be correct when one of the preceding statements is in fact accurate.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-FC888FB7A7D8A8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that sucrose is a non-reducing sugar because its glycosidic bond uses up both component sugars' anomeric carbons.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q1, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same maltose/lactose/sucrose-differentiation concept as Q8 (already authored), naming sucrose's non-reducing property directly rather than picking it out from a list.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q10
+
+## title
+Lactose
+
+## question
+Lactose:-
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Disaccharide synthesized by sweet plant roots
+
+## explanation_a
+Incorrect. Lactose is the sugar of mammalian milk, synthesised in the mammary gland from glucose and galactose; it is not a product of plant roots, sweet or otherwise.
+
+## answer_b
+Is a galactoside
+
+## explanation_b
+Correct. Lactose is built from galactose joined to glucose by a beta-1,4 glycosidic bond, and because a glycoside is named for the sugar contributing its anomeric carbon to the bond, lactose — with galactose's anomeric carbon forming that linkage — is classed as a galactoside. This composition (galactose plus glucose, beta-1,4) is exactly the fact tested elsewhere by asking which two sugars make up lactose and by which linkage joins them.
+
+## answer_c
+Is fermented by yeast enzymes
+
+## explanation_c
+Incorrect. Ordinary baker's or brewer's yeast lacks the enzyme (lactase) needed to hydrolyse lactose's beta-1,4 bond and cannot ferment it, unlike glucose, fructose, maltose or sucrose, which yeast readily ferments.
+
+## answer_d
+Is present in only alpha, not beta, form
+
+## explanation_d
+Incorrect. Like other reducing sugars, lactose has a free anomeric carbon (on its glucose unit) that can exist in either the alpha or the beta anomeric form in solution, not exclusively one or the other.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-02FBBE4CD4CAC1
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify lactose as a galactoside, built from galactose and glucose joined by a beta-1,4 bond.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q2, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same three-disaccharide concept as Q30 (already authored) and Q20-23/31/32, tested here through lactose's "galactoside" classification.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q11
+
+## title
+A glycoside is formed by attaching the sugar to another molecule at a
+
+## question
+A glycoside is formed by attaching the sugar to another molecule at a
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Nitrogen atom (N-glycosidic bonds)
+
+## explanation_a
+True, but incomplete on its own. A glycosidic bond can indeed form to a nitrogen atom, as in the N-glycosidic bond joining a nucleotide's base to its ribose sugar, but this is only one of the two possible linkage types, which is why the fuller option below is the one keyed correct.
+
+## answer_b
+Oxygen (O-glycosidic bonds)
+
+## explanation_b
+True, but incomplete on its own. A glycosidic bond forming to an oxygen atom is the more common case, seen in ordinary disaccharides like maltose, lactose and sucrose, but stating only this half of the picture omits the nitrogen-linked case.
+
+## answer_c
+Both a and b
+
+## explanation_c
+Correct. A glycosidic bond forms when a sugar's anomeric carbon attaches to another molecule through either an oxygen atom (an O-glycosidic bond, as in the disaccharide linkages of maltose, lactose and sucrose) or a nitrogen atom (an N-glycosidic bond, as in the bond joining a purine or pyrimidine base to ribose or deoxyribose in a nucleotide). Because both linkage types genuinely exist and are both called glycosidic bonds, the option combining them is the complete answer. This distinction — O-glycosidic for ordinary sugar-to-sugar links, N-glycosidic for base-to-sugar links — is exactly what separates a nucleotide's bond from a disaccharide's.
+
+## answer_d
+Neither a nor b
+
+## explanation_d
+Incorrect. Both the oxygen-linked and nitrogen-linked forms of glycosidic bonding are real and well established (in disaccharides and in nucleotides respectively), so denying both cannot be correct.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-C672878EA48528
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that a glycosidic bond can form to either an oxygen atom (O-glycosidic, as in disaccharides) or a nitrogen atom (N-glycosidic, as in nucleotides).
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q3, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same N-glycosidic-bond concept as Q39 (already authored), widened here to contrast the N-glycosidic bond with the O-glycosidic bond of ordinary disaccharides.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q12
+
+## title
+Isomers shown by monosaccharides include
+
+## question
+Isomers shown by monosaccharides includes
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Aldose-ketose isomers
+
+## explanation_a
+True, but incomplete on its own. Aldose-ketose pairs (such as glucose and fructose) are a genuine category of monosaccharide isomerism, differing in whether their carbonyl group is an aldehyde or a ketone, but it is only one of four such categories, which is why the fuller option below is the one keyed correct.
+
+## answer_b
+Anomeric
+
+## explanation_b
+True, but incomplete on its own. Anomers (such as alpha- and beta-glucose) are a genuine category of monosaccharide isomerism, differing in configuration at the anomeric carbon created on ring closure, but naming only this one category leaves out the other three.
+
+## answer_c
+Epimers
+
+## explanation_c
+True, but incomplete on its own. Epimers (such as glucose and galactose, differing at one non-anomeric carbon) are a genuine category of monosaccharide isomerism, but this is again only one of the four categories the question asks about together.
+
+## answer_d
+D-L isomers
+
+## explanation_d
+True, but incomplete on its own. D- and L-isomers (enantiomers, such as D-glucose and L-glucose, mirror images differing at every chiral carbon) are a genuine category of monosaccharide isomerism, but naming only this one still leaves out the other three.
+
+## answer_e
+All of the above
+
+## explanation_e
+Correct. Monosaccharides related to each other display four distinct kinds of isomerism at once: aldose-ketose isomers (differing in carbonyl-group type, like glucose and fructose), anomers (differing at the anomeric carbon, like alpha- and beta-glucose), epimers (differing at one other, non-anomeric carbon, like glucose and galactose), and D-/L-isomers or enantiomers (mirror images differing at every chiral carbon, like D- and L-glucose). Because every one of these four categories genuinely exists among monosaccharides, the option combining all of them is the complete and correct answer. Each of these four relationships is tested individually elsewhere in this section using specific named sugar pairs.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-358E18A31D89FC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+List the four kinds of monosaccharide isomerism: aldose-ketose, anomeric, epimeric and D-/L (enantiomer).
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q4, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same isomerism-terminology concept as Q16 (already authored) and Q6/Q15/Q17/Q24/Q25/Q26, gathering all four categories into one question before they are tested individually with named sugar pairs.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q13
+
+## title
+A compound with no asymmetric carbon is
+
+## question
+A compound with no asymmetric carbon is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Galactose
+
+## explanation_a
+Incorrect. Galactose is an aldohexose with four asymmetric (chiral) carbons (C2, C3, C4 and C5), each bonded to four different groups, so it does not answer a question asking for the sugar with no chiral carbon at all.
+
+## answer_b
+Glyceraldehyde
+
+## explanation_b
+Incorrect. Glyceraldehyde's C2 is bonded to four different groups (H, OH, CHO and CH2OH), making it chiral — this single asymmetric carbon is exactly what gives glyceraldehyde its D- and L-forms and makes it the reference compound for sugar stereochemistry, so it is not the answer to a "no asymmetric carbon" question.
+
+## answer_c
+Dihydroxyacetone
+
+## explanation_c
+Correct. Dihydroxyacetone is the simplest ketose, and its central carbon (C2) bears two identical -CH2OH groups along with a carbonyl oxygen, so it is not bonded to four different groups and has no asymmetric (chiral) centre at all. This makes dihydroxyacetone the one carbohydrate among the standard trioses that has no D- or L-form, in direct contrast with glyceraldehyde, its aldose counterpart, which does have a chiral centre.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Dihydroxyacetone genuinely has no asymmetric carbon, so an option denying that any of the listed compounds fits the description cannot be correct.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-3872365341E543
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-CARBOHYDRATE-GENERAL-PROPERTIES
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify dihydroxyacetone as the one carbohydrate with no asymmetric carbon.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q5, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same dihydroxyacetone/no-chiral-carbon concept as Q33 (already authored); the source bank repeats this exact question verbatim later as Q12, authored separately below.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q14
+
+## title
+Which of the following is true regarding epimers?
+
+## question
+Which of the following is true :-
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Galactose and glucose are epimers as they differ in the OH of C2
+
+## explanation_a
+Incorrect. Galactose and glucose are indeed epimers, but they differ in the configuration of the hydroxyl group at C4, not C2 — mannose and glucose are the pair that differs at C2.
+
+## answer_b
+Fructose and glucose are epimers as they differ in the OH of C2
+
+## explanation_b
+Incorrect. Fructose and glucose are not epimers at all — they are aldose-ketose isomers, differing in whether the carbonyl group is a ketone (fructose) or an aldehyde (glucose), which is a difference in functional-group type rather than a single-carbon configuration difference.
+
+## answer_c
+Mannose and glucose are epimers as they differ in the OH of C4
+
+## explanation_c
+Incorrect. Mannose and glucose are indeed epimers, but they differ at C2, not C4; galactose and glucose are the pair that differs at C4.
+
+## answer_d
+Mannose and galactose are not epimers
+
+## explanation_d
+Correct. Mannose differs from glucose at C2, while galactose differs from glucose at C4; because mannose and galactose therefore differ from each other at more than one carbon (both C2 and C4), they do not meet the definition of epimers, which requires differing at exactly one carbon. This is why, among the three sugars glucose, mannose and galactose, only the glucose-mannose pair and the glucose-galactose pair are true epimer pairs — mannose and galactose compared directly to each other are not.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-358E18A31D89FC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Distinguish which specific sugar pairs (glucose/mannose at C2, glucose/galactose at C4) are true epimers, and that mannose and galactose compared to each other are not.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q6, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same isomerism-terminology concept as Q16/Q4 (already authored), the first of the six companion questions the file header flagged (Q15/Q17/Q24/Q25/Q26 remain).
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q15
+
+## title
+The reference sugar is
+
+## question
+Reference sugar is :-
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Glucose
+
+## explanation_a
+Incorrect. Glucose is the most abundant and metabolically important monosaccharide, but it is not the compound used to define the D- and L- configurational standard; that role belongs to the much simpler triose glyceraldehyde.
+
+## answer_b
+Fructose
+
+## explanation_b
+Incorrect. Fructose is a ketohexose isomer of glucose, but like glucose it is too large and structurally complex to serve as the basic reference compound for assigning D- or L- configuration; that reference is the smaller glyceraldehyde.
+
+## answer_c
+Glyceraldehyde
+
+## explanation_c
+Correct. Glyceraldehyde, the simplest aldose (a triose with just one chiral carbon), is used as the reference compound for the D-/L- naming system: a sugar's configuration at its highest-numbered chiral carbon is compared with D- or L-glyceraldehyde to decide whether the whole molecule is called a D- or an L-sugar. This reference role is exactly why glyceraldehyde is also the aldose example used to introduce chirality and the triose/hexose classification of monosaccharides. Every other monosaccharide's D/L designation ultimately traces back to this one small reference molecule.
+
+## answer_d
+Dihydroxyacetone
+
+## explanation_d
+Incorrect. Dihydroxyacetone has no asymmetric carbon at all, so it cannot serve as the reference compound for a naming system (D- versus L-) that is specifically about chirality; that role belongs to its chiral counterpart, glyceraldehyde.
+
+## answer_e
+Galactose
+
+## explanation_e
+Incorrect. Galactose is a hexose with several chiral carbons of its own, each assigned relative to the D-/L- reference standard rather than serving as that standard itself; the actual reference compound is the simpler glyceraldehyde.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify glyceraldehyde as the reference compound for a sugar's D-/L- configurational naming.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q7, p.16.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same aldose/ketose classification concept as Q29 (already authored), naming glyceraldehyde's specific role as the D-/L- reference standard.
