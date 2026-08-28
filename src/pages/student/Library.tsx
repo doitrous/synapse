@@ -26,6 +26,9 @@ import {
   Film,
   AudioLines,
   Expand,
+  Bookmark,
+  BookmarkPlus,
+  BookmarkMinus,
 } from 'lucide-react'
 import type { LibBlock } from '@/data/library'
 import type { ArticleMediaRecord } from '@/data/contentControl'
@@ -64,6 +67,7 @@ import { orderedSegments } from '@/lib/library/textAnchor'
 import type { LibraryMark } from '@/data/libraryMarks'
 import { PlacedAsset } from '@/components/ui/PlacedMedia'
 import { useMediaRecords } from '@/lib/useMediaRecords'
+import { Popover } from '@/components/ui/Popover'
 
 /**
  * Article prose, with the search term marked where there is one.
@@ -335,6 +339,56 @@ function MediaIndexPanel({ media, onOpenMedia, t }: { media: ArticleMediaRecord[
         ))}
       </ul>
     </section>
+  )
+}
+
+/**
+ * Header control that reveals an article's media without leaving the page.
+ *
+ * Absent when the article has none — a disabled button with nothing behind it
+ * is a dead end dressed up as a control. Pressing it opens a popover in place,
+ * never a second pane, so the student's spot in the prose never moves.
+ */
+function ArticleMediaButton({ media, onOpenMedia, t }: { media: ArticleMediaRecord[]; onOpenMedia: (item: ArticleMediaRecord) => void; t: (value: string) => string }) {
+  const [anchor, setAnchor] = useState<HTMLElement | null>(null)
+  if (!media.length) return null
+  return (
+    <>
+      <Button
+        variant="secondary"
+        size="sm"
+        iconLeft={ImageIcon}
+        onClick={(event) => setAnchor((current) => (current ? null : event.currentTarget))}
+        aria-haspopup="dialog"
+        aria-expanded={Boolean(anchor)}
+      >
+        {t('Media')} · {media.length}
+      </Button>
+      {anchor && (
+        <Popover anchor={anchor} onClose={() => setAnchor(null)} placement="bottom-start" label={t('Media in this article')} className="w-80 max-w-[85vw]">
+          <div className="border-b border-line px-3.5 py-2.5">
+            <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">{t('Media in this article')}</p>
+          </div>
+          <ul className="max-h-80 divide-y divide-line overflow-y-auto">
+            {media.map((item) => (
+              <li key={item.id}>
+                <button
+                  type="button"
+                  onClick={() => { setAnchor(null); onOpenMedia(item) }}
+                  className="group flex w-full items-start gap-2.5 px-3.5 py-2.5 text-start transition-colors hover:bg-primary-tint/25"
+                >
+                  <span className="grid size-7 shrink-0 place-items-center rounded-md bg-inset text-ink-3"><Icon icon={MEDIA_ICON[item.type]} size={14} /></span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-[12.5px] font-medium text-ink-2 group-hover:text-ink">{item.caption || item.altText || MEDIA_LABEL[item.type]}</span>
+                    <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{item.anchor?.quote ? `${t('Linked to')} “${item.anchor.quote}”` : t('Whole article')}</span>
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </Popover>
+      )}
+    </>
   )
 }
 
@@ -622,6 +676,8 @@ function Reader({
   onBrowseSubject,
   onBrowseTopic,
   cameFrom,
+  heldIds,
+  onToggleHeld,
 }: {
   article: LiveSubtopic
   tags: string[]
@@ -633,11 +689,14 @@ function Reader({
   onBrowseTopic?: () => void
   /** The article this one was reached from, when it was reached from one. */
   cameFrom?: { title: string; onBack: () => void }
+  /** Ids of every article the student is holding, most recently held first. */
+  heldIds: string[]
+  onToggleHeld: (articleId: string) => void
 }) {
   const t = useT()
   const location = useLocation()
   const [universityCatalogue] = useUniversityCatalogue()
-  const { topics: libraryTopics, updatedAtFor } = useLiveLibrary()
+  const { topics: libraryTopics, subtopics: allSubtopics, updatedAtFor } = useLiveLibrary()
   const st = article
   const id = article.id
   const subject = getSubject(st.subjectId)
@@ -657,6 +716,20 @@ function Reader({
   const isRead = Boolean(readArticles[id])
   const [openMedia, setOpenMedia] = useState<ArticleMediaRecord | null>(null)
   const media = st.media ?? []
+  const isHeld = heldIds.includes(id)
+  /**
+   * The student's holding shelf: everything they are actively working
+   * through, minus the article on screen — seeing it listed under itself
+   * would be a rail pointing nowhere.
+   */
+  const heldShelf = useMemo(
+    () => heldIds
+      .filter((heldId) => heldId !== id)
+      .map((heldId) => allSubtopics.find((item) => item.id === heldId))
+      .filter((item): item is LiveSubtopic => Boolean(item))
+      .slice(0, 6),
+    [allSubtopics, heldIds, id],
+  )
 
   /**
    * Every run of text the student can mark, by the id the reader gives it.
@@ -787,6 +860,15 @@ function Reader({
           <ButtonLink to={`/app/qbank?article=${st.id}`} variant="primary" size="sm" iconLeft={ListChecks}>
             {t('Test yourself')}
           </ButtonLink>
+          <ArticleMediaButton media={media} onOpenMedia={setOpenMedia} t={t} />
+          <Button
+            variant={isHeld ? 'secondary' : 'ghost'}
+            size="sm"
+            iconLeft={isHeld ? BookmarkMinus : BookmarkPlus}
+            onClick={() => onToggleHeld(id)}
+          >
+            {isHeld ? t('On your shelf') : t('Hold this article')}
+          </Button>
           <Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'library article', id: st.id, title: st.title })}>{t('Report')}</Button>
         </div>
       </div>
@@ -856,6 +938,39 @@ function Reader({
     {/* min-w-0: on mobile the aside shares one grid column with the article, so
         without it the widest sidebar row sets the column width for both. */}
     <aside className="min-w-0 space-y-3 lg:sticky lg:top-[4.75rem]">
+      {/* The shelf of articles the student is holding onto — real, persisted
+          state (`onToggleHeld`), never mocked. The current article is left off
+          its own list; press "Hold this article" above to start filling it. */}
+      {heldShelf.length > 0 && (
+      <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
+        <div className="flex items-center gap-2"><Icon icon={Bookmark} size={15} className="text-primary" /><h2 className="text-[13px] font-semibold text-ink">{t('Your shelf')}</h2></div>
+        <ul className="mt-2.5 divide-y divide-line">
+          {heldShelf.map((heldArticle) => (
+            <li key={heldArticle.id} className="group flex items-start gap-1">
+              <button
+                type="button"
+                onClick={() => onOpenArticle(heldArticle.id)}
+                className="flex min-w-0 flex-1 items-start gap-2.5 py-2.5 text-start"
+              >
+                <span className="mt-1 h-3.5 w-[3px] shrink-0 rounded-full bg-primary" />
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate text-[12.5px] font-medium text-ink-2 group-hover:text-ink">{heldArticle.title}</span>
+                  <span className="mt-0.5 block truncate text-[10.5px] text-ink-3">{heldArticle.topicTitle}</span>
+                </span>
+              </button>
+              <button
+                type="button"
+                onClick={() => onToggleHeld(heldArticle.id)}
+                aria-label={`${t('Remove from your shelf')}: ${heldArticle.title}`}
+                className="mt-2.5 grid size-6 shrink-0 place-items-center rounded-md text-ink-3 opacity-0 transition-opacity hover:bg-inset hover:text-danger focus-visible:opacity-100 group-hover:opacity-100"
+              >
+                <Icon icon={X} size={13} />
+              </button>
+            </li>
+          ))}
+        </ul>
+      </section>
+      )}
       <YourMarksPanel marks={marks} onSelect={revealMark} onOpenNote={(mark, anchor) => setOpenNote({ mark, anchor })} />
       {st.keyPoints.length > 0 && (
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
@@ -1014,6 +1129,11 @@ export function Library() {
   const initialView: MedicalLibraryView = ['system', 'discipline', 'skills', 'knowledge', 'module', 'year'].includes(paramView ?? '') ? paramView as MedicalLibraryView : paramId ? 'system' : 'module'
   const [userArticles, setUserArticles] = usePersistentState<UserArticle[]>(USER_ARTICLES_KEY, [])
   const [personalTags, setPersonalTags] = usePersistentState<Record<string, string[]>>(PERSONAL_TAGS_KEY, {})
+  // Articles the student is actively holding onto, most recently held first.
+  // A student-side reading shelf — nothing here is authored content.
+  const [heldArticles, setHeldArticles] = usePersistentState<string[]>('synapse.library.held', [])
+  const toggleHeld = (articleId: string) =>
+    setHeldArticles((prev) => (prev.includes(articleId) ? prev.filter((id) => id !== articleId) : [articleId, ...prev].slice(0, 24)))
   const [selectedId, setSelectedId] = useState(allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : '')
   const [selectedNodeId, setSelectedNodeId] = useState<string | undefined>(() => {
     if (paramNode && taxonomyIndex.byId.has(paramNode)) return paramNode
@@ -1269,6 +1389,8 @@ export function Library() {
             onBrowseSubject={placementRoot ? () => selectNode(placementRoot) : undefined}
             onBrowseTopic={selectedPublishedArticle.primaryNodeId ? () => selectNode(selectedPublishedArticle.primaryNodeId!) : undefined}
             cameFrom={cameFromArticle ? { title: cameFromArticle.title, onBack: goBackInTrail } : undefined}
+            heldIds={heldArticles}
+            onToggleHeld={toggleHeld}
           />
         ) : view === 'module' || view === 'year' ? (
           <div className="grid min-h-full place-items-center px-6 py-10 text-center">

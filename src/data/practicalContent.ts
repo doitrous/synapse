@@ -142,8 +142,15 @@ export interface CaseStage {
   optionExplanations?: string[]
   correctIndex?: number
 }
+// `Vitals` is the authoring model's type (it also rides on imported cases), so
+// it lives in contentControl and is re-exported here for the seeded content and
+// the runner that already import it from this module.
+export type { Vitals } from '@/data/contentControl'
+import type { Vitals } from '@/data/contentControl'
+
 export interface CaseDetail {
   stages: CaseStage[]
+  vitals?: Vitals
   debrief?: string
   references?: string[]
 }
@@ -176,6 +183,7 @@ const CASES: Record<string, CaseDetail> = {
         answer: 'Low-molecular-weight heparin is appropriate and compatible with breastfeeding; treatment duration and transition should follow specialist guidance.',
       },
     ],
+    vitals: { hr: 118, bp: '108/68', rr: 30, spo2: 91, temp: 37.4, abnormal: ['hr', 'rr', 'spo2'], note: 'room air' },
     debrief: 'Post-partum breathlessness has a short, dangerous differential. The case rewards treating the hypoxia while the diagnosis is still open, then recognising venous thromboembolism and choosing safe anticoagulation.',
     references: ['RCOG · Thromboembolic disease in pregnancy and the puerperium', 'NICE · Venous thromboembolic diseases'],
   },
@@ -188,6 +196,7 @@ const CASES: Record<string, CaseDetail> = {
       { title: 'Diagnosis', prompt: 'The echocardiogram shows an ejection fraction of 30%. What is the diagnosis?', answer: 'Heart failure with reduced ejection fraction (HFrEF).' },
       { title: 'Management', prompt: 'Outline your management.', answer: 'A loop diuretic for congestion, then start the four prognostic pillars — ARNI/ACE inhibitor, beta-blocker, MRA, and SGLT2 inhibitor — titrated with monitoring of U&Es and blood pressure. Treat the underlying cause and modifiable risk factors.' },
     ],
+    vitals: { hr: 94, bp: '148/90', rr: 20, spo2: 94, temp: 36.8, abnormal: ['spo2', 'bp'], note: 'room air' },
     debrief: 'Progressive breathlessness with oedema should trigger a structured assessment for heart failure, confirmation of ventricular function, and treatment that separates symptom relief from prognostic therapy.',
     references: ['NICE NG106 · Chronic heart failure', 'ESC · Heart failure guideline'],
   },

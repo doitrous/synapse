@@ -2,8 +2,8 @@ import { useCallback } from 'react'
 import { usePersistentState } from './usePersistentState'
 import {
   EMPTY_PRACTICAL_PROGRESS, PRACTICAL_PROGRESS_STORAGE_KEY, recordCaseStep, recordLabAnswered,
-  recordStationRun, setSkillStatus,
-  type PracticalProgress, type SkillStatus,
+  recordStationRun, setOralMark, setSkillStatus,
+  type OralMark, type PracticalProgress, type SkillStatus,
 } from '@/data/practicalProgress'
 
 /**
@@ -34,5 +34,9 @@ export function usePracticalProgress() {
     setProgress((current) => setSkillStatus(current, skillId, status, new Date().toISOString()))
   }, [setProgress])
 
-  return { progress, finishStation, advanceCase, advanceLab, markSkill }
+  const markOral = useCallback((questionId: string, mark: OralMark) => {
+    setProgress((current) => setOralMark(current, questionId, mark, new Date().toISOString()))
+  }, [setProgress])
+
+  return { progress, finishStation, advanceCase, advanceLab, markSkill, markOral }
 }

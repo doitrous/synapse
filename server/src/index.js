@@ -27,7 +27,7 @@ import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
 import { mediaMeta } from './mediaMeta.js'
 import { MEDIA_STATE_KEY, deleteRefusal, isMediaReleased, storageKeyFor } from './mediaLibrary.js'
 import { createMediaPlaybackToken, readMediaPlaybackToken } from './mediaPlayback.js'
-import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
+import { authoriseChanges, diffDocument, mergeDocument, isMergeable, reconstructChanges, applyDelta } from './stateMerge.js'
 import {
   cancelSubscription,
   entitlementOf,
@@ -240,7 +240,12 @@ const app = express()
 app.use(compression())
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
-  limit: '25mb',
+  // The shared content documents are whole-document saves. The question ledger
+  // alone is ~23 MB and growing, so 25 MB was one import away from rejecting
+  // every save with 413. `limit` is checked against the DECOMPRESSED body, so it
+  // must exceed the raw document size even though clients now gzip it on the
+  // wire (body-parser inflates gzip requests automatically). 64 MB is headroom.
+  limit: '64mb',
   verify: (req, _res, buffer) => {
     if (req.originalUrl === '/api/webhooks/resend/inbound') req.rawBody = buffer.toString('utf8')
   },
@@ -1596,16 +1601,22 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // `version` is the row this document was read at. The client sends it back on
   // save, which is what lets the write below reconstruct what that client
   // actually changed instead of taking its whole document on trust.
+  // Tells the client this server understands delta saves (change-only writes)
+  // for this document. A client withholds deltas until it sees this, so a client
+  // built for delta can never send one to an older server that would read the
+  // absent whole `value` as "delete everything". Only meaningful for authors —
+  // students do not write.
+  const deltaSupported = authoring && isMergeable(req.params.key)
   const [rows] = await pool.query(
     `SELECT s.v, s.updated_at AS updatedAt,
             (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
        FROM app_state s WHERE s.k = ?`,
     [req.params.key],
   )
-  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null })
+  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null, deltaSupported })
   const { updatedAt, version } = rows[0]
   let value
-  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version }) }
+  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version, deltaSupported }) }
   // Some readable documents are readable only in part. The content ledger holds
   // every authored item in every state, including drafts, the author's private
   // notes and the provenance of borrowed papers; a student gets its published
@@ -1619,8 +1630,57 @@ app.get('/api/state/:key', wrap(async (req, res) => {
     try { catalogue = catalogueRows[0] ? JSON.parse(catalogueRows[0].v) : [] } catch { catalogue = [] }
     value = redactLedgerForStudent(value, releasedMediaIds, catalogue)
   } else if (redact) value = redact(value)
-  res.json({ value, updatedAt, version })
+  res.json({ value, updatedAt, version, deltaSupported })
 }))
+
+/**
+ * How many version rows to keep per document, and how many to drop per save.
+ *
+ * Each version row is a full snapshot — the content ledger's are ~23 MB — so an
+ * unbounded history was the table's runaway growth. Older rows are only ever
+ * read as the merge base for a whole-document save from a client that loaded
+ * long ago; a delta save needs none of them, and a base that has been pruned
+ * simply asks that client to reload. Keeping a generous recent window preserves
+ * that base for all but the most stale client, and the last resort for undoing
+ * a bad write. Both are env-tunable. The delete is bounded so a large backlog
+ * drains over successive saves instead of one heavy, locking delete.
+ */
+const STATE_VERSION_RETENTION = Math.max(2, Number(process.env.STATE_VERSION_RETENTION) || 20)
+// Gentle by default: at steady state only one row per save exceeds the window,
+// so a small batch keeps up, and a large existing backlog drains over many
+// saves rather than in heavy 23 MB-a-row deletes that fight foreground writes.
+// Raise STATE_VERSION_PRUNE_BATCH to reclaim a big backlog faster.
+const STATE_VERSION_PRUNE_BATCH = Math.max(1, Number(process.env.STATE_VERSION_PRUNE_BATCH) || 5)
+const pruningVersionKeys = new Set()
+
+/**
+ * Trim a key's version history to the newest STATE_VERSION_RETENTION rows.
+ *
+ * Runs after commit, off the write's transaction and lock, best-effort: it is
+ * housekeeping, never part of whether the save succeeded. One key prunes at a
+ * time so rapid saves cannot stack heavy deletes on top of each other.
+ */
+async function pruneStateVersions(key) {
+  if (pruningVersionKeys.has(key)) return
+  pruningVersionKeys.add(key)
+  try {
+    // The oldest row we keep; everything with a smaller id is prunable. LIMIT and
+    // OFFSET are inlined, not bound — they are validated server integers, and
+    // mysql2 quotes bound LIMIT/OFFSET values into a syntax error.
+    const [rows] = await pool.query(
+      `SELECT id FROM app_state_versions WHERE k = ? ORDER BY id DESC LIMIT 1 OFFSET ${STATE_VERSION_RETENTION - 1}`,
+      [key],
+    )
+    const floor = rows[0]?.id
+    if (!floor) return
+    await pool.query(
+      `DELETE FROM app_state_versions WHERE k = ? AND id < ? ORDER BY id ASC LIMIT ${STATE_VERSION_PRUNE_BATCH}`,
+      [key, floor],
+    )
+  } finally {
+    pruningVersionKeys.delete(key)
+  }
+}
 
 /**
  * Save a shared document.
@@ -1672,41 +1732,63 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
     const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [key])
     const storedVersion = versionRows[0]?.version ?? null
 
-    let base = null
-    if (baseVersion !== null) {
-      const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
-      if (!baseRows.length) {
+    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
+
+    // A delta save sends only the items this client changed. It is the same
+    // authorisation and per-item conflict check as a whole-document save, but it
+    // never needs the base document — the `before` carried by each change is the
+    // conflict guard — so it is immune to a pruned version row, and one changed
+    // question no longer costs a 22 MB upload. A `changes` array that is present
+    // but malformed is refused; a whole-document `value` takes the path below.
+    const rawChanges = req.body?.changes
+    let merged
+    let changesForAuth
+    if (rawChanges !== undefined) {
+      if (!isMergeable(key)) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'delta_unsupported', reason: 'this document is saved whole, not by change' })
+      }
+      changesForAuth = reconstructChanges(key, rawChanges)
+      if (!changesForAuth) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'malformed_changes', reason: 'the change set is malformed; reload this page and try again' })
+      }
+      merged = applyDelta(key, stored, changesForAuth)
+    } else {
+      let base = null
+      if (baseVersion !== null) {
+        const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
+        if (!baseRows.length) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'stale',
+            reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+          })
+        }
+        base = JSON.parse(baseRows[0].v)
+      } else if (storedVersion !== null) {
+        // The client believed this document did not exist, and it does.
         await conn.rollback()
         return res.status(409).json({
           error: 'stale',
-          reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+          reason: 'this document was created while you were editing — reload and try again',
         })
       }
-      base = JSON.parse(baseRows[0].v)
-    } else if (storedVersion !== null) {
-      // The client believed this document did not exist, and it does.
-      await conn.rollback()
-      return res.status(409).json({
-        error: 'stale',
-        reason: 'this document was created while you were editing — reload and try again',
-      })
+      const incoming = req.body?.value ?? null
+      // A document with no adapter yields no changes; the base-version check
+      // above is what protects it, and the tab check below is its authorisation.
+      changesForAuth = diffDocument(key, base, incoming)
+      merged = mergeDocument(key, base, stored, incoming)
     }
 
-    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
-    const incoming = req.body?.value ?? null
-
     if (!superAdmin) {
-      const changes = diffDocument(key, base, incoming)
-      // A document with no adapter yields no changes; the base-version check
-      // above is what protects it, and the tab check above is its authorisation.
-      const authorised = authoriseChanges(changes, { heldTabs: held, contentScope: req.identity.contentScope })
+      const authorised = authoriseChanges(changesForAuth, { heldTabs: held, contentScope: req.identity.contentScope })
       if (!authorised.ok) {
         await conn.rollback()
         return res.status(403).json({ error: 'refused', refusals: authorised.refusals })
       }
     }
 
-    const merged = mergeDocument(key, base, stored, incoming)
     if (!merged.ok) {
       await conn.rollback()
       return res.status(409).json({
@@ -1800,6 +1882,12 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
       }
     }
     if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
+    // A new version row was written iff the id advanced. Keep the history bounded
+    // — after the response, so it never adds to save latency, and best-effort, so
+    // a housekeeping hiccup is never a failed save.
+    if (version !== storedVersion) {
+      void pruneStateVersions(key).catch((error) => console.error(`version prune failed for ${key}:`, error?.message ?? error))
+    }
     res.json({ ok: true, version })
   } catch (error) {
     await conn.rollback()
