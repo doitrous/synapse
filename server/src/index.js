@@ -2,7 +2,7 @@ import { randomUUID } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import { basename, dirname, join, resolve, sep } from 'node:path'
 import { existsSync } from 'node:fs'
-import { mkdir, open, readFile, rename, rm, unlink } from 'node:fs/promises'
+import { mkdir, open, readFile, rename, rm, stat, unlink } from 'node:fs/promises'
 import express from 'express'
 import compression from 'compression'
 import cors from 'cors'
@@ -27,7 +27,13 @@ import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
 import { mediaMeta } from './mediaMeta.js'
 import { MEDIA_STATE_KEY, deleteRefusal, isMediaReleased, storageKeyFor } from './mediaLibrary.js'
 import { createMediaPlaybackToken, readMediaPlaybackToken } from './mediaPlayback.js'
-import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
+import { authoriseChanges, diffDocument, mergeDocument, isMergeable, reconstructChanges, applyDelta } from './stateMerge.js'
+import { collectMediaRequests } from './mediaRequestPolicy.js'
+import { describeProviders } from './mediaProvider.js'
+import {
+  CONTENT_REPORTS_STATE_KEY, CONTENT_REPORT_TOMBSTONES_KEY,
+  buildContentReport, buildTombstone, deletionConfirmed, reporterRoleLabel,
+} from './contentReports.js'
 import {
   cancelSubscription,
   entitlementOf,
@@ -42,6 +48,7 @@ import {
   readReason,
   recordAction,
   requestPasswordReset,
+  setUserPassword,
   saveOwnEnrolment,
   setAccessStatus,
   setContentScope,
@@ -55,9 +62,11 @@ import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuo
 import {
   createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
   listEnrollmentChangeRequests, myEnrollmentChangeRequests,
+  applyDirectEnrollmentChange,
 } from './enrollmentChanges.js'
 import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
+import { activityTrackingSummary } from './studyTrackingAdmin.js'
 import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
@@ -121,9 +130,17 @@ const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 
  * a single-request ceiling; the normal path uses bounded chunks up to 2 GB. */
 const MEDIA_STORAGE_DIR = RESOURCE_STORAGE_DIR
 const MEDIA_MAX_BYTES = Number(process.env.MEDIA_MAX_BYTES) || 100 * 1024 * 1024
+// Per-type ceilings, enforced after the bytes are sniffed so the limit follows
+// what the file actually is, not what it was named: images 100 MB, audio 500 MB,
+// video 5 GB.
 const MEDIA_IMAGE_MAX_BYTES = Number(process.env.MEDIA_IMAGE_MAX_BYTES) || 100 * 1024 * 1024
+const MEDIA_AUDIO_MAX_BYTES = Number(process.env.MEDIA_AUDIO_MAX_BYTES) || 500 * 1024 * 1024
+const MEDIA_VIDEO_MAX_BYTES = Number(process.env.MEDIA_VIDEO_MAX_BYTES) || 5 * 1024 * 1024 * 1024
+const MEDIA_TYPE_MAX_BYTES = { image: MEDIA_IMAGE_MAX_BYTES, audio: MEDIA_AUDIO_MAX_BYTES, video: MEDIA_VIDEO_MAX_BYTES }
 const MEDIA_CHUNK_MAX_BYTES = Number(process.env.MEDIA_CHUNK_MAX_BYTES) || 8 * 1024 * 1024
-const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
+// The session ceiling is the largest any single type allows (video), so a large
+// video can begin; the per-type cap above is what actually bounds it once known.
+const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || MEDIA_VIDEO_MAX_BYTES
 const MEDIA_UPLOAD_MAX_AGE_HOURS = Math.max(1, Number(process.env.MEDIA_UPLOAD_MAX_AGE_HOURS) || 24)
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
@@ -239,7 +256,12 @@ const app = express()
 app.use(compression())
 app.use(cors({ origin: process.env.CORS_ORIGIN?.split(',') ?? true }))
 app.use(express.json({
-  limit: '25mb',
+  // The shared content documents are whole-document saves. The question ledger
+  // alone is ~23 MB and growing, so 25 MB was one import away from rejecting
+  // every save with 413. `limit` is checked against the DECOMPRESSED body, so it
+  // must exceed the raw document size even though clients now gzip it on the
+  // wire (body-parser inflates gzip requests automatically). 64 MB is headroom.
+  limit: '64mb',
   verify: (req, _res, buffer) => {
     if (req.originalUrl === '/api/webhooks/resend/inbound') req.rawBody = buffer.toString('utf8')
   },
@@ -1241,6 +1263,17 @@ app.get('/api/state', requireSuperAdmin, wrap(async (_req, res) => {
   res.json(out)
 }))
 
+// Cross-student activity tracking for the Settings console: answer-change
+// transitions from the verified attempt ledger and highlighting behaviour from
+// every student's highlight document. Optional ?university=&year=&term= scope.
+app.get('/api/admin/activity-tracking', requireSuperAdmin, wrap(async (req, res) => {
+  res.json(await activityTrackingSummary({
+    universityId: typeof req.query.university === 'string' ? req.query.university : undefined,
+    year: typeof req.query.year === 'string' ? req.query.year : undefined,
+    term: typeof req.query.term === 'string' ? req.query.term : undefined,
+  }))
+}))
+
 // A mass withdrawal is intentionally not a normal editor action. The
 // operational script reads this immediately before its versioned ledger write
 // and refuses to interrupt live question sessions without an explicit flag.
@@ -1584,16 +1617,22 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // `version` is the row this document was read at. The client sends it back on
   // save, which is what lets the write below reconstruct what that client
   // actually changed instead of taking its whole document on trust.
+  // Tells the client this server understands delta saves (change-only writes)
+  // for this document. A client withholds deltas until it sees this, so a client
+  // built for delta can never send one to an older server that would read the
+  // absent whole `value` as "delete everything". Only meaningful for authors —
+  // students do not write.
+  const deltaSupported = authoring && isMergeable(req.params.key)
   const [rows] = await pool.query(
     `SELECT s.v, s.updated_at AS updatedAt,
             (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
        FROM app_state s WHERE s.k = ?`,
     [req.params.key],
   )
-  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null })
+  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null, deltaSupported })
   const { updatedAt, version } = rows[0]
   let value
-  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version }) }
+  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version, deltaSupported }) }
   // Some readable documents are readable only in part. The content ledger holds
   // every authored item in every state, including drafts, the author's private
   // notes and the provenance of borrowed papers; a student gets its published
@@ -1607,8 +1646,102 @@ app.get('/api/state/:key', wrap(async (req, res) => {
     try { catalogue = catalogueRows[0] ? JSON.parse(catalogueRows[0].v) : [] } catch { catalogue = [] }
     value = redactLedgerForStudent(value, releasedMediaIds, catalogue)
   } else if (redact) value = redact(value)
-  res.json({ value, updatedAt, version })
+  // Archived reports stay on the record for editors and super admins, but a
+  // reviewer's queue is only the live work: they are filtered out before the
+  // document ever reaches a reviewer, not merely hidden in the browser.
+  if (req.identity?.role === 'reviewer' && req.params.key === CONTENT_REPORTS_STATE_KEY && Array.isArray(value)) {
+    value = value.filter((report) => report?.status !== 'Archived')
+  }
+  res.json({ value, updatedAt, version, deltaSupported })
 }))
+
+/**
+ * How many version rows to keep per document, and how many to drop per save.
+ *
+ * Each version row is a full snapshot — the content ledger's are ~23 MB — so an
+ * unbounded history was the table's runaway growth. Older rows are only ever
+ * read as the merge base for a whole-document save from a client that loaded
+ * long ago; a delta save needs none of them, and a base that has been pruned
+ * simply asks that client to reload. Keeping a generous recent window preserves
+ * that base for all but the most stale client, and the last resort for undoing
+ * a bad write. Both are env-tunable. The delete is bounded so a large backlog
+ * drains over successive saves instead of one heavy, locking delete.
+ */
+const STATE_VERSION_RETENTION = Math.max(2, Number(process.env.STATE_VERSION_RETENTION) || 20)
+// Gentle by default: at steady state only one row per save exceeds the window,
+// so a small batch keeps up, and a large existing backlog drains over many
+// saves rather than in heavy 23 MB-a-row deletes that fight foreground writes.
+// Raise STATE_VERSION_PRUNE_BATCH to reclaim a big backlog faster.
+const STATE_VERSION_PRUNE_BATCH = Math.max(1, Number(process.env.STATE_VERSION_PRUNE_BATCH) || 5)
+const pruningVersionKeys = new Set()
+
+/**
+ * Trim a key's version history to the newest STATE_VERSION_RETENTION rows.
+ *
+ * Runs after commit, off the write's transaction and lock, best-effort: it is
+ * housekeeping, never part of whether the save succeeded. One key prunes at a
+ * time so rapid saves cannot stack heavy deletes on top of each other.
+ */
+async function pruneStateVersions(key) {
+  if (pruningVersionKeys.has(key)) return
+  pruningVersionKeys.add(key)
+  try {
+    // The oldest row we keep; everything with a smaller id is prunable. LIMIT and
+    // OFFSET are inlined, not bound — they are validated server integers, and
+    // mysql2 quotes bound LIMIT/OFFSET values into a syntax error.
+    const [rows] = await pool.query(
+      `SELECT id FROM app_state_versions WHERE k = ? ORDER BY id DESC LIMIT 1 OFFSET ${STATE_VERSION_RETENTION - 1}`,
+      [key],
+    )
+    const floor = rows[0]?.id
+    if (!floor) return
+    await pool.query(
+      `DELETE FROM app_state_versions WHERE k = ? AND id < ? ORDER BY id ASC LIMIT ${STATE_VERSION_PRUNE_BATCH}`,
+      [key, floor],
+    )
+  } finally {
+    pruningVersionKeys.delete(key)
+  }
+}
+
+/**
+ * Enforce that a media request only becomes supplied with verified media.
+ *
+ * Compares the merged ledger against what was stored and looks at every request
+ * whose media was just attached, or that now claims to be supplied. A managed
+ * upload must be 'ready' — genuinely round-tripped and verified — for the request
+ * to stand: a ready one is promoted to 'supplied' in place (the server's decision,
+ * not a label the client can assert), and one still verifying or failed refuses
+ * the whole save. A mediaId with no managed row is pre-existing/legacy media and
+ * is left untouched, so this never falsely blocks media the state machine does
+ * not own.
+ */
+async function enforceMediaSupply(conn, mergedLedger, storedLedger) {
+  const merged = collectMediaRequests(mergedLedger)
+  const stored = collectMediaRequests(storedLedger)
+  const candidates = []
+  for (const [id, request] of merged) {
+    if (!request?.mediaId) continue
+    const before = stored.get(id) ?? null
+    const attachedNow = request.mediaId !== before?.mediaId
+    const claimsSupplied = request.status === 'supplied' && before?.status !== 'supplied'
+    if (attachedNow || claimsSupplied) candidates.push(request)
+  }
+  if (!candidates.length) return { ok: true }
+
+  const mediaIds = [...new Set(candidates.map((request) => request.mediaId))]
+  const [rows] = await conn.query('SELECT id, status FROM managed_media WHERE id IN (?)', [mediaIds])
+  const statusById = new Map(rows.map((row) => [row.id, row.status]))
+
+  const notReady = []
+  for (const request of candidates) {
+    const status = statusById.get(request.mediaId)
+    if (status === undefined) continue // not a managed upload — legacy media, left as-is
+    if (status !== 'ready') { notReady.push({ id: request.id, mediaId: request.mediaId, status }); continue }
+    if (request.status !== 'supplied') request.status = 'supplied'
+  }
+  return notReady.length ? { ok: false, notReady } : { ok: true }
+}
 
 /**
  * Save a shared document.
@@ -1660,41 +1793,63 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
     const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [key])
     const storedVersion = versionRows[0]?.version ?? null
 
-    let base = null
-    if (baseVersion !== null) {
-      const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
-      if (!baseRows.length) {
+    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
+
+    // A delta save sends only the items this client changed. It is the same
+    // authorisation and per-item conflict check as a whole-document save, but it
+    // never needs the base document — the `before` carried by each change is the
+    // conflict guard — so it is immune to a pruned version row, and one changed
+    // question no longer costs a 22 MB upload. A `changes` array that is present
+    // but malformed is refused; a whole-document `value` takes the path below.
+    const rawChanges = req.body?.changes
+    let merged
+    let changesForAuth
+    if (rawChanges !== undefined) {
+      if (!isMergeable(key)) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'delta_unsupported', reason: 'this document is saved whole, not by change' })
+      }
+      changesForAuth = reconstructChanges(key, rawChanges)
+      if (!changesForAuth) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'malformed_changes', reason: 'the change set is malformed; reload this page and try again' })
+      }
+      merged = applyDelta(key, stored, changesForAuth)
+    } else {
+      let base = null
+      if (baseVersion !== null) {
+        const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
+        if (!baseRows.length) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'stale',
+            reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+          })
+        }
+        base = JSON.parse(baseRows[0].v)
+      } else if (storedVersion !== null) {
+        // The client believed this document did not exist, and it does.
         await conn.rollback()
         return res.status(409).json({
           error: 'stale',
-          reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+          reason: 'this document was created while you were editing — reload and try again',
         })
       }
-      base = JSON.parse(baseRows[0].v)
-    } else if (storedVersion !== null) {
-      // The client believed this document did not exist, and it does.
-      await conn.rollback()
-      return res.status(409).json({
-        error: 'stale',
-        reason: 'this document was created while you were editing — reload and try again',
-      })
+      const incoming = req.body?.value ?? null
+      // A document with no adapter yields no changes; the base-version check
+      // above is what protects it, and the tab check below is its authorisation.
+      changesForAuth = diffDocument(key, base, incoming)
+      merged = mergeDocument(key, base, stored, incoming)
     }
 
-    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
-    const incoming = req.body?.value ?? null
-
     if (!superAdmin) {
-      const changes = diffDocument(key, base, incoming)
-      // A document with no adapter yields no changes; the base-version check
-      // above is what protects it, and the tab check above is its authorisation.
-      const authorised = authoriseChanges(changes, { heldTabs: held, contentScope: req.identity.contentScope })
+      const authorised = authoriseChanges(changesForAuth, { heldTabs: held, contentScope: req.identity.contentScope, role: req.identity.role, rank: req.identity.rank })
       if (!authorised.ok) {
         await conn.rollback()
         return res.status(403).json({ error: 'refused', refusals: authorised.refusals })
       }
     }
 
-    const merged = mergeDocument(key, base, stored, incoming)
     if (!merged.ok) {
       await conn.rollback()
       return res.status(409).json({
@@ -1753,6 +1908,22 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
         removedMediaRecords = (Array.isArray(beforeMedia?.records) ? beforeMedia.records : [])
           .filter((record) => !nextIds.has(record.id))
       }
+      if (key === CONTENT_LEDGER_STATE_KEY) {
+        // "Supplied" is the server's word, not the client's: a request may only
+        // become supplied with media that has finished verifying. Newly attached
+        // (or newly supplied-claiming) requests are checked against the media
+        // table; a ready managed upload is promoted to supplied here, and a request
+        // pointing at media that is still verifying or has failed is refused.
+        const supply = await enforceMediaSupply(conn, ledger, beforeLedger)
+        if (!supply.ok) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'media_not_ready',
+            reason: 'a request can be supplied only with media that has finished verifying',
+            requests: supply.notReady,
+          })
+        }
+      }
     }
 
     const v = JSON.stringify(merged.value ?? null)
@@ -1788,6 +1959,12 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
       }
     }
     if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
+    // A new version row was written iff the id advanced. Keep the history bounded
+    // — after the response, so it never adds to save latency, and best-effort, so
+    // a housekeeping hiccup is never a failed save.
+    if (version !== storedVersion) {
+      void pruneStateVersions(key).catch((error) => console.error(`version prune failed for ${key}:`, error?.message ?? error))
+    }
     res.json({ ok: true, version })
   } catch (error) {
     await conn.rollback()
@@ -1806,10 +1983,141 @@ app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
       reason: 'the content ledger, media library, and academic catalogue must be changed through their guarded editors',
     })
   }
+  // Reports are removed one at a time, with typed confirmation and a tombstone —
+  // never wiped wholesale by a single call. See POST /api/content-reports/:id/delete.
+  if (req.params.key === CONTENT_REPORTS_STATE_KEY) {
+    return res.status(409).json({
+      error: 'protected_state',
+      reason: 'a content report is deleted one at a time through its own confirmed, audited action',
+    })
+  }
   await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
   invalidateSnapshots(req.params.key)
   if (req.params.key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
   res.json({ ok: true })
+}))
+
+/* ── Content reports ─────────────────────────────────────────────────────── */
+
+/**
+ * File a content report.
+ *
+ * Open to any signed-in account, because the people who hit a wrong answer or a
+ * broken image are students, who hold no console tab and so cannot reach the
+ * shared write path. The server stamps the reporter's identity, role and time
+ * itself — never the caller's word for them — and appends under the same row
+ * lock the console write path uses, so a report filed here and a review saved
+ * there cannot lose one another.
+ */
+app.post('/api/content-reports', requireAuthenticated, wrap(async (req, res) => {
+  const body = req.body ?? {}
+  const contentId = typeof body.contentId === 'string' ? body.contentId.trim() : ''
+  const note = typeof body.note === 'string' ? body.note.trim() : ''
+  if (!contentId) return res.status(400).json({ error: 'contentId is required' })
+  if (!note) return res.status(400).json({ error: 'a description is required' })
+
+  const actor = await getUserByIdentity(req.identity.id)
+  const reporterName = actor?.name || String(req.identity.email ?? '').split('@')[0] || 'Someone'
+  const report = buildContentReport(body, {
+    id: `report-${randomUUID()}`,
+    reporterUserId: req.identity.id,
+    reporterRole: reporterRoleLabel(req.identity.role),
+    reporterName,
+    createdAt: new Date().toISOString(),
+  })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_REPORTS_STATE_KEY])
+    let current = []
+    if (rows.length) { try { current = JSON.parse(rows[0].v) } catch { current = [] } }
+    if (!Array.isArray(current)) current = []
+    const next = [report, ...current]
+    const v = JSON.stringify(next)
+    await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [CONTENT_REPORTS_STATE_KEY, v, req.identity.id])
+    await conn.query('INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [CONTENT_REPORTS_STATE_KEY, v])
+    await conn.commit()
+    invalidateSnapshots(CONTENT_REPORTS_STATE_KEY)
+    res.json({ ok: true, id: report.id })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+/**
+ * Permanently delete one report. Super admin only, never a one-click action: the
+ * caller must type the report's id or its exact title back, and what is removed
+ * leaves a tombstone — who deleted it, when, and which report — so the deletion
+ * is itself on the record. The reports document and the tombstone log are written
+ * under one transaction, so a report never disappears without its marker.
+ */
+app.post('/api/content-reports/:id/delete', requireSuperAdmin, wrap(async (req, res) => {
+  const reportId = req.params.id
+  const actor = await getUserByIdentity(req.identity.id)
+  const deletedByName = actor?.name || String(req.identity.email ?? '').split('@')[0] || 'Super admin'
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_REPORTS_STATE_KEY])
+    let current = []
+    if (rows.length) { try { current = JSON.parse(rows[0].v) } catch { current = [] } }
+    if (!Array.isArray(current)) current = []
+    const report = current.find((item) => item?.id === reportId)
+    if (!report) { await conn.rollback(); return res.status(404).json({ error: 'no such report' }) }
+    if (!deletionConfirmed(report, req.body?.confirmation)) {
+      await conn.rollback()
+      return res.status(400).json({ error: 'confirmation_mismatch', reason: 'type the report id or its exact title to confirm deletion' })
+    }
+    const next = current.filter((item) => item?.id !== reportId)
+    const v = JSON.stringify(next)
+    await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [CONTENT_REPORTS_STATE_KEY, v, req.identity.id])
+    await conn.query('INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [CONTENT_REPORTS_STATE_KEY, v])
+
+    const [tombRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_REPORT_TOMBSTONES_KEY])
+    let tombstones = []
+    if (tombRows.length) { try { tombstones = JSON.parse(tombRows[0].v) } catch { tombstones = [] } }
+    if (!Array.isArray(tombstones)) tombstones = []
+    const tombstone = buildTombstone(report, {
+      deletedBy: req.identity.id, deletedByName, deletedAt: new Date().toISOString(), reason: req.body?.reason,
+    })
+    const tv = JSON.stringify([tombstone, ...tombstones])
+    await conn.query('INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)', [CONTENT_REPORT_TOMBSTONES_KEY, tv, req.identity.id])
+    await conn.query('INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)', [CONTENT_REPORT_TOMBSTONES_KEY, tv])
+
+    await conn.commit()
+    invalidateSnapshots(CONTENT_REPORTS_STATE_KEY)
+    invalidateSnapshots(CONTENT_REPORT_TOMBSTONES_KEY)
+    res.json({ ok: true, tombstone })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
+/* ── Media escalations ───────────────────────────────────────────────────── */
+
+/**
+ * How many media requests are escalated and still open, for the nav badge on the
+ * Escalations queue. Editor-and-above only (the tab is theirs). Counts from the
+ * ledger; escalations are rare, so a scan on an occasional nav fetch is cheap
+ * enough, and it never ships the whole ledger to the browser to do it.
+ */
+app.get('/api/admin/escalations/count', requireTab('escalations'), wrap(async (req, res) => {
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
+  let ledger = []
+  if (rows.length) { try { ledger = JSON.parse(rows[0].v) } catch { ledger = [] } }
+  let open = 0
+  for (const request of collectMediaRequests(ledger).values()) {
+    if (request?.escalation?.status === 'open') open += 1
+  }
+  res.json({ open })
 }))
 
 /* ── Private, per-user state ─────────────────────────────────────────────── */
@@ -1974,6 +2282,54 @@ app.patch('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => 
   }
 }))
 
+/**
+ * Move a student to a new university and year.
+ *
+ * The Users tab holds admins too, but changing a cohort is an editor-and-above
+ * action — it resets what progress the student sees — so rank is checked past the
+ * tab. The change is one transaction: persist the cohort, re-derive year_id, reset
+ * the cached aggregates to the destination cohort (a clean slate on a new one,
+ * the old numbers exactly on a return), and write the audit row. The response
+ * carries the before and after so the confirmation screen can state both.
+ */
+app.post('/api/admin/users/:id/enrollment', requireTab('users'), wrap(async (req, res) => {
+  if (req.identity.rank < 2) {
+    return res.status(403).json({ error: 'only an editor or super admin may change a student’s university and year' })
+  }
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const universityId = String(req.body?.universityId || '').trim()
+  const year = String(req.body?.year || '').trim()
+  if (!universityId || !year) return res.status(400).json({ error: 'universityId and year are required' })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query(
+      'SELECT id, university_id AS universityId, year, year_id AS yearId, user_id AS userId FROM students WHERE id = ? FOR UPDATE',
+      [req.params.id],
+    )
+    if (!rows.length) { await conn.rollback(); return res.status(404).json({ error: 'no profile to update' }) }
+    const current = rows[0]
+    if (String(current.universityId ?? '') === universityId && String(current.year ?? '') === year) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'that is already their university and year' })
+    }
+    const result = await applyDirectEnrollmentChange(conn, {
+      studentId: req.params.id, userId: current.userId, universityId, year,
+      oldUniversityId: current.universityId, oldYear: current.year, oldYearId: current.yearId,
+      actorId: req.identity.id, reason,
+    })
+    await conn.commit()
+    res.json({ ok: true, ...result })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
 app.post('/api/admin/users/:id/subscription', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
@@ -2023,6 +2379,37 @@ app.post('/api/admin/users/:id/password-reset', requireTab('users'), wrap(async 
   if (result.error === 'supabase_rejected') return res.status(502).json({ error: `Supabase refused the request (${result.status})` })
   if (result.error) return res.status(404).json({ error: result.error })
   res.json(result)
+}))
+
+/**
+ * Set a user's password directly.
+ *
+ * Editor-and-above only — an admin holds the Users tab but is rank 1, so the tab
+ * is not enough. The account whose password is being set must itself be below
+ * editor (student, reviewer or admin); accounts.setUserPassword enforces that, so
+ * an editor can never reach a peer's or a super admin's credentials. The password
+ * is never stored or logged here.
+ */
+app.post('/api/admin/users/:id/password', requireTab('users'), wrap(async (req, res) => {
+  if (req.identity.rank < 2) {
+    return res.status(403).json({ error: 'only an editor or super admin may set a user’s password' })
+  }
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const result = await setUserPassword(req.params.id, { password: req.body?.password, reason, actorId: req.identity.id })
+  const REFUSALS = {
+    weak_password: [400, 'password must be at least 8 characters'],
+    not_found: [404, 'user not found'],
+    no_identity: [409, 'this person has never signed in, so there is no account to set a password for'],
+    forbidden_target: [403, 'passwords can only be set for students, reviewers and admins'],
+    supabase_not_configured: [503, 'setting passwords needs SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY on the server'],
+    supabase_rejected: [502, `Supabase refused the request${result?.status ? ` (${result.status})` : ''}`],
+  }
+  if (result.error) {
+    const [status, message] = REFUSALS[result.error] ?? [400, result.error]
+    return res.status(status).json({ error: message })
+  }
+  res.json({ ok: true })
 }))
 
 app.get('/api/admin/users/:id/activity', requireTab('users'), wrap(async (req, res) => {
@@ -2440,8 +2827,9 @@ async function registerManagedMedia(staging, received, { id = `med-${randomUUID(
     error.status = 415
     throw error
   }
-  if (meta.mediaType === 'image' && received.sizeBytes > MEDIA_IMAGE_MAX_BYTES) {
-    const error = new Error(`images may be up to ${Math.round(MEDIA_IMAGE_MAX_BYTES / (1024 * 1024))} MB`)
+  const typeCap = MEDIA_TYPE_MAX_BYTES[meta.mediaType]
+  if (typeCap && received.sizeBytes > typeCap) {
+    const error = new Error(`${meta.mediaType} may be up to ${Math.round(typeCap / (1024 * 1024))} MB`)
     error.status = 413
     throw error
   }
@@ -2462,25 +2850,72 @@ async function registerManagedMedia(staging, received, { id = `med-${randomUUID(
       await rm(staging, { force: true })
     }
     try {
+      // The file is on disk but not yet trusted: land it as 'verifying', prove it
+      // reads back, and only then promote to 'ready'. A record is never 'ready'
+      // because an upload's last request returned — only because its stored bytes
+      // were round-tripped.
       await conn.query(
         `INSERT INTO managed_media
-           (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height, ready_at)
-         VALUES (?, ?, 'ready', ?, ?, ?, ?, ?, ?, ?, NOW())
-         ON DUPLICATE KEY UPDATE status = 'ready', storage_key = VALUES(storage_key),
+           (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height)
+         VALUES (?, ?, 'verifying', ?, ?, ?, ?, ?, ?, ?)
+         ON DUPLICATE KEY UPDATE status = 'verifying', storage_key = VALUES(storage_key),
            sha256 = VALUES(sha256), media_type = VALUES(media_type), mime_type = VALUES(mime_type),
-           size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height), ready_at = NOW()`,
+           size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height),
+           failure_reason = NULL`,
         [id, uploadedBy, storageKey, received.sha256, meta.mediaType, meta.mimeType, received.sizeBytes, meta.width || null, meta.height || null],
       )
     } catch (error) {
       if (!alreadyStored) await removePhysicalMediaIfUnreferenced({ storageKey }, conn)
       throw error
     }
-    return completedMediaPayload({
-      id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
-      mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
-      width: meta.width, height: meta.height,
-    }, alreadyStored)
+
+    const failure = await verifyStoredMedia(fullPath, received.sizeBytes, meta.mediaType)
+    if (failure) {
+      await conn.query('UPDATE managed_media SET status = ?, failure_reason = ? WHERE id = ?', ['failed', failure, id])
+      return { id, status: 'failed', failureReason: failure }
+    }
+    await conn.query('UPDATE managed_media SET status = ?, verified_at = NOW(), ready_at = NOW() WHERE id = ?', ['ready', id])
+    return {
+      ...completedMediaPayload({
+        id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
+        mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
+        width: meta.width, height: meta.height,
+      }, alreadyStored),
+      status: 'ready',
+    }
   })
+}
+
+/**
+ * Verify a stored media object at rest, returning a failure reason or null.
+ *
+ * This is what "verifying" actually means without a transcoder: the file exists
+ * where it was written, is the size we recorded, reads back, and still parses as
+ * the media type it claimed. It catches a truncated or corrupted write that a
+ * successful HTTP upload would otherwise have reported as done. Audio and video
+ * are confirmed as readable and correctly typed; playback itself is not claimed
+ * verified, because the server has no player — the honest ceiling here.
+ */
+async function verifyStoredMedia(fullPath, sizeBytes, mediaType) {
+  try {
+    const info = await stat(fullPath)
+    if (!info.isFile()) return 'stored media is not a file'
+    if (info.size !== sizeBytes) return `stored media is ${info.size} bytes, expected ${sizeBytes}`
+    const headLength = Math.min(1024 * 1024, sizeBytes)
+    const tailLength = Math.min(4 * 1024 * 1024, Math.max(0, sizeBytes - headLength))
+    const back = Buffer.alloc(headLength + tailLength)
+    const handle = await open(fullPath, 'r')
+    try {
+      await handle.read(back, 0, headLength, 0)
+      if (tailLength) await handle.read(back, headLength, tailLength, sizeBytes - tailLength)
+    } finally { await handle.close() }
+    const recheck = mediaMeta(back)
+    if (!recheck) return 'stored media did not read back as a recognised format'
+    if (recheck.mediaType !== mediaType) return `stored media read back as ${recheck.mediaType}, not ${mediaType}`
+    return null
+  } catch {
+    return 'stored media could not be read back'
+  }
 }
 
 /** Legacy bounded request, kept for older clients. New clients use chunks. */
@@ -2499,6 +2934,16 @@ app.post('/api/media', requireTab('resources', 'media'), wrap(async (req, res) =
   try { return res.json({ ok: true, ...(await registerManagedMedia(staging, received, { uploadedBy: req.identity.id })) }) }
   catch (error) { return res.status(error.status || 500).json({ error: error.message }) }
   finally { await rm(staging, { force: true }) }
+}))
+
+/**
+ * Which media storage providers are configured, for a super admin auditing the
+ * Cloudflare wiring. Reports presence and readiness only — never a secret value.
+ * The filesystem provider is always available; R2/Stream report configured only
+ * when their env is complete, and name (never print) any variables still missing.
+ */
+app.get('/api/admin/media/providers', requireSuperAdmin, wrap(async (_req, res) => {
+  res.json(describeProviders(process.env))
 }))
 
 /** Start a large, resumable managed-media upload. */
@@ -2537,13 +2982,18 @@ app.put('/api/media/uploads/:id/:uploadId/chunks/:index', requireTab('resources'
 app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'media'), wrap(async (req, res) => {
   const [rows] = await pool.query(
     `SELECT id, status, storage_key AS storageKey, sha256, media_type AS mediaType,
-       mime_type AS mimeType, size_bytes AS sizeBytes, width, height
+       mime_type AS mimeType, size_bytes AS sizeBytes, width, height, failure_reason AS failureReason
      FROM managed_media
-     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status IN ('uploading', 'ready')`,
+     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status IN ('uploading', 'ready', 'failed')`,
     [req.params.id, req.params.uploadId, req.identity.id],
   )
   const pending = rows[0]
   if (!pending) return res.status(404).json({ error: 'media upload not found' })
+  // A prior attempt that failed verification stays failed — report it honestly on
+  // retry rather than pretending the upload is still in progress.
+  if (pending.status === 'failed') {
+    return res.json({ ok: true, id: pending.id, status: 'failed', failureReason: pending.failureReason || 'verification failed' })
+  }
   if (pending.status === 'ready') {
     const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
     if (workspace) await rm(workspace, { recursive: true, force: true })
@@ -2557,6 +3007,7 @@ app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'm
     )
     return res.json({
       ok: true,
+      status: 'ready',
       ...completedMediaPayload(pending, Number(duplicates[0]?.total || 0) > 0 || describedDuplicate),
     })
   }
@@ -2784,7 +3235,13 @@ app.post('/api/students', wrap(async (req, res) => {
 }))
 
 app.patch('/api/students/:id', wrap(async (req, res) => {
-  const allowed = { name: 'name', email: 'email', universityId: 'university_id', year: 'year', yearId: 'year_id', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
+  // University, year and year_id are deliberately NOT editable here: a cohort
+  // change resets what progress the student sees, so it must go through
+  // POST /api/admin/users/:id/enrollment, which is editor-and-above, audited,
+  // and resets the aggregates. Persisting them here silently — as the profile
+  // dialog once did — is exactly the bug that let a cohort look changed while the
+  // record still said otherwise.
+  const allowed = { name: 'name', email: 'email', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
   const sets = [], vals = []
   for (const [k, col] of Object.entries(allowed)) if (k in (req.body || {})) { sets.push(`${col} = ?`); vals.push(req.body[k]) }
   if (sets.length) { vals.push(req.params.id); await pool.query(`UPDATE students SET ${sets.join(', ')} WHERE id = ?`, vals) }

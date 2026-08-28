@@ -3,10 +3,13 @@ import { useNavigate } from 'react-router-dom'
 import {
   StickyNote, ZoomIn, ZoomOut, Maximize, Trash2, Undo2, Redo2, PanelsTopLeft, Map as MapIcon, GripVertical,
   Search, ChevronUp, ChevronDown, X, ImagePlus, Paperclip, Pencil, Eraser, MousePointer2,
-  FileText, Download, Link2, Plus, Star, Bell, Users, Lock, Eye,
+  FileText, Download, Link2, Plus, Star, Bell, Users, Lock, Eye, Sticker, Layers, BringToFront, SendToBack,
 } from 'lucide-react'
 import { IconButton } from '@/components/ui/IconButton'
 import { Icon } from '@/components/ui/Icon'
+import { Collapse } from '@/components/ui/Collapse'
+import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
+import { SearchInput } from '@/components/ui/Field'
 import { cn } from '@/lib/cn'
 import { clamp } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
@@ -24,15 +27,19 @@ import {
   type Point, type Side,
 } from '@/lib/whiteboardGeometry'
 import {
-  FILE_H, FILE_W, IMAGE_W, INITIAL_BOARD, INK_COLOURS, INK_WIDTHS, NOTE_H, NOTE_W,
-  TONES, TONE_LABEL, TONE_ORDER, filesOf, imagesOf, inkOf, inkPath,
+  FILE_H, FILE_W, IMAGE_W, INITIAL_BOARD, INK_COLOURS, INK_WIDTHS, NOTE_H, NOTE_W, READY_ITEM_SIZE,
+  TONES, TONE_LABEL, TONE_ORDER, filesOf, imagesOf, inkOf, inkPath, readyItemsOf,
   LEGACY_WHITEBOARD_KEY, WHITEBOARD_COLLECTION_KEY,
   activeWhiteboard, addWhiteboard, createWhiteboardDocument, emptyWhiteboardCollection,
   groupWhiteboardsByTopic, migrateSingleBoardToCollection, removeWhiteboard, renameWhiteboard,
   sameAudienceSharedBoards, toggleWhiteboardFollow, toggleWhiteboardStar, updateWhiteboardState,
-  type BoardFile, type BoardImage, type BoardState, type Frame, type InkStroke, type LinkLine,
+  type BoardFile, type BoardImage, type BoardState, type Frame, type InkStroke, type LinkLine, type ReadyElement,
   type Tool, type WhiteboardCollection, type WhiteboardDocument,
 } from '@/data/whiteboard'
+import { READY_ITEMS, readyItemsByCategory, searchReadyItems, type ReadyItem } from '@/data/readyItems'
+
+/** Looked up once per placed ready item, so a render never scans the library. */
+const READY_ITEM_BY_ID = new Map(READY_ITEMS.map((item) => [item.id, item]))
 
 
 // Keyed on the ShareAccess enum — never render its raw values to a student.
@@ -52,6 +59,8 @@ type Drag =
   | { type: 'image'; id: string; sx: number; sy: number; ox: number; oy: number }
   | { type: 'image-resize'; id: string; sx: number; sy: number; ow: number; oh: number; ratio: number }
   | { type: 'file'; id: string; sx: number; sy: number; ox: number; oy: number }
+  | { type: 'readyItem'; id: string; sx: number; sy: number; ox: number; oy: number }
+  | { type: 'readyItem-resize'; id: string; sx: number; sy: number; ow: number }
   /** Drawing a freehand line. The points are collected on the ref below. */
   | { type: 'ink' }
   /** Pulling a connector out of a note's edge towards wherever it lands. */
@@ -118,8 +127,14 @@ export function Whiteboard() {
   const [tool, setTool] = useState<Tool>('select')
   const [inkColour, setInkColour] = useState<string>(INK_COLOURS[0].value)
   const [inkWidth, setInkWidth] = useState<number>(INK_WIDTHS[1])
-  /** The picture or file that is selected, if either is. */
-  const [selectedItem, setSelectedItem] = useState<{ kind: 'image' | 'file'; id: string } | null>(null)
+  /** The picture, file, or ready-made item that is selected, if any is. */
+  const [selectedItem, setSelectedItem] = useState<{ kind: 'image' | 'file' | 'readyItem'; id: string } | null>(null)
+  /** Whether the "Your boards" / "Shared" section is expanded. Collapsed by
+   * default so the board list does not compete with the board itself for
+   * space; remembered per student once they change it. */
+  const [boardsPanelOpen, setBoardsPanelOpen] = usePersistentState<boolean>('synapse.whiteboard.boardsPanelOpen', false)
+  const readyItemsTrigger = usePopoverTrigger()
+  const [readyItemQuery, setReadyItemQuery] = useState('')
   /** The line being drawn, before it is committed to the board. */
   const [drawing, setDrawing] = useState<number[] | null>(null)
   const drawingRef = useRef<number[] | null>(null)
@@ -253,6 +268,20 @@ export function Whiteboard() {
           files: filesOf(current).map((file) => file.id === active.id
             ? { ...file, ...clampToBoard({ x: active.ox + dx / scale, y: active.oy + dy / scale }, { width: FILE_W, height: FILE_H }) }
             : file),
+        }))
+      } else if (active.type === 'readyItem') {
+        setBoard((current) => ({
+          ...current,
+          readyItems: readyItemsOf(current).map((element) => element.id === active.id
+            ? { ...element, ...clampToBoard({ x: active.ox + dx / scale, y: active.oy + dy / scale }, { width: element.width, height: element.height }) }
+            : element),
+        }))
+      } else if (active.type === 'readyItem-resize') {
+        // Square icons: one dimension drives both, so nothing is ever squashed.
+        const size = Math.max(32, active.ow + dx / scale)
+        setBoard((current) => ({
+          ...current,
+          readyItems: readyItemsOf(current).map((element) => element.id === active.id ? { ...element, width: size, height: size } : element),
         }))
       } else if (active.type === 'frame-resize') {
         const wdx = dx / scale
@@ -536,14 +565,77 @@ export function Whiteboard() {
     drag.current = { type: 'file', id: file.id, sx: event.clientX, sy: event.clientY, ox: file.x, oy: file.y }
   }
 
-  /** Remove whichever picture or file is selected. */
+  /** Remove whichever picture, file, or ready-made item is selected. */
   function removeSelectedItem() {
     if (!selectedItem) return
     remember()
-    setBoard((current) => selectedItem.kind === 'image'
-      ? { ...current, images: imagesOf(current).filter((image) => image.id !== selectedItem.id) }
-      : { ...current, files: filesOf(current).filter((file) => file.id !== selectedItem.id) })
+    setBoard((current) => {
+      if (selectedItem.kind === 'image') return { ...current, images: imagesOf(current).filter((image) => image.id !== selectedItem.id) }
+      if (selectedItem.kind === 'file') return { ...current, files: filesOf(current).filter((file) => file.id !== selectedItem.id) }
+      return { ...current, readyItems: readyItemsOf(current).filter((element) => element.id !== selectedItem.id) }
+    })
     setSelectedItem(null)
+  }
+
+  function readyItemDown(event: React.PointerEvent, element: ReadyElement) {
+    if (tool !== 'select') return
+    event.stopPropagation()
+    clearSelection()
+    setSelectedItem({ kind: 'readyItem', id: element.id })
+    remember()
+    drag.current = { type: 'readyItem', id: element.id, sx: event.clientX, sy: event.clientY, ox: element.x, oy: element.y }
+  }
+
+  function readyItemResizeDown(event: React.PointerEvent, element: ReadyElement) {
+    event.stopPropagation()
+    setSelectedItem({ kind: 'readyItem', id: element.id })
+    remember()
+    drag.current = { type: 'readyItem-resize', id: element.id, sx: event.clientX, sy: event.clientY, ow: element.width }
+  }
+
+  /** Drop a ready-made item from the palette onto the middle of the view. */
+  function addReadyItem(item: ReadyItem) {
+    remember()
+    const centre = centerPoint()
+    const placed = clampToBoard(
+      { x: centre.x - READY_ITEM_SIZE / 2, y: centre.y - READY_ITEM_SIZE / 2 },
+      { width: READY_ITEM_SIZE, height: READY_ITEM_SIZE },
+    )
+    const id = `r${Date.now()}`
+    setBoard((current) => ({
+      ...current,
+      readyItems: [...readyItemsOf(current), { id, x: placed.x, y: placed.y, width: READY_ITEM_SIZE, height: READY_ITEM_SIZE, readyItemId: item.id }],
+    }))
+    clearSelection()
+    setSelectedItem({ kind: 'readyItem', id })
+    readyItemsTrigger.close()
+    setReadyItemQuery('')
+  }
+
+  /**
+   * Move the selected ready item one place forward or backward in the paint
+   * order. Later in the array paints later — on top — the same convention
+   * `noteAt` uses for notes.
+   */
+  function reorderSelectedReadyItem(direction: 1 | -1) {
+    if (!selectedItem || selectedItem.kind !== 'readyItem') return
+    remember()
+    setBoard((current) => {
+      const items = readyItemsOf(current)
+      const index = items.findIndex((element) => element.id === selectedItem.id)
+      const target = index + direction
+      if (index === -1 || target < 0 || target >= items.length) return current
+      const next = [...items]
+      const [moved] = next.splice(index, 1)
+      next.splice(target, 0, moved)
+      return { ...current, readyItems: next }
+    })
+  }
+
+  /** Whether the freehand drawing paints above or below the notes/pictures/files. */
+  function setInkAbove(next: boolean) {
+    remember()
+    setBoard((current) => ({ ...current, inkAbove: next }))
   }
 
   /** Touching a line with the eraser removes it. */
@@ -739,12 +831,14 @@ export function Whiteboard() {
       ...board.frames.flatMap((frame) => [frame.x, frame.x + frame.width]),
       ...imagesOf(board).flatMap((image) => [image.x, image.x + image.width]),
       ...filesOf(board).flatMap((file) => [file.x, file.x + FILE_W]),
+      ...readyItemsOf(board).flatMap((element) => [element.x, element.x + element.width]),
     ]
     const ys = [
       ...board.notes.flatMap((note) => [note.y, note.y + NOTE_H]),
       ...board.frames.flatMap((frame) => [frame.y, frame.y + frame.height]),
       ...imagesOf(board).flatMap((image) => [image.y, image.y + image.height]),
       ...filesOf(board).flatMap((file) => [file.y, file.y + FILE_H]),
+      ...readyItemsOf(board).flatMap((element) => [element.y, element.y + element.height]),
     ]
     return { minX: Math.min(...xs, 0) - 80, minY: Math.min(...ys, 0) - 80, maxX: Math.max(...xs, 800) + 80, maxY: Math.max(...ys, 500) + 80 }
   }, [board])
@@ -870,6 +964,62 @@ export function Whiteboard() {
     setView((current) => panViewByBoardDelta(current, move, viewportSize()))
   }
 
+  const inkAbove = board.inkAbove ?? false
+
+  /** Ready-made items grouped for the palette, filtered by the search field. */
+  const readyItemGroups = useMemo(() => {
+    const categories: Array<{ key: ReadyItem['category']; label: string }> = [
+      { key: 'people', label: t('People') },
+      { key: 'anatomy', label: t('Anatomy') },
+      { key: 'tools', label: t('Tools') },
+      { key: 'symptoms', label: t('Symptoms') },
+      { key: 'trends', label: t('Trends') },
+      { key: 'general', label: t('General') },
+    ]
+    const grouped = readyItemsByCategory()
+    const query = readyItemQuery.trim()
+    const matches = query ? new Set(searchReadyItems(query).map((item) => item.id)) : null
+    return categories
+      .map((category) => ({ ...category, items: matches ? grouped[category.key].filter((item) => matches.has(item.id)) : grouped[category.key] }))
+      .filter((category) => category.items.length > 0)
+  }, [readyItemQuery, t])
+
+  /** The freehand ink layer, positioned above or below the notes depending on `inkAbove`. */
+  const inkLayer = (
+    <svg className="pointer-events-none absolute left-0 top-0" width={BOARD.width} height={BOARD.height}>
+      {inkOf(board).map((stroke) => (
+        <g key={stroke.id}>
+          <path
+            d={inkPath(stroke.points)}
+            fill="none"
+            stroke={stroke.color}
+            strokeWidth={stroke.width}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          {/* A thin line is not something a pointer can reliably hit, so the
+              eraser aims at this instead. It only takes the pointer while the
+              eraser is the active tool. */}
+          {tool === 'eraser' && (
+            <path
+              d={inkPath(stroke.points)}
+              fill="none"
+              stroke="transparent"
+              strokeWidth={Math.max(16, stroke.width + 12)}
+              strokeLinecap="round"
+              className="pointer-events-auto cursor-pointer"
+              onPointerDown={(event) => { event.stopPropagation(); eraseStroke(stroke.id) }}
+            />
+          )}
+        </g>
+      ))}
+      {/* The line under the pen right now. */}
+      {drawing && drawing.length >= 2 && (
+        <path d={inkPath(drawing)} fill="none" stroke={inkColour} strokeWidth={inkWidth} strokeLinecap="round" strokeLinejoin="round" />
+      )}
+    </svg>
+  )
+
   return <div ref={canvasRef} onPointerDown={backgroundDown} onDoubleClick={backgroundDoubleClick} onWheel={onWheel} className="relative h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] touch-none overflow-hidden bg-paper" style={{ backgroundImage: 'radial-gradient(var(--color-grid-major) 1.2px, transparent 1.2px)', backgroundSize: `${24 * view.scale}px ${24 * view.scale}px`, backgroundPosition: `${view.x}px ${view.y}px` }}>
     <div className="absolute left-0 top-0 origin-top-left" style={{ transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }}>
       {/* The board's own edge. Drawn, because a limit you cannot see is
@@ -981,42 +1131,14 @@ export function Whiteboard() {
         })}
         {/* The connector currently being pulled, following the cursor. */}
         {pulled && <path d={pulled} fill="none" stroke="var(--color-primary)" strokeWidth={2} strokeDasharray="5 4" />}
-
-        {/* Freehand lines, in the same layer as the connectors so they sit
-            behind the notes — a diagram is annotated around what is on the
-            board, not over the top of it. */}
-        {inkOf(board).map((stroke) => (
-          <g key={stroke.id}>
-            <path
-              d={inkPath(stroke.points)}
-              fill="none"
-              stroke={stroke.color}
-              strokeWidth={stroke.width}
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            {/* A thin line is not something a pointer can reliably hit, so the
-                eraser aims at this instead. It only takes the pointer while the
-                eraser is the active tool. */}
-            {tool === 'eraser' && (
-              <path
-                d={inkPath(stroke.points)}
-                fill="none"
-                stroke="transparent"
-                strokeWidth={Math.max(16, stroke.width + 12)}
-                strokeLinecap="round"
-                className="pointer-events-auto cursor-pointer"
-                onPointerDown={(event) => { event.stopPropagation(); eraseStroke(stroke.id) }}
-              />
-            )}
-          </g>
-        ))}
-
-        {/* The line under the pen right now. */}
-        {drawing && drawing.length >= 2 && (
-          <path d={inkPath(drawing)} fill="none" stroke={inkColour} strokeWidth={inkWidth} strokeLinecap="round" strokeLinejoin="round" />
-        )}
       </svg>
+
+      {/* The freehand drawing, under the notes/pictures/files/ready items by
+          default — a diagram is annotated around what is on the board, not
+          over the top of it — unless the student turned on "drawing above
+          notes", in which case the same layer paints after everything else
+          below instead. */}
+      {!inkAbove && inkLayer}
 
       {/* Pictures, under the notes: a sticky note annotating a diagram has to
           sit on top of it. */}
@@ -1079,6 +1201,40 @@ export function Whiteboard() {
                 {file.kind === 'pdf' ? t('Open in the reader') : t('Download')}
               </button>
             </span>
+          </div>
+        )
+      })}
+
+      {/* Ready-made items dropped from the palette: sit above pictures and
+          files like the sticker they are, but under the notes. Order within
+          `readyItems` is the stacking order among ready items themselves,
+          controlled by the selected item's forward/backward controls. */}
+      {readyItemsOf(board).map((element) => {
+        const item = READY_ITEM_BY_ID.get(element.readyItemId)
+        if (!item) return null
+        const isSelected = selectedItem?.kind === 'readyItem' && selectedItem.id === element.id
+        return (
+          <div
+            key={element.id}
+            onPointerDown={(event) => readyItemDown(event, element)}
+            onDoubleClick={(event) => event.stopPropagation()}
+            title={t(item.label)}
+            className={cn(
+              'group absolute grid place-items-center rounded-lg border bg-surface/70 p-1.5 shadow-panel',
+              tool === 'select' ? 'cursor-grab active:cursor-grabbing' : 'pointer-events-none',
+              isSelected ? 'border-primary ring-2 ring-primary ring-offset-1 ring-offset-paper' : 'border-transparent',
+            )}
+            style={{ left: element.x, top: element.y, width: element.width, height: element.height }}
+          >
+            <item.Svg className="size-full text-ink-2" />
+            {tool === 'select' && (
+              <span
+                onPointerDown={(event) => readyItemResizeDown(event, element)}
+                role="presentation"
+                aria-label={t('Resize item')}
+                className="absolute -bottom-1.5 -right-1.5 size-4 cursor-nwse-resize rounded-sm border border-line-2 bg-surface opacity-0 shadow-panel transition-opacity group-hover:opacity-100 rtl:-left-1.5 rtl:right-auto rtl:cursor-nesw-resize"
+              />
+            )}
           </div>
         )
       })}
@@ -1157,214 +1313,304 @@ export function Whiteboard() {
           ))}
         </div>
       ))}
+
+      {/* The drawing again, this time painted last — on top of everything —
+          when the student has chosen to draw over the notes instead of under
+          them. Only one of the two copies is ever mounted. */}
+      {inkAbove && inkLayer}
     </div>
 
-    <div className="absolute left-2 right-2 top-2 rounded-xl border border-line bg-surface p-2 shadow-raised sm:left-4 sm:right-auto sm:w-[28rem]" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
-      <div className="mb-2 flex items-center gap-1">
-        {(['your', 'shared'] as const).map((mode) => (
-          <button
-            key={mode}
-            type="button"
-            onClick={() => setViewMode(mode)}
-            className={cn(
-              'rounded-lg px-3 py-1.5 text-[12px] font-semibold transition-colors',
-              viewMode === mode ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
-            )}
-          >
-            {mode === 'your' ? t('Your boards') : t('Shared')}
-          </button>
-        ))}
-        <IconButton icon={Plus} label={t('New board')} size="sm" variant="surface" className="ms-auto" onClick={createBoard} />
-      </div>
-
-      {viewMode === 'your' ? (
-        <>
-          <div className="flex gap-1 overflow-x-auto overscroll-x-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            {collection.boards.map((entry) => (
-              <div key={entry.id} className={cn('flex shrink-0 items-center gap-1 rounded-lg border px-2 py-1', entry.id === activeBoardId ? 'border-primary bg-primary-tint' : 'border-line bg-surface-2')}>
-                {renamingBoard === entry.id ? (
-                  <input
-                    autoFocus
-                    defaultValue={entry.title}
-                    onBlur={(event) => renameActiveBoard(event.target.value)}
-                    onKeyDown={(event) => {
-                      if (event.key === 'Enter') (event.target as HTMLInputElement).blur()
-                      if (event.key === 'Escape') setRenamingBoard(null)
-                    }}
-                    className="w-36 bg-transparent text-[12.5px] font-semibold text-ink outline-none"
-                  />
-                ) : (
-                  <button type="button" onClick={() => switchBoard(entry.id)} onDoubleClick={() => setRenamingBoard(entry.id)} className="max-w-40 truncate text-[12.5px] font-semibold text-ink">
-                    {entry.title}
-                  </button>
-                )}
-                <span className="tnum font-mono text-[10.5px] text-ink-3">r{entry.revision}</span>
-              </div>
-            ))}
-            {collection.boards.length > 1 && (
-              <IconButton icon={Trash2} label={t('Delete current board')} size="sm" onClick={deleteActiveBoard} />
-            )}
-          </div>
-          <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
-            <span className="inline-flex items-center gap-1"><Icon icon={Lock} size={11} />{t('Owner')}</span>
-            <span>{activeBoard.ownerName}</span>
-            <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{activeBoard.collaborators.length} {t('collaborators')}</span>
-          </div>
-        </>
-      ) : API_MODE ? (
-        <div className="max-h-52 overflow-auto pr-1">
-          {sharedWhiteboards.loading ? (
-            <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">{t('Opening shared boards…')}</p>
-          ) : sharedWhiteboards.error ? (
-            <p role="alert" className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-danger">{t(sharedWhiteboards.error)}</p>
-          ) : liveSharedGroups.length === 0 ? (
-            <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
-              {t('No same-university/year whiteboards have been shared with you yet.')}
-            </p>
-          ) : (
-            <div className="space-y-3">
-              {liveSharedGroups.map((group) => (
-                <section key={group.topic}>
-                  <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
-                  <div className="space-y-1">
-                    {group.boards.map((item) => (
-                      <div key={item.id} className="rounded-lg border border-line bg-surface-2 p-2">
-                        <div className="flex items-start gap-2">
-                          <button type="button" className="min-w-0 flex-1 text-start" onClick={() => navigate(`/s/${item.id}`)}>
-                            <span className="block truncate text-[12.5px] font-semibold text-ink">{item.title}</span>
-                            <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
-                              <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{item.starCount ?? 0}</span>
-                              {item.collaborators?.length ? <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{item.collaborators.length}</span> : null}
-                              <span className="inline-flex items-center gap-1"><Icon icon={(item.permission ?? item.access) === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[item.permission ?? item.access] ?? (item.permission ?? item.access))}</span>
-                              <span>{item.ownerName ?? t('A classmate')}</span>
-                            </span>
-                          </button>
-                          <IconButton icon={Star} label={t('Star board')} size="sm" active={Boolean(item.starred)} onClick={() => void toggleSharedBoardStar(item)} />
-                          <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={Boolean(item.following)} onClick={() => void toggleSharedBoardFollow(item)} />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </div>
-          )}
-        </div>
-      ) : (
-        <div className="max-h-52 overflow-auto pr-1">
-          {sharedGroups.length === 0 ? (
-            <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
-              {t('No same-university/year whiteboards have been shared with you yet.')}
-            </p>
-          ) : (
-            <div className="space-y-3">
-              {sharedGroups.map((group) => (
-                <section key={group.topic}>
-                  <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
-                  <div className="space-y-1">
-                    {group.boards.map((entry) => (
-                      <div key={entry.id} className="rounded-lg border border-line bg-surface-2 p-2">
-                        <div className="flex items-start gap-2">
-                          <button type="button" className="min-w-0 flex-1 text-start" onClick={() => setCollection((current) => ({ ...current, activeBoardId: current.activeBoardId }))}>
-                            <span className="block truncate text-[12.5px] font-semibold text-ink">{entry.title}</span>
-                            <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
-                              <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{entry.stars.length}</span>
-                              <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{entry.collaborators.length}</span>
-                              <span className="inline-flex items-center gap-1"><Icon icon={entry.permission === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[entry.permission] ?? entry.permission)}</span>
-                              <span>{entry.ownerName}</span>
-                            </span>
-                          </button>
-                          <IconButton icon={Star} label={t('Star board')} size="sm" active={entry.stars.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardStar(board, studentId))} />
-                          <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={entry.follows.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardFollow(board, studentId))} />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </section>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-    </div>
-
-    <div className="absolute left-2 right-2 top-[7.5rem] flex items-center gap-1 overflow-x-auto overscroll-x-contain rounded-xl border border-line bg-surface p-1 shadow-raised [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:left-4 sm:right-auto sm:top-[7.75rem]" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
-      <IconButton icon={MousePointer2} label={t('Move and select')} active={tool === 'select'} onClick={() => setTool('select')} />
-      <IconButton icon={Pencil} label={t('Draw freehand')} active={tool === 'pen'} onClick={() => setTool('pen')} />
-      <IconButton icon={Eraser} label={t('Erase a line')} active={tool === 'eraser'} onClick={() => setTool('eraser')} />
-      {tool === 'pen' && (
-        <>
-          {INK_COLOURS.map((colour) => (
+    {/* Everything that used to be two independently-positioned floating bars
+        — the board list and the tool controls — now lives in one flowing
+        stack, so a taller board list simply pushes the toolbar down instead
+        of running under it. Each region keeps its own card so the two stay
+        visually distinct. */}
+    <div className="absolute left-2 right-2 top-2 z-10 flex flex-col items-stretch gap-2 sm:left-4 sm:right-auto sm:w-[28rem]" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
+      <div className="rounded-xl border border-line bg-surface shadow-raised">
+        <div className="flex items-center gap-1 p-2">
+          {(['your', 'shared'] as const).map((mode) => (
             <button
-              key={colour.id}
+              key={mode}
               type="button"
-              onClick={() => setInkColour(colour.value)}
-              aria-label={t(colour.id)}
-              aria-pressed={inkColour === colour.value}
-              className={cn('size-6 shrink-0 rounded-full border transition-transform hover:scale-110', inkColour === colour.value ? 'border-primary ring-2 ring-primary/40' : 'border-line')}
-              style={{ backgroundColor: colour.value }}
-            />
-          ))}
-          {INK_WIDTHS.map((width) => (
-            <button
-              key={width}
-              type="button"
-              onClick={() => setInkWidth(width)}
-              aria-label={`${t('Line width')} ${width}`}
-              aria-pressed={inkWidth === width}
-              className={cn('grid size-7 shrink-0 place-items-center rounded-md transition-colors', inkWidth === width ? 'bg-primary-tint' : 'hover:bg-inset')}
+              onClick={() => { setViewMode(mode); setBoardsPanelOpen(true) }}
+              className={cn(
+                'rounded-lg px-3 py-1.5 text-[12px] font-semibold transition-colors',
+                viewMode === mode ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
+              )}
             >
-              <span className="rounded-full bg-ink" style={{ width: width + 4, height: width }} />
+              {mode === 'your' ? t('Your boards') : t('Shared')}
             </button>
           ))}
-        </>
+          <IconButton icon={Plus} label={t('New board')} size="sm" variant="surface" className="ms-auto" onClick={createBoard} />
+          <IconButton
+            icon={boardsPanelOpen ? ChevronUp : ChevronDown}
+            label={boardsPanelOpen ? t('Collapse the board list') : t('Expand the board list')}
+            size="sm"
+            active={boardsPanelOpen}
+            aria-expanded={boardsPanelOpen}
+            onClick={() => setBoardsPanelOpen((open) => !open)}
+          />
+        </div>
+
+        <Collapse open={boardsPanelOpen}>
+          <div className="border-t border-line p-2 pt-2">
+            {viewMode === 'your' ? (
+              <>
+                <div className="flex gap-1 overflow-x-auto overscroll-x-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                  {collection.boards.map((entry) => (
+                    <div key={entry.id} className={cn('flex shrink-0 items-center gap-1 rounded-lg border px-2 py-1', entry.id === activeBoardId ? 'border-primary bg-primary-tint' : 'border-line bg-surface-2')}>
+                      {renamingBoard === entry.id ? (
+                        <input
+                          autoFocus
+                          defaultValue={entry.title}
+                          onBlur={(event) => renameActiveBoard(event.target.value)}
+                          onKeyDown={(event) => {
+                            if (event.key === 'Enter') (event.target as HTMLInputElement).blur()
+                            if (event.key === 'Escape') setRenamingBoard(null)
+                          }}
+                          className="w-36 bg-transparent text-[12.5px] font-semibold text-ink outline-none"
+                        />
+                      ) : (
+                        <button type="button" onClick={() => switchBoard(entry.id)} onDoubleClick={() => setRenamingBoard(entry.id)} className="max-w-40 truncate text-[12.5px] font-semibold text-ink">
+                          {entry.title}
+                        </button>
+                      )}
+                      <span className="tnum font-mono text-[10.5px] text-ink-3">r{entry.revision}</span>
+                    </div>
+                  ))}
+                  {collection.boards.length > 1 && (
+                    <IconButton icon={Trash2} label={t('Delete current board')} size="sm" onClick={deleteActiveBoard} />
+                  )}
+                </div>
+                <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                  <span className="inline-flex items-center gap-1"><Icon icon={Lock} size={11} />{t('Owner')}</span>
+                  <span>{activeBoard.ownerName}</span>
+                  <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{activeBoard.collaborators.length} {t('collaborators')}</span>
+                </div>
+              </>
+            ) : API_MODE ? (
+              <div className="max-h-52 overflow-auto pr-1">
+                {sharedWhiteboards.loading ? (
+                  <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">{t('Opening shared boards…')}</p>
+                ) : sharedWhiteboards.error ? (
+                  <p role="alert" className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-danger">{t(sharedWhiteboards.error)}</p>
+                ) : liveSharedGroups.length === 0 ? (
+                  <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
+                    {t('No same-university/year whiteboards have been shared with you yet.')}
+                  </p>
+                ) : (
+                  <div className="space-y-3">
+                    {liveSharedGroups.map((group) => (
+                      <section key={group.topic}>
+                        <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
+                        <div className="space-y-1">
+                          {group.boards.map((item) => (
+                            <div key={item.id} className="rounded-lg border border-line bg-surface-2 p-2">
+                              <div className="flex items-start gap-2">
+                                <button type="button" className="min-w-0 flex-1 text-start" onClick={() => navigate(`/s/${item.id}`)}>
+                                  <span className="block truncate text-[12.5px] font-semibold text-ink">{item.title}</span>
+                                  <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                                    <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{item.starCount ?? 0}</span>
+                                    {item.collaborators?.length ? <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{item.collaborators.length}</span> : null}
+                                    <span className="inline-flex items-center gap-1"><Icon icon={(item.permission ?? item.access) === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[item.permission ?? item.access] ?? (item.permission ?? item.access))}</span>
+                                    <span>{item.ownerName ?? t('A classmate')}</span>
+                                  </span>
+                                </button>
+                                <IconButton icon={Star} label={t('Star board')} size="sm" active={Boolean(item.starred)} onClick={() => void toggleSharedBoardStar(item)} />
+                                <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={Boolean(item.following)} onClick={() => void toggleSharedBoardFollow(item)} />
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="max-h-52 overflow-auto pr-1">
+                {sharedGroups.length === 0 ? (
+                  <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
+                    {t('No same-university/year whiteboards have been shared with you yet.')}
+                  </p>
+                ) : (
+                  <div className="space-y-3">
+                    {sharedGroups.map((group) => (
+                      <section key={group.topic}>
+                        <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
+                        <div className="space-y-1">
+                          {group.boards.map((entry) => (
+                            <div key={entry.id} className="rounded-lg border border-line bg-surface-2 p-2">
+                              <div className="flex items-start gap-2">
+                                <button type="button" className="min-w-0 flex-1 text-start" onClick={() => setCollection((current) => ({ ...current, activeBoardId: current.activeBoardId }))}>
+                                  <span className="block truncate text-[12.5px] font-semibold text-ink">{entry.title}</span>
+                                  <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                                    <span className="inline-flex items-center gap-1"><Icon icon={Star} size={11} />{entry.stars.length}</span>
+                                    <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{entry.collaborators.length}</span>
+                                    <span className="inline-flex items-center gap-1"><Icon icon={entry.permission === 'edit' ? Pencil : Eye} size={11} />{t(SHARE_ACCESS_LABEL[entry.permission] ?? entry.permission)}</span>
+                                    <span>{entry.ownerName}</span>
+                                  </span>
+                                </button>
+                                <IconButton icon={Star} label={t('Star board')} size="sm" active={entry.stars.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardStar(board, studentId))} />
+                                <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={entry.follows.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardFollow(board, studentId))} />
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </section>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+        </Collapse>
+      </div>
+
+      <div className="flex items-center gap-1 overflow-x-auto overscroll-x-contain rounded-xl border border-line bg-surface p-1 shadow-raised [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <IconButton icon={MousePointer2} label={t('Move and select')} active={tool === 'select'} onClick={() => setTool('select')} />
+        <IconButton icon={Pencil} label={t('Draw freehand')} active={tool === 'pen'} onClick={() => setTool('pen')} />
+        <IconButton icon={Eraser} label={t('Erase a line')} active={tool === 'eraser'} onClick={() => setTool('eraser')} />
+        {tool === 'pen' && (
+          <>
+            {INK_COLOURS.map((colour) => (
+              <button
+                key={colour.id}
+                type="button"
+                onClick={() => setInkColour(colour.value)}
+                aria-label={t(colour.id)}
+                aria-pressed={inkColour === colour.value}
+                className={cn('size-6 shrink-0 rounded-full border transition-transform hover:scale-110', inkColour === colour.value ? 'border-primary ring-2 ring-primary/40' : 'border-line')}
+                style={{ backgroundColor: colour.value }}
+              />
+            ))}
+            {INK_WIDTHS.map((width) => (
+              <button
+                key={width}
+                type="button"
+                onClick={() => setInkWidth(width)}
+                aria-label={`${t('Line width')} ${width}`}
+                aria-pressed={inkWidth === width}
+                className={cn('grid size-7 shrink-0 place-items-center rounded-md transition-colors', inkWidth === width ? 'bg-primary-tint' : 'hover:bg-inset')}
+              >
+                <span className="rounded-full bg-ink" style={{ width: width + 4, height: width }} />
+              </button>
+            ))}
+          </>
+        )}
+        <IconButton
+          icon={Layers}
+          label={inkAbove ? t('Drawing is above the notes — click to send it under') : t('Drawing is under the notes — click to bring it above')}
+          active={inkAbove}
+          onClick={() => setInkAbove(!inkAbove)}
+        />
+        <span className="mx-1 h-5 w-px bg-line" />
+        <IconButton icon={StickyNote} label={t('Add note')} onClick={addNote} />
+        <IconButton icon={PanelsTopLeft} label={t('Add section')} onClick={addFrame} />
+        <IconButton icon={ImagePlus} label={attaching === 'image' ? t('Adding the picture…') : t('Add a picture')} disabled={attaching !== null} onClick={() => pictureInput.current?.click()} />
+        <IconButton icon={Paperclip} label={attaching === 'file' ? t('Adding the file…') : t('Attach a file')} disabled={attaching !== null} onClick={() => fileInput.current?.click()} />
+        <span ref={readyItemsTrigger.setAnchor} className="shrink-0">
+          <IconButton icon={Sticker} label={t('Add a ready-made item')} active={readyItemsTrigger.open} onClick={readyItemsTrigger.toggle} />
+        </span>
+        <IconButton icon={Search} label={t('Search the board')} active={searchOpen} onClick={() => setSearchOpen((open) => !open)} />
+        <IconButton icon={Link2} label={t('Share this board')} onClick={() => setSharing(true)} />
+        <span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Undo2} label={t('Undo')} onClick={undo} /><IconButton icon={Redo2} label={t('Redo')} onClick={redo} /><span className="mx-1 h-5 w-px bg-line" />
+        <IconButton icon={ZoomOut} label={t('Zoom out')} onClick={() => zoomBy(0.8)} /><span className="tnum w-11 text-center font-mono text-[12px] text-ink-2">{Math.round(view.scale * 100)}%</span><IconButton icon={ZoomIn} label={t('Zoom in')} onClick={() => zoomBy(1.25)} /><IconButton icon={Maximize} label={t('Fit board to screen')} onClick={fitContent} />
+        {selected && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete note')} onClick={removeSelected} /></>}
+        {selectedItem && (
+          <>
+            <span className="mx-1 h-5 w-px bg-line" />
+            {selectedItem.kind === 'readyItem' && (
+              <>
+                <IconButton icon={SendToBack} label={t('Send backward')} onClick={() => reorderSelectedReadyItem(-1)} />
+                <IconButton icon={BringToFront} label={t('Bring forward')} onClick={() => reorderSelectedReadyItem(1)} />
+              </>
+            )}
+            <IconButton
+              icon={Trash2}
+              label={selectedItem.kind === 'image' ? t('Delete picture') : selectedItem.kind === 'file' ? t('Remove this file from the board') : t('Delete item')}
+              onClick={removeSelectedItem}
+            />
+          </>
+        )}
+        {selectedFrame && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete section')} onClick={removeFrame} /></>}
+        {selectedLink && (
+          <>
+            <span className="mx-1 h-5 w-px bg-line" />
+            <button type="button" onClick={straightenSelectedLink} className="whitespace-nowrap rounded-md px-2 py-1.5 text-[12px] font-medium text-ink-2 hover:bg-inset hover:text-ink">{t('Straighten')}</button>
+            <IconButton icon={Trash2} label={t('Delete connection')} onClick={removeSelectedLink} />
+          </>
+        )}
+      </div>
+
+      {searchOpen && (
+        <div className="flex items-center gap-1.5 rounded-xl border border-line bg-surface p-1.5 shadow-raised">
+          <Icon icon={Search} size={14} className="ms-1 shrink-0 text-ink-3" />
+          <input
+            ref={searchRef}
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter') { event.preventDefault(); goToHit(event.shiftKey ? hitIndex - 1 : hitIndex + 1) }
+              if (event.key === 'Escape') { setSearchOpen(false); setQuery('') }
+            }}
+            placeholder={t('Find a note…')}
+            className="min-w-0 flex-1 bg-transparent text-[13px] text-ink outline-none placeholder:text-ink-3"
+          />
+          <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">
+            {query ? `${hits.length ? hitIndex + 1 : 0}/${hits.length}` : ''}
+          </span>
+          <IconButton icon={ChevronUp} label={t('Previous match')} size="sm" onClick={() => goToHit(hitIndex - 1)} />
+          <IconButton icon={ChevronDown} label={t('Next match')} size="sm" onClick={() => goToHit(hitIndex + 1)} />
+          <IconButton icon={X} label={t('Close')} size="sm" onClick={() => { setSearchOpen(false); setQuery('') }} />
+        </div>
       )}
-      <span className="mx-1 h-5 w-px bg-line" />
-      <IconButton icon={StickyNote} label={t('Add note')} onClick={addNote} />
-      <IconButton icon={PanelsTopLeft} label={t('Add section')} onClick={addFrame} />
-      <IconButton icon={ImagePlus} label={attaching === 'image' ? t('Adding the picture…') : t('Add a picture')} disabled={attaching !== null} onClick={() => pictureInput.current?.click()} />
-      <IconButton icon={Paperclip} label={attaching === 'file' ? t('Adding the file…') : t('Attach a file')} disabled={attaching !== null} onClick={() => fileInput.current?.click()} />
-      <IconButton icon={Search} label={t('Search the board')} active={searchOpen} onClick={() => setSearchOpen((open) => !open)} />
-      <IconButton icon={Link2} label={t('Share this board')} onClick={() => setSharing(true)} />
-      <span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Undo2} label={t('Undo')} onClick={undo} /><IconButton icon={Redo2} label={t('Redo')} onClick={redo} /><span className="mx-1 h-5 w-px bg-line" />
-      <IconButton icon={ZoomOut} label={t('Zoom out')} onClick={() => zoomBy(0.8)} /><span className="tnum w-11 text-center font-mono text-[12px] text-ink-2">{Math.round(view.scale * 100)}%</span><IconButton icon={ZoomIn} label={t('Zoom in')} onClick={() => zoomBy(1.25)} /><IconButton icon={Maximize} label={t('Fit board to screen')} onClick={fitContent} />
-      {selected && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete note')} onClick={removeSelected} /></>}
-      {selectedItem && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={selectedItem.kind === 'image' ? t('Delete picture') : t('Remove this file from the board')} onClick={removeSelectedItem} /></>}
-      {selectedFrame && <><span className="mx-1 h-5 w-px bg-line" /><IconButton icon={Trash2} label={t('Delete section')} onClick={removeFrame} /></>}
-      {selectedLink && (
-        <>
-          <span className="mx-1 h-5 w-px bg-line" />
-          <button type="button" onClick={straightenSelectedLink} className="whitespace-nowrap rounded-md px-2 py-1.5 text-[12px] font-medium text-ink-2 hover:bg-inset hover:text-ink">{t('Straighten')}</button>
-          <IconButton icon={Trash2} label={t('Delete connection')} onClick={removeSelectedLink} />
-        </>
+
+      {attachError && (
+        <p role="alert" className="rounded-lg border border-danger/30 bg-danger-tint px-3 py-2 text-[12.5px] text-danger">
+          {attachError}
+          <button type="button" onClick={() => setAttachError('')} className="ms-2 font-semibold underline">{t('Dismiss')}</button>
+        </p>
       )}
     </div>
 
-    {searchOpen && (
-      <div
-        className="absolute inset-x-2 top-[3.75rem] flex items-center gap-1.5 rounded-xl border border-line bg-surface p-1.5 shadow-raised sm:inset-x-auto sm:start-4 sm:top-[4.25rem] sm:w-80"
-        onPointerDown={(event) => event.stopPropagation()}
-        onDoubleClick={(event) => event.stopPropagation()}
-      >
-        <Icon icon={Search} size={14} className="ms-1 shrink-0 text-ink-3" />
-        <input
-          ref={searchRef}
-          value={query}
-          onChange={(event) => setQuery(event.target.value)}
-          onKeyDown={(event) => {
-            if (event.key === 'Enter') { event.preventDefault(); goToHit(event.shiftKey ? hitIndex - 1 : hitIndex + 1) }
-            if (event.key === 'Escape') { setSearchOpen(false); setQuery('') }
-          }}
-          placeholder={t('Find a note…')}
-          className="min-w-0 flex-1 bg-transparent text-[13px] text-ink outline-none placeholder:text-ink-3"
-        />
-        <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">
-          {query ? `${hits.length ? hitIndex + 1 : 0}/${hits.length}` : ''}
-        </span>
-        <IconButton icon={ChevronUp} label={t('Previous match')} size="sm" onClick={() => goToHit(hitIndex - 1)} />
-        <IconButton icon={ChevronDown} label={t('Next match')} size="sm" onClick={() => goToHit(hitIndex + 1)} />
-        <IconButton icon={X} label={t('Close')} size="sm" onClick={() => { setSearchOpen(false); setQuery('') }} />
-      </div>
+    {readyItemsTrigger.open && (
+      <Popover anchor={readyItemsTrigger.anchor} onClose={readyItemsTrigger.close} label={t('Ready-made items')} className="w-72">
+        <div className="border-b border-line p-2.5">
+          <SearchInput
+            aria-label={t('Search ready-made items')}
+            value={readyItemQuery}
+            onChange={(event) => setReadyItemQuery(event.target.value)}
+            placeholder={t('Search items…')}
+            className="w-full"
+          />
+        </div>
+        <div className="max-h-80 overflow-y-auto p-1.5">
+          {readyItemGroups.length === 0 ? (
+            <p className="px-3 py-6 text-center text-[12.5px] text-ink-3">{t('No matching items.')}</p>
+          ) : (
+            readyItemGroups.map((group) => (
+              <div key={group.key} className="pb-2">
+                <p className="px-1.5 py-1 text-[10px] font-semibold uppercase tracking-[0.07em] text-ink-3">{group.label}</p>
+                <div className="grid grid-cols-4 gap-1">
+                  {group.items.map((item) => (
+                    <button
+                      key={item.id}
+                      type="button"
+                      title={t(item.label)}
+                      onClick={() => addReadyItem(item)}
+                      className="flex flex-col items-center gap-1 rounded-lg p-1.5 text-ink-2 hover:bg-inset hover:text-ink"
+                    >
+                      <item.Svg className="size-6" />
+                      <span className="w-full truncate text-center text-[10px] leading-tight">{t(item.label)}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      </Popover>
     )}
 
     {/* A copy of the board, published under its own link. Read when the dialog
@@ -1394,17 +1640,6 @@ export function Whiteboard() {
       className="sr-only"
       onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; if (file) void addFile(file) }}
     />
-
-    {attachError && (
-      <p
-        role="alert"
-        onPointerDown={(event) => event.stopPropagation()}
-        className="absolute inset-x-2 top-[3.75rem] rounded-lg border border-danger/30 bg-danger-tint px-3 py-2 text-[12.5px] text-danger sm:inset-x-auto sm:start-4 sm:top-[4.25rem] sm:max-w-sm"
-      >
-        {attachError}
-        <button type="button" onClick={() => setAttachError('')} className="ms-2 font-semibold underline">{t('Dismiss')}</button>
-      </p>
-    )}
 
     <div className="absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom))] right-3 overflow-hidden rounded-xl border border-line bg-surface/95 p-2 shadow-raised sm:bottom-4 sm:right-4" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()} aria-label={t('Board minimap')}>
       <div className="mb-1 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={MapIcon} size={12} />{t('World view')}</div>

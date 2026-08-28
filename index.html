@@ -12,10 +12,10 @@
       (function () {
         try {
           var t = localStorage.getItem('synapse-theme');
-          if (t !== 'light' && t !== 'warm' && t !== 'dark') t = 'light';
+          if (t !== 'light' && t !== 'warm' && t !== 'dark' && t !== 'oled') t = 'light';
           document.documentElement.dataset.theme = t;
           var m = document.querySelector('meta[name="theme-color"]');
-          if (m) m.setAttribute('content', { light: '#f5f7fb', warm: '#f7f2ea', dark: '#0d1117' }[t]);
+          if (m) m.setAttribute('content', { light: '#f5f7fb', warm: '#f7f2ea', dark: '#0d1117', oled: '#000000' }[t]);
         } catch (e) {
           document.documentElement.dataset.theme = 'light';
         }

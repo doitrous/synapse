@@ -99,7 +99,13 @@ struct MeResponse: Decodable, Equatable {
 }
 
 /// The signed-in student, as the server sees them.
-struct SessionUser: Decodable, Equatable {
+///
+/// `Codable`, not just `Decodable`: `KeychainSessionUserCache` round-trips
+/// one of these through the Keychain so a restore with no network can still
+/// say who was signed in last (`AuthModel.restoreFromCache`). Nothing here
+/// is ever encoded for the wire -- the server only ever sends this shape,
+/// never receives it.
+struct SessionUser: Codable, Equatable {
     let id: String
     let email: String?
     let role: String

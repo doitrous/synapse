@@ -37,8 +37,24 @@ export interface Note {
    * `my:<id>`; one field addresses both kinds because the reader does.
    */
   resourceRefs?: NoteResourceRef[]
+  /** Freehand ink drawn over (or under) the note body from the Draw tab. Optional and additive. */
+  drawing?: NoteDrawing
   /** ISO timestamp of the last edit. */
   updatedAt: string
+}
+
+/** A single freehand stroke: a flat list of [x, y, x, y, …] points in editor-surface pixels. */
+export interface NoteDrawStroke {
+  points: number[]
+  color: string
+  width: number
+}
+
+/** The note's ink layer and where it sits relative to the typed text. */
+export interface NoteDrawing {
+  strokes: NoteDrawStroke[]
+  /** `over` paints the ink above the text, `under` behind it. */
+  placement: 'over' | 'under'
 }
 
 export interface NotebookEditorJson {
@@ -140,4 +156,29 @@ export function ensureNotebookEditor(note: Note): Note {
 export function editorJsonFromPlainText(text: string, previous?: NotebookEditorJson): NotebookEditorJson {
   void previous
   return plainTextToEditorJson(text)
+}
+
+/** Whitespace-separated word count, the same measure a word processor's status bar uses. */
+export function notebookWordCount(text: string): number {
+  const trimmed = text.trim()
+  if (!trimmed) return 0
+  return trimmed.split(/\s+/).length
+}
+
+/**
+ * Media embedded *inside* the note body — an inline image, a table, an
+ * embed. Nothing does this yet (the Insert tab is still a stub; see
+ * `docs/HANDOFF-notebook.md`), so this walks the tree for any node type
+ * whose name mentions image/embed/media, which starts counting the moment a
+ * future decorator node is registered without this needing to change.
+ */
+export function notebookEmbeddedMediaCount(editorJson: NotebookEditorJson | undefined): number {
+  if (!editorJson?.root?.children?.length) return 0
+  let count = 0
+  const walk = (node: NotebookEditorNode) => {
+    if (typeof node.type === 'string' && /image|embed|media/i.test(node.type)) count += 1
+    node.children?.forEach(walk)
+  }
+  editorJson.root.children.forEach(walk)
+  return count
 }

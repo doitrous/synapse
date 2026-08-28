@@ -7,6 +7,7 @@ import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
 import { supabase } from '@/lib/supabase'
+import { portalHome } from '@/lib/portalHost'
 import { authErrorMessage } from './authMessages'
 
 type Enrollment = { factorId: string; qrCode: string; secret: string; uri: string }
@@ -30,9 +31,10 @@ function qrSource(qrCode: string): string {
 export function MfaSetup() {
   const navigate = useNavigate()
   const [params] = useSearchParams()
-  // Only an in-app path, for the same reason as on the sign-in form.
+  // Only an in-app path, and only this origin's home as the fallback, for the
+  // same two reasons as on the sign-in form.
   const nextParam = params.get('next')
-  const next = nextParam && nextParam.startsWith('/') && !nextParam.startsWith('//') ? nextParam : '/app'
+  const next = nextParam && nextParam.startsWith('/') && !nextParam.startsWith('//') ? nextParam : portalHome()
   const [enrollment, setEnrollment] = useState<Enrollment | null>(null)
   const [code, setCode] = useState('')
   const [loading, setLoading] = useState(true)

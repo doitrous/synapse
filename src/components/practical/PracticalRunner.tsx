@@ -16,7 +16,7 @@ import {
   Flag,
   ExternalLink,
 } from 'lucide-react'
-import { getOsceDetail, getCaseDetail, getLabDetail } from '@/data/practicalContent'
+import { getOsceDetail, getCaseDetail, getLabDetail, type Vitals } from '@/data/practicalContent'
 import { getSubject } from '@/data/subjects'
 import { Panel } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -29,6 +29,7 @@ import { useMastery } from '@/lib/useMastery'
 import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem, type PracticalAuthoringData } from '@/data/contentControl'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
+import { useLivePracticals } from '@/lib/useLivePracticals'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { DIFFICULTIES } from '@/data/qbank'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
@@ -452,6 +453,49 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 
 /* ---- Case runner ------------------------------------------------------- */
 
+/**
+ * The presenting observations for a case, shown beside the decisions as a
+ * bedside reference. Units are fixed by convention; a vital the author flagged
+ * in `abnormal` reads in the danger colour. Renders nothing without vitals.
+ */
+type VitalKey = 'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'
+const VITAL_ROWS: Array<{ key: VitalKey; label: string; unit: string }> = [
+  { key: 'hr', label: 'HR', unit: 'bpm' },
+  { key: 'bp', label: 'BP', unit: 'mmHg' },
+  { key: 'rr', label: 'RR', unit: '/min' },
+  { key: 'spo2', label: 'SpO₂', unit: '%' },
+  { key: 'temp', label: 'Temp', unit: '°C' },
+  { key: 'gcs', label: 'GCS', unit: '/15' },
+  { key: 'glucose', label: 'Glucose', unit: 'mmol/L' },
+]
+
+function VitalsStrip({ vitals }: { vitals: Vitals }) {
+  const abnormal = new Set(vitals.abnormal ?? [])
+  const rows = VITAL_ROWS.filter((row) => vitals[row.key] != null)
+  if (!rows.length) return null
+  return (
+    <Panel className="p-4">
+      <div className="flex items-baseline justify-between gap-2">
+        <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Observations</h3>
+        {vitals.note && <span className="text-[10.5px] text-ink-3">{vitals.note}</span>}
+      </div>
+      <dl className="mt-3 grid grid-cols-2 gap-2">
+        {rows.map((row) => {
+          const bad = abnormal.has(row.key)
+          return (
+            <div key={row.key} className={cn('rounded-md border px-2.5 py-1.5', bad ? 'border-danger/30 bg-danger-tint/50' : 'border-line bg-surface-2/40')}>
+              <dt className="text-[10px] font-medium uppercase tracking-[0.06em] text-ink-3">{row.label}</dt>
+              <dd className={cn('tnum mt-0.5 font-mono text-[15px] font-semibold leading-none', bad ? 'text-danger' : 'text-ink')}>
+                {vitals[row.key]}<span className="ms-0.5 text-[10px] font-normal text-ink-3">{row.unit}</span>
+              </dd>
+            </div>
+          )
+        })}
+      </dl>
+    </Panel>
+  )
+}
+
 function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   const location = useLocation()
   const authored = useAuthoredPractical(target.id)
@@ -466,6 +510,9 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   // — "Take a structured <title> approach now" and two obviously wrong ones —
   // and mark the invented first option correct.
   const stages = (detail?.stages ?? []).filter((item) => (item.options?.length ?? 0) > 0)
+  // Authored/imported cases carry their own vitals; seeded demo cases keep
+  // theirs on the static detail.
+  const vitals = authored?.format === 'case' ? authored.vitals : staticDetail?.vitals
   const { record, } = useMastery()
   const { advanceCase } = usePracticalProgress()
   const logAttempt = useRecordAttempt()
@@ -595,6 +642,7 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
             option has actually been picked, and "correct" only when the
             author marked one. */}
         <div className="flex flex-col gap-3 lg:w-[240px] lg:shrink-0">
+          {vitals && <VitalsStrip vitals={vitals} />}
           <Panel className="p-4">
             <h3 className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">Case path</h3>
             <ol className="mt-3">
@@ -644,6 +692,42 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 }
 
 /* ---- Lab runner -------------------------------------------------------- */
+
+/**
+ * Where the current set sits among the student's other lab/imaging sets.
+ *
+ * The runner otherwise shows progress on this one set in isolation; a student
+ * partway through several sets has no way to see that from inside one of them.
+ * Both the sibling list and the done counts come straight from the same hooks
+ * the "Lab & imaging" tab itself reads, so there is nothing here that could
+ * disagree with that tab.
+ */
+function LabSetsStrip({ currentId }: { currentId: string }) {
+  const { labImaging } = useLivePracticals()
+  const { progress } = usePracticalProgress()
+  if (labImaging.length <= 1) return null
+  return (
+    <div className="mb-4 flex flex-wrap items-center gap-1.5">
+      <span className="me-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">Your sets</span>
+      {labImaging.map((l) => {
+        const done = progress.labs[l.id]?.done ?? 0
+        const isCurrent = l.id === currentId
+        return (
+          <span
+            key={l.id}
+            className={cn(
+              'inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11.5px] font-medium',
+              isCurrent ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line-2 bg-surface text-ink-2',
+            )}
+          >
+            {l.title}
+            <span className="tnum font-mono text-[10.5px] opacity-80">{done}/{l.items}</span>
+          </span>
+        )
+      })}
+    </div>
+  )
+}
 
 function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   const authored = useAuthoredPractical(target.id)
@@ -739,6 +823,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
   return (
     <div>
       <Header target={target} onExit={onExit} />
+      <LabSetsStrip currentId={target.id} />
 
       <div className="mb-4 flex items-center gap-3">
         <span className="text-[13px] font-medium text-ink-2">

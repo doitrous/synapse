@@ -17,10 +17,18 @@ import { hasConsoleAccess } from '@/data/adminRoles'
  * `tab` narrows it further: a route belongs to a tab, and a role that does not
  * hold that tab never renders it. The same registry decides what the sidebar
  * offers, so a visible link and a rendering page cannot disagree.
+ *
+ * `student` guards the other direction: the student application is not a review
+ * surface. A reviewer's whole console is Media Requests and Content Reports, so
+ * a reviewer who reaches `/app` — by link, bookmark or typed URL — is sent back
+ * to their console rather than shown a student dashboard belonging to nobody.
+ * Editors, admins and super admins keep student-app access, because previewing
+ * what a student sees is part of their work.
  */
-export function RequireAuth({ console: needsConsole, tab, children }: {
+export function RequireAuth({ console: needsConsole, tab, student, children }: {
   console?: boolean
   tab?: string
+  student?: boolean
   children: ReactElement
 }) {
   const identity = useIdentity()
@@ -58,6 +66,10 @@ export function RequireAuth({ console: needsConsole, tab, children }: {
   // A tab this role does not hold is not a 404 — the console exists, this part
   // of it is simply not theirs. `/admin` sends them to a page that is.
   if (tab && !identity.tabs.includes(tab)) return <Navigate to="/admin" replace />
+
+  // The student application is closed to reviewers. `/admin` re-resolves through
+  // AdminHome to the first surface they hold, i.e. Media Requests.
+  if (student && identity.role === 'reviewer') return <Navigate to="/admin" replace />
 
   return children
 }

@@ -394,7 +394,14 @@ CREATE TABLE IF NOT EXISTS managed_media (
   id           VARCHAR(64) PRIMARY KEY,
   upload_id    VARCHAR(80) NULL UNIQUE,
   uploaded_by  VARCHAR(64) NOT NULL,
-  status       ENUM('uploading','ready') NOT NULL DEFAULT 'uploading',
+  -- A truthful lifecycle, not a boolean: bytes arrive (uploading), assemble
+  -- (uploaded), are normalised where possible (processing), are checked against
+  -- storage and read back (verifying), and only then are servable (ready) — or
+  -- fail, with a reason. 'ready' means the file was genuinely round-tripped, not
+  -- merely that an upload's last HTTP request returned.
+  status       ENUM('queued','uploading','uploaded','processing','verifying','ready','failed') NOT NULL DEFAULT 'uploading',
+  failure_reason VARCHAR(255) NULL,
+  verified_at  DATETIME NULL,
   storage_key  VARCHAR(255) NULL,
   sha256       CHAR(64) NULL,
   media_type   ENUM('image','audio','video') NULL,
@@ -409,6 +416,11 @@ CREATE TABLE IF NOT EXISTS managed_media (
   INDEX idx_managed_media_uploader (uploaded_by, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ALTER TABLE managed_media ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+-- Widen the lifecycle for existing installs. Safe and idempotent: it only adds
+-- new enum members and never rewrites an existing 'uploading'/'ready' row.
+ALTER TABLE managed_media MODIFY COLUMN status ENUM('queued','uploading','uploaded','processing','verifying','ready','failed') NOT NULL DEFAULT 'uploading';
+ALTER TABLE managed_media ADD COLUMN IF NOT EXISTS failure_reason VARCHAR(255) NULL;
+ALTER TABLE managed_media ADD COLUMN IF NOT EXISTS verified_at DATETIME NULL;
 
 /* User document rows are the managed asset ledger for resources, notebooks and
    whiteboards. The source columns let reporting charge the owner's bytes once

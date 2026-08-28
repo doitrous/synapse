@@ -1,4 +1,5 @@
-import { API_MODE, ApiError, errorKind, getState, getUserState, isRetryable, putState, putUserState, stateOwnerId, type StateErrorKind } from './api'
+import { API_MODE, ApiError, errorKind, getState, getUserState, isRetryable, putState, putStateDelta, putUserState, stateOwnerId, type StateErrorKind } from './api'
+import { diffStateForDelta, isDeltaKey } from './stateDelta'
 import { isUserOwnedState } from './stateOwnership'
 import { recoveryCopyWins } from './statePrecedence'
 import { awaitsSession, hydrationRetryDelay, RETRY_MS } from './stateRetry'
@@ -81,6 +82,19 @@ interface Entry {
    * two people editing at once used to end with one of them losing everything.
    */
   version: number | null
+  /**
+   * The value as the server last confirmed it — the base a delta save diffs
+   * against to find what this client changed. `baseKnown` guards it: until a
+   * read has set it, saves go whole-document rather than diffing against a seed.
+   */
+  baseValue: unknown
+  baseKnown: boolean
+  /**
+   * Whether the server that answered the last read said it can apply a delta for
+   * this key. Off until proven on, so a change-only save is never sent to a
+   * server old enough to misread the absent whole document as a deletion.
+   */
+  deltaCapable: boolean
   /** Consecutive 401s on this document, which decide when to stop asking. */
   unauthorizedAttempts: number
   /**
@@ -129,6 +143,9 @@ export function ensureEntry<T>(key: string, initial: T | (() => T)): Entry {
     hydrated: !API_MODE,
     hydrating: false,
     version: null,
+    baseValue: undefined,
+    baseKnown: false,
+    deltaCapable: false,
     // What was just read is by definition already stored, so an unchanged
     // document does not rewrite itself on the first render that touches it.
     lastWritten: local.found ? JSON.stringify(local.value) : null,
@@ -185,10 +202,26 @@ async function writeRemote(entry: Entry, value: unknown, keepalive = false): Pro
     await putUserState(entry.key, value, keepalive)
     return
   }
+  // Prefer a delta: send only the items changed since the loaded version. Falls
+  // back to the whole document when the key is not a delta key, the base has not
+  // been read yet, or the change is broad enough that whole is smaller
+  // (diffStateForDelta returns null). `keepalive` bodies are tiny by definition.
+  if (!keepalive && entry.deltaCapable && isDeltaKey(entry.key) && entry.baseKnown) {
+    const changes = diffStateForDelta(entry.key, entry.baseValue, value)
+    if (changes) {
+      const result = await putStateDelta(entry.key, changes, entry.version)
+      if (result && typeof result.version === 'number') entry.version = result.version
+      // What we just sent is now the base the next diff measures from.
+      entry.baseValue = value
+      return
+    }
+  }
   const result = await putState(entry.key, value, entry.version)
   // Move to the version the server just wrote, or the next save would send a
   // base it has already superseded and collide with itself.
   if (result && typeof result.version === 'number') entry.version = result.version
+  entry.baseValue = value
+  entry.baseKnown = true
 }
 
 /**
@@ -393,6 +426,12 @@ export function hydrate(key: string): void {
     // The version this document was read at. Every later save quotes it, so the
     // server can tell this client's own changes from somebody else's.
     entry.version = remote.version
+    // The server's value is the base a delta measures against — even when a
+    // recovery copy wins below and becomes the value to save, what it is diffed
+    // against is what the server holds.
+    entry.baseValue = remote.value ?? null
+    entry.baseKnown = true
+    entry.deltaCapable = remote.deltaSupported === true
 
     let recovered: { value: unknown; savedAt: string } | null = null
     try {
@@ -450,6 +489,28 @@ export function retryAfterSignIn(): void {
     if (!entry.hydrated) hydrate(entry.key)
     else if (entry.queued) void flush(entry)
   }
+}
+
+/**
+ * Force a document to be re-read from the server, for a write that reached it
+ * through a dedicated endpoint rather than this store's own setter — content
+ * report creation, for one, goes through `POST /api/content-reports` so a
+ * student without the shared write path can still file one — and so left the
+ * cache every reader of that key shares showing a stale copy.
+ *
+ * Reuses `flush`'s own "the document moved, re-read it" path (see the
+ * `kind === 'conflict'` branch above): dropping `hydrated` and calling the
+ * already-exported `hydrate` is exactly what that path does mid-write, so
+ * this is safe even against a save still in flight — a queued local edit's
+ * recovery copy is what `hydrate` consults to decide whether to keep it, not
+ * this flag. A no-op for a key nobody has asked for yet, and in demo mode,
+ * where there is no server copy to be behind.
+ */
+export function invalidateEntry(key: string): void {
+  const entry = entries.get(key)
+  if (!entry || !API_MODE) return
+  entry.hydrated = false
+  hydrate(key)
 }
 
 /**

@@ -64,6 +64,116 @@ no
 # Item
 
 ## id
+src_84b91e011582f2b53494
+
+## title
+MCQs - Dr. Wagih Anatomy MCQ (1-7) (AU-MED-102 Anatomy department General Anatomy MCQ bank)
+
+## institution
+Alexandria University — Faculty of Medicine (Dr Wagih Elhusseiny)
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 102 - Foundation of Basic Medical Sciences & Medical Terminology/Foundation of Basic Medical Sciences/Anatomy/Questions/MCQs - Dr. Wagih Anatomy MCQ (1-7).pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+
+
+## page_count
+16
+
+## sha256
+84b91e011582f2b53494d372769b216e4f56cc82e5923edb9ea81c33644b2898
+
+## rights
+Faculty teaching material held by the student who supplied the Alexandria University corpus. Not redistributable; used here to derive what is taught and examined, never reproduced to a student.
+
+## qualification
+Department-affiliated instructor's own General Anatomy MCQ bank for AU-MED-102 (General Anatomy, joints and movements section plus later Embryology section), with a per-page printed answer key directly beneath each question set. A separate, unrelated item earlier in the same bank (skull-suture/joint-classification cluster) carries a printed key this lane's automated extraction could not align to question numbers and remains unresolved; the items cited from this file for this batch are on different pages with clean, directly legible per-page keys, confirmed by visual page read.
+
+## confidence
+0.75
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
+src_2fc64c0a9d050208a7d0
+
+## title
+MCQs - Dr. Wagih Anatomy MCQ (1-7) [from Alexandria University Updated] (name-twin of src_84b91e011582f2b53494)
+
+## institution
+Alexandria University — Faculty of Medicine (Dr Wagih Elhusseiny)
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 102 - Foundation of Basic Medical Sciences & Medical Terminology/Foundation of Basic Medical Sciences/Anatomy/Questions/MCQs - Dr. Wagih Anatomy MCQ (1-7) [from Alexandria University Updated].pdf
+
+## source_uri
+
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+
+## accessed_at
+
+
+## page_count
+16
+
+## sha256
+2fc64c0a9d050208a7d04327cff10c179ea831e866adc39978aa5f49234abbd5
+
+## rights
+Faculty teaching material held by the student who supplied the Alexandria University corpus. Not redistributable; used here to derive what is taught and examined, never reproduced to a student.
+
+## qualification
+Name-twin of src_84b91e011582f2b53494 (same 7-section General Anatomy MCQ bank); listed separately per this corpus's own deduplication convention rather than merged, since the manifest tracks it as a distinct file.
+
+## confidence
+0.75
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
 src_3bf4527b51de57464e14
 
 ## title

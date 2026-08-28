@@ -57,6 +57,15 @@ ios/Synapse.xcodeproj/xcuserdata/
 # committed — it is source material, not source code.
 corpus/
 
+# Android
+android/secrets.properties
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/.kotlin/
+android/.idea/
+
 # pagetext.py's per-page cache: rendered pdf pages, page-level readability,
 # OCR temp images — regenerable, and not small. Never committed.
 # Nothing else writes here — see the incident note on the next line.

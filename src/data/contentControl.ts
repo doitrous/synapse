@@ -142,6 +142,44 @@ export interface MediaReviewComment {
   createdAt: string
 }
 
+export const ESCALATION_PRIORITIES = ['urgent', 'high', 'normal'] as const
+export type EscalationPriority = (typeof ESCALATION_PRIORITIES)[number]
+/** open: with editors/super admins. returned: handed back to the reviewer. resolved: closed. */
+export type EscalationStatus = 'open' | 'returned' | 'resolved'
+
+export interface MediaEscalationEvent {
+  at: string
+  actorId: string | null
+  actorName: string
+  /** Effective-role label of whoever acted: Reviewer, Editor, Superadmin, … */
+  actorRole: string
+  action: 'escalated' | 'returned' | 'reassigned' | 'resolved' | 'note'
+  note?: string
+}
+
+/**
+ * A reviewer's request for help with a media request they cannot complete safely.
+ *
+ * While `status` is 'open' the request is the editors' and super admins' to move;
+ * the reviewer's own edits to it are refused until it is returned or resolved, so
+ * two people are never quietly working the same escalated item. Every transition
+ * appends to `history` — who escalated, who returned it, who resolved it — so the
+ * queue is auditable end to end.
+ */
+export interface MediaRequestEscalation {
+  reason: string
+  priority: EscalationPriority
+  byUserId: string | null
+  byName: string
+  byRole: string
+  at: string
+  status: EscalationStatus
+  history: MediaEscalationEvent[]
+  /** Who last returned/resolved it, for the queue and the audit trail. */
+  handledBy?: string
+  handledAt?: string
+}
+
 /**
  * An asset a piece of content needs but does not yet have.
  *
@@ -194,6 +232,11 @@ export interface MediaRequest {
   mediaId?: string
   /** Private, anchored reviewer discussion. Never enters a student projection. */
   reviewComments?: MediaReviewComment[]
+  /**
+   * Present once a reviewer has escalated this request to editors/super admins.
+   * Its `status` governs who may edit the request — see MediaRequestEscalation.
+   */
+  escalation?: MediaRequestEscalation
 }
 
 /**
@@ -506,10 +549,31 @@ export interface ClinicalDecisionDraft {
   difficulty?: PracticalDifficulty
 }
 
+/**
+ * Presenting observations for a case, shown as a compact strip beside the
+ * decisions. All fields optional; a case with no `vitals` renders no strip.
+ * Units are fixed by convention (HR bpm, BP mmHg, RR /min, SpO₂ %, Temp °C,
+ * GCS /15, Glucose mmol/L) rather than stored, to keep authoring terse.
+ * `abnormal` is the author's clinical call *in context* (a normal range is
+ * age/sex/comorbidity dependent), listing which keys to flag.
+ */
+export interface Vitals {
+  hr?: number
+  bp?: string
+  rr?: number
+  spo2?: number
+  temp?: number
+  gcs?: number
+  glucose?: number
+  abnormal?: Array<'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'>
+  note?: string
+}
+
 export interface CaseAuthoringData extends PracticalCommon {
   format: 'case'
   decisions: ClinicalDecisionDraft[]
   debrief: string
+  vitals?: Vitals
 }
 
 export interface LabQuestionDraft {

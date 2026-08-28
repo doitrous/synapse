@@ -44,7 +44,7 @@ export function Dashboard() {
       <div className="flex flex-col items-center gap-6 py-4 sm:py-8">
         <div className="text-center">
           <h1 className="font-serif text-[26px] font-semibold tracking-[-0.02em] text-ink sm:text-[30px]">
-            {t(greetingKey())}{lang === 'ar' ? '، ' : ', '}{displayName}
+            {t(greetingKey())}{displayName?.trim() ? `${lang === 'ar' ? '، ' : ', '}${displayName.trim()}` : ''}
           </h1>
           <p className="mt-2 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-[13.5px] text-ink-2">
             <span className="inline-flex items-center gap-1.5">

@@ -60,8 +60,17 @@ export const ADMIN_TABS = [
     apiPrefixes: ['/api/medical-resources', '/api/media'] },
   { id: 'media', to: '/admin/library/media', group: 'Content',
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
+  { id: 'escalations', to: '/admin/escalations', group: 'Content',
+    // A view onto media requests a reviewer has escalated. It owns no document of
+    // its own: returning, reassigning or resolving an escalation is a media-request
+    // edit on the content ledger, already governed by the owner tabs an editor
+    // holds and by the rank check in authoriseChanges. The tab is what keeps the
+    // queue out of a reviewer's and an admin's reach.
+    stateKeys: [], apiPrefixes: [] },
   { id: 'reports', to: '/admin/reports', group: 'Content',
     stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
+  { id: 'tutorial', to: '/admin/tutorial', group: 'Content',
+    stateKeys: ['synapse-tutorial-videos-v1'], apiPrefixes: [] },
 
   { id: 'email', to: '/admin/email', group: 'Operations',
     stateKeys: ['synapse-email-automations-v1'], apiPrefixes: [] },
@@ -100,7 +109,15 @@ export const DEFAULT_ROLE_TABS = {
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
   ],
-  reviewer: ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'],
+  // A reviewer holds exactly two surfaces: Media Requests, where they supply and
+  // escalate teaching media, and Content Reports, where they raise problems. Both
+  // are review actions, neither authors or destroys content. Everything a reviewer
+  // used to hold — Library, Questions, Practical, Flashcards, Written, Histology,
+  // Concepts, Resources — is editing power that is not theirs, so it is gone from
+  // the default and, because a hidden tab is a document they cannot write, gone as
+  // a capability too. `media` sorts before `reports` in the registry, so `/admin`
+  // lands a reviewer on Media Requests.
+  reviewer: ['media', 'reports'],
 }
 
 /**

@@ -1,13 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
-  Award, BarChart3, Brain, ClipboardCheck, Clock3, Layers, ListChecks, Medal,
-  ShieldQuestion, Table2, Timer, TrendingUp, Users,
+  Award, BarChart3, Brain, ClipboardCheck, Clock3, Highlighter, Hourglass, Layers, ListChecks, Medal,
+  Percent, RotateCcw, ShieldQuestion, Table2, Timer, TrendingDown, TrendingUp, Users,
 } from 'lucide-react'
 import { getSubject } from '@/data/subjects'
 import {
   accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
   firstAttemptSplit, hourHistogram, marked, medianSeconds, weakest,
 } from '@/data/attemptStats'
+import { averageSecondsPerQuestion, percentileStanding } from '@/data/performanceStats'
 import type { AttemptRecord } from '@/data/attempts'
 import { masteryBand } from '@/data/mastery'
 import { useMastery } from '@/lib/useMastery'
@@ -15,23 +16,30 @@ import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
 import { SessionLedgerPanel } from '@/components/performance/SessionLedger'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
+import { Meter } from '@/components/ui/Meter'
 import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Badge } from '@/components/ui/Badge'
-import { Meter } from '@/components/ui/Meter'
 import { ButtonLink } from '@/components/ui/Button'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
-import { formatTimeString } from '@/lib/format'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { QUESTION_HIGHLIGHTS_STORAGE_KEY, type QuestionHighlightStore } from '@/data/questionHighlights'
+import { analyzeHighlightBehavior, classifyAnswerChanges, flattenHighlightStore } from '@/data/studyTracking'
+import { useMaristanas } from '@/lib/useMaristanas'
+import { formatMinutes, formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
 import { API_MODE, apiGet } from '@/lib/api'
 import { ExamReadinessCard } from '@/components/dashboard/ProgressTrio'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
 import { demoLeaderboard } from '@/data/demoPreview'
+
+/** Window the study-time and pace metrics below are averaged over. */
+const STUDY_WINDOW_DAYS = 7
 
 /**
  * Marked answers needed before this page reports anything.
@@ -61,7 +69,14 @@ interface LeaderboardRow {
 interface LeaderboardResponse {
   rows: LeaderboardRow[]
   scope?: { university?: string; year?: string; term?: string }
-  viewer?: { eligible: boolean; verifiedAnswers?: number; requiredAnswers?: number }
+  viewer?: {
+    eligible: boolean
+    verifiedAnswers?: number
+    requiredAnswers?: number
+    rank?: number | null
+    total?: number
+    securedConcepts?: number
+  }
 }
 
 // Keyed loosely, so nothing here fails to compile when a surface is added —
@@ -143,11 +158,13 @@ const RANK_TONE: Record<number, { badge: string; row: string }> = {
 }
 
 /**
- * The student's own place relative to this board, from data the page already
- * has — never the board's own ranking, which the API does not expose beyond
- * the visible rows. Mastery reads the local concept ledger; accuracy reads
- * the local attempt log. Only the eligibility gate (verified-answer count) is
- * a real figure returned by the leaderboard endpoint itself.
+ * The student's own place relative to this board. The headline number
+ * (secured concepts, or accuracy) still comes from data the page already
+ * has — mastery reads the local concept ledger, accuracy reads the local
+ * attempt log — but the eligibility gate, cohort rank, and cohort size are
+ * real figures returned by the leaderboard endpoint itself (`viewer.rank`
+ * and `viewer.total`, computed server-side over the full ranked cohort
+ * before it is sliced to the visible rows).
  */
 function YourStanding({ metric, viewer, records }: {
   metric: LeaderboardMetric
@@ -167,12 +184,22 @@ function YourStanding({ metric, viewer, records }: {
   const eligible = viewer?.eligible ?? false
   const verified = viewer?.verifiedAnswers ?? 0
   const required = viewer?.requiredAnswers ?? 100
+  const rank = viewer?.rank ?? null
+  const total = viewer?.total ?? 0
+  const hasRank = eligible && typeof rank === 'number' && total > 0
 
   return (
     <Panel className={cn('p-4', eligible ? 'border-success/25 bg-success-tint/20' : 'border-primary-line bg-primary-tint/25')}>
-      <p className={cn('text-[10.5px] font-semibold uppercase tracking-[0.08em]', eligible ? 'text-success' : 'text-primary-strong')}>
-        {eligible ? t('Your standing') : t('Your standing — still private')}
-      </p>
+      <div className="flex items-center justify-between gap-2">
+        <p className={cn('text-[10.5px] font-semibold uppercase tracking-[0.08em]', eligible ? 'text-success' : 'text-primary-strong')}>
+          {eligible ? t('Your standing') : t('Your standing — still private')}
+        </p>
+        {hasRank && (
+          <Badge tone="success" className="tnum font-mono">
+            #{rank} {t('of')} {total}
+          </Badge>
+        )}
+      </div>
       <div className="mt-2.5 flex items-center gap-3">
         <span className={cn('grid size-10 shrink-0 place-items-center rounded-full border', eligible ? 'border-success/30 bg-surface text-success' : 'border-primary-line bg-surface text-primary-strong')}>
           <Icon icon={metric === 'mastery' ? ShieldQuestion : ClipboardCheck} size={17} />
@@ -184,6 +211,12 @@ function YourStanding({ metric, viewer, records }: {
           <p className="text-[11px] text-ink-3">{metric === 'mastery' ? t('secured concepts, on your own log') : t('overall accuracy, on your own log')}</p>
         </div>
       </div>
+      {hasRank && (
+        <p className="mt-2 text-[12px] font-medium text-ink-2">
+          {t("You're")} <span className="tnum font-mono font-semibold text-ink">#{rank}</span> {t('of')}{' '}
+          <span className="tnum font-mono font-semibold text-ink">{total}</span> {t('in your cohort.')}
+        </p>
+      )}
 
       <div className="mt-3.5">
         <div className="flex items-center justify-between text-[11px] text-ink-2">
@@ -336,13 +369,231 @@ function TopPerformers({ records }: { records: AttemptRecord[] }) {
 }
 
 /**
+ * How the student's own accuracy sits against ranked peers.
+ *
+ * The "no cohort aggregate exists anywhere in this product" era is over:
+ * `/api/leaderboards` now publishes real peer accuracy for students with at
+ * least 100 server-verified answers in the same university, year and current
+ * term — the same feed `TopPerformers` already reads. This panel asks the
+ * same feed for a percentile instead of a rank list. When nobody in the
+ * cohort has enough verified evidence yet, or the feed cannot be reached,
+ * this renders a plain "not available" state rather than a guessed number —
+ * a percentile against zero peers is not a percentile.
+ */
+function PeerStandingPanel({ records }: { records: AttemptRecord[] }) {
+  const t = useT()
+  const overall = accuracyOf(records)
+  const [cohort, setCohort] = useState<LeaderboardResponse | null>(null)
+  const [loading, setLoading] = useState(API_MODE)
+  const [failed, setFailed] = useState(false)
+
+  useEffect(() => {
+    let alive = true
+    if (!API_MODE) {
+      setCohort(demoLeaderboard('accuracy'))
+      setLoading(false)
+      setFailed(false)
+      return () => { alive = false }
+    }
+    setLoading(true)
+    setFailed(false)
+    apiGet<LeaderboardResponse>('/leaderboards?metric=accuracy')
+      .then((next) => { if (alive) setCohort(next) })
+      .catch(() => { if (alive) { setCohort(null); setFailed(true) } })
+      .finally(() => { if (alive) setLoading(false) })
+    return () => { alive = false }
+  }, [])
+
+  const peerAccuracies = (cohort?.rows ?? [])
+    .map((row) => row.accuracy)
+    .filter((value): value is number => typeof value === 'number')
+  const standing = overall === null ? null : percentileStanding(overall, peerAccuracies)
+  const yourPct = overall === null ? null : Math.round(overall * 100)
+
+  return (
+    <Panel>
+      <PanelHeader title={t('How you compare')} icon={Percent} hint={t('Percentile standing by accuracy')} />
+      <div className="p-5">
+        {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo cohort preview')}</Badge>}
+        {loading ? (
+          <div className="h-28 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />
+        ) : failed ? (
+          <EmptyState icon={Percent} title={t('Standing unavailable')} description={t('The peer ranking could not be loaded. Your private performance data has not been substituted.')} />
+        ) : !standing || yourPct === null ? (
+          <EmptyState
+            icon={Percent}
+            title={t('Needs cohort data')}
+            description={t('Nobody in your university, year and current term has enough server-verified answers yet to compare against. This fills in once ranked peers exist.')}
+          />
+        ) : (
+          <>
+            <p className="text-[13px] text-ink-2">
+              {t('You scored better than')} <span className="font-mono font-semibold text-primary-strong">{standing.percentile}%</span> {t('of ranked peers, by accuracy.')}
+            </p>
+            <div className="mt-4">
+              <Meter value={yourPct} max={100} tone="primary" ticks />
+              <div className="mt-1.5 flex justify-between font-mono text-[10.5px] text-ink-3">
+                <span>{t('You')} · {yourPct}%</span>
+                <span>{t('Peer median')} · {Math.round(standing.peerMedian * 100)}%</span>
+              </div>
+            </div>
+            <p className="mt-4 border-t border-line pt-3 text-[11.5px] leading-relaxed text-ink-3">
+              {standing.peerCount} {t('ranked peers in your university, year and current term, each with at least 100 server-verified answers this term.')}
+            </p>
+          </>
+        )}
+      </div>
+    </Panel>
+  )
+}
+
+/**
+ * Average daily study time, split into reading and solving.
+ *
+ * All three figures are real, measured the same way: the Build Maristanas
+ * minute ledger records one active minute at a time and tags it with the
+ * surface the student was on. Reading is the reader, library and glossary;
+ * solving is the Question Bank and the other answer-and-do surfaces; "other"
+ * is everything else (notebook, whiteboard, flashcards). No estimate — each
+ * bucket is a straight count of tagged minutes over the last week.
+ */
+/**
+ * Your own study habits, from the two signals the admin console also tracks:
+ * how your answer to a re-attempted question moves, and whether your Question
+ * Bank highlights land on the reasoning. Both are computed with the same
+ * `studyTracking` functions the admin view uses, but only over your own data.
+ */
+function StudentActivityPanel({ records }: { records: AttemptRecord[] }) {
+  const t = useT()
+  const [highlightStore] = usePersistentState<QuestionHighlightStore>(QUESTION_HIGHLIGHTS_STORAGE_KEY, {})
+  const changes = useMemo(() => classifyAnswerChanges(records), [records])
+  const highlights = useMemo(() => analyzeHighlightBehavior(flattenHighlightStore(highlightStore)), [highlightStore])
+
+  const focusCopy = highlights.focusLabel === 'focused' ? t('You highlight the reasoning — the explanation and rationale. Keep it up.')
+    : highlights.focusLabel === 'mixed' ? t('Your highlights are a mix of the reasoning and the scenario. Leaning into the explanation and rationale pays off most.')
+      : highlights.focusLabel === 'sporadic' ? t('Your highlights scatter across the scenario and options. Try marking the explanation and rationale — the "why" — instead.')
+        : t('Highlight the key points inside a question and a read on your habit appears here.')
+
+  return (
+    <Panel>
+      <PanelHeader title={t('Your study habits')} icon={RotateCcw} hint={t('Answer changes and highlighting, from your own activity')} />
+      <div className="grid gap-4 p-5 sm:grid-cols-2">
+        <div className="rounded-lg border border-line bg-surface-2/40 p-4">
+          <p className="text-[12px] font-semibold text-ink-2">{t('When you re-answer a question')}</p>
+          <p className="mt-1 text-[12px] text-ink-3">
+            {changes.itemsWithRepeatedAttempts} {changes.itemsWithRepeatedAttempts === 1 ? t('question re-attempted') : t('questions re-attempted')} · {changes.totalTransitions} {changes.totalTransitions === 1 ? t('change') : t('changes')}
+          </p>
+          <ul className="mt-3 space-y-2 text-[12.5px] text-ink">
+            <li className="flex items-center gap-2">
+              <TrendingUp className="size-3.5 shrink-0 text-success" />
+              <span className="flex-1 text-ink-2">{t('Wrong, then right')}</span>
+              <span className="tnum font-mono font-semibold">{changes.counts.incorrectToCorrect}</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <TrendingDown className="size-3.5 shrink-0 text-danger" />
+              <span className="flex-1 text-ink-2">{t('Right, then wrong')}</span>
+              <span className="tnum font-mono font-semibold">{changes.counts.correctToIncorrect}</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <RotateCcw className="size-3.5 shrink-0 text-warning" />
+              <span className="flex-1 text-ink-2">{t('Wrong both times')}</span>
+              <span className="tnum font-mono font-semibold">{changes.counts.incorrectToIncorrect}</span>
+            </li>
+          </ul>
+          {changes.totalTransitions === 0 && (
+            <p className="mt-3 text-[11.5px] text-ink-3">{t('Re-attempt a question you have answered before to see how your answer moves.')}</p>
+          )}
+        </div>
+
+        <div className="rounded-lg border border-line bg-surface-2/40 p-4">
+          <div className="flex items-center justify-between gap-2">
+            <p className="text-[12px] font-semibold text-ink-2">{t('How you highlight')}</p>
+            <Badge tone={highlights.focusLabel === 'focused' ? 'success' : highlights.focusLabel === 'sporadic' ? 'warning' : 'neutral'} dot>
+              {highlights.focusLabel === 'focused' ? t('Focused on reasoning')
+                : highlights.focusLabel === 'mixed' ? t('Mixed')
+                  : highlights.focusLabel === 'sporadic' ? t('Sporadic')
+                    : t('No highlights yet')}
+            </Badge>
+          </div>
+          <ul className="mt-3 space-y-2 text-[12.5px] text-ink">
+            <li className="flex items-center gap-2">
+              <Highlighter className="size-3.5 shrink-0 text-ink-3" />
+              <span className="flex-1 text-ink-2">{t('On the explanation or rationale')}</span>
+              <span className="tnum font-mono font-semibold">{Math.round(highlights.keyBlockShare * 100)}%</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <ListChecks className="size-3.5 shrink-0 text-ink-3" />
+              <span className="flex-1 text-ink-2">{t('Highlights per question')}</span>
+              <span className="tnum font-mono font-semibold">{highlights.highlightsPerQuestion.toFixed(1)}</span>
+            </li>
+          </ul>
+          <p className="mt-3 text-[11.5px] leading-relaxed text-ink-3">{focusCopy}</p>
+        </div>
+      </div>
+    </Panel>
+  )
+}
+
+function StudyTimePanel() {
+  const t = useT()
+  const { data, loading, error } = useMaristanas()
+
+  const perDay = (minutes: number | undefined): string | null =>
+    minutes === undefined ? null : formatMinutes(Math.round(minutes / STUDY_WINDOW_DAYS))
+
+  const studyingLabel = data ? formatMinutes(Math.round(data.thisWeek.studyMinutes / STUDY_WINDOW_DAYS)) : null
+  const readingLabel = perDay(data?.thisWeek.reading)
+  const solvingLabel = perDay(data?.thisWeek.solving)
+  const otherLabel = perDay(data?.thisWeek.other)
+
+  return (
+    <Panel>
+      <PanelHeader title={t('Average time studying')} icon={Clock3} hint={`${t('Per day, last')} ${STUDY_WINDOW_DAYS} ${t('days')}`} />
+      <div className="p-5">
+        {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo figures')}</Badge>}
+        {loading ? (
+          <div className="h-28 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />
+        ) : (
+          <>
+            <div className="flex items-baseline gap-2">
+              <p className="tnum font-mono text-[27px] font-semibold text-ink">{studyingLabel ?? '—'}</p>
+              <span className="text-[12px] text-ink-3">{t('per day, all study surfaces')}</span>
+            </div>
+            {(error || studyingLabel === null) && (
+              <p className="mt-1 text-[11.5px] text-ink-3">{t('Total active-study time needs the server connection and has not loaded.')}</p>
+            )}
+            <div className="mt-4 grid grid-cols-3 gap-3">
+              <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Reading')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{readingLabel ?? '—'}</p>
+              </div>
+              <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Solving')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{solvingLabel ?? '—'}</p>
+              </div>
+              <div className="rounded-lg border border-line bg-surface-2/40 p-3">
+                <p className="text-[11.5px] font-medium text-ink-2">{t('Other study')}</p>
+                <p className="tnum mt-1 font-mono text-[18px] font-semibold text-ink">{otherLabel ?? '—'}</p>
+              </div>
+            </div>
+            <p className="mt-4 border-t border-line pt-3 text-[11.5px] leading-relaxed text-ink-3">
+              {t('Reading is time in the reader, library and glossary; solving is the Question Bank and other answer-and-do surfaces; other study is notebook, whiteboard and flashcards. Each is a count of active minutes on that surface over the last week.')}
+            </p>
+          </>
+        )}
+      </div>
+    </Panel>
+  )
+}
+
+/**
  * The student's own record, and only their own record.
  *
- * Cohort comparison is gone from this page: the year median, the percentile,
- * the anonymous leaderboard and the "13 seconds slower than the median" line
- * were all literals in a source file, and no cohort aggregate exists anywhere
- * in this product to replace them with. Everything left is derived from the
- * attempt log and the concept mastery ledger.
+ * The year-over-year cohort literals this page once showed are still gone —
+ * see the panels above for how a percentile and a study-time comparison are
+ * built honestly instead, from feeds that did not exist when those literals
+ * were removed. Everything below them is still derived only from the attempt
+ * log and the concept mastery ledger.
  */
 export function Performance() {
   const t = useT()
@@ -359,6 +610,7 @@ export function Performance() {
   const surfaces = useMemo(() => bySurface(records), [records])
   const overall = accuracyOf(records)
   const median = medianSeconds(records)
+  const average = averageSecondsPerQuestion(records)
 
   const header = (
     <>
@@ -420,7 +672,7 @@ export function Performance() {
           <ExamReadinessCard />
           <PerformanceOverview />
         </div>
-        <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-5">
           <KpiTile
             icon={TrendingUp}
             value={overall === null ? '—' : `${Math.round(overall * 100)}%`}
@@ -448,7 +700,20 @@ export function Performance() {
             label={t('Median per question')}
             sub={median === null ? t('No timed sessions yet') : `${currentStreak(records)} ${t('day streak')}`}
           />
+          <KpiTile
+            icon={Hourglass}
+            value={average === null ? '—' : `${average}s`}
+            label={t('Average per question')}
+            sub={t('Mean across all timed answers')}
+          />
         </div>
+
+        <div className="grid gap-4 lg:grid-cols-2">
+          <PeerStandingPanel records={records} />
+          <StudyTimePanel />
+        </div>
+
+        <StudentActivityPanel records={records} />
 
         <SessionLedgerPanel records={records} />
 

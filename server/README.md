@@ -96,6 +96,8 @@ verified Supabase user token. There is no bypass and no shared access key: a
 secret that mints an admin identity is indistinguishable from a stolen one.
 `SUPABASE_URL` must therefore be set, or every request is rejected.
 
-New users are students; admin promotion is explicit and audited. A second factor
+New users are students; admin promotion is explicit and audited — including the
+first one, which no signed-in user can perform and which
+`npm run promote-admin -- <email> --commit` does from the database instead. A second factor
 is **optional** — `user_access.mfa_required` records that an account asked to be
 held to assurance level 2, and only those accounts are refused at `aal1`.

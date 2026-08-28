@@ -140,7 +140,15 @@ export interface MaristanaOverview {
   breakdown: MaristanaCreditBreakdown
   hospitals: MaristanaHospital[]
   recentActivity: MaristanaRecentActivity[]
-  thisWeek: { studyMinutes: number; questionsAnswered: number; credits: number }
+  thisWeek: {
+    studyMinutes: number
+    questionsAnswered: number
+    credits: number
+    /** Active minutes in the last 7 days split by surface class — real, from the minute ledger. */
+    reading?: number
+    solving?: number
+    other?: number
+  }
 }
 
 export interface MaristanaProgressDelta {
@@ -275,7 +283,7 @@ export const DEMO_MARISTANA_OVERVIEW: MaristanaOverview = (() => {
     averageAssessmentScore: Math.round(evidence.assessmentScores.reduce((a, b) => a + b, 0) / evidence.assessmentScores.length),
     breakdown,
     hospitals: maristanaHospitals(total, DEFAULT_MARISTANA_CONFIG, { 1: 'Al-Razi House', 2: 'Ibn Sina House', 3: 'The Courtyard' }),
-    thisWeek: { studyMinutes: 286, questionsAnswered: 63, credits: 1_094 },
+    thisWeek: { studyMinutes: 286, questionsAnswered: 63, credits: 1_094, reading: 96, solving: 138, other: 52 },
     recentActivity: [
       { id: 'demo-1', kind: 'assessment', label: 'Cardiovascular assessment', detail: '84% · 25 scored questions', credits: 176, at: new Date(Date.now() - 42 * 60_000).toISOString() },
       { id: 'demo-2', kind: 'study', label: 'Focused study', detail: 'Heart failure · 48 active minutes', credits: 96, at: new Date(Date.now() - 3 * 3_600_000).toISOString() },

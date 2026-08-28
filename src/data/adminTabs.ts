@@ -11,8 +11,8 @@
 import type { LucideIcon } from 'lucide-react'
 import {
   Gauge, Network, Languages, GraduationCap, Scale, Library, FileQuestion, Compass,
-  Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, Mail, Inbox, BellRing,
-  Layers, PenLine, Microscope,
+  Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, MonitorPlay, Mail, Inbox, BellRing,
+  Layers, PenLine, Microscope, Siren,
   UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound,
 } from 'lucide-react'
 import { rank } from './adminRoles.ts'
@@ -69,8 +69,12 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
     apiPrefixes: ['/api/medical-resources', '/api/media'] },
   { id: 'media', label: 'Media Requests', to: '/admin/library/media', icon: ImagePlus, group: 'Content',
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
+  { id: 'escalations', label: 'Escalations', to: '/admin/escalations', icon: Siren, group: 'Content',
+    stateKeys: [], apiPrefixes: [] },
   { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: Flag, group: 'Content',
     stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
+  { id: 'tutorial', label: 'Tutorial Videos', to: '/admin/tutorial', icon: MonitorPlay, group: 'Content',
+    stateKeys: ['synapse-tutorial-videos-v1'], apiPrefixes: [] },
 
   { id: 'email', label: 'Email & Automations', to: '/admin/email', icon: Mail, group: 'Operations',
     stateKeys: ['synapse-email-automations-v1'], apiPrefixes: [] },
@@ -109,7 +113,9 @@ export const DEFAULT_ROLE_TABS: Record<string, string[]> = {
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
   ],
-  reviewer: ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'],
+  // Exactly two surfaces — Media Requests and Content Reports. Mirror of the
+  // server default in server/src/tabs.js; the parity test holds them together.
+  reviewer: ['media', 'reports'],
 }
 
 /** The tab ids this role holds. Mirrors `tabsForRole` in server/src/tabs.js. */

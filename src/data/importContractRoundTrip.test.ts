@@ -218,6 +218,7 @@ const CASE = {
   type: 'Clinical case',
   decisions: '### Immediate action\nConcept: med.concept.pe\nMedia: /media/med-case-audio\nMedia type: audio\nMedia MIME: audio/mpeg\nQ: First step?\n*= Oxygen\nWhy: Treat hypoxia.\n* Wait\nWhy: Delays care.\nRationale: ABCs first.',
   debrief: 'ABCs come first.',
+  vitals: 'HR: 118\nBP: 108/68\nRR: 30\nSpO2: 91\nTemp: 37.4\nAbnormal: HR | RR | SpO2\nNote: room air',
 }
 
 const LAB = {
@@ -323,6 +324,11 @@ test('content fixtures cover every schema field and survive validate -> import -
   assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-LAB')?.practicalData.questions[0].answers.length, 2)
   assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-OSCE')?.practicalData.mediaType, 'video')
   assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-CASE')?.practicalData.decisions[0].mediaType, 'audio')
+  const caseVitals = serialised.find((item) => item.id === 'P-ROUNDTRIP-CASE')?.practicalData.vitals
+  assert.equal(caseVitals?.hr, 118)
+  assert.equal(caseVitals?.bp, '108/68')
+  assert.deepEqual(caseVitals?.abnormal, ['hr', 'rr', 'spo2'])
+  assert.equal(caseVitals?.note, 'room air')
   assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-LAB')?.practicalData.questions[0].mediaMimeType, 'video/webm')
   assert.equal(serialised.find((item) => item.id === 'DECK-ROUNDTRIP')?.deckData.cards.length, 2)
   assert.equal(serialised.find((item) => item.id === 'HIST-ROUNDTRIP')?.histologyData.views.length, 3)
