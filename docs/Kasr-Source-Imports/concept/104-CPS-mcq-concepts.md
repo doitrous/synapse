@@ -8,7 +8,7 @@
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 13 questions, 1 concepts
+    Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -50,7 +50,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  57 questions were excluded and 0 held back for having no
+  59 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -541,6 +541,412 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 +ART-104-HIS-ARTERIES-AND-VEINS
 ## field_notes
 canonical_key "artery-classification.elastic-muscular-and-arteriolar-types" already has a pinned id in this module (CON-CVS-712BA581C8AF88); mintConceptId derives the same id fresh (CON-CVS-712BA581C8AF88) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The aorta's tunica media is packed with 40-70 fenestrated elastic membranes with smooth muscle between them, so its internal elastic lamina cannot be told apart from these same membranes
+## id
+CON-CVS-D68E630AF7B901
+## canonical_key
+elastic-artery.aortic-tunica-media-structure
+## definition
+The aorta, the archetypal large elastic artery, has a tunica media formed of 40 to 70 concentric, fenestrated elastic membranes (laminae), increasing in number with age, with smooth muscle fibres, collagen and proteoglycan filling the spaces between them. This dense elastic media lets the wall stretch during systole and recoil during diastole, smoothing the heart's pulsatile output into steadier downstream flow. Because the media itself is already built from ring upon ring of elastic tissue, the internal elastic lamina — the specific boundary sheet that so clearly separates intima from media in a muscular artery — cannot be told apart as a separate structure from the many other elastic laminae surrounding it: it is present, not absent, thin or unstainable, but indistinguishable by contrast.
+## explicit_objective
+State that the aorta's tunica media is dominated by 40-70 fenestrated elastic membranes with smooth muscle between them, and explain why its internal elastic lamina is not a clearly visible boundary the way it is in a muscular artery.
+## pitfalls
+Assuming an unclear internal elastic lamina means it is absent, thin, or fails to stain. In the aorta it is present and does take elastic stains — it simply cannot be distinguished from the many other elastic laminae of the same media that surround it.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p1 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p15 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.55
+## exam_weight_by_year
+KAU_Y1=0.55
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Aorta histology | Elastic artery tunica media | Aortic internal elastic lamina
+## article_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Tunica media of aorta is characterized by the following:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL | ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The basilar artery is histologically a muscular artery, identified by its unusually prominent, thick internal elastic lamina rather than by concentric elastic membranes
+## id
+CON-CVS-523BFBFD316FBF
+## canonical_key
+basilar-artery.muscular-type-despite-cranial-location
+## definition
+The basilar artery, formed by the union of the two vertebral arteries in the posterior cerebral circulation, is classified histologically as a muscular (medium-sized) artery rather than an elastic one, despite supplying a major cranial territory. Its signature identifying feature on a microscope slide is an unusually prominent, thick internal elastic lamina — a wavy, corrugated boundary sheet standing out clearly against a media built mainly of circular smooth muscle, not against 40-70 concentric elastic membranes as an elastic artery's media would be.
+## explicit_objective
+Classify the basilar artery as a muscular, not elastic, artery, identified by its prominent internal elastic lamina.
+## pitfalls
+Assuming a named artery's size or clinical importance dictates its histological class. The basilar artery is classed by what its tunica media is built of — smooth muscle with a prominent internal elastic lamina — not by how large a territory it supplies.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.31
+## exam_weight_by_year
+KAU_Y1=0.31
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Basilar artery histology
+## article_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The main feature of basilar artery is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+The covering article teaches the general elastic-vs-muscular classification rule (internal elastic lamina prominence marks a muscular artery) but does not name the basilar artery specifically as a worked example; this question applies the general rule to a named vessel the article does not itself mention.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL | ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Arterioles are the principal resistance vessels of the systemic circulation, and Poiseuille's law — resistance and flow varying with the fourth power of radius — explains why their smooth-muscle tone has such a powerful effect on local blood flow and total peripheral resistance
+## id
+CON-CVS-EFDC2163E84213
+## canonical_key
+arterioles.resistance-function-and-regulation
+## definition
+Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed. This control ends at the metarteriole, the arteriole's own terminal segment draining directly into the capillary bed, whose smooth muscle thickens into a precapillary sphincter that opens and closes the entrance to that bed. The physical basis is Poiseuille's law: flow is proportional to the pressure gradient and to the radius raised to the fourth power, so a vessel doubling its radius increases flow sixteen-fold from that change alone — which is why small changes in arteriolar diameter dominate local blood flow and resistance far more than comparable changes in driving pressure, and why a blood vessel that displays pressure autoregulation responds to a fall in perfusion pressure with a fall in its own vascular resistance (arteriolar dilation) to defend flow. Arterioles are also more compliant than an elastic artery wall but far less compliant than a vein, whose thin wall and large capacitance make it, not the arteriole, the most compliant vessel type; an arteriole's own constriction instead raises both arterial and capillary pressure downstream.
+## explicit_objective
+Identify arterioles as the principal resistance vessels, explain their role via Poiseuille's fourth-power radius relationship, and distinguish their function (active resistance and flow control) from a vein's (passive capacitance).
+## pitfalls
+Calling arterioles the most compliant vessel type. Veins, not arterioles, are the body's capacitance vessels with the greatest compliance; an arteriole's own smooth muscle instead makes it the vessel best able to actively raise or lower resistance.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p18 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p2 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p22 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p47 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.87
+## exam_weight_by_year
+KAU_Y1=0.87
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Arteriole resistance vessels | Metarteriole | Precapillary sphincter | Poiseuille's law | Pressure autoregulation
+## article_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 3x across the question books] Regarding metarteriole:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL | ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---

@@ -8,7 +8,7 @@
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 13 questions, 1 concepts
+    Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -50,7 +50,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  57 questions were excluded and 0 held back for having no
+  59 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -3590,6 +3590,1298 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3745C9E71EFE
+## title
+Tunica media of aorta is characterized by the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Tunica media of aorta is characterized by the following:
+## answer_a
+Presence of smooth muscle fibers
+## explanation_a
+The aorta's tunica media contains smooth muscle fibres in the spaces between its 40-70 fenestrated elastic membranes, alongside collagen and proteoglycan — the media is not elastic tissue alone.
+
+Why this is right:
+- The aorta, the archetypal large elastic artery, has a tunica media formed of 40 to 70 concentric, fenestrated elastic membranes (laminae), increasing in number with age, with smooth muscle fibres, collagen and proteoglycan filling the spaces between them.
+## answer_b
+Presence of collagen fibers type II
+## explanation_b
+The collagen of the aortic media is not specifically type II — type II collagen is characteristic of cartilage, not the elastic artery wall.
+## answer_c
+Absence of ground substance
+## explanation_c
+Ground substance (proteoglycan) is present between the elastic membranes and smooth-muscle cells of the aortic media, not absent from it.
+## answer_d
+Constitutes 30% of the wall of aorta
+## explanation_d
+The tunica media is by far the dominant layer of the aortic wall, far exceeding 30% of its thickness — the media, not the thin intima or adventitia, is what makes the aorta's wall so thick.
+## correct_answer
+A
+## main_concept
+CON-CVS-D68E630AF7B901
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the aorta's tunica media, though dominated by elastic membranes, still contains smooth muscle fibres between them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q7; Histo MCQ by Dr.Kandeel [104].pdf p17 q7. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-C05F9A47A992
+## title
+In aorta, internal elastic lamina is unclear because:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In aorta, internal elastic lamina is unclear because:
+## answer_a
+It is not present
+## explanation_a
+The internal elastic lamina is present in the aorta's wall — it is simply indistinguishable as a separate structure from the surrounding elastic laminae, not absent altogether.
+## answer_b
+Cannot be stained
+## explanation_b
+The lamina does take up elastic stains in the aorta, the same as its neighbouring elastic membranes; a staining failure is not why it appears unclear.
+## answer_c
+Not differentiated from underlying elastic fibers
+## explanation_c
+In the aorta the tunica media itself is packed with 40 to 70 concentric elastic laminae, so the single internal elastic lamina cannot be distinguished from the many other, equally prominent elastic membranes filling the media around it. A common trap: assuming an unclear internal elastic lamina must mean it is absent, thin, or fails to stain.
+
+Why this is right:
+- The aorta, the archetypal large elastic artery, has a tunica media formed of 40 to 70 concentric, fenestrated elastic membranes (laminae), increasing in number with age, with smooth muscle fibres, collagen and proteoglycan filling the spaces between them.
+## answer_d
+Very thin
+## explanation_d
+Thinness is not the issue — the lamina is obscured by contrast with the surrounding elastic membranes, not by being unusually thin itself.
+## correct_answer
+C
+## main_concept
+CON-CVS-D68E630AF7B901
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Explain that the aorta's internal elastic lamina is unclear because it cannot be told apart from the media's own many elastic membranes, not because it is absent, thin or unstainable.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p17 q6. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-7C5073B723E6
+## title
+Inaorta, internal elastic lamina is unclear because:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Inaorta, internal elastic lamina is unclear because:
+## answer_a
+tis not present.
+## explanation_a
+The internal elastic lamina is present in the aorta's wall — it is simply indistinguishable as a separate structure from the surrounding elastic laminae, not absent altogether.
+## answer_b
+It is very thin.
+## explanation_b
+Thinness is not the issue — the lamina is obscured by contrast with the surrounding elastic membranes, not by being unusually thin itself.
+## answer_c
+Itis not differentiated from underlying elastic fibers.
+## explanation_c
+In the aorta the tunica media itself is packed with 40 to 70 concentric elastic laminae, so the single internal elastic lamina cannot be distinguished from the many other, equally prominent elastic membranes filling the media around it. A common trap: assuming an unclear internal elastic lamina must mean it is absent, thin, or fails to stain.
+
+Why this is right:
+- The aorta, the archetypal large elastic artery, has a tunica media formed of 40 to 70 concentric, fenestrated elastic membranes (laminae), increasing in number with age, with smooth muscle fibres, collagen and proteoglycan filling the spaces between them.
+## answer_d
+{t cannot be stained. Oo
+## explanation_d
+The lamina does take up elastic stains in the aorta, the same as its neighbouring elastic membranes; a staining failure is not why it appears unclear.
+## correct_answer
+C
+## main_concept
+CON-CVS-D68E630AF7B901
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Explain that the aorta's internal elastic lamina is unclear because it cannot be told apart from the media's own many elastic membranes, not because it is absent, thin or unstainable.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p1 q6. Manifest src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CD77CB6D66B9
+## title
+Large elastic arteries are characterized by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Large elastic arteries are characterized by:
+## answer_a
+Longitudinal smooth muscles in tunica adventitia. |
+## explanation_a
+Longitudinal smooth muscle in the tunica adventitia is a real but secondary feature of large elastic arteries, not the defining one.
+## answer_b
+Valves in their walls
+## explanation_b
+Valves belong to veins, particularly medium-sized limb veins — arteries of any class carry no valves.
+## answer_c
+40-70 elastic membranes in tunica media
+## explanation_c
+Large elastic arteries like the aorta are defined by a tunica media of 40 to 70 concentric, fenestrated elastic membranes, letting the wall stretch in systole and recoil in diastole to smooth pulsatile flow. A common trap: assuming an unclear internal elastic lamina must mean it is absent, thin, or fails to stain — in an elastic artery it is present but indistinguishable from these same membranes.
+
+Why this is right:
+- The aorta, the archetypal large elastic artery, has a tunica media formed of 40 to 70 concentric, fenestrated elastic membranes (laminae), increasing in number with age, with smooth muscle fibres, collagen and proteoglycan filling the spaces between them.
+## answer_d
+Prominent external elastic lamina (EEL)
+## explanation_d
+A single, clearly identifiable external elastic lamina is a feature of muscular arteries; in an elastic artery the media's many elastic laminae make any one lamina hard to distinguish separately.
+## correct_answer
+C
+## main_concept
+CON-CVS-D68E630AF7B901
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Artery Classification
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Fix 40-70 concentric fenestrated elastic membranes in the tunica media as the defining histological feature of large elastic arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p15 q12. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-69A013C41813
+## title
+The wall of aorta shows:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The wall of aorta shows:
+## answer_a
+Longitudinal smooth muscles in tunica adventitia
+## explanation_a
+Longitudinal smooth muscle bundles are a real but secondary feature of the aorta's tunica adventitia, not its single defining feature.
+## answer_b
+Circular smooth muscles in tunica intima
+## explanation_b
+Smooth muscle is a tunica media feature; the tunica intima consists only of endothelium and a thin subendothelium, never smooth muscle.
+## answer_c
+Vasa vasorum in tunica media
+## explanation_c
+Vasa vasorum do extend into the outer part of the aortic media from the adventitia, but their defining location is the adventitia, not the media itself.
+## answer_d
+40-70 elastic membranes in tunica media
+## explanation_d
+The aorta's tunica media is packed with 40 to 70 concentric, fenestrated elastic membranes — its single most defining, most frequently tested histological feature. A common trap: assuming an unclear internal elastic lamina must mean it is absent, thin, or fails to stain.
+
+Why this is right:
+- The aorta, the archetypal large elastic artery, has a tunica media formed of 40 to 70 concentric, fenestrated elastic membranes (laminae), increasing in number with age, with smooth muscle fibres, collagen and proteoglycan filling the spaces between them.
+## correct_answer
+D
+## main_concept
+CON-CVS-D68E630AF7B901
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Artery Classification
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Fix 40-70 elastic membranes in the tunica media as the aorta's headline histological feature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q112. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D66CD02AD73B
+## title
+The main feature of basilar artery is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The main feature of basilar artery is:
+## answer_a
+Prominent external elastic lamina.
+## explanation_a
+A prominent external elastic lamina is not the feature this exam bank associates with the basilar artery.
+## answer_b
+Prominent internal elastic lamina.
+## explanation_b
+The basilar artery is noted for an unusually prominent, thick internal elastic lamina — a feature used to help identify this named vessel on a microscope slide, and a sign it is classified as a muscular, not elastic, artery. A common trap: assuming a named artery's size or clinical importance, rather than its tunica media, sets its histological class.
+
+Why this is right:
+- The basilar artery, formed by the union of the two vertebral arteries in the posterior cerebral circulation, is classified histologically as a muscular (medium-sized) artery rather than an elastic one, despite supplying a major cranial territory.
+## answer_c
+Prominent collagen fibers.
+## explanation_c
+Prominent collagen fibres are not the basilar artery's distinguishing histological feature.
+## answer_d
+Prominent vasa vasorum.
+## explanation_d
+Prominent vasa vasorum is a feature associated with large vessels generally needing their own wall nutrition, not a specific hallmark of the basilar artery.
+## correct_answer
+B
+## main_concept
+CON-CVS-523BFBFD316FBF
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name a prominent internal elastic lamina as the basilar artery's specific identifying histological feature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p2 q42. Manifest src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-7C102414A31A
+## title
+The main feature of basilar artery is prominent:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The main feature of basilar artery is prominent:
+## answer_a
+External elastic lamina
+## explanation_a
+A prominent external elastic lamina is not the feature this exam bank associates with the basilar artery.
+## answer_b
+Internal elastic lamina
+## explanation_b
+The basilar artery is noted for an unusually prominent, thick internal elastic lamina — a feature used to help identify this named vessel on a microscope slide, and a sign it is classified as a muscular, not elastic, artery. A common trap: assuming a named artery's size or clinical importance, rather than its tunica media, sets its histological class.
+
+Why this is right:
+- The basilar artery, formed by the union of the two vertebral arteries in the posterior cerebral circulation, is classified histologically as a muscular (medium-sized) artery rather than an elastic one, despite supplying a major cranial territory.
+## answer_c
+Prominent collagen fibers
+## explanation_c
+Prominent collagen fibres are not the basilar artery's distinguishing histological feature.
+## answer_d
+Prominent vasa vasorum
+## explanation_d
+Prominent vasa vasorum is a feature associated with large vessels generally needing their own wall nutrition, not a specific hallmark of the basilar artery.
+## correct_answer
+B
+## main_concept
+CON-CVS-523BFBFD316FBF
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name a prominent internal elastic lamina as the basilar artery's specific identifying histological feature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q12. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BEF95929E78D
+## title
+Regarding metarteriole:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding metarteriole:
+## answer_a
+Connect the arteriole with venule
+## explanation_a
+A metarteriole connects an arteriole to a capillary bed, not directly to a venule — it drains into capillaries, which in turn drain into venules.
+## answer_b
+At their initial segment, is surrounded by sphincter of elastic fibers
+## explanation_b
+The precapillary sphincter — smooth muscle thickened at the metarteriole's origin — is composed of smooth muscle, not a sphincter of elastic fibres.
+## answer_c
+Lateral branches of capillary
+## explanation_c
+The metarteriole is the arteriole's own terminal segment, not a lateral branch of the capillary — capillaries branch from the metarteriole, not the reverse.
+## answer_d
+Control blood flow to capillary
+## explanation_d
+The metarteriole's precapillary sphincter is the last point of active control before the capillary bed, opening and closing to control blood flow into it. A common trap: treating the metarteriole as a separate vessel class rather than the arteriole's own terminal segment.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## correct_answer
+D
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the metarteriole is the arteriole's own terminal segment, controlling blood flow into the capillary bed via its precapillary sphincter.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p2 q18; Histo MCQ by Dr.Kandeel [104].pdf p18 q18; DPT HISTO MCQ [Cardiovascular].pdf p2 q48. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9, src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-23C8FCD0749C
+## title
+All about arterioles is true, except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All about arterioles is true, except:
+## answer_a
+Have muscular walls
+## explanation_a
+True of arterioles, so not the exception — their walls carry one or two layers of smooth muscle even at their smallest calibre.
+## answer_b
+Are the most compliant type of blood vessels
+## explanation_b
+The exception, and the answer. Veins, not arterioles, are the body's most compliant vessel type — their thin walls and large capacitance let them hold a disproportionate share of blood volume with little rise in pressure. An arteriole's own smooth muscle instead makes it the vessel best suited to actively raising or lowering resistance, the opposite property from high compliance.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_c
+Are important in the control of local blood flow
+## explanation_c
+True of arterioles, so not the exception — as the principal resistance vessels, they are central to local blood-flow control.
+## answer_d
+Can constrict leading to rises in arterial and capillary pressure
+## explanation_d
+True of arterioles, so not the exception — arteriolar constriction raises resistance upstream of the capillaries, raising both arterial and capillary pressure.
+## answer_e
+Both b and d
+## explanation_e
+Since B alone is the exception, 'both b and d' is incorrect — d describes a genuine arteriole property, not a false one.
+## correct_answer
+B
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Physiology
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that veins, not arterioles, are the most compliant vessel type, despite arterioles being the principal resistance vessels.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p22 q163. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3BF705486E2C
+## title
+Hypertension develops when the:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Hypertension develops when the:
+## answer_a
+Amount of collagen fibers in media of arterioles becomes high
+## explanation_a
+Increased collagen in the arteriolar media is a chronic structural consequence of long-standing hypertension (vascular remodelling), not the direct, primary trigger of the pressure rise itself.
+## answer_b
+Amount of elastic fibers in media of arterioles becomes low
+## explanation_b
+A decrease in elastic fibres reduces arteriolar compliance over time, a slower structural change, not the immediate mechanism that raises peripheral resistance.
+## answer_c
+Tone of smooth muscles in media of arterioles becomes high
+## explanation_c
+Since arterial pressure equals cardiac output multiplied by total peripheral resistance, a sustained rise in arteriolar smooth-muscle tone directly raises resistance and so raises pressure — the standard direct mechanism of hypertension. A common trap: assuming arterioles are the most compliant vessels; their smooth muscle instead makes them the vessel best suited to actively raising resistance.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_d
+Thickness of tunica adventitia increases
+## explanation_d
+An increase in adventitial thickness is a structural remodelling change, not the direct, acute mechanism by which resistance and pressure rise.
+## correct_answer
+C
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Identify a rise in arteriolar smooth-muscle tone, raising total peripheral resistance, as the direct mechanism of hypertension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p19 q29. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-79363B8126B7
+## title
+Hypertension develops when the: “a. Amount of collagen fibers in media of arterioles be…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Hypertension develops when the: “a. Amount of collagen fibers in media of arterioles becomes high
+## answer_a
+Amount of collagen fibers in media of arterioles becomes high.
+## explanation_a
+Increased collagen in the arteriolar media is a chronic structural consequence of long-standing hypertension (vascular remodelling), not the direct, primary trigger of the pressure rise itself.
+## answer_b
+Amount of elastic fibers in media of arterioles becomes low.
+## explanation_b
+A decrease in elastic fibres reduces arteriolar compliance over time, a slower structural change, not the immediate mechanism that raises peripheral resistance.
+## answer_c
+Tone of smooth muscles in media of arterioles becomes high.
+## explanation_c
+Since arterial pressure equals cardiac output multiplied by total peripheral resistance, a sustained rise in arteriolar smooth-muscle tone directly raises resistance and so raises pressure — the standard direct mechanism of hypertension. A common trap: assuming arterioles are the most compliant vessels; their smooth muscle instead makes them the vessel best suited to actively raising resistance.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_d
+Thickness of tunica adventitia increases.
+## explanation_d
+An increase in adventitial thickness is a structural remodelling change, not the direct, acute mechanism by which resistance and pressure rise.
+## correct_answer
+C
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Identify a rise in arteriolar smooth-muscle tone, raising total peripheral resistance, as the direct mechanism of hypertension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p3 q29. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E21DD5AEBE86
+## title
+In a blood vessel that displays pressure autoregulation, a decrease in perfusion pressu…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In a blood vessel that displays pressure autoregulation, a decrease in perfusion pressure will result in ;
+## answer_a
+Constriction of the arteriole
+## explanation_a
+Constriction would compound a fall in flow, not defend it — autoregulation responds to a pressure fall with dilation, the opposite of constriction.
+## answer_b
+Decrease in vascular resistance
+## explanation_b
+Pressure autoregulation defends flow against a change in perfusion pressure by adjusting arteriolar resistance in the opposite direction — a fall in pressure is met with a fall in resistance (arteriolar dilation), keeping flow relatively constant. A common trap: assuming resistance and pressure must move the same direction, when autoregulation exists precisely to oppose that.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_c
+Release of NO from smooth muscle cells
+## explanation_c
+Nitric oxide release from endothelium is one contributor to vasodilator tone generally, but the defining feature of pressure autoregulation as tested here is the resistance change itself, not this single mediator.
+## answer_d
+Both b & ¢ are correct
+## explanation_d
+Since B alone correctly describes the autoregulatory response, 'both b and c' overstates what the question is testing.
+## correct_answer
+B
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Physiology
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that a fall in perfusion pressure, in a vessel displaying pressure autoregulation, is met with a fall in vascular resistance (arteriolar dilation) to defend flow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p20 q152. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E63EC76627D7
+## title
+Sympathetic stimulation of which vessels cause the greatest increase in total periphera…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Sympathetic stimulation of which vessels cause the greatest increase in total peripheral resistance?
+## answer_a
+Arteries
+## explanation_a
+Large arteries have low resistance and act mainly as conduits, not as the primary site of resistance regulation.
+## answer_b
+Arterioles
+## explanation_b
+Arterioles are the principal resistance vessels: their small radius combined with a well-developed smooth-muscle coat gives them the greatest capacity to change resistance under sympathetic stimulation, since resistance varies with the fourth power of radius. A common trap: assuming arterioles are the most compliant vessels; that property belongs to veins, not arterioles.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_c
+Capillaries
+## explanation_c
+Capillaries carry no smooth muscle in their walls and cannot actively constrict or dilate under sympathetic stimulation.
+## answer_d
+Venules
+## explanation_d
+Venules do respond to sympathetic stimulation, but chiefly by altering venous capacitance and return, not by producing the greatest rise in total peripheral resistance.
+## correct_answer
+B
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Artery Classification
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Identify arterioles as the vessel type whose sympathetic constriction produces the greatest rise in total peripheral resistance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p9 q61. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A245CDA9C991
+## title
+What would be the change in blood flow to a tissue if radius of the arterioles in that …
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+What would be the change in blood flow to a tissue if radius of the arterioles in that tissue is doubled and perfusion pressure is halved? a, Increase 8 times
+## answer_a
+Increase 8 times
+## explanation_a
+By Poiseuille's law, flow is proportional to pressure and to radius to the fourth power. Doubling the radius alone raises flow 2⁴ = 16-fold; halving the pressure alone would halve it; combined, flow rises 16 × ½ = 8-fold. A common trap: forgetting to combine both changes, or misapplying the fourth-power relationship to radius.
+
+Why this is right:
+- Arterioles, the smallest artery branches, are the body's chief resistance vessels: their combination of a small lumen and a well-developed smooth-muscle media lets them change vascular resistance far more than any other vessel type, so sympathetic constriction of arterioles produces the largest rise in total peripheral resistance of any vessel class, and arterioles carry out the last point of active flow control before the capillary bed.
+## answer_b
+Increase 16 times
+## explanation_b
+A 16-fold rise would follow from doubling the radius with pressure held constant — it ignores that halving the pressure cuts this effect in half.
+## answer_c
+Increase 4 times
+## explanation_c
+A 4-fold rise does not correctly apply the radius-to-the-fourth-power relationship of Poiseuille's law to a doubled radius.
+## answer_d
+Decreases 4 times
+## explanation_d
+Flow rises rather than falls overall: the 16-fold gain from doubling the radius outweighs the 2-fold loss from halving the pressure.
+## correct_answer
+A
+## main_concept
+CON-CVS-EFDC2163E84213
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Physiology
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Calculation
+## learning_objective
+Apply Poiseuille's law (flow proportional to radius to the fourth power) to calculate the net change in flow when arteriolar radius doubles and perfusion pressure halves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p47 q1. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
