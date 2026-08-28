@@ -354,3 +354,291 @@ no
 
 ## qualifiers
 scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q6/Q11/Q40
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-PALMITIC-STRUCTURE-01
+## concept_id
+CON-FND-12CC11B43338AB
+## subject
+palmitic acid
+## predicate
+is composed of
+## object
+16 carbon atoms: one methyl group, one carboxyl group and fourteen methylene groups
+## display_text
+Palmitic acid is a 16-carbon saturated fatty acid made of one methyl group, one carboxyl group and fourteen methylene groups.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q1
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-PHOSPHOLIPID-AMPHIPATHIC-01
+## concept_id
+CON-FND-4394B72F86446A
+## subject
+phospholipids
+## predicate
+suit the membrane structure because they are
+## object
+amphipathic
+## display_text
+Phospholipids suit the cell membrane structure because they are amphipathic molecules.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.85
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q3 (raw Q12/Q47 retest the same fact and are not separately authored)
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-LIPID-GLYCEROL-EXCEPTION-01
+## concept_id
+CON-FND-44A0B047535233
+## subject
+cholesterol
+## predicate
+is the exception among lipids that
+## object
+contain glycerol (triacylglycerol, lecithin and phosphatidic acid do; cholesterol does not)
+## display_text
+Triacylglycerols, lecithin and phosphatidic acid all contain glycerol; cholesterol does not.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q8
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-MEMBRANE-CHOL-ESTER-EXCEPTION-01
+## concept_id
+CON-FND-55DDE1821014D4
+## subject
+cholesterol ester
+## predicate
+is not
+## object
+a constituent of biological membranes, unlike cardiolipin, cholesterol, gangliosides, sphingomyelin and plasmalogen
+## display_text
+Cardiolipin, cholesterol, gangliosides, sphingomyelin and plasmalogen are biological membrane constituents; cholesterol ester is not.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q13
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-TAG-GPL-SHARED-FA-01
+## concept_id
+CON-FND-6EB1AE357B8BCA
+## subject
+triacylglycerols and glycerophospholipids
+## predicate
+both contain
+## object
+fatty acids that are either saturated or unsaturated
+## display_text
+Triacylglycerols and glycerophospholipids share the same fatty-acid rule: either component can be saturated or unsaturated.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.75
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q16
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-LIPOPROTEIN-FUNCTION-01
+## concept_id
+CON-FND-BC3711E4C9282F
+## subject
+lipoproteins
+## predicate
+have the main function of
+## object
+transporting lipids in the blood
+## display_text
+The main function of lipoproteins is to transport lipids in the blood.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q41
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-MEMBRANE-ASYMMETRY-01
+## concept_id
+CON-FND-E993B90BE43DDA
+## subject
+plasma membrane phospholipids and carbohydrate
+## predicate
+are asymmetrically distributed such that
+## object
+phosphatidylcholine and cholesterol predominate on the outer leaflet, phosphatidylserine and phosphatidylethanolamine on the inner leaflet, and carbohydrate only on the outer leaflet
+## display_text
+Phosphatidylcholine and cholesterol predominate on the outer leaflet of the plasma membrane, while phosphatidylserine and phosphatidylethanolamine predominate on the inner leaflet, and membrane carbohydrate sits only on the outer face.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q43/Q48
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-OMEGA-NUMBERING-DEF-01
+## concept_id
+CON-FND-EF095C4684A32B
+## subject
+an omega-3 fatty acid
+## predicate
+is defined as having
+## object
+its first double bond at the third carbon counted from the methyl (omega) end
+## display_text
+An omega-3 fatty acid has its first double bond at the third carbon counted from the methyl (omega) end.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q51
+
+---
+
+# Item
+## id
+CLM-FND-ASU-IBM-OMEGA9-OLEIC-01
+## concept_id
+CON-FND-FF8A332748DD30
+## subject
+oleic acid
+## predicate
+is
+## object
+the principal omega-9 fatty acid
+## display_text
+Oleic acid is the principal omega-9 fatty acid.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.8
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## review_due
+
+## qualifiers
+scope: Ain Shams University Year 1 Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q55

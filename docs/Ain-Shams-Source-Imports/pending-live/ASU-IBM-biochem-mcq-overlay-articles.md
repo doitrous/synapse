@@ -9,6 +9,9 @@
        `kau`, module `102 INT`.
     B. docs/Alexandria-Source-Imports/article/AU-MED-102-biochem-structural-articles.md
        — university `au`, module `AU-MED-102`.
+    C. docs/Kasr-Source-Imports/article/101-ISK-histology-2.md — university
+       `kau`, module `101 ISK` (Histology, not Biochemistry — see the sibling
+       overlay-concepts.md file's Target C note).
 
   Per the article manual (04-library-articles.md): every university on a
   shared article needs all five of its own tags — `universities`, `years`,
@@ -381,6 +384,87 @@ ASU-IBM > Biochemistry > Questions > Protein Chemistry
 ## university_notes
 kau: The Medical Biochemistry Department set this chapter as a three-mark explain-the-biochemical-basis question — "HbA1c is used as a test to determine the diabetic control of the patients during the last 3 months" — which quotes the department book's own sentence back at the student and marks the mechanism behind it rather than the sentence itself, on the 2025 end-of-year paper.
 asu: Taught in the ASU-IBM Protein Chemistry question bank (`MCQs - Bg MCQ of bio.pdf`, src_659d23529471fd1ee6c6), pp.9,13 — the four-chain (alpha2-beta2) quaternary structure of haemoglobin.
+
+## field_notes
+arabicTitle: The permitted local ASU-IBM source is English-only; no reviewed Arabic title was available to add for this university.
+
+---
+
+# Item
+
+## id
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## subject
+fnd
+
+## topic
+Biochemistry
+
+## title
+Lipids of biological importance
+
+## summary
+Kasr's Biochemistry department covers lipid classification (simple lipids: neutral fats and waxes), phosphatidic acid's structure and its lecithin/cephalin derivatives, and phosphatidylinositol's second-messenger role.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-IBM
+
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## university_notes
+kau: The 2025 end-of-year paper put three questions on this chapter. "Snake venom is toxic" was a three-mark explain-the-biochemical-basis. The six-mark diagram question printed the eicosanoid synthesis pathway.
+asu: Taught in the ASU-IBM Lipids & Biological Membrane question bank (`MCQs - Bg MCQ of bio.pdf`, src_659d23529471fd1ee6c6), pp.21,23,24,27 — phosphatidic acid as the glycerophospholipid precursor and lecithin/cephalin's respective nitrogenous bases (choline/ethanolamine), the wax-vs-neutral-fat alcohol distinction (monohydric alcohol vs glycerol), and phosphatidylinositol's signal-transduction role.
+
+## field_notes
+arabicTitle: The permitted local ASU-IBM source is English-only; no reviewed Arabic title was available to add for this university.
+
+---
+
+# Item
+
+## id
+ART-101-HIS-THE-CELL
+
+## subject
+fnd
+
+## topic
+Cytology
+
+## title
+The cell and its plasma membrane
+
+## summary
+Kasr's Histology department covers the plasma membrane's fluid-mosaic composition (phospholipid bilayer, cholesterol, integral and peripheral proteins, and outer-face carbohydrate) and the erythrocyte-specific cytoskeleton and glycocalyx that build on it.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-IBM
+
+## module_subject
+101 ISK > Histology > Cytology > The cell
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## university_notes
+asu: Taught in the ASU-IBM Lipids & Biological Membrane question bank (`MCQs - Bg MCQ of bio.pdf`, src_659d23529471fd1ee6c6), p22 — the cell membrane's composition of structural lipids, proteins and a small amount of carbohydrate (the fluid mosaic model), reused from Kasr's Histology cytology chapter rather than re-minted as a Biochemistry-specific fact.
 
 ## field_notes
 arabicTitle: The permitted local ASU-IBM source is English-only; no reviewed Arabic title was available to add for this university.

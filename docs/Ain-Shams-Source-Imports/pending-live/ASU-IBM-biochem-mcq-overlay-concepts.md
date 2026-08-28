@@ -15,6 +15,11 @@
        `kau`, module `102 INT`.
     B. docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-structural-concepts.md
        — university `au`, module `AU-MED-102`.
+    C. docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md — university
+       `kau`, module `101 ISK` (Histology, not Biochemistry — added when the
+       Lipids section's cell-membrane-composition fact turned out to be the
+       same fluid-mosaic-model concept already minted for Kasr's cytology
+       chapter).
 
   Each record below names which one (A/B) it targets. Per LANE-BRIEF §6 rule
   1/2 and the concepts manual (`## module_subject` fully replaces on every
@@ -705,6 +710,118 @@ src_659d23529471fd1ee6c6 | mcq_bank | | p21-25
 
 ## field_notes
 asu: Tested as Q4 (sphingomyelin is not a glycerophospholipid), Q11 (major surfactant component contrast) and Q38 (sphingomyelin is the sphingo-phospholipid, distinct from the glycerophospholipids), pp.21,22,25 of the ASU-IBM Lipids & Biological Membrane bank. Target A.
+
+---
+
+# Item
+
+## id
+CON-FND-D5D15A190D88AE
+
+## label
+Phosphatidic acid (diacylglycerol phosphate) carries a saturated fatty acid at position 1, an unsaturated fatty acid at position 2 and phosphoric acid at position 3 of glycerol, and hydrolysis at position 3 releases 1,2-diacylglycerol and phosphoric acid; lecithin and cephalin are both built on it
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## exam_signal
+src_659d23529471fd1ee6c6 | mcq_bank | | p21-23
+
+## field_notes
+asu: Tested as Q19 (phosphatidic acid is the precursor for glycerophospholipids), Q23 (lecithin's nitrogenous base is choline) and Q24 (cephalin's nitrogenous base is ethanolamine), pp.21,23 of the ASU-IBM Lipids & Biological Membrane bank — all three questions draw on this one concept's phosphatidic-acid-to-lecithin/cephalin relationship. Target A.
+
+---
+
+# Item
+
+## id
+CON-FND-0958D1436FD2E7
+
+## label
+Phosphatidylinositol acts as a second messenger to many chemical transmitters, hormones and growth factors
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## exam_signal
+src_659d23529471fd1ee6c6 | mcq_bank | | p27
+
+## field_notes
+asu: Tested as Q50 ("which glycerophospholipid plays a role in signal transduction" — phosphatidylinositol), p27 of the ASU-IBM Lipids & Biological Membrane bank. Target A.
+
+---
+
+# Item
+
+## id
+CON-FND-E618B54C3E216C
+
+## label
+Simple lipids split into neutral fats (triacylglycerol, three fatty acids on glycerol) and waxes (one fatty acid on a long-chain monohydroxy alcohol higher than glycerol, such as ceramide, cholesteryl esters, and vitamin A or D esters)
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## exam_signal
+src_659d23529471fd1ee6c6 | mcq_bank | | p24
+
+## field_notes
+asu: Tested as Q28 ("which alcohol is used for waxes" — a monohydric large/long-chain alcohol, contrasted with glycerol), p24 of the ASU-IBM Lipids & Biological Membrane bank. Target A.
+
+---
+
+# Item
+
+## id
+CON-FND-85CC08A33D0A88
+
+## label
+The cell membrane is a phospholipid bilayer with cholesterol, peripheral and integral proteins, and carbohydrate on its outer face
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## exam_signal
+src_659d23529471fd1ee6c6 | mcq_bank | | p22
+
+## field_notes
+asu: Tested as Q15 ("the cell membrane is formed of" — structural lipids, proteins and a small amount of carbohydrates), p22 of the ASU-IBM Lipids & Biological Membrane bank; this is the same fluid-mosaic-model concept already minted for Kasr's 101 ISK histology cytology chapter, not a Biochemistry-specific fact. Target C.
 
 ---
 
