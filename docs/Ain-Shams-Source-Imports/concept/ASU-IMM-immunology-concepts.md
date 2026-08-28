@@ -11415,3 +11415,782 @@ ASU_Y1=0.3
 
 ## field_notes
 sparseUpdate: ASU overlay only, added because Ashraf Pt2 Humoral Q17 ("Most abundant Antibody in colostrum is: IgA") tests this exact fact. find-existing.mjs "colostrum" returned this live id, whose own claim already states colostrum is IgA-rich — same objective as our tested fact, so this is a sparse overlay, never a second record. All other fields left untouched.
+
+---
+
+# Item
+
+## id
+CON-IMM-B604BD69563124
+
+## label
+IL-2 is not one of the acute-phase, pro-inflammatory cytokines
+
+## canonical_key
+cytokine.il2.excluded-from-acute-phase-trio
+
+## aliases
+Acute inflammatory cytokines except IL-2
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+IL-6, TNF-alpha and IL-1 are all involved in acute inflammatory reactions (driving fever, leukocytosis and acute-phase protein production), but IL-2 is not one of them: IL-2 is the T-cell growth factor that drives proliferation of already-activated lymphocytes, a distinct role from the acute-phase/pro-inflammatory cytokine group.
+
+## explicit_objective
+Identify IL-2 as the cytokine that is NOT part of the acute inflammatory (pro-inflammatory/acute-phase) cytokine group that includes IL-1, IL-6 and TNF-alpha.
+
+## pitfalls
+Grouping IL-2 with the acute-phase pro-inflammatory cytokines because it is also an immune-signalling molecule; IL-2's role is specifically T-cell proliferation, not the fever/leukocytosis/acute-phase-protein programme that IL-1, IL-6 and TNF-alpha drive.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-IL2-NOT-ACUTE-PHASE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+All of the following cytokines are involved in acute inflammatory reactions except
+a) IL-6
+b) IL-2
+c) TNF-a
+d) IL-1
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamI Q4
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: This is a distinct membership fact from CON-IMM-57534D93572FC4 (cytokine.pro-inflammatory.acute-phase-and-recruitment-effects), which states the mechanism of pro-inflammatory cytokines without naming IL-2 as the excluded member; kept separate rather than folded in so the explanation can name IL-2 specifically. find-existing.mjs "IL-2 acute phase" and "pro-inflammatory cytokines" returned no closer same-grain match.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-2AFB94649004DE
+
+## label
+The Fc region mediates antibody effector function; the Fab arm carries the idiotype
+
+## canonical_key
+antibody.structure.fab-idiotype-fc-effector
+
+## aliases
+Fab vs Fc function
+Antibody effector function location
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+An antibody's biological (effector) functions, such as complement fixation, are mediated by the Fc region — not the Fab arm, the variable region of either chain alone, or the hypervariable region, which instead determine antigen binding. Correspondingly, the Fab arm (built from the variable regions) is the part of the antibody that carries the idiotype and contacts antigen; it is not important for effector function and does not itself contain the J chain.
+
+## explicit_objective
+State that the Fc region, not the Fab arm or variable regions, mediates antibody effector functions, while the Fab arm carries the antibody's idiotype.
+
+## pitfalls
+Assigning effector functions such as complement fixation to the Fab arm or to a variable region; those regions determine antigen binding and idiotype, while effector function is the Fc region's job.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-FAB-FC-FUNCTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Biological function of antibody is mediated by :
+a) Fab region
+b) FC region
+c) Variable region of Light chain
+d) Variable region of Heavy chain
+e) Hyper variable region
+(same fact, also tested here:)
+Which of the following is TRUE regarding the Fab portion of immunoglobulin?
+a) Contains the idiotype of the Ig
+b. Not important to binding of antigen.
+c. Contains the J chain
+d. Mediates biological effector functions of Ab molecules (e.g. complement fixation).
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamI Q12, ExamII Q10
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "Fab portion" and "Fc region function" returned no same-grain live/pending concept; related but distinct from antibody.structure.variableregion-specificity-binding (CON-IMM-DA7860858B2708), which tests where the antigen-binding site itself sits rather than the Fab/Fc functional division.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-D1DF4147B03986
+
+## label
+An antibody's idiotype is determined by the variable region of both the heavy and light chain
+
+## canonical_key
+antibody.idiotype.variableregion-both-chains
+
+## aliases
+Idiotype determinants
+Antibody idiotype variable region
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The idiotype of an antibody (its unique antigen-binding identity) is determined by the variable region of both the heavy chain and the light chain together, not by either chain's variable region alone or by a constant region.
+
+## explicit_objective
+State that the antibody idiotype is determined jointly by the variable regions of both the heavy and light chains.
+
+## pitfalls
+Attributing the idiotype to only the light-chain or only the heavy-chain variable region, or to a constant region; the idiotype is a joint property of both chains' variable regions folding together.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-IDIOTYPE-BOTH-CHAINS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The idiotype of an antigen is determined by
+a) variable region of Light chain
+b) variable region of heavy chain
+c) variable region of both heavy and light chain
+d) Constant region of light chain
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamI Q14, ExamII Q3
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "idiotype" returned no same-grain live/pending concept (also checked in the Humoral batch this same session); distinct from antibody.structure.fab-idiotype-fc-effector, which tests that the Fab arm (not Fc) carries the idiotype, rather than which chain regions determine it.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-E2904C640A6715
+
+## label
+IgM in a newborn is a marker of intrauterine infection because it cannot cross the placenta
+
+## canonical_key
+igm.diagnostic.intrauterine-infection-marker
+
+## aliases
+IgM congenital infection marker
+Neonatal IgM intrauterine infection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Because maternal IgM does not cross the placenta (unlike IgG), any IgM found in a newborn must have been produced by the fetus's own immune system in response to an infection acquired in utero — making IgM a useful clinical marker for intrauterine (congenital) infection, distinct from IgA, IgD or IgG.
+
+## explicit_objective
+State that IgM, since it cannot cross the placenta, serves as the antibody marker of intrauterine infection in a newborn.
+
+## pitfalls
+Selecting IgG as the marker of intrauterine infection; IgG is exactly the isotype that DOES cross the placenta, so its presence reflects passive maternal transfer rather than the infant's own infection, the opposite of what makes IgM diagnostically useful here.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-IGM-INTRAUTERINE-MARKER-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the following immunoglobulins can serve as a marker for intrauterine infections?
+a) IgM
+b) IgA
+c) IgD
+d) IgG
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamI Q13
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "intrauterine infection IgM" and "congenital infection marker" returned no same-grain live/pending concept; distinct from antibody.neonatalpassive.igg-transplacental-iga-milk (this session's Humoral batch), which covers passively acquired antibody, the opposite direction of transfer from this fetal-own-production marker.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+
+# Item
+
+## id
+CON-IMM-5AE67E0CE9228C
+
+## label
+Antibody opsonization lets adaptive immunity enhance innate phagocytosis
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+sparseUpdate: ASU overlay only, added because Ashraf Pt2 Exam I Q3 ("phagocytosis can be stimulated by Ag coated by Complement or Antibody") tests this exact fact. find-existing.mjs "opsonization" returned this live id (and a sibling CON-IMM-6925E1394097CF specific to antiviral opsonization) as the closest same-grain match — same objective as our tested fact (opsonin-coated antigen triggers phagocytosis), so this is a sparse overlay, never a second record. All other fields left untouched.

@@ -2370,3 +2370,169 @@ The support span is the verbatim MCQ stem and options as printed in the departme
 ## counts_as_claim_evidence
 no
 
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IL2-NOT-ACUTE-PHASE-01
+
+## claim_id
+CLM-IMM-IL2-NOT-ACUTE-PHASE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+All of the following cytokines are involved in acute inflammatory reactions except
+a) IL-6
+b) IL-2
+c) TNF-a
+d) IL-1
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-FAB-FC-FUNCTION-01
+
+## claim_id
+CLM-IMM-FAB-FC-FUNCTION-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Biological function of antibody is mediated by :
+a) Fab region
+b) FC region
+c) Variable region of Light chain
+d) Variable region of Heavy chain
+e) Hyper variable region
+(same fact, also tested here:)
+Which of the following is TRUE regarding the Fab portion of immunoglobulin?
+a) Contains the idiotype of the Ig
+b. Not important to binding of antigen.
+c. Contains the J chain
+d. Mediates biological effector functions of Ab molecules (e.g. complement fixation).
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IDIOTYPE-BOTH-CHAINS-01
+
+## claim_id
+CLM-IMM-IDIOTYPE-BOTH-CHAINS-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The idiotype of an antigen is determined by
+a) variable region of Light chain
+b) variable region of heavy chain
+c) variable region of both heavy and light chain
+d) Constant region of light chain
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IGM-INTRAUTERINE-MARKER-01
+
+## claim_id
+CLM-IMM-IGM-INTRAUTERINE-MARKER-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following immunoglobulins can serve as a marker for intrauterine infections?
+a) IgM
+b) IgA
+c) IgD
+d) IgG
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+

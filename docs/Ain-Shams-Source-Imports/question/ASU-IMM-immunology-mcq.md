@@ -9917,3 +9917,2197 @@ yes
 ## author_notes
 
 
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-069
+
+## title
+Which of the following leukocytes increase in number in case of helminthic (parasitic) infections and allergy?
+
+## question
+Which of the following leukocytes increase in number in case of helminthic (parasitic) infections and allergy?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Neutrophils
+
+## explanation_a
+Incorrect. Neutrophils are the classic responders to acute bacterial infection, not the leukocyte that characteristically rises in parasitic infection and allergy.
+
+## answer_b
+Eosinophils
+
+## explanation_b
+Correct. Eosinophils are the myeloid leukocyte that characteristically increases in number during helminthic (parasitic) infections and allergic reactions, reflecting their cytoplasmic granules loaded with parasite-toxic mediators such as major basic protein.
+
+## answer_c
+Basophils
+
+## explanation_c
+Incorrect. Basophils contribute mediator release in allergic reactions but are not the cell whose numbers are the classic marker of parasitic/allergic disease the way eosinophils are.
+
+## answer_d
+Macrophages
+
+## explanation_d
+Incorrect. Macrophages are general phagocytic and antigen-presenting cells; their numbers are not the characteristic marker of parasitic infection or allergy.
+
+## answer_e
+Natural killers
+
+## explanation_e
+Incorrect. Natural killer cells target virally infected and tumour cells; they are not the leukocyte associated with parasitic infection and allergy.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-C6C71F9D2AFEED
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that eosinophils are the leukocyte that increases in helminthic infection and allergy.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q1.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-070
+
+## title
+All of the following are examples of PAMP except?
+
+## question
+All of the following are examples of PAMP except?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Lipopolysaccharides
+
+## explanation_a
+Incorrect. Bacterial lipopolysaccharide is a classic PAMP, so it is not the exception.
+
+## answer_b
+Nucleic acids
+
+## explanation_b
+Incorrect. Microbial nucleic acids are recognised as PAMPs, so this is not the exception.
+
+## answer_c
+Teichoic acid
+
+## explanation_c
+Incorrect. Teichoic acid, a bacterial cell-wall component, is a genuine PAMP, so this is not the exception.
+
+## answer_d
+Defensins
+
+## explanation_d
+Correct. Defensins are host-made antimicrobial peptide effectors, not a pathogen-borne molecular pattern — they are produced by the host, not carried by the microbe, which is exactly why they are not a PAMP even though they act in innate defence.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-096844D3D86109
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that defensins, being host-made, are not a PAMP, unlike lipopolysaccharide, nucleic acids and teichoic acid.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-071
+
+## title
+Which of the following sentences is correct regarding phagocytosis?
+
+## question
+Which of the following sentences is correct regarding phagocytosis?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+It's an Ag-specific process
+
+## explanation_a
+Incorrect. Phagocytosis is a non-specific innate mechanism triggered by pattern recognition, not an antigen-specific process the way adaptive recognition is.
+
+## answer_b
+Involves recognition of processed antigen
+
+## explanation_b
+Incorrect. Recognition of processed antigen presented in an MHC groove is the adaptive T-cell recognition pattern, not how innate phagocytic recognition works.
+
+## answer_c
+Can be stimulated by Ag coated by complement or antibody
+
+## explanation_c
+Correct. Phagocytosis can be stimulated by an antigen that has been coated (opsonised) by complement or antibody — opsonisation lets adaptive humoral immunity enhance innate phagocytic recognition and uptake, one of the key ways antibody protects against extracellular pathogens.
+
+## answer_d
+Extracellular killing is one of the steps
+
+## explanation_d
+Incorrect. Killing during phagocytosis happens intracellularly, chiefly via the oxidative burst inside the phagosome, not extracellularly.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5AE67E0CE9228C
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that phagocytosis can be stimulated by antigen opsonised by complement or antibody.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-072
+
+## title
+All of the following cytokines are involved in acute inflammatory reactions except:
+
+## question
+All of the following cytokines are involved in acute inflammatory reactions except:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+IL-6
+
+## explanation_a
+Incorrect. IL-6 is a genuine acute-phase pro-inflammatory cytokine, so it is not the exception.
+
+## answer_b
+IL-2
+
+## explanation_b
+Correct. IL-2 is the T-cell growth factor that drives proliferation of already-activated lymphocytes; it is not part of the acute-phase, pro-inflammatory cytokine group that includes IL-1, IL-6 and TNF-alpha, which drive fever, leukocytosis and acute-phase protein production.
+
+## answer_c
+TNF-a
+
+## explanation_c
+Incorrect. TNF-alpha is a core acute-phase pro-inflammatory cytokine, so it is not the exception.
+
+## answer_d
+IL-1
+
+## explanation_d
+Incorrect. IL-1 is a core acute-phase pro-inflammatory cytokine (and endogenous pyrogen), so it is not the exception.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-B604BD69563124
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IL-2, unlike IL-1, IL-6 and TNF-alpha, is not part of the acute-phase pro-inflammatory cytokine group.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-073
+
+## title
+The smallest biochemical unit of an antigen that can bind to components of the immune system is:
+
+## question
+The smallest biochemical unit of an antigen that can bind to components of the immune system is:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Hapten
+
+## explanation_a
+Incorrect. A hapten is a small chemical group that is not immunogenic by itself unless conjugated to a carrier — it is not defined as the smallest antigen-binding unit itself.
+
+## answer_b
+Epitope
+
+## explanation_b
+Correct. The epitope (antigenic determinant) is the smallest biochemical unit of an antigen that is bound and recognised by components of the immune system, such as a T-cell receptor or antibody.
+
+## answer_c
+Paratope
+
+## explanation_c
+Incorrect. The paratope is the antibody's own antigen-binding site, not a unit of the antigen itself.
+
+## answer_d
+Isotope
+
+## explanation_d
+Incorrect. "Isotope" refers to a variant of a chemical element, not an immunological binding unit — a distractor confusable with "isotype" by spelling alone.
+
+## answer_e
+Isotype
+
+## explanation_e
+Incorrect. Isotype refers to an antibody class (IgG, IgM, etc.), not a unit of antigen.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-C40D293E3E989D
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify the epitope as the smallest antigen unit recognised by the immune system.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-074
+
+## title
+Which of the following cells recognize peptides associated with the MHC-I molecule?
+
+## question
+Which of the following cells recognize peptides associated with the MHC-I molecule?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+T-helpers "CD4"
+
+## explanation_a
+Incorrect. CD4+ T-helper cells are restricted by MHC class II, not MHC class I.
+
+## answer_b
+Neutrophils
+
+## explanation_b
+Incorrect. Neutrophils are innate phagocytes and do not recognise MHC-I-presented peptide the way a T cell does.
+
+## answer_c
+B lymphocytes
+
+## explanation_c
+Incorrect. B lymphocytes recognise native antigen through their B-cell receptor, not MHC-I-restricted peptide.
+
+## answer_d
+T-cytotoxic "CD8"
+
+## explanation_d
+Correct. CD8+ (cytotoxic) T cells are restricted by MHC class I: their T-cell receptor recognises peptide only when presented in an MHC-I groove, with CD8 itself acting as the co-receptor for MHC-I.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-EDDCC1F705F847
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify CD8+ T cells as the cells that recognise MHC-I-presented peptide.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-075
+
+## title
+Which of the following interactions is required for the activation of T-helpers?
+
+## question
+Which of the following interactions is required for the activation of T-helpers?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+B7 with CD28
+
+## explanation_a
+Correct. Full T-helper activation requires the costimulatory (second) signal delivered by B7 on the antigen-presenting cell engaging CD28 on the T cell, on top of the first signal from TCR-peptide-MHC engagement.
+
+## answer_b
+MHC-I and TCR
+
+## explanation_b
+Incorrect. MHC-I and TCR engagement is the CD8+/cytotoxic-T-cell restriction pattern, not the CD4+ T-helper's MHC-II-restricted recognition, and it is a recognition step rather than the costimulatory interaction the question asks about.
+
+## answer_c
+B7 with LFA-1
+
+## explanation_c
+Incorrect. B7-LFA-1 is not the costimulatory pairing for T-cell activation; B7 pairs with CD28 (activating) or CTLA-4 (inhibitory).
+
+## answer_d
+B7 with CTLA-4
+
+## explanation_d
+Incorrect. B7 binding CTLA-4 delivers an inhibitory signal that down-regulates T-cell activity, the opposite of what is needed for activation.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-0E5F986A985CB9
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify B7-CD28 engagement as the costimulatory interaction required for T-helper activation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-076
+
+## title
+Regarding TH-1 and TH-2, which one of the following statements is correct?
+
+## question
+Regarding TH-1 and TH-2, which one of the following statements is correct?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+TH-1 promotes cell-mediated immunity
+
+## explanation_a
+Correct. Th1 cells secrete IFN-gamma and support macrophage-mediated, cell-mediated immunity — the defining function that distinguishes the Th1 subset from Th2.
+
+## answer_b
+TH-2 produces IL-12 and promotes formation of TH-1
+
+## explanation_b
+Incorrect. IL-12 promoting Th1 formation is produced by activated macrophages, not by Th2 cells; Th2 cells themselves produce IL-4, IL-5 and IL-13.
+
+## answer_c
+TH-1 produces IL-17 that enhances neutrophil activity
+
+## explanation_c
+Incorrect. IL-17-driven neutrophil recruitment is associated with the Th17 subset, not Th1, whose signature cytokine is IFN-gamma.
+
+## answer_d
+TH-2 and TH-1 both positively regulate each other
+
+## explanation_d
+Incorrect. Th1 and Th2 subsets characteristically antagonise (cross-regulate negatively), not positively regulate, each other.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-6C257C64D17F08
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that Th1 cells promote cell-mediated immunity, correcting the swapped Th1/Th2/Th17 distractors.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-077
+
+## title
+Extracellular killing by cytotoxic T lymphocytes is mediated by:
+
+## question
+Extracellular killing by cytotoxic T lymphocytes is mediated by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Perforin and granzyme only
+
+## explanation_a
+Correct. Cytotoxic (CD8+) T lymphocytes kill their targets chiefly through the perforin/granzyme mechanism: perforin forms pores in the target-cell membrane, and granzymes enter through them to trigger apoptosis.
+
+## answer_b
+B7 and CD28
+
+## explanation_b
+Incorrect. B7-CD28 is the T-cell costimulatory (activation) pairing, not the killing mechanism.
+
+## answer_c
+B7 and CTLA-4
+
+## explanation_c
+Incorrect. B7-CTLA-4 delivers an inhibitory signal on the T cell itself; it is not a killing mechanism.
+
+## answer_d
+CD95 and CD95-L
+
+## explanation_d
+Incorrect. CD95/CD95-L (Fas/FasL) is a real, second CTL-killing pathway, but it is distinct from the perforin/granzyme mechanism this question keys as correct — the stem specifies "perforin and granzyme only", so a different named pathway cannot also be the answer.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-7EBC289118B06C
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that cytotoxic T cells kill target cells via perforin and granzyme.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-078
+
+## title
+Which of the following cytokines is produced by CD4+ CD25+ T cells?
+
+## question
+Which of the following cytokines is produced by CD4+ CD25+ T cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+IL-2 and IFN-Y
+
+## explanation_a
+Incorrect. IL-2 and IFN-gamma are Th1-associated cytokines, not the signature output of CD4+CD25+ regulatory T cells.
+
+## answer_b
+IL-10 and TGF-B
+
+## explanation_b
+Correct. CD4+CD25+ T cells are regulatory T cells, whose signature inhibitory cytokines are IL-10 and TGF-beta, which dampen immune activation rather than drive it.
+
+## answer_c
+IL-5, 4 & 13
+
+## explanation_c
+Incorrect. IL-4, IL-5 and IL-13 are Th2-associated cytokines, not the regulatory T-cell signature.
+
+## answer_d
+IFN-a & IFN-B
+
+## explanation_d
+Incorrect. IFN-alpha and IFN-beta are type I interferons involved in antiviral defence, not products of CD4+CD25+ regulatory T cells.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-E0C9FDCE3A6A5D
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that CD4+CD25+ regulatory T cells produce the inhibitory cytokines IL-10 and TGF-beta.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-079
+
+## title
+CD40 and CD40L interaction is important for:
+
+## question
+CD40 and CD40L interaction is important for:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Antigen presentation
+
+## explanation_a
+Incorrect alone. Antigen presentation itself is not specifically dependent on CD40-CD40L engagement (that pairing acts after presentation, on the B cell already engaged by the T helper), so "all of the above" is not correct and this option alone is not the specific answer either.
+
+## answer_b
+Differentiation into memory cells
+
+## explanation_b
+Incorrect alone. CD40-CD40L supports the broader T-cell-help programme, but the specific, defining role tested here is isotype switching, not memory differentiation in isolation.
+
+## answer_c
+Switching antibody isotype
+
+## explanation_c
+Correct. CD40-CD40L engagement between the B cell and the activated T-helper cell is the specific molecular signal required for isotype (class-switch) recombination.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. Since antigen presentation is not itself a CD40-CD40L-dependent step, "all of the above" overstates the interaction's role; isotype switching is the precise, keyed answer.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-F5355ED5234523
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify isotype switching as the process that specifically depends on CD40-CD40L engagement.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-080
+
+## title
+Biological function of antibody is mediated by:
+
+## question
+Biological function of antibody is mediated by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Fab region
+
+## explanation_a
+Incorrect. The Fab region carries the antigen-binding site and idiotype, not the antibody's biological effector functions.
+
+## answer_b
+Fc region
+
+## explanation_b
+Correct. An antibody's biological (effector) functions, such as complement fixation, are mediated by the Fc region.
+
+## answer_c
+Variable region of light chain
+
+## explanation_c
+Incorrect. The light-chain variable region contributes to antigen binding, not to effector function.
+
+## answer_d
+Variable region of heavy chain
+
+## explanation_d
+Incorrect. The heavy-chain variable region contributes to antigen binding, not to effector function.
+
+## answer_e
+Hyper variable region
+
+## explanation_e
+Incorrect. The hypervariable region determines antigen-binding specificity, not effector function.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-2AFB94649004DE
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that the Fc region, not the Fab arm or variable regions, mediates antibody effector function.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-081
+
+## title
+Which of the following immunoglobulins can serve as a marker for intrauterine infections?
+
+## question
+Which of the following immunoglobulins can serve as a marker for intrauterine infections?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+IgM
+
+## explanation_a
+Correct. IgM does not cross the placenta, so any IgM found in a newborn must have been produced by the fetus itself in response to an in-utero infection — making fetal/neonatal IgM a marker of intrauterine (congenital) infection.
+
+## answer_b
+IgA
+
+## explanation_b
+Incorrect. IgA is not the isotype used as the classic marker of intrauterine infection; maternal IgA reaches the infant chiefly through breast milk after birth, not as a fetal-production marker.
+
+## answer_c
+IgD
+
+## explanation_c
+Incorrect. IgD's principal role is as a naive B-cell surface receptor; it is not used as an intrauterine-infection marker.
+
+## answer_d
+IgG
+
+## explanation_d
+Incorrect. IgG is the isotype that DOES cross the placenta, so its presence in a newborn reflects passive maternal transfer rather than the infant's own infection — the opposite of what makes IgM a useful marker.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-E2904C640A6715
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IgM, since it cannot cross the placenta, is the antibody marker of intrauterine infection.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-082
+
+## title
+The idiotype of an antigen is determined by:
+
+## question
+The idiotype of an antigen is determined by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Variable region of light chain
+
+## explanation_a
+Incorrect. The light-chain variable region alone is only half of what determines the idiotype.
+
+## answer_b
+Variable region of heavy chain
+
+## explanation_b
+Incorrect. The heavy-chain variable region alone is only half of what determines the idiotype.
+
+## answer_c
+Variable region of both heavy and light chain
+
+## explanation_c
+Correct. The idiotype of an antibody is determined jointly by the variable region of both the heavy and the light chain, which together fold to form the unique antigen-binding identity.
+
+## answer_d
+Constant region of light chain
+
+## explanation_d
+Incorrect. A constant region does not determine the idiotype; constant regions are shared across many antibodies of a given isotype and mediate effector function instead.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-D1DF4147B03986
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that the idiotype is determined by the variable region of both the heavy and light chains together.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-083
+
+## title
+Which of the following molecules can serve as signal transduction molecules on B cells?
+
+## question
+Which of the following molecules can serve as signal transduction molecules on B cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Fc
+
+## explanation_a
+Incorrect. The Fc region mediates effector function on secreted antibody; it is not a B-cell-receptor signal-transduction partner.
+
+## answer_b
+IgM and IgD
+
+## explanation_b
+Incorrect. Surface IgM and IgD are the antigen-recognition components of the B-cell receptor, but they lack the cytoplasmic machinery to transduce the signal themselves.
+
+## answer_c
+IgG
+
+## explanation_c
+Incorrect. IgG is a secreted effector isotype in this context, not the B-cell receptor's signal-transduction partner.
+
+## answer_d
+Ig-alpha & Ig-Beta
+
+## explanation_d
+Correct. Ig-alpha and Ig-beta are the molecules that carry out signal transduction for the B-cell antigen receptor once membrane IgM/IgD binds antigen.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-B3F936B93C6E0F
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify Ig-alpha and Ig-beta as the B-cell receptor's signal-transduction molecules.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section II (Assessment Exam I), Q15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+

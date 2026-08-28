@@ -84,16 +84,64 @@ duplicate, matching the triage's own call).
    `medical:audit` the same way (blank needs either a real value or a
    `relatedArticleIds:` field_note) — it is not merely decorative.
 
+## Commit 2 — Ashraf Pt2 Exam I, all 15 Qs. DONE.
+
+4 new concepts (`cytokine.il2.excluded-from-acute-phase-trio`,
+`antibody.structure.fab-idiotype-fc-effector`, `antibody.idiotype.variableregion-both-chains`,
+`igm.diagnostic.intrauterine-infection-marker`) + 1 sparse update onto live
+opsonization concept `CON-IMM-5AE67E0CE9228C` (find-existing.mjs "opsonization"
+hit). 11 of 15 Exam I questions reuse concepts already minted (7 pre-existing
+from Block A, 2 new from this branch's own Humoral commit, 1 live sparse-update
+from Block A's perforin overlay) — only 4 genuinely new concepts needed for the
+whole section. `QST-ASU-IMM-069`..`083`.
+
+Two `article_ids`/`related_concepts` coverage fixes needed after first
+`medical:batch` pass (both because a question's `library_ids` must match one
+of the concept's own registered `article_ids`, or the reverse-link via an
+article's `related_concepts`, not just "some article exists"):
+eosinophil's real teaching article is `ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY`,
+not `ART-ASU-IMM-INNATE-BASICS`; the opsonization sparse-update concept
+carries no `article_ids` of its own (it is a partial overlay on a live
+record), so it was added to `ART-ASU-IMM-INNATE-BASICS`'s `related_concepts`
+for the reverse-link.
+
+Validation: `medical:batch` questions `--with` concepts+article+resources+
+sources: 0 errors, fieldsUsed 49. `medical:simulate` (positional, all 8
+files): concepts `created:65, updated:3`, claims/citations `created:65`
+each, spans unchanged at 6, questions `created:83`. **0 errors, 0 rejected,
+0 skipped.** `medical:audit`: **0 errors.** `medical:concept-ids`: exit 0,
+no rival ids. `medical:duplicate-keys`: 0 canonical-key collisions.
+`medical:validate:authoring`: 0 errors.
+
+Note: `medical:batch` run directly on `evidence/*-citations.md` with
+`--with` the sources/resources files reports "not a source the corpus
+contains" for every row, including the original, already-passing Block A
+rows — this is a pre-existing tool limitation in how citations resolve
+`resource_id` via `--with` (unrelated to this branch's content); the real
+gate for the evidence chain is `medical:simulate`, which resolves it
+correctly and passed 0 errors.
+
 ## Remaining OWED (next sitting)
-- Ashraf Pt2 — Exam I (15 Qs), Exam II (15 Qs), Extra (15 Qs) = 45 Qs left.
-  Full stems/options/keys for all 45 are already transcribed and verified
-  (direct image reads) in this session's transcript; the concept-reuse map
-  against both the pre-existing 47 concepts and this commit's 14 new ones is
-  already worked out — most of Exam I/II/Extra reuses existing concepts
-  (only ~11 new concepts needed across all 45, several shared with each
-  other and with 3 of this commit's Humoral concepts via `exam_signal`
-  cross-references already written in). Re-derive quickly from this file's
-  git history / the dispatching session's transcript rather than re-doing
-  the image reads.
+- Ashraf Pt2 — Exam II (15 Qs), Extra (15 Qs) = 30 Qs left. Full
+  stems/options/keys for both sections are already transcribed and verified
+  (220dpi direct image reads) in this branch's authoring session; most
+  reuse concepts already minted across the Humoral/Exam-I commits (per the
+  concept-reuse map: `CON-IMM-A89092F59B7397` for E2-4 neutrophil-PRR,
+  `CON-IMM-823F05209D7145` for E2-5 hapten, `CON-IMM-D981D07A61E9FE` for
+  E2-7 MHC-I cytosol, `CON-IMM-521ADF1111D704` for E2-8 superantigen,
+  `CON-IMM-D1DF4147B03986` for E2-3 idiotype (this branch), `CON-IMM-19D6B87A141F6D`
+  for E2-14 CD4/CD8, `CON-IMM-2AFB94649004DE`/`CON-IMM-7C76D5D920C47C` for
+  E2-10/E2-9, `CON-IMM-FD2151E25121CF` for X3/X13 (Th1 NOT bind soluble Ag),
+  `CON-IMM-17CE429C40F7BD` for X1, `CON-IMM-282B44B64B1FD2` for X4,
+  `CON-IMM-F4A968204B2571` for X5/X10, `CON-IMM-4D425614619A4B` for X8,
+  `CON-IMM-AB38F5017A2AB9` for X12). Roughly 6 genuinely new concepts still
+  needed (monocyte→macrophage, NK-cell viral/tumor killing, lymph-node
+  activation site, CD3-absent-on-B-cells, IgA mucosal-respiratory
+  protection, Th17-neutrophil extracellular-bacteria clearance, TCR
+  alpha-beta heterodimer structure, IL-2/Th1-source, B+dendritic-cell
+  antigen presentation, clonal-expansion purpose, naive-BCR IgM+IgD — some
+  of these were already minted in this session's exploratory pass and can
+  be reused directly; re-derive the exact ids from this session's transcript
+  rather than re-searching).
 - hegazy.pdf and the 241-Q generic bank: still block-level triage only,
   full per-question authoring not started.

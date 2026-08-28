@@ -2634,3 +2634,182 @@ no
 ## qualifiers
 source_scope: ASU Year 1 Immunology, Term 1
 
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IL2-NOT-ACUTE-PHASE-01
+
+## concept_id
+CON-IMM-B604BD69563124
+
+## subject
+IL-2 is not among the acute-phase pro-inflammatory cytokines
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamI Q4
+
+## display_text
+IL-6, TNF-alpha and IL-1 are involved in acute inflammatory reactions; IL-2 is not, since its role is T-cell proliferation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-FAB-FC-FUNCTION-01
+
+## concept_id
+CON-IMM-2AFB94649004DE
+
+## subject
+The Fc region mediates antibody effector function; the Fab arm carries the idiotype
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamI Q12, ExamII Q10
+
+## display_text
+Biological effector functions of an antibody (e.g. complement fixation) are mediated by the Fc region; the Fab arm carries the idiotype.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IDIOTYPE-BOTH-CHAINS-01
+
+## concept_id
+CON-IMM-D1DF4147B03986
+
+## subject
+Antibody idiotype is determined by the variable region of both chains
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamI Q14, ExamII Q3
+
+## display_text
+The idiotype of an antibody is determined by the variable region of both the heavy and light chains together.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IGM-INTRAUTERINE-MARKER-01
+
+## concept_id
+CON-IMM-E2904C640A6715
+
+## subject
+IgM is the marker of intrauterine infection because it cannot cross the placenta
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamI Q13
+
+## display_text
+Because maternal IgM cannot cross the placenta, IgM found in a newborn indicates fetal-own production in response to intrauterine infection.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
