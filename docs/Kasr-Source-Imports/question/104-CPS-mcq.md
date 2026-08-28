@@ -24,7 +24,7 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 6 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Function — 16 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
@@ -46,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  21 questions were excluded and 0 held back for having no
+  23 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -15313,6 +15313,742 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [1
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4D93920B194B
+## title
+All are involved in ventricular isometric contraction phase except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All are involved in ventricular isometric contraction phase except:
+## answer_a
+the ventricular pressure increases very rapidly.
+## explanation_a
+True of isovolumetric contraction, so not the exception. With both AV and semilunar valves shut and the ventricle contracting against a closed system, pressure inside it rises very rapidly.
+## answer_b
+the ventricular volume decreases markedly.
+## explanation_b
+The exception, and the answer. Isovolumetric ('isovolumic') contraction is defined by an unchanged ventricular volume — both valve sets are shut, so no blood can enter or leave — not a decreasing one; volume only starts falling once the semilunar valves open for ejection.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_c
+the first heart sound.
+## explanation_c
+True, so not the exception. The first heart sound, produced by AV valve closure, occurs at the very start of this phase.
+## answer_d
+Q wave starts about 0.02 sec. before start of this phase.
+## explanation_d
+True, so not the exception. The QRS complex (ventricular depolarisation) precedes and triggers ventricular contraction, starting a short interval (about 0.02 sec) before isovolumetric contraction itself begins.
+## correct_answer
+B
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that ventricular volume stays constant, not decreases, during isovolumetric contraction, as the false statement among its other true characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q77. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8E53378C8C5A
+## title
+During isovolumetric ventricular contraction
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During isovolumetric ventricular contraction
+## answer_a
+Rapid filling of ventricles occur
+## explanation_a
+Rapid filling is a diastolic phase that follows AV valve opening, well after isovolumetric contraction has ended.
+## answer_b
+The first heart sound is produced
+## explanation_b
+The first heart sound, produced by AV valve closure, is generated at the start of isovolumetric ventricular contraction.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_c
+The maximum volume of blood is ejected
+## explanation_c
+Maximal ejection of blood happens once the semilunar valves open, which is the phase that follows isovolumetric contraction, not this phase itself — by definition no blood is ejected while the ventricle is sealed shut.
+## answer_d
+The tension is decreased while the volume is constant
+## explanation_d
+The opposite is true: tension (pressure) rises rapidly while volume stays constant during isovolumetric contraction, not the reverse.
+## correct_answer
+B
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the first heart sound is produced during isovolumetric ventricular contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q48. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BA56B1B3488E
+## title
+During isovolumetric ventricular contraction ‘a. Rapid filling of ventricles occur
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During isovolumetric ventricular contraction ‘a. Rapid filling of ventricles occur
+## answer_a
+Rapid filling of ventricles occur
+## explanation_a
+Rapid filling is a diastolic phase that follows AV valve opening, well after isovolumetric contraction has ended.
+## answer_b
+The first heart sound is produced
+## explanation_b
+The first heart sound, produced by AV valve closure, is generated at the start of isovolumetric ventricular contraction.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_c
+The maximum volume of blood is ejected
+## explanation_c
+Maximal ejection of blood happens once the semilunar valves open, which is the phase that follows isovolumetric contraction, not this phase itself — by definition no blood is ejected while the ventricle is sealed shut.
+## answer_d
+The tension is decreased while the volume is constant
+## explanation_d
+The opposite is true: tension (pressure) rises rapidly while volume stays constant during isovolumetric contraction, not the reverse.
+## correct_answer
+B
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology Cardiovascular System — Cardiac Function
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the first heart sound is produced during isovolumetric ventricular contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p3 q10. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-563709489D06
+## title
+During the isometric contraction pnase of cardiac cycle, what happens to the ventricula…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During the isometric contraction pnase of cardiac cycle, what happens to the ventricular volume?
+## answer_a
+Decreases
+## explanation_a
+Volume does not decrease here — both AV and semilunar valves are shut, so no blood can leave the ventricle yet; volume only starts decreasing once ejection (semilunar valve opening) begins.
+## answer_b
+Increases
+## explanation_b
+Volume cannot increase either, since the AV valves are already shut and no blood can enter.
+## answer_c
+Remains unchanged
+## explanation_c
+Ventricular volume remains unchanged (isovolumetric/isometric) throughout this phase, because both valve sets are closed while the ventricle's rising pressure has not yet reached the level needed to open the semilunar valves.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_d
+Decreases as the intraventricular pressure increases
+## explanation_d
+Volume does not decrease during this phase at all — rising intraventricular pressure is exactly what defines it, but with volume held constant, not falling, until ejection begins.
+## correct_answer
+C
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State that ventricular volume remains unchanged during isometric (isovolumetric) contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p11 q48. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-84DBAA257A63
+## title
+Regarding the isovolumetric contraction phase of cardiac cycle, what happens?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the isovolumetric contraction phase of cardiac cycle, what happens?
+## answer_a
+Starts with sudden closure of semilunar valves producing 1st heart sound
+## explanation_a
+Isovolumetric contraction starts with sudden closure of the AV valves, not the semilunar valves — AV valve closure is what produces the first heart sound at this phase's start.
+## answer_b
+By the end of this phase the left ventricular pressure equals 10 mmHG
+## explanation_b
+By the end of this phase, left ventricular pressure has risen to about aortic diastolic pressure (roughly 80 mmHg) — the level it must reach to force the semilunar valves open — not 10 mmHg, which is far too low.
+## answer_c
+The ventricular volume remains unchanged
+## explanation_c
+Ventricular volume remains unchanged throughout isovolumetric contraction — this is exactly what 'isovolumetric' means, since both valve sets are shut and no blood can enter or leave.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_d
+Atrial pressure decreases to minimum
+## explanation_d
+Atrial pressure does not fall to its minimum here; the small "c wave" rise (from the closed AV valve bulging back into the atrium) occurs around this phase, and atrial pressure reaches its true minimum later, during rapid ejection (the "x descent").
+## correct_answer
+C
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology Cardiovascular System — Cardiac Function
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a true statement
+## learning_objective
+State that ventricular volume remains unchanged throughout isovolumetric contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p7 q51. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BEDCBE8FAC5D
+## title
+During which phase of the cardiac cycle is aortic pressure highest?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During which phase of the cardiac cycle is aortic pressure highest?
+## answer_a
+Isovolumetric ventricular contraction
+## explanation_a
+Aortic pressure is still at its diastolic low during isovolumetric contraction — the semilunar valves have not opened yet, so no blood has entered the aorta to raise it.
+## answer_b
+Rapid ventricular ejection
+## explanation_b
+Aortic pressure rises on the ejection-driven anacrotic limb, which coincides with rapid (maximal) ventricular ejection, reaching its peak (about 120 mmHg, systolic pressure) here.
+
+Why this is right:
+- On the aortic pressure curve, the dicrotic notch is a sharp drop in pressure caused by closure of the aortic valve at the end of systole, and is followed by the dicrotic wave, a small rise caused by backwardly moving blood bouncing against the closed elastic aortic valve during isovolumetric relaxation.
+## answer_c
+Reduced ventricular ejection
+## explanation_c
+Reduced ejection falls on the descending catacrotic limb, after the pressure peak of rapid ejection has already passed.
+## answer_d
+Rapid ventricular filling
+## explanation_d
+Aortic pressure is already declining toward its diastolic minimum during rapid ventricular filling, long after the ejection-phase peak.
+## correct_answer
+B
+## main_concept
+CON-CVS-F8BD2261B8CBDA
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that aortic pressure peaks during rapid (maximal) ventricular ejection.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p8 q58. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-7A3305392839
+## title
+During which phase of the cardiac cycle is ventricular volume lowest?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+During which phase of the cardiac cycle is ventricular volume lowest?
+## answer_a
+Isovolumetric ventricular contraction i
+## explanation_a
+Ventricular volume is at its highest, not lowest, at the start of isovolumetric contraction — filling has just finished and ejection has not yet begun.
+## answer_b
+Rapid ventricular ejection
+## explanation_b
+Ventricular volume is still falling throughout rapid ejection as blood leaves the ventricle; it has not yet reached its lowest point.
+## answer_c
+Reduced ventricular ejection
+## explanation_c
+Ventricular volume continues to fall through reduced ejection, reaching its true minimum only at this phase's very end.
+## answer_d
+TIsovolumetric ventricular relaxation
+## explanation_d
+Ventricular volume reaches its minimum (the end-systolic volume) at the end of ejection and then stays fixed at that lowest value throughout isovolumetric relaxation, since both valve sets are shut and no blood can enter until the AV valves open for filling.
+
+Why this is right:
+- The cardiac cycle proceeds through seven ordered phases — atrial systole, isovolumetric contraction, rapid ejection, reduced ejection, isovolumetric relaxation, rapid filling, and reduced filling — and as heart rate rises the cycle shortens mainly at the expense of diastole rather than systole.
+## correct_answer
+D
+## main_concept
+CON-CVS-8D34A57C987227
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that ventricular volume is at its lowest, held constant, throughout isovolumetric relaxation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p8 q59. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-59010C08833A
+## title
+All are involved in ventricular filling except: ;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All are involved in ventricular filling except: ;
+## answer_a
+atrial systole phase.
+## explanation_a
+Atrial systole is involved in ventricular filling, so not the exception — it is the final, active top-up of ventricular volume before the AV valves close.
+## answer_b
+maximum ejection phase.
+## explanation_b
+The exception, and the answer. Maximum (rapid) ejection is when blood leaves the ventricle through the open semilunar valves, the opposite process to filling.
+
+Why this is right:
+- The cardiac cycle proceeds through seven ordered phases — atrial systole, isovolumetric contraction, rapid ejection, reduced ejection, isovolumetric relaxation, rapid filling, and reduced filling — and as heart rate rises the cycle shortens mainly at the expense of diastole rather than systole.
+## answer_c
+maximum filling phase.
+## explanation_c
+Maximum (rapid) filling is involved in ventricular filling by definition, so not the exception — it is the phase of fastest AV-valve-driven inflow.
+## answer_d
+reduced filling phase.
+## explanation_d
+Reduced filling (diastasis) is involved in ventricular filling, so not the exception — it is the slower continuation of filling before the next atrial systole.
+## correct_answer
+B
+## main_concept
+CON-CVS-8D34A57C987227
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify maximal ejection as not a filling phase, against atrial systole, rapid filling and reduced filling, which are.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q53. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
 
 
 

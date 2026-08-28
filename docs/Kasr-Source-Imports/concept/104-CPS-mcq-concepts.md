@@ -24,7 +24,7 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 6 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Function — 16 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 10 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
@@ -46,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  21 questions were excluded and 0 held back for having no
+  23 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1669,6 +1669,7 @@ The cardiac cycle runs through a fixed order of seven phases starting with atria
 cardiac-cycle.seven-phase-sequence-and-duration
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
 ## field_notes
@@ -1712,12 +1713,15 @@ kau
 src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p11 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p3 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p7 | 104 CPS
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.39
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.39
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1806,6 +1810,23 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-F8BD2261B8CBDA
+## label
+The aortic pressure curve rises on the ejection-driven anacrotic limb and falls on the catacrotic limb, whose dicrotic notch and dicrotic wave mark aortic valve closure
+## canonical_key
+aortic-pressure-curve.limbs-and-dicrotic-notch
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## field_notes
+canonical_key "aortic-pressure-curve.limbs-and-dicrotic-notch" already has a pinned id in this module (CON-CVS-F8BD2261B8CBDA); mintConceptId derives the same id fresh (CON-CVS-F8BD2261B8CBDA) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
