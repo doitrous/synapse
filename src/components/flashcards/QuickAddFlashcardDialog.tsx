@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Sparkles, CheckCircle2 } from 'lucide-react'
 import { Dialog } from '@/components/ui/Dialog'
 import { PanelHeader } from '@/components/ui/Panel'
@@ -7,9 +7,9 @@ import { Icon } from '@/components/ui/Icon'
 import { Field, TextInput, Select } from '@/components/ui/Field'
 import { useT } from '@/lib/i18n'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { ensureV2 } from '@/data/flashcards/migration'
-import { EMPTY_COLLECTION, type FlashcardCollection } from '@/data/flashcards/model'
-import { appendBasicNote, basicNoteFieldsFromText, quickAddIds, FLASHCARDS_COLLECTION_KEY } from '@/lib/flashcards/quickAdd'
+import { ensureV2, type StoredDecksV1 } from '@/data/flashcards/migration'
+import type { FlashcardCollection } from '@/data/flashcards/model'
+import { appendBasicNote, basicNoteFieldsFromText, quickAddIds, FLASHCARDS_COLLECTION_KEY, FLASHCARDS_LEGACY_DECKS_KEY } from '@/lib/flashcards/quickAdd'
 
 const NEW_DECK = '__new_deck__'
 const DEFAULT_DECK_NAME = 'Quick capture'
@@ -34,14 +34,23 @@ export function QuickAddFlashcardDialog({
   onClose: () => void
 }) {
   const t = useT()
-  const [collection, setCollection, status] = usePersistentState<FlashcardCollection>(FLASHCARDS_COLLECTION_KEY, EMPTY_COLLECTION)
+  // Read and seed these keys IDENTICALLY to useFlashcards, which owns them:
+  // stateStore shares one document per key and keeps only the first caller's
+  // seed, so a mismatched seed would crash this dialog or desync the hook. The
+  // effective collection is the committed v2 doc, or the v1 legacy decks migrated
+  // forward — reading only the v2 key would miss (and a save would clobber) the
+  // legacy decks useFlashcards migrates lazily in memory without committing.
+  const [storedV2, setStoredV2, status] = usePersistentState<FlashcardCollection | null>(FLASHCARDS_COLLECTION_KEY, null)
+  const [legacyV1] = usePersistentState<StoredDecksV1>(FLASHCARDS_LEGACY_DECKS_KEY, {})
+  const bootNow = useRef(new Date()).current
+  const collection = useMemo(() => storedV2 ?? ensureV2(legacyV1, bootNow), [storedV2, legacyV1, bootNow])
 
   const decks = useMemo(
     () => Object.values(collection.decks)
       .filter((deck) => !deck.sourceId)
       .map((deck) => ({ id: deck.id, name: deck.name }))
       .sort((a, b) => a.name.localeCompare(b.name)),
-    [collection.decks],
+    [collection],
   )
 
   const [front, setFront] = useState(initialFront.trim())
@@ -66,8 +75,8 @@ export function QuickAddFlashcardDialog({
     const deckName = creatingDeck ? (newDeckName.trim() || DEFAULT_DECK_NAME) : (decks.find((d) => d.id === effectiveDeck)?.name ?? DEFAULT_DECK_NAME)
     const committedDeckId = creatingDeck ? newDeckId : effectiveDeck
 
-    setCollection((prev) => appendBasicNote(
-      ensureV2(prev, now),
+    setStoredV2((prev) => appendBasicNote(
+      prev ?? ensureV2(legacyV1, now),
       { front: fields.front, back: fields.back, deckId: creatingDeck ? undefined : effectiveDeck, deckName: creatingDeck ? newDeckName : undefined },
       { now, noteId, newDeckId },
     ).collection)
