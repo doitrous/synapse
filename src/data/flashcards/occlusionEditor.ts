@@ -73,6 +73,66 @@ export function isDrawable(rect: Rect): boolean {
   return rect.w >= MIN_DRAW_SIZE && rect.h >= MIN_DRAW_SIZE
 }
 
+/**
+ * The 8 resize handles on a rect/ellipse occluder, in compass terms on an
+ * image where y grows DOWNWARD: `n` = top edge, `s` = bottom edge,
+ * `w` = left edge, `e` = right edge. Corners combine two edges.
+ */
+export type ResizeHandle = 'nw' | 'n' | 'ne' | 'e' | 'se' | 's' | 'sw' | 'w'
+
+/** Drag a resize handle to `imgPoint`, keeping the opposite edge(s) fixed. */
+export function resizeRect(
+  rect: Rect,
+  handle: ResizeHandle,
+  imgPoint: { x: number; y: number },
+  imageWidth: number,
+  imageHeight: number,
+): Rect {
+  let left = rect.x
+  let right = rect.x + rect.w
+  let top = rect.y
+  let bottom = rect.y + rect.h
+
+  const movesW = handle.includes('w')
+  const movesE = handle.includes('e')
+  const movesN = handle.includes('n')
+  const movesS = handle.includes('s')
+
+  if (movesW) left = imgPoint.x
+  if (movesE) right = imgPoint.x
+  if (movesN) top = imgPoint.y
+  if (movesS) bottom = imgPoint.y
+
+  if (movesW) left = Math.max(0, Math.min(left, imageWidth))
+  if (movesE) right = Math.max(0, Math.min(right, imageWidth))
+  if (movesN) top = Math.max(0, Math.min(top, imageHeight))
+  if (movesS) bottom = Math.max(0, Math.min(bottom, imageHeight))
+
+  if (movesW) left = Math.min(left, right - MIN_DRAW_SIZE)
+  if (movesE) right = Math.max(right, left + MIN_DRAW_SIZE)
+  if (movesN) top = Math.min(top, bottom - MIN_DRAW_SIZE)
+  if (movesS) bottom = Math.max(bottom, top + MIN_DRAW_SIZE)
+
+  return { x: left, y: top, w: right - left, h: bottom - top }
+}
+
+/** The 8 resize-handle anchor points for a rect, in image space. */
+export function resizeHandlePoints(rect: Rect): { handle: ResizeHandle; x: number; y: number }[] {
+  const { x, y, w, h } = rect
+  const midX = x + w / 2
+  const midY = y + h / 2
+  return [
+    { handle: 'nw', x, y },
+    { handle: 'n', x: midX, y },
+    { handle: 'ne', x: x + w, y },
+    { handle: 'e', x: x + w, y: midY },
+    { handle: 'se', x: x + w, y: y + h },
+    { handle: 's', x: midX, y: y + h },
+    { handle: 'sw', x, y: y + h },
+    { handle: 'w', x, y: midY },
+  ]
+}
+
 /** Translate any shape by an image-space delta, clamped to the image. */
 export function nudgeShape(shape: OccluderShape, dx: number, dy: number, imageWidth: number, imageHeight: number): OccluderShape {
   if (shape.kind === 'polygon') {
