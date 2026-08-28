@@ -59,6 +59,7 @@ Alexandria's Biochemistry department examines amino acids as a set of overlappin
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## university_notes
@@ -99,6 +100,7 @@ Alexandria's Biochemistry department examines carbohydrate chemistry as a set of
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > CHO Chemistry
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## university_notes
@@ -139,6 +141,7 @@ Alexandria's Biochemistry department examines lipid chemistry the same way it ex
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## university_notes
@@ -179,6 +182,7 @@ A protein has up to four orders of structure, and only the first is held togethe
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## university_notes
@@ -219,6 +223,7 @@ Twenty amino acids build the body's proteins, and the department classifies them
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## university_notes
@@ -259,6 +264,7 @@ Two carbohydrates in this chapter do their job by not being metabolised. Cellulo
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## university_notes
@@ -299,6 +305,7 @@ Nucleotides build DNA and RNA, but the free ones do four other jobs, and the dep
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## university_notes
@@ -339,11 +346,12 @@ One membrane phospholipid, one enzyme that cuts it, and everything downstream fo
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## university_notes
 kau: The 2025 end-of-year paper put three questions on this chapter. "Snake venom is toxic" was a three-mark explain-the-biochemical-basis. The six-mark diagram question printed the eicosanoid synthesis pathway with three enzymes blanked and then asked, one mark each, how SAIDs and NSAIDs are anti-inflammatory and how the leukotriene receptor antagonist treats bronchial asthmatic attacks. The paper prints the drug as "Singular", where the department book prints "Singulair".
-asu: Taught in the ASU-IBM Lipids & Biological Membrane question bank (`MCQs - Bg MCQ of bio.pdf`, src_659d23529471fd1ee6c6), pp.21-25,28 — essential fatty acids, cholesterol's derivatives, omega-3/omega-6/monoenoic fatty acid classification, and sphingomyelin formation.
+asu: Taught in the ASU-IBM Lipids & Biological Membrane question bank (`MCQs - Bg MCQ of bio.pdf`, src_659d23529471fd1ee6c6), pp.21-25,27,28 — essential fatty acids, cholesterol's derivatives, omega-3/omega-6/monoenoic fatty acid classification, sphingomyelin formation, phosphatidic acid as the glycerophospholipid precursor, lecithin/cephalin's respective nitrogenous bases (choline/ethanolamine), the wax-vs-neutral-fat alcohol distinction (monohydric alcohol vs glycerol), and phosphatidylinositol's signal-transduction role.
 
 ## field_notes
 arabicTitle: The permitted local ASU-IBM source is English-only; no reviewed Arabic title was available to add for this university.
@@ -379,52 +387,12 @@ A haemoprotein is a protein with haem bound to it as a prosthetic group, and the
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## university_notes
-kau: The Medical Biochemistry Department set this chapter as a three-mark explain-the-biochemical-basis question — "HbA1c is used as a test to determine the diabetic control of the patients during the last 3 months" — which quotes the department book's own sentence back at the student and marks the mechanism behind it rather than the sentence itself, on the 2025 end-of-year paper.
+kau: The 2025 end-of-year paper asked this chapter as a three-mark explain-the-biochemical-basis question — "HbA1c is used as a test to determine the diabetic control of the patients during the last 3 months" — which quotes the department book's own sentence back at the student and marks the mechanism behind it rather than the sentence itself.
 asu: Taught in the ASU-IBM Protein Chemistry question bank (`MCQs - Bg MCQ of bio.pdf`, src_659d23529471fd1ee6c6), pp.9,13 — the four-chain (alpha2-beta2) quaternary structure of haemoglobin.
-
-## field_notes
-arabicTitle: The permitted local ASU-IBM source is English-only; no reviewed Arabic title was available to add for this university.
-
----
-
-# Item
-
-## id
-ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
-
-## subject
-fnd
-
-## topic
-Biochemistry
-
-## title
-Lipids of biological importance
-
-## summary
-Kasr's Biochemistry department covers lipid classification (simple lipids: neutral fats and waxes), phosphatidic acid's structure and its lecithin/cephalin derivatives, and phosphatidylinositol's second-messenger role.
-
-## sections
-
-## universities
-+asu
-
-## years
-+ASU_Y1
-
-## module
-+ASU-IBM
-
-## module_subject
-102 INT > Biochemistry > Lipids of Biological Importance
-ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
-
-## university_notes
-kau: The 2025 end-of-year paper put three questions on this chapter. "Snake venom is toxic" was a three-mark explain-the-biochemical-basis. The six-mark diagram question printed the eicosanoid synthesis pathway.
-asu: Taught in the ASU-IBM Lipids & Biological Membrane question bank (`MCQs - Bg MCQ of bio.pdf`, src_659d23529471fd1ee6c6), pp.21,23,24,27 — phosphatidic acid as the glycerophospholipid precursor and lecithin/cephalin's respective nitrogenous bases (choline/ethanolamine), the wax-vs-neutral-fat alcohol distinction (monohydric alcohol vs glycerol), and phosphatidylinositol's signal-transduction role.
 
 ## field_notes
 arabicTitle: The permitted local ASU-IBM source is English-only; no reviewed Arabic title was available to add for this university.
@@ -446,7 +414,7 @@ Cytology
 The cell and its plasma membrane
 
 ## summary
-Kasr's Histology department covers the plasma membrane's fluid-mosaic composition (phospholipid bilayer, cholesterol, integral and peripheral proteins, and outer-face carbohydrate) and the erythrocyte-specific cytoskeleton and glycocalyx that build on it.
+Almost every question filed on this leaf is a cell membrane question, and almost every one turns on a side: the carbohydrate coat is on the outside and the cytoskeleton is on the inside, integral proteins cross the bilayer and peripheral proteins rest on a face, the phospholipid heads face out and the tails face in. Learn the membrane as a structure with two distinguishable surfaces and the thickness, the stains, the receptors and the three kinds of endocytosis all follow.
 
 ## sections
 

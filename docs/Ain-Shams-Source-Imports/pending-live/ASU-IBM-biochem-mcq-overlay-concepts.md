@@ -59,9 +59,11 @@ Glycine is the one amino acid with no asymmetric carbon, making it optically ina
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_4852d425a88297af190e | primary | none stated | 39,52
 src_659d23529471fd1ee6c6 | mcq_bank | | p1
 
 ## field_notes
@@ -87,9 +89,11 @@ Denaturation ruptures the bonds holding secondary, tertiary and quaternary struc
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p35 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p1-11
 
 ## field_notes
@@ -115,9 +119,12 @@ Tertiary structure folds a polypeptide chain into a specific 3D globular shape, 
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p34 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p35 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p1
 
 ## field_notes
@@ -143,9 +150,11 @@ An essential amino acid cannot be synthesised by the body and must come from the
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_4852d425a88297af190e | primary | none stated | 14,15,66
 src_659d23529471fd1ee6c6 | mcq_bank | | p3-7
 
 ## field_notes
@@ -171,9 +180,11 @@ Casein and albumin are proteins of high biological value; zein is low, largely b
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_4852d425a88297af190e | primary | none stated | 22,66,70
 src_659d23529471fd1ee6c6 | mcq_bank | | p4-5
 
 ## field_notes
@@ -199,9 +210,11 @@ At its isoelectric point, an amino acid or protein carries zero net charge, show
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_4852d425a88297af190e | primary | none stated | 24,47,49,65
 src_659d23529471fd1ee6c6 | mcq_bank | | p5-11
 
 ## field_notes
@@ -227,9 +240,13 @@ Secondary structure is mainly α-helix or β-pleated sheet; the α-helix coils t
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p32 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p33 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p34 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p2-9
 
 ## field_notes
@@ -255,9 +272,12 @@ Primary structure is the amino acid sequence held together by peptide bonds, run
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Proteins of Biological Importance
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p31 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p32 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p11-14
 
 ## field_notes
@@ -283,9 +303,11 @@ Cysteine, methionine and homocysteine are sulfur-containing amino acids; of thes
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_4852d425a88297af190e | primary | none stated | 5,26,37
 src_659d23529471fd1ee6c6 | mcq_bank | | p2-13
 
 ## field_notes
@@ -311,9 +333,12 @@ Myoglobin is one heme on one 153-residue chain while hemoglobin is four hemes on
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p41 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p42 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p9-13
 
 ## field_notes
@@ -339,9 +364,11 @@ A peptide bond forms by condensation of the carboxylic group of one amino acid w
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p29 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p8-15
 
 ## field_notes
@@ -367,9 +394,11 @@ Glutathione is the tripeptide glutamate-cysteine-glycine, and its active group i
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
 ASU-IBM > Biochemistry > Questions > Protein Chemistry
 
 ## exam_signal
+src_4852d425a88297af190e | primary | none stated | 40
 src_659d23529471fd1ee6c6 | mcq_bank | | p6-15
 
 ## field_notes
@@ -395,9 +424,13 @@ Monosaccharides are classed as aldoses or ketoses by their carbonyl group, and a
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p6 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p7 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p8 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p17-19
 
 ## field_notes
@@ -423,9 +456,13 @@ Maltose, lactose and sucrose are distinguished by their component monosaccharide
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p11 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p12 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p13 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p16-20
 
 ## field_notes
@@ -451,9 +488,12 @@ The base attaches to the pentose by an N-glycosidic bond, phosphate esterifies t
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p50 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p51 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p20
 
 ## field_notes
@@ -479,9 +519,11 @@ The three common disaccharides are told apart by their two component sugars and 
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > CHO Chemistry
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## exam_signal
+src_9722b2289d25d8c796ab | primary | none stated | 9,10,11,12,36,38,40,41,43,71
 src_659d23529471fd1ee6c6 | mcq_bank | | p18-19
 
 ## field_notes
@@ -507,9 +549,11 @@ Starch is the storage polysaccharide of chlorophyll-containing plants and glycog
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p13 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p17-19
 
 ## field_notes
@@ -535,9 +579,13 @@ Monosaccharides related to each other show four distinct kinds of isomerism — 
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
 ASU-IBM > Biochemistry > Questions > Carbohydrates
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p7 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p8 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p9 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p16-19
 
 ## field_notes
@@ -563,9 +611,11 @@ Essential fatty acids — α-linolenic and linoleic acid, plus arachidonic acid 
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p18 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p25
 
 ## field_notes
@@ -591,9 +641,11 @@ Prostaglandins, thromboxanes and lipoxins are synthesised from arachidonic acid;
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_0c18ad70ae2353e69ac5 | primary | none stated | 28
 src_659d23529471fd1ee6c6 | mcq_bank | | p25
 
 ## field_notes
@@ -619,9 +671,11 @@ Cholesterol matters because almost nothing else can be made without it — the b
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p22 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p21-25
 
 ## field_notes
@@ -647,9 +701,11 @@ Triacylglycerol, not phospholipid, cholesterol or sphingolipid, is the major fat
 +ASU-IBM
 
 ## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_0c18ad70ae2353e69ac5 | primary | none stated | 4
 src_659d23529471fd1ee6c6 | mcq_bank | | p25
 
 ## field_notes
@@ -675,9 +731,12 @@ Cis fatty acids split into monoenoic (one double bond, e.g. oleic acid) and poly
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p17 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p18 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p21-28
 
 ## field_notes
@@ -703,9 +762,12 @@ Fatty acid joins sphingosine by an amide bond to form ceramide, and ceramide joi
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p20 | 102 INT
+src_07f0a0ff41addf826c7f | question_book | | p21 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p21-25
 
 ## field_notes
@@ -731,9 +793,11 @@ Phosphatidic acid (diacylglycerol phosphate) carries a saturated fatty acid at p
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p19 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p21-23
 
 ## field_notes
@@ -759,9 +823,11 @@ Phosphatidylinositol acts as a second messenger to many chemical transmitters, h
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p21 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p27
 
 ## field_notes
@@ -787,9 +853,11 @@ Simple lipids split into neutral fats (triacylglycerol, three fatty acids on gly
 +ASU-IBM
 
 ## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_07f0a0ff41addf826c7f | question_book | | p19 | 102 INT
 src_659d23529471fd1ee6c6 | mcq_bank | | p24
 
 ## field_notes
@@ -815,9 +883,20 @@ The cell membrane is a phospholipid bilayer with cholesterol, peripheral and int
 +ASU-IBM
 
 ## module_subject
+101 ISK > Histology > Cytology > The cell
 ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
 
 ## exam_signal
+src_bb081b0479f7a33666cd | question_book | | p2 | 101 ISK
+src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
+src_6846577508f49244d715 | question_book | | p10 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
+src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p14 | 101 ISK
+src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
+src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
+src_6846577508f49244d715 | question_book | | p2 | 101 ISK
+src_6846577508f49244d715 | question_book | | p9 | 101 ISK
 src_659d23529471fd1ee6c6 | mcq_bank | | p22
 
 ## field_notes

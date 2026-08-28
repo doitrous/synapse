@@ -89,6 +89,7 @@ CLM-FND-ASU-IBM-TRP-280NM-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-PEPTIDE-DISULFIDE-CHEMISTRY
 
 ## original_wording
 Proteins absorb lights at wavelength 280nm, due to presence of which amino acid — Tryptophan.
@@ -97,10 +98,10 @@ Proteins absorb lights at wavelength 280nm, due to presence of which amino acid 
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -257,6 +258,7 @@ CLM-FND-ASU-IBM-AA-SOLUBILITY-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-PEPTIDE-DISULFIDE-CHEMISTRY
 
 ## original_wording
 Regarding the solubility of amino acids — All are soluble.
@@ -265,10 +267,10 @@ Regarding the solubility of amino acids — All are soluble.
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -424,6 +426,7 @@ CLM-FND-ASU-IBM-NONSTANDARD-AA-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-PEPTIDE-DISULFIDE-CHEMISTRY
 
 ## original_wording
 An amino acid which does not have a specific genetic code is — Hydroxyproline.
@@ -432,10 +435,10 @@ An amino acid which does not have a specific genetic code is — Hydroxyproline.
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -601,10 +604,10 @@ If protein A need Assistance form Protein B during folding, this mean protein B 
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -771,10 +774,10 @@ In mad cow disease, how are certain protein are affected — Misfolding.
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -932,6 +935,7 @@ CLM-FND-ASU-IBM-PEPTIDE-BOND-PLANAR-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-AMINO-ACID-IDENTITY
 
 ## original_wording
 This figure represents what feature in peptide bond — Trans configuration. / Which of the following statement about the peptide bond is true — It is planar.
@@ -940,10 +944,10 @@ This figure represents what feature in peptide bond — Trans configuration. / W
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -1100,6 +1104,7 @@ CLM-FND-ASU-IBM-DISULFIDE-OXIDATION-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-PROTEIN-FOLDING-DISEASE
 
 ## original_wording
 By what process is this bond formed as shown in the diagram [two cysteine -SH groups joining to a cystine -S-S- with release of 2H+ + 2e-] — Oxidation. / When a disulfide bond is cleaved, there is — Reduction.
@@ -1108,10 +1113,10 @@ By what process is this bond formed as shown in the diagram [two cysteine -SH gr
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -1268,6 +1273,7 @@ CLM-FND-ASU-IBM-CHO-GENERAL-FORMULA-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
 
 ## original_wording
 The general chemical formula of carbohydrate is: (CH2O)n
@@ -1276,10 +1282,10 @@ The general chemical formula of carbohydrate is: (CH2O)n
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -1435,6 +1441,7 @@ CLM-FND-ASU-IBM-DHA-ACHIRAL-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
 
 ## original_wording
 A compound with no asymmetric carbon is — Dihydroxyacetone. / The only carbohydrate which is not having any chiral carbon atom is — Dihydroxyacetone.
@@ -1443,10 +1450,10 @@ A compound with no asymmetric carbon is — Dihydroxyacetone. / The only carbohy
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -1603,6 +1610,7 @@ CLM-FND-ASU-IBM-APS-TARGET-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
 
 ## original_wording
 Antiphospholipid syndrome, is an autoimmune disease against — Acidic phospholipids.
@@ -1611,10 +1619,10 @@ Antiphospholipid syndrome, is an autoimmune disease against — Acidic phospholi
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -1771,6 +1779,7 @@ CLM-FND-ASU-IBM-RDS-DPPC-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
 
 ## original_wording
 Infantile Respiratory Distress Syndrome occur due to deficiency of — Dipalmitoyl Lecithin. / Respiratory Distress Syndrome (RDS) occurs in premature infant due to deficiency of — Dipalmitoyl Phosphatidyl Choline.
@@ -1779,10 +1788,10 @@ Infantile Respiratory Distress Syndrome occur due to deficiency of — Dipalmito
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -1940,6 +1949,7 @@ CLM-FND-ASU-IBM-PALMITIC-STRUCTURE-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
 
 ## original_wording
 Palmitic acid is a fatty acid which contains 16 carbons atoms. One methyl group, one carboxyl group & 14 methylene groups. Both a & B.
@@ -1948,10 +1958,10 @@ Palmitic acid is a fatty acid which contains 16 carbons atoms. One methyl group,
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -2107,6 +2117,7 @@ CLM-FND-ASU-IBM-PHOSPHOLIPID-AMPHIPATHIC-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
 
 ## original_wording
 Phospholipids suit the membrane structure because... Are amphipathic.
@@ -2115,10 +2126,10 @@ Phospholipids suit the membrane structure because... Are amphipathic.
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -2274,6 +2285,7 @@ CLM-FND-ASU-IBM-LIPID-GLYCEROL-EXCEPTION-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
 
 ## original_wording
 All of the following lipids contain glycerol EXCEPT: Triacylglycerols, Lecithin, Cholesterol, Phosphatidic acid.
@@ -2282,10 +2294,10 @@ All of the following lipids contain glycerol EXCEPT: Triacylglycerols, Lecithin,
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -2441,6 +2453,7 @@ CLM-FND-ASU-IBM-MEMBRANE-CHOL-ESTER-EXCEPTION-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
 
 ## original_wording
 Which of the following lipids is not a constituent of biological membranes: Cardiolipin, Cholesterol ester, Gangliosides, Sphingomyelin, Plasmalogen.
@@ -2449,10 +2462,10 @@ Which of the following lipids is not a constituent of biological membranes: Card
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -2608,6 +2621,7 @@ CLM-FND-ASU-IBM-TAG-GPL-SHARED-FA-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
 
 ## original_wording
 Which of the following is a characteristic of both triacylglycerols and glycerophospholipids? Both contain fatty acids either saturated or unsaturated.
@@ -2616,10 +2630,10 @@ Which of the following is a characteristic of both triacylglycerols and glycerop
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -2774,6 +2788,7 @@ CLM-FND-ASU-IBM-LIPOPROTEIN-FUNCTION-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
 
 ## original_wording
 The main function of Lipoproteins is: Transport lipid in blood.
@@ -2782,10 +2797,10 @@ The main function of Lipoproteins is: Transport lipid in blood.
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -2941,6 +2956,7 @@ CLM-FND-ASU-IBM-MEMBRANE-ASYMMETRY-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
 
 ## original_wording
 All the following statements are true except: phosphatidyl choline are typically found in the outer leaflet; phosphatidyl serine & phosphatidyl ethanolamine are located in the inner leaflet; Cholesterol is present in the larger amount in the outside; Carbohydrates is present in the larger amount in the inner leaflet.
@@ -2949,10 +2965,10 @@ All the following statements are true except: phosphatidyl choline are typically
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -3108,6 +3124,7 @@ CLM-FND-ASU-IBM-OMEGA-NUMBERING-DEF-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
 
 ## original_wording
 What is meant by omega-3 fatty acids? A double bond at third carbon from the methyl end of fatty acid.
@@ -3116,10 +3133,10 @@ What is meant by omega-3 fatty acids? A double bond at third carbon from the met
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence
@@ -3275,6 +3292,7 @@ CLM-FND-ASU-IBM-OMEGA9-OLEIC-01
 src_659d23529471fd1ee6c6
 
 ## related_article_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
 
 ## original_wording
 Which of the following is one of omega-9 Fatty acids? Oleic acid.
@@ -3283,10 +3301,10 @@ Which of the following is one of omega-9 Fatty acids? Oleic acid.
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## publication_status
 needs_evidence

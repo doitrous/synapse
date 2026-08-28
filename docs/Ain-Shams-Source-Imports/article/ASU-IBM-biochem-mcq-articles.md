@@ -671,6 +671,7 @@ CON-FND-8A2CF82F5DDF4C
 CON-FND-3872365341E543
 
 ## related_articles
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE: companion article covering the same general formula (Cn(H2O)n) in full carbohydrate classification detail — the wider chapter this bank's two general-property facts are drawn from
 
 ## question_ids
 
@@ -850,6 +851,7 @@ CON-FND-9D3DE90B645E7A
 CON-FND-A66D0FD336DDDA
 
 ## related_articles
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION: companion article on the same lipid classes named here by name — cardiolipin (the acidic phospholipid antiphospholipid-syndrome antibodies target) and lecithin (the phospholipid whose dipalmitoyl form is deficient in neonatal RDS)
 
 ## question_ids
 
