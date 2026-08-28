@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { useT } from '@/lib/i18n'
 import { RichHtml } from './RichHtml'
+import { OcclusionCardFace } from './OcclusionCardFace'
 import { renderClozeSide } from '@/data/flashcards/cloze'
 import type { CardWithMeta } from '@/lib/useFlashcards'
 
@@ -61,12 +62,6 @@ export function StudyCardFace({ entry, showAnswer }: { entry: CardWithMeta; show
     )
   }
 
-  // image-occlusion — full rendering ships with the occlusion editor.
-  return (
-    <div className="space-y-3 text-center">
-      {note.fields.header && <RichHtml html={note.fields.header} className="font-serif text-[18px] text-ink" />}
-      <p className="text-[13px] text-ink-3">{t('Image occlusion review renders with the occlusion editor.')}</p>
-      {showAnswer && note.fields.back && <RichHtml html={note.fields.back} className="text-[14px] text-ink-2" />}
-    </div>
-  )
+  // image-occlusion rendering is owned by OcclusionCardFace (occlusion slice).
+  return <OcclusionCardFace entry={entry} showAnswer={showAnswer} />
 }
