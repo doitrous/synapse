@@ -24,10 +24,10 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 16 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 10 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Function — 38 questions, 8 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
@@ -46,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  23 questions were excluded and 0 held back for having no
+  41 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -16056,6 +16056,1202 @@ Extraction confidence low; the answer came from no source and was supplied by th
 
 # Item
 ## id
+QM-104-754D768EDFFB
+## title
+AY valves are opened in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+AY valves are opened in:
+## answer_a
+isometric contraction phase,
+## explanation_a
+The AV valves are already open before isometric (isovolumetric) contraction begins — that phase starts precisely when rising ventricular pressure slams them shut.
+## answer_b
+atrial systole phase.
+## explanation_b
+The AV valves are open during atrial systole, since atrial contraction is actively pushing blood through them into the ventricles.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_c
+protodiastolic phase.
+## explanation_c
+By the protodiastolic phase the AV valves are still closed — they only reopen once ventricular pressure has fallen below atrial pressure at the end of isovolumetric relaxation.
+## answer_d
+maximum ejection phase.
+## explanation_d
+The AV valves are shut throughout maximum (rapid) ejection, since ventricular pressure is well above atrial pressure while blood is being ejected through the open semilunar valves.
+## correct_answer
+B
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+State that the AV valves are open during atrial systole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q54. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-EFCA834CEAFF
+## title
+Concerning the atrial pressure curve a, c-wave occurs during atrial systole
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the atrial pressure curve a, c-wave occurs during atrial systole
+## answer_a
+c-wave occurs during atrial systole
+## explanation_a
+The c wave is not produced by atrial systole itself — it follows shortly after, caused by the closed AV valve bulging back into the atrium as isovolumetric ventricular contraction begins.
+## answer_b
+v-wave occurs during isovolumetric contraction phase
+## explanation_b
+The v wave is built up passively during ventricular systole (isovolumetric contraction through ejection), not specifically during isovolumetric contraction alone, and it peaks later, near AV valve reopening.
+## answer_c
+a-wave precedes the first heart sound
+## explanation_c
+The a wave, produced directly by atrial systole, peaks and is already falling by the time the AV valves shut to produce the first heart sound — so it precedes S1, making this the true statement.
+
+Why this is right:
+- The atrial pressure curve traces right (or left) atrial pressure across one cardiac cycle and shows three positive waves.
+## answer_d
+yv-wave occurs during the ventricular filling phases 00 cont: q
+## explanation_d
+The v wave occurs as the atrium fills passively while the AV valves stay shut during ventricular systole, not during the ventricular filling phases themselves — filling only begins once the AV valves reopen at the v wave's peak.
+## correct_answer
+C
+## main_concept
+CON-CVS-B8AFC98120E132
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a true statement
+## learning_objective
+State that the a wave of the atrial pressure curve, produced by atrial systole, precedes the first heart sound.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q87. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D769EB0539AC
+## title
+Concerning the cardiac cycle
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the cardiac cycle
+## answer_a
+Duration of the systolic phase is longer than diastolic phase
+## explanation_a
+The opposite is true at normal resting heart rates: diastole is longer than systole (about 0.5 sec versus 0.3 sec at 75/min).
+## answer_b
+Duration of systolic phase = duration of diastolic phase
+## explanation_b
+Systole and diastole are not equal in duration at rest; they only approach near-equality at very high heart rates, once tachycardia has disproportionately shortened diastole.
+## answer_c
+Increase in heart rate shortens more the diastolic phase
+## explanation_c
+True, and the answer: as heart rate rises the whole cycle shortens, but diastole absorbs almost all of the shortening — for example, between 75/min and 200/min, systole only halves while diastole falls to less than a third.
+
+Why this is right:
+- The cardiac cycle proceeds through seven ordered phases — atrial systole, isovolumetric contraction, rapid ejection, reduced ejection, isovolumetric relaxation, rapid filling, and reduced filling — and as heart rate rises the cycle shortens mainly at the expense of diastole rather than systole.
+## answer_d
+Both atria and ventricles relax together 0.4 sec
+## explanation_d
+Atria and ventricles do not spend a shared 0.4 sec relaxed together; total diastole at rest is closer to 0.5 sec, and the specific figure of 0.4 sec for combined relaxation is not the established value.
+## correct_answer
+C
+## main_concept
+CON-CVS-8D34A57C987227
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that a rising heart rate shortens the diastolic phase of the cardiac cycle disproportionately more than the systolic phase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q50. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-41B79FF941B3
+## title
+Murmur appears in the following condition:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Murmur appears in the following condition:
+## answer_a
+Mild anemia
+## explanation_a
+Mild anemia does not reduce blood viscosity or raise flow velocity enough to generate turbulence; only more severe anemia can produce a flow murmur, so mild anemia alone is not a cause.
+## answer_b
+Stenosis of cardiac valves
+## explanation_b
+Stenosis of a cardiac valve narrows the opening blood must cross, disturbing smooth laminar flow into turbulence — the classic mechanism of a heart murmur, making this the answer.
+
+Why this is right:
+- Normal blood flow through the heart is laminar (smooth, silent).
+## answer_c
+During sleep
+## explanation_c
+Sleep does not by itself disturb the smoothness of blood flow through the heart, so it is not a cause of murmurs.
+## answer_d
+Decrease cardiac output
+## explanation_d
+A decrease in cardiac output changes flow volume, not the smoothness of flow through a normal valve, so it does not by itself generate the turbulence a murmur requires.
+## correct_answer
+B
+## main_concept
+CON-CVS-C033C2297C38B1
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+State that a stenotic or incompetent cardiac valve, by producing turbulent flow, is the classic cause of a heart murmur.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p50 q25. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DF15C3B8A892
+## title
+Normal splitting of the second heart sound into two components is increased during insp…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Normal splitting of the second heart sound into two components is increased during inspiration because:
+## answer_a
+The closing of the aortic valve is delayed :
+## explanation_a
+Aortic valve closure (A2) is not delayed by inspiration; the widening of the split during inspiration comes from a delay on the pulmonary side, not the aortic side.
+## answer_b
+The opening of the mitral valve is delayed
+## explanation_b
+Mitral valve opening is an event of early diastole unrelated to the timing of the second heart sound's two components, which are both valve-closure (not valve-opening) events.
+## answer_c
+The closing of the pulmonary valve is delayed
+## explanation_c
+Correct: inspiration increases venous return to the right heart, prolonging right ventricular ejection and delaying pulmonary valve closure (P2) relative to aortic valve closure (A2), which widens the split.
+
+Why this is right:
+- The second heart sound is normally made of two closely spaced components: aortic valve closure (A2) followed very shortly by pulmonary valve closure (P2).
+## answer_d
+The stroke volume of the left ventricle is increased
+## explanation_d
+It is right ventricular, not left ventricular, filling and ejection that inspiration increases; left ventricular stroke volume is not what drives the wider splitting heard on inspiration.
+## correct_answer
+C
+## main_concept
+CON-CVS-702BC9E7A37C51
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Explain that inspiration widens physiological splitting of the second heart sound by delaying pulmonary valve closure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p13 q102. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8857FD9B5EE0
+## title
+The incisura or diacrotic notch in the aortic pressure curve is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The incisura or diacrotic notch in the aortic pressure curve is:
+## answer_a
+of unknown mechanism. ‏ا‎
+## explanation_a
+Its mechanism is well established, not unknown: the notch is the sharp pressure drop that ends with closure of the aortic valve at the end of systole.
+## answer_b
+indicative of cardiovascualr disease. :
+## explanation_b
+The dicrotic notch is a normal feature of every aortic pressure curve, not a marker of cardiovascular disease.
+## answer_c
+coincident with the second heart sound.
+## explanation_c
+Correct: the dicrotic notch marks aortic valve closure at the end of systole, the same event that produces the second heart sound, so the two coincide.
+
+Why this is right:
+- On the aortic pressure curve, the dicrotic notch is a sharp drop in pressure caused by closure of the aortic valve at the end of systole, and is followed by the dicrotic wave, a small rise caused by backwardly moving blood bouncing against the closed elastic aortic valve during isovolumetric relaxation.
+## answer_d
+absent in arteriosclerosis
+## explanation_d
+The dicrotic notch is not selectively absent in arteriosclerosis; a stiffened arterial wall alters the pressure waveform but does not remove the notch produced by valve closure.
+## correct_answer
+C
+## main_concept
+CON-CVS-F8BD2261B8CBDA
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that the dicrotic notch of the aortic pressure curve coincides with aortic valve closure and the second heart sound.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q76. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A1066C0A6CEC
+## title
+The physiologic function of the relatively slow conduction through the atrioventricular…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The physiologic function of the relatively slow conduction through the atrioventricular (AY) node is to allow sufficient time for
+## answer_a
+runoff of blood from the aorta to the arteries
+## explanation_a
+Runoff of blood from the aorta to the arteries happens throughout diastole via elastic recoil of the aortic wall, and has nothing to do with the timing purpose of AV nodal delay.
+## answer_b
+venous return to the atria
+## explanation_b
+Venous return to the atria is continuous and is not what the AV nodal delay is timed to protect; the delay concerns handing atrial contraction's contribution on to the ventricles, not filling the atria themselves.
+## answer_c
+filling of the ventricles
+## explanation_c
+Correct: the AV nodal delay holds back ventricular excitation just long enough for atrial systole to finish topping up ventricular filling before ventricular contraction begins.
+
+Why this is right:
+- Conduction through the AV node is far slower than through atrial or ventricular muscle or the specialized conducting fibers, producing an AV nodal delay of roughly 0.1 second between atrial and ventricular excitation.
+## answer_d
+contraction of the ventricles
+## explanation_d
+Ventricular contraction is the event that follows the AV nodal delay, not something the delay itself allows time for — the delay is about what happens before contraction, namely completing filling.
+## correct_answer
+C
+## main_concept
+CON-CVS-9B1C94AF064C3D
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the AV node's slow conduction delays ventricular excitation to allow ventricular filling (via atrial systole) to complete before contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p4 q30. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DD475959745C
+## title
+The shortest phase in cardiac cycle is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The shortest phase in cardiac cycle is:
+## answer_a
+maximum ejection phase.
+## explanation_a
+Maximum (rapid) ejection occupies a substantial share of systole and is not the shortest phase.
+## answer_b
+reduced ejection phase.
+## explanation_b
+Reduced ejection, the second part of the ejection period, likewise takes up more time than the brief protodiastolic phase.
+## answer_c
+maximum filling phase.
+## explanation_c
+Maximum (rapid) filling is a comparatively brief but still longer phase than the protodiastolic phase.
+## answer_d
+protodiastolic phase,
+## explanation_d
+The protodiastolic phase — the brief interval right at the end of ejection, just before the semilunar valves shut — is the shortest phase of the cardiac cycle, making this the answer.
+
+Why this is right:
+- The cardiac cycle proceeds through seven ordered phases — atrial systole, isovolumetric contraction, rapid ejection, reduced ejection, isovolumetric relaxation, rapid filling, and reduced filling — and as heart rate rises the cycle shortens mainly at the expense of diastole rather than systole.
+## correct_answer
+D
+## main_concept
+CON-CVS-8D34A57C987227
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+Identify the protodiastolic phase as the shortest phase of the cardiac cycle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q78. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A7ADBC0A83AE
+## title
+Which of the following is the normal order (arrangement) of cardiac cycle phases?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is the normal order (arrangement) of cardiac cycle phases?
+## answer_a
+Rapid filling phase, Reduced ejection phase, Atrial systole, Isovolumetric relaxation phase
+## explanation_a
+This order misplaces isovolumetric relaxation (a phase that precedes rapid filling, not one that follows atrial systole) into the sequence, breaking the true cyclic order.
+## answer_b
+Rapid filling phase, Reduced filling phase, Atrial systole, Isovolumetric contraction phase
+## explanation_b
+Correct: starting from rapid filling and continuing forward through the cycle, the true order is rapid filling, then reduced filling, then atrial systole, then isovolumetric contraction — exactly matching the seven-phase sequence.
+
+Why this is right:
+- The cardiac cycle proceeds through seven ordered phases — atrial systole, isovolumetric contraction, rapid ejection, reduced ejection, isovolumetric relaxation, rapid filling, and reduced filling — and as heart rate rises the cycle shortens mainly at the expense of diastole rather than systole.
+## answer_c
+Rapid filling phase, Isovolumetric relaxation phase, Rapid ejection phase, Atrial systole
+## explanation_c
+This order places isovolumetric relaxation and rapid ejection out of sequence relative to atrial systole and rapid filling, which does not match the true cyclic order.
+## answer_d
+Rapid filling phase, Reduced ejection phase, Rapid ejection phase, Isovolumetric contraction phase
+## explanation_d
+This order repeats an ejection phase out of place and omits reduced filling from its correct position, which does not match the true cyclic order.
+## correct_answer
+B
+## main_concept
+CON-CVS-8D34A57C987227
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology Cardiovascular System — Cardiac Function
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a true statement
+## learning_objective
+Arrange rapid filling, reduced filling, atrial systole and isovolumetric contraction in their correct cyclic order.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p8 q57. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D574EE593C11
+## title
+Ventricular pressure is higher than the atrial pressure in all phases of the cardiac cy…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Ventricular pressure is higher than the atrial pressure in all phases of the cardiac cycle except in:
+## answer_a
+isometric contraction phase.
+## explanation_a
+During isometric (isovolumetric) contraction, ventricular pressure has already risen above atrial pressure — that rise is exactly what slams the AV valves shut to begin the phase.
+## answer_b
+atrial systole phase.
+## explanation_b
+The exception, and the answer: during atrial systole, atrial pressure is briefly higher than ventricular pressure, since atrial contraction is actively pushing blood forward through the still-open AV valves.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_c
+maximum ejection phase.
+## explanation_c
+During maximum ejection, ventricular pressure is at its highest and is above both atrial and aortic pressure, driving blood forward through the open semilunar valves.
+## answer_d
+reduced ejection phase.
+## explanation_d
+During reduced ejection, ventricular pressure is still above atrial pressure, even as it has begun to fall from its peak.
+## correct_answer
+B
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify atrial systole as the one phase where ventricular pressure is not higher than atrial pressure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p7 q51. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-C6056C974E46
+## title
+Which of the following happens during atrial systole of the cardiac cycle?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following happens during atrial systole of the cardiac cycle?
+## answer_a
+The first heart sound occurs
+## explanation_a
+The first heart sound is produced later, by AV valve closure at the start of isovolumetric ventricular contraction, not during atrial systole itself.
+## answer_b
+Over 70 % of ventricular filling occurs
+## explanation_b
+Atrial systole contributes roughly the last 15-30% of ventricular filling, not over 70% — most filling happens passively during rapid filling, before atrial systole.
+## answer_c
+The A-V valves are closed
+## explanation_c
+The AV valves are open, not closed, during atrial systole, since atrial contraction is actively pushing blood through them into the ventricles.
+## answer_d
+The aortic valve is closed
+## explanation_d
+Correct: the aortic (and pulmonary) valve stays closed throughout atrial systole, since ventricular pressure has not yet exceeded aortic/pulmonary pressure.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## correct_answer
+D
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that the aortic (semilunar) valve remains closed throughout atrial systole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p11 q49. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-09CC6E49942A
+## title
+Which of the following is responsible for the fourth heart sound;
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is responsible for the fourth heart sound;
+## answer_a
+Opening of mitral valve.
+## explanation_a
+Opening of the mitral valve is a silent event in the normal heart and is not the origin of the fourth heart sound.
+## answer_b
+Atrial systole .
+## explanation_b
+Correct: the fourth heart sound is produced by atrial systole, when blood is forced by atrial contraction into a ventricle whose wall is stiffer or less compliant than normal.
+
+Why this is right:
+- The fourth heart sound (S4), when present, is a low-pitched sound produced by atrial systole — specifically, blood being forced by atrial contraction into a ventricle whose wall is stiffer or less compliant than normal.
+## answer_c
+Opening of semilunar valve.
+## explanation_c
+Opening of a semilunar valve is likewise a normally silent event and does not produce the fourth heart sound.
+## answer_d
+Rapid ventricular filling.
+## explanation_d
+Rapid ventricular filling is a passive, normally silent phase; it is atrial systole, the active phase that follows it, that produces the fourth heart sound when audible.
+## correct_answer
+B
+## main_concept
+CON-CVS-49CD4F7DD8ED67
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that atrial systole produces the fourth heart sound.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p15 q116. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-959BB4BA907D
+## title
+The diastolic blood pressure will increase
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The diastolic blood pressure will increase
+## answer_a
+Markedly with an increase in stroke volume
+## explanation_a
+A markedly increased stroke volume raises systolic pressure, by ejecting more blood per beat, rather than specifically raising diastolic pressure.
+## answer_b
+In cases of anemia
+## explanation_b
+Anemia lowers blood viscosity and increases cardiac output, tending to widen pulse pressure rather than specifically raise diastolic pressure.
+## answer_c
+With an increase in arteriolar diameter
+## explanation_c
+An increase in arteriolar diameter lowers peripheral resistance, which lowers diastolic pressure by letting blood run off faster, not raises it.
+## answer_d
+With tachycardia ‘
+## explanation_d
+Correct: tachycardia disproportionately shortens diastole (the cardiac cycle's shortening falls mainly on diastole), leaving less time for blood to run off from the arteries before the next beat, so diastolic pressure rises.
+
+Why this is right:
+- The cardiac cycle proceeds through seven ordered phases — atrial systole, isovolumetric contraction, rapid ejection, reduced ejection, isovolumetric relaxation, rapid filling, and reduced filling — and as heart rate rises the cycle shortens mainly at the expense of diastole rather than systole.
+## correct_answer
+D
+## main_concept
+CON-CVS-8D34A57C987227
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+Explain that tachycardia raises diastolic blood pressure by shortening diastole and leaving less time for aortic runoff before the next beat.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p17 q129. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-861C3EA2CAE6
 ## title
 Cardiac output is equal to:
@@ -16700,6 +17896,282 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-0E84A907268C
+## title
+The cardiac output is equal to
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The cardiac output is equal to
+## answer_a
+Difference between end-diastolic volume and end-systolic volume x HR.
+## explanation_a
+Correct: end-diastolic volume minus end-systolic volume is exactly stroke volume, so this difference multiplied by heart rate is another way of writing CO = stroke volume x heart rate.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_b
+The product of heart rate and EDV,
+## explanation_b
+Heart rate multiplied by end-diastolic volume alone overstates output, since it ignores that only the stroke volume portion of the end-diastolic volume — not the whole end-diastolic volume — is ejected each beat.
+## answer_c
+Difference between stroke volume at rest and stroke volume during exercise.
+## explanation_c
+The difference between resting and exercise stroke volumes describes how much stroke volume changes with exercise, not cardiac output at either state.
+## answer_d
+The stroke volume x the end-systolic volume
+## explanation_d
+Stroke volume multiplied by end-systolic volume does not correspond to any standard cardiovascular quantity; stroke volume must be multiplied by heart rate, not by the volume left behind after ejection.
+## correct_answer
+A
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that cardiac output equals (end-diastolic volume minus end-systolic volume) x heart rate, an equivalent form of stroke volume x heart rate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p15 q112. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-DC92AD8FAF2A
+## title
+The cardiac output is equal to which of the following?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The cardiac output is equal to which of the following?
+## answer_a
+The difference between the end-diastolic volume (EDV) and the end
+## explanation_a
+Correct: end-diastolic volume minus end-systolic volume is exactly stroke volume, so this difference multiplied by heart rate is another way of writing CO = stroke volume x heart rate.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_b
+The product of heart rate and EDV
+## explanation_b
+Heart rate multiplied by end-diastolic volume alone overstates output, since it ignores that only the stroke volume portion of the end-diastolic volume — not the whole end-diastolic volume — is ejected each beat.
+## answer_c
+The difference between the stroke volume at rest and during exercise
+## explanation_c
+The difference between resting and exercise stroke volumes describes how much stroke volume changes with exercise, not cardiac output at either state.
+## answer_d
+The stroke volume x the end-systolic volume
+## explanation_d
+Stroke volume multiplied by end-systolic volume does not correspond to any standard cardiovascular quantity; stroke volume must be multiplied by heart rate, not by the volume left behind after ejection.
+## correct_answer
+A
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that cardiac output equals (end-diastolic volume minus end-systolic volume) x heart rate, an equivalent form of stroke volume x heart rate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q33. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B15539DB883A
+## title
+Which of the following is associated with a decrease in cardiac output?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is associated with a decrease in cardiac output?
+## answer_a
+Increased blood volume
+## explanation_a
+Increased blood volume raises venous return and end-diastolic volume, which by the Frank-Starling mechanism raises, not lowers, stroke volume and cardiac output.
+## answer_b
+Increased end diastolic volume
+## explanation_b
+Increased end-diastolic volume itself raises stroke volume by the Frank-Starling mechanism, raising cardiac output rather than lowering it.
+## answer_c
+Venous obstruction
+## explanation_c
+Correct: venous obstruction impedes venous return, lowering end-diastolic volume (preload); by the Frank-Starling mechanism this lowers stroke volume and so lowers cardiac output.
+
+Why this is right:
+- Cardiac output (CO = stroke volume x heart rate) moves in the same direction as any change that raises or lowers stroke volume at a constant heart rate.
+## answer_d
+d-increased myocardial contractility
+## explanation_d
+Increased myocardial contractility raises stroke volume directly, independent of preload, and so raises cardiac output rather than lowering it.
+## correct_answer
+C
+## main_concept
+CON-CVS-F6AB68107A726E
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology Cardiovascular System — Cardiac Output Formula
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+Identify venous obstruction, by reducing preload, as the option among these associated with a decrease in cardiac output.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p8 q59. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
 QM-104-30851052ECE6
 ## title
 All about cardiac preload is true, EXCEPT:
@@ -17153,6 +18625,374 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No an
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-23F85A7E92E2
+## title
+Functions of atria :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Functions of atria :
+## answer_a
+blood reservoirs when the venous return accumulates during ventricular systole
+## explanation_a
+True, so not the sole answer alone. While the AV valves are shut throughout ventricular systole, venous blood returning from the body accumulates in the atria, which act as a reservoir until the AV valves reopen.
+## answer_b
+pumping 30 % of venous return into the ventricles during their systole
+## explanation_b
+True, so not the sole answer alone. Atrial systole is an active contraction that tops up ventricular filling, normally contributing roughly the last 30% of end-diastolic volume.
+## answer_c
+atria , specially the right , contain receptors for many cardiac reflexes
+## explanation_c
+True, so not the sole answer alone. The atria, especially the right atrium, carry stretch (low-pressure) receptors that trigger cardiac reflexes such as reflex tachycardia with rising atrial filling.
+## answer_d
+all of the above
+## explanation_d
+Correct: all three of the above are genuine functions of the atria beyond simply receiving venous blood, so 'all of the above' is the answer.
+
+Why this is right:
+- The atria have three functions beyond acting as a simple entry chamber.
+## correct_answer
+D
+## main_concept
+CON-CVS-60749EA9A6B0A5
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State the three functions of the atria: reservoir during ventricular systole, roughly 30% top-up of ventricular filling via atrial systole, and cardiac-reflex stretch receptors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p5 q38. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-5E90F48201AF
+## title
+Increases in which of the following variables would be expected to decrease the venous …
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Increases in which of the following variables would be expected to decrease the venous return?
+## answer_a
+Vascular resistance to venous blood
+## explanation_a
+Correct: venous return equals the pressure gradient from mean systemic filling pressure to right atrial pressure divided by resistance to venous flow, so an increase in that resistance, for the same pressure gradient, decreases venous return.
+
+Why this is right:
+- Venous return is governed by venous return = (mean systemic filling pressure - right atrial pressure) / resistance to venous return.
+## answer_b
+Cardiac output
+## explanation_b
+An increase in cardiac output keeps right atrial pressure low by emptying the heart more effectively, which widens the gradient driving venous return and so increases it, not decreases it.
+## answer_c
+Mean systemic filling pressure
+## explanation_c
+An increase in mean systemic filling pressure widens the pressure gradient driving venous return and so increases it, not decreases it.
+## answer_d
+Blood volume
+## explanation_d
+An increase in blood volume raises mean systemic filling pressure, widening the gradient driving venous return and so increasing it, not decreasing it.
+## correct_answer
+A
+## main_concept
+CON-CVS-E98E1592907B3C
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Identify increased resistance to venous blood flow as the variable whose rise decreases venous return, unlike cardiac output, filling pressure or blood volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p10 q69. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-51BDF7725437
+## title
+Venous return is enhanced during exercise by all of the following, except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Venous return is enhanced during exercise by all of the following, except
+## answer_a
+Increased the depth of respiration
+## explanation_a
+Increased depth of respiration genuinely enhances venous return during exercise, so it is not the exception: larger swings in intrathoracic pressure draw more venous blood into the chest with each breath.
+## answer_b
+Pumping action of skeletal muscles
+## explanation_b
+The pumping action of skeletal muscles genuinely enhances venous return during exercise, so it is not the exception: rhythmic muscle contraction squeezes veins, and one-way valves direct the blood toward the heart.
+## answer_c
+Venoconstriction
+## explanation_c
+Venoconstriction genuinely enhances venous return during exercise, so it is not the exception: sympathetically driven constriction of the compliant venous capacitance vessels mobilises pooled blood toward the heart.
+## answer_d
+Increased arteriolar resistance
+## explanation_d
+The exception, and the answer: arteriolar resistance falls, not rises, in exercising muscle to allow the required increase in local blood flow, so an increase in arteriolar resistance is not a mechanism that enhances venous return during exercise.
+
+Why this is right:
+- During dynamic exercise, venous return rises through three cooperating mechanisms.
+## correct_answer
+D
+## main_concept
+CON-CVS-4744FF1A0C4727
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify increased arteriolar resistance as not a mechanism enhancing venous return during exercise, unlike the respiratory pump, the skeletal-muscle pump and venoconstriction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p20 q150. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0D609325893C
+## title
+When compared to normal subject, trained athletes have a; a, smaller stroke volume
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+When compared to normal subject, trained athletes have a; a, smaller stroke volume
+## answer_a
+smaller stroke volume.
+## explanation_a
+Trained athletes have a larger, not smaller, resting stroke volume — physiological cardiac hypertrophy lets the heart fill with and eject more blood per beat.
+## answer_b
+Faster resting heart rate.
+## explanation_b
+Trained athletes have a slower, not faster, resting heart rate (training bradycardia), driven by increased resting vagal tone.
+## answer_c
+Larger heart.
+## explanation_c
+Correct: chronic endurance training produces physiological cardiac hypertrophy, giving trained athletes a larger heart than untrained people, alongside the higher resting stroke volume and training bradycardia that go with it.
+
+Why this is right:
+- Sustained endurance training produces a set of chronic cardiovascular adaptations known collectively as the athletic heart.
+## answer_d
+decrease in the number of mitochondria in skeletal muscle fibers. ,
+## explanation_d
+Endurance training increases, not decreases, the number of mitochondria in skeletal muscle fibres, improving their capacity for aerobic metabolism.
+## correct_answer
+C
+## main_concept
+CON-CVS-166951BEF6407F
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State that endurance-trained athletes develop a larger heart compared with untrained people, alongside a higher resting stroke volume and lower resting heart rate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p12 q94. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 

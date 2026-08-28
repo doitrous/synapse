@@ -24,10 +24,10 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
-    Physiology Cardiovascular System — Cardiac Function — 16 questions, 3 concepts
-    Physiology Cardiovascular System — Cardiac Output Formula — 10 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Function — 38 questions, 8 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
-    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
@@ -46,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  23 questions were excluded and 0 held back for having no
+  41 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1670,6 +1670,9 @@ cardiac-cycle.seven-phase-sequence-and-duration
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p7 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p17 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
 ## field_notes
@@ -1823,10 +1826,666 @@ The aortic pressure curve rises on the ejection-driven anacrotic limb and falls 
 aortic-pressure-curve.limbs-and-dicrotic-notch
 ## exam_signal
 src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
 ## field_notes
 canonical_key "aortic-pressure-curve.limbs-and-dicrotic-notch" already has a pinned id in this module (CON-CVS-F8BD2261B8CBDA); mintConceptId derives the same id fresh (CON-CVS-F8BD2261B8CBDA) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The atrial pressure curve rises to an a wave during atrial systole, a smaller c wave when the closed AV valve bulges back into the atrium at the start of isovolumetric ventricular contraction, and a v wave as venous blood fills the atrium against still-closed AV valves — so the a wave, not the c wave, precedes the first heart sound
+## id
+CON-CVS-B8AFC98120E132
+## canonical_key
+atrial-pressure-curve.a-c-v-waves
+## definition
+The atrial pressure curve traces right (or left) atrial pressure across one cardiac cycle and shows three positive waves. The a wave is the largest, produced directly by atrial systole itself; it peaks and is already falling by the time the AV valves slam shut to produce the first heart sound, so the a wave precedes S1, not the reverse. The c wave is a small secondary rise that follows shortly after: it is caused by the closed AV valve bulging backward into the atrium as ventricular pressure rises sharply at the start of isovolumetric ventricular contraction — so it falls just after, not during, atrial systole. The v wave is a third, later rise built up passively as venous blood returns and pools in the atrium while the AV valves are still shut during ventricular systole (isovolumetric contraction through ejection); it peaks around the time the AV valves reopen for filling.
+## explicit_objective
+Name the a, c and v waves of the atrial pressure curve in order, state what produces each one, and identify the a wave — not the c wave — as the wave that precedes the first heart sound.
+## pitfalls
+Assuming the c wave is simply part of atrial systole because it comes right after the a wave. The c wave is a ventricular event — AV valve closure bulging into the atrium — that happens once atrial systole has already ended and isovolumetric ventricular contraction has begun.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p11 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+a wave c wave v wave | Atrial pressure curve waves | Jugular venous pulse waves
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Concerning the atrial pressure curve a, c-wave occurs during atrial systole
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+A heart murmur is the audible sound of turbulent blood flow, most often produced by a stenotic or incompetent (regurgitant) cardiac valve
+## id
+CON-CVS-C033C2297C38B1
+## canonical_key
+heart-murmurs.turbulent-flow-and-valve-disease
+## definition
+Normal blood flow through the heart is laminar (smooth, silent). A murmur is heard when flow becomes turbulent, which happens when blood is forced through an abnormally narrowed opening (a stenotic valve) or leaks backward through a valve that fails to seal (an incompetent or regurgitant valve). Mild degrees of common physiological states — mild anemia, normal sleep, or a modestly reduced cardiac output on their own — do not generate turbulence of this kind and do not produce a murmur; a murmur points specifically to a mechanical disturbance of flow at a valve (or, less commonly, a large septal defect or vessel narrowing).
+## explicit_objective
+State that a heart murmur is produced by turbulent flow through a diseased (stenotic or regurgitant) valve, and distinguish this from states — mild anemia, sleep, a modest fall in cardiac output — that do not by themselves cause turbulence.
+## pitfalls
+Assuming any change in flow volume or rate is enough to cause a murmur. It is the disturbance of smooth (laminar) flow, typically by a narrowed or leaking valve, that generates the turbulence murmurs are made of — not the mere fact that flow has increased, decreased, or slowed.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p50 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Mechanism of heart murmurs | Turbulent flow and murmurs
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Murmur appears in the following condition:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Physiological splitting of the second heart sound widens during inspiration because the negative intrathoracic pressure of inspiration increases venous return to the right heart, delaying pulmonary valve closure relative to aortic valve closure
+## id
+CON-CVS-702BC9E7A37C51
+## canonical_key
+second-heart-sound.inspiratory-splitting-mechanism
+## definition
+The second heart sound is normally made of two closely spaced components: aortic valve closure (A2) followed very shortly by pulmonary valve closure (P2). During inspiration, the fall in intrathoracic pressure increases venous return into the right side of the heart, which increases right ventricular stroke volume and prolongs right ventricular ejection; this delays pulmonary valve closure and widens the gap between A2 and P2, producing audible physiological splitting. During expiration the two components move back together and the split narrows or disappears. The delay is on the pulmonary side (P2), not because aortic valve closure is brought forward or because left ventricular stroke volume changes.
+## explicit_objective
+Explain why physiological splitting of the second heart sound widens during inspiration, naming the delayed pulmonary valve closure (P2) as the mechanism, driven by increased right-heart venous return.
+## pitfalls
+Attributing inspiratory splitting to a change on the aortic (left-sided) side of the second heart sound. The delay is on the pulmonary side: inspiration selectively increases right ventricular filling and ejection time, delaying P2, while A2 timing changes comparatively little.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Physiological splitting of S2 | Inspiratory splitting of second heart sound
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Normal splitting of the second heart sound into two components is increased during inspiration because:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The atrioventricular (AV) node's relatively slow conduction delays the impulse just long enough for atrial systole to finish topping up ventricular filling before ventricular contraction begins
+## id
+CON-CVS-9B1C94AF064C3D
+## canonical_key
+av-node.conduction-delay-function
+## definition
+Conduction through the AV node is far slower than through atrial or ventricular muscle or the specialized conducting fibers, producing an AV nodal delay of roughly 0.1 second between atrial and ventricular excitation. This delay is physiologically purposeful: it holds back ventricular depolarisation just long enough for atrial systole — the final active phase of ventricular filling — to be completed and for that extra blood to be added to ventricular volume before the ventricles contract. Without this delay, the ventricles would begin contracting while the atria were still actively emptying into them, and the atrial contribution to filling would be lost rather than captured.
+## explicit_objective
+State that the physiologic function of the AV node’s slow conduction is to delay ventricular excitation long enough for atrial systole to complete ventricular filling before contraction begins.
+## pitfalls
+Treating the AV nodal delay as a mere transmission inefficiency rather than a timed, functional pause. Its slowness is exactly what synchronises the end of active ventricular filling (atrial systole) with the start of ventricular contraction.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p4 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+AV nodal delay function | Purpose of AV node conduction delay
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] The physiologic function of the relatively slow conduction through the atrioventricular (AY) node is to allow sufficient time for
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+The fourth heart sound is produced by atrial systole and is not normally heard in a healthy heart
+## id
+CON-CVS-49CD4F7DD8ED67
+## canonical_key
+fourth-heart-sound.atrial-systole-origin
+## definition
+The fourth heart sound (S4), when present, is a low-pitched sound produced by atrial systole — specifically, blood being forced by atrial contraction into a ventricle whose wall is stiffer or less compliant than normal. It is not a normal finding: a healthy, compliant ventricle accepts the atrial contribution to filling without generating an audible sound, so S4 is not normally clearly audible and its presence usually points to reduced ventricular compliance (for example from ventricular hypertrophy).
+## explicit_objective
+State that the fourth heart sound is produced by atrial systole and explain why it is not normally audible in a healthy heart.
+## pitfalls
+Confusing the fourth heart sound with the first heart sound because both relate to events around atrial systole and AV valve behaviour. S1 is produced by AV valve closure at the start of isovolumetric ventricular contraction; S4, when audible, is produced earlier, by atrial systole itself pushing blood into a stiff ventricle.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Fourth heart sound S4 | Origin of S4
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following is responsible for the fourth heart sound;
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -1843,6 +2502,8 @@ src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
 src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
 src_e569449acf8dc2af471e | question_book | | p18 | 104 CPS
 src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p15 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
 ## article_ids
 +ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
 ## field_notes
@@ -1910,6 +2571,137 @@ ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
 direct_statement
 ## original_wording
 [asked 1x across the question books] A patient with heart failure, the ejection fraction is:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Cardiac output rises when preload (venous return, end-diastolic volume) or contractility rises, and falls when venous return is obstructed, because each acts through stroke volume
+## id
+CON-CVS-F6AB68107A726E
+## canonical_key
+cardiac-output.determinants-and-directional-effects
+## definition
+Cardiac output (CO = stroke volume x heart rate) moves in the same direction as any change that raises or lowers stroke volume at a constant heart rate. Anything that increases venous return and so raises end-diastolic volume — an increase in blood volume, for example — raises stroke volume by the Frank-Starling mechanism and so raises CO. An increase in myocardial contractility raises stroke volume directly, independent of preload, and so also raises CO. Venous obstruction works in the opposite direction: by impeding venous return to the heart, it lowers end-diastolic volume (preload), which lowers stroke volume by the Frank-Starling mechanism and so lowers cardiac output.
+## explicit_objective
+State that increased blood volume, increased end-diastolic volume and increased contractility each raise cardiac output, while venous obstruction lowers it by reducing preload.
+## pitfalls
+Assuming every change in the cardiovascular system that sounds like a "problem" lowers cardiac output. Venous obstruction lowers CO because it specifically reduces venous return and therefore preload; increased contractility and increased preload both raise CO, even though one might intuitively expect "more resistance to flow, somewhere" to always be a bad thing for output.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p8 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Determinants of cardiac output | What raises or lowers cardiac output
+## article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which of the following is associated with a decrease in cardiac output?
 ## conflicts
 [clear]
 ## uncertainty
@@ -2061,6 +2853,530 @@ ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 direct_statement
 ## original_wording
 [asked 1x across the question books] Asa rapid compensatory reaction to hemorrhagic shock, the secretion of the following hormones is increased EXCEPT:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Beyond pumping blood into the ventricles, the atria act as venous reservoirs during ventricular systole, contribute roughly 30% of ventricular filling through atrial systole, and carry stretch receptors that trigger cardiac reflexes
+## id
+CON-CVS-60749EA9A6B0A5
+## canonical_key
+atria.functions-beyond-pumping
+## definition
+The atria have three functions beyond acting as a simple entry chamber. First, while the AV valves are shut throughout ventricular systole, venous blood returning from the body has nowhere to go but the atria, which act as a reservoir that accumulates it until the AV valves reopen. Second, atrial systole is an active top-up of ventricular filling, normally contributing roughly the last 30% of end-diastolic volume on top of the passive filling that came before it. Third, the atria — especially the right atrium — carry stretch (low-pressure) receptors that trigger cardiac reflexes, including reflex tachycardia when atrial filling rises (the Bainbridge reflex) and secretion of atrial natriuretic peptide when atrial stretch is sustained.
+## explicit_objective
+State the three functions of the atria beyond receiving venous blood: acting as a reservoir during ventricular systole, contributing roughly 30% of ventricular filling via atrial systole, and carrying stretch receptors for cardiac reflexes.
+## pitfalls
+Treating the atria as passive holding chambers with no active role. Atrial systole is an active contraction contributing a real fraction of ventricular filling, and atrial stretch receptors actively drive reflexes rather than merely sensing pressure for no functional purpose.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Functions of the atria | Atrial reservoir function | Atrial stretch receptors
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Functions of atria :
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Venous return is driven by the pressure gradient from mean systemic filling pressure to right atrial pressure and opposed by resistance to venous flow, so increased resistance to venous blood — not increased cardiac output, filling pressure or blood volume — is what lowers it
+## id
+CON-CVS-E98E1592907B3C
+## canonical_key
+venous-return.determinants-and-equation
+## definition
+Venous return is governed by venous return = (mean systemic filling pressure - right atrial pressure) / resistance to venous return. Anything that raises mean systemic filling pressure (for example, an increase in blood volume, or increased venous tone) raises venous return by widening the driving pressure gradient. An increase in cardiac output likewise raises venous return, because a more effectively emptying heart keeps right atrial pressure low, widening the same gradient from the other end. An increase in resistance to venous blood flow works in the opposite direction: for the same pressure gradient, higher resistance in the venous pathway back to the heart reduces the flow that gradient can drive, so it is resistance — not the gradient's two pressures — whose increase lowers venous return.
+## explicit_objective
+State the venous return equation (driving pressure gradient over resistance) and identify increased resistance to venous flow, not increased cardiac output, filling pressure or blood volume, as what lowers venous return.
+## pitfalls
+Assuming every listed cardiovascular variable moves venous return the same direction when increased. Cardiac output, mean systemic filling pressure and blood volume all raise venous return when increased — only a rise in resistance to venous flow lowers it, because resistance sits in the denominator of the venous return relationship rather than in the pressure gradient that drives it.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p10 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Venous return equation | Determinants of venous return
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Increases in which of the following variables would be expected to decrease the venous return?
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Exercise enhances venous return through the skeletal-muscle pump, the respiratory pump from deeper breathing, and sympathetically driven venoconstriction — not through increased arteriolar resistance, which would oppose it
+## id
+CON-CVS-4744FF1A0C4727
+## canonical_key
+venous-return.exercise-enhancing-mechanisms
+## definition
+During dynamic exercise, venous return rises through three cooperating mechanisms. The skeletal-muscle pump: rhythmic contraction of exercising muscles squeezes the veins running through them, and one-way venous valves direct that squeezed blood back toward the heart. The respiratory pump: the deeper, faster breathing of exercise produces larger swings in intrathoracic pressure, drawing more venous blood into the chest with each inspiration. Sympathetically driven venoconstriction: increased sympathetic outflow during exercise constricts the veins, which are highly compliant capacitance vessels, mobilising blood that would otherwise pool there and redirecting it toward the heart. Arteriolar resistance moves in the opposite direction during exercise — it falls in active skeletal muscle to allow increased flow — and a rise in arteriolar resistance would if anything oppose, not enhance, venous return.
+## explicit_objective
+Name the skeletal-muscle pump, the respiratory pump and venoconstriction as the three mechanisms enhancing venous return during exercise, and state that increased arteriolar resistance is not one of them.
+## pitfalls
+Assuming that anything mobilising the cardiovascular system harder during exercise must enhance venous return. Arteriolar resistance actually falls, not rises, in exercising muscle, since vasodilation there is what allows the required increase in local blood flow.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p20 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Venous return during exercise | Skeletal muscle pump | Respiratory pump
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Venous return is enhanced during exercise by all of the following, except
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## label
+Chronic endurance training enlarges the heart and raises resting stroke volume while lowering resting heart rate (training bradycardia), leaving resting cardiac output essentially unchanged
+## id
+CON-CVS-166951BEF6407F
+## canonical_key
+athletic-heart.chronic-training-adaptations
+## definition
+Sustained endurance training produces a set of chronic cardiovascular adaptations known collectively as the athletic heart. The heart itself enlarges (physiological hypertrophy with chamber dilation), which lets it fill with and eject a larger volume each beat — a higher resting stroke volume than an untrained person's. At the same time, increased resting vagal tone lowers resting heart rate (training bradycardia). Because stroke volume rises while heart rate falls, resting cardiac output in a trained athlete is essentially the same as in an untrained person; what has changed is how that same output is achieved — with a slower, more powerful, more efficient heartbeat.
+## explicit_objective
+State that endurance training enlarges the heart and raises resting stroke volume while lowering resting heart rate, so that resting cardiac output is little changed.
+## pitfalls
+Assuming a trained athlete's resting cardiac output must be higher because their heart clearly does more work overall. At rest, the higher stroke volume and lower heart rate largely offset each other, so it is the heart's efficiency and its capacity during exertion — not its resting output — that training chiefly changes.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p12 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Athletic heart syndrome | Training bradycardia | Effects of endurance training on the heart
+## article_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] When compared to normal subject, trained athletes have a; a, smaller stroke volume
 ## conflicts
 [clear]
 ## uncertainty
