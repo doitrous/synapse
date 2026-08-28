@@ -3,6 +3,58 @@
 Tracks status against the 12 concept clusters in `ASU-MBG-triage.md`. Update this file, do not
 recreate it, as each cluster closes.
 
+## Done (author10, branch `asu-mbg-author10`, base `asu-mbg-author7` @ 8024699f)
+
+**Cluster 1 · RNA types (superlatives) — CLOSED, all 6 questions authored.**
+
+The "RNA Structure & Transcription" chapter's Q1, Q2, Q10, Q12, Q14, Q15 — read from the chapter's
+own pages (PDF pp.3-4, pre-rendered by a prior pass and confirmed against fresh views) and keyed
+from its own answer table (PDF p.15: 1=a, 2=a, 10=d, 12=b, 14=c, 15=e).
+
+| Concept | ID | Qs | Status |
+|---|---|---:|---|
+| RNA types comparative properties (tRNA highest modified-nt%, mRNA most heterogeneous/"hnRNA", min ~20 tRNA species, mRNA the one coding RNA among rRNA/tRNA/snRNA/lncRNA) | `CON-FND-31428037F9FDDF` | Q1, Q2, Q12, Q15 | **new** |
+| RNA vs DNA chemistry (2'-OH-driven alkali-lability, shorter, single-stranded with intra-strand H-bonds, uracil) | `CON-FND-297C617E70A8FA` | Q14 | **new** |
+| tRNA cloverleaf (reused, already ASU-tagged by author7) | `CON-FND-4DCC3E30FD4C86` | Q10 | reused |
+
+Both new concepts point `article_ids` at the pre-existing, already ASU-overlaid Kasr article
+`ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS` (its own alias list already names "Types of RNA"; its
+summary "closes on the three RNAs") — no new article minted, matching the triage note's prediction.
+Full evidence chain (2 claims, 2 citations, no new spans since no new article). Files:
+`concept/ASU-MBG-rna-types-superlatives-concepts.md`, `evidence/ASU-MBG-rna-types-superlatives-
+{claims,citations}.md`, `question/ASU-MBG-rna-types-superlatives-mcq.md`.
+
+Search-before-mint (`find-existing.mjs`): "tRNA modified nucleotides", "heterogeneous mRNA", "RNA
+alkali labile", "non-coding RNA", "tRNA species amino acid", "DNA vs RNA differences" all returned
+either no hit or an unrelated hit (a microRNA/gene-silencing concept, a different fact) — genuinely
+new content, confirmed against the triage note's own prediction of "1-2 new concepts". "tRNA
+cloverleaf" hit the existing `CON-FND-4DCC3E30FD4C86` (already ASU-tagged), reused directly for Q10.
+
+Gates: `medical:batch` clean, 0 errors, on the concept file, the question file (`--with` the new
+concept file, the ASU pending-live molecular-genetics overlay + articles files, the module's
+evidence-sources file, and Kasr's `102-INT-mcq-concepts.md` to resolve the reused tRNA-cloverleaf
+concept's `article_ids`), and both evidence files; explanation-length check 0% under 200 chars / 0%
+under 3 sentences (all 6 pass clean, no residual warning at all). `medical:simulate` (positional,
+`--emit` to scratch) 0 errors, 0 skipped, `delta: {articles:11, concepts:40, claims:2, citations:2,
+resources:1, articleSpans:0}` against the full cumulative pending-live state (11/40 reflect every
+prior session's still-pending overlay work, not just this pass's — this pass's own contribution is
+0 articles + 2 concepts + 2 claims + 2 citations + 0 spans + 6 questions); questions `created:6,
+updated:0, rejected:0`. `medical:audit --source <emitted-state>` 548 total errors on the full
+simulated state (identical to the pre-existing baseline this session inherited — this pass added
+0 net new error count), and by exact-id filtering only 1 error matches either new concept (the same
+generic, harmless `relatedArticleIds missing` completeness note already present on dozens of prior
+sessions' concepts) — 0 errors mention any of this pass's 6 new questions or 2 new claims/citations.
+First revision left `arabic_label` blank on both new concepts, which the audit correctly flagged
+(`arabicLabel is blank without an explicit reason` — a genuine gap, unlike the harmless
+`relatedArticleIds` note); fixed by adding real Arabic labels/aliases to both concepts before the
+final gate run above, matching this lane's established practice of filling Arabic fields on new
+concepts (confirmed against author6's prokaryotic-apparatus concepts, both of which have them).
+
+**Traceable share:** 6/6 questions traceable to a `main_concept` covered by an article — 100%.
+
+Commit on `asu-mbg-author10`: concepts + evidence + questions + this ledger update, in one commit.
+Pushed to origin.
+
 ## Done (author7, branch `asu-mbg-author7`, base `asu-mbg-author6` @ 937d4e8b)
 
 **Cluster 5 · Translation / Protein Synthesis — CLOSED, all 65 questions authored.**
@@ -237,7 +289,7 @@ All still sourced from `EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf` unless no
 
 | Cluster | Rough Qs left | Key concepts still needed | Status |
 |---|---:|---|---|
-| 1 · RNA types (superlatives) | Q1, Q2, Q10, Q12, Q14, Q15 (~6, "RNA Structure & Transcription" chapter) | tRNA highest-modified-nt / mRNA most-heterogeneous / RNA alkali-lability / min-20-tRNA-types / cloverleaf base-pairing — none found live/pending; would need 1-2 new concepts, article = `ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS` (pending, Kasr) which substantively covers tRNA cloverleaf/RNA types already | authorable next |
+| 1 · RNA types (superlatives) | **CLOSED this pass (author10) — all 6 questions authored. See the "Done (author10)" section above.** | — | done |
 | 2 · Transcription mechanism (prokaryotic apparatus) | **CLOSED this pass (author6) per chief-of-staff Ruling #1 — see the "Done" section above.** | — | done |
 | 3/4 · Genetic code remainder | Q7 (degenerate, redundant w/ Q1/Q2, skipped deliberately), Q12 (DMD→trinucleotide-repeat, wants a disease-correlation concept), Q13-22 (sickle-cell/thalassaemia/Huntington/DMD "mostly occur due to X mutation type" run, p.16-17), Q26-28, 30, 36, 38, 44-46 (codon-table lookups, mixed) | `CON-FND-4508AC0EA86F86` and `CON-FND-25E8976EFF0509` (both now +asu-tagged) cover most of these directly; Q13-16's specific disease→repeat-expansion mapping may want a new "trinucleotide repeat disease" concept — not yet searched | authorable next |
 | 5 · Translation/protein synthesis (whole chapter) | **CLOSED this pass (author7) — all 65 questions authored. See the "Done (author7)" section above.** | — | done |
