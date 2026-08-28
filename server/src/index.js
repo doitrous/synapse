@@ -59,6 +59,7 @@ import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuo
 import {
   createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
   listEnrollmentChangeRequests, myEnrollmentChangeRequests,
+  applyDirectEnrollmentChange,
 } from './enrollmentChanges.js'
 import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
@@ -2196,6 +2197,54 @@ app.patch('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => 
   }
 }))
 
+/**
+ * Move a student to a new university and year.
+ *
+ * The Users tab holds admins too, but changing a cohort is an editor-and-above
+ * action — it resets what progress the student sees — so rank is checked past the
+ * tab. The change is one transaction: persist the cohort, re-derive year_id, reset
+ * the cached aggregates to the destination cohort (a clean slate on a new one,
+ * the old numbers exactly on a return), and write the audit row. The response
+ * carries the before and after so the confirmation screen can state both.
+ */
+app.post('/api/admin/users/:id/enrollment', requireTab('users'), wrap(async (req, res) => {
+  if (req.identity.rank < 2) {
+    return res.status(403).json({ error: 'only an editor or super admin may change a student’s university and year' })
+  }
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const universityId = String(req.body?.universityId || '').trim()
+  const year = String(req.body?.year || '').trim()
+  if (!universityId || !year) return res.status(400).json({ error: 'universityId and year are required' })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [rows] = await conn.query(
+      'SELECT id, university_id AS universityId, year, year_id AS yearId, user_id AS userId FROM students WHERE id = ? FOR UPDATE',
+      [req.params.id],
+    )
+    if (!rows.length) { await conn.rollback(); return res.status(404).json({ error: 'no profile to update' }) }
+    const current = rows[0]
+    if (String(current.universityId ?? '') === universityId && String(current.year ?? '') === year) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'that is already their university and year' })
+    }
+    const result = await applyDirectEnrollmentChange(conn, {
+      studentId: req.params.id, userId: current.userId, universityId, year,
+      oldUniversityId: current.universityId, oldYear: current.year, oldYearId: current.yearId,
+      actorId: req.identity.id, reason,
+    })
+    await conn.commit()
+    res.json({ ok: true, ...result })
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
+
 app.post('/api/admin/users/:id/subscription', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
@@ -3006,7 +3055,13 @@ app.post('/api/students', wrap(async (req, res) => {
 }))
 
 app.patch('/api/students/:id', wrap(async (req, res) => {
-  const allowed = { name: 'name', email: 'email', universityId: 'university_id', year: 'year', yearId: 'year_id', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
+  // University, year and year_id are deliberately NOT editable here: a cohort
+  // change resets what progress the student sees, so it must go through
+  // POST /api/admin/users/:id/enrollment, which is editor-and-above, audited,
+  // and resets the aggregates. Persisting them here silently — as the profile
+  // dialog once did — is exactly the bug that let a cohort look changed while the
+  // record still said otherwise.
+  const allowed = { name: 'name', email: 'email', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
   const sets = [], vals = []
   for (const [k, col] of Object.entries(allowed)) if (k in (req.body || {})) { sets.push(`${col} = ?`); vals.push(req.body[k]) }
   if (sets.length) { vals.push(req.params.id); await pool.query(`UPDATE students SET ${sets.join(', ')} WHERE id = ?`, vals) }
