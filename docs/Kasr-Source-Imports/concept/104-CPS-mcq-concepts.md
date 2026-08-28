@@ -2,9 +2,11 @@
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
     Aortic Arch Relations and Cardiac Plexuses — 4 questions, 2 concepts
+    Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 2 questions, 2 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
+    Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
@@ -97,6 +99,137 @@ src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
 +ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
 ## field_notes
 canonical_key "descending-thoracic-aorta.course-relations-and-branches" already has a pinned id in this module (CON-CVS-EEA29FB47CBB71); mintConceptId derives the same id fresh (CON-CVS-EEA29FB47CBB71) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The azygos vein runs directly behind the root of the right lung in the posterior mediastinum, then arches forward just above it to end in the superior vena cava
+## id
+CON-CVS-09E48983DF8E7C
+## canonical_key
+azygos-vein.arch-and-relation-to-right-lung-root
+## definition
+In the posterior mediastinum, the azygos vein has the oesophagus and the root of the right lung immediately in front of it, the lower eight thoracic vertebrae behind (separated from them by the right posterior intercostal arteries), the right pleura and lung and the greater splanchnic nerve on its right, and the thoracic duct and the descending aorta on its left. At the level of the T4/T5 disc it turns forward as the arch of the azygos vein, passing through the superior mediastinum with the root of the right lung below it, the right pleura and lung on its right, and the oesophagus, trachea and right vagus nerve on its left, to end in the middle of the back of the superior vena cava — opposite the second right costal cartilage, just before that vein pierces the pericardium.
+## explicit_objective
+State that the azygos vein lies directly behind the root of the right lung in the posterior mediastinum before its arch turns forward to pass above (not behind) that same root on its way to the superior vena cava, and name what lies on each side of both the vein and its arch.
+## pitfalls
+Assuming the azygos vein's only relation to the right lung root is the arch passing above it. Before it arches forward, the vein itself runs immediately behind the lung root in the posterior mediastinum — the relation this leaf's own exam question tests — and only afterwards turns to pass above the root on its way to the superior vena cava.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-ANA-T04
+## secondary_node_ids
+SYS-RES-T01-S01-M04
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > Azygos System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p13 | 104 CPS
+## weight_confidence
+0.6
+## blueprint_weight
+0.23
+## exam_weight_by_year
+KAU_Y1=0.23
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.7
+## topic
+Anatomy
+## subtopic
+Cardiovascular System
+## aliases
+Arch of the azygos vein | Root of the right lung
+## article_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Which vessel passes directly behind the right hilum:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## resource_ids
+src_4bd55e9eaf092282818c
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -298,6 +431,23 @@ src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
 +ART-104-ANA-THORACIC-NERVES
 ## field_notes
 canonical_key "phrenic-nerve.course-and-distribution" already has a pinned id in this module (CON-RES-AFCED19BA66ED2); mintConceptId derives the same id fresh (CON-RES-AFCED19BA66ED2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-DC1111DA6DD151
+## label
+The mediastinal surfaces of the two lungs carry different impressions: the right is grooved by the SVC and azygos arch, the left by the aortic arch and its two great branches
+## canonical_key
+lung.mediastinal-surface-impressions
+## exam_signal
+src_b2b20b3b22954ea7843a | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-ANA-LUNG-SURFACE-FEATURES
+## field_notes
+canonical_key "lung.mediastinal-surface-impressions" already has a pinned id in this module (CON-RES-DC1111DA6DD151); mintConceptId derives the same id fresh (CON-RES-DC1111DA6DD151) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

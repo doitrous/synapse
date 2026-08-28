@@ -2,9 +2,11 @@
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
     Aortic Arch Relations and Cardiac Plexuses — 4 questions, 2 concepts
+    Anatomy Cardiovascular System — Azygos System (course and relations) — 1 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
     The Diaphragm — 2 questions, 2 concepts
     Large Nerves of the Thorax — 3 questions, 1 concepts
+    Anatomy Respiratory System — Lungs (mediastinal surface impressions) — 1 questions, 1 concepts
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
@@ -340,6 +342,98 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p28 q116. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5B7F2E4451C6
+## title
+Which vessel passes directly behind the right hilum:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which vessel passes directly behind the right hilum:
+## answer_a
+azygous vein
+## explanation_a
+Correct. In the posterior mediastinum, the azygos vein runs immediately behind the root of the right lung — before it turns forward as the arch of the azygos vein, which passes ABOVE (not behind) the same lung root on its way to the superior vena cava.
+
+Why this is right:
+- In the posterior mediastinum, the azygos vein has the oesophagus and the root of the right lung immediately in front of it, the lower eight thoracic vertebrae behind (separated from them by the right posterior intercostal arteries), the right pleura and lung and the greater splanchnic nerve on its right, and the thoracic duct and the descending aorta on its left.
+## answer_b
+internal mammary artery
+## explanation_b
+The internal thoracic (internal mammary) artery runs down the anterior chest wall a fingerbreadth from the sternal margin — nowhere near the root of the lung on either side.
+## answer_c
+hemi-azygous vein
+## explanation_c
+The hemiazygos vein is a LEFT-sided structure, crossing the midline behind the aorta and oesophagus to drain into the azygos vein; it has no relation to the right hilum at all.
+## answer_d
+aorta
+## explanation_d
+The (descending thoracic) aorta lies against the pleura and lung on its LEFT side — related to the left lung, not the right; on its right it is related instead to the oesophagus above and the thoracic duct and azygos vein below, not to the right hilum directly.
+## correct_answer
+A
+## main_concept
+CON-CVS-09E48983DF8E7C
+## library_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## topic
+Anatomy Cardiovascular System — Azygos System (course and relations)
+## subtopic
+Anatomy Cardiovascular System — Azygos System (course and relations)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Cardiovascular System > Azygos System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a single fact
+## learning_objective
+Identify the azygos vein as the vessel running directly behind the root of the right lung, before its arch turns forward above that same root to reach the superior vena cava.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p13 q99. Manifest src_d3160d222c8c55775511.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
@@ -997,6 +1091,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E2762202981F
+## title
+The mediastinal surface of the left lang shows an impression for one of the following 7
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The mediastinal surface of the left lang shows an impression for one of the following 7
+## answer_a
+SVC
+## explanation_a
+The superior vena cava is a right-sided structure; it grooves the mediastinal surface of the RIGHT lung, in front of and above the hilum, not the left.
+## answer_b
+IVC. '
+## explanation_b
+The inferior vena cava is likewise a right-sided structure, grooving the mediastinal surface of the right lung, not the left.
+## answer_c
+Pulmonary ligament allows for distension of pulmonary veins. ١ 1
+## explanation_c
+True on its own terms — the pulmonary ligament, a loose fold of mediastinal pleura below the lung root, does give the pulmonary veins room to distend — but this is an unrelated fact about the pleura, not one of the left lung's own mediastinal-surface impressions the stem is asking about.
+## answer_d
+The left lung is related to the descending thoracic aorta
+## explanation_d
+Correct. Behind the hilum, the mediastinal surface of the left lung carries the groove for the descending thoracic aorta, which lies against the lung on that side throughout its thoracic course.
+
+Why this is right:
+- On the right lung's mediastinal surface, in front of and above the hilum lie the cardiac impression (related to the right atrium and auricle), the superior vena caval groove, the impression for the ascending aorta, the inferior vena caval groove, the groove for the arch of the azygos vein and the tracheal and oesophageal grooves, the latter continuing behind the hilum.
+## correct_answer
+D
+## main_concept
+CON-RES-DC1111DA6DD151
+## library_ids
+ART-104-ANA-LUNG-SURFACE-FEATURES
+## topic
+Anatomy
+## subtopic
+Anatomy Respiratory System — Lungs (mediastinal surface impressions)
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Lungs
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the correct statement
+## learning_objective
+State that, behind the hilum, the left lung's mediastinal surface is grooved by the descending thoracic aorta, not by structures that belong to the right lung's mediastinal surface.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p5 q2. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
