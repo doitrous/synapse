@@ -391,3 +391,79 @@ university_notes: This is a live article (Admin team owned). Ain Shams (ASU-MBG)
 
 ## subject
 dev
+
+---
+
+# Item
+
+## id
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
+
+## title
+The cytoplasm: organelles and inclusions
+
+## topic
+Cytology
+
+## summary
+The cytoplasm is sorted twice before anything is described: living organelles against non-living inclusions, then membranous organelles against non-membranous ones. After that the chapter is a series of organelles, and the exam asks each of them the same three questions — what it looks like by light microscopy, what it looks like by electron microscopy, and what it does.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+101 ISK > Histology > Cytology
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+university_notes: Kasr Al Ainy (101 ISK) owns this article. Ain Shams (ASU-MBG) sits its own ribosome/polysome, free-versus-attached-ribosome, and proteasome/ubiquitin questions on the same content (Translation "Protein Synthesis" chapter, Q22, Q31, Q44, Q45, Q50, Q57) — no wording difference identified yet.
+
+## subject
+fnd
+
+---
+
+# Item
+
+## id
+ART-102-BIO-ENZYMES
+
+## title
+Enzymes
+
+## topic
+Biochemistry
+
+## summary
+An enzyme lowers the activation energy of a reaction without changing where it ends up, and five things change how fast it does so: substrate, enzyme, cofactor, temperature and pH. Each of the first three raises velocity until something else becomes the limiting factor, and each of the last two has an optimum with a fall on either side. Competitive inhibition is the same graph with a molecule that looks like the substrate in the way, which is exactly how a sulfonamide stops a bacterium building folate.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Enzymes
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) sits its own reversible phosphorylation/dephosphorylation questions on the same content (Translation "Protein Synthesis" chapter, Q13, Q58, Q59, Q60) — no wording difference identified yet.
+
+## subject
+fnd

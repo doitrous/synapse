@@ -822,3 +822,322 @@ ASU_Y1=0.4
 university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.16 Q25 (AUG's importance as the chain-initiating codon), p.17 Q31 (AUG is a start codon), Q32 (UAG is a non-sense/stop codon), Q33 (UAU is NOT a stop codon — the exam-tested exception among the four "UAx/UGA" look-alikes).
 
 ---
+
+# Item
+
+## id
+CON-FND-9A1437CD0A382C
+
+## label
+Elongation is a 3-step cycle — aminoacyl-tRNA binds the A site, peptidyl transferase forms the peptide bond, and the ribosome translocates one codon — that reads the mRNA codon by codon and so fixes the amino acid sequence of the growing chain
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar, Translation "Protein Synthesis" chapter, p.22 Q3 (charged tRNA enters the large subunit at the A site), Q4 (translation proceeds 5' to 3'), Q5 (growing peptide chain stays attached to tRNA), p.23 Q8 (peptidyl transferase activity is in the 60S subunit), Q9 (EXCEPT: peptide bond forms between the new aa's amino group and the growing chain's carboxyl group, not the reverse), p.24 Q19 (peptidyl transferase is part of the large ribosomal subunit), Q21 (peptide bond formation transfers the chain from P to A before translocation restores it), Q25 (peptidyl transferase activity located in the 60S subunit), p.26 Q33 (ordering the elongation-cycle steps), Q37 (2 charged tRNAs in use at a time, A and P sites), p.27 Q46 (translation makes protein from mRNA), Q48 (translocation moves the A-site tRNA into the P site), p.28 Q56 (polypeptide synthesis runs N-terminus to C-terminus), p.29 Q63 (shared prokaryotic/eukaryotic requirement: translocation of peptidyl-tRNA from A to P), p.30 Q61 (elongation-complex diagram: the exiting peptide's far end is mislabelled "carboxy-terminus," which is actually the growing/attachment end still on the P-site tRNA).
+
+---
+
+# Item
+
+## id
+CON-FND-60F505DFC88026
+
+## label
+Translocation moves the ribosome one codon along the mRNA, shifting the peptide-bearing tRNA from the A site to the P site and freeing the A site for the next aminoacyl-tRNA
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Translation
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.23 Q14 (after peptide bond formation, translocation is driven by elongation factor and GTP).
+
+---
+
+# Item
+
+## id
+CON-FND-CC6BAFEE04D3F8
+
+## label
+Eukaryotic translation initiates when IF-4 brings mRNA to the 40S subunit, which slides to the AUG start codon where methionyl-tRNA (Met-tRNAi) binds, before the 60S subunit joins to leave Met-tRNAi on the P site and the A site free
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.25 Q29 (eukaryotic initiation begins with 40S binding mRNA), p.26 Q35 (eukaryotic ribosome recruited to mRNA by 5' capping), p.27 Q41 (first amino acid in the eukaryotic polypeptide is plain methionine, not formylated), p.28 Q52 (comparing eukaryotic to prokaryotic translation: the 5' cap is important for eukaryotic initiation), Q55 (the first step in translation is mRNA binding the small ribosomal subunit).
+
+---
+
+# Item
+
+## id
+CON-FND-89278C7DEE1C9C
+
+## label
+Translation requires all three RNA classes, activated amino acids, energy and protein factors; the amino acids are activated and loaded onto their matching tRNA by 20 amino acid-specific aminoacyl-tRNA synthetases in a two-step, ATP-consuming reaction
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.23 Q7 (EXCEPT: charging hydrolyses ATP to AMP and PPi, not to ADP and Pi), p.24 Q15 (activation of one amino acid spends two high-energy phosphate bonds), Q34 (NOT a requirement for protein synthesis: the spliceosome, a nuclear splicing component, not a translation component), p.26 Q36 (20 aminoacyl-tRNA synthetases exist in a cell, one per amino acid).
+
+---
+
+# Item
+
+## id
+CON-FND-4DCC3E30FD4C86
+
+## label
+The tRNA cloverleaf has four named arms plus an extra arm, each with its own job: the acceptor arm carries the amino acid, the D-arm (with dihydrouracil) is read by aminoacyl-tRNA synthetase, the anticodon arm pairs with the mRNA codon, and the TψC arm (thymine and pseudouridine) binds the ribosome
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.22 Q2 (tRNA is the adaptor molecule translating the code into an amino acid sequence), p.28 Q51 (tRNA's two essential sites for translating a codon into an amino acid are the anticodon loop and the 3' end).
+
+---
+
+# Item
+
+## id
+CON-FND-6A58FA1680290F
+
+## label
+Reversible phosphorylation/dephosphorylation is a covalent modification, catalysed by protein kinase and protein phosphatase, that can activate or inactivate an enzyme depending on which enzyme it is
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Enzymes
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.23 Q13 (phosphorylation occurs on the hydroxyl group of an amino acid), p.29 Q58 (kinase adds a phosphate group to target proteins), Q59 (phosphatase removes a phosphate group), p.30 Q60 (phosphorylation is the reversible modification that can activate or deactivate a protein depending on which protein is targeted).
+
+---
+
+# Item
+
+## id
+CON-FND-344140D2457FBB
+
+## label
+Covalent post-translational modification adds a functional group to an amino acid residue — phosphate, carbohydrate, acetyl or methyl, hydroxyl or carboxyl — and each has its own worked example
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.23 Q12 (glycosylation of a protein occurs in the endoplasmic reticulum and Golgi complex), p.27 Q43 (glycosylation is the addition of carbohydrate to the protein).
+
+---
+
+# Item
+
+## id
+CON-FND-0D6F0DC6CBAD60
+
+## label
+The proteasome, not the lysosome, destroys abnormal and short-lived proteins inside the cytosol
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.24 Q22 (ubiquitin marks proteins for degradation), p.28 Q50 (ubiquitin is the protein that tags another protein for proteolysis). The ASU variant tests ubiquitin's tagging role specifically, which this concept's definition already states ("after they have been tagged with ubiquitin") even though its main teaching point is the proteasome-versus-lysosome distinction — the same underlying fact, not a duplicate concept.
+
+---
+
+# Item
+
+## id
+CON-FND-4284C6B8667CD6
+
+## label
+A ribosome is a non-membranous particle of rRNA and protein, assembled as two unequal subunits in the nucleolus
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.26 Q31 (ribosomes are composed of proteins and rRNA, not three unequal subunits or DNA), p.29 Q57 (a polysome is more than one ribosome simultaneously translating the same mRNA).
+
+---
+
+# Item
+
+## id
+CON-FND-60953640114635
+
+## label
+Free ribosomes make protein the cell keeps; attached ribosomes make protein it exports — and both together are why cytoplasm is basophilic
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+101 ISK > Histology > Cytology > Cytoplasm
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.25
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.27 Q44 (free ribosomes synthesize proteins used by organelles imported post-translationally, e.g. mitochondria, in place of this concept's own peroxisome example — same organizing principle, a different named organelle), Q45 (membrane-bound RER ribosomes synthesize proteins destined for secretion or the lysosome, in place of this concept's own "enzymes and hormones for export" example — again the same organizing principle).
+
+---
+
+# Item
+
+## id
+CON-FND-38857DFD506559
+
+## label
+Peptidyl transferase (on the 60S ribosomal subunit) hydrolyses the bond between the finished peptide and its tRNA when release factors, not a charged tRNA, occupy the stop codon
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Translation
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Translation "Protein Synthesis"
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.24 Q18 (translation ends when a stop codon enters the A site), p.26 Q32 (the hydrolytic release of the polypeptide from the ribosome is catalysed by peptidyl transferase).
+
+---
