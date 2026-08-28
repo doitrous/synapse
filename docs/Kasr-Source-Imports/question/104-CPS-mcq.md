@@ -9,11 +9,12 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 33 questions, 4 concepts
-    Histology Cardiovascular System — A-V Connections — 32 questions, 5 concepts
+    Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — Veins — 20 questions, 4 concepts
-    Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
+    Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -53,7 +54,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  81 questions were excluded and 0 held back for having no
+  82 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -7840,6 +7841,190 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-21AAEDAFF08E
+## title
+Arterio-venous anastomoses are:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Arterio-venous anastomoses are:
+## answer_a
+Direct connection between medium sized arteries and veins
+## explanation_a
+Too large a scale: an arteriovenous anastomosis connects small vessels — an arteriole and a venule — not medium-sized arteries and veins.
+## answer_b
+Direct connection between large elastic arteries and large veins
+## explanation_b
+Larger still: large elastic arteries and large veins are far too large in scale to form the rapidly-controlled, sympathetically-innervated arteriovenous anastomosis.
+## answer_c
+Direct connection between arterioles and venules
+## explanation_c
+An arteriovenous anastomosis is, by definition, a direct connection specifically between an arteriole and a venule, bypassing the capillary bed entirely.
+
+Why this is right:
+- An arteriovenous anastomosis (shunt) is a direct connection between an arteriole and a venule that bypasses the capillary bed entirely.
+## answer_d
+Are the blood capillaries
+## explanation_d
+An arteriovenous anastomosis bypasses the capillary bed; it is a distinct shunt structure in its own right, not a type of blood capillary.
+## correct_answer
+C
+## main_concept
+CON-CVS-4BE9D0F74D4377
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that an arteriovenous anastomosis directly connects an arteriole and a venule, not a medium or large vessel pair or a capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p3 q27; Histo MCQ by Dr.Kandeel [104].pdf p19 q27. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-59F134A694FF
+## title
+Arterio-venous anastomoses are: a, Direct connection between’ medium sized arteries and…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Arterio-venous anastomoses are: a, Direct connection between’ medium sized arteries and veins
+## answer_a
+Direct connection between’ medium sized arteries and veins.
+## explanation_a
+An arteriovenous anastomosis is a small-vessel structure; medium-sized arteries and veins are too large a pairing for this rapidly-regulated shunt.
+## answer_b
+Direct connection between large elastic arteries and large veins.
+## explanation_b
+Large elastic arteries and large veins describe a much larger, physiologically distinct scale of vessel than the true arteriovenous anastomosis.
+## answer_c
+Direct connection between arterioles and venules.
+## explanation_c
+The defining scale of an arteriovenous anastomosis is exactly this: a direct arteriole-to-venule connection, which is what lets its smooth-muscle sphincter open and close the shunt so rapidly under sympathetic control.
+
+Why this is right:
+- An arteriovenous anastomosis (shunt) is a direct connection between an arteriole and a venule that bypasses the capillary bed entirely.
+## answer_d
+Are the blood capillaries.
+## explanation_d
+An arteriovenous anastomosis is a shunt that bypasses the capillary bed, not a type of capillary itself.
+## correct_answer
+C
+## main_concept
+CON-CVS-4BE9D0F74D4377
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Confirm the same arteriole-to-venule definition against a third, independently-extracted source occurrence.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p3 q27. Manifest src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-8BAE61B1B783
 ## title
 Regarding the blood vessels: 1 |
@@ -9397,6 +9582,650 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-41E6BF001661
+## title
+Mean systemic filling pressure is the systemic pressure expected
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Mean systemic filling pressure is the systemic pressure expected
+## answer_a
+When blood has fully hemorrhaged from systemic vasculature
+## explanation_a
+Complete exsanguination would drive pressure toward zero everywhere, not toward the equilibrium value mean systemic filling pressure actually names.
+## answer_b
+When the heart stops pumping
+## explanation_b
+Mean systemic filling pressure is the pressure present throughout the systemic circulation when the heart stops pumping and flow falls to zero, at which point arterial and right atrial pressure have equalised.
+
+Why this is right:
+- Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%).
+## answer_c
+When the veins are dilated to their very largest possible diameter
+## explanation_c
+Mean systemic filling pressure is defined by the heart stopping, not by veins reaching any particular diameter; venous tone at the moment flow stops is only one of the variables setting its actual value.
+## answer_d
+When the aorta is at its average pressure
+## explanation_d
+The aorta's average (mean arterial) pressure is a quite different, much higher figure, measured with the heart actively pumping — the opposite condition from the one mean systemic filling pressure defines.
+## correct_answer
+B
+## main_concept
+CON-CVS-750BF47E15DF61
+## library_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Define mean systemic filling pressure as the pressure present when the heart has stopped pumping and flow is zero, not a hemorrhage, venous-diameter or aortic-pressure condition.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p4 q23; DPT BOOK Physio MCQ [104][2022].pdf p17 q132. Manifest src_d3160d222c8c55775511, src_e569449acf8dc2af471e.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2B7C83D8DB0C
+## title
+At any time, the greatest fraction of blood volume is present in the:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+At any time, the greatest fraction of blood volume is present in the:
+## answer_a
+heart
+## explanation_a
+The heart holds only a modest fraction of total blood volume at any instant, far less than the venous system.
+## answer_b
+arteries
+## explanation_b
+Arteries hold a moderate share, roughly 10-15%, of total blood volume — considerably less than the venous system's majority share.
+## answer_c
+Veins
+## explanation_c
+Veins and venules together hold the largest share of total circulating blood volume at any given moment, roughly 60-70%, functioning as a low-pressure capacitance reservoir.
+
+Why this is right:
+- Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%).
+## answer_d
+Capillaries
+## explanation_d
+Capillaries hold only about 5% of total blood volume, the smallest major compartment, since they function for exchange rather than storage.
+## correct_answer
+C
+## main_concept
+CON-CVS-750BF47E15DF61
+## library_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## topic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## subtopic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+Name veins as the vascular compartment holding the greatest fraction of total blood volume at any moment.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p9 q63. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F75033543D55
+## title
+Highest compliance & largest % of total blood volume
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Highest compliance & largest % of total blood volume
+## answer_a
+Arteries
+## explanation_a
+Arteries are comparatively low-compliance, pressure-resisting vessels, not the reservoir compartment this combination describes.
+## answer_b
+Capillaries
+## explanation_b
+Capillaries hold the smallest blood-volume share of any major compartment and have no meaningful capacitance role.
+## answer_c
+Veins
+## explanation_c
+Veins combine the highest compliance of any vascular compartment with the largest share of total blood volume, the basis of their role as the circulation's reservoir.
+
+Why this is right:
+- Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%).
+## answer_d
+Aorta
+## explanation_d
+The aorta is a single large elastic artery with a comparatively stiff wall and far smaller blood-volume share than the venous system as a whole.
+## correct_answer
+C
+## main_concept
+CON-CVS-750BF47E15DF61
+## library_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+Pair highest compliance with largest blood-volume share as both belonging to veins, against arteries, capillaries and the aorta specifically.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p17 q127. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B72C389BC079
+## title
+The distensibility of the veins is more than the of arteries by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The distensibility of the veins is more than the of arteries by:
+## answer_a
+10 times
+## explanation_a
+Veins are considerably more distensible than arteries of comparable size, commonly rounded to roughly ten times, since their thinner walls with proportionally less smooth muscle and elastic tissue allow a much larger volume change for a given change in internal pressure.
+
+Why this is right:
+- Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%).
+## answer_b
+20 times
+## explanation_b
+Twenty times overstates the standard comparison of venous to arterial distensibility.
+## answer_c
+30 times «
+## explanation_c
+Thirty times substantially overstates the standard comparison.
+## answer_d
+40 times
+## explanation_d
+Forty times substantially overstates the standard comparison.
+## correct_answer
+A
+## main_concept
+CON-CVS-750BF47E15DF61
+## library_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+State the standard approximate ratio (roughly tenfold) by which venous distensibility exceeds arterial distensibility.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q15. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4EA086BCB750
+## title
+The greatest percentage of blood volume is found in the :
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The greatest percentage of blood volume is found in the :
+## answer_a
+Aorta
+## explanation_a
+The aorta alone holds only a small fraction of total blood volume.
+## answer_b
+Distributing arteries and arterioles
+## explanation_b
+Distributing arteries and arterioles together hold a moderate share, well below the venous system's.
+## answer_c
+capillaries
+## explanation_c
+Capillaries hold only about 5% of total blood volume, the smallest major compartment.
+## answer_d
+venules and veins
+## explanation_d
+Venules and veins together hold the greatest share of total blood volume, roughly 60-70%, as the circulation's capacitance reservoir.
+
+Why this is right:
+- Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%).
+## correct_answer
+D
+## main_concept
+CON-CVS-750BF47E15DF61
+## library_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+Name venules and veins together as holding the greatest percentage of total blood volume, against the aorta, distributing arteries/arterioles and capillaries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p5 q37. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-439C22772AFF
+## title
+The pressure-volume curve of veins has the following criteria:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The pressure-volume curve of veins has the following criteria:
+## answer_a
+Large increase in volume is associated with very little change in pressure
+## explanation_a
+Within its normal operating range, a vein's high compliance means a large increase in blood volume produces only a small rise in pressure — the functional basis of veins acting as the body's blood-volume reservoir.
+
+Why this is right:
+- Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%).
+## answer_b
+Veins can accommodate large volume of blood with large change in pressure
+## explanation_b
+This describes low compliance (a large pressure change for a given volume change), the opposite of how veins normally behave within their compliant range.
+## answer_c
+Atexcessive volume,AV/AP is very high due to the poor elasticity of the wall of veins
+## explanation_c
+Near the vein wall's structural limit at excessive volumes, the volume-to-pressure ratio actually becomes very low, not high, as the stiffening wall demands progressively greater pressure for further distension.
+## answer_d
+The diameter of blood vessels remains constant as the internal pressure increases
+## explanation_d
+Vessel diameter does change, increasing as internal pressure rises within the elastic range; it does not remain constant, which is the entire basis of a pressure-volume relationship existing at all.
+## correct_answer
+A
+## main_concept
+CON-CVS-750BF47E15DF61
+## library_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Describe the shape of the venous pressure-volume curve — a large volume increase for a small pressure rise within the normal range — and rule out three reversed or invented alternatives.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p48 q13. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-E40BDC8EA8BD
+## title
+Which of the following are called capacitance vessels that having most of the blood vol…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following are called capacitance vessels that having most of the blood volume?
+## answer_a
+arteries
+## explanation_a
+Arteries are termed conductance vessels, not capacitance vessels, and hold a comparatively modest share of total blood volume.
+## answer_b
+veins
+## explanation_b
+Veins are termed capacitance vessels because their high compliance and large aggregate volume let them hold the majority of the body's circulating blood volume at any given time.
+
+Why this is right:
+- Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%).
+## answer_c
+capillaries
+## explanation_c
+Capillaries hold only about 5% of total blood volume and function for exchange rather than volume storage.
+## answer_d
+arterioles
+## explanation_d
+Arterioles are termed resistance vessels, the primary site of vascular resistance regulation, not capacitance vessels for blood-volume storage.
+## correct_answer
+B
+## main_concept
+CON-CVS-750BF47E15DF61
+## library_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## topic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## subtopic
+Physiology Cardiovascular System — Venous Capacitance and Filling Pressure
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a true statement
+## learning_objective
+Name veins as the capacitance vessels holding most of the body's blood volume, against arteries, capillaries and arterioles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p14 q24. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
@@ -11510,6 +12339,194 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q27. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7EB7C0B8360B
+## title
+Vasa vasora are:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Vasa vasora are:
+## answer_a
+Small arteries in tunica media
+## explanation_a
+Vasa vasorum are not confined to the tunica media, nor are they themselves small arteries; they penetrate inward from the adventitia.
+## answer_b
+Blood vessels of the blood vessels
+## explanation_b
+'Vasa vasorum' translates literally as 'vessels of the vessels' — small nutrient vessels penetrating a large vessel's own wall.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## answer_c
+Present mainly in small veins
+## explanation_c
+Vasa vasorum are a feature of large vessels generally, both arteries and veins, not specifically small veins, whose thin walls are nourished by diffusion alone.
+## answer_d
+Nourishing the inner part of the wall of large vessels
+## explanation_d
+Vasa vasorum nourish the outer part of a large vessel's wall (adventitia and outer media); the inner part is nourished directly by diffusion from luminal blood.
+## correct_answer
+B
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Give the literal meaning of vasa vasorum a sixth time, against a fresh distractor set naming veins specifically.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p17 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4A2041CD7CC5
+## title
+in large vein, which is true,
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+in large vein, which is true,
+## answer_a
+boundary between T- intima, media is clear
+## explanation_a
+In a large vein the intima's connective tissue can blur into the media rather than presenting a clear boundary, unlike an artery's sharply defined internal elastic lamina.
+## answer_b
+circular arranged smooth muscle cell in T. media
+## explanation_b
+Tunica media smooth muscle is circularly arranged — the general vessel-wall pattern this leaf's own three-tunic plan states — whatever the vessel's identity or calibre, a large vein included.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+T-media is the thickest layer
+## explanation_c
+In a large vein it is the adventitia, not the media, that is the thickest of the three coats.
+## answer_d
+circular Smooth muscle fiber in T. adventitia
+## explanation_d
+Where a large vein's adventitia does carry smooth muscle, as in the inferior vena cava, that muscle is longitudinally arranged — the opposite orientation to the media's own circular pattern.
+## answer_e
+valves present particularly in veins of upper limbs
+## explanation_e
+Valves belong chiefly to medium veins, especially of the lower limb; this question concerns large veins specifically, and the great named veins are themselves characteristically valveless.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Apply the general three-tunic plan's circularly-arranged media smooth muscle to a large vein specifically, against distractors drawn from other vessel-wall and valve facts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q38. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.

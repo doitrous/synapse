@@ -384,5 +384,40 @@ export const LEAF: McqLeafSeed = {
         D: "Vasa vasorum are a genuine feature of large-vessel walls, present in the tunica adventitia — 'none of the above' is therefore incorrect.",
       },
     },
+    // Leaf-mismatch routing (bank-tagged "Veins", genuinely this concept's own
+    // literal-meaning content, restated a sixth time on this already
+    // thoroughly-covered concept).
+    {
+      key: "vasa-vasora-are-c99cbeae",
+      conceptKey: "tunica-adventitia.vasa-vasorum-and-composition",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Give the literal meaning of vasa vasorum a sixth time, against a fresh distractor set naming veins specifically.",
+      explanations: {
+        A: "Vasa vasorum are not confined to the tunica media, nor are they themselves small arteries; they penetrate inward from the adventitia.",
+        B: "'Vasa vasorum' translates literally as 'vessels of the vessels' — small nutrient vessels penetrating a large vessel's own wall.",
+        C: "Vasa vasorum are a feature of large vessels generally, both arteries and veins, not specifically small veins, whose thin walls are nourished by diffusion alone.",
+        D: "Vasa vasorum nourish the outer part of a large vessel's wall (adventitia and outer media); the inner part is nourished directly by diffusion from luminal blood.",
+      },
+    },
+    // Leaf-mismatch routing (bank-tagged "Veins", genuinely a large-vein
+    // application of this concept's own general three-tunic rule — media
+    // smooth muscle is circularly arranged whatever the vessel's identity —
+    // cross-referencing the large-vein adventitial-muscle and valve-
+    // distribution facts authored in cardiovascular-veins-histology.ts).
+    {
+      key: "in-large-vein-which-is-true-3070afc1",
+      conceptKey: "blood-vessel-wall.general-three-tunic-plan",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Apply the general three-tunic plan's circularly-arranged media smooth muscle to a large vein specifically, against distractors drawn from other vessel-wall and valve facts.",
+      explanations: {
+        A: "In a large vein the intima's connective tissue can blur into the media rather than presenting a clear boundary, unlike an artery's sharply defined internal elastic lamina.",
+        B: "Tunica media smooth muscle is circularly arranged — the general vessel-wall pattern this leaf's own three-tunic plan states — whatever the vessel's identity or calibre, a large vein included.",
+        C: "In a large vein it is the adventitia, not the media, that is the thickest of the three coats.",
+        D: "Where a large vein's adventitia does carry smooth muscle, as in the inferior vena cava, that muscle is longitudinally arranged — the opposite orientation to the media's own circular pattern.",
+        E: "Valves belong chiefly to medium veins, especially of the lower limb; this question concerns large veins specifically, and the great named veins are themselves characteristically valveless.",
+      },
+    },
   ],
 }

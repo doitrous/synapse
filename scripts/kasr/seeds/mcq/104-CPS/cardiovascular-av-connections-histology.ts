@@ -536,5 +536,38 @@ export const LEAF: McqLeafSeed = {
         D: "A shunt's defining, broader physiological role: opening it lets a large volume of blood bypass the capillary bed and run through this short, low-resistance circuit into the venous side, directly increasing venous return.",
       },
     },
+    // Leaf-mismatch routing (bank-tagged "Veins", genuinely this concept's own
+    // basic definitional content — same class of routing this file already
+    // does for capillary-type facts). Two independent source occurrences of
+    // the same underlying exam item (one already merging 2 of the bank's own
+    // occurrences; one a third, separately-extracted occurrence with a
+    // repaired option set) — both kept, matching this bank's own
+    // duplicate-occurrence convention.
+    {
+      key: "arterio-venous-anastomoses-are-79d432be",
+      conceptKey: "arteriovenous-anastomosis.direct-shunt-sites-and-innervation",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "State that an arteriovenous anastomosis directly connects an arteriole and a venule, not a medium or large vessel pair or a capillary.",
+      explanations: {
+        A: "Too large a scale: an arteriovenous anastomosis connects small vessels — an arteriole and a venule — not medium-sized arteries and veins.",
+        B: "Larger still: large elastic arteries and large veins are far too large in scale to form the rapidly-controlled, sympathetically-innervated arteriovenous anastomosis.",
+        C: "An arteriovenous anastomosis is, by definition, a direct connection specifically between an arteriole and a venule, bypassing the capillary bed entirely.",
+        D: "An arteriovenous anastomosis bypasses the capillary bed; it is a distinct shunt structure in its own right, not a type of blood capillary.",
+      },
+    },
+    {
+      key: "arterio-venous-anastomoses-are-a-direct-connection-between-m-7275de63",
+      conceptKey: "arteriovenous-anastomosis.direct-shunt-sites-and-innervation",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Confirm the same arteriole-to-venule definition against a third, independently-extracted source occurrence.",
+      explanations: {
+        A: "An arteriovenous anastomosis is a small-vessel structure; medium-sized arteries and veins are too large a pairing for this rapidly-regulated shunt.",
+        B: "Large elastic arteries and large veins describe a much larger, physiologically distinct scale of vessel than the true arteriovenous anastomosis.",
+        C: "The defining scale of an arteriovenous anastomosis is exactly this: a direct arteriole-to-venule connection, which is what lets its smooth-muscle sphincter open and close the shunt so rapidly under sympathetic control.",
+        D: "An arteriovenous anastomosis is a shunt that bypasses the capillary bed, not a type of capillary itself.",
+      },
+    },
   ],
 }

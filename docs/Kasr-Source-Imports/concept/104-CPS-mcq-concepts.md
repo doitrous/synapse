@@ -9,11 +9,12 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 33 questions, 4 concepts
-    Histology Cardiovascular System — A-V Connections — 32 questions, 5 concepts
+    Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — Veins — 20 questions, 4 concepts
-    Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
+    Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -53,7 +54,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  81 questions were excluded and 0 held back for having no
+  82 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1304,18 +1305,20 @@ kau
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p3 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -1327,7 +1330,7 @@ ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Arterio-venous anastomoses are characterized by:
+[asked 2x across the question books] Arterio-venous anastomoses are:
 ## conflicts
 [clear]
 ## uncertainty
@@ -1988,6 +1991,142 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## label
+Veins are the circulation's capacitance vessels, holding the largest share of total blood volume and roughly eight to ten times the distensibility of arteries, so mean systemic filling pressure — the pressure left when the heart stops and flow is zero — depends mainly on venous capacity
+## id
+CON-CVS-750BF47E15DF61
+## canonical_key
+veins.capacitance-compliance-and-blood-volume-reservoir
+## definition
+Veins and venules are termed capacitance vessels because they hold the largest share of the body's total circulating blood volume of any vascular compartment — roughly 60-70% at rest — far more than arteries (roughly 10-15%) or capillaries (roughly 5%). This capacity comes from a compliance (distensibility) roughly eight to ten times greater than an artery of comparable size, so that within a vein's normal operating range a large increase in volume produces only a small rise in pressure — the shape of the venous pressure-volume curve, which flattens only once the vein wall approaches its own structural elastic limit at very high, excessive volumes. Mean systemic filling pressure is the pressure that would exist throughout the systemic circulation if the heart stopped pumping and flow fell to zero, at which point arterial and right atrial pressure have equalised; because the capacity of the whole circulation is mainly the capacity of its veins, mean systemic filling pressure is set chiefly by blood volume against venous capacity, not by any activity of the heart itself.
+## explicit_objective
+Name veins as the capacitance vessels holding the largest blood-volume share and greatest compliance, describe the shape of the venous pressure-volume curve, and define mean systemic filling pressure as the pressure when the heart has stopped and flow is zero.
+## pitfalls
+Confusing mean systemic filling pressure with a measurement that depends on the heart's own pumping action. It is defined by the opposite condition — the heart stopped, flow at zero — which is exactly why it isolates the venous system's own capacity and blood volume from anything the heart is doing.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p17 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p9 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p48 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.63
+## exam_weight_by_year
+KAU_Y1=0.63
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+Capacitance vessels | Venous compliance | Mean systemic filling pressure | MSFP | Venous pressure-volume curve
+## article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## support_mode
+direct_statement
+## original_wording
+[asked 2x across the question books] Mean systemic filling pressure is the systemic pressure expected
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+This leaf's covering article defines mean systemic filling pressure precisely (the pressure when the heart stops pumping and flow is zero, arterial and right atrial pressure equalised) and states that the capacity of the circulation is mainly the capacity of the veins, but it does not itself state the standard approximate figures this leaf's own bank tests directly: veins holding roughly 60-70% of total blood volume, a roughly eight-to-tenfold greater venous than arterial distensibility, or the shape of the vein's own pressure-volume (compliance) curve — a distinct curve from the venous-return-versus-right-atrial-pressure curve this article does teach in detail. These figures are standard, undisputed physiology, but are not yet written into this article's own prose. Flagging for the article-authoring lane.
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
 ## id
 CON-CVS-30053920BDC07F
 ## label
@@ -2003,6 +2142,7 @@ src_b1c03ac55330bb88dc62 | question_book | | p1 | 104 CPS
 src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
