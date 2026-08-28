@@ -237,3 +237,77 @@ export function mergeDocument(key, base, stored, incoming) {
   if (conflicts.length) return { ok: false, conflicts }
   return { ok: true, value }
 }
+
+/**
+ * A delta save sends only the items a client changed, not the whole document.
+ *
+ * The content ledger is tens of megabytes; re-uploading all of it to publish one
+ * question was the dominant cost of a save. A client that tracks the version it
+ * loaded can instead send just `{ collection, id, before, after }` per changed
+ * item — the same shape `diffDocument` produces — and the server applies those
+ * onto whatever is stored now, with the identical per-item conflict check.
+ *
+ * `reconstructChanges` re-derives `kind` and `tabs` from the adapter rather than
+ * trusting the client for them: authorisation must not be something the caller
+ * can assert. It returns null for anything malformed — an unknown collection, a
+ * non-string id, an `after` whose id disagrees — so the caller refuses the save
+ * rather than guessing. A missing/blank `changes` is the caller's signal to take
+ * the whole-document path, and must never be read as "delete everything".
+ */
+export function reconstructChanges(key, rawChanges) {
+  const adapter = ADAPTERS[key]
+  if (!adapter || !Array.isArray(rawChanges)) return null
+  const byName = new Map(adapter.collections.map((collection) => [collection.name, collection]))
+  const changes = []
+  for (const raw of rawChanges) {
+    if (!raw || typeof raw !== 'object') return null
+    const collection = byName.get(raw.collection)
+    if (!collection) return null
+    if (typeof raw.id !== 'string' || !raw.id) return null
+    const before = raw.before ?? null
+    const after = raw.after ?? null
+    if (before === null && after === null) return null
+    if (after && after.id !== raw.id) return null
+    if (before && before.id !== raw.id) return null
+    const kind = collection.kindOf(after ?? before)
+    changes.push({ collection: collection.name, id: raw.id, kind, tabs: collection.tabsFor(kind), before, after })
+  }
+  return changes
+}
+
+/**
+ * The reconstructed changes applied onto what is stored now.
+ *
+ * Mirrors `mergeDocument`'s conflict rule exactly: an item whose stored value no
+ * longer matches the `before` the client started from is a conflict and the
+ * whole save is refused, so a delta can never silently overwrite somebody
+ * else's concurrent edit. Changes name their collection, so this touches only
+ * the items actually sent — a truncated list cannot delete the rest.
+ */
+export function applyDelta(key, stored, changes) {
+  const adapter = ADAPTERS[key]
+  if (!adapter) return { ok: false, conflicts: [] }
+
+  const perCollection = new Map()
+  for (const change of changes) {
+    if (!perCollection.has(change.collection)) perCollection.set(change.collection, [])
+    perCollection.get(change.collection).push(change)
+  }
+
+  const conflicts = []
+  let value = stored
+  for (const collection of adapter.collections) {
+    const theirs = byId(collection.read(stored))
+    const result = new Map(theirs)
+    for (const change of perCollection.get(collection.name) ?? []) {
+      const current = theirs.get(change.id) ?? null
+      if (!equalItems(current, change.before)) { conflicts.push(change.id); continue }
+      if (change.after) result.set(change.id, change.after)
+      else result.delete(change.id)
+    }
+    value = collection.write(value, [...result.values()])
+  }
+
+  if (conflicts.length) return { ok: false, conflicts }
+  return { ok: true, value }
+}

@@ -27,7 +27,7 @@ import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
 import { mediaMeta } from './mediaMeta.js'
 import { MEDIA_STATE_KEY, deleteRefusal, isMediaReleased, storageKeyFor } from './mediaLibrary.js'
 import { createMediaPlaybackToken, readMediaPlaybackToken } from './mediaPlayback.js'
-import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
+import { authoriseChanges, diffDocument, mergeDocument, isMergeable, reconstructChanges, applyDelta } from './stateMerge.js'
 import {
   cancelSubscription,
   entitlementOf,
@@ -1589,16 +1589,22 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // `version` is the row this document was read at. The client sends it back on
   // save, which is what lets the write below reconstruct what that client
   // actually changed instead of taking its whole document on trust.
+  // Tells the client this server understands delta saves (change-only writes)
+  // for this document. A client withholds deltas until it sees this, so a client
+  // built for delta can never send one to an older server that would read the
+  // absent whole `value` as "delete everything". Only meaningful for authors —
+  // students do not write.
+  const deltaSupported = authoring && isMergeable(req.params.key)
   const [rows] = await pool.query(
     `SELECT s.v, s.updated_at AS updatedAt,
             (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
        FROM app_state s WHERE s.k = ?`,
     [req.params.key],
   )
-  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null })
+  if (!rows.length) return res.json({ value: null, updatedAt: null, version: null, deltaSupported })
   const { updatedAt, version } = rows[0]
   let value
-  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version }) }
+  try { value = JSON.parse(rows[0].v) } catch { return res.json({ value: null, updatedAt, version, deltaSupported }) }
   // Some readable documents are readable only in part. The content ledger holds
   // every authored item in every state, including drafts, the author's private
   // notes and the provenance of borrowed papers; a student gets its published
@@ -1612,7 +1618,7 @@ app.get('/api/state/:key', wrap(async (req, res) => {
     try { catalogue = catalogueRows[0] ? JSON.parse(catalogueRows[0].v) : [] } catch { catalogue = [] }
     value = redactLedgerForStudent(value, releasedMediaIds, catalogue)
   } else if (redact) value = redact(value)
-  res.json({ value, updatedAt, version })
+  res.json({ value, updatedAt, version, deltaSupported })
 }))
 
 /**
@@ -1665,41 +1671,63 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
     const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [key])
     const storedVersion = versionRows[0]?.version ?? null
 
-    let base = null
-    if (baseVersion !== null) {
-      const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
-      if (!baseRows.length) {
+    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
+
+    // A delta save sends only the items this client changed. It is the same
+    // authorisation and per-item conflict check as a whole-document save, but it
+    // never needs the base document — the `before` carried by each change is the
+    // conflict guard — so it is immune to a pruned version row, and one changed
+    // question no longer costs a 22 MB upload. A `changes` array that is present
+    // but malformed is refused; a whole-document `value` takes the path below.
+    const rawChanges = req.body?.changes
+    let merged
+    let changesForAuth
+    if (rawChanges !== undefined) {
+      if (!isMergeable(key)) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'delta_unsupported', reason: 'this document is saved whole, not by change' })
+      }
+      changesForAuth = reconstructChanges(key, rawChanges)
+      if (!changesForAuth) {
+        await conn.rollback()
+        return res.status(400).json({ error: 'malformed_changes', reason: 'the change set is malformed; reload this page and try again' })
+      }
+      merged = applyDelta(key, stored, changesForAuth)
+    } else {
+      let base = null
+      if (baseVersion !== null) {
+        const [baseRows] = await conn.query('SELECT v FROM app_state_versions WHERE id = ? AND k = ?', [baseVersion, key])
+        if (!baseRows.length) {
+          await conn.rollback()
+          return res.status(409).json({
+            error: 'stale',
+            reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+          })
+        }
+        base = JSON.parse(baseRows[0].v)
+      } else if (storedVersion !== null) {
+        // The client believed this document did not exist, and it does.
         await conn.rollback()
         return res.status(409).json({
           error: 'stale',
-          reason: 'this page was loaded from a version that is no longer on record — reload and try again',
+          reason: 'this document was created while you were editing — reload and try again',
         })
       }
-      base = JSON.parse(baseRows[0].v)
-    } else if (storedVersion !== null) {
-      // The client believed this document did not exist, and it does.
-      await conn.rollback()
-      return res.status(409).json({
-        error: 'stale',
-        reason: 'this document was created while you were editing — reload and try again',
-      })
+      const incoming = req.body?.value ?? null
+      // A document with no adapter yields no changes; the base-version check
+      // above is what protects it, and the tab check below is its authorisation.
+      changesForAuth = diffDocument(key, base, incoming)
+      merged = mergeDocument(key, base, stored, incoming)
     }
 
-    const stored = storedRaw === null ? null : JSON.parse(storedRaw)
-    const incoming = req.body?.value ?? null
-
     if (!superAdmin) {
-      const changes = diffDocument(key, base, incoming)
-      // A document with no adapter yields no changes; the base-version check
-      // above is what protects it, and the tab check above is its authorisation.
-      const authorised = authoriseChanges(changes, { heldTabs: held, contentScope: req.identity.contentScope })
+      const authorised = authoriseChanges(changesForAuth, { heldTabs: held, contentScope: req.identity.contentScope })
       if (!authorised.ok) {
         await conn.rollback()
         return res.status(403).json({ error: 'refused', refusals: authorised.refusals })
       }
     }
 
-    const merged = mergeDocument(key, base, stored, incoming)
     if (!merged.ok) {
       await conn.rollback()
       return res.status(409).json({

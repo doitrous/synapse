@@ -205,12 +205,19 @@ export interface RemoteState<T> {
    * surface silently renders its seed as though it were the student's data.
    */
   error: StateErrorKind | null
+  /**
+   * Whether the server that answered this read understands delta (change-only)
+   * saves for this document. Absent on an older server, so a delta is withheld
+   * until a server has explicitly said it can apply one — a client can never
+   * send a change-only body to a server that would misread it as a whole one.
+   */
+  deltaSupported?: boolean
 }
 
 export async function getState<T>(key: string): Promise<RemoteState<T>> {
   try {
-    const r = await apiGet<{ value: T | null; updatedAt?: string | null; version?: number | null }>(`/state/${encodeURIComponent(key)}`)
-    return { value: r.value, updatedAt: r.updatedAt ?? null, version: r.version ?? null, error: null }
+    const r = await apiGet<{ value: T | null; updatedAt?: string | null; version?: number | null; deltaSupported?: boolean }>(`/state/${encodeURIComponent(key)}`)
+    return { value: r.value, updatedAt: r.updatedAt ?? null, version: r.version ?? null, error: null, deltaSupported: r.deltaSupported === true }
   } catch (error) { return { value: null, updatedAt: null, version: null, error: errorKind(error) } }
 }
 
@@ -223,6 +230,19 @@ export async function getState<T>(key: string): Promise<RemoteState<T>> {
  */
 export function putState(key: string, value: unknown, baseVersion: number | null): Promise<{ ok: boolean; version: number | null }> {
   return apiPut(`/state/${encodeURIComponent(key)}`, { value, baseVersion })
+}
+
+/**
+ * Write only the items that changed, not the whole document.
+ *
+ * `changes` is `{ collection, id, before, after }[]` — the server applies each
+ * onto what is stored now with the same per-item conflict check a whole save
+ * uses, so publishing one question no longer re-uploads a 23 MB ledger. The
+ * server derives authorisation from the change itself; the client cannot assert
+ * past it. Same response shape as putState.
+ */
+export function putStateDelta(key: string, changes: unknown[], baseVersion: number | null): Promise<{ ok: boolean; version: number | null }> {
+  return apiPut(`/state/${encodeURIComponent(key)}`, { changes, baseVersion })
 }
 
 export async function getUserState<T>(key: string): Promise<RemoteState<T>> {
