@@ -16,6 +16,7 @@ import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
 import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
+import { useOpenEscalationCount } from '@/lib/useEscalationBadge'
 
 export function Sidebar({
   portal,
@@ -32,6 +33,7 @@ export function Sidebar({
   const { t } = useI18n()
   const identity = useIdentity()
   const groups = navFor(portal, identity.tabs)
+  const escalationCount = useOpenEscalationCount()
   // `audience`, not `profile`: the roster record is authoritative but often
   // absent, and `audience` is the merge of it with what the student told
   // onboarding. Reading `profile` here showed nothing to every student whose
@@ -123,6 +125,18 @@ export function Sidebar({
                           </span>
                         ) : (
                           <OverflowText>{t(item.label)}</OverflowText>
+                        )}
+                        {item.to === '/admin/escalations' && escalationCount > 0 && (
+                          collapsed ? (
+                            <span className="absolute end-1.5 top-1.5 h-2 w-2 rounded-full bg-danger" aria-hidden="true" />
+                          ) : (
+                            <span
+                              className="ms-auto inline-flex min-w-5 items-center justify-center rounded-full bg-danger px-1.5 text-[10.5px] font-bold text-on-danger"
+                              aria-label={t('{count} open escalations').replace('{count}', String(escalationCount))}
+                            >
+                              {escalationCount}
+                            </span>
+                          )
                         )}
                       </>
                     )}

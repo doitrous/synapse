@@ -2101,6 +2101,25 @@ app.post('/api/content-reports/:id/delete', requireSuperAdmin, wrap(async (req, 
   }
 }))
 
+/* ── Media escalations ───────────────────────────────────────────────────── */
+
+/**
+ * How many media requests are escalated and still open, for the nav badge on the
+ * Escalations queue. Editor-and-above only (the tab is theirs). Counts from the
+ * ledger; escalations are rare, so a scan on an occasional nav fetch is cheap
+ * enough, and it never ships the whole ledger to the browser to do it.
+ */
+app.get('/api/admin/escalations/count', requireTab('escalations'), wrap(async (req, res) => {
+  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
+  let ledger = []
+  if (rows.length) { try { ledger = JSON.parse(rows[0].v) } catch { ledger = [] } }
+  let open = 0
+  for (const request of collectMediaRequests(ledger).values()) {
+    if (request?.escalation?.status === 'open') open += 1
+  }
+  res.json({ open })
+}))
+
 /* ── Private, per-user state ─────────────────────────────────────────────── */
 
 app.get('/api/user-state/:key', wrap(async (req, res) => {

@@ -60,6 +60,13 @@ export const ADMIN_TABS = [
     apiPrefixes: ['/api/medical-resources', '/api/media'] },
   { id: 'media', to: '/admin/library/media', group: 'Content',
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
+  { id: 'escalations', to: '/admin/escalations', group: 'Content',
+    // A view onto media requests a reviewer has escalated. It owns no document of
+    // its own: returning, reassigning or resolving an escalation is a media-request
+    // edit on the content ledger, already governed by the owner tabs an editor
+    // holds and by the rank check in authoriseChanges. The tab is what keeps the
+    // queue out of a reviewer's and an admin's reach.
+    stateKeys: [], apiPrefixes: [] },
   { id: 'reports', to: '/admin/reports', group: 'Content',
     stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
   { id: 'tutorial', to: '/admin/tutorial', group: 'Content',
