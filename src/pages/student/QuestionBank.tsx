@@ -26,6 +26,7 @@ import {
   Eye,
   PenLine,
   Trash2,
+  Sparkles,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import type { AttemptRecord } from '@/data/attempts'
@@ -71,6 +72,7 @@ import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { StudyRail } from '@/components/qbank/StudyRail'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 import { useImmersion } from '@/components/shell/ImmersionContext'
@@ -726,6 +728,7 @@ export function QuestionBank() {
   // the running phase, which the hook treats as just another (empty) key.
   const highlights = useQuestionHighlights(session[idx]?.id ?? '')
   const questionCardRef = useRef<HTMLDivElement>(null)
+  const [flashcardSeed, setFlashcardSeed] = useState<{ front: string; back: string } | null>(null)
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [struck, setStruck] = useState<Record<string, number[]>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
@@ -2114,6 +2117,15 @@ export function QuestionBank() {
             to be scattered under whichever options happened to be revealed. */}
         {revealed && (
           <div className="mt-6 space-y-3">
+            <div className="flex justify-end">
+              <button
+                type="button"
+                onClick={() => { const correct = q.options.find((option) => option.correct); setFlashcardSeed({ front: q.stem, back: correct ? correct.text : q.explanation }) }}
+                className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink"
+              >
+                <Icon icon={Sparkles} size={14} /> {t('Create flashcard')}
+              </button>
+            </div>
             {correctRationale && (
               <div className="rounded-xl border border-success/30 bg-success-tint/40 p-4">
                 <p className="mb-1.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-success">
@@ -2236,6 +2248,9 @@ export function QuestionBank() {
         />
       </div>
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
+      {flashcardSeed && (
+        <QuickAddFlashcardDialog initialFront={flashcardSeed.front} initialBack={flashcardSeed.back} onClose={() => setFlashcardSeed(null)} />
+      )}
       {endOpen && (
         <EndSessionDialog
           answered={session.filter((question) => answers[question.id] != null).length}
