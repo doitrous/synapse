@@ -8,7 +8,7 @@
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
+    Histology Cardiovascular System — Artery Classification — 13 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -529,6 +529,14 @@ artery-classification.elastic-muscular-and-arteriolar-types
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
+src_375227d5b7c819636151 | question_book | | p14 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p32 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p69 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p16 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-HIS-ARTERIES-AND-VEINS
 ## field_notes

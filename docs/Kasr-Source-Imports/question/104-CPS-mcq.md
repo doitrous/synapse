@@ -8,7 +8,7 @@
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
+    Histology Cardiovascular System — Artery Classification — 13 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -2946,6 +2946,650 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-F65A6F4762A9
+## title
+Medium sized artery is characterized by: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Medium sized artery is characterized by: |
+## answer_a
+Relatively thick tunica adventitia |
+## explanation_a
+It is the tunica media, not the adventitia, that is the thick, defining layer of a medium artery's wall — its adventitia is comparatively thin.
+## answer_b
+40-70 elastic membranes in tunica media
+## explanation_b
+The 40-70 elastic membrane feature belongs to large elastic arteries such as the aorta, not medium muscular arteries, whose media is dominated by smooth muscle instead.
+## answer_c
+Endothelium with no pores
+## explanation_c
+A continuous, non-fenestrated endothelium is shared by essentially every artery, so it does not specifically identify the medium type.
+## answer_d
+Found all over the body |
+## explanation_d
+Medium-sized muscular arteries are the most common, widely distributed artery type, forming the many named arteries supplying individual organs and regions — in contrast to the few large elastic arteries and the much smaller arterioles. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## correct_answer
+D
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Artery Classification
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify medium-sized muscular arteries as the most numerous, widely distributed artery type, found all over the body supplying individual organs and regions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 FINALS (answered) (1) (1).pdf p14 q12; EOY 104 exams Not answerd (1) (1).pdf p32 q12; EOY 104 exams Not answerd (1) (1).pdf p69 q12. Manifest src_375227d5b7c819636151, src_f0dc974eca83c51623bc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2C86063D49EB
+## title
+In medium sized arteries, internal elastic lamina is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In medium sized arteries, internal elastic lamina is:
+## answer_a
+Very thin
+## explanation_a
+The internal elastic lamina in a muscular artery is not thin — it is a thick, well-defined sheet, which is exactly what makes it prominent against the media.
+## answer_b
+Very clear
+## explanation_b
+In medium-sized muscular arteries the internal elastic lamina is very clear — a thick, wavy, sharply defined boundary sheet separating intima from media. A common trap: using the presence of an internal elastic lamina alone to separate the classes, rather than how prominent and distinct it is from the media.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_c
+Not clear
+## explanation_c
+An unclear internal elastic lamina describes the elastic artery, whose lamina cannot be told apart from the media's own many elastic membranes — the opposite of the muscular artery this question asks about.
+## answer_d
+Not be stained
+## explanation_d
+The internal elastic lamina does take up elastic stains readily in a muscular artery; staining failure is not why it might ever appear unclear.
+## correct_answer
+B
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the internal elastic lamina is very clear (prominent) in medium-sized muscular arteries, unlike its indistinct appearance in elastic arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q10; Histo MCQ by Dr.Kandeel [104].pdf p17 q10. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-A808FD97451B
+## title
+Tunica media of medium sized arteries is mainly formed of:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Tunica media of medium sized arteries is mainly formed of:
+## answer_a
+Elastic fibers
+## explanation_a
+Elastic fibres dominate the tunica media of large elastic arteries, not medium muscular arteries — the naming itself distinguishes the two types by which tissue dominates the media.
+## answer_b
+Smooth muscle fibers
+## explanation_b
+The tunica media of a medium-sized (muscular) artery is mainly formed of circularly arranged smooth muscle fibres, with elastic fibres present only between the muscle cells. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_c
+Collagen fibers
+## explanation_c
+Collagen fibres are a minor component of the media, chiefly associated with the tunica adventitia's own longitudinal bundles, not the dominant tissue of a muscular artery's media.
+## answer_d
+Ground substance
+## explanation_d
+Ground substance is the amorphous matrix between cells and fibres, not the tissue that defines or dominates the muscular artery's media.
+## correct_answer
+B
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that smooth muscle fibres, not elastic fibres, dominate the tunica media of a medium-sized (muscular) artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q9; Histo MCQ by Dr.Kandeel [104].pdf p17 q9. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-BB822F8F5FB2
+## title
+Muscular arteries are characterized by all the following EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Muscular arteries are characterized by all the following EXCEPT:
+## answer_a
+They have continuous endothelial epithelium
+## explanation_a
+True of a muscular artery, so not the exception — a continuous endothelial lining is the norm for arteries generally.
+## answer_b
+Its epithelium rests on a thin continuous basement membrane
+## explanation_b
+True, so not the exception. The endothelium rests on a thin, continuous basement membrane, as in arteries generally.
+## answer_c
+Its tunica adventitia is thicker than tunica media
+## explanation_c
+The exception, and the answer. It is the tunica media, not the adventitia, that is the thicker, dominant layer of a muscular artery's wall — a thin adventitia relative to a thick, muscular media is exactly what marks this type out, the reverse pattern from a vein. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_d
+They have internal and external elastic laminae
+## explanation_d
+True, so not the exception. A prominent internal elastic lamina and a recognisable external elastic lamina both belong to the muscular artery.
+## correct_answer
+C
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a muscular artery's tunica media, not its adventitia, is the thicker, dominant layer of the wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p16 q15. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-FF1292CD0DEA
+## title
+Muscular arteries are related to:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Muscular arteries are related to:
+## answer_a
+Large arteries
+## explanation_a
+Large arteries are the elastic (conducting) type — the aorta and its major branches — defined by concentric elastic laminae, not by a muscle-dominated media.
+## answer_b
+Small sized arteries
+## explanation_b
+'Small sized arteries' describes arterioles, the smallest branches, not the medium muscular type this question asks about.
+## answer_c
+Medium sized arteries
+## explanation_c
+'Muscular artery' is the alternative name for the medium-sized artery class, whose media is dominated by circularly arranged smooth muscle. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_d
+Arterioles
+## explanation_d
+Arterioles are the smallest artery branches, regulating flow into capillaries — a distinct, smaller class from the medium muscular artery.
+## correct_answer
+C
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Equate the term 'muscular artery' with the medium-sized artery class, as distinct from large elastic arteries and arterioles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p17 q8. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-5F1C7B36EAF3
+## title
+Regarding the wall of blood vessels, Internal elastic lamina (IEL) is prominent in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the wall of blood vessels, Internal elastic lamina (IEL) is prominent in:
+## answer_a
+Metarterioles
+## explanation_a
+Metarterioles are too small and structurally simple — a discontinuous smooth-muscle cuff over an endothelial tube — to carry a distinct internal elastic lamina.
+## answer_b
+Blood capillaries
+## explanation_b
+Blood capillaries are a single endothelial layer with no distinct tunica layers at all, so they carry no elastic lamina of any kind.
+## answer_c
+Medium sized arteries
+## explanation_c
+The internal elastic lamina is most prominently and consistently developed in medium-sized (muscular) arteries, forming a clear, wavy boundary sheet between intima and media that helps identify this vessel type under the microscope. A common trap: using the presence of an internal elastic lamina alone to separate the classes, rather than how prominent it is.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_d
+Inferior vena cava
+## explanation_d
+The inferior vena cava, like veins generally, lacks a well-developed internal elastic lamina, consistent with its low-pressure, capacitance role.
+## correct_answer
+C
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Artery Classification
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify medium-sized (muscular) arteries as the vessel type where the internal elastic lamina is most prominently developed.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q111. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5CF9157746D3
+## title
+Which one of the following statements about the medium sized artery is true?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following statements about the medium sized artery is true?
+## answer_a
+Vasa vasorum are present in its intima
+## explanation_a
+Vasa vasorum, where present in a vessel wall, sit in the tunica adventitia, not the tunica intima.
+## answer_b
+Smooth muscle fibers in its media
+## explanation_b
+True, and the answer. A medium-sized (muscular) artery's tunica media is dominated by smooth muscle fibres, with elastic fibres only interspersed between them, allowing active regulation of vascular tone. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_c
+There is no internal elastic lamina
+## explanation_c
+A medium-sized artery has a well-developed, clearly visible internal elastic lamina — one of its most distinguishing features, not an absent one.
+## answer_d
+Its adventitia is thicker than media
+## explanation_d
+It is the tunica media, not the adventitia, that is the thicker, dominant layer in an artery; a thicker adventitia relative to media is instead a feature of a vein.
+## correct_answer
+B
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Confirm that smooth muscle fibres in the tunica media, not an absent internal elastic lamina or a thick adventitia, are the true feature of a medium-sized artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q6. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
 
 
 
