@@ -19,6 +19,10 @@ import { CardBreakdown } from './CardBreakdown'
 import { deckDashboardStats } from '@/data/flashcards/deckSummary'
 import { exclusiveCounts } from '@/data/flashcards/status'
 import { useRhythmSettings, type RhythmSettingsApi } from '@/lib/useRhythmSettings'
+import type { RhythmScope } from '@/data/flashcards/rhythm/rhythmTypes'
+
+/** Stable reference so the rhythm dataset memo doesn't re-run each render. */
+const ALL_SCOPE: RhythmScope = { kind: 'all' }
 
 /**
  * Decks and the per-deck dashboard.
@@ -82,7 +86,7 @@ export function DeckDashboard({
   return (
     <div className="space-y-5">
       {rhythm.settings.showOnMain && (
-        <StudyRhythm api={api} scope={{ kind: 'all' }} settingsApi={rhythm} />
+        <StudyRhythm api={api} scope={ALL_SCOPE} settingsApi={rhythm} />
       )}
       <Panel>
         <PanelHeader
@@ -176,6 +180,7 @@ function DeckDetail({
   const c = deck.counts
   const buriedCount = c.buried
   const breakdownCounts = useMemo(() => exclusiveCounts(metas, now), [metas, now])
+  const deckScope = useMemo<RhythmScope>(() => ({ kind: 'deck', deckId: deck.id }), [deck.id])
 
   return (
     <div className="space-y-5">
@@ -228,7 +233,7 @@ function DeckDetail({
       </Panel>
 
       {rhythm.settings.showOnDeck && (
-        <StudyRhythm api={api} scope={{ kind: 'deck', deckId: deck.id }} settingsApi={rhythm} />
+        <StudyRhythm api={api} scope={deckScope} settingsApi={rhythm} />
       )}
 
       <Panel>

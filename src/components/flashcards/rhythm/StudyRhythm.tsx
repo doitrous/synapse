@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
 import { Dialog } from '@/components/ui/Dialog'
 import { Segmented } from '@/components/ui/Tabs'
+import { useScope } from '@/lib/shortcuts/useShortcuts'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { formatMinutes } from '@/lib/format'
@@ -79,6 +80,9 @@ export function StudyRhythm({
 
   const goToday = useCallback(() => { setAnchor(todayAnchor(now)); setSelectedDay(localDay(now)) }, [now])
   const step = useCallback((dir: -1 | 1) => setAnchor((a) => stepAnchor(mode, a, dir)), [mode])
+  // Keyboard arrow move: select a day AND bring it into view (weekly/monthly/
+  // yearly page to its week/month/year; continuous ignores the anchor).
+  const onMove = useCallback((day: string) => { setSelectedDay(day); setAnchor(day) }, [])
 
   const doReset = useCallback(() => {
     settingsApi.resetBaseline(now)
@@ -144,6 +148,7 @@ export function StudyRhythm({
             now={now}
             selectedDay={selectedDay}
             onSelect={setSelectedDay}
+            onMove={onMove}
           />
         )}
 
@@ -183,14 +188,17 @@ export function StudyRhythm({
           </div>
         </div>
       )}
-      <p className="sr-only">{t('Reporting starts')} {effectiveStartLabel}.</p>
+      <div className="sr-only">
+        <p>{t('Reporting starts')} {effectiveStartLabel}.</p>
+        <HeatmapDataTable dataset={dataset} />
+      </div>
     </Panel>
   )
 }
 
 /** The calendar grid itself, orientation-aware, with roving keyboard focus. */
 function RhythmCalendar({
-  layout, scheme, orientation, now, selectedDay, onSelect,
+  layout, scheme, orientation, now, selectedDay, onSelect, onMove,
 }: {
   layout: CalendarLayout
   scheme: RhythmColorScheme
@@ -198,13 +206,26 @@ function RhythmCalendar({
   now: Date
   selectedDay: string | null
   onSelect: (day: string) => void
+  onMove: (day: string) => void
 }) {
   const t = useT()
   const ramp = useMemo(() => rhythmRampVars(scheme), [scheme])
   const today = localDay(now)
   const focusDay = selectedDay ?? today
+  const gridRef = useRef<HTMLDivElement>(null)
+  const navPending = useRef(false)
 
-  // Roving focus: arrow keys move by one day (±1) or one week (±7).
+  // After a keyboard move, follow DOM focus to the newly-active cell (the parent
+  // re-anchors the view so that day is rendered). Guarded by navPending so
+  // hover/click — which also set the selected day — never steal focus.
+  useEffect(() => {
+    if (!navPending.current) return
+    navPending.current = false
+    gridRef.current?.querySelector<HTMLButtonElement>(`[data-day="${focusDay}"]`)?.focus()
+  }, [focusDay])
+
+  // Roving focus: arrow keys move by one day or one week (following orientation),
+  // moving both the selection and the view so traversal never dead-ends at an edge.
   const onKeyDown = useCallback((e: React.KeyboardEvent, day: string) => {
     let delta = 0
     if (e.key === 'ArrowLeft') delta = orientation === 'columns' ? -7 : -1
@@ -213,8 +234,9 @@ function RhythmCalendar({
     else if (e.key === 'ArrowDown') delta = orientation === 'columns' ? 1 : 7
     else return
     e.preventDefault()
-    onSelect(addLocalDays(day, delta))
-  }, [orientation, onSelect])
+    navPending.current = true
+    onMove(addLocalDays(day, delta))
+  }, [orientation, onMove])
 
   const cellFor = (cd: CalendarDay | null, key: string) => {
     if (!cd) return <div key={key} className="size-[13px]" aria-hidden />
@@ -229,6 +251,7 @@ function RhythmCalendar({
         key={key}
         type="button"
         role="gridcell"
+        data-day={cd.day}
         tabIndex={cd.day === focusDay ? 0 : -1}
         onFocus={() => onSelect(cd.day)}
         onMouseEnter={() => onSelect(cd.day)}
@@ -264,7 +287,7 @@ function RhythmCalendar({
   if (orientation === 'rows') {
     // Weekly / Monthly: weeks stacked, weekday columns.
     return (
-      <div className="space-y-1.5" role="grid" aria-label={t('Study Rhythm calendar')}>
+      <div ref={gridRef} className="space-y-1.5" role="grid" aria-label={t('Study Rhythm calendar')}>
         <div className="grid grid-cols-7 gap-1 text-center text-[10.5px] font-medium text-ink-3" aria-hidden>
           {WEEKDAY_LABELS.map((w) => <span key={w}>{t(w)}</span>)}
         </div>
@@ -279,7 +302,7 @@ function RhythmCalendar({
 
   // Yearly / Continuous: weeks as columns, weekday rows. Today divider on the column.
   return (
-    <div className="overflow-x-auto" role="grid" aria-label={t('Study Rhythm calendar')}>
+    <div ref={gridRef} className="overflow-x-auto" role="grid" aria-label={t('Study Rhythm calendar')}>
       <div className="flex gap-[3px]">
         {layout.weeks.map((week, wi) => (
           <div
@@ -355,8 +378,39 @@ function Legend({ scheme, showForecast }: { scheme: import('@/data/flashcards/rh
   )
 }
 
+/** A screen-reader data-table mirror of the heatmap — the days that carry data. */
+function HeatmapDataTable({ dataset }: { dataset: RhythmDataset }) {
+  const t = useT()
+  const rows = dataset.days.filter((d) => d.reviews > 0 || d.dueReviews > 0 || d.projectedNew > 0)
+  if (rows.length === 0) return null
+  return (
+    <table>
+      <caption>{t('Study Rhythm activity and forecast by day')}</caption>
+      <thead>
+        <tr>
+          <th scope="col">{t('Day')}</th>
+          <th scope="col">{t('Reviews')}</th>
+          <th scope="col">{t('Due')}</th>
+          <th scope="col">{t('Projected new')}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((d) => (
+          <tr key={d.day}>
+            <th scope="row">{d.day}{d.kind === 'forecast' ? ` (${t('forecast')})` : ''}</th>
+            <td>{d.reviews}</td>
+            <td>{d.dueReviews}</td>
+            <td>{d.projectedNew}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )
+}
+
 function ResetConfirmDialog({ effectiveStart, onClose, onConfirm }: { effectiveStart: string; onClose: () => void; onConfirm: () => void }) {
   const t = useT()
+  useScope('dialog', { exclusive: true })
   const [busy, setBusy] = useState(false)
   return (
     <Dialog onClose={onClose} label={t('Reset Study Rhythm')} size="sm">
