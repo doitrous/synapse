@@ -4217,3 +4217,993 @@ yes
 
 ## author_notes
 Same isomerism-terminology concept as Q16/Q4/Q6/Q15/Q17/Q28/Q29 (already authored) — the last of the six companion questions the file header originally flagged (Q6, Q15, Q17, Q24, Q25, Q26), now all authored.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q31
+
+## title
+Which of the following is a carbohydrate with six carbon atoms and a keto group as the functional group?
+
+## question
+Which out of the following is a carbohydrate with 6 carbon atoms and a keto group as the functional group?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Glyceraldehyde
+
+## explanation_a
+Incorrect. Glyceraldehyde has three carbons, not six, and its functional group is an aldehyde, not a ketone; it fails both criteria of this question.
+
+## answer_b
+Dihydroxyacetone
+
+## explanation_b
+Incorrect. Dihydroxyacetone does have a ketone functional group, but it has only three carbons, not the six the question specifies.
+
+## answer_c
+Fructose
+
+## explanation_c
+Correct. Fructose has exactly six carbons, making it a hexose, and its carbonyl group at C2 is a ketone, making it specifically a ketohexose — the one sugar in this list satisfying both the six-carbon and the keto-group requirement at once. This combination of carbon count and carbonyl-group type is the same two-axis classification (aldose/ketose crossed with carbon count) used throughout this topic to name and distinguish the different monosaccharides.
+
+## answer_d
+Galactose
+
+## explanation_d
+Incorrect. Galactose does have six carbons, but its carbonyl group is an aldehyde, not a ketone, making it an aldohexose rather than the ketohexose the question asks for.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify fructose as the ketohexose, combining a six-carbon count with a ketone functional group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q27, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same aldose/ketose classification concept as Q29/Q7/Q9/Q10/Q11/Q23 (already authored), the hexose-level companion to Q23's ketotriose question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q32
+
+## title
+The glycosidic linkage in lactose is
+
+## question
+The glycosidic linkage in lactose is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Alpha 1-4
+
+## explanation_a
+Incorrect. Alpha-1,4 is maltose's glycosidic linkage (and the linkage building starch and glycogen), not lactose's; lactose's bond is a beta-1,4 linkage.
+
+## answer_b
+Alpha 1-2
+
+## explanation_b
+Incorrect. Alpha-1,2 (equivalently beta-2,1) is sucrose's glycosidic linkage, joining glucose's C1 to fructose's C2; it is not lactose's linkage.
+
+## answer_c
+Beta 1-4
+
+## explanation_c
+Correct. Lactose's two component sugars, galactose and glucose, are joined by a beta-1,4 glycosidic bond — galactose's anomeric carbon (C1) linked, in the beta configuration, to C4 of glucose. This is the same carbon-position numbering as maltose's alpha-1,4 bond, differing only in the anomeric configuration (beta instead of alpha), which is exactly what distinguishes these two disaccharides' linkages from each other. It is this beta-1,4 bond that is hydrolysed by the enzyme lactase.
+
+## answer_d
+Beta 1-2
+
+## explanation_d
+Incorrect. No common disaccharide in this bank uses a beta-1,2 linkage; lactose's actual linkage is beta-1,4, joining C1 of galactose to C4 of glucose.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-02FBBE4CD4CAC1
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that lactose's two sugars are joined by a beta-1,4 glycosidic linkage.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q31, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same three-disaccharide concept as Q30/Q2/Q24-27 (already authored), the direct linkage-naming question that Q27 approached from the opposite direction (naming the sugar from the linkage).
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q33
+
+## title
+The glycosidic linkage in maltose is
+
+## question
+The glycosidic linkage in maltose is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Alpha 1-4
+
+## explanation_a
+Correct. Maltose's two alpha-glucose units are joined by an alpha-1,4 glycosidic bond, linking the anomeric carbon (C1) of one glucose, in the alpha configuration, to C4 of the second glucose. This same alpha-1,4 linkage, repeated many times over, is exactly what builds the long glucose chains of starch and glycogen, making maltose effectively the two-unit building block of those larger storage polysaccharides. It differs from lactose's beta-1,4 bond only in the anomeric configuration at the linking carbon.
+
+## answer_b
+Alpha 1-2
+
+## explanation_b
+Incorrect. Alpha-1,2 (equivalently beta-2,1) is sucrose's glycosidic linkage, not maltose's; maltose's two glucose units are joined alpha-1,4.
+
+## answer_c
+Beta 1-4
+
+## explanation_c
+Incorrect. Beta-1,4 is lactose's glycosidic linkage (joining galactose to glucose); maltose's two glucose units are joined in the alpha, not beta, configuration.
+
+## answer_d
+Beta 1-2
+
+## explanation_d
+Incorrect. No common disaccharide in this bank uses a beta-1,2 linkage; maltose's actual linkage is alpha-1,4.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-02FBBE4CD4CAC1
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that maltose's two glucose units are joined by an alpha-1,4 glycosidic linkage, the same linkage that builds starch and glycogen.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q32, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same three-disaccharide concept as Q30/Q2/Q24-27/Q32 (already authored), completing the direct linkage-naming trio (sucrose alpha-1,2, lactose beta-1,4, maltose alpha-1,4).
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q34
+
+## title
+Glycogen is a
+
+## question
+Glycogen is a
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Glycolipid
+
+## explanation_a
+Incorrect. A glycolipid is a lipid with a carbohydrate group attached; glycogen is built entirely from glucose units and contains no lipid component, so it is not a glycolipid.
+
+## answer_b
+Polysaccharide
+
+## explanation_b
+Correct. Glycogen is the storage polysaccharide of animal cells, a highly branched polymer of D-glucose units linked by alpha-1,4 glycosidic bonds along its chains and alpha-1,6 bonds at its frequent branch points. This branching is what distinguishes glycogen from the more linear storage and structural polysaccharides such as amylose and cellulose, and it is what allows glycogen to be rapidly broken down from many chain ends at once when glucose is needed. Glycogen is stored mainly in liver and muscle, serving the same storage role in animals that starch serves in plants.
+
+## answer_c
+Polymer of amino acids
+
+## explanation_c
+Incorrect. A polymer of amino acids is a protein or polypeptide; glycogen is instead a polymer of glucose (a carbohydrate), with no amino acid residues in its structure.
+
+## answer_d
+Phosphorylated protein
+
+## explanation_d
+Incorrect. Glycogen is a carbohydrate polymer of glucose, not a protein, and phosphorylation is not part of glycogen's own chemical structure (though phosphorylated enzymes do regulate glycogen metabolism).
+
+## answer_e
+Fat store
+
+## explanation_e
+Incorrect. Triacylglycerol, not glycogen, is the body's major fat (lipid) storage form; glycogen is instead the storage form specifically for glucose (carbohydrate), stored separately from fat in adipose tissue.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-4706C1246E4B76
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify glycogen as a branched glucose polysaccharide, the animal storage counterpart to plant starch.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q34, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same storage-polysaccharide concept as Q14/Q20 (already authored), tested here as the direct classification question ("what kind of molecule is glycogen").
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q35
+
+## title
+The minimum number of carbons required for a monosaccharide is
+
+## question
+Minimum number of carbons required for a monosaccharide
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+1
+
+## explanation_a
+Incorrect. A single carbon cannot form the backbone of a sugar at all — there is no monosaccharide with only one carbon; the smallest possible monosaccharides have three.
+
+## answer_b
+2
+
+## explanation_b
+Incorrect. Two carbons cannot support both a carbonyl group and the hydroxyl-bearing carbons that define a sugar; no two-carbon monosaccharide exists.
+
+## answer_c
+3
+
+## explanation_c
+Correct. The smallest monosaccharides are the trioses, glyceraldehyde (an aldotriose) and dihydroxyacetone (a ketotriose), each built from exactly three carbons — the minimum number needed to carry both a carbonyl group (aldehyde or ketone) and at least one hydroxyl-bearing carbon, satisfying the general (CH2O)n carbohydrate formula at its smallest value of n. Every larger monosaccharide (tetroses, pentoses, hexoses and beyond) is built up from this same three-carbon minimum. This is the same triose classification tested elsewhere by naming glyceraldehyde specifically as a triose.
+
+## answer_d
+4
+
+## explanation_d
+Incorrect. Four carbons describes a tetrose (such as erythrose), which is one carbon larger than the true minimum; three-carbon trioses are the smallest monosaccharides that exist.
+
+## answer_e
+5
+
+## explanation_e
+Incorrect. Five carbons describes a pentose (such as ribose), which is well above the actual three-carbon minimum for a monosaccharide.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that three carbons (the triose) is the minimum carbon count for a monosaccharide.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q35, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same aldose/ketose/carbon-count classification concept as Q29/Q7/Q9/Q10/Q11/Q23/Q31 (already authored), tested here as the direct minimum-carbon-count question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q36
+
+## title
+The two sugar units of a disaccharide are connected by
+
+## question
+The two sugar units of disaccharides are connected by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+O-glycosidic bond
+
+## explanation_a
+Correct. An ordinary disaccharide (maltose, lactose or sucrose) is formed when one sugar's anomeric carbon condenses with a hydroxyl oxygen on the second sugar, releasing a water molecule and forming an O-glycosidic bond between the two units. This is the same bond category tested elsewhere as one of the two possible glycosidic-bond types, distinguished from the N-glycosidic bond that links a base to ribose in a nucleotide. Every disaccharide's specific linkage (alpha-1,4, beta-1,4 or alpha-1,2) is a particular example of this general O-glycosidic bond.
+
+## answer_b
+Peptide bond
+
+## explanation_b
+Incorrect. A peptide bond links amino acids together in a protein through their amino and carboxyl groups; it plays no role in joining sugar units, which are instead joined through a glycosidic bond.
+
+## answer_c
+Disulfide bond
+
+## explanation_c
+Incorrect. A disulfide bond is a covalent link between two cysteine sulfhydryl groups in a protein; it has no counterpart in sugar chemistry, where sugar units are instead joined by glycosidic bonds.
+
+## answer_d
+N-glycosidic bond
+
+## explanation_d
+Incorrect. An N-glycosidic bond links a nitrogenous base to a pentose sugar in a nucleotide; the two sugar units of an ordinary disaccharide are instead joined through an oxygen atom, making it an O-glycosidic, not an N-glycosidic, bond.
+
+## answer_e
+Phosphodiester bond
+
+## explanation_e
+Incorrect. A phosphodiester bond links the 3' carbon of one nucleotide's sugar to the 5' phosphate of the next, joining nucleotides together in a nucleic acid chain; it does not join the two sugar units of an ordinary disaccharide.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-C672878EA48528
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that a disaccharide's two sugar units are joined by an O-glycosidic bond, contrasted with a nucleotide's N-glycosidic bond.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q36, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same N-glycosidic-bond concept as Q39/Q11 (already authored), the O-glycosidic-bond counterpart naming what actually joins an ordinary disaccharide's two sugars.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q37
+
+## title
+Glucose and fructose are isomers — what does this mean?
+
+## question
+Glucose and fructose are isomers. This means that:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+They differ in the configuration around carbon number 2
+
+## explanation_a
+Incorrect. Differing at C2 alone would describe an epimer relationship (as with glucose and mannose); glucose and fructose's difference is not confined to one carbon's configuration, since their carbonyl-group type differs entirely.
+
+## answer_b
+They differ in the configuration around carbon number 4
+
+## explanation_b
+Incorrect. Differing at C4 alone would describe an epimer relationship (as with glucose and galactose); glucose and fructose's relationship is a different kind of isomerism altogether, based on carbonyl-group type rather than a single carbon's configuration.
+
+## answer_c
+One is an aldose and the other a ketose
+
+## explanation_c
+Correct. Glucose and fructose share the same molecular formula (C6H12O6) but differ in the position and type of their carbonyl group: glucose's carbonyl is an aldehyde at C1, making it an aldohexose, while fructose's carbonyl is a ketone at C2, making it a ketohexose. This aldose/ketose functional-group difference is a distinct category of isomerism from epimers (one-carbon configurational difference), anomers (anomeric-carbon difference) or enantiomers (full mirror image), and it is exactly the same fact tested elsewhere by asking which sugar has six carbons and a keto group. Glucose and fructose being isomers means they share a formula, not that they share a carbonyl-group type.
+
+## answer_d
+They differ in the configuration around carbon number 5
+
+## explanation_d
+Incorrect. A difference at C5 specifically describes the D-/L- (enantiomer) relationship; glucose and fructose's relationship is instead an aldose-ketose difference, not a C5 configurational one.
+
+## answer_e
+They are mirror images of each other
+
+## explanation_e
+Incorrect. Being mirror images describes enantiomers (such as D-glucose and L-glucose), which differ at every chiral carbon while keeping the same carbonyl-group type; glucose and fructose are not mirror images of each other, since their carbonyl-group type itself differs.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that glucose and fructose are aldose-ketose isomers, sharing a formula but differing in carbonyl-group type, distinct from epimers, anomers or enantiomers.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q38, p.20.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same aldose/ketose classification concept as Q29/Q7/Q9-11/Q23/Q31/Q35 (already authored), tying the aldose-ketose isomerism directly to glucose/fructose by name — the same pairing used as the worked example throughout that concept. Last question authored from this 38-real-question section this pass; the one unauthored remaining item (Q18, "most abundant biomolecule on Earth") is an isolated general-knowledge fact that does not map to any concept minted for this module.
