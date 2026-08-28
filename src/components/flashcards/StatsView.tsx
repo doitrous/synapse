@@ -13,6 +13,7 @@ import { exclusiveCounts } from '@/data/flashcards/status'
 import {
   addedOverTime, answerButtons, futureDue, heatmap, hourlyBreakdown, reviewIntervals,
   reviewsOverTime, studySummary, trueRetention,
+  cardStability, cardDifficulty, cardRetrievability,
   type Horizon, type IntervalRange, type RetentionPeriod,
 } from '@/data/flashcards/stats'
 import { ColumnChart, StackBar, StatFigure, EmptyChart, type ColumnDatum } from './charts/Charts'
@@ -166,14 +167,14 @@ export function StatsView({ api }: { api: FlashcardsApi }) {
         <TrueRetentionPanel events={events} now={now} />
       </Panel>
 
-      {/* FSRS analytics — honest until FSRS ships */}
+      {/* FSRS analytics — real FSRS state only, never derived from SM-2 */}
       <Panel>
         <PanelHeader title={t('FSRS analytics')} />
-        <div className="p-5">
+        <div className="p-4">
           {usesFsrs ? (
-            <EmptyChart label={t('FSRS analytics will appear once reviews accrue.')} />
+            <FsrsAnalyticsPanel metas={metas} now={now} />
           ) : (
-            <p className="text-[13px] leading-relaxed text-ink-2">
+            <p className="p-1 text-[13px] leading-relaxed text-ink-2">
               {t('Card stability, difficulty and retrievability require the FSRS scheduler, which this deck is not using. These are not shown as invented values — enable FSRS on a deck to see them.')}
             </p>
           )}
@@ -312,6 +313,41 @@ function AddedPanel({ notes, now, horizon }: { notes: Parameters<typeof addedOve
   const data: ColumnDatum[] = points.map((p) => ({ label: p.day, value: p.count, cumulative: p.cumulative }))
   if (data.length === 0) return <EmptyChart label={t('No cards added in this window')} />
   return <ColumnChart data={data} caption={t('Cards added over time')} valueLabel={t('added')} cumulativeLabel={t('running total')} color="var(--color-accent)" />
+}
+
+function FsrsAnalyticsPanel({ metas, now }: { metas: Parameters<typeof cardStability>[0]; now: Date }) {
+  const t = useT()
+  const stability = useMemo(() => cardStability(metas), [metas])
+  const difficulty = useMemo(() => cardDifficulty(metas), [metas])
+  const retriev = useMemo(() => cardRetrievability(metas, now), [metas, now])
+
+  if (stability.count === 0 && retriev.count === 0) {
+    return <EmptyChart label={t('FSRS analytics will appear once you study this deck.')} />
+  }
+
+  const toData = (buckets: { label: string; count: number }[]): ColumnDatum[] => buckets.map((b) => ({ label: b.label, value: b.count }))
+  return (
+    <div className="space-y-5">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <StatFigure label={t('Avg stability')} value={`${stability.averageDays.toFixed(1)} ${t('d')}`} sub={`${stability.count} ${stability.count === 1 ? t('card') : t('cards')}`} />
+        <StatFigure label={t('Avg difficulty')} value={`${difficulty.average.toFixed(1)} / 10`} />
+        <StatFigure label={t('Avg retrievability')} value={retriev.count === 0 ? '—' : pct(retriev.average * 100)} />
+        <StatFigure label={t('Est. remembered')} value={retriev.estimatedRemembered.toFixed(1)} sub={t('expected recall now')} />
+      </div>
+      <div>
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Stability (days until 90% recall)')}</p>
+        <ColumnChart data={toData(stability.buckets)} caption={t('Stability distribution')} valueLabel={t('cards')} />
+      </div>
+      <div>
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Difficulty (1 easy – 10 hard)')}</p>
+        <ColumnChart data={toData(difficulty.buckets)} caption={t('Difficulty distribution')} valueLabel={t('cards')} color="var(--color-accent)" />
+      </div>
+      <div>
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Retrievability (chance of recall now)')}</p>
+        <ColumnChart data={toData(retriev.buckets)} caption={t('Retrievability distribution')} valueLabel={t('cards')} />
+      </div>
+    </div>
+  )
 }
 
 function TrueRetentionPanel({ events, now }: { events: Parameters<typeof trueRetention>[0]; now: Date }) {
