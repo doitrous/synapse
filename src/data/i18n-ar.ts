@@ -133,6 +133,48 @@ export const AR: Record<string, string> = {
   Editor: 'محرِّر',
   'Super admin': 'مشرف عام',
   Team: 'الفريق',
+  // User management — cohort change (UsersManagement.tsx)
+  'Change university & year': 'تغيير الجامعة والسنة',
+  Current: 'الحالي',
+  New: 'الجديد',
+  'New university': 'الجامعة الجديدة',
+  'New year': 'السنة الجديدة',
+  'Choose a university…': 'اختر جامعة…',
+  'Choose a year…': 'اختر سنة…',
+  'Choose a university first.': 'اختر جامعة أولاً.',
+  'no university set': 'لا توجد جامعة محددة',
+  'no university or year set': 'لا توجد جامعة أو سنة محددة',
+  'choose a university and year below': 'اختر جامعة وسنة أدناه',
+  'This student': 'هذا الطالب',
+  'Progress from {old} is kept. {student} starts fresh in {new}. If they ever return to {old}, their old progress reappears exactly.':
+    'يُحتفَظ بتقدّم {old}. يبدأ {student} من جديد في {new}. وإذا عاد إلى {old} يظهر تقدّمه السابق كما كان تمامًا.',
+  'Changed by': 'غُيِّر بواسطة',
+  'Moved from': 'نُقل من',
+  to: 'إلى',
+  'questions answered so far in the new cohort': 'أسئلة تمت الإجابة عنها حتى الآن في الفوج الجديد',
+  accuracy: 'الدقة',
+  // User management — set password (UsersManagement.tsx)
+  'Set password': 'تعيين كلمة المرور',
+  'New password': 'كلمة مرور جديدة',
+  'At least 8 characters': '8 أحرف على الأقل',
+  'The password must be at least 8 characters.': 'يجب ألا تقل كلمة المرور عن 8 أحرف.',
+  'Password set. Share it with the user over a channel they trust — it is not emailed.':
+    'تم تعيين كلمة المرور. شاركها مع المستخدم عبر قناة يثق بها — لا تُرسَل بالبريد الإلكتروني.',
+  'Set a new password for {name}. It is applied immediately and is not stored or emailed — share it over a channel they trust.':
+    'عيّن كلمة مرور جديدة لـ {name}. تُطبَّق فورًا ولا تُخزَّن أو تُرسَل بالبريد — شاركها عبر قناة موثوقة.',
+  'this user': 'هذا المستخدم',
+  // Student account — enrollment change request (Account.tsx)
+  'One of your requests could not be sent, but the other was received.': 'تعذّر إرسال أحد طلبيك، لكن الآخر وصل.',
+  // Student library — module-only (Library.tsx / MedicalLibraryAtlas.tsx)
+  'Your modules': 'وحداتك',
+  'Browse modules': 'تصفّح الوحدات',
+  'Reviewed articles, arranged the way your faculty teaches them. Choose a module to start reading.':
+    'مقالات مُراجَعة، مُرتَّبة بالطريقة التي تُدرّسها كليتك. اختر وحدة لبدء القراءة.',
+  'Nothing has been published for your modules yet. Check back soon.':
+    'لم يُنشَر شيء لوحداتك بعد. تحقّق مرة أخرى قريبًا.',
+  'Medical library': 'المكتبة الطبية',
+  'Choose your university and year in Account to see module and year library trees.':
+    'اختر جامعتك وسنتك في الحساب لرؤية أشجار مكتبة الوحدات والسنوات.',
   'Search…': 'بحث…',
   Search: 'بحث',
   // Shared filter bar (src/components/filters/*)
