@@ -1439,3 +1439,99 @@ Next largest untouched clusters (per the recompute in run28's own section
 above, now stale by this cluster's closure — rerun the recompute script
 before trusting exact counts): Mechanical Properties of Cardiac Muscle
 (36), Vascular Function (~43 effectively), Veins (~40 effectively).
+
+## run35 (recovery canary, off run33 HEAD 3510399c): Mechanical Properties
+## of Cardiac Muscle — started, first commit
+
+**36 bank rows tagged leaf "Mechanical Properties of Cardiac Muscle".**
+First sub-cluster closed this commit: Inotropic Mechanisms (5 kept, 1
+excluded, 30 rows of this leaf remain: contractility/EC-coupling general,
+afterload, PV loop, force-velocity/Vmax, cardiac index, hemorrhagic shock,
+1 mistagged urinary-bladder row, 1 mistagged Poiseuille-law row).
+
+**`physiology-cardiac-inotropy-mechanisms.ts`** (articleId ART-104-PHY-
+CARDIAC-MECHANICS, same article the sibling Frank-Starling/preload file in
+this leaf already uses): 2 sparse reuses, 0 fresh mints — both found by
+grepping `104-CPS-physiology-concepts.md` for "inotrop" and "digitalis"/
+"Na-K pump" BEFORE minting anything, per the heightened CVS dedup
+mitigation:
+- `cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms`
+  (CON-CVS-BF82D6F52B72C9) — already pinned with this exact leaf's own
+  module_subject AND article ART-104-PHY-CARDIAC-MECHANICS (an exact
+  match, not a cross-leaf borrow). Covers the beta-adrenergic-cAMP-PKA
+  axis for both positive (sympathetic) and negative (muscarinic/ACh)
+  inotropy.
+- `cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance`
+  (CON-CVS-7A8A04F61D44D1) — pinned under "Electrical Activity of the
+  Heart"'s own module_subject/article (a genuine cross-leaf reuse, same
+  class as the Electrical Activity cluster's own goldmine finds). Its
+  own original_wording names digitalis by name as the textbook example of
+  Na-K-ATPase inhibition driving Na-Ca-exchanger reversal — an exact
+  mechanism match for this leaf's 2 digitalis-mechanism rows.
+
+5 kept: 2x digitalis-mechanism (Na-K pump/exchanger-reversal), 1x
+digitalis/definition-of-positive-inotropism, 1x negative-inotropic-
+mechanisms (cAMP inhibition), 1x ACh-as-negative-inotropic-agent. 1
+excluded (`negative-inotropic-mechanisms-include-all-except-c65c04da`,
+3-option row — A/B/D only, no C, same class as every other 3-option
+exclusion this branch already documents).
+
+**New hazard found and confirmed this commit — `medical:batch`'s
+"library_ids coverage" check does not understand this codebase's own
+`+X`-prefixed sparse-append convention for a reused concept's
+`article_ids` line.** `build-batches.ts`'s `conceptUpdateBlock`
+(`emit.ts:299-318`) deliberately emits a **literal** `+` before each
+newly-linked article id on a sparse-reuse row (e.g.
+`+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY | +ART-104-PHY-CARDIAC-
+MECHANICS`) — this is real, working syntax `conceptImport.ts` strips and
+appends onto the live record's existing array field at actual import
+time, the same append-not-replace mechanism documented for `## modules`
+and `## exam_signal` elsewhere in `emit.ts`'s own doc comments.
+`validate-content-batch.mjs`, however, parses `article_ids` with a plain
+`.split('|').map(trim)` (line ~768) that never strips a leading `+`, so
+the concept's parsed `articleIds` become `"+ART-104-PHY-CARDIAC-
+MECHANICS"` (literal plus) instead of `"ART-104-PHY-CARDIAC-MECHANICS"` —
+which then fails to match the plain (unprefixed) `library_ids` a
+question in the same batch carries, producing two **new** "main concept
+... is not covered by any article in library_ids" false-positive errors
+(`medical:batch` full `--with`: 6 errors total = the 4 pre-existing
+3-option-contract rows + these 2). No prior session ever hit this because
+the only earlier reuse of `CON-CVS-7A8A04F61D44D1` (in the Electrical
+Activity cluster) was on a question later excluded for a 3-option
+contract failure, and excluded questions skip the coverage check
+entirely — this is the first non-excluded question to test a concept
+receiving its first-ever article link through this route.
+**`medical:simulate` (the real gate) confirms this is a validator
+artifact, not a real defect**: full positional run (all 6 concept files +
+4 article files + the question file), `errors: []`, `skipped: []`, every
+tier's own `rejected: 0`, delta shows `concepts: 237` / `articles: 57` —
+the import genuinely goes through clean. Future sessions reusing a
+concept whose sparse `article_ids` line is entirely `+`-prefixed should
+expect this same false alarm from `medical:batch` and confirm against
+`medical:simulate` instead, exactly as this file's own standing guidance
+already says (`medical:batch` is not the gate — simulate and audit are).
+Not fixed in the validator itself this pass (out of this session's own
+bounded scope — a shared `scripts/` tool, not this leaf's file).
+
+Gate: 520 kept (+5 from 515), 109 excluded (+1 from 108).
+`medical:batch` full `--with`: 6 errors (4 pre-existing 3-option-contract
+rows on unrelated Respiratory-leaf items, + 2 false-positive
+library_ids-coverage errors explained above — both non-blocking, see
+hazard note). `medical:simulate` positional (all concept/article files +
+the question file): `errors: []`, `skipped: []`, all `rejected: 0`.
+`medical:audit`: `errors: []`. Additive-only diff confirmed (`git diff`
+on both changed generated files showed only the 108→109 header count
+line and pure appends — no removed content line).
+
+First commit landed inside the 3-minute recovery-canary target.
+
+Next in this leaf (30 rows remaining): afterload/stroke-volume-change
+questions, PV-loop, force-velocity/Vmax + length-tension shift with
+inotropy (needs its own find-existing pass — not yet searched), cardiac
+index, hemorrhagic shock (2 rows, may already be covered by the existing
+`physiology-circulatory-control-hemorrhagic-shock.ts` file — check before
+minting), 1 mistagged urinary-bladder-plasticity row (not cardiac at all
+— exclude or flag for routing to wherever smooth-muscle physiology
+lives), 1 mistagged Poiseuille-law row (vascular resistance, not cardiac
+muscle mechanics — likely belongs in Vascular Function, this leaf's own
+next queued cluster).

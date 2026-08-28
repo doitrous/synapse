@@ -38,6 +38,7 @@
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
+    Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 7 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
@@ -64,7 +65,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  108 questions were excluded and 0 held back for having no
+  109 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -2425,9 +2426,10 @@ The Na+-K+ ATPase, the Ca++-ATPase and the Na+-Ca++ exchanger maintain cardiac m
 ## canonical_key
 cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance
 ## exam_signal
-
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p6 | 104 CPS
 ## article_ids
-+ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
++ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY | +ART-104-PHY-CARDIAC-MECHANICS
 ## field_notes
 canonical_key "cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance" already has a pinned id in this module (CON-CVS-7A8A04F61D44D1); mintConceptId derives the same id fresh (CON-CVS-7A8A04F61D44D1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
@@ -5412,6 +5414,25 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-BF82D6F52B72C9
+## label
+Beta-adrenergic stimulation raises cytoplasmic calcium through Protein Kinase A to increase both contractile force (positive inotropy) and the speed of relaxation (lusitropy), while hypoxia and ischaemia impair both
+## canonical_key
+cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p13 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p4 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-MECHANICS
+## field_notes
+canonical_key "cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms" already has a pinned id in this module (CON-CVS-BF82D6F52B72C9); mintConceptId derives the same id fresh (CON-CVS-BF82D6F52B72C9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

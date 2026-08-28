@@ -38,6 +38,7 @@
     Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
     Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
+    Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle — 6 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 7 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
@@ -64,7 +65,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  108 questions were excluded and 0 held back for having no
+  109 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -31820,6 +31821,470 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q66. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F175091CC11D
+## title
+Digitalis has positive inotropic effect through the following mechanism:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Digitalis has positive inotropic effect through the following mechanism:
+## answer_a
+An increase of intracellular cAMP
+## explanation_a
+Digitalis does not act by raising intracellular cAMP — that is the beta-adrenergic/Protein Kinase A pathway, a separate (sympathetic) route to increased contractility that digitalis does not use.
+## answer_b
+Activation of voltage-gated calcium channels
+## explanation_b
+Digitalis does not directly activate voltage-gated (L-type) Ca++ channels; the extra intracellular Ca++ it produces arrives indirectly, through the Na+-Ca++ exchanger's reversal after Na-K pump inhibition, not by opening Ca++ channels itself.
+## answer_c
+Inhibition of Na*-K* pump in the cardiac muscle
+## explanation_c
+Correct. Digitalis inhibits the sarcolemmal Na+-K+ ATPase, so intracellular Na+ rises; this smaller Na+ gradient drives the Na+-Ca++ exchanger to reverse — moving Na+ out and Ca++ in instead of its usual net Ca++-extruding direction — and the resulting rise in intracellular Ca++ increases contractile force.
+
+Why this is right:
+- The Na+-K+ ATPase (3 Na+ out for 2 K+ in, electrogenic), a Ca++-ATPase, and the Na+-Ca++ exchanger (normally 3 Na+ in for 1 Ca++ out) together maintain the cardiac myocyte's resting ionic gradients, and the exchanger reverses direction — moving Na+ out and Ca++ in — whenever intracellular Na+ rises, as when digitalis inhibits the Na+-K+ ATPase.
+## answer_d
+Inhibition of ATP-dependent Ca** pump in the sarcoplasmic reticulum
+## explanation_d
+Digitalis targets the sarcolemmal Na+-K+ ATPase, not the ATP-dependent Ca++ pump of the sarcoplasmic reticulum (SERCA); inhibiting SERCA would impair Ca++ reuptake and relaxation rather than describe digitalis's actual mechanism.
+## correct_answer
+C
+## main_concept
+CON-CVS-7A8A04F61D44D1
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that digitalis produces its positive inotropic effect by inhibiting the sarcolemmal Na+-K+ ATPase, not by raising cAMP, activating voltage-gated Ca++ channels, or inhibiting SERCA.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p13 q97. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-811ACA05D1F9
+## title
+Digitalis has positive inotropic effect through which mechanism?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Digitalis has positive inotropic effect through which mechanism?
+## answer_a
+An increase of intracellular cAMP vo
+## explanation_a
+Raising intracellular cAMP describes the beta-adrenergic/Protein Kinase A pathway, a separate route to increased contractility that sympathetic stimulation uses, not digitalis.
+## answer_b
+Activation of voltage-gated calcium channels
+## explanation_b
+The extra intracellular Ca++ digitalis produces does not come from directly activating voltage-gated Ca++ channels; it arrives indirectly, via the Na+-Ca++ exchanger reversing after Na-K pump inhibition.
+## answer_c
+Inhibition of Na*-K* pump in the cardiac muscle
+## explanation_c
+Correct. Digitalis inhibits the sarcolemmal Na+-K+ ATPase in cardiac muscle; the resulting rise in intracellular Na+ makes the Na+-Ca++ exchanger reverse direction (Na+ out, Ca++ in), raising intracellular Ca++ and increasing contractile force.
+
+Why this is right:
+- The Na+-K+ ATPase (3 Na+ out for 2 K+ in, electrogenic), a Ca++-ATPase, and the Na+-Ca++ exchanger (normally 3 Na+ in for 1 Ca++ out) together maintain the cardiac myocyte's resting ionic gradients, and the exchanger reverses direction — moving Na+ out and Ca++ in — whenever intracellular Na+ rises, as when digitalis inhibits the Na+-K+ ATPase.
+## answer_d
+Inhibition of ATP-dependent Ca** pump in the sarcoplasmic reticulum
+## explanation_d
+SERCA (the sarcoplasmic reticulum's ATP-dependent Ca++ pump) is not digitalis's target; digitalis acts on the sarcolemmal Na+-K+ ATPase instead, and inhibiting SERCA would impair relaxation rather than explain a positive inotropic effect.
+## correct_answer
+C
+## main_concept
+CON-CVS-7A8A04F61D44D1
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a mechanism
+## learning_objective
+State that digitalis produces its positive inotropic effect by inhibiting the sarcolemmal Na+-K+ ATPase, not by raising cAMP, activating voltage-gated Ca++ channels, or inhibiting SERCA.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p6 q18. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0283F1815252
+## title
+Digitalis is a positive inotropic agent. Positive inotropism refers to: ,
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Digitalis is a positive inotropic agent. Positive inotropism refers to: ,
+## answer_a
+Decreased stroke volume :
+## explanation_a
+The opposite of what positive inotropism does. A stronger contraction empties the ventricle to a lower end-systolic volume at a given preload, which raises, not lowers, stroke volume.
+## answer_b
+Decreased EDV 1
+## explanation_b
+Inotropism is independent of end-diastolic volume — EDV is a preload/Frank-Starling variable. Positive inotropism raises the force developed at whatever EDV is already present; it does not itself lower EDV.
+## answer_c
+Increased contractility of the heart ;
+## explanation_c
+Correct. Positive inotropism means an increase in the heart muscle's intrinsic contractility — the force of contraction generated independently of preload or afterload — as produced by digitalis or by increased sympathetic (beta-adrenergic-cAMP-PKA) drive.
+
+Why this is right:
+- Beta-adrenergic stimulation raises cAMP and activates Protein Kinase A, which increases cytoplasmic Ca++ by phosphorylating the L-type Ca++ channel and the ryanodine receptor (positive inotropy) and separately speeds relaxation by phosphorylating phospholamban to accelerate SERCA-mediated Ca++ removal (positive lusitropy); by contrast, hypoxia inhibits ATP production and myocardial ischaemia's ATP deficiency slows Ca++ removal, so Ca++ accumulates and the myocyte contracts weakly and relaxes poorly at the same time.
+## answer_d
+Movement of blood elements related to a change in chemical gradient
+## explanation_d
+Describes a generic ion-movement phenomenon (comparable to how the Na-Ca exchanger itself moves ions down or against a gradient), not the definition of inotropism, which concerns contractile force.
+## answer_e
+Repolarization of the SAN 1
+## explanation_e
+SA-node repolarization is an electrical event of pacemaker tissue, unrelated to the mechanical/contractile meaning of inotropism.
+## correct_answer
+C
+## main_concept
+CON-CVS-BF82D6F52B72C9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+Define positive inotropism as an increase in the heart's intrinsic contractility, independent of preload (EDV) or the SA node's electrical cycle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p13 q98. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-21700D020484
+## title
+Negative inotropic mechanisms include which of the following?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Negative inotropic mechanisms include which of the following?
+## answer_a
+Activation of Protein Kinase A
+## explanation_a
+Protein Kinase A activation, downstream of beta-adrenergic stimulation, phosphorylates the L-type Ca++ channel and the ryanodine receptor to raise contractile force — a POSITIVE, not negative, inotropic mechanism.
+## answer_b
+Stimulation of B- adrenergic receptors
+## explanation_b
+Beta-adrenergic receptor stimulation raises cAMP and PKA activity, the classic POSITIVE inotropic pathway, not a negative one.
+## answer_c
+Inhibition of CAMP production
+## explanation_c
+Correct. Inhibiting cAMP production — as occurs when muscarinic (parasympathetic) receptor activation suppresses adenylyl cyclase — removes the substrate for PKA activation, blunting the Ca-handling steps that raise contractile force, a genuine negative inotropic effect.
+
+Why this is right:
+- Beta-adrenergic stimulation raises cAMP and activates Protein Kinase A, which increases cytoplasmic Ca++ by phosphorylating the L-type Ca++ channel and the ryanodine receptor (positive inotropy) and separately speeds relaxation by phosphorylating phospholamban to accelerate SERCA-mediated Ca++ removal (positive lusitropy); by contrast, hypoxia inhibits ATP production and myocardial ischaemia's ATP deficiency slows Ca++ removal, so Ca++ accumulates and the myocyte contracts weakly and relaxes poorly at the same time.
+## answer_d
+Increased extracellular Ca** concentration
+## explanation_d
+Increased extracellular Ca++ concentration raises Ca++ influx during the action potential, a POSITIVE, not negative, inotropic influence.
+## correct_answer
+C
+## main_concept
+CON-CVS-BF82D6F52B72C9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify inhibition of cAMP production as a negative inotropic mechanism, as opposed to Protein Kinase A activation, beta-adrenergic stimulation, or raised extracellular Ca++, which are all positive inotropic mechanisms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p4 q6. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-C4135A803D04
+## title
+Which of the following agents or changes has a negative inotropic effect onthe heart?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following agents or changes has a negative inotropic effect onthe heart?
+## answer_a
+Increased heart rate
+## explanation_a
+Increased heart rate (a positive chronotropic effect) is not itself a negative inotropic mechanism; faster stimulation can even secondarily raise contractile force (the staircase/treppe phenomenon, from accumulating cytoplasmic Ca++), the opposite direction from a negative inotropic effect.
+## answer_b
+Sympathetic stimulation
+## explanation_b
+Sympathetic stimulation raises cAMP and PKA activity via beta-adrenergic receptors — a POSITIVE inotropic effect, not a negative one.
+## answer_c
+Norepinephrine
+## explanation_c
+Norepinephrine is the sympathetic neurotransmitter that drives the same beta-adrenergic-cAMP-PKA pathway as sympathetic stimulation generally, a POSITIVE inotropic effect.
+## answer_d
+Acetylcholine (ACh)
+## explanation_d
+Correct. Acetylcholine, acting mainly on cardiac muscarinic receptors (a parasympathetic/vagal effect), inhibits adenylyl cyclase and lowers cAMP, blunting the PKA-dependent Ca-handling steps that raise contractile force — a genuine negative inotropic effect, the functional opposite of the beta-adrenergic pathway.
+
+Why this is right:
+- Beta-adrenergic stimulation raises cAMP and activates Protein Kinase A, which increases cytoplasmic Ca++ by phosphorylating the L-type Ca++ channel and the ryanodine receptor (positive inotropy) and separately speeds relaxation by phosphorylating phospholamban to accelerate SERCA-mediated Ca++ removal (positive lusitropy); by contrast, hypoxia inhibits ATP production and myocardial ischaemia's ATP deficiency slows Ca++ removal, so Ca++ accumulates and the myocyte contracts weakly and relaxes poorly at the same time.
+## correct_answer
+D
+## main_concept
+CON-CVS-BF82D6F52B72C9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Inotropic Mechanisms of Cardiac Muscle
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Discrimination among near-miss options
+## learning_objective
+Identify acetylcholine, acting on cardiac muscarinic receptors, as a negative inotropic agent, as opposed to increased heart rate, sympathetic stimulation, or norepinephrine.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p5 q35. Manifest src_e569449acf8dc2af471e.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
