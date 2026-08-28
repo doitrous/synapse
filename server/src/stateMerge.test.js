@@ -287,6 +287,17 @@ test('an unmergeable document is returned as sent, for the caller to version-che
   assert.deepEqual(merged.value, { a: 3 })
 })
 
+test('Add Article is not a reviewer capability: creating an article needs the library tab', () => {
+  // Verification #21, server side. A reviewer holds only media + reports, so the
+  // create is refused; an editor holds library and it is allowed. The route guard
+  // (RequireAuth tab="library") hides the button; this is the API that backs it.
+  const created = diffDocument(LEDGER, [], [{ id: 'a1', kind: 'article', title: 'New article', articleData: {} }])
+  assert.equal(created.length, 1)
+  assert.deepEqual(created[0].tabs, ['library'])
+  assert.equal(authoriseChanges(created, { heldTabs: ['media', 'reports'], contentScope: null, role: 'reviewer' }).ok, false)
+  assert.equal(authoriseChanges(created, { heldTabs: ['library'], contentScope: null, role: 'editor' }).ok, true)
+})
+
 /* ── Content reports: merge-safe, role-gated ─────────────────────────────── */
 
 const REPORTS = 'synapse-content-reports-v1'
