@@ -3077,3 +3077,1143 @@ yes
 
 ## author_notes
 Same isomerism-terminology concept as Q16/Q4/Q6/Q15 (already authored), the direct companion to Q16's C2/C3/C4-epimer question, now covering C5 and D-/L- naming.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q23
+
+## title
+Which of the following is a keto-triose?
+
+## question
+Which of the following is a keto-triose
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Dihydroxyacetone
+
+## explanation_a
+Correct. Dihydroxyacetone has exactly three carbons, making it a triose, and its carbonyl group at C2 is a ketone rather than an aldehyde, making it specifically a ketotriose — the simplest possible ketose. This is the same molecule tested elsewhere for having no asymmetric carbon at all, since its central carbon carries two identical -CH2OH groups. It stands in direct contrast with glyceraldehyde, the corresponding aldotriose.
+
+## answer_b
+Erythrulose
+
+## explanation_b
+Incorrect. Erythrulose is a ketose, but it has four carbons, making it a ketotetrose, not a ketotriose.
+
+## answer_c
+Glyceraldehyde
+
+## explanation_c
+Incorrect. Glyceraldehyde has three carbons, making it a triose, but its carbonyl group is an aldehyde at C1, making it an aldotriose, not a ketotriose.
+
+## answer_d
+Fructose
+
+## explanation_d
+Incorrect. Fructose is a ketose, but it has six carbons, making it a ketohexose, not a ketotriose.
+
+## answer_e
+Ribulose
+
+## explanation_e
+Incorrect. Ribulose is a ketose, but it has five carbons, making it a ketopentose, not a ketotriose.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-ABEA43BF07B408
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify dihydroxyacetone as the ketotriose, combining the triose carbon count with a ketone carbonyl group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q19, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same aldose/ketose classification concept as Q29/Q7/Q9/Q10/Q11 (already authored), combining the carbon-count and carbonyl-type axes into one "keto-triose" identification.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q24
+
+## title
+Sucrose is composed of which two sugars?
+
+## question
+Sucrose is composed of which of the following two sugars?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Alpha-Glucose and alpha-Glucose
+
+## explanation_a
+Incorrect. Two glucose units joined together describes maltose, not sucrose; sucrose is built from two different monosaccharides, glucose and fructose.
+
+## answer_b
+Alpha-Glucose and beta-Glucose
+
+## explanation_b
+Incorrect. This still describes two glucose units (in different anomeric forms), which is not sucrose's composition; sucrose contains one glucose unit and one fructose unit, not two glucose units of any anomeric form.
+
+## answer_c
+Alpha-Glucose and beta-Fructose
+
+## explanation_c
+Correct. Sucrose is built from one glucose unit in its alpha-anomeric form and one fructose unit in its beta-anomeric form, joined through a glycosidic bond between their two anomeric carbons (glucose's C1 to fructose's C2). Because this bond uses up both anomeric carbons at once, sucrose has no free anomeric carbon left and is therefore a non-reducing sugar — the same fact tested directly elsewhere in this section. This alpha-glucose/beta-fructose pairing is unique to sucrose among the three common disaccharides.
+
+## answer_d
+Beta-Glucose and beta-Galactose
+
+## explanation_d
+Incorrect. Glucose and galactose joined together describes lactose, not sucrose; sucrose's two component sugars are glucose and fructose.
+
+## answer_e
+Alpha-Fructose and beta-Galactose
+
+## explanation_e
+Incorrect. Neither galactose nor this particular anomeric pairing describes sucrose; sucrose's components are alpha-glucose and beta-fructose, and galactose belongs instead to lactose's composition.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-02FBBE4CD4CAC1
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify sucrose's composition as alpha-glucose joined to beta-fructose.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q20, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same three-disaccharide concept as Q30/Q2 (already authored), tested here through sucrose's specific anomeric-form composition.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q25
+
+## title
+Maltose is composed of which two sugars?
+
+## question
+Maltose is composed of which of the following two sugars?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Alpha-Glucose and alpha-Glucose
+
+## explanation_a
+Correct. Maltose is built from two glucose units, both in the alpha-anomeric form, joined by an alpha-1,4 glycosidic bond between the first glucose's anomeric carbon and the second glucose's C4 hydroxyl. Because only one of the two glucose units contributes its anomeric carbon to the bond, the second glucose retains a free anomeric carbon, which is exactly why maltose (unlike sucrose) is a reducing sugar. This alpha-glucose/alpha-glucose composition, joined alpha-1,4, is also the same linkage that builds up the long chains of starch and glycogen.
+
+## answer_b
+Alpha-Glucose and beta-Glucose
+
+## explanation_b
+Incorrect. Maltose's two glucose units are both in the alpha-anomeric form at the linkage; mixing an alpha- and a beta-glucose does not describe maltose's actual composition.
+
+## answer_c
+Alpha-Glucose and beta-Fructose
+
+## explanation_c
+Incorrect. Glucose joined to fructose describes sucrose, not maltose; maltose is composed of two glucose units, not one glucose and one fructose.
+
+## answer_d
+Beta-Glucose and beta-Galactose
+
+## explanation_d
+Incorrect. Glucose joined to galactose describes lactose, not maltose; maltose's two component sugars are both glucose.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-02FBBE4CD4CAC1
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify maltose's composition as two alpha-glucose units joined alpha-1,4.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q21, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same three-disaccharide concept as Q30/Q2/Q24 (already authored), tested here through maltose's specific anomeric-form composition.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q26
+
+## title
+Lactose is composed of which two sugars?
+
+## question
+Lactose is composed of which of the following two sugars?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Alpha-Glucose and alpha-Glucose
+
+## explanation_a
+Incorrect. Two glucose units joined together describes maltose, not lactose; lactose is composed of galactose and glucose, not two glucose units.
+
+## answer_b
+Alpha-Glucose and beta-Glucose
+
+## explanation_b
+Incorrect. This still describes two glucose units, which is not lactose's composition; lactose contains one galactose unit and one glucose unit.
+
+## answer_c
+Alpha-Glucose and beta-Fructose
+
+## explanation_c
+Incorrect. Glucose joined to fructose describes sucrose, not lactose; lactose's two component sugars are galactose and glucose.
+
+## answer_d
+Beta-Glucose and beta-Galactose
+
+## explanation_d
+Correct. Lactose is built from one galactose unit in its beta-anomeric form joined to one glucose unit, also referenced in its beta form, through a beta-1,4 glycosidic bond linking galactose's anomeric carbon to glucose's C4 hydroxyl. Because glucose's own anomeric carbon is left free by this linkage, lactose retains a free anomeric carbon and is a reducing sugar, unlike sucrose. This beta-linked galactose-glucose composition is exactly what makes lactose a galactoside, tested elsewhere in this section.
+
+## answer_e
+Alpha-Fructose and beta-Galactose
+
+## explanation_e
+Incorrect. Fructose is not a component of lactose at all; lactose's two component sugars are galactose and glucose, not fructose and galactose.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-02FBBE4CD4CAC1
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify lactose's composition as beta-galactose joined to glucose by a beta-1,4 bond.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q22, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same three-disaccharide concept as Q30/Q2/Q24/Q25 (already authored), tested here through lactose's specific anomeric-form composition.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q27
+
+## title
+The monosaccharide units are linked by a beta-1,4 glycosidic linkage in
+
+## question
+The monosaccharide units are linked by glycosidic linkage in beta 1-4:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Maltose
+
+## explanation_a
+Incorrect. Maltose's two glucose units are joined by an alpha-1,4 glycosidic bond, not a beta-1,4 bond.
+
+## answer_b
+Sucrose
+
+## explanation_b
+Incorrect. Sucrose's glucose and fructose units are joined by an alpha-1,2 (equivalently beta-2,1) glycosidic bond, not a beta-1,4 bond.
+
+## answer_c
+Lactose
+
+## explanation_c
+Correct. Lactose is built from galactose joined to glucose specifically by a beta-1,4 glycosidic bond, linking galactose's anomeric carbon to C4 of glucose. This beta-1,4 linkage is what distinguishes lactose's glycosidic bond from maltose's alpha-1,4 bond (same carbon positions, opposite anomeric configuration) and from sucrose's alpha-1,2 bond entirely. It is the same fact tested elsewhere by asking which linkage joins lactose's two component sugars.
+
+## answer_d
+Starch
+
+## explanation_d
+Incorrect. Starch's glucose units are joined by alpha-1,4 glycosidic bonds (with alpha-1,6 branch points in amylopectin), not a beta-1,4 bond; beta-1,4-linked glucose instead describes cellulose, a different polysaccharide.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-02FBBE4CD4CAC1
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-CHO-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify lactose as the disaccharide joined by a beta-1,4 glycosidic linkage.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q23, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same three-disaccharide concept as Q30/Q2/Q24-26 (already authored), naming the sugar from its glycosidic-linkage type rather than naming the linkage from the sugar.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q28
+
+## title
+D-glucose and L-glucose are
+
+## question
+D-glucose and L-glucose are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Aldose-ketose isomers
+
+## explanation_a
+Incorrect. D-glucose and L-glucose are both aldoses; they share the same carbonyl-group type and carbon skeleton, differing only in the spatial configuration at every chiral carbon, not in whether the carbonyl group is an aldehyde or a ketone.
+
+## answer_b
+Epimers
+
+## explanation_b
+Incorrect. Epimers differ at only one chiral carbon; D-glucose and L-glucose differ at every chiral carbon in the molecule, which is a much more extensive difference than an epimer pair.
+
+## answer_c
+Enantiomers
+
+## explanation_c
+Correct. D-glucose and L-glucose are complete, non-superimposable mirror images of each other, differing in configuration at every one of glucose's chiral carbons simultaneously — exactly the definition of enantiomers. This whole-molecule mirror relationship is what the D-/L- naming system is built to describe, and it is the most extensive kind of stereoisomerism among the four categories tested in this section (aldose-ketose, anomeric, epimeric and enantiomeric). Almost all biological carbohydrate metabolism uses only the D-form, making the L-enantiomer largely absent from normal physiology despite being chemically identical apart from this mirror relationship.
+
+## answer_d
+Anomers
+
+## explanation_d
+Incorrect. Anomers differ specifically at the anomeric carbon created on ring closure (C1 in an aldohexose); D-glucose and L-glucose differ at every chiral carbon, not just the anomeric one, so "anomers" does not describe their relationship.
+
+## answer_e
+Cyclic ketoses
+
+## explanation_e
+Incorrect. Glucose is an aldose, not a ketose, whether in its D- or L- form, and "cyclic ketose" describes a structural feature (a ring-closed ketose sugar), not the enantiomeric relationship between D- and L-glucose.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-358E18A31D89FC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify D-glucose and L-glucose as enantiomers, differing in configuration at every chiral carbon.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q24, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same isomerism-terminology concept as Q16/Q4/Q6/Q15/Q17 (already authored), naming D-/L-glucose's relationship as "enantiomers" directly.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q29
+
+## title
+Alpha-glucose and beta-glucose are
+
+## question
+a-glucose and b-glucose are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Aldose-ketose isomers
+
+## explanation_a
+Incorrect. Both alpha- and beta-glucose are aldoses with the identical open-chain carbonyl chemistry; they differ only in the spatial arrangement at the anomeric carbon formed on ring closure, not in the type of carbonyl group.
+
+## answer_b
+Epimers
+
+## explanation_b
+Incorrect. "Epimer" describes a difference at a non-anomeric chiral carbon (such as C2, C3 or C4); alpha- and beta-glucose differ specifically at the anomeric carbon (C1), which is the defining feature of anomers, not epimers.
+
+## answer_c
+Enantiomers
+
+## explanation_c
+Incorrect. Alpha- and beta-glucose are not mirror images of each other — they differ at only the single anomeric carbon, not at every chiral carbon, so they do not meet the definition of enantiomers (which is the D-/L-glucose relationship instead).
+
+## answer_d
+Anomers
+
+## explanation_d
+Correct. When glucose's open-chain form cyclises into a ring, its C1 carbon becomes a new chiral centre (the anomeric carbon), and it can close in either of two configurations, producing alpha-glucose and beta-glucose — two forms that differ only at this one anomeric carbon. This specific anomeric-carbon relationship is what the term "anomers" is defined to describe, distinct from epimers (which differ at a different, non-anomeric carbon) and from enantiomers (which differ at every chiral carbon at once). In solution, alpha- and beta-glucose freely interconvert through the open-chain form, a process called mutarotation.
+
+## answer_e
+Cyclic ketoses
+
+## explanation_e
+Incorrect. Glucose is an aldose, not a ketose; alpha- and beta-glucose are both cyclic aldose forms, not ketoses, so this option misdescribes the sugar's carbonyl-group type entirely.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-358E18A31D89FC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify alpha-glucose and beta-glucose as anomers, differing only at the anomeric carbon formed on ring closure.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q25, p.18.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same isomerism-terminology concept as Q16/Q4/Q6/Q15/Q17/Q28 (already authored), naming alpha-/beta-glucose's relationship as "anomers" directly.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-CHO-Q30
+
+## title
+Glucose and galactose are
+
+## question
+glucose and Galactose are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Aldose-ketose isomers
+
+## explanation_a
+Incorrect. Glucose and galactose are both aldoses, sharing the same carbonyl-group type; they differ only in configuration at one carbon, not in whether the carbonyl group is an aldehyde or a ketone.
+
+## answer_b
+Epimers
+
+## explanation_b
+Correct. Glucose and galactose are identical in every respect except the spatial configuration of the -OH and -H at C4, which makes them a textbook example of epimers — sugars differing at exactly one chiral carbon. This single-carbon difference at C4 is distinct from the C2 difference that makes glucose and mannose an epimer pair, and it is why comparing mannose and galactose to each other (a difference at two carbons at once) does not qualify as an epimer relationship. Interconversion between glucose and galactose in the body is carried out by the enzyme epimerase, acting specifically at this C4 position.
+
+## answer_c
+Enantiomers
+
+## explanation_c
+Incorrect. Glucose and galactose differ at only one chiral carbon (C4); enantiomers must differ at every chiral carbon as complete mirror images, which is not the case here.
+
+## answer_d
+Anomers
+
+## explanation_d
+Incorrect. Anomers differ specifically at the anomeric carbon (C1); glucose and galactose differ at C4, a non-anomeric carbon, which is the defining feature of epimers, not anomers.
+
+## answer_e
+Cyclic ketoses
+
+## explanation_e
+Incorrect. Both glucose and galactose are aldoses, not ketoses, so "cyclic ketoses" misdescribes their carbonyl-group chemistry entirely.
+
+## topic
+Biochemistry
+
+## subtopic
+Carbohydrates
+
+## main_concept
+CON-FND-358E18A31D89FC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Carbohydrates
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify glucose and galactose as epimers, differing only in configuration at C4.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Carbohydrates MCQ bank, Q26, p.19.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same isomerism-terminology concept as Q16/Q4/Q6/Q15/Q17/Q28/Q29 (already authored) — the last of the six companion questions the file header originally flagged (Q6, Q15, Q17, Q24, Q25, Q26), now all authored.
