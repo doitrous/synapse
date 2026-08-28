@@ -584,13 +584,13 @@ Incorrect. Primary polycythaemia already has too many red cells; transfusing mor
 Leukocytosis
 
 ## explanation_b
-Incorrect, though this is the paper's own printed key for a different option position — see the source note. A raised white-cell count on its own is not an indication for a red-cell or blood-product transfusion.
+Incorrect. A raised white-cell count on its own is not an indication for a red-cell or blood-product transfusion.
 
 ## answer_c
 Leukocytopenia
 
 ## explanation_c
-Correct per the source paper's printed key. The question and its distractor set are recorded as printed; the printed key selects this option. Flagged in the source note below rather than silently reconciled, because a low white-cell count is not a standard textbook indication for blood transfusion (transfusion indications are usually framed around red-cell mass, clotting factors or platelets) — a student should recognise this as the paper's own answer, not necessarily standard teaching.
+Marked correct for this item, though a low white-cell count on its own is not a standard indication for blood transfusion — transfusion indications are usually framed around red-cell mass, clotting factors, or platelets, not the white-cell count.
 
 ## answer_d
 Secondary polycythaemia
@@ -662,7 +662,7 @@ ART-HEM-BLOODGROUPS-TRANSFUSION
 src_49f438279b68a489aa42
 
 ## learning_objective
-Recognise the paper's own printed answer for transfusion indication among four options, while noting the tension with standard teaching.
+Recognise the scored answer for transfusion indication among four options, while noting the tension with standard teaching.
 
 ## source_citation
 Alexandria University, AU-MED-103, "EOM - Blood End Egyptian 1.pdf", Q23 (p5), printed answer key p7 — key letter C ("leukocytopenia").
@@ -1254,25 +1254,25 @@ B
 Acute blood loss
 
 ## explanation_a
-Incorrect per the source's own printed key (see the note on the correct option below). Nothing in the stem describes an acute bleeding event.
+Incorrect. Nothing in the stem describes an acute bleeding event.
 
 ## answer_b
 Sickle cell anaemia
 
 ## explanation_b
-Correct per the source paper's printed key. This is recorded as printed, but flagged: altitude exposure classically raises haemoglobin/haematocrit toward secondary polycythaemia through hypoxia-driven erythropoietin, and the given values (Hb 11, Hct 38%) read as mildly low rather than raised — a picture more consistent with anaemia than with sickle cell disease specifically. The tension between the clinical picture, the values given, and the keyed diagnosis is real and is not resolved here; a student should notice that altitude exposure and this Hb/Hct combination do not obviously point to sickle cell anaemia on standard teaching.
+Marked correct for this item, though the picture given is worth questioning: altitude exposure classically raises haemoglobin/haematocrit toward secondary polycythaemia through hypoxia-driven erythropoietin, and the given values (Hb 11, Hct 38%) read as mildly low rather than raised — a picture more consistent with anaemia than with sickle cell disease specifically. Altitude exposure and this Hb/Hct combination do not obviously point to sickle cell anaemia on standard teaching.
 
 ## answer_c
 Polycythaemia
 
 ## explanation_c
-Incorrect per the printed key, though arguably the physiologically expected direction for altitude exposure (secondary polycythaemia) — the given Hb/Hct values are on the low side, not raised, which is itself part of the tension in this item.
+Incorrect for this item, though arguably the physiologically expected direction for altitude exposure (secondary polycythaemia) — the given Hb/Hct values are on the low side, not raised, which is itself part of the tension in this scenario.
 
 ## answer_d
 Iron deficiency anaemia
 
 ## explanation_d
-Incorrect per the printed key. Iron deficiency anaemia is microcytic and hypochromic; no red-cell indices distinguishing microcytic from other anaemia types are given in this stem.
+Incorrect. Iron deficiency anaemia is microcytic and hypochromic; no red-cell indices distinguishing microcytic from other anaemia types are given in this stem.
 
 ## topic
 Physiology
@@ -1338,7 +1338,7 @@ ART-HEM-CBC-READING
 src_49f438279b68a489aa42
 
 ## learning_objective
-Recognise the paper's own printed diagnosis for this CBC-and-history combination, while noting the tension between the values, the history, and the keyed answer.
+Recognise the scored diagnosis for this CBC-and-history combination, while noting the tension between the values, the history, and the scored answer.
 
 ## source_citation
 Alexandria University, AU-MED-103, "EOM - Blood End Egyptian 1.pdf", Q33 (pp6-7), printed answer key p7 — key letter B ("sickle cell anaemia").
@@ -1659,25 +1659,25 @@ A
 IgA
 
 ## explanation_a
-Correct per the paper's printed answer key for this diagram. The image itself is not available in the extracted source text — see the media request below — so the visual features that make this identifiable as IgA (e.g. its dimeric secretory form) cannot be described from the cached text alone; the key is recorded as printed.
+Marked correct for this diagram. The image itself is not available in the extracted source text — see the media request below — so the visual features that make this identifiable as IgA (e.g. its dimeric secretory form) cannot be described from the cached text alone.
 
 ## answer_b
 IgM
 
 ## explanation_b
-Incorrect per the printed key.
+Incorrect for this diagram.
 
 ## answer_c
 IgG
 
 ## explanation_c
-Incorrect per the printed key.
+Incorrect for this diagram.
 
 ## answer_d
 IgE
 
 ## explanation_d
-Incorrect per the printed key.
+Incorrect for this diagram.
 
 ## topic
 Physiology
@@ -2898,13 +2898,13 @@ Incorrect. Her white-cell count (8,000/mm3) is within the normal range, not redu
 Polycythaemia vera
 
 ## explanation_c
-Incorrect per the printed key, though this is the classification a low erythropoietin level would normally point to (primary polycythaemia, defined by a marrow acting independently of the hormone), given her raised red-cell count and stated low erythropoietin — see the note on the keyed answer.
+Incorrect for this item, though this is the classification a low erythropoietin level would normally point to (primary polycythaemia, defined by a marrow acting independently of the hormone), given her raised red-cell count and stated low erythropoietin.
 
 ## answer_d
 Secondary polycythaemia
 
 ## explanation_d
-Correct per the source paper's printed key. This is recorded as printed, but flagged: chronic hypoxic lung disease from heavy smoking classically raises, not lowers, erythropoietin (the driver of secondary polycythaemia) — a stated low erythropoietin level in this context reads more consistently with a primary marrow disorder. The tension between the clinical history, the stated erythropoietin level, and the keyed diagnosis is real and is not resolved here.
+Marked correct for this item, though worth questioning: chronic hypoxic lung disease from heavy smoking classically raises, not lowers, erythropoietin (the driver of secondary polycythaemia) — a stated low erythropoietin level in this context reads more consistently with a primary marrow disorder. The tension between the clinical history and the stated erythropoietin level is real and is not resolved here.
 
 ## topic
 Physiology
@@ -2971,7 +2971,7 @@ ART-HEM-CBC-READING
 src_56bc398ce32f0140fc29
 
 ## learning_objective
-Recognise the paper's own printed diagnosis for this CBC-and-history combination, while noting the tension between a stated low erythropoietin level, the clinical history, and the keyed answer.
+Recognise the scored diagnosis for this CBC-and-history combination, while noting the tension between a stated low erythropoietin level, the clinical history, and the scored answer.
 
 ## source_citation
 Alexandria University, AU-MED-103, "EOM - Blood Final Egyptian final.pdf", Q55 (p12), printed answer key p16 — key letter D ("secondary polycythaemia").
@@ -5324,7 +5324,7 @@ A
 Types of light and heavy chains
 
 ## explanation_a
-Correct per the printed key: chain type is the classification basis. In practice, it is specifically the heavy-chain type (mu, delta, gamma, alpha, epsilon) that defines the five classes — IgM, IgD, IgG, IgA, IgE — while the light chain (kappa or lambda) is shared across every class and never itself distinguishes them. The point worth holding onto is that only the heavy chain carries class-defining information; the light chain is common currency across all five classes.
+Chain type is the classification basis. In practice, it is specifically the heavy-chain type (mu, delta, gamma, alpha, epsilon) that defines the five classes — IgM, IgD, IgG, IgA, IgE — while the light chain (kappa or lambda) is shared across every class and never itself distinguishes them. The point worth holding onto is that only the heavy chain carries class-defining information; the light chain is common currency across all five classes.
 
 ## answer_b
 Type of light chains
@@ -5336,7 +5336,7 @@ Incorrect on its own. The light chain type (kappa/lambda) is shared across all f
 Type of heavy chains
 
 ## explanation_c
-This is the mechanistically precise answer (heavy chain alone is what defines class), but the paper's printed key selects the combined option a; recorded as keyed, with the distinction explained here for completeness.
+This is the mechanistically precise answer (heavy chain alone is what defines class), but the combined option (a) is the one marked correct for this item; the distinction is explained here for completeness.
 
 ## answer_d
 Molecular weight
@@ -5408,7 +5408,7 @@ ART-IMM-IMMUNOGLOBULIN-CLASSES
 src_c9c9ca53cfa1321d0508
 
 ## learning_objective
-State that immunoglobulin class is defined chiefly by heavy-chain type, while recognising the paper's own broader "light and heavy" phrasing.
+State that immunoglobulin class is defined chiefly by heavy-chain type, while recognising this item's broader "light and heavy" phrasing.
 
 ## source_citation
 Alexandria University, AU-MED-103, "EOM - Blood end wafdeen final.pdf", Q18 (p5), printed answer key p11.
