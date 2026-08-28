@@ -8,7 +8,7 @@ import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { defaultModuleId } from '@/data/universities'
 import {
-  LIBRARY_TREES_STATE_KEY, emptyLibraryTrees, treeScope,
+  LIBRARY_TREES_STATE_KEY, emptyLibraryTrees, treeScope, allArticleIds,
   type LibraryTreeKind, type LibraryTreeNode, type LibraryTreesDocument,
 } from '@/data/libraryTrees'
 
@@ -21,9 +21,15 @@ interface Choice { key: string; label: string }
  * the department calls it, at whatever depth they teach it. An article filed
  * here also still appears under Systems — a tree is an additional placement,
  * not a move, so an empty one hides nothing.
+ *
+ * A module (or year) that resolves to zero published articles is left off the
+ * list entirely — there is nothing a student could open there, and an empty
+ * branch just to say so reads as broken rather than unwritten. `articleIds`
+ * that no longer resolve to a published title (already dropped per-article
+ * further down, in `TreeBranch`) do not count towards "has something".
  */
-export function LibraryTreeBrowser({ kind, selectedArticleId, onArticleSelect, articleTitles }: {
-  kind: LibraryTreeKind
+export function LibraryTreeBrowser({ kind = 'module', selectedArticleId, onArticleSelect, articleTitles }: {
+  kind?: LibraryTreeKind
   selectedArticleId?: string
   onArticleSelect: (articleId: string) => void
   /** Published article titles by id, so an unpublished filing renders as nothing. */
@@ -35,6 +41,20 @@ export function LibraryTreeBrowser({ kind, selectedArticleId, onArticleSelect, a
   const [document] = usePersistentState<LibraryTreesDocument>(LIBRARY_TREES_STATE_KEY, emptyLibraryTrees)
   const [chosen, setChosen] = useState<string | null>(null)
 
+  /** Whether a scope's tree resolves to at least one article this student can read. */
+  const hasReadableContent = (key: string) => allArticleIds(document.trees[key] ?? []).some((id) => articleTitles.has(id))
+
+  /**
+   * The university/year this student is registered in, resolved once so the
+   * two failure modes below — "we don't know your cohort" and "your cohort
+   * has nothing published yet" — can be told apart and worded differently.
+   */
+  const scope = useMemo(() => {
+    const university = catalogue.find((item) => item.id === identity.audience.universityId)
+    const year = university?.years.find((item) => item.year === identity.audience.year || item.id === identity.audience.yearId)
+    return { university, year }
+  }, [catalogue, identity.audience])
+
   /**
    * What this student can open.
    *
@@ -43,26 +63,30 @@ export function LibraryTreeBrowser({ kind, selectedArticleId, onArticleSelect, a
    * cohort's material.
    */
   const choices = useMemo<Choice[]>(() => {
-    const out: Choice[] = []
-    const university = catalogue.find((item) => item.id === identity.audience.universityId)
-    const year = university?.years.find((item) => item.year === identity.audience.year || item.id === identity.audience.yearId)
-    if (!university || !year) return out
+    const { university, year } = scope
+    if (!university || !year) return []
     if (kind === 'year') {
-      out.push({ key: treeScope('year', year.id), label: `${university.short} · ${year.year}` })
-      return out
+      const key = treeScope('year', year.id)
+      return hasReadableContent(key) ? [{ key, label: `${university.short} · ${year.year}` }] : []
     }
+    const out: Choice[] = []
     year.courses.forEach((course, index) => {
       const moduleId = course.moduleId ?? defaultModuleId(course.name, index + 1)
-      out.push({ key: treeScope('module', moduleId), label: course.name })
+      const key = treeScope('module', moduleId)
+      if (hasReadableContent(key)) out.push({ key, label: course.name })
     })
     return out.sort((a, b) => a.label.localeCompare(b.label))
-  }, [catalogue, identity.audience, kind])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [scope, kind, document, articleTitles])
 
   const active = chosen && choices.some((choice) => choice.key === chosen) ? chosen : choices[0]?.key ?? null
   const nodes = active ? document.trees[active] ?? null : null
 
-  if (choices.length === 0) {
+  if (!scope.university || !scope.year) {
     return <p className="px-2 py-6 text-center text-[12px] leading-relaxed text-ink-3">{t('Choose your university and year in Account to see module and year library trees.')}</p>
+  }
+  if (choices.length === 0) {
+    return <p className="px-2 py-6 text-center text-[12px] leading-relaxed text-ink-3">{t('Nothing has been published for your modules yet. Check back soon.')}</p>
   }
 
   return (
