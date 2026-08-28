@@ -26,6 +26,7 @@ import {
   PenLine,
   Trash2,
   Columns2,
+  Sparkles,
 } from 'lucide-react'
 import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
 import type { AttemptRecord } from '@/data/attempts'
@@ -71,6 +72,7 @@ import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
 import { StudyRail } from '@/components/qbank/StudyRail'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 import { useImmersion } from '@/components/shell/ImmersionContext'
@@ -726,6 +728,7 @@ export function QuestionBank() {
   // the running phase, which the hook treats as just another (empty) key.
   const highlights = useQuestionHighlights(session[idx]?.id ?? '')
   const questionCardRef = useRef<HTMLDivElement>(null)
+  const [flashcardSeed, setFlashcardSeed] = useState<{ front: string; back: string } | null>(null)
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [struck, setStruck] = useState<Record<string, number[]>>({})
   const [checked, setChecked] = useState<Record<string, boolean>>({})
@@ -2181,6 +2184,18 @@ export function QuestionBank() {
               })}
             </div>
 
+            {revealed && (
+              <div className="mt-5 flex justify-end">
+                <button
+                  type="button"
+                  onClick={() => { const correct = q.options.find((option) => option.correct); setFlashcardSeed({ front: q.stem, back: correct ? correct.text : q.explanation }) }}
+                  className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-surface-2 hover:text-ink"
+                >
+                  <Icon icon={Sparkles} size={14} /> {t('Create flashcard')}
+                </button>
+              </div>
+            )}
+
             {/* The explicit `Explanation` text (see `hasSeparateExplanation`)
                 stays with the question in single column. In split view it
                 moves to the answer-area column below instead of appearing
@@ -2313,6 +2328,9 @@ export function QuestionBank() {
         />
       </div>
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
+      {flashcardSeed && (
+        <QuickAddFlashcardDialog initialFront={flashcardSeed.front} initialBack={flashcardSeed.back} onClose={() => setFlashcardSeed(null)} />
+      )}
       {endOpen && (
         <EndSessionDialog
           answered={session.filter((question) => answers[question.id] != null).length}

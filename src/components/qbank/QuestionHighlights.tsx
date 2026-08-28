@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode, type RefObject } from 'react'
-import { Highlighter } from 'lucide-react'
+import { Highlighter, Sparkles } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { Popover } from '@/components/ui/Popover'
+import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
@@ -162,6 +163,7 @@ export function HighlightSelectionPopover({
 }) {
   const t = useT()
   const [pending, setPending] = useState<PendingSelection | null>(null)
+  const [cardFront, setCardFront] = useState<string | null>(null)
   const anchor = useRectAnchor(pending?.anchorRect ?? null)
 
   useEffect(() => {
@@ -188,7 +190,13 @@ export function HighlightSelectionPopover({
     return () => document.removeEventListener('keydown', onKey)
   }, [])
 
-  if (!pending || !anchor) return null
+  // The dialog outlives the popover (which closes the moment an action is taken),
+  // so it renders independently of `pending`.
+  const cardDialog = cardFront !== null
+    ? <QuickAddFlashcardDialog initialFront={cardFront} onClose={() => setCardFront(null)} />
+    : null
+
+  if (!pending || !anchor) return cardDialog
 
   const commit = () => {
     highlights.create(pending.blockId, pending.text, pending.range)
@@ -196,17 +204,36 @@ export function HighlightSelectionPopover({
     window.getSelection()?.removeAllRanges()
   }
 
+  const makeCard = () => {
+    setCardFront(pending.text.slice(pending.range.start, pending.range.end))
+    setPending(null)
+    window.getSelection()?.removeAllRanges()
+  }
+
   return (
-    <Popover anchor={anchor} onClose={() => setPending(null)} placement="top-start" label={t('Highlight this passage')} className="p-1">
-      <button
-        type="button"
-        onClick={commit}
-        className="inline-flex h-7 items-center gap-1.5 rounded-md px-2 text-[12px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink"
-      >
-        <Icon icon={Highlighter} size={14} />
-        {t('Highlight')}
-      </button>
-    </Popover>
+    <>
+      <Popover anchor={anchor} onClose={() => setPending(null)} placement="top-start" label={t('Selection actions')} className="p-1">
+        <div className="flex items-center gap-0.5">
+          <button
+            type="button"
+            onClick={commit}
+            className="inline-flex h-7 items-center gap-1.5 rounded-md px-2 text-[12px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink"
+          >
+            <Icon icon={Highlighter} size={14} />
+            {t('Highlight')}
+          </button>
+          <button
+            type="button"
+            onClick={makeCard}
+            className="inline-flex h-7 items-center gap-1.5 rounded-md px-2 text-[12px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink"
+          >
+            <Icon icon={Sparkles} size={14} />
+            {t('Make card')}
+          </button>
+        </div>
+      </Popover>
+      {cardDialog}
+    </>
   )
 }
 
