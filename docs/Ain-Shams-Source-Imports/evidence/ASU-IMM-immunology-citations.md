@@ -2536,3 +2536,280 @@ The support span is the verbatim MCQ stem and options as printed in the departme
 no
 
 
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-MONOCYTE-MACROPHAGE-01
+
+## claim_id
+CLM-IMM-MONOCYTE-MACROPHAGE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+When monocytes migrate to tissue and leave blood, they are called
+a) CTLs
+b) Effector monocytes
+c) Natural killers
+d) Macrophages
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-NK-VIRAL-TUMOR-KILLING-01
+
+## claim_id
+CLM-IMM-NK-VIRAL-TUMOR-KILLING-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following innate immunity cells can play a role in extracellular killing of virally infected cells and tumor cells
+a) Eosinophils
+b) Cytotoxic T lymphocytes
+c) Macrophages
+d) Natural killers
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-LYMPHNODE-ACTIVATION-01
+
+## claim_id
+CLM-IMM-LYMPHNODE-ACTIVATION-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Where are lymphocytes activated by antigen?
+a. Blood stream
+b. Bone marrow
+c. Skin
+d. Lymph node
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-CD3-ABSENT-BCELL-01
+
+## claim_id
+CLM-IMM-CD3-ABSENT-BCELL-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which one of the following is NOT present on B lymphocytes?
+a. MHC class II
+b. Cytokine receptors
+c. Surface IgM
+d. MHC class I
+e. CD3
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IGA-RESPIRATORY-PROTECTION-01
+
+## claim_id
+CLM-IMM-IGA-RESPIRATORY-PROTECTION-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is immunoglobulins can protect Respiratory mucosa from viral infections
+a) IgA
+b) IgG
+c) IgD
+d) IgM
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-TH17-EXTRACELLULAR-BACTERIA-01
+
+## claim_id
+CLM-IMM-TH17-EXTRACELLULAR-BACTERIA-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Extracellular bacteria can be effectively cleared through which of the following?
+a. Apoptosis induced by cytotoxic T cells
+b. Histamine released by mast cells
+c. Secretion of interferon alpha
+d. Strong TH17 responses
+e. Natural killer cells
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-TCR-ALPHABETA-STRUCTURE-01
+
+## claim_id
+CLM-IMM-TCR-ALPHABETA-STRUCTURE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+The basic structure of a T cell receptor consists of:
+a. a complex of disulfide-linked heavy and light chains.
+b. covalently linked CD3 and CD20 molecules
+c. peptide-MHC complexes
+d. soluble antigen-binding homodimers
+e. a membrane-bound alpha-beta heterodimer.
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+

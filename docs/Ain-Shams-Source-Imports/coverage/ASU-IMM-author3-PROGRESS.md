@@ -121,8 +121,31 @@ rows — this is a pre-existing tool limitation in how citations resolve
 gate for the evidence chain is `medical:simulate`, which resolves it
 correctly and passed 0 errors.
 
+## Commit 3 — Ashraf Pt2 Exam II, all 15 Qs. DONE.
+
+7 new concepts (monocyte→macrophage, NK-cell viral/tumor killing, lymph-node
+activation site, CD3-absent-on-B-cells, IgA respiratory-mucosal protection,
+Th17-neutrophil extracellular-bacteria clearance, TCR alpha-beta-heterodimer
+structure) — the other 8 of 15 questions reuse concepts already minted
+across Block A and this branch's own Humoral/Exam-I commits.
+`QST-ASU-IMM-084`..`098`.
+
+One more `library_ids` coverage fix after first `medical:batch` pass:
+superantigen's real teaching article is `ART-ASU-IMM-ANTIGENS-AND-MHC`, not
+`ART-ASU-IMM-T-CELL-BIOLOGY` (guessed wrong again — always grep the
+concept's own `## article_ids` line before setting a question's
+`library_ids`, do not infer from topic).
+
+Validation: `medical:batch` questions `--with` concepts+article+resources+
+sources: 0 errors, fieldsUsed 49. `medical:simulate` (positional, all 8
+files): concepts `created:72, updated:3`, claims/citations `created:72`
+each, spans unchanged at 6, questions `created:98`. **0 errors, 0
+rejected, 0 skipped.** `medical:audit`: **0 errors.** `medical:concept-ids`:
+exit 0, no rival ids. `medical:duplicate-keys`: 0 canonical-key collisions.
+`medical:validate:authoring`: 0 errors.
+
 ## Remaining OWED (next sitting)
-- Ashraf Pt2 — Exam II (15 Qs), Extra (15 Qs) = 30 Qs left. Full
+- Ashraf Pt2 — Extra (15 Qs) = 15 Qs left. Full
   stems/options/keys for both sections are already transcribed and verified
   (220dpi direct image reads) in this branch's authoring session; most
   reuse concepts already minted across the Humoral/Exam-I commits (per the

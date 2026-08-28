@@ -2813,3 +2813,312 @@ no
 source_scope: ASU Year 1 Immunology, Term 1
 
 
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-MONOCYTE-MACROPHAGE-01
+
+## concept_id
+CON-IMM-307D3B62FFA965
+
+## subject
+A migrated monocyte in tissue is called a macrophage
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamII Q1
+
+## display_text
+When a monocyte migrates from blood into tissue, it differentiates into a macrophage.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-NK-VIRAL-TUMOR-KILLING-01
+
+## concept_id
+CON-IMM-54F0D8B6C8EA26
+
+## subject
+NK cells kill virally infected and tumour cells extracellularly
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamII Q2
+
+## display_text
+Natural killer cells are the innate immunity cells that play a role in extracellular killing of virally infected cells and tumour cells.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-LYMPHNODE-ACTIVATION-01
+
+## concept_id
+CON-IMM-E2CEDFE8C50B77
+
+## subject
+Lymphocytes are activated by antigen in the lymph node
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamII Q6
+
+## display_text
+The lymph node, not the bloodstream, bone marrow or skin, is where lymphocytes are activated by antigen.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-CD3-ABSENT-BCELL-01
+
+## concept_id
+CON-IMM-9F8100C7FD8382
+
+## subject
+CD3 is absent from B lymphocytes
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamII Q11
+
+## display_text
+CD3, a pan-T-cell marker, is the one molecule NOT present on B lymphocytes among MHC-I, MHC-II, cytokine receptors and surface IgM.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IGA-RESPIRATORY-PROTECTION-01
+
+## concept_id
+CON-IMM-8E7E4D31D29855
+
+## subject
+IgA protects respiratory mucosa from viral infections
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamII Q12
+
+## display_text
+Of the isotypes, IgA is the one that protects the respiratory mucosa from viral infections.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-TH17-EXTRACELLULAR-BACTERIA-01
+
+## concept_id
+CON-IMM-5B51FDD77FE43F
+
+## subject
+Strong Th17 responses clear extracellular bacteria
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamII Q13
+
+## display_text
+Extracellular bacteria can be effectively cleared through strong Th17 responses, which recruit and activate neutrophils.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-TCR-ALPHABETA-STRUCTURE-01
+
+## concept_id
+CON-IMM-D19F42BA79849C
+
+## subject
+The T-cell receptor is a membrane-bound alpha-beta heterodimer
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 ExamII Q15
+
+## display_text
+The basic structure of the T-cell receptor is a membrane-bound alpha-beta heterodimer.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+

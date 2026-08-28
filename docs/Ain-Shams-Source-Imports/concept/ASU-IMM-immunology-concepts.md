@@ -12194,3 +12194,1307 @@ ASU_Y1=0.3
 
 ## field_notes
 sparseUpdate: ASU overlay only, added because Ashraf Pt2 Exam I Q3 ("phagocytosis can be stimulated by Ag coated by Complement or Antibody") tests this exact fact. find-existing.mjs "opsonization" returned this live id (and a sibling CON-IMM-6925E1394097CF specific to antiviral opsonization) as the closest same-grain match — same objective as our tested fact (opsonin-coated antigen triggers phagocytosis), so this is a sparse overlay, never a second record. All other fields left untouched.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-307D3B62FFA965
+
+## label
+A monocyte that migrates into tissue and leaves the blood is called a macrophage
+
+## canonical_key
+monocyte.differentiation.tissue-macrophage
+
+## aliases
+Monocyte to macrophage differentiation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+When a monocyte migrates from the blood into tissue, it differentiates into a macrophage — not a cytotoxic T lymphocyte (CTL), an "effector monocyte", or a natural killer cell, all of which are distinct cell types or a non-standard label for the same transition.
+
+## explicit_objective
+State that a monocyte that has left the blood and entered tissue is called a macrophage.
+
+## pitfalls
+Calling the tissue form of a migrated monocyte an "effector monocyte"; the standard, exam-tested term for this differentiated cell is macrophage.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-MONOCYTE-MACROPHAGE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+When monocytes migrate to tissue and leave blood, they are called
+a) CTLs
+b) Effector monocytes
+c) Natural killers
+d) Macrophages
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamII Q1
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "monocyte" surfaced a broader Kasr histology concept (101-ISK, monocyte structure/EM/LM appearance and its role as precursor of dust cells/Kupffer cells/osteoclasts/microglia) — a much wider structural concept than this narrow terminology fact (migrated monocyte = macrophage), so kept as a distinct, narrower ASU-IMM concept rather than merged.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-54F0D8B6C8EA26
+
+## label
+Natural killer cells play a role in extracellular killing of virally infected cells and tumor cells
+
+## canonical_key
+nkcell.function.viral-tumor-extracellular-killing
+
+## aliases
+NK cell antiviral and antitumor killing
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Among the innate immunity cell types, natural killer (NK) cells are the ones that play a role in extracellular killing of virally infected cells and tumour cells — a function not shared by eosinophils, cytotoxic T lymphocytes (an adaptive, not innate, cell) or macrophages in this course's framing of the question.
+
+## explicit_objective
+Identify natural killer cells as the innate immunity cells that kill virally infected and tumour cells.
+
+## pitfalls
+Selecting cytotoxic T lymphocytes as the "innate immunity" cell with this killing role; CTLs perform a related killing function but are adaptive, not innate, lymphocytes.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-NK-VIRAL-TUMOR-KILLING-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the following innate immunity cells can play a role in extracellular killing of virally infected cells and tumor cells
+a) Eosinophils
+b) Cytotoxic T lymphocytes
+c) Macrophages
+d) Natural killers
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamII Q2
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "natural killer" returned a live concept about lymphocyte classification generally (T/B/NK as the three functional classes) — a different, broader objective from this specific viral/tumour extracellular-killing function, so kept separate.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-E2CEDFE8C50B77
+
+## label
+Lymphocytes are activated by antigen in the lymph node
+
+## canonical_key
+lymphocyte.activation.lymphnode-site
+
+## aliases
+Site of lymphocyte activation
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Lymphocytes are activated by antigen in the lymph node, the secondary lymphoid organ where naive lymphocytes, antigen and antigen-presenting cells converge — not in the bloodstream, the bone marrow (a primary lymphoid organ for lymphocyte development, not activation), or the skin.
+
+## explicit_objective
+State that the lymph node, not the bloodstream, bone marrow or skin, is where lymphocytes are activated by antigen.
+
+## pitfalls
+Confusing a primary lymphoid organ (bone marrow, where lymphocytes develop) with a secondary lymphoid organ (lymph node, where mature naive lymphocytes actually encounter antigen and become activated).
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-LYMPHNODE-ACTIVATION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Where are lymphocytes activated by antigen?
+a. Blood stream
+b. Bone marrow
+c. Skin
+d. Lymph node
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamII Q6
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "lymphocyte activation site" and "lymph node" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-9F8100C7FD8382
+
+## label
+CD3 is not present on B lymphocytes
+
+## canonical_key
+bcell.markers.cd3-absent
+
+## aliases
+B lymphocyte surface markers
+CD3 absent from B cells
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Of the molecules considered, CD3 is the one NOT present on B lymphocytes: CD3 is a pan-T-cell marker (part of the T-cell receptor complex), whereas MHC class I and class II, cytokine receptors and surface IgM are all genuinely expressed on B cells.
+
+## explicit_objective
+Identify CD3 as the marker absent from B lymphocytes, being instead a defining T-cell surface molecule.
+
+## pitfalls
+Assuming MHC class I, MHC class II, cytokine receptors or surface IgM are absent from B cells; all four of those are genuinely present on B lymphocytes, unlike CD3.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-CD3-ABSENT-BCELL-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which one of the following is NOT present on B lymphocytes?
+a. MHC class II
+b. Cytokine receptors
+c. Surface IgM
+d. MHC class I
+e. CD3
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamII Q11
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "CD3" and "B lymphocyte markers" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-8E7E4D31D29855
+
+## label
+IgA protects the respiratory mucosa from viral infections
+
+## canonical_key
+iga.function.mucosal-respiratory-protection
+
+## aliases
+Secretory IgA respiratory protection
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Of the immunoglobulin isotypes, IgA is the one that can protect the respiratory mucosa from viral infections, reflecting secretory IgA's role coating mucosal surfaces and neutralising pathogens before they invade epithelium.
+
+## explicit_objective
+State that IgA protects respiratory mucosa from viral infections.
+
+## pitfalls
+Attributing respiratory mucosal protection to IgG, IgD or IgM; secretory IgA is the isotype specialised for mucosal surface defence, including the respiratory tract.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## related_article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-IGA-RESPIRATORY-PROTECTION-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Which of the following is immunoglobulins can protect Respiratory mucosa from viral infections
+a) IgA
+b) IgG
+c) IgD
+d) IgM
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamII Q12
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "IgA respiratory" and "mucosal protection" returned no same-grain live/pending concept; related but distinct from this session's antibody.neonatalpassive.igg-transplacental-iga-milk (breast-milk IgA) and hybrid colostrum concept, which cover a different route/timepoint of IgA action.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-5B51FDD77FE43F
+
+## label
+Strong TH17 responses effectively clear extracellular bacteria
+
+## canonical_key
+immunity.extracellularbacteria.th17-neutrophil-clearance
+
+## aliases
+Th17-mediated extracellular bacteria clearance
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+Extracellular bacteria can be effectively cleared through strong TH17 responses, which recruit and activate neutrophils — a distinct mechanism from cytotoxic-T-cell-induced apoptosis, mast-cell histamine or interferon-alpha secretion, none of which is the primary route for extracellular bacterial clearance in this framing.
+
+## explicit_objective
+State that strong Th17 responses (via neutrophil recruitment) are an effective mechanism for clearing extracellular bacteria.
+
+## pitfalls
+Choosing cytotoxic-T-cell-mediated apoptosis or mast-cell histamine as the mechanism for extracellular bacterial clearance; those are better suited to intracellular/viral targets or acute allergic mediator release, not the Th17-neutrophil axis this question tests.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_article_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-TH17-EXTRACELLULAR-BACTERIA-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+Extracellular bacteria can be effectively cleared through which of the following?
+a. Apoptosis induced by cytotoxic T cells
+b. Histamine released by mast cells
+c. Secretion of interferon alpha
+d. Strong TH17 responses
+e. Natural killer cells
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamII Q13
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "Th17" returned no same-grain live/pending concept; kept distinct from immunity.extracellularbacteria.opsonization-complement-defense (Extra Q9, next commit), which tests the antibody/complement route to the same broad clearance goal rather than the Th17/neutrophil route — the source bank tests both as separate best-answer facts.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+
+# Item
+
+## id
+CON-IMM-D19F42BA79849C
+
+## label
+The T-cell receptor is a membrane-bound alpha-beta heterodimer
+
+## canonical_key
+tcellreceptor.structure.alphabeta-heterodimer
+
+## aliases
+TCR basic structure
+Alpha-beta TCR
+
+## arabic_label
+
+
+## arabic_aliases
+[clear]
+
+## definition
+The basic structure of a T-cell receptor consists of a membrane-bound alpha-beta heterodimer — not a complex of disulfide-linked heavy and light chains (an immunoglobulin/antibody structure), covalently linked CD3 and CD20 molecules, peptide-MHC complexes (what the TCR recognises, not what it is made of), or soluble antigen-binding homodimers.
+
+## explicit_objective
+State that the T-cell receptor's basic structure is a membrane-bound alpha-beta heterodimer.
+
+## pitfalls
+Confusing the TCR's own structure with an antibody's heavy/light chain structure, or with the peptide-MHC complex it recognises; the TCR itself is a membrane-bound alpha-beta heterodimer, non-covalently associated with the CD3 signalling complex (not "covalently linked CD3 and CD20").
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+imm
+
+## primary_node_id
+DIS-IMU-T02
+
+## secondary_node_ids
+SYS-IMM
+DIS-IMU
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+ASU-IMM
+
+## article_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## related_article_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## related_concept_ids
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+asu
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.4
+
+## confidence
+0.82
+
+## atomic_claim_ids
+CLM-IMM-TCR-ALPHABETA-STRUCTURE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+The basic structure of a T cell receptor consists of:
+a. a complex of disulfide-linked heavy and light chains.
+b. covalently linked CD3 and CD20 molecules
+c. peptide-MHC complexes
+d. soluble antigen-binding homodimers
+e. a membrane-bound alpha-beta heterodimer.
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_signal
+src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamII Q15
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+
+
+## evidence_gaps
+Independent standard-textbook cross-check not yet attached; current support is the ASU lecture/tutorial corpus and the department MCQ bank only.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_from_mcq_bank_needs_independent_evidence
+
+## exclusion_reason
+
+
+## field_notes
+rejectedMergeCandidateIds: find-existing.mjs "T cell receptor structure" returned no same-grain live/pending concept.
+arabicLabel: Arabic terminology has not been reviewed; left empty rather than guessed.
+arabicAliases: No reviewed Arabic aliases were supplied.
+subtopicId: No verified subtopic ID was supplied.
+microtopicId: No verified microtopic ID was supplied.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU MCQ-triage concept.
+sourceCandidateIds: Deferred because this ASU batch has no colocated concept-candidate index.
+mergeIds: No merge has been performed.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set after the first review is completed.
+exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
+uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
+
+
+---
+

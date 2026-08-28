@@ -12111,3 +12111,2215 @@ yes
 ## author_notes
 
 
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-084
+
+## title
+When monocytes migrate to tissue and leave blood, they are called:
+
+## question
+When monocytes migrate to tissue and leave blood, they are called:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+CTLs
+
+## explanation_a
+Incorrect. CTLs (cytotoxic T lymphocytes) are an adaptive lymphocyte lineage, not a differentiated form of a migrated monocyte.
+
+## answer_b
+Effector monocytes
+
+## explanation_b
+Incorrect. "Effector monocyte" is not the standard term for this transition; the exam-tested term is macrophage.
+
+## answer_c
+Natural killers
+
+## explanation_c
+Incorrect. Natural killer cells are a distinct innate lymphocyte lineage, not a monocyte-derived cell.
+
+## answer_d
+Macrophages
+
+## explanation_d
+Correct. A monocyte that migrates from blood into tissue differentiates into a macrophage — the standard name for this tissue-resident, phagocytic, antigen-presenting cell.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-307D3B62FFA965
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that a monocyte that migrates into tissue is called a macrophage.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q1.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-085
+
+## title
+Which of the following innate immunity cells can play a role in extracellular killing of virally infected cells and tumor cells?
+
+## question
+Which of the following innate immunity cells can play a role in extracellular killing of virally infected cells and tumor cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Eosinophils
+
+## explanation_a
+Incorrect. Eosinophils are specialised for parasite defence and allergic reactions, not the innate cell credited with extracellular killing of virally infected and tumour cells.
+
+## answer_b
+Cytotoxic T lymphocytes
+
+## explanation_b
+Incorrect. Cytotoxic T lymphocytes perform a related killing function, but they are adaptive, not innate, lymphocytes, so they do not fit the "innate immunity cell" framing of this question.
+
+## answer_c
+Macrophages
+
+## explanation_c
+Incorrect. Macrophages are phagocytic and antigen-presenting, not the cell type specifically credited with this extracellular killing role.
+
+## answer_d
+Natural killers
+
+## explanation_d
+Correct. Natural killer cells are the innate immunity cells that play a role in extracellular killing of virally infected cells and tumour cells, using mechanisms such as perforin/granzyme release without prior antigen-specific sensitisation.
+
+## topic
+Innate immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-54F0D8B6C8EA26
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify natural killer cells as the innate cells that kill virally infected and tumour cells extracellularly.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-086
+
+## title
+The idiotype of an antigen is determined by:
+
+## question
+The idiotype of an antigen is determined by:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Variable region of light chain
+
+## explanation_a
+Incorrect. The light-chain variable region alone is only half of what determines the idiotype.
+
+## answer_b
+Variable region of heavy chain
+
+## explanation_b
+Incorrect. The heavy-chain variable region alone is only half of what determines the idiotype.
+
+## answer_c
+Variable region of both heavy and light chain
+
+## explanation_c
+Correct. The idiotype of an antibody is determined jointly by the variable region of both the heavy and light chains together.
+
+## answer_d
+Constant region of light chain
+
+## explanation_d
+Incorrect. A constant region does not determine the idiotype; constant regions mediate effector function and are shared across many antibodies of a given isotype.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-D1DF4147B03986
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that the idiotype is determined by the variable region of both the heavy and light chains together.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-087
+
+## title
+Neutrophils recognize their target using:
+
+## question
+Neutrophils recognize their target using:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Pattern recognition receptor
+
+## explanation_a
+Correct. Neutrophils, like other innate immune cells, recognise invading microbes using germline-encoded pattern-recognition receptors (PRRs) that bind pathogen-associated molecular patterns shared by whole classes of microbes.
+
+## answer_b
+C5a receptor
+
+## explanation_b
+Incorrect. The C5a receptor helps direct neutrophil chemotaxis toward a complement gradient; it is not the primary target-recognition receptor described here.
+
+## answer_c
+Fc receptor
+
+## explanation_c
+Incorrect. The Fc receptor recognises antibody-coated (opsonised) targets, a complementary but distinct recognition route from the innate pattern-recognition mechanism this question asks about.
+
+## answer_d
+Specific pathogen receptor
+
+## explanation_d
+Incorrect. Neutrophils do not use a highly specific, single-pathogen receptor; their PRRs are broadly reactive across whole classes of microbes, unlike the clonally distributed receptors of adaptive lymphocytes.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-A89092F59B7397
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INNATE-BASICS
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that neutrophils recognise targets via pattern-recognition receptors.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-088
+
+## title
+Regarding haptens, which one of the following is the MOST accurate?
+
+## question
+Regarding haptens, which one of the following is the MOST accurate?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+A hapten can bind to the antigen receptor of CD4-positive T cells without being processed by macrophages.
+
+## explanation_a
+Incorrect. CD4+ T cells recognise processed peptide in an MHC-II groove; a hapten alone binding directly and unprocessed does not describe how hapten immunogenicity actually works.
+
+## answer_b
+A hapten is defined by its ability to bind to the smaller of the two polypeptides that comprise the MHC-I.
+
+## explanation_b
+Incorrect. A hapten's definition has nothing to do with binding the beta2-microglobulin-sized polypeptide of MHC-I; that is a distractor mixing unrelated immunology facts.
+
+## answer_c
+A hapten is a high molecular weight substance that is not immunogenic by itself.
+
+## explanation_c
+Incorrect. A hapten is a small, low molecular weight chemical group, not a high molecular weight substance — this option inverts the defining size property.
+
+## answer_d
+A hapten cannot induce antibody by itself but when covalently bound to a carrier protein can do so.
+
+## explanation_d
+Correct. A hapten cannot by itself induce an antibody response because it is not immunogenic alone; once covalently coupled to a larger carrier protein, the hapten-carrier conjugate can induce antibodies specific for the hapten.
+
+## answer_e
+A hapten is the antigen-binding site in the hypervariable region of IgG.
+
+## explanation_e
+Incorrect. The hypervariable region antigen-binding site described here is the paratope, a feature of the antibody, not a definition of a hapten (which is a property of the antigen side).
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-823F05209D7145
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State the accurate definition of a hapten: not immunogenic alone, but able to induce antibody once conjugated to a carrier.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-089
+
+## title
+Where are lymphocytes activated by antigen?
+
+## question
+Where are lymphocytes activated by antigen?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Blood stream
+
+## explanation_a
+Incorrect. The bloodstream is a transit route for lymphocytes, not the site where antigen-driven activation occurs.
+
+## answer_b
+Bone marrow
+
+## explanation_b
+Incorrect. The bone marrow is a primary lymphoid organ for lymphocyte development (and B-cell maturation), not the site of antigen-driven activation.
+
+## answer_c
+Skin
+
+## explanation_c
+Incorrect. The skin is a barrier tissue, not a lymphoid organ specialised for lymphocyte activation.
+
+## answer_d
+Lymph node
+
+## explanation_d
+Correct. The lymph node, a secondary lymphoid organ, is where naive lymphocytes, antigen and antigen-presenting cells converge and antigen-driven activation occurs.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-E2CEDFE8C50B77
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that the lymph node is where lymphocytes are activated by antigen.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-090
+
+## title
+Which of the following is CORRECT regarding MHC-I?
+
+## question
+Which of the following is CORRECT regarding MHC-I?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+It generates peptides, complexes them for presentation to helper T cells
+
+## explanation_a
+Incorrect. MHC-I presents to CD8+ cytotoxic T cells, not to CD4+ helper T cells; helper T cells are MHC-II restricted.
+
+## answer_b
+It presents antigens from the extracellular environment
+
+## explanation_b
+Incorrect. Presenting antigen from the extracellular environment is the MHC-II pathway (processed by professional antigen-presenting cells), not MHC-I.
+
+## answer_c
+It generates peptides, complexes them for presentation to NK cells
+
+## explanation_c
+Incorrect. MHC-I presents to CD8+ T cells via their T-cell receptor, not to NK cells, which recognise MHC-I differently (as an inhibitory "self" signal, not a presented-peptide complex).
+
+## answer_d
+It presents antigens that are present in the cytosol
+
+## explanation_d
+Correct. MHC-I molecules are primarily involved in presenting peptides generated in the cytosol, underlying their central role in resistance to viral infection by displaying viral peptide to CD8+ cytotoxic T cells.
+
+## answer_e
+It activates T lymphocytes by binding to the CD3 molecule
+
+## explanation_e
+Incorrect. MHC-I does not itself bind CD3; CD3 is part of the T-cell receptor complex on the T cell, and MHC-I is recognised by the TCR together with the CD8 co-receptor.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-D981D07A61E9FE
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that MHC-I presents peptide generated in the cytosol, correcting the swapped MHC-I/MHC-II and CD3 distractors.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-091
+
+## title
+Which of the following is TRUE about superantigens?
+
+## question
+Which of the following is TRUE about superantigens?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+They can activate all B lymphocytes by binding to IgM
+
+## explanation_a
+Incorrect. Superantigens act on T cells via TCR-MHC cross-linking, not by binding B-cell IgM.
+
+## answer_b
+They are high molecular weight antigens that can trigger T cell proliferation in the absence of antigen presenting cells
+
+## explanation_b
+Incorrect. Superantigens still require an antigen-presenting cell displaying MHC class II; they are not described as acting entirely independently of APCs.
+
+## answer_c
+They can only trigger CD8+ T cells
+
+## explanation_c
+Incorrect. Superantigens are not restricted to CD8+ T cells; they activate a large, non-specific fraction of the T-cell repertoire, including CD4+ cells, by binding outside the conventional peptide groove.
+
+## answer_d
+They activate large numbers of T cells by directly binding to the TCR-beta chain and MHC-II
+
+## explanation_d
+Correct. Superantigens activate large numbers of T cells by directly cross-linking the variable-beta domain of the T-cell receptor to an MHC class II molecule outside the normal peptide-binding groove, bypassing conventional antigen specificity.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-521ADF1111D704
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that superantigens activate large numbers of T cells by cross-linking TCR-beta to MHC-II.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-092
+
+## title
+Which cells are activated with T-independent antigens?
+
+## question
+Which cells are activated with T-independent antigens?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+TH-1 and TH-2 cells
+
+## explanation_a
+Incorrect. T-independent antigens, by definition, do not require T-helper cell involvement at all, so neither Th1 nor Th2 activation is part of this pathway.
+
+## answer_b
+Th-1 only
+
+## explanation_b
+Incorrect. Th1 cells are not activated by T-independent antigens; that pathway bypasses T-cell help entirely.
+
+## answer_c
+B cells only
+
+## explanation_c
+Correct. T-independent antigens (typically repetitive polysaccharide epitopes) activate B cells only, cross-linking the B-cell receptor directly and triggering antibody secretion without cognate T-helper interaction.
+
+## answer_d
+B cells, and Th2 cells
+
+## explanation_d
+Incorrect. Including Th2 cells contradicts the defining feature of a T-independent response, which specifically does not need T-helper cell participation.
+
+## answer_e
+Th2 but not Th1
+
+## explanation_e
+Incorrect. Neither Th2 nor Th1 activation is part of a T-independent response.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-7C76D5D920C47C
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that T-independent antigens activate B cells only, without T-helper cell involvement.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-093
+
+## title
+Which of the following is TRUE regarding the Fab portion of immunoglobulin?
+
+## question
+Which of the following is TRUE regarding the Fab portion of immunoglobulin?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Contains the idiotype of the Ig
+
+## explanation_a
+Correct. The Fab arm, built from the variable regions of the heavy and light chains, is the part of the antibody that carries the idiotype and makes contact with antigen.
+
+## answer_b
+Not important to binding of antigen.
+
+## explanation_b
+Incorrect. The Fab arm is precisely the part of the antibody that IS important for antigen binding — it is the antigen-binding fragment by definition.
+
+## answer_c
+Contains the J chain
+
+## explanation_c
+Incorrect. The J chain is associated with polymeric immunoglobulins (IgM, secretory IgA), not specifically a component of the Fab fragment.
+
+## answer_d
+Mediates biological effector functions of Ab molecules (e.g. complement fixation).
+
+## explanation_d
+Incorrect. Biological effector functions such as complement fixation are mediated by the Fc region, not the Fab arm.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-2AFB94649004DE
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that the Fab arm carries the antibody's idiotype, not its effector function.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-094
+
+## title
+Which one of the following is NOT present on B lymphocytes?
+
+## question
+Which one of the following is NOT present on B lymphocytes?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+E
+
+## answer_a
+MHC class II
+
+## explanation_a
+Incorrect. B lymphocytes, as professional antigen-presenting cells, do express MHC class II.
+
+## answer_b
+Cytokine receptors
+
+## explanation_b
+Incorrect. B cells express cytokine receptors that respond to T-helper-derived signals.
+
+## answer_c
+Surface IgM
+
+## explanation_c
+Incorrect. Surface IgM is part of the B-cell receptor itself and is genuinely present on B cells.
+
+## answer_d
+MHC class I
+
+## explanation_d
+Incorrect. MHC class I is expressed on essentially all nucleated cells, including B lymphocytes.
+
+## answer_e
+CD3
+
+## explanation_e
+Correct. CD3 is a pan-T-cell marker, part of the T-cell receptor signalling complex; it is not present on B lymphocytes.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-9F8100C7FD8382
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify CD3 as the marker absent from B lymphocytes.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-095
+
+## title
+Which of the following immunoglobulins can protect respiratory mucosa from viral infections?
+
+## question
+Which of the following immunoglobulins can protect respiratory mucosa from viral infections?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+IgA
+
+## explanation_a
+Correct. IgA, transported across mucosal epithelium as secretory IgA, is the isotype that protects the respiratory mucosa from viral infections.
+
+## answer_b
+IgG
+
+## explanation_b
+Incorrect. IgG's main roles are systemic (serum-dominant, placental transfer, complement fixation, opsonisation), not specifically respiratory mucosal defence.
+
+## answer_c
+IgD
+
+## explanation_c
+Incorrect. IgD's principal role is as a naive B-cell surface receptor, not mucosal protection.
+
+## answer_d
+IgM
+
+## explanation_d
+Incorrect. IgM's principal role in this course is complement activation and being the first antibody secreted, not respiratory mucosal defence.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-8E7E4D31D29855
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IgA protects the respiratory mucosa from viral infections.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-096
+
+## title
+Extracellular bacteria can be effectively cleared through which of the following?
+
+## question
+Extracellular bacteria can be effectively cleared through which of the following?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Apoptosis induced by cytotoxic T cells
+
+## explanation_a
+Incorrect. Cytotoxic-T-cell-induced apoptosis targets infected host cells (typically for intracellular pathogens/viruses), not free extracellular bacteria directly.
+
+## answer_b
+Histamine released by mast cells
+
+## explanation_b
+Incorrect. Mast-cell histamine drives acute allergic/vascular responses, not the mechanism for clearing extracellular bacteria.
+
+## answer_c
+Secretion of interferon alpha
+
+## explanation_c
+Incorrect. Interferon-alpha's dominant role is antiviral defence, not extracellular bacterial clearance.
+
+## answer_d
+Strong TH17 responses
+
+## explanation_d
+Correct. Strong Th17 responses effectively clear extracellular bacteria by recruiting and activating neutrophils, the phagocytes best suited to this task.
+
+## answer_e
+Natural killer cells
+
+## explanation_e
+Incorrect. Natural killer cells target virally infected and tumour cells, not free extracellular bacteria.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-5B51FDD77FE43F
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that strong Th17 responses effectively clear extracellular bacteria via neutrophil recruitment.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-097
+
+## title
+Helper T cells are distinguished from cytotoxic T cells by the presence of...
+
+## question
+Helper T cells are distinguished from cytotoxic T cells by the presence of...
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+CD4
+
+## explanation_a
+Correct. Helper T cells are distinguished from cytotoxic ("killer") T cells by surface expression of CD4 (rather than CD8), which also serves as their MHC-class-II co-receptor.
+
+## answer_b
+IL-2 receptor
+
+## explanation_b
+Incorrect. Both helper and cytotoxic T cells can express the IL-2 receptor once activated; it is not the marker that distinguishes the two subsets.
+
+## answer_c
+CD2
+
+## explanation_c
+Incorrect. CD2 is a broadly expressed T-cell adhesion molecule, not the distinguishing marker between helper and cytotoxic T cells.
+
+## answer_d
+CD3
+
+## explanation_d
+Incorrect. CD3 is expressed on all T cells (part of the TCR complex), so it does not distinguish helper from cytotoxic T cells.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-19D6B87A141F6D
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that CD4 distinguishes helper T cells from cytotoxic T cells.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-098
+
+## title
+The basic structure of a T-cell receptor consists of:
+
+## question
+The basic structure of a T-cell receptor consists of:
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+E
+
+## answer_a
+A complex of disulfide-linked heavy and light chains.
+
+## explanation_a
+Incorrect. Disulfide-linked heavy and light chains describe an antibody (immunoglobulin) structure, not the T-cell receptor.
+
+## answer_b
+Covalently linked CD3 and CD20 molecules
+
+## explanation_b
+Incorrect. CD3 is non-covalently associated with the TCR as a signalling complex, and CD20 is a B-cell marker unrelated to the TCR entirely.
+
+## answer_c
+Peptide-MHC complexes
+
+## explanation_c
+Incorrect. Peptide-MHC complexes are what the TCR recognises, not what the TCR itself is made of.
+
+## answer_d
+Soluble antigen-binding homodimers
+
+## explanation_d
+Incorrect. The TCR is membrane-bound, not a soluble homodimer, and it is a heterodimer (two different chains), not a homodimer.
+
+## answer_e
+A membrane-bound alpha-beta heterodimer.
+
+## explanation_e
+Correct. The basic structure of a T-cell receptor is a membrane-bound alpha-beta heterodimer, non-covalently associated with the CD3 signalling complex.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-D19F42BA79849C
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that the TCR's basic structure is a membrane-bound alpha-beta heterodimer.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section III (Assessment Exam II), Q15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
