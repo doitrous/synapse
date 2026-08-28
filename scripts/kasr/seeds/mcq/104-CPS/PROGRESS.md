@@ -1,5 +1,153 @@
 # 104 CPS MCQ authoring — progress
 
+## run31 (off run30 @ b5fc83c3) — Lungs anatomy CLOSED (2/2), Spleen CLOSED
+(26/28: 21 kept, 5 excluded, 2 escalated)
+
+Two commits, each ran the full build+batch+simulate+audit+duplicate-keys
+gate before committing. Branch `kasr-104-author-run31`, pushed to origin.
+
+**Lungs anatomy (both down-payment rows run30 flagged)**:
+- New `anatomy-lungs-surface-features.ts` (articleId
+  ART-104-ANA-LUNG-SURFACE-FEATURES): sparse reuse of
+  `lung.mediastinal-surface-impressions` (CON-RES-DC1111DA6DD151, pinned
+  in 104-CPS-anatomy-concepts.md) — 1 kept: left lung's mediastinal
+  impression is the descending thoracic aorta (behind the hilum), not
+  SVC/IVC (right-lung impressions).
+- New `anatomy-azygos-vein-relations.ts` (articleId
+  ART-104-ANA-THORACIC-WALL-VEINS): fresh mint
+  `azygos-vein.arch-and-relation-to-right-lung-root` after find-existing
+  returned "safe to create" for 4 different search terms — 1 kept: the
+  azygos vein runs directly behind the root of the right lung before its
+  arch turns forward above that same root.
+- Gate: 466 kept (+2), 84 excluded (unchanged), 104 MCQ concepts (+2: 1
+  sparse-reuse first-appearance + 1 fresh mint). 0 ids lost. medical:batch
+  4 pre-existing errors only. medical:simulate errors: [].
+
+**Spleen (26 bank-tagged rows + 2 deferred from Arteries by run27 —
+choose-the-correct-statement-concerning-the-malpighian-corpuscle,
+penicillar-arteriole-is-3-parts — = 28 effectively)**:
+
+New `lymphatic-spleen-histology.ts` (articleId ART-104-HIS-LYMPHOID-ORGANS,
+the same comprehensive lymph-node/spleen/tonsil/thymus article
+`lymphatic-lymph-node.ts` and `lymphatic-thymus.ts` already use — a
+GOLDMINE of pinned, hand-authored, unimported concepts this article's own
+`related_concepts` already names, most sitting in
+`104-CPS-practical-concepts.md`):
+- 4 sparse reuses (all found via find-existing.mjs / direct id lookup
+  BEFORE minting anything, per the heightened dedup mitigation):
+  - `spleen.capsule-trabeculae-white-pulp-and-red-pulp`
+    (CON-HEM-2F3CB0082551D1) — 2 kept: trabeculae composition, capsule
+    covered by peritoneum.
+  - `spleen.red-pulp-billroth-cords-and-stave-cell-sinusoids`
+    (CON-HEM-594B1725902DAD) — 4 kept: red pulp = cords + sinusoids,
+    stave-cell lining, Billroth cords infiltration, red-pulp-shows-cords.
+  - `splenic-white-pulp.zones-and-cellular-composition`
+    (CON-HEM-7B050DE7FE2B80, in the *written-paper* pipeline's own
+    generated `104-CPS-concepts.md` — NOT `GENERATED_BY` this MCQ
+    pipeline, so `existingConceptIds()` does see it) — **9 kept**, the
+    single biggest concept this session touched: four-zone architecture,
+    marginal-zone mixed T+B population, six duplicate-occurrence
+    "thymus-dependent zone = PALS" rows (three of them the lymph-node-
+    paracortex/spleen-PALS cross-organ pairing), plus the
+    Malpighian-corpuscle follicular-zone row deferred from Arteries.
+  - `spleen.open-closed-and-open-and-closed-circulation-theories`
+    (CON-HEM-4D47090A0B7561) — 3 kept: closed theory, trabecular-artery→
+    follicular-arteriole and white-pulp-arteriole→penicillar-arteriole
+    sequence steps.
+- 2 fresh mints, both search-clean (`find-existing.mjs` "functions of the
+  spleen" / "destruction of old red cells spleen" / "sheathed arteriole"
+  / "penicillar arteriole" — all "safe to create"):
+  - `spleen.functions-filtration-storage-and-destruction-of-old-rbcs` (1
+    kept) — fully grounded in the article's own Mechanism section, no
+    gap.
+  - `penicillar-arteriole.three-segments-pulp-sheathed-and-terminal` (1
+    kept, the Arteries-deferred row) — **gap disclosed**: the article
+    names the penicillar arteriole's origin (central arteriole) and end
+    (terminal arterial capillaries) but not its three named intermediate
+    segments (pulp arteriole, sheathed/ellipsoid arteriole) — standard,
+    undisputed histology, flagged for the article-authoring lane.
+- 5 excludes, bookkept: 1 corrupted stem (bled with a second question's
+  own opening — "regarding-the-white-pulp..."), 1 three-option contract
+  violation ("billroth-cords-are-part-of"), 3 already bank-flagged
+  `editorialExcluded` rows.
+
+Extended existing `lymphatic-thymus.ts` (+1 Q, leaf-mismatch reroute):
+`small-round-shape-with-acidophilic-mass...` (Hassall's corpuscle
+identification, bank-tagged "Spleen" but genuinely thymus) routed onto
+this file's **own already-existing** concept
+`thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-cell-
+functions` (CON-HEM-3F5E8C649251F1) — no new search needed, no new
+duplicate introduced by choosing this over bringing in the OTHER pinned
+Hassall's-corpuscle record into a different file.
+
+**Duplicate-overlap found, not created — needs a future consolidation
+pass**: `thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-
+cell-functions` (CON-HEM-3F5E8C649251F1, already in `lymphatic-thymus.ts`
+from an earlier session) and `CON-HEM-10B2E783E164FD`
+(`thymus.hassalls-corpuscle-structure-and-location`, in
+`104-CPS-practical-concepts.md`) are two **separately-pinned** records
+covering adjacent Hassall's-corpuscle content — one a broad cortex/
+medulla-contrast definition, the other a narrow practical-station
+identification concept. Pre-existing (from before this session), found
+while searching, not introduced by this session.
+
+**2 genuine source conflicts found, deliberately NOT authored** (left
+undeclared in any seed file — no seed references these keys at all — per
+the run30 brachiocephalic-vein precedent: escalate a printed-key-vs-
+pinned-concept contradiction rather than silently pick a side):
+- `irregular-barrel-shape-that-lined-by-fenestrated-cells-non-c-43d8f714`:
+  the bank's own printed ("same-file", high-confidence) key answers
+  "Red pulp" (A), but the pinned, department-book-sourced concept
+  `CON-HEM-594B1725902DAD` attributes "barrel shaped... fenestrated...
+  stave cells... non-continuous basal lamina" specifically to **blood
+  sinusoids** (option B) — a distinct red-pulp component from Billroth
+  cords, which have no such shape/lining at all. Red pulp as a whole is
+  not itself barrel-shaped.
+- `trabeculae-divide-spleen-into-024bb379`: the bank's own printed key
+  answers "regular Cortex, irregular medulla" (C) — but cortex/medulla
+  terminology **does not exist for the spleen at all** (it is lymph-node/
+  thymus vocabulary); the pinned concept `CON-HEM-2F3CB0082551D1` states
+  splenic trabeculae divide the organ into **irregular compartments**
+  throughout, matching option A ("irregular Compartment") instead.
+Both need a chief-of-staff / Omar ruling. Concept ids noted above for
+whoever picks these up.
+
+**Recompute confirms the closure**: after this session's two commits, the
+"what's left" script shows exactly 2 remaining "Spleen"-tagged rows
+(matching the 2 escalated conflicts above) and 3 remaining "Arteries"-
+tagged rows (was 5 before this session; the 2 closed here were genuinely
+splenic content).
+
+Gate (Spleen commit) — build-batches.ts "104 CPS": 487 MCQ questions kept
+(was 466, +21), 89 excluded (was 84, +5), 110 MCQ concepts (was 104, +6: 4
+sparse-reuse first-appearances + 2 fresh mints). Additive-only diff: 0 ids
+lost anywhere; +2 real fresh-mint concept ids, +4 pinned concepts' first
+appearance in this pipeline's own file, +21 QM-104-* ids. medical:batch
+(10-file --with recipe): items 487, fieldsUsed 43, errors 4 — the 4
+pre-existing respiratory-histology option-count errors, 0 new.
+medical:simulate (positional, 11 files): errors: [], skipped: [].
+medical:audit --source: total 570 errors (systemic, pre-existing); 4
+involving my 2 fresh-mint ids (1 shared atomicClaimIds-missing bulk line +
+1 "references unknown resource" line each) — 0 real errors introduced;
+all 21 new QM-104-* ids show 0 audit errors. medical:duplicate-keys: 0
+canonical key collisions; 1 pre-existing label collision (Aspirin/102
+INT, unrelated).
+
+## Next action (resume-first, run31's own closing note)
+
+Both of this session's dispatched clusters (Lungs anatomy, Spleen) are now
+closed, modulo the 2 escalated Spleen conflicts above (needs a human
+ruling, not further authoring). Per the "what's left" recompute just
+above, the next-largest untouched clusters are **Electrical Activity of
+the Heart (47 remaining, the largest untouched CVS leaf)**, **Mechanical
+Properties of Cardiac Muscle (36)**, and **Vascular Function (35)** — none
+has a dedicated MCQ seed file yet. Check `104-CPS-physiology-concepts.md`
+/ `104-CPS-histology-concepts.md` for pinned, unimported concepts before
+minting anything on any of these, per the heightened dedup mitigation —
+this session's own experience (a comprehensive, already-hand-authored
+lymphoid-organs article/concept-set sitting unimported) suggests the same
+may be true here.
+
 Branch: `kasr-104-author-run30` (off `kasr-104-author-run29` @ `39521cf0`,
 pushed to origin). run29's own base was `kasr-104-author-run28` @ `3af4de1e`;
 run28's own base was `kasr-104-author-run27` @ `bd7e9f9b`;
