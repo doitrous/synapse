@@ -9,7 +9,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 33 questions, 4 concepts
-    Histology Cardiovascular System — A-V Connections — 28 questions, 5 concepts
+    Histology Cardiovascular System — A-V Connections — 32 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
@@ -52,7 +52,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  67 questions were excluded and 0 held back for having no
+  71 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
