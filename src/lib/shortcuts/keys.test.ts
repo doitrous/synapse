@@ -24,6 +24,19 @@ test('a spec and the matching event reduce to the same chord', () => {
   assert.ok(chordsEqual(event, parseChord('Mod+Shift+R')))
 })
 
+test('the shift needed to type "?" is not required to match the "?" spec', () => {
+  const event = eventToChord({ key: '?', code: 'Slash', shiftKey: true }, false)
+  assert.equal(event.shift, false, 'the shift is baked into the "?" character')
+  assert.ok(chordsEqual(event, parseChord('?')))
+})
+
+test('shift stays significant for letters (Shift+I is not I)', () => {
+  const shiftI = eventToChord({ key: 'I', shiftKey: true }, false)
+  const plainI = eventToChord({ key: 'i' }, false)
+  assert.equal(shiftI.shift, true)
+  assert.ok(!chordsEqual(shiftI, plainI))
+})
+
 test('digits survive a shift and space/escape normalize', () => {
   assert.equal(normalizeKey({ key: '!', code: 'Digit1' }), '1')
   assert.equal(normalizeKey({ key: ' ', code: 'Space' }), 'space')

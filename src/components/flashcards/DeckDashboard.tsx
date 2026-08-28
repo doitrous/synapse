@@ -177,7 +177,7 @@ function DeckDetail({
   const sessionSize = useMemo(() => api.studyQueue(deck.id, now).length, [api, deck.id, now])
   const c = deck.counts
   const buriedCount = c.buried
-  const share = (n: number) => (c.total === 0 ? '0%' : pct(n / c.total))
+  const share = (n: number) => (c.total === 0 ? '0%' : pct((n / c.total) * 100))
 
   return (
     <div className="space-y-5">
@@ -222,7 +222,7 @@ function DeckDetail({
             <ExtraStat label={t('Due today')} value={stats.dueToday} />
             <ExtraStat label={t('Overdue')} value={stats.overdue} />
             <ExtraStat label={t('Studied today')} value={stats.studiedToday} />
-            <ExtraStat label={t('Pass rate today')} value={stats.passRateToday === null ? '—' : pct(stats.passRateToday)} />
+            <ExtraStat label={t('Pass rate today')} value={stats.passRateToday === null ? '—' : pct(stats.passRateToday * 100)} />
             <ExtraStat label={t('New / day')} value={deck.config.newPerDay} />
             <ExtraStat label={t('Last studied')} value={stats.lastStudied ? formatRelativeTime(stats.lastStudied, now) : t('never')} />
           </dl>

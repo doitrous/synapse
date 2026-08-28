@@ -69,12 +69,21 @@ export function normalizeKey(event: KeyLike): string {
 
 /** Canonicalize an event into a chord, given the platform. */
 export function eventToChord(event: KeyLike, isMac: boolean): Chord {
+  const key = normalizeKey(event)
   return {
     mod: modPressed(event, isMac),
     alt: !!event.altKey,
-    shift: !!event.shiftKey,
-    key: normalizeKey(event),
+    // A shifted symbol like `?` already encodes its Shift in the character, so
+    // the modifier is redundant and must not be required to match; a letter or
+    // digit keeps Shift significant, so `Shift+I` stays distinct from `I`.
+    shift: isShiftedSymbol(key) ? false : !!event.shiftKey,
+    key,
   }
+}
+
+/** A single printable character that isn't a letter or digit (`?`, `!`, `<`…). */
+function isShiftedSymbol(key: string): boolean {
+  return key.length === 1 && !/[a-z0-9]/.test(key)
 }
 
 /** Stable string form, modifiers in a fixed order, for comparison and as a map key. */
