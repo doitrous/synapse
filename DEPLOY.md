@@ -48,6 +48,24 @@ The split is decided in the browser by `src/lib/portalHost.ts`:
 Sessions are stored per-origin, so an admin signs in once on each domain, and
 `https://adminsynapse.doitrous.com` must be in Supabase's allowed redirect URLs.
 
+### The first admin
+
+Every account starts as a student (`user_access.role`), and every route that can
+promote one is itself behind `requireAdmin` — so on a fresh estate nobody can
+make the first admin from the app. Sign in once on the site so the account's
+`user_access` row exists, then promote it from the server:
+
+```
+npm --prefix server run promote-admin -- you@example.com            # show, change nothing
+npm --prefix server run promote-admin -- you@example.com --commit   # promote
+```
+
+It writes a `role_promotion_audit` row like any other promotion. Afterwards, do a
+full page reload on the admin domain — the browser is holding the old answer from
+`/api/me`. Until an account has the role, the dashboard says so on the page
+rather than redirecting; it used to send the visitor to `/app`, which on this
+domain is a hand-over to the student site.
+
 ## 3. Email & automations (optional, for real sending)
 
 The app sends email through a serverless function so the Resend key never reaches

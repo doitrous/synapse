@@ -7,15 +7,21 @@ import { Icon } from '@/components/ui/Icon'
 import { AuthLayout } from './AuthLayout'
 import { SocialAuthButtons } from './SocialAuthButtons'
 import { isSupabaseConfigured, supabase } from '@/lib/supabase'
+import { portalHome } from '@/lib/portalHost'
 import { authErrorMessage } from './authMessages'
 
 /**
  * Only a path inside this app is an acceptable place to land after sign-in.
  * An absolute or protocol-relative `next` would let a link turn our own login
  * form into a redirector to somebody else's site.
+ *
+ * The fallback asks which portal this origin serves. Hard-coding `/app` meant
+ * signing in on the admin domain with no `next` — from the sign-out page, or a
+ * bookmarked /login — threw the admin straight across to the student site,
+ * because `/app` is not a page there but a hand-over to the other origin.
  */
 function safeNext(value: string | null): string {
-  if (!value || !value.startsWith('/') || value.startsWith('//')) return '/app'
+  if (!value || !value.startsWith('/') || value.startsWith('//')) return portalHome()
   return value
 }
 

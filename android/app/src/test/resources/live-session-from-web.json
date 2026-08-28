@@ -1,0 +1,14 @@
+{
+  "questionIds": ["q-101", "q-102", "q-103", "q-104"],
+  "idx": 2,
+  "answers": { "q-101": 2, "q-102": 0 },
+  "checked": { "q-101": true, "q-102": true },
+  "mode": "tutor",
+  "sessionId": "sess-8f3c2b1a",
+  "elapsed": 187,
+  "visited": [0, 1, 2],
+  "reviewing": false,
+  "name": "Cardiology Review",
+  "phase": "running",
+  "startedAt": "2026-08-19T14:32:07.123Z"
+}

@@ -40,3 +40,16 @@ export function samePathOn(origin: string): string {
   const { pathname, search, hash } = window.location
   return `${origin}${pathname}${search}${hash}`
 }
+
+/**
+ * The path this origin treats as home.
+ *
+ * `/app` is not a page on the admin domain — it is a hand-over to the student
+ * origin. So a fallback that names it does not send someone elsewhere in this
+ * app, it sends them off the site, with `location.replace` leaving nothing to
+ * go back to. Anything meaning "go where you belong" has to ask which door it
+ * is standing in first.
+ */
+export function portalHome(): string {
+  return isAdminHost() ? '/admin' : '/app'
+}

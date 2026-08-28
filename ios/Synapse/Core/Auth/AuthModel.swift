@@ -30,12 +30,19 @@ final class AuthModel {
 
     private let client: SupabaseClient?
     private(set) var api: SynapseAPI!
+    private let userCache: SessionUserCache
 
-    init() {
+    /// Same closure `api`'s token provider was built from, kept so
+    /// `restoreFromCache` can ask "is there still a token to sign in with?"
+    /// without a second, divergent copy of how a token is read.
+    private let readToken: @Sendable () async -> String?
+
+    init(userCache: SessionUserCache = KeychainSessionUserCache()) {
+        self.userCache = userCache
         if let url = AppConfig.supabaseURL, let key = AppConfig.supabaseAnonKey {
             let client = SupabaseClient(supabaseURL: url, supabaseKey: key)
             self.client = client
-            self.api = SynapseAPI { [weak client] in
+            let readToken: @Sendable () async -> String? = { [weak client] in
                 // A token is only useful if it is current, and the SDK refreshes
                 // on read — so read it per request rather than caching one here.
                 do {
@@ -51,8 +58,11 @@ final class AuthModel {
                     return nil
                 }
             }
+            self.readToken = readToken
+            self.api = SynapseAPI(token: readToken)
         } else {
             self.client = nil
+            self.readToken = { nil }
             self.api = SynapseAPI { nil }
         }
     }
@@ -123,6 +133,12 @@ final class AuthModel {
     func signOut() async {
         guard let client else { return }
         await perform {
+            // Forgotten before the sign-out is attempted, not after. If the
+            // call throws, the student stays on the signed-in screen and
+            // tries again -- but a cached identity left behind by a
+            // sign-out that half-worked could restore that screen on the
+            // next launch, offline, with no server left to say otherwise.
+            self.userCache.writeUser(nil)
             try await client.auth.signOut()
             self.state = .signedOut
         }
@@ -142,15 +158,22 @@ final class AuthModel {
     private func confirmWithServer(explainFailure: Bool) async {
         do {
             if let user = try await api.session() {
+                userCache.writeUser(user)
                 state = .signedIn(user)
                 message = nil
             } else {
+                // Not an error: Supabase knows this address and Synapse has no
+                // account for it yet.
+                userCache.writeUser(nil)
                 state = .signedOut
                 if explainFailure {
                     message = "Signed in, but Connect Cortex has no account for this address yet."
                 }
             }
         } catch APIError.unauthorized {
+            // The server has spoken: this token is no good. Whatever the
+            // cache remembers about it is no good either.
+            userCache.writeUser(nil)
             state = .signedOut
             if explainFailure {
                 // Deliberately not guessing at a cause. Two services have to
@@ -167,9 +190,48 @@ final class AuthModel {
         } catch {
             // The token may well be fine and the network not. Don't discard a
             // good session over a dropped connection.
+            if await restoreFromCache(explainFailure: explainFailure, error: error) { return }
             state = .signedOut
             if explainFailure { message = Self.describe(error) }
         }
+    }
+
+    /// Carry on as the student we last were, when the only thing that went
+    /// wrong was the network.
+    ///
+    /// The app opens straight into `.restoring` and asks the server who this
+    /// is. Losing that answer used to mean the sign-in form -- on a train, in
+    /// a basement, on a hospital ward -- with a perfectly good token in the
+    /// Keychain and a full local cache of the student's own work sitting one
+    /// screen away, unreachable. Every screen reads the local cache, never
+    /// the API, so there is nothing about being offline that the app cannot
+    /// do; the sign-in form was the only thing standing in the way.
+    ///
+    /// Three things all have to hold, and each is doing work:
+    ///
+    /// - `explainFailure` is false, so this is a restore and not the student
+    ///   pressing Sign in. Someone who just typed a password is owed the
+    ///   truth about what happened to it, not a screen that behaves as if it
+    ///   worked.
+    /// - The failure is `APIError.isRetryable` -- a transport fault. A 401 is
+    ///   handled above and never reaches here; anything else means the
+    ///   server answered, and an answer is not something to paper over.
+    /// - There is still a token to be signed in *with*. Without this, a
+    ///   cleared session plus one unlucky request would show a signed-in
+    ///   shell for an account that no longer has a way to talk to the
+    ///   server.
+    ///
+    /// Nothing is faked: `.signedIn` carries the identity the server itself
+    /// confirmed last time, and the next reachable server call either
+    /// renews it or fails loudly where the student can see it.
+    private func restoreFromCache(explainFailure: Bool, error: Error) async -> Bool {
+        guard !explainFailure else { return false }
+        guard let apiError = error as? APIError, apiError.isRetryable else { return false }
+        guard await readToken() != nil else { return false }
+        guard let cached = userCache.readUser() else { return false }
+        state = .signedIn(cached)
+        message = nil
+        return true
     }
 
     private func perform(_ work: @escaping () async throws -> Void) async {
