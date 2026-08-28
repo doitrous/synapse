@@ -454,6 +454,26 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
+      // Leaf-tag mismatch: bank-tagged "Veins" but genuinely this concept's
+      // own content — this concept's own definition already states "very
+      // wide lumina and thick walls" for large elastic arteries. Verified
+      // against the actual bank options before routing: two of the four
+      // distractors (large veins, medium veins) are vein calibres, so this
+      // is a vein-histology-flavoured question testing an artery-
+      // classification fact, not a vein fact itself.
+      key: "very-wide-lumen-thick-wall-1c5648f9",
+      conceptKey: "artery-classification.elastic-muscular-and-arteriolar-types",
+      difficulty: "Moderate",
+      questionType: "Classification",
+      learningObjective: "Identify the large elastic artery as the vessel type classically described by very wide lumen plus thick wall, distinguishing it from medium arteries and from veins of either size.",
+      explanations: {
+        A: "The large elastic artery — the aorta and its major branches — is described by exactly this combination: a very wide lumen and a thick wall, its media built from 40 to 70 circularly arranged elastic membranes.",
+        B: "A medium (muscular) artery's lumen is narrower than a large elastic artery's; its thick wall is built from smooth muscle rather than the very wide lumen this combination names.",
+        C: "A large vein such as the inferior vena cava is also thick-walled, but that thickness sits in an adventitia doing mechanical work, not the media-built, elastic-recoil wall this classic combination names.",
+        D: "A medium vein is thin-walled at every layer, the opposite of this combination.",
+      },
+    },
+    {
       // Leaf-tag mismatch: tagged "A-V Connections" but genuinely tests this
       // concept's own metarteriole/precapillary-sphincter content.
       key: "control-blood-flow-to-capillaries-49927906",

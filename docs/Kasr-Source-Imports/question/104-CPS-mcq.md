@@ -8,11 +8,11 @@
     Lymphatics of the Thorax — 4 questions, 1 concepts
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
-    Histology Cardiovascular System — Artery Classification — 33 questions, 4 concepts
+    Histology Cardiovascular System — Artery Classification — 34 questions, 4 concepts
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
-    Histology Cardiovascular System — Veins — 20 questions, 4 concepts
+    Histology Cardiovascular System — Veins — 19 questions, 2 concepts
     Physiology Cardiovascular System — Venous Capacitance and Filling Pressure — 8 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 30 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
@@ -4989,6 +4989,98 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-A8BB00D7F2C0
+## title
+very wide lumen, thick wall
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+very wide lumen, thick wall
+## answer_a
+large arteries
+## explanation_a
+The large elastic artery — the aorta and its major branches — is described by exactly this combination: a very wide lumen and a thick wall, its media built from 40 to 70 circularly arranged elastic membranes.
+
+Why this is right:
+- Arteries fall into three histological classes.
+## answer_b
+medium arteries
+## explanation_b
+A medium (muscular) artery's lumen is narrower than a large elastic artery's; its thick wall is built from smooth muscle rather than the very wide lumen this combination names.
+## answer_c
+large veins
+## explanation_c
+A large vein such as the inferior vena cava is also thick-walled, but that thickness sits in an adventitia doing mechanical work, not the media-built, elastic-recoil wall this classic combination names.
+## answer_d
+medium veins
+## explanation_d
+A medium vein is thin-walled at every layer, the opposite of this combination.
+## correct_answer
+A
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Identify the large elastic artery as the vessel type classically described by very wide lumen plus thick wall, distinguishing it from medium arteries and from veins of either size.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q23. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-7D81FBF2E4A5
 ## title
 Control blood flow to Capillaries
@@ -8669,9 +8761,9 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
-QM-104-43868F3E36AA
+QM-104-56E433054348
 ## title
-Prominent internal elastic lamina (IEL) is seen in:
+All characters of venule except
 ## subject
 cvs
 ## status
@@ -8679,306 +8771,30 @@ Draft
 ## format
 single_best_answer
 ## question
-Prominent internal elastic lamina (IEL) is seen in:
+All characters of venule except
 ## answer_a
-Aorta.
+thin subendothelial C.T
 ## explanation_a
-In the aorta, the internal elastic lamina cannot be told apart as a separate structure — it blends among the many other elastic laminae that fill the media — so it is not 'prominent' the way a muscular artery's is.
+True, so not the exception. A venule's subendothelium is thin connective tissue.
 ## answer_b
-Medium sized arteries
+few smooth muscle fiber gradually appear
 ## explanation_b
-A prominent, clearly visible internal elastic lamina is the defining feature marking the boundary between a medium (muscular) artery's tunica intima and its smooth-muscle-dominated tunica media.
+True, so not the exception. A venule's media gains only a few smooth-muscle fibres gradually as its calibre widens toward the medium vein.
+## answer_c
+EEL is Present in T. adventitia
+## explanation_c
+The exception, and the answer. A venule carries no external elastic lamina at all — that structure belongs to a muscular artery's wall, not to a low-pressure venule.
 
 Why this is right:
-- A medium-sized vein has a thin wall and a wide lumen that collapses and holds blood after death — the reverse of a medium-sized artery's narrow, rounded, largely blood-empty postmortem lumen.
-## answer_c
-Medium sized veins.
-## explanation_c
-A medium-sized vein's intima is thin and unfolded, without a well-developed internal elastic lamina at all.
+- Veins run from small (venules) through medium-sized (muscular) to large.
 ## answer_d
-Inferior vena cava.
+pericyte is present
 ## explanation_d
-The inferior vena cava, like veins generally, has no well-developed internal elastic lamina; its own defining feature is the longitudinal smooth muscle of its adventitia, not an intimal elastic lamina.
-## correct_answer
-B
-## main_concept
-CON-CVS-DC9BC66CBFAE6C
-## library_ids
-ART-104-HIS-ARTERIES-AND-VEINS
-## topic
-Histology Cardiovascular System — Veins
-## subtopic
-Histology Cardiovascular System — Veins
-## module
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > Veins
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Identify a prominent internal elastic lamina as the defining feature of a medium-sized (muscular) artery, present in no vein calibre.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## exam_weight_by_year
-KAU_Y1=0.45
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p15 q11. Manifest src_f0dc974eca83c51623bc.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence medium; the answer came from no source and was supplied by the author.
-
-
-
----
-
-# Item
-## id
-QM-104-672BB489F434
-## title
-The internal elastic lamina is prominent in:
-## subject
-cvs
-## status
-Draft
-## format
-single_best_answer
-## question
-The internal elastic lamina is prominent in:
-## answer_a
-Large elastic arteries
-## explanation_a
-In a large elastic artery, the internal elastic lamina is present but not distinguishable as a separate structure from the many other elastic laminae filling the media, so it is not the 'prominent' feature this question tests.
-## answer_b
-Medium sized veins. :
-## explanation_b
-A medium-sized vein's thin, unfolded intima carries no well-developed internal elastic lamina.
-## answer_c
-Medium sized arteries. ~
-## explanation_c
-A prominent internal elastic lamina, clearly separating intima from media, is the signature histological feature of a medium-sized (muscular) artery.
-
-Why this is right:
-- A medium-sized vein has a thin wall and a wide lumen that collapses and holds blood after death — the reverse of a medium-sized artery's narrow, rounded, largely blood-empty postmortem lumen.
-## answer_d
-Inferior vena cava
-## explanation_d
-The inferior vena cava, like veins generally, has no well-developed internal elastic lamina; its own defining feature is its adventitia's longitudinal smooth muscle instead.
+True, so not the exception. Pericytes and reticular fibres support the post-capillary venule's own media from its smallest calibre onward.
 ## correct_answer
 C
 ## main_concept
-CON-CVS-DC9BC66CBFAE6C
-## library_ids
-ART-104-HIS-ARTERIES-AND-VEINS
-## topic
-Histology Cardiovascular System — Veins
-## subtopic
-Histology Cardiovascular System — Veins
-## module
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > Veins
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Structure and function
-## learning_objective
-Restate the same internal-elastic-lamina rule against a different set of distractors, including the large elastic artery.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## exam_weight_by_year
-KAU_Y1=0.45
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p12 q11. Manifest src_df6b7a7de75411dbb92b.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence medium; the answer came from no source and was supplied by the author.
-
-
-
----
-
-# Item
-## id
-QM-104-D11FA1BD036B
-## title
-Medium sized vein is characterized by:
-## subject
-cvs
-## status
-Draft
-## format
-single_best_answer
-## question
-Medium sized vein is characterized by:
-## answer_a
-Its tunica adventitia is thicker than tunica media
-## explanation_a
-In a medium-sized vein the tunica adventitia — often carrying longitudinal smooth muscle bundles — is the thickest of the three coats, the functional mirror image of a medium artery, where the media dominates instead.
-
-Why this is right:
-- A medium-sized vein has a thin wall and a wide lumen that collapses and holds blood after death — the reverse of a medium-sized artery's narrow, rounded, largely blood-empty postmortem lumen.
-## answer_b
-They have internal and external elastic laminae
-## explanation_b
-Medium veins generally lack a well-developed internal AND external elastic lamina; both are instead features of arteries.
-## answer_c
-Its wall does not collapse after death
-## explanation_c
-A medium vein's thin wall and low intraluminal pressure make its lumen collapse and hold blood after death, not stay uncollapsed — the reverse of what this option states.
-## answer_d
-The subendothelium is rich in elastic fibers
-## explanation_d
-A subendothelium rich in elastic fibres is not a standout, defining feature specifically emphasised for medium veins in standard histology teaching.
-## correct_answer
-A
-## main_concept
-CON-CVS-DC9BC66CBFAE6C
-## library_ids
-ART-104-HIS-ARTERIES-AND-VEINS
-## topic
-Histology Cardiovascular System — Veins
-## subtopic
-Histology Cardiovascular System — Veins
-## module
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > Veins
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Easy
-## question_type
-Structure and function
-## learning_objective
-State that a medium vein's tunica adventitia, not its media, is the thickest of its three coats — the functional mirror of a medium artery.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## exam_weight_by_year
-KAU_Y1=0.45
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
-## cognitive_effort
-Low
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p13 q12. Manifest src_df6b7a7de75411dbb92b.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence medium; the answer came from no source and was supplied by the author.
-
-
-
----
-
-# Item
-## id
-QM-104-3652BC4BCAD9
-## title
-The following is a difference between medium sized artery and vein:
-## subject
-cvs
-## status
-Draft
-## format
-single_best_answer
-## question
-The following is a difference between medium sized artery and vein:
-## answer_a
-Tunica media of vein is thicker than tunica media of artery
-## explanation_a
-The reverse is true: a medium artery's thick, smooth-muscle-dominated media is far thicker than a medium vein's own thin media.
-## answer_b
-Tunica adventitia is relatively thick in medium sized vein
-## explanation_b
-The tunica adventitia is indeed relatively thick in a medium-sized vein — the thickest of its own three coats, unlike the media-dominated wall of a medium artery.
-
-Why this is right:
-- A medium-sized vein has a thin wall and a wide lumen that collapses and holds blood after death — the reverse of a medium-sized artery's narrow, rounded, largely blood-empty postmortem lumen.
-## answer_c
-Elastic lamina are only found in medium sized vein
-## explanation_c
-The reverse is true: a prominent internal elastic lamina is the muscular artery's own defining feature; a medium vein lacks a well-developed one.
-## answer_d
-Tunica intima is folded in medium sized vein
-## explanation_d
-The reverse is true: a medium vein's tunica intima is thin and unfolded; it is the medium artery whose intima is thick and folded.
-## correct_answer
-B
-## main_concept
-CON-CVS-DC9BC66CBFAE6C
+CON-CVS-B29610035B568D
 ## library_ids
 ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
@@ -8998,9 +8814,9 @@ KAU_Y1
 ## difficulty
 Moderate
 ## question_type
-Recall of a true statement
+Recall of a false statement
 ## learning_objective
-Confirm the adventitia-dominant wall of a medium vein as a genuine artery-vein difference, ruling out three reversed or invented alternatives.
+Identify the absence of a well-developed external elastic lamina in a venule, unlike the venule's genuine thin subendothelium, gradual smooth muscle and early pericytes.
 ## setting
 Academic
 ## academic_relevance
@@ -9026,12 +8842,12 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p18 q16. Manifest src_9cf32ada2b25fa54f0e9.
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q36. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
-3 materially different wordings of this question exist in the books and were not collapsed into it.
+
 
 ---
 
@@ -9063,14 +8879,14 @@ A medium vein's adventitia, though the thickest of its own three coats, is not d
 ## answer_d
 Inferior vena cava
 ## explanation_d
-The inferior vena cava's tunica adventitia carries bundles of longitudinal smooth muscle, the thickest layer of its wall, letting the vessel elongate and shorten with respiration.
+The inferior vena cava's tunica adventitia carries longitudinal smooth-muscle fibres, the thickest layer of its wall, letting the vessel elongate and shorten with respiration.
 
 Why this is right:
-- A large vein such as the inferior vena cava has a thick wall and a wide lumen: an intima whose connective tissue can blur into the media, a relatively thin media, and — the thickest layer of all — an adventitia carrying bundles of longitudinal smooth muscle.
+- Veins run from small (venules) through medium-sized (muscular) to large.
 ## correct_answer
 D
 ## main_concept
-CON-CVS-A006F7F1B73557
+CON-CVS-B29610035B568D
 ## library_ids
 ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
@@ -9154,15 +8970,15 @@ elongate, shorten vena cava with respiration
 The inferior vena cava's longitudinal adventitial muscle lets it elongate and shorten as respiration shifts intrathoracic and intra-abdominal pressure, changing the vessel's length rather than resisting the movement.
 
 Why this is right:
-- A large vein such as the inferior vena cava has a thick wall and a wide lumen: an intima whose connective tissue can blur into the media, a relatively thin media, and — the thickest layer of all — an adventitia carrying bundles of longitudinal smooth muscle.
+- Veins run from small (venules) through medium-sized (muscular) to large.
 ## answer_d
 prevent retrograde movement of blood by gravity
 ## explanation_d
-Preventing retrograde movement of blood under gravity is a valve's job, and the great veins such as the inferior vena cava are themselves characteristically valveless — this muscle's role is mechanical length change, not backflow prevention.
+Preventing retrograde movement of blood under gravity is a valve's job; this muscle's role is mechanical length change, not backflow prevention.
 ## correct_answer
 C
 ## main_concept
-CON-CVS-A006F7F1B73557
+CON-CVS-B29610035B568D
 ## library_ids
 ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
@@ -9235,10 +9051,10 @@ Smooth muscle fibers are found in the tunica adventitia of:
 ## answer_a
 Inferior Vena Cava.
 ## explanation_a
-The inferior vena cava's tunica adventitia carries bundles of smooth muscle, arranged longitudinally, the thickest layer of its wall.
+The inferior vena cava's tunica adventitia carries longitudinally arranged smooth-muscle fibres, the thickest layer of its wall.
 
 Why this is right:
-- A large vein such as the inferior vena cava has a thick wall and a wide lumen: an intima whose connective tissue can blur into the media, a relatively thin media, and — the thickest layer of all — an adventitia carrying bundles of longitudinal smooth muscle.
+- Veins run from small (venules) through medium-sized (muscular) to large.
 ## answer_b
 Muscular artery.
 ## explanation_b
@@ -9254,7 +9070,7 @@ The aorta's defining wall feature is its media's 40 to 70 elastic membranes, not
 ## correct_answer
 A
 ## main_concept
-CON-CVS-A006F7F1B73557
+CON-CVS-B29610035B568D
 ## library_ids
 ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
@@ -9313,9 +9129,9 @@ Extraction confidence low; the answer came from no source and was supplied by th
 
 # Item
 ## id
-QM-104-56E433054348
+QM-104-D11FA1BD036B
 ## title
-All characters of venule except
+Medium sized vein is characterized by:
 ## subject
 cvs
 ## status
@@ -9323,34 +9139,126 @@ Draft
 ## format
 single_best_answer
 ## question
-All characters of venule except
+Medium sized vein is characterized by:
 ## answer_a
-thin subendothelial C.T
+Its tunica adventitia is thicker than tunica media
 ## explanation_a
-True, so not the exception. A venule's subendothelium is thin connective tissue.
-## answer_b
-few smooth muscle fiber gradually appear
-## explanation_b
-True, so not the exception. A venule's media gains only a few smooth-muscle fibres gradually as its calibre widens toward the medium vein.
-## answer_c
-EEL is Present in T. adventitia
-## explanation_c
-The exception, and the answer. A venule carries no well-developed external elastic lamina in its tunica adventitia — that structure belongs to a muscular artery's wall, sitting between media and adventitia, not to a low-pressure venule built without either of the elastic laminae an artery carries.
+In a medium-sized vein the tunica adventitia is the thickest of the three coats — the largest of three otherwise thin layers.
 
 Why this is right:
-- The venule, the smallest vein, has a thin subendothelium beneath its endothelium, and carries no internal elastic lamina at all.
+- Veins run from small (venules) through medium-sized (muscular) to large.
+## answer_b
+They have internal and external elastic laminae
+## explanation_b
+Medium veins generally lack a well-developed internal and external elastic lamina; both are instead features of arteries.
+## answer_c
+Its wall does not collapse after death
+## explanation_c
+A medium vein's thin wall and low intraluminal pressure make its lumen collapse and hold blood after death, not stay uncollapsed — the reverse of what this option states.
 ## answer_d
-pericyte is present
+The subendothelium is rich in elastic fibers
 ## explanation_d
-True, so not the exception. Pericytes support the venule wall from its smallest, post-capillary calibre onward.
+A subendothelium rich in elastic fibres is not a standout, defining feature specifically emphasised for medium veins in standard histology teaching.
 ## correct_answer
-C
+A
 ## main_concept
-CON-CVS-499E50A0FD8162
+CON-CVS-B29610035B568D
 ## library_ids
 ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
-Histology-general
+Histology Cardiovascular System — Veins
+## subtopic
+Histology Cardiovascular System — Veins
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Veins
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that a medium vein's tunica adventitia, not its media, is the thickest of its three coats.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p13 q12. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-43868F3E36AA
+## title
+Prominent internal elastic lamina (IEL) is seen in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Prominent internal elastic lamina (IEL) is seen in:
+## answer_a
+Aorta.
+## explanation_a
+In the aorta, the internal elastic lamina cannot be told apart as a separate structure — it blends among the many other elastic laminae that fill the media — so it is not 'prominent' the way a muscular artery's is.
+## answer_b
+Medium sized arteries
+## explanation_b
+A prominent, clearly visible internal elastic lamina is the defining feature marking the boundary between a medium (muscular) artery's tunica intima and its smooth-muscle-dominated tunica media.
+
+Why this is right:
+- The department book sets a medium-sized artery against a medium-sized vein across six features.
+## answer_c
+Medium sized veins.
+## explanation_c
+A medium-sized vein's intima is thin and unfolded, without a well-developed internal elastic lamina at all.
+## answer_d
+Inferior vena cava.
+## explanation_d
+The inferior vena cava, like veins generally, has no well-developed internal elastic lamina; its own defining feature is the longitudinal smooth muscle of its adventitia, not an intimal elastic lamina.
+## correct_answer
+B
+## main_concept
+CON-CVS-3C04F2DED454C9
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Veins
 ## subtopic
 Histology Cardiovascular System — Veins
 ## module
@@ -9366,9 +9274,9 @@ KAU_Y1
 ## difficulty
 Moderate
 ## question_type
-Recall of a false statement
+Structure and function
 ## learning_objective
-Identify the absence of a well-developed external elastic lamina in a venule, unlike the venule's genuine thin subendothelium, gradual smooth muscle and early pericytes.
+Identify a prominent internal elastic lamina as the defining feature of a medium-sized (muscular) artery, present in no vein calibre.
 ## setting
 Academic
 ## academic_relevance
@@ -9394,12 +9302,196 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q36. Manifest src_9cf32ada2b25fa54f0e9.
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p15 q11. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-672BB489F434
+## title
+The internal elastic lamina is prominent in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The internal elastic lamina is prominent in:
+## answer_a
+Large elastic arteries
+## explanation_a
+In a large elastic artery, the internal elastic lamina is present but not distinguishable as a separate structure from the many other elastic laminae filling the media, so it is not the 'prominent' feature this question tests.
+## answer_b
+Medium sized veins. :
+## explanation_b
+A medium-sized vein's thin, unfolded intima carries no well-developed internal elastic lamina.
+## answer_c
+Medium sized arteries. ~
+## explanation_c
+A prominent internal elastic lamina, clearly separating intima from media, is the signature histological feature of a medium-sized (muscular) artery.
+
+Why this is right:
+- The department book sets a medium-sized artery against a medium-sized vein across six features.
+## answer_d
+Inferior vena cava
+## explanation_d
+The inferior vena cava, like veins generally, has no well-developed internal elastic lamina; its own defining feature is its adventitia's longitudinal smooth muscle instead.
+## correct_answer
+C
+## main_concept
+CON-CVS-3C04F2DED454C9
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology Cardiovascular System — Veins
+## subtopic
+Histology Cardiovascular System — Veins
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Veins
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Restate the same internal-elastic-lamina rule against a different set of distractors, including the large elastic artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p12 q11. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3652BC4BCAD9
+## title
+The following is a difference between medium sized artery and vein:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following is a difference between medium sized artery and vein:
+## answer_a
+Tunica media of vein is thicker than tunica media of artery
+## explanation_a
+The reverse is true: a medium artery's thick, smooth-muscle-dominated media is far thicker than a medium vein's own thin media.
+## answer_b
+Tunica adventitia is relatively thick in medium sized vein
+## explanation_b
+The tunica adventitia is indeed relatively thick in a medium-sized vein — the thickest of its own three coats, unlike the media-dominated wall of a medium artery.
+
+Why this is right:
+- The department book sets a medium-sized artery against a medium-sized vein across six features.
+## answer_c
+Elastic lamina are only found in medium sized vein
+## explanation_c
+The reverse is true: a prominent internal elastic lamina is the muscular artery's own defining feature; a medium vein lacks a well-developed one.
+## answer_d
+Tunica intima is folded in medium sized vein
+## explanation_d
+The reverse is true: a medium vein's tunica intima is thin and unfolded; it is the medium artery whose intima is thick and folded.
+## correct_answer
+B
+## main_concept
+CON-CVS-3C04F2DED454C9
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Veins
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Veins
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+Confirm the adventitia-dominant wall of a medium vein as a genuine artery-vein difference, ruling out three reversed or invented alternatives.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p18 q16. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
-
+3 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
 
@@ -9430,7 +9522,7 @@ Medium sized veins show collapsed lumen after death
 After death, a medium-sized vein's thin wall and low intraluminal pressure let its lumen collapse into a folded, blood-filled shape — a practical clue for distinguishing artery from vein in a fixed section.
 
 Why this is right:
-- After death, a medium-sized vein's thin wall and low intraluminal pressure let its lumen collapse into a folded, blood-filled shape, where a medium-sized artery's thicker, more elastic wall instead empties much of its luminal blood through elastic recoil as the vessel constricts, leaving a narrower, more rounded, largely blood-empty lumen — a practical clue for telling artery from vein in a fixed section.
+- The department book sets a medium-sized artery against a medium-sized vein across six features.
 ## answer_d
 Medium sized artery usually shows blood in its lumen after death.
 ## explanation_d
@@ -9438,7 +9530,7 @@ The reverse is true: arteries typically appear relatively empty of blood after d
 ## correct_answer
 C
 ## main_concept
-CON-CVS-A95665D570978C
+CON-CVS-3C04F2DED454C9
 ## library_ids
 ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
@@ -9490,98 +9582,6 @@ Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascula
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
-
-
-
----
-
-# Item
-## id
-QM-104-A8BB00D7F2C0
-## title
-very wide lumen, thick wall
-## subject
-cvs
-## status
-Draft
-## format
-single_best_answer
-## question
-very wide lumen, thick wall
-## answer_a
-large arteries
-## explanation_a
-The large elastic artery — the aorta and its major branches — is described by exactly this combination: a very wide lumen and a thick wall, its media built from 40 to 70 circularly arranged elastic membranes.
-
-Why this is right:
-- After death, a medium-sized vein's thin wall and low intraluminal pressure let its lumen collapse into a folded, blood-filled shape, where a medium-sized artery's thicker, more elastic wall instead empties much of its luminal blood through elastic recoil as the vessel constricts, leaving a narrower, more rounded, largely blood-empty lumen — a practical clue for telling artery from vein in a fixed section.
-## answer_b
-medium arteries
-## explanation_b
-A medium (muscular) artery's lumen is narrower than a large elastic artery's; its thick wall is built from smooth muscle rather than the very wide lumen this combination names.
-## answer_c
-large veins
-## explanation_c
-A large vein such as the inferior vena cava is also thick-walled, but that thickness sits in an adventitia doing mechanical work, not the media-built, elastic-recoil wall this classic combination names.
-## answer_d
-medium veins
-## explanation_d
-A medium vein is thin-walled at every layer, the opposite of this combination.
-## correct_answer
-A
-## main_concept
-CON-CVS-A95665D570978C
-## library_ids
-ART-104-HIS-ARTERIES-AND-VEINS
-## topic
-Histology-general
-## subtopic
-Histology Cardiovascular System — Veins
-## module
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > Veins
-## universities
-kau
-## years
-Year 1
-## question_only_for
-KAU_Y1
-## difficulty
-Moderate
-## question_type
-Classification
-## learning_objective
-Identify the large elastic artery as the vessel type classically described by very wide lumen plus thick wall, distinguishing it from medium arteries and from veins of either size.
-## setting
-Academic
-## academic_relevance
-0.9
-## clinical_relevance
-0.3
-## exam_relevance
-4.5
-## exam_weight_by_year
-KAU_Y1=0.45
-## concept_ids
-[clear]
-## contextual_concept_ids
-[clear]
-## cognitive_effort
-Medium
-## reasoning_level
-1
-## estimated_seconds
-60
-## randomise_answers
-yes
-## owner
-Claude
-## source_citation
-Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q23. Manifest src_9cf32ada2b25fa54f0e9.
-## author_notes
-Asked 1 time across the question books.
-Extraction confidence high; the answer came from the question book itself.
 
 
 

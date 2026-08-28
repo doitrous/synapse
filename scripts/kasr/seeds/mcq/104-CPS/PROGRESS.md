@@ -1,15 +1,203 @@
 # 104 CPS MCQ authoring — progress
 
-Branch: `kasr-104-author-run28` (off `kasr-104-author-run27` @ `bd7e9f9b`,
-pushed to origin). run27's own base was `kasr-104-author-run26` @ `1314b2ff`;
-run26's own base was `kasr-104-author-run25` @ `14f77eef`; run25's own base
-was `kasr-104-author-run23` @ `29aff753`; run24 was interrupted mid-
-Pulmonary-Compliance and never committed anything — its work is gone,
-redone cleanly in run25.
+Branch: `kasr-104-author-run29` (off `kasr-104-author-run28` @ `3af4de1e`,
+pushed to origin). run28's own base was `kasr-104-author-run27` @ `bd7e9f9b`;
+run27's own base was `kasr-104-author-run26` @ `1314b2ff`; run26's own base
+was `kasr-104-author-run25` @ `14f77eef`; run25's own base was
+`kasr-104-author-run23` @ `29aff753`; run24 was interrupted mid-Pulmonary-
+Compliance and never committed anything — its work is gone, redone cleanly
+in run25.
 
 Bank total: 1289 questions in `scripts/kasr/extract/104-CPS/mcq-bank.json`.
-As of this session's (run28's) HEAD: **432 kept**, 71 excluded, 95 MCQ
-concepts. (run27's own HEAD was 395 kept, 64 excluded, 88 MCQ concepts.)
+As of this session's (run29's) HEAD: **453 kept**, 82 excluded, 98 MCQ
+concepts (95 + 2 sparse-reuse concepts' first appearance in this file + 1
+genuine fresh mint). (run28's own HEAD was 432 kept, 71 excluded, 95 MCQ
+concepts.)
+
+## Veins (34 bank-tagged rows + 6 rows deferred from Arteries = 40
+accounted for this session — run29) — 9 kept via 2 sparse reuses in a new
+file, 1 kept via a leaf-mismatch routing onto an existing concept in
+`cardiovascular-artery-classification.ts`, 7 kept via a fresh mint in a
+second new (physiology) file, 4 more questions routed onto already-existing
+concepts in 2 other files, 10 excluded (2 already bank-flagged, 8 found
+this session), 8 left deliberately unclaimed for their true clusters.
+Three commits — two authoring, one dedup-correction — each running the full
+build+batch+simulate+audit gate before committing.
+
+**A dedup-mitigation catch, corrected before this branch goes anywhere
+further** (documented in full since the dispatch brief specifically called
+out keeping the 0-dup streak): the first authoring commit minted 4 fresh
+concepts for `cardiovascular-veins-histology.ts` on the strength of
+grep-based reasoning rather than actually running `find-existing.mjs` for
+each one first — a shortcut the heightened CVS mitigation exists precisely
+to prevent. Running the tool properly immediately afterward (prompted by
+writing this very PROGRESS entry) surfaced two hand-authored, pinned,
+unimported concepts already sitting in `104-CPS-histology-concepts.md`,
+covering the same content in more depth:
+- `CON-CVS-B29610035B568D` (`vein-classification.venule-medium-and-large-
+  vein-histology`, `module_subject` "104 CPS > Histology > Cardiovascular
+  System > Veins" — this exact leaf) already teaches the venule, medium
+  vein and large vein (inferior vena cava) in one classification sweep —
+  subsuming what had been minted as three separate concepts (medium-vein
+  wall/valves, IVC adventitial muscle, venule wall structure).
+- `CON-CVS-3C04F2DED454C9` (`artery-vs-vein.medium-sized-histological-
+  comparison`, `module_subject` "Arteries", same article) already sets a
+  medium artery against a medium vein across thickness, lumen, valves and
+  all three tunics — subsuming the artery-vs-vein comparison content from
+  a fourth minted concept.
+The 4 erroneous fresh mints (already pushed in the first commit) were
+replaced with sparse reuses of these two pinned ids in a follow-up commit
+— **0 question ids changed or were lost** (confirmed by diff: the
+`comm -23`/`comm -13` question-id sets are identical before and after the
+fix; only the 4 concept ids themselves were retired, replaced by the 2
+correct pinned ones). One further-diagnosed row (`very-wide-lumen-thick-
+wall-1c5648f9`, testing the large ELASTIC ARTERY's own "very wide lumen,
+thick wall" signature, genuinely distinct from either pinned concept's
+scope) was re-routed as a leaf-mismatch extension onto
+`cardiovascular-artery-classification.ts`'s own pre-existing
+`artery-classification.elastic-muscular-and-arteriolar-types` concept,
+which already states this exact fact in its own definition — confirmed by
+reading that file directly rather than assumed.
+
+**New file `cardiovascular-veins-histology.ts`** (articleId
+`ART-104-HIS-ARTERIES-AND-VEINS`, the same article the Arteries cluster
+used — confirmed by reading its full prose again before authoring: its own
+artery/vein comparison states medium-vein wall structure and valves, the
+inferior vena cava's longitudinal adventitial muscle, venule wall
+structure, and the postmortem vein-vs-artery lumen difference in detail).
+Both concepts below are **sparse reuses**, not fresh mints:
+- `vein-classification.venule-medium-and-large-vein-histology`
+  (`CON-CVS-B29610035B568D`, 5 kept): venule wall structure (except-style
+  question), the inferior vena cava's longitudinally-arranged adventitial
+  smooth muscle and its respiration-linked elongate/shorten function (3
+  questions, one restated per independent source occurrence), and the
+  medium vein's adventitia-dominant wall. **Conflict recorded, not
+  reused**: `CON-CVS-08AA7F26A9BD28` ("Postcapillary venule wall",
+  canonical_key `teaching.postcapillary-venule.media`) is a live,
+  single-sentence fact from a different, cross-university Systems-view
+  catalogue (pinned to `ART-CVS-CARDIAC-HISTOLOGY`, no 104-CPS module,
+  `GENERATED_BY`-blind to this pipeline) naming the same pericyte-and-
+  reticular-fibre venule fact — same "different pipeline, no safe
+  sparse-update path" reasoning already documented elsewhere in this
+  branch.
+- `artery-vs-vein.medium-sized-histological-comparison`
+  (`CON-CVS-3C04F2DED454C9`, 4 kept): internal-elastic-lamina absence in
+  veins vs a medium artery's prominent one (2 duplicate-occurrence
+  questions), the medium vein's adventitia-vs-media thickness reversal
+  relative to an artery, and the collapsed, blood-filled postmortem vein
+  lumen vs an artery's elastic-recoiled, emptier one.
+
+**New file `cardiovascular-venous-capacitance-and-return.ts`** (articleId
+`ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX`,
+`docs/Kasr-Source-Imports/article/104-CPS-articles.md` — Draft, evidenced,
+5 claims/5 spans per its own notes, **not** `GENERATED_BY`, read in full
+before authoring against it):
+- `veins.capacitance-compliance-and-blood-volume-reservoir` (7 kept):
+  veins as capacitance vessels holding roughly 60-70% of blood volume,
+  roughly 10x arterial distensibility, the venous pressure-volume curve's
+  shape, and mean systemic filling pressure defined exactly as this
+  article's own Definition section states it ("the pressure present
+  throughout the systemic circulation when the heart stops pumping and
+  flow is zero"). Deliberately a **different file and article** from
+  `physiology-circulatory-control-hemorrhagic-shock.ts`, whose own
+  `venous-return.determinants-and-equation` concept carries the open,
+  previously-documented article-mismatch issue (pinned to
+  `ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL`, which its own `##
+  notes` field disclaims teaching venous-return material) — this new
+  concept is untouched by that issue, resolving it by routing around it
+  rather than compounding it.
+  **Gap disclosed**: the article defines MSFP precisely and ties venous
+  capacity to it, but does not itself state the 60-70%/~10x/curve-shape
+  figures this leaf's own bank tests directly (standard, undisputed
+  physiology; flagged for the article-authoring lane).
+
+**A self-caught defect, same class as run27's own precedent**: a
+capacitance-vessels duplicate-occurrence row
+(`which-of-the-following-are-called-capacitance-vessels-that-h-3d3e4b7b`)
+was drafted as a kept question on first pass, but this commit's own
+`medical:batch` run flagged it — option A ("Arteries") had bled into the
+stem itself ("...most of the blood volume? @ Arteries", the `@` a
+corrupted "A)" marker), leaving only 3 real options. Converted to
+`exclude: true` before the final gate run; the fix is reflected in the
+commit's own gate-line history (first run: 5 errors; after fix: back to
+the 4 pre-existing).
+
+**4 more questions routed onto already-existing concepts** (bank-tagged
+"Veins", genuinely those concepts' own content — the leaf-field-unreliable
+hazard confirmed yet again):
+- `cardiovascular-av-connections-histology.ts`: +2 questions onto
+  `arteriovenous-anastomosis.direct-shunt-sites-and-innervation` — two
+  independent source occurrences of the basic arteriole-to-venule
+  definition, not yet tested by that concept's existing 2 questions.
+- `cardiovascular-vessel-wall-general-plan.ts`: +1 question onto
+  `tunica-adventitia.vasa-vasorum-and-composition` (a 6th duplicate-
+  occurrence restating the literal "vessels of the vessels" meaning); +1
+  question onto `blood-vessel-wall.general-three-tunic-plan` (media smooth
+  muscle circularly arranged, applied to a large vein specifically —
+  cross-references the large-vein adventitial-muscle and valve-
+  distribution facts authored in the new veins-histology file).
+
+**10 excludes**: 2 already bank-flagged unanswerable
+(`medium-sized-arteries-d8faffa8` fragment;
+`the-wall-of-inferior-vena-cava-contains-5098daea`'s own merged options),
+8 found this session — four more A+B/C+D-style option merges
+(`concerning-large-veins-which-one-of-the-following-statements-1b1fd630`,
+`the-internal-elastic-lamina-in-the-medium-sized-artery-is-an-b0c0cd7a`,
+`concerning-the-medium-sized-veins-all-of-the-following-are-t-7d6b234b`,
+plus the capacitance-vessels stem-bleed above), a corrupted 2-option row
+(`the-medium-sized-vein-is-characterized-by-efb9e135`, only options A/B
+survived despite a legible handwritten answer mark), a 3-choice merge with
+a physiologically-uncertain printed answer
+(`post-capillary-venule-is-lined-by-epithelium-2ee47577` — printed "simple
+columnar" doesn't match standard simple-squamous teaching for a post-
+capillary venule, and no source resolves the discrepancy), a two-equally-
+plausible-true-answers row
+(`tunica-media-of-vein-is-typically-wider-than-tunica-media-of-1c2af8e7`),
+and two unanswerable heart/fetal-circulation anatomy fragments leaf-tagged
+Veins in the bank (`regarding-the-fetal-circulation-and-circulatory-
+changes-afte-6044f685`, `regarding-the-heart-choose-the-correct-answer-it-
+lies-in-the-c3cd415b`) bookkept in the new histology file since neither is
+a vein-histology question at all.
+
+**8 rows left deliberately unclaimed** (no seed file references these
+keys — do not recount as still-open Veins work; the recompute script will
+still show them under the "Veins" leaf tag, since the bank's own tag is
+what it counts, not the row's true content):
+- `choose-the-correct-statement-concerning-the-lymphatic-vessel-9d893940`
+  (lymphatic vessel structure: bicuspid valves, beaded appearance) and
+  `surface-receive-lymph-from-afferent-vessel-while-surface-whe-cfcfeed1`
+  (lymph-node hilum: afferent on convex surface, efferent vessel + vein at
+  concave hilum) — genuinely **Lymph node** cluster content (21
+  already-tagged rows), not vein histology.
+- `greatest-total-cross-sectional-area-a-aorta-1242be79` (capillaries have
+  the greatest total cross-sectional area of any vessel type) — genuinely
+  **Vascular Function** hemodynamics (35 already-tagged rows), distinct
+  from the blood-volume-distribution facts kept above.
+- `in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04`
+  (capillary permeability rises in progressive/decompensated shock) —
+  genuinely **Basic Mechanisms of Circulatory Control** shock physiology
+  (18 already-tagged rows), not routed into the already-mis-pinned
+  `physiology-circulatory-control-hemorrhagic-shock.ts` file to avoid
+  compounding its open article-mismatch issue.
+- `regarding-brachiocephalic-veins-one-of-the-following-stateme-8aac4731`,
+  `regarding-the-anatomy-of-the-heart-following-statements-are-62f7c901`,
+  `the-mediastinal-surface-of-the-left-lang-shows-an-impression-24a9bb35`,
+  `which-vessel-passes-directly-behind-the-right-hilum-01be7ae1` — genuine
+  gross **thorax/heart/lung anatomy** (brachiocephalic vein drainage and
+  the thoracic duct; heart-chamber surfaces; the left lung's mediastinal
+  relations; the azygos vein behind the right hilum), not histology at
+  all. These 4 rows are a natural down-payment on **the next CVS leaf**
+  (Heart / Spleen / Lungs anatomy) — small in number, but confirm that
+  leaf's bank content genuinely exists and is distinct in kind (gross
+  anatomy, not histology or physiology) from every leaf closed so far.
+
+**Recompute confirms the closure**: after this session's three commits, the
+"what's left" script (below) shows exactly 8 remaining "Veins"-tagged rows
+(matching the 8 deliberately-unclaimed above) and 5 remaining
+"Arteries"-tagged rows (was 11 before this session; the 6 closed here were
+genuinely vein content, leaving the 2 Spleen + 1 Vascular Function + 2
+Basic-Mechanisms-of-Circulatory-Control rows run27 had already identified
+as unclaimed).
 
 ## A-V Connections (54/54 bank rows accounted for this session — run28) —
 40 kept, 12 excluded, 7 left unclaimed for other clusters (Basic Mechanisms
@@ -660,17 +848,51 @@ topic-only, lower priority.)
 
 ## Next action (resume-first)
 
-**run28's dispatched A-V Connections cluster is now closed (54/54
-accounted for — 40 kept, 12 excluded, 7 deliberately left unclaimed).**
-Per the dispatch brief's stated order, **Veins (34 bank rows) is next** —
-6 more Veins rows were already flagged mistagged-under-Arteries by run27
-(see the Arteries section above) and are not yet claimed by any file;
-check `cardiovascular-*.ts` files first, since this session did not touch
-Veins. run28 did not reach Veins this session (A-V Connections alone took
-three commits — two authoring, one exclude-tracking cleanup — and a
-substantial dedup-research pass that turned up a whole unimported
-histology-concepts batch) — this is a clean stop point, not an
-interruption.
+**run29's dispatched Veins cluster is now closed (34 bank-tagged rows + 6
+deferred from Arteries = 40 accounted for — 21 kept total: 16 via 2 new
+files (9 sparse-reuse + 7 fresh-mint), 1 via a leaf-mismatch routing onto
+`cardiovascular-artery-classification.ts`, 4 more routed onto already-
+existing concepts in 2 other files; 10 excluded; 8 deliberately left
+unclaimed).** Per the dispatch brief's stated order, **the next CVS leaf —
+Heart / Spleen / Lungs anatomy — is next.** Concretely:
+- **The heart (13 already-tagged bank rows)** has a real head start: 4
+  genuine gross-anatomy rows surfaced this session, bank-tagged "Veins"
+  but content-wise heart/thorax anatomy (`regarding-brachiocephalic-veins-
+  one-of-the-following-stateme-8aac4731`, `regarding-the-anatomy-of-the-
+  heart-following-statements-are-62f7c901`, `the-mediastinal-surface-of-
+  the-left-lang-shows-an-impression-24a9bb35`,
+  `which-vessel-passes-directly-behind-the-right-hilum-01be7ae1`) — read
+  these first alongside the 13 already-tagged "The heart" rows before
+  minting anything, since together they may cluster into shared concepts
+  (e.g. great-vessel/mediastinal relations).
+- **Spleen (26 already-tagged rows + 2 deferred from Arteries — see the
+  Arteries section above — = 28 effectively)** and a not-yet-checked
+  "Lungs anatomy" grouping (the bank's own leaf tags for lung/pleura gross
+  anatomy, distinct from the already-closed Respiratory Portion/Pulmonary
+  Compliance histology-physiology leaves, have not been enumerated yet —
+  run a leaf-tag survey of the bank before assuming which tag names apply)
+  are both untouched; no dedicated file exists for either.
+- No `cardiovascular-heart-anatomy.ts` or similar file exists yet —
+  `cardiovascular-heart-wall-and-valves.ts` is **histology** (cardiac
+  valve microstructure only, 1 concept), not gross anatomy; a new file is
+  needed. Check `104-CPS-anatomy-concepts.md` / `104-CPS-anatomy.md` (this
+  session confirmed these exist as a separate concept/article pair from
+  the histology and physiology ones already used) for pinned,
+  unimported anatomy concepts before minting, per the heightened CVS
+  dedup mitigation — a hand-authored anatomy batch parallel to the
+  histology-concepts one found in A-V Connections is plausible and
+  unchecked.
+- **Article coverage is unverified for this leaf.** Before authoring
+  against any article, confirm it actually teaches gross thorax/heart/
+  lung anatomy (brachiocephalic vein course, heart chamber/surface
+  relations, azygos vein at the right hilum) — `104-CPS-anatomy.md` is the
+  most likely home, but read it in full first per the heightened article-
+  mispinning awareness; do not assume a histology or physiology article
+  covers this content just because it shares the CVS subject.
+
+**Superseded, kept for history — run28's own closing note:**
+A-V Connections: 54/54 accounted for (40 kept, 12 excluded, 7 deliberately
+left unclaimed — see the A-V Connections section above).
 
 **Superseded, kept for history — run27's own closing note:**
 Arteries: 58/58 accounted for (43 kept, 6 excluded, 9 left unclaimed for
