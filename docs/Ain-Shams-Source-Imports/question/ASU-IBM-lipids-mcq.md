@@ -6016,3 +6016,1281 @@ yes
 
 ## author_notes
 9 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the simple-lipid-subtypes (neutral fats vs waxes) concept already minted in Kasr's 102 INT batch (pending-live overlay).
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q44
+
+## title
+The main function of Lipoproteins is
+
+## question
+The main function of Lipoproteins is
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Storage of lipids in tissues
+
+## explanation_a
+Incorrect. Lipid storage happens in adipose tissue (as triacylglycerol in adipocytes), not in the plasma lipoprotein particles themselves, which are transport vehicles rather than storage depots.
+
+## answer_b
+Cell membrane synthesis
+
+## explanation_b
+Incorrect. Membrane synthesis uses lipids (such as phospholipids and cholesterol) once they are delivered to a cell, but building membranes is not what a lipoprotein particle itself does.
+
+## answer_c
+Source of energy
+
+## explanation_c
+Incorrect. Fatty acids and glucose are the body's direct energy sources; the lipoprotein particle's job is to deliver lipid to and from tissues, not to be oxidized for energy itself.
+
+## answer_d
+Transport lipid in blood
+
+## explanation_d
+Correct. Lipoproteins are spherical particles that combine lipid (triacylglycerol, cholesterol, cholesteryl ester and phospholipid) with protein (apolipoproteins) specifically so that fat, which is not water-soluble, can be carried through the aqueous blood plasma. Different lipoprotein classes (chylomicrons, VLDL, LDL, HDL) transport lipid between the intestine, liver and peripheral tissues, but transporting lipid in the blood is the shared main function of the whole particle family.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-BC3711E4C9282F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-STRUCTURE-CLASSIFICATION
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that the main function of a lipoprotein particle is to transport lipid through the blood.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q41, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+30
+
+## randomise_answers
+yes
+
+## author_notes
+10 of 19 authored to complete the Lipids & Biological Membrane section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q45
+
+## title
+All the following statements are true except:
+
+## question
+All the following statements are true except:
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+phosphatidyl choline are typically found in the outer leaflet
+
+## explanation_a
+Incorrect — this statement is true, so it is not the exception. Phosphatidylcholine is indeed concentrated on the outer leaflet of the plasma membrane.
+
+## answer_b
+phosphatidyl serine & phosphatidyl ethanolamine are located in the inner leaflet
+
+## explanation_b
+Incorrect — this statement is true, so it is not the exception. These two phospholipids are indeed concentrated on the inner (cytosolic) leaflet.
+
+## answer_c
+Cholesterol is present in the larger amount in the outside
+
+## explanation_c
+Incorrect — this statement is true, so it is not the exception. Most of the membrane's cholesterol is indeed associated with the outer leaflet.
+
+## answer_d
+Carbohydrates is present in the larger amount in the inner leaflet
+
+## explanation_d
+Correct — this is the false statement. Membrane carbohydrate, part of the glycocalyx, is found exclusively on the outer leaflet, facing the extracellular space — it is never found on the inner, cytosolic-facing leaflet, let alone in a larger amount there. That is exactly why this statement is false and is the exception the question asks for.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-E993B90BE43DDA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify which statement about membrane phospholipid and carbohydrate leaflet distribution is false.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q43, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+11 of 19 authored to complete the Lipids & Biological Membrane section; pairs with Q47 below (same reused membrane-asymmetry concept, positive-framing angle).
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q46
+
+## title
+In addition to choline, which of the following are the products of hydrolysis of lecithin?
+
+## question
+In addition to choline, which of the following are the products of hydrolysis of lecithin?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Glycerol, fatty acids, choline
+
+## explanation_a
+Incorrect. The question asks what is produced in addition to choline, so choline cannot also be part of that answer — repeating it here does not name the additional products.
+
+## answer_b
+Glycerol, fatty acids, ethanolamine
+
+## explanation_b
+Incorrect. Ethanolamine is the head group released by hydrolysing cephalin, not lecithin — lecithin releases choline, not ethanolamine.
+
+## answer_c
+Glycerol, fatty acids, phosphoric acid
+
+## explanation_c
+Correct. Lecithin (phosphatidylcholine) is built from glycerol, two fatty acids, a phosphate group and choline. Complete hydrolysis breaks every one of these bonds, releasing glycerol, the two fatty acids, phosphoric acid and choline — so alongside choline, the additional products are exactly glycerol, fatty acids and phosphoric acid.
+
+## answer_d
+Sphingosine, acetic acid, inositol
+
+## explanation_d
+Incorrect. Sphingosine is the backbone of sphingolipids, not of lecithin, which is a glycerol-based (not sphingosine-based) phospholipid; none of these three are hydrolysis products of lecithin.
+
+## answer_e
+Sphingosine, fatty acids, choline
+
+## explanation_e
+Incorrect. Sphingosine is not a component of lecithin at all — lecithin's backbone is glycerol, not sphingosine, so hydrolysing it cannot release sphingosine.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-268703EAF31C9D
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State the additional (non-choline) products of lecithin's complete hydrolysis: glycerol, fatty acids and phosphoric acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q46, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+12 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the lecithin-hydrolysis/glycerophospholipid-vs-sphingophospholipid concept already authored earlier in this file (Q22/raw Q25), retested here from the positive-framing angle.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q47
+
+## title
+Which of the following best matches the asymmetric distribution of lipids in normal plasma membranes?
+
+## question
+Which of the following best matches the asymmetric distribution of lipids in normal plasma membranes?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Cholesterol is mainly on the inner leaflet
+
+## explanation_a
+Incorrect. Most of the membrane's cholesterol is associated with the outer leaflet, not the inner one.
+
+## answer_b
+Phosphatidylethanolamine is on the outer leaflet
+
+## explanation_b
+Incorrect. Phosphatidylethanolamine is concentrated on the inner (cytosolic) leaflet, not the outer one — this reverses its true location.
+
+## answer_c
+Phosphatidylserine is on the inner leaflet
+
+## explanation_c
+Correct. The plasma membrane's phospholipids are asymmetrically arranged: phosphatidylserine, together with phosphatidylethanolamine, is concentrated on the inner (cytosolic) leaflet, while phosphatidylcholine and most of the membrane's cholesterol sit on the outer leaflet. This asymmetry is actively maintained by flippase enzymes, and its loss — phosphatidylserine appearing on the outer leaflet — is in fact the signal that marks a cell for phagocytic clearance, for example in apoptosis.
+
+## answer_d
+Phosphatidylcholine is on the inner leaflet
+
+## explanation_d
+Incorrect. Phosphatidylcholine is concentrated on the outer leaflet, not the inner one — this reverses its true location.
+
+## answer_e
+Cholesterol ester is on the outer leaflet
+
+## explanation_e
+Incorrect. Cholesterol ester is not a membrane constituent at all (it is a storage/transport form of cholesterol found in lipid droplets and lipoproteins), so it is not found on either membrane leaflet.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-E993B90BE43DDA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify phosphatidylserine's location on the inner leaflet as the correct description of plasma-membrane lipid asymmetry.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q48, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+13 of 19 authored to complete the Lipids & Biological Membrane section; retests Q45's membrane-asymmetry concept from a positive-framing angle.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q48
+
+## title
+Pulmonary surfactant contains which of the following?
+
+## question
+Pulmonary surfactant contains which of the following?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Palmitic and stearic acids
+
+## explanation_a
+Incorrect. Surfactant's key phospholipid carries two identical palmitic acid chains, not one palmitic and one stearic acid.
+
+## answer_b
+Two stearic acids
+
+## explanation_b
+Incorrect. The fatty acid in question is palmitic acid, not stearic acid.
+
+## answer_c
+Palmitic and oleic acids
+
+## explanation_c
+Incorrect. Surfactant's main phospholipid carries two saturated (palmitic) chains, not one saturated and one unsaturated (oleic) chain.
+
+## answer_d
+Two oleic acids
+
+## explanation_d
+Incorrect. Oleic acid is unsaturated; surfactant's main phospholipid is specifically dipalmitoyl, i.e. two saturated palmitic acid chains.
+
+## answer_e
+Two palmitic acids
+
+## explanation_e
+Correct. Pulmonary surfactant's principal phospholipid is dipalmitoyl phosphatidylcholine (dipalmitoyl lecithin, DPPC) — phosphatidylcholine carrying two palmitic acid chains in place of its usual mixed saturated/unsaturated pair. This fully-saturated, symmetrical structure packs tightly at the air-water interface of the alveolus, which is what lets surfactant lower surface tension and prevent alveolar collapse; a deficiency of this same molecule is the cause of neonatal respiratory distress syndrome.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-A66D0FD336DDDA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-LIPID-AUTOIMMUNE-NEONATAL
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify dipalmitoyl phosphatidylcholine's two palmitic acid chains as pulmonary surfactant's key fatty-acid composition.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q49, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+14 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the RDS/DPPC concept already minted earlier in this file (Q01/raw Q39, Q06/raw Q40, Q12/raw Q6, Q15/raw Q11), retested here from the fatty-acid-composition angle. Raw Q52 ("fatty acid components of the main glycerol-phospholipid of lung surfactant") retests this identical fact and is not separately authored.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q49
+
+## title
+Which one of the following is a glycerophospholipid which plays a role in a signal transduction?
+
+## question
+Which one of the following is a glycerophospholipid which plays a role in a signal transduction?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Phosphatidyl glycerol
+
+## explanation_a
+Incorrect. Phosphatidylglycerol is a structural/surfactant-associated glycerophospholipid; it is not the one credited with a second-messenger signalling role.
+
+## answer_b
+Phosphatidyl inositol
+
+## explanation_b
+Correct. Phosphatidylinositol acts as a second messenger to many chemical transmitters, hormones and growth factors: receptor activation triggers its cleavage into diacylglycerol and inositol trisphosphate, both of which relay the signal onward inside the cell. This signalling role is unique among the glycerophospholipids to phosphatidylinositol.
+
+## answer_c
+Cephalin
+
+## explanation_c
+Incorrect. Cephalin (phosphatidylethanolamine) is a structural membrane phospholipid; it is not the glycerophospholipid this bank credits with a signal-transduction role.
+
+## answer_d
+Lecithin
+
+## explanation_d
+Incorrect. Lecithin (phosphatidylcholine) is a structural membrane phospholipid and the main constituent of surfactant; it is not the one with the second-messenger signalling role.
+
+## answer_e
+Cardiolipin
+
+## explanation_e
+Incorrect. Cardiolipin is a phospholipid characteristic of the inner mitochondrial membrane; it is not the glycerophospholipid credited with a signal-transduction role.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-0958D1436FD2E7
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify phosphatidylinositol as the glycerophospholipid with a second-messenger signal-transduction role.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q50, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+15 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the phosphatidylinositol second-messenger concept already minted in Kasr's 102 INT batch (pending-live overlay).
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q50
+
+## title
+What is meant by omega-3 fatty acids?
+
+## question
+What is meant by omega-3 fatty acids?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+A double bond between carbons 3 and 4 of a fatty acid
+
+## explanation_a
+Incorrect. This numbers the double bond from the wrong end — omega numbering counts from the methyl end of the chain, not from carbon 3 counted from the carboxyl end.
+
+## answer_b
+Fatty acids with 3 double bonds
+
+## explanation_b
+Incorrect. The number in "omega-3" refers to the position of the first double bond counted from the methyl end, not to how many double bonds the fatty acid has in total — a fatty acid can be omega-3 with only one double bond, as long as that first one starts at carbon 3 from the methyl end.
+
+## answer_c
+A double bond at third carbon from the methyl end of fatty acid
+
+## explanation_c
+Correct. Omega numbering counts carbons from the methyl end of the fatty acid chain (the end opposite the carboxyl group), which is also called the omega end. An omega-3 fatty acid is defined by having its first double bond begin at the third carbon counted from that methyl end — this positional rule, not the total double-bond count, is what the omega-n naming system actually describes.
+
+## answer_d
+Three fatty acids attached to glycerol
+
+## explanation_d
+Incorrect. This describes a triacylglycerol's structure (three fatty acids esterified to one glycerol), which has nothing to do with the omega-numbering of a single fatty acid's double bonds.
+
+## answer_e
+Three fatty acids attached to the third carbon of glycerol
+
+## explanation_e
+Incorrect. Glycerol has only three carbons in total, so three fatty acids cannot all attach to just its third carbon; this option also confuses triacylglycerol's structure with fatty-acid omega-numbering.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-EF095C4684A32B
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+48
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Define the omega-numbering rule (counting from the methyl end) and apply it to the definition of an omega-3 fatty acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q51, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+16 of 19 authored to complete the Lipids & Biological Membrane section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q51
+
+## title
+Which of the following vitamins is derived from cholesterol?
+
+## question
+Which of the following vitamins is derived from cholesterol?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Thiamine
+
+## explanation_a
+Incorrect. Thiamine (vitamin B1) is a water-soluble vitamin obtained from the diet; it is not synthesized from cholesterol.
+
+## answer_b
+Vitamin C
+
+## explanation_b
+Incorrect. Vitamin C (ascorbic acid) is a water-soluble vitamin unrelated to cholesterol's steroid structure.
+
+## answer_c
+Vitamin D
+
+## explanation_c
+Correct. Cholesterol is the precursor of vitamin D: its derivative 7-dehydrocholesterol, present in the skin, is converted to cholecalciferol (vitamin D3) on exposure to ultraviolet light. This is one of several essential roles cholesterol plays as a precursor molecule, alongside its conversion to bile acids and to the steroid hormones.
+
+## answer_d
+Vitamin B6
+
+## explanation_d
+Incorrect. Vitamin B6 (pyridoxine) is a water-soluble B vitamin obtained from the diet; it has no biosynthetic link to cholesterol.
+
+## answer_e
+Vitamin B12
+
+## explanation_e
+Incorrect. Vitamin B12 (cobalamin) is a water-soluble vitamin obtained from animal-source foods; it is not derived from cholesterol.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-E77FD4A4D78884
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+35
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify vitamin D as the vitamin synthesized from cholesterol.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q53, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+30
+
+## randomise_answers
+yes
+
+## author_notes
+17 of 19 authored to complete the Lipids & Biological Membrane section; main_concept is the cholesterol-precursor concept already authored earlier in this file (Q05/raw Q10, Q09/raw Q2, Q16/raw Q14, Q29/raw Q35, Q32/raw Q44), retested here via the vitamin-focused angle. Raw Q54 ("main precursor of eicosanoids") retests Q04/raw Q34's arachidonic-acid-precursor fact and is not separately authored.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q52
+
+## title
+Which of the following is one of omega-9 Fatty acids?
+
+## question
+Which of the following is one of omega-9 Fatty acids?
+
+## subject
+pharm
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Arachidic acid
+
+## explanation_a
+Incorrect. Arachidic acid is a saturated fatty acid (20 carbons, no double bonds), so it has no double bond position to classify it as omega-anything.
+
+## answer_b
+Linoleic acid
+
+## explanation_b
+Incorrect. Linoleic acid is the parent omega-6 fatty acid (its first double bond falls at carbon 6 from the methyl end), not omega-9.
+
+## answer_c
+Oleic acid
+
+## explanation_c
+Correct. Oleic acid is an 18-carbon monounsaturated fatty acid whose single double bond falls at the ninth carbon counted from the methyl end, which classifies it as an omega-9 fatty acid. Unlike the omega-3 (alpha-linolenic) and omega-6 (linoleic) families, omega-9 fatty acids such as oleic acid are not essential, because the body's own desaturase enzymes can introduce a double bond at that position.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. (Alpha-)linolenic acid is the parent omega-3 fatty acid (its first double bond falls at carbon 3 from the methyl end), not omega-9.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipid chemistry
+
+## main_concept
+CON-FND-FF8A332748DD30
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-MEMBRANE-SIGNALING-NOMENCLATURE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify oleic acid as the omega-9 fatty acid.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q55, p.27.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+19 of 19 authored, completing the omega-3/6/9 trio alongside the already-minted omega-3 (raw Q27) and omega-6 (raw Q57) example concepts. Raw Q56 ("one of omega-3 fatty acids") retests Q24/raw Q27's omega-3 fact and is not separately authored — this is the last of the 5 explicit near-duplicate skips (Q12, Q47, Q52, Q54, Q56), closing the section at 57/57 raw items resolved (52 authored, 5 skipped as duplicates).
