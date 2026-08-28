@@ -28,7 +28,7 @@
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
-    Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
+    Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
@@ -49,7 +49,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  49 questions were excluded and 0 held back for having no
+  55 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -19182,6 +19182,837 @@ Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The chapter structure contradicts the printed key. 'Non-Chemical (Nervous) Regulation of Respiratory Activity' (physiology department book p149-153) explicitly lists pain/limbic afferents, coughing and swallowing as nervous reflex sources of respiratory drive. Hypercapnia (raised PCO2) sits in a separate, earlier section, 'Ventilatory Response to Changes in CO2' (p148-149), stated as the major controller of respiration through chemoreceptors — the chemical route the non-chemical section is being contrasted against. It is therefore the one option that is not a non-chemical influence, not option C.
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-4C96FA7B6075
+## title
+CO₂ narcosis means:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+CO₂ narcosis means:
+## answer_a
+Stimulation of respiration due to marked decrease of arterial PCO₂ < 60 mmHg
+## explanation_a
+This describes hypocapnia, not hypercapnia: a marked fall in PCO2 reduces, rather than stimulates, the drive to breathe, since a rise in CO2 — not a fall — is the principal everyday stimulus to ventilation.
+## answer_b
+Depression of respiratory centers by mild increase of arterial PCO₂ > 10 mmHg
+## explanation_b
+A rise of only 10 mmHg is a mild, physiological stimulus that increases ventilation through the central chemoreceptors; it is nowhere near the markedly elevated level needed to depress rather than drive respiration.
+## answer_c
+Depression of respiratory centers by marked increase of arterial PCO₂ > 70 mmHg
+## explanation_c
+Correct. Carbon dioxide narcosis is the paradoxical depression of respiratory centre activity and consciousness produced by a marked rise in arterial PCO2, conventionally placed above about 70 mmHg. Moderate hypercapnia stimulates the central chemoreceptors and drives ventilation up, but once PCO2 climbs into this markedly elevated range, CO2 itself becomes directly narcotic to the central nervous system, blunting rather than boosting respiratory drive. This is why patients who chronically retain CO2 — advanced COPD being the classic example — are given supplemental oxygen cautiously: removing their hypoxic (peripheral chemoreceptor) drive without correcting the underlying hypoventilation lets PCO2 climb unchecked into the narcotic range.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## answer_d
+Stimulation of respiration due to marked decrease of arterial PCO₂ > 70 mmHg
+## explanation_d
+A decrease in PCO2 cannot itself cause CO2 narcosis, which by definition requires a marked increase above roughly 70 mmHg; pairing a fall in PCO2 with that same threshold value is an internal contradiction, and a falling PCO2 would in any case reduce, not stimulate, respiratory drive.
+## correct_answer
+C
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State what CO2 narcosis is, the approximate PCO2 threshold above which it occurs, and why it represents depression rather than stimulation of the respiratory centre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q95. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-721505CB42FC
+## title
+The most potent stimulator of the respiratory center is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The most potent stimulator of the respiratory center is:
+## answer_a
+Decrease in the blood oxygen tension
+## explanation_a
+A fall in blood oxygen tension does drive ventilation, but only through the peripheral chemoreceptors, and only once PO2 falls substantially below about 60 mmHg — a much weaker and later stimulus than a rise in CO2.
+## answer_b
+Decrease in the blood hydrogen ion concentration
+## explanation_b
+A decrease, rather than an increase, in hydrogen ion concentration means more alkaline blood, which would reduce rather than stimulate chemoreceptor drive — the opposite of what the most potent stimulator requires.
+## answer_c
+Decrease in the carbon dioxide tension in the cerebrospinal fluid
+## explanation_c
+A decrease in CSF CO2 tension lowers CSF H+ and would reduce, not increase, central chemoreceptor firing — again the opposite direction from what stimulates the respiratory centre most potently.
+## answer_d
+Increase in the blood carbon dioxide tension
+## explanation_d
+Correct. A rise in arterial PCO2 is the single most potent everyday stimulus to the respiratory centre: a rise of only about 3% in arterial PCO2 can double ventilation, an effect exerted mainly through the central chemoreceptors, which respond to the resulting fall in CSF pH once CO2 diffuses across the blood-brain barrier. A smaller share of the CO2 response runs through the peripheral chemoreceptors in the carotid and aortic bodies. This dominance of CO2 over oxygen is why arterial PO2 can fall a long way before ventilation rises appreciably, while even a small rise in PCO2 produces an immediate, large ventilatory response.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## correct_answer
+D
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Identify a rise in arterial PCO2 as the most potent everyday stimulus to the respiratory centre, acting chiefly through the central chemoreceptors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p20 q32. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-311593DCB756
+## title
+The peripheral chemoreceptors:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The peripheral chemoreceptors:
+## answer_a
+are situated in the carotid and aortic bodies. mo :
+## explanation_a
+Correct. The peripheral chemoreceptors are the glomus cells of the carotid bodies, at the bifurcation of the common carotid arteries, and the aortic bodies in the aortic arch. Their exceptionally high blood flow per gram of tissue lets them sense dissolved arterial PO2 directly rather than total oxygen content, which is why they remain responsive in anaemia and carbon monoxide poisoning even though those conditions reduce oxygen content without changing PO2. They provide only a minority share of resting respiratory drive, becoming the dominant stimulus only once PO2 falls substantially, which is why fixing their location and identity firmly matters.
+
+Why this is right:
+- Central chemoreceptors are responsible for 75-80% of respiratory drive at rest.
+- Peripheral chemoreceptors are almost insensitive to changes of PO2 from 100 down to 60 mmHg; below 60 mmHg there is a steep increase in the rate of impulse discharge to the respiratory centres.
+## answer_b
+are more sensitive to increased carbon dioxide tension than hypoxia
+## explanation_b
+The reverse is true: the peripheral chemoreceptors are far more sensitive to a fall in PO2 than to a rise in PCO2 — CO2 drives ventilation predominantly through the central chemoreceptors, and the peripheral route contributes only a minor share of the CO2 response.
+## answer_c
+are essential for maintaining normal resting breathing. 1
+## explanation_c
+Peripheral chemoreceptor input is not essential for normal resting breathing, which continues after their denervation; they become physiologically important mainly once PO2 falls well below its normal resting value, as in significant hypoxaemia.
+## answer_d
+send afferents to the respiratory centers along sympathetic nerves
+## explanation_d
+Peripheral chemoreceptor afferents travel to the respiratory centre via the glossopharyngeal nerve (carotid bodies) and the vagus nerve (aortic bodies), not along sympathetic fibres.
+## correct_answer
+A
+## main_concept
+CON-RES-C6F65BAAC06FAA
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Locate the peripheral chemoreceptors, explain why they sense PO2 directly rather than oxygen content, and state their afferent pathway.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p44 q142. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-887B42879A23
+## title
+Regarding the nervous control of respiration:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the nervous control of respiration:
+## answer_a
+the apneustic center sends inhibitory impulses to the inspiratory center
+## explanation_a
+The apneustic centre sends tonic excitatory, not inhibitory, drive to the inspiratory centre — when that excitatory input is left unopposed by the pneumotaxic centre, the result is prolonged inspiratory gasps (apneusis), the opposite of an inhibited inspiratory drive.
+## answer_b
+the inspiratory center is present in the medulla
+## explanation_b
+Correct. The inspiratory centre — the dorsal respiratory group — sits in the medulla, in and around the nucleus of the tractus solitarius, and is the neuron population that generates the basic rhythmic drive to the inspiratory muscles during quiet breathing. It fires on its own slow, irregular intrinsic rhythm rather than needing a signal from higher up, which is why an isolated medulla can still produce a crude breathing rhythm. The two pontine centres — apneustic and pneumotaxic — only tune this medullary rhythm; they do not replace it, which is the point this question tests.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_c
+the cerebral cortex has no effect on respiration. —
+## explanation_c
+The cerebral cortex does influence respiration — voluntary breath-holding, hyperventilation before speech, and singing all route through cortical pathways onto the respiratory centre, ending only at the 'break point' when rising PCO2 and falling PO2 override voluntary control.
+## answer_d
+Pneurnotaxic center stimulates inspiration
+## explanation_d
+The pneumotaxic centre inhibits, rather than stimulates, inspiration: it switches off the inspiratory ramp signal from the medulla, which is what sets the rate and depth of breathing rather than prolonging each breath.
+## correct_answer
+B
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Locate the inspiratory centre in the medulla and distinguish its role from the excitatory apneustic and inhibitory pneumotaxic pontine centres, and from cortical voluntary control.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p23 q47. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A618FD560F80
+## title
+The basic rhythm of respiration is generated by neurons located in the medulla. Which o…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The basic rhythm of respiration is generated by neurons located in the medulla. Which of the ‘following can limit the duration of inspiration?
+## answer_a
+Apneustic center
+## explanation_a
+The apneustic centre does the opposite: unopposed, it prolongs inspiration rather than limiting its duration, producing apneustic breathing.
+## answer_b
+Dorsal respiratory group
+## explanation_b
+The dorsal respiratory group generates the basic inspiratory rhythm itself in the medulla; it is the rhythm being limited, not the structure that limits it.
+## answer_c
+Pneumotaxic center
+## explanation_c
+Correct. The pneumotaxic centre, in the upper pons, limits the duration of inspiration by switching off the inspiratory ramp signal generated in the medulla, allowing expiration to begin at an appropriate point. This 'off-switch' action is what sets the rate and depth of breathing from breath to breath, and it is the functional opposite of the apneustic centre, which prolongs inspiration rather than limiting it. Losing pneumotaxic input experimentally produces apneusis — abnormally long inspiratory gasps — the clearest evidence that this centre's normal job is to end inspiration on time.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+Nucleus ambiguous
+## explanation_d
+The nucleus ambiguus contributes motor fibres to the pharynx and larynx via cranial nerves IX and X and plays no role in setting the duration of inspiration.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Identify the pneumotaxic centre as the structure that limits the duration of inspiration, and distinguish its off-switch role from the apneustic centre, dorsal respiratory group and nucleus ambiguus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p14 q26. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BE5CA5A85081
+## title
+The pneumotaxic center:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The pneumotaxic center:
+## answer_a
+initiates rhythmic respiration
+## explanation_a
+Rhythmic respiration is initiated by pacemaker neurons in the medullary pre-Botzinger complex driving the dorsal respiratory group, not by the pneumotaxic centre, which only tunes an already-generated rhythm.
+## answer_b
+sends excitatory impulses to the inspiratory centers
+## explanation_b
+The pneumotaxic centre sends inhibitory, not excitatory, signals to the inspiratory centre — it is the apneustic centre that provides excitatory drive.
+## answer_c
+inhibits the apneustic center
+## explanation_c
+Correct. The pneumotaxic centre, in the upper pons, inhibits both the dorsal respiratory group and the apneustic centre, switching off the inspiratory ramp signal and so setting the rate and depth of breathing. Because it inhibits the apneustic centre's tonic excitatory drive to the medulla, removing the pneumotaxic centre experimentally unmasks the apneustic centre's unopposed excitation and produces apneustic breathing — long inspiratory gasps with only brief expiration. This inhibitory relationship between the two pontine centres is the mechanism behind normal breath-to-breath rate and depth control.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_d
+is present in the medulla
+## explanation_d
+The pneumotaxic centre lies in the upper pons, not the medulla; placing it in the medulla confuses it with the dorsal and ventral respiratory groups.
+## correct_answer
+C
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the pneumotaxic centre inhibits both the dorsal respiratory group and the apneustic centre, and locate it correctly in the upper pons.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p23 q48. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-2F9F3B0C56D7
+## title
+The respiratory center includes:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The respiratory center includes:
+## answer_a
+Inspiratory neurons that are present in the medulla
+## explanation_a
+Correct. The respiratory centre's inspiratory neurons — the dorsal respiratory group — sit in the medulla, around the nucleus of the tractus solitarius, and generate the basic rhythmic drive to the inspiratory muscles during quiet breathing. The pons contributes two separate tuning centres rather than a second set of inspiratory neurons: the apneustic centre and the pneumotaxic centre, each with an opposite effect on the medullary rhythm. Holding the medulla as the site of rhythm generation, with the pons only modulating it, is the anchor fact this whole topic builds on.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_b
+Inspiratory neurons in pons
+## explanation_b
+The pons does not contain a separate population of inspiratory neurons alongside the medulla's; instead it holds the apneustic and pneumotaxic centres, which tune the medullary inspiratory rhythm rather than generating their own.
+## answer_c
+Apneustic neurons in upper 1/3 of pons
+## explanation_c
+The apneustic centre sits in the lower third of the pons, not the upper third — this option reverses the correct locations of the two pontine centres.
+## answer_d
+Pneumataxic neurons in lower 1/3 of pons
+## explanation_d
+The pneumotaxic centre sits in the upper third of the pons, not the lower third — again a reversal of the two pontine centres' correct locations.
+## correct_answer
+A
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the respiratory centre's inspiratory neurons lie in the medulla, and correctly locate the apneustic centre (lower pons) and pneumotaxic centre (upper pons).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p20 q33. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FABA50A407DA
+## title
+The respiratory center includes: a, inspiratory neurons that are present in the medulla
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The respiratory center includes: a, inspiratory neurons that are present in the medulla
+## answer_a
+inspiratory neurons that are present in the medulla.
+## explanation_a
+Correct. Quiet breathing is driven by inspiratory neurons of the dorsal respiratory group, located in the medulla rather than the pons. The two structures in the pons — the apneustic centre and the pneumotaxic centre — modulate this medullary rhythm from opposite directions instead of generating a second, independent inspiratory rhythm of their own. This exact option set recurring across different question books is itself a clue that examiners treat the medulla-versus-pons location as the single fact most worth testing here.
+
+Why this is right:
+- The dorsal respiratory group is the primary inspiratory centre; it has inherent rhythmicity, however irregular and slow, so its activity is finely modified by the pontine centres.
+## answer_b
+inspiratory neurons in pons,
+## explanation_b
+There is no separate set of inspiratory neurons native to the pons; the pons instead houses the apneustic and pneumotaxic centres, each of which acts on the medulla's own inspiratory rhythm rather than generating an independent one.
+## answer_c
+apneustic neurons in upper 1/3 of pons.
+## explanation_c
+This reverses the apneustic centre's true location: it lies in the lower third of the pons, not the upper third.
+## answer_d
+pneumataxic neurons in lower 1/3 of pons
+## explanation_d
+This reverses the pneumotaxic centre's true location: it lies in the upper third of the pons, not the lower third.
+## correct_answer
+A
+## main_concept
+CON-RES-A54FECB95CBEBC
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Restate that inspiratory neurons generating the basic breathing rhythm lie in the medulla, and correctly assign the apneustic centre to the lower pons and the pneumotaxic centre to the upper pons.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p44 q145. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-34625650FB45
+## title
+Which of the following can stop normal inspiration and start expiration?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following can stop normal inspiration and start expiration?
+## answer_a
+Apneustic center
+## explanation_a
+The apneustic centre does the opposite of stopping inspiration: left unopposed, it prolongs inspiration rather than ending it.
+## answer_b
+Dorsal respiratory group
+## explanation_b
+The dorsal respiratory group generates the basic inspiratory drive itself; it is the rhythm being switched off, not the mechanism that switches it off.
+## answer_c
+Herring Breuer reflex
+## explanation_c
+Correct. The Hering-Breuer (inflation) reflex is triggered when lung inflation stretches receptors in the walls of the bronchi and bronchioles; the resulting afferent signal travels through the vagus nerve to inhibit the dorsal respiratory group and the apneustic centre, stopping inspiration and allowing expiration to begin. It acts as an 'off-switch' for inspiration, alongside the pneumotaxic centre's own off-switch role. In adults at rest it stays largely silent and only engages once tidal volume rises to more than about three times normal, as in exercise, though it shapes every breath in the newborn.
+
+Why this is right:
+- In human adults, the Hering-Breuer reflex is important only in cases of high rates and depths of respiration, such as exercise, when tidal volume increases to more than three times normal.
+## answer_d
+Cushing reflex
+## explanation_d
+The Cushing reflex is a cardiovascular pressor response to rising intracranial pressure and cerebral ischaemia — a rise in systemic blood pressure with reflex bradycardia — and plays no part in the normal inspiration-to-expiration transition.
+## correct_answer
+C
+## main_concept
+CON-RES-B68E39C6B4178F
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State the stimulus, afferent pathway and effect of the Hering-Breuer reflex, and distinguish it from the apneustic centre and dorsal respiratory group.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p13 q92. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
 
 ---
 

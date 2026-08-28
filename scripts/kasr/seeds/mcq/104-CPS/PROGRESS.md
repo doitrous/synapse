@@ -1,12 +1,92 @@
 # 104 CPS MCQ authoring — progress
 
-Branch: `kasr-104-author-run25` (off `kasr-104-author-run23` @ `29aff753`,
-pushed to origin). run24 was interrupted mid-Pulmonary-Compliance and never
-committed anything — its work is gone, redone cleanly here.
+Branch: `kasr-104-author-run26` (off `kasr-104-author-run25` @ `14f77eef`,
+pushed to origin). run25's own base was `kasr-104-author-run23` @ `29aff753`;
+run24 was interrupted mid-Pulmonary-Compliance and never committed anything —
+its work is gone, redone cleanly in run25.
 
 Bank total: 1289 questions in `scripts/kasr/extract/104-CPS/mcq-bank.json`.
-As of this session's HEAD: **340 kept / 1114 keyed**, 49 excluded, 78 MCQ
+As of this session's HEAD: **349 kept / 1114 keyed**, 55 excluded, 81 MCQ
 concepts.
+
+## Control of Respiration (15/15 triaged this session: 9 kept, 6 excluded)
+— run26, extends the already-existing `physiology-control-of-respiration.ts`
+(kept its 1 existing concept + 1 question). Its article
+`ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS` was already live in
+`104-CPS-physiology.md` and already covers DRG/VRG, apneustic/pneumotaxic
+centres, central/peripheral chemoreceptors, CO2 narcosis and the
+Hering-Breuer reflex in full — no article-coverage gap this time.
+
+**Dedup win, not a duplicate-mint**: all 3 concepts this cluster needed
+already existed as **hand-authored, pinned** records in
+`docs/Kasr-Source-Imports/concept/104-CPS-physiology-concepts.md` (not
+`GENERATED_BY`, so `existingConceptIds()` in build-batches.ts does scan it) —
+`CON-RES-A54FECB95CBEBC` (`respiratory-center.drg-vrg-pontine-groups-and-
+rhythm-generation`), `CON-RES-C6F65BAAC06FAA` (`chemoreceptors-respiratory.
+central-and-peripheral-drive-contributions`) and `CON-RES-B68E39C6B4178F`
+(`hering-breuer-reflex.pulmonary-stretch-receptors`). Declaring these same
+canonical_keys in the seed made `resolveConceptId` resolve to the pinned ids
+and emit sparse reuse rows (label restated verbatim, only `exam_signal` +
+`+article_ids` added) — confirmed in the built output, and confirmed by the
+concept-id diff showing exactly these 3 ids as the only "new" concept ids,
+with 0 ids lost anywhere. This is the mechanism the run25 hazard note
+describes as blind for `GENERATED_BY` files; `104-CPS-physiology-concepts.md`
+is a different, hand-authored file the mechanism does see, so no dedup
+mitigation (fresh mint + `conflicts` note) was needed here — genuinely no
+duplicate-mint risk this time.
+
+Questions:
+- `respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation`: 5 kept
+  (nervous control locates the inspiratory centre in the medulla vs cortex/
+  apneustic/pneumotaxic; pneumotaxic centre limits inspiration duration;
+  pneumotaxic centre inhibits the apneustic centre; "respiratory center
+  includes" location question asked twice across different question books
+  with an identical option set, reworded stems — both kept as separate
+  questions per the Respiratory Portion cluster's own precedent for
+  repeated-verbatim-option-set rows).
+- `chemoreceptors-respiratory.central-and-peripheral-drive-contributions`:
+  3 kept (CO2 narcosis threshold/mechanism; CO2 as the most potent
+  respiratory stimulus; peripheral chemoreceptor location/afferents/
+  properties).
+- `hering-breuer-reflex.pulmonary-stretch-receptors`: 1 kept (which
+  mechanism stops inspiration and starts expiration).
+
+**Excluded (6), all genuinely unfixable from the seed layer, not judgement
+calls**:
+- `all-about-peripheral-chemoreceptors-is-true-except-332ae5b1` — option C's
+  text is corrupted at the OCR/extraction stage: a literal Arabic letter
+  (waw, U+0648) stands in for the "P" of "PO2", wrapped in RTL/LRM direction
+  marks, confirmed by inspecting the raw codepoints. A clean variant of this
+  exact option exists from a sibling exam-book occurrence, but the bank
+  keeps this occurrence's corrupted text as canonical and there is no
+  seed-level field to override option text (only the answer letter can be
+  overridden via `answerOverride`) — same class of unfixable defect as the
+  leading-`+` hazard.
+- `concerning-the-interaction-of-respiratory-centers-in-the-bra-61d1bcea` —
+  all four options are truncated OCR fragments (weakest fuzzy-OCR match in
+  this cluster, ratio 0.749), and the bank's own answer text contradicts
+  standard brainstem-transection physiology (apneustic-centre isolation
+  produces apneusis — prolonged inspiration, not the "prolonged expiration"
+  this option states). Independently confirmed out of scope: this leaf's own
+  article states in its own `evidence_gaps` that brainstem-transection
+  experimental evidence was not reached in the reading pass.
+- `in-metabolic-acidosis-compensatory-hyperventilation-occurs-i-4b08cc0a` —
+  option B's text ("3920 ml/minute; 3920 ml/minute") is garbage carried over
+  from an unrelated ventilation-calculation question in the same source PDF
+  (column-alignment OCR failure). Effectively a 3-option item once B is
+  discounted, below the 4-5 contract, with no seed-level fix available.
+- `the-basic-rhythm-of-respiration-is-generated-by-neurons-loca-4d2b32e9` and
+  `which-of-the-following-discharges-s-8-1-receptort-fa-ling-be-5358ae60` —
+  both already flagged `editorialExcluded` by the bank's own extraction
+  (correct answer's letter did not survive OCR).
+- `the-respiratory-center-includes-inspiratory-neurons-that-are-373857a5` —
+  corrupted OCR merge of two separate questions into one stem, with only 2
+  of an original 4 lettered options surviving; cannot be reconstructed to
+  the 4-5 option contract or confidently attributed to either underlying
+  question.
+
+**No new article-coverage gap this cluster** — the existing article already
+teaches everything the 9 kept questions test.
 
 ## Clusters fully closed (0 remaining bank rows for that `leaf` tag)
 
@@ -185,19 +265,23 @@ of Human Chromosome / Thymus / Special Circulation / Alveolar Phagocytes.
 
 ## Next action (resume-first)
 
-**Both this session's clusters are done**: Pulmonary Compliance (27/30
-triaged; 3 deferred to Vascular Function/GI, see above — do not re-open)
-and Respiratory Portion (28/30 triaged; 2 excluded — fully closed, 0
-remaining bank rows for that leaf). Continue "Lungs":
-1. **Control of Respiration** (15 remaining) — `physiology-control-of-
-   respiration.ts` already exists with 1 concept; extend it.
-2. Gas exchange in the lung (7 remaining) — the dispatch brief flags this
-   one needs a NEW physiology concept file + article scaffold before its
-   questions gate; do this last, deliberately, not as a quick add-on. Given
-   this session's hazard below, check for an existing article to reuse
-   (`ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING` already exists in
+**Control of Respiration is now fully closed** (15/15 triaged this session:
+9 kept, 6 excluded — 0 remaining bank rows for that leaf, see above).
+Pulmonary Compliance (27/30 triaged; 3 deferred to Vascular Function/GI —
+do not re-open) and Respiratory Portion (28/30 triaged, fully closed) were
+closed in run25. Continue "Lungs":
+
+1. **Gas exchange in the lung** (7 remaining) — the dispatch brief flags
+   this one needs a NEW physiology concept file + article scaffold before
+   its questions gate; do this deliberately, not as a quick add-on. Check
+   for an existing article to reuse first —
+   `ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING` already exists in
    `104-CPS-physiology.md` and covers diffusion/V-Q/shunt — likely the
-   right home) before minting a phantom id.
+   right home — before minting a phantom id. **Also search
+   `104-CPS-physiology-concepts.md` (and any Year-3 pulmonology catalogue)
+   for a pinned canonical_key before minting a concept** — Control of
+   Respiration this session found all 3 needed concepts already pinned
+   there, so check there first rather than assuming a fresh mint is needed.
 
 Then move to the CVS histology/anatomy leaves (Arteries 58, A-V
 Connections 54, Veins 34, Electrical Activity of the Heart 47,

@@ -28,7 +28,7 @@
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 4 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 13 questions, 5 concepts
-    Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
+    Physiology Respiratory System — Non-Chemical Control of Respiration — 16 questions, 4 concepts
     Physiology Respiratory System — Dead Space and Alveolar Ventilation — 6 questions, 3 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 8 questions, 1 concepts
     Pulmonary Compliance — 20 questions, 3 concepts
@@ -49,7 +49,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  49 questions were excluded and 0 held back for having no
+  55 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -3583,6 +3583,62 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-A54FECB95CBEBC
+## label
+The dorsal respiratory group drives normal quiet breathing alone, the ventral respiratory group activates only for forced breathing, and the pontine apneustic and pneumotaxic centres tune the medullary rhythm rather than generating it
+## canonical_key
+respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p23 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p14 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p44 | 104 CPS
+## article_ids
++ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## field_notes
+canonical_key "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation" already has a pinned id in this module (CON-RES-A54FECB95CBEBC); mintConceptId derives the same id fresh (CON-RES-A54FECB95CBEBC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-C6F65BAAC06FAA
+## label
+Central chemoreceptors provide 75-80% of resting respiratory drive, responding to CSF H+ generated when CO2 (not H+ itself) crosses the blood-brain barrier, while peripheral chemoreceptors provide the remaining 20-25%, monitoring arterial PO2 directly and switching on sharply only once PO2 falls below about 60 mmHg
+## canonical_key
+chemoreceptors-respiratory.central-and-peripheral-drive-contributions
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p20 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p44 | 104 CPS
+## article_ids
++ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## field_notes
+canonical_key "chemoreceptors-respiratory.central-and-peripheral-drive-contributions" already has a pinned id in this module (CON-RES-C6F65BAAC06FAA); mintConceptId derives the same id fresh (CON-RES-C6F65BAAC06FAA) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-B68E39C6B4178F
+## label
+The Hering-Breuer reflex — lung stretch receptors signalling through the vagus to inhibit the DRG and apneustic centre and switch off inspiration — matters little in resting adult breathing but engages once tidal volume triples, as in exercise
+## canonical_key
+hering-breuer-reflex.pulmonary-stretch-receptors
+## exam_signal
+src_a80db7ee55cde84f8ec8 | question_book | | p13 | 104 CPS
+## article_ids
++ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## field_notes
+canonical_key "hering-breuer-reflex.pulmonary-stretch-receptors" already has a pinned id in this module (CON-RES-B68E39C6B4178F); mintConceptId derives the same id fresh (CON-RES-B68E39C6B4178F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
