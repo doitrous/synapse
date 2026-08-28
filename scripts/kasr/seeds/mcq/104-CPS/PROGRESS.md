@@ -1,14 +1,163 @@
 # 104 CPS MCQ authoring — progress
 
-Branch: `kasr-104-author-run27` (off `kasr-104-author-run26` @ `1314b2ff`,
-pushed to origin). run26's own base was `kasr-104-author-run25` @ `14f77eef`;
-run25's own base was `kasr-104-author-run23` @ `29aff753`; run24 was
-interrupted mid-Pulmonary-Compliance and never committed anything — its work
-is gone, redone cleanly in run25.
+Branch: `kasr-104-author-run28` (off `kasr-104-author-run27` @ `bd7e9f9b`,
+pushed to origin). run27's own base was `kasr-104-author-run26` @ `1314b2ff`;
+run26's own base was `kasr-104-author-run25` @ `14f77eef`; run25's own base
+was `kasr-104-author-run23` @ `29aff753`; run24 was interrupted mid-
+Pulmonary-Compliance and never committed anything — its work is gone,
+redone cleanly in run25.
 
 Bank total: 1289 questions in `scripts/kasr/extract/104-CPS/mcq-bank.json`.
-As of this session's (run27's) HEAD: **395 kept / 1114 keyed**, 64 excluded,
-88 MCQ concepts.
+As of this session's (run28's) HEAD: **432 kept**, 71 excluded, 95 MCQ
+concepts. (run27's own HEAD was 395 kept, 64 excluded, 88 MCQ concepts.)
+
+## A-V Connections (54/54 bank rows accounted for this session — run28) —
+40 kept, 12 excluded, 7 left unclaimed for other clusters (Basic Mechanisms
+of Circulatory Control 2, Vascular Function 5). Three commits: the new
+histology leaf file, leaf-mismatch routing plus a physiology sparse reuse,
+and a cleanup pass that recorded 4 already-known corrupted rows as proper
+seed excludes (they had been identified but never actually written as
+`exclude: true` entries — caught by re-running the recompute script after
+the first two commits, which is why "what's left" tools exist).
+
+**A major dedup-research finding drives this whole cluster**: before
+minting anything, `find-existing.mjs "fenestrated capillary"` /
+`"lymphatic capillary"` / `"pericyte"` surfaced a **rich, complete,
+hand-authored histology concept set already sitting unimported** in
+`docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` and its
+sibling `docs/Kasr-Source-Imports/article/104-CPS-histology.md` — an
+earlier, separate authoring pass that filled every sub-heading of the
+department's histology chapters this MCQ pipeline had never read. Both
+files are **not GENERATED_BY** (so `existingConceptIds()` for module
+"104 CPS" does see them) and both are tagged `module_subject "104 CPS >
+Histology > Cardiovascular System > A-V Connections"` — this leaf, exactly.
+Three of this cluster's five new-file concepts are **sparse reuses** of
+that set, not fresh mints:
+- `fenestrated-capillary.structure-junctions-and-sites`
+  (`CON-CVS-132A76916FEC05`)
+- `blood-vs-lymphatic-capillary.structural-and-functional-comparison`
+  (`CON-CVS-E8964EBC8F2357`)
+- `capillary-exchange.starling-forces-and-trans-capillary-filtration`
+  (`CON-CVS-98657F1E7D300D`, in `104-CPS-physiology-concepts.md`, module
+  "Vascular Function")
+
+Also reused, in existing files: `alveolar-phagocytes.dust-cells-and-heart-
+failure-cells` (`CON-RES-D8B1BE3C6CFABD`, `respiratory-alveolar-
+phagocytes.ts`) and the already-in-file `thymus.dual-origin-and-epithelial-
+reticular-cells` (`lymphatic-thymus.ts`, no new search needed — already
+this pipeline's own prior concept).
+
+**The same pinned file also names the leaf's own dedicated article**:
+`ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS` ("Arteriovenous
+connections: capillary types and shunts"), a real, evidenced, Draft
+article in `104-CPS-histology.md` — not live yet, but not a phantom
+forward-reference either (the run25 hazard's distinction): it has real
+prose, a real evidence basis (department book pp. 11-13), and sits in a
+file this session can pass via `--with` at gate time. Used as this file's
+`articleId`; verified against its actual prose (read in full) before
+authoring against it, per the heightened article-mispinning awareness.
+
+Two more overlaps found and recorded, not reused — both the same
+GENERATED_BY-blind pattern documented for the Pulmonary-Compliance and
+Gas-Exchange clusters:
+- `capillary-types.continuous-and-sinusoidal-structure-and-sites` (fresh
+  mint) overlaps a live, thin, single-sentence Systems-view catalogue
+  (`CON-CVS-2A37D5DDEB19DB`/`047FC0A529AFBA`, pinned to
+  `ART-CVS-CARDIAC-HISTOLOGY`, no 104-CPS module) **and**
+  `CON-CVS-9585A65D9EDA4D`, the original hand-picked 40-question MCQ
+  batch's own continuous-vs-sinusoidal concept, sitting in the
+  *generated* `104-CPS-concepts.md` — reusing either would have emitted a
+  full record and silently overwritten a hand-authored one.
+- `capillary-pericyte.contractile-function-differentiation-and-position`
+  (fresh mint) overlaps the same Systems-view catalogue's
+  `CON-CVS-CC810A201244F0`/`5D4C49C48AA325` (pericyte flow/location, same
+  GENERATED_BY-blind reasoning).
+
+**Article-coverage gaps disclosed, not invented** (in the concept's own
+`gaps` field, per the "verify the article actually teaches it" rule): the
+covering article's Mechanism section states continuous-vs-sinusoid wall
+structure and the sinusoid's liver/spleen/bone-marrow sites, but not that
+continuous capillaries are commonest, that endocrine glands also carry
+sinusoids, that macrophages associate with the sinusoidal wall, or that
+sinusoids carry fewer pericytes — four facts, all standard histology,
+tested directly by this leaf's bank, flagged for the article-authoring
+lane. Separately, the article names pericytes only in passing (shared
+with the fenestrated capillary) and does not itself teach pericyte
+contractile function or differentiation potential — also disclosed.
+
+**Found, not fixed** (a different lane's pending, unreviewed Draft
+article, out of this session's own file-ownership scope): the same
+article's Clinical-significance section states arteriovenous shunts
+"dilate in cold and constrict in heat" — reversed from standard
+thermoregulatory physiology (dilate in heat for cooling, constrict in cold
+for conservation). Neither of this leaf's 2 AV-shunt questions depends on
+resolving that direction, so both were written without touching the
+erroneous sentence, and their own explanations state the correct
+physiology independently. Flagging for the histology-lane to correct in
+`104-CPS-histology.md`.
+
+**Cross-file concept overlap found, not merged, needing a routing
+decision this session did not make on its own**: `control-blood-flow-to-
+capillaries-49927906`, `is-terminal-portion-of-arteriole...-2a292f09` and
+`regarding-the-metarterioles...-f3764004` (bank-tagged "A-V Connections"
+but genuinely metarteriole/precapillary-sphincter content) were routed to
+run27's own `arterioles.resistance-function-and-regulation` concept in
+`cardiovascular-artery-classification.ts` (Arteries cluster, closed) —
+but a **separately-pinned**, not-yet-imported concept,
+`CON-CVS-E6F658EEC11072` (`metarteriole.precapillary-sphincter-and-flow-
+regulation`, module_subject "Arteries", same real
+`ART-104-HIS-ARTERIES-AND-VEINS` article), teaches the identical narrower
+fact in `104-CPS-histology-concepts.md`. Not reused here — run27's broader
+concept is this branch's own prior committed work, and switching to the
+pinned id mid-cluster would have required re-authoring rather than
+extending. Recorded for a future consolidation pass; needs a ruling on
+which of the two survives once `104-CPS-histology-concepts.md` is
+eventually imported.
+
+**Leaf-tag-unreliable hazard, confirmed yet again** (13 of 54 rows
+mistagged, the largest single-session count so far): 4 rows were genuinely
+Arteries content (`cardiovascular-artery-classification.ts`), 4 were
+genuinely Respiratory Portion content (2 kept onto existing concepts, 2
+excluded — one a 3-option contract violation, one a corrupted stem merging
+a bronchiole question with an alveolar-sac one), 1 was genuinely Alveolar
+Phagocytes content, and 1 was genuinely Thymus content (blood-thymic
+barrier, onto an already-existing question's own sibling concept, a
+distinct angle from that concept's existing question).
+
+**Hazards hit, confirmed against this session's own content**:
+- **Leading-`+` in an option value breaks import** (00-START-HERE §2,
+  already confirmed once in Organization-of-Respiratory-System): the
+  Starling-forces zero-net-flow calculation's option D is literally
+  "+2 mmHg". `medical:batch` refuses it outright
+  (`answer_d starts with "+"`); no seed-level field exists to rewrite
+  option text. Excluded.
+- **A+B/C+D option-merge corruption** (same class as the Arteries
+  cluster's own precedent): `the-blood-sinusoidal-capillaries-are-
+  characterized-by-the-fo-768558f4` — only 2 distinguishable choices
+  survive for a 4-option item. Excluded.
+- **Corrupted-stem merge with clean surviving options**: a bronchiole
+  question's stem bled into an alveolar-sac question's — the 4 lettered
+  options answer only the alveolar-sac half cleanly, with a confident
+  editorial-reconstruction answer, but the STEM ITSELF cannot be shown to
+  a student, and no seed-level field exists to override stem text (only
+  `answerOverride` exists, for the answer letter). Excluded — a genuinely
+  new hazard variant: previous sessions' stem-merge corruptions all also
+  corrupted the options; this is the first case found where the options
+  survive clean but the stem alone is unusable.
+- **A 3-option item where the "all of the above" option itself names a
+  now-incomplete set**: `which-of-the-following-is-a-component-of-the-
+  respiratory-mem-f9f2931b` — only A, B and D survive (no C), and D reads
+  "All of the above" over a set missing a member. Excluded; the same fact
+  survives cleanly on a sibling question already in the target file.
+- **A tracking gap, not a data-loss one**: this session initially decided
+  to exclude 2 already-bank-flagged rows and 2 self-found corrupted rows
+  but forgot to actually write the `exclude: true` seed entries for any of
+  the 4 — caught only by re-running the "what's left" recompute script
+  after the first two commits, which still showed 11 remaining rows
+  against a planned 7. All 4 added in a third, cleanup commit. **Always
+  re-run the recompute script after claiming a cluster closed, not just
+  after the first commit** — it is the only tool that catches this class
+  of "said I'd exclude it, never actually did" mistake.
 
 ## Arteries (58/58 bank rows accounted for this session — run27, the first
 CVS histology/anatomy leaf this pipeline has closed) — 43 kept, 6 excluded,
@@ -511,13 +660,21 @@ topic-only, lower priority.)
 
 ## Next action (resume-first)
 
-**run27's dispatched Arteries cluster is now closed (58/58 accounted
-for).** Per the dispatch brief's stated order, **A-V Connections (54 bank
-rows) is next** — none of it has a dedicated seed file yet as of this
-checkpoint; check `cardiovascular-*.ts` files first in case a future
-session already claimed some of it. run27 did not reach A-V Connections
-this session (Arteries alone took 5 commits and the full CVS dedup
-research pass) — this is a clean stop point, not an interruption.
+**run28's dispatched A-V Connections cluster is now closed (54/54
+accounted for — 40 kept, 12 excluded, 7 deliberately left unclaimed).**
+Per the dispatch brief's stated order, **Veins (34 bank rows) is next** —
+6 more Veins rows were already flagged mistagged-under-Arteries by run27
+(see the Arteries section above) and are not yet claimed by any file;
+check `cardiovascular-*.ts` files first, since this session did not touch
+Veins. run28 did not reach Veins this session (A-V Connections alone took
+three commits — two authoring, one exclude-tracking cleanup — and a
+substantial dedup-research pass that turned up a whole unimported
+histology-concepts batch) — this is a clean stop point, not an
+interruption.
+
+**Superseded, kept for history — run27's own closing note:**
+Arteries: 58/58 accounted for (43 kept, 6 excluded, 9 left unclaimed for
+Veins/Spleen/Vascular Function — see the Arteries section above).
 
 **Superseded, kept for history — run26's own closing note:**
 Control of Respiration: 15/15 triaged (9 kept, 6 excluded), 0 remaining
@@ -536,26 +693,43 @@ volumes catalogue; the written-paper `GENERATED_BY` surfactant concept) —
 add it to the standing list anyone touches when authoring hypoxia/shunt/
 anaemia-adjacent respiratory content.
 
-Remaining "Lungs"-adjacent work, not yet started, from the recompute
-script (rerun it, don't trust this count once anyone else has committed):
-58 Arteries, 54 A-V Connections, 47 Electrical Activity of the Heart, 36
-Mechanical Properties of Cardiac Muscle, 35 Vascular Function (+2 deferred
-from Pulmonary Compliance, +1 deferred from this session's gas-exchange
-pass = 38 effectively), 34 Veins, 26 Spleen, 24 Gas Transport by the Blood
-(+1 deferred from this session = 25 effectively), 21 Lymph node, 19
-Conducting Portion, 18 Basic Mechanisms of Circulatory Control, 17
-Tonsils, 13 Chromosomal Aberrations, 13 The heart, 1 each of Human
-Chromosome / Thymus / Special Circulation / Alveolar Phagocytes, plus 456
-`leaf:"(none)"` rows (topic-only, lower priority). None of the CVS
-histology/anatomy leaves have a dedicated seed file yet as of this
-checkpoint — check `cardiovascular-*.ts` files first, they may already own
-some of these.
+**Stale, superseded by run28 — kept for history only.** The paragraph
+below described counts before Arteries and A-V Connections were closed;
+see the recompute re-run just after it for the real, current picture.
 
-Then move to the CVS histology/anatomy leaves (Arteries 58, A-V
-Connections 54, Veins 34, Electrical Activity of the Heart 47,
-Mechanical Properties of Cardiac Muscle 36, Vascular Function 35) — all
-big, none started as dedicated files yet as of this checkpoint (check
-`cardiovascular-*.ts` files first, they may already own some of these).
+Remaining work as of **run28's own HEAD** (rerun the recompute script,
+don't trust this count once anyone else has committed): 47 Electrical
+Activity of the Heart, 36 Mechanical Properties of Cardiac Muscle, 35
+Vascular Function (+5 deferred from this session's A-V Connections pass,
++2 from Pulmonary Compliance, +1 from Gas-exchange = 43 effectively), 34
+Veins (+6 deferred from Arteries = 40 effectively — **Veins is next**),
+26 Spleen (+2 deferred from Arteries = 28 effectively), 24 Gas Transport
+by the Blood (+1 deferred = 25 effectively), 21 Lymph node, 19 Conducting
+Portion, 18 Basic Mechanisms of Circulatory Control (+2 deferred from this
+session's A-V Connections pass = 20 effectively), 17 Tonsils, 13
+Chromosomal Aberrations, 13 The heart, **11 Arteries** (deliberately left
+unclaimed, not open Arteries work — see the Arteries section above),
+**7 A-V Connections** (deliberately left unclaimed, not open A-V-
+Connections work — see the A-V Connections section above), 3 Pulmonary
+Compliance (deferred, not open work), 2 Gas exchange in the lung
+(deferred, not open work), 1 each of Human Chromosome / Thymus / Special
+Circulation / Alveolar Phagocytes, plus 456 `leaf:"(none)"` rows
+(topic-only, lower priority).
+
+Of the CVS histology/anatomy leaves, **Arteries and A-V Connections are
+now closed** (dedicated files exist: `cardiovascular-artery-
+classification.ts`, `cardiovascular-capillary-exchange.ts`,
+`cardiovascular-av-connections-histology.ts`). **Veins, Electrical
+Activity of the Heart, Mechanical Properties of Cardiac Muscle and
+Vascular Function have no dedicated file yet** — check `cardiovascular-
+*.ts` files first in case a future session already claimed some of them,
+and check `104-CPS-histology-concepts.md` / `104-CPS-physiology-
+concepts.md` for pinned, unimported concepts before minting anything, per
+the heightened CVS dedup mitigation — this session found a whole
+unimported histology-concepts batch already covering large parts of A-V
+Connections, and the same file plausibly covers some of Veins and Vascular
+Function too (it was authored as one pass across every CVS histology
+sub-heading, not leaf by leaf).
 
 ## Hazards hit and confirmed this session (beyond the dispatch brief)
 
