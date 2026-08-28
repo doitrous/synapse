@@ -3508,3 +3508,1113 @@ yes
 
 ## author_notes
 Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19-21/Q24 (already authored), naming linoleic acid's double-bond count directly (di-enoic) rather than its omega-family membership.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q26
+
+## title
+Choose the tri-enoic fatty acid
+
+## question
+Choose the Tri-enoic fatty acid out of the following.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Arachidonic acid
+
+## explanation_a
+Incorrect. Arachidonic acid has four double bonds (tetraenoic), one more than the tri-enoic fatty acid the question asks for.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Incorrect. Oleic acid has one double bond (monoenoic), far fewer than the three double bonds a tri-enoic fatty acid has.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Incorrect. Linoleic acid has two double bonds (di-enoic), one fewer than the three double bonds a tri-enoic fatty acid has.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Correct. Alpha-linolenic acid has exactly three double bonds, making it the tri-enoic (triunsaturated) fatty acid among this group — one more double bond than di-enoic linoleic acid and two fewer than tetraenoic arachidonic acid. This three-double-bond structure, with the first double bond three carbons from the methyl end, is exactly what makes alpha-linolenic acid the omega-3 family's parent compound, tested directly elsewhere in this section. Its being "tri-enoic" is simply another way of stating the same double-bond count used to classify it as omega-3.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify alpha-linolenic acid as the tri-enoic (three-double-bond) fatty acid among this group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q30, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19-21/Q24/Q25 (already authored), completing the di-/tri-/tetra-enoic naming trio alongside Q25 and Q31.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q27
+
+## title
+Choose the tetra-enoic fatty acid
+
+## question
+Choose the Tetra-enoic fatty acid out of the following.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Arachidonic acid
+
+## explanation_a
+Correct. Arachidonic acid has exactly four double bonds, making it the tetraenoic (tetraunsaturated) fatty acid among this group — one more double bond than tri-enoic alpha-linolenic acid and two more than di-enoic linoleic acid. This four-double-bond, 20-carbon structure is exactly what qualifies arachidonic acid as an eicosanoid precursor, giving rise to the prostaglandins and thromboxanes tested directly elsewhere in this section. Being "tetraenoic" is simply another way of stating the same double-bond count used to identify it as a 20-carbon, four-double-bond fatty acid.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Incorrect. Oleic acid has one double bond (monoenoic), three fewer than the four double bonds a tetraenoic fatty acid has.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Incorrect. Linoleic acid has two double bonds (di-enoic), two fewer than the four double bonds a tetraenoic fatty acid has.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid has three double bonds (tri-enoic), one fewer than the four double bonds a tetraenoic fatty acid has.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify arachidonic acid as the tetraenoic (four-double-bond) fatty acid among this group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q31, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19-21/Q24-26 (already authored), completing the di-/tri-/tetra-enoic naming trio.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q28
+
+## title
+Choose the monoenoic fatty acid
+
+## question
+Choose the monoenoic fatty acid out of the following.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Arachidonic acid
+
+## explanation_a
+Incorrect. Arachidonic acid has four double bonds (tetraenoic), not the single double bond a monoenoic fatty acid has.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Correct. Oleic acid has exactly one double bond, making it the monoenoic (monounsaturated) fatty acid among this group — the parent of the omega-9 family, in contrast with the polyenoic (multiply unsaturated) linoleic, alpha-linolenic and arachidonic acids. This single cis double bond, between C9 and C10, is what puts the characteristic kink in oleic acid's chain, distinguishing its physical behaviour from the fully saturated fatty acids like palmitic and stearic acid. "Monoenoic" here is simply another name for the "18 carbons, one double bond" identification of oleic acid tested elsewhere in this section.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Incorrect. Linoleic acid has two double bonds (di-enoic), not the single double bond a monoenoic fatty acid has.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid has three double bonds (tri-enoic), not the single double bond a monoenoic fatty acid has.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify oleic acid as the monoenoic (single-double-bond) fatty acid among this group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q32, p.24.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19-21/Q24-27 (already authored), naming oleic acid's double-bond count directly (monoenoic), repeated as "monounsaturated" in Q37 later in this section.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q29
+
+## title
+Cholesterol serves as a precursor for all of the following compounds except
+
+## question
+cholesterol serves as a precursor for all the following compounds Except?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Steroid hormones
+
+## explanation_a
+Incorrect as the exception. Steroid hormones (cortisol, aldosterone and the sex hormones) are all synthesised from cholesterol via pregnenolone, so they genuinely belong on this list of cholesterol-derived compounds.
+
+## answer_b
+Bile salts
+
+## explanation_b
+Incorrect as the exception. Bile salts are made from cholesterol in the liver and retain its steroid ring nucleus, so they genuinely belong on this list.
+
+## answer_c
+Vitamin D
+
+## explanation_c
+Incorrect as the exception. Vitamin D3 is synthesised from a cholesterol derivative (7-dehydrocholesterol) in the skin, so it genuinely belongs on this list of cholesterol-derived compounds.
+
+## answer_d
+Triacyl glycerol
+
+## explanation_d
+Correct. Triacylglycerol is built from an entirely different starting material — glycerol esterified to three fatty acid chains — and shares no biosynthetic pathway with cholesterol's steroid ring system at all. This makes it the correct exception among steroid hormones, bile salts and vitamin D, all three of which genuinely trace back to cholesterol as their common precursor. Triacylglycerol's role is instead as the body's major fat storage form, an entirely separate lipid function from anything cholesterol is a precursor for.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-E77FD4A4D78884
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+35
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify triacylglycerol as the exception among compounds made from cholesterol (steroid hormones, bile salts, vitamin D).
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q35, p.25.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same cholesterol-precursor concept as Q10/Q9/Q16 (already authored) and Q44/Q53, near-verbatim restatement of Q10 in "except" form.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q30
+
+## title
+Choose the monounsaturated fatty acid
+
+## question
+Choose the monounsaturated fatty acid out of the following.
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Arachidonic acid
+
+## explanation_a
+Incorrect. Arachidonic acid has four double bonds, making it polyunsaturated, not monounsaturated.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Correct. Oleic acid has exactly one double bond, which is what "monounsaturated" means — a single point of unsaturation in an otherwise saturated hydrocarbon chain. This is the same fact tested elsewhere in this section as oleic acid being the "monoenoic" fatty acid and, separately, as the 18-carbon fatty acid with one double bond; "monoenoic" and "monounsaturated" are simply two names for the same single-double-bond structure. Oleic acid is the parent of the omega-9 fatty acid family.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Incorrect. Linoleic acid has two double bonds, making it polyunsaturated (di-enoic), not monounsaturated.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid has three double bonds, making it polyunsaturated (tri-enoic), not monounsaturated.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-1DFF2BB6521B64
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+25
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify oleic acid as the monounsaturated fatty acid, the same single-double-bond fact tested elsewhere as "monoenoic."
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q37, p.25.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same cis-fatty-acid-classification concept as Q57/Q5/Q7/Q13/Q19-21/Q24-28 (already authored), the "monounsaturated" naming of the same fact tested as "monoenoic" in Q32.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q31
+
+## title
+Arachidonic acid becomes an essential fatty acid when there is a deficiency of
+
+## question
+Arachidonic acid becomes essential fatty acid, when there is deficiency of
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Palmitic acid
+
+## explanation_a
+Incorrect. Palmitic acid is a saturated fatty acid the body readily synthesises on its own and has no biosynthetic connection to arachidonic acid, so its deficiency has no bearing on arachidonic acid's essentiality.
+
+## answer_b
+Oleic acid
+
+## explanation_b
+Incorrect. Oleic acid is a non-essential omega-9 fatty acid the body can synthesise itself, and it is not the precursor arachidonic acid depends on.
+
+## answer_c
+Linoleic acid
+
+## explanation_c
+Correct. The body normally makes arachidonic acid by elongating and desaturating dietary linoleic acid, so as long as linoleic acid is available, arachidonic acid is not strictly essential. But if linoleic acid becomes deficient, the body loses its supply route to arachidonic acid entirely, and arachidonic acid itself must then come directly from the diet — becoming essential only in that specific circumstance. This is exactly the conditional-essentiality relationship named directly in the definition of the essential fatty acids: alpha-linolenic acid, linoleic acid, and arachidonic acid only when linoleic acid is absent.
+
+## answer_d
+Linolenic acid
+
+## explanation_d
+Incorrect. Alpha-linolenic acid is the separate parent of the omega-3 family and is not the fatty acid arachidonic acid (an omega-6 fatty acid) is made from; linoleic acid is arachidonic acid's actual precursor.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-D0969A4C2C03CE
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that arachidonic acid becomes essential specifically when linoleic acid, its normal precursor, is deficient.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q42, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same essential-fatty-acid concept as Q33 (already authored), the direct restatement of the concept's own "arachidonic acid when linoleic is absent" clause.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q32
+
+## title
+The most important modulator of membrane fluidity is
+
+## question
+the most modulator of membrane fluidity is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Phospholipids
+
+## explanation_a
+Incorrect. Phospholipids form the basic bilayer structure of the membrane, and the length and saturation of their own fatty acid tails do affect fluidity, but they are not the single molecule most responsible for actively modulating it; that role belongs to cholesterol, which is interspersed among them.
+
+## answer_b
+Cholesterol
+
+## explanation_b
+Correct. Cholesterol is the principal modulator of membrane fluidity: its rigid steroid ring system inserts between phospholipid fatty acid tails, restraining their movement at higher temperatures (making the membrane less fluid) while also preventing them from packing too tightly and crystallising at lower temperatures (keeping the membrane from becoming too rigid). This dual, temperature-buffering effect is exactly why cholesterol is described elsewhere in this topic as "the constituent that controls the fluidity of the cell membrane," alongside its separate roles as a precursor for bile acids, steroid hormones and vitamin D. No other membrane lipid has this same fluidity-buffering effect across a range of temperatures.
+
+## answer_c
+Carbohydrates
+
+## explanation_c
+Incorrect. Membrane carbohydrates are attached to lipids or proteins facing the extracellular surface and function mainly in cell recognition and signalling, not in modulating the fluidity of the lipid bilayer itself.
+
+## answer_d
+Integral proteins
+
+## explanation_d
+Incorrect. Integral proteins are embedded within the bilayer and can be influenced by its fluidity, but they are not themselves the molecule that actively modulates how fluid the surrounding lipid bilayer is; that role belongs to cholesterol.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-E77FD4A4D78884
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cholesterol as the principal modulator of membrane fluidity, the same fact named alongside its precursor roles.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q44, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same cholesterol-precursor concept as Q10/Q9/Q16/Q35 (already authored), drawing on the same concept's explicit mention of cholesterol's membrane-fluidity role rather than its precursor role.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-LIP-Q33
+
+## title
+Hydrolysis of triacylglycerol produces
+
+## question
+Hydrolysis of Triacylglycerol produce
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+One fatty acid + 3 Glycerol
+
+## explanation_a
+Incorrect. Triacylglycerol has only one glycerol backbone, not three, and it carries three fatty acid chains, not one; this option reverses the true 3:1 ratio of fatty acids to glycerol.
+
+## answer_b
+Two fatty acids + two Glycerol
+
+## explanation_b
+Incorrect. Triacylglycerol's single glycerol backbone carries three fatty acid chains, not two, and there is only one glycerol molecule per triacylglycerol, not two.
+
+## answer_c
+Two Fatty acids + one Glycerol
+
+## explanation_c
+Incomplete, but represents partial hydrolysis. Removing two of the three fatty acids from triacylglycerol's one glycerol backbone leaves a monoacylglycerol plus two free fatty acids — a genuine intermediate of stepwise hydrolysis, though not the complete breakdown to all three fatty acids at once.
+
+## answer_d
+Two Fatty acids + monoacylglycerol
+
+## explanation_d
+Incomplete, but represents partial hydrolysis. This describes the same intermediate as option c from a different framing — two fatty acids removed, one still attached to glycerol as a monoacylglycerol — a genuine stage of stepwise hydrolysis rather than the fully complete breakdown.
+
+## answer_e
+Three Fatty acids + monoacylglycerol
+
+## explanation_e
+Incorrect. If all three fatty acids have already been released, no acylglycerol (mono-, di- or triacylglycerol) remains attached to any of them; free glycerol, not a monoacylglycerol, is what is left once all three fatty acids are removed.
+
+## topic
+Biochemistry
+
+## subtopic
+Lipids
+
+## main_concept
+CON-FND-A143E2775DED7A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Lipids & Biological Membrane
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that stepwise hydrolysis of triacylglycerol proceeds through partial intermediates (diacylglycerol, then monoacylglycerol) as its three fatty acids are removed one at a time from its one glycerol backbone.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Lipids & Biological Membrane MCQ bank, Q45, p.26.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same triacylglycerol-storage-form concept as Q36 (already authored), extended here to the structural 3:1 fatty-acid-to-glycerol ratio that stepwise hydrolysis reveals.
