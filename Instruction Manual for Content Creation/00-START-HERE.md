@@ -37,17 +37,34 @@ department-book chapter — never wider. Inside a module, work in this order:
 **Sequence: articles before questions.** The validator refuses a question whose main
 concept has no covering article — write or claim the article first, in the same batch.
 
-**Answers come only from an official key or the department book**, page cited, never
-reconciled by hand. A questionable printed key is recorded as printed, not silently
-corrected. A garbled key is rendered by eye with the method recorded — or, failing that,
-the question is left unkeyed and unauthored. An item that depends on an image becomes a
-media request (§6), never a prose rewrite of what the image would have shown.
+**Answers come only from an official key, a department book, or — failing both — sound
+editorial reasoning**, page cited where one exists, never reconciled by hand against what
+"should" be right. The **answer-key ruling (2026-08-27)** governs every case:
+
+- A printed key on a **real exam paper** stands **as printed**, full stop, even if it
+  looks wrong — never silently corrected. Keep it, and `explanation_<correct>` teaches
+  the correct reasoning and names the discrepancy explicitly.
+- A key in a **question bank that is not an official exam paper**, and that is outright
+  medically wrong (a factual error, not a convention clash between universities), is
+  corrected — field-noted with the original printed key and why it was overridden.
+- A **missing key** — nothing printed, nothing recoverable from any assigned source — is
+  keyed **editorially** from authoritative subject knowledge: field-noted "keyed
+  editorially, no printed key", with an explanation of at least three sentences. A
+  missing key is never a reason to leave a question unauthored.
+
+A garbled (not missing) key is rendered by eye first, with the method recorded; only if
+it truly cannot be read at all does it fall to the missing-key case above. An item that
+depends on an image becomes a media request (§6), never a prose rewrite of what the image
+would have shown.
 
 **Worked example.** A Kasr renal paper has a garbled MCQ key next to a clean
 department-book chapter that never mentions the drug the question's stem names. You do
-not average the two. You record the printed key as printed — or unkeyed, if it truly
-cannot be read — and you write the article from the department book, not from the
-question stem: a past paper is a source of *what was asked*, never of medical fact.
+not average the two. If the key can be read by eye, you record it as printed, with the
+method noted. If it truly cannot be read and no other assigned source recovers it, this
+is the missing-key case: key it editorially from standard pharmacology, field-note
+"keyed editorially, no printed key," and write the article from the department book, not
+from the question stem — a past paper is a source of *what was asked*, never of medical
+fact.
 
 ### The law of voice
 
@@ -71,35 +88,47 @@ explanations lean on "the book says" is not finished, however clean `medical:bat
 
 ## Roles and the chain of command
 
+The former per-lane "orchestrator" sessions and the single "chief of staff" session are
+**both retired**, merged into one role. The chain is now two levels deep below Omar:
+
 - **Omar (owner).** The only human. Imports batches by hand via admin Bulk Import.
   Decides product questions. Supplies tokens, Telegram channel links, reviewers.
-- **Chief of staff (one session).** The single channel every lane reports to — lanes
-  never message each other. Issues standing orders, rulings, the browser queue,
-  pause/resume. Audits lane self-reports with independent read-only subagents.
-  Escalates to Omar only what genuinely needs him. Keeps `docs/chief-of-staff/BOARD.md`.
-- **Orchestrator** (one session per university-year lane — Kasr Y1, Kasr Y2–5,
-  Alexandria, Ain Shams, Helwan). Plans its lane, dispatches Sonnet subagents with
-  explicit file ownership, holds a LANE-BRIEF, consolidates reports, runs the triage
-  checkpoint. Never authors content itself. Commits checkpoints on its own branch, never
-  pushes.
-- **Validator / shared-tooling lane.** Owns the gates and the importer, serves the
-  content lanes, lands on `main`, reports hashes to the chief of staff.
-- **Subagent / authoring lane** — you, most of the time. Reads this file plus one type
-  manual, writes batches, runs the gates, and reports in ≤20 lines: lane · produced ·
-  validation · traceable-to-question share · drift to rule on · blockers · next. Ends its
-  turn with a `BLOCKED` section when stuck, rather than guessing.
+- **Orchestrator (one session).** The address Omar messages, and the only session that
+  messages Omar. Unifies what used to be the chief-of-staff session and every per-lane
+  orchestrator session. Plans across every university and lane, dispatches Sonnet
+  subagents directly — one subagent per `(module, department/cluster)` task — holds
+  `docs/chief-of-staff/BOARD.md`, decides rulings delegated to it, closes stale PRs, and
+  drives the live-DB import itself as the **sole hands-on exception** to "the Orchestrator
+  does no task work itself." Audits subagent self-reports with independent read-only
+  subagents. Escalates to Omar only what genuinely needs him.
+- **Subagent (Sonnet)** — you, most of the time. A **fresh** session off a named branch,
+  **never resumed** — a resumed subagent arrives context-bloated and stalls; when more
+  work is needed on the same task, the Orchestrator dispatches a new subagent off that
+  branch instead. Works in its own isolated worktree, reads this file plus one type
+  manual, authors and gates its own output, and commits fast — the first commit lands in
+  minutes, not at the end of the whole task. Pushes its own gate-clean work: authoring
+  work lands on the subagent's own branch, staging / backlog / documentation work lands
+  straight on `main` (Omar approved 2026-08-27 — supersedes any older rule that only a
+  validator lane may push). If context grows large before the task is finished, the
+  subagent checkpoints what it has and ends its turn with a
+  `HANDOFF: <branch>@<sha> · resume-first: <next step>` line instead of pushing on into a
+  bloated context. Reports in ≤20 lines: lane · produced · validation ·
+  traceable-to-question share · drift to rule on · blockers · next. Ends its turn with a
+  `BLOCKED` section when stuck, rather than guessing. **Never** messages another
+  subagent, never runs `removeOrphans` / `--sweep`, and never imports.
 
 **Report discipline.** ≤20 lines. Numbers come from scripts, never estimates. **A claim
 of green gates without pasted output is not green** — gate summary lines belong in the
 commit body, or in `coverage/<module>-GATES.md`.
 
-**The triage checkpoint.** Before any lane mints a single record, its orchestrator sends
-the chief of staff one table — questions triaged · distinct concepts tested ·
-live-hit / pending-hit / new — and waits for **TRIAGE APPROVED** before anyone writes.
+**The triage checkpoint.** Before a subagent mints a single record for a new module or
+cluster, it sends the Orchestrator one table — questions triaged · distinct concepts
+tested · live-hit / pending-hit / new — and waits for **TRIAGE APPROVED** before writing
+anything.
 
-The full operating procedure — LANE-BRIEF format, the browser queue, escalation paths —
-is [13-orchestration.md](13-orchestration.md). This file covers what every lane needs;
-that one covers how lanes are run.
+The full operating procedure — dispatch format, the browser queue, escalation paths —
+is [13-orchestration.md](13-orchestration.md). This file covers what every subagent
+needs; that one covers how the Orchestrator runs them.
 
 ---
 
@@ -442,6 +471,16 @@ pending batches.
 Kasr's own pipeline salts concept ids per module, so two minters currently exist in this
 repo with different behaviour on the same input — which one a new lane should use is an
 open product question, not yours to resolve by guessing.
+
+**A generator's own duplicate check is not a substitute for `find-existing.mjs` or
+`medical:duplicate-keys`.** Kasr's MCQ-authoring pipeline (`scripts/kasr`) carries its own
+`existingConceptIds()` check, but it can be **blind to concepts minted by the
+`GENERATED_BY` written-paper pipeline, and to other-year catalogues** — verified
+2026-08-28 on Kasr 104 CPS, where a live written-paper surfactant concept and Year-3
+pulmonology-catalogue concepts were both invisible to it and nearly re-minted as
+duplicates. Before minting from inside a generator like this, grep the target subject's
+live concepts and its written-paper batches directly; do not trust the generator's own
+dedup check alone.
 
 ### Per-university traceability on shared records
 
@@ -903,6 +942,13 @@ exist, and you write both.
 A concept with no article is an orphan. An article whose concepts do not list it back is a
 broken link. Neither errors at import; both are found by `npm run medical:audit`.
 
+**Two-sided coverage (ruling 2026-08-23)** is stricter than row three above. A concept's
+`article_ids` populated only by the heuristic term-overlap pass (`build-article-links.ts`)
+is **not** coverage on its own. Hand-over requires, for every tested concept: it is named
+explicitly in some article's `related_concepts`, **and** that article actually teaches it
+— not merely mentions it. Verify both directions by hand, per module, before writing
+`INDEX.md`; do not trust the heuristic link alone.
+
 ---
 
 ## 8 · Gates
@@ -1070,11 +1116,17 @@ live or be sitting in the same batch folder.
 
 ## Telegram and other fetches
 
-Telegram runs through Omar's own logged-in Chrome, one lane at a time, with the chief of
-staff holding the queue. Only listed channel links and the in-app search box — never
-click **Join**, log "needs Omar to join" instead; never use **addlist**; no video or
-audio downloads. Dedupe by sha256, tier ≤5 like every other source, and another
-university's past papers are never this university's examinable signal. Full procedure:
+**Telegram fetching is retired (Omar 2026-08-27), for every session, current and
+upcoming — no exceptions.** Do not open Telegram for any lane. If a gap can only be
+closed by a source that would have come from Telegram, log it as "needs Omar sources" and
+move on; do not attempt to fetch it yourself.
+
+The rest of this section is kept only as a record of the retired procedure, in case a
+future ruling reinstates some form of it: fetching ran through Omar's own logged-in
+Chrome, one lane at a time, with the Orchestrator holding the queue; only listed channel
+links and the in-app search box, never **Join** or **addlist**, no video or audio
+downloads; dedupe by sha256, tier ≤5 like every other source; another university's past
+papers were never this university's examinable signal. Full historical procedure:
 [13-orchestration.md](13-orchestration.md).
 
 ---
