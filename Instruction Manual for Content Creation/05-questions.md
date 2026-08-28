@@ -93,6 +93,15 @@ So `explanation_<correct letter>` is doing two jobs, and both are hard rules:
 - **Every distractor's explanation says why it is wrong, in one sentence**, and names the
   specific misconception that picks it. Not "this is wrong" — the one sentence has to do
   the work of catching a nameable student.
+- **Write in the authoritative voice of a professional question bank, never a study guide
+  narrating its source.** Student-facing text — every stem, option, and explanation — states
+  the medicine on its own authority and NEVER refers to the study material: no "the
+  department book says", "according to the textbook", "the lecture notes state", "as per the
+  source/handout", "the book's table gives", "the department book's own worked example", or
+  any variant. State the fact and its mechanism directly. Source provenance is metadata: it
+  lives in `field_notes`, `evidence`, and `citations`, never in a sentence a student reads.
+  When a real paper's printed key is being corrected or a convention named, say it about the
+  answer ("the exam's printed key marks X, but Y is correct because…"), never about the book.
 
 The worked example below is held to this bar too: if it does not clear it, extend it rather
 than treat the bar as aspirational. Mechanical enrichment of an explanation — expanding the
@@ -126,6 +135,10 @@ Non-negotiable:
   explanation must name the specific misconception that picks it.
 - The correct answer's explanation is also the overall worked explanation — there is no
   separate column for it. Write it as the full teaching moment.
+- Authoritative voice: state the medicine directly. NEVER write "the department book says",
+  "according to the textbook", "the lecture notes state", "the book's table gives", or any
+  reference to the study material in student-facing text. Provenance goes in field_notes, not
+  the explanation.
 - Never invent a fact, a dose, a citation, a URL, or an ID. Images you need are media
   request blocks.
 - British spelling. status: Draft.

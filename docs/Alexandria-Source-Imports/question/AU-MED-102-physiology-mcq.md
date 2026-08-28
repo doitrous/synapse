@@ -1435,3 +1435,437 @@ yes
 
 ## author_notes
 Keyed from the Alexandria AU-MED-102 End-of-Module bank named in source_citation; correct answer confirmed against that paper's own printed answer key.
+
+---
+
+# Item
+
+## id
+QST-FND-B75AF5-01
+
+## title
+What are the four components of a negative-feedback loop, in the order a signal passes through them?
+
+## question
+What are the four components of a negative-feedback loop, in the order a signal passes through them?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Alexandria content lane (AU-102-BACKLOG)
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Detector, conductor, centre, effector
+
+## explanation_a
+Correct. A negative-feedback loop runs through exactly these four functional stages: a detector (receptor) senses a deviation from the set point; a conducting pathway (afferent limb) carries that signal onward; a centre compares the signal against the set point and computes a correction; and an effector carries out the correction, opposing the original deviation and restoring the set point. This four-stage template underlies every specific homeostatic reflex a student meets later — thermoregulation, blood pressure control, blood glucose control — so learning the sequence here, rather than each reflex from scratch, is the point of the question. The loop is called 'negative' precisely because the effector's action subtracts from, rather than reinforces, the original deviation, which is what keeps the controlled variable stable around its set point.
+
+## answer_b
+Detector, amplifier, centre, effector
+
+## explanation_b
+Incorrect. This substitutes 'amplifier' for the conducting pathway. The second stage's job is to carry the detected signal to the centre, not to boost its size — an amplifier is not a named component of the classical feedback loop and this option catches a student guessing from vaguely engineering-sounding vocabulary rather than the physiological sequence.
+
+## answer_c
+Detector, annunciator, centre, effector
+
+## explanation_c
+Incorrect. 'Annunciator' implies the second stage merely announces the deviation. The loop's second stage still has to get the signal from detector to centre; renaming it as something that only signals an alarm, without the transmission function, is not the physiological description being tested here.
+
+## answer_d
+Detector, transmitter, storage, effector
+
+## explanation_d
+Incorrect. 'Storage' has no role in a negative-feedback loop — the loop acts on a deviation in real time, it does not bank it. This option catches a student who recalls that four terms are needed but reconstructs the wrong fourth term instead of 'centre', the stage that actually compares the signal to the set point.
+
+## topic
+Physiology
+
+## subtopic
+
+
+## main_concept
+CON-FND-B75AF58F0B4C86
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Physiology
+
+## question_only_for
+
+
+## library_ids
+ART-FND-PHYSIO-HOMEOSTASIS-TRANSPORT
+
+## resource_ids
+src_8d6ddf874f8984be8217
+
+## learning_objective
+Name the four components of a negative-feedback loop in sequence, and reject 'amplifier', 'annunciator' or 'storage' as substitutes for the conducting pathway or the centre.
+
+## source_citation
+Alexandria University AU-MED-102, EOM - End foundation 2030.pdf, Physiology section Q2 (p5).
+
+## author_notes
+Transcribed from the paper's own Physiology section (src_8d6ddf874f8984be8217, p5), which prints only three options (a-c) with 'a' the marked answer; a fourth distractor ('Detector, transmitter, storage, effector') was added editorially to meet this bank's 4-option floor — it is not part of the printed item. The paper's own wording names the second stage 'conductor' rather than the more usual 'control centre'/'conducting pathway' split taught in standard texts; the printed key (a) is recorded as printed and is consistent with standard physiology once 'conductor' is read as the afferent/conducting link rather than the integrating centre itself (which the paper's third listed term, 'centre', already supplies).
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-80B7C9-01
+
+## title
+What is osmosis?
+
+## question
+What is osmosis?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Alexandria content lane (AU-102-BACKLOG)
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Movement of water molecules across a semi-permeable membrane into a region of high solute concentration
+
+## explanation_a
+Correct. Osmosis is the net movement of solvent (water) molecules across a semipermeable membrane from a region of lower solute concentration to a region of higher solute concentration, driven by the membrane's selective permeability rather than by bulk flow of the solute itself. Water moves this way because the membrane restricts the solute but not the solvent, so the solvent redistributes to reduce the concentration difference on the two sides. This is the direction that dilutes the more concentrated side, which is also why a cell placed in a strongly hypertonic solution loses water and shrinks rather than swells.
+
+## answer_b
+Movement of solute molecules from an area of low concentration to an area of high concentration
+
+## explanation_b
+Incorrect. This is diffusion running backwards (uphill), which does not happen passively at all — and in any case osmosis is defined as solvent movement, not solute movement. A student who picks this has confused osmosis with active transport of solute.
+
+## answer_c
+Movement of solute molecules from an area of high concentration to an area of low concentration
+
+## explanation_c
+Incorrect. This is a correct description of simple diffusion of solute, but it is not osmosis. Osmosis is specifically about the solvent (water) crossing a semipermeable membrane, not the solute; a student who picks this has the right general idea of downhill movement but has named the wrong molecule as the one that moves.
+
+## answer_d
+Movement of water molecules across a semi-permeable membrane into a region of low solute concentration
+
+## explanation_d
+Incorrect, and this is the option a student must actively reject: water in osmosis moves toward the side with the higher solute concentration (to dilute it), not toward the side with lower solute concentration. Reading this option carefully against option A is exactly the discrimination the question is testing — of the two water-movement descriptions offered, only 'toward higher solute concentration' is correct, and this option deliberately states the opposite direction. Getting the direction backwards here would predict water leaving a concentrated compartment rather than entering it, the reverse of what is actually observed at a semipermeable membrane.
+
+## topic
+Physiology
+
+## subtopic
+Cell membrane transport
+
+## main_concept
+CON-FND-80B7C9250A379D
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Physiology > Cell membrane transport
+
+## question_only_for
+
+
+## library_ids
+ART-FND-PHYSIO-HOMEOSTASIS-TRANSPORT
+
+## resource_ids
+src_29f02a5a4d6a273dea76
+
+## learning_objective
+State the definition of osmosis as solvent movement across a semipermeable membrane toward the higher-solute side, distinguishing it from solute diffusion in either direction.
+
+## source_citation
+Alexandria University AU-MED-102, EOM - End Foundation wafdeen-1.pdf, Q3 (p1).
+
+## author_notes
+Transcribed verbatim (stem and all four options) from src_29f02a5a4d6a273dea76 (EOM - End Foundation wafdeen-1), Q3, p1. This 60-question paper carries no recoverable answer key at all — confirmed by a structural PDF scan (no highlight/annotation objects) and a page render spot-check, so nothing here is a printed key being read or corrected. The correct option is keyed editorially from the standard, uncontested physiological definition of osmosis (solvent moves toward the higher-solute side across a semipermeable membrane), independent of any exam key for this specific item — the same treatment already used in this lane for other items drawn from unkeyed department banks (e.g. the Protein MCQ bank's unkeyed items).
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-NEU-512CCC-01
+
+## title
+What characterises autonomic neurons?
+
+## question
+What characterises autonomic neurons?
+
+## subject
+neuro
+
+## status
+Draft
+
+## owner
+Alexandria content lane (AU-102-BACKLOG)
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Control integrative functions
+
+## explanation_a
+Incorrect. 'Integrative functions' is too vague to be the defining, examinable feature of the autonomic nervous system — plenty of neural circuits integrate information without being autonomic. The specific, testable definition is control of involuntary visceral effectors, not a general catch-all for coordination.
+
+## answer_b
+Control skeletal muscle functions
+
+## explanation_b
+Incorrect. Skeletal muscle is controlled by the somatic nervous system, under voluntary control — this is precisely the contrast the autonomic nervous system is defined against, not a function it shares.
+
+## answer_c
+Control involuntary functions
+
+## explanation_c
+Correct. The autonomic nervous system is defined by its control of involuntary visceral effectors — smooth muscle, cardiac muscle and glands — placing it outside conscious, voluntary control. This is the feature that distinguishes it from the somatic nervous system, which governs voluntary skeletal-muscle movement, and it is the definitional fact this question is built to test. Its two divisions, sympathetic and parasympathetic, both act on these same involuntary effectors, adjusting them in opposite directions rather than one of them ever taking on voluntary control.
+
+## answer_d
+Control sensory functions
+
+## explanation_d
+Incorrect. Sensory (afferent) pathways carry information toward the central nervous system and are a separate functional division from the autonomic (visceral motor/efferent) outflow this question asks about; naming a sensory role here mixes up afferent and efferent limbs of the nervous system.
+
+## topic
+Physiology
+
+## subtopic
+Autonomic nervous system
+
+## main_concept
+CON-NEU-512CCC2DE7316C
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+72
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Physiology > Autonomic nervous system
+
+## question_only_for
+
+
+## library_ids
+ART-NEU-PHYSIO-AUTONOMIC-NS
+
+## resource_ids
+src_29f02a5a4d6a273dea76
+
+## learning_objective
+Identify control of involuntary visceral functions as the defining feature of autonomic neurons, distinguishing it from somatic (voluntary skeletal-muscle), integrative and sensory roles.
+
+## source_citation
+Alexandria University AU-MED-102, EOM - End Foundation wafdeen-1.pdf, Q19 (p5).
+
+## author_notes
+Transcribed verbatim (stem and all four options) from src_29f02a5a4d6a273dea76 (EOM - End Foundation wafdeen-1), Q19, p5. As with QST-FND-80B7C9-01 above, this 60-question paper has no recoverable answer key (confirmed by structural PDF scan and page render spot-check); the correct option is keyed editorially from the standard, uncontested physiological definition of the autonomic nervous system, not from any exam key.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations

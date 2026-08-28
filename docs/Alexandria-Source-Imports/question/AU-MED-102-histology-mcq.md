@@ -1586,3 +1586,292 @@ yes
 
 ## author_notes
 Keyed from the Alexandria AU-MED-102 End-of-Module bank named in source_citation; correct answer confirmed against that paper's own printed answer key.
+
+---
+
+# Item
+
+## id
+QST-FND-3377D3-01
+
+## title
+What is the site of cardiolipin in the mitochondria?
+
+## question
+What is the site of cardiolipin in the mitochondria?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Alexandria content lane (AU-102-BACKLOG)
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Matrix
+
+## explanation_a
+Incorrect. The matrix holds the mitochondrial enzymes of the citric acid cycle and mitochondrial DNA, but cardiolipin is a membrane phospholipid, not a matrix constituent — it has to sit in a lipid bilayer, not the aqueous matrix compartment.
+
+## answer_b
+Outer membrane
+
+## explanation_b
+Incorrect. This is the trap the question is built around: the outer membrane sounds like the 'default' membrane location, but cardiolipin is specifically an inner-membrane marker, concentrated where the respiratory chain complexes it stabilises are found.
+
+## answer_c
+Intermembranous space
+
+## explanation_c
+Incorrect. The intermembrane space is an aqueous compartment between the two membranes, not a lipid bilayer — cardiolipin, being a membrane phospholipid, cannot be located in this fluid-filled space.
+
+## answer_d
+Inner membrane
+
+## explanation_d
+Correct. Cardiolipin is a phospholipid unique to mitochondria, concentrated in the inner mitochondrial membrane, where it stabilises the respiratory-chain protein complexes embedded there and supports the cristae's tight folding. This inner-membrane localisation is precisely why cardiolipin is used as a biochemical marker for the inner membrane in cell-fractionation experiments.
+
+## topic
+Histology
+
+## subtopic
+Cell
+
+## main_concept
+CON-FND-3377D37F5204A0
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Anatomy
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Histology > Cell
+
+## question_only_for
+
+
+## library_ids
+ART-FND-HISTO-CELL-BIOLOGY
+
+## resource_ids
+src_29f02a5a4d6a273dea76
+
+## learning_objective
+Localise cardiolipin to the inner mitochondrial membrane, distinguishing it from the matrix, the outer membrane and the intermembrane space.
+
+## source_citation
+Alexandria University AU-MED-102, EOM - End Foundation wafdeen-1.pdf, Q13 (p3).
+
+## author_notes
+Transcribed verbatim (stem and all four options) from src_29f02a5a4d6a273dea76 (EOM - End Foundation wafdeen-1), Q13, p3. This 60-question paper carries no recoverable answer key (confirmed by a structural PDF scan finding no highlight/annotation objects and a page render spot-check); the correct option is keyed editorially from the standard, uncontested cell-biology fact that cardiolipin is an inner-mitochondrial-membrane phospholipid, not from any exam key for this item.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-DER-8F25CC-01
+
+## title
+Which of the following glands has an apocrine secretory mechanism?
+
+## question
+Which of the following glands has an apocrine secretory mechanism?
+
+## subject
+derm
+
+## status
+Draft
+
+## owner
+Alexandria content lane (AU-102-BACKLOG)
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Pancreas
+
+## explanation_a
+Incorrect. The exocrine pancreas is a merocrine gland — its acinar cells release secretory vesicles by exocytosis without losing any apical cytoplasm, which is the defining feature merocrine secretion is contrasted against apocrine secretion on.
+
+## answer_b
+Sebaceous gland
+
+## explanation_b
+Incorrect. The sebaceous gland is the classic example of holocrine secretion: the whole cell disintegrates to release its lipid content, which is a more extreme loss of cellular material than the apical pinching-off seen in apocrine glands.
+
+## answer_c
+Mammary gland
+
+## explanation_c
+Correct. The mammary gland secretes by the apocrine mechanism: part of the apical cytoplasm pinches off together with the secretory product, so the cell loses a small portion of itself with each release (unlike merocrine secretion, which loses none, or holocrine secretion, which loses the whole cell). This is also the mechanism behind apocrine sweat glands, whose secretion is viscous and initially odourless but becomes offensive once skin bacteria act on it.
+
+## answer_d
+Salivary gland
+
+## explanation_d
+Incorrect. The salivary glands are merocrine glands, releasing their secretion by vesicle exocytosis with no loss of apical cytoplasm — the same mechanism as most exocrine glands, and the opposite of the apocrine 'pinch-off' this question tests.
+
+## topic
+Histology
+
+## subtopic
+Skin appendages
+
+## main_concept
+CON-DER-8F25CCE084AF16
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Histology > Skin appendages
+
+## question_only_for
+
+
+## library_ids
+ART-DER-TOP-9820AF6B50
+
+## resource_ids
+src_3bf4527b51de57464e14
+
+## learning_objective
+Identify the mammary gland as an apocrine gland, distinguishing apocrine secretion from the merocrine mechanism (pancreas, salivary gland) and the holocrine mechanism (sebaceous gland).
+
+## source_citation
+Alexandria University AU-MED-102, EOM - Final foundation 2030.pdf, Q103 (p22); printed answer key p24, 103.C.
+
+## author_notes
+Transcribed verbatim from the 112-question End-of-Module paper (src_3bf4527b51de57464e14, twin src_413115a28d7dc9914c91), Q103, p22; correct answer confirmed against that paper's own printed answer key at p24 (103.C = Mammary gland). Concept CON-DER-8F25CCE084AF16 is a live Kasr-authored concept already carrying the AU overlay (universities/modules/learner_years) from this lane's earlier triage; this question closes the tested-but-unauthored gap on that overlay rather than minting a new record.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations

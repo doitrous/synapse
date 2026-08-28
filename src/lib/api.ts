@@ -40,14 +40,45 @@ export async function apiGet<T>(path: string): Promise<T> {
   return res.json() as Promise<T>
 }
 
+/**
+ * Above this many characters, a JSON body is worth gzipping before upload.
+ *
+ * The shared content documents are tens of megabytes (the question ledger alone
+ * is ~23 MB), and a save re-sends the whole document. Raw, that upload is the
+ * dominant cost of publishing — tens of seconds on an asymmetric connection,
+ * long enough that a reload before it finished dropped the write and the change
+ * looked like it reverted. Gzip shrinks it ~6× on the wire; body-parser inflates
+ * it server-side automatically. Small bodies are left alone: the compression
+ * would cost more than it saves.
+ */
+const GZIP_MIN_CHARS = 256 * 1024
+
+async function gzipBody(text: string): Promise<Blob> {
+  const stream = new Blob([text]).stream().pipeThrough(new CompressionStream('gzip'))
+  return await new Response(stream).blob()
+}
+
 export async function apiSend<T>(path: string, method: string, body?: unknown, keepalive = false): Promise<T> {
   // A file is sent as itself. Stringifying a Blob yields "{}", which is how an
   // upload silently becomes two bytes of nothing.
   const isBinary = typeof Blob !== 'undefined' && body instanceof Blob
+  const outgoing = await headers(!isBinary)
+  let payload: BodyInit | undefined = body == null ? undefined : isBinary ? (body as Blob) : JSON.stringify(body)
+  // Compress large JSON documents on the wire. `keepalive` requests are capped
+  // at 64 KB by the browser, so they never reach the threshold and are left as
+  // strings. Any failure falls back to the uncompressed body rather than losing
+  // the save.
+  if (typeof payload === 'string' && !keepalive && payload.length >= GZIP_MIN_CHARS && typeof CompressionStream !== 'undefined') {
+    try {
+      payload = await gzipBody(payload)
+      ;(outgoing as Record<string, string>)['Content-Type'] = 'application/json'
+      ;(outgoing as Record<string, string>)['Content-Encoding'] = 'gzip'
+    } catch { /* leave payload as the original JSON string */ }
+  }
   const res = await fetch(`${BASE}${path}`, {
     method,
-    headers: await headers(!isBinary),
-    body: body == null ? undefined : isBinary ? body : JSON.stringify(body),
+    headers: outgoing,
+    body: payload,
     keepalive,
   })
   if (!res.ok) {
@@ -174,12 +205,19 @@ export interface RemoteState<T> {
    * surface silently renders its seed as though it were the student's data.
    */
   error: StateErrorKind | null
+  /**
+   * Whether the server that answered this read understands delta (change-only)
+   * saves for this document. Absent on an older server, so a delta is withheld
+   * until a server has explicitly said it can apply one — a client can never
+   * send a change-only body to a server that would misread it as a whole one.
+   */
+  deltaSupported?: boolean
 }
 
 export async function getState<T>(key: string): Promise<RemoteState<T>> {
   try {
-    const r = await apiGet<{ value: T | null; updatedAt?: string | null; version?: number | null }>(`/state/${encodeURIComponent(key)}`)
-    return { value: r.value, updatedAt: r.updatedAt ?? null, version: r.version ?? null, error: null }
+    const r = await apiGet<{ value: T | null; updatedAt?: string | null; version?: number | null; deltaSupported?: boolean }>(`/state/${encodeURIComponent(key)}`)
+    return { value: r.value, updatedAt: r.updatedAt ?? null, version: r.version ?? null, error: null, deltaSupported: r.deltaSupported === true }
   } catch (error) { return { value: null, updatedAt: null, version: null, error: errorKind(error) } }
 }
 
@@ -192,6 +230,19 @@ export async function getState<T>(key: string): Promise<RemoteState<T>> {
  */
 export function putState(key: string, value: unknown, baseVersion: number | null): Promise<{ ok: boolean; version: number | null }> {
   return apiPut(`/state/${encodeURIComponent(key)}`, { value, baseVersion })
+}
+
+/**
+ * Write only the items that changed, not the whole document.
+ *
+ * `changes` is `{ collection, id, before, after }[]` — the server applies each
+ * onto what is stored now with the same per-item conflict check a whole save
+ * uses, so publishing one question no longer re-uploads a 23 MB ledger. The
+ * server derives authorisation from the change itself; the client cannot assert
+ * past it. Same response shape as putState.
+ */
+export function putStateDelta(key: string, changes: unknown[], baseVersion: number | null): Promise<{ ok: boolean; version: number | null }> {
+  return apiPut(`/state/${encodeURIComponent(key)}`, { changes, baseVersion })
 }
 
 export async function getUserState<T>(key: string): Promise<RemoteState<T>> {

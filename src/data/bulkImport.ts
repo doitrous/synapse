@@ -4,7 +4,7 @@ import type {
   ClinicalDecisionDraft, LabQuestionDraft, PracticalAuthoringData, ArticleMediaRecord,
   MediaRequest, MediaRequestKind, MediaRequestMedium, MediaRequestOwnerKind,
   MediaRequestPriority, MediaRequestStatus, CalloutEvidence, PublicationGate,
-  MediaAttachment, QuestionTags, PracticalConceptTags, PracticalDifficulty, PracticalCommon,
+  MediaAttachment, QuestionTags, PracticalConceptTags, PracticalDifficulty, PracticalCommon, Vitals,
 } from './contentControl.ts'
 import {
   MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_KINDS, MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES,
@@ -181,6 +181,7 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line. (OSCE station)' },
       { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" (mark the right one "*= option") each followed by "Why: …", and "Rationale: …". (Clinical case)' },
       { key: 'debrief', label: 'Case debrief', help: 'Summary shown after a clinical case. (Clinical case)' },
+      { key: 'vitals', label: 'Vitals', help: 'Presenting observations for a clinical case, shown beside the decisions. One "Label: value" per line — HR, BP, RR, SpO2, Temp, GCS, Glucose — plus "Abnormal: HR | RR | SpO2" (the ones that read red) and an optional "Note: room air". Units are fixed by convention. Omit the field for a case with no vitals. (Clinical case)' },
       { key: 'lab_subtype', label: 'Lab / Imaging', help: 'Lab or Imaging — for interpretation sets.' },
       { key: 'lab_questions', label: 'Interpretation questions', help: 'Start each with "### Stem", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" ("*= option" is correct) each followed by "Why: …", and "Explanation: …". "Media:" takes an image URL only — the runner renders it as an image, so audio and video show a broken image. (Lab/Imaging interpretation)' },
       { key: 'module_subject', label: 'Module subject path(s)', help: 'Where inside the module this belongs, e.g. 101 ISK > Anatomy > Upper Limb. One path per line. The first segment may name the module.' },
@@ -695,6 +696,48 @@ function blockTags(block: ReturnType<typeof parseLabelledBlock>) {
 }
 
 /** Parse "### title / Q: / * options / Rationale:" blocks into case decisions. */
+type VitalKey = 'hr' | 'bp' | 'rr' | 'spo2' | 'temp' | 'gcs' | 'glucose'
+const VITAL_KEYS: VitalKey[] = ['hr', 'bp', 'rr', 'spo2', 'temp', 'gcs', 'glucose']
+function normaliseVitalKey(label: string): VitalKey | undefined {
+  const k = label.trim().toLowerCase().replace(/\s+/g, '')
+  return VITAL_KEYS.find((key) => key === k)
+}
+
+/**
+ * Presenting observations for a clinical case, one `Label: value` per line —
+ * HR/BP/RR/SpO2/Temp/GCS/Glucose, plus `Abnormal:` (|/;/, separated keys that
+ * read red) and an optional `Note:`. Numbers are parsed as numbers, BP stays a
+ * string, unknown labels are ignored. Returns undefined when nothing parses, so
+ * a case with no vitals block carries no vitals.
+ */
+export function parseVitals(value = ''): Vitals | undefined {
+  const vitals: Vitals = {}
+  const abnormal: VitalKey[] = []
+  for (const raw of value.split('\n')) {
+    const line = raw.trim()
+    const idx = line.indexOf(':')
+    if (idx < 1) continue
+    const label = line.slice(0, idx).trim().toLowerCase().replace(/\s+/g, '')
+    const body = line.slice(idx + 1).trim()
+    if (!body) continue
+    if (label === 'note') { vitals.note = body; continue }
+    if (label === 'abnormal') {
+      for (const part of body.split(/[|;,]/)) {
+        const key = normaliseVitalKey(part)
+        if (key && !abnormal.includes(key)) abnormal.push(key)
+      }
+      continue
+    }
+    const key = normaliseVitalKey(label)
+    if (!key) continue
+    if (key === 'bp') { vitals.bp = body; continue }
+    const num = Number(body)
+    if (Number.isFinite(num)) vitals[key] = num
+  }
+  if (abnormal.length) vitals.abnormal = abnormal
+  return Object.keys(vitals).length ? vitals : undefined
+}
+
 export function parseDecisions(value = ''): ClinicalDecisionDraft[] {
   return parseSections(value)
     .map((section, index) => {
@@ -783,6 +826,7 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
       format: 'case',
       decisions: only('decisions', parseDecisions) as ClinicalDecisionDraft[],
       debrief: trimmed(values.debrief) as string,
+      vitals: only('vitals', parseVitals),
     }
   }
   if (type === 'Lab interpretation' || type === 'Imaging interpretation') {
@@ -1316,7 +1360,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         ...(text('duration') ? { Duration: values.duration.trim() } : {}),
         ...(text('marks') ? { Marks: values.marks.trim() } : {}),
         ...(text('difficulty') ? { Difficulty: values.difficulty.trim() } : {}),
-        'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
+        'Candidate instructions': values.candidate_instructions || '', 'Actor opening': values.actor_opening || '', 'Actor sections': values.actor_sections || '', 'Actor flags': values.actor_flags || '', 'Mark scheme': values.mark_scheme || '', Decisions: values.decisions || '', Debrief: values.debrief || '', Vitals: values.vitals || '', 'Lab subtype': values.lab_subtype || '', 'Lab questions': values.lab_questions || '', 'Main concept': values.main_concept || '', Concepts: values.concept_ids || '', 'Contextual concepts': values.contextual_concept_ids || '', 'Learning objective': values.learning_objective || '', 'Media needed': values.media_needed || '', References: values.references || '',
       },
       practicalData: practicalDataFrom(values),
     }

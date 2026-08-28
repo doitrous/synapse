@@ -51,16 +51,30 @@ export interface SkillProgress {
   lastAt: string
 }
 
+/** How a student rated their own answer to a viva question, after revealing the model answer. */
+export type OralMark = 'got' | 'partly' | 'missed'
+
+export interface OralProgress {
+  mark: OralMark
+  lastAt: string
+}
+
 export interface PracticalProgress {
   version: 1
   stations: Record<string, StationProgress>
   cases: Record<string, CaseProgress>
   labs: Record<string, LabProgress>
   skills: Record<string, SkillProgress>
+  /**
+   * Optional, unlike its siblings above: every `PracticalProgress` written
+   * before this field existed loads with no `oral` key at all, and that
+   * record must keep loading rather than fail a type it predates.
+   */
+  oral?: Record<string, OralProgress>
 }
 
 export const EMPTY_PRACTICAL_PROGRESS: PracticalProgress = {
-  version: 1, stations: {}, cases: {}, labs: {}, skills: {},
+  version: 1, stations: {}, cases: {}, labs: {}, skills: {}, oral: {},
 }
 
 /**
@@ -145,6 +159,22 @@ export function setSkillStatus(
     return { ...progress, skills: rest }
   }
   return { ...progress, skills: { ...progress.skills, [skillId]: { status, lastAt: at } } }
+}
+
+/**
+ * Fold in a self-mark for one viva question.
+ *
+ * `progress.oral` is defaulted here rather than only in `EMPTY_PRACTICAL_PROGRESS`:
+ * a record saved before this field existed loads with no `oral` key at all, and
+ * that must not throw when the first mark of the session is set.
+ */
+export function setOralMark(
+  progress: PracticalProgress,
+  questionId: string,
+  mark: OralMark,
+  at: string,
+): PracticalProgress {
+  return { ...progress, oral: { ...(progress.oral ?? {}), [questionId]: { mark, lastAt: at } } }
 }
 
 export interface SkillsSummary {

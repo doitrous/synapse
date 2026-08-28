@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { accuracyBand, rankAccuracy, rankMastery } from './qbankAttempts.js'
+import { accuracyBand, rankAccuracy, rankMastery, viewerStanding } from './qbankAttempts.js'
 
 test('pace bands follow the requested timing thresholds', () => {
   assert.equal(accuracyBand(45), 'good')
@@ -21,6 +21,18 @@ test('accuracy leaderboard requires 100 verified answers and ranks by accuracy, 
   assert.deepEqual(rows.map((row) => row.username), ['charlie', 'bravo', 'alpha'])
   assert.equal(rows[0].rank, 1)
   assert.equal(rows[0].accuracy, 0.8)
+
+  const rankedViewer = viewerStanding(rows, 'a')
+  assert.equal(rankedViewer.eligible, true)
+  assert.equal(rankedViewer.rank, 3)
+  assert.equal(rankedViewer.total, 3)
+  assert.equal(rankedViewer.row.verifiedAnswers, 120)
+
+  const unrankedViewer = viewerStanding(rows, 'too-small')
+  assert.equal(unrankedViewer.eligible, false)
+  assert.equal(unrankedViewer.rank, null)
+  assert.equal(unrankedViewer.total, 3)
+  assert.equal(unrankedViewer.row, null)
 })
 
 test('mastery ranks secured concepts with at least three attempts and eighty percent accuracy', () => {
@@ -38,4 +50,15 @@ test('mastery ranks secured concepts with at least three attempts and eighty per
     { userId: 'b', username: 'bravo', conceptIds: JSON.stringify(['c2']), correct: 1, verifiedAt: '2026-08-24T10:02:00Z' },
   ])
   assert.deepEqual(rows.map((row) => [row.username, row.securedConcepts]), [['bravo', 2], ['alpha', 1]])
+
+  const rankedViewer = viewerStanding(rows, 'b')
+  assert.equal(rankedViewer.eligible, true)
+  assert.equal(rankedViewer.rank, 1)
+  assert.equal(rankedViewer.total, 2)
+  assert.equal(rankedViewer.row.securedConcepts, 2)
+
+  const unrankedViewer = viewerStanding(rows, 'nobody')
+  assert.equal(unrankedViewer.eligible, false)
+  assert.equal(unrankedViewer.rank, null)
+  assert.equal(unrankedViewer.total, 2)
 })

@@ -72,6 +72,7 @@ const SharedDocument = lazyNamed(() => import('@/pages/SharedDocument'), 'Shared
 const Dashboard = lazyNamed(() => import('@/pages/student/Dashboard'), 'Dashboard')
 const Library = lazyNamed(() => import('@/pages/student/Library'), 'Library')
 const QuestionBank = lazyNamed(() => import('@/pages/student/QuestionBank'), 'QuestionBank')
+const QuestionNotes = lazyNamed(() => import('@/pages/student/QuestionNotes'), 'QuestionNotes')
 const AdaptiveStudy = lazyNamed(() => import('@/pages/student/AdaptiveStudy'), 'AdaptiveStudy')
 const Resources = lazyNamed(() => import('@/pages/student/Resources'), 'Resources')
 const ResourceReader = lazyNamed(() => import('@/pages/student/ResourceReader'), 'ResourceReader')
@@ -92,6 +93,7 @@ const Performance = lazyNamed(() => import('@/pages/student/Performance'), 'Perf
 const Maristanas = lazyNamed(() => import('@/pages/student/Maristanas'), 'Maristanas')
 const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteboard')
 const Notebook = lazyNamed(() => import('@/pages/student/Notebook'), 'Notebook')
+const Tutorial = lazyNamed(() => import('@/pages/student/Tutorial'), 'Tutorial')
 const StudyTogether = lazyNamed(() => import('@/pages/student/StudyTogether'), 'StudyTogether')
 const Billing = lazyNamed(() => import('@/pages/student/Billing'), 'Billing')
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
@@ -109,6 +111,7 @@ const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCover
 const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
 const AssistantSetup = lazyNamed(() => import('@/pages/admin/AssistantSetup'), 'AssistantSetup')
+const TutorialSetup = lazyNamed(() => import('@/pages/admin/TutorialSetup'), 'TutorialSetup')
 const NotificationCampaigns = lazyNamed(() => import('@/pages/admin/NotificationCampaigns'), 'NotificationCampaigns')
 const BulkImportPage = lazyNamed(() => import('@/pages/admin/BulkImportPage'), 'BulkImportPage')
 const ConceptsSetup = lazyNamed(() => import('@/pages/admin/ConceptsSetup'), 'ConceptsSetup')
@@ -138,6 +141,7 @@ const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportP
 const studentPages: Record<string, Preloadable> = {
   library: Library,
   qbank: QuestionBank,
+  'question-notes': QuestionNotes,
   adaptive: AdaptiveStudy,
   resources: Resources,
   taxonomy: MedicalTaxonomy,
@@ -157,6 +161,7 @@ const studentPages: Record<string, Preloadable> = {
   maristanas: Maristanas,
   whiteboard: Whiteboard,
   notebook: Notebook,
+  tutorial: Tutorial,
   'study-together': StudyTogether,
   billing: Billing,
   account: Account,
@@ -190,6 +195,7 @@ const adminBuilt: Record<string, ReactElement> = {
   histology: render(HistologySetup),
   resources: render(ResourcesSetup),
   reports: render(ReportsReview),
+  tutorial: render(TutorialSetup),
   students: render(StudentsManagement),
   users: render(UsersManagement),
   notifications: render(NotificationCampaigns),
@@ -207,7 +213,7 @@ const adminBuilt: Record<string, ReactElement> = {
 // Keep mounted routes and preloadable student pages in one registry so a new
 // page cannot be linked in navigation while silently falling through to 404.
 const studentPaths = Object.keys(studentPages)
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
+const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'tutorial', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 const studentRoutes = [
   ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),

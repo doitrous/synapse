@@ -49,6 +49,24 @@ not average the two. You record the printed key as printed — or unkeyed, if it
 cannot be read — and you write the article from the department book, not from the
 question stem: a past paper is a source of *what was asked*, never of medical fact.
 
+### The law of voice
+
+Everything a student reads must sound like an authoritative, professional question bank —
+not a study guide narrating its own sources. In every **student-facing** field — question
+stems, options and explanations; article prose; concept `definition` / `explicit_objective`
+/ `pitfalls`; glossary bodies — state the medicine **directly, on its own authority**. Never
+refer to the study material itself: no "the department book says", "according to the
+textbook", "the lecture notes state", "as per the source/handout", "the book's table gives",
+"the department book's own worked example", or any variant. Source provenance is metadata —
+it lives in `field_notes`, `evidence`, `citations` and `source_citation`, never in the
+sentence a student sees.
+
+This does not soften the answer rule above: answers still come only from a real key or the
+department book, page-cited **in the metadata**. And a corrected or convention-flagged key is
+stated about the **answer** — "the exam's printed key marks X, but Y is correct because…" —
+never about the book. British spelling; exam-grade prose throughout. A batch whose
+explanations lean on "the book says" is not finished, however clean `medical:batch` runs.
+
 ---
 
 ## Roles and the chain of command

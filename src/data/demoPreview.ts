@@ -495,7 +495,9 @@ export function demoLeaderboard(metric: 'accuracy' | 'mastery') {
       lastVerifiedAt: new Date().toISOString(),
     })),
     scope: { university: 'Ain Shams University', year: 'Year 1', term: 'Current term · demo preview' },
-    viewer: { eligible: false, verifiedAnswers: 44, requiredAnswers: 100 },
+    viewer: metric === 'mastery'
+      ? { eligible: true, rank: 11, total: 42, securedConcepts: 76 }
+      : { eligible: true, rank: 11, total: 42, verifiedAnswers: 214, requiredAnswers: 100 },
   }
 }
 
