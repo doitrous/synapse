@@ -24,6 +24,9 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Function — 6 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 3 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 2 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
@@ -43,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  17 questions were excluded and 0 held back for having no
+  19 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -14852,6 +14855,834 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-F33C21821BF7
+## title
+Which phase of the cardiac cycle is absent if there is no P wave on the electrocardiogr…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Which phase of the cardiac cycle is absent if there is no P wave on the electrocardiogram? a, Atrial systole
+## answer_a
+Atrial systole
+## explanation_a
+The cardiac cycle is initiated by the P wave, which represents atrial depolarisation; without a P wave there is no atrial contraction, so atrial systole is the phase that is absent.
+
+Why this is right:
+- The cardiac cycle proceeds through seven ordered phases — atrial systole, isovolumetric contraction, rapid ejection, reduced ejection, isovolumetric relaxation, rapid filling, and reduced filling — and as heart rate rises the cycle shortens mainly at the expense of diastole rather than systole.
+## answer_b
+Isovolumetric ventricular contraction
+## explanation_b
+Isovolumetric ventricular contraction is triggered by the QRS complex (ventricular depolarisation), not the P wave, so it can still occur without a P wave.
+## answer_c
+Reduced ventricular ejection
+## explanation_c
+Reduced ventricular ejection follows ventricular contraction and does not depend on atrial depolarisation.
+## answer_d
+Rapid ventricular filling
+## explanation_d
+Rapid ventricular filling is a passive, pressure-driven phase and does not require atrial contraction to occur.
+## correct_answer
+A
+## main_concept
+CON-CVS-8D34A57C987227
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that atrial systole depends on the P wave and is absent without it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p8 q61. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-202E28102893
+## title
+First heart sound occurs in: |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+First heart sound occurs in: |
+## answer_a
+isometric contraction phase
+## explanation_a
+The first heart sound is produced by closure of the AV valves, which happens at the instant rising ventricular pressure exceeds atrial pressure — the event that begins isovolumetric (isometric) contraction.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_b
+atrial systole phase.
+## explanation_b
+AV valves are open during atrial systole, not closing; the closure that makes the first heart sound has not yet happened.
+## answer_c
+isometric relaxation phase.
+## explanation_c
+Isometric relaxation begins with semilunar, not AV, valve closure — that event produces the second heart sound, not the first.
+## answer_d
+maximum filling phase.
+## explanation_d
+Maximum (rapid) filling begins with AV valve opening, the opposite event to the valve closure that produces a heart sound.
+## correct_answer
+A
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the first heart sound is produced by AV valve closure at the start of isovolumetric contraction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q73. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-76CC25151050
+## title
+Second heart sound is due to:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Second heart sound is due to:
+## answer_a
+closure of AV valves.
+## explanation_a
+AV valve closure produces the first heart sound, not the second.
+## answer_b
+closure of semilunar valves.
+## explanation_b
+The second heart sound is produced by closure of the semilunar (aortic and pulmonary) valves, at the instant falling ventricular pressure drops below aortic/pulmonary pressure — the event that begins isovolumetric relaxation.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_c
+closure of 211 valves.
+## explanation_c
+Not a named cardiac valve or valve group — a corrupted option with no anatomical referent.
+## answer_d
+opening of AV valves.
+## explanation_d
+AV valve opening is a silent event that begins ventricular filling, not a valve closure and not the source of a heart sound.
+## correct_answer
+B
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State that the second heart sound is produced by semilunar valve closure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p10 q74. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FAFB9F5785BA
+## title
+At the beginning of which phase of the cardiac cycle does the second heartsound occur?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+At the beginning of which phase of the cardiac cycle does the second heartsound occur?
+## answer_a
+Isovolumetric ventricular contraction
+## explanation_a
+Isovolumetric contraction begins with AV, not semilunar, valve closure, producing the first heart sound, not the second.
+## answer_b
+Reduced ventricular ejection
+## explanation_b
+Reduced ventricular ejection is already underway with the semilunar valves open; no valve closes at its start.
+## answer_c
+Isovolumetric ventricular relaxation
+## explanation_c
+Isovolumetric (isometric) ventricular relaxation begins the instant falling ventricular pressure drops below aortic/pulmonary pressure, closing the semilunar valves and producing the second heart sound.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_d
+Rapid ventricular filling
+## explanation_d
+Rapid ventricular filling begins with AV valve opening, an opening rather than the closing event a heart sound requires.
+## correct_answer
+C
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Place the second heart sound at the start of isovolumetric ventricular relaxation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p8 q62. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D9395E6CB5F5
+## title
+AV valves are open during which of the following phases of cardiac cycle?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+AV valves are open during which of the following phases of cardiac cycle?
+## answer_a
+Isometric contraction phase
+## explanation_a
+Isometric contraction begins exactly because the AV valves have just closed; they stay shut throughout this phase.
+## answer_b
+Atria systole phase
+## explanation_b
+The AV valves are open throughout atrial systole, allowing atrial contraction to push blood into the ventricles — they only close at its end, marking the start of isovolumetric contraction.
+
+Why this is right:
+- Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases.
+## answer_c
+Protodiastolic phase
+## explanation_c
+The protodiastolic interval falls within reduced ejection, with the semilunar valves open and the AV valves still closed.
+## answer_d
+Maximum ejection phase
+## explanation_d
+Maximum ejection has the semilunar valves open and the AV valves closed, the opposite valve state to atrial systole.
+## correct_answer
+B
+## main_concept
+CON-CVS-F51E391CCECE6A
+## library_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Function
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that the AV valves are open during atrial systole (and both filling phases).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p11 q50. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-861C3EA2CAE6
+## title
+Cardiac output is equal to:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Cardiac output is equal to:
+## answer_a
+Diastolic BP + 1/3 (Systolic BP - diastolic BP)
+## explanation_a
+This is the formula for mean arterial pressure, not cardiac output — MAP approximates diastolic pressure plus one-third of the pulse pressure.
+## answer_b
+Heart rate x stroke volume
+## explanation_b
+Cardiac output equals heart rate multiplied by stroke volume, the volume of blood pumped by each ventricle per minute.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+End diastolic volume — end systolic volume
+## explanation_c
+This difference is stroke volume itself (end diastolic volume minus end systolic volume), not cardiac output — stroke volume must still be multiplied by heart rate to reach output per minute.
+## answer_d
+(End diastolic volume — stroke volume) x heart rate
+## explanation_d
+This combination does not correspond to any standard cardiovascular quantity; end diastolic volume minus stroke volume gives end systolic volume, and multiplying that by heart rate is not cardiac output.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = heart rate x stroke volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p14 q108. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-71807BD4F149
+## title
+Cardiac output is equal to which of the following?
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Cardiac output is equal to which of the following?
+## answer_a
+Diastolic BP + 1/3 (Systolic BP — diastolic BP)
+## explanation_a
+This is the formula for mean arterial pressure, not cardiac output — MAP approximates diastolic pressure plus one-third of the pulse pressure.
+## answer_b
+Heart rate x stroke volume
+## explanation_b
+Cardiac output equals heart rate multiplied by stroke volume, the volume of blood pumped by each ventricle per minute.
+
+Why this is right:
+- Cardiac output, the volume of blood pumped by each ventricle per minute, equals stroke volume multiplied by heart rate and averages about 5 litres per minute in adults.
+## answer_c
+End diastolic volume — end systolic volume
+## explanation_c
+This difference is stroke volume itself (end diastolic volume minus end systolic volume), not cardiac output — stroke volume must still be multiplied by heart rate to reach output per minute.
+## answer_d
+(End diastolic volume — stroke volume) x heart rate
+## explanation_d
+This combination does not correspond to any standard cardiovascular quantity; end diastolic volume minus stroke volume gives end systolic volume, and multiplying that by heart rate is not cardiac output.
+## correct_answer
+B
+## main_concept
+CON-CVS-D97F7FD5B9F824
+## library_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Output Formula
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State the formula CO = heart rate x stroke volume.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p7 q28. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-30851052ECE6
+## title
+All about cardiac preload is true, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All about cardiac preload is true, EXCEPT:
+## answer_a
+Increases during exercise 1 :
+## explanation_a
+True of preload, so not the exception. Exercise raises venous return, and a greater venous return stretches the ventricle further, raising preload.
+## answer_b
+Is mainly dependent on venous return
+## explanation_b
+True, so not the exception. Preload is set mainly by venous return — the volume of blood returning to the heart stretches the ventricular wall before contraction begins.
+## answer_c
+Tends to reduce force of cardiac contraction as preload increases
+## explanation_c
+The exception, and the answer. Frank-Starling's law states the opposite direct relationship: within limits, the force (tension) developed during isometric contraction of cardiac muscle rises in direct proportion to preload, not falls. A common trap: assuming any physiological variable's effect must eventually reverse, when the law describes a direct proportionality throughout its physiological range.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_d
+Is the only factor that determines cardiac output
+## explanation_d
+True, so not the exception — cardiac output depends on several variables together (heart rate, contractility, afterload as well as preload), so preload alone does not determine it; this statement is therefore also true and not the sought exception. Note: with two arguably-true statements among the distractors, this item is retained because C is the one Frank-Starling's law contradicts outright, the sharpest and most decisively false option.
+## correct_answer
+C
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that Frank-Starling's law makes preload increase, not reduce, the force of cardiac contraction as the false statement among preload's other true characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p8 q29. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-33DF7DDC97FA
+## title
+Starling’s law of the heari states that the strength of contraction is proportional to …
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Starling’s law of the heari states that the strength of contraction is proportional to which of the following?
+## answer_a
+Myocardial oxygen supply
+## explanation_a
+Myocardial oxygen supply affects how long strong contraction can be sustained, but Frank-Starling's law itself is stated in terms of muscle stretch, not oxygen delivery.
+## answer_b
+Stroke volume
+## explanation_b
+Stroke volume is an output of the heart's pumping, affected by preload among other things — the law states what determines contraction strength, not this consequence of it.
+## answer_c
+The end diastolic volume
+## explanation_c
+Frank-Starling's law states that the strength (tension) of cardiac contraction is directly proportional to the degree of stretching of the muscle, i.e. to its preload — clinically indexed by the end-diastolic volume, the ventricle's filled length just before contraction begins.
+
+Why this is right:
+- Frank-Starling's law states that, within limits, the tension developed during isometric contraction of cardiac muscle is directly proportional to its preload (degree of stretch); in isolated cardiac muscle, increasing preload increases both the degree of shortening, because the muscle starts from a greater length, and the velocity of shortening at any given afterload.
+## answer_d
+Arterial blood pressure
+## explanation_d
+Arterial blood pressure is closer to a component of afterload, which the law does not describe — the law's variable is the muscle's own resting stretch (preload), not the pressure it must contract against.
+## correct_answer
+C
+## main_concept
+CON-CVS-CEB3B0EC313DC9
+## library_ids
+ART-104-PHY-CARDIAC-MECHANICS
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Mechanical Properties of Cardiac Muscle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State Frank-Starling's law: contraction strength is proportional to end-diastolic volume (preload).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q43. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
 
 ---
 

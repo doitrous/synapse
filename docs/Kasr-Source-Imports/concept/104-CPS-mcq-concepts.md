@@ -24,6 +24,9 @@
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 12 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Function — 6 questions, 2 concepts
+    Physiology Cardiovascular System — Cardiac Output Formula — 3 questions, 1 concepts
+    Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 2 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
@@ -43,7 +46,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  17 questions were excluded and 0 held back for having no
+  19 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -1653,6 +1656,192 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-8D34A57C987227
+## label
+The cardiac cycle runs through a fixed order of seven phases starting with atrial systole, and a rising heart rate shortens the cycle mainly by shortening diastole, not systole
+## canonical_key
+cardiac-cycle.seven-phase-sequence-and-duration
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## field_notes
+canonical_key "cardiac-cycle.seven-phase-sequence-and-duration" already has a pinned id in this module (CON-CVS-8D34A57C987227); mintConceptId derives the same id fresh (CON-CVS-8D34A57C987227) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+Every cardiac valve is briefly closed twice a cycle — during isovolumetric contraction (making the first heart sound) and isovolumetric relaxation (making the second) — while the AV valves stay open through atrial systole and both filling phases
+## id
+CON-CVS-F51E391CCECE6A
+## canonical_key
+cardiac-cycle.valve-states-and-heart-sounds-by-phase
+## definition
+Valve state tracks ventricular pressure against atrial and aortic/pulmonary pressure through the seven phases. In atrial systole the AV valves are already open (blood is being pushed from atria into ventricles) and the semilunar valves stay closed. Isovolumetric (isometric) ventricular contraction begins the instant rising ventricular pressure exceeds atrial pressure and slams the AV valves shut; the semilunar valves are not yet open because ventricular pressure has not yet exceeded aortic/pulmonary pressure, so for this one phase every valve is closed at once, and the AV valve closure produces the first heart sound. Once ventricular pressure exceeds the great-vessel pressure, the semilunar valves open and rapid then reduced ejection follow, with the AV valves held shut throughout. Isovolumetric (isometric) ventricular relaxation begins the instant falling ventricular pressure drops below aortic/pulmonary pressure and slams the semilunar valves shut, producing the second heart sound; the AV valves are not yet open because ventricular pressure is still above atrial pressure, so every valve is closed a second time in the cycle. Once ventricular pressure falls below atrial pressure, the AV valves open again and rapid then reduced ventricular filling follow, with the semilunar valves held shut throughout — so, across the whole cycle, the AV valves are open during atrial systole, rapid filling and reduced filling, and closed only during the two ejection phases and the two isovolumetric phases together with the semilunar valves.
+## explicit_objective
+State which two phases of the cardiac cycle have every cardiac valve closed at once, name the valve closure that produces each heart sound, and list the three phases during which the AV valves are open.
+## pitfalls
+Assuming a valve's opening or closing defines only one phase rather than the boundary between two. AV valve closure ends atrial systole and begins isovolumetric contraction (first heart sound); semilunar valve closure ends reduced ejection and begins isovolumetric relaxation (second heart sound) — each sound marks a phase transition, not a phase's whole duration.
+## concept_type
+mechanism
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p10 | 104 CPS
+src_e569449acf8dc2af471e | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p11 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Physiology
+## subtopic
+Cardiovascular System
+## aliases
+First heart sound | Second heart sound | AV valve timing | Semilunar valve timing | All valves closed phases
+## article_ids
+ART-104-PHY-CARDIAC-CYCLE-AND-HEART-SOUNDS
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] First heart sound occurs in: |
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## resource_ids
+src_a11a7faed67c95e2d636
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-CVS-D97F7FD5B9F824
+## label
+Cardiac output is the volume each ventricle pumps per minute, equals heart rate times stroke volume, and is corrected for body size as the cardiac index
+## canonical_key
+cardiac-output.definition-formula-and-index
+## exam_signal
+src_e569449acf8dc2af471e | question_book | | p14 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p7 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-OUTPUT-AND-EXERCISE
+## field_notes
+canonical_key "cardiac-output.definition-formula-and-index" already has a pinned id in this module (CON-CVS-D97F7FD5B9F824); mintConceptId derives the same id fresh (CON-CVS-D97F7FD5B9F824) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-CEB3B0EC313DC9
+## label
+Frank-Starling's law states that isometric tension rises in direct proportion to the muscle's stretch (its preload), and in isolated cardiac muscle a higher preload increases both the degree and the velocity of shortening
+## canonical_key
+cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening
+## exam_signal
+src_ab84e963639b236e0951 | question_book | | p8 | 104 CPS
+src_ab84e963639b236e0951 | question_book | | p10 | 104 CPS
+## article_ids
++ART-104-PHY-CARDIAC-MECHANICS
+## field_notes
+canonical_key "cardiac-muscle-length-tension.frank-starling-law.preload-effect-on-shortening" already has a pinned id in this module (CON-CVS-CEB3B0EC313DC9); mintConceptId derives the same id fresh (CON-CVS-CEB3B0EC313DC9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
