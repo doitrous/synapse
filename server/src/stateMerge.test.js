@@ -286,3 +286,51 @@ test('an unmergeable document is returned as sent, for the caller to version-che
   assert.equal(merged.ok, true)
   assert.deepEqual(merged.value, { a: 3 })
 })
+
+/* ── Content reports: merge-safe, role-gated ─────────────────────────────── */
+
+const REPORTS = 'synapse-content-reports-v1'
+const report = (id, status = 'Open', extra = {}) => ({
+  id, contentKind: 'question', contentId: `q_${id}`, contentTitle: `Report ${id}`,
+  reporterRole: 'Student', reporterName: 'Maya', reporterUserId: 'u1', category: 'Unclear wording',
+  note: 'ambiguous', status, createdAt: '2026-08-01T00:00:00.000Z',
+  events: [{ at: '2026-08-01T00:00:00.000Z', actorId: 'u1', actorName: 'Maya', actorRole: 'Student', action: 'created' }],
+  ...extra,
+})
+
+test('the reports document is mergeable and its changes are contentReports owned by the reports tab', () => {
+  assert.equal(isMergeable(REPORTS), true)
+  const changes = diffDocument(REPORTS, [], [report('a')])
+  assert.equal(changes.length, 1)
+  assert.equal(changes[0].kind, 'contentReport')
+  assert.deepEqual(changes[0].tabs, ['reports'])
+})
+
+test('only the reports tab may write a report, and rank decides the transition', () => {
+  const base = [report('a')]
+  const resolved = [{ ...report('a', 'Resolved'), reviewedBy: 'Ed',
+    events: [...report('a').events, { at: 't', actorId: 'e1', actorName: 'Ed', actorRole: 'Editor', action: 'resolved' }] }]
+  const changes = diffDocument(REPORTS, base, resolved)
+  // Without the reports tab, the coarse tab check refuses first.
+  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null, role: 'editor' }).ok, false)
+  // With the tab, rank decides: a reviewer cannot resolve, an editor can.
+  assert.equal(authoriseChanges(changes, { heldTabs: ['reports'], contentScope: null, role: 'reviewer' }).ok, false)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['reports'], contentScope: null, role: 'editor' }).ok, true)
+})
+
+test('two people working different reports both keep their work; the same report collides', () => {
+  const baseDoc = [report('a'), report('b')]
+  // A resolves report a; meanwhile stored already has b dismissed by someone else.
+  const mine = [{ ...report('a', 'Resolved') }, report('b')]
+  const stored = [report('a'), { ...report('b', 'Dismissed') }]
+  const merged = mergeDocument(REPORTS, baseDoc, stored, mine)
+  assert.equal(merged.ok, true)
+  const byId = Object.fromEntries(merged.value.map((r) => [r.id, r.status]))
+  assert.deepEqual(byId, { a: 'Resolved', b: 'Dismissed' })
+
+  // But two edits to the SAME report, from the same base, collide rather than clobber.
+  const theirs = [{ ...report('a', 'Dismissed') }, report('b')]
+  const collide = mergeDocument(REPORTS, baseDoc, theirs, mine)
+  assert.equal(collide.ok, false)
+  assert.deepEqual(collide.conflicts, ['a'])
+})

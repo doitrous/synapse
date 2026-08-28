@@ -272,7 +272,7 @@ const toStudentSite = <HandOver origin={STUDENT_ORIGIN} />
 
 const studentApp = {
   path: '/app',
-  element: <RequireAuth><AppShell portal="student" /></RequireAuth>,
+  element: <RequireAuth student><AppShell portal="student" /></RequireAuth>,
   children: [{ index: true, element: render(Dashboard) }, ...studentRoutes],
 }
 

@@ -15,6 +15,7 @@
 
 import { changeWritableBy } from './contentScope.js'
 import { LIBRARY_TREES_STATE_KEY } from './libraryTrees.js'
+import { authoriseReportChange, CONTENT_REPORTS_STATE_KEY } from './contentReports.js'
 
 const LEDGER = 'synapse-admin-content-ledger-v4'
 const GRAPH = 'synapse-concept-graph-v2'
@@ -61,6 +62,20 @@ const ADAPTERS = {
       }),
       kindOf: () => 'libraryTree',
       tabsFor: () => ['library'],
+    }],
+  },
+  [CONTENT_REPORTS_STATE_KEY]: {
+    // The reports document is a bare array of reports, like the ledger's items.
+    // Making it a collection is what buys it two things at once: item-by-item
+    // merge, so two people working different reports never collide, and a per-
+    // item authorisation hook, so who may resolve versus only comment is decided
+    // in `authoriseChanges` rather than by the coarse fact of holding the tab.
+    collections: [{
+      name: 'reports',
+      read: (document) => (Array.isArray(document) ? document : []),
+      write: (_document, items) => items,
+      kindOf: () => 'contentReport',
+      tabsFor: () => ['reports'],
     }],
   },
   [GRAPH]: {
@@ -178,7 +193,7 @@ function mediaRequestsOnly(before, after) {
  * told everything that is wrong at once. The caller applies none of it either
  * way: a half-saved page is worse than a rejected one.
  */
-export function authoriseChanges(changes, { heldTabs, contentScope }) {
+export function authoriseChanges(changes, { heldTabs, contentScope, role }) {
   const held = new Set(heldTabs ?? [])
   const refusals = []
   for (const change of changes) {
@@ -190,6 +205,14 @@ export function authoriseChanges(changes, { heldTabs, contentScope }) {
       : change.tabs
     if (!allowed.some((tab) => held.has(tab))) {
       refusals.push({ id: change.id, reason: `${change.kind} "${change.id}" is not part of your role` })
+      continue
+    }
+    // A content report is judged by rank, not curriculum scope: who may resolve,
+    // archive or only comment is a property of the actor's role. Holding the tab
+    // got us this far; the transition itself is what the ladder decides.
+    if (change.kind === 'contentReport') {
+      const verdict = authoriseReportChange({ before: change.before, after: change.after, role })
+      if (!verdict.ok) refusals.push({ id: change.id, reason: verdict.reason })
       continue
     }
     if (!changeWritableBy(contentScope, change.kind, change.before, change.after)) {

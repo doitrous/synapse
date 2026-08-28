@@ -102,7 +102,15 @@ export const DEFAULT_ROLE_TABS = {
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
   ],
-  reviewer: ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'],
+  // A reviewer holds exactly two surfaces: Media Requests, where they supply and
+  // escalate teaching media, and Content Reports, where they raise problems. Both
+  // are review actions, neither authors or destroys content. Everything a reviewer
+  // used to hold — Library, Questions, Practical, Flashcards, Written, Histology,
+  // Concepts, Resources — is editing power that is not theirs, so it is gone from
+  // the default and, because a hidden tab is a document they cannot write, gone as
+  // a capability too. `media` sorts before `reports` in the registry, so `/admin`
+  // lands a reviewer on Media Requests.
+  reviewer: ['media', 'reports'],
 }
 
 /**

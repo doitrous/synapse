@@ -111,7 +111,9 @@ export const DEFAULT_ROLE_TABS: Record<string, string[]> = {
     'dashboard', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
   ],
-  reviewer: ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'concepts', 'resources', 'media'],
+  // Exactly two surfaces — Media Requests and Content Reports. Mirror of the
+  // server default in server/src/tabs.js; the parity test holds them together.
+  reviewer: ['media', 'reports'],
 }
 
 /** The tab ids this role holds. Mirrors `tabsForRole` in server/src/tabs.js. */

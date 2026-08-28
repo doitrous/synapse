@@ -15,6 +15,7 @@ import { cn } from '@/lib/cn'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
+import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
 
 export function Sidebar({
   portal,
@@ -38,15 +39,24 @@ export function Sidebar({
   const universityShort = useUniversityName(identity.audience.universityId, 'short')
   const universityName = useUniversityName(identity.audience.universityId)
 
-  // Whatever the account actually says, and nothing more: the line falls back
-  // to "Medicine" rather than inventing a cohort this person may not be in.
+  // The admin line names the actual role — Reviewer, Editor, Admin, Super admin —
+  // never a single blanket title, so a reviewer is never labelled as more than
+  // they are. The student line falls back to "Medicine" rather than inventing a
+  // cohort this person may not be in.
+  const roleLabel = t(ROLE_LABEL[identity.role as EffectiveRole] ?? 'Team')
   const detail = portal === 'admin'
-    ? t('Curriculum admin')
+    ? roleLabel
     : [universityShort, identity.audience.year].filter(Boolean).join(' · ') || t('Medicine')
   const detailTitle = portal === 'admin'
-    ? t('Curriculum admin')
+    ? roleLabel
     : [universityName, identity.audience.year].filter(Boolean).join(' · ')
   const profile = { name: identity.displayName, detail }
+  // Never point somebody at a screen their role cannot open. Only a super admin
+  // holds Settings; everyone else on the admin side lands on their console home,
+  // which resolves to the first surface they actually hold.
+  const accountHref = portal === 'admin'
+    ? (identity.tabs.includes('settings') ? '/admin/settings' : '/admin')
+    : '/app/account'
 
   return (
     <div className="flex h-full flex-col bg-surface">
@@ -142,7 +152,7 @@ export function Sidebar({
       {/* User */}
       <div className="shrink-0 border-t border-line p-2">
         <NavLink
-          to={portal === 'admin' ? '/admin/settings' : '/app/account'}
+          to={accountHref}
           className={cn(
             'flex w-full items-center gap-2.5 rounded-md py-1.5 text-start transition-colors hover:bg-inset',
             collapsed ? 'justify-center px-0' : 'px-2',
