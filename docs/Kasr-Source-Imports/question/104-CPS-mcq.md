@@ -15,6 +15,7 @@
     Histology Cardiovascular System — A-V Connections — 34 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 7 questions, 2 concepts
     Histology Cardiovascular System — The Heart's Conducting System (Purkinje fibres) — 1 questions, 1 concepts
+    Physiology Cardiovascular System — Electrocardiogram Basics — 8 questions, 2 concepts
     Anatomy Cardiovascular System — The Heart (external features) — 1 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 7 questions, 2 concepts
     Physiology Cardiovascular System — Pacemaker Electrophysiology — 9 questions, 4 concepts
@@ -63,7 +64,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  97 questions were excluded and 0 held back for having no
+  98 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -9689,6 +9690,650 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-104-81E15A899387
+## title
+P wave is due to:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+P wave is due to:
+## answer_a
+atrial depolarization. .
+## explanation_a
+Correct. The P wave is the ECG's record of atrial depolarization — the spread of the electrical impulse from the SA node through both atria.
+
+Why this is right:
+- Each deflection on a normal ECG tracing corresponds to a specific electrical event of the cardiac cycle.
+## answer_b
+atrial repolarization.
+## explanation_b
+Atrial repolarization is a real event, but it produces no visible wave of its own — its small signal is masked by the much larger, simultaneously occurring QRS complex.
+## answer_c
+atrial systole.
+## explanation_c
+Atrial systole is a mechanical event (contraction), not the electrical depolarization event the P wave itself records, even though systole follows shortly after depolarization.
+## answer_d
+atrial diastole.
+## explanation_d
+Atrial diastole is the relaxed, filling phase of the atria, unrelated to what generates the P wave, which records depolarization, an electrical (not mechanical/relaxation) event.
+## correct_answer
+A
+## main_concept
+CON-CVS-E546F6AC415A6E
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+State that the P wave is produced by atrial depolarization, not repolarization, systole or diastole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q67. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-227A93CF5E91
+## title
+QRS complex is due to: *
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+QRS complex is due to: *
+## answer_a
+ventricular repolarization
+## explanation_a
+Ventricular repolarization produces the T wave, a separate and later deflection, not the QRS complex.
+## answer_b
+ventricular depolarization. ٠
+## explanation_b
+Correct. The QRS complex records ventricular depolarization — the spread of the impulse through the ventricular myocardium via the bundle branches and Purkinje fibres — and is the largest deflection on the tracing because the ventricular mass is so much greater than the atrial mass.
+
+Why this is right:
+- Each deflection on a normal ECG tracing corresponds to a specific electrical event of the cardiac cycle.
+## answer_c
+atrial depolarization
+## explanation_c
+Atrial depolarization produces the P wave, an earlier and much smaller deflection than the QRS complex.
+## answer_d
+atrial repolarization
+## explanation_d
+Atrial repolarization produces no wave of its own at all — it is masked by the QRS complex, not the cause of it.
+## correct_answer
+B
+## main_concept
+CON-CVS-E546F6AC415A6E
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a definition
+## learning_objective
+State that the QRS complex is produced by ventricular depolarization, not repolarization or atrial events.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q69. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-BF3641ADEEE4
+## title
+The longest wave in ECG is: a, P wave. b, T wave
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The longest wave in ECG is: a, P wave. b, T wave
+## answer_a
+P wave.
+## explanation_a
+The P wave is a comparatively brief, small deflection reflecting the smaller atrial mass depolarizing — shorter in duration than the T wave.
+## answer_b
+T wave.
+## explanation_b
+Correct. Ventricular repolarization proceeds more gradually and less synchronously across the ventricular wall than depolarization does, spreading the T wave's own electrical signal out over a longer duration than any other single wave on the tracing.
+
+Why this is right:
+- Each deflection on a normal ECG tracing corresponds to a specific electrical event of the cardiac cycle.
+## answer_c
+Q wave.
+## explanation_c
+The Q wave is only the small initial downward deflection of the QRS complex, a brief component of a brief complex, not a long wave.
+## answer_d
+1 ‏ك‎ Swave,
+## explanation_d
+The S wave is likewise only a small component of the brief QRS complex, not a separately long wave.
+## correct_answer
+B
+## main_concept
+CON-CVS-E546F6AC415A6E
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+Identify the T wave as the longest (widest) wave of the normal ECG, reflecting the relatively slow, less synchronised repolarization of the ventricular myocardium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p9 q71. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9EE47510D756
+## title
+Concerning the ECG of an aciult human, all are true EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the ECG of an aciult human, all are true EXCEPT:
+## answer_a
+The P-wave coincides with depolarization of the atria
+## explanation_a
+True, so not the exception: the P wave coincides with, and is produced by, depolarization of the atria.
+## answer_b
+P-R interval of 0.3 seconds indicates impaired conduction
+## explanation_b
+True, so not the exception: a normal PR interval is about 0.12-0.20 seconds, so a PR interval of 0.3 seconds is prolonged and does indicate impaired (delayed) AV conduction.
+## answer_c
+The R-wave coincides with depolarization of the apex of the heart
+## explanation_c
+True, so not the exception, in the sense the book intends: the R wave, as part of the QRS complex, reflects depolarization spreading through the ventricular myocardium including toward the apex.
+## answer_d
+The Q-wave coincides with cleoolarization of the atria
+## explanation_d
+The exception, and the answer. The Q wave is the initial deflection of the QRS complex and coincides with the start of VENTRICULAR depolarization, not atrial depolarization — atrial depolarization is what the P wave, not the Q wave, records.
+
+Why this is right:
+- Each deflection on a normal ECG tracing corresponds to a specific electrical event of the cardiac cycle.
+## correct_answer
+D
+## main_concept
+CON-CVS-E546F6AC415A6E
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify that the Q wave coincides with the start of ventricular depolarization, not atrial depolarization, as the exception among otherwise true statements about the adult ECG.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p11 q47. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4E9862995EA2
+## title
+In an ECG recording, the time between atria! depolarization & ventricular depolarizatio…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In an ECG recording, the time between atria! depolarization & ventricular depolarization is represented by which part?
+## answer_a
+P-wave
+## explanation_a
+The P wave itself is atrial depolarization, not the gap between it and ventricular depolarization.
+## answer_b
+QRS complex
+## explanation_b
+The QRS complex is ventricular depolarization itself, the event that ENDS the interval this question asks about, not the interval leading up to it.
+## answer_c
+S-T interval
+## explanation_c
+The S-T interval/segment falls after the QRS complex, representing the fully depolarized ventricular plateau, not the gap before ventricular depolarization begins.
+## answer_d
+P-R segment
+## explanation_d
+Correct. The PR segment — the isoelectric stretch after the P wave ends and before the QRS complex begins — is exactly the delay between atrial depolarization finishing and ventricular depolarization starting, produced by the slow AV nodal conduction.
+
+Why this is right:
+- Three named intervals/segments on the ECG mark specific timing relationships.
+## correct_answer
+D
+## main_concept
+CON-CVS-14B716A64FA68C
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+Identify the PR segment, not the PR interval, P wave or S-T interval, as the ECG element representing the time between atrial depolarization ending and ventricular depolarization beginning.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p10 q46. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F3FD9289B91F
+## title
+The Q-T interval of ECG:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The Q-T interval of ECG:
+## answer_a
+is measured from the beginning of Q wave to the beginning of T wave.
+## explanation_a
+The QT interval is measured from the START of the Q wave to the END of the T wave, not to the beginning of the T wave — ending at the beginning of the T wave would exclude the whole repolarization process the T wave itself represents.
+## answer_b
+it represents the total time taken for depolarization andrepolarization of ventricular muscle.
+## explanation_b
+Correct. The QT interval captures the full time course of ventricular electrical activity in one beat: depolarization (QRS) plus repolarization (T wave) together.
+
+Why this is right:
+- Three named intervals/segments on the ECG mark specific timing relationships.
+## answer_c
+itis prolonged in hypercalcemia.
+## explanation_c
+Hypercalcemia shortens, not prolongs, the QT interval (by speeding repolarization); it is hypocalcemia that prolongs it.
+## answer_d
+all of the above.
+## explanation_d
+Not all of the above, since option C is false (hypercalcemia shortens, rather than prolongs, the QT interval) and option A mismeasures the interval's own endpoint — only B is correct.
+## correct_answer
+B
+## main_concept
+CON-CVS-14B716A64FA68C
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+Define the QT interval as spanning the start of the Q wave to the end of the T wave, representing total ventricular depolarization plus repolarization time, and state that it shortens (not lengthens) in hypercalcemia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q86. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CA1FCA107BC3
+## title
+The S-T segment of ECG:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The S-T segment of ECG:
+## answer_a
+is not usually isoelectric
+## explanation_a
+Backwards. The ST segment is normally isoelectric (flat at baseline) precisely because the ventricles are uniformly, completely depolarized at that moment, with no net current flowing to deflect the tracing.
+## answer_b
+is measured from the beginning of S to beginning of T
+## explanation_b
+The ST segment is measured from the END of the QRS complex (the S wave) to the beginning of the T wave, not from the S wave's own beginning.
+## answer_c
+represents complete depolarization of the ventricles
+## explanation_c
+Correct. The ST segment coincides with the plateau phase of the ventricular myocyte action potential — the ventricles are, at this point, completely and uniformly depolarized, which is exactly why the segment is normally flat.
+
+Why this is right:
+- Three named intervals/segments on the ECG mark specific timing relationships.
+## answer_d
+is usually prolonged in myocardial ischemia
+## explanation_d
+Myocardial ischemia classically produces ST-segment DEVIATION (elevation or depression) from the isoelectric baseline, which is a displacement rather than simply a prolongation of the segment's own duration.
+## correct_answer
+C
+## main_concept
+CON-CVS-14B716A64FA68C
+## library_ids
+ART-104-PHY-CARDIAC-CONDUCTION
+## topic
+Physiology
+## subtopic
+Physiology Cardiovascular System — Electrocardiogram Basics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a definition
+## learning_objective
+State that the ST segment is normally isoelectric and represents complete ventricular depolarization (the plateau phase), and identify it as typically shortened, not prolonged, in myocardial ischemia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p11 q85. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
