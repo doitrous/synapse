@@ -707,6 +707,19 @@ npm run medical:validate:authoring
 >
 > Trust `medical:simulate` for anything that resolves an ID.
 
+**`medical:simulate` has no `--with` flag — only `medical:batch` does.** If you widen
+`medical:batch`'s directory scope with `--with <file>` for a sibling concept, do not
+carry that flag over to `medical:simulate`: its parser reads the token right after any
+`--flag` as that flag's value, so `--with sibling.md` silently drops `sibling.md` from the
+run (and every file after a repeated `--with` goes the same way), while still exiting 0
+with `errors: []`. List every file positionally instead.
+
+**A bare `---` line inside `## sections` (or any other long prose field) ends the record
+early.** The importer splits a file into records on any line that is only `---` — the same
+separator used between `# Item` blocks — so a horizontal rule carried over from a source
+department book's own formatting silently truncates the article and starts a broken
+second record. Strip a bare `---` out of pasted section text before saving the batch.
+
 - [ ] I searched before creating; an existing article was updated rather than duplicated
 - [ ] Every required section for my `template_id` is present
 - [ ] `archetype` matches the template
@@ -733,6 +746,8 @@ npm run medical:validate:authoring
 | `still carries a Components and relations section` | Forbidden section |
 | `related article X is authored nowhere in the batch directory`, but X is live | Directory-scoped check. Confirm with `medical:simulate`. |
 | A teaching point arrives cut in half | You used `;` in a prose list. One item per line. |
+| `medical:simulate` reports `errors: []`, but a sibling concept file's IDs still resolve as missing | You passed it after `--with`; `medical:simulate` has no such flag and silently dropped it — list every file positionally instead |
+| A section (or everything after it) is missing or the record looks truncated | A bare `---` line inside `## sections` ended the record early — strip stray horizontal rules from pasted source text |
 
 ---
 
