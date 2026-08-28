@@ -71,10 +71,10 @@ Draft
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## summary
 Three identity facts about amino acids that this ASU-IBM bank tests directly: what makes an amino acid water-soluble, why proteins absorb UV light at 280nm, and which residue in a protein has no dedicated codon of its own.
@@ -263,10 +263,10 @@ Draft
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## summary
 Folding a newly synthesised protein into its correct three-dimensional shape is not always spontaneous. This article covers the helper proteins (chaperones) that assist correct folding, and what goes wrong when folding fails at the population level, as in mad cow disease.
@@ -447,10 +447,10 @@ Draft
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## summary
 Two covalent bonds define a protein's backbone chemistry and its ability to cross-link: the peptide bond, whose geometry is fixed and planar, and the disulfide bond, whose formation and cleavage are a redox pair.
@@ -628,10 +628,10 @@ Draft
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## summary
 Two general chemistry facts about carbohydrates that this ASU-IBM bank tests before moving into individual sugars: the class's shared empirical formula, and the one carbohydrate that breaks the usual chirality rule.
@@ -806,10 +806,10 @@ Draft
 Dr. Omar
 
 ## reviewer
-Dr. Omar
+Medical team, Admin team
 
 ## final_publisher
-Dr. Omar
+Admin team
 
 ## summary
 Two clinical correlations this ASU-IBM lipid bank draws from ordinary phospholipid chemistry: an autoimmune disease that targets acidic phospholipids, and a neonatal disease that follows from a specific phospholipid's deficiency in lung surfactant.
