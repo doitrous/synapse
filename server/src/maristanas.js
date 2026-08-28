@@ -85,6 +85,33 @@ function text(value, max) {
 }
 
 /**
+ * Which active-study surfaces count as "reading" vs "solving" for the study
+ * breakdown. Reading is consuming content (the reader, the library, the
+ * glossary); solving is answering or doing. Anything else is other study.
+ * Surfaces are the route sections `StudyActivityTracker` sends.
+ */
+const READING_SURFACES = new Set(['resources', 'library', 'taxonomy'])
+const SOLVING_SURFACES = new Set([
+  'qbank', 'adaptive', 'practical', 'essays', 'minigames', 'term-grid', 'spotter',
+  'term-match', 'clinical-sequence', 'mechanism-chain', 'red-flag-sort', 'study-together',
+])
+
+export function classifyStudySurface(surface) {
+  if (READING_SURFACES.has(surface)) return 'reading'
+  if (SOLVING_SURFACES.has(surface)) return 'solving'
+  return 'other'
+}
+
+/** Sum per-surface minute rows into reading / solving / other minute totals. */
+export function studyMinutesByClass(rows) {
+  const totals = { reading: 0, solving: 0, other: 0 }
+  for (const row of rows ?? []) {
+    totals[classifyStudySurface(row.surface)] += Number(row.minutes ?? 0)
+  }
+  return totals
+}
+
+/**
  * One accepted row is one active minute. The wall-clock minute bucket is
  * unique per student, so two tabs cannot double-count and replaying a request
  * is harmless. Buckets too far from the server clock are refused.
@@ -133,7 +160,7 @@ export async function maristanaOverview(userId, { includeRecent = true } = {}) {
   const assessmentThreshold = config.assessmentMinimumQuestions
   const [
     [studyRows], [questionRows], [assessmentSessionRows], [nameRows],
-    [weekStudyRows], [weekQuestionRows], recentQuestionResult, recentStudyResult,
+    [weekStudyRows], [weekQuestionRows], [weekSurfaceRows], recentQuestionResult, recentStudyResult,
   ] = await Promise.all([
     pool.query('SELECT COUNT(*) AS studyMinutes FROM maristana_study_minutes WHERE user_id = ?', [userId]),
     pool.query('SELECT COUNT(*) AS questionsAnswered, COALESCE(SUM(correct), 0) AS correctAnswers FROM qbank_attempts WHERE user_id = ?', [userId]),
@@ -147,6 +174,12 @@ export async function maristanaOverview(userId, { includeRecent = true } = {}) {
     pool.query('SELECT slot_number AS slot, name FROM maristana_hospitals WHERE user_id = ? ORDER BY slot_number', [userId]),
     pool.query('SELECT COUNT(*) AS studyMinutes FROM maristana_study_minutes WHERE user_id = ? AND recorded_at >= NOW() - INTERVAL 7 DAY', [userId]),
     pool.query('SELECT COUNT(*) AS questionsAnswered, COALESCE(SUM(correct), 0) AS correctAnswers FROM qbank_attempts WHERE user_id = ? AND verified_at >= NOW() - INTERVAL 7 DAY', [userId]),
+    pool.query(
+      `SELECT surface, COUNT(*) AS minutes
+         FROM maristana_study_minutes
+        WHERE user_id = ? AND recorded_at >= NOW() - INTERVAL 7 DAY
+        GROUP BY surface`, [userId],
+    ),
     includeRecent ? pool.query(
       `SELECT id, session_id AS sessionId, topic, correct, verified_at AS at
          FROM qbank_attempts WHERE user_id = ? ORDER BY verified_at DESC LIMIT 8`, [userId],
@@ -213,6 +246,12 @@ export async function maristanaOverview(userId, { includeRecent = true } = {}) {
     breakdown,
     hospitals: buildHospitalSlots(total, config, names),
     recentActivity,
-    thisWeek: { studyMinutes: weekStudyMinutes, questionsAnswered: weekQuestions, credits: weekCredits },
+    thisWeek: {
+      studyMinutes: weekStudyMinutes,
+      questionsAnswered: weekQuestions,
+      credits: weekCredits,
+      // Real, from the per-minute surface ledger — not an estimate.
+      ...studyMinutesByClass(weekSurfaceRows),
+    },
   }
 }

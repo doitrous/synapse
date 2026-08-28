@@ -38,9 +38,11 @@ const EXAM_BLOCK_TYPE_NAMES = ['midterm', 'midyear', 'term', 'final'] as const
 export const EXAM_KINDS = ['eom', 'eoy', 'baqoon', 'other'] as const
 export type ExamKind = (typeof EXAM_KINDS)[number]
 
+// Student-facing labels: always spelled out in full — never the "EOM"/"EOY"
+// abbreviations — per product rule for the student frontend.
 export const EXAM_KIND_LABEL: Record<ExamKind, string> = {
-  eom: 'End of module',
-  eoy: 'End of year',
+  eom: 'End of Module',
+  eoy: 'End of Year',
   baqoon: 'Resit (Baqoon)',
   other: 'Other',
 }

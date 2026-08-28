@@ -11,7 +11,7 @@
 import type { LucideIcon } from 'lucide-react'
 import {
   Gauge, Network, Languages, GraduationCap, Scale, Library, FileQuestion, Compass,
-  Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, Mail, Inbox, BellRing,
+  Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, MonitorPlay, Mail, Inbox, BellRing,
   Layers, PenLine, Microscope,
   UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound,
 } from 'lucide-react'
@@ -71,6 +71,8 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
   { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: Flag, group: 'Content',
     stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
+  { id: 'tutorial', label: 'Tutorial Videos', to: '/admin/tutorial', icon: MonitorPlay, group: 'Content',
+    stateKeys: ['synapse-tutorial-videos-v1'], apiPrefixes: [] },
 
   { id: 'email', label: 'Email & Automations', to: '/admin/email', icon: Mail, group: 'Operations',
     stateKeys: ['synapse-email-automations-v1'], apiPrefixes: [] },
