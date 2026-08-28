@@ -63,5 +63,18 @@ export const LEAF: McqLeafSeed = {
         D: "The thoracic duct's field of drainage is the LEFT side of the thorax (plus the two lower limbs and most of the abdomen) — the right side of the thoracic cavity drains instead into the right lymphatic duct.",
       },
     },
+    {
+      key: "one-of-the-following-regarding-the-thoracic-duct-is-false-9749a40a",
+      conceptKey: "thoracic-duct.course-tributaries-and-termination",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "State that the thoracic duct drains the left, not the right, upper limb.",
+      explanations: {
+        A: "True, and so not the answer sought. The thoracic duct begins at the lower border of T12, as the direct continuation of the cisterna chyli.",
+        B: "True, and so not the answer sought. The thoracic duct enters the thorax through the aortic opening of the diaphragm, between the aorta and the azygos vein.",
+        C: "True, and so not the answer sought. In the superior mediastinum the thoracic duct ascends behind the oesophagus's left margin, having already crossed over from the right at T5.",
+        D: "This is the false statement, and the correct answer. The thoracic duct drains the LEFT upper limb, via the left subclavian lymph trunk at its termination — the right upper limb instead drains into the right lymphatic duct, together with the right side of the head, neck and thorax.",
+      },
+    },
   ],
 }

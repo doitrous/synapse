@@ -1,10 +1,12 @@
 <!--
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
-    Aortic Arch Relations and Cardiac Plexuses — 3 questions, 1 concepts
+    Aortic Arch Relations and Cardiac Plexuses — 4 questions, 2 concepts
     Development of the Heart — 2 questions, 2 concepts
-    Lymphatics of the Thorax — 3 questions, 1 concepts
-    Pericardium — 7 questions, 3 concepts
+    The Diaphragm — 2 questions, 2 concepts
+    Large Nerves of the Thorax — 3 questions, 1 concepts
+    Lymphatics of the Thorax — 4 questions, 1 concepts
+    Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
@@ -27,8 +29,8 @@
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 18 questions, 3 concepts
-    Respiratory System — Larynx and Airway Wall — 4 questions, 2 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
+    Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
     Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
@@ -41,7 +43,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  15 questions were excluded and 0 held back for having no
+  17 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -64,6 +66,23 @@ src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
 +ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
 ## field_notes
 canonical_key "arch-of-aorta.relations-and-branches" already has a pinned id in this module (CON-CVS-9C60987F3CB5A1); mintConceptId derives the same id fresh (CON-CVS-9C60987F3CB5A1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-EEA29FB47CBB71
+## label
+The descending thoracic aorta runs from T4/T5 to T12, giving nine pairs of posterior intercostal arteries, a subcostal pair, two left bronchial arteries and oesophageal branches
+## canonical_key
+descending-thoracic-aorta.course-relations-and-branches
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
+## article_ids
++ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## field_notes
+canonical_key "descending-thoracic-aorta.course-relations-and-branches" already has a pinned id in this module (CON-CVS-EEA29FB47CBB71); mintConceptId derives the same id fresh (CON-CVS-EEA29FB47CBB71) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -218,6 +237,59 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## id
+CON-RES-449B5BD0266989
+## label
+The phrenic nerve is the sole motor supply of the diaphragm, arising in the neck from C3, 4 and 5 and supplying the abdominal surface because the embryo folds
+## canonical_key
+diaphragm.nerve-supply-and-action
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-DIAPHRAGM
+## field_notes
+canonical_key "diaphragm.nerve-supply-and-action" already has a pinned id in this module (CON-RES-449B5BD0266989); mintConceptId derives the same id fresh (CON-RES-449B5BD0266989) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-80C9B9E43B459B
+## label
+The diaphragm has three major openings — aortic at T12, oesophageal at T10, caval at T8 — plus named minor openings for the musculophrenic artery, splanchnic nerves and phrenic nerves
+## canonical_key
+diaphragm.major-openings
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p5 | 104 CPS
+## article_ids
++ART-104-ANA-DIAPHRAGM
+## field_notes
+canonical_key "diaphragm.major-openings" already has a pinned id in this module (CON-RES-80C9B9E43B459B); mintConceptId derives the same id fresh (CON-RES-80C9B9E43B459B) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-AFCED19BA66ED2
+## label
+The phrenic nerve enters the thorax on the venous side (right) or arterial side (left) of the mediastinum and leaves through the diaphragm it alone supplies motor to
+## canonical_key
+phrenic-nerve.course-and-distribution
+## exam_signal
+src_d3160d222c8c55775511 | question_book | | p15 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p26 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p4 | 104 CPS
+## article_ids
++ART-104-ANA-THORACIC-NERVES
+## field_notes
+canonical_key "phrenic-nerve.course-and-distribution" already has a pinned id in this module (CON-RES-AFCED19BA66ED2); mintConceptId derives the same id fresh (CON-RES-AFCED19BA66ED2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
 CON-HEM-9123D4493320A7
 ## label
 The thoracic duct crosses from right to left behind the oesophagus at T5 and drains the whole body except the right upper quadrant into the left brachiocephalic vein
@@ -227,6 +299,7 @@ thoracic-duct.course-tributaries-and-termination
 src_c30d947377670cb99a40 | question_book | | p25 | 104 CPS
 src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_d3160d222c8c55775511 | question_book | | p12 | 104 CPS
 ## article_ids
 +ART-104-ANA-THORACIC-LYMPHATICS
 ## field_notes
@@ -262,6 +335,7 @@ The fibrous and parietal serous pericardium are somatically sensitive to pain vi
 pericardium.nerve-and-blood-supply
 ## exam_signal
 src_c30d947377670cb99a40 | question_book | | p11 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p3 | 104 CPS
 ## article_ids
 +ART-104-ANA-PERICARDIUM-SINUSES
 ## field_notes
@@ -304,18 +378,20 @@ kau
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
+src_c30d947377670cb99a40 | question_book | | p28 | 104 CPS
+src_b2b20b3b22954ea7843a | question_book | | p17 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.31
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Anatomy
 ## subtopic
@@ -2139,6 +2215,10 @@ conducting-portion-epithelium.five-cell-types
 src_9cf32ada2b25fa54f0e9 | question_book | | p22 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
 src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_5465875dc14a998b7b21 | question_book | | p15 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p16 | 104 CPS
 ## article_ids
 +ART-104-HIS-NASAL-MUCOSA
 ## field_notes
@@ -2174,10 +2254,150 @@ olfactory-mucosa.cell-types-and-lamina-propria
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
 src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
 ## article_ids
 +ART-104-HIS-NASAL-MUCOSA
 ## field_notes
 canonical_key "olfactory-mucosa.cell-types-and-lamina-propria" already has a pinned id in this module (CON-RES-58840F56FB3A36); mintConceptId derives the same id fresh (CON-RES-58840F56FB3A36) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The paranasal sinuses are lined by a thin pseudostratified ciliated columnar epithelium with few goblet cells, continuous with the nasal cavity's own mucociliary clearance
+## id
+CON-RES-E55C5360CC116B
+## canonical_key
+paranasal-sinuses.lining-epithelium
+## definition
+The paranasal sinuses — the frontal, maxillary, ethmoidal and sphenoidal air cavities within the skull bones surrounding the nose — communicate with the nasal cavity through small openings (ostia) and carry the same family of lining as the nasal fossae: pseudostratified ciliated columnar epithelium. It is, however, a thinner version of that lining, with fewer goblet cells and a less vascular, thinner lamina propria than the nasal mucosa proper. Coordinated ciliary beating drives the thin mucus layer, with any trapped particles, out through each sinus's ostium into the nasal cavity, so the sinuses share in the nose's own mucociliary clearance route rather than running an independent one.
+## explicit_objective
+State that the paranasal sinuses carry a thinner version of respiratory epithelium — pseudostratified ciliated columnar with few goblet cells — clearing via the nasal cavity's own mucociliary route.
+## pitfalls
+Assuming the sinuses are lined by simple or stratified epithelium because they are 'just' hollow bone cavities. They keep the conducting portion's own ciliated, mucus-producing lining, only thinner and less richly supplied — a smaller-scale copy of the nasal fossae's mucosa, not a different tissue type.
+## concept_type
+structural_description
+## status
+under review
+## subject
+resp
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p3 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p3 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.39
+## exam_weight_by_year
+KAU_Y1=0.39
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Respiratory System
+## aliases
+Paranasal sinus lining | Sinus mucosa | Sinus ostia
+## article_ids
+ART-104-HIS-NASAL-MUCOSA
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] What type of tissues lines the paranasal sinuses:
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---
@@ -2192,6 +2412,9 @@ larynx.vocal-cords-and-cartilages
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
 ## article_ids
 +ART-104-HIS-LARYNX-TRACHEA-BRONCHI
 ## field_notes
@@ -2327,6 +2550,30 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-7C79F2D68F1003
+## label
+Cartilage, glands and goblet cells fall away from extrapulmonary bronchus to bronchiole, while smooth muscle becomes more developed and Clara cells appear
+## canonical_key
+bronchi-and-bronchioles.structural-progression-and-clara-cells
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p30 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p31 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
+src_df6b7a7de75411dbb92b | question_book | | p13 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_d0d3d52a9b3b79169a9c | question_book | | p2 | 104 CPS
+src_12ecc23fe206a928203d | question_book | | p2 | 104 CPS
+## article_ids
++ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## field_notes
+canonical_key "bronchi-and-bronchioles.structural-progression-and-clara-cells" already has a pinned id in this module (CON-RES-7C79F2D68F1003); mintConceptId derives the same id fresh (CON-RES-7C79F2D68F1003) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

@@ -19,6 +19,19 @@ export const LEAF: McqLeafSeed = {
       type: "structural_description",
       aliases: ["Aortic arch relations", "Aortic arch branches", "Deep cardiac plexus location"],
     },
+    {
+      key: "descending-thoracic-aorta.course-relations-and-branches",
+      label: "The descending thoracic aorta runs from T4/T5 to T12 in the posterior mediastinum, giving nine pairs of posterior intercostal arteries, a subcostal pair, two left bronchial arteries and oesophageal branches",
+      definition: "The descending thoracic aorta, about 20 cm long and the longest thoracic segment of the aorta, continues the arch of the aorta from the left of the T4/T5 intervertebral disc, running in the posterior mediastinum — first to the left of the T5 to T7 vertebral bodies, then in front of T8 to T12 — to end at the lower border of T12, where it passes through the diaphragm's aortic opening to become the abdominal aorta. Anteriorly it is related, from above down, to the left principal bronchus, the pericardium, the oesophagus and the diaphragm; posteriorly to the lower five vertebral bodies and the two hemiazygos veins crossing at T8 and T9; on its right to the oesophagus above and the thoracic duct and azygos vein throughout; and on its left to the pleura and lung. Its branches are nine pairs of posterior intercostal arteries (third to eleventh space), one pair of subcostal arteries, two left bronchial arteries, four or five oesophageal branches, and small twigs to the pericardium, mediastinum and diaphragm.",
+      objective: "State the vertebral levels the descending thoracic aorta begins and ends at, name its mediastinal compartment, and list its five groups of branches.",
+      pitfall: "Placing the descending thoracic aorta in the middle mediastinum because that is where the heart and great-vessel roots are. It in fact runs in the posterior mediastinum, alongside the oesophagus, thoracic duct, azygos system and sympathetic trunks — the middle mediastinum holds only the heart, pericardium and the roots of the great vessels (ascending aorta, pulmonary trunk, lower SVC).",
+      subject: "cvs",
+      primary: "DIS-ANA-T04",
+      secondary: [],
+      modulePath: "104 CPS > Anatomy > Large Arteries of the Thorax",
+      type: "structural_description",
+      aliases: ["Descending thoracic aorta course", "Descending thoracic aorta branches", "Posterior intercostal arteries"],
+    },
   ],
 
   questions: [
@@ -57,6 +70,20 @@ export const LEAF: McqLeafSeed = {
       explanations: {},
       exclude: true,
       excludeReason: "The department book (article ART-104-ANA-HEART-SKELETON-AND-CONDUCTION) states the superficial cardiac plexus's parasympathetic root is the left vagus's INFERIOR cervical cardiac branch, with the SUPERIOR cervical cardiac branch instead being the sympathetic (not parasympathetic) contribution, from the left sympathetic chain. The bank's surviving options are A) superior cervical cardiac branch of left vagus, C) inferior thoracic cardiac branch of right vagus, D) superior cervical cardiac branch of right vagus — option B, almost certainly the textbook-correct 'inferior cervical cardiac branch of left vagus', is missing from the extraction (OCR/page-bleed loss, a recurring pattern in this bank). The row's own editorial-no-printed-key answer (A) directly contradicts the department book's own stated mechanism, so keying it A would teach an inverted fact rather than a gap. Per the ANSWER-KEY GAPS ruling, a wrong key is worse than a missing one; excluded rather than keyed against the source.",
+    },
+    {
+      key: "regarding-descending-thoracic-aorta-the-following-statements-ba505495",
+      conceptKey: "descending-thoracic-aorta.course-relations-and-branches",
+      difficulty: "Hard",
+      questionType: "Recall of a false statement",
+      learningObjective: "Place the descending thoracic aorta in the posterior mediastinum, not the middle mediastinum.",
+      explanations: {
+        A: "This is the false statement, and the correct answer. The descending thoracic aorta lies within the posterior mediastinum, not the middle mediastinum — the middle mediastinum instead contains the heart and pericardium along with the roots of the great vessels (ascending aorta, pulmonary trunk, lower SVC). The exam takeaway is to keep the mediastinal compartments' contents distinct: middle mediastinum holds the heart and great-vessel roots; posterior mediastinum holds the descending (thoracic) aorta, oesophagus, thoracic duct, azygos system and sympathetic trunks.",
+        B: "True, so not the answer sought. The descending thoracic aorta supplies posterior intercostal arteries to the lower nine intercostal spaces, with the upper two spaces supplied instead by the superior (supreme) intercostal artery, a branch of the subclavian.",
+        C: "True, so not the answer sought. The descending thoracic aorta begins where the arch ends, at the level of the intervertebral disc between T4 and T5.",
+        D: "True, so not the answer sought. It enters the aortic hiatus of the diaphragm at the level of the twelfth thoracic vertebra (T12), becoming the abdominal aorta.",
+        E: "True, so not the answer sought. Small oesophageal branches arise directly from the descending thoracic aorta to supply the mid-oesophagus.",
+      },
     },
   ],
 }

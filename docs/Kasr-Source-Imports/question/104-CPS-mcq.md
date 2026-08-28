@@ -1,10 +1,12 @@
 <!--
   Multiple-choice questions for 104 CPS, from the departmental question books.
 
-    Aortic Arch Relations and Cardiac Plexuses — 3 questions, 1 concepts
+    Aortic Arch Relations and Cardiac Plexuses — 4 questions, 2 concepts
     Development of the Heart — 2 questions, 2 concepts
-    Lymphatics of the Thorax — 3 questions, 1 concepts
-    Pericardium — 7 questions, 3 concepts
+    The Diaphragm — 2 questions, 2 concepts
+    Large Nerves of the Thorax — 3 questions, 1 concepts
+    Lymphatics of the Thorax — 4 questions, 1 concepts
+    Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
@@ -27,8 +29,8 @@
     Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
     Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
-    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 18 questions, 3 concepts
-    Respiratory System — Larynx and Airway Wall — 4 questions, 2 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 37 questions, 4 concepts
+    Respiratory System — Larynx and Airway Wall — 33 questions, 3 concepts
     Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
 
   Extracted from 1289 distinct questions across thirty question books and
@@ -41,7 +43,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  15 questions were excluded and 0 held back for having no
+  17 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -236,6 +238,104 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-6BF55DE60B90
+## title
+Regarding descending thoracic aorta, the following statements are | correct, EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding descending thoracic aorta, the following statements are | correct, EXCEPT:
+## answer_a
+It descends in the middle mediastinum
+## explanation_a
+This is the false statement, and the correct answer. The descending thoracic aorta lies within the posterior mediastinum, not the middle mediastinum — the middle mediastinum instead contains the heart and pericardium along with the roots of the great vessels (ascending aorta, pulmonary trunk, lower SVC). The exam takeaway is to keep the mediastinal compartments' contents distinct: middle mediastinum holds the heart and great-vessel roots; posterior mediastinum holds the descending (thoracic) aorta, oesophagus, thoracic duct, azygos system and sympathetic trunks.
+
+Why this is right:
+- The descending thoracic aorta, about 20 cm long, is the longest thoracic part of the aorta.
+- It begins on the left of the T4/T5 disc as the continuation of the aortic arch and descends, first on the left of the T5 to T7 vertebral bodies, then in front of T8 to T12, ending at the lower border of T12 by passing through the diaphragm's aortic opening to become the abdominal aorta.
+- Anteriorly it is related, from above down, to the left principal bronchus, the pericardium, the oesophagus and the diaphragm; posteriorly to the lower five vertebral bodies and the two hemiazygos veins, crossing at T8 and T9; on its right to the oesophagus above and the thoracic duct and azygos vein throughout; and on its left to the pleura and lung.
+## answer_b
+It gives posterior intercostal arteries to the lower nine intercostal spaces
+## explanation_b
+True, so not the answer sought. The descending thoracic aorta supplies posterior intercostal arteries to the lower nine intercostal spaces, with the upper two spaces supplied instead by the superior (supreme) intercostal artery, a branch of the subclavian.
+## answer_c
+It begins at the level of the intervertebral disc between the 4 and 5
+## explanation_c
+True, so not the answer sought. The descending thoracic aorta begins where the arch ends, at the level of the intervertebral disc between T4 and T5.
+## answer_d
+It enters the aortic opening of the diaphragm at the level of 12 thoracic
+## explanation_d
+True, so not the answer sought. It enters the aortic hiatus of the diaphragm at the level of the twelfth thoracic vertebra (T12), becoming the abdominal aorta.
+## answer_e
+It gives esophageal branches
+## explanation_e
+True, so not the answer sought. Small oesophageal branches arise directly from the descending thoracic aorta to supply the mid-oesophagus.
+## correct_answer
+A
+## main_concept
+CON-CVS-EEA29FB47CBB71
+## library_ids
+ART-104-ANA-PULMONARY-TRUNK-AND-AORTA
+## topic
+Anatomy
+## subtopic
+Aortic Arch Relations and Cardiac Plexuses
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+Place the descending thoracic aorta in the posterior mediastinum, not the middle mediastinum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p28 q116. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-45E2FB3AB121
 ## title
 Regarding the development of the heart, select the false statement:
@@ -410,6 +510,476 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p2 q14. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1E437BCC1215
+## title
+Concerning breathing all true except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning breathing all true except:
+## answer_a
+Breathing is controlled by the autonomic nervous system
+## explanation_a
+True of the respiratory rhythm's origin, so not the exception. Breathing's basic rhythm is generated and modulated by brainstem centres acting through somatic motor pathways, commonly described together with the autonomic nervous system's other homeostatic roles in an introductory sense — a far less clear-cut error than mislabelling the phrenic nerve's own nerve class.
+## answer_b
+The phrenic nerve is a Cranial nerve
+## explanation_b
+The exception, and the answer. The phrenic nerve is a spinal nerve, formed mainly from the fourth cervical spinal nerve root with contributions from the third and fifth (C3, C4, C5) — it is not one of the twelve cranial nerves, despite arising so high in the neck. A common trap: confusing the phrenic nerve's cervical spinal origin with a cranial nerve.
+
+Why this is right:
+- The right and left phrenic nerves, arising in the neck from the third, fourth and fifth cervical spinal nerves (C3, C4, C5), are the sole motor supply of the diaphragm — a spinal, not a cranial, nerve, despite originating so high.
+## answer_c
+The diaphragm is active during quiet inspiration
+## explanation_c
+True, so not the exception. The diaphragm is the principal, most active muscle of quiet (resting) inspiration.
+## answer_d
+The intercostal muscles are innervated by thoracic spinal nerves
+## explanation_d
+True, so not the exception. The intercostal muscles are innervated by the intercostal nerves, which are themselves the anterior rami of the thoracic spinal nerves T1-T11.
+## correct_answer
+B
+## main_concept
+CON-RES-449B5BD0266989
+## library_ids
+ART-104-ANA-DIAPHRAGM
+## topic
+Anatomy
+## subtopic
+The Diaphragm
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > The Diaphragm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Identify the phrenic nerve as a spinal, not a cranial, nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p4 q14. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-749774106D84
+## title
+Concerning the diaphragm all true EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the diaphragm all true EXCEPT:
+## answer_a
+Develops from the septum transversum and cervical myotomes
+## explanation_a
+True, so not the exception. The diaphragm develops embryologically from the septum transversum plus contributions including the cervical myotomes, which is why its motor nerve, the phrenic, originates from cervical spinal segments despite the diaphragm's thoracoabdominal position.
+## answer_b
+Receives a nerve supply from both the phrenic and intercostal nerves
+## explanation_b
+True, so not the exception. The diaphragm's central part is supplied motorically by the phrenic nerves, while its peripheral costal part also receives sensory contributions from the lower intercostal nerves.
+## answer_c
+An opening in the central tendon transmits the inferior vena cava
+## explanation_c
+True, so not the exception. The caval opening, in the diaphragm's central tendon at the T8 level, transmits the inferior vena cava.
+## answer_d
+The inferior vena cava passes through the diaphragm at the level of the T12
+## explanation_d
+The exception, and the answer. The inferior vena cava passes through the diaphragm at the level of the eighth thoracic vertebra (T8), not T12 — T12 is instead the level of the aortic hiatus, which transmits the aorta and thoracic duct. Swapping these two diaphragmatic-opening levels is a classic, confidently identifiable error.
+
+Why this is right:
+- The three major openings of the diaphragm sit at three different vertebral levels in the midline plane, each transmitting a distinct set of structures.
+## answer_e
+The aorta passes through the diaphragm behind the median arcuate
+## explanation_e
+True, so not the exception. The aortic hiatus lies behind (deep to) the median arcuate ligament, formed by the diaphragm's two crura, at the T12 level.
+## correct_answer
+D
+## main_concept
+CON-RES-80C9B9E43B459B
+## library_ids
+ART-104-ANA-DIAPHRAGM
+## topic
+Anatomy
+## subtopic
+The Diaphragm
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > The Diaphragm
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the inferior vena cava pierces the diaphragm at T8, not T12.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p5 q48. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7B486CF13D04
+## title
+One of the following regarding the right phrenic nerve is not true: 1
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following regarding the right phrenic nerve is not true: 1
+## answer_a
+lies in the superior mediastinum
+## explanation_a
+True of the right phrenic nerve, so not the answer sought. It runs through the superior mediastinum, alongside the SVC, before crossing into the middle mediastinum with the pericardium.
+## answer_b
+has the superior vena cava on its medial side
+## explanation_b
+True of the right phrenic nerve, so not the answer sought. It descends immediately to the right of, and in contact with, the superior vena cava — one of the column of venous structures (brachiocephalic vein, SVC, IVC) that mark its whole course.
+## answer_c
+is posterior to the thoracic duct
+## explanation_c
+This is the false statement, and the correct answer. The right phrenic nerve has no posterior relation to the thoracic duct at all — the thoracic duct lies in the posterior mediastinum, ascending behind the oesophagus, well away from the phrenic nerve's own course down the pericardium's right side alongside the SVC and IVC.
+
+Why this is right:
+- Each phrenic nerve enters the thorax through the thoracic inlet in front of the subclavian artery and behind the start of the brachiocephalic vein, crosses the internal thoracic artery laterally to medially, and descends in front of its lung's root, separated from it by mediastinal pleura, accompanied by the pericardiacophrenic vessels.
+- The left phrenic nerve runs down the left side of the left common carotid and subclavian arteries, crossing in front of the left vagus, then the aortic arch, crossed by the left superior intercostal vein, then the pericardium over the left ventricle, leaving by piercing the left cupola directly.
+- It supplies the whole of the diaphragm's motor innervation, arising in the neck because the diaphragm itself develops there and descends, pulling the nerve down with it.
+## answer_d
+passes through the caval opening in the diaphragm
+## explanation_d
+True of the right phrenic nerve, so not the answer sought. It leaves the thorax by passing through the caval opening in the diaphragm, on the right side of the inferior vena cava, which it accompanies through this opening.
+## correct_answer
+C
+## main_concept
+CON-RES-AFCED19BA66ED2
+## library_ids
+ART-104-ANA-THORACIC-NERVES
+## topic
+Large Nerves of the Thorax
+## subtopic
+Large Nerves of the Thorax
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Nerves of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the right phrenic nerve runs nowhere near the thoracic duct, unlike its close relation to the superior vena cava.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p15 q118. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-093A6F908B99
+## title
+Which of the following statements regarding phrenic nerve js true?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following statements regarding phrenic nerve js true?
+## answer_a
+It passes posterior to scalenus anterior
+## explanation_a
+The phrenic nerve passes anterior to scalenus anterior in the neck (running down its surface from lateral to medial), not posterior to it — reversing this relation is the error here.
+## answer_c
+It forms the esophageal plexus of nerves. |
+## explanation_c
+The phrenic nerve plays no part in forming the oesophageal plexus, which is built from the vagi and the sympathetic trunks alongside the oesophagus in the posterior mediastinum — a different set of nerves entirely from the phrenic's own course along the pericardium and lung root.
+## answer_d
+It contains only somatic motor nerve fibers
+## explanation_d
+The phrenic nerve carries sensory fibres as well as somatic motor ones — sensory branches to the mediastinal pleura and to the fibrous and parietal pericardium along its whole thoracic course — so "only" motor fibres understates its composition.
+## answer_e
+It supplies pericardium and diaphragm
+## explanation_e
+This is the correct answer. The phrenic nerve supplies sensory branches to the pericardium along its course and is the sole motor supply of the diaphragm — the two structures its whole thoracic course is built around.
+
+Why this is right:
+- Each phrenic nerve enters the thorax through the thoracic inlet in front of the subclavian artery and behind the start of the brachiocephalic vein, crosses the internal thoracic artery laterally to medially, and descends in front of its lung's root, separated from it by mediastinal pleura, accompanied by the pericardiacophrenic vessels.
+- The left phrenic nerve runs down the left side of the left common carotid and subclavian arteries, crossing in front of the left vagus, then the aortic arch, crossed by the left superior intercostal vein, then the pericardium over the left ventricle, leaving by piercing the left cupola directly.
+- It supplies the whole of the diaphragm's motor innervation, arising in the neck because the diaphragm itself develops there and descends, pulling the nerve down with it.
+## correct_answer
+E
+## main_concept
+CON-RES-AFCED19BA66ED2
+## library_ids
+ART-104-ANA-THORACIC-NERVES
+## topic
+Anatomy
+## subtopic
+Large Nerves of the Thorax
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Nerves of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the true statement
+## learning_objective
+State that the phrenic nerve supplies both the pericardium and the diaphragm along its course.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p26 q103. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-95456B764FCF
+## title
+Which of the followings concerning the right phrenic nerve is correct?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the followings concerning the right phrenic nerve is correct?
+## answer_a
+Gives off the right recurrent laryngeal nerve in the neck
+## explanation_a
+The right recurrent laryngeal nerve is a branch of the right vagus, given off as the vagus crosses the right subclavian artery in the root of the neck — the phrenic nerve gives off no such branch at any point in its course.
+## answer_b
+Is the only motor supply to the right side of the diaphragm
+## explanation_b
+This is the correct answer. The right phrenic nerve is the sole motor supply of the right side of the diaphragm — no other nerve contributes any motor fibres to it, which is exactly why a transected phrenic nerve paralyses its own hemidiaphragm completely.
+
+Why this is right:
+- Each phrenic nerve enters the thorax through the thoracic inlet in front of the subclavian artery and behind the start of the brachiocephalic vein, crosses the internal thoracic artery laterally to medially, and descends in front of its lung's root, separated from it by mediastinal pleura, accompanied by the pericardiacophrenic vessels.
+- The left phrenic nerve runs down the left side of the left common carotid and subclavian arteries, crossing in front of the left vagus, then the aortic arch, crossed by the left superior intercostal vein, then the pericardium over the left ventricle, leaving by piercing the left cupola directly.
+- It supplies the whole of the diaphragm's motor innervation, arising in the neck because the diaphragm itself develops there and descends, pulling the nerve down with it.
+## answer_c
+Passes down through the mediastinum posterior to the lung root
+## explanation_c
+The right phrenic nerve passes down anterior to its lung's root, separated from it by mediastinal pleura — not posterior to it; the structures posterior to the lung root are the vagus nerve and the sympathetic trunk, not the phrenic nerve.
+## answer_d
+Contains only a motor fibres
+## explanation_d
+The phrenic nerve carries sensory as well as motor fibres — sensory branches to the mediastinal pleura and to the fibrous and parietal pericardium — so "only" motor fibres misstates its composition.
+## correct_answer
+B
+## main_concept
+CON-RES-AFCED19BA66ED2
+## library_ids
+ART-104-ANA-THORACIC-NERVES
+## topic
+Large Nerves of the Thorax
+## subtopic
+Large Nerves of the Thorax
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Nerves of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the true statement
+## learning_objective
+State that the right phrenic nerve is the sole motor supply of the right side of the diaphragm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p4 q31. Manifest src_a80db7ee55cde84f8ec8.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
@@ -697,6 +1267,98 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-322FBD1C7892
+## title
+One of the following regarding the thoracic duct is false:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following regarding the thoracic duct is false:
+## answer_a
+commences at twelfth thoracic vertebral level as a continuation of cisterna chyli
+## explanation_a
+True, and so not the answer sought. The thoracic duct begins at the lower border of T12, as the direct continuation of the cisterna chyli.
+## answer_b
+passes through the aortic opening of the diaphragm ١
+## explanation_b
+True, and so not the answer sought. The thoracic duct enters the thorax through the aortic opening of the diaphragm, between the aorta and the azygos vein.
+## answer_c
+lies along the left margin of the oesophagus in the superior mediastinum
+## explanation_c
+True, and so not the answer sought. In the superior mediastinum the thoracic duct ascends behind the oesophagus's left margin, having already crossed over from the right at T5.
+## answer_d
+drains lymph from the right upper limb
+## explanation_d
+This is the false statement, and the correct answer. The thoracic duct drains the LEFT upper limb, via the left subclavian lymph trunk at its termination — the right upper limb instead drains into the right lymphatic duct, together with the right side of the head, neck and thorax.
+
+Why this is right:
+- The thoracic duct, the largest lymphatic vessel in the body at about 45 cm, is a beaded, valved vessel beginning in the abdomen at the lower border of T12 as the continuation of the cisterna chyli.
+## correct_answer
+D
+## main_concept
+CON-HEM-9123D4493320A7
+## library_ids
+ART-104-ANA-THORACIC-LYMPHATICS
+## topic
+Lymphatics of the Thorax
+## subtopic
+Lymphatics of the Thorax
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Lymphatics of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the thoracic duct drains the left, not the right, upper limb.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p12 q97. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
 
@@ -1257,6 +1919,286 @@ Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thora
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4D1AB13F0912
+## title
+Regarding the pericardium of the heart, following statements a “ correct, EXCEPT: ; |
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pericardium of the heart, following statements a “ correct, EXCEPT: ; |
+## answer_a
+The fibrous pericardium is attached to the central tendon of the diaphragm, |
+## explanation_a
+True, and so not the answer sought. The fibrous pericardium is anchored inferiorly to the central tendon of the diaphragm — the pericardiacophrenic attachment that fixes the whole sac's base.
+## answer_b
+The fibrous pericardium is attached to the sternum interiorly. {
+## explanation_b
+True, and so not the answer sought. The sternopericardial ligaments anchor the fibrous pericardium's anterior surface to the posterior surface of the sternum.
+## answer_c
+The parietal pericardium is supplied by the phrenic nerve. |
+## explanation_c
+True, and so not the answer sought. The parietal layer of the serous pericardium (together with the fibrous pericardium) receives sensory innervation from the phrenic nerve — the basis of referred pericardial pain patterns.
+## answer_d
+The fibrous pericardium lines the serous pericardium
+## explanation_d
+This is the false statement, and the correct answer. The relationship is reversed: it is the parietal layer of the serous pericardium that lines the internal surface of the fibrous pericardium, not the fibrous pericardium lining the serous — the fibrous pericardium is the external fibrous sac, with the serous pericardium's parietal layer closely applied to its internal aspect and the visceral layer (epicardium) applied directly to the heart's surface.
+
+Why this is right:
+- The pericardium has two coats.
+## answer_e
+The serous pericardium has autonomic nerve supply
+## explanation_e
+True, and so not the answer sought. The visceral layer of serous pericardium (epicardium), intimately applied to the heart, shares the heart's own autonomic (sympathetic and parasympathetic) innervation.
+## correct_answer
+D
+## main_concept
+CON-CVS-0420EB34A2E424
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Anatomy
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that the serous pericardium's parietal layer lines the fibrous pericardium, not the reverse.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p28 q112. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1D2777486361
+## title
+Regarding the pericardium of the heart;:indicate the wrong answer: ١
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the pericardium of the heart;:indicate the wrong answer: ١
+## answer_a
+The fibrous pericardium Is attached:to the central tendon of the diaphragm
+## explanation_a
+True, and so not the answer sought. The fibrous pericardium's base, directed downwards, is attached to the central tendon of the diaphragm.
+## answer_b
+The fibrous pericardium Is attached to the sternum interiorly
+## explanation_b
+This is the false statement, and the correct answer. It is the fibrous pericardium's anterior surface, not an inferior one, that is fixed to the sternum, by the superior and inferior sternopericardial ligaments — the diaphragmatic attachment already named in option A is the sac's true inferior fixation; giving the sternum that same inferior direction duplicates and misplaces it.
+
+Why this is right:
+- The pericardium has two coats.
+## answer_c
+The parletal pericardium Is supplied-by the phrenic nerve
+## explanation_c
+True, and so not the answer sought. The parietal layer of serous pericardium is supplied by the phrenic nerve, making it pain-sensitive, as in pericarditis.
+## answer_d
+Collection of fluid causes sever distress
+## explanation_d
+True, and so not the answer sought. Fluid collecting in the pericardial cavity (pericardial effusion) hinders the heart's movement and does cause severe distress, which is why it is drained by needle paracentesis.
+## correct_answer
+B
+## main_concept
+CON-CVS-0420EB34A2E424
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Anatomy
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Attribute the fibrous pericardium's sternal attachment to its anterior surface, not to an inferior one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf p17 q9. Manifest src_b2b20b3b22954ea7843a.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-1699291EFBA2
+## title
+The following structure is not supplied by the left phrenic nerve:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure is not supplied by the left phrenic nerve:
+## answer_a
+Diaphragm
+## explanation_a
+The left phrenic nerve does supply the diaphragm — as the sole motor nerve to its own (left) half — so this is not the structure excepted here.
+## answer_b
+Mediastinal pleura
+## explanation_b
+The left phrenic nerve does supply sensory branches to the mediastinal pleura along its thoracic course, so this is not the structure excepted here.
+## answer_c
+Parietal pericardium
+## explanation_c
+The left phrenic nerve does supply the parietal (and fibrous) pericardium with sensory fibres, so this is not the structure excepted here.
+## answer_d
+Left ventricle
+## explanation_d
+This is the correct answer. The left ventricle, part of the heart's own muscular wall, is supplied like the rest of the myocardium by autonomic sympathetic and parasympathetic fibres via the cardiac plexuses, not by the phrenic nerve — the phrenic nerve's territory is the pericardium, pleura and diaphragm around the heart, not the heart muscle itself.
+
+Why this is right:
+- The fibrous pericardium and the parietal layer of serous pericardium are supplied by the phrenic nerves, which carry somatic sensation and make this pericardium sensitive to pain, as in pericarditis; their arterial supply is from the internal thoracic arteries and their pericardiacophrenic and musculophrenic branches and from the descending aorta, with venous drainage through the azygos system.
+## correct_answer
+D
+## main_concept
+CON-CVS-2DB020EDD28EB7
+## library_ids
+ART-104-ANA-PERICARDIUM-SINUSES
+## topic
+Pericardium
+## subtopic
+Pericardium
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Pericardium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the true (excepted) statement
+## learning_objective
+Distinguish the left phrenic nerve's supply to the pericardium and pleura from the heart muscle's own separate, autonomic supply.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p3 q23. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
 
 
 
@@ -16403,6 +17345,1750 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-E5708C2FF61B
+## title
+Bowman's glands are present in the lamina propria of:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Bowman's glands are present in the lamina propria of:
+## answer_a
+Larynx
+## explanation_a
+The larynx's lamina propria carries the laryngeal cartilages, not Bowman's glands.
+## answer_b
+Trachea
+## explanation_b
+The trachea's submucosa carries tracheal glands (mixed mucoserous glands), not Bowman's glands, which are specific to olfactory mucosa.
+## answer_c
+Olfactory mucosa
+## explanation_c
+Bowman's glands sit in the dense connective-tissue lamina propria beneath the olfactory epithelium, secreting the serous fluid that dissolves odorous substances around the olfactory cilia.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_d
+Nasal cavity
+## explanation_d
+The nasal cavity as a whole carries several named regions; Bowman's glands belong specifically to the olfactory mucosa within it (roof and superior concha), not to the nasal cavity's other regions such as the vestibule or the respiratory-lined fossae.
+## correct_answer
+C
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Locate Bowman's glands in the olfactory mucosa's lamina propria, as opposed to the larynx, trachea or nasal cavity generally.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q19; Histo MCQ by Dr.Kandeel [104].pdf p31 q19; DPT HISTO MCQ [Respiratory].pdf p2 q19. Manifest src_12ecc23fe206a928203d, src_9cf32ada2b25fa54f0e9, src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-436DFC7F1765
+## title
+The olfactory mucosa differs from respiratory mucosa in having:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The olfactory mucosa differs from respiratory mucosa in having:
+## answer_a
+True cilia
+## explanation_a
+True cilia (motile, short) belong to respiratory epithelium's ciliated cells; the olfactory neuron's own cilia are few, very long and non-motile — the opposite of a feature that would set olfactory mucosa apart by having 'true cilia'.
+## answer_b
+Goblet cells
+## explanation_b
+Goblet cells are absent from olfactory epithelium, not a feature it has that respiratory mucosa lacks — respiratory mucosa is the one with goblet cells.
+## answer_c
+Pigmented mucosa
+## explanation_c
+Olfactory mucosa's sustentacular cells carry apical yellow lipofuscin granules that give the whole mucosa its distinctive yellow-brown, pigmented appearance — a visible difference from the plainer, pale respiratory mucosa elsewhere in the nasal cavity.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_d
+Thinner lining epithelium
+## explanation_d
+Olfactory epithelium is thicker than respiratory epithelium, not thinner, being a specialised sensory neuro-epithelium.
+## correct_answer
+C
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+Attribute olfactory mucosa's yellow-pigmented appearance to the sustentacular cell's apical lipofuscin granules, contrasting with plain respiratory mucosa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q1; Histo MCQ by Dr.Kandeel [104].pdf p30 q1; DPT HISTO MCQ [Respiratory].pdf p1 q1. Manifest src_12ecc23fe206a928203d, src_9cf32ada2b25fa54f0e9, src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D8637A81443D
+## title
+All characters of factor of olfactory mucosa except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of factor of olfactory mucosa except
+## answer_a
+thicker epithelium with, no goblet cell
+## explanation_a
+True of olfactory epithelium, so not the exception — it is thicker than respiratory epithelium and, distinctively, carries no goblet cells.
+## answer_b
+numerous long motile cilia
+## explanation_b
+The exception, and the answer. The olfactory neuron's cilia are few in number and non-motile, not numerous and motile — they increase the surface exposed to odorants rather than beating to move mucus, unlike a ciliated respiratory cell's cilia.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_c
+thin basement membrane
+## explanation_c
+True, so not the exception. Olfactory epithelium's basement membrane is described as thin.
+## answer_d
+contain Bowman's gland
+## explanation_d
+True, so not the exception. Bowman's glands in the lamina propria are a defining feature of olfactory mucosa.
+## correct_answer
+B
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Correct 'numerous long motile cilia' to 'few long non-motile cilia' as the olfactory neuron's actual ciliary feature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q28. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-BF2763755F63
+## title
+All the following characters of vestibule except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following characters of vestibule except:
+## answer_a
+two chamber separated by nasal septum
+## explanation_a
+The exception, and the answer. Two chambers separated by the bony nasal septum describes the nasal fossae, the nasal cavity's other region — the vestibule is a single anterior dilated space, not a paired, septum-divided chamber.
+
+Why this is right:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
+## answer_b
+anterior dilated end of Nasal Cavity
+## explanation_b
+True of the vestibule, so not the exception — it is the nasal cavity's anterior dilated portion.
+## answer_c
+lined by Keratinized SSE
+## explanation_c
+True, so not the exception. The vestibule's own lining, at the nostril, is keratinized stratified squamous epithelium.
+## answer_d
+has thick short hair called vibrissae
+## explanation_d
+True, so not the exception. Vibrissae are the vestibule's thick short hairs, filtering large particles from inspired air.
+## correct_answer
+A
+## main_concept
+CON-RES-1FF74892D5B943
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Correct 'two chambers separated by the nasal septum' as a description of the nasal fossae, not the vestibule.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-31E3FF687616
+## title
+contain apical Yellow lipofuscin granules
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+contain apical Yellow lipofuscin granules
+## answer_a
+basal cell
+## explanation_a
+The basal cell is small, pyramidal and basophilic, resting near the basement membrane — it carries no apical lipofuscin granules, having no significant apical surface at all.
+## answer_b
+Sustentacular cell
+## explanation_b
+Sustentacular (supporting) cells carry apical yellow lipofuscin granules, which give olfactory mucosa its yellow colour, alongside their wide apex, narrow base and apical microvilli.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_c
+olfactory cell
+## explanation_c
+The olfactory cell (neuron) is defined by its long, non-motile cilia and its axon passing into the lamina propria, not by apical pigment granules.
+## answer_d
+olfactory lamina propria
+## explanation_d
+The olfactory lamina propria is connective tissue carrying Bowman's glands and nerve bundles, not an epithelial cell that could itself carry apical granules.
+## correct_answer
+B
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the sustentacular cell as the olfactory-mucosa cell carrying apical yellow lipofuscin granules.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q26. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7BD31FE87C14
+## title
+is small pyramidal with basophilic cytoplasm,
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+is small pyramidal with basophilic cytoplasm,
+## answer_a
+basal cell
+## explanation_a
+Basal cells are small pyramidal cells with basophilic cytoplasm and round nuclei, acting as stem cells for both the olfactory and the sustentacular cells.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_b
+Sustentacular cell
+## explanation_b
+The sustentacular cell is a tall columnar cell with a wide apex and narrow base, not the small pyramidal cell the stem describes.
+## answer_c
+olfactory cell
+## explanation_c
+The olfactory cell (neuron) is a bipolar nerve cell whose dendrite reaches an apical olfactory vesicle, not a small basophilic pyramidal cell.
+## answer_d
+olfactory lamina propria
+## explanation_d
+The olfactory lamina propria is connective tissue, not an epithelial cell, so it cannot be described by a cytoplasmic staining property.
+## correct_answer
+A
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the basal cell as olfactory epithelium's small, pyramidal, basophilic stem cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q27. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-6B700C8C849D
+## title
+in smoker, accumulation of mucus due to All the following except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+in smoker, accumulation of mucus due to All the following except
+## answer_a
+amount of cilia is higher than goblet cell
+## explanation_a
+The exception, and the answer. Ciliated cells outnumbering goblet cells describes the normal, healthy ratio — it is the reverse of what happens in smokers, so it cannot itself be listed as a cause of the smoker's mucus accumulation.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_b
+amount of goblet cell higher than cilia
+## explanation_b
+True of the smoker's airway, so not the exception — goblet cells come to outnumber ciliated cells as the ratio reverses, contributing to the mucus build-up.
+## answer_c
+reversed ratio & between cilia, goblet cell
+## explanation_c
+True, so not the exception. A reversed ratio between ciliated and goblet cells is exactly the mechanism this leaf's own pitfall names for smoking-related mucus accumulation.
+## answer_d
+Paralysis of cilia
+## explanation_d
+True, so not the exception. Nicotine and other smoke constituents paralyse ciliary beating, so accumulating mucus is no longer cleared even where it is still produced normally.
+## correct_answer
+A
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Distinguish the normal ciliated-to-goblet-cell ratio from the mechanisms that actually drive mucus accumulation in a smoker's small airways.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q21. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D83B90F9F4FD
+## title
+In smokers, the most abundant cells in the respiratory epithelium are:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In smokers, the most abundant cells in the respiratory epithelium are:
+## answer_a
+Ciliated columnar cells
+## explanation_a
+Ciliated columnar cells are normally the most abundant cell, but in smokers this ratio reverses — they become relatively fewer, not more abundant.
+## answer_b
+Mucous goblet cells
+## explanation_b
+Mucous goblet cells become the most abundant cells in a smoker's respiratory epithelium, as the normal ciliated-to-goblet ratio reverses towards goblet-cell hyperplasia — the mechanism behind the smoker's excess mucus.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_c
+Basal cells
+## explanation_c
+Basal cells are the epithelium's stem-cell population throughout, not a population that expands to become the most abundant type in smokers.
+## answer_d
+Brush cells
+## explanation_d
+Brush cells are a small, constant sensory population, not a cell type that proliferates in smokers.
+## correct_answer
+B
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that goblet cells become the most abundant epithelial cell in a smoker's airway, reversing the normal ciliated-cell predominance.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-E303F7E2ACEE
+## title
+Concerning the epithelial celts lining the respiratory conducting portion, the.........…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the epithelial celts lining the respiratory conducting portion, the............. act as Sensory receptors
+## answer_a
+Mucous goblet cells
+## explanation_a
+Mucous goblet cells secrete mucus from apical mucin granules; they carry no basal afferent nerve endings and play no sensory role.
+## answer_b
+Smail granule cells
+## explanation_b
+Small granule cells are the conducting portion's neuroendocrine (APUD) cells, secreting serotonin and catecholamines — a different role from acting as sensory receptors with afferent nerve endings.
+## answer_c
+Basal cells
+## explanation_c
+Basal cells are small, rounded stem cells that do not reach the lumen and carry no nerve endings.
+## answer_d
+Brush celis
+## explanation_d
+Brush cells carry basal afferent nerve endings and act as sensory receptors, alongside their columnar shape and abundant apical microvilli.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## correct_answer
+D
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the brush cell, by its basal afferent nerve endings, as the conducting portion's sensory-receptor epithelial cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p15 q117. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CC129F7ECAB9
+## title
+olfactory epithelium is characterized by All except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+olfactory epithelium is characterized by All except
+## answer_a
+responsible for smell sensation
+## explanation_a
+True of olfactory epithelium, so not the exception — smell sensation is exactly the function its olfactory neurons serve.
+## answer_b
+thicker than respiratory epithelium
+## explanation_b
+True, so not the exception. Olfactory epithelium is thicker than the respiratory epithelium lining the rest of the nasal cavity.
+## answer_c
+one component of olfactory mucosa
+## explanation_c
+True, so not the exception. Olfactory epithelium, together with its lamina propria, forms olfactory mucosa.
+## answer_d
+pseudostratified columnar with goblet cell
+## explanation_d
+The exception, and the answer. Olfactory epithelium is a modified pseudostratified columnar ciliated epithelium with no goblet cells at all — goblet cells are a respiratory-epithelium feature it specifically lacks.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## correct_answer
+D
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that olfactory epithelium characteristically lacks goblet cells, unlike ordinary respiratory epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q22. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-340E3EEFCD9A
+## title
+Olfactory mucosa shows: a, Simple squamous epithelium
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Olfactory mucosa shows: a, Simple squamous epithelium
+## answer_a
+Simple squamous epithelium.
+## explanation_a
+Olfactory mucosa carries a thick, specialised pseudostratified columnar epithelium, not simple squamous epithelium — a lining far too thin to house the sensory olfactory neurons it needs.
+## answer_b
+Many goblet cells.
+## explanation_b
+Olfactory epithelium characteristically has no goblet cells, unlike the goblet-cell-rich respiratory epithelium elsewhere in the nasal cavity.
+## answer_c
+Bowman’s glands.
+## explanation_c
+Bowman's glands, in the lamina propria beneath the olfactory epithelium, are olfactory mucosa's single most defining feature — their serous secretion is the fluid medium in which odorous substances dissolve around the olfactory cilia.
+
+Why this is right:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_d
+Thick basement membrane.
+## explanation_d
+A thick basement membrane is not a feature this leaf's sourced description credits to olfactory mucosa; its basement membrane is, if anything, described as thin.
+## correct_answer
+C
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name Bowman's glands as olfactory mucosa's defining feature, against a simple-squamous-epithelium distractor.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p13 q13. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-143830DB4EE3
+## title
+What type of tissues lines the paranasal sinuses:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of tissues lines the paranasal sinuses:
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is far too thin to support the mucociliary clearance the sinuses need, and it is not the epithelium the department book credits them with.
+## answer_b
+Simple columnar epithelium
+## explanation_b
+Simple columnar epithelium, without the pseudostratified, ciliated, goblet-cell-bearing structure, does not match the sinus lining.
+## answer_c
+Stratified squamous epithelium
+## explanation_c
+Stratified squamous epithelium is built for mechanical protection against abrasion, not for a mucus-producing, ciliated lining — it does not describe the sinuses.
+## answer_d
+Pseudostratified columnar cililated epithelium with goblet cells
+## explanation_d
+The paranasal sinuses are lined by pseudostratified columnar ciliated epithelium with goblet cells — a thinner version of the same respiratory mucosa lining the nasal fossae, clearing via the same mucociliary route through the sinus ostia.
+
+Why this is right:
+- The paranasal sinuses — the frontal, maxillary, ethmoidal and sphenoidal air cavities within the skull bones surrounding the nose — communicate with the nasal cavity through small openings (ostia) and carry the same family of lining as the nasal fossae: pseudostratified ciliated columnar epithelium.
+## correct_answer
+D
+## main_concept
+CON-RES-E55C5360CC116B
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the paranasal sinuses are lined by pseudostratified ciliated columnar epithelium with goblet cells, a thinner version of the nasal fossae's own respiratory mucosa.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q28. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-3F67EA5B1114
+## title
+What type of tissues lines the paranasal sinuses: i
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of tissues lines the paranasal sinuses: i
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium lacks the mucociliary clearance function the sinus lining needs.
+## answer_b
+Simple columnar epithelium. :
+## explanation_b
+Simple columnar epithelium, without pseudostratified, ciliated, goblet-cell features, does not match the sinus lining.
+## answer_c
+Stratified squamous epithelium. 1
+## explanation_c
+Stratified squamous epithelium is not the epithelium type lining the paranasal sinuses; it serves mechanical protection elsewhere, not mucociliary clearance here.
+## answer_d
+Pseudostratified columnar ciliated epithelium with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells is the paranasal sinuses' lining — a thinner copy of the nasal fossae's own respiratory mucosa, sharing its mucociliary clearance route.
+
+Why this is right:
+- The paranasal sinuses — the frontal, maxillary, ethmoidal and sphenoidal air cavities within the skull bones surrounding the nose — communicate with the nasal cavity through small openings (ostia) and carry the same family of lining as the nasal fossae: pseudostratified ciliated columnar epithelium.
+## correct_answer
+D
+## main_concept
+CON-RES-E55C5360CC116B
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the paranasal sinuses are lined by pseudostratified ciliated columnar epithelium with goblet cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q28. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6F7FC4272AB8
+## title
+What type of tissues lines the paranasalsinuses:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+What type of tissues lines the paranasalsinuses:
+## answer_a
+Simple squamous epithelium
+## explanation_a
+Simple squamous epithelium is too thin for the sinus lining's mucociliary role.
+## answer_b
+Simple columnar epithelium
+## explanation_b
+Simple columnar epithelium, lacking the pseudostratified, ciliated, goblet-cell-bearing structure, does not describe the sinus lining.
+## answer_c
+Stratified squamous epithelium
+## explanation_c
+Stratified squamous epithelium does not line the paranasal sinuses; it belongs to mechanically abraded surfaces, not this mucociliary one.
+## answer_d
+Rseudostratified columnar cililated epithelium with goblet cells
+## explanation_d
+Pseudostratified columnar ciliated epithelium with goblet cells lines the paranasal sinuses, a thinner version of the nasal fossae's own respiratory mucosa, draining via the sinus ostia into the nasal cavity.
+
+Why this is right:
+- The paranasal sinuses — the frontal, maxillary, ethmoidal and sphenoidal air cavities within the skull bones surrounding the nose — communicate with the nasal cavity through small openings (ostia) and carry the same family of lining as the nasal fossae: pseudostratified ciliated columnar epithelium.
+## correct_answer
+D
+## main_concept
+CON-RES-E55C5360CC116B
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the paranasal sinuses are lined by pseudostratified ciliated columnar epithelium with goblet cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p3 q28. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-FC3194AE71C5
+## title
+Neuroendocrine ceils lining the respiratory epithelium:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Neuroendocrine ceils lining the respiratory epithelium:
+## answer_a
+Act as sensory receptors
+## explanation_a
+Acting as sensory receptors is the brush cell's role, carried out through its basal afferent nerve endings — not the neuroendocrine (small granule) cell's.
+## answer_b
+Have basal afferent nerve endings. :
+## explanation_b
+Basal afferent nerve endings likewise belong to the brush cell, not to the neuroendocrine cell, whose secretion is hormonal rather than nervous.
+## answer_c
+Regulate glandular secretion. _d. Act as stem cells for other cells. |
+## explanation_c
+Neuroendocrine (small granule) cells secrete hormones such as serotonin and catecholamines that regulate mucous and serous glandular secretion, alongside controlling airway and blood-vessel diameter.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute regulation of glandular secretion to the neuroendocrine (small granule) cell, against the brush cell's sensory role and the basal cell's stem-cell role.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q7. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-43BE91E4DCCA
+## title
+Neuroendocrine cells lining the respiratory epithelium:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Neuroendocrine cells lining the respiratory epithelium:
+## answer_a
+Act as sensory receptors
+## explanation_a
+Sensory-receptor activity belongs to the brush cell, with its basal afferent nerve endings, not to the neuroendocrine cell.
+## answer_b
+Have basal afferent nerve endings
+## explanation_b
+Basal afferent nerve endings are the brush cell's feature, not the neuroendocrine cell's, whose action is secretory rather than nervous.
+## answer_c
+Regulate glandular secretion
+## explanation_c
+Neuroendocrine cells regulate glandular secretion through hormones such as serotonin and catecholamines, alongside a role in controlling airway and vascular diameter.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_d
+Act as stem cells for other cells
+## explanation_d
+Acting as a stem cell for other epithelial types describes the basal cell, not the neuroendocrine cell.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute regulation of glandular secretion to the neuroendocrine (small granule) cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-8C2BFD559E22
+## title
+Smokers suffer from disturbed ratio between:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Smokers suffer from disturbed ratio between:
+## answer_a
+Small granule cells & ciliated columnar cells. /
+## explanation_a
+Small granule cells and ciliated columnar cells are not the pairing whose ratio smoking disturbs; the small granule cell's APUD secretory role plays no part in the mucus-clearance mechanism here.
+## answer_b
+Goblet cells & brush cells
+## explanation_b
+Goblet cells and brush cells are not the implicated pair; the brush cell's sensory role is unrelated to mucus accumulation.
+## answer_c
+Ciliated cells & goblet cells. i
+## explanation_c
+In smokers, the normal ratio between ciliated cells and goblet cells reverses — relatively more mucus-secreting goblet cells and relatively fewer mucus-clearing ciliated cells — the same mechanism this leaf's own concept text carries as a read-only clinical note.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_d
+Goblet cells & small granule cells
+## explanation_d
+Goblet cells and small granule cells are not the pairing described; small granule cells are a minority neuroendocrine population uninvolved in this mucus-clearance balance.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name the ciliated-to-goblet-cell ratio as the one smoking reverses, driving mucus accumulation in the small airways.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q2. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-33FA0FC7E362
+## title
+The lining epithelium of trachea is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The lining epithelium of trachea is:
+## answer_a
+Pseudostratified ciliated columnar with goblet cells
+## explanation_a
+The trachea carries the conducting portion's default lining — pseudostratified ciliated columnar epithelium with goblet cells — whose coordinated ciliary beating and mucus secretion together form the mucociliary escalator that clears inhaled particles upward.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_b
+Simple ciliated columnar with Clara cells
+## explanation_b
+Simple (not pseudostratified) ciliated columnar epithelium with Clara cells (not goblet cells) describes bronchiolar epithelium much further along the airway, not the trachea.
+## answer_c
+Stratified squamous
+## explanation_c
+Stratified squamous epithelium covers mechanically abraded surfaces such as the true vocal cords or the lingual epiglottis, not the trachea.
+## answer_d
+Transitional
+## explanation_d
+Transitional epithelium is specific to the urinary tract and has no place in the respiratory system.
+## correct_answer
+A
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the trachea is lined by pseudostratified ciliated columnar epithelium with goblet cells, the conducting portion's default respiratory epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p16 q119. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-4119E86C64C1
+## title
+type of respiratory epithelium
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+type of respiratory epithelium
+## answer_a
+stratified columnar with goblet cell
+## explanation_a
+Stratified columnar epithelium is not the conducting portion's lining anywhere; respiratory epithelium is pseudostratified, not truly stratified.
+## answer_b
+pseudostratified columnar with goblet cell
+## explanation_b
+Respiratory epithelium is pseudostratified columnar epithelium with goblet cells, lining most of the conducting portion from the nasal fossae down through the bronchi.
+
+Why this is right:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_c
+pseudostratified columnar without goblet cell
+## explanation_c
+Pseudostratified columnar epithelium without goblet cells describes olfactory epithelium, a distinct, goblet-cell-free specialisation, not respiratory epithelium itself.
+## answer_d
+Keratinized stratified squamous
+## explanation_d
+Keratinized stratified squamous epithelium lines the nasal vestibule's entrance, not the conducting portion's respiratory epithelium.
+## correct_answer
+B
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name pseudostratified columnar ciliated epithelium with goblet cells as respiratory epithelium proper.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-817A9B423643
 ## title
 Cartilage in epiglottis, cuneiform, Corniculate is
@@ -16761,6 +19447,2486 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-ABCE95D1C8EE
+## title
+The larynx contains:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The larynx contains:
+## answer_a
+Rings of hyaline cartilage
+## explanation_a
+Rings of hyaline cartilage describe the trachea's C-shaped cartilage, not the larynx's own mixed cartilage set.
+## answer_b
+Plates of hyaline cartilage
+## explanation_b
+Plates of hyaline cartilage describe intrapulmonary bronchi, not the larynx.
+## answer_c
+One pair of vocal cords
+## explanation_c
+The larynx has two pairs of folds (false and true vocal cords), not one pair.
+## answer_d
+Elastic cartilage
+## explanation_d
+The larynx contains elastic cartilage — its small cartilages (epiglottis, cuneiform, corniculate, arytenoid tips) — alongside the large hyaline cartilages (thyroid, cricoid, most of the arytenoids).
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## correct_answer
+D
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify elastic cartilage as present in the larynx (epiglottis, cuneiform, corniculate, arytenoid tips), against distractors describing tracheal or bronchial cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q10; Histo MCQ by Dr.Kandeel [104].pdf p30 q10; DPT HISTO MCQ [Respiratory].pdf p1 q10. Manifest src_12ecc23fe206a928203d, src_9cf32ada2b25fa54f0e9, src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-3D2DCA58AD38
+## title
+The ideal way to treat bronchial asthma is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The ideal way to treat bronchial asthma is:
+## answer_a
+Decrease secretion of mucoserous glands
+## explanation_a
+Decreasing mucoserous gland secretion would not relieve the smooth-muscle spasm that actually narrows the airway in asthma, and bronchioles have no such glands to begin with.
+## answer_b
+Stimulate ciliary beating activity
+## explanation_b
+Stimulating ciliary beating addresses mucus clearance, not the bronchospasm that is asthma's defining mechanism.
+## answer_c
+Relax the smooth muscles of the bronchioles
+## explanation_c
+Bronchial asthma is an allergic condition in which spasm of the bronchiole's well-developed, circularly arranged smooth muscle constricts the airway, causing difficulty on expiration; relaxing that same smooth muscle is the ideal way to relieve the obstruction.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+Increase the diameter of the bronchi
+## explanation_d
+Increasing bronchial diameter is the desired outcome, not a treatment mechanism in itself — it is achieved precisely by relaxing the bronchiolar smooth muscle causing the constriction.
+## correct_answer
+C
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Tie bronchial asthma's airway obstruction to spasm of the bronchiole's well-developed, circularly arranged smooth muscle, and its relief to relaxing that muscle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q5; DPT HISTO MCQ [Respiratory].pdf p1 q5. Manifest src_9cf32ada2b25fa54f0e9, src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-71C3CC8E8A77
+## title
+A histological feature of the bronchiole is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+A histological feature of the bronchiole is:
+## answer_a
+It has cartilage plates in its wall
+## explanation_a
+Cartilage plates are exactly what the bronchiole has lost in the progression from bronchus to bronchiole — the bronchiole has no cartilage at all.
+## answer_b
+Its lining epithelium has goblet cells
+## explanation_b
+Goblet cells likewise fall away in the bronchiole's lining, which instead carries Clara cells — the opposite of this option's claim.
+## answer_c
+It has well developed circular smooth muscles
+## explanation_c
+The bronchiole's smooth muscle becomes more developed and circularly arranged as cartilage, glands and goblet cells fall away, now controlling airflow to the gas-exchange sites directly.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+It has mucoserous glands in its wall
+## explanation_d
+Mucoserous glands, like cartilage and goblet cells, are absent from the bronchiole's wall — a defining loss, not a retained feature.
+## correct_answer
+C
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that well-developed, circularly arranged smooth muscle is a defining histological feature of the bronchiole, unlike its lost cartilage, goblet cells and glands.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q24. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-F974F6FC62F0
+## title
+branchiole is characterized by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+branchiole is characterized by
+## answer_a
+many longitudinally arranged muscle in musculosa
+## explanation_a
+The bronchiole's smooth muscle is circularly, not longitudinally, arranged — this option reverses the actual orientation.
+## answer_b
+simple columnar ciliated with clara cell
+## explanation_b
+The bronchiole's epithelium is simple columnar (or cuboidal) ciliated with Clara cells and no goblet cells, distinguishing it from the pseudostratified, goblet-cell-rich epithelium of the bronchus above it.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+pseudo stratified Columnar with goblet cell
+## explanation_c
+Pseudostratified columnar epithelium with goblet cells describes the bronchus, not the bronchiole, which has simplified down to a simple ciliated epithelium.
+## answer_d
+Absence of muco-serous or lymphatic nodule
+## explanation_d
+Mucoserous glands and lymphatic nodules are indeed absent from the bronchiole, but this option alone does not capture the epithelial change the stem is testing, and the correct option (Clara-cell epithelium) states the defining feature directly.
+## answer_e
+cilia gradually appear as bronchioles become smaller
+## explanation_e
+Cilia disappear progressively as the bronchiole narrows distally, not gradually appear — this option reverses the actual direction of the change.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the bronchiole's epithelium is simple columnar ciliated with Clara cells, unlike the bronchus's pseudostratified, goblet-cell-rich lining.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q43. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-BA8197F7CACF
+## title
+clara cell degrade toxins in inhaled air
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+clara cell degrade toxins in inhaled air
+## answer_a
+SER, G.A
+## explanation_a
+SER together with the Golgi apparatus is the machinery behind Clara cells' surfactant-like secretion, not their toxin-degrading function specifically.
+## answer_b
+rER, G.A
+## explanation_b
+rER together with the Golgi apparatus underlies Clara cells' protective, glycoprotein-secreting role for the bronchiolar epithelium, not toxin degradation.
+## answer_c
+SER
+## explanation_c
+Clara cells degrade inhaled toxins using their apical smooth endoplasmic reticulum (SER), rich in detoxifying enzymes — the same organelle basis as hepatocyte detoxification.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+macrophage
+## explanation_d
+Macrophages are a separate phagocytic cell entirely; the toxin-degrading enzymatic machinery here belongs to the Clara cell's own SER, not to a macrophage.
+## correct_answer
+C
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Attribute Clara cells' detoxification of inhaled toxins to their apical smooth endoplasmic reticulum (SER).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q46. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2655992270DD
+## title
+clara cell protect against emphysema by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+clara cell protect against emphysema by:
+## answer_a
+SER, G.A
+## explanation_a
+SER with the Golgi apparatus underlies detoxification and secretion, not the anti-protease mechanism specific to emphysema protection.
+## answer_b
+rER, G.A
+## explanation_b
+rER with the Golgi apparatus underlies Clara cells' protective glycoprotein secretion generally, not the specific anti-macrophage-protease mechanism this question asks about.
+## answer_c
+SER
+## explanation_c
+SER alone is credited with toxin degradation, not with the anti-elastase mechanism protecting against emphysema.
+## answer_d
+macrophage
+## explanation_d
+Clara cells protect against emphysema by inhibiting protease and elastase secreted by macrophages — enzymes that would otherwise break down the elastic tissue supporting the airway wall and alveoli, the basis of emphysema.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## correct_answer
+D
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+State that Clara cells protect against emphysema by inhibiting macrophage-secreted protease and elastase, preserving the elastic tissue of the airway wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q47. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C2659FCE55DF
+## title
+Clara cell protect bronchiolar epithelium by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Clara cell protect bronchiolar epithelium by
+## answer_a
+SER, G.A
+## explanation_a
+SER with the Golgi apparatus is the machinery behind the surfactant-like secretion, not the protective glycoprotein secretion this question asks about.
+## answer_b
+rER, G.A
+## explanation_b
+Clara cells protect the bronchiolar epithelium using their basal rough endoplasmic reticulum (rER) together with the Golgi apparatus, which synthesise and package the glycoprotein-containing secretory granules that coat and protect the lining.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+SER
+## explanation_c
+SER alone underlies toxin degradation, a different Clara-cell function from epithelial protection by secreted glycoprotein.
+## answer_d
+macrophage
+## explanation_d
+Macrophages are a separate cell type; the protective secretion here comes from the Clara cell's own rER and Golgi apparatus.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Attribute Clara cells' protection of the bronchiolar epithelium to their rER and Golgi apparatus, which build the protective glycoprotein secretion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q45. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-25D7E884F9DC
+## title
+clara cell secrete surfactant like material by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+clara cell secrete surfactant like material by
+## answer_a
+SER, G.A
+## explanation_a
+Clara cells secrete their surfactant-like material — which keeps the bronchiole patent by lowering surface tension — using their apical smooth endoplasmic reticulum (SER) together with the Golgi apparatus, the lipid-synthesising and packaging combination expected for a lipid-rich secretion.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_b
+rER, G.A
+## explanation_b
+rER with the Golgi apparatus builds the protective glycoprotein secretion for the epithelium, not the lipid-based surfactant-like material.
+## answer_c
+SER
+## explanation_c
+SER alone is credited with toxin degradation, not with synthesising and packaging a secretion, which needs the Golgi apparatus too.
+## answer_d
+macrophage
+## explanation_d
+Macrophages are a separate phagocytic cell type, not the source of the Clara cell's own surfactant-like secretion.
+## correct_answer
+A
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Attribute Clara cells' surfactant-like secretion, which keeps the bronchiole patent, to their apical SER and Golgi apparatus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q48. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-0F91BE5F3398
+## title
+clara cell, which of the following is false?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+clara cell, which of the following is false?
+## answer_a
+protection of bronchiolar epithelium
+## explanation_a
+True of Clara cells, so not the exception — protecting the bronchiolar epithelium is one of their named functions.
+## answer_b
+dome-shaped with many cilia, microvilli
+## explanation_b
+The exception, and the answer. Clara cells are dome-shaped but non-ciliated, with apical microvilli rather than cilia — 'many cilia' reverses their defining feature, since they sit among an epithelium whose cilia are already disappearing distally.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+act as stem cell
+## explanation_c
+True, so not the exception. Clara cells may act as a stem cell for the bronchiolar lining.
+## answer_d
+secretion of surfactant like material
+## explanation_d
+True, so not the exception. Secretion of a surfactant-like material, keeping the bronchiole patent, is a named Clara-cell function.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+Correct 'dome-shaped with many cilia' to 'dome-shaped and non-ciliated' as the accurate description of the Clara cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q44. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-3D4E669C2978
+## title
+Concerning the upper pair of vocal cords:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the upper pair of vocal cords:
+## answer_a
+They are the true vocal cords
+## explanation_a
+The true vocal cords are the lower pair of folds; the upper pair are the false (vestibular) folds, a separate structure with a separate role.
+## answer_b
+They contain elastic ligaments
+## explanation_b
+The well-developed elastic vocal ligament belongs to the lower, true vocal cords — the specialised structure enabling phonation — not to the upper, false vocal folds.
+## answer_c
+They are covered with non-keratinized stratified squamous epithelium
+## explanation_c
+Non-keratinized stratified squamous epithelium, built to withstand vibrational friction, covers the true vocal cords; the vestibular folds are instead covered by respiratory-type epithelium.
+## answer_d
+They protect the larynx from entrance of foreign particles
+## explanation_d
+The upper pair of folds, the false (vestibular) vocal folds, protect the larynx by helping prevent food, fluid and other foreign material from entering the airway below.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## correct_answer
+D
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute a protective role — keeping food and fluid out of the larynx — to the upper (false, vestibular) vocal folds, against the true cords' phonation role.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q6. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-05B44755F22C
+## title
+Concerning the upper pair of vocal cords: ‘a. They are the true vocal cords. b. They co…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the upper pair of vocal cords: ‘a. They are the true vocal cords. b. They contain elastic ligaments
+## answer_a
+They are the true vocal cords.
+## explanation_a
+The true vocal cords are the lower pair, specialised for phonation, not the upper pair this question asks about.
+## answer_b
+They contain elastic ligaments.
+## explanation_b
+The well-developed elastic vocal ligament is a feature of the lower, true vocal cords, not the upper, vestibular folds.
+## answer_c
+They are covered with non-keratinized stratified squamous epithelium.
+## explanation_c
+The mechanically durable non-keratinized stratified squamous epithelium, built to withstand vibrational friction, covers the true vocal cords, not the vestibular folds, which carry respiratory-type epithelium instead.
+## answer_d
+They protect the larynx from entrance of foreign particles.
+## explanation_d
+The upper pair of laryngeal folds, the vestibular (false vocal) folds, protect the larynx by helping close off the airway and keep foreign material, food and liquid from entering it and the trachea below.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## correct_answer
+D
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute a protective role to the upper (false) vocal folds, distinct from the true cords' phonation, elastic ligament and squamous lining.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p1 q6. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-06A0B45ED8D4
+## title
+Concerning the upper pair of vocal cords, they:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the upper pair of vocal cords, they:
+## answer_a
+Are the true vocal cords
+## explanation_a
+The lower pair of folds, not the upper pair, are the true vocal cords, specialised for phonation.
+## answer_b
+Contain elastic ligaments. |
+## explanation_b
+The elastic vocal ligament belongs to the true (lower) vocal cords, not to the vestibular (upper) folds this question asks about.
+## answer_c
+Are covered with non-keratinized stratified squamous epithelium. |
+## explanation_c
+Non-keratinized stratified squamous epithelium, built for vibrational durability, covers the true (lower) vocal cords; the vestibular folds are typically covered by respiratory-type epithelium instead.
+## answer_d
+Protect the larynx from entrance of foreign particles
+## explanation_d
+The upper pair of laryngeal folds — the vestibular (false vocal) folds — have the protective role of helping prevent food, fluid and other foreign material from entering the larynx and airway below.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## correct_answer
+D
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute a protective role to the upper (false) vocal folds, distinct from the true cords' phonation role.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q6. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-41C03AF88CFA
+## title
+Conducting portion include the following except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Conducting portion include the following except
+## answer_a
+Nasal Cavity, larynx
+## explanation_a
+True — the nasal cavity and larynx are both conducting-portion structures, so not the exception.
+## answer_b
+trachea, Alveoli
+## explanation_b
+The exception, and the answer. The trachea is a conducting-portion structure, but alveoli are not — alveoli are the respiratory portion's site of gas exchange, so pairing it with the trachea makes this option the one containing a structure that does not belong.
+
+Why this is right:
+- The conducting portion of the respiratory system conducts and conditions inspired air.
+## answer_c
+Bronchioles, bronchi
+## explanation_c
+True — bronchioles and bronchi are both conducting-portion structures, so not the exception.
+## answer_d
+Nasopharynx
+## explanation_d
+True — the nasopharynx is part of the conducting portion's upper airway, so not the exception.
+## correct_answer
+B
+## main_concept
+CON-RES-7B5CE29846CBE2
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a false statement
+## learning_objective
+Exclude alveoli from the conducting portion, correctly grouping trachea with nasal cavity, larynx, bronchi and bronchioles as conducting-portion structures.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q5. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C72354E030A1
+## title
+Elastic cartilage provides structural support for the following res piratory airway:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic cartilage provides structural support for the following res piratory airway:
+## answer_a
+Trachea
+## explanation_a
+The trachea's C-shaped rings are entirely hyaline cartilage, not elastic cartilage.
+## answer_b
+Bronchi
+## explanation_b
+The bronchi's supporting cartilage (rings or plates) is entirely hyaline cartilage, not elastic cartilage.
+## answer_c
+Bronchioles
+## explanation_c
+Bronchioles have no cartilage support at all — its complete absence is exactly what defines the transition from bronchus to bronchiole.
+## answer_d
+Larynx
+## explanation_d
+The larynx contains elastic cartilage in its small cartilages (epiglottis, cuneiform, corniculate, arytenoid tips), making it the one airway among these options with any elastic cartilage support.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## correct_answer
+D
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the larynx as the one airway among trachea, bronchi, bronchioles and larynx that contains elastic cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p30 q9. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-04BA3062D829
+## title
+Elastic cartilage provides structural support for the following respiratory airways:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic cartilage provides structural support for the following respiratory airways:
+## answer_a
+Trachea ‏.م‎ Bronchi
+## explanation_a
+Trachea and bronchi are both supported by hyaline, not elastic, cartilage.
+## answer_c
+Bronchioles
+## explanation_c
+Bronchioles carry no cartilage of any kind.
+## answer_d
+Larynx
+## explanation_d
+The larynx's small cartilages (epiglottis, cuneiform, corniculate, arytenoid tips) are elastic cartilage, distinguishing it from the trachea and bronchi's hyaline support and the bronchiole's complete absence of cartilage.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## correct_answer
+D
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the larynx as the airway containing elastic cartilage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p1 q9. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-71B67F9AE362
+## title
+Elastic cartilage provides structural support for the respiratory airway: ‏ا‎ ‎a. Trach…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Elastic cartilage provides structural support for the respiratory airway: ‏ا‎ ‎a. Trachea b. Bronchi 7
+## answer_a
+Trachea
+## explanation_a
+The trachea's supporting C-shaped rings are entirely hyaline cartilage, not elastic.
+## answer_b
+Bronchi
+## explanation_b
+The bronchi's supporting cartilage is entirely hyaline cartilage, not elastic.
+## answer_c
+Bronchioles
+## explanation_c
+Bronchioles have no cartilage support at all — the loss of cartilage is precisely what defines the transition from bronchus to bronchiole.
+## answer_d
+Larynx
+## explanation_d
+Within the respiratory airway, elastic cartilage is found specifically in parts of the larynx — the epiglottis, and the corniculate and cuneiform cartilages — making it the one airway among these four with any elastic cartilage.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## correct_answer
+D
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the larynx as the airway containing elastic cartilage, against trachea, bronchi and bronchioles.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q9. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-62453756B4E1
+## title
+extra pulmonary bronchi is lined by:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+extra pulmonary bronchi is lined by:
+## answer_a
+non Keratinized SSE
+## explanation_a
+Non-keratinized stratified squamous epithelium lines mechanically abraded surfaces such as the true vocal cords, not the bronchus.
+## answer_b
+pseudo stratified columnar with many goblet cell
+## explanation_b
+Extrapulmonary bronchi are structurally identical to the trachea, keeping its pseudostratified ciliated columnar epithelium with many goblet cells — richer in goblet cells than the intrapulmonary bronchus further along.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_d
+stratified Columnar Ciliated with few goblet cells
+## explanation_d
+Stratified columnar epithelium with only few goblet cells describes neither bronchus level accurately; extrapulmonary bronchi specifically keep many goblet cells, and the epithelium itself is pseudostratified, not truly stratified.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that extrapulmonary bronchi keep a pseudostratified ciliated columnar lining rich in goblet cells, like the trachea, unlike the intrapulmonary bronchus's fewer goblet cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q40. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-96FAB1BCFEE9
+## title
+In bronchiole, cell degrades the toxin in inhaled air is: !
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In bronchiole, cell degrades the toxin in inhaled air is: !
+## answer_a
+Clara cell
+## explanation_a
+Clara cells, the bronchiole's non-ciliated secretory cells, are rich in smooth endoplasmic reticulum and detoxifying enzymes, giving them the job of metabolising and neutralising inhaled toxins and pollutants reaching the small airways.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_b
+Basal cell
+## explanation_b
+Basal cells are a progenitor population in the larger airways (trachea, bronchi), not the bronchiole's toxin-degrading cell.
+## answer_d
+Goblet cell
+## explanation_d
+Goblet cells trap inhaled particles mechanically in mucus, a physical protective role, not enzymatic toxin detoxification — and goblet cells are in any case absent from the bronchiole.
+## correct_answer
+A
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory System — Larynx and Airway Wall
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the Clara cell as the bronchiolar cell that degrades inhaled toxins.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p13 q16. Manifest src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-47B37AF86738
+## title
+Lung bronchiole has:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Lung bronchiole has:
+## answer_a
+Many goblet cells in lining epithelium
+## explanation_a
+Goblet cells are largely absent from bronchiolar epithelium — a defining loss as airways progress from the goblet-cell-rich bronchus to the bronchiole.
+## answer_b
+Clara cells in the mucosa
+## explanation_b
+Clara cells in the mucosa are a hallmark bronchiolar feature, appearing as non-ciliated, dome-shaped secretory cells once goblet cells have disappeared at this level of the airway.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+Spirally arranged striated muscles
+## explanation_c
+Airway smooth muscle, including in the bronchiole, is smooth muscle, not striated muscle, an entirely different tissue type.
+## answer_d
+Plates of hyaline cartilage
+## explanation_d
+Bronchioles characteristically lack cartilage support altogether — a defining feature distinguishing them from bronchi, which do have cartilage plates.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory System — Larynx and Airway Wall
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify Clara cells in the mucosa as a defining, hallmark feature of the bronchiole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q116. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B677D7C046AC
+## title
+most of larynx lined by non-keratinized
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+most of larynx lined by non-keratinized
+## answer_a
+olfactory epithelium
+## explanation_a
+Olfactory epithelium is specific to the olfactory mucosa of the nasal cavity, with no part in lining the larynx.
+## answer_b
+stratified squamous
+## explanation_b
+Stratified squamous epithelium is the exception covering only the true vocal cords and the lingual surface of the epiglottis, not most of the larynx.
+## answer_c
+respiratory epithelium
+## explanation_c
+The larynx is lined with respiratory epithelium (pseudostratified ciliated columnar with goblet cells) everywhere except the true vocal cords and the lingual epiglottis, which switch to a tougher, non-keratinized stratified squamous lining.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium is not a lining found anywhere in the larynx.
+## correct_answer
+C
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that most of the larynx is lined by respiratory epithelium, reserving stratified squamous epithelium for the true vocal cords and lingual epiglottis alone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q31. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-0F697F439617
+## title
+Regarding Clara cells:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding Clara cells:
+## answer_a
+Dome shaped ciliated cells
+## explanation_a
+Clara cells are dome-shaped but non-ciliated, not ciliated — cilia are exactly what they lack among the bronchiole's remaining ciliated cells.
+## answer_b
+Present within the epithelium of intrapulmonary bronchi
+## explanation_b
+Clara cells are found within the epithelium of bronchioles, distal to the intrapulmonary bronchi, not within the intrapulmonary bronchi's own epithelium, which still carries goblet cells and lacks Clara cells.
+## answer_c
+Act as stem cells for type I pneumocytes
+## explanation_c
+Clara cells act as a stem cell for the bronchiolar lining itself, not specifically for type I pneumocytes, which are instead regenerated from type II pneumocytes in the respiratory portion.
+## answer_d
+Their cytoplasm contains apical sER& basal rER
+## explanation_d
+Clara cells' cytoplasm contains apical smooth endoplasmic reticulum (detoxification and surfactant-like secretion) and basal rough endoplasmic reticulum (protective glycoprotein synthesis) — the organelle basis for their several distinct functions.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## correct_answer
+D
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+State that Clara cells carry apical smooth ER and basal rough ER, matching their dual role in detoxification/secretion and protective glycoprotein synthesis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q21. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-43BF13B92501
+## title
+The first part of the respiratory tract containsnon-ciliated cells is:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The first part of the respiratory tract containsnon-ciliated cells is:
+## answer_a
+Terminal bronchiole
+## explanation_a
+Non-ciliated Clara cells first become a notable component of the airway epithelium at the level of the terminal bronchiole, interspersed among the remaining ciliated cells — the most proximal (first) segment where non-ciliated cells become histologically prominent, even as scattered ciliated cells persist alongside them.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_b
+Respiratory bronchiole
+## explanation_b
+The respiratory bronchiole shows an even higher proportion of non-ciliated Clara cells than the terminal bronchiole, but it is not the first (most proximal) site where non-ciliated cells appear.
+## answer_c
+Trachea
+## explanation_c
+The trachea is lined by essentially uniform ciliated pseudostratified columnar epithelium with goblet cells, without a significant non-ciliated cell population.
+## answer_d
+Alveolar duct
+## explanation_d
+The alveolar duct lies well beyond the terminal bronchiole, so it is not the first site where non-ciliated cells appear.
+## answer_e
+Bronchi
+## explanation_e
+Bronchi, like the trachea, are lined by predominantly ciliated epithelium with goblet cells, without yet a significant non-ciliated Clara-cell population.
+## correct_answer
+A
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Mechanism
+## learning_objective
+Place the terminal bronchiole as the first airway segment where non-ciliated Clara cells become a notable component of the epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory].pdf p2 q11. Manifest src_d0d3d52a9b3b79169a9c.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D005D7947287
+## title
+The following cell is considered as a stem cell: 1
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The following cell is considered as a stem cell: 1
+## answer_a
+Type | pneumocyte.
+## explanation_a
+Type I pneumocytes are terminally differentiated, thin, non-dividing cells; damaged alveolar epithelium is repaired by proliferation of type II pneumocytes, not by type I cells regenerating themselves.
+## answer_b
+Clara cell.
+## explanation_b
+Clara cells function as a recognised progenitor cell population for the bronchiolar epithelium, dividing and differentiating into both new Clara cells and ciliated cells to regenerate the bronchiolar lining after injury.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+Sustentacular cells of olfactory mucosa.
+## explanation_c
+The regenerative role in olfactory epithelium belongs to its own basal cells, not to the sustentacular (supporting) cells named here.
+## answer_d
+Alveolar macrophage.
+## explanation_d
+Alveolar macrophages are fully differentiated immune cells, not a stem or progenitor cell population.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Respiratory
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the Clara cell as the bronchiolar epithelium's recognised progenitor (stem) cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q20. Manifest src_12ecc23fe206a928203d.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-21B50D2F906B
+## title
+The following cell is considered as a stem cell:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+The following cell is considered as a stem cell:
+## answer_a
+Type I pneunocyte
+## explanation_a
+Type I pneumocytes are terminally differentiated and do not regenerate themselves; type II pneumocytes take on that role in the respiratory portion instead.
+## answer_b
+Clara cell
+## explanation_b
+Clara cells may act as stem cells for the bronchiolar lining, dividing to replace both Clara and ciliated cells after injury.
+
+Why this is right:
+- The trachea divides into two primary (extrapulmonary) bronchi, structurally identical to the trachea; each penetrates a lung's hilum as intrapulmonary (secondary) bronchi, which divide repeatedly into bronchioles.
+## answer_c
+Sustentacular cells of olfactory mucosa
+## explanation_c
+Sustentacular cells of the olfactory mucosa are supporting cells; the olfactory epithelium's own stem cells are its basal cells, not the sustentacular cells.
+## answer_d
+Alveolar macrophage
+## explanation_d
+Alveolar macrophages are differentiated immune cells, not a progenitor population.
+## correct_answer
+B
+## main_concept
+CON-RES-7C79F2D68F1003
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the Clara cell as the bronchiolar epithelium's stem cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q20. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-1D1A02686689
+## title
+true Vocal cord, lingual surface of epiglottis lined by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+true Vocal cord, lingual surface of epiglottis lined by
+## answer_a
+olfactory epithelium
+## explanation_a
+Olfactory epithelium is specific to the nasal cavity's olfactory mucosa, with no part in the larynx.
+## answer_b
+stratified squamous
+## explanation_b
+The true vocal cords and the lingual surface of the epiglottis are covered by (non-keratinized) stratified squamous epithelium, the larynx's two named exceptions to its otherwise respiratory-epithelium lining, built to withstand mechanical stress from vibration and swallowing.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## answer_c
+respiratory epithelium
+## explanation_c
+Respiratory epithelium lines most of the larynx, but not these two specific, mechanically stressed surfaces.
+## answer_d
+stratified columnar
+## explanation_d
+Stratified columnar epithelium is not a lining found anywhere in the larynx.
+## correct_answer
+B
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name stratified squamous epithelium as the lining of the true vocal cords and the lingual surface of the epiglottis, the larynx's two exceptions to respiratory epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q32. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E4F115962EA3
+## title
+vestibular folds for
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+vestibular folds for
+## answer_a
+Production of voice
+## explanation_a
+Producing voice is the true vocal cords' role, not the vestibular folds'.
+## answer_b
+maintain open airway
+## explanation_b
+Maintaining an open airway is credited to the larynx's cartilages generally, not specifically to the vestibular folds.
+## answer_c
+Prevent feed from entering larynx
+## explanation_c
+The vestibular (false vocal) folds' role is protective — preventing food and fluid from entering the larynx — distinct from the true vocal cords' phonation role below them.
+
+Why this is right:
+- The larynx connects the pharynx with the trachea.
+## answer_d
+All the above
+## explanation_d
+Only the protective role belongs to the vestibular folds specifically; voice production and airway patency are credited to other laryngeal structures, so 'all the above' overstates it.
+## correct_answer
+C
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute preventing food from entering the larynx to the vestibular (false vocal) folds, not voice production or airway patency.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q35. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-40AA0276FD8B
+## title
+Air is cleansed, moistened by action of:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Air is cleansed, moistened by action of:
+## answer_a
+respiratory epithelium only
+## explanation_a
+Respiratory epithelium alone conditions the air's cleanliness (via mucus and cilia) but not its warming and humidifying, which needs the vascular network beneath it too.
+## answer_b
+elastic, Collagen fiber
+## explanation_b
+Elastic and collagen fibres give the airway wall its flexibility and resistance to collapse; they play no part in cleansing or moistening the air passing through it.
+## answer_c
+respiratory epithelium, collagen
+## explanation_c
+Collagen fibres belong to the structural, collapse-resisting pairing with cartilage, not to the conditioning function this question asks about.
+## answer_d
+respiratory epithelium, vascular network
+## explanation_d
+Air is cleansed and moistened by the combined action of the respiratory epithelium (mucus trapping particles, cilia clearing them) and the vascular network beneath it (warming and humidifying the air) — conditioning carried out separately from the wall's structural, collapse-resisting components.
+
+Why this is right:
+- The conducting portion of the respiratory system conducts and conditions inspired air.
+## correct_answer
+D
+## main_concept
+CON-RES-7B5CE29846CBE2
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute conditioning of inspired air jointly to the respiratory epithelium and the underlying vascular network, against options naming only one or naming connective-tissue fibres instead.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q3. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
