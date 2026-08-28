@@ -673,6 +673,22 @@ Question batches resolve their concept and article references against **live sta
 the batch directory — so `medical:batch` will tell you honestly if the concept you are
 testing does not exist.
 
+**`medical:simulate` has no `--with` flag, unlike `medical:batch`.** Naming your sibling
+concept/article batches with repeated `--with <file>` — the pattern the `--with` hint above
+trains you to reach for — silently drops every one of those files from the simulate run
+(its parser reads the token right after any `--flag` as that flag's value) and still exits
+0 with `errors: []`, because a dropped file was never read, not rejected. Pass every
+sibling file positionally, in apply order, with no flag: `medical:simulate --
+concepts.md articles.md your-questions.md --emit …`.
+
+**A bare `---` line anywhere inside a multi-line field — `written_parts`,
+`matching_options`, `media_recommendations`, even a long `vignette` copied from a source
+PDF — ends the record early**, because the importer splits one file into records on any
+line that is only `---` (`/^\s*---\s*$/m`), the same separator between `# Item` blocks. A
+horizontal rule or a stray row of dashes carried over from source formatting silently
+truncates everything after it into a broken second record. Strip any bare `---` line out
+of pasted source text before you save the batch.
+
 - [ ] Every question names at least one `main_concept`
 - [ ] Every `main_concept` is covered by an article, and that article is in `library_ids`
 - [ ] Nothing merely mentioned by the vignette is in `main_concept` — it is in `contextual_concept_ids`
@@ -697,6 +713,10 @@ testing does not exist.
 | A concept gains mastery the student never earned | You put a contextual concept in `main_concept` |
 | The worked explanation reads thin | You wrote `explanation_<correct>` as a justification rather than the teaching moment |
 | Question references a concept nobody authored | Author the concept first, or drop the question |
+| A generated/extracted `labeling` row rejects even though it looked fine in the source | It has no `labeling_image` — this format has no Draft bypass; see "Labelling" below |
+| `medical:simulate` reports `errors: []`, but a sibling file never seemed to apply | You passed it after `--with`; `medical:simulate` has no such flag and silently dropped it — list files positionally |
+| A record after a long prose or mark-scheme field is missing or garbled | A bare `---` line inside that field ended the record early — strip stray horizontal rules from pasted source text |
+| An option/answer value extracted from a source paper comes out wrong or unmatched (e.g. a numeric value that should read `+5 mmHg`) | The leading `+` was read as a list-append directive somewhere in the pipeline rather than kept as literal text — see `02-concepts.md`'s "Append to a list field" note; clean the seed/extraction input, do not drop a real value just to clear the gate |
 
 ---
 
@@ -859,6 +879,16 @@ Anterior compartment of the arm, three structures arrowed
 Coordinates are **percentages** of the image, so a pin holds wherever the image
 is rendered. Everything after the first `|` is another wording that counts as
 right.
+
+**This is a hard gate with no Draft bypass, unlike every other media-needed pattern in
+this manual.** `labelingErrors()` (`src/data/labelingQuestion.ts`) unconditionally refuses
+a `labeling` item with no `labeling_image` — there is no equivalent of importing a
+concept or article as Draft with a `media_recommendations` block held for later. A
+labelling item with no image today does not import as Draft-pending-media; it does not
+import at all. If you do not have the image yet, do not force the row through: keep it
+out of the batch (or note it in `field_notes`/the module's coverage ledger as
+"media-blocked, needs image"), and add it once the image exists rather than inventing a
+URL or waiting on a bypass that does not exist.
 
 **Alt text is required**, not encouraged: the image *is* the question, so
 without it a student using a screen reader is told nothing at all.
