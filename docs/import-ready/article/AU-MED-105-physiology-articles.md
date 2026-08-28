@@ -191,7 +191,7 @@ This department's two Physiology teaching texts (Dr_ Aliaa book.pdf and Dr_ Gawa
 
 
 ## notes
-
+Written from this module's own AU-MED-105 Physiology department book (Dr Gawad book.pdf, src_7b3e43ce7d0febdb4856), per the triage in docs/Alexandria-Source-Imports/coverage/AU-MED-105-physiology-triage.md.
 
 ## field_notes
 arabicTitle: Researched and supplied.
@@ -200,6 +200,7 @@ microtopicId: No finer canonical microtopic exists under DIS-PHY-T07 for this sp
 nanotopicId: Same reason as microtopicId.
 media: No rights-cleared asset exists yet for this article.
 universityNotes: Alexandria's own bank (lec 3 physiology MSK Q2) tests this exact mechanism directly against the department's own teaching; no divergent local teaching to record.
+questionIds: 1 question in this lane's AU-MED-105-physiology-mcq.md ("Which of the following is true regarding conduction in unmyelinated nerve fibers...", main_concept CON-NEU-C578CBFD9ED6A9) tests this article's concept, but that question batch mints no stable `## id` of its own — the importer assigns one only at import time — so there is no real id to write here without inventing one; add once assigned.
 lastReviewed: New record; not yet reviewed.
 reviewDue: Set when the first review completes.
 
@@ -403,7 +404,7 @@ Neither of AU-MED-105's own two Physiology department books (Dr_ Gawad book.pdf,
 
 
 ## notes
-
+AU-MED-105's own two Physiology department books teach no cardiac muscle content at all (confirmed in the triage, docs/Alexandria-Source-Imports/coverage/AU-MED-105-physiology-triage.md); written instead from the sibling AU-MED-106 Physiology department book by the same lecturer (Dr Gawad, src_7cde132d457b51ef9203), per the chief-of-staff ruling recorded in field_notes.universityNotes below.
 
 ## field_notes
 arabicTitle: Researched and supplied.
@@ -412,6 +413,7 @@ microtopicId: No finer canonical microtopic exists under this subtopic for the f
 nanotopicId: Same reason as microtopicId.
 media: No rights-cleared asset exists yet for this article.
 universityNotes: This department's own two AU-MED-105 Physiology books do not teach cardiac electrophysiology at all; the module's own bank ("MCQs - أسئلة جواد") tests it regardless, so it is taught here from the sibling AU-MED-106 Physiology department book by the same lecturer, per the chief-of-staff ruling on this triage's scope-defining surprise.
+questionIds: 6 questions in this lane's AU-MED-105-physiology-mcq.md test this article's five related_concepts (SAN pacemaker dominance CON-CVS-4ECCADC8992792 x1, pacemaker-potential mechanism CON-CVS-81E96340AE844D x1, intrinsic heart rate CON-CVS-694550FD793D4A x1, AP-plateau mechanism CON-CVS-2E009F84C99B77 x2, pacemaker-vs-working-AP differences CON-CVS-A4657614AE6923 x1) via main_concept, but that question batch mints no stable `## id` of its own — the importer assigns one only at import time — so there is no real id to write here without inventing one; add once assigned.
 lastReviewed: New record; not yet reviewed.
 reviewDue: Set when the first review completes.
 
@@ -610,7 +612,7 @@ As with the pacemaker article, AU-MED-105's own two Physiology department books 
 
 
 ## notes
-
+Same sourcing as the pacemaker article: AU-MED-105's own Physiology books teach no cardiac muscle content, so this is written from the sibling AU-MED-106 Physiology department book by the same lecturer (Dr Gawad, src_7cde132d457b51ef9203), per the chief-of-staff ruling recorded in field_notes.universityNotes below.
 
 ## field_notes
 arabicTitle: Researched and supplied.
@@ -619,5 +621,6 @@ microtopicId: No finer canonical microtopic exists under either subtopic for the
 nanotopicId: Same reason as microtopicId.
 media: No rights-cleared asset exists yet for this article.
 universityNotes: This department's own AU-MED-105 Physiology books do not teach cardiac conduction or mechanics; taught here from the sibling AU-MED-106 Physiology department book, per the same chief-of-staff ruling recorded on the pacemaker article.
+questionIds: 5 questions in this lane's AU-MED-105-physiology-mcq.md test this article's five related_concepts (fastest conduction velocity/Purkinje CON-CVS-57B2E1283C80AF, cardiac conductivity CON-CVS-100ED24FFCB92D, Purkinje system function CON-CVS-EB114E0205680C, cardiac contractility CON-CVS-859114E6FE6C90, EDV/Frank-Starling CON-CVS-3142C436848ABD) via main_concept, but that question batch mints no stable `## id` of its own — the importer assigns one only at import time — so there is no real id to write here without inventing one; add once assigned.
 lastReviewed: New record; not yet reviewed.
 reviewDue: Set when the first review completes.
