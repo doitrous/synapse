@@ -10,7 +10,7 @@
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
-    Histology Cardiovascular System — General Vessel Wall Plan — 17 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -50,7 +50,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  60 questions were excluded and 0 held back for having no
+  64 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -988,6 +988,140 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 +ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
 canonical_key "blood-vessel-wall.general-three-tunic-plan" already has a pinned id in this module (CON-CVS-30053920BDC07F); mintConceptId derives the same id fresh (CON-CVS-30053920BDC07F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The tunica adventitia's vasa vasorum — 'vessels of the vessels' — nourish the outer wall of large vessels, are more frequent in veins than arteries, and sit alongside longitudinal type I collagen that resists overdistension
+## id
+CON-CVS-E7CF1A3FFF700C
+## canonical_key
+tunica-adventitia.vasa-vasorum-and-composition
+## definition
+Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead. This need is specific to large vessels: small arteries and veins have thin enough walls that diffusion from the lumen suffices for the whole thickness, so they carry no vasa vasorum at all. Vasa vasorum are more frequent and more deeply penetrating in the walls of veins than of arteries of comparable size, since less-oxygenated venous blood makes the venous wall rely more on this dedicated external supply. Alongside vasa vasorum, the tunica adventitia's other main constituent is longitudinal type I collagen fibres, which resist overdistension of the vessel, together with a few circular elastic fibres and nervi vasorum, the autonomic nerves driving the media's smooth muscle.
+## explicit_objective
+State what vasa vasorum are, why only large vessels need them, why they favour veins over arteries, and name type I collagen as the tunica adventitia's other defining constituent.
+## pitfalls
+Placing vasa vasorum in the tunica media or intima. Their defining location is the tunica adventitia (extending only partly into the outer media in large vessels); the inner wall is nourished by diffusion from the lumen directly, which is exactly why only the outer wall needs its own dedicated vessels.
+## concept_type
+structural_description
+## status
+under review
+## subject
+cvs
+## primary_node_id
+DIS-HIS-T03
+## secondary_node_ids
+SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+## weight_confidence
+0.8
+## blueprint_weight
+0.47
+## exam_weight_by_year
+KAU_Y1=0.47
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.85
+## topic
+Histology
+## subtopic
+Cardiovascular System
+## aliases
+Vasa vasorum | Nervi vasorum | Tunica adventitia composition
+## article_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## support_mode
+direct_statement
+## original_wording
+[asked 1x across the question books] Regarding vasa vasorum: 1
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+ART-104-HIS-ARTERIES-AND-VEINS | ART-104-ANA-CORONARY-ARTERIES
+## resource_ids
+src_18d3a953df4ca83c4e74
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 
 ---

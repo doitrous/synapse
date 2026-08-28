@@ -10,7 +10,7 @@
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
-    Histology Cardiovascular System — General Vessel Wall Plan — 17 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -50,7 +50,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  60 questions were excluded and 0 held back for having no
+  64 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -6443,6 +6443,650 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p17 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E1B796C26014
+## title
+Regarding vasa vasorum: 1
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding vasa vasorum: 1
+## answer_a
+Small arteries in tunica media
+## explanation_a
+Vasa vasorum sit predominantly in the tunica adventitia, extending only partly into the outer media — not primarily within the media itself.
+## answer_b
+Blood vessels of the blood vessel
+## explanation_b
+'Vasa vasorum' translates literally as 'vessels of the vessels' — small nutrient vessels penetrating a large vessel's own wall, since the outer wall is too far from the lumen for diffusion alone to nourish it.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## answer_c
+Present mainly in small vein
+## explanation_c
+Vasa vasorum are a feature of large vessels generally, both arteries and veins, not specifically small veins, whose thin walls are nourished by diffusion alone.
+## answer_d
+Nourish inner part of wall of large vessel
+## explanation_d
+Vasa vasorum nourish the outer part of a large vessel's wall (adventitia and outer media); the inner part is nourished directly by diffusion from luminal blood.
+## correct_answer
+B
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the literal meaning of 'vasa vasorum' as vessels of the vessel, nourishing the outer wall of large vessels.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q4. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A80017169EF8
+## title
+small blood vessel in T-adventitia that supply nutrients to vascular wall
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+small blood vessel in T-adventitia that supply nutrients to vascular wall
+## answer_a
+Nervi vasorum
+## explanation_a
+Nervi vasorum are the autonomic nerves of the adventitia driving smooth-muscle tone, not blood vessels supplying nutrients.
+## answer_b
+External elastic lamina
+## explanation_b
+The external elastic lamina is an elastic membrane at the media-adventitia boundary, not a nutrient-supplying blood vessel.
+## answer_c
+vasa vasorum
+## explanation_c
+Vasa vasorum are the small blood vessels of the tunica adventitia that penetrate the wall to nourish it, needed because the outer wall of a large vessel is too far from luminal blood for diffusion alone.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## answer_d
+subendothelium
+## explanation_d
+Subendothelium is loose connective tissue in the tunica intima supporting the endothelium, not a nutrient vessel of the adventitia.
+## correct_answer
+C
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify vasa vasorum as the small vessels in the tunica adventitia that nourish the vascular wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q21. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2E67734277D6
+## title
+The vasa vasorum are:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The vasa vasorum are:
+## answer_a
+Found in tunica media of small arteries
+## explanation_a
+Small arteries have thin enough walls to be nourished entirely by diffusion from the lumen and carry no vasa vasorum.
+## answer_b
+Found in tunica adventitia of large arteries
+## explanation_b
+Vasa vasorum are found in the tunica adventitia of large vessels, whose thick walls are too far from luminal blood for diffusion alone to nourish the outer layers.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## answer_c
+Found in tunica media of basilar arteries
+## explanation_c
+Vasa vasorum are not confined to the media of any one named vessel such as the basilar artery; their defining location is the tunica adventitia of large vessels generally.
+## answer_d
+Found in tunica intima of large arteries
+## explanation_d
+The tunica intima, closest to the lumen, is nourished directly by diffusion from luminal blood and needs no vasa vasorum.
+## correct_answer
+B
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Locate vasa vasorum in the tunica adventitia of large arteries, not the media, intima, or small vessels.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q3. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-76248425ADF2
+## title
+Tunica adventitia of arteries constitutes the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Tunica adventitia of arteries constitutes the following:
+## answer_a
+Endothelium
+## explanation_a
+Endothelium is the defining component of the tunica intima, not the adventitia.
+## answer_b
+Vasa vasora
+## explanation_b
+Vasa vasorum are a defining constituent of the tunica adventitia, penetrating from this outer layer to nourish the outer wall.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## answer_c
+Smooth muscle fibers
+## explanation_c
+Smooth muscle fibres are predominantly a tunica media feature; only occasional longitudinal bundles extend into the adventitia of some large vessels, a secondary feature rather than its defining constituent.
+## answer_d
+Internal elastic lamina
+## explanation_d
+The internal elastic lamina marks the intima-media boundary, not a component of the adventitia.
+## correct_answer
+B
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name vasa vasorum as a defining constituent of the tunica adventitia of arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q2. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-3CB97B6AD673
+## title
+Tunica adventitia of large arteries constitutes the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Tunica adventitia of large arteries constitutes the following:
+## answer_a
+Endothelium
+## explanation_a
+Endothelium is the defining component of the tunica intima, not the adventitia.
+## answer_b
+Vasa vasora
+## explanation_b
+Vasa vasorum are a defining constituent of the tunica adventitia of large arteries, penetrating from this outer layer to nourish the outer wall.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## answer_c
+Smooth muscle fibers
+## explanation_c
+Smooth muscle fibres are predominantly a tunica media feature; only occasional longitudinal bundles extend into the adventitia of some large vessels, a secondary feature rather than its defining constituent.
+## answer_d
+Internal elastic lamina
+## explanation_d
+The internal elastic lamina marks the intima-media boundary, not a component of the adventitia.
+## correct_answer
+B
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name vasa vasorum as a defining constituent of the tunica adventitia of large arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p17 q2. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-6E4250E390EB
+## title
+Vasa vasorum:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Vasa vasorum:
+## answer_a
+More frequent in wall of veins than arteries
+## explanation_a
+True, so not the sole answer alone. Vasa vasorum are more frequent and more deeply penetrating in the walls of veins than arteries of comparable size, since less-oxygenated venous blood makes the venous wall rely more on this dedicated supply.
+## answer_b
+Nourish deeper tissue of tunica media
+## explanation_b
+True, so not the sole answer alone. Vasa vasorum extend inward from the adventitia to nourish the deeper (outer) tissue of the tunica media that diffusion from the lumen cannot reach.
+## answer_c
+Present in tunica adventitia
+## explanation_c
+True, so not the sole answer alone. Vasa vasorum are found predominantly in the tunica adventitia.
+## answer_d
+All of the above
+## explanation_d
+Correct: all three statements above are individually true facts about vasa vasorum, so 'all of the above' is the answer.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## correct_answer
+D
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a true statement
+## learning_objective
+Confirm all three facts about vasa vasorum together: more frequent in veins, nourishing the deeper media, and present in the adventitia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q8. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3B4A6E01EB57
+## title
+Vasa vasorum is present in
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Vasa vasorum is present in
+## answer_a
+T. intima
+## explanation_a
+The tunica intima is closest to the lumen and is nourished directly by diffusion from luminal blood, needing no vasa vasorum.
+## answer_b
+T. media
+## explanation_b
+Vasa vasorum sit predominantly in the tunica adventitia, extending only partly into the outer tunica media — not the media as their primary site.
+## answer_c
+T. adventitia
+## explanation_c
+Vasa vasorum are present in the tunica adventitia, the outermost layer, from which they penetrate inward to nourish the outer wall of large vessels.
+
+Why this is right:
+- Vasa vasorum are small nutrient blood vessels, literally 'vessels of the vessels', that penetrate from the tunica adventitia to nourish the outer part of a large vessel's own wall — the adventitia and outer media — because that outer tissue is too far from the lumen for diffusion from the blood inside to reach it; the inner wall (intima, inner media) is nourished directly by luminal diffusion instead.
+## answer_d
+none of the above
+## explanation_d
+Vasa vasorum are a genuine feature of large-vessel walls, present in the tunica adventitia — 'none of the above' is therefore incorrect.
+## correct_answer
+C
+## main_concept
+CON-CVS-E7CF1A3FFF700C
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Locate vasa vasorum in the tunica adventitia, not the intima or media.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q27. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
