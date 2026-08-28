@@ -85,6 +85,14 @@ export const DEFAULT_RHYTHM_SETTINGS: RhythmSettings = {
 
 const DAY_RE = /^\d{4}-\d{2}-\d{2}$/
 
+/** A real calendar day — `2026-06-00` and `2026-13-45` are rejected, not just malformed strings. */
+function isRealDay(value: unknown): value is string {
+  if (typeof value !== 'string' || !DAY_RE.test(value)) return false
+  const [y, m, d] = value.split('-').map(Number)
+  const dt = new Date(y, m - 1, d)
+  return dt.getFullYear() === y && dt.getMonth() === m - 1 && dt.getDate() === d
+}
+
 function choice<T extends string>(value: unknown, allowed: readonly T[], fallback: T): T {
   return typeof value === 'string' && (allowed as readonly string[]).includes(value) ? (value as T) : fallback
 }
@@ -106,7 +114,7 @@ export function validateRhythmSettings(raw: unknown, liveDeckIds: ReadonlySet<st
   const d = DEFAULT_RHYTHM_SETTINGS
 
   let ignoreBefore: string | null = d.ignoreBefore
-  if (typeof r.ignoreBefore === 'string' && DAY_RE.test(r.ignoreBefore)) ignoreBefore = r.ignoreBefore
+  if (isRealDay(r.ignoreBefore)) ignoreBefore = r.ignoreBefore
   else if (r.ignoreBefore === null) ignoreBefore = null
 
   const excludedRaw = Array.isArray(r.excludedDeckIds) ? r.excludedDeckIds.filter((x): x is string => typeof x === 'string') : []

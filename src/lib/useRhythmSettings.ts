@@ -56,14 +56,13 @@ export function useRhythmSettings(liveDeckIds: ReadonlySet<string>): RhythmSetti
 
   const resetBaseline = useCallback(
     (now: Date) => {
-      setRaw((cur) => {
-        const v = validateRhythmSettings(cur, liveDeckIds)
-        undoBaseline.current = v.ignoreBefore
-        hasUndo.current = true
-        return { ...v, ignoreBefore: localDay(now) }
-      })
+      // Capture the undo target from current settings BEFORE the update, so the
+      // state updater stays pure (no ref writes inside it).
+      undoBaseline.current = settings.ignoreBefore
+      hasUndo.current = true
+      setRaw((cur) => ({ ...validateRhythmSettings(cur, liveDeckIds), ignoreBefore: localDay(now) }))
     },
-    [setRaw, liveDeckIds],
+    [setRaw, liveDeckIds, settings.ignoreBefore],
   )
 
   const undoReset = useCallback(() => {
