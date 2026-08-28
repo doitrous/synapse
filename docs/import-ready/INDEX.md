@@ -1161,12 +1161,24 @@ diagram's own labels show (e.g. "printed as lacking a covering sheath") was left
 describes the diagram's content directly, not a citation to an external authority. No other
 law-of-voice violations found in this module.
 
-**Small authoring gap, flagged not fixed.** 2 of AU-MED-105-physiology-articles.md's 3 new
-articles (`ART-CVS-CARDIAC-PACEMAKER-AP`, `ART-NEU-CONTINUOUS-CONDUCTION`) carry a blank
-`## notes` field and a blank `questionIds` field with no `field_notes` reason recorded (the
-3rd, `ART-CVS-CONDUCTION-CONTRACTILITY`, is missing only `## notes`). Not a
-`medical:batch`/`medical:simulate` gate failure and not law-of-voice or reviewer/publisher, so
-outside this pass's two authorized fix categories — surfaced here for the next lane.
+**Small authoring gap — fixed.** All 3 of AU-MED-105-physiology-articles.md's new articles
+(`ART-CVS-CARDIAC-PACEMAKER-AP`, `ART-NEU-CONTINUOUS-CONDUCTION`, `ART-CVS-CONDUCTION-
+CONTRACTILITY`) had a blank `## notes` field — `articleData.notes` is in the audit's
+always-populated list, with no `field_notes` bypass — and a blank `questionIds` with no
+recorded reason. `notes` is now filled with each article's real, already-on-record sourcing
+story (own AU-MED-105 department book for the nerve-conduction article; the sibling
+AU-MED-106 department book, per the chief-of-staff ruling already in `field_notes.
+universityNotes`, for the two cardiac electrophysiology articles). `questionIds` stays empty
+with a `field_notes` reason: `AU-MED-105-physiology-mcq.md` does test every one of these
+articles' concepts (traced by `main_concept` — 1 question for the nerve article, 6 for the
+pacemaker article, 5 for the conduction/contractility article) but that question batch mints
+no stable `## id` of its own, so no real id exists yet to write without inventing one.
+`medical:batch` on the file: 0 errors, `fieldsUsed` 52. `medical:audit --source` against the
+resulting whole-tree state: 0 errors mention any of these 3 article ids (before the fix each
+one contributed a `questionIds is blank without an explicit reason` line, plus `notes` was on
+the audit's shared, always-populated `article.articleData.notes missing for …` line). Whole-
+tree `medical:simulate` re-run after the fix: same 29 image-gap-only errors as before, 0
+regressions elsewhere.
 
 **Traceability.** 47 of 67 own-lane concepts (70%) are named as `main_concept` or in
 `concept_ids` by at least one of the 81 authored questions (52 currently importable + 29
