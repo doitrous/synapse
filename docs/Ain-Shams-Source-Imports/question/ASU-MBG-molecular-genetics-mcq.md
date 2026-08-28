@@ -3262,3 +3262,2698 @@ yes
 
 ## author_notes
 Source item was a short-answer prompt ("the polymer has a polarity: one end has a free phosphate group at 5' end, and a free OH group at the other 3' end"); recast as a 4-option MCQ per the manual's derivation allowance, written original preserved above.
+
+---
+
+# Item
+
+## title
+5' caps are:
+
+## question
+5' caps are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Present at the 5' end of tRNA
+
+## explanation_a
+Incorrect. The 5' cap is a feature of mRNA, not tRNA — tRNA's distinctive terminus is the 3'-CCA acceptor end where its amino acid attaches, not a 5' cap.
+
+## answer_b
+Formed from 7-methyl adenosine triphosphate
+
+## explanation_b
+Incorrect. This names the wrong base: the cap is built from 7-methyl**guanosine** triphosphate, not adenosine — a student who mixes up the two purine nucleosides picks this option.
+
+## answer_c
+Unique for eukaryotic mRNA
+
+## explanation_c
+Correct. The 5' cap — a 7-methylguanosine residue joined to the first nucleotide of the transcript by an unusual 5'-to-5' triphosphate linkage — is added only to eukaryotic mRNA during processing in the nucleus. Prokaryotic mRNA is never capped, which is one of several processing differences (along with polyadenylation and splicing) that distinguish eukaryotic from prokaryotic gene expression. The cap matters functionally too: it is recognised by the translation machinery and it protects the transcript's 5' end from exonuclease attack, so a student should hold "cap = eukaryotic mRNA only" as a fixed fact rather than a general RNA feature.
+
+## answer_d
+Present in both eukaryotic and prokaryotic cells
+
+## explanation_d
+Incorrect. This is the opposite of the tested fact — capping is one of the eukaryotic-specific mRNA processing steps that prokaryotic transcripts never undergo.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA processing
+
+## main_concept
+CON-FND-5FF8EB2DB4D662
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the 5' cap on mRNA is a eukaryote-specific processing step, and name what it is chemically built from.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q3, p.3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C. This "Biochemistry Academy" (Bg) compilation is a private tutoring booklet, not an official sat EOM paper despite its filename (per module triage hazard note).
+
+---
+
+# Item
+
+## title
+Which RNA contains a poly-A tail at the 3' end?
+
+## question
+Which RNA contains a poly-A tail at the 3' end?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+5S RNA
+
+## explanation_a
+Incorrect. 5S rRNA is a small ribosomal RNA component transcribed by RNA polymerase III; it is not polyadenylated.
+
+## answer_b
+mRNA
+
+## explanation_b
+Correct. During post-transcriptional processing, poly(A) polymerase adds a tail of up to about 200 adenine residues to the 3' end of the pre-mRNA. The poly-A tail protects the transcript from 3' exonuclease degradation, and its length is one determinant of the mRNA's half-life in the cytoplasm — a longer tail generally buys the message more time before it is degraded. This is one of three defining eukaryotic mRNA processing steps, alongside 5' capping and splicing, none of which happen to rRNA or tRNA.
+
+## answer_c
+rRNA
+
+## explanation_c
+Incorrect. Ribosomal RNA is not polyadenylated; it is processed by cleavage of a large precursor transcript into the mature rRNA species, not by tailing.
+
+## answer_d
+tRNA
+
+## explanation_d
+Incorrect. tRNA's 3' end is the invariant CCA acceptor sequence where its amino acid attaches, not a poly-A tail.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA processing
+
+## main_concept
+CON-FND-5FF8EB2DB4D662
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+78
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Identify mRNA as the RNA species that carries a 3' poly-A tail, and state the tail's role in transcript stability.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q7, p.3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: B.
+
+---
+
+# Item
+
+## title
+What does the 7-methylguanosine triphosphate cap at the 5' terminus of mRNA help with?
+
+## question
+A 7-methylguanosine triphosphate cap at the 5' terminus of mRNA may help in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Recognition of mRNA by the protein synthesis machinery
+
+## explanation_a
+Incomplete rather than wrong — the cap does help ribosomes recognise the transcript, but it also protects the 5' end from degradation, so this option alone under-states the cap's role.
+
+## answer_b
+Protection of mRNA against the action of 5'-exonucleases
+
+## explanation_b
+Incomplete rather than wrong — the cap does block 5'-exonuclease attack, but it also enables translational recognition, so this option alone leaves out half of the cap's job.
+
+## answer_c
+Both (a) and (b)
+
+## explanation_c
+Correct. The 5' cap does two jobs at once. First, it is recognised by translation-initiation factors that help position the small ribosomal subunit onto the mRNA, so capping is part of what makes a transcript translatable. Second, its unusual 5'-to-5' triphosphate linkage to 7-methylguanosine is not a substrate for ordinary 5'-to-3' exonucleases, so the cap shields the message from degradation the moment it is added — long before the transcript ever reaches the cytoplasm. Losing the cap (decapping) both blocks further translation initiation and marks the transcript for destruction, which is the clearest evidence that the two functions are linked rather than separate coincidences.
+
+## answer_d
+Neither (a) nor (b)
+
+## explanation_d
+Incorrect. This denies both of the cap's well-established functions; a student choosing this has likely confused capping with an unrelated or purely structural modification.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA processing
+
+## main_concept
+CON-FND-5FF8EB2DB4D662
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State the two functions of the 7-methylguanosine cap: ribosomal recognition and protection from 5'-exonuclease degradation.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q9, p.3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Which of the following is NOT a character of RNA polymerase III?
+
+## question
+Which of the following is NOT a character of RNA polymerase III?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It synthesizes transfer RNA
+
+## explanation_a
+This is a true character of RNA polymerase III, so it is not the answer to an "except" question — RNA polymerase III does transcribe tRNA genes.
+
+## answer_b
+It synthesizes small ribosomal RNA
+
+## explanation_b
+This is a true character of RNA polymerase III, so it is not the answer to an "except" question — RNA polymerase III transcribes the 5S ribosomal RNA gene, among others.
+
+## answer_c
+It is a DNA-dependent RNA polymerase
+
+## explanation_c
+This is a true character of RNA polymerase III, so it is not the answer to an "except" question — like RNA polymerases I and II, it reads a DNA template to synthesise RNA.
+
+## answer_d
+It is present in prokaryotes
+
+## explanation_d
+Correct — this is the false statement. The three-way division of labour between RNA polymerase I, II and III is a eukaryotic arrangement; prokaryotes have only a single RNA polymerase that transcribes every class of gene (mRNA, tRNA and rRNA alike). A student who assumes every organism must have all three eukaryotic-style polymerases picks this option.
+
+## answer_e
+It uses nucleotides containing nitrogenous bases (A, G, C, U)
+
+## explanation_e
+This is a true character of RNA polymerase III, so it is not the answer to an "except" question — like any RNA polymerase, it polymerises ribonucleotides carrying the four standard RNA bases.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA polymerases
+
+## main_concept
+CON-FND-412F3EDF118F44
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the RNA polymerase I/II/III division of labour is a eukaryotic feature, since prokaryotes have only one RNA polymerase.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q16, p.4.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+What is the function of RNA polymerase III?
+
+## question
+What is the function of RNA polymerase III?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Synthesis of ribosomal RNA
+
+## explanation_a
+Incomplete/imprecise as a description of RNA polymerase III specifically — RNA polymerase III makes only the small 5S ribosomal RNA, while the large ribosomal RNAs (18S, 28S, 5.8S) are RNA polymerase I's product, so "ribosomal RNA" without qualification is not the exam-tested answer.
+
+## answer_b
+Synthesis of mRNA
+
+## explanation_b
+Incorrect. Messenger RNA is transcribed by RNA polymerase II, not III — this option picks the student who has not kept the three polymerases' products separate.
+
+## answer_c
+Synthesis of tRNA, 5S rRNA, and snRNA
+
+## explanation_c
+Correct. RNA polymerase III is dedicated to the small, abundant RNA species: transfer RNA, the small 5S ribosomal RNA subunit, and the small nuclear RNAs involved in splicing. This is in contrast to RNA polymerase I, which transcribes the large ribosomal RNA genes (18S, 28S and 5.8S rRNA), and RNA polymerase II, which transcribes protein-coding genes into mRNA. Keeping these three products attached to their correct polymerase number is exactly what this style of question tests.
+
+## answer_d
+It has the same function in eukaryotes as the sigma factor in prokaryotes
+
+## explanation_d
+Incorrect. Sigma factor is a bacterial transcription-initiation subunit, not an RNA polymerase itself, and it has no eukaryotic RNA polymerase III counterpart — this option conflates two unrelated concepts from prokaryotic and eukaryotic transcription.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA polymerases
+
+## main_concept
+CON-FND-412F3EDF118F44
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that RNA polymerase III transcribes tRNA, 5S rRNA and the small nuclear RNAs.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q32, p.6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Alpha-amanitin in poisonous mushrooms inhibits which of the following?
+
+## question
+Alpha-amanitin in poisonous mushrooms inhibits which of the following?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+rRNA synthesis
+
+## explanation_a
+Incorrect. rRNA synthesis (by RNA polymerase I) is largely resistant to alpha-amanitin; the toxin's target is RNA polymerase II, not I.
+
+## answer_b
+DNA polymerase II
+
+## explanation_b
+Incorrect. Alpha-amanitin does not target DNA polymerases at all — it is a specific inhibitor of an RNA polymerase, and this option names the wrong enzyme family entirely.
+
+## answer_c
+RNA polymerase II
+
+## explanation_c
+Correct together with option D. Alpha-amanitin, the toxic cyclic peptide from Amanita phalloides ("death cap") mushrooms, binds RNA polymerase II with very high affinity and blocks its translocation along the DNA template, shutting down mRNA synthesis almost completely. RNA polymerase III is inhibited only at much higher toxin concentrations, and RNA polymerase I is essentially unaffected — this graded sensitivity is itself a classic way biochemists distinguish the three polymerases experimentally. Because RNA polymerase II makes mRNA, blocking it halts mammalian mRNA synthesis, which is why severe mushroom poisoning causes fulminant liver failure: hepatocytes cannot replace the proteins they constantly turn over.
+
+## answer_d
+Mammalian mRNA synthesis
+
+## explanation_d
+Correct together with option C. Because mRNA is RNA polymerase II's product, alpha-amanitin's inhibition of RNA polymerase II directly means mammalian mRNA synthesis stops — the two options describe the same event from the enzyme side and the product side, which is exactly why the printed answer is "both".
+
+## answer_e
+Both (c) and (d)
+
+## explanation_e
+Correct. Alpha-amanitin inhibits RNA polymerase II, and since RNA polymerase II is the enzyme that synthesises mRNA, blocking it is inseparable from blocking mammalian mRNA synthesis itself — the two are not independent facts but the same mechanism described twice.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA polymerases
+
+## main_concept
+CON-FND-412F3EDF118F44
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Pharmacology
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Both
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that alpha-amanitin inhibits RNA polymerase II, and connect this to the loss of mammalian mRNA synthesis.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q45, p.8.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: E ("both c & d"). The source repeats this same item as Q46 on the next page with an identical stem and key; not double-authored here. A later item in the same chapter (Q73) recasts this fact as a clinical vignette (mushroom-meal patient with nausea, vomiting and diarrhoea) with the same printed key.
+
+---
+
+# Item
+
+## title
+In humans, synthesis of tRNA is catalysed by:
+
+## question
+In humans, synthesis of tRNA is catalysed by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+RNA polymerase I
+
+## explanation_a
+Incorrect. RNA polymerase I is dedicated to the large ribosomal RNA genes (18S, 28S and 5.8S rRNA), not tRNA.
+
+## answer_b
+RNA polymerase II
+
+## explanation_b
+Incorrect. RNA polymerase II transcribes protein-coding genes into mRNA (and most snRNAs and microRNAs); tRNA is not among its products.
+
+## answer_c
+RNA polymerase III
+
+## explanation_c
+Correct. RNA polymerase III is the enzyme dedicated to transcribing the small, abundant non-coding RNAs: transfer RNA genes, the 5S ribosomal RNA gene, and the small nuclear RNAs. Because every cell needs a large, constant supply of charged tRNA for translation, RNA polymerase III genes are transcribed at a correspondingly high rate. This is one of the clearest "match the polymerase to its product" facts tested across this chapter.
+
+## answer_d
+RNA polymerase IV
+
+## explanation_d
+Incorrect. Human cells have only three nuclear RNA polymerases (I, II and III); a fourth nuclear RNA polymerase is a plant-specific enzyme (involved in RNA-directed DNA methylation) and does not exist in humans.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA polymerases
+
+## main_concept
+CON-FND-412F3EDF118F44
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that RNA polymerase III transcribes tRNA genes in humans.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q64, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Which RNA polymerase is responsible for the production of 5S rRNA?
+
+## question
+Which of the following RNA polymerases is responsible for the production of 5S rRNA?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+RNA polymerase I
+
+## explanation_a
+Incorrect. RNA polymerase I makes the large ribosomal RNAs (18S, 28S and 5.8S rRNA) as a single precursor transcript; the small 5S rRNA is not among them.
+
+## answer_b
+RNA polymerase II
+
+## explanation_b
+Incorrect. RNA polymerase II's product is mRNA (plus most snRNAs and microRNAs), not ribosomal RNA of any size.
+
+## answer_c
+RNA polymerase III
+
+## explanation_c
+Correct. Unusually, the 5S ribosomal RNA gene is transcribed separately from the other ribosomal RNA genes, and by a different enzyme: RNA polymerase III, the same polymerase that makes tRNA and the small nuclear RNAs. This is a deliberately tested exception, since a student who has learned "RNA polymerase I makes ribosomal RNA" as a blanket rule will answer this one wrong.
+
+## answer_d
+RNA polymerase IV
+
+## explanation_d
+Incorrect. There is no fourth nuclear RNA polymerase in human cells; this option is a distractor testing whether the student is guessing rather than recalling the actual three-polymerase system.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA polymerases
+
+## main_concept
+CON-FND-412F3EDF118F44
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that 5S rRNA, unlike the other ribosomal RNAs, is transcribed by RNA polymerase III.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q65, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Which of the following best describes RNA polymerase II?
+
+## question
+Which of the following best describes RNA polymerase II?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+It is present in prokaryotes
+
+## explanation_a
+Incorrect. RNA polymerase II is a eukaryotic enzyme; prokaryotes have a single RNA polymerase that performs all transcription, not a set of three specialised ones.
+
+## answer_b
+It synthesizes RNA from 3' to 5'
+
+## explanation_b
+Incorrect. All RNA polymerases, including RNA polymerase II, synthesise RNA in the 5'-to-3' direction, adding each new nucleotide to the growing chain's 3' end — this option reverses the true direction.
+
+## answer_c
+It polymerizes RNA by reading a coding strand of DNA
+
+## explanation_c
+Incorrect. RNA polymerase reads the template (antisense) strand, not the coding strand — the RNA product matches the coding strand's sequence (with U for T) precisely because the enzyme is copying the other, template strand by complementary base pairing.
+
+## answer_d
+It synthesizes rRNA from 5' to 3'
+
+## explanation_d
+Incorrect on the product: RNA polymerase II's product is mRNA (plus most snRNAs and microRNAs), not rRNA — rRNA is chiefly RNA polymerase I's and III's territory.
+
+## answer_e
+It has no 3' to 5' exonuclease activity
+
+## explanation_e
+Correct. Unlike DNA polymerases, which proofread as they go using a built-in 3'-to-5' exonuclease, RNA polymerases (including RNA polymerase II) have no such proofreading activity. This is one reason the error rate of transcription is considerably higher than that of DNA replication — a mistake made while copying RNA is not immediately corrected, though it is also far less consequential, since a flawed RNA molecule is eventually degraded and replaced rather than being permanently inherited.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA polymerases
+
+## main_concept
+CON-FND-412F3EDF118F44
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.7
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that RNA polymerase II synthesises RNA 5' to 3' by reading the template strand, and that it lacks 3'-to-5' proofreading exonuclease activity.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q94, p.13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: E. This item stacks three separate misconceptions (direction, which strand is read, which product) into one stem — the distractors were kept close to the source's own wording rather than simplified.
+
+---
+
+# Item
+
+## title
+A segment of DNA has the sequence 5'-ACGTTGAC-3'. What is the RNA transcript?
+
+## question
+A segment of DNA has the sequence 5'-ACGTTGAC-3'. The sequence of the RNA transcript from that DNA is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+TGCAACTG
+
+## explanation_a
+Incorrect, and not even a valid RNA sequence — it is written entirely with T rather than U, which cannot be the answer to a question asking for an RNA transcript.
+
+## answer_b
+UGCAACUG
+
+## explanation_b
+Incorrect. This reads as if the template were being copied straight across in the same 5'-to-3' direction it was given, without reversing to account for RNA polymerase reading the template 3' to 5' — it gets the right bases in the wrong order.
+
+## answer_c
+GTCAACGT
+
+## explanation_c
+Incorrect, and not a valid RNA sequence — it uses T rather than U throughout, the same error as option A applied to a different letter string.
+
+## answer_d
+GUCAACGU
+
+## explanation_d
+Correct. Given DNA read as the template strand, 5'-ACGTTGAC-3', RNA polymerase moves along it 3' to 5', so it starts at the 3' end (C) and finishes at the 5' end (A). Reading the template in that direction — C, A, G, T, T, G, C, A — and writing each base's complement (with U replacing T) builds the new RNA strand 5' to 3': G, U, C, A, A, C, G, U. The result, 5'-GUCAACGU-3', is both complementary and antiparallel to the template, which is the defining relationship between any template strand and its RNA product.
+
+## topic
+Molecular biology
+
+## subtopic
+Transcription strands
+
+## main_concept
+CON-FND-D717E6E7EEA466
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+Derive an RNA transcript's sequence from a given template strand by applying antiparallel, complementary base pairing.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q29, p.6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D (GUCAACGU), which only follows if the given strand is read as the template strand — the source stem does not label it explicitly, but the printed key is internally consistent only with that reading, so it is recorded as printed rather than relabelled.
+
+---
+
+# Item
+
+## title
+The coding strand of a gene is 5'-AGCTCACTG-3'. What is the corresponding mRNA sequence?
+
+## question
+In a segment of a transcribed gene, the coding strand of DNA has the following sequence: 5'-AGCTCACTG-3'. What will be the corresponding sequence in the RNA produced from this segment of the gene?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+5'-CAGUGAGCU-3'
+
+## explanation_a
+Incorrect. This sequence is reversed relative to the coding strand rather than read in the same 5'-to-3' order — the mRNA must match the coding strand's own direction, not run backwards against it.
+
+## answer_b
+5'-CAGTGAGCT-3'
+
+## explanation_b
+Incorrect on two counts: it is reversed like option A, and it still contains T rather than U, which cannot appear in an RNA answer.
+
+## answer_c
+5'-UCGAGUGAC-3'
+
+## explanation_c
+Incorrect. This looks like an attempt to write the complement of the coding strand rather than a copy of it — but mRNA matches the coding strand's sequence, it does not pair with it, because RNA polymerase actually transcribes the other (template) strand.
+
+## answer_d
+5'-GTCACTCGA-3'
+
+## explanation_d
+Incorrect, and not a valid RNA answer since it retains T instead of U; it also does not correspond to either a correct copy or complement of the coding strand.
+
+## answer_e
+5'-AGCUCACUG-3'
+
+## explanation_e
+Correct. The coding (sense) strand of a gene has the same base sequence as the mRNA transcribed from it, read in the same 5'-to-3' direction, with exactly one systematic substitution: everywhere the coding strand carries thymine, the mRNA carries uracil. RNA polymerase itself does not touch the coding strand directly — it reads the other strand, the template strand, by complementary base pairing — but the practical shortcut for this kind of question is simply to copy the coding strand and swap every T for a U. Applying that to 5'-AGCTCACTG-3' gives 5'-AGCUCACUG-3'.
+
+## topic
+Molecular biology
+
+## subtopic
+Transcription strands
+
+## main_concept
+CON-FND-D717E6E7EEA466
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that mRNA matches the coding strand base for base except U for T, and derive an mRNA sequence from a given coding strand.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q69, p.10.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: E.
+
+---
+
+# Item
+
+## title
+A consensus sequence on DNA called the TATA box is the site of attachment of:
+
+## question
+A consensus sequence on DNA, called the TATA box, is the site of attachment of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+RNA-dependent DNA polymerase
+
+## explanation_a
+Incorrect. RNA-dependent DNA polymerase is reverse transcriptase, an enzyme with no role in normal cellular transcription or the TATA box.
+
+## answer_b
+DNA-dependent RNA polymerase
+
+## explanation_b
+Correct. The TATA box, of consensus sequence TATAAA and typically 20 to 30 base pairs upstream of the transcription start site, is the eukaryotic promoter element that fixes where transcription begins. In practice, the transcription factor TFIID binds the TATA box first, and RNA polymerase II — a DNA-dependent RNA polymerase — then assembles onto that complex along with the other general transcription factors to form the pre-initiation complex. At this teaching level the TATA box is held simply as "where the DNA-dependent RNA polymerase machinery attaches", which is the fact this item tests.
+
+## answer_c
+DNA-dependent DNA polymerase
+
+## explanation_c
+Incorrect. DNA-dependent DNA polymerase is a replication enzyme; it has no promoter-recognition role in transcription and does not bind the TATA box.
+
+## answer_d
+DNA topoisomerase
+
+## explanation_d
+Incorrect. Topoisomerase relieves supercoiling generated by unwinding DNA; it is not a sequence-specific promoter-binding protein and plays no role at the TATA box specifically.
+
+## topic
+Molecular biology
+
+## subtopic
+Promoter elements
+
+## main_concept
+CON-FND-CC55F157021237
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the TATA box is the DNA sequence element where the RNA-polymerase-containing transcription machinery assembles.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q75, p.11.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: B. Do not confuse with the Pribnow box (the prokaryotic -10 promoter element, consensus TATAAT), a separate item later in the same chapter.
+
+---
+
+# Item
+
+## title
+Alternative splicing is:
+
+## question
+Alternative splicing is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+An economic way to produce large amounts of proteins from one gene
+
+## explanation_a
+Correct. Alternative splicing lets the primary transcript of a single gene be spliced in more than one way, retaining a different combination of exons each time, so one gene can give rise to several distinct mature mRNAs and therefore several distinct proteins. This is a major reason the number of distinct proteins a genome can produce far exceeds its number of genes, and it is a normal, regulated process rather than a splicing error — the antibody genes are a classic worked example. Read this way, "economic" captures the point precisely: the cell gets more protein diversity without needing more genes.
+
+## answer_b
+It can produce many proteins from the same mRNA at a time
+
+## explanation_b
+Incorrect. This misplaces the diversity at the wrong step — alternative splicing produces several different *mRNAs* from one *pre-mRNA*, each of which is then translated into one protein; a single finished mRNA does not itself yield several different proteins.
+
+## answer_c
+It means that eukaryotic RNA is polycistronic
+
+## explanation_c
+Incorrect. Polycistronic mRNA (one mRNA encoding several separate proteins, each with its own start and stop codon) is a prokaryotic, operon-based arrangement — eukaryotic mRNA is monocistronic, encoding one protein per transcript, and alternative splicing changes which exons are kept, not how many separate proteins one mRNA encodes at once.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect, since option A correctly describes alternative splicing.
+
+## answer_e
+All of the above
+
+## explanation_e
+Incorrect, since options B and C misdescribe the mechanism; only option A is correct, so "all of the above" cannot be the answer.
+
+## topic
+Molecular biology
+
+## subtopic
+RNA processing
+
+## main_concept
+CON-FND-CC55F157021237
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that alternative splicing lets one gene's primary transcript yield several different mature mRNAs and proteins.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q39, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: A.
+
+---
+
+# Item
+
+## title
+Binding of RNA polymerase II to the promoter in eukaryotes is enhanced by:
+
+## question
+Binding of RNA polymerase II to the promoter in eukaryotes is enhanced by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Omega factor
+
+## explanation_a
+Incorrect. There is no "omega factor" in the transcription machinery; this is an invented-sounding distractor with no counterpart in either prokaryotic or eukaryotic transcription.
+
+## answer_b
+Sigma factor
+
+## explanation_b
+Incorrect. Sigma factor is the bacterial subunit that lets prokaryotic RNA polymerase recognise its promoter — eukaryotic RNA polymerase II does not use a sigma factor; it relies on a separate set of general transcription factors instead.
+
+## answer_c
+Alpha subunit
+
+## explanation_c
+Incorrect. An alpha subunit is part of the bacterial RNA polymerase core enzyme, not a factor that promotes eukaryotic RNA polymerase II binding to its promoter.
+
+## answer_d
+Beta subunit
+
+## explanation_d
+Incorrect. Like the alpha subunit, the beta subunit belongs to bacterial RNA polymerase's core structure, not to the eukaryotic RNA polymerase II initiation pathway.
+
+## answer_e
+Basal transcription factors
+
+## explanation_e
+Correct. Eukaryotic RNA polymerase II cannot bind its promoter unassisted. A set of general (basal) transcription factors — including TFIID, which binds the TATA box first, and TFIIH, whose helicase activity separates the DNA strands — assemble at the promoter together with RNA polymerase II to form the pre-initiation complex. Only once this whole complex has formed does transcription actually begin, which is why "basal transcription factors" rather than any single bacterial-style subunit is the correct answer for a eukaryotic enzyme.
+
+## topic
+Molecular biology
+
+## subtopic
+Promoter elements
+
+## main_concept
+CON-FND-CC55F157021237
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that basal (general) transcription factors, not a bacterial-style subunit, enable RNA polymerase II to bind the eukaryotic promoter.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q93, p.13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: E.
+
+---
+
+# Item
+
+## title
+Which of the following best describes the promoter sequence?
+
+## question
+Which of the following best describes the promoter sequence?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+It is present upstream to the 5' end of the coding strand
+
+## explanation_a
+Correct. The promoter sits upstream of the transcription start site, and by convention its position is described relative to the coding (sense) strand — "upstream" of the coding strand's 5' end is exactly where the TATA, CAAT and GC boxes are found (roughly 20 to 200 base pairs before the +1 start site). Numbering runs negative going upstream from +1 and positive going downstream, which is why "upstream of the 5' end" is the standard way this position is described.
+
+## answer_b
+It is present downstream to the 5' end of the coding strand
+
+## explanation_b
+Incorrect. This reverses the direction — the promoter lies upstream, before the gene's coding sequence begins, not downstream of it.
+
+## answer_c
+It is present downstream to the 3' end of the coding strand
+
+## explanation_c
+Incorrect. The 3' end of the coding strand is at or beyond the end of the gene, on the terminator side — the promoter is at the opposite end, upstream of the start, not downstream of the finish.
+
+## answer_d
+It is present downstream to the 5' end of the template strand
+
+## explanation_d
+Incorrect. This both names the wrong strand for describing promoter position (position is conventionally given relative to the coding strand) and the wrong direction (downstream instead of upstream).
+
+## answer_e
+It is present upstream to the 5' end of the template strand
+
+## explanation_e
+Incorrect. Although "upstream" is the right direction, promoter position is conventionally described relative to the coding strand, not the template strand — mixing the two strands' 5' ends is the specific error this option is built to catch.
+
+## topic
+Molecular biology
+
+## subtopic
+Promoter elements
+
+## main_concept
+CON-FND-CC55F157021237
+
+## concept_ids
+CON-FND-D717E6E7EEA466
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.05
+
+## academic_relevance
+0.9
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that the promoter is positioned upstream of the coding strand's 5' end, by the coding-strand convention.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q96, p.13.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: A. Tags CON-FND-D717E6E7EEA466 (coding vs template strand) as a related concept_id, since the item's distractors specifically probe that distinction as well as promoter position.
+
+---
+
+# Item
+
+## title
+All of the following about tRNA are true EXCEPT:
+
+## question
+All of the following about tRNA are true EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It is the amino acid carrier during protein synthesis
+
+## explanation_a
+This is a true statement about tRNA, so it is not the answer to an "except" question — carrying an amino acid to the ribosome is tRNA's defining job.
+
+## answer_b
+It contains four interacting base-paired regions
+
+## explanation_b
+This is a true statement about tRNA, so it is not the answer to an "except" question — the cloverleaf's four arms (acceptor, D-arm, anticodon arm and T-psi-C arm) each have a base-paired stem.
+
+## answer_c
+It contains four single-stranded open loops
+
+## explanation_c
+This is a true statement about tRNA, so it is not the answer to an "except" question — each of the cloverleaf's stems ends in an unpaired loop, giving the molecule its characteristic open-loop regions.
+
+## answer_d
+The amino acid attaches to its 5'-OH end
+
+## explanation_d
+Correct — this is the false statement. The amino acid attaches to the 3' end of tRNA, specifically the 3'-hydroxyl of the terminal adenosine of the invariant CCA sequence, not the 5'-OH end. A student who has the right general idea (tRNA carries an amino acid at a free hydroxyl end) but the wrong end is exactly who this distractor is built to catch.
+
+## topic
+Molecular biology
+
+## subtopic
+tRNA structure
+
+## main_concept
+CON-FND-CA2D65E688434A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that a tRNA's amino acid attaches at its 3' end (the CCA terminus), not its 5' end.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q8, p.3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: D.
+
+---
+
+# Item
+
+## title
+Which of the following is true about amino acid attachment to tRNA?
+
+## question
+Which of the following is true?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Amino acids bind by their COOH group to the 3'-OH end by an ester bond
+
+## explanation_a
+Correct. Aminoacyl-tRNA synthetase charges a tRNA by forming an ester bond between the amino acid's carboxyl (COOH) group and the 3'-hydroxyl of the terminal adenosine of the tRNA's CCA acceptor end. This "charged" or aminoacylated tRNA is the substrate the ribosome actually uses during translation — the energy stored in that ester bond is what later drives peptide-bond formation without any additional energy input at that step.
+
+## answer_b
+Amino acids bind by their NH2 group to the 3'-OH end by an ester bond
+
+## explanation_b
+Incorrect. This names the wrong functional group — it is the amino acid's carboxyl (COOH) group, not its amino (NH2) group, that is esterified to the tRNA's 3'-OH; the amino group remains free so it can later form the peptide bond with the next amino acid in the chain.
+
+## answer_c
+Amino acids bind by their COOH group to the 3'-OH end by a peptide bond
+
+## explanation_c
+Incorrect. This names the right functional group but the wrong bond type — the amino acid-to-tRNA linkage is an ester bond (to a hydroxyl group), not a peptide bond (which forms only between two amino acids' amino and carboxyl groups during elongation).
+
+## answer_d
+Amino acids bind by their NH2 group to the 3'-OH end by a noncovalent bond
+
+## explanation_d
+Incorrect on every count — the wrong functional group (NH2 instead of COOH), the wrong bond type (the amino-acid-tRNA link is a strong covalent ester bond, not noncovalent), so this option lets the question also catch a student unsure that charging a tRNA is a genuine covalent chemical reaction.
+
+## topic
+Molecular biology
+
+## subtopic
+tRNA structure
+
+## main_concept
+CON-FND-CA2D65E688434A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.6
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that aminoacyl-tRNA synthetase forms an ester bond between an amino acid's carboxyl group and the tRNA's 3'-OH.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q11, p.3.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: A.
+
+---
+
+# Item
+
+## title
+Transfer RNA transfers:
+
+## question
+Transfer RNA transfers:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Information from DNA to ribosomes
+
+## explanation_a
+Incorrect. Carrying genetic information from DNA (via transcription) to the ribosome is mRNA's job, not tRNA's.
+
+## answer_b
+Information from mRNA to cytosol
+
+## explanation_b
+Incorrect. mRNA itself, not tRNA, is what carries coding information into the cytosol; tRNA's role is downstream of that, at the ribosome.
+
+## answer_c
+Amino acids from cytosol to ribosomes
+
+## explanation_c
+Correct. Once an amino acid is esterified to its specific tRNA in the cytosol, that charged tRNA delivers the amino acid to the ribosome, where its anticodon pairs with the matching mRNA codon and the amino acid is added to the growing polypeptide chain. This physical delivery role — amino acid, cytosol to ribosome — is what distinguishes tRNA's function from mRNA's (carrying the code) and rRNA's (forming the ribosome's catalytic machinery).
+
+## answer_d
+Proteins from ribosomes to cytosol
+
+## explanation_d
+Incorrect. Finished proteins are released from the ribosome directly, not escorted out by tRNA — tRNA's transfer role is inbound (amino acids to the ribosome), not outbound.
+
+## topic
+Molecular biology
+
+## subtopic
+tRNA structure
+
+## main_concept
+CON-FND-CA2D65E688434A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that tRNA's function is to carry amino acids from the cytosol to the ribosome.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q18, p.5.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C.
+
+---
+
+# Item
+
+## title
+Which of the following is true about tRNA?
+
+## question
+Which of the following is true about tRNA?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It doesn't contain thymine
+
+## explanation_a
+Incorrect. tRNA is one of the few RNA species that does contain a thymine-derived base — the T-psi-C arm of the cloverleaf carries ribothymidine (thymine attached to ribose) alongside pseudouridine, a modification most other RNAs lack.
+
+## answer_b
+At least 20 types exist in a cell
+
+## explanation_b
+Correct. Because there are 20 standard amino acids and each needs at least one tRNA species matched to it by a specific aminoacyl-tRNA synthetase, a cell must have a minimum of about 20 distinct tRNA types — one per amino acid. In practice the true count is higher, since several amino acids are served by more than one tRNA species (isoacceptor tRNAs) that read different synonymous codons for the same amino acid.
+
+## answer_c
+It contains deoxyribose
+
+## explanation_c
+Incorrect. Like every RNA species, tRNA is built on a ribose (not deoxyribose) backbone — deoxyribose is exclusive to DNA.
+
+## answer_d
+It binds to its amino acid at the 5' end by a covalent bond
+
+## explanation_d
+Incorrect on the position — the amino acid attaches at the 3' end (the CCA terminus), not the 5' end — though the bond itself is indeed covalent (an ester bond), which is what makes this a plausible-sounding distractor.
+
+## answer_e
+It contains a codon loop
+
+## explanation_e
+Incorrect. The relevant loop on tRNA carries the anticodon, not a codon — the codon is the complementary triplet on mRNA that the tRNA's anticodon loop pairs with; reversing "codon" and "anticodon" between the two molecules is a common confusion.
+
+## topic
+Molecular biology
+
+## subtopic
+tRNA structure
+
+## main_concept
+CON-FND-CA2D65E688434A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that a cell needs at least 20 distinct tRNA types, one per standard amino acid.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q19, p.5.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: B.
+
+---
+
+# Item
+
+## title
+Which enzyme is common between transcription and replication?
+
+## question
+This enzyme is common between transcription and replication?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Dr. Omar
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ligase
+
+## explanation_a
+Incorrect. DNA ligase seals nicks between finished Okazaki fragments during replication; transcription produces a single continuous RNA strand with no fragments to join, so ligase has no role there.
+
+## answer_b
+DNA polymerase
+
+## explanation_b
+Incorrect. DNA polymerase is specific to replication (and DNA repair); RNA synthesis during transcription is carried out by RNA polymerase, a distinct enzyme family.
+
+## answer_c
+Topoisomerase
+
+## explanation_c
+Correct. Both replication and transcription require the DNA duplex to be unwound locally so a polymerase can access the template, and unwinding always generates torsional strain (supercoiling) in the DNA ahead of the open region. Topoisomerase relieves this strain in both processes by transiently cutting one or both strands, letting the DNA rotate to release the twist, and resealing the break — without it, either process would stall as the DNA over-winds ahead of the moving machinery. This shared requirement is exactly why topoisomerase, unlike the polymerases themselves, is common to both.
+
+## answer_d
+RNA polymerase III
+
+## explanation_d
+Incorrect. RNA polymerase III is one specific transcription enzyme (making tRNA, 5S rRNA and snRNA); it plays no role in DNA replication, so it cannot be the enzyme common to both processes.
+
+## answer_e
+RNA polymerase II
+
+## explanation_e
+Incorrect. RNA polymerase II transcribes protein-coding genes into mRNA but has no role in DNA replication, so — like RNA polymerase III — it cannot be the answer to a question asking what is shared between the two processes.
+
+## topic
+Molecular biology
+
+## subtopic
+Transcription and replication enzymes
+
+## main_concept
+CON-FND-FFEE58EC9C0784
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.1
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-MBG
+
+## question_only_for
+
+## library_ids
+ART-FND-DNA-REPLICATION-REPAIR-PCR
+
+## resource_ids
+src_d83a3017c760e2770c22
+
+## learning_objective
+State that topoisomerase, unlike the polymerases, is required by both replication and transcription to relieve unwinding-induced supercoiling.
+
+## source_citation
+Ain Shams MBG, EOM MCQs - Bg genetics final Mcqs dr.Omar, RNA Structure & Transcription Q36, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Printed key: C. Reuses this lane's own earlier DNA-replication topoisomerase concept (CON-FND-FFEE58EC9C0784, already tagged +asu/+ASU_Y1/+ASU-MBG in batch 1) rather than minting a new one — its own pitfalls field already distinguishes topoisomerase from ligase, which is the exact distractor logic this item needs.

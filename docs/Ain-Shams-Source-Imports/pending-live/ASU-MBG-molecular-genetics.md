@@ -532,3 +532,148 @@ ASU_Y1=0.4
 university: asu — MCQs Bg MCQs revision Dr.Omar, Chromosomal Aberrations Q10 ("Cri du chat syndrome is the result of a(n)... deletion"); live concept previously carried no module tag.
 
 ---
+
+# Item
+
+## id
+CON-FND-5FF8EB2DB4D662
+
+## label
+mRNA processing adds a 7-methylguanosine 5' cap and a 3' poly-A tail and removes introns by splicing — nuclear export is a separate, later step, not part of processing itself
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Transcription
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.2 Q3 (5' caps unique to eukaryotic mRNA), Q7 (poly-A tail on mRNA), Q9 (7-methylguanosine cap's dual function: ribosome recognition and 5'-exonuclease protection).
+
+---
+
+# Item
+
+## id
+CON-FND-412F3EDF118F44
+
+## label
+Each eukaryotic RNA polymerase transcribes its own class of genes: RNA polymerase I makes the large ribosomal RNAs, II makes mRNA, and III makes tRNA and the small 5S rRNA and snRNA
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Transcription
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.4 Q16 (RNA polymerase III is not present in prokaryotes — eukaryote-only division of labour), p.5 Q32 (RNA pol III synthesises tRNA, 5S rRNA and snRNA), p.6 Q45 (alpha-amanitin inhibits RNA polymerase II), p.9 Q64/Q65 (RNA pol III makes tRNA and 5S rRNA), p.9 Q94 (RNA pol II has no 3'-to-5' exonuclease activity).
+
+---
+
+# Item
+
+## id
+CON-FND-D717E6E7EEA466
+
+## label
+The coding strand of DNA has the same sequence as its mRNA except that mRNA uses uracil where the coding strand uses thymine
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Transcription
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.4 Q29 (template-strand-to-RNA transcription calculation) and p.10 Q69 (coding-strand-to-mRNA identity calculation, U for T).
+
+---
+
+# Item
+
+## id
+CON-FND-CA2D65E688434A
+
+## label
+Every tRNA's acceptor arm ends in the same 3'-CCA sequence, which is where the amino acid attaches
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology > Translation
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — MCQs Bg MCQs revision Dr.Omar p.3 Q8 (tRNA's amino acid attaches at the 3' end, not the 5'-OH), Q11 (ester bond between the amino acid's carboxyl group and the 3'-OH), Q18 (tRNA transfers amino acids from cytosol to ribosomes), Q19 (at least 20 tRNA types in a cell).
+
+---
+
+# Item
+
+## id
+CON-FND-CC55F157021237
+
+## label
+The two promoter boxes divide the work — TATA says where transcription starts and CAAT and GC say how often — while TFIIH opens the strands, polyadenylation sets how long the message lives, and alternative splicing decides how many proteins the gene yields
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — EOM MCQs Bg genetics final Mcqs dr.Omar p.6 Q39 (alternative splicing is an economic way to produce many proteins from one gene), p.8 Q75 (TATA box consensus sequence), p.9 Q93 (RNA polymerase II binding to the promoter is enhanced by basal transcription factors), p.9 Q96 (the promoter sits upstream of the coding strand's 5' end).
+
+---

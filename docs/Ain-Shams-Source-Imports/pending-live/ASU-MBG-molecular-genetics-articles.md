@@ -237,6 +237,91 @@ dev
 # Item
 
 ## id
+ART-FND-TRANSCRIPTION-CODE-TRANSLATION
+
+## title
+Transcription, the genetic code and translation
+
+## topic
+Molecular biology
+
+## summary
+RNA differs from DNA by carrying uracil instead of thymine, being single-stranded, and
+never containing xanthine as a base. A eukaryotic primary transcript becomes mature mRNA
+through three processing steps — a 7-methylguanosine 5' cap, a 3' poly-A tail, and splicing
+out introns — with nuclear export happening only afterwards, as a separate step. The coding
+strand of a gene matches its mRNA base for base except that mRNA substitutes uracil for
+thymine, and the genetic code that mRNA is read by is degenerate, unambiguous,
+non-overlapping and universal, built from three-nucleotide codons. Translation starts at
+the AUG codon, reads each codon against the matching tRNA anticodon (every tRNA terminating
+in the same 3'-CCA acceptor sequence), and even decides the fate of an amino acid after
+translation is finished, as cystine's formation from two cysteine residues shows.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+AU-MED-102 > Biochemistry > Molecular Biology
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+university_notes: Alexandria (AU-MED-102) owns this article. Ain Shams (ASU-MBG) sits its own RNA-structure/transcription/translation papers on the same content — no wording difference identified yet.
+
+## subject
+fnd
+
+---
+
+# Item
+
+## id
+ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
+
+## title
+RNA synthesis (transcription)
+
+## topic
+Biochemistry
+
+## summary
+The RNA a ribosome reads is not the RNA that comes off the template. Four modifications happen in the nucleus first: a cap on the 5' end, a poly(A) tail on the 3' end, splicing to cut out the introns, and editing to change a codon outright. Splicing is done by the spliceosome, built of small nuclear ribonucleoproteins, and splicing the same transcript in different ways is how one gene makes several proteins.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+102 INT > Biochemistry > RNA Synthesis (Transcription)
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > RNA structure and transcription
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) sits its own RNA-synthesis/transcription papers (promoter elements, RNA polymerases, alternative splicing) on the same content — no wording difference identified yet.
+
+## subject
+fnd
+
+---
+
+# Item
+
+## id
 ART-DEV-TOP-6BC67DC7C1
 
 ## title
