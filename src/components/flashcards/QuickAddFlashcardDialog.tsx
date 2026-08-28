@@ -1,37 +1,28 @@
 import { useMemo, useState } from 'react'
-import { Sparkles, CheckCircle2, ArrowRight } from 'lucide-react'
+import { Sparkles, CheckCircle2 } from 'lucide-react'
 import { Dialog } from '@/components/ui/Dialog'
 import { PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { Field, TextInput, Select } from '@/components/ui/Field'
 import { useT } from '@/lib/i18n'
+import { usePersistentState } from '@/lib/usePersistentState'
 import { ensureV2 } from '@/data/flashcards/migration'
-import { quickAddFlashcard, basicNoteFieldsFromText } from '@/lib/flashcards/quickAdd'
+import { EMPTY_COLLECTION, type FlashcardCollection } from '@/data/flashcards/model'
+import { appendBasicNote, basicNoteFieldsFromText, quickAddIds, FLASHCARDS_COLLECTION_KEY } from '@/lib/flashcards/quickAdd'
 
 const NEW_DECK = '__new_deck__'
-
-/** Read the student's own (non-catalogue) deck ids and names from storage. */
-function readOwnDecks(): { id: string; name: string }[] {
-  try {
-    const raw = localStorage.getItem('synapse.flashcards.collection.v2')
-    const collection = ensureV2(raw ? JSON.parse(raw) : null, new Date())
-    return Object.values(collection.decks)
-      .filter((deck) => !deck.sourceId)
-      .map((deck) => ({ id: deck.id, name: deck.name }))
-      .sort((a, b) => a.name.localeCompare(b.name))
-  } catch {
-    return []
-  }
-}
+const DEFAULT_DECK_NAME = 'Quick capture'
 
 /**
  * Capture a flashcard from anywhere — a selected phrase, a question, a passage.
  *
- * Deliberately standalone: it writes straight to the flashcards collection in
- * storage through `quickAddFlashcard`, so it works on any screen without the
- * heavy per-page `useFlashcards` hook. Front/back are captured as plain text and
- * escaped on save; the deck is an existing one or a new named deck.
+ * It holds the collection through `usePersistentState`, the same persistence
+ * boundary `useFlashcards` uses, so a saved card reaches the backend in live
+ * mode and a mounted Flashcards page stays in sync in demo mode — a raw
+ * `localStorage` write would be dropped in live mode and desync a mounted reader
+ * in demo mode. Front/back are captured as plain text and escaped on save; the
+ * deck is an existing one or a new named deck.
  */
 export function QuickAddFlashcardDialog({
   initialFront = '',
@@ -43,35 +34,55 @@ export function QuickAddFlashcardDialog({
   onClose: () => void
 }) {
   const t = useT()
-  const decks = useMemo(readOwnDecks, [])
+  const [collection, setCollection, status] = usePersistentState<FlashcardCollection>(FLASHCARDS_COLLECTION_KEY, EMPTY_COLLECTION)
+
+  const decks = useMemo(
+    () => Object.values(collection.decks)
+      .filter((deck) => !deck.sourceId)
+      .map((deck) => ({ id: deck.id, name: deck.name }))
+      .sort((a, b) => a.name.localeCompare(b.name)),
+    [collection.decks],
+  )
+
   const [front, setFront] = useState(initialFront.trim())
   const [back, setBack] = useState(initialBack.trim())
-  const [deckChoice, setDeckChoice] = useState(decks[0]?.id ?? NEW_DECK)
+  // null until the student picks: the effective choice tracks the deck list,
+  // which arrives asynchronously in live mode.
+  const [deckChoice, setDeckChoice] = useState<string | null>(null)
   const [newDeckName, setNewDeckName] = useState('')
   const [saved, setSaved] = useState<{ deckName: string } | null>(null)
 
-  const creatingDeck = deckChoice === NEW_DECK
-  // A new deck falls back to "Quick capture" when unnamed, so only a front is required.
-  const canSave = front.trim() !== ''
+  const effectiveDeck = deckChoice ?? decks[0]?.id ?? NEW_DECK
+  const creatingDeck = effectiveDeck === NEW_DECK
+  // In live mode the write is dropped until the document has hydrated, so hold
+  // the save until then rather than silently losing the card.
+  const canSave = front.trim() !== '' && status.hydrated
 
-  function reset(keepDeck: boolean) {
+  function save() {
+    if (!canSave) return
+    const now = new Date()
+    const { noteId, newDeckId } = quickAddIds()
+    const fields = basicNoteFieldsFromText(front, back)
+    const deckName = creatingDeck ? (newDeckName.trim() || DEFAULT_DECK_NAME) : (decks.find((d) => d.id === effectiveDeck)?.name ?? DEFAULT_DECK_NAME)
+    const committedDeckId = creatingDeck ? newDeckId : effectiveDeck
+
+    setCollection((prev) => appendBasicNote(
+      ensureV2(prev, now),
+      { front: fields.front, back: fields.back, deckId: creatingDeck ? undefined : effectiveDeck, deckName: creatingDeck ? newDeckName : undefined },
+      { now, noteId, newDeckId },
+    ).collection)
+
+    // Point the next card at the deck just used, so "Create another" appends to
+    // it instead of minting a second same-named deck.
+    setDeckChoice(committedDeckId)
+    setNewDeckName('')
+    setSaved({ deckName })
+  }
+
+  function createAnother() {
     setFront('')
     setBack('')
     setSaved(null)
-    if (!keepDeck) setDeckChoice(decks[0]?.id ?? NEW_DECK)
-  }
-
-  function save() {
-    if (front.trim() === '') return
-    const fields = basicNoteFieldsFromText(front, back)
-    const result = quickAddFlashcard({
-      front: fields.front,
-      back: fields.back,
-      deckId: creatingDeck ? undefined : deckChoice,
-      deckName: creatingDeck ? newDeckName : undefined,
-    })
-    const chosen = decks.find((d) => d.id === result.deckId)
-    setSaved({ deckName: chosen?.name ?? (newDeckName.trim() || 'Quick capture') })
   }
 
   return (
@@ -86,7 +97,7 @@ export function QuickAddFlashcardDialog({
             </p>
           </div>
           <div className="flex justify-end gap-2 border-t border-line pt-4">
-            <Button variant="secondary" onClick={() => reset(true)}>{t('Create another')}</Button>
+            <Button variant="secondary" onClick={createAnother}>{t('Create another')}</Button>
             <Button variant="primary" onClick={onClose}>{t('Done')}</Button>
           </div>
         </div>
@@ -114,7 +125,7 @@ export function QuickAddFlashcardDialog({
             />
           </Field>
           <Field label={t('Deck')} htmlFor="qa-deck">
-            <Select id="qa-deck" value={deckChoice} onChange={(e) => setDeckChoice(e.target.value)}>
+            <Select id="qa-deck" value={effectiveDeck} onChange={(e) => setDeckChoice(e.target.value)}>
               {decks.map((deck) => <option key={deck.id} value={deck.id}>{deck.name}</option>)}
               <option value={NEW_DECK}>{t('＋ New deck')}</option>
             </Select>
@@ -124,11 +135,10 @@ export function QuickAddFlashcardDialog({
               <TextInput id="qa-deckname" value={newDeckName} onChange={(e) => setNewDeckName(e.target.value)} placeholder={t('e.g. Cardiology')} />
             </Field>
           )}
-          <div className="flex items-center gap-2 border-t border-line pt-4">
+          <div className="flex items-center gap-3 border-t border-line pt-4">
             <Button variant="primary" iconLeft={Sparkles} onClick={save} disabled={!canSave}>{t('Create flashcard')}</Button>
-            <a href="/app/flashcards" className="ms-auto inline-flex items-center gap-1 text-[12.5px] font-medium text-ink-2 hover:text-ink">
-              {t('Open Flashcards')} <Icon icon={ArrowRight} size={13} />
-            </a>
+            {!status.hydrated && <span className="text-[12px] text-ink-3" role="status">{t('Loading your decks…')}</span>}
+            <Button variant="ghost" className="ms-auto" onClick={onClose}>{t('Cancel')}</Button>
           </div>
         </div>
       )}

@@ -4,21 +4,22 @@
  * card to the student's collection without standing up the full per-page
  * `useFlashcards` hook.
  *
- * Split the way `migration.ts` and `richText.ts` are split: a pure core that
- * takes a collection and returns a new one, with no clock, no storage and no
- * id generator of its own, so it is trivial to test; and a thin wrapper that
- * supplies those effects and talks to `localStorage`. The core never
- * sanitizes — callers are expected to hand it already-safe rich-text HTML
- * (see `basicNoteFieldsFromText` below for the plain-text case) — because
- * sanitizing here would mean importing DOM-adjacent policy into a module whose
- * only job is "append a note to a collection."
+ * A pure core that takes a collection and returns a new one, with no clock, no
+ * storage and no id generator of its own, so it is trivial to test. It never
+ * sanitizes — callers hand it already-safe rich-text HTML (see
+ * `basicNoteFieldsFromText` below for the plain-text case). The actual read and
+ * write go through the app's real persistence layer: the quick-add dialog holds
+ * the collection with `usePersistentState(FLASHCARDS_COLLECTION_KEY, …)`, which
+ * works in both demo (localStorage) and live (backend) mode and keeps a mounted
+ * `useFlashcards` in sync — a plain `localStorage` write would be dropped in
+ * live mode and desync a mounted reader in demo mode.
  */
 
-import { ensureV2 } from '../../data/flashcards/migration.ts'
 import type { FlashcardCollection } from '../../data/flashcards/model.ts'
 import { escapeHtml } from '../../data/flashcards/richText.ts'
 
-const STORAGE_KEY = 'synapse.flashcards.collection.v2'
+/** The single storage key the flashcards collection lives under (see `useFlashcards`). */
+export const FLASHCARDS_COLLECTION_KEY = 'synapse.flashcards.collection.v2'
 
 export interface QuickAddInput {
   front: string
@@ -99,37 +100,10 @@ export function basicNoteFieldsFromText(front: string, back?: string): { front: 
   }
 }
 
-/**
- * The localStorage adapter: read whatever is under the flashcards key
- * (tolerating an absent, corrupt or v1 value via `ensureV2`), append a Basic
- * note with fresh ids and the current time, and write the result back.
- *
- * Kept deliberately thin — all branching lives in `appendBasicNote` so tests
- * cover it without touching storage, `Date.now()` or `Math.random()`.
- */
-export function quickAddFlashcard(input: QuickAddInput): QuickAddResult {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    let parsed: unknown = null
-    if (raw !== null) {
-      try {
-        parsed = JSON.parse(raw)
-      } catch {
-        parsed = null
-      }
-    }
-    const now = new Date()
-    const collection = ensureV2(parsed, now)
-
-    const noteId = `note-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
-    const newDeckId = `deck-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`
-
-    const result = appendBasicNote(collection, input, { now, noteId, newDeckId })
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(result.collection))
-    return result
-  } catch (error) {
-    throw new Error(
-      `quickAddFlashcard: failed to save flashcard (${error instanceof Error ? error.message : String(error)})`,
-    )
+/** Fresh, collision-resistant ids for a quick-added note and any new deck. */
+export function quickAddIds(): { noteId: string; newDeckId: string } {
+  return {
+    noteId: `note-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+    newDeckId: `deck-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
   }
 }

@@ -272,7 +272,10 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
   const ungroupSelected = useCallback(() => {
     snapshot()
     const gids = new Set(occluders.filter((o) => selection.has(o.id) && o.groupId).map((o) => o.groupId!))
-    setOccluders((cur) => cur.map((o) => (selection.has(o.id) ? { ...o, groupId: undefined } : o)))
+    // Clear the groupId on EVERY member of an affected group, not just the
+    // selected ones — otherwise an unselected member is left pointing at a group
+    // that no longer exists, and its card silently stops being generated.
+    setOccluders((cur) => cur.map((o) => (o.groupId && gids.has(o.groupId) ? { ...o, groupId: undefined } : o)))
     setGroups((cur) => cur.filter((g) => !gids.has(g.id)))
   }, [occluders, selection, snapshot])
 
