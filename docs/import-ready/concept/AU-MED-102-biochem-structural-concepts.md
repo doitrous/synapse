@@ -11717,16 +11717,16 @@ relationships: Walked the concepts minted alongside this one in the same batch u
 CON-FND-93B011BEEE72F4
 
 ## label
-Insulin, immunoglobulin and glucagon all contain disulfide bonds; albumin, per this bank, is treated as the exception
+Insulin, immunoglobulin and albumin all contain disulfide bonds; glucagon, a short cysteine-free peptide, is the exception
 
 ## canonical_key
 protein.structure.disulfide-bonds-membership
 
 ## definition
-Disulfide bonds (cysteine-cysteine, oxidised) stabilise the structure of many secreted proteins, including insulin (interchain and intrachain), immunoglobulins (both interchain and intrachain) and glucagon. The department's own bank marks albumin as not carrying the disulfide bonds being tested here, despite albumin containing multiple intrachain disulfide bonds in reality — recorded as printed, not silently corrected.
+Disulfide bonds (cysteine-cysteine, oxidised) stabilise the structure of many proteins, including insulin (interchain and intrachain), immunoglobulins (both interchain and intrachain) and albumin (multiple intrachain bonds). Glucagon, a short 29-residue peptide hormone, contains no cysteine residues at all and therefore has no disulfide bonds — the genuine exception among the four, consistent with both the department bank's own printed key and standard biochemistry.
 
 ## explicit_objective
-Identify which named protein the department's bank excludes from a list of disulfide-bond-containing proteins.
+Identify glucagon as the one listed protein with no disulfide bonds, because it is a short peptide with no cysteine residues.
 
 ## concept_type
 classification
@@ -11771,7 +11771,7 @@ Disulfide bonds|Insulin structure
 
 
 ## pitfalls
-Assuming every plasma protein with cysteine residues is disulfide-bonded in the same way the question intends; the exact scope the bank tests (which named example is 'the exception') should be checked against the printed key rather than assumed from general knowledge.
+Assuming albumin is the exception because it is a single-chain protein — a single chain can still carry numerous intrachain disulfide bonds, as albumin's does. The genuine exception is decided by cysteine content, not by chain count, and glucagon is the one listed protein with none.
 
 ## article_ids
 ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
@@ -11851,7 +11851,7 @@ CLM-FND-PROT-93B011BEEE72F4-01
 src_4852d425a88297af190e
 
 ## original_wording
-Insulin, immunoglobulin and glucagon contain disulfide bonds (item unkeyed in this bank's printed answer list — recorded as such, and the 'albumin as exception' framing is noted rather than asserted as verified, since albumin does in fact carry intrachain disulfide bonds in standard biochemistry).
+Disulfide bonds are present in all the following except: a- Insulin b- Immunoglobulin c- Albumin d- Glucagon (printed key: d, confirmed by direct page render of the bank's complete answer table).
 
 ## owner
 Admin team
@@ -11880,3 +11880,5 @@ reviewDue: Set when the first review completes.
 resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
 sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
 relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+label: Corrected against the bank's own complete, gapless answer table (Protein MCQ, Q58: "58.d" = Glucagon), read directly from the source page. The label/definition/pitfalls/original_wording above were originally authored guessing albumin as the exception, when this item's key was believed absent; a direct page render shows the bank's real answer is glucagon, which also matches standard biochemistry (albumin does carry disulfide bonds; a 29-residue peptide with no cysteine cannot).
+questionIds: QST-FND-AU-102-PROT-032 (question/AU-MED-102-biochem-structural-mcq.md, both roots) tests this corrected fact.
