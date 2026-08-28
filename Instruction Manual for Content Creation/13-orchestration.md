@@ -53,10 +53,16 @@ the orchestrator does the hands-on work instead of delegating it. See [[live-db-
 under a long-running write that the working technique is to run the dry-run once — it emits
 a full post-import state via the same simulate path — and then flush that emitted result
 straight to prod in a background transaction, rather than holding one live connection open
-through the whole `--commit`. After every `--commit`, run
-`scripts/repair-content-version-baseline.mjs --commit` (see 00 / hazards register) so the
-newest `app_state_versions` row matches what was actually written — otherwise the import
-looks live but silently reverts on the next publish click.
+through the whole `--commit`. **The version-baseline desync that used to need a separate
+repair pass is fixed at the source now**: `scripts/apply-content-import-to-db.mjs` inserts
+each `app_state_versions` row with the value it is WRITING to `app_state`, in the same
+transaction (its own comment at ~lines 126–134 documents the fix) — so the newest version
+row already matches `app_state` the moment `--commit` returns, instead of trailing it by one
+generation. Verified 2026-08-28 against a real production import: every key's newest version
+row matched `app_state`. A post-import sanity check (newest `app_state_versions` row per key
+== `app_state`) is still worth doing, but the separate
+`scripts/repair-content-version-baseline.mjs --commit` run is no longer required (see 00 /
+hazards register, now marked resolved).
 
 A few rules apply across the operation:
 
@@ -430,7 +436,7 @@ One line each, with the date it actually bit, so nobody re-discovers these the h
 | `medical:batch` passing is not the gate | A batch can be `medical:batch`-clean and still be import-broken — `medical:simulate` (does it actually apply, in the real import order, without silent skips or rejects) and `medical:audit` (does the result still meet the completeness/evidence bar) fail in different ways `medical:batch` cannot see. Treat all three as required, never just the first | Recurring — see the `medical:simulate` silent-skip hazard above and the drift audit's own rationale (§6) |
 | Whole-module regeneration drops hand-applied tags | Regenerating an entire module's MCQ batch (`scripts/kasr/build-batches.ts` for that module) does not preserve `resource_ids` tags a later, separate pass had hand-applied on top of the generated file — the regen has no way to know about them and silently emits without them | Observed on a Kasr 104-CPS-style rebuild; verify with a before/after id-set diff (`comm -23`) and re-apply any tags the diff shows were lost, or fold the tagging step into generator input instead |
 | Import batch "clear" vs. blank has two different meanings | Whether a blank cell means "leave the existing value alone" or "wipe the field" — and whether `[clear]` is even the right directive to force a wipe — depends on which kind of batch (concept/article/question/practical/etc.) is parsing the row; the same-looking cell is correct in one batch kind and silently wrong in another, and both wrong forms still pass every automated gate | Cross-university, recurring — check the specific kind's parser (`src/data/importSemantics.ts` and the per-kind batch builder) rather than assuming one convention holds everywhere |
-| Live-DB import can silently un-publish everything it just imported | The import script can record the *pre-import* value in the newest `app_state_versions` row, desyncing the version baseline from what was actually written — content lands live but any publish click on it then reverts, because the baseline the publish flow trusts is stale | Hit during the 2026-08-27 live import; after every `--commit`, run `scripts/repair-content-version-baseline.mjs --commit` and confirm every key healthy before considering an import done (see the callout in §2) |
+| Live-DB import can silently un-publish everything it just imported *(RESOLVED 2026-08-28 — fixed at the source)* | The import script used to record the *pre-import* value in the newest `app_state_versions` row, desyncing the version baseline from what was actually written — content landed live but any publish click on it then reverted, because the baseline the publish flow trusts was stale | Hit during the 2026-08-27 live import. `scripts/apply-content-import-to-db.mjs` now writes the newest `app_state_versions` row with the same value it commits to `app_state`, in the same transaction (see the callout in §2), so the desync can no longer occur — the separate `repair-content-version-baseline.mjs --commit` pass is no longer a required step. A post-import sanity check (newest version == `app_state`) is still good practice |
 | Law-of-voice backlog predates the rule | The law of voice (§3) — student-facing text states the medicine directly, never "the department book says" — was only imposed as a standing rule on 2026-08-28. On the day it was issued, roughly 2,857 existing student-facing lines already on `main` still violated it. It is a live authoring rule for everything written from here on, and a known, quantified, not-yet-scheduled cleanup debt for what was written before it, generated Kasr content included (fix the seed/extract input, then regenerate — never hand-edit the generated `.md`, per §9) | Identified 2026-08-28; cleanup pass not yet started as of this revision |
 
 ---
