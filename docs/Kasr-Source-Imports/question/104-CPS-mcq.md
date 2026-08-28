@@ -10,7 +10,7 @@
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
-    Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 17 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -50,7 +50,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  59 questions were excluded and 0 held back for having no
+  60 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -5523,6 +5523,926 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q17. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7F3ED7F85B59
+## title
+The function of the internal elastic lamina is to:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The function of the internal elastic lamina is to:
+## answer_a
+Regulate blood flow by its contraction
+## explanation_a
+Regulating blood flow by contraction is the tunica media's smooth muscle, not the internal elastic lamina, which is a passive elastic sheet.
+## answer_b
+Nourish the wall of blood vessels
+## explanation_b
+Nourishing the vessel wall is the role of vasa vasorum in the adventitia, not the internal elastic lamina.
+## answer_c
+Prevent complete occlusion of blood vessels
+## explanation_c
+The internal elastic lamina's condensed, fenestrated elastic tissue keeps the lumen from fully collapsing, preventing complete occlusion of the vessel. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a related but separate mechanism.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_d
+Differentiate tunica media from tunica adventitia
+## explanation_d
+The internal elastic lamina differentiates tunica intima from tunica media, not media from adventitia — that boundary, where present, is the external elastic lamina's role.
+## correct_answer
+C
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the internal elastic lamina's function is to prevent complete occlusion of the vessel lumen.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q5; Histo MCQ by Dr.Kandeel [104].pdf p17 q5; DPT HISTO MCQ [Cardiovascular].pdf p1 q5. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9, src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-676136C6191A
+## title
+Thrombus formation and obstruction of blood flow occurs when:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Thrombus formation and obstruction of blood flow occurs when:
+## answer_a
+Elastic fibers are disrupted
+## explanation_a
+Disrupted elastic fibres reduce a vessel's ability to distend and recoil, but this is not the trigger for platelet aggregation and thrombus formation.
+## answer_b
+Endothelial cells become damaged
+## explanation_b
+Damage to the endothelium exposes the subendothelial connective tissue beneath it, which induces platelet aggregation, then thrombus formation, then obstruction of flow — the vessel wall's normal protective plan read as a mechanism of disease.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+Amount of collagen fibers in media of arterioles becomes high
+## explanation_c
+A rise in collagen within the media of arterioles is a chronic structural change (vascular remodelling), not the acute trigger for thrombus formation.
+## answer_d
+Amount of elastic fibers in media of arterioles becomes low
+## explanation_d
+A fall in elastic fibres within the media of arterioles reduces compliance over time; it is not what triggers acute thrombus formation.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that endothelial damage, exposing the subendothelial connective tissue, is what triggers thrombus formation and vessel obstruction.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p3 q30; Histo MCQ by Dr.Kandeel [104].pdf p19 q30. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-140A0B346E76
+## title
+endothelium of tunica intima is
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+endothelium of tunica intima is
+## answer_a
+simple Cubical
+## explanation_a
+Simple cuboidal epithelium lines glandular ducts and tubules, not the vessel lumen.
+## answer_b
+Simple squamous
+## explanation_b
+The endothelium lining every blood vessel's tunica intima is simple squamous epithelium — a single layer of flattened cells giving a smooth, low-friction surface for flow and a thin barrier for exchange.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+stratified cubical
+## explanation_c
+Stratified cuboidal epithelium lines structures such as sweat gland ducts, not the vascular lumen.
+## answer_d
+stratified squamous
+## explanation_d
+Stratified squamous epithelium lines surfaces built for abrasion resistance, such as the epidermis or oesophagus, not the thin exchange surface a vessel lumen needs.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the endothelium of the tunica intima as simple squamous epithelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q14. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2B26055E67EF
+## title
+fenestrated elastic membrane in T. media or T-adventitia
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+fenestrated elastic membrane in T. media or T-adventitia
+## answer_a
+Nervi vasorum
+## explanation_a
+Nervi vasorum are the autonomic nerves of the tunica adventitia driving smooth-muscle tone, not an elastic membrane.
+## answer_b
+External elastic lamina
+## explanation_b
+An external elastic lamina may sit between the tunica media and tunica adventitia, fenestrated like the internal elastic lamina, letting nutrients reach the wall by diffusion through its gaps.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+vasa vasorum
+## explanation_c
+Vasa vasorum are small nourishing blood vessels of the adventitia, not an elastic membrane.
+## answer_d
+subendothelium
+## explanation_d
+The subendothelium is loose connective tissue supporting the endothelium in the tunica intima, not a fenestrated elastic membrane at the media-adventitia boundary.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the external elastic lamina as the fenestrated elastic membrane that may sit between the tunica media and tunica adventitia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q22. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-A2E51C3DA4A8
+## title
+Internal elastic lamina is developed in the tunica intima of:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Internal elastic lamina is developed in the tunica intima of:
+## answer_a
+Arteries
+## explanation_a
+The internal elastic lamina is a condensed, fenestrated sheet of elastic tissue that develops in the tunica intima of arteries only, keeping the lumen from fully collapsing. A common trap: damage to the endothelium, not the lamina itself, is what exposes the subendothelium and triggers thrombosis.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_b
+Veins
+## explanation_b
+Veins characteristically lack a well-developed internal elastic lamina, unlike arteries.
+## answer_c
+Capillaries
+## explanation_c
+Capillaries are a single endothelial layer with no distinct tunica intima, media or adventitia, and so no internal elastic lamina.
+## answer_d
+Lymphatic
+## explanation_d
+Lymphatic vessels, like capillaries, are simple-walled and carry no distinct internal elastic lamina.
+## correct_answer
+A
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the internal elastic lamina, found in the tunica intima, is a feature of arteries rather than veins, capillaries or lymphatics.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p1 q3. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-2DA3AF60D8C6
+## title
+only in arteries forming fenestrated like layer
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+only in arteries forming fenestrated like layer
+## answer_a
+endothelium
+## explanation_a
+Endothelium lines every vessel type, arteries and veins alike, so it is not the layer found only in arteries.
+## answer_b
+subendothelium
+## explanation_b
+Subendothelium supports the endothelium in the tunica intima of vessels generally, not a layer confined to arteries.
+## answer_c
+Vasa vasorum
+## explanation_c
+Vasa vasorum nourish the walls of large vessels, both arteries and veins, so they are not confined to arteries.
+## answer_d
+internal elastic lamina
+## explanation_d
+The internal elastic lamina — a condensed, fenestrated elastic sheet — develops in the tunica intima of arteries only, not in veins, capillaries or lymphatics. A common trap: damage to the endothelium, not the lamina, is what exposes the subendothelium and triggers thrombosis.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## correct_answer
+D
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the internal elastic lamina as the fenestrated layer found only in arteries.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q15. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-63019569449E
+## title
+prevent Complete occlusion of arteries during contraction
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+prevent Complete occlusion of arteries during contraction
+## answer_a
+endothelium
+## explanation_a
+Endothelium provides a smooth flow surface and exchange barrier; it does not keep the lumen from collapsing during medial contraction.
+## answer_b
+subendothelium
+## explanation_b
+Subendothelium is loose connective tissue supporting the endothelium; it plays no role in resisting occlusion during contraction.
+## answer_c
+Vasa vasorum
+## explanation_c
+Vasa vasorum nourish the outer vessel wall from the adventitia; they have no mechanical role in preventing luminal occlusion.
+## answer_d
+internal elastic lamina
+## explanation_d
+The internal elastic lamina's condensed, fenestrated elastic tissue keeps the lumen from fully collapsing even when the tunica media's smooth muscle contracts, preventing complete occlusion. A common trap: damage to the endothelium, not the lamina, is what exposes the subendothelium and triggers thrombosis.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## correct_answer
+D
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the internal elastic lamina prevents complete occlusion of an artery's lumen when its tunica media contracts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q16. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-BC6C340FCC31
+## title
+The endothelial cells of the blood vessels are present in:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The endothelial cells of the blood vessels are present in:
+## answer_a
+Tunica intima
+## explanation_a
+Endothelial cells sit in the tunica intima, the innermost layer in direct contact with blood, resting on a basal lamina.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_b
+Between tunica intima and tunica media
+## explanation_b
+There is no distinct layer between tunica intima and tunica media that houses endothelium; the internal elastic lamina occupies that boundary in arteries, not endothelial cells.
+## answer_c
+Tunica adventitia
+## explanation_c
+Tunica adventitia is the outermost connective-tissue coat, with no contact with the blood and no endothelium.
+## answer_d
+Tunica media
+## explanation_d
+Tunica media is smooth muscle, elastic and reticular fibres — the middle, contractile layer — not the endothelial layer.
+## correct_answer
+A
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Locate endothelial cells within the tunica intima, the innermost layer of a blood vessel wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q5. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-1D8D78F983F7
+## title
+thick rich in elastic, Collagen fiber
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+thick rich in elastic, Collagen fiber
+## answer_a
+endothelium
+## explanation_a
+Endothelium is a single layer of flattened cells, not a thick, fibre-rich layer.
+## answer_b
+subendothelium
+## explanation_b
+In large vessels the subendothelium, though loose connective tissue, can be relatively substantial and carries both elastic and collagen fibres supporting the endothelium above it.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+internal elastic lamina
+## explanation_c
+The internal elastic lamina is a condensed elastic sheet, not a layer characteristically described as collagen-rich.
+## answer_d
+external elastic lamina
+## explanation_d
+The external elastic lamina, like the internal, is elastic tissue proper, not a mixed elastic-and-collagen-rich layer.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the subendothelium, in a large vessel, as a layer that can be relatively thick and rich in elastic and collagen fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q24. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E168D9C5C0C5
+## title
+Tunica media of blood vessels continuous the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Tunica media of blood vessels continuous the following:
+## answer_a
+Elastic fibers
+## explanation_a
+Elastic fibres run through the tunica media between the smooth-muscle cells, allowing the vessel to distend under pressure.
+
+Why this is right:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_b
+Endothelium
+## explanation_b
+Endothelium belongs to the tunica intima, not the media.
+## answer_c
+Vasa vasorum
+## explanation_c
+Vasa vasorum belong to the tunica adventitia (extending only partly into the outer media in large vessels), not the media generally.
+## answer_d
+Internal elastic lamina
+## explanation_d
+The internal elastic lamina marks the intima-media boundary; it is not itself a component distributed through the media.
+## correct_answer
+A
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that elastic fibres, alongside smooth muscle, are a component of the tunica media.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p17 q1. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.

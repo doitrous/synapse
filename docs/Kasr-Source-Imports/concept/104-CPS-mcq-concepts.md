@@ -10,7 +10,7 @@
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
-    Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 17 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
     Cytogenetics — Cell Cycle Phase Details — 9 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
@@ -50,7 +50,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  59 questions were excluded and 0 held back for having no
+  60 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -978,6 +978,12 @@ blood-vessel-wall.general-three-tunic-plan
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p17 | 104 CPS
+src_b1c03ac55330bb88dc62 | question_book | | p1 | 104 CPS
+src_437b45e5de1d97a26dc6 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p19 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p15 | 104 CPS
 ## article_ids
 +ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
