@@ -36,6 +36,10 @@ export interface CardSchedule {
   reps: number
   /** ISO 8601, so a schedule survives a round trip through storage unchanged. */
   due: string
+  /** FSRS memory-stability in days (days for retrievability to fall to 0.9). Absent on SM-2 cards. */
+  stability?: number
+  /** FSRS difficulty in [1,10]. Absent on SM-2 cards. */
+  difficulty?: number
 }
 
 export interface SrsConfig {
