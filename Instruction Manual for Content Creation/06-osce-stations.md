@@ -469,6 +469,17 @@ npm run medical:simulate -- "docs/import-ready/practical/"*.md --emit /tmp/sim-$
 npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 ```
 
+**`medical:simulate` has no `--with` flag — only `medical:batch` does.** If you widened
+`medical:batch`'s directory scope with `--with <concept-file>`, do not carry that flag over
+to `medical:simulate`: its parser reads the token right after any `--flag` as that flag's
+own value, so `--with sibling.md` silently drops `sibling.md` from the run while the
+command still exits 0 with `errors: []`. List every file positionally instead.
+
+**A bare `---` line inside `mark_scheme` or `actor_sections` ends the record early** — the
+importer splits a file into records on any line that is only `---`, the same separator
+used between `# Item` blocks. A horizontal rule pasted in from a source document silently
+truncates the station into a broken second record. Strip it before saving the batch.
+
 - [ ] `type` is exactly `OSCE station`
 - [ ] `candidate_instructions` states setting, role, task and time, and gives nothing away
 - [ ] `actor_opening` is one line and volunteers nothing
@@ -493,3 +504,5 @@ npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 | A section's marks are wrong | Marks come from the **first** line bearing that title |
 | `Media request "…" names "…", which is not a question in this item` | `Section:` names a block that does not exist. For a station, use `station` or omit it. |
 | The actor cannot answer a question the mark scheme rewards | You wrote the mark scheme and the brief separately |
+| `medical:simulate` reports `errors: []`, but a sibling concept file's IDs still resolve as missing | You passed it after `--with`; `medical:simulate` has no such flag and silently dropped it — list every file positionally instead |
+| A section (or everything after it) is missing or the record looks truncated | A bare `---` line inside `mark_scheme`/`actor_sections` ended the record early — strip stray horizontal rules from pasted source text |

@@ -464,6 +464,17 @@ npm run medical:simulate -- "docs/import-ready/practical/"*.md --emit /tmp/sim-$
 npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 ```
 
+**`medical:simulate` has no `--with` flag — only `medical:batch` does.** If you widened
+`medical:batch`'s directory scope with `--with <concept-file>`, do not carry that flag over
+to `medical:simulate`: its parser reads the token right after any `--flag` as that flag's
+own value, so `--with sibling.md` silently drops `sibling.md` from the run while the
+command still exits 0 with `errors: []`. List every file positionally instead.
+
+**A bare `---` line inside `decisions` or `debrief` ends the record early** — the importer
+splits a file into records on any line that is only `---`, the same separator used between
+`# Item` blocks. A horizontal rule pasted in from a source document silently truncates the
+case into a broken second record. Strip it before saving the batch.
+
 - [ ] `type` is exactly `Clinical case`
 - [ ] `questions` in the validator output equals the number of decisions I wrote
 - [ ] Every decision has **exactly one** `*=` line
@@ -488,3 +499,5 @@ npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 | `Media request "…" names "…", which is not a question in this item` | `Section:` does not match a `###` heading |
 | A difficulty came out as `"Moderate He tells you…"` | `Difficulty:` was not on its own line |
 | The case text vanished | It was on the same line as a labelled field |
+| `medical:simulate` reports `errors: []`, but a sibling concept file's IDs still resolve as missing | You passed it after `--with`; `medical:simulate` has no such flag and silently dropped it — list every file positionally instead |
+| A decision (or everything after it) is missing or the record looks truncated | A bare `---` line inside `decisions`/`debrief` ended the record early — strip stray horizontal rules from pasted source text |

@@ -442,6 +442,17 @@ npm run medical:simulate -- "docs/import-ready/practical/"*.md --emit /tmp/sim-$
 npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 ```
 
+**`medical:simulate` has no `--with` flag — only `medical:batch` does.** If you widened
+`medical:batch`'s directory scope with `--with <concept-file>`, do not carry that flag over
+to `medical:simulate`: its parser reads the token right after any `--flag` as that flag's
+own value, so `--with sibling.md` silently drops `sibling.md` from the run while the
+command still exits 0 with `errors: []`. List every file positionally instead.
+
+**A bare `---` line inside `lab_questions` ends the record early** — the importer splits a
+file into records on any line that is only `---`, the same separator used between `# Item`
+blocks. A horizontal rule pasted in from a source document silently truncates the set into
+a broken second record. Strip it before saving the batch.
+
 - [ ] `type` is `Imaging interpretation` and `lab_subtype` is `Imaging`
 - [ ] `questions` in the validator output equals the number I wrote
 - [ ] Every question has **exactly one** `*=` line
@@ -469,3 +480,5 @@ npm run medical:audit -- --source /tmp/sim-$SCOPE.json
 | The image arrives with the finding arrowed | The brief did not say "unlabelled" |
 | `Media request "…" names "…", which is not a question in this item` | `Section:` does not match a `###` heading |
 | The overall explanation is empty | You wrote `Rationale:` instead of `Explanation:` |
+| `medical:simulate` reports `errors: []`, but a sibling concept file's IDs still resolve as missing | You passed it after `--with`; `medical:simulate` has no such flag and silently dropped it — list every file positionally instead |
+| A question (or everything after it) is missing or the record looks truncated | A bare `---` line inside `lab_questions` ended the record early — strip stray horizontal rules from pasted source text |
