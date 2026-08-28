@@ -55,6 +55,71 @@ concepts (confirmed against author6's prokaryotic-apparatus concepts, both of wh
 Commit on `asu-mbg-author10`: concepts + evidence + questions + this ledger update, in one commit.
 Pushed to origin.
 
+**Cluster 3/4 remainder · Disease-correlation mutation questions — 18/~20 authored.**
+
+The "Genetic Codes" chapter's Q12-22, Q26-28, Q30, Q36, Q38, Q44 — read from the chapter's own pages
+(PDF pp.16-20) and keyed from its own answer table (PDF p.22: "Answers of Genetic Codes"). Q45-46
+(codon-table lookups) deferred — their source page (PDF p.21) was not located this pass. Q7
+deliberately skipped as redundant with Q1/Q2, per the pre-existing note in this same ledger.
+
+| Concept | ID | Qs | Status |
+|---|---|---:|---|
+| Disease-mutation type associations (DMD/nonsense, sickle cell/missense, alpha-thal/frameshift, beta-thal/splice-site, Huntington/trinucleotide-repeat) | `CON-FND-BCF447304F1CBC` | Q12-16 | **new** |
+| Codon table point-mutation consequence lookup (translate sequence, anticodon lookup, degenerate codon, stop-to-sense elongation, missense identification) | `CON-FND-4E6727895BF8B5` | Q17-22, Q30 | **new** |
+| Adaptor hypothesis (mischarged tRNA incorporated by anticodon, not cargo) | `CON-FND-18F0DFB98E394F` | Q28 | **new** |
+| Genetic code properties (reused, already ASU-tagged) | `CON-FND-A1B0BFB9626438` | Q26, Q27, Q38 | reused |
+| Nonsense/missense/silent (reused, already ASU-tagged) | `CON-FND-4508AC0EA86F86` | Q36 | reused |
+| Transition/transversion/frameshift (reused, already ASU-tagged) | `CON-FND-25E8976EFF0509` | Q44 | reused |
+
+New concepts' `article_ids` point at the pre-existing Alexandria article `ART-FND-TRANSCRIPTION-CODE-
+TRANSLATION` (already this module's home article for the genetic-code cluster), except the adaptor-
+hypothesis concept, which points at Cluster 5's own `ART-FND-TRANSLATION-ENERGETICS-GENE-STRUCTURE`.
+Reused concepts' actual article homes turned out to be Kasr's `ART-102-BIO-PROTEIN-SYNTHESIS-
+TRANSLATION` (not the Alexandria article) for Q36/Q44 — `library_ids` set accordingly per-question,
+not assumed from the concept's cluster-mates. Full evidence chain (3 claims, 3 citations, no new
+spans). Files: `concept/ASU-MBG-genetic-code-disease-mutations-concepts.md`, `evidence/ASU-MBG-
+genetic-code-disease-mutations-{claims,citations}.md`, `question/ASU-MBG-genetic-code-disease-
+mutations-mcq.md`.
+
+**Disclosed source/teaching nuance:** the department's own answer key pairs DMD with nonsense
+mutation and alpha-thalassaemia with frameshift mutation (Q12, Q14), while more commonly cited
+teaching describes DMD as predominantly caused by out-of-frame (frameshift) deletions and alpha-
+thalassaemia by large gene deletions. Followed the department's own key rather than silently
+substituting a different pairing (both explanations disclose the nuance explicitly), consistent with
+this lane's established practice for keyed-but-atypical facts (cf. author7's Q16/Q17 energetics
+disclosure). The five-question run's internal a-b-c-d-e answer-letter cycling, plus three of five
+pairings matching strong independent priors (sickle cell/missense, beta-thal/splice-site, Huntington/
+repeat), gave high confidence the table was read at the correct row/column, not off-by-one.
+
+Search-before-mint (`find-existing.mjs`): "mischarged tRNA adaptor hypothesis", "Duchenne muscular
+dystrophy mutation", "thalassemia mutation type", "stop codon readthrough elongated protein",
+"Huntington disease trinucleotide repeat", "sickle cell anemia missense mutation" all returned no
+hit — genuinely new content. The only near neighbour found was `CON-FND-A385468E42B123` (genetic
+anticipation, from author6's modes-of-inheritance cluster) — a different fact about the same
+Huntington/repeat biology, linked as `related_concept_ids` rather than merged.
+
+Gates: `medical:batch` clean, 0 errors, on all four files (question file `--with` the new concept
+file, both ASU pending-live overlay files, the module's evidence-sources file, Cluster 5's own
+translation-articles file, Alexandria's `AU-MED-102-biochem-molecular-concepts.md`, and Kasr's
+`102-INT-mcq-concepts.md` — needed to resolve two reused concepts' actual `article_ids`, which turned
+out to differ from their Alexandria cluster-mates). First revision had a 39% under-3-sentences
+explanation-length warning (7 of 18 correct-answer explanations were "Correct." plus only one more
+sentence); strengthened all 7 to a genuine 3+ sentences before the final gate run, which now reads
+0% under 200 chars / 0% under 3 sentences. `medical:simulate` (positional, `--emit` to scratch) 0
+errors, 0 skipped, `delta: {articles:13, concepts:41, claims:3, citations:3, resources:1,
+articleSpans:0}` against the full cumulative pending-live state; questions `created:18, updated:0,
+rejected:0`. `medical:audit --source <emitted-state>` 562 total errors on this run's full simulated
+state (a different file set than Cluster 1's own isolated audit, so not directly comparable in raw
+count), and by exact-id filtering only 1 error matches any of this pass's 3 new concepts (the same
+generic, harmless `relatedArticleIds missing` completeness note already present on dozens of prior
+concepts, now also naming 2 of these 3) — 0 errors mention any of this pass's 18 questions, 3 claims
+or 3 citations.
+
+**Traceable share:** 18/18 questions traceable to a `main_concept` covered by an article — 100%.
+
+Commit on `asu-mbg-author10`: concepts + evidence + questions + this ledger update, in one commit.
+Pushed to origin.
+
 ## Done (author7, branch `asu-mbg-author7`, base `asu-mbg-author6` @ 937d4e8b)
 
 **Cluster 5 · Translation / Protein Synthesis — CLOSED, all 65 questions authored.**
@@ -291,7 +356,7 @@ All still sourced from `EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf` unless no
 |---|---:|---|---|
 | 1 · RNA types (superlatives) | **CLOSED this pass (author10) — all 6 questions authored. See the "Done (author10)" section above.** | — | done |
 | 2 · Transcription mechanism (prokaryotic apparatus) | **CLOSED this pass (author6) per chief-of-staff Ruling #1 — see the "Done" section above.** | — | done |
-| 3/4 · Genetic code remainder | Q7 (degenerate, redundant w/ Q1/Q2, skipped deliberately), Q12 (DMD→trinucleotide-repeat, wants a disease-correlation concept), Q13-22 (sickle-cell/thalassaemia/Huntington/DMD "mostly occur due to X mutation type" run, p.16-17), Q26-28, 30, 36, 38, 44-46 (codon-table lookups, mixed) | `CON-FND-4508AC0EA86F86` and `CON-FND-25E8976EFF0509` (both now +asu-tagged) cover most of these directly; Q13-16's specific disease→repeat-expansion mapping may want a new "trinucleotide repeat disease" concept — not yet searched | authorable next |
+| 3/4 · Genetic code remainder | **18/~20 authored this pass (author10) — Q12-22, Q26-28, Q30, Q36, Q38, Q44. See the "Cluster 3/4 remainder" section above.** Still open: Q45-46 (codon-table lookups, PDF p.21 not located this pass). Q7 deliberately skipped (redundant w/ Q1/Q2). | Q45-46 need PDF p.21 (not yet found/rendered) | mostly done, 2 Qs open |
 | 5 · Translation/protein synthesis (whole chapter) | **CLOSED this pass (author7) — all 65 questions authored. See the "Done (author7)" section above.** | — | done |
 | 6 · Gene expression regulation | ~16+ Q in file 1's "Regulation of Gene Expression" section | **answers physically blacked out/redacted in the source scan** — genuine unrecoverable-key case (confirmed again this pass on p.15's own table having 2 blacked cells, Q17/Q82, same hazard pattern). `MCQs - Formative Gene expression gene therapy.docx` (4 items) also 0/4 keyed (plain-text extraction strips highlighting) | **blocked** — log needs-Omar, do not force. Do not re-triage per chief-of-staff ruling this session. |
 | 7 · Modes of inheritance | **CLOSED this pass (author6) — see the "Done" section above.** | — | done |
