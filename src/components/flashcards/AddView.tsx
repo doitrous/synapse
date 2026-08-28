@@ -3,7 +3,6 @@ import { Plus, Save, Layers, AlertTriangle, Image as ImageIcon, FileText, Bracke
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { Badge } from '@/components/ui/Badge'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Checkbox } from '@/components/ui/Checkbox'
 import { Dialog } from '@/components/ui/Dialog'
@@ -15,13 +14,14 @@ import { cn } from '@/lib/cn'
 import { useCommands } from '@/lib/shortcuts/useShortcuts'
 import type { Command } from '@/lib/shortcuts/registry'
 import type { FlashcardsApi } from '@/lib/useFlashcards'
-import type { Note } from '@/data/flashcards/model'
+import type { Note, NoteType } from '@/data/flashcards/model'
 import { sanitizeRich, isRichEmpty } from '@/data/flashcards/richText'
 import { validateCloze, clozeNumbers, renderClozeSide, type ClozeError } from '@/data/flashcards/cloze'
 import { isDuplicateNote } from '@/data/flashcards/duplicate'
 import { RichField, type RichFieldHandle } from './RichField'
 import { TagSelect } from './TagSelect'
 import { RichHtml } from './RichHtml'
+import { OcclusionEditor } from './OcclusionEditor'
 
 const NEW_DECK = '__new_deck__'
 
@@ -61,6 +61,12 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
   const editingBasicOrCloze = editing && (editing.type === 'basic' || editing.type === 'cloze') ? editing : undefined
 
   const [type, setType] = useState<AuthorType>(editingBasicOrCloze?.type ?? 'basic')
+  const [occlusion, setOcclusion] = useState(false)
+
+  function handleTypeChange(value: NoteType) {
+    if (value === 'image-occlusion') setOcclusion(true)
+    else { setOcclusion(false); setType(value) }
+  }
   const [deckId, setDeckId] = useState<string>(() => {
     if (editingBasicOrCloze) return editingBasicOrCloze.deckId
     if (initialDeckId && ownDeckIds.has(initialDeckId)) return initialDeckId
@@ -207,6 +213,39 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
     )
   }
 
+  // Image occlusion has its own editor; show the type + deck pickers above it.
+  if (occlusion) {
+    return (
+      <div className="space-y-4">
+        <Panel>
+          <PanelHeader title={t('Add a card')} />
+          <div className="grid gap-4 p-5 sm:grid-cols-2">
+            <Field label={t('Note type')}>
+              <TypeSelector value="image-occlusion" onChange={handleTypeChange} />
+            </Field>
+            <Field label={t('Deck')} htmlFor="occ-deck">
+              <Select id="occ-deck" value={deckId} onChange={(e) => onDeckSelect(e.target.value)}>
+                {noDecks && <option value="">{t('No decks yet')}</option>}
+                {ownDecks.map((deck) => <option key={deck.id} value={deck.id}>{deck.name}</option>)}
+                <option value={NEW_DECK}>{t('＋ New deck')}</option>
+              </Select>
+            </Field>
+          </div>
+        </Panel>
+        {deckId ? (
+          <OcclusionEditor api={api} deckId={deckId} onDone={onDone} />
+        ) : (
+          <Panel className="p-8 text-center">
+            <p className="text-[13px] text-ink-2">{t('Create a deck to author into — provided decks are read-only.')}</p>
+          </Panel>
+        )}
+        {creatingDeck && (
+          <CreateDeckDialog onClose={() => setCreatingDeck(false)} onCreate={(name) => { const id = api.createDeck(name); setDeckId(id); setCreatingDeck(false) }} />
+        )}
+      </div>
+    )
+  }
+
   return (
     <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_22rem]">
       <div className="space-y-5">
@@ -224,7 +263,7 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
           <div className="space-y-5 p-5">
             {/* Note type */}
             <Field label={t('Note type')}>
-              <TypeSelector value={type} onChange={setType} locked={!!editingBasicOrCloze} />
+              <TypeSelector value={type} onChange={handleTypeChange} locked={!!editingBasicOrCloze} />
             </Field>
 
             {/* Deck + tags */}
@@ -402,11 +441,12 @@ export function AddView({ api, initialDeckId, editNoteId, onDone }: { api: Flash
 
 // ---- note-type selector ----------------------------------------------------
 
-function TypeSelector({ value, onChange, locked = false }: { value: AuthorType; onChange: (value: AuthorType) => void; locked?: boolean }) {
+function TypeSelector({ value, onChange, locked = false }: { value: NoteType; onChange: (value: NoteType) => void; locked?: boolean }) {
   const t = useT()
-  const options: { value: AuthorType; label: string; icon: typeof FileText }[] = [
+  const options: { value: NoteType; label: string; icon: typeof FileText }[] = [
     { value: 'basic', label: t('Basic'), icon: FileText },
     { value: 'cloze', label: t('Cloze'), icon: Brackets },
+    { value: 'image-occlusion', label: t('Image Occlusion'), icon: ImageIcon },
   ]
   // While editing, the type is fixed: changing it would regenerate the note's
   // cards and drop their schedules. Only the current type is shown.
@@ -432,18 +472,6 @@ function TypeSelector({ value, onChange, locked = false }: { value: AuthorType; 
           </button>
         )
       })}
-      {!locked && (
-        <Tooltip content={t('Coming soon')}>
-          <span
-            aria-disabled
-            className="inline-flex h-9 cursor-not-allowed items-center gap-1.5 rounded-md px-3 text-[13px] font-medium text-ink-3 opacity-60"
-          >
-            <Icon icon={ImageIcon} size={15} className="text-ink-3" />
-            {t('Image Occlusion')}
-            <Badge tone="outline" className="ms-0.5">{t('soon')}</Badge>
-          </span>
-        </Tooltip>
-      )}
     </div>
   )
 }
