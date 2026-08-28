@@ -1,0 +1,318 @@
+import type { McqLeafSeed } from '../../mcq.ts'
+
+export const LEAF: McqLeafSeed = {
+  leaf: "Histology Cardiovascular System — Veins",
+  modulePath: "104 CPS > Histology > Cardiovascular System > Veins",
+  articleId: "ART-104-HIS-ARTERIES-AND-VEINS",
+
+  // find-existing.mjs run before minting each concept below ("medium vein",
+  // "vena cava adventitia", "venule wall", "vein artery lumen") returned no
+  // reusable hit for any of the four — "safe to create" each time. This
+  // article (confirmed by reading its full prose before authoring against
+  // it) states the vein side of its own artery/vein comparison in detail:
+  // medium-vein wall structure and valves, the inferior vena cava's
+  // longitudinal adventitial muscle, venule wall structure, and the
+  // postmortem vein-vs-artery lumen difference — everything below is
+  // checked against that prose, with any fact it does not itself state
+  // disclosed in the concept's own `gaps` field rather than invented.
+
+  concepts: [
+    {
+      key: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      label: "A medium-sized vein has a thin wall, a wide postmortem-collapsing lumen, valves in the lower limb, and no internal elastic lamina — the near-opposite of a medium-sized artery at every point",
+      definition: "A medium-sized vein has a thin wall and a wide lumen that collapses and holds blood after death — the reverse of a medium-sized artery's narrow, rounded, largely blood-empty postmortem lumen. Its tunica intima is thin and unfolded, without the muscular artery's clear internal elastic lamina; its tunica media is thin, its smooth muscle circularly arranged with few elastic fibres, never approaching the muscular artery's near-solid smooth-muscle wall; and its tunica adventitia — unlike an artery's media-dominated wall — is the thickest of the vein's own three coats. Semilunar valves, folds of the intima whose base is rich in elastic fibres, sit chiefly in medium veins, especially those of the lower limb, to stop blood running backward under gravity; a medium artery carries no such valves at all.",
+      objective: "State the medium vein's thin wall, collapsing wide lumen, absent internal elastic lamina, adventitia-dominant wall and lower-limb valves, each as the reverse of the matched medium artery feature.",
+      pitfall: "Treating 'veins have valves' as true at every calibre. Valves are a medium-vein feature, most pronounced in the lower limb where they resist gravity; the smallest veins (venules) and the great named veins are both characteristically valveless despite their very different sizes.",
+      subject: "cvs",
+      primary: "DIS-HIS-T03",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Histology > Cardiovascular System > Veins",
+      type: "classification",
+      aliases: ["Medium vein histology", "Medium vein vs medium artery"],
+    },
+    {
+      key: "large-vein.adventitial-longitudinal-muscle-of-the-inferior-vena-cava",
+      label: "The inferior vena cava's tunica adventitia carries longitudinal smooth muscle bundles that let the vessel elongate and shorten with respiration, an unusual feature not shared by medium veins",
+      definition: "A large vein such as the inferior vena cava has a thick wall and a wide lumen: an intima whose connective tissue can blur into the media, a relatively thin media, and — the thickest layer of all — an adventitia carrying bundles of longitudinal smooth muscle. This longitudinal arrangement is unusual for a vein wall, whose media, where muscle is present, is normally circularly arranged, and it lets the great vein change length as respiration shifts intrathoracic and intra-abdominal pressure — elongating and shortening the vessel with each breath rather than simply resisting the movement. It is this feature, not a valve or a prominent elastic lamina, that most reliably identifies the inferior vena cava under the microscope among the vein calibres this leaf covers.",
+      objective: "Name the inferior vena cava as the vessel whose tunica adventitia carries longitudinal smooth muscle, and state that this arrangement lets it elongate and shorten with respiration.",
+      pitfall: "Assuming any smooth muscle found outside the tunica media must be circularly arranged, matching the media's own usual orientation. The inferior vena cava's adventitial muscle is specifically longitudinal — the opposite orientation — and that difference, not merely the muscle's presence, is what does the mechanical work of letting the vessel change length.",
+      subject: "cvs",
+      primary: "DIS-HIS-T03",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Histology > Cardiovascular System > Veins",
+      type: "structural_description",
+      aliases: ["Inferior vena cava histology", "Adventitial longitudinal muscle"],
+    },
+    {
+      key: "venule.wall-structure-and-transitional-features",
+      label: "A venule has a thin subendothelium, no internal or external elastic lamina, and a media that gains smooth muscle only gradually as calibre increases, with pericytes present from the start",
+      definition: "The venule, the smallest vein, has a thin subendothelium beneath its endothelium, and carries no internal elastic lamina at all. Its tunica media begins, at the post-capillary venule, as nothing more than pericytes and reticular fibres — the same pericyte-supported wall a capillary itself has — and only gains a few smooth-muscle fibres gradually as the venule's calibre widens toward the medium vein. A venule likewise carries no well-developed external elastic lamina in its adventitia, a structure that belongs instead to a muscular artery's wall. Pericytes are present on the venule wall from its smallest, post-capillary calibre onward.",
+      objective: "State the venule's thin subendothelium, absent internal and external elastic laminae, gradually-appearing smooth muscle, and its pericyte-supported post-capillary wall.",
+      pitfall: "Expecting a venule to carry the elastic laminae or defined smooth-muscle media of an artery of similar calibre. A venule's wall is built for low-pressure return, not for regulation, so it stays pericyte-supported and nearly muscle-free until its calibre approaches that of a medium vein.",
+      subject: "cvs",
+      primary: "DIS-HIS-T03",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Histology > Cardiovascular System > Veins",
+      type: "structural_description",
+      aliases: ["Venule histology", "Post-capillary venule"],
+      gaps: [
+        "This leaf's covering article states the venule's thin subendothelium, absent internal elastic lamina and gradually-appearing smooth muscle in its Definition section, but does not itself mention an external elastic lamina for the venule one way or the other. Absence of a well-developed external elastic lamina in a venule (a structure the article elsewhere ties specifically to the muscular artery's wall) is standard, undisputed histology, but is not yet written into this article's own prose for the venule specifically. Flagging for the article-authoring lane.",
+      ],
+    },
+    {
+      key: "vein-vs-artery.wall-thickness-lumen-and-postmortem-appearance",
+      label: "A vein's thin wall collapses and holds blood after death, the opposite of an artery's narrower, elastic-recoiled, largely blood-empty postmortem lumen, and it is the large elastic artery — not any vein — that shows the classic 'very wide lumen, thick wall' combination",
+      definition: "After death, a medium-sized vein's thin wall and low intraluminal pressure let its lumen collapse into a folded, blood-filled shape, where a medium-sized artery's thicker, more elastic wall instead empties much of its luminal blood through elastic recoil as the vessel constricts, leaving a narrower, more rounded, largely blood-empty lumen — a practical clue for telling artery from vein in a fixed section. Read together with overall vessel calibre, the large elastic artery — the aorta and its major branches — is the vessel type most classically described by a very wide lumen paired with a thick wall, its media built from 40 to 70 circularly arranged elastic membranes. A large vein such as the inferior vena cava is also thick-walled, but its thickness sits chiefly in an adventitia doing mechanical, not pressure-resisting, work, and a medium vein's wall, thin at every layer, is the opposite of both.",
+      objective: "Contrast a vein's collapsed, blood-filled postmortem lumen against an artery's narrower, largely blood-empty one, and identify the large elastic artery as the vessel type defined by very wide lumen plus thick wall.",
+      pitfall: "Assuming 'thick-walled' points to an artery alone. A large vein such as the inferior vena cava is also thick-walled, but by a media-thin, adventitia-dominant route very different from a large elastic artery's media-dominant one — the two reach a comparable overall thickness by opposite internal routes.",
+      subject: "cvs",
+      primary: "DIS-HIS-T03",
+      secondary: ["SYS-CVS-T01-S01"],
+      modulePath: "104 CPS > Histology > Cardiovascular System > Veins",
+      type: "comparison",
+      aliases: ["Postmortem vein vs artery lumen", "Vein vs artery wall thickness"],
+    },
+  ],
+
+  questions: [
+    // --- Concept 1: medium-vein wall structure and valve distribution ---
+    {
+      key: "prominent-internal-elastic-lamina-iel-is-seen-in-8c080de2",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Identify a prominent internal elastic lamina as the defining feature of a medium-sized (muscular) artery, present in no vein calibre.",
+      explanations: {
+        A: "In the aorta, the internal elastic lamina cannot be told apart as a separate structure — it blends among the many other elastic laminae that fill the media — so it is not 'prominent' the way a muscular artery's is.",
+        B: "A prominent, clearly visible internal elastic lamina is the defining feature marking the boundary between a medium (muscular) artery's tunica intima and its smooth-muscle-dominated tunica media.",
+        C: "A medium-sized vein's intima is thin and unfolded, without a well-developed internal elastic lamina at all.",
+        D: "The inferior vena cava, like veins generally, has no well-developed internal elastic lamina; its own defining feature is the longitudinal smooth muscle of its adventitia, not an intimal elastic lamina.",
+      },
+    },
+    {
+      key: "the-internal-elastic-lamina-is-prominent-in-5830712a",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Restate the same internal-elastic-lamina rule against a different set of distractors, including the large elastic artery.",
+      explanations: {
+        A: "In a large elastic artery, the internal elastic lamina is present but not distinguishable as a separate structure from the many other elastic laminae filling the media, so it is not the 'prominent' feature this question tests.",
+        B: "A medium-sized vein's thin, unfolded intima carries no well-developed internal elastic lamina.",
+        C: "A prominent internal elastic lamina, clearly separating intima from media, is the signature histological feature of a medium-sized (muscular) artery.",
+        D: "The inferior vena cava, like veins generally, has no well-developed internal elastic lamina; its own defining feature is its adventitia's longitudinal smooth muscle instead.",
+      },
+    },
+    {
+      key: "medium-sized-vein-is-characterized-by-eeba9e52",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "State that a medium vein's tunica adventitia, not its media, is the thickest of its three coats — the functional mirror of a medium artery.",
+      explanations: {
+        A: "In a medium-sized vein the tunica adventitia — often carrying longitudinal smooth muscle bundles — is the thickest of the three coats, the functional mirror image of a medium artery, where the media dominates instead.",
+        B: "Medium veins generally lack a well-developed internal AND external elastic lamina; both are instead features of arteries.",
+        C: "A medium vein's thin wall and low intraluminal pressure make its lumen collapse and hold blood after death, not stay uncollapsed — the reverse of what this option states.",
+        D: "A subendothelium rich in elastic fibres is not a standout, defining feature specifically emphasised for medium veins in standard histology teaching.",
+      },
+    },
+    {
+      key: "the-following-is-a-difference-between-medium-sized-artery-an-8769d21d",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Recall of a true statement",
+      learningObjective: "Confirm the adventitia-dominant wall of a medium vein as a genuine artery-vein difference, ruling out three reversed or invented alternatives.",
+      explanations: {
+        A: "The reverse is true: a medium artery's thick, smooth-muscle-dominated media is far thicker than a medium vein's own thin media.",
+        B: "The tunica adventitia is indeed relatively thick in a medium-sized vein — the thickest of its own three coats, unlike the media-dominated wall of a medium artery.",
+        C: "The reverse is true: a prominent internal elastic lamina is the muscular artery's own defining feature; a medium vein lacks a well-developed one.",
+        D: "The reverse is true: a medium vein's tunica intima is thin and unfolded; it is the medium artery whose intima is thick and folded.",
+      },
+    },
+
+    // --- Concept 2: large-vein (IVC) adventitial longitudinal muscle ---
+    {
+      key: "tunica-adventitia-with-longitudinal-smooth-muscle-fibers-is-26042411",
+      conceptKey: "large-vein.adventitial-longitudinal-muscle-of-the-inferior-vena-cava",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Name the inferior vena cava as the vessel identified by longitudinal smooth muscle in its tunica adventitia.",
+      explanations: {
+        A: "Longitudinal smooth muscle in the tunica adventitia is also described as a secondary feature of large elastic arteries, but among these four options the inferior vena cava is the vessel this specific identifying feature is most reliably tested on.",
+        B: "A medium artery's wall is defined by its smooth-muscle-rich media and prominent internal elastic lamina, not by adventitial longitudinal muscle.",
+        C: "A medium vein's adventitia, though the thickest of its own three coats, is not described as carrying this distinctive longitudinal muscle arrangement — that is a large-vein feature.",
+        D: "The inferior vena cava's tunica adventitia carries bundles of longitudinal smooth muscle, the thickest layer of its wall, letting the vessel elongate and shorten with respiration.",
+      },
+    },
+    {
+      key: "longitudinal-smooth-muscle-fiber-in-large-vein-570e9e44",
+      conceptKey: "large-vein.adventitial-longitudinal-muscle-of-the-inferior-vena-cava",
+      difficulty: "Moderate",
+      questionType: "Mechanism",
+      learningObjective: "State that the inferior vena cava's adventitial longitudinal muscle lets it elongate and shorten with respiration, not support the endothelium, nourish the wall, or prevent backflow.",
+      explanations: {
+        A: "Supporting the endothelium is the job of the subendothelial connective tissue in the tunica intima, not the outer adventitia's longitudinal muscle.",
+        B: "Nourishing a large vessel's outer wall by diffusion is the job of the vasa vasorum, small nutrient vessels within the adventitia — a separate structure from the longitudinal smooth muscle itself.",
+        C: "The inferior vena cava's longitudinal adventitial muscle lets it elongate and shorten as respiration shifts intrathoracic and intra-abdominal pressure, changing the vessel's length rather than resisting the movement.",
+        D: "Preventing retrograde movement of blood under gravity is a valve's job, and the great veins such as the inferior vena cava are themselves characteristically valveless — this muscle's role is mechanical length change, not backflow prevention.",
+      },
+    },
+    {
+      key: "smooth-muscle-fibers-are-found-in-the-tunica-adventitia-of-006aa8a2",
+      conceptKey: "large-vein.adventitial-longitudinal-muscle-of-the-inferior-vena-cava",
+      difficulty: "Easy",
+      questionType: "Structure and function",
+      learningObjective: "Restate the inferior-vena-cava identification against a fresh set of distractors including the aorta.",
+      explanations: {
+        A: "The inferior vena cava's tunica adventitia carries bundles of smooth muscle, arranged longitudinally, the thickest layer of its wall.",
+        B: "A muscular artery's adventitia is a comparatively thin, unremarkable outer coat; its defining feature is instead its media's smooth muscle and prominent internal elastic lamina.",
+        C: "A medium vein's adventitia, though the thickest of its own three coats, is not described as carrying this longitudinal muscle — that feature belongs specifically to the great veins.",
+        D: "The aorta's defining wall feature is its media's 40 to 70 elastic membranes, not adventitial smooth muscle.",
+      },
+    },
+    {
+      key: "the-wall-of-inferior-vena-cava-contains-5098daea",
+      conceptKey: "large-vein.adventitial-longitudinal-muscle-of-the-inferior-vena-cava",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Options A and C have each absorbed two separate claims into a single unusable blob (A merges 'tunica media is thick' — false for a vein — with 'bundles of smooth muscle in tunica adventitia' — true for the IVC; C merges 'have internal elastic lamina' with 'have external elastic lamina', both generally false for veins). With each surviving option mixing a true and a false sub-claim, or two false sub-claims, no single option can be cleanly selected as the correct answer.",
+    },
+    {
+      key: "tunica-media-of-vein-is-typically-wider-than-tunica-media-of-1c2af8e7",
+      conceptKey: "large-vein.adventitial-longitudinal-muscle-of-the-inferior-vena-cava",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The stem itself is an incomplete, unlabelled statement bled from what should have been option A ('Tunica media of vein is typically wider than tunica media of artery'), and of the two lettered options that survive, B (adventitia of vein wider than that of artery) and D (intima more folded in medium veins than same-sized arteries) are both independently true, standard histological facts — with two plausible true answers and no printed key or source resolving which single one this bank intends, this cannot be confidently keyed.",
+    },
+
+    // --- Concept 3: venule wall structure ---
+    {
+      key: "all-characters-of-venule-except-785c7756",
+      conceptKey: "venule.wall-structure-and-transitional-features",
+      difficulty: "Moderate",
+      questionType: "Recall of a false statement",
+      learningObjective: "Identify the absence of a well-developed external elastic lamina in a venule, unlike the venule's genuine thin subendothelium, gradual smooth muscle and early pericytes.",
+      explanations: {
+        A: "True, so not the exception. A venule's subendothelium is thin connective tissue.",
+        B: "True, so not the exception. A venule's media gains only a few smooth-muscle fibres gradually as its calibre widens toward the medium vein.",
+        C: "The exception, and the answer. A venule carries no well-developed external elastic lamina in its tunica adventitia — that structure belongs to a muscular artery's wall, sitting between media and adventitia, not to a low-pressure venule built without either of the elastic laminae an artery carries.",
+        D: "True, so not the exception. Pericytes support the venule wall from its smallest, post-capillary calibre onward.",
+      },
+    },
+    {
+      key: "post-capillary-venule-is-lined-by-epithelium-2ee47577",
+      conceptKey: "venule.wall-structure-and-transitional-features",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option B has merged three separate choices into one run-on cell ('simple cubical c)simple squamous d)stratified cubical'), leaving only 2 distinguishable choices (A, merged-B) for what should be a 4-option item. Even setting the corruption aside, the printed answer (A, 'simple columnar') does not match the standard teaching that a post-capillary venule's endothelium is simple squamous — only a specialised high-endothelial venule of lymphoid tissue is cuboidal — and no source here resolves which the question actually intends, so the credited answer cannot be taught as a direct, confident statement.",
+    },
+
+    // --- Concept 4: vein vs artery, wall thickness / lumen / postmortem appearance ---
+    {
+      key: "the-following-is-a-difference-between-medium-sized-artery-an-e8d4f013",
+      conceptKey: "vein-vs-artery.wall-thickness-lumen-and-postmortem-appearance",
+      difficulty: "Moderate",
+      questionType: "Structure and function",
+      learningObjective: "Identify the collapsed, blood-filled postmortem lumen of a medium vein as the genuine artery-vein difference, ruling out reversed intima, media and lumen-content claims.",
+      explanations: {
+        A: "The reverse is true: the postmortem distinguishing feature of the intima is that it appears folded in a vein (from wall collapse), not a simple difference in intimal thickness.",
+        B: "The reverse is true: a medium vein's media has relatively sparse elastic fibres compared with an artery's; arteries are the vessel type with the well-developed elastic component in the media.",
+        C: "After death, a medium-sized vein's thin wall and low intraluminal pressure let its lumen collapse into a folded, blood-filled shape — a practical clue for distinguishing artery from vein in a fixed section.",
+        D: "The reverse is true: arteries typically appear relatively empty of blood after death, since elastic recoil expels much of their luminal contents as the vessel constricts.",
+      },
+    },
+    {
+      key: "very-wide-lumen-thick-wall-1c5648f9",
+      conceptKey: "vein-vs-artery.wall-thickness-lumen-and-postmortem-appearance",
+      difficulty: "Moderate",
+      questionType: "Classification",
+      learningObjective: "Identify the large elastic artery as the vessel type classically described by very wide lumen plus thick wall, distinguishing it from medium arteries and from veins of either size.",
+      explanations: {
+        A: "The large elastic artery — the aorta and its major branches — is described by exactly this combination: a very wide lumen and a thick wall, its media built from 40 to 70 circularly arranged elastic membranes.",
+        B: "A medium (muscular) artery's lumen is narrower than a large elastic artery's; its thick wall is built from smooth muscle rather than the very wide lumen this combination names.",
+        C: "A large vein such as the inferior vena cava is also thick-walled, but that thickness sits in an adventitia doing mechanical work, not the media-built, elastic-recoil wall this classic combination names.",
+        D: "A medium vein is thin-walled at every layer, the opposite of this combination.",
+      },
+    },
+
+    // --- Bookkeeping excludes: bank-flagged unanswerable fragments, leaf-tagged Veins ---
+    {
+      key: "medium-sized-arteries-d8faffa8",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The stem is a bare fragment ('Medium sized arteries') with no actual question attached, and only two option-like fragments survive ('Medium sized veins', 'Inferior vena cava') without any indication of what property or comparison is being asked about. Not answerable as extracted.",
+    },
+    {
+      key: "concerning-large-veins-which-one-of-the-following-statements-1b1fd630",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Option A has absorbed what should be a separate option B ('Its adventitia may contain smooth muscles. B- They have well defined internal elastic lamina') into one merged cell, leaving only 3 distinguishable choices (merged-A, C, D) for what should be a 4-option item — no distractor note exists for a standalone 'B' because no standalone B ever survived extraction. The same option-merge corruption class documented throughout this bank; unfixable at the seed layer since no stem/option-override field exists.",
+    },
+    {
+      key: "the-internal-elastic-lamina-in-the-medium-sized-artery-is-an-b0c0cd7a",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Options A and C each merge two of what were originally four matrix choices (artery/vein internal-elastic-lamina combinations: prominent/absent, prominent/prominent, absent/prominent, absent/absent) into one run-on cell, and option D is a stray fragment ('Internal elastic lamina.') repeating the stem's own subject rather than offering a genuine fourth choice — no single lettered option is a clean, standalone statement a student could select. The same underlying fact survives cleanly on this leaf's own prominent-internal-elastic-lamina-iel-is-seen-in and the-internal-elastic-lamina-is-prominent-in questions.",
+    },
+    {
+      key: "the-medium-sized-vein-is-characterized-by-efb9e135",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Only 2 options survived extraction (A, B) — well below the platform's 4-to-5-option import contract, and no third or fourth choice is recoverable from the source, so this cannot be authored as extracted despite the handwritten answer mark being legible.",
+    },
+    {
+      key: "concerning-the-medium-sized-veins-all-of-the-following-are-t-7d6b234b",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Options merge in pairs — A absorbs a separate B ('It has thin wall. B- It has wide lumen'), and C absorbs a separate D ('Tunica intima has internal elastic lamina. D- Tunica media is thin with fewer elastic fibers') — leaving only 2 distinguishable choices for a 4-option item, the same A+B/C+D merge-corruption class documented throughout this bank.",
+    },
+    {
+      key: "regarding-the-fetal-circulation-and-circulatory-changes-afte-6044f685",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "Both surviving substantive options are confidently false under standard fetal circulation physiology (oxygenated blood returns to the fetus via the umbilical vein, not the umbilical artery; the ductus arteriosus shunts blood from the pulmonary trunk to the aorta, not from the pulmonary veins), and the third surviving 'option' (a bare diagnosis name, 'Atrial septal defect') does not fit the sentence structure of a statement to evaluate as true or false. The correct statement was most likely in a missing option C. Content-wise this row is fetal-circulation anatomy, not vein histology — leaf-tagged Veins in the bank, bookkept here since it is unanswerable regardless of its true topic.",
+    },
+    {
+      key: "regarding-the-heart-choose-the-correct-answer-it-lies-in-the-c3cd415b",
+      conceptKey: "vein-classification.medium-vein-wall-structure-and-valve-distribution",
+      difficulty: "Moderate",
+      questionType: "Not sittable as extracted.",
+      learningObjective: "Not sittable as extracted.",
+      explanations: {},
+      exclude: true,
+      excludeReason: "The likely-correct embedded statement (the heart lies in the middle mediastinum, which is true) has no surviving option letter; option A is a bare, incomplete fragment ('The right atrium') that does not form a complete statement; and the three remaining lettered options (B, C, D) are each confidently false under standard cardiac anatomy (the heart's base is formed mainly by the left, not right, atrium; the apex is formed by the left ventricle alone, not both ventricles; and the left, not right, atrium receives the four pulmonary veins). Content-wise this row is heart-chamber anatomy, not vein histology — leaf-tagged Veins in the bank, bookkept here since it is unanswerable regardless of its true topic.",
+    },
+  ],
+}
