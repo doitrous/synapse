@@ -9,6 +9,7 @@
     Pericardium — 10 questions, 3 concepts
     Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 29 questions, 4 concepts
+    Histology Cardiovascular System — A-V Connections — 25 questions, 5 concepts
     Physiology Cardiovascular System — Capillary Exchange and Permeability — 2 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 28 questions, 2 concepts
@@ -4885,6 +4886,2306 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 
+
+---
+
+# Item
+## id
+QM-104-B933F5614D99
+## title
+Blood capillaries in exocrine glands are:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Blood capillaries in exocrine glands are:
+## answer_a
+Sinusoidal capillaries.
+## explanation_a
+Sinusoidal capillaries, with their wide-open, discontinuous-basal-lamina wall, are built for whole-cell and plasma-protein traffic in organs like the liver, spleen and bone marrow — a wall far more open than an exocrine gland's active secretion needs.
+## answer_b
+Visceral capillaries.
+## explanation_b
+"Visceral capillary" is an alternative name for the fenestrated type itself, not a separate, distinct category from it.
+## answer_c
+Fenestrated capillaries.
+## explanation_c
+An exocrine gland's active secretion needs fast bulk movement of fluid and small solutes across its capillary wall, exactly the fast-exchange role a fenestrated capillary's diaphragmed pores are built for — the same design already named for the intestine and endocrine glands, extended here to an exocrine one.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_d
+Somatic capillaries.
+## explanation_d
+"Somatic capillary" names the continuous, sealed type — built for slow, small-solute exchange only — the opposite of what an actively secreting gland needs.
+## correct_answer
+C
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology Cardiovascular System — A-V Connections
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Extend the fenestrated-capillary fast-exchange principle to exocrine gland secretion, alongside the article's own named sites.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 FINALS (answered) (1) (1).pdf p27 q14; EOY 104 exams Not answerd (1) (1).pdf p15 q14. Manifest src_375227d5b7c819636151, src_f0dc974eca83c51623bc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3A027FDB25DA
+## title
+One of the following is a type of blood capillaries:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a type of blood capillaries:
+## answer_a
+Blood sinusoids
+## explanation_a
+Blood sinusoids are one of the three recognised structural types of blood capillary — alongside continuous and fenestrated — distinguished by their large, irregular lumen and open, discontinuous wall.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_b
+Coronary vessels
+## explanation_b
+Coronary vessels are specific, named arteries (and their branches) supplying the heart muscle, not a structural category of capillary.
+## answer_c
+Basilar vessels
+## explanation_c
+"Basilar vessels" refers to the specific basilar artery of the brainstem circulation, not a capillary type.
+## answer_d
+Lymphatic capillaries
+## explanation_d
+Lymphatic capillaries belong to the separate lymphatic vascular system, carrying lymph rather than blood, so they are not a type of blood capillary.
+## correct_answer
+A
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise blood sinusoids as one of the three structural capillary types, distinct from named individual vessels and from the lymphatic system.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p18 q20; DPT HISTO MCQ [Cardiovascular].pdf p2 q20. Manifest src_9cf32ada2b25fa54f0e9, src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-0D9229E3B632
+## title
+capillary is called Visceral Capillary
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+capillary is called Visceral Capillary
+## answer_a
+Continuous
+## explanation_a
+"Continuous" names the sealed, somatic capillary type, built for slow small-solute exchange across an intact barrier — not the term this question tests.
+## answer_b
+fenestrated
+## explanation_b
+"Visceral capillary" is the alternative name for the fenestrated capillary, the type whose diaphragmed pores suit the fast fluid and solute exchange demanded by the viscera (intestine, endocrine glands, glomerulus).
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_c
+Sinusoidal
+## explanation_c
+"Sinusoidal" names the wide-open, discontinuous-wall type built for whole-cell and plasma-protein traffic — a different, more open structure from the fenestrated (visceral) type.
+## answer_d
+lymphatic
+## explanation_d
+"Lymphatic" names a capillary of the separate lymphatic system, not a structural class of blood capillary at all.
+## correct_answer
+B
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Equate "visceral capillary" with the fenestrated capillary type.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q44. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D80C1B4DBA71
+## title
+capillary is covered by diaphragm with continuous basal lamina, tight Junction, pericyte
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+capillary is covered by diaphragm with continuous basal lamina, tight Junction, pericyte
+## answer_a
+Continuous
+## explanation_a
+A continuous capillary has no pores at all — this description of a diaphragmed pore does not apply to it.
+## answer_b
+fenestrated
+## explanation_b
+This is exactly the fenestrated (visceral) capillary: a diaphragm covers its endothelial pores, and — unlike a sinusoid — its basal lamina stays continuous.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_c
+Sinusoidal
+## explanation_c
+A sinusoidal capillary's pores carry no diaphragm and sit on a discontinuous, not continuous, basal lamina — the opposite combination from the one this question describes.
+## answer_d
+lymphatic
+## explanation_d
+A lymphatic capillary is non-fenestrated altogether, so it carries no diaphragmed pore of this kind.
+## correct_answer
+B
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the fenestrated capillary by its diaphragmed pores sitting on a still-continuous basal lamina.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q42. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4AF34996EEEE
+## title
+capillary is present in intestine, endocrine , renal Capillaries
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+capillary is present in intestine, endocrine , renal Capillaries
+## answer_a
+Continuous
+## explanation_a
+Continuous capillaries are sited in tissue needing only slow, small-solute exchange, not the fast fluid and hormone traffic of the intestine, endocrine glands and glomerulus.
+## answer_b
+fenestrated
+## explanation_b
+The fenestrated (visceral) capillary is sited exactly here — the intestine, endocrine glands (carrying hormones) and the renal glomerulus, where its fenestrae characteristically carry no diaphragm at all.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_c
+Sinusoidal
+## explanation_c
+Sinusoidal capillaries are sited in the liver, spleen and bone marrow, where whole cells and plasma proteins — not simply fast fluid exchange — must cross the wall.
+## answer_d
+lymphatic
+## explanation_d
+Lymphatic capillaries are widespread in the interstitial spaces generally, not specifically named for the intestine, endocrine glands or glomerulus as a defining site.
+## correct_answer
+B
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the intestine, endocrine glands and renal glomerulus as the fenestrated capillary's three sites.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q45. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-5BB990402ECA
+## title
+The type of capillaries that show pores and diaphragms is:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The type of capillaries that show pores and diaphragms is:
+## answer_a
+Somatic capillary
+## explanation_a
+The somatic (continuous) capillary carries no pores of any kind in its endothelium.
+## answer_b
+Visceral capillary
+## explanation_b
+The fenestrated, or visceral, capillary is defined by pores (fenestrae) covered by diaphragms — a non-membranous, cartwheel-like structure with a central thickening and fourteen wedge-shaped gaps.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_c
+Blood sinusoid
+## explanation_c
+A blood sinusoid does carry pores, but they are open, without a covering diaphragm — a further step beyond the fenestrated type's diaphragmed pattern.
+## answer_d
+Continuous capillary
+## explanation_d
+A continuous capillary, by definition, has no pores or fenestrations of any kind.
+## correct_answer
+B
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology Cardiovascular System — A-V Connections
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that pores covered by diaphragms identify the fenestrated (visceral), not the somatic or sinusoidal, capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q115. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CBF4D4030DAB
+## title
+Visceral capillaries are characterized by the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Visceral capillaries are characterized by the following:
+## answer_a
+Have no pores in their wall
+## explanation_a
+Visceral (fenestrated) capillaries, by definition, do have pores in their wall — the opposite of having none.
+## answer_b
+Has discontinuous basement membrane
+## explanation_b
+Visceral (fenestrated) capillaries have a continuous basal lamina, distinguishing them from sinusoids, whose basal lamina is discontinuous.
+## answer_c
+Are found at sites where rapid exchange is needed
+## explanation_c
+Fenestrated capillaries exist specifically to support rapid exchange of fluid and small solutes between blood and tissue, which is why they are sited in the intestine, endocrine glands and renal glomerulus — organs with high filtration or secretory demand. This functional rationale is the defining, generalisable characteristic.
+
+Why this is right:
+- The fenestrated, or visceral, capillary is the second of the three capillary types, between the continuous (somatic) capillary and the sinusoidal capillary.
+## answer_d
+Present in intestine
+## explanation_d
+Presence in the intestine is a true but narrower, example-level fact rather than the general defining characteristic this question asks for.
+## correct_answer
+C
+## main_concept
+CON-CVS-132A76916FEC05
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify rapid fluid and solute exchange as the fenestrated (visceral) capillary's defining functional role, distinct from its structural details or any one named site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p3 q23. Manifest src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A46F56779953
+## title
+One of the following is a type of blood capillaries: ‏ا‎ ‎a. Blood sinusoids. b. Corona…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a type of blood capillaries: ‏ا‎ ‎a. Blood sinusoids. b. Coronary vessels
+## answer_a
+Blood sinusoids.
+## explanation_a
+Blood sinusoids are one of the three recognised structural types of blood capillary — alongside continuous and fenestrated — distinguished by a large, irregular lumen and an open, discontinuous wall built for whole-cell and plasma-protein traffic.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_b
+Coronary vessels.
+## explanation_b
+Coronary vessels are specific, named arteries (and their branches) supplying the heart muscle, not a structural category of capillary.
+## answer_c
+Basilar vessels.
+## explanation_c
+"Basilar vessels" refers to the specific basilar artery of the brainstem circulation, not a capillary type.
+## answer_d
+Lymphatic capillaries
+## explanation_d
+Lymphatic capillaries belong to the separate lymphatic vascular system, carrying lymph rather than blood, so they are not a type of blood capillary.
+## correct_answer
+A
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise blood sinusoids as one of the three structural capillary types (duplicate occurrence of the same fact from a different source book).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p2 q20. Manifest src_437b45e5de1d97a26dc6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-AF3599A619DD
+## title
+Blood sinusoids are common in the following sites:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Blood sinusoids are common in the following sites:
+## answer_a
+Brain
+## explanation_a
+The brain's capillaries are continuous and sealed by tight junctions as part of the blood-brain barrier — the structural opposite of an open sinusoid.
+## answer_b
+Stomach
+## explanation_b
+The stomach's mucosal capillaries are fenestrated, suited to rapid secretory exchange, not open sinusoids built for whole-cell traffic.
+## answer_c
+Skin
+## explanation_c
+Skin capillaries are continuous, sealed vessels suited to slow, small-solute exchange, not the open, whole-cell-permitting sinusoid.
+## answer_d
+Endocrine gland
+## explanation_d
+Endocrine glands carry sinusoidal capillaries alongside the liver, spleen and bone marrow — their wide, open, discontinuous-basal-lamina wall lets a hormone-rich, protein-rich blood pass freely into the circulation.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## correct_answer
+D
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name endocrine glands, alongside liver, spleen and bone marrow, as a blood-sinusoid site.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p2 q21; Histo MCQ by Dr.Kandeel [104].pdf p18 q21. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-77A3DAB898AF
+## title
+Somatic capillaries are characterized by the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Somatic capillaries are characterized by the following:
+## answer_a
+Have pores in their wall
+## explanation_a
+A continuous (somatic) capillary's endothelium has no pores at all — the opposite of this option.
+## answer_b
+The most common type
+## explanation_b
+The continuous (somatic) capillary, sealed and built for small-solute exchange in ordinary tissue such as muscle, skin and the CNS, is the most widespread and therefore commonest of the three capillary types.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_c
+Has discontinuous basement membrane
+## explanation_c
+A continuous capillary's basal lamina is continuous, not discontinuous — a discontinuous basal lamina instead marks the sinusoid.
+## answer_d
+Endothelium forms discontinuous layer
+## explanation_d
+A continuous capillary's endothelium forms an unbroken, continuous layer, not a discontinuous one — a discontinuous endothelial layer instead marks the sinusoid.
+## correct_answer
+B
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the continuous (somatic) capillary is the commonest capillary type.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p18 q22; DPT HISTO MCQ [Cardiovascular].pdf p3 q22. Manifest src_9cf32ada2b25fa54f0e9, src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-F6D6B0AE4512
+## title
+Blood sinusoids are characterized by all the following EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Blood sinusoids are characterized by all the following EXCEPT:
+## answer_a
+Have continuous basement membrane
+## explanation_a
+The exception, and the answer. A blood sinusoid has a discontinuous, not continuous, basement membrane — this open, gap-filled basal lamina is exactly what lets whole cells and plasma proteins cross its wall.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_b
+Show wide intercellular clefts
+## explanation_b
+True of a sinusoid, so not the exception — wide gaps between its endothelial cells are a defining feature.
+## answer_c
+Have fenestrated endothelium
+## explanation_c
+True of a sinusoid, so not the exception — its endothelium carries fenestrations without a covering diaphragm.
+## answer_d
+Are wider than capillaries
+## explanation_d
+True of a sinusoid, so not the exception — its lumen is wider and more irregular than an ordinary capillary's.
+## correct_answer
+A
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a discontinuous, not continuous, basement membrane is the true blood-sinusoid feature.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q10. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-187C9F7B05CE
+## title
+Capillary is Continuous endothelium, basal lamina with tight junction, pericyte
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Capillary is Continuous endothelium, basal lamina with tight junction, pericyte
+## answer_a
+Continuous
+## explanation_a
+This describes the continuous (somatic) capillary exactly: an unbroken endothelium, a continuous basal lamina, endothelial cells joined by tight junctions, and pericytes present.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_b
+fenestrated
+## explanation_b
+A fenestrated capillary shares the tight junctions, continuous basal lamina and pericytes, but its endothelium carries diaphragmed pores rather than being unbroken.
+## answer_c
+Sinusoidal
+## explanation_c
+A sinusoidal capillary has wide intercellular gaps rather than tight junctions, and a discontinuous rather than continuous basal lamina — the opposite pattern.
+## answer_d
+lymphatic
+## explanation_d
+A lymphatic capillary is non-fenestrated but has wide intercellular gaps, an interrupted basal lamina, and usually lacks pericytes — a different combination again.
+## correct_answer
+A
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the continuous capillary by its unbroken endothelium, continuous basal lamina, tight junctions and pericytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q41. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-35D35E8A849B
+## title
+Capillary is present in liver, spleen, B.M
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Capillary is present in liver, spleen, B.M
+## answer_a
+Continuous
+## explanation_a
+Continuous capillaries are sited in tissue needing only slow, small-solute exchange, not the whole-cell and plasma-protein traffic of the liver, spleen and bone marrow.
+## answer_b
+fenestrated
+## explanation_b
+Fenestrated capillaries are sited in the intestine, endocrine glands and renal glomerulus, where fast fluid and hormone exchange — not whole-cell traffic — is the demand.
+## answer_c
+Sinusoidal
+## explanation_c
+Sinusoidal capillaries are sited exactly here: the liver (plasma proteins), spleen and bone marrow (stored and formed blood cells), where their wide-open, discontinuous-basal-lamina wall lets whole cells cross.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_d
+lymphatic
+## explanation_d
+Lymphatic capillaries drain the interstitial spaces generally, not specifically named for the liver, spleen or bone marrow as a defining site.
+## correct_answer
+C
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the liver, spleen and bone marrow as sinusoidal capillary sites.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q46. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-143C97D0197B
+## title
+Capillary is without diaphragm, pericyte but contain macrophage
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Capillary is without diaphragm, pericyte but contain macrophage
+## answer_a
+Continuous
+## explanation_a
+A continuous capillary carries neither pores nor a macrophage association — the opposite combination from the one this question describes.
+## answer_b
+fenestrated
+## explanation_b
+A fenestrated capillary's pores are covered by a diaphragm and it retains pericytes — the reverse of the diaphragm-free, pericyte-poor wall this question describes.
+## answer_c
+Sinusoidal
+## explanation_c
+The sinusoidal capillary matches all three features: its pores carry no diaphragm, it has few to no pericytes, and macrophages sit within or beside its wall — the classic example being Kupffer cells lodged in liver sinusoids.
+
+Why this is right:
+- Continuous (somatic) capillaries are the sealed type: a small, regular calibre, an unbroken endothelium with no pores, endothelial cells joined by tight junctions, and a continuous basal lamina, built for tissue where only small solutes and gases need to cross an intact barrier.
+## answer_d
+lymphatic
+## explanation_d
+A lymphatic capillary usually lacks pericytes too, but it is not the type associated with macrophages sitting in or beside its own wall — that association is the sinusoid's own signature feature.
+## correct_answer
+C
+## main_concept
+CON-CVS-E1894F649030DE
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the sinusoidal capillary by its diaphragm-free pores, reduced pericyte coverage and macrophage association.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q43. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-A3F7B1F54E23
+## title
+Characters of Blood Capillaries include All except
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Characters of Blood Capillaries include All except
+## answer_a
+pericyte surround endothelium
+## explanation_a
+True of blood capillaries generally, so not the exception — the pericyte does surround the endothelium.
+## answer_b
+pericyte basal lamina fuse with that of endothelium
+## explanation_b
+True, so not the exception — the pericyte sits within a split of the endothelial cell's own basal lamina, so the two basal laminae fuse around it.
+## answer_c
+larger in diameter than erythrocyte
+## explanation_c
+The exception, and the answer. A capillary is roughly the same calibre as an erythrocyte, not larger — red cells must deform to pass through it in single file, the opposite of this statement.
+
+Why this is right:
+- The pericyte is a contractile, mesenchymal-lineage cell that wraps around the capillary endothelium, sitting within a split of the endothelial cell's own basal lamina — occupying, structurally, the position a tunica media would occupy in a larger vessel, since the capillary wall itself has no true media of its own.
+## answer_d
+macrophage extend their pseudopodia in intercell space
+## explanation_d
+True of blood capillaries generally, so not the exception — macrophages do extend pseudopodia into the intercellular space around the capillary wall.
+## correct_answer
+C
+## main_concept
+CON-CVS-AF9C427AABAEF0
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a capillary's diameter is not larger than an erythrocyte's, against three true pericyte and macrophage facts.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q40. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-AF2A022F839E
+## title
+Pericytes of blood capillaries perform the following function:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Pericytes of blood capillaries perform the following function:
+## answer_a
+Provide smooth surface for blood flow through capillaries
+## explanation_a
+A smooth luminal surface for blood flow is a property of the endothelial cells themselves, not a function performed by the pericyte wrapped around them.
+## answer_b
+Regulate the blood flow through capillaries
+## explanation_b
+The pericyte is a contractile cell; its contraction narrows the capillary lumen and so regulates local capillary blood flow, a control point distinct from the arteriole's own upstream regulation.
+
+Why this is right:
+- The pericyte is a contractile, mesenchymal-lineage cell that wraps around the capillary endothelium, sitting within a split of the endothelial cell's own basal lamina — occupying, structurally, the position a tunica media would occupy in a larger vessel, since the capillary wall itself has no true media of its own.
+## answer_c
+Can differentiate into elastic fibers
+## explanation_c
+The pericyte can differentiate into a fibroblast (or a smooth muscle cell), but this differentiation potential is a separate fact from its everyday contractile function, which this question asks about.
+## answer_d
+Provide nutrition to capillaries wall
+## explanation_d
+Nutrition of the capillary wall is not a recognised pericyte function; the pericyte's defining role is contractile flow regulation.
+## correct_answer
+B
+## main_concept
+CON-CVS-AF9C427AABAEF0
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that pericyte contraction regulates local capillary blood flow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p3 q25; Histo MCQ by Dr.Kandeel [104].pdf p19 q25. Manifest src_437b45e5de1d97a26dc6, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-DEF7C973D8E4
+## title
+In the blood capillaries, regulating the blood flow is the function of:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+In the blood capillaries, regulating the blood flow is the function of:
+## answer_a
+Elastic fibers
+## explanation_a
+Elastic fibres provide passive recoil in larger vessel walls; a capillary wall carries none, and they play no role in local capillary flow regulation.
+## answer_b
+Smooth muscle fibers
+## explanation_b
+Smooth muscle fibres regulate flow at the arteriole and metarteriole, upstream of the capillary itself, which has no true smooth-muscle media of its own.
+## answer_c
+Fibroblasts
+## explanation_c
+Fibroblasts are connective-tissue cells with no contractile role in the capillary wall.
+## answer_d
+Pericytes
+## explanation_d
+The pericyte is the capillary's own contractile cell; its contraction narrows the lumen and so regulates local capillary blood flow, the wall's only point of active flow control at this level.
+
+Why this is right:
+- The pericyte is a contractile, mesenchymal-lineage cell that wraps around the capillary endothelium, sitting within a split of the endothelial cell's own basal lamina — occupying, structurally, the position a tunica media would occupy in a larger vessel, since the capillary wall itself has no true media of its own.
+## correct_answer
+D
+## main_concept
+CON-CVS-AF9C427AABAEF0
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology Cardiovascular System — A-V Connections
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that pericytes, not elastic fibres, smooth muscle fibres or fibroblasts, regulate capillary blood flow (duplicate occurrence, handwritten-recovered answer).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p15 q114. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-F8D3AC331BBD
+## title
+Pericyte of blood capillary can differentiate into the following cell:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Pericyte of blood capillary can differentiate into the following cell:
+## answer_a
+Macrophage. ,
+## explanation_a
+Macrophages differentiate from monocytes of the haematopoietic lineage, an entirely different developmental origin from the mesenchymal pericyte.
+## answer_b
+Skeletal muscle cell
+## explanation_b
+Skeletal muscle cells arise from myogenic precursor (satellite) cells of a distinct lineage, not from pericytes.
+## answer_c
+Mesothelial cell
+## explanation_c
+Mesothelial cells arise embryologically from the coelomic mesothelium lining body cavities, an unrelated lineage to the perivascular pericyte.
+## answer_d
+Fibroblast
+## explanation_d
+The pericyte is a multipotent, mesenchymal-lineage cell that retains the capacity to differentiate into other mesenchymal derivatives, most notably the fibroblast (and smooth muscle cells), particularly during tissue repair and vascular remodelling.
+
+Why this is right:
+- The pericyte is a contractile, mesenchymal-lineage cell that wraps around the capillary endothelium, sitting within a split of the endothelial cell's own basal lamina — occupying, structurally, the position a tunica media would occupy in a larger vessel, since the capillary wall itself has no true media of its own.
+## correct_answer
+D
+## main_concept
+CON-CVS-AF9C427AABAEF0
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Cardiovascular
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a pericyte, being of mesenchymal lineage, can differentiate into a fibroblast.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p3 q26. Manifest src_b1c03ac55330bb88dc62.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-47C7819F9A70
+## title
+Pericyte of blood capillary can differentiate into the following:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Pericyte of blood capillary can differentiate into the following:
+## answer_a
+Macrophage
+## explanation_a
+Macrophages differentiate from monocytes of the haematopoietic lineage, an entirely different developmental origin from the mesenchymal pericyte.
+## answer_b
+Skeletal muscle cell
+## explanation_b
+Skeletal muscle cells arise from myogenic precursor (satellite) cells of a distinct lineage, not from pericytes.
+## answer_c
+Mesothelial cell
+## explanation_c
+Mesothelial cells arise embryologically from the coelomic mesothelium lining body cavities, an unrelated lineage to the perivascular pericyte.
+## answer_d
+Fibroblast
+## explanation_d
+The pericyte is a multipotent, mesenchymal-lineage cell that retains the capacity to differentiate into other mesenchymal derivatives, most notably the fibroblast (and smooth muscle cells), particularly during tissue repair and vascular remodelling.
+
+Why this is right:
+- The pericyte is a contractile, mesenchymal-lineage cell that wraps around the capillary endothelium, sitting within a split of the endothelial cell's own basal lamina — occupying, structurally, the position a tunica media would occupy in a larger vessel, since the capillary wall itself has no true media of its own.
+## correct_answer
+D
+## main_concept
+CON-CVS-AF9C427AABAEF0
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a pericyte, being of mesenchymal lineage, can differentiate into a fibroblast (duplicate occurrence from a different source book).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p19 q26. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-DB128D21EC5A
+## title
+Tunica media of blood capillaries is formed of:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Tunica media of blood capillaries is formed of:
+## answer_a
+Pericytes
+## explanation_a
+A capillary wall has no true tunica media of its own; the pericyte, wrapped around the endothelium within a split of its basal lamina, occupies that structural position instead.
+
+Why this is right:
+- The pericyte is a contractile, mesenchymal-lineage cell that wraps around the capillary endothelium, sitting within a split of the endothelial cell's own basal lamina — occupying, structurally, the position a tunica media would occupy in a larger vessel, since the capillary wall itself has no true media of its own.
+## answer_b
+Smooth muscle fibers
+## explanation_b
+Smooth muscle fibres form the tunica media of an arteriole or larger vessel, but a capillary's wall carries no smooth muscle layer at all.
+## answer_c
+Fibroblasts
+## explanation_c
+Fibroblasts belong to the surrounding connective tissue, not to the capillary wall's own structure.
+## answer_d
+Elastic fibers
+## explanation_d
+Elastic fibres are a tunica media and adventitia component of larger vessels; a capillary wall carries none.
+## correct_answer
+A
+## main_concept
+CON-CVS-AF9C427AABAEF0
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the pericyte occupies the position a tunica media would occupy in a capillary wall, since the capillary has no true media.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p18 q19. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-60397E7E361E
+## title
+All Characters of lymphatic capillary except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All Characters of lymphatic capillary except:
+## answer_a
+Begin with blind end
+## explanation_a
+True of a lymphatic capillary, so not the exception — it begins with a blind end, unlike a blood capillary, which begins from a small arteriole.
+## answer_b
+Non fenestrated endothelium with wide gap between cells
+## explanation_b
+True, so not the exception — its endothelium is non-fenestrated but shows wide gaps between cells, wider than a blood capillary's.
+## answer_c
+Continuous basal lamina with pericyte
+## explanation_c
+The exception, and the answer. A lymphatic capillary has an interrupted, not continuous, basal lamina, and it usually lacks the pericytes that usually surround a blood capillary — the reverse of what this option states.
+
+Why this is right:
+- Blood capillaries begin from small arterioles; lymphatic capillaries begin with a blind end.
+## answer_d
+remove lymph from interstitial space
+## explanation_d
+True, so not the exception — removing lymph from the interstitial space and returning it to the blood is the lymphatic capillary's defining function.
+## correct_answer
+C
+## main_concept
+CON-CVS-E8964EBC8F2357
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a lymphatic capillary lacks a continuous basal lamina and usually lacks pericytes, the opposite of a blood capillary's own usual pattern.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q48. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-91A65573EC78
+## title
+Lymphatic capillary is characterized by all the following EXCEPT:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Lymphatic capillary is characterized by all the following EXCEPT:
+## answer_a
+Its endothelial cells contain fenestrae
+## explanation_a
+The exception, and the answer. Lymphatic capillary endothelium is non-fenestrated — it has no fenestrae at all; its wider permeability instead comes from wide gaps between its endothelial cells.
+
+Why this is right:
+- Blood capillaries begin from small arterioles; lymphatic capillaries begin with a blind end.
+## answer_b
+No tight junctions present between its endothelial cells
+## explanation_b
+True of a lymphatic capillary, so not the exception — no tight junctions join its endothelial cells, allowing easy entry of interstitial fluid and large molecules.
+## answer_c
+It has blind end
+## explanation_c
+True, so not the exception — a lymphatic capillary begins with a blind end, unlike a blood capillary.
+## answer_d
+It has wide irregular lumen
+## explanation_d
+True, so not the exception — its lumen is wide and irregular, wider than an ordinary blood capillary's.
+## correct_answer
+A
+## main_concept
+CON-CVS-E8964EBC8F2357
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a lymphatic capillary's endothelium is non-fenestrated, against three true features.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p16 q12. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E357BFE8B842
+## title
+Regarding the lymphatic capillaries, choose the correct statement:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the lymphatic capillaries, choose the correct statement:
+## answer_a
+Made of a single layer of endothelium. i
+## explanation_a
+A lymphatic capillary is made of a single, thin layer of endothelial cells, similar in this basic construction to a blood capillary, though adapted very differently to its own fluid- and macromolecule-collecting function.
+
+Why this is right:
+- Blood capillaries begin from small arterioles; lymphatic capillaries begin with a blind end.
+## answer_b
+Are smaller and less permeable than blood capillaries. |
+## explanation_b
+Lymphatic capillaries are larger in diameter and more, not less, permeable than blood capillaries — essential to their fluid- and macromolecule-collecting function.
+## answer_c
+Cells of the epithelial lining are joined by tight junctions. |
+## explanation_c
+Lymphatic capillary endothelial cells are joined by loose, overlapping junctions rather than tight junctions, specifically to allow easy entry of interstitial fluid and proteins.
+## answer_d
+The basement membrane splits to enclose pericytes. |
+## explanation_d
+Lymphatic capillaries characteristically lack a continuous basement membrane and usually lack pericytes altogether, rather than having a basement membrane that splits to enclose pericytes as some blood vessels do.
+## correct_answer
+A
+## main_concept
+CON-CVS-E8964EBC8F2357
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Lymphatic
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a lymphatic capillary, like a blood capillary, is a single layer of endothelium, despite its other differences from a blood capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic System].pdf p1 q3. Manifest src_b0c5c0d32e396511ae20.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-F0A849808F22
+## title
+Arterio-venous anastomoses are characterized by:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Arterio-venous anastomoses are characterized by:
+## answer_a
+Present in tip of fingers and toes
+## explanation_a
+True of arteriovenous anastomoses, so on its own an incomplete answer — they are indeed concentrated in the tips of the fingers and toes, among other exposed sites.
+## answer_b
+Richly innervated by sympathetic system
+## explanation_b
+True, so on its own an incomplete answer — they are richly innervated by sympathetic fibres that open or close the shunt.
+## answer_c
+Regulate blood pressure
+## explanation_c
+True, so on its own an incomplete answer — opening or closing the shunt regulates blood flow and pressure distribution to these peripheral sites.
+## answer_d
+All of the above
+## explanation_d
+Each of the three statements — characteristic distribution, sympathetic innervation, and a haemodynamic regulatory role — is independently a genuine feature of arteriovenous anastomoses, so the complete, correct choice combines all three.
+
+Why this is right:
+- An arteriovenous anastomosis (shunt) is a direct connection between an arteriole and a venule that bypasses the capillary bed entirely.
+## correct_answer
+D
+## main_concept
+CON-CVS-4BE9D0F74D4377
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Combine an arteriovenous anastomosis's site, innervation and regulatory role into the single "all of the above" characterisation the question tests.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p15 q11. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-57FBA0EE8651
+## title
+Regarding arterio-venous anastomosis:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding arterio-venous anastomosis:
+## answer_a
+If opened, blood passes through capillary bed
+## explanation_a
+The reverse of what happens: opening (dilating) an anastomosis lets blood bypass the capillary bed through the shunt's direct arteriole-to-venule connection, not pass through the capillary bed — closing the sphincter is what sends blood through the capillary bed as usual.
+## answer_b
+Dilate in hot weather
+## explanation_b
+True of arteriovenous anastomoses in isolation — they do dilate in hot weather, redirecting blood toward the skin surface for heat loss — but this names only one half of their thermoregulatory behaviour, not the broader functional role tested here.
+## answer_c
+Constrict in cold weather
+## explanation_c
+True in isolation — anastomoses do constrict in cold weather to help conserve heat — but again this names only the opposite half of the same thermoregulatory behaviour, not the complete answer this question tests.
+## answer_d
+Regulate venous return
+## explanation_d
+A shunt's defining, broader physiological role: opening it lets a large volume of blood bypass the capillary bed and run through this short, low-resistance circuit into the venous side, directly increasing venous return.
+
+Why this is right:
+- An arteriovenous anastomosis (shunt) is a direct connection between an arteriole and a venule that bypasses the capillary bed entirely.
+## correct_answer
+D
+## main_concept
+CON-CVS-4BE9D0F74D4377
+## library_ids
+ART-104-HIS-AV-CONNECTIONS-CAPILLARIES-SHUNTS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — A-V Connections
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Identify increased venous return as the arteriovenous anastomosis's defining broader physiological role.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p19 q28. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
