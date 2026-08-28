@@ -198,5 +198,28 @@ export const LEAF: McqLeafSeed = {
         D: "Plasma cells (antibody-producing B-lymphocyte derivatives) are not a standard, recognised structural component of the blood-thymic barrier; macrophages, not plasma cells, occupy the perivascular space in this context.",
       },
     },
+    {
+      // Leaf-tag mismatch: bank-tagged "Spleen" but genuinely Hassall's-
+      // corpuscle (thymus) content — this row asks the student to name the
+      // structure from a bare description among unrelated sensory-corpuscle
+      // and splenic distractors, a distinct angle from this concept's
+      // existing "characterised by" and "one of the following is true"
+      // questions, so kept as non-duplicate. Routed onto this file's own
+      // already-existing concept rather than bringing in the OTHER pinned
+      // Hassall's-corpuscle record (CON-HEM-10B2E783E164FD, in
+      // 104-CPS-practical-concepts.md) into a different file — no new search
+      // needed, and no new duplicate-overlap introduced.
+      key: "small-round-shape-with-acidophilic-mass-surrounded-by-reticu-55b41e9f",
+      conceptKey: "thymus.hassalls-corpuscles-cortex-medulla-contrast-and-reticular-cell-functions",
+      difficulty: "Easy",
+      questionType: "Identification from description",
+      learningObjective: "Identify a Hassall's corpuscle from its description (small, round, acidophilic, surrounded by reticular-type cells), against unrelated cutaneous corpuscles and the spleen's white pulp.",
+      explanations: {
+        B: "Correct. A Hassall's corpuscle is a small, round, acidophilic structure found only in the medulla of the thymus, formed of a central acidophilic mass of degenerating, keratinizing epithelial reticular cells surrounded by concentric layers of more epithelial reticular cells.",
+        A: "A Pacinian corpuscle is a pressure/vibration mechanoreceptor found in the dermis and deep tissues — concentric lamellae around a nerve ending, an entirely different structure with no acidophilic degenerating core.",
+        C: "A Ruffini corpuscle is another cutaneous mechanoreceptor (detecting skin stretch), unrelated to the thymus or to any lymphoid organ.",
+        D: "White pulp is the spleen's own lymphoid compartment, built around a central arteriole — a completely different organ and structure from the thymus's Hassall's corpuscle.",
+      },
+    },
   ],
 }

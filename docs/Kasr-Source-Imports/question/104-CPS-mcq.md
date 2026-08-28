@@ -31,7 +31,8 @@
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
-    Lymphatic and Macrophage System — Thymus — 13 questions, 2 concepts
+    Lymphatic and Macrophage System — Spleen — 25 questions, 6 concepts
+    Lymphatic and Macrophage System — Thymus — 14 questions, 2 concepts
     Physiology Cardiovascular System — Cardiac Function — 39 questions, 8 concepts
     Physiology Cardiovascular System — Cardiac Output Formula — 14 questions, 3 concepts
     Physiology Cardiovascular System — Cardiac Preload and Frank-Starling Law — 7 questions, 1 concepts
@@ -59,7 +60,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  84 questions were excluded and 0 held back for having no
+  89 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -23997,6 +23998,1850 @@ Answer changed from the source's: The printed key (C, subcapsular sinus alone) u
 
 # Item
 ## id
+QM-104-91393F898434
+## title
+Choose the correct statement about splenic trabeculae:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about splenic trabeculae:
+## answer_a
+Formed of C.T cells and fibres
+## explanation_a
+Correct. Splenic trabeculae are connective-tissue septa — cells and fibres, specifically rich in elastic fibres and smooth muscle — carrying the blood vessels and nerves that run from the capsule into the pulp.
+
+Why this is right:
+- The spleen has a thick capsule of dense connective tissue rich in smooth muscle and elastic fibres, covered by peritoneum; its trabeculae are long and thick and radiate mainly from the hilum; and its parenchyma is white rounded scattered spots of white pulp on a red background of red pulp.
+## answer_b
+Lack elastic fibres and smooth muscles
+## explanation_b
+The opposite is true: splenic trabeculae are RICH in elastic fibres and smooth muscle, not lacking them — a feature (with the capsule's own smooth muscle and elastic content) that lets the contracted spleen expel stored blood into the circulation.
+## answer_c
+Short, thin and radiate mainly from the hilum
+## explanation_c
+The opposite is true on the part that matters: splenic trabeculae are LONG and THICK, not short and thin, even though most of them do radiate mainly from the hilum (with only a few short, irregular ones arising from the capsule).
+## answer_d
+Divide the spleen into regular compartments
+## explanation_d
+The opposite is true: splenic trabeculae divide the organ into IRREGULAR compartments, not regular ones — unlike a lymph node's own septa, which divide its cortex into regular compartments.
+## correct_answer
+A
+## main_concept
+CON-HEM-2F3CB0082551D1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the correct statement
+## learning_objective
+State that splenic trabeculae are connective tissue rich in elastic fibres and smooth muscle, radiating mainly from the hilum, and dividing the spleen into irregular compartments.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p3 q20; Histo MCQ by Dr.Kandeel [104].pdf p9 q21. Manifest src_2b531af1f3f6eace5974, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-EA273020A84C
+## title
+Capsule of spleen is Covered by
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Capsule of spleen is Covered by
+## answer_a
+adipose tissue
+## explanation_a
+Adipose tissue is not what covers the splenic capsule; neither lymphoid organ's capsule is defined by an overlying fat layer.
+## answer_b
+peritonium
+## explanation_b
+Correct. The spleen is an intraperitoneal organ, and its thick, smooth-muscle- and elastic-fibre-rich capsule is covered externally by peritoneum — unlike a lymph node's capsule, which is covered by fascia instead.
+
+Why this is right:
+- The spleen has a thick capsule of dense connective tissue rich in smooth muscle and elastic fibres, covered by peritoneum; its trabeculae are long and thick and radiate mainly from the hilum; and its parenchyma is white rounded scattered spots of white pulp on a red background of red pulp.
+## answer_c
+reticular fiber
+## explanation_c
+Reticular fibres are an internal stromal component of the spleen's own parenchyma (its reticular network, more condensed at the white pulp), not the tissue covering the outer surface of the capsule.
+## answer_d
+pericy te
+## explanation_d
+A pericyte is a single contractile cell type associated with small vessel walls, not a tissue layer, and plays no role in covering the splenic capsule.
+## correct_answer
+B
+## main_concept
+CON-HEM-2F3CB0082551D1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the splenic capsule is covered by peritoneum, since the spleen is an intraperitoneal organ.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q11. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-ADA38F68F428
+## title
+Regarding the Red pulp of the spleen: ١
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the Red pulp of the spleen: ١
+## answer_a
+Contains a central arteriole
+## explanation_a
+A central (follicular) arteriole is the defining landmark of the WHITE pulp's Malpighian corpuscle, not a feature of the red pulp.
+## answer_b
+Contains blood sinusoids
+## explanation_b
+Correct. The red pulp is formed of two components: the splenic (Billroth) cords and the blood sinusoids — barrel-shaped, fenestrated, stave-cell-lined channels through which filtered blood re-enters the circulation.
+
+Why this is right:
+- Red pulp appears red in fresh sections because of the number of red cells and is formed of the splenic cords of Billroth and blood sinusoids — barrel-shaped wide channels lined by a fenestrated elongated endothelium of stave cells, with large intercellular spaces and a non-continuous basal lamina, an arrangement that lets blood pass from the cords back into the blood stream.
+## answer_c
+Rich in mucus glands
+## explanation_c
+The spleen is a haemolymphatic organ with no secretory or mucous glands anywhere in it — mucus glands are not a splenic structure at all.
+## answer_d
+Formed of 4 zones
+## explanation_d
+It is the WHITE pulp's Malpighian corpuscle, not the red pulp, that is organised into four concentric zones around a central arteriole.
+## correct_answer
+B
+## main_concept
+CON-HEM-594B1725902DAD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Spleen
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the red pulp contains blood sinusoids, distinguishing it from the white pulp's central arteriole and four-zone architecture.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 FINALS (answered) (1) (1).pdf p26 q2; EOY 104 exams Not answerd (1) (1).pdf p14 q2. Manifest src_375227d5b7c819636151, src_f0dc974eca83c51623bc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-CDF621BA241C
+## title
+Which of the following statements is correct about splenic sinusoids?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following statements is correct about splenic sinusoids?
+## answer_a
+Kupffer cells surround the walls of these sinusoids
+## explanation_a
+Kupffer cells are the resident macrophages of the LIVER's own sinusoids; the spleen's sinusoidal macrophages, sitting in and around the sinusoid walls, are called littoral cells instead.
+## answer_b
+Are lined with elongated endothelial cells with large intercellular spaces
+## explanation_b
+Correct. Splenic blood sinusoids are barrel-shaped, irregular, wide channels lined by elongated ('stave') endothelial cells with large intercellular spaces and a non-continuous basal lamina, letting filtered blood cells pass back into the circulation.
+
+Why this is right:
+- Red pulp appears red in fresh sections because of the number of red cells and is formed of the splenic cords of Billroth and blood sinusoids — barrel-shaped wide channels lined by a fenestrated elongated endothelium of stave cells, with large intercellular spaces and a non-continuous basal lamina, an arrangement that lets blood pass from the cords back into the blood stream.
+## answer_c
+Stave cells are phagocytic cells that surround their walls
+## explanation_c
+This reverses the two cell types: stave cells are the elongated ENDOTHELIAL lining cells of the sinusoid wall itself, not phagocytes; littoral cells are the phagocytic macrophages in and around that wall.
+## answer_d
+Their basement membranes are continuous
+## explanation_d
+The opposite is true: the sinusoid's basal lamina is deliberately NON-continuous, with large gaps between the stave cells — the structural basis that lets blood cross from the splenic cords back into the bloodstream.
+## correct_answer
+B
+## main_concept
+CON-HEM-594B1725902DAD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the correct statement
+## learning_objective
+State that splenic sinusoids are lined by elongated (stave) endothelial cells with large intercellular spaces, and distinguish stave cells (lining) from littoral cells (phagocytic).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q10; Histo MCQ by Dr.Kandeel [104].pdf p8 q11. Manifest src_2b531af1f3f6eace5974, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E3D694277ADA
+## title
+Choose the correct statement about Billroth cords: ١ a. They are found in the stroma of…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement about Billroth cords: ١ a. They are found in the stroma of lymph nodes. _ ©. They are infiltrated by blood & lymphoid cells. ‏ا‎ 6. They are the spaces in between secondary lymphatic follicles. ‏أ‎ 0. They contain central arterioles at one side. | 11. Which of the following statements is correct about splenic sinusoids?
+## answer_a
+They are found in the stroma of lymph nodes.
+## explanation_a
+Billroth cords are found exclusively in the spleen's own red pulp, not in the stroma of a lymph node — a different organ with an entirely different architecture (lymph sinuses, not blood-filtering cords).
+## answer_b
+They are infiltrated by blood & lymphoid cells.
+## explanation_b
+Correct. Billroth (splenic) cords lie between the white pulps and the blood sinusoids and are richly infiltrated with red cells, granulocytes, lymphocytes, monocytes, platelets, plasma cells and macrophages, reflecting their role in filtering circulating blood.
+
+Why this is right:
+- Red pulp appears red in fresh sections because of the number of red cells and is formed of the splenic cords of Billroth and blood sinusoids — barrel-shaped wide channels lined by a fenestrated elongated endothelium of stave cells, with large intercellular spaces and a non-continuous basal lamina, an arrangement that lets blood pass from the cords back into the blood stream.
+## answer_c
+They are the spaces in between secondary lymphatic follicles.
+## explanation_c
+This does not describe Billroth cords; no standard description places them 'between secondary lymphatic follicles' — that phrase does not correspond to any real splenic or nodal landmark.
+## answer_d
+They contain central arterioles at one side.
+## explanation_d
+A central arteriole placed to one side is the defining landmark of the WHITE pulp's Malpighian corpuscle, not a feature of the red pulp's Billroth cords.
+## answer_e
+It has plasma cells and afferent lymphatic vessels. | ‏.ل‎ The cortex of each thymic lobule appears darker in staining than the | ., medulla. :
+## explanation_e
+This is an unrelated fragment bled in from other questions elsewhere in the source document (plasma cells and afferent lymphatic vessels; a separate statement about thymic cortex staining) — not a genuine option about Billroth cords.
+## correct_answer
+B
+## main_concept
+CON-HEM-594B1725902DAD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the correct statement
+## learning_objective
+State that Billroth cords are infiltrated with blood and lymphoid cells, and are found only in the spleen's red pulp.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic System].pdf p2 q10. Manifest src_b0c5c0d32e396511ae20.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-27075F741111
+## title
+Red pulp of the spleen shows:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Red pulp of the spleen shows:
+## answer_a
+Billroth cords
+## explanation_a
+Correct. The red pulp is composed of Billroth (splenic) cords together with blood sinusoids — the cords infiltrated with red cells, granulocytes, lymphocytes and macrophages, forming the architecture that screens aged or damaged red cells from circulation.
+
+Why this is right:
+- Red pulp appears red in fresh sections because of the number of red cells and is formed of the splenic cords of Billroth and blood sinusoids — barrel-shaped wide channels lined by a fenestrated elongated endothelium of stave cells, with large intercellular spaces and a non-continuous basal lamina, an arrangement that lets blood pass from the cords back into the blood stream.
+## answer_b
+Malpighian corpuscles
+## explanation_b
+Malpighian corpuscle is the alternative name for the spleen's WHITE pulp — the lymphoid nodule built around a central arteriole — not a red pulp feature.
+## answer_c
+Medullary lymphatic cords
+## explanation_c
+Medullary cords are a LYMPH NODE structure (irregular cords of B lymphocytes, plasma cells and macrophages in the node's medulla), unrelated to the spleen's red pulp.
+## answer_d
+Central arteriole
+## explanation_d
+The central (follicular) arteriole is the defining landmark of the white pulp's Malpighian corpuscle, not of the red pulp.
+## correct_answer
+A
+## main_concept
+CON-HEM-594B1725902DAD
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Spleen
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+State that the red pulp shows Billroth cords, distinguishing them from white-pulp and lymph-node structures used as distractors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q100. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-8E463C19C5FD
+## title
+Contain B, T lymphocyte
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Contain B, T lymphocyte
+## answer_a
+follicular zone
+## explanation_a
+The follicular zone, the darkly stained ring around the germinal centre, is mainly B lymphocytes, not a mixed T-and-B population.
+## answer_b
+germinal zone
+## explanation_b
+The germinal centre is a pale central area of B lymphocytes, large activated lymphocytes, plasma cells and macrophages — B-lineage-dominated, not mixed.
+## answer_c
+PALS
+## explanation_c
+The periarteriolar lymphatic sheath (PALS), the thymus-dependent zone immediately ensheathing the central arteriole, holds T lymphocytes specifically, not a mixed T-and-B population.
+## answer_d
+marginal zone
+## explanation_d
+Correct. The marginal zone, forming the periphery of the white pulp's Malpighian corpuscle, contains a mixed population of T and B lymphocytes together with plasma cells and macrophages — unlike the other three zones, each dominated by one lymphocyte lineage.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## correct_answer
+D
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the marginal zone as the one white-pulp zone containing a mixed population of both T and B lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q15. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-617E83DFFDA5
+## title
+In the spleen, white pulp:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+In the spleen, white pulp:
+## answer_a
+Is formed of cords and sinuses
+## explanation_a
+Cords and sinusoids (Billroth cords and blood sinusoids) are the defining architecture of the RED pulp, not the white pulp.
+## answer_b
+Has large number of RBCs
+## explanation_b
+An abundance of red blood cells characterises the blood-filtering red pulp, not the lymphoid-tissue-dominated white pulp.
+## answer_c
+Is lymphatic nodule with central arteriole
+## explanation_c
+Correct. The white pulp is a Malpighian corpuscle — a rounded lymphatic nodule of reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central (follicular) arteriole.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## answer_d
+Is formed of only 2 zones
+## explanation_d
+White pulp is organised into FOUR zones from inside outwards — the periarteriolar lymphatic sheath, germinal centre, follicular zone and marginal zone — not only two.
+## correct_answer
+C
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Spleen
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of the correct statement
+## learning_objective
+State that white pulp is a lymphatic nodule (Malpighian corpuscle) built around a central arteriole, in four zones, not two.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q103. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7A5041F55413
+## title
+The thymus dependent zone of the spleen is ‏م188‎ Of:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+The thymus dependent zone of the spleen is ‏م188‎ Of:
+## answer_a
+Follicular zone
+## explanation_a
+The follicular zone, the darkly stained ring around the germinal centre, is mainly B lymphocytes, not the thymus-dependent zone.
+## answer_b
+Marginal zone
+## explanation_b
+The marginal zone at the white pulp's periphery holds a mixed T-and-B population together with plasma cells and macrophages, not a T-cell-specific thymus-dependent zone.
+## answer_c
+Periarteriolar tymphatic sheath
+## explanation_c
+Correct. The periarteriolar lymphatic sheath (PALS) — the innermost of the white pulp's four zones, ensheathing the central arteriole — is the spleen's thymus-dependent (T-lymphocyte) zone.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## answer_d
+Germinal center
+## explanation_d
+The germinal centre is a B-lymphocyte proliferation zone (large activated lymphocytes and plasma cells), the opposite lineage from the thymus-dependent zone.
+## correct_answer
+C
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic and Macrophage System — Spleen
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the periarteriolar lymphatic sheath (PALS) as the spleen's own thymus-dependent zone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p13 q103. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-06C7E2B91799
+## title
+Thymus dependent zone in the lymph node & spleen are……. & ……… respectively:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Thymus dependent zone in the lymph node & spleen are……. & ……… respectively:
+## answer_a
+Cortical follicles & red pulp
+## explanation_a
+Cortical follicles are the lymph node's own B-cell zone, not its thymus-dependent zone, and red pulp is the spleen's blood-filtering compartment — neither half of this pairing is a thymus-dependent zone.
+## answer_b
+Paracortex & red pulp
+## explanation_b
+The lymph node half is correct (paracortex), but red pulp is not the spleen's thymus-dependent zone; that is the periarteriolar lymphatic sheath within the white pulp.
+## answer_c
+Medullary cords & splenic sinusoids
+## explanation_c
+Medullary cords (lymph node) are rich in plasma cells, not specifically T lymphocytes, and splenic sinusoids are part of the blood-filtering red pulp — neither is a thymus-dependent zone.
+## answer_d
+Paracortex & periarteriolar lymphatic sheath
+## explanation_d
+Correct. The thymus-dependent (T-lymphocyte) zone is the paracortex in a lymph node — between the cortical follicles and the medulla, reached by T cells through post-capillary venules — and the periarteriolar lymphatic sheath (PALS) in the spleen, the T-cell cuff ensheathing each white pulp's central arteriole.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## correct_answer
+D
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a paired fact
+## learning_objective
+Pair the lymph node's paracortex with the spleen's periarteriolar lymphatic sheath as the two organs' respective thymus-dependent zones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q16. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D3CA7E06D383
+## title
+Thymus dependent zone of the spleen is present at:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Thymus dependent zone of the spleen is present at:
+## answer_a
+Around central arteriole of white pulp
+## explanation_a
+Correct. The periarteriolar lymphatic sheath — the spleen's thymus-dependent zone — is the innermost of the white pulp's four zones, the cuff of T lymphocytes immediately ensheathing the central arteriole.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## answer_b
+Germinal center of white pulp
+## explanation_b
+The germinal centre is a B-lymphocyte proliferation zone (large activated lymphocytes and plasma cells), not the T-cell thymus-dependent zone.
+## answer_c
+Follicular zone of white pulp
+## explanation_c
+The follicular zone, the darkly stained ring around the germinal centre, is mainly B lymphocytes, not thymus-dependent tissue.
+## answer_d
+marginal zone of white pulp
+## explanation_d
+The marginal zone at the white pulp's periphery holds a mixed T-and-B population, not a T-cell-specific thymus-dependent zone.
+## correct_answer
+A
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Locate the spleen's thymus-dependent zone around the central arteriole of the white pulp.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p8 q15. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C13FF823646F
+## title
+Thymus dependent zone of the spleen is present at: i
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Thymus dependent zone of the spleen is present at: i
+## answer_a
+Around central arteriole of white pulp. i
+## explanation_a
+Correct. The periarteriolar lymphatic sheath, ensheathing the central arteriole, is the spleen's thymus-dependent zone — the same fact this cluster's sibling stem tests from a different question book.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## answer_b
+Germinal centre of white pulp. i
+## explanation_b
+The germinal centre of white pulp is a B-lymphocyte proliferation zone, not the thymus-dependent T-cell zone.
+## answer_c
+Follicular zone of white pulp
+## explanation_c
+The follicular zone of white pulp is mainly B lymphocytes, not thymus-dependent tissue.
+## answer_d
+Marginal zone of white pulp. |
+## explanation_d
+The marginal zone of white pulp holds a mixed T-and-B population, not a T-cell-specific thymus-dependent zone.
+## correct_answer
+A
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Locate the spleen's thymus-dependent zone around the central arteriole of the white pulp (duplicate occurrence from a different source book).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p2 q14. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-0054397FF925
+## title
+Thymus dependent zone of the spleen refers to:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Thymus dependent zone of the spleen refers to:
+## answer_a
+Marginal zone
+## explanation_a
+The marginal zone holds a mixed T-and-B population, not a T-cell-specific thymus-dependent zone.
+## answer_b
+Follicular zone
+## explanation_b
+The follicular zone is mainly B lymphocytes, not thymus-dependent tissue.
+## answer_c
+Peri-arteriolar lymphatic sheath
+## explanation_c
+Correct. The periarteriolar lymphatic sheath (PALS), ensheathing the central arteriole, is the spleen's thymus-dependent zone.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## answer_d
+Germinal center
+## explanation_d
+The germinal centre is a B-lymphocyte proliferation zone, the opposite lineage from the thymus-dependent zone.
+## correct_answer
+C
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the periarteriolar lymphatic sheath (PALS) as the spleen's own thymus-dependent zone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q4. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-CF1E91D08D24
+## title
+Thymus dependent zones in lymph node & spleen are....... & ...... | respectively:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Thymus dependent zones in lymph node & spleen are....... & ...... | respectively:
+## answer_a
+Cortical follicles & red pulp
+## explanation_a
+Cortical follicles (lymph node) are B-cell territory, not thymus-dependent, and red pulp (spleen) is the blood-filtering compartment, not the thymus-dependent zone.
+## answer_b
+Paracortex-& red pulp. I
+## explanation_b
+Paracortex is correctly the lymph node's thymus-dependent zone, but red pulp is not the spleen's — that is the periarteriolar lymphatic sheath.
+## answer_c
+Medullary cords & splenic sinusoids. |
+## explanation_c
+Medullary cords and splenic sinusoids are, respectively, a plasma-cell-rich zone and part of the blood-filtering red pulp — neither is a thymus-dependent zone.
+## answer_d
+Paracortex & periarteriolar lymphatic sheath. i
+## explanation_d
+Correct. The lymph node's thymus-dependent zone is the paracortex; the spleen's is the periarteriolar lymphatic sheath (PALS) ensheathing the central arteriole — the same pairing this cluster's sibling stem tests.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## correct_answer
+D
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a paired fact
+## learning_objective
+Pair the lymph node's paracortex with the spleen's periarteriolar lymphatic sheath (duplicate occurrence from a different source book).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p2 q15. Manifest src_2b531af1f3f6eace5974.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-3199304AE41C
+## title
+Choose the correct statement concerning the Malpighian corpuscle:
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Choose the correct statement concerning the Malpighian corpuscle:
+## answer_a
+It includes the basal & the prickle cell layers
+## explanation_a
+'Basal and prickle cell layers' describes stratified squamous epithelium (as in skin), an entirely unrelated tissue — the Malpighian corpuscle is lymphoid tissue, not epithelium, and has no such layers.
+## answer_b
+Its follicular arteriole is centeral in position
+## explanation_b
+The opposite is true: the corpuscle's central (follicular) arteriole is ECCENTRIC, placed to one side, not central — the name describes the T-cell sheath wrapped around it, not the vessel's own position.
+## answer_c
+It shown frequent mitotic figures
+## explanation_c
+Frequent mitotic figures are a feature specifically of the germinal centre, where activated B lymphocytes proliferate — not a feature of the Malpighian corpuscle as a whole, most of which (the PALS, follicular and marginal zones) is not an actively dividing compartment.
+## answer_d
+Its follicular zone is formed mainly of B- lymphocytes
+## explanation_d
+Correct. The Malpighian corpuscle's follicular zone — the darkly stained ring surrounding the germinal centre — is composed mainly of B lymphocytes.
+
+Why this is right:
+- Each Malpighian corpuscle of the splenic white pulp is reticular connective tissue whose cells are arranged concentrically around an eccentrically placed central arteriole in four zones, from inside outwards: the thymus-dependent periarteriolar lymphatic sheath, the germinal centre, the follicular zone and the marginal zone.
+## correct_answer
+D
+## main_concept
+CON-HEM-7B050DE7FE2B80
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the correct statement
+## learning_objective
+State that the Malpighian corpuscle's follicular zone is mainly B lymphocytes, and that its central arteriole is eccentric, not central.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q17. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-1A764E817548
+## title
+Capillary open directly into splenic sinusoid
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Capillary open directly into splenic sinusoid
+## answer_a
+open theory
+## explanation_a
+The open theory instead states that the capillaries deliver blood into the tissue (cords) of the red pulp first, which then enters the sinusoids through openings in their walls — the reverse of a direct capillary-to-sinusoid connection.
+## answer_b
+open-closed theory
+## explanation_b
+The open-and-closed theory reconciles the other two by proposing the circulation switches state with splenic tone (closed when the spleen contracts, open when it relaxes); it does not itself assert a single, fixed, direct capillary-to-sinusoid connection.
+## answer_c
+closed theory
+## explanation_c
+Correct. The closed theory of splenic circulation states that the terminal arterial capillaries open directly into the blood sinusoids — a continuous, endothelium-lined channel throughout.
+
+Why this is right:
+- Three theories describe how blood crosses from the terminal arterial capillaries into the splenic sinusoids: the closed theory, in which the capillaries open directly into the sinusoids; the open theory, in which they deliver blood into the tissue of the red pulp, which enters the sinusoids through openings in their walls; and the open-and-closed theory, in which the circulation is closed when the spleen contracts and open when it relaxes.
+## answer_d
+none of above
+## explanation_d
+The closed theory is a real, named account that matches the stem exactly, so 'none of the above' is incorrect.
+## correct_answer
+C
+## main_concept
+CON-HEM-4D47090A0B7561
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify the closed theory as the account stating that terminal capillaries open directly into splenic sinusoids.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q16. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-3ED57B714D1D
+## title
+trabecular artery in spleen circulation divide into
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+trabecular artery in spleen circulation divide into
+## answer_a
+penicillar arteriole
+## explanation_a
+The penicillar arteriole is a later branch in the sequence — arising from the central/follicular arteriole at the boundary of the white pulp, not directly from the trabecular artery.
+## answer_b
+red pulp vein
+## explanation_b
+'Red pulp vein' names a venous structure; the trabecular artery is arterial, and its own branches continue the arterial side of splenic circulation.
+## answer_c
+venous sinus
+## explanation_c
+The venous sinus (blood sinusoid) is where terminal arterial capillaries end, several branch-points downstream of the trabecular artery, not its immediate branch.
+## answer_d
+follicular arteriole
+## explanation_d
+Correct. The trabecular artery, running within the connective-tissue trabeculae, gives off the follicular (central) arterioles that enter and supply the white pulp.
+
+Why this is right:
+- Three theories describe how blood crosses from the terminal arterial capillaries into the splenic sinusoids: the closed theory, in which the capillaries open directly into the sinusoids; the open theory, in which they deliver blood into the tissue of the red pulp, which enters the sinusoids through openings in their walls; and the open-and-closed theory, in which the circulation is closed when the spleen contracts and open when it relaxes.
+## correct_answer
+D
+## main_concept
+CON-HEM-4D47090A0B7561
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a sequence
+## learning_objective
+State that the trabecular artery's own branch, on entering the white pulp, is the follicular (central) arteriole.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q17. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-573F26467AD6
+## title
+white pulp arteriole give branch to
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+white pulp arteriole give branch to
+## answer_a
+penicillar arteriole
+## explanation_a
+Correct. At the boundary of the white pulp, the central (follicular) arteriole branches into penicillar arterioles, which continue as terminal arterial capillaries.
+
+Why this is right:
+- Three theories describe how blood crosses from the terminal arterial capillaries into the splenic sinusoids: the closed theory, in which the capillaries open directly into the sinusoids; the open theory, in which they deliver blood into the tissue of the red pulp, which enters the sinusoids through openings in their walls; and the open-and-closed theory, in which the circulation is closed when the spleen contracts and open when it relaxes.
+## answer_b
+red pulp vein
+## explanation_b
+'Red pulp vein' is a venous structure that collects blood after it has already crossed the sinusoids — several steps downstream of the white pulp arteriole's own branching.
+## answer_c
+venous sinus
+## explanation_c
+The venous sinus (blood sinusoid) is the destination of the terminal arterial capillaries at the end of this pathway, not the white pulp arteriole's immediate branch.
+## answer_d
+follicular arteriole
+## explanation_d
+'Follicular arteriole' is another name for the white pulp (central) arteriole itself — the vessel doing the branching here, not what it branches into.
+## correct_answer
+A
+## main_concept
+CON-HEM-4D47090A0B7561
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a sequence
+## learning_objective
+State that the central (white pulp) arteriole branches into the penicillar arteriole at the boundary of the white pulp.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q18. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D34D685941A6
+## title
+which of the following is not a function of the spleen?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+which of the following is not a function of the spleen?
+## answer_a
+Destruction of old RBCs
+## explanation_a
+This is a genuine splenic function, so not the answer sought: the spleen destroys aged or damaged red blood cells, storing the released iron in macrophages, converting the non-iron haem to bile pigments, and returning the globin's amino acids to the blood.
+## answer_b
+Storage of blood cells and platelets
+## explanation_b
+This is a genuine splenic function, so not the answer sought: the spleen acts as a reservoir, storing blood cells and platelets that can be released into the circulation when the organ contracts, as in an emergency such as bleeding.
+## answer_c
+Formation Foetal blood cells
+## explanation_c
+This is a genuine splenic function, so not the answer sought: the spleen forms blood elements in fetal life (haematopoiesis) and continues to form lymphocytes throughout life.
+## answer_d
+Filtration of lymph
+## explanation_d
+Correct — this is the exception, and the answer. Filtering LYMPH is the lymph node's job; the spleen instead filters and stores BLOOD, and has no afferent lymphatics of its own at all.
+
+Why this is right:
+- The spleen's functions are filtration of blood by macrophages, storage of blood cells and platelets (releasable into the circulation when the organ contracts, as in an emergency such as bleeding), formation of blood elements in fetal life and of lymphocytes throughout life, immunological function through T and B lymphocytes with the reticular cells trapping and presenting antigen, and destruction of old red cells — the haem iron is stored in macrophages, the non-iron part becomes bile pigments, and the globin is broken down to amino acids returned to the blood.
+## correct_answer
+D
+## main_concept
+CON-HEM-259566CE981914
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Lymphatic
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a false statement
+## learning_objective
+State that the spleen filters and stores BLOOD, not lymph — filtering lymph is the lymph node's own job.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q8; Histo MCQ by Dr.Kandeel [104].pdf p8 q9. Manifest src_2b531af1f3f6eace5974, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-8277BAACBE1A
+## title
+Penicillar arteriole is 3 parts
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Penicillar arteriole is 3 parts
+## answer_a
+terminal arteriole → sheathed arteriole → Pulp arteriole ,
+## explanation_a
+This reverses the true order: the terminal arteriole (capillary) is the LAST segment, not the first — the sequence begins with the pulp arteriole and ends with the terminal arterial capillary opening into the red pulp.
+## answer_b
+sheathed arteriole → terminal arteriole→ Pulp arteriole
+## explanation_b
+This places the sheathed arteriole first and the pulp arteriole last, the reverse of the true sequence: the unsheathed pulp arteriole comes first, and the sheathed arteriole is the middle, not the final, segment.
+## answer_c
+pulp arteriole → terminal arteriole → sheathed arteriole
+## explanation_c
+This places the terminal segment in the middle: the terminal arterial capillary is the LAST of the three segments, ending in the red pulp, not an intermediate one between the pulp and sheathed arterioles.
+## answer_d
+pulp arteriole → sheathed arteriole → terminal arterice
+## explanation_d
+Correct. The penicillar arteriole runs, in order, from the pulp arteriole (its first, unsheathed segment) through the sheathed (ellipsoid) arteriole — surrounded by a periarterial macrophage sheath — to the terminal arterial capillary, which then opens into the red pulp.
+
+Why this is right:
+- The penicillar arteriole is the continuation of the central (follicular) arteriole beyond the boundary of the white pulp, and it runs in three successive segments before ending in the red pulp: first the pulp arteriole, a short unsheathed segment; then the sheathed (ellipsoid) arteriole, surrounded by a periarterial macrophage sheath; and finally the terminal arterial capillary, which opens into the red pulp's blood sinusoids (the closed theory) or its cords (the open theory).
+## correct_answer
+D
+## main_concept
+CON-HEM-4F89686DD27397
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Spleen
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a sequence
+## learning_objective
+State the penicillar arteriole's three segments in order: pulp arteriole, sheathed (ellipsoid) arteriole, terminal arterial capillary.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q19. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-104-50D2ADF2FDE4
 ## title
 origin of epithelial reticular cell
@@ -24824,6 +26669,98 @@ Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 
 2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-FB7F9E1CF718
+## title
+small, round shape with acidophilic mass, surrounded by reticular cell
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+small, round shape with acidophilic mass, surrounded by reticular cell
+## answer_a
+Pacinian Corpuscle
+## explanation_a
+A Pacinian corpuscle is a pressure/vibration mechanoreceptor found in the dermis and deep tissues — concentric lamellae around a nerve ending, an entirely different structure with no acidophilic degenerating core.
+## answer_b
+Hassall Corpuscle
+## explanation_b
+Correct. A Hassall's corpuscle is a small, round, acidophilic structure found only in the medulla of the thymus, formed of a central acidophilic mass of degenerating, keratinizing epithelial reticular cells surrounded by concentric layers of more epithelial reticular cells.
+
+Why this is right:
+- Each thymic lobule has a cortex and a medulla, continuous with the adjacent lobule's medulla.
+## answer_c
+ruffini corpuscle
+## explanation_c
+A Ruffini corpuscle is another cutaneous mechanoreceptor (detecting skin stretch), unrelated to the thymus or to any lymphoid organ.
+## answer_d
+white pulp
+## explanation_d
+White pulp is the spleen's own lymphoid compartment, built around a central arteriole — a completely different organ and structure from the thymus's Hassall's corpuscle.
+## correct_answer
+B
+## main_concept
+CON-HEM-3F5E8C649251F1
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Identification from description
+## learning_objective
+Identify a Hassall's corpuscle from its description (small, round, acidophilic, surrounded by reticular-type cells), against unrelated cutaneous corpuscles and the spleen's white pulp.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q24. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
