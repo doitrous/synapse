@@ -1928,7 +1928,7 @@ C
 Structure at A is surrounded by the concentric lamellae of the osteon
 
 ## explanation_a
-A Haversian canal (typically the structure surrounded by concentric lamellae) is not what is labelled A on this particular diagram, based on the printed key.
+A Haversian canal (typically the structure surrounded by concentric lamellae) is not what is labelled A on this particular diagram.
 
 ## answer_b
 Structure at C consists of a single cellular layer
@@ -2326,7 +2326,7 @@ Correct. Structure A, a canal running through the bone (most likely a Volkmann's
 Structure B connects the osteons together
 
 ## explanation_d
-Connecting osteons to each other is what a Volkmann's canal does, which — based on the printed key for this diagram — is not what structure B is being credited with here.
+Connecting osteons to each other is what a Volkmann's canal does, which is not what structure B is credited with on this diagram.
 
 ## answer_e
 
@@ -4220,13 +4220,13 @@ Correct. Structures B, D and C on this diagram are the ones printed as lacking a
 Structures A, C and D
 
 ## explanation_c
-This grouping wrongly includes structure D or excludes one of the genuinely unsheathed structures relative to the printed key.
+This grouping wrongly includes structure D, or excludes one of the genuinely unsheathed structures on this diagram.
 
 ## answer_d
 Structures A, B and C
 
 ## explanation_d
-This grouping wrongly substitutes structure A for C relative to the printed key for this diagram.
+This grouping wrongly substitutes structure A for C on this diagram.
 
 ## answer_e
 
@@ -4986,7 +4986,7 @@ Correct. The ulnar nerve is a large peripheral somatic nerve whose fibres are he
 Preganglionic sympathetic nerve fibres
 
 ## explanation_d
-Preganglionic sympathetic fibres are myelinated, but this option is a plausible-looking distractor rather than the answer credited on the printed key, which names a peripheral somatic nerve instead.
+Preganglionic sympathetic fibres are myelinated, but this option is a plausible-looking distractor; the peripheral somatic nerve among the options is the one whose fibres are peripherally, Schwann-cell myelinated.
 
 ## answer_e
 
@@ -5918,7 +5918,7 @@ D
 B, D and E
 
 ## explanation_a
-This grouping does not match the printed key's labelling of the I band and H zone (the bands that actually shorten) on this diagram.
+This grouping does not match the I band and H zone (the bands that actually shorten) as labelled on this diagram.
 
 ## answer_b
 E, F and D
