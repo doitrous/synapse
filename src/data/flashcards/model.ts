@@ -47,13 +47,31 @@ export interface NoteBase {
 
 export interface BasicNote extends NoteBase {
   type: 'basic'
-  fields: { front: RichText; back: RichText }
+  fields: {
+    front: RichText
+    back: RichText
+    /**
+     * A `synapse-media:` reference to an audio blob stored in `mediaStorage`.
+     * Optional so v1/legacy cards and existing notes stay valid — absent means
+     * no audio.
+     */
+    audio?: string
+  }
 }
 
 export interface ClozeNote extends NoteBase {
   type: 'cloze'
   /** The cloze source text, `{{c1::hidden::hint}}` markup and all. */
-  fields: { text: RichText; extra: RichText }
+  fields: {
+    text: RichText
+    extra: RichText
+    /**
+     * A `synapse-media:` reference to an audio blob stored in `mediaStorage`.
+     * Optional so v1/legacy cards and existing notes stay valid — absent means
+     * no audio.
+     */
+    audio?: string
+  }
 }
 
 /** A single occluder region, in image-space coordinates (see `occlusion.ts`). */
@@ -96,6 +114,12 @@ export interface ImageOcclusionNote extends NoteBase {
 }
 
 export type Note = BasicNote | ClozeNote | ImageOcclusionNote
+
+/** The card-audio media reference on a note, if any (Basic/Cloze only). */
+export function noteAudio(note: Note): string | undefined {
+  if (note.type === 'basic' || note.type === 'cloze') return note.fields.audio
+  return undefined
+}
 
 /**
  * A generated, studyable card. It carries no content of its own: `noteId` plus
