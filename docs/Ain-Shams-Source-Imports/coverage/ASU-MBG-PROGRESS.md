@@ -58,10 +58,39 @@ bank target, so `medical:batch` raised no note).
 new articles (or, for Q1, by the pre-existing `ART-104-HIS-NUMERICAL-ABERRATIONS`) — 100%.
 
 Commits on `asu-mbg-author6`: `92b60f7e` (concepts+articles+evidence+resource-registry-fix),
-`029526a5` (Q1-13), `36eca534` (Q14-26), `e241f3f5` (Q27-39), `d794444c` (Q40-52). Pushed to origin.
+`029526a5` (Q1-13), `36eca534` (Q14-26), `e241f3f5` (Q27-39), `d794444c` (Q40-52),
+`b153ba81` (this ledger), `1856e28b` (Ruling #1, below). Pushed to origin.
 
-**Ruling applied (chief-of-staff, this session's brief):** Cluster 6 (Gene expression regulation)
+**Ruling #2 applied (chief-of-staff, this session's brief):** Cluster 6 (Gene expression regulation)
 left alone per ruling — unrecoverable blacked-out key, not re-triaged, not touched.
+
+**Ruling #1 applied — Cluster 2 prokaryotic apparatus CLOSED (tested-but-untaught).**
+
+The 8 banked questions this lane had already flagged with no covering article (Q35, Q37, Q48, Q49,
+Q58, Q76, Q80, Q81, "RNA Structure & Transcription" chapter) are now taught. 2 new minimal concepts,
+scoped to exactly what these 8 ask and no wider:
+
+| Concept | ID | Qs |
+|---|---|---:|
+| Sigma factor / holoenzyme / Pribnow box (initiation) | `CON-FND-A10D3E6030F49D` | Q49, Q58, Q76, Q80, Q81 |
+| Rho-dependent vs intrinsic termination, no transcription helicase | `CON-FND-E5651C6097AEC7` | Q35, Q37, Q48 |
+
+One minimal `TPL-CONCEPT` article, `ART-FND-PROKARYOTIC-TRANSCRIPTION-APPARATUS`, teaches both,
+cross-linked to Alexandria's `ART-FND-TRANSCRIPTION-CODE-TRANSLATION` as the prokaryote/eukaryote
+contrast pair. Full evidence chain (2 claims, 2 citations, 1 span) citing this same module's own
+`src_d83a3017c760e2770c22`; field_notes disclose the ruling and that the mechanism is standard
+textbook content with no specific external page verified this pass. Files:
+`concept/ASU-MBG-prokaryotic-transcription-apparatus-concepts.md`, matching `article/`, `question/`
+and `evidence/*` files of the same name-stem.
+
+Gates: `medical:batch` clean (concepts 52/52 fields each — caught and fixed one `microtopicId`
+field_notes gap the audit flagged: a free-text `## microtopic` value doesn't resolve to a `MIC_` id,
+the same finding Alexandria's lane already documented for its own concepts); `related_articles`
+directory-scope false positive on `ART-FND-TRANSCRIPTION-CODE-TRANSLATION` confirmed harmless via
+`medical:simulate` per 04-library-articles.md's own documented caveat; `medical:simulate` created
+2 concepts / 1 article / 2 claims / 2 citations / 1 span / 8 questions, 0 skipped, 0 errors;
+`medical:audit` 0 errors traceable to either concept, the article, or any of the 8 questions.
+Commit `1856e28b`.
 
 ## Done (author4/author5, branch `asu-mbg-author5`)
 
@@ -116,7 +145,7 @@ All still sourced from `EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf` unless no
 | Cluster | Rough Qs left | Key concepts still needed | Status |
 |---|---:|---|---|
 | 1 · RNA types (superlatives) | Q1, Q2, Q10, Q12, Q14, Q15 (~6, "RNA Structure & Transcription" chapter) | tRNA highest-modified-nt / mRNA most-heterogeneous / RNA alkali-lability / min-20-tRNA-types / cloverleaf base-pairing — none found live/pending; would need 1-2 new concepts, article = `ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS` (pending, Kasr) which substantively covers tRNA cloverleaf/RNA types already | authorable next |
-| 2 · Transcription mechanism (prokaryotic apparatus) | Q35, Q37, Q48, Q49, Q58, Q76, Q80, Q81 (~8, "RNA Structure & Transcription" chapter) | sigma factor, rho factor, Pribnow box (-10/-35), RNA-polymerase-holoenzyme — **zero hits anywhere** in live/pending search; no department-book article covers prokaryotic transcription (the two candidate articles, `ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION` and `ART-FND-TRANSCRIPTION-CODE-TRANSLATION`, are both eukaryote-only). Needs either a new article authored from standard-textbook knowledge (field_notes disclosure, per 00-START-HERE §0/§5) or an Omar ruling on whether prokaryotic apparatus is in scope for this module | flagged — needs a new article, bigger lift |
+| 2 · Transcription mechanism (prokaryotic apparatus) | **CLOSED this pass (author6) per chief-of-staff Ruling #1 — see the "Done" section above.** | — | done |
 | 3/4 · Genetic code remainder | Q7 (degenerate, redundant w/ Q1/Q2, skipped deliberately), Q12 (DMD→trinucleotide-repeat, wants a disease-correlation concept), Q13-22 (sickle-cell/thalassaemia/Huntington/DMD "mostly occur due to X mutation type" run, p.16-17), Q26-28, 30, 36, 38, 44-46 (codon-table lookups, mixed) | `CON-FND-4508AC0EA86F86` and `CON-FND-25E8976EFF0509` (both now +asu-tagged) cover most of these directly; Q13-16's specific disease→repeat-expansion mapping may want a new "trinucleotide repeat disease" concept — not yet searched | authorable next |
 | 5 · Translation/protein synthesis (whole chapter — corrected count) | "Translation Protein Synthesis" chapter is its own Q1-65 (not ~59 as previously estimated), fully separate numbering from "Genetic Codes." **None of it authored yet** — the four questions author5 tagged Q25/31/32/33 onto `CON-FND-09FACBDCBBF8FD` are Genetic-Codes-chapter numbers (p.16-17, before the Genetic Codes table on p.22), not Translation-chapter numbers, so that overlay does not reduce this count. Ribosome A/P/E sites, peptidyl transferase, aminoacyl-tRNA synthetases, initiation (Shine-Dalgarno, formyl-Met, 5' cap recognition), elongation/translocation, termination, polycistronic mRNA, post-translational modification (phosphorylation/ubiquitylation/glycosylation/acetylation/hydroxylation) — a genuinely large concept set, comparable in size to Cluster 7. | **Answer table now located** this pass: PDF page 30 (printed "29"), "Answers of RNA Translation," a single table covering Q1-65 in one block (not split). Not authored this session — full authoring deferred per "stop after 1-2 clusters"; this is the resume-first target. Alexandria's `CON-FND-906B844C9AEE7D` (anticodon-codon), `CON-FND-A1FC2FAF9F0211` (cystine/cysteine) reusable for a couple of items; not otherwise searched this pass. |
 | 6 · Gene expression regulation | ~16+ Q in file 1's "Regulation of Gene Expression" section | **answers physically blacked out/redacted in the source scan** — genuine unrecoverable-key case (confirmed again this pass on p.15's own table having 2 blacked cells, Q17/Q82, same hazard pattern). `MCQs - Formative Gene expression gene therapy.docx` (4 items) also 0/4 keyed (plain-text extraction strips highlighting) | **blocked** — log needs-Omar, do not force. Do not re-triage per chief-of-staff ruling this session. |
