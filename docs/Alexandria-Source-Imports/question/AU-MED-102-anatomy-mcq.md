@@ -454,3 +454,149 @@ yes
 
 ## author_notes
 All four options recombine the same two variables (side, rib numbers) so that each distractor isolates exactly one wrong component rather than being obviously wrong on sight — a student who has memorised "9, 10, 11" but not the side, or vice versa, is still caught.
+
+---
+
+# Item
+
+## id
+QST-MSK-SHOULDER-CIRCUMDUCTION-01
+
+## title
+The circular movement combining flexion, extension, abduction and adduction in sequence is called
+
+## question
+The circular movement combining flexion, extension, abduction and adduction in sequence is called
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Alexandria content lane (AU-102-BACKLOG)
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Abduction
+
+## explanation_a
+Incorrect. Abduction is one of the four component movements that circumduction strings together, not the name for the combined circular movement itself — a student who answers this has named a part instead of the whole.
+
+## answer_b
+Adduction
+
+## explanation_b
+Incorrect. Like abduction, adduction is a single-plane component movement that feeds into circumduction; it describes only the return-toward-the-midline phase, not the continuous circular path made of all four movements in sequence.
+
+## answer_c
+Flexion
+
+## explanation_c
+Incorrect. Flexion is one linear component of the circular movement, not the compound movement itself; picking it mistakes one quarter of the circular path for the whole.
+
+## answer_d
+Circumduction
+
+## explanation_d
+Correct. Circumduction is the compound movement produced when flexion, extension, abduction and adduction are combined in continuous sequence, sweeping the distal segment through a cone-shaped path while the proximal joint acts as its apex. It is available at multiaxial joints — most classically the ball-and-socket shoulder and hip — and is the term the bank tests here as the umbrella name for the whole circular movement, not any one of its linear components.
+
+## topic
+Anatomy
+
+## subtopic
+Basis of Anatomy
+
+## main_concept
+CON-MSK-9E9BBA40F75CE3
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Anatomy
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## question_only_for
+
+
+## module_subject
+AU-MED-102 > Anatomy > Joints and movements
+
+## library_ids
+ART-MSK-TOP-1609AFA15E
+
+## resource_ids
+src_84b91e011582f2b53494
+src_2fc64c0a9d050208a7d0
+
+## learning_objective
+Name circumduction as the compound circular movement built from flexion, extension, abduction and adduction in sequence, distinguishing it from any one of its component movements.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Transcribed verbatim from the department's own General Anatomy MCQ bank (Dr Wagih Elhusseiny, "MCQs - Dr. Wagih Anatomy MCQ (1-7).pdf", src_84b91e011582f2b53494, twin src_2fc64c0a9d050208a7d0), page 6, Q3: "The circular movement is called .......... a. Abduction b. Adduction c. Flexion d. Circumduction", printed key d. This is a clean, directly-readable per-page answer key (visually confirmed on the page itself), not the OCR-garbled item referenced elsewhere in this file's concept record's field_notes — that garbled item is a separate, still-unresolved question in the same source and is not the one this record authors. A second, corroborating item on p2 Q4 of the same bank ("...adduction, abduction, flexion, extension, medial and lateral rotation and circumduction" -> keyed c, ball-and-socket) confirms circumduction is examined in this module as a shoulder-relevant, multiaxial-joint movement, consistent with this concept's own "shoulder circumduction" label.
+
+## source_citation
+Alexandria University AU-MED-102 Anatomy department, "MCQs - Dr. Wagih Anatomy MCQ (1-7)" (Dr Wagih Elhusseiny), General Anatomy section, Q3, p6.
