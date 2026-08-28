@@ -494,6 +494,61 @@ export async function requestPasswordReset(studentId, { reason, actorId }) {
 export const passwordResetConfigured = Boolean(SUPABASE_URL && SERVICE_ROLE_KEY)
 
 /**
+ * Set a user's password directly, on behalf of an editor or super admin.
+ *
+ * A password is only ever set for an account below editor — a student, a reviewer
+ * or an admin — so an editor can never reach a peer's or a super admin's
+ * credentials; the target's *effective* role is checked, so an allowlisted super
+ * admin whose row says otherwise is still out of reach. The new password is passed
+ * straight to Supabase and is never stored, logged or returned; only the fact that
+ * it was changed — by whom, for whom, and why — is written to the audit trail.
+ */
+export async function setUserPassword(studentId, { password, reason, actorId }) {
+  const pass = String(password ?? '')
+  if (pass.length < 8) return { error: 'weak_password' }
+
+  const [rows] = await pool.query(
+    `SELECT COALESCE(s.email, a.email) AS email, COALESCE(s.user_id, a.user_id) AS userId
+       FROM user_access a LEFT JOIN students s ON s.user_id = a.user_id
+      WHERE a.user_id = ?
+      UNION ALL
+     SELECT s.email, s.user_id FROM students s WHERE s.id = ? LIMIT 1`,
+    [studentId, studentId],
+  )
+  if (!rows.length) return { error: 'not_found' }
+  const { email, userId } = rows[0]
+  if (!userId) return { error: 'no_identity' }
+
+  // Authoritative role, by user id — so a lookup by roster id can't understate it.
+  const [accessRows] = await pool.query('SELECT role, email FROM user_access WHERE user_id = ?', [userId])
+  const targetRole = effectiveRole(accessRows[0]?.email ?? email, accessRows[0]?.role ?? null, superAdminEmails)
+  if (rank(targetRole) >= 2) return { error: 'forbidden_target' }
+
+  if (!SUPABASE_URL || !SERVICE_ROLE_KEY) return { error: 'supabase_not_configured' }
+  const response = await fetch(`${SUPABASE_URL}/auth/v1/admin/users/${encodeURIComponent(userId)}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+      apikey: SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${SERVICE_ROLE_KEY}`,
+    },
+    body: JSON.stringify({ password: pass }),
+  })
+  if (!response.ok) return { error: 'supabase_rejected', status: response.status }
+
+  const conn = await pool.getConnection()
+  try {
+    await recordAction(conn, {
+      studentId, userId, action: 'password.set',
+      detail: `password set for ${email}`, reason, actorId,
+    })
+  } finally {
+    conn.release()
+  }
+  return { ok: true }
+}
+
+/**
  * Which family a per-user state key belongs to.
  *
  * `user_state` is a key-value store whose keys encode what they are —

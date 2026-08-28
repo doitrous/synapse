@@ -46,6 +46,7 @@ import {
   readReason,
   recordAction,
   requestPasswordReset,
+  setUserPassword,
   saveOwnEnrolment,
   setAccessStatus,
   setContentScope,
@@ -2294,6 +2295,37 @@ app.post('/api/admin/users/:id/password-reset', requireTab('users'), wrap(async 
   if (result.error === 'supabase_rejected') return res.status(502).json({ error: `Supabase refused the request (${result.status})` })
   if (result.error) return res.status(404).json({ error: result.error })
   res.json(result)
+}))
+
+/**
+ * Set a user's password directly.
+ *
+ * Editor-and-above only — an admin holds the Users tab but is rank 1, so the tab
+ * is not enough. The account whose password is being set must itself be below
+ * editor (student, reviewer or admin); accounts.setUserPassword enforces that, so
+ * an editor can never reach a peer's or a super admin's credentials. The password
+ * is never stored or logged here.
+ */
+app.post('/api/admin/users/:id/password', requireTab('users'), wrap(async (req, res) => {
+  if (req.identity.rank < 2) {
+    return res.status(403).json({ error: 'only an editor or super admin may set a user’s password' })
+  }
+  const reason = readReason(req.body)
+  if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
+  const result = await setUserPassword(req.params.id, { password: req.body?.password, reason, actorId: req.identity.id })
+  const REFUSALS = {
+    weak_password: [400, 'password must be at least 8 characters'],
+    not_found: [404, 'user not found'],
+    no_identity: [409, 'this person has never signed in, so there is no account to set a password for'],
+    forbidden_target: [403, 'passwords can only be set for students, reviewers and admins'],
+    supabase_not_configured: [503, 'setting passwords needs SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY on the server'],
+    supabase_rejected: [502, `Supabase refused the request${result?.status ? ` (${result.status})` : ''}`],
+  }
+  if (result.error) {
+    const [status, message] = REFUSALS[result.error] ?? [400, result.error]
+    return res.status(status).json({ error: message })
+  }
+  res.json({ ok: true })
 }))
 
 app.get('/api/admin/users/:id/activity', requireTab('users'), wrap(async (req, res) => {
