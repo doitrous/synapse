@@ -144,27 +144,69 @@ rejected, 0 skipped.** `medical:audit`: **0 errors.** `medical:concept-ids`:
 exit 0, no rival ids. `medical:duplicate-keys`: 0 canonical-key collisions.
 `medical:validate:authoring`: 0 errors.
 
-## Remaining OWED (next sitting)
-- Ashraf Pt2 — Extra (15 Qs) = 15 Qs left. Full
-  stems/options/keys for both sections are already transcribed and verified
-  (220dpi direct image reads) in this branch's authoring session; most
-  reuse concepts already minted across the Humoral/Exam-I commits (per the
-  concept-reuse map: `CON-IMM-A89092F59B7397` for E2-4 neutrophil-PRR,
-  `CON-IMM-823F05209D7145` for E2-5 hapten, `CON-IMM-D981D07A61E9FE` for
-  E2-7 MHC-I cytosol, `CON-IMM-521ADF1111D704` for E2-8 superantigen,
-  `CON-IMM-D1DF4147B03986` for E2-3 idiotype (this branch), `CON-IMM-19D6B87A141F6D`
-  for E2-14 CD4/CD8, `CON-IMM-2AFB94649004DE`/`CON-IMM-7C76D5D920C47C` for
-  E2-10/E2-9, `CON-IMM-FD2151E25121CF` for X3/X13 (Th1 NOT bind soluble Ag),
-  `CON-IMM-17CE429C40F7BD` for X1, `CON-IMM-282B44B64B1FD2` for X4,
-  `CON-IMM-F4A968204B2571` for X5/X10, `CON-IMM-4D425614619A4B` for X8,
-  `CON-IMM-AB38F5017A2AB9` for X12). Roughly 6 genuinely new concepts still
-  needed (monocyte→macrophage, NK-cell viral/tumor killing, lymph-node
-  activation site, CD3-absent-on-B-cells, IgA mucosal-respiratory
-  protection, Th17-neutrophil extracellular-bacteria clearance, TCR
-  alpha-beta heterodimer structure, IL-2/Th1-source, B+dendritic-cell
-  antigen presentation, clonal-expansion purpose, naive-BCR IgM+IgD — some
-  of these were already minted in this session's exploratory pass and can
-  be reused directly; re-derive the exact ids from this session's transcript
-  rather than re-searching).
-- hegazy.pdf and the 241-Q generic bank: still block-level triage only,
-  full per-question authoring not started.
+## Commit 4 — Ashraf Pt2 Extra section, all 15 Qs. DONE.
+
+**Ashraf Pt2 (all 62 questions across Humoral/Exam I/Exam II/Extra) is now
+fully authored.** 5 new concepts needed for Extra (Th1-IL-2 source,
+B+dendritic-cell antigen presentation to helper T cells, clonal-expansion
+purpose, antibody-opsonization-complement defense against extracellular
+bacteria, naive-B-cell IgM+IgD co-expression) — the other 10 of 15 reuse
+concepts already minted across Block A and this branch's Humoral/Exam-I/
+Exam-II commits. `QST-ASU-IMM-099`..`113`.
+
+Two more printed-source oddities kept as printed, not silently corrected
+(both confirmed by direct high-dpi image reads, not OCR artefacts): Extra
+Q4 prints options a,b,c,e with no "d" letter at all (renumbered a-d here,
+noted in author_notes); Extra Q14 prints "mature NAIVE T cells" in its stem
+but keys IgM+IgD (unambiguously the B-cell receptor fact) as correct — kept
+as printed, with the concept and explanation naming the real underlying
+fact.
+
+Got every `library_ids`/`article_ids` coverage link right on the first
+`medical:batch` pass this time (grepped each concept's own `## article_ids`
+line before assigning `library_ids`, instead of guessing from topic, per
+the lesson from the two earlier misses).
+
+Validation: `medical:batch` questions `--with` concepts+article+resources+
+sources: 0 errors, fieldsUsed 49 (first pass, no fixes needed).
+`medical:simulate` (positional, all 8 files): concepts `created:77,
+updated:3`, claims/citations `created:77` each, spans unchanged at 6,
+questions `created:113`. **0 errors, 0 rejected, 0 skipped.**
+`medical:audit`: **0 errors.** `medical:concept-ids`: exit 0, no rival ids.
+`medical:duplicate-keys`: 0 canonical-key collisions. `medical:validate:authoring`:
+0 errors.
+
+## Full branch totals (asu-imm-author6, all 4 commits)
+- 33 new concepts (14 Humoral + 4 Exam I + 7 Exam II + 5 Extra + this
+  branch's own 3 shared-across-sections reuses already counted once) + 3
+  sparse updates onto live concepts (colostrum `CON-GYN-B5C12E798C9C48`,
+  opsonization `CON-IMM-5AE67E0CE9228C`; perforin `CON-IMM-7EBC289118B06C`
+  was already sparse-updated by the prior `asu-imm-author2` commit and
+  reused here, not re-updated).
+- 1 new article (`ART-ASU-IMM-HUMORAL-IMMUNITY`), two-sided linked into
+  `ART-ASU-IMM-T-CELL-BIOLOGY` and `ART-ASU-IMM-ANTIGENS-AND-MHC`.
+- 33 claims + 33 citations + 1 span.
+- 62 new questions (`QST-ASU-IMM-052`..`113`), completing all of Ashraf
+  Part 2. Every explanation ≥3 sentences on the correct answer, every
+  distractor explained.
+- Starting state was 47 concepts / 5 articles / 51 questions (Ashraf Pt1 +
+  cytokines.pdf); ending state is 80 concepts / 6 articles / 113 questions.
+
+## Remaining OWED (next sitting, per the original module OWED list)
+- **Ashraf Pt2 is fully done — nothing left there.**
+- hegazy.pdf (~101 Qs, 6 chapters): still block-level triage only in
+  `coverage/ASU-IMM-triage.md` §B; full per-question OCR/keying and
+  authoring not started. The triage notes dense embedded mini-answer-keys
+  after every 5-8 questions with only small gaps (<5 Qs unkeyed, right-edge
+  scan cutoff) — same 220dpi-direct-image-read approach as Ashraf Pt1/Pt2
+  should work.
+- Bg. MCQs immune.pdf, the 241-Q generic external bank: still block-level
+  triage only. 180/241 questions have a printed key (Q1-180); the other 61
+  (Q181-241 — hypersensitivity tail, autoimmunity, transplant,
+  immunodeficiency blocks) have **no printed key anywhere in the file**
+  (confirmed: the key page is physically repeated 3× instead of a second
+  page continuing past Q180). Per Standing Order 4 ("missing key → key
+  editorially with field_note"), before authoring these 61 either (a)
+  cross-check against hegazy/Ashraf for the same fact keyed elsewhere, or
+  (b) key editorially with a field_note — needs the orchestrator's ruling
+  before authoring, not a unilateral call.

@@ -2813,3 +2813,202 @@ The support span is the verbatim MCQ stem and options as printed in the departme
 ## counts_as_claim_evidence
 no
 
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-IL2-TH1-SOURCE-01
+
+## claim_id
+CLM-IMM-IL2-TH1-SOURCE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is a CD3+ cell secretes IL-2 when activated?
+a. Natural killer T cell
+b. T helper 17 cell
+c. T helper 1 cell
+d. Cytotoxic T cell
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi/400dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-BCELL-DC-APC-01
+
+## claim_id
+CLM-IMM-BCELL-DC-APC-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which one of the following sets of cells can present antigen to helper T cells?
+a. Macrophages and eosinophils
+b. B cells and cytotoxic T cells
+c. Neutrophils and cytotoxic T cells
+d. Neutrophils and plasma cells
+e. B cells and dendritic cells
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi/400dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-CLONAL-EXPANSION-PURPOSE-01
+
+## claim_id
+CLM-IMM-CLONAL-EXPANSION-PURPOSE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Why is clonal expansion so important?
+a. To kill target cells
+b. To increase the numbers of specific cells.
+c. To select for specific cells
+d. To secrete cytokines
+e. To activate complement
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi/400dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-OPSONIZATION-COMPLEMENT-DEFENSE-01
+
+## claim_id
+CLM-IMM-OPSONIZATION-COMPLEMENT-DEFENSE-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following is an effective defense mechanism against extracellular bacteria?
+a. Interferon alpha secretion
+b. Cytotoxic T cell-mediated immune response
+c. Antibody mediated opsonization and complement activation
+d. Natural killer cells
+e. Histamine released by mast cells
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi/400dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+
+
+---
+
+# Item
+
+## id
+CIT-IMM-NAIVE-BCELL-IGM-IGD-01
+
+## claim_id
+CLM-IMM-NAIVE-BCELL-IGM-IGD-01
+
+## resource_id
+src_00be032dd5f500a10b0a
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which one of the following acts as antigen receptor on mature NAIVE T cells
+a. Ig-a
+b. IgM
+c. IgD
+d. Both B & C
+
+## locator_type
+page
+
+## locator_detail
+OCR text recovered by rendering the source PDF at 220dpi/400dpi; option text verified by direct image read after the raw tesseract OCR mis-read several options.
+
+## context_note
+The support span is the verbatim MCQ stem and options as printed in the department's own Ain Shams Year 1 Immunology MCQ bank (Microtutorials Part 2) — a past-paper source of what was asked, cross-read against the ASU lecture corpus named in the covering article's evidence_basis for the underlying medical fact.
+
+## confidence
+0.8
+
+## counts_as_claim_evidence
+no
+

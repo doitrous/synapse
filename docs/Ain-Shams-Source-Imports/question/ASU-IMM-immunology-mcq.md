@@ -14323,3 +14323,2245 @@ yes
 ## author_notes
 
 
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-099
+
+## title
+Which of the following belongs to IFN-y (IFN-gamma)?
+
+## question
+Which of the following belongs to IFN-y (IFN-gamma)?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+E
+
+## answer_a
+It is produced by all nucleated cells of the body
+
+## explanation_a
+Incorrect. IFN-gamma is produced by activated lymphocytes and NK cells, not by every nucleated cell of the body — that description fits MHC-I expression, not IFN-gamma production.
+
+## answer_b
+It is chemotactic for neutrophils
+
+## explanation_b
+Incorrect. IFN-gamma is not the main neutrophil chemoattractant; that role belongs to mediators such as IL-8 and C5a.
+
+## answer_c
+It induces TH2 response
+
+## explanation_c
+Incorrect. IFN-gamma promotes a Th1, not a Th2, response.
+
+## answer_d
+It directly elevates body temperature
+
+## explanation_d
+Incorrect. Direct elevation of body temperature (pyrogenic action) is characteristic of IL-1, not IFN-gamma.
+
+## answer_e
+Activates Macrophages
+
+## explanation_e
+Correct. IFN-gamma's dominant action is activating macrophages, typically supplied by Th1 cells or NK cells, enhancing the macrophage's microbicidal machinery against intracellular pathogens.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-17CE429C40F7BD
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IFN-gamma's defining action is macrophage activation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q1.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-100
+
+## title
+Which of the following is a CD3+ cell that secretes IL-2 when activated?
+
+## question
+Which of the following is a CD3+ cell that secretes IL-2 when activated?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Natural killer T cell
+
+## explanation_a
+Incorrect. Natural killer T cells are not the classic IL-2-secreting CD3+ subset this question tests.
+
+## answer_b
+T helper 17 cell
+
+## explanation_b
+Incorrect. Th17 cells' signature cytokine is IL-17, driving neutrophil recruitment, not IL-2 secretion.
+
+## answer_c
+T helper 1 cell
+
+## explanation_c
+Correct. The T helper 1 (Th1) cell is the CD3+ subset that secretes IL-2 when activated, alongside its signature IFN-gamma.
+
+## answer_d
+Cytotoxic T cell
+
+## explanation_d
+Incorrect. Cytotoxic T cells' defining outputs are perforin and granzyme for target-cell killing, not IL-2 secretion.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-14A723384DF207
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify Th1 cells as the CD3+ subset that secretes IL-2 upon activation.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q2.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-101
+
+## title
+Which of the following is NOT TRUE about Th-1 cells?
+
+## question
+Which of the following is NOT TRUE about Th-1 cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+They express CD4 molecule
+
+## explanation_a
+Incorrect as the answer. Th1 cells genuinely express CD4, so this statement IS true and is not the exception.
+
+## answer_b
+They have IL-2 receptor
+
+## explanation_b
+Incorrect as the answer. Th1 cells genuinely express the IL-2 receptor once activated, so this statement IS true and is not the exception.
+
+## answer_c
+They secrete IFN-y
+
+## explanation_c
+Incorrect as the answer. Th1 cells genuinely secrete IFN-gamma, so this statement IS true and is not the exception.
+
+## answer_d
+They bind soluble antigen
+
+## explanation_d
+Correct — this is the NOT-true statement. T lymphocytes, including Th1 cells, cannot recognise free or soluble antigen; they recognise antigen only after it has been processed and presented on an antigen-presenting cell in an MHC groove, never in solution.
+
+## answer_e
+They activate macrophages
+
+## explanation_e
+Incorrect as the answer. Th1 cells genuinely activate macrophages (via IFN-gamma), so this statement IS true and is not the exception.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-FD2151E25121CF
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that Th1 (and T cells generally) cannot bind soluble antigen directly, unlike the B-cell receptor.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q3.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-102
+
+## title
+Which one of the following is considered a major factor in promoting killing of intracellular bacteria by macrophages?
+
+## question
+Which one of the following is considered a major factor in promoting killing of intracellular bacteria by macrophages?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+IL-4
+
+## explanation_a
+Incorrect. IL-4 is a Th2 cytokine associated with humoral/allergic responses, not macrophage activation for intracellular killing.
+
+## answer_b
+IL-1
+
+## explanation_b
+Incorrect. IL-1 is an acute-phase pro-inflammatory cytokine and endogenous pyrogen, not the principal macrophage-activating factor for intracellular killing.
+
+## answer_c
+IL-6
+
+## explanation_c
+Incorrect. IL-6 is an acute-phase pro-inflammatory cytokine, not the principal macrophage-activating factor for intracellular killing.
+
+## answer_d
+Gamma-interferon
+
+## explanation_d
+Correct. Gamma-interferon (IFN-gamma), typically supplied by Th1 cells or NK cells, is the major factor promoting macrophage activation and killing of ingested intracellular bacteria.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-282B44B64B1FD2
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IFN-gamma is the major factor promoting macrophage killing of intracellular bacteria.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q4.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Source PDF prints only options a, b, c and e (no "d") for this item — renumbered a-d here for the 4-answer schema; the source's option e ("Gamma-interferon") is this record's option d.
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-103
+
+## title
+Which one of the following is TRUE regarding T cell activation and signaling?
+
+## question
+Which one of the following is TRUE regarding T cell activation and signaling?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+MHC II molecule binds to the CD8 coreceptor to initiate activation
+
+## explanation_a
+Incorrect. MHC class II binds the CD4 coreceptor, not CD8 (CD8 pairs with MHC class I) — a swapped-coreceptor distractor.
+
+## answer_b
+The essential cytokine released following activation is IL-1
+
+## explanation_b
+Incorrect. IL-2, not IL-1, is the essential cytokine driving proliferation following T-cell activation.
+
+## answer_c
+Binding of CD40 on the APC with CD28 on the T cell is essential for activation
+
+## explanation_c
+Incorrect. The genuine costimulatory pairing for T-cell activation is B7 on the APC with CD28 on the T cell, not CD40 with CD28 — CD40 pairs with CD40L in a different (B-cell isotype-switching) context.
+
+## answer_d
+Binding of B7 molecule to CTLA-4 promotes an inhibitory response
+
+## explanation_d
+Correct. Binding of the B7 molecule to CTLA-4 on the T cell delivers an inhibitory signal that down-regulates T-cell activity, in contrast with B7-CD28's activating signal.
+
+## answer_e
+In the absence of costimulation, the T cell produces TNF-a
+
+## explanation_e
+Incorrect. In the absence of costimulation, T-cell signalling is attenuated (a state often termed anergy), not a switch to producing TNF-alpha.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-F4A968204B2571
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that B7 binding CTLA-4 delivers an inhibitory signal, correcting the swapped coreceptor/cytokine/costimulation distractors.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q5.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-104
+
+## title
+Which one of the following sets of cells can present antigen to helper T cells?
+
+## question
+Which one of the following sets of cells can present antigen to helper T cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+E
+
+## answer_a
+Macrophages and eosinophils
+
+## explanation_a
+Incorrect. Eosinophils are not professional antigen-presenting cells for helper T cells; macrophages alone are, but this pairing includes a non-APC.
+
+## answer_b
+B cells and cytotoxic T cells
+
+## explanation_b
+Incorrect. Cytotoxic T cells are not antigen-presenting cells; they are the effector cells that recognise MHC-I-presented peptide.
+
+## answer_c
+Neutrophils and cytotoxic T cells
+
+## explanation_c
+Incorrect. Neither neutrophils nor cytotoxic T cells are professional antigen-presenting cells for helper T cells.
+
+## answer_d
+Neutrophils and plasma cells
+
+## explanation_d
+Incorrect. Neither neutrophils nor plasma cells are professional antigen-presenting cells for helper T cells.
+
+## answer_e
+B cells and dendritic cells
+
+## explanation_e
+Correct. B cells and dendritic cells are both professional antigen-presenting cells expressing MHC class II, and both can present antigen to helper T cells.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-C0AB7EDEEA9E5B
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify B cells and dendritic cells as a genuine antigen-presenting pairing for helper T cells.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q6.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-105
+
+## title
+Why is clonal expansion so important?
+
+## question
+Why is clonal expansion so important?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+To kill target cells
+
+## explanation_a
+Incorrect. Killing target cells is a downstream effector function, not the purpose of clonal expansion itself.
+
+## answer_b
+To increase the numbers of specific cells.
+
+## explanation_b
+Correct. Clonal expansion is important because it increases the numbers of antigen-specific lymphocytes, ensuring enough effector and memory cells are available to mount an effective response.
+
+## answer_c
+To select for specific cells
+
+## explanation_c
+Incorrect. Selection of specific clones happens via antigen recognition before expansion; expansion itself is about growing the numbers of the already-selected clone.
+
+## answer_d
+To secrete cytokines
+
+## explanation_d
+Incorrect. Cytokine secretion is a function of activated effector cells, not the purpose of clonal expansion itself.
+
+## answer_e
+To activate complement
+
+## explanation_e
+Incorrect. Complement activation is unrelated to the purpose of lymphocyte clonal expansion.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-E2EFF8D0C78EC2
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that clonal expansion's purpose is to increase the numbers of antigen-specific lymphocytes.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q7.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-106
+
+## title
+Which one of the following is TRUE regarding the immune response to T-dependent antigens?
+
+## question
+Which one of the following is TRUE regarding the immune response to T-dependent antigens?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Antigen is not processed by macrophage
+
+## explanation_a
+Incorrect. T-dependent antigen processing and presentation by an antigen-presenting cell (such as a macrophage) is exactly what licenses the T-cell help this pathway depends on.
+
+## answer_b
+No memory cell development
+
+## explanation_b
+Incorrect. Memory cell development is a hallmark of the T-dependent pathway, not something it lacks.
+
+## answer_c
+Induction of isotype switching
+
+## explanation_c
+Correct. The T-dependent antigen response, needing cognate T-helper engagement and the CD40-CD40L signal, induces isotype switching — a feature the T-independent pathway does not share.
+
+## answer_d
+Activation of B cells only
+
+## explanation_d
+Incorrect. T-dependent responses activate both B cells and T-helper cells together, not B cells alone (that framing better fits the T-independent pathway).
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-4D425614619A4B
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that induction of isotype switching is a defining TRUE feature of the T-dependent antigen response.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q8.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-107
+
+## title
+Which of the following is an effective defense mechanism against extracellular bacteria?
+
+## question
+Which of the following is an effective defense mechanism against extracellular bacteria?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Interferon alpha secretion
+
+## explanation_a
+Incorrect. Interferon-alpha's dominant role is antiviral defence, not clearance of extracellular bacteria.
+
+## answer_b
+Cytotoxic T cell-mediated immune response
+
+## explanation_b
+Incorrect. Cytotoxic-T-cell-mediated killing targets infected host cells, better suited to intracellular pathogens than free extracellular bacteria.
+
+## answer_c
+Antibody mediated opsonization and complement activation
+
+## explanation_c
+Correct. Antibody-mediated opsonization and complement activation is an effective humoral defence mechanism against extracellular bacteria, marking them for phagocytic clearance.
+
+## answer_d
+Natural killer cells
+
+## explanation_d
+Incorrect. Natural killer cells target virally infected and tumour cells, not free extracellular bacteria.
+
+## answer_e
+Histamine released by mast cells
+
+## explanation_e
+Incorrect. Mast-cell histamine drives acute allergic/vascular responses, not bacterial clearance.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-77B61C4222A097
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that antibody-mediated opsonization and complement activation effectively defends against extracellular bacteria.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q9.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-108
+
+## title
+Which one of the following is TRUE regarding T cell signaling?
+
+## question
+Which one of the following is TRUE regarding T cell signaling?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Binding of B7 molecule to CTLA-4 promotes an inhibitory response
+
+## explanation_a
+Correct. Binding of the B7 molecule to CTLA-4 on the T cell delivers an inhibitory signal that down-regulates T-cell activity.
+
+## answer_b
+MHC II molecule binds to the CD8 coreceptor to initiate activation
+
+## explanation_b
+Incorrect. MHC class II binds the CD4 coreceptor, not CD8, to initiate CD4+ T-cell activation.
+
+## answer_c
+In the absence of costimulation, the T cell produces TNF-a
+
+## explanation_c
+Incorrect. Without costimulation, T-cell activation is attenuated (anergy), not a switch to TNF-alpha production.
+
+## answer_d
+The essential cytokine released following activation is IL-1
+
+## explanation_d
+Incorrect. IL-2, not IL-1, is the essential cytokine driving proliferation following T-cell activation.
+
+## answer_e
+Binding of CD40 on the APC with CD28 on the T cell is essential for activation
+
+## explanation_e
+Incorrect. The genuine costimulatory pairing is B7 with CD28, not CD40 with CD28.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-F4A968204B2571
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that B7 binding CTLA-4 delivers an inhibitory T-cell signal (same fact as Extra Q5, reordered options).
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q10.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-109
+
+## title
+Which one of the following sets of cells can present antigen to helper T cells?
+
+## question
+Which one of the following sets of cells can present antigen to helper T cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+B cells and cytotoxic T cells
+
+## explanation_a
+Incorrect. Cytotoxic T cells are not antigen-presenting cells.
+
+## answer_b
+Macrophages and eosinophils
+
+## explanation_b
+Incorrect. Eosinophils are not professional antigen-presenting cells for helper T cells.
+
+## answer_c
+Neutrophils and plasma cells
+
+## explanation_c
+Incorrect. Neither neutrophils nor plasma cells are professional antigen-presenting cells for helper T cells.
+
+## answer_d
+B cells and dendritic cells
+
+## explanation_d
+Correct. B cells and dendritic cells are both professional, MHC-II-expressing antigen-presenting cells that can present antigen to helper T cells.
+
+## answer_e
+Neutrophils and cytotoxic T cells
+
+## explanation_e
+Incorrect. Neither neutrophils nor cytotoxic T cells are professional antigen-presenting cells for helper T cells.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-C0AB7EDEEA9E5B
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-ANTIGENS-AND-MHC
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+Identify B cells and dendritic cells as a genuine antigen-presenting pairing (same fact as Extra Q6, reordered options).
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q11.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-110
+
+## title
+Which of the following can attack viruses and bacteria in blood?
+
+## question
+Which of the following can attack viruses and bacteria in blood?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Cytotoxic T cells.
+
+## explanation_a
+Incorrect. Cytotoxic T cells kill infected host cells rather than directly attacking free virus or bacteria circulating in blood.
+
+## answer_b
+Antibodies from B cells.
+
+## explanation_b
+Correct. Antibodies secreted by B cells can bind and neutralise free viruses and bacteria circulating in blood — the humoral (antibody-mediated) route to bloodborne pathogen defence.
+
+## answer_c
+Antigens.
+
+## explanation_c
+Incorrect. Antigens are the target molecules the immune system recognises, not an immune effector that attacks pathogens.
+
+## answer_d
+Helper T cells.
+
+## explanation_d
+Incorrect. Helper T cells coordinate and license the response but do not themselves directly bind and attack free pathogens.
+
+## answer_e
+Natural killer cells
+
+## explanation_e
+Incorrect. Natural killer cells target virally infected host cells and tumour cells, not free-circulating pathogens directly.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-AB38F5017A2AB9
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that antibodies from B cells attack viruses and bacteria circulating in blood.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q12.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-111
+
+## title
+Which of the following is NOT TRUE about Th-1 cells?
+
+## question
+Which of the following is NOT TRUE about Th-1 cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+They express CD4 molecule
+
+## explanation_a
+Incorrect as the answer. Th1 cells genuinely express CD4, so this statement IS true and is not the exception.
+
+## answer_b
+They bind soluble antigen
+
+## explanation_b
+Correct — this is the NOT-true statement. Th1 cells, like all T cells, cannot bind free or soluble antigen; they recognise antigen only after processing and presentation on an MHC molecule.
+
+## answer_c
+They activate macrophages
+
+## explanation_c
+Incorrect as the answer. Th1 cells genuinely activate macrophages (via IFN-gamma), so this statement IS true and is not the exception.
+
+## answer_d
+They produce IFN-y
+
+## explanation_d
+Incorrect as the answer. Th1 cells genuinely produce IFN-gamma, so this statement IS true and is not the exception.
+
+## answer_e
+They have IL-2 receptor
+
+## explanation_e
+Incorrect as the answer. Th1 cells genuinely express the IL-2 receptor once activated, so this statement IS true and is not the exception.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-FD2151E25121CF
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-T-CELL-BIOLOGY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that Th1 cells cannot bind soluble antigen directly (same fact as Extra Q3, reordered options).
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q13.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-112
+
+## title
+Which one of the following acts as antigen receptor on mature NAIVE T cells?
+
+## question
+Which one of the following acts as antigen receptor on mature NAIVE T cells?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Ig-a
+
+## explanation_a
+Incorrect. Ig-alpha is the receptor's signal-transduction partner, not the antigen-recognition component itself.
+
+## answer_b
+IgM
+
+## explanation_b
+Incorrect alone. IgM is genuinely part of the answer, but on its own it omits IgD, which is co-expressed alongside it.
+
+## answer_c
+IgD
+
+## explanation_c
+Incorrect alone. IgD is genuinely part of the answer, but on its own it omits IgM, which is co-expressed alongside it.
+
+## answer_d
+Both B & C
+
+## explanation_d
+Correct. Both IgM and IgD together act as the antigen receptor on a mature, naive B lymphocyte — the source PDF prints "T cells" in this stem, but the keyed answer (IgM and IgD co-expression) is unambiguously the mature naive B-cell receptor fact, kept as printed here per the ANSWER-KEY-GAPS convention rather than silently corrected.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-51AF0B2D49C61D
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that mature naive B cells co-express both IgM and IgD as their antigen receptor.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q14.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+Source PDF's own printed stem reads "mature NAIVE T cells" (confirmed by direct 400dpi image read, not an OCR artefact); the keyed answer is unambiguously the B-cell receptor fact (IgM+IgD). Kept as printed rather than silently corrected to "B cells", per the module's ANSWER-KEY-GAPS convention for genuine printed oddities.
+
+
+---
+
+# Item
+
+## id
+QST-ASU-IMM-113
+
+## title
+Which one of the following Antibodies is the most efficient in complement activation?
+
+## question
+Which one of the following Antibodies is the most efficient in complement activation?
+
+## subject
+imm
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+IgG
+
+## explanation_a
+Incorrect. IgG does activate complement via the classical pathway, but it is not the single most efficient isotype at doing so.
+
+## answer_b
+IgE
+
+## explanation_b
+Incorrect. IgE does not activate complement; its role is parasite defence and mast-cell binding.
+
+## answer_c
+IgA
+
+## explanation_c
+Incorrect. IgA does not activate the classical complement pathway the way IgM and IgG do.
+
+## answer_d
+IgM
+
+## explanation_d
+Correct. IgM is the most efficient antibody isotype at activating complement, owing to its pentameric structure presenting multiple Fc regions for C1q engagement.
+
+## answer_e
+IgD
+
+## explanation_e
+Incorrect. IgD does not activate complement; its principal role is as a naive B-cell surface receptor.
+
+## topic
+Adaptive immunity
+
+## subtopic
+
+
+## main_concept
+CON-IMM-3ADAFC717798F9
+
+## concept_ids
+
+## contextual_concept_ids
+[clear]
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+ASU_Y1=0.3
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## question_only_for
+
+
+## library_ids
+ART-ASU-IMM-HUMORAL-IMMUNITY
+
+## resource_ids
+src_00be032dd5f500a10b0a
+
+## learning_objective
+State that IgM is the most efficient antibody isotype at activating complement.
+
+## source_citation
+Ain Shams University Immunology Department, Microtutorials Immunology 2023-2024, Dr Mohammed Ashraf, Part 2, Section IV (Extra questions), Q15.
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+

@@ -3122,3 +3122,224 @@ no
 ## qualifiers
 source_scope: ASU Year 1 Immunology, Term 1
 
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-IL2-TH1-SOURCE-01
+
+## concept_id
+CON-IMM-14A723384DF207
+
+## subject
+Th1 cells are the CD3+ cell that secretes IL-2 when activated
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Extra Q2
+
+## display_text
+Of the CD3+ T-cell subsets, the T helper 1 cell is the one that secretes IL-2 when activated.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-BCELL-DC-APC-01
+
+## concept_id
+CON-IMM-C0AB7EDEEA9E5B
+
+## subject
+B cells and dendritic cells can present antigen to helper T cells
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Extra Q6, Q11
+
+## display_text
+B cells and dendritic cells, both professional MHC-II-expressing APCs, can present antigen to helper T cells.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-CLONAL-EXPANSION-PURPOSE-01
+
+## concept_id
+CON-IMM-E2EFF8D0C78EC2
+
+## subject
+Clonal expansion increases the numbers of antigen-specific lymphocytes
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Extra Q7
+
+## display_text
+Clonal expansion is important because it increases the numbers of antigen-specific lymphocytes, not because it kills targets, selects clones, secretes cytokines or activates complement.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-OPSONIZATION-COMPLEMENT-DEFENSE-01
+
+## concept_id
+CON-IMM-77B61C4222A097
+
+## subject
+Antibody-mediated opsonization and complement activation defend against extracellular bacteria
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Extra Q9
+
+## display_text
+Antibody-mediated opsonization and complement activation is an effective defence mechanism against extracellular bacteria.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
+
+---
+
+# Item
+
+## id
+CLM-IMM-NAIVE-BCELL-IGM-IGD-01
+
+## concept_id
+CON-IMM-51AF0B2D49C61D
+
+## subject
+Both IgM and IgD act as the antigen receptor on mature naive B cells
+
+## predicate
+is supported by
+
+## object
+the Ain Shams Year 1 Immunology lecture/MCQ-bank corpus, as tested at Ashraf Pt2 Extra Q14
+
+## display_text
+Co-expression of both IgM and IgD is the antigen receptor signature of a mature, naive B lymphocyte.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.8
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+source_scope: ASU Year 1 Immunology, Term 1
+
