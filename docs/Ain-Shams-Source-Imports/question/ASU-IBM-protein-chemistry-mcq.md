@@ -4344,3 +4344,1659 @@ yes
 
 ## author_notes
 Same secondary-structure concept as Q8 (already authored) and Q37/Q38/Q60/Q61/Q83/Q90, tested here by naming the dominant bond type rather than the disrupting residue.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q32
+
+## title
+The alpha helix is stabilized by
+
+## question
+Alpha helix is stabilized by
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Interchain Hydrogen bond
+
+## explanation_a
+Incorrect. An interchain hydrogen bond would form between two separate polypeptide chains, which is not how the alpha helix works — the alpha helix is a single-chain structure, so nothing about it depends on bonds between different chains.
+
+## answer_b
+Intrachain Hydrogen bond
+
+## explanation_b
+Correct. The alpha helix is coiled and held in shape by hydrogen bonds formed within a single chain, specifically between the backbone C=O of one residue and the backbone NH of the residue four positions further along the same chain. This regular intrachain hydrogen-bonding pattern, repeating every turn of the helix, is exactly what makes the alpha helix a stable, self-contained secondary structure. It is also why a residue like proline, which lacks the backbone NH needed for this hydrogen bond, breaks the helix wherever it occurs.
+
+## answer_c
+Hydrophobic interaction
+
+## explanation_c
+Incorrect. Hydrophobic interactions are the dominant force in tertiary folding, packing nonpolar side chains into a protein's interior, but the alpha helix itself — as a secondary-structure element — is held together by backbone hydrogen bonds, not by side-chain hydrophobic packing.
+
+## answer_d
+Electrostatic interaction
+
+## explanation_d
+Incorrect. Electrostatic (ionic) bonds between charged side chains can occur alongside an alpha helix and even help stabilise some helices further, but they are not the defining force that holds the helix's coiled backbone together; that role belongs to the regular intrachain hydrogen bonds.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-99CEF760A9D2CC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+State that the alpha helix is stabilised by intrachain (not interchain) hydrogen bonds between backbone C=O and NH groups four residues apart.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q37, p.5.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same secondary-structure concept as Q8/Q31 (already authored), naming the intrachain (not interchain) nature of the alpha helix's stabilising hydrogen bonds.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q33
+
+## title
+The best amino acids to form a beta-turn are
+
+## question
+The best amino acids to form a b-turn is
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Aspartate, tryptophan, valine, leucine
+
+## explanation_a
+Incorrect. This group is dominated by residues with bulky, charged or branched side chains that do not favour the tight backbone reversal a beta-turn needs; none of them has the special conformational flexibility that makes glycine and proline the classic turn-forming residues.
+
+## answer_b
+Serine, glycine, proline, aspartic acid
+
+## explanation_b
+Correct. Beta-turns need a sharp, roughly 180-degree reversal of the polypeptide backbone over just four residues, and this group supplies exactly the residues best suited to it: glycine's single-hydrogen side chain gives the backbone the flexibility to adopt otherwise-strained turn angles, proline's cyclic side chain pre-organises a kink in the backbone, and serine and aspartic acid can each form a stabilising hydrogen bond back to the turn's own backbone. This is why these four residues are disproportionately found at beta-turns compared with their frequency elsewhere in proteins. Their combination of flexibility (glycine), forced kinking (proline) and local hydrogen bonding (serine, aspartate) is what a sharp turn structurally requires.
+
+## answer_c
+Phenylalanine, alanine, histidine, isoleucine
+
+## explanation_c
+Incorrect. This group is made up of residues favoured in regular secondary structures like the alpha helix and beta sheet rather than the sharp backbone reversal of a turn; none of them shares glycine's flexibility or proline's built-in kink.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. Only the serine/glycine/proline/aspartic-acid group is specifically associated with forming beta-turns; the other two groups list residues better suited to regular helical or sheet structure, so the statement cannot be true of every group listed.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-99CEF760A9D2CC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify serine, glycine, proline and aspartic acid as the residues best suited to forming a beta-turn.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q38, p.6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## author_notes
+Same secondary-structure concept family as Q8/Q31/Q32 (already authored), extended here to the beta-turn conformation specifically.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q34
+
+## title
+Native conformation means
+
+## question
+Native conformation means
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Primary structure
+
+## explanation_a
+Incorrect. Primary structure is only the linear amino acid sequence; a protein's native conformation is its correctly folded, biologically functional three-dimensional shape, which is a much higher level of organisation than the sequence alone.
+
+## answer_b
+Secondary structure
+
+## explanation_b
+Incorrect. Secondary structure covers only local folding patterns such as alpha helices and beta sheets within stretches of the chain; the native conformation refers to the complete, overall folded shape of the functional protein, not just these local elements.
+
+## answer_c
+Tertiary structure
+
+## explanation_c
+Correct. "Native conformation" refers to the specific, correctly folded three-dimensional shape that a protein must adopt to be biologically active — its tertiary structure — built by the hydrophobic, ionic, hydrogen-bond and disulfide interactions that fold the chain into its functional form. This is the shape that denaturation destroys and that molecular chaperones help a protein reach and, if needed, recover. Losing the native conformation is precisely what makes a denatured protein biologically inactive even though its primary sequence remains unchanged.
+
+## answer_d
+Quaternary structure
+
+## explanation_d
+Incorrect. Quaternary structure specifically describes the association of multiple separately folded subunits, which only applies to multi-subunit proteins; "native conformation" is the general term for a protein's correctly folded, functional shape and most commonly refers to its tertiary fold.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify a protein's native conformation with its correctly folded tertiary structure, the shape denaturation destroys.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q40, p.6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same tertiary-structure concept as Q7/Q30 (already authored), naming the folded 3D shape as the protein's "native conformation."
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q35
+
+## title
+If protein A needs assistance from protein B during folding, this means
+
+## question
+If protein A need Assistance form Protein B during folding, this mean
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Protein A synthesized inside the cell
+
+## explanation_a
+Incorrect. Every cellular protein, including one that needs folding assistance, is synthesised inside the cell — this is true of essentially all proteins and says nothing specific about why protein A would need help from protein B during folding.
+
+## answer_b
+Protein B is a chaperone
+
+## explanation_b
+Correct. When one protein assists another protein in reaching its correctly folded, native conformation, the assisting protein is by definition acting as a molecular chaperone — a class of proteins whose specific job is to bind newly synthesised or partially folded polypeptides and guide or accelerate their correct folding, without becoming part of the final folded structure themselves. This chaperone function is exactly why cells rely on proteins like the chaperonins and heat-shock proteins to prevent misfolding and aggregation. Protein B's role in assisting protein A's folding is the defining behaviour of a chaperone, not a coincidental side effect.
+
+## answer_c
+Protein B is ribosome
+
+## explanation_c
+Incorrect. A ribosome is the ribonucleoprotein machine that synthesises a polypeptide chain from its mRNA template; it is not itself classified as a protein, and its job is translation, not the specific folding-assistance role described in the question.
+
+## answer_d
+Protein B causes Alzheimer's
+
+## explanation_d
+Incorrect. Assisting another protein's correct folding is the opposite of causing disease — a chaperone helps prevent the misfolding and aggregation that underlies conditions like Alzheimer's disease, rather than causing it.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-057235F4B0CB48
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-PROTEIN-FOLDING-DISEASE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify a protein that assists another protein's folding as a molecular chaperone.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q43, p.6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same chaperone-function concept as Q96 (already authored) and Q47, tested here by defining what makes a helper protein a chaperone in the first place.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q36
+
+## title
+An amino acid present in the interior of a soluble protein
+
+## question
+Which of the following amino acid present in the interior of the Soluble protein
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Aspartic acid
+
+## explanation_a
+Incorrect. Aspartic acid carries a negatively charged carboxyl side chain, which strongly prefers contact with water; charged residues like this are found on a soluble globular protein's surface, not buried away from solvent in its interior.
+
+## answer_b
+Serine
+
+## explanation_b
+Incorrect. Serine's hydroxyl side chain is polar and hydrogen-bonds readily with water, so like other polar residues it is typically found on the surface of a soluble globular protein rather than buried in its hydrophobic core.
+
+## answer_c
+Phenylalanine
+
+## explanation_c
+Correct. Phenylalanine has a bulky, entirely nonpolar aromatic side chain, and the hydrophobic interaction that drives protein folding buries residues like this away from the surrounding water, packing them into the protein's interior core. This is the same hydrophobic-collapse principle that makes hydrophobic interactions the dominant force in tertiary folding. A soluble globular protein's stability depends on keeping nonpolar residues like phenylalanine shielded from water at its core while polar and charged residues face outward.
+
+## answer_d
+Cysteine
+
+## explanation_d
+Incorrect. Cysteine can occur in a protein's interior when it is forming a disulfide bond, but on its own its reactive thiol group is more commonly found at the surface or engaged in disulfide bonding rather than serving as the "typical" buried hydrophobic residue the question is describing.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-9F8AE7C57AFBA8
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify phenylalanine's nonpolar side chain as typical of a residue buried by hydrophobic interaction in a soluble protein's interior.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q44, p.6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same tertiary-structure/hydrophobic-interaction concept as Q7/Q30/Q34 (already authored), applied here to interior-residue identification.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q37
+
+## title
+Alzheimer disease is due to
+
+## question
+Alzheimer disease is due to
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Beta-amyloid formed by action of chaperone proteins
+
+## explanation_a
+Incorrect. Chaperones exist to assist correct folding and to prevent the aggregation of misfolded proteins; beta-amyloid plaques form because critical neural proteins misfold and aggregate, not because chaperones actively produce beta-amyloid as part of their normal function.
+
+## answer_b
+Improper folding of critical neural proteins
+
+## explanation_b
+Correct. Alzheimer disease results from the misfolding of critical neural proteins (notably amyloid-beta and, in related conditions, tau), which then aggregate into insoluble plaques and tangles that disrupt neuronal function. This is the same general principle of protein-misfolding disease seen in mad cow disease, where a defect in folding — not in the amino acid sequence itself — is what causes the pathology. In both diseases, the protein's primary sequence is unchanged; it is the three-dimensional conformation that goes wrong.
+
+## answer_c
+The primary structure of the neural protein being normal
+
+## explanation_c
+Incorrect as a description of the disease mechanism — while it is true that the primary sequence is typically normal in these misfolding diseases, stating this fact alone does not identify what actually causes Alzheimer disease, which is the abnormal folding (conformation), not the sequence.
+
+## answer_d
+Protein that is degraded by heat
+
+## explanation_d
+Incorrect. Alzheimer disease develops at normal body temperature through a spontaneous misfolding and aggregation process; it is not a consequence of heat-induced protein degradation of the kind seen in laboratory denaturation experiments.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-48CDF9F1C70820
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.65
+
+## exam_weight_by_year
+ASU_Y1=0.45
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-PROTEIN-FOLDING-DISEASE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify Alzheimer disease as a protein-misfolding disease, on the same general principle as mad cow disease.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q45, p.6.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same misfolding-disease concept as Q93 (mad cow, already authored), applied here to Alzheimer disease as the second worked example the file header flagged as a candidate.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q38
+
+## title
+Which of the following is NOT an essential amino acid?
+
+## question
+Which of the following is NOT an essential amino acid?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Tryptophan
+
+## explanation_a
+Incorrect as the non-essential one. Tryptophan is one of the essential amino acids — the body cannot synthesise it, so it must be obtained from the diet, in contrast with the one non-essential amino acid the question asks for.
+
+## answer_b
+Methionine
+
+## explanation_b
+Incorrect as the non-essential one. Methionine is essential and also the one sulfur-containing amino acid the body cannot make itself, unlike cysteine, its non-essential sulfur-containing counterpart.
+
+## answer_c
+Lysine
+
+## explanation_c
+Incorrect as the non-essential one. Lysine is fully essential at every life stage, with no metabolic pathway in the body able to synthesise it, so it does not fit the "not essential" description this question is looking for.
+
+## answer_d
+Serine
+
+## explanation_d
+Correct. Serine is a non-essential amino acid because the body can synthesise it itself, from the glycolytic intermediate 3-phosphoglycerate, so it does not need to come from the diet. This makes it the one amino acid among tryptophan, methionine, lysine and serine that the body does not have to obtain from food. It sits alongside other non-essential amino acids like alanine and glycine, which the body similarly makes on its own.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-71648230D1D4E2
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify serine as non-essential among a list otherwise made of essential amino acids.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q46, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same essential/non-essential concept as Q19/Q28/Q30 (already authored), retested here in "which is NOT essential" form with serine as the non-essential outlier.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q39
+
+## title
+Folding of newly synthesized proteins is accelerated by
+
+## question
+Folding of newly synthesized proteins is accelerated by
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Protein disulfide isomerase
+
+## explanation_a
+True, but incomplete on its own. Protein disulfide isomerase does accelerate folding by catalysing the rearrangement of disulfide bonds into their correct pairing, but it is only one of several folding-helper enzymes and proteins, which is why the more complete option below is the one keyed correct.
+
+## answer_b
+Cis-trans isomerase
+
+## explanation_b
+True, but incomplete on its own. Peptidyl-prolyl cis-trans isomerase accelerates folding by speeding up the otherwise slow interconversion of proline's cis and trans peptide-bond conformations, but like protein disulfide isomerase it is only one contributor among several.
+
+## answer_c
+Chaperonins
+
+## explanation_c
+True, but incomplete on its own. Chaperonins are large barrel-shaped complexes that provide an enclosed environment for a polypeptide to fold correctly, accelerating and protecting the folding process, but they work alongside — not instead of — the isomerase enzymes named in the other options.
+
+## answer_d
+All of these
+
+## explanation_d
+Correct. Newly synthesised protein folding is accelerated by several distinct classes of helper working together: protein disulfide isomerase (correcting disulfide-bond pairing), peptidyl-prolyl cis-trans isomerase (speeding proline bond interconversion) and the chaperonins (providing a protected folding environment). Because each of these genuinely does accelerate folding by its own distinct mechanism, the option combining all three is the one that correctly describes how cells speed up protein folding. No single one of them accounts for the whole picture on its own.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-057235F4B0CB48
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-PROTEIN-FOLDING-DISEASE
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify protein disulfide isomerase, cis-trans isomerase and the chaperonins as the distinct classes of helper that accelerate protein folding.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q47, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same chaperone-function concept as Q96/Q43 (already authored), widened here to the other folding-helper enzymes alongside the chaperonins.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q40
+
+## title
+Which of the following amino acids is known as a half-cystine residue?
+
+## question
+Which of the following amino acids is known as a half-cystine residue?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cysteine
+
+## explanation_a
+Correct. "Half-cystine" is the name given to a cysteine residue once it has formed one half of a disulfide bond with a second cysteine residue — the pair of linked cysteines together is called cystine, so each individual cysteine contributing to that link is termed a half-cystine. This terminology reflects cysteine's free thiol group being the one that is oxidised to form the disulfide linkage in the first place. The term is used specifically because cysteine is the sulfur-containing amino acid capable of this oxidative coupling.
+
+## answer_b
+Isoleucine
+
+## explanation_b
+Incorrect. Isoleucine has a branched aliphatic side chain with no sulfur atom at all, so it cannot form a disulfide bond and has no connection to the "half-cystine" terminology, which is specific to cysteine.
+
+## answer_c
+Valine
+
+## explanation_c
+Incorrect. Valine's side chain is a simple branched hydrocarbon with no sulfur, so like isoleucine it is entirely unrelated to disulfide-bond formation and the half-cystine terminology.
+
+## answer_d
+Histidine
+
+## explanation_d
+Incorrect. Histidine's side chain is an imidazole ring, which contains nitrogen rather than sulfur, so it cannot participate in disulfide bonding and has no relationship to the term "half-cystine."
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-408C254C4C53F5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-PEPTIDE-DISULFIDE-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cysteine, once oxidatively coupled into a disulfide bond, as a "half-cystine" residue.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q48, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same disulfide-bond concept as Q102 (already authored) and Q74/Q76, extended here to the "half-cystine" naming convention.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q41
+
+## title
+The two amino acids that contain sulfur atoms are
+
+## question
+The two amino acids that contain sulfur atoms are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cysteine and methionine
+
+## explanation_a
+Correct. Cysteine and methionine are the two standard amino acids whose side chains contain a sulfur atom — cysteine as a free thiol (-SH) group and methionine within a thioether (C-S-C) linkage. Cysteine's thiol allows it to form disulfide bonds by oxidative coupling with a second cysteine, while methionine's sulfur plays a different role, including as the amino acid that starts protein synthesis and as a methyl-group donor via S-adenosylmethionine. These two are the complete list of sulfur-containing standard amino acids.
+
+## answer_b
+Cysteine and serine
+
+## explanation_b
+Incorrect. Serine's side chain is a simple hydroxyl (-OH) group with no sulfur at all; only cysteine among this pair contains sulfur, so serine cannot be part of the correct answer to a question about sulfur-containing amino acids.
+
+## answer_c
+Methionine and threonine
+
+## explanation_c
+Incorrect. Threonine's side chain carries a hydroxyl group, not sulfur; only methionine in this pair is a sulfur-containing amino acid.
+
+## answer_d
+Methionine and serine
+
+## explanation_d
+Incorrect. As in option b, serine's hydroxyl side chain contains no sulfur, so pairing it with methionine still leaves one sulfur-free amino acid in the answer, which cannot be correct.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-B97BF0F6CCF322
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.25
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+30
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.35
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Identify cysteine and methionine as the two sulfur-containing standard amino acids.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q50, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+## author_notes
+Same sulfur-containing-amino-acid concept as Q92/Q26 (already authored) and Q70, tested here as the direct pairing question.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q42
+
+## title
+Amino acids are ampholytes because they can function as either a(n)
+
+## question
+Amino acids are ampholytes because they can function as either a(n):
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Acid or base
+
+## explanation_a
+Correct. An amino acid is called an ampholyte precisely because its molecule carries both an acidic group (the alpha-carboxyl, which can donate a proton) and a basic group (the alpha-amino, which can accept one), so depending on the surrounding pH it can act as either an acid or a base. This dual acid-base behaviour is what produces the zwitterionic (dipolar) form at the isoelectric point, where both groups are simultaneously ionised. It is the same amphoteric property that gives amino acids their buffering activity.
+
+## answer_b
+Neutral molecule or ion
+
+## explanation_b
+Incorrect. This pairing does not capture what "ampholyte" means; the term specifically refers to acid-base duality (donating or accepting a proton), not to a distinction between being neutral or charged.
+
+## answer_c
+Polar or nonpolar
+
+## explanation_c
+Incorrect. Whether a particular amino acid's side chain is polar or nonpolar is a separate classification (used to describe different amino acids from each other); it has nothing to do with why amino acids in general are called ampholytes.
+
+## answer_d
+Strand (chain) or branched molecule
+
+## explanation_d
+Incorrect. Whether a side chain is straight-chain or branched is a structural detail of specific amino acids like leucine or isoleucine; it is unrelated to the acid-base duality that defines an ampholyte.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-140D5B96CDD17C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.35
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-AMINO-ACID-IDENTITY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Explain that an amino acid's ampholyte (acid-or-base) behaviour arises from having both an ionisable carboxyl and an ionisable amino group.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q51, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same zwitterion/solubility concept as Q2 (already authored), extended here to the ampholyte acid-or-base property and, with Q53, to buffering activity.
+
+---
+
+# Item
+
+## id
+QST-ASUIBM-PROT-Q43
+
+## title
+Amino acids have buffering activity due to
+
+## question
+Amino acids have buffering activity due to
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The chiral carbon they contain
+
+## explanation_a
+Incorrect. Having a chiral (asymmetric) alpha-carbon is what gives most amino acids their D- and L-enantiomers; it is a separate structural feature from the ionisable groups responsible for buffering, and it has no direct role in resisting pH change.
+
+## answer_b
+Having a zwitterion form
+
+## explanation_b
+True, but incomplete on its own. The zwitterion is the dipolar form an amino acid takes at its isoelectric point, and it is a consequence of the same ionisable groups that give amino acids buffering capacity, but it names one particular charge state rather than the general amphoteric property responsible for buffering across a range of pH values.
+
+## answer_c
+Having L & D isomers
+
+## explanation_c
+Incorrect. The existence of L- and D-enantiomers is a consequence of the chiral alpha-carbon and is unrelated to an amino acid's ability to resist changes in pH.
+
+## answer_d
+Having amphoteric properties
+
+## explanation_d
+Correct. Buffering activity requires a substance to have both a weak acid and a weak base that can absorb added H+ or OH- without a large pH swing, and an amino acid's amphoteric (ampholyte) property — its ionisable carboxyl group acting as a weak acid and its ionisable amino group acting as a weak base — is exactly what provides this. Near each of its pKa values, an amino acid can donate or accept protons to resist pH change, which is the general amphoteric property that both the zwitterion form and the acid-or-base behaviour of an ampholyte follow from. This is why amino acids and proteins contribute meaningfully to the body's overall buffering capacity.
+
+## topic
+Biochemistry
+
+## subtopic
+Protein chemistry
+
+## main_concept
+CON-FND-140D5B96CDD17C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.4
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.7
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## years
+ASU_Y1
+
+## universities
+asu
+
+## module
+ASU-IBM
+
+## module_subject
+ASU-IBM > Biochemistry > Questions > Protein Chemistry
+
+## question_only_for
+
+## library_ids
+ART-FND-ASU-IBM-AMINO-ACID-IDENTITY
+
+## resource_ids
+src_659d23529471fd1ee6c6
+
+## learning_objective
+Trace an amino acid's buffering activity to its general amphoteric property, of which the zwitterion form is one particular state.
+
+## source_citation
+Ain Shams Faculty of Medicine Biochemistry Department, Introduction to Medical Biochemistry (ASU-IBM) Protein Chemistry MCQ bank, Q53, p.7.
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+## author_notes
+Same zwitterion/solubility concept as Q2/Q42 (already authored), naming the amphoteric property as the root cause behind both the zwitterion form and buffering activity.
