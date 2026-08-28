@@ -17,6 +17,7 @@ import {
 import { ensureV2, type StoredDecksV1 } from '@/data/flashcards/migration'
 import { generateCards, reconcileNoteInMeta } from '@/data/flashcards/generate'
 import { sm2Scheduler, type Scheduler } from '@/data/flashcards/scheduler'
+import { fsrsScheduler } from '@/data/flashcards/fsrs'
 import { deckCounts, type DeckCounts } from '@/data/flashcards/status'
 import { buildQueue, seenTodayFromEvents } from '@/data/flashcards/queue'
 import {
@@ -213,9 +214,9 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
   const schedulerFor = useCallback(
     (deckId: string): Scheduler => {
       const config = deckRecords[deckId]?.config ?? DEFAULT_DECK_CONFIG
-      // Only SM-2 exists today; an FSRS deck falls back until FSRS ships, rather
-      // than silently pretending. The interface is ready for it.
-      return sm2Scheduler(undefined) as Scheduler & { type: typeof config.scheduler }
+      // Opt-in per deck; SM-2 stays the default. A freshly-FSRS card carries no
+      // stability/difficulty yet — fsrsScheduler initializes them on first grade.
+      return config.scheduler === 'fsrs' ? fsrsScheduler() : sm2Scheduler()
     },
     [deckRecords],
   )
