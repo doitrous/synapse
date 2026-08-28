@@ -4200,6 +4200,13 @@ ASU-INF > Microbiology > Lectures > Bacterial virulence, toxins and genetics (Ch
 ## exam_weight_by_year
 ASU_Y1=0.25
 
+## field_notes
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
+
 ---
 # Item
 ## label
@@ -4220,6 +4227,13 @@ ASU-INF > Microbiology > Lectures > Bacterial virulence, toxins and genetics (Ch
 ## exam_weight_by_year
 ASU_Y1=0.25
 
+## field_notes
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
+
 ---
 # Item
 ## label
@@ -4239,6 +4253,13 @@ ASU-INF > Microbiology > Lectures > Bacterial virulence, toxins and genetics (Ch
 
 ## exam_weight_by_year
 ASU_Y1=0.25
+
+## field_notes
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -4401,6 +4422,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -4563,6 +4589,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -4725,6 +4756,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Host
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -4887,6 +4923,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Exot
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -5049,6 +5090,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Exot
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -5211,6 +5257,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Exot
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -5373,6 +5424,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Memb
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -5535,6 +5591,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Memb
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -5697,6 +5758,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Memb
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -5859,6 +5925,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Exot
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -6021,6 +6092,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Host
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -6183,6 +6259,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Host
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -6345,6 +6426,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Host
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -6507,6 +6593,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -6669,6 +6760,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Memb
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -6831,6 +6927,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -6993,6 +7094,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -7155,6 +7261,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -7317,6 +7428,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -7479,6 +7595,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -7641,6 +7762,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -7803,6 +7929,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -7965,6 +8096,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Bact
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 
@@ -7989,6 +8125,13 @@ ASU-INF > Microbiology > Lectures > Clinical bacteriology (Chapter 6)
 ## exam_weight_by_year
 ASU_Y1=0.25
 
+## field_notes
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
+
 ---
 # Item
 ## label
@@ -8008,6 +8151,13 @@ ASU-INF > Microbiology > Lectures > Clinical bacteriology (Chapter 6)
 
 ## exam_weight_by_year
 ASU_Y1=0.25
+
+## field_notes
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -8170,6 +8320,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stap
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -8332,6 +8487,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stai
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -8494,6 +8654,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Ente
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -8656,6 +8821,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Ente
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -8818,6 +8988,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stai
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -8980,6 +9155,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stap
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -9142,6 +9322,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stap
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -9304,6 +9489,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stap
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -9466,6 +9656,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Ente
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -9628,6 +9823,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Ente
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -9790,6 +9990,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Clin
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -9952,6 +10157,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Clin
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -10114,6 +10324,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Ente
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -10276,6 +10491,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Clin
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -10438,6 +10658,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stai
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -10600,6 +10825,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Stap
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 
@@ -10623,6 +10853,13 @@ ASU-INF > Microbiology > Lectures > Antibiotic resistance (Chapter 7)
 
 ## exam_weight_by_year
 ASU_Y1=0.25
+
+## field_notes
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -10785,6 +11022,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -10947,6 +11189,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -11109,6 +11356,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -11271,6 +11523,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -11433,6 +11690,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -11595,6 +11857,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -11757,6 +12024,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -11919,6 +12191,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -12081,6 +12358,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Anti
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 
@@ -12104,6 +12386,13 @@ ASU-INF > Microbiology > Lectures > Mycology, virology and infection control (Ch
 
 ## exam_weight_by_year
 ASU_Y1=0.25
+
+## field_notes
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -12266,6 +12555,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -12428,6 +12722,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -12590,6 +12889,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -12752,6 +13056,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -12914,6 +13223,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -13076,6 +13390,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -13238,6 +13557,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -13400,6 +13724,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -13562,6 +13891,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -13724,6 +14058,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Fung
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -13886,6 +14225,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -14048,6 +14392,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -14210,6 +14559,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -14372,6 +14726,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -14534,6 +14893,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -14696,6 +15060,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -14858,6 +15227,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -15020,6 +15394,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -15182,6 +15561,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -15344,6 +15728,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -15506,6 +15895,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -15668,6 +16062,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -15830,6 +16229,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -15992,6 +16396,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -16154,6 +16563,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -16316,6 +16730,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -16478,6 +16897,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Vira
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -16640,6 +17064,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Occu
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -16802,6 +17231,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Asep
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -16964,6 +17398,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Isol
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -17126,6 +17565,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Occu
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -17288,6 +17732,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Asep
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -17450,6 +17899,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Asep
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -17612,6 +18066,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Isol
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -17774,6 +18233,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Isol
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -17936,6 +18400,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Occu
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -18098,6 +18567,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Occu
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -18260,6 +18734,11 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Occu
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
 # Item
@@ -18422,5 +18901,10 @@ relationships: Grouped with the other concepts on the same ASU-INF article "Asep
 exclusionReason: The concept is not excluded; publication is waiting on independent evidence review.
 lastReviewed: No reviewer has completed review yet.
 reviewDue: Set after the first review is completed.
+microtopicId: No verified microtopic ID was supplied; prose microtopic retained as local topic text.
+nanotopicId: No verified nanotopic ID was supplied.
+approvedFileResourceIds: The source is corpus-indexed but not rights-cleared as an approved student file.
+approvedVideoResourceIds: No video source was supplied.
+resourceOccurrenceIds: No pipeline occurrence record was generated for this hand-authored ASU concept.
 
 ---
