@@ -3406,3 +3406,114 @@ manifest-order gate is tier-5 Anatomy practical source `src_47f9f289a4101c486870
 `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 2 - Anterior Compartment of Thigh/`.
 Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
 import or source copy was created.
+
+## Family 31 — Tier-5 anterior-thigh virtual-lab teaching deck
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_47f9f289a4101c486870` |
+| File / SHA-256 | `anterior compartment of the thigh.pdf` / `47f9f289a4101c486870d510dc71949f885ce517134ac5834cb50fd74ad42e2e` |
+| File boundary | 1,995,485 bytes · native PDF · 24 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 2 - Anterior Compartment of Thigh/anterior compartment of the thigh.pdf` |
+| Visible provenance | title page prints `Anatomy of anterior compartment of the thigh`, `Dr. Alaa Mohamed` and `Assistant lecturer`; PDF author is `Alaa Mohamed` and creator/producer is Microsoft PowerPoint for Microsoft 365 |
+| Authority finding | Helwan-local virtual-lab teaching deck by manifest/path placement; it is not an exam, station sheet, response form, question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **24 physical pages** were rendered and
+read. Page 1 is the title page, pp. 2–23 are anterior-thigh teaching slides, and p. 24 is a
+closing `Thank you` slide. No page prints an instruction to identify a structure, explicit
+practical/station prompt, ordinary question, response field, blank answer area, mark
+allocation, correctness convention, printed assessment answer or key. Named structures,
+attachment statements and arrows are simultaneous teaching mappings, not answers to an
+assessment prompt.
+
+### Complete defensible teaching-slide and mapping inventory
+
+| Physical page | Source-first teaching slide / plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 2 | thigh compartments, anterior-compartment functions and supply | 14 mappings: 6 named cross-section labels plus 8 muscle/function/supply relations |
+| 3 | colour-coded anterior-compartment muscles | 6 mappings; one further legend entry is visibly masked |
+| 4 | anterior-compartment muscle groups and nerve supply | 8 mappings |
+| 5 | labelled anterior-thigh muscle illustration | 6 mappings; 2 further leader-line labels are blank |
+| 6 | sartorius origin, insertion and labelled course | 3 unique mappings |
+| 7 | sartorius attachment sites on hip bone and tibia | 2 mappings |
+| 8 | sartorius model identification | 1 mapping |
+| 9 | psoas-major origin, insertion and illustrated identity | 3 mappings |
+| 10 | psoas-major origin and insertion plate | 2 directly named mappings; 8 other leader-line callouts are blank |
+| 11 | iliacus origin and insertion | 2 mappings |
+| 12 | iliacus attachment sites on hip bone and femur | 2 mappings |
+| 13 | iliopsoas model identification | 1 mapping |
+| 14 | quadriceps components, anatomical illustration | 4 mappings |
+| 15 | quadriceps components, laboratory model | 4 mappings |
+| 16 | rectus-femoris straight- and reflected-head origins | 2 mappings |
+| 17 | vastus-medialis linear origins | 4 mappings |
+| 18 | vastus-lateralis linear origins | 4 mappings |
+| 19 | vastus-intermedius origin | 1 mapping |
+| 20 | common quadriceps insertion chain | 2 mappings |
+| 21 | femoral-artery origin | 1 mapping |
+| 22 | femoral-artery termination | 1 mapping |
+| 23 | femoral-vein beginning and termination | 2 mappings |
+
+The **22 content-slide occurrences are 22 source-distinct teaching compositions**. Reused
+base illustrations or the same laboratory-model photograph carry different directly printed
+labels and therefore remain distinct evidence plates; no complete page is an exact copy. The
+mapping arithmetic is `14 + 6 + 8 + 6 + 3 + 2 + 1 + 3 + 2 + 2 + 2 + 1 + 4 + 4 + 2 + 4 +
+4 + 1 + 2 + 1 + 1 + 2 = 75`. The unresolved-residue arithmetic is `1 + 2 + 8 = 11` blank
+or masked callouts. Repeated facts on genuinely different teaching plates remain evidence
+occurrences, while duplicate wording within one plate is counted once. The assessment
+boundary is **0 practical/station prompts / 0 ordinary questions / 0 printed assessment
+keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 22 slides consolidate to ten source-level teaching scopes. This scope collapse does not
+delete plate or mapping evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `anterior-thigh-compartments-muscles-and-supply` · pp. 2–5 | anterior thigh compartments; anterior compartment thigh muscles; thigh intermuscular septa; anterior thigh femoral nerve supply | no direct live/pending hit; prior quadriceps and femoral-nerve handles own components only, not this compartment-organisation composite — new |
+| `sartorius-origin-insertion-and-identification` · pp. 6–8 | sartorius origin insertion; sartorius ASIS tibia; sartorius identification model; sartorius OINA | no direct live/pending hit; exact attachment scope is already owned by accepted `sartorius-oina` — prior LCS reuse |
+| `psoas-major-origin-insertion-and-identification` · pp. 9–10 | psoas major origin insertion; psoas lumbar vertebra lesser trochanter; psoas major identification model; psoas major OINA | no direct live/pending hit; Family 4 records nerve supply only and does not own the attachment/identification scope — new |
+| `iliacus-iliopsoas-origin-insertion-and-identification` · pp. 11–13 | iliacus origin insertion; iliacus iliac fossa lesser trochanter; iliopsoas tendon lesser trochanter; iliopsoas identification model | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `quadriceps-femoris-components-and-identification` · pp. 14–15 | quadriceps femoris components; quadriceps four heads; rectus vastus intermedius lateralis medialis; quadriceps identification model | no direct live/pending hit in the current search state; exact accepted `quadriceps-femoris-components` scope is prior LCS and retains its inherited pending disposition — prior LCS reuse |
+| `rectus-femoris-dual-head-origins` · p. 16 | rectus femoris straight reflected head; rectus femoris two heads origin; rectus femoris AIIS acetabular origin; rectus femoris origin identification | no direct live/pending hit; narrower attachment detail of accepted `rectus-femoris-oina` — prior LCS reuse |
+| `vasti-femoral-origins` · pp. 17–19 | vastus medialis origin; vastus lateralis origin; vastus intermedius origin; vasti femur attachment origins | no direct live/pending hit; component-name and action handles do not own the three-muscle attachment scope — new |
+| `quadriceps-common-insertion-chain` · p. 20 | quadriceps insertion patella; quadriceps tendon patellar ligament tibial tuberosity; quadriceps common insertion; ligamentum patellae quadriceps insertion | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+| `femoral-artery-origin-and-termination` · pp. 21–22 | femoral artery origin termination; external iliac continuation femoral artery; femoral artery adductor hiatus popliteal; femoral artery mid inguinal point | no direct live/pending hit; accepted `femoral-artery` handle expressly owns the full origin/termination/branches record — prior LCS reuse |
+| `femoral-vein-beginning-and-termination` · p. 23 | femoral vein beginning termination; popliteal vein continuation femoral vein; femoral vein external iliac vein inguinal ligament; femoral vein adductor hiatus | no direct live/pending hit and no same-scope accepted prior-LCS handle — new |
+
+All **10 × 4 = 40** required searches completed with no direct live or pending hit. The raw
+external result is `0 live / 0 pending / 10 new`; exact accepted-prior comparison removes
+four module additions, leaving **+6 new practical-teaching scopes**. Component overlap alone
+does not absorb the six broader or attachment-specific new scopes.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 31 | Family 31 delta | After Family 31 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 24 verified minimum | +22 | 46 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 316 verified minimum | +75 | 391 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 7 | +11 | 18 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 10 | +0 / +0 / +6 | 0 / 0 / 16 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum. The eligible question checkpoint remains **447 prompts / 242 printed
+keys / 204 concepts = 9 live / 49 pending / 146 new**.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-30
+remainder leaves **45 rank-4/rank-5 path instances / 43 unique hashes**. The next
+manifest-order gate is tier-5 Anatomy practical source `src_c3469062f5d94b4598cd`,
+`medial compartment and gluteal region-1.pdf` (30 native-text pages; SHA-256
+`c3469062f5d94b4598cd466365727e6296e31327587c49604cc3888d98209e2f`) under
+`Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 3 - Medial Compartment of the Thigh & Gluteal Region/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
