@@ -15,6 +15,16 @@ const REQUIRED = [
   '--readiness', '--triage', '--ledger-out', '--provenance-out',
 ]
 const CATEGORIES = ['05 MCQs', '06 EOM Exams', '07 EOY Exams', '08 Midterm Exams']
+const PARTIAL_SCREEN = {
+  sha256: 'c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983',
+  sourcePages: 101,
+  renderedReadPages: '1-10',
+  printedPromptObservations: 25,
+  printedKeyObservations: 0,
+  namedConceptsAssigned: 0,
+  resumeAtPage: 11,
+  sourceProcessed: false,
+}
 const PROCESSED_FAMILY_HASHES = [
   'a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95',
   'a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec',
@@ -102,6 +112,11 @@ function expectedTriageState(readiness, triage) {
   }
   const remainingChecksum = '26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a'
   if (!readiness.includes(remainingChecksum) || !triage.includes(remainingChecksum)) throw new Error('Triage/readiness evidence does not pin the selected remaining checksum')
+  if (!readiness.includes(PARTIAL_SCREEN.sha256)) throw new Error('Readiness evidence no longer retains the partially screened source')
+  if (PROCESSED_FAMILY_HASHES.includes(PARTIAL_SCREEN.sha256)) throw new Error('Partially screened source must not be marked processed')
+  for (const fragment of ['pages 1–10', '25', 'pages 11–101 remain unread', '0 named concepts']) {
+    if (!triage.includes(fragment)) throw new Error(`Triage evidence does not pin partial-screen boundary: ${fragment}`)
+  }
   return remainingChecksum
 }
 
@@ -261,6 +276,7 @@ const provenance = {
   selectedInventory: { inventoryMetadataRows: ledgerRows.length, uniqueSha256: selectedHashes.length, sortedNewlineSha256: selectedChecksum },
   auditSampleStatusCounts,
   processedFamilies: { sha256: processedHashes, uniqueSha256: processedHashes.length },
+  partialCoverage: PARTIAL_SCREEN,
   remaining: { inventoryMetadataRows: ledgerRows.filter((row) => !processedHashes.includes(row.sha256)).length, uniqueSha256: remainingHashes.length, sortedNewlineSha256: remainingChecksum, auditSampleStatusCounts: remainingAuditSampleStatusCounts },
   triageCheckpointRemainingExtractionDebt: { emptyTextRows: 38, sparseTextRows: 6, source: 'pinned triage/readiness checkpoint; not replaced by audit-sample status counts' },
   reconciliation: { selectedUniqueSha256: selectedHashes.length, processedUniqueSha256: processedHashes.length, remainingUniqueSha256: remainingHashes.length, processedPlusRemaining: processedHashes.length + remainingHashes.length },

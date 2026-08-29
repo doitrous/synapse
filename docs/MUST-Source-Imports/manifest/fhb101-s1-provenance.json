@@ -35,7 +35,7 @@
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
     "readinessMarkdown": "fb39928898daa2ca822d39a4839946259fb60fd411a51c72e8c71f1137902f08",
-    "triageMarkdown": "425a3425fe6b1d60612cc7dec4114ee2b025ca3153b0070184080715a5869225"
+    "triageMarkdown": "eb4c0d6eac7d58fd0c265f203e03ebc1a3f86ffb510d20ab49d6c59113b7d148"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -87,6 +87,16 @@
       "ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af"
     ],
     "uniqueSha256": 19
+  },
+  "partialCoverage": {
+    "sha256": "c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983",
+    "sourcePages": 101,
+    "renderedReadPages": "1-10",
+    "printedPromptObservations": 25,
+    "printedKeyObservations": 0,
+    "namedConceptsAssigned": 0,
+    "resumeAtPage": 11,
+    "sourceProcessed": false
   },
   "remaining": {
     "inventoryMetadataRows": 92,

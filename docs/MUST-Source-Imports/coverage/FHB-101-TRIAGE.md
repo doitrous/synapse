@@ -1431,3 +1431,33 @@ The assignment ledger has zero rows and the search ledger has zero rows: no rend
 **Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`.  By the pinned triage text classification, it contains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 92 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
+
+## Bounded continuation screen — Histology final-revision-question paper, pages 1–10 of 101
+
+The asserted starting remaining-hash checksum `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 87 hashes before this bounded pass.  The next ranked source is a 101-page local scanned practical-question paper.  To avoid estimating a 101-page source, this record covers **only rendered and read pages 1–10**; pages 11–101 remain unread, so the source is not processed, no completed-source arithmetic changes, and its hash remains in the source remainder.
+
+| Department | Category | Source path | SHA-256 | Source pages | Rendered/read scope | Printed prompts observed in scope | Printed keys / answers in scope |
+|---|---|---|---|---:|---|---:|---:|
+| Histology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - FHB final revision 2025 Questions.pdf` | `c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983` | 101 | pages 1–10 only | 25 | 0 |
+
+### Observed page-boundary prompt accounting
+
+Page 1 is the `FHB Final Practical revision` cover and has no prompt.  Pages 2 and 3 each print `Identify` plus the second line `What type of basophilic`, giving two printed prompts per page.  Pages 4–10 each print `Identify`, `Mention the site`, and `Why did you identify that`, giving three printed prompts per page.  The observed arithmetic is therefore `0 + (2 × 2) + (7 × 3) = 25`; none of pages 1–10 prints a keyed answer, a model answer, or an answer-marking convention.
+
+### Assignment, duplicate/composite, and search boundary
+
+The visible slides are unkeyed image-identification prompts: their image-title bands are blacked out/blank, so pages 1–10 print no named answer or semantic target to turn into a source-distinct concept without supplying an inferred identification.  The two prompt forms are repeated (pages 2–3 and pages 4–10 respectively), and the latter is a three-part composite response form, but neither repetition nor composite form can be collapsed to an assessment concept without a printed target or key.  Accordingly the in-scope assignment and search ledgers remain exactly `0 named concepts ↔ 0 search rows`; no live, pending, new, external, or prior-FHB deduplication result is claimed.  The 25 observed prompts are deliberately **not** added to cumulative question totals until all 101 pages are read and the source-level treatment can be reconciled.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources unchanged; bounded Histology pages 1–10 excluded) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** +0 questions, +0 printed keys / answers, +0 source-distinct tested concepts.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — bounded screen leaves source remainder unchanged
+
+**Remaining file list:** 92 selected inventory paths / 87 unique SHA-256s.  The sorted, newline-joined hash set (no trailing newline) checksum remains `26dd0b3a54e227d2689e2d5c9a4ea2dca5af8727db1ef3c3e4a9d2a9edba9f0a`.  By the pinned triage text classification, it remains 48 substantive-text, six sparse-text, and 38 empty-text rows.  The 101-page source above remains included because pages 11–101 are unread.
+
+**BLOCKED — S1 cannot be approved:** this source itself is still incomplete beyond page 10, and the remaining 92 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: resume this source at page 11 or complete another evidence-ranked unread substantive source without treating this partial screen as completed.
