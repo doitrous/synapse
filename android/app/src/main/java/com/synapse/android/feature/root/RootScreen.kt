@@ -41,6 +41,7 @@ import com.synapse.android.feature.account.AccountScreen
 import com.synapse.android.feature.account.AccountViewModel
 import com.synapse.android.feature.auth.SignInScreen
 import com.synapse.android.feature.practical.PracticalListScreen
+import com.synapse.android.feature.qotd.QotdRoute
 import com.synapse.android.feature.practical.PracticalReaderScreen
 import com.synapse.android.feature.practical.PracticalViewModel
 import com.synapse.android.feature.qbank.PreviousSittingsScreen
@@ -57,6 +58,7 @@ import kotlinx.coroutines.flow.first
 
 private const val ROUTE_QBANK = "qbank"
 private const val ROUTE_PRACTICAL = "practical"
+private const val ROUTE_QOTD = "qotd"
 private const val ROUTE_ACCOUNT = "account"
 
 /**
@@ -191,6 +193,12 @@ private fun SignedInNavHost(graph: AppGraph) {
                     label = { Text("Practical") },
                 )
                 NavigationBarItem(
+                    selected = currentRoute == ROUTE_QOTD,
+                    onClick = { navController.navigateToTab(ROUTE_QOTD) },
+                    icon = {},
+                    label = { Text("Daily") },
+                )
+                NavigationBarItem(
                     selected = currentRoute == ROUTE_ACCOUNT,
                     onClick = { navController.navigateToTab(ROUTE_ACCOUNT) },
                     icon = {},
@@ -206,6 +214,7 @@ private fun SignedInNavHost(graph: AppGraph) {
         ) {
             composable(ROUTE_QBANK) { QuestionBankRoute(graph) }
             composable(ROUTE_PRACTICAL) { PracticalRoute(graph) }
+            composable(ROUTE_QOTD) { QotdRoute(graph) }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: AccountViewModel = viewModel(
                     factory = AccountViewModel.factory(graph.auth, graph.sync, graph.store, graph.themePreference),

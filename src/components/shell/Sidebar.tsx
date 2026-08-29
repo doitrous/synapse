@@ -17,6 +17,7 @@ import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
 import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
 import { useOpenEscalationCount } from '@/lib/useEscalationBadge'
+import { useQotd } from '@/lib/useQotd'
 
 export function Sidebar({
   portal,
@@ -34,6 +35,10 @@ export function Sidebar({
   const identity = useIdentity()
   const groups = navFor(portal, identity.tabs)
   const escalationCount = useOpenEscalationCount()
+  // Only the student sidebar renders the dot this feeds, so the hook does no
+  // work (and makes no request) off the student app.
+  const qotd = useQotd(portal === 'student')
+  const qotdUnanswered = portal === 'student' && !qotd.loading && !qotd.answered
   // `audience`, not `profile`: the roster record is authoritative but often
   // absent, and `audience` is the merge of it with what the student told
   // onboarding. Reading `profile` here showed nothing to every student whose
@@ -136,6 +141,16 @@ export function Sidebar({
                             >
                               {escalationCount}
                             </span>
+                          )
+                        )}
+                        {item.to === '/app/qotd' && qotdUnanswered && (
+                          collapsed ? (
+                            <span className="absolute end-1.5 top-1.5 h-2 w-2 rounded-full bg-primary" aria-hidden="true" />
+                          ) : (
+                            <span
+                              className="ms-auto h-2 w-2 shrink-0 rounded-full bg-primary"
+                              aria-label={t('Not answered yet today')}
+                            />
                           )
                         )}
                       </>

@@ -21,6 +21,7 @@ import {
   GraduationCap,
   StickyNote,
   MonitorPlay,
+  Flame,
 } from 'lucide-react'
 import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '@/data/adminTabs'
 
@@ -51,6 +52,7 @@ export const studentNav: NavGroup[] = [
     items: [
       { label: 'Library', to: '/app/library', icon: BookOpen },
       { label: 'Question Bank', to: '/app/qbank', icon: ListChecks },
+      { label: 'Question of the Day', to: '/app/qotd', icon: Flame },
       { label: 'Question Notes', to: '/app/question-notes', icon: StickyNote },
       { label: 'Adaptive Study', to: '/app/adaptive', icon: Compass },
       { label: 'Practical', to: '/app/practical', icon: Stethoscope },

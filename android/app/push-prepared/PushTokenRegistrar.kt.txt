@@ -1,0 +1,109 @@
+package com.synapse.android.core.push
+
+/*
+ * PREPARED, NOT BUILT.
+ *
+ * This file is a `.kt.txt` template, not a compiled source — see the note at
+ * the top of `QotdMessagingService.kt.txt` in this same directory for why it
+ * lives outside every Gradle source set. `FirebaseMessaging.getInstance()`
+ * below comes from `com.google.firebase:firebase-messaging`, which this
+ * project does not yet depend on.
+ *
+ * To activate: follow docs/qotd-android-push-enablement.md, then move this
+ * file to `android/app/src/main/java/com/synapse/android/core/push/PushTokenRegistrar.kt`
+ * (dropping the `.txt` extension) and call `requestPermissionAndRegister`
+ * from wherever the app already asks for a sensible, user-legible moment to
+ * request a permission (e.g. after sign-in or first QotD view — matching
+ * the iOS lane's own rule against asking at cold launch).
+ */
+
+import android.Manifest
+import android.app.Activity
+import android.content.Context
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
+import com.google.firebase.messaging.FirebaseMessaging
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import org.json.JSONObject
+
+/**
+ * Registers this device's FCM token with `POST /api/devices` and asks for
+ * the Android 13+ notification permission.
+ *
+ * Deliberately does not reuse `SynapseApi` (`core/api/SynapseApi.kt`) — that
+ * client only speaks the GET/PUT document routes the sync engine needs, and
+ * adding a general POST method there for this one dormant caller is not
+ * worth the surface. On activation, if a second POST caller ever shows up,
+ * fold this into `SynapseApi` instead of keeping two HTTP callers.
+ *
+ * `bearerToken` should come from the same place `AppGraph.kt` wires
+ * `authBackend::accessToken` into `SynapseApi` — this device registration is
+ * only meaningful once a student is signed in.
+ */
+object PushTokenRegistrar {
+
+    private val client = OkHttpClient()
+    private val jsonMediaType = "application/json; charset=utf-8".toMediaType()
+
+    const val PERMISSION_REQUEST_CODE = 4201
+
+    /** Call once notification permission is resolved and on every `onNewToken`. */
+    fun registerToken(context: Context, fcmToken: String, baseUrl: String, bearerToken: String?) {
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val body = JSONObject()
+                    .put("platform", "android")
+                    .put("token", fcmToken)
+                    .toString()
+                    .toRequestBody(jsonMediaType)
+                val builder = Request.Builder()
+                    .url("$baseUrl/api/devices")
+                    .post(body)
+                if (bearerToken != null) builder.header("Authorization", "Bearer $bearerToken")
+                client.newCall(builder.build()).execute().close()
+            } catch (e: Exception) {
+                // A failed registration is retried on the next app launch or
+                // token refresh; it must never crash the caller.
+            }
+        }
+    }
+
+    /**
+     * Requests the `POST_NOTIFICATIONS` runtime permission (Android 13+
+     * only — earlier versions grant notification display at install time)
+     * and, once resolved, fetches the current FCM token and registers it.
+     */
+    fun requestPermissionAndRegister(activity: Activity, baseUrl: String, bearerToken: String?) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            val granted = ContextCompat.checkSelfPermission(
+                activity,
+                Manifest.permission.POST_NOTIFICATIONS,
+            ) == PackageManager.PERMISSION_GRANTED
+            if (!granted) {
+                ActivityCompat.requestPermissions(
+                    activity,
+                    arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+                    PERMISSION_REQUEST_CODE,
+                )
+                return
+            }
+        }
+        fetchAndRegister(activity, baseUrl, bearerToken)
+    }
+
+    /** Call from `onRequestPermissionsResult` for [PERMISSION_REQUEST_CODE] once the user has answered (granted or not — a denial still lets the app run, just without alerts). */
+    fun fetchAndRegister(context: Context, baseUrl: String, bearerToken: String?) {
+        FirebaseMessaging.getInstance().token.addOnCompleteListener { task ->
+            val token = task.result ?: return@addOnCompleteListener
+            registerToken(context, token, baseUrl, bearerToken)
+        }
+    }
+}

@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Archive, Database, ChevronRight, Network, GraduationCap } from 'lucide-react'
+import { Archive, Database, ChevronRight, Network, GraduationCap, CalendarDays } from 'lucide-react'
 import { ControlDashboard, type QuestionScope } from './ControlDashboard'
+import { QotdPinPanel } from '@/components/admin/QotdPinPanel'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useIdentity } from '@/lib/useIdentity'
 
 type Selection = { universityId?: string; year?: string }
-export type QuestionCatalogueView = 'current' | 'archived'
+export type QuestionCatalogueView = 'current' | 'archived' | 'qotd'
 
 /**
  * Questions Setup = a left "Master Question Bank" navigator (all questions →
@@ -60,6 +61,19 @@ export function QuestionsSetup() {
           <Icon icon={Archive} size={16} />
           Archived questions
         </button>
+
+        {!identity.contentScope && <button
+          type="button"
+          onClick={() => { setView('qotd'); setSelection({}); setOpenUni(null) }}
+          aria-pressed={view === 'qotd'}
+          className={cn(
+            'mt-1 flex w-full items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] font-semibold',
+            view === 'qotd' ? 'bg-inset text-ink' : 'text-ink-2 hover:bg-inset',
+          )}
+        >
+          <Icon icon={CalendarDays} size={16} />
+          Question of the Day
+        </button>}
 
         <p className="mt-4 mb-1.5 px-3 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">By university & year</p>
         <ul className="space-y-0.5">
@@ -126,15 +140,21 @@ export function QuestionsSetup() {
 
       {/* Scoped catalogue */}
       <div className="min-w-0 flex-1">
-        <div className="border-b border-line bg-surface px-5 py-2.5 text-[12.5px] text-ink-2">
-          <span className="font-medium text-ink">Scope:</span>{' '}
-          {view === 'archived'
-            ? 'Archive — retired questions from every former university and year'
-            : isMaster
-            ? 'Master Question Bank — every question'
-            : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
-        </div>
-        <ControlDashboard key={`${view}-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} questionView={view} archiveControl="external" />
+        {view === 'qotd' ? (
+          <QotdPinPanel />
+        ) : (
+          <>
+            <div className="border-b border-line bg-surface px-5 py-2.5 text-[12.5px] text-ink-2">
+              <span className="font-medium text-ink">Scope:</span>{' '}
+              {view === 'archived'
+                ? 'Archive — retired questions from every former university and year'
+                : isMaster
+                ? 'Master Question Bank — every question'
+                : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
+            </div>
+            <ControlDashboard key={`${view}-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} questionView={view} archiveControl="external" />
+          </>
+        )}
       </div>
     </div>
   )
