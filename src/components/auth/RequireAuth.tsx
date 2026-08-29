@@ -2,7 +2,7 @@ import { Navigate, useLocation } from 'react-router-dom'
 import type { ReactElement } from 'react'
 import { useIdentity } from '@/lib/useIdentity'
 import { RouteLoading } from '@/components/shell/RouteLoading'
-import { hasConsoleAccess } from '@/data/adminRoles'
+import { hasConsoleAccess, mfaEnforced } from '@/data/adminRoles'
 
 /**
  * A portal only renders for someone entitled to see it.
@@ -54,11 +54,12 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
 
   if (needsConsole || tab) {
     if (!hasConsoleAccess(identity.role ?? '')) return <Navigate to="/app" replace />
-    // Console access now requires a second factor, because the console decides
-    // who else gets console access. Somebody promoted an hour ago has not
-    // enrolled yet; send them to enrol rather than to twenty-five pages that
-    // each answer mfa_required on their own.
-    if (identity.status !== 'demo' && identity.aal !== 'aal2') {
+    // Admin and above require a second factor, because they decide who else
+    // gets console access. Somebody promoted an hour ago has not enrolled yet;
+    // send them to enrol rather than to twenty-five pages that each answer
+    // mfa_required on their own. Reviewers are exempt — they hold no such power
+    // — so a reviewer without aal2 reaches their console directly.
+    if (identity.status !== 'demo' && mfaEnforced(identity.role ?? '') && identity.aal !== 'aal2') {
       const next = `${location.pathname}${location.search}`
       return <Navigate to={`/auth/mfa?next=${encodeURIComponent(next)}`} replace />
     }

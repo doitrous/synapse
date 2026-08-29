@@ -25,6 +25,17 @@ export const ROLE_RANK: Record<EffectiveRole, number> = {
 export const STORED_ROLES: StoredRole[] = ['student', 'reviewer', 'admin', 'editor']
 export const CONSOLE_ROLES: EffectiveRole[] = ['reviewer', 'admin', 'editor', 'super_admin']
 
+/**
+ * Console roles a second factor is mandatory for. Reviewer opens the console
+ * but is exempt, so a control never sends one to enrol as if it were required.
+ * The server's `mfaSatisfied` is the authority; this mirrors it.
+ */
+export const MFA_ENFORCED_ROLES: EffectiveRole[] = ['admin', 'editor', 'super_admin']
+
+export function mfaEnforced(role: string): boolean {
+  return MFA_ENFORCED_ROLES.includes(role as EffectiveRole)
+}
+
 /** Editor and above. Reviewer and Admin are given no role-management power. */
 const ROLE_MANAGER_RANK = 2
 
