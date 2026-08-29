@@ -1,5 +1,6 @@
 package com.synapse.app.core.flashcards
 
+import kotlinx.serialization.Serializable
 import java.time.Instant
 
 /**
@@ -19,6 +20,7 @@ import java.time.Instant
  */
 
 /** One card's content: front and back text only — no media, no cloze. */
+@Serializable
 data class DeckCard(val id: String, val front: String, val back: String)
 
 /** A deck as a student sees it: content only, no per-student scheduling. */
@@ -41,6 +43,7 @@ data class StudentDeck(
  * each other's intervals. [cards] for a provided-deck mirror is a snapshot of
  * content taken when the deck was (re-)opened for study, not a live join.
  */
+@Serializable
 data class StoredDeck(
     val id: String,
     val name: String,
@@ -56,6 +59,7 @@ data class StoredDeck(
 data class StudyCard(val id: String, val schedule: CardSchedule)
 
 /** How many new and review cards a student has already been shown today, and which day that is. */
+@Serializable
 data class DailyDeckCounts(val day: String, val newSeen: Int, val reviewsSeen: Int)
 
 /**

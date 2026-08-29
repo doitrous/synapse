@@ -1,5 +1,6 @@
 package com.synapse.app.core.flashcards
 
+import kotlinx.serialization.Serializable
 import java.time.Instant
 import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
@@ -31,8 +32,10 @@ import kotlin.math.floor
  */
 enum class Grade { Again, Hard, Good, Easy }
 
+@Serializable
 enum class CardState { New, Learning, Review, Relearning }
 
+@Serializable
 data class CardSchedule(
     val state: CardState,
     /** Index into the learning or relearning step list; unused while in review. */
