@@ -818,3 +818,253 @@ family dispositions are separate dimensions. Cumulative arithmetic is
 - All BMS-102 microbiology question evidence remains S1 debt.
 - Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
   readiness, claim, download, commit, or push action is authorised in this lane.
+
+## Family 5 — general neoplasia continuous-assessment solved/unsolved pair
+
+### Source identity, page boundary, and observed counts
+
+This family is the next tier-3 pathology pair after Neoplasia 4. Both files were read in
+full from 150-dpi page renders; native text was used only to check transcription and count
+the visibly printed `Answer:` lines.
+
+| Copy | Manifest source | Verified SHA-256 | Native pages | Role |
+|---|---|---|---:|---|
+| unsolved | `src_8863ae6cda793e477301` · `MCQs - College MCQs continous assessement neoplasia.pdf` | `8863ae6cda793e477301523895a1030ba3215ee78f603f2a14d8d62eb256a10b` | 14 | exact question copy; no printed keys |
+| solved | `src_eda268c7a75eb1930662` · `MCQs - College MCQs continous assessement neoplasia answer.pdf` | `eda268c7a75eb1930662b241c7b167f3a3ae3b62503cc9e5c67d6cb31ab059cd` | 14 | authoritative keyed copy |
+
+The solved copy has three blocks: A has 25 general MCQs, B has 18 clinical MCQs, and C
+has 19 further clinical/general MCQs (`25 + 18 + 19 = 62`). The unsolved copy contains
+the same 62 stems and option sets. Its later printed numbering is malformed: two section
+headings are numbered as questions (`28` and `32`), the stage-IV item is unnumbered, and
+printed Q25 is repeated. Those artefacts create 63 numeric-looking lines but not 63
+questions. Page-by-page pairing establishes **62 actual unsolved prompts**, all exact
+cross-copy repeats of the 62 solved prompts.
+
+Thus the pair contains `62 + 62 = 124` observed prompt occurrences, `62` cross-copy
+wording repeats, and `62` retained solved records. The solved copy visibly prints one
+answer after each prompt: **62 printed keys**. No unsolved answer and no correction to a
+printed answer is inferred. In particular, A01 (`dysplasia` versus `carcinoma in situ`)
+prints `basement membrane invasion`, and A16 (well-differentiated gland formation without
+invasion) prints `carcinoma in situ`; both are retained as source-key evidence and flagged
+as questionable rather than silently repaired.
+
+### Source-assignment ledger
+
+`retain` means the solved occurrence is the one retained question record. A handle is a
+tested-scope search label, not a proposed ID. Four scope-tight within-copy collapses are
+explicit: C06→A10 (grade/differentiation), C09→A04 (anaplasia), C11→B11
+(PTHrP-associated hypercalcaemia), and C15→B15 (APC/FAP). No other similar-looking
+diagnosis, route, site, syndrome, or source-key proposition is collapsed.
+
+| Ref | Observed solved prompt → visibly printed key | Assignment | Search handle |
+|---|---|---|---|
+| F5-A01 | Dysplasia versus carcinoma in situ → basement-membrane invasion | retain; questionable printed key preserved | `dysplasia-versus-carcinoma-in-situ-source-key` |
+| F5-A02 | Lung tumour with pleomorphism, hyperchromasia and mitoses → poorly differentiated carcinoma | retain | `poorly-differentiated-lung-carcinoma-morphology` |
+| F5-A03 | Invasive gland-forming tumour → adenocarcinoma | retain | `invasive-gland-forming-adenocarcinoma` |
+| F5-A04 | Anaplasia → poor differentiation with high mitotic activity | retain; also C09 | `anaplasia-definition-morphology` |
+| F5-A05 | Mixed epithelial/mesenchymal parotid tumour → pleomorphic adenoma | retain | `pleomorphic-adenoma-mixed-parotid-tissue` |
+| F5-A06 | Hepatocellular-carcinoma marker → AFP | retain | `afp-hepatocellular-carcinoma-marker` |
+| F5-A07 | Malignant mesenchymal tumour → sarcoma | retain | `sarcoma-mesenchymal-malignancy` |
+| F5-A08 | Feature indicating malignancy → invasion of adjacent tissue | retain | `invasion-indicates-malignancy` |
+| F5-A09 | Totipotent tumour with three germ layers → teratoma | retain | `teratoma-three-germ-layers` |
+| F5-A10 | Tumour grade/aggressiveness → degree of differentiation | retain; also C06 | `tumor-grade-degree-differentiation` |
+| F5-A11 | Tumour class spreading haematogenously → sarcoma | retain | `sarcoma-hematogenous-metastasis-route` |
+| F5-A12 | Tumour-suppressor example → TP53 | retain | `tp53-tumor-suppressor-example` |
+| F5-A13 | Malignant-transformation hallmark → loss of contact inhibition | retain | `loss-contact-inhibition-malignant-transformation` |
+| F5-A14 | TNM → tumour size, nodes and metastases | retain | `tnm-staging-components` |
+| F5-A15 | Paraneoplastic syndrome → systemic effects of tumour-secreted substances | retain | `paraneoplastic-syndrome-systemic-secretions` |
+| F5-A16 | Well-differentiated glandular non-invasive lesion → carcinoma in situ | retain; questionable printed key preserved | `gland-forming-noninvasive-carcinoma-in-situ-source-key` |
+| F5-A17 | Reflux-associated metaplasia → squamous-to-glandular change | retain | `barrett-squamous-to-glandular-metaplasia` |
+| F5-A18 | NOT a dysplasia feature → basement-membrane invasion | retain | `dysplasia-excludes-basement-membrane-invasion` |
+| F5-A19 | Usual carcinoma-spread route → lymphatic | retain | `carcinoma-lymphatic-metastasis-route` |
+| F5-A20 | Wilms tumour → paediatric nephroblastoma | retain | `wilms-tumor-pediatric-nephroblastoma` |
+| F5-A21 | Benign-tumour feature → encapsulation | retain | `benign-tumor-encapsulation` |
+| F5-A22 | Tumour angiogenesis → VEGF | retain | `vegf-promotes-tumor-angiogenesis` |
+| F5-A23 | Asbestos-associated malignancy → mesothelioma | retain | `asbestos-mesothelioma-risk` |
+| F5-A24 | Polyp → projection from a mucosal surface | retain | `polyp-mucosal-surface-projection` |
+| F5-A25 | Oncogene → mutated gene promoting uncontrolled growth | retain | `oncogene-mutated-growth-promoting-gene` |
+| F5-B01 | Smoking-associated gland/mucin lung tumour → lung adenocarcinoma | retain | `lung-adenocarcinoma-glandular-mucin-morphology` |
+| F5-B02 | Postmenopausal atypical glands invading myometrium → endometrial adenocarcinoma | retain | `endometrial-adenocarcinoma-glandular-myometrial-invasion` |
+| F5-B03 | Lower-lip ulcer with keratin pearls → squamous-cell carcinoma | retain | `lower-lip-squamous-cell-carcinoma-keratin-pearls` |
+| F5-B04 | Circumscribed biphasic breast mass → fibroadenoma | retain | `fibroadenoma-biphasic-breast-mass` |
+| F5-B05 | Distal-femur sunburst lesion with malignant osteoid → osteosarcoma | retain | `osteosarcoma-sunburst-malignant-osteoid` |
+| F5-B06 | Child's orbital rhabdomyoblasts/cross-striations → rhabdomyosarcoma | retain | `orbital-rhabdomyosarcoma-cross-striations` |
+| F5-B07 | Flushing, diarrhoea and wheeze with intestinal chromogranin-positive tumour → carcinoid | retain | `carcinoid-syndrome-chromogranin-intestinal-tumor` |
+| F5-B08 | B symptoms with Reed–Sternberg cells → Hodgkin lymphoma | retain | `hodgkin-lymphoma-reed-sternberg` |
+| F5-B09 | Bone pain/infections, M spike and marrow plasma cells → multiple myeloma | retain | `multiple-myeloma-m-spike-plasma-cells` |
+| F5-B10 | Smoker with weakness/ptosis and lung mass → Lambert–Eaton syndrome | retain | `lambert-eaton-lung-cancer-paraneoplastic` |
+| F5-B11 | Lung mass with hypercalcaemia → PTHrP | retain; also C11 | `pthrp-lung-cancer-hypercalcemia` |
+| F5-B12 | Pancreatic-cancer metastatic site → liver | retain | `pancreatic-cancer-liver-metastasis-site` |
+| F5-B13 | Lytic-bone-lesion primary → breast | retain | `breast-primary-lytic-bone-metastasis` |
+| F5-B14 | Lung-adenocarcinoma metastatic site → adrenal | retain | `lung-adenocarcinoma-adrenal-metastasis-site` |
+| F5-B15 | APC-mutation syndrome → familial adenomatous polyposis | retain; also C15 | `apc-familial-adenomatous-polyposis` |
+| F5-B16 | PTEN with breast fibroadenomas and thyroid nodules → Cowden syndrome | retain | `pten-cowden-syndrome` |
+| F5-B17 | Colon tumour into muscularis propria, no nodes → T2N0M0 | retain | `colon-tumor-muscularis-propria-t2n0m0` |
+| F5-B18 | ER/PR-positive, HER2-negative, node-negative breast tumour → surgery plus hormonal therapy | retain | `erpr-positive-her2-negative-breast-treatment` |
+| F5-C01 | Colon cancer with multiple liver lesions → haematogenous spread through portal circulation | retain | `colon-cancer-liver-portal-hematogenous-spread` |
+| F5-C02 | Ovarian cancer with ascites/peritoneal cells → transcoelomic spread | retain | `ovarian-carcinoma-transcoelomic-spread` |
+| F5-C03 | Lung cancer with adrenal mass → haematogenous spread | retain | `lung-cancer-adrenal-hematogenous-route` |
+| F5-C04 | Virchow node → gastric carcinoma | retain | `virchow-node-gastric-carcinoma` |
+| F5-C05 | Breast-to-spine spread → Batson venous plexus | retain | `breast-spine-metastasis-batson-plexus` |
+| F5-C06 | Tumour grade → differentiation | collapse to F5-A10 | `tumor-grade-degree-differentiation` |
+| F5-C07 | Stage-IV lung cancer → distant spread | retain | `stage-four-lung-cancer-distant-metastasis` |
+| F5-C08 | Gleason score 9 → highly aggressive prostate cancer | retain | `gleason-nine-aggressive-prostate-cancer` |
+| F5-C09 | Giant hyperchromatic nuclei and no tissue resemblance → anaplastic | collapse to F5-A04 | `anaplasia-definition-morphology` |
+| F5-C10 | Carcinoma in situ → malignant cells confined to epithelium | retain | `carcinoma-in-situ-confined-epithelium` |
+| F5-C11 | Hypercalcaemia without bone metastasis → PTHrP | collapse to F5-B11 | `pthrp-lung-cancer-hypercalcemia` |
+| F5-C12 | Lung cancer with hyponatraemia → SIADH | retain | `siadh-lung-cancer-hyponatremia` |
+| F5-C13 | HCC with polycythaemia → increased erythropoietin | retain | `hcc-polycythemia-erythropoietin` |
+| F5-C14 | Retinoblastoma mechanism → tumour-suppressor inactivation | retain | `retinoblastoma-tumor-suppressor-inactivation` |
+| F5-C15 | Inherited APC mutation → familial adenomatous polyposis | collapse to F5-B15 | `apc-familial-adenomatous-polyposis` |
+| F5-C16 | Retinoblastoma survivor with osteosarcoma → RB mutation | retain | `retinoblastoma-survivor-osteosarcoma-rb-mutation` |
+| F5-C17 | H. pylori association → gastric adenocarcinoma | retain | `helicobacter-pylori-gastric-adenocarcinoma` |
+| F5-C18 | HPV16 oncogenesis → E6/E7 inhibition of p53/RB | retain | `hpv16-e6-e7-p53-rb-inhibition` |
+| F5-C19 | HBV/HCC mechanism → viral integration into host DNA | retain | `hbv-integration-hepatocellular-carcinoma` |
+
+Every unsolved occurrence is assigned separately below; none contributes a key or another
+retained record.
+
+| Unsolved ref | Assignment | Unsolved ref | Assignment |
+|---|---|---|---|
+| F5-UA01 | exact copy repeat → F5-A01 | F5-UA02 | exact copy repeat → F5-A02 |
+| F5-UA03 | exact copy repeat → F5-A03 | F5-UA04 | exact copy repeat → F5-A04 |
+| F5-UA05 | exact copy repeat → F5-A05 | F5-UA06 | exact copy repeat → F5-A06 |
+| F5-UA07 | exact copy repeat → F5-A07 | F5-UA08 | exact copy repeat → F5-A08 |
+| F5-UA09 | exact copy repeat → F5-A09 | F5-UA10 | exact copy repeat → F5-A10 |
+| F5-UA11 | exact copy repeat → F5-A11 | F5-UA12 | exact copy repeat → F5-A12 |
+| F5-UA13 | exact copy repeat → F5-A13 | F5-UA14 | exact copy repeat → F5-A14 |
+| F5-UA15 | exact copy repeat → F5-A15 | F5-UA16 | exact copy repeat → F5-A16 |
+| F5-UA17 | exact copy repeat → F5-A17 | F5-UA18 | exact copy repeat → F5-A18 |
+| F5-UA19 | exact copy repeat → F5-A19 | F5-UA20 | exact copy repeat → F5-A20 |
+| F5-UA21 | exact copy repeat → F5-A21 | F5-UA22 | exact copy repeat → F5-A22 |
+| F5-UA23 | exact copy repeat → F5-A23 | F5-UA24 | exact copy repeat → F5-A24 |
+| F5-UA25 | exact copy repeat → F5-A25 | F5-UB01 | exact copy repeat → F5-B01 |
+| F5-UB02 | exact copy repeat → F5-B02 | F5-UB03 | exact copy repeat → F5-B03 |
+| F5-UB04 | exact copy repeat → F5-B04 | F5-UB05 | exact copy repeat → F5-B05 |
+| F5-UB06 | exact copy repeat → F5-B06 | F5-UB07 | exact copy repeat → F5-B07 |
+| F5-UB08 | exact copy repeat → F5-B08 | F5-UB09 | exact copy repeat → F5-B09 |
+| F5-UB10 | exact copy repeat → F5-B10 | F5-UB11 | exact copy repeat → F5-B11 |
+| F5-UB12 | exact copy repeat → F5-B12 | F5-UB13 | exact copy repeat → F5-B13 |
+| F5-UB14 | exact copy repeat → F5-B14 | F5-UB15 | exact copy repeat → F5-B15 |
+| F5-UB16 | exact copy repeat → F5-B16 | F5-UB17 | exact copy repeat → F5-B17 |
+| F5-UB18 | exact copy repeat → F5-B18 | F5-UC01 | exact copy repeat → F5-C01 |
+| F5-UC02 | exact copy repeat → F5-C02 | F5-UC03 | exact copy repeat → F5-C03 |
+| F5-UC04 | exact copy repeat → F5-C04 | F5-UC05 | exact copy repeat → F5-C05 |
+| F5-UC06 | exact copy repeat → F5-C06 | F5-UC07 | exact copy repeat → F5-C07 |
+| F5-UC08 | exact copy repeat → F5-C08 | F5-UC09 | exact copy repeat → F5-C09 |
+| F5-UC10 | exact copy repeat → F5-C10 | F5-UC11 | exact copy repeat → F5-C11 |
+| F5-UC12 | exact copy repeat → F5-C12 | F5-UC13 | exact copy repeat → F5-C13 |
+| F5-UC14 | exact copy repeat → F5-C14 | F5-UC15 | exact copy repeat → F5-C15 |
+| F5-UC16 | exact copy repeat → F5-C16 | F5-UC17 | exact copy repeat → F5-C17 |
+| F5-UC18 | exact copy repeat → F5-C18 | F5-UC19 | exact copy repeat → F5-C19 |
+
+Assignment arithmetic is `62 solved + 62 unsolved = 124` observed occurrences. The 62
+unsolved occurrences are all exact copy repeats, leaving 62 retained records. The four
+explicit tested-scope collapses yield `62 - 4 = 58` source-distinct handles.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 58 assignment handles received four required searches (distinctive wording,
+alias, synonym, and mechanism/structure): **232 required searches**. Follow-ups inspected
+the full pending bodies for p53/tumour suppressors, multiple myeloma, breast skeletal
+metastasis, Barrett metaplasia, carcinoid, viral oncogenesis, HPV and HBV. Scope included
+live state, all pending import roots, and Families 1–4 of this ledger. Disease-adjacent,
+generic-parent, anatomical-route-only, and multi-record composites were not credited as
+same-scope matches.
+
+| Handle · retained refs | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `dysplasia-versus-carcinoma-in-situ-source-key` · A01 | `dysplasia carcinoma in situ basement membrane invasion`; `dysplasia versus CIS`; `intraepithelial neoplasia distinction`; `basement membrane neoplastic progression` | new; no record carries this source-key proposition; key conflict preserved | delta |
+| `poorly-differentiated-lung-carcinoma-morphology` · A02 | `poorly differentiated lung carcinoma pleomorphism`; `lung mass hyperchromatic frequent mitoses`; `anaplastic lung tumor morphology`; `pleomorphic carcinoma differentiation` | new; live melanoma morphology is wrong organ/scope | delta |
+| `invasive-gland-forming-adenocarcinoma` · A03 | `invasive gland forming adenocarcinoma`; `glandular malignant tumor invasion`; `adenocarcinoma morphology`; `well differentiated glands surrounding tissue` | new | delta |
+| `anaplasia-definition-morphology` · A04,C09 | `anaplasia definition`; `anaplastic tumor giant nuclei`; `loss of differentiation neoplasm`; `poor differentiation high mitotic activity` | new | delta; narrower than Family-1 composite core-definition prompt |
+| `pleomorphic-adenoma-mixed-parotid-tissue` · A05 | `pleomorphic adenoma parotid mixed tissue`; `mixed tumor salivary gland`; `epithelial mesenchymal parotid mass`; `benign mixed salivary neoplasm` | new; parotid histology hits do not identify this tumour | delta |
+| `afp-hepatocellular-carcinoma-marker` · A06 | `AFP hepatocellular carcinoma marker`; `alpha fetoprotein HCC`; `liver cancer tumor marker`; `hepatoma fetal protein` | new externally | collapse to Family-4 `afp-hepatocellular-carcinoma` / Family-1 AFP handle |
+| `sarcoma-mesenchymal-malignancy` · A07 | `sarcoma mesenchymal malignant tumor`; `connective tissue malignancy nomenclature`; `malignant mesenchymal neoplasm`; `carcinoma versus sarcoma origin` | new externally | collapse to Family-1 `connective-tissue-malignancy-nomenclature` |
+| `invasion-indicates-malignancy` · A08 | `invasion indicates malignancy`; `adjacent tissue invasion tumor`; `malignant versus benign invasion`; `infiltrative neoplasm feature` | new externally | collapse to Family-4 `malignant-versus-benign-invasion` |
+| `teratoma-three-germ-layers` · A09 | `teratoma three germ layers`; `totipotent germ cell tumor`; `ectoderm mesoderm endoderm neoplasm`; `germ cell mixed tissues` | new; pending embryology question is not a same-scope concept record | delta |
+| `tumor-grade-degree-differentiation` · A10,C06 | `tumor grade degree differentiation`; `histologic grading aggressiveness`; `poor differentiation tumor grade`; `grading versus staging neoplasm` | new externally | collapse to Family-1 `tumour-grade-basis` |
+| `sarcoma-hematogenous-metastasis-route` · A11 | `sarcoma hematogenous metastasis`; `mesenchymal tumor blood spread`; `sarcoma route of spread`; `hematogenous dissemination neoplasm` | new | delta; narrower than Family-1 general spread-routes prompt |
+| `tp53-tumor-suppressor-example` · A12 | `TP53 tumor suppressor gene`; `p53 anti-oncogene example`; `tumor suppressor versus oncogene`; `p53 growth restraint` | pending `ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES`; it explicitly names p53 as a tumour-suppressor/anti-oncogene example | delta; example differs from prior function/mechanism handles |
+| `loss-contact-inhibition-malignant-transformation` · A13 | `loss contact inhibition malignant transformation`; `cancer hallmark contact inhibition`; `tumor cells density dependent inhibition`; `neoplastic uncontrolled growth contact` | new | delta; narrower than Family-1 alterations outline |
+| `tnm-staging-components` · A14 | `TNM tumor size nodes metastasis`; `TNM staging components`; `tumor node metastasis classification`; `cancer anatomic stage system` | new | delta |
+| `paraneoplastic-syndrome-systemic-secretions` · A15 | `paraneoplastic syndrome tumor secretions`; `remote systemic effects cancer`; `ectopic hormone neoplasm`; `tumor secreted substances syndrome` | new externally | collapse to Family-1 `paraneoplastic-syndrome-definition` |
+| `gland-forming-noninvasive-carcinoma-in-situ-source-key` · A16 | `gland forming noninvasive carcinoma in situ`; `well differentiated glandular tumor lacks invasion`; `adenoma versus carcinoma in situ`; `noninvasive glandular neoplasm` | new; no record carries this questionable printed-key scope | delta |
+| `barrett-squamous-to-glandular-metaplasia` · A17 | `Barrett squamous to glandular metaplasia`; `chronic acid reflux metaplasia`; `esophageal intestinal metaplasia`; `GERD columnar epithelium` | new; pending `CON-FND-5AD09BF9FC2420` defines metaplasia generally but not reflux/Barrett change | delta |
+| `dysplasia-excludes-basement-membrane-invasion` · A18 | `dysplasia basement membrane invasion exception`; `dysplasia characteristics pleomorphism polarity mitosis`; `preinvasive dysplasia morphology`; `dysplasia versus invasive carcinoma` | new | delta |
+| `carcinoma-lymphatic-metastasis-route` · A19 | `carcinoma lymphatic metastasis route`; `epithelial malignancy lymphatic spread`; `carcinoma common dissemination`; `lymph node spread cancer` | new; anatomy drainage records are not the neoplastic proposition | delta; narrower than Family-1 general route classification |
+| `wilms-tumor-pediatric-nephroblastoma` · A20 | `Wilms tumor pediatric nephroblastoma`; `nephroblastoma childhood renal tumor`; `Wilms neoplasm classification`; `embryonal kidney malignancy` | new | delta |
+| `benign-tumor-encapsulation` · A21 | `benign tumor encapsulation`; `well circumscribed neoplasm`; `benign versus malignant border`; `tumor capsule feature` | new externally | collapse to Family-1 `benign-tumour-characteristics` |
+| `vegf-promotes-tumor-angiogenesis` · A22 | `VEGF promotes tumor angiogenesis`; `vascular endothelial growth factor cancer`; `neoplastic blood vessel formation`; `angiogenic factor secretion tumor` | new externally; platelet-VEGF hits are not tumour angiogenesis | collapse to Family-4 `tumor-angiogenic-factor-process` |
+| `asbestos-mesothelioma-risk` · A23 | `asbestos mesothelioma risk`; `occupational asbestos pleural tumor`; `mesothelioma carcinogen`; `asbestos associated malignancy` | new | delta |
+| `polyp-mucosal-surface-projection` · A24 | `polyp mucosal surface projection`; `polyp definition`; `mucosal protruding mass`; `pedunculated sessile lesion` | new | delta |
+| `oncogene-mutated-growth-promoting-gene` · A25 | `oncogene mutated growth promoting gene`; `oncogene definition`; `proto-oncogene activation cancer`; `dominant cancer gene uncontrolled growth` | new; viral-oncogene and tumour-suppressor records do not define a cellular oncogene | delta |
+| `lung-adenocarcinoma-glandular-mucin-morphology` · B01 | `lung adenocarcinoma glandular mucin`; `pulmonary gland forming carcinoma`; `mucin producing lung tumor`; `adenocarcinoma histology lung` | new | delta |
+| `endometrial-adenocarcinoma-glandular-myometrial-invasion` · B02 | `endometrial adenocarcinoma myometrial invasion`; `postmenopausal bleeding atypical glands`; `uterine glandular malignancy`; `endometrial cancer histology` | new | delta |
+| `lower-lip-squamous-cell-carcinoma-keratin-pearls` · B03 | `lower lip squamous carcinoma keratin pearls`; `SCC nonhealing lip ulcer`; `keratinizing epithelial malignancy`; `oral squamous cell carcinoma morphology` | new; live `CON-DER-B279F9E965B29A` is cutaneous SCC without the lip/keratin-pearl pattern | delta |
+| `fibroadenoma-biphasic-breast-mass` · B04 | `fibroadenoma glandular stromal breast mass`; `biphasic benign breast tumor`; `young woman well circumscribed breast mass`; `fibroepithelial breast neoplasm` | new | delta |
+| `osteosarcoma-sunburst-malignant-osteoid` · B05 | `osteosarcoma sunburst malignant osteoid`; `distal femur osteoid tumor`; `bone sarcoma radiology histology`; `osteogenic sarcoma diagnosis` | new | delta |
+| `orbital-rhabdomyosarcoma-cross-striations` · B06 | `orbital rhabdomyosarcoma cross striations`; `child orbit rhabdomyoblasts`; `skeletal muscle malignant tumor`; `pediatric soft tissue sarcoma` | new | delta |
+| `carcinoid-syndrome-chromogranin-intestinal-tumor` · B07 | `carcinoid syndrome chromogranin intestinal tumor`; `flushing diarrhea wheezing neuroendocrine`; `small bowel carcinoid`; `neuroendocrine tumor nests` | new; pending `CON-GIT-4952149F99782D` covers serotonin/5-HIAA/pellagra, not this clinical-morphologic diagnosis | delta |
+| `hodgkin-lymphoma-reed-sternberg` · B08 | `Hodgkin lymphoma Reed Sternberg`; `painless lymphadenopathy B symptoms`; `Reed-Sternberg cell diagnosis`; `classical Hodgkin disease` | new | delta |
+| `multiple-myeloma-m-spike-plasma-cells` · B09 | `multiple myeloma M spike plasma cells`; `bone pain recurrent infection monoclonal protein`; `plasma cell malignancy diagnosis`; `serum electrophoresis M protein` | pending `ART-108-PAT-AMYLOIDOSIS`; it directly identifies myeloma as a marrow plasma-cell tumour producing a monoclonal immunoglobulin/light chain | delta |
+| `lambert-eaton-lung-cancer-paraneoplastic` · B10 | `Lambert Eaton lung cancer paraneoplastic`; `smoker weakness ptosis lung mass`; `presynaptic calcium channel syndrome tumor`; `small cell lung neuromuscular syndrome` | new; general neuromuscular-transmission records do not identify the syndrome/cancer link | delta |
+| `pthrp-lung-cancer-hypercalcemia` · B11,C11 | `PTHrP lung cancer hypercalcemia`; `paraneoplastic hypercalcemia no bone metastasis`; `PTH related peptide squamous lung`; `malignancy calcium humoral syndrome` | new; pending calcification material says ectopic PTH generally, not lung-cancer PTHrP | delta |
+| `pancreatic-cancer-liver-metastasis-site` · B12 | `pancreatic cancer liver metastasis`; `pancreatic mass jaundice secondary site`; `pancreatic adenocarcinoma spread liver`; `pancreas metastatic pattern` | new | delta |
+| `breast-primary-lytic-bone-metastasis` · B13 | `breast cancer lytic bone metastasis`; `lytic lesion hypercalcemia primary breast`; `breast carcinoma skeletal spread`; `bone metastasis primary malignancy` | pending `CON-FND-87392C49DB246C`; it directly names diffuse skeletal metastasis from breast cancer as a cause of destructive bone loss | delta |
+| `lung-adenocarcinoma-adrenal-metastasis-site` · B14 | `lung adenocarcinoma adrenal metastasis`; `lung cancer common adrenal site`; `pulmonary carcinoma adrenal mass`; `adrenal secondary lung primary` | new | delta |
+| `apc-familial-adenomatous-polyposis` · B15,C15 | `APC familial adenomatous polyposis`; `inherited APC mutation FAP`; `colorectal polyposis syndrome`; `APC tumor suppressor colon` | new externally | collapse to Family-4 `fap-apc-cell-cycle-control` |
+| `pten-cowden-syndrome` · B16 | `PTEN Cowden syndrome`; `breast fibroadenomas thyroid nodules PTEN`; `hamartoma tumor syndrome`; `Cowden cancer predisposition` | new | delta |
+| `colon-tumor-muscularis-propria-t2n0m0` · B17 | `colon tumor muscularis propria T2N0M0`; `colorectal TNM muscle invasion`; `T2 colon cancer no nodes`; `colon carcinoma stage depth` | new | delta |
+| `erpr-positive-her2-negative-breast-treatment` · B18 | `ER PR positive HER2 negative breast treatment`; `node negative hormone receptor breast cancer surgery`; `breast cancer hormonal therapy selection`; `luminal breast tumor management` | new; live receptor-prevalence record does not state treatment | delta |
+| `colon-cancer-liver-portal-hematogenous-spread` · C01 | `colon cancer liver portal hematogenous spread`; `colorectal metastasis portal vein`; `colon carcinoma hepatic metastases route`; `portal drainage cancer dissemination` | new | delta |
+| `ovarian-carcinoma-transcoelomic-spread` · C02 | `ovarian carcinoma transcoelomic spread`; `malignant ascites peritoneal seeding`; `ovarian cancer implantation metastasis`; `peritoneal fluid tumor cells` | new | delta |
+| `lung-cancer-adrenal-hematogenous-route` · C03 | `lung cancer adrenal hematogenous route`; `pulmonary carcinoma blood spread adrenal`; `right adrenal metastasis pathway`; `lung tumor systemic dissemination` | new; site-only B14 is a different proposition | delta |
+| `virchow-node-gastric-carcinoma` · C04 | `Virchow node gastric carcinoma`; `left supraclavicular node stomach cancer`; `Troisier sign malignancy`; `gastric lymphatic metastasis` | new; anatomy lymphatic records do not state this diagnostic link | delta |
+| `breast-spine-metastasis-batson-plexus` · C05 | `breast spine metastasis Batson plexus`; `vertebral metastasis venous plexus`; `breast cancer vertebral collapse route`; `valveless paravertebral veins tumor` | new | delta |
+| `stage-four-lung-cancer-distant-metastasis` · C07 | `stage IV lung cancer distant metastasis`; `lung carcinoma stage four meaning`; `metastatic lung cancer stage`; `cancer spread beyond lung` | new | delta |
+| `gleason-nine-aggressive-prostate-cancer` · C08 | `Gleason score 9 aggressive prostate cancer`; `high grade prostate tumor`; `Gleason grading prognosis`; `prostate adenocarcinoma score nine` | new | delta |
+| `carcinoma-in-situ-confined-epithelium` · C10 | `carcinoma in situ confined epithelium`; `CIS intact basement membrane`; `preinvasive epithelial malignancy`; `full thickness atypia no invasion` | new | delta; narrower than Family-1 composite definitions |
+| `siadh-lung-cancer-hyponatremia` · C12 | `SIADH lung cancer hyponatremia`; `paraneoplastic ADH pulmonary tumor`; `small cell carcinoma low sodium`; `euvolemic hyponatremia malignancy` | new | delta |
+| `hcc-polycythemia-erythropoietin` · C13 | `hepatocellular carcinoma polycythemia erythropoietin`; `HCC paraneoplastic EPO`; `liver cancer erythrocytosis`; `tumor hormone red cell increase` | new; pending `CON-HEM-5F0CEC52166316` defines secondary EPO-driven polycythaemia but does not link HCC to EPO | delta |
+| `retinoblastoma-tumor-suppressor-inactivation` · C14 | `retinoblastoma tumor suppressor inactivation`; `RB1 two hit hypothesis`; `retinal tumor anti-oncogene loss`; `retinoblastoma genetic mechanism` | new; generic tumour-suppressor and viral-inactivation records do not state RB1/retinoblastoma | delta |
+| `retinoblastoma-survivor-osteosarcoma-rb-mutation` · C16 | `retinoblastoma survivor osteosarcoma RB mutation`; `RB1 second primary bone cancer`; `hereditary retinoblastoma osteogenic sarcoma`; `childhood retinal tumor cancer risk` | new | delta |
+| `helicobacter-pylori-gastric-adenocarcinoma` · C17 | `Helicobacter pylori gastric adenocarcinoma`; `H pylori stomach cancer risk`; `chronic gastritis malignancy`; `bacterial carcinogenesis gastric` | new | delta |
+| `hpv16-e6-e7-p53-rb-inhibition` · C18 | `HPV16 E6 E7 p53 RB inhibition`; `cervical oncogenesis mechanism`; `papillomavirus tumor suppressor degradation`; `viral oncoproteins cervical cancer` | new; pending `CON-INF-2AFE43527FBBCC` is generic viral suppressor inactivation and does not name HPV16/E6/E7/p53/RB | delta |
+| `hbv-integration-hepatocellular-carcinoma` · C19 | `HBV integration hepatocellular carcinoma`; `hepatitis B host DNA oncogenesis`; `chronic HBV liver cancer mechanism`; `viral integration hepatocarcinogenesis` | new; retroviral-integrase records are wrong virus/mechanism | delta; mechanism is narrower than Family-4 HBV/HCC association |
+
+### Family-5 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 5 | Cumulative after Family 5 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 124 | 449 |
+| Printed keys | 62 | 163 |
+| Retained question records after wording dedupe | 62 | 299 |
+| Source-distinct tested concepts | 58 | — |
+| External live / pending / no same-scope match | 0 / 3 / 55 | family-local disposition |
+| Family-5 handles already represented in Families 1–4 | 8 | subtract from Family-5 concept addition |
+| Cross-family concept delta | 50 | `58 - 8 = 50` |
+| **Cumulative distinct tested concepts** | **+50** | **237** |
+
+External arithmetic is `0 + 3 + 55 = 58`. The three pending handles are p53 as a
+tumour-suppressor example, multiple myeloma as a monoclonal plasma-cell tumour, and breast
+carcinoma as a destructive skeletal-metastasis primary. The eight prior-BMS-102 overlaps
+are AFP/HCC, sarcoma nomenclature, invasion as malignancy, grade/differentiation,
+paraneoplastic-syndrome definition, benign-tumour characteristics/encapsulation,
+VEGF/tumour angiogenesis, and APC/FAP. External and prior-family dispositions are separate
+dimensions. Cumulative arithmetic is `325 + 124 = 449` observed prompts,
+`101 + 62 = 163` printed keys, `237 + 62 = 299` retained records, and
+`187 + (58 - 8) = 237` distinct concepts.
+
+### Exact remaining debt after Family 5
+
+- The general neoplasia pair is fully bounded: all 28 native pages, 124 observed prompt
+  occurrences, 62 exact cross-copy repeats, 62 retained keyed questions and 58 tested
+  handles have been assigned.
+- The next evidence-ranked local pathology family is the tier-3 `Circulatory 1`
+  solved/unsolved continuous-assessment pair; it must be rendered and adjudicated
+  source-first before any lower-ranked pathology bank.
+- Remaining pathology infection/revision-bank families and all BMS-102 microbiology
+  assessment evidence remain S1 debt.
+- Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
+  readiness, claim, download, commit, or push action is authorised in this lane.

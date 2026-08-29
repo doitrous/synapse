@@ -89,6 +89,16 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   187 distinct concepts. The source's conflicting Bcl2 mark in C06 remains distinct from
   C28's Bcl2 anti-apoptotic proposition; p53 scope claims cite direct pending body evidence.
   Other pathology/microbiology sources remain S1 debt.
+- The general-neoplasia pair `src_8863ae6cda793e477301` (unsolved) and
+  `src_eda268c7a75eb1930662` (solved) is now triaged across all 28 pages. The 62 solved
+  questions and 62 printed keys pair with 62 exact unkeyed copies; malformed unsolved
+  numeric headings do not create extra prompts. Four within-family collapses leave 58 handles.
+- Family 5 records 0 live, 3 scope-proven pending and 55 no-same-scope external results.
+  Eight handles overlap Families 1–4, yielding a +50 concept delta and a cumulative BMS-102
+  pathology checkpoint of 449 observed prompts, 163 printed keys, 299 retained records and
+  237 distinct concepts. The questionable dysplasia/carcinoma-in-situ source keys remain
+  source evidence rather than being silently corrected. Other pathology/microbiology sources
+  remain S1 debt.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
