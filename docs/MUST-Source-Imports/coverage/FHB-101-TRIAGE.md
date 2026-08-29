@@ -2996,3 +2996,82 @@ Part 2.pdf`, SHA-256
 `7f3b6495509665efac02b6c16b6bc1b28de0eba800d2b4b0cb73d280bbe6a129`.
 
 **BLOCKED — S1 cannot be approved:** 73 selected source paths remain untriaged.
+
+## Completed source — Anatomy FHB101 Training Questions Part 2
+
+The next evidence-ranked source is one unique selected Anatomy `08 Midterm Exams` path:
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Anatomy FHB101 Training Questions Part 2.pdf` | `7f3b6495509665efac02b6c16b6bc1b28de0eba800d2b4b0cb73d280bbe6a129` | 11 | substantive-text | pages 1–11 rendered and read | Local training/revision bank with bold answer convention; no institution, department, sitting, author, date or official-key claim is printed. |
+
+### Visual inventory and answer convention
+
+The document prints one continuous Q1–Q45 MCQ series across all 11 pages. Every question has
+exactly one bold option printed in line, giving **45 complete prompt occurrences / 45 directly
+printed answer occurrences**. Yellow stars beside Q4–Q5, Q14, Q17, Q21–Q24, Q32, Q35, Q37
+and Q42 are importance markers, not prompts or answer fields. There are no missing or orphan
+keys, and no answer was inferred.
+
+### Source-first assignment, four-search replay, and prior-FHB ledger
+
+| Printed refs | Bold answers as shown | Source-distinct tested concept (four search phrases) | Exact-scope disposition |
+|---|---|---|---|
+| Q1 | `C) There are 12 pairs of them.` | Cranial-nerve count (`cranial nerves`; `twelve cranial nerve pairs`; `cranial nerves 12 pairs`; `cranial nerve pairs`) | live-hit; exact prior-FHB reuse — duplicate. |
+| Q2, Q18, Q21 | `2 C) The cornea.`; `18 B) The epidermis.`; `21 B) The cornea.` | Avascular cornea and epidermis (`avascular cornea`; `cornea blood vessels absent`; `epidermis avascular`; `avascular epidermis`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q3 | `C) The aorta is the main trunk of the arterial system.` | Aorta as main arterial trunk (`main trunk arterial system`; `aorta arterial system`; `aorta main arterial trunk`; `arterial system aorta`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q4, Q19, Q36 | `4 C) It has a loose texture.`; `19 C) The external ear.`; `36 C) It is subcutaneous.` | Superficial-fascia texture, distribution and subcutaneous identity (`superficial fascia loose`; `loose superficial fascia`; `external ear superficial fascia`; `superficial fascia distribution`) | new externally; exact prior-FHB superficial-fascia family — duplicate. |
+| Q5, Q34 | `5 D) A prime mover initiates the movement of a joint.`; `34 B) A prime mover.` | Prime mover / agonist (`prime mover muscle`; `agonist initiates movement`; `prime mover initiation`; `agonist muscle movement`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q6 | `A) The articulating bones are separated by a disc of fibrocartilage.` | Cartilaginous-joint structure (`cartilaginous joint`; `fibrocartilage joint`; `cartilaginous joint disc`; `secondary cartilaginous joint`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| Q7, Q14, Q33, Q42 | `7 B) It has a diaphysis.`; `14 A) At the periosteum.`; `33 C) At the epiphyseal cartilage.`; `42 A) Diaphysis.` | Long-bone regions and growth in length/girth (`long bone periosteum girth`; `long bone growth length`; `diaphysis long bone`; `epiphyseal cartilage growth`) | new externally; exact prior-FHB long-bone structure/growth family — duplicate. |
+| Q8–Q9, Q11–Q12, Q26–Q28, Q32, Q38, Q40, Q44 | `8 D`; `9 D`; `11 D`; `12 D`; `26 A`; `27 C`; `28 C`; `32 B`; `38 D`; `40 E`; `44 B` | Anatomical movements, planes and directional terms (`anatomical planes directions`; `supination circumduction`; `adduction inversion`; `median transverse parasagittal`) | new externally; exact prior-FHB movement-terminology family — duplicate. |
+| Q10, Q17 | `10 D) They contain motor units.`; `17 A) The number of its fibers.` | Motor units and determinants of muscle force (`motor unit force contraction`; `muscle force number fibers`; `skeletal muscle motor units`; `force contraction muscle fibres`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q13 | `B) Connective tissue.` | Connective tissue in wound repair (`connective tissue wound repair`; `tissue repair wounds`; `wound healing connective tissue`; `connective tissue repair`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q15, Q31, Q39 | `15 B) Synovial joints.`; `31 B) A ball and socket joint.`; `39 E) The elbow joint.` | Synovial-joint capsule and ball-and-socket/hinge classification (`synovial joint capsule`; `ball socket hinge joint`; `shoulder elbow joint type`; `synovial joint classification`) | pending-hit; prior FHB owns the capsule structure but not the printed joint-type classification — pending addition. |
+| Q16 | `A) Origin.` | Fixed muscle end as origin (`muscle origin insertion`; `fixed end muscle origin`; `origin fixed muscle end`; `muscle attachment origin`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q20 | `B) Arterioles.` | Arterioles as resistance vessels in hypertension (`arterioles hypertension`; `resistance vessels hypertension`; `arteriolar resistance blood pressure`; `arterioles blood pressure`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q22 | `C) The brain.` | Absence of conventional brain lymph vessels (`brain lymph vessels`; `brain lymphatics absent`; `central nervous system lymphatics`; `conventional lymph vessels brain`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q23–Q24, Q45 | `23 B) A ganglion.`; `24 C) It is associated with a spinal ganglion.`; `45 C) There are 5 pairs in the lumbar area.` | Peripheral/spinal ganglia and lumbar spinal-nerve count (`spinal ganglion`; `nerve cells outside CNS ganglion`; `five lumbar spinal nerves`; `spinal nerve pairs lumbar`) | new externally; prior FHB owns the ganglion definition/application but not the regional nerve count — new addition. |
+| Q25 | `C) End arteries.` | End arteries lack neighbouring anastomoses (`end arteries`; `arteries no anastomosis`; `end artery anastomosis`; `anatomical end artery`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| Q29, Q41 | `29 A) Carpal bones.`; `41 E) Carpal bones.` | Carpal bones as short bones (`short bones carpal`; `carpal bones short bone`; `bone classification carpal`; `example short bone`) | new; no exact prior-FHB assignment — new addition. |
+| Q30 | `B) Tendon.` | Tendon as cord-like fibrous muscle attachment (`tendon muscle attachment`; `cord like muscle attachment`; `tendon cord fibrous`; `muscle tendon`) | new; no exact prior-FHB assignment — new addition. |
+| Q35 | `B) The thoracic region.` | Thoracic spinal-cord lateral horn (`spinal cord lateral horn`; `thoracic lateral horn`; `grey matter horns`; `lateral horn spinal cord region`) | new externally; exact prior-FHB spinal-cord-horn assignment — duplicate. |
+| Q37, Q43 | `37 D) The smallest veins are called venules.`; `43 D) They contain valves.` | Vein/venule structure and valves (`veins venules valves`; `smallest veins venules`; `vein valves`; `venous structure`) | new; no exact prior-FHB assignment — new addition. |
+
+All 45 observations are assigned exactly once. They collapse source-first to **20 handles**, and
+the query ledger reconciles as **20 × 4 = 80 required searches**. Exact-scope source disposition
+is **1 live / 3 pending / 16 new = 20**.
+
+Fifteen handles exactly reuse prior-FHB scope. Five survive: synovial-joint type classification
+as pending, plus lumbar spinal-nerve count, carpal short-bone classification, tendon attachment
+terminology and vein/venule structure as new. The post-prior-FHB delta is therefore **0 live /
+1 pending / 4 new**. Bold answers remain low-authority source claims and were not corrected or
+promoted to official-key authority.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+45
+questions / +45 directly printed answers / +5 concepts = +0 live / +1 pending / +4 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1553 | 1289 | 343 | 66 | 77 | 200 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 77 + 200 = 343`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **72 selected
+inventory paths / 70 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`cda606e193a888817c8279760bb9d99cfb72e99e73d7bfce709561df76493bcb`. Pinned triage debt
+becomes **29 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`36 + 70 = 106`**.
+
+The next evidence-ranked substantive source is the single 23-page Anatomy `08 Midterm Exams`
+path `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Anatomy FHB101 Training
+Questions.pdf`, SHA-256
+`032e8b2634ec8f4e8c9b694739f2d9f5a39115fa879437f18ed62e4b21dd0263`.
+
+**BLOCKED — S1 cannot be approved:** 72 selected source paths remain untriaged.
