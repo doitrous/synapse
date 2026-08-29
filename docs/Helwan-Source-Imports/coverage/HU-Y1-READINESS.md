@@ -136,9 +136,17 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   records, and 372 concepts. Q1–16 and Q27–30 are primary Pharmacology; Q17–26 are primary
   Microbiology under the BMS-102 overlay. Q28's printed `B` is preserved with its outdated/
   incomplete prophylaxis indication wording flagged, not corrected.
-- Before counting the next candidate, determine source-first whether `src_d903b650cb8226a7e414`
-  is an exam or a study prompt-and-answer pool; generic pathology provenance debt remains
-  excluded until separately ruled.
+- `src_d903b650cb8226a7e414` is an eight-page written prompt-and-answer **study bank**, not an
+  official exam paper or recoverable sitting: it lacks university/sitting markers and prints
+  answers immediately below restarted topical numbering, while metadata names an individual
+  author and WPS Writer. Its 35 prompts/35 answer blocks/35 handles (0 live / 1 pending / 34
+  new) are kept as tier-9 auxiliary Helwan-local S1 evidence; only its bactericidal-class
+  prompt reuses Family 11, giving +34 concepts. The primary BMS assessment checkpoint remains
+  765/405/552/372; the separately labelled all-eligible-evidence inventory is 800/440/587/406.
+  The study bank contributes no exam, sitting, recurrence, mark-weight or official-key signal.
+- Before counting the next tier-6 screenshot sequence beginning `src_ee460385eb5caf5cdc6a`,
+  rule provenance, sequence, answer marks and cross-image duplication; generic pathology
+  provenance debt remains excluded until separately ruled.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 

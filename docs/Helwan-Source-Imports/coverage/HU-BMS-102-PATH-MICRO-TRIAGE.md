@@ -2139,3 +2139,167 @@ retained records, and `342 + (30 - 0) = 372` concepts.
 - Generic pathology banks beginning with `src_6c9475dcb27ad5dada45` remain provenance
   debt. Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
   readiness, claim, download, commit, or push action is authorised.
+
+## Family 12 — microbiology written prompt-and-answer study bank
+
+### Source identity, authority ruling, and read boundary
+
+| Field | Value |
+|---|---|
+| Source | `src_d903b650cb8226a7e414` · `WRITTEN EXAM micro.pdf` |
+| SHA-256 | `d903b650cb8226a7e414723e0fdb34da5607f39d9ad8dcb635c3fec01900f240` |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Microbiology · `Assessments/Exams` · tier 9 |
+| Container and family boundary | Eight native-text letter-size pages; pp. 1–8 are the whole bounded family |
+| Read method | Native text transcribed; all eight pages rendered at 135 dpi and visually checked |
+
+Despite its filename and folder, this is **not an official exam paper or a recoverable exam
+sitting**. It has no university or faculty masthead, module code, candidate instructions,
+date/year, duration, marks, sitting, or official answer-key section. Instead, five topical
+headings divide continuously numbered short-answer prompts whose answer bullets/tables are
+printed immediately beneath each prompt; numbering restarts under each heading. PDF metadata
+names `Roaa Ahmed Abd Elrahman Hamed` as author and `WPS Writer` as creator, with no title or
+subject. It is therefore classified as a compiled written prompt-and-answer **study bank**.
+
+The source remains eligible as low-authority auxiliary Helwan S1 evidence: it is local to the
+exact Helwan Year-1 BMS-102 Microbiology corpus, the manifest has no external-university hint,
+and its five topic blocks are module-aligned. Its counts may measure available written-study
+content, but it must not be used as exam-year, sitting, recurrence, mark-weight, or official-key
+signal. All 35 printed answer blocks are counted as answer occurrences, not as independently
+verified correct answers.
+
+### Prompt, printed-answer, repeat, collapse, and placement ledger
+
+The page arithmetic is `5 + 5 + 4 + 4 + 5 + 5 + 5 + 2 = 35` prompt occurrences. Every
+prompt has one immediately printed answer block, so there are 35 printed answer occurrences.
+There are no exact copies or wording-only repeats. The phage lytic cycle (G01) and general
+viral replication cycle (V06) are retained separately: one tests the bacteriophage lytic
+sequence and omits uncoating, while the other tests the general seven-stage viral sequence.
+Likewise, umbrella lists and their narrower subtopics remain distinct. Thus `35 - 0 = 35`
+retained records and 35 source-distinct tested handles.
+
+| Ref | Page | Source-first prompt assignment | Printed answer block | Tested handle · primary placement |
+|---|---:|---|---|---|
+| F12-G01 | 1 | Enumerate stages of the bacteriophage lytic cycle | six stages | `phage-lytic-cycle-sequence` · `inf` |
+| F12-G02 | 1 | Enumerate effects/outcomes a prophage confers on a bacterial cell | three outcomes | `prophage-effects-on-bacterial-cell` · `inf` |
+| F12-G03 | 1 | Enumerate uses of bacteriophages | four uses | `bacteriophage-uses` · `inf` |
+| F12-G04 | 1 | Enumerate bacterial-genome types | four types | `bacterial-genome-component-types` · `inf` |
+| F12-G05 | 1 | Enumerate mutation mechanisms | substitution, insertion, deletion | `bacterial-mutation-mechanism-types` · `inf` |
+| F12-G06 | 2 | Enumerate mechanisms of bacterial gene transfer | transformation, conjugation, transduction | `horizontal-gene-transfer-mechanism-types` · `inf` |
+| F12-G07 | 2 | Compare generalized and specialized transduction | three-row table | `generalized-versus-specialized-transduction` · `inf` |
+| F12-G08 | 2 | Enumerate examples of non-homologous recombination | three examples | `nonhomologous-recombination-examples` · `inf` |
+| F12-G09 | 2 | Enumerate cloning-vector requirements | five requirements | `cloning-vector-requirements` · `fnd` |
+| F12-G10 | 2 | Enumerate cloning-vector types | four types | `cloning-vector-types` · `fnd` |
+| F12-G11 | 3 | Enumerate recombinant-DNA applications | five applications | `recombinant-dna-applications` · `fnd` |
+| F12-P01 | 3 | Conditions under which commensals become opportunists | three conditions | `commensal-to-opportunist-conditions` · `inf` |
+| F12-P02 | 3 | Why carriers are serious in spreading infection | four reasons | `infection-carrier-spread-significance` · `inf` |
+| F12-P03 | 3 | Enumerate bacterial virulence factors | five categories | `bacterial-virulence-factor-categories` · `inf` |
+| F12-P04 | 4 | Compare exotoxin and endotoxin | nine-row table | `exotoxin-versus-endotoxin-comparison` · `inf` |
+| F12-A01 | 4 | Mention bacteriostatic drugs | three drugs | `bacteriostatic-drug-examples` · `pharm` |
+| F12-A02 | 4 | Mention bactericidal drugs | three drug classes | `bactericidal-drug-examples` · `pharm` |
+| F12-A03 | 4 | Enumerate antibiotic mechanisms | five mechanism classes | `antimicrobial-action-mechanism-classes` · `pharm` |
+| F12-A04 | 5 | Enumerate bacterial drug-resistance mechanisms | five mechanism classes | `antimicrobial-resistance-mechanism-classes` · `inf` |
+| F12-A05 | 5 | Enumerate non-genetic origins of resistance | four origins | `nongenetic-antimicrobial-resistance-origins` · `inf` |
+| F12-A06 | 5 | Enumerate chemotherapy complications | four complications | `antimicrobial-chemotherapy-complications` · `pharm` |
+| F12-S01 | 5 | Enumerate bacterial cell-wall functions | four functions | `bacterial-cell-wall-functions` · `inf` |
+| F12-S02 | 5 | Enumerate bacterial cell-membrane functions | five functions | `bacterial-cell-membrane-functions` · `inf` |
+| F12-S03 | 6 | Enumerate bacterial capsule functions | four functions | `bacterial-capsule-functions` · `inf` |
+| F12-S04 | 6 | Enumerate ordinary- and sex-pilus functions | ordinary/sex-pilus list | `ordinary-versus-sex-pilus-functions` · `inf` |
+| F12-V01 | 6 | Enumerate the morphological classification of fungi | mold, yeast, dimorphic | `fungal-morphologic-classification` · `inf` |
+| F12-V02 | 6 | Enumerate the clinical classification of fungal conditions | mycotic, mycotoxicosis, allergic | `fungal-clinical-classification` · `inf` |
+| F12-V03 | 6 | Mention general virus properties | six properties | `virus-general-properties-printed-list` · `inf` |
+| F12-V04 | 7 | Mention viral capsid functions | five functions | `viral-capsid-functions` · `inf` |
+| F12-V05 | 7 | Enumerate atypical virus-like agents | defective viruses, pseudovirions, prions | `atypical-virus-like-agent-types` · `inf` |
+| F12-V06 | 7 | Enumerate steps of viral replication | seven stages | `viral-replication-cycle-sequence` · `inf` |
+| F12-V07 | 7 | Mention virus-cultivation methods | three systems | `virus-cultivation-methods` · `inf` |
+| F12-V08 | 7 | Enumerate types of viral infection | local, systemic, persistent subtypes | `viral-infection-pattern-classification` · `inf` |
+| F12-V09 | 8 | Mention mechanisms supporting persistent viral infection | five mechanisms | `viral-persistence-mechanisms` · `inf` |
+| F12-V10 | 8 | Mention diagnostic mechanisms of viral infection | four methods | `viral-diagnosis-method-classes` · `inf` |
+
+Several printed answers require later medical review but are not silently corrected here:
+P04 restricts exotoxin production to Gram-positive organisms; A04 prints `Inhibiting enzyme
+production`; S02 prints `Excretion and degradation of toxins and hydrolytic enzymes`; S04
+calls ordinary pili antiphagocytic; V03 prints `Not susceptible to antibacterial antibodies`
+rather than antibiotics; V04 prints `cuspid` and `stereotypes`; and V10 includes skin tests.
+The source's `garm's stain` and `pilli` spellings are also preserved as source facts.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 35 handles received four required searches: **140 required searches** across live
+state, all pending import roots, and Families 1–11 of this ledger. Follow-up searches re-opened
+the exact live/pending records and near-misses named below. Only V06 has a scope-complete
+external match. A02 is the sole prior-BMS overlap: Family-11 Q06 already tests penicillins,
+cephalosporins and aminoglycosides as the bactericidal classes against tetracycline as the
+exception. The broader umbrella prompts A03, A04 and A06 are not collapsed into Family-11's
+individual mechanism/complication handles.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `phage-lytic-cycle-sequence` · G01 | `bacteriophage lytic cycle`; `stages lytic cycle`; `phage adsorption penetration eclipse assembly release`; `lytic phage replication sequence` | new; pending general viral replication includes uncoating and is not phage-lytic scope | none; delta |
+| `prophage-effects-on-bacterial-cell` · G02 | `prophage effects bacterial cell`; `lysogenic conversion toxin superinfection immunity`; `prophage specialized transduction`; `outcomes prophage bacteria` | new; pending `CON-INF-BFFA74CFBB0B25` covers lysogenic conversion only, not this three-outcome list | none; delta |
+| `bacteriophage-uses` · G03 | `bacteriophage uses`; `phage typing cloning vector`; `phage therapy genetic research`; `applications bacteriophages` | new | none; delta |
+| `bacterial-genome-component-types` · G04 | `bacterial genome types`; `chromosome plasmid prophage transposon genome`; `bacterial genetic elements`; `bacterial genome chromosome plasmid` | new; component-specific records do not enumerate the four-way classification | none; delta |
+| `bacterial-mutation-mechanism-types` · G05 | `bacterial mutation mechanisms`; `substitution insertion deletion mutation`; `types bacterial gene mutation`; `point mutation insertion deletion bacteria` | new | none; delta |
+| `horizontal-gene-transfer-mechanism-types` · G06 | `bacterial gene transfer mechanisms`; `transformation conjugation transduction`; `horizontal gene transfer bacteria`; `mechanisms gene transfer bacteria` | new; pending transformation, conjugation and transduction records are narrower individual scopes | none; delta |
+| `generalized-versus-specialized-transduction` · G07 | `generalized specialized transduction comparison`; `assembly error excision error transduction`; `lytic lysogenic transduction`; `generalized versus specialized transduction` | new; pending `CON-INF-E9C14F5981ACE5` covers generalized plasmid transfer only | none; delta |
+| `nonhomologous-recombination-examples` · G08 | `nonhomologous recombination bacteria`; `F factor prophage transposon recombination`; `site specific recombination examples bacteria`; `bacterial non homologous recombination` | new; pending transposon/prophage records do not cover the three-example classification | none; delta |
+| `cloning-vector-requirements` · G09 | `cloning vector requirements`; `autonomous replication selectable marker unique restriction site`; `features ideal cloning vector`; `small vector known sequence DNA insert` | new | none; delta |
+| `cloning-vector-types` · G10 | `types cloning vectors`; `plasmid bacteriophage cosmid viral vector`; `cloning vector examples`; `bacterial and viral cloning vectors` | new | none; delta |
+| `recombinant-dna-applications` · G11 | `recombinant DNA applications`; `gene mapping diagnostic probe gene therapy recombinant`; `recombinant hormones vaccines applications`; `uses recombinant DNA technology` | new; pending recombinant/PCR records test techniques rather than this application list | none; delta |
+| `commensal-to-opportunist-conditions` · P01 | `commensal opportunistic conditions`; `low host defense altered tissue habitat commensal`; `normal flora becomes opportunistic`; `commensal to opportunist` | new; host-relationship records do not state these three conditions | none; delta |
+| `infection-carrier-spread-significance` · P02 | `carrier spread infection significance`; `asymptomatic carrier epidemic spread`; `why carriers serious infection spread`; `infection carrier no manifestations` | new | none; delta |
+| `bacterial-virulence-factor-categories` · P03 | `bacterial virulence factor categories`; `adhesive invasive antigenic variation intracellular toxins`; `enumerate bacterial virulence factors`; `classes virulence factors bacteria` | new; live/pending records cover individual factors, not the five-category list | none; delta |
+| `exotoxin-versus-endotoxin-comparison` · P04 | `exotoxin endotoxin comparison`; `protein lipid toxin toxoid heat stability`; `exotoxin versus endotoxin`; `bacterial toxins comparison table` | new; pending `CON-INF-C87DF729E2ADDF` covers secreted protein versus structural lipid only, not the nine-row comparison | none; delta |
+| `bacteriostatic-drug-examples` · A01 | `bacteriostatic drug examples`; `tetracycline sulfonamide chloramphenicol bacteriostatic`; `list bacteriostatic antibiotics`; `bacteriostatic antibiotic classes` | new; live bacteriostatic definition does not give this three-drug list | none; delta |
+| `bactericidal-drug-examples` · A02 | `bactericidal drug examples`; `penicillin cephalosporin aminoglycoside bactericidal`; `list bactericidal antibiotics`; `bactericidal antibiotic classes` | new externally; live bactericidal definition does not classify the three drug groups | collapse to F11 `bactericidal-drug-classification` |
+| `antimicrobial-action-mechanism-classes` · A03 | `antibiotic mechanism classes`; `cell wall membrane protein nucleic acid competitive inhibition`; `mechanisms antimicrobial action list`; `antibiotic mechanisms action categories` | new; mechanism-specific records do not cover the five-class enumeration | none; delta |
+| `antimicrobial-resistance-mechanism-classes` · A04 | `antimicrobial resistance mechanism classes`; `permeability efflux bypass modified target enzyme`; `bacterial drug resistance mechanisms list`; `antibiotic resistance mechanisms categories` | new; Family-11/pending records cover individual mechanisms, not this umbrella list | none; delta |
+| `nongenetic-antimicrobial-resistance-origins` · A05 | `nongenetic antimicrobial resistance`; `walled off metabolic inactivity loss target intrinsic`; `non genetic origins drug resistance`; `physiologic antimicrobial resistance bacteria` | new | none; delta |
+| `antimicrobial-chemotherapy-complications` · A06 | `antimicrobial chemotherapy complications`; `drug resistance toxicity superinfection hypersensitivity`; `complications antibiotic therapy list`; `adverse consequences antimicrobial chemotherapy` | new; live superinfection/hypersensitivity records are individual components | none; delta |
+| `bacterial-cell-wall-functions` · S01 | `bacterial cell wall functions`; `shape osmotic protection gram stain cell division`; `functions bacterial cell wall list`; `cell wall role bacterial morphology division` | new; pending rigidity/osmotic records cover only parts of the four-function list | none; delta |
+| `bacterial-cell-membrane-functions` · S02 | `bacterial cell membrane functions`; `chemotaxis secretion synthesis energy selective permeability`; `functions bacterial cytoplasmic membrane`; `bacterial membrane respiration secretion biosynthesis` | new; live respiration and pending toxin-excretion records are partial | none; delta |
+| `bacterial-capsule-functions` · S03 | `bacterial capsule functions`; `antiphagocytic adhesion quellung vaccine`; `capsule virulence identification immunogenicity`; `functions bacterial capsule list` | new; pending `CON-INF-25846A77987558` omits the source's adhesion scope | none; delta |
+| `ordinary-versus-sex-pilus-functions` · S04 | `bacterial pili functions`; `ordinary pili adhesion sex pili conjugation`; `pili colonization antiphagocytic gene transfer`; `functions ordinary and sex pili` | new; pending `CON-INF-BC446C9816D9CE` omits the source's additional antiphagocytic claim | none; delta |
+| `fungal-morphologic-classification` · V01 | `fungal morphological classification`; `mold yeast dimorphic fungi`; `morphologic types fungi`; `filamentous yeast dimorphic classification` | new; pending mold/dimorphism records are separate partial scopes | none; delta |
+| `fungal-clinical-classification` · V02 | `clinical classification fungal disease`; `superficial cutaneous subcutaneous systemic opportunistic mycoses`; `mycotoxicosis fungal allergy classification`; `clinical types fungal conditions` | new | none; delta |
+| `virus-general-properties-printed-list` · V03 | `general properties viruses`; `single nucleic acid obligate intracellular metabolically inert`; `virus cannot grow artificial media antibiotic susceptibility`; `viral properties list` | new; pending `CON-INF-1165F8B9564697` says antibiotics, while this source prints the materially questionable `antibacterial antibodies`, and it omits three other listed properties | none; delta |
+| `viral-capsid-functions` · V04 | `viral capsid functions`; `capsid protects genome attachment antigen symmetry`; `functions virus capsid`; `capsid determines serotype` | new; live `CON-INF-B7792A2026679D` covers attachment/antigenicity only | none; delta |
+| `atypical-virus-like-agent-types` · V05 | `atypical virus like agents`; `defective viruses pseudovirions prions`; `virus-like agents list`; `atypical viral agents` | new; pending viroid/prion records do not cover this printed three-way list | none; delta |
+| `viral-replication-cycle-sequence` · V06 | `viral replication cycle`; `adsorption penetration uncoating eclipse synthesis assembly release`; `steps virus replication`; `viral life cycle sequence` | pending `CON-INF-2C32D6BA60368C`; exact seven-stage cycle | none; delta |
+| `virus-cultivation-methods` · V07 | `virus cultivation methods`; `cell culture embryonated eggs laboratory animals`; `methods cultivate viruses`; `viral culture systems` | new | none; delta |
+| `viral-infection-pattern-classification` · V08 | `types viral infection`; `local systemic persistent viral infection`; `chronic latent slow infection types`; `viral infection pattern classification` | new; pending `CON-INF-46988C6D071F21` and `CON-INF-4EC402ABB55946` cover individual patterns, not the complete classification | none; delta |
+| `viral-persistence-mechanisms` · V09 | `viral persistence mechanisms`; `integration antigenic variation gene expression immune complex immunosuppression`; `mechanisms persistent viral infection`; `how viruses persist host` | new | none; delta |
+| `viral-diagnosis-method-classes` · V10 | `viral diagnosis methods`; `direct detection isolation serology skin tests`; `diagnostic mechanisms viral infection`; `laboratory diagnosis viruses list` | new; live `CON-INF-7A55EF820348CE` covers direct detection/isolation only, not the full four-method list | none; delta |
+
+### Family-12 auxiliary checkpoint and BMS-102 evidence dimensions
+
+| Measure | Family 12 auxiliary study bank | Primary assessment checkpoint (Families 1–11) | All eligible S1 evidence inventory |
+|---|---:|---:|---:|
+| Raw observed prompt occurrences | 35 | 765 | 800 |
+| Printed answer occurrences | 35 | 405 | 440 |
+| Retained question records after wording dedupe | 35 | 552 | 587 |
+| Source-distinct tested concepts | 35 | 372 | — |
+| External live / pending / no same-scope match | 0 / 1 / 34 | — | family-local disposition |
+| Family-12 handles already represented in Families 1–11 | 1 | — | subtract from auxiliary concept addition |
+| Cross-family concept delta | +34 | — | `372 + 34 = 406` |
+| **Distinct tested concepts** | **+34** | **372** | **406** |
+
+External arithmetic is `0 + 1 + 34 = 35`. The primary assessment checkpoint stays at
+`765` observed prompts, `405` printed answer occurrences, `552` retained records and `372`
+concepts. Separately, the all-eligible-evidence inventory is `765 + 35 = 800` observed
+prompts, `405 + 35 = 440` printed answer occurrences, `552 + 35 = 587` retained records,
+and `372 + (35 - 1) = 406` concepts. Family 12 cannot raise exam/sitting, recurrence,
+mark-weight or official-key claims.
+
+### Exact remaining debt after Family 12
+
+- `src_d903b650cb8226a7e414` is fully bounded: eight native/rendered pages, 35 written
+  prompt occurrences, 35 immediately printed answer blocks, zero exact repeats, 35 retained
+  records, 35 source-distinct handles, and 140 required search queries. It is eligible only
+  as a tier-9 auxiliary Helwan-local study bank; it contributes no official exam/sitting signal.
+- The next manifest candidates are lower-authority tier-6 Microbiology `Notes and Summaries`
+  screenshots beginning with `src_ee460385eb5caf5cdc6a` (`2026-07-20 05.56.34.jpg`). Their
+  first-page snippets show captured MCQs/post-tests, but the screenshot set requires a bounded
+  provenance, sequence, answer-mark, and cross-image duplicate ruling before any eligible count.
+- Generic pathology banks beginning with `src_6c9475dcb27ad5dada45` remain provenance debt.
+  Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue, readiness,
+  claim, download, commit, or push action is authorised.
