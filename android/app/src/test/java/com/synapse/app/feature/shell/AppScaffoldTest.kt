@@ -145,6 +145,12 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(NAV_DRAWER_BUTTON_TAG).performClick()
         composeTestRule.waitForIdle()
+        // The hamburger must actually open the drawer: the item is on-screen only when the
+        // drawer is Open (it's translated off-screen while Closed). assertIsDisplayed is
+        // bounds-based, so — unlike touch dispatch — it isn't subject to the Robolectric
+        // limitation performDrawerItemClick works around, and it fails if the hamburger were
+        // wired to a no-op or to close().
+        composeTestRule.onNodeWithTag(drawerItemTag(QUESTION_BANK_ROUTE)).assertIsDisplayed()
         composeTestRule.onNodeWithTag(drawerItemTag(QUESTION_BANK_ROUTE)).performDrawerItemClick()
         composeTestRule.waitForIdle()
 
@@ -158,6 +164,8 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(NAV_DRAWER_BUTTON_TAG).performClick()
         composeTestRule.waitForIdle()
+        // Confirm the hamburger actually opened the drawer (see the QBank drawer test).
+        composeTestRule.onNodeWithTag(drawerItemTag("resources")).assertIsDisplayed()
         composeTestRule.onNodeWithTag(drawerItemTag("resources")).performDrawerItemClick()
         composeTestRule.waitForIdle()
 
