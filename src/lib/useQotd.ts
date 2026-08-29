@@ -5,10 +5,11 @@ import { usePublishedQuestions } from './usePublishedQuestions'
 import { usePersistentState } from './usePersistentState'
 import type { Question } from '@/data/qbank'
 import { qotdDateInCairo } from '@/data/qotdCohort'
-import { selectQotdId, type QotdCandidate, type QotdCohort } from '@/data/qotdSelection'
+import { selectQotdId, type QotdCandidate, type QotdCohort, type QotdPins } from '@/data/qotdSelection'
 import { computeStreak } from '@/data/qotdStreak'
 import {
   QOTD_LOCAL_ANSWERS_KEY,
+  QOTD_PINS_KEY,
   type QotdAnswerResponse,
   type QotdLocalAnswer,
   type QotdTodayResponse,
@@ -80,10 +81,14 @@ export function useQotd(): QotdState {
     year: identity.audience.year,
     yearId: identity.audience.yearId,
   }
+  // The admin pin document. Read in both modes so the demo selector honours a
+  // pin exactly as the server does in live mode; the live branch ignores the
+  // result (it never calls the local selector), so registering it is harmless.
+  const [pins] = usePersistentState<QotdPins>(QOTD_PINS_KEY, {})
   const demoQuestionId = useMemo(
-    () => selectQotdId(candidates, cohort, date),
+    () => selectQotdId(candidates, cohort, date, pins),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [candidates, cohort.universityId, cohort.year, cohort.yearId, date],
+    [candidates, cohort.universityId, cohort.year, cohort.yearId, date, pins],
   )
 
   // Called unconditionally (hooks cannot be conditional): in live mode this
