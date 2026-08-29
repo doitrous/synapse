@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
@@ -17,9 +18,13 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -177,10 +182,24 @@ private fun QBankSetupContent(
                 )
             }
         }
+        // A local text buffer, keyed to the view model's value so an external
+        // change (a length chip or preset clearing customLength) still resets
+        // it — but NOT bound straight to the parsed Int, so a transient
+        // non-numeric edit (backspacing the last digit to retype) isn't
+        // rejected and snapped back. Only a valid, complete number is pushed up.
+        var customText by rememberSaveable(uiState.customLength) {
+            mutableStateOf(uiState.customLength?.toString().orEmpty())
+        }
         OutlinedTextField(
-            value = uiState.customLength?.toString().orEmpty(),
-            onValueChange = { text -> text.toIntOrNull()?.let(onCustomLengthChange) },
+            value = customText,
+            onValueChange = { text ->
+                val digits = text.filter(Char::isDigit).take(2)
+                customText = digits
+                digits.toIntOrNull()?.let(onCustomLengthChange)
+            },
             label = { Text("Custom length (max $QBANK_MAX_LENGTH)") },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
             modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(QBANK_CUSTOM_LENGTH_FIELD_TAG),
         )
 

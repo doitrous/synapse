@@ -20,6 +20,16 @@ import javax.inject.Inject
 private const val DEFAULT_SECONDS_PER_QUESTION = 90
 
 /**
+ * Where a finished sitting's attempts stand with local persistence.
+ *
+ * [Saving] while the write is in flight, [Saved] once it lands, [Failed] if a
+ * genuine **local** write error occurred — the last is surfaced to the
+ * student (with a retry), never reported as saved. This is *not* about the
+ * best-effort leaderboard POST, which [QBankRepository] swallows internally.
+ */
+enum class SessionSaveState { Saving, Saved, Failed }
+
+/**
  * What [SessionRunnerScreen] (and [ResultsScreen], once [result] lands) renders.
  *
  * [timerDisplaySeconds] is what the screen shows: elapsed time in
@@ -47,6 +57,7 @@ data class SessionUiState(
     val isOvertime: Boolean = false,
     val isPaused: Boolean = false,
     val result: QBankSessionResult? = null,
+    val saveState: SessionSaveState = SessionSaveState.Saved,
 ) {
     val isFlagged: Boolean get() = question?.id in flaggedIds
     val currentNote: String get() = question?.let { notes[it.id] }.orEmpty()
@@ -87,6 +98,8 @@ class SessionViewModel @Inject constructor(
     private var elapsedSeconds: Int = 0
     private var paused: Boolean = false
     private var finishedResult: QBankSessionResult? = null
+    private var pendingRecords: List<AttemptRecord> = emptyList()
+    private var saveState: SessionSaveState = SessionSaveState.Saved
     private val flaggedIds = mutableSetOf<String>()
     private val notes = mutableMapOf<String, String>()
     private val crossedOut = mutableMapOf<String, MutableSet<String>>()
@@ -104,6 +117,8 @@ class SessionViewModel @Inject constructor(
         elapsedSeconds = 0
         paused = false
         finishedResult = null
+        pendingRecords = emptyList()
+        saveState = SessionSaveState.Saved
         flaggedIds.clear()
         notes.clear()
         crossedOut.clear()
@@ -209,13 +224,11 @@ class SessionViewModel @Inject constructor(
     /**
      * End the sitting: grades every question (Timed mode grades
      * answered-but-unchecked questions here, per [QBankSession.finish]),
-     * records one [AttemptRecord] per question via [recorder], then publishes
-     * [SessionUiState.result] for [ResultsScreen].
-     *
-     * Recording failures are swallowed (best-effort, matching
-     * [QBankRepository]'s own best-effort verified-POST convention) so a
-     * flaky network never strands a student who just finished a sitting on a
-     * spinner.
+     * builds one [AttemptRecord] per question, and publishes
+     * [SessionUiState.result] for [ResultsScreen] straight away — the grade is
+     * already computed in memory, so the student sees their results
+     * regardless of how persistence goes. The write itself runs in
+     * [persistPending], which tracks its outcome in [SessionUiState.saveState].
      */
     fun finish() {
         val s = session ?: return
@@ -228,7 +241,7 @@ class SessionViewModel @Inject constructor(
         }
         val byId = s.questions.associateBy { it.id }
         val at = now()
-        val records = result.perQuestion.map { pq ->
+        pendingRecords = result.perQuestion.map { pq ->
             val question = byId.getValue(pq.questionId)
             val selectedIndex = pq.pickedLabel
                 ?.let { label -> question.options.indexOfFirst { it.label == label } }
@@ -252,20 +265,52 @@ class SessionViewModel @Inject constructor(
                 sessionOvertimeSeconds = overtimeSeconds,
             )
         }
+        finishedResult = result
+        persistPending()
+    }
 
+    /**
+     * Persist the finished sitting's attempts, tracking the outcome in
+     * [SessionSaveState].
+     *
+     * Only a genuine **local** write failure reaches here as an exception:
+     * [QBankRepository.recordAttempts] persists locally first (uncaught) and
+     * only its leaderboard POST is best-effort/swallowed. So a throw out of
+     * [recorder] means the sitting was NOT saved — that becomes
+     * [SessionSaveState.Failed] with a [retrySave] path, and is never reported
+     * to the student as saved. [kotlin.coroutines.cancellation.CancellationException]
+     * still propagates untouched.
+     */
+    private fun persistPending() {
+        val records = pendingRecords
+        if (records.isEmpty()) return
+        saveState = SessionSaveState.Saving
+        refresh()
         viewModelScope.launch {
-            try {
+            saveState = try {
                 recorder.record(records, now())
+                SessionSaveState.Saved
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
-                // Best-effort: a failed sync must not strand the student on a spinner
-                // instead of their results — see QBankRepository.postVerifiedAttempts.
+                SessionSaveState.Failed
             }
-            finishedResult = result
             refresh()
         }
     }
+
+    /** Re-attempt a [SessionSaveState.Failed] save (the student's explicit "retry"). */
+    fun retrySave() {
+        if (saveState == SessionSaveState.Failed) persistPending()
+    }
+
+    /**
+     * Whether a sitting is currently loaded. Survives a configuration change
+     * (the view model outlives the Activity), but is false after process death
+     * — [QuestionBankRoot] uses it to tell "resume the surviving sitting" from
+     * "the session is gone, fall back to Setup".
+     */
+    fun hasActiveSession(): Boolean = session != null
 
     private fun currentQuestion(): Question? = session?.questions?.getOrNull(currentIndex)
 
@@ -295,6 +340,7 @@ class SessionViewModel @Inject constructor(
             isOvertime = s.mode == QBankSession.Mode.Timed && elapsedSeconds > allottedSeconds,
             isPaused = paused,
             result = finishedResult,
+            saveState = saveState,
         )
     }
 }

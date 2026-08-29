@@ -195,12 +195,74 @@ class SessionViewModelTest {
         assertEquals(3, vm.uiState.value.elapsedSeconds)
         assertFalse(vm.uiState.value.isPaused)
     }
+
+    // --- Save state: a local write failure is surfaced, not swallowed --------
+
+    @Test fun finishMarksSaveStateSavedOnSuccess() = runTest {
+        val (vm, _) = viewModel()
+        val session = QBankSession.start(questions(), length = 1, mode = QBankSession.Mode.Tutor, seed = 6L)
+        vm.begin(session, "qb-test-ok")
+
+        vm.finish()
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertEquals(SessionSaveState.Saved, vm.uiState.value.saveState)
+    }
+
+    @Test fun finishSurfacesLocalSaveFailureThenRetrySucceeds() = runTest {
+        val recorder = FlakyAttemptRecorder(failuresRemaining = 1)
+        val vm = SessionViewModel(recorder).also { it.now = { fixedNow } }
+        val session = QBankSession.start(questions(), length = 2, mode = QBankSession.Mode.Tutor, seed = 5L)
+        vm.begin(session, "qb-test-fail")
+        vm.goTo(0)
+        vm.pick(session.questions[0].correctLabel)
+        vm.check()
+
+        vm.finish()
+        dispatcher.scheduler.advanceUntilIdle()
+
+        // Results are shown regardless (grade is computed), but the failed
+        // local write is reported as Failed — never as saved — and nothing
+        // was actually persisted.
+        assertTrue(vm.uiState.value.result != null)
+        assertEquals(SessionSaveState.Failed, vm.uiState.value.saveState)
+        assertTrue(recorder.calls.isEmpty())
+
+        vm.retrySave()
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertEquals(SessionSaveState.Saved, vm.uiState.value.saveState)
+        assertEquals(1, recorder.calls.size)
+    }
+
+    @Test fun hasActiveSessionReflectsWhetherASittingIsLoaded() {
+        val (vm, _) = viewModel()
+        assertFalse(vm.hasActiveSession())
+
+        val session = QBankSession.start(questions(), length = 1, mode = QBankSession.Mode.Tutor, seed = 7L)
+        vm.begin(session, "qb-test-has")
+
+        assertTrue(vm.hasActiveSession())
+    }
 }
 
 private class FakeAttemptRecorder : AttemptRecorder {
     val calls = mutableListOf<Pair<List<AttemptRecord>, Instant>>()
 
     override suspend fun record(records: List<AttemptRecord>, now: Instant) {
+        calls += records to now
+    }
+}
+
+/** Throws on its first [failuresRemaining] calls, then records normally — models a transient local-write failure. */
+private class FlakyAttemptRecorder(private var failuresRemaining: Int) : AttemptRecorder {
+    val calls = mutableListOf<Pair<List<AttemptRecord>, Instant>>()
+
+    override suspend fun record(records: List<AttemptRecord>, now: Instant) {
+        if (failuresRemaining > 0) {
+            failuresRemaining--
+            throw RuntimeException("simulated local write failure")
+        }
         calls += records to now
     }
 }

@@ -4,96 +4,109 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.synapse.app.core.qbank.MultiResponseQuestion
 import com.synapse.app.core.qbank.QBankScope
-import com.synapse.app.core.qbank.QBankSession
 import com.synapse.app.core.qbank.Question
 
 /**
- * Where [QuestionBankRoot] currently is in the Setup → Runner → Results flow
- * (plus the Offline and multi-response-practice side screens reachable from
- * Setup). A `when` over this sealed type, not a nested `NavHost` — the
- * question bank tab is one bottom-nav destination, and a second nested
- * back stack under it would fight the app shell's own back handling for no
- * benefit at this scale.
+ * Where [QuestionBankRoot] currently is in its flow: Setup, the single-select
+ * Runner+Results, the Offline downloads screen, or multi-response practice. A
+ * `when` over this enum, not a nested `NavHost` — the question bank tab is one
+ * bottom-nav destination, and a second nested back stack under it would fight
+ * the app shell's own back handling for no benefit at this scale.
+ *
+ * It is a plain enum (not a sealed type carrying the live [SessionViewModel]'s
+ * session) precisely so it can be `rememberSaveable`d across a configuration
+ * change: the session itself lives in the surviving [SessionViewModel], and
+ * only the flow *position* needs restoring.
  */
-private sealed interface QBankFlowStep {
-    data object Setup : QBankFlowStep
-    data object Offline : QBankFlowStep
-    data object MultiResponsePractice : QBankFlowStep
-    data class Session(val session: QBankSession, val sessionId: String) : QBankFlowStep
-}
+private enum class QBankPosition { Setup, Offline, MultiResponsePractice, Session }
 
 /**
  * The Question Bank tab's entire flow: Setup, the single-select Runner +
  * Results, the Offline downloads screen, and multi-response practice — all
- * driven by [QBankFlowStep] rather than nav routes (see its doc comment).
+ * driven by [QBankPosition] rather than nav routes (see its doc comment).
  *
- * [setupViewModel] resolves via `hiltViewModel()` by default so plain
- * (non-Hilt) tests composing [com.synapse.app.feature.shell.AppScaffold]
- * substitute their own `qbankContent` instead of this composable, the same
- * seam [com.synapse.app.feature.dashboard.DashboardScreen] uses for
- * `dashboardContent`.
+ * The flow [position][QBankPosition] is `rememberSaveable`, and both view
+ * models resolve via `hiltViewModel()` against this destination's back-stack
+ * entry, so an active (or just-finished) sitting survives a configuration
+ * change instead of silently dropping the student back to Setup. Defaulting
+ * the view models via `hiltViewModel()` also lets plain (non-Hilt) tests
+ * composing [com.synapse.app.feature.shell.AppScaffold] substitute their own
+ * `qbankContent`, the same seam
+ * [com.synapse.app.feature.dashboard.DashboardScreen] uses for `dashboardContent`.
  */
 @Composable
 fun QuestionBankRoot(
     setupViewModel: QuestionBankViewModel = hiltViewModel(),
+    sessionViewModel: SessionViewModel = hiltViewModel(),
 ) {
-    var step by remember { mutableStateOf<QBankFlowStep>(QBankFlowStep.Setup) }
+    var position by rememberSaveable { mutableStateOf(QBankPosition.Setup) }
     val setupState by setupViewModel.uiState.collectAsStateWithLifecycle()
     val sessionStart by setupViewModel.sessionStart.collectAsStateWithLifecycle()
 
     LaunchedEffect(sessionStart) {
         val start = sessionStart ?: return@LaunchedEffect
-        step = QBankFlowStep.Session(start.session, start.sessionId)
+        sessionViewModel.begin(start.session, start.sessionId)
+        position = QBankPosition.Session
         setupViewModel.consumeSessionStart()
     }
 
-    when (val current = step) {
-        QBankFlowStep.Setup -> QBankSetupScreen(
-            onStartOffline = { step = QBankFlowStep.Offline },
-            onStartMultiResponsePractice = { step = QBankFlowStep.MultiResponsePractice },
+    when (position) {
+        QBankPosition.Setup -> QBankSetupScreen(
+            onStartOffline = { position = QBankPosition.Offline },
+            onStartMultiResponsePractice = { position = QBankPosition.MultiResponsePractice },
             viewModel = setupViewModel,
         )
 
-        QBankFlowStep.Offline -> OfflineDownloadScreen(
+        QBankPosition.Offline -> OfflineDownloadScreen(
             scope = setupState.scope,
             questions = setupState.questions,
-            onBack = { step = QBankFlowStep.Setup },
+            onBack = { position = QBankPosition.Setup },
         )
 
-        QBankFlowStep.MultiResponsePractice -> MultiResponseRunner(
+        QBankPosition.MultiResponsePractice -> MultiResponseRunner(
             questions = setupState.multiResponseQuestions.filter { it.inScope(setupState.scope) },
-            onDone = { step = QBankFlowStep.Setup },
+            onDone = { position = QBankPosition.Setup },
         )
 
-        is QBankFlowStep.Session -> SessionHost(
-            session = current.session,
-            sessionId = current.sessionId,
-            questions = setupState.questions,
-            onLeave = { step = QBankFlowStep.Setup },
-        )
+        QBankPosition.Session ->
+            if (sessionViewModel.hasActiveSession()) {
+                SessionHost(
+                    sessionViewModel = sessionViewModel,
+                    questions = setupState.questions,
+                    onLeave = { position = QBankPosition.Setup },
+                )
+            } else {
+                // Process death restored position=Session, but the session it
+                // referred to died with the process — nothing to resume, so fall
+                // back to Setup rather than render an empty runner.
+                LaunchedEffect(Unit) { position = QBankPosition.Setup }
+            }
     }
 }
 
 @Composable
 private fun SessionHost(
-    session: QBankSession,
-    sessionId: String,
+    sessionViewModel: SessionViewModel,
     questions: List<Question>,
     onLeave: () -> Unit,
-    sessionViewModel: SessionViewModel = hiltViewModel(),
 ) {
-    LaunchedEffect(sessionId) { sessionViewModel.begin(session, sessionId) }
     val uiState by sessionViewModel.uiState.collectAsStateWithLifecycle()
 
     val result = uiState.result
     if (result != null) {
-        ResultsScreen(result = result, questions = questions, onDone = onLeave)
+        ResultsScreen(
+            result = result,
+            questions = questions,
+            onDone = onLeave,
+            saveState = uiState.saveState,
+            onRetrySave = sessionViewModel::retrySave,
+        )
     } else {
         SessionRunnerScreen(onLeave = onLeave, viewModel = sessionViewModel)
     }

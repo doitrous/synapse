@@ -12,8 +12,10 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
@@ -23,6 +25,8 @@ import com.synapse.app.core.qbank.Question
 
 const val QBANK_RESULTS_SCORE_TAG = "qbank_results_score"
 const val QBANK_RESULTS_DONE_BUTTON_TAG = "qbank_results_done_button"
+const val QBANK_RESULTS_SAVE_STATUS_TAG = "qbank_results_save_status"
+const val QBANK_RESULTS_RETRY_BUTTON_TAG = "qbank_results_retry_button"
 
 private data class AccuracyRow(val label: String, val correct: Int, val total: Int) {
     val percent: Int get() = if (total == 0) 0 else (correct * 100) / total
@@ -31,15 +35,19 @@ private data class AccuracyRow(val label: String, val correct: Int, val total: I
 /**
  * The finished-sitting summary: overall score, per-subject and per-topic
  * accuracy (derived from [result] joined back against [questions] — nothing
- * here is re-fetched, since [SessionViewModel.finish] already recorded the
- * attempts), an answer-review list, and a "Sync now" hint pointing at the
- * Dashboard's own sync action.
+ * here is re-fetched, since [SessionViewModel.finish] already built the
+ * attempts), an answer-review list, and a save-status line: a "Sync now" hint
+ * once [saveState] is [SessionSaveState.Saved], or an error + [onRetrySave]
+ * affordance if the local write [SessionSaveState.Failed]. The results are
+ * shown regardless, since the grade is already computed.
  */
 @Composable
 fun ResultsScreen(
     result: QBankSessionResult,
     questions: List<Question>,
     onDone: () -> Unit,
+    saveState: SessionSaveState = SessionSaveState.Saved,
+    onRetrySave: () -> Unit = {},
 ) {
     val byId = questions.associateBy { it.id }
     val bySubject = accuracyBy(result.perQuestion, byId) { it.subjectId }
@@ -55,12 +63,40 @@ fun ResultsScreen(
             modifier = Modifier.padding(top = 8.dp).testTag(QBANK_RESULTS_SCORE_TAG),
         )
 
-        Text(
-            text = "Attempts were saved and will sync automatically — visit the Dashboard's " +
-                "\"Sync now\" if you want to push them right away.",
-            style = MaterialTheme.typography.bodyMedium,
-            modifier = Modifier.padding(top = 4.dp),
-        )
+        when (saveState) {
+            SessionSaveState.Saving -> Text(
+                text = "Saving your answers…",
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.padding(top = 4.dp).testTag(QBANK_RESULTS_SAVE_STATUS_TAG),
+            )
+
+            SessionSaveState.Saved -> Text(
+                text = "Attempts were saved and will sync automatically — visit the Dashboard's " +
+                    "\"Sync now\" if you want to push them right away.",
+                style = MaterialTheme.typography.bodyMedium,
+                modifier = Modifier.padding(top = 4.dp).testTag(QBANK_RESULTS_SAVE_STATUS_TAG),
+            )
+
+            SessionSaveState.Failed -> Row(
+                modifier = Modifier.fillMaxWidth().padding(top = 4.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    text = "Couldn't save this sitting on your device — your results are shown " +
+                        "below but haven't been recorded yet.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.error,
+                    modifier = Modifier.weight(1f).testTag(QBANK_RESULTS_SAVE_STATUS_TAG),
+                )
+                OutlinedButton(
+                    onClick = onRetrySave,
+                    modifier = Modifier.testTag(QBANK_RESULTS_RETRY_BUTTON_TAG),
+                ) {
+                    Text("Retry save")
+                }
+            }
+        }
 
         LazyColumn(modifier = Modifier.weight(1f).padding(top = 16.dp)) {
             item { SectionHeader("By subject") }
