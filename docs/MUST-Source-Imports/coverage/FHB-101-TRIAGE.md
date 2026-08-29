@@ -1861,3 +1861,44 @@ The assignment and search ledgers reconcile one-to-one at **4 named concepts ↔
 **Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **85 selected inventory paths / 81 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `ffc15dff857e2661d95076a9a55ea123cdf8f5e9308629ad7d28cf35ac372835`.  By the pinned triage text classification, the remaining debt is **42 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `25 + 81 = 106` selected unique hashes.
 
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 85 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Physiology Blood midterm MCQ family
+
+The asserted starting remaining-hash checksum `ffc15dff857e2661d95076a9a55ea123cdf8f5e9308629ad7d28cf35ac372835` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 81 hashes before this pass.  The next evidence-ranked substantive local source is the two-page Physiology Blood MCQ midterm.  Both pages were rendered and read.  Its `choose the best answer` instruction, ten numbered options, and Blood title establish an **assessment** source, not lecture or practical-teaching material.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `08 Midterm Exams` | `Year 1/Semester 101/FHB 101/Physiology/08 Midterm Exams/10- Physiology MCQ of Blood_copy.pdf` | `6ce0f81b5a2ab455d7194a47cb0833680b3dedfeb8840fbae72332a4afb8c206` | 2 | 10 | 0 |
+
+### Prompt, assignment, and search ledger
+
+| Printed prompt ref | Printed key / answer | Source-distinct tested concept | Search and prior-FHB deduplication result |
+|---|---|---|---|
+| 1 | None printed | Blood functions: transport, regulation, and protection | Both search phrases returned no current record; this broad functional triad is not a prior-FHB assignment, so it is a new addition. |
+| 2 | None printed | Average adult-male blood volume | Both search phrases returned no current record; no prior-FHB assignment covers the printed volume range, so it is a new addition. |
+| 3 | None printed | Monocyte as an agranular leukocyte | Both search phrases returned no current record; no prior-FHB assignment covers this leukocyte classification, so it is a new addition. |
+| 4 | None printed | Anucleate mature erythrocytes | `anucleate red blood cell` is pending-hit; the mature-red-cell anucleate state is already triaged in FHB. |
+| 5 | None printed | Haemoglobin oxygen carriage | Both search phrases returned no current record; prior FHB already assigns haemoglobin/erythrocyte oxygen transport. |
+| 6 | None printed | Leukocytosis as increased white-cell count | `leukocytosis` is live-hit; the printed definition is not a prior-FHB assignment, so it is a live addition. |
+| 7 | None printed | Haemostasis as stoppage of bleeding | `hemostasis` is live-hit; this is already triaged in FHB. |
+| 8 | None printed | Haemophilia as hereditary coagulation deficiency | `hemophilia` is pending-hit; this reproduces the prior-FHB haemophilia concept. |
+| 9 | None printed | Embolus versus thrombus | Both search phrases returned no current record; the transported-clot distinction is not a prior-FHB assignment, so it is a new addition. |
+| 10 | None printed | ABO type-A red-cell antigen | Both search phrases returned no current record; prior FHB already assigns ABO/Rh blood compatibility, so this is a prior-FHB duplicate. |
+
+Page 1 prints prompts 1–8 and page 2 prints prompts 9–10: `8 + 2 = 10` prompts.  Several large red handwritten letters and crosses are visually present beside options, but they are inconsistent annotations rather than a printed answer table, highlighted-answer convention, or model-answer text.  They therefore supply **0 printed keys / answers** and no answer is inferred from them.  No prompt is repeated or composite; the assignment and search ledgers reconcile one-to-one at **10 named concepts ↔ 10 search rows**.
+
+At source-concept search level the results are live 2 / pending 2 / new 6.  After prior-FHB deduplication, blood functions, adult-male blood volume, agranular-monocyte classification, leukocytosis, and embolus-versus-thrombus remain distinct.  The cumulative delta is **live 1 / pending 0 / new 4**, or **+5** concepts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the Physiology Blood midterm MCQ family) | 980 | 789 | 272 | 61 | 65 | 146 | TBD |
+
+**Completed-source delta:** `+10` questions, `+0` printed keys / answers, `+10` source-distinct tested concepts / `+5` after prior-FHB deduplication.  The cumulative search buckets reconcile exactly: `61 + 65 + 146 = 272`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology Blood midterm MCQ family
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **84 selected inventory paths / 80 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `61cd0a41df2974cadaa800df96f68c373089fa8ce010c0360445d5d8e0b61cdb`.  By the pinned triage text classification, the remaining debt is **41 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `26 + 80 = 106` selected unique hashes.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 84 selected source paths still require complete printed-question/key and source-supported concept triage before approval.

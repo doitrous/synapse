@@ -34,8 +34,8 @@
     "recoveryManifestTsv": "41d75ce7cbda7588df8899dfca164162f3f4617947aa5bee4ed985ee919b70b0",
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
-    "readinessMarkdown": "1f25701632f30b2d9e2314514339824c090d5a6e79a6fcaaae31e96092960f7e",
-    "triageMarkdown": "44515117b0689124e113ba0447c05793a49e534ee3a4b24ab31aa82b284221c8"
+    "readinessMarkdown": "6836c79117fcc828b5750a2eaeb110704beced109296f21da33e919d3b398b1f",
+    "triageMarkdown": "0a7bfea4443a0825b7b5f368b73b465bab3c0e857208e399787cdf8134dd337d"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -79,6 +79,7 @@
       "5a363e2f09c2b2ac7d13d5a29adf9a6a0d1e97dfe70f74f885529285516aaf76",
       "5f1087b43622a1285ea2d011bd808ab42992a7630b9790b8e8803a3831ef419b",
       "6c2aa8130c1d9d73c68acaf44ba2f39f5ce9709c9c8f332cda5cd2751a973f7b",
+      "6ce0f81b5a2ab455d7194a47cb0833680b3dedfeb8840fbae72332a4afb8c206",
       "784b370995586c0c1adac303fff438cc0c6faad9897a678229dfe6b2d3beec80",
       "7eae568758b50729de376c829bf30c964bddc048bb74dc49210ad40d2ed019db",
       "871ca5046ee04990d95ead25942884a31d840009afe4e76d77779e13d294e294",
@@ -92,7 +93,7 @@
       "e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb",
       "ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af"
     ],
-    "uniqueSha256": 25
+    "uniqueSha256": 26
   },
   "completedSourceCoverage": {
     "sha256": "c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983",
@@ -104,15 +105,15 @@
     "sourceProcessed": true
   },
   "remaining": {
-    "inventoryMetadataRows": 85,
-    "uniqueSha256": 81,
-    "sortedNewlineSha256": "ffc15dff857e2661d95076a9a55ea123cdf8f5e9308629ad7d28cf35ac372835",
+    "inventoryMetadataRows": 84,
+    "uniqueSha256": 80,
+    "sortedNewlineSha256": "61cd0a41df2974cadaa800df96f68c373089fa8ce010c0360445d5d8e0b61cdb",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 6,
       "empty-text": 39,
       "sparse-text": 3,
-      "substantive-text": 34
+      "substantive-text": 33
     }
   },
   "triageCheckpointRemainingExtractionDebt": {
@@ -122,8 +123,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 106,
-    "processedUniqueSha256": 25,
-    "remainingUniqueSha256": 81,
+    "processedUniqueSha256": 26,
+    "remainingUniqueSha256": 80,
     "processedPlusRemaining": 106
   },
   "year1RecoveryOutcomes": [
