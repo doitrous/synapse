@@ -2344,3 +2344,96 @@ prompt-by-prompt adjudication; freehand fills/checks/crosses and checklist bulle
 answer occurrences. This gate adds zero prompts, zero printed answers, zero retained records, and
 zero concepts: the primary assessment checkpoint remains `765 / 405 / 552 / 372`, and the
 all-eligible inventory remains `800 / 440 / 587 / 406`.
+
+## Family 13 — tier-6 auxiliary `Lec 1 102` screenshot fragment
+
+### Source boundary and answer-mark ruling
+
+| Source order | Manifest source | SHA-256 | Visible boundary | Raster |
+|---:|---|---|---|---|
+| 1 | `src_007c979153847950dca6` · `2026-07-20 05.56.42.jpg` | `007c979153847950dca6cec44eb92047e6e0a21ec64e55f4afa06de4217c6cd3` | `Lec 1 102`, slide 53 of 55 | 1280 × 768 JPEG |
+| 2 | `src_ee460385eb5caf5cdc6a` · `2026-07-20 05.56.34.jpg` | `ee460385eb5caf5cdc6a07199298bb0765c92f3d53d872859e2299316667d67c` | `Lec 1 102`, slide 54 of 55 | 1280 × 768 JPEG |
+
+Both images were read at original resolution. This ordering follows the visible slide counters,
+not capture timestamps. The two slides are contiguous, but they remain a bounded **available
+fragment** of a 55-slide lecture deck; slides 1–52 and 55 are not inferred or counted. All nine
+prompt units are fully visible inside their slide boxes. There are zero cropped/incomplete prompt
+units at either image edge.
+
+Every prompt has one straight green underline under a choice. The marks are visually systematic
+digital answer annotations, but the raster screenshots cannot establish that they were printed in
+the original deck. Family 13 therefore records **nine visible marked choices and zero printed
+answer occurrences**. It contributes auxiliary study-prompt evidence only, never official exam,
+sitting, mark-weight, recurrence, or key evidence.
+
+### Visible-prompt assignment, repeat, and collapse ledger
+
+| Ref | Slide | Fully visible prompt assignment | Visible annotation mark | Tested handle |
+|---|---:|---|---|---|
+| F13-Q01 | 53 | Most accurate composite description of a prokaryotic bacterial cell | D · all of the above | `prokaryotic-bacterial-cell-defining-features-composite` |
+| F13-Q02 | 53 | Cell type whose wall has peptidoglycan as its main component | C · bacterial cell | `peptidoglycan-specific-to-bacterial-cell-wall` |
+| F13-Q03 | 53 | Bacterial structure located outside the bacterial cell wall | D · flagella | `flagella-location-outside-bacterial-cell-wall` |
+| F13-Q04 | 53 | Gram-positive-versus-Gram-negative peptidoglycan thickness/proportion | A · 50% versus 5–10% | `gram-positive-versus-negative-peptidoglycan-thickness` |
+| F13-Q05 | 54 | True bacterial cell-membrane function | D · maintain a constant inner bacterial environment | `bacterial-membrane-maintains-internal-environment` |
+| F13-Q06 | 54 | Mechanism by which the membrane maintains the internal environment | A · controlling transport mechanisms | `bacterial-membrane-transport-homeostasis` |
+| F13-Q07 | 54 | Gram-negative LPS as extremely toxic to the human body | B | `gram-negative-lps-endotoxin-toxicity` |
+| F13-Q08 | 54 | Composite Gram-negative wall description: LPS toxicity/release and thin peptidoglycan | D · all of the above | `gram-negative-wall-lps-lysis-thin-peptidoglycan-composite` |
+| F13-Q09 | 54 | Autoclave conditions required to free medical instruments/products from spores | C · 121°C for 20–30 minutes | `autoclave-121c-spore-sterilization` |
+
+Q07 and Q08 repeat the same stem wording, `Which of the following best describes Gram negative
+cell wall?`, but their option sets and tested scopes differ: Q07 isolates LPS toxicity, while Q08
+tests a three-part composite and `all of the above`. They are not copy occurrences. Q05 states a
+membrane function and Q06 asks its transport mechanism; they are also distinct scopes. Q04 and
+Q08 overlap on thin Gram-negative peptidoglycan but compare-versus-composite scope remains
+different. Thus there are zero full-prompt copies, zero semantic collapses, nine retained records,
+and nine source-distinct handles. Q04's percentage-as-`thickness`, Q08's `released only when ...
+lysed`, and Q09's time wording are preserved for later medical review rather than corrected.
+
+### Search-before-mint and prior-BMS-102 adjudication
+
+Each handle received four required searches: **36 required searches** across live state, all
+pending import roots, and Families 1–12. Exact records and near-misses were re-opened before the
+scope decision.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `prokaryotic-bacterial-cell-defining-features-composite` · Q01 | `prokaryotic bacterial cell features`; `DNA not enclosed nuclear membrane bacterial chromosome peptidoglycan`; `prokaryote one chromosome no nuclear membrane`; `bacterial prokaryotic cell all of above` | new; pending prokaryote records test individual discriminators, not this composite | none; auxiliary delta |
+| `peptidoglycan-specific-to-bacterial-cell-wall` · Q02 | `peptidoglycan bacterial cell wall specificity`; `peptidoglycan bacterial versus fungal cell`; `which cells contain peptidoglycan`; `peptidoglycan main bacterial wall component` | new; pending `CON-INF-3FBC905C4F778F` tests rigidity, not bacterial-cell specificity | none; auxiliary delta |
+| `flagella-location-outside-bacterial-cell-wall` · Q03 | `flagella outside bacterial cell wall`; `bacterial structure located outside cell wall`; `flagellum external bacterial structure`; `capsule flagella outside bacterial wall` | new; pending `CON-INF-83707B09F53803` tests flagellin/motility, not location | none; auxiliary delta |
+| `gram-positive-versus-negative-peptidoglycan-thickness` · Q04 | `gram positive gram negative peptidoglycan thickness`; `50 percent gram positive 5-10 percent gram negative`; `thick versus thin peptidoglycan layer`; `bacterial wall peptidoglycan proportion` | new; pending `CON-INF-0DD46C0FD80938` states only the Gram-negative thin-wall side and not the source's comparison/percentages | none; auxiliary delta |
+| `bacterial-membrane-maintains-internal-environment` · Q05 | `bacterial membrane maintains constant internal environment`; `cytoplasmic membrane bacterial homeostasis`; `bacterial cell membrane function internal environment`; `membrane constant intracellular environment bacteria` | new; live respiration and pending toxin-excretion records are different membrane functions | none; Family-12's multi-function list is broader, so auxiliary delta |
+| `bacterial-membrane-transport-homeostasis` · Q06 | `bacterial membrane controls transport homeostasis`; `selective permeability maintains internal environment bacteria`; `cytoplasmic membrane transport mechanism`; `bacterial membrane controlling transport` | new; no same-scope live/pending record | none; Family-12's multi-function list does not test this function-to-mechanism relation, so auxiliary delta |
+| `gram-negative-lps-endotoxin-toxicity` · Q07 | `gram negative LPS extremely toxic`; `lipopolysaccharide endotoxin toxicity`; `toxic lipid A gram negative outer membrane`; `LPS toxicity human body` | pending `CON-INF-BF26D7E563FB78`; its label directly states toxic lipid A in the Gram-negative outer membrane | none; Family-12's exotoxin/endotoxin comparison is broader and prints relative `weak` toxicity, so auxiliary delta |
+| `gram-negative-wall-lps-lysis-thin-peptidoglycan-composite` · Q08 | `gram negative wall LPS lysis thin peptidoglycan`; `LPS released bacterial lysis fever hypotension shock`; `gram negative wall composite features`; `outer LPS thin peptidoglycan 5-10 percent` | new; pending `CON-INF-0DD46C0FD80938`, `CON-INF-BF26D7E563FB78`, and `CON-INF-D60EAAF763C476` cover individual components, not this complete composite | none; auxiliary delta |
+| `autoclave-121c-spore-sterilization` · Q09 | `autoclave 121 spores 20-30 minutes`; `sterilization bacterial spores 121 C`; `autoclaving instruments spores medical use`; `spore sterilization autoclave time temperature` | new; spore-structure/resistance records do not state this sterilization condition | none; auxiliary delta |
+
+### Family-13 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 13 auxiliary | Auxiliary cumulative (Families 12–13) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 9 | 44 | 765 | 809 |
+| Printed answer occurrences | 0 | 35 | 405 | 440 |
+| Visible unproven digital answer marks | 9 | 9 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 0 | — | excluded from totals |
+| Retained question records | 9 | 44 | 552 | 596 |
+| Source-distinct tested concepts | 9 | 44 | — | — |
+| External live / pending / no same-scope match | 0 / 1 / 8 | — | — | family-local disposition |
+| Handles already represented in Families 1–12 | 0 | Family 12 has one primary overlap | — | subtract before concept addition |
+| Cross-family concept delta | +9 | +43 over primary | — | `372 + 43 = 415` |
+| **Distinct tested concepts** | **+9** | **43 auxiliary additions** | **372** | **415** |
+
+Family arithmetic is `0 + 1 + 8 = 9`. The primary assessment checkpoint remains
+`765 / 405 / 552 / 372`. The auxiliary cumulative is `35 + 9 = 44` prompts,
+`35 + 0 = 35` printed answers, `35 + 9 = 44` retained records, and
+`34 + 9 = 43` concept additions over primary. The all-eligible inventory becomes
+`800 + 9 = 809` prompts, `440 + 0 = 440` printed answers, `587 + 9 = 596` retained
+records, and `406 + 9 = 415` concepts.
+
+### Exact next auxiliary screenshot debt
+
+The next deck fragment is the four-image, non-contiguous `lec2 bacter...` sequence in visible
+source order: `src_8d15675c64dff6d1ec34` (slide 8/28),
+`src_1f60d4e52d281b431dc7` (11/28), `src_8748f9e48befcfdfb730` (23/28), and
+`src_dff3d4836500b7ebf23a` (26/28). It requires visible-only prompt inventory, explicit gap
+boundaries, and separate treatment of blue freehand answers/checks/crosses versus straight red
+underline annotations. No unseen slide or whole-deck total may be inferred.

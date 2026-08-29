@@ -144,14 +144,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   prompt reuses Family 11, giving +34 concepts. The primary BMS assessment checkpoint remains
   765/405/552/372; the separately labelled all-eligible-evidence inventory is 800/440/587/406.
   The study bank contributes no exam, sitting, recurrence, mark-weight or official-key signal.
-- The post-Family-12 tier-6 screenshot gate groups all 16 local Microbiology images into seven
-  incomplete deck fragments, with no official exam/sitting or key authority. The exact next
-  bounded auxiliary fragment is `Lec 1 102` slides 53–54 in source order
-  `src_007c979153847950dca6` then `src_ee460385eb5caf5cdc6a`; it is not a whole lecture.
-  Systematic digital marks are unproven annotation/reveal marks, while handwriting and checklist
-  ticks are not answer occurrences. The gate adds zero counts: primary remains 765/405/552/372
-  and all eligible evidence remains 800/440/587/406. Count only fully visible prompts after
-  prompt-level duplicate review; generic pathology provenance debt remains separately excluded.
+- The bounded tier-6 `Lec 1 102` slides-53–54 fragment
+  `src_007c979153847950dca6` then `src_ee460385eb5caf5cdc6a` is triaged as nine fully visible
+  auxiliary study prompts: zero printed answers, nine separately recorded unproven digital marks,
+  no repeats/collapses/prior-BMS overlap, and 0/1/8 live/pending/new. It adds +9 only to the
+  all-eligible inventory, now 809/440/596/415; primary remains 765/405/552/372. The remaining
+  tier-6 images are incomplete deck fragments without official exam/sitting or key authority.
+  Next is the visible-only non-contiguous `lec2 bacter...` slides 8/11/23/26 fragment, retaining
+  freehand/checklist versus digital-mark treatment and proving prompt-level duplicates first.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
