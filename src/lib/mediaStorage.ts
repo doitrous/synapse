@@ -4,6 +4,13 @@ const DATABASE_NAME = 'synapse-media-v1'
 const STORE_NAME = 'attachments'
 const DATABASE_VERSION = 1
 const MEDIA_REFERENCE_PREFIX = 'synapse-media:'
+/**
+ * Reference to a file hosted in the student's My Documents (the quota-counted,
+ * device-synced ledger). Anki-imported deck media uses this so images/audio
+ * count against the student's Resources allowance and follow them across
+ * devices, unlike the per-browser `synapse-media:` IndexedDB store.
+ */
+const DOC_REFERENCE_PREFIX = 'synapse-doc:'
 
 function openDatabase(): Promise<IDBDatabase> {
   return new Promise((resolve, reject) => {
@@ -37,6 +44,32 @@ function referenceId(reference: string) {
   return reference.slice(MEDIA_REFERENCE_PREFIX.length)
 }
 
+export function docMediaReference(id: string) {
+  return `${DOC_REFERENCE_PREFIX}${id}`
+}
+
+export function isDocMediaReference(value: string) {
+  return value.startsWith(DOC_REFERENCE_PREFIX)
+}
+
+function docReferenceId(reference: string) {
+  return reference.slice(DOC_REFERENCE_PREFIX.length)
+}
+
+/** Reads a blob from the per-browser IndexedDB store, or throws if it's gone. */
+async function readMediaBlobFromDb(key: string): Promise<Blob> {
+  const database = await openDatabase()
+  const transaction = database.transaction(STORE_NAME, 'readonly')
+  const request = transaction.objectStore(STORE_NAME).get(key)
+  const blob = await new Promise<Blob | undefined>((resolve, reject) => {
+    request.onsuccess = () => resolve(request.result as Blob | undefined)
+    request.onerror = () => reject(request.error ?? new Error('Could not read the media attachment.'))
+  })
+  database.close()
+  if (!blob) throw new Error('The uploaded media file is no longer available in this browser.')
+  return blob
+}
+
 export async function storeMediaFile(id: string, file: File) {
   const database = await openDatabase()
   const transaction = database.transaction(STORE_NAME, 'readwrite')
@@ -47,6 +80,18 @@ export async function storeMediaFile(id: string, file: File) {
 }
 
 export async function resolveMediaSource(reference: string): Promise<{ url: string; revoke: boolean }> {
+  // My-Documents-hosted media. In API mode the bytes are an authenticated fetch
+  // of the document's /file route; in demo mode useMyDocuments kept them in the
+  // same IndexedDB store under the document id.
+  if (isDocMediaReference(reference)) {
+    const id = docReferenceId(reference)
+    if (API_MODE) {
+      const blob = await apiFetchBlob(`/my-documents/${id}/file`)
+      return { url: URL.createObjectURL(blob), revoke: true }
+    }
+    return { url: URL.createObjectURL(await readMediaBlobFromDb(id)), revoke: true }
+  }
+
   // Managed media is protected. A raw <img src="/media/…"> neither reaches
   // the /api route nor carries the Supabase bearer token, so fetch it like any
   // other authenticated file and render a short-lived local URL.
@@ -58,16 +103,7 @@ export async function resolveMediaSource(reference: string): Promise<{ url: stri
     return { url: reference, revoke: false }
   }
 
-  const database = await openDatabase()
-  const transaction = database.transaction(STORE_NAME, 'readonly')
-  const request = transaction.objectStore(STORE_NAME).get(referenceId(reference))
-  const blob = await new Promise<Blob | undefined>((resolve, reject) => {
-    request.onsuccess = () => resolve(request.result as Blob | undefined)
-    request.onerror = () => reject(request.error ?? new Error('Could not read the media attachment.'))
-  })
-  database.close()
-  if (!blob) throw new Error('The uploaded media file is no longer available in this browser.')
-  return { url: URL.createObjectURL(blob), revoke: true }
+  return { url: URL.createObjectURL(await readMediaBlobFromDb(referenceId(reference))), revoke: true }
 }
 
 export async function removeStoredMedia(reference: string) {
