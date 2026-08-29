@@ -25,6 +25,7 @@ import { Tooltip } from '@/components/ui/Tooltip'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { Kbd } from '@/components/ui/Kbd'
 import { useT } from '@/lib/i18n'
+import { resolveMediaSource } from '@/lib/mediaStorage'
 import { sanitizeRich, isRichEmpty } from '@/data/flashcards/richText'
 import { insertCloze } from '@/data/flashcards/cloze'
 import { useCommands, useScope } from '@/lib/shortcuts/useShortcuts'
@@ -57,6 +58,35 @@ const HIGHLIGHTS = ['#fef08a', '#bbf7d0', '#bfdbfe', '#fbcfe8', '#fed7aa']
 
 /** Quick insert helpers — characters common in medical/science authoring. */
 const INSERTS = ['→', '←', '↑', '↓', '↔', '°C']
+
+/** `<img>` tags `sanitizeRich` kept — their `src` is a reference, not a URL yet. */
+const MEDIA_IMG_SELECTOR = 'img[src^="synapse-"], img[src^="/media/"]'
+
+/**
+ * Swap every media-reference `<img src>` under `container` for a resolved
+ * object URL, the same resolve-then-revoke pattern as `OcclusionCardFace` and
+ * `RichHtml`. The original reference is kept on `data-media-ref` so
+ * `emitFromDom` can read it back before sanitizing — the editable surface must
+ * never let a transient `blob:` URL reach storage, since `sanitizeRich` only
+ * recognizes references and would drop the image on the next save.
+ */
+function resolveMediaImages(container: HTMLElement): () => void {
+  let alive = true
+  const revokeUrls: string[] = []
+  container.querySelectorAll<HTMLImageElement>(MEDIA_IMG_SELECTOR).forEach((img) => {
+    const reference = img.getAttribute('src')
+    if (!reference) return
+    img.dataset.mediaRef = reference
+    resolveMediaSource(reference)
+      .then(({ url, revoke }) => {
+        if (!alive) { if (revoke) URL.revokeObjectURL(url); return }
+        if (revoke) revokeUrls.push(url)
+        img.setAttribute('src', url)
+      })
+      .catch(() => { /* leave the reference src; the browser shows a broken image */ })
+  })
+  return () => { alive = false; revokeUrls.forEach((url) => URL.revokeObjectURL(url)) }
+}
 
 /**
  * A rich-text field whose stored value is always sanitized HTML.
@@ -104,7 +134,15 @@ export const RichField = forwardRef<RichFieldHandle, {
   function emitFromDom() {
     const el = editorRef.current
     if (!el) return
+    // Read back each resolved image's original reference before serializing —
+    // the DOM currently shows a resolved `blob:`/object URL for display, but
+    // sanitizeRich only recognizes media references and would silently drop
+    // the image if it saw the transient URL instead.
+    const resolved = Array.from(el.querySelectorAll<HTMLImageElement>('img[data-media-ref]'))
+    const displayedSrcs = resolved.map((img) => img.getAttribute('src'))
+    resolved.forEach((img) => { if (img.dataset.mediaRef) img.setAttribute('src', img.dataset.mediaRef) })
     const clean = sanitizeRich(el.innerHTML)
+    resolved.forEach((img, i) => { const src = displayedSrcs[i]; if (src !== null) img.setAttribute('src', src) })
     emittedRef.current = clean
     onChangeRef.current(clean)
   }
@@ -118,6 +156,7 @@ export const RichField = forwardRef<RichFieldHandle, {
     if (value === emittedRef.current) return
     el.innerHTML = value
     emittedRef.current = value
+    return resolveMediaImages(el)
   }, [value, mode])
 
   useEffect(() => {
@@ -126,6 +165,7 @@ export const RichField = forwardRef<RichFieldHandle, {
     if (el && value) {
       el.innerHTML = value
       emittedRef.current = value
+      return resolveMediaImages(el)
     }
     // mount only
     // eslint-disable-next-line react-hooks/exhaustive-deps

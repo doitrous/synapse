@@ -63,3 +63,40 @@ test('emptiness ignores markup but respects real content', () => {
   assert.equal(isRichEmpty('<b>x</b>'), false)
   assert.equal(isRichEmpty('<br>'), false)
 })
+
+test('sanitizeRich keeps <img> with a synapse-doc media reference src', () => {
+  const html = sanitizeRich('<img src="synapse-doc:med-1" alt="x" width="200">')
+  assert.match(html, /<img[^>]+src="synapse-doc:med-1"/)
+  assert.match(html, /alt="x"/)
+})
+
+test('sanitizeRich strips <img> with a remote or data src', () => {
+  assert.doesNotMatch(sanitizeRich('<img src="https://evil/x.png">'), /<img/)
+  assert.doesNotMatch(sanitizeRich('<img src="data:image/png;base64,AAAA">'), /<img/)
+})
+
+test('sanitizeRich keeps <img> with a synapse-media: stored reference src', () => {
+  const html = sanitizeRich('<img src="synapse-media:abc123" alt="scan" width="150" height="100">')
+  assert.match(html, /<img[^>]+src="synapse-media:abc123"/)
+  assert.match(html, /alt="scan"/)
+  assert.match(html, /width="150"/)
+  assert.match(html, /height="100"/)
+})
+
+test('sanitizeRich keeps <img> with a managed /media/ reference src', () => {
+  assert.match(sanitizeRich('<img src="/media/xyz.png">'), /<img src="\/media\/xyz\.png">/)
+  // Path traversal / query / fragment smuggling past the managed-media matcher is rejected.
+  assert.doesNotMatch(sanitizeRich('<img src="/media/../secret">'), /<img/)
+  assert.doesNotMatch(sanitizeRich('<img src="/media/x?evil=1">'), /<img/)
+})
+
+test('sanitizeRich strips an empty or javascript: <img> src', () => {
+  assert.doesNotMatch(sanitizeRich('<img src="">'), /<img/)
+  assert.doesNotMatch(sanitizeRich('<img>'), /<img/)
+  assert.doesNotMatch(sanitizeRich('<img src="javascript:alert(1)">'), /<img/)
+})
+
+test('sanitizeRich drops any other attribute on an otherwise-valid <img>', () => {
+  const html = sanitizeRich('<img src="synapse-media:abc" onerror="alert(1)" class="x" data-z="1" style="position:fixed">')
+  assert.equal(html, '<img src="synapse-media:abc">')
+})
