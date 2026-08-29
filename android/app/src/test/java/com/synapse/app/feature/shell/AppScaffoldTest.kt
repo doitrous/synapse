@@ -7,6 +7,7 @@ import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.synapse.app.design.SynapseTheme
 import com.synapse.app.design.ThemeChoice
@@ -59,6 +60,31 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Library")
         composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+    }
+
+    @Test
+    fun questionBankRouteRendersQbankContentSeam() {
+        lateinit var navController: NavHostController
+        composeTestRule.setContent {
+            navController = rememberNavController()
+            SynapseTheme(ThemeChoice.Light) {
+                AppScaffold(
+                    navController = navController,
+                    themeChoice = ThemeChoice.Light,
+                    onThemeChange = {},
+                    dashboardContent = { Text("Dashboard") },
+                    qbankContent = { Text("QBankStandIn") },
+                )
+            }
+        }
+
+        // Question Bank isn't in the curated bottom bar yet, so drive the
+        // NavHost straight to its route and assert the seam — not the
+        // PlaceholderScreen — renders.
+        composeTestRule.runOnUiThread { navController.navigate(QUESTION_BANK_ROUTE) }
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Question Bank")
+        composeTestRule.onNodeWithText("QBankStandIn").assertIsDisplayed()
     }
 
     @Test

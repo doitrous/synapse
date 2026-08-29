@@ -16,6 +16,9 @@ import androidx.compose.ui.graphics.vector.ImageVector
 /** The [NavHost][androidx.navigation.compose.NavHost] start route. */
 const val DASHBOARD_ROUTE = "dashboard"
 
+/** Task 6's Question Bank flow route (see [com.synapse.app.feature.qbank.QuestionBankRoot]). */
+const val QUESTION_BANK_ROUTE = "question_bank"
+
 /**
  * One entry in the student's primary navigation, mirroring the web app's
  * `studentNav` groups (`src/components/shell/nav.ts`) collapsed to the set
@@ -40,7 +43,7 @@ data class StudentDestination(
 val STUDENT_DESTINATIONS: List<StudentDestination> = listOf(
     StudentDestination(DASHBOARD_ROUTE, "Dashboard", Icons.Filled.Home),
     StudentDestination("library", "Library", Icons.AutoMirrored.Filled.List),
-    StudentDestination("question_bank", "Question Bank", Icons.Filled.CheckCircle),
+    StudentDestination(QUESTION_BANK_ROUTE, "Question Bank", Icons.Filled.CheckCircle),
     StudentDestination("flashcards", "Flashcards", Icons.Filled.Refresh),
     StudentDestination("resources", "Resources", Icons.Filled.Info),
     StudentDestination("notebook", "Notebook", Icons.Filled.Edit),

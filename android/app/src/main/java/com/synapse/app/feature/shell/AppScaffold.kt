@@ -23,6 +23,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import com.synapse.app.design.ThemeChoice
 import com.synapse.app.feature.dashboard.DashboardScreen
 import com.synapse.app.feature.placeholder.PlaceholderScreen
+import com.synapse.app.feature.qbank.QuestionBankRoot
 
 /** Test tag on the top bar's title [Text], so tests can read it unambiguously. */
 const val APP_BAR_TITLE_TAG = "app_scaffold_title"
@@ -42,7 +43,8 @@ const val THEME_TOGGLE_TAG = "app_scaffold_theme_toggle"
  * [dashboardContent] defaults to the real [DashboardScreen] (which resolves its
  * `@HiltViewModel` via `hiltViewModel()`, requiring a Hilt-aware host activity). Tests that
  * compose [AppScaffold] under a plain (non-Hilt) test activity — e.g. a bare
- * `createComposeRule()` — can override it with a Hilt-free stand-in.
+ * `createComposeRule()` — can override it with a Hilt-free stand-in. [qbankContent]
+ * (defaulting to [QuestionBankRoot], Task 6's Question Bank flow) follows the same seam.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -51,6 +53,7 @@ fun AppScaffold(
     themeChoice: ThemeChoice,
     onThemeChange: (ThemeChoice) -> Unit,
     dashboardContent: @Composable () -> Unit = { DashboardScreen() },
+    qbankContent: @Composable () -> Unit = { QuestionBankRoot() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -100,10 +103,10 @@ fun AppScaffold(
         ) {
             STUDENT_DESTINATIONS.forEach { destination ->
                 composable(destination.route) {
-                    if (destination.route == DASHBOARD_ROUTE) {
-                        dashboardContent()
-                    } else {
-                        PlaceholderScreen(title = destination.label)
+                    when (destination.route) {
+                        DASHBOARD_ROUTE -> dashboardContent()
+                        QUESTION_BANK_ROUTE -> qbankContent()
+                        else -> PlaceholderScreen(title = destination.label)
                     }
                 }
             }
