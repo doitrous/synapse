@@ -1999,3 +1999,143 @@ separate origin ruling.
 
 The accepted cumulative checkpoint therefore remains **735 observed prompts / 375 printed
 answer occurrences / 522 retained question records / 342 distinct tested concepts**.
+
+## Family 11 — Helwan antimicrobial-chemotherapy microbiology MCQ bank
+
+### Source identity, classification, and read boundary
+
+| Field | Value |
+|---|---|
+| Source | `src_4abfcc7807e4409a34dd` · `MCQs - Helwan S2 Micro Antimicrobial Chemotherapy MCQ.pdf` |
+| SHA-256 | `4abfcc7807e4409a34dd0e6c9983937a17f07120b3852351a6d2d79ff5e9ee04` |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Microbiology · Questions/MCQs · tier 3 |
+| Container and family boundary | Nine native-text A4 pages; pp. 1–9 are the whole bounded family |
+| Read method | native text transcribed; all nine pages rendered at 130 dpi and visually checked |
+
+This is clearly Helwan-attributed microbiology assessment evidence: both the filename and
+embedded PDF title say `Helwan S2`, and every page is watermarked `Dr Mustafa Elsudani`.
+The source/module overlay remains `HU-BMS-102 > Microbiology`. Under the one-label-one-home
+rule, drug definitions, classification, mechanisms, toxicity, combinations, prophylaxis,
+and stewardship (Q1–16 and Q27–30) belong primarily to `pharm` / `SYS_PHARM`, with the
+infection system as context. Resistance genetics and bacterial adaptation (Q17–26) belong
+primarily to `inf` / `SYS_INF`, with pharmacology as the secondary mechanism context.
+
+### Prompt, printed-key, repeat, collapse, and placement ledger
+
+The source contains 30 MCQ prompt occurrences and a visibly printed 30-entry answer table
+on p. 9. The printed sequence is `1 B; 2 A; 3 B; 4 D; 5 C; 6 D; 7 C; 8 C; 9 B; 10 B;
+11 C; 12 B; 13 C; 14 C; 15 B; 16 C; 17 B; 18 C; 19 A; 20 C; 21 D; 22 B; 23 C;
+24 C; 25 B; 26 C; 27 C; 28 B; 29 C; 30 B`.
+
+| Ref | Page | Source-first prompt assignment | Printed key | Tested handle · primary placement |
+|---|---:|---|---:|---|
+| F11-Q01 | 1 | Definition of antimicrobial chemotherapy | B | `antimicrobial-chemotherapy-definition` · `pharm` |
+| F11-Q02 | 1 | Definition of an antibiotic by biological origin and activity in high dilution | A | `antibiotic-biological-origin-definition` · `pharm` |
+| F11-Q03 | 1 | True statement distinguishing natural, semisynthetic, and synthetic antibiotic origins | B | `antibiotic-origin-natural-semisynthetic-synthetic` · `pharm` |
+| F11-Q04 | 2 | Bacteriostatic action as inhibition of multiplication with host clearance | D | `bacteriostatic-definition-host-clearance` · `pharm` |
+| F11-Q05 | 2 | Clinical situation in which bactericidal therapy is most crucial | C | `bactericidal-indication-severe-immunocompromised` · `pharm` |
+| F11-Q06 | 2 | Exception among bactericidal drug classes | D | `bactericidal-drug-classification` · `pharm` |
+| F11-Q07 | 2 | Definition of a broad-spectrum antibiotic | C | `broad-spectrum-antibiotic-definition` · `pharm` |
+| F11-Q08 | 3 | Vancomycin's narrow Gram-positive spectrum | C | `vancomycin-narrow-spectrum-gram-positive` · `pharm` |
+| F11-Q09 | 3 | Definition of selective toxicity | B | `antimicrobial-selective-toxicity-definition` · `pharm` |
+| F11-Q10 | 3 | Why phenol-like disinfectants are unsuitable systemic chemotherapeutic agents | B | `disinfectant-systemic-toxicity` · `pharm` |
+| F11-Q11 | 3 | Beta-lactam inhibition of cell-wall synthesis through PBPs | C | `beta-lactam-pbp-cell-wall-mechanism` · `pharm` |
+| F11-Q12 | 4 | Vancomycin activity in MRSA through a different peptidoglycan step | B | `vancomycin-mrsa-peptidoglycan-mechanism` · `pharm` |
+| F11-Q13 | 4 | Ribosomal 70S-versus-80S basis of selective toxicity | C | `ribosomal-selective-toxicity-70s-80s` · `pharm` |
+| F11-Q14 | 4 | Tetracycline as a drug binding the bacterial 30S subunit | C | `tetracycline-30s-binding` · `pharm` |
+| F11-Q15 | 4 | Quinolone inhibition of DNA gyrase and DNA synthesis | B | `quinolone-dna-gyrase-mechanism` · `pharm` |
+| F11-Q16 | 5 | Sulphonamide competitive inhibition as a PABA analogue | C | `sulfonamide-paba-competitive-inhibition` · `pharm` |
+| F11-Q17 | 5 | Beta-lactamase as enzymatic drug inactivation | B | `beta-lactamase-drug-inactivation` · `inf` |
+| F11-Q18 | 5 | Altered PBPs as modified-target resistance | C | `altered-pbp-resistance` · `inf` |
+| F11-Q19 | 5 | Sulphonamide resistance by using preformed folate and bypassing PABA | A | `sulfonamide-folate-bypass-resistance` · `inf` |
+| F11-Q20 | 6 | Porin change causing reduced antimicrobial permeability | C | `porin-decreased-permeability-resistance` · `inf` |
+| F11-Q21 | 6 | MDR efflux pump lowering intracellular antimicrobial concentration | D | `efflux-pump-resistance-mechanism` · `inf` |
+| F11-Q22 | 6 | Mycoplasma's intrinsic penicillin resistance from absent cell wall | B | `mycoplasma-intrinsic-beta-lactam-resistance` · `inf` |
+| F11-Q23 | 7 | R factor carrying multiple antimicrobial-resistance genes | C | `r-factor-multidrug-resistance` · `inf` |
+| F11-Q24 | 7 | Transposition of resistance genes between plasmids and chromosomes | C | `transposition-resistance-gene-mobility` · `inf` |
+| F11-Q25 | 7 | Chromosomal resistance arising by spontaneous susceptibility-gene mutation | B | `chromosomal-resistance-spontaneous-mutation` · `inf` |
+| F11-Q26 | 7 | Candida oral thrush after prolonged antibiotics as superinfection | C | `antibiotic-candida-superinfection` · `inf` |
+| F11-Q27 | 8 | Streptomycin-associated deafness | C | `streptomycin-ototoxicity` · `pharm` |
+| F11-Q28 | 8 | Single-dose dental amoxicillin intended to prevent endocarditis in rheumatic heart disease | B | `dental-amoxicillin-endocarditis-prophylaxis` · `pharm`; questionable/outdated indication wording preserved |
+| F11-Q29 | 8 | Synergism as a combined effect greater than the sum | C | `antimicrobial-synergism-definition` · `pharm` |
+| F11-Q30 | 9 | Clear clinical and bacteriological diagnosis as an antibiotic-stewardship principle | B | `antibiotic-stewardship-diagnosis-principle` · `pharm` |
+
+No two stems are copies or wording-only variants, and no pair tests the same scope tightly
+enough to collapse. Thus `30 - 0 = 30` retained question records and `30 - 0 = 30`
+source-distinct tested concepts. Each prompt occurrence is assigned exactly once. Q28's
+printed `B` is preserved as source evidence; the bank gives no high-risk valve/prosthetic
+qualifier, so the indication wording is flagged for later medical review rather than
+silently modernised.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 30 handles received four required searches: **120 required searches** across
+live state, all pending import roots, and Families 1–10 of this ledger. Follow-up searches
+re-opened every live/pending record cited below. Families 1–10 contain no antimicrobial-
+chemotherapy or bacterial-resistance scope, so every Family-11 handle is a BMS-102 concept
+delta even when it matches an external live or pending record.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `antimicrobial-chemotherapy-definition` · Q01 | `antimicrobial chemotherapy definition`; `treatment of infectious diseases antimicrobial`; `chemotherapeutic agent microorganisms`; `antimicrobial drug kills inhibits causative organism` | live `CON-INF-25871D95E4E1D3`; agent-framed wording contains the same kill/inhibit-to-treat-infection definition | none; delta |
+| `antibiotic-biological-origin-definition` · Q02 | `antibiotic definition`; `produced by living organism`; `active in high dilutions`; `antimicrobial secondary metabolites` | live `CON-INF-ABF1EA01540430` | none; delta |
+| `antibiotic-origin-natural-semisynthetic-synthetic` · Q03 | `semisynthetic antibiotics chemical modification`; `natural synthetic semisynthetic antibiotics`; `origin of antibiotics`; `chemically modified antibiotic` | new; the live biological-origin definition does not classify all three origins | none; delta |
+| `bacteriostatic-definition-host-clearance` · Q04 | `bacteriostatic definition`; `inhibits bacterial multiplication`; `host immune system bacteriostatic`; `reversible bacterial growth inhibition` | live `CON-INF-4E8ECDA3106CD7` | none; delta |
+| `bactericidal-indication-severe-immunocompromised` · Q05 | `bactericidal life threatening infection`; `bactericidal leukopenic`; `immunocompromised bactericidal therapy`; `endocarditis bactericidal drug` | new; the live bactericidal definition does not state this clinical indication | none; delta |
+| `bactericidal-drug-classification` · Q06 | `bactericidal antibiotics examples`; `penicillin aminoglycoside cephalosporin bactericidal`; `tetracycline bacteriostatic`; `bactericidal versus bacteriostatic drug classes` | new; definition records do not classify these four drug classes | none; delta |
+| `broad-spectrum-antibiotic-definition` · Q07 | `broad spectrum antibiotic definition`; `gram positive gram negative antibiotic`; `antimicrobial spectrum classification`; `broad versus narrow spectrum` | new | none; delta |
+| `vancomycin-narrow-spectrum-gram-positive` · Q08 | `vancomycin narrow spectrum`; `vancomycin gram positive cocci`; `staphylococci enterococci vancomycin`; `vancomycin spectrum` | new; MRSA-treatment hits do not define vancomycin's spectrum | none; delta |
+| `antimicrobial-selective-toxicity-definition` · Q09 | `selective toxicity antimicrobial`; `harm pathogen not host`; `selective toxicity definition`; `antibiotic host pathogen toxicity` | new | none; delta |
+| `disinfectant-systemic-toxicity` · Q10 | `phenol chemotherapeutic agent toxicity`; `disinfectants human tissue toxicity`; `disinfectant not antimicrobial chemotherapy`; `phenol tissue cells` | new; viral phenol-resistance records are a different scope | none; delta |
+| `beta-lactam-pbp-cell-wall-mechanism` · Q11 | `beta lactam mechanism PBP`; `penicillin binding proteins cell wall synthesis`; `beta lactam inhibits peptidoglycan`; `penicillin mechanism of action` | new; a pending distractor explanation is not a same-scope concept record | none; delta |
+| `vancomycin-mrsa-peptidoglycan-mechanism` · Q12 | `vancomycin MRSA mechanism`; `vancomycin early peptidoglycan synthesis`; `vancomycin beta lactamase independent`; `MRSA vancomycin cell wall` | new; treatment/spectrum hits omit this mechanism | none; delta |
+| `ribosomal-selective-toxicity-70s-80s` · Q13 | `selective toxicity protein synthesis antibiotics`; `70S 80S antibiotic toxicity`; `bacterial human ribosome difference antibiotics`; `ribosomal selective toxicity` | pending `CON-INF-29351FD540E214` | none; delta |
+| `tetracycline-30s-binding` · Q14 | `tetracycline 30S`; `antibiotic binds 30S subunit`; `tetracycline ribosomal subunit`; `30S inhibitor tetracycline` | new; pending `CON-FND-D6A7B168134B07` gives the A-site block but never states the tested 30S binding | none; delta |
+| `quinolone-dna-gyrase-mechanism` · Q15 | `quinolone DNA gyrase`; `quinolone inhibits DNA synthesis`; `fluoroquinolone mechanism`; `bacterial topoisomerase quinolone` | pending `CON-FND-014D200ED96498` | none; delta |
+| `sulfonamide-paba-competitive-inhibition` · Q16 | `sulfonamide PABA competitive inhibition`; `sulphonamide mechanism folic acid`; `structural analogue PABA`; `sulfonamide bacteriostatic` | pending `CON-INF-5A15540CA80809` | none; delta |
+| `beta-lactamase-drug-inactivation` · Q17 | `beta lactamase drug inactivation`; `beta lactamase destroys penicillin`; `enzyme inactivates antibiotic`; `antibiotic resistance enzymatic modification` | pending `CON-INF-64A7823DCEC6E5` | none; delta |
+| `altered-pbp-resistance` · Q18 | `altered penicillin binding proteins resistance`; `modified PBP antibiotic resistance`; `target modification beta lactam resistance`; `PBP alteration antimicrobial resistance` | new; live MRSA/beta-lactam treatment records do not state altered-PBP resistance | none; delta |
+| `sulfonamide-folate-bypass-resistance` · Q19 | `sulfonamide preformed folic acid resistance`; `sulfonamide metabolic bypass`; `PABA bypass antibiotic resistance`; `alternative metabolic pathway sulfonamide` | pending `CON-INF-39978E6864743D` | none; delta |
+| `porin-decreased-permeability-resistance` · Q20 | `porin protein antibiotic resistance`; `decreased drug permeability resistance`; `porin modification drug entry`; `outer membrane permeability antibiotic` | pending `CON-INF-DFC3D949513ED2` plus `CON-INF-8F76601D55C470` | none; delta |
+| `efflux-pump-resistance-mechanism` · Q21 | `multidrug resistance pump quinolone`; `efflux pump antibiotic resistance`; `active drug export bacteria`; `decreasing intracellular antibiotic concentration` | new; `CON-INF-8F76601D55C470` only classifies efflux as plasmid-mediated and does not state the tested pump-action scope | none; delta |
+| `mycoplasma-intrinsic-beta-lactam-resistance` · Q22 | `Mycoplasma penicillin resistance no cell wall`; `Mycoplasma intrinsic resistance beta lactam`; `cell wall absent penicillin failure`; `natural resistance Mycoplasma antibiotic` | pending `CON-INF-DCD82D2A1D396C` | none; delta |
+| `r-factor-multidrug-resistance` · Q23 | `R factor multiple antibiotic resistance`; `resistance plasmid genes`; `R plasmid antimicrobial resistance`; `plasmid carries multiple drug resistance` | pending `CON-INF-134BE2C9B827D5` | none; delta |
+| `transposition-resistance-gene-mobility` · Q24 | `transposition resistance genes`; `transposon plasmid chromosome movement`; `transposition definition bacteria`; `mobile genetic element transposition` | pending `CON-INF-D6A264E108B348` | none; delta |
+| `chromosomal-resistance-spontaneous-mutation` · Q25 | `chromosomal drug resistance spontaneous mutation`; `mutation controls drug susceptibility`; `chromosome mediated antibiotic resistance`; `spontaneous resistance mutation bacteria` | new; `CON-INF-8F76601D55C470` classifies named mechanisms as chromosome-mutation-mediated but does not state the tested general spontaneous-mutation origin, while the live acquired-resistance record is broader still | none; delta |
+| `antibiotic-candida-superinfection` · Q26 | `antibiotic Candida superinfection`; `oral thrush broad spectrum antibiotics`; `normal flora suppression Candida`; `antibiotic induced superinfection` | live `CON-INF-86D082D1785D7A`; the source adds Candida as the clinical instance | none; delta |
+| `streptomycin-ototoxicity` · Q27 | `streptomycin deafness`; `streptomycin ototoxicity`; `aminoglycoside hearing loss`; `antibiotic toxic side effect deafness` | new; a raw corpus-index statement is not a live or pending import record | none; delta |
+| `dental-amoxicillin-endocarditis-prophylaxis` · Q28 | `amoxicillin dental prophylaxis endocarditis`; `rheumatic heart disease dental antibiotic`; `infective endocarditis prophylaxis dental procedure`; `single dose amoxicillin dental` | new; organism-after-dental-procedure records do not state prophylaxis | none; delta |
+| `antimicrobial-synergism-definition` · Q29 | `antibiotic synergism greater than sum`; `antimicrobial synergism definition`; `combined drug effect greater than sum`; `synergistic antibiotic combination` | pending `CON-FND-CE72B2E63A736B` | none; delta |
+| `antibiotic-stewardship-diagnosis-principle` · Q30 | `antibiotic use clinical bacteriological diagnosis`; `antimicrobial stewardship diagnosis before treatment`; `discourage emergence antibiotic resistance appropriate use`; `clear diagnosis antibiotic treatment` | new; pending wrong-choice/unindicated-use records do not state the diagnosis requirement | none; delta |
+
+### Family-11 checkpoint and cumulative BMS-102 pathology/microbiology
+
+| Measure | Family 11 | Cumulative after Family 11 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 30 | 765 |
+| Printed answer occurrences | 30 | 405 |
+| Retained question records after wording dedupe | 30 | 552 |
+| Source-distinct tested concepts | 30 | — |
+| External live / pending / no same-scope match | 4 / 10 / 16 | family-local disposition |
+| Family-11 handles already represented in Families 1–10 | 0 | subtract from Family-11 concept addition |
+| Cross-family concept delta | 30 | `30 - 0 = 30` |
+| **Cumulative distinct tested concepts** | **+30** | **372** |
+
+External arithmetic is `4 + 10 + 16 = 30`. Cumulative arithmetic is `735 + 30 = 765`
+observed prompts, `375 + 30 = 405` printed answer occurrences, `522 + 30 = 552`
+retained records, and `342 + (30 - 0) = 372` concepts.
+
+### Exact remaining debt after Family 11
+
+- `src_4abfcc7807e4409a34dd` is fully bounded: all nine native/rendered pages, 30 prompt
+  occurrences, 30 printed answers, zero copy occurrences, 30 retained records, and 30
+  source-distinct handles have a one-to-one assignment and four-query search row. Q28's
+  questionable indication wording remains preserved and flagged.
+- The next clearly module-placed, non-external BMS-102 assessment candidate is
+  `src_d903b650cb8226a7e414` · `WRITTEN EXAM micro.pdf` (8 native-text pages, SHA-256
+  `d903b650cb8226a7e414723e0fdb34da5607f39d9ad8dcb635c3fec01900f240`). Its first page
+  is a written bacterial-genetics prompt-and-answer pool, not a dated official exam cover;
+  its exact `exam` versus study-bank status must be recorded source-first when bounded.
+- Generic pathology banks beginning with `src_6c9475dcb27ad5dada45` remain provenance
+  debt. Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
+  readiness, claim, download, commit, or push action is authorised.

@@ -128,9 +128,17 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   `src_9d41f1584e849028c619`: its cover credits Cairo University, its manifest carries the
   Kasr hint, and 100/102 rendered pages exactly match a local Kasr copy (the remaining two
   visually match). The next three Kasr-hint rows and byte-identical Kasr `src_3f8527b376185eb3c2eb`
-  are also non-Helwan; none changes the checkpoint. Continue the explicitly Helwan-attributed
-  microbiology source `src_4abfcc7807e4409a34dd` (9 pages); generic pathology provenance debt
-  remains excluded until separately ruled.
+  are also non-Helwan; none changes the checkpoint.
+- Helwan-attributed antimicrobial-chemotherapy bank `src_4abfcc7807e4409a34dd` is now fully
+  triaged across nine rendered pages: 30 keyed MCQs, no wording repeats or semantic collapses,
+  and 30 handles (4 live / 10 pending / 16 new). No handle overlaps BMS Families 1–10, so it
+  adds +30 concepts and brings BMS-102 to 765 observed prompts, 405 printed answers, 552 retained
+  records, and 372 concepts. Q1–16 and Q27–30 are primary Pharmacology; Q17–26 are primary
+  Microbiology under the BMS-102 overlay. Q28's printed `B` is preserved with its outdated/
+  incomplete prophylaxis indication wording flagged, not corrected.
+- Before counting the next candidate, determine source-first whether `src_d903b650cb8226a7e414`
+  is an exam or a study prompt-and-answer pool; generic pathology provenance debt remains
+  excluded until separately ruled.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 
