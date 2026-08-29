@@ -9,8 +9,10 @@ import Foundation
 ///
 /// Nothing here mutates its input: a caller holding the old schedule (an undo
 /// stack, a SwiftUI render) keeps it.
-struct SM2Scheduler {
+struct SM2Scheduler: Scheduler {
     var config: SrsConfig = .anki
+
+    var type: SchedulerType { .sm2 }
 
     /// Anki's own ease floor. Without it a card the student keeps failing drives
     /// its ease towards zero and then returns every single day forever.
