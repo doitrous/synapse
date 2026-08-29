@@ -4265,3 +4265,105 @@ all ten pages and no resume boundary. The next manifest-ordered local BMS-102 ca
 under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
 prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
 count is admitted.
+
+## Family 36 — tier-6 Micro Lecture 2 in-lecture questions
+
+### Source identity, complete-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_5ab9094d19f098a42657` · `Helwan S2 Micro Lecture 2.pdf` |
+| SHA-256 / boundary | `5ab9094d19f098a426574f6b1633050dc01016c85538ff6a6da0a79239d745c9` · 1,404,242 bytes · twelve native-text pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6; the manifest directory is stale, while the exact byte-verified local file is currently under `Microbiology / Theoretical` (no manifest mutation) |
+| Visible provenance | p. 1 visibly says `Helwan University , S2 , Lecture 2`; pp. 2–12 carry `TOP Microbiology Notes` / `Dr Mustafa Elsudani` headers |
+| Read boundary | all twelve physical pages rendered and visually read in order |
+
+This is a Helwan-local **teaching lecture / auxiliary study source**, not an exam, recoverable
+sitting, departmental question bank, response sheet, or official key. Physical pp. 1–9 are
+declarative teaching: cover; binary fission; doubling time and growth curve; growth phases;
+metabolism; nutrition and growth factors; oxygen requirements; and carbon-dioxide/pH/temperature
+requirements. Physical pp. 10–12 are explicitly headed `In-Lecture Questions` and contain two
+completion prompts, four true/false prompts, three `Explain the following` prompts, and four
+four-option MCQs. The three explain prompts each have one immediate printed explanatory answer
+block; no answer is visibly marked for the completion, true/false, or MCQ prompts.
+
+### Complete prompt, printed-answer, and source-first overlap ledger
+
+| Ref | Physical page | Source-first prompt assignment | Printed answer ruling | Tested handle · prior-BMS relation |
+|---|---:|---|---|---|
+| F36-Q01 | 10 | `Bacteria reproduce by ...` | none | `bacterial-reproduction-binary-fission` · exact F14-Q01 reuse |
+| F36-Q02 | 10 | `Doubling time is ... and ranges from ... to ...` | none | `bacterial-doubling-time-definition-and-range` · exact F14-Q02 reuse |
+| F36-Q03 | 10 | lag phase: first phase with no cell division | none | `bacterial-growth-curve-lag-no-division` · exact F14-Q03 reuse |
+| F36-Q04 | 10 | logarithmic-phase statement about equal deaths/new cells and constant population | none | `bacterial-growth-curve-log-rapid-net-growth` · exact F14-Q04 reuse |
+| F36-Q05 | 10 | stationary-phase statement about rapid, steadily increasing division | none | `bacterial-growth-curve-stationary-balanced-population` · exact F14-Q05 reuse |
+| F36-Q06 | 10 | decline-phase statement about deaths exceeding multiplication | none | `bacterial-growth-curve-decline-death-exceeds-growth` · exact F14-Q06 reuse |
+| F36-E01 | 11 | Explain why facultative bacteria grow faster in oxygen | immediate Krebs-versus-glycolytic ATP explanation | `facultative-anaerobe-aerobic-growth-energy-advantage` · new local scope |
+| F36-E02 | 11 | Explain why facultative/anaerobic bacteria ferment while obligate aerobes do not | immediate oxygen/fermentation/Krebs explanation | `bacterial-fermentation-versus-aerobic-oxygen-conditions` · new local scope; related to, but narrower than, F26-W02's broad energy-production survey |
+| F36-E03 | 11 | Explain laboratory identification through fermentation of certain sugars | immediate pyruvate/lactate acidity and pH-indicator explanation | `sugar-fermentation-acid-detection-for-identification` · new local scope |
+| F36-Q07 | 11 | which bacteria grow only in oxygen | none | `obligate-aerobe-oxygen-requirement` · exact F14-Q07 reuse |
+| F36-Q08 | 11 | best description of aerotolerant bacteria | none | `aerotolerant-fermentation-oxygen-tolerance-sod` · exact F14-Q09 reuse |
+| F36-Q09 | 12 | best description of microaerophilic bacteria | none | `microaerophile-low-oxygen-tension` · exact F14-Q08 reuse |
+| F36-Q10 | 12 | which bacteria grow only in complete oxygen absence | none | `obligate-anaerobe-oxygen-absence` · exact F14-Q10 reuse |
+
+There are **13 complete prompt occurrences**, **3 immediate printed study-answer occurrences**,
+zero literal within-source copies, 13 retained records, and 13 source-distinct handles. The four
+phase prompts are separate tested scopes; their common true/false template does not collapse
+them. The printed three explanation blocks are counted as three answers, not as their individual
+sentences. No unmarked MCQ option, true/false placeholder, completion blank, teaching statement,
+or coloured emphasis is promoted to an answer.
+
+### Search-before-mint and prior-BMS adjudication
+
+The ten F14-exact handles retain their already recorded four-query search evidence and external
+dispositions: **0 live / 4 pending / 6 no same-scope match**. The three source-new explanation
+handles each received four fresh searches across live state and all pending import roots: **12
+new required searches**, all with no same-scope match. The three F36 explanations are not
+collapsed to F26-W02: that earlier prompt asks for the broader mechanisms of bacterial energy
+production, whereas these prompts respectively test oxygen-linked growth advantage, the
+fermentation-versus-aerobic condition distinction, and fermentation-acid detection in laboratory
+identification.
+
+| Handle · ref | Four required queries | External disposition | Prior BMS-102 relation |
+|---|---|---|---|
+| `facultative-anaerobe-aerobic-growth-energy-advantage` · E01 | `facultative anaerobes aerobic respiration`; `facultative bacteria oxygen ATP`; `Krebs cycle glycolytic cycle bacteria`; `facultative anaerobes grow faster oxygen` | no same-scope match | no exact prior scope; delta |
+| `bacterial-fermentation-versus-aerobic-oxygen-conditions` · E02 | `facultative anaerobes fermentation oxygen`; `aerobes fermentation absence oxygen`; `pyruvate Krebs cycle oxygen bacteria`; `bacterial fermentation oxygen conditions` | no same-scope match | related to F26-W02 only; distinct tested scope, delta |
+| `sugar-fermentation-acid-detection-for-identification` · E03 | `sugar fermentation clinical identification`; `bacterial fermentation pH indicator`; `pyruvate lactate pH indicator bacteria`; `sugar fermentation acidic medium detection` | no same-scope match | none; delta |
+
+Family external arithmetic is **0 live + 4 pending + 9 no same-scope match = 13**. Prior-BMS
+arithmetic is **13 source handles - 10 exact Family-14 reuses = 3** concept additions.
+
+### Family-36 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 36 auxiliary | Auxiliary cumulative (Families 12–36) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 13 | 197 | 765 | 962 |
+| Printed study-answer occurrences | 3 | 131 | 405 | 536 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 13 | 194 | 552 | 746 |
+| Source-distinct tested handles | 13 | 192 | — | — |
+| External live / pending / no same-scope match | 0 / 4 / 9 | — | — | family-local disposition |
+| Handles already represented in Families 1–35 | 10 | 47 auxiliary records reuse earlier BMS scope | — | subtract before concept addition |
+| Cross-family concept delta | +3 | +145 over primary | — | `372 + 145 = 517` |
+| **Distinct tested concepts** | **+3** | **145 auxiliary additions** | **372** | **517** |
+
+Family arithmetic is `13 observed - 0 copies = 13 retained`, `0 + 4 + 9 = 13`, and `13 -
+10 = 3` concept additions. The primary assessment checkpoint remains **765 / 405 / 552 / 372**.
+Auxiliary cumulative arithmetic is `184 + 13 = 197` prompts, `128 + 3 = 131` printed answers,
+`181 + 13 = 194` retained records, `179 + 13 = 192` source handles, and `142 + 3 = 145`
+concepts over primary. The all-eligible inventory becomes **962 / 536 / 746 / 517**. This tier-6
+lecture source cannot raise exam/sitting, recurrence, mark-weight, official-key, readiness, or
+claims status; no readiness or claims file change is warranted.
+
+### Exact next debt after Family 36
+
+`src_5ab9094d19f098a42657` is exhausted: every rendered page has an explicit teaching-versus-
+prompt ruling; all 13 prompts and the three immediate explanation blocks are assigned once; and
+the ten F14 repeats plus the three new-scope search rows are recorded. The next manifest-ordered
+local BMS-102 candidate is tier-6 `src_eda7d78bef722719dd68` · `Helwan S2 Micro Lecture 4.pdf`,
+SHA-256 `eda7d78bef722719dd689b8973c57504176260e094b7bcd77c59c6285348c531`, nine native-text
+pages under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
+prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
+count is admitted.
