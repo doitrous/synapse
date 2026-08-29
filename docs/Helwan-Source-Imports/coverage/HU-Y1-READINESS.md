@@ -118,10 +118,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - Cell Accumulation MCQs `src_9a70f046e6b0b21ba4ee` add 25 visibly keyed MCQs and nine
   unkeyed written prompts. With zero exact repeats, all 34 records remain; six collapse groups
   yield 24 handles (0 live / 20 pending / 4 new), four of which reuse prior-family scope for a
-  +20 delta. BMS-102 pathology now totals 678 observed prompts, 318 printed key occurrences,
-  477 retained records and 342 distinct concepts. Q18's questionable printed `D`/Leukoderma
-  remains source evidence without repair. Next is `src_a2b7d25d987469febab8` pathology MCQs;
-  other pathology/microbiology sources remain S1 debt.
+  +20 delta. Q18's questionable printed `D`/Leukoderma remains source evidence without repair.
+- General MCQ/T-F bank `src_a2b7d25d987469febab8` adds 25 keyed MCQs and 32 keyed T/F rows.
+  Twelve copy occurrences leave 45 retained records; one primary-TB semantic collapse yields
+  44 handles (1 live / 9 pending / 34 new), every one an exact prior Family-1/2 scope reuse,
+  hence zero concept delta. M14/M22's conflicting keys, T18/T25 `Ture`, and T27's questionable
+  `False` remain preserved. BMS-102 pathology totals 735 observed prompts, 375 printed answers,
+  522 retained records and 342 distinct concepts. `src_9d41f1584e849028c619` has a manifest
+  Kasr origin hint and requires provenance/eligibility adjudication before any Helwan count.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 

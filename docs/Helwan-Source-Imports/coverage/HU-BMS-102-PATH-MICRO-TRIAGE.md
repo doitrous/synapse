@@ -1766,3 +1766,194 @@ arithmetic is `644 + 34 = 678` observed prompts, `293 + 25 = 318` printed key oc
 - Other pathology revision/assessment banks and all BMS-102 microbiology assessment
   evidence remain S1 debt. Tutorial 103/LCS material remains excluded. No S2 content,
   IDs, imports, catalogue, readiness, claim, download, commit, or push action is authorised.
+
+## Family 10 — general pathology MCQ and true/false bank
+
+### Source identity, classification, and read boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_a2b7d25d987469febab8` |
+| Manifest SHA-256 | `a2b7d25d987469febab87a5a80fd52db5c8d74a1ade0dfabd6482fec9da63475` |
+| Recomputed SHA-256 | `a2b7d25d987469febab87a5a80fd52db5c8d74a1ade0dfabd6482fec9da63475` |
+| File | `MCQs - MCQ Pathology.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · Questions/MCQs · tier 3 |
+| Container and family boundary | Six native-text A4 pages; all six pages are this bounded family |
+| Read method | native text extracted for transcription; all six pages rendered at 150 dpi and visually checked |
+
+This is pathology assessment evidence. Printed pp. 1–4 contain 25 MCQs; pp. 5–6 contain
+32 true/false prompts. The content substantially reuses the earlier Tutorial 102 bank, but
+its visibly printed answers are independent source evidence and are counted source-first.
+
+### Prompt, printed-key, repeat, and collapse ledger
+
+The rendered source has 57 prompt occurrences and 57 visibly printed answer occurrences.
+MCQ Q2 prints its answer phrase, `Natural history of the disease`, inline rather than as a
+letter; it remains one printed answer occurrence. The MCQ sequence is `1 C; 2 Natural
+history of the disease; 3 C; 4 A; 5 B; 6 C; 7 D; 8 B; 9 B; 10 A; 11 C; 12 A;
+13 D; 14 D; 15 C; 16 D; 17 C; 18 D; 19 B; 20 A; 21 D; 22 C; 23 D; 24 D;
+25 B`. Every true/false row also prints a result; TF18 and TF25 visibly spell `True` as
+`Ture`.
+
+Questionable answers are preserved, not repaired. Most conspicuously, MCQ14 prints `D`
+for the localized-suppurative-inflammation item while its copy at MCQ22 prints `C`; those
+letters point to different options in an otherwise equivalent option set. TF27 prints
+`False` for `Chronic inflammation followed by repair`. The ledger records both source
+facts without resolving them medically.
+
+| Ref | Source-first prompt assignment | Printed answer | Repeat / tested-handle assignment |
+|---|---|---|---|
+| F10-M01 | Term for mechanism through which a cause produces disease manifestations | C | retain → `pathology-causal-mechanism-terminology` |
+| F10-M02 | Term for untreated course of disease | Natural history of the disease | retain → `untreated-disease-course-terminology` |
+| F10-M03 | Reversible cellular response to adverse environmental change | C | retain → `cellular-adaptation-definition` |
+| F10-M04 | Cell shrinkage from loss of substance | A | retain → `cellular-atrophy-definition` |
+| F10-M05 | Grouped living-cell injury followed by autolysis, inflammation, and calcification | B | retain → `necrosis-versus-apoptosis` |
+| F10-M06 | Characteristic of acute inflammation | C | retain → `acute-inflammation-characteristics` |
+| F10-M07 | Exception among stages of the cellular inflammatory response | D | retain → `leukocyte-recruitment-stages` |
+| F10-M08 | Main mediator of inflammatory pain | B | retain → `inflammatory-pain-mediators` |
+| F10-M09 | Butter-and-bread appearance in fibrinous pericarditis | B | retain → `bread-and-butter-pericarditis-pattern` |
+| F10-M10 | Definition of oedema | A | retain → `oedema-definition` |
+| F10-M11 | Mechanism producing exudate | C | retain → `exudate-permeability-mechanism` |
+| F10-M12 | Neutrophil function | A | retain → `neutrophil-phagocytic-function` |
+| F10-M13 | Cellular source of histamine | D | retain → `histamine-cellular-source` |
+| F10-M14 | Example of localized suppurative inflammation | D | retain → `localized-suppurative-example`; conflicting copy key preserved |
+| F10-M15 | Exception among fatty-change characteristics | C | retain → `fatty-change-characteristics` |
+| F10-M16 | Exception among actinomycosis features | D | retain → `actinomycosis-feature-exception` |
+| F10-M17 | Exception among infective granulomas | C | retain → `infective-granuloma-differential` |
+| F10-M18 | Definition of pyaemia | D | retain → `pyaemia-definition` |
+| F10-M19 | Same exudate-mechanism prompt as M11, options reordered | B | copy occurrence → M11; exclude |
+| F10-M20 | Same neutrophil-function prompt/options as M12 | A | copy occurrence → M12; exclude |
+| F10-M21 | Exception among coagulative-necrosis characteristics | D | retain → `coagulative-necrosis-characteristics` |
+| F10-M22 | Same localized-suppurative prompt/options as M14 | C | copy occurrence → M14; exclude; conflicting printed key preserved |
+| F10-M23 | Complication of primary tuberculosis | D | retain → `primary-tb-dissemination` |
+| F10-M24 | Same histamine-source prompt/options as M13 | D | copy occurrence → M13; exclude |
+| F10-M25 | Listed site of primary tuberculosis | B | retain → `primary-tb-organ-site` |
+| F10-T01 | Inflammation is a local tissue reaction to an injurious agent | True | retain → `inflammation-definition` |
+| F10-T02 | Radiation can cause inflammation | True | retain → `radiation-inflammatory-cause` |
+| F10-T03 | Redness and hotness are acute-inflammation signs | True | retain → `acute-inflammation-cardinal-signs` |
+| F10-T04 | Increased blood flow causes inflammatory redness | True | retain → `acute-inflammation-redness-mechanism` |
+| F10-T05 | Increased capillary permeability causes inflammatory hotness | False | retain → `acute-inflammation-heat-mechanism` |
+| F10-T06 | Exudate is leakage of blood outside vessels | False | retain → `exudate-definition` |
+| F10-T07 | Transudates occur late in inflammation | False | retain → `transudate-inflammation-timing` |
+| F10-T08 | Exudates coagulate on standing | True | retain → `exudate-coagulability` |
+| F10-T09 | Serofibrinous inflammation is associated with pus | False | retain → `serofibrinous-suppurative-pattern` |
+| F10-T10 | Serous inflammation occurs in burns | True | retain → `serous-inflammation-burn` |
+| F10-T11 | Neutrophil is the prominent acute-inflammatory cell | True | retain → `acute-inflammation-predominant-cell` |
+| F10-T12 | Lymphocyte is the prominent cell in parasitic inflammation | False | retain → `parasitic-inflammation-predominant-cell` |
+| F10-T13 | Eosinophils occur in acute and chronic inflammation | True | retain → `eosinophils-acute-chronic-inflammation` |
+| F10-T14 | Punctuation-only copy of T01 | True | copy occurrence → T01; exclude |
+| F10-T15 | Capitalization-only copy of T06 | False | copy occurrence → T06; exclude |
+| F10-T16 | Same acute-neutrophil statement as T11 | True | copy occurrence → T11; exclude |
+| F10-T17 | Petechiae are haematomas larger than 3 ml | False | retain → `petechiae-size-classification` |
+| F10-T18 | Same radiation statement as T02 | Ture | copy occurrence → T02; exclude; spelling preserved |
+| F10-T19 | Singular/grammar-only variant of T07 | False | copy occurrence → T07; exclude |
+| F10-T20 | Same parasitic-inflammation statement as T12 | False | copy occurrence → T12; exclude |
+| F10-T21 | Pregnancy, oral contraceptives, and steroids increase thrombosis risk | True | retain → `thrombosis-definition-risk` |
+| F10-T22 | Obesity, starvation, and cortisone predispose to fatty liver | True | retain → `fatty-liver-predisposition` |
+| F10-T23 | Bronchial spread is the most important complication of secondary TB | True | retain → `secondary-tb-bronchial-spread` |
+| F10-T24 | Same permeability/hotness statement as T05 | False | copy occurrence → T05; exclude |
+| F10-T25 | Grammar-only variant of the serous-inflammation statement at T10 | Ture | copy occurrence → T10; exclude; spelling preserved |
+| F10-T26 | Inflammatory and lymphatic-obstruction oedema are pitting | False | retain → `pitting-oedema-patterns` |
+| F10-T27 | Chronic inflammation is followed by repair | False | retain → `chronic-inflammation-repair-sequence`; questionable key preserved |
+| F10-T28 | Metastatic calcification occurs in nonviable tissue with normal calcium | False | retain → `dystrophic-metastatic-calcification` |
+| F10-T29 | TB is associated with poverty, crowding, old age, and debilitating disease | True | retain → `tuberculosis-risk-context` |
+| F10-T30 | Chronic inflammation has mononuclear infiltration and fibrous proliferation | True | retain → `chronic-inflammation-morphology` |
+| F10-T31 | Amyloid is stained red by Oil Red stain | False | retain → `amyloid-staining` |
+| F10-T32 | Blood spread is the most important complication of primary TB | True | retain; collapse to M23 `primary-tb-dissemination` |
+
+The 12 copy occurrences are M19→M11, M20→M12, M22→M14, M24→M13, T14→T01,
+T15→T06, T16→T11, T18→T02, T19→T07, T20→T12, T24→T05, and T25→T10.
+As in the accepted Tutorial 102 audit, capitalization, punctuation, singular/plural grammar,
+and option order do not create a new wording. Therefore `57 - 12 = 45` question records
+remain. T32 and M23 test one primary-TB dissemination scope, giving one further concept
+reduction: `45 - 1 = 44` source-distinct handles. Every occurrence is assigned once.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 44 handles received four required searches: **176 required searches** across
+live state, all pending import roots, and Families 1–9 of this ledger. Follow-ups re-opened
+the exact pending and live records cited below. The current external dispositions agree
+with the earlier Tutorial 102 adjudication. Every Family-10 handle is already represented
+at the same tested scope in Family 1 or Family 2; external and prior-family dimensions are
+still reported separately.
+
+| Handle · retained refs | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `pathology-causal-mechanism-terminology` · M01 | `pathogenesis`; `disease mechanism`; `etiology`; `morphologic change` | new; disease-specific hits do not define the general term | collapse to F1 `pathology-causal-mechanism-terminology` |
+| `untreated-disease-course-terminology` · M02 | `natural history`; `disease course`; `untreated disease`; `clinical course` | new | collapse to F1 `untreated-disease-course-terminology` |
+| `cellular-adaptation-definition` · M03 | `cellular adaptation`; `cell adaptation`; `adaptive response`; `reversible cellular change` | pending `CON-FND-DF726F864C8BC3` | collapse to F1/F2 `cellular-adaptation-definition` |
+| `cellular-atrophy-definition` · M04 | `atrophy`; `cell shrinkage`; `loss of cell substance`; `cellular atrophy definition` | new; adaptation-family and organ-specific atrophy records do not state the tested definition | collapse to F1 `cellular-atrophy-definition` |
+| `necrosis-versus-apoptosis` · M05 | `necrosis apoptosis`; `necrosis`; `apoptosis`; `cell death inflammation` | pending `CON-FND-2CDE9A5C884133` | collapse to F1 `necrosis-versus-apoptosis` |
+| `acute-inflammation-characteristics` · M06 | `acute inflammation`; `acute inflammatory response`; `neutrophilic inflammation`; `immediate early response` | new at this exact general scope | collapse to F1 `acute-inflammation-characteristics` |
+| `leukocyte-recruitment-stages` · M07 | `leukocyte recruitment`; `leukocyte adhesion`; `transmigration chemotaxis`; `rolling adhesion` | new; live migration facts do not supply the complete sequence | collapse to F1 `leukocyte-recruitment-stages` |
+| `inflammatory-pain-mediators` · M08 | `inflammatory pain`; `bradykinin PGE2`; `pain mediator`; `acute inflammation mediators` | new; renal bradykinin/PGE records are a different scope | collapse to F1 `inflammatory-pain-mediators` |
+| `bread-and-butter-pericarditis-pattern` · M09 | `bread and butter pericarditis`; `fibrinous pericarditis`; `pericardial fibrin`; `pericarditis morphology` | new | collapse to F1 `bread-and-butter-pericarditis-pattern` |
+| `oedema-definition` · M10 | `oedema definition`; `edema definition`; `interstitial fluid accumulation`; `body cavity fluid` | new; mechanism/distribution records do not define the term | collapse to F1/F2 `oedema-definition` |
+| `exudate-permeability-mechanism` · M11 | `exudate capillary permeability`; `exudation mechanism`; `vascular permeability inflammation`; `protein leakage acute inflammation` | new; general permeability records are narrower than the exudate mechanism | collapse to F2 `exudate-permeability-mechanism` |
+| `neutrophil-phagocytic-function` · M12 | `neutrophil function phagocytosis`; `neutrophil bacteria ingestion`; `neutrophil microbicidal function`; `polymorph phagocytosis` | pending exact question linked to `CON-HEM-3899015C5024C0` | collapse to F2 `neutrophil-phagocytic-function` |
+| `histamine-cellular-source` · M13 | `histamine basophil`; `histamine cellular source`; `mast cell histamine`; `inflammatory histamine release` | live `CON-IMM-075EC1A6A3022D` | collapse to F2 `histamine-cellular-source` |
+| `localized-suppurative-example` · M14 | `localized suppurative inflammation boil`; `abscess boil`; `suppurative inflammation example`; `furuncle pathology` | new; conflicting source keys are not used as external evidence | collapse to F2 `localized-suppurative-example` |
+| `fatty-change-characteristics` · M15 | `fatty change characteristics`; `steatosis morphology`; `microvesicular macrovesicular`; `fatty degeneration cell injury` | pending `CON-FND-3B89025E2FB4E0` plus `CON-FND-70554B38361679` | collapse to F2 `fatty-change-characteristics` |
+| `actinomycosis-feature-exception` · M16 | `actinomycosis`; `actinomycotic infection`; `sulfur granules`; `infection spread` | new; live actinomycosis records do not cover the tested spread/feature set | collapse to F1 `actinomycosis-feature-exception` |
+| `infective-granuloma-differential` · M17 | `infective granuloma`; `granulomatous inflammation`; `sarcoidosis granuloma`; `tuberculosis granuloma` | new; disease-specific granuloma facts do not provide the differential | collapse to F1 `infective-granuloma-differential` |
+| `pyaemia-definition` · M18 | `pyaemia`; `pyemia`; `septic emboli`; `bacteria blood` | new | collapse to F1 `pyaemia-definition` |
+| `coagulative-necrosis-characteristics` · M21 | `coagulative necrosis characteristics`; `coagulative necrosis morphology`; `preserved cell outlines`; `protein denaturation necrosis` | pending `CON-FND-5285A9707E61CA` | collapse to F2 `coagulative-necrosis-characteristics` |
+| `primary-tb-dissemination` · M23,T32 | `primary tuberculosis blood spread`; `primary TB complication`; `lymphohematogenous TB spread`; `primary tuberculosis dissemination` | new; organ-specific spread records do not state this general complication | collapse to F2 `primary-tb-dissemination` |
+| `primary-tb-organ-site` · M25 | `primary tuberculosis organ site`; `primary TB intestine spleen`; `primary tuberculosis location`; `tuberculosis primary focus site` | new; live intestinal-complex record is narrower | collapse to F2 `primary-tb-organ-site` |
+| `inflammation-definition` · T01 | `inflammation definition`; `inflammatory response`; `local tissue reaction`; `injurious agent reaction` | new; organ-specific response records do not define inflammation | collapse to F1/F2 `inflammation-definition` |
+| `radiation-inflammatory-cause` · T02 | `radiation inflammation`; `radiation tissue injury`; `physical agents inflammation`; `ionizing radiation injury` | new | collapse to F2 `radiation-inflammatory-cause` |
+| `acute-inflammation-cardinal-signs` · T03 | `acute inflammation signs`; `redness heat inflammation`; `cardinal signs inflammation`; `rubor calor` | new | collapse to F2 `acute-inflammation-cardinal-signs` |
+| `acute-inflammation-redness-mechanism` · T04 | `inflammatory redness blood flow`; `rubor mechanism`; `vasodilation redness`; `acute inflammation hyperemia` | new | collapse to F2 `acute-inflammation-redness-mechanism` |
+| `acute-inflammation-heat-mechanism` · T05 | `inflammatory heat mechanism`; `calor mechanism`; `hotness inflammation`; `acute inflammation temperature` | new | collapse to F2 `acute-inflammation-heat-mechanism` |
+| `exudate-definition` · T06 | `exudate definition`; `inflammatory exudate`; `protein rich fluid`; `vascular leakage exudate` | new; respiratory-exudate hits are disease-specific | collapse to F2 `exudate-definition` |
+| `transudate-inflammation-timing` · T07 | `transudate inflammation timing`; `transudate early inflammation`; `transudate versus exudate`; `low protein inflammatory fluid` | new | collapse to F2 `transudate-inflammation-timing` |
+| `exudate-coagulability` · T08 | `exudate coagulates standing`; `exudate clotting`; `fibrinogen exudate`; `exudate coagulability` | new | collapse to F2 `exudate-coagulability` |
+| `serofibrinous-suppurative-pattern` · T09 | `serofibrinous inflammation pus`; `serofibrinous exudate`; `suppurative inflammation pattern`; `fibrinous versus purulent` | new | collapse to F2 `serofibrinous-suppurative-pattern` |
+| `serous-inflammation-burn` · T10 | `serous inflammation burn`; `burn blister exudate`; `serous inflammatory pattern`; `skin burn inflammation` | new | collapse to F2 `serous-inflammation-burn` |
+| `acute-inflammation-predominant-cell` · T11 | `acute inflammation neutrophil`; `predominant acute inflammatory cell`; `neutrophilic infiltrate`; `acute inflammatory cellular response` | new; general neutrophil records do not state predominance | collapse to F2 `acute-inflammation-predominant-cell` |
+| `parasitic-inflammation-predominant-cell` · T12 | `parasitic infection inflammatory cell`; `parasite eosinophil`; `helminth eosinophilia`; `lymphocyte parasitic infection` | new; `CON-IMM-1021F84F49EBE0` covers helminth killing, not predominant inflammatory cell | collapse to F2 `parasitic-inflammation-predominant-cell` |
+| `eosinophils-acute-chronic-inflammation` · T13 | `eosinophils acute chronic inflammation`; `eosinophilic inflammation`; `eosinophil inflammatory response`; `allergic parasitic inflammation` | new; helminth records do not cover both inflammatory patterns | collapse to F2 `eosinophils-acute-chronic-inflammation` |
+| `petechiae-size-classification` · T17 | `petechiae size`; `petechiae purpura ecchymosis`; `small hemorrhage classification`; `three millimeter petechiae` | new | collapse to F2 `petechiae-size-classification` |
+| `thrombosis-definition-risk` · T21 | `thrombosis definition risk factors`; `thrombus Virchow triad`; `predisposing factors thrombosis`; `intravascular blood clot during life` | new; venous-thrombosis hits omit the full source scope | collapse to F2 `thrombosis-definition-risk` |
+| `fatty-liver-predisposition` · T22 | `fatty liver predisposing factors`; `hepatic steatosis causes`; `obesity starvation fatty liver`; `corticosteroid steatosis` | pending `CON-FND-A0BC07E35554B1` | collapse to F2 `fatty-liver-predisposition` |
+| `secondary-tb-bronchial-spread` · T23 | `secondary tuberculosis bronchial spread`; `postprimary TB complication`; `TB bronchogenic dissemination`; `secondary TB spread` | new | collapse to F2 `secondary-tb-bronchial-spread` |
+| `pitting-oedema-patterns` · T26 | `pitting edema lymphatic obstruction`; `inflammatory oedema pitting`; `pitting versus nonpitting edema`; `lymphoedema physical sign` | pending `CON-CVS-6D8E2D62A9F51E` | collapse to F2 `pitting-oedema-patterns` |
+| `chronic-inflammation-repair-sequence` · T27 | `chronic inflammation followed by repair`; `chronic inflammation fibrosis`; `inflammation repair sequence`; `persistent injury healing` | new; questionable printed `False` is not used to create a match | collapse to F2 `chronic-inflammation-repair-sequence` |
+| `dystrophic-metastatic-calcification` · T28 | `dystrophic metastatic calcification`; `metastatic calcification viable tissue`; `normal calcium nonviable tissue`; `pathologic calcification comparison` | pending `CON-FND-718662116D90C4` with `CON-FND-33466CEBFC4EBA` | collapse to F2 `dystrophic-metastatic-calcification` |
+| `tuberculosis-risk-context` · T29 | `tuberculosis poverty crowding`; `TB risk factors old age`; `tuberculosis social determinants`; `debilitating disease TB` | new | collapse to F2 `tuberculosis-risk-context` |
+| `chronic-inflammation-morphology` · T30 | `chronic inflammation morphology`; `mononuclear infiltrate fibrosis`; `chronic inflammatory cells`; `tissue destruction repair inflammation` | new | collapse to F2 `chronic-inflammation-morphology` |
+| `amyloid-staining` · T31 | `amyloid stain`; `Congo red amyloid`; `oil red amyloid`; `apple green birefringence` | pending `CON-FND-4867DD3814D088` | collapse to F2 `amyloid-staining` |
+
+### Family-10 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 10 | Cumulative after Family 10 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 57 | 735 |
+| Printed answer occurrences | 57 | 375 |
+| Retained question records after wording dedupe | 45 | 522 |
+| Source-distinct tested concepts | 44 | — |
+| External live / pending / no same-scope match | 1 / 9 / 34 | family-local disposition |
+| Family-10 handles already represented in Families 1–9 | 44 | subtract from Family-10 concept addition |
+| Cross-family concept delta | 0 | `44 - 44 = 0` |
+| **Cumulative distinct tested concepts** | **+0** | **342** |
+
+External arithmetic is `1 + 9 + 34 = 44`. All 44 Family-10 handles are exact prior-scope
+relations: the first 21 map to Families 1–2 and the remaining 23 map to Family 2. The
+source therefore strengthens keyed evidence and adds retained question records without
+adding a distinct BMS-102 tested concept. Cumulative arithmetic is `678 + 57 = 735`
+observed prompts, `318 + 57 = 375` printed answer occurrences, `477 + 45 = 522` retained
+records, and `342 + (44 - 44) = 342` concepts.
+
+### Exact remaining debt after Family 10
+
+- `src_a2b7d25d987469febab8` is fully bounded: all six native/rendered pages, 57 prompt
+  occurrences, 57 printed answers, 12 copy occurrences, 45 retained records, and 44 tested
+  handles have an assignment and four-query search row. Conflicting M14/M22 keys, TF18
+  and TF25's `Ture`, and TF27's questionable `False` remain preserved.
+- The next manifest-ranked pathology question row is tier-3
+  `src_9d41f1584e849028c619` · `MCQs - PATHO MCQ القصر.pdf` (102 pages, OCR needed).
+  Its manifest `originUniversityHint` is `Kasr Alainy`, so provenance/eligibility must be
+  adjudicated before any occurrence is counted as Helwan assessment evidence.
+- Other pathology revision/assessment banks and all BMS-102 microbiology assessment
+  evidence remain S1 debt. Tutorial 103/LCS material remains excluded. No S2 content,
+  IDs, imports, catalogue, readiness, claim, download, commit, or push action is authorised.
