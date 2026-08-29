@@ -155,9 +155,9 @@ near-duplicate questions to their authoring concepts, and only then issue a comp
 
 ## Continuation checkpoint — 2026-08-29
 
-The tested-concept collapse is now explicit as the 179-row deterministic register in
+The tested-concept collapse is now explicit as the 180-row deterministic register in
 `scripts/helwan/triage-bms101-search.mjs`. It includes the four previously completed
-assignments and 175 remaining assignments, each with precisely four manual-required queries:
+assignments and 176 remaining assignments, each with precisely four manual-required queries:
 distinctive term, alias, synonym and mechanism/structure. This is a concept register, not an
 ID list; its slugs are triage handles only.
 
@@ -166,7 +166,8 @@ live state, `docs/import-ready`, `docs/questions-import-ready` and every
 `docs/*-Source-Imports` root. It has no write/import/mint path. A completed execution over
 the original 178 new register rows ran 712 queries (four per row); the two already-proven
 rows added afterwards are the existing `myelinated-conduction` and
-`blind-ended-lymphatic-capillaries` entries above.
+`blind-ended-lymphatic-capillaries` entries above. The repaired register restores the
+omitted `thin-versus-thick-skin` handle for `b7c H65`.
 
 Runner output is deliberately neutral: every transcript row is marked
 `UNADJUDICATED` and contains only its four queries plus raw matching lines. It emits no
@@ -182,7 +183,7 @@ rows in the evidence table above (`morula-timing`, `ubiquitin-protein-degradatio
 
 ### Exact remaining register
 
-There are exactly 175 undisposed handles: every row in the helper's `register` constant except
+There are exactly 176 undisposed handles: every row in the helper's `register` constant except
 the four named completed handles immediately above. The continuation worker must read each
 row's four-query evidence, retain only same-idea/same-scope live IDs or pending paths, and
 record a `new` result only when all four are absent or demonstrated near-misses. This is an
@@ -196,7 +197,7 @@ HU_TRIAGE_WORKERS=8 node scripts/helwan/triage-bms101-search.mjs > /private/tmp/
 node -e "const r=require('/private/tmp/hu-bms101-search.json'); console.log(JSON.stringify({concepts:r.concepts.length,queries:r.concepts.reduce((n,x)=>n+x.queryHits.length,0)}))"
 ```
 
-The last command must report `{"concepts":179,"queries":716}` before semantic
+The last command must report `{"concepts":180,"queries":720}` before semantic
 adjudication begins. It does not author or alter source content.
 
 ### Semantic adjudication batch 1 — first 20 unadjudicated handles
@@ -381,7 +382,7 @@ This deterministic slice is unadjudicated ordinals 105–124 and contributes exa
 searches. Re-reading the printed prompts and key corrected seven misassigned handles.
 `aa8 H7` and `H16` are one same-idea/same-scope proposition — coronary arteries have
 both internal and external elastic laminae — so the duplicate register row was collapsed.
-The register consequently has 179 handles / 716 queries; ordinal 124 is now
+The register consequently has 180 handles / 720 queries; ordinal 124 is now
 `capillary-types-and-sites`. This is a documented true collapse, not a new record.
 
 | Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
@@ -408,3 +409,36 @@ The register consequently has 179 handles / 716 queries; ordinal 124 is now
 | capillary-types-and-sites — `aa8 H-W2` | `fenestrated capillary`; `capillary`; `sinusoid`; `continuous capillary` | Pending `CON-CVS-132A76916FEC05` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` gives fenestrated-capillary sites; its linked live continuous/sinusoidal record completes the requested types-and-sites scope. | pending |
 
 Batch delta: `live +2`, `pending +11`, `new +7`; no concept ID is minted by this ledger.
+
+### Semantic adjudication batch 7 — next 20 unadjudicated handles
+
+This deterministic slice is unadjudicated ordinals 125–144 and contributes exactly 80
+searches. Candidate records below were read for the asserted proposition, not accepted from
+substring output. In particular, generic elastic-fibre material does not establish the
+Marfan/fibrillin association; hair-follicle and arrector-pili records do not establish the
+root-hair plexus; and generic GABA records do not establish a barbiturate mechanism.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| medium-artery-vein-comparison — `aa8 H-W3, p. 35` | `medium artery`; `medium vein`; `artery vein`; `tunica media` | Pending `CON-CVS-3C04F2DED454C9` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` contrasts the two vessels across wall/lumen/valves and all three tunics. | pending |
+| euchromatin-heterochromatin — `aa8 H-W4, p. 35` | `euchromatin`; `heterochromatin`; `chromatin`; `transcription` | Pending `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` states the exact active/extended versus inactive/condensed chromatin comparison, including nuclear appearance. | pending |
+| neuron-glial-morphology — `b7c H53, p. 13` | `glia`; `neuron`; `neuroglia`; `nervous tissue` | Pending `CIT-5DF92ED48582` in `docs/Alexandria-Source-Imports/evidence/AU-MED-105-histology-citations.md`, attached to `CON-NEU-93CD087BDE3F7B`, explicitly describes oligodendrocytes as small cells with few short processes compared with astrocytes. | pending |
+| collagen-fibres — `b7c H54, p. 13` | `collagen fibre`; `collagen`; `type I collagen`; `connective tissue` | Pending `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` has the same-scope connective-tissue fibre record, including collagen type/site and distinction from elastic and reticular fibres. | pending |
+| marfan-fibrillin — `b7c H58, p. 14` | `Marfan`; `fibrillin`; `elastic fibre`; `connective tissue` | Elastic-fibre records describe fibrillin as a scaffold but none names the Marfan/fibrillin association; they are near-misses, not a merge. | new |
+| sex-chromosome-karyotype — `b7c H59, p. 14` | `karyotype`; `sex chromosome`; `Barr body`; `chromosome` | Pending `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` covers karyotyping and sex-chromosome classification; its linked sex-chromosome-aberration record gives the relevant karyotype context. | pending |
+| venous-smooth-muscle — `b7c H60, p. 14` | `vein smooth muscle`; `venous`; `smooth muscle`; `tunica media` | Pending `CON-CVS-B29610035B568D` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` specifies smooth muscle in the media of medium veins and longitudinal smooth muscle in large-vein adventitia. | pending |
+| brown-adipose-tissue — `b7c H62, p. 15` | `brown adipose`; `brown fat`; `adipose`; `thermogenesis` | Pending `CON-FND-86543DB2855310` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` distinguishes brown from white adipose tissue by multilocularity, mitochondria and thermogenesis. | pending |
+| thin-versus-thick-skin — `b7c H65, p. 16` | `thin skin`; `thick skin`; `epidermal layers`; `sweat glands` | Pending `CON-DER-ACDEAF318B290B` in `docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md` compares sites, layers, papillae, hair appendages and sweat-gland density. | pending |
+| cell-cycle-competence — `b7c H75, p. 18` | `cell cycle`; `cell cycle competence`; `G0`; `proliferation` | Pending `CON-FND-A2E40256517389` in `docs/Kasr-Source-Imports/concept/104-CPS-mcq-concepts.md` distinguishes permanent, potentially renewable and continuously renewing cells, including liver-cell re-entry from G0. | pending |
+| epicardium — `b7c H66, p. 16` | `epicardium`; `pericardium`; `heart wall`; `mesothelium` | Pending `CON-CVS-CC8835108F512C` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` identifies epicardium as the outer heart-wall layer and describes its mesothelium, connective tissue, vessels and nerves. | pending |
+| trigeminal-nucleus — `b7c H67, p. 16` | `trigeminal nucleus`; `trigeminal`; `cranial nerve`; `brainstem` | The cranial-nerve and generic neuron records do not identify the tested trigeminal-nucleus site or its neuronal morphology. | new |
+| elastic-fibres — `b7c H69, p. 16` | `elastic fibre`; `elastin`; `fibrillin`; `connective tissue` | Pending `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` defines elastic fibres by elastin/fibrillin composition, staining, recoil and named sites. | pending |
+| umbilical-cord-connective-tissue — `b7c H70, p. 17` | `umbilical cord`; `Wharton`; `mucoid connective`; `umbilical` | Pending `CON-FND-EA4034F1E87235` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` identifies Wharton's jelly as hyaluronic-acid-rich mucoid connective tissue of the umbilical cord. | pending |
+| hair-follicle-receptor — `b7c H72, p. 17` | `hair follicle`; `root hair plexus`; `hair receptor`; `mechanoreceptor` | Hair-follicle, arrector-pili and dermal-mechanoreceptor records do not name the root-hair plexus sensory receptor; they are near-misses. | new |
+| thermoregulatory-av-shunts — `b7c H76, p. 18` | `arteriovenous shunt`; `AV shunt`; `thermoregulation`; `skin blood flow` | Pending `docs/Kasr-Source-Imports/article/101-ISK-anatomy-2.md` gives the shunt's sites, sympathetic muscular control and local-heat/body-temperature regulation. | pending |
+| adherens-junction — `b7c H77, p. 18` | `adherens junction`; `adherens`; `cadherin`; `cell junction` | Pending `CON-FND-59E3FDA20F54AD` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` distinguishes zonula from macula adherens by shape, anchored filament and strength. | pending |
+| urinary-oral-epithelia — `b7c H-W1, p. 28` | `urothelium`; `transitional epithelium`; `oral epithelium`; `stratified squamous` | Pending urothelium record and `CON-FND-8FEBD5195DCED2` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` together distinguish urinary transitional epithelium from oral non-keratinised stratified squamous epithelium. | pending |
+| vasa-vasorum — `b7c H-W3, p. 29` | `vasa vasorum`; `vasorum`; `large artery`; `blood vessel wall` | Pending `CON-CVS-30053920BDC07F` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` places vasa vasorum in adventitia and states their vessel-wall nutrition role. | pending |
+| barbiturate-neurotransmission — `aa8 P1, p. 36` | `barbiturate`; `GABA`; `neurotransmission`; `chloride channel` | GABA precursor records do not state the barbiturate receptor/chloride-channel effect; no same-scope live or pending record exists. | new |
+
+Batch delta: `live +0`, `pending +16`, `new +4`; no concept ID is minted by this ledger.

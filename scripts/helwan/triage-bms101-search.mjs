@@ -141,6 +141,7 @@ marfan-fibrillin\tMarfan|fibrillin|elastic fibre|connective tissue
 sex-chromosome-karyotype\tkaryotype|sex chromosome|Barr body|chromosome
 venous-smooth-muscle\tvein smooth muscle|venous|smooth muscle|tunica media
 brown-adipose-tissue\tbrown adipose|brown fat|adipose|thermogenesis
+thin-versus-thick-skin\tthin skin|thick skin|epidermal layers|sweat glands
 cell-cycle-competence\tcell cycle|cell cycle competence|G0|proliferation
 epicardium\tepicardium|pericardium|heart wall|mesothelium
 trigeminal-nucleus\ttrigeminal nucleus|trigeminal|cranial nerve|brainstem
