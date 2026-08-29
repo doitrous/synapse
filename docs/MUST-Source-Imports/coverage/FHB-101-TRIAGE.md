@@ -2370,3 +2370,103 @@ the 34-page Anatomy `MCQs - General Embryology MCQs.pdf`
 **BLOCKED — S1 cannot be approved:** this revision source is fully processed, but the
 remaining 75 selected source paths still require complete printed-question/key and
 source-supported concept triage before approval.
+
+## Bounded continuation — General Embryology MCQs, Sections I–IV
+
+The asserted starting remaining-hash checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f` was reproduced from
+the sorted, newline-joined (with **no** trailing newline) set of 73 hashes before this pass.
+The next deterministic source is the single selected Anatomy `05 MCQs` path below. Its hash
+occurs once in the pinned inventory, so there is no byte-identical selected-path duplicate.
+
+| Department | Category | Source path | SHA-256 | Source pages | Full visual read | Bounded assignment/search scope |
+|---|---|---|---|---:|---|---|
+| Anatomy / Embryology | `05 MCQs` | `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - General Embryology MCQs.pdf` | `911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d` | 34 | pages 1–34 rendered and read | pp. 6–9, Sections I–IV, Q1–20 |
+
+The cover explicitly says `GENERAL EMBRYOLOGY MCQS`, `PRACTICE MCQs & Short Essays`, `For
+medical students at Misr University For Science & Technology`, `FROM STUDENTS TO STUDENTS`,
+and `2024/2025`. The contributors page attributes the work to the Mucize Team, lead author
+Youssef BenAhmed and reviewer Abdullah Khaled; the disclaimer calls it a supplementary
+educational resource and directs students to official academic resources and faculty guidance.
+It is therefore a MUST-local, student-authored **revision/study bank**, not an official exam,
+recoverable sitting, department bank or official key. A few prompts carry `Fall 2024` labels,
+but those labels establish reused question provenance only and do not convert the compilation
+or its author answers into an official source.
+
+### Full-source visual inventory and bounded count boundary
+
+All 34 pages were rendered and visually read. Pages 1–5 are cover/preface/contributors/
+disclaimer/index and print no assessment prompt. Pages 6–28 print five numbered MCQs each
+(Q1–115), p. 29 prints Q116–121, p. 30 Q122–125, p. 31 Q126–130, and p. 32 Q131–136.
+Each MCQ page prints an immediate answer-letter line. Page 33 prints nine complete short-essay
+enumerate prompts, and p. 34 prints nine matching answer blocks. The complete visible source
+inventory is therefore `23 × 5 + 6 + 4 + 5 + 6 + 9 = 145` prompt occurrences and `136 + 9
+= 145` directly printed answer occurrences. The standalone `V.IMP.` germ-cell note on p. 15
+is declarative teaching text, not a prompt or key.
+
+This bounded pass assigns and searches only **Q1–20 on pp. 6–9**, the four complete natural
+sections `Reproductive Systems`, `Gametogenesis`, `Female Reproductive Cycles`, and
+`Fertilization`. Their exact arithmetic is `4 pages × 5 = 20` complete prompts and **20**
+directly printed answer letters. Q21–136 and the nine written prompts have been visually
+inventoried but are not yet assigned, searched or accepted into completed-source totals. The
+source remains `sourceProcessed=false`.
+
+### Bounded prompt assignment, collapse, search, and prior-FHB ledger
+
+Each of the 13 source-distinct handles below received four fresh live-and-pending searches:
+**52 required searches**. A live result takes precedence only at the same tested scope.
+`Prior FHB` records exact accepted cross-source reuse and does not propose an ID or placement.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q1 | `C` | Ovary in the female reproductive system (`female reproductive system ovary`; `female reproductive organs ovary`; `ovary female reproductive organ`; `female genital system ovary`) | pending-hit at the accepted female-primary-sex-organ scope; exact prior-FHB female-gonad assignment — duplicate |
+| Q2 | `B` | Endometrium as the innermost uterine-wall layer (`endometrium innermost uterine layer`; `uterine wall endometrium`; `innermost layer uterus`; `uterus wall layers endometrium`) | pending-hit; exact prior-FHB endometrial-lining / uterine-wall assignment — duplicate |
+| Q3, Q16 | `3 C`; `16 E` | Usual tubal/ampullary fertilization site (`fertilization ampulla uterine tube`; `site fertilization`; `fertilization lateral third fallopian tube`; `fertilization wide part uterine tube`) | new externally; exact prior-FHB fertilization-site assignment — duplicate |
+| Q4 | `B` | Uterus excluded from the male reproductive system (`male reproductive system uterus exception`; `male reproductive organs uterus`; `uterus not male reproductive system`; `male genital system structures`) | live-hit at the accepted male-reproductive-system scope; exact prior-FHB assignment — duplicate |
+| Q5 | `A` | Testis and ovary as the paired primary gonads (`primary gonads testis ovary`; `male female primary sex organs`; `gonads testes ovaries`; `testis ovary gamete producing organs`) | new; the separately accepted male- and female-gonad records do not own this paired classification; no exact prior-FHB assignment — bounded candidate addition |
+| Q6–Q7 | `6 B`; `7 B` | Gametogenesis and haploid gamete chromosome complement (`gametogenesis produces gametes`; `gamete chromosome complement`; `22 autosomes one sex chromosome gamete`; `haploid gamete chromosomes`) | pending-hit; exact prior-FHB gametogenesis/gamete-complement assignment — duplicate |
+| Q8 | `B` | Secondary oocyte as the female gamete (`secondary oocyte female gamete`; `female gamete secondary oocyte`; `ovum secondary oocyte`; `human female gamete`) | live-hit; exact prior-FHB assignment — duplicate |
+| Q9 | `B` | Meiotic disturbance producing Down syndrome (`meiotic disturbance Down syndrome`; `meiosis nondisjunction trisomy 21`; `abnormal meiosis Down syndrome`; `Down syndrome gametogenesis`) | new at this causal scope; prior FHB separately owns meiotic disturbance/abnormal gametes and Down-syndrome classification, but not their asserted causal relation — bounded candidate addition |
+| Q10 | `B` | Male-gamete X/Y contribution determining offspring sex (`sperm determines sex offspring`; `X Y sperm sex determination`; `male gamete determines sex`; `offspring sex chromosome sperm`) | new; no exact prior-FHB assignment — bounded candidate addition |
+| Q11, Q13 | `11 B`; `13 B` | Ovarian-cycle location and follicular/ovulation/luteal phases (`ovarian cycle ovary`; `follicular ovulation luteal phases`; `ovarian cycle phases`; `ovary cyclical changes`) | live-hit; exact prior-FHB ovarian-cycle assignment — duplicate |
+| Q12, Q14–Q15 | `12 A`; `14 B`; `15 C` | Menstrual/endometrial cycle and its printed phase classification (`menstrual cycle endometrium`; `menstrual proliferative secretory ischemic phases`; `ischemic phase menstrual cycle`; `endometrial cycle lunar month`) | new externally; exact prior-FHB menstrual-cycle/endometrial-change assignment — duplicate |
+| Q17, Q20 | `17 B`; `20 A` | Fertilization restores diploidy and produces a 46-chromosome zygote (`fertilization restores diploid number`; `zygote 46 chromosomes`; `fertilization outcomes diploid chromosomes`; `chromosome number zygote`) | new externally; exact prior-FHB fertilization-outcomes assignment — duplicate |
+| Q18–Q19 | `18 A`; `19 A` | Embryonic age beginning at fertilization versus gestational-age exclusion (`embryonic age begins fertilization`; `gestational age fertilization difference`; `embryonic versus gestational age`; `fertilization gestational age exception`) | new; no exact prior-FHB assignment — bounded candidate addition |
+
+The 20 prompt assignments collapse to 13 source-distinct handles: Q3/Q16, Q6/Q7, Q11/Q13,
+Q12/Q14/Q15, Q17/Q20 and Q18/Q19 are the explicit within-scope families. The current bounded
+source disposition is **3 live / 3 pending / 7 new**. Nine handles exactly reuse accepted
+prior-FHB scope; the four surviving bounded candidates are the paired primary-gonad
+classification, meiotic-disturbance/Down causal relation, paternal X/Y sex determination, and
+embryonic-versus-gestational age origin. This provisional `0 live / 0 pending / 4 new` bounded
+result is **not** added to cumulative concepts while the source remains incomplete.
+
+The printed answer lines are preserved without medical repair. In particular, Q10's `B · XY
+chromosomes` wording does not distinguish X-bearing from Y-bearing sperm; Q15 prints `C ·
+Follicular phase` for the menstrual-cycle exception despite also listing `E · Luteal Phase`;
+and Q16 prints `E · B, C & D`, where the three named options are overlapping descriptions of
+the usual fertilization site. These remain low-authority source claims, not corrected facts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources unchanged; bounded General Embryology Q1–20 excluded) | 1270 | 1005 | 316 | 64 | 71 | 181 | TBD |
+
+**Completed-source delta:** `+0` questions, `+0` printed keys/answers, and `+0` accepted
+concepts. The cumulative buckets remain `64 + 71 + 181 = 316`; no module ID, content record,
+placement, source or catalogue entry was created.
+
+## Remaining sources / blocker — General Embryology bank remains incomplete
+
+The remainder and durable snapshot are intentionally unchanged: **75 selected paths / 73
+unique SHA-256s**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, debt **32
+substantive-text / six sparse-text / 37 empty-text**, and processed/remaining hash accounting
+`33 + 73 = 106`. The current hash remains in the remainder and is not added to
+`processedFamilies`; the snapshot/provenance files therefore require no mutation.
+
+**BLOCKED — S1 cannot be approved:** resume this same source at **Q21 on source page 10,
+Section V: Cleavage (Segmentation)**. Q21–136 and the nine p. 33 written prompts still require
+source-level collapse, four searches per handle and exact prior-FHB adjudication before the
+source can enter completed totals or leave the remainder.
