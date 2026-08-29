@@ -233,3 +233,38 @@ and the live amniotic-fluid-function hits for `polyhydramnios` are near-misses, 
 | implantation-timing — `b7c A3, p. 2` | `implantation`; `implant`; `blastocyst`; `endometrium` | Pending `CON-DEV-E08715FEB6438D` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` gives day-7 onset, day-9 embedding and day-11 completion. | pending |
 
 Batch delta: `live +1`, `pending +19`, `new +0`; no concept ID is minted by this ledger.
+
+### Semantic adjudication batch 2 — next 20 unadjudicated handles
+
+The deterministic selection continues after batch 1: rows 24–43 of the runner register,
+after the three leading completed rows. The partial runner transcript uses `--limit=43`:
+172 total queries, of which the 20 rows below contribute exactly 80. Every disposition
+below was made from the named record's text, rather than from a substring hit. In
+particular, the live shoulder-joint article does not state its ball-and-socket class, and
+the live folding article does not supply the complete scope of the folding item; both have
+therefore remained pending where the precise pending record does.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| fertilisation-second-week-events — `b7c A4, p. 2` | `fertilisation`; `fertilization`; `acrosome`; `zona pellucida` | Live `CON-DEV-ACAE4CE4C3EA57`, “Function of acrosomal enzymes”, explicitly states that acrosomal-cap enzymes facilitate penetration of the ovum coverings during fertilization: the asked phase-II zona-pellucida event. | live |
+| uteroplacental-circulation-onset — `b7c A5, p. 3` | `uteroplacental`; `placental circulation`; `intervillous`; `spiral artery` | Pending `CON-DEV-22C6EB6EB88448` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` states that on days 11–12 lacunae fill with maternal blood as uteroplacental circulation is established. | pending |
+| posterior-cord-branches — `b7c A6, p. 3` | `posterior cord`; `posterior cord branches`; `thoracodorsal`; `subscapular nerve` | Pending `CON-MSK-CF723B5FB24D70` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` enumerates radial, axillary, upper/lower subscapular and thoracodorsal branches of the posterior cord. | pending |
+| anterior-axillary-wall — `b7c A7, p. 3` | `anterior axillary`; `axillary wall`; `pectoralis minor`; `clavipectoral` | Pending `CON-MSK-F602D13792F66F` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` gives the anterior wall as pectoralis major with deep subclavius, clavipectoral fascia and pectoralis minor. | pending |
+| shoulder-joint-class — `b7c A8, p. 3` | `shoulder joint`; `glenohumeral`; `ball and socket`; `synovial joint` | Pending `CON-MSK-EA4C451C8749B9` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` explicitly classifies the shoulder as a synovial polyaxial ball-and-socket joint. | pending |
+| somite-formation-rate — `b7c A9, p. 3` | `somite`; `somitogenesis`; `paraxial`; `segmentation` | Pending `CON-DEV-3AB7E19B99F387` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` states that three somite pairs are added each day during the regular somite period. | pending |
+| musculocutaneous-nerve-course — `b7c A11, p. 4` | `musculocutaneous`; `musculocutaneous nerve`; `coracobrachialis`; `lateral cutaneous forearm` | Live `CON-DER-8387EA6B89BC45`, “Musculocutaneous nerve through coracobrachialis”, explicitly states that the nerve pierces coracobrachialis — the full scope of the asked relation. | live |
+| triceps-action — `b7c A12, p. 4` | `triceps`; `triceps brachii`; `elbow extension`; `radial nerve` | Pending `CON-MSK-34E34E10280236` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` explicitly identifies triceps as the extensor of the elbow. | pending |
+| lumbrical-mcp-action — `b7c A13, p. 4` | `lumbrical`; `lumbricals`; `MCP flexion`; `interphalangeal extension` | Pending `CON-MSK-24A0858459A59D` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` explicitly states that lumbricals flex the metacarpophalangeal joints and extend the interphalangeal joints. | pending |
+| abductor-pollicis-longus-insertion — `b7c A14, p. 4` | `abductor pollicis`; `APL`; `first metacarpal`; `thumb abductor` | Pending `docs/Kasr-Source-Imports/article/101-ISK-anatomy-2.md` states that abductor pollicis longus runs to the lateral side of the base of the first metacarpal. | pending |
+| median-nerve-carpal-tunnel — `b7c A15, p. 5` | `carpal tunnel`; `median nerve`; `flexor retinaculum`; `thenar` | Pending `CON-MSK-9B52018C4649BD` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` defines carpal-tunnel syndrome as median-nerve compression beneath the flexor retinaculum. | pending |
+| brachial-artery-termination — `b7c A16, p. 5` | `brachial artery`; `brachial`; `radial artery`; `ulnar artery` | Pending `CON-MSK-798DE81B6EE665` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` places terminal division into radial and ulnar arteries at the neck of the radius. | pending |
+| ulnar-collateral-ligament-attachment — `b7c A17, p. 5` | `ulnar collateral ligament`; `UCL`; `medial epicondyle`; `coronoid process` | Pending `CON-MSK-782A87EC05EF74` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` gives the ulnar collateral ligament from the medial epicondyle to the coronoid process and olecranon. | pending |
+| cloacal-membrane — `b7c A19, p. 6` | `cloacal membrane`; `cloaca`; `urorectal`; `endoderm` | No same-scope record exists. Pending `CON-DEV-44A219B862FFD5` only gives the membrane's post-folding position, and pending `CON-DEV-C84AD85AB265CC` gives generic endoderm derivatives; neither establishes what the cloacal membrane forms. | new |
+| neurenteric-canal — `b7c A20, p. 6` | `neurenteric`; `neurenteric canal`; `primitive node`; `notochord` | Pending `CON-DEV-1BCF37C48AF307` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` states that degeneration of the notochordal-canal floor opens the neurenteric canal. | pending |
+| cubital-fossa-contents-and-roof — `b7c A22, p. 6` | `cubital fossa`; `cubital`; `bicipital aponeurosis`; `brachial artery` | Pending `CON-MSK-74BFAB9385B955` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` puts the cephalic vein in the cubital-fossa roof and distinguishes the floor and contents. | pending |
+| embryonic-folding — `b7c A23, p. 6` | `embryonic folding`; `folding`; `lateral fold`; `cephalocaudal` | Pending `CON-DEV-44A219B862FFD5` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` covers folding's causes and results, including the closed ventral body wall and changed allantois position. | pending |
+| maternal-placenta — `b7c A24, p. 6` | `maternal placenta`; `decidua basalis`; `maternal surface`; `placental cotyledon` | Live `CON-OBS-7AB2BBC84F3D9B`, “Decidua basalis between embryo and myometrium forms maternal placenta”, has the exact queried scope. | live |
+| amniotic-fluid-definitions — `b7c A25, p. 7` | `amniotic fluid`; `amniotic`; `liquor`; `amniotic cavity` | Pending `CON-DEV-3D26C14BF0AA28` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-embryology-concepts.md` defines oligohydramnios as amniotic fluid under 400 mL at term, the exact threshold tested. | pending |
+| somite-derivatives — `b7c A26, p. 7` | `somite derivatives`; `sclerotome`; `myotome`; `dermatome` | Pending `CON-DEV-5E63C211DEEE00` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` states that the myotome forms the skeletal muscles of the body, including body wall and limbs. | pending |
+
+Batch delta: `live +3`, `pending +16`, `new +1`; no concept ID is minted by this ledger.
