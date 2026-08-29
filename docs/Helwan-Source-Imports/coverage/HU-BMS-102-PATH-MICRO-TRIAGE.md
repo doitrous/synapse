@@ -3741,3 +3741,59 @@ SHA-256 `42abe73ef515cfe405c691ae2c20e3f36b75ce8efc6153f3045327710680231d`, one 
 under `Microbiology / Notes and Summaries`. Its first-page snippet is a declarative
 `Microbiology Overview` / prokaryotic-cell teaching map attributed `BY:MALAKSAMEH`; it requires
 a bounded one-page visual prompt-versus-declarative-node gate before any count is accepted.
+
+## Family 28 — tier-6 Bacteriology and Bacterial Structure teaching-map gate
+
+### Source identity, full-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Source | `src_42abe73ef515cfe405c6` · `Bacteriology and Bacterial Structure.pdf` |
+| SHA-256 / boundary | `42abe73ef515cfe405c691ae2c20e3f36b75ce8efc6153f3045327710680231d` · one native-text XMind page, 1,980.96 × 1,951.92 pt |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6 |
+| Visible provenance | central `Bacteriology and Bacterial Structure` map and `BY:MALAKSAMEH`; PDF title `Xmind`, creator `Chromium`, producer `Skia/PDF m136`, created 8 March 2026 |
+| Read boundary | the sole page was native-text inspected, rendered at 6,052 × 5,965 pixels, and visually read in full |
+
+This is an individually attributed, Helwan-local **teaching map**, not an exam, recoverable
+sitting, departmental bank, or official answer source. Its eight coloured first-level branches
+are declarative content: `Microbiology Overview`, `Cell Types`, `Bacterial Cell
+Characteristics`, `Bacterial Cell Wall`, `Structures Outside Cell Wall`, `Intracytoplasmic
+Structures`, `Cytoplasmic Membrane`, and `Bacterial Endospores`. Their children are labels and
+factual statements (for example, prokaryote/eukaryote comparisons, capsule/flagella/pili
+functions, Gram-wall features, plasmids, and sporulation). No branch is interrogative or
+imperative, and none has a response blank, answer space, option set, question number, answer
+table, highlighted choice, key, marking instruction, or prompt-to-answer convention. `BY:
+MALAKSAMEH` is authorship, not a response cue.
+
+### Zero-prompt adjudication and separated evidence dimensions
+
+| Measure | Family 28 gate | Auxiliary cumulative (Families 12–28) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 171 | 765 | 936 |
+| Printed study-bank answer occurrences | 0 | 115 | 405 | 520 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 0 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 1 | — | excluded from retained/concepts |
+| Exact within-source copy occurrences | 0 | 2 auxiliary copies | — | unchanged |
+| Retained question records | 0 | 168 | 552 | 720 |
+| Source-distinct tested handles | 0 | 166 | — | — |
+| Required searches | 0 | — | — | no prompt-derived handle exists |
+| Cross-family concept delta | +0 | +133 over primary | — | `372 + 133 = 505` |
+| **Distinct tested concepts** | **+0** | **133 auxiliary additions** | **372** | **505** |
+
+Complete-page arithmetic is `0 prompts - 0 copies = 0 retained`, `0 printed answers`, `0
+prompt-derived handles`, `0 required searches`, and `+0` concepts. The primary checkpoint
+remains **765 / 405 / 552 / 372**; auxiliary cumulative remains **171 / 115 / 168 / 166 / +133**;
+and all eligible S1 evidence remains **936 / 520 / 720 / 505**. Declarative teaching nodes are
+not converted into inferred questions or answers, and this tier-6 map cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status.
+
+### Exact next debt after Family 28
+
+`src_42abe73ef515cfe405c6` is exhausted: its sole rendered page contains no countable prompt or
+answer unit and has no resume boundary. The next manifest-ordered local BMS-102 candidate is
+tier-6 `src_fd15c91d0058b3c25d86` · `Flashcards_Bacterial_Morphology_and_Structure.csv`, SHA-256
+`fd15c91d0058b3c25d86ad642cd290ddcf586a142671c0445f7b9e6ab592d432`, under `Microbiology /
+Notes and Summaries`. Its manifest snippet begins with a question/answer flashcard pair, so it
+requires a bounded source-format, prompt/answer, provenance, dedupe, and prior-BMS gate before
+any count is accepted.
