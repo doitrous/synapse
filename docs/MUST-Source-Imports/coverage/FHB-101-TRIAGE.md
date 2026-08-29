@@ -1065,3 +1065,107 @@ At source-concept level this family is live 13 / pending 11 / new 22.  After wit
 **Remaining file list:** 98 selected inventory paths / 93 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `51728d786ae3170d33bb6445f5f3ae89fca90b81f2e1fdcf2521134d24eacaa0`.  By the pinned triage text classification, it contains 53 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 98 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
+
+## Continuation pass — Histology SOLO final answered family
+
+The asserted starting remaining-hash checksum `51728d786ae3170d33bb6445f5f3ae89fca90b81f2e1fdcf2521134d24eacaa0` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 93 hashes before this pass.  The next evidence-ranked unread substantive FHB source is the compact nine-page answered Histology final paper below.  All nine pages were rendered and read.  Every MCQ has one visibly yellow-highlighted printed option; the key letters transcribe that highlighting only.  Several printed choices are terse or medically questionable (notably the centriole/cilium items), and none was corrected or inferred.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys recovered |
+|---|---|---|---|---:|---:|---:|
+| Histology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - [Answers] SOLO MCQS - Final Histology.pdf` | `2e869cc596ae375f593d7b899b2090c4bcb3ef4cd29e1fd4b68c01860de91a60` | 9 | 50 | 50 |
+
+### Printed-key and assignment ledger
+
+| Questions | Highlighted printed keys |
+|---|---|
+| 1–10 | `C B B B B B C B A B` |
+| 11–20 | `B C B B B B B B B C` |
+| 21–30 | `C C B C B C B B B B` |
+| 31–40 | `B B B B B B B A B B` |
+| 41–50 | `B B B B B B B B B B` |
+
+The following is a one-to-one 28-concept assignment ledger.  Each multi-question range is an explicit source-level collapse of repeated wording: membrane function (11–13, 33, 40, 47), mitochondrial function (16–17), renewal capacity (20–21, 23), cytoplasm/cytosol (25, 35), ER variants (30, 45–46), cytoskeleton (31, 49), mitotic spindle (41, 43), and membrane signalling (44, 50).
+
+| Printed prompts read | Assigned tested concept |
+|---|---|
+| 1, 4, 7 | Meiotic division and haploid gamete formation |
+| 2–3 | Haploid and diploid human chromosome complements |
+| 5–6, 8 | Meiotic stages and timing |
+| 9–10 | Centriole structure and function |
+| 11–13, 33, 40, 47 | Cell-membrane structure, selective permeability, and homeostasis |
+| 14 | Glycocalyx of the cell surface |
+| 15 | Coated vesicles and protein uptake |
+| 16–17 | Mitochondrial structure, membrane number, and energy production |
+| 18–19 | Ciliary microtubule structural support and arrangement |
+| 20–21, 23 | Non-renewing, continuously renewing, and conditionally renewable cells |
+| 22 | Unipotent stem-cell potency |
+| 24, 42 | Cell-cycle progression and checkpoints |
+| 25, 35 | Cytoplasm and cytosol functions |
+| 26 | Nuclear DNA storage and regulatory function |
+| 27 | Ribosomal protein synthesis |
+| 28 | Lysosomal digestion of waste material |
+| 29 | Golgi protein modification and packaging |
+| 30, 45–46 | Endoplasmic-reticulum protein/lipid synthesis and detoxification |
+| 31, 49 | Cytoskeletal structural support and transport |
+| 32 | Peroxisomal fatty-acid breakdown and detoxification |
+| 34 | Vacuolar storage |
+| 36 | Nucleolar ribosome production |
+| 37 | Plant-cell-wall structural support |
+| 38 | Chloroplast photosynthetic energy production |
+| 39 | Extracellular-matrix support and communication |
+| 41, 43 | Mitotic-spindle chromosome alignment and separation |
+| 44, 50 | Cell-membrane signal transduction and signal reception |
+| 48 | Specialised functions of cytoplasmic organelles |
+
+The 50 questions collapse to 28 source-distinct tested concepts.  Twelve reproduce concepts already represented in completed FHB papers: meiosis/gamete chromosomes, centriole arrangement, mitochondrial structure, renewable-cell categories, nuclear and nucleolar components, ribosomes, lysosomes, Golgi, smooth-versus-rough ER, and lysosome/peroxisome comparison.  This family therefore adds 16 cumulative distinct concepts.
+
+### Tested-concept search ledger — Histology SOLO final answered family
+
+Each source-distinct concept was searched with the manual tool using both phrases shown, across live state and every pending import root.  A live result takes precedence over pending.  The 28 rows below are named exactly as the 28 assignment rows above; `already triaged` marks cross-source collapse only.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Meiotic division and haploid gamete formation (`mitosis meiosis`; `meiosis reduction division`) | pending-hit; already triaged in FHB |
+| Haploid and diploid human chromosome complements (`gamete chromosomes`; `diploid chromosome number`) | pending-hit; already triaged in FHB |
+| Meiotic stages and timing (`prophase I leptotene`; `metaphase II chromosome alignment`) | new — TBD |
+| Centriole structure and function (`centriole structure function`; `centriole triplets`) | new; already triaged in FHB |
+| Cell-membrane structure, selective permeability, and homeostasis (`cell membrane trilamellar selective permeability`; `plasma membrane homeostasis`) | new — TBD |
+| Glycocalyx of the cell surface (`glycocalyx cell membrane`; `cell surface glycocalyx`) | new — TBD |
+| Coated vesicles and protein uptake (`coated vesicles protein uptake`; `coated vesicle endocytosis`) | new — TBD |
+| Mitochondrial structure, membrane number, and energy production (`mitochondrial DNA`; `mitochondrial genome`) | pending-hit; already triaged in FHB |
+| Ciliary microtubule structural support and arrangement (`ciliary microtubules structural support`; `cilium microtubule arrangement`) | new — TBD |
+| Non-renewing, continuously renewing, and conditionally renewable cells (`continuously renewing cells`; `labile cells`) | pending-hit; already triaged in FHB |
+| Unipotent stem-cell potency (`unipotent stem cells`; `unipotent stem cell`) | new — TBD |
+| Cell-cycle progression and checkpoints (`cell cycle checkpoints`; `cell cycle growth division`) | pending-hit — TBD |
+| Cytoplasm and cytosol functions (`cytoplasm cytosol function`; `cytosol fluid component`) | new — TBD |
+| Nuclear DNA storage and regulatory function (`nucleus DNA storage regulation`; `nucleus components`) | new; already triaged in FHB |
+| Ribosomal protein synthesis (`ribosome protein synthesis`; `ribosome rRNA`) | pending-hit; already triaged in FHB |
+| Lysosomal digestion of waste material (`lysosome waste digestion`; `secondary lysosomes`) | pending-hit; already triaged in FHB |
+| Golgi protein modification and packaging (`Golgi transfer vesicles`; `Golgi protein modification`) | new; already triaged in FHB |
+| Endoplasmic-reticulum protein/lipid synthesis and detoxification (`protein forming cells`; `rough endoplasmic reticulum`) | live-hit; already triaged in FHB |
+| Cytoskeletal structural support and transport (`cytoskeleton support transport`; `cytoskeleton function`) | new — TBD |
+| Peroxisomal fatty-acid breakdown and detoxification (`peroxisome fatty acid detoxification`; `peroxisome lysosome difference`) | new; already triaged in FHB |
+| Vacuolar storage (`vacuole storage`; `vacuole function`) | new — TBD |
+| Nucleolar ribosome production (`nucleolus ribosome production`; `nucleolus structure`) | new; already triaged in FHB |
+| Plant-cell-wall structural support (`plant cell wall support`; `plant cell wall`) | new — TBD |
+| Chloroplast photosynthetic energy production (`chloroplast photosynthesis`; `chloroplast function`) | new — TBD |
+| Extracellular-matrix support and communication (`extracellular matrix support communication`; `extracellular matrix`) | live-hit — cumulative addition |
+| Mitotic-spindle chromosome alignment and separation (`mitotic spindle chromosome separation`; `spindle fibers cell division`) | new — TBD |
+| Cell-membrane signal transduction and signal reception (`cell membrane signal transduction`; `cell signaling receptors`) | new — TBD |
+| Specialised functions of cytoplasmic organelles (`cytoplasmic organelles functions`; `cell organelles specialized functions`) | new — TBD |
+
+At source-concept level this family is live 2 / pending 7 / new 19.  After within-source collapse and cross-source deduplication, its cumulative delta is live 1 / pending 1 / new 14.  No module ID, content record, placement, source, or catalogue entry was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Histology SOLO final answered family) | 744 | 677 | 252 | 60 | 63 | 129 | TBD |
+
+**Observed delta:** +50 questions, +50 printed keys, +28 source-distinct tested concepts / +16 after within-source and cross-source deduplication.  The cumulative search buckets reconcile exactly: `60 + 63 + 129 = 252`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Histology SOLO final answered family
+
+**Remaining file list:** 97 selected inventory paths / 92 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `e5502975751f2d2f6591ccb7f80400e64cf356e5b6617fb09537210b3c55abb7`.  By the pinned triage text classification, it contains 52 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 97 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
