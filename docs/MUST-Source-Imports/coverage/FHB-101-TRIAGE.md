@@ -2470,3 +2470,37 @@ substantive-text / six sparse-text / 37 empty-text**, and processed/remaining ha
 Section V: Cleavage (Segmentation)**. Q21–136 and the nine p. 33 written prompts still require
 source-level collapse, four searches per handle and exact prior-FHB adjudication before the
 source can enter completed totals or leave the remainder.
+
+## Bounded continuation — General Embryology, Section V: Cleavage (Segmentation)
+
+This continuation retains the single selected Anatomy `05 MCQs` path, SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`, and its full
+34-page visual inventory of 145 prompt occurrences and 145 directly printed answer occurrences.
+All and only **source page 10 / Section V** was assigned in this pass. It visibly prints Q21–25
+and its immediate answer line, so the bounded arithmetic is **5 prompts / 5 directly printed
+keys**. No answer was inferred or medically repaired.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q21 | `B` | Cleavage as repeated mitotic division of the zygote (`cleavage mitotic division zygote`; `cleavage zygote repeated mitosis`; `embryonic cleavage segmentation`; `cleavage morula`) | pending-hit at the accepted cleavage scope; exact prior-FHB cleavage assignment — duplicate. |
+| Q22, Q24–Q25 | `22 B`; `24 B`; `25 B` | Morula-to-blastocyst development, cavity formation, and blastogenesis (`morula blastocyst development`; `blastocyst cavity morula`; `blastogenesis formation blastocyst`; `first week blastocyst formation`) | live-hit; exact prior-FHB morula-to-blastocyst-development-and-timing assignment — duplicate. |
+| Q23 | `B` | Outer cells of the morula forming trophoblast (`outer cells morula trophoblast`; `outer cell mass trophoblast`; `morula embryoblast trophoblast`; `trophoblast outer cells morula`) | new at this search scope; exact prior-FHB inner/outer-morula-cell-mass assignment — duplicate. |
+
+The five observations collapse source-first to **three handles**: Q22/Q24/Q25 are one
+morula-to-blastocyst development family; Q21 and Q23 are separately assigned. The assignment
+and query ledger therefore reconciles exactly as **3 handles × 4 phrases = 12 searches**. Its
+source-level search disposition is **1 live / 1 pending / 1 new**. None duplicates the accepted
+Q1–20 slice; all three are exact reuses of earlier completed FHB scope. The provisional
+post-prior-FHB delta is consequently **0 live / 0 pending / 0 new** and remains excluded from
+completed totals because this 34-page source is still incomplete.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **Q26 on source page 11, Section VI:
+Implantation**. Q26–136 and the nine p. 33 written prompts remain outside completed-source
+totals until their source-level collapse, four searches per handle, and prior-FHB adjudication
+are recorded.
