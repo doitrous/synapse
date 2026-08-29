@@ -341,3 +341,126 @@ The family has 37 source-distinct tested concepts.  Eight reproduce already-tria
 **Remaining file list:** 108 selected inventory paths / 102 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `3084eb6d68a52f0d4954d50f0f5b9c23b0e17dcedcf2da2abb3894254cc7e1ca`.  It contains 63 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 108 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — SOLO final Anatomy clean-test / answered family
+
+The asserted starting remaining-hash checksum `3084eb6d68a52f0d4954d50f0f5b9c23b0e17dcedcf2da2abb3894254cc7e1ca` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 102 hashes before this pass.  The next evidence-ranked unread substantive `06 EOM Exams` family is the paired final-Anatomy paper below: an unmarked clean-test copy with a printed terminal answer-key page and a separately labelled answered copy.  All 19 pages were rendered and read.
+
+| Inventory source path | SHA-256 | Pages | Printed questions read | Printed keys recovered |
+|---|---|---:|---:|---:|
+| `Year 1/Semester 101/FHB 101/Anatomy/06 EOM Exams/EOM MCQs - SOLO_MCQS_Final_Anatomy_Clean_Test_Version (2).pdf` | `e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb` | 10 | 50 | — |
+| `Year 1/Semester 101/FHB 101/Anatomy/06 EOM Exams/EOM MCQs - [Answers] SOLO MCQS - Final Anatomy.pdf` | `5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56` | 9 | duplicate questions | 50 |
+
+The answered copy visibly highlights one printed option for every item; its 50 highlighted options are transcribed below.  The clean-test copy's terminal typed `ANSWER KEY` is also printed evidence, but it has a bare `Q9: b` followed by a visibly shifted Q10–Q51 sequence for the fifty-question paper.  That misalignment was recorded and not used for the key transcriptions below.
+
+### Question/key assignment ledger
+
+| Printed question(s) read | Printed answer(s) recovered, transcribed only | Assigned tested concept |
+|---|---|---|
+| 1 | `b. Ovaries` | Female primary sex organs |
+| 2 | `c. Three` | Uterine wall layers |
+| 3, 31 | `3 c. Uterine tubes`; `31 b. Site of fertilization` | Fertilization site in the uterine tube |
+| 4 | `b. Uterine tubes` | Sex-specific anatomy of the male reproductive system |
+| 5, 43 | `5 b. Metabolism`; `43 b. Synthesize glycogen and fatty acids` | Placental metabolic functions |
+| 6 | `a. Excess amniotic fluid` | Polyhydramnios |
+| 7 | `b. Fetal abnormalities` | Single umbilical artery as a fetal-abnormality signal |
+| 8 | `b. Maintain corpus luteum` | hCG maintenance of the corpus luteum |
+| 9 | `b. Abnormal implantation in the endometrium` | Placenta praevia |
+| 10 | `b. 50 cm` | Umbilical-cord length at term |
+| 11 | `c. Secondary oocyte` | Secondary oocyte as the female gamete |
+| 12 | `b. 23` | Haploid gamete chromosome complement |
+| 13 | `c. Sperm` | Sperm as the male gamete |
+| 14 | `b. Abnormal gametes` | Effects of meiotic disturbance on gametes |
+| 15 | `b. Changes in the ovaries` | Ovarian cycle |
+| 16 | `b. Changes in the endometrium` | Menstrual-cycle endometrial change |
+| 17 | `b. Abnormal implantation in the uterine tube` | Ectopic pregnancy: tubal implantation |
+| 18 | `c. Contract during labor` | Myometrial contraction in labour |
+| 19, 40 | `19 b. Nourish the embryo`; `40 a. Support fetal development` | Endometrial support of early pregnancy |
+| 20 | `b. Produce seminal fluid` | Seminal-vesicle secretion |
+| 21 | `b. Store and mature sperm` | Epididymal sperm storage and maturation |
+| 22 | `b. Produce seminal fluid` | Prostatic secretion |
+| 23 | `d. All of the above` | Vaginal functions |
+| 24, 25 | `24 d. Both a and b`; `25 c. Both a and b` | Gonadal endocrine and gamete-producing functions |
+| 26 | `a. Protect the uterus` | Perimetrium as the outer uterine layer |
+| 27, 29, 35 | `27 a. Protect the fetus`; `29 d. All of the above`; `35 d. All of the above` | Fetal-membrane functions (amnion and chorion) |
+| 28 | `a. Connect fetus to placenta` | Umbilical-cord connection of fetus and placenta |
+| 30 | `b. Abnormal invasion of the placenta` | Placenta accreta |
+| 32 | `b. Produce hormones` | Corpus-luteum hormonal function |
+| 33 | `b. Form the digestive system` | Endodermal digestive-system derivative |
+| 34, 47 | `34 b. Transfer nutrients and oxygen`; `47 c. Both a and b` | Placental nutrient and gas transfer |
+| 36, 37 | `36 b. Carry oxygenated blood to the fetus`; `37 b. Carry deoxygenated blood from the fetus` | Umbilical-cord circulation |
+| 38 | `a. Protect the fetus` | Protective functions of amniotic fluid |
+| 39 | `a. Produce hormones` | Placental endocrine secretion |
+| 41, 42 | `41 a. Provide genetic material`; `42 a. Provide genetic material` | Gamete genetic contribution to fertilization |
+| 44 | `a. Pump blood` | Fetal cardiac pumping function |
+| 45 | `c. Both a and b` | Maternal blood supply in pregnancy |
+| 46 | `a. Oxygenate blood` | Fetal-lung function (printed key retained as printed) |
+| 48 | `b. Remove waste` | Fetal-kidney waste removal |
+| 49 | `b. Metabolize nutrients` | Fetal-liver metabolic function |
+| 50 | `a. Control body functions` | Fetal-brain control of body functions |
+
+The 50 questions collapse to 41 source-distinct tested concepts.  Eleven reproduce concepts already represented in completed FHB sources: fertilization site, polyhydramnios, placenta praevia, umbilical-cord length, secondary oocyte, gametogenesis/gamete chromosome complement, ectopic pregnancy, endometrial lining, endodermal derivatives, placental nutrient/gas transfer, and amniotic fluid.  The family therefore adds 30 cumulative distinct concepts.  No printed answer was medically corrected; Q46 in particular remains recorded only as its highlighted printed answer.
+
+### Tested-concept search ledger — SOLO final Anatomy family
+
+Each source-distinct concept was checked with the manual search tool using both phrases shown.  A live result takes precedence over pending.  `Already triaged` records cross-source question-to-concept collapse only; it is not an identifier or a placement.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Female primary sex organs (`female primary sex organ`; `ovaries`) | pending-hit |
+| Uterine wall layers (`uterine wall layers`; `uterine layers`) | new — TBD |
+| Fertilization site in the uterine tube (`fertilization ampulla`; `uterine tube fertilization`) | new — TBD; already triaged as a new FHB concept |
+| Sex-specific anatomy of the male reproductive system (`male reproductive system`; `male reproductive organs`) | live-hit |
+| Placental metabolic functions (`placenta metabolism`; `placental metabolic function`) | new — TBD |
+| Polyhydramnios (`polyhydramnios`; `amniotic fluid excess`) | pending-hit; already triaged |
+| Single umbilical artery as a fetal-abnormality signal (`single umbilical artery`; `umbilical artery anomaly`) | pending-hit |
+| hCG maintenance of the corpus luteum (`human chorionic gonadotropin`; `hCG corpus luteum`) | live-hit |
+| Placenta praevia (`placenta previa`; `placenta praevia`) | live-hit; already triaged |
+| Umbilical-cord length at term (`umbilical cord length`; `fifty centimetres cord`) | new — TBD; already triaged as a new FHB concept |
+| Secondary oocyte as the female gamete (`secondary oocyte`; `female gamete`) | live-hit; already triaged |
+| Haploid gamete chromosome complement (`gametogenesis`; `gamete chromosomes`) | pending-hit; already triaged |
+| Sperm as the male gamete (`sperm male gamete`; `male gamete`) | live-hit |
+| Effects of meiotic disturbance on gametes (`meiosis abnormal gametes`; `meiotic disturbance`) | new — TBD |
+| Ovarian cycle (`ovarian cycle`; `ovary cyclical changes`) | live-hit |
+| Menstrual-cycle endometrial change (`menstrual cycle endometrium`; `endometrial cycle`) | new — TBD |
+| Ectopic pregnancy: tubal implantation (`ectopic pregnancy`; `tubal implantation`) | live-hit; already triaged |
+| Myometrial contraction in labour (`myometrium contraction`; `uterine muscle labor`) | new — TBD |
+| Endometrial support of early pregnancy (`endometrium`; `endometrial pregnancy support`) | pending-hit; already triaged through endometrial uterine lining |
+| Seminal-vesicle secretion (`seminal vesicles`; `seminal fluid`) | live-hit |
+| Epididymal sperm storage and maturation (`epididymis`; `sperm maturation`) | live-hit |
+| Prostatic secretion (`prostate gland secretion`; `prostate seminal fluid`) | new — TBD |
+| Vaginal functions (`vagina functions`; `vaginal childbirth`) | new — TBD |
+| Gonadal endocrine and gamete-producing functions (`ovaries hormones gametes`; `testes hormones gametes`) | new — TBD |
+| Perimetrium as the outer uterine layer (`perimetrium`; `outer uterine layer`) | new — TBD |
+| Fetal-membrane functions (amnion and chorion) (`amnion fetal protection`; `fetal membranes function`) | new — TBD |
+| Umbilical-cord connection of fetus and placenta (`umbilical cord connection`; `fetus placenta connection`) | new — TBD |
+| Placenta accreta (`placenta accreta`; `abnormal placental invasion`) | pending-hit |
+| Corpus-luteum hormonal function (`corpus luteum`; `corpus luteum function`) | live-hit |
+| Endodermal digestive-system derivative (`endoderm digestive system`; `endoderm derivatives`) | live-hit; already triaged through endodermal derivatives |
+| Placental nutrient and gas transfer (`placental nutrient oxygen transfer`; `placenta gas exchange`) | new — TBD; already triaged as a new FHB concept |
+| Umbilical-cord circulation (`umbilical vein oxygenated blood`; `umbilical artery deoxygenated blood`) | new — TBD |
+| Protective functions of amniotic fluid (`amniotic fluid protection`; `amniotic fluid`) | live-hit; already triaged |
+| Placental endocrine secretion (`placental endocrine secretion`; `placenta hormones`) | new — TBD |
+| Gamete genetic contribution to fertilization (`gamete genetic material`; `sperm egg genetic material`) | new — TBD |
+| Fetal cardiac pumping function (`fetal heart pump blood`; `fetal cardiac function`) | new — TBD |
+| Maternal blood supply in pregnancy (`maternal blood supply pregnancy`; `maternal placental circulation`) | new — TBD |
+| Fetal-lung function (`fetal lung oxygenation`; `fetal lungs function`) | new — TBD |
+| Fetal-kidney waste removal (`fetal kidney waste removal`; `fetal renal function`) | new — TBD |
+| Fetal-liver metabolic function (`fetal liver metabolism`; `fetal hepatic function`) | new — TBD |
+| Fetal-brain control of body functions (`fetal brain body functions`; `fetal brain function`) | new — TBD |
+
+At source-concept level this family is live 12 / pending 6 / new 23.  After cross-source deduplication, its cumulative delta is live 7 / pending 3 / new 20.  No module ID, content record, or placement was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources: 2026 duplicate family + Anatomy EOM Fall 2025 + Fall 2023–2024 answered duplicate family + General Embryology final-night/Fall final 2025 family + SOLO final Anatomy family) | 215 | 186 | 123 | 39 | 31 | 53 | TBD |
+
+**Observed delta:** +50 questions, +50 printed keys, +41 source-distinct tested concepts / +30 after cross-source deduplication.  The cumulative search buckets reconcile exactly: `39 + 31 + 53 = 123`; no module ID, content record, or placement was created.
+
+## Remaining sources / blocker — after SOLO final Anatomy family
+
+**Remaining file list:** 106 selected inventory paths / 100 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `226fc42be94f6b996c8134be81601e7696133184b5b6af0a290dec39416b8918`.  It contains 61 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 106 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.

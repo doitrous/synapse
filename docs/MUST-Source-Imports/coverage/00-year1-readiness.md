@@ -12,7 +12,7 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 
 ## FHB 101 S1 checkpoint status
 
-**`checkpointed-incomplete`.** The completed read-only sources now yield 165 questions, 136 printed keys, and 93 tested concepts (32 live-hit / 28 pending-hit / 33 new, all placement TBD). The Fall 2025 Anatomy EOM written final added three printed question/answer pairs and one newly distinct concept; the Fall 2023–2024 answered final-revision duplicate added 48 printed question/key pairs and 27 newly distinct concepts; and the General Embryology final-night/Fall-final family added 78 printed questions, 77 printed keys (Q27 is explicitly marked wrong, so no answer was inferred), and 29 newly distinct concepts after cross-source deduplication. The remaining source set is 108 inventory rows and the exact 102 SHA-256 values below. Its sorted-newline set checksum is `3084eb6d68a52f0d4954d50f0f5b9c23b0e17dcedcf2da2abb3894254cc7e1ca`; it excludes the completed 2026 duplicate-family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95`, Fall 2025 Anatomy EOM hash `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec`, Fall 2023–2024 answered-final-revision hash `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f`, and General Embryology hash `3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
+**`checkpointed-incomplete`.** The completed read-only sources now yield 215 questions, 186 printed keys, and 123 tested concepts (39 live-hit / 31 pending-hit / 53 new, all placement TBD). The Fall 2025 Anatomy EOM written final added three printed question/answer pairs and one newly distinct concept; the Fall 2023–2024 answered final-revision duplicate added 48 printed question/key pairs and 27 newly distinct concepts; the General Embryology final-night/Fall-final family added 78 printed questions, 77 printed keys (Q27 is explicitly marked wrong, so no answer was inferred), and 29 newly distinct concepts; and the SOLO final Anatomy clean-test/answered family added 50 printed question/key pairs and 30 newly distinct concepts after cross-source deduplication. The remaining source set is 106 inventory rows and the exact 100 SHA-256 values below. Its sorted-newline set checksum is `226fc42be94f6b996c8134be81601e7696133184b5b6af0a290dec39416b8918`; it excludes the completed 2026 duplicate-family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95`, Fall 2025 Anatomy EOM hash `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec`, Fall 2023–2024 answered-final-revision hash `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f`, General Embryology hash `3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a`, and SOLO hashes `e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb` / `5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
 
 ```text
 001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b
@@ -49,7 +49,6 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 4b0c3b7ff8eef46a863234bb64b49154355991d4b32bb2e1b721011f7d2c05a0
 545c5a3a4537d35c2e8228f261dfb48f87ea216c6cc89c016c603d0062a2d916
 5582d9ca8f95ba200f9f2b6d68895ea51e2bd2b90be14158cbd1656542a7b5f2
-5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56
 56137b8483844ab6aa52d12ee164beaac03207d97195414019bf70a4350dfeb4
 5a363e2f09c2b2ac7d13d5a29adf9a6a0d1e97dfe70f74f885529285516aaf76
 5a481cad54731aef1bb2f12273e62a9c7d0d8273803aff5fdc3168d90be7df4e
@@ -109,7 +108,6 @@ d6c7f6be8d5066df575221ff5f3c7903d2c5204b2fddd81481fbd383a1d14100
 d738a7058cf60ce6456496a9d92ff33842e5cfd27693963a85079a2615ce151d
 d9a07518aecda26323373d582d437e0b854a0bcf083cf21a730ab0aa2e266f06
 e2d3f6426b89f38d130b179e138641cbb15690fae6ce53cead26c20d7fdb74fb
-e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb
 e6d0c5242f043d70b60c979dea0131e737be9e959db553a23adf38718f6246af
 ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af
 ef667f30ba5e438969644df9f48cabcd7f573988fe5c360afcb06d36b681e045
