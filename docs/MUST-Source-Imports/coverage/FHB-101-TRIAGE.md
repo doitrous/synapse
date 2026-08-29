@@ -1902,3 +1902,56 @@ At source-concept search level the results are live 2 / pending 2 / new 6.  Afte
 **Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **84 selected inventory paths / 80 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `61cd0a41df2974cadaa800df96f68c373089fa8ce010c0360445d5d8e0b61cdb`.  By the pinned triage text classification, the remaining debt is **41 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `26 + 80 = 106` selected unique hashes.
 
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 84 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Anatomy FHB101 training-question family
+
+The asserted starting remaining-hash checksum `61cd0a41df2974cadaa800df96f68c373089fa8ce010c0360445d5d8e0b61cdb` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 80 hashes before this pass.  The next evidence-ranked substantive local source is the three-page Anatomy FHB101 training-question paper.  All three pages were rendered and read.  Its heading `Check questions`, numbered blank-response format, and department/module heading establish an **assessment** source, not lecture or practical-teaching material.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Anatomy | `08 Midterm Exams` | `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/FHB101_Training_Questions.pdf` | `814bbedd8906d5c163797afbf65ccc4bf49b9698a278a2e9fa78f8596fc26d24` | 3 | 44 | 0 |
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+| Printed prompt refs | Printed key / answer | Source-distinct tested concept | Search and prior-FHB deduplication result |
+|---|---|---|---|
+| 1 | None printed | Osteogenesis / bone formation | `bone formation` is pending-hit; no prior-FHB assignment covers the printed definition, so this is a pending addition. |
+| 2–6 | None printed | Developing long-bone regions, cavities, membranes, and growth | The developing long-bone prompts explicitly form one structure/growth family.  Both search phrases returned no current record; no prior-FHB assignment covers it, so it is a new addition. |
+| 7–14 | None printed | Anatomical movements and directions | Flexion/extension, abduction/adduction, rotations, and protraction/retraction are one explicit movement-terminology family.  Both search phrases returned no current record; this is a new addition. |
+| 15 | None printed | Prime mover (agonist) muscle | Both search phrases returned no current record; this is a new addition. |
+| 16 | None printed | Intervertebral cartilaginous joints | Both search phrases returned no current record; this is a new addition. |
+| 17 | None printed | Articular hyaline cartilage | `articular cartilage` is pending-hit; no prior-FHB assignment covers the printed surface-cartilage target, so it is a pending addition. |
+| 18–20 | None printed | Synovial-joint cavity, membrane, and capsule | The three stated components are one joint-structure family.  Both search phrases returned no current record; this is a new addition. |
+| 21–22 | None printed | Spinal-cord grey-matter horns | Posterior/anterior and thoracic horn prompts collapse as one regional grey-matter organisation concept.  Both searches returned no current record; this is a new addition. |
+| 23 | None printed | Neurons as specialised nervous-system cells | Both search phrases returned no current record; this is a new addition. |
+| 24 | None printed | Central and peripheral divisions of the nervous system | Both search phrases returned no current record; this is a new addition. |
+| 25–26 | None printed | Fetal and maternal placental surfaces/components | Both searches returned no current record, but prior FHB already assigns placental fetal/maternal components; this is a prior-FHB duplicate. |
+| 27–29 | None printed | Normal and abnormal implantation locations | Normal site, tubal ectopic implantation, and placenta praevia form one location family.  Both searches returned no current record; prior FHB already assigns implantation site, ectopic pregnancy, and placenta praevia. |
+| 30–31, 44–45 | None printed | Gastrulation: epiblast, primitive streak, and germ-layer formation | The four prompts explicitly form one developmental sequence.  Both searches returned no current record; the epiblast/gastrulation/primitive-streak family is already triaged in FHB. |
+| 32 | None printed | Notochord remnant / nucleus pulposus | Both search phrases returned no current record; this exact derivative is already triaged in FHB. |
+| 33, 43 | None printed | Chorionic-villus developmental stages and chorion formation | The two villus-timing prompts collapse.  `chorionic villi` is live-hit and `tertiary villi` is pending-hit; this developmental-stage family is not a prior-FHB assignment, so it is a live addition. |
+| 34 | None printed | Completion of implantation at day 10 | Both search phrases returned no current record; prior FHB already assigns implantation timing/process, so this is a duplicate. |
+| 35 | None printed | Primordial-germ-cell origin from the umbilical vesicle | Both search phrases returned no current record; this is already triaged in FHB. |
+| 36–37 | None printed | Inner and outer cell masses of the morula | The paired inner/outer-cell-mass prompts collapse.  Both search phrases returned no current record; this is a new addition. |
+| 39 | None printed | Gametogenesis | `gametogenesis` is pending-hit; it is already triaged in FHB. |
+| 40 | None printed | Fertilisation | `fertilization` is live-hit; it is already triaged in FHB. |
+| 41 | None printed | Implantation process | `implantation` is live-hit; it is already triaged in FHB. |
+| 42 | None printed | Cleavage | `cleavage` is pending-hit; it is already triaged in FHB. |
+
+Page 1 prints Q1–12 (12 prompts), page 2 prints Q13–29 (17), and page 3 prints Q30–37 and Q39–45 (15); Q38 is absent from the printed sequence and was not inferred.  The exact arithmetic is `12 + 17 + 15 = 44` prompts and **0** printed keys / answers.  The assignment and search ledgers reconcile one-to-one at **22 named concepts ↔ 22 search rows**.  The explicit source-level collapses are Q2–6, Q7–14, Q18–20, Q21–22, Q25–26, Q27–29, Q30–31/44–45, Q33/43, and Q36–37; all other prompt rows remain separately assigned.
+
+At source-concept search level the results are live 3 / pending 4 / new 15.  After prior-FHB deduplication, osteogenesis, long-bone development, movement terminology, prime mover, intervertebral cartilaginous joints, articular cartilage, synovial-joint structure, spinal-cord horns, neurons, nervous-system divisions, chorionic-villus development, and inner/outer morula cell masses remain distinct.  The cumulative delta is **live 1 / pending 2 / new 9**, or **+12** concepts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the Anatomy FHB101 training-question family) | 1024 | 789 | 284 | 62 | 67 | 155 | TBD |
+
+**Completed-source delta:** `+44` questions, `+0` printed keys / answers, `+22` source-distinct tested concepts / `+12` after source-level collapse and prior-FHB deduplication.  The cumulative search buckets reconcile exactly: `62 + 67 + 155 = 284`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Anatomy FHB101 training-question family
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique hash leaves **83 selected inventory paths / 79 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `a8d1a7d1aebc51d2f677145d9f4e92bebf1473385e94827655a038b11e04654e`.  By the pinned triage text classification, the remaining debt is **40 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `27 + 79 = 106` selected unique hashes.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 83 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
