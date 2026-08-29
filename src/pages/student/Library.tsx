@@ -618,7 +618,7 @@ function PersonalTagStrip({
         {tags.map((tag) => (
           <span
             key={tag}
-            className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong"
+            className="inline-flex items-center gap-1 rounded-md border border-primary-line bg-primary-tint py-0.5 pe-1.5 ps-2.5 text-[12px] font-medium text-primary-strong"
           >
             {tag}
             <button
@@ -641,7 +641,7 @@ function PersonalTagStrip({
           }}
           placeholder={t('Add a tag…')}
           aria-label={`${t('Add a tag…')} ${articleId}`}
-          className="h-7 min-w-[7rem] rounded-full border border-line bg-surface px-3 text-[12px] text-ink focus:border-primary focus:outline-none"
+          className="h-7 min-w-[7rem] rounded-md border border-line bg-surface px-3 text-[12px] text-ink focus:border-primary focus:outline-none"
         />
       </div>
       {suggestions.length > 0 && (
@@ -651,7 +651,7 @@ function PersonalTagStrip({
             <button
               key={tag}
               onClick={() => add(tag)}
-              className="rounded-full border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong"
+              className="rounded-md border border-line bg-surface px-2.5 py-0.5 text-[12px] text-ink-2 hover:border-primary-line hover:bg-primary-tint/40 hover:text-primary-strong"
             >
               + {tag}
             </button>

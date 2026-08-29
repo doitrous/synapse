@@ -11,6 +11,7 @@ import { useMediaRecords } from '@/lib/useMediaRecords'
 import { getSubject } from '@/data/subjects'
 import { cn } from '@/lib/cn'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import { answerPercentages, type AnswerDistribution } from '@/data/answerDistribution'
 
 /**
  * A question as it is put to a student — the same one everywhere.
@@ -39,6 +40,7 @@ export function QuestionView({
   revealed,
   correctIndex,
   onChoose,
+  distribution,
 }: {
   question: Question
   /** The option this student picked, or null before they have. */
@@ -51,11 +53,20 @@ export function QuestionView({
    */
   correctIndex?: number
   onChoose: (index: number) => void
+  /**
+   * The peer answer breakdown for this question, once revealed. Fetched by the
+   * caller (via `useAnswerDistribution`) and passed in — this component stays
+   * presentational and never fetches for itself. Absent, null, or ineligible
+   * all render exactly as if the feature did not exist.
+   */
+  distribution?: AnswerDistribution | null
 }) {
   const mediaRecords = useMediaRecords()
   const answer = correctIndex ?? question.options.findIndex((option) => option.correct)
   const highlights = useQuestionHighlights(question.id)
   const containerRef = useRef<HTMLDivElement>(null)
+  const showStats = revealed && Boolean(distribution?.eligible) && Boolean(distribution?.counts)
+  const percentages = showStats ? answerPercentages(distribution!.counts!, distribution!.total) : null
 
   function optionClasses(index: number): string {
     if (!revealed) {
@@ -131,6 +142,20 @@ export function QuestionView({
                 {revealed && (
                   <PlacedMedia placements={placementsFor(question.media, 'explanation', LETTERS[index])} records={mediaRecords} />
                 )}
+                {percentages && (
+                  <span className="mt-2 flex items-center gap-2">
+                    <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-inset">
+                      <span
+                        className={cn(
+                          'block h-full rounded-full',
+                          index === answer ? 'bg-success' : chosen === index ? 'bg-danger' : 'bg-line-2',
+                        )}
+                        style={{ width: `${percentages[index] ?? 0}%` }}
+                      />
+                    </span>
+                    <span className="tnum w-9 shrink-0 text-end font-mono text-[11px] text-ink-3">{percentages[index] ?? 0}%</span>
+                  </span>
+                )}
               </span>
             </>
           )
@@ -155,6 +180,9 @@ export function QuestionView({
           )
         })}
       </div>
+      {showStats && (
+        <p className="mt-2 text-[11px] text-ink-3">Based on {distribution!.total} students in your year</p>
+      )}
 
       {/* Explanation media lives here rather than beside each caller's own
           explanation text, because six surfaces render QuestionView and only

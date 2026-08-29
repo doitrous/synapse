@@ -76,6 +76,8 @@ import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashca
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 import { useImmersion } from '@/components/shell/ImmersionContext'
+import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
+import { answerPercentages } from '@/data/answerDistribution'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
@@ -734,6 +736,13 @@ export function QuestionBank() {
   const [checked, setChecked] = useState<Record<string, boolean>>({})
   const [reviewing, setReviewing] = useState(false)
   const [submitted, setSubmitted] = useState(false)
+  // Peer answer breakdown for whatever question is currently on screen. Same
+  // unconditional-hook reasoning as `highlights` above: outside the running
+  // phase this resolves to a null id and the hook simply returns null.
+  const distribution = useAnswerDistribution(
+    session[idx]?.id ?? null,
+    reviewing || (mode === 'tutor' && Boolean(checked[session[idx]?.id ?? ''])),
+  )
   // Sitting a test is the one thing here that wants the width, and the one
   // thing a student should not have to tidy the screen for first.
   const { setImmersive } = useImmersion()
@@ -1804,6 +1813,10 @@ export function QuestionBank() {
   // a student who was still working.
   const revealed = reviewing || (mode === 'tutor' && Boolean(checked[q.id]))
   const chosen = answers[q.id]
+  // `distribution` was fetched above for `session[idx]?.id`, which is this
+  // same `q` by construction — see the unconditional hook call near the top.
+  const showStats = revealed && Boolean(distribution?.eligible) && Boolean(distribution?.counts)
+  const percentages = showStats ? answerPercentages(distribution!.counts!, distribution!.total) : null
   const last = idx === session.length - 1
   const correctRationale = q.options.find((option) => option.correct)?.rationale.trim() ?? ''
   // The importer copies the correct option's explanation into `Explanation`, so on
@@ -2120,6 +2133,20 @@ export function QuestionBank() {
                         {badge}
                         <div className="min-w-0 flex-1">
                           {text}
+                          {percentages && (
+                            <span className="mt-2 flex items-center gap-2">
+                              <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-inset">
+                                <span
+                                  className={cn(
+                                    'block h-full rounded-full',
+                                    opt.correct ? 'bg-success' : chosen === i ? 'bg-danger' : 'bg-line-2',
+                                  )}
+                                  style={{ width: `${percentages[i] ?? 0}%` }}
+                                />
+                              </span>
+                              <span className="tnum w-9 shrink-0 text-end font-mono text-[11px] text-ink-3">{percentages[i] ?? 0}%</span>
+                            </span>
+                          )}
                           {/* Split view carries this same rationale in the
                               answer-area column instead, so it is not shown
                               twice. */}
@@ -2183,6 +2210,9 @@ export function QuestionBank() {
                 )
               })}
             </div>
+            {showStats && (
+              <p className="mt-2 text-[11px] text-ink-3">{t('Based on')} {distribution!.total} {t('students in your year')}</p>
+            )}
 
             {revealed && (
               <div className="mt-5 flex justify-end">

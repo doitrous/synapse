@@ -28,7 +28,7 @@ export function ActiveFilterChips({
           key={chip.key}
           type="button"
           onClick={chip.onRemove}
-          className="inline-flex h-9 items-center gap-1.5 rounded-full border border-primary-line bg-primary-tint ps-3 pe-2 text-[12px] font-medium text-primary-strong transition-colors hover:bg-primary-tint/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] sm:h-7"
+          className="inline-flex h-9 items-center gap-1.5 rounded-md border border-primary-line bg-primary-tint ps-3 pe-2 text-[12px] font-medium text-primary-strong transition-colors hover:bg-primary-tint/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] sm:h-7"
         >
           <span className="max-w-48 truncate">{chip.label}</span>
           <Icon icon={X} size={12} />

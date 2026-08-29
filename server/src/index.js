@@ -68,6 +68,7 @@ import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
 import { qotdToday, recordQotdAnswer, qotdLeaderboard, qotdFriends } from './qotd.js'
 import { startQotdReminderScheduler } from './qotdReminders.js'
 import { setMailer } from './qotdReminderEmail.js'
+import { answerDistributionFor } from './answerDistribution.js'
 import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
 import { activityTrackingSummary } from './studyTrackingAdmin.js'
 import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
@@ -828,6 +829,12 @@ app.get('/api/pricing/quote', wrap(async (req, res) => {
 
 app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
   const result = await recordVerifiedAttempts(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(result.error === 'profile_incomplete' ? 409 : 400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/qbank/answer-distribution', requireAuthenticated, wrap(async (req, res) => {
+  const result = await answerDistributionFor(req.identity.id, req.body?.questionIds ?? [])
   if (result.error) return res.status(result.error === 'profile_incomplete' ? 409 : 400).json(result)
   res.json(result)
 }))
