@@ -647,3 +647,81 @@ The 100 questions collapse to 72 source-distinct tested concepts.  Twenty reprod
 **Remaining file list:** 102 selected inventory paths / 97 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `4b16c89641807c8b7d6432125f8fb25bdad96ec23c5a35e841e15ffc3928475c`.  By the pinned triage text classification, it contains 57 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 102 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — Physiology night-final 2026 highlighted-answer family
+
+The asserted starting remaining-hash checksum `4b16c89641807c8b7d6432125f8fb25bdad96ec23c5a35e841e15ffc3928475c` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 97 hashes before this pass.  The next evidence-ranked unread substantive `06 EOM Exams` source is the seven-page 2026 night-final paper.  All seven pages were rendered and read.  Yellow highlighting marks the printed MCQ answer options; every MCQ key below is transcribed from that highlighting.  The page-five to page-seven written prompts carry their printed model answers on the same pages.  No key was inferred or medically corrected.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed questions read | Printed keys / answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Physiology/06 EOM Exams/EOM MCQs - Night exam physio 101 final 2026.pdf` | `5a363e2f09c2b2ac7d13d5a29adf9a6a0d1e97dfe70f74f885529285516aaf76` | 7 | 29 | 29 |
+
+### Printed-question / key ledger
+
+The paper repeats printed number `11` for absolute and relative refractory periods and repeats printed number `13` for local anaesthesia and myosin ATPase.  Both visible prompts are distinct source references.  The curve's nine labels are the printed answer to one page-five prompt, not nine extra prompts.
+
+| Source ref | Printed question read | Directly aligned printed key / answer (transcribed only) | Assigned tested concept |
+|---|---|---|---|
+| P1-Q1 | Resting potential of a type-B nerve fibre measured by CRO | `b. –70` | Resting membrane potential: value, fibre type, and causes |
+| P1-Q2 | Definition of chronaxie | `b. Duration needed … at double rheobase (2R)` | Chronaxie |
+| P1-Q3 | Nerve-fibre type most sensitive to hypoxia | `c. B` | Hypoxia effects on nerve fibres and excitability |
+| P1-Q4 | Normal nerve membrane potential | `c. 105` | Resting membrane potential: value, fibre type, and causes |
+| P1-Q5 | Hypoxia and nerve excitability | `b. decrease in excitability` | Hypoxia effects on nerve fibres and excitability |
+| P2-Q6 | Increased calcium at nerve gates: membrane potential and excitability | `b. decreases, increases` | Ionic modulation of nerve membrane potential and excitability |
+| P2-Q7 | Increased extracellular potassium: membrane potential and excitability | `a. increases, decreases` | Ionic modulation of nerve membrane potential and excitability |
+| P2-Q8 | Increased extracellular potassium with potassium influx | `b. decreases, increases` | Ionic modulation of nerve membrane potential and excitability |
+| P2-Q9 | Increased intracellular potassium with potassium efflux | `a. increases, decreases` | Ionic modulation of nerve membrane potential and excitability |
+| P2-Q10 | Increased intracellular potassium: membrane potential and excitability | `b. decreases, increases` | Ionic modulation of nerve membrane potential and excitability |
+| P3-Q11a | Absolute refractory period: stimulus capable of excitation | `e. No stimuli whatever the strength` | Absolute and relative refractory periods, including anodal block |
+| P3-Q11b | Relative refractory period: stimulus capable of excitation | `c. Supra-threshold` | Absolute and relative refractory periods, including anodal block |
+| P3-Q12 | States not stimulated by maximal suprathreshold current | `e. Both A and B` | Absolute and relative refractory periods, including anodal block |
+| P3-Q13a | Local anaesthesia mechanism | `a. Na+ stabilization through increasing the positive charges outside the nerve, so membrane potential increases and excitability decreases` | Local-anaesthetic sodium stabilisation |
+| P4-Q13b | Muscle component with ATPase activity | `a. Myosin head` | Skeletal-muscle excitation–contraction coupling and cross-bridge cycling |
+| P4-Q14 | Conduction in an unmyelinated fibre | `a. Sweeping conduction` | Continuous conduction in an unmyelinated nerve fibre |
+| P4-Q15 | Calcium-binding component during contraction | `a. troponin C` | Skeletal-muscle excitation–contraction coupling and cross-bridge cycling |
+| P4-Q16 | Tropomyosin function during contraction | `a. prevent binding of myosin to Actin` | Skeletal-muscle excitation–contraction coupling and cross-bridge cycling |
+| P4-Q17 | Route of muscle action-potential entry | `a. T-Tubule` | Skeletal-muscle excitation–contraction coupling and cross-bridge cycling |
+| P4-Q18 | Motor-end-plate neurotransmitter | `a. Acetylcholine` | Neuromuscular transmission |
+| P4-Q19 | Basis of myasthenia-gravis symptoms | `a. Autoimmune response` | Myasthenia gravis: autoimmune mechanism and anticholinesterase relief |
+| P4-Q20 | Drug likely to alleviate myasthenia-gravis symptoms | `c. Prostigmine` | Myasthenia gravis: autoimmune mechanism and anticholinesterase relief |
+| P5-W1 | Enumerate points numbered in the action-potential curve | `1 stimulus artifact; 2 latent period; 3 gradual depolarization; 4 rapid depolarization; 5 repolarization; 6 overshooting; 7 negative after potential; 8 hyper polarization; 9 firing level` | Action-potential waveform landmarks and phases |
+| P5-W2 | Define chronaxie | `Minimum time required for a stimulus of double the rheobase strength to excite a tissue` | Chronaxie |
+| P5-W3 | Mention causes of RMP | `Selective permeability; Na–K ATPase pump` | Resting membrane potential: value, fibre type, and causes |
+| P5-W4 | Write down mechanism of neuromuscular transmission | Printed sequence: nerve impulse → terminal Ca2+ entry → acetylcholine release → nicotinic receptor/end-plate potential → cholinesterase hydrolysis | Neuromuscular transmission |
+| P6-W5 | Explain mechanism of muscle contraction | Printed sequence: end-plate potential/action potential → T-tubules/SR Ca2+ release → troponin C/tropomyosin → cross-bridge cycling and relaxation | Skeletal-muscle excitation–contraction coupling and cross-bridge cycling |
+| P7-W6 | Phases of action potential | `1 latent period; 2 depolarization; 3 repolarization; 4 hyperpolarization` | Action-potential waveform landmarks and phases |
+| P7-W7 | Absolute refractory period versus relative refractory period | Printed ARP/RRP comparison table | Absolute and relative refractory periods, including anodal block |
+
+### Tested-concept search ledger — Physiology night-final 2026 family
+
+Each source-distinct concept was searched through the manual tool using both phrases shown, across live state and every pending import root.  A live result takes precedence over pending.  There is no cross-source duplicate in this family against the completed FHB ledger.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Resting membrane potential: value, fibre type, and causes (`resting membrane potential nerve fiber`; `resting membrane potential`) | live-hit |
+| Chronaxie (`chronaxie`; `strength duration curve`) | live-hit |
+| Hypoxia effects on nerve fibres and excitability (`nerve fiber hypoxia`; `nerve excitability hypoxia`) | new — TBD |
+| Ionic modulation of nerve membrane potential and excitability (`calcium nerve excitability`; `potassium membrane potential`) | new — TBD |
+| Absolute and relative refractory periods, including anodal block (`absolute refractory period`; `relative refractory period`) | pending-hit |
+| Local-anaesthetic sodium stabilisation (`local anaesthesia nerve membrane`; `sodium stabilisation`) | new — TBD |
+| Skeletal-muscle excitation–contraction coupling and cross-bridge cycling (`excitation contraction coupling`; `troponin C`) | pending-hit |
+| Continuous conduction in an unmyelinated nerve fibre (`unmyelinated conduction`; `continuous conduction`) | pending-hit |
+| Neuromuscular transmission (`neuromuscular transmission`; `acetylcholine motor end plate`) | live-hit |
+| Myasthenia gravis: autoimmune mechanism and anticholinesterase relief (`myasthenia gravis`; `Prostigmine myasthenia`) | pending-hit |
+| Action-potential waveform landmarks and phases (`action potential phases`; `depolarization repolarization`) | new — TBD |
+
+At source-concept level this family is live 3 / pending 4 / new 4.  The 29 printed questions collapse to 11 source-distinct tested concepts, so its cumulative delta is also live 3 / pending 4 / new 4.  No module ID, content record, placement, source, or catalogue entry was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Physiology night-final 2026 family) | 355 | 326 | 195 | 56 | 57 | 82 | TBD |
+
+**Observed delta:** +29 questions, +29 printed keys/answers, +11 source-distinct tested concepts / +11 after cross-source deduplication.  The cumulative search buckets reconcile exactly: `56 + 57 + 82 = 195`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology night-final 2026 family
+
+**Remaining file list:** 101 selected inventory paths / 96 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `214570ae28dbef1ba4e2ff6e580e3f27dd0f5e4dee0fb522bd71d20b8fe9c938`.  By the pinned triage text classification, it contains 56 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 101 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
