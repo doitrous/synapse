@@ -66,5 +66,6 @@ class RetrofitSynapseApiTest {
         val request = server.takeRequest()
         assertEquals("PUT", request.method)
         assertTrue(request.path!!.contains("user-state/synapse.notebook.notes"))
+        assertTrue(request.body.readUtf8().contains("\"x\""))  // the serialized StateDoc body
     }
 }
