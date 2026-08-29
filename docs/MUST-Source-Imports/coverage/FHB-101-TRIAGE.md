@@ -464,3 +464,66 @@ At source-concept level this family is live 12 / pending 6 / new 23.  After cros
 **Remaining file list:** 106 selected inventory paths / 100 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `226fc42be94f6b996c8134be81601e7696133184b5b6af0a290dec39416b8918`.  It contains 61 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 106 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable evidence snapshot and literal `TRIAGE APPROVED` gate remain absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — Histology final written / expected-answer family
+
+The asserted starting remaining-hash checksum `226fc42be94f6b996c8134be81601e7696133184b5b6af0a290dec39416b8918` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 100 hashes before this pass.  Its pinned triage text classification was 61 substantive-text, six sparse-text, and 39 empty-text rows across 106 inventory paths.  The next evidence-ranked unread substantive `06 EOM Exams` family is the bounded Histology final-written paper: a two-page clean question sheet plus a three-page expected-answer version (also held at one exact-duplicate path).  All five pages of the two unique documents were rendered and read.  The answered document prints the same eleven prompts and their model answers; no answer was inferred, corrected, or supplied from outside the family.
+
+| Inventory source path | SHA-256 | Pages | Printed questions read | Printed answers recovered |
+|---|---|---:|---:|---:|
+| `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - Histology 101 final written.pdf` | `14aca09deac964563bef09fe2f12b651db40c7d789bad98527d56f90d74f8668` | 2 | 11 | — |
+| `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - Histology 101 final written-1.pdf`; `_Exact Duplicates/Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - Histology 101 final written (Answers).pdf` | `441ea28e2179fa0488d8afed03d595aae31e97087607c13d16c929fe0db62906` | 3 | duplicate questions | 11 |
+
+The second row is one byte-identical answer document represented by two inventory paths; it is counted once.  The clean document confirms all eleven prompts, while the answer document is the printed-key evidence.
+
+### Question/key assignment ledger
+
+| Q | Printed question read | Printed answer recovered (transcribed only) | Assigned tested concept |
+|---:|---|---|---|
+| 1 | `List three general characteristics of the epithelial tissue.` | All germ layers; surface/cavity covering; basement-membrane attachment; avascular but innervated; highly regenerative. | General characteristics of epithelial tissue |
+| 2 | `Comment on myoepithelium and neuroepithelium.` | Myoepithelial cells are contractile actin/myosin-containing cells between secretory cells and their basement membrane that squeeze secretion into ducts; neuroepithelial cells are sensory receptors, with taste buds and organ of Corti printed as examples. | Myoepithelium and sensory neuroepithelium |
+| 3 | `Define telomeres and explain their influence on the chromosome’s structure.` | Repeated non-coding sequence at chromosome ends; protects and stabilises against destruction/fusion; printed text also says it limits cell division and has a role in ageing, ending with the incomplete phrase `and can`. | Telomeres and chromosome-end protection |
+| 4 | `Comment briefly on the Barr body.` | Dark chromatin mass at the inner nuclear envelope in female-cell nuclei/drumstick-like in female neutrophils; represents the inactive coiled X chromosome while the other X is active. | Barr body (sex chromatin) |
+| 5 | `Compare between mitosis and meiosis` | Printed table contrasts somatic/germ cells, one/two divisions and stages, absent/present crossing over, interphase S phase, and two identical diploid/four varied haploid daughter cells. | Mitosis versus meiosis |
+| 6 | `Compare between necrosis and apoptosis.` | Printed table contrasts pathological injury-associated necrosis with programmed cell death, and their nuclear changes, light-microscopy appearance, and fate. | Necrosis versus apoptosis |
+| 7 | `Compare between euploidy and aneuploidy` | Printed table contrasts added haploid sets with gain/loss of one chromosome, causes, and listed triploidy/tetraploidy versus trisomy/monosomy examples. | Euploidy versus aneuploidy |
+| 8 | `Mention the chromosomal aberrations (numerical and structural)` | Numerical table names euploidy, aneuploidy, and mosaicism; printed structural list is deletion, translocation, inversion, ring chromosome, isochromosomes, and duplication. | Numerical and structural chromosomal aberrations |
+| 9 | `Compare between sER and rER` | Printed table contrasts protein-forming/basophilic ribosome-bearing parallel rER with lipid-forming/acidophilic ribosome-free anastomosing sER, including their listed functions. | Smooth versus rough endoplasmic reticulum |
+| 10 | `Comment on mitochondria` | Location in active cell regions; listed light/electron-microscopy features, double membranes/cristae/matrix, ATP generation by oxidative phosphorylation, protein formation, and self-replication. | Mitochondrial structure and functions |
+| 11 | `Comment on ribosomes` | Non-membranous electron-dense organelles of rRNA/protein; printed structure, basophilia, small/large subunits, free/polyribosome forms, and rER attachment through ribophorins. | Ribosome structure and forms |
+
+The eleven questions yield eleven source-distinct tested concepts.  Two are already represented in the completed FHB ledger: the specialised epithelial-cell prompt covers the prior myoepithelial and sensory-neuroepithelium concepts, and the chromosomal-aberration prompt covers the earlier structural-chromosomal-abnormality concept.  This family therefore adds nine cumulative distinct concepts.
+
+### Tested-concept search ledger — Histology final-written family
+
+Each source-distinct concept was searched with the manual tool using both listed phrases.  `pending-hit` records the tool's current result; the two cross-source duplicates add no new cumulative bucket even where their earlier FHB record carried a different historical classification.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| General characteristics of epithelial tissue (`epithelial tissue`; `basement membrane epithelium`) | pending-hit |
+| Myoepithelium and sensory neuroepithelium (`myoepithelium`; `neuroepithelium`) | pending-hit; already triaged through the FHB myoepithelial and organ-of-Corti/neuroepithelium concepts |
+| Telomeres and chromosome-end protection (`telomeres`; `chromosome ends`) | pending-hit |
+| Barr body (sex chromatin) (`Barr body`; `sex chromatin`) | pending-hit |
+| Mitosis versus meiosis (`mitosis`; `meiosis`) | pending-hit |
+| Necrosis versus apoptosis (`necrosis`; `apoptosis`) | pending-hit |
+| Euploidy versus aneuploidy (`euploidy`; `aneuploidy`) | pending-hit |
+| Numerical and structural chromosomal aberrations (`chromosomal aberrations`; `structural chromosomal abnormalities`) | pending-hit; already triaged in FHB as the structural-chromosomal-abnormality concept |
+| Smooth versus rough endoplasmic reticulum (`smooth endoplasmic reticulum`; `rough endoplasmic reticulum`) | pending-hit |
+| Mitochondrial structure and functions (`mitochondria`; `mitochondrial structure`) | pending-hit |
+| Ribosome structure and forms (`ribosomes`; `ribosome structure`) | pending-hit |
+
+At source-concept level this family is live 0 / pending 11 / new 0.  After cross-source deduplication, its cumulative delta is live 0 / pending 9 / new 0.  No module ID, content record, or placement was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources: 2026 duplicate family + Anatomy EOM Fall 2025 + Fall 2023–2024 answered duplicate family + General Embryology final-night/Fall final 2025 family + SOLO final Anatomy family + Histology final-written family) | 226 | 197 | 132 | 39 | 40 | 53 | TBD |
+
+**Observed delta:** +11 questions, +11 printed answers, +11 source-distinct tested concepts / +9 after cross-source deduplication.  The cumulative search buckets reconcile exactly: `39 + 40 + 53 = 132`; no module ID, content record, or placement was created.
+
+## Remaining sources / blocker — after Histology final-written family
+
+**Remaining file list:** 103 selected inventory paths / 98 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `dbcea142ee933fda95f915ee8801a89ada6031098c0942e378097988d42bb6da`.  By the pinned triage text classification, it contains 58 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 103 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.

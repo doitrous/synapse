@@ -12,7 +12,7 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 
 ## FHB 101 S1 checkpoint status
 
-**`checkpointed-incomplete`.** The completed read-only sources now yield 215 questions, 186 printed keys, and 123 tested concepts (39 live-hit / 31 pending-hit / 53 new, all placement TBD). The Fall 2025 Anatomy EOM written final added three printed question/answer pairs and one newly distinct concept; the Fall 2023–2024 answered final-revision duplicate added 48 printed question/key pairs and 27 newly distinct concepts; the General Embryology final-night/Fall-final family added 78 printed questions, 77 printed keys (Q27 is explicitly marked wrong, so no answer was inferred), and 29 newly distinct concepts; and the SOLO final Anatomy clean-test/answered family added 50 printed question/key pairs and 30 newly distinct concepts after cross-source deduplication. The remaining source set is 106 inventory rows and the exact 100 SHA-256 values below. Its sorted-newline set checksum is `226fc42be94f6b996c8134be81601e7696133184b5b6af0a290dec39416b8918`; it excludes the completed 2026 duplicate-family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95`, Fall 2025 Anatomy EOM hash `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec`, Fall 2023–2024 answered-final-revision hash `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f`, General Embryology hash `3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a`, and SOLO hashes `e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb` / `5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
+**`checkpointed-incomplete`.** The completed read-only sources now yield 226 questions, 197 printed keys, and 132 tested concepts (39 live-hit / 40 pending-hit / 53 new, all placement TBD). The Fall 2025 Anatomy EOM written final added three printed question/answer pairs and one newly distinct concept; the Fall 2023–2024 answered final-revision duplicate added 48 printed question/key pairs and 27 newly distinct concepts; the General Embryology final-night/Fall-final family added 78 printed questions, 77 printed keys (Q27 is explicitly marked wrong, so no answer was inferred), and the SOLO final Anatomy clean-test/answered family added 50 printed question/key pairs and 30 newly distinct concepts after cross-source deduplication. The Histology final-written clean/printed-answer family added 11 printed question/key pairs and nine newly distinct concepts after cross-source deduplication. The remaining source set is 103 inventory rows and the exact 98 SHA-256 values below. Its sorted-newline set checksum is `dbcea142ee933fda95f915ee8801a89ada6031098c0942e378097988d42bb6da`; it excludes the completed 2026 duplicate-family hash `a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95`, Fall 2025 Anatomy EOM hash `a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec`, Fall 2023–2024 answered-final-revision hash `349ca7a6f8d6fb2622384456c8ecc03a3b8088c1cd09b8fd58d41af4eaa8b54f`, General Embryology hash `3185bf1cbb970c279afdc5bc0a36f9aef98fc50198a30619e940198105b08d6a`, SOLO hashes `e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb` / `5606f1829f2868ca94669174e185a385aebc3ba38c913b1921cfc769add2ed56`, and Histology final-written hashes `14aca09deac964563bef09fe2f12b651db40c7d789bad98527d56f90d74f8668` / `441ea28e2179fa0488d8afed03d595aae31e97087607c13d16c929fe0db62906` from the 106 selected unique hashes. Extraction debt within the remaining rows is 39 empty-text plus 6 sparse-text rows.
 
 ```text
 001c485cb1a8f9928c04a4390dbc920477f96285484f2dc4c7aeedd93dffa65b
@@ -23,7 +23,6 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 0fe5b1851c266615f551142b2824cb46e38a9b7c0359be8f671f80f994deec4f
 137b732d2192915c54a3b9b3b9fa245e48f991cabfd1d88c4212e279837e1c9b
 140d0fd692d7c58f752faf2b50169a3c006d42e1becc93641532b0f8e92cdef7
-14aca09deac964563bef09fe2f12b651db40c7d789bad98527d56f90d74f8668
 168c6d4fa11fc30119b28a38b3f4f68e788c0e08dc37aef12ea13eb3fc1acdd3
 19543c6669ea24693cf67555802a1d34a7330f621a05478a6af22d1abb938a16
 1cecd06ab3f64fc1fc58229fc82bae297af9f2b65d73040d67c11e0d7c14c2c4
@@ -42,7 +41,6 @@ The counter reads root evidence only; it does not copy, fetch, transform, import
 345d7475ddb0ac4653ec09742516bc8e4c76e697be3eea96cc578dd8a4a50f8b
 3617ee832b59ed14004cf501b2a502b27051b9b1d80ef5bdf3dd9bab4a7eff72
 4247d855313f6cdffdeaacb7cd2b12b2f7b33711d35c392720aaa8ceaedd6f93
-441ea28e2179fa0488d8afed03d595aae31e97087607c13d16c929fe0db62906
 448345893d693ac8a08fd21a6ca326bc19cd1e4e36a1b26a03fb1d43c3f4b5e1
 490caa766860aa63f08e52766335bc864d2c0c67a7010ae1cfbd701a2dcb851d
 492fc275403ca0435a94d678378c2c8d444248134d1a0621d7476952eab8db41
