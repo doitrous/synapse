@@ -153,10 +153,14 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   two handles are scope-proven pending and neither overlaps prior BMS evidence. Accepted F18
   adds the non-contiguous `General vir...` slides 7/21/28/33/39: 14 complete prompts, 0
   printed answers, 14 red unproven annotations and 13 handles after the inverse chronic/latent
-  pair collapse; it contributes 0/6/7 and +13 with no exact BMS overlap. The F12–18 auxiliary
-  checkpoint is 79 prompts/35 printed answers/79 retained/78 handles/+74 concepts and 44
-  annotations; all eligible evidence is 844/440/631/446. Next is `Lec3 sterili...` slide
-  41/42, retaining red ticks as checklist bullets rather than a key.
+  pair collapse; it contributes 0/6/7 and +13 with no exact BMS overlap. Accepted F19 is
+  `Lec3 sterili...` slide 41/42: 10 observed units, 9 complete unkeyed prompts, and one fully
+  visible source-incomplete item. Its 10 uniform red ticks are checklist bullets, not answers;
+  the 9 retained handles are 0/0/9 and add +9. The F12–19 auxiliary checkpoint is 89 observed
+  prompts/35 printed answers/88 retained/87 handles/+83 concepts, plus 44 annotations, 10
+  checklist bullets and one excluded incomplete unit; all eligible evidence is 854/440/640/455.
+  Next is tier-6 `src_e89478440e99a6b8a854` `Antimicrobial chemotherapy.pdf`, requiring a
+  provenance/study-bank and source-first dedupe gate before count extraction.
 
 ## HU-LCS-103 anatomy S1 family checkpoint
 

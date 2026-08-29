@@ -2831,3 +2831,94 @@ The final timestamped screenshot fragment is single-image `src_28b252c04e1daed17
 `2026-07-20 05.58.21.jpg`, visible as `Lec3 sterili...` slide 41 of 42 at 1280 × 768.
 Its repeated red ticks are checklist bullets beside every prompt, not answer marks; visible-only
 inventory must therefore treat the slide as unkeyed.
+
+## Family 19 — tier-6 auxiliary `Lec3 sterili...` slide-41 fragment
+
+### Source boundary and mark ruling
+
+| Manifest source | SHA-256 | Visible boundary | Raster |
+|---|---|---|---|
+| `src_28b252c04e1daed171e1` · `2026-07-20 05.58.21.jpg` | `28b252c04e1daed171e1c6469a27fc6133bf58119144f89d45f9bfcbb4eedd0f` | `Lec3 sterili...`, slide 41 of 42 | 1280 × 768 JPEG |
+
+The image was read at original resolution. It is one visible slide from a 42-slide deck; the
+other slides are not inferred. Ten numbered entries are visible. Nine are complete prompt units.
+Item 9 prints only `Kill all vegetative forms of bacteria, HBV and bacterial spores.` with no
+question instruction, true/false cue, subject, or blank. Its full line is visible, so this is a
+source-level incomplete fragment rather than an image crop; it is counted as one observed but
+incomplete prompt unit and excluded from retained/concept totals.
+
+The identical red tick preceding every numbered entry is a checklist bullet, including beside
+unanswered fill-ins and item 9. It does not select or supply any answer. Family 19 therefore has
+zero visible answer annotations and zero printed-answer occurrences.
+
+### Visible-prompt assignment, repeat, and incomplete ledger
+
+| Ref | Slide | Visible source unit | Completeness | Tested handle |
+|---|---:|---|---|---|
+| F19-Q01 | 41 | Define sterilization | complete unkeyed fill-in | `sterilization-definition` |
+| F19-Q02 | 41 | Differentiate disinfectant and antiseptic | complete unkeyed written prompt | `disinfectant-versus-antiseptic` |
+| F19-Q03 | 41 | True/false claim that autoclaving acts by oxidative destruction | complete unkeyed T/F | `autoclave-oxidative-destruction-claim` |
+| F19-Q04 | 41 | True/false claim that autoclaving is the most efficient sterilization method | complete unkeyed T/F | `autoclave-most-efficient-sterilization-claim` |
+| F19-Q05 | 41 | True/false claim that syringes, sterile gloves and catheters can be autoclaved | complete unkeyed T/F | `autoclave-suitability-syringes-gloves-catheters` |
+| F19-Q06 | 41 | Effect of double/triple atmospheric pressure on boiling point | complete unkeyed choice | `pressure-effect-on-water-boiling-point` |
+| F19-Q07 | 41 | True/false claim that plasma-gas sterilization is high-temperature | complete unkeyed T/F | `plasma-gas-sterilizer-temperature-classification` |
+| F19-Q08 | 41 | Define pasteurization | complete unkeyed fill-in | `pasteurization-definition` |
+| F19-Q09 | 41 | `Kill all vegetative forms of bacteria, HBV and bacterial spores.` | incomplete source fragment; no handle/search | — |
+| F19-Q10 | 41 | True/false claim that phenolics and chlorine/chlorine-releasing compounds can be skin antiseptics | complete unkeyed T/F | `phenolics-chlorine-skin-antiseptic-suitability` |
+
+The nine complete prompts test distinct definitions, mechanisms, equipment suitability, or
+physical/chemical properties. There are zero copy repeats and zero semantic collapses. The
+family therefore has ten observed units, one incomplete unit, nine retained records, and nine
+source-distinct tested handles. No truth value or missing answer is inferred from the red ticks.
+
+### Search-before-mint and prior-BMS-102 adjudication
+
+Each of the nine supported handles received four required searches: **36 required searches**
+across live state, all pending roots, and Families 1–18. Q09 has no source-supported handle and
+therefore no search row.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `sterilization-definition` · Q01 | `sterilization definition microbiology`; `complete destruction microorganisms spores`; `sterilization versus disinfection`; `microbial sterilization meaning` | new | none; auxiliary delta |
+| `disinfectant-versus-antiseptic` · Q02 | `disinfectant versus antiseptic`; `disinfectant inanimate antiseptic living tissue`; `difference disinfection antisepsis`; `chemical agent skin versus object` | new | none; Family-11's systemic disinfectant toxicity is different scope, so auxiliary delta |
+| `autoclave-oxidative-destruction-claim` · Q03 | `autoclave oxidative destruction false`; `autoclave moist heat protein denaturation`; `autoclave mechanism microorganisms`; `steam sterilization mechanism` | new | none; Family-13 tests time/temperature, not mechanism, so auxiliary delta |
+| `autoclave-most-efficient-sterilization-claim` · Q04 | `autoclave most efficient sterilization`; `steam under pressure efficiency`; `autoclave sterilization method comparison`; `most reliable sterilization method` | new | none; auxiliary delta |
+| `autoclave-suitability-syringes-gloves-catheters` · Q05 | `autoclave syringes sterile gloves catheters`; `heat sensitive equipment autoclave`; `materials unsuitable autoclaving`; `steam sterilization medical disposables` | new | none; auxiliary delta |
+| `pressure-effect-on-water-boiling-point` · Q06 | `pressure increases boiling point water`; `double atmospheric pressure autoclave boiling`; `steam pressure temperature relation`; `autoclave pressure boiling point` | new | none; auxiliary delta |
+| `plasma-gas-sterilizer-temperature-classification` · Q07 | `plasma gas sterilizer low temperature`; `hydrogen peroxide plasma high temperature false`; `plasma sterilization heat sensitive`; `gas plasma sterilizer temperature` | new | none; auxiliary delta |
+| `pasteurization-definition` · Q08 | `pasteurization definition microbiology`; `heat treatment reduce pathogens milk`; `pasteurization not sterilization`; `pasteurization temperature process` | new | none; auxiliary delta |
+| `phenolics-chlorine-skin-antiseptic-suitability` · Q10 | `phenolic chlorine skin antiseptic`; `chlorine releasing compounds living tissue`; `phenol disinfectant not antiseptic`; `chemical disinfectant skin suitability` | new; live/pending phenol records address viral resistance or systemic toxicity, not this skin-use classification | none; auxiliary delta |
+
+### Family-19 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 19 auxiliary | Auxiliary cumulative (Families 12–19) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 10 | 89 | 765 | 854 |
+| Printed answer occurrences | 0 | 35 | 405 | 440 |
+| Visible unproven answer annotations | 0 | 44 | — | tracked separately |
+| Non-answer checklist bullets | 10 | 10 | — | tracked separately |
+| Cropped/incomplete prompt units | 1 | 1 | — | excluded from retained/concepts |
+| Retained question records | 9 | 88 | 552 | 640 |
+| Source-distinct tested concepts | 9 | 87 | — | — |
+| External live / pending / no same-scope match | 0 / 0 / 9 | — | — | family-local disposition |
+| Handles already represented in Families 1–18 | 0 | four auxiliary records reuse primary scope through Family 15 | — | subtract before concept addition |
+| Cross-family concept delta | +9 | +83 over primary | — | `372 + 83 = 455` |
+| **Distinct tested concepts** | **+9** | **83 auxiliary additions** | **372** | **455** |
+
+Family arithmetic is `0 + 0 + 9 = 9`; Q09 is outside that handle arithmetic. The primary
+assessment checkpoint remains `765 / 405 / 552 / 372`. The auxiliary cumulative becomes
+`79 + 10 = 89` observed prompts, `35 + 0 = 35` printed answers, `79 + 9 = 88`
+retained records, `78 + 9 = 87` source-distinct handles, and `74 + 9 = 83` concept
+additions over primary. The all-eligible inventory becomes `844 + 10 = 854` observed prompts,
+`440 + 0 = 440` printed answers, `631 + 9 = 640` retained records, and
+`446 + 9 = 455` concepts.
+
+### Exact next non-screenshot auxiliary debt
+
+The timestamped JPEG sequence is now exhausted. The next manifest-ordered non-screenshot,
+question-bearing candidate is tier-6 `src_e89478440e99a6b8a854` ·
+`Antimicrobial chemotherapy.pdf` (six native-text pages, SHA-256
+`e89478440e99a6b8a854a9ca7e38b792c5904634a7f6aa2d6f2ae44809340e0f`). It is stored
+under BMS-102 Microbiology `Notes and Summaries`, not assessments, and requires a source-first
+study-bank/provenance ruling plus copy/concept dedupe against Families 11, 12 and 15 before any
+auxiliary count.
