@@ -1,6 +1,8 @@
 package com.synapse.app.di
 
 import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
@@ -17,6 +19,7 @@ import com.synapse.app.core.cache.room.SynapseDatabase
 import com.synapse.app.core.config.AppConfig
 import com.synapse.app.core.sync.STUDENT_READABLE_KEYS
 import com.synapse.app.core.sync.SyncEngine
+import com.synapse.app.design.ThemePreference
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -90,4 +93,16 @@ object AppModule {
     @Singleton
     fun provideSyncEngine(api: SynapseApi, store: LocalStore): SyncEngine =
         SyncEngine(api, store, STUDENT_READABLE_KEYS)
+
+    @Provides
+    @Singleton
+    fun provideThemeDataStore(@ApplicationContext context: Context): DataStore<Preferences> =
+        PreferenceDataStoreFactory.create(
+            produceFile = { context.preferencesDataStoreFile("synapse-prefs") }
+        )
+
+    @Provides
+    @Singleton
+    fun provideThemePreference(dataStore: DataStore<Preferences>): ThemePreference =
+        ThemePreference(dataStore)
 }

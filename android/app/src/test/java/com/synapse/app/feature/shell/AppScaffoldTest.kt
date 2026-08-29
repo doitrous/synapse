@@ -1,5 +1,6 @@
 package com.synapse.app.feature.shell
 
+import androidx.compose.material3.Text
 import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.junit4.createComposeRule
@@ -14,7 +15,14 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 
-/** Exercises [AppScaffold]'s top bar title, bottom nav, and placeholder routing. */
+/**
+ * Exercises [AppScaffold]'s top bar title, bottom nav, and placeholder routing. Uses a
+ * plain (non-Hilt) `createComposeRule()` host, so [AppScaffold]'s `dashboardContent` is
+ * overridden with a Hilt-free stand-in here — the real `DashboardScreen` resolves its
+ * `@HiltViewModel` via `hiltViewModel()`, which needs a Hilt-aware host activity and is
+ * exercised instead by [com.synapse.app.feature.dashboard.DashboardViewModelTest] plus
+ * `:app:assembleDebug`.
+ */
 @RunWith(RobolectricTestRunner::class)
 class AppScaffoldTest {
 
@@ -29,6 +37,7 @@ class AppScaffoldTest {
                     navController = navController,
                     themeChoice = ThemeChoice.Light,
                     onThemeChange = onThemeChange,
+                    dashboardContent = { Text("Dashboard") },
                 )
             }
         }
