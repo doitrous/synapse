@@ -1742,3 +1742,43 @@ Page 1 contains two numbered Roman-numeral prompts and page 2 contains the third
 **Remaining file list:** removing this one complete substantive-text inventory row and its unique hash leaves **90 selected inventory paths / 85 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `49da0c06ec2faa168542d858d677034457a053226b6306873be1de555276bd31`.  By the pinned triage text classification, the remaining debt is **47 substantive-text, six sparse-text, and 37 empty-text** rows.
 
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 90 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Anatomy Embryology written-practice questions
+
+The asserted starting remaining-hash checksum `49da0c06ec2faa168542d858d677034457a053226b6306873be1de555276bd31` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 85 hashes before this pass.  The next evidence-ranked substantive `05 MCQs` source is the smallest remaining three-page unique paper, ahead of the other three-page and larger MCQ/midterm sources.  All three pages were rendered and read.  Its numbered question format and directly aligned blue answer text establish an **assessment** source, not lecture or practical-teaching material.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---|---|---:|---:|---:|
+| Anatomy | `05 MCQs` | `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - Embryology written practice questions.pdf` | `a52b8c4a67088411b314bcab37820383ad7a32b05b03f0d293e84421db34f195` | 3 | 21 | 21 |
+
+### Observed prompt, assignment, and search ledger
+
+| Prompt refs | Directly aligned blue answer text (transcribed only) | Source-distinct tested concept | Search and duplicate/collapse result |
+|---|---|---|---|
+| 1 | `surface ectoderm, neural tube, neural crest` | Ectodermal derivatives | `ectoderm derivatives` / `surface ectoderm`: no current record returned; exact prior-FHB assignment already exists, so prior-FHB duplicate. |
+| 2, 3, 16 | Lens, epidermis, sweat/mammary glands, anterior pituitary; `surface ectoderm` | Surface-ectoderm derivatives | Explicit repeated parent/child prompts collapsed to one source concept; both search phrases returned no current record, but prior FHB already holds this concept as new—TBD. |
+| 4, 17 | Brain/spinal cord, posterior pituitary, CNS neurons | Neural-tube derivatives | Explicit repeat collapsed; `neural tube` returns live and pending records.  Prior-FHB assignment already exists. |
+| 5, 18 | Pigment skin cells, nerve ganglia, suprarenal medulla | Neural-crest derivatives | Explicit repeat collapsed; `neural crest` returns pending records.  Prior-FHB assignment already exists. |
+| 7, 21 | Sclerotome; vertebrae, ribs, tendons, cartilage | Sclerotome derivatives | Explicit repeat collapsed; `sclerotome` returns pending records.  Prior-FHB assignment already exists. |
+| 8 | Muscles of the back; intercostal muscles | Myotome derivatives | `myotome` returns live and pending records; prior-FHB myotome/dermatome assignment already exists. |
+| 9 | Dermis of skin of the back | Dermatome derivative | `dermatome` returns live and pending records; prior-FHB myotome/dermatome assignment already exists. |
+| 10, 19 | `urogenital structures` | Intermediate-mesoderm derivatives | Explicit repeat collapsed; both search phrases returned no current record, but prior-FHB already records this as a new—TBD concept. |
+| 11, 12, 13 | Parietal body-wall and visceral gut-wall derivatives | Lateral-plate mesoderm layers and derivatives | Parent prompt plus its two explicit layer prompts collapsed; `lateral plate mesoderm` returns live/pending material.  Prior-FHB intraembryonic-mesoderm subdivisions-and-derivatives assignment already covers the named layers. |
+| 14, 15, 20 | GIT/respiratory epithelial linings and germ cells | Endodermal derivatives | Explicit repeat/expansion collapsed; `endoderm` returns live and pending records.  Prior-FHB assignment already exists. |
+| 22 | Paraxial, intermediate, lateral plate mesoderm | Intraembryonic mesoderm subdivisions | `intraembryonic mesoderm` returns live records; prior-FHB assignment already exists. |
+
+Page 1 prints Q1–5 and Q7–9 (eight prompts), page 2 prints Q10–19 (ten prompts), and page 3 continues Q19's printed answer then prints Q20–22 (three prompts): `8 + 10 + 3 = 21`.  The source omits printed Q6; no question was inferred.  Q19's answer continuation on page 3 is not an extra prompt.  Every numbered prompt has directly aligned blue answer text, giving **21** printed keys/answers.  The eleven source-distinct assignments above are a one-to-one assignment/search ledger; each is a prior-FHB duplicate after the stated within-source collapses, so the source adds **0** cumulative concepts and **0** live/pending/new bucket change.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including Anatomy Embryology written-practice questions) | 945 | 764 | 264 | 60 | 63 | 141 | TBD |
+
+**Completed-source delta:** `+21` questions, `+21` printed keys / answers, `+0` source-distinct tested concepts after prior-FHB deduplication.  The cumulative search buckets remain exactly `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Anatomy Embryology written-practice questions
+
+**Remaining file list:** removing this one complete substantive-text inventory row and its unique hash leaves **89 selected inventory paths / 84 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `e66e1377db9a265521766ddbd59ec46eddd6fb2ce894f6051687739add2c5579`.  By the pinned triage text classification, the remaining debt is **46 substantive-text, six sparse-text, and 37 empty-text** rows.
+
+**BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 89 selected source paths still require complete printed-question/key and source-supported concept triage before approval.

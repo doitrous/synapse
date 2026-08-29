@@ -46,6 +46,7 @@ const PROCESSED_FAMILY_HASHES = [
   '5f1087b43622a1285ea2d011bd808ab42992a7630b9790b8e8803a3831ef419b',
   'c9acc5b2b0f555649cd344edf6f4c0faddacc97b30940f023f55c76693002983',
   'c7f9044d4f8c67e9369999ae71692dd98b153cfa68038a3f0115ede546873fe9',
+  'a52b8c4a67088411b314bcab37820383ad7a32b05b03f0d293e84421db34f195',
 ]
 
 function argument(name) {
@@ -111,7 +112,7 @@ function expectedTriageState(readiness, triage) {
   for (const hash of PROCESSED_FAMILY_HASHES) {
     if (!readiness.includes(hash) || !triage.includes(hash)) throw new Error(`Triage evidence does not pin processed family hash ${hash}`)
   }
-  const remainingChecksum = '49da0c06ec2faa168542d858d677034457a053226b6306873be1de555276bd31'
+  const remainingChecksum = 'e66e1377db9a265521766ddbd59ec46eddd6fb2ce894f6051687739add2c5579'
   if (!readiness.includes(remainingChecksum) || !triage.includes(remainingChecksum)) throw new Error('Triage/readiness evidence does not pin the selected remaining checksum')
   if (!readiness.includes(COMPLETED_SOURCE_SCREEN.sha256)) throw new Error('Readiness evidence no longer retains the completed source')
   if (!PROCESSED_FAMILY_HASHES.includes(COMPLETED_SOURCE_SCREEN.sha256)) throw new Error('Completed source must be marked processed')
@@ -228,7 +229,7 @@ const selectedChecksum = sha256(selectedHashes.join('\n'))
 const processedHashes = [...PROCESSED_FAMILY_HASHES].sort()
 for (const hash of processedHashes) if (!selectedHashes.includes(hash)) throw new Error(`Processed hash absent from selected ledger: ${hash}`)
 const remainingHashes = selectedHashes.filter((hash) => !processedHashes.includes(hash))
-if (remainingHashes.length !== 85 || processedHashes.length + remainingHashes.length !== selectedHashes.length) throw new Error('Processed and remaining hashes do not reconcile to 106')
+if (remainingHashes.length !== 84 || processedHashes.length + remainingHashes.length !== selectedHashes.length) throw new Error('Processed and remaining hashes do not reconcile to 106')
 const remainingChecksum = sha256(remainingHashes.join('\n'))
 if (remainingChecksum !== expectedRemainingChecksum) throw new Error(`Remaining checksum drift: ${remainingChecksum}`)
 
