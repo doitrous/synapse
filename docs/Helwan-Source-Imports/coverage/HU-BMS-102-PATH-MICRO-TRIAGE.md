@@ -2533,3 +2533,72 @@ The next fragment is single-image `src_26552d7fe7222dafad6c` ·
 `2026-07-20 05.57.04.jpg`, visible as `Antimicrob...` slide 42 of 45 at 1000 × 600.
 It requires visible-only prompt inventory and separate treatment of red text highlights and the
 orange drawn arrow as unproven annotations, not printed answer evidence.
+
+## Family 15 — tier-6 auxiliary `Antimicrob...` slide-42 fragment
+
+### Source boundary and answer-mark ruling
+
+| Manifest source | SHA-256 | Visible boundary | Raster |
+|---|---|---|---|
+| `src_26552d7fe7222dafad6c` · `2026-07-20 05.57.04.jpg` | `26552d7fe7222dafad6c6b4a585606447f67cb57ce09d171fc9d5cdba0e87463` | `Antimicrob...`, slide 42 of 45 | 1000 × 600 JPEG |
+
+The image was read at original resolution. It is one complete visible slide from a 45-slide deck;
+slides 1–41 and 43–45 are not inferred. The two `Complete` definitions and the one exception MCQ
+are fully visible, so the family has three complete prompt units and zero cropped/incomplete units.
+
+Red rectangular highlights expose the two fill-in words, and an orange drawn arrow points at the
+MCQ choice. These are annotation overlays, not an official printed answer convention or key.
+Family 15 therefore records three visible answer annotations and zero printed-answer occurrences.
+
+### Visible-prompt assignment and prior-scope collapse
+
+| Ref | Slide | Fully visible prompt assignment | Visible annotation | Tested handle | Prior BMS-102 relation |
+|---|---:|---|---|---|---|
+| F15-Q01 | 42 | Agent that inhibits bacterial multiplication without killing bacteria | red-highlighted `Bacteriostatic` | `bacteriostatic-agent-definition` | collapse to Family-11 `bacteriostatic-definition-host-clearance` |
+| F15-Q02 | 42 | Ability of an antimicrobial agent to harm the pathogen without harming the host | red-highlighted `Selective toxicity` | `antimicrobial-selective-toxicity-definition` | exact Family-11 Q09 overlap |
+| F15-Q03 | 42 | Exception among antimicrobial mechanisms of action | orange arrow to `Synthesis of modified target` | `antimicrobial-action-mechanism-exception-modified-target` | collapse to Family-12 `antimicrobial-action-mechanism-classes`; Family-12's resistance list separately places modified target |
+
+There are no repeated prompts or within-image semantic collapses: each prompt tests a different
+definition/classification. All three retained records reuse tested scope already present in prior
+BMS-102 families, however, so three source-distinct handles produce zero cross-family concept
+addition.
+
+### Search-before-mint adjudication
+
+Each handle received four required searches: **12 required searches** across live state, all
+pending roots, and Families 1–14.
+
+| Handle · ref | Four required queries | External disposition and exact-scope decision |
+|---|---|---|
+| `bacteriostatic-agent-definition` · Q01 | `bacteriostatic definition`; `inhibits bacterial multiplication not kill`; `bacteriostatic agent reversible growth inhibition`; `bacteriostatic versus bactericidal definition` | live `CON-INF-4E8ECDA3106CD7`; exact definition |
+| `antimicrobial-selective-toxicity-definition` · Q02 | `selective toxicity definition antimicrobial`; `harm pathogen without harming host`; `antimicrobial selective toxicity`; `chemotherapeutic agent host pathogen toxicity` | new externally; prior BMS Family-11 Q09 is the exact local scope |
+| `antimicrobial-action-mechanism-exception-modified-target` · Q03 | `antimicrobial mechanism exception modified target`; `modified target resistance not drug action`; `mechanisms action antimicrobial agents list`; `cell wall protein nucleic acid synthesis modified target` | new externally; mechanism-specific records do not state the tested classification exception |
+
+### Family-15 auxiliary checkpoint and separated evidence dimensions
+
+| Measure | Family 15 auxiliary | Auxiliary cumulative (Families 12–15) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 3 | 60 | 765 | 825 |
+| Printed answer occurrences | 0 | 35 | 405 | 440 |
+| Visible unproven answer annotations | 3 | 25 | — | tracked separately |
+| Cropped/incomplete prompt units | 0 | 0 | — | excluded from totals |
+| Retained question records | 3 | 60 | 552 | 612 |
+| Source-distinct tested concepts | 3 | 60 | — | — |
+| External live / pending / no same-scope match | 1 / 0 / 2 | — | — | family-local disposition |
+| Handles already represented in Families 1–14 | 3 | Family 12 has one primary overlap plus these three reuses | — | subtract before concept addition |
+| Cross-family concept delta | +0 | +56 over primary | — | `372 + 56 = 428` |
+| **Distinct tested concepts** | **+0** | **56 auxiliary additions** | **372** | **428** |
+
+Family arithmetic is `1 + 0 + 2 = 3` and `3 - 3 = 0` concept addition. The primary
+assessment checkpoint remains `765 / 405 / 552 / 372`. The auxiliary cumulative becomes
+`57 + 3 = 60` prompts, `35 + 0 = 35` printed answers, `57 + 3 = 60` retained records,
+and remains `56` concept additions over primary. The all-eligible inventory becomes
+`822 + 3 = 825` prompts, `440 + 0 = 440` printed answers, `609 + 3 = 612` retained
+records, and remains `428` concepts.
+
+### Exact next auxiliary screenshot debt
+
+The next fragment is single-image `src_370d6e8e26fcff9dec00` ·
+`2026-07-20 05.57.07.jpg`, visible as `lec5-Bacter...` slide 54 of 57 at 1280 × 768.
+It requires visible-only prompt inventory and separation of the blue handwritten fill-in from
+the pale-green digital choice highlights; neither is printed-key evidence.
