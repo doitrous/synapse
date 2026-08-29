@@ -358,6 +358,17 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   rank-4/rank-5 debt is **47 paths / 45 hashes**; next is tier-5 Anatomy practical
   `src_01ed16d14274951518d4`, `Bones of the lower limb.pdf` (17 pages). No ID or content record
   was created; broader LCS S1 remains incomplete.
+- Family 30 closes that 17-page Anatomy virtual-lab atlas. Pages 2–16 form 15 distinct labelled
+  teaching plates with **163 directly printed unique mappings** and one masked callout; there
+  are no practical/station prompts, response fields or assessment keys. Six region-level
+  teaching scopes received 24 searches; five exactly reuse Family 28 plate scope, leaving one
+  new hip-bone skeletal-location teaching scope. Question evidence remains **447 / 242 / 204 =
+  9 live / 49 pending / 146 new**. The verified practical minimum is now **5 assessment prompts
+  / 24 teaching plates / 316 printed mappings / 7 unresolved residues / 0 assessment keys**,
+  with teaching-scope disposition **0 live / 0 pending / 10 new**. Rank-4/rank-5 debt is **46
+  paths / 44 hashes**; next is tier-5 Anatomy practical `src_47f9f289a4101c486870`, `anterior
+  compartment of the thigh.pdf` (24 pages). No ID or content record was created; broader LCS
+  S1 remains incomplete.
 
 ## HU-PSY-104 psychology S1 family checkpoint
 

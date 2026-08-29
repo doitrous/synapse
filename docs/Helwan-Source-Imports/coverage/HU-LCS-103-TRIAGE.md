@@ -3307,3 +3307,102 @@ SHA-256 `01ed16d14274951518d40b1ed757ca1acdb981688af7763a0569fe3cad6a95e5`) unde
 `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 1 - Bones of the Lower Limb/`. Broader
 LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update, import or
 source copy was created.
+
+## Family 30 — Tier-5 lower-limb osteology virtual-lab atlas
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_01ed16d14274951518d4` |
+| File / SHA-256 | `Bones of the lower limb.pdf` / `01ed16d14274951518d40b1ed757ca1acdb981688af7763a0569fe3cad6a95e5` |
+| File boundary | 864,296 bytes · native PDF · 17 physical pages |
+| Manifest placement | `HU-LCS-103` · Anatomy · Practical Labs · tier 5 |
+| Local corpus path | `Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 1 - Bones of the Lower Limb/Bones of the lower limb.pdf` |
+| Visible provenance | title page prints `Bones of the Lower Limb`, `Dr. Alaa Mohamed` and `Assistant lecturer of anatomy`; PDF author is `Alaa Mohamed` and creator/producer is Microsoft PowerPoint for Microsoft 365 |
+| Authority finding | Helwan-local virtual-lab teaching atlas by manifest/path placement; it is not an exam, station sheet, response form, question bank or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **17 physical pages** were rendered and
+read. Page 1 is the title page, pp. 2–16 are labelled or colour-emphasised lower-limb
+osteology teaching plates, and p. 17 is a closing `Thank you` slide. There is no instruction
+to identify a structure, explicit practical/station prompt, ordinary question, response field,
+blank answer area, mark allocation, correctness convention, printed assessment answer or key.
+The simultaneous labels are teaching mappings only.
+
+### Complete defensible plate and mapping inventory
+
+| Physical page | Source-first teaching plate | Directly printed unique mappings / residue |
+|---:|---|---:|
+| 2 | hip-bone skeletal locator | 1 colour-emphasis/title mapping |
+| 3 | hip-bone components and selected landmarks | 8 mappings |
+| 4 | hip bone, lateral and medial component views | 5 mappings |
+| 5 | lateral hip-bone landmarks | 18 mappings |
+| 6 | medial hip-bone landmarks | 20 mappings |
+| 7 | femur, anterior and posterior landmarks | 17 mappings |
+| 8 | proximal femur, anterior and posterior views | 8 mappings |
+| 9 | left femur, anterior and posterior landmarks | 10 mappings |
+| 10 | tibia/fibula locator and joint relations | 13 mappings |
+| 11 | tibia, anterior and posterior landmarks | 14 readable mappings; one further posterior-shaft callout is visibly masked and remains unresolved |
+| 12 | fibula skeletal locator | 4 mappings |
+| 13 | tibia/fibula selected landmarks | 9 mappings |
+| 14 | fibula landmarks | 12 unique mappings; `Lateral surface` is printed twice on the same figure and counted once |
+| 15 | foot-bone groups, oblique view | 10 mappings |
+| 16 | foot-bone groups and named tarsals, superior view | 14 mappings |
+
+The **15 plate occurrences are 15 source-distinct images or multiview compositions**; none is
+an exact within-source image copy. The directly printed unique mapping arithmetic is
+`1 + 8 + 5 + 18 + 20 + 17 + 8 + 10 + 13 + 14 + 4 + 9 + 12 + 10 + 14 = 163`, plus one
+masked callout on p. 11. Repeated anatomical labels across genuinely different plates remain
+separate evidence occurrences, while the same p. 14 label printed twice on one figure is not
+inflated. The assessment boundary is **0 practical/station prompts / 0 ordinary questions /
+0 printed assessment keys**.
+
+### Source-first teaching scopes, searches and prior-LCS adjudication
+
+The 15 plates consolidate to six source-level teaching scopes by bone/region; this is a
+scope collapse, not a deletion of plate or mapping evidence.
+
+| Practical teaching handle / pages | Four required `find-existing` queries | Search / prior-LCS result |
+|---|---|---|
+| `hip-bone-skeletal-location` · p. 2 | hip bone location skeleton; os coxae pelvic girdle location; coxal bone lower limb attachment; hip bone pelvis axial skeleton | no direct live or pending hit and no accepted prior-LCS locator scope — new |
+| `hip-bone-landmarks-multiview` · pp. 3–6 | hip bone landmarks lateral medial views; ilium ischium pubis acetabulum; os coxae osteology landmarks; iliac spines sciatic notches obturator foramen | no direct live or pending hit; Family 28's accepted lateral- and medial-hip-bone teaching handles jointly own this landmark scope — prior teaching reuse |
+| `femur-landmarks-multiview` · pp. 7–9 | femur landmarks anterior posterior views; femur head neck trochanters condyles; femur osteology linea aspera patellar surface; femur landmark identification practical | no direct live or pending hit; Family 28's anterior- and posterior-femur teaching handles jointly own this scope — prior teaching reuse |
+| `tibia-landmarks-multiview` · pp. 10–11 | tibia landmarks anterior posterior views; tibial condyles tuberosity soleal line malleolus; tibia osteology borders surfaces; tibia landmark identification practical | no direct live or pending hit; the tibial components of Family 28's anterior/posterior tibia-fibula handles absorb this narrower scope — prior teaching reuse |
+| `fibula-landmarks-multiview` · pp. 12–14 | fibula landmarks head neck shaft lateral malleolus; fibula osteology borders surfaces; fibular styloid malleolar fossa; fibula landmark identification practical | no direct live or pending hit; the fibular components of Family 28's anterior/posterior tibia-fibula handles absorb this narrower scope — prior teaching reuse |
+| `foot-bone-groups-and-tarsals` · pp. 15–16 | bones of foot tarsals metatarsals phalanges; talus calcaneus navicular cuboid cuneiforms; foot bone groups identification; tarsal metatarsal phalangeal layout | no direct live or pending hit; Family 28's accepted tarsal, metatarsal and phalangeal teaching handles jointly own this scope — prior teaching reuse |
+
+All **6 × 4 = 24** required searches completed with no direct live or pending hit. The raw
+external result is `0 live / 0 pending / 6 new`; exact accepted-prior comparison removes five
+module additions, leaving only the hip-bone locator as **+1 new practical-teaching scope**.
+The five reused scopes corroborate earlier practical teaching evidence but do not inflate the
+module concept checkpoint.
+
+### Separated assessment and practical checkpoint
+
+| Evidence dimension | Before Family 30 | Family 30 delta | After Family 30 |
+|---|---:|---:|---:|
+| Eligible observed question records | 447 | +0 | 447 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 204 | +0 | 204 |
+| Question live / pending / new | 9 / 49 / 146 | +0 / +0 / +0 | 9 / 49 / 146 |
+| Stand-alone practical/station prompt occurrences | 5 | +0 | 5 |
+| Distinct practical teaching plates, quantified | 9 verified minimum | +15 | 24 verified minimum |
+| Directly printed practical teaching-label mappings, quantified | 153 verified minimum | +163 | 316 verified minimum |
+| Masked/unresolved practical callouts or rule blanks | 6 | +1 | 7 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 9 | +0 / +0 / +1 | 0 / 0 / 10 |
+| Practical content records created | 0 | +0 | 0 |
+
+Family 29's deliberately unquantified mixed teaching residue remains outside the verified
+plate/mapping minimum; Family 30 adds only its independently countable units. The eligible
+question checkpoint therefore remains **447 prompts / 242 printed keys / 204 concepts = 9
+live / 49 pending / 146 new**.
+
+This source hash occurs once in the manifest. Removing it from the accepted Family-29
+remainder leaves **46 rank-4/rank-5 path instances / 44 unique hashes**. The next
+manifest-order gate is tier-5 Anatomy practical source `src_47f9f289a4101c486870`,
+`anterior compartment of the thigh.pdf` (24 native-text pages; SHA-256
+`47f9f289a4101c486870d510dc71949f885ce517134ac5834cb50fd74ad42e2e`) under
+`Year 1/LCS 103/Anatomy/Practical Labs/Virtual Lab 2 - Anterior Compartment of Thigh/`.
+Broader LCS-103 S1 remains incomplete. No download, ID, content record, catalogue update,
+import or source copy was created.
