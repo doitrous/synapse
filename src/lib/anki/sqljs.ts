@@ -54,18 +54,22 @@ async function locateNodeWasm(file: string): Promise<string> {
 }
 
 /**
- * Load sql.js once and cache the promise. In the browser the wasm is served
- * from `/sql-wasm.wasm` (vendored into `public/`, no CDN fetch — CSP-safe).
+ * Load sql.js once and cache the promise. In the browser the wasm is a Vite
+ * asset URL (hashed, under `/assets/`, served by the same static handler as the
+ * app's JS in dev and prod — see `sqljsWasmUrl.ts` for why a root path fails).
  * Under Node (e.g. `node --test`) `locateFile` resolves the wasm file from
- * `node_modules/sql.js/dist/` on disk. The Node-only resolution happens once,
- * before `initSqlJs` is called, so the `locateFile` callback itself stays a
- * plain synchronous function (sql.js does not await it).
+ * `node_modules/sql.js/dist/` on disk. Either way resolution happens once,
+ * before `initSqlJs` is called, so the `locateFile` callback stays a plain
+ * synchronous function (sql.js does not await it). The `?url` import lives in a
+ * separate module loaded only here, in the browser, so Node never sees it.
  */
 export function loadSqlJs(): Promise<SqlJsStatic> {
   if (!cached) {
     cached = (async () => {
       const wasmPath =
-        typeof window === 'undefined' ? await locateNodeWasm('sql-wasm.wasm') : undefined
+        typeof window === 'undefined'
+          ? await locateNodeWasm('sql-wasm.wasm')
+          : (await import('./sqljsWasmUrl.ts')).default
 
       return initSqlJs({
         locateFile: (file: string) => wasmPath ?? `/${file}`,
