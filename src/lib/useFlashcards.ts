@@ -15,6 +15,7 @@ import {
   type SchedulerType,
 } from '@/data/flashcards/model'
 import { ensureV2, type StoredDecksV1 } from '@/data/flashcards/migration'
+import { mergeImport, type ImportInput } from '@/lib/flashcards/importCommit'
 import { generateCards, reconcileNoteInMeta } from '@/data/flashcards/generate'
 import { sm2Scheduler, type Scheduler } from '@/data/flashcards/scheduler'
 import { fsrsScheduler } from '@/data/flashcards/fsrs'
@@ -96,6 +97,8 @@ export interface FlashcardsApi {
   renameDeck: (deckId: string, name: string) => void
   removeDeck: (deckId: string) => void
   setDeckConfig: (deckId: string, config: Partial<DeckConfig>) => void
+  // Bulk import (merges decks/notes/optional meta into the current collection)
+  importCollection: (input: ImportInput) => void
   // Note mutations
   saveNote: (note: Note) => void
   deleteNote: (noteId: string) => void
@@ -334,6 +337,17 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
     [collection, deckRecords, commit],
   )
 
+  // ---- Bulk import ----------------------------------------------------------
+
+  // Merge an Anki/CSV import into the CURRENT working collection (which includes
+  // a migrated v1 store on first use), so an import never discards existing
+  // decks. Preserved card meta is keyed to match generateCards, so imported
+  // schedules attach to their cards on the next read.
+  const importCollection = useCallback(
+    (input: ImportInput) => commit(mergeImport(collection, input)),
+    [collection, commit],
+  )
+
   // ---- Note mutations -------------------------------------------------------
 
   const saveNote = useCallback(
@@ -550,6 +564,7 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
     renameDeck,
     removeDeck,
     setDeckConfig,
+    importCollection,
     saveNote,
     deleteNote,
     moveNote,

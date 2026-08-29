@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ArrowLeft, Layers, Play, Plus, Pencil, Trash2, Settings2, Undo2 } from 'lucide-react'
+import { ArrowLeft, Layers, Play, Plus, Pencil, Trash2, Settings2, Undo2, FileUp, Download } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
@@ -14,6 +14,8 @@ import { useT } from '@/lib/i18n'
 import { pct, formatRelativeTime } from '@/lib/format'
 import type { DeckView, FlashcardsApi } from '@/lib/useFlashcards'
 import { DeckOptionsDialog } from './DeckOptionsDialog'
+import { ImportDeckDialog } from './ImportDeckDialog'
+import { ExportDeckDialog } from './ExportDeckDialog'
 import { StudyRhythm } from './rhythm/StudyRhythm'
 import { CardBreakdown } from './CardBreakdown'
 import { deckDashboardStats } from '@/data/flashcards/deckSummary'
@@ -46,6 +48,8 @@ export function DeckDashboard({
   const t = useT()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [creating, setCreating] = useState(false)
+  const [importing, setImporting] = useState(false)
+  const [exporting, setExporting] = useState(false)
   const liveDeckIds = useMemo(() => new Set(api.decks.map((d) => d.id)), [api.decks])
   const rhythm = useRhythmSettings(liveDeckIds)
 
@@ -74,11 +78,17 @@ export function DeckDashboard({
           <EmptyState
             icon={Layers}
             title={t('No decks yet')}
-            description={t('Create a deck to study by spaced repetition, or wait for a published deck to appear here.')}
-            action={<Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)}>{t('New deck')}</Button>}
+            description={t('Create a deck to study by spaced repetition, import an Anki deck, or wait for a published deck to appear here.')}
+            action={
+              <div className="flex items-center justify-center gap-2">
+                <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)}>{t('New deck')}</Button>
+                <Button variant="secondary" size="sm" iconLeft={FileUp} onClick={() => setImporting(true)}>{t('Import')}</Button>
+              </div>
+            }
           />
         </Panel>
         {creating && <CreateDeckDialog onClose={() => setCreating(false)} onCreate={(name) => { const id = api.createDeck(name); setCreating(false); setSelectedId(id) }} />}
+        {importing && <ImportDeckDialog api={api} onClose={() => setImporting(false)} />}
       </>
     )
   }
@@ -92,7 +102,15 @@ export function DeckDashboard({
         <PanelHeader
           title={t('Your decks')}
           hint={String(own.length)}
-          action={<Button size="sm" variant="secondary" iconLeft={Plus} onClick={() => setCreating(true)}>{t('New deck')}</Button>}
+          action={
+            <div className="flex items-center gap-1.5">
+              <Button size="sm" variant="ghost" iconLeft={FileUp} onClick={() => setImporting(true)}>{t('Import')}</Button>
+              {own.length > 0 && (
+                <Button size="sm" variant="ghost" iconLeft={Download} onClick={() => setExporting(true)}>{t('Export')}</Button>
+              )}
+              <Button size="sm" variant="secondary" iconLeft={Plus} onClick={() => setCreating(true)}>{t('New deck')}</Button>
+            </div>
+          }
         />
         {own.length === 0 ? (
           <p className="px-4 py-6 text-center text-[12.5px] text-ink-3">{t('You have not created a deck yet.')}</p>
@@ -117,6 +135,8 @@ export function DeckDashboard({
       )}
 
       {creating && <CreateDeckDialog onClose={() => setCreating(false)} onCreate={(name) => { const id = api.createDeck(name); setCreating(false); setSelectedId(id) }} />}
+      {importing && <ImportDeckDialog api={api} onClose={() => setImporting(false)} />}
+      {exporting && <ExportDeckDialog api={api} onClose={() => setExporting(false)} />}
     </div>
   )
 }
