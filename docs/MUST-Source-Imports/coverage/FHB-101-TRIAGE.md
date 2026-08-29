@@ -1169,3 +1169,109 @@ At source-concept level this family is live 2 / pending 7 / new 19.  After withi
 **Remaining file list:** 97 selected inventory paths / 92 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `e5502975751f2d2f6591ccb7f80400e64cf356e5b6617fb09537210b3c55abb7`.  By the pinned triage text classification, it contains 52 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 97 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
+
+## Continuation pass — Physiology SOLO final answered family
+
+The asserted starting remaining-hash checksum `e5502975751f2d2f6591ccb7f80400e64cf356e5b6617fb09537210b3c55abb7` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 92 hashes before this pass.  The next evidence-ranked unread substantive FHB family is the seven-page answered SOLO Physiology final paper below.  All seven pages were rendered and read.  It has 49 visible numbered MCQs, each with one yellow-highlighted option.  Q42 includes an in-source editorial note that its wording probably means RBC formation; Q49 asks about clotting but highlights `d. Thrombopoiesis`.  Both annotations and keys are transcribed as printed, without correction or inference.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys recovered |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Physiology/06 EOM Exams/EOM MCQs - [Answers] SOLO MCQS - FHB - Final PHYSIOLOGY.pdf` | `ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af` | 7 | 49 | 49 |
+
+### Printed-key and assignment ledger
+
+| Questions | Highlighted printed keys |
+|---|---|
+| 1–10 | `B D B C A B B B B C` |
+| 11–20 | `A B C C B C A B B B` |
+| 21–30 | `C A A B A B A B A B` |
+| 31–40 | `A A A B C C C B C C` |
+| 41–49 | `B B C B A A B A D` |
+
+The following one-to-one 29-concept ledger explicitly collapses repeated source prompts: B12/folate maturation (6–10, 18), anaemia definition and indices (12–17, 47), polycythaemia (20, 48), platelet formation/function (21, 41), platelet eicosanoids (23–25), coagulation initiation (26–27), anticoagulation/fibrinolysis (30, 34–36), oxygen carriage (38–39), and iron absorption/transferrin (44–45).
+
+| Printed prompts read | Assigned tested concept |
+|---|---|
+| 1 | Hypoxic stimulus for erythropoietin secretion |
+| 2 | Iron, B12, and folate requirements for erythropoiesis |
+| 3 | Daily dietary iron intake |
+| 4 | Ferritin as the main iron-storage form |
+| 5 | Transferrin concentration in iron-deficiency anaemia |
+| 6–10, 18 | B12/folate-dependent macrocytic maturation and pernicious anaemia |
+| 11 | Copper as a haemoglobin-formation cofactor |
+| 12–17, 47 | Anaemia definition and MCV/MCH pattern classification |
+| 19 | Schilling test and vitamin-B12 deficiency |
+| 20, 48 | Polycythaemia as increased red-cell count |
+| 21, 41 | Platelet formation and haemostatic function |
+| 22 | Von-Willebrand-factor platelet adhesion |
+| 23–25 | Platelet thromboxane/prostacyclin/aspirin effects |
+| 26–27 | Extrinsic and intrinsic coagulation-pathway initiation |
+| 28 | Thrombin conversion of fibrinogen to fibrin |
+| 29 | Vitamin-K-dependent clotting-factor synthesis |
+| 30 | Heparin enhancement of antithrombin III |
+| 31 | Coumarin anticoagulation through vitamin-K inhibition |
+| 32 | Thrombocytopenia as decreased platelet count |
+| 33 | Haemophilia A factor-VIII deficiency |
+| 34–36 | Physiological anticoagulation, fibrinolysis, and tPA activation of plasmin |
+| 37 | Prolonged bed rest as venous-thrombosis risk |
+| 38–39 | Haemoglobin and erythrocyte oxygen transport |
+| 40 | Leukocyte immune-defence function |
+| 42 | Erythropoiesis versus haematopoiesis terminology |
+| 43 | Adult bone-marrow site of erythropoiesis |
+| 44–45 | Small-intestinal iron absorption and transferrin transport |
+| 46 | Haemolysis as red-cell breakdown |
+| 49 | Haemostasis versus thrombopoiesis terminology |
+
+The Q42 row preserves the source's editorial ambiguity (RBC formation versus blood-cell formation); the Q49 row preserves its highlighted `d. Thrombopoiesis` key even though the printed stem says blood clotting.  The 49 questions collapse to 29 source-distinct tested concepts.  Twenty-three reproduce completed FHB concepts, including erythropoietin, iron/B12/folate handling, anaemia patterns, polycythaemia, platelets, pathways of coagulation, vitamin K, heparin, thrombocytopenia, haemophilia, fibrinolysis, venous stasis, oxygen carriage, marrow erythropoiesis, and transferrin.  This family therefore adds six cumulative distinct concepts.
+
+### Tested-concept search ledger — Physiology SOLO final answered family
+
+Each source-distinct concept was searched with both phrases shown across live state and every pending import root.  A live hit takes precedence over pending.  The named rows are exactly the 29 assignment rows above; `already triaged` denotes cross-source FHB collapse only.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Hypoxic stimulus for erythropoietin secretion (`erythropoietin hypoxia`; `EPO hypoxia`) | new; already triaged in FHB |
+| Iron, B12, and folate requirements for erythropoiesis (`erythropoiesis requirements iron B12 folate`; `erythropoiesis nutrient requirements`) | new; already triaged in FHB |
+| Daily dietary iron intake (`daily iron intake`; `dietary iron requirement`) | new; already triaged in FHB |
+| Ferritin as the main iron-storage form (`ferritin iron storage`; `ferritin`) | new; already triaged in FHB |
+| Transferrin concentration in iron-deficiency anaemia (`transferrin iron deficiency anemia`; `iron transport transferrin`) | new; already triaged in FHB |
+| B12/folate-dependent macrocytic maturation and pernicious anaemia (`folate B12 macrocytic anemia`; `intrinsic factor B12 absorption`) | new; already triaged in FHB |
+| Copper as a haemoglobin-formation cofactor (`copper hemoglobin formation`; `copper deficiency hemoglobin`) | new; already triaged in FHB |
+| Anaemia definition and MCV/MCH pattern classification (`anemia definition MCV MCH`; `microcytic macrocytic anemia`) | new; already triaged in FHB |
+| Schilling test and vitamin-B12 deficiency (`Schilling test vitamin B12`; `Schilling test`) | new — TBD |
+| Polycythaemia as increased red-cell count (`polycythemia`; `increased RBC count`) | pending-hit; already triaged in FHB |
+| Platelet formation and haemostatic function (`platelet formation bone marrow`; `platelet hemostasis function`) | new; already triaged in FHB |
+| Von-Willebrand-factor platelet adhesion (`von Willebrand platelet adhesion`; `platelet adhesion collagen`) | new; already triaged in FHB |
+| Platelet thromboxane/prostacyclin/aspirin effects (`aspirin thromboxane prostacyclin`; `platelet thromboxane prostacyclin`) | new; already triaged in FHB |
+| Extrinsic and intrinsic coagulation-pathway initiation (`extrinsic intrinsic coagulation pathway`; `intrinsic extrinsic pathway`) | new; already triaged in FHB |
+| Thrombin conversion of fibrinogen to fibrin (`thrombin fibrinogen fibrin`; `fibrinogen to fibrin`) | new; already triaged in FHB |
+| Vitamin-K-dependent clotting-factor synthesis (`vitamin K clotting factors`; `vitamin K factor synthesis`) | new; already triaged in FHB |
+| Heparin enhancement of antithrombin III (`antithrombin heparin`; `heparin anticoagulant`) | new; already triaged in FHB |
+| Coumarin anticoagulation through vitamin-K inhibition (`coumarin vitamin K antagonist`; `coumarin anticoagulant`) | new — TBD |
+| Thrombocytopenia as decreased platelet count (`thrombocytopenia platelet count`; `decreased platelet count`) | new; already triaged in FHB |
+| Haemophilia A factor-VIII deficiency (`hemophilia A factor VIII`; `hemophilia factor VIII`) | new; already triaged in FHB |
+| Physiological anticoagulation, fibrinolysis, and tPA activation of plasmin (`fibrinolysis tissue plasminogen activator`; `tPA plasminogen`) | new; already triaged in FHB |
+| Prolonged bed rest as venous-thrombosis risk (`venous stasis thrombosis`; `prolonged bed rest thrombosis`) | new; already triaged in FHB |
+| Haemoglobin and erythrocyte oxygen transport (`hemoglobin oxygen transport`; `erythrocyte oxygen transport`) | new; already triaged in FHB |
+| Leukocyte immune-defence function (`leukocyte immune defense`; `leukocyte function`) | new — TBD |
+| Erythropoiesis versus haematopoiesis terminology (`erythropoiesis hematopoiesis terminology`; `hematopoiesis erythropoiesis`) | new — TBD |
+| Adult bone-marrow site of erythropoiesis (`erythropoiesis bone marrow`; `adult red marrow erythropoiesis`) | new; already triaged in FHB |
+| Small-intestinal iron absorption and transferrin transport (`iron absorption transferrin`; `iron absorption small intestine`) | new; already triaged in FHB |
+| Haemolysis as red-cell breakdown (`hemolysis red blood cell breakdown`; `hemolysis`) | new — TBD |
+| Haemostasis versus thrombopoiesis terminology (`hemostasis thrombopoiesis`; `thrombopoiesis`) | new — TBD |
+
+At source-concept level this family is live 0 / pending 1 / new 28.  After within-source collapse and cross-source deduplication, its cumulative delta is live 0 / pending 0 / new 6.  No module ID, content record, placement, source, or catalogue entry was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Physiology SOLO final answered family) | 793 | 726 | 258 | 60 | 63 | 135 | TBD |
+
+**Observed delta:** +49 questions, +49 printed keys, +29 source-distinct tested concepts / +6 after within-source and cross-source deduplication.  The cumulative search buckets reconcile exactly: `60 + 63 + 135 = 258`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology SOLO final answered family
+
+**Remaining file list:** 96 selected inventory paths / 91 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `be08745123f358b7b53f502d18bec1416f2146da7f3800aa73ebc83473f9dbfe`.  By the pinned triage text classification, it contains 51 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 96 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.

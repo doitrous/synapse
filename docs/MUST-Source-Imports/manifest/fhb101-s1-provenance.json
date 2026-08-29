@@ -34,8 +34,8 @@
     "recoveryManifestTsv": "41d75ce7cbda7588df8899dfca164162f3f4617947aa5bee4ed985ee919b70b0",
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
-    "readinessMarkdown": "ccf82d3acd457b30d3f07f512d4c201b760d47772e2be5e3dcff1979219dc750",
-    "triageMarkdown": "dfb7a4053a1daa3b6aca432cdeb9a7134f593f26779866468acaeaaf081cdb22"
+    "readinessMarkdown": "90bef80b81a3dde93b24f3b0cdab5a927ae40c981c1c96423de854edbd54a014",
+    "triageMarkdown": "d868b50f8ed5d8acf44e73b0113761f652181277ead0eb1a5f5ddc24850793c6"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -79,16 +79,17 @@
       "a433bee65fdb0cdb5a5f9f17948789d58e91f49a633a7502672e5981efa05662",
       "a569f3a6960887f8852b74db3a73a828f642b4857e68ccad9c81db8a3993fbec",
       "a87b09c5f33157263fb623fcfbc2eeb315f90633fdd1a5a8f9244a67c6313e95",
-      "e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb"
+      "e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb",
+      "ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af"
     ],
-    "uniqueSha256": 14
+    "uniqueSha256": 15
   },
   "remaining": {
-    "inventoryMetadataRows": 97,
-    "uniqueSha256": 92,
-    "sortedNewlineSha256": "e5502975751f2d2f6591ccb7f80400e64cf356e5b6617fb09537210b3c55abb7",
+    "inventoryMetadataRows": 96,
+    "uniqueSha256": 91,
+    "sortedNewlineSha256": "be08745123f358b7b53f502d18bec1416f2146da7f3800aa73ebc83473f9dbfe",
     "auditSampleStatusCounts": {
-      "audit-extract-failed": 4,
+      "audit-extract-failed": 3,
       "audit-not-found": 6,
       "empty-text": 41,
       "sparse-text": 6,
@@ -102,8 +103,8 @@
   },
   "reconciliation": {
     "selectedUniqueSha256": 106,
-    "processedUniqueSha256": 14,
-    "remainingUniqueSha256": 92,
+    "processedUniqueSha256": 15,
+    "remainingUniqueSha256": 91,
     "processedPlusRemaining": 106
   },
   "year1RecoveryOutcomes": [
