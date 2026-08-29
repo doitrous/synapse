@@ -106,3 +106,9 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - LCS-103 Families 1–3 now total 168 observed prompts, 75 printed keys and 82 resolved
   tested concepts: 4 live, 25 pending and 53 new. Continue the five anatomy assessment
   images, then pathology assessment images and Tutorial 103; this remains S1 evidence only.
+- The first anatomy quiz-content image `src_773a3d8e00f38cedff12` is instead a handwritten
+  study-note page: five numbered statements, no assessment prompts and no keys. It has four
+  prior-LCS coverage assignments and one note-only psoas-major candidate (0 live, 2 pending,
+  3 new as auxiliary evidence), but it leaves all assessment counts and dispositions unchanged.
+- Continue the remaining four anatomy quiz-content images, then pathology assessment images
+  and Tutorial 103; this remains S1 evidence only.

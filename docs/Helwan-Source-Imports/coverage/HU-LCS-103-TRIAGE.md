@@ -395,13 +395,88 @@ concept assignments = 9` resolved concepts; `73 + 9 = 82`; `4 + 25 + 53 = 82`;
 `152 + 16 = 168`; `75 + 0 = 75`. Because Family 3 has no exact repeated prompt, the
 cross-family unique-form count becomes `150 + 16 = 166`, including the one truncated form.
 
+## Family 4 — first Anatomy quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_773a3d8e00f38cedff12` |
+| Manifest SHA-256 | `773a3d8e00f38cedff12ae381767e93e6e1cb7f06e92ec0bbdcae11ca44f29cc` |
+| Recomputed SHA-256 | `773a3d8e00f38cedff12ae381767e93e6e1cb7f06e92ec0bbdcae11ca44f29cc` |
+| File | `Most important notes anatomy (Quiz content).jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Anatomy/Assessments/Quizzes/Most important notes anatomy (Quiz content).jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Anatomy · Assessments/Quizzes |
+| Container | one 1920 × 2560 JPEG photograph of a ruled spiral-notebook page |
+| Read method | original-resolution visual read, with local OCR used only as a transcription cross-check |
+
+The page is headed in handwriting with Arabic “quiz exams,” then `1) Anatomy` and
+`A) Anterior Compartment of Thigh`. It is a handwritten study-note page, not an exam sheet:
+there are no interrogative stems, answer choices, blank answer spaces, response marks or
+question/key layout. The arrows join anatomy subjects to facts rather than joining questions
+to answers. Therefore this source contributes **zero complete prompts, zero incomplete
+prompts and zero printed or handwritten answer keys**. Its five numbered statements are kept
+as auxiliary quiz-content evidence and are not counted as tested concepts.
+
+### Exact note-statement inventory
+
+| Note | Visible handwritten statement | Prompt status | Key status |
+|---:|---|---|---|
+| N1 | `Deep fascia of thigh → fascia lata` | note, not a prompt | none |
+| N2 | `Psoas major → anterior rami (L1–3)`; a word before `Psoas` is scribbled out but the surviving statement is complete | note, not a prompt | none |
+| N3 | `Rectus femoris → assist flexion of hip` | note, not a prompt | none |
+| N4 | `Vastus medialis & lateralis → keep patella in its position` | note, not a prompt | none |
+| N5 | `Boundaries of femoral ring`, with posterior `pectineal ligament`, medial `lacunar ligament`, lateral `femoral vein`, and anterior `inguinal ligament` around a ring sketch | note, not a prompt | none |
+| **Family 4** | **5 complete numbered note statements** | **0 complete / 0 incomplete prompts** | **0** |
+
+There is no exact repeated statement and no within-source semantic collapse: five note
+statements map one-to-one to five coverage handles. Four handles already occur in the LCS
+assessment ledger. N2 is the only new-to-LCS coverage candidate, but a note-only candidate
+does not change tested-concept or live/pending/new totals.
+
+### Statement-to-handle assignment and search ledger
+
+All five handles received four searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root, and the accepted prior-LCS
+ledger: **5 × 4 = 20 invocations**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `N1→iliotibial-tract` | `fascia lata`; `deep fascia thigh`; `iliotibial tract fascia`; `thigh deep fascia` | Family-2 `iliotibial-tract` can absorb fascia lata as the deep fascia whose lateral thickening forms the tract. External hits are glossary-only. | prior LCS (inherited new) | — |
+| 2 | `N2→psoas-major-oina` | `psoas major`; `psoas innervation`; `anterior rami L1 L3`; `lumbar plexus psoas` | The prior `hip-flexor-identification` handle covers action only; the sole live hit is an unrelated testicular-artery course. No same-scope innervation record exists. | note-only candidate; external new | MSK/ANA |
+| 3 | `N3→rectus-femoris-oina` | `rectus femoris`; `rectus femoris origin`; `femoral nerve quadriceps`; `hip flexion knee extension` | Exact Family-1/2 LCS handle; no new concept. | prior LCS (inherited new) | — |
+| 4 | `N4→quadriceps-femoris-action` | `vastus medialis patella`; `vastus lateralis patella`; `patellar stabilization quadriceps`; `patellar tracking muscles` | Family-3 quadriceps action handle can absorb medial/lateral patellar stabilisation; no separate same-scope external record was found. | prior LCS (inherited pending) | — |
+| 5 | `N5→femoral-sheath` | `femoral ring boundaries`; `femoral ring`; `lacunar pectineal ligament`; `femoral canal ring` | Family-1/2 sheath/canal handle already owns the femoral ring scope; pending AU material also names the ring as the canal's upper opening. | prior LCS (inherited pending) | — |
+
+### Family-4 checkpoint and cumulative LCS-103 delta
+
+| Family-4 evidence bucket | Numbered note statements | Coverage handles | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 4 | 4 | 0 | 2 | 2 |
+| New-to-LCS note-only candidate | 1 | 1 | 0 | 0 | 1 |
+| **Family 4 auxiliary evidence** | **5** | **5** | **0** | **2** | **3** |
+
+These are evidence-bucket dispositions, not a module concept delta. The assessment-led module
+delta is **+0 observed prompts, +0 printed keys, +0 resolved tested concepts**. The separate
+auxiliary-note count is now five statements.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 3 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 4 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 4** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `4 prior + 1 note-only = 5` statement assignments; `0 + 2 + 3 = 5`
+evidence dispositions; module arithmetic remains `4 + 25 + 53 = 82`. Family 3's one
+unresolved phase-4 crop handle also remains outside these tested-concept totals.
+
 ## Exact next debt
 
-- The next untriaged actual-assessment family is the five local Anatomy quiz-content images:
-  `src_773a3d8e00f38cedff12`, `src_2da654a75a9d236de8a7`,
+- The next untriaged local Anatomy quiz-content image is `src_2da654a75a9d236de8a7`,
+  `Most important notes anatomy (Quiz content)2.jpg`. The other three Anatomy images follow:
   `src_9b509a75a7e648219f37`, `src_5bb02d6293fb60233949`, and
-  `src_086eb3c89677239baa74`. Their rendered prompt/key count, repeat collapse and semantic
-  search remain wholly outside this checkpoint.
+  `src_086eb3c89677239baa74`. Their visual prompt/note classification, key status, repeat
+  collapse and semantic search remain wholly outside this checkpoint.
 - The three local Pathology quiz-content images in the actual-assessment lane,
   `src_4ee3e3e63fa0804576fb`, `src_e8309c2953d770051cf0`, and
   `src_758188828699ae3569f4` remain after the Anatomy images. Their content counts and key
