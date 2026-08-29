@@ -527,3 +527,123 @@ At source-concept level this family is live 0 / pending 11 / new 0.  After cross
 **Remaining file list:** 103 selected inventory paths / 98 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `dbcea142ee933fda95f915ee8801a89ada6031098c0942e378097988d42bb6da`.  By the pinned triage text classification, it contains 58 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 103 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
+
+## Continuation pass — Physiology final highlighted-answer family
+
+The asserted starting remaining-hash checksum `dbcea142ee933fda95f915ee8801a89ada6031098c0942e378097988d42bb6da` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 98 hashes before this pass.  The next evidence-ranked unread substantive `06 EOM Exams` source is an explicitly titled final-question paper whose answer options are visibly highlighted.  All thirteen pages were rendered and read.  Every answer below is a transcription of the green-highlighted printed option; none was inferred, corrected, or supplied from another source.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed questions read | Printed keys recovered |
+|---|---|---|---|---:|---:|---:|
+| Physiology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Physiology/06 EOM Exams/EOM MCQs - FHB FINAL QUESTIONS Answers.pdf` | `56137b8483844ab6aa52d12ee164beaac03207d97195414019bf70a4350dfeb4` | 13 | 100 | 100 |
+
+### Printed-key ledger
+
+Each letter is the visibly highlighted option for the numbered printed question in that ten-question range.
+
+| Questions | Printed keys |
+|---|---|
+| 1–10 | `D C B D C B C C B C` |
+| 11–20 | `C D B C B C C B C C` |
+| 21–30 | `B B C B C C D B C B` |
+| 31–40 | `B C C B B C C D B D` |
+| 41–50 | `C B B C C C C C B C` |
+| 51–60 | `C C B B B C B C B C` |
+| 61–70 | `B C B B B B A D C B` |
+| 71–80 | `B C C B B B B C C B` |
+| 81–90 | `B C C C B C B B C C` |
+| 91–100 | `C C C B B B C C B B` |
+
+### Question-to-concept and search ledger
+
+Every source-distinct tested concept was searched with both phrases shown using the manual tool.  `Already triaged` is only cross-source question-to-concept deduplication; it does not name an identifier, placement, or new content record.
+
+| Printed Q | Assigned tested concept (two search phrases) | Result |
+|---:|---|---|
+| 1, 2, 4 | Body-water compartment proportions (`total body water`; `intracellular extracellular fluid`) | pending-hit |
+| 3 | Intracellular-fluid electrolyte composition (`intracellular ions`; `potassium phosphate magnesium`) | new — TBD |
+| 5–7 | Negative water balance and dehydration (`negative water balance`; `dehydration extracellular fluid`) | new — TBD |
+| 8 | Overhydration and cardiac pressure (`overhydration`; `fluid overload heart`) | new; already triaged through the FHB overhydration concept |
+| 9 | Blood viscosity and arterial pressure (`blood viscosity`; `arterial blood pressure`) | live-hit |
+| 10 | Normal adult-male red-cell count (`red blood cell count`; `adult male RBC count`) | new — TBD |
+| 11 | Biconcave red-cell surface area (`biconcave erythrocyte`; `red cell surface area`) | new; already triaged through red-cell biconcavity/deformability |
+| 12 | Anucleate nature of mature red cells (`mature erythrocyte nucleus`; `anucleate red blood cell`) | pending-hit |
+| 13 | Red-cell cytoskeleton and shape (`erythrocyte cytoskeleton`; `RBC shape`) | new — TBD |
+| 14 | Red-cell lifespan (`erythrocyte lifespan`; `red cell 120 days`) | live-hit |
+| 15 | Reticuloendothelial clearance of old red cells (`erythrocyte breakdown`; `reticuloendothelial`) | live-hit; already triaged |
+| 16 | Haematocrit definition (`hematocrit`; `red cell volume whole blood`) | live-hit |
+| 17 | Normal female haemoglobin concentration (`female hemoglobin`; `normal haemoglobin concentration`) | new — TBD |
+| 18 | Carbonic anhydrase in carbon-dioxide transport (`carbonic anhydrase`; `carbon dioxide transport red cell`) | live-hit |
+| 19, 20 | Haemoglobin oxygen-carrying capacity (`hemoglobin oxygen capacity`; `one gram hemoglobin oxygen`) | new — TBD |
+| 21 | Adult haemoglobin globin-chain composition (`adult hemoglobin`; `alpha beta globin`) | live-hit; already triaged |
+| 22 | Fetal haemoglobin gamma chains (`fetal hemoglobin`; `HbF gamma chains`) | live-hit |
+| 23 | Fetal-to-adult haemoglobin transition (`fetal haemoglobin transition`; `HbF replaced by HbA`) | new — TBD |
+| 24, 81 | Bohr effect: reduced pH and oxygen affinity (`Bohr effect`; `low pH hemoglobin affinity`) | live-hit |
+| 25 | 2,3-DPG modulation of haemoglobin affinity (`haemoglobin affinity 2,3-DPG`; `2,3-DPG hemoglobin`) | new — TBD |
+| 26 | Carbon dioxide carriage as carbaminohaemoglobin (`carbaminohemoglobin`; `carbon dioxide hemoglobin`) | pending-hit |
+| 27 | Carbon-monoxide affinity for haemoglobin (`carbon monoxide`; `carboxyhemoglobin`) | live-hit; already triaged |
+| 28 | Haemoglobin iron oxidation state / methemoglobin (`ferrous iron`; `methemoglobin ferric`) | live-hit; already triaged |
+| 29, 30 | Plasma volume and chief plasma cation (`plasma volume`; `plasma sodium`) | live-hit |
+| 31, 96 | Albumin and plasma oncotic pressure (`albumin oncotic pressure`; `plasma protein edema`) | new — TBD |
+| 32 | Gamma-globulin source (`gamma globulins`; `lymphocyte gamma globulin`) | live-hit |
+| 33 | Albumin/globulin ratio (`albumin globulin ratio`; `A/G ratio`) | new — TBD |
+| 34 | Plasma-protein synthesis and breakdown (`plasma protein synthesis`; `plasma protein breakdown`) | new — TBD |
+| 35 | Rouleaux formation (`rouleaux`; `red cell aggregation`) | pending-hit; already triaged |
+| 36 | Normal adult-male ESR (`normal ESR`; `adult male ESR`) | new — TBD |
+| 37–39, 86 | Osmotic fragility and red-cell shrinkage (`osmotic fragility`; `hypertonic red blood cells`) | pending-hit |
+| 40 | Adult site of erythropoiesis (`erythropoiesis bone marrow`; `adult red marrow erythropoiesis`) | new — TBD |
+| 41, 42, 98 | Renal erythropoietin response to hypoxia (`erythropoietin`; `EPO erythroid`) | pending-hit; already triaged |
+| 43 | Normoblast haemoglobin synthesis (`normoblast`; `erythroblast hemoglobin`) | pending-hit; already triaged through erythroblast haemoglobin accumulation |
+| 44 | Reticulocyte residual intracellular structures (`reticulocyte`; `reticulocyte residual RNA`) | live-hit; already triaged |
+| 45 | Body-iron distribution in haemoglobin (`body iron hemoglobin`; `iron distribution hemoglobin`) | new — TBD |
+| 46 | Ferritin as iron storage form (`ferritin`; `intracellular iron`) | pending-hit; already triaged |
+| 47, 48 | Reduction and gastric-HCl roles in iron absorption (`iron absorption`; `gastric hydrochloric acid iron`) | live-hit |
+| 49, 52, 82 | Intrinsic-factor-dependent B12 absorption and pernicious anaemia (`intrinsic factor`; `pernicious anemia`) | live-hit; already triaged |
+| 50, 80 | Folate/B12-dependent nuclear maturation and macrocytic anaemia (`folate`; `nuclear maturation anemia`) | live-hit; already triaged |
+| 51 | Iron-deficiency microcytic anaemia (`iron deficiency`; `microcytic anemia`) | live-hit; already triaged |
+| 53, 99 | Aplastic anaemia from marrow depression (`aplastic anemia`; `bone marrow depression anemia`) | live-hit; already triaged |
+| 54 | Acute blood-loss anaemia pattern (`acute blood loss`; `normocytic anemia`) | live-hit; already triaged |
+| 55 | Anaemia, reduced viscosity, and cardiac work (`anemia viscosity`; `anemia cardiac work`) | new — TBD |
+| 56, 57, 77, 90, 97 | Primary/secondary and physiological polycythaemia (`polycythemia`; `hypoxia polycythemia`) | pending-hit; already triaged |
+| 58 | Normal platelet count (`normal platelet count`; `platelet count`) | pending-hit |
+| 59 | Megakaryocyte origin of platelets (`megakaryocyte`; `platelet formation`) | live-hit; already triaged |
+| 60 | Platelet lifespan (`platelet lifespan`; `platelet life span`) | new — TBD |
+| 61 | Von Willebrand factor in platelet adhesion (`von Willebrand factor`; `platelet adhesion collagen`) | pending-hit |
+| 62 | Platelet dense granules (`platelet dense granules`; `ADP serotonin platelets`) | new — TBD |
+| 63, 65, 85 | Extrinsic coagulation pathway (`extrinsic pathway`; `tissue thromboplastin`) | live-hit; already triaged through factor VII/extrinsic pathway |
+| 64 | Vitamin-K-dependent clotting factors (`vitamin K clotting`; `factors II VII IX X`) | new — TBD |
+| 66 | Intrinsic coagulation-pathway steps (`intrinsic pathway`; `intrinsic coagulation pathway`) | pending-hit |
+| 67 | Common-pathway thrombin generation (`common coagulation pathway`; `prothrombin thrombin`) | new — TBD |
+| 68 | Factor-XIII fibrin stabilisation (`factor XIII`; `fibrin stabilization`) | live-hit |
+| 69, 94 | Antithrombin III and heparin (`antithrombin III`; `heparin antithrombin`) | live-hit |
+| 70, 92 | Prostacyclin and thromboxane platelet effects (`prostacyclin`; `thromboxane platelet`) | live-hit |
+| 71, 95 | Thrombocytopenic petechiae (`thrombocytopenia`; `petechiae`) | pending-hit; already triaged through purpura/thrombocytopenic bleeding |
+| 72 | X-linked haemophilia (`hemophilia`; `X linked recessive`) | pending-hit |
+| 73 | Disseminated intravascular coagulation (`disseminated intravascular coagulation`; `DIC bleeding clotting`) | pending-hit |
+| 74 | Albumin urinary loss (`albuminuria`; `albumin loss urine`) | pending-hit |
+| 75 | Plasma-protein buffering (`plasma protein buffer`; `Na proteinate`) | new — TBD |
+| 76 | Immunoglobulin effect on ESR (`ESR immunoglobulins`; `immunoglobulins erythrocyte sedimentation`) | new — TBD |
+| 78 | Macrophage iron recycling (`iron recycling`; `spleen macrophage iron`) | new — TBD |
+| 79 | Copper cofactors in haemoglobin formation (`copper deficiency`; `hemoglobin formation copper`) | new — TBD |
+| 83 | Platelet factor 3 as catalytic phospholipid surface (`platelet factor 3`; `platelet phospholipid surface`) | live-hit |
+| 84 | Serum consumption of factor II (`serum clotting factors`; `prothrombin serum`) | new — TBD |
+| 87 | Fibrinogen shape and blood viscosity (`fibrinogen viscosity`; `fibrinogen elongated shape`) | new — TBD |
+| 88 | Haemoglobinopathies and abnormal globin chains (`hemoglobinopathy`; `abnormal globin chains`) | pending-hit |
+| 89 | HbS formation in sickle-cell anaemia (`HbS`; `sickle cell HbS`) | pending-hit |
+| 93 | Factor-XII contact activation (`factor XII`; `contact activation collagen`) | live-hit |
+| 100 | Hemosiderosis (`hemosiderosis`; `iron tissue deposition`) | pending-hit |
+
+The 100 questions collapse to 72 source-distinct tested concepts.  Twenty reproduce concepts already represented in completed FHB sources (overhydration, biconcavity, red-cell clearance, HbA composition, carbon-monoxide and methemoglobin items, rouleaux, erythropoietin, normoblast maturation, reticulocytes, ferritin, intrinsic factor/B12, folate/B12 maturation, iron deficiency, aplastic and acute-blood-loss anaemia, polycythaemia, megakaryocytes, the extrinsic pathway, and thrombocytopenic bleeding).  This family therefore adds 52 cumulative distinct concepts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Physiology final highlighted-answer family) | 326 | 297 | 184 | 53 | 53 | 78 | TBD |
+
+**Observed delta:** +100 questions, +100 printed keys, +72 source-distinct tested concepts / +52 after cross-source deduplication.  The cumulative search buckets reconcile exactly: `53 + 53 + 78 = 184`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology final highlighted-answer family
+
+**Remaining file list:** 102 selected inventory paths / 97 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `4b16c89641807c8b7d6432125f8fb25bdad96ec23c5a35e841e15ffc3928475c`.  By the pinned triage text classification, it contains 57 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 102 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next unread substantive `06 EOM Exams` source family, then update from observed questions only.
