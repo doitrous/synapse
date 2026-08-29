@@ -1055,13 +1055,172 @@ Module arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop
 5's malformed auxiliary handle remain outside tested-concept totals; Family 11 adds one
 recorded source conflict but no unresolved handle.
 
+## Family 12 — Pathology Tutorial 103 inside the department-bank PDF
+
+### Source identity, boundary and read method
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_88169dc9b6ad00181a0d` |
+| Manifest SHA-256 | `88169dc9b6ad00181a0d085489284934c5661fe950be822a59ef26ba5e6ae128` |
+| Recomputed SHA-256 | `88169dc9b6ad00181a0d085489284934c5661fe950be822a59ef26ba5e6ae128` |
+| File | `DPT BOOK MCQs - اسئلة كتاب القسم باثو College MCQs.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/BMS 102/Pathology/Questions/MCQs/DPT BOOK MCQs - اسئلة كتاب القسم باثو College MCQs.pdf` |
+| Manifest-path note | the manifest path contains one extra space before `.pdf`; the recomputed hash proves that the existing local file is the manifested source |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · Questions/MCQs; printed heading and accepted cross-module boundary assign Tutorial 103 to `HU-LCS-103` |
+| Container | 22-page, unencrypted, non-interactive A4 scan PDF; physical pp. 16–22 are printed pp. 256–262 |
+| Read method | all seven in-scope pages rendered at 180 dpi and read visually, source-first; no text-layer inference and no download |
+
+Physical pp. 16–22 begin with the printed heading `TUTORIAL 103`; they were excluded from
+the BMS-102 lane and are assessed here. Every page in that accepted boundary was rendered
+and visually read. There is no highlighted choice, tick, circle, filled blank, completed
+table, solution column or answer-key page. The family therefore contributes **33 observed
+prompts and zero printed keys**. In particular, no medically plausible option is promoted
+to a key.
+
+Q19's option labels `a`–`e`, option text and entire stem are visibly complete, so Q19 is a
+complete unkeyed prompt rather than an unresolved crop. Printed p. 262 uses `2.` twice: once
+for the metabolic-bone table
+and again for the arthritis comparison. Both source numbers are preserved without silently
+renumbering either prompt.
+
+### Exact prompt and key inventory
+
+| Printed page (physical page) | Prompt starts / response units | MCQ prompts | Written, completion or table prompts | Visible printed keys |
+|---:|---|---:|---:|---:|
+| 256 (16) | MCQ Q1–Q3 | 3 | 0 | 0 |
+| 257 (17) | Q3 options continue; MCQ Q4–Q6 and Q7 stem | 4 | 0 | 0 |
+| 258 (18) | Q7 options continue; MCQ Q8–Q10 | 3 | 0 | 0 |
+| 259 (19) | MCQ Q11–Q14 | 4 | 0 | 0 |
+| 260 (20) | MCQ Q15–Q18 | 4 | 0 | 0 |
+| 261 (21) | MCQ Q19; five prose tasks; six independently fillable blanks across three numbered completion lines | 1 | 11 | 0 |
+| 262 (22) | one metabolic-bone laboratory table, one RA/OA/gout comparison and one bone-mass diagnostic algorithm | 0 | 3 | 0 |
+| **Family 12** | **all in-scope pages** | **19** | **14** | **0** |
+
+The 14 non-MCQ prompts are counted at the independently answerable response-unit level:
+five prose tasks, six visible blanks and three p. 262 tasks. The four-disease by three-analyte
+laboratory table remains one integrated table prompt, not twelve prompts. There is no exact
+duplicate prompt form. MCQ Q2 and Q10 test the same periosteal-lifting/sunburst differential
+with different wording and collapse to one handle. Completion line 1's two blanks collapse
+to one matrix-products handle; completion line 2's three blanks collapse to one tissue-origin
+handle. Therefore `33 - 1 - 1 - 2 = 29` source-distinct tested-concept handles.
+
+### Prompt-to-handle assignment ledger
+
+| Assignment | Source prompt scope | Assigned handle | Repeat / collapse rule |
+|---|---|---|---|
+| MCQ Q1 | childhood bone deformity and decreased-process differential | `childhood-bone-deformity-decreased-process-differential` | distinct |
+| MCQ Q2 | periosteal lifting / sunburst bone-lesion differential | `sunburst-periosteal-lifting-bone-tumor-differential` | first occurrence |
+| MCQ Q3 | acute crystal-arthritis aetiology differential | `acute-crystal-arthritis-etiology-differential` | distinct |
+| MCQ Q4 | cartilage-capped benign bone-tumour differential | `cartilage-capped-benign-bone-tumor-differential` | distinct |
+| MCQ Q5 | older-adult high-ALP skull/bone-disorder differential | `older-adult-high-alp-skull-bone-disorder-differential` | distinct |
+| MCQ Q6 | pyogenic-osteomyelitis new-bone terminology | `chronic-osteomyelitis-sequestrum-involucrum-cloaca` | prior-LCS auxiliary handle promoted into tested evidence |
+| MCQ Q7 | rheumatoid-arthritis clinical/aetiology differential | `rheumatoid-arthritis-clinical-etiology-differential` | distinct |
+| MCQ Q8 | inherited progressive muscle-wasting differential | `inherited-progressive-muscle-wasting-differential` | distinct |
+| MCQ Q9 | familial collagen-disorder inheritance differential | `familial-collagen-disorder-inheritance-differential` | distinct |
+| MCQ Q10 | periosteal lifting / sunburst bone-lesion differential | `sunburst-periosteal-lifting-bone-tumor-differential` | semantic repeat of Q2; occurrence retained, handle collapsed |
+| MCQ Q11 | osteoarthritis clinical/aetiology differential | `osteoarthritis-clinical-etiology-differential` | distinct |
+| MCQ Q12 | adolescent primary malignant bone-neoplasm ranking | `adolescent-primary-malignant-bone-neoplasm-ranking` | distinct |
+| MCQ Q13 | epiphyseal bone-tumour origin differential | `epiphyseal-bone-tumor-origin-differential` | distinct |
+| MCQ Q14 | primary malignant bone-tumour ranking excluding myeloma | `primary-malignant-bone-tumor-ranking-excluding-myeloma` | distinct |
+| MCQ Q15 | multifocal bone-tumour association exception | `multifocal-bone-tumor-association-exception` | distinct |
+| MCQ Q16 | adolescent radiolucent bone-lesion differential | `adolescent-radiolucent-bone-lesion-differential` | distinct |
+| MCQ Q17 | painful cortical-shaft lucid/sclerotic lesion differential | `painful-cortical-shaft-lucid-sclerotic-lesion-differential` | distinct |
+| MCQ Q18 | enchondroma characteristics exception | `enchondroma-characteristics-exception` | distinct |
+| MCQ Q19 | giant-cell-tumour age/site characteristics | `giant-cell-tumor-stromal-cell-biology` | prior-LCS auxiliary disease handle promoted; all option labels are complete |
+| Prose W1 | compare chondrosarcoma and osteosarcoma | `chondrosarcoma-vs-osteosarcoma-comparison` | distinct |
+| Prose W2 | compare osteoblastoma and osteoid osteoma | `osteoblastoma-vs-osteoid-osteoma-comparison` | distinct |
+| Prose W3 | enumerate bone tumours by tissue origin | `bone-tumor-classification-by-tissue-origin` | distinct |
+| Prose W4 | enumerate malignant soft-tissue tumours | `malignant-soft-tissue-tumor-enumeration` | distinct |
+| Prose W5 | enumerate benign soft-tissue tumour characters | `benign-soft-tissue-tumor-characteristics` | distinct |
+| Complete C1 · blanks 1–2 | products of bone-forming tumours | `bone-forming-tumor-matrix-products` | two prompt units collapse to one handle |
+| Complete C2 · blanks 1–3 | tissue origins of soft-tissue tumours | `soft-tissue-tumor-tissue-origins` | three prompt units collapse to one handle |
+| Complete C3 · blank 1 | most common benign soft-tissue tumour in adults | `common-benign-soft-tissue-tumor-adults` | one prompt unit |
+| Table T1 | calcium/phosphorus/ALP patterns across four metabolic bone diseases | `metabolic-bone-disease-laboratory-patterns-table` | integrated table retained as one handle |
+| Printed `2.` W6 | compare rheumatoid arthritis, osteoarthritis and gout | `ra-oa-gout-comparison` | distinct; duplicate source numbering preserved |
+| W7 | diagnostic algorithm for young-adult bone mass | `young-adult-bone-mass-diagnostic-algorithm` | distinct |
+
+All differential handles remain option-neutral because the source is unkeyed. A live,
+pending or prior-lane semantic match is coverage evidence only and is never treated as the
+answer to an MCQ.
+
+### Search-before-mint and disposition ledger
+
+Each of the 29 handles received one search in each required surface: live state
+(`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), every prior `docs/*-Source-Imports` lane, and the accepted
+prior-LCS ledger. That is **29 × 4 = 116 required invocations**. One broad terminology or
+phrase-order follow-up per handle resolves narrow wording and false substring matches, for
+**145 invocations total**.
+
+| # | Handle assignment | Four required search queries | Same-idea / same-scope result | Evidence disposition |
+|---:|---|---|---|---|
+| 1 | `childhood-bone-deformity-decreased-process-differential` | `childhood bone deformity`; `rickets deformity`; `osteomalacia mineralization`; `high ALP rickets` | Pending vitamin-D/rickets material owns insufficient mineralisation and the childhood deformity/laboratory pattern. | pending; semantic coverage only, not a key |
+| 2 | `sunburst-periosteal-lifting-bone-tumor-differential` | `sunburst pattern`; `periosteal lifting`; `Codman triangle`; `bone tumor radiographic differential` | Prior LCS auxiliary and BMS triage clues mention the signs, but no substantive live/import-ready differential owns this unkeyed scope. | external new; related triage evidence only |
+| 3 | `acute-crystal-arthritis-etiology-differential` | `acute crystal arthritis`; `gout cause`; `podagra tophi`; `urate joint inflammation` | Live `CON-REN-31708150F8B722` and its gout article own the acute joint/tophi/urate disease scope. | live; semantic coverage only, not a key |
+| 4 | `cartilage-capped-benign-bone-tumor-differential` | `cartilage capped tumor`; `osteochondroma cartilage cap`; `benign bone exostosis`; `hamartoma osteochondroma` | BMS triage mentions osteochondroma only as an option/hamartoma clue; no substantive cartilage-cap differential exists. | external new |
+| 5 | `older-adult-high-alp-skull-bone-disorder-differential` | `older adult high ALP skull`; `Paget bone skull`; `mosaic bone disease`; `Paget laboratory pattern` | Pending metastatic-calcification material only mentions Paget incidentally; prior LCS is auxiliary evidence. | external new |
+| 6 | `chronic-osteomyelitis-sequestrum-involucrum-cloaca` | `sequestrum`; `involucrum`; `cloaca osteomyelitis`; `new bone pyogenic osteomyelitis` | Exact prior-LCS auxiliary handle; no fuller substantive external record owns the terminology set. | prior-LCS promotion; inherited external new |
+| 7 | `rheumatoid-arthritis-clinical-etiology-differential` | `rheumatoid arthritis clinical`; `rheumatoid etiology`; `autoimmune polyarthritis`; `rheumatoid joint pattern` | Pending pathology mentions rheumatoid disease only as an autoimmune/fibrinoid-necrosis example, not this clinical differential. | external new |
+| 8 | `inherited-progressive-muscle-wasting-differential` | `progressive muscle wasting inherited`; `muscular dystrophy dystrophin`; `skeletal muscle degeneration`; `muscle wasting differential` | Pending `CON-MSK-9D01E2358A65E2` owns progressive skeletal-muscle degeneration/dystrophin scope without supplying an option-specific answer. | pending; semantic coverage only, not a key |
+| 9 | `familial-collagen-disorder-inheritance-differential` | `familial collagen disorder`; `osteogenesis imperfecta inheritance`; `type I collagen bone`; `inherited brittle bone` | Prior auxiliary and pending vitamin material are narrower disease/defect mentions; no record owns the option-neutral inheritance differential. | external new |
+| 10 | `osteoarthritis-clinical-etiology-differential` | `osteoarthritis clinical`; `wear and tear arthritis`; `Heberden nodes`; `osteoarthritis etiology` | Existing OA strings are incidental and do not own the clinical/aetiology pattern. | external new |
+| 11 | `adolescent-primary-malignant-bone-neoplasm-ranking` | `adolescent malignant bone tumor`; `primary bone cancer teenager`; `osteosarcoma age ranking`; `Ewing osteosarcoma ranking` | Only prior LCS/BMS triage disease clues occur; no substantive age-ranked differential exists. | external new |
+| 12 | `epiphyseal-bone-tumor-origin-differential` | `epiphyseal bone tumor`; `tumor epiphysis`; `chondroblastoma epiphysis`; `giant cell tumor epiphysis` | Prior LCS auxiliary location notes do not own the unkeyed origin differential. | external new |
+| 13 | `primary-malignant-bone-tumor-ranking-excluding-myeloma` | `primary malignant bone tumor ranking`; `excluding myeloma bone tumor`; `common primary bone cancer`; `osteosarcoma ranking` | No same-scope substantive ranking record exists. | external new |
+| 14 | `multifocal-bone-tumor-association-exception` | `multifocal bone tumor`; `multiple bone lesions tumor`; `bone tumor association exception`; `multicentric bone neoplasm` | No substantive live, pending or prior-LCS record owns the exception scope. | external new |
+| 15 | `adolescent-radiolucent-bone-lesion-differential` | `adolescent radiolucent bone lesion`; `lucent lesion teenager`; `bone cyst differential`; `young patient lytic lesion` | Broad lesion strings are taxonomy/triage noise; no same-scope differential exists. | external new |
+| 16 | `painful-cortical-shaft-lucid-sclerotic-lesion-differential` | `painful cortical shaft lesion`; `lucent sclerotic bone lesion`; `diaphyseal cortical tumor`; `osteoid osteoma radiology` | Prior auxiliary osteoid-osteoma notes are disease clues, not this option-neutral imaging differential. | external new |
+| 17 | `enchondroma-characteristics-exception` | `enchondroma characteristics`; `enchondroma exception`; `benign cartilage tumor medulla`; `enchondroma clinical` | No substantive same-scope record exists. | external new |
+| 18 | `giant-cell-tumor-stromal-cell-biology` | `giant cell tumor age site`; `osteoclastoma epiphysis`; `stromal cell giant cell tumor`; `giant cell tumor characteristics` | Exact prior-LCS auxiliary disease handle can absorb the tested age/site attributes; no substantive external record exists. | prior-LCS promotion; inherited external new |
+| 19 | `chondrosarcoma-vs-osteosarcoma-comparison` | `chondrosarcoma osteosarcoma compare`; `cartilage bone matrix malignancy`; `chondrosarcoma versus osteogenic`; `bone sarcoma comparison` | No substantive comparison record exists. | external new |
+| 20 | `osteoblastoma-vs-osteoid-osteoma-comparison` | `osteoblastoma osteoid osteoma compare`; `osteoblastoma size aspirin`; `osteoid osteoma versus osteoblastoma`; `benign osteoid tumors comparison` | Two prior auxiliary disease handles supply fragments, but no comparison record owns the combined objective. | external new |
+| 21 | `bone-tumor-classification-by-tissue-origin` | `bone tumor tissue origin`; `bone tumor classification`; `osteogenic chondrogenic tumors`; `bone neoplasm histogenesis` | No substantive tissue-origin classification record exists. | external new |
+| 22 | `malignant-soft-tissue-tumor-enumeration` | `malignant soft tissue tumors`; `sarcoma enumeration`; `soft tissue malignancy types`; `mesenchymal malignant tumors` | Manifest/BMS triage mentions are broad evidence, not a substantive enumeration. | external new |
+| 23 | `benign-soft-tissue-tumor-characteristics` | `benign soft tissue tumor characteristics`; `benign mesenchymal tumor features`; `soft tissue tumor benign clinical`; `benign tumor behavior` | No same-scope substantive record exists. | external new |
+| 24 | `bone-forming-tumor-matrix-products` | `osteoid matrix`; `bone forming tumor products`; `osteoid mineralized bone`; `tumor bone matrix` | Pending AU-MED-105 histology material owns osteoid as unmineralised matrix and its mineralisation into calcified bone. | pending |
+| 25 | `soft-tissue-tumor-tissue-origins` | `soft tissue tumor tissue origin`; `mesenchymal tumor origins`; `soft tissue neoplasm histogenesis`; `tumor tissue categories` | No substantive record owns the requested origin set. | external new |
+| 26 | `common-benign-soft-tissue-tumor-adults` | `common benign soft tissue tumor adults`; `lipoma adult frequency`; `fibroma lipoma ranking`; `commonest soft tissue tumor` | Individual lipoma/fibroma mentions do not own the adult frequency-ranking objective. | external new |
+| 27 | `metabolic-bone-disease-laboratory-patterns-table` | `metabolic bone calcium phosphorus ALP`; `rickets osteomalacia osteoporosis Paget labs`; `bone disease laboratory table`; `calcium phosphate alkaline phosphatase` | Pending rickets and narrower disease fragments exist, but no one record owns all four diseases across the three analytes. | external new |
+| 28 | `ra-oa-gout-comparison` | `rheumatoid osteoarthritis gout compare`; `RA OA gout table`; `inflammatory degenerative crystal arthritis`; `arthritis differential comparison` | Disease mentions are fragmented across records; no substantive three-way comparison exists. | external new |
+| 29 | `young-adult-bone-mass-diagnostic-algorithm` | `young adult bone mass algorithm`; `bone lesion age site radiology microscopy`; `bone tumor diagnostic algorithm`; `bone mass differential` | Broad bone strings and taxonomy hits do not own the requested age/site/radiology/microscopy workflow. | external new |
+
+External disposition arithmetic is `1 live + 3 pending + 25 external new = 29` handles. The
+two prior-LCS auxiliary promotions remain external-new dispositions because the earlier note
+families did not count them as tested concepts. They now enter assessment totals once each.
+None of the 29 handles repeats a concept already included in the accepted 82 tested-concept
+baseline.
+
+### Family-12 checkpoint and cumulative LCS-103 delta
+
+| Family-12 evidence bucket | Prompt occurrences | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Semantic repeat / completion collapse | 4 | 0 | 0 | 0 | 0 | 0 |
+| Resolved tested concepts | 29 | 29 | 1 | 3 | 25 | 0 |
+| **Family 12 assessment evidence** | **33** | **29** | **1** | **3** | **25** | **0** |
+
+Family 12 adds **+33 observed prompts, +0 printed keys and +29 resolved tested concepts**.
+The 50 Anatomy/Pathology auxiliary statements remain separate and unchanged.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 11 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 12 assessment delta | +33 | +0 | +29 | +1 | +3 | +25 |
+| **LCS-103 cumulative after Family 12** | **201** | **75** | **111** | **5** | **28** | **78** |
+
+Arithmetic checks: `19 MCQ + 14 written/completion/table = 33`; `33 - 4 collapsed
+occurrences = 29` handles; `1 + 3 + 25 = 29`; `168 + 33 = 201`; `75 + 0 = 75`;
+`82 + 29 = 111`; and `5 + 28 + 78 = 111`. Family 3's unresolved phase-4 crop and
+Family 5's malformed auxiliary note remain outside tested-concept totals. Family 12 adds
+neither an unresolved concept nor an inferred key.
+
 ## Exact next debt
 
-- All five Anatomy and all three Pathology quiz-content images are now visually triaged.
-- Pathology `TUTORIAL 103` is explicitly LCS-103 evidence even though it resides in the
-  BMS-102 department-bank PDF `src_88169dc9b6ad00181a0d`. Printed pp. 256–262 (physical
-  pp. 16–22) contain **33 raw prompts**: 19 MCQs and 14 written/completion/table prompts,
-  with no visually printed answer marks. It remains excluded from BMS-102 and is now the
-  exact next LCS-103 debt.
+- Tutorial 103 and all eight Anatomy/Pathology quiz-content images are now visually triaged.
+- Rank 4 (`HU-LCS-103 · anatomy + histology`) remains ahead of rank 5 in the committed wave
+  plan. Its next named, local, solved question source is
+  `src_5da6cd6d288fb46dba2f`, `MCQs - External Histo Cartilage & Bone MCQ + answers JPG.pdf`
+  (23 pages). It is the exact next bounded LCS-103 evidence debt; its explicit `External`
+  label must be preserved during eligibility review rather than assumed eligible.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.

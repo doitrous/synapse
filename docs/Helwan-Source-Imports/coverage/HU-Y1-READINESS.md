@@ -171,4 +171,12 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   osteoblastoma/Metaphysis atom conflicts with its earlier posterior-vertebral note and stays
   preserved. All eight local images are now triaged: 50 auxiliary statements and unchanged
   assessment totals.
-- Continue Tutorial 103; this remains S1 evidence only.
+- Tutorial 103 (printed pp. 256–262; physical pp. 16–22) inside the BMS-102 department-bank
+  PDF is LCS-103-owned assessment evidence: 33 prompts (19 MCQ and 14 written/completion/table),
+  no printed keys and 29 tested handles after four scope-tight collapses. Q19's a–e labels,
+  option text and stem are visibly complete, but it remains unkeyed. The handle dispositions
+  are 1 live, 3 pending and 25 new, bringing LCS-103 to 201 observed prompts, 75 keys and
+  111 concepts (5 live / 28 pending / 78 new); the 50 auxiliary notes stay outside those
+  assessment totals.
+- The next LCS-103 debt is external-labelled source `src_5da6cd6d288fb46dba2f`; preserve and
+  assess its eligibility before source triage. This remains S1 evidence only.
