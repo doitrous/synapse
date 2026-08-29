@@ -103,7 +103,7 @@ lipid-classification\tlipid|lipid class|phospholipid|triglyceride
 diphtheria-ef2\tdiphtheria|EF-2|elongation factor|ADP ribosylation
 rotenone-complex-i\trotenone|complex I|NADH dehydrogenase|ETC
 dna-methylation\tDNA methylation|methylation|epigenetic|CpG
-collagen-amino-acids\tcollagen|glycine|hydroxyproline|amino acid
+elastin-elasticity-amino-acids\telastin|elasticity|alanine|glycine
 xeroderma-pigmentosum-repair\txeroderma|xeroderma pigmentosum|nucleotide excision|thymine dimer
 alternative-splicing\talternative splicing|splicing|RNA processing|introns
 mitochondrial-dna-polymerase\tmitochondrial DNA|DNA polymerase gamma|polymerase gamma|mitochondria

@@ -340,3 +340,37 @@ generic proofreading does not establish bacterial DNA-polymerase-III proofreadin
 | complex-iv — `aa8 B-W1, p. 26` | `complex IV`; `cytochrome c oxidase`; `ETC`; `oxygen acceptor` | Pending `CON-FND-CFB54F33867C57` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-metabolism-concepts.md` identifies cytochrome oxidase as Complex IV and directly covers its cyanide inhibition, the examined Complex-IV inhibitor scope. | pending |
 
 Batch delta: `live +0`, `pending +13`, `new +7`; no concept ID is minted by this ledger.
+
+### Semantic adjudication batch 5 — next 20 unadjudicated handles
+
+The deterministic selection continues after batch 4: register rows 85–104 of
+`triage-bms101-search.mjs`. They contribute exactly 80 searches, four per handle. The
+records below were read for same-idea/same-scope coverage; incidental hits such as the
+diphtheria toxoid, generic topoisomerase, and collagen-versus-elastin comparison records are not
+merges. `b7c B49` remains an image/media dependency even though its underlying base-classification
+idea is already pending.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| etc-complexes — `aa8 B-W2, p. 26` | `electron transport`; `ETC`; `mitochondrial complex`; `oxidative phosphorylation` | Pending `CON-FND-A3BC299ED2C7C9` in `docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md` identifies the four complexes, CoQ/cytochrome-c carriers, and the distinct NADH/FADH2 entry routes. | pending |
+| etc-uncoupling — `aa8 B-W4, p. 27; b7c B42, p. 10` | `uncoupling`; `uncoupler`; `proton gradient`; `oxidative phosphorylation` | Pending `CON-FND-C3CB859E560A18` in `docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md` states proton-gradient dissipation, continued oxidation, lost ATP synthesis and heat release. | pending |
+| folate-deficiency — `aa8 B-W5, p. 27` | `folate`; `folic acid`; `megaloblastic`; `one carbon` | Pending `CON-HEM-EF9B70874983FB` in `docs/Alexandria-Source-Imports/concept/AU-MED-103-biochemistry-concepts.md` gives one-carbon failure, macrocytic/megaloblastic anaemia, and the absence of neurological signs. | pending |
+| rna-polymerase-iii — `b7c B27, p. 7` | `RNA polymerase III`; `polymerase III`; `5S RNA`; `RNA polymerase` | Pending `CON-FND-412F3EDF118F44` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md` assigns polymerase III to tRNA, 5S rRNA and snRNA. | pending |
+| start-codon-aug — `b7c B28, p. 7` | `AUG`; `start codon`; `methionine`; `translation initiation` | Pending `CON-FND-09FACBDCBBF8FD` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md` states AUG initiation and methionyl-tRNA recognition. | pending |
+| codon-degeneracy — `b7c B29, p. 8` | `codon degeneracy`; `degenerate code`; `genetic code`; `codon` | Pending `CON-FND-F7408686F4736E` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` defines degeneracy as several synonymous codons for one amino acid. | pending |
+| lipid-classification — `b7c B30, p. 8` | `lipid`; `lipid class`; `phospholipid`; `triglyceride` | Pending `CON-FND-30D2E317144DDF` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` classifies simple, compound and derived lipids by composition. | pending |
+| diphtheria-ef2 — `b7c B32, p. 8` | `diphtheria`; `EF-2`; `elongation factor`; `ADP ribosylation` | The pending diphtheria record covers formalin conversion of toxin to toxoid; no record names EF-2 ADP-ribosylation or translational arrest. | new |
+| rotenone-complex-i — `b7c B33, p. 9` | `rotenone`; `complex I`; `NADH dehydrogenase`; `ETC` | No record states rotenone inhibition of Complex I/NADH dehydrogenase; Complex-II and cyanide/Complex-IV records are near-misses. | new |
+| dna-methylation — `b7c B34, p. 9` | `DNA methylation`; `methylation`; `epigenetic`; `CpG` | Live `CON-FND-2447F778E94F18`, “Promoter DNA methylation and transcription”, states methyltransferase methylation of cytosine at CpG-rich promoters and associated gene silencing. | live |
+| elastin-elasticity-amino-acids — `b7c B35, p. 9` | `elastin`; `elasticity`; `alanine`; `glycine` | Pending `CON-FND-31F96EC2F609C9` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` describes elastin's one-chain, non-glycoprotein fibre, desmosine cross-links and elasticity, but not its alanine/glycine composition; no same-scope record exists. | new |
+| xeroderma-pigmentosum-repair — `b7c B39, p. 10` | `xeroderma`; `xeroderma pigmentosum`; `nucleotide excision`; `thymine dimer` | Pending `CON-FND-E8CD7F7F690B14` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md` identifies nucleotide-excision repair failure of UV pyrimidine-dimer damage. | pending |
+| alternative-splicing — `b7c B40, p. 10` | `alternative splicing`; `splicing`; `RNA processing`; `introns` | Pending `CON-FND-27013C64915C7E` in `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` gives intron removal/exon joining and alternative production of proteins from one transcript. | pending |
+| mitochondrial-dna-polymerase — `b7c B43, p. 11` | `mitochondrial DNA`; `DNA polymerase gamma`; `polymerase gamma`; `mitochondria` | Pending `CON-FND-A73C06E0EC3C1D` in `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` assigns DNA polymerase γ to mitochondrial-DNA synthesis. | pending |
+| deoxy-sugars — `b7c B48, p. 12` | `deoxy sugar`; `deoxyribose`; `sugar`; `nucleotide` | Pending `CON-FND-2BD334DFDAE34C` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` defines deoxy sugars by replacement of C2 hydroxyl with hydrogen and names 2-deoxyribose. | pending |
+| nitrogenous-base-structure — `b7c B49, p. 12` | `nitrogenous base`; `purine`; `pyrimidine`; `nucleotide` | Pending `CON-FND-21029C98FEA19F` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` classifies purine/pyrimidine bases and their nucleotide/nucleoside relations; the source image itself remains a media dependency. | pending |
+| cytokinesis — `b7c B50, p. 12` | `cytokinesis`; `cell division`; `cleavage furrow`; `actin ring` | Pending `CON-FND-6DEB5A4F0F1675` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` states actin-filament cleavage-furrow division of the cytoplasm in telophase. | pending |
+| meiosis-tetrads — `b7c B52, p. 13` | `tetrad`; `tetrads`; `meiosis`; `crossing over` | Pending `CON-FND-685D573458A6D7` in `docs/Kasr-Source-Imports/concept/104-CPS-histology-concepts.md` describes prophase-I tetrads of four chromatids and crossing over at chiasmata, matching B52's homologous-tetramer stage question. | pending |
+| topoisomerase-i-vs-ii — `b7c B-W3, p. 27` | `topoisomerase I`; `topoisomerase II`; `topoisomerase`; `DNA topology` | Existing pending topoisomerase content only describes generic relief of replication supercoils; no record distinguishes type I from type II. | new |
+| connective-tissue-receptors — `aa8 H1, p. 28` | `connective tissue receptor`; `mechanoreceptor`; `Pacinian`; `Ruffini` | Pending `CON-DER-56784AB396C13E` in `docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md` locates Meissner corpuscles in papillary dermis and Pacinian/Ruffini/Krause receptors in reticular dermis. | pending |
+
+Batch delta: `live +1`, `pending +15`, `new +4`; no concept ID is minted by this ledger.
