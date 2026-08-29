@@ -66,7 +66,7 @@ biotin-carboxylation\tbiotin|carboxylation|carboxylase|CO2
 ferroportin\tferroportin|iron export|hepcidin|enterocyte
 topoisomerase-ii-inhibition\ttopoisomerase II|etoposide|topoisomerase|DNA strand
 histone-chromatin-regulation\thistone|chromatin|histone modification|acetylation
-rho-dependent-termination\trho|rho dependent|termination|prokaryotic transcription
+tus-replication-termination\tTus|replication termination|Ter site|prokaryotic DNA replication
 oxygen-dissociation-curve\toxygen dissociation|oxyhaemoglobin|2,3-BPG|haemoglobin affinity
 linker-histone\tlinker histone|histone H1|nucleosome|chromatin
 gc-base-pairing\tguanine cytosine|GC|base pairing|hydrogen bonds

@@ -268,3 +268,41 @@ therefore remained pending where the precise pending record does.
 | somite-derivatives — `b7c A26, p. 7` | `somite derivatives`; `sclerotome`; `myotome`; `dermatome` | Pending `CON-DEV-5E63C211DEEE00` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` states that the myotome forms the skeletal muscles of the body, including body wall and limbs. | pending |
 
 Batch delta: `live +3`, `pending +16`, `new +1`; no concept ID is minted by this ledger.
+
+### Semantic adjudication batch 3 — next 20 unadjudicated handles
+
+The deterministic selection continues after batch 2, excluding the earlier-adjudicated
+`ubiquitin-protein-degradation` row: register rows 44–64 therefore yield the 20 handles
+below. The reproduced `--limit=64` transcript establishes the 64-concept/256-query
+structural slice; the source correction for `aa8 B13` replaces its erroneous rho queries
+with the four Tus/replication-termination queries recorded below, preserving this batch's
+80-query total. Every pending disposition names a record read for the same idea and scope.
+Generic or partial matches remain new: the pronator-teres record
+does not cover insertion/action, generic topoisomerase content does not establish
+etoposide/topoisomerase-II inhibition, and generic mismatch repair does not establish its
+HNPCC association.
+
+| Handle / evidence | Four runner queries | Scope-confirmed record read | Disposition |
+|---|---|---|---|
+| ectoderm-derivatives — `b7c A-W1, p. 27` | `ectoderm`; `ectoderm derivatives`; `neural crest`; `epidermis` | Pending `CON-DEV-C84AD85AB265CC` in `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` explicitly lists ectodermal nervous-system, neural-crest and epidermal derivatives. | pending |
+| pronator-teres-OINA — `b7c A-W2, p. 28` | `pronator teres`; `pronator`; `median nerve`; `coronoid process` | The pending AU-MED-105 pronator-teres article/concept gives its two origins and median-nerve relation, but not its insertion and action; it is a partial near-match, not the OINA scope. | new |
+| elastin-collagen-comparison — `aa8 B2, p. 11` | `elastin`; `elastic fibre`; `collagen`; `connective tissue` | Pending `CON-FND-31F96EC2F609C9` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` contrasts the shared hydroxyproline, chain number, glycoprotein status and cross-links. | pending |
+| sickle-cell-mutation — `aa8 B3, p. 11` | `sickle`; `sickle cell`; `beta globin`; `glutamate valine` | Pending `CON-HEM-BEF9577989EAF4` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` states the beta-globin Glu6Val point mutation. | pending |
+| translation-initiation — `aa8 B4, p. 11` | `translation initiation`; `initiation`; `AUG`; `ribosome` | Pending `CON-FND-09FACBDCBBF8FD` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md` states that AUG starts translation with methionyl-tRNA. | pending |
+| haemoglobinopathy — `aa8 B5, p. 12` | `haemoglobinopathy`; `hemoglobinopathy`; `globin`; `haemoglobin` | Pending `CON-HEM-3B1C5DBC2DB666` in `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` distinguishes abnormal globin structure (HbS) from reduced globin-chain production (thalassaemia). | pending |
+| quinolone-topoisomerase — `aa8 B6, p. 12` | `quinolone`; `fluoroquinolone`; `topoisomerase`; `DNA gyrase` | Pending `CON-FND-014D200ED96498` in `docs/Alexandria-Source-Imports/concept/AU-MED-102-biochem-molecular-concepts.md` identifies ciprofloxacin as a fluoroquinolone that inhibits bacterial DNA gyrase. | pending |
+| osteogenesis-imperfecta — `aa8 B7, p. 12` | `osteogenesis`; `osteogenesis imperfecta`; `type I collagen`; `brittle bone` | The four queries return only generic type-I-collagen records and an unrelated question option; no record ties osteogenesis imperfecta to its type-I-collagen brittle-bone scope. | new |
+| prokaryotic-transcription — `aa8 B8, p. 12` | `prokaryotic transcription`; `prokaryotic`; `RNA polymerase`; `sigma factor` | No query returns a same-scope bacterial transcription/sigma-factor record; eukaryotic and viral RNA-polymerase hits are near-misses. | new |
+| biotin-carboxylation — `aa8 B9, p. 13` | `biotin`; `carboxylation`; `carboxylase`; `CO2` | Pending `docs/Kasr-Source-Imports/question/103-BMS-MCQ-vitamins.md` explicitly gives biotin as the coenzyme for carboxylation/CO2-fixation reactions and names the three carboxylases. | pending |
+| ferroportin — `aa8 B10, p. 13` | `ferroportin`; `iron export`; `hepcidin`; `enterocyte` | Pending `CON-HEM-A6420C4B3B3D9A` in `docs/Kasr-Source-Imports/concept/102-INT-physiology-concepts.md` gives enterocyte iron export through ferroportin and hepcidin's degradation of it. | pending |
+| topoisomerase-ii-inhibition — `aa8 B11, p. 13` | `topoisomerase II`; `etoposide`; `topoisomerase`; `DNA strand` | The pending topoisomerase record only treats replication supercoil relief, and its ciprofloxacin record treats bacterial DNA gyrase; neither names etoposide or type-II inhibition. | new |
+| histone-chromatin-regulation — `aa8 B12, p. 14` | `histone`; `chromatin`; `histone modification`; `acetylation` | Pending `CON-FND-4C59A8FA82E031` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` explains histone acetylation/deacetylation as chromatin and transcription regulation. | pending |
+| tus-replication-termination — `aa8 B13, p. 14` | `Tus`; `replication termination`; `Ter site`; `prokaryotic DNA replication` | The printed question asks which protein terminates prokaryotic DNA replication: Tus. `Tus` returns only incidental substrings; the other three queries have no same-scope record, including no Ter-site or prokaryotic-replication result. | new |
+| oxygen-dissociation-curve — `aa8 B14, p. 14` | `oxygen dissociation`; `oxyhaemoglobin`; `2,3-BPG`; `haemoglobin affinity` | Pending `ART-104-PHY-OXYGEN-DISSOCIATION-CURVE` in `docs/Kasr-Source-Imports/article/104-CPS-articles.md` covers haemoglobin-oxygen curve shifts and affinity. | pending |
+| linker-histone — `aa8 B15, p. 15` | `linker histone`; `histone H1`; `nucleosome`; `chromatin` | Pending `CON-FND-3660CDEFA054C3` in `docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md` specifies H1 on linker DNA between nucleosomes. | pending |
+| gc-base-pairing — `aa8 B16, p. 15` | `guanine cytosine`; `GC`; `base pairing`; `hydrogen bonds` | Pending `CON-FND-5BAF472E54A764` in `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` states three G-C versus two A-T hydrogen bonds. | pending |
+| cyp-polymorphism — `aa8 B17, p. 15` | `CYP`; `cytochrome P450`; `polymorphism`; `pharmacogenetics` | CYP hits concern fungal-azole targets and a glossary term; the polymorphism/pharmacogenetics queries return no same-scope record. | new |
+| urease-enzyme-class — `aa8 B18; b7c B40, pp. 16/10` | `urease`; `urea`; `hydrolase`; `enzyme class` | The pending Proteus record states urease hydrolysis and the pending IUBMB record lists hydrolases, but neither assigns urease to the hydrolase class; no single same-scope record exists. | new |
+| mismatch-repair-hnpcc — `aa8 B19; b7c B38, pp. 16/10` | `mismatch repair`; `HNPCC`; `Lynch`; `DNA repair` | Pending repair records define mismatch repair after proofreading failure, but neither HNPCC nor Lynch yields a hit; the disease-association scope is absent. | new |
+
+Batch delta: `live +0`, `pending +12`, `new +8`; no concept ID is minted by this ledger.
