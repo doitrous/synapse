@@ -1,11 +1,15 @@
 package com.synapse.app.core.cache.room
+import androidx.room.withTransaction
 import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.cache.OutboxEntry
 import com.synapse.app.core.model.AttemptRecord
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
 
-class RoomLocalStore(private val db: SynapseDatabase) : LocalStore {
+class RoomLocalStore(
+    private val db: SynapseDatabase,
+    private val now: () -> Long = { System.currentTimeMillis() }
+) : LocalStore {
     private val catalogueDao = db.catalogueDao()
     private val outboxDao = db.outboxDao()
     private val attemptDao = db.attemptDao()
@@ -20,7 +24,7 @@ class RoomLocalStore(private val db: SynapseDatabase) : LocalStore {
     override suspend fun getCatalogue(key: String): String? = catalogueDao.json(key)
 
     override suspend fun enqueue(key: String, json: String) {
-        outboxDao.upsert(OutboxEntity(key = key, json = json, enqueuedAt = System.currentTimeMillis()))
+        outboxDao.upsert(OutboxEntity(key = key, json = json, enqueuedAt = now()))
     }
 
     override suspend fun pendingOutbox(): List<OutboxEntry> =
@@ -42,8 +46,10 @@ class RoomLocalStore(private val db: SynapseDatabase) : LocalStore {
         }
 
     override suspend fun clearAll() {
-        catalogueDao.clear()
-        outboxDao.clear()
-        attemptDao.clear()
+        db.withTransaction {
+            catalogueDao.clear()
+            outboxDao.clear()
+            attemptDao.clear()
+        }
     }
 }

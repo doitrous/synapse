@@ -23,7 +23,7 @@ interface OutboxDao {
     @Upsert
     suspend fun upsert(entity: OutboxEntity): Long
 
-    @Query("SELECT * FROM outbox")
+    @Query("SELECT * FROM outbox ORDER BY enqueuedAt ASC")
     suspend fun all(): List<OutboxEntity>
 
     @Query("DELETE FROM outbox WHERE key=:key")

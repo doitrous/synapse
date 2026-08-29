@@ -3,7 +3,10 @@ import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import com.synapse.app.core.cache.room.RoomLocalStore
 import com.synapse.app.core.cache.room.SynapseDatabase
+import com.synapse.app.core.model.AttemptRecord
 import kotlinx.coroutines.test.runTest
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
 import org.junit.After
 import org.junit.Assert.*
 import org.junit.Before
@@ -40,5 +43,33 @@ class RoomLocalStoreTest {
         store.putCatalogue("k", "t", "{}"); store.enqueue("x", "y")
         store.clearAll()
         assertNull(store.getCatalogue("k")); assertTrue(store.pendingOutbox().isEmpty())
+    }
+
+    @Test fun outboxPreservesFifoEnqueueOrder() = runTest {
+        // Physical row/insertion order alone is NOT enough to prove this: SQLite's
+        // default no-ORDER-BY scan happens to return rows in rowid (insertion) order
+        // for brand-new keys, which would mask a missing ORDER BY. To force a real
+        // signal we decouple insertion order from enqueuedAt order: "b" is inserted
+        // first (earlier rowid) but re-enqueued later (later enqueuedAt) than "a".
+        // Correct FIFO-by-enqueuedAt must report ["a", "b"]; a query with no
+        // ORDER BY (or one keyed on rowid/insertion order) would report ["b", "a"].
+        var clock = 0L
+        val fifoStore = RoomLocalStore(db, now = { clock++ })
+        fifoStore.enqueue("b", "v0")  // rowid 1, enqueuedAt 0
+        fifoStore.enqueue("a", "va")  // rowid 2, enqueuedAt 1
+        fifoStore.enqueue("b", "vb")  // upsert of rowid 1, enqueuedAt 2 (now the most recent)
+        val pending = fifoStore.pendingOutbox()
+        assertEquals(listOf("a", "b"), pending.map { it.key })
+    }
+
+    @Test fun putAttemptsMergesById() = runTest {
+        val month = "2026-08"
+        val original = AttemptRecord(id = "att-1", month = month, payload = JsonObject(mapOf("score" to JsonPrimitive(1))))
+        val updated = AttemptRecord(id = "att-1", month = month, payload = JsonObject(mapOf("score" to JsonPrimitive(2))))
+        store.putAttempts(listOf(original))
+        store.putAttempts(listOf(updated))
+        val results = store.attempts(month)
+        assertEquals(1, results.size)
+        assertEquals(updated.payload, results.first().payload)
     }
 }
