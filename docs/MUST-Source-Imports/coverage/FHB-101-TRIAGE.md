@@ -1275,3 +1275,79 @@ At source-concept level this family is live 0 / pending 1 / new 28.  After withi
 **Remaining file list:** 96 selected inventory paths / 91 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `be08745123f358b7b53f502d18bec1416f2146da7f3800aa73ebc83473f9dbfe`.  By the pinned triage text classification, it contains 51 substantive-text, six sparse-text, and 39 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
 
 **BLOCKED — S1 cannot be approved:** the remaining 96 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.
+
+## Continuation pass — Histology cytogenetics final-revision family
+
+The asserted starting remaining-hash checksum `be08745123f358b7b53f502d18bec1416f2146da7f3800aa73ebc83473f9dbfe` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 91 hashes before this pass.  The next evidence-ranked unread FHB family is the compact seven-page Histology cytogenetics final-revision paper, ahead of the remaining 20-, 56-, and 101-page EOM papers.  Its text layer is classified empty, but its rendered pages contain substantive question-and-answer material.  All seven pages were rendered and read.  It has 17 visibly numbered prompts, and every prompt has its printed on-page model answer; no answer was inferred, corrected, or supplied from another source.
+
+| Department | Category | Source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers recovered |
+|---|---|---|---|---:|---:|---:|
+| Histology | `06 EOM Exams` | `Year 1/Semester 101/FHB 101/Histology/06 EOM Exams/EOM MCQs - Cytogenetics Final Revision Qs answer.pdf` | `137b732d2192915c54a3b9b3b9fa245e48f991cabfd1d88c4212e279837e1c9b` | 7 | 17 | 17 |
+
+### Printed-prompt and assignment ledger
+
+The 17 prompt headings, read across all seven rendered pages, are: interphase and its comparison with mitosis (1); cell renewal classification (2); stem-cell types (3); necrosis versus apoptosis (4); mitosis (5); meiosis (6); mitosis versus meiosis (7); human chromosomes (8); centromere-position classification (9); sex chromatin (10); clinical importance of chromosomal examination (11); causes of chromosomal aberrations (12); euploidy versus aneuploidy (13); causes of aneuploidy (14); numerical autosomal abnormalities (15); numerical sex-chromosome abnormalities (16); and deletion/inversion/translocation/duplication/isochromosomes (17).  Each is followed on the printed page by a model-answer table or list.  Prompt 3 explicitly names two distinct potency classes, so it is recorded as two tested concepts rather than collapsed; all other headings have one assignment.
+
+| Printed prompts read | Assigned tested concept |
+|---|---|
+| 1 | Interphase stages and contrast with mitosis |
+| 2 | Cell renewal-capacity classification |
+| 3 | Pluripotent stem-cell potency |
+| 3 | Unipotent stem-cell potency |
+| 4 | Necrosis versus apoptosis |
+| 5 | Mitosis stages and features |
+| 6 | Meiosis stages and reduction division |
+| 7 | Mitosis versus meiosis |
+| 8 | Human-chromosome structure and terminology |
+| 9 | Chromosome classification by centromere position |
+| 10 | Barr body sex chromatin |
+| 11 | Clinical applications of chromosomal examination |
+| 12 | Causes of chromosomal aberrations |
+| 13 | Euploidy versus aneuploidy |
+| 14 | Mechanisms of aneuploidy |
+| 15 | Down syndrome trisomy 21 |
+| 16 | Sex-chromosome aneuploidy |
+| 17 | Structural chromosomal aberrations |
+
+The 17 prompts yield 18 source-distinct tested concepts because only prompt 3 is deliberately split.  Twelve reproduce completed FHB concepts: cell-renewal classification, unipotent potency, necrosis/apoptosis, mitosis stages, meiosis/reduction division, the mitosis-meiosis comparison, centromere-position classification, Barr body, euploidy/aneuploidy, Down syndrome, sex-chromosome aneuploidy, and structural chromosomal aberrations.  The family therefore adds six cumulative distinct concepts.
+
+### Tested-concept search ledger — Histology cytogenetics final-revision family
+
+Each source-distinct concept was searched with both phrases shown across live state and every pending import root.  A live hit takes precedence over pending.  The 18 named rows are exactly the 18 assignment rows above; `already triaged` denotes cross-source FHB collapse only.
+
+| Tested concept (two search phrases) | Result |
+|---|---|
+| Interphase stages and contrast with mitosis (`interphase mitosis comparison`; `cell cycle interphase mitosis`) | new — TBD |
+| Cell renewal-capacity classification (`cell renewal classification`; `continuously renewing cells`) | pending-hit; already triaged in FHB |
+| Pluripotent stem-cell potency (`stem cell potency`; `pluripotent unipotent stem cells`) | new — TBD |
+| Unipotent stem-cell potency (`unipotent stem cells`; `unipotent stem cell`) | new; already triaged in FHB |
+| Necrosis versus apoptosis (`necrosis apoptosis`; `programmed cell death`) | pending-hit; already triaged in FHB |
+| Mitosis stages and features (`mitosis stages`; `mitosis metaphase anaphase`) | new; already triaged in FHB |
+| Meiosis stages and reduction division (`meiosis stages`; `meiosis prophase I`) | new; already triaged in FHB |
+| Mitosis versus meiosis (`mitosis versus meiosis`; `mitosis meiosis comparison`) | pending-hit; already triaged in FHB |
+| Human-chromosome structure and terminology (`human chromosome structure`; `chromosome chromatid kinetochore telomere`) | new — TBD |
+| Chromosome classification by centromere position (`centromere classification`; `metacentric submetacentric acrocentric`) | new; already triaged in FHB |
+| Barr body sex chromatin (`Barr body`; `sex chromatin`) | pending-hit; already triaged in FHB |
+| Clinical applications of chromosomal examination (`chromosomal examination clinical importance`; `karyotyping clinical use`) | new — TBD |
+| Causes of chromosomal aberrations (`causes chromosomal aberrations`; `chromosomal damage nondisjunction`) | new — TBD |
+| Euploidy versus aneuploidy (`euploidy aneuploidy`; `polyploidy monosomy trisomy`) | new; already triaged in FHB |
+| Mechanisms of aneuploidy (`causes aneuploidy`; `nondisjunction anaphase lag`) | new — TBD |
+| Down syndrome trisomy 21 (`Down syndrome trisomy 21`; `trisomy 21 features`) | new; already triaged in FHB |
+| Sex-chromosome aneuploidy (`sex chromosome aneuploidy`; `Turner Klinefelter triple X`) | new; already triaged in FHB |
+| Structural chromosomal aberrations (`structural chromosomal aberrations`; `deletion inversion translocation duplication`) | pending-hit; already triaged in FHB |
+
+At source-concept level this family is live 0 / pending 5 / new 13.  After within-source and cross-source deduplication, its cumulative delta is live 0 / pending 0 / new 6.  No module ID, content record, placement, source, or catalogue entry was created.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources include the Histology cytogenetics final-revision family) | 810 | 743 | 264 | 60 | 63 | 141 | TBD |
+
+**Observed delta:** +17 questions, +17 printed keys / answers, +18 source-distinct tested concepts / +6 after within-source and cross-source deduplication.  The cumulative search buckets reconcile exactly: `60 + 63 + 141 = 264`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Histology cytogenetics final-revision family
+
+**Remaining file list:** 95 selected inventory paths / 90 unique SHA-256s.  Their sorted, newline-joined hash set (no trailing newline) checksum is `ae5428d6eda6bd04d6dae2725bb890fa3092912ba19393e7dc6df83d48315681`.  By the pinned triage text classification, it contains 51 substantive-text, six sparse-text, and 38 empty-text rows.  The ledger command in Evidence remains the authoritative exact path-and-hash list.
+
+**BLOCKED — S1 cannot be approved:** the remaining 95 selected source paths have not had every printed question read, their official/printed keys have not been recovered, and their concepts have not been searched.  The durable metadata-only evidence snapshot exists; the literal `TRIAGE APPROVED` gate remains absent.  Next: render-and-read the next evidence-ranked unread substantive source family, then update from observed questions only.

@@ -34,8 +34,8 @@
     "recoveryManifestTsv": "41d75ce7cbda7588df8899dfca164162f3f4617947aa5bee4ed985ee919b70b0",
     "coverageValidationTsv": "f4a9ae73a3fbc19a60d27e896d890ce39095d321b08aa69c4f3b9eb55c2ce9aa",
     "academicPackageJson": "a7dedb2b818688464671abf546b6c374ced44901876457a413c544cfc612d78c",
-    "readinessMarkdown": "90bef80b81a3dde93b24f3b0cdab5a927ae40c981c1c96423de854edbd54a014",
-    "triageMarkdown": "d868b50f8ed5d8acf44e73b0113761f652181277ead0eb1a5f5ddc24850793c6"
+    "readinessMarkdown": "999fe39a918a7a668c274b3d7b8cd9ef0a7748d0001ac236acaba3ff57a84198",
+    "triageMarkdown": "eeea488f00a66428e1c4b227a2d8e67054f35b04718c7dbf2c83524edeee5daf"
   },
   "inputMetadata": {
     "inventoryDeclaredFileMetadata": true,
@@ -66,6 +66,7 @@
   },
   "processedFamilies": {
     "sha256": [
+      "137b732d2192915c54a3b9b3b9fa245e48f991cabfd1d88c4212e279837e1c9b",
       "14aca09deac964563bef09fe2f12b651db40c7d789bad98527d56f90d74f8668",
       "23248abb15aad2399e99a4cf7c5d0d0aca0070287efb5e24739a982b83c8fafa",
       "2e869cc596ae375f593d7b899b2090c4bcb3ef4cd29e1fd4b68c01860de91a60",
@@ -82,29 +83,29 @@
       "e52ac69820eff5407e033622c6163130ce2e52f1624eade5a46ee3e3fb266bcb",
       "ebdfe31bcde14e7c0a3f068748d3f9543d34346a2d439c92c0add1de8b0d13af"
     ],
-    "uniqueSha256": 15
+    "uniqueSha256": 16
   },
   "remaining": {
-    "inventoryMetadataRows": 96,
-    "uniqueSha256": 91,
-    "sortedNewlineSha256": "be08745123f358b7b53f502d18bec1416f2146da7f3800aa73ebc83473f9dbfe",
+    "inventoryMetadataRows": 95,
+    "uniqueSha256": 90,
+    "sortedNewlineSha256": "ae5428d6eda6bd04d6dae2725bb890fa3092912ba19393e7dc6df83d48315681",
     "auditSampleStatusCounts": {
       "audit-extract-failed": 3,
       "audit-not-found": 6,
-      "empty-text": 41,
+      "empty-text": 40,
       "sparse-text": 6,
       "substantive-text": 40
     }
   },
   "triageCheckpointRemainingExtractionDebt": {
-    "emptyTextRows": 39,
+    "emptyTextRows": 38,
     "sparseTextRows": 6,
     "source": "pinned triage/readiness checkpoint; not replaced by audit-sample status counts"
   },
   "reconciliation": {
     "selectedUniqueSha256": 106,
-    "processedUniqueSha256": 15,
-    "remainingUniqueSha256": 91,
+    "processedUniqueSha256": 16,
+    "remainingUniqueSha256": 90,
     "processedPlusRemaining": 106
   },
   "year1RecoveryOutcomes": [
