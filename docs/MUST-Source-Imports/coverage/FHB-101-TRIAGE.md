@@ -2886,3 +2886,113 @@ The next evidence-ranked substantive source is the single 17-page Anatomy `05 MC
 
 **BLOCKED — S1 cannot be approved:** the closed General Embryology source is removed from
 the remainder, but the remaining 74 selected paths still require complete source-level triage.
+
+## Completed source — General embryology questions
+
+The next evidence-ranked source is the single selected Anatomy `05 MCQs` path below. Its
+SHA-256 occurs once in the pinned inventory, so there is no byte-identical selected-path
+duplicate.
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - General embryology questions.pdf` | `98361efdecd40f23a8e444b97fabf08cb8c5933c6d8f7bb10aa10c0e75d1551b` | 17 | substantive-text | pages 1–17 rendered and read | MUST-local revision/question bank; no institution, department, sitting, author, date or official-key claim is printed. |
+
+### Visual prompt and key inventory
+
+Pages 1–7 print a `General Embryology` block numbered G1–G40. Pages 8–16 print a second
+`Important Anatomy MCQ` block numbered I1–I53. Page 17 prints two answer tables. The lower
+table supplies I1–I53. The upper table prints G1–G41 even though no G41 prompt appears on any
+page. The complete visible inventory is therefore **93 complete MCQ prompt occurrences / 94
+directly printed answer-letter occurrences**: `40 + 53 = 93` prompts, `41 + 53 = 94`
+answer entries, with upper-table `41.B` retained as one orphan printed key. No prompt was
+invented for it and no answer was inferred.
+
+The answer tables are low-authority source claims. Several G letters conflict with the visible
+option text or with the separately printed I form; those letters are transcribed below without
+repair. `G` and `I` distinguish the two independently numbered blocks.
+
+### Source-first assignment, four-search replay, and prior-FHB ledger
+
+| Source refs | Printed letters as shown | Source-distinct tested concept (four search phrases) | Exact-scope disposition |
+|---|---|---|---|
+| G1 | `D` | Female-reproductive-system membership (`female reproductive system`; `female reproductive organs`; `prostate female reproductive system`; `female genital organs`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G2; I1 | `G2 A`; `I1 A` | Uterine-wall layers and endometrial lining (`uterine wall layers`; `endometrium innermost uterine layer`; `myometrium perimetrium`; `uterus wall endometrium`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| G3; I3, I7 | `G3 A`; `I3 B`; `I7 B` | Usual tubal/ampullary fertilization site (`fertilization ampulla uterine tube`; `site fertilization`; `fertilization uterine tube`; `common fertilization site`) | new externally; exact prior-FHB reuse — duplicate. |
+| G4 | `B` | Testis as male primary gonad (`male primary sex organ`; `testis male gonad`; `male reproductive gonad`; `testes primary organ`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G5; I4 | `G5 C`; `I4 C` | Gametogenesis and haploid gamete complement (`gametogenesis`; `haploid gamete chromosomes`; `23 chromosomes gamete`; `germ cells into gametes`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| G6; I5 | `G6 A`; `I5 B` | Secondary oocyte as female gamete (`secondary oocyte female gamete`; `female gamete`; `human oocyte`; `female gamete secondary oocyte`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G7 | `B` | Meiotic disturbance and Down-syndrome relation (`meiotic disturbance Down syndrome`; `meiosis nondisjunction trisomy 21`; `abnormal meiosis Down syndrome`; `Down syndrome gametogenesis`) | new; exact prior-FHB reuse — duplicate. |
+| G8 | `B` | Ovarian-cycle phases (`ovarian cycle phases`; `follicular ovulation luteal`; `ovarian cycle ovary`; `ovarian phases`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G9 | `B` | Menstrual/endometrial-cycle phase classification (`menstrual cycle phases`; `menstrual proliferative secretory ischemic`; `endometrial cycle`; `menstrual cycle exception`) | new externally; exact prior-FHB reuse — duplicate. |
+| G10; I6, I29 | `G10 D`; `I6 A`; `I29 A` | Fertilization definition and outcomes (`fertilization outcomes`; `fertilization restores diploid number`; `fusion male female gametes`; `fertilization begins cleavage`) | new externally; exact prior-FHB reuse — duplicate. |
+| G11 | `B` | Embryonic-versus-gestational-age origin (`embryonic age begins fertilization`; `gestational age fertilization difference`; `embryonic versus gestational age`; `fertilization two weeks after LNMP`) | new; exact prior-FHB reuse — duplicate. |
+| G12; I27 | `G12 B`; `I27 C` | Cleavage and blastomeres (`cleavage mitotic division zygote`; `cleavage blastomeres`; `embryonic cleavage`; `cleavage after fertilization`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| G13; I8, I10, I30 | `G13 B`; `I8 A`; `I10 C`; `I30 C` | Morula-to-blastocyst development and blastogenesis (`morula blastocyst development`; `blastogenesis morula cavity`; `morula features`; `morula 16 blastomeres`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G14 | `A` | Inner morula cells and embryoblast (`inner cells morula embryoblast`; `inner cell mass embryoblast`; `morula inner cells`; `embryoblast morula`) | new externally; exact prior-FHB reuse — duplicate. |
+| G15; I16–I17 | `G15 B`; `I16 B`; `I17 C` | Trophoblast layers (`trophoblast layers`; `syncytiotrophoblast`; `cytotrophoblast`; `trophoblast differentiation`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G16; I18–I20, I28 | `G16 B`; `I18 C`; `I19 A`; `I20 A`; `I28 D` | Implantation process, site, timing and features (`implantation process site timing`; `blastocyst implantation endometrium`; `implantation upper posterior uterus`; `implantation day 7 day 10`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G17 | `C` | Pregnant endometrium termed decidua (`decidua endometrium pregnancy`; `endometrium after implantation decidua`; `decidua`; `pregnant endometrium`) | new externally; exact prior-FHB reuse — duplicate. |
+| G18; I21–I22 | `G18 B`; `I21 B`; `I22 A` | Gastrulation and primitive streak (`gastrulation primitive streak`; `first sign gastrulation`; `gastrulation three layers`; `primitive streak`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| G19; I23–I24 | `G19 A`; `I23 A`; `I24 B` | Notochord as embryonic axis and nucleus-pulposus remnant (`notochord embryonic axis`; `notochord nucleus pulposus`; `notochord remnant`; `primordial embryonic axis`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| G20; I25, I42 | `G20 B`; `I25 B`; `I42 A` | Embryonic folding, cylindrical form and umbilical ring (`embryonic folding`; `folding cylindrical embryo`; `umbilical ring formation`; `folding fourth week`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G21; I15, I31 | `G21 B`; `I15 C`; `I31 A` | Epiblast as source of three germ layers (`three germ layers epiblast`; `epiblast germ layers`; `germ layers embryo`; `trophoblast not germ layer`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| I9 | `C` | Epiblast as floor of amniotic cavity (`epiblast floor amniotic cavity`; `amniotic cavity floor`; `epiblast amnion`; `bilaminar disc epiblast`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G22–G23; I13–I14, I32–I34 | `G22 B`; `G23 D`; `I13 A`; `I14 D`; `I32 C`; `I33 B`; `I34 A` | Ectodermal, neural-tube and neural-crest derivatives (`ectoderm neural tube neural crest`; `neural tube derivatives`; `neural crest derivatives`; `epidermis ectoderm`) | pending-hit at exact derivative scope; exact prior-FHB reuse — duplicate. |
+| G24; I36, I41 | `G24 B`; `I36 B`; `I41 B` | Fifth-week somite number and general features (`somite number fifth week`; `44 somites`; `somites embryonic age`; `fifth week somites`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| I35, I37–I39 | `I35 C`; `I37 B`; `I38 A`; `I39 C` | Paraxial somites and sclerotome/myotome/dermatome derivatives (`paraxial mesoderm somites`; `sclerotome myotome dermatome`; `somite derivatives`; `sclerotome bones cartilage`) | live-hit; exact prior-FHB reuse — duplicate. |
+| I40 | `C` | Intermediate-mesoderm urinary derivative (`intermediate mesoderm urinary system`; `intermediate mesoderm derivatives`; `urogenital mesoderm`; `urinary system embryology`) | new externally; exact prior-FHB reuse — duplicate. |
+| G25–G26 | `G25 B`; `G26 B` | Lateral-plate cavity and intraembryonic-coelom derivatives (`intraembryonic coelom`; `lateral plate mesoderm cavity`; `pericardial pleural peritoneal cavities`; `coelom derivatives`) | live-hit; exact prior-FHB reuse — duplicate. |
+| I43 | `A` | Endodermal gastrointestinal lining (`endoderm derivatives`; `gastrointestinal epithelial lining`; `endoderm GIT lining`; `respiratory epithelium endoderm`) | pending-hit at exact derivative scope; exact prior-FHB reuse — duplicate. |
+| G27; I11–I12 | `G27 B`; `I11 C`; `I12 D` | Full-term placental weight and gross surfaces (`full term placenta weight`; `placenta 500 g`; `placental fetal surface`; `full term placenta gross`) | new externally; exact prior-FHB reuse — duplicate. |
+| G28–G29 | `G28 B`; `G29 B` | Fetal chorion-frondosum and maternal decidua-basalis components (`chorion frondosum decidua basalis`; `fetal maternal placenta components`; `placental fetal part maternal part`; `decidua basalis placenta`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G30; I44 | `G30 C`; `I44 B` | Placental transfer, metabolic and gas-exchange functions (`placenta gas exchange nutrition`; `placental function`; `placenta metabolism transfer`; `placenta excretion exception`) | new externally; exact prior-FHB reuse — duplicate. |
+| I45 | `C` | Two-layer placental membrane late in pregnancy (`placental membrane last trimester`; `two placental layers`; `placental barrier`; `placental membrane`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| G31; I46, I53 | `G31 D`; `I46 B`; `I53 C` | Tubal ectopic pregnancy and lower-segment placenta previa (`ectopic pregnancy placenta previa`; `abnormal implantation`; `tubal ectopic pregnancy`; `lower uterine segment placenta`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G32–G33; I47–I48 | `G32 B`; `G33 C`; `I47 A`; `I48 B` | Full-term umbilical-cord length and vessels (`umbilical cord length vessels`; `umbilical cord 50 cm`; `two arteries one vein`; `umbilical cord structure`) | new externally; exact prior-FHB reuse — duplicate. |
+| G34–G35; I52 | `G34 B`; `G35 C`; `I52 B` | Normal amniotic-fluid volume and polyhydramnios (`normal amniotic fluid volume`; `polyhydramnios`; `amniotic fluid excess`; `amniotic fluid 800 1000 ml`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| G36; I2, I26 | `G36 B`; `I2 C`; `I26 B` | Primordial-germ-cell origin and umbilical-vesicle migration source (`primordial germ cells umbilical vesicle`; `germ cell origin yolk sac`; `germ cells endoderm`; `umbilical vesicle germ cells`) | new externally; exact prior-FHB reuse — duplicate. |
+| G37 | `B` | Dizygotic/fraternal twins (`dizygotic twins`; `fraternal twins`; `two zygotes twins`; `twins from two zygotes`) | pending-hit; exact prior-FHB reuse — duplicate. |
+| I49 | `A` | Monozygotic/identical twins (`monozygotic twins`; `identical twins`; `one zygote twins`; `monozygotic twinning`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G38 | `C` | Intrauterine duration and expected delivery (`intrauterine period 38 weeks`; `expected date delivery 38 weeks`; `pregnancy duration`; `fetal period duration`) | new externally; exact prior-FHB reuse — duplicate. |
+| G39; I50–I51 | `G39 D`; `I50 B`; `I51 C` | Embryonic and fetal periods (`embryonic fetal periods`; `embryo first eight weeks`; `fetus after eighth week`; `developing human embryo fetus`) | live-hit; exact prior-FHB reuse — duplicate. |
+| G40 | `B` | Congenital anomalies as abnormalities present at birth (`congenital anomalies`; `congenital abnormalities`; `present at birth abnormalities`; `birth defects`) | live-hit through the exact synonymous birth-defects record; no exact prior-FHB assignment — cumulative addition. |
+
+All **93 prompt occurrences** are assigned exactly once in the table. Source-first collapse
+produces **41 handles**, and the query ledger reconciles as **41 × 4 = 164 required searches**.
+Exact-scope source disposition is **16 live / 12 pending / 13 new = 41**. Forty handles exactly
+reuse completed prior-FHB scope. Only the congenital-anomalies definition survives, as live,
+so the post-prior-FHB result is **1 live / 0 pending / 0 new**.
+
+The orphan `G41 B` answer entry is not attached to a handle. Medically questionable or
+internally inconsistent printed letters—including G3, G4–G6, G9–G10, G13–G19, G24 and
+G29–G39—remain source claims only; they were not corrected or promoted to official-key
+authority.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+93
+questions / +94 directly printed answer entries / +1 concept = +1 live / +0 pending / +0
+new**. The cumulative table becomes:
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1508 | 1244 | 338 | 66 | 76 | 196 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 76 + 196 = 338`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **73 selected
+inventory paths / 71 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`03d7ebe49a001d164c09f746ef7b14eb44ce4f2f56ff6940fa87f157197d1446`. Pinned triage debt
+becomes **30 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`35 + 71 = 106`**.
+
+The next evidence-ranked substantive source is the single 11-page Anatomy `08 Midterm Exams`
+path `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Anatomy FHB101 Training Questions
+Part 2.pdf`, SHA-256
+`7f3b6495509665efac02b6c16b6bc1b28de0eba800d2b4b0cb73d280bbe6a129`.
+
+**BLOCKED — S1 cannot be approved:** 73 selected source paths remain untriaged.
