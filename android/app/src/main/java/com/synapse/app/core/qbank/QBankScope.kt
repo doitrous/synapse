@@ -30,7 +30,15 @@ object QBankScope {
     private const val QUESTION_TOPIC_PREFIX = "qt:"
 
     fun topicKey(topicId: String): String = "t:$topicId"
-    fun subtopicKey(subtopicId: String): String = "s:$subtopicId"
+
+    /**
+     * A subtopic key is namespaced by its topic (`s:<topicId>:<subtopicId>`) so
+     * that a `libraryId` cited under two different topics can never leak
+     * questions from one topic into the other's pool. The subtopicId (a
+     * libraryId) is assumed to contain no `:`; the topicId may (it is
+     * `qt:<title>`), so parsing splits from the right.
+     */
+    fun subtopicKey(topicId: String, subtopicId: String): String = "s:$topicId:$subtopicId"
 
     /**
      * The chapters a student can choose from, grouped by [Question.topic].
@@ -66,12 +74,20 @@ object QBankScope {
         if (scope.isEmpty()) return emptyList()
 
         val selectedTopicIds = scope.mapNotNull { key -> key.takeIf { it.startsWith("t:") }?.removePrefix("t:") }.toSet()
-        val selectedSubtopicIds = scope.mapNotNull { key -> key.takeIf { it.startsWith("s:") }?.removePrefix("s:") }.toSet()
+        // "s:<topicId>:<subtopicId>" -> (topicId, subtopicId). Split from the right
+        // because the topicId ("qt:<title>") itself contains ':' while the
+        // subtopicId (a libraryId) does not.
+        val selectedSubtopics = scope.mapNotNull { key ->
+            if (!key.startsWith("s:")) return@mapNotNull null
+            val rest = key.removePrefix("s:")
+            if (!rest.contains(':')) return@mapNotNull null
+            rest.substringBeforeLast(':') to rest.substringAfterLast(':')
+        }.toSet()
 
         return questions.filter { question ->
             val topicId = "$QUESTION_TOPIC_PREFIX${question.topic.trim()}"
             val topicSelected = topicId in selectedTopicIds
-            val subtopicSelected = question.libraryIds.any { it in selectedSubtopicIds }
+            val subtopicSelected = question.libraryIds.any { lib -> (topicId to lib) in selectedSubtopics }
             topicSelected || subtopicSelected
         }
     }
@@ -90,7 +106,7 @@ object QBankScope {
             next.remove(key)
         } else {
             next.add(key)
-            topics.firstOrNull { it.id == topicId }?.subtopicIds?.forEach { next.remove(subtopicKey(it)) }
+            topics.firstOrNull { it.id == topicId }?.subtopicIds?.forEach { next.remove(subtopicKey(topicId, it)) }
         }
         return next
     }
@@ -105,14 +121,14 @@ object QBankScope {
      */
     fun toggleSubtopic(scope: Set<String>, topicId: String, subtopicId: String, topics: List<TopicNode>): Set<String> {
         val topicKeyStr = topicKey(topicId)
-        val subKeyStr = subtopicKey(subtopicId)
+        val subKeyStr = subtopicKey(topicId, subtopicId)
         val next = scope.toMutableSet()
 
         when {
             topicKeyStr in next -> {
                 next.remove(topicKeyStr)
                 topics.firstOrNull { it.id == topicId }?.subtopicIds?.forEach { other ->
-                    if (other != subtopicId) next.add(subtopicKey(other))
+                    if (other != subtopicId) next.add(subtopicKey(topicId, other))
                 }
             }
             subKeyStr in next -> next.remove(subKeyStr)
