@@ -3075,3 +3075,94 @@ Questions.pdf`, SHA-256
 `032e8b2634ec8f4e8c9b694739f2d9f5a39115fa879437f18ed62e4b21dd0263`.
 
 **BLOCKED — S1 cannot be approved:** 72 selected source paths remain untriaged.
+
+## Completed source — Anatomy FHB101 Training Questions
+
+The next evidence-ranked source is one unique selected Anatomy `08 Midterm Exams` path:
+
+| Source path | SHA-256 | Pages | Audit class | Full visual read | Provenance / authority |
+|---|---|---:|---|---|---|
+| `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/Anatomy FHB101 Training Questions.pdf` | `032e8b2634ec8f4e8c9b694739f2d9f5a39115fa879437f18ed62e4b21dd0263` | 23 | substantive-text | pages 1–23 rendered and read | Local training/revision bank with a terminal answer table and one in-line answer; no institution, department, sitting, author, date or official-key claim is printed. |
+
+### Visual inventory and answer convention
+
+Pages 1–22 print one continuous Q1–Q101 MCQ sequence. Page 22 also prints `Answer: C`
+directly beneath Q101; page 23 prints the answer-letter table for Q1–Q100. The exact visible
+inventory is therefore **101 complete prompt occurrences / 101 directly printed answer
+occurrences**. There are no missing or orphan keys, and no answer was inferred. The printed
+letters remain low-authority study-bank claims: notably Q100 prints `E` although more than one
+visible option can be read as hyaline cartilage, and that source letter is preserved without
+correction or official-key uplift.
+
+### Source-first assignment, four-search replay, and prior-FHB ledger
+
+| Printed refs | Printed letters as shown | Source-distinct tested concept (four search phrases) | Exact-scope disposition |
+|---|---|---|---|
+| Q30–Q31, Q65 | `30 B`; `31 C`; `65 D` | Standard anatomical position (`anatomical position`; `palms facing forward`; `body erect facing front`; `standard anatomical position`) | pending-hit; no exact prior-FHB assignment — pending addition. |
+| Q1, Q20, Q32–Q33, Q66, Q88, Q91 | `1 D`; `20 B`; `32 A`; `33 B`; `66 B`; `88 B`; `91 B` | Anatomical planes (`transverse plane upper lower`; `median plane equal halves`; `coronal plane anterior posterior`; `parasagittal plane unequal halves`) | new externally; exact prior-FHB plane/terminology reuse — duplicate. |
+| Q34–Q35, Q67–Q69 | `34 A`; `35 D`; `67 A`; `68 D`; `69 D` | Anatomical directional terms (`lateral away median plane`; `proximal root limb`; `anterior front body`; `distal away origin`) | new externally; exact prior-FHB directional-terminology reuse — duplicate. |
+| Q70–Q73 | `70 A`; `71 C`; `72 C`; `73 B` | Anatomical movements (`flexion approximation opposing surfaces`; `retraction rotatory movement`; `inversion sole medially`; `circumduction combined movement`) | new externally; exact prior-FHB movement-terminology reuse — duplicate. |
+| Q2, Q15, Q84 | `2 B`; `15 A`; `84 A` | General arterial direction, wall and valve characteristics (`arteries remain open when cut`; `arteries carry blood away heart`; `arteries no valves`; `arterial walls thicker veins`) | new; no exact prior-FHB assignment — new addition. |
+| Q19, Q27, Q85 | `19 B`; `27 A`; `85 B` | General venous direction, wall, plexus and valve characteristics (`veins carry blood to heart`; `veins valves`; `veins venous plexuses`; `veins thinner walls arteries`) | new externally; exact prior-FHB vein/venule structure reuse — duplicate. |
+| Q21, Q76 | `21 C`; `76 D` | Bone blood supply (`bone blood supply nutrient artery`; `periosteal arteries bone`; `bone arteries attached muscles`; `visceral artery bone supply`) | new; no exact prior-FHB assignment — new addition. |
+| Q86 | `B` | Capillary structure, distribution and gas exchange (`capillaries minute channels`; `cornea avascular capillaries`; `capillary thin walls`; `capillaries gas exchange`) | new; prior FHB owns corneal avascularity but not this capillary-feature scope — new addition. |
+| Q87 | `C` | Relative lymphatic distribution and brain exception (`brain lymphatics absent`; `structures rich in lymphatics`; `serous mucous membranes lymphatics`; `dermis glands lymphatics`) | new externally; exact prior-FHB brain-lymphatic exception reuse — duplicate. |
+| Q3, Q61–Q62, Q79 | `3 B`; `61 D`; `62 C`; `79 C` | Skeletal, smooth and cardiac muscle characteristics (`skeletal muscle voluntary`; `skeletal muscle attached bones`; `smooth muscle blood vessel wall`; `cardiac muscle branched involuntary`) | new; no exact prior-FHB tissue-type assignment — new addition. |
+| Q28 | `B` | Fixed muscle end as origin (`muscle origin fixed end`; `fixed end muscle origin`; `muscle origin insertion`; `origin of muscle`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q80 | `B` | Aponeurosis as sheet-like muscle attachment (`aponeurosis fibrous sheet attachment`; `muscle aponeurosis`; `sheet like muscle attachment`; `fibrous tissue sheet attachment`) | new; no exact prior-FHB assignment — new addition. |
+| Q81 | `A` | Prime mover / agonist (`prime mover initiates movement`; `agonist prime mover`; `prime mover muscle`; `agonist initiates movement`) | new externally; exact prior-FHB reuse — duplicate. |
+| Q64 | `B` | Rectus femoris as a bipennate muscle (`bipennate muscle rectus femoris`; `rectus femoris bipennate`; `muscle architecture bipennate`; `bipennate example`) | new; no exact prior-FHB assignment — new addition. |
+| Q4, Q42, Q44, Q100 | `4 C`; `42 B`; `44 C`; `100 E` | Cartilage types, sites and persistence (`elastic cartilage auricle ear`; `hyaline cartilage articular cartilage`; `tip nose hyaline cartilage`; `cartilage persists throughout life`) | new; prior FHB owns articular hyaline cartilage but not this expanded type/site family — new addition. |
+| Q8, Q18, Q23, Q53–Q54 | `8 C`; `18 D`; `23 A`; `53 A`; `54 B` | Fibrous-joint types and examples (`fibrous joints sutures syndesmosis gomphosis`; `gomphosis teeth sockets`; `suture skull bones`; `syndesmosis tibia fibula`) | new; no exact prior-FHB assignment — new addition. |
+| Q9, Q11, Q55, Q94 | `9 C`; `11 B`; `55 B`; `94 A` | Primary cartilaginous joints (`primary cartilaginous joint epiphyseal plate`; `synchondrosis hyaline cartilage`; `primary cartilaginous joint temporary`; `epiphyseal plate joint type`) | new; no exact prior-FHB assignment — new addition. |
+| Q10, Q12, Q26, Q43, Q56 | `10 B`; `12 A`; `26 C`; `43 D`; `56 C` | Secondary cartilaginous joints and fibrocartilage examples (`secondary cartilaginous joint intervertebral disc`; `symphysis fibrocartilage`; `secondary cartilaginous joint permanent`; `intervertebral disc joint type`) | new externally; exact prior-FHB intervertebral/cartilaginous-joint reuse — duplicate. |
+| Q13 | `D` | Synovial-joint structure (`synovial joint capsule`; `synovial membrane`; `articular hyaline cartilage`; `synovial joint ligaments`) | pending-hit; exact prior-FHB synovial-joint structure reuse — duplicate. |
+| Q24–Q25, Q57–Q60, Q77–Q78 | `24 D`; `25 A`; `57 D`; `58 A`; `59 B`; `60 D`; `77 E`; `78 B` | Synovial-joint forms and examples (`synovial joint types hinge ball socket ellipsoid`; `saddle joint thumb carpometacarpal`; `shoulder elbow wrist hip joint types`; `hinge joint elbow ankle`) | new externally; exact prior-FHB joint-type classification reuse — duplicate. |
+| Q5, Q7, Q16–Q17, Q22, Q49–Q52, Q90, Q92, Q96–Q97, Q99 | `5 C`; `7 C`; `16 D`; `17 B`; `22 A`; `49 C`; `50 C`; `51 D`; `52 D`; `90 E`; `92 A`; `96 E`; `97 B`; `99 B` | Bone classification by shape and examples (`bone shape classification long short flat irregular`; `carpal tarsal short bones`; `patella pisiform sesamoid bones`; `scapula ribs flat bones`) | new; prior FHB owns carpal short-bone classification but not this expanded shape/example family — new addition. |
+| Q6, Q14, Q29, Q45, Q74, Q101 | `6 B`; `14 C`; `29 A`; `45 B`; `74 D`; `101 C` | Axial and appendicular skeleton membership (`axial skeleton sternum ribs spine`; `appendicular skeleton scapula clavicle limbs`; `shoulder girdle clavicle scapula`; `axial skeleton includes sternum`) | new; no exact prior-FHB assignment — new addition. |
+| Q46–Q48, Q75, Q89, Q93 | `46 A`; `47 C`; `48 B`; `75 B`; `89 D`; `93 B` | Long-bone parts and growth in length/diameter (`epiphysis diaphysis metaphysis`; `epiphyseal plate growth length`; `periosteum growth diameter`; `long bone ends epiphyses`) | new externally; exact prior-FHB long-bone structure/growth reuse — duplicate. |
+| Q36–Q37, Q98 | `36 B`; `37 A`; `98 D` | Epidermis, dermis and Langer-line composition (`epidermis stratified squamous epithelium`; `dermis collagen`; `Langer lines collagen fibers dermis`; `skin epidermis dermis`) | new; no exact prior-FHB assignment — new addition. |
+| Q38, Q95 | `38 A`; `95 A` | Superficial-fascia functions and fat-free sites (`superficial fascia skin muscles`; `superficial fascia subcutaneous`; `superficial fascia devoid fat eyelids`; `superficial fascia functions`) | new externally; exact prior-FHB superficial-fascia family reuse — duplicate. |
+| Q39–Q41 | `39 D`; `40 B`; `41 C` | Deep-fascia specialisations (`deep fascia interosseous membranes`; `intermuscular septa muscle groups`; `retinacula thickened deep fascia`; `deep fascia specializations`) | new; no exact prior-FHB assignment — new addition. |
+| Q63, Q82 | `63 D`; `82 D` | Spinal-cord segment counts (`spinal cord segments 8 cervical 12 thoracic`; `number cervical spinal cord segments`; `31 spinal cord segments`; `cervical thoracic lumbar sacral coccygeal segments`) | new; no exact prior-FHB segment-count assignment — new addition. |
+| Q83 | `D` | Spinal-nerve roots, trunk and rami (`dorsal root sensory ventral motor`; `spinal nerve trunk mixed`; `dorsal ramus plexus`; `spinal nerve roots rami`) | new; no exact prior-FHB assignment — new addition. |
+
+All **101 prompt occurrences** are assigned exactly once. Source-first collapse produces **28
+handles**, and the query ledger reconciles as **28 × 4 = 112 required searches**. Exact-scope
+source disposition is **0 live / 2 pending / 26 new = 28**.
+
+Twelve handles exactly reuse prior-FHB scope. Sixteen survive: standard anatomical position as
+pending, plus general artery characteristics, bone blood supply, capillary features, muscle
+tissue types, aponeurosis, bipennate architecture, expanded cartilage type/site classification,
+fibrous joints, primary cartilaginous joints, expanded bone-shape classification, axial versus
+appendicular membership, epidermis/dermis/Langer-line composition, deep-fascia specialisations,
+spinal-cord segment counts and spinal-nerve organisation as new. The post-prior-FHB result is
+therefore **0 live / 1 pending / 15 new**.
+
+### Completed-source delta and cumulative table
+
+The source is now `sourceProcessed=true` for triage purposes. Its completed delta is **+101
+questions / +101 directly printed answers / +16 concepts = +0 live / +1 pending / +15 new**.
+
+| Module | Questions triaged | Keys/answers recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 | 1654 | 1390 | 359 | 66 | 78 | 215 | TBD |
+
+The cumulative buckets reconcile exactly as `66 + 78 + 215 = 359`. No module ID, content
+record, placement, source, catalogue entry or authority claim was created.
+
+### Remaining sources / blocker
+
+Removing this one selected substantive-text path and its unique hash leaves **71 selected
+inventory paths / 69 unique SHA-256s**. Their sorted, newline-joined hash set, with no trailing
+newline, has checksum
+`a4d54a83bd9d0c3045c9a5a5acbc6c268bb0f83891ca54a2ed8383215178ee9f`. Pinned triage debt
+becomes **28 substantive-text / six sparse-text / 37 empty-text** rows, and unique-hash
+accounting is **`37 + 69 = 106`**.
+
+The next evidence-ranked substantive source is the single 52-page Anatomy `08 Midterm Exams`
+path `Year 1/Semester 101/FHB 101/Anatomy/08 Midterm Exams/G.Anatomy MCQ till Midterm by
+Absalam101.pdf`, SHA-256
+`80ca3b0d4df30607c1fb3ba5c99f09204d8fb8709752b8437d113c97d9cbdc28`.
+
+**BLOCKED — S1 cannot be approved:** 71 selected source paths remain untriaged.
