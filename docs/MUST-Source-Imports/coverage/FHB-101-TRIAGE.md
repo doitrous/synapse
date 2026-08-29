@@ -2759,3 +2759,49 @@ unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending 
 Twins**. Q122–136 and the nine p. 33 written prompts remain outside completed-source totals
 until their source-level collapse, four searches per handle, and prior-FHB adjudication are
 recorded.
+
+## Bounded continuation — General Embryology, Section XII: Twins
+
+This continuation retains the same single selected Anatomy `05 MCQs` path, exact SHA-256
+`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`, and full-source
+visual inventory of **145 prompt occurrences / 145 directly printed answer occurrences**.
+All and only **source pages 30–32, Section XII** were assigned in this pass. They visibly
+print Q122–136 with three immediate answer lines: **15 complete MCQs / 15 directly printed
+answer letters**. Q131–135 remain part of this printed section because no intervening section
+heading appears. Source page 33 begins `Short Essay questions` and is the next natural boundary.
+
+| Printed refs | Printed answers as shown | Source-distinct tested concept (four search phrases) | External and prior-FHB disposition |
+|---|---|---|---|
+| Q122, Q125, Q130 | `122 B`; `125 B`; `130 C` | Dizygotic/fraternal-twin formation from two ova and two sperm, with possible sex difference (`dizygotic twins`; `fraternal twins`; `two ova two sperm`; `twins different sex`) | pending-hit at the exact fraternal-twin scope; no exact prior-FHB dizygotic-twin assignment — bounded candidate addition. |
+| Q123, Q126 | `123 C`; `126 C` | Monozygotic/identical twins from one zygote and their genetic identity (`monozygotic twins`; `identical twins`; `one zygote twins`; `genetically identical twins`) | live-hit; exact prior-FHB monozygotic/identical-twins assignment — duplicate. |
+| Q124, Q129, Q136 | `124 B`; `129 B`; `136 C` | Conjoined twins from incomplete splitting and their classification by connection site (`conjoined twins`; `incomplete embryo splitting`; `conjoined twins classification`; `monozygotic incomplete splitting`) | new; no exact prior-FHB assignment — bounded candidate addition. |
+| Q127–Q128 | `127 D`; `128 A` | Higher-order multiple pregnancies, including triplets and quadruplets (`triplets`; `quadruplets`; `multiple pregnancy embryos`; `higher order multiples`) | new at the obstetric scope; the lexical `triplets` result concerns centriole microtubules, not multiple pregnancy, and no exact prior-FHB assignment exists — bounded candidate addition. |
+| Q131–Q132 | `131 B`; `132 B` | Intrauterine-period duration and division into three trimesters (`intrauterine period`; `fetal period 38 weeks`; `pregnancy trimesters`; `three trimesters`) | new; prior embryonic/fetal-period work does not own the printed duration-and-trimester scope — bounded candidate addition. |
+| Q133–Q134 | `133 C`; `134 B` | Parturition definition and printed order of labour stages (`parturition`; `stages of labor`; `childbirth process`; `uterine contractions cervical dilation`) | new; prior uterine/myometrial work does not own the parturition-stage sequence — bounded candidate addition. |
+| Q135 | `B` | Crown-rump length as vertex-to-buttocks fetal measurement (`crown rump length`; `CRL fetal measurement`; `vertex buttocks length`; `fetal crown rump`) | new; no exact prior-FHB assignment — bounded candidate addition. |
+
+The 15 observations collapse source-first to **seven handles**: one dizygotic-twin handle;
+one monozygotic-twin handle; one conjoined-twin handle; one higher-order-multiple-pregnancy
+handle; one intrauterine-duration/trimesters handle; one parturition-stage handle; and one
+crown-rump-length handle. The assignment and query ledger reconciles exactly as **7 handles ×
+4 phrases = 28 required searches**. Exact-scope source disposition is **1 live / 1 pending /
+5 new**.
+
+The monozygotic/identical-twins handle exactly reuses completed prior-FHB scope. The
+dizygotic/fraternal-twins handle survives as pending, and the five other handles survive as
+new. The provisional post-prior-FHB result is therefore **0 live / 1 pending / 5 new** and
+remains excluded while this 34-page source is incomplete. Q127's printed `D Any of above
+scenarios` and Q131's printed `B 38 weeks ±2 weeks` are retained as low-authority source
+claims without correction or official-key uplift.
+
+The cumulative table, selected remainder, debt, checksum, and processed-family list stay
+unchanged at **1270 questions / 1005 keys / 316 concepts = 64 live / 71 pending / 181 new**,
+**75 paths / 73 hashes**, checksum
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`, and
+`33 + 73 = 106`. The source remains `sourceProcessed=false` and remains in the source remainder.
+
+**BLOCKED — S1 cannot be approved:** next resume is **source page 33, `Short Essay
+questions`**, beginning with `I- Embryologic derivatives of the ectoderm include three
+parts`. The nine p. 33 written prompts and their nine matching p. 34 answer blocks remain
+outside completed-source totals until their source-level collapse, four searches per handle,
+and prior-FHB adjudication are recorded.
