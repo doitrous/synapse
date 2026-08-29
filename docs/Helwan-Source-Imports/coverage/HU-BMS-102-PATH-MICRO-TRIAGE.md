@@ -4670,3 +4670,44 @@ BMS-102 candidate is tier-6 `src_33620685b5927f926a0d` · `Micro 1.pdf`, SHA-256
 `33620685b5927f926a0d0e98712b871fab452ecdb87477a7fb8de3e227304d0e`, two native-text pages
 under `Microbiology / Notes and Summaries`; it needs its own source and authority gate before
 any count is admitted.
+
+## Family 41 — tier-6 Micro 1 teaching-map gate
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_33620685b5927f926a0d` |
+| SHA-256 / boundary | `33620685b5927f926a0d0e98712b871fab452ecdb87477a7fb8de3e227304d0e` · two visual pages |
+| Authority | Unattributed handwritten-style teaching map; no university, department, examiner, sitting, marks, question bank, response field, or key convention |
+| Read boundary | Both pages rendered and visually read in full |
+
+Page 1 maps bacterial binary fission, growth phases, metabolism, oxidation/fermentation, and
+generation time. Page 2 maps nutrition, gaseous requirements, temperature, carbon dioxide, and
+pH. Its arrows, labels, highlighted phrases, diagrams, and factual examples are declarative
+teaching nodes. There is no complete learner prompt, option set, blank intended for response,
+answer convention, correctness mark, or printed key. No answer is inferred from coloured text or
+highlighting.
+
+The complete-source gate is **0 prompt occurrences / 0 printed-answer occurrences / 0 retained
+records / 0 handles / 0 required searches / +0 concepts**. Existing topical overlap (binary
+fission, mesosomes, growth curve, and oxygen classes) is descriptive only and does not create
+prompt-level duplication work.
+
+| Measure | Family 41 gate | Auxiliary cumulative (Families 12–41) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Newly admitted prompts / printed answers | 0 / 0 | 235 / 169 | 765 / 405 | 1,000 / 574 |
+| Newly retained records / handles | 0 / 0 | 232 / 229 | 552 / — | 784 |
+| Cross-family concept delta | +0 | +170 over primary | 372 | `372 + 170 = 542` |
+| **Distinct tested concepts** | **+0** | **170 auxiliary additions** | **372** | **542** |
+
+Primary remains **765 / 405 / 552 / 372**; auxiliary remains
+**235 / 169 / 232 / 229 / +170**; all eligible evidence remains
+**1,000 / 574 / 784 / 542**. This teaching-only gate changes no official-key, readiness, or
+claims status.
+
+### Exact next debt after Family 41
+
+`src_33620685b5927f926a0d` is exhausted across both pages. The next manifest-ordered local
+BMS-102 candidate is tier-6 `src_77fbe80fa6b9bbf8ab34` · `Micro 2.pdf`, SHA-256
+`77fbe80fa6b9bbf8ab34afbfea635203ed59e7ecb9f9c6539d57008959f5e611`, two pages under
+`Microbiology / Notes and Summaries`; it needs its own source and authority gate before any
+count is admitted.
