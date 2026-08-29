@@ -1035,6 +1035,15 @@ export function QuestionBank() {
     [scoped, effectiveSources, showSourceFilter],
   )
 
+  // The chapter tree's per-topic counts must reflect the same source filter as
+  // `available`, so a filtered session's totals match the tree. When no source
+  // filter is active (the shipping all-Unspecified state) this is exactly the
+  // previous `sourcePool`, so behaviour there is unchanged.
+  const treeCountPool = useMemo(
+    () => (showSourceFilter ? questionsInSources(sourcePool, effectiveSources) : sourcePool),
+    [showSourceFilter, sourcePool, effectiveSources],
+  )
+
   const collections: Collection[] = useMemo(() => [
     {
       key: 'flagged', title: t('Flagged'), icon: COLLECTION_ICONS.flagged,
@@ -1664,7 +1673,7 @@ export function QuestionBank() {
                     is the exact set `available` below draws from, so every
                     number in the tree matches what starting a session would
                     actually contain. */}
-                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={sourcePool} />
+                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={treeCountPool} />
                 <p className="mt-2 text-[11.5px] text-ink-3">
                   {scope.size === 0
                     ? t('Nothing selected — questions are drawn from the whole bank.')
