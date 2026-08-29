@@ -2286,3 +2286,87 @@ seven-page Anatomy `MCQs - Embryology.pdf`
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the
 remaining 76 selected source paths still require complete printed-question/key and
 source-supported concept triage before approval.
+
+## Continuation pass — Embryology MCQ revision bank
+
+The asserted starting remaining-hash checksum
+`f6d8fad4b30e00426937139fd08c4956e28d8332d1f9cc188ff49c291bcbcfd4` was reproduced
+from the sorted, newline-joined (with **no** trailing newline) set of 74 hashes before this
+pass. The next deterministic substantive source is the single local `05 MCQs` revision bank
+below. Its pages print only an `Embryology` heading, numbered MCQs and a terminal answer list;
+they supply no university, exam sitting, date, marks, department-bank or official-key claim.
+It is therefore local revision-bank evidence, not an official paper or official key.
+
+| Department | Category | Source path | SHA-256 | Pages rendered/read | Complete visible prompts | Directly printed answers |
+|---|---|---|---|---:|---:|---:|
+| Anatomy / Embryology | `05 MCQs` | `Year 1/Semester 101/FHB 101/Anatomy/05 MCQs/MCQs - Embryology.pdf` | `140d0fd692d7c58f752faf2b50169a3c006d42e1becc93641532b0f8e92cdef7` | 7 | 22 | 22 answer-list letters |
+
+The source has one selected inventory path and no byte-identical path duplicate. All seven
+pages were rendered and read: pp. 1–3 contain Q1–15, p. 4 contains Q16–18, p. 5 contains
+Q19–22, p. 6 prints answer letters 1–15, and p. 7 prints letters 16–22. Numbering is continuous
+and every prompt has exactly one directly printed answer letter; there is no missing key or
+unread residue. The answer list is transcribed without correction. In particular, Q2 remains
+printed `D` (`Gives the fetal part of the placenta`), matching the medically questionable
+highlight already preserved in the accepted Anatomy + Embryology excerpt.
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+Each of the 19 source-distinct handles received four manual live-and-pending searches. A live
+result takes precedence over pending only when it owns the same tested scope. `Prior FHB`
+denotes accepted cross-source triage reuse, not a content ID or placement.
+
+| Printed prompt refs | Printed answer as shown | Source-distinct tested concept (four search terms) | Search and prior-FHB disposition |
+|---|---|---|---|
+| 1 | `C` | Umbilical-cord length at term (`umbilical cord length`; `fifty centimetres cord`; `umbilical cord 50 cm`; `full term umbilical cord`) | new externally; exact prior-FHB assignment — duplicate. |
+| 2 | `D` | Amnion and fetal-membrane function (`amnion fetal movements`; `fetal membranes function`; `amnion function`; `amnion placenta`) | new externally; questionable printed answer preserved; exact prior-FHB assignment — duplicate. |
+| 3 | `A` | Placental-membrane layers (`placental membrane`; `placental membrane layers`; `four layers placental barrier`; `placental barrier structure`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 4 | `A` | Full-term placental gross form (`full term placenta`; `placenta discoid shape`; `full term placenta gross`; `placenta shape`) | new externally; exact prior-FHB assignment — duplicate. |
+| 5 | `A` | Maternal placental cotyledons (`placenta cotyledons`; `maternal placenta lobules`; `maternal placental cotyledons`; `twenty cotyledons placenta`) | new externally; exact prior-FHB assignment — duplicate. |
+| 6–7 | `6 B`; `7 A` | Somites from paraxial mesoderm and sclerotome (`paraxial mesoderm`; `somites`; `somite sclerotome`; `paraxial mesoderm somites`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 8–9 | `8 C`; `9 A` | Neural-crest and neuroectoderm derivatives (`neural crest`; `nerve ganglia embryo`; `neuroectoderm derivatives`; `neural tube neural crest`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 10 | `B` | Epiblast as source of three germ layers (`three germ layers`; `epiblast`; `epiblast germ layers`; `gastrulation epiblast`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 11 | `B` | Embryonic folding and cylindrical body form (`embryonic folding`; `embryo cylindrical folding`; `body folding embryo`; `cylindrical embryo`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 12–13 | `12 B`; `13 A` | Notochord and primitive-streak relationship (`primitive streak`; `notochord development`; `notochord primordial axis`; `primitive streak notochord`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 14 | `A` | Implantation definition (`implantation`; `blastocyst endometrium`; `implantation definition`; `blastocyst embeds endometrium`) | live-hit after scope comparison; exact prior-FHB assignment — duplicate. |
+| 15 | `C` | Fertilisation definition (`fertilization`; `gamete fusion`; `fertilization definition`; `male female gametes fuse`) | live-hit after scope comparison; exact prior-FHB assignment — duplicate. |
+| 16 | `B` | Polyhydramnios / hydramnios (`polyhydramnios`; `hydramnios`; `amniotic fluid excess`; `fluid accumulation amniotic cavity`) | pending-hit; exact prior-FHB assignment — duplicate. |
+| 17 | `C` | Weeks 3–8 as the organogenesis period (`organogenesis weeks 3 8`; `embryonic period organogenesis`; `third to eighth week embryo`; `critical period organogenesis`) | new; prior FHB period-label prompts do not own the organogenesis rationale — cumulative new addition. |
+| 18 | `D` | Persistent primitive streak and sacrococcygeal teratoma (`sacrococcygeal teratoma`; `primitive streak remnants tumor`; `caudal primitive streak persistence`; `newborn lower back teratoma`) | new; prior primitive-streak formation scope does not own this persistence/tumour consequence — cumulative new addition. |
+| 19 | `A` | Hydatidiform mole and high hCG (`hydatidiform mole hCG`; `molar pregnancy chorionic gonadotropin`; `hydatidiform mole diagnosis`; `high hCG molar pregnancy`) | new; no same-scope current or prior-FHB hit — cumulative new addition. |
+| 20 | `B` | Placenta praevia as abnormal intrauterine implantation (`placenta previa`; `abnormal intrauterine implantation`; `lower uterine segment placenta`; `placenta praevia`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 21 | `C` | Down syndrome trisomy 21 (`Down syndrome trisomy 21`; `chromosome 21 abnormality`; `Down syndrome karyotype`; `trisomy 21`) | live-hit; exact prior-FHB assignment — duplicate. |
+| 22 | `D` | Monozygotic twins are identical (`monozygotic twins`; `identical twins`; `one zygote twins`; `monozygotic twinning`) | live-hit; exact prior-FHB assignment — duplicate. |
+
+Page-level prompt arithmetic is `5 + 5 + 5 + 3 + 4 = 22`; key arithmetic is `15 + 7 = 22`.
+The source-first collapses are Q6–7, Q8–9 and Q12–13, so `22 - 3 = 19` named
+handles and `19 × 4 = 76` required search invocations. Current source disposition is **8 live /
+4 pending / 7 new**. Sixteen handles reuse accepted prior-FHB scope; only organogenesis,
+sacrococcygeal teratoma and hydatidiform-mole/high-hCG survive, producing a cumulative delta
+of **0 live / 0 pending / 3 new**.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including Embryology MCQ revision bank) | 1270 | 1005 | 316 | 64 | 71 | 181 | TBD |
+
+**Completed-source delta:** `+22` question occurrences, `+22` printed answer-list letters,
+`+19` source-distinct handles and `+3` after exact prior-FHB deduplication. The cumulative
+search buckets reconcile exactly: `64 + 71 + 181 = 316`; no module ID, content record,
+placement, source or catalogue entry was created.
+
+## Remaining sources / blocker — after Embryology MCQ revision bank
+
+**Remaining file list:** removing this complete substantive-text inventory path and its unique
+hash leaves **75 selected inventory paths / 73 unique SHA-256s**. Their sorted,
+newline-joined hash set (no trailing newline) checksum is
+`88c7a49adabd788183d6ec5b068d8c34db5e31e4025388afb409dfdf0f46221f`.
+By the pinned triage text classification, the remaining debt is **32 substantive-text, six
+sparse-text and 37 empty-text** rows. The processed/remaining hash accounting is
+`33 + 73 = 106` selected unique hashes. The next evidence-ranked substantive candidate is
+the 34-page Anatomy `MCQs - General Embryology MCQs.pdf`
+(`911f278560e8ee3b11a18fbc4116651e1c99b633be9b2b01e2f275b8b918c11d`).
+
+**BLOCKED — S1 cannot be approved:** this revision source is fully processed, but the
+remaining 75 selected source paths still require complete printed-question/key and
+source-supported concept triage before approval.
