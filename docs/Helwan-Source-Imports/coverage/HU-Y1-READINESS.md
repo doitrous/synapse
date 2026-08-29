@@ -246,11 +246,12 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   statements are not assessment prompts or auxiliary-note additions. This lower-authority revision
   evidence does not elevate the source to a sitting exam; external-bank totals remain 241/241/75
   and 9/66/0.
-- Direct Pathology question bank `src_23d4ed4d5e4f3f7c9764` Family 18 is now triaged through
-  Q50: Q25–Q50 are 26 complete five-option MCQs with 26 printed p. 36 key entries, collapsing
-  to 16 handles (1 live / 4 pending / 11 new). Seven reuse eligible-LCS scope, leaving a +9
-  delta (0 live / 1 pending / 8 new) and bringing LCS-103 to 281/155/143 and 8/37/98. Q50's
-  options C–E on physical p. 23 are included to complete the item; Q51 is excluded. Q30/Q31/Q44,
-  Q38, Q41, Q46, and Q50's source-quality risks are preserved, not repaired.
-- Continue the same source at Q51–Q77, physical pp. 23–34, matched only to printed key entries
-  51–77 on p. 37; no later section contributes to the Family-18 checkpoint.
+- Direct Pathology question bank `src_23d4ed4d5e4f3f7c9764` is now closed at 77 complete keyed
+  MCQs. Family 19 Q51–Q77 has 27 p. 37 printed keys and 20 handles (2 live / 1 pending / 17
+  new); ten eligible-LCS reuses leave a +10 delta (1 live / 0 pending / 9 new), bringing
+  LCS-103 to 308/182/153 and 9/37/107. Q73 preserves its option `t(11;14)` versus key-text
+  `t(14;11)` mismatch, alongside the other source-quality risks; none is repaired. Q50's p. 23
+  continuation remained Family-18 evidence and Q51 begins immediately after it.
+- Before counting the next ranked LCS source, resolve whether `src_065497f15835733031c0` is
+  eligible LCS department-book evidence, cross-module context, or misfiled/external: its manifest
+  says LCS/department book, but its printed first-page identifier is `TUTORIAL 218`.

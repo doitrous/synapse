@@ -2068,3 +2068,156 @@ statements.
   local LCS theoretical/practical sources. No download is needed or authorised.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.
+
+## Family 19 — Pathology LCS question bank, Q51–Q77
+
+### Source identity, terminal boundary and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_23d4ed4d5e4f3f7c9764` |
+| Manifest / recomputed SHA-256 | `23d4ed4d5e4f3f7c9764477023894a609c7c4520e3129a7f50fb6c24efe6f1fc` |
+| File | `MCQs - College MCQs LCS Q-BANK (PATHO).pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Pathology/Questions/MCQs/MCQs - College MCQs LCS Q-BANK (PATHO).pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Pathology · Questions/MCQs · question bank · tier 3 |
+| Container | same 37-page, native-text, unencrypted, non-interactive PDF 1.7 verified in Families 17–18 |
+| This bounded family | Q51 begins on physical p. 23 immediately after Family-18 Q50 options C–E; Q51–Q77 occupy physical pp. 23–34; all matched key entries are on physical p. 37 |
+| Read method | physical pp. 23–34 and key p. 37 rendered at 160 dpi and visually read source-first; no download |
+
+This terminal section contains **27 complete five-option MCQs and 27 printed key entries**.
+Physical p. 23 begins with the already-counted Q50 continuation and then starts Q51; only
+Q51 onward enters Family 19. Q77 and all five of its options end on physical p. 34. Physical
+p. 37 is a designed `KEY ANSWERS` page containing exactly entries 51–77. There is no
+handwriting, highlighting or answer mark on the question pages, and no practical, specimen,
+image/trace, table, completion or written item.
+
+### Page and printed-key inventory
+
+| Physical page | In-scope prompt starts / continuation | MCQs counted | Printed keys |
+|---:|---|---:|---:|
+| 23 | excluded Q50 options C–E, then Q51–Q53 | 3 | 0 |
+| 24 | Q53 continues; Q54–Q55 | 2 | 0 |
+| 25 | Q55 continues; Q56–Q57 | 2 | 0 |
+| 26 | Q57 continues; Q58–Q60 | 3 | 0 |
+| 27 | Q60 continues; Q61–Q62 | 2 | 0 |
+| 28 | Q62 continues; Q63–Q64 | 2 | 0 |
+| 29 | Q64 continues; Q65–Q66 | 2 | 0 |
+| 30 | Q66 continues; Q67–Q68 | 2 | 0 |
+| 31 | Q69–Q70 | 2 | 0 |
+| 32 | Q70 continues; Q71–Q73 | 3 | 0 |
+| 33 | Q73 continues; Q74–Q75 | 2 | 0 |
+| 34 | Q75 continues; Q76–Q77 | 2 | 0 |
+| 37 | printed `KEY ANSWERS` entries 51–77 | 0 | 27 |
+| **Family 19** | **Q51–Q77 plus matched key section** | **27** | **27** |
+
+The printed key-letter sequence is `B D C D A D B B E B D B A B A A C C C A A E C C B B E`.
+Key text is retained literally rather than normalised: Q73 option C prints `t(11;14)`, while
+the p. 37 key line prints `C – t(14;11)`. The letter maps to option C, but the reversed text is
+a source-key mismatch and remains flagged. Other source risks remain attached: Q51 reports
+right-hip pain but a left-femoral-neck fracture; Q53 locates tapping over the `radial aspect`
+while keying median-nerve compression; Q61 supplies only black heel discoloration and failed
+cream before keying debridement; Q62 prints beta-2 microglobulin `4.5 mg/dL`; Q63 changes the
+complaint from the left great toe to a right first-MTP mass; Q66 and Q70 key Phalen's test as
+the next/confirmatory diagnostic step; and Q75 changes a right-elbow complaint to a left-
+olecranon mass. None is medically or editorially repaired in S1.
+
+### One-to-one assignment and repeat/collapse ledger
+
+Every prompt occurrence is assigned exactly once. There is no exact full-prompt repeat.
+Seven repeated same-concept assignments collapse 27 occurrences to 20 source-distinct
+handles: Q53/Q64 share carpal-tunnel clinical diagnosis, Q54/Q59 share rheumatoid clinical/
+radiographic disease recognition, Q60/Q63/Q75 share the accepted gout scope, Q62/Q73 share
+myeloma prognosis, Q66/Q70 share Phalen testing and Q76/Q77 share the same giant-cell-tumour
+pattern. Ten handles reuse accepted eligible-LCS concepts; ten enter eligible totals for the
+first time.
+
+| Evidence | One-to-one assignments in source order |
+|---|---|
+| Q51–Q56 | `Q51→age-related-low-turnover-osteoporosis`; `Q52→chondrosarcoma-vs-osteosarcoma-comparison`; `Q53→carpal-tunnel-syndrome-clinical-diagnosis`; `Q54→rheumatoid-arthritis-clinical-etiology-differential`; `Q55→aneurysmal-bone-cyst-clinicoradiologic-pattern`; `Q56→osteoarthritis-clinical-etiology-differential` |
+| Q57–Q62 | `Q57→infantile-hemangioma-clinical-course`; `Q58→cushing-syndrome-secondary-osteoporosis`; `Q59→rheumatoid-arthritis-clinical-etiology-differential`; `Q60→malignancy-associated-gout-hyperuricemia`; `Q61→diabetic-heel-gangrene-debridement`; `Q62→multiple-myeloma-prognosis-beta2-microglobulin` |
+| Q63–Q68 | `Q63→malignancy-associated-gout-hyperuricemia`; `Q64→carpal-tunnel-syndrome-clinical-diagnosis`; `Q65→graves-disease-clinical-pattern`; `Q66→carpal-tunnel-phalen-test-confirmation`; `Q67→uterine-leiomyoma-gross-microscopic-pattern`; `Q68→enchondroma-characteristics-exception` |
+| Q69–Q74 | `Q69→carpal-tunnel-conservative-treatment`; `Q70→carpal-tunnel-phalen-test-confirmation`; `Q71→rheumatoid-arthritis-anti-ccp-serology`; `Q72→osteoid-osteoma-clinicoradiologic-pattern`; `Q73→multiple-myeloma-prognosis-beta2-microglobulin`; `Q74→osteochondroma-typical-location` |
+| Q75–Q77 | `Q75→malignancy-associated-gout-hyperuricemia`; `Q76→giant-cell-tumor-stromal-cell-biology`; `Q77→giant-cell-tumor-stromal-cell-biology` |
+
+Accepted handle names remain stable when the present source extends their tested scope.
+Q52 adds the pelvic-site preference to the chondrosarcoma comparison; Q55 adds fracture as
+an aneurysmal-bone-cyst complication; Q62/Q73 add adverse/favourable cytogenetics to the
+myeloma prognostic handle; Q68 adds a complete diagnostic pattern to the prior enchondroma
+exception; and Q76/Q77 add the epiphyseal `soap bubble` phenotype to the giant-cell-tumour
+stromal-cell handle. Q74 promotes the accepted auxiliary-only osteochondroma location handle
+into tested evidence, so it contributes one eligible-module concept.
+
+### Search-before-mint and disposition ledger
+
+Each of the 20 handles received one search in each required surface: live state
+(`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), every prior source-import lane, and accepted prior LCS.
+That is **20 × 4 = 80 required invocations**. Twelve narrower scope/phrase checks for
+haemangioma course, Graves phenotype, cortisol-related bone loss, diabetic heel management,
+leiomyoma morphology, Phalen testing and rheumatoid serology give **92 search invocations
+total**. Taxonomy leaves, option mentions and incidental terms are not substantive coverage.
+
+| # | Prompt assignment → handle | Four-query bundle | Corpus / prior-LCS result | Disposition |
+|---:|---|---|---|---|
+| 1 | Q51 → `age-related-low-turnover-osteoporosis` | `low-turnover osteoporosis`; `senile osteoporosis`; `elderly fragility fracture`; `age-related bone turnover` | No substantive live, pending, external-bank or prior-LCS record owns the keyed low-turnover classification. | new |
+| 2 | Q52 → `chondrosarcoma-vs-osteosarcoma-comparison` | `chondrosarcoma`; `popcorn calcification`; `chondroid matrix`; `pelvic bone chondrosarcoma` | Exact accepted Family-12/17 handle can absorb morphology and pelvic-site preference; its inherited new disposition remains. | prior eligible-LCS reuse; inherited new |
+| 3 | Q53,Q64 → `carpal-tunnel-syndrome-clinical-diagnosis` | `carpal tunnel`; `median nerve compression`; `Tinel wrist`; `nocturnal hand paresthesia` | Exact accepted Family-18 pending handle; pending Anatomy owns the median-nerve sensory/motor syndrome. | pending; prior eligible-LCS reuse |
+| 4 | Q54,Q59 → `rheumatoid-arthritis-clinical-etiology-differential` | `rheumatoid arthritis clinical`; `swan-neck ulnar deviation`; `juxta-articular osteopenia`; `erosive symmetric arthritis` | Exact accepted Family-12 handle. Pending pathology mentions RA only as a fibrinoid-necrosis example, not this disease-recognition scope. | prior eligible-LCS reuse; inherited new |
+| 5 | Q55 → `aneurysmal-bone-cyst-clinicoradiologic-pattern` | `aneurysmal bone cyst`; `blood-filled cystic spaces`; `eccentric expansion`; `aneurysmal cyst fracture` | Exact accepted Family-17 new handle; no substantive corpus or external-bank match. | prior eligible-LCS reuse; inherited new |
+| 6 | Q56 → `osteoarthritis-clinical-etiology-differential` | `osteoarthritis`; `Heberden nodes`; `osteophytes`; `pain worsens with use` | Exact accepted Family-12 handle. Current live/pending matches are taxonomy, incidental or narrower facts, so inherited new remains. | prior eligible-LCS reuse; inherited new |
+| 7 | Q57 → `infantile-hemangioma-clinical-course` | `infantile hemangioma`; `appears after birth`; `vascular lesion regression`; `bleeding lip hemangioma` | Live capillary/cavernous haemangioma records own microscopic vascular-space morphology, not postnatal growth followed by regression. | new |
+| 8 | Q58 → `cushing-syndrome-secondary-osteoporosis` | `Cushing osteoporosis`; `hypercortisolism bone loss`; `truncal obesity hypertension`; `cortisol 75 microgram` | Live Cushing fragments cover pigmentation/androgen effects and cortisol feedback; none owns endogenous cortisol excess causing progressive osteoporosis. | new |
+| 9 | Q60,Q63,Q75 → `malignancy-associated-gout-hyperuricemia` | `thiazide gout`; `renal failure tophus`; `needle-shaped urate crystals`; `podagra` | Exact accepted Family-17/18 live handle; live gout/tophi material owns the clinical and crystal pattern. These prompts further extend its non-malignancy trigger scope. | live; prior eligible-LCS reuse |
+| 10 | Q61 → `diabetic-heel-gangrene-debridement` | `diabetic heel gangrene`; `black heel debridement`; `diabetic foot necrosis`; `ischemic heel management` | Pending vascular material owns diabetes-associated distal disease and gangrene, but no record owns this keyed debridement decision. Prior diabetic-foot handle ends at ulcer/osteomyelitis. | new; printed key requires review |
+| 11 | Q62,Q73 → `multiple-myeloma-prognosis-beta2-microglobulin` | `myeloma chromosome 13`; `myeloma t(11;14)`; `myeloma prognosis`; `beta-2 microglobulin myeloma` | Exact accepted Family-17 handle; no substantive live/pending record owns the cytogenetic prognosis set. | prior eligible-LCS reuse; inherited new; Q73 key text mismatch |
+| 12 | Q65 → `graves-disease-clinical-pattern` | `Graves disease`; `weight loss increased appetite`; `pretibial myxedema`; `TSH receptor antibody eye` | Live Thyroid Disorders owns antibody-stimulated TSH receptors, extraocular-tissue hypertrophy and weight loss despite increased appetite; live Pathology also owns Graves morphology. | live; new to eligible LCS |
+| 13 | Q66,Q70 → `carpal-tunnel-phalen-test-confirmation` | `Phalen test`; `carpal tunnel bedside test`; `wrist flexion test`; `confirm median neuropathy` | Pending Anatomy explicitly states that its source does not describe Phalen/Tinel or any named bedside test; no substantive live or prior-LCS test record. | new; both printed keys require review |
+| 14 | Q67 → `uterine-leiomyoma-gross-microscopic-pattern` | `uterine leiomyoma`; `whorled grey-white`; `well-differentiated spindle fascicles`; `fibroid morphology` | Pending Pathology mentions leiomyoma only as an extracellular-hyaline example; it does not own the uterine gross/microscopic diagnostic pattern. | new |
+| 15 | Q68 → `enchondroma-characteristics-exception` | `enchondroma`; `phalanx osteolytic lesion`; `mature hyaline cartilage lobules`; `sclerotic rim cartilage tumor` | Exact accepted Family-12 tested handle; no substantive live/pending record supersedes its inherited new disposition. | prior eligible-LCS reuse; inherited new |
+| 16 | Q69 → `carpal-tunnel-conservative-treatment` | `carpal tunnel night splint`; `carpal tunnel steroid injection`; `mild carpal tunnel treatment`; `wrist neutral splint` | Prior LCS owns clinical diagnosis and surgical release, but no live, pending or external record owns the keyed conservative-treatment combination. | new; printed key requires review |
+| 17 | Q71 → `rheumatoid-arthritis-anti-ccp-serology` | `anti-citrullinated peptide`; `anti-CCP`; `rheumatoid serology`; `swan-neck anti-CCP` | No substantive live, pending, external-bank or prior-LCS record owns this serologic association. | new |
+| 18 | Q72 → `osteoid-osteoma-clinicoradiologic-pattern` | `osteoid osteoma`; `night pain relieved NSAID`; `intracortical nidus`; `radiolucent core under 1 cm` | Exact accepted Family-17 tested handle; no substantive corpus record supersedes inherited new. | prior eligible-LCS reuse; inherited new |
+| 19 | Q74 → `osteochondroma-typical-location` | `osteochondroma metaphysis`; `stalked bony projection`; `cartilage cap exostosis`; `lower femoral metaphysis` | Exact prior auxiliary handle was outside tested totals. Glossary and BMS option hits are non-substantive; no live/pending same-scope record. | prior-LCS auxiliary promotion; new |
+| 20 | Q76,Q77 → `giant-cell-tumor-stromal-cell-biology` | `giant cell tumor`; `epiphyseal soap bubble`; `multinucleated cells stromal cells`; `osteoclastoma` | Exact accepted Family-12 tested handle, itself promoted from auxiliary evidence; no substantive live/pending record owns the full pattern. | prior eligible-LCS reuse; inherited new |
+
+Source-disposition arithmetic is **2 live + 1 pending + 17 new = 20** handles. Module
+novelty is separate: **10 prior eligible reuse + 10 new to eligible = 20**. The ten net
+concepts resolve as **1 live + 0 pending + 9 new**.
+
+### Family-19 checkpoint, cumulative LCS-103 delta and source closure
+
+| Family-19 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior eligible-LCS handle reuse | 16 | 16 | 10 | 0 | 0 | 0 | 0 |
+| New-to-eligible live Graves pattern | 1 | 1 | 1 | 1 | 1 | 0 | 0 |
+| New-to-eligible new handles | 10 | 10 | 9 | 9 | 0 | 0 | 9 |
+| **Family 19 assessment** | **27** | **27** | **20** | **10** | **1** | **0** | **9** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 18 | 281 | 155 | 143 | 8 | 37 | 98 |
+| Family 19 net delta | +27 | +27 | +10 | +1 | +0 | +9 |
+| **LCS-103 cumulative after Family 19** | **308** | **182** | **153** | **9** | **37** | **107** |
+
+Arithmetic checks: page-start counts are `3 + 2 + 2 + 3 + 2 + 2 + 2 + 2 + 2 + 3 +
+2 + 2 = 27`; p. 37 supplies 27 key entries; seven repeated assignments give `27 - 7 =
+20` handles; `2 + 1 + 17 = 20`; `10 + 10 = 20`; `1 + 0 + 9 = 10`; `281 + 27 =
+308`; `155 + 27 = 182`; `143 + 10 = 153`; and `9 + 37 + 107 = 153`. The external
+bank remains separately unchanged at `241 prompts / 241 keys / 75 handles = 9 live / 66
+pending / 0 new`. The 50 auxiliary notes and previously tracked unresolved/malformed items
+remain unchanged. Across Families 17–19 this source is now closed at **77 complete keyed MCQs**.
+
+## Exact next debt
+
+- Return to evidence rank rather than starting another broad external bank. The highest-tier
+  unprocessed local LCS question source is `src_065497f15835733031c0`, `DPT BOOK MCQs -
+  Department MCQs TUTORIAL of Department Book Anatomy.pdf`: 10 pages, native text, source
+  tier 1, recomputed SHA-256 `065497f15835733031c07a03549fa21ab7a89c602b6f0cbb68f9777375a2cfda`.
+- Before additive counting, resolve its source-first scope: the manifest/path assign it to
+  `HU-LCS-103` Anatomy and mark it as a department-book question source, while the first-page
+  snippet reads `TUTORIAL 218`. Render all ten pages, preserve that printed identifier, and
+  decide whether it is eligible LCS evidence, cross-module context or misfiled/external.
+- If source identity validates for LCS, inventory prompts and printed keys before moving to
+  lower-ranked local College/Student MCQ or practical sources. No download is needed.
+- No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
+  `TRIAGE APPROVED` for Helwan Year 1.
