@@ -6,7 +6,7 @@ import Foundation
 /// reads is one of these, which is what lets the app render new content without
 /// a new release: the app ships four renderers, not a screen per article.
 enum ContentKind: String, Codable, CaseIterable, Sendable {
-    case question, article, practical, resource
+    case question, article, practical, resource, deck
 }
 
 /// Where an item is in its editorial life.

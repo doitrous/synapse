@@ -22,7 +22,7 @@ struct FlashcardsView: View {
         self.sync = sync
         self.api = api
         self.audience = audience
-        _decks = State(wrappedValue: FlashcardStore(api: api, sync: sync))
+        _decks = State(wrappedValue: FlashcardStore(store: store, api: api, sync: sync, audience: audience))
     }
 
     var body: some View {
@@ -101,7 +101,7 @@ struct FlashcardsView: View {
                 NavigationLink {
                     DeckDetailView(store: decks, deckId: deck.id)
                 } label: {
-                    DeckRow(counts: decks.counts(forDeck: deck.id), name: deck.name)
+                    DeckRow(counts: decks.counts(forDeck: deck.id), name: deck.name, provided: decks.isProvided(deck.id))
                 }
                 .listRowBackground(Theme.surface)
             }
@@ -121,12 +121,25 @@ private struct DeckRow: View {
     @Environment(\.strings) private var strings
     let counts: DeckCounts
     let name: String
+    var provided: Bool = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Text(name)
-                .font(Theme.ui(16, weight: 500))
-                .foregroundStyle(Theme.ink)
+            HStack(spacing: 6) {
+                Text(name)
+                    .font(Theme.ui(16, weight: 500))
+                    .foregroundStyle(Theme.ink)
+                if provided {
+                    // Catalogue decks the student did not make; they can study
+                    // them but the content is maintained on the website.
+                    Text(strings("Shared"))
+                        .font(Theme.ui(10, weight: 600))
+                        .foregroundStyle(Theme.primaryStrong)
+                        .padding(.horizontal, 6)
+                        .padding(.vertical, 2)
+                        .background(Theme.primaryTint, in: Capsule())
+                }
+            }
             HStack(spacing: 12) {
                 pill("\(counts.new)", label: "new", tint: Theme.primary)
                 pill("\(counts.reviewDue + counts.learning)", label: "due", tint: Theme.success)
