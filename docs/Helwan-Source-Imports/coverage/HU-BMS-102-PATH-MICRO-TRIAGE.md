@@ -4138,3 +4138,52 @@ Micro Bacterial Variation.pdf`, SHA-256
 pages under `Microbiology / Notes and Summaries`. It requires a bounded complete-page
 provenance, prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate
 before any count is accepted.
+
+## Family 33 — tier-6 Bacterial Variation teaching-notes gate
+
+| Field | Verified result |
+|---|---|
+| Source | `src_18cd7982180151db2cee` · `Helwan S2 Micro Bacterial Variation.pdf` |
+| SHA-256 / boundary | `18cd7982180151db2ceebec0dd9e7640c0e88f154a22799fad47e6b9eaa40e7c` · 1,014,727 bytes · eight native-text pages |
+| Manifest placement | `HU_Y1` · `HU-BMS-102` · Microbiology · `Notes and Summaries` · tier 6 |
+| Visible provenance | every page carries `TOP Microbiology Notes` / `Dr Mustafa Elsudani`; PDF title names `Bacterial variation and recombinant DNA technology.doc`, author `Mustafa Elsudani` |
+| Read boundary | all eight physical pages rendered and visually read in order |
+
+This is a Helwan-local **teaching-notes** source, not an exam, recoverable sitting,
+departmental question bank, response form, or official key. Page 1 compares phenotypic and
+genotypic variation; p. 2 presents mutation definition/types/causes/effects; pp. 3–5 explain
+transformation and conjugation; p. 6 explains Hfr transfer; pp. 7–8 explain generalized and
+specialized transduction. These are declarative headings, explanatory statements, examples,
+tables, and figures. They contain no complete learner prompt, interrogative/command stem,
+response field, blank, answer convention, correctness marking, or printed key.
+
+The complete-source result is therefore **0 prompt occurrences / 0 printed answer or key
+occurrences / 0 retained records / 0 source-derived tested handles**. No teaching heading,
+definition, labelled diagram, list, checkmark, or comparison table is converted into an inferred
+question or answer. With no handle, source-first duplicate comparison, four-query search rows,
+external disposition, and prior-BMS overlap are all **not applicable** rather than inferred.
+
+| Measure | Family 33 gate | Auxiliary cumulative (Families 12–33) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 0 | 184 | 765 | 949 |
+| Printed study-answer occurrences | 0 | 128 | 405 | 533 |
+| Retained question records | 0 | 181 | 552 | 733 |
+| Source-distinct tested handles / required searches | 0 / 0 | 179 / — | — | — |
+| Cross-family concept delta | +0 | +142 over primary | 372 | `372 + 142 = 514` |
+| **Distinct tested concepts** | **+0** | **142 auxiliary additions** | **372** | **514** |
+
+The primary checkpoint remains **765 / 405 / 552 / 372**; auxiliary remains
+**184 / 128 / 181 / 179 / +142**; and all eligible S1 evidence remains
+**949 / 533 / 733 / 514**. This teaching-only zero-delta gate cannot raise exam/sitting,
+recurrence, mark-weight, official-key, readiness, or claims status, so no readiness or claims
+file change is warranted.
+
+### Exact next debt after Family 33
+
+`src_18cd7982180151db2cee` is exhausted with a page-level teaching-versus-prompt ruling across
+all eight pages and no resume boundary. The next manifest-ordered local BMS-102 candidate is
+tier-6 `src_86e6231218411e301648` · `Helwan S2 Micro Bacteriophage.pdf`, SHA-256
+`86e6231218411e301648fafd543414e3103e07aad5a27ca01a0c9441305beb76`, four native-text pages
+under `Microbiology / Notes and Summaries`; it requires its own complete provenance,
+prompt-versus-teaching, answer-convention, source-first dedupe, and prior-BMS gate before any
+count is admitted.
