@@ -1140,8 +1140,6 @@ export function Library() {
   /** Articles jumped from, most recent last — the way back out of "Read next". */
   const [trail, setTrail] = useState<string[]>([])
   const { role } = useIdentity()
-  /** Published titles by id, for the module tree and the "Read next" shelf alike. */
-  const articleTitles = useMemo(() => new Map(allSubtopics.map((article) => [article.id, article.title])), [allSubtopics])
 
   function cancelRailAutoCollapse() {
     if (railCollapseTimer.current != null) window.clearTimeout(railCollapseTimer.current)
@@ -1295,7 +1293,7 @@ export function Library() {
           // empty-canvas gap: there is no state left in which nothing is open
           // and nothing is visible either.
           <div className="h-full min-h-0 overflow-y-auto">
-            <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={openArticle} articleTitles={articleTitles} variant="landing" />
+            <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={openArticle} variant="landing" />
           </div>
         ) : (
           <div className="flex h-full min-h-0">
@@ -1315,7 +1313,7 @@ export function Library() {
               )}
             >
               <div className="grid h-full min-h-0 w-72 grid-cols-1">
-                <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={openArticle} articleTitles={articleTitles} />
+                <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={openArticle} />
               </div>
             </div>
             <main className="min-w-0 flex-1 overflow-y-auto">
@@ -1364,7 +1362,7 @@ export function Library() {
               </button>
             </div>
             <div className="grid min-h-0 flex-1 grid-cols-1">
-              <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} articleTitles={articleTitles} />
+              <LibraryModuleNav selectedArticleId={selectedId} onArticleSelect={(articleId) => { openArticle(articleId); setTreeOpen(false) }} />
             </div>
           </div>
         </div>

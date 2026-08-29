@@ -1,13 +1,10 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useMemo } from 'react'
 import {
   ArrowLeft, BookOpen, CalendarDays, Compass, FileQuestion, GraduationCap, History,
   Link2, ListChecks, MapPinned, Microscope, RotateCw, Scale, Stethoscope,
   TriangleAlert,
 } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom'
-import type { AssessmentScheme } from '@/data/assessmentScheme'
-import { MODULE_SUBJECTS_STORAGE_KEY, type ModuleSubjectStore } from '@/data/moduleSubjects'
-import type { ModuleScheduleStore } from '@/data/moduleSchedule'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Badge } from '@/components/ui/Badge'
 import { ButtonLink } from '@/components/ui/Button'
@@ -16,29 +13,18 @@ import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { SystemMark } from '@/components/ui/SystemMark'
-import { API_MODE, apiGet } from '@/lib/api'
+import { API_MODE } from '@/lib/api'
 import { formatClock, formatLongDate } from '@/lib/format'
-import { useIdentity } from '@/lib/useIdentity'
-import { usePersistentState } from '@/lib/usePersistentState'
-import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { cn } from '@/lib/cn'
 import {
-  buildDemoStudentUniversityProjection,
   normalizeStudentUniversityProjection,
   type StudentAssessmentMap,
   type StudentCurriculumMap,
   type StudentModuleMap,
   type StudentScheduleMap,
   type StudentSubjectMap,
-  type StudentUniversityProjection,
 } from './universityModel'
-
-const MODULE_SCHEDULE_STORAGE_KEY = 'synapse-module-schedules-v1'
-const ASSESSMENT_SCHEMES_STORAGE_KEY = 'synapse-assessment-schemes-v1'
-
-function stateError(...errors: Array<string | null | undefined>): string {
-  return errors.find(Boolean) ?? ''
-}
+import { useDemoUniversityProjection, useLiveUniversityProjection } from './useStudentCurriculum'
 
 function n(value: number | null): string {
   if (value === null) return 'unavailable'
@@ -230,39 +216,6 @@ function ModuleCard({ module }: { module: StudentModuleMap }) {
       </div>
     </Panel>
   )
-}
-
-function useLiveUniversityProjection() {
-  const [projection, setProjection] = useState<StudentUniversityProjection | null>(null)
-  const [loading, setLoading] = useState(API_MODE)
-  const [error, setError] = useState('')
-  const [attempt, setAttempt] = useState(0)
-
-  useEffect(() => {
-    if (!API_MODE) return
-    let alive = true
-    setLoading(true)
-    apiGet<StudentUniversityProjection>('/me/university')
-      .then((result) => {
-        if (!alive) return
-        setProjection(result)
-        setError('')
-      })
-      .catch((err: unknown) => {
-        if (!alive) return
-        // The reason is logged for debugging, never shown to the student —
-        // a raw fetch/server error can carry endpoint names or stack detail.
-        console.error('Unable to load the student university projection.', err)
-        setError('Something went wrong loading your university page.')
-      })
-      .finally(() => {
-        if (alive) setLoading(false)
-      })
-    return () => { alive = false }
-  }, [attempt])
-
-  const retry = useCallback(() => setAttempt((value) => value + 1), [])
-  return { projection, loading, error, retry }
 }
 
 /** ArrowLeft to the previous screen, falling back to the dashboard when this
@@ -493,23 +446,8 @@ function LiveUniversity() {
 }
 
 function DemoUniversity() {
-  const identity = useIdentity()
-  const [catalogue, , catalogueStatus] = useUniversityCatalogue()
-  const [subjects, , subjectStatus] = usePersistentState<ModuleSubjectStore>(MODULE_SUBJECTS_STORAGE_KEY, {})
-  const [schedules, , scheduleStatus] = usePersistentState<ModuleScheduleStore>(MODULE_SCHEDULE_STORAGE_KEY, {})
-  const [assessmentSchemes, , assessmentStatus] = usePersistentState<Record<string, AssessmentScheme>>(ASSESSMENT_SCHEMES_STORAGE_KEY, {})
-  const loading = identity.loading || !identity.audienceSettled || !catalogueStatus.hydrated || !subjectStatus.hydrated || !scheduleStatus.hydrated || !assessmentStatus.hydrated
-  const error = stateError(catalogueStatus.error, subjectStatus.error, scheduleStatus.error, assessmentStatus.error)
-  const university = catalogue.find((item) => item.id === identity.audience.universityId) ?? null
-  const year = university?.years.find((item) => item.id === identity.audience.yearId || item.year === identity.audience.year) ?? null
+  const { projection, loading, error } = useDemoUniversityProjection()
   const now = useMemo(() => new Date(), [])
-  const projection = useMemo(() => (
-    university && year
-      ? buildDemoStudentUniversityProjection(university, year, subjects, schedules, assessmentSchemes)
-      : identity.audienceUnknown
-        ? { profile: null, university: null, year: null, terms: [], modules: [], status: 'missing_profile' as const }
-        : { profile: { studentId: null, universityId: identity.audience.universityId ?? null, year: identity.audience.year ?? null, yearId: identity.audience.yearId ?? null, group: null }, university: university ? { id: university.id, name: university.name, short: university.short, region: university.region } : null, year: null, terms: [], modules: [], status: 'being_verified' as const }
-  ), [assessmentSchemes, identity.audience.universityId, identity.audience.year, identity.audience.yearId, identity.audienceUnknown, schedules, subjects, university, year])
   const map = useMemo(() => normalizeStudentUniversityProjection(projection, now), [now, projection])
   return <CurriculumView map={map} loading={loading} error={error} demo />
 }

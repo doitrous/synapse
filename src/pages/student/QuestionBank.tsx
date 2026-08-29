@@ -78,6 +78,7 @@ import { useT } from '@/lib/i18n'
 import { useImmersion } from '@/components/shell/ImmersionContext'
 import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { answerPercentages } from '@/data/answerDistribution'
+import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 type Mode = 'tutor' | 'timed'
@@ -2126,27 +2127,21 @@ export function QuestionBank() {
                   optionClasses(i),
                   ruledOut && !revealed && 'opacity-55',
                 )
+                const statTone = opt.correct ? 'correct' as const : chosen === i ? 'wrong' as const : 'neutral' as const
                 return (
                   <div key={i}>
                     {revealed ? (
-                      <div className={shape}>
+                      <div className={cn(shape, 'relative overflow-hidden')}>
                         {badge}
                         <div className="min-w-0 flex-1">
-                          {text}
-                          {percentages && (
-                            <span className="mt-2 flex items-center gap-2">
-                              <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-inset">
-                                <span
-                                  className={cn(
-                                    'block h-full rounded-full',
-                                    opt.correct ? 'bg-success' : chosen === i ? 'bg-danger' : 'bg-line-2',
-                                  )}
-                                  style={{ width: `${percentages[i] ?? 0}%` }}
-                                />
+                          <span className="flex items-start gap-2">
+                            {text}
+                            {percentages && (
+                              <span className="tnum shrink-0 self-start pt-0.5 font-mono text-[12px] font-semibold text-ink-2">
+                                {percentages[i] ?? 0}%
                               </span>
-                              <span className="tnum w-9 shrink-0 text-end font-mono text-[11px] text-ink-3">{percentages[i] ?? 0}%</span>
-                            </span>
-                          )}
+                            )}
+                          </span>
                           {/* Split view carries this same rationale in the
                               answer-area column instead, so it is not shown
                               twice. */}
@@ -2165,6 +2160,7 @@ export function QuestionBank() {
                             </p>
                           )}
                         </div>
+                        {percentages && <AnswerStatBar pct={percentages[i] ?? 0} tone={statTone} />}
                       </div>
                     ) : (
                       <div className={cn(shape, 'relative p-0')}>
@@ -2210,9 +2206,6 @@ export function QuestionBank() {
                 )
               })}
             </div>
-            {showStats && (
-              <p className="mt-2 text-[11px] text-ink-3">{t('Based on')} {distribution!.total} {t('students in your year')}</p>
-            )}
 
             {revealed && (
               <div className="mt-5 flex justify-end">

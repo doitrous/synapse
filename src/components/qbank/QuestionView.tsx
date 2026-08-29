@@ -11,6 +11,7 @@ import { useMediaRecords } from '@/lib/useMediaRecords'
 import { getSubject } from '@/data/subjects'
 import { cn } from '@/lib/cn'
 import { HighlightSelectionPopover, HighlightableText, useQuestionHighlights } from '@/components/qbank/QuestionHighlights'
+import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
 import { answerPercentages, type AnswerDistribution } from '@/data/answerDistribution'
 
 /**
@@ -142,26 +143,21 @@ export function QuestionView({
                 {revealed && (
                   <PlacedMedia placements={placementsFor(question.media, 'explanation', LETTERS[index])} records={mediaRecords} />
                 )}
-                {percentages && (
-                  <span className="mt-2 flex items-center gap-2">
-                    <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-inset">
-                      <span
-                        className={cn(
-                          'block h-full rounded-full',
-                          index === answer ? 'bg-success' : chosen === index ? 'bg-danger' : 'bg-line-2',
-                        )}
-                        style={{ width: `${percentages[index] ?? 0}%` }}
-                      />
-                    </span>
-                    <span className="tnum w-9 shrink-0 text-end font-mono text-[11px] text-ink-3">{percentages[index] ?? 0}%</span>
-                  </span>
-                )}
               </span>
+              {percentages && (
+                <span className="tnum shrink-0 self-start pt-0.5 font-mono text-[12px] font-semibold text-ink-2">
+                  {percentages[index] ?? 0}%
+                </span>
+              )}
             </>
           )
           const shape = cn('flex w-full items-start gap-3 rounded-xl border p-3.5 text-start transition-colors', optionClasses(index))
+          const tone = index === answer ? 'correct' as const : chosen === index ? 'wrong' as const : 'neutral' as const
           return revealed ? (
-            <div key={index} className={shape}>{body}</div>
+            <div key={index} className={cn(shape, 'relative overflow-hidden')}>
+              {body}
+              {percentages && <AnswerStatBar pct={percentages[index] ?? 0} tone={tone} />}
+            </div>
           ) : (
             <button
               key={index}
@@ -180,9 +176,6 @@ export function QuestionView({
           )
         })}
       </div>
-      {showStats && (
-        <p className="mt-2 text-[11px] text-ink-3">Based on {distribution!.total} students in your year</p>
-      )}
 
       {/* Explanation media lives here rather than beside each caller's own
           explanation text, because six surfaces render QuestionView and only
