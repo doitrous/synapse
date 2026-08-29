@@ -332,6 +332,18 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   tier-5 all-subject practical `src_6da2de9f2e39f6bdcb46` (`practical L.L HELWAN.pdf`, 11
   pages). No ID or content record was created; broader LCS S1 remains incomplete pending that
   debt and consolidation.
+  The tier-5 all-subject `practical L.L HELWAN.pdf` atlas is now closed across all 11 rendered
+  pages. It contains no explicit station prompt, ordinary question, response field or printed
+  assessment key. Eleven page occurrences consolidate to nine distinct lower-limb osteology
+  teaching plates with 153 directly printed teaching-label mappings and one masked callout;
+  labels are not retrofitted into questions. Thirty-six searches resolve the nine separated
+  practical teaching scopes as 0 live / 0 pending / 9 new, with no prior-LCS plate reuse.
+  Eligible question evidence remains **442 prompts / 242 printed keys / 200 concepts = 9 live
+  / 49 pending / 142 new**; the new stand-alone practical dimension is **0 prompts / 9 teaching
+  plates / 153 printed teaching-label mappings / 0 assessment keys**. The rank-4/rank-5 debt
+  is **48 paths / 46 hashes**; next is tier-5 `src_1c10b647790aca3d4183`, `practical helwan
+  locomotor 1.pdf` (41 pages). No ID or content record was created; broader LCS S1 remains
+  incomplete pending that debt and consolidation.
 
 ## HU-PSY-104 psychology S1 family checkpoint
 

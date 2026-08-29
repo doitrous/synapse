@@ -3123,3 +3123,100 @@ evidence gate is tier-5 all-subject practical source `src_6da2de9f2e39f6bdcb46`,
 `6da2de9f2e39f6bdcb46c092922b8982ae54b6aef6e43f942dd1b534891e129c`). Broader LCS-103 S1
 remains incomplete. No download, ID, content record, catalogue update, import or source copy
 was created.
+
+## Family 28 — Tier-5 lower-limb osteology practical teaching atlas
+
+### Source identity, authority and full boundary
+
+| Field | Recorded value |
+|---|---|
+| Manifest source ID | `src_6da2de9f2e39f6bdcb46` |
+| File / SHA-256 | `practical L.L HELWAN.pdf` / `6da2de9f2e39f6bdcb46c092922b8982ae54b6aef6e43f942dd1b534891e129c` |
+| File boundary | 2,915,074 bytes · native PDF · 11 physical pages |
+| Manifest placement | `HU-LCS-103` · All Subjects · Practical · tier 5 |
+| Local corpus path | `Year 1/LCS 103/All Subjects/Practical/practical L.L HELWAN.pdf` |
+| Visible provenance | every page carries `ANATOMY`, `Practical bones` and `BY DR Mohamed Ali`; PDF metadata names author `Mohamed Ali` |
+| Authority finding | Helwan-local practical teaching atlas by filename/path placement; it is not an examination, station sheet, department question bank, response form or official answer key. |
+
+The manifest SHA-256 was recomputed and matched. All **11 physical pages** were rendered and
+read. The source contains labelled osteology plates rather than a learner-facing question
+bank: there is no instruction to identify a structure, station stem, ordinary question,
+response field, blank, mark allocation, correctness mark or answer convention. Numbered
+pointers and colour legends are shown simultaneously with their teaching labels. They are
+therefore recorded as directly printed **teaching-label mappings**, not retrofitted into
+image-dependent prompts and not counted as assessment keys.
+
+### Complete practical-unit classification
+
+| Physical pages | Source-first unit | Classification | Directly printed teaching labels / residue |
+|---:|---|---|---:|
+| 1 | hip bone, lateral view | one image-dependent practical teaching plate; no prompt | 27 numbered mappings |
+| 2 | hip bone, medial view | one image-dependent practical teaching plate; no prompt | 25 mappings (`1–24` plus `A`) |
+| 3 | femur, anterior view | one image-dependent practical teaching plate; no prompt | 14 numbered mappings |
+| 4 | femur, posterior view | one image-dependent practical teaching plate; no prompt | 24 numbered mappings |
+| 5–6 | tibia and fibula, anterior view | one two-page practical teaching plate; the same image is repeated while complementary tibial and fibular label lists are printed | 27 unique numbered mappings |
+| 7–8 | tibia and fibula, posterior view | one two-page practical teaching plate; the same image is repeated while complementary label lists are printed | 27 directly named unique mappings; callout `11` remains masked as `********`; page 8 masks `24`, but page 7 directly prints `24. Nutrient foramen` |
+| 9 | tarsal bones, medial/lateral/superior views | one colour-coded practical teaching plate; no prompt | 5 unique group-label mappings; repeated legends across views are not recounted |
+| 10 | metatarsal bones, superior/inferior/lateral views | one colour-coded practical teaching plate; no prompt | 1 directly printed group-label mapping; numeric tags `1–5` are not expanded into inferred names |
+| 11 | phalangeal bones, inferior view | one colour-coded practical teaching plate; no prompt | 3 unique group-label mappings |
+
+The **11 page occurrences consolidate to 9 source-distinct practical teaching plates** because
+pages 5–6 and 7–8 each split one repeated image across complementary label lists. The source
+prints **153 unique teaching-label mappings** (`27 + 25 + 14 + 24 + 27 + 27 + 5 + 1 + 3`)
+and leaves one unique callout masked. These counts do not become 153 questions, practical
+stations or keys. The assessment boundary is **0 practical/station prompts / 0 ordinary
+questions / 0 printed assessment keys**. No missing image item is rewritten into prose, and
+neither the masked callout nor the five metatarsal numeric tags is resolved by anatomy
+knowledge.
+
+### Source-first practical scopes, searches and prior-LCS adjudication
+
+| Practical teaching handle | Four required `find-existing` queries | External / prior-LCS result |
+|---|---|---|
+| `hip-bone-lateral-landmark-identification` | hip bone lateral landmarks; ilium ischium pubis lateral view; hip bone gluteal surface anatomy; acetabulum iliac spines identification | new; no same-scope live, pending or prior eligible-LCS plate |
+| `hip-bone-medial-landmark-identification` | hip bone medial landmarks; ilium medial surface anatomy; iliac fossa auricular surface arcuate line; hip bone pelvic surface identification | new; no same-scope live, pending or prior eligible-LCS plate |
+| `femur-anterior-landmark-identification` | femur anterior landmarks; anterior femur bone identification; femur head neck trochanter patellar surface; femur osteology anterior view | new; no same-scope live, pending or prior eligible-LCS plate |
+| `femur-posterior-landmark-identification` | femur posterior landmarks; posterior femur bone identification; linea aspera trochanteric fossa intercondylar fossa; femur osteology posterior view | new; no same-scope live, pending or prior eligible-LCS plate |
+| `tibia-fibula-anterior-landmark-identification` | tibia fibula anterior landmarks; anterior tibia fibula bone identification; tibial tuberosity interosseous border malleoli; leg bones osteology anterior view | new; no same-scope live, pending or prior eligible-LCS plate |
+| `tibia-fibula-posterior-landmark-identification` | tibia fibula posterior landmarks; posterior tibia fibula bone identification; soleal line malleolar fossa fibular notch; leg bones osteology posterior view | new; no same-scope live, pending or prior eligible-LCS plate |
+| `tarsal-bones-multiview-identification` | tarsal bones identification; talus calcaneus navicular cuboid cuneiform; foot tarsal bones medial lateral superior views; tarsal osteology practical | new; no same-scope live, pending or prior eligible-LCS plate |
+| `metatarsal-bones-multiview-identification` | metatarsal bones identification; first fifth metatarsal superior inferior lateral; foot metatarsal osteology; metatarsal bones practical | new; no same-scope live, pending or prior eligible-LCS plate |
+| `foot-phalanges-segment-identification` | foot phalanges identification; proximal intermediate distal phalanges; toe phalangeal bones practical; phalanges inferior view | new; no same-scope live, pending or prior eligible-LCS plate |
+
+All **9 × 4 = 36** literal searches completed with no live or pending hit. Accepted prior-LCS
+handles test muscle, vessel, joint, compartment and movement relations rather than these
+whole-plate osteology-identification scopes. The practical-teaching disposition is therefore
+`0 live / 0 pending / 9 new`. Because the source contains no assessment prompt, those nine
+teaching scopes are tracked separately and do not add nine tested concepts to the question
+checkpoint.
+
+### Separated question and practical evidence checkpoint
+
+| Evidence dimension | Before Family 28 | Family 28 delta | After Family 28 |
+|---|---:|---:|---:|
+| Eligible observed question records | 442 | +0 | 442 |
+| Eligible printed question keys | 242 | +0 | 242 |
+| Eligible distinct tested concepts | 200 | +0 | 200 |
+| Question live / pending / new | 9 / 49 / 142 | +0 / +0 / +0 | 9 / 49 / 142 |
+| Stand-alone practical/station prompt occurrences | 0 | +0 | 0 |
+| Distinct practical teaching plates | 0 | +9 | 9 |
+| Directly printed practical teaching-label mappings | 0 | +153 | 153 |
+| Masked/unresolved practical callouts | 0 | +1 | 1 |
+| Printed practical assessment keys | 0 | +0 | 0 |
+| Practical teaching-scope live / pending / new | 0 / 0 / 0 | +0 / +0 / +9 | 0 / 0 / 9 |
+| Practical content records created | 0 | +0 | 0 |
+
+The six explicitly external practical-relevant MCQs recorded in Families 13–14 remain inside
+their separate external-bank question inventory and are not merged into this eligible local
+stand-alone practical dimension. Family 28 adds practical teaching coverage, not assessment
+authority: the eligible question checkpoint remains **442 / 242 / 200 = 9 / 49 / 142**.
+
+Removing this unique tier-5 source from the accepted Family-27 remainder leaves **48
+rank-4/rank-5 path instances / 46 unique hashes**. The next evidence-ranked local gate is
+tier-5 all-subject practical source `src_1c10b647790aca3d4183`, `practical helwan locomotor
+1.pdf` (41 native-text pages; SHA-256
+`1c10b647790aca3d41833edb5e54fc5f354963a23c3f203da963df2f7970a2c3`). Its manifest snippet
+already contains `identify this bone` instructions, so it requires a full page-level
+station/prompt, printed-key, image-dependence, repeat and prior-LCS gate. Broader LCS-103 S1
+remains incomplete. No download, ID, content record, catalogue update, import or source copy
+was created.
