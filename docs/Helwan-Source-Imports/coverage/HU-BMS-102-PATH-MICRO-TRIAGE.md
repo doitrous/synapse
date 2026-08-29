@@ -1414,3 +1414,209 @@ tested concepts.
   assessment evidence remain S1 debt.
 - Tutorial 103/LCS material remains excluded. No S2 content, IDs, imports, catalogue,
   readiness, claim, download, commit, or push action is authorised in this lane.
+
+## Family 8 — pathology inflammation MCQ bank
+
+### Source identity, classification, and read boundary
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_6050cec97addd49101a3` |
+| Manifest SHA-256 | `6050cec97addd49101a398bb34a981f2cee4080dab3cefa3ffee85786d6d9ae9` |
+| Recomputed SHA-256 | `6050cec97addd49101a398bb34a981f2cee4080dab3cefa3ffee85786d6d9ae9` |
+| File | `MCQs - Inflammation MCQ.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-BMS-102` · Pathology · Questions/MCQs · tier 3 |
+| Container and family boundary | 12 native-text A4 pages; all 12 pages are this bounded family |
+| Read method | native text extracted for transcription and all 12 pages rendered at 150 dpi and visually checked |
+
+This is pathology assessment evidence. The family tests acute and chronic inflammation,
+suppurative patterns, granulomas, macrophages, exudation, and inflammatory mediators. It
+does not become a microbiology family merely because several options name organisms.
+
+### Prompt, printed-key, repeat, and collapse ledger
+
+The rendered source has 68 numbered MCQs and 68 visibly printed single-letter keys. No
+numbered prompt lacks a key and there is no orphaned key or separate answer section. The
+printed sequence is `1 B; 2 B; 3 B; 4 C; 5 A; 6 C; 7 D; 8 D; 9 C; 10 A; 11 D;
+12 A; 13 D; 14 C; 15 A; 16 C; 17 B; 18 B; 19 E; 20 E; 21 E; 22 E; 23 E;
+24 A; 25 D; 26 E; 27 D; 28 B; 29 E; 30 E; 31 C; 32 D; 33 D; 34 D; 35 C;
+36 D; 37 B; 38 C; 39 D; 40 C; 41 B; 42 D; 43 D; 44 A; 45 D; 46 C; 47 C;
+48 C; 49 E; 50 B; 51 E; 52 E; 53 D; 54 B; 55 D; 56 B; 57 C; 58 D; 59 A;
+60 B; 61 A; 62 A; 63 B; 64 C; 65 D; 66 B; 67 C; 68 C`.
+
+Questionable printed keys remain unchanged. In particular, Q17 treats association with
+repair as incompatible with acute inflammation; Q49 uses `osmotic pressure` for the
+interstitial protein effect; Q56 calls rheumatic fever an allergic granuloma; Q60 labels
+neutrophil emigration as the true statement about the `vascular response`; and Q68 calls
+the peripheral inflammatory zone the pyogenic membrane. These are recorded as printed,
+not medically repaired.
+
+| Ref | Source-first prompt assignment | Key | Repeat / tested-handle assignment |
+|---|---|---|---|
+| F8-Q01 | Fourth event among acute-inflammation vascular phenomena | B | retain → `acute-inflammation-vascular-event-sequence` |
+| F8-Q02 | Diabetic patient with multiloculated purulent neck swelling | B | retain → `carbuncle-diabetic-multiloculated-neck-lesion` |
+| F8-Q03 | Correct inflammatory-mediator pairing: C5a/LTB4 and chemotaxis | B | retain → `c5a-ltb4-leukocyte-chemotaxis` |
+| F8-Q04 | Acute-inflammation type not affecting mucous membranes | C | retain → `acute-inflammation-mucosal-type-serofibrinous-exception` |
+| F8-Q05 | Fourth event in permeability/exudate/haemoconcentration sequence | A | retain; collapse to Q01 |
+| F8-Q06 | Exception among granulomatous-inflammatory diseases | C | retain → `granulomatous-inflammation-differential-furunculosis` |
+| F8-Q07 | Epithelioid cells transformed from macrophages | D | retain → `epithelioid-cell-macrophage-origin` |
+| F8-Q08 | Bradykinin formed from precursor by kallikrein | D | retain → `bradykinin-kallikrein-precursor-formation` |
+| F8-Q09 | Fourth stage in pyogenic-infection/abscess/amyloid sequence | C | retain → `abscess-progression-chronic-amyloidosis-sequence` |
+| F8-Q10 | Meaning of angiogenesis | A | retain → `angiogenesis-new-blood-vessel-definition` |
+| F8-Q11 | Exception among acute-inflammation characteristics | D | retain → `acute-inflammation-characteristics-exudative-no-fibrosis-repair` |
+| F8-Q12 | Pain mediator in acute inflammation | A | retain → `bradykinin-acute-inflammatory-pain` |
+| F8-Q13 | Meaning of an abscess | D | retain → `abscess-acute-localized-suppurative-definition` |
+| F8-Q14 | Correct characteristic of acute inflammation | C | retain; collapse to Q11 |
+| F8-Q15 | Predominant cell in first 48 hours of acute inflammation | A | retain → `acute-inflammation-neutrophil-first-48-hours` |
+| F8-Q16 | Engulfment of particulate material by a cell | C | retain → `phagocytosis-engulfment-particulate-material-definition` |
+| F8-Q17 | Feature not characteristic of acute inflammation | B | retain; collapse to Q11; questionable key preserved |
+| F8-Q18 | Same vascular-phenomena prompt and options as Q01 | B | wording repeat → Q01; exclude |
+| F8-Q19 | Hypothalamic fever mediator in acute inflammation | E | retain → `interleukin-1-hypothalamic-fever` |
+| F8-Q20 | Fourth event in arteriolar/permeability/exudate/emigration sequence | E | retain; collapse to Q01 |
+| F8-Q21 | Effect of acute inflammation that is not useful | E | retain → `acute-inflammation-harmful-swelling-effect` |
+| F8-Q22 | Fever mediator acting on hypothalamus | E | retain; collapse to Q19 |
+| F8-Q23 | Bad effect of acute inflammation | E | retain; collapse to Q21 |
+| F8-Q24 | Directional leukocyte movement toward irritant | A | retain → `chemotaxis-directional-leukocyte-movement-definition` |
+| F8-Q25 | Organism causing suppurative inflammation | D | retain → `staphylococci-cause-suppurative-inflammation` |
+| F8-Q26 | Acute suppurative-inflammation example | E | retain → `carbuncle-acute-suppurative-inflammation-example` |
+| F8-Q27 | Exception among features of suppurative inflammation | D | retain → `suppurative-inflammation-features-abscess-cellulitis-neutrophils` |
+| F8-Q28 | Characteristic of catarrhal inflammation | B | retain → `catarrhal-inflammation-superficial-mucosal-discharge` |
+| F8-Q29 | Reordered-options acute suppurative-inflammation example | E | retain; collapse to Q26 |
+| F8-Q30 | Altered option set for organism causing suppuration | E | retain; collapse to Q25 |
+| F8-Q31 | Example of purulent inflammation | C | retain → `purulent-inflammation-lung-abscess-example` |
+| F8-Q32 | Altered stem defining an abscess | D | retain; collapse to Q13 |
+| F8-Q33 | Same suppurative-organism prompt and options as Q25 | D | wording repeat → Q25; exclude |
+| F8-Q34 | Same abscess-definition prompt and options as Q13 | D | wording repeat → Q13; exclude |
+| F8-Q35 | Altered option set for purulent-inflammation example | C | retain; collapse to Q31 |
+| F8-Q36 | Singular-stem variant of suppurative organism | D | retain; collapse to Q25 |
+| F8-Q37 | Exception among chronic-inflammation characteristics | B | retain → `chronic-inflammation-characteristics-no-vascular-congestion` |
+| F8-Q38 | Main antigen-presenting cell | C | retain → `macrophage-antigen-presentation` |
+| F8-Q39 | Defining cellular component of granuloma | D | retain → `granuloma-epithelioid-macrophage-main-cell` |
+| F8-Q40 | Cellular origin of multinucleated giant cells | C | retain → `multinucleated-giant-cell-macrophage-fusion` |
+| F8-Q41 | Noninfective granuloma example | B | retain → `sarcoidosis-noninfective-unknown-cause-granuloma` |
+| F8-Q42 | Hypersensitivity type describing granuloma | D | retain → `granuloma-type-four-hypersensitivity` |
+| F8-Q43 | Granuloma as chronic specific inflammation | D | retain → `granuloma-chronic-specific-inflammation` |
+| F8-Q44 | First step in granuloma pathogenesis | A | retain → `granuloma-pathogenesis-antigen-presentation-first-step` |
+| F8-Q45 | Main cell in granuloma: histiocyte wording | D | retain; collapse to Q39 |
+| F8-Q46 | Listed cell capable of phagocytosis | C | retain → `macrophage-phagocytic-cell` |
+| F8-Q47 | Most reliable evidence of inflammatory chronicity | C | retain → `chronic-inflammation-fibroblast-proliferation-chronicity` |
+| F8-Q48 | Antigen-presenting-cell repeat with reordered options | C | retain; collapse to Q38 |
+| F8-Q49 | Cause of raised tissue-space osmotic pressure in acute inflammation | E | retain → `acute-inflammation-tissue-osmotic-pressure-plasma-proteins`; questionable terminology preserved |
+| F8-Q50 | Same catarrhal-inflammation prompt/options as Q28, punctuation only | B | wording repeat → Q28; exclude |
+| F8-Q51 | Same not-useful acute-inflammation effect as Q21 | E | wording repeat → Q21; exclude |
+| F8-Q52 | Same acute-suppurative example prompt/options as Q26 | E | wording repeat → Q26; exclude |
+| F8-Q53 | Most serious effect of pseudomembranous inflammation | D | retain → `pseudomembranous-inflammation-toxemia-complication` |
+| F8-Q54 | Most important cell in granuloma: macrophage/epithelioid wording | B | retain; collapse to Q39 |
+| F8-Q55 | Sarcoidosis classified as granuloma of unknown cause | D | retain; collapse to Q41 |
+| F8-Q56 | Rheumatic fever classified as allergic granuloma | B | retain → `rheumatic-fever-allergic-granuloma`; questionable terminology preserved |
+| F8-Q57 | Exception among macrophage functions | C | retain → `macrophage-functions-pus-formation-exception` |
+| F8-Q58 | Granuloma pathogenesis related to type IV hypersensitivity | D | retain; collapse to Q42 |
+| F8-Q59 | Directional leukocyte movement toward irritant | A | retain; collapse to Q24 |
+| F8-Q60 | True statement about acute-inflammatory vascular response | B | retain; collapse to Q15; questionable scope label preserved |
+| F8-Q61 | Exudate versus transudate cellular content | A | retain → `exudate-versus-transudate-cell-content` |
+| F8-Q62 | Manifestation caused by increased vascular permeability | A | retain → `increased-vascular-permeability-swelling-manifestation` |
+| F8-Q63 | Giant cell with horseshoe-shaped nuclear arrangement | B | retain → `langhans-giant-cell-horseshoe-nuclei` |
+| F8-Q64 | Inflammation type in burned skin | C | retain → `burn-serous-inflammation` |
+| F8-Q65 | Substance enhancing phagocytosis | D | retain → `opsonin-enhances-phagocytosis` |
+| F8-Q66 | Chemotactic agent among listed mediators | B | retain; collapse to Q03 |
+| F8-Q67 | Enzyme required for abscess localization | C | retain → `coagulase-abscess-localization` |
+| F8-Q68 | Zone to which `pyogenic membrane` is applied in acute abscess | C | retain → `pyogenic-membrane-peripheral-inflammatory-zone`; questionable wording preserved |
+
+The six repeated occurrences are Q18→Q01, Q33→Q25, Q34→Q13, Q50→Q28,
+Q51→Q21, and Q52→Q26. Punctuation-only change in Q50 does not create a new wording;
+changed stems or option sets elsewhere remain retained records. Thus `68 - 6 = 62`
+retained question records. Fifteen scope-tight multi-prompt groups contribute 19 further
+concept reductions, so `62 - 19 = 43` source-distinct tested handles. Every observed
+occurrence is assigned exactly once.
+
+### Search-before-mint register and prior-BMS-102 adjudication
+
+Each of the 43 handles received four required searches: **172 required searches** across
+live state, all pending import roots, and Families 1–7 of this ledger. Follow-ups inspected
+full live/pending records for acute inflammation, chemotactic factors, opsonins,
+connective-tissue macrophages, granulomas, oedema, exudates, rheumatic fever, coagulase,
+abscesses, and catarrhal inflammation. A disease-specific example, generic parent, or
+evidence sentence attached only to a differently scoped concept was not credited.
+
+| Handle · retained refs | Four required queries | External disposition and exact-scope decision | Prior BMS-102 relation |
+|---|---|---|---|
+| `acute-inflammation-vascular-event-sequence` · Q01,Q05,Q20 | `acute inflammation vascular event sequence fourth`; `vascular phenomena inflammation order`; `permeability exudate slowing leukocyte emigration`; `arteriolar dilation hemoconcentration emigration sequence` | new; live `CON-IMM-0F12EDB7C7CC8E` names vasodilatation, permeability and migration but not their tested order | delta; narrower than F2 `acute-inflammation-pathogenesis` |
+| `carbuncle-diabetic-multiloculated-neck-lesion` · Q02 | `diabetic neck multiloculated pus carbuncle`; `carbuncle clinical diagnosis`; `multiple connected abscesses diabetes`; `red hot swelling back neck carbuncle` | new | delta |
+| `c5a-ltb4-leukocyte-chemotaxis` · Q03,Q66 | `C5a leukotriene B4 chemotaxis`; `complement C5a chemotactic agent`; `LTB4 leukocyte migration`; `inflammatory chemotactic mediators` | new; live `CON-IMM-96D7626B256F92` names broad chemotactic factor classes but not the tested C5a/LTB4 identities | delta |
+| `acute-inflammation-mucosal-type-serofibrinous-exception` · Q04 | `serofibrinous inflammation mucous membrane exception`; `acute inflammation types mucosa`; `catarrhal membranous necrotizing mucosal inflammation`; `serofibrinous serosal inflammation` | new; respiratory catarrhal records do not compare the morphologic patterns | delta; narrower than F2 `acute-inflammation-classification` |
+| `granulomatous-inflammation-differential-furunculosis` · Q06 | `furunculosis granulomatous inflammation exception`; `granuloma disease differential`; `actinomycosis sarcoidosis Crohn rheumatic fever granuloma`; `furuncle suppurative not granulomatous` | new | collapse to F1 `infective-granuloma-differential` |
+| `epithelioid-cell-macrophage-origin` · Q07 | `epithelioid cell macrophage origin`; `epithelioid histiocyte transformed macrophage`; `granuloma epithelioid cells origin`; `activated macrophage epithelial appearance` | live `CON-INF-8658F6CDBBB685`; its evidence directly states activated macrophages become epithelioid histiocytes | collapse to F7 `epithelioid-cell-macrophage-origin` |
+| `bradykinin-kallikrein-precursor-formation` · Q08 | `bradykinin formed precursor kallikrein`; `kininogen kallikrein bradykinin`; `bradykinin synthesis pathway`; `factor XII kinin system` | new; haemostasis and renal bradykinin records do not state this formation step | delta |
+| `abscess-progression-chronic-amyloidosis-sequence` · Q09 | `acute abscess chronic abscess secondary amyloidosis sequence`; `incomplete evacuation abscess chronicity`; `pyogenic infection abscess progression`; `chronic suppuration reactive amyloid` | new | delta |
+| `angiogenesis-new-blood-vessel-definition` · Q10 | `angiogenesis formation new blood vessels`; `angiogenesis definition`; `neovascularization definition`; `new vessels from existing vasculature` | new; tumour-angiogenesis records are disease-specific applications, not the general definition | delta |
+| `acute-inflammation-characteristics-exudative-no-fibrosis-repair` · Q11,Q14,Q17 | `acute inflammation rapid short exudative fibrosis exception`; `acute inflammation characteristics`; `exudative acute inflammatory response`; `acute versus chronic inflammation features` | new | collapse to F1 `acute-inflammation-characteristics` |
+| `bradykinin-acute-inflammatory-pain` · Q12 | `bradykinin pain acute inflammation`; `inflammatory pain mediator`; `kinin pain inflammation`; `acute inflammation pain mechanism` | new; the live renal-afferent bradykinin record is a different scope | collapse to F1 `inflammatory-pain-mediators` |
+| `abscess-acute-localized-suppurative-definition` · Q13,Q32 | `abscess acute localized suppurative inflammation`; `abscess definition pathology`; `localized pus collection acute inflammation`; `suppurative lesion definition` | new; disease-specific abscess and liquefactive-necrosis records do not supply this general definition | collapse to F2 `localized-suppurative-example` |
+| `acute-inflammation-neutrophil-first-48-hours` · Q15,Q60 | `acute inflammation neutrophils first 48 hours`; `early acute inflammatory predominant cell`; `neutrophil emigration before other cells`; `acute inflammation cellular timing` | new; general neutrophil and leukocyte-migration records omit the tested timing/predominance | collapse to F2 `acute-inflammation-predominant-cell` |
+| `phagocytosis-engulfment-particulate-material-definition` · Q16 | `phagocytosis engulfment particulate material`; `phagocytosis definition`; `cell ingestion particles`; `phagosome versus phagocytosis` | new; live opsonin/phagosome and pending membrane-transport records are adjacent but do not define the full process | collapse to F2 `phagocytosis-definition` |
+| `interleukin-1-hypothalamic-fever` · Q19,Q22 | `interleukin 1 hypothalamus fever inflammation`; `IL1 endogenous pyrogen`; `acute inflammation fever mediator`; `cytokine raises hypothalamic set point` | new; septic-shock cytokine material mentions IL-1 and fever without the hypothalamic mediator proposition | delta |
+| `acute-inflammation-harmful-swelling-effect` · Q21,Q23 | `acute inflammation harmful effect swelling`; `bad effects acute inflammation edema`; `swelling not useful inflammation`; `inflammatory tissue swelling harm` | new | delta |
+| `chemotaxis-directional-leukocyte-movement-definition` · Q24,Q59 | `chemotaxis directional leukocyte movement irritant`; `chemotaxis definition inflammation`; `leukocytes move toward chemical gradient`; `directional cell migration inflammatory site` | new; the live chemotactic-factor record does not define directional movement | delta |
+| `staphylococci-cause-suppurative-inflammation` · Q25,Q30,Q36 | `staphylococci cause suppurative inflammation`; `pyogenic bacteria staphylococcus`; `organism purulent inflammation`; `staphylococcal pus formation` | new; S. aureus identification and organ-specific suppurative-disease records are not this general association | delta |
+| `carbuncle-acute-suppurative-inflammation-example` · Q26,Q29 | `carbuncle acute suppurative inflammation`; `purulent inflammation carbuncle`; `localized suppurative lesion example`; `carbuncle pathology classification` | new | delta; related to F2's boil example, but carbuncle is the specific tested lesion |
+| `suppurative-inflammation-features-abscess-cellulitis-neutrophils` · Q27 | `suppurative inflammation abscess cellulitis neutrophils necrosis`; `suppuration features pathology`; `localized versus spreading purulent inflammation`; `pus necrosis excess neutrophils` | new | delta |
+| `catarrhal-inflammation-superficial-mucosal-discharge` · Q28 | `catarrhal inflammation superficial mucosal discharge`; `catarrhal inflammation definition`; `mucous membrane hypersecretion inflammation`; `catarrhal exudate surface` | new; live/pending acute-laryngitis records are organ-specific and omit the general superficial-discharge definition | delta |
+| `purulent-inflammation-lung-abscess-example` · Q31,Q35 | `lung abscess purulent inflammation example`; `purulent inflammation pathology`; `suppurative lung abscess`; `pus forming lung lesion` | new; lung-abscess and liquefactive-necrosis records do not classify it as the requested purulent pattern | delta |
+| `chronic-inflammation-characteristics-no-vascular-congestion` · Q37 | `chronic inflammation features vascular congestion exception`; `chronic inflammation gradual onset fibrosis`; `chronic inflammatory morphology`; `long duration macrophages fibrosis` | new | collapse to F2 `chronic-inflammation-morphology` |
+| `macrophage-antigen-presentation` · Q38,Q48 | `macrophage antigen presentation main cell`; `antigen presenting cell macrophage`; `macrophage presents antigen immune system`; `professional APC macrophage` | pending `CON-HEM-681584C9DC1F94` and `ART-101-HIS-CONNECTIVE-TISSUE-CELLS`; both directly state macrophage antigen presentation | delta |
+| `granuloma-epithelioid-macrophage-main-cell` · Q39,Q45,Q54 | `granuloma main cell epithelioid macrophage histiocyte`; `granuloma composed epithelioid cells`; `most important cell granuloma`; `histiocytes granulomatous inflammation` | new; live TB-specific epithelioid-cell material does not establish the general granuloma main-cell proposition | delta; related to F2's broader granulomatous-inflammation handle |
+| `multinucleated-giant-cell-macrophage-fusion` · Q40 | `multinucleated giant cells macrophage fusion`; `giant cell origin histiocytes`; `macrophages fuse granuloma`; `Langhans foreign body giant cell formation` | pending `ART-101-HIS-CONNECTIVE-TISSUE-CELLS`; it directly states macrophages fuse into multinucleated giant cells | delta |
+| `sarcoidosis-noninfective-unknown-cause-granuloma` · Q41,Q55 | `sarcoidosis noninfective granuloma unknown cause`; `sarcoid granuloma classification`; `idiopathic granulomatous inflammation sarcoidosis`; `noncaseating noninfectious granuloma` | new | delta; F1's noncaseating differential is broader and does not state unknown cause |
+| `granuloma-type-four-hypersensitivity` · Q42,Q58 | `granuloma type IV hypersensitivity`; `granulomatous inflammation delayed hypersensitivity`; `T cell macrophage granuloma mechanism`; `type four reaction granuloma` | new; TB-specific delayed-hypersensitivity records cannot stand for all granulomas | delta |
+| `granuloma-chronic-specific-inflammation` · Q43 | `granuloma chronic specific inflammation`; `granulomatous inflammation classification`; `specific chronic inflammation granuloma`; `granuloma not tumor necrosis` | new | collapse to F2 `granulomatous-inflammation` |
+| `granuloma-pathogenesis-antigen-presentation-first-step` · Q44 | `granuloma pathogenesis antigen presentation first step`; `granuloma formation sequence`; `macrophage presents persistent antigen granuloma`; `T cell activation granulomatous inflammation` | new; general macrophage antigen-presentation records do not state this granuloma sequence | delta |
+| `macrophage-phagocytic-cell` · Q46 | `macrophage phagocytic cell`; `cells capable phagocytosis`; `mononuclear phagocyte`; `macrophage ingests particles` | pending `CON-HEM-157B01DD5EAEB6` and `ART-101-HIS-CONNECTIVE-TISSUE-CELLS`; both directly describe tissue macrophage phagocytosis | delta |
+| `chronic-inflammation-fibroblast-proliferation-chronicity` · Q47 | `fibroblast proliferation evidence chronic inflammation`; `inflammation chronicity fibrosis marker`; `reliable evidence inflammatory chronicity`; `fibroblastic repair chronic inflammation` | new | delta; more specific than F2's general chronic-inflammation morphology |
+| `acute-inflammation-tissue-osmotic-pressure-plasma-proteins` · Q49 | `acute inflammation tissue osmotic pressure plasma proteins`; `interstitial protein escape osmotic pressure`; `vascular permeability tissue oncotic pressure`; `protein rich exudate interstitial osmosis` | new | delta |
+| `pseudomembranous-inflammation-toxemia-complication` · Q53 | `pseudomembranous inflammation toxemia complication`; `diphtheria pseudomembrane toxin effect`; `pseudomembranous inflammation serious effect`; `toxemia membrane inflammation` | new | delta; F7 defines toxaemia but does not test this complication association |
+| `rheumatic-fever-allergic-granuloma` · Q56 | `rheumatic fever allergic granuloma`; `rheumatic granuloma classification`; `Aschoff body hypersensitivity granuloma`; `noninfective allergic granulomatous inflammation` | new; live rheumatic-fever immune-sequela records do not use or establish the source's granuloma classification | delta |
+| `macrophage-functions-pus-formation-exception` · Q57 | `macrophage functions pus formation exception`; `macrophage phagocytosis antigen presentation cytokines giant cells`; `macrophage functions pathology`; `pus formed by neutrophils not macrophages` | pending `ART-101-HIS-CONNECTIVE-TISSUE-CELLS`; it directly enumerates phagocytosis, giant-cell fusion, and antigen presentation, excluding pus formation | delta |
+| `exudate-versus-transudate-cell-content` · Q61 | `exudate transudate cell content`; `exudate more blood derived cells`; `inflammatory exudate high protein cells`; `transudate versus exudate definition` | new; organ-specific exudate records and prior isolated definitions do not state this comparison | delta |
+| `increased-vascular-permeability-swelling-manifestation` · Q62 | `increased vascular permeability swelling inflammation`; `capillary leak inflammatory edema`; `vascular permeability manifestation swelling`; `acute inflammation edema mechanism` | pending `ART-CVS-OEDEMA`; it directly assigns inflammatory oedema/swelling to increased capillary permeability | collapse to F6 `inflammatory-edema-increased-permeability` |
+| `langhans-giant-cell-horseshoe-nuclei` · Q63 | `Langhans giant cell horseshoe nuclei`; `peripheral nuclear arrangement giant cell`; `tuberculous giant cell morphology`; `Langhan cell nuclear pattern` | new; pending caseation and general giant-cell-fusion records omit this nuclear arrangement | delta; narrower than F2 `tubercle-morphology` |
+| `burn-serous-inflammation` · Q64 | `burn serous inflammation skin`; `serous inflammation burn blister`; `skin burn inflammatory type`; `serous exudate blister` | new | collapse to F2 `serous-inflammation-burn` |
+| `opsonin-enhances-phagocytosis` · Q65 | `opsonin enhances phagocytosis`; `opsonization facilitates ingestion`; `IgG C3b phagocyte binding`; `phagocytosis enhanced by opsonin` | live `CON-IMM-DA2EA4EC41707C`; it directly defines an opsonin as facilitating phagocytosis | delta |
+| `coagulase-abscess-localization` · Q67 | `coagulase abscess localization`; `staphylococcal coagulase walls off abscess`; `enzyme localizes pus collection`; `coagulase fibrin abscess` | new; live coagulase identification records do not state abscess localization | delta |
+| `pyogenic-membrane-peripheral-inflammatory-zone` · Q68 | `pyogenic membrane peripheral zone abscess`; `abscess wall inflammatory cells`; `pyogenic membrane definition`; `acute abscess zones peripheral` | new; pending abscess and neutrophil records do not define this zone | delta |
+
+### Family-8 checkpoint and cumulative BMS-102 pathology
+
+| Measure | Family 8 | Cumulative after Family 8 |
+|---|---:|---:|
+| Raw observed prompt occurrences | 68 | 644 |
+| Printed key occurrences | 68 | 293 |
+| Retained question records after wording dedupe | 62 | 443 |
+| Source-distinct tested concepts | 43 | — |
+| External live / pending / no same-scope match | 2 / 5 / 36 | family-local disposition |
+| Family-8 handles already represented in Families 1–7 | 11 | subtract from Family-8 concept addition |
+| Cross-family concept delta | 32 | `43 - 11 = 32` |
+| **Cumulative distinct tested concepts** | **+32** | **322** |
+
+External arithmetic is `2 + 5 + 36 = 43`. The 11 prior-BMS-102 overlaps are the
+infective-granuloma differential, epithelioid-cell origin, acute-inflammation
+characteristics, inflammatory pain, localized suppurative/abscess proposition,
+acute-neutrophil predominance, phagocytosis definition, chronic-inflammation morphology,
+granulomatous-inflammation definition, permeability-driven inflammatory swelling, and
+serous inflammation in burns. External and prior-family dispositions remain separate.
+Cumulative arithmetic is `576 + 68 = 644` observed prompts, `225 + 68 = 293` printed key
+occurrences, `381 + 62 = 443` retained records, and `290 + (43 - 11) = 322` concepts.
+
+### Exact remaining debt after Family 8
+
+- `src_6050cec97addd49101a3` is fully bounded: all 12 native/rendered pages, 68 numbered
+  prompts, 68 printed keys, six repeat occurrences, 62 retained records, and 43 tested
+  handles have an assignment and four-query search row.
+- The intervening tier-3 `src_932f5302a132003041e5` · `MCQs - L13 MCQ.pdf` is manifest-
+  marked as a duplicate of `Pathology/Notes and Summaries/Thrombus & Embolism.pdf`; it is
+  not silently counted as a new assessment family.
+- The next ranked nonduplicate local pathology question family is tier-3
+  `src_9a70f046e6b0b21ba4ee` · `MCQs - L4 MCQ.pdf` (seven pages). It requires source-first
+  rendering and adjudication before lower-ranked banks.
+- Other pathology revision/assessment banks and all BMS-102 microbiology assessment
+  evidence remain S1 debt. Tutorial 103/LCS material remains excluded. No S2 content,
+  IDs, imports, catalogue, readiness, claim, download, commit, or push action is authorised.
