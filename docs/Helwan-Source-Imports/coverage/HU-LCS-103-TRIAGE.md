@@ -880,14 +880,102 @@ arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Fa
 malformed auxiliary handle remain outside tested-concept totals; Family 9 adds neither an
 assessment prompt nor an unresolved handle.
 
+## Family 10 — second Pathology quiz-content note image
+
+### Source identity and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_e8309c2953d770051cf0` |
+| Manifest SHA-256 | `e8309c2953d770051cf02cdadc0c64577b94fa999ca3270c003ac848121e5269` |
+| Recomputed SHA-256 | `e8309c2953d770051cf02cdadc0c64577b94fa999ca3270c003ac848121e5269` |
+| File | `Most important notes pathology (Quiz content)2.jpg` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Pathology/Assessments/Quizzes/Most important notes pathology (Quiz content)2.jpg` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Pathology · Assessments/Quizzes |
+| Container | one 1920 × 2560 progressive JPEG photograph of a ruled spiral-notebook page |
+| Read method | original-resolution visual read, source-first; manifest OCR used only as a transcription cross-check |
+
+This is a second entirely handwritten pathology study-note page. It contains seven complete
+numbered statements, N12–N18, with no interrogative stem, answer choices, blank response
+area, typeset solution, response mark or answer-key layout. The arrows attach tumour names
+or ranking phrases to features; they do not mark answers. The source therefore contributes
+**zero complete prompts, zero incomplete prompts and zero printed or handwritten answer
+keys**. All seven statements remain auxiliary evidence only.
+
+The sequence jumps from Family 9's N10 to N12: N11 is not visible in either available image,
+so no wording or handle is inferred for it. A fragment after N14's `Codman's Triangle` is
+fully scribbled out. The two readable N14 features make the statement complete; the deleted
+fragment is recorded but not reconstructed or counted separately.
+
+### Exact note-statement inventory
+
+| Note | Visible handwritten statement | Prompt status | Key status |
+|---:|---|---|---|
+| N12 | `Osteoid Osteoma → <2 cm`; `Femur & tibia`; `Relived by Aspirin` | source's `Relived` spelling preserved; note, not a prompt | none |
+| N13 | `Osteoblastoma → >2 cm`; `Posterior Components of Vertebrae`; `Not Respond to Aspirin` | terse grammar preserved; note, not a prompt | none |
+| N14 | `Osteo Sarcoma → Codman's Triangle`; one following fragment is scribbled out; `Sunburst Pattern` | readable statement retained without reconstructing deleted text; note, not a prompt | none |
+| N15 | `Giant Cell Tumor (Osteoclastoma) → Stromal Cell is Main Cause` | broad causal wording preserved; note, not a prompt | none |
+| N16 | `Ewing's Sarcoma → Onion Skin Appearance`; `5-20 Year` | source's singular `Year` preserved; note, not a prompt | none |
+| N17 | `Commonest Bone Tumor → Metastasis` | ranking wording preserved without correction; note, not a prompt | none |
+| N18 | `Most Common Primary Tumor → Multiple Myeloma` | ranking wording preserved without correction; note, not a prompt | none |
+| **Family 10** | **7 complete numbered note statements; N11 absent and one deleted N14 fragment not counted** | **0 complete / 0 incomplete prompts** | **0** |
+
+There is no exact repeated statement and no within-source semantic collapse: seven statement
+assignments yield seven source-distinct handles. None repeats a prior LCS handle. In
+particular, N12's `osteoid osteoma` is a distinct disease scope from Family 9's `osteoma`
+and is not collapsed merely because their names overlap.
+
+### Statement-to-handle assignment and search ledger
+
+All seven handles received four required searches against live state, `docs/import-ready`,
+`docs/questions-import-ready`, every `docs/*-Source-Imports` root and the accepted prior-LCS
+ledger: **7 × 4 = 28 required invocations**. Thirteen terminology and spelling follow-ups
+resolved British/American variants, hyphenation and false substring matches, for **41
+invocations total**.
+
+| # | Statement assignment | Four required queries | Same-idea/same-scope result | Evidence disposition | Placement only if later promoted by assessment evidence |
+|---:|---|---|---|---|---|
+| 1 | `N12→osteoid-osteoma-clinical-pattern` | `osteoid osteoma`; `relieved by aspirin`; `nidus less than 2 cm`; `femur tibia osteoid` | No substantive live, pending or prior-LCS record owns this size, site and aspirin-response pattern. The manifest/source is the only exact disease hit; Family 9's osteoma handle is a different entity. | note-only candidate; external new | MSK/PATH |
+| 2 | `N13→osteoblastoma-clinical-pattern` | `osteoblastoma`; `giant osteoid osteoma`; `posterior elements vertebrae`; `not relieved by aspirin` | No substantive record owns the size, vertebral-posterior-element and aspirin-response comparison. Exact-name hits are limited to the Helwan manifest/source. | note-only candidate; external new | MSK/PATH |
+| 3 | `N14→osteosarcoma-radiographic-signs` | `osteosarcoma`; `osteogenic sarcoma`; `Codman triangle`; `sunburst pattern` | No live or import-ready record owns both radiographic signs. A separate Helwan BMS-102 triage source currently records a sunburst/malignant-osteoid handle, but a triage evidence match is not substantive live or pending coverage; flag the cross-lane collision for later consolidation. | note-only candidate; external new; cross-lane triage match | MSK/PATH |
+| 4 | `N15→giant-cell-tumor-stromal-cell-biology` | `giant cell tumor`; `osteoclastoma`; `stromal cell`; `giant-cell tumor bone` | The only stromal-cell hits concern normal marrow reticular stroma. No record owns giant-cell tumour/osteoclastoma or this source's causal stromal-cell wording. | note-only candidate; external new | MSK/PATH |
+| 5 | `N16→ewing-sarcoma-clinical-radiology` | `Ewing sarcoma`; `Ewing's sarcoma`; `onion skin appearance`; `5 20 years Ewing` | Exact-word and hyphenation follow-ups reject broad `Ewing` substring noise; no substantive disease, age-range or onion-skin record exists. | note-only candidate; external new | MSK/PATH |
+| 6 | `N17→bone-metastasis-commonest-bone-tumor` | `commonest bone tumor`; `most common bone tumor`; `bone metastasis`; `secondary bone tumor` | Pending metastatic-calcification material mentions diffuse skeletal metastasis only as a cause of destructive bone loss, not the source's tumour-frequency ranking. A separate BMS-102 triage example is breast-primary lytic metastasis, also a different objective. | note-only candidate; external new | MSK/PATH |
+| 7 | `N18→multiple-myeloma-most-common-primary-bone-tumor` | `multiple myeloma`; `most common primary bone tumor`; `plasma cell tumor bone`; `primary malignant bone tumor` | Live hits are taxonomy-only. Pending pathology identifies myeloma as a marrow plasma-cell tumour in amyloidosis/calcification contexts, but does not own this primary-bone-tumour ranking; adding it there would create an unrelated objective. | note-only candidate; external new | MSK/PATH |
+
+### Family-10 checkpoint and cumulative LCS-103 delta
+
+| Family-10 evidence bucket | Numbered note assignments | Source-distinct handles | Live | Pending | New | Unresolved |
+|---|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 0 | 0 | 0 | 0 | 0 | 0 |
+| New-to-LCS resolved note-only candidates | 7 | 7 | 0 | 0 | 7 | 0 |
+| **Family 10 auxiliary evidence** | **7** | **7** | **0** | **0** | **7** | **0** |
+
+These are auxiliary evidence dispositions, not a tested-concept delta. The assessment-led
+module delta is **+0 observed prompts, +0 printed keys and +0 resolved tested concepts**.
+Anatomy remains at 27 numbered auxiliary statements; Pathology is now `10 + 7 = 17`, for
+`27 + 17 = 44` auxiliary statements across both subjects. The absent N11 and deleted N14
+fragment are not statements and do not inflate that count.
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 9 | 168 | 75 | 82 | 4 | 25 | 53 |
+| Family 10 assessment delta | +0 | +0 | +0 | +0 | +0 | +0 |
+| **LCS-103 cumulative after Family 10** | **168** | **75** | **82** | **4** | **25** | **53** |
+
+Arithmetic checks: `0 prior + 7 new-to-LCS = 7` statement assignments; no repeat or
+collapse leaves seven handles; `0 live + 0 pending + 7 new + 0 unresolved = 7`. Module
+arithmetic remains `4 + 25 + 53 = 82`. Family 3's unresolved phase-4 crop and Family 5's
+malformed auxiliary handle remain outside tested-concept totals; Family 10 adds neither an
+assessment prompt nor an unresolved handle.
+
 ## Exact next debt
 
-- All five local Anatomy quiz-content images and the first Pathology quiz-content image are
-  now triaged. The next untriaged local Pathology image is `src_e8309c2953d770051cf0`,
-  `Most important notes pathology (Quiz content)2.jpg`; `src_758188828699ae3569f4`,
-  `Most important notes pathology (Quiz content)3.jpg`, follows. Their visual prompt/note
-  classification, key status, repeat collapse and semantic search remain wholly outside this
-  checkpoint.
+- All five local Anatomy quiz-content images and the first two Pathology quiz-content images
+  are now triaged. The next and final untriaged local Pathology image is
+  `src_758188828699ae3569f4`, `Most important notes pathology (Quiz content)3.jpg`. Its
+  visual prompt/note classification, key status, repeat collapse and semantic search remain
+  wholly outside this checkpoint.
 - Pathology `TUTORIAL 103` is explicitly LCS-103 evidence even though it resides in the
   BMS-102 department-bank PDF `src_88169dc9b6ad00181a0d`. Printed pp. 256–262 (physical
   pp. 16–22) contain **33 raw prompts**: 19 MCQs and 14 written/completion/table prompts,

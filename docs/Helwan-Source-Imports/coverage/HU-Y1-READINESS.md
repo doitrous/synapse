@@ -157,7 +157,12 @@ Year-1 table receives literal `TRIAGE APPROVED`.
 - The first pathology image `src_4ee3e3e63fa0804576fb` is handwritten Pathology Notes: ten
   numbered statements, no assessment prompts and no keys. Its ten auxiliary handles have 0
   live, 3 pending and 7 new dispositions; the pending scopes are osteoporosis demographics,
-  vitamin-D-deficiency rickets/osteomalacia, and vitamin-C-deficiency scurvy findings. The
-  auxiliary-note total is now 37 across anatomy and pathology, with assessment totals unchanged.
-- Continue the remaining two pathology assessment images, then Tutorial 103; this remains S1
-  evidence only.
+  vitamin-D-deficiency rickets/osteomalacia, and vitamin-C-deficiency scurvy findings.
+- The second pathology image `src_e8309c2953d770051cf0` is handwritten notes: seven numbered
+  statements (N12–N18), no assessment prompts and no keys. N11 is absent, and the fully
+  scribbled N14 fragment is not reconstructed or counted. Its seven auxiliary handles are all
+  new; osteoid osteoma is distinct from Family-9 osteoma, and the osteosarcoma sunburst/Codman
+  collision is only separate BMS triage evidence, not substantive coverage. The auxiliary-note
+  total is now 44, with assessment totals unchanged.
+- Continue the final pathology assessment image, then Tutorial 103; this remains S1 evidence
+  only.
