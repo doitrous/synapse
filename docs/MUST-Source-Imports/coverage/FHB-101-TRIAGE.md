@@ -1782,3 +1782,49 @@ Page 1 prints Q1–5 and Q7–9 (eight prompts), page 2 prints Q10–19 (ten pro
 **Remaining file list:** removing this one complete substantive-text inventory row and its unique hash leaves **89 selected inventory paths / 84 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `e66e1377db9a265521766ddbd59ec46eddd6fb2ce894f6051687739add2c5579`.  By the pinned triage text classification, the remaining debt is **46 substantive-text, six sparse-text, and 37 empty-text** rows.
 
 **BLOCKED — S1 cannot be approved:** this assessment source is fully processed, but the remaining 89 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
+
+## Continuation pass — Physiology written-exercise question / answer family
+
+The asserted starting remaining-hash checksum `e66e1377db9a265521766ddbd59ec46eddd6fb2ce894f6051687739add2c5579` was reproduced from the sorted, newline-joined (with **no** trailing newline) set of 84 hashes before this pass.  The next evidence-ranked substantive `05 MCQs` family is the paired three-page Physiology written-exercise question sheet and its answered copy.  All six pages of the two unique documents were rendered and read.  The response blanks and answer-sheet layout establish an **assessment** source, not lecture or practical-teaching material.
+
+| Inventory source path | SHA-256 | Pages | Printed prompts read | Printed keys / answers |
+|---|---|---:|---:|---:|
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physio Written exercise questions.pdf` | `bc12b680f19c703645cc26e0296cd5ab27b66d565c8480c0a07859842bee3d07` | 3 | 15 | 0 |
+| `Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - written exercise questions-2.pdf`; `_Exact Duplicates/Year 1/Semester 101/FHB 101/Physiology/05 MCQs/MCQs - Physio Written exercise questions (Answers).pdf` | `784b370995586c0c1adac303fff438cc0c6faad9897a678229dfe6b2d3beec80` | 3 | repeated 15, plus 1 additional printed prompt | 16 |
+
+The second row is one byte-identical answer document at two inventory paths and is counted once.  It repeats every question-sheet prompt and prints one additional, directly answered `Enumerate the effect of anemia` prompt.  That visibly printed extra prompt is counted once; it is not inferred from either the blank sheet or the answer text.  The exact family arithmetic is `15 repeated prompt stems + 1 answer-sheet-only printed prompt = 16` distinct prompt observations, with **16** directly printed answers.
+
+### Prompt, assignment, duplicate/collapse, and search ledger
+
+| Printed prompt reference | Directly aligned printed answer evidence (summary; no inference or correction) | Source-distinct tested concept | Search and duplicate/collapse result |
+|---|---|---|---|
+| Question-sheet prompt 1 | Healthy marrow, liver, erythropoietin, tissue oxygen supply, and diet | Factors regulating erythropoiesis | `erythropoietin` is pending-hit; `EPO erythroid` returned no current record.  The earlier FHB EPO/hypoxia item is only one component, so the printed broader factor set remains a distinct source concept. |
+| Question-sheet prompts 2–3 | DNA synthesis/nuclear maturation; deficiency from diet or malabsorption with macrocytic anaemia | Folate/B12-dependent DNA synthesis, maturation, and deficiency | The two linked prompts name the same nutrients and one mechanism/consequence chain, so they collapse explicitly.  `macrocytic anemia` is live-hit; prior FHB already records the B12/folate maturation concept. |
+| Question-sheet prompt 4 | Normocytic normochromic, microcytic hypochromic, and macrocytic anaemia | Anaemia morphological classification | Both search phrases returned no current record; exact prior-FHB anaemia-classification assignment makes this a prior-FHB duplicate. |
+| Question-sheet prompt 5 | Microcytic hypochromic anaemia from deficient iron absorption; macrocytic anaemia from deficient vitamin B12/folate | Post-gastrectomy iron/B12-folate deficiency anaemia patterns | `macrocytic anemia` is live-hit; `gastrectomy anemia` returned no current record.  The gastrectomy/B12 pattern is already assigned in prior FHB, so no second concept is added. |
+| Answer-sheet-only printed prompt | Hypoxia and increased cardiac work | Hypoxic effects and cardiac workload in anaemia | Both search phrases returned no current record; this repeats the prior-FHB anaemia hypoxia/cardiac-work concept. |
+| Question-sheet prompt 6 | Primary and secondary polycythaemia | Primary and secondary polycythaemia | `polycythemia` is pending-hit; the exact classification is already triaged in FHB. |
+| Question-sheet prompt 7 | Vasoconstriction, platelet plug, fibrin clot, then clot dissolution | Haemostasis sequence after vessel injury | Both search phrases returned no current record; the injury/vasoconstriction and platelet/fibrin sequence is already represented in FHB. |
+| Question-sheet prompts 8 and 9 | Factors I, V, VIII, and XIII; thrombin activation, consumption, serum absence, storage/inflammation features | Fibrinogen-group factor membership and characteristics | Prompt 8's generic three-group enumeration is a parent repeat of prompts 9–11; its fibrinogen member is collapsed here.  Both searches returned no current record, but prior FHB already has the fibrinogen-group concept. |
+| Question-sheet prompts 8 and 10 | Factors II, VII, IX, and X; hepatic/vitamin-K synthesis, factor-II consumption, storage stability | Prothrombin-group factor membership and characteristics | The same parent-enumeration collapse applies.  Both `prothrombin group` and `factors II VII IX X` returned no current record; this full group-membership/properties combination is not a prior-FHB assignment. |
+| Question-sheet prompts 8 and 11 | Factors XI and XII; not consumed in clotting, present in serum, stable on storage | Contact-group factor membership and characteristics | The parent-enumeration collapse applies.  `contact group` is live-hit; its XI/XII contact-factor content is already triaged in FHB. |
+| Question-sheet prompt 12 | Enzyme cascade; thrombin converts fibrinogen to fibrin; factor X activates prothrombin | Coagulation cascade from factor X to fibrin | Both search phrases returned no current record; this reproduces the prior-FHB fibrinogen/thrombin and common-pathway assignments. |
+| Question-sheet prompt 13 | Extrinsic thromboplastin/factor-VII route and intrinsic contact/factors-XII-to-IX/VIII route to factor X | Intrinsic and extrinsic activation of factor X | Both search phrases returned no current record; the two pathways are already triaged in FHB. |
+| Question-sheet prompt 14 | Smooth endothelium, hepatic removal, heparin, prostacyclin, antithrombin III, and fibrinolysis | Physiological and specific anti-clotting mechanisms | Both search phrases returned no current record; each printed mechanism is covered by the prior-FHB anticoagulation/fibrinolysis assignments, so this composite adds none. |
+| Question-sheet prompt 15 | Thrombocytopenic purpura, vitamin-K deficiency, haemophilia, thrombosis, and DIC | Haemostasis abnormalities: bleeding, thrombosis, and DIC | `thrombocytopenic purpura` and `disseminated intravascular coagulation` are pending-hit.  The named abnormality groups are already triaged in FHB. |
+
+The assignment and search ledgers above reconcile one-to-one at **14 named concepts ↔ 14 search rows**.  The only source-level collapses are prompts 2–3 (one nutrient–mechanism chain) and prompt 8's parent group enumeration into its three specific prompts 9–11; the answer sheet's fifteen repeats do not create further prompt or concept rows.  At source-concept search level the results are live 3 / pending 3 / new 8.  After prior-FHB deduplication, the broad erythropoiesis-factor set is one pending addition and the complete prothrombin-group membership/properties set is one new addition; all other rows are prior-FHB duplicates.  Thus the cumulative delta is **live 0 / pending 1 / new 1** and **+2** distinct concepts.
+
+## Consolidated S1 table — completed sources only
+
+| Module | Questions triaged | Keys recovered | Distinct concepts tested | Live-hit | Pending-hit | New | Placement for new |
+|---|---:|---:|---:|---:|---:|---:|---|
+| FHB 101 (completed sources, including the Physiology written-exercise question / answer family) | 961 | 780 | 266 | 60 | 64 | 142 | TBD |
+
+**Completed-source delta:** `+16` questions, `+16` printed keys / answers, `+14` source-distinct tested concepts / `+2` after source-level collapse and prior-FHB deduplication.  The cumulative search buckets reconcile exactly: `60 + 64 + 142 = 266`; no module ID, content record, placement, source, or catalogue entry was created.
+
+## Remaining sources / blocker — after Physiology written-exercise family
+
+**Remaining file list:** removing the three complete substantive-text inventory paths and their two unique hashes leaves **86 selected inventory paths / 82 unique SHA-256s**.  Their sorted, newline-joined hash set (no trailing newline) checksum is `40f2bfe018b7f354c604835870d6321af7f2043f19092c5fb1fc67999ed9442f`.  By the pinned triage text classification, the remaining debt is **43 substantive-text, six sparse-text, and 37 empty-text** rows.  The processed/remaining hash accounting is `24 + 82 = 106` selected unique hashes.
+
+**BLOCKED — S1 cannot be approved:** this assessment family is fully processed, but the remaining 86 selected source paths still require complete printed-question/key and source-supported concept triage before approval.
