@@ -4512,3 +4512,108 @@ The next manifest-ordered local BMS-102 candidate is tier-6
 SHA-256 `e121796ed9807de71e51a739df2cf3aa5b11b1b2f62c5d49817f4e5fddb3f499`, four native-text
 pages under `Microbiology / Notes and Summaries`; it requires its own authority and
 prompt-versus-teaching gate before any count is admitted.
+
+## Family 39 — tier-6 Introduction to Bacteriology and Bacterial Structure study bank
+
+### Source identity, full-page boundary, and authority ruling
+
+| Field | Verified result |
+|---|---|
+| Manifest source | `src_e121796ed9807de71e51` |
+| Local path | `BMS 102/Microbiology/Notes and Summaries/Introduction to Bacteriology and Bacterial Structure.pdf` |
+| SHA-256 / boundary | `e121796ed9807de71e51a739df2cf3aa5b11b1b2f62c5d49817f4e5fddb3f499` · four native-text pages |
+| Format / authority | Locally formatted MCQ study bank; no university, department, examiner, sitting, marks, or official-key provenance is printed |
+| Read boundary | pp. 1–3 carry Q1–Q18 in order; p. 4 is a red `Key Answers` register numbered 1–18 |
+
+All four physical pages were rendered and visually read. The eighteen prompts each have four
+visible options, and the p. 4 red register directly aligns one printed letter to each Q1–Q18.
+The register is a source-supported study-bank answer list, never an official answer-key claim.
+
+### Prompt, printed-key, source-first, and prior-BMS ledger
+
+| Ref | Source-tested scope | Printed key | Source-first / prior-BMS decision |
+|---|---|---|---|
+| F39-Q01 | Prokaryote lacks a well-defined nucleus | A | New handle |
+| F39-Q02 | Bacterial cell wall provides rigidity | A | New handle |
+| F39-Q03 | Gram-positive wall is thicker/simpler | A | New handle |
+| F39-Q04 | LPS is in Gram-negative outer membrane | B | New handle |
+| F39-Q05 | Mesosome functions: respiration, division, replication | D | New composite handle |
+| F39-Q06 | Pili attach to host cells | C | Semantic collapse with Q17 |
+| F39-Q07 | Bacterial respiration site | D | New handle |
+| F39-Q08 | Pili transfer genetic material between cells | C | Exact prior reuse F29-Q06 |
+| F39-Q09 | Spore enables harsh-condition survival | D | New handle |
+| F39-Q10 | Capsule resists phagocytosis | C | New handle |
+| F39-Q11 | Periplasm is Gram-negative | B | New handle |
+| F39-Q12 | Anthrax capsule is protein | B | New handle |
+| F39-Q13 | Volutin stores phosphate | B | New handle |
+| F39-Q14 | Spheroplast: Gram-negative partial wall loss | C | New handle |
+| F39-Q15 | Glycocalyx facilitates surface adherence | C | New handle |
+| F39-Q16 | H antigen is flagellar | C | Exact prior reuse F29-Q08 |
+| F39-Q17 | Ordinary pili adhere to host-cell receptors | B | Same source handle as Q06 |
+| F39-Q18 | Gonococcal pili loss removes disease ability | C | New applied handle |
+
+There are **18 complete prompt occurrences / 18 directly printed answer occurrences / 18
+retained records / 17 source-distinct tested handles**. Q06 and Q17 have different wording and
+options but test the same ordinary-pili host-adherence claim, so they collapse only at the handle
+layer; neither occurrence is discarded. Q05's legacy mesosome formulation and every printed
+letter are source-preserved, not repaired.
+
+### Search and cross-family disposition
+
+Each of the seventeen handles has four exact-scope searches, reusing the already-reviewed
+four-query registers for the two exact F29 reuses and running fresh searches for the other
+fifteen: **68 required searches**. The fresh queries covered the named feature plus its
+function, location, organism, or comparison boundary. No search returned an exact same-scope
+live or pending record. The family disposition is **0 live / 0 pending / 17 no same-scope**;
+this is an inventory result, not verification of the source's biomedical claims.
+
+| Handle | Exact four-query register | Search provenance |
+|---|---|---|
+| F39-Q01 prokaryote nuclear membrane | `prokaryote absence nuclear membrane`; `bacteria well defined nucleus`; `prokaryotic nuclear membrane feature`; `bacterial prokaryote nucleus` | Fresh: no same-scope |
+| F39-Q02 cell-wall rigidity | `bacterial cell wall rigidity`; `cell wall provides rigidity bacteria`; `bacterial wall structural rigidity`; `function bacterial cell wall rigidity` | Fresh: no same-scope |
+| F39-Q03 Gram-positive thickness | `gram positive thicker cell wall`; `gram positive thick simple wall`; `gram positive versus negative cell wall thickness`; `thicker peptidoglycan gram positive` | Fresh: no same-scope |
+| F39-Q04 LPS outer-membrane location | `lipopolysaccharide gram negative outer membrane`; `LPS location outer membrane gram negative`; `gram negative outer membrane component LPS`; `bacterial outer membrane lipopolysaccharide` | Fresh: no same-scope |
+| F39-Q05 mesosome composite | `mesosome bacterial respiration division chromosome replication`; `mesosome functions bacteria`; `bacterial mesosome function`; `mesosome respiration binary fission` | Fresh: no same-scope |
+| F39-Q06/Q17 ordinary-pili adherence | `ordinary pili host cell adherence`; `pili attachment host cells bacteria`; `pili colonization antigen adherence receptors`; `bacterial pili primary function adherence` | Fresh: no same-scope |
+| F39-Q07 mesosome respiration site | `site respiration bacterial cells mesosome`; `bacterial respiration mesosome`; `prokaryote respiratory site mesosome`; `bacterial cell respiration location` | Fresh: no same-scope |
+| F39-Q08 sex-pilus transfer | `sex pilus conjugation transfer`; `bacterial genetic material transfer sex pilus`; `conjugation structure sex pilus`; `sex pili DNA transfer bacteria` | Reused F29-Q06 register; exact prior scope |
+| F39-Q09 spore harsh survival | `bacterial spores harsh environmental conditions`; `endospore survival harsh conditions`; `bacterial spore resistant environment`; `special structure bacterial survival spore` | Fresh: no same-scope |
+| F39-Q10 capsule antiphagocytosis | `bacterial capsule phagocytosis resistance`; `capsule antiphagocytic function bacteria`; `capsule resists phagocytosis`; `bacterial capsule function phagocytosis` | Fresh: no same-scope |
+| F39-Q11 Gram-negative periplasm | `periplasm only gram negative`; `periplasmic space gram negative bacteria`; `location periplasm bacterial cells`; `gram positive versus gram negative periplasm` | Fresh: no same-scope |
+| F39-Q12 anthrax protein capsule | `anthrax capsule protein`; `Bacillus anthracis capsule poly D glutamate`; `anthrax capsule composition`; `anthrax protein capsule` | Fresh: no same-scope |
+| F39-Q13 volutin phosphate | `volutin granules phosphate`; `metachromatic granules phosphate storage`; `volutin bacterial inclusion phosphate`; `volutin granule function` | Fresh: no same-scope |
+| F39-Q14 spheroplast | `spheroplast gram negative partial cell wall`; `definition spheroplast bacteria`; `spheroplast partial cell wall removal`; `gram negative spheroplast` | Fresh: no same-scope |
+| F39-Q15 glycocalyx adherence | `bacterial glycocalyx adherence surfaces`; `glycocalyx primary function bacterial adherence`; `bacterial glycocalyx attachment`; `glycocalyx biofilm adherence` | Fresh: no same-scope |
+| F39-Q16 H-antigen flagella | `H antigen flagella serotyping`; `bacterial H antigen appendage`; `flagellar H antigen`; `H antigen laboratory serotyping` | Reused F29-Q08 register; exact prior scope |
+| F39-Q18 gonococcal pili disease | `Neisseria gonorrhoeae pili mutants lose virulence`; `gonococcal pili disease ability`; `Neisseria lack pili adherence virulence`; `gonorrhoeae pilus mutants disease` | Fresh: no same-scope |
+
+The only prior-BMS exact scopes are F39-Q08 to F29-Q06
+(`conjugation-sex-pilus-dna-transfer`) and F39-Q16 to F29-Q08
+(`bacterial-h-antigen-flagella-serotyping`). F39-Q06/Q17's general adherence handle is not
+collapsed into F24's urinary-*E. coli* application or F12's broader ordinary-versus-sex-pilus
+enumeration; F39-Q05's three-function composite is not collapsed into its individual
+respiration or binary-fission neighbours. Thus **17 handles - 2 prior exact reuses = +15
+concepts**.
+
+| Measure | Family 39 | Auxiliary cumulative (Families 12–39) | Primary assessment checkpoint | All eligible S1 evidence |
+|---|---:|---:|---:|---:|
+| Raw observed prompt occurrences | 18 | 235 | 765 | 1,000 |
+| Printed study-answer occurrences | 18 | 169 | 405 | 574 |
+| Retained question records | 18 | 232 | 552 | 784 |
+| Source-distinct tested handles / required searches | 17 / 68 | 229 / — | — | — |
+| Cross-family concept delta | +15 | +170 over primary | 372 | `372 + 170 = 542` |
+| **Distinct tested concepts** | **+15** | **170 auxiliary additions** | **372** | **542** |
+
+The primary checkpoint remains **765 / 405 / 552 / 372**. Auxiliary evidence is now
+**235 / 169 / 232 / 229 / +170**, and all eligible S1 evidence is **1,000 / 574 / 784 / 542**.
+This tier-6 study-bank source does not raise exam/sitting, recurrence, mark-weight,
+official-key, readiness, or claims status.
+
+### Exact next debt after Family 39
+
+`src_e121796ed9807de71e51` is exhausted across all four pages with no resume boundary. The
+next manifest-ordered local BMS-102 candidate is tier-6
+`src_345e192618eaa531a357` · `Lec3 sterilization _ disinfection2020 (1).pdf.pdf`,
+SHA-256 `345e192618eaa531a357662a9995c7a29c08909805cf05061a9fce662e2a3316`, one native-text
+page under `Microbiology / Notes and Summaries`; it needs its own source and authority gate
+before any count is admitted.
