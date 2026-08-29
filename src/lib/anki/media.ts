@@ -51,6 +51,18 @@ function guessMime(name: string): string {
   return MIME_BY_EXT[ext] ?? 'application/octet-stream'
 }
 
+/**
+ * Copies bytes into a fresh, ArrayBuffer-backed view. fflate/fzstd hand back
+ * `Uint8Array<ArrayBufferLike>`, which the DOM `BlobPart`/`File` types reject
+ * (they require an `ArrayBuffer`, not a possibly-shared buffer); a fresh
+ * `Uint8Array` is `Uint8Array<ArrayBuffer>` and assigns cleanly.
+ */
+function toBlobPart(bytes: Uint8Array): BlobPart {
+  const copy = new Uint8Array(bytes.byteLength)
+  copy.set(bytes)
+  return copy
+}
+
 const IMG_SRC_RE = /(<img\b[^>]*?\bsrc\s*=\s*)("([^"]*)"|'([^']*)')/gi
 const SOUND_RE = /\[sound:([^\]]+)\]/gi
 
@@ -101,7 +113,7 @@ export async function materializeMedia(
   let done = 0
   for (const name of needed) {
     const bytes = bytesByName.get(name)!
-    const file = new File([bytes], name, { type: guessMime(name) })
+    const file = new File([toBlobPart(bytes)], name, { type: guessMime(name) })
     const id = await uploadDoc(file, undefined, { kind: 'resource' })
     refByName.set(name, `${DOC_REFERENCE_PREFIX}${id}`)
     done += 1
