@@ -1515,14 +1515,145 @@ Eligible cumulative remains `5 + 28 + 78 = 111`. The 50 auxiliary note statement
 Family 3's unresolved crop and Family 5's malformed note remain unchanged and outside both
 assessment totals.
 
+## Family 15 — Physiology Tutorial Loco-coordination 103
+
+### Source identity, provenance and visual classification
+
+| Field | Verified value |
+|---|---|
+| Manifest source | `src_103bc8809c3045ada51d` |
+| Manifest SHA-256 | `103bc8809c3045ada51ddac314ccd3d464bc11e846d2bbbd291e865e8d0fd9be` |
+| Recomputed SHA-256 | `103bc8809c3045ada51ddac314ccd3d464bc11e846d2bbbd291e865e8d0fd9be` |
+| File | `MCQs - College MCQs Physiology 103 tutorial with answers.pdf` |
+| Organised local path | `/Users/doitrous/Desktop/helwan/Year 1/LCS 103/Physiology/Questions/MCQs/MCQs - College MCQs Physiology 103 tutorial with answers.pdf` |
+| Manifest classification | Helwan `HU_Y1` · `HU-LCS-103` · Physiology · Questions/MCQs · solved copy · source tier 3 |
+| Source label | title slide prints `Physiology Tutorial Loco-coordination 103`, `Dr.Noha Osama`, `Lecturer of physiology`, `Faculty of Medicine`; filename's corpus label is `College MCQs`, not `External` |
+| Authority decision | eligible module-specific tutorial/self-assessment evidence, lower than a sitting exam; no university name is added beyond the manifest and organised provenance |
+| Container | 23-page, unencrypted, non-interactive 720 × 540 pt landscape PDF with a native text layer |
+| Read method | all 23 physical pages rendered at 160 dpi and visually read source-first; native text used only to cross-check wording; no download |
+
+Pages 1–9 are teaching slides, p. 10 introduces an `MCQ Quiz (Multiple Choice Questions
+And Answers)`, pp. 11–16 contain six highlighted MCQ slides, p. 17 is an action-potential
+divider, pp. 18–22 contain five highlighted MCQ slides, and p. 23 is a closing image. The
+source prints no question numbers, so Q1–Q11 below are ledger labels assigned in physical
+slide order. Every MCQ has exactly one translucent green highlight over an option. Because
+the source identifies itself as `with answers` and the highlighting is systematic and
+digitally embedded, these are **11 printed keys**, not reader handwriting.
+
+Q4 on p. 14 and Q6 on p. 16 are different prompt forms testing the same length–tension
+relationship: Q4 highlights `b`, `Contraction strength is related to initial length`, while
+Q6 asks which skeletal-muscle-contraction statement is not correct and highlights `c`, `No
+relation between the muscle length and the force of contraction`. Both occurrences and
+both printed keys are retained, then semantically collapsed to one concept. Q7 on p. 18 is
+a distinct all-or-none nerve-trunk question with highlighted option `c`; there is no exact
+prompt repeat in this source.
+
+Source wording is preserved rather than repaired: Q2 asks which `muscles` calmodulin is
+most closely related to; Q4 prints `Skeletalmuscle`; Q7 prints `In all or non rule`; and Q11
+prints `Salutatory conduction`. Q7's and Q10's printed keys are recorded without correction
+even where the pending physiology material makes the keyed proposition medically
+contestable.
+
+### Page-by-page assessment, teaching and key inventory
+
+| Physical page | Visible content | Assessment prompts | Printed keys | Classification |
+|---:|---|---:|---:|---|
+| 1 | tutorial title and lecturer credit | 0 | 0 | provenance |
+| 2 | `Refresh your mind` stock image | 0 | 0 | divider |
+| 3 | motor-neuron-pool and motor-unit definitions | 0 | 0 | teaching |
+| 4 | excitation–contraction coupling title/image | 0 | 0 | divider |
+| 5 | first three neuromuscular-junction/coupling steps | 0 | 0 | teaching |
+| 6 | cross-bridge-cycle image | 0 | 0 | teaching image only |
+| 7 | `What is the function of smooth muscle fibers?` plus calmodulin/MLCK note | 0 | 0 | teaching self-check, not assessment |
+| 8 | single-unit versus multi-unit smooth-muscle coordination | 0 | 0 | teaching |
+| 9 | single-unit versus multi-unit properties and sites | 0 | 0 | teaching |
+| 10 | MCQ quiz divider | 0 | 0 | divider |
+| 11 | Q1 involuntary muscle types | 1 | 1 (`b`) | keyed MCQ |
+| 12 | Q2 calmodulin and smooth muscle | 1 | 1 (`a`) | keyed MCQ |
+| 13 | Q3 excitation–contraction-coupling exception | 1 | 1 (`a`) | keyed MCQ |
+| 14 | Q4 skeletal-muscle length and contraction strength | 1 | 1 (`b`) | keyed MCQ |
+| 15 | Q5 tropomyosin function at rest | 1 | 1 (`b`) | keyed MCQ |
+| 16 | Q6 skeletal-muscle contraction / length–force false statement | 1 | 1 (`c`) | keyed MCQ; semantic repeat of Q4 |
+| 17 | action-potential divider | 0 | 0 | divider |
+| 18 | Q7 all-or-none rule / nerve-trunk proposition | 1 | 1 (`c`) | distinct keyed MCQ |
+| 19 | Q8 depolarisation and sodium permeability | 1 | 1 (`a`) | keyed MCQ |
+| 20 | Q9 nerve resting membrane potential | 1 | 1 (`b`) | keyed MCQ |
+| 21 | Q10 repolarisation | 1 | 1 (`b`) | keyed MCQ |
+| 22 | Q11 saltatory conduction | 1 | 1 (`c`) | keyed MCQ |
+| 23 | `Thank you` closing image | 0 | 0 | closing |
+| **Family 15 assessment** | **all pages** | **11** | **11** | **eligible keyed tutorial MCQs** |
+
+There is no practical task, slide-identification item, specimen, trace interpretation or
+stand-alone written assessment. The p. 7 question is a teaching-heading self-check before
+the MCQ divider and remains outside assessment counts. Teaching slides contribute five
+source-distinct context handles: `motor-neuron-pool-definition`, `motor-unit-definition`,
+`neuromuscular-junction-transmission`, `smooth-muscle-contraction-regulation`, and
+`single-vs-multiunit-smooth-muscle-coordination`. The latter three are already pending and
+the first two are supported by pending motor-unit material; none is added to tested-concept
+or the 50 Anatomy/Pathology auxiliary-note totals.
+
+### One-to-one assignment, search and disposition ledger
+
+Every MCQ occurrence is assigned exactly once. Eleven prompt/key occurrences collapse to
+nine source-distinct tested handles: Q3/Q5 share the accepted coupling scope, and Q4/Q6 are
+opposite-polarity forms of the same length–tension relationship, giving `11 - 2 = 9`. Q7
+alone carries the all-or-none nerve-trunk handle. Six handles reuse accepted prior-LCS
+physiology concepts; three are new to LCS. Neither the Family 13 nor Family 14 external bank
+contains a same-scope handle, and its separate totals therefore do not change.
+
+Each of the nine handles received one search in each required surface: live state
+(`server/data` and `src/data`), pending state (`docs/import-ready` and
+`docs/questions-import-ready`), every prior `docs/*-Source-Imports` lane, and accepted prior
+LCS. That is **9 × 4 = 36 required invocations**. One terminology/phrase-order follow-up
+per handle gives **45 total invocations**.
+
+| # | Prompt assignment → handle | Four-query bundle | Prior-LCS / external / corpus result | Disposition |
+|---:|---|---|---|---|
+| 1 | Q1 → `muscle-type-physiology-comparison` | `involuntary muscle types`; `cardiac smooth involuntary`; `skeletal voluntary`; `muscle action comparison` | Exact accepted Family-3 handle; pending comparison material owns the scope. No external-bank same-scope handle. | pending; prior-LCS reuse |
+| 2 | Q2 → `smooth-muscle-contraction-regulation` | `calmodulin smooth muscle`; `myosin light chain kinase`; `smooth calcium regulation`; `troponin calmodulin comparison` | Exact accepted Family-3 handle; pending smooth-muscle article owns calmodulin–MLCK regulation. Family-14 dense-body/caveolae morphology is different-grain. | pending; prior-LCS reuse |
+| 3 | Q3,Q5 → `skeletal-muscle-excitation-contraction-coupling` | `excitation contraction coupling`; `tropomyosin actin binding site`; `T tubule calcium`; `cross bridge ATP` | Exact accepted Family-3 handle; pending coupling article owns both the sequence and tropomyosin sub-objective. Family-14 tubular-system Histology handle is different-grain. | pending; prior-LCS reuse |
+| 4 | Q4,Q6 → `skeletal-muscle-length-tension-relationship` | `skeletal length tension`; `initial muscle length force`; `optimal sarcomere length`; `filament overlap tension` | Pending `103-BMS-physiology` material owns the curve and overlap mechanism; no prior-LCS or external-bank same-scope handle. Q4 states the positive relation and Q6 negates it, so these are a semantic collapse, not an exact repeat. | pending; new to LCS |
+| 5 | Q7 → `all-or-none-rule-excitable-tissues` | `all or none rule`; `threshold maximal response`; `nerve trunk graded`; `single fibre all or none` | Pending AU/Kasr concepts own the single-fibre rule and nerve-trunk exception. No prior-LCS tested or external-bank match. The printed `c` key is preserved although the pending material states that a nerve trunk is graded. | pending; new to LCS |
+| 6 | Q8 → `membrane-sodium-conductance-events` | `depolarization sodium permeability`; `Na influx action potential`; `voltage gated sodium`; `potassium efflux depolarization` | Exact accepted Family-3 handle; pending nerve-action-potential material owns the sodium-permeability event. | pending; prior-LCS reuse |
+| 7 | Q9 → `resting-membrane-potential` | `resting membrane potential`; `selective membrane permeability`; `Na K pump RMP`; `nerve RMP ions` | Exact accepted Family-3 handle. Its accepted pending disposition is retained; a narrower live diffusion statement does not replace the full mechanism scope. | pending; prior-LCS reuse |
+| 8 | Q10 → `nerve-action-potential` | `nerve repolarization`; `sodium channel inactivation`; `potassium efflux`; `action potential phases` | Exact accepted Family-3 handle; pending action-potential article owns depolarisation/repolarisation. Printed key `b` is preserved without repair. | pending; prior-LCS reuse |
+| 9 | Q11 → `saltatory-conduction-nodes-of-ranvier` | `saltatory conduction`; `node to node`; `myelinated nerve`; `120 meter second` | Pending Kasr/AU saltatory-conduction concepts own node-restricted regeneration, speed and energy economy; no prior-LCS or external-bank same-scope handle. | pending; new to LCS |
+
+Disposition arithmetic is **0 live + 9 pending + 0 new = 9** source-distinct handles.
+Within those nine, `6 prior-LCS reuse + 3 new-to-LCS = 9`. Corpus disposition and module
+novelty are separate dimensions: the three new-to-LCS handles already have pending coverage,
+so none is a content-new mint candidate.
+
+### Family-15 checkpoint and cumulative LCS-103 delta
+
+| Family-15 evidence bucket | Prompt occurrences | Printed keys | Source-distinct handles | Net module concepts | Live | Pending | New |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Prior-LCS handle reuse | 7 | 7 | 6 | 0 | 0 | 0 | 0 |
+| New-to-LCS pending handles | 4 | 4 | 3 | 3 | 0 | 3 | 0 |
+| **Family 15 assessment** | **11** | **11** | **9** | **3** | **0** | **3** | **0** |
+
+| Module checkpoint | Observed question records | Printed keys recovered | Distinct resolved concepts tested | Live-hit | Pending-hit | New |
+|---|---:|---:|---:|---:|---:|---:|
+| Cumulative after Family 14 | 201 | 75 | 111 | 5 | 28 | 78 |
+| Family 15 net delta | +11 | +11 | +3 | +0 | +3 | +0 |
+| **LCS-103 cumulative after Family 15** | **212** | **86** | **114** | **5** | **31** | **78** |
+
+Arithmetic checks: `6 + 5 = 11` assessment slides; `11` systematic highlights give 11
+printed keys; the Q3/Q5 coupling collapse and Q4/Q6 length–tension collapse give `11 - 2 =
+9` source handles, with no exact prompt repeat; `6 prior-LCS + 3 new-to-LCS = 9`; `0 + 9 +
+0 = 9`; `201 + 11 = 212`; `75 + 11 = 86`; `111 + 3 = 114`; and `5 + 31 + 78 = 114`.
+The external-bank cumulative stays separately unchanged at
+`241 prompts / 241 keys / 75 handles = 9 live / 66 pending / 0 new`. The 50 auxiliary
+Anatomy/Pathology notes and the two previously tracked malformed/unresolved items are also
+unchanged.
+
 ## Exact next debt
 
-- Both explicitly external rank-4 Histology banks are now fully inventoried and remain
-  excluded from eligible Helwan assessment totals.
-- Rank 5 is next. The first named local source in the wave plan is
-  `src_103bc8809c3045ada51d`, `MCQs - College MCQs Physiology 103 tutorial with answers.pdf`
-  (23 pages, solved, native-text, tier 3). It requires source-first prompt/key inventory,
-  authority review and dedupe before the second named rank-5 source
-  `src_5328082a807132f5cb29`.
+- Rank-5 Physiology tutorial `src_103bc8809c3045ada51d` is fully inventoried as eligible,
+  lower-authority tutorial/self-assessment evidence rather than a sitting exam.
+- The next named rank-5 local source is `src_5328082a807132f5cb29`,
+  `MCQs - College MCQs 103 quick revision with answers.pdf` (3 pages, solved, native-text,
+  tier 3, preferred member of its paired/twin set). It requires source-first subject split,
+  prompt/key inventory and cross-family dedupe.
 - No S2 work is authorised until ranks 1–6 are consolidated and `/root` issues the literal
   `TRIAGE APPROVED` for Helwan Year 1.

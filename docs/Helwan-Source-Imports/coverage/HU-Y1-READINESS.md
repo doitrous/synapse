@@ -215,5 +215,11 @@ Year-1 table receives literal `TRIAGE APPROVED`.
   (9 live / 66 pending / 0 new) outside eligible Helwan assessment totals. Family-14 Q26 is a
   practical-relevant MCQ, not a separate practical artifact; eligible LCS-103 remains 201/75/111
   and 5/28/78. This remains S1 evidence only.
-- Continue rank-5 LCS-103 source `src_103bc8809c3045ada51d`, then
-  `src_5328082a807132f5cb29`, with source-first eligibility and prompt/key triage.
+- Eligible lower-authority Physiology tutorial `src_103bc8809c3045ada51d` is now triaged:
+  11 systematically highlighted keyed MCQs, no exact repeat, and nine handles after the
+  Q3/Q5 coupling and Q4/Q6 length–tension semantic collapses. Six handles reuse prior-LCS
+  scope and three are pending-only module additions, bringing eligible LCS-103 to 212/86/114
+  and 5/31/78. Its status as tutorial/self-assessment evidence does not elevate it to a
+  sitting exam; the external-bank totals remain separately 241/241/75 and 9/66/0.
+- Continue rank-5 `src_5328082a807132f5cb29` with source-first subject split, prompt/key
+  inventory and cross-family dedupe.
